@@ -1,330 +1,290 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { playVoice, stopVoice } from "./speech";
 
-type MuseumCard = {
+type Era = {
   id: string;
-  image: string;
-  alt: string;
-  name: string;
-  age: string;
-  source: string;
-  sourceUrl: string;
-  story: string;
+  years: string;
+  title: string;
+  childLine: string;
+  active?: boolean;
 };
 
-const museumCards: MuseumCard[] = [
+const eras: Era[] = [
+  { id: "early", years: "约200万年前—约前21世纪", title: "远古时期", childLine: "人们学会用火，也开始种庄稼" },
+  { id: "states", years: "约前21世纪—前771年", title: "夏商西周", childLine: "早期国家出现了，汉字也慢慢长大" },
+  { id: "change", years: "前770年—前221年", title: "春秋战国", childLine: "社会大变化，许多人一起想办法" },
+  { id: "united", years: "前221年—220年", title: "秦汉时期", childLine: "更大的统一国家建立起来" },
+  { id: "meeting", years: "220年—589年", title: "三国两晋南北朝", childLine: "人们迁徙、生活，也彼此交融" },
+  { id: "tang", years: "581年—960年", title: "隋唐五代", childLine: "国家统一，城市繁荣，对外交流活跃", active: true },
+  { id: "cities", years: "916年—1368年", title: "辽宋夏金元", childLine: "城市热闹，贸易和科技继续发展" },
+  { id: "later", years: "1368年—1911年", title: "明清时期", childLine: "统一多民族国家继续巩固和发展" },
+];
+
+const sourceCards = [
   {
-    id: "dancer",
+    image: "/tang-groom.jpg",
+    alt: "唐代陶制胡人马夫俑",
+    label: "照料远行的马",
+    source: "大都会艺术博物馆藏唐代马夫俑",
+    sourceUrl: "https://www.metmuseum.org/art/collection/search/63016",
+  },
+  {
     image: "/tang-dancer.jpg",
     alt: "唐代陶制外来舞者俑",
-    name: "跳舞的人",
-    age: "唐代 · 7世纪",
-    source: "美国大都会艺术博物馆",
+    label: "带来新的舞蹈",
+    source: "大都会艺术博物馆藏唐代舞者俑",
     sourceUrl: "https://www.metmuseum.org/art/collection/search/49552",
-    story: "看，他正在转身跳舞！唐朝的长安能听见许多地方的音乐，也能看到不同的舞蹈。",
   },
   {
-    id: "groom",
-    image: "/tang-groom.jpg",
-    alt: "唐代陶制外来马夫俑",
-    name: "照顾马的人",
-    age: "唐代 · 7至8世纪",
-    source: "美国大都会艺术博物馆",
-    sourceUrl: "https://www.metmuseum.org/art/collection/search/63016",
-    story: "他在照顾远行的马。古时候没有汽车，马和骆驼帮助人们走过很远的路。",
-  },
-  {
-    id: "cup",
     image: "/tang-cup.jpg",
     alt: "唐代鎏金银八角杯",
-    name: "漂亮的银杯",
-    age: "唐代 · 8世纪",
-    source: "美国大都会艺术博物馆",
+    label: "做出新的器物",
+    source: "大都会艺术博物馆藏唐代银杯",
     sourceUrl: "https://www.metmuseum.org/art/collection/search/42182",
-    story: "这只杯子的样子很特别。唐朝工匠会观察远方来的器物，再做出自己的新作品。",
   },
 ];
 
-const narration = [
-  "你好呀！我是一只一千多岁的唐三彩骆驼。今天，跟着我去长安看看吧！",
-  "先仔细看看我。数一数，我的背上有几个驼峰？",
-  "唐三彩常见黄色、绿色和白色。请找一找，我身上有没有绿色？",
-  "长安很热闹。点开三件真正的唐代文物，听听它们的故事吧！",
-  "你发现啦！唐朝的长安，像一座热闹的世界大市场。人、商品和新点子，都在这里相遇。",
-];
-
-function speak(text: string) {
-  if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-  window.speechSynthesis.cancel();
-  const line = new SpeechSynthesisUtterance(text);
-  line.lang = "zh-CN";
-  line.rate = 0.82;
-  line.pitch = 1.05;
-  line.volume = 1;
-  const voices = window.speechSynthesis.getVoices();
-  const chineseVoice = voices.find((voice) =>
-    voice.lang.toLowerCase().startsWith("zh"),
-  );
-  if (chineseVoice) line.voice = chineseVoice;
-  window.speechSynthesis.speak(line);
-}
+const stepVoice = ["chapter-open", "road-open", "meeting-open", "making-open", "chapter-finish"];
 
 export default function Home() {
+  const [screen, setScreen] = useState<"river" | "chapter">("river");
   const [step, setStep] = useState(0);
-  const [started, setStarted] = useState(false);
   const [voiceOn, setVoiceOn] = useState(true);
-  const [answerOne, setAnswerOne] = useState<string | null>(null);
-  const [answerTwo, setAnswerTwo] = useState<string | null>(null);
-  const [opened, setOpened] = useState<string[]>([]);
-  const [activeCard, setActiveCard] = useState<MuseumCard | null>(null);
+  const [answer, setAnswer] = useState<string | null>(null);
+  const [playing, setPlaying] = useState(false);
 
-  const goTo = (nextStep: number) => {
-    setStep(nextStep);
-    if (voiceOn) window.setTimeout(() => speak(narration[nextStep]), 180);
+  useEffect(() => () => stopVoice(), []);
+
+  const speak = async (id: string) => {
+    if (!voiceOn) return;
+    setPlaying(true);
+    await playVoice(id);
+    setPlaying(false);
   };
 
-  const begin = () => {
-    setStarted(true);
-    setStep(1);
-    if (voiceOn) speak(narration[1]);
+  const enterChapter = () => {
+    setScreen("chapter");
+    setStep(0);
+    setAnswer(null);
+    window.setTimeout(() => void speak("chapter-open"), 120);
+  };
+
+  const goHome = () => {
+    stopVoice();
+    setPlaying(false);
+    setScreen("river");
+    setStep(0);
+    setAnswer(null);
+  };
+
+  const goTo = (next: number) => {
+    stopVoice();
+    setPlaying(false);
+    setAnswer(null);
+    setStep(next);
+    window.setTimeout(() => void speak(stepVoice[next]), 140);
+  };
+
+  const choose = (value: string, correct: string, rightVoice: string, wrongVoice: string) => {
+    setAnswer(value);
+    void speak(value === correct ? rightVoice : wrongVoice);
   };
 
   const toggleVoice = () => {
     if (voiceOn) {
-      window.speechSynthesis?.cancel();
+      stopVoice();
+      setPlaying(false);
       setVoiceOn(false);
-    } else {
-      setVoiceOn(true);
-      speak(narration[step]);
+      return;
     }
-  };
-
-  const replay = () => {
-    setStarted(false);
-    setStep(0);
-    setAnswerOne(null);
-    setAnswerTwo(null);
-    setOpened([]);
-    setActiveCard(null);
-    window.speechSynthesis?.cancel();
-  };
-
-  const openCard = (card: MuseumCard) => {
-    setActiveCard(card);
-    setOpened((current) =>
-      current.includes(card.id) ? current : [...current, card.id],
-    );
-    if (voiceOn) speak(card.story);
-  };
-
-  const chooseHump = (value: string) => {
-    setAnswerOne(value);
-    if (voiceOn) {
-      speak(
-        value === "two"
-          ? "答对啦！它有两个驼峰，所以叫双峰骆驼。"
-          : "再看一看，前面一个，后面还有一个。",
-      );
-    }
-  };
-
-  const chooseColor = (value: string) => {
-    setAnswerTwo(value);
-    if (voiceOn) {
-      speak(
-        value === "green"
-          ? "你找到绿色啦！唐三彩不只有三种颜色，三彩的三，是多种颜色的意思。"
-          : "蓝色很好看，不过这只骆驼身上没有蓝色。再找一找吧。",
-      );
-    }
+    setVoiceOn(true);
+    window.setTimeout(() => {
+      void playVoice(screen === "river" ? "river-intro" : stepVoice[step]);
+    }, 80);
   };
 
   return (
-    <main className="little-history">
-      <header className="kid-header">
-        <button className="kid-brand" onClick={replay} aria-label="回到故事首页">
+    <main className="history-app">
+      <header className="app-header">
+        <button className="brand" onClick={goHome} aria-label="回到中华文明时间河">
           <span>史</span>
-          <strong>小小历史旅行团</strong>
+          <div><strong>小小历史旅行团</strong><small>沿着中国历史，认识世界</small></div>
         </button>
 
-        {started && (
-          <div className="star-progress" aria-label={`故事进度 ${step}/4`}>
-            {[1, 2, 3, 4].map((item) => (
-              <i key={item} className={item <= step ? "done" : ""}>★</i>
-            ))}
+        {screen === "chapter" && (
+          <div className="chapter-progress" aria-label={`故事进度 ${step + 1}/5`}>
+            {[0, 1, 2, 3, 4].map((item) => <i key={item} className={item <= step ? "done" : ""} />)}
+            <span>{step + 1} / 5</span>
           </div>
         )}
 
-        <button className="voice-switch" onClick={toggleVoice} aria-pressed={voiceOn}>
-          <span>{voiceOn ? "◖))" : "—"}</span>
-          {voiceOn ? "声音开" : "声音关"}
+        <button className={`voice-switch ${playing ? "playing" : ""}`} onClick={toggleVoice} aria-pressed={voiceOn}>
+          <span>{voiceOn ? "●))" : "—"}</span>
+          {voiceOn ? "本地语音开" : "声音关"}
         </button>
       </header>
 
-      {!started && (
-        <section className="cover-screen pop-in">
-          <div className="cover-photo">
-            <img src="/tang-camel.jpg" alt="大都会艺术博物馆收藏的唐三彩双峰骆驼俑" />
-            <span className="real-badge">真实文物</span>
-            <div className="museum-label">
-              <strong>唐三彩骆驼</strong>
-              <small>唐代 · 普林斯顿大学艺术博物馆</small>
-            </div>
-          </div>
-          <div className="cover-copy">
-            <p className="tiny-label">第一站 · 唐朝长安</p>
-            <h1>小骆驼<br />去长安</h1>
-            <p>跟着一件真正的文物，听一个简单的历史故事。</p>
-            <button className="big-play" onClick={begin}>
-              <span className="play-dot">▶</span>
-              <strong>点一下，听故事</strong>
-            </button>
-            <small className="age-note">适合 5–8 岁 · 约 4 分钟</small>
-          </div>
-        </section>
-      )}
-
-      {started && step === 1 && (
-        <section className="play-screen pop-in">
-          <div className="photo-question">
-            <img src="/tang-camel.jpg" alt="唐三彩双峰骆驼俑，可以清楚看到两个驼峰" />
-            <span className="look-ring ring-a" aria-hidden="true" />
-            <span className="look-ring ring-b" aria-hidden="true" />
-            <span className="real-badge">真实文物</span>
-          </div>
-          <div className="simple-question">
-            <p className="tiny-label">看一看</p>
-            <h2>我有几个驼峰？</h2>
-            <button className="listen-button" onClick={() => speak(narration[1])}>◖)) 听一听</button>
-            <div className="choice-row">
-              <button className={answerOne === "one" ? "wrong" : ""} onClick={() => chooseHump("one")}>
-                <strong>1</strong><span>一个</span>
-              </button>
-              <button className={answerOne === "two" ? "right" : ""} onClick={() => chooseHump("two")}>
-                <strong>2</strong><span>两个</span>
-              </button>
-            </div>
-            <div className={`happy-note ${answerOne ? "show" : ""}`}>
-              {answerOne === "two" ? "答对啦！我是双峰骆驼。" : "前面一个，后面还有一个。"}
-            </div>
-            <button className="next-button" disabled={answerOne !== "two"} onClick={() => goTo(2)}>
-              下一步 <span>→</span>
-            </button>
-          </div>
-        </section>
-      )}
-
-      {started && step === 2 && (
-        <section className="play-screen reverse pop-in">
-          <div className="photo-question colorful-photo">
-            <img src="/tang-camel.jpg" alt="唐三彩骆驼身上有黄色、绿色和白色的釉彩" />
-            <span className="color-pointer">绿色在这里</span>
-            <span className="real-badge">真实文物</span>
-          </div>
-          <div className="simple-question">
-            <p className="tiny-label">找颜色</p>
-            <h2>我的身上<br />有绿色吗？</h2>
-            <button className="listen-button" onClick={() => speak(narration[2])}>◖)) 听一听</button>
-            <div className="choice-row color-choices">
-              <button className={answerTwo === "green" ? "right" : ""} onClick={() => chooseColor("green")}>
-                <i className="green-swatch" /><span>有绿色</span>
-              </button>
-              <button className={answerTwo === "blue" ? "wrong" : ""} onClick={() => chooseColor("blue")}>
-                <i className="blue-swatch" /><span>有蓝色</span>
-              </button>
-            </div>
-            <div className={`happy-note ${answerTwo ? "show" : ""}`}>
-              {answerTwo === "green" ? "找到了！“三彩”是很多颜色。" : "蓝色不在这只骆驼身上。"}
-            </div>
-            <button className="next-button" disabled={answerTwo !== "green"} onClick={() => goTo(3)}>
-              去长安看看 <span>→</span>
-            </button>
-          </div>
-        </section>
-      )}
-
-      {started && step === 3 && (
-        <section className="museum-screen pop-in">
-          <div className="museum-heading">
+      {screen === "river" && (
+        <section className="river-screen pop-in">
+          <div className="river-hero">
             <div>
-              <p className="tiny-label">听故事</p>
-              <h2>长安来了<br />很多新朋友</h2>
+              <p className="eyebrow">中国历史主轴 · 第一季</p>
+              <h1>沿着中华文明<br /><em>时间河</em>出发</h1>
+              <p className="hero-copy">先看清中国历史怎样一步步走来，<br />再去认识同一时间的世界。</p>
+              <div className="hero-actions">
+                <button className="primary-action" onClick={enterChapter}><span>▶</span> 开始隋唐第一章</button>
+                <button className="audio-action" onClick={() => void speak("river-intro")}>●)) 听一听</button>
+              </div>
+              <small className="basis-note">主轴依据：中国义务教育历史课程标准、中国国家博物馆“古代中国”基本陈列</small>
             </div>
-            <div className="heading-narration">
-              <button className="listen-button" onClick={() => speak(narration[3])}>◖)) 听一听</button>
-              <p>每张图片都是真实文物。<br />点开图片，它会讲故事。</p>
+            <div className="hero-object">
+              <img src="/tang-camel.jpg" alt="唐三彩双峰骆驼俑" />
+              <span className="real-badge">真实文物</span>
+              <div className="object-label"><strong>我们的第一位向导</strong><span>唐三彩双峰骆驼</span></div>
             </div>
           </div>
 
-          <div className="museum-grid">
-            {museumCards.map((card, index) => (
-              <button
-                key={card.id}
-                className={opened.includes(card.id) ? "opened" : ""}
-                onClick={() => openCard(card)}
-              >
+          <div className="river-guide">
+            <div><span>1</span><p><strong>沿时间走</strong><small>先知道前后发生了什么</small></p></div>
+            <div><span>2</span><p><strong>跟故事走</strong><small>每章只回答一个大问题</small></p></div>
+            <div><span>3</span><p><strong>向世界看</strong><small>最后看看同时的世界</small></p></div>
+          </div>
+
+          <div className="timeline-wrap">
+            <div className="timeline-heading">
+              <div><p className="eyebrow">八段中国历史</p><h2>每一段，都从上一段走来</h2></div>
+              <span>当前开放：隋唐五代</span>
+            </div>
+            <div className="timeline" aria-label="中国古代历史时间轴">
+              {eras.map((era, index) => (
+                <article key={era.id} className={era.active ? "active" : ""}>
+                  <div className="era-marker"><span>{index + 1}</span></div>
+                  <small>{era.years}</small>
+                  <h3>{era.title}</h3>
+                  <p>{era.childLine}</p>
+                  {era.active ? <button onClick={enterChapter}>进入这一章 →</button> : <i>故事准备中</i>}
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {screen === "chapter" && step === 0 && (
+        <section className="chapter-cover pop-in">
+          <div className="chapter-photo">
+            <img src="/tang-camel.jpg" alt="唐三彩双峰骆驼俑" />
+            <span className="real-badge">真实文物</span>
+            <div className="museum-tag">唐代 · 普林斯顿大学艺术博物馆藏</div>
+          </div>
+          <div className="chapter-intro">
+            <button className="back-link" onClick={goHome}>← 返回时间河</button>
+            <p className="eyebrow">第六段 · 隋唐五代</p>
+            <h1>小骆驼<br />为什么要去长安？</h1>
+            <p className="chapter-question">我们要找到一条完整的答案：</p>
+            <div className="cause-preview"><span>路通了</span><b>→</b><span>人来了</span><b>→</b><span>长安变了</span></div>
+            <button className="listen-button" onClick={() => void speak("chapter-open")}>●)) 听故事开头</button>
+            <button className="next-button" onClick={() => goTo(1)}>跟小骆驼出发 <span>→</span></button>
+          </div>
+        </section>
+      )}
+
+      {screen === "chapter" && step === 1 && (
+        <section className="story-step pop-in">
+          <div className="story-visual split-artifacts">
+            <figure><img src="/tang-camel.jpg" alt="唐三彩双峰骆驼俑" /><figcaption>骆驼能驮着东西走远路</figcaption></figure>
+            <figure><img src="/tang-groom.jpg" alt="唐代陶制马夫俑" /><figcaption>人们也要一路照料牲畜</figcaption></figure>
+            <span className="step-stamp">起因 01</span>
+          </div>
+          <div className="story-copy">
+            <p className="eyebrow">路通了</p>
+            <h2>人们为什么<br />带骆驼出发？</h2>
+            <p className="story-line">长安很远。商队要带着货物和消息，走过漫长的路。</p>
+            <button className="listen-button" onClick={() => void speak("road-open")}>●)) 再听一次</button>
+            <div className="choice-stack">
+              <button className={answer === "carry" ? "right" : ""} onClick={() => choose("carry", "carry", "road-right", "road-wrong")}>能驮东西，也能走远路</button>
+              <button className={answer === "pretty" ? "wrong" : ""} onClick={() => choose("pretty", "carry", "road-right", "road-wrong")}>只是因为骆驼很好看</button>
+            </div>
+            <p className={`answer-note ${answer ? "show" : ""}`}>{answer === "carry" ? "对！先有远行，才会有后面的相遇。" : "再想想：那么远的路，货物要怎样带过去？"}</p>
+            <button className="next-button" disabled={answer !== "carry"} onClick={() => goTo(2)}>到长安城门 <span>→</span></button>
+          </div>
+        </section>
+      )}
+
+      {screen === "chapter" && step === 2 && (
+        <section className="story-step reverse pop-in">
+          <div className="story-visual dancer-visual">
+            <img src="/tang-dancer.jpg" alt="唐代陶制外来舞者俑" />
+            <span className="step-stamp">经过 02</span>
+            <div className="visual-caption"><strong>人来了</strong><span>商品、音乐、舞蹈和新消息也来了</span></div>
+          </div>
+          <div className="story-copy">
+            <p className="eyebrow">人来了</p>
+            <h2>远方的人<br />只带货物吗？</h2>
+            <p className="story-line">不只。长安还能听见不同的音乐，看见不同的舞蹈。</p>
+            <button className="listen-button" onClick={() => void speak("meeting-open")}>●)) 再听一次</button>
+            <div className="choice-stack">
+              <button className={answer === "more" ? "right" : ""} onClick={() => choose("more", "more", "meeting-right", "meeting-wrong")}>不只，还有音乐和新消息</button>
+              <button className={answer === "goods" ? "wrong" : ""} onClick={() => choose("goods", "more", "meeting-right", "meeting-wrong")}>是的，他们只带货物</button>
+            </div>
+            <p className={`answer-note ${answer ? "show" : ""}`}>{answer === "more" ? "对！人见面，生活里的许多东西也会相遇。" : "看看舞者俑：他提醒我们，来的不只是货物。"}</p>
+            <button className="next-button" disabled={answer !== "more"} onClick={() => goTo(3)}>去看看新变化 <span>→</span></button>
+          </div>
+        </section>
+      )}
+
+      {screen === "chapter" && step === 3 && (
+        <section className="story-step pop-in">
+          <div className="story-visual cup-visual">
+            <img src="/tang-cup.jpg" alt="唐代鎏金银八角杯" />
+            <span className="step-stamp">结果 03</span>
+            <div className="visual-caption"><strong>新的器物出现了</strong><span>外来的样式，遇见唐朝工匠的手艺</span></div>
+          </div>
+          <div className="story-copy">
+            <p className="eyebrow">长安变了</p>
+            <h2>相遇以后<br />发生了什么？</h2>
+            <p className="story-line">工匠观察新的样式，再用自己的手艺，做出新的东西。</p>
+            <button className="listen-button" onClick={() => void speak("making-open")}>●)) 再听一次</button>
+            <div className="choice-stack">
+              <button className={answer === "create" ? "right" : ""} onClick={() => choose("create", "create", "making-right", "making-wrong")}>互相学习，做出新的东西</button>
+              <button className={answer === "ignore" ? "wrong" : ""} onClick={() => choose("ignore", "create", "making-right", "making-wrong")}>大家见面，却谁也不理谁</button>
+            </div>
+            <p className={`answer-note ${answer ? "show" : ""}`}>{answer === "create" ? "答对了！交流会让生活长出新的样子。" : "再看看银杯：它把不同地方的特点放在了一起。"}</p>
+            <button className="next-button" disabled={answer !== "create"} onClick={() => goTo(4)}>说出完整答案 <span>→</span></button>
+          </div>
+        </section>
+      )}
+
+      {screen === "chapter" && step === 4 && (
+        <section className="chapter-finish pop-in">
+          <div className="finish-heading">
+            <div><p className="eyebrow">这一章的完整答案</p><h1>为什么唐朝长安<br />那么热闹？</h1></div>
+            <button className="listen-button large" onClick={() => void speak("chapter-finish")}>●)) 听完整答案</button>
+          </div>
+          <div className="cause-chain">
+            {sourceCards.map((card, index) => (
+              <article key={card.label}>
+                <span>0{index + 1}</span>
                 <img src={card.image} alt={card.alt} />
-                <span className="card-number">0{index + 1}</span>
-                <div>
-                  <strong>{card.name}</strong>
-                  <small>{card.age}</small>
-                </div>
-                <i>{opened.includes(card.id) ? "听过啦 ✓" : "点我听故事"}</i>
-              </button>
+                <div><small>{index === 0 ? "路通了" : index === 1 ? "人来了" : "长安变了"}</small><h2>{card.label}</h2></div>
+                <a href={card.sourceUrl} target="_blank" rel="noreferrer">查看文物来源</a>
+              </article>
             ))}
           </div>
-
-          <div className="museum-footer">
-            <span>已经听了 {opened.length} / 3 件文物</span>
-            <button className="next-button" disabled={opened.length < 3} onClick={() => goTo(4)}>
-              我发现了 <span>→</span>
-            </button>
+          <div className="final-answer">
+            <p><strong>路把人们带到一起。</strong>人们带来商品、音乐和新想法；大家相遇、学习，又创造出新的东西。</p>
+            <div className="kid-badge"><span>★</span><div><small>获得称号</small><strong>长安故事小侦探</strong></div></div>
           </div>
-
-          {activeCard && (
-            <div className="story-modal" role="dialog" aria-modal="true" aria-label={`${activeCard.name}的故事`}>
-              <button className="story-backdrop" onClick={() => setActiveCard(null)} aria-label="关闭故事" />
-              <article>
-                <img src={activeCard.image} alt={activeCard.alt} />
-                <div>
-                  <span>真实文物 · {activeCard.age}</span>
-                  <h3>{activeCard.name}</h3>
-                  <p>{activeCard.story}</p>
-                  <button className="listen-button large" onClick={() => speak(activeCard.story)}>◖)) 再听一次</button>
-                  <button className="close-story" onClick={() => setActiveCard(null)}>听完啦</button>
-                  <a href={activeCard.sourceUrl} target="_blank" rel="noreferrer">图片来源：{activeCard.source}</a>
-                </div>
-              </article>
-            </div>
-          )}
-        </section>
-      )}
-
-      {started && step === 4 && (
-        <section className="finish-screen pop-in">
-          <div className="finish-camel">
-            <img src="/tang-camel.jpg" alt="唐三彩双峰骆驼俑" />
-            <span>谢谢你陪我旅行！</span>
-          </div>
-          <div className="finish-copy">
-            <p className="tiny-label">今天的大发现</p>
-            <h2>长安像一座<br />热闹的世界大市场</h2>
-            <button className="listen-button large" onClick={() => speak(narration[4])}>◖)) 听一听</button>
-            <p className="big-lesson">人们带来商品、音乐和新点子。<br />大家见面，又做出了新的东西。</p>
-            <div className="kid-badge">
-              <span>★</span>
-              <div><small>获得称号</small><strong>丝路小发现家</strong></div>
-            </div>
-            <button className="again-button" onClick={replay}>再玩一次</button>
-          </div>
+          <div className="finish-actions"><button className="secondary-action" onClick={goHome}>回到时间河</button><button className="primary-action" onClick={() => goTo(0)}><span>↻</span> 再听一遍</button></div>
         </section>
       )}
 
       <footer className="source-footer">
-        <span>真实馆藏：普林斯顿大学艺术博物馆 · 大都会艺术博物馆</span>
-        <a href="https://artmuseum.princeton.edu/art/collections/objects/138365" target="_blank" rel="noreferrer">查看唐三彩骆驼原件</a>
-        <span>低龄体验原型 0.2</span>
+        <span>历史主轴：教育部《义务教育历史课程标准（2022年版）》与中国国家博物馆“古代中国”</span>
+        <span>文物图片：普林斯顿大学艺术博物馆、大都会艺术博物馆公开馆藏</span>
+        <span>原型 0.3 · 预生成普通话音频</span>
       </footer>
     </main>
   );
