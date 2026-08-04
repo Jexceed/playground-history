@@ -1,516 +1,330 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 
-type Phase =
-  | "intro"
-  | "briefing"
-  | "explore"
-  | "dialogue"
-  | "verdict"
-  | "result";
-
-type Evidence = {
+type MuseumCard = {
   id: string;
-  number: string;
-  title: string;
-  eyebrow: string;
-  short: string;
-  detail: string;
-  mark: string;
-};
-
-type Witness = {
-  id: string;
+  image: string;
+  alt: string;
   name: string;
-  role: string;
-  monogram: string;
-  quote: string;
-  note: string;
+  age: string;
+  source: string;
+  sourceUrl: string;
+  story: string;
 };
 
-const evidence: Evidence[] = [
+const museumCards: MuseumCard[] = [
   {
-    id: "glass",
-    number: "01",
-    title: "杯身的刻纹",
-    eyebrow: "器物工艺",
-    short: "深刻的椭圆纹，与西亚玻璃器的装饰方式相近。",
-    detail:
-      "这只杯子的器形和刻纹带有西亚风格。唐代长安确实消费来自远方的精美玻璃器，但‘风格来自西亚’并不能单独证明它在哪里制成。",
-    mark: "纹",
+    id: "dancer",
+    image: "/tang-dancer.jpg",
+    alt: "唐代陶制外来舞者俑",
+    name: "跳舞的人",
+    age: "唐代 · 7世纪",
+    source: "美国大都会艺术博物馆",
+    sourceUrl: "https://www.metmuseum.org/art/collection/search/49552",
+    story: "看，他正在转身跳舞！唐朝的长安能听见许多地方的音乐，也能看到不同的舞蹈。",
   },
   {
-    id: "tag",
-    number: "02",
-    title: "三站货签",
-    eyebrow: "游戏化重构",
-    short: "货签记录：撒马尔罕、敦煌、长安。字迹并不相同。",
-    detail:
-      "货物在不同地点被重新登记，说明它很可能经过多次转手。货签为原型虚构线索，设计依据来自丝路商旅文书与唐代过所制度。",
-    mark: "签",
+    id: "groom",
+    image: "/tang-groom.jpg",
+    alt: "唐代陶制外来马夫俑",
+    name: "照顾马的人",
+    age: "唐代 · 7至8世纪",
+    source: "美国大都会艺术博物馆",
+    sourceUrl: "https://www.metmuseum.org/art/collection/search/63016",
+    story: "他在照顾远行的马。古时候没有汽车，马和骆驼帮助人们走过很远的路。",
   },
   {
-    id: "coin",
-    number: "03",
-    title: "商人的钱袋",
-    eyebrow: "流通线索",
-    short: "开元通宝旁，还混着一枚来自更西方的钱币。",
-    detail:
-      "不同地区的钱币会随旅行者远行，但发现一枚外国钱币，不等于长安人人都用它买东西。它只能证明人与物发生过跨地区移动。",
-    mark: "钱",
-  },
-  {
-    id: "repair",
-    number: "04",
-    title: "本地修补痕",
-    eyebrow: "隐藏证据",
-    short: "杯底有一道新补的金属圈，做法出自长安工坊。",
-    detail:
-      "外来的器物在长安被使用、修补，甚至启发本地工匠仿制。历史交流不是简单的‘进口’，而是不断改造和再创造。",
-    mark: "补",
+    id: "cup",
+    image: "/tang-cup.jpg",
+    alt: "唐代鎏金银八角杯",
+    name: "漂亮的银杯",
+    age: "唐代 · 8世纪",
+    source: "美国大都会艺术博物馆",
+    sourceUrl: "https://www.metmuseum.org/art/collection/search/42182",
+    story: "这只杯子的样子很特别。唐朝工匠会观察远方来的器物，再做出自己的新作品。",
   },
 ];
 
-const witnesses: Witness[] = [
-  {
-    id: "merchant",
-    name: "康阿罗",
-    role: "粟特商人",
-    monogram: "康",
-    quote:
-      "我只走到撒马尔罕以东。这只杯子到我手里之前，已经换过几位主人。丝路上的货，很少由一个人从头送到尾。",
-    note: "他了解自己的交易环节，但不知道杯子最早的制造地点。",
-  },
-  {
-    id: "apprentice",
-    name: "阿禾",
-    role: "长安工坊学徒",
-    monogram: "禾",
-    quote:
-      "杯底的铜圈是我们师傅补的。客人喜欢这种样式，最近也有人照着它做新的杯子。远方的东西，到了长安也会变。",
-    note: "她能确认本地修补，却无法独立判断杯身的产地。",
-  },
-  {
-    id: "clerk",
-    name: "杜十二",
-    role: "西市市署书手",
-    monogram: "杜",
-    quote:
-      "货签写的是途经地，不一定是产地。商人还会借响亮的地名抬高价钱。要定案，最好让器物、文书和证词互相印证。",
-    note: "他提醒你：官方记录也需要结合其他证据解读。",
-  },
+const narration = [
+  "你好呀！我是一只一千多岁的唐三彩骆驼。今天，跟着我去长安看看吧！",
+  "先仔细看看我。数一数，我的背上有几个驼峰？",
+  "唐三彩常见黄色、绿色和白色。请找一找，我身上有没有绿色？",
+  "长安很热闹。点开三件真正的唐代文物，听听它们的故事吧！",
+  "你发现啦！唐朝的长安，像一座热闹的世界大市场。人、商品和新点子，都在这里相遇。",
 ];
 
-const answers = [
-  {
-    id: "envoy",
-    label: "一位拜占庭使者从故乡把杯子直接带到长安",
-    feedback: "这个故事很精彩，但现有证据没有指向某位使者，也没有证明全程直达。",
-  },
-  {
-    id: "network",
-    label: "它经由多地、多位商旅接力来到长安，又被本地修补和仿制",
-    feedback: "这个结论能同时解释货签、钱币、商人证词与本地修补痕。",
-  },
-  {
-    id: "local",
-    label: "它完全产自长安，与外部交流没有关系",
-    feedback: "本地修补确实存在，但杯身工艺和跨地区线索无法被这个结论解释。",
-  },
-];
-
-const timeline = [
-  { place: "长安", title: "唐玄宗·天宝元年", text: "西市汇聚来自中亚、西亚与更远地区的商旅和货物。" },
-  { place: "中亚", title: "粟特商旅网络", text: "许多商人以绿洲城市为节点，让货物在不同队伍间接力。" },
-  { place: "西亚", title: "倭马亚王朝晚期", text: "从地中海东岸到中亚的城市、工艺和贸易网络持续流动。" },
-  { place: "日本", title: "奈良时代", text: "遣唐使与海上交通推动制度、宗教、文字和器物交流。" },
-  { place: "美洲", title: "玛雅古典期", text: "在欧亚大陆之外，玛雅城邦也在发展各自的政治与文化。" },
-];
-
-const phaseOrder: Phase[] = [
-  "briefing",
-  "explore",
-  "dialogue",
-  "verdict",
-  "result",
-];
+function speak(text: string) {
+  if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+  window.speechSynthesis.cancel();
+  const line = new SpeechSynthesisUtterance(text);
+  line.lang = "zh-CN";
+  line.rate = 0.82;
+  line.pitch = 1.05;
+  line.volume = 1;
+  const voices = window.speechSynthesis.getVoices();
+  const chineseVoice = voices.find((voice) =>
+    voice.lang.toLowerCase().startsWith("zh"),
+  );
+  if (chineseVoice) line.voice = chineseVoice;
+  window.speechSynthesis.speak(line);
+}
 
 export default function Home() {
-  const [phase, setPhase] = useState<Phase>("intro");
-  const [collected, setCollected] = useState<string[]>([]);
-  const [openEvidence, setOpenEvidence] = useState<Evidence | null>(null);
-  const [heard, setHeard] = useState<string[]>([]);
-  const [activeWitness, setActiveWitness] = useState<Witness>(witnesses[0]);
-  const [answer, setAnswer] = useState<string | null>(null);
+  const [step, setStep] = useState(0);
+  const [started, setStarted] = useState(false);
+  const [voiceOn, setVoiceOn] = useState(true);
+  const [answerOne, setAnswerOne] = useState<string | null>(null);
+  const [answerTwo, setAnswerTwo] = useState<string | null>(null);
+  const [opened, setOpened] = useState<string[]>([]);
+  const [activeCard, setActiveCard] = useState<MuseumCard | null>(null);
 
-  const currentStep = phaseOrder.indexOf(phase);
-  const selectedAnswer = answers.find((item) => item.id === answer);
-  const caseScore = useMemo(
-    () => collected.length * 12 + heard.length * 9 + (answer === "network" ? 25 : 8),
-    [collected, heard, answer],
-  );
-
-  const collectEvidence = (item: Evidence) => {
-    setCollected((current) =>
-      current.includes(item.id) ? current : [...current, item.id],
-    );
-    setOpenEvidence(item);
+  const goTo = (nextStep: number) => {
+    setStep(nextStep);
+    if (voiceOn) window.setTimeout(() => speak(narration[nextStep]), 180);
   };
 
-  const hearWitness = (witness: Witness) => {
-    setActiveWitness(witness);
-    setHeard((current) =>
-      current.includes(witness.id) ? current : [...current, witness.id],
-    );
+  const begin = () => {
+    setStarted(true);
+    setStep(1);
+    if (voiceOn) speak(narration[1]);
   };
 
-  const resetCase = () => {
-    setPhase("intro");
-    setCollected([]);
-    setOpenEvidence(null);
-    setHeard([]);
-    setActiveWitness(witnesses[0]);
-    setAnswer(null);
+  const toggleVoice = () => {
+    if (voiceOn) {
+      window.speechSynthesis?.cancel();
+      setVoiceOn(false);
+    } else {
+      setVoiceOn(true);
+      speak(narration[step]);
+    }
+  };
+
+  const replay = () => {
+    setStarted(false);
+    setStep(0);
+    setAnswerOne(null);
+    setAnswerTwo(null);
+    setOpened([]);
+    setActiveCard(null);
+    window.speechSynthesis?.cancel();
+  };
+
+  const openCard = (card: MuseumCard) => {
+    setActiveCard(card);
+    setOpened((current) =>
+      current.includes(card.id) ? current : [...current, card.id],
+    );
+    if (voiceOn) speak(card.story);
+  };
+
+  const chooseHump = (value: string) => {
+    setAnswerOne(value);
+    if (voiceOn) {
+      speak(
+        value === "two"
+          ? "答对啦！它有两个驼峰，所以叫双峰骆驼。"
+          : "再看一看，前面一个，后面还有一个。",
+      );
+    }
+  };
+
+  const chooseColor = (value: string) => {
+    setAnswerTwo(value);
+    if (voiceOn) {
+      speak(
+        value === "green"
+          ? "你找到绿色啦！唐三彩不只有三种颜色，三彩的三，是多种颜色的意思。"
+          : "蓝色很好看，不过这只骆驼身上没有蓝色。再找一找吧。",
+      );
+    }
   };
 
   return (
-    <main className="game-shell">
-      <div className="atmosphere" aria-hidden="true">
-        <span className="star star-one" />
-        <span className="star star-two" />
-        <span className="star star-three" />
-        <span className="orbit orbit-one" />
-        <span className="orbit orbit-two" />
-      </div>
-
-      <header className="topbar">
-        <button className="brand" onClick={resetCase} aria-label="返回时空档案局首页">
-          <span className="brand-seal">纪</span>
-          <span>
-            <strong>时空档案局</strong>
-            <small>CHRONICLE BUREAU</small>
-          </span>
+    <main className="little-history">
+      <header className="kid-header">
+        <button className="kid-brand" onClick={replay} aria-label="回到故事首页">
+          <span>史</span>
+          <strong>小小历史旅行团</strong>
         </button>
 
-        {phase !== "intro" ? (
-          <div className="mission-progress" aria-label={`任务进度，第 ${currentStep + 1} 步，共 5 步`}>
-            <span className="mission-code">档案 TS-742</span>
-            <div className="progress-dots" aria-hidden="true">
-              {phaseOrder.map((item, index) => (
-                <i key={item} className={index <= currentStep ? "active" : ""} />
-              ))}
-            </div>
+        {started && (
+          <div className="star-progress" aria-label={`故事进度 ${step}/4`}>
+            {[1, 2, 3, 4].map((item) => (
+              <i key={item} className={item <= step ? "done" : ""}>★</i>
+            ))}
           </div>
-        ) : (
-          <span className="prototype-tag">可玩原型 · 任务 01</span>
         )}
+
+        <button className="voice-switch" onClick={toggleVoice} aria-pressed={voiceOn}>
+          <span>{voiceOn ? "◖))" : "—"}</span>
+          {voiceOn ? "声音开" : "声音关"}
+        </button>
       </header>
 
-      {phase === "intro" && (
-        <section className="intro-screen screen-enter">
-          <div className="intro-copy">
-            <p className="kicker"><span /> 新档案已抵达</p>
-            <h1>
-              一只玻璃杯，
-              <em>能证明长安连接了世界吗？</em>
-            </h1>
-            <p className="intro-lead">
-              公元 742 年，唐朝长安。你将成为一名少年时空档案员，进入西市寻找证据、询问人物，并给出自己的历史判断。
-            </p>
-            <div className="intro-actions">
-              <button className="primary-button" onClick={() => setPhase("briefing")}>
-                <span>接受任务</span><b>→</b>
-              </button>
-              <div className="session-note">
-                <strong>约 10 分钟</strong>
-                <span>观察 · 对话 · 推理</span>
-              </div>
+      {!started && (
+        <section className="cover-screen pop-in">
+          <div className="cover-photo">
+            <img src="/tang-camel.jpg" alt="大都会艺术博物馆收藏的唐三彩双峰骆驼俑" />
+            <span className="real-badge">真实文物</span>
+            <div className="museum-label">
+              <strong>唐三彩骆驼</strong>
+              <small>唐代 · 普林斯顿大学艺术博物馆</small>
             </div>
           </div>
-
-          <div className="artifact-stage" aria-label="档案中的蓝色玻璃杯">
-            <div className="year-ring">
-              <span className="ring-label ring-top">CHANG&apos;AN</span>
-              <span className="ring-label ring-bottom">742 C.E.</span>
-              <div className="glass-artifact">
-                <i className="cup-rim" />
-                <i className="cup-body"><span /><span /><span /></i>
-                <i className="cup-foot" />
-              </div>
-            </div>
-            <aside className="artifact-caption">
-              <small>待鉴定器物</small>
-              <strong>蓝色刻纹玻璃杯</strong>
-              <span>来源：长安西市旧藏（原型虚构）</span>
-            </aside>
-          </div>
-
-          <div className="case-strip">
-            <span>任务目标</span>
-            <strong>用至少三类证据，解释这只杯子如何来到长安</strong>
-            <i>01 / 06</i>
-          </div>
-        </section>
-      )}
-
-      {phase === "briefing" && (
-        <section className="briefing-screen content-screen screen-enter">
-          <div className="section-number">序章</div>
-          <div className="briefing-copy">
-            <p className="kicker"><span /> 档案员简报</p>
-            <h2>历史不是背出答案，<br />而是找到答案的依据。</h2>
-            <div className="dispatch-card">
-              <span className="dispatch-seal">急</span>
-              <p>
-                时空坐标已经锁定在<strong>唐玄宗天宝元年</strong>。西市刚收到一只罕见的蓝色玻璃杯，有人说它由西方使者直接带来，也有人说它其实是长安制造。
-              </p>
-              <p>你的任务不是猜一个故事，而是找出哪种解释最符合现有证据。</p>
-            </div>
-          </div>
-          <aside className="rules-card">
-            <p>档案局调查守则</p>
-            <ol>
-              <li><span>壹</span><div><strong>观察器物</strong><small>细节可能比名字更可靠</small></div></li>
-              <li><span>贰</span><div><strong>听取证词</strong><small>每个人只看见历史的一部分</small></div></li>
-              <li><span>叁</span><div><strong>交叉印证</strong><small>好结论要解释更多证据</small></div></li>
-            </ol>
-            <button className="primary-button wide" onClick={() => setPhase("explore")}>
-              进入长安西市 <b>→</b>
+          <div className="cover-copy">
+            <p className="tiny-label">第一站 · 唐朝长安</p>
+            <h1>小骆驼<br />去长安</h1>
+            <p>跟着一件真正的文物，听一个简单的历史故事。</p>
+            <button className="big-play" onClick={begin}>
+              <span className="play-dot">▶</span>
+              <strong>点一下，听故事</strong>
             </button>
-          </aside>
+            <small className="age-note">适合 5–8 岁 · 约 4 分钟</small>
+          </div>
         </section>
       )}
 
-      {phase === "explore" && (
-        <section className="explore-screen content-screen screen-enter">
-          <div className="scene-heading">
-            <div>
-              <p className="kicker"><span /> 第一幕 · 西市调查</p>
-              <h2>从器物与现场中，<br />找出四条线索。</h2>
-            </div>
-            <div className="evidence-count">
-              <strong>{String(collected.length).padStart(2, "0")}</strong>
-              <span>/ 04<br />已归档</span>
-            </div>
+      {started && step === 1 && (
+        <section className="play-screen pop-in">
+          <div className="photo-question">
+            <img src="/tang-camel.jpg" alt="唐三彩双峰骆驼俑，可以清楚看到两个驼峰" />
+            <span className="look-ring ring-a" aria-hidden="true" />
+            <span className="look-ring ring-b" aria-hidden="true" />
+            <span className="real-badge">真实文物</span>
           </div>
-
-          <div className="market-layout">
-            <div className="market-scene">
-              <div className="market-sky"><span>长安 · 西市</span><i>天宝元年 / 午时</i></div>
-              <div className="market-gates" aria-hidden="true">
-                <i /><i /><i /><b /><b /><b />
-              </div>
-              <div className="market-floor" aria-hidden="true" />
-              <p className="scene-hint">点击现场中的档案标记</p>
-              {evidence.map((item, index) => (
-                <button
-                  key={item.id}
-                  className={`hotspot hotspot-${index + 1} ${collected.includes(item.id) ? "found" : ""}`}
-                  onClick={() => collectEvidence(item)}
-                  aria-label={`调查线索：${item.title}`}
-                >
-                  <span>{collected.includes(item.id) ? "✓" : "+"}</span>
-                  <small>{item.title}</small>
-                </button>
-              ))}
-            </div>
-
-            <aside className="evidence-panel">
-              <p className="panel-label">证据袋</p>
-              <div className="evidence-list">
-                {evidence.map((item) => {
-                  const isCollected = collected.includes(item.id);
-                  return (
-                    <button
-                      key={item.id}
-                      disabled={!isCollected}
-                      onClick={() => setOpenEvidence(item)}
-                      className={isCollected ? "unlocked" : ""}
-                    >
-                      <span>{isCollected ? item.mark : "?"}</span>
-                      <div><small>{item.eyebrow}</small><strong>{isCollected ? item.title : "尚未发现"}</strong></div>
-                    </button>
-                  );
-                })}
-              </div>
-              <button
-                className="primary-button wide"
-                disabled={collected.length < 3}
-                onClick={() => setPhase("dialogue")}
-              >
-                {collected.length < 3 ? `还需 ${3 - collected.length} 条证据` : "前往询问证人"} <b>→</b>
+          <div className="simple-question">
+            <p className="tiny-label">看一看</p>
+            <h2>我有几个驼峰？</h2>
+            <button className="listen-button" onClick={() => speak(narration[1])}>◖)) 听一听</button>
+            <div className="choice-row">
+              <button className={answerOne === "one" ? "wrong" : ""} onClick={() => chooseHump("one")}>
+                <strong>1</strong><span>一个</span>
               </button>
-            </aside>
+              <button className={answerOne === "two" ? "right" : ""} onClick={() => chooseHump("two")}>
+                <strong>2</strong><span>两个</span>
+              </button>
+            </div>
+            <div className={`happy-note ${answerOne ? "show" : ""}`}>
+              {answerOne === "two" ? "答对啦！我是双峰骆驼。" : "前面一个，后面还有一个。"}
+            </div>
+            <button className="next-button" disabled={answerOne !== "two"} onClick={() => goTo(2)}>
+              下一步 <span>→</span>
+            </button>
+          </div>
+        </section>
+      )}
+
+      {started && step === 2 && (
+        <section className="play-screen reverse pop-in">
+          <div className="photo-question colorful-photo">
+            <img src="/tang-camel.jpg" alt="唐三彩骆驼身上有黄色、绿色和白色的釉彩" />
+            <span className="color-pointer">绿色在这里</span>
+            <span className="real-badge">真实文物</span>
+          </div>
+          <div className="simple-question">
+            <p className="tiny-label">找颜色</p>
+            <h2>我的身上<br />有绿色吗？</h2>
+            <button className="listen-button" onClick={() => speak(narration[2])}>◖)) 听一听</button>
+            <div className="choice-row color-choices">
+              <button className={answerTwo === "green" ? "right" : ""} onClick={() => chooseColor("green")}>
+                <i className="green-swatch" /><span>有绿色</span>
+              </button>
+              <button className={answerTwo === "blue" ? "wrong" : ""} onClick={() => chooseColor("blue")}>
+                <i className="blue-swatch" /><span>有蓝色</span>
+              </button>
+            </div>
+            <div className={`happy-note ${answerTwo ? "show" : ""}`}>
+              {answerTwo === "green" ? "找到了！“三彩”是很多颜色。" : "蓝色不在这只骆驼身上。"}
+            </div>
+            <button className="next-button" disabled={answerTwo !== "green"} onClick={() => goTo(3)}>
+              去长安看看 <span>→</span>
+            </button>
+          </div>
+        </section>
+      )}
+
+      {started && step === 3 && (
+        <section className="museum-screen pop-in">
+          <div className="museum-heading">
+            <div>
+              <p className="tiny-label">听故事</p>
+              <h2>长安来了<br />很多新朋友</h2>
+            </div>
+            <div className="heading-narration">
+              <button className="listen-button" onClick={() => speak(narration[3])}>◖)) 听一听</button>
+              <p>每张图片都是真实文物。<br />点开图片，它会讲故事。</p>
+            </div>
           </div>
 
-          {openEvidence && (
-            <div className="evidence-modal" role="dialog" aria-modal="true" aria-labelledby="evidence-title">
-              <button className="modal-backdrop" onClick={() => setOpenEvidence(null)} aria-label="关闭证据详情" />
+          <div className="museum-grid">
+            {museumCards.map((card, index) => (
+              <button
+                key={card.id}
+                className={opened.includes(card.id) ? "opened" : ""}
+                onClick={() => openCard(card)}
+              >
+                <img src={card.image} alt={card.alt} />
+                <span className="card-number">0{index + 1}</span>
+                <div>
+                  <strong>{card.name}</strong>
+                  <small>{card.age}</small>
+                </div>
+                <i>{opened.includes(card.id) ? "听过啦 ✓" : "点我听故事"}</i>
+              </button>
+            ))}
+          </div>
+
+          <div className="museum-footer">
+            <span>已经听了 {opened.length} / 3 件文物</span>
+            <button className="next-button" disabled={opened.length < 3} onClick={() => goTo(4)}>
+              我发现了 <span>→</span>
+            </button>
+          </div>
+
+          {activeCard && (
+            <div className="story-modal" role="dialog" aria-modal="true" aria-label={`${activeCard.name}的故事`}>
+              <button className="story-backdrop" onClick={() => setActiveCard(null)} aria-label="关闭故事" />
               <article>
-                <button className="modal-close" onClick={() => setOpenEvidence(null)} aria-label="关闭">×</button>
-                <div className="evidence-mark">{openEvidence.mark}</div>
-                <p>{openEvidence.eyebrow} · 证据 {openEvidence.number}</p>
-                <h3 id="evidence-title">{openEvidence.title}</h3>
-                <strong>{openEvidence.short}</strong>
-                <span>{openEvidence.detail}</span>
-                <button className="text-button" onClick={() => setOpenEvidence(null)}>放入证据袋 ✓</button>
+                <img src={activeCard.image} alt={activeCard.alt} />
+                <div>
+                  <span>真实文物 · {activeCard.age}</span>
+                  <h3>{activeCard.name}</h3>
+                  <p>{activeCard.story}</p>
+                  <button className="listen-button large" onClick={() => speak(activeCard.story)}>◖)) 再听一次</button>
+                  <button className="close-story" onClick={() => setActiveCard(null)}>听完啦</button>
+                  <a href={activeCard.sourceUrl} target="_blank" rel="noreferrer">图片来源：{activeCard.source}</a>
+                </div>
               </article>
             </div>
           )}
         </section>
       )}
 
-      {phase === "dialogue" && (
-        <section className="dialogue-screen content-screen screen-enter">
-          <div className="scene-heading compact">
-            <div>
-              <p className="kicker"><span /> 第二幕 · 询问人物</p>
-              <h2>同一件事，<br />每个人看见的都不同。</h2>
-            </div>
-            <div className="evidence-count">
-              <strong>{String(heard.length).padStart(2, "0")}</strong>
-              <span>/ 03<br />份证词</span>
-            </div>
+      {started && step === 4 && (
+        <section className="finish-screen pop-in">
+          <div className="finish-camel">
+            <img src="/tang-camel.jpg" alt="唐三彩双峰骆驼俑" />
+            <span>谢谢你陪我旅行！</span>
           </div>
-
-          <div className="dialogue-layout">
-            <nav className="witness-list" aria-label="选择询问对象">
-              {witnesses.map((witness) => (
-                <button
-                  key={witness.id}
-                  className={activeWitness.id === witness.id ? "active" : ""}
-                  onClick={() => hearWitness(witness)}
-                >
-                  <span>{witness.monogram}</span>
-                  <div><strong>{witness.name}</strong><small>{witness.role}</small></div>
-                  <i>{heard.includes(witness.id) ? "已询问" : "询问"}</i>
-                </button>
-              ))}
-            </nav>
-
-            <article className="testimony-card" key={activeWitness.id}>
-              <div className="portrait"><span>{activeWitness.monogram}</span><i /></div>
-              <div className="testimony-copy">
-                <p><b>{activeWitness.name}</b> · {activeWitness.role}</p>
-                <blockquote>“{activeWitness.quote}”</blockquote>
-                <div className="analyst-note">
-                  <span>档案员提示</span>
-                  <p>{activeWitness.note}</p>
-                </div>
-              </div>
-            </article>
-          </div>
-
-          <div className="dialogue-footer">
-            <p><span>记住：</span>证词不是标准答案，它只是一个人的观察位置。</p>
-            <button
-              className="primary-button"
-              disabled={heard.length < 3}
-              onClick={() => setPhase("verdict")}
-            >
-              {heard.length < 3 ? "听完三份证词" : "整理调查结论"} <b>→</b>
-            </button>
+          <div className="finish-copy">
+            <p className="tiny-label">今天的大发现</p>
+            <h2>长安像一座<br />热闹的世界大市场</h2>
+            <button className="listen-button large" onClick={() => speak(narration[4])}>◖)) 听一听</button>
+            <p className="big-lesson">人们带来商品、音乐和新点子。<br />大家见面，又做出了新的东西。</p>
+            <div className="kid-badge">
+              <span>★</span>
+              <div><small>获得称号</small><strong>丝路小发现家</strong></div>
+            </div>
+            <button className="again-button" onClick={replay}>再玩一次</button>
           </div>
         </section>
       )}
 
-      {phase === "verdict" && (
-        <section className="verdict-screen content-screen screen-enter">
-          <div className="verdict-intro">
-            <p className="kicker"><span /> 最终研判</p>
-            <h2>哪一种解释，<br />能够串起最多证据？</h2>
-            <p>历史推理不要求故事最传奇，而要求结论和证据之间的距离最短。</p>
-            <div className="mini-evidence-row" aria-label="已经收集的证据">
-              {evidence.filter((item) => collected.includes(item.id)).map((item) => (
-                <span key={item.id}>{item.mark}<small>{item.title}</small></span>
-              ))}
-            </div>
-          </div>
-          <div className="answer-panel">
-            <p>请选择你的结案陈词</p>
-            {answers.map((item, index) => (
-              <button
-                key={item.id}
-                className={answer === item.id ? "selected" : ""}
-                onClick={() => setAnswer(item.id)}
-              >
-                <span>{String.fromCharCode(65 + index)}</span>
-                <strong>{item.label}</strong>
-                <i>{answer === item.id ? "✓" : ""}</i>
-              </button>
-            ))}
-            {selectedAnswer && <div className="answer-feedback">{selectedAnswer.feedback}</div>}
-            <button
-              className="primary-button wide"
-              disabled={!answer}
-              onClick={() => setPhase("result")}
-            >
-              提交档案 <b>→</b>
-            </button>
-          </div>
-        </section>
-      )}
-
-      {phase === "result" && (
-        <section className="result-screen content-screen screen-enter">
-          <div className="result-hero">
-            <div className="result-score">
-              <span>档案完整度</span>
-              <strong>{caseScore}</strong>
-              <small>/ 100</small>
-            </div>
-            <div className="result-copy">
-              <p className="kicker"><span /> 档案 TS-742 · 已结案</p>
-              <h2>{answer === "network" ? "判断成立：这只杯子属于一张网络。" : "档案已收录，但证据还能支持更完整的解释。"}</h2>
-              <p>
-                最可靠的解释是：器物经过多人、多地的接力来到长安，又在本地被使用、修补和模仿。丝绸之路不是一条从起点直达终点的路，而是一张不断交换商品、技术与观念的网络。
-              </p>
-              <div className="badges">
-                <span>观察者<small>发现 {collected.length} 条器物线索</small></span>
-                <span>倾听者<small>比较 3 种人物视角</small></span>
-                <span>连接者<small>看见交流背后的网络</small></span>
-              </div>
-            </div>
-          </div>
-
-          <div className="same-year">
-            <div className="timeline-heading">
-              <p className="kicker"><span /> 世界同一时刻</p>
-              <h3>公元 742 年，世界不只有长安。</h3>
-            </div>
-            <div className="timeline-track">
-              {timeline.map((item, index) => (
-                <article key={item.place}>
-                  <i>{String(index + 1).padStart(2, "0")}</i>
-                  <span>{item.place}</span>
-                  <strong>{item.title}</strong>
-                  <p>{item.text}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-
-          <div className="source-note">
-            <div>
-              <strong>史实与虚构说明</strong>
-              <p>长安西市、粟特商旅、外来玻璃器与唐代过所制度均有史料依据；人物、杯子和三站货签为本关游戏化重构。</p>
-              <span>
-                参考：
-                <a href="https://sogdians.si.edu/historic-trade-routes-of-the-sogdians/" target="_blank" rel="noreferrer">史密森尼粟特商路专题</a>
-                <a href="https://asia.si.edu/whats-on/exhibitions/center-of-the-world/" target="_blank" rel="noreferrer">美国国立亚洲艺术博物馆长安专题</a>
-                <a href="https://museum.mgm.mo/en/audio-guide/silk-roads-beyond-borders/" target="_blank" rel="noreferrer">唐代商人过所资料</a>
-              </span>
-            </div>
-            <button className="secondary-button" onClick={resetCase}>重新调查 ↻</button>
-          </div>
-        </section>
-      )}
-
-      <footer className="global-footer">
-        <span>适玩年龄 8–14 岁</span>
-        <span>原型版本 0.1</span>
-        <span>每一件文物，都是历史留下的问题</span>
+      <footer className="source-footer">
+        <span>真实馆藏：普林斯顿大学艺术博物馆 · 大都会艺术博物馆</span>
+        <a href="https://artmuseum.princeton.edu/art/collections/objects/138365" target="_blank" rel="noreferrer">查看唐三彩骆驼原件</a>
+        <span>低龄体验原型 0.2</span>
       </footer>
     </main>
   );
