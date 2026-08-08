@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.14.0",
+  "trackId": "world-ancient",
+  "editorialNote": "依据教育部《义务教育历史课程标准（2022年版）》世界古代史1.1“古代文明”和1.2“中古世界”。目录强调文明起源多元、发展不平衡以及交往互动；具体年代、制度和人物故事需在详稿阶段以世界遗产机构、博物馆和学术资料核验。",
+  "periods": [
+    { "id": "ancient-civilizations", "order": 1, "label": "古代文明", "years": "早期人类—约5世纪", "curriculumSections": ["1.1 古代文明"] },
+    { "id": "medieval-world", "order": 2, "label": "中古世界", "years": "约5—15世纪", "curriculumSections": ["1.2 中古世界"] }
+  ],
+  "chapters": [
+    {
+      "id": "world-ancient-01-01-human-farming", "periodId": "ancient-civilizations", "order": 1,
+      "title": "人类怎样走出非洲并学会耕种",
+      "coreQuestion": "早期人类迁徙和农业出现怎样改变了世界？",
+      "throughline": "用化石、石器、遗址和地图观察早期人类活动、迁徙以及不同地区独立出现的农业生活。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界古代史-1.1"],
+      "evidencePlan": ["map", "fossil", "ancient-dna", "site", "artifact", "plant-remains"],
+      "worldLink": { "topic": "中国南方稻作、北方粟作是全球多地农业起源的一部分", "status": "verified" },
+      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/world-ancient-human-farming.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-ancient-01-02-river-civilizations", "periodId": "ancient-civilizations", "order": 2,
+      "title": "大河边为什么出现早期文明",
+      "coreQuestion": "尼罗河和两河流域的人们怎样建设城市与国家？",
+      "throughline": "从金字塔、象形文字、楔形文字和《汉谟拉比法典》等证据，比较古埃及与两河流域文明。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界古代史-1.1"],
+      "evidencePlan": ["map", "architecture", "agricultural-relief", "inscription", "law-record"],
+      "worldLink": { "topic": "与黄河、长江流域文明起源比较人地互动与证据方法，不暗示必然道路或直接联系", "status": "verified" },
+      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/world-ancient-river-civilizations.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-ancient-01-03-ancient-india", "periodId": "ancient-civilizations", "order": 3,
+      "title": "印度河与恒河流域留下了什么",
+      "coreQuestion": "城市遗址、种姓制度和佛教怎样反映古代印度社会？",
+      "throughline": "从印度河城市遗址、文献与佛教遗存认识古代印度文明，并区分不同时期和不同证据。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界古代史-1.1"],
+      "evidencePlan": ["timeline", "site", "water-system", "seal", "undeciphered-script", "document", "inscription", "architecture"],
+      "worldLink": { "topic": "佛教约在公元1世纪前后逐步传入中国，经译经、造像和长期本土互动形成多样的中国佛教文化", "status": "verified" },
+      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/world-ancient-india.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-ancient-01-04-greek-city-states", "periodId": "ancient-civilizations", "order": 4,
+      "title": "希腊城邦为什么各不相同",
+      "coreQuestion": "雅典、斯巴达和希腊文化展现了怎样的古典世界？",
+      "throughline": "通过城邦地图、公共建筑、雕塑和文献认识希腊城邦制度、社会生活与古典文化，同时说明公民范围的局限。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界古代史-1.1"],
+      "evidencePlan": ["timeline", "map", "site", "architecture", "civic-object", "archaeological-publication", "artifact", "document"],
+      "worldLink": { "topic": "与中国春秋战国时期的多政权竞争、城市和治理思想进行同题比较；只说明时间重叠与差异，不主张制度相同或直接联系", "status": "verified" },
+      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/world-ancient-greek-city-states.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-ancient-01-05-rome-empire", "periodId": "ancient-civilizations", "order": 5,
+      "title": "罗马怎样从城市变成大帝国",
+      "coreQuestion": "道路、军队、法律和城市怎样连接罗马世界？",
+      "throughline": "从城市、共和国到元首制与帝国网络，以遗址、道路、金币、军人证书和社会材料认识罗马扩张、统治、公民权变化、奴役代价及长期延续。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界古代史-1.1"],
+      "evidencePlan": ["timeline", "map", "site", "road", "architecture", "coin", "legal-memory", "military-diploma", "funerary-relief", "artifact"],
+      "worldLink": { "topic": "罗马帝国与秦汉时期在时间上部分重叠；用中国出土罗马成分玻璃和多节点欧亚网络说明间接交流，不虚构单人直达或制度等同", "status": "verified" },
+      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/world-ancient-rome.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-ancient-02-01-medieval-europe", "periodId": "medieval-world", "order": 6,
+      "title": "中世纪西欧的庄园、城市和大学",
+      "coreQuestion": "封君封臣、庄园生活和城市兴起怎样塑造西欧？",
+      "throughline": "分开封君封臣与庄园劳动，用土地调查、月份图、修道院、市场权和讲课手稿认识西欧多样关系、教会与知识网络、城市行会、大学形成及晚期劳动变化。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界古代史-1.2"],
+      "evidencePlan": ["timeline", "relationship-map", "land-survey", "manuscript", "architecture", "urban-rights", "institutional-history", "law-record"],
+      "worldLink": { "topic": "与中国宋辽夏金元时期的城市商业、科举和书籍文化进行同时期比较；说明制度结构不同，不画大学、行会、庄园与中国制度的等号", "status": "verified" },
+      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/world-ancient-medieval-europe.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-ancient-02-02-byzantine", "periodId": "medieval-world", "order": 7,
+      "title": "拜占庭怎样延续罗马并连接欧亚",
+      "coreQuestion": "《查士丁尼法典》、都城和商路说明了什么？",
+      "throughline": "先确认居民自称罗马人与东部罗马延续，再以君士坦丁堡位置、查士丁尼多部法律汇编、圣索菲亚多层建筑、手稿与中国境内东罗马金币认识帝国的权力、信仰、知识和欧亚网络。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界古代史-1.2"],
+      "evidencePlan": ["timeline", "map", "architecture", "mosaic", "law-compilation", "later-printed-edition", "coin", "museum-object-record"],
+      "worldLink": { "topic": "中国境内东罗马金币及仿制品说明欧亚多节点间接联系；大都会参照币与中国出土件严格分开，不虚构单人直达或现代式双边贸易", "status": "verified" },
+      "targets": { "durationMinutes": 8, "screens": 5, "audioClips": 6, "interactions": 3 }, "detailPath": "content/chapters/world-ancient-byzantine.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-ancient-02-03-islamic-world", "periodId": "medieval-world", "order": 8,
+      "title": "阿拉伯帝国怎样连接三洲",
+      "coreQuestion": "伊斯兰教、城市和翻译活动怎样形成交流网络？",
+      "throughline": "先分开伊斯兰教、穆斯林与阿拉伯人，再以622年迁徙、倭马亚大马士革、762年巴格达、多语言翻译、尼沙普尔小铜币和1009年泉州清净寺连接宗教、帝国、城市、知识与海陆网络。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界古代史-1.2"],
+      "evidencePlan": ["timeline", "identity-concept-map", "manuscript", "architecture", "city-network", "coin", "translation-chain", "port-system", "official-heritage-record"],
+      "worldLink": { "topic": "1009年始建的泉州清净寺与宋元泉州港口体系说明中国和伊斯兰世界经海路、多港口与多身份人群相连；现存门楼不是北宋竣工照", "status": "verified" },
+      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/world-ancient-islamic-world.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-ancient-02-04-medieval-japan", "periodId": "medieval-world", "order": 9,
+      "title": "古代日本怎样学习又形成自己的制度",
+      "coreQuestion": "大化改新与武士政治怎样改变日本？",
+      "throughline": "从朝鲜半岛迁徙者、600年遣隋使、645—702年渐进律令、710年奈良、753年末鉴真登陆日本与754年进入奈良、正仓院、平安京和假名文学，再到1180年代镰仓—京都双中心及1274、1281年战争后贸易延续，认识学习、调整与本地发展的连续过程。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界古代史-1.2"],
+      "evidencePlan": ["timeline", "multi-directional-map", "architecture", "legal-process", "capital-plan", "repository", "manuscript", "power-relationship-map", "war-scroll", "maritime-trade-record"],
+      "worldLink": { "topic": "隋唐中国、朝鲜半岛与日本之间的多向人员和知识网络，以及元军来袭后仍继续的中日海上贸易；不把学习写成中国单向输出或文明高低排名", "status": "verified" },
+      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/world-ancient-medieval-japan.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-ancient-02-05-africa-americas", "periodId": "medieval-world", "order": 10,
+      "title": "中古非洲和美洲有哪些城市与文明",
+      "coreQuestion": "撒哈拉以南非洲和美洲文明怎样发展出自己的道路？",
+      "throughline": "从帕伦克约500—700年繁盛，到9—14世纪斯瓦希里海岸、约1100—1450年大津巴布韦、15—16世纪廷巴克图、1325—1521年特诺奇蒂特兰和15世纪安第斯路网，以城市、手稿、文字、贡赋、道路与结绳认识非洲和美洲的多样道路。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界古代史-1.2"],
+      "evidencePlan": ["timeline", "regional-map", "site", "architecture", "trade-object", "manuscript", "glyph-method", "post-conquest-codex", "road-network", "quipu", "evidence-boundary"],
+      "worldLink": { "topic": "中国瓷器和1405—1433年郑和航行支持东非参与印度洋多节点网络；美洲只作同时期比较，不虚构中国—美洲直接接触", "status": "verified" },
+      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/world-ancient-africa-americas.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    }
+  ]
+}

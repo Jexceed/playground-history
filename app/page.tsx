@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { ContentOverview } from "./ContentOverview";
 import { playVoice, stopVoice } from "./speech";
 
 type Era = {
@@ -49,7 +50,7 @@ const sourceCards = [
 const stepVoice = ["chapter-open", "road-open", "meeting-open", "making-open", "chapter-finish"];
 
 export default function Home() {
-  const [screen, setScreen] = useState<"river" | "chapter">("river");
+  const [screen, setScreen] = useState<"river" | "chapter" | "overview">("river");
   const [step, setStep] = useState(0);
   const [voiceOn, setVoiceOn] = useState(true);
   const [answer, setAnswer] = useState<string | null>(null);
@@ -77,6 +78,13 @@ export default function Home() {
     setScreen("river");
     setStep(0);
     setAnswer(null);
+  };
+
+  const openOverview = () => {
+    stopVoice();
+    setPlaying(false);
+    setScreen("overview");
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const goTo = (next: number) => {
@@ -120,11 +128,15 @@ export default function Home() {
           </div>
         )}
 
-        <button className={`voice-switch ${playing ? "playing" : ""}`} onClick={toggleVoice} aria-pressed={voiceOn}>
-          <span>{voiceOn ? "●))" : "—"}</span>
-          {voiceOn ? "本地语音开" : "声音关"}
-        </button>
+        {screen !== "overview" && (
+          <button className={`voice-switch ${playing ? "playing" : ""}`} onClick={toggleVoice} aria-pressed={voiceOn}>
+            <span>{voiceOn ? "●))" : "—"}</span>
+            {voiceOn ? "本地语音开" : "声音关"}
+          </button>
+        )}
       </header>
+
+      {screen === "overview" && <ContentOverview onBack={goHome} />}
 
       {screen === "river" && (
         <section className="river-screen pop-in">
@@ -136,6 +148,7 @@ export default function Home() {
               <div className="hero-actions">
                 <button className="primary-action" onClick={enterChapter}><span>▶</span> 开始隋唐第一章</button>
                 <button className="audio-action" onClick={() => void speak("river-intro")}>●)) 听一听</button>
+                <button className="overview-action" onClick={openOverview}>查看完整91章</button>
               </div>
               <small className="basis-note">主轴依据：中国义务教育历史课程标准、中国国家博物馆“古代中国”基本陈列</small>
             </div>
@@ -155,7 +168,7 @@ export default function Home() {
           <div className="timeline-wrap">
             <div className="timeline-heading">
               <div><p className="eyebrow">八段中国历史</p><h2>每一段，都从上一段走来</h2></div>
-              <span>当前开放：隋唐五代</span>
+              <span>互动试玩：隋唐五代</span>
             </div>
             <div className="timeline" aria-label="中国古代历史时间轴">
               {eras.map((era, index) => (
@@ -164,7 +177,7 @@ export default function Home() {
                   <small>{era.years}</small>
                   <h3>{era.title}</h3>
                   <p>{era.childLine}</p>
-                  {era.active ? <button onClick={enterChapter}>进入这一章 →</button> : <i>故事准备中</i>}
+                  {era.active ? <button onClick={enterChapter}>进入这一章 →</button> : <i>内容稿已完成</i>}
                 </article>
               ))}
             </div>
@@ -284,7 +297,7 @@ export default function Home() {
       <footer className="source-footer">
         <span>历史主轴：教育部《义务教育历史课程标准（2022年版）》与中国国家博物馆“古代中国”</span>
         <span>文物图片：普林斯顿大学艺术博物馆、大都会艺术博物馆公开馆藏</span>
-        <span>原型 0.3 · 预生成普通话音频</span>
+        <span>原型 0.4 · 91章审核入口 · 预生成普通话音频</span>
       </footer>
     </main>
   );

@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.8.0",
+  "trackId": "china-modern",
+  "editorialNote": "范围依据教育部《义务教育历史课程标准（2022年版）》中国近代史1.1—1.6，并以人民教育出版社2025年新修订八年级上册使用建议校准结构。六段课程内容保持原有先后顺序，主线采用中国人民争取民族独立、人民解放的中国近代史叙事；儿童章节标题与核心问题属于编辑设计，条约、战争、人物评价和数字均须以档案、纪念馆、博物馆或权威研究逐句核验。",
+  "periods": [
+    { "id": "late-qing-crisis-and-response", "order": 1, "label": "晚清的危机与救亡", "years": "1840—1911年", "curriculumSections": ["1.1 晚清时期的内忧外患与救亡图存"] },
+    { "id": "revolution-and-republic", "order": 2, "label": "辛亥革命与中华民国建立", "years": "1894—1916年（与上一段部分重叠）", "curriculumSections": ["1.2 辛亥革命与中华民国的建立"] },
+    { "id": "modern-social-change", "order": 3, "label": "近代社会生活变化", "years": "19世纪中期—20世纪中期", "curriculumSections": ["1.3 近代社会生活变化"] },
+    { "id": "cpc-and-new-democratic-revolution", "order": 4, "label": "中国共产党成立与革命新道路", "years": "1919—1936年", "curriculumSections": ["1.4 中国共产党成立与新民主主义革命的兴起"] },
+    { "id": "war-of-resistance", "order": 5, "label": "中华民族的抗日战争", "years": "1931—1945年", "curriculumSections": ["1.5 中华民族的抗日战争"] },
+    { "id": "peoples-liberation-war", "order": 6, "label": "人民解放战争", "years": "1945—1949年", "curriculumSections": ["1.6 人民解放战争"] }
+  ],
+  "chapters": [
+    {
+      "id": "cn-modern-01-01-opium-war", "periodId": "late-qing-crisis-and-response", "order": 1,
+      "title": "鸦片战争为什么成为一道历史分界线",
+      "coreQuestion": "战争和不平等条约怎样改变了中国的处境？",
+      "throughline": "从鸦片走私、虎门销烟、战争经过和《南京条约》等证据，认识中国近代史的开端以及主权受到破坏。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#中国近代史-1.1", "PEP-HISTORY-8-2025-GUIDANCE#晚清阶段"],
+      "evidencePlan": ["map", "document", "artifact"],
+      "worldLink": { "topic": "工业革命后的英国扩张与世界市场", "status": "planned" },
+      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/china-modern-opium-war.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+    },
+    {
+      "id": "cn-modern-01-02-deeper-crisis", "periodId": "late-qing-crisis-and-response", "order": 2,
+      "title": "战火怎样一步步深入中国",
+      "coreQuestion": "第二次鸦片战争和太平天国运动反映了哪些内外矛盾？",
+      "throughline": "用地图、条约文本和遗址资料观察列强侵略加深、清政府统治危机和大规模社会动荡。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#中国近代史-1.1", "PEP-HISTORY-8-2025-GUIDANCE#晚清阶段"],
+      "evidencePlan": ["map", "document", "site"],
+      "worldLink": { "topic": "19世纪殖民扩张与亚洲社会变动", "status": "planned" },
+      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/china-modern-deeper-crisis.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+    },
+    {
+      "id": "cn-modern-01-03-self-strengthening-frontier", "periodId": "late-qing-crisis-and-response", "order": 3,
+      "title": "晚清怎样尝试学习新技术、守卫边疆",
+      "coreQuestion": "洋务运动和边疆危机说明了什么？",
+      "throughline": "从近代工厂、海军、学堂、交通和边疆地图认识晚清自强求富的尝试、成效与局限。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#中国近代史-1.1", "PEP-HISTORY-8-2025-GUIDANCE#晚清阶段"],
+      "evidencePlan": ["artifact", "technology", "map"],
+      "worldLink": { "topic": "日本明治维新及东亚现代化道路", "status": "planned" },
+      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/china-modern-self-strengthening-frontier.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+    },
+    {
+      "id": "cn-modern-01-04-reform-and-national-crisis", "periodId": "late-qing-crisis-and-response", "order": 4,
+      "title": "甲午战败后，人们怎样寻找救国道路",
+      "coreQuestion": "维新变法、义和团运动和晚清新政为何接连出现？",
+      "throughline": "从甲午中日战争、列强瓜分危机、戊戌变法、义和团运动和《辛丑条约》串联民族危机加深与不同救亡尝试。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#中国近代史-1.1", "PEP-HISTORY-8-2025-GUIDANCE#晚清阶段"],
+      "evidencePlan": ["map", "document", "image"],
+      "worldLink": { "topic": "19世纪末帝国主义竞争与东亚格局", "status": "planned" },
+      "targets": { "durationMinutes": 10, "screens": 7, "audioClips": 8, "interactions": 3 }, "detailPath": "content/chapters/china-modern-reform-national-crisis.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+    },
+    {
+      "id": "cn-modern-02-01-revolution-1911", "periodId": "revolution-and-republic", "order": 5,
+      "title": "辛亥革命怎样结束君主专制制度",
+      "coreQuestion": "革命者怎样从组织、起义走到建立共和国？",
+      "throughline": "从兴中会、同盟会、武昌起义和各省响应，理解孙中山等革命者的探索及辛亥革命的历史意义。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#中国近代史-1.2", "PEP-HISTORY-8-2025-GUIDANCE#辛亥革命与民国建立"],
+      "evidencePlan": ["document", "site", "map"],
+      "worldLink": { "topic": "20世纪初亚洲的民族民主运动", "status": "planned" },
+      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/china-modern-revolution-1911.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+    },
+    {
+      "id": "cn-modern-02-02-early-republic", "periodId": "revolution-and-republic", "order": 6,
+      "title": "共和国建立后，为什么仍然困难重重",
+      "coreQuestion": "辛亥革命的成果和局限分别是什么？",
+      "throughline": "连接中华民国建立、临时约法、袁世凯窃取革命果实和北洋军阀统治，认识制度变化并不等于问题立即解决。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#中国近代史-1.2", "PEP-HISTORY-8-2025-GUIDANCE#辛亥革命与民国建立"],
+      "evidencePlan": ["document", "image", "map"],
+      "worldLink": { "topic": "第一次世界大战前后的共和国与帝国", "status": "planned" },
+      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/china-modern-early-republic.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+    },
+    {
+      "id": "cn-modern-03-01-everyday-modernization", "periodId": "modern-social-change", "order": 7,
+      "title": "火车、报纸和新式学堂来到身边",
+      "coreQuestion": "近代交通、教育、传媒和生活习俗怎样改变普通人的一天？",
+      "throughline": "用车票、照片、报刊、校舍和生活用品观察近代工业、交通通信、教育文化与社会习俗的变化，同时看到地区差异。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#中国近代史-1.3", "PEP-HISTORY-8-2025-GUIDANCE#近代社会生活变化"],
+      "evidencePlan": ["artifact", "image", "document"],
+      "worldLink": { "topic": "第二次工业革命与全球城市生活变化", "status": "planned" },
+      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 7, "interactions": 4 }, "detailPath": "content/chapters/china-modern-everyday-modernization.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+    },
+    {
+      "id": "cn-modern-04-01-new-culture-may-fourth", "periodId": "cpc-and-new-democratic-revolution", "order": 8,
+      "title": "新文化和五四运动带来了什么新声音",
+      "coreQuestion": "青年和知识分子为什么重新思考国家、科学与民主？",
+      "throughline": "从新文化运动的刊物、北京学生游行路线和五四运动的传播，理解思想解放、爱国行动与社会动员。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#中国近代史-1.4", "PEP-HISTORY-8-2025-GUIDANCE#中国共产党成立与新民主主义革命兴起"],
+      "evidencePlan": ["document", "image", "map"],
+      "worldLink": { "topic": "第一次世界大战、巴黎和会与民族自决思潮", "status": "planned" },
+      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/china-modern-new-culture-may-fourth.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+    },
+    {
+      "id": "cn-modern-04-02-cpc-national-revolution", "periodId": "cpc-and-new-democratic-revolution", "order": 9,
+      "title": "中国共产党成立后，革命力量怎样汇聚",
+      "coreQuestion": "从党的成立到国民革命，新的政治力量怎样成长？",
+      "throughline": "连接马克思主义传播、中国共产党成立、第一次国共合作、黄埔军校和北伐战争，理解革命新局面的形成与破裂。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#中国近代史-1.4", "PEP-HISTORY-8-2025-GUIDANCE#中国共产党成立与新民主主义革命兴起"],
+      "evidencePlan": ["site", "document", "map"],
+      "worldLink": { "topic": "俄国革命与国际工人运动的影响", "status": "planned" },
+      "targets": { "durationMinutes": 10, "screens": 7, "audioClips": 8, "interactions": 3 }, "detailPath": "content/chapters/china-modern-cpc-national-revolution.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+    },
+    {
+      "id": "cn-modern-04-03-new-revolutionary-road", "periodId": "cpc-and-new-democratic-revolution", "order": 10,
+      "title": "革命为什么转向农村，又走上长征",
+      "coreQuestion": "中国共产党怎样探索适合中国实际的革命道路？",
+      "throughline": "从南昌起义、秋收起义、井冈山根据地、红军长征和遵义会议，理解革命道路探索中的选择、困难与转折。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#中国近代史-1.4", "PEP-HISTORY-8-2025-GUIDANCE#中国共产党成立与新民主主义革命兴起"],
+      "evidencePlan": ["map", "site", "document"],
+      "worldLink": { "topic": "两次世界大战之间的世界经济与政治危机", "status": "planned" },
+      "targets": { "durationMinutes": 10, "screens": 7, "audioClips": 8, "interactions": 3 }, "detailPath": "content/chapters/china-modern-new-revolutionary-road.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+    },
+    {
+      "id": "cn-modern-05-01-from-local-to-national-war", "periodId": "war-of-resistance", "order": 11,
+      "title": "局部抗战怎样发展为全民族抗战",
+      "coreQuestion": "从九一八事变到七七事变，中国社会发生了什么变化？",
+      "throughline": "通过侵略路线、东北抗战、一二·九运动、西安事变和七七事变，认识民族危机加深与抗日民族统一战线的形成。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#中国近代史-1.5"],
+      "evidencePlan": ["map", "document", "image"],
+      "worldLink": { "topic": "法西斯侵略扩张与第二次世界大战的酝酿", "status": "planned" },
+      "targets": { "durationMinutes": 10, "screens": 7, "audioClips": 8, "interactions": 3 }, "detailPath": "content/chapters/china-modern-from-local-to-national-war.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+    },
+    {
+      "id": "cn-modern-05-02-whole-nation-resistance", "periodId": "war-of-resistance", "order": 12,
+      "title": "不同战场和普通人怎样共同抗战",
+      "coreQuestion": "全民族抗战为什么能够坚持十四年并取得胜利？",
+      "throughline": "从正面战场、敌后战场、南京大屠杀史实、国际援助和普通人的支援，认识中国战场的牺牲、贡献与抗战胜利。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#中国近代史-1.5"],
+      "evidencePlan": ["map", "site", "oral-history", "document"],
+      "worldLink": { "topic": "第二次世界大战及世界反法西斯战争", "status": "planned" },
+      "targets": { "durationMinutes": 11, "screens": 7, "audioClips": 8, "interactions": 3 }, "detailPath": "content/chapters/china-modern-whole-nation-resistance.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+    },
+    {
+      "id": "cn-modern-06-01-peace-talks-and-civil-war", "periodId": "peoples-liberation-war", "order": 13,
+      "title": "抗战胜利后，和平为什么没有到来",
+      "coreQuestion": "重庆谈判之后，国内局势怎样走向全面内战？",
+      "throughline": "从重庆谈判、政治协商会议、全面内战爆发和解放区土地改革，理解人民对和平民主的愿望与局势变化。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#中国近代史-1.6"],
+      "evidencePlan": ["document", "map", "image"],
+      "worldLink": { "topic": "第二次世界大战结束后的国际秩序变化", "status": "planned" },
+      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/china-modern-peace-talks-and-civil-war.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+    },
+    {
+      "id": "cn-modern-06-02-victory-1949", "periodId": "peoples-liberation-war", "order": 14,
+      "title": "三大战役怎样把历史带到1949年",
+      "coreQuestion": "人民解放战争为什么取得胜利？",
+      "throughline": "从战略防御转入进攻、三大战役、渡江战役和南京解放，结合政治、军事与民心因素理解新民主主义革命胜利。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#中国近代史-1.6"],
+      "evidencePlan": ["map", "document", "artifact"],
+      "worldLink": { "topic": "战后亚洲民族独立运动", "status": "planned" },
+      "targets": { "durationMinutes": 10, "screens": 7, "audioClips": 8, "interactions": 3 }, "detailPath": "content/chapters/china-modern-victory-1949.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+    }
+  ]
+}

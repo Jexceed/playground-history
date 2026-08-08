@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.58.0",
+  "title": "时空档案局完整内容地图",
+  "audience": {
+    "primary": "6—9岁儿童与家长共学",
+    "delivery": "儿童以图片和语音为主，家长可展开证据与来源"
+  },
+  "narrativeStrategy": {
+    "mainLine": "中国历史发展主线",
+    "method": "点—线结合，以具体证据连接历史进程",
+    "worldHistoryRole": "独立世界史板块 + 中国史章节中的同期世界连接",
+    "primaryStandards": [
+      "MOE-HISTORY-CURRICULUM-2022",
+      "NMC-ANCIENT-CHINA",
+      "NMC-ANCIENT-DESIGN"
+    ]
+  },
+  "tracks": [
+    {
+      "id": "china-ancient",
+      "order": 1,
+      "label": "中国古代史",
+      "range": "中国境内早期人类活动—1840年鸦片战争前",
+      "curriculumSection": "（一）中国古代史",
+      "chapterCatalogStatus": "complete-outline",
+      "detailStatus": "complete-first-draft",
+      "catalogPath": "content/catalog.json"
+    },
+    {
+      "id": "china-modern",
+      "order": 2,
+      "label": "中国近代史",
+      "range": "1840—1949年",
+      "curriculumSection": "（二）中国近代史",
+      "chapterCatalogStatus": "complete-outline",
+      "detailStatus": "complete-first-draft",
+      "catalogPath": "content/catalog-china-modern.json"
+    },
+    {
+      "id": "china-contemporary",
+      "order": 3,
+      "label": "中国现代史",
+      "range": "1949年至今",
+      "curriculumSection": "（三）中国现代史",
+      "chapterCatalogStatus": "complete-outline",
+      "detailStatus": "complete-first-draft",
+      "catalogPath": "content/catalog-china-contemporary.json"
+    },
+    {
+      "id": "world-ancient",
+      "order": 4,
+      "label": "世界古代史",
+      "range": "早期人类—15世纪末",
+      "curriculumSection": "（四）世界古代史",
+      "chapterCatalogStatus": "complete-outline",
+      "detailStatus": "complete-first-draft",
+      "catalogPath": "content/catalog-world-ancient.json"
+    },
+    {
+      "id": "world-modern",
+      "order": 5,
+      "label": "世界近代史",
+      "range": "15世纪末—20世纪初",
+      "curriculumSection": "（五）世界近代史",
+      "chapterCatalogStatus": "complete-outline",
+      "detailStatus": "complete-first-draft",
+      "catalogPath": "content/catalog-world-modern.json"
+    },
+    {
+      "id": "world-contemporary",
+      "order": 6,
+      "label": "世界现代史",
+      "range": "20世纪初至今",
+      "curriculumSection": "（六）世界现代史",
+      "chapterCatalogStatus": "complete-outline",
+      "detailStatus": "complete-first-draft",
+      "catalogPath": "content/catalog-world-contemporary.json"
+    },
+    {
+      "id": "cross-disciplinary",
+      "order": 7,
+      "label": "跨学科主题学习",
+      "range": "贯穿全部时间",
+      "curriculumSection": "（七）跨学科主题学习",
+      "chapterCatalogStatus": "complete-outline",
+      "detailStatus": "complete-first-draft",
+      "catalogPath": "content/catalog-cross-disciplinary.json"
+    }
+  ],
+  "completionDefinition": {
+    "catalog": "七个板块均有完整章节目录、时间位置和前后连接",
+    "chapter": "每章有事实稿、儿童稿、语音稿、互动题、来源和素材清单",
+    "assets": "正式使用图片均具备明确许可或自行制作依据",
+    "release": "内容通过事实审核后，网页版与微信端从同一数据包生成"
+  }
+}

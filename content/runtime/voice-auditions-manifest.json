@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-08-06T23:31:44.068Z",
+  "provider": "edge-tts Python package",
+  "sourceWorkflow": "../playground/scripts/generate-edge-voices.mjs",
+  "version": "2026-08-07-a",
+  "purpose": "在批量合成653段正式语音前，比较两种适合低龄儿童的普通话讲述方式。",
+  "profiles": [
+    {
+      "id": "warm-narrator",
+      "label": "A · 温和讲述",
+      "description": "语速更慢、音高略低，适合作为时间线和主要历史叙述。",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-15%",
+      "pitch": "-4Hz",
+      "samples": [
+        {
+          "id": "timeline",
+          "label": "时间线",
+          "chapter": "从牙齿和头骨寻找早期人类",
+          "text": "把时间线向左拉，拉到非常非常远的过去。那时没有人写日记，也没有相机。考古人员只能仔细观察地下留下的牙齿、骨头、石器和灰烬，像侦探一样，把许多小线索拼在一起。",
+          "src": "/audio/auditions/warm-narrator-timeline.mp3",
+          "bytes": 118512
+        },
+        {
+          "id": "artifact",
+          "label": "文物解释",
+          "chapter": "从文物看唐代长安",
+          "text": "考古人员在唐长安东市遗址，找到了道路、水井、排水设施和加工遗迹。它们说明这里曾有人做工、交易，也有人饮食休息。不过，一片玻璃不能告诉我们是谁带来的、经过哪条路、卖了多少钱。真实证据，也会留下不知道的地方。",
+          "src": "/audio/auditions/warm-narrator-artifact.mp3",
+          "bytes": 159120
+        },
+        {
+          "id": "cause",
+          "label": "复杂因果",
+          "chapter": "鸦片战争为什么成为一道历史分界线",
+          "text": "英国把虎门销烟当作发动战争的借口。真正要分清的是：走私毒品违反禁令，禁烟是在保护民众；派军舰侵略另一个国家，责任在发动战争的一方。不能说，因为中国禁烟，所以中国造成了战争。",
+          "src": "/audio/auditions/warm-narrator-cause.mp3",
+          "bytes": 132480
+        }
+      ]
+    },
+    {
+      "id": "story-companion",
+      "label": "B · 故事伙伴",
+      "description": "语气更活泼，但不使用夸张播音腔，适合作为角色引导和互动反馈。",
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-12%",
+      "pitch": "-2Hz",
+      "samples": [
+        {
+          "id": "timeline",
+          "label": "时间线",
+          "chapter": "从牙齿和头骨寻找早期人类",
+          "text": "把时间线向左拉，拉到非常非常远的过去。那时没有人写日记，也没有相机。考古人员只能仔细观察地下留下的牙齿、骨头、石器和灰烬，像侦探一样，把许多小线索拼在一起。",
+          "src": "/audio/auditions/story-companion-timeline.mp3",
+          "bytes": 110448
+        },
+        {
+          "id": "artifact",
+          "label": "文物解释",
+          "chapter": "从文物看唐代长安",
+          "text": "考古人员在唐长安东市遗址，找到了道路、水井、排水设施和加工遗迹。它们说明这里曾有人做工、交易，也有人饮食休息。不过，一片玻璃不能告诉我们是谁带来的、经过哪条路、卖了多少钱。真实证据，也会留下不知道的地方。",
+          "src": "/audio/auditions/story-companion-artifact.mp3",
+          "bytes": 148752
+        },
+        {
+          "id": "cause",
+          "label": "复杂因果",
+          "chapter": "鸦片战争为什么成为一道历史分界线",
+          "text": "英国把虎门销烟当作发动战争的借口。真正要分清的是：走私毒品违反禁令，禁烟是在保护民众；派军舰侵略另一个国家，责任在发动战争的一方。不能说，因为中国禁烟，所以中国造成了战争。",
+          "src": "/audio/auditions/story-companion-cause.mp3",
+          "bytes": 121824
+        }
+      ]
+    }
+  ]
+}

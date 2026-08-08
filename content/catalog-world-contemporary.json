@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.14.0",
+  "trackId": "world-contemporary",
+  "editorialNote": "依据教育部《义务教育历史课程标准（2022年版）》世界现代史1.1—1.5。目录突出两次世界大战、社会主义从理论到实践、民族解放、国际格局变迁以及和平发展合作的时代主题；战争内容面向儿童时采用地图、物件和普通人视角，避免刺激性画面。",
+  "periods": [
+    { "id": "wwi-and-russian-revolution", "order": 1, "label": "第一次世界大战与俄国十月革命", "years": "1914—1922年", "curriculumSections": ["1.1 第一次世界大战与俄国十月革命"] },
+    { "id": "interwar-world", "order": 2, "label": "两次世界大战之间", "years": "1918—1939年", "curriculumSections": ["1.2 两次世界大战之间的世界政治与经济"] },
+    { "id": "wwii", "order": 3, "label": "第二次世界大战", "years": "1931—1945年", "curriculumSections": ["1.3 第二次世界大战"] },
+    { "id": "postwar-world", "order": 4, "label": "战后世界新变化", "years": "1945—1991年", "curriculumSections": ["1.4 第二次世界大战后世界的新变化"] },
+    { "id": "world-today", "order": 5, "label": "当今世界发展趋势", "years": "1991年至今", "curriculumSections": ["1.5 当今世界的主要发展趋势"] }
+  ],
+  "chapters": [
+    {
+      "id": "world-contemporary-01-01-first-world-war", "periodId": "wwi-and-russian-revolution", "order": 1,
+      "title": "第一次世界大战为什么爆发",
+      "coreQuestion": "联盟、军备竞争和萨拉热窝事件怎样把多国拖入战争？",
+      "throughline": "先以1882—1919年时间线和战前危险网络理解帝国竞争、军备竞赛、巴尔干危机、联盟与作战计划，再逐格检查萨拉热窝刺杀后的七月危机选择、战壕与全球战争、家书工厂和运输；中国线从1916年赴欧华工、1917年宣战走到巴黎和会山东问题、拒签与五四运动。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界现代史-1.1"],
+      "evidencePlan": ["proportional-timeline", "alliance-map", "crisis-decision-chain", "government-document", "historical-photograph", "labor-and-supply-network", "treaty-page", "contemporary-drawing", "evidence-limits-table"],
+      "worldLink": { "topic": "1916年赴欧华工—1917年中国对德奥宣战—1918年停战—1919年巴黎和会山东问题与五四运动；明确华工早于正式参战，拒签不等于山东权益当场收回", "status": "verified" },
+      "targets": { "durationMinutes": 11, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-contemporary-first-world-war.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-contemporary-01-02-russian-revolution", "periodId": "wwi-and-russian-revolution", "order": 2,
+      "title": "俄国十月革命为什么开辟新道路",
+      "coreQuestion": "战争与社会矛盾怎样推动俄国革命？",
+      "throughline": "先以1905—1922年时间线和新旧历双日期区分1917年的二月革命与十月革命，再沿一战压力、沙皇退位、临时政府与苏维埃并立、列宁回国、秋季武装起义、和平土地法令、立宪会议解散、苛刻和约与内战走到苏联成立；中国线连接李大钊1918—1919年的文章与马克思主义早期传播。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界现代史-1.1"],
+      "evidencePlan": ["dual-calendar-timeline", "cause-network", "dual-power-comparison", "proclamation", "historical-photograph", "contemporary-painting", "election-result", "treaty-page", "signature-page", "evidence-limits-table"],
+      "worldLink": { "topic": "十月革命与马克思主义在中国传播", "status": "verified" },
+      "targets": { "durationMinutes": 11, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-contemporary-russian-revolution.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-contemporary-02-01-interwar-order-socialism", "periodId": "interwar-world", "order": 3,
+      "title": "战后秩序和苏联建设带来了什么",
+      "coreQuestion": "凡尔赛—华盛顿体系与苏联工业化分别怎样塑造战间期？",
+      "throughline": "先用1919—1938年双轨时间线并列战后国际规则与苏联国内建设；国际线从巴黎和会的参与不平等、国际联盟的合作与执行缺口走到华盛顿会议、中国十项原则、《九国公约》和山东问题的有条件解决；苏联线从内战后危机、新经济政策走到五年计划、重工业、生活短缺、强制集体化、严重饥荒、强迫劳动和政治镇压，始终区分目标、方法与结果。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界现代史-1.2"],
+      "evidencePlan": ["dual-track-timeline", "conference-photograph", "treaty-page", "institution-rules-table", "chinese-diplomatic-history", "market-photograph", "relief-poster", "industrial-site-photograph", "propaganda-source-critique", "internal-memorandum", "evidence-limits-table"],
+      "worldLink": { "topic": "中国代表团在华盛顿会议提出主权、关税与治外法权等要求，山东问题有条件解决但不平等关系未全部消除；中国后来学习苏联工业化经验并思考符合本国情况的发展道路", "status": "verified" },
+      "targets": { "durationMinutes": 11, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-contemporary-interwar-order-socialism.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-contemporary-02-02-depression-fascism-resistance", "periodId": "interwar-world", "order": 4,
+      "title": "经济危机为什么让世界走向不同方向",
+      "coreQuestion": "罗斯福新政、法西斯扩张和殖民地民族运动怎样回应危机？",
+      "throughline": "先以1919—1938年时间线确认法西斯在大萧条前已经出现，再沿股灾、银行恐慌、生产就业循环与全球传导解释经济危机；比较美国新政的救济、监管、社会保障及覆盖不平等，意大利、德国和日本法西斯与军国主义的独裁侵略，以及印度食盐进军、埃及1919年革命和不完整独立、墨西哥卡德纳斯改革；中国线从九一八事变、国际申诉和抗日救亡走到七七事变与全民族抗战。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界现代史-1.2"],
+      "evidencePlan": ["chronological-timeline", "economic-cause-loop", "central-bank-history", "historical-photograph", "government-program-record", "law-page", "coverage-exclusion-research", "parliamentary-history", "national-movement-chronology", "chinese-museum-history", "intergovernmental-report", "evidence-limits-table"],
+      "worldLink": { "topic": "九一八事变后中国抗日救亡兴起，李顿调查团报告未能及时制止侵略；七七事变后全民族抗战开始，中国战场进入世界反法西斯战争主线", "status": "verified" },
+      "targets": { "durationMinutes": 11, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-contemporary-depression-fascism-resistance.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-contemporary-03-01-second-world-war", "periodId": "wwii", "order": 5,
+      "title": "第二次世界大战怎样从局部走向全球",
+      "coreQuestion": "法西斯侵略、主要战场和国际合作怎样决定战争进程？",
+      "throughline": "先为1931年中国抗战、1937年全民族抗战、1939年欧洲大战和1941年战争进一步全球化加上范围标签，再沿日本侵华、意大利侵略埃塞俄比亚、德国扩张、绥靖与轴心结盟解释局部战争怎样连接；以中国十四年抗战和东方主战场为主体，连接欧洲东线、北非、太平洋、殖民地人员与全球运输；用南京名单墙、奥斯维辛遗址和档案说明战争罪行与种族灭绝，再从《联合国家宣言》、开罗会议、多战场转折走到德日投降、核武器灾难和联合国建立。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界现代史-1.3"],
+      "evidencePlan": ["scope-labeled-timeline", "global-war-network", "chinese-archives-and-museums", "transport-and-supply-chain", "multilateral-declaration", "diplomatic-document", "historical-photograph", "authentic-site", "memorial-wall", "crime-document-chain", "multi-theater-turning-points", "surrender-document", "evidence-limits-table"],
+      "worldLink": { "topic": "从九一八事变与十四年抗战进入第二次世界大战；正面战场、敌后战场与普通人共同支撑东方主战场，中国领衔签署《联合国家宣言》并参加开罗会议，1945年接受日本投降", "status": "verified" },
+      "targets": { "durationMinutes": 12, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-contemporary-second-world-war.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-contemporary-04-01-cold-war", "periodId": "postwar-world", "order": 6,
+      "title": "没有直接全面开战的“冷战”是什么",
+      "coreQuestion": "美苏对峙怎样影响战后世界？",
+      "throughline": "先以1945—1991年时间线连接战时同盟分裂、杜鲁门主义、马歇尔计划、柏林危机、北约与华约、核军备、柏林墙开放和苏联解体；再以朝鲜战争说明‘美苏没有直接全面战争’不等于世界没有热战，以古巴导弹危机检查核威慑、误判和公开秘密谈判；中国线从中苏条约、志愿军入朝、和平共处五项原则与万隆会议走到中苏关系变化、恢复联合国合法权利和中美关系正常化，突出中国与亚非国家不是美苏棋子。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界现代史-1.4"],
+      "evidencePlan": ["chronological-timeline", "policy-speech", "propaganda-source-critique", "treaty-page", "blockade-and-supply-network", "multilateral-resolution-and-vote", "multi-perspective-war-chain", "armistice-text", "aerial-intelligence-image", "crisis-negotiation-chain", "chinese-diplomatic-documents", "asia-africa-conference-record", "before-and-after-site-photograph", "evidence-limits-table"],
+      "worldLink": { "topic": "中苏条约与抗美援朝—和平共处五项原则与万隆会议—中苏关系变化—1964年核政策声明—1971年恢复联合国合法权利—1972年中美正常化进程开始—1979年正式建交；说明中国和亚非国家在两极格局中主动选择并塑造关系", "status": "verified" },
+      "targets": { "durationMinutes": 12, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-contemporary-cold-war.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-contemporary-04-02-postwar-development", "periodId": "postwar-world", "order": 7,
+      "title": "战后不同国家怎样重建和发展",
+      "coreQuestion": "欧美、日本和社会主义国家的发展道路有哪些变化？",
+      "throughline": "先用1944—1980年时间线确认美国、西欧、日本、苏联和中国并非站在同一起点，再用‘困难—办法—生活变化—代价与调整’同一组问题比较：美国的生产转向、军人教育住房支持与种族不平等，西欧的外部援助、国内重建、社会保障与煤钢共同规则，日本的占领改革、投资贸易、高速增长和水俣病，社会主义国家的计划建设、住房科学成就、短缺僵硬与后期放缓；中国线从一五计划和156项、第一辆解放牌汽车、探索中的成就与曲折走到1978年改革开放，突出学习外部经验不等于照抄。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界现代史-1.4"],
+      "evidencePlan": ["chronological-timeline", "same-question-comparison-table", "law-and-implementation-gap", "government-leaflet-source-critique", "treaty-seal-and-text", "central-bank-period-statistic", "later-transport-photograph", "aerial-image-and-pollution-causation", "research-paper-perspective-label", "museum-replica-label", "energy-shock-local-photograph", "chinese-diplomatic-and-industrial-records", "evidence-limits-table"],
+      "worldLink": { "topic": "1953—1957年第一个五年计划和中苏‘156项’建设—1956年首辆解放牌汽车下线—社会主义建设探索的成就、比例失调和严重曲折—1978年工作重点转移与改革开放—1980年深圳经济特区；在战后国际合作、冷战、石油冲击和不同国家改革道路中理解中国从本国条件出发的选择", "status": "verified" },
+      "targets": { "durationMinutes": 12, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-contemporary-postwar-development.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-contemporary-04-03-decolonization", "periodId": "postwar-world", "order": 8,
+      "title": "亚洲、非洲和拉丁美洲怎样争取独立与发展",
+      "coreQuestion": "殖民体系为什么在战后走向瓦解？",
+      "throughline": "先用1947—1999年时间线连接印度与巴基斯坦独立和分治、万隆会议、加纳独立、非洲年、联合国反殖民宣言、阿尔及利亚独立、非洲统一组织、纳米比亚独立、南非全民选举与巴拿马收回运河；再区分法律权力移交、人民长期斗争、战争谈判和国际监督等不同道路，并以七十七国集团和国际经济新秩序宣言说明政治独立后仍要争取资源、贸易和发展规则；中国线从万隆会议和非洲十国访问走到中坦赞三国合作建设坦赞铁路，明确中国是支持者与合作伙伴，不能替当地人民成为独立叙事主角。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界现代史-1.4"],
+      "evidencePlan": ["chronological-timeline", "decolonization-map-by-year", "law-and-people-action-comparison", "partition-border-and-refugee-life", "conference-record", "newsreel-source-critique", "multilateral-resolution", "war-negotiation-referendum-chain", "regional-organization-history", "election-photograph", "trade-and-development-declaration", "latin-america-path-comparison", "three-country-infrastructure-chain", "evidence-limits-table"],
+      "worldLink": { "topic": "1955年中国参加万隆会议—1963至1964年周恩来访问非洲十国—新独立国家改变联合国代表结构与1971年第2758号决议—坦桑尼亚、赞比亚提出运输和发展需要—1968年坦赞铁路勘测、1970年开工、1976年建成移交；尊重亚非拉人民的独立主体地位，区分支持、合作与替代叙事", "status": "verified" },
+      "targets": { "durationMinutes": 12, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-contemporary-decolonization.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-contemporary-05-01-globalization-polarization", "periodId": "world-today", "order": 9,
+      "title": "冷战结束后，世界为什么更相连也更复杂",
+      "coreQuestion": "多极化、经济全球化和信息化怎样改变国家与个人？",
+      "throughline": "先以1989—2008年时间线连接冷战两极结构结束、万维网软件开放、欧盟和世贸组织建立、中国接入国际互联网和加入世贸组织、亚洲金融危机及全球金融危机；再把多极化限定为力量更多元但仍不均衡的发展趋势，以港口和全球价值链解释商品跨国生产及收益差异，以第一台网页服务器、铺缆船、缓存机柜和网吧区分互联网与万维网；最后用雷曼兄弟破产、G20峰会和数字鸿沟说明连接既带来知识、市场与合作，也会传递风险，并要求公平规则、信息核验和儿童隐私保护。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界现代史-1.5"],
+      "evidencePlan": ["multi-track-timeline", "regional-treaty-display", "multilateral-organization-history", "global-value-chain-model", "port-infrastructure-photograph", "official-accession-protocol", "technical-object-photograph", "physical-network-infrastructure", "digital-divide-statistics", "financial-crisis-cause-chain", "contemporaneous-building-photograph", "summit-group-photograph", "evidence-limits-table"],
+      "worldLink": { "topic": "改革开放和国内建设—1986年复关谈判—1994年全功能接入国际互联网—1995年转为入世谈判—2001年加入世界贸易组织；同时说明成员权利、规则义务、行业差异、数字鸿沟和外部风险，不把中国发展归给单一国际组织", "status": "verified" },
+      "targets": { "durationMinutes": 12, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-contemporary-globalization-polarization.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-contemporary-05-02-peace-development", "periodId": "world-today", "order": 10,
+      "title": "全球问题为什么需要一起解决",
+      "coreQuestion": "联合国和各国怎样面对和平、环境、资源与公共健康问题？",
+      "throughline": "先以1945—2022年时间线连接《联合国宪章》、中国与巴西倡议国际卫生组织、联合国维和、援外医疗、全球根除天花、《蒙特利尔议定书》、国际卫生条例、2030年议程、《巴黎协定》、新冠全球紧急状态和生物多样性框架；再用‘问题越界但责任能力不同—共同规则—分别行动—公平支持—监测复查’解释国际合作。联合国部分明确它不是世界政府并受会员国决定、安理会否决和任务授权约束；公共健康比较天花成功与疫苗公平；环境比较臭氧可核结果、气候长期行动及候鸟迁徙路线；中国线从创始签署、卫生倡议、援外医疗和维和走到人类命运共同体理念，同时保留其他国家、国际组织和普通人的主体作用。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界现代史-1.5"],
+      "evidencePlan": ["multi-track-timeline", "charter-reproduction", "institutional-structure", "peacekeeping-principles", "field-vaccination-photograph", "fixed-date-vaccine-equity-statistics", "satellite-data-visualization", "scientific-assessment", "migratory-route-evidence", "treaty-implementation-chain", "goal-action-result-comparison", "evidence-limits-table"],
+      "worldLink": { "topic": "1945年中国代表签署《联合国宪章》且中国与巴西代表共同倡议建立国际卫生组织—1963年首支援外医疗队—1990年参加联合国维和—2016年批准《巴黎协定》—2022年担任生物多样性大会主席国；2017年在联合国日内瓦总部系统阐述构建人类命运共同体理念。每个节点分别核验，不把中国写成唯一行动者，也不把理念、文件和结果混为一谈", "status": "verified" },
+      "targets": { "durationMinutes": 12, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-contemporary-peace-development.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    }
+  ]
+}

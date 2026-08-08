@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.14.0",
+  "trackId": "world-modern",
+  "editorialNote": "依据教育部《义务教育历史课程标准（2022年版）》世界近代史1.1—1.7，围绕资本主义产生发展、社会主义运动、殖民扩张与民族解放三条线组织。儿童章节用具体物件和地图进入复杂制度问题，不把殖民扩张写成单向“发现”。",
+  "periods": [
+    { "id": "early-modern-economy-culture", "order": 1, "label": "近代早期经济与文化变化", "years": "约14—16世纪", "curriculumSections": ["1.1 近代早期西欧经济和社会变化"] },
+    { "id": "global-routes", "order": 2, "label": "新航路与全球联系", "years": "15—17世纪", "curriculumSections": ["1.2 新航路的开辟"] },
+    { "id": "bourgeois-revolutions", "order": 3, "label": "英美法资产阶级革命", "years": "17—18世纪", "curriculumSections": ["1.3 英、美、法资产阶级革命"] },
+    { "id": "industrial-revolution-socialism", "order": 4, "label": "工业革命与社会主义思想", "years": "18世纪中期—19世纪", "curriculumSections": ["1.4 第一次工业革命和马克思主义的诞生"] },
+    { "id": "empire-resistance", "order": 5, "label": "殖民扩张与民族反抗", "years": "18—19世纪", "curriculumSections": ["1.5 殖民地人民的反抗与资本主义制度的扩展"] },
+    { "id": "second-industrial-science-art", "order": 6, "label": "第二次工业革命与近代文化", "years": "19世纪后期—20世纪初", "curriculumSections": ["1.6 科学技术的发展与第二次工业革命", "1.7 近代科学与艺术成就"] }
+  ],
+  "chapters": [
+    {
+      "id": "world-modern-01-01-workshops-renaissance", "periodId": "early-modern-economy-culture", "order": 1,
+      "title": "工场、城市和文艺复兴带来了什么新变化",
+      "coreQuestion": "经济生活变化怎样与新的文化表达相互影响？",
+      "throughline": "从14世纪农村雇佣劳动和地区差异，到佛罗伦萨织物、城市赞助与合作作坊，再以古典文本教育、约1454—1455年欧洲金属活字、观察稿、莎士比亚剧团和后世书籍认识经济与文化的长期变化。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界近代史-1.1"],
+      "evidencePlan": ["timeline", "labor-relationship-map", "textile", "portrait", "workshop-network", "observation-drawing", "printed-book", "later-workshop-print", "later-collected-edition", "comparative-document"],
+      "worldLink": { "topic": "与明代中国城市商业、手工业、雕版与活字传统及1637年《天工开物》作同时期和证据比较；不把两地制度画成相同路径", "status": "verified" },
+      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/world-modern-workshops-renaissance.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-modern-02-01-ocean-routes", "periodId": "global-routes", "order": 2,
+      "title": "远洋航行怎样把世界连接起来",
+      "coreQuestion": "新航路带来了交流，也带来了哪些掠夺与灾难？",
+      "throughline": "先确认15世纪前印度洋等已有多港口网络和1405—1433年郑和远航，再以1493年信件、泰诺文物、达伽马日志、皮加费塔地图、Slave Voyages估算、波托西银山与中国外销瓷认识跨洋连接、殖民侵略、强迫劳动、跨大西洋贩奴和明代白银网络。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界近代史-1.2"],
+      "evidencePlan": ["two-layer-timeline", "route-network", "indigenous-artifact", "voyage-letter", "voyage-journal", "historical-map", "archival-estimates", "heritage-landscape", "export-porcelain", "labor-chain"],
+      "worldLink": { "topic": "郑和七下西洋、明代白银货币化、中国海商、丝绸瓷器与马尼拉贸易；不把中国写成欧洲航线的被动终点", "status": "verified" },
+      "targets": { "durationMinutes": 10, "screens": 7, "audioClips": 8, "interactions": 3 }, "detailPath": "content/chapters/world-modern-ocean-routes.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-modern-03-01-english-revolution", "periodId": "bourgeois-revolutions", "order": 3,
+      "title": "英国国王的权力为什么受到限制",
+      "coreQuestion": "革命、复辟和《权利法案》怎样改变英国政治？",
+      "throughline": "从1628年《权利请愿书》进入征税、法律和宗教冲突，把1642年以后英格兰内战放回三王国战争，再以1649年死刑令、共和国大印、1660年复辟图、1688年登陆画和1689年《权利法案》理解限制王权与议会增强的曲折过程，同时确认军队权力、爱尔兰再征服和财产性别宗教排除。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界近代史-1.3"],
+      "evidencePlan": ["timeline", "legal-document", "death-warrant", "state-seal", "later-history-painting", "contemporary-political-painting", "rights-scope-table"],
+      "worldLink": { "topic": "与1644年明清易代和明清皇权集中作同时轴制度比较；只比较各自权力组织方式，不虚构直接影响或文明排名", "status": "verified" },
+      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 }, "detailPath": "content/chapters/world-modern-english-revolution.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-modern-03-02-american-french-revolutions", "periodId": "bourgeois-revolutions", "order": 4,
+      "title": "独立与人权的口号怎样改变欧美",
+      "coreQuestion": "美国独立战争和法国大革命有哪些相同与不同？",
+      "throughline": "以1775—1791年美国独立、建国文件和1789—1804年法国—海地革命双线时间轴，比较《独立宣言》、美国宪法、法国《人权和公民权宣言》、《女权和女公民权宣言》、海地独立宣言与《法国民法典》，同时检查奴隶制、原住民土地、妇女参政、恐怖统治和拿破仑恢复殖民地奴隶制等权利边界。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界近代史-1.3"],
+      "evidencePlan": ["dual-timeline", "declaration", "constitution", "indigenous-perspective", "historical-print", "counter-declaration", "colonial-independence-document", "civil-code", "rights-gap-table"],
+      "worldLink": { "topic": "与清朝乾隆时期作同一世界时间轴，并为独立、共和和权利语言后来传入近代中国保留后续连接；不虚构18世纪直接因果", "status": "verified" },
+      "targets": { "durationMinutes": 11, "screens": 7, "audioClips": 8, "interactions": 3 }, "detailPath": "content/chapters/world-modern-american-french-revolutions.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-modern-04-01-first-industrial-revolution", "periodId": "industrial-revolution-socialism", "order": 5,
+      "title": "蒸汽机和工厂怎样改变世界",
+      "coreQuestion": "第一次工业革命带来了哪些进步与问题？",
+      "throughline": "从1712年纽科门矿井抽水机、1765年瓦特独立冷凝器和1771年水力棉纺厂进入能源与工厂制度，再沿被奴役劳动生产的原棉、工人家庭、1833年法律及执行、铁路和曼彻斯特城市资料认识生产力巨变与不平等，并把英国工业航运金融殖民能力放回鸦片战争前后的中英力量变化。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界近代史-1.4"],
+      "evidencePlan": ["timeline", "engine-engraving", "surviving-engine", "textile-machine", "industrial-heritage-site", "plantation-map", "later-lantern-slide", "railway-object", "city-painting", "law-and-enforcement-table", "global-supply-chain"],
+      "worldLink": { "topic": "把1792—1794年马戛尔尼使团、清代受管制对外贸易和1840年鸦片战争放入同一时间轴；比较英国工业、舰船、金融和殖民网络与清朝财政军事行政处境，明确英国侵略、鸦片贸易和不平等条约，不把战争归结为蒸汽机或文明排名", "status": "verified" },
+      "targets": { "durationMinutes": 10, "screens": 6, "audioClips": 7, "interactions": 4 }, "detailPath": "content/chapters/world-modern-first-industrial-revolution.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-modern-04-02-workers-marxism", "periodId": "industrial-revolution-socialism", "order": 6,
+      "title": "工人为什么组织起来，马克思主义怎样诞生",
+      "coreQuestion": "工业社会的问题催生了哪些新思想和行动？",
+      "throughline": "从1811—1812年卢德派和1838—1848年宪章运动确认工人先于理论行动，再以新拉纳克改革、恩格斯调查、《共产党宣言》初版与后序、第一国际会员证和巴黎公社布告及照片，认识马克思主义形成、跨国工人组织、72天城市实践及其分歧、未完成与镇压；最后落到1920年首个中文全译本。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界近代史-1.4"],
+      "evidencePlan": ["timeline", "political-print", "restored-daguerreotype", "social-investigation", "political-program", "later-preface", "membership-card", "policy-poster", "womens-organization-poster", "street-photograph", "ruins-photograph", "evidence-limits-table"],
+      "worldLink": { "topic": "1848年只与鸦片战争后的清朝作同期比较；马克思主义传华落到1920年陈望道首个中文全译本，并把五四运动与中国共产党早期史留给中国近代史章节展开", "status": "verified" },
+      "targets": { "durationMinutes": 11, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-modern-workers-marxism.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-modern-05-01-colonial-resistance", "periodId": "empire-resistance", "order": 7,
+      "title": "殖民地人民怎样反抗压迫",
+      "coreQuestion": "拉丁美洲独立运动和印度民族大起义为何爆发？",
+      "throughline": "先以1808—1824年拉丁美洲多地独立和1856—1858年印度—中国同期线分清两场运动，再用《牙买加来信》、海地援助、安第斯路线、女性身后肖像、东印度公司版图、章西纪念画、被俘皇帝照片与1858年法令，认识反殖民行动的多人多目标、政治独立与社会平等的距离，以及印度鸦片、殖民财政和军队调动连接的英帝国亚洲网络。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界近代史-1.5"],
+      "evidencePlan": ["parallel-timeline", "colonial-social-structure", "dictated-letter", "exhibition-document-photograph", "route-network", "near-contemporary-portrait", "posthumous-portrait", "later-history-painting", "later-colonial-map", "captivity-photograph", "posthumous-memorial-painting", "later-site-photograph", "primary-legislation", "cause-and-trigger-table", "independence-equality-gap", "imperial-network"],
+      "worldLink": { "topic": "以1856—1860年第二次鸦片战争作同期线，并用印度鸦片、殖民财政与英军调动说明同一英国帝国亚洲网络；明确1857年印度起义没有造成第二次鸦片战争，中印也没有共同制定反英行动", "status": "verified" },
+      "targets": { "durationMinutes": 11, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-modern-colonial-resistance.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-modern-05-02-capitalist-expansion", "periodId": "empire-resistance", "order": 8,
+      "title": "美国、俄国和日本为什么先后改革或革命",
+      "coreQuestion": "美国内战、俄国农奴制改革和日本明治维新改变了什么？",
+      "throughline": "先以1853—1895年美、俄、日和中国四条同期线定位事件，再用脱离联邦文件、《解放宣言》、逃离奴役者营地、黑人部队照片、三项修正案、俄国宣言重印与历史画、岩仓合影、富冈锦绘、明治宪法仪式画、阿伊努长袍和甲午宣传画，比较内战与重建、自上而下改革、政权更替和国家建设三条资本主义扩展道路及其权利边界、土地负担、少数族群代价和对外侵略。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界近代史-1.5"],
+      "evidencePlan": ["parallel-timeline", "cause-chain", "secession-document-context", "primary-proclamation", "self-emancipation-photograph", "military-photograph", "constitutional-amendments", "rights-reality-gap", "later-manifesto-reprint", "later-history-painting", "diplomatic-group-photograph", "contemporary-industrial-print", "constitutional-primary-text", "ceremonial-print", "indigenous-object", "minority-policy-record", "wartime-propaganda-print", "three-path-comparison", "china-contemporary-line"],
+      "worldLink": { "topic": "把19世纪60—90年代明治改革与晚清洋务运动作同期具体维度比较，并以1894—1895年甲午战争和《马关条约》说明国家工业与军事能力也会用于对外侵略；拒绝民族文化优劣解释", "status": "verified" },
+      "targets": { "durationMinutes": 12, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-modern-capitalist-expansion.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-modern-06-01-second-industrial-revolution", "periodId": "second-industrial-science-art", "order": 9,
+      "title": "电、内燃机和新通信怎样再次改变生活",
+      "coreQuestion": "第二次工业革命为什么让世界更快也更不平等？",
+      "throughline": "先以1856—1913年技术与中国同期线定位事件，再用电灯专利和珍珠街电站、电话专利和接线员、汽车专利与贝尔塔行程、福特工厂照片、苯胺紫样本、转炉图、化工厂照片和反垄断漫画，认识装置必须连接能源、线路、道路、劳动、资本和规则才能改变生活，并比较效率、普及不均、重复劳动、环境污染和大企业权力；最后回到1880年代天津电报与唐胥铁路的晚清系统建设。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界近代史-1.6"],
+      "evidencePlan": ["parallel-timeline", "patent-drawing", "urban-power-system", "operator-photograph", "infrastructure-chain", "assembly-line-photograph", "material-sample", "technical-diagram", "industrial-landscape-photograph", "political-cartoon", "law-primary-document", "system-comparison", "evidence-limits-table"],
+      "worldLink": { "topic": "以1880年天津电报总局、1881年津沪公共电报线和唐胥铁路为具体节点，把晚清工业、学堂、人才、资金、管理、线路与主权放入同一系统问题；不写中国拒绝所有技术，也不做国家先进落后排名", "status": "verified" },
+      "targets": { "durationMinutes": 11, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-modern-second-industrial-revolution.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "world-modern-06-02-science-art", "periodId": "second-industrial-science-art", "order": 10,
+      "title": "近代科学与艺术怎样重新观察世界",
+      "coreQuestion": "牛顿、达尔文、巴尔扎克和贝多芬等人的作品为何重要？",
+      "throughline": "先以1687—1898年时间线连接《原理》、贝多芬书信与交响曲、《人间喜剧》、达尔文—华莱士共同论文、《物种起源》和《天演论》，再用真实标题页、手稿、肖像、小说出版、分枝图与译著题名页认识计算、草稿、修改、通信、演奏、印刷和翻译怎样让知识与艺术作品形成并传播；明确苹果轶事、天才苦难、小说即照片和进化等级论的证据边界。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#世界近代史-1.7"],
+      "evidencePlan": ["timeline", "first-edition-title-page", "annotated-manuscript", "work-sketches", "altered-title-page", "idealized-portrait", "daguerreotype", "book-edition", "later-frontispiece", "joint-scientific-paper", "branching-diagram", "translated-book-title-page", "evidence-media-table"],
+      "worldLink": { "topic": "以1898年严复《天演论》为中国连接，明确它以赫胥黎《进化论与伦理学》为基础进行译述，不是达尔文《物种起源》直译；把翻译放回甲午战争后救亡变革讨论，并拒绝把生物进化变成国家、人群或文明高低排名", "status": "verified" },
+      "targets": { "durationMinutes": 11, "screens": 7, "audioClips": 8, "interactions": 4 }, "detailPath": "content/chapters/world-modern-science-art.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    }
+  ]
+}

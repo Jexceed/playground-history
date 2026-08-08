@@ -40,3 +40,8 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# Local research media cache. Keep attribution documents in Git; raw images,
+# PDFs and videos remain on this machine until Git LFS/object storage is chosen.
+/reference-assets/*/*
+!/reference-assets/*/ATTRIBUTION.md

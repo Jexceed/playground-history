@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.9.0",
+  "trackId": "cross-disciplinary",
+  "editorialNote": "主题取自教育部《义务教育历史课程标准（2022年版）》跨学科主题学习参考示例。它们不是额外背诵课，而是完成若干时期章节后解锁的综合任务；每项任务都要求孩子区分事实证据、合理推断与创意表达。",
+  "periods": [
+    { "id": "evidence-projects", "order": 1, "label": "跨时代证据任务", "years": "贯穿中国史与世界史", "curriculumSections": ["（七）跨学科主题学习"] }
+  ],
+  "chapters": [
+    {
+      "id": "cross-01-hero-biography", "periodId": "evidence-projects", "order": 1,
+      "title": "中华英雄谱：怎样给林则徐做一份证据档案",
+      "coreQuestion": "怎样用可靠史料讲林则徐，而不是只讲传奇？",
+      "throughline": "先以1785—1850年时间线把虎门销烟放回林则徐的治水、地方任职、组织翻译和新疆水利经历，再以19世纪肖像、烟具、书法、销烟历史画、遗址和三人共同署名的《虎门销烟完竣折》区分事实、评价与纪念；最后比较玻利瓦尔文稿、秘书记录与肖像的证据类型，制作带‘能证明／不能证明’边界的三层声音档案。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#跨学科-中华英雄谱"],
+      "evidencePlan": ["biographical-timeline", "primary-memorial", "museum-artifact", "archaeological-site", "contemporary-portrait", "historical-painting", "authored-calligraphy", "modern-memorial-photograph", "collective-action-network", "fact-inference-creation-labels", "evidence-limits-table"],
+      "worldLink": { "topic": "比较林则徐与玻利瓦尔人物档案中的行政文书、口述与秘书记录、正式肖像和后世记忆；比较证据形成方式，不做跨国英雄排名", "status": "verified" },
+      "targets": { "durationMinutes": 12, "screens": 7, "audioClips": 6, "interactions": 5 }, "detailPath": "content/chapters/cross-hero-biography.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "cross-02-money-history", "periodId": "evidence-projects", "order": 2,
+      "title": "小钱币，大历史：怎样做一条有证据的钱币时间线",
+      "coreQuestion": "货币的材料、形状、文字和发现地点能说明什么，又不能说明什么？",
+      "throughline": "先沿商代货贝、战国多种区域铸币、秦半两、汉五铢、唐开元通宝、宋元纸币、明代宝钞与白银和清末机制币建立中国主时间线，再用8项开放实物照片区分原物、复制品、印钞工具与现代展陈；孩子比较材料、方孔、钱文、直径和法定换算，同时用‘能证明／不能证明’阻止由一枚钱虚构物价、主人和完整旅行路线，最后与吕底亚金币作无排名、无虚构接触的世界比较。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#跨学科-小钱币大历史"],
+      "evidencePlan": ["currency-timeline", "museum-artifact", "modern-gallery-photograph", "reproduction-label", "printing-plate", "inscription", "measurement-and-ratio", "findspot-boundary", "official-rule-versus-practice", "fact-inference-creation-labels", "evidence-limits-table"],
+      "worldLink": { "topic": "把中国春秋时期货币与约公元前560—前546年的吕底亚金币按材料、尺寸、图像、文字和孔形比较；没有直接接触证据，不画虚构贸易线，也不做文明财富排名", "status": "verified" },
+      "targets": { "durationMinutes": 12, "screens": 7, "audioClips": 6, "interactions": 5 }, "detailPath": "content/chapters/cross-money-history.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "cross-03-cultural-exchange", "periodId": "evidence-projects", "order": 3,
+      "title": "骆驼上的乐队：一件唐三彩怎样证明文化交流",
+      "coreQuestion": "一件墓葬陶俑、一个中国器形和一块远方出土的残片，分别能怎样证明文化交流？",
+      "throughline": "先以723年西安墓葬出土的三彩釉陶载乐骆驼区分实物所见、国博解释、学者复原与未知声音，再以伊朗金属器形影响中国唐代三彩双耳瓶建立向中国输入的证据；随后用中国制造而在伊朗尼沙普尔出土的三彩残片证明器物确实向西移动，并以10世纪尼沙普尔泼彩刻划纹碗说明当地工匠可能吸收唐三彩和阿拔斯陶器影响后继续创新。孩子最终制作‘直接证明—馆方解释—合理推断—仍然未知’四层网络图，不从脸型猜民族，不播放伪唐代原声，也不画唯一虚构商路。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#跨学科-文化交流"],
+      "evidencePlan": ["artifact-timeline", "museum-object-record", "modern-gallery-photograph", "tomb-context", "visible-versus-reconstructed-instrument", "manufacture-place-versus-findspot", "material-and-form-transfer", "excavated-import", "local-innovation", "network-map", "fact-interpretation-inference-unknown-labels", "evidence-limits-table"],
+      "worldLink": { "topic": "以古代伊朗金属器形进入唐代中国、中国三彩实物到达尼沙普尔、尼沙普尔工匠吸收后创新的三向器物证据，说明丝路是多人、多站、多方向网络；不把相似等同直接接触，不画唯一商路", "status": "verified" },
+      "targets": { "durationMinutes": 12, "screens": 7, "audioClips": 6, "interactions": 5 }, "detailPath": "content/chapters/cross-cultural-exchange.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "cross-04-transport-history", "periodId": "evidence-projects", "order": 4,
+      "title": "走陆路还是水路：给历史任务规划一条真实路线",
+      "coreQuestion": "年代、任务、使用权限、地理和交通系统怎样共同决定一条路线是否可行？",
+      "throughline": "先沿汉代悬泉置与玉门关、7世纪隋代大运河统一系统、10—14世纪宋元泉州、1405—1433年郑和远航、1881年唐胥铁路和1909年京张铁路建立中国交通时间线，再用‘年代—使用者—货物—起点—终点—必要节点’六格任务卡选择道路、驿站、运河、桥梁、港口、海船或铁路。每条路线标作学习模拟，缺少速度、水位、风向、费用和载量时保留未知；以罗马阿庇亚大道和英国早期煤运铁路作系统比较，不做文明竞速。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#跨学科-历史水陆交通的发展"],
+      "evidencePlan": ["transport-timeline", "task-constraint-card", "road-post-pass-network", "excavated-document-control", "waterway-and-basin-system", "port-hinterland-network", "historical-map-legend", "railway-mine-network", "learning-simulation-label", "missing-data-boundary", "multimodal-route", "evidence-limits-table"],
+      "worldLink": { "topic": "以公元前312年起的罗马阿庇亚大道与汉代驿路比较道路、桥梁、里程碑、关隘和驿站系统，以1825年英国斯托克顿—达灵顿煤运铁路与1881年中国唐胥铁路比较具体运输任务怎样接入铁路网络；不证明道路直接相连，也不做国家先后排名", "status": "verified" },
+      "targets": { "durationMinutes": 12, "screens": 7, "audioClips": 6, "interactions": 5 }, "detailPath": "content/chapters/cross-transport-history.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    },
+    {
+      "id": "cross-05-environment-development", "periodId": "evidence-projects", "order": 5,
+      "title": "一条河怎样养一片平原：都江堰为什么需要两千多年维护",
+      "coreQuestion": "地形、水流、工程、社会劳动和长期维护怎样共同让都江堰持续运行？",
+      "throughline": "先以约公元前256年始建—唐宋元明修改扩展—历代岁修—2000年列入世界遗产—今天继续运行建立都江堰时间线，再从岷江山地进入成都平原的地形出发，观察鱼嘴分流、飞沙堰泄洪排沙、宝瓶口控制引水与辅助水道怎样协同。儿童把李冰主持与集体建设、工程思想延续与材料结构更新、灌溉效益与维护分配责任同时写入证据图；最后与干旱卡迪尔岛朵拉维拉的季节性溪流、蓄水池和排水系统比较环境适应，不做文明排名或虚构接触。",
+      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#跨学科-生态环境与社会发展"],
+      "evidencePlan": ["water-management-timeline", "terrain-and-hydrology", "coordinated-headworks", "modern-site-photograph", "historical-record-limit", "maintenance-and-material-change", "dated-statistics-and-unit-conversion", "collective-labour", "social-benefit-and-responsibility", "environmental-comparison", "fact-inference-unknown-labels", "evidence-limits-table"],
+      "worldLink": { "topic": "将干旱卡迪尔岛朵拉维拉约公元前3000—前1500年的季节性溪流、蓄水池和排水系统，与岷江山地大河进入成都平原时都江堰的分水、排沙、泄洪和引水比较；解释环境不同导致水管理方法不同，不证明直接接触，也不按年代、规模或是否沿用排名", "status": "verified" },
+      "targets": { "durationMinutes": 12, "screens": 7, "audioClips": 6, "interactions": 5 }, "detailPath": "content/chapters/cross-environment-development.md",
+      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "cleared", "audio": "script-ready", "review": "pending" }
+    }
+  ]
+}
