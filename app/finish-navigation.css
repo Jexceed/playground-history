@@ -1,0 +1,57 @@
+/* Chapter exits share geometry; homepage CTA styles do not apply here. */
+.finish-navigation {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  align-items:stretch;
+  gap:12px;
+  width:100%;
+  margin:12px 0 20px;
+}
+.finish-navigation-button {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-sizing:border-box;
+  width:100%;
+  min-width:0;
+  min-height:54px;
+  margin:0;
+  padding:10px 16px;
+  border:2px solid;
+  border-radius:999px;
+  font:800 19px/1.4 "PingFang SC","Microsoft YaHei",sans-serif;
+  cursor:pointer;
+  transition:background-color .15s,box-shadow .15s;
+}
+.finish-navigation-content {
+  display:grid;
+  grid-template-columns:24px minmax(0,1fr);
+  align-items:center;
+  gap:10px;
+  width:min(100%,154px);
+}
+.finish-navigation-icon { display:block; width:24px; height:24px; }
+.finish-navigation-label { display:block; text-align:center; white-space:nowrap; }
+.finish-navigation-home { color:#fff; background:var(--red); border-color:var(--red); box-shadow:0 4px 0 var(--red-dark); }
+.finish-navigation-replay { color:var(--green); background:#f4f8ec; border-color:var(--green); box-shadow:0 4px 0 #b2c5b5; }
+.finish-navigation-home:hover { background:#b74d3d; border-color:#b74d3d; }
+.finish-navigation-replay:hover { background:#e7f0e1; }
+.finish-navigation-button:focus-visible { outline:3px solid #d5ab51; outline-offset:4px; }
+.finish-navigation-home:active { box-shadow:0 2px 0 var(--red-dark); }
+.finish-navigation-replay:active { box-shadow:0 2px 0 #b2c5b5; }
+.workbench-finish .finish-navigation { margin:6px 0 18px; }
+@media(max-width:699px){
+  .finish-navigation { gap:8px; }
+  .finish-navigation-button { min-height:50px; padding:10px; font-size:17px; }
+  .finish-navigation-content { grid-template-columns:22px minmax(0,1fr); gap:8px; width:min(100%,138px); }
+  .finish-navigation-icon { width:22px; height:22px; }
+  .workbench-finish .finish-navigation { margin-bottom:12px; }
+}
+@media(max-width:380px){
+  .finish-navigation-button { padding:10px 8px; font-size:16px; }
+  .finish-navigation-content { grid-template-columns:20px minmax(0,1fr); }
+  .finish-navigation-icon { width:20px; height:20px; }
+}
+@media(prefers-reduced-motion:reduce){
+  .finish-navigation-button { transition:none; }
+}

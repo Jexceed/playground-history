@@ -1,9 +1,9 @@
 # 张骞之后的丝绸之路
 
 - 章节 ID：`cn-ancient-04-03-silk-road`
-- 时间位置：秦汉；主要讲公元前 2 世纪以后
+- 时间位置：汉朝；主要讲公元前 2 世纪以后
 - 核心问题：许多道路、驿站和旅行者怎样连接更远的地区？
-- 适龄：6—9岁亲子共学；低龄儿童以语音为主
+- 适龄：4—6岁亲子共学；儿童以图标和语音为主
 - 内容状态：事实研究完成；儿童稿与语音稿第一版；待儿童理解测试
 
 ## 本章结论
@@ -20,6 +20,7 @@
 6. 玉门关遗址是今天保存和修复后的遗产景观，不等于汉代原貌；关隘是路线节点，不是整条丝绸之路。[UNESCO-CHANGAN-TIANSHAN]
 7. 长距离物品常经过许多人和地区接力交换，不能假定每位商人都从中国走到地中海，也不能仅凭一件外来物就重建完整旅程。[NMC-SILK-ROAD-EXHIBITION; UNESCO-CHANGAN-TIANSHAN]
 8. 丝绸之外，还有马匹、作物、器物、技术、音乐、宗教和艺术观念等交流；不同方向的流动共同改变沿线社会。[NMC-SILK-ROAD-EXHIBITION; NMC-SILK-ROAD-NETWORK]
+9. 唐代王维《送元二使安西》把渭城送别、阳关与安西写进诗歌，适合帮助孩子在地图上找地点、体会远行与送别；但这首唐诗不能用来证明汉代路线细节或某位汉代旅人的感受。[HKEDB-WANGWEI-SONG-YUANER]
 
 ## 儿童页面与语音稿
 
@@ -114,6 +115,7 @@
 - [NMC-SILK-ROAD-EXHIBITION] 中国国家博物馆，“丝绸之路”展览回顾。
 - [NMC-SILK-ROAD-NETWORK] 中国国家博物馆，丝绸之路文明交流专题资料。
 - [UNESCO-CHANGAN-TIANSHAN] UNESCO World Heritage Centre，长安—天山廊道路网遗产记录。
+- [HKEDB-WANGWEI-SONG-YUANER] 香港特别行政区政府教育局，《送元二使安西》推荐篇章及教学资料。
 - [NEAC-XUANQUAN-POST] 国家民族事务委员会，悬泉置考古与驿站资料。
 - [GANSU-XUANQUAN-SLIPS] 甘肃省文化和旅游厅，悬泉置遗址和汉简资料。
 
@@ -125,3 +127,26 @@
 - 不假定一位商人必定从长安走到罗马或走完整条路线。
 - 不把今天的玉门关遗址照片当作汉代建筑原貌。
 - 不把一次物品发现编成有姓名、有对白的真实旅程。
+
+## 本轮试玩任务（秦汉至明清）
+
+本章当前儿童页面以 `content/focused-quests.json` 中同ID的逐题稿为准；下列任务替换旧通用提问。上文研究事实与编辑长稿继续作为家长和编辑背景，不直接当作儿童屏幕。
+
+**任务：给张骞的远行备一袋粮。** 去很远的地方，只知道方向就够了吗？
+
+1. 前138年，汉武帝派张骞出使西域。更早已有不同地区的人走在这些道路上。 [NMC-SILK-ROAD-EXHIBITION; UNESCO-CHANGAN-TIANSHAN; NEAC-XUANQUAN-POST]
+   - 孩子要判断：张骞出使放在哪里？
+2. 先陪旅行者做准备。路上要走很多天，水和食物需要补充。 [NMC-SILK-ROAD-EXHIBITION; UNESCO-CHANGAN-TIANSHAN; NEAC-XUANQUAN-POST]
+   - 孩子要判断：已经有路线，接下来备哪一袋？
+3. 汉代悬泉置留下简牍，记录接待、粮食和马匹。它帮助我们了解旅途中的补给。 [NMC-SILK-ROAD-EXHIBITION; UNESCO-CHANGAN-TIANSHAN; NEAC-XUANQUAN-POST]
+   - 孩子要判断：哪种记录能核对有没有备粮？
+4. 丝路是许多路线连成的网络。来往者有人走这一段，有人接着走另一段。 [NMC-SILK-ROAD-EXHIBITION; UNESCO-CHANGAN-TIANSHAN; NEAC-XUANQUAN-POST]
+   - 孩子要判断：哪张图更像这样的往来？
+5. 唐代王维写过“西出阳关无故人”。这句诗能让我们想一想远行的心情，却不是张骞的日记。 [NMC-SILK-ROAD-EXHIBITION; HKEDB-WANGWEI-SONG-YUANER]
+   - 孩子要判断：要查张骞出使经过，先找哪类材料？
+
+**结束动作：** 假装把水袋和粮袋递给家人。 问他：走到下一站，还需要谁帮忙？
+
+**家长接话：** 可回答供水、备粮、照顾马匹、带路。提醒不是张骞一人修成丝路，不必背路线和地名。
+
+**图像边界：** 旅途图是补给原理示意，不复原张骞某一次行程，也不把悬泉置直接指定为首次出使的每个停点。

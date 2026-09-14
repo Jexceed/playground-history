@@ -2,7 +2,7 @@
 
 这套内容库用于把“先讲故事”改成“先看时间线，再从实物证据进入故事”。内容采用平台无关的 JSON、Markdown 和本地媒体，网页版与后续微信小程序共用同一套历史资料。
 
-当前基线是7个板块、91章第一版内容；12个代表章完成第一轮人工编辑复核，但最终审核通过仍为0章。当前只把“隋唐长安”做成完整互动关卡，其余90章是家长与编辑审核稿。总建设阶段见 `../docs/BUILD-PLAN.md`，资源维护见 `../docs/RESOURCES.md`，下一步见 `../docs/TODO.md`。
+当前基线是7个板块、99章第一版内容；99章均进入同一套五步故事任务，但真实4—6岁儿童复述测试尚未进行，最终审核通过仍为0章。总建设阶段见 `../docs/BUILD-PLAN.md`，资源维护见 `../docs/RESOURCES.md`，下一步见 `../docs/TODO.md`。
 
 ## 产品中的固定顺序
 
@@ -51,11 +51,11 @@
 - `chapters/ancient-origins-*.md`：远古时期 3 章的事实卡、儿童页面与分段语音稿。
 - `chapters/xia-shang-zhou-*.md`：夏商西周 3 章的事实卡、儿童页面与分段语音稿。
 - `chapters/spring-autumn-warring-states-*.md`：春秋战国 3 章的事实卡、儿童页面与分段语音稿。
-- `chapters/qin-han-*.md`：秦汉 4 章的事实卡、儿童页面与分段语音稿。
+- `chapters/qin-han-*.md`：文件名沿用旧素材域，运行目录已拆为秦1章、汉3章。
 - `chapters/three-kingdoms-jin-northern-southern-*.md`：三国两晋南北朝 4 章的事实卡、儿童页面与分段语音稿。
-- `chapters/sui-unification-canal.md`、`chapters/tang-governance.md`、`chapters/tang-cultural-exchange.md`、`chapters/tang-decline.md`：隋唐五代补充 4 章的事实卡、儿童页面与分段语音稿。
-- `chapters/liao-song-xia-jin-yuan-*.md`：辽宋夏金元 5 章的事实卡、儿童页面与分段语音稿。
-- `chapters/ming-qing-*.md`：明清 5 章的事实卡、儿童页面与分段语音稿，并在最后一章连接1840年后的中国近代史。
+- `chapters/sui-unification-canal.md`、`chapters/tang-*.md`：运行目录已拆为隋、唐、五代十国独立时期；`tang-decline.md` 已重写为五代十国章。
+- `chapters/liao-song-xia-jin-yuan-*.md`：文件名沿用旧素材域，运行目录已拆为宋、辽·西夏·金（与宋并行）和元。
+- `chapters/ming-qing-*.md`：文件名沿用旧素材域，运行目录已拆为明、清，并在清末危机章连接1840年后的中国近代史。
 - `assets/ancient-origins-assets.json`：远古时期真实遗址、化石复制品和文物照片的许可登记。
 - `assets/xia-shang-zhou-assets.json`：夏商西周真实遗址、甲骨与青铜器照片的许可登记。
 - `assets/spring-autumn-warring-states-assets.json`：春秋战国铁器、水利、度量衡、货币和竹简照片的许可登记。

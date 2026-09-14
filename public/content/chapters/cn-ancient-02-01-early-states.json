@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-02-01-early-states",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
@@ -13,7 +13,596 @@
   "title": "从二里头到商周",
   "coreQuestion": "早期国家是怎样出现并发展的？",
   "throughline": "以二里头、殷墟和西周遗存观察都城、王权、手工业与早期国家的发展，同时说明夏代认识中的文献与考古边界。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-ancient-02-01-early-states",
+    "childTitle": "绿松石龙住过哪座城",
+    "prompt": "宫殿、作坊和一条绿松石龙，怎样拼出早期城市的样子？",
+    "takeaway": "这些遗迹说明这里曾有一座需要许多人分工的大型中心聚落。",
+    "object": "二里头绿松石龙形器",
+    "people": [
+      "建城者和手工业者"
+    ],
+    "place": "河南二里头与安阳殷墟",
+    "culture": null,
+    "care": "夏代文献和二里头考古发现分开表达；含墓葬人骨的展览图只放家长证据层，不进入儿童封面或互动。",
+    "preferredAssetId": "xsz-yinxu-site"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "绿松石龙住过哪座城"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "绿松石龙的城市",
+      "text": "先在二里头找道路、宫殿区、作坊和绿松石龙。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "先不急着盖章",
+      "text": "接着问：这些遗址能不能直接等于传说中的夏？"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "再去殷墟比较",
+      "text": "最后到殷墟看甲骨文字，比较两处证据的强弱。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "这些遗迹说明这里曾有一座需要许多人分工的大型中心聚落。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "考古",
+      "icon": "🧹",
+      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
+      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "手工业",
+      "icon": "🧵",
+      "plain": "主要靠手和工具制作器物的生产活动。",
+      "example": "陶器、织物和青铜器都需要材料、技术与分工。",
+      "priority": 2
+    },
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "王朝",
+      "icon": "👑",
+      "plain": "以皇帝政权延续的一段历史时期。",
+      "example": "唐朝是王朝；唐朝结束不等于所有事情当天停止。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "王权",
+      "icon": "👑",
+      "plain": "国王或皇帝掌握的统治权力。",
+      "example": "王权强不等于国王一个人能完成所有事情。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "二里头",
+      "reading": "Èrlǐtóu",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-02-01-early-states"
+      ],
+      "note": "河南遗址名。"
+    },
+    {
+      "text": "殷墟",
+      "reading": "Yīnxū",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-02-01-early-states",
+        "cn-ancient-02-02-oracle-bronze"
+      ],
+      "note": "“殷”在此读yīn，“墟”读xū。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "绿松石龙住过哪座城",
+      "question": "宫殿、作坊和一条绿松石龙，怎样拼出早期城市的样子？"
+    },
+    "coverAudio": {
+      "id": "quest-bffb89ab3b6d888b",
+      "text": "今天从一件东西出发：绿松石龙住过哪座城。我们要去河南二里头与安阳殷墟，看看二里头绿松石龙形器怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-0ce144962a06843e",
+      "text": "五条线索都找到了，“绿松石龙住过哪座城”的答案是：这些遗迹说明这里曾有一座需要许多人分工的大型中心聚落。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 8,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是夏商西周，时间是约公元前21世纪—前771年。",
+          "narration": "这是夏商西周，时间是约公元前21世纪—前771年。",
+          "displayText": "这是夏商西周，时间是约公元前21世纪—前771年。"
+        },
+        "assetId": "xsz-yinxu-site",
+        "image": "/content/step-images/xsz-yinxu-site.jpg",
+        "imageAlt": "殷墟世界遗产地现状照片",
+        "imageCaption": "今天的殷墟世界遗产地一景；这是遗址现状，不是商代城市复原图。",
+        "imageBoundary": "只作地点与遗址保护语境图，不将现代景观当作商代原貌。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-eb0a73fab01bc2e7",
+            "text": "这是夏商西周，时间是约公元前21世纪—前771年。"
+          },
+          "image": {
+            "id": "quest-084091f23f85a89b",
+            "text": "点开大图啦。这是殷墟世界遗产地现状照片。这张图能帮我们找到：这是夏商西周，时间是约公元前21世纪—前771年。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-01-early-states-time-1",
+            "label": "中国古代史 · 夏商西周 · 约公元前21世纪—前771年",
+            "correct": true,
+            "audio": {
+              "id": "quest-887c975d5fc6d910",
+              "text": "中国古代史 · 夏商西周 · 约公元前21世纪—前771年"
+            }
+          },
+          {
+            "id": "cn-ancient-02-01-early-states-time-2",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "cn-ancient-02-01-early-states-time-3",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "绿松石龙的城市",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先在二里头找道路、宫殿区、作坊和绿松石龙。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "绿松石龙的城市",
+          "screenText": "先在二里头找道路、宫殿区、作坊和绿松石龙。",
+          "narration": "先在二里头找道路、宫殿区、作坊和绿松石龙。",
+          "displayText": "先在二里头找道路、宫殿区、作坊和绿松石龙。"
+        },
+        "assetId": "erlitou-four-clues-child-diagram",
+        "image": "/content/step-images/erlitou-four-clues-child-diagram.jpg",
+        "imageAlt": "二里头道路宫殿区作坊与绿松石龙儿童线索图",
+        "imageCaption": "自制儿童线索图：从道路、宫殿区、绿松石作坊和龙形器四个入口认识二里头。",
+        "imageBoundary": "2026-08-12为低龄玩法自制。它不是二里头遗址照片、考古平面图或建筑与作坊的精确复原；龙形器只作轮廓化记忆入口，器物形制与出土信息仍以权威馆藏资料为准。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-50c28b0f815f9ef2",
+            "text": "先在二里头找道路、宫殿区、作坊和绿松石龙。"
+          },
+          "image": {
+            "id": "quest-62601ab05cc530e8",
+            "text": "点开大图啦。这是二里头道路宫殿区作坊与绿松石龙儿童线索图。这张图能帮我们找到：先在二里头找道路、宫殿区、作坊和绿松石龙。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-01-early-states-beginning-1",
+            "label": "建城者和手工业者、河南，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-0526efa1f89760cf",
+              "text": "建城者和手工业者、河南，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-ancient-02-01-early-states-beginning-2",
+            "label": "河南二里头与安阳殷，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-a7e8f5bddbbfa1bb",
+              "text": "河南二里头与安阳殷，只是故事地点"
+            }
+          },
+          {
+            "id": "cn-ancient-02-01-early-states-beginning-3",
+            "label": "二里头绿松石龙形器，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-b5c634d2e0b3c3d6",
+              "text": "二里头绿松石龙形器，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "先不急着盖章",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着问：这些遗址能不能直接等于传说中的夏？",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "先不急着盖章",
+          "screenText": "接着问：这些遗址能不能直接等于传说中的夏？",
+          "narration": "接着问：这些遗址能不能直接等于传说中的夏？",
+          "displayText": "接着问：这些遗址能不能直接等于传说中的夏？"
+        },
+        "assetId": "xsz-yinxu-site",
+        "image": "/content/step-images/xsz-yinxu-site.jpg",
+        "imageAlt": "殷墟世界遗产地现状照片",
+        "imageCaption": "今天的殷墟世界遗产地一景；这是遗址现状，不是商代城市复原图。",
+        "imageBoundary": "只作地点与遗址保护语境图，不将现代景观当作商代原貌。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-d5548a3a53c0e6fa",
+            "text": "接着问：这些遗址能不能直接等于传说中的夏？"
+          },
+          "image": {
+            "id": "quest-8972e979c7f97b43",
+            "text": "点开大图啦。这是殷墟世界遗产地现状照片。这张图能帮我们找到：接着问：这些遗址能不能直接等于传说中的夏？"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-01-early-states-journey-1",
+            "label": "建城者和手工业者、二里头绿松石龙，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-c40795408aa8ce77",
+              "text": "建城者和手工业者、二里头绿松石龙，只认出人物"
+            }
+          },
+          {
+            "id": "cn-ancient-02-01-early-states-journey-2",
+            "label": "接着问：这些遗址能不能直接等于传说中的夏？",
+            "correct": true,
+            "audio": {
+              "id": "quest-d5548a3a53c0e6fa",
+              "text": "接着问：这些遗址能不能直接等于传说中的夏？"
+            }
+          },
+          {
+            "id": "cn-ancient-02-01-early-states-journey-3",
+            "label": "河南二里头与安阳殷墟、二里头，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-60120bf2dbec1eba",
+              "text": "河南二里头与安阳殷墟、二里头，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "再去殷墟比较",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后到殷墟看甲骨文字，比较两处证据的强弱。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "再去殷墟比较",
+          "screenText": "最后到殷墟看甲骨文字，比较两处证据的强弱。",
+          "narration": "最后到殷墟看甲骨文字，比较两处证据的强弱。",
+          "displayText": "最后到殷墟看甲骨文字，比较两处证据的强弱。"
+        },
+        "assetId": "xsz-yinxu-site",
+        "image": "/content/step-images/xsz-yinxu-site.jpg",
+        "imageAlt": "殷墟世界遗产地现状照片",
+        "imageCaption": "今天的殷墟世界遗产地一景；这是遗址现状，不是商代城市复原图。",
+        "imageBoundary": "只作地点与遗址保护语境图，不将现代景观当作商代原貌。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-7c90ed4f77d6ada5",
+            "text": "最后到殷墟看甲骨文字，比较两处证据的强弱。"
+          },
+          "image": {
+            "id": "quest-2a0c492dfb810cd8",
+            "text": "点开大图啦。这是殷墟世界遗产地现状照片。这张图能帮我们找到：最后到殷墟看甲骨文字，比较两处证据的强弱。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-01-early-states-change-1",
+            "label": "最后到殷墟看甲骨文字，比较两处证据的强弱。",
+            "correct": true,
+            "audio": {
+              "id": "quest-7c90ed4f77d6ada5",
+              "text": "最后到殷墟看甲骨文字，比较两处证据的强弱。"
+            }
+          },
+          {
+            "id": "cn-ancient-02-01-early-states-change-2",
+            "label": "问：这些遗址能不能直接等于传，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-91e0f64854ac0642",
+              "text": "问：这些遗址能不能直接等于传，还只是行动经过"
+            }
+          },
+          {
+            "id": "cn-ancient-02-01-early-states-change-3",
+            "label": "二里头绿松石龙形器、河南，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-1fd5224c7c086c6f",
+              "text": "二里头绿松石龙形器、河南，还只是故事起点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "这些遗迹说明这里曾有一座需要许多人分工的大型中心聚落。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "这些遗迹说明这里曾有一座需要许多人分工的大型中心聚落。",
+          "narration": "这些遗迹说明这里曾有一座需要许多人分工的大型中心聚落。",
+          "displayText": "这些遗迹说明这里曾有一座需要许多人分工的大型中心聚落。"
+        },
+        "assetId": "xsz-yinxu-site",
+        "image": "/content/step-images/xsz-yinxu-site.jpg",
+        "imageAlt": "殷墟世界遗产地现状照片",
+        "imageCaption": "今天的殷墟世界遗产地一景；这是遗址现状，不是商代城市复原图。",
+        "imageBoundary": "只作地点与遗址保护语境图，不将现代景观当作商代原貌。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-06415c612fbbe4e2",
+            "text": "这些遗迹说明这里曾有一座需要许多人分工的大型中心聚落。"
+          },
+          "image": {
+            "id": "quest-fdbe10b59add9e57",
+            "text": "点开大图啦。这是殷墟世界遗产地现状照片。这张图能帮我们找到：这些遗迹说明这里曾有一座需要许多人分工的大型中心聚落。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-01-early-states-takeaway-1",
+            "label": "在二里头找道路、宫殿区、作坊和绿松石龙，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-17b19245e756cdcc",
+              "text": "在二里头找道路、宫殿区、作坊和绿松石龙，只说了原因"
+            }
+          },
+          {
+            "id": "cn-ancient-02-01-early-states-takeaway-2",
+            "label": "到殷墟看甲骨文字，比较两处证据的强弱。、绿松，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-e865cd5cefa5d555",
+              "text": "到殷墟看甲骨文字，比较两处证据的强弱。、绿松，只说了结果"
+            }
+          },
+          {
+            "id": "cn-ancient-02-01-early-states-takeaway-3",
+            "label": "这些遗迹说明这里曾有一座需要许多人分工的大型中心聚落。",
+            "correct": true,
+            "audio": {
+              "id": "quest-06415c612fbbe4e2",
+              "text": "这些遗迹说明这里曾有一座需要许多人分工的大型中心聚落。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "中心聚落拼图",
+        "items": [
+          "孩子将道路、建筑基址、作坊、墓葬和器物放入二里头遗址图；单独选择“珍贵宝物”时提示“还缺少整座聚落的证据”。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "证据链比较",
+        "items": [
+          "把“道路遗迹、同期文字、后世文献、王陵”拖入二里头或殷墟，允许“后世文献”同时关联两者，并解释证据强弱不同。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "事实 / 研究判断",
+        "items": [
+          "区分“二里头发现复杂遗存”“二里头是探索夏史的主要材料”“二里头已经确定是夏都”三句话；最后一句判为不可直接写入正文。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "二里头、殷墟和西周遗存显示，早期国家的发展伴随着大型中心聚落、道路与建筑规划、专业手工业、王权活动和更广的政治联系。关于夏代，我们既要讲古代文献留下的王朝脉络，也要说明：二里头文化是探索夏代历史的主要考古材料，但目前还没有发现能够自行证明“这里就是夏王朝”的夏代文字材料。"
@@ -316,20 +905,39 @@
       "title": "二里头遗址出土绿松石龙形器展览照片",
       "localPath": "reference-assets/xia-shang-zhou/erlitou-turquoise-dragon.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:绿松石龙形器1.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "二里头遗址 VT15M3 出土绿松石龙形器的展览照片，画面同时展示整体和局部。",
-      "boundary": "来源页称其出自高等级墓葬；正文不采用来源页关于‘龙崇拜根源’的绝对化解释。未修改原图。"
+      "boundary": "来源页称其出自高等级墓葬；正文不采用来源页关于‘龙崇拜根源’的绝对化解释。画面含墓葬发掘中的人骨，只供家长与编辑核对，不进入儿童封面或儿童互动。未修改原图。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "xsz-yinxu-site",
       "title": "殷墟世界遗产地现状照片",
       "localPath": "reference-assets/xia-shang-zhou/yinxu-site.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Yinxu_World_Heritage_Site,_Anyang_(10197708495).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "今天的殷墟世界遗产地一景；这是遗址现状，不是商代城市复原图。",
-      "boundary": "只作地点与遗址保护语境图，不将现代景观当作商代原貌。未修改原图。"
+      "boundary": "只作地点与遗址保护语境图，不将现代景观当作商代原貌。未修改原图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "erlitou-four-clues-child-diagram",
+      "title": "二里头道路宫殿区作坊与绿松石龙儿童线索图",
+      "localPath": "reference-assets/xia-shang-zhou/erlitou-four-clues-child-diagram.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童线索图：从道路、宫殿区、绿松石作坊和龙形器四个入口认识二里头。",
+      "boundary": "2026-08-12为低龄玩法自制。它不是二里头遗址照片、考古平面图或建筑与作坊的精确复原；龙形器只作轮廓化记忆入口，器物形制与出土信息仍以权威馆藏资料为准。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-02-01-early-states.jpg",

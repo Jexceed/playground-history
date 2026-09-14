@@ -1,19 +1,788 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-04-02-han-governance",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
   "period": {
-    "id": "qin-han",
-    "label": "秦汉",
-    "years": "前221—公元220年"
+    "id": "han",
+    "label": "汉朝",
+    "years": "前202—公元220年"
   },
-  "order": 11,
+  "order": 12,
   "title": "汉朝怎样从恢复走向强盛",
   "coreQuestion": "休养生息与大一统措施带来了什么变化？",
   "throughline": "连接西汉建立、文景之治、汉武帝巩固大一统以及东汉政治社会变化，形成秦汉连续而非割裂的叙事。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-ancient-04-02-han-governance",
+    "childTitle": "五铢钱怎样来到集市",
+    "prompt": "一枚小钱背后，谁在铸造，谁在种粮？",
+    "takeaway": "铸钱需要工匠和共同规定；集市有货，还靠种田、制作与运输的人。",
+    "object": "五铢钱和汉代简牍",
+    "people": [
+      "汉代工匠",
+      "农人"
+    ],
+    "place": "长安与汉代郡国",
+    "culture": "汉简文字",
+    "care": "五铢钱照片来自出土陈列，不能据数量推断普通家庭财富。集市是功能示意。",
+    "preferredAssetId": "qin-han-haihun-wuzhu",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-04-02-han-governance",
+    "featured": {
+      "type": "历史词语",
+      "icon": "🌾",
+      "title": "汉代工匠与农人",
+      "childBridge": "一枚小钱背后，谁在铸造，谁在种粮？",
+      "evidenceBoundary": "五铢钱照片来自出土陈列，不能据数量推断普通家庭财富。"
+    },
+    "companions": [
+      {
+        "type": "人物",
+        "label": "汉文帝、汉景帝",
+        "note": "从文景之治进入长期恢复，不写成两个人独自完成。"
+      },
+      {
+        "type": "地点",
+        "label": "汉长安城",
+        "note": "跟着钱币和简牍，从都城走到郡国。"
+      }
+    ],
+    "sourceIds": [
+      "MOE-HISTORY-CURRICULUM-2022",
+      "NOPSS-WENJING-GOVERNANCE",
+      "NMC-WUZHU-COIN",
+      "NMC-QIN-HAN-OVERVIEW"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "来到汉朝的时间",
+      "text": "汉朝在前202年建立。五铢钱是在后来汉武帝时期开始铸行的。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "看看钱的形状",
+      "text": "这批五铢钱是出土文物，不是当年市场的照片。我们先找它的外形。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "谁来把钱铸出来",
+      "text": "汉武帝时期逐步加强铸钱管理。统一规定还要由工匠制作出来。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "集市为什么有粮",
+      "text": "买东西要有钱，也要有人把东西生产出来。汉初恢复生产，是许多人慢慢做的事。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "给钱币配一段故事",
+      "text": "一枚五铢钱能带我们认识规定与工匠。集市里的生活还要结合更多材料来看。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "经济",
+      "icon": "🧺",
+      "plain": "人们怎样生产、交换、分配和使用东西。",
+      "example": "经济变化最后会落到工作、食物、住房等生活里。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "手工业",
+      "icon": "🧵",
+      "plain": "主要靠手和工具制作器物的生产活动。",
+      "example": "陶器、织物和青铜器都需要材料、技术与分工。",
+      "priority": 2
+    },
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "政权",
+      "icon": "🏛️",
+      "plain": "谁在用什么机构和规则管理一个地方。",
+      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "长安",
+      "reading": "Cháng’ān",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-04-02-han-governance",
+        "cn-ancient-04-03-silk-road",
+        "cn-ancient-06-02-tang-governance",
+        "cn-ancient-06-03-tang-changan",
+        "cn-ancient-06-04-tang-cultural-exchange",
+        "cross-03-cultural-exchange"
+      ],
+      "note": "“长”在地名中读cháng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "五铢钱怎样来到集市",
+      "question": "一枚小钱背后，谁在铸造，谁在种粮？"
+    },
+    "cta": "去找铸钱的线索",
+    "anchor": "汉代工匠与农人",
+    "boundary": "五铢钱照片来自出土陈列，不能据数量推断普通家庭财富。集市是功能示意。",
+    "evidence": [
+      {
+        "id": "qin-han-haihun-wuzhu",
+        "title": "海昏侯国遗址出土五铢钱展览照片",
+        "localPath": "reference-assets/qin-han/wuzhu-coins.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E4%BA%94%E9%93%A2%E9%92%B1_%E6%B5%B7%E6%98%8F%E4%BE%AF%E5%9B%BD%E9%81%97%E5%9D%801.JPG",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 4.0",
+        "clearance": "cleared-open-license",
+        "caption": "海昏侯国遗址出土并在首都博物馆展出的成串五铢钱。",
+        "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-han-haihun-wuzhu.jpg"
+      }
+    ],
+    "coverAsset": {
+      "id": "qin-han-haihun-wuzhu",
+      "title": "海昏侯国遗址出土五铢钱展览照片",
+      "localPath": "reference-assets/qin-han/wuzhu-coins.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%E4%BA%94%E9%93%A2%E9%92%B1_%E6%B5%B7%E6%98%8F%E4%BE%AF%E5%9B%BD%E9%81%97%E5%9D%801.JPG",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 4.0",
+      "clearance": "cleared-open-license",
+      "caption": "海昏侯国遗址出土并在首都博物馆展出的成串五铢钱。",
+      "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/qin-han-haihun-wuzhu.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/qin-han-haihun-wuzhu.jpg",
+    "coverImageAlt": "海昏侯国遗址出土五铢钱展览照片",
+    "coverImageKind": "历史材料",
+    "coverAudio": {
+      "id": "quest-c977ff83901d82c5",
+      "text": "五铢钱怎样来到集市。一枚小钱背后，谁在铸造，谁在种粮？准备好就点“去找铸钱的线索”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-f9773f025b455309",
+      "text": "铸钱需要工匠和共同规定；集市有货，还靠种田、制作与运输的人。"
+    },
+    "finish": {
+      "title": "开一个手心小集市",
+      "actions": [
+        "一只手当钱币，一只手当粮食。",
+        "请家人挑一样，你说说它到集市前经过谁的手。"
+      ],
+      "parent": "不做财富排名或古今价格换算。孩子能说出种粮、运输或铸造的一步，再帮他补接另一位劳动者。",
+      "sceneStepIndexes": [
+        2,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-656b5d0f1f6f7fc7",
+          "text": "一只手当钱币，一只手当粮食。"
+        },
+        {
+          "id": "quest-912bf3fe70d87883",
+          "text": "请家人挑一样，你说说它到集市前经过谁的手。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-2c21a3c383317de3",
+        "text": "开一个手心小集市。一只手当钱币，一只手当粮食。请家人挑一样，你说说它到集市前经过谁的手。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "来到汉朝的时间",
+        "title": "来到汉朝的时间",
+        "prompt": "五铢钱放在哪个时间位置？",
+        "rightNote": "汉朝先建立，五铢钱后来才出现。",
+        "wrongNote": "汉朝先建立，五铢钱后来才出现。",
+        "sourceIds": [
+          "NMC-WUZHU-COIN",
+          "NMC-QIN-HAN-OVERVIEW"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "来到汉朝的时间",
+          "screenText": "汉朝在前202年建立。五铢钱是在后来汉武帝时期开始铸行的。",
+          "displayText": "汉朝在前202年建立。五铢钱是在后来汉武帝时期开始铸行的。",
+          "narration": "汉朝在前202年建立。五铢钱是在后来汉武帝时期开始铸行的。"
+        },
+        "assetId": "study-6a7692f06048583f",
+        "image": "/content/study-scenes/study-6a7692f06048583f.svg",
+        "studyImage": "/content/study-scenes/study-6a7692f06048583f.svg",
+        "studyImageAlt": "前202年 汉建立，后来 五铢钱",
+        "imageAlt": "前202年 汉建立，后来 五铢钱",
+        "imageCaption": "学习示意 · 前202年 汉建立，后来 五铢钱",
+        "imageBoundary": "自制学习示意。五铢钱照片来自出土陈列，不能据数量推断普通家庭财富。集市是功能示意。",
+        "audio": {
+          "transition": {
+            "id": "quest-68479afb568647bb",
+            "text": "来到汉朝的时间。"
+          },
+          "intro": {
+            "id": "quest-43a9c9b7a0023658",
+            "text": "汉朝在前202年建立。五铢钱是在后来汉武帝时期开始铸行的。"
+          },
+          "question": {
+            "id": "quest-6bb126c9a25c8139",
+            "text": "五铢钱放在哪个时间位置？"
+          },
+          "image": {
+            "id": "quest-064e839c9f244a01",
+            "text": "这是学习示意图：前202年 汉建立，后来 五铢钱。五铢钱放在哪个时间位置？"
+          },
+          "right": {
+            "id": "quest-049b823cf2cecdef",
+            "text": "找到了。汉朝先建立，五铢钱后来才出现。"
+          },
+          "wrong": {
+            "id": "quest-3129dd05b0a12474",
+            "text": "再比较一下。汉朝先建立，五铢钱后来才出现。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-02-han-governance-time-1",
+            "label": "汉朝建立以后",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-d90ffe781b749845.svg",
+            "imageAlt": "汉建立，五铢钱",
+            "audio": {
+              "id": "quest-c27ae2fd9d62064e",
+              "text": "汉朝建立以后"
+            }
+          },
+          {
+            "id": "cn-ancient-04-02-han-governance-time-2",
+            "label": "汉朝建立以前",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-6ce2107a8d61acf3.svg",
+            "imageAlt": "五铢钱，汉建立",
+            "audio": {
+              "id": "quest-5c67d7e9c87db21b",
+              "text": "汉朝建立以前"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "看看钱的形状",
+        "title": "看看钱的形状",
+        "prompt": "哪张图和五铢钱的形状相近？",
+        "rightNote": "看外圈和中间孔洞：圆形外缘，方形孔。",
+        "wrongNote": "看外圈和中间孔洞：圆形外缘，方形孔。",
+        "sourceIds": [
+          "NMC-WUZHU-COIN",
+          "NMC-QIN-HAN-OVERVIEW"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "看看钱的形状",
+          "screenText": "这批五铢钱是出土文物，不是当年市场的照片。我们先找它的外形。",
+          "displayText": "这批五铢钱是出土文物，不是当年市场的照片。我们先找它的外形。",
+          "narration": "这批五铢钱是出土文物，不是当年市场的照片。我们先找它的外形。"
+        },
+        "assetId": "qin-han-haihun-wuzhu",
+        "image": "/content/step-images/qin-han-haihun-wuzhu.jpg",
+        "studyImage": "/content/study-scenes/study-4eba4158974d6b37.svg",
+        "studyImageAlt": "五铢钱外形",
+        "imageAlt": "海昏侯国遗址出土五铢钱展览照片",
+        "imageCaption": "海昏侯国遗址出土五铢钱展览照片",
+        "imageBoundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-7731036755ff28f3",
+            "text": "看看钱的形状。"
+          },
+          "intro": {
+            "id": "quest-ce944a0c29718c8b",
+            "text": "这批五铢钱是出土文物，不是当年市场的照片。我们先找它的外形。"
+          },
+          "question": {
+            "id": "quest-819c5a1180c0610d",
+            "text": "哪张图和五铢钱的形状相近？"
+          },
+          "image": {
+            "id": "quest-605e0793bf912ef2",
+            "text": "这张是海昏侯国遗址出土五铢钱展览照片。这批五铢钱是出土文物，不是当年市场的照片。我们先找它的外形。"
+          },
+          "right": {
+            "id": "quest-9fc1e3c7d988c63b",
+            "text": "找到了。看外圈和中间孔洞：圆形外缘，方形孔。"
+          },
+          "wrong": {
+            "id": "quest-67725dacd1d4cd4c",
+            "text": "再比较一下。看外圈和中间孔洞：圆形外缘，方形孔。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-02-han-governance-beginning-1",
+            "label": "圆外形，中间方孔",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-d28d3713663652da.svg",
+            "imageAlt": "圆外方孔",
+            "audio": {
+              "id": "quest-f83aa4b3931431e1",
+              "text": "圆外形，中间方孔"
+            }
+          },
+          {
+            "id": "cn-ancient-04-02-han-governance-beginning-2",
+            "label": "方外形，中间圆孔",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-d7e57081c311f2ec.svg",
+            "imageAlt": "方外圆孔",
+            "audio": {
+              "id": "quest-2aee613b30eb495a",
+              "text": "方外形，中间圆孔"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "谁来把钱铸出来",
+        "title": "谁来把钱铸出来",
+        "prompt": "从规定到钱币，中间少不了哪一步？",
+        "rightNote": "规定、材料和工匠一起作用，换名字不会改变钱的制作。",
+        "wrongNote": "规定、材料和工匠一起作用，换名字不会改变钱的制作。",
+        "sourceIds": [
+          "NMC-WUZHU-COIN",
+          "NMC-QIN-HAN-OVERVIEW"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "谁来把钱铸出来",
+          "screenText": "汉武帝时期逐步加强铸钱管理。统一规定还要由工匠制作出来。",
+          "displayText": "汉武帝时期逐步加强铸钱管理。统一规定还要由工匠制作出来。",
+          "narration": "汉武帝时期逐步加强铸钱管理。统一规定还要由工匠制作出来。"
+        },
+        "assetId": "study-cedfcf6381037001",
+        "image": "/content/study-scenes/study-cedfcf6381037001.svg",
+        "studyImage": "/content/study-scenes/study-cedfcf6381037001.svg",
+        "studyImageAlt": "铸钱规定，工匠制作，钱币",
+        "imageAlt": "铸钱规定，工匠制作，钱币",
+        "imageCaption": "学习示意 · 铸钱规定，工匠制作，钱币",
+        "imageBoundary": "自制学习示意。五铢钱照片来自出土陈列，不能据数量推断普通家庭财富。集市是功能示意。",
+        "audio": {
+          "transition": {
+            "id": "quest-48039d265a3658e0",
+            "text": "谁来把钱铸出来。"
+          },
+          "intro": {
+            "id": "quest-a5dade47ce171a6e",
+            "text": "汉武帝时期逐步加强铸钱管理。统一规定还要由工匠制作出来。"
+          },
+          "question": {
+            "id": "quest-644e07d4bed9d66d",
+            "text": "从规定到钱币，中间少不了哪一步？"
+          },
+          "image": {
+            "id": "quest-e308691d2d661ee2",
+            "text": "这是学习示意图：铸钱规定，工匠制作，钱币。从规定到钱币，中间少不了哪一步？"
+          },
+          "right": {
+            "id": "quest-829b3a0e618c9af6",
+            "text": "找到了。规定、材料和工匠一起作用，换名字不会改变钱的制作。"
+          },
+          "wrong": {
+            "id": "quest-dbf1fa04bd5e433d",
+            "text": "再比较一下。规定、材料和工匠一起作用，换名字不会改变钱的制作。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-02-han-governance-journey-1",
+            "label": "工匠照规定铸造",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-2bdffdf927787c7c.svg",
+            "imageAlt": "按规定铸造",
+            "audio": {
+              "id": "quest-5b7b8fc22d0bd583",
+              "text": "工匠照规定铸造"
+            }
+          },
+          {
+            "id": "cn-ancient-04-02-han-governance-journey-2",
+            "label": "商人只给钱换名字",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-ef6534c40ba87db2.svg",
+            "imageAlt": "给钱起新名字",
+            "audio": {
+              "id": "quest-87521c158909a73e",
+              "text": "商人只给钱换名字"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "集市为什么有粮",
+        "title": "集市为什么有粮",
+        "prompt": "粮食来到摊位之前，先要做什么？",
+        "rightNote": "钱能帮助交换，却不能代替田里长出的粮食。",
+        "wrongNote": "钱能帮助交换，却不能代替田里长出的粮食。",
+        "sourceIds": [
+          "NMC-WUZHU-COIN",
+          "NMC-QIN-HAN-OVERVIEW"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "集市为什么有粮",
+          "screenText": "买东西要有钱，也要有人把东西生产出来。汉初恢复生产，是许多人慢慢做的事。",
+          "displayText": "买东西要有钱，也要有人把东西生产出来。汉初恢复生产，是许多人慢慢做的事。",
+          "narration": "买东西要有钱，也要有人把东西生产出来。汉初恢复生产，是许多人慢慢做的事。"
+        },
+        "assetId": "study-526c2dadcf7b8ba1",
+        "image": "/content/study-scenes/study-526c2dadcf7b8ba1.svg",
+        "studyImage": "/content/study-scenes/study-526c2dadcf7b8ba1.svg",
+        "studyImageAlt": "田里粮食，运输，集市",
+        "imageAlt": "田里粮食，运输，集市",
+        "imageCaption": "学习示意 · 田里粮食，运输，集市",
+        "imageBoundary": "自制学习示意。五铢钱照片来自出土陈列，不能据数量推断普通家庭财富。集市是功能示意。",
+        "audio": {
+          "transition": {
+            "id": "quest-81b32191cfade433",
+            "text": "集市为什么有粮。"
+          },
+          "intro": {
+            "id": "quest-c00b8ab430fe3ddc",
+            "text": "买东西要有钱，也要有人把东西生产出来。汉初恢复生产，是许多人慢慢做的事。"
+          },
+          "question": {
+            "id": "quest-51e8b5c1ee94b328",
+            "text": "粮食来到摊位之前，先要做什么？"
+          },
+          "image": {
+            "id": "quest-baf263f7260a73e8",
+            "text": "这是学习示意图：田里粮食，运输，集市。粮食来到摊位之前，先要做什么？"
+          },
+          "right": {
+            "id": "quest-8f81df42317eac05",
+            "text": "找到了。钱能帮助交换，却不能代替田里长出的粮食。"
+          },
+          "wrong": {
+            "id": "quest-b907f25463152b6a",
+            "text": "再比较一下。钱能帮助交换，却不能代替田里长出的粮食。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-02-han-governance-change-1",
+            "label": "种田，再运输",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-a30a336939684bbd.svg",
+            "imageAlt": "种田，运粮",
+            "audio": {
+              "id": "quest-595b8beb01f1056b",
+              "text": "种田，再运输"
+            }
+          },
+          {
+            "id": "cn-ancient-04-02-han-governance-change-2",
+            "label": "铸钱，再摆空篮",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-4d642bfb8712a543.svg",
+            "imageAlt": "铸钱，空篮",
+            "audio": {
+              "id": "quest-070b9b41b326414d",
+              "text": "铸钱，再摆空篮"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "给钱币配一段故事",
+        "title": "给钱币配一段故事",
+        "prompt": "哪组人一起让集市运转？",
+        "rightNote": "铸钱和生产、运输各有作用，不能由一枚钱推出所有家庭的生活。",
+        "wrongNote": "铸钱和生产、运输各有作用，不能由一枚钱推出所有家庭的生活。",
+        "sourceIds": [
+          "NMC-WUZHU-COIN",
+          "NMC-QIN-HAN-OVERVIEW"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "给钱币配一段故事",
+          "screenText": "一枚五铢钱能带我们认识规定与工匠。集市里的生活还要结合更多材料来看。",
+          "displayText": "一枚五铢钱能带我们认识规定与工匠。集市里的生活还要结合更多材料来看。",
+          "narration": "一枚五铢钱能带我们认识规定与工匠。集市里的生活还要结合更多材料来看。"
+        },
+        "assetId": "study-13764b2c7f90d07e",
+        "image": "/content/study-scenes/study-13764b2c7f90d07e.svg",
+        "studyImage": "/content/study-scenes/study-13764b2c7f90d07e.svg",
+        "studyImageAlt": "钱币，粮食，运输",
+        "imageAlt": "钱币，粮食，运输",
+        "imageCaption": "学习示意 · 钱币，粮食，运输",
+        "imageBoundary": "自制学习示意。五铢钱照片来自出土陈列，不能据数量推断普通家庭财富。集市是功能示意。",
+        "audio": {
+          "transition": {
+            "id": "quest-47d97c2fe027408c",
+            "text": "给钱币配一段故事。"
+          },
+          "intro": {
+            "id": "quest-4b395a2f064e9b34",
+            "text": "一枚五铢钱能带我们认识规定与工匠。集市里的生活还要结合更多材料来看。"
+          },
+          "question": {
+            "id": "quest-96297dd7aaa3c82b",
+            "text": "哪组人一起让集市运转？"
+          },
+          "image": {
+            "id": "quest-b62074d199051257",
+            "text": "这是学习示意图：钱币，粮食，运输。哪组人一起让集市运转？"
+          },
+          "right": {
+            "id": "quest-ccdf9f67055c152b",
+            "text": "找到了。铸钱和生产、运输各有作用，不能由一枚钱推出所有家庭的生活。"
+          },
+          "wrong": {
+            "id": "quest-9f9451777138a868",
+            "text": "再比较一下。铸钱和生产、运输各有作用，不能由一枚钱推出所有家庭的生活。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-02-han-governance-takeaway-1",
+            "label": "工匠、农人、运送者",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-c1a4588b4cd4a22c.svg",
+            "imageAlt": "工匠，农人，运送者",
+            "audio": {
+              "id": "quest-5fdec1f414f2f549",
+              "text": "工匠、农人、运送者"
+            }
+          },
+          {
+            "id": "cn-ancient-04-02-han-governance-takeaway-2",
+            "label": "只有负责铸钱的人",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-ca3ae985bf1da68e.svg",
+            "imageAlt": "铸钱工匠",
+            "audio": {
+              "id": "quest-72ad69996cb83144",
+              "text": "只有负责铸钱的人"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "恢复—积累—加强时间链",
+        "items": [
+          "将汉初恢复、文景时期积累、汉武帝加强中央权力按顺序排列，并补上非单线的“成本”支线。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "墓葬能证明什么",
+        "items": [
+          "区分“陶动物的形态”“帝陵随葬制度”“普通人实际拥有多少牲畜”三类结论。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "五铢钱观察台",
+        "items": [
+          "寻找方孔、串钱和铸币共同点，再判断照片能与不能回答的问题。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "西汉建立后，统治者面对长期战争造成的破坏，减轻部分赋役并鼓励生产，社会经济逐步恢复。文帝、景帝时期的积累为汉武帝时加强中央权力提供条件。汉武帝通过削弱诸侯王势力、统一铸造五铢钱等措施巩固统治，也发动战争、扩大交通和对外交往，带来新的财政与民众负担。汉朝的“强盛”不是直线上升，也不是所有人共同享有的安稳生活。"
@@ -318,28 +1087,239 @@
       "authorityLevel": "A",
       "factUse": "汉景帝阳陵的墓主、遗址性质和考古博物馆身份；陶动物只用于墓葬制度观察",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "MOE-HISTORY-CURRICULUM-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "institution": "中华人民共和国教育部",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "type": "curriculum-standard",
+      "authorityLevel": "A",
+      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "study-6a7692f06048583f",
+      "title": "学习示意：前202年 汉建立、后来 五铢钱",
+      "localPath": "reference-assets/focused-quests/study-6a7692f06048583f.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "前202年 汉建立 → 后来 五铢钱",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d90ffe781b749845",
+      "title": "学习示意：汉建立、五铢钱",
+      "localPath": "reference-assets/focused-quests/study-d90ffe781b749845.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "汉建立 → 五铢钱",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-6ce2107a8d61acf3",
+      "title": "学习示意：五铢钱、汉建立",
+      "localPath": "reference-assets/focused-quests/study-6ce2107a8d61acf3.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "五铢钱 → 汉建立",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-4eba4158974d6b37",
+      "title": "学习示意：五铢钱外形",
+      "localPath": "reference-assets/focused-quests/study-4eba4158974d6b37.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "五铢钱外形",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d28d3713663652da",
+      "title": "学习示意：圆外方孔",
+      "localPath": "reference-assets/focused-quests/study-d28d3713663652da.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "圆外方孔",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d7e57081c311f2ec",
+      "title": "学习示意：方外圆孔",
+      "localPath": "reference-assets/focused-quests/study-d7e57081c311f2ec.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "方外圆孔",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-cedfcf6381037001",
+      "title": "学习示意：铸钱规定、工匠制作、钱币",
+      "localPath": "reference-assets/focused-quests/study-cedfcf6381037001.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "铸钱规定 → 工匠制作 → 钱币",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-2bdffdf927787c7c",
+      "title": "学习示意：按规定铸造",
+      "localPath": "reference-assets/focused-quests/study-2bdffdf927787c7c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "按规定铸造",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-ef6534c40ba87db2",
+      "title": "学习示意：给钱起新名字",
+      "localPath": "reference-assets/focused-quests/study-ef6534c40ba87db2.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "给钱起新名字",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-526c2dadcf7b8ba1",
+      "title": "学习示意：田里粮食、运输、集市",
+      "localPath": "reference-assets/focused-quests/study-526c2dadcf7b8ba1.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "田里粮食 → 运输 → 集市",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a30a336939684bbd",
+      "title": "学习示意：种田、运粮",
+      "localPath": "reference-assets/focused-quests/study-a30a336939684bbd.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "种田 → 运粮",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-4d642bfb8712a543",
+      "title": "学习示意：铸钱、空篮",
+      "localPath": "reference-assets/focused-quests/study-4d642bfb8712a543.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "铸钱 → 空篮",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-13764b2c7f90d07e",
+      "title": "学习示意：钱币、粮食、运输",
+      "localPath": "reference-assets/focused-quests/study-13764b2c7f90d07e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "钱币 → 粮食 → 运输",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-c1a4588b4cd4a22c",
+      "title": "学习示意：工匠、农人、运送者",
+      "localPath": "reference-assets/focused-quests/study-c1a4588b4cd4a22c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "工匠 → 农人 → 运送者",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-ca3ae985bf1da68e",
+      "title": "学习示意：铸钱工匠",
+      "localPath": "reference-assets/focused-quests/study-ca3ae985bf1da68e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "铸钱工匠",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "qin-han-yangling-pottery-animals",
       "title": "汉阳陵陶动物展览照片",
       "localPath": "reference-assets/qin-han/yangling-pottery-animals.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Pottery_Animals,_Yang_Ling_Tomb_of_Emperor_Jing_of_Western_Han.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "汉阳陵相关陶马、陶牛和陶猪展览照片。",
-      "boundary": "这是2019年秦汉陶俑专题展照片，玻璃反光和现代展柜可见。陶动物用于讨论帝陵随葬制度，不当作普通家庭牲畜数量或汉代生活现场。下载为1920像素等比例缩略图，未作其他修改。"
+      "boundary": "这是2019年秦汉陶俑专题展照片，玻璃反光和现代展柜可见。陶动物用于讨论帝陵随葬制度，不当作普通家庭牲畜数量或汉代生活现场。下载为1920像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "qin-han-haihun-wuzhu",
       "title": "海昏侯国遗址出土五铢钱展览照片",
       "localPath": "reference-assets/qin-han/wuzhu-coins.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:%E4%BA%94%E9%93%A2%E9%92%B1_%E6%B5%B7%E6%98%8F%E4%BE%AF%E5%9B%BD%E9%81%97%E5%9D%801.JPG",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "海昏侯国遗址出土并在首都博物馆展出的成串五铢钱。",
-      "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。下载为1920像素等比例缩略图，未作其他修改。"
+      "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-04-02-han-governance.jpg",

@@ -4,6 +4,34 @@
   "scope": "中国古代史·隋唐五代四章补充素材",
   "assets": [
     {
+      "id": "sui-canal-grain-boat-child-illustration",
+      "chapterIds": ["cn-ancient-06-01-sui-unification-canal"],
+      "title": "一艘运粮船沿大运河航行的儿童示意图",
+      "localPath": "reference-assets/sui-tang-five-dynasties/sui-canal-grain-boat-self-made.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目组（AI辅助生成）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "clearance": "cleared-project-created",
+      "factSourceIds": ["UNESCO-GRAND-CANAL"],
+      "caption": "自制儿童示意图：船工、河道、粮仓与沿岸维护共同支持粮食运输。",
+      "notes": "2026-08-09为低龄玩法自制的绘本插图。它不是隋代现场、复原图或史料证据；船、城门、粮仓与人物只帮助理解运输系统，历史判断仍以遗址、文献和权威来源为准。"
+    },
+    {
+      "id": "kaiyuan-coin-journey-child-illustration",
+      "chapterIds": ["cn-ancient-06-02-tang-governance"],
+      "title": "开元通宝从铸造到市场的儿童示意图",
+      "localPath": "reference-assets/sui-tang-five-dynasties/kaiyuan-coin-journey-self-made.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目组（AI辅助生成）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "clearance": "cleared-project-created",
+      "factSourceIds": ["NMC-KAIYUAN-TONGBAO"],
+      "caption": "自制儿童示意图：铜料、铸造、方孔圆钱与市场交换形成一段接力。",
+      "notes": "2026-08-09为低龄玩法自制的绘本插图。画中钱文为避免生成错误而作抽象纹样，不能用于辨读钱文、铸造技术或服饰细节；真实形制以开元通宝馆藏照片为证。"
+    },
+    {
       "id": "sui-tang-grand-canal-current-site-marker",
       "chapterIds": ["cn-ancient-06-01-sui-unification-canal"],
       "title": "隋唐大运河遗址现代保护标志照片",
@@ -19,7 +47,7 @@
     },
     {
       "id": "tang-kaiyuan-tongbao-museum-photo",
-      "chapterIds": ["cn-ancient-06-02-tang-governance"],
+      "chapterIds": ["cn-ancient-06-02-tang-governance", "cn-ancient-06-06-yan-zhenqing-draft", "cn-ancient-06-07-li-bai-jingyesi"],
       "title": "开元通宝博物馆展览照片",
       "localPath": "reference-assets/sui-tang-five-dynasties/kaiyuan-tongbao.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tang_Kaiyuan_Coin_(14251544611).jpg",
@@ -33,7 +61,7 @@
     },
     {
       "id": "big-wild-goose-pagoda-current-view",
-      "chapterIds": ["cn-ancient-06-04-tang-cultural-exchange"],
+      "chapterIds": ["cn-ancient-06-04-tang-cultural-exchange", "cn-ancient-06-07-li-bai-jingyesi", "cn-ancient-05-05-dunhuang-story"],
       "title": "大雁塔现状照片",
       "localPath": "reference-assets/sui-tang-five-dynasties/big-wild-goose-pagoda.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Big_Wild_Goose_Pagoda_2.JPG",
@@ -61,7 +89,7 @@
     },
     {
       "id": "yan-zhenqing-ji-zhi-wen-gao-scroll",
-      "chapterIds": ["cn-ancient-06-05-tang-decline"],
+      "chapterIds": ["cn-ancient-06-06-yan-zhenqing-draft", "cross-06-calligraphy-journey"],
       "title": "颜真卿《祭侄文稿》长卷图像",
       "localPath": "reference-assets/sui-tang-five-dynasties/ji-zhi-wen-gao.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Yan_Zhenqing_-_Draft_of_a_Requiem_to_My_Nephew.jpg",
@@ -71,7 +99,7 @@
       "clearance": "cleared-open-license",
       "factSourceIds": ["NPM-JIZHI-WENGAO"],
       "caption": "台北故宫博物院藏颜真卿《祭侄文稿》及后世题跋的长卷图像。",
-      "notes": "颜真卿于758年写祭文悼念颜季明，正文中的修改涂抹属于书写痕迹；长卷还含后世题跋与印记，不能把整卷都标成颜真卿同日书写。1920×111像素等比例长卷图，展示时需支持局部放大。"
+      "notes": "颜真卿于758年写祭文悼念颜季明，正文中的修改涂抹属于书写痕迹；长卷还含后世题跋与印记，不能把整卷都标成颜真卿同日书写。1920×111像素等比例长卷图，只作可局部放大的小型证据卡，不作儿童封面。"
     },
     {
       "id": "qian-liu-iron-certificate-museum-photo",
@@ -86,6 +114,62 @@
       "factSourceIds": ["NMC-QIANLIU-IRON-CERTIFICATE"],
       "caption": "中国国家博物馆展出的晚唐钱镠铁券。",
       "notes": "铁券由唐昭宗于897年赐给钱镠。Commons英文文件名将Qian误作Quan，本内容沿用收藏机构的正确中文名。它是中央与一位地方人物关系的个案证据，不代表所有节度使，也不简写为传奇式“免死金牌”。下载为1920像素等比例图，未作其他修改。"
+    },
+    {
+      "id": "li-bai-strolling-song-painting",
+      "chapterIds": ["cn-ancient-06-07-li-bai-jingyesi"],
+      "title": "南宋梁楷《李白行吟图》",
+      "localPath": "reference-assets/sui-tang-five-dynasties/li-bai-strolling.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:LiBai.jpg",
+      "author": "梁楷",
+      "license": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "clearance": "cleared-open-license",
+      "factSourceIds": ["CCDI-LIBAI-JINGYESI"],
+      "caption": "南宋画家梁楷在李白生活数百年后创作的《李白行吟图》。",
+      "notes": "这是一幅后世艺术形象，不是李白肖像写生，也不能证明《静夜思》的写作地点、姿势或衣着；只用来连接诗人姓名和后世纪念。原图395×654像素。"
+    },
+    {
+      "id": "dunhuang-cave-257-nine-coloured-deer-detail",
+      "chapterIds": ["cn-ancient-05-05-dunhuang-story"],
+      "title": "莫高窟第257窟九色鹿壁画局部",
+      "localPath": "reference-assets/sui-tang-five-dynasties/dunhuang-nine-coloured-deer.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nine-coloured_deer.jpg",
+      "author": "北魏敦煌工匠；摄影复制作者未详",
+      "license": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "clearance": "cleared-open-license",
+      "factSourceIds": ["DHA-MOGAO-CAVE-257", "DHA-NINE-COLOURED-DEER-EDUCATION"],
+      "caption": "敦煌莫高窟第257窟北魏鹿王本生故事画中的九色鹿局部。",
+      "notes": "开放文件来自古代壁画的二维复制；儿童层必须说明它是洞窟墙面故事画局部，不是完整画面、真实动物照片或现代动画截图。原图912×1135像素。"
+    },
+    {
+      "id": "tang-taizong-weizheng-discussion-child-illustration",
+      "chapterIds": ["cn-ancient-06-02-tang-governance", "cn-ancient-06-08-zhenguan-governance"],
+      "title": "唐太宗听魏征陈述意见儿童艺术表现",
+      "localPath": "reference-assets/sui-tang-five-dynasties/tang-taizong-weizheng-discussion-child-illustration.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目组（AI辅助生成）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "clearance": "cleared-project-created",
+      "factSourceIds": ["NMC-SUI-TANG-FIVE-DYNASTIES", "CCDI-TANG-ADMINISTRATION"],
+      "caption": "自制儿童艺术表现：唐太宗与魏征在同一张桌前讨论，提示治理需要听取不同意见。",
+      "notes": "2026-08-12为低龄玩法自制。人物容貌、服饰、宫殿、奏板和这次谈话都不是肖像、照片或精确历史现场复原；一场谈话也不能代表唐朝全部治理过程。"
+    },
+    {
+      "id": "zhenguan-governance-journey-child-illustration",
+      "chapterIds": ["cn-ancient-06-08-zhenguan-governance"],
+      "title": "贞观年间恢复生产与治理接力儿童艺术表现",
+      "localPath": "reference-assets/sui-tang-five-dynasties/zhenguan-governance-journey-child-illustration.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目组（AI辅助生成）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "clearance": "cleared-project-created",
+      "factSourceIds": ["NMC-SUI-TANG-FIVE-DYNASTIES", "CCDI-TANG-ADMINISTRATION"],
+      "caption": "自制儿童艺术表现：田地、奏章讨论、不同意见与市场恢复被一条治理接力带连接起来。",
+      "notes": "2026-08-12为低龄玩法自制。它不是贞观年间照片、全国同一时刻的现场、长安或州县精确复原；人物容貌、服饰、建筑、作物和活动只用于说明恢复生产、传递问题、听取意见与多人执行的过程，不能证明人人生活相同或没有负担。"
     }
   ]
 }

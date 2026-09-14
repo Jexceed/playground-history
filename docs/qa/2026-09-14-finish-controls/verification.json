@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-14",
+  "cause": [
+    "primary action flex content left-aligned; secondary block content centered",
+    "different emoji glyphs",
+    "9px shadow on one button and no shadow on the other"
+  ],
+  "fix": "shared FinishNavigation with fixed icon and label geometry",
+  "verification": {
+    "desktop": {
+      "viewport": [
+        801,
+        785
+      ],
+      "buttonSize": [
+        312,
+        54
+      ],
+      "buttonTop": 538.296875,
+      "iconSize": [
+        24,
+        24
+      ],
+      "shadowDepth": 4
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        600
+      ],
+      "buttonSize": [
+        175,
+        50
+      ],
+      "buttonTop": 424.3984375,
+      "buttonBottom": 474.3984375,
+      "expandedSummaryBottom": 555.3984375,
+      "iconSize": [
+        22,
+        22
+      ],
+      "pageWidth": 390
+    },
+    "replay": "returned to Qin cover with start action, then completed a fresh five-step run",
+    "home": "returned to time-river homepage",
+    "viewportRestored": true,
+    "existingTestsPassed": 20,
+    "lint": "pass",
+    "appTypes": "pass",
+    "strictAssets": "pass"
+  },
+  "unchanged": {
+    "content/focused-quests.json": true,
+    "content/product-map.json": true,
+    "public/audio/voice-lines.json": true,
+    "public/audio/voice/manifest.json": true
+  }
+}

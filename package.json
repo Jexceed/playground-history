@@ -8,17 +8,20 @@
   "scripts": {
     "dev": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext dev",
     "content:validate": "node scripts/validate-content.mjs",
-    "content:validate:assets": "node scripts/validate-content.mjs --require-local-assets",
-    "content:pack": "node scripts/validate-content.mjs && node scripts/build-content-pack.mjs",
+    "content:validate:assets": "node scripts/prepare-focused-quests.mjs && node scripts/validate-content.mjs --require-local-assets",
+    "content:pack": "node scripts/prepare-focused-quests.mjs && node scripts/validate-content.mjs && node scripts/build-content-pack.mjs && node scripts/generate-content-thumbnails.mjs && node scripts/audit-gameplay-coherence.mjs",
+    "content:audit": "node scripts/audit-gameplay-coherence.mjs",
     "content:thumbnails": "node scripts/generate-content-thumbnails.mjs",
     "voice:auditions": "node scripts/generate-voice-auditions.mjs",
     "build": "npm run content:pack && WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build",
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
-    "test": "npm run build && node --test tests/rendered-html.test.mjs",
+    "test": "npm run build && node --experimental-strip-types --test tests/*.test.mjs",
     "voice:generate": "node scripts/generate-voices.mjs",
-    "check:local": "npm run content:validate:assets && npm test && npm run lint",
+    "check:local": "npm run content:validate:assets && npm test && npm run lint && npm run typecheck:app",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
-    "db:generate": "drizzle-kit generate"
+    "db:generate": "drizzle-kit generate",
+    "voice:update": "npm run content:pack && npm run voice:generate",
+    "typecheck:app": "tsc --noEmit -p tsconfig.app.json"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2",

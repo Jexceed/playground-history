@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-contemporary-03-01-second-world-war",
   "trackId": "world-contemporary",
   "trackLabel": "世界现代史",
@@ -13,7 +13,723 @@
   "title": "第二次世界大战怎样从局部走向全球",
   "coreQuestion": "法西斯侵略、主要战场和国际合作怎样决定战争进程？",
   "throughline": "先为1931年中国抗战、1937年全民族抗战、1939年欧洲大战和1941年战争进一步全球化加上范围标签，再沿日本侵华、意大利侵略埃塞俄比亚、德国扩张、绥靖与轴心结盟解释局部战争怎样连接；以中国十四年抗战和东方主战场为主体，连接欧洲东线、北非、太平洋、殖民地人员与全球运输；用南京名单墙、奥斯维辛遗址和档案说明战争罪行与种族灭绝，再从《联合国家宣言》、开罗会议、多战场转折走到德日投降、核武器灾难和联合国建立。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-contemporary-03-01-second-world-war",
+    "childTitle": "一份宣言怎样召集伙伴",
+    "prompt": "法西斯侵略从局部扩大全球后，不同战场为什么需要共同合作？",
+    "takeaway": "侵略把多地卷入战争，反法西斯胜利依靠许多国家与普通人的长期合作。",
+    "object": "地图、联合国家宣言、名单墙与停战档案",
+    "people": [
+      "反法西斯同盟各国军民、抵抗者与被迫害者"
+    ],
+    "place": "欧洲、亚洲、非洲与太平洋各战场",
+    "culture": "战时宣言、日记与纪念档案",
+    "care": "不展示遗体、集中营裸体影像、处决或轰炸奖励；战争责任和受害者尊严清楚。",
+    "preferredAssetId": "wwii-declaration-by-united-nations-1942-public-domain"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "一份宣言怎样召集伙伴"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "宣言召集伙伴",
+      "text": "先看《联合国家宣言》怎样让不同伙伴共同签名。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "多条路线放上地图",
+      "text": "接着把欧洲、亚洲和太平洋路线放到同一张地图。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "长期合作迎来胜利",
+      "text": "最后多国与普通人长期合作，才迎来胜利。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "侵略把多地卷入战争，反法西斯胜利依靠许多国家与普通人的长期合作。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "法西斯",
+      "icon": "⛔",
+      "plain": "用独裁、迫害和极端民族主义推动侵略扩张的政治力量。",
+      "example": "法西斯上台有社会背景，也有具体组织和责任人。",
+      "priority": 1
+    },
+    {
+      "term": "档案",
+      "icon": "🗂️",
+      "plain": "被保存下来的文件、照片、录音等记录。",
+      "example": "一份档案记录一个角度，要和别的证据一起看。",
+      "priority": 1
+    },
+    {
+      "term": "侵略",
+      "icon": "⛔",
+      "plain": "用武力进入别国，夺取土地或控制权。",
+      "example": "抵抗侵略和发动侵略的责任不能混在一起。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "反法西斯",
+      "icon": "🕊️",
+      "plain": "反对法西斯独裁、迫害和侵略扩张。",
+      "example": "反法西斯力量来自许多国家和不同社会群体。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "全球",
+      "icon": "🌍",
+      "plain": "把整个世界许多地区放在一起观察。",
+      "example": "全球问题在各地影响不同，不能用一个例子代表全部。",
+      "priority": 3
+    },
+    {
+      "term": "责任",
+      "icon": "🤲",
+      "plain": "答应或应当承担、需要认真完成的事情。",
+      "example": "拥有公共权利，也常要承担相应责任。",
+      "priority": 3
+    },
+    {
+      "term": "殖民地",
+      "icon": "⛓️",
+      "plain": "被外来国家控制，居民和资源受它支配的地方。",
+      "example": "殖民统治不是普通旅行或平等交流。",
+      "priority": 1
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "和平",
+      "icon": "🕊️",
+      "plain": "人们不靠战争解决分歧，并努力避免暴力伤害。",
+      "example": "和平需要规则、谈判和行动，不只是说一句愿望。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "迁徙",
+      "icon": "👣",
+      "plain": "人们离开原住地，搬到别的地方生活。",
+      "example": "迁徙可能因为气候、生计、战争或主动选择。",
+      "priority": 1
+    },
+    {
+      "term": "条约",
+      "icon": "📄",
+      "plain": "国家或政治力量之间写下并同意遵守的约定。",
+      "example": "还要问条约是否平等、由谁签、后来怎样执行。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "民族",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
+      "example": "民族不是按外貌排高低，也不会永远固定不变。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "自由",
+      "icon": "🕊️",
+      "plain": "在不伤害别人并遵守共同规则时作出选择。",
+      "example": "历史文件写下自由，还要看哪些人当时没有得到。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "国际",
+      "icon": "🌍",
+      "plain": "不同国家之间或许多国家共同参与的事情。",
+      "example": "国际合作要看谁参加、怎样分工、规则如何执行。",
+      "priority": 3
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "联盟",
+      "icon": "🔗",
+      "plain": "不同一方为了共同目标暂时或长期合作。",
+      "example": "联盟成员仍可能有不同想法和利益。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "非洲",
+      "reading": "Fēizhōu",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-01-01-human-farming",
+        "world-contemporary-03-01-second-world-war"
+      ],
+      "note": "大洲名称。"
+    },
+    {
+      "text": "欧洲",
+      "reading": "Ōuzhōu",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-01-01-first-world-war",
+        "world-contemporary-02-02-depression-fascism-resistance",
+        "world-contemporary-03-01-second-world-war"
+      ],
+      "note": "大洲名称。"
+    },
+    {
+      "text": "太平洋",
+      "reading": "Tàipíngyáng",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-03-01-second-world-war"
+      ],
+      "note": "大洋名称。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "一份宣言怎样召集伙伴",
+      "question": "法西斯侵略从局部扩大全球后，不同战场为什么需要共同合作？"
+    },
+    "coverAudio": {
+      "id": "quest-25c04dff2b95a43c",
+      "text": "今天从一件东西出发：一份宣言怎样召集伙伴。我们要去欧洲、亚洲、非洲与太平洋各战场，看看地图、联合国家宣言、名单墙与停战档案怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-16cce6e7baf46177",
+      "text": "五条线索都找到了，“一份宣言怎样召集伙伴”的答案是：侵略把多地卷入战争，反法西斯胜利依靠许多国家与普通人的长期合作。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 12,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是第二次世界大战，时间是1931—1945年。",
+          "narration": "这是第二次世界大战，时间是1931—1945年。",
+          "displayText": "这是第二次世界大战，时间是1931—1945年。"
+        },
+        "assetId": "wwii-declaration-by-united-nations-1942-public-domain",
+        "image": "/content/step-images/wwii-declaration-by-united-nations-1942-public-domain.jpg",
+        "imageAlt": "《联合国家宣言》正文与签名汇集页，1942—1945年",
+        "imageCaption": "《联合国家宣言》正文与各国签名汇集页；最初26国于1942年1月1日签署，后来又有国家加入。",
+        "imageBoundary": "本地文件为12987×5808像素高清JPEG。画面汇集最初和后来加入者的签名，不能误说所有签名同日完成；能证明正式承诺和联盟扩大，不能证明各国力量相等、意见一致或实际履约没有冲突。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-7c65fa7d217b44f5",
+            "text": "这是第二次世界大战，时间是1931—1945年。"
+          },
+          "image": {
+            "id": "quest-6e2799564203b334",
+            "text": "点开大图啦。这是《联合国家宣言》正文与签名汇集页，1942—1945年。这张图能帮我们找到：这是第二次世界大战，时间是1931—1945年。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-03-01-second-world-war-time-1",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "world-contemporary-03-01-second-world-war-time-2",
+            "label": "世界现代史 · 第二次世界大战 · 1931—1945年",
+            "correct": true,
+            "audio": {
+              "id": "quest-7181b4ced8e577fc",
+              "text": "世界现代史 · 第二次世界大战 · 1931—1945年"
+            }
+          },
+          {
+            "id": "world-contemporary-03-01-second-world-war-time-3",
+            "label": "世界近代史 · 第二次工业革命与近代文化 · 19世纪后期—20世纪初",
+            "correct": false,
+            "audio": {
+              "id": "quest-40725c07ff8c763e",
+              "text": "世界近代史 · 第二次工业革命与近代文化 · 19世纪后期—20世纪初"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "宣言召集伙伴",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看《联合国家宣言》怎样让不同伙伴共同签名。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "宣言召集伙伴",
+          "screenText": "先看《联合国家宣言》怎样让不同伙伴共同签名。",
+          "narration": "先看《联合国家宣言》怎样让不同伙伴共同签名。",
+          "displayText": "先看《联合国家宣言》怎样让不同伙伴共同签名。"
+        },
+        "assetId": "wwii-declaration-by-united-nations-1942-public-domain",
+        "image": "/content/step-images/wwii-declaration-by-united-nations-1942-public-domain.jpg",
+        "imageAlt": "《联合国家宣言》正文与签名汇集页，1942—1945年",
+        "imageCaption": "《联合国家宣言》正文与各国签名汇集页；最初26国于1942年1月1日签署，后来又有国家加入。",
+        "imageBoundary": "本地文件为12987×5808像素高清JPEG。画面汇集最初和后来加入者的签名，不能误说所有签名同日完成；能证明正式承诺和联盟扩大，不能证明各国力量相等、意见一致或实际履约没有冲突。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-c98dab3dcb623225",
+            "text": "先看《联合国家宣言》怎样让不同伙伴共同签名。"
+          },
+          "image": {
+            "id": "quest-c2123cc035e02d9c",
+            "text": "点开大图啦。这是《联合国家宣言》正文与签名汇集页，1942—1945年。这张图能帮我们找到：先看《联合国家宣言》怎样让不同伙伴共同签名。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-03-01-second-world-war-beginning-1",
+            "label": "地图、联合国家宣言、名单墙与停战档案，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-0019a0445e2a0f87",
+              "text": "地图、联合国家宣言、名单墙与停战档案，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-contemporary-03-01-second-world-war-beginning-2",
+            "label": "一份宣言怎样召集伙伴、欧洲、亚洲、非洲与，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-d41c4a89aeccdf5c",
+              "text": "一份宣言怎样召集伙伴、欧洲、亚洲、非洲与，只是故事人物"
+            }
+          },
+          {
+            "id": "world-contemporary-03-01-second-world-war-beginning-3",
+            "label": "欧洲、亚洲、非洲与太平洋各战场、一份，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-26b48feb9f6260a6",
+              "text": "欧洲、亚洲、非洲与太平洋各战场、一份，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "多条路线放上地图",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着把欧洲、亚洲和太平洋路线放到同一张地图。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "多条路线放上地图",
+          "screenText": "接着把欧洲、亚洲和太平洋路线放到同一张地图。",
+          "narration": "接着把欧洲、亚洲和太平洋路线放到同一张地图。",
+          "displayText": "接着把欧洲、亚洲和太平洋路线放到同一张地图。"
+        },
+        "assetId": "simplified-world-map-base-cc0",
+        "image": "/content/step-images/simplified-world-map-base-cc0.svg",
+        "imageAlt": "无国界简化世界底图",
+        "imageCaption": "用于绘制早期人类迁徙概括路线与农业起源范围的无国界世界底图。",
+        "imageBoundary": "保存Commons提供的1603×742像素SVG原文件，未改动。底图经过简化且不含南极洲；迁徙箭头和农业起源范围由产品界面另绘，必须标成依据现有证据的概括或假说，不显示精确GPS路线、不使用现代国界划分史前人群，也不暗示文明等级。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-231b8559f2f645dc",
+            "text": "接着把欧洲、亚洲和太平洋路线放到同一张地图。"
+          },
+          "image": {
+            "id": "quest-c9fcf0c9bc56cf35",
+            "text": "点开大图啦。这是无国界简化世界底图。这张图能帮我们找到：接着把欧洲、亚洲和太平洋路线放到同一张地图。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-03-01-second-world-war-journey-1",
+            "label": "欧洲、亚洲、非洲与太平洋各战场，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-a31edc5fc3e3089e",
+              "text": "欧洲、亚洲、非洲与太平洋各战场，只说了地点"
+            }
+          },
+          {
+            "id": "world-contemporary-03-01-second-world-war-journey-2",
+            "label": "一份宣言怎样召集伙伴、地图、联合国，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-44c0c654f6099a3c",
+              "text": "一份宣言怎样召集伙伴、地图、联合国，只认出人物"
+            }
+          },
+          {
+            "id": "world-contemporary-03-01-second-world-war-journey-3",
+            "label": "接着把欧洲、亚洲和太平洋路线放到同一张地图。",
+            "correct": true,
+            "audio": {
+              "id": "quest-231b8559f2f645dc",
+              "text": "接着把欧洲、亚洲和太平洋路线放到同一张地图。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "长期合作迎来胜利",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后多国与普通人长期合作，才迎来胜利。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "长期合作迎来胜利",
+          "screenText": "最后多国与普通人长期合作，才迎来胜利。",
+          "narration": "最后多国与普通人长期合作，才迎来胜利。",
+          "displayText": "最后多国与普通人长期合作，才迎来胜利。"
+        },
+        "assetId": "wwii-declaration-by-united-nations-1942-public-domain",
+        "image": "/content/step-images/wwii-declaration-by-united-nations-1942-public-domain.jpg",
+        "imageAlt": "《联合国家宣言》正文与签名汇集页，1942—1945年",
+        "imageCaption": "《联合国家宣言》正文与各国签名汇集页；最初26国于1942年1月1日签署，后来又有国家加入。",
+        "imageBoundary": "本地文件为12987×5808像素高清JPEG。画面汇集最初和后来加入者的签名，不能误说所有签名同日完成；能证明正式承诺和联盟扩大，不能证明各国力量相等、意见一致或实际履约没有冲突。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-e44f09057ab5edd5",
+            "text": "最后多国与普通人长期合作，才迎来胜利。"
+          },
+          "image": {
+            "id": "quest-a0067dcb35de2d6e",
+            "text": "点开大图啦。这是《联合国家宣言》正文与签名汇集页，1942—1945年。这张图能帮我们找到：最后多国与普通人长期合作，才迎来胜利。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-03-01-second-world-war-change-1",
+            "label": "地图、联合国家宣言，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-499ac34d1fceb45c",
+              "text": "地图、联合国家宣言，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-contemporary-03-01-second-world-war-change-2",
+            "label": "最后多国与普通人长期合作，才迎来胜利。",
+            "correct": true,
+            "audio": {
+              "id": "quest-e44f09057ab5edd5",
+              "text": "最后多国与普通人长期合作，才迎来胜利。"
+            }
+          },
+          {
+            "id": "world-contemporary-03-01-second-world-war-change-3",
+            "label": "把欧洲、亚洲和太平洋路线，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-0512af1eb9ac43a7",
+              "text": "把欧洲、亚洲和太平洋路线，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "侵略把多地卷入战争，反法西斯胜利依靠许多国家与普通人的长期合作。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "侵略把多地卷入战争，反法西斯胜利依靠许多国家与普通人的长期合作。",
+          "narration": "侵略把多地卷入战争，反法西斯胜利依靠许多国家与普通人的长期合作。",
+          "displayText": "侵略把多地卷入战争，反法西斯胜利依靠许多国家与普通人的长期合作。"
+        },
+        "assetId": "wwii-declaration-by-united-nations-1942-public-domain",
+        "image": "/content/step-images/wwii-declaration-by-united-nations-1942-public-domain.jpg",
+        "imageAlt": "《联合国家宣言》正文与签名汇集页，1942—1945年",
+        "imageCaption": "《联合国家宣言》正文与各国签名汇集页；最初26国于1942年1月1日签署，后来又有国家加入。",
+        "imageBoundary": "本地文件为12987×5808像素高清JPEG。画面汇集最初和后来加入者的签名，不能误说所有签名同日完成；能证明正式承诺和联盟扩大，不能证明各国力量相等、意见一致或实际履约没有冲突。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-05907b1f5cea45e8",
+            "text": "侵略把多地卷入战争，反法西斯胜利依靠许多国家与普通人的长期合作。"
+          },
+          "image": {
+            "id": "quest-e1380a824c9f03e7",
+            "text": "点开大图啦。这是《联合国家宣言》正文与签名汇集页，1942—1945年。这张图能帮我们找到：侵略把多地卷入战争，反法西斯胜利依靠许多国家与普通人的长期合作。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-03-01-second-world-war-takeaway-1",
+            "label": "侵略把多地卷入战争，反法西斯胜利依靠许多国家与普通人的长期合作。",
+            "correct": true,
+            "audio": {
+              "id": "quest-05907b1f5cea45e8",
+              "text": "侵略把多地卷入战争，反法西斯胜利依靠许多国家与普通人的长期合作。"
+            }
+          },
+          {
+            "id": "world-contemporary-03-01-second-world-war-takeaway-2",
+            "label": "看《联合国家宣言》怎样让不同伙伴共同签名。、地图，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-b0733f21714b5dca",
+              "text": "看《联合国家宣言》怎样让不同伙伴共同签名。、地图，只说了原因"
+            }
+          },
+          {
+            "id": "world-contemporary-03-01-second-world-war-takeaway-3",
+            "label": "多国与普通人长期合作，才迎来胜利。、一份宣言怎样召集伙，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-1bbcdefe660e9a35",
+              "text": "多国与普通人长期合作，才迎来胜利。、一份宣言怎样召集伙，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "给日期贴范围标签",
+        "items": [
+          "为1931、1937、1939、1941分别贴“中国抗战开始、全面侵华与全民族抗战、欧洲大战开始、战争进一步全球化”。",
+          "完成提示：“范围说清楚，日期就不打架。”"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "连接全球战争网络",
+        "items": [
+          "把“中国战场、欧洲东线、北非、太平洋、印度洋运输线”与“粮食、石油、船舶、铁路、人员”连接。",
+          "每连一条，出现“这条线被攻击会影响哪里”；不设置领土涂色或扩张积分。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "一箱物资怎样到达前线",
+        "items": [
+          "依次选择“工厂—铁路—港口—船舶—公路—维修—前线或医院”。",
+          "任一节点中断时显示对普通人的具体影响；不把武器数量做成奖励。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "证据能回答什么",
+        "items": [
+          "“名单墙”配“纪念具体遇难者”，“法律与命令”配“正式规则和责任链”，“遗址”配“地点与保存痕迹”，“照片”配“特定时刻场景”。",
+          "“一张照片证明全部伤亡”必须放入“不能这样说”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 12,
   "conclusion": [
     "第二次世界大战不是1939年某一天从空白中突然出现。日本1931年侵占中国东北，意大利1935年侵略埃塞俄比亚，日本1937年发动全面侵华战争，德国1939年进攻波兰；国际联盟制止侵略无力，英法等国的绥靖没有换来持久和平，德国、意大利和日本的法西斯、军国主义扩张逐步把亚洲、非洲和欧洲的局部战争连接起来。不同教材会按范围使用不同起点：中国抗战从1931年算起，欧洲大战通常从1939年9月算起，战争在1941年德国进攻苏联、日本袭击珍珠港和东南亚多地后更加明确地成为全球战争。儿童必须给日期加“范围标签”，而不是争夺一个孤立的“唯一开战日”。",
@@ -1589,120 +2305,169 @@
       "title": "2014年沈阳“九一八”历史博物馆外景",
       "localPath": "reference-assets/china-modern-war-of-resistance/mukden-incident-museum-2014.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:2014_9-18_Mukden_Incident_Museum,_Shenyang_01.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "2014年拍摄的沈阳“九一八”历史博物馆纪念建筑与广场。",
-      "boundary": "当代纪念馆照片，画面中的国旗、参观者、广场和建筑钟面都属于现代纪念环境；钟面与日期是纪念设计，不是1931年事变现场遗物。下载为1920×1280像素等比例缩略图，未作其他修改。"
+      "boundary": "当代纪念馆照片，画面中的国旗、参观者、广场和建筑钟面都属于现代纪念环境；钟面与日期是纪念设计，不是1931年事变现场遗物。下载为1920×1280像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "nanjing-massacre-memorial-wall-2009-photo",
       "title": "2009年南京大屠杀遇难者名单墙照片",
       "localPath": "reference-assets/china-modern-war-of-resistance/nanjing-massacre-memorial-2009.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Nanjing_Massacre_Memorial_(10151677315).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "2009年拍摄的侵华日军南京大屠杀遇难同胞纪念馆名单墙。",
-      "boundary": "儿童主页面使用这张非血腥纪念空间照片，不使用遗体、伤口或暴行图像。名单墙是纪念与研究设施，不是1937年现场；照片不能替代档案、证言、调查和审判构成的完整证据链。下载为1920×1280像素等比例缩略图，未作其他修改。"
+      "boundary": "儿童主页面使用这张非血腥纪念空间照片，不使用遗体、伤口或暴行图像。名单墙是纪念与研究设施，不是1937年现场；照片不能替代档案、证言、调查和审判构成的完整证据链。下载为1920×1280像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "flying-tigers-china-airfield-circa-1942-photo",
       "title": "约1942年中国机场上的飞虎队P-40飞机与中国士兵",
       "localPath": "reference-assets/china-modern-war-of-resistance/flying-tigers-china-1942.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Chinese_soldier_guards_a_line_of_American_P-40_fighter_planes,_painted_with_the_shark-face_emblem_of_the_Flying..._-_NARA_-_535531.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — U.S. government record",
       "clearance": "cleared-open-license",
       "caption": "约1942年，中国机场上，一名中国士兵守卫美国志愿航空队使用的P-40飞机。",
-      "boundary": "美国国家档案馆记录号535531，公共领域。照片显示一处机场、一列飞机和一名士兵，只是国际援华航空合作的一个例子；不据此计算战果，也不代表全部国际援助。保存2934×2208像素JPG版本，未作修改。"
+      "boundary": "美国国家档案馆记录号535531，公共领域。照片显示一处机场、一列飞机和一名士兵，只是国际援华航空合作的一个例子；不据此计算战果，也不代表全部国际援助。保存2934×2208像素JPG版本，未作修改。",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "simplified-world-map-base-cc0",
+      "title": "无国界简化世界底图",
+      "localPath": "reference-assets/world-ancient-human-farming/world-map-base-cc0.svg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Simplified_blank_world_map_without_Antartica_(no_borders).svg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC0 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "用于绘制早期人类迁徙概括路线与农业起源范围的无国界世界底图。",
+      "boundary": "保存Commons提供的1603×742像素SVG原文件，未改动。底图经过简化且不含南极洲；迁徙箭头和农业起源范围由产品界面另绘，必须标成依据现有证据的概括或假说，不显示精确GPS路线、不使用现代国界划分史前人群，也不暗示文明等级。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "wwii-ethiopian-soldiers-1936-public-domain",
       "title": "抵抗意大利侵略的埃塞俄比亚士兵，1936年",
       "localPath": "reference-assets/world-contemporary-second-world-war/ethiopian-soldiers-1936.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Abyssinian-soldiers-1936-142348340618.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — 1936 Swedish publication, term expired",
       "clearance": "cleared-public-domain-low-provenance",
       "caption": "1936年，埃塞俄比亚骑兵和步兵抵抗法西斯意大利的侵略。",
-      "boundary": "本地文件为949×722像素JPEG，摄影者和底片链未确认，来源为瑞典出版物的商业旧照副本。只作中小型抵抗场景卡，不放大全屏；不据武器、军服和坐骑评价‘文明高低’、战斗力或战争责任。"
+      "boundary": "本地文件为949×722像素JPEG，摄影者和底片链未确认，来源为瑞典出版物的商业旧照副本。只作中小型抵抗场景卡，不放大全屏；不据武器、军服和坐骑评价‘文明高低’、战斗力或战争责任。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "wwii-warsaw-fires-september-1939-cc-by-sa",
       "title": "1939年9月战火中的华沙航拍",
       "localPath": "reference-assets/world-contemporary-second-world-war/warsaw-fires-1939.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_141-0763,_Warschau,_Br%C3%A4nde.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0 Germany",
       "clearance": "cleared-open-license",
       "caption": "1939年9月，从空中拍摄的华沙多处大火和烟柱，记录德国侵略波兰期间的城市破坏。",
-      "boundary": "本地文件为800×512像素JPEG，来自德国联邦档案馆，摄影者不明且可能属于德国军方或宣传记录。图像能证明特定时点城市起火，不能单图判定每处火源、伤亡或拍摄意图；界面显著标注侵略方档案来源。"
+      "boundary": "本地文件为800×512像素JPEG，来自德国联邦档案馆，摄影者不明且可能属于德国军方或宣传记录。图像能证明特定时点城市起火，不能单图判定每处火源、伤亡或拍摄意图；界面显著标注侵略方档案来源。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "wwii-pearl-harbor-uss-shaw-1941-public-domain",
       "title": "珍珠港袭击中“肖”号驱逐舰爆炸，1941年12月7日",
       "localPath": "reference-assets/world-contemporary-second-world-war/pearl-harbor-uss-shaw-1941.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:USS_SHAW_exploding_Pearl_Harbor_Nara_80-G-16871_2.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States Navy photograph",
       "clearance": "cleared-public-domain",
       "caption": "1941年12月7日，日本袭击珍珠港时，美国海军“肖”号驱逐舰发生爆炸。",
-      "boundary": "本地文件为2500×1999像素JPEG。爆炸画面不含可辨认伤者，儿童界面缩小呈现；只证明珍珠港一处袭击，不代表日本同日对香港、马来亚、菲律宾等地进攻，也不替代此前十年中国战场。"
+      "boundary": "本地文件为2500×1999像素JPEG。爆炸画面不含可辨认伤者，儿童界面缩小呈现；只证明珍珠港一处袭击，不代表日本同日对香港、马来亚、菲律宾等地进攻，也不替代此前十年中国战场。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "wwii-indian-soldiers-north-africa-1941-public-domain",
       "title": "北非战场上的印度第4师士兵，1941年6月21日",
       "localPath": "reference-assets/world-contemporary-second-world-war/indian-soldiers-north-africa-1941.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Soldiers_of_the_4th_Indian_Division_decorate_the_side_of_their_lorry,_North_Africa,_21_June_1941._E3660.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United Kingdom Crown copyright expired",
       "clearance": "cleared-public-domain",
       "caption": "1941年6月21日，印度第4师士兵在北非卡车上写下‘开伯尔山口到地狱火山口’。",
-      "boundary": "本地文件为800×797像素JPEG。画面是英国官方摄影师记录，背景有车辆武器但不在操作；用来呈现南亚军人的具体旅程和幽默，不能证明所有印度人支持英国殖民统治或所有印度部队经历相同。"
+      "boundary": "本地文件为800×797像素JPEG。画面是英国官方摄影师记录，背景有车辆武器但不在操作；用来呈现南亚军人的具体旅程和幽默，不能证明所有印度人支持英国殖民统治或所有印度部队经历相同。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "wwii-stalingrad-after-liberation-1943-cc-by-sa",
       "title": "斯大林格勒解放后的市中心，1943年2月2日",
       "localPath": "reference-assets/world-contemporary-second-world-war/stalingrad-after-liberation-1943.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:RIAN_archive_602161_Center_of_Stalingrad_after_liberation.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0 Unported",
       "clearance": "cleared-open-license",
       "caption": "1943年2月2日，斯大林格勒战役结束后，苏联士兵走过严重受损的市中心。",
-      "boundary": "本地文件为5332×3543像素JPEG。儿童界面固定使用上部和中部裁切，不显示最下方模糊前景；图片证明城市毁坏与士兵进入，不能单图统计伤亡、判断每栋建筑损坏原因或把废墟作为胜利装饰。"
+      "boundary": "本地文件为5332×3543像素JPEG。儿童界面固定使用上部和中部裁切，不显示最下方模糊前景；图片证明城市毁坏与士兵进入，不能单图统计伤亡、判断每栋建筑损坏原因或把废墟作为胜利装饰。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "wwii-auschwitz-birkenau-gate-2021-cc-by-sa",
       "title": "奥斯维辛II—比克瑙保存遗址大门，2021年",
       "localPath": "reference-assets/world-contemporary-second-world-war/auschwitz-birkenau-gate-2021.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Auschwitz-Birkenau_gate.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0 International",
       "clearance": "cleared-open-license",
       "caption": "2021年拍摄的奥斯维辛II—比克瑙保存遗址大门；这里曾是纳粹德国集中营和灭绝中心的一部分。",
-      "boundary": "本地文件为4032×3024像素JPEG，是当代遗址照片，不是1940年代现场。空地和保存建筑不能说明受害者经历或死亡规模；儿童界面配名单、档案和明确责任文字，不使用受害者刺激性影像。"
+      "boundary": "本地文件为4032×3024像素JPEG，是当代遗址照片，不是1940年代现场。空地和保存建筑不能说明受害者经历或死亡规模；儿童界面配名单、档案和明确责任文字，不使用受害者刺激性影像。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "wwii-cairo-conference-leaders-1943-public-domain",
       "title": "开罗会议期间的蒋介石、罗斯福与丘吉尔，1943年11月25日",
       "localPath": "reference-assets/world-contemporary-second-world-war/cairo-conference-1943.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Franklin_D._Roosevelt,_Chiang,Kai_Shek,_and_Churchill_in_Cairo,_Egypt_-_NARA_-_196609.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States federal government record",
       "clearance": "cleared-public-domain",
       "caption": "1943年11月25日开罗会议期间，蒋介石、罗斯福和丘吉尔合影。",
-      "boundary": "本地文件为3000×2315像素JPEG。照片证明三位领导人同场，不说明宋美龄、顾问和其他代表没有参与，也不能从姿态推断谈判意见；正式结论以《开罗宣言》文本核验。"
+      "boundary": "本地文件为3000×2315像素JPEG。照片证明三位领导人同场，不说明宋美龄、顾问和其他代表没有参与，也不能从姿态推断谈判意见；正式结论以《开罗宣言》文本核验。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "wwii-declaration-by-united-nations-1942-public-domain",
       "title": "《联合国家宣言》正文与签名汇集页，1942—1945年",
       "localPath": "reference-assets/world-contemporary-second-world-war/declaration-united-nations-1942.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:%22Declaration_by_the_United_Nations%22_-_NARA_-_514106.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States federal government record and government signatures",
       "clearance": "cleared-public-domain",
       "caption": "《联合国家宣言》正文与各国签名汇集页；最初26国于1942年1月1日签署，后来又有国家加入。",
-      "boundary": "本地文件为12987×5808像素高清JPEG。画面汇集最初和后来加入者的签名，不能误说所有签名同日完成；能证明正式承诺和联盟扩大，不能证明各国力量相等、意见一致或实际履约没有冲突。"
+      "boundary": "本地文件为12987×5808像素高清JPEG。画面汇集最初和后来加入者的签名，不能误说所有签名同日完成；能证明正式承诺和联盟扩大，不能证明各国力量相等、意见一致或实际履约没有冲突。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "wwii-japanese-surrender-missouri-1945-public-domain",
       "title": "日本代表在“密苏里”号签署投降书，1945年9月2日",
       "localPath": "reference-assets/world-contemporary-second-world-war/japanese-surrender-missouri-1945.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Mamoru_Shigemitsu_signs_the_Instrument_of_Surrender,_officially_ending_the_Second_World_War.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States Army photograph",
       "clearance": "cleared-public-domain",
       "caption": "1945年9月2日，日本外相重光葵代表日本政府在“密苏里”号上签署投降书。",
-      "boundary": "本地文件为5738×4594像素JPEG。照片证明签字人、地点和正式仪式，不能说明亚洲各战区受降、解除武装、遣返和生活恢复同日完成；中国代表徐永昌等盟国代表也在投降书上签字。"
+      "boundary": "本地文件为5738×4594像素JPEG。照片证明签字人、地点和正式仪式，不能说明亚洲各战区受降、解除武装、遣返和生活恢复同日完成；中国代表徐永昌等盟国代表也在投降书上签字。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-contemporary-03-01-second-world-war.jpg",

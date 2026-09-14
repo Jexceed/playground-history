@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-ancient-02-03-islamic-world",
   "trackId": "world-ancient",
   "trackLabel": "世界古代史",
@@ -13,7 +13,672 @@
   "title": "阿拉伯帝国怎样连接三洲",
   "coreQuestion": "伊斯兰教、城市和翻译活动怎样形成交流网络？",
   "throughline": "先分开伊斯兰教、穆斯林与阿拉伯人，再以622年迁徙、倭马亚大马士革、762年巴格达、多语言翻译、尼沙普尔小铜币和1009年泉州清净寺连接宗教、帝国、城市、知识与海陆网络。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-ancient-02-03-islamic-world",
+    "childTitle": "巴格达的翻译桌有几种语言",
+    "prompt": "书、数字和新问题，怎样在城市网络里被翻译、改进和传开？",
+    "takeaway": "翻译者保存旧知识，学者又提出新问题；知识在多种语言间继续生长。",
+    "object": "手稿、城市地图与泉州清净寺遗址",
+    "people": [
+      "翻译者、学者、商人、工匠与多宗教居民"
+    ],
+    "place": "大马士革、巴格达、尼沙普尔与泉州",
+    "culture": "阿拉伯语学术手稿",
+    "care": "不生成穆罕默德肖像，不把知识交流写成一个文明只抄另一个文明。",
+    "preferredAssetId": "dioscorides-folio-13th-century-met-open-access"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📍",
+      "label": "从一个地方出发",
+      "text": "巴格达的翻译桌有几种语言"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "翻译桌摆上多种书",
+      "text": "先坐到巴格达翻译桌边，摆上多种语言的书。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "翻译以后再提问",
+      "text": "接着看学者翻译、提问、计算，再写出新成果。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "知识沿商路旅行",
+      "text": "最后知识沿城市和商路传播，也来到泉州。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "翻译者保存旧知识，学者又提出新问题；知识在多种语言间继续生长。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "翻译",
+      "icon": "🗣️",
+      "plain": "把一种语言表达的意思换成另一种语言。",
+      "example": "翻译需要懂语言和知识，也常由团队反复校订。",
+      "priority": 2
+    },
+    {
+      "term": "文明",
+      "icon": "🏙️",
+      "plain": "许多人长期创造的社会生活与文化成果。",
+      "example": "不同文明各有环境和道路，不做高低排名。",
+      "priority": 2
+    },
+    {
+      "term": "宗教",
+      "icon": "🕯️",
+      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
+      "example": "同一种宗教内部也有不同地区、时代和人群。",
+      "priority": 2
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "税收",
+      "icon": "🧾",
+      "plain": "公共机构按规则向居民或交易收取的钱和物。",
+      "example": "税收可用于公共事务，也要看负担是否合理。",
+      "priority": 2
+    },
+    {
+      "term": "王朝",
+      "icon": "👑",
+      "plain": "以皇帝政权延续的一段历史时期。",
+      "example": "唐朝是王朝；唐朝结束不等于所有事情当天停止。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "政权",
+      "icon": "🏛️",
+      "plain": "谁在用什么机构和规则管理一个地方。",
+      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
+      "priority": 2
+    },
+    {
+      "term": "帝国",
+      "icon": "🗺️",
+      "plain": "由中心统治许多地区和人群的大政权。",
+      "example": "帝国地图会变化，不能把不同时期边界画成一张。",
+      "priority": 3
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "巴格达",
+      "reading": "Bāgédá",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-03-islamic-world"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "大马士革",
+      "reading": "Dàmǎshìgé",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-03-islamic-world"
+      ],
+      "note": "“革”在译名中读gé。"
+    },
+    {
+      "text": "尼沙普尔",
+      "reading": "Níshāpǔ’ěr",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-03-islamic-world",
+        "cross-03-cultural-exchange"
+      ],
+      "note": "“普尔”两音节读清楚。"
+    },
+    {
+      "text": "泉州",
+      "reading": "Quánzhōu",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-07-05-yuan-exchange",
+        "world-ancient-02-03-islamic-world",
+        "cross-04-transport-history"
+      ],
+      "note": "福建地名。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个地方",
+      "icon": "📍",
+      "label": "巴格达的翻译桌有几种语言",
+      "question": "书、数字和新问题，怎样在城市网络里被翻译、改进和传开？"
+    },
+    "coverAudio": {
+      "id": "quest-358b35258c7e7fdd",
+      "text": "今天从一个地方出发：巴格达的翻译桌有几种语言。我们要去大马士革、巴格达、尼沙普尔与泉州，看看手稿、城市地图与泉州清净寺遗址怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-762fc1268156a844",
+      "text": "五条线索都找到了，“巴格达的翻译桌有几种语言”的答案是：翻译者保存旧知识，学者又提出新问题；知识在多种语言间继续生长。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个地方出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是中古世界，时间是约5—15世纪。",
+          "narration": "这是中古世界，时间是约5—15世纪。",
+          "displayText": "这是中古世界，时间是约5—15世纪。"
+        },
+        "assetId": "dioscorides-folio-13th-century-met-open-access",
+        "image": "/content/step-images/dioscorides-folio-13th-century-met-open-access.jpg",
+        "imageAlt": "13世纪阿拉伯语《药物志》植物页",
+        "imageCaption": "13世纪、归属伊拉克地区的阿拉伯语《药物志》植物页；文本传统可追溯到1世纪希腊语作者迪奥斯科里德斯。",
+        "imageBoundary": "The Met开放原图864×1261像素，未裁切、未放大；对象编号65.271.1。它是13世纪手稿页，不是9世纪巴格达课堂照片；植物图用于说明翻译和图像再设计，不提供识药、采集或医疗建议。",
+        "audio": {
+          "transition": {
+            "id": "quest-cafb042b318bc60f",
+            "text": "先给一个地方找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-1fb2283ac891f89c",
+            "text": "这是中古世界，时间是约5—15世纪。"
+          },
+          "image": {
+            "id": "quest-0f54495283d105af",
+            "text": "点开大图啦。这是13世纪阿拉伯语《药物志》植物页。这张图能帮我们找到：这是中古世界，时间是约5—15世纪。"
+          },
+          "question": {
+            "id": "quest-6b36b10ba4b7def9",
+            "text": "从一个地方出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-03-islamic-world-time-1",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "world-ancient-02-03-islamic-world-time-2",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "world-ancient-02-03-islamic-world-time-3",
+            "label": "世界古代史 · 中古世界 · 约5—15世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-138b018948e0ad9a",
+              "text": "世界古代史 · 中古世界 · 约5—15世纪"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "翻译桌摆上多种书",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先坐到巴格达翻译桌边，摆上多种语言的书。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "翻译桌摆上多种书",
+          "screenText": "先坐到巴格达翻译桌边，摆上多种语言的书。",
+          "narration": "先坐到巴格达翻译桌边，摆上多种语言的书。",
+          "displayText": "先坐到巴格达翻译桌边，摆上多种语言的书。"
+        },
+        "assetId": "umayyad-mosque-courtyard-2008-cc-by",
+        "image": "/content/step-images/umayyad-mosque-courtyard-2008-cc-by.jpg",
+        "imageAlt": "大马士革倭马亚大清真寺庭院2008年实拍",
+        "imageCaption": "2008年拍摄的大马士革倭马亚大清真寺庭院；画面反映长期修缮与当代宗教使用，并非8世纪原貌。",
+        "imageBoundary": "Commons原图4000×3000像素，等比缩至2200×1650像素，未裁切；拍摄于2008-08-15。照片中的人物、服装、灯具、地面与全部墙面细节不能搬回8世纪；人物只作为现代现场的一部分，不用于身份或信仰判断。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-42afd0e1e25f836d",
+            "text": "先坐到巴格达翻译桌边，摆上多种语言的书。"
+          },
+          "image": {
+            "id": "quest-200637632be84faf",
+            "text": "点开大图啦。这是大马士革倭马亚大清真寺庭院2008年实拍。这张图能帮我们找到：先坐到巴格达翻译桌边，摆上多种语言的书。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-03-islamic-world-beginning-1",
+            "label": "翻译者、学者、商人、工匠与多宗教居，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-2e08cc10f6cb09a6",
+              "text": "翻译者、学者、商人、工匠与多宗教居，只是故事人物"
+            }
+          },
+          {
+            "id": "world-ancient-02-03-islamic-world-beginning-2",
+            "label": "手稿、城市地图与泉州清净寺遗址，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-e4b84c72572f1066",
+              "text": "手稿、城市地图与泉州清净寺遗址，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-ancient-02-03-islamic-world-beginning-3",
+            "label": "大马士革、巴格达、尼沙普尔与泉，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-73f69d4907330e1f",
+              "text": "大马士革、巴格达、尼沙普尔与泉，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "翻译以后再提问",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看学者翻译、提问、计算，再写出新成果。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "翻译以后再提问",
+          "screenText": "接着看学者翻译、提问、计算，再写出新成果。",
+          "narration": "接着看学者翻译、提问、计算，再写出新成果。",
+          "displayText": "接着看学者翻译、提问、计算，再写出新成果。"
+        },
+        "assetId": "qingjing-mosque-historic-gate-2023-cc-by-sa",
+        "image": "/content/step-images/qingjing-mosque-historic-gate-2023-cc-by-sa.jpg",
+        "imageAlt": "泉州清净寺历史石门楼2023年实拍",
+        "imageCaption": "2023年拍摄的泉州清净寺历史石门楼及当代参观环境；清净寺始建于1009年，现存建筑经历历代修缮。",
+        "imageBoundary": "Commons原图1800×1200像素，未裁切、未缩放；拍摄于2023-01-30。素材选择已排除同组中院内新建礼拜堂照片；本图显示历史石门楼的现代保存状态，仍不可冒充1009年整座寺院竣工照。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-a71628097b8d9657",
+            "text": "接着看学者翻译、提问、计算，再写出新成果。"
+          },
+          "image": {
+            "id": "quest-a6149bd8a6a66acd",
+            "text": "点开大图啦。这是泉州清净寺历史石门楼2023年实拍。这张图能帮我们找到：接着看学者翻译、提问、计算，再写出新成果。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-03-islamic-world-journey-1",
+            "label": "接着看学者翻译、提问、计算，再写出新成果。",
+            "correct": true,
+            "audio": {
+              "id": "quest-a71628097b8d9657",
+              "text": "接着看学者翻译、提问、计算，再写出新成果。"
+            }
+          },
+          {
+            "id": "world-ancient-02-03-islamic-world-journey-2",
+            "label": "翻译者、学者、商人、工匠与多宗教，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-5c854fc4189495f4",
+              "text": "翻译者、学者、商人、工匠与多宗教，只认出人物"
+            }
+          },
+          {
+            "id": "world-ancient-02-03-islamic-world-journey-3",
+            "label": "大马士革、巴格达、尼沙普尔与，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-dbcb5547242f2bfe",
+              "text": "大马士革、巴格达、尼沙普尔与，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "知识沿商路旅行",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后知识沿城市和商路传播，也来到泉州。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "知识沿商路旅行",
+          "screenText": "最后知识沿城市和商路传播，也来到泉州。",
+          "narration": "最后知识沿城市和商路传播，也来到泉州。",
+          "displayText": "最后知识沿城市和商路传播，也来到泉州。"
+        },
+        "assetId": "nishapur-copper-coin-8th-9th-century-met-open-access",
+        "image": "/content/step-images/nishapur-copper-coin-8th-9th-century-met-open-access.jpg",
+        "imageAlt": "约8—9世纪尼沙普尔出土铜币",
+        "imageCaption": "约8—9世纪铜币，出土于今天伊朗尼沙普尔的Qanat Tepe，尺寸约1.8×1.7厘米。",
+        "imageBoundary": "The Met开放原图318×336像素，未放大、未裁切；对象编号39.40.127.239。币面磨损且分辨率有限，不用生成式补图、锐化补字或虚构币主、币值、商品价格和到中国的旅行。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-826e8528fb7dd665",
+            "text": "最后知识沿城市和商路传播，也来到泉州。"
+          },
+          "image": {
+            "id": "quest-b2c5a47ac5ec87c2",
+            "text": "点开大图啦。这是约8—9世纪尼沙普尔出土铜币。这张图能帮我们找到：最后知识沿城市和商路传播，也来到泉州。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-03-islamic-world-change-1",
+            "label": "手稿、城市地图与泉州，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-42e1e4b0d9826e09",
+              "text": "手稿、城市地图与泉州，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-ancient-02-03-islamic-world-change-2",
+            "label": "看学者翻译、提问、计算，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-84ecebc7a6c51158",
+              "text": "看学者翻译、提问、计算，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-ancient-02-03-islamic-world-change-3",
+            "label": "最后知识沿城市和商路传播，也来到泉州。",
+            "correct": true,
+            "audio": {
+              "id": "quest-826e8528fb7dd665",
+              "text": "最后知识沿城市和商路传播，也来到泉州。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "翻译者保存旧知识，学者又提出新问题；知识在多种语言间继续生长。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "翻译者保存旧知识，学者又提出新问题；知识在多种语言间继续生长。",
+          "narration": "翻译者保存旧知识，学者又提出新问题；知识在多种语言间继续生长。",
+          "displayText": "翻译者保存旧知识，学者又提出新问题；知识在多种语言间继续生长。"
+        },
+        "assetId": "umayyad-mosque-courtyard-2008-cc-by",
+        "image": "/content/step-images/umayyad-mosque-courtyard-2008-cc-by.jpg",
+        "imageAlt": "大马士革倭马亚大清真寺庭院2008年实拍",
+        "imageCaption": "2008年拍摄的大马士革倭马亚大清真寺庭院；画面反映长期修缮与当代宗教使用，并非8世纪原貌。",
+        "imageBoundary": "Commons原图4000×3000像素，等比缩至2200×1650像素，未裁切；拍摄于2008-08-15。照片中的人物、服装、灯具、地面与全部墙面细节不能搬回8世纪；人物只作为现代现场的一部分，不用于身份或信仰判断。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-1f337b6050192121",
+            "text": "翻译者保存旧知识，学者又提出新问题；知识在多种语言间继续生长。"
+          },
+          "image": {
+            "id": "quest-6bdc98672bd036ca",
+            "text": "点开大图啦。这是大马士革倭马亚大清真寺庭院2008年实拍。这张图能帮我们找到：翻译者保存旧知识，学者又提出新问题；知识在多种语言间继续生长。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-03-islamic-world-takeaway-1",
+            "label": "坐到巴格达翻译桌边，摆上多种语言的书。、手稿、城，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-98d21fb873cdbfba",
+              "text": "坐到巴格达翻译桌边，摆上多种语言的书。、手稿、城，只说了原因"
+            }
+          },
+          {
+            "id": "world-ancient-02-03-islamic-world-takeaway-2",
+            "label": "翻译者保存旧知识，学者又提出新问题；知识在多种语言间继续生长。",
+            "correct": true,
+            "audio": {
+              "id": "quest-1f337b6050192121",
+              "text": "翻译者保存旧知识，学者又提出新问题；知识在多种语言间继续生长。"
+            }
+          },
+          {
+            "id": "world-ancient-02-03-islamic-world-takeaway-3",
+            "label": "知识沿城市和商路传播，也来到泉州。、巴格达的翻译桌有，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-353f0e519801c8df",
+              "text": "知识沿城市和商路传播，也来到泉州。、巴格达的翻译桌有，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "时间线搭桥",
+        "items": [
+          "把622年迁徙、661年倭马亚王朝、750年阿拔斯王朝、762年巴格达建城、1009年清净寺始建和1258年巴格达被攻占放回时间线。系统不把“占领更多土地”设为奖励，也不让儿童指挥军队或宗教扩张。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "三个词分格子",
+        "items": [
+          "把“宗教名称”“信奉这种宗教的人”“一种语言文化身份”“可能既是阿拉伯人又是穆斯林”“可能是穆斯林但不是阿拉伯人”放入可重叠的词圈；答案强调身份可以交叉，不要求孩子凭服装、肤色或姓名猜宗教。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "证据能说什么",
+        "items": [
+          "分别给《古兰经》页、尼沙普尔铜币、《药物志》页、清净寺照片选择“可以支持”和“还不能证明”。支持项包括抄本年代与材料、钱币出土地、文本跨语言流传、清净寺现存门楼；不支持项包括穆罕默德亲笔、币主姓名和旅程、9世纪巴格达课堂现场、1009年整座建筑原貌。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "7世纪，伊斯兰教在阿拉伯半岛形成；穆罕默德去世后，新政权经过扩张、内战和王朝更替，先后出现以大马士革为中心的倭马亚王朝和以巴格达为重要中心的阿拔斯王朝。教材常用“阿拉伯帝国”概括这一政治扩展，但随时间推移，统治范围内的居民、语言和宗教非常多样，不能把“阿拉伯人”“穆斯林”和“帝国臣民”画成同一群人。城市、港口、货币、手稿和多语言翻译把地中海、西亚、中亚、南亚和中国连接成许多节点组成的网络。战争和不平等是帝国形成的一部分，商业、宗教生活、手工业与知识创造也是历史的一部分。1258年蒙古军队攻占巴格达，结束了阿拔斯哈里发在当地的统治，却没有让伊斯兰信仰、阿拉伯语文化或各地学术活动同日消失。"
@@ -595,50 +1260,65 @@
       "title": "8—9世纪《古兰经》羊皮纸页",
       "localPath": "reference-assets/world-ancient-islamic-world/quran-folio-8th-9th-century.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/453246",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "约8—9世纪制作于埃及或伊拉克的《古兰经》羊皮纸页，采用横向版式和库法体，并有帮助阅读的彩色点与符号。",
-      "boundary": "The Met开放原图3722×2562像素，等比缩至2200×1514像素，未裁切；对象编号1984.504.1。它是抄本一页，不是穆罕默德亲笔、610年原页或完整《古兰经》，界面不与穆罕默德想象肖像并置。"
+      "boundary": "The Met开放原图3722×2562像素，等比缩至2200×1514像素，未裁切；对象编号1984.504.1。它是抄本一页，不是穆罕默德亲笔、610年原页或完整《古兰经》，界面不与穆罕默德想象肖像并置。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "umayyad-mosque-courtyard-2008-cc-by",
       "title": "大马士革倭马亚大清真寺庭院2008年实拍",
       "localPath": "reference-assets/world-ancient-islamic-world/umayyad-mosque-courtyard-2008.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Syria,_Damascus,_The_Umayyad_Mosque,_Courtyard.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 4.0",
       "clearance": "cleared-open-license",
       "caption": "2008年拍摄的大马士革倭马亚大清真寺庭院；画面反映长期修缮与当代宗教使用，并非8世纪原貌。",
-      "boundary": "Commons原图4000×3000像素，等比缩至2200×1650像素，未裁切；拍摄于2008-08-15。照片中的人物、服装、灯具、地面与全部墙面细节不能搬回8世纪；人物只作为现代现场的一部分，不用于身份或信仰判断。"
+      "boundary": "Commons原图4000×3000像素，等比缩至2200×1650像素，未裁切；拍摄于2008-08-15。照片中的人物、服装、灯具、地面与全部墙面细节不能搬回8世纪；人物只作为现代现场的一部分，不用于身份或信仰判断。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "nishapur-copper-coin-8th-9th-century-met-open-access",
       "title": "约8—9世纪尼沙普尔出土铜币",
       "localPath": "reference-assets/world-ancient-islamic-world/nishapur-copper-coin-8th-9th-century.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/457311",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "约8—9世纪铜币，出土于今天伊朗尼沙普尔的Qanat Tepe，尺寸约1.8×1.7厘米。",
-      "boundary": "The Met开放原图318×336像素，未放大、未裁切；对象编号39.40.127.239。币面磨损且分辨率有限，不用生成式补图、锐化补字或虚构币主、币值、商品价格和到中国的旅行。"
+      "boundary": "The Met开放原图318×336像素，未放大、未裁切；对象编号39.40.127.239。币面磨损且分辨率有限，不用生成式补图、锐化补字或虚构币主、币值、商品价格和到中国的旅行。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "dioscorides-folio-13th-century-met-open-access",
       "title": "13世纪阿拉伯语《药物志》植物页",
       "localPath": "reference-assets/world-ancient-islamic-world/dioscorides-folio-13th-century.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/451825",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "13世纪、归属伊拉克地区的阿拉伯语《药物志》植物页；文本传统可追溯到1世纪希腊语作者迪奥斯科里德斯。",
-      "boundary": "The Met开放原图864×1261像素，未裁切、未放大；对象编号65.271.1。它是13世纪手稿页，不是9世纪巴格达课堂照片；植物图用于说明翻译和图像再设计，不提供识药、采集或医疗建议。"
+      "boundary": "The Met开放原图864×1261像素，未裁切、未放大；对象编号65.271.1。它是13世纪手稿页，不是9世纪巴格达课堂照片；植物图用于说明翻译和图像再设计，不提供识药、采集或医疗建议。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "qingjing-mosque-historic-gate-2023-cc-by-sa",
       "title": "泉州清净寺历史石门楼2023年实拍",
       "localPath": "reference-assets/world-ancient-islamic-world/qingjing-mosque-2023.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:20230130_Qingjing_Mosque_01.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2023年拍摄的泉州清净寺历史石门楼及当代参观环境；清净寺始建于1009年，现存建筑经历历代修缮。",
-      "boundary": "Commons原图1800×1200像素，未裁切、未缩放；拍摄于2023-01-30。素材选择已排除同组中院内新建礼拜堂照片；本图显示历史石门楼的现代保存状态，仍不可冒充1009年整座寺院竣工照。"
+      "boundary": "Commons原图1800×1200像素，未裁切、未缩放；拍摄于2023-01-30。素材选择已排除同组中院内新建礼拜堂照片；本图显示历史石门楼的现代保存状态，仍不可冒充1009年整座寺院竣工照。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-ancient-02-03-islamic-world.jpg",

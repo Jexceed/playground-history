@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.8.0",
+  "contentVersion": "0.9.0",
   "id": "cn-modern-06-02-victory-1949",
   "trackId": "china-modern",
   "trackLabel": "中国近代史",
@@ -13,7 +13,593 @@
   "title": "三大战役怎样把历史带到1949年",
   "coreQuestion": "人民解放战争为什么取得胜利？",
   "throughline": "从战略防御转入进攻、三大战役、渡江战役和南京解放，结合政治、军事与民心因素理解新民主主义革命胜利。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "cn-modern-06-02-victory-1949",
+    "childTitle": "一张地图怎样走到1949年",
+    "prompt": "战场变化、土地政策、组织动员和民心，怎样共同改变历史方向？",
+    "takeaway": "胜负不只看一张战场图；政策、组织、支援者和民众选择共同改变结果。",
+    "object": "战役地图、支前工具与历史照片",
+    "people": [
+      "解放军、支前群众、各地居民与政治领导者"
+    ],
+    "place": "东北、华北、淮海地区与长江沿线",
+    "culture": "1949年前后的新闻档案",
+    "care": "不让儿童扮演攻击或占领，不以伤亡、武器和领土多少计分。",
+    "preferredAssetId": "pla-enters-peiping-1949-photo"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🗺️",
+      "label": "从一张地图出发",
+      "text": "一张地图怎样走到1949年"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "四条路线放进地图",
+      "text": "先把东北、华北、淮海和长江沿线排进地图。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "支前工具动起来",
+      "text": "接着看支前群众怎样运送粮食和物资。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "路线走向一九四九",
+      "text": "最后多条路线汇合，走到新中国成立前夕。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "胜负不只看一张战场图；政策、组织、支援者和民众选择共同改变结果。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "档案",
+      "icon": "🗂️",
+      "plain": "被保存下来的文件、照片、录音等记录。",
+      "example": "一份档案记录一个角度，要和别的证据一起看。",
+      "priority": 1
+    },
+    {
+      "term": "领土",
+      "icon": "🗺️",
+      "plain": "一个国家依法拥有和管理的土地、水域等范围。",
+      "example": "历史地图要标时间，边界不会一直不变。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "改革",
+      "icon": "🛠️",
+      "plain": "发现旧办法有问题，改变规则或做法。",
+      "example": "改革可能带来新机会，也可能遇到阻力和新问题。",
+      "priority": 1
+    },
+    {
+      "term": "和平",
+      "icon": "🕊️",
+      "plain": "人们不靠战争解决分歧，并努力避免暴力伤害。",
+      "example": "和平需要规则、谈判和行动，不只是说一句愿望。",
+      "priority": 1
+    },
+    {
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "共和国",
+      "icon": "🏛️",
+      "plain": "国家职位不是由皇位世代传下去的国家形式。",
+      "example": "写下共和国原则，不代表这些原则立刻全部做到。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "政权",
+      "icon": "🏛️",
+      "plain": "谁在用什么机构和规则管理一个地方。",
+      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
+      "priority": 2
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "淮海",
+      "reading": "Huáihǎi",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-06-02-victory-1949"
+      ],
+      "note": "“淮”读huái。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一张地图",
+      "icon": "🗺️",
+      "label": "一张地图怎样走到1949年",
+      "question": "战场变化、土地政策、组织动员和民心，怎样共同改变历史方向？"
+    },
+    "coverAudio": {
+      "id": "quest-c3cb1f30ca44934c",
+      "text": "今天从一张地图出发：一张地图怎样走到1949年。我们要去东北、华北、淮海地区与长江沿线，看看战役地图、支前工具与历史照片怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-a7f478ddd4a549c0",
+      "text": "五条线索都找到了，“一张地图怎样走到1949年”的答案是：胜负不只看一张战场图；政策、组织、支援者和民众选择共同改变结果。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 10,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一张地图出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是人民解放战争，时间是1945—1949年。",
+          "narration": "这是人民解放战争，时间是1945—1949年。",
+          "displayText": "这是人民解放战争，时间是1945—1949年。"
+        },
+        "assetId": "pla-enters-peiping-1949-photo",
+        "image": "/content/step-images/pla-enters-peiping-1949-photo.jpg",
+        "imageAlt": "1949年人民解放军进入北平历史照片",
+        "imageCaption": "1949年1月31日以后，人民解放军进入北平时的街道欢迎场景。",
+        "imageBoundary": "照片显示一条街道、行进队伍和欢迎人群，只是北平和平解放后的一个场景；不能辨认全部人员、准确路线或用人群规模代表全城。原图780×613像素。",
+        "audio": {
+          "transition": {
+            "id": "quest-9ef0fc145b345212",
+            "text": "先给一张地图找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-130869fb8b443330",
+            "text": "这是人民解放战争，时间是1945—1949年。"
+          },
+          "image": {
+            "id": "quest-745b0ad9e7296201",
+            "text": "点开大图啦。这是1949年人民解放军进入北平历史照片。这张图能帮我们找到：这是人民解放战争，时间是1945—1949年。"
+          },
+          "question": {
+            "id": "quest-90f1cd3d8372a95d",
+            "text": "从一张地图出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-06-02-victory-1949-time-1",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "cn-modern-06-02-victory-1949-time-2",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "cn-modern-06-02-victory-1949-time-3",
+            "label": "中国近代史 · 人民解放战争 · 1945—1949年",
+            "correct": true,
+            "audio": {
+              "id": "quest-ab1a850a0e7f7fba",
+              "text": "中国近代史 · 人民解放战争 · 1945—1949年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "四条路线放进地图",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先把东北、华北、淮海和长江沿线排进地图。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "四条路线放进地图",
+          "screenText": "先把东北、华北、淮海和长江沿线排进地图。",
+          "narration": "先把东北、华北、淮海和长江沿线排进地图。",
+          "displayText": "先把东北、华北、淮海和长江沿线排进地图。"
+        },
+        "assetId": "liberation-three-campaigns-yangtze-child-map",
+        "image": "/content/step-images/liberation-three-campaigns-yangtze-child-map.jpg",
+        "imageAlt": "三大战役与渡江儿童中文空间示意图",
+        "imageCaption": "把辽沈、平津、淮海三大战役和渡江放入东北、华北、徐州附近与长江的儿童空间示意图。",
+        "imageBoundary": "项目自制的明亮儿童空间示意，只用于辨认几个大区域的相对位置与由北向南的故事顺序；不是1948—1949年现场地图、行政地图或军用地图，轮廓、比例、节点和虚线均不精确，也不代表具体部队路线。地点关系以党史研究机构和国防部资料核验。1536×1024像素。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-28f40bd88152cdb5",
+            "text": "先把东北、华北、淮海和长江沿线排进地图。"
+          },
+          "image": {
+            "id": "quest-8df87e1113eb2ad7",
+            "text": "点开大图啦。这是三大战役与渡江儿童中文空间示意图。这张图能帮我们找到：先把东北、华北、淮海和长江沿线排进地图。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-06-02-victory-1949-beginning-1",
+            "label": "解放军、支前群众、各地居民与政治，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-e9ddda20539d88dc",
+              "text": "解放军、支前群众、各地居民与政治，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-modern-06-02-victory-1949-beginning-2",
+            "label": "战役地图、支前工具与历史照片，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-7375db9bd2878d11",
+              "text": "战役地图、支前工具与历史照片，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-modern-06-02-victory-1949-beginning-3",
+            "label": "东北、华北、淮海地区与长江沿，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-ba2006fc8241abd5",
+              "text": "东北、华北、淮海地区与长江沿，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "支前工具动起来",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看支前群众怎样运送粮食和物资。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "支前工具动起来",
+          "screenText": "接着看支前群众怎样运送粮食和物资。",
+          "narration": "接着看支前群众怎样运送粮食和物资。",
+          "displayText": "接着看支前群众怎样运送粮食和物资。"
+        },
+        "assetId": "liberation-front-support-supplies-child-art",
+        "image": "/content/step-images/liberation-front-support-supplies-child-art.jpg",
+        "imageAlt": "支前群众运粮与物资儿童艺术表现",
+        "imageCaption": "普通成年群众用手推车、肩挑和船只运送粮食、药品、棉衣等物资的艺术表现。",
+        "imageBoundary": "项目自制的低龄历史学习插画，画中人物、村庄、河道与运输组合均为概念化艺术表现，不是某次战役的现场照片，也不对应可辨认个人或一条精确支前路线。只说明档案记载的民工动员、粮食与物资运输、船只和船工支援等类型；不用于计算人数、数量或战果。画面人物均明确为成年人，不鼓励儿童模仿劳动。1536×1024像素。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-bc71b67c247fbd9d",
+            "text": "接着看支前群众怎样运送粮食和物资。"
+          },
+          "image": {
+            "id": "quest-951f1a42ce9055fb",
+            "text": "点开大图啦。这是支前群众运粮与物资儿童艺术表现。这张图能帮我们找到：接着看支前群众怎样运送粮食和物资。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-06-02-victory-1949-journey-1",
+            "label": "接着看支前群众怎样运送粮食和物资。",
+            "correct": true,
+            "audio": {
+              "id": "quest-bc71b67c247fbd9d",
+              "text": "接着看支前群众怎样运送粮食和物资。"
+            }
+          },
+          {
+            "id": "cn-modern-06-02-victory-1949-journey-2",
+            "label": "解放军、支前群众、各地居，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-8ccd5c684c22b72e",
+              "text": "解放军、支前群众、各地居，只认出人物"
+            }
+          },
+          {
+            "id": "cn-modern-06-02-victory-1949-journey-3",
+            "label": "东北、华北、淮海地区，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-bf05a10f34197410",
+              "text": "东北、华北、淮海地区，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "路线走向一九四九",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后多条路线汇合，走到新中国成立前夕。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "路线走向一九四九",
+          "screenText": "最后多条路线汇合，走到新中国成立前夕。",
+          "narration": "最后多条路线汇合，走到新中国成立前夕。",
+          "displayText": "最后多条路线汇合，走到新中国成立前夕。"
+        },
+        "assetId": "pla-enters-peiping-1949-photo",
+        "image": "/content/step-images/pla-enters-peiping-1949-photo.jpg",
+        "imageAlt": "1949年人民解放军进入北平历史照片",
+        "imageCaption": "1949年1月31日以后，人民解放军进入北平时的街道欢迎场景。",
+        "imageBoundary": "照片显示一条街道、行进队伍和欢迎人群，只是北平和平解放后的一个场景；不能辨认全部人员、准确路线或用人群规模代表全城。原图780×613像素。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-fe36af85596cf5e7",
+            "text": "最后多条路线汇合，走到新中国成立前夕。"
+          },
+          "image": {
+            "id": "quest-8680f6c524d5709e",
+            "text": "点开大图啦。这是1949年人民解放军进入北平历史照片。这张图能帮我们找到：最后多条路线汇合，走到新中国成立前夕。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-06-02-victory-1949-change-1",
+            "label": "战役地图、支前工具与，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-3a35f47bf29b9113",
+              "text": "战役地图、支前工具与，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-modern-06-02-victory-1949-change-2",
+            "label": "看支前群众怎样运送粮食和，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-97d08af763859fcc",
+              "text": "看支前群众怎样运送粮食和，还只是行动经过"
+            }
+          },
+          {
+            "id": "cn-modern-06-02-victory-1949-change-3",
+            "label": "最后多条路线汇合，走到新中国成立前夕。",
+            "correct": true,
+            "audio": {
+              "id": "quest-fe36af85596cf5e7",
+              "text": "最后多条路线汇合，走到新中国成立前夕。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "胜负不只看一张战场图；政策、组织、支援者和民众选择共同改变结果。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "胜负不只看一张战场图；政策、组织、支援者和民众选择共同改变结果。",
+          "narration": "胜负不只看一张战场图；政策、组织、支援者和民众选择共同改变结果。",
+          "displayText": "胜负不只看一张战场图；政策、组织、支援者和民众选择共同改变结果。"
+        },
+        "assetId": "pla-enters-peiping-1949-photo",
+        "image": "/content/step-images/pla-enters-peiping-1949-photo.jpg",
+        "imageAlt": "1949年人民解放军进入北平历史照片",
+        "imageCaption": "1949年1月31日以后，人民解放军进入北平时的街道欢迎场景。",
+        "imageBoundary": "照片显示一条街道、行进队伍和欢迎人群，只是北平和平解放后的一个场景；不能辨认全部人员、准确路线或用人群规模代表全城。原图780×613像素。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-e8cad2dabc2cb77e",
+            "text": "胜负不只看一张战场图；政策、组织、支援者和民众选择共同改变结果。"
+          },
+          "image": {
+            "id": "quest-ec30e61c016289fc",
+            "text": "点开大图啦。这是1949年人民解放军进入北平历史照片。这张图能帮我们找到：胜负不只看一张战场图；政策、组织、支援者和民众选择共同改变结果。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-06-02-victory-1949-takeaway-1",
+            "label": "把东北、华北、淮海和长江沿线排进地图。、战役地图，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-13fc6050cf8a403c",
+              "text": "把东北、华北、淮海和长江沿线排进地图。、战役地图，只说了原因"
+            }
+          },
+          {
+            "id": "cn-modern-06-02-victory-1949-takeaway-2",
+            "label": "胜负不只看一张战场图；政策、组织、支援者和民众选择共同改变结果。",
+            "correct": true,
+            "audio": {
+              "id": "quest-e8cad2dabc2cb77e",
+              "text": "胜负不只看一张战场图；政策、组织、支援者和民众选择共同改变结果。"
+            }
+          },
+          {
+            "id": "cn-modern-06-02-victory-1949-takeaway-3",
+            "label": "多条路线汇合，走到新中国成立前夕。、一张地图怎样走到1，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-7ff3f816c6138c1a",
+              "text": "多条路线汇合，走到新中国成立前夕。、一张地图怎样走到1，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "三大战役接力图",
+        "items": [
+          "把辽沈放到东北、淮海放到以徐州为中心的地区、平津放到华北，再按开始时间连接；地图标注“后人绘制”，不设置歼敌、伤亡或武器得分。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "前线背后的网络",
+        "items": [
+          "把粮食生产、车辆运输、担架救护、船工渡江、通信和道路维修连到前线，理解群众支前是一个系统，不把民工当成可以消耗的游戏资源。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "一件证据能说到哪里",
+        "items": [
+          "给“三大战役地图—主要方向”“北平入城照片—一个入城场景”“渡江木船—一件支前实物”“总统府照片与日历—南京政权更替见证”配对，再选择它们不能单独证明的内容。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 10,
   "conclusion": [
     "1948年秋到1949年初，辽沈、淮海、平津三大战役构成战略决战，国民党军队主要军事力量受到决定性打击。三场战役方向、条件和解决方式不同，其中北平通过和平方式解放。人民解放军的战略指挥和广大军民的支援共同改变战局。1949年4月，和平谈判破裂后人民解放军渡过长江，4月23日解放南京，国民党政权在大陆的统治走向覆灭；但这一天并不等于全国所有战事已经结束。"
@@ -420,50 +1006,91 @@
       "title": "2017年绘制的三大战役方向参考图",
       "localPath": "reference-assets/china-modern-liberation-war/three-campaigns-map-2017.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Three_Campaigns_of_Chinese_Civil_War.png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "后人绘制的辽沈、淮海、平津三大战役主要位置与方向参考图。",
-      "boundary": "编辑参考地图，不是1948—1949年军用地图，也不呈现全部部队、战斗与日期。正式儿童地图须另行重绘中文标注，并依据中国官方史料复核每条箭头。保存796×1113像素PNG原图，未作修改。"
+      "boundary": "编辑参考地图，不是1948—1949年军用地图，也不呈现全部部队、战斗与日期。正式儿童地图须另行重绘中文标注，并依据中国官方史料复核每条箭头。保存796×1113像素PNG原图，未作修改。",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "liberation-three-campaigns-yangtze-child-map",
+      "title": "三大战役与渡江儿童中文空间示意图",
+      "localPath": "reference-assets/china-modern-liberation-war/three-campaigns-yangtze-child-map-self-made.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "把辽沈、平津、淮海三大战役和渡江放入东北、华北、徐州附近与长江的儿童空间示意图。",
+      "boundary": "项目自制的明亮儿童空间示意，只用于辨认几个大区域的相对位置与由北向南的故事顺序；不是1948—1949年现场地图、行政地图或军用地图，轮廓、比例、节点和虚线均不精确，也不代表具体部队路线。地点关系以党史研究机构和国防部资料核验。1536×1024像素。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "liberation-front-support-supplies-child-art",
+      "title": "支前群众运粮与物资儿童艺术表现",
+      "localPath": "reference-assets/china-modern-liberation-war/front-support-supplies-child-art-self-made.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "普通成年群众用手推车、肩挑和船只运送粮食、药品、棉衣等物资的艺术表现。",
+      "boundary": "项目自制的低龄历史学习插画，画中人物、村庄、河道与运输组合均为概念化艺术表现，不是某次战役的现场照片，也不对应可辨认个人或一条精确支前路线。只说明档案记载的民工动员、粮食与物资运输、船只和船工支援等类型；不用于计算人数、数量或战果。画面人物均明确为成年人，不鼓励儿童模仿劳动。1536×1024像素。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "huaihai-campaign-historical-photo",
       "title": "淮海战役历史照片",
       "localPath": "reference-assets/china-modern-liberation-war/huaihai-campaign-1948.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:PLAHuaihai.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — historical photograph taken in China",
       "clearance": "cleared-open-license",
       "caption": "淮海战役中的人民解放军阵地历史照片。",
-      "boundary": "画面有军人、战壕和坦克但没有可见遗体或伤口。来源页未登记具体摄影者、地点和日期，不能据图辨认人员、部队番号、武器型号或战役阶段，不用于作战得分。保存1280×940像素原图。"
+      "boundary": "画面有军人、战壕和坦克但没有可见遗体或伤口。来源页未登记具体摄影者、地点和日期，不能据图辨认人员、部队番号、武器型号或战役阶段，不用于作战得分。保存1280×940像素原图。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "pla-enters-peiping-1949-photo",
       "title": "1949年人民解放军进入北平历史照片",
       "localPath": "reference-assets/china-modern-liberation-war/pla-enters-peiping-1949.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:PLA_Enters_Peking.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — photograph taken in China in 1949",
       "clearance": "cleared-open-license",
       "caption": "1949年1月31日以后，人民解放军进入北平时的街道欢迎场景。",
-      "boundary": "照片显示一条街道、行进队伍和欢迎人群，只是北平和平解放后的一个场景；不能辨认全部人员、准确路线或用人群规模代表全城。原图780×613像素。"
+      "boundary": "照片显示一条街道、行进队伍和欢迎人群，只是北平和平解放后的一个场景；不能辨认全部人员、准确路线或用人群规模代表全城。原图780×613像素。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "yangtze-pioneer-boat-nmc-2023-photo",
       "title": "2023年中国国家博物馆渡江先锋船展陈照片",
       "localPath": "reference-assets/china-modern-liberation-war/yangtze-crossing-wooden-boat-nmc-2023.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Wooden_ship_at_NMC.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2023年拍摄的中国国家博物馆渡江先锋船展陈。",
-      "boundary": "这是历史实物的当代展陈照片，不是1949年江面现场；展厅背景、灯光、护栏和说明牌属于现代展示。一条船只是一件具体见证，不能代表全部船只、船工与渡江路线。保存2400×1600像素原图。"
+      "boundary": "这是历史实物的当代展陈照片，不是1949年江面现场；展厅背景、灯光、护栏和说明牌属于现代展示。一条船只是一件具体见证，不能代表全部船只、船工与渡江路线。保存2400×1600像素原图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "nanjing-presidential-palace-1949-photo",
       "title": "1949年人民解放军占领南京国民党政府‘总统府’历史照片",
       "localPath": "reference-assets/china-modern-liberation-war/nanjing-presidential-palace-1949.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:People%27s_Liberation_Army_occupied_the_presidential_palace_1949.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — photograph taken in China in 1949",
       "clearance": "cleared-open-license",
       "caption": "1949年4月24日，人民解放军占领南京国民党政府‘总统府’的历史照片。",
-      "boundary": "照片记录建筑屋顶的一个场景，不能单独证明渡江战役全部经过、南京所有地区的接管过程或全国战事已经结束。保存980×726像素原图，未使用着色版本。"
+      "boundary": "照片记录建筑屋顶的一个场景，不能单独证明渡江战役全部经过、南京所有地区的接管过程或全国战事已经结束。保存980×726像素原图，未使用着色版本。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-modern-06-02-victory-1949.jpg",

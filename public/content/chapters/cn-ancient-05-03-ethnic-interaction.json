@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-05-03-ethnic-interaction",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
@@ -9,11 +9,721 @@
     "label": "三国两晋南北朝",
     "years": "220—589年"
   },
-  "order": 16,
+  "order": 17,
   "title": "交往交流怎样改变不同族群",
   "coreQuestion": "迁徙、改革和共同生活怎样推动民族交融？",
   "throughline": "从北魏孝文帝改革、服饰器物和墓葬图像认识各族交往交流交融，并避免把融合写成单向同化。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-ancient-05-03-ethnic-interaction",
+    "childTitle": "跟着孝文帝去洛阳",
+    "prompt": "搬到洛阳以后，人们怎样听懂彼此、学到新办法？",
+    "takeaway": "北魏孝文帝迁都并推行改革；不同人群的交往与学习持续发生，并非所有人一夜改变。",
+    "object": "服饰俑、墓志和城市遗址",
+    "people": [
+      "北魏孝文帝",
+      "洛阳居民"
+    ],
+    "place": "山西平城与河南洛阳",
+    "culture": "云冈与龙门石窟艺术",
+    "care": "人物为关系示意，不依服装猜民族身份。迁都与改革不能当作所有居民生活的统一照片。",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-05-03-ethnic-interaction",
+    "featured": {
+      "type": "诗歌",
+      "icon": "🐎",
+      "title": "北魏孝文帝与洛阳居民",
+      "childBridge": "搬到洛阳以后，人们怎样听懂彼此、学到新办法？",
+      "evidenceBoundary": "人物为关系示意，不依服装猜民族身份。"
+    },
+    "companions": [
+      {
+        "type": "人物",
+        "label": "北魏孝文帝",
+        "note": "迁都与制度变化只是交流的一部分。"
+      },
+      {
+        "type": "地点",
+        "label": "云冈、龙门与洛阳",
+        "note": "石窟和都城能看见不同工匠与艺术传统相遇。"
+      }
+    ],
+    "sourceIds": [
+      "PEP-CHINESE-CLASSICS-RESOURCE",
+      "PEP-HISTORY-REVISION-2024",
+      "NEAC-XIAOWEN-MUTUAL-INFLUENCE",
+      "UNESCO-YUNGANG",
+      "NMC-YUANYU-EPITAPH"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "迁都的时间",
+      "text": "北魏孝文帝在493年决定迁都，494年迁都洛阳。我们把决定和行动排一排。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "新城里遇见谁",
+      "text": "洛阳原来就有人生活。迁来的人与当地人打交道，不是搬进一座空城。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "想办法听懂彼此",
+      "text": "孝文帝的改革涉及朝廷用语和衣冠等方面。日常交往中，人们也在学习彼此的表达。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "办法会往两边走",
+      "text": "长期接触中，不同人群的生活和文化互相影响。不是只有一方有好办法。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "不是一夜全改变",
+      "text": "改革有具体对象和过程。朝廷规定不能代表每个地方、每个人立即一样。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "改革",
+      "icon": "🛠️",
+      "plain": "发现旧办法有问题，改变规则或做法。",
+      "example": "改革可能带来新机会，也可能遇到阻力和新问题。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "民族",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
+      "example": "民族不是按外貌排高低，也不会永远固定不变。",
+      "priority": 2
+    },
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "迁徙",
+      "icon": "👣",
+      "plain": "人们离开原住地，搬到别的地方生活。",
+      "example": "迁徙可能因为气候、生计、战争或主动选择。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "政权",
+      "icon": "🏛️",
+      "plain": "谁在用什么机构和规则管理一个地方。",
+      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
+      "priority": 2
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "北魏孝文帝",
+      "reading": "Běi Wèi Xiàowéndì",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-05-03-ethnic-interaction"
+      ],
+      "note": "“魏”读wèi。"
+    },
+    {
+      "text": "云冈",
+      "reading": "Yúngāng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-05-03-ethnic-interaction",
+        "cn-ancient-05-04-science-art"
+      ],
+      "note": "“冈”读gāng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "跟着孝文帝去洛阳",
+      "question": "搬到洛阳以后，人们怎样听懂彼此、学到新办法？"
+    },
+    "cta": "去新城打招呼",
+    "anchor": "北魏孝文帝与洛阳居民",
+    "boundary": "人物为关系示意，不依服装猜民族身份。迁都与改革不能当作所有居民生活的统一照片。",
+    "evidence": [],
+    "coverAsset": {
+      "id": "northern-dynasties-xianbei-warrior",
+      "title": "北朝鲜卑服陶武士俑展览照片",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/xianbei-warrior.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:CMOC_Treasures_of_Ancient_China_exhibit_-_figure_of_a_Xianbei_warrior.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 2.5",
+      "clearance": "cleared-open-license",
+      "caption": "1948年河北景县封氏墓群出土的北朝鲜卑服陶武士俑。",
+      "boundary": "器物信息与国家博物馆同一器物记录交叉核验。陶俑表现帽、裤、短衣和披风等服装形象；墓俑不是武士肖像，不能凭外貌或服装单独判定某个真实人物的族群身份。下载为1920像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/northern-dynasties-xianbei-warrior.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/northern-dynasties-xianbei-warrior.jpg",
+    "coverImageAlt": "北朝鲜卑服陶武士俑展览照片",
+    "coverImageKind": "历史材料",
+    "coverAudio": {
+      "id": "quest-7ef98f106c0973e3",
+      "text": "跟着孝文帝去洛阳。搬到洛阳以后，人们怎样听懂彼此、学到新办法？准备好就点“去新城打招呼”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-82361f72e0530e98",
+      "text": "北魏孝文帝迁都并推行改革；不同人群的交往与学习持续发生，并非所有人一夜改变。"
+    },
+    "finish": {
+      "title": "教家人一个打招呼动作",
+      "actions": [
+        "你做一个动作，请家人猜。",
+        "换家人做一个新动作，你来学一学。"
+      ],
+      "parent": "问“刚才是谁学谁？”让孩子体验双方学习，再联系迁都后的交往，不模仿或评比民族口音。",
+      "sceneStepIndexes": [
+        2,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-69621fefa7c6e191",
+          "text": "你做一个动作，请家人猜。"
+        },
+        {
+          "id": "quest-112ec50e0ced2236",
+          "text": "换家人做一个新动作，你来学一学。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-af128306d0478933",
+        "text": "教家人一个打招呼动作。你做一个动作，请家人猜。换家人做一个新动作，你来学一学。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "迁都的时间",
+        "title": "迁都的时间",
+        "prompt": "哪件事先发生？",
+        "rightNote": "决定在前，迁都在后，两个年份不是同一件事。",
+        "wrongNote": "决定在前，迁都在后，两个年份不是同一件事。",
+        "sourceIds": [
+          "NEAC-XIAOWEN-MUTUAL-INFLUENCE",
+          "NMC-YUANYU-EPITAPH"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "迁都的时间",
+          "screenText": "北魏孝文帝在493年决定迁都，494年迁都洛阳。我们把决定和行动排一排。",
+          "displayText": "北魏孝文帝在493年决定迁都，494年迁都洛阳。我们把决定和行动排一排。",
+          "narration": "北魏孝文帝在493年决定迁都，494年迁都洛阳。我们把决定和行动排一排。"
+        },
+        "assetId": "study-8b7639790104d093",
+        "image": "/content/study-scenes/study-8b7639790104d093.svg",
+        "studyImage": "/content/study-scenes/study-8b7639790104d093.svg",
+        "studyImageAlt": "493年 决定，494年 迁都",
+        "imageAlt": "493年 决定，494年 迁都",
+        "imageCaption": "学习示意 · 493年 决定，494年 迁都",
+        "imageBoundary": "自制学习示意。人物为关系示意，不依服装猜民族身份。迁都与改革不能当作所有居民生活的统一照片。",
+        "audio": {
+          "transition": {
+            "id": "quest-c0a97c99481e869d",
+            "text": "迁都的时间。"
+          },
+          "intro": {
+            "id": "quest-1cf08817933fa4cf",
+            "text": "北魏孝文帝在493年决定迁都，494年迁都洛阳。我们把决定和行动排一排。"
+          },
+          "question": {
+            "id": "quest-1e9671945cd5ccc4",
+            "text": "哪件事先发生？"
+          },
+          "image": {
+            "id": "quest-9e37fd2d337cea75",
+            "text": "这是学习示意图：493年 决定，494年 迁都。哪件事先发生？"
+          },
+          "right": {
+            "id": "quest-61e1a7ffd17a7354",
+            "text": "找到了。决定在前，迁都在后，两个年份不是同一件事。"
+          },
+          "wrong": {
+            "id": "quest-9f3e608f132e96a0",
+            "text": "再比较一下。决定在前，迁都在后，两个年份不是同一件事。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-03-ethnic-interaction-time-1",
+            "label": "493年决定 → 494年迁都",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-da1ef510915c707a.svg",
+            "imageAlt": "493 决定，494 迁都",
+            "audio": {
+              "id": "quest-88dbd309dce7ea37",
+              "text": "493年决定 → 494年迁都"
+            }
+          },
+          {
+            "id": "cn-ancient-05-03-ethnic-interaction-time-2",
+            "label": "494年迁都 → 493年决定",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-a2c9cc14df6d1f1e.svg",
+            "imageAlt": "494 迁都，493 决定",
+            "audio": {
+              "id": "quest-56ce68a913b3848d",
+              "text": "494年迁都 → 493年决定"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "新城里遇见谁",
+        "title": "新城里遇见谁",
+        "prompt": "到了洛阳，谁会相遇？",
+        "rightNote": "新来的人会遇见原有居民，交往由此发生。",
+        "wrongNote": "新来的人会遇见原有居民，交往由此发生。",
+        "sourceIds": [
+          "NEAC-XIAOWEN-MUTUAL-INFLUENCE",
+          "NMC-YUANYU-EPITAPH"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "新城里遇见谁",
+          "screenText": "洛阳原来就有人生活。迁来的人与当地人打交道，不是搬进一座空城。",
+          "displayText": "洛阳原来就有人生活。迁来的人与当地人打交道，不是搬进一座空城。",
+          "narration": "洛阳原来就有人生活。迁来的人与当地人打交道，不是搬进一座空城。"
+        },
+        "assetId": "study-2a9bac93916966e5",
+        "image": "/content/study-scenes/study-2a9bac93916966e5.svg",
+        "studyImage": "/content/study-scenes/study-2a9bac93916966e5.svg",
+        "studyImageAlt": "迁来，洛阳居民",
+        "imageAlt": "迁来，洛阳居民",
+        "imageCaption": "学习示意 · 迁来，洛阳居民",
+        "imageBoundary": "自制学习示意。人物为关系示意，不依服装猜民族身份。迁都与改革不能当作所有居民生活的统一照片。",
+        "audio": {
+          "transition": {
+            "id": "quest-c55890770942c6bf",
+            "text": "新城里遇见谁。"
+          },
+          "intro": {
+            "id": "quest-0f66cb3c9dc00eff",
+            "text": "洛阳原来就有人生活。迁来的人与当地人打交道，不是搬进一座空城。"
+          },
+          "question": {
+            "id": "quest-327b391181f129b9",
+            "text": "到了洛阳，谁会相遇？"
+          },
+          "image": {
+            "id": "quest-bfd62a750c39ab9a",
+            "text": "这是学习示意图：迁来，洛阳居民。到了洛阳，谁会相遇？"
+          },
+          "right": {
+            "id": "quest-07e2d9f47b21b67f",
+            "text": "找到了。新来的人会遇见原有居民，交往由此发生。"
+          },
+          "wrong": {
+            "id": "quest-7034df020f6314bb",
+            "text": "再比较一下。新来的人会遇见原有居民，交往由此发生。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-03-ethnic-interaction-beginning-1",
+            "label": "迁来的人和当地人",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-baf8efa595a0d58b.svg",
+            "imageAlt": "迁来者＋当地人",
+            "audio": {
+              "id": "quest-7c931466d617fa27",
+              "text": "迁来的人和当地人"
+            }
+          },
+          {
+            "id": "cn-ancient-05-03-ethnic-interaction-beginning-2",
+            "label": "只有迁来的一群人",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-2dcc96ee3d01a165.svg",
+            "imageAlt": "只有迁来者",
+            "audio": {
+              "id": "quest-b8b0bf15ba83d4cd",
+              "text": "只有迁来的一群人"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "想办法听懂彼此",
+        "title": "想办法听懂彼此",
+        "prompt": "要把事情商量明白，哪种做法有帮助？",
+        "rightNote": "衣冠变化是一方面，交流还需要听懂和解释。",
+        "wrongNote": "衣冠变化是一方面，交流还需要听懂和解释。",
+        "sourceIds": [
+          "NEAC-XIAOWEN-MUTUAL-INFLUENCE",
+          "NMC-YUANYU-EPITAPH"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "想办法听懂彼此",
+          "screenText": "孝文帝的改革涉及朝廷用语和衣冠等方面。日常交往中，人们也在学习彼此的表达。",
+          "displayText": "孝文帝的改革涉及朝廷用语和衣冠等方面。日常交往中，人们也在学习彼此的表达。",
+          "narration": "孝文帝的改革涉及朝廷用语和衣冠等方面。日常交往中，人们也在学习彼此的表达。"
+        },
+        "assetId": "study-71b421932ce4210d",
+        "image": "/content/study-scenes/study-71b421932ce4210d.svg",
+        "studyImage": "/content/study-scenes/study-71b421932ce4210d.svg",
+        "studyImageAlt": "不同表达，倾听，商量",
+        "imageAlt": "不同表达，倾听，商量",
+        "imageCaption": "学习示意 · 不同表达，倾听，商量",
+        "imageBoundary": "自制学习示意。人物为关系示意，不依服装猜民族身份。迁都与改革不能当作所有居民生活的统一照片。",
+        "audio": {
+          "transition": {
+            "id": "quest-2d47613edd686fb0",
+            "text": "想办法听懂彼此。"
+          },
+          "intro": {
+            "id": "quest-f0ca2f189d730cfb",
+            "text": "孝文帝的改革涉及朝廷用语和衣冠等方面。日常交往中，人们也在学习彼此的表达。"
+          },
+          "question": {
+            "id": "quest-295a7e13ea2d890e",
+            "text": "要把事情商量明白，哪种做法有帮助？"
+          },
+          "image": {
+            "id": "quest-deded28be55abfc5",
+            "text": "这是学习示意图：不同表达，倾听，商量。要把事情商量明白，哪种做法有帮助？"
+          },
+          "right": {
+            "id": "quest-74fba347d1ebad1f",
+            "text": "找到了。衣冠变化是一方面，交流还需要听懂和解释。"
+          },
+          "wrong": {
+            "id": "quest-8e8762fefb7c4f8c",
+            "text": "再比较一下。衣冠变化是一方面，交流还需要听懂和解释。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-03-ethnic-interaction-journey-1",
+            "label": "听不懂就再学、再解释",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-1c9f292d758e4c92.svg",
+            "imageAlt": "学习和解释",
+            "audio": {
+              "id": "quest-53362fe8ad66a090",
+              "text": "听不懂就再学、再解释"
+            }
+          },
+          {
+            "id": "cn-ancient-05-03-ethnic-interaction-journey-2",
+            "label": "只换衣服，不用交流",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-94f8e593d30f0bd2.svg",
+            "imageAlt": "只换衣服",
+            "audio": {
+              "id": "quest-018ffea62f731a96",
+              "text": "只换衣服，不用交流"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "办法会往两边走",
+        "title": "办法会往两边走",
+        "prompt": "哪张图表示互相影响？",
+        "rightNote": "双方都可能学习、采用新的办法。",
+        "wrongNote": "双方都可能学习、采用新的办法。",
+        "sourceIds": [
+          "NEAC-XIAOWEN-MUTUAL-INFLUENCE",
+          "NMC-YUANYU-EPITAPH"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "办法会往两边走",
+          "screenText": "长期接触中，不同人群的生活和文化互相影响。不是只有一方有好办法。",
+          "displayText": "长期接触中，不同人群的生活和文化互相影响。不是只有一方有好办法。",
+          "narration": "长期接触中，不同人群的生活和文化互相影响。不是只有一方有好办法。"
+        },
+        "assetId": "study-0257b5a183c59c47",
+        "image": "/content/study-scenes/study-0257b5a183c59c47.svg",
+        "studyImage": "/content/study-scenes/study-0257b5a183c59c47.svg",
+        "studyImageAlt": "交流和学习",
+        "imageAlt": "交流和学习",
+        "imageCaption": "学习示意 · 交流和学习",
+        "imageBoundary": "自制学习示意。人物为关系示意，不依服装猜民族身份。迁都与改革不能当作所有居民生活的统一照片。",
+        "audio": {
+          "transition": {
+            "id": "quest-1130b764972f66ea",
+            "text": "办法会往两边走。"
+          },
+          "intro": {
+            "id": "quest-1f7868abafecd918",
+            "text": "长期接触中，不同人群的生活和文化互相影响。不是只有一方有好办法。"
+          },
+          "question": {
+            "id": "quest-a5be94e8b2aec54d",
+            "text": "哪张图表示互相影响？"
+          },
+          "image": {
+            "id": "quest-309412bb6c6de89c",
+            "text": "这是学习示意图：交流和学习。哪张图表示互相影响？"
+          },
+          "right": {
+            "id": "quest-9eeb01a3d7c10c13",
+            "text": "找到了。双方都可能学习、采用新的办法。"
+          },
+          "wrong": {
+            "id": "quest-095ec2bd40d525d0",
+            "text": "再比较一下。双方都可能学习、采用新的办法。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-03-ethnic-interaction-change-1",
+            "label": "两边都有来回箭头",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-35ef6102c2b76ac6.svg",
+            "imageAlt": "双向影响",
+            "audio": {
+              "id": "quest-cc395f3f652dab5a",
+              "text": "两边都有来回箭头"
+            }
+          },
+          {
+            "id": "cn-ancient-05-03-ethnic-interaction-change-2",
+            "label": "只有一边向外箭头",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-f094e53ce14b85c9.svg",
+            "imageAlt": "单向传递",
+            "audio": {
+              "id": "quest-2a951e79175f7e41",
+              "text": "只有一边向外箭头"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "不是一夜全改变",
+        "title": "不是一夜全改变",
+        "prompt": "怎样画这段变化更合适？",
+        "rightNote": "要分清改革规定、实施过程和不同人的生活。",
+        "wrongNote": "要分清改革规定、实施过程和不同人的生活。",
+        "sourceIds": [
+          "NEAC-XIAOWEN-MUTUAL-INFLUENCE",
+          "NMC-YUANYU-EPITAPH"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "不是一夜全改变",
+          "screenText": "改革有具体对象和过程。朝廷规定不能代表每个地方、每个人立即一样。",
+          "displayText": "改革有具体对象和过程。朝廷规定不能代表每个地方、每个人立即一样。",
+          "narration": "改革有具体对象和过程。朝廷规定不能代表每个地方、每个人立即一样。"
+        },
+        "assetId": "study-4353ed94657651e8",
+        "image": "/content/study-scenes/study-4353ed94657651e8.svg",
+        "studyImage": "/content/study-scenes/study-4353ed94657651e8.svg",
+        "studyImageAlt": "规定，逐步实践",
+        "imageAlt": "规定，逐步实践",
+        "imageCaption": "学习示意 · 规定，逐步实践",
+        "imageBoundary": "自制学习示意。人物为关系示意，不依服装猜民族身份。迁都与改革不能当作所有居民生活的统一照片。",
+        "audio": {
+          "transition": {
+            "id": "quest-e9fd874858d27545",
+            "text": "不是一夜全改变。"
+          },
+          "intro": {
+            "id": "quest-9246a3cc564a5bb3",
+            "text": "改革有具体对象和过程。朝廷规定不能代表每个地方、每个人立即一样。"
+          },
+          "question": {
+            "id": "quest-61e7d3921d9d59de",
+            "text": "怎样画这段变化更合适？"
+          },
+          "image": {
+            "id": "quest-852170196f798ef6",
+            "text": "这是学习示意图：规定，逐步实践。怎样画这段变化更合适？"
+          },
+          "right": {
+            "id": "quest-4705c1ba44b9dd0b",
+            "text": "找到了。要分清改革规定、实施过程和不同人的生活。"
+          },
+          "wrong": {
+            "id": "quest-311dc6d26494fa6e",
+            "text": "再比较一下。要分清改革规定、实施过程和不同人的生活。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-03-ethnic-interaction-takeaway-1",
+            "label": "一些人逐步改变",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-c7ef2260626126fd.svg",
+            "imageAlt": "不同人逐步改变",
+            "audio": {
+              "id": "quest-dec7137b3f3ee09e",
+              "text": "一些人逐步改变"
+            }
+          },
+          {
+            "id": "cn-ancient-05-03-ethnic-interaction-takeaway-2",
+            "label": "所有人同一天变一样",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-b80eb3459353affd.svg",
+            "imageAlt": "所有人同时一样",
+            "audio": {
+              "id": "quest-eeb837874070ae3a",
+              "text": "所有人同一天变一样"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "双向交换板",
+        "items": [
+          "把“中原官制、文字礼仪”和“裤装、高足坐具、音乐舞蹈”分别拖到双向箭头，不允许只保留一个方向。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "改革影响链",
+        "items": [
+          "连接“迁都—朝廷规定—不同人响应—长期变化”，找出“所有人当天同时改变”的错误卡。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "证据还是标签",
+        "items": [
+          "观察陶俑并区分“能看见的服装”“馆方解释”“无法只凭外表确定的个人身份”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "三国两晋南北朝时期，不同族群在迁徙、战争、贸易、婚姻、治理和日常生活中长期接触。北魏孝文帝迁都洛阳并推行语言、服饰、姓氏和礼制等改革，是这一过程中的重要事件，却不是民族交融的起点或唯一原因。影响也不是单向的：北方各族吸收中原制度与文化，中原居民也采用便于骑乘劳动的服装、高足坐具和来自不同地区的音乐舞蹈。交融是多人、多地、长时间的互动，不等于所有差异立刻消失。"
@@ -311,28 +1021,239 @@
       "authorityLevel": "A",
       "factUse": "云冈石窟的年代、北魏国家支持、南亚中亚佛教艺术与中国传统融合以及保护修缮边界",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-CHINESE-CLASSICS-RESOURCE",
+      "title": "中华经典资源库·中华经典诗文精讲",
+      "institution": "人民教育出版社（教育部语用司重大项目成果）",
+      "url": "https://www.pep.com.cn/products/zhytu/gjshnj/zhyxdb/202004/t20200419_1950891.shtml",
+      "type": "official-classics-education-resource",
+      "authorityLevel": "A-national-textbook-publisher-classics",
+      "factUse": "核对从《论语》《兰亭集序》《木兰诗》到唐宋诗词的经典篇目及其教材关联；用于选择适合儿童的诗文入口，不替代历史事实来源",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "study-8b7639790104d093",
+      "title": "学习示意：493年 决定、494年 迁都",
+      "localPath": "reference-assets/focused-quests/study-8b7639790104d093.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "493年 决定 → 494年 迁都",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-da1ef510915c707a",
+      "title": "学习示意：493 决定、494 迁都",
+      "localPath": "reference-assets/focused-quests/study-da1ef510915c707a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "493 决定 → 494 迁都",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a2c9cc14df6d1f1e",
+      "title": "学习示意：494 迁都、493 决定",
+      "localPath": "reference-assets/focused-quests/study-a2c9cc14df6d1f1e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "494 迁都 → 493 决定",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-2a9bac93916966e5",
+      "title": "学习示意：迁来、洛阳居民",
+      "localPath": "reference-assets/focused-quests/study-2a9bac93916966e5.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "迁来 → 洛阳居民",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-baf8efa595a0d58b",
+      "title": "学习示意：迁来者＋当地人",
+      "localPath": "reference-assets/focused-quests/study-baf8efa595a0d58b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "迁来者＋当地人",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-2dcc96ee3d01a165",
+      "title": "学习示意：只有迁来者",
+      "localPath": "reference-assets/focused-quests/study-2dcc96ee3d01a165.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只有迁来者",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-71b421932ce4210d",
+      "title": "学习示意：不同表达、倾听、商量",
+      "localPath": "reference-assets/focused-quests/study-71b421932ce4210d.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "不同表达 → 倾听 → 商量",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1c9f292d758e4c92",
+      "title": "学习示意：学习和解释",
+      "localPath": "reference-assets/focused-quests/study-1c9f292d758e4c92.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "学习和解释",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-94f8e593d30f0bd2",
+      "title": "学习示意：只换衣服",
+      "localPath": "reference-assets/focused-quests/study-94f8e593d30f0bd2.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只换衣服",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-0257b5a183c59c47",
+      "title": "学习示意：交流和学习",
+      "localPath": "reference-assets/focused-quests/study-0257b5a183c59c47.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "交流和学习",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-35ef6102c2b76ac6",
+      "title": "学习示意：双向影响",
+      "localPath": "reference-assets/focused-quests/study-35ef6102c2b76ac6.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "双向影响",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-f094e53ce14b85c9",
+      "title": "学习示意：单向传递",
+      "localPath": "reference-assets/focused-quests/study-f094e53ce14b85c9.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "单向传递",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-4353ed94657651e8",
+      "title": "学习示意：规定、逐步实践",
+      "localPath": "reference-assets/focused-quests/study-4353ed94657651e8.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "规定 → 逐步实践",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-c7ef2260626126fd",
+      "title": "学习示意：不同人逐步改变",
+      "localPath": "reference-assets/focused-quests/study-c7ef2260626126fd.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "不同人逐步改变",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b80eb3459353affd",
+      "title": "学习示意：所有人同时一样",
+      "localPath": "reference-assets/focused-quests/study-b80eb3459353affd.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "所有人同时一样",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "northern-dynasties-xianbei-warrior",
       "title": "北朝鲜卑服陶武士俑展览照片",
       "localPath": "reference-assets/three-kingdoms-jin-northern-southern/xianbei-warrior.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:CMOC_Treasures_of_Ancient_China_exhibit_-_figure_of_a_Xianbei_warrior.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 2.5",
       "clearance": "cleared-open-license",
       "caption": "1948年河北景县封氏墓群出土的北朝鲜卑服陶武士俑。",
-      "boundary": "器物信息与国家博物馆同一器物记录交叉核验。陶俑表现帽、裤、短衣和披风等服装形象；墓俑不是武士肖像，不能凭外貌或服装单独判定某个真实人物的族群身份。下载为1920像素等比例缩略图，未作其他修改。"
+      "boundary": "器物信息与国家博物馆同一器物记录交叉核验。陶俑表现帽、裤、短衣和披风等服装形象；墓俑不是武士肖像，不能凭外貌或服装单独判定某个真实人物的族群身份。下载为1920像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "yungang-cave-20-current-view",
       "title": "云冈石窟第20窟现状照片",
       "localPath": "reference-assets/three-kingdoms-jin-northern-southern/yungang-cave-20.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Cave_20,_Yungang_Grottoes.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "今天的云冈石窟第20窟及其露天造像。",
-      "boundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。下载为1920像素等比例缩略图，未作其他修改。"
+      "boundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-05-03-ethnic-interaction.jpg",

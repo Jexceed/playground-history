@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-03-01-iron-waterworks",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
@@ -13,7 +13,544 @@
   "title": "铁农具、水利与新的生产方式",
   "coreQuestion": "工具和水利工程怎样改变土地与生活？",
   "throughline": "从铁农具、牛耕和都江堰等证据观察生产力发展、人口与社会变化。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-ancient-03-01-iron-waterworks",
+    "childTitle": "都江堰怎样给水流分路",
+    "prompt": "没有大闸门，人们怎样让岷江的水去田里、把沙石带走？",
+    "takeaway": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。",
+    "object": "铁农具和都江堰水利工程",
+    "people": [
+      "李冰与许多修建、维护工程的人"
+    ],
+    "place": "四川成都平原都江堰",
+    "culture": null,
+    "care": "李冰是主持者之一，不把两千多年的修建与维护写成一个人独自完成。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📍",
+      "label": "从一个地方出发",
+      "text": "都江堰怎样给水流分路"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "鱼嘴先分水",
+      "text": "先看鱼嘴把岷江水分成外江和内江。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "排沙再控水",
+      "text": "接着看飞沙堰排沙，宝瓶口控制进水。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "每年都要照料",
+      "text": "最后发现工程能长久，还要人们每年维护。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "都江堰",
+      "reading": "Dūjiāngyàn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-03-01-iron-waterworks",
+        "cross-05-environment-development"
+      ],
+      "note": "“都”在此读dū，不读dōu。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个地方",
+      "icon": "📍",
+      "label": "都江堰怎样给水流分路",
+      "question": "没有大闸门，人们怎样让岷江的水去田里、把沙石带走？"
+    },
+    "coverAudio": {
+      "id": "quest-c65002725e1db485",
+      "text": "今天从一个地方出发：都江堰怎样给水流分路。我们要去四川成都平原都江堰，看看铁农具和都江堰水利工程怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-7381fb4cc8975f15",
+      "text": "五条线索都找到了，“都江堰怎样给水流分路”的答案是：鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 7,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个地方出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是春秋战国，时间是前770—前221年。",
+          "narration": "这是春秋战国，时间是前770—前221年。",
+          "displayText": "这是春秋战国，时间是前770—前221年。"
+        },
+        "assetId": "saws-iron-hoe",
+        "image": "/content/step-images/saws-iron-hoe.jpg",
+        "imageAlt": "战国铁锄实物照片",
+        "imageCaption": "中国国家博物馆展出的战国燕国铁锄。",
+        "imageBoundary": "来源页登记为燕国、河北1958年发现；儿童正文只把它作为战国铁农具实物例证，不为器物虚构主人或具体使用场景。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-cafb042b318bc60f",
+            "text": "先给一个地方找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-16ace2d60e63a25e",
+            "text": "这是春秋战国，时间是前770—前221年。"
+          },
+          "image": {
+            "id": "quest-7cbed7e1dd03df2e",
+            "text": "点开大图啦。这是战国铁锄实物照片。这张图能帮我们找到：这是春秋战国，时间是前770—前221年。"
+          },
+          "question": {
+            "id": "quest-6b36b10ba4b7def9",
+            "text": "从一个地方出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-time-1",
+            "label": "中国古代史 · 春秋战国 · 前770—前221年",
+            "correct": true,
+            "audio": {
+              "id": "quest-e3a8eb496edbf0f1",
+              "text": "中国古代史 · 春秋战国 · 前770—前221年"
+            }
+          },
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-time-2",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-time-3",
+            "label": "中国近代史 · 晚清的危机与救亡 · 1840—1911年",
+            "correct": false,
+            "audio": {
+              "id": "quest-a326ed6569d4da14",
+              "text": "中国近代史 · 晚清的危机与救亡 · 1840—1911年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "鱼嘴先分水",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看鱼嘴把岷江水分成外江和内江。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "鱼嘴先分水",
+          "screenText": "先看鱼嘴把岷江水分成外江和内江。",
+          "narration": "先看鱼嘴把岷江水分成外江和内江。",
+          "displayText": "先看鱼嘴把岷江水分成外江和内江。"
+        },
+        "assetId": "saws-dujiangyan-yuzui",
+        "image": "/content/step-images/saws-dujiangyan-yuzui.jpg",
+        "imageAlt": "都江堰鱼嘴与金刚堤现状照片",
+        "imageCaption": "今天的都江堰鱼嘴、金刚堤一带，岷江在这里分为内江和外江。",
+        "imageBoundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-f35c942b085f849b",
+            "text": "先看鱼嘴把岷江水分成外江和内江。"
+          },
+          "image": {
+            "id": "quest-91cd2b289bc2239b",
+            "text": "点开大图啦。这是都江堰鱼嘴与金刚堤现状照片。这张图能帮我们找到：先看鱼嘴把岷江水分成外江和内江。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-beginning-1",
+            "label": "四川成都平原都江堰、李，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-8a6c8b1763a8a779",
+              "text": "四川成都平原都江堰、李，只是故事地点"
+            }
+          },
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-beginning-2",
+            "label": "李冰与许多修建、维护工程的，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-2db4e60b3177e81d",
+              "text": "李冰与许多修建、维护工程的，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-beginning-3",
+            "label": "铁农具和都江堰水利工程，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-08e47d80f4dfc073",
+              "text": "铁农具和都江堰水利工程，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "排沙再控水",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看飞沙堰排沙，宝瓶口控制进水。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "排沙再控水",
+          "screenText": "接着看飞沙堰排沙，宝瓶口控制进水。",
+          "narration": "接着看飞沙堰排沙，宝瓶口控制进水。",
+          "displayText": "接着看飞沙堰排沙，宝瓶口控制进水。"
+        },
+        "assetId": "saws-dujiangyan-yuzui",
+        "image": "/content/step-images/saws-dujiangyan-yuzui.jpg",
+        "imageAlt": "都江堰鱼嘴与金刚堤现状照片",
+        "imageCaption": "今天的都江堰鱼嘴、金刚堤一带，岷江在这里分为内江和外江。",
+        "imageBoundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-c6dead394a1524e1",
+            "text": "接着看飞沙堰排沙，宝瓶口控制进水。"
+          },
+          "image": {
+            "id": "quest-3fcf46f60daa65db",
+            "text": "点开大图啦。这是都江堰鱼嘴与金刚堤现状照片。这张图能帮我们找到：接着看飞沙堰排沙，宝瓶口控制进水。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-journey-1",
+            "label": "四川成都平原都江堰，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-a57a0dde570bb8f1",
+              "text": "四川成都平原都江堰，只说了地点"
+            }
+          },
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-journey-2",
+            "label": "接着看飞沙堰排沙，宝瓶口控制进水。",
+            "correct": true,
+            "audio": {
+              "id": "quest-c6dead394a1524e1",
+              "text": "接着看飞沙堰排沙，宝瓶口控制进水。"
+            }
+          },
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-journey-3",
+            "label": "李冰与许多修建、维护工程，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-894fa414d7794b2a",
+              "text": "李冰与许多修建、维护工程，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "每年都要照料",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后发现工程能长久，还要人们每年维护。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "每年都要照料",
+          "screenText": "最后发现工程能长久，还要人们每年维护。",
+          "narration": "最后发现工程能长久，还要人们每年维护。",
+          "displayText": "最后发现工程能长久，还要人们每年维护。"
+        },
+        "assetId": "saws-dujiangyan-yuzui",
+        "image": "/content/step-images/saws-dujiangyan-yuzui.jpg",
+        "imageAlt": "都江堰鱼嘴与金刚堤现状照片",
+        "imageCaption": "今天的都江堰鱼嘴、金刚堤一带，岷江在这里分为内江和外江。",
+        "imageBoundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-fc59b5074a90f597",
+            "text": "最后发现工程能长久，还要人们每年维护。"
+          },
+          "image": {
+            "id": "quest-7d8b0daa1302cb54",
+            "text": "点开大图啦。这是都江堰鱼嘴与金刚堤现状照片。这张图能帮我们找到：最后发现工程能长久，还要人们每年维护。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-change-1",
+            "label": "最后发现工程能长久，还要人们每年维护。",
+            "correct": true,
+            "audio": {
+              "id": "quest-fc59b5074a90f597",
+              "text": "最后发现工程能长久，还要人们每年维护。"
+            }
+          },
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-change-2",
+            "label": "铁农具和都江堰水利工，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-dbe515e29559edd3",
+              "text": "铁农具和都江堰水利工，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-change-3",
+            "label": "看飞沙堰排沙，宝瓶口控制，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-122c42c969901b34",
+              "text": "看飞沙堰排沙，宝瓶口控制，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。",
+          "narration": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。",
+          "displayText": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。"
+        },
+        "assetId": "saws-dujiangyan-yuzui",
+        "image": "/content/step-images/saws-dujiangyan-yuzui.jpg",
+        "imageAlt": "都江堰鱼嘴与金刚堤现状照片",
+        "imageCaption": "今天的都江堰鱼嘴、金刚堤一带，岷江在这里分为内江和外江。",
+        "imageBoundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-eca46bc2c5fed2ac",
+            "text": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。"
+          },
+          "image": {
+            "id": "quest-c165d936a038f82f",
+            "text": "点开大图啦。这是都江堰鱼嘴与金刚堤现状照片。这张图能帮我们找到：鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-takeaway-1",
+            "label": "发现工程能长久，还要人们每年维护。、都江堰怎样，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-9f423a76eae9aa7f",
+              "text": "发现工程能长久，还要人们每年维护。、都江堰怎样，只说了结果"
+            }
+          },
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-takeaway-2",
+            "label": "看鱼嘴把岷江水分成外江和内江。、铁农具和都，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-9f5c4c868a196f9c",
+              "text": "看鱼嘴把岷江水分成外江和内江。、铁农具和都，只说了原因"
+            }
+          },
+          {
+            "id": "cn-ancient-03-01-iron-waterworks-takeaway-3",
+            "label": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。",
+            "correct": true,
+            "audio": {
+              "id": "quest-eca46bc2c5fed2ac",
+              "text": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "器物还是铸范",
+        "items": [
+          "观察铁锄和双镰铁范，判断哪个直接用于耕作，哪个用于制造工具，并说出图中依据。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "把河水送到田里",
+        "items": [
+          "拖动“分水—排沙泄洪—控制进水”三张卡，对应鱼嘴、飞沙堰、宝瓶口；错误时显示工程作用而不是只报答案。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "不是一个原因",
+        "items": [
+          "把“铁农具、牛耕、水利、劳动力、战争、国家组织”连成因果网；系统拒绝只留下“铁器导致一切”的单线答案。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 7,
   "conclusion": [
     "春秋战国时期，铁器的使用逐渐扩大，战国中期以后铁农具更加常见；牛耕、水利、土地利用和劳动力组织也在变化。约公元前 256 年开始修建的都江堰，利用地形和水流分水、排沙、泄洪、引水。新技术不是独自推动历史的“魔法按钮”，但它们与人口、战争、国家组织等因素相互作用，改变了农业和社会。"
@@ -317,30 +854,39 @@
       "title": "战国双镰铁范实物照片",
       "localPath": "reference-assets/spring-autumn-warring-states/iron-sickle-mould.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Warring_States_Iron_Mould_for_2_Sickles_(9831323513).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "中国国家博物馆展出的战国燕国双镰铁范；范中可见两道镰刀形凹槽和现代示意件。",
-      "boundary": "图片来源页把拍摄对象登记为1953年河北发现的燕国双镰铁范。文物名称、技术解释和年代以中国国家博物馆藏品页核验；浅色镰刀是展陈示意，不当作出土原件。未修改原图。"
+      "boundary": "图片来源页把拍摄对象登记为1953年河北发现的燕国双镰铁范。文物名称、技术解释和年代以中国国家博物馆藏品页核验；浅色镰刀是展陈示意，不当作出土原件。未修改原图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "saws-iron-hoe",
       "title": "战国铁锄实物照片",
       "localPath": "reference-assets/spring-autumn-warring-states/iron-hoe.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Warring_States_Iron_Hoe_(9831259805).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "中国国家博物馆展出的战国燕国铁锄。",
-      "boundary": "来源页登记为燕国、河北1958年发现；儿童正文只把它作为战国铁农具实物例证，不为器物虚构主人或具体使用场景。未修改原图。"
+      "boundary": "来源页登记为燕国、河北1958年发现；儿童正文只把它作为战国铁农具实物例证，不为器物虚构主人或具体使用场景。未修改原图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "saws-dujiangyan-yuzui",
       "title": "都江堰鱼嘴与金刚堤现状照片",
       "localPath": "reference-assets/spring-autumn-warring-states/dujiangyan-yuzui.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Dujiangyan_irrigation_system,_Sichuan,_China.JPG",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "今天的都江堰鱼嘴、金刚堤一带，岷江在这里分为内江和外江。",
-      "boundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。"
+      "boundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-03-01-iron-waterworks.jpg",

@@ -1,19 +1,781 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-06-03-tang-changan",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
   "period": {
-    "id": "sui-tang-five-dynasties",
-    "label": "隋唐五代",
-    "years": "581—960年"
+    "id": "tang",
+    "label": "唐朝",
+    "years": "618—907年"
   },
-  "order": 20,
+  "order": 22,
   "title": "从文物看唐代长安",
   "coreQuestion": "为什么说唐代长安是一座繁荣、开放的城市？",
   "throughline": "通过路线、东市遗址、人物俑和载乐骆驼四条证据观察长安的城市生活与文化交流。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-ancient-06-03-tang-changan",
+    "childTitle": "骆驼背上为什么有乐队",
+    "prompt": "一件唐三彩能告诉我们什么，又不能告诉我们什么？",
+    "takeaway": "唐三彩乐舞骆驼俑表现了乐舞形象；了解长安市场和往来，还要结合遗址与文献。",
+    "object": "三彩载乐骆驼俑",
+    "people": [
+      "唐代制陶工匠",
+      "乐舞形象"
+    ],
+    "place": "唐代长安东市与今天的西安",
+    "culture": "唐代乐舞与百戏",
+    "care": "学习图只示意观察位置，不照某件陶俑推算所有同类作品的人数；实物以本章配图登记为准。",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-06-03-tang-changan",
+    "featured": {
+      "type": "地点",
+      "icon": "🐫",
+      "title": "唐代制陶工匠与乐舞形象",
+      "childBridge": "一件唐三彩能告诉我们什么，又不能告诉我们什么？",
+      "evidenceBoundary": "学习图只示意观察位置，不照某件陶俑推算所有同类作品的人数；实物以本章配图登记为准。"
+    },
+    "companions": [
+      {
+        "type": "诗歌",
+        "label": "唐诗里的长安",
+        "note": "诗句可以感受城市，不作人口和贸易统计。"
+      },
+      {
+        "type": "人物",
+        "label": "商旅、乐手与工匠",
+        "note": "热闹城市由许多普通人一起支撑。"
+      },
+      {
+        "type": "历史",
+        "label": "丝路上的国际城市",
+        "note": "道路、市场和制度共同让相遇发生。"
+      },
+      {
+        "type": "实物",
+        "label": "三彩载乐骆驼俑",
+        "note": "先看造型和乐器，再讨论交流。"
+      }
+    ],
+    "sourceIds": [
+      "CASS-CHANGAN-EAST-MARKET-2015",
+      "NMC-SANCAI-MUSIC-CAMEL",
+      "UNESCO-CHANGAN-TIANSHAN",
+      "PEP-HISTORY-7B-2026-TRIAL",
+      "SHAANXI-SANCAI-CAMEL-509"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "陶俑的时间",
+      "text": "这件乐舞骆驼俑属于唐代。秦汉的故事在前，唐朝从618年开始。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "抬头看骆驼背",
+      "text": "看照片，骆驼背上有表演的人物，有人拿着乐器。这是一件陶俑。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "陶俑会留下真声音吗",
+      "text": "工匠把乐舞形象做进陶俑。我们能观察形象，却听不到这件陶俑当年的演奏。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "去长安东市再找线索",
+      "text": "长安东市的考古发现帮助我们认识市场空间。陶俑和市场遗迹，回答的问题并不相同。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "为陶俑选一张说明",
+      "text": "这件作品让我们看见唐代乐舞的艺术形象。它不证明真有一支乐队这样骑骆驼走遍丝路。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "考古",
+      "icon": "🧹",
+      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
+      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
+      "priority": 1
+    },
+    {
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "手工业",
+      "icon": "🧵",
+      "plain": "主要靠手和工具制作器物的生产活动。",
+      "example": "陶器、织物和青铜器都需要材料、技术与分工。",
+      "priority": 2
+    },
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "长安",
+      "reading": "Cháng’ān",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-04-02-han-governance",
+        "cn-ancient-04-03-silk-road",
+        "cn-ancient-06-02-tang-governance",
+        "cn-ancient-06-03-tang-changan",
+        "cn-ancient-06-04-tang-cultural-exchange",
+        "cross-03-cultural-exchange"
+      ],
+      "note": "“长”在地名中读cháng。"
+    },
+    {
+      "text": "乐手",
+      "reading": "Yuèshǒu",
+      "kind": "polyphone",
+      "chapterIds": [
+        "cn-ancient-06-03-tang-changan",
+        "cross-03-cultural-exchange"
+      ],
+      "note": "表示演奏音乐的人时，“乐”读yuè。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "骆驼背上为什么有乐队",
+      "question": "一件唐三彩能告诉我们什么，又不能告诉我们什么？"
+    },
+    "cta": "去找乐器",
+    "anchor": "唐代制陶工匠与乐舞形象",
+    "boundary": "学习图只示意观察位置，不照某件陶俑推算所有同类作品的人数；实物以本章配图登记为准。",
+    "evidence": [
+      {
+        "id": "tang-sancai-music-camel-front",
+        "title": "三彩载乐骆驼俑（正面）",
+        "localPath": "reference-assets/tang/sancai-musicians-on-camel-front.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sancai_musicians_on_camel,_front.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 3.0",
+        "clearance": "cleared-open-license",
+        "caption": "三彩载乐骆驼俑（正面）",
+        "boundary": "只用于观察图片中可见的物件、地点或艺术表现；不能由单张图推出人物动机、完整过程或所有人的生活。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/tang-sancai-music-camel-front.jpg"
+      },
+      {
+        "id": "tang-sancai-music-camel-side",
+        "title": "三彩载乐骆驼俑（侧面）",
+        "localPath": "reference-assets/tang/sancai-musicians-on-camel-side.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sancai_musicians_on_camel,_side.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 3.0",
+        "clearance": "cleared-open-license",
+        "caption": "三彩载乐骆驼俑（侧面）",
+        "boundary": "只用于观察图片中可见的物件、地点或艺术表现；不能由单张图推出人物动机、完整过程或所有人的生活。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/tang-sancai-music-camel-side.jpg"
+      }
+    ],
+    "coverAsset": {
+      "id": "tang-sancai-music-camel-front",
+      "title": "三彩载乐骆驼俑（正面）",
+      "localPath": "reference-assets/tang/sancai-musicians-on-camel-front.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sancai_musicians_on_camel,_front.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "三彩载乐骆驼俑（正面）",
+      "boundary": "只用于观察图片中可见的物件、地点或艺术表现；不能由单张图推出人物动机、完整过程或所有人的生活。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/tang-sancai-music-camel-front.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/tang-sancai-music-camel-front.jpg",
+    "coverImageAlt": "三彩载乐骆驼俑（正面）",
+    "coverImageKind": "历史材料",
+    "coverAudio": {
+      "id": "quest-107ed62883057c4b",
+      "text": "骆驼背上为什么有乐队。一件唐三彩能告诉我们什么，又不能告诉我们什么？准备好就点“去找乐器”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-fcbc40ea53d4cee1",
+      "text": "唐三彩乐舞骆驼俑表现了乐舞形象；了解长安市场和往来，还要结合遗址与文献。"
+    },
+    "finish": {
+      "title": "当陶俑观察员",
+      "actions": [
+        "指一指骆驼背上的一个乐舞人物。",
+        "摆一个拿乐器的姿势，再告诉家人这是在学陶俑造型。"
+      ],
+      "parent": "问“我们能从陶俑听到原来的曲子吗？”不配现代舞曲冒充唐代原声；不编造这组人物的丝路行程。",
+      "sceneStepIndexes": [
+        1,
+        2
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-77cf01e343d7b074",
+          "text": "指一指骆驼背上的一个乐舞人物。"
+        },
+        {
+          "id": "quest-085ea2308eabc86a",
+          "text": "摆一个拿乐器的姿势，再告诉家人这是在学陶俑造型。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-d6cb19cee0c9659d",
+        "text": "当陶俑观察员。指一指骆驼背上的一个乐舞人物。摆一个拿乐器的姿势，再告诉家人这是在学陶俑造型。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "陶俑的时间",
+        "title": "陶俑的时间",
+        "prompt": "陶俑放在哪一站？",
+        "rightNote": "这件陶俑属于唐代，不能只凭骆驼猜成别的时代。",
+        "wrongNote": "这件陶俑属于唐代，不能只凭骆驼猜成别的时代。",
+        "sourceIds": [
+          "SHAANXI-SANCAI-CAMEL-509",
+          "CASS-CHANGAN-EAST-MARKET-2015"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "陶俑的时间",
+          "screenText": "这件乐舞骆驼俑属于唐代。秦汉的故事在前，唐朝从618年开始。",
+          "displayText": "这件乐舞骆驼俑属于唐代。秦汉的故事在前，唐朝从618年开始。",
+          "narration": "这件乐舞骆驼俑属于唐代。秦汉的故事在前，唐朝从618年开始。"
+        },
+        "assetId": "study-58e9c2f270572b4d",
+        "image": "/content/study-scenes/study-58e9c2f270572b4d.svg",
+        "studyImage": "/content/study-scenes/study-58e9c2f270572b4d.svg",
+        "studyImageAlt": "隋 581—618，唐 618—907",
+        "imageAlt": "隋 581—618，唐 618—907",
+        "imageCaption": "学习示意 · 隋 581—618，唐 618—907",
+        "imageBoundary": "自制学习示意。学习图只示意观察位置，不照某件陶俑推算所有同类作品的人数；实物以本章配图登记为准。",
+        "audio": {
+          "transition": {
+            "id": "quest-5dbc10718cb92ce0",
+            "text": "陶俑的时间。"
+          },
+          "intro": {
+            "id": "quest-6d451cc29b8dd748",
+            "text": "这件乐舞骆驼俑属于唐代。秦汉的故事在前，唐朝从618年开始。"
+          },
+          "question": {
+            "id": "quest-bbc408547baaa115",
+            "text": "陶俑放在哪一站？"
+          },
+          "image": {
+            "id": "quest-fb5a028991ce8dfa",
+            "text": "这是学习示意图：隋 581—618，唐 618—907。陶俑放在哪一站？"
+          },
+          "right": {
+            "id": "quest-78921186135f828a",
+            "text": "找到了。这件陶俑属于唐代，不能只凭骆驼猜成别的时代。"
+          },
+          "wrong": {
+            "id": "quest-683aeb0cd8bb1b20",
+            "text": "再比较一下。这件陶俑属于唐代，不能只凭骆驼猜成别的时代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-03-tang-changan-time-1",
+            "label": "唐 · 618—907年",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-bbd375eef8c51885.svg",
+            "imageAlt": "唐 618—907年",
+            "audio": {
+              "id": "quest-662ae669e35779be",
+              "text": "唐 · 618—907年"
+            }
+          },
+          {
+            "id": "cn-ancient-06-03-tang-changan-time-2",
+            "label": "隋 · 581—618年",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-8ff9602cb494f704.svg",
+            "imageAlt": "隋 581—618年",
+            "audio": {
+              "id": "quest-c4c1a53f0d43dc68",
+              "text": "隋 · 581—618年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "抬头看骆驼背",
+        "title": "抬头看骆驼背",
+        "prompt": "应该在哪儿找乐舞人物？",
+        "rightNote": "沿着骆驼身体往上看，乐舞人物在背上的平台。",
+        "wrongNote": "沿着骆驼身体往上看，乐舞人物在背上的平台。",
+        "sourceIds": [
+          "SHAANXI-SANCAI-CAMEL-509",
+          "CASS-CHANGAN-EAST-MARKET-2015"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "抬头看骆驼背",
+          "screenText": "看照片，骆驼背上有表演的人物，有人拿着乐器。这是一件陶俑。",
+          "displayText": "看照片，骆驼背上有表演的人物，有人拿着乐器。这是一件陶俑。",
+          "narration": "看照片，骆驼背上有表演的人物，有人拿着乐器。这是一件陶俑。"
+        },
+        "assetId": "tang-sancai-music-camel-front",
+        "image": "/content/step-images/tang-sancai-music-camel-front.jpg",
+        "studyImage": "/content/study-scenes/study-5c6bf7022f480865.svg",
+        "studyImageAlt": "骆驼背上的人物",
+        "imageAlt": "三彩载乐骆驼俑（正面）",
+        "imageCaption": "三彩载乐骆驼俑（正面）",
+        "imageBoundary": "只用于观察图片中可见的物件、地点或艺术表现；不能由单张图推出人物动机、完整过程或所有人的生活。",
+        "audio": {
+          "transition": {
+            "id": "quest-b29bd301254f9abb",
+            "text": "抬头看骆驼背。"
+          },
+          "intro": {
+            "id": "quest-0b9ad40d6f861810",
+            "text": "看照片，骆驼背上有表演的人物，有人拿着乐器。这是一件陶俑。"
+          },
+          "question": {
+            "id": "quest-3eb4067a25f6848d",
+            "text": "应该在哪儿找乐舞人物？"
+          },
+          "image": {
+            "id": "quest-2f569abda3a39a44",
+            "text": "这张是三彩载乐骆驼俑（正面）。看照片，骆驼背上有表演的人物，有人拿着乐器。这是一件陶俑。"
+          },
+          "right": {
+            "id": "quest-976673ae12de4740",
+            "text": "找到了。沿着骆驼身体往上看，乐舞人物在背上的平台。"
+          },
+          "wrong": {
+            "id": "quest-49056c6574cb5447",
+            "text": "再比较一下。沿着骆驼身体往上看，乐舞人物在背上的平台。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-03-tang-changan-beginning-1",
+            "label": "在骆驼背上",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-3e5ce89fbc3a6c03.svg",
+            "imageAlt": "背上的乐舞",
+            "audio": {
+              "id": "quest-984263f765680b6a",
+              "text": "在骆驼背上"
+            }
+          },
+          {
+            "id": "cn-ancient-06-03-tang-changan-beginning-2",
+            "label": "在骆驼脚下",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-d6c56214ecf7f9fe.svg",
+            "imageAlt": "脚下地面",
+            "audio": {
+              "id": "quest-68d0aae254af5c01",
+              "text": "在骆驼脚下"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "陶俑会留下真声音吗",
+        "title": "陶俑会留下真声音吗",
+        "prompt": "凭这件陶俑能直接观察什么？",
+        "rightNote": "器物留下形象；要知道曲调还需要其他材料。",
+        "wrongNote": "器物留下形象；要知道曲调还需要其他材料。",
+        "sourceIds": [
+          "SHAANXI-SANCAI-CAMEL-509",
+          "CASS-CHANGAN-EAST-MARKET-2015"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "陶俑会留下真声音吗",
+          "screenText": "工匠把乐舞形象做进陶俑。我们能观察形象，却听不到这件陶俑当年的演奏。",
+          "displayText": "工匠把乐舞形象做进陶俑。我们能观察形象，却听不到这件陶俑当年的演奏。",
+          "narration": "工匠把乐舞形象做进陶俑。我们能观察形象，却听不到这件陶俑当年的演奏。"
+        },
+        "assetId": "study-0a31e27bacf3433f",
+        "image": "/content/study-scenes/study-0a31e27bacf3433f.svg",
+        "studyImage": "/content/study-scenes/study-0a31e27bacf3433f.svg",
+        "studyImageAlt": "可见形象，曲调要另找材料",
+        "imageAlt": "可见形象，曲调要另找材料",
+        "imageCaption": "学习示意 · 可见形象，曲调要另找材料",
+        "imageBoundary": "自制学习示意。学习图只示意观察位置，不照某件陶俑推算所有同类作品的人数；实物以本章配图登记为准。",
+        "audio": {
+          "transition": {
+            "id": "quest-61b3330ea31049bb",
+            "text": "陶俑会留下真声音吗。"
+          },
+          "intro": {
+            "id": "quest-70b78247b02c4281",
+            "text": "工匠把乐舞形象做进陶俑。我们能观察形象，却听不到这件陶俑当年的演奏。"
+          },
+          "question": {
+            "id": "quest-c3f52427938e72b8",
+            "text": "凭这件陶俑能直接观察什么？"
+          },
+          "image": {
+            "id": "quest-94c07dc52fae36c0",
+            "text": "这是学习示意图：可见形象，曲调要另找材料。凭这件陶俑能直接观察什么？"
+          },
+          "right": {
+            "id": "quest-00a6b82aea1e0292",
+            "text": "找到了。器物留下形象；要知道曲调还需要其他材料。"
+          },
+          "wrong": {
+            "id": "quest-aa1b8bfb73c0bdc3",
+            "text": "再比较一下。器物留下形象；要知道曲调还需要其他材料。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-03-tang-changan-journey-1",
+            "label": "乐器与人物的姿态",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-b36864c532c8439d.svg",
+            "imageAlt": "拿乐器的姿态",
+            "audio": {
+              "id": "quest-71eee9d5fbc019ed",
+              "text": "乐器与人物的姿态"
+            }
+          },
+          {
+            "id": "cn-ancient-06-03-tang-changan-journey-2",
+            "label": "当年演奏的完整曲调",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-2e266a1e1cbc8dab.svg",
+            "imageAlt": "完整古代录音",
+            "audio": {
+              "id": "quest-ffae0580d63762c0",
+              "text": "当年演奏的完整曲调"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "去长安东市再找线索",
+        "title": "去长安东市再找线索",
+        "prompt": "要找东市的位置与遗迹，先看什么？",
+        "rightNote": "市场空间要靠相关遗址研究，不能从一件俑猜出整座城。",
+        "wrongNote": "市场空间要靠相关遗址研究，不能从一件俑猜出整座城。",
+        "sourceIds": [
+          "SHAANXI-SANCAI-CAMEL-509",
+          "CASS-CHANGAN-EAST-MARKET-2015"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "去长安东市再找线索",
+          "screenText": "长安东市的考古发现帮助我们认识市场空间。陶俑和市场遗迹，回答的问题并不相同。",
+          "displayText": "长安东市的考古发现帮助我们认识市场空间。陶俑和市场遗迹，回答的问题并不相同。",
+          "narration": "长安东市的考古发现帮助我们认识市场空间。陶俑和市场遗迹，回答的问题并不相同。"
+        },
+        "assetId": "study-1cc872afebda7d87",
+        "image": "/content/study-scenes/study-1cc872afebda7d87.svg",
+        "studyImage": "/content/study-scenes/study-1cc872afebda7d87.svg",
+        "studyImageAlt": "乐舞陶俑，东市遗迹",
+        "imageAlt": "乐舞陶俑，东市遗迹",
+        "imageCaption": "学习示意 · 乐舞陶俑，东市遗迹",
+        "imageBoundary": "自制学习示意。学习图只示意观察位置，不照某件陶俑推算所有同类作品的人数；实物以本章配图登记为准。",
+        "audio": {
+          "transition": {
+            "id": "quest-fb14923ef5baf0e4",
+            "text": "去长安东市再找线索。"
+          },
+          "intro": {
+            "id": "quest-0e55f4a7b98795fd",
+            "text": "长安东市的考古发现帮助我们认识市场空间。陶俑和市场遗迹，回答的问题并不相同。"
+          },
+          "question": {
+            "id": "quest-65e42575c4d121a6",
+            "text": "要找东市的位置与遗迹，先看什么？"
+          },
+          "image": {
+            "id": "quest-b2a6c5c208e6aa72",
+            "text": "这是学习示意图：乐舞陶俑，东市遗迹。要找东市的位置与遗迹，先看什么？"
+          },
+          "right": {
+            "id": "quest-fce7d3c5ccc5c1b5",
+            "text": "找到了。市场空间要靠相关遗址研究，不能从一件俑猜出整座城。"
+          },
+          "wrong": {
+            "id": "quest-a4ea7d09ba5f5773",
+            "text": "再比较一下。市场空间要靠相关遗址研究，不能从一件俑猜出整座城。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-03-tang-changan-change-1",
+            "label": "考古调查和遗址图",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-8fe32c94034f7971.svg",
+            "imageAlt": "东市考古资料",
+            "audio": {
+              "id": "quest-4aa48bfe4ea06850",
+              "text": "考古调查和遗址图"
+            }
+          },
+          {
+            "id": "cn-ancient-06-03-tang-changan-change-2",
+            "label": "只看骆驼俑的底座",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-c961b772438b231a.svg",
+            "imageAlt": "陶俑底座",
+            "audio": {
+              "id": "quest-c2035ecf39002d10",
+              "text": "只看骆驼俑的底座"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "为陶俑选一张说明",
+        "title": "为陶俑选一张说明",
+        "prompt": "哪张说明合适？",
+        "rightNote": "陶俑是艺术表现，旅行经历要有另外的证据。",
+        "wrongNote": "陶俑是艺术表现，旅行经历要有另外的证据。",
+        "sourceIds": [
+          "SHAANXI-SANCAI-CAMEL-509",
+          "CASS-CHANGAN-EAST-MARKET-2015"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "为陶俑选一张说明",
+          "screenText": "这件作品让我们看见唐代乐舞的艺术形象。它不证明真有一支乐队这样骑骆驼走遍丝路。",
+          "displayText": "这件作品让我们看见唐代乐舞的艺术形象。它不证明真有一支乐队这样骑骆驼走遍丝路。",
+          "narration": "这件作品让我们看见唐代乐舞的艺术形象。它不证明真有一支乐队这样骑骆驼走遍丝路。"
+        },
+        "assetId": "study-cac1d953c731eb91",
+        "image": "/content/study-scenes/study-cac1d953c731eb91.svg",
+        "studyImage": "/content/study-scenes/study-cac1d953c731eb91.svg",
+        "studyImageAlt": "工匠制作，乐舞形象",
+        "imageAlt": "工匠制作，乐舞形象",
+        "imageCaption": "学习示意 · 工匠制作，乐舞形象",
+        "imageBoundary": "自制学习示意。学习图只示意观察位置，不照某件陶俑推算所有同类作品的人数；实物以本章配图登记为准。",
+        "audio": {
+          "transition": {
+            "id": "quest-fad834f67b895082",
+            "text": "为陶俑选一张说明。"
+          },
+          "intro": {
+            "id": "quest-cda7116aacec55c1",
+            "text": "这件作品让我们看见唐代乐舞的艺术形象。它不证明真有一支乐队这样骑骆驼走遍丝路。"
+          },
+          "question": {
+            "id": "quest-97edcb4b8d8032e7",
+            "text": "哪张说明合适？"
+          },
+          "image": {
+            "id": "quest-c61f978975cec20e",
+            "text": "这是学习示意图：工匠制作，乐舞形象。哪张说明合适？"
+          },
+          "right": {
+            "id": "quest-df9f8314aa37bf84",
+            "text": "找到了。陶俑是艺术表现，旅行经历要有另外的证据。"
+          },
+          "wrong": {
+            "id": "quest-7b21203893eefc81",
+            "text": "再比较一下。陶俑是艺术表现，旅行经历要有另外的证据。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-03-tang-changan-takeaway-1",
+            "label": "工匠做出的乐舞形象",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-d346d06a1db1a742.svg",
+            "imageAlt": "艺术表现",
+            "audio": {
+              "id": "quest-3a25ed58385df716",
+              "text": "工匠做出的乐舞形象"
+            }
+          },
+          {
+            "id": "cn-ancient-06-03-tang-changan-takeaway-2",
+            "label": "这支乐队的真实旅行照",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-7a6ccd8fbdff2322.svg",
+            "imageAlt": "真实旅行合影",
+            "audio": {
+              "id": "quest-0d3ed414a7843961",
+              "text": "这支乐队的真实旅行照"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把路线节点排回地图",
+        "items": [
+          "把“长安与洛阳—河西走廊—天山地区—中亚”按大致方向连接。",
+          "完成后显示“路线网，不是单行线”；不让孩子用现代国界给古代道路分队。",
+          "不计算虚构的精确行程天数，也不编造某位商人的姓名和对话。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "遗址证据分类桌",
+        "items": [
+          "把“道路、水井、排水设施”放入遗迹，把“玻璃器、宝石戒面、文字残片”放入遗物。",
+          "对“某位商人从某国带来”选择“目前不能确定”。",
+          "图片许可未解决前只使用简图和大字说明，不把现代生成街景冒充东市复原图。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "事实、解释还是想象",
+        "items": [
+          "“墓中出土陶俑”放到事实层，“博物馆解释为西域商人形象”放到解释层。",
+          "“他叫阿某，从某国来卖香料”放到无证据想象层。",
+          "不根据脸型、肤色或服装让孩子猜民族、国籍和性格。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "从画面里找证据",
+        "items": [
+          "放大开放许可的正面与侧面实拍图，寻找骆驼、平台、七名乐手和一名歌者。",
+          "选择“能看见的人物与器物”与“不能由画面确定的声音、姓名、旅程”。",
+          "不播放来源不清的所谓“唐代原声”，背景音乐只使用明确授权的现代音乐并标注“现代配乐”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "唐代长安的繁荣与开放，不只是一句形容。连接远方的道路、东市的考古遗迹、墓葬中的骑驼人物俑和载乐骆驼，为城市生活与文化交流提供了不同证据。它们也各有边界：路线图不是旅行日记，遗址残片不是完整街景，陶俑更不是历史现场照片。把证据放回年代并互相核对，才能看见一座真实而不是传奇化的长安。"
@@ -458,88 +1220,317 @@
       "authorityLevel": "A",
       "factUse": "载乐骆驼与乐舞、百戏的关系及解释边界",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-HISTORY-7B-2026-TRIAL",
+      "title": "新修订义务教育历史教材七年级下册试教资料",
+      "institution": "人民教育出版社",
+      "url": "https://www.pep.com.cn/xw/zt/hd/sktbjc/jcsy/202606/t20260610_2006778.html",
+      "type": "current-textbook-implementation-reference",
+      "authorityLevel": "A-structure-only",
+      "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "study-58e9c2f270572b4d",
+      "title": "学习示意：隋 581—618、唐 618—907",
+      "localPath": "reference-assets/focused-quests/study-58e9c2f270572b4d.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "隋 581—618 → 唐 618—907",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-bbd375eef8c51885",
+      "title": "学习示意：唐 618—907年",
+      "localPath": "reference-assets/focused-quests/study-bbd375eef8c51885.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "唐 618—907年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8ff9602cb494f704",
+      "title": "学习示意：隋 581—618年",
+      "localPath": "reference-assets/focused-quests/study-8ff9602cb494f704.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "隋 581—618年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5c6bf7022f480865",
+      "title": "学习示意：骆驼背上的人物",
+      "localPath": "reference-assets/focused-quests/study-5c6bf7022f480865.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "骆驼背上的人物",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-3e5ce89fbc3a6c03",
+      "title": "学习示意：背上的乐舞",
+      "localPath": "reference-assets/focused-quests/study-3e5ce89fbc3a6c03.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "背上的乐舞",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d6c56214ecf7f9fe",
+      "title": "学习示意：脚下地面",
+      "localPath": "reference-assets/focused-quests/study-d6c56214ecf7f9fe.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "脚下地面",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-0a31e27bacf3433f",
+      "title": "学习示意：可见形象、曲调要另找材料",
+      "localPath": "reference-assets/focused-quests/study-0a31e27bacf3433f.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "可见形象 → 曲调要另找材料",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b36864c532c8439d",
+      "title": "学习示意：拿乐器的姿态",
+      "localPath": "reference-assets/focused-quests/study-b36864c532c8439d.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "拿乐器的姿态",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-2e266a1e1cbc8dab",
+      "title": "学习示意：完整古代录音",
+      "localPath": "reference-assets/focused-quests/study-2e266a1e1cbc8dab.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "完整古代录音",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1cc872afebda7d87",
+      "title": "学习示意：乐舞陶俑、东市遗迹",
+      "localPath": "reference-assets/focused-quests/study-1cc872afebda7d87.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "乐舞陶俑 → 东市遗迹",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8fe32c94034f7971",
+      "title": "学习示意：东市考古资料",
+      "localPath": "reference-assets/focused-quests/study-8fe32c94034f7971.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "东市考古资料",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-c961b772438b231a",
+      "title": "学习示意：陶俑底座",
+      "localPath": "reference-assets/focused-quests/study-c961b772438b231a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "陶俑底座",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-cac1d953c731eb91",
+      "title": "学习示意：工匠制作、乐舞形象",
+      "localPath": "reference-assets/focused-quests/study-cac1d953c731eb91.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "工匠制作 → 乐舞形象",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d346d06a1db1a742",
+      "title": "学习示意：艺术表现",
+      "localPath": "reference-assets/focused-quests/study-d346d06a1db1a742.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "艺术表现",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-7a6ccd8fbdff2322",
+      "title": "学习示意：真实旅行合影",
+      "localPath": "reference-assets/focused-quests/study-7a6ccd8fbdff2322.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "真实旅行合影",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "tang-sancai-music-camel-front",
       "title": "三彩载乐骆驼俑（正面）",
       "localPath": "reference-assets/tang/sancai-musicians-on-camel-front.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sancai_musicians_on_camel,_front.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
-      "caption": "",
-      "boundary": ""
+      "caption": "三彩载乐骆驼俑（正面）",
+      "boundary": "只用于观察图片中可见的物件、地点或艺术表现；不能由单张图推出人物动机、完整过程或所有人的生活。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "tang-sancai-music-camel-side",
       "title": "三彩载乐骆驼俑（侧面）",
       "localPath": "reference-assets/tang/sancai-musicians-on-camel-side.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sancai_musicians_on_camel,_side.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
-      "caption": "",
-      "boundary": ""
+      "caption": "三彩载乐骆驼俑（侧面）",
+      "boundary": "只用于观察图片中可见的物件、地点或艺术表现；不能由单张图推出人物动机、完整过程或所有人的生活。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "tang-sancai-laden-camel",
       "title": "三彩釉陶载物骆驼",
       "localPath": "reference-assets/tang/tang-sancai-laden-camel.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:唐三彩釉陶载物骆驼.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
-      "caption": "",
-      "boundary": ""
+      "caption": "三彩釉陶载物骆驼",
+      "boundary": "只用于观察图片中可见的物件、地点或艺术表现；不能由单张图推出人物动机、完整过程或所有人的生活。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "tang-sancai-horse-groom",
       "title": "三彩釉陶马及牵马胡人俑",
       "localPath": "reference-assets/tang/tang-sancai-horse-and-groom.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:唐三彩釉陶马及牵马胡人俑.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
-      "caption": "",
-      "boundary": ""
+      "caption": "三彩釉陶马及牵马胡人俑",
+      "boundary": "只用于观察图片中可见的物件、地点或艺术表现；不能由单张图推出人物动机、完整过程或所有人的生活。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "tang-dancing-horse-flask",
       "title": "鎏金舞马衔杯纹皮囊式银壶",
       "localPath": "reference-assets/tang/gilt-silver-dancing-horse-flask.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Gilt_silver_jar_with_pattern_of_dancing_horses.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-open-license",
-      "caption": "",
-      "boundary": ""
+      "caption": "鎏金舞马衔杯纹皮囊式银壶",
+      "boundary": "只用于观察图片中可见的物件、地点或艺术表现；不能由单张图推出人物动机、完整过程或所有人的生活。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "tang-octagon-music-cup",
       "title": "伎乐纹八棱鎏金银杯",
       "localPath": "reference-assets/tang/gilded-silver-octagon-cup.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Gilded_Silver_Octagon_Cup_with_Musicians_and_Dancers._Tang_dynasty_(618-907)._Excavated_in_Hejiacun_village,_Xi'an_city._Shaanxi_Provincial_Museum.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 2.0",
       "clearance": "cleared-open-license",
-      "caption": "",
-      "boundary": ""
+      "caption": "伎乐纹八棱鎏金银杯",
+      "boundary": "只用于观察图片中可见的物件、地点或艺术表现；不能由单张图推出人物动机、完整过程或所有人的生活。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "tang-changan-tianshan-map",
       "title": "丝绸之路：长安—天山廊道地图",
       "localPath": null,
       "sourcePage": "https://whc.unesco.org/en/documents/132728",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "未确认",
       "clearance": "reference-only",
-      "caption": "",
-      "boundary": ""
+      "caption": "丝绸之路：长安—天山廊道地图",
+      "boundary": "只用于观察图片中可见的物件、地点或艺术表现；不能由单张图推出人物动机、完整过程或所有人的生活。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "tang-east-market-archaeology-photos",
       "title": "唐长安城东市遗址考古照片",
       "localPath": null,
       "sourcePage": "https://kaogu.cssn.cn/xwzx/kgdt/201601/t20160105_5943689.shtml",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "未确认",
       "clearance": "reference-only",
-      "caption": "",
-      "boundary": ""
+      "caption": "唐长安城东市遗址考古照片",
+      "boundary": "只用于观察图片中可见的物件、地点或艺术表现；不能由单张图推出人物动机、完整过程或所有人的生活。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-06-03-tang-changan.jpg",

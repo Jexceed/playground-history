@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.8.0",
+  "contentVersion": "0.9.0",
   "id": "cn-modern-02-01-revolution-1911",
   "trackId": "china-modern",
   "trackLabel": "中国近代史",
@@ -13,7 +13,632 @@
   "title": "辛亥革命怎样结束君主专制制度",
   "coreQuestion": "革命者怎样从组织、起义走到建立共和国？",
   "throughline": "从兴中会、同盟会、武昌起义和各省响应，理解孙中山等革命者的探索及辛亥革命的历史意义。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-modern-02-01-revolution-1911",
+    "childTitle": "孙中山怎样把许多人连在一起",
+    "prompt": "组织、宣传、起义和各省响应，怎样一步步走向共和国？",
+    "takeaway": "辛亥革命靠多年组织和许多人响应，结束皇帝制度只是建设共和国的起点。",
+    "object": "同盟会文献、武昌遗址与就职照片",
+    "people": [
+      "孙中山、黄兴、革命团体成员与响应者"
+    ],
+    "place": "檀香山、东京、武昌与南京",
+    "culture": "革命报刊与民国纪年",
+    "care": "不说孙中山亲自指挥武昌起义，也不用枪战和占领得分吸引儿童。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "👋",
+      "label": "从一个人出发",
+      "text": "孙中山怎样把许多人连在一起"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "孙中山联络同伴",
+      "text": "先跟孙中山从檀香山、东京联络革命团体。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "武昌之后各地响应",
+      "text": "接着武昌起义后，各地陆续响应。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "皇帝时代结束",
+      "text": "最后南京成立临时政府，皇帝时代结束。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "辛亥革命靠多年组织和许多人响应，结束皇帝制度只是建设共和国的起点。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "革命",
+      "icon": "🔄",
+      "plain": "许多人推动改变旧政权或旧制度的大变化。",
+      "example": "革命不是只看一场战斗，还要看原因、参与者和结果。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "共和国",
+      "icon": "🏛️",
+      "plain": "国家职位不是由皇位世代传下去的国家形式。",
+      "example": "写下共和国原则，不代表这些原则立刻全部做到。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "皇帝",
+      "icon": "👑",
+      "plain": "古代君主国家最高统治者的一种称号。",
+      "example": "皇帝会作决定，也依靠官员、军队、工匠和百姓。",
+      "priority": 3
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "改革",
+      "icon": "🛠️",
+      "plain": "发现旧办法有问题，改变规则或做法。",
+      "example": "改革可能带来新机会，也可能遇到阻力和新问题。",
+      "priority": 1
+    },
+    {
+      "term": "民主",
+      "icon": "🗳️",
+      "plain": "公共事情不只由一个人说了算，人们按规则参与。",
+      "example": "不同年代参与范围不同，不能把古代投票当成今天制度。",
+      "priority": 1
+    },
+    {
+      "term": "侵略",
+      "icon": "⛔",
+      "plain": "用武力进入别国，夺取土地或控制权。",
+      "example": "抵抗侵略和发动侵略的责任不能混在一起。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "民族",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
+      "example": "民族不是按外貌排高低，也不会永远固定不变。",
+      "priority": 2
+    },
+    {
+      "term": "王朝",
+      "icon": "👑",
+      "plain": "以皇帝政权延续的一段历史时期。",
+      "example": "唐朝是王朝；唐朝结束不等于所有事情当天停止。",
+      "priority": 2
+    },
+    {
+      "term": "危机",
+      "icon": "⚠️",
+      "plain": "问题迅速变严重，原来的办法难以应付。",
+      "example": "危机通常有多种原因，也会影响不同的人。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "黄兴",
+      "reading": "Huáng Xīng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-02-01-revolution-1911"
+      ],
+      "note": "“兴”在人名中读xīng。"
+    },
+    {
+      "text": "孙中山",
+      "reading": "Sūn Zhōngshān",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-02-01-revolution-1911",
+        "cn-modern-02-02-early-republic"
+      ],
+      "note": "人名连读。"
+    },
+    {
+      "text": "武昌",
+      "reading": "Wǔchāng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-02-01-revolution-1911"
+      ],
+      "note": "武汉三镇之一。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个人",
+      "icon": "👋",
+      "label": "孙中山怎样把许多人连在一起",
+      "question": "组织、宣传、起义和各省响应，怎样一步步走向共和国？"
+    },
+    "coverAudio": {
+      "id": "quest-5a78d8000440322e",
+      "text": "今天从一个人出发：孙中山怎样把许多人连在一起。我们要去檀香山、东京、武昌与南京，看看同盟会文献、武昌遗址与就职照片怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-548873d32027f2d4",
+      "text": "五条线索都找到了，“孙中山怎样把许多人连在一起”的答案是：辛亥革命靠多年组织和许多人响应，结束皇帝制度只是建设共和国的起点。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个人出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是辛亥革命与中华民国建立，时间是1894—1916年（与上一段部分重叠）。",
+          "narration": "这是辛亥革命与中华民国建立，时间是1894—1916年（与上一段部分重叠）。",
+          "displayText": "这是辛亥革命与中华民国建立，时间是1894—1916年（与上一段部分重叠）。"
+        },
+        "assetId": "sun-yatsen-undated-historical-portrait",
+        "image": "/content/step-images/sun-yatsen-undated-historical-portrait.jpg",
+        "imageAlt": "孙中山历史肖像照片",
+        "imageCaption": "孙中山历史肖像照片，具体拍摄年份未确定。",
+        "imageBoundary": "来源页未确定拍摄日期，不能说成兴中会、同盟会、武昌起义或就职现场；肖像只显示人物形象，政治活动须由文献核验。原图499×800像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-26e845d2917e6a26",
+            "text": "先给一个人找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-6b09656d450455a6",
+            "text": "这是辛亥革命与中华民国建立，时间是1894—1916年（与上一段部分重叠）。"
+          },
+          "image": {
+            "id": "quest-8f20afea3df1a70e",
+            "text": "点开大图啦。这是孙中山历史肖像照片。这张图能帮我们找到：这是辛亥革命与中华民国建立，时间是1894—1916年（与上一段部分重叠）。"
+          },
+          "question": {
+            "id": "quest-1c5cffbdae9ffb27",
+            "text": "从一个人出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-02-01-revolution-1911-time-1",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "cn-modern-02-01-revolution-1911-time-2",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "cn-modern-02-01-revolution-1911-time-3",
+            "label": "中国近代史 · 辛亥革命与中华民国建立 · 1894—1916年（与上一段部分重叠）",
+            "correct": true,
+            "audio": {
+              "id": "quest-211439f302ee6372",
+              "text": "中国近代史 · 辛亥革命与中华民国建立 · 1894—1916年（与上一段部分重叠）"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "孙中山联络同伴",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先跟孙中山从檀香山、东京联络革命团体。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "孙中山联络同伴",
+          "screenText": "先跟孙中山从檀香山、东京联络革命团体。",
+          "narration": "先跟孙中山从檀香山、东京联络革命团体。",
+          "displayText": "先跟孙中山从檀香山、东京联络革命团体。"
+        },
+        "assetId": "sun-yatsen-undated-historical-portrait",
+        "image": "/content/step-images/sun-yatsen-undated-historical-portrait.jpg",
+        "imageAlt": "孙中山历史肖像照片",
+        "imageCaption": "孙中山历史肖像照片，具体拍摄年份未确定。",
+        "imageBoundary": "来源页未确定拍摄日期，不能说成兴中会、同盟会、武昌起义或就职现场；肖像只显示人物形象，政治活动须由文献核验。原图499×800像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-0bc9bb71bc8c0bc9",
+            "text": "先跟孙中山从檀香山、东京联络革命团体。"
+          },
+          "image": {
+            "id": "quest-851fb0cb18930794",
+            "text": "点开大图啦。这是孙中山历史肖像照片。这张图能帮我们找到：先跟孙中山从檀香山、东京联络革命团体。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-02-01-revolution-1911-beginning-1",
+            "label": "檀香山、东京、武昌与南京、孙中，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-29cd1e021fc542a1",
+              "text": "檀香山、东京、武昌与南京、孙中，只是故事地点"
+            }
+          },
+          {
+            "id": "cn-modern-02-01-revolution-1911-beginning-2",
+            "label": "同盟会文献、武昌遗址与就职照片，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-d3262b473f791591",
+              "text": "同盟会文献、武昌遗址与就职照片，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-modern-02-01-revolution-1911-beginning-3",
+            "label": "孙中山、黄兴、革命团体成员与响应者，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-6025ab3a3dea877e",
+              "text": "孙中山、黄兴、革命团体成员与响应者，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "武昌之后各地响应",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着武昌起义后，各地陆续响应。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "武昌之后各地响应",
+          "screenText": "接着武昌起义后，各地陆续响应。",
+          "narration": "接着武昌起义后，各地陆续响应。",
+          "displayText": "接着武昌起义后，各地陆续响应。"
+        },
+        "assetId": "sun-yatsen-undated-historical-portrait",
+        "image": "/content/step-images/sun-yatsen-undated-historical-portrait.jpg",
+        "imageAlt": "孙中山历史肖像照片",
+        "imageCaption": "孙中山历史肖像照片，具体拍摄年份未确定。",
+        "imageBoundary": "来源页未确定拍摄日期，不能说成兴中会、同盟会、武昌起义或就职现场；肖像只显示人物形象，政治活动须由文献核验。原图499×800像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-5c7fea1ec3f5c540",
+            "text": "接着武昌起义后，各地陆续响应。"
+          },
+          "image": {
+            "id": "quest-942d25613591f734",
+            "text": "点开大图啦。这是孙中山历史肖像照片。这张图能帮我们找到：接着武昌起义后，各地陆续响应。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-02-01-revolution-1911-journey-1",
+            "label": "接着武昌起义后，各地陆续响应。",
+            "correct": true,
+            "audio": {
+              "id": "quest-5c7fea1ec3f5c540",
+              "text": "接着武昌起义后，各地陆续响应。"
+            }
+          },
+          {
+            "id": "cn-modern-02-01-revolution-1911-journey-2",
+            "label": "檀香山、东京、武，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-c62a8fcf8e248587",
+              "text": "檀香山、东京、武，只说了地点"
+            }
+          },
+          {
+            "id": "cn-modern-02-01-revolution-1911-journey-3",
+            "label": "孙中山、黄兴、革命团，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-6063da3550d274b9",
+              "text": "孙中山、黄兴、革命团，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "皇帝时代结束",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后南京成立临时政府，皇帝时代结束。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "皇帝时代结束",
+          "screenText": "最后南京成立临时政府，皇帝时代结束。",
+          "narration": "最后南京成立临时政府，皇帝时代结束。",
+          "displayText": "最后南京成立临时政府，皇帝时代结束。"
+        },
+        "assetId": "hubei-military-government-circa-1911-photo",
+        "image": "/content/step-images/hubei-military-government-circa-1911-photo.jpg",
+        "imageAlt": "约1911年湖北军政府人员合影",
+        "imageCaption": "约1911年，湖北军政府人员在建筑前的历史合影。",
+        "imageBoundary": "照片显示人员、建筑和起义旗帜，不是武昌起义交战现场，也不能凭站位、服饰和旗帜判断每个人的身份、职务或观点。原图1405×834像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-e4d3003c2ae37ac7",
+            "text": "最后南京成立临时政府，皇帝时代结束。"
+          },
+          "image": {
+            "id": "quest-bd9b70ac814857e1",
+            "text": "点开大图啦。这是约1911年湖北军政府人员合影。这张图能帮我们找到：最后南京成立临时政府，皇帝时代结束。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-02-01-revolution-1911-change-1",
+            "label": "武昌起义后，各地陆续响，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-465817766d737b23",
+              "text": "武昌起义后，各地陆续响，还只是行动经过"
+            }
+          },
+          {
+            "id": "cn-modern-02-01-revolution-1911-change-2",
+            "label": "同盟会文献、武昌遗，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-a0a1afb987e66735",
+              "text": "同盟会文献、武昌遗，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-modern-02-01-revolution-1911-change-3",
+            "label": "最后南京成立临时政府，皇帝时代结束。",
+            "correct": true,
+            "audio": {
+              "id": "quest-e4d3003c2ae37ac7",
+              "text": "最后南京成立临时政府，皇帝时代结束。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "辛亥革命靠多年组织和许多人响应，结束皇帝制度只是建设共和国的起点。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "辛亥革命靠多年组织和许多人响应，结束皇帝制度只是建设共和国的起点。",
+          "narration": "辛亥革命靠多年组织和许多人响应，结束皇帝制度只是建设共和国的起点。",
+          "displayText": "辛亥革命靠多年组织和许多人响应，结束皇帝制度只是建设共和国的起点。"
+        },
+        "assetId": "sun-yatsen-undated-historical-portrait",
+        "image": "/content/step-images/sun-yatsen-undated-historical-portrait.jpg",
+        "imageAlt": "孙中山历史肖像照片",
+        "imageCaption": "孙中山历史肖像照片，具体拍摄年份未确定。",
+        "imageBoundary": "来源页未确定拍摄日期，不能说成兴中会、同盟会、武昌起义或就职现场；肖像只显示人物形象，政治活动须由文献核验。原图499×800像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-dabb9ef560ecddda",
+            "text": "辛亥革命靠多年组织和许多人响应，结束皇帝制度只是建设共和国的起点。"
+          },
+          "image": {
+            "id": "quest-1c74a5600e00122e",
+            "text": "点开大图啦。这是孙中山历史肖像照片。这张图能帮我们找到：辛亥革命靠多年组织和许多人响应，结束皇帝制度只是建设共和国的起点。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-02-01-revolution-1911-takeaway-1",
+            "label": "南京成立临时政府，皇帝时代结束。、孙中山怎样把许多人连在，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-b1da9e22cd44f10e",
+              "text": "南京成立临时政府，皇帝时代结束。、孙中山怎样把许多人连在，只说了结果"
+            }
+          },
+          {
+            "id": "cn-modern-02-01-revolution-1911-takeaway-2",
+            "label": "辛亥革命靠多年组织和许多人响应，结束皇帝制度只是建设共和国的起点。",
+            "correct": true,
+            "audio": {
+              "id": "quest-dabb9ef560ecddda",
+              "text": "辛亥革命靠多年组织和许多人响应，结束皇帝制度只是建设共和国的起点。"
+            }
+          },
+          {
+            "id": "cn-modern-02-01-revolution-1911-takeaway-3",
+            "label": "跟孙中山从檀香山、东京联络革命团体。、同盟会文献、武，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-a443711c8e6efdb8",
+              "text": "跟孙中山从檀香山、东京联络革命团体。、同盟会文献、武，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "时间线接力",
+        "items": [
+          "按“兴中会—同盟会—武昌起义—中华民国建立与清帝退位”排序。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "革命网络拼图",
+        "items": [
+          "把组织、宣传、筹款、人才和起义放进同一张网络，拒绝“一个英雄单独完成革命”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "照片证据判断",
+        "items": [
+          "选择“军政府人员与旗帜的历史照片”，排除“武昌起义战斗现场”和“所有人物职务表”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "甲午战败和民族危机加深以后，越来越多人认为只修补清政府已经不够。孙中山等革命者先后组织兴中会、中国同盟会，联络国内外成员、传播革命主张、筹集经费并多次发动起义。许多起义失败了，却积累了组织和社会影响。1911年10月10日武昌起义爆发后，多省相继响应。1912年1月1日，中华民国临时政府在南京成立；2月12日清帝退位。辛亥革命推翻了清王朝，结束了在中国延续两千多年的君主专制制度，建立了资产阶级共和国。它是许多人长期行动和当时多种矛盾共同作用的结果，不能写成孙中山一个人当天“指挥全国成功”。"
@@ -330,20 +955,26 @@
       "title": "约1911年湖北军政府人员合影",
       "localPath": "reference-assets/china-modern-revolution-social/hubei-military-government-1911.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Hubei_Military_Government.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — anonymous pre-1931 photograph",
       "clearance": "cleared-open-license",
       "caption": "约1911年，湖北军政府人员在建筑前的历史合影。",
-      "boundary": "照片显示人员、建筑和起义旗帜，不是武昌起义交战现场，也不能凭站位、服饰和旗帜判断每个人的身份、职务或观点。原图1405×834像素，未作修改。"
+      "boundary": "照片显示人员、建筑和起义旗帜，不是武昌起义交战现场，也不能凭站位、服饰和旗帜判断每个人的身份、职务或观点。原图1405×834像素，未作修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "sun-yatsen-undated-historical-portrait",
       "title": "孙中山历史肖像照片",
       "localPath": "reference-assets/china-modern-revolution-social/sun-yat-sen-undated.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sun_Yat-sen_F.01021.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "孙中山历史肖像照片，具体拍摄年份未确定。",
-      "boundary": "来源页未确定拍摄日期，不能说成兴中会、同盟会、武昌起义或就职现场；肖像只显示人物形象，政治活动须由文献核验。原图499×800像素，未作修改。"
+      "boundary": "来源页未确定拍摄日期，不能说成兴中会、同盟会、武昌起义或就职现场；肖像只显示人物形象，政治活动须由文献核验。原图499×800像素，未作修改。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-modern-02-01-revolution-1911.jpg",

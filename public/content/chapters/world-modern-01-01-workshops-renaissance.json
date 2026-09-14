@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-modern-01-01-workshops-renaissance",
   "trackId": "world-modern",
   "trackLabel": "世界近代史",
@@ -13,7 +13,560 @@
   "title": "工场、城市和文艺复兴带来了什么新变化",
   "coreQuestion": "经济生活变化怎样与新的文化表达相互影响？",
   "throughline": "从14世纪农村雇佣劳动和地区差异，到佛罗伦萨织物、城市赞助与合作作坊，再以古典文本教育、约1454—1455年欧洲金属活字、观察稿、莎士比亚剧团和后世书籍认识经济与文化的长期变化。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-modern-01-01-workshops-renaissance",
+    "childTitle": "达·芬奇为什么画一只熊",
+    "prompt": "仔细观察毛、爪和动作，怎样帮助艺术家与工匠做出新作品？",
+    "takeaway": "达·芬奇的熊爪素描提醒我们：观察、练习和工坊合作比灵光一闪更重要。",
+    "object": "达·芬奇熊爪素描、印刷图与纺织品",
+    "people": [
+      "达·芬奇、印刷工、织工、剧团与城市顾客"
+    ],
+    "place": "佛罗伦萨、威尼斯与欧洲城市工场",
+    "culture": "文艺复兴绘画、印刷书与戏剧",
+    "care": "素描是观察与练习，不把达·芬奇写成无所不能的单人发明家。",
+    "preferredAssetId": "leonardo-bear-c1482-1485-met-open-access"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🖼️",
+      "label": "从一幅图画出发",
+      "text": "达·芬奇为什么画一只熊"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "达芬奇反复画熊",
+      "text": "先看达·芬奇反复画熊的毛、爪和动作。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "工坊里一起工作",
+      "text": "接着看画家、印刷工和织工怎样一起工作。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "新作品慢慢出现",
+      "text": "最后观察、练习和合作让新作品不断出现。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "达·芬奇的熊爪素描提醒我们：观察、练习和工坊合作比灵光一闪更重要。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "手工业",
+      "icon": "🧵",
+      "plain": "主要靠手和工具制作器物的生产活动。",
+      "example": "陶器、织物和青铜器都需要材料、技术与分工。",
+      "priority": 2
+    },
+    {
+      "term": "翻译",
+      "icon": "🗣️",
+      "plain": "把一种语言表达的意思换成另一种语言。",
+      "example": "翻译需要懂语言和知识，也常由团队反复校订。",
+      "priority": 2
+    },
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "宗教",
+      "icon": "🕯️",
+      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
+      "example": "同一种宗教内部也有不同地区、时代和人群。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "达·芬奇",
+      "reading": "Dá Fēnqí",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-01-01-workshops-renaissance"
+      ],
+      "note": "间隔号处可作很短停顿。"
+    },
+    {
+      "text": "佛罗伦萨",
+      "reading": "Fóluólúnsà",
+      "kind": "place",
+      "chapterIds": [
+        "world-modern-01-01-workshops-renaissance"
+      ],
+      "note": "按中文译名逐音节读清楚。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一幅图画",
+      "icon": "🖼️",
+      "label": "达·芬奇为什么画一只熊",
+      "question": "仔细观察毛、爪和动作，怎样帮助艺术家与工匠做出新作品？"
+    },
+    "coverAudio": {
+      "id": "quest-8858c0c9c37275e5",
+      "text": "今天从一幅图画出发：达·芬奇为什么画一只熊。我们要去佛罗伦萨、威尼斯与欧洲城市工场，看看达·芬奇熊爪素描、印刷图与纺织品怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-3bffc6c5885d1487",
+      "text": "五条线索都找到了，“达·芬奇为什么画一只熊”的答案是：达·芬奇的熊爪素描提醒我们：观察、练习和工坊合作比灵光一闪更重要。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一幅图画出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是近代早期经济与文化变化，时间是约14—16世纪。",
+          "narration": "这是近代早期经济与文化变化，时间是约14—16世纪。",
+          "displayText": "这是近代早期经济与文化变化，时间是约14—16世纪。"
+        },
+        "assetId": "leonardo-bear-c1482-1485-met-open-access",
+        "image": "/content/step-images/leonardo-bear-c1482-1485-met-open-access.jpg",
+        "imageAlt": "达·芬奇约1482—1485年《行走的熊》观察稿",
+        "imageCaption": "达·芬奇约1482—1485年以银尖笔画的熊及熊掌观察稿，纸上还能看见被重复利用的浅淡旧线条；对象编号1975.1.369。",
+        "imageBoundary": "The Met开放原图2997×2313像素，等比缩至2200×1698像素，未裁切。它显示反复观察、作图和纸张使用，不证明达·芬奇独自发明现代动物学，也不把他未完成或未实施的想法改写成真实机器。",
+        "audio": {
+          "transition": {
+            "id": "quest-dd8f3f7d7187db9c",
+            "text": "先给一幅图画找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-755ad44a50dfec12",
+            "text": "这是近代早期经济与文化变化，时间是约14—16世纪。"
+          },
+          "image": {
+            "id": "quest-3f7ef08fa99c95cd",
+            "text": "点开大图啦。这是达·芬奇约1482—1485年《行走的熊》观察稿。这张图能帮我们找到：这是近代早期经济与文化变化，时间是约14—16世纪。"
+          },
+          "question": {
+            "id": "quest-836c2c535db5207c",
+            "text": "从一幅图画出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-01-01-workshops-renaissance-time-1",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "world-modern-01-01-workshops-renaissance-time-2",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "world-modern-01-01-workshops-renaissance-time-3",
+            "label": "世界近代史 · 近代早期经济与文化变化 · 约14—16世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-60f2c75b756bf51d",
+              "text": "世界近代史 · 近代早期经济与文化变化 · 约14—16世纪"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "达芬奇反复画熊",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看达·芬奇反复画熊的毛、爪和动作。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "达芬奇反复画熊",
+          "screenText": "先看达·芬奇反复画熊的毛、爪和动作。",
+          "narration": "先看达·芬奇反复画熊的毛、爪和动作。",
+          "displayText": "先看达·芬奇反复画熊的毛、爪和动作。"
+        },
+        "assetId": "leonardo-bear-c1482-1485-met-open-access",
+        "image": "/content/step-images/leonardo-bear-c1482-1485-met-open-access.jpg",
+        "imageAlt": "达·芬奇约1482—1485年《行走的熊》观察稿",
+        "imageCaption": "达·芬奇约1482—1485年以银尖笔画的熊及熊掌观察稿，纸上还能看见被重复利用的浅淡旧线条；对象编号1975.1.369。",
+        "imageBoundary": "The Met开放原图2997×2313像素，等比缩至2200×1698像素，未裁切。它显示反复观察、作图和纸张使用，不证明达·芬奇独自发明现代动物学，也不把他未完成或未实施的想法改写成真实机器。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-7c5be784923b8206",
+            "text": "先看达·芬奇反复画熊的毛、爪和动作。"
+          },
+          "image": {
+            "id": "quest-5c232d74205fa6e7",
+            "text": "点开大图啦。这是达·芬奇约1482—1485年《行走的熊》观察稿。这张图能帮我们找到：先看达·芬奇反复画熊的毛、爪和动作。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-01-01-workshops-renaissance-beginning-1",
+            "label": "佛罗伦萨、威尼斯与欧洲城市工场，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-b608de4989e6b220",
+              "text": "佛罗伦萨、威尼斯与欧洲城市工场，只是故事地点"
+            }
+          },
+          {
+            "id": "world-modern-01-01-workshops-renaissance-beginning-2",
+            "label": "达·芬奇熊爪素描、印刷图与纺织品，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-491a9c78c2a2590e",
+              "text": "达·芬奇熊爪素描、印刷图与纺织品，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-modern-01-01-workshops-renaissance-beginning-3",
+            "label": "达·芬奇、印刷工、织工、剧团与城市顾，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-b8034bd123e3378b",
+              "text": "达·芬奇、印刷工、织工、剧团与城市顾，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "工坊里一起工作",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看画家、印刷工和织工怎样一起工作。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "工坊里一起工作",
+          "screenText": "接着看画家、印刷工和织工怎样一起工作。",
+          "narration": "接着看画家、印刷工和织工怎样一起工作。",
+          "displayText": "接着看画家、印刷工和织工怎样一起工作。"
+        },
+        "assetId": "florence-young-man-c1470-met-open-access",
+        "image": "/content/step-images/florence-young-man-c1470-met-open-access.jpg",
+        "imageAlt": "比亚焦·德安东尼奥约1470年《青年男子肖像》",
+        "imageCaption": "约1470年的佛罗伦萨青年肖像，远处可见艺术家安排的城墙、教堂与阿尔诺河谷景观；对象编号32.100.68。",
+        "imageBoundary": "The Met开放原图2794×3855像素，等比缩至1594×2200像素，未裁切。馆方认为通常由贵族家庭为特殊场合委托；不能据衣服、表情和背景确定少年姓名、真实心情、具体家庭财富或所有城市青年生活。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-4ae618039dc4a249",
+            "text": "接着看画家、印刷工和织工怎样一起工作。"
+          },
+          "image": {
+            "id": "quest-6ad64b6df90c8198",
+            "text": "点开大图啦。这是比亚焦·德安东尼奥约1470年《青年男子肖像》。这张图能帮我们找到：接着看画家、印刷工和织工怎样一起工作。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-01-01-workshops-renaissance-journey-1",
+            "label": "接着看画家、印刷工和织工怎样一起工作。",
+            "correct": true,
+            "audio": {
+              "id": "quest-4ae618039dc4a249",
+              "text": "接着看画家、印刷工和织工怎样一起工作。"
+            }
+          },
+          {
+            "id": "world-modern-01-01-workshops-renaissance-journey-2",
+            "label": "佛罗伦萨、威尼斯与欧洲城，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-059c4e8afe4df75c",
+              "text": "佛罗伦萨、威尼斯与欧洲城，只说了地点"
+            }
+          },
+          {
+            "id": "world-modern-01-01-workshops-renaissance-journey-3",
+            "label": "达·芬奇、印刷工、织工、剧团，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-db1707b45226d985",
+              "text": "达·芬奇、印刷工、织工、剧团，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "新作品慢慢出现",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后观察、练习和合作让新作品不断出现。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "新作品慢慢出现",
+          "screenText": "最后观察、练习和合作让新作品不断出现。",
+          "narration": "最后观察、练习和合作让新作品不断出现。",
+          "displayText": "最后观察、练习和合作让新作品不断出现。"
+        },
+        "assetId": "shakespeare-first-folio-title-1623-bl-cc0",
+        "image": "/content/step-images/shakespeare-first-folio-title-1623-bl-cc0.jpg",
+        "imageAlt": "1623年莎士比亚《第一对开本》标题页",
+        "imageCaption": "1623年《第一对开本》标题页，莎士比亚去世七年后由同事与印刷出版者合作整理，标题页含德鲁肖特肖像。",
+        "imageBoundary": "保留British Library/Commons图1042×1679像素，未裁切。它不是莎士比亚亲笔原稿、在世照片或其独自设计的封面；肖像是版画，合集保留36部戏剧，其中18部此前未印。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-04ca78388c20222d",
+            "text": "最后观察、练习和合作让新作品不断出现。"
+          },
+          "image": {
+            "id": "quest-9a3708604f7e7ee9",
+            "text": "点开大图啦。这是1623年莎士比亚《第一对开本》标题页。这张图能帮我们找到：最后观察、练习和合作让新作品不断出现。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-01-01-workshops-renaissance-change-1",
+            "label": "看画家、印刷工和织工怎样，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-c4d89acabb2e053a",
+              "text": "看画家、印刷工和织工怎样，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-modern-01-01-workshops-renaissance-change-2",
+            "label": "达·芬奇熊爪素描、印，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-b1483a27bff92bfc",
+              "text": "达·芬奇熊爪素描、印，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-modern-01-01-workshops-renaissance-change-3",
+            "label": "最后观察、练习和合作让新作品不断出现。",
+            "correct": true,
+            "audio": {
+              "id": "quest-04ca78388c20222d",
+              "text": "最后观察、练习和合作让新作品不断出现。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "达·芬奇的熊爪素描提醒我们：观察、练习和工坊合作比灵光一闪更重要。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "达·芬奇的熊爪素描提醒我们：观察、练习和工坊合作比灵光一闪更重要。",
+          "narration": "达·芬奇的熊爪素描提醒我们：观察、练习和工坊合作比灵光一闪更重要。",
+          "displayText": "达·芬奇的熊爪素描提醒我们：观察、练习和工坊合作比灵光一闪更重要。"
+        },
+        "assetId": "leonardo-bear-c1482-1485-met-open-access",
+        "image": "/content/step-images/leonardo-bear-c1482-1485-met-open-access.jpg",
+        "imageAlt": "达·芬奇约1482—1485年《行走的熊》观察稿",
+        "imageCaption": "达·芬奇约1482—1485年以银尖笔画的熊及熊掌观察稿，纸上还能看见被重复利用的浅淡旧线条；对象编号1975.1.369。",
+        "imageBoundary": "The Met开放原图2997×2313像素，等比缩至2200×1698像素，未裁切。它显示反复观察、作图和纸张使用，不证明达·芬奇独自发明现代动物学，也不把他未完成或未实施的想法改写成真实机器。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-c8f8d6527e0325ac",
+            "text": "达·芬奇的熊爪素描提醒我们：观察、练习和工坊合作比灵光一闪更重要。"
+          },
+          "image": {
+            "id": "quest-23d0db6f51b454c4",
+            "text": "点开大图啦。这是达·芬奇约1482—1485年《行走的熊》观察稿。这张图能帮我们找到：达·芬奇的熊爪素描提醒我们：观察、练习和工坊合作比灵光一闪更重要。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-01-01-workshops-renaissance-takeaway-1",
+            "label": "观察、练习和合作让新作品不断出现。、达·芬奇为什么画一只，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-8ada22cb4f3b07d5",
+              "text": "观察、练习和合作让新作品不断出现。、达·芬奇为什么画一只，只说了结果"
+            }
+          },
+          {
+            "id": "world-modern-01-01-workshops-renaissance-takeaway-2",
+            "label": "达·芬奇的熊爪素描提醒我们：观察、练习和工坊合作比灵光一闪更重要。",
+            "correct": true,
+            "audio": {
+              "id": "quest-c8f8d6527e0325ac",
+              "text": "达·芬奇的熊爪素描提醒我们：观察、练习和工坊合作比灵光一闪更重要。"
+            }
+          },
+          {
+            "id": "world-modern-01-01-workshops-renaissance-takeaway-3",
+            "label": "看达·芬奇反复画熊的毛、爪和动作。、达·芬奇熊爪素描，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-cc3692983579b575",
+              "text": "看达·芬奇反复画熊的毛、爪和动作。、达·芬奇熊爪素描，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把证据放回时间线",
+        "items": [
+          "依次放置“约1454—1455年《古腾堡圣经》”“约1482—1485年熊观察稿”“约1600年印刷作坊版画”“1623年《第一对开本》”“1637年《天工开物》”。反馈重点是后两种材料如何保存或解释更早时代，不把后世图书倒填成15世纪现场。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "一件商品经过哪些手",
+        "items": [
+          "把原料、纺线、染色、织造、运输和销售连成协作网；再选“华丽天鹅绒可以证明高水平织造”与“还不能直接知道每位劳动者工资”。不做压价、超时劳动、童工雇佣或财富最大化游戏。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "证据能说到哪一步",
+        "items": [
+          "给青年肖像、熊观察稿、印刷作坊版画和《第一对开本》选择“可以支持”与“还不能证明”。可以支持委托肖像的形式、观察试画、多步骤作坊想象、1623年合集出版；不能证明人物心情、每条草图都是发明、1455年作坊原样或莎士比亚亲笔审定全部文本。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "14—16世纪的西欧变化不是某一天从“中世纪”跳进“新时代”。多数人仍住在农村，家庭农业、庄园关系、行会和教会继续存在；同时，租佃、雇佣劳动、面向市场的农业、城市商业、手工作坊和由商人组织的分散生产在一些地区发展，早期资本主义生产关系逐步出现。繁荣商品背后有农民、学徒、妇女、雇工、工匠和商人的不同劳动与不平等处境。城市财富、行会、教会、政府和私人赞助给艺术与书籍提供条件，艺术家通常在师傅、学徒、助手组成的作坊里工作。所谓文艺复兴人文主义，主要是重新学习和编辑古典语言、文学、历史、修辞与道德哲学，并不是宗教突然消失。观察人体与自然、肖像、版画、金属活字和戏剧共同扩大了表达方式。同期明代中国也有发达的城市商业、手工业、雕版与活字传统以及多样文化，但两地制度和变化路径不同，不能因为都繁荣就画成同一种“资本主义萌芽”。"
@@ -659,70 +1212,91 @@
       "title": "《天工开物》铸鼎插图",
       "localPath": "reference-assets/ming-qing/tiangong-kaiwu-casting.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tiangong_Kaiwu_Tripod_Casting.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "《天工开物》传本中的铸鼎工序插图。",
-      "boundary": "历史技术书中的传刊插图，不是1637年作坊照片，也不能据一页复原所有设备、人数和步骤。原图400×309像素，尺寸较小，不宜过度放大。"
+      "boundary": "历史技术书中的传刊插图，不是1637年作坊照片，也不能据一页复原所有设备、人数和步骤。原图400×309像素，尺寸较小，不宜过度放大。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "florence-gold-velvet-67-55-101-met-open-access",
       "title": "15世纪晚期至16世纪中叶佛罗伦萨金线天鹅绒",
       "localPath": "reference-assets/world-modern-workshops-renaissance/florence-gold-velvet-1485-1550.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/229157",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "15世纪晚期至16世纪中叶在佛罗伦萨织成的金银线天鹅绒，三幅织宽相接，大都会艺术博物馆编号67.55.101。",
-      "boundary": "The Met开放原图2303×4000像素，等比缩至1266×2200像素，未裁切。精美成品支持佛罗伦萨纺织技术、奢侈消费和跨地区客户，不直接显示原料来源、工时、工资、作坊人数或所有劳动者生活。"
+      "boundary": "The Met开放原图2303×4000像素，等比缩至1266×2200像素，未裁切。精美成品支持佛罗伦萨纺织技术、奢侈消费和跨地区客户，不直接显示原料来源、工时、工资、作坊人数或所有劳动者生活。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "florence-young-man-c1470-met-open-access",
       "title": "比亚焦·德安东尼奥约1470年《青年男子肖像》",
       "localPath": "reference-assets/world-modern-workshops-renaissance/florence-young-man-c1470.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/435664",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "约1470年的佛罗伦萨青年肖像，远处可见艺术家安排的城墙、教堂与阿尔诺河谷景观；对象编号32.100.68。",
-      "boundary": "The Met开放原图2794×3855像素，等比缩至1594×2200像素，未裁切。馆方认为通常由贵族家庭为特殊场合委托；不能据衣服、表情和背景确定少年姓名、真实心情、具体家庭财富或所有城市青年生活。"
+      "boundary": "The Met开放原图2794×3855像素，等比缩至1594×2200像素，未裁切。馆方认为通常由贵族家庭为特殊场合委托；不能据衣服、表情和背景确定少年姓名、真实心情、具体家庭财富或所有城市青年生活。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "leonardo-bear-c1482-1485-met-open-access",
       "title": "达·芬奇约1482—1485年《行走的熊》观察稿",
       "localPath": "reference-assets/world-modern-workshops-renaissance/leonardo-bear-c1482-1485.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/459184",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "达·芬奇约1482—1485年以银尖笔画的熊及熊掌观察稿，纸上还能看见被重复利用的浅淡旧线条；对象编号1975.1.369。",
-      "boundary": "The Met开放原图2997×2313像素，等比缩至2200×1698像素，未裁切。它显示反复观察、作图和纸张使用，不证明达·芬奇独自发明现代动物学，也不把他未完成或未实施的想法改写成真实机器。"
+      "boundary": "The Met开放原图2997×2313像素，等比缩至2200×1698像素，未裁切。它显示反复观察、作图和纸张使用，不证明达·芬奇独自发明现代动物学，也不把他未完成或未实施的想法改写成真实机器。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "nova-reperta-printing-workshop-c1600-met-open-access",
       "title": "约1600年《新发明》书籍印刷作坊版画",
       "localPath": "reference-assets/world-modern-workshops-renaissance/book-printing-workshop-c1600.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/659683",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "约1600年《新发明》系列第4版，艺术家表现排字、校读、上墨、压印、整理和晾纸等多人协作；对象编号34.30(5)。",
-      "boundary": "The Met开放原图3547×2707像素，等比缩至2200×1679像素，未裁切。它是约1600年后人组织的‘印刷发明’图像，不是1455年古腾堡作坊照片；人物、空间和步骤可能为便于观看而集中。"
+      "boundary": "The Met开放原图3547×2707像素，等比缩至2200×1679像素，未裁切。它是约1600年后人组织的‘印刷发明’图像，不是1455年古腾堡作坊照片；人物、空间和步骤可能为便于观看而集中。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "gutenberg-bible-genesis-1454-public-domain",
       "title": "约1454—1455年《古腾堡圣经》创世记首页",
       "localPath": "reference-assets/world-modern-workshops-renaissance/gutenberg-bible-genesis-1454.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:W%C3%BCrttembergische_Landesbibliothek_Stuttgart_Gutenberg_Genesis.png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-public-domain",
       "caption": "斯图加特馆藏《古腾堡圣经》创世记首页，约1454—1455年印刷；黑色正文与后来手工加入的彩色标题和边饰同时可见。",
-      "boundary": "保留Commons原图969×1421像素，未裁切。页面显示欧洲金属活字印刷与手工装饰并存，不说古腾堡‘发明世界上第一种印刷术’，也不据一页判断整套书每页装饰方式相同。"
+      "boundary": "保留Commons原图969×1421像素，未裁切。页面显示欧洲金属活字印刷与手工装饰并存，不说古腾堡‘发明世界上第一种印刷术’，也不据一页判断整套书每页装饰方式相同。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "shakespeare-first-folio-title-1623-bl-cc0",
       "title": "1623年莎士比亚《第一对开本》标题页",
       "localPath": "reference-assets/world-modern-workshops-renaissance/shakespeare-first-folio-title-1623.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Title_Page_-_Shakespeare_First_Folio_(1623),_title_page_-_BL.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "1623年《第一对开本》标题页，莎士比亚去世七年后由同事与印刷出版者合作整理，标题页含德鲁肖特肖像。",
-      "boundary": "保留British Library/Commons图1042×1679像素，未裁切。它不是莎士比亚亲笔原稿、在世照片或其独自设计的封面；肖像是版画，合集保留36部戏剧，其中18部此前未印。"
+      "boundary": "保留British Library/Commons图1042×1679像素，未裁切。它不是莎士比亚亲笔原稿、在世照片或其独自设计的封面；肖像是版画，合集保留36部戏剧，其中18部此前未印。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-modern-01-01-workshops-renaissance.jpg",

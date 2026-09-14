@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.8.0",
+  "contentVersion": "0.9.0",
   "id": "cn-modern-02-02-early-republic",
   "trackId": "china-modern",
   "trackLabel": "中国近代史",
@@ -13,7 +13,623 @@
   "title": "共和国建立后，为什么仍然困难重重",
   "coreQuestion": "辛亥革命的成果和局限分别是什么？",
   "throughline": "连接中华民国建立、临时约法、袁世凯窃取革命果实和北洋军阀统治，认识制度变化并不等于问题立即解决。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-modern-02-02-early-republic",
+    "childTitle": "一纸约法为什么还不够",
+    "prompt": "写下共和国规则以后，为什么还需要真正执行和许多人守护？",
+    "takeaway": "纸上规则要由机构和人真正遵守；权力失去约束，共和就会受到破坏。",
+    "object": "《中华民国临时约法》与报刊",
+    "people": [
+      "孙中山、袁世凯、议员与社会公众"
+    ],
+    "place": "南京与北京",
+    "culture": "民初报刊与新式纪年",
+    "care": "把制度、权力和执行分开讲，不把政治斗争变成个人善恶卡。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📄",
+      "label": "从一页文字出发",
+      "text": "一纸约法为什么还不够"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "约法写下新规则",
+      "text": "先看《临时约法》写下怎样管理新国家。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "大家争论权力",
+      "text": "接着看议员、总统和社会公众怎样争论权力。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "写下还要做到",
+      "text": "最后发现写下规则很重要，落实还要继续行动。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "纸上规则要由机构和人真正遵守；权力失去约束，共和就会受到破坏。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "共和国",
+      "icon": "🏛️",
+      "plain": "国家职位不是由皇位世代传下去的国家形式。",
+      "example": "写下共和国原则，不代表这些原则立刻全部做到。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "priority": 1
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "革命",
+      "icon": "🔄",
+      "plain": "许多人推动改变旧政权或旧制度的大变化。",
+      "example": "革命不是只看一场战斗，还要看原因、参与者和结果。",
+      "priority": 1
+    },
+    {
+      "term": "民主",
+      "icon": "🗳️",
+      "plain": "公共事情不只由一个人说了算，人们按规则参与。",
+      "example": "不同年代参与范围不同，不能把古代投票当成今天制度。",
+      "priority": 1
+    },
+    {
+      "term": "侵略",
+      "icon": "⛔",
+      "plain": "用武力进入别国，夺取土地或控制权。",
+      "example": "抵抗侵略和发动侵略的责任不能混在一起。",
+      "priority": 1
+    },
+    {
+      "term": "权利",
+      "icon": "🫶",
+      "plain": "规则承认一个人可以做、可以得到保护的事情。",
+      "example": "写有权利，还要检查妇女、奴隶和穷人是否真的拥有。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "主权",
+      "icon": "🏠",
+      "plain": "一个国家自己决定本国事务的权力。",
+      "example": "强迫签约、割地或控制关税会伤害主权。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "皇帝",
+      "icon": "👑",
+      "plain": "古代君主国家最高统治者的一种称号。",
+      "example": "皇帝会作决定，也依靠官员、军队、工匠和百姓。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "孙中山",
+      "reading": "Sūn Zhōngshān",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-02-01-revolution-1911",
+        "cn-modern-02-02-early-republic"
+      ],
+      "note": "人名连读。"
+    },
+    {
+      "text": "袁世凯",
+      "reading": "Yuán Shìkǎi",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-02-02-early-republic"
+      ],
+      "note": "“凯”读kǎi。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一页文字",
+      "icon": "📄",
+      "label": "一纸约法为什么还不够",
+      "question": "写下共和国规则以后，为什么还需要真正执行和许多人守护？"
+    },
+    "coverAudio": {
+      "id": "quest-8f9516d9037b3459",
+      "text": "今天从一页文字出发：一纸约法为什么还不够。我们要去南京与北京，看看《中华民国临时约法》与报刊怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-4e7264a0e34ab8ee",
+      "text": "五条线索都找到了，“一纸约法为什么还不够”的答案是：纸上规则要由机构和人真正遵守；权力失去约束，共和就会受到破坏。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 8,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一页文字出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是辛亥革命与中华民国建立，时间是1894—1916年（与上一段部分重叠）。",
+          "narration": "这是辛亥革命与中华民国建立，时间是1894—1916年（与上一段部分重叠）。",
+          "displayText": "这是辛亥革命与中华民国建立，时间是1894—1916年（与上一段部分重叠）。"
+        },
+        "assetId": "provisional-constitution-1912-printed-page",
+        "image": "/content/step-images/provisional-constitution-1912-printed-page.jpg",
+        "imageAlt": "1912年《中华民国临时约法》历史印本页",
+        "imageCaption": "1912年《中华民国临时约法》历史印本中的一页。",
+        "imageBoundary": "这是历史印本页，不是手写原件；只显示第一至第六条的一部分版面，不能代替全文，也不能证明条文在现实中已经全部实行。原图404×678像素，尺寸较小。",
+        "audio": {
+          "transition": {
+            "id": "quest-b549517b0dc0130c",
+            "text": "先给一页文字找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-6b09656d450455a6",
+            "text": "这是辛亥革命与中华民国建立，时间是1894—1916年（与上一段部分重叠）。"
+          },
+          "image": {
+            "id": "quest-1cb9b48f0914d205",
+            "text": "点开大图啦。这是1912年《中华民国临时约法》历史印本页。这张图能帮我们找到：这是辛亥革命与中华民国建立，时间是1894—1916年（与上一段部分重叠）。"
+          },
+          "question": {
+            "id": "quest-00e58e93824b8fd3",
+            "text": "从一页文字出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-02-02-early-republic-time-1",
+            "label": "中国近代史 · 辛亥革命与中华民国建立 · 1894—1916年（与上一段部分重叠）",
+            "correct": true,
+            "audio": {
+              "id": "quest-211439f302ee6372",
+              "text": "中国近代史 · 辛亥革命与中华民国建立 · 1894—1916年（与上一段部分重叠）"
+            }
+          },
+          {
+            "id": "cn-modern-02-02-early-republic-time-2",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "cn-modern-02-02-early-republic-time-3",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "约法写下新规则",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看《临时约法》写下怎样管理新国家。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "约法写下新规则",
+          "screenText": "先看《临时约法》写下怎样管理新国家。",
+          "narration": "先看《临时约法》写下怎样管理新国家。",
+          "displayText": "先看《临时约法》写下怎样管理新国家。"
+        },
+        "assetId": "provisional-constitution-1912-printed-page",
+        "image": "/content/step-images/provisional-constitution-1912-printed-page.jpg",
+        "imageAlt": "1912年《中华民国临时约法》历史印本页",
+        "imageCaption": "1912年《中华民国临时约法》历史印本中的一页。",
+        "imageBoundary": "这是历史印本页，不是手写原件；只显示第一至第六条的一部分版面，不能代替全文，也不能证明条文在现实中已经全部实行。原图404×678像素，尺寸较小。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-9e81486b1f80d387",
+            "text": "先看《临时约法》写下怎样管理新国家。"
+          },
+          "image": {
+            "id": "quest-9f8584c4d14afe2e",
+            "text": "点开大图啦。这是1912年《中华民国临时约法》历史印本页。这张图能帮我们找到：先看《临时约法》写下怎样管理新国家。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-02-02-early-republic-beginning-1",
+            "label": "南京与北京、孙中山、袁世凯，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-3f383f3eaa5b84f5",
+              "text": "南京与北京、孙中山、袁世凯，只是故事地点"
+            }
+          },
+          {
+            "id": "cn-modern-02-02-early-republic-beginning-2",
+            "label": "孙中山、袁世凯、议员与社会公众，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-e59987e6274e2f0c",
+              "text": "孙中山、袁世凯、议员与社会公众，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-modern-02-02-early-republic-beginning-3",
+            "label": "《中华民国临时约法》与报刊，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-6735e78b9f82c121",
+              "text": "《中华民国临时约法》与报刊，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "大家争论权力",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看议员、总统和社会公众怎样争论权力。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "大家争论权力",
+          "screenText": "接着看议员、总统和社会公众怎样争论权力。",
+          "narration": "接着看议员、总统和社会公众怎样争论权力。",
+          "displayText": "接着看议员、总统和社会公众怎样争论权力。"
+        },
+        "assetId": "yuan-shikai-president-1915-loc-photo",
+        "image": "/content/step-images/yuan-shikai-president-1915-loc-photo.jpg",
+        "imageAlt": "1915年袁世凯总统时期正式肖像",
+        "imageCaption": "1915年袁世凯担任总统时期的正式肖像照片。",
+        "imageBoundary": "来源说明为总统肖像，不是称帝或登基典礼照片；画面中的军装、勋章、题字、道具和姿势不能代替政治行为证据。下载为1280×1728像素等比例图。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-662048cdc31e2943",
+            "text": "接着看议员、总统和社会公众怎样争论权力。"
+          },
+          "image": {
+            "id": "quest-f06a6a1e3ba77ee9",
+            "text": "点开大图啦。这是1915年袁世凯总统时期正式肖像。这张图能帮我们找到：接着看议员、总统和社会公众怎样争论权力。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-02-02-early-republic-journey-1",
+            "label": "南京与北京、《中华民国临时，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-ad7edc8a56e5a51a",
+              "text": "南京与北京、《中华民国临时，只说了地点"
+            }
+          },
+          {
+            "id": "cn-modern-02-02-early-republic-journey-2",
+            "label": "接着看议员、总统和社会公众怎样争论权力。",
+            "correct": true,
+            "audio": {
+              "id": "quest-662048cdc31e2943",
+              "text": "接着看议员、总统和社会公众怎样争论权力。"
+            }
+          },
+          {
+            "id": "cn-modern-02-02-early-republic-journey-3",
+            "label": "孙中山、袁世凯、议员与社会公众，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-32875b369bacd589",
+              "text": "孙中山、袁世凯、议员与社会公众，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "写下还要做到",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后发现写下规则很重要，落实还要继续行动。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "写下还要做到",
+          "screenText": "最后发现写下规则很重要，落实还要继续行动。",
+          "narration": "最后发现写下规则很重要，落实还要继续行动。",
+          "displayText": "最后发现写下规则很重要，落实还要继续行动。"
+        },
+        "assetId": "yuan-shikai-president-1915-loc-photo",
+        "image": "/content/step-images/yuan-shikai-president-1915-loc-photo.jpg",
+        "imageAlt": "1915年袁世凯总统时期正式肖像",
+        "imageCaption": "1915年袁世凯担任总统时期的正式肖像照片。",
+        "imageBoundary": "来源说明为总统肖像，不是称帝或登基典礼照片；画面中的军装、勋章、题字、道具和姿势不能代替政治行为证据。下载为1280×1728像素等比例图。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-27e691b5c02144a0",
+            "text": "最后发现写下规则很重要，落实还要继续行动。"
+          },
+          "image": {
+            "id": "quest-fcd0755d3ef66af4",
+            "text": "点开大图啦。这是1915年袁世凯总统时期正式肖像。这张图能帮我们找到：最后发现写下规则很重要，落实还要继续行动。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-02-02-early-republic-change-1",
+            "label": "最后发现写下规则很重要，落实还要继续行动。",
+            "correct": true,
+            "audio": {
+              "id": "quest-27e691b5c02144a0",
+              "text": "最后发现写下规则很重要，落实还要继续行动。"
+            }
+          },
+          {
+            "id": "cn-modern-02-02-early-republic-change-2",
+            "label": "《中华民国临时约法》与报，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-da8baaf71c067dcc",
+              "text": "《中华民国临时约法》与报，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-modern-02-02-early-republic-change-3",
+            "label": "看议员、总统和社会公众怎样争，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-349b069fac25cf68",
+              "text": "看议员、总统和社会公众怎样争，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "纸上规则要由机构和人真正遵守；权力失去约束，共和就会受到破坏。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "纸上规则要由机构和人真正遵守；权力失去约束，共和就会受到破坏。",
+          "narration": "纸上规则要由机构和人真正遵守；权力失去约束，共和就会受到破坏。",
+          "displayText": "纸上规则要由机构和人真正遵守；权力失去约束，共和就会受到破坏。"
+        },
+        "assetId": "provisional-constitution-1912-printed-page",
+        "image": "/content/step-images/provisional-constitution-1912-printed-page.jpg",
+        "imageAlt": "1912年《中华民国临时约法》历史印本页",
+        "imageCaption": "1912年《中华民国临时约法》历史印本中的一页。",
+        "imageBoundary": "这是历史印本页，不是手写原件；只显示第一至第六条的一部分版面，不能代替全文，也不能证明条文在现实中已经全部实行。原图404×678像素，尺寸较小。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-f71c7dd8c6bec519",
+            "text": "纸上规则要由机构和人真正遵守；权力失去约束，共和就会受到破坏。"
+          },
+          "image": {
+            "id": "quest-98f7121fe8150b92",
+            "text": "点开大图啦。这是1912年《中华民国临时约法》历史印本页。这张图能帮我们找到：纸上规则要由机构和人真正遵守；权力失去约束，共和就会受到破坏。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-02-02-early-republic-takeaway-1",
+            "label": "发现写下规则很重要，落实还要继续行动。、一纸约法为什，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-268965dec967faec",
+              "text": "发现写下规则很重要，落实还要继续行动。、一纸约法为什，只说了结果"
+            }
+          },
+          {
+            "id": "cn-modern-02-02-early-republic-takeaway-2",
+            "label": "看《临时约法》写下怎样管理新国家。、《中华民国临，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-1453b5b6ff863918",
+              "text": "看《临时约法》写下怎样管理新国家。、《中华民国临，只说了原因"
+            }
+          },
+          {
+            "id": "cn-modern-02-02-early-republic-takeaway-3",
+            "label": "纸上规则要由机构和人真正遵守；权力失去约束，共和就会受到破坏。",
+            "correct": true,
+            "audio": {
+              "id": "quest-f71c7dd8c6bec519",
+              "text": "纸上规则要由机构和人真正遵守；权力失去约束，共和就会受到破坏。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "理想与现实双轨线",
+        "items": [
+          "把“公布《临时约法》”放进制度理想轨，把“解散国民党、推动称帝”放进权力破坏轨。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "文献能证明什么",
+        "items": [
+          "从约法页面选出“写有国家原则”，排除“所有条文都在这一页”和“规定已全部实现”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "成果与局限配对",
+        "items": [
+          "将“结束君主专制、传播共和观念”与“未改变社会性质、人民困境仍在”分别归类。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "中华民国建立后，《中华民国临时约法》用法律形式写下主权属于国民全体、人民权利和国家机关规则，体现了资产阶级民主共和精神。但是，革命派力量不足，帝国主义和国内旧势力仍然强大。袁世凯取得临时大总统职位后把政府迁到北京，破坏民主共和制度、镇压反对力量，并在1915年推动复辟帝制。蔡锷等发动护国战争，各地反对，袁世凯被迫取消帝制，1916年去世。此后北洋军阀分裂争斗。辛亥革命推翻君主专制、传播民主共和观念的成果不能否定；它没有完成反帝反封建任务、没有改变人民悲惨境遇的局限也不能省略。"
@@ -321,20 +937,26 @@
       "title": "1912年《中华民国临时约法》历史印本页",
       "localPath": "reference-assets/china-modern-revolution-social/provisional-constitution-1912.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD%E4%B8%B4%E6%97%B6%E7%BA%A6%E6%B3%95.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — government text published before 1931",
       "clearance": "cleared-open-license",
       "caption": "1912年《中华民国临时约法》历史印本中的一页。",
-      "boundary": "这是历史印本页，不是手写原件；只显示第一至第六条的一部分版面，不能代替全文，也不能证明条文在现实中已经全部实行。原图404×678像素，尺寸较小。"
+      "boundary": "这是历史印本页，不是手写原件；只显示第一至第六条的一部分版面，不能代替全文，也不能证明条文在现实中已经全部实行。原图404×678像素，尺寸较小。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "yuan-shikai-president-1915-loc-photo",
       "title": "1915年袁世凯总统时期正式肖像",
       "localPath": "reference-assets/china-modern-revolution-social/yuan-shikai-1915.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:YuanShikai1915.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "1915年袁世凯担任总统时期的正式肖像照片。",
-      "boundary": "来源说明为总统肖像，不是称帝或登基典礼照片；画面中的军装、勋章、题字、道具和姿势不能代替政治行为证据。下载为1280×1728像素等比例图。"
+      "boundary": "来源说明为总统肖像，不是称帝或登基典礼照片；画面中的军装、勋章、题字、道具和姿势不能代替政治行为证据。下载为1280×1728像素等比例图。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-modern-02-02-early-republic.jpg",

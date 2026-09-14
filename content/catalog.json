@@ -1,64 +1,125 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "trackId": "china-ancient",
-  "editorialNote": "课程内容范围依据教育部《义务教育历史课程标准（2022年版）》中国古代史1.1—1.7；面向儿童的八段时间线采用中国国家博物馆“古代中国”分期。章节问题和标题是编辑设计，不作为史实；正式正文仍需逐句核验。",
+  "editorialNote": "课程内容范围依据教育部《义务教育历史课程标准（2022年版）》中国古代史1.1—1.7；儿童时间河以中国国家博物馆“古代中国”总脉络为依据。秦、汉、隋、唐、五代十国、宋、元、明、清分别成站；辽、西夏、金的并立故事收在宋站同一窗口内，但明确为与两宋先后并立的不同政权，不写成宋的下属或单线朝代。",
   "periods": [
     {
       "id": "ancient-origins",
       "order": 1,
       "label": "远古时期",
       "years": "约200万年前—约公元前21世纪",
-      "curriculumSections": ["1.1 史前时期"]
+      "curriculumSections": [
+        "1.1 史前时期"
+      ]
     },
     {
       "id": "xia-shang-western-zhou",
       "order": 2,
       "label": "夏商西周",
       "years": "约公元前21世纪—前771年",
-      "curriculumSections": ["1.2 夏商西周与春秋战国时期"]
+      "curriculumSections": [
+        "1.2 夏商西周与春秋战国时期"
+      ]
     },
     {
       "id": "spring-autumn-warring-states",
       "order": 3,
       "label": "春秋战国",
       "years": "前770—前221年",
-      "curriculumSections": ["1.2 夏商西周与春秋战国时期"]
+      "curriculumSections": [
+        "1.2 夏商西周与春秋战国时期"
+      ]
     },
     {
-      "id": "qin-han",
+      "id": "qin",
       "order": 4,
-      "label": "秦汉",
-      "years": "前221—公元220年",
-      "curriculumSections": ["1.3 秦汉时期"]
+      "label": "秦朝",
+      "years": "前221—前207年",
+      "curriculumSections": [
+        "1.3 秦汉时期"
+      ]
+    },
+    {
+      "id": "han",
+      "order": 5,
+      "label": "汉朝",
+      "years": "前202—公元220年",
+      "curriculumSections": [
+        "1.3 秦汉时期"
+      ]
     },
     {
       "id": "three-kingdoms-jin-northern-southern",
-      "order": 5,
+      "order": 6,
       "label": "三国两晋南北朝",
       "years": "220—589年",
-      "curriculumSections": ["1.4 三国两晋南北朝时期"]
+      "curriculumSections": [
+        "1.4 三国两晋南北朝时期"
+      ]
     },
     {
-      "id": "sui-tang-five-dynasties",
-      "order": 6,
-      "label": "隋唐五代",
-      "years": "581—960年",
-      "curriculumSections": ["1.5 隋唐五代十国时期"]
-    },
-    {
-      "id": "liao-song-xia-jin-yuan",
+      "id": "sui",
       "order": 7,
-      "label": "辽宋夏金元",
-      "years": "916—1368年",
-      "curriculumSections": ["1.6 辽宋夏金元时期"]
+      "label": "隋朝",
+      "years": "581—618年",
+      "curriculumSections": [
+        "1.5 隋唐五代十国时期"
+      ]
     },
     {
-      "id": "ming-qing",
+      "id": "tang",
       "order": 8,
-      "label": "明清",
-      "years": "1368—1840年前（本内容轨范围）",
-      "curriculumSections": ["1.7 明清时期（至鸦片战争前）"]
+      "label": "唐朝",
+      "years": "618—907年",
+      "curriculumSections": [
+        "1.5 隋唐五代十国时期"
+      ]
+    },
+    {
+      "id": "five-dynasties-ten-kingdoms",
+      "order": 9,
+      "label": "五代十国",
+      "years": "907—960年",
+      "curriculumSections": [
+        "1.5 隋唐五代十国时期"
+      ]
+    },
+    {
+      "id": "song",
+      "order": 10,
+      "label": "宋朝（与辽·西夏·金并立）",
+      "years": "916—1279年（宋960年起）",
+      "curriculumSections": [
+        "1.6 辽宋夏金元时期"
+      ]
+    },
+    {
+      "id": "yuan",
+      "order": 11,
+      "label": "元朝",
+      "years": "1271—1368年",
+      "curriculumSections": [
+        "1.6 辽宋夏金元时期"
+      ]
+    },
+    {
+      "id": "ming",
+      "order": 12,
+      "label": "明朝",
+      "years": "1368—1644年",
+      "curriculumSections": [
+        "1.7 明清时期（至鸦片战争前）"
+      ]
+    },
+    {
+      "id": "qing",
+      "order": 13,
+      "label": "清朝",
+      "years": "1644—1840年前（本内容轨范围）",
+      "curriculumSections": [
+        "1.7 明清时期（至鸦片战争前）"
+      ]
     }
   ],
   "chapters": [
@@ -66,15 +127,37 @@
       "id": "cn-ancient-01-01-human-evidence",
       "periodId": "ancient-origins",
       "order": 1,
-      "title": "从牙齿和头骨寻找早期人类",
+      "title": "洞穴、石器和火留下了什么线索",
       "coreQuestion": "考古人员怎样知道很久以前有人生活在中国大地？",
-      "throughline": "从元谋人、蓝田人和北京人等遗存理解化石、石器和遗址是认识早期人类的重要证据。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.1", "NMC-ANCIENT-CHINA#远古时期"],
-      "evidencePlan": ["site", "artifact", "map"],
-      "worldLink": { "topic": "早期人类在不同大陆的迁徙与遗存", "status": "planned" },
-      "targets": { "durationMinutes": 7, "screens": 6, "audioClips": 6, "interactions": 3 },
+      "throughline": "先从周口店洞穴、土层、石器和用火痕迹进入，再把身体化石放进证据链，理解多种线索怎样共同帮助我们认识早期人类。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.1",
+        "NMC-ANCIENT-CHINA#远古时期"
+      ],
+      "evidencePlan": [
+        "site",
+        "artifact",
+        "map"
+      ],
+      "worldLink": {
+        "topic": "早期人类在不同大陆的迁徙与遗存",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 7,
+        "screens": 6,
+        "audioClips": 6,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/ancient-origins-human-evidence.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-01-02-first-farmers",
@@ -83,12 +166,34 @@
       "title": "河边的第一批村落",
       "coreQuestion": "人们为什么开始种植作物、饲养动物并定居下来？",
       "throughline": "以河姆渡、半坡等遗址观察南北不同的原始农耕生活、房屋、陶器与食物。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.1", "NMC-ANCIENT-CHINA#远古时期"],
-      "evidencePlan": ["site", "artifact", "architecture"],
-      "worldLink": { "topic": "世界不同地区农业起源的多样道路", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 6, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.1",
+        "NMC-ANCIENT-CHINA#远古时期"
+      ],
+      "evidencePlan": [
+        "site",
+        "artifact",
+        "architecture"
+      ],
+      "worldLink": {
+        "topic": "世界不同地区农业起源的多样道路",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 6,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/ancient-origins-first-farmers.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-01-03-civilization-origins",
@@ -97,12 +202,34 @@
       "title": "村落怎样一步步走向文明",
       "coreQuestion": "城址、墓葬和礼器能告诉我们哪些社会变化？",
       "throughline": "从良渚、陶寺等考古遗存观察社会分工、公共工程、权力与早期文明的发展，并区分考古证据和远古传说。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.1", "NMC-ANCIENT-CHINA#远古时期"],
-      "evidencePlan": ["site", "artifact", "document"],
-      "worldLink": { "topic": "世界早期文明中心的形成", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 7, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.1",
+        "NMC-ANCIENT-CHINA#远古时期"
+      ],
+      "evidencePlan": [
+        "site",
+        "artifact",
+        "document"
+      ],
+      "worldLink": {
+        "topic": "世界早期文明中心的形成",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 7,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/ancient-origins-civilization.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-02-01-early-states",
@@ -111,12 +238,34 @@
       "title": "从二里头到商周",
       "coreQuestion": "早期国家是怎样出现并发展的？",
       "throughline": "以二里头、殷墟和西周遗存观察都城、王权、手工业与早期国家的发展，同时说明夏代认识中的文献与考古边界。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.2", "NMC-ANCIENT-CHINA#夏商西周"],
-      "evidencePlan": ["site", "artifact", "map"],
-      "worldLink": { "topic": "古代河流文明和早期国家", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 7, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.2",
+        "NMC-ANCIENT-CHINA#夏商西周"
+      ],
+      "evidencePlan": [
+        "site",
+        "artifact",
+        "map"
+      ],
+      "worldLink": {
+        "topic": "古代河流文明和早期国家",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 7,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/xia-shang-zhou-early-states.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-02-02-oracle-bronze",
@@ -125,12 +274,34 @@
       "title": "甲骨文和青铜器会说话",
       "coreQuestion": "文字和青铜器记录了怎样的商周社会？",
       "throughline": "通过甲骨文、青铜铭文和典型器物认识文字、铸造技术、祭祀活动与历史记录。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.2", "NMC-ANCIENT-CHINA#夏商西周"],
-      "evidencePlan": ["inscription", "artifact", "technology"],
-      "worldLink": { "topic": "不同古代文明的文字与金属技术", "status": "planned" },
-      "targets": { "durationMinutes": 7, "screens": 7, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.2",
+        "NMC-ANCIENT-CHINA#夏商西周"
+      ],
+      "evidencePlan": [
+        "inscription",
+        "artifact",
+        "technology"
+      ],
+      "worldLink": {
+        "topic": "不同古代文明的文字与金属技术",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 7,
+        "screens": 7,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/xia-shang-zhou-oracle-bronze.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-02-03-zhou-order",
@@ -139,12 +310,34 @@
       "title": "西周怎样组织一个大国家",
       "coreQuestion": "分封和礼制怎样维系西周的统治秩序？",
       "throughline": "利用地图、青铜铭文与礼器组合理解分封、宗法和礼制，同时看到地方文化之间的交流。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.2", "NMC-ANCIENT-CHINA#夏商西周"],
-      "evidencePlan": ["map", "inscription", "artifact"],
-      "worldLink": { "topic": "早期国家治理方式的多样性", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 7, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.2",
+        "NMC-ANCIENT-CHINA#夏商西周"
+      ],
+      "evidencePlan": [
+        "map",
+        "inscription",
+        "artifact"
+      ],
+      "worldLink": {
+        "topic": "早期国家治理方式的多样性",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 7,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/xia-shang-zhou-zhou-order.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-03-01-iron-waterworks",
@@ -153,12 +346,34 @@
       "title": "铁农具、水利与新的生产方式",
       "coreQuestion": "工具和水利工程怎样改变土地与生活？",
       "throughline": "从铁农具、牛耕和都江堰等证据观察生产力发展、人口与社会变化。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.2", "NMC-ANCIENT-CHINA#春秋战国"],
-      "evidencePlan": ["artifact", "site", "technology"],
-      "worldLink": { "topic": "铁器技术在欧亚大陆的使用", "status": "planned" },
-      "targets": { "durationMinutes": 7, "screens": 6, "audioClips": 6, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.2",
+        "NMC-ANCIENT-CHINA#春秋战国"
+      ],
+      "evidencePlan": [
+        "artifact",
+        "site",
+        "technology"
+      ],
+      "worldLink": {
+        "topic": "铁器技术在欧亚大陆的使用",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 7,
+        "screens": 6,
+        "audioClips": 6,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/spring-autumn-warring-states-iron-waterworks.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-03-02-reforms-unification",
@@ -167,348 +382,1340 @@
       "title": "诸侯争霸与变法图强",
       "coreQuestion": "为什么各国在战争中不断改革？",
       "throughline": "从春秋争霸、战国兼并和商鞅变法等重要变化，理解旧制度瓦解与走向统一的趋势。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.2", "NMC-ANCIENT-CHINA#春秋战国"],
-      "evidencePlan": ["map", "document", "artifact"],
-      "worldLink": { "topic": "同期欧亚大陆的帝国与城邦政治", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 7, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.2",
+        "NMC-ANCIENT-CHINA#春秋战国"
+      ],
+      "evidencePlan": [
+        "map",
+        "document",
+        "artifact"
+      ],
+      "worldLink": {
+        "topic": "同期欧亚大陆的帝国与城邦政治",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 7,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/spring-autumn-warring-states-reforms.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-03-03-hundred-schools",
       "periodId": "spring-autumn-warring-states",
       "order": 9,
-      "title": "思想家怎样回答乱世难题",
-      "coreQuestion": "面对社会变化，诸子百家提出了哪些不同主张？",
-      "throughline": "以老子、孔子及战国时期主要思想流派的文本片段和后世记录，比较问题、主张与历史影响。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.2", "NMC-ANCIENT-CHINA#春秋战国"],
-      "evidencePlan": ["document", "artifact", "inscription"],
-      "worldLink": { "topic": "同期世界不同地区的思想传统", "status": "planned" },
-      "targets": { "durationMinutes": 9, "screens": 7, "audioClips": 7, "interactions": 3 },
+      "title": "孔子说：学了还要常常练习",
+      "coreQuestion": "《论语》里‘学而时习之’怎样把学习和练习连起来？",
+      "throughline": "以孔子、《论语》的一句学习名言和竹简证据进入诸子百家，再比较不同思想怎样回答当时问题。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.2",
+        "NMC-ANCIENT-CHINA#春秋战国"
+      ],
+      "evidencePlan": [
+        "document",
+        "artifact",
+        "inscription"
+      ],
+      "worldLink": {
+        "topic": "同期世界不同地区的思想传统",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 9,
+        "screens": 7,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/spring-autumn-warring-states-hundred-schools.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-04-01-qin-unification",
-      "periodId": "qin-han",
+      "periodId": "qin",
       "order": 10,
-      "title": "统一带来了哪些共同规则",
-      "coreQuestion": "秦朝怎样建立统一的多民族封建国家？",
-      "throughline": "从疆域图、文字与度量衡实物、郡县资料观察统一制度及其影响，也认识秦的暴政与迅速灭亡。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.3", "NMC-ANCIENT-CHINA#秦汉"],
-      "evidencePlan": ["map", "artifact", "document"],
-      "worldLink": { "topic": "同期欧亚大陆的大型国家", "status": "planned" },
-      "targets": { "durationMinutes": 9, "screens": 7, "audioClips": 7, "interactions": 3 },
+      "title": "秦朝为什么要用同一把尺",
+      "coreQuestion": "一只铁权、一把尺和一只量杯，怎样把统一度量衡带到各地？",
+      "throughline": "从秦铁权诏文进入长度、容量、重量三类共同标准，再跟官员、工匠和使用者追踪校准、执行、便利与负担。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.3",
+        "NMC-ANCIENT-CHINA#秦汉"
+      ],
+      "evidencePlan": [
+        "artifact",
+        "document",
+        "technology"
+      ],
+      "worldLink": {
+        "topic": "同期欧亚大陆的大型国家",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 9,
+        "screens": 7,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/qin-han-qin-unification.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
+    },
+    {
+      "id": "cn-ancient-04-05-qin-great-wall",
+      "periodId": "qin",
+      "title": "秦长城不是从空地里突然长出来的",
+      "coreQuestion": "秦朝怎样把更早的北方城墙连接成防御系统？",
+      "throughline": "先找战国旧墙段，再看秦怎样连接、修缮和增筑，并把墙、关口、道路、烽燧与驻守放进同一防御系统；同时区分秦代遗址与明代砖石长城。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.3",
+        "NMC-ANCIENT-CHINA#秦汉",
+        "UNESCO-GREAT-WALL"
+      ],
+      "evidencePlan": [
+        "site",
+        "map",
+        "system"
+      ],
+      "worldLink": {
+        "topic": "不同地区边地防御与大型工程",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
+      "detailPath": "content/chapters/qin-han-qin-great-wall.md",
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      },
+      "order": 11
     },
     {
       "id": "cn-ancient-04-02-han-governance",
-      "periodId": "qin-han",
-      "order": 11,
+      "periodId": "han",
+      "order": 12,
       "title": "汉朝怎样从恢复走向强盛",
       "coreQuestion": "休养生息与大一统措施带来了什么变化？",
       "throughline": "连接西汉建立、文景之治、汉武帝巩固大一统以及东汉政治社会变化，形成秦汉连续而非割裂的叙事。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.3", "NMC-ANCIENT-CHINA#秦汉"],
-      "evidencePlan": ["document", "artifact", "map"],
-      "worldLink": { "topic": "罗马、帕提亚和贵霜等同期政权", "status": "planned" },
-      "targets": { "durationMinutes": 9, "screens": 7, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.3",
+        "NMC-ANCIENT-CHINA#秦汉"
+      ],
+      "evidencePlan": [
+        "document",
+        "artifact",
+        "map"
+      ],
+      "worldLink": {
+        "topic": "罗马、帕提亚和贵霜等同期政权",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 9,
+        "screens": 7,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/qin-han-han-governance.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-04-03-silk-road",
-      "periodId": "qin-han",
-      "order": 12,
+      "periodId": "han",
+      "order": 13,
       "title": "张骞之后的丝绸之路",
       "coreQuestion": "道路怎样把汉朝与中亚等地区连接起来？",
       "throughline": "从张骞通西域、路线、出土物与往来记录认识陆上丝绸之路的开辟和中外文明交流。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.3", "NMC-ANCIENT-CHINA#秦汉"],
-      "evidencePlan": ["map", "artifact", "document"],
-      "worldLink": { "topic": "欧亚大陆贸易网络与沿线政权", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 7, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.3",
+        "NMC-ANCIENT-CHINA#秦汉"
+      ],
+      "evidencePlan": [
+        "map",
+        "artifact",
+        "document"
+      ],
+      "worldLink": {
+        "topic": "欧亚大陆贸易网络与沿线政权",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 7,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/qin-han-silk-road.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-04-04-han-knowledge",
-      "periodId": "qin-han",
-      "order": 13,
-      "title": "纸、医学与史书怎样保存知识",
-      "coreQuestion": "秦汉时期有哪些重要科技和文化成果？",
-      "throughline": "以造纸术、张仲景、华佗、司马迁与《史记》等具体证据认识知识的创造、记录和传播。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.3", "NMC-ANCIENT-CHINA#秦汉"],
-      "evidencePlan": ["technology", "document", "artifact"],
-      "worldLink": { "topic": "同期不同文明记录知识的方法", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 7, "audioClips": 7, "interactions": 3 },
+      "periodId": "han",
+      "order": 14,
+      "title": "蔡伦和工匠怎样改进造纸",
+      "coreQuestion": "改进后的纸怎样帮助记录和传播经验？",
+      "throughline": "儿童主线沿树皮、麻头、旧布到纸页，认识蔡伦与工匠怎样在前人经验上改进造纸；医学与《史记》留在家长层作同一时代的延伸。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.3",
+        "NMC-ANCIENT-CHINA#秦汉"
+      ],
+      "evidencePlan": [
+        "technology",
+        "document",
+        "artifact"
+      ],
+      "worldLink": {
+        "topic": "同期不同文明记录知识的方法",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 7,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/qin-han-knowledge.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-05-01-division-migration",
       "periodId": "three-kingdoms-jin-northern-southern",
-      "order": 14,
-      "title": "政权分立时，人们去了哪里",
-      "coreQuestion": "战争、政权更迭和人口迁徙怎样改变中国？",
-      "throughline": "从三国鼎立、两晋变化和北方各族内迁建立时期地图，理解长期分立中的人口流动。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.4", "NMC-ANCIENT-CHINA#三国两晋南北朝", "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN#第一单元", "PEP-HISTORY-REVISION-2024#七上第二单元"],
-      "evidencePlan": ["map", "document", "artifact"],
-      "worldLink": { "topic": "欧亚大陆同期的人口迁徙与政权变化", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 7, "interactions": 3 },
+      "order": 15,
+      "title": "一只碗怎样跟着人们去江南",
+      "coreQuestion": "道路、记录和日用器物怎样留下人们分批迁往江南、重新生活的线索？",
+      "throughline": "以自制儿童路线图和普通陶碗作为寻证线索，连接分批迁徙、重新安顿及与当地居民共同生活，并明确不虚构某个真实家庭。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.4",
+        "NMC-ANCIENT-CHINA#三国两晋南北朝",
+        "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN#第一单元",
+        "PEP-HISTORY-REVISION-2024#七上第二单元"
+      ],
+      "evidencePlan": [
+        "map",
+        "document",
+        "artifact"
+      ],
+      "worldLink": {
+        "topic": "欧亚大陆同期的人口迁徙与政权变化",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/three-kingdoms-jin-northern-southern-division-migration.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-05-02-jiangnan-development",
       "periodId": "three-kingdoms-jin-northern-southern",
-      "order": 15,
-      "title": "江南为什么逐渐发展起来",
+      "order": 16,
+      "title": "一粒稻米怎样长成江南",
       "coreQuestion": "人口南迁、自然条件和劳动怎样推动江南开发？",
-      "throughline": "利用人口迁徙图、农业和手工业遗物观察东晋南朝时期江南地区的发展。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.4", "NMC-ANCIENT-CHINA#三国两晋南北朝", "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN#第二单元", "PEP-HISTORY-REVISION-2024#七上第二单元"],
-      "evidencePlan": ["map", "artifact", "document"],
-      "worldLink": { "topic": "同期亚洲其他地区的农业与城市发展", "status": "planned" },
-      "targets": { "durationMinutes": 7, "screens": 5, "audioClips": 6, "interactions": 3 },
+      "throughline": "从稻米、水田和水利进入江南生活，再用青瓷器物观察原有居民、迁入者、自然条件和长期劳动怎样共同推动发展。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.4",
+        "NMC-ANCIENT-CHINA#三国两晋南北朝",
+        "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN#第二单元",
+        "PEP-HISTORY-REVISION-2024#七上第二单元"
+      ],
+      "evidencePlan": [
+        "map",
+        "artifact",
+        "document"
+      ],
+      "worldLink": {
+        "topic": "同期亚洲其他地区的农业与城市发展",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 7,
+        "screens": 5,
+        "audioClips": 6,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/three-kingdoms-jin-northern-southern-jiangnan-development.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-05-03-ethnic-interaction",
       "periodId": "three-kingdoms-jin-northern-southern",
-      "order": 16,
+      "order": 17,
       "title": "交往交流怎样改变不同族群",
       "coreQuestion": "迁徙、改革和共同生活怎样推动民族交融？",
       "throughline": "从北魏孝文帝改革、服饰器物和墓葬图像认识各族交往交流交融，并避免把融合写成单向同化。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.4", "NMC-ANCIENT-CHINA#三国两晋南北朝", "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN#第三单元", "PEP-HISTORY-REVISION-2024#七上第二单元"],
-      "evidencePlan": ["document", "artifact", "image"],
-      "worldLink": { "topic": "多族群国家中的交流与融合", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.4",
+        "NMC-ANCIENT-CHINA#三国两晋南北朝",
+        "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN#第三单元",
+        "PEP-HISTORY-REVISION-2024#七上第二单元"
+      ],
+      "evidencePlan": [
+        "document",
+        "artifact",
+        "image"
+      ],
+      "worldLink": {
+        "topic": "多族群国家中的交流与融合",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/three-kingdoms-jin-northern-southern-ethnic-interaction.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-05-04-science-art",
       "periodId": "three-kingdoms-jin-northern-southern",
-      "order": 17,
+      "order": 18,
       "title": "乱世中延续的数学、书法与艺术",
       "coreQuestion": "政权分立时期为什么仍有重要科技和艺术成果？",
       "throughline": "以祖冲之、书法、石窟艺术等案例观察传统文化的继承、创新与跨区域交流。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.4", "NMC-ANCIENT-CHINA#三国两晋南北朝", "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN#第四单元", "PEP-HISTORY-REVISION-2024#七上第二单元"],
-      "evidencePlan": ["document", "artifact", "architecture"],
-      "worldLink": { "topic": "佛教艺术沿交流网络传播", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.4",
+        "NMC-ANCIENT-CHINA#三国两晋南北朝",
+        "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN#第四单元",
+        "PEP-HISTORY-REVISION-2024#七上第二单元"
+      ],
+      "evidencePlan": [
+        "document",
+        "artifact",
+        "architecture"
+      ],
+      "worldLink": {
+        "topic": "佛教艺术沿交流网络传播",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/three-kingdoms-jin-northern-southern-science-art.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-06-01-sui-unification-canal",
-      "periodId": "sui-tang-five-dynasties",
-      "order": 18,
-      "title": "重新统一与贯通南北的大运河",
-      "coreQuestion": "隋朝为什么短暂，却对后世影响很大？",
-      "throughline": "连接隋朝统一、科举制度创立和大运河开通，也讨论工程负担与隋朝速亡的关系。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.5", "PEP-HISTORY-REVISION-2024#七下第一单元", "NMC-ANCIENT-CHINA#隋唐五代", "NMC-SUI-TANG-FIVE-DYNASTIES#隋朝"],
-      "evidencePlan": ["map", "site", "document"],
-      "worldLink": { "topic": "同期欧亚大陆主要政权与交通网络", "status": "planned" },
-      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 },
+      "periodId": "sui",
+      "order": 19,
+      "title": "一艘运粮船怎样从南方开到洛阳",
+      "coreQuestion": "旧河道、新河段、船工和粮仓怎样接力，让粮船沿大运河走得更远？",
+      "throughline": "跟随一艘示意运粮船经过河段、停靠点和粮仓，理解大运河交通系统，也讨论劳役负担与长期维护。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.5",
+        "PEP-HISTORY-REVISION-2024#七下第一单元",
+        "NMC-ANCIENT-CHINA#隋唐五代",
+        "NMC-SUI-TANG-FIVE-DYNASTIES#隋朝"
+      ],
+      "evidencePlan": [
+        "map",
+        "site",
+        "document"
+      ],
+      "worldLink": {
+        "topic": "同期欧亚大陆主要政权与交通网络",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 9,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/sui-unification-canal.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-06-02-tang-governance",
-      "periodId": "sui-tang-five-dynasties",
-      "order": 19,
-      "title": "从贞观之治到开元盛世",
-      "coreQuestion": "唐初统治者采取了哪些措施，社会为何走向繁荣？",
-      "throughline": "从唐初政治调整、生产发展和制度延续理解贞观之治与开元盛世，同时避免把整个唐代都写成盛世。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.5", "PEP-HISTORY-REVISION-2024#七下第一单元", "NMC-ANCIENT-CHINA#隋唐五代", "NMC-SUI-TANG-FIVE-DYNASTIES#唐前期"],
-      "evidencePlan": ["document", "artifact", "map"],
-      "worldLink": { "topic": "7—8世纪欧亚大陆主要政权", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 7, "interactions": 3 },
+      "periodId": "tang",
+      "order": 20,
+      "title": "一枚开元通宝的一天",
+      "coreQuestion": "一枚开元通宝从铸造处走到市场，会经过谁的手，又能告诉我们什么？",
+      "throughline": "从铜料、铸造、共同形制到市场交换，理解钱币与治理、经济活动的关系，并说明一枚钱不能证明人人富足。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.5",
+        "PEP-HISTORY-REVISION-2024#七下第一单元",
+        "NMC-ANCIENT-CHINA#隋唐五代",
+        "NMC-SUI-TANG-FIVE-DYNASTIES#唐前期"
+      ],
+      "evidencePlan": [
+        "document",
+        "artifact",
+        "map"
+      ],
+      "worldLink": {
+        "topic": "7—8世纪欧亚大陆主要政权",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/tang-governance.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
+    },
+    {
+      "id": "cn-ancient-06-08-zhenguan-governance",
+      "periodId": "tang",
+      "title": "贞观之治是谁一起做出来的",
+      "coreQuestion": "田地、奏章和不同意见，怎样让唐初生活慢慢安定？",
+      "throughline": "从唐初恢复生产进入奏章传递和纳谏，再让地方官、农人、工匠与居民完成执行接力，理解贞观之治不是单人奇迹或完美时代。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.5",
+        "PEP-HISTORY-REVISION-2024#七下第一单元",
+        "NMC-SUI-TANG-FIVE-DYNASTIES#唐前期"
+      ],
+      "evidencePlan": [
+        "document",
+        "people",
+        "daily-life"
+      ],
+      "worldLink": {
+        "topic": "7世纪欧亚大陆不同政权的恢复与治理",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
+      "detailPath": "content/chapters/tang-zhenguan-governance.md",
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      },
+      "order": 21
     },
     {
       "id": "cn-ancient-06-03-tang-changan",
-      "periodId": "sui-tang-five-dynasties",
-      "order": 20,
+      "periodId": "tang",
+      "order": 22,
       "title": "从文物看唐代长安",
       "coreQuestion": "为什么说唐代长安是一座繁荣、开放的城市？",
       "throughline": "通过路线、东市遗址、人物俑和载乐骆驼四条证据观察长安的城市生活与文化交流。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.5", "PEP-HISTORY-REVISION-2024#七下第一单元", "NMC-ANCIENT-CHINA#隋唐五代", "NMC-SUI-TANG-FIVE-DYNASTIES#唐代社会"],
-      "evidencePlan": ["map", "site", "artifact"],
-      "worldLink": { "topic": "长安—天山廊道与中亚、西亚城市网络", "status": "verified" },
-      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 7, "interactions": 4 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.5",
+        "PEP-HISTORY-REVISION-2024#七下第一单元",
+        "NMC-ANCIENT-CHINA#隋唐五代",
+        "NMC-SUI-TANG-FIVE-DYNASTIES#唐代社会"
+      ],
+      "evidencePlan": [
+        "map",
+        "site",
+        "artifact"
+      ],
+      "worldLink": {
+        "topic": "长安—天山廊道与中亚、西亚城市网络",
+        "status": "verified"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 4
+      },
       "detailPath": "content/chapters/tang-changan.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-06-04-tang-cultural-exchange",
-      "periodId": "sui-tang-five-dynasties",
-      "order": 21,
+      "periodId": "tang",
+      "order": 23,
       "title": "玄奘、鉴真与跨海越岭的交流",
       "coreQuestion": "旅行者和求学者怎样推动中外文化交流？",
       "throughline": "以玄奘西行、鉴真东渡和相关文献、遗址为证据，认识交流是双向并需要长期行动的过程。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.5", "PEP-HISTORY-REVISION-2024#七下第一单元", "NMC-ANCIENT-CHINA#隋唐五代", "NMC-SUI-TANG-FIVE-DYNASTIES#中外交流"],
-      "evidencePlan": ["map", "document", "site"],
-      "worldLink": { "topic": "唐代中国与南亚、东亚的文化联系", "status": "verified" },
-      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.5",
+        "PEP-HISTORY-REVISION-2024#七下第一单元",
+        "NMC-ANCIENT-CHINA#隋唐五代",
+        "NMC-SUI-TANG-FIVE-DYNASTIES#中外交流"
+      ],
+      "evidencePlan": [
+        "map",
+        "document",
+        "site"
+      ],
+      "worldLink": {
+        "topic": "唐代中国与南亚、东亚的文化联系",
+        "status": "verified"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/tang-cultural-exchange.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-06-05-tang-decline",
-      "periodId": "sui-tang-five-dynasties",
-      "order": 22,
-      "title": "盛唐以后为何走向动荡",
-      "coreQuestion": "安史之乱为什么成为唐朝由盛转衰的重要转折？",
-      "throughline": "从安史之乱、藩镇割据和五代十国局面理解繁荣并非永远延续，并为北宋建立铺垫。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.5", "PEP-HISTORY-REVISION-2024#七下第一单元", "NMC-ANCIENT-CHINA#隋唐五代", "NMC-SUI-TANG-FIVE-DYNASTIES#唐后期与五代"],
-      "evidencePlan": ["map", "document", "artifact"],
-      "worldLink": { "topic": "8—10世纪欧亚大陆的政治变化", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 5, "audioClips": 6, "interactions": 3 },
+      "periodId": "five-dynasties-ten-kingdoms",
+      "order": 24,
+      "title": "钱镠铁券怎样带我们走进五代十国",
+      "coreQuestion": "唐朝结束后，五代十国为什么不是一片空白？",
+      "throughline": "从晚唐钱镠铁券进入907—960年的独立时间线，区分北方五代与南方等地多个政权，并观察政局分立中延续的生产、城市、文化与新的统一进程。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.5",
+        "PEP-HISTORY-REVISION-2024#七下第一单元",
+        "NMC-ANCIENT-CHINA#隋唐五代",
+        "NMC-SUI-TANG-FIVE-DYNASTIES#唐后期与五代"
+      ],
+      "evidencePlan": [
+        "map",
+        "document",
+        "artifact"
+      ],
+      "worldLink": {
+        "topic": "8—10世纪欧亚大陆的政治变化",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 5,
+        "audioClips": 6,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/tang-decline.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-07-01-parallel-regimes",
-      "periodId": "liao-song-xia-jin-yuan",
-      "order": 23,
+      "periodId": "song",
+      "order": 25,
       "title": "辽宋夏金为什么长期并立",
       "coreQuestion": "多个政权怎样在战争、议和与贸易中相处？",
       "throughline": "从辽、北宋、西夏、金和南宋的地图变化认识政权并立、民族关系和南北对峙。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.6", "PEP-HISTORY-REVISION-2024#七下第二单元", "NMC-ANCIENT-CHINA#辽宋夏金元", "NMC-LIAO-SONG-XIA-JIN-YUAN#政权并立"],
-      "evidencePlan": ["map", "document", "artifact"],
-      "worldLink": { "topic": "10—13世纪欧亚大陆的多政权格局", "status": "planned" },
-      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.6",
+        "PEP-HISTORY-REVISION-2024#七下第二单元",
+        "NMC-ANCIENT-CHINA#辽宋夏金元",
+        "NMC-LIAO-SONG-XIA-JIN-YUAN#政权并立"
+      ],
+      "evidencePlan": [
+        "map",
+        "document",
+        "artifact"
+      ],
+      "worldLink": {
+        "topic": "10—13世纪欧亚大陆的多政权格局",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 9,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/liao-song-xia-jin-yuan-parallel-regimes.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-07-02-song-economy-cities",
-      "periodId": "liao-song-xia-jin-yuan",
-      "order": 24,
+      "periodId": "song",
+      "order": 26,
       "title": "宋代城市为什么越来越热闹",
       "coreQuestion": "农业、手工业、商业和城市生活发生了什么变化？",
       "throughline": "通过城市图像、店铺遗址、瓷器、钱币和航运资料观察经济重心南移、城市商业和国内外贸易。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.6", "PEP-HISTORY-REVISION-2024#七下第二单元", "NMC-ANCIENT-CHINA#辽宋夏金元", "NMC-LIAO-SONG-XIA-JIN-YUAN#宋代经济"],
-      "evidencePlan": ["image", "artifact", "site", "map"],
-      "worldLink": { "topic": "中世纪欧亚和印度洋城市贸易", "status": "planned" },
-      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.6",
+        "PEP-HISTORY-REVISION-2024#七下第二单元",
+        "NMC-ANCIENT-CHINA#辽宋夏金元",
+        "NMC-LIAO-SONG-XIA-JIN-YUAN#宋代经济"
+      ],
+      "evidencePlan": [
+        "image",
+        "artifact",
+        "site",
+        "map"
+      ],
+      "worldLink": {
+        "topic": "中世纪欧亚和印度洋城市贸易",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 9,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/liao-song-xia-jin-yuan-song-economy-cities.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-07-03-song-inventions",
-      "periodId": "liao-song-xia-jin-yuan",
-      "order": 25,
-      "title": "印刷术、指南针和火药的旅程",
-      "coreQuestion": "技术怎样从发明走向应用和传播？",
-      "throughline": "以实物、文献和传播路线认识印刷术、指南针、火药的成熟、应用与外传，不把复杂发明归给单一瞬间。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.6", "PEP-HISTORY-REVISION-2024#七下第二单元", "NMC-ANCIENT-CHINA#辽宋夏金元", "NMC-LIAO-SONG-XIA-JIN-YUAN#科技文化"],
-      "evidencePlan": ["technology", "document", "map"],
-      "worldLink": { "topic": "重要技术在欧亚大陆的传播和再发展", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 7, "interactions": 3 },
+      "periodId": "song",
+      "order": 27,
+      "title": "毕昇的活字怎样排成一页",
+      "coreQuestion": "一个个能移动的字，怎样被排成书页又重新使用？",
+      "throughline": "从唐代雕版进入北宋毕昇泥活字，沿制字、拣字、排版、刷印、校对和拆版理解活字原理，并解释雕版与活字为什么长期并用。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.6",
+        "PEP-HISTORY-REVISION-2024#七下第二单元",
+        "NMC-ANCIENT-CHINA#辽宋夏金元",
+        "NMC-LIAO-SONG-XIA-JIN-YUAN#科技文化"
+      ],
+      "evidencePlan": [
+        "technology",
+        "document",
+        "artifact"
+      ],
+      "worldLink": {
+        "topic": "重要技术在欧亚大陆的传播和再发展",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/liao-song-xia-jin-yuan-song-inventions.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
+    },
+    {
+      "id": "cn-ancient-07-07-song-compass-navigation",
+      "periodId": "song",
+      "title": "小小指南针为什么不能独自开船",
+      "coreQuestion": "指南针和星辰、风向、水深怎样一起帮助海船辨认方向？",
+      "throughline": "从磁针方向线索进入天空、海岸、风向和水深的航海工具链，再让船上成年人观察、记录、商量并不断修正航路。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.6",
+        "PEP-HISTORY-REVISION-2024#七下第二单元",
+        "NMC-LIAO-SONG-XIA-JIN-YUAN#科技文化"
+      ],
+      "evidencePlan": [
+        "technology",
+        "document",
+        "navigation"
+      ],
+      "worldLink": {
+        "topic": "航海知识在欧亚海路上的使用与交流",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
+      "detailPath": "content/chapters/song-compass-navigation.md",
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      },
+      "order": 28
+    },
+    {
+      "id": "cn-ancient-07-08-song-gunpowder-records",
+      "periodId": "song",
+      "title": "火药知识怎样被安全记进书里",
+      "coreQuestion": "长期观察怎样变成书中记录，再发展出不同用途？",
+      "throughline": "只追踪观察、记录、传播和用途变化，不提供配方、比例、混合或点火步骤；以《武经总要》传世图像练习文献证据边界。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.6",
+        "PEP-HISTORY-REVISION-2024#七下第二单元",
+        "NMC-LIAO-SONG-XIA-JIN-YUAN#科技文化"
+      ],
+      "evidencePlan": [
+        "technology",
+        "document",
+        "safety"
+      ],
+      "worldLink": {
+        "topic": "火药知识在不同地区的传播、改造与风险",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
+      "detailPath": "content/chapters/song-gunpowder-records.md",
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      },
+      "order": 29
     },
     {
       "id": "cn-ancient-07-04-yuan-unification",
-      "periodId": "liao-song-xia-jin-yuan",
-      "order": 26,
+      "periodId": "yuan",
+      "order": 30,
       "title": "元朝怎样重新完成统一",
       "coreQuestion": "蒙古兴起和元朝建立怎样改变中国版图与治理？",
       "throughline": "从蒙古兴起、元朝统一、行省和宣政院等制度认识统一多民族国家的发展及西藏正式纳入中央行政管辖。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.6", "PEP-HISTORY-REVISION-2024#七下第二单元", "NMC-ANCIENT-CHINA#辽宋夏金元", "NMC-LIAO-SONG-XIA-JIN-YUAN#元朝统一"],
-      "evidencePlan": ["map", "document", "artifact"],
-      "worldLink": { "topic": "蒙古帝国范围内的欧亚联系", "status": "planned" },
-      "targets": { "durationMinutes": 9, "screens": 6, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.6",
+        "PEP-HISTORY-REVISION-2024#七下第二单元",
+        "NMC-ANCIENT-CHINA#辽宋夏金元",
+        "NMC-LIAO-SONG-XIA-JIN-YUAN#元朝统一"
+      ],
+      "evidencePlan": [
+        "map",
+        "document",
+        "artifact"
+      ],
+      "worldLink": {
+        "topic": "蒙古帝国范围内的欧亚联系",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 9,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/liao-song-xia-jin-yuan-yuan-unification.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-07-05-yuan-exchange",
-      "periodId": "liao-song-xia-jin-yuan",
-      "order": 27,
+      "periodId": "yuan",
+      "order": 31,
       "title": "更大的交通网络带来什么",
       "coreQuestion": "元代交通和人员往来怎样促进不同地区交流？",
       "throughline": "从驿站、航海、城市和不同人群的物质文化，观察统一后的交通网络、商业与文化交流。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.6", "PEP-HISTORY-REVISION-2024#七下第二单元", "NMC-ANCIENT-CHINA#辽宋夏金元", "NMC-LIAO-SONG-XIA-JIN-YUAN#交通交流"],
-      "evidencePlan": ["map", "artifact", "document"],
-      "worldLink": { "topic": "13—14世纪欧亚交流网络", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 5, "audioClips": 6, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.6",
+        "PEP-HISTORY-REVISION-2024#七下第二单元",
+        "NMC-ANCIENT-CHINA#辽宋夏金元",
+        "NMC-LIAO-SONG-XIA-JIN-YUAN#交通交流"
+      ],
+      "evidencePlan": [
+        "map",
+        "artifact",
+        "document"
+      ],
+      "worldLink": {
+        "topic": "13—14世纪欧亚交流网络",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 5,
+        "audioClips": 6,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/liao-song-xia-jin-yuan-yuan-exchange.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-08-01-ming-governance",
-      "periodId": "ming-qing",
-      "order": 28,
+      "periodId": "ming",
+      "order": 32,
       "title": "明朝怎样加强中央权力",
       "coreQuestion": "明朝强化皇权带来了怎样的治理方式和社会问题？",
       "throughline": "从中央制度、地方治理和典型档案认识明朝加强皇权的措施，同时初步理解君主专制的弊端。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.7", "NMC-ANCIENT-CHINA#明清", "NMC-MING-QING#明清时期", "PEP-HISTORY-7B-2026-TRIAL#明清单元"],
-      "evidencePlan": ["document", "architecture", "artifact"],
-      "worldLink": { "topic": "早期近代世界不同国家的权力结构", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.7",
+        "NMC-ANCIENT-CHINA#明清",
+        "NMC-MING-QING#明清时期",
+        "PEP-HISTORY-7B-2026-TRIAL#明清单元"
+      ],
+      "evidencePlan": [
+        "document",
+        "architecture",
+        "artifact"
+      ],
+      "worldLink": {
+        "topic": "早期近代世界不同国家的权力结构",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/ming-qing-ming-governance.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-08-02-zheng-he",
-      "periodId": "ming-qing",
-      "order": 29,
+      "periodId": "ming",
+      "order": 33,
       "title": "郑和船队为什么驶向远洋",
       "coreQuestion": "郑和下西洋反映了明朝怎样的航海能力和对外交往？",
       "throughline": "以航线图、船队相关文献和沿线遗存认识郑和下西洋的目的、范围、交往与历史条件，并与戚继光抗倭区分。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.7", "NMC-ANCIENT-CHINA#明清", "NMC-MING-QING#明清时期", "PEP-HISTORY-7B-2026-TRIAL#明清单元"],
-      "evidencePlan": ["map", "document", "artifact"],
-      "worldLink": { "topic": "15世纪印度洋航海与此后的全球航路", "status": "planned" },
-      "targets": { "durationMinutes": 8, "screens": 6, "audioClips": 7, "interactions": 3 },
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.7",
+        "NMC-ANCIENT-CHINA#明清",
+        "NMC-MING-QING#明清时期",
+        "PEP-HISTORY-7B-2026-TRIAL#明清单元"
+      ],
+      "evidencePlan": [
+        "map",
+        "document",
+        "artifact"
+      ],
+      "worldLink": {
+        "topic": "15世纪印度洋航海与此后的全球航路",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 7,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/ming-qing-zheng-he.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-08-03-frontiers-unity",
-      "periodId": "ming-qing",
-      "order": 30,
-      "title": "明清怎样维护统一多民族国家",
-      "coreQuestion": "中央政权怎样治理边疆、维护领土和处理不同地区关系？",
-      "throughline": "连接郑成功收复台湾、清朝在台湾建制、册封达赖与班禅、设置驻藏大臣及治理新疆等事实，建立清晰地图线索。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.7", "NMC-ANCIENT-CHINA#明清", "NMC-MING-QING#明清时期", "PEP-HISTORY-7B-2026-TRIAL#明清单元"],
-      "evidencePlan": ["map", "document", "artifact"],
-      "worldLink": { "topic": "17—18世纪欧亚大陆多民族国家的发展", "status": "planned" },
-      "targets": { "durationMinutes": 10, "screens": 7, "audioClips": 8, "interactions": 3 },
+      "periodId": "qing",
+      "order": 34,
+      "title": "承德避暑山庄为什么像一张立体地图",
+      "coreQuestion": "承德的宫殿、寺庙、驿路和会见活动，怎样留下不同地区交往与治理的线索？",
+      "throughline": "先走进承德这一具体地点，观察会见、翻译、交通和多种建筑传统，再分别放回台湾、西藏、新疆等地区的历史。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.7",
+        "NMC-ANCIENT-CHINA#明清",
+        "NMC-MING-QING#明清时期",
+        "PEP-HISTORY-7B-2026-TRIAL#明清单元"
+      ],
+      "evidencePlan": [
+        "map",
+        "document",
+        "artifact"
+      ],
+      "worldLink": {
+        "topic": "17—18世纪欧亚大陆多民族国家的发展",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 10,
+        "screens": 7,
+        "audioClips": 8,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/ming-qing-frontiers-unity.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-08-04-economy-knowledge-culture",
-      "periodId": "ming-qing",
-      "order": 31,
-      "title": "农书、工艺、商业与文学中的明清生活",
-      "coreQuestion": "经济变化和知识积累怎样影响明清社会生活？",
-      "throughline": "从《本草纲目》《天工开物》《农政全书》、城镇商业与小说戏曲等证据观察科技、经济和文化，同时放入全球经济互动背景。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.7", "NMC-ANCIENT-CHINA#明清", "NMC-MING-QING#明清时期", "PEP-HISTORY-7B-2026-TRIAL#明清单元"],
-      "evidencePlan": ["document", "artifact", "image", "map"],
-      "worldLink": { "topic": "全球白银贸易、作物传播和早期近代知识交流", "status": "planned" },
-      "targets": { "durationMinutes": 9, "screens": 7, "audioClips": 8, "interactions": 3 },
+      "periodId": "ming",
+      "order": 35,
+      "title": "明代农书、工艺、商业与文学怎样相遇",
+      "coreQuestion": "经济变化和知识积累怎样影响明代社会生活？",
+      "throughline": "从《本草纲目》《天工开物》《农政全书》、明代城镇商业与小说戏曲等证据观察科技、经济和文化，同时放入全球经济互动背景。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.7",
+        "NMC-ANCIENT-CHINA#明清",
+        "NMC-MING-QING#明清时期",
+        "PEP-HISTORY-7B-2026-TRIAL#明清单元"
+      ],
+      "evidencePlan": [
+        "document",
+        "artifact",
+        "image",
+        "map"
+      ],
+      "worldLink": {
+        "topic": "全球白银贸易、作物传播和早期近代知识交流",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 9,
+        "screens": 7,
+        "audioClips": 8,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/ming-qing-economy-knowledge-culture.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
     },
     {
       "id": "cn-ancient-08-05-late-crisis",
-      "periodId": "ming-qing",
-      "order": 32,
+      "periodId": "qing",
+      "order": 36,
       "title": "繁盛背后为什么出现危机",
-      "coreQuestion": "明末清中叶以后，内部矛盾和世界变化怎样加深社会危机？",
-      "throughline": "连接明末政治与社会矛盾、清朝人口与土地压力、严格限制下的有限对外贸易和19世纪国际形势，为1840年以后的中国近代史建立入口。",
-      "curriculumRefs": ["MOE-HISTORY-CURRICULUM-2022#1.7", "NMC-ANCIENT-CHINA#明清", "NMC-MING-QING#明清时期", "PEP-HISTORY-7B-2026-TRIAL#明清单元"],
-      "evidencePlan": ["document", "map", "statistics"],
-      "worldLink": { "topic": "工业革命、殖民扩张与19世纪世界格局", "status": "planned" },
-      "targets": { "durationMinutes": 10, "screens": 7, "audioClips": 8, "interactions": 3 },
+      "coreQuestion": "清中叶以后，内部矛盾和世界变化怎样加深社会危机？",
+      "throughline": "连接清朝人口与土地压力、权力与治理问题、严格限制下的有限对外贸易和19世纪国际形势，为1840年以后的中国近代史建立入口。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.7",
+        "NMC-ANCIENT-CHINA#明清",
+        "NMC-MING-QING#明清时期",
+        "PEP-HISTORY-7B-2026-TRIAL#明清单元"
+      ],
+      "evidencePlan": [
+        "document",
+        "map",
+        "statistics"
+      ],
+      "worldLink": {
+        "topic": "工业革命、殖民扩张与19世纪世界格局",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 10,
+        "screens": 7,
+        "audioClips": 8,
+        "interactions": 3
+      },
       "detailPath": "content/chapters/ming-qing-late-crisis.md",
-      "status": { "outline": "verified", "research": "verified", "script": "first-draft", "assets": "verified", "audio": "not-started", "review": "in-progress" }
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "verified",
+        "audio": "not-started",
+        "review": "in-progress"
+      }
+    },
+    {
+      "id": "cn-ancient-06-06-yan-zhenqing-draft",
+      "periodId": "tang",
+      "order": 37,
+      "title": "颜真卿的涂改为什么也重要",
+      "coreQuestion": "《祭侄文稿》的文字、墨迹和涂改怎样留下一个人的真实书写过程？",
+      "throughline": "从758年、颜真卿和《祭侄文稿》正文进入，观察卷面墨迹与涂改，再区分正文、后世题跋和收藏印；以温和方式理解书法既是文字记录，也是情感表达。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.5",
+        "NPM-JIZHI-WENGAO"
+      ],
+      "evidencePlan": [
+        "manuscript",
+        "calligraphy",
+        "object-record"
+      ],
+      "worldLink": {
+        "topic": "不同地区怎样保存手稿和书写痕迹",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 6,
+        "interactions": 3
+      },
+      "detailPath": "content/chapters/tang-yan-zhenqing-draft.md",
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-06-07-li-bai-jingyesi",
+      "periodId": "tang",
+      "order": 38,
+      "title": "李白怎样用月光写思念",
+      "coreQuestion": "《静夜思》怎样用短短四句把眼前月光和远方故乡连起来？",
+      "throughline": "先把李白放回唐代，再沿月光、疑霜、抬头、低头四个动作读诗；用后世画像说明人物记忆，同时保留写作地点和字词解释的讨论边界。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.5",
+        "CCDI-LIBAI-JINGYESI"
+      ],
+      "evidencePlan": [
+        "poem",
+        "later-portrait",
+        "place-question"
+      ],
+      "worldLink": {
+        "topic": "不同诗歌怎样借天空景物表达思念",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 7,
+        "screens": 6,
+        "audioClips": 6,
+        "interactions": 3
+      },
+      "detailPath": "content/chapters/tang-li-bai-jingyesi.md",
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-05-05-dunhuang-story",
+      "periodId": "three-kingdoms-jin-northern-southern",
+      "order": 39,
+      "title": "敦煌墙上的九色鹿怎样讲故事",
+      "coreQuestion": "一幅洞窟壁画怎样把多个时刻排在同一面墙上，又怎样被保存到今天？",
+      "throughline": "以莫高窟第257窟北魏鹿王本生图为主角，从敦煌地点、连续画面、故事顺序走到壁画保护；再连接隋唐敦煌的发展，区分古代壁画、现代照片和动画改编。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.4",
+        "DHA-MOGAO-CAVE-257",
+        "DHA-NINE-COLOURED-DEER-EDUCATION"
+      ],
+      "evidencePlan": [
+        "cave-site",
+        "mural",
+        "narrative-sequence"
+      ],
+      "worldLink": {
+        "topic": "丝路沿线洞窟艺术的保存与交流",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 6,
+        "interactions": 3
+      },
+      "detailPath": "content/chapters/dunhuang-wall-stories.md",
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-07-06-su-shi-moon",
+      "periodId": "song",
+      "order": 40,
+      "title": "苏轼怎样把月亮寄给远方的亲人",
+      "coreQuestion": "《水调歌头》怎样从月亮的圆缺，写到人与人的离合和祝愿？",
+      "throughline": "把1076年中秋、密州和苏轼兄弟分隔放在第一屏，再沿问月、看月、想到离合、送出祝愿四拍读词；区分作品、后世画像和今天的节日传承。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.6",
+        "CCDI-SUSHI-WATER-MELODY"
+      ],
+      "evidencePlan": [
+        "ci-poem",
+        "later-portrait",
+        "city-artwork"
+      ],
+      "worldLink": {
+        "topic": "不同文化怎样借月亮表达距离与祝愿",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 6,
+        "interactions": 3
+      },
+      "detailPath": "content/chapters/song-su-shi-moon.md",
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-08-06-forbidden-city-roof-beasts",
+      "periodId": "ming",
+      "order": 41,
+      "title": "故宫屋顶上的小兽为什么要排队",
+      "coreQuestion": "太和殿屋脊上的小兽怎样帮助我们观察建筑的位置、构件与等级表达？",
+      "throughline": "从1420年前后紫禁城基本建成定位，抬头观察屋脊、骑凤仙人与十只脊兽，再把太和殿放回整座宫城；说明现存建筑经过重建和维修。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.7",
+        "DPM-TAIHE-ROOF-BEASTS",
+        "UNESCO-FORBIDDEN-CITY"
+      ],
+      "evidencePlan": [
+        "architecture",
+        "roof-component",
+        "heritage-site"
+      ],
+      "worldLink": {
+        "topic": "不同宫殿建筑怎样用位置与装饰表达功能",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 7,
+        "screens": 6,
+        "audioClips": 6,
+        "interactions": 3
+      },
+      "detailPath": "content/chapters/ming-forbidden-city-roof-beasts.md",
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-08-07-journey-west-print",
+      "periodId": "ming",
+      "order": 42,
+      "title": "一本明代《西游记》怎样让故事跑远",
+      "coreQuestion": "文字、插图、刻版、印刷和读者怎样让孙悟空的故事传到更多地方？",
+      "throughline": "以1592年金陵世德堂本跨页插图为主角，观察文字与图像怎样配合，再追到刻版、印刷和读者；最后清楚分开唐代玄奘真人与明代小说角色。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.7",
+        "NLC-JOURNEY-WEST-CLASSIC"
+      ],
+      "evidencePlan": [
+        "rare-book",
+        "woodblock-print",
+        "literature-history-boundary"
+      ],
+      "worldLink": {
+        "topic": "印刷怎样帮助不同地区的长篇故事传播",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 6,
+        "interactions": 3
+      },
+      "detailPath": "content/chapters/ming-journey-west-print.md",
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-08-08-xu-xiake-notebook",
+      "periodId": "ming",
+      "order": 43,
+      "title": "徐霞客的旅行笔记怎样变成地理书",
+      "coreQuestion": "走路、观察、比较和逐日记录怎样帮助徐霞客修正书本里的答案？",
+      "throughline": "从1587—1641年和江阴出发，跟着徐霞客在山路、洞穴与河流旁观察记录；再说明今天所见《徐霞客游记》经过后人整理，画像也不是生前照片。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022#1.7",
+        "NOPSS-XU-XIAKE"
+      ],
+      "evidencePlan": [
+        "travel-diary",
+        "field-observation",
+        "later-edition"
+      ],
+      "worldLink": {
+        "topic": "不同地区的旅行记录怎样积累地理知识",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 6,
+        "audioClips": 6,
+        "interactions": 3
+      },
+      "detailPath": "content/chapters/ming-xu-xiake-notebook.md",
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
     }
   ]
 }

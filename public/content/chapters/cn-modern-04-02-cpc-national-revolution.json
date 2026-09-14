@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.8.0",
+  "contentVersion": "0.9.0",
   "id": "cn-modern-04-02-cpc-national-revolution",
   "trackId": "china-modern",
   "trackLabel": "中国近代史",
@@ -13,7 +13,596 @@
   "title": "中国共产党成立后，革命力量怎样汇聚",
   "coreQuestion": "从党的成立到国民革命，新的政治力量怎样成长？",
   "throughline": "连接马克思主义传播、中国共产党成立、第一次国共合作、黄埔军校和北伐战争，理解革命新局面的形成与破裂。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-modern-04-02-cpc-national-revolution",
+    "childTitle": "石库门里的一次会议怎样连起全国",
+    "prompt": "读书会、工人运动、政党组织和合作，怎样让新的力量成长？",
+    "takeaway": "新的政党从学习、组织和群众行动中成长，合作也会因目标变化而破裂。",
+    "object": "党纲文献、会址与黄埔军校遗址",
+    "people": [
+      "早期共产党人、工人、学生与国民革命参与者"
+    ],
+    "place": "上海、嘉兴与广州",
+    "culture": "早期报刊与宣言",
+    "care": "不把政党成立写成少数名人的秘密奇迹，也不做政治标签或阵营胜负题。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📍",
+      "label": "从一个地方出发",
+      "text": "石库门里的一次会议怎样连起全国"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "走进石库门会议",
+      "text": "先走进上海石库门里的一次小型会议。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "会址留下地点线索",
+      "text": "接着把今天的会址当地点线索，不把建筑照片当成党纲。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "再从文件找行动",
+      "text": "最后回到文件和记录，找各地参与者怎样组成行动网络。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "新的政党从学习、组织和群众行动中成长，合作也会因目标变化而破裂。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "革命",
+      "icon": "🔄",
+      "plain": "许多人推动改变旧政权或旧制度的大变化。",
+      "example": "革命不是只看一场战斗，还要看原因、参与者和结果。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "运动",
+      "icon": "📣",
+      "plain": "许多人围绕一个目标持续参加的行动。",
+      "example": "历史运动里的人、目标和做法可能并不完全相同。",
+      "priority": 3
+    },
+    {
+      "term": "民主",
+      "icon": "🗳️",
+      "plain": "公共事情不只由一个人说了算，人们按规则参与。",
+      "example": "不同年代参与范围不同，不能把古代投票当成今天制度。",
+      "priority": 1
+    },
+    {
+      "term": "共和国",
+      "icon": "🏛️",
+      "plain": "国家职位不是由皇位世代传下去的国家形式。",
+      "example": "写下共和国原则，不代表这些原则立刻全部做到。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "帝国",
+      "icon": "🗺️",
+      "plain": "由中心统治许多地区和人群的大政权。",
+      "example": "帝国地图会变化，不能把不同时期边界画成一张。",
+      "priority": 3
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "广州",
+      "reading": "Guǎngzhōu",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-08-05-late-crisis",
+        "cn-modern-01-01-opium-war",
+        "cn-modern-01-02-deeper-crisis",
+        "cn-modern-04-02-cpc-national-revolution",
+        "cross-01-hero-biography"
+      ],
+      "note": "广东省会地名。"
+    },
+    {
+      "text": "嘉兴",
+      "reading": "Jiāxīng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-04-02-cpc-national-revolution"
+      ],
+      "note": "“兴”在地名中读xīng。"
+    },
+    {
+      "text": "上海",
+      "reading": "Shànghǎi",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-01-04-reform-and-national-crisis",
+        "cn-modern-03-01-everyday-modernization",
+        "cn-modern-04-01-new-culture-may-fourth",
+        "cn-modern-04-02-cpc-national-revolution"
+      ],
+      "note": "“上”在地名中读shàng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个地方",
+      "icon": "📍",
+      "label": "石库门里的一次会议怎样连起全国",
+      "question": "读书会、工人运动、政党组织和合作，怎样让新的力量成长？"
+    },
+    "coverAudio": {
+      "id": "quest-947401c953f3f68e",
+      "text": "今天从一个地方出发：石库门里的一次会议怎样连起全国。我们要去上海、嘉兴与广州，看看党纲文献、会址与黄埔军校遗址怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-272165d634605707",
+      "text": "五条线索都找到了，“石库门里的一次会议怎样连起全国”的答案是：新的政党从学习、组织和群众行动中成长，合作也会因目标变化而破裂。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 10,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个地方出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是中国共产党成立与革命新道路，时间是1919—1936年。",
+          "narration": "这是中国共产党成立与革命新道路，时间是1919—1936年。",
+          "displayText": "这是中国共产党成立与革命新道路，时间是1919—1936年。"
+        },
+        "assetId": "cpc-first-congress-site-entrance-2025-photo",
+        "image": "/content/step-images/cpc-first-congress-site-entrance-2025-photo.jpg",
+        "imageAlt": "2025年中共一大会址参观入口",
+        "imageCaption": "2025年拍摄的上海中共一大会址参观入口。",
+        "imageBoundary": "树木、安检设备、路牌、工作人员和参观设施都属于当代环境；不能作为1921年会场陈设、参会人或会议过程的视觉证据。下载为1920×1280像素等比例缩略图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-cafb042b318bc60f",
+            "text": "先给一个地方找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-0e5a0af6abceeedb",
+            "text": "这是中国共产党成立与革命新道路，时间是1919—1936年。"
+          },
+          "image": {
+            "id": "quest-2db2d930171bb4d8",
+            "text": "点开大图啦。这是2025年中共一大会址参观入口。这张图能帮我们找到：这是中国共产党成立与革命新道路，时间是1919—1936年。"
+          },
+          "question": {
+            "id": "quest-6b36b10ba4b7def9",
+            "text": "从一个地方出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-time-1",
+            "label": "中国近代史 · 中国共产党成立与革命新道路 · 1919—1936年",
+            "correct": true,
+            "audio": {
+              "id": "quest-652023a7098358d2",
+              "text": "中国近代史 · 中国共产党成立与革命新道路 · 1919—1936年"
+            }
+          },
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-time-2",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-time-3",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "走进石库门会议",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先走进上海石库门里的一次小型会议。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "走进石库门会议",
+          "screenText": "先走进上海石库门里的一次小型会议。",
+          "narration": "先走进上海石库门里的一次小型会议。",
+          "displayText": "先走进上海石库门里的一次小型会议。"
+        },
+        "assetId": "cpc-first-congress-site-entrance-2025-photo",
+        "image": "/content/step-images/cpc-first-congress-site-entrance-2025-photo.jpg",
+        "imageAlt": "2025年中共一大会址参观入口",
+        "imageCaption": "2025年拍摄的上海中共一大会址参观入口。",
+        "imageBoundary": "树木、安检设备、路牌、工作人员和参观设施都属于当代环境；不能作为1921年会场陈设、参会人或会议过程的视觉证据。下载为1920×1280像素等比例缩略图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-780590843469d376",
+            "text": "先走进上海石库门里的一次小型会议。"
+          },
+          "image": {
+            "id": "quest-f7648e0a2acdc2a3",
+            "text": "点开大图啦。这是2025年中共一大会址参观入口。这张图能帮我们找到：先走进上海石库门里的一次小型会议。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-beginning-1",
+            "label": "早期共产党人、工人、学生与国民革，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-986b533f26e4a4e0",
+              "text": "早期共产党人、工人、学生与国民革，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-beginning-2",
+            "label": "上海、嘉兴与广州、早期共产党，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-2ac3ac898981409f",
+              "text": "上海、嘉兴与广州、早期共产党，只是故事地点"
+            }
+          },
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-beginning-3",
+            "label": "党纲文献、会址与黄埔军校遗址，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-c0561d380fea777c",
+              "text": "党纲文献、会址与黄埔军校遗址，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "会址留下地点线索",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着把今天的会址当地点线索，不把建筑照片当成党纲。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "会址留下地点线索",
+          "screenText": "接着把今天的会址当地点线索，不把建筑照片当成党纲。",
+          "narration": "接着把今天的会址当地点线索，不把建筑照片当成党纲。",
+          "displayText": "接着把今天的会址当地点线索，不把建筑照片当成党纲。"
+        },
+        "assetId": "cpc-first-congress-site-entrance-2025-photo",
+        "image": "/content/step-images/cpc-first-congress-site-entrance-2025-photo.jpg",
+        "imageAlt": "2025年中共一大会址参观入口",
+        "imageCaption": "2025年拍摄的上海中共一大会址参观入口。",
+        "imageBoundary": "树木、安检设备、路牌、工作人员和参观设施都属于当代环境；不能作为1921年会场陈设、参会人或会议过程的视觉证据。下载为1920×1280像素等比例缩略图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-c3d938e50d60aeb2",
+            "text": "接着把今天的会址当地点线索，不把建筑照片当成党纲。"
+          },
+          "image": {
+            "id": "quest-3e16b05d93428a7b",
+            "text": "点开大图啦。这是2025年中共一大会址参观入口。这张图能帮我们找到：接着把今天的会址当地点线索，不把建筑照片当成党纲。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-journey-1",
+            "label": "早期共产党人、工人、学生与国民革命参与者，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-d67c6e8f46633c87",
+              "text": "早期共产党人、工人、学生与国民革命参与者，只认出人物"
+            }
+          },
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-journey-2",
+            "label": "接着把今天的会址当地点线索，不把建筑照片当成党纲。",
+            "correct": true,
+            "audio": {
+              "id": "quest-c3d938e50d60aeb2",
+              "text": "接着把今天的会址当地点线索，不把建筑照片当成党纲。"
+            }
+          },
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-journey-3",
+            "label": "上海、嘉兴与广州、党纲文献、会址与黄，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-e20630decf576a9d",
+              "text": "上海、嘉兴与广州、党纲文献、会址与黄，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "再从文件找行动",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后回到文件和记录，找各地参与者怎样组成行动网络。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "再从文件找行动",
+          "screenText": "最后回到文件和记录，找各地参与者怎样组成行动网络。",
+          "narration": "最后回到文件和记录，找各地参与者怎样组成行动网络。",
+          "displayText": "最后回到文件和记录，找各地参与者怎样组成行动网络。"
+        },
+        "assetId": "cpc-first-congress-site-entrance-2025-photo",
+        "image": "/content/step-images/cpc-first-congress-site-entrance-2025-photo.jpg",
+        "imageAlt": "2025年中共一大会址参观入口",
+        "imageCaption": "2025年拍摄的上海中共一大会址参观入口。",
+        "imageBoundary": "树木、安检设备、路牌、工作人员和参观设施都属于当代环境；不能作为1921年会场陈设、参会人或会议过程的视觉证据。下载为1920×1280像素等比例缩略图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-70a6b20ba10f111c",
+            "text": "最后回到文件和记录，找各地参与者怎样组成行动网络。"
+          },
+          "image": {
+            "id": "quest-e21e02939416d87a",
+            "text": "点开大图啦。这是2025年中共一大会址参观入口。这张图能帮我们找到：最后回到文件和记录，找各地参与者怎样组成行动网络。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-change-1",
+            "label": "最后回到文件和记录，找各地参与者怎样组成行动网络。",
+            "correct": true,
+            "audio": {
+              "id": "quest-70a6b20ba10f111c",
+              "text": "最后回到文件和记录，找各地参与者怎样组成行动网络。"
+            }
+          },
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-change-2",
+            "label": "把今天的会址当地点线索，不把建筑照片，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-385eb54051dfa7a2",
+              "text": "把今天的会址当地点线索，不把建筑照片，还只是行动经过"
+            }
+          },
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-change-3",
+            "label": "党纲文献、会址与黄埔军校遗址、上，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-e854a8ebece93afa",
+              "text": "党纲文献、会址与黄埔军校遗址、上，还只是故事起点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "新的政党从学习、组织和群众行动中成长，合作也会因目标变化而破裂。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "新的政党从学习、组织和群众行动中成长，合作也会因目标变化而破裂。",
+          "narration": "新的政党从学习、组织和群众行动中成长，合作也会因目标变化而破裂。",
+          "displayText": "新的政党从学习、组织和群众行动中成长，合作也会因目标变化而破裂。"
+        },
+        "assetId": "cpc-first-congress-site-entrance-2025-photo",
+        "image": "/content/step-images/cpc-first-congress-site-entrance-2025-photo.jpg",
+        "imageAlt": "2025年中共一大会址参观入口",
+        "imageCaption": "2025年拍摄的上海中共一大会址参观入口。",
+        "imageBoundary": "树木、安检设备、路牌、工作人员和参观设施都属于当代环境；不能作为1921年会场陈设、参会人或会议过程的视觉证据。下载为1920×1280像素等比例缩略图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-face1fa05423c9b4",
+            "text": "新的政党从学习、组织和群众行动中成长，合作也会因目标变化而破裂。"
+          },
+          "image": {
+            "id": "quest-c5b45fd61715984f",
+            "text": "点开大图啦。这是2025年中共一大会址参观入口。这张图能帮我们找到：新的政党从学习、组织和群众行动中成长，合作也会因目标变化而破裂。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-takeaway-1",
+            "label": "走进上海石库门里的一次小型会议。、党纲文献、会址与，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-0daf11276f334be4",
+              "text": "走进上海石库门里的一次小型会议。、党纲文献、会址与，只说了原因"
+            }
+          },
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-takeaway-2",
+            "label": "回到文件和记录，找各地参与者怎样组成行动网络。、石库门，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-341972548fad8459",
+              "text": "回到文件和记录，找各地参与者怎样组成行动网络。、石库门，只说了结果"
+            }
+          },
+          {
+            "id": "cn-modern-04-02-cpc-national-revolution-takeaway-3",
+            "label": "新的政党从学习、组织和群众行动中成长，合作也会因目标变化而破裂。",
+            "correct": true,
+            "audio": {
+              "id": "quest-face1fa05423c9b4",
+              "text": "新的政党从学习、组织和群众行动中成长，合作也会因目标变化而破裂。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "组织成长阶梯",
+        "items": [
+          "依次放置“早期组织—中共一大—中共二大纲领—工人运动”，理解政党不是一次会议后突然壮大。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "合作不是合并",
+        "items": [
+          "从“共同反对军阀”“各自仍有组织”“所有分歧消失”中选出前两项。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "地图边界检查",
+        "items": [
+          "只点亮1926年广州出发和北伐初期路线，遇到1928年标记时提示“超出本章合作阶段，先不使用”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 10,
   "conclusion": [
     "五四运动以后，马克思主义在中国进一步传播，并开始同工人运动结合。1920年，各地共产党早期组织陆续建立；1921年7月23日，中国共产党第一次全国代表大会在上海开幕，最后一天的会议转移到浙江嘉兴南湖，中国共产党成立。1922年中共二大提出反帝反封建的民主革命纲领。早期工人运动遭到军阀镇压，使中国共产党更深地认识到联合更多革命力量的重要性。1924年，第一次国共合作正式形成，国共合作创办黄埔军校；1926年国民革命军从广州出师北伐，工农运动也发展起来，北洋军阀统治受到沉重打击。1927年，国民党右派先后发动反革命政变，大批共产党人和革命群众遭到镇压，第一次国共合作破裂，大革命失败。这段历史既有力量汇聚，也有合作破裂，不能只写成一条一直向上的胜利线。"
@@ -356,30 +945,39 @@
       "title": "2025年中共一大会址参观入口",
       "localPath": "reference-assets/china-modern-new-democratic-revolution/cpc-first-congress-site-2025.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Site_of_the_First_CPC_National_Congress_at_Shude_Li,_374_S_Huangpi_Rd_(20250610162648).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2025年拍摄的上海中共一大会址参观入口。",
-      "boundary": "树木、安检设备、路牌、工作人员和参观设施都属于当代环境；不能作为1921年会场陈设、参会人或会议过程的视觉证据。下载为1920×1280像素等比例缩略图，未作其他修改。"
+      "boundary": "树木、安检设备、路牌、工作人员和参观设施都属于当代环境；不能作为1921年会场陈设、参会人或会议过程的视觉证据。下载为1920×1280像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "whampoa-academy-opening-1924-photo",
       "title": "1924年黄埔军校开学典礼历史照片",
       "localPath": "reference-assets/china-modern-new-democratic-revolution/whampoa-opening-1924.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:1924%E5%B9%B46%E6%9C%8816%E6%97%A5%E5%AD%99%E4%B8%AD%E5%B1%B1%E3%80%81%E8%92%8B%E4%BB%8B%E7%9F%B3%E3%80%81%E5%BB%96%E4%BB%B2%E6%81%BA%E3%80%81%E5%AE%8B%E5%BA%86%E9%BE%84%E5%9C%A8%E9%BB%84%E5%9F%94%E5%86%9B%E6%A0%A1%E5%BC%80%E5%AD%A6%E5%85%B8%E7%A4%BC%E4%B8%8A.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — photograph taken in China in 1924",
       "clearance": "cleared-open-license",
       "caption": "1924年6月16日黄埔军校开学典礼中的一个场景。",
-      "boundary": "照片显示典礼台和部分人物，不是全体师生合影，也不能证明国共合作期间没有分歧；人物身份和学校作用须以纪念馆资料交叉核验。原图844×578像素，未作修改。"
+      "boundary": "照片显示典礼台和部分人物，不是全体师生合影，也不能证明国共合作期间没有分歧；人物身份和学校作用须以纪念馆资料交叉核验。原图844×578像素，未作修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "northern-expedition-1926-1928-editor-map",
       "title": "北伐战争1926—1928年英文参考图",
       "localPath": "reference-assets/china-modern-new-democratic-revolution/northern-expedition-map.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Map_of_Northern_Expedition.png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "后人绘制的北伐战争阶段和路线参考图。",
-      "boundary": "仅供编辑核对和重新绘制简明中文图，不直接进入低龄页面。图中包括1928年事件、英文地名、势力范围和战斗符号；本章只采用经官方史料复核的1926—1927年初期路线。若制作衍生图，须继续遵守CC BY-SA 4.0并注明修改。"
+      "boundary": "仅供编辑核对和重新绘制简明中文图，不直接进入低龄页面。图中包括1928年事件、英文地名、势力范围和战斗符号；本章只采用经官方史料复核的1926—1927年初期路线。若制作衍生图，须继续遵守CC BY-SA 4.0并注明修改。",
+      "childVisibility": "editor-only"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-modern-04-02-cpc-national-revolution.jpg",

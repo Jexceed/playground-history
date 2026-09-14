@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-contemporary-02-01-interwar-order-socialism",
   "trackId": "world-contemporary",
   "trackLabel": "世界现代史",
@@ -10,10 +10,701 @@
     "years": "1918—1939年"
   },
   "order": 3,
-  "title": "战后秩序和苏联建设带来了什么",
-  "coreQuestion": "凡尔赛—华盛顿体系与苏联工业化分别怎样塑造战间期？",
-  "throughline": "先用1919—1938年双轨时间线并列战后国际规则与苏联国内建设；国际线从巴黎和会的参与不平等、国际联盟的合作与执行缺口走到华盛顿会议、中国十项原则、《九国公约》和山东问题的有条件解决；苏联线从内战后危机、新经济政策走到五年计划、重工业、生活短缺、强制集体化、严重饥荒、强迫劳动和政治镇压，始终区分目标、方法与结果。",
-  "age": "6—9岁亲子共学",
+  "title": "战后会议桌边为什么有人缺席",
+  "coreQuestion": "少数代表制定规则时，哪些声音没有被听见？",
+  "throughline": "儿童主线只观察巴黎和会合影、条约和华盛顿会议：谁坐在桌边、谁缺席、规则怎样影响桌外的人；苏联建设另留在家长层的战间期延伸阅读。",
+  "childEntry": {
+    "id": "world-contemporary-02-01-interwar-order-socialism",
+    "childTitle": "会议桌边为什么有人缺席",
+    "prompt": "大战后的会议桌上，谁能定规则，谁的声音没有被听见？",
+    "takeaway": "少数代表定下新规则，却没有听见所有人的声音，矛盾没有消失。",
+    "object": "巴黎和会合影与条约",
+    "people": [
+      "各国代表和没有坐上桌边的人"
+    ],
+    "place": "巴黎与华盛顿",
+    "culture": "会议文件与建设宣传图像",
+    "care": "合影只显示代表，不代表所有国家和民众；建设成就与强制代价分开。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "会议桌边为什么有人缺席"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "合影里谁在桌边",
+      "text": "先看巴黎和会合影，找谁坐在桌边、谁不在。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "条约安排新规则",
+      "text": "接着看条约怎样安排战后规则。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "缺席的声音没消失",
+      "text": "最后没有坐上桌边的人继续提出要求，矛盾没有消失。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "少数代表定下新规则，却没有听见所有人的声音，矛盾没有消失。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "条约",
+      "icon": "📄",
+      "plain": "国家或政治力量之间写下并同意遵守的约定。",
+      "example": "还要问条约是否平等、由谁签、后来怎样执行。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "工业化",
+      "icon": "🏭",
+      "plain": "机器生产和工厂在社会中越来越重要的过程。",
+      "example": "工业化不是只多几座工厂，还会改变城市与生活。",
+      "priority": 1
+    },
+    {
+      "term": "殖民地",
+      "icon": "⛓️",
+      "plain": "被外来国家控制，居民和资源受它支配的地方。",
+      "example": "殖民统治不是普通旅行或平等交流。",
+      "priority": 1
+    },
+    {
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "priority": 1
+    },
+    {
+      "term": "革命",
+      "icon": "🔄",
+      "plain": "许多人推动改变旧政权或旧制度的大变化。",
+      "example": "革命不是只看一场战斗，还要看原因、参与者和结果。",
+      "priority": 1
+    },
+    {
+      "term": "和平",
+      "icon": "🕊️",
+      "plain": "人们不靠战争解决分歧，并努力避免暴力伤害。",
+      "example": "和平需要规则、谈判和行动，不只是说一句愿望。",
+      "priority": 1
+    },
+    {
+      "term": "经济",
+      "icon": "🧺",
+      "plain": "人们怎样生产、交换、分配和使用东西。",
+      "example": "经济变化最后会落到工作、食物、住房等生活里。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "主权",
+      "icon": "🏠",
+      "plain": "一个国家自己决定本国事务的权力。",
+      "example": "强迫签约、割地或控制关税会伤害主权。",
+      "priority": 1
+    },
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "关税",
+      "icon": "🧾",
+      "plain": "货物进出一个地方时按规则缴纳的钱。",
+      "example": "谁能决定关税，会影响国家主权和贸易。",
+      "priority": 2
+    },
+    {
+      "term": "领土",
+      "icon": "🗺️",
+      "plain": "一个国家依法拥有和管理的土地、水域等范围。",
+      "example": "历史地图要标时间，边界不会一直不变。",
+      "priority": 2
+    },
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "危机",
+      "icon": "⚠️",
+      "plain": "问题迅速变严重，原来的办法难以应付。",
+      "example": "危机通常有多种原因，也会影响不同的人。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "自由",
+      "icon": "🕊️",
+      "plain": "在不伤害别人并遵守共同规则时作出选择。",
+      "example": "历史文件写下自由，还要看哪些人当时没有得到。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "国际",
+      "icon": "🌍",
+      "plain": "不同国家之间或许多国家共同参与的事情。",
+      "example": "国际合作要看谁参加、怎样分工、规则如何执行。",
+      "priority": 3
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "联盟",
+      "icon": "🔗",
+      "plain": "不同一方为了共同目标暂时或长期合作。",
+      "example": "联盟成员仍可能有不同想法和利益。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "华盛顿",
+      "reading": "Huáshèngdùn",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-02-01-interwar-order-socialism"
+      ],
+      "note": "作为美国地名译名时按此读法。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "会议桌边为什么有人缺席",
+      "question": "大战后的会议桌上，谁能定规则，谁的声音没有被听见？"
+    },
+    "coverAudio": {
+      "id": "quest-15d01f014a15152b",
+      "text": "今天从一件东西出发：会议桌边为什么有人缺席。我们要去巴黎与华盛顿，看看巴黎和会合影与条约怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-c7a3c9ae542a7364",
+      "text": "五条线索都找到了，“会议桌边为什么有人缺席”的答案是：少数代表定下新规则，却没有听见所有人的声音，矛盾没有消失。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 11,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是两次世界大战之间，时间是1918—1939年。",
+          "narration": "这是两次世界大战之间，时间是1918—1939年。",
+          "displayText": "这是两次世界大战之间，时间是1918—1939年。"
+        },
+        "assetId": "interwar-big-four-paris-1919-public-domain",
+        "image": "/content/step-images/interwar-big-four-paris-1919-public-domain.jpg",
+        "imageAlt": "巴黎和会‘四巨头’合影，1919年",
+        "imageCaption": "1919年巴黎和会期间，劳合·乔治、奥兰多、克列孟梭和威尔逊四位领导人同场。",
+        "imageBoundary": "本地文件为5308×3920像素JPEG，来自美国国会图书馆Bain新闻照片。照片证明四人同场并被称为‘四巨头’，不能证明全部议题只有四人参与、四人意见一致或其他国家没有代表。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-6bb1e8050b9abc39",
+            "text": "这是两次世界大战之间，时间是1918—1939年。"
+          },
+          "image": {
+            "id": "quest-8996f697db0027bf",
+            "text": "点开大图啦。这是巴黎和会‘四巨头’合影，1919年。这张图能帮我们找到：这是两次世界大战之间，时间是1918—1939年。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-time-1",
+            "label": "世界近代史 · 第二次工业革命与近代文化 · 19世纪后期—20世纪初",
+            "correct": false,
+            "audio": {
+              "id": "quest-40725c07ff8c763e",
+              "text": "世界近代史 · 第二次工业革命与近代文化 · 19世纪后期—20世纪初"
+            }
+          },
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-time-2",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-time-3",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": true,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "合影里谁在桌边",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看巴黎和会合影，找谁坐在桌边、谁不在。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "合影里谁在桌边",
+          "screenText": "先看巴黎和会合影，找谁坐在桌边、谁不在。",
+          "narration": "先看巴黎和会合影，找谁坐在桌边、谁不在。",
+          "displayText": "先看巴黎和会合影，找谁坐在桌边、谁不在。"
+        },
+        "assetId": "interwar-big-four-paris-1919-public-domain",
+        "image": "/content/step-images/interwar-big-four-paris-1919-public-domain.jpg",
+        "imageAlt": "巴黎和会‘四巨头’合影，1919年",
+        "imageCaption": "1919年巴黎和会期间，劳合·乔治、奥兰多、克列孟梭和威尔逊四位领导人同场。",
+        "imageBoundary": "本地文件为5308×3920像素JPEG，来自美国国会图书馆Bain新闻照片。照片证明四人同场并被称为‘四巨头’，不能证明全部议题只有四人参与、四人意见一致或其他国家没有代表。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-eebaf64f1eafd454",
+            "text": "先看巴黎和会合影，找谁坐在桌边、谁不在。"
+          },
+          "image": {
+            "id": "quest-e80f5923f8229e3a",
+            "text": "点开大图啦。这是巴黎和会‘四巨头’合影，1919年。这张图能帮我们找到：先看巴黎和会合影，找谁坐在桌边、谁不在。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-beginning-1",
+            "label": "巴黎与华盛顿、各国，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-b480f501ba7299ff",
+              "text": "巴黎与华盛顿、各国，只是故事地点"
+            }
+          },
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-beginning-2",
+            "label": "巴黎和会合影与条约，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-c7bcf7cbd2d0e95e",
+              "text": "巴黎和会合影与条约，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-beginning-3",
+            "label": "各国代表和没有坐上桌边，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-fa25df72fd9adbb1",
+              "text": "各国代表和没有坐上桌边，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "条约安排新规则",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看条约怎样安排战后规则。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "条约安排新规则",
+          "screenText": "接着看条约怎样安排战后规则。",
+          "narration": "接着看条约怎样安排战后规则。",
+          "displayText": "接着看条约怎样安排战后规则。"
+        },
+        "assetId": "interwar-nine-power-treaty-page-1922-public-domain",
+        "image": "/content/step-images/interwar-nine-power-treaty-page-1922-public-domain.jpg",
+        "imageAlt": "《九国公约》首页，1922年",
+        "imageCaption": "1922年美国政府会议报告第115页开始刊载九国关于中国问题的条约。",
+        "imageBoundary": "本地文件由146页报告PDF的第129页渲染为1531×2400像素JPEG，页下方可见条约标题和缔约国。页面证明条约形式与签署方；尊重主权等具体条文在下一页，产品以逐条释义呈现，不把首页当作执行结果。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-c3ec158dd719a875",
+            "text": "接着看条约怎样安排战后规则。"
+          },
+          "image": {
+            "id": "quest-ecf55a7d87325106",
+            "text": "点开大图啦。这是《九国公约》首页，1922年。这张图能帮我们找到：接着看条约怎样安排战后规则。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-journey-1",
+            "label": "接着看条约怎样安排战后规则。",
+            "correct": true,
+            "audio": {
+              "id": "quest-c3ec158dd719a875",
+              "text": "接着看条约怎样安排战后规则。"
+            }
+          },
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-journey-2",
+            "label": "巴黎与华盛顿，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-759ab57d0136ac4f",
+              "text": "巴黎与华盛顿，只说了地点"
+            }
+          },
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-journey-3",
+            "label": "各国代表和没有坐上，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-c7618a70bb3e5de7",
+              "text": "各国代表和没有坐上，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "缺席的声音没消失",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后没有坐上桌边的人继续提出要求，矛盾没有消失。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "缺席的声音没消失",
+          "screenText": "最后没有坐上桌边的人继续提出要求，矛盾没有消失。",
+          "narration": "最后没有坐上桌边的人继续提出要求，矛盾没有消失。",
+          "displayText": "最后没有坐上桌边的人继续提出要求，矛盾没有消失。"
+        },
+        "assetId": "interwar-big-four-paris-1919-public-domain",
+        "image": "/content/step-images/interwar-big-four-paris-1919-public-domain.jpg",
+        "imageAlt": "巴黎和会‘四巨头’合影，1919年",
+        "imageCaption": "1919年巴黎和会期间，劳合·乔治、奥兰多、克列孟梭和威尔逊四位领导人同场。",
+        "imageBoundary": "本地文件为5308×3920像素JPEG，来自美国国会图书馆Bain新闻照片。照片证明四人同场并被称为‘四巨头’，不能证明全部议题只有四人参与、四人意见一致或其他国家没有代表。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-a6ec5625e8ee9406",
+            "text": "最后没有坐上桌边的人继续提出要求，矛盾没有消失。"
+          },
+          "image": {
+            "id": "quest-00f483da3a085820",
+            "text": "点开大图啦。这是巴黎和会‘四巨头’合影，1919年。这张图能帮我们找到：最后没有坐上桌边的人继续提出要求，矛盾没有消失。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-change-1",
+            "label": "看条约怎样安排战后规则。、会议桌边，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-feef06b671fe46f0",
+              "text": "看条约怎样安排战后规则。、会议桌边，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-change-2",
+            "label": "巴黎和会合影与条约、巴黎与华盛，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-b13e747c5343c031",
+              "text": "巴黎和会合影与条约、巴黎与华盛，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-change-3",
+            "label": "最后没有坐上桌边的人继续提出要求，矛盾没有消失。",
+            "correct": true,
+            "audio": {
+              "id": "quest-a6ec5625e8ee9406",
+              "text": "最后没有坐上桌边的人继续提出要求，矛盾没有消失。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "少数代表定下新规则，却没有听见所有人的声音，矛盾没有消失。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "少数代表定下新规则，却没有听见所有人的声音，矛盾没有消失。",
+          "narration": "少数代表定下新规则，却没有听见所有人的声音，矛盾没有消失。",
+          "displayText": "少数代表定下新规则，却没有听见所有人的声音，矛盾没有消失。"
+        },
+        "assetId": "interwar-shandong-settlement-summary-1922-public-domain",
+        "image": "/content/step-images/interwar-shandong-settlement-summary-1922-public-domain.jpg",
+        "imageAlt": "华盛顿会议美国代表团报告中的山东问题解决条件，1922年",
+        "imageCaption": "美国代表团1922年报告概述胶州旧租借地、驻军撤出、海关和胶济铁路转交的条件。",
+        "imageBoundary": "本地文件由报告PDF第63页渲染为1531×2400像素JPEG。报告可核验转交、补偿和管理人员等条件，但代表美国代表团叙事；界面同时给出中国外交部材料，且明确这是条约摘要页而非中日条约签字原件。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-6272059645dc8a32",
+            "text": "少数代表定下新规则，却没有听见所有人的声音，矛盾没有消失。"
+          },
+          "image": {
+            "id": "quest-43edf68b9a6dbec9",
+            "text": "点开大图啦。这是华盛顿会议美国代表团报告中的山东问题解决条件，1922年。这张图能帮我们找到：少数代表定下新规则，却没有听见所有人的声音，矛盾没有消失。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-takeaway-1",
+            "label": "没有坐上桌边的人继续提出要求，矛盾没有消失。、会，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-569e1ac90a55df2f",
+              "text": "没有坐上桌边的人继续提出要求，矛盾没有消失。、会，只说了结果"
+            }
+          },
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-takeaway-2",
+            "label": "少数代表定下新规则，却没有听见所有人的声音，矛盾没有消失。",
+            "correct": true,
+            "audio": {
+              "id": "quest-6272059645dc8a32",
+              "text": "少数代表定下新规则，却没有听见所有人的声音，矛盾没有消失。"
+            }
+          },
+          {
+            "id": "world-contemporary-02-01-interwar-order-socialism-takeaway-3",
+            "label": "看巴黎和会合影，找谁坐在桌边、谁不在。、巴黎，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-abea2426cf414228",
+              "text": "看巴黎和会合影，找谁坐在桌边、谁不在。、巴黎，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把节点放回两条时间线",
+        "items": [
+          "给出“国际联盟第一次大会、山东问题条约、新经济政策、第一个五年计划、严重饥荒”五张卡。",
+          "孩子先按年份排序，再拖入“国际规则”或“苏联建设”两条轨道。",
+          "系统只纠正时间与类别，不把国家或制度做成胜负排行。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "承诺和条件配对",
+        "items": [
+          "“和平解决争端”配“需要成员愿意调查和执行”。",
+          "“监督委任统治”配“并不等于殖民地立即独立”。",
+          "“大会一国一票”配“许多地区仍没有自己的国家代表”。",
+          "完成后出现提示：“条文告诉我们想做什么，结果还要找执行证据。”"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "条约解决范围卡",
+        "items": [
+          "放入“胶州行政交还、铁路有条件转交、治外法权全部取消、关税完全自主、遇到违反公约时主要磋商”。",
+          "孩子分为“已写入或有进展”“当时没有完全实现”两栏。",
+          "禁止出现“夺回领土得分”或拖动旗帜玩法。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "给一座新工业城配齐条件",
+        "items": [
+          "让孩子从“机器、铁路、电力、住房、食物、学校、诊所、安全和休息”中为工业城建立连接网。",
+          "缺少任意生活条件时，系统提示具体影响，不设置“产量越高越好”的单一分数。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 11,
   "conclusion": [
     "第一次世界大战结束后，人们同时面对两个大问题：国家之间怎样避免再打大战，一个新生的社会主义国家怎样恢复生产、建设工业。巴黎和会及其后一系列条约重画部分边界、处理战败国并建立国际联盟；这是第一次建立面向国际合作和集体安全的常设组织，但和会主要由少数战胜国主导，战败国与苏俄被排除，殖民地并未因此普遍独立，美国也没有加入国际联盟。华盛顿会议又制定海军限制和对华原则，《九国公约》写下尊重中国主权与领土完整，山东问题也取得部分解决；可是条约缺少有力执行办法，中国关税、治外法权等不平等问题没有一次解决。",
@@ -1338,100 +2029,130 @@
       "title": "巴黎和会‘四巨头’合影，1919年",
       "localPath": "reference-assets/world-contemporary-interwar-order-socialism/paris-peace-big-four-1919.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:%22Big_Four%22_LCCN2014709196.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — Library of Congress reports no known restrictions",
       "clearance": "cleared-public-domain",
       "caption": "1919年巴黎和会期间，劳合·乔治、奥兰多、克列孟梭和威尔逊四位领导人同场。",
-      "boundary": "本地文件为5308×3920像素JPEG，来自美国国会图书馆Bain新闻照片。照片证明四人同场并被称为‘四巨头’，不能证明全部议题只有四人参与、四人意见一致或其他国家没有代表。"
+      "boundary": "本地文件为5308×3920像素JPEG，来自美国国会图书馆Bain新闻照片。照片证明四人同场并被称为‘四巨头’，不能证明全部议题只有四人参与、四人意见一致或其他国家没有代表。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "interwar-league-first-assembly-1920-public-domain",
       "title": "国际联盟大会第一次会议，1920年",
       "localPath": "reference-assets/world-contemporary-interwar-order-socialism/league-first-assembly-1920.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Eerste_zitting_van_de_Volkenbond_Gen%C3%A8ve_1920,_SFA001004095.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — anonymous European photograph, term expired",
       "clearance": "cleared-public-domain",
       "caption": "1920年11月15日，国际联盟成员在日内瓦举行第一次大会。",
-      "boundary": "本地文件为3258×1966像素JPEG，摄影者不明，原图有后加人物编号。它只显示特定会场与正式代表，不能说明所有殖民地人民、妇女或普通居民拥有同等代表权，也不能从座位判断国家影响力。"
+      "boundary": "本地文件为3258×1966像素JPEG，摄影者不明，原图有后加人物编号。它只显示特定会场与正式代表，不能说明所有殖民地人民、妇女或普通居民拥有同等代表权，也不能从座位判断国家影响力。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "interwar-league-covenant-article-22-1919-public-domain",
       "title": "《国际联盟盟约》第22条委任统治原页，1919年",
       "localPath": "reference-assets/world-contemporary-interwar-order-socialism/league-covenant-article-22-1919.jpg",
       "sourcePage": "https://archive.org/details/1919v55i1p41h_1472/page/n9/mode/1up",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — 1919 Canadian Crown publication",
       "clearance": "cleared-public-domain",
       "caption": "1919年加拿大议会会期文件中的《国际联盟盟约》第22条，写有委任统治安排。",
-      "boundary": "本地文件由20页PDF的第9页渲染为1536×2400像素JPEG。页面属于当时官方条约与注释，能核验条文及其等级化语言；不能证明被管理地区人民同意，也不能证明委任统治自动带来独立。"
+      "boundary": "本地文件由20页PDF的第9页渲染为1536×2400像素JPEG。页面属于当时官方条约与注释，能核验条文及其等级化语言；不能证明被管理地区人民同意，也不能证明委任统治自动带来独立。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "interwar-washington-conference-1921-public-domain",
       "title": "华盛顿限制军备会议会场，1921—1922年",
       "localPath": "reference-assets/world-contemporary-interwar-order-socialism/washington-conference-1921.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Conference_on_Limitation_of_Armaments,_Washington,_D.C..jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — Library of Congress reports no known restrictions",
       "clearance": "cleared-public-domain",
       "caption": "1921—1922年华盛顿会议大厅和代表席，会议讨论海军限制以及东亚、太平洋问题。",
-      "boundary": "本地文件为10116×7404像素JPEG。国会图书馆编目把拍摄范围放在1921年11月12日至1922年2月6日之间，界面不指定某一天或某项议程；照片不能判断谁在发言、谁赞成条约或中国提案是否被接受。"
+      "boundary": "本地文件为10116×7404像素JPEG。国会图书馆编目把拍摄范围放在1921年11月12日至1922年2月6日之间，界面不指定某一天或某项议程；照片不能判断谁在发言、谁赞成条约或中国提案是否被接受。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "interwar-nine-power-treaty-page-1922-public-domain",
       "title": "《九国公约》首页，1922年",
       "localPath": "reference-assets/world-contemporary-interwar-order-socialism/nine-power-treaty-1922.jpg",
       "sourcePage": "https://www.loc.gov/item/2026573691/",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States government work",
       "clearance": "cleared-public-domain",
       "caption": "1922年美国政府会议报告第115页开始刊载九国关于中国问题的条约。",
-      "boundary": "本地文件由146页报告PDF的第129页渲染为1531×2400像素JPEG，页下方可见条约标题和缔约国。页面证明条约形式与签署方；尊重主权等具体条文在下一页，产品以逐条释义呈现，不把首页当作执行结果。"
+      "boundary": "本地文件由146页报告PDF的第129页渲染为1531×2400像素JPEG，页下方可见条约标题和缔约国。页面证明条约形式与签署方；尊重主权等具体条文在下一页，产品以逐条释义呈现，不把首页当作执行结果。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "interwar-shandong-settlement-summary-1922-public-domain",
       "title": "华盛顿会议美国代表团报告中的山东问题解决条件，1922年",
       "localPath": "reference-assets/world-contemporary-interwar-order-socialism/shandong-settlement-summary-1922.jpg",
       "sourcePage": "https://www.loc.gov/item/2026573691/",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States government work",
       "clearance": "cleared-public-domain",
       "caption": "美国代表团1922年报告概述胶州旧租借地、驻军撤出、海关和胶济铁路转交的条件。",
-      "boundary": "本地文件由报告PDF第63页渲染为1531×2400像素JPEG。报告可核验转交、补偿和管理人员等条件，但代表美国代表团叙事；界面同时给出中国外交部材料，且明确这是条约摘要页而非中日条约签字原件。"
+      "boundary": "本地文件由报告PDF第63页渲染为1531×2400像素JPEG。报告可核验转交、补偿和管理人员等条件，但代表美国代表团叙事；界面同时给出中国外交部材料，且明确这是条约摘要页而非中日条约签字原件。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "interwar-nep-leningrad-market-1924-public-domain",
       "title": "列宁格勒果蔬市场，1924年",
       "localPath": "reference-assets/world-contemporary-interwar-order-socialism/nep-leningrad-market-1924.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Fruit_and_vegetable_market_in_Leningrad,_1924.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — Russia term expired",
       "clearance": "cleared-public-domain-low-provenance",
       "caption": "1924年列宁格勒一处果蔬市场，可观察摊位、商品与交易场景。",
-      "boundary": "本地文件为2905×2133像素JPEG。原始摄影者、底片和馆藏链未确认，正式界面只能作为小型生活场景卡；新经济政策范围和经济恢复结论必须以法令、国家图书馆和档案展资料为依据。"
+      "boundary": "本地文件为2905×2133像素JPEG。原始摄影者、底片和馆藏链未确认，正式界面只能作为小型生活场景卡；新经济政策范围和经济恢复结论必须以法令、国家图书馆和档案展资料为依据。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "interwar-help-famine-poster-1921-public-domain",
       "title": "德米特里·莫尔《帮助！》饥荒救济海报，1921年",
       "localPath": "reference-assets/world-contemporary-interwar-order-socialism/help-famine-poster-1921.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%BC%D0%BE%D0%B3%D0%B8_(%D0%94._%D0%9C%D0%BE%D0%BE%D1%80,_1921).pdf",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — author died 1946",
       "clearance": "cleared-public-domain",
       "caption": "1921年《帮助！》海报用高举双手和一根麦穗号召社会援助饥荒。",
-      "boundary": "本地文件由俄罗斯国家图书馆4147×6279像素PDF渲染为1586×2400像素JPEG。它是动员性艺术，不是饥荒现场照片；不能从人物形象推出特定受灾者身份、地区或死亡规模。"
+      "boundary": "本地文件由俄罗斯国家图书馆4147×6279像素PDF渲染为1586×2400像素JPEG。它是动员性艺术，不是饥荒现场照片；不能从人物形象推出特定受灾者身份、地区或死亡规模。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "interwar-dnieper-dam-construction-1928-1931-public-domain",
       "title": "第聂伯河水电站大坝施工，1928—1931年",
       "localPath": "reference-assets/world-contemporary-interwar-order-socialism/dnieper-dam-construction-1928-1931.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Construction_of_the_Dnieper_Hydroelectric_Power_Station_dam.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — unknown author, Russia term expired",
       "clearance": "cleared-public-domain",
       "caption": "1928—1931年第聂伯河水电站大坝施工现场，能看到坝体、轨道和起重设备。",
-      "boundary": "本地文件只有600×402像素，来源链指向俄罗斯能源博物馆但未给出摄影者。只作中小型工程证据卡，不放大全屏；不能据一张工地照片推断全国工业增长、工人数量、劳动条件或工程全部由自由劳动完成。"
+      "boundary": "本地文件只有600×402像素，来源链指向俄罗斯能源博物馆但未给出摄影者。只作中小型工程证据卡，不放大全屏；不能据一张工地照片推断全国工业增长、工人数量、劳动条件或工程全部由自由劳动完成。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "interwar-collectivization-tractor-propaganda-1931-public-domain",
       "title": "集体化宣传中的拖拉机场景，1931年",
       "localPath": "reference-assets/world-contemporary-interwar-order-socialism/collectivization-tractor-propaganda-1931.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:McCormick-Deering_15-30_The_First_Tractor_Propaganda_Shot.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — anonymous 1931 publication, term expired",
       "clearance": "cleared-public-domain",
       "caption": "1931年宣传刊物中的农民与拖拉机场景，构图表现集体化和机械化的成功形象。",
-      "boundary": "本地文件为746×1262像素JPEG，开放文件名明确称其为propaganda shot。界面必须显著标‘宣传摆拍’，不能从人物表情证明农民普遍自愿、产量提高或生活改善；须与内部会议、信件和医生报告对读。"
+      "boundary": "本地文件为746×1262像素JPEG，开放文件名明确称其为propaganda shot。界面必须显著标‘宣传摆拍’，不能从人物表情证明农民普遍自愿、产量提高或生活改善；须与内部会议、信件和医生报告对读。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-contemporary-02-01-interwar-order-socialism.jpg",

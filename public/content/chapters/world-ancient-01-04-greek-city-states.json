@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-ancient-01-04-greek-city-states",
   "trackId": "world-ancient",
   "trackLabel": "世界古代史",
@@ -13,7 +13,643 @@
   "title": "希腊城邦为什么各不相同",
   "coreQuestion": "雅典、斯巴达和希腊文化展现了怎样的古典世界？",
   "throughline": "通过城邦地图、公共建筑、雕塑和文献认识希腊城邦制度、社会生活与古典文化，同时说明公民范围的局限。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-ancient-01-04-greek-city-states",
+    "childTitle": "一块陶片能不能决定投票",
+    "prompt": "雅典和斯巴达都叫城邦，为什么规则与生活很不一样？",
+    "takeaway": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。",
+    "object": "陶片、抽签器与城邦遗址",
+    "people": [
+      "有限范围的雅典公民、妇女、外邦人与被奴役者"
+    ],
+    "place": "雅典、斯巴达与爱琴海地区",
+    "culture": "神庙、戏剧与体育传统",
+    "care": "说明参与权的排除边界，不把雅典制度直接称作今天的全民民主。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "一块陶片能不能决定投票"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "陶片刻下名字",
+      "text": "先看雅典人在陶片上刻下一个名字。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "两座城规则不同",
+      "text": "接着比较雅典和斯巴达不同的生活规则。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "参与有范围",
+      "text": "最后发现雅典参与有范围，不能等同今天人人投票。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "公民",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "属于一个国家、依法有权利也有责任的人。",
+      "example": "古代有些地方只让少数人成为公民。",
+      "priority": 1
+    },
+    {
+      "term": "民主",
+      "icon": "🗳️",
+      "plain": "公共事情不只由一个人说了算，人们按规则参与。",
+      "example": "不同年代参与范围不同，不能把古代投票当成今天制度。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "议会",
+      "icon": "🪑",
+      "plain": "一些代表一起讨论、决定公共事情的机构。",
+      "example": "还要问哪些人能选代表，哪些人当时被排除。",
+      "priority": 2
+    },
+    {
+      "term": "宗教",
+      "icon": "🕯️",
+      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
+      "example": "同一种宗教内部也有不同地区、时代和人群。",
+      "priority": 2
+    },
+    {
+      "term": "帝国",
+      "icon": "🗺️",
+      "plain": "由中心统治许多地区和人群的大政权。",
+      "example": "帝国地图会变化，不能把不同时期边界画成一张。",
+      "priority": 3
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "联盟",
+      "icon": "🔗",
+      "plain": "不同一方为了共同目标暂时或长期合作。",
+      "example": "联盟成员仍可能有不同想法和利益。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "斯巴达",
+      "reading": "Sībādá",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-01-04-greek-city-states"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "雅典",
+      "reading": "Yǎdiǎn",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-01-04-greek-city-states"
+      ],
+      "note": "“雅”读yǎ。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "一块陶片能不能决定投票",
+      "question": "雅典和斯巴达都叫城邦，为什么规则与生活很不一样？"
+    },
+    "coverAudio": {
+      "id": "quest-584931b063db8bf1",
+      "text": "今天从一件东西出发：一块陶片能不能决定投票。我们要去雅典、斯巴达与爱琴海地区，看看陶片、抽签器与城邦遗址怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-00988afe1cf41e55",
+      "text": "五条线索都找到了，“一块陶片能不能决定投票”的答案是：城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是古代文明，时间是早期人类—约5世纪。",
+          "narration": "这是古代文明，时间是早期人类—约5世纪。",
+          "displayText": "这是古代文明，时间是早期人类—约5世纪。"
+        },
+        "assetId": "athens-kleroterion-2022-photo",
+        "image": "/content/step-images/athens-kleroterion-2022-photo.jpg",
+        "imageAlt": "雅典广场博物馆大理石抽签器2022年实拍",
+        "imageCaption": "2022年拍摄的雅典古代广场博物馆大理石抽签器，可见成排卡槽。",
+        "imageBoundary": "Commons原图5419×3606像素，等比缩至2200×1464像素，未裁切。摄影页没有提供可与发掘数据库I 3967完全核对的馆藏编号，因此正文只称同类抽签器，不把I 3967的精确尺寸、出土位置和十一排插槽直接移给照片对象。抽签器用于公共职务或陪审员抽签，不称现代选举机、投票箱或随机决定所有政策的机器。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-21581725ac4a1096",
+            "text": "这是古代文明，时间是早期人类—约5世纪。"
+          },
+          "image": {
+            "id": "quest-666ba283afded447",
+            "text": "点开大图啦。这是雅典广场博物馆大理石抽签器2022年实拍。这张图能帮我们找到：这是古代文明，时间是早期人类—约5世纪。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-04-greek-city-states-time-1",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "world-ancient-01-04-greek-city-states-time-2",
+            "label": "世界古代史 · 古代文明 · 早期人类—约5世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-41ed781097729712",
+              "text": "世界古代史 · 古代文明 · 早期人类—约5世纪"
+            }
+          },
+          {
+            "id": "world-ancient-01-04-greek-city-states-time-3",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "陶片刻下名字",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看雅典人在陶片上刻下一个名字。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "陶片刻下名字",
+          "screenText": "先看雅典人在陶片上刻下一个名字。",
+          "narration": "先看雅典人在陶片上刻下一个名字。",
+          "displayText": "先看雅典人在陶片上刻下一个名字。"
+        },
+        "assetId": "athens-themistocles-ostrakon-2005-photo",
+        "image": "/content/step-images/athens-themistocles-ostrakon-2005-photo.jpg",
+        "imageAlt": "雅典广场博物馆陶片放逐票2005年实拍",
+        "imageCaption": "2005年拍摄的陶片放逐票，来源页将其识别为写有地米斯托克利姓名的陶片。",
+        "imageBoundary": "Commons原图800×813像素，未放大、未裁切。来源页将对象定为写有地米斯托克利及其父名的陶片；正式事实只采用雅典广场发掘机构对ostraka用途的说明，不仅依赖摄影者对具体年份和人物经历的长注释。陶片是一次制度程序的物证，不当作日常投票、刑事定罪或驱逐游戏道具。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-bc1cb1b525777b09",
+            "text": "先看雅典人在陶片上刻下一个名字。"
+          },
+          "image": {
+            "id": "quest-11beb0749ee12c39",
+            "text": "点开大图啦。这是雅典广场博物馆陶片放逐票2005年实拍。这张图能帮我们找到：先看雅典人在陶片上刻下一个名字。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-04-greek-city-states-beginning-1",
+            "label": "陶片、抽签器与城邦遗址，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-568c2d2de5b1e30a",
+              "text": "陶片、抽签器与城邦遗址，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-ancient-01-04-greek-city-states-beginning-2",
+            "label": "雅典、斯巴达与爱琴海地，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-1c43736fdc19287d",
+              "text": "雅典、斯巴达与爱琴海地，只是故事地点"
+            }
+          },
+          {
+            "id": "world-ancient-01-04-greek-city-states-beginning-3",
+            "label": "一块陶片能不能决定投票、雅，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-f2dbaf9a2c97acf0",
+              "text": "一块陶片能不能决定投票、雅，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "两座城规则不同",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着比较雅典和斯巴达不同的生活规则。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "两座城规则不同",
+          "screenText": "接着比较雅典和斯巴达不同的生活规则。",
+          "narration": "接着比较雅典和斯巴达不同的生活规则。",
+          "displayText": "接着比较雅典和斯巴达不同的生活规则。"
+        },
+        "assetId": "athens-acropolis-parthenon-2015-photo",
+        "image": "/content/step-images/athens-acropolis-parthenon-2015-photo.jpg",
+        "imageAlt": "雅典卫城与帕特农神庙2015年实拍",
+        "imageCaption": "2015年从雅典市区拍摄的卫城和帕特农神庙，可见现代城市、脚手架和遗址保护状态。",
+        "imageBoundary": "Commons原图4397×1885像素，等比缩至2200×943像素，未裁切。必须标为现代遗址照；脚手架、现代建筑、旗帜和现存断裂状态不能搬回前5世纪。帕特农神庙建于前447—前432年，是献给雅典娜的宗教建筑，不标成公民大会会场或现代议会。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-1a67e013317da7cc",
+            "text": "接着比较雅典和斯巴达不同的生活规则。"
+          },
+          "image": {
+            "id": "quest-9f2e8bfca3b2b417",
+            "text": "点开大图啦。这是雅典卫城与帕特农神庙2015年实拍。这张图能帮我们找到：接着比较雅典和斯巴达不同的生活规则。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-04-greek-city-states-journey-1",
+            "label": "一块陶片能不能决定投票、陶，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-74c9a4c9a9e4454c",
+              "text": "一块陶片能不能决定投票、陶，只认出人物"
+            }
+          },
+          {
+            "id": "world-ancient-01-04-greek-city-states-journey-2",
+            "label": "雅典、斯巴达与爱琴海地，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-5a6be29b3cea8f4b",
+              "text": "雅典、斯巴达与爱琴海地，只说了地点"
+            }
+          },
+          {
+            "id": "world-ancient-01-04-greek-city-states-journey-3",
+            "label": "接着比较雅典和斯巴达不同的生活规则。",
+            "correct": true,
+            "audio": {
+              "id": "quest-1a67e013317da7cc",
+              "text": "接着比较雅典和斯巴达不同的生活规则。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "参与有范围",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后发现雅典参与有范围，不能等同今天人人投票。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "参与有范围",
+          "screenText": "最后发现雅典参与有范围，不能等同今天人人投票。",
+          "narration": "最后发现雅典参与有范围，不能等同今天人人投票。",
+          "displayText": "最后发现雅典参与有范围，不能等同今天人人投票。"
+        },
+        "assetId": "athens-pnyx-bema-2019-photo",
+        "image": "/content/step-images/athens-pnyx-bema-2019-photo.jpg",
+        "imageAlt": "普尼克斯山演说台与雅典卫城2019年实拍",
+        "imageCaption": "2019年拍摄的普尼克斯山公民大会遗址，前景右侧为岩石演说台区域，远处可见雅典卫城。",
+        "imageBoundary": "Commons原图6000×4000像素，等比缩至2200×1466像素，未裁切。只用于定位古代公民大会遗址，不能把今日植被、道路、照明和修整后的岩石环境当作前5世纪现场。页面需另用文字说明只有成年男性雅典公民可参加，不能用空遗址照片制造全民参与的错觉。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-060aa61ebd868580",
+            "text": "最后发现雅典参与有范围，不能等同今天人人投票。"
+          },
+          "image": {
+            "id": "quest-d713fa015e1a2819",
+            "text": "点开大图啦。这是普尼克斯山演说台与雅典卫城2019年实拍。这张图能帮我们找到：最后发现雅典参与有范围，不能等同今天人人投票。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-04-greek-city-states-change-1",
+            "label": "比较雅典和斯巴达不同的生活规则，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-ee34b4d29e21ac5d",
+              "text": "比较雅典和斯巴达不同的生活规则，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-ancient-01-04-greek-city-states-change-2",
+            "label": "最后发现雅典参与有范围，不能等同今天人人投票。",
+            "correct": true,
+            "audio": {
+              "id": "quest-060aa61ebd868580",
+              "text": "最后发现雅典参与有范围，不能等同今天人人投票。"
+            }
+          },
+          {
+            "id": "world-ancient-01-04-greek-city-states-change-3",
+            "label": "陶片、抽签器与城邦遗址、雅典，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-f4a519b6c882824c",
+              "text": "陶片、抽签器与城邦遗址、雅典，还只是故事起点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。",
+          "narration": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。",
+          "displayText": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。"
+        },
+        "assetId": "laconian-lead-warrior-met-image",
+        "image": "/content/step-images/laconian-lead-warrior-met-image.jpg",
+        "imageAlt": "前6至前5世纪拉科尼亚铅制武士奉献像",
+        "imageCaption": "前6至前5世纪拉科尼亚铅制小型武士奉献像，高4.9厘米，现藏大都会艺术博物馆。",
+        "imageBoundary": "The Met开放原图3000×4000像素，等比缩至1650×2200像素，未裁切。对象编号24.195.78。它是宗教场所使用的小型奉献物，不是人物写实照片、全套军装标准图或每个斯巴达人的生活记录；必须同时用工艺资料说明拉科尼亚还有陶器、金属器、雕刻和跨地中海交流。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-b01e8cbe0e04c85b",
+            "text": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。"
+          },
+          "image": {
+            "id": "quest-5f80d488701c6f35",
+            "text": "点开大图啦。这是前6至前5世纪拉科尼亚铅制武士奉献像。这张图能帮我们找到：城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-04-greek-city-states-takeaway-1",
+            "label": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。",
+            "correct": true,
+            "audio": {
+              "id": "quest-b01e8cbe0e04c85b",
+              "text": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。"
+            }
+          },
+          {
+            "id": "world-ancient-01-04-greek-city-states-takeaway-2",
+            "label": "发现雅典参与有范围，不能等同今天人人投票。、一块陶片，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-e9a3b2ad7698bef9",
+              "text": "发现雅典参与有范围，不能等同今天人人投票。、一块陶片，只说了结果"
+            }
+          },
+          {
+            "id": "world-ancient-01-04-greek-city-states-takeaway-3",
+            "label": "看雅典人在陶片上刻下一个名字。、陶片、抽签器与城，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-eac21353190219c2",
+              "text": "看雅典人在陶片上刻下一个名字。、陶片、抽签器与城，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "时间线与地图定位",
+        "items": [
+          "把“雅典民主建立”“希波战争”“帕特农神庙建造”“伯罗奔尼撒战争”放到正确时段，再把雅典、斯巴达和爱琴海放到简图相应位置。地图不显示现代国界或固定阵营版图，不做征服扩张游戏。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "制度物证侦探桌",
+        "items": [
+          "把“普尼克斯遗址—公民大会地点”“抽签器—部分公共职务抽签”“陶片—放逐程序”“帕特农神庙—宗教与公共营建”“铅制小像—宗教奉献与工艺”正确配对；同时选择每件证据不能单独证明的事。互动不要求儿童决定该驱逐谁，也不模拟被排除者受辱。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "同题不同答比较环",
+        "items": [
+          "围绕“谁参与决策、谁承担劳动、城市怎样联系外部、共同文化能否阻止战争”比较雅典、斯巴达与中国春秋战国材料。答案采用“相同点—不同点—还不知道”三栏，不给文明、制度或人群打分排名。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "古代希腊不是一个由同一政府管理的现代国家，而是由许多城邦组成的世界。城邦以城市、周围乡村和自己的制度为基础，也通过海路、宗教、节庆、语言和艺术相互联系。雅典在公元前508年前后建立并逐步发展公民直接参与的民主制度，但只有成年男性雅典公民进入公民大会，妇女、常住外邦人和被奴役者被排除；民主雅典还建立了要求盟友纳贡的海上帝国。斯巴达有双王、长老会、监察官和权力较受限制的公民大会，完整公民是少数，其生活依赖黑劳士被强迫进行的农业劳动。两座城邦既能合作，也会竞争和战争。用遗址、制度物件、艺术品和文献一起观察，才能同时看见古典文化的创造、政治参与的尝试和社会排斥的代价。"
@@ -538,50 +1174,65 @@
       "title": "雅典卫城与帕特农神庙2015年实拍",
       "localPath": "reference-assets/world-ancient-greek-city-states/parthenon-2015.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Acropolis_Parthenon_Athens_Greece.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "2015年从雅典市区拍摄的卫城和帕特农神庙，可见现代城市、脚手架和遗址保护状态。",
-      "boundary": "Commons原图4397×1885像素，等比缩至2200×943像素，未裁切。必须标为现代遗址照；脚手架、现代建筑、旗帜和现存断裂状态不能搬回前5世纪。帕特农神庙建于前447—前432年，是献给雅典娜的宗教建筑，不标成公民大会会场或现代议会。"
+      "boundary": "Commons原图4397×1885像素，等比缩至2200×943像素，未裁切。必须标为现代遗址照；脚手架、现代建筑、旗帜和现存断裂状态不能搬回前5世纪。帕特农神庙建于前447—前432年，是献给雅典娜的宗教建筑，不标成公民大会会场或现代议会。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "athens-pnyx-bema-2019-photo",
       "title": "普尼克斯山演说台与雅典卫城2019年实拍",
       "localPath": "reference-assets/world-ancient-greek-city-states/pnyx-bema-2019.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Acropolis_and_the_Orator%27s_Bema_on_the_Pnyx_on_December_16,_2019.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2019年拍摄的普尼克斯山公民大会遗址，前景右侧为岩石演说台区域，远处可见雅典卫城。",
-      "boundary": "Commons原图6000×4000像素，等比缩至2200×1466像素，未裁切。只用于定位古代公民大会遗址，不能把今日植被、道路、照明和修整后的岩石环境当作前5世纪现场。页面需另用文字说明只有成年男性雅典公民可参加，不能用空遗址照片制造全民参与的错觉。"
+      "boundary": "Commons原图6000×4000像素，等比缩至2200×1466像素，未裁切。只用于定位古代公民大会遗址，不能把今日植被、道路、照明和修整后的岩石环境当作前5世纪现场。页面需另用文字说明只有成年男性雅典公民可参加，不能用空遗址照片制造全民参与的错觉。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "athens-themistocles-ostrakon-2005-photo",
       "title": "雅典广场博物馆陶片放逐票2005年实拍",
       "localPath": "reference-assets/world-ancient-greek-city-states/themistocles-ostrakon-2005.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:AGMA_Ostrakon_Th%C3%A9mistocle_2.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 2.5",
       "clearance": "cleared-open-license",
       "caption": "2005年拍摄的陶片放逐票，来源页将其识别为写有地米斯托克利姓名的陶片。",
-      "boundary": "Commons原图800×813像素，未放大、未裁切。来源页将对象定为写有地米斯托克利及其父名的陶片；正式事实只采用雅典广场发掘机构对ostraka用途的说明，不仅依赖摄影者对具体年份和人物经历的长注释。陶片是一次制度程序的物证，不当作日常投票、刑事定罪或驱逐游戏道具。"
+      "boundary": "Commons原图800×813像素，未放大、未裁切。来源页将对象定为写有地米斯托克利及其父名的陶片；正式事实只采用雅典广场发掘机构对ostraka用途的说明，不仅依赖摄影者对具体年份和人物经历的长注释。陶片是一次制度程序的物证，不当作日常投票、刑事定罪或驱逐游戏道具。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "athens-kleroterion-2022-photo",
       "title": "雅典广场博物馆大理石抽签器2022年实拍",
       "localPath": "reference-assets/world-ancient-greek-city-states/kleroterion-2022.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kleroterion,_AGMA,_225287.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2022年拍摄的雅典古代广场博物馆大理石抽签器，可见成排卡槽。",
-      "boundary": "Commons原图5419×3606像素，等比缩至2200×1464像素，未裁切。摄影页没有提供可与发掘数据库I 3967完全核对的馆藏编号，因此正文只称同类抽签器，不把I 3967的精确尺寸、出土位置和十一排插槽直接移给照片对象。抽签器用于公共职务或陪审员抽签，不称现代选举机、投票箱或随机决定所有政策的机器。"
+      "boundary": "Commons原图5419×3606像素，等比缩至2200×1464像素，未裁切。摄影页没有提供可与发掘数据库I 3967完全核对的馆藏编号，因此正文只称同类抽签器，不把I 3967的精确尺寸、出土位置和十一排插槽直接移给照片对象。抽签器用于公共职务或陪审员抽签，不称现代选举机、投票箱或随机决定所有政策的机器。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "laconian-lead-warrior-met-image",
       "title": "前6至前5世纪拉科尼亚铅制武士奉献像",
       "localPath": "reference-assets/world-ancient-greek-city-states/laconian-lead-warrior-6th-5th-century-bce.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/251644",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "前6至前5世纪拉科尼亚铅制小型武士奉献像，高4.9厘米，现藏大都会艺术博物馆。",
-      "boundary": "The Met开放原图3000×4000像素，等比缩至1650×2200像素，未裁切。对象编号24.195.78。它是宗教场所使用的小型奉献物，不是人物写实照片、全套军装标准图或每个斯巴达人的生活记录；必须同时用工艺资料说明拉科尼亚还有陶器、金属器、雕刻和跨地中海交流。"
+      "boundary": "The Met开放原图3000×4000像素，等比缩至1650×2200像素，未裁切。对象编号24.195.78。它是宗教场所使用的小型奉献物，不是人物写实照片、全套军装标准图或每个斯巴达人的生活记录；必须同时用工艺资料说明拉科尼亚还有陶器、金属器、雕刻和跨地中海交流。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-ancient-01-04-greek-city-states.jpg",

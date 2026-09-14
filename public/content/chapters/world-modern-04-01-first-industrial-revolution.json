@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-modern-04-01-first-industrial-revolution",
   "trackId": "world-modern",
   "trackLabel": "世界近代史",
@@ -13,7 +13,651 @@
   "title": "蒸汽机和工厂怎样改变世界",
   "coreQuestion": "第一次工业革命带来了哪些进步与问题？",
   "throughline": "从1712年纽科门矿井抽水机、1765年瓦特独立冷凝器和1771年水力棉纺厂进入能源与工厂制度，再沿被奴役劳动生产的原棉、工人家庭、1833年法律及执行、铁路和曼彻斯特城市资料认识生产力巨变与不平等，并把英国工业航运金融殖民能力放回鸦片战争前后的中英力量变化。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-modern-04-01-first-industrial-revolution",
+    "childTitle": "瓦特的蒸汽机不是一个人造的",
+    "prompt": "修理、试验、加工零件和铺铁路，为什么需要一整支团队？",
+    "takeaway": "蒸汽机靠多人改进和配套网络才有用，工业发展也带来劳动与污染问题。",
+    "object": "纽科门机版画、瓦特抽水机与早期铁路图",
+    "people": [
+      "瓦特、博尔顿、矿工、机匠、纺织工与铁路工人"
+    ],
+    "place": "英国矿区、工厂城与铁路沿线",
+    "culture": "工程图与工厂记录",
+    "care": "技术进步与童工、污染和劳动问题同时出现，不把机器做成文明积分。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "👋",
+      "label": "从一个人出发",
+      "text": "瓦特的蒸汽机不是一个人造的"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "旧机器哪里要修",
+      "text": "先看旧抽水机哪里漏气、哪里需要修理。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "团队反复改零件",
+      "text": "接着看瓦特、博尔顿和机匠反复改进零件。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "机器接上大网络",
+      "text": "最后工厂和铁路接上机器，也带来劳作与污染问题。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "蒸汽机靠多人改进和配套网络才有用，工业发展也带来劳动与污染问题。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "文明",
+      "icon": "🏙️",
+      "plain": "许多人长期创造的社会生活与文化成果。",
+      "example": "不同文明各有环境和道路，不做高低排名。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "奴隶制",
+      "icon": "⛓️",
+      "plain": "把人当财物并强迫劳动的不平等制度。",
+      "example": "讲奴隶制要看被伤害的人和反抗，不能让孩子扮演买卖。",
+      "priority": 1
+    },
+    {
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "priority": 1
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "改革",
+      "icon": "🛠️",
+      "plain": "发现旧办法有问题，改变规则或做法。",
+      "example": "改革可能带来新机会，也可能遇到阻力和新问题。",
+      "priority": 1
+    },
+    {
+      "term": "革命",
+      "icon": "🔄",
+      "plain": "许多人推动改变旧政权或旧制度的大变化。",
+      "example": "革命不是只看一场战斗，还要看原因、参与者和结果。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "侵略",
+      "icon": "⛔",
+      "plain": "用武力进入别国，夺取土地或控制权。",
+      "example": "抵抗侵略和发动侵略的责任不能混在一起。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "金融",
+      "icon": "🏦",
+      "plain": "借钱、存钱、投资和支付等资金活动。",
+      "example": "金融危机不能只用一家银行或一天股价解释。",
+      "priority": 3
+    },
+    {
+      "term": "全球",
+      "icon": "🌍",
+      "plain": "把整个世界许多地区放在一起观察。",
+      "example": "全球问题在各地影响不同，不能用一个例子代表全部。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "博尔顿",
+      "reading": "Bó’ěrdùn",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-04-01-first-industrial-revolution"
+      ],
+      "note": "“博”“尔”之间避免吞音。"
+    },
+    {
+      "text": "瓦特",
+      "reading": "Wǎtè",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-05-late-crisis",
+        "world-modern-04-01-first-industrial-revolution"
+      ],
+      "note": "“瓦”在人名译名中读wǎ。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个人",
+      "icon": "👋",
+      "label": "瓦特的蒸汽机不是一个人造的",
+      "question": "修理、试验、加工零件和铺铁路，为什么需要一整支团队？"
+    },
+    "coverAudio": {
+      "id": "quest-c3a7fce5b4eb6843",
+      "text": "今天从一个人出发：瓦特的蒸汽机不是一个人造的。我们要去英国矿区、工厂城与铁路沿线，看看纽科门机版画、瓦特抽水机与早期铁路图怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-0a13f90b418fd00e",
+      "text": "五条线索都找到了，“瓦特的蒸汽机不是一个人造的”的答案是：蒸汽机靠多人改进和配套网络才有用，工业发展也带来劳动与污染问题。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 10,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个人出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是工业革命与社会主义思想，时间是18世纪中期—19世纪。",
+          "narration": "这是工业革命与社会主义思想，时间是18世纪中期—19世纪。",
+          "displayText": "这是工业革命与社会主义思想，时间是18世纪中期—19世纪。"
+        },
+        "assetId": "smethwick-boulton-watt-engine-1779-cc-by-sa",
+        "image": "/content/step-images/smethwick-boulton-watt-engine-1779-cc-by-sa.jpg",
+        "imageAlt": "1779年斯梅西克博尔顿—瓦特蒸汽机现存原物",
+        "imageCaption": "1779年安装的斯梅西克博尔顿—瓦特抽水机，现由伯明翰Thinktank科学博物馆保存并展示。",
+        "imageBoundary": "本地文件为4288×3216像素现场照片，未裁切；低角度不能看清全部部件，主界面应配简化部件标线。它说明瓦特改进进入大型实用机器，也要同时写明纽科门、博尔顿和熟练工人的贡献。",
+        "audio": {
+          "transition": {
+            "id": "quest-26e845d2917e6a26",
+            "text": "先给一个人找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-f1d5579e0f0e9213",
+            "text": "这是工业革命与社会主义思想，时间是18世纪中期—19世纪。"
+          },
+          "image": {
+            "id": "quest-40b3bd388fda70eb",
+            "text": "点开大图啦。这是1779年斯梅西克博尔顿—瓦特蒸汽机现存原物。这张图能帮我们找到：这是工业革命与社会主义思想，时间是18世纪中期—19世纪。"
+          },
+          "question": {
+            "id": "quest-1c5cffbdae9ffb27",
+            "text": "从一个人出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-time-1",
+            "label": "世界近代史 · 工业革命与社会主义思想 · 18世纪中期—19世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-7019455a00f0e12f",
+              "text": "世界近代史 · 工业革命与社会主义思想 · 18世纪中期—19世纪"
+            }
+          },
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-time-2",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-time-3",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "旧机器哪里要修",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看旧抽水机哪里漏气、哪里需要修理。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "旧机器哪里要修",
+          "screenText": "先看旧抽水机哪里漏气、哪里需要修理。",
+          "narration": "先看旧抽水机哪里漏气、哪里需要修理。",
+          "displayText": "先看旧抽水机哪里漏气、哪里需要修理。"
+        },
+        "assetId": "cromford-first-mill-1771-public-domain",
+        "image": "/content/step-images/cromford-first-mill-1771-public-domain.jpg",
+        "imageAlt": "1771年克朗普顿第一座水力棉纺厂遗址",
+        "imageCaption": "今天保存下来的克朗普顿1771年棉纺厂建筑；原五层建筑现存部分楼层，河流水系曾为机器提供动力。",
+        "imageBoundary": "本地文件为1000×517像素JPEG，未裁切。现代现场照片只能显示保存现状；应用必须另标复建和改造范围，不能说眼前每块砖都保持1771年原样。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-b1e5436150778a2f",
+            "text": "先看旧抽水机哪里漏气、哪里需要修理。"
+          },
+          "image": {
+            "id": "quest-62d7a0c1e3cb87f6",
+            "text": "点开大图啦。这是1771年克朗普顿第一座水力棉纺厂遗址。这张图能帮我们找到：先看旧抽水机哪里漏气、哪里需要修理。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-beginning-1",
+            "label": "瓦特、博尔顿、矿工、机匠、纺织工与铁路工，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-2ba27df5c2754c51",
+              "text": "瓦特、博尔顿、矿工、机匠、纺织工与铁路工，只是故事人物"
+            }
+          },
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-beginning-2",
+            "label": "英国矿区、工厂城与铁路沿线、瓦特、博，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-21500aaa4960d4b0",
+              "text": "英国矿区、工厂城与铁路沿线、瓦特、博，只是故事地点"
+            }
+          },
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-beginning-3",
+            "label": "纽科门机版画、瓦特抽水机与早期铁路图，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-bb79859cd6c24c7b",
+              "text": "纽科门机版画、瓦特抽水机与早期铁路图，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "团队反复改零件",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看瓦特、博尔顿和机匠反复改进零件。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "团队反复改零件",
+          "screenText": "接着看瓦特、博尔顿和机匠反复改进零件。",
+          "narration": "接着看瓦特、博尔顿和机匠反复改进零件。",
+          "displayText": "接着看瓦特、博尔顿和机匠反复改进零件。"
+        },
+        "assetId": "smethwick-boulton-watt-engine-1779-cc-by-sa",
+        "image": "/content/step-images/smethwick-boulton-watt-engine-1779-cc-by-sa.jpg",
+        "imageAlt": "1779年斯梅西克博尔顿—瓦特蒸汽机现存原物",
+        "imageCaption": "1779年安装的斯梅西克博尔顿—瓦特抽水机，现由伯明翰Thinktank科学博物馆保存并展示。",
+        "imageBoundary": "本地文件为4288×3216像素现场照片，未裁切；低角度不能看清全部部件，主界面应配简化部件标线。它说明瓦特改进进入大型实用机器，也要同时写明纽科门、博尔顿和熟练工人的贡献。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-bc155690d98b2bc5",
+            "text": "接着看瓦特、博尔顿和机匠反复改进零件。"
+          },
+          "image": {
+            "id": "quest-c55cfaf6854ca42b",
+            "text": "点开大图啦。这是1779年斯梅西克博尔顿—瓦特蒸汽机现存原物。这张图能帮我们找到：接着看瓦特、博尔顿和机匠反复改进零件。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-journey-1",
+            "label": "瓦特、博尔顿、矿工、机匠、纺，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-45399e7032631035",
+              "text": "瓦特、博尔顿、矿工、机匠、纺，只认出人物"
+            }
+          },
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-journey-2",
+            "label": "接着看瓦特、博尔顿和机匠反复改进零件。",
+            "correct": true,
+            "audio": {
+              "id": "quest-bc155690d98b2bc5",
+              "text": "接着看瓦特、博尔顿和机匠反复改进零件。"
+            }
+          },
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-journey-3",
+            "label": "英国矿区、工厂城与铁路沿，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-d79f53eec6b3a988",
+              "text": "英国矿区、工厂城与铁路沿，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "机器接上大网络",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后工厂和铁路接上机器，也带来劳作与污染问题。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "机器接上大网络",
+          "screenText": "最后工厂和铁路接上机器，也带来劳作与污染问题。",
+          "narration": "最后工厂和铁路接上机器，也带来劳作与污染问题。",
+          "displayText": "最后工厂和铁路接上机器，也带来劳作与污染问题。"
+        },
+        "assetId": "smethwick-boulton-watt-engine-1779-cc-by-sa",
+        "image": "/content/step-images/smethwick-boulton-watt-engine-1779-cc-by-sa.jpg",
+        "imageAlt": "1779年斯梅西克博尔顿—瓦特蒸汽机现存原物",
+        "imageCaption": "1779年安装的斯梅西克博尔顿—瓦特抽水机，现由伯明翰Thinktank科学博物馆保存并展示。",
+        "imageBoundary": "本地文件为4288×3216像素现场照片，未裁切；低角度不能看清全部部件，主界面应配简化部件标线。它说明瓦特改进进入大型实用机器，也要同时写明纽科门、博尔顿和熟练工人的贡献。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-1e81db8b254896c1",
+            "text": "最后工厂和铁路接上机器，也带来劳作与污染问题。"
+          },
+          "image": {
+            "id": "quest-bb5ab9d5332c282d",
+            "text": "点开大图啦。这是1779年斯梅西克博尔顿—瓦特蒸汽机现存原物。这张图能帮我们找到：最后工厂和铁路接上机器，也带来劳作与污染问题。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-change-1",
+            "label": "最后工厂和铁路接上机器，也带来劳作与污染问题。",
+            "correct": true,
+            "audio": {
+              "id": "quest-1e81db8b254896c1",
+              "text": "最后工厂和铁路接上机器，也带来劳作与污染问题。"
+            }
+          },
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-change-2",
+            "label": "看瓦特、博尔顿和机匠反复改进零件，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-d068a5e68b88a642",
+              "text": "看瓦特、博尔顿和机匠反复改进零件，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-change-3",
+            "label": "纽科门机版画、瓦特抽水机与早，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-cac7e32889a8c8f6",
+              "text": "纽科门机版画、瓦特抽水机与早，还只是故事起点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "蒸汽机靠多人改进和配套网络才有用，工业发展也带来劳动与污染问题。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "蒸汽机靠多人改进和配套网络才有用，工业发展也带来劳动与污染问题。",
+          "narration": "蒸汽机靠多人改进和配套网络才有用，工业发展也带来劳动与污染问题。",
+          "displayText": "蒸汽机靠多人改进和配套网络才有用，工业发展也带来劳动与污染问题。"
+        },
+        "assetId": "newcomen-engine-1740s-wellcome-cc-by",
+        "image": "/content/step-images/newcomen-engine-1740s-wellcome-cc-by.jpg",
+        "imageAlt": "1740年代纽科门大气式蒸汽机版画",
+        "imageCaption": "1740年代纽科门大气式蒸汽机版画，画出锅炉、汽缸、摇梁和矿井抽水杆的整体关系。",
+        "imageBoundary": "本地文件为1417×2238像素JPEG，未裁切。它是工程版画而非1712年第一台机器的照片；只能帮助理解结构，不能证明每台纽科门机外观完全相同。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-db6b9fd178b2704f",
+            "text": "蒸汽机靠多人改进和配套网络才有用，工业发展也带来劳动与污染问题。"
+          },
+          "image": {
+            "id": "quest-224fcf4b3a03f933",
+            "text": "点开大图啦。这是1740年代纽科门大气式蒸汽机版画。这张图能帮我们找到：蒸汽机靠多人改进和配套网络才有用，工业发展也带来劳动与污染问题。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-takeaway-1",
+            "label": "看旧抽水机哪里漏气、哪里需要修理。、纽科门机版画，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-ad17b4ce367505b4",
+              "text": "看旧抽水机哪里漏气、哪里需要修理。、纽科门机版画，只说了原因"
+            }
+          },
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-takeaway-2",
+            "label": "工厂和铁路接上机器，也带来劳作与污染问题。、瓦特的蒸汽，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-dfd6500d10cbdeda",
+              "text": "工厂和铁路接上机器，也带来劳作与污染问题。、瓦特的蒸汽，只说了结果"
+            }
+          },
+          {
+            "id": "world-modern-04-01-first-industrial-revolution-takeaway-3",
+            "label": "蒸汽机靠多人改进和配套网络才有用，工业发展也带来劳动与污染问题。",
+            "correct": true,
+            "audio": {
+              "id": "quest-db6b9fd178b2704f",
+              "text": "蒸汽机靠多人改进和配套网络才有用，工业发展也带来劳动与污染问题。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把变化放回时间线",
+        "items": [
+          "将“1712纽科门抽水机—1765独立冷凝器—1771水力棉纺厂—1830城际铁路—1833工厂法”放回对应年份。反馈强调技术、工厂、运输和法规前后相接，不设“工业革命诞生日”。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "沿着一包原棉找证据",
+        "items": [
+          "连接“密西西比种植园地图—利物浦港—曼彻斯特工厂—棉布”，每个节点弹出“谁劳动、材料能证明什么”。完成条件是同时看见被奴役者、海运和工厂工人，不计算利润或产量。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "法律与现实分两栏",
+        "items": [
+          "把“禁止受覆盖工厂雇用9岁以下儿童”“限制部分儿童工时和要求上学”放入1833年法律栏，把“四名监察员面对约四千家工厂”“1836年仍有违规记录”放入执行栏。反馈说明法律重要但不会自动生效。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "哪种材料支持哪句话",
+        "items": [
+          "工程版画支持“机器结构”；现存机器支持“物件保存与改造”；油画支持“艺术家怎样表现城市”；人口和卫生记录支持“城市增长与疾病”；地图支持“地块和所有权”。不允许把一张图连到“所有工人都这样生活”或“蒸汽机决定战争全部结果”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 10,
   "conclusion": [
     "第一次工业革命不是某一天由一位发明家突然启动的。18世纪英国已经有手工业、煤矿、水利、商业网络和熟练工人；纺织机器先在河流水力推动的工厂中集中运转，纽科门蒸汽机帮助矿井抽水，瓦特、博尔顿和许多制作者后来提高蒸汽机效率、扩大用途。机器、工厂、煤炭、铁路、资金和全球市场相互连接，使纺纱、运输和城市生产明显加快。棉纺工业的原料又大量来自大西洋种植园，其中许多由被奴役者强迫劳动生产。工业化带来更多商品、技术和工作，也带来长工时、童工、拥挤住房、污水、疾病和煤烟；生产增长并没有让所有人的生活同时改善。工人家庭、改革者、议会和监察员经过长期行动才逐步限制部分工厂用工。到1840年前后，英国已经积累更强的工业、航运、金融和殖民能力，但鸦片战争不能只解释成“蒸汽机打败中国”：还要看英国的侵略与鸦片贸易，以及清朝的财政、军事、行政和对外制度。工业革命是一张由技术、能源、劳动、原料、制度和不平等共同织成的网。"
@@ -857,80 +1501,104 @@
       "title": "1740年代纽科门大气式蒸汽机版画",
       "localPath": "reference-assets/world-modern-first-industrial-revolution/newcomen-engine-1740s.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Engineering;_a_Newcomen_steam-engine._Engraving,_174-._Wellcome_V0024483ER.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 4.0",
       "clearance": "cleared-open-license",
       "caption": "1740年代纽科门大气式蒸汽机版画，画出锅炉、汽缸、摇梁和矿井抽水杆的整体关系。",
-      "boundary": "本地文件为1417×2238像素JPEG，未裁切。它是工程版画而非1712年第一台机器的照片；只能帮助理解结构，不能证明每台纽科门机外观完全相同。"
+      "boundary": "本地文件为1417×2238像素JPEG，未裁切。它是工程版画而非1712年第一台机器的照片；只能帮助理解结构，不能证明每台纽科门机外观完全相同。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "smethwick-boulton-watt-engine-1779-cc-by-sa",
       "title": "1779年斯梅西克博尔顿—瓦特蒸汽机现存原物",
       "localPath": "reference-assets/world-modern-first-industrial-revolution/smethwick-engine-1779.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Power_Up_-_Thinktank_Birmingham_Science_Museum_-_Smethwick_Engine.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 2.0",
       "clearance": "cleared-open-license",
       "caption": "1779年安装的斯梅西克博尔顿—瓦特抽水机，现由伯明翰Thinktank科学博物馆保存并展示。",
-      "boundary": "本地文件为4288×3216像素现场照片，未裁切；低角度不能看清全部部件，主界面应配简化部件标线。它说明瓦特改进进入大型实用机器，也要同时写明纽科门、博尔顿和熟练工人的贡献。"
+      "boundary": "本地文件为4288×3216像素现场照片，未裁切；低角度不能看清全部部件，主界面应配简化部件标线。它说明瓦特改进进入大型实用机器，也要同时写明纽科门、博尔顿和熟练工人的贡献。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "arkwright-water-frame-1775-cc-by",
       "title": "1775年阿克莱特水力纺纱机",
       "localPath": "reference-assets/world-modern-first-industrial-revolution/arkwright-water-frame-1775.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Arkwright%27s_Water_Frame_MOSI-11_5549.JPG",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 3.0",
       "clearance": "cleared-open-license",
       "caption": "曼彻斯特科学与工业博物馆展示的1775年阿克莱特水力纺纱机，罗拉把棉纤维拉细，多组锭子把纱线加捻并卷起。",
-      "boundary": "本地文件为3488×2616像素现场照片，未裁切。照片拍的是原物陈列而非机器运转现场；不能把阿克莱特写成独自完成全部技术，他借用了罗拉牵伸等既有方法并与制作者合作。"
+      "boundary": "本地文件为3488×2616像素现场照片，未裁切。照片拍的是原物陈列而非机器运转现场；不能把阿克莱特写成独自完成全部技术，他借用了罗拉牵伸等既有方法并与制作者合作。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "cromford-first-mill-1771-public-domain",
       "title": "1771年克朗普顿第一座水力棉纺厂遗址",
       "localPath": "reference-assets/world-modern-first-industrial-revolution/cromford-mill-1771.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Cromford_1771_mill.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain dedication",
       "clearance": "cleared-public-domain",
       "caption": "今天保存下来的克朗普顿1771年棉纺厂建筑；原五层建筑现存部分楼层，河流水系曾为机器提供动力。",
-      "boundary": "本地文件为1000×517像素JPEG，未裁切。现代现场照片只能显示保存现状；应用必须另标复建和改造范围，不能说眼前每块砖都保持1771年原样。"
+      "boundary": "本地文件为1000×517像素JPEG，未裁切。现代现场照片只能显示保存现状；应用必须另标复建和改造范围，不能说眼前每块砖都保持1771年原样。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "mississippi-cotton-plantations-1858-public-domain",
       "title": "1858年密西西比河沿岸棉花种植园地图节选",
       "localPath": "reference-assets/world-modern-first-industrial-revolution/mississippi-cotton-plantations-1858.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:1858_cotton_plantations_of_Mississippi_along_the_Mississippi,_Natchez_to_state_line.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1858年密西西比河沿岸地图节选，蓝红色地块标出棉花种植园及土地所有者，见证原棉生产的土地制度。",
-      "boundary": "本地文件为3574×6092像素JPEG，是完整1858年地图的节选。它形成较晚，只能说明19世纪中期种植园密布和所有权分区；不能倒推18世纪每块地界，也不能让所有者姓名遮蔽被奴役者的劳动。"
+      "boundary": "本地文件为3574×6092像素JPEG，是完整1858年地图的节选。它形成较晚，只能说明19世纪中期种植园密布和所有权分区；不能倒推18世纪每块地界，也不能让所有者姓名遮蔽被奴役者的劳动。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "cotton-mill-piecer-lantern-slide-public-domain",
       "title": "表现约1825年接线童工的后世手工着色灯片",
       "localPath": "reference-assets/world-modern-first-industrial-revolution/cotton-mill-piecer-c1825.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Cotton_Mill_Piecer,_ca.1825_(imp-cswc-GB-237-CSWC47-LS16-008).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "后世手工着色灯片把大卫·利文斯通画成约1825年在棉纺厂接断线的童工；它不是1825年现场照片。",
-      "boundary": "本地文件为4872×4898像素JPEG，保留灯片边框和手写标题。藏品目录把它归入约1900—1940年代的传教史灯片系列，因此主界面必须固定标注“后世复制的插图”，并用1833年法律和1836年监察报告核验童工条件。"
+      "boundary": "本地文件为4872×4898像素JPEG，保留灯片边框和手写标题。藏品目录把它归入约1900—1940年代的传教史灯片系列，因此主界面必须固定标注“后世复制的插图”，并用1833年法律和1836年监察报告核验童工条件。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "stephensons-rocket-1829-object-cc-by-sa",
       "title": "1829年火箭号机车现存原物",
       "localPath": "reference-assets/world-modern-first-industrial-revolution/stephensons-rocket-1829.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Stephenson%27s_Rocket_in_the_Science_Museum_(London)_01.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "1829年火箭号机车的现存遗物；它在投入使用后很快重建，1862年以不完整状态进入博物馆。",
-      "boundary": "本地文件为4896×3672像素现场照片，未裁切。必须写“现存遗物”而非“完全保持1829年原样”；火箭号把多管锅炉、喷管等既有构想组合起来，不说所有部件都是斯蒂芬森父子首创。"
+      "boundary": "本地文件为4896×3672像素现场照片，未裁切。必须写“现存遗物”而非“完全保持1829年原样”；火箭号把多管锅炉、喷管等既有构想组合起来，不说所有部件都是斯蒂芬森父子首创。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "manchester-view-c1820-public-domain",
       "title": "约1820年从西南望曼彻斯特油画",
       "localPath": "reference-assets/world-modern-first-industrial-revolution/manchester-view-c1820.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:An_Extensive_View_of_Manchester,_from_the_South-West,_with_Wood-Sawyers_in_the_Foreground_(c.1820).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "约1820年油画：前景工人锯木，远处曼彻斯特城市向乡间扩展，烟囱把煤烟排入天空。",
-      "boundary": "本地文件为3342×2431像素JPEG，未裁切。油画是艺术家组织的城市景观，不是空气质量测量；人口、供水和疾病数据须另引博物馆研究。"
+      "boundary": "本地文件为3342×2431像素JPEG，未裁切。油画是艺术家组织的城市景观，不是空气质量测量；人口、供水和疾病数据须另引博物馆研究。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-modern-04-01-first-industrial-revolution.jpg",

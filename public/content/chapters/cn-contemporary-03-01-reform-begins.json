@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.12.0",
+  "contentVersion": "0.13.0",
   "id": "cn-contemporary-03-01-reform-begins",
   "trackId": "china-contemporary",
   "trackLabel": "中国现代史",
@@ -13,7 +13,625 @@
   "title": "改革开放从哪里起步",
   "coreQuestion": "中共十一届三中全会为什么成为重要转折？",
   "throughline": "连接思想解放、工作中心转移、农村改革和经济特区，用家庭与城市的真实资料观察改革怎样展开。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "cn-contemporary-03-01-reform-begins",
+    "childTitle": "小岗村的红手印改变了什么",
+    "prompt": "一群农民的尝试、地方实践和国家决定，怎样一步步推动改革？",
+    "takeaway": "小岗村是一个具体起点，地方试验、政策调整和全国实践一起推动改革。",
+    "object": "小岗村契约、会议公报与老照片",
+    "people": [
+      "小岗村农民、基层干部与改革决策者"
+    ],
+    "place": "安徽凤阳小岗村、深圳与全国改革试点",
+    "culture": "改革开放口述记忆",
+    "care": "红手印是一个关键个案，不让一个村庄代替全国多地、多层次改革。",
+    "preferredAssetId": "xiaogang-dabaogan-memorial-2006"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "小岗村的红手印改变了什么"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "契约上的红手印",
+      "text": "先看小岗村契约上按下的一枚枚红手印。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "村民试新办法",
+      "text": "接着看农民分工负责，试着改变生产办法。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "试点走向更多地方",
+      "text": "最后试点经验走向更多地方，改革从农村展开。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "小岗村是一个具体起点，地方试验、政策调整和全国实践一起推动改革。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "改革",
+      "icon": "🛠️",
+      "plain": "发现旧办法有问题，改变规则或做法。",
+      "example": "改革可能带来新机会，也可能遇到阻力和新问题。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "经济",
+      "icon": "🧺",
+      "plain": "人们怎样生产、交换、分配和使用东西。",
+      "example": "经济变化最后会落到工作、食物、住房等生活里。",
+      "priority": 1
+    },
+    {
+      "term": "共和国",
+      "icon": "🏛️",
+      "plain": "国家职位不是由皇位世代传下去的国家形式。",
+      "example": "写下共和国原则，不代表这些原则立刻全部做到。",
+      "priority": 2
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "社会主义",
+      "icon": "🤝",
+      "plain": "主张生产与社会发展更多服务共同需要的制度方向。",
+      "example": "不同国家的实践并不完全一样，要看具体时间和政策。",
+      "priority": 3
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    },
+    {
+      "term": "责任",
+      "icon": "🤲",
+      "plain": "答应或应当承担、需要认真完成的事情。",
+      "example": "拥有公共权利，也常要承担相应责任。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "凤阳",
+      "reading": "Fèngyáng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-contemporary-03-01-reform-begins"
+      ],
+      "note": "安徽地名。"
+    },
+    {
+      "text": "深圳",
+      "reading": "Shēnzhèn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-contemporary-03-01-reform-begins"
+      ],
+      "note": "“圳”读zhèn。"
+    },
+    {
+      "text": "小岗村",
+      "reading": "Xiǎogǎngcūn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-contemporary-03-01-reform-begins"
+      ],
+      "note": "“岗”在地名中读gǎng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "小岗村的红手印改变了什么",
+      "question": "一群农民的尝试、地方实践和国家决定，怎样一步步推动改革？"
+    },
+    "coverAudio": {
+      "id": "quest-2647ec0f834d3d3a",
+      "text": "今天从一件东西出发：小岗村的红手印改变了什么。我们要去安徽凤阳小岗村、深圳与全国改革试点，看看小岗村契约、会议公报与老照片怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-b71a3736067336b7",
+      "text": "五条线索都找到了，“小岗村的红手印改变了什么”的答案是：小岗村是一个具体起点，地方试验、政策调整和全国实践一起推动改革。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是改革开放与中国特色社会主义建设，时间是1978—2012年。",
+          "narration": "这是改革开放与中国特色社会主义建设，时间是1978—2012年。",
+          "displayText": "这是改革开放与中国特色社会主义建设，时间是1978—2012年。"
+        },
+        "assetId": "shenzhen-construction-scene-labeled-1982",
+        "image": "/content/step-images/shenzhen-construction-scene-labeled-1982.jpg",
+        "imageAlt": "作者标注为1982年的深圳建设场景",
+        "imageCaption": "摄影者标注为1982年的深圳建设场景，可见道路、管道、行人和在建建筑。",
+        "imageBoundary": "Commons文件标题与说明写作‘Shenchen in 1982’，作者Robert Schediwy，保存2720×1700像素原图；文件元数据日期为2014年，可能对应数字文件制作或上传，故儿童界面必须使用‘作者标注为1982年’的限定，不扩写精确拍摄日和地点。照片只显示建设中的局部，不是1980年特区批准现场，也不能代表整个深圳。正式使用须署名并以CC BY-SA 3.0同方式共享改编作品。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-b47ec93ce4496826",
+            "text": "这是改革开放与中国特色社会主义建设，时间是1978—2012年。"
+          },
+          "image": {
+            "id": "quest-b518fb5491d07804",
+            "text": "点开大图啦。这是作者标注为1982年的深圳建设场景。这张图能帮我们找到：这是改革开放与中国特色社会主义建设，时间是1978—2012年。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-03-01-reform-begins-time-1",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-01-reform-begins-time-2",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-01-reform-begins-time-3",
+            "label": "中国现代史 · 改革开放与中国特色社会主义建设 · 1978—2012年",
+            "correct": true,
+            "audio": {
+              "id": "quest-932829129a4c0a2e",
+              "text": "中国现代史 · 改革开放与中国特色社会主义建设 · 1978—2012年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "契约上的红手印",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看小岗村契约上按下的一枚枚红手印。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "契约上的红手印",
+          "screenText": "先看小岗村契约上按下的一枚枚红手印。",
+          "narration": "先看小岗村契约上按下的一枚枚红手印。",
+          "displayText": "先看小岗村契约上按下的一枚枚红手印。"
+        },
+        "assetId": "xiaogang-dabaogan-memorial-2006",
+        "image": "/content/step-images/xiaogang-dabaogan-memorial-2006.jpg",
+        "imageAlt": "小岗村大包干纪念馆外景",
+        "imageCaption": "2006年拍摄的小岗村大包干纪念馆外景；它是后来的纪念地，不是1978年签约现场。",
+        "imageBoundary": "摄影者于2006年7月13日拍摄，保存2592×1944像素原图。照片只能定位今天的纪念场所，不能显示1978年农户、村庄生活或契约签订过程；契约内容、参与户数和日期边界以中国农业博物馆馆藏记录核验。正式使用须署名作者并以CC BY-SA 3.0同方式共享改编作品。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-4b7fa17a0f998c95",
+            "text": "先看小岗村契约上按下的一枚枚红手印。"
+          },
+          "image": {
+            "id": "quest-9b97e8b2ad6a573b",
+            "text": "点开大图啦。这是小岗村大包干纪念馆外景。这张图能帮我们找到：先看小岗村契约上按下的一枚枚红手印。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-03-01-reform-begins-beginning-1",
+            "label": "小岗村农民、基层干部与改革决策者，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-40585251cc6a8bc0",
+              "text": "小岗村农民、基层干部与改革决策者，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-01-reform-begins-beginning-2",
+            "label": "小岗村契约、会议公报与老照片，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-bbcf3786b711d024",
+              "text": "小岗村契约、会议公报与老照片，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-01-reform-begins-beginning-3",
+            "label": "安徽凤阳小岗村、深圳与全国改，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-1f62c1928ce18e09",
+              "text": "安徽凤阳小岗村、深圳与全国改，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "村民试新办法",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看农民分工负责，试着改变生产办法。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "村民试新办法",
+          "screenText": "接着看农民分工负责，试着改变生产办法。",
+          "narration": "接着看农民分工负责，试着改变生产办法。",
+          "displayText": "接着看农民分工负责，试着改变生产办法。"
+        },
+        "assetId": "shenzhen-construction-scene-labeled-1982",
+        "image": "/content/step-images/shenzhen-construction-scene-labeled-1982.jpg",
+        "imageAlt": "作者标注为1982年的深圳建设场景",
+        "imageCaption": "摄影者标注为1982年的深圳建设场景，可见道路、管道、行人和在建建筑。",
+        "imageBoundary": "Commons文件标题与说明写作‘Shenchen in 1982’，作者Robert Schediwy，保存2720×1700像素原图；文件元数据日期为2014年，可能对应数字文件制作或上传，故儿童界面必须使用‘作者标注为1982年’的限定，不扩写精确拍摄日和地点。照片只显示建设中的局部，不是1980年特区批准现场，也不能代表整个深圳。正式使用须署名并以CC BY-SA 3.0同方式共享改编作品。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-371b8dc33ef61291",
+            "text": "接着看农民分工负责，试着改变生产办法。"
+          },
+          "image": {
+            "id": "quest-9a5151be5688e297",
+            "text": "点开大图啦。这是作者标注为1982年的深圳建设场景。这张图能帮我们找到：接着看农民分工负责，试着改变生产办法。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-03-01-reform-begins-journey-1",
+            "label": "接着看农民分工负责，试着改变生产办法。",
+            "correct": true,
+            "audio": {
+              "id": "quest-371b8dc33ef61291",
+              "text": "接着看农民分工负责，试着改变生产办法。"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-01-reform-begins-journey-2",
+            "label": "小岗村农民、基层干部与改革决，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-87b273eb76d2a869",
+              "text": "小岗村农民、基层干部与改革决，只认出人物"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-01-reform-begins-journey-3",
+            "label": "安徽凤阳小岗村、深圳与全，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-19d30d430063f5df",
+              "text": "安徽凤阳小岗村、深圳与全，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "试点走向更多地方",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后试点经验走向更多地方，改革从农村展开。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "试点走向更多地方",
+          "screenText": "最后试点经验走向更多地方，改革从农村展开。",
+          "narration": "最后试点经验走向更多地方，改革从农村展开。",
+          "displayText": "最后试点经验走向更多地方，改革从农村展开。"
+        },
+        "assetId": "xiaogang-dabaogan-memorial-2006",
+        "image": "/content/step-images/xiaogang-dabaogan-memorial-2006.jpg",
+        "imageAlt": "小岗村大包干纪念馆外景",
+        "imageCaption": "2006年拍摄的小岗村大包干纪念馆外景；它是后来的纪念地，不是1978年签约现场。",
+        "imageBoundary": "摄影者于2006年7月13日拍摄，保存2592×1944像素原图。照片只能定位今天的纪念场所，不能显示1978年农户、村庄生活或契约签订过程；契约内容、参与户数和日期边界以中国农业博物馆馆藏记录核验。正式使用须署名作者并以CC BY-SA 3.0同方式共享改编作品。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-6948694f10d7517a",
+            "text": "最后试点经验走向更多地方，改革从农村展开。"
+          },
+          "image": {
+            "id": "quest-23e4b597111ead80",
+            "text": "点开大图啦。这是小岗村大包干纪念馆外景。这张图能帮我们找到：最后试点经验走向更多地方，改革从农村展开。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-03-01-reform-begins-change-1",
+            "label": "小岗村契约、会议公报与老，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-6d854689aed4e674",
+              "text": "小岗村契约、会议公报与老，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-01-reform-begins-change-2",
+            "label": "看农民分工负责，试着改变生产，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-241d937c67855c1a",
+              "text": "看农民分工负责，试着改变生产，还只是行动经过"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-01-reform-begins-change-3",
+            "label": "最后试点经验走向更多地方，改革从农村展开。",
+            "correct": true,
+            "audio": {
+              "id": "quest-6948694f10d7517a",
+              "text": "最后试点经验走向更多地方，改革从农村展开。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "小岗村是一个具体起点，地方试验、政策调整和全国实践一起推动改革。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "小岗村是一个具体起点，地方试验、政策调整和全国实践一起推动改革。",
+          "narration": "小岗村是一个具体起点，地方试验、政策调整和全国实践一起推动改革。",
+          "displayText": "小岗村是一个具体起点，地方试验、政策调整和全国实践一起推动改革。"
+        },
+        "assetId": "xiaogang-dabaogan-memorial-2006",
+        "image": "/content/step-images/xiaogang-dabaogan-memorial-2006.jpg",
+        "imageAlt": "小岗村大包干纪念馆外景",
+        "imageCaption": "2006年拍摄的小岗村大包干纪念馆外景；它是后来的纪念地，不是1978年签约现场。",
+        "imageBoundary": "摄影者于2006年7月13日拍摄，保存2592×1944像素原图。照片只能定位今天的纪念场所，不能显示1978年农户、村庄生活或契约签订过程；契约内容、参与户数和日期边界以中国农业博物馆馆藏记录核验。正式使用须署名作者并以CC BY-SA 3.0同方式共享改编作品。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-9f76f0af5dfae9f9",
+            "text": "小岗村是一个具体起点，地方试验、政策调整和全国实践一起推动改革。"
+          },
+          "image": {
+            "id": "quest-e786e203417d8c92",
+            "text": "点开大图啦。这是小岗村大包干纪念馆外景。这张图能帮我们找到：小岗村是一个具体起点，地方试验、政策调整和全国实践一起推动改革。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-03-01-reform-begins-takeaway-1",
+            "label": "看小岗村契约上按下的一枚枚红手印。、小岗村契约、会，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-a1167d3739eb7f1d",
+              "text": "看小岗村契约上按下的一枚枚红手印。、小岗村契约、会，只说了原因"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-01-reform-begins-takeaway-2",
+            "label": "小岗村是一个具体起点，地方试验、政策调整和全国实践一起推动改革。",
+            "correct": true,
+            "audio": {
+              "id": "quest-9f76f0af5dfae9f9",
+              "text": "小岗村是一个具体起点，地方试验、政策调整和全国实践一起推动改革。"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-01-reform-begins-takeaway-3",
+            "label": "试点经验走向更多地方，改革从农村展开。、小岗村的红手印，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-dad95050952ec4da",
+              "text": "试点经验走向更多地方，改革从农村展开。、小岗村的红手印，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "想法要怎样验证",
+        "items": [
+          "把“听到一个说法—寻找事实—做小范围尝试—记录结果—再作判断”排成顺序；混入“因为声音大所以一定对”“因为以前这样做所以永远不能变”等干扰卡。系统只训练证据方法，不要求儿童判断复杂政治口号。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "改革起步连接链",
+        "items": [
+          "把“真理标准讨论—十一届三中全会—小岗村等地试验—1980年政策支持—家庭承包经营逐步推广”连接起来，再为每一步选择“思想准备、中央决策、基层探索、政策推广”标签。系统提示同年事件可以并行发生，不能硬画成一个人下令后全国同时行动。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "土地关系配对",
+        "items": [
+          "将“土地所有权—集体”“承包经营—农户”“完成约定任务—农户责任”正确配对；不出现买卖土地、抢地或以产量高低淘汰家庭的玩法。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "经济特区证据桌",
+        "items": [
+          "在空白中国东南沿海示意图上找到深圳、珠海、汕头、厦门，再把“批准文件”“1982年建设照片”“今天的城市照片”分别放进“制度起点”“建设过程局部”“后来的结果”三个抽屉；不做炒地、炒股、财富排行榜或城市输赢竞赛。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "改革开放不是某一天突然完成的，也不是一个地方或一个人单独完成的。1978年，关于真理标准问题的讨论推动人们重新重视实践、事实和调查；12月召开的中共十一届三中全会作出把党和国家工作重点转移到社会主义现代化建设上来的重要决策，开启改革开放和社会主义现代化建设新时期。同一时期，安徽小岗村等地的农民从生产和生活中的真实困难出发，试行把集体土地的经营任务承包到户；土地仍归集体所有，农户获得承包经营的权利并承担相应责任。政策支持使这种探索逐步推广。1980年，全国人大常委会批准在深圳、珠海、汕头、厦门设置经济特区，让这些地区在国家法律范围内先行试验对外经济合作和技术交流。思想解放、中央决策、基层探索、政策推广和对外开放相互连接，改革由此一步步展开。"
@@ -475,40 +1093,52 @@
       "title": "青岛群众欢庆十一届三中全会召开历史照片",
       "localPath": "reference-assets/china-contemporary-reform-begins/qingdao-third-plenum-1978.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:青岛人民欢庆十一届三中全会召开.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — photograph taken in China in 1978",
       "clearance": "cleared-open-license",
       "caption": "1978年，青岛群众举行欢庆十一届三中全会召开的活动；这不是北京会议现场。",
-      "boundary": "Commons登记年代为1978年，作者不详，来源为青岛市档案馆，保存2639×2107像素原图。照片能显示当地一场群众庆祝活动，不能显示会议讨论和决议内容，也不能代表全国每个人的态度；会议事实以党史和文献研究院资料核验。"
+      "boundary": "Commons登记年代为1978年，作者不详，来源为青岛市档案馆，保存2639×2107像素原图。照片能显示当地一场群众庆祝活动，不能显示会议讨论和决议内容，也不能代表全国每个人的态度；会议事实以党史和文献研究院资料核验。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "xiaogang-dabaogan-memorial-2006",
       "title": "小岗村大包干纪念馆外景",
       "localPath": "reference-assets/china-contemporary-reform-begins/xiaogang-memorial-2006.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:凤阳县－小岗村景色_-_panoramio.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "2006年拍摄的小岗村大包干纪念馆外景；它是后来的纪念地，不是1978年签约现场。",
-      "boundary": "摄影者于2006年7月13日拍摄，保存2592×1944像素原图。照片只能定位今天的纪念场所，不能显示1978年农户、村庄生活或契约签订过程；契约内容、参与户数和日期边界以中国农业博物馆馆藏记录核验。正式使用须署名作者并以CC BY-SA 3.0同方式共享改编作品。"
+      "boundary": "摄影者于2006年7月13日拍摄，保存2592×1944像素原图。照片只能定位今天的纪念场所，不能显示1978年农户、村庄生活或契约签订过程；契约内容、参与户数和日期边界以中国农业博物馆馆藏记录核验。正式使用须署名作者并以CC BY-SA 3.0同方式共享改编作品。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "guangdong-sez-regulation-resolution-1980-page-1",
       "title": "1980年批准《广东省经济特区条例》的官方文件页",
       "localPath": "reference-assets/china-contemporary-reform-begins/guangdong-sez-resolution-1980.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:第五届全国人民代表大会常务委员会关于批准《广东省经济特区条例》的决议.pdf",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — official government document under Article 5 of the PRC Copyright Law",
       "clearance": "cleared-open-license",
       "caption": "1980年8月26日批准《广东省经济特区条例》的决议及条例首页。",
-      "boundary": "原PDF来自国家法律法规数据库并由Wikimedia Commons登记为公共领域；本地文件是原PDF第一页的完整JPEG渲染，5684×7985像素。页面上部仍有前一文件结尾，界面需放大并清楚标出决议标题、日期和条例第一条，不得删除上下文后伪装成新的独立文件。原页能核对制度起点和条文，不能单独显示建设结果。"
+      "boundary": "原PDF来自国家法律法规数据库并由Wikimedia Commons登记为公共领域；本地文件是原PDF第一页的完整JPEG渲染，5684×7985像素。页面上部仍有前一文件结尾，界面需放大并清楚标出决议标题、日期和条例第一条，不得删除上下文后伪装成新的独立文件。原页能核对制度起点和条文，不能单独显示建设结果。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "shenzhen-construction-scene-labeled-1982",
       "title": "作者标注为1982年的深圳建设场景",
       "localPath": "reference-assets/china-contemporary-reform-begins/shenzhen-1982.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Shenchen_in_1982.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "摄影者标注为1982年的深圳建设场景，可见道路、管道、行人和在建建筑。",
-      "boundary": "Commons文件标题与说明写作‘Shenchen in 1982’，作者Robert Schediwy，保存2720×1700像素原图；文件元数据日期为2014年，可能对应数字文件制作或上传，故儿童界面必须使用‘作者标注为1982年’的限定，不扩写精确拍摄日和地点。照片只显示建设中的局部，不是1980年特区批准现场，也不能代表整个深圳。正式使用须署名并以CC BY-SA 3.0同方式共享改编作品。"
+      "boundary": "Commons文件标题与说明写作‘Shenchen in 1982’，作者Robert Schediwy，保存2720×1700像素原图；文件元数据日期为2014年，可能对应数字文件制作或上传，故儿童界面必须使用‘作者标注为1982年’的限定，不扩写精确拍摄日和地点。照片只显示建设中的局部，不是1980年特区批准现场，也不能代表整个深圳。正式使用须署名并以CC BY-SA 3.0同方式共享改编作品。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-contemporary-03-01-reform-begins.jpg",

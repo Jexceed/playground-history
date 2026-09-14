@@ -1,0 +1,1143 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.13.0",
+  "id": "cn-ancient-04-05-qin-great-wall",
+  "trackId": "china-ancient",
+  "trackLabel": "中国古代史",
+  "period": {
+    "id": "qin",
+    "label": "秦朝",
+    "years": "前221—前207年"
+  },
+  "order": 11,
+  "title": "秦长城不是从空地里突然长出来的",
+  "coreQuestion": "秦朝怎样把更早的北方城墙连接成防御系统？",
+  "throughline": "先找战国旧墙段，再看秦怎样连接、修缮和增筑，并把墙、关口、道路、烽燧与驻守放进同一防御系统；同时区分秦代遗址与明代砖石长城。",
+  "childEntry": {
+    "id": "cn-ancient-04-05-qin-great-wall",
+    "childTitle": "帮长城连上旧墙段",
+    "prompt": "秦朝修长城，是从一张空白地图开始的吗？",
+    "takeaway": "秦在旧有墙段基础上修筑和连接，还需要道路、关口与许多人长期维护。",
+    "object": "低矮墙段、关口和烽燧示意",
+    "people": [
+      "筑墙者和运送者"
+    ],
+    "place": "秦朝北方边地的多段墙体与山口",
+    "culture": "“万里长城”的跨时代记忆",
+    "care": "路线简图不标真实边界和精确墙线。今天的长城照片不能当作秦朝工程现场。",
+    "preferredAssetId": "qin-great-wall-connection-child-illustration",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-04-05-qin-great-wall",
+    "featured": {
+      "type": "地点",
+      "icon": "🧱",
+      "title": "筑墙者和运送者",
+      "childBridge": "秦朝修长城，是从一张空白地图开始的吗？",
+      "evidenceBoundary": "路线简图不标真实边界和精确墙线。"
+    },
+    "companions": [
+      {
+        "type": "历史",
+        "label": "战国旧墙段",
+        "note": "秦以前一些诸侯国已经修墙，秦不是从空地开始。"
+      },
+      {
+        "type": "地点",
+        "label": "山口、道路与烽燧",
+        "note": "长城是一套系统，不只是墙体。"
+      },
+      {
+        "type": "人物",
+        "label": "劳动者与驻守者",
+        "note": "防御工程也带来劳役、运输和驻守负担。"
+      }
+    ],
+    "sourceIds": [
+      "UNESCO-GREAT-WALL",
+      "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+      "NMC-QIN-HAN-OVERVIEW"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "长城的先后",
+      "text": "战国时一些国家已经筑墙。秦统一以后，又修筑、连接其中一些墙段。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "找出缺口",
+      "text": "看看这张简图：山边已有两段墙，中间留着缺口。真实工程要随地形安排。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "人从哪里走",
+      "text": "墙边还需要关口和道路，供人员按规定往来，也要运送物资。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "谁让墙留在山边",
+      "text": "筑墙、运土、修路，都要许多人出力。修好以后，还会损坏，需要维护。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "今天照片里的墙",
+      "text": "今天常见的高大砖墙，许多属于明代修建部分。长城不是一次建成的。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "秦始皇",
+      "reading": "Qín Shǐhuáng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-04-01-qin-unification",
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "note": "“始皇”是称号，不拆成口语停顿。"
+    },
+    {
+      "text": "烽燧",
+      "reading": "Fēngsuì",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "note": "“燧”读suì；指传递警报的设施。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "帮长城连上旧墙段",
+      "question": "秦朝修长城，是从一张空白地图开始的吗？"
+    },
+    "cta": "去接一段墙",
+    "anchor": "筑墙者和运送者",
+    "boundary": "路线简图不标真实边界和精确墙线。今天的长城照片不能当作秦朝工程现场。",
+    "evidence": [],
+    "coverAsset": {
+      "id": "qin-great-wall-connection-child-illustration",
+      "title": "秦连接、修缮和增筑北方墙段儿童艺术表现",
+      "localPath": "reference-assets/qin-han/qin-great-wall-connection-child-illustration.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童艺术表现：成年人沿低矮土石墙段连接、修缮和运输材料，远处还有分散旧墙与道路。",
+      "boundary": "2026-08-12为低龄玩法自制。它不是秦代现场、长城遗址照片、精确墙体复原或施工说明；人物、车具、墙体样式和地形均为帮助理解“旧墙段—连接—系统”的艺术表现，也不能用来推断工程人数、工期或某一具体地点。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/qin-great-wall-connection-child-illustration.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/qin-great-wall-connection-child-illustration.jpg",
+    "coverImageAlt": "秦连接、修缮和增筑北方墙段儿童艺术表现",
+    "coverImageKind": "故事插画",
+    "coverAudio": {
+      "id": "quest-cd8120742ba605da",
+      "text": "帮长城连上旧墙段。秦朝修长城，是从一张空白地图开始的吗？准备好就点“去接一段墙”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-03817802c1fa5889",
+      "text": "秦在旧有墙段基础上修筑和连接，还需要道路、关口与许多人长期维护。"
+    },
+    "finish": {
+      "title": "用手搭一段长城",
+      "actions": [
+        "两只手各当一段墙，中间留个空。",
+        "请家人帮忙连起来，再指出通行的关口。"
+      ],
+      "parent": "问“墙连起来以后，还需要谁做什么？”接受修补、运送、维护道路等回答。说明手势只是示意。",
+      "sceneStepIndexes": [
+        1,
+        2
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-e54d0242d855440f",
+          "text": "两只手各当一段墙，中间留个空。"
+        },
+        {
+          "id": "quest-475914114651a1d7",
+          "text": "请家人帮忙连起来，再指出通行的关口。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-7222d85fd2f15673",
+        "text": "用手搭一段长城。两只手各当一段墙，中间留个空。请家人帮忙连起来，再指出通行的关口。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "长城的先后",
+        "title": "长城的先后",
+        "prompt": "哪条先后顺序对？",
+        "rightNote": "战国旧墙在前，秦的修接在后。",
+        "wrongNote": "战国旧墙在前，秦的修接在后。",
+        "sourceIds": [
+          "UNESCO-GREAT-WALL",
+          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "长城的先后",
+          "screenText": "战国时一些国家已经筑墙。秦统一以后，又修筑、连接其中一些墙段。",
+          "displayText": "战国时一些国家已经筑墙。秦统一以后，又修筑、连接其中一些墙段。",
+          "narration": "战国时一些国家已经筑墙。秦统一以后，又修筑、连接其中一些墙段。"
+        },
+        "assetId": "study-e6c628a12fefd7c6",
+        "image": "/content/study-scenes/study-e6c628a12fefd7c6.svg",
+        "studyImage": "/content/study-scenes/study-e6c628a12fefd7c6.svg",
+        "studyImageAlt": "战国 先筑墙，秦 前221年后",
+        "imageAlt": "战国 先筑墙，秦 前221年后",
+        "imageCaption": "学习示意 · 战国 先筑墙，秦 前221年后",
+        "imageBoundary": "自制学习示意。路线简图不标真实边界和精确墙线。今天的长城照片不能当作秦朝工程现场。",
+        "audio": {
+          "transition": {
+            "id": "quest-bb076851e83522a5",
+            "text": "长城的先后。"
+          },
+          "intro": {
+            "id": "quest-502685f88a29112a",
+            "text": "战国时一些国家已经筑墙。秦统一以后，又修筑、连接其中一些墙段。"
+          },
+          "question": {
+            "id": "quest-897045ca11904721",
+            "text": "哪条先后顺序对？"
+          },
+          "image": {
+            "id": "quest-3fe560d65e715e0e",
+            "text": "这是学习示意图：战国 先筑墙，秦 前221年后。哪条先后顺序对？"
+          },
+          "right": {
+            "id": "quest-535a288f61b39258",
+            "text": "找到了。战国旧墙在前，秦的修接在后。"
+          },
+          "wrong": {
+            "id": "quest-ee160d79635d8b0a",
+            "text": "再比较一下。战国旧墙在前，秦的修接在后。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-05-qin-great-wall-time-1",
+            "label": "战国旧墙 → 秦修接",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-860639fcaeb14786.svg",
+            "imageAlt": "战国旧墙，秦朝修接",
+            "audio": {
+              "id": "quest-a1a9456f8c0493ae",
+              "text": "战国旧墙 → 秦修接"
+            }
+          },
+          {
+            "id": "cn-ancient-04-05-qin-great-wall-time-2",
+            "label": "秦修接 → 战国旧墙",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-19edea37017a45a5.svg",
+            "imageAlt": "秦朝修接，战国旧墙",
+            "audio": {
+              "id": "quest-2499224acadc8ed7",
+              "text": "秦修接 → 战国旧墙"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "找出缺口",
+        "title": "找出缺口",
+        "prompt": "这次要把两段墙连起来，接在哪里？",
+        "rightNote": "补上两段之间的缺口，才是在做连接。",
+        "wrongNote": "补上两段之间的缺口，才是在做连接。",
+        "sourceIds": [
+          "UNESCO-GREAT-WALL",
+          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "找出缺口",
+          "screenText": "看看这张简图：山边已有两段墙，中间留着缺口。真实工程要随地形安排。",
+          "displayText": "看看这张简图：山边已有两段墙，中间留着缺口。真实工程要随地形安排。",
+          "narration": "看看这张简图：山边已有两段墙，中间留着缺口。真实工程要随地形安排。"
+        },
+        "assetId": "study-a3c9041a2e1f8c1b",
+        "image": "/content/study-scenes/study-a3c9041a2e1f8c1b.svg",
+        "studyImage": "/content/study-scenes/study-a3c9041a2e1f8c1b.svg",
+        "studyImageAlt": "两段墙和缺口",
+        "imageAlt": "两段墙和缺口",
+        "imageCaption": "学习示意 · 两段墙和缺口",
+        "imageBoundary": "自制学习示意。路线简图不标真实边界和精确墙线。今天的长城照片不能当作秦朝工程现场。",
+        "audio": {
+          "transition": {
+            "id": "quest-a114fea2fbbcc50f",
+            "text": "找出缺口。"
+          },
+          "intro": {
+            "id": "quest-38842cd2e004b4a7",
+            "text": "看看这张简图：山边已有两段墙，中间留着缺口。真实工程要随地形安排。"
+          },
+          "question": {
+            "id": "quest-8ebe300c86b98302",
+            "text": "这次要把两段墙连起来，接在哪里？"
+          },
+          "image": {
+            "id": "quest-55cbb557b120a3d5",
+            "text": "这是学习示意图：两段墙和缺口。这次要把两段墙连起来，接在哪里？"
+          },
+          "right": {
+            "id": "quest-7cb34f7d35ff8283",
+            "text": "找到了。补上两段之间的缺口，才是在做连接。"
+          },
+          "wrong": {
+            "id": "quest-b2aa0019882bd7ef",
+            "text": "再比较一下。补上两段之间的缺口，才是在做连接。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-05-qin-great-wall-beginning-1",
+            "label": "接在中间缺口",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-35b079a813bdd14a.svg",
+            "imageAlt": "补中间缺口",
+            "audio": {
+              "id": "quest-0a455468b8fc71b0",
+              "text": "接在中间缺口"
+            }
+          },
+          {
+            "id": "cn-ancient-04-05-qin-great-wall-beginning-2",
+            "label": "接在原墙上方",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-487069d7bdbaccca.svg",
+            "imageAlt": "加高原有墙段",
+            "audio": {
+              "id": "quest-299add465ea658c4",
+              "text": "接在原墙上方"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "人从哪里走",
+        "title": "人从哪里走",
+        "prompt": "运东西的人要经过墙，找什么？",
+        "rightNote": "关口留出管理通行的地方，封闭墙面不能当路走。",
+        "wrongNote": "关口留出管理通行的地方，封闭墙面不能当路走。",
+        "sourceIds": [
+          "UNESCO-GREAT-WALL",
+          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "人从哪里走",
+          "screenText": "墙边还需要关口和道路，供人员按规定往来，也要运送物资。",
+          "displayText": "墙边还需要关口和道路，供人员按规定往来，也要运送物资。",
+          "narration": "墙边还需要关口和道路，供人员按规定往来，也要运送物资。"
+        },
+        "assetId": "study-9f96a21b0a9ea297",
+        "image": "/content/study-scenes/study-9f96a21b0a9ea297.svg",
+        "studyImage": "/content/study-scenes/study-9f96a21b0a9ea297.svg",
+        "studyImageAlt": "运送物资，关口，墙段",
+        "imageAlt": "运送物资，关口，墙段",
+        "imageCaption": "学习示意 · 运送物资，关口，墙段",
+        "imageBoundary": "自制学习示意。路线简图不标真实边界和精确墙线。今天的长城照片不能当作秦朝工程现场。",
+        "audio": {
+          "transition": {
+            "id": "quest-7425d1a1381158bb",
+            "text": "人从哪里走。"
+          },
+          "intro": {
+            "id": "quest-d78fdb30444622ea",
+            "text": "墙边还需要关口和道路，供人员按规定往来，也要运送物资。"
+          },
+          "question": {
+            "id": "quest-05540eb960ca10a4",
+            "text": "运东西的人要经过墙，找什么？"
+          },
+          "image": {
+            "id": "quest-942b887cba8afcd0",
+            "text": "这是学习示意图：运送物资，关口，墙段。运东西的人要经过墙，找什么？"
+          },
+          "right": {
+            "id": "quest-e5cbb674001d31a4",
+            "text": "找到了。关口留出管理通行的地方，封闭墙面不能当路走。"
+          },
+          "wrong": {
+            "id": "quest-4216e2a8b34d20dd",
+            "text": "再比较一下。关口留出管理通行的地方，封闭墙面不能当路走。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-05-qin-great-wall-journey-1",
+            "label": "找关口通道",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-95597d3b8bb861ec.svg",
+            "imageAlt": "可通行的关口",
+            "audio": {
+              "id": "quest-684a87471d64bfa2",
+              "text": "找关口通道"
+            }
+          },
+          {
+            "id": "cn-ancient-04-05-qin-great-wall-journey-2",
+            "label": "找封闭墙面",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-6ede938063ddaea1.svg",
+            "imageAlt": "封闭的墙面",
+            "audio": {
+              "id": "quest-2ffda0e5c5ac904f",
+              "text": "找封闭墙面"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "谁让墙留在山边",
+        "title": "谁让墙留在山边",
+        "prompt": "下雨损坏了墙，接下来需要什么？",
+        "rightNote": "命令不能自己补好墙，还得有人带着材料来维护。",
+        "wrongNote": "命令不能自己补好墙，还得有人带着材料来维护。",
+        "sourceIds": [
+          "UNESCO-GREAT-WALL",
+          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "谁让墙留在山边",
+          "screenText": "筑墙、运土、修路，都要许多人出力。修好以后，还会损坏，需要维护。",
+          "displayText": "筑墙、运土、修路，都要许多人出力。修好以后，还会损坏，需要维护。",
+          "narration": "筑墙、运土、修路，都要许多人出力。修好以后，还会损坏，需要维护。"
+        },
+        "assetId": "study-407a5ac0a2a40e08",
+        "image": "/content/study-scenes/study-407a5ac0a2a40e08.svg",
+        "studyImage": "/content/study-scenes/study-407a5ac0a2a40e08.svg",
+        "studyImageAlt": "墙段，风雨，修补",
+        "imageAlt": "墙段，风雨，修补",
+        "imageCaption": "学习示意 · 墙段，风雨，修补",
+        "imageBoundary": "自制学习示意。路线简图不标真实边界和精确墙线。今天的长城照片不能当作秦朝工程现场。",
+        "audio": {
+          "transition": {
+            "id": "quest-e5d6d39c800c9daa",
+            "text": "谁让墙留在山边。"
+          },
+          "intro": {
+            "id": "quest-490bb5648f88a892",
+            "text": "筑墙、运土、修路，都要许多人出力。修好以后，还会损坏，需要维护。"
+          },
+          "question": {
+            "id": "quest-4bb20d2ab7380017",
+            "text": "下雨损坏了墙，接下来需要什么？"
+          },
+          "image": {
+            "id": "quest-e892fcb161329c2c",
+            "text": "这是学习示意图：墙段，风雨，修补。下雨损坏了墙，接下来需要什么？"
+          },
+          "right": {
+            "id": "quest-29ec99e962fb504d",
+            "text": "找到了。命令不能自己补好墙，还得有人带着材料来维护。"
+          },
+          "wrong": {
+            "id": "quest-5df26c9b862f7134",
+            "text": "再比较一下。命令不能自己补好墙，还得有人带着材料来维护。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-05-qin-great-wall-change-1",
+            "label": "有人继续修补",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-fdd8aecb9f80ca7f.svg",
+            "imageAlt": "带材料修补",
+            "audio": {
+              "id": "quest-b6d547d34806d034",
+              "text": "有人继续修补"
+            }
+          },
+          {
+            "id": "cn-ancient-04-05-qin-great-wall-change-2",
+            "label": "只保存最初命令",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-198ffad71eca70ec.svg",
+            "imageAlt": "保存筑墙命令",
+            "audio": {
+              "id": "quest-0acf69f34c0407e4",
+              "text": "只保存最初命令"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "今天照片里的墙",
+        "title": "今天照片里的墙",
+        "prompt": "能把今天每一段砖墙都叫秦长城吗？",
+        "rightNote": "同是长城，不同墙段的年代和修建过程可能不同。",
+        "wrongNote": "同是长城，不同墙段的年代和修建过程可能不同。",
+        "sourceIds": [
+          "UNESCO-GREAT-WALL",
+          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "今天照片里的墙",
+          "screenText": "今天常见的高大砖墙，许多属于明代修建部分。长城不是一次建成的。",
+          "displayText": "今天常见的高大砖墙，许多属于明代修建部分。长城不是一次建成的。",
+          "narration": "今天常见的高大砖墙，许多属于明代修建部分。长城不是一次建成的。"
+        },
+        "assetId": "study-dc7aadaa174934bd",
+        "image": "/content/study-scenes/study-dc7aadaa174934bd.svg",
+        "studyImage": "/content/study-scenes/study-dc7aadaa174934bd.svg",
+        "studyImageAlt": "早期墙段，明代砖墙",
+        "imageAlt": "早期墙段，明代砖墙",
+        "imageCaption": "学习示意 · 早期墙段，明代砖墙",
+        "imageBoundary": "自制学习示意。路线简图不标真实边界和精确墙线。今天的长城照片不能当作秦朝工程现场。",
+        "audio": {
+          "transition": {
+            "id": "quest-989a239e3635e26f",
+            "text": "今天照片里的墙。"
+          },
+          "intro": {
+            "id": "quest-4c289ad813dd7bf8",
+            "text": "今天常见的高大砖墙，许多属于明代修建部分。长城不是一次建成的。"
+          },
+          "question": {
+            "id": "quest-57db42c3d6570bc1",
+            "text": "能把今天每一段砖墙都叫秦长城吗？"
+          },
+          "image": {
+            "id": "quest-4155c0df490c9107",
+            "text": "这是学习示意图：早期墙段，明代砖墙。能把今天每一段砖墙都叫秦长城吗？"
+          },
+          "right": {
+            "id": "quest-16059e13260d8208",
+            "text": "找到了。同是长城，不同墙段的年代和修建过程可能不同。"
+          },
+          "wrong": {
+            "id": "quest-cb1b0a0b96661b80",
+            "text": "再比较一下。同是长城，不同墙段的年代和修建过程可能不同。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-05-qin-great-wall-takeaway-1",
+            "label": "要先查这段的年代",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-603654d3af05d40e.svg",
+            "imageAlt": "查具体墙段年代",
+            "audio": {
+              "id": "quest-8ba9f3c29a703505",
+              "text": "要先查这段的年代"
+            }
+          },
+          {
+            "id": "cn-ancient-04-05-qin-great-wall-takeaway-2",
+            "label": "看见长城就写秦朝",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-6c28a177c7f980ee.svg",
+            "imageAlt": "所有砖墙标秦朝",
+            "audio": {
+              "id": "quest-7dabf23c590a4e52",
+              "text": "看见长城就写秦朝"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "旧墙拼接台",
+        "items": [
+          "把分散墙段、山口和道路拼成一条有缺口的路线，再选择哪里需要连接。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "防御系统工具箱",
+        "items": [
+          "从墙、关口、烽燧、道路中选出互相配合的部分，不选“墙会自己工作”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "秦还是明",
+        "items": [
+          "把“低矮土石遗址”和“高大砖石墙”分别贴上谨慎年代标签，允许“不只一个朝代”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
+  "durationMinutes": 8,
+  "conclusion": [
+    "长城不是秦始皇从一片空地上“第一次造出”的一条完整高墙。战国时期一些诸侯国已经修筑城墙；秦统一后拆除部分内地旧墙，同时连接、修缮和增筑北方部分墙段，并与关口、道路、烽燧等共同构成防御系统。今天熟悉的高大砖石墙多与明代修筑有关，不能拿它直接代替秦长城的样子。"
+  ],
+  "facts": [
+    {
+      "number": 1,
+      "text": "战国时期，一些诸侯国已在边地修筑城墙；秦长城利用并连接了更早的部分墙段。",
+      "sourceIds": [
+        "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+        "UNESCO-GREAT-WALL"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "秦统一后，约公元前 220 年起连接、修缮和增筑北方防御墙段，形成更长的防御体系。",
+      "sourceIds": [
+        "UNESCO-GREAT-WALL",
+        "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "长城不是只有墙体，还要和关口、道路、烽燧以及驻守、运输等行动配合。",
+      "sourceIds": [
+        "UNESCO-GREAT-WALL"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "不同时代会在不同地区修筑和改造长城；今天看到的遗存并非一个年代、一个样式。",
+      "sourceIds": [
+        "UNESCO-GREAT-WALL"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "许多秦代墙段采用当地可取得的土、石等材料，长期风雨会让遗址变低、变碎，不能都想成整齐砖墙。",
+      "sourceIds": [
+        "UNESCO-GREAT-WALL"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "修筑和驻守需要大量人力与物资，理解防御目的时也要看见普通人承担的劳役和运输负担。",
+      "sourceIds": [
+        "MOE-HISTORY-CURRICULUM-2022",
+        "NMC-QIN-HAN-OVERVIEW"
+      ]
+    },
+    {
+      "number": 7,
+      "text": "秦以后多个朝代继续修筑长城，现存最醒目的砖石墙体很多来自明代，不能冒充秦代现场。",
+      "sourceIds": [
+        "UNESCO-GREAT-WALL"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "number": 1,
+      "title": "时间线定位：先有旧墙段",
+      "screenText": "战国时已经有一些墙段；秦统一后把北方部分墙段连接、修缮和增筑。",
+      "voices": [
+        {
+          "number": 1,
+          "label": "语音 G01：",
+          "text": "先别急着想一条又高又整齐的砖墙。秦朝以前，一些诸侯国已经在边地修过墙。秦统一后，面对的是许多分散、长短和样子不同的旧墙段。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-05-qin-great-wall-s01-v01-01",
+              "order": 1,
+              "tier": "core",
+              "text": "先别急着想一条又高又整齐的砖墙。秦朝以前，一些诸侯国已经在边地修过墙。秦统一后，面对的是许多分散、长短和样子不同的旧墙段。",
+              "hanCharacters": 55
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "label": "语音 G02：",
+          "text": "秦做的重要事情，是选择北方部分墙段，把旧墙连接起来，也在需要的地方修缮和增筑。长城不是从空地里一夜长出来的。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-05-qin-great-wall-s01-v02-01",
+              "order": 1,
+              "tier": "core",
+              "text": "秦做的重要事情，是选择北方部分墙段，把旧墙连接起来，也在需要的地方修缮和增筑。长城不是从空地里一夜长出来的。",
+              "hanCharacters": 49
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 2,
+      "title": "找到旧墙段",
+      "screenText": "先在山地和边地找到更早留下的墙段。",
+      "voices": [
+        {
+          "number": 3,
+          "label": "语音 G03：",
+          "text": "第一条线索是旧墙。它们有的沿山脊，有的经过平缓地带，也可能因为风雨变得低矮。今天的研究者要把遗址、地形和文献放在一起核对。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-05-qin-great-wall-s02-v03-01",
+              "order": 1,
+              "tier": "core",
+              "text": "第一条线索是旧墙。它们有的沿山脊，有的经过平缓地带，也可能因为风雨变得低矮。今天的研究者要把遗址、地形和文献放在一起核对。",
+              "hanCharacters": 55
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 3,
+      "title": "连接、修缮和增筑",
+      "screenText": "工匠和劳动者用当地材料补缺口、修道路、连接墙段。",
+      "voices": [
+        {
+          "number": 4,
+          "label": "语音 G04：",
+          "text": "接下来才是行动。人们用附近能取得的土和石修补、增筑，还要让运输物资的道路能走通。画面是帮助理解的艺术表现，不是秦代现场照片。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-05-qin-great-wall-s03-v04-01",
+              "order": 1,
+              "tier": "core",
+              "text": "接下来才是行动。人们用附近能取得的土和石修补、增筑，还要让运输物资的道路能走通。画面是帮助理解的艺术表现，不是秦代现场照片。",
+              "hanCharacters": 56
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 4,
+      "title": "墙为什么不能单独工作",
+      "screenText": "墙、关口、烽燧、道路和驻守的人，要组成一套系统。",
+      "voices": [
+        {
+          "number": 5,
+          "label": "语音 G05：",
+          "text": "一堵墙不会自己观察、传信或运送粮食。关口控制通行，烽燧传递警报，道路运送物资，驻守者执行任务。把这些放在一起，才接近“防御系统”。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-05-qin-great-wall-s04-v05-01",
+              "order": 1,
+              "tier": "core",
+              "text": "一堵墙不会自己观察、传信或运送粮食。关口控制通行，烽燧传递警报，道路运送物资，驻守者执行任务。把这些放在一起，才接近“防御系统”。",
+              "hanCharacters": 55
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 5,
+      "title": "为什么今天看起来不一样",
+      "screenText": "秦代墙段多已风化；熟悉的高大砖墙，很多是后世特别是明代修筑的。",
+      "voices": [
+        {
+          "number": 6,
+          "label": "语音 G06：",
+          "text": "两千多年风雨会让土墙和石墙变低、变碎。你在照片里常见的高大砖墙，很多与明代修筑有关。我们不能拿后世长城的样子，直接说成秦长城。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-05-qin-great-wall-s05-v06-01",
+              "order": 1,
+              "tier": "core",
+              "text": "两千多年风雨会让土墙和石墙变低、变碎。你在照片里常见的高大砖墙，很多与明代修筑有关。我们不能拿后世长城的样子，直接说成秦长城。",
+              "hanCharacters": 57
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 6,
+      "title": "回答问题",
+      "screenText": "秦连接更早的北方墙段，再配合关口、道路、烽燧和驻守，形成防御系统。",
+      "voices": [
+        {
+          "number": 7,
+          "label": "语音 G07：",
+          "text": "所以秦长城的关键词不是“突然造出一条墙”，而是“旧墙段、连接、修缮、增筑和系统”。这些工程服务防御，也让许多普通人承担了劳役、运输和驻守负担。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-05-qin-great-wall-s06-v07-01",
+              "order": 1,
+              "tier": "core",
+              "text": "所以秦长城的关键词不是“突然造出一条墙”，而是“旧墙段、连接、修缮、增筑和系统”。这些工程服务防御，也让许多普通人承担了劳役、运输和驻守负担。",
+              "hanCharacters": 59
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    }
+  ],
+  "interactions": [
+    {
+      "number": 1,
+      "title": "旧墙拼接台",
+      "items": [
+        "把分散墙段、山口和道路拼成一条有缺口的路线，再选择哪里需要连接。"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "防御系统工具箱",
+      "items": [
+        "从墙、关口、烽燧、道路中选出互相配合的部分，不选“墙会自己工作”。"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "秦还是明",
+      "items": [
+        "把“低矮土石遗址”和“高大砖石墙”分别贴上谨慎年代标签，允许“不只一个朝代”。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+      "title": "中国古代重要科技发明创造时间线",
+      "institution": "中国科学院自然科学史研究所",
+      "url": "https://ihns.cas.cn/yjcg/xszz/zztj/202212/t20221207_6570683.html",
+      "type": "science-history-chronology",
+      "authorityLevel": "A",
+      "factUse": "秦长城由战国墙段发展而来，以及造纸、雕版印刷、火药、指南针和泥活字跨时代逐步成熟的时间边界",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-GREAT-WALL",
+      "title": "The Great Wall",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/438/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A-primary",
+      "factUse": "战国已有墙段、秦约公元前220年起连接更早防御设施、长城跨多个朝代不断修筑，以及墙体、关口、烽燧等遗产系统边界",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "MOE-HISTORY-CURRICULUM-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "institution": "中华人民共和国教育部",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "type": "curriculum-standard",
+      "authorityLevel": "A",
+      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-QIN-HAN-OVERVIEW",
+      "title": "“古代中国”基本陈列：秦汉时期",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html",
+      "type": "museum-permanent-exhibition",
+      "authorityLevel": "A",
+      "factUse": "秦汉时间线、统一制度、汉代治理、科技文化、对外交往和秦亡汉兴的总体脉络",
+      "imageUse": "reference-only"
+    }
+  ],
+  "assets": [
+    {
+      "id": "study-e6c628a12fefd7c6",
+      "title": "学习示意：战国 先筑墙、秦 前221年后",
+      "localPath": "reference-assets/focused-quests/study-e6c628a12fefd7c6.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "战国 先筑墙 → 秦 前221年后",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-860639fcaeb14786",
+      "title": "学习示意：战国旧墙、秦朝修接",
+      "localPath": "reference-assets/focused-quests/study-860639fcaeb14786.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "战国旧墙 → 秦朝修接",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-19edea37017a45a5",
+      "title": "学习示意：秦朝修接、战国旧墙",
+      "localPath": "reference-assets/focused-quests/study-19edea37017a45a5.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "秦朝修接 → 战国旧墙",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a3c9041a2e1f8c1b",
+      "title": "学习示意：两段墙和缺口",
+      "localPath": "reference-assets/focused-quests/study-a3c9041a2e1f8c1b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "两段墙和缺口",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-35b079a813bdd14a",
+      "title": "学习示意：补中间缺口",
+      "localPath": "reference-assets/focused-quests/study-35b079a813bdd14a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "补中间缺口",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-487069d7bdbaccca",
+      "title": "学习示意：加高原有墙段",
+      "localPath": "reference-assets/focused-quests/study-487069d7bdbaccca.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "加高原有墙段",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-9f96a21b0a9ea297",
+      "title": "学习示意：运送物资、关口、墙段",
+      "localPath": "reference-assets/focused-quests/study-9f96a21b0a9ea297.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "运送物资 → 关口 → 墙段",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-95597d3b8bb861ec",
+      "title": "学习示意：可通行的关口",
+      "localPath": "reference-assets/focused-quests/study-95597d3b8bb861ec.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "可通行的关口",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-6ede938063ddaea1",
+      "title": "学习示意：封闭的墙面",
+      "localPath": "reference-assets/focused-quests/study-6ede938063ddaea1.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "封闭的墙面",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-407a5ac0a2a40e08",
+      "title": "学习示意：墙段、风雨、修补",
+      "localPath": "reference-assets/focused-quests/study-407a5ac0a2a40e08.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "墙段 → 风雨 → 修补",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-fdd8aecb9f80ca7f",
+      "title": "学习示意：带材料修补",
+      "localPath": "reference-assets/focused-quests/study-fdd8aecb9f80ca7f.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "带材料修补",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-198ffad71eca70ec",
+      "title": "学习示意：保存筑墙命令",
+      "localPath": "reference-assets/focused-quests/study-198ffad71eca70ec.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "保存筑墙命令",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-dc7aadaa174934bd",
+      "title": "学习示意：早期墙段、明代砖墙",
+      "localPath": "reference-assets/focused-quests/study-dc7aadaa174934bd.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "早期墙段 → 明代砖墙",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-603654d3af05d40e",
+      "title": "学习示意：查具体墙段年代",
+      "localPath": "reference-assets/focused-quests/study-603654d3af05d40e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "查具体墙段年代",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-6c28a177c7f980ee",
+      "title": "学习示意：所有砖墙标秦朝",
+      "localPath": "reference-assets/focused-quests/study-6c28a177c7f980ee.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "所有砖墙标秦朝",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-great-wall-connection-child-illustration",
+      "title": "秦连接、修缮和增筑北方墙段儿童艺术表现",
+      "localPath": "reference-assets/qin-han/qin-great-wall-connection-child-illustration.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童艺术表现：成年人沿低矮土石墙段连接、修缮和运输材料，远处还有分散旧墙与道路。",
+      "boundary": "2026-08-12为低龄玩法自制。它不是秦代现场、长城遗址照片、精确墙体复原或施工说明；人物、车具、墙体样式和地形均为帮助理解“旧墙段—连接—系统”的艺术表现，也不能用来推断工程人数、工期或某一具体地点。",
+      "childVisibility": "child-ok"
+    }
+  ],
+  "thumbnail": "/content/thumbnails/cn-ancient-04-05-qin-great-wall.jpg",
+  "status": {
+    "outline": "verified",
+    "research": "verified",
+    "script": "first-draft",
+    "assets": "verified",
+    "audio": "not-started",
+    "review": "in-progress"
+  }
+}

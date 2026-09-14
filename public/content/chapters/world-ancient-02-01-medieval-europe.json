@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-ancient-02-01-medieval-europe",
   "trackId": "world-ancient",
   "trackLabel": "世界古代史",
@@ -13,7 +13,594 @@
   "title": "中世纪西欧的庄园、城市和大学",
   "coreQuestion": "封君封臣、庄园生活和城市兴起怎样塑造西欧？",
   "throughline": "分开封君封臣与庄园劳动，用土地调查、月份图、修道院、市场权和讲课手稿认识西欧多样关系、教会与知识网络、城市行会、大学形成及晚期劳动变化。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-ancient-02-01-medieval-europe",
+    "childTitle": "修道院里怎样做一本书",
+    "prompt": "庄园劳动、城市市场和大学课堂，为什么能同时存在？",
+    "takeaway": "中世纪很长，庄园、城市和学校在不同时间与地方并存并变化。",
+    "object": "手抄本、庄园记录与大学印章",
+    "people": [
+      "农民、修士、工匠、商人、教师与学生"
+    ],
+    "place": "西欧庄园、城市与大学",
+    "culture": "手抄本与中世纪学校传统",
+    "care": "不把整个中世纪画成黑暗空白，也不让领主关系等同所有人的生活。",
+    "preferredAssetId": "eleanor-psalter-october-farming-public-domain"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📍",
+      "label": "从一个地方出发",
+      "text": "修道院里怎样做一本书"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "修道院里抄一本书",
+      "text": "先跟修士在手抄本上写字、描边和装订。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "再去庄园和市场",
+      "text": "接着去庄园、市场和大学，看不同人的生活。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "许多生活同时存在",
+      "text": "最后这些场景在漫长中世纪里并存并变化。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "中世纪很长，庄园、城市和学校在不同时间与地方并存并变化。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "档案",
+      "icon": "🗂️",
+      "plain": "被保存下来的文件、照片、录音等记录。",
+      "example": "一份档案记录一个角度，要和别的证据一起看。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "税收",
+      "icon": "🧾",
+      "plain": "公共机构按规则向居民或交易收取的钱和物。",
+      "example": "税收可用于公共事务，也要看负担是否合理。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "文明",
+      "icon": "🏙️",
+      "plain": "许多人长期创造的社会生活与文化成果。",
+      "example": "不同文明各有环境和道路，不做高低排名。",
+      "priority": 2
+    },
+    {
+      "term": "自由",
+      "icon": "🕊️",
+      "plain": "在不伤害别人并遵守共同规则时作出选择。",
+      "example": "历史文件写下自由，还要看哪些人当时没有得到。",
+      "priority": 2
+    },
+    {
+      "term": "自治",
+      "icon": "🏘️",
+      "plain": "一个地区或群体依法管理一部分自己的公共事情。",
+      "example": "自治仍在国家法律和共同制度内运行。",
+      "priority": 2
+    },
+    {
+      "term": "宗教",
+      "icon": "🕯️",
+      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
+      "example": "同一种宗教内部也有不同地区、时代和人群。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "西欧",
+      "reading": "Xī’ōu",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-01-medieval-europe",
+        "world-contemporary-04-02-postwar-development"
+      ],
+      "note": "“西”“欧”之间避免吞音。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个地方",
+      "icon": "📍",
+      "label": "修道院里怎样做一本书",
+      "question": "庄园劳动、城市市场和大学课堂，为什么能同时存在？"
+    },
+    "coverAudio": {
+      "id": "quest-89ae5fb619dfc6ca",
+      "text": "今天从一个地方出发：修道院里怎样做一本书。我们要去西欧庄园、城市与大学，看看手抄本、庄园记录与大学印章怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-c7852cbe24f5885a",
+      "text": "五条线索都找到了，“修道院里怎样做一本书”的答案是：中世纪很长，庄园、城市和学校在不同时间与地方并存并变化。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个地方出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是中古世界，时间是约5—15世纪。",
+          "narration": "这是中古世界，时间是约5—15世纪。",
+          "displayText": "这是中古世界，时间是约5—15世纪。"
+        },
+        "assetId": "bologna-aristotle-lecture-14th-century-public-domain",
+        "image": "/content/step-images/bologna-aristotle-lecture-14th-century-public-domain.jpg",
+        "imageAlt": "14世纪博洛尼亚手稿中的亚里士多德讲课图",
+        "imageCaption": "14世纪后半叶博洛尼亚画家Laurentius de Voltolina所作讲课图，表现教师讲解亚里士多德文本与学生听读，现藏柏林版画素描博物馆。",
+        "imageBoundary": "博物馆开放原图4000×3278像素，等比缩至2200×1803像素，未裁切；原作羊皮纸约18×22厘米，藏品号Min 1233。它是关于知识与讲课的手稿艺术，不是1088年开学现场、第一所大学证明、课堂照片或全部学生名单；画中有人交谈或打盹，也不能据此统计普遍课堂纪律。",
+        "audio": {
+          "transition": {
+            "id": "quest-cafb042b318bc60f",
+            "text": "先给一个地方找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-1fb2283ac891f89c",
+            "text": "这是中古世界，时间是约5—15世纪。"
+          },
+          "image": {
+            "id": "quest-599c724aedbf27b1",
+            "text": "点开大图啦。这是14世纪博洛尼亚手稿中的亚里士多德讲课图。这张图能帮我们找到：这是中古世界，时间是约5—15世纪。"
+          },
+          "question": {
+            "id": "quest-6b36b10ba4b7def9",
+            "text": "从一个地方出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-01-medieval-europe-time-1",
+            "label": "世界古代史 · 中古世界 · 约5—15世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-138b018948e0ad9a",
+              "text": "世界古代史 · 中古世界 · 约5—15世纪"
+            }
+          },
+          {
+            "id": "world-ancient-02-01-medieval-europe-time-2",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "world-ancient-02-01-medieval-europe-time-3",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "修道院里抄一本书",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先跟修士在手抄本上写字、描边和装订。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "修道院里抄一本书",
+          "screenText": "先跟修士在手抄本上写字、描边和装订。",
+          "narration": "先跟修士在手抄本上写字、描边和装订。",
+          "displayText": "先跟修士在手抄本上写字、描边和装订。"
+        },
+        "assetId": "fontenay-cloister-2016-public-domain-photo",
+        "image": "/content/step-images/fontenay-cloister-2016-public-domain-photo.jpg",
+        "imageAlt": "丰特奈修道院回廊2016年实拍",
+        "imageCaption": "2016年拍摄的法国丰特奈修道院回廊与后方建筑，可观察现代保存中的修道院空间。",
+        "imageBoundary": "Commons原图2816×2112像素，等比缩至2200×1650像素，未裁切。摄影者将作品释入公共领域。画面包含游客、现代维护环境和不同年代建筑，只用于说明遗产空间；不冒充1119年、1147年现场，不由一处回廊推断所有修道院布局。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-faa31fef68da3f72",
+            "text": "先跟修士在手抄本上写字、描边和装订。"
+          },
+          "image": {
+            "id": "quest-d146cdbb972a4fd7",
+            "text": "点开大图啦。这是丰特奈修道院回廊2016年实拍。这张图能帮我们找到：先跟修士在手抄本上写字、描边和装订。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-01-medieval-europe-beginning-1",
+            "label": "西欧庄园、城市与大学、农民，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-1d33fb00129db354",
+              "text": "西欧庄园、城市与大学、农民，只是故事地点"
+            }
+          },
+          {
+            "id": "world-ancient-02-01-medieval-europe-beginning-2",
+            "label": "农民、修士、工匠、商人、教师与，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-bf03d0f571d99143",
+              "text": "农民、修士、工匠、商人、教师与，只是故事人物"
+            }
+          },
+          {
+            "id": "world-ancient-02-01-medieval-europe-beginning-3",
+            "label": "手抄本、庄园记录与大学印章，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-cc8095f7ab972200",
+              "text": "手抄本、庄园记录与大学印章，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "再去庄园和市场",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着去庄园、市场和大学，看不同人的生活。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "再去庄园和市场",
+          "screenText": "接着去庄园、市场和大学，看不同人的生活。",
+          "narration": "接着去庄园、市场和大学，看不同人的生活。",
+          "displayText": "接着去庄园、市场和大学，看不同人的生活。"
+        },
+        "assetId": "bologna-aristotle-lecture-14th-century-public-domain",
+        "image": "/content/step-images/bologna-aristotle-lecture-14th-century-public-domain.jpg",
+        "imageAlt": "14世纪博洛尼亚手稿中的亚里士多德讲课图",
+        "imageCaption": "14世纪后半叶博洛尼亚画家Laurentius de Voltolina所作讲课图，表现教师讲解亚里士多德文本与学生听读，现藏柏林版画素描博物馆。",
+        "imageBoundary": "博物馆开放原图4000×3278像素，等比缩至2200×1803像素，未裁切；原作羊皮纸约18×22厘米，藏品号Min 1233。它是关于知识与讲课的手稿艺术，不是1088年开学现场、第一所大学证明、课堂照片或全部学生名单；画中有人交谈或打盹，也不能据此统计普遍课堂纪律。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-45732df3220c3879",
+            "text": "接着去庄园、市场和大学，看不同人的生活。"
+          },
+          "image": {
+            "id": "quest-4d31ec64114ba067",
+            "text": "点开大图啦。这是14世纪博洛尼亚手稿中的亚里士多德讲课图。这张图能帮我们找到：接着去庄园、市场和大学，看不同人的生活。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-01-medieval-europe-journey-1",
+            "label": "西欧庄园、城市与大学、手抄，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-b02f5674820cddae",
+              "text": "西欧庄园、城市与大学、手抄，只说了地点"
+            }
+          },
+          {
+            "id": "world-ancient-02-01-medieval-europe-journey-2",
+            "label": "接着去庄园、市场和大学，看不同人的生活。",
+            "correct": true,
+            "audio": {
+              "id": "quest-45732df3220c3879",
+              "text": "接着去庄园、市场和大学，看不同人的生活。"
+            }
+          },
+          {
+            "id": "world-ancient-02-01-medieval-europe-journey-3",
+            "label": "农民、修士、工匠、商人、教师与，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-4f9ab88cc036326d",
+              "text": "农民、修士、工匠、商人、教师与，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "许多生活同时存在",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后这些场景在漫长中世纪里并存并变化。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "许多生活同时存在",
+          "screenText": "最后这些场景在漫长中世纪里并存并变化。",
+          "narration": "最后这些场景在漫长中世纪里并存并变化。",
+          "displayText": "最后这些场景在漫长中世纪里并存并变化。"
+        },
+        "assetId": "bremen-town-hall-roland-2015-photo",
+        "image": "/content/step-images/bremen-town-hall-roland-2015-photo.jpg",
+        "imageAlt": "不来梅罗兰像与市政厅2015年实拍",
+        "imageCaption": "2015年拍摄的不来梅罗兰像与市政厅；雕像立于1404年，旧市政厅建于15世纪初并在17世纪改建。",
+        "imageBoundary": "Commons原图3264×2448像素，等比缩至2200×1650像素，未裁切。照片拍摄于2015-04-06。固定标注城市权利象征与建筑多期历史，不把罗兰像称真实守卫，不把17世纪立面和现代城市环境当完整中世纪原貌。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-4f13ee074191bce7",
+            "text": "最后这些场景在漫长中世纪里并存并变化。"
+          },
+          "image": {
+            "id": "quest-17f5bc761fc7c2d7",
+            "text": "点开大图啦。这是不来梅罗兰像与市政厅2015年实拍。这张图能帮我们找到：最后这些场景在漫长中世纪里并存并变化。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-01-medieval-europe-change-1",
+            "label": "最后这些场景在漫长中世纪里并存并变化。",
+            "correct": true,
+            "audio": {
+              "id": "quest-4f13ee074191bce7",
+              "text": "最后这些场景在漫长中世纪里并存并变化。"
+            }
+          },
+          {
+            "id": "world-ancient-02-01-medieval-europe-change-2",
+            "label": "手抄本、庄园记录与大，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-6a152e8b253dbd8c",
+              "text": "手抄本、庄园记录与大，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-ancient-02-01-medieval-europe-change-3",
+            "label": "去庄园、市场和大学，看不，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-154d8a701f283bc8",
+              "text": "去庄园、市场和大学，看不，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "中世纪很长，庄园、城市和学校在不同时间与地方并存并变化。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "中世纪很长，庄园、城市和学校在不同时间与地方并存并变化。",
+          "narration": "中世纪很长，庄园、城市和学校在不同时间与地方并存并变化。",
+          "displayText": "中世纪很长，庄园、城市和学校在不同时间与地方并存并变化。"
+        },
+        "assetId": "eleanor-psalter-october-farming-public-domain",
+        "image": "/content/step-images/eleanor-psalter-october-farming-public-domain.jpg",
+        "imageAlt": "约1185年诗篇十月历中的播种、纺线与耕地",
+        "imageCaption": "约1185年前后的《阿基坦的埃莉诺诗篇》十月历图，可见播种、纺线和耕地的季节劳动表现，馆藏号KW 76 F 13。",
+        "imageBoundary": "Commons/KB原图3000×4273像素，等比缩至1544×2200像素，未裁切。作品年代和制作地点仍有学术讨论，KB英文页采用约1185年；正文不把图像当现场照片，不规定所有农民工具、衣着、劳动身份与性别分工，也不把贵族赞助手稿视为普通人自述。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-6d503e44ac28493e",
+            "text": "中世纪很长，庄园、城市和学校在不同时间与地方并存并变化。"
+          },
+          "image": {
+            "id": "quest-0c05e39f4a66c58c",
+            "text": "点开大图啦。这是约1185年诗篇十月历中的播种、纺线与耕地。这张图能帮我们找到：中世纪很长，庄园、城市和学校在不同时间与地方并存并变化。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-01-medieval-europe-takeaway-1",
+            "label": "这些场景在漫长中世纪里并存并变化。、修道院里怎，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-602e81bd58a56022",
+              "text": "这些场景在漫长中世纪里并存并变化。、修道院里怎，只说了结果"
+            }
+          },
+          {
+            "id": "world-ancient-02-01-medieval-europe-takeaway-2",
+            "label": "跟修士在手抄本上写字、描边和装订。、手抄本，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-b036fa8d10a6f0bf",
+              "text": "跟修士在手抄本上写字、描边和装订。、手抄本，只说了原因"
+            }
+          },
+          {
+            "id": "world-ancient-02-01-medieval-europe-takeaway-3",
+            "label": "中世纪很长，庄园、城市和学校在不同时间与地方并存并变化。",
+            "correct": true,
+            "audio": {
+              "id": "quest-6d503e44ac28493e",
+              "text": "中世纪很长，庄园、城市和学校在不同时间与地方并存并变化。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "关系拆分桌",
+        "items": [
+          "将“封土—军事或其他服务”“领主自营地—劳动义务”“市场权—城市自治”“师生团体—教学与学位”放进四个关系环。系统允许“因地而异”和“可能重叠”，不使用固定社会金字塔，也不让儿童扮演领主征收劳役或惩罚农民。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "两件证据能说多远",
+        "items": [
+          "观察《末日审判书》页和诗篇月份图，把结论分成“原件直接可见”“机构资料帮助确认”“还不能知道”。例如可以看见拉丁文字和劳动图像，不能知道每个农民心情、全欧洲人口或所有地区的性别分工。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "村庄—修道院—城市—大学连接图",
+        "items": [
+          "为粮食、羊皮纸、书籍、工匠、学生和市场选择可能移动路径，并标出租赋、准入限制和劳动差别。最后与宋元中国材料填写“同时发生—制度不同—是否有直接证据”三栏，不以财富、自由、教育或建筑大小评文明胜负。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "中世纪西欧不是一座永远黑暗、人人固定不动的金字塔。从西罗马帝国政治结构变化到15世纪，西欧各地形成过多种王权、领主关系、土地制度和地方共同体。部分贵族以封土和服务建立封君封臣关系，但无条件土地、工资、亲族与友谊也能维系力量；它不能概括所有人。庄园则是土地经营和劳动义务的一种组织方式，农民可能交租、服役，也会使用法庭、买卖财产或迁移，具体习惯因时因地而异。教会、修道院、城镇、市场、行会和大学又形成彼此交叠的新网络。到中世纪晚期，城市自治、商业、知识团体和大疫病后的劳动变化都在推动社会继续改变。"
@@ -620,50 +1207,65 @@
       "title": "11世纪《末日审判书》沃里克郡页",
       "localPath": "reference-assets/world-ancient-medieval-europe/domesday-warwickshire-11th-century.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Domesday_Book_-_Warwickshire.png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-public-domain",
       "caption": "《末日审判书》沃里克郡土地条目页，11世纪，拉丁文写于羊皮纸，原记录现藏英国国家档案馆。",
-      "boundary": "Commons原图600×807像素，未放大、未裁切。来源页将其识别为沃里克郡页并包含伯明翰条目；课程只用英国国家档案馆资料解释调查目的与记录性质，不要求儿童自行翻译拉丁缩写，也不据此编造家庭生活、全欧洲人口或统一庄园结构。"
+      "boundary": "Commons原图600×807像素，未放大、未裁切。来源页将其识别为沃里克郡页并包含伯明翰条目；课程只用英国国家档案馆资料解释调查目的与记录性质，不要求儿童自行翻译拉丁缩写，也不据此编造家庭生活、全欧洲人口或统一庄园结构。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "eleanor-psalter-october-farming-public-domain",
       "title": "约1185年诗篇十月历中的播种、纺线与耕地",
       "localPath": "reference-assets/world-ancient-medieval-europe/psalter-october-farming-c1185.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Calendar,_October,_men_sowing_and_ploughing,_a_woman_spinning_-_Psalter_of_Eleanor_of_Aquitaine_(ca._1185)_-_KB_76_F_13,_folium_010v.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0 / faithful reproduction of public-domain work",
       "clearance": "cleared-public-domain",
       "caption": "约1185年前后的《阿基坦的埃莉诺诗篇》十月历图，可见播种、纺线和耕地的季节劳动表现，馆藏号KW 76 F 13。",
-      "boundary": "Commons/KB原图3000×4273像素，等比缩至1544×2200像素，未裁切。作品年代和制作地点仍有学术讨论，KB英文页采用约1185年；正文不把图像当现场照片，不规定所有农民工具、衣着、劳动身份与性别分工，也不把贵族赞助手稿视为普通人自述。"
+      "boundary": "Commons/KB原图3000×4273像素，等比缩至1544×2200像素，未裁切。作品年代和制作地点仍有学术讨论，KB英文页采用约1185年；正文不把图像当现场照片，不规定所有农民工具、衣着、劳动身份与性别分工，也不把贵族赞助手稿视为普通人自述。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "fontenay-cloister-2016-public-domain-photo",
       "title": "丰特奈修道院回廊2016年实拍",
       "localPath": "reference-assets/world-ancient-medieval-europe/fontenay-cloister-2016.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Fontenay_Abbey_-_Cloister_and_house_of_abbeys.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain dedication by photographer",
       "clearance": "cleared-public-domain",
       "caption": "2016年拍摄的法国丰特奈修道院回廊与后方建筑，可观察现代保存中的修道院空间。",
-      "boundary": "Commons原图2816×2112像素，等比缩至2200×1650像素，未裁切。摄影者将作品释入公共领域。画面包含游客、现代维护环境和不同年代建筑，只用于说明遗产空间；不冒充1119年、1147年现场，不由一处回廊推断所有修道院布局。"
+      "boundary": "Commons原图2816×2112像素，等比缩至2200×1650像素，未裁切。摄影者将作品释入公共领域。画面包含游客、现代维护环境和不同年代建筑，只用于说明遗产空间；不冒充1119年、1147年现场，不由一处回廊推断所有修道院布局。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "bremen-town-hall-roland-2015-photo",
       "title": "不来梅罗兰像与市政厅2015年实拍",
       "localPath": "reference-assets/world-ancient-medieval-europe/bremen-town-hall-roland-2015.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Roland_%26_Rathaus,_Bremen.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 2.0",
       "clearance": "cleared-open-license",
       "caption": "2015年拍摄的不来梅罗兰像与市政厅；雕像立于1404年，旧市政厅建于15世纪初并在17世纪改建。",
-      "boundary": "Commons原图3264×2448像素，等比缩至2200×1650像素，未裁切。照片拍摄于2015-04-06。固定标注城市权利象征与建筑多期历史，不把罗兰像称真实守卫，不把17世纪立面和现代城市环境当完整中世纪原貌。"
+      "boundary": "Commons原图3264×2448像素，等比缩至2200×1650像素，未裁切。照片拍摄于2015-04-06。固定标注城市权利象征与建筑多期历史，不把罗兰像称真实守卫，不把17世纪立面和现代城市环境当完整中世纪原貌。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "bologna-aristotle-lecture-14th-century-public-domain",
       "title": "14世纪博洛尼亚手稿中的亚里士多德讲课图",
       "localPath": "reference-assets/world-ancient-medieval-europe/bologna-lecture-14th-century.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Laurentius_de_Voltolina_Vorlesung_vor_Studenten_-_Min_1233_-_Kupferstichkabinett_Berlin.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0 by rights holder",
       "clearance": "cleared-public-domain",
       "caption": "14世纪后半叶博洛尼亚画家Laurentius de Voltolina所作讲课图，表现教师讲解亚里士多德文本与学生听读，现藏柏林版画素描博物馆。",
-      "boundary": "博物馆开放原图4000×3278像素，等比缩至2200×1803像素，未裁切；原作羊皮纸约18×22厘米，藏品号Min 1233。它是关于知识与讲课的手稿艺术，不是1088年开学现场、第一所大学证明、课堂照片或全部学生名单；画中有人交谈或打盹，也不能据此统计普遍课堂纪律。"
+      "boundary": "博物馆开放原图4000×3278像素，等比缩至2200×1803像素，未裁切；原作羊皮纸约18×22厘米，藏品号Min 1233。它是关于知识与讲课的手稿艺术，不是1088年开学现场、第一所大学证明、课堂照片或全部学生名单；画中有人交谈或打盹，也不能据此统计普遍课堂纪律。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-ancient-02-01-medieval-europe.jpg",

@@ -20,6 +20,7 @@
 - 互动题、答案与解释；
 - 事实来源和图片授权；
 - 每章在总时间线中的位置以及同期世界连接。
+- 每章儿童卡片首先出现的具体问题、物件、人物或群体、地点与文化连接，以及低龄展示边界。
 
 ### 界面层负责
 
@@ -37,6 +38,9 @@ content/
   timeline.json              中国历史八段主时间线
   product-map.json           中国史、世界史完整产品范围
   catalog.json               已拆分到章节级的目录
+  child-entry-points.json    91章面向4—6岁的物件/人物/地点/文化入口与短回答
+  child-language-glossary.json  76个抽象词的儿童口语解释
+  voice-pronunciations.json  配音前人名/地名/多音字与年代读法基线
   sources.json               可机器读取的事实来源登记
   chapters/                  每章研究稿、儿童稿和语音稿
   assets/                    每章素材与授权状态

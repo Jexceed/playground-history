@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.9.0",
+  "contentVersion": "0.10.0",
   "id": "cross-04-transport-history",
   "trackId": "cross-disciplinary",
   "trackLabel": "跨学科主题学习",
@@ -13,7 +13,616 @@
   "title": "走陆路还是水路：给历史任务规划一条真实路线",
   "coreQuestion": "年代、任务、使用权限、地理和交通系统怎样共同决定一条路线是否可行？",
   "throughline": "先沿汉代悬泉置与玉门关、7世纪隋代大运河统一系统、10—14世纪宋元泉州、1405—1433年郑和远航、1881年唐胥铁路和1909年京张铁路建立中国交通时间线，再用‘年代—使用者—货物—起点—终点—必要节点’六格任务卡选择道路、驿站、运河、桥梁、港口、海船或铁路。每条路线标作学习模拟，缺少速度、水位、风向、费用和载量时保留未知；以罗马阿庇亚大道和英国早期煤运铁路作系统比较，不做文明竞速。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "cross-04-transport-history",
+    "childTitle": "郑和船、大运河还是驿路",
+    "prompt": "运粮、送信、远航三个任务，为什么要选不同路线？",
+    "takeaway": "驿路、运河和海路各有长处，交通网络靠选择路线与长期维护。",
+    "object": "驿路简图、大运河遗址与郑和航海图",
+    "people": [
+      "驿卒、船工、水手、向导与维护者"
+    ],
+    "place": "河西走廊、大运河、泉州与印度洋",
+    "culture": "路线图与旅行记录",
+    "care": "路线选择是学习模拟；速度、水位、季风、费用未知时明确保留未知。",
+    "preferredAssetId": "quanzhou-luoyang-bridge-current-view"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🗺️",
+      "label": "从一张地图出发",
+      "text": "郑和船、大运河还是驿路"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "摆好三张任务卡",
+      "text": "先把运粮、送信和远航三张任务卡摆好。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "为任务选择路线",
+      "text": "接着为每张卡选择运河、驿路或海路。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "路线各有长处",
+      "text": "最后发现路线各有长处，也都需要长期维护。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "驿路、运河和海路各有长处，交通网络靠选择路线与长期维护。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "王朝",
+      "icon": "👑",
+      "plain": "以皇帝政权延续的一段历史时期。",
+      "example": "唐朝是王朝；唐朝结束不等于所有事情当天停止。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "大运河",
+      "reading": "Dàyùnhé",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-06-01-sui-unification-canal",
+        "cross-04-transport-history"
+      ],
+      "note": "“运河”连读清楚。"
+    },
+    {
+      "text": "泉州",
+      "reading": "Quánzhōu",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-07-05-yuan-exchange",
+        "world-ancient-02-03-islamic-world",
+        "cross-04-transport-history"
+      ],
+      "note": "福建地名。"
+    },
+    {
+      "text": "驿卒",
+      "reading": "Yìzú",
+      "kind": "polyphone",
+      "chapterIds": [
+        "cn-ancient-07-05-yuan-exchange",
+        "cross-04-transport-history"
+      ],
+      "note": "“驿”读yì，“卒”表示差役时读zú。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一张地图",
+      "icon": "🗺️",
+      "label": "郑和船、大运河还是驿路",
+      "question": "运粮、送信、远航三个任务，为什么要选不同路线？"
+    },
+    "coverAudio": {
+      "id": "quest-448fdbbc21045edb",
+      "text": "今天从一张地图出发：郑和船、大运河还是驿路。我们要去河西走廊、大运河、泉州与印度洋，看看驿路简图、大运河遗址与郑和航海图怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-cfae243b68845f0d",
+      "text": "五条线索都找到了，“郑和船、大运河还是驿路”的答案是：驿路、运河和海路各有长处，交通网络靠选择路线与长期维护。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 12,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一张地图出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这个故事会跨越很多时代，来比较跨时代证据任务。",
+          "narration": "这个故事会跨越很多时代，来比较跨时代证据任务。",
+          "displayText": "这个故事会跨越很多时代，来比较跨时代证据任务。"
+        },
+        "assetId": "quanzhou-luoyang-bridge-current-view",
+        "image": "/content/step-images/quanzhou-luoyang-bridge-current-view.jpg",
+        "imageAlt": "泉州洛阳桥现状照片",
+        "imageCaption": "今天泉州洛阳桥的现状照片；该桥是宋元泉州世界遗产组成部分之一。",
+        "imageBoundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。下载为1920×1280像素等比例图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-9ef0fc145b345212",
+            "text": "先给一张地图找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-67ed9824b7d74732",
+            "text": "这个故事会跨越很多时代，来比较跨时代证据任务。"
+          },
+          "image": {
+            "id": "quest-5ddca12c1160d812",
+            "text": "点开大图啦。这是泉州洛阳桥现状照片。这张图能帮我们找到：这个故事会跨越很多时代，来比较跨时代证据任务。"
+          },
+          "question": {
+            "id": "quest-90f1cd3d8372a95d",
+            "text": "从一张地图出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-04-transport-history-time-1",
+            "label": "中国古代史 · 唐朝 · 618—907年",
+            "correct": false,
+            "audio": {
+              "id": "quest-b8c375cbb1761b84",
+              "text": "中国古代史 · 唐朝 · 618—907年"
+            }
+          },
+          {
+            "id": "cross-04-transport-history-time-2",
+            "label": "跨越很多时代 · 跨时代证据任务",
+            "correct": true,
+            "audio": {
+              "id": "quest-91c6443f7f3a1ac7",
+              "text": "跨越很多时代 · 跨时代证据任务"
+            }
+          },
+          {
+            "id": "cross-04-transport-history-time-3",
+            "label": "中国古代史 · 隋朝 · 581—618年",
+            "correct": false,
+            "audio": {
+              "id": "quest-10fec8bdaddc2570",
+              "text": "中国古代史 · 隋朝 · 581—618年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "摆好三张任务卡",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先把运粮、送信和远航三张任务卡摆好。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "摆好三张任务卡",
+          "screenText": "先把运粮、送信和远航三张任务卡摆好。",
+          "narration": "先把运粮、送信和远航三张任务卡摆好。",
+          "displayText": "先把运粮、送信和远航三张任务卡摆好。"
+        },
+        "assetId": "sui-tang-grand-canal-current-site-marker",
+        "image": "/content/step-images/sui-tang-grand-canal-current-site-marker.jpg",
+        "imageAlt": "隋唐大运河遗址现代保护标志照片",
+        "imageCaption": "今天位于河南睢县的隋唐大运河遗址保护标志与周边环境。",
+        "imageBoundary": "这是2022年的遗址现状照片，主体为现代保护标志，不是隋代遗物、河道原貌或开河现场。大运河历史与后世改造边界以UNESCO记录核验。原图1800×1200像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-24e06a2e544ffecd",
+            "text": "先把运粮、送信和远航三张任务卡摆好。"
+          },
+          "image": {
+            "id": "quest-1502fce79e25e887",
+            "text": "点开大图啦。这是隋唐大运河遗址现代保护标志照片。这张图能帮我们找到：先把运粮、送信和远航三张任务卡摆好。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-04-transport-history-beginning-1",
+            "label": "驿路简图、大运河遗址与郑和航海图，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-006fc831d66dd1e4",
+              "text": "驿路简图、大运河遗址与郑和航海图，是能核对的证物"
+            }
+          },
+          {
+            "id": "cross-04-transport-history-beginning-2",
+            "label": "河西走廊、大运河、泉州与印度洋，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-2f7aef5debb21151",
+              "text": "河西走廊、大运河、泉州与印度洋，只是故事地点"
+            }
+          },
+          {
+            "id": "cross-04-transport-history-beginning-3",
+            "label": "驿卒、船工、水手、向导与维护者、河西，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-303dff7d70cbd431",
+              "text": "驿卒、船工、水手、向导与维护者、河西，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "为任务选择路线",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着为每张卡选择运河、驿路或海路。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "为任务选择路线",
+          "screenText": "接着为每张卡选择运河、驿路或海路。",
+          "narration": "接着为每张卡选择运河、驿路或海路。",
+          "displayText": "接着为每张卡选择运河、驿路或海路。"
+        },
+        "assetId": "qin-han-yumen-pass",
+        "image": "/content/step-images/qin-han-yumen-pass.jpg",
+        "imageAlt": "玉门关遗址现状照片",
+        "imageCaption": "今天的玉门关遗址和周围戈壁景观。",
+        "imageBoundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。页面只把关隘作为交通网络节点。下载为1920像素等比例缩略图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-f273f39a54751756",
+            "text": "接着为每张卡选择运河、驿路或海路。"
+          },
+          "image": {
+            "id": "quest-db6554348c748773",
+            "text": "点开大图啦。这是玉门关遗址现状照片。这张图能帮我们找到：接着为每张卡选择运河、驿路或海路。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-04-transport-history-journey-1",
+            "label": "驿卒、船工、水手、向导与，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-41b4eed93b8283e8",
+              "text": "驿卒、船工、水手、向导与，只认出人物"
+            }
+          },
+          {
+            "id": "cross-04-transport-history-journey-2",
+            "label": "河西走廊、大运河、泉，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-72282bf25f4904f3",
+              "text": "河西走廊、大运河、泉，只说了地点"
+            }
+          },
+          {
+            "id": "cross-04-transport-history-journey-3",
+            "label": "接着为每张卡选择运河、驿路或海路。",
+            "correct": true,
+            "audio": {
+              "id": "quest-f273f39a54751756",
+              "text": "接着为每张卡选择运河、驿路或海路。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "路线各有长处",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后发现路线各有长处，也都需要长期维护。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "路线各有长处",
+          "screenText": "最后发现路线各有长处，也都需要长期维护。",
+          "narration": "最后发现路线各有长处，也都需要长期维护。",
+          "displayText": "最后发现路线各有长处，也都需要长期维护。"
+        },
+        "assetId": "sui-tang-grand-canal-current-site-marker",
+        "image": "/content/step-images/sui-tang-grand-canal-current-site-marker.jpg",
+        "imageAlt": "隋唐大运河遗址现代保护标志照片",
+        "imageCaption": "今天位于河南睢县的隋唐大运河遗址保护标志与周边环境。",
+        "imageBoundary": "这是2022年的遗址现状照片，主体为现代保护标志，不是隋代遗物、河道原貌或开河现场。大运河历史与后世改造边界以UNESCO记录核验。原图1800×1200像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-7350b79e4cd40c87",
+            "text": "最后发现路线各有长处，也都需要长期维护。"
+          },
+          "image": {
+            "id": "quest-eb77b1bacccac8b0",
+            "text": "点开大图啦。这是隋唐大运河遗址现代保护标志照片。这张图能帮我们找到：最后发现路线各有长处，也都需要长期维护。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-04-transport-history-change-1",
+            "label": "为每张卡选择运河、驿路或海，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-652e965b4b5b50c3",
+              "text": "为每张卡选择运河、驿路或海，还只是行动经过"
+            }
+          },
+          {
+            "id": "cross-04-transport-history-change-2",
+            "label": "最后发现路线各有长处，也都需要长期维护。",
+            "correct": true,
+            "audio": {
+              "id": "quest-7350b79e4cd40c87",
+              "text": "最后发现路线各有长处，也都需要长期维护。"
+            }
+          },
+          {
+            "id": "cross-04-transport-history-change-3",
+            "label": "驿路简图、大运河遗址与，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-ddfa08ff5aaf75a2",
+              "text": "驿路简图、大运河遗址与，还只是故事起点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "驿路、运河和海路各有长处，交通网络靠选择路线与长期维护。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "驿路、运河和海路各有长处，交通网络靠选择路线与长期维护。",
+          "narration": "驿路、运河和海路各有长处，交通网络靠选择路线与长期维护。",
+          "displayText": "驿路、运河和海路各有长处，交通网络靠选择路线与长期维护。"
+        },
+        "assetId": "qin-han-xuanquan-seal-tag",
+        "image": "/content/step-images/qin-han-xuanquan-seal-tag.jpg",
+        "imageAlt": "悬泉置封检实物照片",
+        "imageCaption": "甘肃省博物馆藏悬泉置出土封检，用于封缄和标记文书或物品。",
+        "imageBoundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。下载为1920像素等比例缩略图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-e98c2a4dc5088577",
+            "text": "驿路、运河和海路各有长处，交通网络靠选择路线与长期维护。"
+          },
+          "image": {
+            "id": "quest-5b3ba84946359ca3",
+            "text": "点开大图啦。这是悬泉置封检实物照片。这张图能帮我们找到：驿路、运河和海路各有长处，交通网络靠选择路线与长期维护。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-04-transport-history-takeaway-1",
+            "label": "驿路、运河和海路各有长处，交通网络靠选择路线与长期维护。",
+            "correct": true,
+            "audio": {
+              "id": "quest-e98c2a4dc5088577",
+              "text": "驿路、运河和海路各有长处，交通网络靠选择路线与长期维护。"
+            }
+          },
+          {
+            "id": "cross-04-transport-history-takeaway-2",
+            "label": "发现路线各有长处，也都需要长期维护。、郑和船，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-4c6c8caf3b00c327",
+              "text": "发现路线各有长处，也都需要长期维护。、郑和船，只说了结果"
+            }
+          },
+          {
+            "id": "cross-04-transport-history-takeaway-3",
+            "label": "把运粮、送信和远航三张任务卡摆好。、驿路简，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-2d8a207f88f64532",
+              "text": "把运粮、送信和远航三张任务卡摆好。、驿路简，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把6张节点卡放回时间线",
+        "items": [
+          "排列“悬泉置—隋代大运河统一系统—宋元泉州—郑和远航—唐胥铁路—京张铁路”。",
+          "反馈强调“新方式加入旧网络”，不做“马、船、火车谁淘汰谁”的简单比赛。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "给4个学习任务补齐条件卡",
+        "items": [
+          "汉代官方公文、13世纪大批粮食、宋元内陆陶瓷到泉州港、1881年开平煤矿运煤四项任务分别选择年代、使用权限、货物类型和必要节点。",
+          "所有角色与任务顶部固定显示“学习模拟”，不能进入史实人物年表。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "把“飞奔的马”补成驿路网络",
+        "items": [
+          "将“发文单位—经手人—封检—道路—悬泉置—换马或补给—关隘—收文单位”连成系统。",
+          "缺少具体信件内容和收发人时显示“未知”，不让孩子拆封或猜写秘密军情。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "拼出“内陆产品到海船”的港口网络",
+        "items": [
+          "将“生产地—陆路/河运—洛阳桥等交通设施—城市仓储—码头装卸—海船”按功能相连。",
+          "系统允许多种换装组合，但没有来源支持时不能把某件具体瓷器指定为“由某位船长从泉州直送”。"
+        ]
+      },
+      {
+        "number": 5,
+        "title": "规划、解释并审查一条历史路线",
+        "items": [
+          "从四项任务中选一项：汉代官方公文、13世纪大批粮食、宋元内陆产品到泉州港、1881年开平煤矿运煤。",
+          "每段路线必须选择交通方式和真实节点，并写明一条来源；不同方式换乘时加入“交接、换装或补给”。",
+          "如果玩家输入精确时长、票价、风速、水位或船载量，系统要求补来源；没有来源则自动改为“未知”。",
+          "路线完成后选择一句边界：“这条路线在当时条件下可能可行，但没有证明某个具体人真的这样走过。”",
+          "点“听我的路线”时，只播放预录本地短句和地名；不上传儿童声音，不调用在线生成模型，也不生成虚构古人日记。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 12,
   "conclusion": [
     "历史路线没有脱离年代和任务的“永远最快”。本章沿中国主时间线观察五类交通系统：汉代河西走廊的道路、关隘和悬泉置驿站；隋代把早期河段连接成统一系统、元代达到新高峰的大运河；10—14世纪把山地生产区、桥梁、河流、城市和海港连在一起的宋元泉州；1405—1433年进入既有印度洋网络的郑和船队；1881年服务开平煤矿运输的唐胥铁路和1909年通车的京张铁路。孩子先填写“什么时候、谁能使用、运什么、从哪里到哪里、必须经过什么节点、哪些条件未知”六格任务卡，再选择道路、驿站、运河、桥梁、港口、海船或铁路。所有路线都是依据真实历史条件设计的学习模拟，不冒充某位古人的真实日记；缺少速度、水位、风向、费用和路况数据时，不编抵达分钟数或“唯一最优路线”。世界连接用前312年开始建设的罗马阿庇亚大道与汉代驿路比较国家道路系统，用1825年斯托克顿—达灵顿铁路与1881年唐胥铁路比较煤炭运输和铁路网络形成，不做文明或国家竞速排名。"
@@ -1151,80 +1760,104 @@
       "title": "悬泉置封检实物照片",
       "localPath": "reference-assets/qin-han/xuanquan-seal-tag.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%82%AC%E6%B3%89%E7%BD%AE%E5%B0%81%E6%A3%80.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "甘肃省博物馆藏悬泉置出土封检，用于封缄和标记文书或物品。",
-      "boundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。下载为1920像素等比例缩略图，未作其他修改。"
+      "boundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。下载为1920像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "qin-han-yumen-pass",
       "title": "玉门关遗址现状照片",
       "localPath": "reference-assets/qin-han/yumen-pass.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:%E7%8E%89%E9%97%A8%E5%85%B3_%E9%81%97%E5%9D%80_-_panoramio.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 3.0",
       "clearance": "cleared-open-license",
       "caption": "今天的玉门关遗址和周围戈壁景观。",
-      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。页面只把关隘作为交通网络节点。下载为1920像素等比例缩略图，未作其他修改。"
+      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。页面只把关隘作为交通网络节点。下载为1920像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "via-appia-terracina-2014-photo",
       "title": "泰拉奇纳阿庇亚大道保存路段2014年实拍",
       "localPath": "reference-assets/world-ancient-rome/via-appia-terracina-2014.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Forum_Aemilianum,_stretch_of_the_Via_Appia,_Tarracina_(Anxur),_Terracina,_Italy_(15224581792).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 2.0",
       "clearance": "cleared-open-license",
       "caption": "2014年拍摄的意大利泰拉奇纳Forum Aemilianum内阿庇亚大道保存路段，可见现存铺路石。",
-      "boundary": "Commons原图4829×3203像素，等比缩至2200×1459像素，未裁切。照片拍摄于2014-06-30。地点是泰拉奇纳而非罗马城；画面只代表一段在现代环境中保存的道路，不用它规定整个800多公里系统在所有年代的铺面、宽度或完整程度。"
+      "boundary": "Commons原图4829×3203像素，等比缩至2200×1459像素，未裁切。照片拍摄于2014-06-30。地点是泰拉奇纳而非罗马城；画面只代表一段在现代环境中保存的道路，不用它规定整个800多公里系统在所有年代的铺面、宽度或完整程度。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "sui-tang-grand-canal-current-site-marker",
       "title": "隋唐大运河遗址现代保护标志照片",
       "localPath": "reference-assets/sui-tang-five-dynasties/sui-tang-grand-canal-site.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:20220310_Site_of_the_Grand_Canal_of_Sui_and_Tang_Dynasties_in_Sui_County.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "今天位于河南睢县的隋唐大运河遗址保护标志与周边环境。",
-      "boundary": "这是2022年的遗址现状照片，主体为现代保护标志，不是隋代遗物、河道原貌或开河现场。大运河历史与后世改造边界以UNESCO记录核验。原图1800×1200像素，未作修改。"
+      "boundary": "这是2022年的遗址现状照片，主体为现代保护标志，不是隋代遗物、河道原貌或开河现场。大运河历史与后世改造边界以UNESCO记录核验。原图1800×1200像素，未作修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "quanzhou-luoyang-bridge-current-view",
       "title": "泉州洛阳桥现状照片",
       "localPath": "reference-assets/liao-song-xia-jin-yuan/quanzhou-luoyang-bridge.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Luoyang_Bridge,_Quanzhou_(20201001150149).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "今天泉州洛阳桥的现状照片；该桥是宋元泉州世界遗产组成部分之一。",
-      "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。下载为1920×1280像素等比例图，未作其他修改。"
+      "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。下载为1920×1280像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "zheng-he-seventh-voyage-modern-map",
       "title": "郑和第七次航海现代中文示意图",
       "localPath": "reference-assets/ming-qing/zheng-he-seventh-voyage-modern-map.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Zheng-He-7th-expedition-map-zh-hans.svg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "现代作者绘制的郑和第七次航海（1431—1433年）中文示意图。",
-      "boundary": "这只是第七次航海的现代研究示意，不是七次路线合并图或明代原图。实线为主航路，虚线、点线所示支线具有不同程度的不确定性，儿童界面必须保留图例说明。由SVG等比例导出为1920×1461像素PNG。"
+      "boundary": "这只是第七次航海的现代研究示意，不是七次路线合并图或明代原图。实线为主航路，虚线、点线所示支线具有不同程度的不确定性，儿童界面必须保留图例说明。由SVG等比例导出为1920×1461像素PNG。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "rocket-of-china-locomotive-1882-public-domain",
       "title": "1882年公司记录中的中国早期蒸汽机车照片",
       "localPath": "reference-assets/world-modern-second-industrial-revolution/rocket-of-china-1882.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Rocket-China.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1882年公司记录照片中的中国早期蒸汽机车，后来的公开资料常称其为“Rocket of China”。",
-      "boundary": "本地文件为600×383像素JPEG。公开资料对唐胥铁路早期机车的中文名称、制造者和“第一”称号存在不同写法；正式内容只用照片说明早期蒸汽铁路实践，不据图确定零件产地或唯一制造者。"
+      "boundary": "本地文件为600×383像素JPEG。公开资料对唐胥铁路早期机车的中文名称、制造者和“第一”称号存在不同写法；正式内容只用照片说明早期蒸汽铁路实践，不据图确定零件产地或唯一制造者。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "qinglongqiao-station-1909-photo",
       "title": "1909年京张铁路青龙桥车站历史照片",
       "localPath": "reference-assets/china-modern-revolution-social/qinglongqiao-station-1909.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Qinglongqiao_Railway_Station_in_1909.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — 1909 historical photograph",
       "clearance": "cleared-open-license",
       "caption": "1909年的京张铁路青龙桥车站。",
-      "boundary": "照片出自《京张路工摄影》，可观察车站、铁轨、山地环境和工作人员；不能据此推断全国已形成铁路网、所有人都能乘车或每个人的身份。下载为1920×1492像素等比例图。"
+      "boundary": "照片出自《京张路工摄影》，可观察车站、铁轨、山地环境和工作人员；不能据此推断全国已形成铁路网、所有人都能乘车或每个人的身份。下载为1920×1492像素等比例图。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cross-04-transport-history.jpg",

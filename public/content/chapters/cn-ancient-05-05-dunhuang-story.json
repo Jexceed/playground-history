@@ -1,0 +1,1117 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.13.0",
+  "id": "cn-ancient-05-05-dunhuang-story",
+  "trackId": "china-ancient",
+  "trackLabel": "中国古代史",
+  "period": {
+    "id": "three-kingdoms-jin-northern-southern",
+    "label": "三国两晋南北朝",
+    "years": "220—589年"
+  },
+  "order": 39,
+  "title": "敦煌墙上的九色鹿怎样讲故事",
+  "coreQuestion": "一幅洞窟壁画怎样把多个时刻排在同一面墙上，又怎样被保存到今天？",
+  "throughline": "以莫高窟第257窟北魏鹿王本生图为主角，从敦煌地点、连续画面、故事顺序走到壁画保护；再连接隋唐敦煌的发展，区分古代壁画、现代照片和动画改编。",
+  "childEntry": {
+    "id": "cn-ancient-05-05-dunhuang-story",
+    "childTitle": "帮九色鹿排好画面",
+    "prompt": "壁画里的鹿救了人，后来人怎样对待约定？",
+    "takeaway": "壁画讲的是鹿王故事；按救人、约定、失信的线索理解故事，也要分清故事与真实动物记录。",
+    "object": "莫高窟第257窟九色鹿壁画",
+    "people": [
+      "壁画里的鹿王"
+    ],
+    "place": "甘肃敦煌莫高窟第257窟",
+    "culture": "鹿王本生故事画与敦煌壁画",
+    "care": "三张画卡是根据故事绘制的学习示意，不摹造原壁画；原壁画从两端向中间展开。",
+    "preferredAssetId": "dunhuang-cave-257-nine-coloured-deer-detail",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-05-05-dunhuang-story",
+    "featured": {
+      "type": "故事画",
+      "icon": "🦌",
+      "title": "壁画里的鹿王",
+      "childBridge": "壁画里的鹿救了人，后来人怎样对待约定？",
+      "evidenceBoundary": "三张画卡是根据故事绘制的学习示意，不摹造原壁画；原壁画从两端向中间展开。"
+    },
+    "companions": [
+      {
+        "type": "地点",
+        "label": "敦煌莫高窟",
+        "note": "先找第257窟，再看局部画面位于哪一面墙。"
+      },
+      {
+        "type": "品格词",
+        "label": "守信",
+        "note": "用故事讨论约定，不把惩罚画面当作吸引点。"
+      }
+    ],
+    "sourceIds": [
+      "DHA-MOGAO-CAVE-257",
+      "DHA-NINE-COLOURED-DEER-EDUCATION",
+      "MOE-HISTORY-CURRICULUM-2022"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "壁画的时间",
+      "text": "敦煌莫高窟第257窟的鹿王故事画于北魏。它在唐朝之前就已经画在洞窟里。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "先是谁伸出援手",
+      "text": "壁画讲一个故事：鹿王救起落水的人。这是绘画中的故事，不是动物行为的现场记录。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "岸上的约定",
+      "text": "得救的人答应不泄露鹿王的住处。我们用两幅学习图把救助和约定连起来。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "约定有没有守住",
+      "text": "后来，得救的人把鹿的住处告诉了别人。鹿王当面说清事情经过。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "壁画和小画卡",
+      "text": "原壁画的故事从两端展开，在中间相遇。我们排成一行的小画卡，只是方便理解先后。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "敦煌",
+      "reading": "Dūnhuáng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-04-03-silk-road",
+        "cn-ancient-05-05-dunhuang-story"
+      ],
+      "note": "河西走廊重要地点。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "帮九色鹿排好画面",
+      "question": "壁画里的鹿救了人，后来人怎样对待约定？"
+    },
+    "cta": "去排三幅画",
+    "anchor": "壁画里的鹿王",
+    "boundary": "三张画卡是根据故事绘制的学习示意，不摹造原壁画；原壁画从两端向中间展开。",
+    "evidence": [
+      {
+        "id": "dunhuang-cave-257-nine-coloured-deer-detail",
+        "title": "莫高窟第257窟九色鹿壁画局部",
+        "localPath": "reference-assets/sui-tang-five-dynasties/dunhuang-nine-coloured-deer.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Nine-coloured_deer.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "Public Domain Mark 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "敦煌莫高窟第257窟北魏鹿王本生故事画中的九色鹿局部。",
+        "boundary": "开放文件来自古代壁画的二维复制；儿童层必须说明它是洞窟墙面故事画局部，不是完整画面、真实动物照片或现代动画截图。原图912×1135像素。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/dunhuang-cave-257-nine-coloured-deer-detail.jpg"
+      }
+    ],
+    "coverAsset": {
+      "id": "dunhuang-cave-257-nine-coloured-deer-detail",
+      "title": "莫高窟第257窟九色鹿壁画局部",
+      "localPath": "reference-assets/sui-tang-five-dynasties/dunhuang-nine-coloured-deer.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nine-coloured_deer.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "敦煌莫高窟第257窟北魏鹿王本生故事画中的九色鹿局部。",
+      "boundary": "开放文件来自古代壁画的二维复制；儿童层必须说明它是洞窟墙面故事画局部，不是完整画面、真实动物照片或现代动画截图。原图912×1135像素。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/dunhuang-cave-257-nine-coloured-deer-detail.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/dunhuang-cave-257-nine-coloured-deer-detail.jpg",
+    "coverImageAlt": "莫高窟第257窟九色鹿壁画局部",
+    "coverImageKind": "历史材料",
+    "coverAudio": {
+      "id": "quest-3bfd7b1540e90348",
+      "text": "帮九色鹿排好画面。壁画里的鹿救了人，后来人怎样对待约定？准备好就点“去排三幅画”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-c26c890e23212d7b",
+      "text": "壁画讲的是鹿王故事；按救人、约定、失信的线索理解故事，也要分清故事与真实动物记录。"
+    },
+    "finish": {
+      "title": "给三幅画当小讲解员",
+      "actions": [
+        "先指“救人”，再指“约定”。",
+        "最后指“泄露住处”，告诉家人哪件事没有做到。"
+      ],
+      "parent": "不讲壁画中的惩罚、追捕等细节。问“先发生什么、后来怎么了？”不把本生故事当北魏真实鹿的经历。",
+      "sceneStepIndexes": [
+        1,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-ec005fd28a858496",
+          "text": "先指“救人”，再指“约定”。"
+        },
+        {
+          "id": "quest-51e4a86b95ef2ad4",
+          "text": "最后指“泄露住处”，告诉家人哪件事没有做到。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-f5f3f12c8250ca9f",
+        "text": "给三幅画当小讲解员。先指“救人”，再指“约定”。最后指“泄露住处”，告诉家人哪件事没有做到。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "壁画的时间",
+        "title": "壁画的时间",
+        "prompt": "把壁画放在哪个位置？",
+        "rightNote": "先到北魏看壁画，后来才是唐朝。",
+        "wrongNote": "先到北魏看壁画，后来才是唐朝。",
+        "sourceIds": [
+          "DHA-MOGAO-CAVE-257",
+          "DHA-NINE-COLOURED-DEER-EDUCATION"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "壁画的时间",
+          "screenText": "敦煌莫高窟第257窟的鹿王故事画于北魏。它在唐朝之前就已经画在洞窟里。",
+          "displayText": "敦煌莫高窟第257窟的鹿王故事画于北魏。它在唐朝之前就已经画在洞窟里。",
+          "narration": "敦煌莫高窟第257窟的鹿王故事画于北魏。它在唐朝之前就已经画在洞窟里。"
+        },
+        "assetId": "study-c867431a1e26e833",
+        "image": "/content/study-scenes/study-c867431a1e26e833.svg",
+        "studyImage": "/content/study-scenes/study-c867431a1e26e833.svg",
+        "studyImageAlt": "北魏 386—534年，唐 618—907年",
+        "imageAlt": "北魏 386—534年，唐 618—907年",
+        "imageCaption": "学习示意 · 北魏 386—534年，唐 618—907年",
+        "imageBoundary": "自制学习示意。三张画卡是根据故事绘制的学习示意，不摹造原壁画；原壁画从两端向中间展开。",
+        "audio": {
+          "transition": {
+            "id": "quest-abf6d92a5eaf9151",
+            "text": "壁画的时间。"
+          },
+          "intro": {
+            "id": "quest-6a3e5e25fff8e798",
+            "text": "敦煌莫高窟第257窟的鹿王故事画于北魏。它在唐朝之前就已经画在洞窟里。"
+          },
+          "question": {
+            "id": "quest-e4c7af16ac25a892",
+            "text": "把壁画放在哪个位置？"
+          },
+          "image": {
+            "id": "quest-3524a405f568083d",
+            "text": "这是学习示意图：北魏 386—534年，唐 618—907年。把壁画放在哪个位置？"
+          },
+          "right": {
+            "id": "quest-3ac4e770efee2724",
+            "text": "找到了。先到北魏看壁画，后来才是唐朝。"
+          },
+          "wrong": {
+            "id": "quest-5f2ea23ce31a7cd7",
+            "text": "再比较一下。先到北魏看壁画，后来才是唐朝。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-05-dunhuang-story-time-1",
+            "label": "北魏 → 后来的唐",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-10997006d8ce6a28.svg",
+            "imageAlt": "北魏，唐",
+            "audio": {
+              "id": "quest-dab9d4f995a5db1a",
+              "text": "北魏 → 后来的唐"
+            }
+          },
+          {
+            "id": "cn-ancient-05-05-dunhuang-story-time-2",
+            "label": "唐 → 后来的北魏",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-e1ac1badb6b37615.svg",
+            "imageAlt": "唐，北魏",
+            "audio": {
+              "id": "quest-2a57b7984b510195",
+              "text": "唐 → 后来的北魏"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "先是谁伸出援手",
+        "title": "先是谁伸出援手",
+        "prompt": "先发生的是哪幅画？",
+        "rightNote": "先得到帮助，才有后面在岸上的约定。",
+        "wrongNote": "先得到帮助，才有后面在岸上的约定。",
+        "sourceIds": [
+          "DHA-MOGAO-CAVE-257",
+          "DHA-NINE-COLOURED-DEER-EDUCATION"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "先是谁伸出援手",
+          "screenText": "壁画讲一个故事：鹿王救起落水的人。这是绘画中的故事，不是动物行为的现场记录。",
+          "displayText": "壁画讲一个故事：鹿王救起落水的人。这是绘画中的故事，不是动物行为的现场记录。",
+          "narration": "壁画讲一个故事：鹿王救起落水的人。这是绘画中的故事，不是动物行为的现场记录。"
+        },
+        "assetId": "study-187632b7d0e5a2fe",
+        "image": "/content/study-scenes/study-187632b7d0e5a2fe.svg",
+        "studyImage": "/content/study-scenes/study-187632b7d0e5a2fe.svg",
+        "studyImageAlt": "鹿救起落水者",
+        "imageAlt": "鹿救起落水者",
+        "imageCaption": "学习示意 · 鹿救起落水者",
+        "imageBoundary": "自制学习示意。三张画卡是根据故事绘制的学习示意，不摹造原壁画；原壁画从两端向中间展开。",
+        "audio": {
+          "transition": {
+            "id": "quest-874ad481a0d6262a",
+            "text": "先是谁伸出援手。"
+          },
+          "intro": {
+            "id": "quest-bdc2c12af3f70ac9",
+            "text": "壁画讲一个故事：鹿王救起落水的人。这是绘画中的故事，不是动物行为的现场记录。"
+          },
+          "question": {
+            "id": "quest-7503f3a180302511",
+            "text": "先发生的是哪幅画？"
+          },
+          "image": {
+            "id": "quest-5331209e82a7cfd2",
+            "text": "这是学习示意图：鹿救起落水者。先发生的是哪幅画？"
+          },
+          "right": {
+            "id": "quest-aba187a3a4789f40",
+            "text": "找到了。先得到帮助，才有后面在岸上的约定。"
+          },
+          "wrong": {
+            "id": "quest-1090c64bca813f3d",
+            "text": "再比较一下。先得到帮助，才有后面在岸上的约定。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-05-dunhuang-story-beginning-1",
+            "label": "鹿帮助水里的人",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-a75af51ad7d42240.svg",
+            "imageAlt": "先救人",
+            "audio": {
+              "id": "quest-51440520aa418748",
+              "text": "鹿帮助水里的人"
+            }
+          },
+          {
+            "id": "cn-ancient-05-05-dunhuang-story-beginning-2",
+            "label": "人已经在岸上许诺",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-320f073b29f14969.svg",
+            "imageAlt": "岸上许诺",
+            "audio": {
+              "id": "quest-d7230e7044319c60",
+              "text": "人已经在岸上许诺"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "岸上的约定",
+        "title": "岸上的约定",
+        "prompt": "哪条顺序接得上？",
+        "rightNote": "在这个故事里，得救之后才说出约定。",
+        "wrongNote": "在这个故事里，得救之后才说出约定。",
+        "sourceIds": [
+          "DHA-MOGAO-CAVE-257",
+          "DHA-NINE-COLOURED-DEER-EDUCATION"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "岸上的约定",
+          "screenText": "得救的人答应不泄露鹿王的住处。我们用两幅学习图把救助和约定连起来。",
+          "displayText": "得救的人答应不泄露鹿王的住处。我们用两幅学习图把救助和约定连起来。",
+          "narration": "得救的人答应不泄露鹿王的住处。我们用两幅学习图把救助和约定连起来。"
+        },
+        "assetId": "study-2f860d8bbb74c6af",
+        "image": "/content/study-scenes/study-2f860d8bbb74c6af.svg",
+        "studyImage": "/content/study-scenes/study-2f860d8bbb74c6af.svg",
+        "studyImageAlt": "得到帮助，答应守约",
+        "imageAlt": "得到帮助，答应守约",
+        "imageCaption": "学习示意 · 得到帮助，答应守约",
+        "imageBoundary": "自制学习示意。三张画卡是根据故事绘制的学习示意，不摹造原壁画；原壁画从两端向中间展开。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca2d2015a2a39789",
+            "text": "岸上的约定。"
+          },
+          "intro": {
+            "id": "quest-bce4864f82cd1e7c",
+            "text": "得救的人答应不泄露鹿王的住处。我们用两幅学习图把救助和约定连起来。"
+          },
+          "question": {
+            "id": "quest-7f9a42ca83eb9985",
+            "text": "哪条顺序接得上？"
+          },
+          "image": {
+            "id": "quest-899bd0579a78dc24",
+            "text": "这是学习示意图：得到帮助，答应守约。哪条顺序接得上？"
+          },
+          "right": {
+            "id": "quest-a2f1d043c9ec3c47",
+            "text": "找到了。在这个故事里，得救之后才说出约定。"
+          },
+          "wrong": {
+            "id": "quest-54a9e4d1507bfde7",
+            "text": "再比较一下。在这个故事里，得救之后才说出约定。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-05-dunhuang-story-journey-1",
+            "label": "得救 → 作出约定",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-5e1abc233aaed259.svg",
+            "imageAlt": "得救，约定",
+            "audio": {
+              "id": "quest-7c01ca51d15be08e",
+              "text": "得救 → 作出约定"
+            }
+          },
+          {
+            "id": "cn-ancient-05-05-dunhuang-story-journey-2",
+            "label": "作出约定 → 才落水",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-70ccc2b99d20c0b2.svg",
+            "imageAlt": "约定，落水",
+            "audio": {
+              "id": "quest-678fc8d7f0778464",
+              "text": "作出约定 → 才落水"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "约定有没有守住",
+        "title": "约定有没有守住",
+        "prompt": "哪幅画表示没守住约定？",
+        "rightNote": "泄露答应保守的住处，是这段故事里的失信。",
+        "wrongNote": "泄露答应保守的住处，是这段故事里的失信。",
+        "sourceIds": [
+          "DHA-MOGAO-CAVE-257",
+          "DHA-NINE-COLOURED-DEER-EDUCATION"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "约定有没有守住",
+          "screenText": "后来，得救的人把鹿的住处告诉了别人。鹿王当面说清事情经过。",
+          "displayText": "后来，得救的人把鹿的住处告诉了别人。鹿王当面说清事情经过。",
+          "narration": "后来，得救的人把鹿的住处告诉了别人。鹿王当面说清事情经过。"
+        },
+        "assetId": "study-8246aee4119330e7",
+        "image": "/content/study-scenes/study-8246aee4119330e7.svg",
+        "studyImage": "/content/study-scenes/study-8246aee4119330e7.svg",
+        "studyImageAlt": "答应不泄露，后来泄露",
+        "imageAlt": "答应不泄露，后来泄露",
+        "imageCaption": "学习示意 · 答应不泄露，后来泄露",
+        "imageBoundary": "自制学习示意。三张画卡是根据故事绘制的学习示意，不摹造原壁画；原壁画从两端向中间展开。",
+        "audio": {
+          "transition": {
+            "id": "quest-8be540fa26f6fff4",
+            "text": "约定有没有守住。"
+          },
+          "intro": {
+            "id": "quest-76d2bcb5518d1bd3",
+            "text": "后来，得救的人把鹿的住处告诉了别人。鹿王当面说清事情经过。"
+          },
+          "question": {
+            "id": "quest-163431a4ae372309",
+            "text": "哪幅画表示没守住约定？"
+          },
+          "image": {
+            "id": "quest-9da8d0d1032d426f",
+            "text": "这是学习示意图：答应不泄露，后来泄露。哪幅画表示没守住约定？"
+          },
+          "right": {
+            "id": "quest-eb895c7dd5e0f180",
+            "text": "找到了。泄露答应保守的住处，是这段故事里的失信。"
+          },
+          "wrong": {
+            "id": "quest-6ee561a705ce5e0a",
+            "text": "再比较一下。泄露答应保守的住处，是这段故事里的失信。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-05-dunhuang-story-change-1",
+            "label": "把鹿的住处说出去",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-e81bfbb95a6453c5.svg",
+            "imageAlt": "说出鹿的住处",
+            "audio": {
+              "id": "quest-993fcee6b24e3b98",
+              "text": "把鹿的住处说出去"
+            }
+          },
+          {
+            "id": "cn-ancient-05-05-dunhuang-story-change-2",
+            "label": "把救助经过讲清楚",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-1395e884a3154c52.svg",
+            "imageAlt": "鹿讲清经过",
+            "audio": {
+              "id": "quest-82927947c892e191",
+              "text": "把救助经过讲清楚"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "壁画和小画卡",
+        "title": "壁画和小画卡",
+        "prompt": "排故事时，哪一幅应该放开头？",
+        "rightNote": "先救人，再约定，再看约定怎样被对待。小画卡不冒充原壁画布局。",
+        "wrongNote": "先救人，再约定，再看约定怎样被对待。小画卡不冒充原壁画布局。",
+        "sourceIds": [
+          "DHA-MOGAO-CAVE-257",
+          "DHA-NINE-COLOURED-DEER-EDUCATION"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "壁画和小画卡",
+          "screenText": "原壁画的故事从两端展开，在中间相遇。我们排成一行的小画卡，只是方便理解先后。",
+          "displayText": "原壁画的故事从两端展开，在中间相遇。我们排成一行的小画卡，只是方便理解先后。",
+          "narration": "原壁画的故事从两端展开，在中间相遇。我们排成一行的小画卡，只是方便理解先后。"
+        },
+        "assetId": "study-731957768e7f9004",
+        "image": "/content/study-scenes/study-731957768e7f9004.svg",
+        "studyImage": "/content/study-scenes/study-731957768e7f9004.svg",
+        "studyImageAlt": "救人，约定，失信",
+        "imageAlt": "救人，约定，失信",
+        "imageCaption": "学习示意 · 救人，约定，失信",
+        "imageBoundary": "自制学习示意。三张画卡是根据故事绘制的学习示意，不摹造原壁画；原壁画从两端向中间展开。",
+        "audio": {
+          "transition": {
+            "id": "quest-e353a5d36823bcb8",
+            "text": "壁画和小画卡。"
+          },
+          "intro": {
+            "id": "quest-06435dab1c8d06c6",
+            "text": "原壁画的故事从两端展开，在中间相遇。我们排成一行的小画卡，只是方便理解先后。"
+          },
+          "question": {
+            "id": "quest-568571a0418c1bd7",
+            "text": "排故事时，哪一幅应该放开头？"
+          },
+          "image": {
+            "id": "quest-451cd02833c83971",
+            "text": "这是学习示意图：救人，约定，失信。排故事时，哪一幅应该放开头？"
+          },
+          "right": {
+            "id": "quest-07c7d77a3839e219",
+            "text": "找到了。先救人，再约定，再看约定怎样被对待。小画卡不冒充原壁画布局。"
+          },
+          "wrong": {
+            "id": "quest-0445232c289b3851",
+            "text": "再比较一下。先救人，再约定，再看约定怎样被对待。小画卡不冒充原壁画布局。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-05-dunhuang-story-takeaway-1",
+            "label": "鹿王救人",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-52f28c824222484e.svg",
+            "imageAlt": "救人",
+            "audio": {
+              "id": "quest-7a68d98bf6a76a40",
+              "text": "鹿王救人"
+            }
+          },
+          {
+            "id": "cn-ancient-05-05-dunhuang-story-takeaway-2",
+            "label": "后来泄露住处",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-a26c008e3626a994.svg",
+            "imageAlt": "泄露住处",
+            "audio": {
+              "id": "quest-a497a0c113fcd480",
+              "text": "后来泄露住处"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "故事四拍",
+        "items": [
+          "排列“帮助—约定—带路—说明经过”四张图标卡。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "找重复角色",
+        "items": [
+          "在示意图中找九色鹿出现的位置，理解同一墙面可以画不同时间。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "图像身份证",
+        "items": [
+          "给“北魏壁画局部、现代照片、动画改编”贴对标签。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图片和语音为主",
+  "durationMinutes": 8,
+  "conclusion": [
+    "敦煌莫高窟第257窟西壁中段的鹿王本生图创作于北魏。画工把救人、约定、带路和九色鹿向国王说明经过等多个时刻放在同一面墙上，让观看者沿画面寻找故事顺序。壁画是宗教故事画和古代艺术证据，不是真实动物新闻或现场照片；今天流传的动画又是现代改编。儿童从“谁帮助了谁、谁有没有守信”进入，同时认识洞窟壁画经过漫长保存与研究才来到今天。"
+  ],
+  "facts": [
+    {
+      "number": 1,
+      "text": "九色鹿故事画位于敦煌莫高窟第257窟西壁中段，洞窟属于北魏时期。",
+      "sourceIds": [
+        "DHA-MOGAO-CAVE-257"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "这组画表现鹿王本生故事，是一幅把多个情节连续安排在墙面的故事画。",
+      "sourceIds": [
+        "DHA-NINE-COLOURED-DEER-EDUCATION"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "故事包括九色鹿救起落水者、对方作出约定、后来带人寻找九色鹿等情节。",
+      "sourceIds": [
+        "DHA-MOGAO-CAVE-257"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "画面中的河流、山、人物和动物是画工组织的艺术表达，不是当时拍摄的照片。",
+      "sourceIds": [
+        "DHA-MOGAO-CAVE-257",
+        "MOE-HISTORY-CURRICULUM-2022"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "上海美术电影制片厂后来把故事改编成动画；动画形象和颜色不能冒充洞窟原画。",
+      "sourceIds": [
+        "DHA-MOGAO-CAVE-257"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "今天看到的开放图片只是壁画局部；不能用一个局部讲成整面墙的全部内容。",
+      "sourceIds": [
+        "DHA-MOGAO-CAVE-257"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "number": 1,
+      "title": "时间线定位——北魏墙画来到今天",
+      "screenText": "北魏：第257窟画出九色鹿故事\n隋唐：敦煌石窟继续发展\n今天：研究、保护与讲解",
+      "voices": [
+        {
+          "number": 1,
+          "label": "语音1｜时间定位",
+          "text": "这只九色鹿先住进北魏的洞窟墙面。后来敦煌石窟继续发展，到了今天，保护人员让古老壁画尽量安全地留在原处。",
+          "segments": [
+            {
+              "id": "cn-ancient-05-05-dunhuang-story-s01-v01-01",
+              "order": 1,
+              "tier": "core",
+              "text": "这只九色鹿先住进北魏的洞窟墙面。后来敦煌石窟继续发展，到了今天，保护人员让古老壁画尽量安全地留在原处。",
+              "hanCharacters": 47
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 2,
+      "title": "第一拍——九色鹿伸出帮助",
+      "screenText": "河边有人需要帮助，九色鹿把他救起。",
+      "voices": [
+        {
+          "number": 2,
+          "label": "语音2｜故事起点",
+          "text": "故事从一次帮助开始。画工没有只画一只站着的鹿，而是用姿势、河流和人物，让观看的人知道事情正在发生。",
+          "segments": [
+            {
+              "id": "cn-ancient-05-05-dunhuang-story-s02-v02-01",
+              "order": 1,
+              "tier": "core",
+              "text": "故事从一次帮助开始。画工没有只画一只站着的鹿，而是用姿势、河流和人物，让观看的人知道事情正在发生。",
+              "hanCharacters": 44
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 3,
+      "title": "第二拍——一个约定",
+      "screenText": "被帮助的人答应：不说出九色鹿在哪里。",
+      "voices": [
+        {
+          "number": 3,
+          "label": "语音3｜故事继续",
+          "text": "被救起的人作出约定。现在我们有了第二条线索：故事不只在问谁最漂亮，还在问答应别人的事情要不要做到。",
+          "segments": [
+            {
+              "id": "cn-ancient-05-05-dunhuang-story-s03-v03-01",
+              "order": 1,
+              "tier": "core",
+              "text": "被救起的人作出约定。现在我们有了第二条线索：故事不只在问谁最漂亮，还在问答应别人的事情要不要做到。",
+              "hanCharacters": 45
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 4,
+      "title": "第三拍——把事情说清楚",
+      "screenText": "九色鹿面对国王，说出帮助与失信的经过。",
+      "voices": [
+        {
+          "number": 4,
+          "label": "语音4｜看见转折",
+          "text": "后来，有人带着国王来寻找九色鹿。九色鹿把事情经过说清楚。儿童页停在这里，不表现惩罚细节，只比较帮助和失信。",
+          "segments": [
+            {
+              "id": "cn-ancient-05-05-dunhuang-story-s04-v04-01",
+              "order": 1,
+              "tier": "core",
+              "text": "后来，有人带着国王来寻找九色鹿。九色鹿把事情经过说清楚。儿童页停在这里，不表现惩罚细节，只比较帮助和失信。",
+              "hanCharacters": 47
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 5,
+      "title": "同一面墙，怎么有好几个时刻",
+      "screenText": "画面像一条故事河：不同场景接在一起。",
+      "voices": [
+        {
+          "number": 5,
+          "label": "语音5｜读连续画面",
+          "text": "同一只角色可能在画面里出现不止一次，因为每一处代表故事的一个时刻。我们沿着动作和方向找顺序，墙画就像慢慢流动起来。",
+          "segments": [
+            {
+              "id": "cn-ancient-05-05-dunhuang-story-s05-v05-01",
+              "order": 1,
+              "tier": "core",
+              "text": "同一只角色可能在画面里出现不止一次，因为每一处代表故事的一个时刻。我们沿着动作和方向找顺序，墙画就像慢慢流动起来。",
+              "hanCharacters": 53
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 6,
+      "title": "古画、照片和动画要分开",
+      "screenText": "北魏壁画 ≠ 现代照片 ≠ 动画改编",
+      "voices": [
+        {
+          "number": 6,
+          "label": "语音6｜完成复述",
+          "text": "请你说：这是北魏洞窟里的故事画，今天的图片只是局部，后来动画又重新设计了角色。三种图像都能看，身份要说清楚。",
+          "segments": [
+            {
+              "id": "cn-ancient-05-05-dunhuang-story-s06-v06-01",
+              "order": 1,
+              "tier": "core",
+              "text": "请你说：这是北魏洞窟里的故事画，今天的图片只是局部，后来动画又重新设计了角色。三种图像都能看，身份要说清楚。",
+              "hanCharacters": 48
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    }
+  ],
+  "interactions": [
+    {
+      "number": 1,
+      "title": "故事四拍",
+      "items": [
+        "排列“帮助—约定—带路—说明经过”四张图标卡。"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "找重复角色",
+      "items": [
+        "在示意图中找九色鹿出现的位置，理解同一墙面可以画不同时间。"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "图像身份证",
+      "items": [
+        "给“北魏壁画局部、现代照片、动画改编”贴对标签。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "DHA-MOGAO-CAVE-257",
+      "title": "莫高窟第257窟",
+      "institution": "敦煌研究院",
+      "url": "https://www.dha.ac.cn/info/1425/3548.htm",
+      "type": "national-research-institute-cave-record",
+      "authorityLevel": "A-national-research-institute",
+      "factUse": "莫高窟第257窟年代、鹿王本生图位置与故事画结构；用于区分北魏壁画、后世动画和今天的数字图像",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "DHA-NINE-COLOURED-DEER-EDUCATION",
+      "title": "万物有灵——九色鹿的故事",
+      "institution": "敦煌研究院",
+      "url": "https://www.dha.ac.cn/info/1097/2209.htm",
+      "type": "museum-child-education-resource",
+      "authorityLevel": "A-national-research-institute-education",
+      "factUse": "九色鹿故事来自莫高窟第257窟北魏鹿王本生连环故事画，以及其连续叙事与青少年教育价值",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "MOE-HISTORY-CURRICULUM-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "institution": "中华人民共和国教育部",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "type": "curriculum-standard",
+      "authorityLevel": "A",
+      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
+    }
+  ],
+  "assets": [
+    {
+      "id": "study-c867431a1e26e833",
+      "title": "学习示意：北魏 386—534年、唐 618—907年",
+      "localPath": "reference-assets/focused-quests/study-c867431a1e26e833.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "北魏 386—534年 → 唐 618—907年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-10997006d8ce6a28",
+      "title": "学习示意：北魏、唐",
+      "localPath": "reference-assets/focused-quests/study-10997006d8ce6a28.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "北魏 → 唐",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e1ac1badb6b37615",
+      "title": "学习示意：唐、北魏",
+      "localPath": "reference-assets/focused-quests/study-e1ac1badb6b37615.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "唐 → 北魏",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-187632b7d0e5a2fe",
+      "title": "学习示意：鹿救起落水者",
+      "localPath": "reference-assets/focused-quests/study-187632b7d0e5a2fe.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "鹿救起落水者",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a75af51ad7d42240",
+      "title": "学习示意：先救人",
+      "localPath": "reference-assets/focused-quests/study-a75af51ad7d42240.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "先救人",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-320f073b29f14969",
+      "title": "学习示意：岸上许诺",
+      "localPath": "reference-assets/focused-quests/study-320f073b29f14969.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "岸上许诺",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-2f860d8bbb74c6af",
+      "title": "学习示意：得到帮助、答应守约",
+      "localPath": "reference-assets/focused-quests/study-2f860d8bbb74c6af.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "得到帮助 → 答应守约",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5e1abc233aaed259",
+      "title": "学习示意：得救、约定",
+      "localPath": "reference-assets/focused-quests/study-5e1abc233aaed259.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "得救 → 约定",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-70ccc2b99d20c0b2",
+      "title": "学习示意：约定、落水",
+      "localPath": "reference-assets/focused-quests/study-70ccc2b99d20c0b2.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "约定 → 落水",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8246aee4119330e7",
+      "title": "学习示意：答应不泄露、后来泄露",
+      "localPath": "reference-assets/focused-quests/study-8246aee4119330e7.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "答应不泄露 → 后来泄露",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e81bfbb95a6453c5",
+      "title": "学习示意：说出鹿的住处",
+      "localPath": "reference-assets/focused-quests/study-e81bfbb95a6453c5.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "说出鹿的住处",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1395e884a3154c52",
+      "title": "学习示意：鹿讲清经过",
+      "localPath": "reference-assets/focused-quests/study-1395e884a3154c52.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "鹿讲清经过",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-731957768e7f9004",
+      "title": "学习示意：救人、约定、失信",
+      "localPath": "reference-assets/focused-quests/study-731957768e7f9004.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "救人 → 约定 → 失信",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-52f28c824222484e",
+      "title": "学习示意：救人",
+      "localPath": "reference-assets/focused-quests/study-52f28c824222484e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "救人",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a26c008e3626a994",
+      "title": "学习示意：泄露住处",
+      "localPath": "reference-assets/focused-quests/study-a26c008e3626a994.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "泄露住处",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "big-wild-goose-pagoda-current-view",
+      "title": "大雁塔现状照片",
+      "localPath": "reference-assets/sui-tang-five-dynasties/big-wild-goose-pagoda.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Big_Wild_Goose_Pagoda_2.JPG",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC0 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "今天西安大慈恩寺内的大雁塔。",
+      "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。下载为1920×2560像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "dunhuang-cave-257-nine-coloured-deer-detail",
+      "title": "莫高窟第257窟九色鹿壁画局部",
+      "localPath": "reference-assets/sui-tang-five-dynasties/dunhuang-nine-coloured-deer.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Nine-coloured_deer.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "敦煌莫高窟第257窟北魏鹿王本生故事画中的九色鹿局部。",
+      "boundary": "开放文件来自古代壁画的二维复制；儿童层必须说明它是洞窟墙面故事画局部，不是完整画面、真实动物照片或现代动画截图。原图912×1135像素。",
+      "childVisibility": "child-ok"
+    }
+  ],
+  "thumbnail": "/content/thumbnails/cn-ancient-05-05-dunhuang-story.jpg",
+  "status": {
+    "outline": "verified",
+    "research": "verified",
+    "script": "first-draft",
+    "assets": "cleared",
+    "audio": "not-started",
+    "review": "pending"
+  }
+}

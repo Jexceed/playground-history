@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-modern-03-01-english-revolution",
   "trackId": "world-modern",
   "trackLabel": "世界近代史",
@@ -13,7 +13,636 @@
   "title": "英国国王的权力为什么受到限制",
   "coreQuestion": "革命、复辟和《权利法案》怎样改变英国政治？",
   "throughline": "从1628年《权利请愿书》进入征税、法律和宗教冲突，把1642年以后英格兰内战放回三王国战争，再以1649年死刑令、共和国大印、1660年复辟图、1688年登陆画和1689年《权利法案》理解限制王权与议会增强的曲折过程，同时确认军队权力、爱尔兰再征服和财产性别宗教排除。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-modern-03-01-english-revolution",
+    "childTitle": "一枚大印怎样限制国王",
+    "prompt": "请愿、议会、共和国、复辟和新法律，为什么要走很多弯路？",
+    "takeaway": "限制王权经历冲突、反复和妥协，写下法律不等于人人立刻有权利。",
+    "object": "《权利请愿书》、共和国大印与《权利法案》",
+    "people": [
+      "国王、议员、士兵与被排除在政治之外的人"
+    ],
+    "place": "伦敦、英格兰、苏格兰与爱尔兰",
+    "culture": "政治印章与法律文本",
+    "care": "不展示处刑，不把权利变化写成一次文件签署后人人立刻平等。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "一枚大印怎样限制国王"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "大印盖上文件",
+      "text": "先看大印盖在文件上，国王也要面对书面规则。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "弯弯曲曲的时间线",
+      "text": "接着把请愿、议会、共和国和复辟排成时间线。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "限制王权仍有边界",
+      "text": "最后法律限制王权，权利仍未属于所有人。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "限制王权经历冲突、反复和妥协，写下法律不等于人人立刻有权利。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "权利",
+      "icon": "🫶",
+      "plain": "规则承认一个人可以做、可以得到保护的事情。",
+      "example": "写有权利，还要检查妇女、奴隶和穷人是否真的拥有。",
+      "priority": 1
+    },
+    {
+      "term": "共和国",
+      "icon": "🏛️",
+      "plain": "国家职位不是由皇位世代传下去的国家形式。",
+      "example": "写下共和国原则，不代表这些原则立刻全部做到。",
+      "priority": 2
+    },
+    {
+      "term": "议会",
+      "icon": "🪑",
+      "plain": "一些代表一起讨论、决定公共事情的机构。",
+      "example": "还要问哪些人能选代表，哪些人当时被排除。",
+      "priority": 2
+    },
+    {
+      "term": "王权",
+      "icon": "👑",
+      "plain": "国王或皇帝掌握的统治权力。",
+      "example": "王权强不等于国王一个人能完成所有事情。",
+      "priority": 3
+    },
+    {
+      "term": "革命",
+      "icon": "🔄",
+      "plain": "许多人推动改变旧政权或旧制度的大变化。",
+      "example": "革命不是只看一场战斗，还要看原因、参与者和结果。",
+      "priority": 1
+    },
+    {
+      "term": "和平",
+      "icon": "🕊️",
+      "plain": "人们不靠战争解决分歧，并努力避免暴力伤害。",
+      "example": "和平需要规则、谈判和行动，不只是说一句愿望。",
+      "priority": 1
+    },
+    {
+      "term": "民主",
+      "icon": "🗳️",
+      "plain": "公共事情不只由一个人说了算，人们按规则参与。",
+      "example": "不同年代参与范围不同，不能把古代投票当成今天制度。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "政权",
+      "icon": "🏛️",
+      "plain": "谁在用什么机构和规则管理一个地方。",
+      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
+      "priority": 2
+    },
+    {
+      "term": "自由",
+      "icon": "🕊️",
+      "plain": "在不伤害别人并遵守共同规则时作出选择。",
+      "example": "历史文件写下自由，还要看哪些人当时没有得到。",
+      "priority": 2
+    },
+    {
+      "term": "宗教",
+      "icon": "🕯️",
+      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
+      "example": "同一种宗教内部也有不同地区、时代和人群。",
+      "priority": 2
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "爱尔兰",
+      "reading": "Ài’ěrlán",
+      "kind": "place",
+      "chapterIds": [
+        "world-modern-03-01-english-revolution"
+      ],
+      "note": "“爱”“尔”之间避免吞音。"
+    },
+    {
+      "text": "苏格兰",
+      "reading": "Sūgélán",
+      "kind": "place",
+      "chapterIds": [
+        "world-modern-03-01-english-revolution"
+      ],
+      "note": "按中文译名连读。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "一枚大印怎样限制国王",
+      "question": "请愿、议会、共和国、复辟和新法律，为什么要走很多弯路？"
+    },
+    "coverAudio": {
+      "id": "quest-9fa31ccecda0974c",
+      "text": "今天从一件东西出发：一枚大印怎样限制国王。我们要去伦敦、英格兰、苏格兰与爱尔兰，看看《权利请愿书》、共和国大印与《权利法案》怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-f7901bbbd169c858",
+      "text": "五条线索都找到了，“一枚大印怎样限制国王”的答案是：限制王权经历冲突、反复和妥协，写下法律不等于人人立刻有权利。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是英美法资产阶级革命，时间是17—18世纪。",
+          "narration": "这是英美法资产阶级革命，时间是17—18世纪。",
+          "displayText": "这是英美法资产阶级革命，时间是17—18世纪。"
+        },
+        "assetId": "bill-of-rights-1689-top-public-domain",
+        "image": "/content/step-images/bill-of-rights-1689-top-public-domain.jpg",
+        "imageAlt": "1689年《权利法案》原件顶部局部",
+        "imageCaption": "1689年12月英格兰议会《权利法案》羊皮纸原件顶部局部；议会档案号HL/PO/PU/1/1688/1W&Ms2n2。",
+        "imageBoundary": "保留Commons图像392×415像素，未裁切。只用于观察羊皮纸、墨迹和历史书写，不要求儿童识读全部古英语；法案限制王权并保障议会，不可配图说明当时已有普选或所有人权利平等。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-5477594bb8becb68",
+            "text": "这是英美法资产阶级革命，时间是17—18世纪。"
+          },
+          "image": {
+            "id": "quest-a394d9662a7c6bb2",
+            "text": "点开大图啦。这是1689年《权利法案》原件顶部局部。这张图能帮我们找到：这是英美法资产阶级革命，时间是17—18世纪。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-03-01-english-revolution-time-1",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "world-modern-03-01-english-revolution-time-2",
+            "label": "世界近代史 · 英美法资产阶级革命 · 17—18世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-5929831d10adc0c5",
+              "text": "世界近代史 · 英美法资产阶级革命 · 17—18世纪"
+            }
+          },
+          {
+            "id": "world-modern-03-01-english-revolution-time-3",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "大印盖上文件",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看大印盖在文件上，国王也要面对书面规则。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "大印盖上文件",
+          "screenText": "先看大印盖在文件上，国王也要面对书面规则。",
+          "narration": "先看大印盖在文件上，国王也要面对书面规则。",
+          "displayText": "先看大印盖在文件上，国王也要面对书面规则。"
+        },
+        "assetId": "commonwealth-great-seal-1649-1660-cc-by-sa-3",
+        "image": "/content/step-images/commonwealth-great-seal-1649-1660-cc-by-sa-3.jpg",
+        "imageAlt": "英格兰共和国大印博物馆展品照片",
+        "imageCaption": "1649—1660年英格兰共和国大印的一面，现藏勒德洛博物馆；照片拍摄于2011年。",
+        "imageBoundary": "保留Commons原图4000×3000像素，未裁切，能见展柜、支架和反光。必须标为今天拍摄的博物馆藏品照，不冒充1649年现场；印章图像表现新政权的自我表达，不证明议会代表所有居民。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-ed08ea9db7b95d47",
+            "text": "先看大印盖在文件上，国王也要面对书面规则。"
+          },
+          "image": {
+            "id": "quest-6e56659c1baf0592",
+            "text": "点开大图啦。这是英格兰共和国大印博物馆展品照片。这张图能帮我们找到：先看大印盖在文件上，国王也要面对书面规则。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-03-01-english-revolution-beginning-1",
+            "label": "《权利请愿书》、共和国大印与《权利法案》，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-0e60cb7b95b2d059",
+              "text": "《权利请愿书》、共和国大印与《权利法案》，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-modern-03-01-english-revolution-beginning-2",
+            "label": "国王、议员、士兵与被排除在政治之外的人、伦敦，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-8f8e3e1b9f7a6a49",
+              "text": "国王、议员、士兵与被排除在政治之外的人、伦敦，只是故事人物"
+            }
+          },
+          {
+            "id": "world-modern-03-01-english-revolution-beginning-3",
+            "label": "伦敦、英格兰、苏格兰与爱尔兰、国王、议员，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-2501a4d5d9669dfc",
+              "text": "伦敦、英格兰、苏格兰与爱尔兰、国王、议员，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "弯弯曲曲的时间线",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着把请愿、议会、共和国和复辟排成时间线。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "弯弯曲曲的时间线",
+          "screenText": "接着把请愿、议会、共和国和复辟排成时间线。",
+          "narration": "接着把请愿、议会、共和国和复辟排成时间线。",
+          "displayText": "接着把请愿、议会、共和国和复辟排成时间线。"
+        },
+        "assetId": "petition-of-right-1628-public-domain",
+        "image": "/content/step-images/petition-of-right-1628-public-domain.jpg",
+        "imageAlt": "1628年《权利请愿书》原件",
+        "imageCaption": "1628年英格兰议会提出的《权利请愿书》原件，反对未经议会同意征税和任意拘押；议会档案号HL/PO/PU/1/1627/3C1n2。",
+        "imageBoundary": "保留Commons图像1006×694像素，未裁切。它是议会法律文件，不是普通居民共同签名的请愿册；不能凭文件存在推断查理一世从此持续遵守或冲突已经结束。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-a6572f25865624c8",
+            "text": "接着把请愿、议会、共和国和复辟排成时间线。"
+          },
+          "image": {
+            "id": "quest-e3083f6ee3353280",
+            "text": "点开大图啦。这是1628年《权利请愿书》原件。这张图能帮我们找到：接着把请愿、议会、共和国和复辟排成时间线。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-03-01-english-revolution-journey-1",
+            "label": "伦敦、英格兰、苏格兰与爱尔兰，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-7a6a518dcb11b038",
+              "text": "伦敦、英格兰、苏格兰与爱尔兰，只说了地点"
+            }
+          },
+          {
+            "id": "world-modern-03-01-english-revolution-journey-2",
+            "label": "国王、议员、士兵与被排除在政治之，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-22ffa19e47aa4744",
+              "text": "国王、议员、士兵与被排除在政治之，只认出人物"
+            }
+          },
+          {
+            "id": "world-modern-03-01-english-revolution-journey-3",
+            "label": "接着把请愿、议会、共和国和复辟排成时间线。",
+            "correct": true,
+            "audio": {
+              "id": "quest-a6572f25865624c8",
+              "text": "接着把请愿、议会、共和国和复辟排成时间线。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "限制王权仍有边界",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后法律限制王权，权利仍未属于所有人。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "限制王权仍有边界",
+          "screenText": "最后法律限制王权，权利仍未属于所有人。",
+          "narration": "最后法律限制王权，权利仍未属于所有人。",
+          "displayText": "最后法律限制王权，权利仍未属于所有人。"
+        },
+        "assetId": "william-iii-landing-1688-jan-wyck-public-domain",
+        "image": "/content/step-images/william-iii-landing-1688-jan-wyck-public-domain.jpg",
+        "imageAlt": "扬·维克《威廉三世1688年在布里克瑟姆登陆》",
+        "imageCaption": "扬·维克绘制的威廉三世在布里克瑟姆登陆图，描绘1688年11月威廉率军抵达英格兰，馆藏编号BHC3095。",
+        "imageBoundary": "保留Commons图像986×1200像素，未裁切。威廉骑马占据前景，军队、居民和船只在远景；这是艺术组织的政治形象，不是登陆现场照片，也不能把整个行动归为一人单独完成。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-3218940413272fd2",
+            "text": "最后法律限制王权，权利仍未属于所有人。"
+          },
+          "image": {
+            "id": "quest-6d3081025c0d2350",
+            "text": "点开大图啦。这是扬·维克《威廉三世1688年在布里克瑟姆登陆》。这张图能帮我们找到：最后法律限制王权，权利仍未属于所有人。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-03-01-english-revolution-change-1",
+            "label": "《权利请愿书》、共和，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-61e23f791172d7f9",
+              "text": "《权利请愿书》、共和，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-modern-03-01-english-revolution-change-2",
+            "label": "最后法律限制王权，权利仍未属于所有人。",
+            "correct": true,
+            "audio": {
+              "id": "quest-3218940413272fd2",
+              "text": "最后法律限制王权，权利仍未属于所有人。"
+            }
+          },
+          {
+            "id": "world-modern-03-01-english-revolution-change-3",
+            "label": "把请愿、议会、共和国和复，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-9b43b605f632c0a9",
+              "text": "把请愿、议会、共和国和复，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "限制王权经历冲突、反复和妥协，写下法律不等于人人立刻有权利。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "限制王权经历冲突、反复和妥协，写下法律不等于人人立刻有权利。",
+          "narration": "限制王权经历冲突、反复和妥协，写下法律不等于人人立刻有权利。",
+          "displayText": "限制王权经历冲突、反复和妥协，写下法律不等于人人立刻有权利。"
+        },
+        "assetId": "charles-ii-restoration-1864-mural-public-domain",
+        "image": "/content/step-images/charles-ii-restoration-1864-mural-public-domain.jpg",
+        "imageAlt": "1864年壁画《查理二世1660年在多佛登陆》",
+        "imageCaption": "爱德华·马修·沃德1864年绘制的议会壁画，描绘查理二世1660年在多佛登陆；议会藏品号WOA 2609。",
+        "imageBoundary": "保留Commons原图2221×1982像素，未裁切。作品比事件晚204年，是后世艺术重构而非现场图像；画中联合旗含19世纪才加入的红色斜十字，属于时代错置，不能用来还原1660年旗帜。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-fdbfbb3670655bb9",
+            "text": "限制王权经历冲突、反复和妥协，写下法律不等于人人立刻有权利。"
+          },
+          "image": {
+            "id": "quest-5c6275b3bd4105b9",
+            "text": "点开大图啦。这是1864年壁画《查理二世1660年在多佛登陆》。这张图能帮我们找到：限制王权经历冲突、反复和妥协，写下法律不等于人人立刻有权利。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-03-01-english-revolution-takeaway-1",
+            "label": "限制王权经历冲突、反复和妥协，写下法律不等于人人立刻有权利。",
+            "correct": true,
+            "audio": {
+              "id": "quest-fdbfbb3670655bb9",
+              "text": "限制王权经历冲突、反复和妥协，写下法律不等于人人立刻有权利。"
+            }
+          },
+          {
+            "id": "world-modern-03-01-english-revolution-takeaway-2",
+            "label": "看大印盖在文件上，国王也要面对书面规则。、《权，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-4725676353a09caa",
+              "text": "看大印盖在文件上，国王也要面对书面规则。、《权，只说了原因"
+            }
+          },
+          {
+            "id": "world-modern-03-01-english-revolution-takeaway-3",
+            "label": "法律限制王权，权利仍未属于所有人。、一枚大印怎样限，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-9c3da4ecb7393a8d",
+              "text": "法律限制王权，权利仍未属于所有人。、一枚大印怎样限，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把四次变化排回时间线",
+        "items": [
+          "依次放入“1628请愿—1649共和国—1660复辟—1689法案”，再把1642战争、1653护国主和1688登陆放到中间。反馈强调“冲突—试验—恢复—新限制”的曲折性，不把最快完成当作文明速度奖。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "文件能证明什么",
+        "items": [
+          "把《权利请愿书》连到“反对未经同意征税与任意拘押”，死刑令连到“审判机关下达处刑命令”，共和国大印连到“新政权怎样表现自己”，《权利法案》连到“限制王权并保障议会”。任何材料都不能连到“全国所有人都同意”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "改变了 / 还没有改变",
+        "items": [
+          "把“国王不能自行征税”“议会应经常召开”放进“1689年已写入”，把“所有成年人都能投票”“不同信仰者都能担任公职”“帝国与奴役结束”放进“当时尚未实现”。反馈只讲权利范围，不给政治人物或群体打分。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "17世纪的英格兰国王、议会和不同宗教群体长期争论：谁能征税，谁能制定或暂停法律，国王能否不经审判关人，教会应当怎样组织。冲突又与苏格兰、爱尔兰的问题交织，1642年以后发展成横跨三个王国的战争。查理一世1649年被审判和处死后，英格兰一度建立共和国；但军队掌握重要权力，克伦威尔后来成为护国主，并以残酷战争征服爱尔兰，所以这不是人人立刻获得民主。1660年王政复辟，1688年荷兰执政威廉带军队登陆、詹姆斯二世逃走。1689年《权利法案》进一步确认国王不能自行停用法律、征税或维持和平时期常备军，议会应定期开会并自由选举。它加强了议会、限制了王权，是君主立宪制形成的重要一步，却没有给所有人同等政治权利：选举权仍受财产、性别和宗教等限制。中国课程常把这一长过程概括为“英国资产阶级革命”，本章保留这个课程术语，同时让孩子看到革命、共和国、复辟和1688—1689年制度安排之间曲折而非直线的关系。"
@@ -703,60 +1332,78 @@
       "title": "1628年《权利请愿书》原件",
       "localPath": "reference-assets/world-modern-english-revolution/petition-of-right-1628.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Petition_of_Right.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1628年英格兰议会提出的《权利请愿书》原件，反对未经议会同意征税和任意拘押；议会档案号HL/PO/PU/1/1627/3C1n2。",
-      "boundary": "保留Commons图像1006×694像素，未裁切。它是议会法律文件，不是普通居民共同签名的请愿册；不能凭文件存在推断查理一世从此持续遵守或冲突已经结束。"
+      "boundary": "保留Commons图像1006×694像素，未裁切。它是议会法律文件，不是普通居民共同签名的请愿册；不能凭文件存在推断查理一世从此持续遵守或冲突已经结束。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "charles-i-death-warrant-1649-public-domain",
       "title": "1649年查理一世死刑令",
       "localPath": "reference-assets/world-modern-english-revolution/charles-i-death-warrant-1649.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Death_warrant_of_Charles_I.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1649年查理一世死刑令，可见参与审判者的签名与红色蜡印；议会档案号HL/PO/JO/10/1/297A。",
-      "boundary": "保留Commons图像2048×1093像素，未裁切。图像只用于识别法律命令、签名和蜡印，不放大处决细节，不让儿童签署，也不能证明全国居民或全部议员赞成处死国王。"
+      "boundary": "保留Commons图像2048×1093像素，未裁切。图像只用于识别法律命令、签名和蜡印，不放大处决细节，不让儿童签署，也不能证明全国居民或全部议员赞成处死国王。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "commonwealth-great-seal-1649-1660-cc-by-sa-3",
       "title": "英格兰共和国大印博物馆展品照片",
       "localPath": "reference-assets/world-modern-english-revolution/commonwealth-great-seal-1649-1660.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_Commonwealth_1649-1660_at_Ludlow_Museum_-_DSCF2140.JPG",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "1649—1660年英格兰共和国大印的一面，现藏勒德洛博物馆；照片拍摄于2011年。",
-      "boundary": "保留Commons原图4000×3000像素，未裁切，能见展柜、支架和反光。必须标为今天拍摄的博物馆藏品照，不冒充1649年现场；印章图像表现新政权的自我表达，不证明议会代表所有居民。"
+      "boundary": "保留Commons原图4000×3000像素，未裁切，能见展柜、支架和反光。必须标为今天拍摄的博物馆藏品照，不冒充1649年现场；印章图像表现新政权的自我表达，不证明议会代表所有居民。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "charles-ii-restoration-1864-mural-public-domain",
       "title": "1864年壁画《查理二世1660年在多佛登陆》",
       "localPath": "reference-assets/world-modern-english-revolution/charles-ii-restoration-1864-mural.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Landing_of_Charles_II_at_Dover_1660_%E2%80%93_Edward_Matthew_Ward,_1864_%E2%80%93_Parliamentary_Art_Collection,_WOA_2609.png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / out of copyright",
       "clearance": "cleared-public-domain",
       "caption": "爱德华·马修·沃德1864年绘制的议会壁画，描绘查理二世1660年在多佛登陆；议会藏品号WOA 2609。",
-      "boundary": "保留Commons原图2221×1982像素，未裁切。作品比事件晚204年，是后世艺术重构而非现场图像；画中联合旗含19世纪才加入的红色斜十字，属于时代错置，不能用来还原1660年旗帜。"
+      "boundary": "保留Commons原图2221×1982像素，未裁切。作品比事件晚204年，是后世艺术重构而非现场图像；画中联合旗含19世纪才加入的红色斜十字，属于时代错置，不能用来还原1660年旗帜。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "william-iii-landing-1688-jan-wyck-public-domain",
       "title": "扬·维克《威廉三世1688年在布里克瑟姆登陆》",
       "localPath": "reference-assets/world-modern-english-revolution/william-iii-landing-1688.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Jan_Wyck_(1645-1700)_-_William_III_Landing_at_Brixham,_Torbay,_5_November_1688_-_BHC3095_-_Royal_Museums_Greenwich.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "扬·维克绘制的威廉三世在布里克瑟姆登陆图，描绘1688年11月威廉率军抵达英格兰，馆藏编号BHC3095。",
-      "boundary": "保留Commons图像986×1200像素，未裁切。威廉骑马占据前景，军队、居民和船只在远景；这是艺术组织的政治形象，不是登陆现场照片，也不能把整个行动归为一人单独完成。"
+      "boundary": "保留Commons图像986×1200像素，未裁切。威廉骑马占据前景，军队、居民和船只在远景；这是艺术组织的政治形象，不是登陆现场照片，也不能把整个行动归为一人单独完成。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "bill-of-rights-1689-top-public-domain",
       "title": "1689年《权利法案》原件顶部局部",
       "localPath": "reference-assets/world-modern-english-revolution/bill-of-rights-1689-top.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:English_Bill_of_Rights_of_1689_(top).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1689年12月英格兰议会《权利法案》羊皮纸原件顶部局部；议会档案号HL/PO/PU/1/1688/1W&Ms2n2。",
-      "boundary": "保留Commons图像392×415像素，未裁切。只用于观察羊皮纸、墨迹和历史书写，不要求儿童识读全部古英语；法案限制王权并保障议会，不可配图说明当时已有普选或所有人权利平等。"
+      "boundary": "保留Commons图像392×415像素，未裁切。只用于观察羊皮纸、墨迹和历史书写，不要求儿童识读全部古英语；法案限制王权并保障议会，不可配图说明当时已有普选或所有人权利平等。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-modern-03-01-english-revolution.jpg",

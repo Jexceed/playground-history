@@ -44,8 +44,15 @@ const catalogPaths = [
 const catalogs = catalogPaths.map(readJson);
 const catalog = catalogs[0];
 const productMap = readJson("content/product-map.json");
+const childEntryPoints = readJson("content/child-entry-points.json");
+const stepImageOverrideRegistry = readJson("content/step-image-overrides.json");
+const childLanguageGlossary = readJson("content/child-language-glossary.json");
+const voicePronunciations = readJson("content/voice-pronunciations.json");
+const voiceInterface = readJson("content/voice-interface-lines.json");
 const sourceRegistry = readJson("content/sources.json");
 const assetRegistryPaths = [
+  "content/assets/focused-quests-assets.json",
+  "content/assets/homepage-ui-assets.json",
   "content/assets/tang-changan-assets.json",
   "content/assets/ancient-origins-assets.json",
   "content/assets/xia-shang-zhou-assets.json",
@@ -117,8 +124,85 @@ const assetRegistries = discoveredAssetRegistryPaths.map(readJson);
 
 const timelinePeriodIds = unique(timeline.periods.map((item) => item.id), "时间线时期 ID");
 const chapterIds = unique(catalogs.flatMap((item) => item.chapters.map((chapter) => chapter.id)), "章节 ID");
+const catalogChapterById = new Map(catalogs.flatMap((item) => item.chapters.map((chapter) => [chapter.id, chapter])));
 const sourceIds = unique(sourceRegistry.sources.map((item) => item.id), "来源 ID");
 unique(productMap.tracks.map((item) => item.id), "内容板块 ID");
+
+assert(childEntryPoints.audience.includes("4—6岁"), "低龄兴趣入口的适龄说明必须为4—6岁");
+const childEntryIds = unique(childEntryPoints.chapters.map((item) => item.id), "低龄兴趣入口章节 ID");
+unique(childEntryPoints.chapters.map((item) => item.childTitle), "低龄兴趣入口儿童标题");
+unique(childEntryPoints.chapters.map((item) => item.takeaway), "低龄兴趣入口儿童带走句");
+const childEntryById = new Map(childEntryPoints.chapters.map((item) => [item.id, item]));
+assert(childEntryIds.size === chapterIds.size, `低龄兴趣入口应覆盖 ${chapterIds.size} 章，当前为 ${childEntryIds.size} 章`);
+for (const chapterId of chapterIds) {
+  assert(childEntryIds.has(chapterId), `章节 ${chapterId} 缺少低龄兴趣入口`);
+}
+for (const entry of childEntryPoints.chapters) {
+  assert(chapterIds.has(entry.id), `低龄兴趣入口使用了未知章节 ${entry.id}`);
+  assert(typeof entry.childTitle === "string" && entry.childTitle.trim(), `章节 ${entry.id} 缺少儿童标题`);
+  assert([...entry.childTitle].length <= 24, `章节 ${entry.id} 的儿童标题超过24字`);
+  assert(typeof entry.prompt === "string" && entry.prompt.trim(), `章节 ${entry.id} 缺少儿童问题`);
+  assert([...entry.prompt].length <= 62, `章节 ${entry.id} 的儿童问题超过62字`);
+  assert(typeof entry.takeaway === "string" && entry.takeaway.trim(), `章节 ${entry.id} 缺少儿童带走的一句话`);
+  assert([...entry.takeaway].length <= (entry.playableSource ? 64 : 48), `章节 ${entry.id} 的儿童带走句超过本层长度限制`);
+  assert(/[。！？]$/.test(entry.takeaway), `章节 ${entry.id} 的儿童带走句需要完整收尾`);
+  assert(typeof entry.object === "string" && entry.object.trim(), `章节 ${entry.id} 缺少实物或动作入口`);
+  assert(Array.isArray(entry.people) && entry.people.length > 0, `章节 ${entry.id} 至少需要一条人物或群体连接`);
+  assert(typeof entry.place === "string" && entry.place.trim(), `章节 ${entry.id} 缺少地点连接`);
+  assert(typeof entry.care === "string" && entry.care.trim(), `章节 ${entry.id} 缺少低龄边界说明`);
+  assert(!/(?:头骨|骷髅|遗体|尸体|伤口|处决)/.test(`${entry.childTitle}${entry.prompt}${entry.takeaway}${entry.object}`), `章节 ${entry.id} 把不友好视觉词放进了儿童入口`);
+}
+
+assert(childLanguageGlossary.audience.includes("4—6岁"), "儿童口语词典的适龄说明必须为4—6岁");
+const glossaryTerms = unique(childLanguageGlossary.terms.map((item) => item.term), "儿童口语词典词语");
+for (const item of childLanguageGlossary.terms) {
+  assert(typeof item.icon === "string" && item.icon.trim(), `儿童口语词典 ${item.term} 缺少图标`);
+  assert(typeof item.plain === "string" && item.plain.trim(), `儿童口语词典 ${item.term} 缺少口语解释`);
+  assert([...item.plain].length <= 48, `儿童口语词典 ${item.term} 的口语解释超过48字`);
+  assert(typeof item.example === "string" && item.example.trim(), `儿童口语词典 ${item.term} 缺少具体例子`);
+  assert([...item.example].length <= 80, `儿童口语词典 ${item.term} 的例子超过80字`);
+  assert(Number.isInteger(item.priority) && item.priority >= 1 && item.priority <= 3, `儿童口语词典 ${item.term} 的优先级必须为1—3`);
+}
+const usedGlossaryTerms = new Set();
+
+assert(/^zh-CN-/.test(voiceInterface.voice), "儿童界面语音必须使用普通话音色");
+assert(/^[-+]\d+%$/.test(voiceInterface.rate), "儿童界面语速格式无效");
+assert(/^[-+]\d+Hz$/.test(voiceInterface.pitch), "儿童界面音高格式无效");
+unique(voiceInterface.lines.map((item) => item.id), "儿童界面语音 ID");
+for (const line of voiceInterface.lines) {
+  assert(typeof line.text === "string" && line.text.trim(), `儿童界面语音 ${line.id} 缺少文字`);
+}
+
+assert(voicePronunciations.audience.includes("编辑"), "配音读音表必须明确用于编辑校听");
+assert(voicePronunciations.status.includes("pending"), "配音读音表在正式定音前必须保持待校听状态");
+assert(typeof voicePronunciations.notation === "string" && voicePronunciations.notation.trim(), "配音读音表缺少拼音记法说明");
+assert(Array.isArray(voicePronunciations.yearReadingRules) && voicePronunciations.yearReadingRules.length >= 5, "配音读音表缺少年代读法规则");
+unique(voicePronunciations.yearReadingRules.map((item) => item.id), "年代读法规则 ID");
+for (const item of voicePronunciations.yearReadingRules) {
+  assert(item.example && item.reading && item.note, `年代读法规则 ${item.id} 不完整`);
+}
+const pronunciationTexts = unique(voicePronunciations.entries.map((item) => item.text), "配音读音表词语");
+const pronunciationKinds = new Set(["person", "place", "polyphone", "title", "term", "phrase"]);
+const pronunciationCoverage = new Set();
+for (const item of voicePronunciations.entries) {
+  assert(typeof item.reading === "string" && item.reading.trim(), `配音读音表 ${item.text} 缺少读音`);
+  assert([...item.reading].length <= 44, `配音读音表 ${item.text} 的读音过长`);
+  assert(pronunciationKinds.has(item.kind), `配音读音表 ${item.text} 的类型无效：${item.kind}`);
+  assert(typeof item.note === "string" && item.note.trim(), `配音读音表 ${item.text} 缺少校听提示`);
+  assert(Array.isArray(item.chapterIds) && item.chapterIds.length > 0, `配音读音表 ${item.text} 没有关联章节`);
+  unique(item.chapterIds, `配音读音表 ${item.text} 的章节 ID`);
+  for (const chapterId of item.chapterIds) {
+    assert(chapterIds.has(chapterId), `配音读音表 ${item.text} 使用了未知章节 ${chapterId}`);
+    const chapter = catalogChapterById.get(chapterId);
+    const detailText = fs.readFileSync(path.join(root, chapter.detailPath), "utf8");
+    const entryText = JSON.stringify(childEntryById.get(chapterId));
+    assert(`${entryText}\n${detailText}`.includes(item.text), `配音读音表 ${item.text} 未出现在章节 ${chapterId}`);
+    pronunciationCoverage.add(chapterId);
+  }
+}
+for (const chapterId of chapterIds) {
+  assert(pronunciationCoverage.has(chapterId), `章节 ${chapterId} 缺少人名、地名或多音字校听项`);
+}
 
 for (const source of sourceRegistry.sources) {
   assert(typeof source.title === "string" && source.title.trim(), `来源 ${source.id} 缺少标题`);
@@ -128,8 +212,38 @@ for (const source of sourceRegistry.sources) {
 }
 
 assert(catalog.trackId === "china-ancient", "当前目录必须属于 china-ancient");
-assert(catalog.periods.length === 8, `中国古代史目录应有 8 个时期，当前为 ${catalog.periods.length}`);
-assert(catalog.chapters.length === 32, `中国古代史目录应有 32 章，当前为 ${catalog.chapters.length}`);
+assert(catalog.periods.length === 13, `中国古代史目录应有 13 个儿童时间河时期，当前为 ${catalog.periods.length}`);
+const ancientPeriodIds = catalog.periods.map((period) => period.id);
+const expectedAncientPeriodIds = [
+  "ancient-origins",
+  "xia-shang-western-zhou",
+  "spring-autumn-warring-states",
+  "qin",
+  "han",
+  "three-kingdoms-jin-northern-southern",
+  "sui",
+  "tang",
+  "five-dynasties-ten-kingdoms",
+  "song",
+  "yuan",
+  "ming",
+  "qing",
+];
+assert(
+  JSON.stringify(ancientPeriodIds) === JSON.stringify(expectedAncientPeriodIds),
+  "中国古代史时期必须按独立站与并行关系排列",
+);
+for (const periodId of expectedAncientPeriodIds) {
+  assert(catalog.chapters.some((chapter) => chapter.periodId === periodId), `时期 ${periodId} 至少需要一个可玩章节`);
+}
+const mergedPeriodIds = new Set(["qin-han", "sui-tang-five-dynasties", "liao-song-xia-jin-yuan", "ming-qing"]);
+assert(!catalog.periods.some((period) => mergedPeriodIds.has(period.id)), "秦至清重要时期不得继续使用合并站 ID");
+assert(catalog.chapters.length === 43, `中国古代史目录应有 43 章，当前为 ${catalog.chapters.length}`);
+assert(!catalog.periods.some((period) => period.id === "liao-xia-jin"), "辽·西夏·金不应保留独立导航站");
+assert(catalog.chapters.find((chapter) => chapter.id === "cn-ancient-07-01-parallel-regimes")?.periodId === "song", "辽宋夏金并立故事必须收进宋站同一窗口");
+for (const chapterId of ["cn-ancient-04-05-qin-great-wall", "cn-ancient-06-08-zhenguan-governance", "cn-ancient-07-07-song-compass-navigation", "cn-ancient-07-08-song-gunpowder-records"]) {
+  assert(catalog.chapters.some((chapter) => chapter.id === chapterId), `新增核心课程故事缺失：${chapterId}`);
+}
 assert(catalogs[1].trackId === "china-modern", "第二份目录必须属于 china-modern");
 assert(catalogs[1].periods.length === 6, `中国近代史目录应有 6 个阶段，当前为 ${catalogs[1].periods.length}`);
 assert(catalogs[1].chapters.length === 14, `中国近代史目录应有 14 章，当前为 ${catalogs[1].chapters.length}`);
@@ -137,13 +251,13 @@ assert(catalogs[2].trackId === "china-contemporary", "第三份目录必须属�
 assert(catalogs[2].periods.length === 4, `中国现代史目录应有 4 个阶段，当前为 ${catalogs[2].periods.length}`);
 assert(catalogs[2].chapters.length === 10, `中国现代史目录应有 10 章，当前为 ${catalogs[2].chapters.length}`);
 const expectedCatalogs = [
-  ["china-ancient", 32],
+  ["china-ancient", 43],
   ["china-modern", 14],
   ["china-contemporary", 10],
   ["world-ancient", 10],
   ["world-modern", 10],
   ["world-contemporary", 10],
-  ["cross-disciplinary", 5],
+  ["cross-disciplinary", 6],
 ];
 let factCardCount = 0;
 for (const [index, [trackId, chapterCount]] of expectedCatalogs.entries()) {
@@ -210,6 +324,9 @@ for (const currentCatalog of catalogs) {
       );
       assert(childSection, `章节 ${chapter.id} 缺少儿童页面与语音稿`);
       const childText = childSection[1];
+      const glossaryMatches = childLanguageGlossary.terms.filter((item) => `${childText}\n${JSON.stringify(childEntryById.get(chapter.id))}`.includes(item.term));
+      assert(glossaryMatches.length > 0 || /^cn-ancient-(04|05|06|07|08)-/.test(chapter.id), `章节 ${chapter.id} 没有匹配任何儿童口语词典解释`);
+      for (const item of glossaryMatches) usedGlossaryTerms.add(item.term);
       const screenHeadings = childText.match(/^### (?:第\d+屏|\d+\.)[^\n]*/gm) ?? [];
       assert(
         screenHeadings.length === chapter.targets.screens,
@@ -293,6 +410,10 @@ for (const currentCatalog of catalogs) {
   }
 }
 
+for (const term of glossaryTerms) {
+  assert(usedGlossaryTerms.has(term), `儿童口语词典词语没有在任何章节使用：${term}`);
+}
+
 const assetIds = unique(assetRegistries.flatMap((registry) => registry.assets.map((asset) => asset.id)), "素材 ID");
 const assetById = new Map(assetRegistries.flatMap((registry) => registry.assets.map((asset) => [asset.id, asset])));
 const chapterAssetCoverage = new Set();
@@ -306,6 +427,13 @@ for (const registry of assetRegistries) {
   for (const asset of registry.assets) {
     assert(asset.title ?? asset.objectName, `素材 ${asset.id} 缺少名称`);
     assert(typeof asset.clearance === "string" && asset.clearance, `素材 ${asset.id} 缺少授权状态`);
+    assert(asset.childVisibility === undefined || ["child-ok", "editor-only"].includes(asset.childVisibility), `素材 ${asset.id} 的儿童可见性无效`);
+    const assetBoundaryText = `${asset.notes ?? ""} ${asset.boundary ?? ""}`;
+    const boundaryRequiresEditorOnly = /(?:仅供|只供).*编辑|不直接进入低龄|只用于家长层|只用于家长与编辑/u.test(assetBoundaryText);
+    assert(!boundaryRequiresEditorOnly || asset.childVisibility === "editor-only", `素材 ${asset.id} 的文字边界要求仅供编辑，但没有标记 editor-only`);
+    if (asset.childVisibility === "editor-only") {
+      assert(typeof (asset.notes ?? asset.boundary) === "string" && (asset.notes ?? asset.boundary).trim(), `编辑层素材 ${asset.id} 缺少使用边界说明`);
+    }
     assert(Array.isArray(asset.factSourceIds), `素材 ${asset.id} 缺少事实来源列表`);
     assert(
       asset.factSourceIds.length > 0 || asset.contentStatus === "needs-primary-object-record",
@@ -326,8 +454,13 @@ for (const registry of assetRegistries) {
     }
     if (asset.clearance.startsWith("cleared-")) {
       assert(asset.license && asset.license !== "未确认", `开放素材 ${asset.id} 缺少许可名称`);
-      assert(asset.licenseUrl, `开放素材 ${asset.id} 缺少许可链接`);
-      assert(asset.sourcePage ?? asset.imageSourcePage, `开放素材 ${asset.id} 缺少来源页`);
+      if (asset.clearance === "cleared-project-created" && asset.sourceFile) {
+        assert(asset.sourceFile === "content/focused-quests.json" && fs.existsSync(path.join(root, asset.sourceFile)), `自制素材 ${asset.id} 缺少原始描述`);
+        assert(asset.licensePath && fs.existsSync(path.join(root, asset.licensePath)), `自制素材 ${asset.id} 缺少本地署名许可说明`);
+      } else {
+        assert(asset.licenseUrl, `开放素材 ${asset.id} 缺少许可链接`);
+        assert(asset.sourcePage ?? asset.imageSourcePage, `开放素材 ${asset.id} 缺少来源页`);
+      }
       assert(asset.localPath, `已清权素材 ${asset.id} 缺少本地文件`);
     }
   }
@@ -351,6 +484,45 @@ for (const chapterId of chapterIds) {
   assert(chapterAssetCoverage.has(chapterId), `章节 ${chapterId} 没有任何素材登记覆盖`);
 }
 
+const reusedAssetIdsByChapter = new Map();
+for (const registry of assetRegistries) {
+  const reusedIds = (registry.reusedAssets ?? []).map((item) => item.assetId);
+  if (!reusedIds.length) continue;
+  for (const coveredChapterId of registry.chapterIds ?? []) {
+    const current = reusedAssetIdsByChapter.get(coveredChapterId) ?? new Set();
+    for (const reusedId of reusedIds) current.add(reusedId);
+    reusedAssetIdsByChapter.set(coveredChapterId, current);
+  }
+}
+
+for (const entry of childEntryPoints.chapters) {
+  if (!entry.preferredAssetId) continue;
+  const preferredAsset = assetById.get(entry.preferredAssetId);
+  assert(preferredAsset, `章节 ${entry.id} 的首选入口素材不存在：${entry.preferredAssetId}`);
+  assert(preferredAsset.clearance.startsWith("cleared-"), `章节 ${entry.id} 的首选入口素材未清权：${entry.preferredAssetId}`);
+  assert(preferredAsset.childVisibility !== "editor-only", `章节 ${entry.id} 的首选入口素材被标为编辑层：${entry.preferredAssetId}`);
+  const registeredToChapter = (preferredAsset.chapterIds ?? []).includes(entry.id)
+    || Boolean(reusedAssetIdsByChapter.get(entry.id)?.has(entry.preferredAssetId));
+  assert(registeredToChapter, `素材 ${entry.preferredAssetId} 未登记给章节 ${entry.id}`);
+}
+
+const validStepIds = new Set(["time", "beginning", "journey", "change", "takeaway"]);
+unique(stepImageOverrideRegistry.chapters.map((entry) => entry.id), "步骤配图覆盖章节 ID");
+for (const entry of stepImageOverrideRegistry.chapters) {
+  assert(chapterIds.has(entry.id), `步骤配图覆盖使用了未知章节 ${entry.id}`);
+  assert(entry.steps && Object.keys(entry.steps).length > 0, `章节 ${entry.id} 的步骤配图覆盖为空`);
+  for (const [stepId, assetId] of Object.entries(entry.steps)) {
+    assert(validStepIds.has(stepId), `章节 ${entry.id} 使用了未知步骤 ${stepId}`);
+    const asset = assetById.get(assetId);
+    assert(asset, `章节 ${entry.id}/${stepId} 覆盖素材不存在：${assetId}`);
+    assert(asset.clearance.startsWith("cleared-"), `章节 ${entry.id}/${stepId} 覆盖素材未清权：${assetId}`);
+    assert(asset.childVisibility !== "editor-only", `章节 ${entry.id}/${stepId} 覆盖素材仅供编辑：${assetId}`);
+    const registeredToChapter = (asset.chapterIds ?? []).includes(entry.id)
+      || Boolean(reusedAssetIdsByChapter.get(entry.id)?.has(assetId));
+    assert(registeredToChapter, `章节 ${entry.id}/${stepId} 覆盖素材未登记给本章：${assetId}`);
+  }
+}
+
 const allChapters = catalogs.flatMap((item) => item.chapters);
 const detailedChapters = allChapters.filter((item) => item.detailPath).length;
 const verifiedResearch = allChapters.filter((item) => item.status.research === "verified").length;
@@ -366,5 +538,8 @@ console.log(`内容校验通过：${catalogs.length} 个课程板块，共 ${cha
 console.log(`其中：中国史 ${catalogs.slice(0, 3).reduce((sum, item) => sum + item.chapters.length, 0)} 章，世界史 ${catalogs.slice(3, 6).reduce((sum, item) => sum + item.chapters.length, 0)} 章，跨学科 ${catalogs[6].chapters.length} 章。`);
 console.log(`已有详稿 ${detailedChapters} 章，事实研究完成 ${verifiedResearch} 章，最终审核通过 ${approvedChapters} 章。`);
 console.log(`事实卡 ${factCardCount} 条，儿童屏幕 ${screenCount} 屏，语音稿 ${audioClipCount} 段，互动 ${interactionCount} 个。`);
+console.log(`低龄兴趣入口 ${childEntryIds.size} 章，均含实物入口与地点连接。`);
+console.log(`儿童口语词典 ${glossaryTerms.size} 词，${chapterIds.size}章均已匹配难词解释。`);
+console.log(`配音读音表 ${pronunciationTexts.size} 项、年代读法 ${voicePronunciations.yearReadingRules.length} 条，${chapterIds.size}章均有编辑校听入口。`);
 console.log(`来源登记 ${sourceIds.size} 条，素材登记 ${assetIds.size} 条，其中已清权本地素材 ${clearedAssetCount} 条。`);
 console.log(`本机研究素材缓存 ${availableLocalAssetPaths.size}/${declaredLocalAssetPaths.size} 个文件${requireLocalAssets ? "，已执行严格路径检查" : "；发布包构建不强制携带原始研究缓存"}。`);

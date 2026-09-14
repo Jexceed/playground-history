@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-01-01-human-evidence",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
@@ -10,10 +10,526 @@
     "years": "约200万年前—约公元前21世纪"
   },
   "order": 1,
-  "title": "从牙齿和头骨寻找早期人类",
+  "title": "洞穴、石器和火留下了什么线索",
   "coreQuestion": "考古人员怎样知道很久以前有人生活在中国大地？",
-  "throughline": "从元谋人、蓝田人和北京人等遗存理解化石、石器和遗址是认识早期人类的重要证据。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "throughline": "先从周口店洞穴、土层、石器和用火痕迹进入，再把身体化石放进证据链，理解多种线索怎样共同帮助我们认识早期人类。",
+  "childEntry": {
+    "id": "cn-ancient-01-01-human-evidence",
+    "childTitle": "洞穴里的四个小线索",
+    "prompt": "石器、灰烬、土层和化石，怎样一起告诉我们：很久以前有人来过？",
+    "takeaway": "考古人员把四种小线索放在一起，才敢说很久以前有人在这里生活。",
+    "object": "石器和灰烬",
+    "people": [
+      "周口店考古人员"
+    ],
+    "place": "北京周口店遗址",
+    "culture": null,
+    "care": "儿童页面只使用洞穴、石器、土层和灰烬等线索；头骨复制品仅供家长与编辑核对。",
+    "preferredAssetId": "origins-zhoukoudian-cave"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📍",
+      "label": "从一个地方出发",
+      "text": "洞穴里的四个小线索"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "洞穴里先找什么",
+      "text": "先在周口店洞穴里，找到灰烬、石器和土层。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "把位置比一比",
+      "text": "接着比较这些线索的位置，看它们是否属于同一层。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "四条线索合起来",
+      "text": "最后把多种线索合起来，才说这里有人生活过。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "考古人员把四种小线索放在一起，才敢说很久以前有人在这里生活。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "考古",
+      "icon": "🧹",
+      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
+      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "周口店",
+      "reading": "Zhōukǒudiàn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-01-01-human-evidence"
+      ],
+      "note": "北京地名；连续读作“周—口—店”。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个地方",
+      "icon": "📍",
+      "label": "洞穴里的四个小线索",
+      "question": "石器、灰烬、土层和化石，怎样一起告诉我们：很久以前有人来过？"
+    },
+    "coverAudio": {
+      "id": "quest-00e99ab1fd98c4c0",
+      "text": "今天从一个地方出发：洞穴里的四个小线索。我们要去北京周口店遗址，看看石器和灰烬怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-1afc5c399ebedd89",
+      "text": "五条线索都找到了，“洞穴里的四个小线索”的答案是：考古人员把四种小线索放在一起，才敢说很久以前有人在这里生活。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 7,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个地方出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是远古时期，时间是约200万年前—约公元前21世纪。",
+          "narration": "这是远古时期，时间是约200万年前—约公元前21世纪。",
+          "displayText": "这是远古时期，时间是约200万年前—约公元前21世纪。"
+        },
+        "assetId": "origins-zhoukoudian-cave",
+        "image": "/content/step-images/origins-zhoukoudian-cave.jpg",
+        "imageAlt": "周口店遗址鸽子堂洞穴",
+        "imageCaption": "周口店遗址洞穴照片。",
+        "imageBoundary": "分辨率较低，适合单屏辅助图，不宜全屏放大；未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-cafb042b318bc60f",
+            "text": "先给一个地方找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-c0bfe54a85c11f2c",
+            "text": "这是远古时期，时间是约200万年前—约公元前21世纪。"
+          },
+          "image": {
+            "id": "quest-b7fc204e3ebd9d04",
+            "text": "点开大图啦。这是周口店遗址鸽子堂洞穴。这张图能帮我们找到：这是远古时期，时间是约200万年前—约公元前21世纪。"
+          },
+          "question": {
+            "id": "quest-6b36b10ba4b7def9",
+            "text": "从一个地方出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-01-01-human-evidence-time-1",
+            "label": "中国古代史 · 远古时期 · 约200万年前—约公元前21世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-94ff591985218457",
+              "text": "中国古代史 · 远古时期 · 约200万年前—约公元前21世纪"
+            }
+          },
+          {
+            "id": "cn-ancient-01-01-human-evidence-time-2",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "cn-ancient-01-01-human-evidence-time-3",
+            "label": "中国近代史 · 晚清的危机与救亡 · 1840—1911年",
+            "correct": false,
+            "audio": {
+              "id": "quest-a326ed6569d4da14",
+              "text": "中国近代史 · 晚清的危机与救亡 · 1840—1911年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "洞穴里先找什么",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先在周口店洞穴里，找到灰烬、石器和土层。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "洞穴里先找什么",
+          "screenText": "先在周口店洞穴里，找到灰烬、石器和土层。",
+          "narration": "先在周口店洞穴里，找到灰烬、石器和土层。",
+          "displayText": "先在周口店洞穴里，找到灰烬、石器和土层。"
+        },
+        "assetId": "origins-zhoukoudian-cave",
+        "image": "/content/step-images/origins-zhoukoudian-cave.jpg",
+        "imageAlt": "周口店遗址鸽子堂洞穴",
+        "imageCaption": "周口店遗址洞穴照片。",
+        "imageBoundary": "分辨率较低，适合单屏辅助图，不宜全屏放大；未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-ae17001fd02df512",
+            "text": "先在周口店洞穴里，找到灰烬、石器和土层。"
+          },
+          "image": {
+            "id": "quest-de68895d3586ece4",
+            "text": "点开大图啦。这是周口店遗址鸽子堂洞穴。这张图能帮我们找到：先在周口店洞穴里，找到灰烬、石器和土层。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-01-01-human-evidence-beginning-1",
+            "label": "北京周口店，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-1ea29fccc206a558",
+              "text": "北京周口店，只是故事地点"
+            }
+          },
+          {
+            "id": "cn-ancient-01-01-human-evidence-beginning-2",
+            "label": "周口店考古人员，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-5932c743873b0318",
+              "text": "周口店考古人员，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-ancient-01-01-human-evidence-beginning-3",
+            "label": "石器和灰烬，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-9b1d6e8672819cd3",
+              "text": "石器和灰烬，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "把位置比一比",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着比较这些线索的位置，看它们是否属于同一层。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "把位置比一比",
+          "screenText": "接着比较这些线索的位置，看它们是否属于同一层。",
+          "narration": "接着比较这些线索的位置，看它们是否属于同一层。",
+          "displayText": "接着比较这些线索的位置，看它们是否属于同一层。"
+        },
+        "assetId": "origins-zhoukoudian-cave",
+        "image": "/content/step-images/origins-zhoukoudian-cave.jpg",
+        "imageAlt": "周口店遗址鸽子堂洞穴",
+        "imageCaption": "周口店遗址洞穴照片。",
+        "imageBoundary": "分辨率较低，适合单屏辅助图，不宜全屏放大；未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-f222a7a46a7e395b",
+            "text": "接着比较这些线索的位置，看它们是否属于同一层。"
+          },
+          "image": {
+            "id": "quest-63e5b5741d129aa6",
+            "text": "点开大图啦。这是周口店遗址鸽子堂洞穴。这张图能帮我们找到：接着比较这些线索的位置，看它们是否属于同一层。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-01-01-human-evidence-journey-1",
+            "label": "北京周口店遗址、石器和灰烬、周口，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-a27f3f4b2da3421a",
+              "text": "北京周口店遗址、石器和灰烬、周口，只说了地点"
+            }
+          },
+          {
+            "id": "cn-ancient-01-01-human-evidence-journey-2",
+            "label": "接着比较这些线索的位置，看它们是否属于同一层。",
+            "correct": true,
+            "audio": {
+              "id": "quest-f222a7a46a7e395b",
+              "text": "接着比较这些线索的位置，看它们是否属于同一层。"
+            }
+          },
+          {
+            "id": "cn-ancient-01-01-human-evidence-journey-3",
+            "label": "周口店考古人员、石器和灰烬、洞穴里的，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-33b3a0fbd5e434bd",
+              "text": "周口店考古人员、石器和灰烬、洞穴里的，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "四条线索合起来",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后把多种线索合起来，才说这里有人生活过。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "四条线索合起来",
+          "screenText": "最后把多种线索合起来，才说这里有人生活过。",
+          "narration": "最后把多种线索合起来，才说这里有人生活过。",
+          "displayText": "最后把多种线索合起来，才说这里有人生活过。"
+        },
+        "assetId": "origins-zhoukoudian-cave",
+        "image": "/content/step-images/origins-zhoukoudian-cave.jpg",
+        "imageAlt": "周口店遗址鸽子堂洞穴",
+        "imageCaption": "周口店遗址洞穴照片。",
+        "imageBoundary": "分辨率较低，适合单屏辅助图，不宜全屏放大；未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-d9a3f11df4b12c6c",
+            "text": "最后把多种线索合起来，才说这里有人生活过。"
+          },
+          "image": {
+            "id": "quest-9d7c5970b694db87",
+            "text": "点开大图啦。这是周口店遗址鸽子堂洞穴。这张图能帮我们找到：最后把多种线索合起来，才说这里有人生活过。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-01-01-human-evidence-change-1",
+            "label": "最后把多种线索合起来，才说这里有人生活过。",
+            "correct": true,
+            "audio": {
+              "id": "quest-d9a3f11df4b12c6c",
+              "text": "最后把多种线索合起来，才说这里有人生活过。"
+            }
+          },
+          {
+            "id": "cn-ancient-01-01-human-evidence-change-2",
+            "label": "石器和灰烬、北京周口店遗，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-941c5d2393a8f6f3",
+              "text": "石器和灰烬、北京周口店遗，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-ancient-01-01-human-evidence-change-3",
+            "label": "比较这些线索的位置，看它们是，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-05c78334023a86cb",
+              "text": "比较这些线索的位置，看它们是，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "考古人员把四种小线索放在一起，才敢说很久以前有人在这里生活。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "考古人员把四种小线索放在一起，才敢说很久以前有人在这里生活。",
+          "narration": "考古人员把四种小线索放在一起，才敢说很久以前有人在这里生活。",
+          "displayText": "考古人员把四种小线索放在一起，才敢说很久以前有人在这里生活。"
+        },
+        "assetId": "origins-zhoukoudian-cave",
+        "image": "/content/step-images/origins-zhoukoudian-cave.jpg",
+        "imageAlt": "周口店遗址鸽子堂洞穴",
+        "imageCaption": "周口店遗址洞穴照片。",
+        "imageBoundary": "分辨率较低，适合单屏辅助图，不宜全屏放大；未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-c6b3c9025a4d0fd3",
+            "text": "考古人员把四种小线索放在一起，才敢说很久以前有人在这里生活。"
+          },
+          "image": {
+            "id": "quest-4c9419f0aed657b3",
+            "text": "点开大图啦。这是周口店遗址鸽子堂洞穴。这张图能帮我们找到：考古人员把四种小线索放在一起，才敢说很久以前有人在这里生活。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-01-01-human-evidence-takeaway-1",
+            "label": "把多种线索合起来，才说这里有人生活过。、洞穴里的四，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-dca4489721baa9da",
+              "text": "把多种线索合起来，才说这里有人生活过。、洞穴里的四，只说了结果"
+            }
+          },
+          {
+            "id": "cn-ancient-01-01-human-evidence-takeaway-2",
+            "label": "在周口店洞穴里，找到灰烬、石器和土层。、石器和，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-2554eb57c13a7a5f",
+              "text": "在周口店洞穴里，找到灰烬、石器和土层。、石器和，只说了原因"
+            }
+          },
+          {
+            "id": "cn-ancient-01-01-human-evidence-takeaway-3",
+            "label": "考古人员把四种小线索放在一起，才敢说很久以前有人在这里生活。",
+            "correct": true,
+            "audio": {
+              "id": "quest-c6b3c9025a4d0fd3",
+              "text": "考古人员把四种小线索放在一起，才敢说很久以前有人在这里生活。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "证据分类",
+        "items": [
+          "把“洞穴照片、石器、灰烬、现代电影画面”分入“历史证据 / 遗址今景 / 不能直接作证”三个框。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "土层排序",
+        "items": [
+          "保持同一遗址的上下关系，把较早和较晚的发现放回剖面；提示“土层也可能被扰动，需要现场记录”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "判断强弱",
+        "items": [
+          "问题“看到一堆黑土，就一定是古人用火吗？”正确答案为“不一定，还要检查木炭、烧石、位置和实验分析”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 7,
   "conclusion": [
     "我们不是靠想象认识早期人类。人的牙齿和骨骼化石、他们打制的石器、遗址中动物与植物的遗存、用火痕迹，以及这些东西在土层中的位置，共同组成证据链。不同证据能回答不同问题，也可能随着新发现被重新解释。"
@@ -65,14 +581,14 @@
         {
           "number": 1,
           "label": "语音 A01：",
-          "text": "把时间线向左拉，拉到非常非常远的过去。那时没有人写日记，也没有相机。考古人员只能仔细观察地下留下的牙齿、骨头、石器和灰烬，像侦探一样把许多小线索拼在一起。",
+          "text": "把时间线向左拉，拉到非常非常远的过去。那时没有人写日记，也没有相机。考古人员先看洞穴、土层、石器和灰烬，再把身体化石等线索放在一起，像侦探一样慢慢拼故事。",
           "segments": [
             {
               "id": "cn-ancient-01-01-human-evidence-s01-v01-01",
               "order": 1,
               "tier": "core",
-              "text": "把时间线向左拉，拉到非常非常远的过去。那时没有人写日记，也没有相机。考古人员只能仔细观察地下留下的牙齿、骨头、石器和灰烬，像侦探一样把许多小线索拼在一起。",
-              "hanCharacters": 69
+              "text": "把时间线向左拉，拉到非常非常远的过去。那时没有人写日记，也没有相机。考古人员先看洞穴、土层、石器和灰烬，再把身体化石等线索放在一起，像侦探一样慢慢拼故事。",
+              "hanCharacters": 68
             }
           ]
         }
@@ -81,38 +597,16 @@
     },
     {
       "number": 2,
-      "title": "化石不是普通石头",
-      "screenText": "牙齿和骨骼化石，能证明这里曾生活过古人类。",
+      "title": "先找地点和土层",
+      "screenText": "洞穴和土层，先告诉我们线索在哪里。",
       "voices": [
         {
           "number": 2,
           "label": "语音 A02：",
-          "text": "你看到的是北京人头骨的复制品，不是原来的化石。真正的骨骼经过漫长时间保存下来，能帮助研究者观察古人类身体的特点。复制品可以帮助我们学习，但它和原件必须分清楚。",
-          "segments": [
-            {
-              "id": "cn-ancient-01-01-human-evidence-s02-v02-01",
-              "order": 1,
-              "tier": "core",
-              "text": "你看到的是北京人头骨的复制品，不是原来的化石。真正的骨骼经过漫长时间保存下来，能帮助研究者观察古人类身体的特点。复制品可以帮助我们学习，但它和原件必须分清楚。",
-              "hanCharacters": 73
-            }
-          ]
-        }
-      ],
-      "interactions": []
-    },
-    {
-      "number": 3,
-      "title": "地点也很重要",
-      "screenText": "东西在哪里发现，和东西本身一样重要。",
-      "voices": [
-        {
-          "number": 3,
-          "label": "语音 A03：",
           "text": "这是一处周口店遗址的洞穴。考古人员会记录每件东西在什么地点、哪一层土里、旁边还有什么。要是把石器随便搬走，我们就会失去许多信息。所以考古不是“挖宝”，而是有记录的科学工作。",
           "segments": [
             {
-              "id": "cn-ancient-01-01-human-evidence-s03-v03-01",
+              "id": "cn-ancient-01-01-human-evidence-s02-v02-01",
               "order": 1,
               "tier": "core",
               "text": "这是一处周口店遗址的洞穴。考古人员会记录每件东西在什么地点、哪一层土里、旁边还有什么。要是把石器随便搬走，我们就会失去许多信息。所以考古不是“挖宝”，而是有记录的科学工作。",
@@ -124,21 +618,43 @@
       "interactions": []
     },
     {
-      "number": 4,
+      "number": 3,
       "title": "一块石头怎样变成工具证据",
       "screenText": "有人工敲击痕迹的石器，和自然碎石不一样。",
       "voices": [
         {
+          "number": 3,
+          "label": "语音 A03：",
+          "text": "普通石头摔碎，也会有尖角。研究者要比较石头的形状、敲击痕迹、使用磨损和发现位置，才能判断它是不是人做的工具。一个判断需要好几条证据互相支持。",
+          "segments": [
+            {
+              "id": "cn-ancient-01-01-human-evidence-s03-v03-01",
+              "order": 1,
+              "tier": "core",
+              "text": "普通石头摔碎，也会有尖角。研究者要比较石头的形状、敲击痕迹、使用磨损和发现位置，才能判断它是不是人做的工具。一个判断需要好几条证据互相支持。",
+              "hanCharacters": 63
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 4,
+      "title": "一件线索不能独自讲故事",
+      "screenText": "石器、土层、灰烬和植物遗存各说一小段，合在一起才更接近过去。",
+      "voices": [
+        {
           "number": 4,
           "label": "语音 A04：",
-          "text": "普通石头摔碎，也会有尖角。研究者要比较石头的形状、敲击痕迹、使用磨损和发现位置，才能判断它是不是人做的工具。一个判断需要好几条证据互相支持。",
+          "text": "石器能说明有人制作工具，灰烬留下用火线索，土层记录先后，植物遗存帮助认识环境。每件只说一小段；考古人员把位置和关系一起记录，才敢提出更可靠的解释。",
           "segments": [
             {
               "id": "cn-ancient-01-01-human-evidence-s04-v04-01",
               "order": 1,
               "tier": "core",
-              "text": "普通石头摔碎，也会有尖角。研究者要比较石头的形状、敲击痕迹、使用磨损和发现位置，才能判断它是不是人做的工具。一个判断需要好几条证据互相支持。",
-              "hanCharacters": 63
+              "text": "石器能说明有人制作工具，灰烬留下用火线索，土层记录先后，植物遗存帮助认识环境。每件只说一小段；考古人员把位置和关系一起记录，才敢提出更可靠的解释。",
+              "hanCharacters": 66
             }
           ]
         }
@@ -195,7 +711,7 @@
       "number": 1,
       "title": "证据分类",
       "items": [
-        "把“头骨复制品、石器、灰烬、现代电影画面”拖入“历史证据 / 展示材料 / 不能直接作证”三个框。"
+        "把“洞穴照片、石器、灰烬、现代电影画面”分入“历史证据 / 遗址今景 / 不能直接作证”三个框。"
       ]
     },
     {
@@ -261,20 +777,26 @@
       "title": "北京人头骨复制品照片",
       "localPath": "reference-assets/origins/peking-man-skull-replica.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Peking_Man_Skull_(replica)_presented_at_Paleozoological_Museum_of_China.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "北京人头骨复制品；不是原始化石。",
-      "boundary": "页面和语音必须显著标注“复制品”；未修改原图。"
+      "boundary": "只供家长与编辑核对，不进入儿童页面；展示时必须显著标注“复制品”。未修改原图。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "origins-zhoukoudian-cave",
       "title": "周口店遗址鸽子堂洞穴",
       "localPath": "reference-assets/origins/zhoukoudian-cave.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Zhoukoudian_Caves_July2004.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "周口店遗址洞穴照片。",
-      "boundary": "分辨率较低，适合单屏辅助图，不宜全屏放大；未修改原图。"
+      "boundary": "分辨率较低，适合单屏辅助图，不宜全屏放大；未修改原图。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-01-01-human-evidence.jpg",

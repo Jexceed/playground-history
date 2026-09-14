@@ -1,19 +1,689 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-06-01-sui-unification-canal",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
   "period": {
-    "id": "sui-tang-five-dynasties",
-    "label": "隋唐五代",
-    "years": "581—960年"
+    "id": "sui",
+    "label": "隋朝",
+    "years": "581—618年"
   },
-  "order": 18,
-  "title": "重新统一与贯通南北的大运河",
-  "coreQuestion": "隋朝为什么短暂，却对后世影响很大？",
-  "throughline": "连接隋朝统一、科举制度创立和大运河开通，也讨论工程负担与隋朝速亡的关系。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "order": 19,
+  "title": "一艘运粮船怎样从南方开到洛阳",
+  "coreQuestion": "旧河道、新河段、船工和粮仓怎样接力，让粮船沿大运河走得更远？",
+  "throughline": "跟随一艘示意运粮船经过河段、停靠点和粮仓，理解大运河交通系统，也讨论劳役负担与长期维护。",
+  "childEntry": {
+    "id": "cn-ancient-06-01-sui-unification-canal",
+    "childTitle": "让粮船接上南北水路",
+    "prompt": "运河为什么要连起原有的河道？",
+    "takeaway": "隋代在旧水道基础上开凿、连接运河；粮船往来依靠连通水路、沿途劳动与长期维护。",
+    "object": "运粮船、河道、船闸与粮仓遗存",
+    "people": [
+      "开河者、船工",
+      "维护者"
+    ],
+    "place": "洛阳、扬州与大运河沿线",
+    "culture": "大运河沿线城市文化",
+    "care": "水路为连通关系图，没有复原精确河线，也未使用未经核对的现代船闸来解释隋代。",
+    "preferredAssetId": "sui-canal-grain-boat-child-illustration",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-06-01-sui-unification-canal",
+    "featured": {
+      "type": "地点",
+      "icon": "🚤",
+      "title": "开河者、船工与维护者",
+      "childBridge": "运河为什么要连起原有的河道？",
+      "evidenceBoundary": "水路为连通关系图，没有复原精确河线，也未使用未经核对的现代船闸来解释隋代。"
+    },
+    "companions": [
+      {
+        "type": "人物",
+        "label": "隋炀帝与开凿者",
+        "note": "决定、劳动和沉重代价要一起讲。"
+      },
+      {
+        "type": "历史",
+        "label": "隋朝重新统一",
+        "note": "先放回581—618年的短时间线。"
+      },
+      {
+        "type": "地点",
+        "label": "洛阳粮仓",
+        "note": "船到城市以后，还需要储存和转运。"
+      }
+    ],
+    "sourceIds": [
+      "PEP-HISTORY-7B-2026-TRIAL",
+      "UNESCO-GRAND-CANAL",
+      "NMC-SUI-TANG-FIVE-DYNASTIES"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "统一与运河的先后",
+      "text": "隋在589年结束长期分裂，后来大规模营建运河。618年，唐朝建立。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "已有的水路",
+      "text": "河流和旧水道已经存在，但并不是每一段都相通。图里的粮船遇到断开的地方。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "让船接着走",
+      "text": "运河利用旧水道，也开凿新河段，把许多地方联系起来。实际工程要适应地势。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "水路背后的人",
+      "text": "开河、运粮、维护河道都需要许多人。沉重劳役给人们带来很大负担。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "唐朝还能用吗",
+      "text": "隋结束后，运河的一些河段继续使用。工程的生命可以跨过一个朝代。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "王朝",
+      "icon": "👑",
+      "plain": "以皇帝政权延续的一段历史时期。",
+      "example": "唐朝是王朝；唐朝结束不等于所有事情当天停止。",
+      "priority": 2
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "大运河",
+      "reading": "Dàyùnhé",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-06-01-sui-unification-canal",
+        "cross-04-transport-history"
+      ],
+      "note": "“运河”连读清楚。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "让粮船接上南北水路",
+      "question": "运河为什么要连起原有的河道？"
+    },
+    "cta": "去接通水路",
+    "anchor": "开河者、船工与维护者",
+    "boundary": "水路为连通关系图，没有复原精确河线，也未使用未经核对的现代船闸来解释隋代。",
+    "evidence": [],
+    "coverAsset": {
+      "id": "sui-canal-grain-boat-child-illustration",
+      "title": "一艘运粮船沿大运河航行的儿童示意图",
+      "localPath": "reference-assets/sui-tang-five-dynasties/sui-canal-grain-boat-self-made.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童示意图：船工、河道、粮仓与沿岸维护共同支持粮食运输。",
+      "boundary": "2026-08-09为低龄玩法自制的绘本插图。它不是隋代现场、复原图或史料证据；船、城门、粮仓与人物只帮助理解运输系统，历史判断仍以遗址、文献和权威来源为准。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/sui-canal-grain-boat-child-illustration.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/sui-canal-grain-boat-child-illustration.jpg",
+    "coverImageAlt": "一艘运粮船沿大运河航行的儿童示意图",
+    "coverImageKind": "故事插画",
+    "coverAudio": {
+      "id": "quest-52a2636491d5341c",
+      "text": "让粮船接上南北水路。运河为什么要连起原有的河道？准备好就点“去接通水路”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-3aa5bf4b109cae66",
+      "text": "隋代在旧水道基础上开凿、连接运河；粮船往来依靠连通水路、沿途劳动与长期维护。"
+    },
+    "finish": {
+      "title": "当一回指尖粮船",
+      "actions": [
+        "用手指沿连通的水道走，不跨过空白缺口。",
+        "请家人挡住一段，你说说要请谁来帮忙。"
+      ],
+      "parent": "只演示连通与维护，不把隋运河画成现代船闸系统。回答中出现“接通”“修”“清理”即可。",
+      "sceneStepIndexes": [
+        2,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-99f9af15188aca05",
+          "text": "用手指沿连通的水道走，不跨过空白缺口。"
+        },
+        {
+          "id": "quest-9020f76044809ecc",
+          "text": "请家人挡住一段，你说说要请谁来帮忙。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-42cd0b28bd7c6bf8",
+        "text": "当一回指尖粮船。用手指沿连通的水道走，不跨过空白缺口。请家人挡住一段，你说说要请谁来帮忙。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "统一与运河的先后",
+        "title": "统一与运河的先后",
+        "prompt": "隋代营建运河放在哪里？",
+        "rightNote": "本章看隋代的工程，后来的朝代还会继续使用和维护。",
+        "wrongNote": "本章看隋代的工程，后来的朝代还会继续使用和维护。",
+        "sourceIds": [
+          "UNESCO-GRAND-CANAL",
+          "NMC-SUI-TANG-FIVE-DYNASTIES"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "统一与运河的先后",
+          "screenText": "隋在589年结束长期分裂，后来大规模营建运河。618年，唐朝建立。",
+          "displayText": "隋在589年结束长期分裂，后来大规模营建运河。618年，唐朝建立。",
+          "narration": "隋在589年结束长期分裂，后来大规模营建运河。618年，唐朝建立。"
+        },
+        "assetId": "study-160604aad10812de",
+        "image": "/content/study-scenes/study-160604aad10812de.svg",
+        "studyImage": "/content/study-scenes/study-160604aad10812de.svg",
+        "studyImageAlt": "589年 统一，隋运河，618年 唐",
+        "imageAlt": "589年 统一，隋运河，618年 唐",
+        "imageCaption": "学习示意 · 589年 统一，隋运河，618年 唐",
+        "imageBoundary": "自制学习示意。水路为连通关系图，没有复原精确河线，也未使用未经核对的现代船闸来解释隋代。",
+        "audio": {
+          "transition": {
+            "id": "quest-490c6f70cd0fa9f7",
+            "text": "统一与运河的先后。"
+          },
+          "intro": {
+            "id": "quest-9a5ad55b754a0e36",
+            "text": "隋在589年结束长期分裂，后来大规模营建运河。618年，唐朝建立。"
+          },
+          "question": {
+            "id": "quest-ae80f3ea3685e60a",
+            "text": "隋代营建运河放在哪里？"
+          },
+          "image": {
+            "id": "quest-38404ccd897043dc",
+            "text": "这是学习示意图：589年 统一，隋运河，618年 唐。隋代营建运河放在哪里？"
+          },
+          "right": {
+            "id": "quest-d2967ca3cb573863",
+            "text": "找到了。本章看隋代的工程，后来的朝代还会继续使用和维护。"
+          },
+          "wrong": {
+            "id": "quest-871f0f13a8f19a35",
+            "text": "再比较一下。本章看隋代的工程，后来的朝代还会继续使用和维护。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-01-sui-unification-canal-time-1",
+            "label": "589年统一后、618年前",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-dfa8e04664b25b56.svg",
+            "imageAlt": "589—618年之间",
+            "audio": {
+              "id": "quest-8612d760d9735a11",
+              "text": "589年统一后、618年前"
+            }
+          },
+          {
+            "id": "cn-ancient-06-01-sui-unification-canal-time-2",
+            "label": "618年唐建立以后",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-9dc6ac73b9119309.svg",
+            "imageAlt": "618年以后",
+            "audio": {
+              "id": "quest-d9362c1d1c1fe1b9",
+              "text": "618年唐建立以后"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "已有的水路",
+        "title": "已有的水路",
+        "prompt": "要接上下一段水路，先找哪里？",
+        "rightNote": "先认出不通的地方，再考虑如何连接。",
+        "wrongNote": "先认出不通的地方，再考虑如何连接。",
+        "sourceIds": [
+          "UNESCO-GRAND-CANAL",
+          "NMC-SUI-TANG-FIVE-DYNASTIES"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "已有的水路",
+          "screenText": "河流和旧水道已经存在，但并不是每一段都相通。图里的粮船遇到断开的地方。",
+          "displayText": "河流和旧水道已经存在，但并不是每一段都相通。图里的粮船遇到断开的地方。",
+          "narration": "河流和旧水道已经存在，但并不是每一段都相通。图里的粮船遇到断开的地方。"
+        },
+        "assetId": "study-e90c81851455226e",
+        "image": "/content/study-scenes/study-e90c81851455226e.svg",
+        "studyImage": "/content/study-scenes/study-e90c81851455226e.svg",
+        "studyImageAlt": "分开的两段水道",
+        "imageAlt": "分开的两段水道",
+        "imageCaption": "学习示意 · 分开的两段水道",
+        "imageBoundary": "自制学习示意。水路为连通关系图，没有复原精确河线，也未使用未经核对的现代船闸来解释隋代。",
+        "audio": {
+          "transition": {
+            "id": "quest-c2cc3353b4746c74",
+            "text": "已有的水路。"
+          },
+          "intro": {
+            "id": "quest-d1accea27862d7ce",
+            "text": "河流和旧水道已经存在，但并不是每一段都相通。图里的粮船遇到断开的地方。"
+          },
+          "question": {
+            "id": "quest-ad1937441bed1936",
+            "text": "要接上下一段水路，先找哪里？"
+          },
+          "image": {
+            "id": "quest-9535821c13d416c1",
+            "text": "这是学习示意图：分开的两段水道。要接上下一段水路，先找哪里？"
+          },
+          "right": {
+            "id": "quest-44ce519f2b4895bc",
+            "text": "找到了。先认出不通的地方，再考虑如何连接。"
+          },
+          "wrong": {
+            "id": "quest-6fdeb924fefe3fb7",
+            "text": "再比较一下。先认出不通的地方，再考虑如何连接。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-01-sui-unification-canal-beginning-1",
+            "label": "两段之间断开的地方",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-18de0b49de7836e8.svg",
+            "imageAlt": "水路断开处",
+            "audio": {
+              "id": "quest-df8c770b3c8320e2",
+              "text": "两段之间断开的地方"
+            }
+          },
+          {
+            "id": "cn-ancient-06-01-sui-unification-canal-beginning-2",
+            "label": "已经能通船的中间",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-af51f1a26b49dc83.svg",
+            "imageAlt": "已通的河段",
+            "audio": {
+              "id": "quest-a6de885c0e4111e5",
+              "text": "已经能通船的中间"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "让船接着走",
+        "title": "让船接着走",
+        "prompt": "哪张图能让船一路接着走？",
+        "rightNote": "粮船往来需要连通的路线。简图省略了复杂工程。",
+        "wrongNote": "粮船往来需要连通的路线。简图省略了复杂工程。",
+        "sourceIds": [
+          "UNESCO-GRAND-CANAL",
+          "NMC-SUI-TANG-FIVE-DYNASTIES"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "让船接着走",
+          "screenText": "运河利用旧水道，也开凿新河段，把许多地方联系起来。实际工程要适应地势。",
+          "displayText": "运河利用旧水道，也开凿新河段，把许多地方联系起来。实际工程要适应地势。",
+          "narration": "运河利用旧水道，也开凿新河段，把许多地方联系起来。实际工程要适应地势。"
+        },
+        "assetId": "study-7a47d32ebd3dda59",
+        "image": "/content/study-scenes/study-7a47d32ebd3dda59.svg",
+        "studyImage": "/content/study-scenes/study-7a47d32ebd3dda59.svg",
+        "studyImageAlt": "旧水道，新开河段，接通",
+        "imageAlt": "旧水道，新开河段，接通",
+        "imageCaption": "学习示意 · 旧水道，新开河段，接通",
+        "imageBoundary": "自制学习示意。水路为连通关系图，没有复原精确河线，也未使用未经核对的现代船闸来解释隋代。",
+        "audio": {
+          "transition": {
+            "id": "quest-9d054595aa2196ce",
+            "text": "让船接着走。"
+          },
+          "intro": {
+            "id": "quest-3bd4708eae4b9288",
+            "text": "运河利用旧水道，也开凿新河段，把许多地方联系起来。实际工程要适应地势。"
+          },
+          "question": {
+            "id": "quest-407fd5934553c26d",
+            "text": "哪张图能让船一路接着走？"
+          },
+          "image": {
+            "id": "quest-64f2860811f5308a",
+            "text": "这是学习示意图：旧水道，新开河段，接通。哪张图能让船一路接着走？"
+          },
+          "right": {
+            "id": "quest-29ff807d3b57e3e4",
+            "text": "找到了。粮船往来需要连通的路线。简图省略了复杂工程。"
+          },
+          "wrong": {
+            "id": "quest-a81d3e1c10660dfb",
+            "text": "再比较一下。粮船往来需要连通的路线。简图省略了复杂工程。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-01-sui-unification-canal-journey-1",
+            "label": "新旧水道接通",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-e5ccfe3cb6216b5c.svg",
+            "imageAlt": "连通水路",
+            "audio": {
+              "id": "quest-b9e19fba557e7b66",
+              "text": "新旧水道接通"
+            }
+          },
+          {
+            "id": "cn-ancient-06-01-sui-unification-canal-journey-2",
+            "label": "每段水道各自分开",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-8cfc0987f843bd73.svg",
+            "imageAlt": "分开水路",
+            "audio": {
+              "id": "quest-eae303adb8c54df5",
+              "text": "每段水道各自分开"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "水路背后的人",
+        "title": "水路背后的人",
+        "prompt": "粮船遇到淤堵，还需要谁？",
+        "rightNote": "地图不会清走泥沙，河道需要实际维护。",
+        "wrongNote": "地图不会清走泥沙，河道需要实际维护。",
+        "sourceIds": [
+          "UNESCO-GRAND-CANAL",
+          "NMC-SUI-TANG-FIVE-DYNASTIES"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "水路背后的人",
+          "screenText": "开河、运粮、维护河道都需要许多人。沉重劳役给人们带来很大负担。",
+          "displayText": "开河、运粮、维护河道都需要许多人。沉重劳役给人们带来很大负担。",
+          "narration": "开河、运粮、维护河道都需要许多人。沉重劳役给人们带来很大负担。"
+        },
+        "assetId": "study-8ae6cbdd9be1f61e",
+        "image": "/content/study-scenes/study-8ae6cbdd9be1f61e.svg",
+        "studyImage": "/content/study-scenes/study-8ae6cbdd9be1f61e.svg",
+        "studyImageAlt": "粮船，淤堵，维护",
+        "imageAlt": "粮船，淤堵，维护",
+        "imageCaption": "学习示意 · 粮船，淤堵，维护",
+        "imageBoundary": "自制学习示意。水路为连通关系图，没有复原精确河线，也未使用未经核对的现代船闸来解释隋代。",
+        "audio": {
+          "transition": {
+            "id": "quest-8be76354c7effa0c",
+            "text": "水路背后的人。"
+          },
+          "intro": {
+            "id": "quest-bd461422ab0cf369",
+            "text": "开河、运粮、维护河道都需要许多人。沉重劳役给人们带来很大负担。"
+          },
+          "question": {
+            "id": "quest-5243277ab01aae3b",
+            "text": "粮船遇到淤堵，还需要谁？"
+          },
+          "image": {
+            "id": "quest-8cd60e2be350ae85",
+            "text": "这是学习示意图：粮船，淤堵，维护。粮船遇到淤堵，还需要谁？"
+          },
+          "right": {
+            "id": "quest-3ec3b87f2f274685",
+            "text": "找到了。地图不会清走泥沙，河道需要实际维护。"
+          },
+          "wrong": {
+            "id": "quest-c205ad63b7ee17f0",
+            "text": "再比较一下。地图不会清走泥沙，河道需要实际维护。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-01-sui-unification-canal-change-1",
+            "label": "检查、疏浚河道的人",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-d5e1d1dcabaf2242.svg",
+            "imageAlt": "疏浚河道",
+            "audio": {
+              "id": "quest-d22fb88a60637e9d",
+              "text": "检查、疏浚河道的人"
+            }
+          },
+          {
+            "id": "cn-ancient-06-01-sui-unification-canal-change-2",
+            "label": "只在岸上画路线的人",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-318dd3e0dbff348a.svg",
+            "imageAlt": "只画路线",
+            "audio": {
+              "id": "quest-6e99e2a43608daf2",
+              "text": "只在岸上画路线的人"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "唐朝还能用吗",
+        "title": "唐朝还能用吗",
+        "prompt": "水路要继续帮忙，需要什么？",
+        "rightNote": "连接水道很重要，后续维护同样重要。",
+        "wrongNote": "连接水道很重要，后续维护同样重要。",
+        "sourceIds": [
+          "UNESCO-GRAND-CANAL",
+          "NMC-SUI-TANG-FIVE-DYNASTIES"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "唐朝还能用吗",
+          "screenText": "隋结束后，运河的一些河段继续使用。工程的生命可以跨过一个朝代。",
+          "displayText": "隋结束后，运河的一些河段继续使用。工程的生命可以跨过一个朝代。",
+          "narration": "隋结束后，运河的一些河段继续使用。工程的生命可以跨过一个朝代。"
+        },
+        "assetId": "study-b213c9073b4e5668",
+        "image": "/content/study-scenes/study-b213c9073b4e5668.svg",
+        "studyImage": "/content/study-scenes/study-b213c9073b4e5668.svg",
+        "studyImageAlt": "隋代水路，后来维护，后代使用",
+        "imageAlt": "隋代水路，后来维护，后代使用",
+        "imageCaption": "学习示意 · 隋代水路，后来维护，后代使用",
+        "imageBoundary": "自制学习示意。水路为连通关系图，没有复原精确河线，也未使用未经核对的现代船闸来解释隋代。",
+        "audio": {
+          "transition": {
+            "id": "quest-f43c4f5883f8ec2f",
+            "text": "唐朝还能用吗。"
+          },
+          "intro": {
+            "id": "quest-bab64e63663f4f9e",
+            "text": "隋结束后，运河的一些河段继续使用。工程的生命可以跨过一个朝代。"
+          },
+          "question": {
+            "id": "quest-12d9b22fe336ed5b",
+            "text": "水路要继续帮忙，需要什么？"
+          },
+          "image": {
+            "id": "quest-8fc662b628356e24",
+            "text": "这是学习示意图：隋代水路，后来维护，后代使用。水路要继续帮忙，需要什么？"
+          },
+          "right": {
+            "id": "quest-e7a2c02ea96eea1a",
+            "text": "找到了。连接水道很重要，后续维护同样重要。"
+          },
+          "wrong": {
+            "id": "quest-0c7e1b16aafb71ae",
+            "text": "再比较一下。连接水道很重要，后续维护同样重要。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-01-sui-unification-canal-takeaway-1",
+            "label": "继续使用并维护",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-f8dceaea7fd7f46f.svg",
+            "imageAlt": "持续维护",
+            "audio": {
+              "id": "quest-186dca0103c492c4",
+              "text": "继续使用并维护"
+            }
+          },
+          {
+            "id": "cn-ancient-06-01-sui-unification-canal-takeaway-2",
+            "label": "只留下最初开河命令",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-5c4f1bd695d4e948.svg",
+            "imageAlt": "只留最初命令",
+            "audio": {
+              "id": "quest-341c4400ae3bd7da",
+              "text": "只留下最初开河命令"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "时间线三步走",
+        "items": [
+          "把“581年隋建立—589年重新统一—618年唐建立”放到正确位置。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "拼接运河系统",
+        "items": [
+          "把“已有河道、开凿新段、疏浚旧段、连接南北”拼成完整过程；不选择“从零挖出今天整条运河”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "影响分两面",
+        "items": [
+          "把“运输粮食、连接南北”放入长期作用，把“征发劳力、家庭负担”放入当时成本。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "隋朝在589年结束长期南北分立，重新建立统一政权，并确立三省六部制、创立科举制度。隋代还把此前不同时期开凿的河道与新建、整治的河段组织起来，使南北水路第一次形成统一的大运河交通系统。统一制度和交通有利于政令、人员与物资往来，但大规模工程、战争、徭役和赋税也给民众造成沉重负担。隋朝不是只因一条运河或一个人的决定而灭亡；多种矛盾共同激化，起义不断，618年隋朝结束。"
@@ -117,20 +787,20 @@
     },
     {
       "number": 2,
-      "title": "统一以后需要共同运转的制度",
-      "screenText": "三省六部负责不同政务；科举开始用考试选拔部分官员。",
+      "title": "第一拍：南方粮食要去洛阳",
+      "screenText": "一船粮食要过河道、停粮仓，还要有人装卸和领航。",
       "voices": [
         {
           "number": 3,
           "label": "语音 S03：",
-          "text": "隋朝确立三省六部制，让不同机构分工处理政务；科举制度也在隋朝创立，用考试选拔部分官员。唐朝后来继续发展这些制度。不过，古代能否读书和参加考试的机会并不平等，不能把科举说成今天完全一样的考试。",
+          "text": "先把一船粮食放在南方码头。它不会自己到洛阳：装船的人要把粮袋放稳，船工要看水路，沿岸粮仓要接收和转运，河道还要有人长期维护。这张运粮船图是自制示意，不是隋代现场照片。",
           "segments": [
             {
               "id": "cn-ancient-06-01-sui-unification-canal-s02-v03-01",
               "order": 1,
               "tier": "core",
-              "text": "隋朝确立三省六部制，让不同机构分工处理政务；科举制度也在隋朝创立，用考试选拔部分官员。唐朝后来继续发展这些制度。不过，古代能否读书和参加考试的机会并不平等，不能把科举说成今天完全一样的考试。",
-              "hanCharacters": 87
+              "text": "先把一船粮食放在南方码头。它不会自己到洛阳：装船的人要把粮袋放稳，船工要看水路，沿岸粮仓要接收和转运，河道还要有人长期维护。这张运粮船图是自制示意，不是隋代现场照片。",
+              "hanCharacters": 75
             }
           ]
         }
@@ -139,7 +809,7 @@
     },
     {
       "number": 3,
-      "title": "大运河不是从一条空白水路开始",
+      "title": "第二拍：把旧河道和新河段接起来",
       "screenText": "旧河道、新河段和疏浚工程，被连接成南北水路系统。",
       "voices": [
         {
@@ -161,20 +831,20 @@
     },
     {
       "number": 4,
-      "title": "水路让什么动起来",
-      "screenText": "粮食、原料、人员和消息，可以沿水路走得更远。",
+      "title": "第三拍：粮船沿水路接力",
+      "screenText": "装船 → 行船 → 停靠 → 入仓，少一环都到不了。",
       "voices": [
         {
           "number": 5,
           "label": "语音 S05：",
-          "text": "古代陆路运输大批粮食很困难，水路能够运送更多货物。大运河把南北许多地区连接起来，帮助粮食和原料运输，也方便人员、政令和消息往来。后来的王朝继续维护和改造这套水路。",
+          "text": "古代用陆路远运大批粮食很困难，水路可以一次运得更多。粮船经过不同河段和停靠点，粮食、原料、人员与消息都能走得更远。它不是一条船的奇迹，而是一套水路和许多人接力的结果。",
           "segments": [
             {
               "id": "cn-ancient-06-01-sui-unification-canal-s04-v05-01",
               "order": 1,
               "tier": "core",
-              "text": "古代陆路运输大批粮食很困难，水路能够运送更多货物。大运河把南北许多地区连接起来，帮助粮食和原料运输，也方便人员、政令和消息往来。后来的王朝继续维护和改造这套水路。",
-              "hanCharacters": 74
+              "text": "古代用陆路远运大批粮食很困难，水路可以一次运得更多。粮船经过不同河段和停靠点，粮食、原料、人员与消息都能走得更远。它不是一条船的奇迹，而是一套水路和许多人接力的结果。",
+              "hanCharacters": 75
             }
           ]
         }
@@ -183,7 +853,7 @@
     },
     {
       "number": 5,
-      "title": "巨大工程也有沉重代价",
+      "title": "河通了，也要看谁承担代价",
       "screenText": "工程、战争、徭役和赋税，把压力落到许多家庭身上。",
       "voices": [
         {
@@ -205,20 +875,20 @@
     },
     {
       "number": 6,
-      "title": "王朝结束了，影响没有立刻消失",
-      "screenText": "618年隋朝结束；唐朝继承并调整了统一制度和交通网络。",
+      "title": "拼出粮船走远的答案",
+      "screenText": "接旧水路、修新河段、有人行船、有人维护，粮船才能走远。",
       "voices": [
         {
           "number": 7,
           "label": "语音 S07：",
-          "text": "隋朝因多种矛盾共同激化而结束，不能只怪一条运河，也不能把原因缩成一个皇帝的性格。接下来的唐朝继承并调整了隋代制度和交通。下一章，我们就看唐初怎样从隋末动荡中恢复，并一步步走向繁荣。",
+          "text": "大运河把旧水路和新河段接成南北交通系统，船工、仓库和维护者让它真正运转。大型工程和战争也让许多家庭承担繁重劳役。618年隋朝结束以后，唐朝和后来的王朝仍继续使用、维护和改造这套水路。",
           "segments": [
             {
               "id": "cn-ancient-06-01-sui-unification-canal-s06-v07-01",
               "order": 1,
               "tier": "core",
-              "text": "隋朝因多种矛盾共同激化而结束，不能只怪一条运河，也不能把原因缩成一个皇帝的性格。接下来的唐朝继承并调整了隋代制度和交通。下一章，我们就看唐初怎样从隋末动荡中恢复，并一步步走向繁荣。",
-              "hanCharacters": 83
+              "text": "大运河把旧水路和新河段接成南北交通系统，船工、仓库和维护者让它真正运转。大型工程和战争也让许多家庭承担繁重劳役。618年隋朝结束以后，唐朝和后来的王朝仍继续使用、维护和改造这套水路。",
+              "hanCharacters": 81
             }
           ]
         }
@@ -299,18 +969,239 @@
       "authorityLevel": "A",
       "factUse": "科举制度创立于隋、唐代继续发展并在中国古代延续变化的总体信息",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-HISTORY-7B-2026-TRIAL",
+      "title": "新修订义务教育历史教材七年级下册试教资料",
+      "institution": "人民教育出版社",
+      "url": "https://www.pep.com.cn/xw/zt/hd/sktbjc/jcsy/202606/t20260610_2006778.html",
+      "type": "current-textbook-implementation-reference",
+      "authorityLevel": "A-structure-only",
+      "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "study-160604aad10812de",
+      "title": "学习示意：589年 统一、隋运河、618年 唐",
+      "localPath": "reference-assets/focused-quests/study-160604aad10812de.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "589年 统一 → 隋运河 → 618年 唐",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-dfa8e04664b25b56",
+      "title": "学习示意：589—618年之间",
+      "localPath": "reference-assets/focused-quests/study-dfa8e04664b25b56.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "589—618年之间",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-9dc6ac73b9119309",
+      "title": "学习示意：618年以后",
+      "localPath": "reference-assets/focused-quests/study-9dc6ac73b9119309.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "618年以后",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e90c81851455226e",
+      "title": "学习示意：分开的两段水道",
+      "localPath": "reference-assets/focused-quests/study-e90c81851455226e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "分开的两段水道",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-18de0b49de7836e8",
+      "title": "学习示意：水路断开处",
+      "localPath": "reference-assets/focused-quests/study-18de0b49de7836e8.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "水路断开处",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-af51f1a26b49dc83",
+      "title": "学习示意：已通的河段",
+      "localPath": "reference-assets/focused-quests/study-af51f1a26b49dc83.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "已通的河段",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-7a47d32ebd3dda59",
+      "title": "学习示意：旧水道、新开河段、接通",
+      "localPath": "reference-assets/focused-quests/study-7a47d32ebd3dda59.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "旧水道 → 新开河段 → 接通",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e5ccfe3cb6216b5c",
+      "title": "学习示意：连通水路",
+      "localPath": "reference-assets/focused-quests/study-e5ccfe3cb6216b5c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "连通水路",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8cfc0987f843bd73",
+      "title": "学习示意：分开水路",
+      "localPath": "reference-assets/focused-quests/study-8cfc0987f843bd73.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "分开水路",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8ae6cbdd9be1f61e",
+      "title": "学习示意：粮船、淤堵、维护",
+      "localPath": "reference-assets/focused-quests/study-8ae6cbdd9be1f61e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "粮船 → 淤堵 → 维护",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d5e1d1dcabaf2242",
+      "title": "学习示意：疏浚河道",
+      "localPath": "reference-assets/focused-quests/study-d5e1d1dcabaf2242.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "疏浚河道",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-318dd3e0dbff348a",
+      "title": "学习示意：只画路线",
+      "localPath": "reference-assets/focused-quests/study-318dd3e0dbff348a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只画路线",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b213c9073b4e5668",
+      "title": "学习示意：隋代水路、后来维护、后代使用",
+      "localPath": "reference-assets/focused-quests/study-b213c9073b4e5668.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "隋代水路 → 后来维护 → 后代使用",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-f8dceaea7fd7f46f",
+      "title": "学习示意：持续维护",
+      "localPath": "reference-assets/focused-quests/study-f8dceaea7fd7f46f.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "持续维护",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5c4f1bd695d4e948",
+      "title": "学习示意：只留最初命令",
+      "localPath": "reference-assets/focused-quests/study-5c4f1bd695d4e948.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只留最初命令",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "sui-canal-grain-boat-child-illustration",
+      "title": "一艘运粮船沿大运河航行的儿童示意图",
+      "localPath": "reference-assets/sui-tang-five-dynasties/sui-canal-grain-boat-self-made.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童示意图：船工、河道、粮仓与沿岸维护共同支持粮食运输。",
+      "boundary": "2026-08-09为低龄玩法自制的绘本插图。它不是隋代现场、复原图或史料证据；船、城门、粮仓与人物只帮助理解运输系统，历史判断仍以遗址、文献和权威来源为准。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "sui-tang-grand-canal-current-site-marker",
       "title": "隋唐大运河遗址现代保护标志照片",
       "localPath": "reference-assets/sui-tang-five-dynasties/sui-tang-grand-canal-site.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:20220310_Site_of_the_Grand_Canal_of_Sui_and_Tang_Dynasties_in_Sui_County.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "今天位于河南睢县的隋唐大运河遗址保护标志与周边环境。",
-      "boundary": "这是2022年的遗址现状照片，主体为现代保护标志，不是隋代遗物、河道原貌或开河现场。大运河历史与后世改造边界以UNESCO记录核验。原图1800×1200像素，未作修改。"
+      "boundary": "这是2022年的遗址现状照片，主体为现代保护标志，不是隋代遗物、河道原貌或开河现场。大运河历史与后世改造边界以UNESCO记录核验。原图1800×1200像素，未作修改。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-06-01-sui-unification-canal.jpg",

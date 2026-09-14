@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-ancient-01-05-rome-empire",
   "trackId": "world-ancient",
   "trackLabel": "世界古代史",
@@ -13,7 +13,648 @@
   "title": "罗马怎样从城市变成大帝国",
   "coreQuestion": "道路、军队、法律和城市怎样连接罗马世界？",
   "throughline": "从城市、共和国到元首制与帝国网络，以遗址、道路、金币、军人证书和社会材料认识罗马扩张、统治、公民权变化、奴役代价及长期延续。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-ancient-01-05-rome-empire",
+    "childTitle": "沿着阿庇亚大道去罗马",
+    "prompt": "道路、城市、法律和军队，怎样把很大的罗马世界连在一起？",
+    "takeaway": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。",
+    "object": "阿庇亚大道、金币与公民权文书",
+    "people": [
+      "道路工匠、居民、士兵、官员与被奴役者"
+    ],
+    "place": "罗马城与地中海交通网络",
+    "culture": "拉丁铭文与城市建筑",
+    "care": "不把扩张做成征服积分；传说建城、共和国制度和帝国变化分开。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📍",
+      "label": "从一个地方出发",
+      "text": "沿着阿庇亚大道去罗马"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "沿大道走向罗马",
+      "text": "先沿阿庇亚大道从城外走向罗马。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "道路和法律连起来",
+      "text": "接着看道路、法律和城市怎样连接地中海各地。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "大建筑不是全部",
+      "text": "最后繁荣与不平等同时存在，不能只看宏大建筑。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "公民",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "属于一个国家、依法有权利也有责任的人。",
+      "example": "古代有些地方只让少数人成为公民。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "共和国",
+      "icon": "🏛️",
+      "plain": "国家职位不是由皇位世代传下去的国家形式。",
+      "example": "写下共和国原则，不代表这些原则立刻全部做到。",
+      "priority": 2
+    },
+    {
+      "term": "帝国",
+      "icon": "🗺️",
+      "plain": "由中心统治许多地区和人群的大政权。",
+      "example": "帝国地图会变化，不能把不同时期边界画成一张。",
+      "priority": 3
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "权利",
+      "icon": "🫶",
+      "plain": "规则承认一个人可以做、可以得到保护的事情。",
+      "example": "写有权利，还要检查妇女、奴隶和穷人是否真的拥有。",
+      "priority": 1
+    },
+    {
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "税收",
+      "icon": "🧾",
+      "plain": "公共机构按规则向居民或交易收取的钱和物。",
+      "example": "税收可用于公共事务，也要看负担是否合理。",
+      "priority": 2
+    },
+    {
+      "term": "自由",
+      "icon": "🕊️",
+      "plain": "在不伤害别人并遵守共同规则时作出选择。",
+      "example": "历史文件写下自由，还要看哪些人当时没有得到。",
+      "priority": 2
+    },
+    {
+      "term": "皇帝",
+      "icon": "👑",
+      "plain": "古代君主国家最高统治者的一种称号。",
+      "example": "皇帝会作决定，也依靠官员、军队、工匠和百姓。",
+      "priority": 3
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "联盟",
+      "icon": "🔗",
+      "plain": "不同一方为了共同目标暂时或长期合作。",
+      "example": "联盟成员仍可能有不同想法和利益。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "地中海",
+      "reading": "Dìzhōnghǎi",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-01-05-rome-empire"
+      ],
+      "note": "“中”读zhōng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个地方",
+      "icon": "📍",
+      "label": "沿着阿庇亚大道去罗马",
+      "question": "道路、城市、法律和军队，怎样把很大的罗马世界连在一起？"
+    },
+    "coverAudio": {
+      "id": "quest-d3f6f443ca2b5990",
+      "text": "今天从一个地方出发：沿着阿庇亚大道去罗马。我们要去罗马城与地中海交通网络，看看阿庇亚大道、金币与公民权文书怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-a53c235ad4b12601",
+      "text": "五条线索都找到了，“沿着阿庇亚大道去罗马”的答案是：道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个地方出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是古代文明，时间是早期人类—约5世纪。",
+          "narration": "这是古代文明，时间是早期人类—约5世纪。",
+          "displayText": "这是古代文明，时间是早期人类—约5世纪。"
+        },
+        "assetId": "augustus-aureus-met-obverse-image",
+        "image": "/content/step-images/augustus-aureus-met-obverse-image.jpg",
+        "imageAlt": "前20至前19年奥古斯都金币正面",
+        "imageCaption": "前20至前19年的金质奥古斯都金币正面，可见头像、橡叶冠和铭文，现藏大都会艺术博物馆。",
+        "imageBoundary": "The Met开放原图等比缩至2200×1634像素，未裁切。对象编号08.170.118，馆方记录尺寸约1.8×1.9厘米。本地文件只有正面，正文不把对象记录中的背面桂枝、盾牌等说成画面可见；金币是政治传播媒介，不是人物照片。",
+        "audio": {
+          "transition": {
+            "id": "quest-cafb042b318bc60f",
+            "text": "先给一个地方找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-21581725ac4a1096",
+            "text": "这是古代文明，时间是早期人类—约5世纪。"
+          },
+          "image": {
+            "id": "quest-b0ef9dafbc12daf4",
+            "text": "点开大图啦。这是前20至前19年奥古斯都金币正面。这张图能帮我们找到：这是古代文明，时间是早期人类—约5世纪。"
+          },
+          "question": {
+            "id": "quest-6b36b10ba4b7def9",
+            "text": "从一个地方出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-05-rome-empire-time-1",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "world-ancient-01-05-rome-empire-time-2",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "world-ancient-01-05-rome-empire-time-3",
+            "label": "世界古代史 · 古代文明 · 早期人类—约5世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-41ed781097729712",
+              "text": "世界古代史 · 古代文明 · 早期人类—约5世纪"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "沿大道走向罗马",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先沿阿庇亚大道从城外走向罗马。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "沿大道走向罗马",
+          "screenText": "先沿阿庇亚大道从城外走向罗马。",
+          "narration": "先沿阿庇亚大道从城外走向罗马。",
+          "displayText": "先沿阿庇亚大道从城外走向罗马。"
+        },
+        "assetId": "via-appia-terracina-2014-photo",
+        "image": "/content/step-images/via-appia-terracina-2014-photo.jpg",
+        "imageAlt": "泰拉奇纳阿庇亚大道保存路段2014年实拍",
+        "imageCaption": "2014年拍摄的意大利泰拉奇纳Forum Aemilianum内阿庇亚大道保存路段，可见现存铺路石。",
+        "imageBoundary": "Commons原图4829×3203像素，等比缩至2200×1459像素，未裁切。照片拍摄于2014-06-30。地点是泰拉奇纳而非罗马城；画面只代表一段在现代环境中保存的道路，不用它规定整个800多公里系统在所有年代的铺面、宽度或完整程度。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-d68f5b14b09eabba",
+            "text": "先沿阿庇亚大道从城外走向罗马。"
+          },
+          "image": {
+            "id": "quest-21353283813eaa6b",
+            "text": "点开大图啦。这是泰拉奇纳阿庇亚大道保存路段2014年实拍。这张图能帮我们找到：先沿阿庇亚大道从城外走向罗马。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-05-rome-empire-beginning-1",
+            "label": "罗马城与地中海交通网络、沿着，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-5d6af6a16212ee1b",
+              "text": "罗马城与地中海交通网络、沿着，只是故事地点"
+            }
+          },
+          {
+            "id": "world-ancient-01-05-rome-empire-beginning-2",
+            "label": "阿庇亚大道、金币与公民权文书，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-e715d118d5bce03f",
+              "text": "阿庇亚大道、金币与公民权文书，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-ancient-01-05-rome-empire-beginning-3",
+            "label": "沿着阿庇亚大道去罗马、罗马城与地，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-ea0fe2d5165ef4be",
+              "text": "沿着阿庇亚大道去罗马、罗马城与地，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "道路和法律连起来",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看道路、法律和城市怎样连接地中海各地。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "道路和法律连起来",
+          "screenText": "接着看道路、法律和城市怎样连接地中海各地。",
+          "narration": "接着看道路、法律和城市怎样连接地中海各地。",
+          "displayText": "接着看道路、法律和城市怎样连接地中海各地。"
+        },
+        "assetId": "roman-forum-panorama-2015-photo",
+        "image": "/content/step-images/roman-forum-panorama-2015-photo.jpg",
+        "imageAlt": "罗马广场2015年全景实拍",
+        "imageCaption": "2015年从帕拉蒂尼山方向拍摄的罗马广场全景，可见共和国、帝国和后世城市多层遗迹的现代保存状态。",
+        "imageBoundary": "Commons原图10172×3082像素，等比缩至2200×666像素，未裁切。照片拍摄于2015-12-01。只用于辨认现代遗址空间和城市时间层，不把后世教堂、修复设施、植被与断壁状态移回共和国时期，也不把空遗址冒充公民大会现场。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-23a9b4c23c8610a2",
+            "text": "接着看道路、法律和城市怎样连接地中海各地。"
+          },
+          "image": {
+            "id": "quest-537e04f4ffbcac62",
+            "text": "点开大图啦。这是罗马广场2015年全景实拍。这张图能帮我们找到：接着看道路、法律和城市怎样连接地中海各地。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-05-rome-empire-journey-1",
+            "label": "接着看道路、法律和城市怎样连接地中海各地。",
+            "correct": true,
+            "audio": {
+              "id": "quest-23a9b4c23c8610a2",
+              "text": "接着看道路、法律和城市怎样连接地中海各地。"
+            }
+          },
+          {
+            "id": "world-ancient-01-05-rome-empire-journey-2",
+            "label": "罗马城与地中海交通网络、阿庇，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-e0f982e1854f84ad",
+              "text": "罗马城与地中海交通网络、阿庇，只说了地点"
+            }
+          },
+          {
+            "id": "world-ancient-01-05-rome-empire-journey-3",
+            "label": "沿着阿庇亚大道去罗马、阿庇亚大道，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-e4058dd82314aa81",
+              "text": "沿着阿庇亚大道去罗马、阿庇亚大道，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "大建筑不是全部",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后繁荣与不平等同时存在，不能只看宏大建筑。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "大建筑不是全部",
+          "screenText": "最后繁荣与不平等同时存在，不能只看宏大建筑。",
+          "narration": "最后繁荣与不平等同时存在，不能只看宏大建筑。",
+          "displayText": "最后繁荣与不平等同时存在，不能只看宏大建筑。"
+        },
+        "assetId": "augustus-aureus-met-obverse-image",
+        "image": "/content/step-images/augustus-aureus-met-obverse-image.jpg",
+        "imageAlt": "前20至前19年奥古斯都金币正面",
+        "imageCaption": "前20至前19年的金质奥古斯都金币正面，可见头像、橡叶冠和铭文，现藏大都会艺术博物馆。",
+        "imageBoundary": "The Met开放原图等比缩至2200×1634像素，未裁切。对象编号08.170.118，馆方记录尺寸约1.8×1.9厘米。本地文件只有正面，正文不把对象记录中的背面桂枝、盾牌等说成画面可见；金币是政治传播媒介，不是人物照片。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-8dbe491db40e7eda",
+            "text": "最后繁荣与不平等同时存在，不能只看宏大建筑。"
+          },
+          "image": {
+            "id": "quest-dedb75c04fe223ed",
+            "text": "点开大图啦。这是前20至前19年奥古斯都金币正面。这张图能帮我们找到：最后繁荣与不平等同时存在，不能只看宏大建筑。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-05-rome-empire-change-1",
+            "label": "看道路、法律和城市怎样连接地中，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-13326a263b97ee93",
+              "text": "看道路、法律和城市怎样连接地中，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-ancient-01-05-rome-empire-change-2",
+            "label": "阿庇亚大道、金币与公民权文，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-37a2b38884e2e9f7",
+              "text": "阿庇亚大道、金币与公民权文，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-ancient-01-05-rome-empire-change-3",
+            "label": "最后繁荣与不平等同时存在，不能只看宏大建筑。",
+            "correct": true,
+            "audio": {
+              "id": "quest-8dbe491db40e7eda",
+              "text": "最后繁荣与不平等同时存在，不能只看宏大建筑。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。",
+          "narration": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。",
+          "displayText": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。"
+        },
+        "assetId": "via-appia-terracina-2014-photo",
+        "image": "/content/step-images/via-appia-terracina-2014-photo.jpg",
+        "imageAlt": "泰拉奇纳阿庇亚大道保存路段2014年实拍",
+        "imageCaption": "2014年拍摄的意大利泰拉奇纳Forum Aemilianum内阿庇亚大道保存路段，可见现存铺路石。",
+        "imageBoundary": "Commons原图4829×3203像素，等比缩至2200×1459像素，未裁切。照片拍摄于2014-06-30。地点是泰拉奇纳而非罗马城；画面只代表一段在现代环境中保存的道路，不用它规定整个800多公里系统在所有年代的铺面、宽度或完整程度。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-9360713914aab9d3",
+            "text": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。"
+          },
+          "image": {
+            "id": "quest-11ae9009077460b1",
+            "text": "点开大图啦。这是泰拉奇纳阿庇亚大道保存路段2014年实拍。这张图能帮我们找到：道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-05-rome-empire-takeaway-1",
+            "label": "繁荣与不平等同时存在，不能只看宏大建筑。、沿着阿，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-95c555334ea41626",
+              "text": "繁荣与不平等同时存在，不能只看宏大建筑。、沿着阿，只说了结果"
+            }
+          },
+          {
+            "id": "world-ancient-01-05-rome-empire-takeaway-2",
+            "label": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。",
+            "correct": true,
+            "audio": {
+              "id": "quest-9360713914aab9d3",
+              "text": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。"
+            }
+          },
+          {
+            "id": "world-ancient-01-05-rome-empire-takeaway-3",
+            "label": "沿阿庇亚大道从城外走向罗马。、阿庇亚大道、金，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-df4419314470e175",
+              "text": "沿阿庇亚大道从城外走向罗马。、阿庇亚大道、金，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "时间线证据门",
+        "items": [
+          "把“传统建城传说”“阿庇亚大道开建”“奥古斯都与元首制”“公民权广泛授予自由居民”“西部最后一位皇帝被废”放到正确位置，并为每项选择“传说记忆、遗址工程、政治制度、法律身份、后世分界”证据类型。系统特别提示476年后东部继续，不出现“帝国爆炸消失”动画。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "帝国连接台",
+        "items": [
+          "把“道路、港口、地方城市、军队、法律身份、税收与劳动”放入网络图，再分别回答它能连接什么、会带来什么代价。答案必须同时包含移动与控制、交流与不平等，不把扩张、征服、收税或奴役做成得分奖励。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "文物能说到哪一步",
+        "items": [
+          "将金币、军人证书、墓葬浮雕和碧琉璃杯与“可以判断”“还不能判断”配对。例如金币能显示统治者公开形象，不能证明人人拥护；证书能证明一个人的获权条件，不能证明所有居民身份；玻璃杯能证明跨区域物品流动，不能证明单人直达旅程。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "罗马不是靠一条道路或一位皇帝突然变成大帝国。它先从意大利中部的城市发展出共和国制度，又通过结盟、战争、驻军、道路和城市网络不断扩张。扩张带来财富、人口和文化交流，也带来征服、税赋、土地不平等、奴役和反抗。共和国晚期的权力斗争与内战之后，奥古斯都在公元前27年建立元首制：元老院等共和国形式仍在，皇帝却掌握越来越集中的权力。帝国通过军队、港口、道路、地方城市、法律和不同层级的公民身份连接广大区域；212年公民权广泛授予自由居民，也没有消除身份和财富差别。476年西部最后一位皇帝被废，不等于整个罗马世界一夜消失，东部帝国仍继续存在。"
@@ -550,50 +1191,65 @@
       "title": "罗马广场2015年全景实拍",
       "localPath": "reference-assets/world-ancient-rome/roman-forum-2015.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama_of_the_Roman_Forum_(Forum_Romanum)_from_Palantine_Hill_-_Rome,_Italy.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 2.0",
       "clearance": "cleared-open-license",
       "caption": "2015年从帕拉蒂尼山方向拍摄的罗马广场全景，可见共和国、帝国和后世城市多层遗迹的现代保存状态。",
-      "boundary": "Commons原图10172×3082像素，等比缩至2200×666像素，未裁切。照片拍摄于2015-12-01。只用于辨认现代遗址空间和城市时间层，不把后世教堂、修复设施、植被与断壁状态移回共和国时期，也不把空遗址冒充公民大会现场。"
+      "boundary": "Commons原图10172×3082像素，等比缩至2200×666像素，未裁切。照片拍摄于2015-12-01。只用于辨认现代遗址空间和城市时间层，不把后世教堂、修复设施、植被与断壁状态移回共和国时期，也不把空遗址冒充公民大会现场。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "via-appia-terracina-2014-photo",
       "title": "泰拉奇纳阿庇亚大道保存路段2014年实拍",
       "localPath": "reference-assets/world-ancient-rome/via-appia-terracina-2014.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Forum_Aemilianum,_stretch_of_the_Via_Appia,_Tarracina_(Anxur),_Terracina,_Italy_(15224581792).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 2.0",
       "clearance": "cleared-open-license",
       "caption": "2014年拍摄的意大利泰拉奇纳Forum Aemilianum内阿庇亚大道保存路段，可见现存铺路石。",
-      "boundary": "Commons原图4829×3203像素，等比缩至2200×1459像素，未裁切。照片拍摄于2014-06-30。地点是泰拉奇纳而非罗马城；画面只代表一段在现代环境中保存的道路，不用它规定整个800多公里系统在所有年代的铺面、宽度或完整程度。"
+      "boundary": "Commons原图4829×3203像素，等比缩至2200×1459像素，未裁切。照片拍摄于2014-06-30。地点是泰拉奇纳而非罗马城；画面只代表一段在现代环境中保存的道路，不用它规定整个800多公里系统在所有年代的铺面、宽度或完整程度。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "augustus-aureus-met-obverse-image",
       "title": "前20至前19年奥古斯都金币正面",
       "localPath": "reference-assets/world-ancient-rome/augustus-gold-aureus-20-19-bce.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/246866",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "前20至前19年的金质奥古斯都金币正面，可见头像、橡叶冠和铭文，现藏大都会艺术博物馆。",
-      "boundary": "The Met开放原图等比缩至2200×1634像素，未裁切。对象编号08.170.118，馆方记录尺寸约1.8×1.9厘米。本地文件只有正面，正文不把对象记录中的背面桂枝、盾牌等说成画面可见；金币是政治传播媒介，不是人物照片。"
+      "boundary": "The Met开放原图等比缩至2200×1634像素，未裁切。对象编号08.170.118，馆方记录尺寸约1.8×1.9厘米。本地文件只有正面，正文不把对象记录中的背面桂枝、盾牌等说成画面可见；金币是政治传播媒介，不是人物照片。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "roman-military-diploma-149-met-image",
       "title": "约149年罗马青铜军人退役证书",
       "localPath": "reference-assets/world-ancient-rome/roman-military-diploma-149-ce.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/251376",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "约149年的罗马青铜军人退役证书，记录辅助军人服役后获得公民权和合法婚姻权的个案，现藏大都会艺术博物馆。",
-      "boundary": "The Met开放原图处理为2200×2200像素方图。对象编号23.160.32a–d；馆方记录两块铜板约13厘米见方。本地图可见一面铭文和馆藏编号标记，不能当作完整摊开的全部文书。正文保留士兵Dasmenus Azalus、服役二十五年和个案条件，不外推为普遍自动授予。"
+      "boundary": "The Met开放原图处理为2200×2200像素方图。对象编号23.160.32a–d；馆方记录两块铜板约13厘米见方。本地图可见一面铭文和馆藏编号标记，不能当作完整摊开的全部文书。正文保留士兵Dasmenus Azalus、服役二十五年和个案条件，不外推为普遍自动授予。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "roman-freed-couple-grave-relief-met-image",
       "title": "约前13年至公元5年双人墓葬浮雕",
       "localPath": "reference-assets/world-ancient-rome/freed-couple-grave-relief-13-bce-5-ce.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/248139",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "约前13年至公元5年的大理石双人墓葬浮雕；馆方认为它可能来自罗马户外墓葬纪念物，现藏大都会艺术博物馆。",
-      "boundary": "The Met开放原图处理为2200×2200像素方图。对象编号11.100.2，馆方记录50.8×71.4×13.7厘米。馆方只说明这类纪念物常由较富裕获释者设置，因此正文采用“可能、常见于”，不确定两人是夫妻、获释者或具体职业，不虚构名字和生平。"
+      "boundary": "The Met开放原图处理为2200×2200像素方图。对象编号11.100.2，馆方记录50.8×71.4×13.7厘米。馆方只说明这类纪念物常由较富裕获释者设置，因此正文采用“可能、常见于”，不确定两人是夫妻、获释者或具体职业，不虚构名字和生平。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-ancient-01-05-rome-empire.jpg",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-ancient-02-04-medieval-japan",
   "trackId": "world-ancient",
   "trackLabel": "世界古代史",
@@ -13,7 +13,664 @@
   "title": "古代日本怎样学习又形成自己的制度",
   "coreQuestion": "大化改新与武士政治怎样改变日本？",
   "throughline": "从朝鲜半岛迁徙者、600年遣隋使、645—702年渐进律令、710年奈良、753年末鉴真登陆日本与754年进入奈良、正仓院、平安京和假名文学，再到1180年代镰仓—京都双中心及1274、1281年战争后贸易延续，认识学习、调整与本地发展的连续过程。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-ancient-02-04-medieval-japan",
+    "childTitle": "鉴真到了奈良以后",
+    "prompt": "日本学习大陆制度和文化时，为什么还会慢慢长出自己的文字与生活？",
+    "takeaway": "学习不是照搬；日本人在交流中选择、改造，也形成自己的文字与传统。",
+    "object": "唐招提寺、正仓院宝库与《蒙古袭来绘词》",
+    "people": [
+      "鉴真和奈良工匠"
+    ],
+    "place": "奈良与平安京",
+    "culture": "假名文学与《源氏物语》传统",
+    "care": "学习是选择和调整，不画单向文明输送带；战争画卷不作刺激玩法。",
+    "preferredAssetId": "toshodaiji-golden-hall-2010-cc-by"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "👋",
+      "label": "从一个人出发",
+      "text": "鉴真到了奈良以后"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "鉴真抵达奈良",
+      "text": "先跟鉴真抵达奈良，走进唐招提寺。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "学习也会改造",
+      "text": "接着看日本怎样学习制度、工艺和文字。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "长出新的传统",
+      "text": "最后假名文学等传统在选择和改造中形成。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "学习不是照搬；日本人在交流中选择、改造，也形成自己的文字与传统。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "文明",
+      "icon": "🏙️",
+      "plain": "许多人长期创造的社会生活与文化成果。",
+      "example": "不同文明各有环境和道路，不做高低排名。",
+      "priority": 2
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "改革",
+      "icon": "🛠️",
+      "plain": "发现旧办法有问题，改变规则或做法。",
+      "example": "改革可能带来新机会，也可能遇到阻力和新问题。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "迁徙",
+      "icon": "👣",
+      "plain": "人们离开原住地，搬到别的地方生活。",
+      "example": "迁徙可能因为气候、生计、战争或主动选择。",
+      "priority": 1
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "税收",
+      "icon": "🧾",
+      "plain": "公共机构按规则向居民或交易收取的钱和物。",
+      "example": "税收可用于公共事务，也要看负担是否合理。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "政权",
+      "icon": "🏛️",
+      "plain": "谁在用什么机构和规则管理一个地方。",
+      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
+      "priority": 2
+    },
+    {
+      "term": "宗教",
+      "icon": "🕯️",
+      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
+      "example": "同一种宗教内部也有不同地区、时代和人群。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "鉴真",
+      "reading": "Jiànzhēn",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-04-tang-cultural-exchange",
+        "world-ancient-02-04-medieval-japan"
+      ],
+      "note": "“鉴”读jiàn。"
+    },
+    {
+      "text": "紫式部",
+      "reading": "Zǐshìbù",
+      "kind": "person",
+      "chapterIds": [
+        "world-ancient-02-04-medieval-japan"
+      ],
+      "note": "“部”读bù。"
+    },
+    {
+      "text": "镰仓",
+      "reading": "Liáncāng",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-04-medieval-japan"
+      ],
+      "note": "“镰”读lián，“仓”读cāng。"
+    },
+    {
+      "text": "奈良",
+      "reading": "Nàiliáng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-06-04-tang-cultural-exchange",
+        "world-ancient-02-04-medieval-japan"
+      ],
+      "note": "日本地名的普通话译名读法。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个人",
+      "icon": "👋",
+      "label": "鉴真到了奈良以后",
+      "question": "日本学习大陆制度和文化时，为什么还会慢慢长出自己的文字与生活？"
+    },
+    "coverAudio": {
+      "id": "quest-d415a433ce14d5af",
+      "text": "今天从一个人出发：鉴真到了奈良以后。我们要去奈良与平安京，看看唐招提寺、正仓院宝库与《蒙古袭来绘词》怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-cbb05dbbcf43cd26",
+      "text": "五条线索都找到了，“鉴真到了奈良以后”的答案是：学习不是照搬；日本人在交流中选择、改造，也形成自己的文字与传统。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 8,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个人出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是中古世界，时间是约5—15世纪。",
+          "narration": "这是中古世界，时间是约5—15世纪。",
+          "displayText": "这是中古世界，时间是约5—15世纪。"
+        },
+        "assetId": "toshodaiji-golden-hall-2010-cc-by",
+        "image": "/content/step-images/toshodaiji-golden-hall-2010-cc-by.jpg",
+        "imageAlt": "唐招提寺金堂柱廊2010年实拍",
+        "imageCaption": "2010年拍摄的奈良唐招提寺金堂柱廊近景；寺院759年在鉴真指导下形成，金堂由弟子等人在8世纪后半继续完成。",
+        "imageBoundary": "Commons原图4140×2760像素，等比缩至2200×1466像素，未裁切；拍摄于2010-09-25。画面含现代游客、防护网和帘幕，不冒充8世纪现场；不说鉴真亲手完成今天全部构件。",
+        "audio": {
+          "transition": {
+            "id": "quest-26e845d2917e6a26",
+            "text": "先给一个人找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-1fb2283ac891f89c",
+            "text": "这是中古世界，时间是约5—15世纪。"
+          },
+          "image": {
+            "id": "quest-129d7f00e37b8f56",
+            "text": "点开大图啦。这是唐招提寺金堂柱廊2010年实拍。这张图能帮我们找到：这是中古世界，时间是约5—15世纪。"
+          },
+          "question": {
+            "id": "quest-1c5cffbdae9ffb27",
+            "text": "从一个人出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-04-medieval-japan-time-1",
+            "label": "世界古代史 · 中古世界 · 约5—15世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-138b018948e0ad9a",
+              "text": "世界古代史 · 中古世界 · 约5—15世纪"
+            }
+          },
+          {
+            "id": "world-ancient-02-04-medieval-japan-time-2",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "world-ancient-02-04-medieval-japan-time-3",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "鉴真抵达奈良",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先跟鉴真抵达奈良，走进唐招提寺。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "鉴真抵达奈良",
+          "screenText": "先跟鉴真抵达奈良，走进唐招提寺。",
+          "narration": "先跟鉴真抵达奈良，走进唐招提寺。",
+          "displayText": "先跟鉴真抵达奈良，走进唐招提寺。"
+        },
+        "assetId": "toshodaiji-golden-hall-2010-cc-by",
+        "image": "/content/step-images/toshodaiji-golden-hall-2010-cc-by.jpg",
+        "imageAlt": "唐招提寺金堂柱廊2010年实拍",
+        "imageCaption": "2010年拍摄的奈良唐招提寺金堂柱廊近景；寺院759年在鉴真指导下形成，金堂由弟子等人在8世纪后半继续完成。",
+        "imageBoundary": "Commons原图4140×2760像素，等比缩至2200×1466像素，未裁切；拍摄于2010-09-25。画面含现代游客、防护网和帘幕，不冒充8世纪现场；不说鉴真亲手完成今天全部构件。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-3b2f0921242774b2",
+            "text": "先跟鉴真抵达奈良，走进唐招提寺。"
+          },
+          "image": {
+            "id": "quest-7428831a0a47cebd",
+            "text": "点开大图啦。这是唐招提寺金堂柱廊2010年实拍。这张图能帮我们找到：先跟鉴真抵达奈良，走进唐招提寺。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-04-medieval-japan-beginning-1",
+            "label": "鉴真和奈良工匠、奈良与平安京、假名文学与《，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-27f943ec617981c0",
+              "text": "鉴真和奈良工匠、奈良与平安京、假名文学与《，只是故事人物"
+            }
+          },
+          {
+            "id": "world-ancient-02-04-medieval-japan-beginning-2",
+            "label": "奈良与平安京、鉴真和奈良工匠、假名文学，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-073075c8239a68fb",
+              "text": "奈良与平安京、鉴真和奈良工匠、假名文学，只是故事地点"
+            }
+          },
+          {
+            "id": "world-ancient-02-04-medieval-japan-beginning-3",
+            "label": "唐招提寺、正仓院宝库与《蒙古袭来绘词》，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-92ef84c353e24036",
+              "text": "唐招提寺、正仓院宝库与《蒙古袭来绘词》，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "学习也会改造",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看日本怎样学习制度、工艺和文字。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "学习也会改造",
+          "screenText": "接着看日本怎样学习制度、工艺和文字。",
+          "narration": "接着看日本怎样学习制度、工艺和文字。",
+          "displayText": "接着看日本怎样学习制度、工艺和文字。"
+        },
+        "assetId": "shosoin-repository-2020-cc-by-sa",
+        "image": "/content/step-images/shosoin-repository-2020-cc-by-sa.jpg",
+        "imageAlt": "正仓院宝库2020年正面实拍",
+        "imageCaption": "2020年拍摄的正仓院8世纪木构宝库外观；珍宝现已转入20世纪建成的现代库房。",
+        "imageBoundary": "Commons原图4626×3217像素，等比缩至2200×1530像素，未裁切；拍摄于2020-06-22。画面只支持木库现存外观与保护环境，不显示室内藏品；不把全部藏品说成从一条丝绸之路直接运来。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-aef4a0535dfad26e",
+            "text": "接着看日本怎样学习制度、工艺和文字。"
+          },
+          "image": {
+            "id": "quest-a91bf86dd9bbd5bb",
+            "text": "点开大图啦。这是正仓院宝库2020年正面实拍。这张图能帮我们找到：接着看日本怎样学习制度、工艺和文字。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-04-medieval-japan-journey-1",
+            "label": "鉴真和奈良工匠、唐招提寺，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-b74a7c18fb596aff",
+              "text": "鉴真和奈良工匠、唐招提寺，只认出人物"
+            }
+          },
+          {
+            "id": "world-ancient-02-04-medieval-japan-journey-2",
+            "label": "接着看日本怎样学习制度、工艺和文字。",
+            "correct": true,
+            "audio": {
+              "id": "quest-aef4a0535dfad26e",
+              "text": "接着看日本怎样学习制度、工艺和文字。"
+            }
+          },
+          {
+            "id": "world-ancient-02-04-medieval-japan-journey-3",
+            "label": "奈良与平安京、唐招提寺，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-5f8ec0785be49b4f",
+              "text": "奈良与平安京、唐招提寺，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "长出新的传统",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后假名文学等传统在选择和改造中形成。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "长出新的传统",
+          "screenText": "最后假名文学等传统在选择和改造中形成。",
+          "narration": "最后假名文学等传统在选择和改造中形成。",
+          "displayText": "最后假名文学等传统在选择和改造中形成。"
+        },
+        "assetId": "genji-handscroll-1594-met-open-access",
+        "image": "/content/step-images/genji-handscroll-1594-met-open-access.jpg",
+        "imageAlt": "1594年《源氏物语》手卷文字页",
+        "imageCaption": "龙女于1594年完成的《源氏物语》五卷手卷之一的文字页，显示作品的后世传抄与假名书法传统。",
+        "imageBoundary": "The Met开放原图4000×2371像素，等比缩至2200×1304像素，未裁切；对象编号839905。它不是紫式部约11世纪初原稿，也不是平安宫廷现场；原先候选的12世纪图带研究机构水印，已排除。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-083ad8af2d518388",
+            "text": "最后假名文学等传统在选择和改造中形成。"
+          },
+          "image": {
+            "id": "quest-0a00248cb6ad55b7",
+            "text": "点开大图啦。这是1594年《源氏物语》手卷文字页。这张图能帮我们找到：最后假名文学等传统在选择和改造中形成。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-04-medieval-japan-change-1",
+            "label": "最后假名文学等传统在选择和改造中形成。",
+            "correct": true,
+            "audio": {
+              "id": "quest-083ad8af2d518388",
+              "text": "最后假名文学等传统在选择和改造中形成。"
+            }
+          },
+          {
+            "id": "world-ancient-02-04-medieval-japan-change-2",
+            "label": "看日本怎样学习制度、工艺，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-5752a089c070d185",
+              "text": "看日本怎样学习制度、工艺，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-ancient-02-04-medieval-japan-change-3",
+            "label": "唐招提寺、正仓院宝库，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-ff1a6e24ce03d2c3",
+              "text": "唐招提寺、正仓院宝库，还只是故事起点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "学习不是照搬；日本人在交流中选择、改造，也形成自己的文字与传统。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "学习不是照搬；日本人在交流中选择、改造，也形成自己的文字与传统。",
+          "narration": "学习不是照搬；日本人在交流中选择、改造，也形成自己的文字与传统。",
+          "displayText": "学习不是照搬；日本人在交流中选择、改造，也形成自己的文字与传统。"
+        },
+        "assetId": "toshodaiji-golden-hall-2010-cc-by",
+        "image": "/content/step-images/toshodaiji-golden-hall-2010-cc-by.jpg",
+        "imageAlt": "唐招提寺金堂柱廊2010年实拍",
+        "imageCaption": "2010年拍摄的奈良唐招提寺金堂柱廊近景；寺院759年在鉴真指导下形成，金堂由弟子等人在8世纪后半继续完成。",
+        "imageBoundary": "Commons原图4140×2760像素，等比缩至2200×1466像素，未裁切；拍摄于2010-09-25。画面含现代游客、防护网和帘幕，不冒充8世纪现场；不说鉴真亲手完成今天全部构件。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-a744d8cf5d35dafa",
+            "text": "学习不是照搬；日本人在交流中选择、改造，也形成自己的文字与传统。"
+          },
+          "image": {
+            "id": "quest-98b4ac15a3271cee",
+            "text": "点开大图啦。这是唐招提寺金堂柱廊2010年实拍。这张图能帮我们找到：学习不是照搬；日本人在交流中选择、改造，也形成自己的文字与传统。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-04-medieval-japan-takeaway-1",
+            "label": "跟鉴真抵达奈良，走进唐招提寺。、唐招提寺、正仓院宝，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-4537fbbf08b76309",
+              "text": "跟鉴真抵达奈良，走进唐招提寺。、唐招提寺、正仓院宝，只说了原因"
+            }
+          },
+          {
+            "id": "world-ancient-02-04-medieval-japan-takeaway-2",
+            "label": "假名文学等传统在选择和改造中形成。、鉴真到了奈良以后，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-18e51473c29e8d9b",
+              "text": "假名文学等传统在选择和改造中形成。、鉴真到了奈良以后，只说了结果"
+            }
+          },
+          {
+            "id": "world-ancient-02-04-medieval-japan-takeaway-3",
+            "label": "学习不是照搬；日本人在交流中选择、改造，也形成自己的文字与传统。",
+            "correct": true,
+            "audio": {
+              "id": "quest-a744d8cf5d35dafa",
+              "text": "学习不是照搬；日本人在交流中选择、改造，也形成自己的文字与传统。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把过程放回时间线",
+        "items": [
+          "把600年遣隋使、645年改革起点、701—702年大宝律令、710年奈良、753年末鉴真登陆日本、754年进入奈良、794年平安京、1180年代镰仓幕府、1274与1281年战争拖回时间线。反馈用“开始—继续形成—后来变化”，不把年代背诵速度做成儿童能力排名。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "参考不等于复制",
+        "items": [
+          "将“法隆寺建筑布局”“奈良城市规划”“律令官制”“假名书写”“正仓院藏品”分别连到“参考中国或经朝鲜半岛传入”“在日本调整”“多地材料与本地制作”“逐渐发展”的多重标签。一个对象可连多个标签，系统不设置“最先进文明”答案。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "证据能说什么",
+        "items": [
+          "给法隆寺照片、正仓院照片、1594年《源氏物语》页和《蒙古袭来绘词》选择“可以支持”与“还不能证明”。可以支持建筑现存与维护、宝库外观、作品长期传抄、季长视角；不能证明607年原样、珍宝仍在木库内、紫式部亲笔、战场上每个人的姓名族群和完整战争经过。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "古代日本不是关起门来独自变化，也不是把隋唐中国完整复制到海的另一边。5—6世纪前后，朝鲜半岛的迁徙者已经带来国家组织、文字、技术和宗教知识；600年以后，日本又派遣使者、留学生和僧人前往隋唐中国。645年常被当作“大化改新”的起点，但中央官制、律令、户籍、税役和地方治理经过几十年才逐步形成，689年与701—702年的法令是重要节点。奈良和平安京参考中国都城和制度，又因当地地理、宗教、社会和语言发生改变。到10世纪以后，假名文学与地方武士力量发展；1180年代形成的镰仓幕府扩大武士政治，却仍与京都朝廷共同构成相连的权力体系。1274年和1281年的元军来袭造成战争，但冲突没有结束中国与日本之间的海上贸易和宗教往来。法隆寺、正仓院、唐招提寺、手卷和绘词共同说明：文化交流不是一条从“先进”流向“落后”的直线，而是人在旅行、选择、翻译、保存和改造中形成的新历史。"
@@ -679,50 +1336,65 @@
       "title": "法隆寺中门、五重塔及当代寺院环境2010年实拍",
       "localPath": "reference-assets/world-ancient-medieval-japan/horyuji-inner-gate-pagoda-2010.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Horyu-ji45s2s4500.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 2.5",
       "clearance": "cleared-open-license",
       "caption": "2010年拍摄的法隆寺中门、五重塔和当代参观环境；早期建筑群经历670年火灾、随后重建和长期修理。",
-      "boundary": "Commons原图4500×3000像素，等比缩至2200×1466像素，未裁切；拍摄日期按Commons登记为2010-12-04，文件EXIF因时区显示2010-12-05。照片不是607年竣工照，现代游客、道路和维护细节不移入古代。"
+      "boundary": "Commons原图4500×3000像素，等比缩至2200×1466像素，未裁切；拍摄日期按Commons登记为2010-12-04，文件EXIF因时区显示2010-12-05。照片不是607年竣工照，现代游客、道路和维护细节不移入古代。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "shosoin-repository-2020-cc-by-sa",
       "title": "正仓院宝库2020年正面实拍",
       "localPath": "reference-assets/world-ancient-medieval-japan/shosoin-repository-2020.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Shosin-shouso.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2020年拍摄的正仓院8世纪木构宝库外观；珍宝现已转入20世纪建成的现代库房。",
-      "boundary": "Commons原图4626×3217像素，等比缩至2200×1530像素，未裁切；拍摄于2020-06-22。画面只支持木库现存外观与保护环境，不显示室内藏品；不把全部藏品说成从一条丝绸之路直接运来。"
+      "boundary": "Commons原图4626×3217像素，等比缩至2200×1530像素，未裁切；拍摄于2020-06-22。画面只支持木库现存外观与保护环境，不显示室内藏品；不把全部藏品说成从一条丝绸之路直接运来。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "toshodaiji-golden-hall-2010-cc-by",
       "title": "唐招提寺金堂柱廊2010年实拍",
       "localPath": "reference-assets/world-ancient-medieval-japan/toshodaiji-golden-hall-2010.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Toshodaiji_Nara_Nara_pref37s3s4140.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 2.5",
       "clearance": "cleared-open-license",
       "caption": "2010年拍摄的奈良唐招提寺金堂柱廊近景；寺院759年在鉴真指导下形成，金堂由弟子等人在8世纪后半继续完成。",
-      "boundary": "Commons原图4140×2760像素，等比缩至2200×1466像素，未裁切；拍摄于2010-09-25。画面含现代游客、防护网和帘幕，不冒充8世纪现场；不说鉴真亲手完成今天全部构件。"
+      "boundary": "Commons原图4140×2760像素，等比缩至2200×1466像素，未裁切；拍摄于2010-09-25。画面含现代游客、防护网和帘幕，不冒充8世纪现场；不说鉴真亲手完成今天全部构件。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "genji-handscroll-1594-met-open-access",
       "title": "1594年《源氏物语》手卷文字页",
       "localPath": "reference-assets/world-ancient-medieval-japan/genji-handscroll-1594.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/839905",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "龙女于1594年完成的《源氏物语》五卷手卷之一的文字页，显示作品的后世传抄与假名书法传统。",
-      "boundary": "The Met开放原图4000×2371像素，等比缩至2200×1304像素，未裁切；对象编号839905。它不是紫式部约11世纪初原稿，也不是平安宫廷现场；原先候选的12世纪图带研究机构水印，已排除。"
+      "boundary": "The Met开放原图4000×2371像素，等比缩至2200×1304像素，未裁切；对象编号839905。它不是紫式部约11世纪初原稿，也不是平安宫廷现场；原先候选的12世纪图带研究机构水印，已排除。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "moko-shurai-ekotoba-c1293-public-domain",
       "title": "约1293年《蒙古袭来绘词》战斗片段公共领域复制图",
       "localPath": "reference-assets/world-ancient-medieval-japan/moko-shurai-ekotoba-late-13th-century.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:M%C5%8Dko_Sh%C5%ABrai_Ekotoba.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "约1293年《蒙古袭来绘词》第一卷战斗片段的公共领域复制图，围绕参加1274年和1281年战争的竹崎季长展开。",
-      "boundary": "Commons图2520×843像素，等比缩至2200×736像素，未裁切。原作是13世纪绘词而非战场照片；现存卷有错序、缺页和片段混合，不据画面为每个人确定族群、姓名或完整战术，也不放大伤口和爆炸作刺激奖励。"
+      "boundary": "Commons图2520×843像素，等比缩至2200×736像素，未裁切。原作是13世纪绘词而非战场照片；现存卷有错序、缺页和片段混合，不据画面为每个人确定族群、姓名或完整战术，也不放大伤口和爆炸作刺激奖励。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-ancient-02-04-medieval-japan.jpg",

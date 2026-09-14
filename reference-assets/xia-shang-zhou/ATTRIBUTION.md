@@ -11,11 +11,13 @@
 | `houmuwu-ding.jpg` | 后母戊鼎原件 | Mlogic | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:HouMuWuDingFullView.jpg | 未修改 |
 | `li-gui.jpg` | 西周利簋 | Gary Todd | CC0 1.0 | https://commons.wikimedia.org/wiki/File:Western_Zhou_%22Li%22_Bronze_Gui.jpg | 来源页现版本经过裁切和轻微旋转；本项目未再修改 |
 | `da-yu-ding.jpg` | 西周大盂鼎 | Baomi；Dirrival 校正 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:大盂鼎_Da_Yu_ding.jpg | 来源页现版本经过倾斜校正；本项目未再修改 |
+| `erlitou-four-clues-child-diagram.png` | 二里头道路、宫殿区、作坊和绿松石龙线索图 | 项目组AI辅助生成 | 项目自制 | https://openai.com/policies/terms-of-use/ | 低龄学习示意，不是遗址照片、考古平面图或精确复原 |
 
 ## 使用限制
 
 - `yinxu-site.jpg` 是今天的遗址地现状，不得标成商代城市原貌。
 - `erlitou-turquoise-dragon.jpg` 的画面由整体和局部照片组成；不得裁成“出土现场”。
+- `erlitou-four-clues-child-diagram.png` 只把四类线索放进同一儿童学习图；建筑、道路、作坊和器物比例都不能当作考古测绘结论。
 - 后母戊鼎重量统一使用中国国家博物馆记录的 832.84 千克，不采用图片来源页曾出现的旧数据。
 - 甲骨照片只说明看得见的骨片和刻辞；图中不能确认的钻凿、灼痕不得强行标注。
 - CC BY 与 CC BY-SA 图片在产品内使用时保留作者、来源和许可链接；如有裁切、调色或加字，必须另行写明。

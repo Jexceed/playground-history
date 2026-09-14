@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.9.0",
+  "contentVersion": "0.10.0",
   "id": "cross-05-environment-development",
   "trackId": "cross-disciplinary",
   "trackLabel": "跨学科主题学习",
@@ -13,7 +13,574 @@
   "title": "一条河怎样养一片平原：都江堰为什么需要两千多年维护",
   "coreQuestion": "地形、水流、工程、社会劳动和长期维护怎样共同让都江堰持续运行？",
   "throughline": "先以约公元前256年始建—唐宋元明修改扩展—历代岁修—2000年列入世界遗产—今天继续运行建立都江堰时间线，再从岷江山地进入成都平原的地形出发，观察鱼嘴分流、飞沙堰泄洪排沙、宝瓶口控制引水与辅助水道怎样协同。儿童把李冰主持与集体建设、工程思想延续与材料结构更新、灌溉效益与维护分配责任同时写入证据图；最后与干旱卡迪尔岛朵拉维拉的季节性溪流、蓄水池和排水系统比较环境适应，不做文明排名或虚构接触。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "cross-05-environment-development",
+    "childTitle": "都江堰怎样把水分成两条路",
+    "prompt": "地形、水流、工程和每年维护，为什么少了哪一项都不行？",
+    "takeaway": "都江堰顺着地形分水排沙，能用两千多年更因为代代维护和调整。",
+    "object": "鱼嘴、飞沙堰、宝瓶口与岁修照片",
+    "people": [
+      "李冰、历代修建维护者与成都平原居民"
+    ],
+    "place": "四川都江堰与成都平原",
+    "culture": "水利遗产与地方生活",
+    "care": "两千多年持续使用不等于从未改变；现代照片不冒充战国现场。",
+    "preferredAssetId": "dujiangyan-weir-overview-2020-cc-by-sa"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📍",
+      "label": "从一个地方出发",
+      "text": "都江堰怎样把水分成两条路"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "鱼嘴分出两条路",
+      "text": "先看鱼嘴把水分成两条路。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "排沙再控制水量",
+      "text": "接着看飞沙堰排沙、宝瓶口控制水量。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "顺地形也要岁修",
+      "text": "最后工程顺着地形工作，还要代代岁修。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "都江堰顺着地形分水排沙，能用两千多年更因为代代维护和调整。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "考古",
+      "icon": "🧹",
+      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
+      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "责任",
+      "icon": "🤲",
+      "plain": "答应或应当承担、需要认真完成的事情。",
+      "example": "拥有公共权利，也常要承担相应责任。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "都江堰",
+      "reading": "Dūjiāngyàn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-03-01-iron-waterworks",
+        "cross-05-environment-development"
+      ],
+      "note": "“都”在此读dū，不读dōu。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个地方",
+      "icon": "📍",
+      "label": "都江堰怎样把水分成两条路",
+      "question": "地形、水流、工程和每年维护，为什么少了哪一项都不行？"
+    },
+    "coverAudio": {
+      "id": "quest-8d3874d6b0e8d9a5",
+      "text": "今天从一个地方出发：都江堰怎样把水分成两条路。我们要去四川都江堰与成都平原，看看鱼嘴、飞沙堰、宝瓶口与岁修照片怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-b6a2bc1f1db0fd09",
+      "text": "五条线索都找到了，“都江堰怎样把水分成两条路”的答案是：都江堰顺着地形分水排沙，能用两千多年更因为代代维护和调整。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 12,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个地方出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这个故事会跨越很多时代，来比较跨时代证据任务。",
+          "narration": "这个故事会跨越很多时代，来比较跨时代证据任务。",
+          "displayText": "这个故事会跨越很多时代，来比较跨时代证据任务。"
+        },
+        "assetId": "dujiangyan-three-part-child-diagram",
+        "image": "/content/step-images/dujiangyan-three-part-child-diagram.jpg",
+        "imageAlt": "都江堰分水、排沙与引水儿童示意图",
+        "imageCaption": "自制原理示意图：鱼嘴分水、飞沙堰分洪排沙、宝瓶口引水灌溉。",
+        "imageBoundary": "2026-08-09为低龄玩法自制。它只帮助理解三部分接力，不表示真实比例、流量、泥沙数值、古今材料或某个历史时刻；判断现状与历史仍须对照实拍和权威资料。",
+        "audio": {
+          "transition": {
+            "id": "quest-cafb042b318bc60f",
+            "text": "先给一个地方找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-67ed9824b7d74732",
+            "text": "这个故事会跨越很多时代，来比较跨时代证据任务。"
+          },
+          "image": {
+            "id": "quest-f8843e672c219419",
+            "text": "点开大图啦。这是都江堰分水、排沙与引水儿童示意图。这张图能帮我们找到：这个故事会跨越很多时代，来比较跨时代证据任务。"
+          },
+          "question": {
+            "id": "quest-6b36b10ba4b7def9",
+            "text": "从一个地方出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-05-environment-development-time-1",
+            "label": "世界古代史 · 古代文明 · 早期人类—约5世纪",
+            "correct": false,
+            "audio": {
+              "id": "quest-41ed781097729712",
+              "text": "世界古代史 · 古代文明 · 早期人类—约5世纪"
+            }
+          },
+          {
+            "id": "cross-05-environment-development-time-2",
+            "label": "世界古代史 · 中古世界 · 约5—15世纪",
+            "correct": false,
+            "audio": {
+              "id": "quest-138b018948e0ad9a",
+              "text": "世界古代史 · 中古世界 · 约5—15世纪"
+            }
+          },
+          {
+            "id": "cross-05-environment-development-time-3",
+            "label": "跨越很多时代 · 跨时代证据任务",
+            "correct": true,
+            "audio": {
+              "id": "quest-91c6443f7f3a1ac7",
+              "text": "跨越很多时代 · 跨时代证据任务"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "鱼嘴分出两条路",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看鱼嘴把水分成两条路。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "鱼嘴分出两条路",
+          "screenText": "先看鱼嘴把水分成两条路。",
+          "narration": "先看鱼嘴把水分成两条路。",
+          "displayText": "先看鱼嘴把水分成两条路。"
+        },
+        "assetId": "dujiangyan-three-part-child-diagram",
+        "image": "/content/step-images/dujiangyan-three-part-child-diagram.jpg",
+        "imageAlt": "都江堰分水、排沙与引水儿童示意图",
+        "imageCaption": "自制原理示意图：鱼嘴分水、飞沙堰分洪排沙、宝瓶口引水灌溉。",
+        "imageBoundary": "2026-08-09为低龄玩法自制。它只帮助理解三部分接力，不表示真实比例、流量、泥沙数值、古今材料或某个历史时刻；判断现状与历史仍须对照实拍和权威资料。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-6028491f2711b8ea",
+            "text": "先看鱼嘴把水分成两条路。"
+          },
+          "image": {
+            "id": "quest-23746c2695658d7f",
+            "text": "点开大图啦。这是都江堰分水、排沙与引水儿童示意图。这张图能帮我们找到：先看鱼嘴把水分成两条路。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-05-environment-development-beginning-1",
+            "label": "四川都江堰与成都平原、李冰、历，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-a68b9902bd8989e9",
+              "text": "四川都江堰与成都平原、李冰、历，只是故事地点"
+            }
+          },
+          {
+            "id": "cross-05-environment-development-beginning-2",
+            "label": "鱼嘴、飞沙堰、宝瓶口与岁修照片，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-2085d5bf622981d8",
+              "text": "鱼嘴、飞沙堰、宝瓶口与岁修照片，是能核对的证物"
+            }
+          },
+          {
+            "id": "cross-05-environment-development-beginning-3",
+            "label": "李冰、历代修建维护者与成都平原居民，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-c8bc0364e3d91d0b",
+              "text": "李冰、历代修建维护者与成都平原居民，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "排沙再控制水量",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看飞沙堰排沙、宝瓶口控制水量。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "排沙再控制水量",
+          "screenText": "接着看飞沙堰排沙、宝瓶口控制水量。",
+          "narration": "接着看飞沙堰排沙、宝瓶口控制水量。",
+          "displayText": "接着看飞沙堰排沙、宝瓶口控制水量。"
+        },
+        "assetId": "dujiangyan-three-part-child-diagram",
+        "image": "/content/step-images/dujiangyan-three-part-child-diagram.jpg",
+        "imageAlt": "都江堰分水、排沙与引水儿童示意图",
+        "imageCaption": "自制原理示意图：鱼嘴分水、飞沙堰分洪排沙、宝瓶口引水灌溉。",
+        "imageBoundary": "2026-08-09为低龄玩法自制。它只帮助理解三部分接力，不表示真实比例、流量、泥沙数值、古今材料或某个历史时刻；判断现状与历史仍须对照实拍和权威资料。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-2da4a15cfa78378e",
+            "text": "接着看飞沙堰排沙、宝瓶口控制水量。"
+          },
+          "image": {
+            "id": "quest-7d269885d0883a1a",
+            "text": "点开大图啦。这是都江堰分水、排沙与引水儿童示意图。这张图能帮我们找到：接着看飞沙堰排沙、宝瓶口控制水量。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-05-environment-development-journey-1",
+            "label": "接着看飞沙堰排沙、宝瓶口控制水量。",
+            "correct": true,
+            "audio": {
+              "id": "quest-2da4a15cfa78378e",
+              "text": "接着看飞沙堰排沙、宝瓶口控制水量。"
+            }
+          },
+          {
+            "id": "cross-05-environment-development-journey-2",
+            "label": "四川都江堰与成都平原，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-c0ddd31794355ebf",
+              "text": "四川都江堰与成都平原，只说了地点"
+            }
+          },
+          {
+            "id": "cross-05-environment-development-journey-3",
+            "label": "李冰、历代修建维护者与成，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-f2e5cbd74214a0e7",
+              "text": "李冰、历代修建维护者与成，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "顺地形也要岁修",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后工程顺着地形工作，还要代代岁修。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "顺地形也要岁修",
+          "screenText": "最后工程顺着地形工作，还要代代岁修。",
+          "narration": "最后工程顺着地形工作，还要代代岁修。",
+          "displayText": "最后工程顺着地形工作，还要代代岁修。"
+        },
+        "assetId": "dujiangyan-baopingkou-maintenance-2002-cc-by-sa",
+        "image": "/content/step-images/dujiangyan-baopingkou-maintenance-2002-cc-by-sa.jpg",
+        "imageAlt": "2002年宝瓶口岁修场景",
+        "imageCaption": "2002年12月8日拍摄的宝瓶口岁修场景，可见低水位、河床、卵石与现代人员。",
+        "imageBoundary": "本地JPEG为640×480像素。它只记录2002年一次现代维护场景，不能代表战国、唐宋或每年都使用相同工具、服装、步骤和水位；署名C. M. Osman并附CC BY-SA 3.0。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-6fb3b2f4538d9a20",
+            "text": "最后工程顺着地形工作，还要代代岁修。"
+          },
+          "image": {
+            "id": "quest-0e20c65902a845e0",
+            "text": "点开大图啦。这是2002年宝瓶口岁修场景。这张图能帮我们找到：最后工程顺着地形工作，还要代代岁修。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-05-environment-development-change-1",
+            "label": "看飞沙堰排沙、宝瓶口控，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-66dfb473344f6b87",
+              "text": "看飞沙堰排沙、宝瓶口控，还只是行动经过"
+            }
+          },
+          {
+            "id": "cross-05-environment-development-change-2",
+            "label": "鱼嘴、飞沙堰、宝瓶，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-289658010030b469",
+              "text": "鱼嘴、飞沙堰、宝瓶，还只是故事起点"
+            }
+          },
+          {
+            "id": "cross-05-environment-development-change-3",
+            "label": "最后工程顺着地形工作，还要代代岁修。",
+            "correct": true,
+            "audio": {
+              "id": "quest-6fb3b2f4538d9a20",
+              "text": "最后工程顺着地形工作，还要代代岁修。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "都江堰顺着地形分水排沙，能用两千多年更因为代代维护和调整。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "都江堰顺着地形分水排沙，能用两千多年更因为代代维护和调整。",
+          "narration": "都江堰顺着地形分水排沙，能用两千多年更因为代代维护和调整。",
+          "displayText": "都江堰顺着地形分水排沙，能用两千多年更因为代代维护和调整。"
+        },
+        "assetId": "dujiangyan-three-part-child-diagram",
+        "image": "/content/step-images/dujiangyan-three-part-child-diagram.jpg",
+        "imageAlt": "都江堰分水、排沙与引水儿童示意图",
+        "imageCaption": "自制原理示意图：鱼嘴分水、飞沙堰分洪排沙、宝瓶口引水灌溉。",
+        "imageBoundary": "2026-08-09为低龄玩法自制。它只帮助理解三部分接力，不表示真实比例、流量、泥沙数值、古今材料或某个历史时刻；判断现状与历史仍须对照实拍和权威资料。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-c2bdf5dad2bd29c2",
+            "text": "都江堰顺着地形分水排沙，能用两千多年更因为代代维护和调整。"
+          },
+          "image": {
+            "id": "quest-282e92322cda290e",
+            "text": "点开大图啦。这是都江堰分水、排沙与引水儿童示意图。这张图能帮我们找到：都江堰顺着地形分水排沙，能用两千多年更因为代代维护和调整。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-05-environment-development-takeaway-1",
+            "label": "工程顺着地形工作，还要代代岁修。、都江堰怎样把水，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-c9d8caf09eb22ba6",
+              "text": "工程顺着地形工作，还要代代岁修。、都江堰怎样把水，只说了结果"
+            }
+          },
+          {
+            "id": "cross-05-environment-development-takeaway-2",
+            "label": "都江堰顺着地形分水排沙，能用两千多年更因为代代维护和调整。",
+            "correct": true,
+            "audio": {
+              "id": "quest-c2bdf5dad2bd29c2",
+              "text": "都江堰顺着地形分水排沙，能用两千多年更因为代代维护和调整。"
+            }
+          },
+          {
+            "id": "cross-05-environment-development-takeaway-3",
+            "label": "看鱼嘴把水分成两条路。、鱼嘴、飞沙堰、宝瓶口，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-bc54ea3ae345b164",
+              "text": "看鱼嘴把水分成两条路。、鱼嘴、飞沙堰、宝瓶口，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把“始建、改造、维护、保护”放回时间线",
+        "items": [
+          "按“约前256年始建—唐宋元明修改扩展—历代岁修—2000年世界遗产—今天继续运行”排序。",
+          "系统拒绝把“始建”写成“一次造完”，也不让“李冰”卡覆盖劳动者和维护者卡。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "给环境问题寻找对应任务",
+        "items": [
+          "将“山地来水、平原农田、泥沙、洪水、流量变化”与“分水、排沙、泄洪、控制引水、持续监测”相连。",
+          "不显示真实闸门数值和洪水预测，只判断概念关系。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "把三个部件放进正确顺序与功能",
+        "items": [
+          "将“鱼嘴—飞沙堰—宝瓶口”放到来源示意图对应位置，再匹配“分流—泄洪排沙—控制引水”。",
+          "水量反馈只用“较多、较少、溢流、带走部分泥沙”，不显示伪造的精确流量。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "照片证据四格分拣",
+        "items": [
+          "把“拍摄日期、当时可见水道、现代人员和建筑”放入“照片能证明”。",
+          "把“战国材料、全年流量、精确泥沙量、古代施工步骤”放入“照片不能单独证明”。"
+        ]
+      },
+      {
+        "number": 5,
+        "title": "制作并讲解水利证据图",
+        "items": [
+          "从都江堰与朵拉维拉中选择一地，填写“环境条件—工程选择—社会作用—维护责任—证据边界”。",
+          "都江堰图至少连接鱼嘴、飞沙堰、宝瓶口与一项长期维护；朵拉维拉图至少连接季节性溪流、蓄水设施和城市布局。",
+          "面积数字卡必须带年份和单位；若比较668700公顷与2025年1165万亩，先换算再选择“日期或统计范围可能不同”。",
+          "最后选择一句边界：“现代照片不是古代现场”“工程重要，不等于解释全部社会发展”“长期使用不等于从未改变”。",
+          "点“听我的证据图”时，只播放预录本地短句和地名；不上传儿童声音，不在线生成真实防洪或用水方案。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 12,
   "conclusion": [
     "生态环境与社会发展不是“人战胜一条河”的单人英雄故事。本章以中国都江堰为主线：约公元前256年，蜀郡守李冰主持、许多劳动者共同建设水利工程；工程利用岷江从山地进入成都平原时的地形和水流条件，以鱼嘴分水堤、飞沙堰溢洪道、宝瓶口引水口和其他堤岸水道协同完成分水、排沙、泄洪、控流与灌溉。史籍对李冰最初修建过程记载很简略，今天看到的系统也不是战国材料原封不动保存至今：唐、宋、元、明等时期不断修改扩展，历代管理者和劳动者通过岁修、淘挖河床、加固河堤与更新材料让它持续运行。水利带来灌溉、防洪、水运和生活用水等效益，也需要持续分配、维护、劳动和环境监测，不能把成都平原的全部发展归功于一个工程。最后与约公元前3000—前1500年、位于干旱卡迪尔岛的朵拉维拉比较：那里利用两条季节性溪流、蓄水池和排水系统保存稀缺水源；都江堰则在水量大、泥沙与洪水问题明显的岷江分流。环境不同，解决办法不同，不能按规模或年代给文明排高低。"
@@ -1053,34 +1620,69 @@
   ],
   "assets": [
     {
+      "id": "dujiangyan-three-part-child-diagram",
+      "title": "都江堰分水、排沙与引水儿童示意图",
+      "localPath": "reference-assets/cross-environment-development/dujiangyan-three-part-self-made.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制原理示意图：鱼嘴分水、飞沙堰分洪排沙、宝瓶口引水灌溉。",
+      "boundary": "2026-08-09为低龄玩法自制。它只帮助理解三部分接力，不表示真实比例、流量、泥沙数值、古今材料或某个历史时刻；判断现状与历史仍须对照实拍和权威资料。",
+      "childVisibility": "child-ok"
+    },
+    {
       "id": "dujiangyan-weir-overview-2020-cc-by-sa",
       "title": "都江堰水利工程与山地平原过渡景观",
       "localPath": "reference-assets/cross-environment-development/dujiangyan-weir-overview.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Dujiang_Weir_(cropped).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2020年拍摄的都江堰水利工程总览，可见河流分支、山地、堤岸、植被和现代设施。",
-      "boundary": "本地JPEG为5588×3914像素。照片能显示2020年5月22日现代遗产地景观，不能给出战国原貌、全年水位、流量、泥沙比例、全部灌区范围或古代植被；署名星星并附CC BY-SA 4.0。"
+      "boundary": "本地JPEG为5588×3914像素。照片能显示2020年5月22日现代遗产地景观，不能给出战国原貌、全年水位、流量、泥沙比例、全部灌区范围或古代植被；署名星星并附CC BY-SA 4.0。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "dujiangyan-baopingkou-2019-cc-by",
       "title": "都江堰宝瓶口与离堆现代景观",
       "localPath": "reference-assets/cross-environment-development/dujiangyan-baopingkou-2019.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:都江堰宝瓶口.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 2.0",
       "clearance": "cleared-open-license",
       "caption": "2019年拍摄的都江堰宝瓶口狭窄水道、离堆与现代建筑环境。",
-      "boundary": "本地JPEG为3896×2393像素。单张照片不能测定流量、泥沙量或战国开凿状态，现存建筑也不能全部定为古代原物；署名Jason并附CC BY 2.0。"
+      "boundary": "本地JPEG为3896×2393像素。单张照片不能测定流量、泥沙量或战国开凿状态，现存建筑也不能全部定为古代原物；署名Jason并附CC BY 2.0。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "dujiangyan-baopingkou-maintenance-2002-cc-by-sa",
       "title": "2002年宝瓶口岁修场景",
       "localPath": "reference-assets/cross-environment-development/dujiangyan-baopingkou-maintenance-2002.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:岁修时的宝瓶口_-_panoramio.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "2002年12月8日拍摄的宝瓶口岁修场景，可见低水位、河床、卵石与现代人员。",
-      "boundary": "本地JPEG为640×480像素。它只记录2002年一次现代维护场景，不能代表战国、唐宋或每年都使用相同工具、服装、步骤和水位；署名C. M. Osman并附CC BY-SA 3.0。"
+      "boundary": "本地JPEG为640×480像素。它只记录2002年一次现代维护场景，不能代表战国、唐宋或每年都使用相同工具、服装、步骤和水位；署名C. M. Osman并附CC BY-SA 3.0。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "saws-dujiangyan-yuzui",
+      "title": "都江堰鱼嘴与金刚堤现状照片",
+      "localPath": "reference-assets/spring-autumn-warring-states/dujiangyan-yuzui.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dujiangyan_irrigation_system,_Sichuan,_China.JPG",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "今天的都江堰鱼嘴、金刚堤一带，岷江在这里分为内江和外江。",
+      "boundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cross-05-environment-development.jpg",

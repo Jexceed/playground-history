@@ -1,22 +1,712 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-08-01-ming-governance",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
   "period": {
-    "id": "ming-qing",
-    "label": "明清",
-    "years": "1368—1840年前（本内容轨范围）"
+    "id": "ming",
+    "label": "明朝",
+    "years": "1368—1644年"
   },
-  "order": 28,
+  "order": 32,
   "title": "明朝怎样加强中央权力",
   "coreQuestion": "明朝强化皇权带来了怎样的治理方式和社会问题？",
   "throughline": "从中央制度、地方治理和典型档案认识明朝加强皇权的措施，同时初步理解君主专制的弊端。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-ancient-08-01-ming-governance",
+    "childTitle": "一份奏章要经过哪些手",
+    "prompt": "皇帝收到一件事，为什么还要很多人一起办理？",
+    "takeaway": "明代废丞相、后来形成内阁；意见、决断和执行各有环节，皇帝的决定不等于事务已完成。",
+    "object": "奏章、印信与明代宫城遗址",
+    "people": [
+      "明代文书办理者"
+    ],
+    "place": "南京与北京",
+    "culture": "明代档案文书",
+    "care": "流程图简化了复杂制度，不把内阁比成现代内阁；今日故宫照片不冒充明代现场。",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-08-01-ming-governance",
+    "featured": {
+      "type": "地点",
+      "icon": "📨",
+      "title": "明代文书办理者",
+      "childBridge": "皇帝收到一件事，为什么还要很多人一起办理？",
+      "evidenceBoundary": "流程图简化了复杂制度，不把内阁比成现代内阁；今日故宫照片不冒充明代现场。"
+    },
+    "companions": [
+      {
+        "type": "人物",
+        "label": "朱元璋",
+        "note": "权力集中是制度变化，不做惩罚官员的游戏。"
+      },
+      {
+        "type": "成语故事",
+        "label": "两袖清风",
+        "note": "于谦是明代人物，后世成语不能用来解释整套制度。"
+      },
+      {
+        "type": "地点",
+        "label": "南京明故宫与北京紫禁城",
+        "note": "先分清两座都城和建造时间。"
+      }
+    ],
+    "sourceIds": [
+      "DPM-INNER-GRAND-SECRETARIAT",
+      "UNESCO-FORBIDDEN-CITY",
+      "PEP-HISTORY-7B-2026-TRIAL",
+      "NMC-MING-QING"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "来到明朝的时间",
+      "text": "明朝在1368年建立。北京宫殿在1420年建成，今天看到的建筑还有后来的修建。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "先有人把事情说清",
+      "text": "地方事务要形成文书，说明情况。我们用空白纸图，不伪造一份真实奏章。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "建议和决定不同",
+      "text": "明代内阁帮助处理政务、提出意见，最终决定权在皇帝手中。它不能简单当作原来的丞相。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "纸上的决定要人执行",
+      "text": "决定发出后，仍要官员和许多人执行。图里的办事者只是分工示意。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "让事情走完一圈",
+      "text": "先说明，再讨论与决定，最后执行、反馈。权力集中也不意味着一个人完成所有工作。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "档案",
+      "icon": "🗂️",
+      "plain": "被保存下来的文件、照片、录音等记录。",
+      "example": "一份档案记录一个角度，要和别的证据一起看。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "皇帝",
+      "icon": "👑",
+      "plain": "古代君主国家最高统治者的一种称号。",
+      "example": "皇帝会作决定，也依靠官员、军队、工匠和百姓。",
+      "priority": 3
+    },
+    {
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "朱元璋",
+      "reading": "Zhū Yuánzhāng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-01-ming-governance"
+      ],
+      "note": "“璋”读zhāng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "一份奏章要经过哪些手",
+      "question": "皇帝收到一件事，为什么还要很多人一起办理？"
+    },
+    "cta": "去送一份奏章",
+    "anchor": "明代文书办理者",
+    "boundary": "流程图简化了复杂制度，不把内阁比成现代内阁；今日故宫照片不冒充明代现场。",
+    "evidence": [
+      {
+        "id": "forbidden-city-hall-current-photo",
+        "title": "故宫太和殿区域现状照片",
+        "localPath": "reference-assets/ming-qing/hall-supreme-harmony-current.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_Forbidden_City.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY 3.0 PL",
+        "clearance": "cleared-open-license",
+        "caption": "今天北京故宫太和殿区域的现状照片。",
+        "boundary": "照片摄于2009年并出现现代游客；现存建筑经历历代修建、重建与保护，不是1420年现场或全部明代原貌。下载为1920×851像素等比例图，未作其他修改。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/forbidden-city-hall-current-photo.jpg"
+      }
+    ],
+    "coverAsset": {
+      "id": "forbidden-city-hall-current-photo",
+      "title": "故宫太和殿区域现状照片",
+      "localPath": "reference-assets/ming-qing/hall-supreme-harmony-current.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_Forbidden_City.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY 3.0 PL",
+      "clearance": "cleared-open-license",
+      "caption": "今天北京故宫太和殿区域的现状照片。",
+      "boundary": "照片摄于2009年并出现现代游客；现存建筑经历历代修建、重建与保护，不是1420年现场或全部明代原貌。下载为1920×851像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/forbidden-city-hall-current-photo.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/forbidden-city-hall-current-photo.jpg",
+    "coverImageAlt": "故宫太和殿区域现状照片",
+    "coverImageKind": "历史材料",
+    "coverAudio": {
+      "id": "quest-80cb0d2218caa0bd",
+      "text": "一份奏章要经过哪些手。皇帝收到一件事，为什么还要很多人一起办理？准备好就点“去送一份奏章”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-ff4264c75a932b94",
+      "text": "明代废丞相、后来形成内阁；意见、决断和执行各有环节，皇帝的决定不等于事务已完成。"
+    },
+    "finish": {
+      "title": "递一份需要回应的消息",
+      "actions": [
+        "你说“纸卡要放在哪里”，家人给一个建议。",
+        "一起决定后，你去摆好，让家人看看结果。"
+      ],
+      "parent": "问“只说放哪里，纸卡会自己过去吗？”用简单合作理解建议、决定、执行，不让儿童扮演威权惩罚。",
+      "sceneStepIndexes": [
+        2,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-3a49276dd341c520",
+          "text": "你说“纸卡要放在哪里”，家人给一个建议。"
+        },
+        {
+          "id": "quest-82dd5fa735582e0a",
+          "text": "一起决定后，你去摆好，让家人看看结果。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-139d65995994f2f8",
+        "text": "递一份需要回应的消息。你说“纸卡要放在哪里”，家人给一个建议。一起决定后，你去摆好，让家人看看结果。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "来到明朝的时间",
+        "title": "来到明朝的时间",
+        "prompt": "明建立和宫殿建成，哪个在前？",
+        "rightNote": "朝代先建立，北京宫殿建成在后，今景还要另查修建年代。",
+        "wrongNote": "朝代先建立，北京宫殿建成在后，今景还要另查修建年代。",
+        "sourceIds": [
+          "NMC-MING-QING",
+          "UNESCO-FORBIDDEN-CITY"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "来到明朝的时间",
+          "screenText": "明朝在1368年建立。北京宫殿在1420年建成，今天看到的建筑还有后来的修建。",
+          "displayText": "明朝在1368年建立。北京宫殿在1420年建成，今天看到的建筑还有后来的修建。",
+          "narration": "明朝在1368年建立。北京宫殿在1420年建成，今天看到的建筑还有后来的修建。"
+        },
+        "assetId": "study-32012351b59efc86",
+        "image": "/content/study-scenes/study-32012351b59efc86.svg",
+        "studyImage": "/content/study-scenes/study-32012351b59efc86.svg",
+        "studyImageAlt": "1368年 明建立，1420年 宫殿",
+        "imageAlt": "1368年 明建立，1420年 宫殿",
+        "imageCaption": "学习示意 · 1368年 明建立，1420年 宫殿",
+        "imageBoundary": "自制学习示意。流程图简化了复杂制度，不把内阁比成现代内阁；今日故宫照片不冒充明代现场。",
+        "audio": {
+          "transition": {
+            "id": "quest-7f5810ea314a9dc4",
+            "text": "来到明朝的时间。"
+          },
+          "intro": {
+            "id": "quest-c53d2bba1c34869b",
+            "text": "明朝在1368年建立。北京宫殿在1420年建成，今天看到的建筑还有后来的修建。"
+          },
+          "question": {
+            "id": "quest-2180e2a4aca57ad4",
+            "text": "明建立和宫殿建成，哪个在前？"
+          },
+          "image": {
+            "id": "quest-fcf7610dfa59f534",
+            "text": "这是学习示意图：1368年 明建立，1420年 宫殿。明建立和宫殿建成，哪个在前？"
+          },
+          "right": {
+            "id": "quest-1b10c45858216f79",
+            "text": "找到了。朝代先建立，北京宫殿建成在后，今景还要另查修建年代。"
+          },
+          "wrong": {
+            "id": "quest-9e1d2e5c3fa86469",
+            "text": "再比较一下。朝代先建立，北京宫殿建成在后，今景还要另查修建年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-01-ming-governance-time-1",
+            "label": "1368年明建立",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-8cb6a621ce2cdf89.svg",
+            "imageAlt": "1368年",
+            "audio": {
+              "id": "quest-b3cf02e9280cbd97",
+              "text": "1368年明建立"
+            }
+          },
+          {
+            "id": "cn-ancient-08-01-ming-governance-time-2",
+            "label": "1420年宫殿建成",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-9d460960fac44776.svg",
+            "imageAlt": "1420年",
+            "audio": {
+              "id": "quest-eeae76722957899f",
+              "text": "1420年宫殿建成"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "先有人把事情说清",
+        "title": "先有人把事情说清",
+        "prompt": "想请人处理事情，先要什么？",
+        "rightNote": "清楚的内容才能帮助判断，折法不能代替情况说明。",
+        "wrongNote": "清楚的内容才能帮助判断，折法不能代替情况说明。",
+        "sourceIds": [
+          "DPM-INNER-GRAND-SECRETARIAT",
+          "NMC-MING-QING"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "先有人把事情说清",
+          "screenText": "地方事务要形成文书，说明情况。我们用空白纸图，不伪造一份真实奏章。",
+          "displayText": "地方事务要形成文书，说明情况。我们用空白纸图，不伪造一份真实奏章。",
+          "narration": "地方事务要形成文书，说明情况。我们用空白纸图，不伪造一份真实奏章。"
+        },
+        "assetId": "study-56b6180a9a4aae73",
+        "image": "/content/study-scenes/study-56b6180a9a4aae73.svg",
+        "studyImage": "/content/study-scenes/study-56b6180a9a4aae73.svg",
+        "studyImageAlt": "地方事情，说明情况",
+        "imageAlt": "地方事情，说明情况",
+        "imageCaption": "学习示意 · 地方事情，说明情况",
+        "imageBoundary": "自制学习示意。流程图简化了复杂制度，不把内阁比成现代内阁；今日故宫照片不冒充明代现场。",
+        "audio": {
+          "transition": {
+            "id": "quest-7a708d2739593260",
+            "text": "先有人把事情说清。"
+          },
+          "intro": {
+            "id": "quest-105369f6d1ef882e",
+            "text": "地方事务要形成文书，说明情况。我们用空白纸图，不伪造一份真实奏章。"
+          },
+          "question": {
+            "id": "quest-30178c22a8303b82",
+            "text": "想请人处理事情，先要什么？"
+          },
+          "image": {
+            "id": "quest-37a738695776836a",
+            "text": "这是学习示意图：地方事情，说明情况。想请人处理事情，先要什么？"
+          },
+          "right": {
+            "id": "quest-1a53a1bc1f859f33",
+            "text": "找到了。清楚的内容才能帮助判断，折法不能代替情况说明。"
+          },
+          "wrong": {
+            "id": "quest-64f5ede3cfaaccdf",
+            "text": "再比较一下。清楚的内容才能帮助判断，折法不能代替情况说明。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-01-ming-governance-beginning-1",
+            "label": "把情况说明清楚",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-2ef3bbd74bfe86bf.svg",
+            "imageAlt": "写清事情",
+            "audio": {
+              "id": "quest-7da354a05d53028d",
+              "text": "把情况说明清楚"
+            }
+          },
+          {
+            "id": "cn-ancient-08-01-ming-governance-beginning-2",
+            "label": "只把纸折得漂亮",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-2eb66bfed82146e6.svg",
+            "imageAlt": "漂亮折纸",
+            "audio": {
+              "id": "quest-b6fc9a744bcd5f4e",
+              "text": "只把纸折得漂亮"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "建议和决定不同",
+        "title": "建议和决定不同",
+        "prompt": "这两张卡该怎样区分？",
+        "rightNote": "提出建议、作出决定、完成事务不是一回事。",
+        "wrongNote": "提出建议、作出决定、完成事务不是一回事。",
+        "sourceIds": [
+          "DPM-INNER-GRAND-SECRETARIAT",
+          "NMC-MING-QING"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "建议和决定不同",
+          "screenText": "明代内阁帮助处理政务、提出意见，最终决定权在皇帝手中。它不能简单当作原来的丞相。",
+          "displayText": "明代内阁帮助处理政务、提出意见，最终决定权在皇帝手中。它不能简单当作原来的丞相。",
+          "narration": "明代内阁帮助处理政务、提出意见，最终决定权在皇帝手中。它不能简单当作原来的丞相。"
+        },
+        "assetId": "study-d086cf783049f349",
+        "image": "/content/study-scenes/study-d086cf783049f349.svg",
+        "studyImage": "/content/study-scenes/study-d086cf783049f349.svg",
+        "studyImageAlt": "内阁意见，皇帝决断",
+        "imageAlt": "内阁意见，皇帝决断",
+        "imageCaption": "学习示意 · 内阁意见，皇帝决断",
+        "imageBoundary": "自制学习示意。流程图简化了复杂制度，不把内阁比成现代内阁；今日故宫照片不冒充明代现场。",
+        "audio": {
+          "transition": {
+            "id": "quest-c67327fed11e9a9a",
+            "text": "建议和决定不同。"
+          },
+          "intro": {
+            "id": "quest-a6ac742c65b392f5",
+            "text": "明代内阁帮助处理政务、提出意见，最终决定权在皇帝手中。它不能简单当作原来的丞相。"
+          },
+          "question": {
+            "id": "quest-f6c3181a6afe5515",
+            "text": "这两张卡该怎样区分？"
+          },
+          "image": {
+            "id": "quest-35e3151ed0949354",
+            "text": "这是学习示意图：内阁意见，皇帝决断。这两张卡该怎样区分？"
+          },
+          "right": {
+            "id": "quest-891e5a519c394623",
+            "text": "找到了。提出建议、作出决定、完成事务不是一回事。"
+          },
+          "wrong": {
+            "id": "quest-1f13a2c51a744a4a",
+            "text": "再比较一下。提出建议、作出决定、完成事务不是一回事。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-01-ming-governance-journey-1",
+            "label": "内阁建议，皇帝决定",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-5d75f940b07c42fe.svg",
+            "imageAlt": "建议，决定",
+            "audio": {
+              "id": "quest-8197234847bec297",
+              "text": "内阁建议，皇帝决定"
+            }
+          },
+          {
+            "id": "cn-ancient-08-01-ming-governance-journey-2",
+            "label": "内阁建议就等于办妥",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-b87d622aeed49fb7.svg",
+            "imageAlt": "建议，全部办妥",
+            "audio": {
+              "id": "quest-5a389bc7e456f86d",
+              "text": "内阁建议就等于办妥"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "纸上的决定要人执行",
+        "title": "纸上的决定要人执行",
+        "prompt": "决定之后还缺哪张卡？",
+        "rightNote": "文书不自己行动，还要人去办理并反馈情况。",
+        "wrongNote": "文书不自己行动，还要人去办理并反馈情况。",
+        "sourceIds": [
+          "DPM-INNER-GRAND-SECRETARIAT",
+          "NMC-MING-QING"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "纸上的决定要人执行",
+          "screenText": "决定发出后，仍要官员和许多人执行。图里的办事者只是分工示意。",
+          "displayText": "决定发出后，仍要官员和许多人执行。图里的办事者只是分工示意。",
+          "narration": "决定发出后，仍要官员和许多人执行。图里的办事者只是分工示意。"
+        },
+        "assetId": "study-5b5cf81e572b09ae",
+        "image": "/content/study-scenes/study-5b5cf81e572b09ae.svg",
+        "studyImage": "/content/study-scenes/study-5b5cf81e572b09ae.svg",
+        "studyImageAlt": "决定，办理，反馈",
+        "imageAlt": "决定，办理，反馈",
+        "imageCaption": "学习示意 · 决定，办理，反馈",
+        "imageBoundary": "自制学习示意。流程图简化了复杂制度，不把内阁比成现代内阁；今日故宫照片不冒充明代现场。",
+        "audio": {
+          "transition": {
+            "id": "quest-22e3126218f650a4",
+            "text": "纸上的决定要人执行。"
+          },
+          "intro": {
+            "id": "quest-5514dcadad7c2bf3",
+            "text": "决定发出后，仍要官员和许多人执行。图里的办事者只是分工示意。"
+          },
+          "question": {
+            "id": "quest-a5e8d27d904a6d0b",
+            "text": "决定之后还缺哪张卡？"
+          },
+          "image": {
+            "id": "quest-f47e66b8521bbffb",
+            "text": "这是学习示意图：决定，办理，反馈。决定之后还缺哪张卡？"
+          },
+          "right": {
+            "id": "quest-fa64d29a6534d826",
+            "text": "找到了。文书不自己行动，还要人去办理并反馈情况。"
+          },
+          "wrong": {
+            "id": "quest-a9a5dff7c998aab6",
+            "text": "再比较一下。文书不自己行动，还要人去办理并反馈情况。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-01-ming-governance-change-1",
+            "label": "按安排实际办理",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-d5f91e957d5a3f16.svg",
+            "imageAlt": "实际办理",
+            "audio": {
+              "id": "quest-8499abedc5b7ce3c",
+              "text": "按安排实际办理"
+            }
+          },
+          {
+            "id": "cn-ancient-08-01-ming-governance-change-2",
+            "label": "只把文书收进箱子",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-d71e43952c1bab36.svg",
+            "imageAlt": "只收藏文书",
+            "audio": {
+              "id": "quest-8781d5621bd85fb6",
+              "text": "只把文书收进箱子"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "让事情走完一圈",
+        "title": "让事情走完一圈",
+        "prompt": "哪条链条更完整？",
+        "rightNote": "看清执行者，才能理解文书怎样联系实际事务。",
+        "wrongNote": "看清执行者，才能理解文书怎样联系实际事务。",
+        "sourceIds": [
+          "DPM-INNER-GRAND-SECRETARIAT",
+          "NMC-MING-QING"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "让事情走完一圈",
+          "screenText": "先说明，再讨论与决定，最后执行、反馈。权力集中也不意味着一个人完成所有工作。",
+          "displayText": "先说明，再讨论与决定，最后执行、反馈。权力集中也不意味着一个人完成所有工作。",
+          "narration": "先说明，再讨论与决定，最后执行、反馈。权力集中也不意味着一个人完成所有工作。"
+        },
+        "assetId": "study-b076ee789adbc6b9",
+        "image": "/content/study-scenes/study-b076ee789adbc6b9.svg",
+        "studyImage": "/content/study-scenes/study-b076ee789adbc6b9.svg",
+        "studyImageAlt": "说明，决定，执行",
+        "imageAlt": "说明，决定，执行",
+        "imageCaption": "学习示意 · 说明，决定，执行",
+        "imageBoundary": "自制学习示意。流程图简化了复杂制度，不把内阁比成现代内阁；今日故宫照片不冒充明代现场。",
+        "audio": {
+          "transition": {
+            "id": "quest-419429c9f3f67670",
+            "text": "让事情走完一圈。"
+          },
+          "intro": {
+            "id": "quest-518f416ce63fd849",
+            "text": "先说明，再讨论与决定，最后执行、反馈。权力集中也不意味着一个人完成所有工作。"
+          },
+          "question": {
+            "id": "quest-a647a77cd384a1aa",
+            "text": "哪条链条更完整？"
+          },
+          "image": {
+            "id": "quest-5977f91fe630c23d",
+            "text": "这是学习示意图：说明，决定，执行。哪条链条更完整？"
+          },
+          "right": {
+            "id": "quest-c806c3191fb9ac50",
+            "text": "找到了。看清执行者，才能理解文书怎样联系实际事务。"
+          },
+          "wrong": {
+            "id": "quest-de9f2f8ad5aae4d0",
+            "text": "再比较一下。看清执行者，才能理解文书怎样联系实际事务。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-01-ming-governance-takeaway-1",
+            "label": "说明 → 决定 → 执行",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-e4eb350f0580cf1f.svg",
+            "imageAlt": "说明，决定，执行",
+            "audio": {
+              "id": "quest-84dee34e5fcf087b",
+              "text": "说明 → 决定 → 执行"
+            }
+          },
+          {
+            "id": "cn-ancient-08-01-ming-governance-takeaway-2",
+            "label": "说明 → 决定 → 停住",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-a54296755d1a95f4.svg",
+            "imageAlt": "说明，决定，停住",
+            "audio": {
+              "id": "quest-e1826c9cbadd7d32",
+              "text": "说明 → 决定 → 停住"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "政务传递图",
+        "items": [
+          "把“奏章—内阁提出意见—皇帝决定”排成顺序，并标出最终决定者。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "证据身份卡",
+        "items": [
+          "把故宫照片拖到“今日遗产现状”，不能放进“明代现场照片”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "一事两面",
+        "items": [
+          "把“命令链条较短”和“制约可能减少”分别放入集中权力的两个观察框。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
-    "明朝建立后，统治者重新组织中央和地方机构。明太祖废除丞相制度，使皇帝直接掌管更多政务；后来形成的内阁帮助处理文书，却不是能够独立限制皇权的现代内阁。明清宫殿、档案和机构遗址说明，庞大国家需要分工、信息和规则，也说明权力过度集中会减少制度性制约。清代雍正时期形成的军机处延续了皇帝直接控制重要决策的趋势，但它与明代内阁不是同一机构。"
+    "明朝建立后，统治者重新组织中央和地方机构。明太祖废除丞相制度，使皇帝直接掌管更多政务；后来逐步形成的内阁帮助处理文书，却不是能够独立限制皇权的现代内阁。宫殿、档案和机构遗址说明，庞大国家需要分工、信息和规则，也说明权力过度集中会减少制度性制约。"
   ],
   "facts": [
     {
@@ -50,17 +740,16 @@
     },
     {
       "number": 5,
-      "text": "清代雍正时期，军机处由办理紧急军务的机构逐渐发展，后来承担重要政务。具体“成立年份”在不同叙述中可能有差异，儿童正文不锁定一个有争议的单一年份。",
+      "text": "奏章等文书要经过递送、阅读、提出意见和作出决定等环节。内阁可以协助处理文书，但六部和地方官员仍承担各自事务，国家并不是只靠皇帝一人实际完成所有工作。",
       "sourceIds": [
-        "DPM-GRAND-COUNCIL"
+        "DPM-INNER-GRAND-SECRETARIAT"
       ]
     },
     {
       "number": 6,
       "text": "集中权力可以缩短某些命令传递链条，但不等于所有治理都更好；如果重要决定缺少稳定制约，错误也可能被放大。",
       "sourceIds": [
-        "DPM-INNER-GRAND-SECRETARIAT",
-        "DPM-GRAND-COUNCIL"
+        "DPM-INNER-GRAND-SECRETARIAT"
       ]
     },
     {
@@ -156,7 +845,7 @@
     {
       "number": 4,
       "title": "宫殿把权力秩序“画”在空间里",
-      "screenText": "中轴、宫门和大殿，表现明清皇宫的礼制秩序。",
+      "screenText": "中轴、宫门和大殿，表现明代宫城的礼制秩序。",
       "voices": [
         {
           "number": 5,
@@ -177,20 +866,20 @@
     },
     {
       "number": 5,
-      "title": "清代军机处让重要命令更靠近皇帝",
-      "screenText": "到清代，军机处逐渐成为处理重要政务的机构。",
+      "title": "一份文书怎样经过内阁与六部",
+      "screenText": "内阁帮助看文书，六部分别办事，最后决定仍在皇帝。",
       "voices": [
         {
           "number": 6,
           "label": "语音 S06：",
-          "text": "清代雍正时期，办理紧急军务的机构逐渐发展为军机处。它帮助皇帝迅速处理重要事务，成员由皇帝选择。它和明代内阁不是一个机构，却都让我们看到：明清皇帝希望更直接地掌握重要决定。",
+          "text": "一份奏章送到中央后，要有人阅读、整理和提出意见；作出决定后，还要交给六部和地方官员去办理。明代内阁能帮助处理文书，却不能自己作最后决定。权力更集中，不等于所有事情真的只靠一个人完成。",
           "segments": [
             {
               "id": "cn-ancient-08-01-ming-governance-s05-v06-01",
               "order": 1,
               "tier": "core",
-              "text": "清代雍正时期，办理紧急军务的机构逐渐发展为军机处。它帮助皇帝迅速处理重要事务，成员由皇帝选择。它和明代内阁不是一个机构，却都让我们看到：明清皇帝希望更直接地掌握重要决定。",
-              "hanCharacters": 78
+              "text": "一份奏章送到中央后，要有人阅读、整理和提出意见；作出决定后，还要交给六部和地方官员去办理。明代内阁能帮助处理文书，却不能自己作最后决定。权力更集中，不等于所有事情真的只靠一个人完成。",
+              "hanCharacters": 82
             }
           ]
         }
@@ -265,16 +954,6 @@
       "imageUse": "reference-only"
     },
     {
-      "id": "DPM-GRAND-COUNCIL",
-      "title": "军机处",
-      "institution": "故宫博物院",
-      "url": "https://www.dpm.org.cn/court/system/236360.html",
-      "type": "museum-institution-record",
-      "authorityLevel": "A",
-      "factUse": "军机处设立时间争议、雍正时期形成过程、职掌及其加强皇权的制度位置",
-      "imageUse": "reference-only"
-    },
-    {
       "id": "UNESCO-FORBIDDEN-CITY",
       "title": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
       "institution": "UNESCO World Heritage Centre",
@@ -283,18 +962,239 @@
       "authorityLevel": "A",
       "factUse": "北京紫禁城始建年代、明清宫殿功能与现存遗产经过长期保护的边界",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-HISTORY-7B-2026-TRIAL",
+      "title": "新修订义务教育历史教材七年级下册试教资料",
+      "institution": "人民教育出版社",
+      "url": "https://www.pep.com.cn/xw/zt/hd/sktbjc/jcsy/202606/t20260610_2006778.html",
+      "type": "current-textbook-implementation-reference",
+      "authorityLevel": "A-structure-only",
+      "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "study-32012351b59efc86",
+      "title": "学习示意：1368年 明建立、1420年 宫殿",
+      "localPath": "reference-assets/focused-quests/study-32012351b59efc86.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1368年 明建立 → 1420年 宫殿",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8cb6a621ce2cdf89",
+      "title": "学习示意：1368年",
+      "localPath": "reference-assets/focused-quests/study-8cb6a621ce2cdf89.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1368年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-9d460960fac44776",
+      "title": "学习示意：1420年",
+      "localPath": "reference-assets/focused-quests/study-9d460960fac44776.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1420年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-56b6180a9a4aae73",
+      "title": "学习示意：地方事情、说明情况",
+      "localPath": "reference-assets/focused-quests/study-56b6180a9a4aae73.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "地方事情 → 说明情况",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-2ef3bbd74bfe86bf",
+      "title": "学习示意：写清事情",
+      "localPath": "reference-assets/focused-quests/study-2ef3bbd74bfe86bf.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "写清事情",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-2eb66bfed82146e6",
+      "title": "学习示意：漂亮折纸",
+      "localPath": "reference-assets/focused-quests/study-2eb66bfed82146e6.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "漂亮折纸",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d086cf783049f349",
+      "title": "学习示意：内阁意见、皇帝决断",
+      "localPath": "reference-assets/focused-quests/study-d086cf783049f349.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "内阁意见 → 皇帝决断",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5d75f940b07c42fe",
+      "title": "学习示意：建议、决定",
+      "localPath": "reference-assets/focused-quests/study-5d75f940b07c42fe.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "建议 → 决定",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b87d622aeed49fb7",
+      "title": "学习示意：建议、全部办妥",
+      "localPath": "reference-assets/focused-quests/study-b87d622aeed49fb7.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "建议 → 全部办妥",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5b5cf81e572b09ae",
+      "title": "学习示意：决定、办理、反馈",
+      "localPath": "reference-assets/focused-quests/study-5b5cf81e572b09ae.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "决定 → 办理 → 反馈",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d5f91e957d5a3f16",
+      "title": "学习示意：实际办理",
+      "localPath": "reference-assets/focused-quests/study-d5f91e957d5a3f16.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "实际办理",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d71e43952c1bab36",
+      "title": "学习示意：只收藏文书",
+      "localPath": "reference-assets/focused-quests/study-d71e43952c1bab36.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只收藏文书",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b076ee789adbc6b9",
+      "title": "学习示意：说明、决定、执行",
+      "localPath": "reference-assets/focused-quests/study-b076ee789adbc6b9.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "说明 → 决定 → 执行",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e4eb350f0580cf1f",
+      "title": "学习示意：说明、决定、执行",
+      "localPath": "reference-assets/focused-quests/study-e4eb350f0580cf1f.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "说明 → 决定 → 执行",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a54296755d1a95f4",
+      "title": "学习示意：说明、决定、停住",
+      "localPath": "reference-assets/focused-quests/study-a54296755d1a95f4.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "说明 → 决定 → 停住",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "forbidden-city-hall-current-photo",
       "title": "故宫太和殿区域现状照片",
       "localPath": "reference-assets/ming-qing/hall-supreme-harmony-current.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_Forbidden_City.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 3.0 PL",
       "clearance": "cleared-open-license",
       "caption": "今天北京故宫太和殿区域的现状照片。",
-      "boundary": "照片摄于2009年并出现现代游客；现存建筑经历历代修建、重建与保护，不是1420年现场或全部明代原貌。下载为1920×851像素等比例图，未作其他修改。"
+      "boundary": "照片摄于2009年并出现现代游客；现存建筑经历历代修建、重建与保护，不是1420年现场或全部明代原貌。下载为1920×851像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "taihe-hall-ten-roof-beasts-current-photo",
+      "title": "太和殿屋脊十只脊兽现状照片",
+      "localPath": "reference-assets/ming-qing/taihe-hall-roof-beasts.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:太和殿的脊獸.JPG",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "今天太和殿屋脊上的十只脊兽与骑凤仙人。",
+      "boundary": "照片拍摄于2014年，只展示经过历代维修后的现状与一个观察角度；脊兽顺序和建筑意义以故宫资料核验，不让儿童仅凭照片给每只动物强行命名。原图4000×3000像素。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-08-01-ming-governance.jpg",

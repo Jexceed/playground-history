@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.12.0",
+  "contentVersion": "0.13.0",
   "id": "cn-contemporary-01-01-founding",
   "trackId": "china-contemporary",
   "trackLabel": "中国现代史",
@@ -13,7 +13,600 @@
   "title": "1949年，新中国怎样成立",
   "coreQuestion": "中华人民共和国成立带来了怎样的历史变化？",
   "throughline": "从中国人民政治协商会议、开国大典和国家象征的形成，认识新中国成立及其历史意义。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "cn-contemporary-01-01-founding",
+    "childTitle": "开国大典上的第一面五星红旗",
+    "prompt": "一场典礼为什么要有公告、国旗、代表和许多人的共同见证？",
+    "takeaway": "典礼公开宣告新中国成立，国旗、公告和代表让这个历史节点被共同见证。",
+    "object": "开国大典影像、公告与国旗",
+    "people": [
+      "毛泽东、各界代表与广场群众"
+    ],
+    "place": "北京天安门广场",
+    "culture": "《义勇军进行曲》",
+    "care": "典礼影像能记录一个时刻，不能替代新中国成立前后的全部社会变化。",
+    "preferredAssetId": "founding-ceremony-students-1949-photo"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "开国大典上的第一面五星红旗"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "找到第一面国旗",
+      "text": "先在天安门广场找到第一面五星红旗。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "国歌和公告响起",
+      "text": "接着听公告和《义勇军进行曲》响起。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "新中国成立",
+      "text": "最后开国大典宣告中华人民共和国成立。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "典礼公开宣告新中国成立，国旗、公告和代表让这个历史节点被共同见证。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "民主",
+      "icon": "🗳️",
+      "plain": "公共事情不只由一个人说了算，人们按规则参与。",
+      "example": "不同年代参与范围不同，不能把古代投票当成今天制度。",
+      "priority": 1
+    },
+    {
+      "term": "侵略",
+      "icon": "⛔",
+      "plain": "用武力进入别国，夺取土地或控制权。",
+      "example": "抵抗侵略和发动侵略的责任不能混在一起。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
+    },
+    {
+      "term": "宪法",
+      "icon": "📜",
+      "plain": "规定国家怎样组织、人民有哪些基本权利的根本法律。",
+      "example": "写进宪法是一项承诺，还要看后来怎样实行。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "共和国",
+      "icon": "🏛️",
+      "plain": "国家职位不是由皇位世代传下去的国家形式。",
+      "example": "写下共和国原则，不代表这些原则立刻全部做到。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "民族",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
+      "example": "民族不是按外貌排高低，也不会永远固定不变。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "天安门",
+      "reading": "Tiān’ānmén",
+      "kind": "place",
+      "chapterIds": [
+        "cn-contemporary-01-01-founding"
+      ],
+      "note": "“天安”两音节间不吞音。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "开国大典上的第一面五星红旗",
+      "question": "一场典礼为什么要有公告、国旗、代表和许多人的共同见证？"
+    },
+    "coverAudio": {
+      "id": "quest-50e4bb839588b114",
+      "text": "今天从一件东西出发：开国大典上的第一面五星红旗。我们要去北京天安门广场，看看开国大典影像、公告与国旗怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-422aafaed166461c",
+      "text": "五条线索都找到了，“开国大典上的第一面五星红旗”的答案是：典礼公开宣告新中国成立，国旗、公告和代表让这个历史节点被共同见证。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 8,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是新中国成立与向社会主义过渡，时间是1949—1956年。",
+          "narration": "这是新中国成立与向社会主义过渡，时间是1949—1956年。",
+          "displayText": "这是新中国成立与向社会主义过渡，时间是1949—1956年。"
+        },
+        "assetId": "founding-ceremony-students-1949-photo",
+        "image": "/content/step-images/founding-ceremony-students-1949-photo.jpg",
+        "imageAlt": "北京四中师生参加开国大典历史照片",
+        "imageCaption": "1949年10月1日，北京四中师生在天安门广场参加开国大典。",
+        "imageBoundary": "照片显示一组师生和广场上的人群、标语与建筑，只是典礼中的一个视角；不能用人群密度估计全场人数，也不能据图复原完整典礼流程。Commons登记摄影者和1998年《华夏》杂志出处；典礼事实另以国家档案局资料核验。保存782×544像素图。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-0b413fbcf06cb940",
+            "text": "这是新中国成立与向社会主义过渡，时间是1949—1956年。"
+          },
+          "image": {
+            "id": "quest-bfdd9b3794fb8d9e",
+            "text": "点开大图啦。这是北京四中师生参加开国大典历史照片。这张图能帮我们找到：这是新中国成立与向社会主义过渡，时间是1949—1956年。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-01-01-founding-time-1",
+            "label": "中国现代史 · 新中国成立与向社会主义过渡 · 1949—1956年",
+            "correct": true,
+            "audio": {
+              "id": "quest-8cbdd707d66d2816",
+              "text": "中国现代史 · 新中国成立与向社会主义过渡 · 1949—1956年"
+            }
+          },
+          {
+            "id": "cn-contemporary-01-01-founding-time-2",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "cn-contemporary-01-01-founding-time-3",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "找到第一面国旗",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先在天安门广场找到第一面五星红旗。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "找到第一面国旗",
+          "screenText": "先在天安门广场找到第一面五星红旗。",
+          "narration": "先在天安门广场找到第一面五星红旗。",
+          "displayText": "先在天安门广场找到第一面五星红旗。"
+        },
+        "assetId": "china-national-flag-standard-graphic",
+        "image": "/content/step-images/china-national-flag-standard-graphic.jpg",
+        "imageAlt": "中华人民共和国国旗标准图形",
+        "imageCaption": "中华人民共和国国旗五星红旗的标准图形。",
+        "imageBoundary": "这是由公开矢量文件渲染的1800×1200像素PNG，用来清楚识别国家标识；不是1949年历史照片，也不是国家博物馆收藏的第一面五星红旗实物影像。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-2abaa38420d6a377",
+            "text": "先在天安门广场找到第一面五星红旗。"
+          },
+          "image": {
+            "id": "quest-1be3f671db1128e0",
+            "text": "点开大图啦。这是中华人民共和国国旗标准图形。这张图能帮我们找到：先在天安门广场找到第一面五星红旗。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-01-01-founding-beginning-1",
+            "label": "毛泽东、各界代表与广场群众，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-232ca2d1c0d4b4d8",
+              "text": "毛泽东、各界代表与广场群众，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-contemporary-01-01-founding-beginning-2",
+            "label": "北京天安门广场、毛泽东，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-b1f22cf87d6c0db3",
+              "text": "北京天安门广场、毛泽东，只是故事地点"
+            }
+          },
+          {
+            "id": "cn-contemporary-01-01-founding-beginning-3",
+            "label": "开国大典影像、公告与国旗，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-ee3daf75c70d4805",
+              "text": "开国大典影像、公告与国旗，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "国歌和公告响起",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着听公告和《义勇军进行曲》响起。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "国歌和公告响起",
+          "screenText": "接着听公告和《义勇军进行曲》响起。",
+          "narration": "接着听公告和《义勇军进行曲》响起。",
+          "displayText": "接着听公告和《义勇军进行曲》响起。"
+        },
+        "assetId": "founding-ceremony-gallery-nmc-2018-photo",
+        "image": "/content/step-images/founding-ceremony-gallery-nmc-2018-photo.jpg",
+        "imageAlt": "2018年中国国家博物馆开国大典主题展陈照片",
+        "imageCaption": "2018年拍摄的中国国家博物馆开国大典主题展陈，画面中有油画《开国大典》和典礼相关文物。",
+        "imageBoundary": "这是现代展厅照片，不是1949年现场。中央油画由董希文创作于1953年，是艺术作品；前方礼炮、话筒等展品需分别依据博物馆标牌识别，不能把整套情景复原视为原状。原图4032×3024像素，本地保存2400×1800像素等比缩小版。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-1da57177c027196c",
+            "text": "接着听公告和《义勇军进行曲》响起。"
+          },
+          "image": {
+            "id": "quest-f2ff5d970973552c",
+            "text": "点开大图啦。这是2018年中国国家博物馆开国大典主题展陈照片。这张图能帮我们找到：接着听公告和《义勇军进行曲》响起。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-01-01-founding-journey-1",
+            "label": "毛泽东、各界代表与广场群，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-e80fe3db5e6b9320",
+              "text": "毛泽东、各界代表与广场群，只认出人物"
+            }
+          },
+          {
+            "id": "cn-contemporary-01-01-founding-journey-2",
+            "label": "接着听公告和《义勇军进行曲》响起。",
+            "correct": true,
+            "audio": {
+              "id": "quest-1da57177c027196c",
+              "text": "接着听公告和《义勇军进行曲》响起。"
+            }
+          },
+          {
+            "id": "cn-contemporary-01-01-founding-journey-3",
+            "label": "北京天安门广场、开国，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b6962ca41f37ae6",
+              "text": "北京天安门广场、开国，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "新中国成立",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后开国大典宣告中华人民共和国成立。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "新中国成立",
+          "screenText": "最后开国大典宣告中华人民共和国成立。",
+          "narration": "最后开国大典宣告中华人民共和国成立。",
+          "displayText": "最后开国大典宣告中华人民共和国成立。"
+        },
+        "assetId": "china-national-flag-standard-graphic",
+        "image": "/content/step-images/china-national-flag-standard-graphic.jpg",
+        "imageAlt": "中华人民共和国国旗标准图形",
+        "imageCaption": "中华人民共和国国旗五星红旗的标准图形。",
+        "imageBoundary": "这是由公开矢量文件渲染的1800×1200像素PNG，用来清楚识别国家标识；不是1949年历史照片，也不是国家博物馆收藏的第一面五星红旗实物影像。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-66a278573acc1b3a",
+            "text": "最后开国大典宣告中华人民共和国成立。"
+          },
+          "image": {
+            "id": "quest-a0318fd11161fafa",
+            "text": "点开大图啦。这是中华人民共和国国旗标准图形。这张图能帮我们找到：最后开国大典宣告中华人民共和国成立。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-01-01-founding-change-1",
+            "label": "最后开国大典宣告中华人民共和国成立。",
+            "correct": true,
+            "audio": {
+              "id": "quest-66a278573acc1b3a",
+              "text": "最后开国大典宣告中华人民共和国成立。"
+            }
+          },
+          {
+            "id": "cn-contemporary-01-01-founding-change-2",
+            "label": "听公告和《义勇军进行曲，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-44bd7a29c04f1635",
+              "text": "听公告和《义勇军进行曲，还只是行动经过"
+            }
+          },
+          {
+            "id": "cn-contemporary-01-01-founding-change-3",
+            "label": "开国大典影像、公告，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-b0f21472507fabc4",
+              "text": "开国大典影像、公告，还只是故事起点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "典礼公开宣告新中国成立，国旗、公告和代表让这个历史节点被共同见证。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "典礼公开宣告新中国成立，国旗、公告和代表让这个历史节点被共同见证。",
+          "narration": "典礼公开宣告新中国成立，国旗、公告和代表让这个历史节点被共同见证。",
+          "displayText": "典礼公开宣告新中国成立，国旗、公告和代表让这个历史节点被共同见证。"
+        },
+        "assetId": "founding-ceremony-gallery-nmc-2018-photo",
+        "image": "/content/step-images/founding-ceremony-gallery-nmc-2018-photo.jpg",
+        "imageAlt": "2018年中国国家博物馆开国大典主题展陈照片",
+        "imageCaption": "2018年拍摄的中国国家博物馆开国大典主题展陈，画面中有油画《开国大典》和典礼相关文物。",
+        "imageBoundary": "这是现代展厅照片，不是1949年现场。中央油画由董希文创作于1953年，是艺术作品；前方礼炮、话筒等展品需分别依据博物馆标牌识别，不能把整套情景复原视为原状。原图4032×3024像素，本地保存2400×1800像素等比缩小版。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-7dd38219995898dd",
+            "text": "典礼公开宣告新中国成立，国旗、公告和代表让这个历史节点被共同见证。"
+          },
+          "image": {
+            "id": "quest-0c52e1a087fb2c55",
+            "text": "点开大图啦。这是2018年中国国家博物馆开国大典主题展陈照片。这张图能帮我们找到：典礼公开宣告新中国成立，国旗、公告和代表让这个历史节点被共同见证。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-01-01-founding-takeaway-1",
+            "label": "在天安门广场找到第一面五星红旗。、开国大典影像、公告，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-cf43e20e2039dc9c",
+              "text": "在天安门广场找到第一面五星红旗。、开国大典影像、公告，只说了原因"
+            }
+          },
+          {
+            "id": "cn-contemporary-01-01-founding-takeaway-2",
+            "label": "开国大典宣告中华人民共和国成立。、开国大典上的第一面五星，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-95facfaf0e074650",
+              "text": "开国大典宣告中华人民共和国成立。、开国大典上的第一面五星，只说了结果"
+            }
+          },
+          {
+            "id": "cn-contemporary-01-01-founding-takeaway-3",
+            "label": "典礼公开宣告新中国成立，国旗、公告和代表让这个历史节点被共同见证。",
+            "correct": true,
+            "audio": {
+              "id": "quest-7dd38219995898dd",
+              "text": "典礼公开宣告新中国成立，国旗、公告和代表让这个历史节点被共同见证。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "建国五步时间链",
+        "items": [
+          "把“会议开幕—确定国旗等事项—通过《共同纲领》—选举中央人民政府委员会—开国大典”按日期排列，区分“作出决定”和“举行典礼”。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "决定放进正确抽屉",
+        "items": [
+          "把“北京—国都”“五星红旗—国旗”“《义勇军进行曲》—当时的国歌”“公元—纪年”配对；不播放需另行授权的整段歌曲。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "证据会说什么",
+        "items": [
+          "把“会场照片—一次会议场景”“国旗标准图—国家标识”“师生照片—典礼中的一个人群场景”“博物馆展陈—今天怎样展示历史”分别配对，并选择它们不能单独证明的内容。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "1949年9月，中国人民政治协商会议第一届全体会议在北平召开。来自中国共产党、各民主党派、人民团体、各地区、人民解放军、少数民族、国外华侨等方面的代表共同商议建国大事，通过《中国人民政治协商会议共同纲领》，选举中央人民政府委员会，并确定国都、国旗、国歌和纪年。10月1日，中华人民共和国中央人民政府成立典礼在北京举行，中华人民共和国成立。它开启了中国历史的新阶段，但国家统一、经济恢复和安全等紧迫任务仍需继续完成。"
@@ -363,40 +956,52 @@
       "title": "中国人民政治协商会议第一届全体会议会场历史照片",
       "localPath": "reference-assets/china-contemporary-founding/first-cppcc-1949.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:1st_CPPCC_conference.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — photograph taken in China in 1949",
       "clearance": "cleared-open-license",
       "caption": "1949年9月21日，中国人民政治协商会议第一届全体会议会场。",
-      "boundary": "照片能显示会场布局、主席台和一部分参加者，不能代表662名代表的全部构成，也不能用座位或表情推断全部意见。Commons登记来源为中国党史网站历史页面；会议日期、代表范围和决议另以全国政协资料核验。保存500×461像素原图。"
+      "boundary": "照片能显示会场布局、主席台和一部分参加者，不能代表662名代表的全部构成，也不能用座位或表情推断全部意见。Commons登记来源为中国党史网站历史页面；会议日期、代表范围和决议另以全国政协资料核验。保存500×461像素原图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "china-national-flag-standard-graphic",
       "title": "中华人民共和国国旗标准图形",
       "localPath": "reference-assets/china-contemporary-founding/china-national-flag.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — official state symbol exempt from copyright protection",
       "clearance": "cleared-open-license",
       "caption": "中华人民共和国国旗五星红旗的标准图形。",
-      "boundary": "这是由公开矢量文件渲染的1800×1200像素PNG，用来清楚识别国家标识；不是1949年历史照片，也不是国家博物馆收藏的第一面五星红旗实物影像。"
+      "boundary": "这是由公开矢量文件渲染的1800×1200像素PNG，用来清楚识别国家标识；不是1949年历史照片，也不是国家博物馆收藏的第一面五星红旗实物影像。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "founding-ceremony-students-1949-photo",
       "title": "北京四中师生参加开国大典历史照片",
       "localPath": "reference-assets/china-contemporary-founding/founding-ceremony-students-1949.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kaiguodadian.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — photograph taken in China in 1949",
       "clearance": "cleared-open-license",
       "caption": "1949年10月1日，北京四中师生在天安门广场参加开国大典。",
-      "boundary": "照片显示一组师生和广场上的人群、标语与建筑，只是典礼中的一个视角；不能用人群密度估计全场人数，也不能据图复原完整典礼流程。Commons登记摄影者和1998年《华夏》杂志出处；典礼事实另以国家档案局资料核验。保存782×544像素图。"
+      "boundary": "照片显示一组师生和广场上的人群、标语与建筑，只是典礼中的一个视角；不能用人群密度估计全场人数，也不能据图复原完整典礼流程。Commons登记摄影者和1998年《华夏》杂志出处；典礼事实另以国家档案局资料核验。保存782×544像素图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "founding-ceremony-gallery-nmc-2018-photo",
       "title": "2018年中国国家博物馆开国大典主题展陈照片",
       "localPath": "reference-assets/china-contemporary-founding/founding-ceremony-gallery-nmc-2018.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Founding_Ceremony_B.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2018年拍摄的中国国家博物馆开国大典主题展陈，画面中有油画《开国大典》和典礼相关文物。",
-      "boundary": "这是现代展厅照片，不是1949年现场。中央油画由董希文创作于1953年，是艺术作品；前方礼炮、话筒等展品需分别依据博物馆标牌识别，不能把整套情景复原视为原状。原图4032×3024像素，本地保存2400×1800像素等比缩小版。"
+      "boundary": "这是现代展厅照片，不是1949年现场。中央油画由董希文创作于1953年，是艺术作品；前方礼炮、话筒等展品需分别依据博物馆标牌识别，不能把整套情景复原视为原状。原图4032×3024像素，本地保存2400×1800像素等比缩小版。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-contemporary-01-01-founding.jpg",

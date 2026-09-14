@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.12.0",
+  "contentVersion": "0.13.0",
   "id": "cn-contemporary-03-02-reform-daily-life",
   "trackId": "china-contemporary",
   "trackLabel": "中国现代史",
@@ -13,7 +13,565 @@
   "title": "票证、商店和家庭生活怎样变化",
   "coreQuestion": "改革开放怎样一步步改变普通人的衣食住行？",
   "throughline": "用粮票、家庭照片、商品、住房、交通和统计资料比较不同时段的日常生活，避免只用宏大数字讲述改革。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "cn-contemporary-03-02-reform-daily-life",
+    "childTitle": "一张粮票怎样慢慢退出生活",
+    "prompt": "商店、冰箱、电话和出行方式，为什么不会在同一天全部改变？",
+    "takeaway": "改革进入日常生活是渐进过程，不同地区和家庭得到新条件的时间不同。",
+    "object": "粮票、家用电器、电话与家庭照片",
+    "people": [
+      "不同地区、不同家庭的普通人"
+    ],
+    "place": "城市社区、乡村家庭与新市场",
+    "culture": "家庭相册与生活口述",
+    "care": "不比较家庭贫富，不把城市经验当全国同步变化。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "一张粮票怎样慢慢退出生活"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "粮票能换什么",
+      "text": "先拿一张粮票，看看它能换到什么。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "新物件走进家庭",
+      "text": "接着看市场、电器和电话走进不同家庭。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "生活选择变多",
+      "text": "最后粮票慢慢退出，生活选择越来越多。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "改革进入日常生活是渐进过程，不同地区和家庭得到新条件的时间不同。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "改革",
+      "icon": "🛠️",
+      "plain": "发现旧办法有问题，改变规则或做法。",
+      "example": "改革可能带来新机会，也可能遇到阻力和新问题。",
+      "priority": 1
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "经济",
+      "icon": "🧺",
+      "plain": "人们怎样生产、交换、分配和使用东西。",
+      "example": "经济变化最后会落到工作、食物、住房等生活里。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "家庭相册",
+      "reading": "Jiātíng xiàngcè",
+      "kind": "polyphone",
+      "chapterIds": [
+        "cn-contemporary-03-02-reform-daily-life",
+        "world-contemporary-04-02-postwar-development"
+      ],
+      "note": "“相”在“相册”中读xiàng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "一张粮票怎样慢慢退出生活",
+      "question": "商店、冰箱、电话和出行方式，为什么不会在同一天全部改变？"
+    },
+    "coverAudio": {
+      "id": "quest-e989a54ad5495675",
+      "text": "今天从一件东西出发：一张粮票怎样慢慢退出生活。我们要去城市社区、乡村家庭与新市场，看看粮票、家用电器、电话与家庭照片怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-8c09e99d76c6cd56",
+      "text": "五条线索都找到了，“一张粮票怎样慢慢退出生活”的答案是：改革进入日常生活是渐进过程，不同地区和家庭得到新条件的时间不同。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 8,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是改革开放与中国特色社会主义建设，时间是1978—2012年。",
+          "narration": "这是改革开放与中国特色社会主义建设，时间是1978—2012年。",
+          "displayText": "这是改革开放与中国特色社会主义建设，时间是1978—2012年。"
+        },
+        "assetId": "butterfly-sewing-machine-object-photo",
+        "image": "/content/step-images/butterfly-sewing-machine-object-photo.jpg",
+        "imageAlt": "上海产蝴蝶牌缝纫机实物照片",
+        "imageCaption": "上海产蝴蝶牌缝纫机实物；这是2025年的物件照片，不是改革开放初期家庭现场。",
+        "imageBoundary": "摄影日期为2025年10月2日，保存1920×2560像素开放许可缩略图。照片只显示一种缝纫机外观，不能证明具体生产年代、购买者、家庭使用方式、市场价格或全国拥有量；每百户拥有量以国家统计局资料核验。正式使用须署名并以CC BY-SA 4.0同方式共享改编作品。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-b47ec93ce4496826",
+            "text": "这是改革开放与中国特色社会主义建设，时间是1978—2012年。"
+          },
+          "image": {
+            "id": "quest-103d1ac1783a2391",
+            "text": "点开大图啦。这是上海产蝴蝶牌缝纫机实物照片。这张图能帮我们找到：这是改革开放与中国特色社会主义建设，时间是1978—2012年。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-time-1",
+            "label": "中国现代史 · 改革开放与中国特色社会主义建设 · 1978—2012年",
+            "correct": true,
+            "audio": {
+              "id": "quest-932829129a4c0a2e",
+              "text": "中国现代史 · 改革开放与中国特色社会主义建设 · 1978—2012年"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-time-2",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-time-3",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "粮票能换什么",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先拿一张粮票，看看它能换到什么。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "粮票能换什么",
+          "screenText": "先拿一张粮票，看看它能换到什么。",
+          "narration": "先拿一张粮票，看看它能换到什么。",
+          "displayText": "先拿一张粮票，看看它能换到什么。"
+        },
+        "assetId": "national-grain-coupon-1966-hangzhou-editions-museum",
+        "image": "/content/step-images/national-grain-coupon-1966-hangzhou-editions-museum.jpg",
+        "imageAlt": "杭州国家版本馆展出的1966年全国通用粮票",
+        "imageCaption": "杭州国家版本馆展出的1966年全国通用粮票，票面为五市斤。",
+        "imageBoundary": "摄影者于2026年5月8日拍摄，Commons英文文件名把馆名写作Hangzhou National Archives，中文说明为‘杭州国家版本馆’，本登记采用中文说明并保留来源页。保存1920×1280像素的开放许可缩略图。票面能显示年份、名称和重量单位，不能单独说明持有人、实际购买价格、使用次数或全国供应总量；制度事实以政府公报和档案资料核验。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-1b8f5dace1420060",
+            "text": "先拿一张粮票，看看它能换到什么。"
+          },
+          "image": {
+            "id": "quest-ab527c7eaf6e3513",
+            "text": "点开大图啦。这是杭州国家版本馆展出的1966年全国通用粮票。这张图能帮我们找到：先拿一张粮票，看看它能换到什么。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-beginning-1",
+            "label": "不同地区、不同家庭的普通人、城市社，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-264d030da4b7828e",
+              "text": "不同地区、不同家庭的普通人、城市社，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-beginning-2",
+            "label": "城市社区、乡村家庭与新市场、不，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-b61e7d13265e9369",
+              "text": "城市社区、乡村家庭与新市场、不，只是故事地点"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-beginning-3",
+            "label": "粮票、家用电器、电话与家庭照片，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-9d406c28c4a25506",
+              "text": "粮票、家用电器、电话与家庭照片，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "新物件走进家庭",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看市场、电器和电话走进不同家庭。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "新物件走进家庭",
+          "screenText": "接着看市场、电器和电话走进不同家庭。",
+          "narration": "接着看市场、电器和电话走进不同家庭。",
+          "displayText": "接着看市场、电器和电话走进不同家庭。"
+        },
+        "assetId": "butterfly-sewing-machine-object-photo",
+        "image": "/content/step-images/butterfly-sewing-machine-object-photo.jpg",
+        "imageAlt": "上海产蝴蝶牌缝纫机实物照片",
+        "imageCaption": "上海产蝴蝶牌缝纫机实物；这是2025年的物件照片，不是改革开放初期家庭现场。",
+        "imageBoundary": "摄影日期为2025年10月2日，保存1920×2560像素开放许可缩略图。照片只显示一种缝纫机外观，不能证明具体生产年代、购买者、家庭使用方式、市场价格或全国拥有量；每百户拥有量以国家统计局资料核验。正式使用须署名并以CC BY-SA 4.0同方式共享改编作品。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-ba6a06998743b568",
+            "text": "接着看市场、电器和电话走进不同家庭。"
+          },
+          "image": {
+            "id": "quest-ef70492cb3714656",
+            "text": "点开大图啦。这是上海产蝴蝶牌缝纫机实物照片。这张图能帮我们找到：接着看市场、电器和电话走进不同家庭。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-journey-1",
+            "label": "不同地区、不同家庭的普通人，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-ac9c2f69cb609c2e",
+              "text": "不同地区、不同家庭的普通人，只认出人物"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-journey-2",
+            "label": "接着看市场、电器和电话走进不同家庭。",
+            "correct": true,
+            "audio": {
+              "id": "quest-ba6a06998743b568",
+              "text": "接着看市场、电器和电话走进不同家庭。"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-journey-3",
+            "label": "城市社区、乡村家庭与新，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-72546587bd55d773",
+              "text": "城市社区、乡村家庭与新，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "生活选择变多",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后粮票慢慢退出，生活选择越来越多。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "生活选择变多",
+          "screenText": "最后粮票慢慢退出，生活选择越来越多。",
+          "narration": "最后粮票慢慢退出，生活选择越来越多。",
+          "displayText": "最后粮票慢慢退出，生活选择越来越多。"
+        },
+        "assetId": "early-mobile-phones-zhongying-street-museum",
+        "image": "/content/step-images/early-mobile-phones-zhongying-street-museum.jpg",
+        "imageAlt": "中英街历史博物馆展出的早期移动电话",
+        "imageCaption": "深圳市盐田区中英街历史博物馆展出的早期移动电话实物。",
+        "imageBoundary": "摄影者于2025年1月31日拍摄，保存1920×1440像素开放许可缩略图。照片显示展柜中的多部早期移动电话及说明牌，只用于观察外形；不根据品牌、标签或展柜摆放推断进入中国的首年、售价、拥有者或全国普及率。正式使用须署名并以CC BY-SA 4.0同方式共享改编作品。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-3c3dee0382cfded4",
+            "text": "最后粮票慢慢退出，生活选择越来越多。"
+          },
+          "image": {
+            "id": "quest-e7f9ab5cfdfd9bf6",
+            "text": "点开大图啦。这是中英街历史博物馆展出的早期移动电话。这张图能帮我们找到：最后粮票慢慢退出，生活选择越来越多。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-change-1",
+            "label": "最后粮票慢慢退出，生活选择越来越多。",
+            "correct": true,
+            "audio": {
+              "id": "quest-3c3dee0382cfded4",
+              "text": "最后粮票慢慢退出，生活选择越来越多。"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-change-2",
+            "label": "看市场、电器和电话走进，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-c1951fa2a690dde0",
+              "text": "看市场、电器和电话走进，还只是行动经过"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-change-3",
+            "label": "粮票、家用电器、电，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-b45e1da4e607355c",
+              "text": "粮票、家用电器、电，还只是故事起点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "改革进入日常生活是渐进过程，不同地区和家庭得到新条件的时间不同。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "改革进入日常生活是渐进过程，不同地区和家庭得到新条件的时间不同。",
+          "narration": "改革进入日常生活是渐进过程，不同地区和家庭得到新条件的时间不同。",
+          "displayText": "改革进入日常生活是渐进过程，不同地区和家庭得到新条件的时间不同。"
+        },
+        "assetId": "butterfly-sewing-machine-object-photo",
+        "image": "/content/step-images/butterfly-sewing-machine-object-photo.jpg",
+        "imageAlt": "上海产蝴蝶牌缝纫机实物照片",
+        "imageCaption": "上海产蝴蝶牌缝纫机实物；这是2025年的物件照片，不是改革开放初期家庭现场。",
+        "imageBoundary": "摄影日期为2025年10月2日，保存1920×2560像素开放许可缩略图。照片只显示一种缝纫机外观，不能证明具体生产年代、购买者、家庭使用方式、市场价格或全国拥有量；每百户拥有量以国家统计局资料核验。正式使用须署名并以CC BY-SA 4.0同方式共享改编作品。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-13f69864f0724501",
+            "text": "改革进入日常生活是渐进过程，不同地区和家庭得到新条件的时间不同。"
+          },
+          "image": {
+            "id": "quest-087a085ac7d01270",
+            "text": "点开大图啦。这是上海产蝴蝶牌缝纫机实物照片。这张图能帮我们找到：改革进入日常生活是渐进过程，不同地区和家庭得到新条件的时间不同。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-takeaway-1",
+            "label": "拿一张粮票，看看它能换到什么。、粮票、家用电器、电，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-4a8a8ed5593629fa",
+              "text": "拿一张粮票，看看它能换到什么。、粮票、家用电器、电，只说了原因"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-takeaway-2",
+            "label": "粮票慢慢退出，生活选择越来越多。、一张粮票怎样慢慢退出，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-9dd5ce2e097ed9b2",
+              "text": "粮票慢慢退出，生活选择越来越多。、一张粮票怎样慢慢退出，只说了结果"
+            }
+          },
+          {
+            "id": "cn-contemporary-03-02-reform-daily-life-takeaway-3",
+            "label": "改革进入日常生活是渐进过程，不同地区和家庭得到新条件的时间不同。",
+            "correct": true,
+            "audio": {
+              "id": "quest-13f69864f0724501",
+              "text": "改革进入日常生活是渐进过程，不同地区和家庭得到新条件的时间不同。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "票证观察员",
+        "items": [
+          "在粮票上找出“年份、单位、适用范围、印制机构”四类信息，再判断“能证明可购数量”和“不能证明商品售价、家庭收入、全国供给量”；不把粮票做成可交易、抽卡或估价的收藏品。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "家庭物件时间篮",
+        "items": [
+          "把缝纫机、黑白电视机、洗衣机、移动电话放入“改革开放初期—1980至1990年代—新世纪”三个时间篮；允许旧物长期继续使用，不把更贵或更新的物品设置为更高人格分数。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "一百元家庭账本",
+        "items": [
+          "用100个相同方块表示消费支出，分别摆出1978年与2011年的食品支出占比，再把剩余方块留给衣着、住房、交通、教育文化等类别；系统强调这是总体比例示意，不是让儿童评判真实家庭怎样花钱。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "家里的时间证人",
+        "items": [
+          "在家长陪同下选择三个不诱导的问题——“第一次见到什么家电”“什么时候不再用某种票证”“一次搬家或通信变化”；只记录讲述者关系、地点、大概年代和“记不清”的部分，资料默认保存在本机，不上传。完成后把口述记忆与票证、照片、统计分别标成“个人经历”“物件证据”“总体趋势”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "改革开放怎样走进普通家庭，可以从一张粮票、一台缝纫机、一辆自行车、一部电话和一套住房中寻找证据。1978年前后，许多城镇生活必需品仍按票证定量供应，票证写明可以购买的种类或数量，不等于商品本身。随着生产增加、商品流通和价格体制改革，票证在不同地区逐步退出；深圳经济特区1984年先行取消粮票，全国各地到1993—1994年前后基本取消。与此同时，居民收入和商品供给增加，家庭耐用消费品从手表、自行车、缝纫机逐步扩展到电视机、冰箱、洗衣机、移动电话和计算机；住房、交通和通信条件也继续改善。不过，变化并不同步：城镇和农村、不同地区、不同收入家庭之间都有差异。统计平均数能观察总体趋势，不能代替每一个家庭的真实经历。"
@@ -466,70 +1024,91 @@
       "title": "杭州国家版本馆展出的1966年全国通用粮票",
       "localPath": "reference-assets/china-contemporary-reform-daily-life/national-grain-coupon-1966.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Nationally_Circulated_Grain_Coupon,_Hangzhou_National_Archives_69.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 4.0",
       "clearance": "cleared-open-license",
       "caption": "杭州国家版本馆展出的1966年全国通用粮票，票面为五市斤。",
-      "boundary": "摄影者于2026年5月8日拍摄，Commons英文文件名把馆名写作Hangzhou National Archives，中文说明为‘杭州国家版本馆’，本登记采用中文说明并保留来源页。保存1920×1280像素的开放许可缩略图。票面能显示年份、名称和重量单位，不能单独说明持有人、实际购买价格、使用次数或全国供应总量；制度事实以政府公报和档案资料核验。"
+      "boundary": "摄影者于2026年5月8日拍摄，Commons英文文件名把馆名写作Hangzhou National Archives，中文说明为‘杭州国家版本馆’，本登记采用中文说明并保留来源页。保存1920×1280像素的开放许可缩略图。票面能显示年份、名称和重量单位，不能单独说明持有人、实际购买价格、使用次数或全国供应总量；制度事实以政府公报和档案资料核验。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "rural-grain-supply-certificate-finance-tax-museum",
       "title": "中国财税博物馆收藏的农村粮食供应证",
       "localPath": "reference-assets/china-contemporary-reform-daily-life/rural-grain-supply-certificate.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:农村粮食供应证.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "中国财税博物馆收藏的农村粮食供应证，照片拍摄于2017年。",
-      "boundary": "摄影者于2017年5月1日拍摄，Commons说明为中国财税博物馆藏品，保存1920×1278像素开放许可缩略图。证件包含个人填写信息，儿童主界面不放大姓名、印章和编号，只用于家长证据抽屉理解‘供应证’这一文献类型；不从个别证件推断全国农村的统一供应方式。正式使用须署名并以CC BY-SA 4.0同方式共享改编作品。"
+      "boundary": "摄影者于2017年5月1日拍摄，Commons说明为中国财税博物馆藏品，保存1920×1278像素开放许可缩略图。证件包含个人填写信息，儿童主界面不放大姓名、印章和编号，只用于家长证据抽屉理解‘供应证’这一文献类型；不从个别证件推断全国农村的统一供应方式。正式使用须署名并以CC BY-SA 4.0同方式共享改编作品。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "butterfly-sewing-machine-object-photo",
       "title": "上海产蝴蝶牌缝纫机实物照片",
       "localPath": "reference-assets/china-contemporary-reform-daily-life/butterfly-sewing-machine.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:蝴蝶牌缝纫机.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "上海产蝴蝶牌缝纫机实物；这是2025年的物件照片，不是改革开放初期家庭现场。",
-      "boundary": "摄影日期为2025年10月2日，保存1920×2560像素开放许可缩略图。照片只显示一种缝纫机外观，不能证明具体生产年代、购买者、家庭使用方式、市场价格或全国拥有量；每百户拥有量以国家统计局资料核验。正式使用须署名并以CC BY-SA 4.0同方式共享改编作品。"
+      "boundary": "摄影日期为2025年10月2日，保存1920×2560像素开放许可缩略图。照片只显示一种缝纫机外观，不能证明具体生产年代、购买者、家庭使用方式、市场价格或全国拥有量；每百户拥有量以国家统计局资料核验。正式使用须署名并以CC BY-SA 4.0同方式共享改编作品。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "shenyang-sd35-4-black-white-tv-museum-photo",
       "title": "中国工业博物馆收藏的沈阳牌黑白电视机",
       "localPath": "reference-assets/china-contemporary-reform-daily-life/shenyang-black-white-tv.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Shenyang_SD35-4_35cm_television_set_20260331131901.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "中国工业博物馆收藏的沈阳牌SD35-4型35厘米黑白电视机。",
-      "boundary": "摄影者于2026年3月31日在中国工业博物馆拍摄，保存1920×1280像素开放许可缩略图。照片能观察电视机外形，不能据此确定生产日期、售价、节目内容、使用家庭或普及率；1980年城乡每百户黑白电视机拥有量以国家统计局资料核验。正式使用须署名并以CC BY-SA 4.0同方式共享改编作品。"
+      "boundary": "摄影者于2026年3月31日在中国工业博物馆拍摄，保存1920×1280像素开放许可缩略图。照片能观察电视机外形，不能据此确定生产日期、售价、节目内容、使用家庭或普及率；1980年城乡每百户黑白电视机拥有量以国家统计局资料核验。正式使用须署名并以CC BY-SA 4.0同方式共享改编作品。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "beijing-bicycle-street-1988",
       "title": "1988年北京自行车街景",
       "localPath": "reference-assets/china-contemporary-reform-daily-life/beijing-bicycles-1988.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Beijing,_China_1988_(5).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "1988年5月，北京街头的自行车与行人。",
-      "boundary": "摄影者自述1988年5月在北京拍摄，保存1920×1372像素开放许可缩略图。照片显示某一街道瞬间的自行车和行人，不能代表北京全部出行方式，更不能代表全国交通结构；自行车每百户拥有量和交通通信长期变化以国家统计局资料核验。正式使用须署名并以CC BY-SA 3.0同方式共享改编作品。"
+      "boundary": "摄影者自述1988年5月在北京拍摄，保存1920×1372像素开放许可缩略图。照片显示某一街道瞬间的自行车和行人，不能代表北京全部出行方式，更不能代表全国交通结构；自行车每百户拥有量和交通通信长期变化以国家统计局资料核验。正式使用须署名并以CC BY-SA 3.0同方式共享改编作品。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "early-mobile-phones-zhongying-street-museum",
       "title": "中英街历史博物馆展出的早期移动电话",
       "localPath": "reference-assets/china-contemporary-reform-daily-life/mobile-phone-museum.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:盐田_中英街历史博物馆之大哥大、摩托罗拉.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "深圳市盐田区中英街历史博物馆展出的早期移动电话实物。",
-      "boundary": "摄影者于2025年1月31日拍摄，保存1920×1440像素开放许可缩略图。照片显示展柜中的多部早期移动电话及说明牌，只用于观察外形；不根据品牌、标签或展柜摆放推断进入中国的首年、售价、拥有者或全国普及率。正式使用须署名并以CC BY-SA 4.0同方式共享改编作品。"
+      "boundary": "摄影者于2025年1月31日拍摄，保存1920×1440像素开放许可缩略图。照片显示展柜中的多部早期移动电话及说明牌，只用于观察外形；不根据品牌、标签或展柜摆放推断进入中国的首年、售价、拥有者或全国普及率。正式使用须署名并以CC BY-SA 4.0同方式共享改编作品。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "beijing-jintai-road-1980s-apartments-current-view",
       "title": "北京金台路沿线1980年代住宅楼现状",
       "localPath": "reference-assets/china-contemporary-reform-daily-life/beijing-1980s-apartments-2023.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:1980s_apartment_buildings_along_Jintai_Road_(between_Chaoyang_Road_and_Chaoyang_North_Road)_20231003160505.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2023年拍摄的北京金台路沿线住宅楼，摄影者说明多数建筑建于20世纪80年代。",
-      "boundary": "摄影日期为2023年10月3日，Commons说明地点为红庙北里社区、金台路沿线，保存1920×1280像素开放许可缩略图。它是旧建筑的当代外观，不是20世纪80年代历史照片；后加外墙、窗户、道路、车辆和设施均可能改变，不能据外观推断当年室内面积、产权、设施或居住人口。正式使用须署名并以CC BY-SA 4.0同方式共享改编作品。"
+      "boundary": "摄影日期为2023年10月3日，Commons说明地点为红庙北里社区、金台路沿线，保存1920×1280像素开放许可缩略图。它是旧建筑的当代外观，不是20世纪80年代历史照片；后加外墙、窗户、道路、车辆和设施均可能改变，不能据外观推断当年室内面积、产权、设施或居住人口。正式使用须署名并以CC BY-SA 4.0同方式共享改编作品。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-contemporary-03-02-reform-daily-life.jpg",

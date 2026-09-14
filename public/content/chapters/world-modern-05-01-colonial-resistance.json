@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-modern-05-01-colonial-resistance",
   "trackId": "world-modern",
   "trackLabel": "世界近代史",
@@ -13,7 +13,735 @@
   "title": "殖民地人民怎样反抗压迫",
   "coreQuestion": "拉丁美洲独立运动和印度民族大起义为何爆发？",
   "throughline": "先以1808—1824年拉丁美洲多地独立和1856—1858年印度—中国同期线分清两场运动，再用《牙买加来信》、海地援助、安第斯路线、女性身后肖像、东印度公司版图、章西纪念画、被俘皇帝照片与1858年法令，认识反殖民行动的多人多目标、政治独立与社会平等的距离，以及印度鸦片、殖民财政和军队调动连接的英帝国亚洲网络。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-modern-05-01-colonial-resistance",
+    "childTitle": "玻利瓦尔的信走过哪些地方",
+    "prompt": "殖民压迫下，不同地区的人为什么用组织、战争和政治方案争取独立？",
+    "takeaway": "拉丁美洲和印度的时间、人物与办法不同，共同点是反对外来殖民控制。",
+    "object": "《牙买加来信》、路线图与印度起义档案",
+    "people": [
+      "玻利瓦尔、圣马丁、印度起义者与普通民众"
+    ],
+    "place": "拉丁美洲、加勒比与印度",
+    "culture": "书信、宣言与口述记忆",
+    "care": "不把独立运动写成一位英雄解放整个大陆，也不展示处决和伤亡画面。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🗺️",
+      "label": "从一张地图出发",
+      "text": "玻利瓦尔的信走过哪些地方"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "一封信穿过美洲",
+      "text": "先跟玻利瓦尔的信穿过加勒比和拉丁美洲。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "各地提出独立办法",
+      "text": "接着看不同地区的人组织行动，提出独立方案。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "印度走另一条路",
+      "text": "最后再看印度的另一条道路，时间和办法并不相同。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "拉丁美洲和印度的时间、人物与办法不同，共同点是反对外来殖民控制。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "档案",
+      "icon": "🗂️",
+      "plain": "被保存下来的文件、照片、录音等记录。",
+      "example": "一份档案记录一个角度，要和别的证据一起看。",
+      "priority": 1
+    },
+    {
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "运动",
+      "icon": "📣",
+      "plain": "许多人围绕一个目标持续参加的行动。",
+      "example": "历史运动里的人、目标和做法可能并不完全相同。",
+      "priority": 3
+    },
+    {
+      "term": "奴隶制",
+      "icon": "⛓️",
+      "plain": "把人当财物并强迫劳动的不平等制度。",
+      "example": "讲奴隶制要看被伤害的人和反抗，不能让孩子扮演买卖。",
+      "priority": 1
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "公民",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "属于一个国家、依法有权利也有责任的人。",
+      "example": "古代有些地方只让少数人成为公民。",
+      "priority": 1
+    },
+    {
+      "term": "和平",
+      "icon": "🕊️",
+      "plain": "人们不靠战争解决分歧，并努力避免暴力伤害。",
+      "example": "和平需要规则、谈判和行动，不只是说一句愿望。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "权利",
+      "icon": "🫶",
+      "plain": "规则承认一个人可以做、可以得到保护的事情。",
+      "example": "写有权利，还要检查妇女、奴隶和穷人是否真的拥有。",
+      "priority": 1
+    },
+    {
+      "term": "条约",
+      "icon": "📄",
+      "plain": "国家或政治力量之间写下并同意遵守的约定。",
+      "example": "还要问条约是否平等、由谁签、后来怎样执行。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "领土",
+      "icon": "🗺️",
+      "plain": "一个国家依法拥有和管理的土地、水域等范围。",
+      "example": "历史地图要标时间，边界不会一直不变。",
+      "priority": 2
+    },
+    {
+      "term": "民族",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
+      "example": "民族不是按外貌排高低，也不会永远固定不变。",
+      "priority": 2
+    },
+    {
+      "term": "税收",
+      "icon": "🧾",
+      "plain": "公共机构按规则向居民或交易收取的钱和物。",
+      "example": "税收可用于公共事务，也要看负担是否合理。",
+      "priority": 2
+    },
+    {
+      "term": "危机",
+      "icon": "⚠️",
+      "plain": "问题迅速变严重，原来的办法难以应付。",
+      "example": "危机通常有多种原因，也会影响不同的人。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "自治",
+      "icon": "🏘️",
+      "plain": "一个地区或群体依法管理一部分自己的公共事情。",
+      "example": "自治仍在国家法律和共同制度内运行。",
+      "priority": 2
+    },
+    {
+      "term": "宗教",
+      "icon": "🕯️",
+      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
+      "example": "同一种宗教内部也有不同地区、时代和人群。",
+      "priority": 2
+    },
+    {
+      "term": "帝国",
+      "icon": "🗺️",
+      "plain": "由中心统治许多地区和人群的大政权。",
+      "example": "帝国地图会变化，不能把不同时期边界画成一张。",
+      "priority": 3
+    },
+    {
+      "term": "皇帝",
+      "icon": "👑",
+      "plain": "古代君主国家最高统治者的一种称号。",
+      "example": "皇帝会作决定，也依靠官员、军队、工匠和百姓。",
+      "priority": 3
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "王权",
+      "icon": "👑",
+      "plain": "国王或皇帝掌握的统治权力。",
+      "example": "王权强不等于国王一个人能完成所有事情。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "玻利瓦尔",
+      "reading": "Bōlìwǎ’ěr",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-05-01-colonial-resistance"
+      ],
+      "note": "按中文译名逐音节读清楚。"
+    },
+    {
+      "text": "圣马丁",
+      "reading": "Shèng Mǎdīng",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-05-01-colonial-resistance"
+      ],
+      "note": "人名译法按“圣—马丁”读。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一张地图",
+      "icon": "🗺️",
+      "label": "玻利瓦尔的信走过哪些地方",
+      "question": "殖民压迫下，不同地区的人为什么用组织、战争和政治方案争取独立？"
+    },
+    "coverAudio": {
+      "id": "quest-56279795fd242d08",
+      "text": "今天从一张地图出发：玻利瓦尔的信走过哪些地方。我们要去拉丁美洲、加勒比与印度，看看《牙买加来信》、路线图与印度起义档案怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-693c1afebe872920",
+      "text": "五条线索都找到了，“玻利瓦尔的信走过哪些地方”的答案是：拉丁美洲和印度的时间、人物与办法不同，共同点是反对外来殖民控制。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 11,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一张地图出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是殖民扩张与民族反抗，时间是18—19世纪。",
+          "narration": "这是殖民扩张与民族反抗，时间是18—19世纪。",
+          "displayText": "这是殖民扩张与民族反抗，时间是18—19世纪。"
+        },
+        "assetId": "jamaica-letter-manuscript-exhibition-2017-cc-by-sa",
+        "image": "/content/step-images/jamaica-letter-manuscript-exhibition-2017-cc-by-sa.jpg",
+        "imageAlt": "2017年展陈中拍摄的1815年《牙买加来信》原稿页",
+        "imageCaption": "2017年在厄瓜多尔总统府展陈中拍摄的1815年《牙买加来信》西班牙文原稿页。玻利瓦尔口述，秘书佩德罗·布里塞尼奥·门德斯记录。",
+        "imageBoundary": "本地文件为5472×3648像素JPEG，照片斜向拍摄，保留展柜和档案印章。必须标明这是2017年展陈照片，不说是直接扫描；不能把笔迹说成玻利瓦尔亲笔，也不能仅凭一页概括全部文本。若裁切或叠加标注，成品按CC BY-SA 2.0署名并以兼容许可分享。",
+        "audio": {
+          "transition": {
+            "id": "quest-9ef0fc145b345212",
+            "text": "先给一张地图找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-5867edc79437a2f8",
+            "text": "这是殖民扩张与民族反抗，时间是18—19世纪。"
+          },
+          "image": {
+            "id": "quest-3fbeca300635beb8",
+            "text": "点开大图啦。这是2017年展陈中拍摄的1815年《牙买加来信》原稿页。这张图能帮我们找到：这是殖民扩张与民族反抗，时间是18—19世纪。"
+          },
+          "question": {
+            "id": "quest-90f1cd3d8372a95d",
+            "text": "从一张地图出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-05-01-colonial-resistance-time-1",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "world-modern-05-01-colonial-resistance-time-2",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "world-modern-05-01-colonial-resistance-time-3",
+            "label": "世界近代史 · 殖民扩张与民族反抗 · 18—19世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-59b0752a32d916a8",
+              "text": "世界近代史 · 殖民扩张与民族反抗 · 18—19世纪"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "一封信穿过美洲",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先跟玻利瓦尔的信穿过加勒比和拉丁美洲。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "一封信穿过美洲",
+          "screenText": "先跟玻利瓦尔的信穿过加勒比和拉丁美洲。",
+          "narration": "先跟玻利瓦尔的信穿过加勒比和拉丁美洲。",
+          "displayText": "先跟玻利瓦尔的信穿过加勒比和拉丁美洲。"
+        },
+        "assetId": "jamaica-letter-manuscript-exhibition-2017-cc-by-sa",
+        "image": "/content/step-images/jamaica-letter-manuscript-exhibition-2017-cc-by-sa.jpg",
+        "imageAlt": "2017年展陈中拍摄的1815年《牙买加来信》原稿页",
+        "imageCaption": "2017年在厄瓜多尔总统府展陈中拍摄的1815年《牙买加来信》西班牙文原稿页。玻利瓦尔口述，秘书佩德罗·布里塞尼奥·门德斯记录。",
+        "imageBoundary": "本地文件为5472×3648像素JPEG，照片斜向拍摄，保留展柜和档案印章。必须标明这是2017年展陈照片，不说是直接扫描；不能把笔迹说成玻利瓦尔亲笔，也不能仅凭一页概括全部文本。若裁切或叠加标注，成品按CC BY-SA 2.0署名并以兼容许可分享。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-e77a7f12408f5de3",
+            "text": "先跟玻利瓦尔的信穿过加勒比和拉丁美洲。"
+          },
+          "image": {
+            "id": "quest-908ba43fbd869fb8",
+            "text": "点开大图啦。这是2017年展陈中拍摄的1815年《牙买加来信》原稿页。这张图能帮我们找到：先跟玻利瓦尔的信穿过加勒比和拉丁美洲。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-05-01-colonial-resistance-beginning-1",
+            "label": "拉丁美洲、加勒比与印度、玻利瓦尔、圣，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-099c1db723d06104",
+              "text": "拉丁美洲、加勒比与印度、玻利瓦尔、圣，只是故事地点"
+            }
+          },
+          {
+            "id": "world-modern-05-01-colonial-resistance-beginning-2",
+            "label": "《牙买加来信》、路线图与印度起义档案，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-510d431af549f823",
+              "text": "《牙买加来信》、路线图与印度起义档案，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-modern-05-01-colonial-resistance-beginning-3",
+            "label": "玻利瓦尔、圣马丁、印度起义者与普通民众，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-948a5b8b1260f723",
+              "text": "玻利瓦尔、圣马丁、印度起义者与普通民众，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "各地提出独立办法",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看不同地区的人组织行动，提出独立方案。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "各地提出独立办法",
+          "screenText": "接着看不同地区的人组织行动，提出独立方案。",
+          "narration": "接着看不同地区的人组织行动，提出独立方案。",
+          "displayText": "接着看不同地区的人组织行动，提出独立方案。"
+        },
+        "assetId": "east-india-company-india-comparison-map-1907-public-domain",
+        "image": "/content/step-images/east-india-company-india-comparison-map-1907-public-domain.jpg",
+        "imageAlt": "1907年绘制的1837与1857年东印度公司印度版图比较图",
+        "imageCaption": "1907年《印度帝国地名辞典地图集》对比1837年和1857年的印度；粉红色表示东印度公司治理的英国领地。",
+        "imageBoundary": "本地文件为1232×958像素JPEG。地图在事件后50年由殖民政府出版，边界和分类反映当时英国制图视角；可观察公司直辖范围扩大，不把所有其他区域误称为完全独立，也不能代替1857年起义分布图。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-e5d075fbe86c899a",
+            "text": "接着看不同地区的人组织行动，提出独立方案。"
+          },
+          "image": {
+            "id": "quest-3187c60170835c33",
+            "text": "点开大图啦。这是1907年绘制的1837与1857年东印度公司印度版图比较图。这张图能帮我们找到：接着看不同地区的人组织行动，提出独立方案。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-05-01-colonial-resistance-journey-1",
+            "label": "接着看不同地区的人组织行动，提出独立方案。",
+            "correct": true,
+            "audio": {
+              "id": "quest-e5d075fbe86c899a",
+              "text": "接着看不同地区的人组织行动，提出独立方案。"
+            }
+          },
+          {
+            "id": "world-modern-05-01-colonial-resistance-journey-2",
+            "label": "拉丁美洲、加勒比与印度、《牙，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-9d14d8c2d0f93e3a",
+              "text": "拉丁美洲、加勒比与印度、《牙，只说了地点"
+            }
+          },
+          {
+            "id": "world-modern-05-01-colonial-resistance-journey-3",
+            "label": "玻利瓦尔、圣马丁、印度起义者与普，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-5fee9d4f5b1edbb9",
+              "text": "玻利瓦尔、圣马丁、印度起义者与普，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "印度走另一条路",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后再看印度的另一条道路，时间和办法并不相同。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "印度走另一条路",
+          "screenText": "最后再看印度的另一条道路，时间和办法并不相同。",
+          "narration": "最后再看印度的另一条道路，时间和办法并不相同。",
+          "displayText": "最后再看印度的另一条道路，时间和办法并不相同。"
+        },
+        "assetId": "government-of-india-act-first-page-1858-ogl",
+        "image": "/content/step-images/government-of-india-act-first-page-1858-ogl.jpg",
+        "imageAlt": "1858年《印度政府法》第一页",
+        "imageCaption": "1858年8月2日《印度政府法》第一页；标题下第一条开始规定把东印度公司领土的政府与权力转交英国王室。",
+        "imageBoundary": "本地JPEG为官方22页PDF的第一页渲染图，1406×2234像素；PDF原件同时保存在同目录。儿童屏只放大标题、日期、第一条小标题并配准确中文释义；法令证明统治机构改变，不代表印度获得独立。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-f2250dbe0dd4ad54",
+            "text": "最后再看印度的另一条道路，时间和办法并不相同。"
+          },
+          "image": {
+            "id": "quest-81dc4d4cf753aa31",
+            "text": "点开大图啦。这是1858年《印度政府法》第一页。这张图能帮我们找到：最后再看印度的另一条道路，时间和办法并不相同。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-05-01-colonial-resistance-change-1",
+            "label": "看不同地区的人组织行动，提出独立，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-43844fdc168aa45b",
+              "text": "看不同地区的人组织行动，提出独立，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-modern-05-01-colonial-resistance-change-2",
+            "label": "《牙买加来信》、路线图与印度，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-9cf31d4c91384d6e",
+              "text": "《牙买加来信》、路线图与印度，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-modern-05-01-colonial-resistance-change-3",
+            "label": "最后再看印度的另一条道路，时间和办法并不相同。",
+            "correct": true,
+            "audio": {
+              "id": "quest-f2250dbe0dd4ad54",
+              "text": "最后再看印度的另一条道路，时间和办法并不相同。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "拉丁美洲和印度的时间、人物与办法不同，共同点是反对外来殖民控制。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "拉丁美洲和印度的时间、人物与办法不同，共同点是反对外来殖民控制。",
+          "narration": "拉丁美洲和印度的时间、人物与办法不同，共同点是反对外来殖民控制。",
+          "displayText": "拉丁美洲和印度的时间、人物与办法不同，共同点是反对外来殖民控制。"
+        },
+        "assetId": "jose-san-martin-canonical-portrait-c1828-public-domain",
+        "image": "/content/step-images/jose-san-martin-canonical-portrait-c1828-public-domain.jpg",
+        "imageAlt": "约1827—1829年何塞·德·圣马丁代表性肖像",
+        "imageCaption": "约1827—1829年绘制的圣马丁代表性肖像，现藏阿根廷国家历史博物馆；作者和确切年份仍有争议。",
+        "imageBoundary": "本地文件为1199×1573像素JPEG，图像曾数字修整以减弱上方反光。必须保留作者和年份存在争议的提示；画作晚于1817年翻越安第斯山，不能作为行军现场。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-61ace6ecbd4d8708",
+            "text": "拉丁美洲和印度的时间、人物与办法不同，共同点是反对外来殖民控制。"
+          },
+          "image": {
+            "id": "quest-7933fd9b9f06975f",
+            "text": "点开大图啦。这是约1827—1829年何塞·德·圣马丁代表性肖像。这张图能帮我们找到：拉丁美洲和印度的时间、人物与办法不同，共同点是反对外来殖民控制。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-05-01-colonial-resistance-takeaway-1",
+            "label": "再看印度的另一条道路，时间和办法并不相同。、玻利瓦尔的，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-79269bb9c3d832f8",
+              "text": "再看印度的另一条道路，时间和办法并不相同。、玻利瓦尔的，只说了结果"
+            }
+          },
+          {
+            "id": "world-modern-05-01-colonial-resistance-takeaway-2",
+            "label": "拉丁美洲和印度的时间、人物与办法不同，共同点是反对外来殖民控制。",
+            "correct": true,
+            "audio": {
+              "id": "quest-61ace6ecbd4d8708",
+              "text": "拉丁美洲和印度的时间、人物与办法不同，共同点是反对外来殖民控制。"
+            }
+          },
+          {
+            "id": "world-modern-05-01-colonial-resistance-takeaway-3",
+            "label": "跟玻利瓦尔的信穿过加勒比和拉丁美洲。、《牙买加来信，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-f3cb3fa5519f9e11",
+              "text": "跟玻利瓦尔的信穿过加勒比和拉丁美洲。、《牙买加来信，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把时间卡放到正确的线",
+        "items": [
+          "学习点：先分清相隔数十年的两条线。",
+          "即时反馈：“共同点是反抗殖民压迫，不代表它们是同一场战争。”",
+          "不以速度排名，不出现战争胜负积分。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "是谁让路线能够继续",
+        "items": [
+          "学习点：从单一英雄转向协作网络。",
+          "玻利瓦尔、圣马丁头像已在图上，但不能独自完成路线。",
+          "不设置“最强领袖”或占领领土涂色。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "长期原因还是导火索",
+        "items": [
+          "学习点：区分深层原因与触发事件。",
+          "反馈语：“火星很重要，但要先问干柴为什么已经堆起来。”",
+          "不要求模拟使用枪支或纸筒。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "给图片贴对标签",
+        "items": [
+          "学习点：图片也有制作时间、作者和用途。",
+          "完成反馈：“当时照片、原稿照片和后世纪念画，能回答的问题不一样。”",
+          "不根据人物神情判断勇敢、善恶或政治立场。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 11,
   "conclusion": [
     "拉丁美洲独立运动和1857年印度民族大起义都反抗殖民统治，却不是同一场运动，也不是少数英雄单独完成的故事。西班牙、葡萄牙殖民统治造成身份等级、贸易限制、土地和劳役压迫；1808年伊比利亚半岛政治危机又使美洲多地相继建立地方政权、起义或走向独立。玻利瓦尔和圣马丁很重要，但海地援助、被奴役者和获释者、原住民、非洲裔居民、女性、地方军队与不同政治团体也参与其中；墨西哥、中美洲和巴西还有不同路径。政治独立没有立刻消除奴隶制、种族与性别不平等，也没有自动建立稳定统一的国家。印度方面，东印度公司从贸易公司扩张为领土统治者，兼并政策、税收压力、王公和士兵利益受损、宗教文化担忧等长期累积；新式步枪纸筒传言只是导火索。1857年起义从密拉特扩展到北部和中部多个中心，不同参与者希望恢复莫卧儿、奥德或章西等不同秩序，没有统一指挥和完全相同的目标。起义失败后，1858年法令把公司领土的统治权转给英国王室，但印度直到1947年才独立。1857年也与第二次鸦片战争重叠：印度鸦片、殖民税收和军队调动把印度与中国放进同一英国帝国网络；这说明两地危机相互牵动，不等于印度起义引发战争，也不等于中印曾共同作战。"
@@ -998,100 +1726,130 @@
       "title": "2017年展陈中拍摄的1815年《牙买加来信》原稿页",
       "localPath": "reference-assets/world-modern-colonial-resistance/jamaica-32487613314.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:CARTA_DE_JAMAICA_(32487613314).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 2.0",
       "clearance": "cleared-open-license",
       "caption": "2017年在厄瓜多尔总统府展陈中拍摄的1815年《牙买加来信》西班牙文原稿页。玻利瓦尔口述，秘书佩德罗·布里塞尼奥·门德斯记录。",
-      "boundary": "本地文件为5472×3648像素JPEG，照片斜向拍摄，保留展柜和档案印章。必须标明这是2017年展陈照片，不说是直接扫描；不能把笔迹说成玻利瓦尔亲笔，也不能仅凭一页概括全部文本。若裁切或叠加标注，成品按CC BY-SA 2.0署名并以兼容许可分享。"
+      "boundary": "本地文件为5472×3648像素JPEG，照片斜向拍摄，保留展柜和档案印章。必须标明这是2017年展陈照片，不说是直接扫描；不能把笔迹说成玻利瓦尔亲笔，也不能仅凭一页概括全部文本。若裁切或叠加标注，成品按CC BY-SA 2.0署名并以兼容许可分享。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "simon-bolivar-portrait-c1823-public-domain",
       "title": "约1823年西蒙·玻利瓦尔油画肖像",
       "localPath": "reference-assets/world-modern-colonial-resistance/simon-bolivar-c1823.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:José_Gil_de_Castro_-_Simón_Bolívar_-_Google_Art_Project.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark",
       "clearance": "cleared-public-domain",
       "caption": "秘鲁画家何塞·希尔·德·卡斯特罗约1823年绘制的玻利瓦尔肖像，创作时间接近独立战争后期。",
-      "boundary": "本地文件为3039×4001像素JPEG。它是正式油画肖像，不是照片，也不能从军装和姿态推断玻利瓦尔一人指挥了所有拉丁美洲独立运动。"
+      "boundary": "本地文件为3039×4001像素JPEG。它是正式油画肖像，不是照片，也不能从军装和姿态推断玻利瓦尔一人指挥了所有拉丁美洲独立运动。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "jose-san-martin-canonical-portrait-c1828-public-domain",
       "title": "约1827—1829年何塞·德·圣马丁代表性肖像",
       "localPath": "reference-assets/world-modern-colonial-resistance/jose-san-martin-c1828.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:José_de_San_Martín_(retrato,_c.1828).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "约1827—1829年绘制的圣马丁代表性肖像，现藏阿根廷国家历史博物馆；作者和确切年份仍有争议。",
-      "boundary": "本地文件为1199×1573像素JPEG，图像曾数字修整以减弱上方反光。必须保留作者和年份存在争议的提示；画作晚于1817年翻越安第斯山，不能作为行军现场。"
+      "boundary": "本地文件为1199×1573像素JPEG，图像曾数字修整以减弱上方反光。必须保留作者和年份存在争议的提示；画作晚于1817年翻越安第斯山，不能作为行军现场。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "policarpa-salavarrieta-posthumous-portrait-1855-public-domain",
       "title": "1855年波利卡帕·萨拉瓦列塔身后肖像",
       "localPath": "reference-assets/world-modern-colonial-resistance/policarpa-salavarrieta-1855.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Policarpa_Salabarrieta.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "何塞·玛丽亚·埃斯皮诺萨1855年绘制的波利卡帕·萨拉瓦列塔肖像；她在1817年已被处决，因此这是后世纪念形象。",
-      "boundary": "本地文件为743×944像素JPEG。必须固定写‘身后肖像’；可用于讨论女性参与和后世记忆，不能证明她生前的确切相貌、服装或某次行动。"
+      "boundary": "本地文件为743×944像素JPEG。必须固定写‘身后肖像’；可用于讨论女性参与和后世记忆，不能证明她生前的确切相貌、服装或某次行动。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "battle-of-boyaca-history-painting-1840-public-domain",
       "title": "1840年《博亚卡战役》历史画",
       "localPath": "reference-assets/world-modern-colonial-resistance/boyaca-battle-1840.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Batalla_de_Boyacá_por_José_María_Espinosa_(1840).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "何塞·玛丽亚·埃斯皮诺萨1840年绘制的1819年博亚卡战役，比事件晚约21年。",
-      "boundary": "本地文件为900×655像素JPEG。它是后来的历史画，不是战场照片；可表现后世怎样重构胜利场面，不能据此精确判断阵形、动作、服装或每名参战者身份。"
+      "boundary": "本地文件为900×655像素JPEG。它是后来的历史画，不是战场照片；可表现后世怎样重构胜利场面，不能据此精确判断阵形、动作、服装或每名参战者身份。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "east-india-company-india-comparison-map-1907-public-domain",
       "title": "1907年绘制的1837与1857年东印度公司印度版图比较图",
       "localPath": "reference-assets/world-modern-colonial-resistance/east-india-company-map-1907.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:India1837to1857.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / expired Crown Copyright",
       "clearance": "cleared-public-domain",
       "caption": "1907年《印度帝国地名辞典地图集》对比1837年和1857年的印度；粉红色表示东印度公司治理的英国领地。",
-      "boundary": "本地文件为1232×958像素JPEG。地图在事件后50年由殖民政府出版，边界和分类反映当时英国制图视角；可观察公司直辖范围扩大，不把所有其他区域误称为完全独立，也不能代替1857年起义分布图。"
+      "boundary": "本地文件为1232×958像素JPEG。地图在事件后50年由殖民政府出版，边界和分类反映当时英国制图视角；可观察公司直辖范围扩大，不把所有其他区域误称为完全独立，也不能代替1857年起义分布图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "rani-lakshmibai-equestrian-memorial-c1860-public-domain",
       "title": "约1860年拉克希米芭伊骑马纪念画",
       "localPath": "reference-assets/world-modern-colonial-resistance/rani-lakshmibai-c1860.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Equestrian_painting_of_Lakshmibai,_the_Rani_of_Jhansi,_Central_India,_perhaps_Jhansi,_ca.1860.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark",
       "clearance": "cleared-public-domain",
       "caption": "约1860年在印度中部、可能是章西绘制的拉克希米芭伊骑马形象；她于1858年去世，因此不是生活写生或战场照片。",
-      "boundary": "本地文件为2094×2500像素JPEG，纸本不透明颜料并用金。必须标注‘约1860年纪念画’；可说明她很快成为抵抗记忆中的重要人物，不能证明其战场装备、姿势或具体行动。"
+      "boundary": "本地文件为2094×2500像素JPEG，纸本不透明颜料并用金。必须标注‘约1860年纪念画’；可说明她很快成为抵抗记忆中的重要人物，不能证明其战场装备、姿势或具体行动。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "bahadur-shah-zafar-captive-photo-may-1858-public-domain",
       "title": "1858年5月被俘候审的巴哈杜尔·沙阿二世照片",
       "localPath": "reference-assets/world-modern-colonial-resistance/bahadur-shah-zafar-1858.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Bahadur_Shah_Zafar.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark",
       "clearance": "cleared-public-domain",
       "caption": "1858年5月，被英国关押在德里等待审判的莫卧儿皇帝巴哈杜尔·沙阿二世。",
-      "boundary": "本地文件为420×324像素JPEG，清晰度有限。这是被俘后的照片，不是他在1857年领导起义的英雄肖像；照片能证明其被囚状态，不能单独说明他加入起义时的意愿、权力或各地起义者的目标。"
+      "boundary": "本地文件为420×324像素JPEG，清晰度有限。这是被俘后的照片，不是他在1857年领导起义的英雄肖像；照片能证明其被囚状态，不能单独说明他加入起义时的意愿、权力或各地起义者的目标。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "jhansi-fort-photo-c1882-public-domain",
       "title": "约1882年章西城堡照片",
       "localPath": "reference-assets/world-modern-colonial-resistance/jhansi-fort-1882.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:1857_jhansi_fort2.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark",
       "clearance": "cleared-public-domain",
       "caption": "摄影师拉拉·丁·达亚尔约1882年拍摄的章西城堡，距离1857—1858年战事约24年。",
-      "boundary": "本地文件为887×582像素JPEG。可观察城堡地形与后世保存状态，不能当作围城现场，也不能根据1882年人物、骆驼或建筑状态还原1858年每一处位置。"
+      "boundary": "本地文件为887×582像素JPEG。可观察城堡地形与后世保存状态，不能当作围城现场，也不能根据1882年人物、骆驼或建筑状态还原1858年每一处位置。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "government-of-india-act-first-page-1858-ogl",
       "title": "1858年《印度政府法》第一页",
       "localPath": "reference-assets/world-modern-colonial-resistance/government-of-india-act-1858.jpg",
       "sourcePage": "https://www.legislation.gov.uk/ukpga/Vict/21-22/106/pdfs/ukpga_18580106_en.pdf",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Open Government Licence v3.0；historical legislation text public domain",
       "clearance": "cleared-open-license",
       "caption": "1858年8月2日《印度政府法》第一页；标题下第一条开始规定把东印度公司领土的政府与权力转交英国王室。",
-      "boundary": "本地JPEG为官方22页PDF的第一页渲染图，1406×2234像素；PDF原件同时保存在同目录。儿童屏只放大标题、日期、第一条小标题并配准确中文释义；法令证明统治机构改变，不代表印度获得独立。"
+      "boundary": "本地JPEG为官方22页PDF的第一页渲染图，1406×2234像素；PDF原件同时保存在同目录。儿童屏只放大标题、日期、第一条小标题并配准确中文释义；法令证明统治机构改变，不代表印度获得独立。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-modern-05-01-colonial-resistance.jpg",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-05-02-jiangnan-development",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
@@ -9,11 +9,693 @@
     "label": "三国两晋南北朝",
     "years": "220—589年"
   },
-  "order": 15,
-  "title": "江南为什么逐渐发展起来",
+  "order": 16,
+  "title": "一粒稻米怎样长成江南",
   "coreQuestion": "人口南迁、自然条件和劳动怎样推动江南开发？",
-  "throughline": "利用人口迁徙图、农业和手工业遗物观察东晋南朝时期江南地区的发展。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "throughline": "从稻米、水田和水利进入江南生活，再用青瓷器物观察原有居民、迁入者、自然条件和长期劳动怎样共同推动发展。",
+  "childEntry": {
+    "id": "cn-ancient-05-02-jiangnan-development",
+    "childTitle": "给江南稻田找水",
+    "prompt": "有了河流，水就一定会流进每一块田吗？",
+    "takeaway": "江南农业发展既靠水土条件，也靠当地居民与迁来者耕作、修渠和维护。",
+    "object": "稻谷遗存、农具和水利遗迹",
+    "people": [
+      "江南农人",
+      "迁来者"
+    ],
+    "place": "长江中下游与建康",
+    "culture": null,
+    "care": "水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。",
+    "preferredAssetId": "jiangnan-rice-life-child-illustration",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-05-02-jiangnan-development",
+    "featured": {
+      "type": "诗歌",
+      "icon": "🪷",
+      "title": "江南农人与迁来者",
+      "childBridge": "有了河流，水就一定会流进每一块田吗？",
+      "evidenceBoundary": "水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。"
+    },
+    "companions": [
+      {
+        "type": "地点",
+        "label": "长江中下游",
+        "note": "沿河网找水田、村镇与手工业怎样慢慢发展。"
+      },
+      {
+        "type": "实物",
+        "label": "青瓷羊和鸡首壶",
+        "note": "日用器物只能讲看得见的工艺与生活线索。"
+      }
+    ],
+    "sourceIds": [
+      "PEP-CHINESE-CLASSICS-RESOURCE",
+      "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+      "NMC-CELADON-SHEEP"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "江南变化的时间",
+      "text": "220年到589年，江南许多地方逐步发展。它不是在某一天突然变成大粮仓。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "诗里的水乡",
+      "text": "“江南可采莲，莲叶何田田。”汉乐府《江南》写水边采莲的景象，不是某座晋代村庄的记录。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "给水流开一条路",
+      "text": "水在河里，田在旁边。人们要按地势修整水渠，让水能进入需要的地方。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "一起把水渠修好",
+      "text": "会看水土、会种田、会修渠的人一起劳动。水渠堵了，还得清理。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "稻田为什么改变",
+      "text": "水土提供条件，人们的劳动把条件变成田地里的变化。不同地方进度不一样。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "迁徙",
+      "icon": "👣",
+      "plain": "人们离开原住地，搬到别的地方生活。",
+      "example": "迁徙可能因为气候、生计、战争或主动选择。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "手工业",
+      "icon": "🧵",
+      "plain": "主要靠手和工具制作器物的生产活动。",
+      "example": "陶器、织物和青铜器都需要材料、技术与分工。",
+      "priority": 2
+    },
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "政权",
+      "icon": "🏛️",
+      "plain": "谁在用什么机构和规则管理一个地方。",
+      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
+      "priority": 2
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "建康",
+      "reading": "Jiànkāng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-05-01-division-migration",
+        "cn-ancient-05-02-jiangnan-development"
+      ],
+      "note": "古代地名，今南京一带。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "给江南稻田找水",
+      "question": "有了河流，水就一定会流进每一块田吗？"
+    },
+    "cta": "去帮稻田引水",
+    "anchor": "江南农人与迁来者",
+    "boundary": "水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。",
+    "evidence": [
+      {
+        "id": "eastern-jin-chicken-head-ewer",
+        "title": "东晋越窑青瓷鸡首壶馆藏图像",
+        "localPath": "reference-assets/three-kingdoms-jin-northern-southern/eastern-jin-chicken-head-ewer.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Chicken-Headed_Ewer-_MET_DP-14609-030.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC0 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "大都会艺术博物馆藏东晋4—5世纪越窑青瓷鸡首壶。",
+        "boundary": "大都会艺术博物馆记录其为青瓷釉炻器和墓葬用器，鸡首造型的含义仍不明确。图片为馆方开放获取图像，下载为1920像素等比例缩略图，未作其他修改。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/eastern-jin-chicken-head-ewer.jpg"
+      }
+    ],
+    "coverAsset": {
+      "id": "jiangnan-rice-life-child-illustration",
+      "title": "江南稻作、水利与居民协作儿童示意图",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jiangnan-rice-self-made.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童示意图：稻作、河网、水利和不同居民的长期劳动共同改变江南。",
+      "boundary": "2026-08-09为低龄玩法自制。它不是魏晋南北朝某年某地的照片或精确农具、服饰复原，也不证明所有江南地区采用同样耕作方式。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/jiangnan-rice-life-child-illustration.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/jiangnan-rice-life-child-illustration.jpg",
+    "coverImageAlt": "江南稻作、水利与居民协作儿童示意图",
+    "coverImageKind": "故事插画",
+    "coverAudio": {
+      "id": "quest-b052ccf94b63ed3e",
+      "text": "给江南稻田找水。有了河流，水就一定会流进每一块田吗？准备好就点“去帮稻田引水”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-bb04fac9ef326835",
+      "text": "江南农业发展既靠水土条件，也靠当地居民与迁来者耕作、修渠和维护。"
+    },
+    "finish": {
+      "title": "用手指画一条水渠",
+      "actions": [
+        "从图里的河指到田，沿着接通的水路走。",
+        "家人说“这里堵啦”，你指出需要修哪里。"
+      ],
+      "parent": "问“只有河水，田就一定有收成吗？”接受修渠、种田、维护等具体回应；诗歌只用来感受景象。",
+      "sceneStepIndexes": [
+        2,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-422a3b9bc3c4d0b1",
+          "text": "从图里的河指到田，沿着接通的水路走。"
+        },
+        {
+          "id": "quest-f4dbab128e9fc615",
+          "text": "家人说“这里堵啦”，你指出需要修哪里。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-be807baac6b8ca16",
+        "text": "用手指画一条水渠。从图里的河指到田，沿着接通的水路走。家人说“这里堵啦”，你指出需要修哪里。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "江南变化的时间",
+        "title": "江南变化的时间",
+        "prompt": "这段变化应该画多长？",
+        "rightNote": "这是持续很久、各地不一样的变化。",
+        "wrongNote": "这是持续很久、各地不一样的变化。",
+        "sourceIds": [
+          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "江南变化的时间",
+          "screenText": "220年到589年，江南许多地方逐步发展。它不是在某一天突然变成大粮仓。",
+          "displayText": "220年到589年，江南许多地方逐步发展。它不是在某一天突然变成大粮仓。",
+          "narration": "220年到589年，江南许多地方逐步发展。它不是在某一天突然变成大粮仓。"
+        },
+        "assetId": "study-c2aa2f1d5444b410",
+        "image": "/content/study-scenes/study-c2aa2f1d5444b410.svg",
+        "studyImage": "/content/study-scenes/study-c2aa2f1d5444b410.svg",
+        "studyImageAlt": "220年，慢慢发展，589年",
+        "imageAlt": "220年，慢慢发展，589年",
+        "imageCaption": "学习示意 · 220年，慢慢发展，589年",
+        "imageBoundary": "自制学习示意。水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。",
+        "audio": {
+          "transition": {
+            "id": "quest-d80a560fa2d7ae27",
+            "text": "江南变化的时间。"
+          },
+          "intro": {
+            "id": "quest-67f474304ab815c7",
+            "text": "220年到589年，江南许多地方逐步发展。它不是在某一天突然变成大粮仓。"
+          },
+          "question": {
+            "id": "quest-95f9b14ad6b39d46",
+            "text": "这段变化应该画多长？"
+          },
+          "image": {
+            "id": "quest-bab3116761fe8a0c",
+            "text": "这是学习示意图：220年，慢慢发展，589年。这段变化应该画多长？"
+          },
+          "right": {
+            "id": "quest-7c6c28b6ee7218c4",
+            "text": "找到了。这是持续很久、各地不一样的变化。"
+          },
+          "wrong": {
+            "id": "quest-669e0761faba9195",
+            "text": "再比较一下。这是持续很久、各地不一样的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-02-jiangnan-development-time-1",
+            "label": "画在220—589年一段里",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-01403fe0050a8429.svg",
+            "imageAlt": "220—589年 持续",
+            "audio": {
+              "id": "quest-ef522aecfbcb60ca",
+              "text": "画在220—589年一段里"
+            }
+          },
+          {
+            "id": "cn-ancient-05-02-jiangnan-development-time-2",
+            "label": "只点在589年一天上",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-d7e2cad410ca0fec.svg",
+            "imageAlt": "589年 某一天",
+            "audio": {
+              "id": "quest-6085e8213f319e11",
+              "text": "只点在589年一天上"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "诗里的水乡",
+        "title": "诗里的水乡",
+        "prompt": "诗句可以带我们想象什么？",
+        "rightNote": "诗帮助感受水乡，不能统计村庄收了多少粮。",
+        "wrongNote": "诗帮助感受水乡，不能统计村庄收了多少粮。",
+        "sourceIds": [
+          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "诗里的水乡",
+          "screenText": "“江南可采莲，莲叶何田田。”汉乐府《江南》写水边采莲的景象，不是某座晋代村庄的记录。",
+          "displayText": "“江南可采莲，莲叶何田田。”汉乐府《江南》写水边采莲的景象，不是某座晋代村庄的记录。",
+          "narration": "“江南可采莲，莲叶何田田。”汉乐府《江南》写水边采莲的景象，不是某座晋代村庄的记录。"
+        },
+        "assetId": "study-8681f9f6c10022d5",
+        "image": "/content/study-scenes/study-8681f9f6c10022d5.svg",
+        "studyImage": "/content/study-scenes/study-8681f9f6c10022d5.svg",
+        "studyImageAlt": "水面，莲叶",
+        "imageAlt": "水面，莲叶",
+        "imageCaption": "学习示意 · 水面，莲叶",
+        "imageBoundary": "自制学习示意。水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。",
+        "audio": {
+          "transition": {
+            "id": "quest-883d2f6a5aceb94d",
+            "text": "诗里的水乡。"
+          },
+          "intro": {
+            "id": "quest-87a652a4b9c3fca1",
+            "text": "“江南可采莲，莲叶何田田。”汉乐府《江南》写水边采莲的景象，不是某座晋代村庄的记录。"
+          },
+          "question": {
+            "id": "quest-f0879d74eb0cefc6",
+            "text": "诗句可以带我们想象什么？"
+          },
+          "image": {
+            "id": "quest-06aff452aa5b4ae1",
+            "text": "这是学习示意图：水面，莲叶。诗句可以带我们想象什么？"
+          },
+          "right": {
+            "id": "quest-f4e658fb5c515b3a",
+            "text": "找到了。诗帮助感受水乡，不能统计村庄收了多少粮。"
+          },
+          "wrong": {
+            "id": "quest-eed182d5e4ad59f3",
+            "text": "再比较一下。诗帮助感受水乡，不能统计村庄收了多少粮。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-02-jiangnan-development-beginning-1",
+            "label": "水面和茂密莲叶",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-47c809688e8877b9.svg",
+            "imageAlt": "莲叶和水面",
+            "audio": {
+              "id": "quest-a9a1ae162e7ffafa",
+              "text": "水面和茂密莲叶"
+            }
+          },
+          {
+            "id": "cn-ancient-05-02-jiangnan-development-beginning-2",
+            "label": "每户人家的粮食数",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-77224df7751b7bee.svg",
+            "imageAlt": "每家粮食数量",
+            "audio": {
+              "id": "quest-cb3b74c7aec5c4d2",
+              "text": "每户人家的粮食数"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "给水流开一条路",
+        "title": "给水流开一条路",
+        "prompt": "哪条水路能到田里？",
+        "rightNote": "把需要的田和水路接通，才可能引水灌溉。",
+        "wrongNote": "把需要的田和水路接通，才可能引水灌溉。",
+        "sourceIds": [
+          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "给水流开一条路",
+          "screenText": "水在河里，田在旁边。人们要按地势修整水渠，让水能进入需要的地方。",
+          "displayText": "水在河里，田在旁边。人们要按地势修整水渠，让水能进入需要的地方。",
+          "narration": "水在河里，田在旁边。人们要按地势修整水渠，让水能进入需要的地方。"
+        },
+        "assetId": "study-b68450e96ea155d2",
+        "image": "/content/study-scenes/study-b68450e96ea155d2.svg",
+        "studyImage": "/content/study-scenes/study-b68450e96ea155d2.svg",
+        "studyImageAlt": "河流，稻田",
+        "imageAlt": "河流，稻田",
+        "imageCaption": "学习示意 · 河流，稻田",
+        "imageBoundary": "自制学习示意。水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。",
+        "audio": {
+          "transition": {
+            "id": "quest-b24e575d7b004146",
+            "text": "给水流开一条路。"
+          },
+          "intro": {
+            "id": "quest-cecd6a159c181ea5",
+            "text": "水在河里，田在旁边。人们要按地势修整水渠，让水能进入需要的地方。"
+          },
+          "question": {
+            "id": "quest-2ba4a1c30af2794a",
+            "text": "哪条水路能到田里？"
+          },
+          "image": {
+            "id": "quest-c4b77d8ce0debeea",
+            "text": "这是学习示意图：河流，稻田。哪条水路能到田里？"
+          },
+          "right": {
+            "id": "quest-a3797308aacac439",
+            "text": "找到了。把需要的田和水路接通，才可能引水灌溉。"
+          },
+          "wrong": {
+            "id": "quest-6e24fb9b4c33dc38",
+            "text": "再比较一下。把需要的田和水路接通，才可能引水灌溉。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-02-jiangnan-development-journey-1",
+            "label": "河流和田相连",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-3a526e9ef1669b3b.svg",
+            "imageAlt": "水路通向田地",
+            "audio": {
+              "id": "quest-69decae619bb6001",
+              "text": "河流和田相连"
+            }
+          },
+          {
+            "id": "cn-ancient-05-02-jiangnan-development-journey-2",
+            "label": "水渠停在田外",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-3d3d8c4f1c023ca4.svg",
+            "imageAlt": "水路未接到田地",
+            "audio": {
+              "id": "quest-312b95f0b963a7a2",
+              "text": "水渠停在田外"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "一起把水渠修好",
+        "title": "一起把水渠修好",
+        "prompt": "已经有渠却不通水，该做什么？",
+        "rightNote": "丰收图不能疏通水渠，还要实际检查和维护。",
+        "wrongNote": "丰收图不能疏通水渠，还要实际检查和维护。",
+        "sourceIds": [
+          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "一起把水渠修好",
+          "screenText": "会看水土、会种田、会修渠的人一起劳动。水渠堵了，还得清理。",
+          "displayText": "会看水土、会种田、会修渠的人一起劳动。水渠堵了，还得清理。",
+          "narration": "会看水土、会种田、会修渠的人一起劳动。水渠堵了，还得清理。"
+        },
+        "assetId": "study-97ee3d4984215db7",
+        "image": "/content/study-scenes/study-97ee3d4984215db7.svg",
+        "studyImage": "/content/study-scenes/study-97ee3d4984215db7.svg",
+        "studyImageAlt": "水渠，堵处，维护",
+        "imageAlt": "水渠，堵处，维护",
+        "imageCaption": "学习示意 · 水渠，堵处，维护",
+        "imageBoundary": "自制学习示意。水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。",
+        "audio": {
+          "transition": {
+            "id": "quest-baed41d6fe1b6d34",
+            "text": "一起把水渠修好。"
+          },
+          "intro": {
+            "id": "quest-33d146a715fc7c8c",
+            "text": "会看水土、会种田、会修渠的人一起劳动。水渠堵了，还得清理。"
+          },
+          "question": {
+            "id": "quest-d83127e4c2356766",
+            "text": "已经有渠却不通水，该做什么？"
+          },
+          "image": {
+            "id": "quest-c91db8fbbcbe74a3",
+            "text": "这是学习示意图：水渠，堵处，维护。已经有渠却不通水，该做什么？"
+          },
+          "right": {
+            "id": "quest-b76e6bc57b7eba64",
+            "text": "找到了。丰收图不能疏通水渠，还要实际检查和维护。"
+          },
+          "wrong": {
+            "id": "quest-9b05282c5b2028a5",
+            "text": "再比较一下。丰收图不能疏通水渠，还要实际检查和维护。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-02-jiangnan-development-change-1",
+            "label": "查看堵处再维护",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-7f84de36889f601a.svg",
+            "imageAlt": "检查疏通",
+            "audio": {
+              "id": "quest-7710acea6dc2377d",
+              "text": "查看堵处再维护"
+            }
+          },
+          {
+            "id": "cn-ancient-05-02-jiangnan-development-change-2",
+            "label": "再画一张丰收的画",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-8388326dce6f8ef2.svg",
+            "imageAlt": "画丰收图",
+            "audio": {
+              "id": "quest-50ceaa61ec53a1a0",
+              "text": "再画一张丰收的画"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "稻田为什么改变",
+        "title": "稻田为什么改变",
+        "prompt": "哪两张线索需要放在一起？",
+        "rightNote": "有自然条件，也要有人耕作、修整和维护。",
+        "wrongNote": "有自然条件，也要有人耕作、修整和维护。",
+        "sourceIds": [
+          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "稻田为什么改变",
+          "screenText": "水土提供条件，人们的劳动把条件变成田地里的变化。不同地方进度不一样。",
+          "displayText": "水土提供条件，人们的劳动把条件变成田地里的变化。不同地方进度不一样。",
+          "narration": "水土提供条件，人们的劳动把条件变成田地里的变化。不同地方进度不一样。"
+        },
+        "assetId": "study-07e81bed652bf44d",
+        "image": "/content/study-scenes/study-07e81bed652bf44d.svg",
+        "studyImage": "/content/study-scenes/study-07e81bed652bf44d.svg",
+        "studyImageAlt": "水土，劳动，田地变化",
+        "imageAlt": "水土，劳动，田地变化",
+        "imageCaption": "学习示意 · 水土，劳动，田地变化",
+        "imageBoundary": "自制学习示意。水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。",
+        "audio": {
+          "transition": {
+            "id": "quest-52a1c0aab0497c66",
+            "text": "稻田为什么改变。"
+          },
+          "intro": {
+            "id": "quest-2bf20a033011b24c",
+            "text": "水土提供条件，人们的劳动把条件变成田地里的变化。不同地方进度不一样。"
+          },
+          "question": {
+            "id": "quest-c12c18d58080bbc1",
+            "text": "哪两张线索需要放在一起？"
+          },
+          "image": {
+            "id": "quest-f282941bd638085b",
+            "text": "这是学习示意图：水土，劳动，田地变化。哪两张线索需要放在一起？"
+          },
+          "right": {
+            "id": "quest-fbc37a6803dde70b",
+            "text": "找到了。有自然条件，也要有人耕作、修整和维护。"
+          },
+          "wrong": {
+            "id": "quest-c1566927372c79aa",
+            "text": "再比较一下。有自然条件，也要有人耕作、修整和维护。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-05-02-jiangnan-development-takeaway-1",
+            "label": "合适水土＋长期劳动",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-82f3b1ab80ebc528.svg",
+            "imageAlt": "水土，劳动",
+            "audio": {
+              "id": "quest-2bb929bf6990608d",
+              "text": "合适水土＋长期劳动"
+            }
+          },
+          {
+            "id": "cn-ancient-05-02-jiangnan-development-takeaway-2",
+            "label": "只有河流＋等待",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-fb2987d9e8580000.svg",
+            "imageAlt": "只有河流，等待",
+            "audio": {
+              "id": "quest-0df4d875de1bfcb7",
+              "text": "只有河流＋等待"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "稻田需要什么",
+        "items": [
+          "把“水源、排水、种子、劳动、工具”放进生产流程，去掉“只要雨多就会丰收”。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "青瓷工序排序",
+        "items": [
+          "依次放置选料、塑形、施釉、入窑；观察哪一步只能由实物确认、哪一步需要研究资料。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "原因连线网",
+        "items": [
+          "把安定、人口、本地经验、水利、农业和手工业连成网络，不允许只选择一个“唯一原因”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 7,
   "conclusion": [
     "三国两晋南北朝时期，江南部分地区相对安定，北方和中原居民陆续南迁，为当地增加了劳动力，也带来一些作物、生产方法和手工业经验。江南本来就有长期生活和劳动的居民，并不是等待外来者“发现”的空地。当地水网、气候、土地条件，原有居民和迁入者的共同劳动，政权组织的耕作与水利，以及青瓷等手工业发展，一起推动了江南逐步开发。这个过程持续很久，各地速度也不一样。"
@@ -82,8 +764,8 @@
   "screens": [
     {
       "number": 1,
-      "title": "时间线定位：东晋南朝的江南",
-      "screenText": "317年以后，南方一些地区相对安定，人口和生产继续增长。",
+      "title": "时间线定位：东晋南朝的江南水田",
+      "screenText": "317年以后：原有居民和迁入者继续种稻、修水利、做器物。",
       "voices": [
         {
           "number": 1,
@@ -104,8 +786,8 @@
     },
     {
       "number": 2,
-      "title": "江南不是一片空地",
-      "screenText": "当地居民早已生活劳动；后来迁入的人带来新的劳动力和经验。",
+      "title": "第一拍：稻米先要遇见水和土地",
+      "screenText": "江南原有居民早已耕作；迁入者又带来劳动力和经验。",
       "voices": [
         {
           "number": 2,
@@ -126,7 +808,7 @@
     },
     {
       "number": 3,
-      "title": "好条件也需要劳动",
+      "title": "第二拍：水田不会自己长出稻米",
       "screenText": "水、土地和气候提供条件；开垦、排水、防洪和灌溉要靠人完成。",
       "voices": [
         {
@@ -148,7 +830,7 @@
     },
     {
       "number": 4,
-      "title": "青瓷里的技术",
+      "title": "第三拍：劳动还走进了手工作坊",
       "screenText": "选土、塑形、施釉和烧窑，需要许多工序与经验。",
       "voices": [
         {
@@ -170,20 +852,20 @@
     },
     {
       "number": 5,
-      "title": "许多条件连成一张网",
-      "screenText": "相对安定 + 人口流动 + 本地劳动 + 水利农业 + 手工业 = 逐步发展。",
+      "title": "拼出“一粒稻米”的答案",
+      "screenText": "水土条件 + 原有居民 + 迁入者 + 水利和手工业 = 长期发展。",
       "voices": [
         {
           "number": 5,
           "label": "语音 S05：",
-          "text": "江南的发展没有一个唯一原因。相对安定让生产能够持续，迁入者增加劳动力和经验，本地居民熟悉环境，政权组织耕作和水利，陶工等手工业者不断改进技术。这些条件互相连接，才推动变化。",
+          "text": "一粒稻米不能独自“长成江南”。相对安定让生产持续，原有居民熟悉环境，迁入者带来劳动力和经验，人们修水利、做器物。这些条件互相连接，经过许多代才推动变化。",
           "segments": [
             {
               "id": "cn-ancient-05-02-jiangnan-development-s05-v05-01",
               "order": 1,
               "tier": "core",
-              "text": "江南的发展没有一个唯一原因。相对安定让生产能够持续，迁入者增加劳动力和经验，本地居民熟悉环境，政权组织耕作和水利，陶工等手工业者不断改进技术。这些条件互相连接，才推动变化。",
-              "hanCharacters": 78
+              "text": "一粒稻米不能独自“长成江南”。相对安定让生产持续，原有居民熟悉环境，迁入者带来劳动力和经验，人们修水利、做器物。这些条件互相连接，经过许多代才推动变化。",
+              "hanCharacters": 66
             }
           ]
         },
@@ -288,28 +970,252 @@
       "authorityLevel": "A-structure-only",
       "factUse": "核验2024年版七年级上册三国两晋南北朝单元对政权分立、江南开发、民族交融、祖冲之、书法和石窟艺术的内容结构",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-CHINESE-CLASSICS-RESOURCE",
+      "title": "中华经典资源库·中华经典诗文精讲",
+      "institution": "人民教育出版社（教育部语用司重大项目成果）",
+      "url": "https://www.pep.com.cn/products/zhytu/gjshnj/zhyxdb/202004/t20200419_1950891.shtml",
+      "type": "official-classics-education-resource",
+      "authorityLevel": "A-national-textbook-publisher-classics",
+      "factUse": "核对从《论语》《兰亭集序》《木兰诗》到唐宋诗词的经典篇目及其教材关联；用于选择适合儿童的诗文入口，不替代历史事实来源",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "study-c2aa2f1d5444b410",
+      "title": "学习示意：220年、慢慢发展、589年",
+      "localPath": "reference-assets/focused-quests/study-c2aa2f1d5444b410.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "220年 → 慢慢发展 → 589年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-01403fe0050a8429",
+      "title": "学习示意：220—589年 持续",
+      "localPath": "reference-assets/focused-quests/study-01403fe0050a8429.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "220—589年 持续",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d7e2cad410ca0fec",
+      "title": "学习示意：589年 某一天",
+      "localPath": "reference-assets/focused-quests/study-d7e2cad410ca0fec.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "589年 某一天",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8681f9f6c10022d5",
+      "title": "学习示意：水面、莲叶",
+      "localPath": "reference-assets/focused-quests/study-8681f9f6c10022d5.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "水面 → 莲叶",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-47c809688e8877b9",
+      "title": "学习示意：莲叶和水面",
+      "localPath": "reference-assets/focused-quests/study-47c809688e8877b9.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "莲叶和水面",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-77224df7751b7bee",
+      "title": "学习示意：每家粮食数量",
+      "localPath": "reference-assets/focused-quests/study-77224df7751b7bee.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "每家粮食数量",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b68450e96ea155d2",
+      "title": "学习示意：河流、稻田",
+      "localPath": "reference-assets/focused-quests/study-b68450e96ea155d2.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "河流 → 稻田",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-3a526e9ef1669b3b",
+      "title": "学习示意：水路通向田地",
+      "localPath": "reference-assets/focused-quests/study-3a526e9ef1669b3b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "水路通向田地",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-3d3d8c4f1c023ca4",
+      "title": "学习示意：水路未接到田地",
+      "localPath": "reference-assets/focused-quests/study-3d3d8c4f1c023ca4.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "水路未接到田地",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-97ee3d4984215db7",
+      "title": "学习示意：水渠、堵处、维护",
+      "localPath": "reference-assets/focused-quests/study-97ee3d4984215db7.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "水渠 → 堵处 → 维护",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-7f84de36889f601a",
+      "title": "学习示意：检查疏通",
+      "localPath": "reference-assets/focused-quests/study-7f84de36889f601a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "检查疏通",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8388326dce6f8ef2",
+      "title": "学习示意：画丰收图",
+      "localPath": "reference-assets/focused-quests/study-8388326dce6f8ef2.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "画丰收图",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-07e81bed652bf44d",
+      "title": "学习示意：水土、劳动、田地变化",
+      "localPath": "reference-assets/focused-quests/study-07e81bed652bf44d.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "水土 → 劳动 → 田地变化",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-82f3b1ab80ebc528",
+      "title": "学习示意：水土、劳动",
+      "localPath": "reference-assets/focused-quests/study-82f3b1ab80ebc528.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "水土 → 劳动",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-fb2987d9e8580000",
+      "title": "学习示意：只有河流、等待",
+      "localPath": "reference-assets/focused-quests/study-fb2987d9e8580000.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只有河流 → 等待",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "jiangnan-rice-life-child-illustration",
+      "title": "江南稻作、水利与居民协作儿童示意图",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jiangnan-rice-self-made.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童示意图：稻作、河网、水利和不同居民的长期劳动共同改变江南。",
+      "boundary": "2026-08-09为低龄玩法自制。它不是魏晋南北朝某年某地的照片或精确农具、服饰复原，也不证明所有江南地区采用同样耕作方式。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "wu-celadon-sheep-vessel",
       "title": "三国吴青瓷羊形器展览照片",
       "localPath": "reference-assets/three-kingdoms-jin-northern-southern/wu-celadon-sheep.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:20251026_20251026_Sheep-shaped_Celadon_Candle_Holder_from_Qingliangshan.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "南京清凉山出土、中国国家博物馆藏三国吴青瓷羊形器。",
-      "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。原图为1800×1200像素，未作裁切或调色。"
+      "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。原图为1800×1200像素，未作裁切或调色。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "eastern-jin-chicken-head-ewer",
       "title": "东晋越窑青瓷鸡首壶馆藏图像",
       "localPath": "reference-assets/three-kingdoms-jin-northern-southern/eastern-jin-chicken-head-ewer.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chicken-Headed_Ewer-_MET_DP-14609-030.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "大都会艺术博物馆藏东晋4—5世纪越窑青瓷鸡首壶。",
-      "boundary": "大都会艺术博物馆记录其为青瓷釉炻器和墓葬用器，鸡首造型的含义仍不明确。图片为馆方开放获取图像，下载为1920像素等比例缩略图，未作其他修改。"
+      "boundary": "大都会艺术博物馆记录其为青瓷釉炻器和墓葬用器，鸡首造型的含义仍不明确。图片为馆方开放获取图像，下载为1920像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-05-02-jiangnan-development.jpg",

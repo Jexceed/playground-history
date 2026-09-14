@@ -1,0 +1,1153 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.13.0",
+  "id": "cn-ancient-07-08-song-gunpowder-records",
+  "trackId": "china-ancient",
+  "trackLabel": "中国古代史",
+  "period": {
+    "id": "song",
+    "label": "宋朝（与辽·西夏·金并立）",
+    "years": "916—1279年（宋960年起）"
+  },
+  "order": 29,
+  "title": "火药知识怎样被安全记进书里",
+  "coreQuestion": "长期观察怎样变成书中记录，再发展出不同用途？",
+  "throughline": "只追踪观察、记录、传播和用途变化，不提供配方、比例、混合或点火步骤；以《武经总要》传世图像练习文献证据边界。",
+  "childEntry": {
+    "id": "cn-ancient-07-08-song-gunpowder-records",
+    "childTitle": "给古书里的技术排时间",
+    "prompt": "一种技术从尝试到记进书里，会经过哪些人？",
+    "takeaway": "火药知识经过长期积累，1044年《武经总要》留下记载；技术史研究要分清早期探索、记录与后续应用。",
+    "object": "《武经总要》传世图像与安全记录示意",
+    "people": [
+      "探索者、编书者",
+      "后来的研究者"
+    ],
+    "place": "北宋书房、开封与不同使用场景",
+    "culture": "《武经总要》与“四项技术时间带”",
+    "care": "图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。",
+    "preferredAssetId": "gunpowder-record-safety-child-illustration",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-07-08-song-gunpowder-records",
+    "featured": {
+      "type": "典籍",
+      "icon": "📘",
+      "title": "探索者、编书者与后来的研究者",
+      "childBridge": "一种技术从尝试到记进书里，会经过哪些人？",
+      "evidenceBoundary": "图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。"
+    },
+    "companions": [
+      {
+        "type": "人物",
+        "label": "曾公亮等编书者",
+        "note": "书是多人整理的知识记录，不写成一个人突然发明。"
+      },
+      {
+        "type": "用途",
+        "label": "节庆、信号与军事",
+        "note": "同一技术会有不同作用和风险，需要人负责判断。"
+      },
+      {
+        "type": "技术时间带",
+        "label": "纸—印刷—指南针—火药",
+        "note": "火药是四条跨时代技术线之一。"
+      }
+    ],
+    "sourceIds": [
+      "CAS-IHNS-ANCIENT-ROCKETS",
+      "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+      "CAS-FOUR-GREAT-INVENTIONS"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "探索和记载的时间",
+      "text": "早期已有有关火药的知识探索。北宋1044年编成的《武经总要》留下相关记载。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "古书能留下什么",
+      "text": "今天我们只看书页和时间。古书把技术知识写下来，让后人有材料可以研究。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "把几代人的工作接起来",
+      "text": "有人尝试，有人记录，后来的人又阅读和研究。我们不做任何配料、点火或制作实验。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "用途也会发生变化",
+      "text": "技术在不同场合被采用，也会带来不同后果。看见一个名称，不够说明所有用途。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "当安全的古书讲解员",
+      "text": "我们学的是技术怎样积累和留下记录。可以排时间卡，不需要重做危险过程。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "武经总要",
+      "reading": "Wǔjīng Zǒngyào",
+      "kind": "title",
+      "chapterIds": [
+        "cn-ancient-07-08-song-gunpowder-records"
+      ],
+      "note": "古代典籍名；“要”在此读yào。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "给古书里的技术排时间",
+      "question": "一种技术从尝试到记进书里，会经过哪些人？"
+    },
+    "cta": "去整理技术卡",
+    "anchor": "探索者、编书者与后来的研究者",
+    "boundary": "图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。",
+    "evidence": [],
+    "coverAsset": {
+      "id": "gunpowder-record-safety-child-illustration",
+      "title": "火药知识观察、记录与安全用途儿童艺术表现",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/gunpowder-record-safety-child-illustration.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童艺术表现：成年人分开观察材料、用图形记录，并在远处观看安全的节庆光点。",
+      "boundary": "2026-08-12为低龄玩法自制。它不是宋代现场、真实配方、实验或点火教程；罩内材料的颜色和形状、人物、书本符号与节庆场景均为抽象艺术表现，不表示可用材料、比例、制作步骤或安全操作。儿童只学习历史证据和用途变化。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/gunpowder-record-safety-child-illustration.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/gunpowder-record-safety-child-illustration.jpg",
+    "coverImageAlt": "火药知识观察、记录与安全用途儿童艺术表现",
+    "coverImageKind": "故事插画",
+    "coverAudio": {
+      "id": "quest-105a5e3e5134245c",
+      "text": "给古书里的技术排时间。一种技术从尝试到记进书里，会经过哪些人？准备好就点“去整理技术卡”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-4c0a929e13d060ab",
+      "text": "火药知识经过长期积累，1044年《武经总要》留下记载；技术史研究要分清早期探索、记录与后续应用。"
+    },
+    "finish": {
+      "title": "用三个手势讲一段技术史",
+      "actions": [
+        "先指头脑表示探索，再假装写字表示记录。",
+        "最后摊开手表示看书研究，请家人按先后再做一遍。"
+      ],
+      "parent": "不出现配方、比例、操作温度、点火或武器制作；不以爆炸和伤亡作为奖励。问“有书的年份等于最早探索年份吗？”",
+      "sceneStepIndexes": [
+        0,
+        2
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-ddaeb2444f1c19ba",
+          "text": "先指头脑表示探索，再假装写字表示记录。"
+        },
+        {
+          "id": "quest-fa36277c0d148b62",
+          "text": "最后摊开手表示看书研究，请家人按先后再做一遍。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-bd36d36b1d3d1b27",
+        "text": "用三个手势讲一段技术史。先指头脑表示探索，再假装写字表示记录。最后摊开手表示看书研究，请家人按先后再做一遍。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "探索和记载的时间",
+        "title": "探索和记载的时间",
+        "prompt": "哪条顺序合适？",
+        "rightNote": "书的编写有明确时间，但知识探索并非都从那天开始。",
+        "wrongNote": "书的编写有明确时间，但知识探索并非都从那天开始。",
+        "sourceIds": [
+          "CAS-IHNS-ANCIENT-ROCKETS",
+          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "探索和记载的时间",
+          "screenText": "早期已有有关火药的知识探索。北宋1044年编成的《武经总要》留下相关记载。",
+          "displayText": "早期已有有关火药的知识探索。北宋1044年编成的《武经总要》留下相关记载。",
+          "narration": "早期已有有关火药的知识探索。北宋1044年编成的《武经总要》留下相关记载。"
+        },
+        "assetId": "study-9f427a7550371dd3",
+        "image": "/content/study-scenes/study-9f427a7550371dd3.svg",
+        "studyImage": "/content/study-scenes/study-9f427a7550371dd3.svg",
+        "studyImageAlt": "早期探索，1044年 记载",
+        "imageAlt": "早期探索，1044年 记载",
+        "imageCaption": "学习示意 · 早期探索，1044年 记载",
+        "imageBoundary": "自制学习示意。图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。",
+        "audio": {
+          "transition": {
+            "id": "quest-4e4698783d5a64e5",
+            "text": "探索和记载的时间。"
+          },
+          "intro": {
+            "id": "quest-491bd081e7bceaa3",
+            "text": "早期已有有关火药的知识探索。北宋1044年编成的《武经总要》留下相关记载。"
+          },
+          "question": {
+            "id": "quest-48a312f030e997c2",
+            "text": "哪条顺序合适？"
+          },
+          "image": {
+            "id": "quest-ad3302d890823ae8",
+            "text": "这是学习示意图：早期探索，1044年 记载。哪条顺序合适？"
+          },
+          "right": {
+            "id": "quest-34b97a994b5d6de7",
+            "text": "找到了。书的编写有明确时间，但知识探索并非都从那天开始。"
+          },
+          "wrong": {
+            "id": "quest-de1cce4b72cd25c1",
+            "text": "再比较一下。书的编写有明确时间，但知识探索并非都从那天开始。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-08-song-gunpowder-records-time-1",
+            "label": "早期探索 → 1044年记载",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-375e44d848c15443.svg",
+            "imageAlt": "探索，1044年记载",
+            "audio": {
+              "id": "quest-0c785fed38ad6c9a",
+              "text": "早期探索 → 1044年记载"
+            }
+          },
+          {
+            "id": "cn-ancient-07-08-song-gunpowder-records-time-2",
+            "label": "1044年记载 → 才有一切探索",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-fc8e1b6259244c0d.svg",
+            "imageAlt": "1044年记载，一切才开始",
+            "audio": {
+              "id": "quest-7af9c98fe2792639",
+              "text": "1044年记载 → 才有一切探索"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "古书能留下什么",
+        "title": "古书能留下什么",
+        "prompt": "后人想知道书写了什么，先查什么？",
+        "rightNote": "正文与版本能核对记录，封皮颜色不能代替内容。",
+        "wrongNote": "正文与版本能核对记录，封皮颜色不能代替内容。",
+        "sourceIds": [
+          "CAS-IHNS-ANCIENT-ROCKETS",
+          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "古书能留下什么",
+          "screenText": "今天我们只看书页和时间。古书把技术知识写下来，让后人有材料可以研究。",
+          "displayText": "今天我们只看书页和时间。古书把技术知识写下来，让后人有材料可以研究。",
+          "narration": "今天我们只看书页和时间。古书把技术知识写下来，让后人有材料可以研究。"
+        },
+        "assetId": "study-c16f8b44015f8988",
+        "image": "/content/study-scenes/study-c16f8b44015f8988.svg",
+        "studyImage": "/content/study-scenes/study-c16f8b44015f8988.svg",
+        "studyImageAlt": "古书，核对正文",
+        "imageAlt": "古书，核对正文",
+        "imageCaption": "学习示意 · 古书，核对正文",
+        "imageBoundary": "自制学习示意。图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。",
+        "audio": {
+          "transition": {
+            "id": "quest-82775410999056ea",
+            "text": "古书能留下什么。"
+          },
+          "intro": {
+            "id": "quest-14e21cf23fc31231",
+            "text": "今天我们只看书页和时间。古书把技术知识写下来，让后人有材料可以研究。"
+          },
+          "question": {
+            "id": "quest-01bb286c4cec364c",
+            "text": "后人想知道书写了什么，先查什么？"
+          },
+          "image": {
+            "id": "quest-a44d0b6ac39d733a",
+            "text": "这是学习示意图：古书，核对正文。后人想知道书写了什么，先查什么？"
+          },
+          "right": {
+            "id": "quest-ee0c9dad0386dd11",
+            "text": "找到了。正文与版本能核对记录，封皮颜色不能代替内容。"
+          },
+          "wrong": {
+            "id": "quest-fc739f5d38a384ab",
+            "text": "再比较一下。正文与版本能核对记录，封皮颜色不能代替内容。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-08-song-gunpowder-records-beginning-1",
+            "label": "书的正文与版本",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-82253de943b7cbd2.svg",
+            "imageAlt": "正文版本",
+            "audio": {
+              "id": "quest-839679503a8bcbe9",
+              "text": "书的正文与版本"
+            }
+          },
+          {
+            "id": "cn-ancient-07-08-song-gunpowder-records-beginning-2",
+            "label": "只看封皮的颜色",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-c2796f9be2de6b82.svg",
+            "imageAlt": "封皮颜色",
+            "audio": {
+              "id": "quest-d386e744be6c8487",
+              "text": "只看封皮的颜色"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "把几代人的工作接起来",
+        "title": "把几代人的工作接起来",
+        "prompt": "哪张卡接在已有探索后？",
+        "rightNote": "记录接住已有知识，也会影响后来的研究。",
+        "wrongNote": "记录接住已有知识，也会影响后来的研究。",
+        "sourceIds": [
+          "CAS-IHNS-ANCIENT-ROCKETS",
+          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "把几代人的工作接起来",
+          "screenText": "有人尝试，有人记录，后来的人又阅读和研究。我们不做任何配料、点火或制作实验。",
+          "displayText": "有人尝试，有人记录，后来的人又阅读和研究。我们不做任何配料、点火或制作实验。",
+          "narration": "有人尝试，有人记录，后来的人又阅读和研究。我们不做任何配料、点火或制作实验。"
+        },
+        "assetId": "study-1f867cfc4c76e2dd",
+        "image": "/content/study-scenes/study-1f867cfc4c76e2dd.svg",
+        "studyImage": "/content/study-scenes/study-1f867cfc4c76e2dd.svg",
+        "studyImageAlt": "探索，记录，后人研究",
+        "imageAlt": "探索，记录，后人研究",
+        "imageCaption": "学习示意 · 探索，记录，后人研究",
+        "imageBoundary": "自制学习示意。图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。",
+        "audio": {
+          "transition": {
+            "id": "quest-8ccdaa700c75e7c8",
+            "text": "把几代人的工作接起来。"
+          },
+          "intro": {
+            "id": "quest-9b2f6747633335f1",
+            "text": "有人尝试，有人记录，后来的人又阅读和研究。我们不做任何配料、点火或制作实验。"
+          },
+          "question": {
+            "id": "quest-6321e5b0e1358b85",
+            "text": "哪张卡接在已有探索后？"
+          },
+          "image": {
+            "id": "quest-103c2a75f4eb49ee",
+            "text": "这是学习示意图：探索，记录，后人研究。哪张卡接在已有探索后？"
+          },
+          "right": {
+            "id": "quest-d0c43aba99a94774",
+            "text": "找到了。记录接住已有知识，也会影响后来的研究。"
+          },
+          "wrong": {
+            "id": "quest-77a215605e864970",
+            "text": "再比较一下。记录接住已有知识，也会影响后来的研究。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-08-song-gunpowder-records-journey-1",
+            "label": "整理并写下知识",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-297990b24ffa345a.svg",
+            "imageAlt": "整理记录",
+            "audio": {
+              "id": "quest-700edefe2669af00",
+              "text": "整理并写下知识"
+            }
+          },
+          {
+            "id": "cn-ancient-07-08-song-gunpowder-records-journey-2",
+            "label": "宣布从未有过探索",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-a8c1db38555e01d5.svg",
+            "imageAlt": "抹去前人探索",
+            "audio": {
+              "id": "quest-3aee7843b82897b1",
+              "text": "宣布从未有过探索"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "用途也会发生变化",
+        "title": "用途也会发生变化",
+        "prompt": "研究另一时期的用途，应该怎样做？",
+        "rightNote": "时期与用途要分别核对，不以一种用途概括全部。",
+        "wrongNote": "时期与用途要分别核对，不以一种用途概括全部。",
+        "sourceIds": [
+          "CAS-IHNS-ANCIENT-ROCKETS",
+          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "用途也会发生变化",
+          "screenText": "技术在不同场合被采用，也会带来不同后果。看见一个名称，不够说明所有用途。",
+          "displayText": "技术在不同场合被采用，也会带来不同后果。看见一个名称，不够说明所有用途。",
+          "narration": "技术在不同场合被采用，也会带来不同后果。看见一个名称，不够说明所有用途。"
+        },
+        "assetId": "study-70e8fbb86a40de02",
+        "image": "/content/study-scenes/study-70e8fbb86a40de02.svg",
+        "studyImage": "/content/study-scenes/study-70e8fbb86a40de02.svg",
+        "studyImageAlt": "不同时期，不同应用",
+        "imageAlt": "不同时期，不同应用",
+        "imageCaption": "学习示意 · 不同时期，不同应用",
+        "imageBoundary": "自制学习示意。图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。",
+        "audio": {
+          "transition": {
+            "id": "quest-4352a4b588f1999f",
+            "text": "用途也会发生变化。"
+          },
+          "intro": {
+            "id": "quest-b839c2b573b57f51",
+            "text": "技术在不同场合被采用，也会带来不同后果。看见一个名称，不够说明所有用途。"
+          },
+          "question": {
+            "id": "quest-3a3edb5cf079e9e5",
+            "text": "研究另一时期的用途，应该怎样做？"
+          },
+          "image": {
+            "id": "quest-45ef31e299a905d2",
+            "text": "这是学习示意图：不同时期，不同应用。研究另一时期的用途，应该怎样做？"
+          },
+          "right": {
+            "id": "quest-5085d80315211cc0",
+            "text": "找到了。时期与用途要分别核对，不以一种用途概括全部。"
+          },
+          "wrong": {
+            "id": "quest-38b213118ba6b5a8",
+            "text": "再比较一下。时期与用途要分别核对，不以一种用途概括全部。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-08-song-gunpowder-records-change-1",
+            "label": "查那一时期的记录",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-4a6a8ab4f474be92.svg",
+            "imageAlt": "按时期查资料",
+            "audio": {
+              "id": "quest-e77e1592ad2ccc35",
+              "text": "查那一时期的记录"
+            }
+          },
+          {
+            "id": "cn-ancient-07-08-song-gunpowder-records-change-2",
+            "label": "把所有用途都说成一样",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-e38f1029be189cc8.svg",
+            "imageAlt": "所有用途相同",
+            "audio": {
+              "id": "quest-4f5fd51c52b6bde0",
+              "text": "把所有用途都说成一样"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "当安全的古书讲解员",
+        "title": "当安全的古书讲解员",
+        "prompt": "今天用哪种办法展示学习结果？",
+        "rightNote": "排时间、看材料，就能讲技术史；危险制作不属于任务。",
+        "wrongNote": "排时间、看材料，就能讲技术史；危险制作不属于任务。",
+        "sourceIds": [
+          "CAS-IHNS-ANCIENT-ROCKETS",
+          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "当安全的古书讲解员",
+          "screenText": "我们学的是技术怎样积累和留下记录。可以排时间卡，不需要重做危险过程。",
+          "displayText": "我们学的是技术怎样积累和留下记录。可以排时间卡，不需要重做危险过程。",
+          "narration": "我们学的是技术怎样积累和留下记录。可以排时间卡，不需要重做危险过程。"
+        },
+        "assetId": "study-91b83207ab6d8159",
+        "image": "/content/study-scenes/study-91b83207ab6d8159.svg",
+        "studyImage": "/content/study-scenes/study-91b83207ab6d8159.svg",
+        "studyImageAlt": "探索，记录，研究",
+        "imageAlt": "探索，记录，研究",
+        "imageCaption": "学习示意 · 探索，记录，研究",
+        "imageBoundary": "自制学习示意。图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。",
+        "audio": {
+          "transition": {
+            "id": "quest-5f2956238ac8c76b",
+            "text": "当安全的古书讲解员。"
+          },
+          "intro": {
+            "id": "quest-5601d65a6bce2248",
+            "text": "我们学的是技术怎样积累和留下记录。可以排时间卡，不需要重做危险过程。"
+          },
+          "question": {
+            "id": "quest-63d371ad91e85468",
+            "text": "今天用哪种办法展示学习结果？"
+          },
+          "image": {
+            "id": "quest-db5f1197c3c24d83",
+            "text": "这是学习示意图：探索，记录，研究。今天用哪种办法展示学习结果？"
+          },
+          "right": {
+            "id": "quest-80b1ceb069150f31",
+            "text": "找到了。排时间、看材料，就能讲技术史；危险制作不属于任务。"
+          },
+          "wrong": {
+            "id": "quest-95f241fcccf2694a",
+            "text": "再比较一下。排时间、看材料，就能讲技术史；危险制作不属于任务。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-08-song-gunpowder-records-takeaway-1",
+            "label": "排探索、记录、研究三张卡",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-925780bebd3bef5d.svg",
+            "imageAlt": "整理时间卡",
+            "audio": {
+              "id": "quest-0a3eafc218d6300f",
+              "text": "排探索、记录、研究三张卡"
+            }
+          },
+          {
+            "id": "cn-ancient-07-08-song-gunpowder-records-takeaway-2",
+            "label": "照古书自己混合和点火",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-6f205aa3e8564787.svg",
+            "imageAlt": "混合点火",
+            "audio": {
+              "id": "quest-35a22620cc13e55b",
+              "text": "照古书自己混合和点火"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "安全学习选择",
+        "items": [
+          "在“看文献、看年代、看用途变化”和“混合材料、点火”之间，只选择安全的历史方法。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "证据标签",
+        "items": [
+          "给《武经总要》图贴“传世书本图像”，不贴“现场照片”或“制作教程”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "用途与责任",
+        "items": [
+          "把节庆、信号、军事分别连到“不同作用与风险”，不进行胜负或伤亡得分。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
+  "durationMinutes": 8,
+  "conclusion": [
+    "火药知识来自古人长期的材料观察和配制经验，不是某个人某一天独自完成。约 9 世纪起相关知识逐步成熟，1044 年成书的《武经总要》保存了火药配方和相关装置记录。儿童主线只观察“发现—记录—传播—用途变化”的历史过程，不呈现比例、制作和点火步骤。火药后来用于节庆、信号和军事等不同场景；技术用途与风险都要由人判断和管理。"
+  ],
+  "facts": [
+    {
+      "number": 1,
+      "text": "火药知识由长期实验和材料经验逐渐形成，不能归给单一瞬间或一个人物。",
+      "sourceIds": [
+        "CAS-IHNS-ANCIENT-ROCKETS",
+        "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "约 9 世纪以后，火药知识逐步成熟并留下更清楚的记录。",
+      "sourceIds": [
+        "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "1044 年成书的《武经总要》记录火药配方和相关装置，是研究宋代火药技术的重要文献证据。",
+      "sourceIds": [
+        "CAS-IHNS-ANCIENT-ROCKETS"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "传世《武经总要》图像经过后世抄刻和刊印，不是 11 世纪现场照片，也不能当精确制作说明。",
+      "sourceIds": [
+        "CAS-IHNS-ANCIENT-ROCKETS"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "火药后来用于节庆、信号和军事等不同场景；同一技术会产生不同用途、风险和影响。",
+      "sourceIds": [
+        "CAS-IHNS-ANCIENT-ROCKETS",
+        "CAS-FOUR-GREAT-INVENTIONS"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "儿童学习火药史不需要接触配方、比例、混合或点火方法，历史证据可通过文献、年代和用途变化来判断。",
+      "sourceIds": [
+        "MOE-HISTORY-CURRICULUM-2022"
+      ]
+    },
+    {
+      "number": 7,
+      "text": "造纸、印刷、指南针和火药分别跨越不同时代发展，不能压成“宋代同时发明四样东西”。",
+      "sourceIds": [
+        "CAS-FOUR-GREAT-INVENTIONS",
+        "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "number": 1,
+      "title": "时间线定位：先有长期观察，再有书中记录",
+      "screenText": "约 9 世纪起知识逐步成熟；1044 年的书留下重要记录。",
+      "voices": [
+        {
+          "number": 1,
+          "label": "语音 F01：",
+          "text": "火药不是谁在一天里突然发明出来的。古人长期观察材料和现象，经验一点点积累。到了宋代，书中留下了更清楚的记录。",
+          "segments": [
+            {
+              "id": "cn-ancient-07-08-song-gunpowder-records-s01-v01-01",
+              "order": 1,
+              "tier": "core",
+              "text": "火药不是谁在一天里突然发明出来的。古人长期观察材料和现象，经验一点点积累。到了宋代，书中留下了更清楚的记录。",
+              "hanCharacters": 49
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "label": "语音 F02：",
+          "text": "这张故事卡不教配方、不做混合，也不靠爆炸吸引人。我们只追三件事：怎样观察，怎样记录，知识后来怎样被用于不同场景。",
+          "segments": [
+            {
+              "id": "cn-ancient-07-08-song-gunpowder-records-s01-v02-01",
+              "order": 1,
+              "tier": "core",
+              "text": "这张故事卡不教配方、不做混合，也不靠爆炸吸引人。我们只追三件事：怎样观察，怎样记录，知识后来怎样被用于不同场景。",
+              "hanCharacters": 49
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 2,
+      "title": "先把材料分开观察",
+      "screenText": "观察颜色、形状和现象，分别记录，不做儿童实验。",
+      "voices": [
+        {
+          "number": 3,
+          "label": "语音 F03：",
+          "text": "画面把自然材料分开罩好，只帮助理解古人曾长期观察。它不是配方，也不是历史现场。真正材料可能危险，孩子不触碰、不混合、不点火。",
+          "segments": [
+            {
+              "id": "cn-ancient-07-08-song-gunpowder-records-s02-v03-01",
+              "order": 1,
+              "tier": "core",
+              "text": "画面把自然材料分开罩好，只帮助理解古人曾长期观察。它不是配方，也不是历史现场。真正材料可能危险，孩子不触碰、不混合、不点火。",
+              "hanCharacters": 54
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 3,
+      "title": "书把知识留下来",
+      "screenText": "记录者把观察和用途写进书里，后来的人才能继续核对和改进。",
+      "voices": [
+        {
+          "number": 4,
+          "label": "语音 F04：",
+          "text": "一次观察很容易消失，书本却能把经验传给后来的人。1044 年成书的《武经总要》留下重要记录，但我们不从儿童页面展示可操作的配方和步骤。",
+          "segments": [
+            {
+              "id": "cn-ancient-07-08-song-gunpowder-records-s03-v04-01",
+              "order": 1,
+              "tier": "core",
+              "text": "一次观察很容易消失，书本却能把经验传给后来的人。1044 年成书的《武经总要》留下重要记录，但我们不从儿童页面展示可操作的配方和步骤。",
+              "hanCharacters": 56
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 4,
+      "title": "传世图像能证明什么",
+      "screenText": "图像证明书中记录过相关装置；它不是战场照片，也不是制作教程。",
+      "voices": [
+        {
+          "number": 5,
+          "label": "语音 F05：",
+          "text": "这幅图来自传世书本系统，经过后世抄刻和刊印。它能告诉我们“有人记录过这种装置”，却不能证明每件实物都完全照图制作，更不能拿来照着操作。",
+          "segments": [
+            {
+              "id": "cn-ancient-07-08-song-gunpowder-records-s04-v05-01",
+              "order": 1,
+              "tier": "core",
+              "text": "这幅图来自传世书本系统，经过后世抄刻和刊印。它能告诉我们“有人记录过这种装置”，却不能证明每件实物都完全照图制作，更不能拿来照着操作。",
+              "hanCharacters": 60
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 5,
+      "title": "同一技术会走向不同用途",
+      "screenText": "节庆光点、远距离信号和军事用途，带来不同作用与风险。",
+      "voices": [
+        {
+          "number": 6,
+          "label": "语音 F06：",
+          "text": "火药后来被用于节庆、信号和军事等场景。技术本身不会决定用途，人怎样选择、怎样管理安全，会带来很不一样的结果。儿童只从远处观察节庆光点。",
+          "segments": [
+            {
+              "id": "cn-ancient-07-08-song-gunpowder-records-s05-v06-01",
+              "order": 1,
+              "tier": "core",
+              "text": "火药后来被用于节庆、信号和军事等场景。技术本身不会决定用途，人怎样选择、怎样管理安全，会带来很不一样的结果。儿童只从远处观察节庆光点。",
+              "hanCharacters": 60
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 6,
+      "title": "回答问题",
+      "screenText": "长期观察留下记录，书籍帮助传播，后来的人又在不同场景中改进和使用。",
+      "voices": [
+        {
+          "number": 7,
+          "label": "语音 F07：",
+          "text": "所以火药史的线索是“观察—记录—传播—用途变化”，不是一声大爆炸。纸、印刷、指南针和火药也不是宋代同时完成的四件礼物，而是四条跨时代技术线。",
+          "segments": [
+            {
+              "id": "cn-ancient-07-08-song-gunpowder-records-s06-v07-01",
+              "order": 1,
+              "tier": "core",
+              "text": "所以火药史的线索是“观察—记录—传播—用途变化”，不是一声大爆炸。纸、印刷、指南针和火药也不是宋代同时完成的四件礼物，而是四条跨时代技术线。",
+              "hanCharacters": 59
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    }
+  ],
+  "interactions": [
+    {
+      "number": 1,
+      "title": "安全学习选择",
+      "items": [
+        "在“看文献、看年代、看用途变化”和“混合材料、点火”之间，只选择安全的历史方法。"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "证据标签",
+      "items": [
+        "给《武经总要》图贴“传世书本图像”，不贴“现场照片”或“制作教程”。"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "用途与责任",
+      "items": [
+        "把节庆、信号、军事分别连到“不同作用与风险”，不进行胜负或伤亡得分。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "CAS-IHNS-ANCIENT-ROCKETS",
+      "title": "揭秘中国古代火箭技术",
+      "institution": "中国科学院自然科学史研究所",
+      "url": "http://www.ihns.cas.cn/kxcb_/kxjd/202212/t20221206_6567217.html",
+      "type": "science-history-institute-guide",
+      "authorityLevel": "A",
+      "factUse": "《武经总要》1044年火药配方、宋代火药武器与火箭技术的长期发展和传播边界",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+      "title": "中国古代重要科技发明创造时间线",
+      "institution": "中国科学院自然科学史研究所",
+      "url": "https://ihns.cas.cn/yjcg/xszz/zztj/202212/t20221207_6570683.html",
+      "type": "science-history-chronology",
+      "authorityLevel": "A",
+      "factUse": "秦长城由战国墙段发展而来，以及造纸、雕版印刷、火药、指南针和泥活字跨时代逐步成熟的时间边界",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "CAS-FOUR-GREAT-INVENTIONS",
+      "title": "中国四大发明和中国二十四大发明述评",
+      "institution": "中国科学院自然科学史研究所",
+      "url": "https://ihns.cas.cn/kxcb_/kxjd/202212/t20221206_6567193.html",
+      "type": "science-history-review",
+      "authorityLevel": "A",
+      "factUse": "造纸、印刷、火药、指南针四项重要技术的历史概括、长期发展和跨文化传播边界",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "MOE-HISTORY-CURRICULUM-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "institution": "中华人民共和国教育部",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "type": "curriculum-standard",
+      "authorityLevel": "A",
+      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
+    }
+  ],
+  "assets": [
+    {
+      "id": "study-9f427a7550371dd3",
+      "title": "学习示意：早期探索、1044年 记载",
+      "localPath": "reference-assets/focused-quests/study-9f427a7550371dd3.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "早期探索 → 1044年 记载",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-375e44d848c15443",
+      "title": "学习示意：探索、1044年记载",
+      "localPath": "reference-assets/focused-quests/study-375e44d848c15443.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "探索 → 1044年记载",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-fc8e1b6259244c0d",
+      "title": "学习示意：1044年记载、一切才开始",
+      "localPath": "reference-assets/focused-quests/study-fc8e1b6259244c0d.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1044年记载 → 一切才开始",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-c16f8b44015f8988",
+      "title": "学习示意：古书、核对正文",
+      "localPath": "reference-assets/focused-quests/study-c16f8b44015f8988.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "古书 → 核对正文",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-82253de943b7cbd2",
+      "title": "学习示意：正文版本",
+      "localPath": "reference-assets/focused-quests/study-82253de943b7cbd2.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "正文版本",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-c2796f9be2de6b82",
+      "title": "学习示意：封皮颜色",
+      "localPath": "reference-assets/focused-quests/study-c2796f9be2de6b82.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "封皮颜色",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1f867cfc4c76e2dd",
+      "title": "学习示意：探索、记录、后人研究",
+      "localPath": "reference-assets/focused-quests/study-1f867cfc4c76e2dd.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "探索 → 记录 → 后人研究",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-297990b24ffa345a",
+      "title": "学习示意：整理记录",
+      "localPath": "reference-assets/focused-quests/study-297990b24ffa345a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "整理记录",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a8c1db38555e01d5",
+      "title": "学习示意：抹去前人探索",
+      "localPath": "reference-assets/focused-quests/study-a8c1db38555e01d5.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "抹去前人探索",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-70e8fbb86a40de02",
+      "title": "学习示意：不同时期、不同应用",
+      "localPath": "reference-assets/focused-quests/study-70e8fbb86a40de02.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "不同时期 → 不同应用",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-4a6a8ab4f474be92",
+      "title": "学习示意：按时期查资料",
+      "localPath": "reference-assets/focused-quests/study-4a6a8ab4f474be92.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "按时期查资料",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e38f1029be189cc8",
+      "title": "学习示意：所有用途相同",
+      "localPath": "reference-assets/focused-quests/study-e38f1029be189cc8.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "所有用途相同",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-91b83207ab6d8159",
+      "title": "学习示意：探索、记录、研究",
+      "localPath": "reference-assets/focused-quests/study-91b83207ab6d8159.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "探索 → 记录 → 研究",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-925780bebd3bef5d",
+      "title": "学习示意：整理时间卡",
+      "localPath": "reference-assets/focused-quests/study-925780bebd3bef5d.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "整理时间卡",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-6f205aa3e8564787",
+      "title": "学习示意：混合点火",
+      "localPath": "reference-assets/focused-quests/study-6f205aa3e8564787.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "混合点火",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "wujing-zongyao-fire-arrow-diagram",
+      "title": "《武经总要》火箭装置图像",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/wujing-zongyao-fire-arrow.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:11th_century_long_serpent_fire_arrow_rocket_launcher.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "《武经总要》传本所见火箭装置图像。",
+      "boundary": "图像属于古代技术文本的传抄与刊刻传统，不是11世纪战场照片，也不能据此复原所有制作细节。课程用它说明火药技术曾被记录和应用，不制作武器操作教程。原图570×846像素，未作修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "four-inventions-time-journey-child-illustration",
+      "title": "造纸、印刷、指南针与火药跨时代接力儿童艺术表现",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/four-inventions-time-journey-child-illustration.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童艺术表现：纸、印刷、指南针和火药被一条纸带串成四个不同时代的技术场景。",
+      "boundary": "2026-08-12为低龄玩法自制。四区并排是跨时代学习拼贴，不表示四项技术同年、同地或由同一批人完成；人物、工具、作坊、海船和节庆场景均非历史照片、原物或精确复原。印刷页与记录页只画无文字图样，不能用来辨认古文字。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "gunpowder-record-safety-child-illustration",
+      "title": "火药知识观察、记录与安全用途儿童艺术表现",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/gunpowder-record-safety-child-illustration.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童艺术表现：成年人分开观察材料、用图形记录，并在远处观看安全的节庆光点。",
+      "boundary": "2026-08-12为低龄玩法自制。它不是宋代现场、真实配方、实验或点火教程；罩内材料的颜色和形状、人物、书本符号与节庆场景均为抽象艺术表现，不表示可用材料、比例、制作步骤或安全操作。儿童只学习历史证据和用途变化。",
+      "childVisibility": "child-ok"
+    }
+  ],
+  "thumbnail": "/content/thumbnails/cn-ancient-07-08-song-gunpowder-records.jpg",
+  "status": {
+    "outline": "verified",
+    "research": "verified",
+    "script": "first-draft",
+    "assets": "verified",
+    "audio": "not-started",
+    "review": "in-progress"
+  }
+}

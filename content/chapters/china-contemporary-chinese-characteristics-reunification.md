@@ -1,7 +1,7 @@
 # 发展道路、祖国统一和对外交往怎样推进
 
 - 章节 ID：`cn-contemporary-03-03-chinese-characteristics-reunification`
-- 适龄：6—9岁亲子共学
+- 适龄：4—6岁亲子共学；儿童以图标和语音为主
 - 建议时长：10分钟
 - 屏幕：7
 - 语音：8段

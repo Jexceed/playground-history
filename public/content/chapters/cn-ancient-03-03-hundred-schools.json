@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-03-03-hundred-schools",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
@@ -10,10 +10,518 @@
     "years": "前770—前221年"
   },
   "order": 9,
-  "title": "思想家怎样回答乱世难题",
-  "coreQuestion": "面对社会变化，诸子百家提出了哪些不同主张？",
-  "throughline": "以老子、孔子及战国时期主要思想流派的文本片段和后世记录，比较问题、主张与历史影响。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "title": "孔子说：学了还要常常练习",
+  "coreQuestion": "《论语》里‘学而时习之’怎样把学习和练习连起来？",
+  "throughline": "以孔子、《论语》的一句学习名言和竹简证据进入诸子百家，再比较不同思想怎样回答当时问题。",
+  "childEntry": {
+    "id": "cn-ancient-03-03-hundred-schools",
+    "childTitle": "孔子说：学了还要常常练习",
+    "prompt": "《论语》里的一句话，怎样陪我们把一件事越学越会？",
+    "takeaway": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。",
+    "object": "《论语》文字、竹简与孔子相关遗址",
+    "people": [
+      "孔子、学生与整理《论语》的人"
+    ],
+    "place": "山东曲阜及孔子游学的地区",
+    "culture": "《论语》中的学习句子",
+    "care": "《论语》由后人整理，不说成孔子亲手写成；学习句子联系孩子的练习经验，不把孔子神化。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📜",
+      "label": "从一句诗文出发",
+      "text": "孔子说：学了还要常常练习"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "学了还要练",
+      "text": "先听孔子说“学而时习之”，把学习变成行动。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "学生边问边做",
+      "text": "接着看学生提问、练习，再把谈话记下来。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "一句话传到今天",
+      "text": "最后《论语》把这些学习方法传给后来的人。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "曲阜",
+      "reading": "Qūfù",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-03-03-hundred-schools"
+      ],
+      "note": "“曲”在此读qū。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一句诗文",
+      "icon": "📜",
+      "label": "孔子说：学了还要常常练习",
+      "question": "《论语》里的一句话，怎样陪我们把一件事越学越会？"
+    },
+    "coverAudio": {
+      "id": "quest-a920c2f6da53b8a6",
+      "text": "今天从一句诗文出发：孔子说：学了还要常常练习。我们要去山东曲阜及孔子游学的地区，看看《论语》文字、竹简与孔子相关遗址怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-7065d4df61d03787",
+      "text": "五条线索都找到了，“孔子说：学了还要常常练习”的答案是：孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一句诗文出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是春秋战国，时间是前770—前221年。",
+          "narration": "这是春秋战国，时间是前770—前221年。",
+          "displayText": "这是春秋战国，时间是前770—前221年。"
+        },
+        "assetId": "confucius-learning-practice-child-illustration",
+        "image": "/content/step-images/confucius-learning-practice-child-illustration.jpg",
+        "imageAlt": "孔子与学生问答练习儿童艺术表现",
+        "imageCaption": "自制儿童艺术表现：孔子与学生通过提问、练习和讨论一起学习。",
+        "imageBoundary": "2026-08-12为低龄玩法自制。人物容貌、年龄、服饰、庭院和动作都不是历史肖像或精确现场复原；画面只帮助理解学习、练习、请教和后人记录的关系。",
+        "audio": {
+          "transition": {
+            "id": "quest-8212eb93c555f9d1",
+            "text": "先给一句诗文找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-16ace2d60e63a25e",
+            "text": "这是春秋战国，时间是前770—前221年。"
+          },
+          "image": {
+            "id": "quest-1adad089307d3192",
+            "text": "点开大图啦。这是孔子与学生问答练习儿童艺术表现。这张图能帮我们找到：这是春秋战国，时间是前770—前221年。"
+          },
+          "question": {
+            "id": "quest-d81bd2485dbe2247",
+            "text": "从一句诗文出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-03-hundred-schools-time-1",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "cn-ancient-03-03-hundred-schools-time-2",
+            "label": "中国近代史 · 晚清的危机与救亡 · 1840—1911年",
+            "correct": false,
+            "audio": {
+              "id": "quest-a326ed6569d4da14",
+              "text": "中国近代史 · 晚清的危机与救亡 · 1840—1911年"
+            }
+          },
+          {
+            "id": "cn-ancient-03-03-hundred-schools-time-3",
+            "label": "中国古代史 · 春秋战国 · 前770—前221年",
+            "correct": true,
+            "audio": {
+              "id": "quest-e3a8eb496edbf0f1",
+              "text": "中国古代史 · 春秋战国 · 前770—前221年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "学了还要练",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先听孔子说“学而时习之”，把学习变成行动。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "学了还要练",
+          "screenText": "先听孔子说“学而时习之”，把学习变成行动。",
+          "narration": "先听孔子说“学而时习之”，把学习变成行动。",
+          "displayText": "先听孔子说“学而时习之”，把学习变成行动。"
+        },
+        "assetId": "confucius-learning-practice-child-illustration",
+        "image": "/content/step-images/confucius-learning-practice-child-illustration.jpg",
+        "imageAlt": "孔子与学生问答练习儿童艺术表现",
+        "imageCaption": "自制儿童艺术表现：孔子与学生通过提问、练习和讨论一起学习。",
+        "imageBoundary": "2026-08-12为低龄玩法自制。人物容貌、年龄、服饰、庭院和动作都不是历史肖像或精确现场复原；画面只帮助理解学习、练习、请教和后人记录的关系。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-ba5ec74ca0b82293",
+            "text": "先听孔子说“学而时习之”，把学习变成行动。"
+          },
+          "image": {
+            "id": "quest-2e574476540e2c29",
+            "text": "点开大图啦。这是孔子与学生问答练习儿童艺术表现。这张图能帮我们找到：先听孔子说“学而时习之”，把学习变成行动。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-03-hundred-schools-beginning-1",
+            "label": "孔子、学生与整理《论语》的人、山东曲，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-4e21788ebbfd35d9",
+              "text": "孔子、学生与整理《论语》的人、山东曲，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-ancient-03-03-hundred-schools-beginning-2",
+            "label": "《论语》文字、竹简与孔子相关遗址，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-1ee48d3686ae92d3",
+              "text": "《论语》文字、竹简与孔子相关遗址，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-ancient-03-03-hundred-schools-beginning-3",
+            "label": "山东曲阜及孔子游学的地区、孔子，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-9491b59ee675fa46",
+              "text": "山东曲阜及孔子游学的地区、孔子，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "学生边问边做",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看学生提问、练习，再把谈话记下来。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "学生边问边做",
+          "screenText": "接着看学生提问、练习，再把谈话记下来。",
+          "narration": "接着看学生提问、练习，再把谈话记下来。",
+          "displayText": "接着看学生提问、练习，再把谈话记下来。"
+        },
+        "assetId": "confucius-learning-practice-child-illustration",
+        "image": "/content/step-images/confucius-learning-practice-child-illustration.jpg",
+        "imageAlt": "孔子与学生问答练习儿童艺术表现",
+        "imageCaption": "自制儿童艺术表现：孔子与学生通过提问、练习和讨论一起学习。",
+        "imageBoundary": "2026-08-12为低龄玩法自制。人物容貌、年龄、服饰、庭院和动作都不是历史肖像或精确现场复原；画面只帮助理解学习、练习、请教和后人记录的关系。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-da367ae8f883ce24",
+            "text": "接着看学生提问、练习，再把谈话记下来。"
+          },
+          "image": {
+            "id": "quest-6abafa084719670b",
+            "text": "点开大图啦。这是孔子与学生问答练习儿童艺术表现。这张图能帮我们找到：接着看学生提问、练习，再把谈话记下来。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-03-hundred-schools-journey-1",
+            "label": "接着看学生提问、练习，再把谈话记下来。",
+            "correct": true,
+            "audio": {
+              "id": "quest-da367ae8f883ce24",
+              "text": "接着看学生提问、练习，再把谈话记下来。"
+            }
+          },
+          {
+            "id": "cn-ancient-03-03-hundred-schools-journey-2",
+            "label": "孔子、学生与整理《论语》的人，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-ef40163201412f5e",
+              "text": "孔子、学生与整理《论语》的人，只认出人物"
+            }
+          },
+          {
+            "id": "cn-ancient-03-03-hundred-schools-journey-3",
+            "label": "山东曲阜及孔子游学的地区，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-84518cf05c6a75e0",
+              "text": "山东曲阜及孔子游学的地区，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "一句话传到今天",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后《论语》把这些学习方法传给后来的人。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "一句话传到今天",
+          "screenText": "最后《论语》把这些学习方法传给后来的人。",
+          "narration": "最后《论语》把这些学习方法传给后来的人。",
+          "displayText": "最后《论语》把这些学习方法传给后来的人。"
+        },
+        "assetId": "analects-transmission-child-diagram",
+        "image": "/content/step-images/analects-transmission-child-diagram.jpg",
+        "imageAlt": "孔子言行经整理传抄到后世儿童示意图",
+        "imageCaption": "自制儿童传递示意：从师生谈话，到后人整理与传抄，再到今天阅读。",
+        "imageBoundary": "2026-08-12为低龄玩法自制。竹简、线装书和现代图画书都不是某件《论语》原件；图中不表示孔子亲手写成《论语》，也不为任何传本伪造可读文字。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-229345ad738f4f86",
+            "text": "最后《论语》把这些学习方法传给后来的人。"
+          },
+          "image": {
+            "id": "quest-c9b7c50badce613b",
+            "text": "点开大图啦。这是孔子言行经整理传抄到后世儿童示意图。这张图能帮我们找到：最后《论语》把这些学习方法传给后来的人。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-03-hundred-schools-change-1",
+            "label": "《论语》文字、竹简与孔，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-59a498c23257c0f6",
+              "text": "《论语》文字、竹简与孔，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-ancient-03-03-hundred-schools-change-2",
+            "label": "看学生提问、练习，再把谈话，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-e6a069815abaab72",
+              "text": "看学生提问、练习，再把谈话，还只是行动经过"
+            }
+          },
+          {
+            "id": "cn-ancient-03-03-hundred-schools-change-3",
+            "label": "最后《论语》把这些学习方法传给后来的人。",
+            "correct": true,
+            "audio": {
+              "id": "quest-229345ad738f4f86",
+              "text": "最后《论语》把这些学习方法传给后来的人。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。",
+          "narration": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。",
+          "displayText": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。"
+        },
+        "assetId": "analects-transmission-child-diagram",
+        "image": "/content/step-images/analects-transmission-child-diagram.jpg",
+        "imageAlt": "孔子言行经整理传抄到后世儿童示意图",
+        "imageCaption": "自制儿童传递示意：从师生谈话，到后人整理与传抄，再到今天阅读。",
+        "imageBoundary": "2026-08-12为低龄玩法自制。竹简、线装书和现代图画书都不是某件《论语》原件；图中不表示孔子亲手写成《论语》，也不为任何传本伪造可读文字。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-010a5fd071afa650",
+            "text": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。"
+          },
+          "image": {
+            "id": "quest-80128b9838ee66d6",
+            "text": "点开大图啦。这是孔子言行经整理传抄到后世儿童示意图。这张图能帮我们找到：孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-03-hundred-schools-takeaway-1",
+            "label": "听孔子说“学而时习之”，把学习变成行动。、《论语，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-69809dfa56f18f43",
+              "text": "听孔子说“学而时习之”，把学习变成行动。、《论语，只说了原因"
+            }
+          },
+          {
+            "id": "cn-ancient-03-03-hundred-schools-takeaway-2",
+            "label": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。",
+            "correct": true,
+            "audio": {
+              "id": "quest-010a5fd071afa650",
+              "text": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。"
+            }
+          },
+          {
+            "id": "cn-ancient-03-03-hundred-schools-takeaway-3",
+            "label": "《论语》把这些学习方法传给后来的人。、孔子说：学了还，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-8d788e6d49885115",
+              "text": "《论语》把这些学习方法传给后来的人。、孔子说：学了还，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "给问题找回答",
+        "items": [
+          "孩子把“怎样相处、怎样少打仗、怎样治理、怎样顺应规律”等问题连接到多个学派；允许一个问题出现不同答案。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "竹简内容侦探",
+        "items": [
+          "比较郭店思想文本与包山司法文书，只根据展签判断内容类型，不凭外形猜作者。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "观点比较桌",
+        "items": [
+          "每张思想卡只包含“主张—理由—可能影响”三项；完成后语音强调这是一种概括，不是思想家的逐字原话。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "面对政治秩序变化、兼并战争和社会流动，春秋战国的思想家围绕“人怎样相处、国家怎样治理、战争怎样停止、人与自然怎样相处”等问题提出不同答案。儒、墨、道、法只是许多学派中的几种。竹简和传世文献保存了部分思想证据，但文本的抄写年代、流传过程和后世整理都需要说明，不能把今天的通行本当成某位思想家亲笔写成的原稿。"
@@ -88,20 +596,20 @@
   "screens": [
     {
       "number": 1,
-      "title": "时间线定位：变化带来了新问题",
-      "screenText": "旧秩序松动、战争不断，人们开始公开讨论“怎样才会更好”。",
+      "title": "时间线定位：孔子生活在春秋晚期",
+      "screenText": "春秋晚期：孔子教学；后来：弟子和再传弟子整理《论语》。",
       "voices": [
         {
           "number": 1,
           "label": "语音 H01：",
-          "text": "春秋战国不只有战场。生产、城市、国家制度和人的身份都在变化，许多“士”开始教学、写作和辩论。他们面对相似的问题：人怎样相处？国家怎样治理？战争怎样停止？不同回答形成了许多思想流派。",
+          "text": "把故事放回春秋晚期。孔子带学生学习、讨论，关心人怎样相处、怎样把事情做好。我们今天读到的《论语》，是弟子和再传弟子把相关言行整理、传下来的，不是孔子亲手写成的一本书。",
           "segments": [
             {
               "id": "cn-ancient-03-03-hundred-schools-s01-v01-01",
               "order": 1,
               "tier": "core",
-              "text": "春秋战国不只有战场。生产、城市、国家制度和人的身份都在变化，许多“士”开始教学、写作和辩论。他们面对相似的问题：人怎样相处？国家怎样治理？战争怎样停止？不同回答形成了许多思想流派。",
-              "hanCharacters": 77
+              "text": "把故事放回春秋晚期。孔子带学生学习、讨论，关心人怎样相处、怎样把事情做好。我们今天读到的《论语》，是弟子和再传弟子把相关言行整理、传下来的，不是孔子亲手写成的一本书。",
+              "hanCharacters": 72
             }
           ]
         }
@@ -110,20 +618,20 @@
     },
     {
       "number": 2,
-      "title": "儒家和墨家：先问人怎样相处",
-      "screenText": "儒家重视仁、学习和礼；墨家提倡兼爱、非攻和尚贤。",
+      "title": "第一句：先学一件事",
+      "screenText": "学而时习之：学了，还要常常练习。",
       "voices": [
         {
           "number": 2,
           "label": "语音 H02：",
-          "text": "孔子重视学习和教育，用仁说明关爱他人，也希望以道德和礼建立秩序。墨家则主张把关心推得更广，反对进攻别国造成伤害，并重视选用有才能的人。它们都关心秩序，却不是同一个答案。",
+          "text": "先学，再练习。就像第一次系扣子、拍皮球或唱一句歌，知道怎么做还不够，要隔一段时间再试。这里的“习”不是一次做完，而是让手、眼睛和脑袋慢慢配合。",
           "segments": [
             {
               "id": "cn-ancient-03-03-hundred-schools-s02-v02-01",
               "order": 1,
               "tier": "core",
-              "text": "孔子重视学习和教育，用仁说明关爱他人，也希望以道德和礼建立秩序。墨家则主张把关心推得更广，反对进攻别国造成伤害，并重视选用有才能的人。它们都关心秩序，却不是同一个答案。",
-              "hanCharacters": 76
+              "text": "先学，再练习。就像第一次系扣子、拍皮球或唱一句歌，知道怎么做还不够，要隔一段时间再试。这里的“习”不是一次做完，而是让手、眼睛和脑袋慢慢配合。",
+              "hanCharacters": 60
             }
           ]
         }
@@ -132,20 +640,20 @@
     },
     {
       "number": 3,
-      "title": "道家和法家：再问国家怎样治理",
-      "screenText": "道家提醒人顺应规律、少强求；法家强调制度、法令和赏罚。",
+      "title": "第二步：练习时会发生什么",
+      "screenText": "第一次不会 → 再试一次 → 发现哪里变好了。",
       "voices": [
         {
           "number": 3,
           "label": "语音 H03：",
-          "text": "《老子》讨论道、自然和无为，提醒治理者不要处处强行干预。战国法家更重视制度、命令和赏罚，希望规则能够真正执行。这里说的古代法家，不等于今天保护权利、限制权力的现代法治。",
+          "text": "练习不是保证每次都成功，也不是一定要和别人比快。我们可以停下来看看哪里不会，问老师或同伴，再试一次。孔子重视学习，也重视向别人请教。",
           "segments": [
             {
               "id": "cn-ancient-03-03-hundred-schools-s03-v03-01",
               "order": 1,
               "tier": "core",
-              "text": "《老子》讨论道、自然和无为，提醒治理者不要处处强行干预。战国法家更重视制度、命令和赏罚，希望规则能够真正执行。这里说的古代法家，不等于今天保护权利、限制权力的现代法治。",
-              "hanCharacters": 73
+              "text": "练习不是保证每次都成功，也不是一定要和别人比快。我们可以停下来看看哪里不会，问老师或同伴，再试一次。孔子重视学习，也重视向别人请教。",
+              "hanCharacters": 59
             }
           ]
         }
@@ -154,20 +662,20 @@
     },
     {
       "number": 4,
-      "title": "真正的战国文字保存在竹简上",
-      "screenText": "郭店楚墓出土的竹简，保存了战国时期抄写的思想文本。",
+      "title": "一句话怎样从古代来到今天",
+      "screenText": "古书经过记述、整理、抄写、刻印，才来到今天。",
       "voices": [
         {
           "number": 4,
           "label": "语音 H04：",
-          "text": "这是湖北省博物馆里郭店楚简的展示。郭店一号墓出土八百多枚竹简，其中七百三十枚有字，内容包括三种《老子》和许多失传文献。它们是战国时期的抄本，不是老子本人拿笔写下的原稿。",
+          "text": "孔子生活的时代离今天很远。《论语》经过后人整理和传抄，才成为今天读到的古书。我们可以说“《论语》记载了这句话”，不能说眼前某一页就是孔子亲笔写下的原稿。",
           "segments": [
             {
               "id": "cn-ancient-03-03-hundred-schools-s04-v04-01",
               "order": 1,
               "tier": "core",
-              "text": "这是湖北省博物馆里郭店楚简的展示。郭店一号墓出土八百多枚竹简，其中七百三十枚有字，内容包括三种《老子》和许多失传文献。它们是战国时期的抄本，不是老子本人拿笔写下的原稿。",
-              "hanCharacters": 76
+              "text": "孔子生活的时代离今天很远。《论语》经过后人整理和传抄，才成为今天读到的古书。我们可以说“《论语》记载了这句话”，不能说眼前某一页就是孔子亲笔写下的原稿。",
+              "hanCharacters": 65
             }
           ]
         }
@@ -176,20 +684,20 @@
     },
     {
       "number": 5,
-      "title": "竹简不全是哲学书",
-      "screenText": "包山楚简里有司法和行政记录；同一种材料可以写不同内容。",
+      "title": "竹简提醒我们：材料不等于内容",
+      "screenText": "竹简可以写思想，也可以写办事记录和物品清单。",
       "voices": [
         {
           "number": 5,
           "label": "语音 H05：",
-          "text": "这组包山楚简约在公元前三百一十六年写成。它们包括司法文书、占卜祭祷记录和随葬品清单。竹简只是书写材料，就像今天的纸张。看到竹简照片，不能立刻说它一定是某位思想家的著作。",
+          "text": "郭店楚简保存了战国思想文本，包山楚简还保存办事记录和物品清单。竹简就像今天的纸：看见材料，还要辨认上面写了什么、何时写、从哪里出土。",
           "segments": [
             {
               "id": "cn-ancient-03-03-hundred-schools-s05-v05-01",
               "order": 1,
               "tier": "core",
-              "text": "这组包山楚简约在公元前三百一十六年写成。它们包括司法文书、占卜祭祷记录和随葬品清单。竹简只是书写材料，就像今天的纸张。看到竹简照片，不能立刻说它一定是某位思想家的著作。",
-              "hanCharacters": 77
+              "text": "郭店楚简保存了战国思想文本，包山楚简还保存办事记录和物品清单。竹简就像今天的纸：看见材料，还要辨认上面写了什么、何时写、从哪里出土。",
+              "hanCharacters": 59
             }
           ]
         }
@@ -198,20 +706,20 @@
     },
     {
       "number": 6,
-      "title": "同一个难题，可以有不同答案",
-      "screenText": "先找共同问题，再比较主张、理由和可能结果。",
+      "title": "把这句话带回自己的生活",
+      "screenText": "今天想练什么？需要谁来帮忙？下一次怎样再试？",
       "voices": [
         {
           "number": 6,
           "label": "语音 H06：",
-          "text": "如果问题是怎样减少混乱，儒家可能更重视修养和礼，墨家强调兼爱与非攻，道家提醒少做强制干预，法家强调制度和执行。比较思想不是选一个永远正确的口号，而是问它在回应什么问题，会带来什么结果。",
+          "text": "你可以选一件小事：扣扣子、收玩具、画圆圈都可以。先试一次，说出哪里难；再请一个人帮忙；最后再试一次。我们不是扮演孔子，而是用一句古话发现“学”和“练”可以连在一起。",
           "segments": [
             {
               "id": "cn-ancient-03-03-hundred-schools-s06-v06-01",
               "order": 1,
               "tier": "core",
-              "text": "如果问题是怎样减少混乱，儒家可能更重视修养和礼，墨家强调兼爱与非攻，道家提醒少做强制干预，法家强调制度和执行。比较思想不是选一个永远正确的口号，而是问它在回应什么问题，会带来什么结果。",
-              "hanCharacters": 84
+              "text": "你可以选一件小事：扣扣子、收玩具、画圆圈都可以。先试一次，说出哪里难；再请一个人帮忙；最后再试一次。我们不是扮演孔子，而是用一句古话发现“学”和“练”可以连在一起。",
+              "hanCharacters": 68
             }
           ]
         }
@@ -220,20 +728,20 @@
     },
     {
       "number": 7,
-      "title": "思想会进入后面的历史",
-      "screenText": "秦朝更重制度与控制；汉代又重新组合多种思想传统。",
+      "title": "一句话不是诸子百家的全部",
+      "screenText": "孔子之外，还有墨家、道家、法家等许多不同回答。",
       "voices": [
         {
           "number": 7,
           "label": "语音 H07：",
-          "text": "春秋战国的思想没有在公元前二百二十一年突然消失。秦建立统一国家后，法家式制度和控制影响明显；汉代又吸收、调整多种思想传统。下一章，我们会观察秦怎样把统一变成文字、度量衡和行政制度。",
+          "text": "“学了常练习”只是进入思想史的一扇小门。墨家还讨论兼爱、非攻，道家提醒少强求，法家重视制度和执行。不同回答都要放回当时问题中比较，不能选一句话解释全部春秋战国。",
           "segments": [
             {
               "id": "cn-ancient-03-03-hundred-schools-s07-v07-01",
               "order": 1,
               "tier": "core",
-              "text": "春秋战国的思想没有在公元前二百二十一年突然消失。秦建立统一国家后，法家式制度和控制影响明显；汉代又吸收、调整多种思想传统。下一章，我们会观察秦怎样把统一变成文字、度量衡和行政制度。",
-              "hanCharacters": 82
+              "text": "“学了常练习”只是进入思想史的一扇小门。墨家还讨论兼爱、非攻，道家提醒少强求，法家重视制度和执行。不同回答都要放回当时问题中比较，不能选一句话解释全部春秋战国。",
+              "hanCharacters": 71
             }
           ]
         }
@@ -372,20 +880,52 @@
       "title": "郭店楚简《太一生水》局部展示照片",
       "localPath": "reference-assets/spring-autumn-warring-states/guodian-taiyi-slips.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:TaiYiShengShui1.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "湖北省博物馆展出的郭店楚简《太一生水》局部；白色部分是现代展陈释文与说明。",
-      "boundary": "不把白色释文板说成战国竹简，也不把《太一生水》混称为《老子》乙。照片用于观察书写材料与博物馆如何帮助阅读。未修改原图。"
+      "boundary": "不把白色释文板说成战国竹简，也不把《太一生水》混称为《老子》乙。照片用于观察书写材料与博物馆如何帮助阅读。未修改原图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "saws-baoshan-chu-slips",
       "title": "包山二号墓楚简展览照片",
       "localPath": "reference-assets/spring-autumn-warring-states/baoshan-chu-slips.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Warring_States_Bamboo_Slips_from_Chu_State_(10160632385).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "湖北省博物馆展出的包山二号墓楚简；这批简中有楚国司法和行政文书。",
-      "boundary": "照片中的透明罩、编号和释文均为现代展陈。包山楚简内容和年代以湖北省文物考古研究院资料核验；不把它们当作哲学著作。未修改原图。"
+      "boundary": "照片中的透明罩、编号和释文均为现代展陈。包山楚简内容和年代以湖北省文物考古研究院资料核验；不把它们当作哲学著作。未修改原图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "confucius-learning-practice-child-illustration",
+      "title": "孔子与学生问答练习儿童艺术表现",
+      "localPath": "reference-assets/spring-autumn-warring-states/confucius-learning-practice-child-illustration.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童艺术表现：孔子与学生通过提问、练习和讨论一起学习。",
+      "boundary": "2026-08-12为低龄玩法自制。人物容貌、年龄、服饰、庭院和动作都不是历史肖像或精确现场复原；画面只帮助理解学习、练习、请教和后人记录的关系。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "analects-transmission-child-diagram",
+      "title": "孔子言行经整理传抄到后世儿童示意图",
+      "localPath": "reference-assets/spring-autumn-warring-states/analects-transmission-child-diagram.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童传递示意：从师生谈话，到后人整理与传抄，再到今天阅读。",
+      "boundary": "2026-08-12为低龄玩法自制。竹简、线装书和现代图画书都不是某件《论语》原件；图中不表示孔子亲手写成《论语》，也不为任何传本伪造可读文字。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-03-03-hundred-schools.jpg",

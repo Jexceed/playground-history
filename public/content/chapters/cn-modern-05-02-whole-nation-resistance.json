@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.8.0",
+  "contentVersion": "0.9.0",
   "id": "cn-modern-05-02-whole-nation-resistance",
   "trackId": "china-modern",
   "trackLabel": "中国近代史",
@@ -13,7 +13,602 @@
   "title": "不同战场和普通人怎样共同抗战",
   "coreQuestion": "全民族抗战为什么能够坚持十四年并取得胜利？",
   "throughline": "从正面战场、敌后战场、南京大屠杀史实、国际援助和普通人的支援，认识中国战场的牺牲、贡献与抗战胜利。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-modern-05-02-whole-nation-resistance",
+    "childTitle": "西南联大的课堂为什么搬了家",
+    "prompt": "前线、后方、工厂、学校和普通家庭，怎样一起坚持抗战？",
+    "takeaway": "抗战不只在战场；迁校、生产、运输、救护和家庭坚持都在保卫家园。",
+    "object": "校舍照片、家书、地图与生产工具",
+    "people": [
+      "张伯苓、西南联大师生、不同战场的军民与普通家庭"
+    ],
+    "place": "昆明、全国不同战场与大后方",
+    "culture": "抗战歌曲、家书与新闻记录",
+    "care": "南京大屠杀等事实不回避，但儿童层用名单、档案与纪念空间，不展示暴力影像。",
+    "preferredAssetId": "southwestern-associated-university-1939-photo"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "西南联大的课堂为什么搬了家"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "课堂搬到昆明",
+      "text": "先跟一间课堂从北方搬到昆明。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "上课也参加建设",
+      "text": "接着看师生上课、写家书，也参加大后方建设。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "许多人一起坚持",
+      "text": "最后学校、家庭和各地民众一起坚持守护家园。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "抗战不只在战场；迁校、生产、运输、救护和家庭坚持都在保卫家园。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "档案",
+      "icon": "🗂️",
+      "plain": "被保存下来的文件、照片、录音等记录。",
+      "example": "一份档案记录一个角度，要和别的证据一起看。",
+      "priority": 1
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    },
+    {
+      "term": "法西斯",
+      "icon": "⛔",
+      "plain": "用独裁、迫害和极端民族主义推动侵略扩张的政治力量。",
+      "example": "法西斯上台有社会背景，也有具体组织和责任人。",
+      "priority": 1
+    },
+    {
+      "term": "和平",
+      "icon": "🕊️",
+      "plain": "人们不靠战争解决分歧，并努力避免暴力伤害。",
+      "example": "和平需要规则、谈判和行动，不只是说一句愿望。",
+      "priority": 1
+    },
+    {
+      "term": "侵略",
+      "icon": "⛔",
+      "plain": "用武力进入别国，夺取土地或控制权。",
+      "example": "抵抗侵略和发动侵略的责任不能混在一起。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "反法西斯",
+      "icon": "🕊️",
+      "plain": "反对法西斯独裁、迫害和侵略扩张。",
+      "example": "反法西斯力量来自许多国家和不同社会群体。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "民族",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
+      "example": "民族不是按外貌排高低，也不会永远固定不变。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "国际",
+      "icon": "🌍",
+      "plain": "不同国家之间或许多国家共同参与的事情。",
+      "example": "国际合作要看谁参加、怎样分工、规则如何执行。",
+      "priority": 3
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "张伯苓",
+      "reading": "Zhāng Bólíng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-05-02-whole-nation-resistance"
+      ],
+      "note": "“伯”在人名中读bó，“苓”读líng。"
+    },
+    {
+      "text": "西南联大",
+      "reading": "Xīnán Liándà",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-05-02-whole-nation-resistance"
+      ],
+      "note": "西南联合大学的简称。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "西南联大的课堂为什么搬了家",
+      "question": "前线、后方、工厂、学校和普通家庭，怎样一起坚持抗战？"
+    },
+    "coverAudio": {
+      "id": "quest-3e442df435d40a3c",
+      "text": "今天从一件东西出发：西南联大的课堂为什么搬了家。我们要去昆明、全国不同战场与大后方，看看校舍照片、家书、地图与生产工具怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-76c48c8332425a3c",
+      "text": "五条线索都找到了，“西南联大的课堂为什么搬了家”的答案是：抗战不只在战场；迁校、生产、运输、救护和家庭坚持都在保卫家园。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 11,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是中华民族的抗日战争，时间是1931—1945年。",
+          "narration": "这是中华民族的抗日战争，时间是1931—1945年。",
+          "displayText": "这是中华民族的抗日战争，时间是1931—1945年。"
+        },
+        "assetId": "southwestern-associated-university-1939-photo",
+        "image": "/content/step-images/southwestern-associated-university-1939-photo.jpg",
+        "imageAlt": "1939年西南联大部分师生合影",
+        "imageCaption": "1939年秋，张伯苓与国立西南联合大学部分师生合影。",
+        "imageBoundary": "只记录西南联大部分师生的一个合影场景，不能代表全部内迁学校、全国教师学生或日常课堂；不凭面部猜测未由来源页标明的人物身份。原图1082×536像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-18ccc488d1ab06fb",
+            "text": "这是中华民族的抗日战争，时间是1931—1945年。"
+          },
+          "image": {
+            "id": "quest-66a2589a9ea7c47f",
+            "text": "点开大图啦。这是1939年西南联大部分师生合影。这张图能帮我们找到：这是中华民族的抗日战争，时间是1931—1945年。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-time-1",
+            "label": "中国近代史 · 中华民族的抗日战争 · 1931—1945年",
+            "correct": true,
+            "audio": {
+              "id": "quest-443bcb3b86779bc8",
+              "text": "中国近代史 · 中华民族的抗日战争 · 1931—1945年"
+            }
+          },
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-time-2",
+            "label": "中国近代史 · 中国共产党成立与革命新道路 · 1919—1936年",
+            "correct": false,
+            "audio": {
+              "id": "quest-652023a7098358d2",
+              "text": "中国近代史 · 中国共产党成立与革命新道路 · 1919—1936年"
+            }
+          },
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-time-3",
+            "label": "中国现代史 · 新中国成立与向社会主义过渡 · 1949—1956年",
+            "correct": false,
+            "audio": {
+              "id": "quest-8cbdd707d66d2816",
+              "text": "中国现代史 · 新中国成立与向社会主义过渡 · 1949—1956年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "课堂搬到昆明",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先跟一间课堂从北方搬到昆明。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "课堂搬到昆明",
+          "screenText": "先跟一间课堂从北方搬到昆明。",
+          "narration": "先跟一间课堂从北方搬到昆明。",
+          "displayText": "先跟一间课堂从北方搬到昆明。"
+        },
+        "assetId": "nanyang-mechanics-memorial-2022-photo",
+        "image": "/content/step-images/nanyang-mechanics-memorial-2022-photo.jpg",
+        "imageAlt": "2022年昆明南洋华侨机工抗日纪念碑照片",
+        "imageCaption": "2022年拍摄的昆明西山南洋华侨机工抗日纪念碑。",
+        "imageBoundary": "现代纪念碑照片，花束、台阶、树木和游人属于当代环境；只能帮助说明今天怎样纪念南侨机工，不能冒充1939年车队、滇缅公路或具体运输任务的现场。下载为1920×2560像素等比例缩略图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-faa1da0f1364d39f",
+            "text": "先跟一间课堂从北方搬到昆明。"
+          },
+          "image": {
+            "id": "quest-3d38b2d0d6042e93",
+            "text": "点开大图啦。这是2022年昆明南洋华侨机工抗日纪念碑照片。这张图能帮我们找到：先跟一间课堂从北方搬到昆明。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-beginning-1",
+            "label": "昆明、全国不同战场与大后方、张，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-346ae71981ee7a64",
+              "text": "昆明、全国不同战场与大后方、张，只是故事地点"
+            }
+          },
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-beginning-2",
+            "label": "张伯苓、西南联大师生、不同战场的军，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-4c62d4625c9a2735",
+              "text": "张伯苓、西南联大师生、不同战场的军，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-beginning-3",
+            "label": "校舍照片、家书、地图与生产工具，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-f46ed9fb5509250c",
+              "text": "校舍照片、家书、地图与生产工具，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "上课也参加建设",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看师生上课、写家书，也参加大后方建设。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "上课也参加建设",
+          "screenText": "接着看师生上课、写家书，也参加大后方建设。",
+          "narration": "接着看师生上课、写家书，也参加大后方建设。",
+          "displayText": "接着看师生上课、写家书，也参加大后方建设。"
+        },
+        "assetId": "southwestern-associated-university-1939-photo",
+        "image": "/content/step-images/southwestern-associated-university-1939-photo.jpg",
+        "imageAlt": "1939年西南联大部分师生合影",
+        "imageCaption": "1939年秋，张伯苓与国立西南联合大学部分师生合影。",
+        "imageBoundary": "只记录西南联大部分师生的一个合影场景，不能代表全部内迁学校、全国教师学生或日常课堂；不凭面部猜测未由来源页标明的人物身份。原图1082×536像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-47c5ca064f289d81",
+            "text": "接着看师生上课、写家书，也参加大后方建设。"
+          },
+          "image": {
+            "id": "quest-b1f2a062dc105451",
+            "text": "点开大图啦。这是1939年西南联大部分师生合影。这张图能帮我们找到：接着看师生上课、写家书，也参加大后方建设。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-journey-1",
+            "label": "昆明、全国不同战场与大后方，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-107543ac5377d57d",
+              "text": "昆明、全国不同战场与大后方，只说了地点"
+            }
+          },
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-journey-2",
+            "label": "接着看师生上课、写家书，也参加大后方建设。",
+            "correct": true,
+            "audio": {
+              "id": "quest-47c5ca064f289d81",
+              "text": "接着看师生上课、写家书，也参加大后方建设。"
+            }
+          },
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-journey-3",
+            "label": "张伯苓、西南联大师生、不同战场的，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-2cff4f728d693f22",
+              "text": "张伯苓、西南联大师生、不同战场的，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "许多人一起坚持",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后学校、家庭和各地民众一起坚持守护家园。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "许多人一起坚持",
+          "screenText": "最后学校、家庭和各地民众一起坚持守护家园。",
+          "narration": "最后学校、家庭和各地民众一起坚持守护家园。",
+          "displayText": "最后学校、家庭和各地民众一起坚持守护家园。"
+        },
+        "assetId": "southwestern-associated-university-1939-photo",
+        "image": "/content/step-images/southwestern-associated-university-1939-photo.jpg",
+        "imageAlt": "1939年西南联大部分师生合影",
+        "imageCaption": "1939年秋，张伯苓与国立西南联合大学部分师生合影。",
+        "imageBoundary": "只记录西南联大部分师生的一个合影场景，不能代表全部内迁学校、全国教师学生或日常课堂；不凭面部猜测未由来源页标明的人物身份。原图1082×536像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-294ad215e56d331e",
+            "text": "最后学校、家庭和各地民众一起坚持守护家园。"
+          },
+          "image": {
+            "id": "quest-cb1093e8dcf60121",
+            "text": "点开大图啦。这是1939年西南联大部分师生合影。这张图能帮我们找到：最后学校、家庭和各地民众一起坚持守护家园。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-change-1",
+            "label": "最后学校、家庭和各地民众一起坚持守护家园。",
+            "correct": true,
+            "audio": {
+              "id": "quest-294ad215e56d331e",
+              "text": "最后学校、家庭和各地民众一起坚持守护家园。"
+            }
+          },
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-change-2",
+            "label": "校舍照片、家书、地图与生，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-3213835fbf60fd47",
+              "text": "校舍照片、家书、地图与生，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-change-3",
+            "label": "看师生上课、写家书，也参加大，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-9b9661f5581beeef",
+              "text": "看师生上课、写家书，也参加大，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "抗战不只在战场；迁校、生产、运输、救护和家庭坚持都在保卫家园。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "抗战不只在战场；迁校、生产、运输、救护和家庭坚持都在保卫家园。",
+          "narration": "抗战不只在战场；迁校、生产、运输、救护和家庭坚持都在保卫家园。",
+          "displayText": "抗战不只在战场；迁校、生产、运输、救护和家庭坚持都在保卫家园。"
+        },
+        "assetId": "southwestern-associated-university-1939-photo",
+        "image": "/content/step-images/southwestern-associated-university-1939-photo.jpg",
+        "imageAlt": "1939年西南联大部分师生合影",
+        "imageCaption": "1939年秋，张伯苓与国立西南联合大学部分师生合影。",
+        "imageBoundary": "只记录西南联大部分师生的一个合影场景，不能代表全部内迁学校、全国教师学生或日常课堂；不凭面部猜测未由来源页标明的人物身份。原图1082×536像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-46584ee41f06e2b0",
+            "text": "抗战不只在战场；迁校、生产、运输、救护和家庭坚持都在保卫家园。"
+          },
+          "image": {
+            "id": "quest-970692558ecaf454",
+            "text": "点开大图啦。这是1939年西南联大部分师生合影。这张图能帮我们找到：抗战不只在战场；迁校、生产、运输、救护和家庭坚持都在保卫家园。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-takeaway-1",
+            "label": "学校、家庭和各地民众一起坚持守护家园。、西南联大的课，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-5f9d0920a43f4901",
+              "text": "学校、家庭和各地民众一起坚持守护家园。、西南联大的课，只说了结果"
+            }
+          },
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-takeaway-2",
+            "label": "跟一间课堂从北方搬到昆明。、校舍照片、家书、地图，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-f1a84a93b4773e25",
+              "text": "跟一间课堂从北方搬到昆明。、校舍照片、家书、地图，只说了原因"
+            }
+          },
+          {
+            "id": "cn-modern-05-02-whole-nation-resistance-takeaway-3",
+            "label": "抗战不只在战场；迁校、生产、运输、救护和家庭坚持都在保卫家园。",
+            "correct": true,
+            "audio": {
+              "id": "quest-46584ee41f06e2b0",
+              "text": "抗战不只在战场；迁校、生产、运输、救护和家庭坚持都在保卫家园。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "两个战场，不做比分",
+        "items": [
+          "把“台儿庄—正面战场”“平型关、百团大战—敌后战场”与对应证据相连，再把两条线汇入“共同抗击侵略”，不比较击毙人数或贡献排名。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "谁在支撑抗战",
+        "items": [
+          "把学校内迁、工厂生产、农民供粮、医护救治、南侨机工运输、国际航空援助放入一张支持网络，发现“全民族”包含许多不同工作。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "证据怎样守护记忆",
+        "items": [
+          "按“当时档案与证言—战后调查和审判—档案馆与纪念馆保存—今天学习并珍爱和平”排序；南京大屠杀数字不作为答题输赢条件。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 11,
   "conclusion": [
     "中国人民抗日战争从1931年延续到1945年。1937年全民族抗战爆发后，以国共合作为基础的抗日民族统一战线把更广泛的力量汇聚起来。国民党军队主要承担正面战场作战，在淞沪、台儿庄、武汉、长沙等会战中抗击日军；中国共产党领导八路军、新四军等深入敌后，发动群众、建立抗日根据地、开展游击战和较大规模战役。两个战场在不同阶段的地位有所变化，又从战略上共同牵制和打击侵略者。工人、农民、学生、教师、医护人员、工商界、妇女、儿童和海外华侨等以生产、运输、办学、救护、募捐和传递信息等方式支持抗战。日本侵略者制造南京大屠杀等严重罪行，给中国人民带来深重灾难；档案、证言、审判文书和遗址共同保存历史证据。中国长期坚持东方主战场，也获得世界反法西斯力量的支援。1945年日本签署投降书，中国取得近代以来反抗外敌入侵的第一次完全胜利。胜利属于全体为抗战付出努力的人们，关键在于中国共产党发挥中流砥柱作用和全民族团结坚持抗战。"
@@ -480,70 +1075,91 @@
       "title": "1938年台儿庄战役历史照片",
       "localPath": "reference-assets/china-modern-war-of-resistance/taierzhuang-battle-1938.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Battle_of_Taierzhuang.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — photograph taken in China in 1938",
       "clearance": "cleared-open-license",
       "caption": "1938年台儿庄战役中，中国军队在受损街巷中作战。",
-      "boundary": "画面有持枪军人和损毁建筑但没有可见遗体或伤口，可用于低龄版说明正面战场的艰苦；不辨认具体个人、武器型号或精确街巷，不用作击敌数量与胜负游戏背景。原图1542×996像素，未作修改。"
+      "boundary": "画面有持枪军人和损毁建筑但没有可见遗体或伤口，只在家长证据层说明正面战场的艰苦，不作儿童封面；不辨认具体个人、武器型号或精确街巷，不用作击敌数量与胜负游戏背景。原图1542×996像素，未作修改。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "pingxingguan-battle-1937-photo",
       "title": "1937年平型关地区历史照片",
       "localPath": "reference-assets/china-modern-war-of-resistance/pingxingguan-battle-1937.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Battle_of_Pingxingguan_1937.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — photographer Sha Fei died in 1950",
       "clearance": "cleared-open-license",
       "caption": "1937年平型关地区，队伍经过关口的历史照片。",
-      "boundary": "照片能显示地形、关口、行军人员和牲畜队伍，不能单独证明战斗的全部部署、结果或照片中每个人身份；不做武器识别或战斗得分。原图910×595像素，未作修改。"
+      "boundary": "照片能显示地形、关口、行军人员和牲畜队伍，不能单独证明战斗的全部部署、结果或照片中每个人身份；不做武器识别或战斗得分。原图910×595像素，未作修改。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "southwestern-associated-university-1939-photo",
       "title": "1939年西南联大部分师生合影",
       "localPath": "reference-assets/china-modern-war-of-resistance/southwestern-associated-university-1939.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:1939%E5%B9%B4%E7%A7%8B%E5%BC%A0%E4%BC%AF%E8%8B%93%E4%B8%8E%E5%9B%BD%E7%AB%8B%E8%A5%BF%E5%8D%97%E8%81%94%E5%90%88%E5%A4%A7%E5%AD%A6%E9%83%A8%E5%88%86%E5%B8%88%E7%94%9F%E5%90%88%E5%BD%B1.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — photograph taken in China in 1939",
       "clearance": "cleared-open-license",
       "caption": "1939年秋，张伯苓与国立西南联合大学部分师生合影。",
-      "boundary": "只记录西南联大部分师生的一个合影场景，不能代表全部内迁学校、全国教师学生或日常课堂；不凭面部猜测未由来源页标明的人物身份。原图1082×536像素，未作修改。"
+      "boundary": "只记录西南联大部分师生的一个合影场景，不能代表全部内迁学校、全国教师学生或日常课堂；不凭面部猜测未由来源页标明的人物身份。原图1082×536像素，未作修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "nanjing-massacre-memorial-wall-2009-photo",
       "title": "2009年南京大屠杀遇难者名单墙照片",
       "localPath": "reference-assets/china-modern-war-of-resistance/nanjing-massacre-memorial-2009.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Nanjing_Massacre_Memorial_(10151677315).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "2009年拍摄的侵华日军南京大屠杀遇难同胞纪念馆名单墙。",
-      "boundary": "儿童主页面使用这张非血腥纪念空间照片，不使用遗体、伤口或暴行图像。名单墙是纪念与研究设施，不是1937年现场；照片不能替代档案、证言、调查和审判构成的完整证据链。下载为1920×1280像素等比例缩略图，未作其他修改。"
+      "boundary": "儿童主页面使用这张非血腥纪念空间照片，不使用遗体、伤口或暴行图像。名单墙是纪念与研究设施，不是1937年现场；照片不能替代档案、证言、调查和审判构成的完整证据链。下载为1920×1280像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "nanyang-mechanics-memorial-2022-photo",
       "title": "2022年昆明南洋华侨机工抗日纪念碑照片",
       "localPath": "reference-assets/china-modern-war-of-resistance/nanyang-mechanics-memorial-2022.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:%E7%AB%8B%E4%BA%8E%E6%98%86%E6%98%8E%E8%A5%BF%E5%B1%B1%E5%85%AC%E5%9B%AD%E7%9A%84%E5%8D%97%E6%B4%8B%E5%8D%8E%E4%BE%A8%E6%9C%BA%E5%B7%A5%E6%8A%97%E6%97%A5%E7%BA%AA%E5%BF%B5%E7%A2%91.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2022年拍摄的昆明西山南洋华侨机工抗日纪念碑。",
-      "boundary": "现代纪念碑照片，花束、台阶、树木和游人属于当代环境；只能帮助说明今天怎样纪念南侨机工，不能冒充1939年车队、滇缅公路或具体运输任务的现场。下载为1920×2560像素等比例缩略图，未作其他修改。"
+      "boundary": "现代纪念碑照片，花束、台阶、树木和游人属于当代环境；只能帮助说明今天怎样纪念南侨机工，不能冒充1939年车队、滇缅公路或具体运输任务的现场。下载为1920×2560像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "flying-tigers-china-airfield-circa-1942-photo",
       "title": "约1942年中国机场上的飞虎队P-40飞机与中国士兵",
       "localPath": "reference-assets/china-modern-war-of-resistance/flying-tigers-china-1942.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Chinese_soldier_guards_a_line_of_American_P-40_fighter_planes,_painted_with_the_shark-face_emblem_of_the_Flying..._-_NARA_-_535531.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — U.S. government record",
       "clearance": "cleared-open-license",
       "caption": "约1942年，中国机场上，一名中国士兵守卫美国志愿航空队使用的P-40飞机。",
-      "boundary": "美国国家档案馆记录号535531，公共领域。照片显示一处机场、一列飞机和一名士兵，只是国际援华航空合作的一个例子；不据此计算战果，也不代表全部国际援助。保存2934×2208像素JPG版本，未作修改。"
+      "boundary": "美国国家档案馆记录号535531，公共领域。照片显示一处机场、一列飞机和一名士兵，只是国际援华航空合作的一个例子；不据此计算战果，也不代表全部国际援助。保存2934×2208像素JPG版本，未作修改。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "nanjing-china-theater-surrender-1945-photo",
       "title": "1945年南京中国战区受降地点历史照片",
       "localPath": "reference-assets/china-modern-war-of-resistance/nanjing-surrender-1945.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Japanese_surrender_in_Nanjing.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — photograph taken in China in 1945",
       "clearance": "cleared-open-license",
       "caption": "1945年9月9日南京中国战区受降地点外景。",
-      "boundary": "照片显示受降地点建筑及外部人员，不是1945年9月2日东京湾日本向同盟国签署投降书的现场，也不能单独证明室内签字顺序。原图640×461像素，未作修改。"
+      "boundary": "照片显示受降地点建筑及外部人员，不是1945年9月2日东京湾日本向同盟国签署投降书的现场，也不能单独证明室内签字顺序。原图640×461像素，未作修改。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-modern-05-02-whole-nation-resistance.jpg",

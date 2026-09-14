@@ -1,0 +1,796 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.10.0",
+  "id": "cross-06-calligraphy-journey",
+  "trackId": "cross-disciplinary",
+  "trackLabel": "跨学科主题学习",
+  "period": {
+    "id": "evidence-projects",
+    "label": "跨时代证据任务",
+    "years": "贯穿中国史与世界史"
+  },
+  "order": 6,
+  "title": "一笔一划的旅行：从《兰亭序》摹本到《祭侄文稿》",
+  "coreQuestion": "原迹、摹本、手稿、题跋和收藏印分别告诉我们什么？",
+  "throughline": "把东晋王羲之《兰亭序》传统、唐代神龙本摹本、758年颜真卿《祭侄文稿》和后世题跋放进时间线，比较‘照着传’与‘当场写’的不同证据；孩子为每一层贴上年代、作者和边界标签，不做名次排名。",
+  "childEntry": {
+    "id": "cross-06-calligraphy-journey",
+    "childTitle": "同样是毛笔字，为什么身份不同",
+    "prompt": "一张唐代摹本和一张颜真卿手稿，怎样贴对作者、年代、涂改与后世印章？",
+    "takeaway": "摹本帮助传下书写传统，手稿留下当时动作；两者都重要，却不能互相冒充。",
+    "object": "神龙本《兰亭序》与《祭侄文稿》",
+    "people": [
+      "王羲之、唐代摹写者、颜真卿与后世收藏者"
+    ],
+    "place": "绍兴兰亭、唐代书写现场与今天的博物馆",
+    "culture": "行书、摹写、手稿与题跋",
+    "care": "不做‘天下第一第二’排名；始终区分原迹、摹本、亲笔手稿和后世题跋。",
+    "preferredAssetId": "lanting-shenlong-tang-copy"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "同样是毛笔字，为什么身份不同"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "先认出唐代摹本",
+      "text": "先看神龙本《兰亭序》，认出它是唐代摹本。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "再看当时的涂改",
+      "text": "接着看《祭侄文稿》的正文和当时涂改。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "三种身份分清楚",
+      "text": "最后分清摹本、手稿与后世印章，各有证据身份。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "摹本帮助传下书写传统，手稿留下当时动作；两者都重要，却不能互相冒充。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "王羲之",
+      "reading": "Wáng Xīzhī",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-05-04-science-art",
+        "cross-06-calligraphy-journey"
+      ],
+      "note": "“羲”读xī。"
+    },
+    {
+      "text": "颜真卿",
+      "reading": "Yán Zhēnqīng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-06-yan-zhenqing-draft",
+        "cross-06-calligraphy-journey"
+      ],
+      "note": "“卿”读qīng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "同样是毛笔字，为什么身份不同",
+      "question": "一张唐代摹本和一张颜真卿手稿，怎样贴对作者、年代、涂改与后世印章？"
+    },
+    "coverAudio": {
+      "id": "quest-eb8cf699b09e5861",
+      "text": "今天从一件东西出发：同样是毛笔字，为什么身份不同。我们要去绍兴兰亭、唐代书写现场与今天的博物馆，看看神龙本《兰亭序》与《祭侄文稿》怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-740904a30786926a",
+      "text": "五条线索都找到了，“同样是毛笔字，为什么身份不同”的答案是：摹本帮助传下书写传统，手稿留下当时动作；两者都重要，却不能互相冒充。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 10,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这个故事会跨越很多时代，来比较跨时代证据任务。",
+          "narration": "这个故事会跨越很多时代，来比较跨时代证据任务。",
+          "displayText": "这个故事会跨越很多时代，来比较跨时代证据任务。"
+        },
+        "assetId": "lanting-shenlong-tang-copy",
+        "image": "/content/step-images/lanting-shenlong-tang-copy.jpg",
+        "imageAlt": "神龙本《兰亭序》唐代摹本图像",
+        "imageCaption": "王羲之《兰亭序》的唐代神龙本摹本，可见正文和后世收藏印章。",
+        "imageBoundary": "王羲之原迹已经失传；必须始终标注“唐代摹本”，不能写成王羲之亲笔原件。摹写者归属仍有研究讨论，儿童页面不把传统归属写成绝对结论。下载为1920像素等比例缩略图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-67ed9824b7d74732",
+            "text": "这个故事会跨越很多时代，来比较跨时代证据任务。"
+          },
+          "image": {
+            "id": "quest-2f0bb6198f5f211f",
+            "text": "点开大图啦。这是神龙本《兰亭序》唐代摹本图像。这张图能帮我们找到：这个故事会跨越很多时代，来比较跨时代证据任务。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-06-calligraphy-journey-time-1",
+            "label": "跨越很多时代 · 跨时代证据任务",
+            "correct": true,
+            "audio": {
+              "id": "quest-91c6443f7f3a1ac7",
+              "text": "跨越很多时代 · 跨时代证据任务"
+            }
+          },
+          {
+            "id": "cross-06-calligraphy-journey-time-2",
+            "label": "中国古代史 · 夏商西周 · 约公元前21世纪—前771年",
+            "correct": false,
+            "audio": {
+              "id": "quest-887c975d5fc6d910",
+              "text": "中国古代史 · 夏商西周 · 约公元前21世纪—前771年"
+            }
+          },
+          {
+            "id": "cross-06-calligraphy-journey-time-3",
+            "label": "中国古代史 · 春秋战国 · 前770—前221年",
+            "correct": false,
+            "audio": {
+              "id": "quest-e3a8eb496edbf0f1",
+              "text": "中国古代史 · 春秋战国 · 前770—前221年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "先认出唐代摹本",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看神龙本《兰亭序》，认出它是唐代摹本。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "先认出唐代摹本",
+          "screenText": "先看神龙本《兰亭序》，认出它是唐代摹本。",
+          "narration": "先看神龙本《兰亭序》，认出它是唐代摹本。",
+          "displayText": "先看神龙本《兰亭序》，认出它是唐代摹本。"
+        },
+        "assetId": "lanting-shenlong-tang-copy",
+        "image": "/content/step-images/lanting-shenlong-tang-copy.jpg",
+        "imageAlt": "神龙本《兰亭序》唐代摹本图像",
+        "imageCaption": "王羲之《兰亭序》的唐代神龙本摹本，可见正文和后世收藏印章。",
+        "imageBoundary": "王羲之原迹已经失传；必须始终标注“唐代摹本”，不能写成王羲之亲笔原件。摹写者归属仍有研究讨论，儿童页面不把传统归属写成绝对结论。下载为1920像素等比例缩略图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-81741caf87b2ea9c",
+            "text": "先看神龙本《兰亭序》，认出它是唐代摹本。"
+          },
+          "image": {
+            "id": "quest-696e71b84e78fe23",
+            "text": "点开大图啦。这是神龙本《兰亭序》唐代摹本图像。这张图能帮我们找到：先看神龙本《兰亭序》，认出它是唐代摹本。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-06-calligraphy-journey-beginning-1",
+            "label": "绍兴兰亭、唐代书写现场与今天的，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-9ea5607c191d2dc1",
+              "text": "绍兴兰亭、唐代书写现场与今天的，只是故事地点"
+            }
+          },
+          {
+            "id": "cross-06-calligraphy-journey-beginning-2",
+            "label": "王羲之、唐代摹写者、颜真卿与后世收，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-5e04ad67157d890a",
+              "text": "王羲之、唐代摹写者、颜真卿与后世收，只是故事人物"
+            }
+          },
+          {
+            "id": "cross-06-calligraphy-journey-beginning-3",
+            "label": "神龙本《兰亭序》与《祭侄文稿》，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-285b0ee43904fca9",
+              "text": "神龙本《兰亭序》与《祭侄文稿》，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "再看当时的涂改",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看《祭侄文稿》的正文和当时涂改。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "再看当时的涂改",
+          "screenText": "接着看《祭侄文稿》的正文和当时涂改。",
+          "narration": "接着看《祭侄文稿》的正文和当时涂改。",
+          "displayText": "接着看《祭侄文稿》的正文和当时涂改。"
+        },
+        "assetId": "yan-zhenqing-ji-zhi-wen-gao-scroll",
+        "image": "/content/step-images/yan-zhenqing-ji-zhi-wen-gao-scroll.jpg",
+        "imageAlt": "颜真卿《祭侄文稿》长卷图像",
+        "imageCaption": "台北故宫博物院藏颜真卿《祭侄文稿》及后世题跋的长卷图像。",
+        "imageBoundary": "颜真卿于758年写祭文悼念颜季明，正文中的修改涂抹属于书写痕迹；长卷还含后世题跋与印记，不能把整卷都标成颜真卿同日书写。1920×111像素等比例长卷图，只作可局部放大的小型证据卡，不作儿童封面。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-8288f34041d1e286",
+            "text": "接着看《祭侄文稿》的正文和当时涂改。"
+          },
+          "image": {
+            "id": "quest-44c5e8e9fbf8c4b1",
+            "text": "点开大图啦。这是颜真卿《祭侄文稿》长卷图像。这张图能帮我们找到：接着看《祭侄文稿》的正文和当时涂改。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-06-calligraphy-journey-journey-1",
+            "label": "绍兴兰亭、唐代书写现场，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-0b225ee0a4d9bde0",
+              "text": "绍兴兰亭、唐代书写现场，只说了地点"
+            }
+          },
+          {
+            "id": "cross-06-calligraphy-journey-journey-2",
+            "label": "接着看《祭侄文稿》的正文和当时涂改。",
+            "correct": true,
+            "audio": {
+              "id": "quest-8288f34041d1e286",
+              "text": "接着看《祭侄文稿》的正文和当时涂改。"
+            }
+          },
+          {
+            "id": "cross-06-calligraphy-journey-journey-3",
+            "label": "王羲之、唐代摹写者、颜真卿，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-85f4d50f1a1258c8",
+              "text": "王羲之、唐代摹写者、颜真卿，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "三种身份分清楚",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后分清摹本、手稿与后世印章，各有证据身份。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "三种身份分清楚",
+          "screenText": "最后分清摹本、手稿与后世印章，各有证据身份。",
+          "narration": "最后分清摹本、手稿与后世印章，各有证据身份。",
+          "displayText": "最后分清摹本、手稿与后世印章，各有证据身份。"
+        },
+        "assetId": "lanting-shenlong-tang-copy",
+        "image": "/content/step-images/lanting-shenlong-tang-copy.jpg",
+        "imageAlt": "神龙本《兰亭序》唐代摹本图像",
+        "imageCaption": "王羲之《兰亭序》的唐代神龙本摹本，可见正文和后世收藏印章。",
+        "imageBoundary": "王羲之原迹已经失传；必须始终标注“唐代摹本”，不能写成王羲之亲笔原件。摹写者归属仍有研究讨论，儿童页面不把传统归属写成绝对结论。下载为1920像素等比例缩略图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-f7c7bd5e4542a6c9",
+            "text": "最后分清摹本、手稿与后世印章，各有证据身份。"
+          },
+          "image": {
+            "id": "quest-3ad82fd05eccaa2a",
+            "text": "点开大图啦。这是神龙本《兰亭序》唐代摹本图像。这张图能帮我们找到：最后分清摹本、手稿与后世印章，各有证据身份。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-06-calligraphy-journey-change-1",
+            "label": "最后分清摹本、手稿与后世印章，各有证据身份。",
+            "correct": true,
+            "audio": {
+              "id": "quest-f7c7bd5e4542a6c9",
+              "text": "最后分清摹本、手稿与后世印章，各有证据身份。"
+            }
+          },
+          {
+            "id": "cross-06-calligraphy-journey-change-2",
+            "label": "神龙本《兰亭序》与《祭侄文，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-5981b14161481f6b",
+              "text": "神龙本《兰亭序》与《祭侄文，还只是故事起点"
+            }
+          },
+          {
+            "id": "cross-06-calligraphy-journey-change-3",
+            "label": "看《祭侄文稿》的正文和当时涂改，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-be3c2571e4b86784",
+              "text": "看《祭侄文稿》的正文和当时涂改，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "摹本帮助传下书写传统，手稿留下当时动作；两者都重要，却不能互相冒充。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "摹本帮助传下书写传统，手稿留下当时动作；两者都重要，却不能互相冒充。",
+          "narration": "摹本帮助传下书写传统，手稿留下当时动作；两者都重要，却不能互相冒充。",
+          "displayText": "摹本帮助传下书写传统，手稿留下当时动作；两者都重要，却不能互相冒充。"
+        },
+        "assetId": "yan-zhenqing-ji-zhi-wen-gao-scroll",
+        "image": "/content/step-images/yan-zhenqing-ji-zhi-wen-gao-scroll.jpg",
+        "imageAlt": "颜真卿《祭侄文稿》长卷图像",
+        "imageCaption": "台北故宫博物院藏颜真卿《祭侄文稿》及后世题跋的长卷图像。",
+        "imageBoundary": "颜真卿于758年写祭文悼念颜季明，正文中的修改涂抹属于书写痕迹；长卷还含后世题跋与印记，不能把整卷都标成颜真卿同日书写。1920×111像素等比例长卷图，只作可局部放大的小型证据卡，不作儿童封面。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-dcebf9237e798a9e",
+            "text": "摹本帮助传下书写传统，手稿留下当时动作；两者都重要，却不能互相冒充。"
+          },
+          "image": {
+            "id": "quest-a16b1f1a6e5b54dc",
+            "text": "点开大图啦。这是颜真卿《祭侄文稿》长卷图像。这张图能帮我们找到：摹本帮助传下书写传统，手稿留下当时动作；两者都重要，却不能互相冒充。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-06-calligraphy-journey-takeaway-1",
+            "label": "分清摹本、手稿与后世印章，各有证据身份。、同样是毛笔字，为，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-42c001d517acba0c",
+              "text": "分清摹本、手稿与后世印章，各有证据身份。、同样是毛笔字，为，只说了结果"
+            }
+          },
+          {
+            "id": "cross-06-calligraphy-journey-takeaway-2",
+            "label": "看神龙本《兰亭序》，认出它是唐代摹本。、神龙本《兰亭序，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-1d028cc0f6d13889",
+              "text": "看神龙本《兰亭序》，认出它是唐代摹本。、神龙本《兰亭序，只说了原因"
+            }
+          },
+          {
+            "id": "cross-06-calligraphy-journey-takeaway-3",
+            "label": "摹本帮助传下书写传统，手稿留下当时动作；两者都重要，却不能互相冒充。",
+            "correct": true,
+            "audio": {
+              "id": "quest-dcebf9237e798a9e",
+              "text": "摹本帮助传下书写传统，手稿留下当时动作；两者都重要，却不能互相冒充。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "三层时间线",
+        "items": [
+          "排列“作品传统—唐代摹本或手稿—后世题跋收藏”。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "身份证标签",
+        "items": [
+          "给神龙本贴“古摹本”，给《祭侄文稿》贴“758年手稿”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "不排名比较",
+        "items": [
+          "只选择“年代、作者、证据类型、能证明什么”，拒绝“谁打败谁”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图片和语音为主",
+  "durationMinutes": 10,
+  "conclusion": [
+    "王羲之在东晋创作《兰亭序》，原迹已经失传，今天常见的“神龙本”是唐代古摹本；它帮助保存书写传统，却不能称作王羲之亲笔。颜真卿《祭侄文稿》则是758年留下的亲笔手稿，卷上涂改能观察书写过程。两卷后来都积累题跋、收藏印与研究判断。孩子把它们放进“作品传统—摹本或手稿—后世痕迹”三层时间线，学习判断证据身份，而不是争论谁是天下第一或第二。"
+  ],
+  "facts": [
+    {
+      "number": 1,
+      "text": "王羲之生活在东晋，《兰亭序》原迹已经失传。",
+      "sourceIds": [
+        "DPM-LANTING-SHENLONG"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "故宫藏神龙本为唐代古摹本，传统归于冯承素，但具体归属仍有研究讨论。",
+      "sourceIds": [
+        "DPM-LANTING-SHENLONG"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "摹本能保存和传播书写传统，却不是王羲之亲笔原件。",
+      "sourceIds": [
+        "DPM-LANTING-SHENLONG"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "颜真卿《祭侄文稿》写于758年，是观察本人书写过程的亲笔手稿。",
+      "sourceIds": [
+        "NPM-JIZHI-WENGAO"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "两件长卷都带有后世题跋、收藏印或鉴藏记录，需要和早期正文分开。",
+      "sourceIds": [
+        "DPM-LANTING-SHENLONG",
+        "NPM-JIZHI-WENGAO"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "“天下第一行书”“天下第二行书”属于后世评价传统，不是统一规则的历史比赛结果。",
+      "sourceIds": [
+        "DPM-LANTING-SHENLONG",
+        "NPM-JIZHI-WENGAO"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "number": 1,
+      "title": "时间线定位——三层书写时间",
+      "screenText": "东晋：《兰亭序》作品传统\n唐代：神龙本古摹本；758年《祭侄文稿》\n后来：题跋、收藏印与研究",
+      "voices": [
+        {
+          "number": 1,
+          "label": "语音1｜时间定位",
+          "text": "这次要跨过很多时代。先有东晋《兰亭序》作品传统，唐代留下古摹本，颜真卿也在七五八年写下手稿，后来又有人题字盖印。",
+          "segments": [
+            {
+              "id": "cross-06-calligraphy-journey-s01-v01-01",
+              "order": 1,
+              "tier": "core",
+              "text": "这次要跨过很多时代。先有东晋《兰亭序》作品传统，唐代留下古摹本，颜真卿也在七五八年写下手稿，后来又有人题字盖印。",
+              "hanCharacters": 49
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 2,
+      "title": "第一拍——摹本是在做什么",
+      "screenText": "照着前面的书写学习和保存，不等于亲笔原件。",
+      "voices": [
+        {
+          "number": 2,
+          "label": "语音2｜认识摹本",
+          "text": "《兰亭序》原迹已经不在了。神龙本是唐代古摹本，像一座把书写传统传到后来的桥，但桥不能冒充出发点。",
+          "segments": [
+            {
+              "id": "cross-06-calligraphy-journey-s02-v02-01",
+              "order": 1,
+              "tier": "core",
+              "text": "《兰亭序》原迹已经不在了。神龙本是唐代古摹本，像一座把书写传统传到后来的桥，但桥不能冒充出发点。",
+              "hanCharacters": 42
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 3,
+      "title": "第二拍——手稿留下当时动作",
+      "screenText": "《祭侄文稿》有浓淡、停顿、删改和补写。",
+      "voices": [
+        {
+          "number": 3,
+          "label": "语音3｜认识手稿",
+          "text": "颜真卿手稿让我们看见一边想一边写的动作。浓淡和涂改是过程线索，不需要把每个字都抄下来才能理解。",
+          "segments": [
+            {
+              "id": "cross-06-calligraphy-journey-s03-v03-01",
+              "order": 1,
+              "tier": "core",
+              "text": "颜真卿手稿让我们看见一边想一边写的动作。浓淡和涂改是过程线索，不需要把每个字都抄下来才能理解。",
+              "hanCharacters": 44
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 4,
+      "title": "第三拍——后来的人也留下痕迹",
+      "screenText": "题跋和收藏印说明流传，不属于最早正文。",
+      "voices": [
+        {
+          "number": 4,
+          "label": "语音4｜认识后世痕迹",
+          "text": "后来的人在卷后题字、盖印，记录看过或收藏过作品。它们是新的历史证据，却不能悄悄变成王羲之或颜真卿的原文。",
+          "segments": [
+            {
+              "id": "cross-06-calligraphy-journey-s04-v04-01",
+              "order": 1,
+              "tier": "core",
+              "text": "后来的人在卷后题字、盖印，记录看过或收藏过作品。它们是新的历史证据，却不能悄悄变成王羲之或颜真卿的原文。",
+              "hanCharacters": 47
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 5,
+      "title": "两件作品怎样比较",
+      "screenText": "比身份、年代和线索，不比谁赢。",
+      "voices": [
+        {
+          "number": 5,
+          "label": "语音5｜比较方法",
+          "text": "我们可以比较：哪件是摹本，哪件是手稿，哪一层是后来的印章。书法没有一条让所有时代都同意的比赛规则，不需要分冠军。",
+          "segments": [
+            {
+              "id": "cross-06-calligraphy-journey-s05-v05-01",
+              "order": 1,
+              "tier": "core",
+              "text": "我们可以比较：哪件是摹本，哪件是手稿，哪一层是后来的印章。书法没有一条让所有时代都同意的比赛规则，不需要分冠军。",
+              "hanCharacters": 50
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 6,
+      "title": "给每一层贴对身份证",
+      "screenText": "作品传统 → 摹本或手稿 → 后世题跋与印章",
+      "voices": [
+        {
+          "number": 6,
+          "label": "语音6｜完成复述",
+          "text": "请你复述：神龙本是唐代古摹本，《祭侄文稿》是颜真卿手稿，两卷都有后世痕迹。每层都重要，身份不能混。",
+          "segments": [
+            {
+              "id": "cross-06-calligraphy-journey-s06-v06-01",
+              "order": 1,
+              "tier": "core",
+              "text": "请你复述：神龙本是唐代古摹本，《祭侄文稿》是颜真卿手稿，两卷都有后世痕迹。每层都重要，身份不能混。",
+              "hanCharacters": 41
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    }
+  ],
+  "interactions": [
+    {
+      "number": 1,
+      "title": "三层时间线",
+      "items": [
+        "排列“作品传统—唐代摹本或手稿—后世题跋收藏”。"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "身份证标签",
+      "items": [
+        "给神龙本贴“古摹本”，给《祭侄文稿》贴“758年手稿”。"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "不排名比较",
+      "items": [
+        "只选择“年代、作者、证据类型、能证明什么”，拒绝“谁打败谁”。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "DPM-LANTING-SHENLONG",
+      "title": "神龙本《兰亭序》研究与保护资料",
+      "institution": "故宫博物院",
+      "url": "https://www.dpm.org.cn/journal_detail/239217.html",
+      "type": "museum-research",
+      "authorityLevel": "A",
+      "factUse": "王羲之《兰亭序》原迹失传、神龙本为唐代摹本及相关归属判断",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NPM-JIZHI-WENGAO",
+      "title": "唐颜真卿祭侄文稿",
+      "institution": "台北故宫博物院",
+      "url": "https://digitalarchive.npm.gov.tw/Collection/Detail/3?dep=P",
+      "type": "museum-object-record",
+      "authorityLevel": "A",
+      "factUse": "758年《祭侄文稿》的作者、书写背景、卷面内容以及后世题跋边界",
+      "imageUse": "reference-only"
+    }
+  ],
+  "assets": [
+    {
+      "id": "yan-zhenqing-ji-zhi-wen-gao-scroll",
+      "title": "颜真卿《祭侄文稿》长卷图像",
+      "localPath": "reference-assets/sui-tang-five-dynasties/ji-zhi-wen-gao.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yan_Zhenqing_-_Draft_of_a_Requiem_to_My_Nephew.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "台北故宫博物院藏颜真卿《祭侄文稿》及后世题跋的长卷图像。",
+      "boundary": "颜真卿于758年写祭文悼念颜季明，正文中的修改涂抹属于书写痕迹；长卷还含后世题跋与印记，不能把整卷都标成颜真卿同日书写。1920×111像素等比例长卷图，只作可局部放大的小型证据卡，不作儿童封面。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "lanting-shenlong-tang-copy",
+      "title": "神龙本《兰亭序》唐代摹本图像",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/lanting-shenlong-copy.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:LantingXu.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "王羲之《兰亭序》的唐代神龙本摹本，可见正文和后世收藏印章。",
+      "boundary": "王羲之原迹已经失传；必须始终标注“唐代摹本”，不能写成王羲之亲笔原件。摹写者归属仍有研究讨论，儿童页面不把传统归属写成绝对结论。下载为1920像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
+    }
+  ],
+  "thumbnail": "/content/thumbnails/cross-06-calligraphy-journey.jpg",
+  "status": {
+    "outline": "verified",
+    "research": "verified",
+    "script": "first-draft",
+    "assets": "cleared",
+    "audio": "not-started",
+    "review": "pending"
+  }
+}

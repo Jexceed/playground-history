@@ -60,3 +60,19 @@
 - 许可：CC0 1.0，https://creativecommons.org/publicdomain/zero/1.0/
 - 修改：未修改。
 - 边界：透明保护罩、编号和释文为现代展陈，不属于战国原物。
+
+## `confucius-learning-practice-child-illustration.png`
+
+- 内容：孔子与学生通过提问、练习和讨论学习的儿童艺术表现。
+- 作者：小小历史旅行团项目组（AI辅助生成）。
+- 来源：https://openai.com/policies/terms-of-use/
+- 许可：项目自制；按OpenAI使用条款持有输出使用权。
+- 边界：不是孔子肖像或春秋教学现场的精确复原。
+
+## `analects-transmission-child-diagram.png`
+
+- 内容：孔子相关言行经后人整理、传抄到今天的儿童传递示意。
+- 作者：小小历史旅行团项目组（AI辅助生成）。
+- 来源：https://openai.com/policies/terms-of-use/
+- 许可：项目自制；按OpenAI使用条款持有输出使用权。
+- 边界：画面中的竹简和书不是《论语》原件，不表示孔子亲手写成《论语》。

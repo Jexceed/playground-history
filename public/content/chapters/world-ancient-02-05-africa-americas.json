@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-ancient-02-05-africa-americas",
   "trackId": "world-ancient",
   "trackLabel": "世界古代史",
@@ -13,7 +13,601 @@
   "title": "中古非洲和美洲有哪些城市与文明",
   "coreQuestion": "撒哈拉以南非洲和美洲文明怎样发展出自己的道路？",
   "throughline": "从帕伦克约500—700年繁盛，到9—14世纪斯瓦希里海岸、约1100—1450年大津巴布韦、15—16世纪廷巴克图、1325—1521年特诺奇蒂特兰和15世纪安第斯路网，以城市、手稿、文字、贡赋、道路与结绳认识非洲和美洲的多样道路。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-ancient-02-05-africa-americas",
+    "childTitle": "石头城、湖上城和山路网",
+    "prompt": "没有走同一条路的城市，为什么都能发展贸易、文字和大型工程？",
+    "takeaway": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。",
+    "object": "大津巴布韦石墙、廷巴克图手稿、结绳与道路遗址",
+    "people": [
+      "石匠、商人、抄写员、农人和道路维护者"
+    ],
+    "place": "东非、廷巴克图、中美洲与安第斯地区",
+    "culture": "手稿、玛雅文字与安第斯结绳",
+    "care": "不做文明排名，也不虚构古代中国与美洲直接接触。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "石头城、湖上城和山路网"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "走进三种城市道路",
+      "text": "先分别走进石头城、湖上城和安第斯山路。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "许多人分工协作",
+      "text": "接着看石匠、商人和道路维护者怎样协作。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "各有自己的办法",
+      "text": "最后不同地区用自己的环境与知识建城通路。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "文明",
+      "icon": "🏙️",
+      "plain": "许多人长期创造的社会生活与文化成果。",
+      "example": "不同文明各有环境和道路，不做高低排名。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "宗教",
+      "icon": "🕯️",
+      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
+      "example": "同一种宗教内部也有不同地区、时代和人群。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "帝国",
+      "icon": "🗺️",
+      "plain": "由中心统治许多地区和人群的大政权。",
+      "example": "帝国地图会变化，不能把不同时期边界画成一张。",
+      "priority": 3
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "联盟",
+      "icon": "🔗",
+      "plain": "不同一方为了共同目标暂时或长期合作。",
+      "example": "联盟成员仍可能有不同想法和利益。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "安第斯",
+      "reading": "Āndìsī",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-05-africa-americas"
+      ],
+      "note": "“第”读dì。"
+    },
+    {
+      "text": "廷巴克图",
+      "reading": "Tíngbākètú",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-05-africa-americas"
+      ],
+      "note": "按中文译名连读。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "石头城、湖上城和山路网",
+      "question": "没有走同一条路的城市，为什么都能发展贸易、文字和大型工程？"
+    },
+    "coverAudio": {
+      "id": "quest-7b9a16c80479c2a5",
+      "text": "今天从一件东西出发：石头城、湖上城和山路网。我们要去东非、廷巴克图、中美洲与安第斯地区，看看大津巴布韦石墙、廷巴克图手稿、结绳与道路遗址怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-14ab1accc659a2cc",
+      "text": "五条线索都找到了，“石头城、湖上城和山路网”的答案是：非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是中古世界，时间是约5—15世纪。",
+          "narration": "这是中古世界，时间是约5—15世纪。",
+          "displayText": "这是中古世界，时间是约5—15世纪。"
+        },
+        "assetId": "timbuktu-astronomy-manuscript-1733-public-domain",
+        "image": "/content/step-images/timbuktu-astronomy-manuscript-1733-public-domain.jpg",
+        "imageAlt": "1733年廷巴克图天文学手稿页",
+        "imageCaption": "1733年抄写的廷巴克图天文学手稿页，图中讨论重要星体；它显示西非书写与学术传统的长期延续。",
+        "imageBoundary": "保留476×640像素原图，未放大、未裁切。它不是15世纪桑科雷课堂笔记，也不代表廷巴克图全部手稿；页面不供儿童自行解读星象或宗教内容。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-1fb2283ac891f89c",
+            "text": "这是中古世界，时间是约5—15世纪。"
+          },
+          "image": {
+            "id": "quest-5bfc13d817e40fbf",
+            "text": "点开大图啦。这是1733年廷巴克图天文学手稿页。这张图能帮我们找到：这是中古世界，时间是约5—15世纪。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-05-africa-americas-time-1",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "world-ancient-02-05-africa-americas-time-2",
+            "label": "世界古代史 · 中古世界 · 约5—15世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-138b018948e0ad9a",
+              "text": "世界古代史 · 中古世界 · 约5—15世纪"
+            }
+          },
+          {
+            "id": "world-ancient-02-05-africa-americas-time-3",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "走进三种城市道路",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先分别走进石头城、湖上城和安第斯山路。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "走进三种城市道路",
+          "screenText": "先分别走进石头城、湖上城和安第斯山路。",
+          "narration": "先分别走进石头城、湖上城和安第斯山路。",
+          "displayText": "先分别走进石头城、湖上城和安第斯山路。"
+        },
+        "assetId": "inca-trail-stone-road-2017-cc0",
+        "image": "/content/step-images/inca-trail-stone-road-2017-cc0.jpg",
+        "imageAlt": "通往马丘比丘的安第斯石路一段2017年实拍",
+        "imageCaption": "2017年拍摄的安第斯石砌道路一段，位于今日通往马丘比丘的步道；它属于跨越多种地形的道路遗产。",
+        "imageBoundary": "原下载图4160×3120像素，等比缩至2200×1650像素，未裁切；拍摄于2017-12-18。这是一段维护中的现代游览路线，不表示三万多千米道路全部铺石、全部由印加人在同一时期新建。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-4aa6ff75c742481f",
+            "text": "先分别走进石头城、湖上城和安第斯山路。"
+          },
+          "image": {
+            "id": "quest-aa5f5e0f3144f355",
+            "text": "点开大图啦。这是通往马丘比丘的安第斯石路一段2017年实拍。这张图能帮我们找到：先分别走进石头城、湖上城和安第斯山路。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-05-africa-americas-beginning-1",
+            "label": "大津巴布韦石墙、廷巴克图手稿、结绳与道路遗址，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-d8de4aa60bb28040",
+              "text": "大津巴布韦石墙、廷巴克图手稿、结绳与道路遗址，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-ancient-02-05-africa-americas-beginning-2",
+            "label": "东非、廷巴克图、中美洲与安第斯地区、石匠、商，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-8094b2633640485a",
+              "text": "东非、廷巴克图、中美洲与安第斯地区、石匠、商，只是故事地点"
+            }
+          },
+          {
+            "id": "world-ancient-02-05-africa-americas-beginning-3",
+            "label": "石匠、商人、抄写员、农人和道路维护者、东非、廷巴，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-60a90bb90941577c",
+              "text": "石匠、商人、抄写员、农人和道路维护者、东非、廷巴，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "许多人分工协作",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看石匠、商人和道路维护者怎样协作。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "许多人分工协作",
+          "screenText": "接着看石匠、商人和道路维护者怎样协作。",
+          "narration": "接着看石匠、商人和道路维护者怎样协作。",
+          "displayText": "接着看石匠、商人和道路维护者怎样协作。"
+        },
+        "assetId": "brooklyn-inca-quipu-36-718-cc-by",
+        "image": "/content/step-images/brooklyn-inca-quipu-36-718-cc-by.jpg",
+        "imageAlt": "布鲁克林博物馆约1400—1532年印加结绳36.718",
+        "imageCaption": "约1400—1532年的棉与骆马科纤维结绳，布鲁克林博物馆编号36.718；结、位置和绳的差异可记录信息。",
+        "imageBoundary": "保留1536×1152像素原图，未裁切。馆方将其列为可能的叙事型结绳，出土于安孔墓葬的说法带‘据传’边界；不把每根绳翻译成未经证实的人名、命令或故事。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-cd102b32308ad6da",
+            "text": "接着看石匠、商人和道路维护者怎样协作。"
+          },
+          "image": {
+            "id": "quest-b32a31652f1d4a83",
+            "text": "点开大图啦。这是布鲁克林博物馆约1400—1532年印加结绳36.718。这张图能帮我们找到：接着看石匠、商人和道路维护者怎样协作。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-05-africa-americas-journey-1",
+            "label": "石匠、商人、抄写员、农人和道，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-a397f282d3a88a93",
+              "text": "石匠、商人、抄写员、农人和道，只认出人物"
+            }
+          },
+          {
+            "id": "world-ancient-02-05-africa-americas-journey-2",
+            "label": "东非、廷巴克图、中美洲与，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-068de9f34937f036",
+              "text": "东非、廷巴克图、中美洲与，只说了地点"
+            }
+          },
+          {
+            "id": "world-ancient-02-05-africa-americas-journey-3",
+            "label": "接着看石匠、商人和道路维护者怎样协作。",
+            "correct": true,
+            "audio": {
+              "id": "quest-cd102b32308ad6da",
+              "text": "接着看石匠、商人和道路维护者怎样协作。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "各有自己的办法",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后不同地区用自己的环境与知识建城通路。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "各有自己的办法",
+          "screenText": "最后不同地区用自己的环境与知识建城通路。",
+          "narration": "最后不同地区用自己的环境与知识建城通路。",
+          "displayText": "最后不同地区用自己的环境与知识建城通路。"
+        },
+        "assetId": "codex-mendoza-folio-2r-c1542-public-domain",
+        "image": "/content/step-images/codex-mendoza-folio-2r-c1542-public-domain.jpg",
+        "imageAlt": "约1542年《门多萨手抄本》特诺奇蒂特兰建城与贡赋图页",
+        "imageCaption": "约1542年《门多萨手抄本》第2页正面，以图像和西班牙语注释整理特诺奇蒂特兰建城传统及早期统治信息。",
+        "imageBoundary": "保留736×1077像素原图，未放大、未裁切。手抄本在1521年西班牙征服以后编成，不是1325年现场图，也不是无立场的摄影记录；儿童页明确区分传统叙事、后世编写和考古证据。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-c242a1638767927d",
+            "text": "最后不同地区用自己的环境与知识建城通路。"
+          },
+          "image": {
+            "id": "quest-8c84be3ced340cc1",
+            "text": "点开大图啦。这是约1542年《门多萨手抄本》特诺奇蒂特兰建城与贡赋图页。这张图能帮我们找到：最后不同地区用自己的环境与知识建城通路。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-05-africa-americas-change-1",
+            "label": "看石匠、商人和道路维护者怎，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-b298d26e3293a602",
+              "text": "看石匠、商人和道路维护者怎，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-ancient-02-05-africa-americas-change-2",
+            "label": "最后不同地区用自己的环境与知识建城通路。",
+            "correct": true,
+            "audio": {
+              "id": "quest-c242a1638767927d",
+              "text": "最后不同地区用自己的环境与知识建城通路。"
+            }
+          },
+          {
+            "id": "world-ancient-02-05-africa-americas-change-3",
+            "label": "大津巴布韦石墙、廷巴克，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-d8d8ad14f4c6ba67",
+              "text": "大津巴布韦石墙、廷巴克，还只是故事起点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。",
+          "narration": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。",
+          "displayText": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。"
+        },
+        "assetId": "kilwa-kisiwani-arches-2009-cc-by-sa-igo",
+        "image": "/content/step-images/kilwa-kisiwani-arches-2009-cc-by-sa-igo.jpg",
+        "imageAlt": "基尔瓦基斯瓦尼遗址拱券空间2009年实拍",
+        "imageCaption": "2009年拍摄的基尔瓦基斯瓦尼珊瑚石与石灰建筑遗址；城市在13—14世纪成为斯瓦希里海岸重要贸易节点。",
+        "imageBoundary": "Commons原图3008×2000像素，等比缩至2200×1462像素，未裁切；拍摄于2009-03-15。遗址图不还原屋顶、颜色、居民身份或市场货物，也不把斯瓦希里城市写成阿拉伯人的海外殖民地。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-f3199f32dffbf2f3",
+            "text": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。"
+          },
+          "image": {
+            "id": "quest-a5260f3aaa93f3ec",
+            "text": "点开大图啦。这是基尔瓦基斯瓦尼遗址拱券空间2009年实拍。这张图能帮我们找到：非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-05-africa-americas-takeaway-1",
+            "label": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。",
+            "correct": true,
+            "audio": {
+              "id": "quest-f3199f32dffbf2f3",
+              "text": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。"
+            }
+          },
+          {
+            "id": "world-ancient-02-05-africa-americas-takeaway-2",
+            "label": "不同地区用自己的环境与知识建城通路。、石头城、湖上，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-16333a87a6ac1b91",
+              "text": "不同地区用自己的环境与知识建城通路。、石头城、湖上，只说了结果"
+            }
+          },
+          {
+            "id": "world-ancient-02-05-africa-americas-takeaway-3",
+            "label": "分别走进石头城、湖上城和安第斯山路。、大津巴布，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-7ee1701a8a5105fa",
+              "text": "分别走进石头城、湖上城和安第斯山路。、大津巴布，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把证据放回时间线",
+        "items": [
+          "把“约500—700年帕伦克”“约1100—1450年大津巴布韦”“1325—1521年特诺奇蒂特兰”“1733年天文学手稿”放到时间线上。反馈明确：1733年手稿显示传统延续，不能拖到15世纪假装课堂原件。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "连接真实网络",
+        "items": [
+          "把“内陆资源—中间市场—基尔瓦港口—印度洋其他港口”连成多节点路线，再选择哪些结论成立。正确答案包括“东非参与远距离贸易”；错误答案包括“中国商人一定亲自到大津巴布韦”“斯瓦希里城市是阿拉伯殖民地”“同时期美洲也和中国直接通航”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "证据能说到哪一步",
+        "items": [
+          "依次给帕伦克照片、《门多萨手抄本》、安第斯道路照片和结绳，选择“可以支持”与“还不能证明”。可以支持遗址现状、征服后图文记录、道路某段形态、结和绳的结构；不能证明古城所有日常活动、1325年现场样貌、全路网全部铺石或每根绳的完整句子。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "中古世界不只发生在欧洲、西亚、南亚和东亚。非洲与美洲有许多彼此不同的城市、政权和知识传统：绍纳人祖先在南部非洲建起不用灰浆黏合的大津巴布韦石墙；斯瓦希里海岸的基尔瓦把东非内陆、阿拉伯、印度和中国物品接入印度洋多节点贸易；撒哈拉南缘的廷巴克图把商贸、宗教学校与手稿传统结合起来。美洲的玛雅世界由许多独立又结盟竞争的城市政治体组成，留下文字、历法、建筑和农业证据；墨西加人领导的三方联盟以湖中城市特诺奇蒂特兰为中心，也向许多地方征收贡品和劳役；安第斯山地的道路和结绳帮助塔万廷苏尤连接社区、仓储与行政，同时服务国家调动和劳动负担。中国瓷器在东非遗址出现、郑和船队在15世纪到达东非，支持印度洋交流确实存在；同一时期美洲城市繁盛，只能说明时间重叠，不能据此虚构中国与美洲直接接触。"
@@ -676,70 +1270,91 @@
       "title": "大津巴布韦大围场圆锥塔2019年实拍",
       "localPath": "reference-assets/world-ancient-africa-americas/great-zimbabwe-conical-tower-2019.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Conical_Tower_-_Great_Enclosure_V_(33736897638).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 2.0",
       "clearance": "cleared-open-license",
       "caption": "2019年拍摄的大津巴布韦大围场干砌石墙与圆锥塔；建筑群主要在约1100—1450年间发展。",
-      "boundary": "Commons原图5472×1835像素，等比缩至2200×737像素，未裁切；拍摄于2019-03-26。照片支持现存干砌石建筑的尺度与形式，不是12世纪施工现场，也不能单独证明建筑的全部用途。"
+      "boundary": "Commons原图5472×1835像素，等比缩至2200×737像素，未裁切；拍摄于2019-03-26。照片支持现存干砌石建筑的尺度与形式，不是12世纪施工现场，也不能单独证明建筑的全部用途。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "kilwa-kisiwani-arches-2009-cc-by-sa-igo",
       "title": "基尔瓦基斯瓦尼遗址拱券空间2009年实拍",
       "localPath": "reference-assets/world-ancient-africa-americas/kilwa-kisiwani-arches-2009.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ruins_of_Kilwa_Kisiwani_and_Ruins_of_Songo_Mnara-108277.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0 IGO",
       "clearance": "cleared-open-license",
       "caption": "2009年拍摄的基尔瓦基斯瓦尼珊瑚石与石灰建筑遗址；城市在13—14世纪成为斯瓦希里海岸重要贸易节点。",
-      "boundary": "Commons原图3008×2000像素，等比缩至2200×1462像素，未裁切；拍摄于2009-03-15。遗址图不还原屋顶、颜色、居民身份或市场货物，也不把斯瓦希里城市写成阿拉伯人的海外殖民地。"
+      "boundary": "Commons原图3008×2000像素，等比缩至2200×1462像素，未裁切；拍摄于2009-03-15。遗址图不还原屋顶、颜色、居民身份或市场货物，也不把斯瓦希里城市写成阿拉伯人的海外殖民地。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "timbuktu-astronomy-manuscript-1733-public-domain",
       "title": "1733年廷巴克图天文学手稿页",
       "localPath": "reference-assets/world-ancient-africa-americas/timbuktu-astronomy-manuscript-1733.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Loc_timbuktu_manuscripts_amm0001rs.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / Library of Congress rights statement",
       "clearance": "cleared-public-domain",
       "caption": "1733年抄写的廷巴克图天文学手稿页，图中讨论重要星体；它显示西非书写与学术传统的长期延续。",
-      "boundary": "保留476×640像素原图，未放大、未裁切。它不是15世纪桑科雷课堂笔记，也不代表廷巴克图全部手稿；页面不供儿童自行解读星象或宗教内容。"
+      "boundary": "保留476×640像素原图，未放大、未裁切。它不是15世纪桑科雷课堂笔记，也不代表廷巴克图全部手稿；页面不供儿童自行解读星象或宗教内容。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "palenque-palace-temple-inscriptions-2010-cc-by-sa",
       "title": "帕伦克宫殿与铭文神庙2010年实拍",
       "localPath": "reference-assets/world-ancient-africa-americas/palenque-palace-temple-inscriptions-2010.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:El_palacio_y_el_templo_de_las_inscripciones.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2010年拍摄的帕伦克遗址，右侧为宫殿建筑群，左侧可见铭文神庙；城市在约500—700年间繁盛。",
-      "boundary": "Commons原图5152×3864像素，等比缩至2200×1650像素，未裁切；拍摄于2010-03-05。画面包含现代游客、清理和保护后的遗址，不冒充古典期城市全貌；不能据一城代表所有玛雅政权。"
+      "boundary": "Commons原图5152×3864像素，等比缩至2200×1650像素，未裁切；拍摄于2010-03-05。画面包含现代游客、清理和保护后的遗址，不冒充古典期城市全貌；不能据一城代表所有玛雅政权。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "codex-mendoza-folio-2r-c1542-public-domain",
       "title": "约1542年《门多萨手抄本》特诺奇蒂特兰建城与贡赋图页",
       "localPath": "reference-assets/world-ancient-africa-americas/codex-mendoza-folio-2r-c1542.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Codex_Mendoza_folio_2r.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "约1542年《门多萨手抄本》第2页正面，以图像和西班牙语注释整理特诺奇蒂特兰建城传统及早期统治信息。",
-      "boundary": "保留736×1077像素原图，未放大、未裁切。手抄本在1521年西班牙征服以后编成，不是1325年现场图，也不是无立场的摄影记录；儿童页明确区分传统叙事、后世编写和考古证据。"
+      "boundary": "保留736×1077像素原图，未放大、未裁切。手抄本在1521年西班牙征服以后编成，不是1325年现场图，也不是无立场的摄影记录；儿童页明确区分传统叙事、后世编写和考古证据。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "inca-trail-stone-road-2017-cc0",
       "title": "通往马丘比丘的安第斯石路一段2017年实拍",
       "localPath": "reference-assets/world-ancient-africa-americas/inca-trail-stone-road-2017.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Part_of_the_Inca_Trail.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "2017年拍摄的安第斯石砌道路一段，位于今日通往马丘比丘的步道；它属于跨越多种地形的道路遗产。",
-      "boundary": "原下载图4160×3120像素，等比缩至2200×1650像素，未裁切；拍摄于2017-12-18。这是一段维护中的现代游览路线，不表示三万多千米道路全部铺石、全部由印加人在同一时期新建。"
+      "boundary": "原下载图4160×3120像素，等比缩至2200×1650像素，未裁切；拍摄于2017-12-18。这是一段维护中的现代游览路线，不表示三万多千米道路全部铺石、全部由印加人在同一时期新建。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "brooklyn-inca-quipu-36-718-cc-by",
       "title": "布鲁克林博物馆约1400—1532年印加结绳36.718",
       "localPath": "reference-assets/world-ancient-africa-americas/brooklyn-inca-quipu-36-718.jpg",
       "sourcePage": "https://www.brooklynmuseum.org/opencollection/objects/46687",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 3.0 / Brooklyn Museum Open Collection",
       "clearance": "cleared-open-license",
       "caption": "约1400—1532年的棉与骆马科纤维结绳，布鲁克林博物馆编号36.718；结、位置和绳的差异可记录信息。",
-      "boundary": "保留1536×1152像素原图，未裁切。馆方将其列为可能的叙事型结绳，出土于安孔墓葬的说法带‘据传’边界；不把每根绳翻译成未经证实的人名、命令或故事。"
+      "boundary": "保留1536×1152像素原图，未裁切。馆方将其列为可能的叙事型结绳，出土于安孔墓葬的说法带‘据传’边界；不把每根绳翻译成未经证实的人名、命令或故事。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-ancient-02-05-africa-americas.jpg",

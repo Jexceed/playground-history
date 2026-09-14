@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-modern-06-02-science-art",
   "trackId": "world-modern",
   "trackLabel": "世界近代史",
@@ -10,10 +10,619 @@
     "years": "19世纪后期—20世纪初"
   },
   "order": 10,
-  "title": "近代科学与艺术怎样重新观察世界",
-  "coreQuestion": "牛顿、达尔文、巴尔扎克和贝多芬等人的作品为何重要？",
-  "throughline": "先以1687—1898年时间线连接《原理》、贝多芬书信与交响曲、《人间喜剧》、达尔文—华莱士共同论文、《物种起源》和《天演论》，再用真实标题页、手稿、肖像、小说出版、分枝图与译著题名页认识计算、草稿、修改、通信、演奏、印刷和翻译怎样让知识与艺术作品形成并传播；明确苹果轶事、天才苦难、小说即照片和进化等级论的证据边界。",
-  "age": "6—9岁亲子共学",
+  "title": "达尔文和贝多芬为什么反复修改草稿",
+  "coreQuestion": "科学笔记和音乐草稿怎样显示观察、试验与修改？",
+  "throughline": "儿童主线把达尔文—华莱士共同论文与贝多芬涂改乐谱放在两张工作桌上，寻找长期观察、交流和修改；牛顿、巴尔扎克与《天演论》留在家长层延伸。",
+  "childEntry": {
+    "id": "world-modern-06-02-science-art",
+    "childTitle": "达尔文和贝多芬的草稿桌",
+    "prompt": "一页科学笔记和一张音乐草稿，为什么都有反复修改的痕迹？",
+    "takeaway": "科学和音乐都要观察、试验、修改和交流，不是一次灵光闪现。",
+    "object": "达尔文笔记和贝多芬草稿",
+    "people": [
+      "达尔文、华莱士和贝多芬"
+    ],
+    "place": "伦敦与维也纳",
+    "culture": "《英雄交响曲》",
+    "care": "作品来自长期观察、修改与传播，不把科学结论和艺术风格做成唯一正确答案。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "👋",
+      "label": "从一个人出发",
+      "text": "达尔文和贝多芬的草稿桌"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "达尔文桌上的笔记",
+      "text": "先翻达尔文的观察笔记，看想法怎样被反复检查。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "贝多芬改动乐谱",
+      "text": "接着看贝多芬在乐谱上涂改，把声音一次次调整。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "两种工作都要修改",
+      "text": "最后科学和音乐都靠观察、试验、修改和交流。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "科学和音乐都要观察、试验、修改和交流，不是一次灵光闪现。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "priority": 1
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "小说",
+      "icon": "📖",
+      "plain": "用人物和一连串事情讲故事的文学作品。",
+      "example": "《西游记》是明代长篇小说，不是玄奘本人的旅行日记。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "翻译",
+      "icon": "🗣️",
+      "plain": "把一种语言表达的意思换成另一种语言。",
+      "example": "翻译需要懂语言和知识，也常由团队反复校订。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "民族",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
+      "example": "民族不是按外貌排高低，也不会永远固定不变。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "危机",
+      "icon": "⚠️",
+      "plain": "问题迅速变严重，原来的办法难以应付。",
+      "example": "危机通常有多种原因，也会影响不同的人。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "运动",
+      "icon": "📣",
+      "plain": "许多人围绕一个目标持续参加的行动。",
+      "example": "历史运动里的人、目标和做法可能并不完全相同。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "巴尔扎克",
+      "reading": "Bā’ěrzhākè",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-06-02-science-art"
+      ],
+      "note": "“巴”“尔”之间避免吞音。"
+    },
+    {
+      "text": "贝多芬",
+      "reading": "Bèiduōfēn",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-06-02-science-art"
+      ],
+      "note": "按中文译名连读。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个人",
+      "icon": "👋",
+      "label": "达尔文和贝多芬的草稿桌",
+      "question": "一页科学笔记和一张音乐草稿，为什么都有反复修改的痕迹？"
+    },
+    "coverAudio": {
+      "id": "quest-081cd0b379982745",
+      "text": "今天从一个人出发：达尔文和贝多芬的草稿桌。我们要去伦敦与维也纳，看看达尔文笔记和贝多芬草稿怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-391d34dde24562b8",
+      "text": "五条线索都找到了，“达尔文和贝多芬的草稿桌”的答案是：科学和音乐都要观察、试验、修改和交流，不是一次灵光闪现。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 11,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个人出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是第二次工业革命与近代文化，时间是19世纪后期—20世纪初。",
+          "narration": "这是第二次工业革命与近代文化，时间是19世纪后期—20世纪初。",
+          "displayText": "这是第二次工业革命与近代文化，时间是19世纪后期—20世纪初。"
+        },
+        "assetId": "beethoven-eroica-title-page-1804-public-domain",
+        "image": "/content/step-images/beethoven-eroica-title-page-1804-public-domain.jpg",
+        "imageAlt": "贝多芬《英雄交响曲》题名页擦改痕迹",
+        "imageCaption": "《第三交响曲》题名页局部可见与拿破仑名称相关的重度擦改痕迹。",
+        "imageBoundary": "本地文件为1024×680像素JPEG。痕迹可说明题名被修改，并只能部分支持相关叙事；不得写成贝多芬撕毁整张乐谱，也不得从一处擦改概括其全部政治立场。",
+        "audio": {
+          "transition": {
+            "id": "quest-26e845d2917e6a26",
+            "text": "先给一个人找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-e301d7c0659b3771",
+            "text": "这是第二次工业革命与近代文化，时间是19世纪后期—20世纪初。"
+          },
+          "image": {
+            "id": "quest-2d834b461fcb3bfc",
+            "text": "点开大图啦。这是贝多芬《英雄交响曲》题名页擦改痕迹。这张图能帮我们找到：这是第二次工业革命与近代文化，时间是19世纪后期—20世纪初。"
+          },
+          "question": {
+            "id": "quest-1c5cffbdae9ffb27",
+            "text": "从一个人出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-06-02-science-art-time-1",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "world-modern-06-02-science-art-time-2",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "world-modern-06-02-science-art-time-3",
+            "label": "世界近代史 · 第二次工业革命与近代文化 · 19世纪后期—20世纪初",
+            "correct": true,
+            "audio": {
+              "id": "quest-40725c07ff8c763e",
+              "text": "世界近代史 · 第二次工业革命与近代文化 · 19世纪后期—20世纪初"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "达尔文桌上的笔记",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先翻达尔文的观察笔记，看想法怎样被反复检查。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "达尔文桌上的笔记",
+          "screenText": "先翻达尔文的观察笔记，看想法怎样被反复检查。",
+          "narration": "先翻达尔文的观察笔记，看想法怎样被反复检查。",
+          "displayText": "先翻达尔文的观察笔记，看想法怎样被反复检查。"
+        },
+        "assetId": "darwin-wallace-joint-paper-1858-public-domain",
+        "image": "/content/step-images/darwin-wallace-joint-paper-1858-public-domain.jpg",
+        "imageAlt": "1858年达尔文与华莱士共同论文第一页",
+        "imageCaption": "1858年论文第一页，可见达尔文与华莱士共同署名，以及1858年7月1日宣读信息。",
+        "imageBoundary": "本地文件为2268×3978像素JPEG，由BHL公有领域扫描页转换。页面直接支持共同署名和出版史；不因达尔文后来更著名而隐藏华莱士。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-927287b3b37ff97e",
+            "text": "先翻达尔文的观察笔记，看想法怎样被反复检查。"
+          },
+          "image": {
+            "id": "quest-c42c6ee2697c33f4",
+            "text": "点开大图啦。这是1858年达尔文与华莱士共同论文第一页。这张图能帮我们找到：先翻达尔文的观察笔记，看想法怎样被反复检查。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-06-02-science-art-beginning-1",
+            "label": "达尔文、华莱士和贝多芬、伦，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-e4708480e9e05f4d",
+              "text": "达尔文、华莱士和贝多芬、伦，只是故事人物"
+            }
+          },
+          {
+            "id": "world-modern-06-02-science-art-beginning-2",
+            "label": "达尔文笔记和贝多芬草稿，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-375238fb5b142ba8",
+              "text": "达尔文笔记和贝多芬草稿，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-modern-06-02-science-art-beginning-3",
+            "label": "伦敦与维也纳、达尔文，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-a0f48cfde743b066",
+              "text": "伦敦与维也纳、达尔文，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "贝多芬改动乐谱",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看贝多芬在乐谱上涂改，把声音一次次调整。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "贝多芬改动乐谱",
+          "screenText": "接着看贝多芬在乐谱上涂改，把声音一次次调整。",
+          "narration": "接着看贝多芬在乐谱上涂改，把声音一次次调整。",
+          "displayText": "接着看贝多芬在乐谱上涂改，把声音一次次调整。"
+        },
+        "assetId": "beethoven-stieler-portrait-1820-public-domain",
+        "image": "/content/step-images/beethoven-stieler-portrait-1820-public-domain.jpg",
+        "imageAlt": "施蒂勒绘贝多芬肖像，1820年",
+        "imageCaption": "约瑟夫·卡尔·施蒂勒1820年所绘贝多芬肖像，人物手持乐谱，形象经过理想化设计。",
+        "imageBoundary": "本地文件为1200×1443像素JPEG。贝多芬之家资料说明画家经过四次坐画；肖像用于身份与视觉塑造，不根据目光、发型或姿态补写心理活动。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-7443a1c2040ff831",
+            "text": "接着看贝多芬在乐谱上涂改，把声音一次次调整。"
+          },
+          "image": {
+            "id": "quest-f80459d0133104a1",
+            "text": "点开大图啦。这是施蒂勒绘贝多芬肖像，1820年。这张图能帮我们找到：接着看贝多芬在乐谱上涂改，把声音一次次调整。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-06-02-science-art-journey-1",
+            "label": "接着看贝多芬在乐谱上涂改，把声音一次次调整。",
+            "correct": true,
+            "audio": {
+              "id": "quest-7443a1c2040ff831",
+              "text": "接着看贝多芬在乐谱上涂改，把声音一次次调整。"
+            }
+          },
+          {
+            "id": "world-modern-06-02-science-art-journey-2",
+            "label": "达尔文、华莱士和贝多芬、达尔文笔记，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-e76975fbfe60fad3",
+              "text": "达尔文、华莱士和贝多芬、达尔文笔记，只认出人物"
+            }
+          },
+          {
+            "id": "world-modern-06-02-science-art-journey-3",
+            "label": "伦敦与维也纳、达尔文笔记和贝多，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-38885045e8cff1e6",
+              "text": "伦敦与维也纳、达尔文笔记和贝多，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "两种工作都要修改",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后科学和音乐都靠观察、试验、修改和交流。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "两种工作都要修改",
+          "screenText": "最后科学和音乐都靠观察、试验、修改和交流。",
+          "narration": "最后科学和音乐都靠观察、试验、修改和交流。",
+          "displayText": "最后科学和音乐都靠观察、试验、修改和交流。"
+        },
+        "assetId": "darwin-wallace-joint-paper-1858-public-domain",
+        "image": "/content/step-images/darwin-wallace-joint-paper-1858-public-domain.jpg",
+        "imageAlt": "1858年达尔文与华莱士共同论文第一页",
+        "imageCaption": "1858年论文第一页，可见达尔文与华莱士共同署名，以及1858年7月1日宣读信息。",
+        "imageBoundary": "本地文件为2268×3978像素JPEG，由BHL公有领域扫描页转换。页面直接支持共同署名和出版史；不因达尔文后来更著名而隐藏华莱士。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-c049fc16f3bd6b02",
+            "text": "最后科学和音乐都靠观察、试验、修改和交流。"
+          },
+          "image": {
+            "id": "quest-9113b84e890e8a75",
+            "text": "点开大图啦。这是1858年达尔文与华莱士共同论文第一页。这张图能帮我们找到：最后科学和音乐都靠观察、试验、修改和交流。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-06-02-science-art-change-1",
+            "label": "达尔文笔记和贝多芬草稿，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-f51ebe699354255f",
+              "text": "达尔文笔记和贝多芬草稿，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-modern-06-02-science-art-change-2",
+            "label": "看贝多芬在乐谱上涂改，把声音，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-d30a4b22af97db05",
+              "text": "看贝多芬在乐谱上涂改，把声音，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-modern-06-02-science-art-change-3",
+            "label": "最后科学和音乐都靠观察、试验、修改和交流。",
+            "correct": true,
+            "audio": {
+              "id": "quest-c049fc16f3bd6b02",
+              "text": "最后科学和音乐都靠观察、试验、修改和交流。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "科学和音乐都要观察、试验、修改和交流，不是一次灵光闪现。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "科学和音乐都要观察、试验、修改和交流，不是一次灵光闪现。",
+          "narration": "科学和音乐都要观察、试验、修改和交流，不是一次灵光闪现。",
+          "displayText": "科学和音乐都要观察、试验、修改和交流，不是一次灵光闪现。"
+        },
+        "assetId": "beethoven-eroica-title-page-1804-public-domain",
+        "image": "/content/step-images/beethoven-eroica-title-page-1804-public-domain.jpg",
+        "imageAlt": "贝多芬《英雄交响曲》题名页擦改痕迹",
+        "imageCaption": "《第三交响曲》题名页局部可见与拿破仑名称相关的重度擦改痕迹。",
+        "imageBoundary": "本地文件为1024×680像素JPEG。痕迹可说明题名被修改，并只能部分支持相关叙事；不得写成贝多芬撕毁整张乐谱，也不得从一处擦改概括其全部政治立场。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-32cced6fccfe72ca",
+            "text": "科学和音乐都要观察、试验、修改和交流，不是一次灵光闪现。"
+          },
+          "image": {
+            "id": "quest-111d3787ef93184f",
+            "text": "点开大图啦。这是贝多芬《英雄交响曲》题名页擦改痕迹。这张图能帮我们找到：科学和音乐都要观察、试验、修改和交流，不是一次灵光闪现。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-06-02-science-art-takeaway-1",
+            "label": "翻达尔文的观察笔记，看想法怎样被反复检查，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-104324f722f37376",
+              "text": "翻达尔文的观察笔记，看想法怎样被反复检查，只说了原因"
+            }
+          },
+          {
+            "id": "world-modern-06-02-science-art-takeaway-2",
+            "label": "科学和音乐都要观察、试验、修改和交流，不是一次灵光闪现。",
+            "correct": true,
+            "audio": {
+              "id": "quest-32cced6fccfe72ca",
+              "text": "科学和音乐都要观察、试验、修改和交流，不是一次灵光闪现。"
+            }
+          },
+          {
+            "id": "world-modern-06-02-science-art-takeaway-3",
+            "label": "科学和音乐都靠观察、试验、修改和交流。、达尔文，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-0b6ddb0fe129eb82",
+              "text": "科学和音乐都靠观察、试验、修改和交流。、达尔文，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "苹果故事的证据层",
+        "items": [
+          "三张卡分别为“后来流传的苹果轶事”“用于第一版的手稿”“1687年印刷标题页”。",
+          "孩子把它们连到“帮助记住问题”“看见修改和合作”“确认题名与出版”三种用途。",
+          "系统不问“苹果故事真或假”单选题，而提示“同一个故事可能有来历，但不能证明整套理论瞬间完成”。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "让音乐来到听众耳边",
+        "items": [
+          "把“草稿—修改—誊谱—排练—演出—听众”依次连接。",
+          "完成后出现“作曲家不是唯一参与者”，依次点亮演奏者、抄谱者、场地和听众。",
+          "不播放来源不清的商业录音；原型后续只使用自制或明确授权的录音。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "这是什么证据",
+        "items": [
+          "把“银版照片—1842年书本—后世卷首图—小说片段”连到“人物影像—出版记录—视觉解释—文学叙事”。",
+          "选择后出现一句边界，例如“照片看得见外貌，看不见人物内心”。",
+          "卷首图明确标注“后出的版本”，不伪装成1842年首版页面。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "树，不是梯子",
+        "items": [
+          "把“共同祖先”放在分枝点，再把若干生物支系放在并列枝条上。",
+          "如果孩子把人类放到领奖台顶端，系统提示“这是分枝关系，不是高低比赛”。",
+          "完成后出现“环境不同，适合的特征也可能不同”，不设置“最强物种”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 11,
   "conclusion": [
     "近代科学与艺术的重要变化，不是几位“天才”突然得到答案，而是人们用数学、观察、通信、手稿、印刷、排练和反复修改，提出新的解释与表达。1687年，牛顿的《自然哲学的数学原理》用数学讨论运动和万有引力；书的形成还涉及誊写者、哈雷、皇家学会与印刷。19世纪，贝多芬从大量草稿走到乐团演奏，巴尔扎克把许多小说编成反复出现人物的社会世界，达尔文和华莱士在长期观察、通信和比较中共同公布自然选择思想。1898年，严复出版《天演论》，以赫胥黎《进化论与伦理学》为基础进行“译述”，让新知识进入中国的救亡讨论。作品会跨越语言和时代继续被解释，但科学理论不是道德等级表，小说不是社会照片，肖像也不是人物内心。儿童真正要学会的是：看证据、辨媒介、找过程，并知道一种知识怎样由许多人传递、修正和再解释。"
@@ -1074,110 +1683,143 @@
       "title": "1687年牛顿《自然哲学的数学原理》标题页",
       "localPath": "reference-assets/world-modern-science-art/newton-principia-title-1687.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Newton_-_Principia_(1687),_title,_p._5,_color.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1687年《自然哲学的数学原理》第一版标题页，可见拉丁文题名、作者、印刷地和年份。",
-      "boundary": "本地文件为1920×2262像素JPEG。标题页用于版本和出版信息；不能据此复原全部推导过程，也不能配成苹果砸头后立刻写成理论的场景。"
+      "boundary": "本地文件为1920×2262像素JPEG。标题页用于版本和出版信息；不能据此复原全部推导过程，也不能配成苹果砸头后立刻写成理论的场景。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "beethoven-eroica-title-page-1804-public-domain",
       "title": "贝多芬《英雄交响曲》题名页擦改痕迹",
       "localPath": "reference-assets/world-modern-science-art/beethoven-eroica-title-page-1804.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Eroica_Beethoven_title.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "《第三交响曲》题名页局部可见与拿破仑名称相关的重度擦改痕迹。",
-      "boundary": "本地文件为1024×680像素JPEG。痕迹可说明题名被修改，并只能部分支持相关叙事；不得写成贝多芬撕毁整张乐谱，也不得从一处擦改概括其全部政治立场。"
+      "boundary": "本地文件为1024×680像素JPEG。痕迹可说明题名被修改，并只能部分支持相关叙事；不得写成贝多芬撕毁整张乐谱，也不得从一处擦改概括其全部政治立场。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "beethoven-stieler-portrait-1820-public-domain",
       "title": "施蒂勒绘贝多芬肖像，1820年",
       "localPath": "reference-assets/world-modern-science-art/beethoven-stieler-portrait-1820.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Beethoven.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "约瑟夫·卡尔·施蒂勒1820年所绘贝多芬肖像，人物手持乐谱，形象经过理想化设计。",
-      "boundary": "本地文件为1200×1443像素JPEG。贝多芬之家资料说明画家经过四次坐画；肖像用于身份与视觉塑造，不根据目光、发型或姿态补写心理活动。"
+      "boundary": "本地文件为1200×1443像素JPEG。贝多芬之家资料说明画家经过四次坐画；肖像用于身份与视觉塑造，不根据目光、发型或姿态补写心理活动。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "balzac-daguerreotype-1842-public-domain",
       "title": "1842年巴尔扎克银版照片",
       "localPath": "reference-assets/world-modern-science-art/balzac-daguerreotype-1842.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Honor%C3%A9_de_Balzac_(1842).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "路易-奥古斯特·比松1842年拍摄的巴尔扎克银版肖像。",
-      "boundary": "本地文件为528×593像素JPEG。巴黎博物馆馆藏页将其记为现存巴尔扎克摄影形象；这里仅用于身份和媒介识别，不从姿态推断性格或把小说人物对应到真人。"
+      "boundary": "本地文件为528×593像素JPEG。巴黎博物馆馆藏页将其记为现存巴尔扎克摄影形象；这里仅用于身份和媒介识别，不从姿态推断性格或把小说人物对应到真人。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "balzac-comedie-humaine-frontispiece-cc0",
       "title": "后出乌西欧版《人间喜剧》宣传性卷首图",
       "localPath": "reference-assets/world-modern-science-art/balzac-comedie-humaine-frontispiece.jpg",
       "sourcePage": "https://www.parismuseescollections.paris.fr/en/node/1031058",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "后出的乌西欧版《人间喜剧》宣传性卷首图，以建筑和舞台式人群表现作品世界。",
-      "boundary": "本地文件为1453×2160像素JPEG。素材由Paris Musées以CC0开放；它不是1842年第一卷原始卷首图，页面必须明确标为后世出版与视觉解释。"
+      "boundary": "本地文件为1453×2160像素JPEG。素材由Paris Musées以CC0开放；它不是1842年第一卷原始卷首图，页面必须明确标为后世出版与视觉解释。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "darwin-cameron-portrait-c1868-public-domain",
       "title": "卡梅伦拍摄的达尔文肖像，约1868年",
       "localPath": "reference-assets/world-modern-science-art/darwin-cameron-portrait-c1868.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_by_Julia_Margaret_Cameron,_c._1868.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "朱莉娅·玛格丽特·卡梅伦约1868年拍摄的查尔斯·达尔文肖像，现存版本为1875年碳素印相。",
-      "boundary": "本地文件为2348×2916像素JPEG。用于人物身份与摄影媒介，不把拍摄日期写成理论形成日期，也不根据表情推断当时思想。"
+      "boundary": "本地文件为2348×2916像素JPEG。用于人物身份与摄影媒介，不把拍摄日期写成理论形成日期，也不根据表情推断当时思想。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "darwin-wallace-joint-paper-1858-public-domain",
       "title": "1858年达尔文与华莱士共同论文第一页",
       "localPath": "reference-assets/world-modern-science-art/darwin-wallace-joint-paper-1858.jpg",
       "sourcePage": "https://www.biodiversitylibrary.org/part/280350",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Not in copyright",
       "clearance": "cleared-public-domain",
       "caption": "1858年论文第一页，可见达尔文与华莱士共同署名，以及1858年7月1日宣读信息。",
-      "boundary": "本地文件为2268×3978像素JPEG，由BHL公有领域扫描页转换。页面直接支持共同署名和出版史；不因达尔文后来更著名而隐藏华莱士。"
+      "boundary": "本地文件为2268×3978像素JPEG，由BHL公有领域扫描页转换。页面直接支持共同署名和出版史；不因达尔文后来更著名而隐藏华莱士。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "origin-species-title-page-1859-public-domain",
       "title": "1859年《物种起源》第一版标题页",
       "localPath": "reference-assets/world-modern-science-art/origin-species-title-1859.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Origin_of_Species_1859_title_page.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1859年伦敦出版的《物种起源》第一版标题页。",
-      "boundary": "本地文件为2888×4636像素JPEG。标题页确认题名、作者、出版者和年份；不能单凭它概括整本书论证，也不能误标为1858年共同论文。"
+      "boundary": "本地文件为2888×4636像素JPEG。标题页确认题名、作者、出版者和年份；不能单凭它概括整本书论证，也不能误标为1858年共同论文。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "origin-species-tree-diagram-1859-public-domain",
       "title": "1859年《物种起源》分枝图",
       "localPath": "reference-assets/world-modern-science-art/origin-species-tree-diagram-1859.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Origin_of_Species_illustration_cropped.png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "《物种起源》第一版中的分枝图，用支线表现分化、延续和消失。",
-      "boundary": "本地文件为795×651像素PNG。只用于共同祖先、分枝和多路径概念；不得加成人类登顶、低等到高等或民族人群等级图。"
+      "boundary": "本地文件为795×651像素PNG。只用于共同祖先、分枝和多路径概念；不得加成人类登顶、低等到高等或民族人群等级图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "tianyanlun-nlc-title-page-public-domain",
       "title": "国家图书馆藏《天演论》题名页",
       "localPath": "reference-assets/world-modern-science-art/tianyanlun-nlc-title-page.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:NLC416-12jh004953-44614_%E5%A4%A9%E6%BC%94%E8%AB%96.pdf",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "《天演论》题名页可见“赫胥黎原著、严复译述、商务印书馆发行”。",
-      "boundary": "本地文件为737×995像素JPEG，由国家图书馆公有领域PDF第2页渲染。题名页未显示可确认的具体印年，不能把这一本标成1898年初版本体；1898年出版史另以政府史料核验。"
+      "boundary": "本地文件为737×995像素JPEG，由国家图书馆公有领域PDF第2页渲染。题名页未显示可确认的具体印年，不能把这一本标成1898年初版本体；1898年出版史另以政府史料核验。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "yan-fu-portrait-public-domain",
       "title": "严复历史肖像",
       "localPath": "reference-assets/world-modern-science-art/yan-fu-portrait.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Yan_fu.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "严复历史肖像，用于人物身份识别；本章主要证据仍是《天演论》题名页和出版史料。",
-      "boundary": "本地文件为380×500像素JPEG，仅用于小尺寸身份卡。原始拍摄日期和摄影者未确认，不由服饰、表情或背景推断具体年份、身份情绪和工作现场。"
+      "boundary": "本地文件为380×500像素JPEG，仅用于小尺寸身份卡。原始拍摄日期和摄影者未确认，不由服饰、表情或背景推断具体年份、身份情绪和工作现场。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-modern-06-02-science-art.jpg",

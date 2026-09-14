@@ -1,303 +1,725 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import Image from "next/image";
+import { ObjectWorkbench, WorkbenchCover, WorkbenchFamily, stepVoiceIds, type WorkbenchPresentation, type WorkbenchInteraction, type ObjectView, type StoryScene } from "./ObjectWorkbench";
+import "./workbench.css";
 import { ContentOverview } from "./ContentOverview";
-import { playVoice, stopVoice } from "./speech";
+import { FinishNavigation } from "./FinishNavigation";
+import { playVoiceSequence, stopVoice, pauseVoice, resumeVoice, subscribeVoice, getVoiceSnapshot, getServerVoiceSnapshot } from "./speech";
+import { emptyProgress, parseProgress, listenOptions, PROGRESS_STORAGE_KEY, LEGACY_COMPLETED_KEY, type LocalProgress } from "./quest-progress";
+import { useModal } from "./use-modal";
+import contentManifestJson from "../content/runtime/preview-manifest.json";
 
-type Era = {
+import progressIndex from "../content/runtime/progress-index.json";
+
+type ChildEntry = {
+  childTitle: string;
+  prompt: string;
+  takeaway: string;
+  object: string;
+  people: string[];
+  place: string;
+  culture: string | null;
+  care: string;
+};
+
+type TextbookConnection = {
+  featured: {
+    type: string;
+    icon: string;
+    title: string;
+    childBridge: string;
+    evidenceBoundary: string;
+  };
+  companions: Array<{ type: string; label: string; note: string }>;
+};
+
+type GlossaryEntry = {
+  term: string;
+  icon: string;
+  plain: string;
+};
+
+type ChildStoryStep = {
   id: string;
+  icon: string;
+  label: string;
+  text: string;
+};
+
+type GameOption = {
+  objectView?: ObjectView;
+  image?: string;
+  imageAlt?: string;
+  id: string;
+  label: string;
+  correct: boolean;
+  audio: VoiceLine;
+};
+
+type VoiceLine = { id: string; text: string };
+
+type GameStep = {
+  inspection?: { title:string; image:string; caption:string; boundary:string; label:string; audio:VoiceLine; sourceLinks?:Array<{title:string;url:string}> } | null;
+  concepts?:Array<{term:string;meaning:string}>|null;
+  narrative?: StoryScene | null;
+  interaction?: WorkbenchInteraction;
+  id: string;
+  icon: string;
+  phase: string;
+  title: string;
+  prompt: string;
+  rightNote: string;
+  wrongNote: string;
+  story: {
+    title: string;
+    screenText: string;
+    displayText: string;
+    narration: string;
+  };
+  studyImage: string;
+  studyImageAlt: string;
+  assetId: string;
+  image: string;
+  imageAlt: string;
+  imageCaption: string;
+  imageBoundary: string;
+  audio: {
+    lead?: VoiceLine | null;
+    transition: VoiceLine;
+    intro: VoiceLine;
+    image: VoiceLine;
+    question: VoiceLine;
+    right: VoiceLine;
+    wrong: VoiceLine;
+  };
+  options: GameOption[];
+};
+
+type ExtensionTask = {
+  number: number;
+  title: string;
+  items: string[];
+};
+
+type Gameplay = {
+  presentation: WorkbenchPresentation | null;
+  mode: "authored-picture-quest-v4";
+  cta: string;
+  anchor: string;
+  boundary: string;
+  coverImage: string;
+  coverImageAlt: string;
+  coverImageKind: string;
+  evidence: Array<{id:string; title:string; image:string; caption:string; boundary:string; sourcePage:string|null}>;
+  finish: {title:string; actions:string[]; parent:string; actionAudio:VoiceLine[]; introAudio:VoiceLine; sceneStepIndexes?:number[]};
+  status: "playable-core";
+  audioStatus: string;
+  hook: {
+    kind: string;
+    icon: string;
+    label: string;
+    question: string;
+  };
+  coverAudio: VoiceLine;
+  textbookAudio: VoiceLine | null;
+  finishAudio: VoiceLine;
+  estimatedMinutes: number;
+  badge: { icon: string; label: string };
+  steps: GameStep[];
+  extensionTasks: ExtensionTask[];
+};
+
+type ManifestChapter = {
+  id: string;
+  periodId: string;
+  periodLabel: string;
+  periodYears: string;
+  title: string;
+  coreQuestion: string;
+  thumbnail: string;
+  childEntry: ChildEntry;
+  textbookConnection: TextbookConnection | null;
+  childStory: ChildStoryStep[];
+  glossary: GlossaryEntry[];
+  gameplay: Gameplay;
+};
+
+type ManifestTrack = {
+  id: string;
+  label: string;
+  range: string;
+  chapters: ManifestChapter[];
+};
+
+type FocusedImage = {
+  title: string;
+  boundary: string;
+  images: Array<{ src: string; alt: string; caption: string }>;
+  voice: VoiceLine;
+  sourceLinks?:Array<{title:string;url:string}>;
+};
+
+const contentManifest = contentManifestJson as unknown as {
+  contentVersion: string;
+  tracks: ManifestTrack[];
+  totals: { chapters: number };
+};
+
+// 每一站对应内容包里的一段时期；顺序与 content/timeline.json、product-map.json 一致。
+type Station = {
+  id: string;
+  periodId: string;
   years: string;
   title: string;
   childLine: string;
-  active?: boolean;
+  iconSrc: string;
 };
 
-const eras: Era[] = [
-  { id: "early", years: "约200万年前—约前21世纪", title: "远古时期", childLine: "人们学会用火，也开始种庄稼" },
-  { id: "states", years: "约前21世纪—前771年", title: "夏商西周", childLine: "早期国家出现了，汉字也慢慢长大" },
-  { id: "change", years: "前770年—前221年", title: "春秋战国", childLine: "社会大变化，许多人一起想办法" },
-  { id: "united", years: "前221年—220年", title: "秦汉时期", childLine: "更大的统一国家建立起来" },
-  { id: "meeting", years: "220年—589年", title: "三国两晋南北朝", childLine: "人们迁徙、生活，也彼此交融" },
-  { id: "tang", years: "581年—960年", title: "隋唐五代", childLine: "国家统一，城市繁荣，对外交流活跃", active: true },
-  { id: "cities", years: "916年—1368年", title: "辽宋夏金元", childLine: "城市热闹，贸易和科技继续发展" },
-  { id: "later", years: "1368年—1911年", title: "明清时期", childLine: "统一多民族国家继续巩固和发展" },
+const allStations: Station[] = [
+  { id: "early", periodId: "ancient-origins", years: "约200万年前—约前21世纪", title: "远古时期", childLine: "从一堆火和一只彩陶盆出发", iconSrc: "/images/history-stations/early.webp" },
+  { id: "states", periodId: "xia-shang-western-zhou", years: "约前21世纪—前771年", title: "夏商西周", childLine: "看看大鼎和龟甲会说什么", iconSrc: "/images/history-stations/states.webp" },
+  { id: "change", periodId: "spring-autumn-warring-states", years: "前770年—前221年", title: "春秋战国", childLine: "跟着竹简和水渠寻找新办法", iconSrc: "/images/history-stations/change.webp" },
+  { id: "qin", periodId: "qin", years: "前221年—前207年", title: "秦朝", childLine: "拿同一把尺，再去拼接长城旧墙段", iconSrc: "/images/history-stations/united.webp" },
+  { id: "han", periodId: "han", years: "前202年—220年", title: "汉朝", childLine: "沿驿路走丝路，再看纸怎样把话带远", iconSrc: "/images/history-stations/han.webp" },
+  { id: "meeting", periodId: "three-kingdoms-jin-northern-southern", years: "220年—589年", title: "三国两晋南北朝", childLine: "坐一条小船去江南看新邻居", iconSrc: "/images/history-stations/meeting.webp" },
+  { id: "sui", periodId: "sui", years: "581年—618年", title: "隋朝", childLine: "跟着粮船走运河，看南北怎样连起来", iconSrc: "/images/history-stations/sui.webp" },
+  { id: "tang", periodId: "tang", years: "618年—907年", title: "唐朝", childLine: "从贞观之治走到长安小骆驼和月亮", iconSrc: "/images/history-stations/tang.webp" },
+  { id: "five-dynasties", periodId: "five-dynasties-ten-kingdoms", years: "907年—960年", title: "五代十国", childLine: "跟钱镠铁券走进许多城市", iconSrc: "/images/history-stations/five-dynasties.webp" },
+  { id: "song", periodId: "song", years: "916年—1279年 · 宋960年起", title: "宋朝与辽·西夏·金", childLine: "同窗看并立地图、长卷和三项技术", iconSrc: "/images/history-stations/cities.webp" },
+  { id: "yuan", periodId: "yuan", years: "1271年—1368年", title: "元朝", childLine: "骑上驿马，把消息送到远方", iconSrc: "/images/history-stations/yuan.webp" },
+  { id: "ming", periodId: "ming", years: "1368年—1644年", title: "明朝", childLine: "大船、故宫、书坊和游记排成一队", iconSrc: "/images/history-stations/later.webp" },
+  { id: "qing", periodId: "qing", years: "1644年—1840年前", title: "清朝", childLine: "到承德会见，再去广州看世界变化", iconSrc: "/images/history-stations/qing.webp" },
+  { id: "lateqing", periodId: "late-qing-crisis-and-response", years: "1840—1911年", title: "晚清的危机与救亡", childLine: "一艘轮船送来一封紧急信", iconSrc: "/images/history-stations/lateqing.webp" },
+  { id: "republic", periodId: "revolution-and-republic", years: "1894—1916年", title: "辛亥革命与中华民国", childLine: "翻开日历，看皇帝时代结束", iconSrc: "/images/history-stations/republic.webp" },
+  { id: "modernlife", periodId: "modern-social-change", years: "19世纪中期—20世纪中期", title: "近代生活变化", childLine: "火车、相机和报纸来到身边", iconSrc: "/images/history-stations/modernlife.webp" },
+  { id: "newroad", periodId: "cpc-and-new-democratic-revolution", years: "1919—1936年", title: "革命新道路", childLine: "红船、书本和星光指向新路", iconSrc: "/images/history-stations/newroad.webp" },
+  { id: "resistance", periodId: "war-of-resistance", years: "1931—1945年", title: "抗日战争", childLine: "从搬家的课堂和一封家书讲起", iconSrc: "/images/history-stations/resistance.webp" },
+  { id: "liberation", periodId: "peoples-liberation-war", years: "1945—1949年", title: "人民解放战争", childLine: "一条渡船驶向亮起来的城门", iconSrc: "/images/history-stations/liberation.webp" },
+  { id: "founding", periodId: "founding-and-transition", years: "1949—1956年", title: "新中国成立", childLine: "第一面五星红旗在这里升起", iconSrc: "/images/history-stations/founding.webp" },
+  { id: "exploration", periodId: "socialist-exploration", years: "1956—1978年", title: "建设道路的探索", childLine: "原油列车和蓝图一起出发", iconSrc: "/images/history-stations/exploration.webp" },
+  { id: "reform", periodId: "reform-and-opening", years: "1978—2012年", title: "改革开放", childLine: "推开门，火车和新生活来了", iconSrc: "/images/history-stations/reform.webp" },
+  { id: "newera", periodId: "new-era", years: "2012年至今", title: "新时代", childLine: "高铁穿过青山，卫星飞上天空", iconSrc: "/images/history-stations/newera.webp" },
 ];
 
-const sourceCards = [
-  {
-    image: "/tang-groom.jpg",
-    alt: "唐代陶制胡人马夫俑",
-    label: "照料远行的马",
-    source: "大都会艺术博物馆藏唐代马夫俑",
-    sourceUrl: "https://www.metmuseum.org/art/collection/search/63016",
-  },
-  {
-    image: "/tang-dancer.jpg",
-    alt: "唐代陶制外来舞者俑",
-    label: "带来新的舞蹈",
-    source: "大都会艺术博物馆藏唐代舞者俑",
-    sourceUrl: "https://www.metmuseum.org/art/collection/search/49552",
-  },
-  {
-    image: "/tang-cup.jpg",
-    alt: "唐代鎏金银八角杯",
-    label: "做出新的器物",
-    source: "大都会艺术博物馆藏唐代银杯",
-    sourceUrl: "https://www.metmuseum.org/art/collection/search/42182",
-  },
-];
+const stations = allStations.filter(station => contentManifest.tracks.some(track=>track.chapters.some(chapter=>chapter.periodId===station.periodId)));
+const allProgressChapters = new Map(progressIndex.map(chapter => [chapter.id, chapter]));
 
-const stepVoice = ["chapter-open", "road-open", "meeting-open", "making-open", "chapter-finish"];
+const questStepBadgeById: Record<GameStep["id"], { src: string; alt: string; fallback: string }> = {
+  time: { src: "/images/quest-steps/time.webp", alt: "沿着时间河找到年代的旅行徽章", fallback: "🕰️" },
+  beginning: { src: "/images/quest-steps/beginning.webp", alt: "用放大镜找到第一条线索的旅行徽章", fallback: "🔎" },
+  journey: { src: "/images/quest-steps/journey.webp", alt: "小船沿路线继续旅行的旅行徽章", fallback: "⛵" },
+  change: { src: "/images/quest-steps/change.webp", alt: "地图上亮起变化星星的旅行徽章", fallback: "⭐" },
+  takeaway: { src: "/images/quest-steps/takeaway.webp", alt: "小小历史旅行员完成地图的旅行徽章", fallback: "🏅" },
+};
+
+function QuestStepBadge({ stepId, labelled = false }: { stepId: GameStep["id"]; labelled?: boolean }) {
+  const badge = questStepBadgeById[stepId];
+  const [imageFailed, setImageFailed] = useState(false);
+
+  return (
+    <span className="quest-step-badge-art" role={labelled ? "img" : undefined} aria-label={labelled ? badge.alt : undefined} aria-hidden={labelled ? undefined : true}>
+      {imageFailed ? (
+        <span className="quest-step-badge-fallback">{badge.fallback}</span>
+      ) : (
+        <Image unoptimized
+          src={badge.src}
+          alt=""
+          fill
+          sizes="82px"
+          onError={() => setImageFailed(true)}
+        />
+      )}
+    </span>
+  );
+}
+
+const chaptersByPeriod = new Map<string, ManifestChapter[]>();
+const chaptersById = new Map<string, ManifestChapter>();
+for (const track of contentManifest.tracks) {
+  for (const chapter of track.chapters) {
+    chaptersById.set(chapter.id, chapter);
+    const list = chaptersByPeriod.get(chapter.periodId) ?? [];
+    list.push(chapter);
+    chaptersByPeriod.set(chapter.periodId, list);
+  }
+}
+
+type PanelData = {
+  kicker: string;
+  iconSrc: string;
+  title: string;
+  years: string;
+  line: string;
+  chapters: ManifestChapter[];
+};
+
+function PauseButton() {
+  const voice = useSyncExternalStore(subscribeVoice, getVoiceSnapshot, getServerVoiceSnapshot);
+  const paused = voice.status === "paused";
+  const available = ["playing", "loading", "paused"].includes(voice.status);
+  return <button className="voice-pause" disabled={!available} onClick={() => paused ? resumeVoice() : pauseVoice()} aria-label={paused ? "继续播放声音" : "暂停声音"}>
+    <span aria-hidden="true">{paused ? "▶" : "⏸"}</span><span>{paused ? "继续听" : "暂停"}</span>
+  </button>;
+}
+
+function QuestQuestion({ step, seed, speak, listen, onSolved }: {
+  step: GameStep; seed: string; speak: (ids: string[]) => Promise<unknown>;
+  listen: (ids: string[]) => void; onSolved: () => void;
+}) {
+  const [picked, setPicked] = useState<string | null>(null);
+  const [wrong, setWrong] = useState<string | null>(null);
+  const [solved, setSolved] = useState(false);
+  const voice = useSyncExternalStore(subscribeVoice, getVoiceSnapshot, getServerVoiceSnapshot);
+  const options = listenOptions(step.options, seed);
+  const cues = ["choice-circle", "choice-square"];
+  const submit = () => {
+    if (solved) return;
+    if (!picked) { listen(["choice-first"]); return; }
+    const choice = options.find((option) => option.id === picked);
+    if (choice?.correct) {
+      setSolved(true); setWrong(null); onSolved();
+      void speak([step.audio.right.id]);
+    } else {
+      setWrong(picked);
+      void speak([step.audio.wrong.id]);
+    }
+  };
+  return <div className="choice-question quest-question" data-right-voice-id={step.audio.right.id} data-wrong-voice-id={step.audio.wrong.id}>
+    <div className="choice-toolbar">
+      <button className="listen-options" disabled={solved} onClick={() => listen(options.flatMap((option, i) => [cues[i], option.audio.id]))}>🔊 两张都听</button>
+      <button className="choice-help" onClick={() => listen(["choice-help"])} aria-label="听一听怎样选择">❔ 怎么选</button>
+    </div>
+    <div className="choice-stack listen-cards" role="group" aria-label={step.prompt}>
+      {options.map((option, index) => {
+        const state = solved && option.correct ? "right" : wrong === option.id ? "wrong" : picked === option.id ? "picked" : "";
+        const sounding = ["loading", "playing", "paused"].includes(voice.status) && [option.audio.id, cues[index]].includes(voice.id ?? "");
+        return <button key={option.id} className={`listen-card ${state} ${sounding ? "sounding" : ""}`} data-option-id={option.id} data-voice-id={option.audio.id}
+          disabled={solved} aria-pressed={picked === option.id} aria-label={`${index === 0 ? "圆圈" : "方块"}卡，${option.label}`}
+          onClick={() => { setPicked(option.id); setWrong(null); listen([cues[index], option.audio.id]); }}>
+          <span className="choice-card-heading"><span className={`choice-shape ${index === 0 ? "circle" : "square"}`} aria-hidden="true" /><small>{state === "right" ? "找到了" : sounding ? voice.status === "paused" ? "暂停了" : "正在听" : state === "wrong" ? "再看看" : picked === option.id ? "选中了" : "点我听"}</small><span aria-hidden="true">{state === "right" ? "✓" : "🔊"}</span></span>
+          {option.image && <Image className="choice-picture" src={option.image} alt={option.imageAlt ?? ""} width={420} height={242} unoptimized />}
+          <span className="choice-option-text">{option.label}</span>
+        </button>;
+      })}
+    </div>
+    {!solved && <button className="submit-choice" aria-disabled={!picked} onClick={submit}>✋ 选好啦！</button>}
+    {(solved || wrong) && <p className="choice-feedback" role="status" data-feedback={solved ? "right" : "wrong"}>{solved ? `✓ ${step.rightNote}` : step.wrongNote}</p>}
+  </div>;
+}
 
 export default function Home() {
-  const [screen, setScreen] = useState<"river" | "chapter" | "overview">("river");
-  const [step, setStep] = useState(0);
+  const [screen, setScreen] = useState<"river" | "quest" | "overview">("river");
   const [voiceOn, setVoiceOn] = useState(true);
-  const [answer, setAnswer] = useState<string | null>(null);
-  const [playing, setPlaying] = useState(false);
+  const voice = useSyncExternalStore(subscribeVoice, getVoiceSnapshot, getServerVoiceSnapshot);
+  const playing = voice.status === "playing" || voice.status === "loading";
+  const [panel, setPanel] = useState<PanelData | null>(null);
+  const [questChapter, setQuestChapter] = useState<ManifestChapter | null>(null);
+  const [questStarted, setQuestStarted] = useState(false);
+  const [questStep, setQuestStep] = useState(0);
+  const [questSolved, setQuestSolved] = useState(false);
+  const [progress, setProgress] = useState<LocalProgress>(emptyProgress);
+  const progressRef = useRef(progress);
+  const completedChapterIds = new Set(progress.completed);
+  const [completedExtensionIds, setCompletedExtensionIds] = useState<Set<string>>(new Set());
+  const [focusedImage, setFocusedImage] = useState<FocusedImage | null>(null);
+  const [savedCoverStep, setSavedCoverStep] = useState<string | null>(null);
+  const [finishRevealed, setFinishRevealed] = useState(false);
+  const [storageNotice, setStorageNotice] = useState("");
+  const [confirmClear, setConfirmClear] = useState(false);
+  const voiceNotice = voice.status === "blocked" ? "点一下喇叭，就能继续听。" : voice.status === "error" ? "这段声音没准备好，点喇叭再试一次。" : "";
 
-  useEffect(() => () => stopVoice(), []);
+  useEffect(() => {
+    const frame = window.requestAnimationFrame(() => {
+      try {
+        const loaded = parseProgress(window.localStorage.getItem(PROGRESS_STORAGE_KEY), window.localStorage.getItem(LEGACY_COMPLETED_KEY), allProgressChapters, contentManifest.contentVersion);
+        progressRef.current = loaded;
+        setProgress(loaded);
+      } catch { setStorageNotice("浏览器暂时不能保存，仍可以继续试玩。"); }
+    });
+    return () => { window.cancelAnimationFrame(frame); stopVoice(); };
+  }, []);
 
-  const speak = async (id: string) => {
-    if (!voiceOn) return;
-    setPlaying(true);
-    await playVoice(id);
-    setPlaying(false);
+  const saveProgress = (next: LocalProgress) => {
+    progressRef.current = next;
+    setProgress(next);
+    try { window.localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(next)); setStorageNotice(""); }
+    catch { setStorageNotice("这次还能继续玩，但浏览器没有保存进度。"); }
   };
-
-  const enterChapter = () => {
-    setScreen("chapter");
-    setStep(0);
-    setAnswer(null);
-    window.setTimeout(() => void speak("chapter-open"), 120);
+  const saveCurrent = (chapter: ManifestChapter, step: number) => saveProgress({
+    ...progressRef.current,
+    current: { chapterId: chapter.id, stepId: chapter.gameplay.steps[step].id, contentVersion: contentManifest.contentVersion },
+  });
+  const clearProgress = () => {
+    try {
+      window.localStorage.removeItem(PROGRESS_STORAGE_KEY);
+      window.localStorage.removeItem(LEGACY_COMPLETED_KEY);
+      progressRef.current = emptyProgress(); setProgress(progressRef.current);
+      setConfirmClear(false); setStorageNotice("本机记录已清空。");
+    } catch { setStorageNotice("浏览器未能清空记录，请稍后再试。"); }
   };
-
+  const speakSequence = (ids: string[], force = false) => {
+    if (!voiceOn && !force) return Promise.resolve("muted");
+    return playVoiceSequence(ids);
+  };
+  const listenSequence = (ids: string[]) => { setVoiceOn(true); void speakSequence(ids, true); };
+  const listen = (id: string) => listenSequence([id]);
+  const haltVoice = () => stopVoice();
+  const openImage = (image: FocusedImage) => { setFocusedImage(image); void speakSequence([image.voice.id]); };
+  const closeImage = () => { haltVoice(); setFocusedImage(null); };
+  const closePanel = () => { haltVoice(); setPanel(null); };
+  const imageDialogRef = useModal(Boolean(focusedImage), closeImage);
+  const stationDialogRef = useModal(Boolean(panel), closePanel);
   const goHome = () => {
-    stopVoice();
-    setPlaying(false);
-    setScreen("river");
-    setStep(0);
-    setAnswer(null);
+    haltVoice(); setFocusedImage(null); setQuestChapter(null); setPanel(null); setScreen("river");
+    window.scrollTo({ top: 0 });
   };
-
   const openOverview = () => {
-    stopVoice();
-    setPlaying(false);
-    setScreen("overview");
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    haltVoice(); setFocusedImage(null); setQuestChapter(null); setPanel(null); setScreen("overview");
+    setConfirmClear(false); window.scrollTo({ top: 0 });
   };
 
-  const goTo = (next: number) => {
-    stopVoice();
-    setPlaying(false);
-    setAnswer(null);
-    setStep(next);
-    window.setTimeout(() => void speak(stepVoice[next]), 140);
+  const openStation = (station: Station, index: number) => {
+    haltVoice();
+    const welcome=(chaptersByPeriod.get(station.periodId)??[]).find(c=>c.gameplay.presentation?.story)?.gameplay.presentation?.story;
+    if(welcome)void speakSequence([welcome.stationAudio.id]);
+    setPanel({
+      kicker: `第${index + 1}站 · 中华文明时间河`,
+      iconSrc: station.iconSrc,
+      title: station.title,
+      years: station.years,
+      line: station.childLine,
+      chapters: chaptersByPeriod.get(station.periodId) ?? [],
+    });
   };
 
-  const choose = (value: string, correct: string, rightVoice: string, wrongVoice: string) => {
-    setAnswer(value);
-    void speak(value === correct ? rightVoice : wrongVoice);
+  const openQuest = (chapter: ManifestChapter, restart = false) => {
+    haltVoice(); setFocusedImage(null); setPanel(null); setQuestChapter(chapter);
+    setQuestStarted(false); setQuestStep(0); setQuestSolved(false); setFinishRevealed(false);
+    setCompletedExtensionIds(new Set());
+    const saved = !restart && progressRef.current.current?.chapterId === chapter.id ? progressRef.current.current.stepId : null;
+    setSavedCoverStep(saved); setScreen("quest"); window.scrollTo({ top: 0 });
+    void speakSequence([chapter.gameplay.coverAudio.id, saved ? "resume-hint" : null].filter((id): id is string => Boolean(id)));
   };
+  const startQuest = (resume = true) => {
+    if (!questChapter) return;
+    const savedIndex = resume && savedCoverStep ? questChapter.gameplay.steps.findIndex((step) => step.id === savedCoverStep) : 0;
+    const index = Math.max(0, savedIndex);
+    setQuestStarted(true); setQuestStep(index); setQuestSolved(false); setFinishRevealed(false);
+    saveCurrent(questChapter, index); window.scrollTo({ top: 0 });
+    const step = questChapter.gameplay.steps[index];
+    void speakSequence([...stepVoiceIds(step), ...(!step.audio.lead && index === 0 ? ["choice-help"] : [])]);
+  };
+  const completeQuest = (chapterId: string) => saveProgress({
+    schemaVersion: 2, completed: [...new Set([...progressRef.current.completed, chapterId])], current: null,
+  });
 
   const toggleVoice = () => {
     if (voiceOn) {
-      stopVoice();
-      setPlaying(false);
+      haltVoice();
       setVoiceOn(false);
       return;
     }
     setVoiceOn(true);
-    window.setTimeout(() => {
-      void playVoice(screen === "river" ? "river-intro" : stepVoice[step]);
-    }, 80);
+    const questVoiceIds = focusedImage
+      ? [focusedImage.voice.id]
+      : questChapter
+      ? !questStarted
+        ? [questChapter.gameplay.coverAudio.id, questChapter.gameplay.textbookAudio?.id].filter((id): id is string => Boolean(id))
+        : questStep < questChapter.gameplay.steps.length
+          ? stepVoiceIds(questChapter.gameplay.steps[questStep])
+          : [finishRevealed ? questChapter.gameplay.finishAudio.id : questChapter.gameplay.finish.introAudio.id]
+      : null;
+    if (screen === "quest" && questVoiceIds) void speakSequence(questVoiceIds, true);
+    else if (screen === "river") void speakSequence(["river-intro"], true);
   };
 
+  const activeQuestStep = questChapter?.gameplay.steps[questStep] ?? null;
+  const isLastQuestStep = Boolean(questChapter && questStep === questChapter.gameplay.steps.length - 1);
+  const nextQuestStep = () => {
+    if (!questChapter || !questSolved) return;
+    setQuestSolved(false);
+    if (isLastQuestStep) completeQuest(questChapter.id);
+    const ids = isLastQuestStep ? [questChapter.gameplay.finish.introAudio.id] : stepVoiceIds(questChapter.gameplay.steps[questStep+1]);
+    if (!isLastQuestStep) saveCurrent(questChapter,questStep+1);
+    setQuestStep(value=>value+1);window.scrollTo({top:0});void speakSequence(ids);
+  };
+  const taskStepActive = screen === "quest" && questStarted && Boolean(activeQuestStep);
+  const resumeChapter = progress.current ? chaptersById.get(progress.current.chapterId) : null;
+
   return (
-    <main className="history-app">
+    <main className={`history-app ${screen === "river" ? "river-restored" : "focused-preview"} ${questChapter?.gameplay.presentation ? "workbench-active" : ""} ${taskStepActive ? "task-step-active" : ""} ${focusedImage ? "image-focus-active" : ""}`}>
       <header className="app-header">
-        <button className="brand" onClick={goHome} aria-label="回到中华文明时间河">
-          <span>史</span>
-          <div><strong>小小历史旅行团</strong><small>沿着中国历史，认识世界</small></div>
+        <button className="brand" onClick={goHome} aria-label="回到小小历史旅行团首页">
+          <span aria-hidden="true">🏠</span>
+          <div><strong>小小历史旅行团</strong><small>适合4—6岁 · 亲子共学</small></div>
         </button>
 
-        {screen === "chapter" && (
-          <div className="chapter-progress" aria-label={`故事进度 ${step + 1}/5`}>
-            {[0, 1, 2, 3, 4].map((item) => <i key={item} className={item <= step ? "done" : ""} />)}
-            <span>{step + 1} / 5</span>
+        {screen === "quest" && questChapter && questStarted && questStep < questChapter.gameplay.steps.length && (
+          <div className="chapter-nav quest-nav">
+            <div className="quest-title-mini"><span>🔎</span><strong>{questChapter.childEntry.childTitle}</strong></div>
+            <div className="chapter-progress" aria-label={`任务进度 ${questStep + 1}/5`}>
+              {questChapter.gameplay.steps.map((item, index) => <i key={item.id} className={index <= questStep ? "done" : ""} />)}
+              <span>第{questStep + 1}步</span>
+            </div>
           </div>
         )}
 
         {screen !== "overview" && (
-          <button className={`voice-switch ${playing ? "playing" : ""}`} onClick={toggleVoice} aria-pressed={voiceOn}>
-            <span>{voiceOn ? "●))" : "—"}</span>
-            {voiceOn ? "本地语音开" : "声音关"}
-          </button>
+          <div className="voice-controls"><PauseButton /><button
+            className={`voice-switch ${playing ? "playing" : ""} ${voiceOn ? "" : "muted"}`}
+            onClick={toggleVoice}
+            aria-pressed={voiceOn}
+            aria-label={voiceOn ? "声音已开启，点按静音" : "声音已静音，点按开启声音"}
+            title={voiceOn ? "静音" : "打开声音"}
+          >
+            <span aria-hidden="true">{voiceOn ? "🔊" : "🔇"}</span>
+            {!voiceOn && <em>已静音</em>}
+          </button></div>
         )}
       </header>
 
-      {screen === "overview" && <ContentOverview onBack={goHome} />}
+      {voiceNotice && screen !== "overview" && <p className="voice-notice" role="status">{voiceNotice}</p>}
+
+      {screen === "overview" && <>
+        <section className="local-progress-controls" aria-label="本机学习记录">
+          <div><strong>本机学习记录</strong><p>本轮已完成 {progress.completed.filter(id=>chaptersById.has(id)).length} 个任务，本机共保存 {progress.completed.length} 个完成标记。{resumeChapter ? `正在探索：${resumeChapter.childEntry.childTitle}` : "可以从任意历史站出发。"}</p></div>
+          {confirmClear ? <div><p>清空这台浏览器中的完成标记和进行中故事？</p><button onClick={clearProgress}>确认清空</button><button onClick={() => setConfirmClear(false)}>保留记录</button></div> : <button onClick={() => setConfirmClear(true)}>清空本机记录</button>}
+          {storageNotice && <p role="status">{storageNotice}</p>}
+        </section>
+        <ContentOverview onBack={goHome} />
+      </>}
 
       {screen === "river" && (
         <section className="river-screen pop-in">
+          {resumeChapter && <button className="resume-story" onClick={() => openQuest(resumeChapter)}>
+            <Image src={resumeChapter.thumbnail} alt="" width={68} height={68} unoptimized /><span><small>地图帮你记着呢</small><strong>继续 · {resumeChapter.childEntry.childTitle}</strong></span><b aria-hidden="true">▶</b>
+          </button>}
           <div className="river-hero">
-            <div>
-              <p className="eyebrow">中国历史主轴 · 第一季</p>
-              <h1>沿着中华文明<br /><em>时间河</em>出发</h1>
-              <p className="hero-copy">先看清中国历史怎样一步步走来，<br />再去认识同一时间的世界。</p>
-              <div className="hero-actions">
-                <button className="primary-action" onClick={enterChapter}><span>▶</span> 开始隋唐第一章</button>
-                <button className="audio-action" onClick={() => void speak("river-intro")}>●)) 听一听</button>
-                <button className="overview-action" onClick={openOverview}>查看完整91章</button>
+            <div className="river-hero-copy">
+              <p className="eyebrow">小小历史旅行团 · 集合啦</p>
+              <h1>沿着时间河<br /><em>去历史里探险！</em></h1>
+              <p className="hero-copy">到秦朝量一量布，去长安看唐三彩，再跟着李白抬头望月。每一站，都有<strong>人物、地点和真文物</strong>，还有一个等你解开的谜。</p>
+              <div className="hero-river-teaser" aria-label="旅行线索：秦朝、唐三彩、李白的月亮和泉州大船">
+                <span><Image unoptimized src="/images/history-stations/united.webp" alt="" width={450} height={650} /><small>秦朝小工坊</small></span>
+                <span><Image unoptimized src="/images/history-clue-camel-v2.webp" alt="" width={400} height={650} /><small>长安骆驼</small></span>
+                <span><Image unoptimized src="/images/history-clue-moon-v2.webp" alt="" width={400} height={650} /><small>李白的月亮</small></span>
+                <span><Image unoptimized src="/images/history-clue-ship-v2.webp" alt="" width={440} height={650} /><small>泉州大船</small></span>
               </div>
-              <small className="basis-note">主轴依据：中国义务教育历史课程标准、中国国家博物馆“古代中国”基本陈列</small>
+              <div className="hero-actions">
+                <button className="primary-action" onClick={() => openStation(stations[0], 0)}><span>🧭</span> 拿上地图，出发！</button>
+                <button className="audio-action" onClick={() => listen("river-intro")}>🔊 听出发口令</button>
+              </div>
+              <small className="basis-note">历史主轴依据：中国义务教育历史课程标准、中国国家博物馆“古代中国”基本陈列</small>
             </div>
-            <div className="hero-object">
-              <img src="/tang-camel.jpg" alt="唐三彩双峰骆驼俑" />
-              <span className="real-badge">真实文物</span>
-              <div className="object-label"><strong>我们的第一位向导</strong><span>唐三彩双峰骆驼</span></div>
-            </div>
+            <figure className="hero-zine">
+              <div className="hero-zine-frame">
+                <Image unoptimized
+                  src="/images/history-tour-river-v4.webp"
+                  alt="黄衣男孩、戴圆框眼镜的绿衣男孩和马尾女孩，拿着地图沿时间河出发"
+                  width={971}
+                  height={1619}
+                  priority
+                  sizes="(max-width: 700px) 88vw, 430px"
+                />
+                <span className="hero-zine-stamp">沿着河，出发！</span>
+              </div>
+              <figcaption><strong>旅行团插画地图</strong><span>洞穴、文物、诗歌和港口在时间河边等你发现；它不是历史现场复原。</span></figcaption>
+            </figure>
           </div>
 
-          <div className="river-guide">
-            <div><span>1</span><p><strong>沿时间走</strong><small>先知道前后发生了什么</small></p></div>
-            <div><span>2</span><p><strong>跟故事走</strong><small>每章只回答一个大问题</small></p></div>
-            <div><span>3</span><p><strong>向世界看</strong><small>最后看看同时的世界</small></p></div>
+          <div className="river-map">
+            <div className="river-map-heading">
+              <h2>下一站，谁在河边等你？</h2>
+              <span className="river-direction">秦汉 ⟶ 明清</span>
+            </div>
+            <ol className="river-path" style={{gridTemplateColumns:`repeat(${stations.length}, minmax(138px, 1fr)) auto`}} aria-label="秦汉至明清时间河十站">
+              {stations.map((station, index) => {
+                const count = chaptersByPeriod.get(station.periodId)?.length ?? 0;
+                return (
+                  <li key={station.id} className="station available">
+                    <button
+                      data-period-id={station.periodId} onClick={() => openStation(station, index)}
+                      aria-label={`第${index + 1}站，${station.title}，看看这一站的${count}个故事`}
+                    >
+                      <span className="station-number">{index + 1}</span>
+                      <span className="station-emoji" aria-hidden="true"><Image unoptimized src={station.iconSrc} alt="" fill sizes="88px" /></span>
+                      <strong>{station.title}</strong>
+                      <small>{station.years}</small>
+                      <em>{station.childLine}</em>
+                      <span className="station-status">▶ {count}个小任务</span>
+                    </button>
+                  </li>
+                );
+              })}
+              <li className="river-end" aria-hidden="true"><span>🏠</span><small>下次再探险</small></li>
+            </ol>
+            <p className="river-hint">👆 点一站，挑一个想试的小任务。</p>
           </div>
 
-          <div className="timeline-wrap">
-            <div className="timeline-heading">
-              <div><p className="eyebrow">八段中国历史</p><h2>每一段，都从上一段走来</h2></div>
-              <span>互动试玩：隋唐五代</span>
+
+        </section>
+      )}
+
+      {panel && (
+        <div className="station-panel-backdrop" onClick={closePanel}>
+          <section ref={stationDialogRef} className="station-panel pop-in" role="dialog" aria-modal="true" aria-label={panel.title} onClick={(event) => event.stopPropagation()}>
+            <header className="panel-head">
+              <span className="panel-emoji" aria-hidden="true"><Image unoptimized src={panel.iconSrc} alt="" fill sizes="96px" /></span>
+              <div>
+                <small>{panel.kicker}</small>
+                <h2>{panel.title}</h2>
+                <p>{panel.years} · {panel.line}</p>
+              </div>
+              <button className="panel-close" onClick={closePanel} aria-label="关闭">✕</button>
+            </header>
+            {panel.chapters[0]?.gameplay.presentation?.story ? <div className="trip-station-welcome"><p>{panel.chapters[0].gameplay.presentation.story.stationLine}</p></div> : <p className="panel-count">挑一个你想试的小任务。</p>}
+            <div className="panel-grid">
+              {panel.chapters.map((chapter) => {
+                const completed = completedChapterIds.has(chapter.id);
+                return (
+                  <button
+                    key={chapter.id}
+                    data-chapter-id={chapter.id}
+                    className={`panel-card playable ${completed ? "completed" : ""}`}
+                    onClick={() => openQuest(chapter)}
+                  >
+                    <Image src={chapter.gameplay.coverImage} alt="" width={600} height={300} unoptimized />
+                    <span className="panel-card-hook">{chapter.gameplay.anchor}</span>
+                    <strong>{chapter.childEntry.childTitle}</strong>
+                    <small>{chapter.childEntry.prompt}</small>
+                    <span className="panel-card-status">
+                      {completed ? "✓ 已完成 · 再玩一次" : `▶ ${chapter.gameplay.cta}`}
+                    </span>
+                  </button>
+                );
+              })}
             </div>
-            <div className="timeline" aria-label="中国古代历史时间轴">
-              {eras.map((era, index) => (
-                <article key={era.id} className={era.active ? "active" : ""}>
-                  <div className="era-marker"><span>{index + 1}</span></div>
-                  <small>{era.years}</small>
-                  <h3>{era.title}</h3>
-                  <p>{era.childLine}</p>
-                  {era.active ? <button onClick={enterChapter}>进入这一章 →</button> : <i>内容稿已完成</i>}
-                </article>
+            <button className="panel-back" onClick={closePanel}>⬅ 回到时间河</button>
+          </section>
+        </div>
+      )}
+
+      {screen === "quest" && questChapter && !questStarted && (
+        <section className={`quest-cover focus-cover pop-in ${questChapter.gameplay.presentation?.story?"trip-cover":""}`} data-voice-id={questChapter.gameplay.coverAudio.id}>
+          <div className="trip-cover-artwork">
+            {questChapter.gameplay.presentation?.story ? <WorkbenchCover presentation={questChapter.gameplay.presentation}/> : <div className="quest-cover-photo"><Image src={questChapter.gameplay.coverImage} alt={questChapter.gameplay.coverImageAlt} width={900} height={430} loading="eager" unoptimized/><span className="real-badge">{questChapter.gameplay.coverImageKind}</span></div>}
+          </div>
+          <div className="quest-cover-copy">
+            <button className="back-link" onClick={goHome}>⬅ 回到时间河</button>
+            <p className="quest-time-location">🕰️ {questChapter.periodLabel} · {questChapter.periodYears}</p>
+            <h1>{questChapter.gameplay.presentation?.title??questChapter.childEntry.childTitle}</h1>
+            <p className="focus-hook">{questChapter.gameplay.hook.question}</p>
+            {questChapter.gameplay.presentation&&!questChapter.gameplay.presentation.story&&<div className="workbench-cover-strip"><Image src={questChapter.gameplay.presentation.sceneImage} alt={questChapter.gameplay.presentation.sceneAlt} width={600} height={240} unoptimized/><span>到工坊里亲手试试</span></div>}
+            <div className="quest-start-actions"><button className="next-button ready" onClick={()=>startQuest()}>{savedCoverStep?"接着玩":questChapter.gameplay.cta} →</button>{savedCoverStep&&<button className="restart-story" onClick={()=>startQuest(false)}>从头再试</button>}</div>
+            <button className="listen-button" onClick={()=>listen(questChapter.gameplay.coverAudio.id)}>{questChapter.gameplay.presentation?.story?"🔊 再听出发故事":"🔊 听任务"}</button>
+          </div>
+          <details className="focus-parent-note"><summary>👪 家长陪玩提示与材料说明</summary><p><strong>这次会遇见：</strong>{questChapter.gameplay.anchor}</p><p>{questChapter.gameplay.finish.parent}</p><p>{questChapter.gameplay.boundary}</p>{questChapter.textbookConnection&&<p><strong>可以延伸聊：</strong>{questChapter.textbookConnection.companions.map(c=>c.label).join("、")}</p>}{questChapter.gameplay.evidence.length>0&&<div className="focus-evidence-list">{questChapter.gameplay.evidence.map(e=><figure key={e.id}><Image src={e.image} alt={e.title} width={360} height={220} unoptimized/><figcaption>{e.title}</figcaption><p>{e.boundary}</p></figure>)}</div>}</details>
+        </section>
+      )}
+
+      {screen === "quest" && questChapter?.gameplay.presentation && questStarted && activeQuestStep && (
+        <ObjectWorkbench key={`${questChapter.id}:${activeQuestStep.id}`} step={activeQuestStep} seed={`${questChapter.id}:${activeQuestStep.id}`} presentation={questChapter.gameplay.presentation} periodLabel={questChapter.periodLabel} solved={questSolved} isLast={isLastQuestStep} speak={speakSequence} listen={listenSequence} onSolved={()=>setQuestSolved(true)} onNext={nextQuestStep} onInspect={()=>{const evidence=activeQuestStep.inspection;if(evidence)openImage({title:evidence.title,boundary:evidence.boundary,images:[{src:evidence.image,alt:evidence.title,caption:evidence.caption}],voice:evidence.audio,sourceLinks:evidence.sourceLinks})}}/>
+      )}
+
+      {screen === "quest" && questChapter && questStarted && activeQuestStep && !questChapter.gameplay.presentation && questStep < questChapter.gameplay.steps.length && (
+          <section className="quest-step story-step pop-in" data-voice-id={`${activeQuestStep.audio.transition.id},${activeQuestStep.audio.intro.id},${activeQuestStep.audio.question.id}`} data-asset-id={activeQuestStep.assetId}>
+            <button
+              className="quest-story-visual image-trigger"
+              type="button"
+              data-image-voice-id={activeQuestStep.audio.image.id}
+              aria-label={`放大${activeQuestStep.imageAlt}并听图片说明`}
+              onClick={() => openImage({
+                title: activeQuestStep.story.title,
+                boundary: activeQuestStep.imageBoundary,
+                images: [{ src: activeQuestStep.image, alt: activeQuestStep.imageAlt, caption: activeQuestStep.imageCaption }],
+                voice: activeQuestStep.audio.image,
+              })}
+            >
+              <Image src={activeQuestStep.image} alt={activeQuestStep.imageAlt} width={1200} height={900} loading="eager" unoptimized />
+              <span className="step-stamp">{activeQuestStep.image.startsWith("/content/study-scenes/")?"学习示意":"历史材料"}</span>
+              <div className="visual-caption"><strong>{activeQuestStep.story.title}</strong><span>{activeQuestStep.imageCaption || activeQuestStep.story.screenText}</span><span className="compact-image-caption">{activeQuestStep.imageAlt}</span></div>
+              <span className="image-listen-hint">🔊 点图放大并听说明</span>
+            </button>
+            <div className="story-copy quest-story-copy">
+              <button className="back-link" onClick={goHome}>⬅ 回到时间河</button>
+              <p className="quest-step-hook">{questChapter.periodLabel} · {activeQuestStep.title}</p>
+              <div className="quest-step-heading">
+                <QuestStepBadge key={`heading-${activeQuestStep.id}`} stepId={activeQuestStep.id} labelled />
+                <p className="eyebrow">第{questStep + 1}步 · {activeQuestStep.phase}</p>
+              </div>
+              <h2>{activeQuestStep.prompt}</h2>
+              <div className="quest-read-card"><p>{activeQuestStep.story.displayText}</p></div>
+              <button className="listen-button quest-listen" onClick={() => listenSequence([activeQuestStep.audio.transition.id, activeQuestStep.audio.intro.id, activeQuestStep.audio.question.id])}>🔊 重听这一页</button>
+              <QuestQuestion key={`${questChapter.id}-${activeQuestStep.id}`} step={activeQuestStep} seed={`${questChapter.id}:${activeQuestStep.id}`} speak={speakSequence} listen={listenSequence} onSolved={() => setQuestSolved(true)} />
+              {questSolved && (
+                <button
+                  className="next-button ready"
+                  onClick={nextQuestStep}
+                >
+                  {isLastQuestStep ? "和家人试一试" : "接着看看"} <span>→</span>
+                </button>
+              )}
+            </div>
+          </section>
+      )}
+
+      {screen === "quest" && questChapter && questStarted && questStep >= questChapter.gameplay.steps.length && (
+        <section className={`quest-finish focus-finish pop-in ${questChapter.gameplay.presentation?"workbench-finish":""}`} data-retell-state={finishRevealed?"answer":"first"} data-voice-id={questChapter.gameplay.finish.introAudio.id}>
+          <p className="eyebrow">{questChapter.gameplay.presentation?.story?"小小旅行团 · 带着发现回家":"🌟 你找到这次的小发现啦"}</p><h1>{questChapter.gameplay.finish.title}</h1>
+          {questChapter.gameplay.presentation ? <div className="workbench-finish-picture"><Image src={questChapter.gameplay.presentation.story?.reunionImage??questChapter.gameplay.presentation.sceneImage} alt={questChapter.gameplay.presentation.story?.reunionAlt??questChapter.gameplay.presentation.sceneAlt} width={1536} height={1024} unoptimized/><p>{questChapter.gameplay.presentation.story?.closingLine}</p></div> : <>
+          <p className="finish-instruction">不用背答案，和家人试这两个动作。</p>
+          <div className="finish-action-cards">{questChapter.gameplay.finish.actions.map((action,index)=>{const step=questChapter.gameplay.steps[questChapter.gameplay.finish.sceneStepIndexes?.[index]??index+2];const done=completedExtensionIds.has(`finish-${index}`);return <article key={action}><Image src={step.studyImage} alt={step.studyImageAlt} width={900} height={430} unoptimized/><span className="finish-action-number">{index+1}</span><p>{action}</p><button className="listen-button" onClick={()=>listen(questChapter.gameplay.finish.actionAudio[index].id)}>🔊 听这个动作</button><button className={`tried-action ${done?"done":""}`} aria-pressed={done} onClick={()=>setCompletedExtensionIds(current=>{const next=new Set(current);if(done)next.delete(`finish-${index}`);else next.add(`finish-${index}`);return next})}>{done?"✓ 试过啦":"✋ 我试过啦"}</button></article>})}</div>
+          </>}
+          <button className="listen-button quest-finish-listen" onClick={()=>{setFinishRevealed(true);listen(questChapter.gameplay.finishAudio.id)}}>🔊 听听这次发现</button>
+          {finishRevealed&&<p className="final-answer">{questChapter.childEntry.takeaway}</p>}
+          <FinishNavigation onHome={goHome} onReplay={()=>openQuest(questChapter,true)}/>
+          {questChapter.gameplay.presentation&&<details className="family-extra"><summary>和家人再量一量 <span>＋</span></summary><WorkbenchFamily presentation={questChapter.gameplay.presentation}><div className="workbench-family-directions">{questChapter.gameplay.finish.actions.map((action,index)=><p key={action}><button className="workbench-sound" aria-label={`听第${index+1}个动作`} onClick={()=>listen(questChapter.gameplay.finish.actionAudio[index].id)}><span aria-hidden="true">▶</span></button>{action}</p>)}</div></WorkbenchFamily></details>}
+          <details className="focus-parent-note"><summary>👪 家长怎么接话？</summary><p>{questChapter.gameplay.finish.parent}</p><p>{questChapter.gameplay.boundary}</p></details>
+        </section>
+      )}
+
+      {focusedImage && (
+        <div className="image-lightbox-backdrop" onClick={closeImage}>
+          <section
+            ref={imageDialogRef}
+            className="image-lightbox pop-in"
+            role="dialog"
+            aria-modal="true"
+            aria-label={`${focusedImage.title}图片说明`}
+            data-voice-id={focusedImage.voice.id}
+            onClick={(event) => event.stopPropagation()}
+          >
+            <button className="image-lightbox-close" type="button" onClick={closeImage} aria-label="关闭大图">✕</button>
+            <div className={`image-lightbox-visual ${focusedImage.images.length > 1 ? "multiple" : ""}`}>
+              {focusedImage.images.map((item) => (
+                <figure key={item.src}>
+                  <Image src={item.src} alt={item.alt} width={1600} height={1200} unoptimized />
+                  <figcaption>{item.caption}</figcaption>
+                </figure>
               ))}
             </div>
-          </div>
-        </section>
-      )}
+            <div className="image-lightbox-copy">
+              <small>🔎 图片说明</small>
+              <h2>{focusedImage.title}</h2>
+              <p>{focusedImage.voice.text}</p>
+              <button className="listen-button" type="button" onClick={() => listen(focusedImage.voice.id)}>🔊 再听一次图片说明</button>
+              <PauseButton />
+              <details className="image-evidence-boundary"><summary>家长看史料来源与图片说明</summary><p>{focusedImage.boundary}</p>{focusedImage.sourceLinks?.map(source=><p key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></p>)}</details>
 
-      {screen === "chapter" && step === 0 && (
-        <section className="chapter-cover pop-in">
-          <div className="chapter-photo">
-            <img src="/tang-camel.jpg" alt="唐三彩双峰骆驼俑" />
-            <span className="real-badge">真实文物</span>
-            <div className="museum-tag">唐代 · 普林斯顿大学艺术博物馆藏</div>
-          </div>
-          <div className="chapter-intro">
-            <button className="back-link" onClick={goHome}>← 返回时间河</button>
-            <p className="eyebrow">第六段 · 隋唐五代</p>
-            <h1>小骆驼<br />为什么要去长安？</h1>
-            <p className="chapter-question">我们要找到一条完整的答案：</p>
-            <div className="cause-preview"><span>路通了</span><b>→</b><span>人来了</span><b>→</b><span>长安变了</span></div>
-            <button className="listen-button" onClick={() => void speak("chapter-open")}>●)) 听故事开头</button>
-            <button className="next-button" onClick={() => goTo(1)}>跟小骆驼出发 <span>→</span></button>
-          </div>
-        </section>
-      )}
-
-      {screen === "chapter" && step === 1 && (
-        <section className="story-step pop-in">
-          <div className="story-visual split-artifacts">
-            <figure><img src="/tang-camel.jpg" alt="唐三彩双峰骆驼俑" /><figcaption>骆驼能驮着东西走远路</figcaption></figure>
-            <figure><img src="/tang-groom.jpg" alt="唐代陶制马夫俑" /><figcaption>人们也要一路照料牲畜</figcaption></figure>
-            <span className="step-stamp">起因 01</span>
-          </div>
-          <div className="story-copy">
-            <p className="eyebrow">路通了</p>
-            <h2>人们为什么<br />带骆驼出发？</h2>
-            <p className="story-line">长安很远。商队要带着货物和消息，走过漫长的路。</p>
-            <button className="listen-button" onClick={() => void speak("road-open")}>●)) 再听一次</button>
-            <div className="choice-stack">
-              <button className={answer === "carry" ? "right" : ""} onClick={() => choose("carry", "carry", "road-right", "road-wrong")}>能驮东西，也能走远路</button>
-              <button className={answer === "pretty" ? "wrong" : ""} onClick={() => choose("pretty", "carry", "road-right", "road-wrong")}>只是因为骆驼很好看</button>
             </div>
-            <p className={`answer-note ${answer ? "show" : ""}`}>{answer === "carry" ? "对！先有远行，才会有后面的相遇。" : "再想想：那么远的路，货物要怎样带过去？"}</p>
-            <button className="next-button" disabled={answer !== "carry"} onClick={() => goTo(2)}>到长安城门 <span>→</span></button>
-          </div>
-        </section>
-      )}
-
-      {screen === "chapter" && step === 2 && (
-        <section className="story-step reverse pop-in">
-          <div className="story-visual dancer-visual">
-            <img src="/tang-dancer.jpg" alt="唐代陶制外来舞者俑" />
-            <span className="step-stamp">经过 02</span>
-            <div className="visual-caption"><strong>人来了</strong><span>商品、音乐、舞蹈和新消息也来了</span></div>
-          </div>
-          <div className="story-copy">
-            <p className="eyebrow">人来了</p>
-            <h2>远方的人<br />只带货物吗？</h2>
-            <p className="story-line">不只。长安还能听见不同的音乐，看见不同的舞蹈。</p>
-            <button className="listen-button" onClick={() => void speak("meeting-open")}>●)) 再听一次</button>
-            <div className="choice-stack">
-              <button className={answer === "more" ? "right" : ""} onClick={() => choose("more", "more", "meeting-right", "meeting-wrong")}>不只，还有音乐和新消息</button>
-              <button className={answer === "goods" ? "wrong" : ""} onClick={() => choose("goods", "more", "meeting-right", "meeting-wrong")}>是的，他们只带货物</button>
-            </div>
-            <p className={`answer-note ${answer ? "show" : ""}`}>{answer === "more" ? "对！人见面，生活里的许多东西也会相遇。" : "看看舞者俑：他提醒我们，来的不只是货物。"}</p>
-            <button className="next-button" disabled={answer !== "more"} onClick={() => goTo(3)}>去看看新变化 <span>→</span></button>
-          </div>
-        </section>
-      )}
-
-      {screen === "chapter" && step === 3 && (
-        <section className="story-step pop-in">
-          <div className="story-visual cup-visual">
-            <img src="/tang-cup.jpg" alt="唐代鎏金银八角杯" />
-            <span className="step-stamp">结果 03</span>
-            <div className="visual-caption"><strong>新的器物出现了</strong><span>外来的样式，遇见唐朝工匠的手艺</span></div>
-          </div>
-          <div className="story-copy">
-            <p className="eyebrow">长安变了</p>
-            <h2>相遇以后<br />发生了什么？</h2>
-            <p className="story-line">工匠观察新的样式，再用自己的手艺，做出新的东西。</p>
-            <button className="listen-button" onClick={() => void speak("making-open")}>●)) 再听一次</button>
-            <div className="choice-stack">
-              <button className={answer === "create" ? "right" : ""} onClick={() => choose("create", "create", "making-right", "making-wrong")}>互相学习，做出新的东西</button>
-              <button className={answer === "ignore" ? "wrong" : ""} onClick={() => choose("ignore", "create", "making-right", "making-wrong")}>大家见面，却谁也不理谁</button>
-            </div>
-            <p className={`answer-note ${answer ? "show" : ""}`}>{answer === "create" ? "答对了！交流会让生活长出新的样子。" : "再看看银杯：它把不同地方的特点放在了一起。"}</p>
-            <button className="next-button" disabled={answer !== "create"} onClick={() => goTo(4)}>说出完整答案 <span>→</span></button>
-          </div>
-        </section>
-      )}
-
-      {screen === "chapter" && step === 4 && (
-        <section className="chapter-finish pop-in">
-          <div className="finish-heading">
-            <div><p className="eyebrow">这一章的完整答案</p><h1>为什么唐朝长安<br />那么热闹？</h1></div>
-            <button className="listen-button large" onClick={() => void speak("chapter-finish")}>●)) 听完整答案</button>
-          </div>
-          <div className="cause-chain">
-            {sourceCards.map((card, index) => (
-              <article key={card.label}>
-                <span>0{index + 1}</span>
-                <img src={card.image} alt={card.alt} />
-                <div><small>{index === 0 ? "路通了" : index === 1 ? "人来了" : "长安变了"}</small><h2>{card.label}</h2></div>
-                <a href={card.sourceUrl} target="_blank" rel="noreferrer">查看文物来源</a>
-              </article>
-            ))}
-          </div>
-          <div className="final-answer">
-            <p><strong>路把人们带到一起。</strong>人们带来商品、音乐和新想法；大家相遇、学习，又创造出新的东西。</p>
-            <div className="kid-badge"><span>★</span><div><small>获得称号</small><strong>长安故事小侦探</strong></div></div>
-          </div>
-          <div className="finish-actions"><button className="secondary-action" onClick={goHome}>回到时间河</button><button className="primary-action" onClick={() => goTo(0)}><span>↻</span> 再听一遍</button></div>
-        </section>
+          </section>
+        </div>
       )}
 
       <footer className="source-footer">
-        <span>历史主轴：教育部《义务教育历史课程标准（2022年版）》与中国国家博物馆“古代中国”</span>
-        <span>文物图片：普林斯顿大学艺术博物馆、大都会艺术博物馆公开馆藏</span>
-        <span>原型 0.4 · 91章审核入口 · 预生成普通话音频</span>
+        <span>秦汉至明清 · 本机亲子试玩</span>
+        {screen === "overview" ? (
+          <span>家长与编辑审核层</span>
+        ) : (
+          <button className="parent-entry" onClick={openOverview}>👪 家长入口 · {contentManifest.totals.chapters}章材料与说明</button>
+        )}
       </footer>
     </main>
   );

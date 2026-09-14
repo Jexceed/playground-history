@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.9.0",
+  "contentVersion": "0.10.0",
   "id": "cross-02-money-history",
   "trackId": "cross-disciplinary",
   "trackLabel": "跨学科主题学习",
@@ -13,7 +13,599 @@
   "title": "小钱币，大历史：怎样做一条有证据的钱币时间线",
   "coreQuestion": "货币的材料、形状、文字和发现地点能说明什么，又不能说明什么？",
   "throughline": "先沿商代货贝、战国多种区域铸币、秦半两、汉五铢、唐开元通宝、宋元纸币、明代宝钞与白银和清末机制币建立中国主时间线，再用8项开放实物照片区分原物、复制品、印钞工具与现代展陈；孩子比较材料、方孔、钱文、直径和法定换算，同时用‘能证明／不能证明’阻止由一枚钱虚构物价、主人和完整旅行路线，最后与吕底亚金币作无排名、无虚构接触的世界比较。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "cross-02-money-history",
+    "childTitle": "一枚钱要去哪里旅行",
+    "prompt": "贝壳、铜钱、纸币和银锭，为什么要换材料、形状和使用办法？",
+    "takeaway": "钱的样子会随国家、市场和技术变化，价值不只来自材料有多漂亮。",
+    "object": "货贝、半两、五铢、开元通宝与纸币印版",
+    "people": [
+      "铸币工匠、商人、官员与普通使用者"
+    ],
+    "place": "中国不同朝代的市场与铸币地点",
+    "culture": "钱币文字与吉祥纹样",
+    "care": "不比较财富、不收集掠夺品；复制品和印钞工具必须标清。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "一枚钱要去哪里旅行"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "古代钱排时间线",
+      "text": "先让贝壳、半两和五铢排成一条时间线。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "钱在市场里流动",
+      "text": "接着看开元通宝和纸币怎样在市场里流动。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "价值来自共同规则",
+      "text": "最后钱的样子会变，价值还来自共同规则。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "钱的样子会随国家、市场和技术变化，价值不只来自材料有多漂亮。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "货币",
+      "icon": "🪙",
+      "plain": "大家用来交换和计算价值的共同工具。",
+      "example": "贝壳、铜钱、纸币形状不同，都要看当时怎样使用。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "铸币",
+      "reading": "Zhùbì",
+      "kind": "phrase",
+      "chapterIds": [
+        "cross-02-money-history"
+      ],
+      "note": "“铸”读zhù。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "一枚钱要去哪里旅行",
+      "question": "贝壳、铜钱、纸币和银锭，为什么要换材料、形状和使用办法？"
+    },
+    "coverAudio": {
+      "id": "quest-469d999bfcde3319",
+      "text": "今天从一件东西出发：一枚钱要去哪里旅行。我们要去中国不同朝代的市场与铸币地点，看看货贝、半两、五铢、开元通宝与纸币印版怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-d520227d24bca2c0",
+      "text": "五条线索都找到了，“一枚钱要去哪里旅行”的答案是：钱的样子会随国家、市场和技术变化，价值不只来自材料有多漂亮。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 12,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这个故事会跨越很多时代，来比较跨时代证据任务。",
+          "narration": "这个故事会跨越很多时代，来比较跨时代证据任务。",
+          "displayText": "这个故事会跨越很多时代，来比较跨时代证据任务。"
+        },
+        "assetId": "qin-ban-liang-nmc-2012-cc0",
+        "image": "/content/step-images/qin-ban-liang-nmc-2012-cc0.jpg",
+        "imageAlt": "中国国家博物馆展陈的秦半两钱",
+        "imageCaption": "2012年拍摄的中国国家博物馆半两钱展陈，可见方孔圆形和‘半两’钱文。",
+        "imageBoundary": "本地JPEG为5184×3456像素。画面左侧还出现另一枚钱的局部，儿童界面应裁切或用指示框明确目标。照片无可靠比例尺，不能从显示大小读取真实直径、重量或购买力；法定‘半两’与每枚实际重量也需分开。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-67ed9824b7d74732",
+            "text": "这个故事会跨越很多时代，来比较跨时代证据任务。"
+          },
+          "image": {
+            "id": "quest-b231390519542b64",
+            "text": "点开大图啦。这是中国国家博物馆展陈的秦半两钱。这张图能帮我们找到：这个故事会跨越很多时代，来比较跨时代证据任务。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-02-money-history-time-1",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "cross-02-money-history-time-2",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "cross-02-money-history-time-3",
+            "label": "跨越很多时代 · 跨时代证据任务",
+            "correct": true,
+            "audio": {
+              "id": "quest-91c6443f7f3a1ac7",
+              "text": "跨越很多时代 · 跨时代证据任务"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "古代钱排时间线",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先让贝壳、半两和五铢排成一条时间线。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "古代钱排时间线",
+          "screenText": "先让贝壳、半两和五铢排成一条时间线。",
+          "narration": "先让贝壳、半两和五铢排成一条时间线。",
+          "displayText": "先让贝壳、半两和五铢排成一条时间线。"
+        },
+        "assetId": "western-han-wu-zhu-gary-todd-cc0",
+        "image": "/content/step-images/western-han-wu-zhu-gary-todd-cc0.jpg",
+        "imageAlt": "标作汉武帝时期的西汉五铢钱正反面",
+        "imageCaption": "文件页标作汉武帝时期、直径25.5毫米的西汉五铢钱正反面。",
+        "imageBoundary": "本地JPEG为4277×2591像素，属于个人收藏物照片。开放文件元数据提供年代和直径，113年上林三官五铢与中央铸币事实由国博记录交叉核对；不得从锈色判断原色、真伪、精确年代和金属配比。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-92660ece6b2ed3d9",
+            "text": "先让贝壳、半两和五铢排成一条时间线。"
+          },
+          "image": {
+            "id": "quest-c1cf551c2243451f",
+            "text": "点开大图啦。这是标作汉武帝时期的西汉五铢钱正反面。这张图能帮我们找到：先让贝壳、半两和五铢排成一条时间线。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-02-money-history-beginning-1",
+            "label": "铸币工匠、商人、官员与普通使用者、中国不，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-a8e8057dafeba285",
+              "text": "铸币工匠、商人、官员与普通使用者、中国不，只是故事人物"
+            }
+          },
+          {
+            "id": "cross-02-money-history-beginning-2",
+            "label": "货贝、半两、五铢、开元通宝与纸币印版，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-b3c93727a54c23f1",
+              "text": "货贝、半两、五铢、开元通宝与纸币印版，是能核对的证物"
+            }
+          },
+          {
+            "id": "cross-02-money-history-beginning-3",
+            "label": "中国不同朝代的市场与铸币地点、铸币工，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-a89058d587bb20fd",
+              "text": "中国不同朝代的市场与铸币地点、铸币工，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "钱在市场里流动",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看开元通宝和纸币怎样在市场里流动。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "钱在市场里流动",
+          "screenText": "接着看开元通宝和纸币怎样在市场里流动。",
+          "narration": "接着看开元通宝和纸币怎样在市场里流动。",
+          "displayText": "接着看开元通宝和纸币怎样在市场里流动。"
+        },
+        "assetId": "tang-kaiyuan-gary-todd-cc0",
+        "image": "/content/step-images/tang-kaiyuan-gary-todd-cc0.jpg",
+        "imageAlt": "标作唐高祖时期的开元通宝正反面",
+        "imageCaption": "文件页标作唐高祖时期、直径25毫米的开元通宝正反面。",
+        "imageBoundary": "本地JPEG为4069×2153像素，属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-4510e47e65a03acb",
+            "text": "接着看开元通宝和纸币怎样在市场里流动。"
+          },
+          "image": {
+            "id": "quest-d9ff762970aec1fd",
+            "text": "点开大图啦。这是标作唐高祖时期的开元通宝正反面。这张图能帮我们找到：接着看开元通宝和纸币怎样在市场里流动。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-02-money-history-journey-1",
+            "label": "接着看开元通宝和纸币怎样在市场里流动。",
+            "correct": true,
+            "audio": {
+              "id": "quest-4510e47e65a03acb",
+              "text": "接着看开元通宝和纸币怎样在市场里流动。"
+            }
+          },
+          {
+            "id": "cross-02-money-history-journey-2",
+            "label": "铸币工匠、商人、官员与普通使，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-c865334d2dc7b0b6",
+              "text": "铸币工匠、商人、官员与普通使，只认出人物"
+            }
+          },
+          {
+            "id": "cross-02-money-history-journey-3",
+            "label": "中国不同朝代的市场与铸币，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-2e1aba4de2a85a4a",
+              "text": "中国不同朝代的市场与铸币，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "价值来自共同规则",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后钱的样子会变，价值还来自共同规则。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "价值来自共同规则",
+          "screenText": "最后钱的样子会变，价值还来自共同规则。",
+          "narration": "最后钱的样子会变，价值还来自共同规则。",
+          "displayText": "最后钱的样子会变，价值还来自共同规则。"
+        },
+        "assetId": "shang-cowrie-money-2012-cc0",
+        "image": "/content/step-images/shang-cowrie-money-2012-cc0.jpg",
+        "imageAlt": "中国国家博物馆展陈的商代货贝",
+        "imageCaption": "2012年拍摄的中国国家博物馆商代货贝展陈，可见多枚穿孔海贝。",
+        "imageBoundary": "本地JPEG为5184×3456像素。图片能记录展柜、海贝外观和现代标签，不能确认每枚海贝的具体出土地、主人、交易过程或全部商代货币制度；普通贝壳不能仅凭外形被认作货币。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-917184234b7b8eba",
+            "text": "最后钱的样子会变，价值还来自共同规则。"
+          },
+          "image": {
+            "id": "quest-fa4f62899c7ef115",
+            "text": "点开大图啦。这是中国国家博物馆展陈的商代货贝。这张图能帮我们找到：最后钱的样子会变，价值还来自共同规则。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-02-money-history-change-1",
+            "label": "货贝、半两、五铢、开，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-da9a8f4261c8c20f",
+              "text": "货贝、半两、五铢、开，还只是故事起点"
+            }
+          },
+          {
+            "id": "cross-02-money-history-change-2",
+            "label": "看开元通宝和纸币怎样在市，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-aa0291d9ec9056d3",
+              "text": "看开元通宝和纸币怎样在市，还只是行动经过"
+            }
+          },
+          {
+            "id": "cross-02-money-history-change-3",
+            "label": "最后钱的样子会变，价值还来自共同规则。",
+            "correct": true,
+            "audio": {
+              "id": "quest-917184234b7b8eba",
+              "text": "最后钱的样子会变，价值还来自共同规则。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "钱的样子会随国家、市场和技术变化，价值不只来自材料有多漂亮。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "钱的样子会随国家、市场和技术变化，价值不只来自材料有多漂亮。",
+          "narration": "钱的样子会随国家、市场和技术变化，价值不只来自材料有多漂亮。",
+          "displayText": "钱的样子会随国家、市场和技术变化，价值不只来自材料有多漂亮。"
+        },
+        "assetId": "qin-ban-liang-nmc-2012-cc0",
+        "image": "/content/step-images/qin-ban-liang-nmc-2012-cc0.jpg",
+        "imageAlt": "中国国家博物馆展陈的秦半两钱",
+        "imageCaption": "2012年拍摄的中国国家博物馆半两钱展陈，可见方孔圆形和‘半两’钱文。",
+        "imageBoundary": "本地JPEG为5184×3456像素。画面左侧还出现另一枚钱的局部，儿童界面应裁切或用指示框明确目标。照片无可靠比例尺，不能从显示大小读取真实直径、重量或购买力；法定‘半两’与每枚实际重量也需分开。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-91d48a8afde4842b",
+            "text": "钱的样子会随国家、市场和技术变化，价值不只来自材料有多漂亮。"
+          },
+          "image": {
+            "id": "quest-a80945a69c307349",
+            "text": "点开大图啦。这是中国国家博物馆展陈的秦半两钱。这张图能帮我们找到：钱的样子会随国家、市场和技术变化，价值不只来自材料有多漂亮。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-02-money-history-takeaway-1",
+            "label": "让贝壳、半两和五铢排成一条时间线。、货贝、半两，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-458833eb424ff023",
+              "text": "让贝壳、半两和五铢排成一条时间线。、货贝、半两，只说了原因"
+            }
+          },
+          {
+            "id": "cross-02-money-history-takeaway-2",
+            "label": "钱的样子会随国家、市场和技术变化，价值不只来自材料有多漂亮。",
+            "correct": true,
+            "audio": {
+              "id": "quest-91d48a8afde4842b",
+              "text": "钱的样子会随国家、市场和技术变化，价值不只来自材料有多漂亮。"
+            }
+          },
+          {
+            "id": "cross-02-money-history-takeaway-3",
+            "label": "钱的样子会变，价值还来自共同规则。、一枚钱要去哪里，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-75ec323d704b2849",
+              "text": "钱的样子会变，价值还来自共同规则。、一枚钱要去哪里，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把8张货币卡放回时间线",
+        "items": [
+          "将“货贝、战国布币、秦半两、汉五铢、唐开元通宝、宋代纸币、元代钞版、明代宝钞”放到正确先后位置。",
+          "时间线显示朝代和年份，不把“宋代复制品的拍摄日期2012年”当作纸币年代。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "材料与身份双重分拣",
+        "items": [
+          "第一轮按“天然贝、金属钱、纸币、印钞工具”分类。",
+          "第二轮按“历史原物、现代复制品、现代展柜照片”分类；宋代纸币图片必须进入“现代复制品照片”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "量一量，但别量出不存在的答案",
+        "items": [
+          "使用来源已给出的25.5毫米五铢和25毫米开元通宝数据比较直径，不拿不同缩放照片直接测量。",
+          "将“钱文名称、来源给出的直径、照片中的锈色、实际购买力”分别放入“可直接记录／需专业检测／本图无法回答”。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "纸币证据侦探",
+        "items": [
+          "给“宋代复制品照片、会子铜版、元代钞版、明代宝钞记录”选择“能证明／不能证明”。",
+          "正确边界示例：“元代钞版能说明版面和印制工具，不能单独说明发行量与购买力。”"
+        ]
+      },
+      {
+        "number": 5,
+        "title": "制作并讲解钱币时间线",
+        "items": [
+          "孩子从8张货币卡中选5张按年代排列，每张至少填写4项已有证据，不知道的字段保留“未知”。",
+          "至少加入1组“延续”与1组“变化”，例如“方孔圆形延续；钱名从重量转向通宝”“金属钱继续存在；纸币和白银加入”。",
+          "最后为一张卡选择证据边界，例如：“这张照片能显示钱文和形状，不能告诉我它买过什么、经过哪些城市。”",
+          "点“听我的时间线”时，客户端只拼接预录的本地短句与已选卡片名称；不上传儿童声音，不调用在线生成模型，也不提供文物估价和财富排行。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 12,
   "conclusion": [
     "货币史不是一条“贝壳突然变成纸币”的直线，也不能靠一枚钱猜出整个时代。中国主线先从商代货贝和仿贝青铜币出发，观察春秋战国时期布币、刀币、圜钱和贝币并存；秦统一后，方孔圆形半两成为统一的基本形制，西汉中央铸造上林三官五铢，唐代开元通宝又把钱名从“铢、两”等重量名称转向“通宝”钱文。宋代出现交子、会子等纸币，元代以纸钞为主要流通货币，明代宝钞、铜钱和白银的制度规定与实际使用又不完全相同，清末则出现机制铜、银元。孩子用“年代、材料、形状、文字、尺寸或重量、出土地、文献”七格证据卡制作时间线，并明确：一件货币可以说明形制、文字、官方制度或某地发现，却不能单独证明精确物价、购买力、主人、完整旅行路线和所有人的使用情况。最后把中国方孔铜钱与约公元前560—前546年的吕底亚金币比较，只比较证据，不写成没有证据的中外直接接触。"
@@ -1159,80 +1751,104 @@
       "title": "中国国家博物馆展陈的商代货贝",
       "localPath": "reference-assets/cross-money-history/shang-cowrie-money.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chinese_Money_1_-_Shang_Cowrie_Money.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "2012年拍摄的中国国家博物馆商代货贝展陈，可见多枚穿孔海贝。",
-      "boundary": "本地JPEG为5184×3456像素。图片能记录展柜、海贝外观和现代标签，不能确认每枚海贝的具体出土地、主人、交易过程或全部商代货币制度；普通贝壳不能仅凭外形被认作货币。"
+      "boundary": "本地JPEG为5184×3456像素。图片能记录展柜、海贝外观和现代标签，不能确认每枚海贝的具体出土地、主人、交易过程或全部商代货币制度；普通贝壳不能仅凭外形被认作货币。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "warring-states-spade-nmc-2012-cc0",
       "title": "战国韩国卢氏百涅布币",
       "localPath": "reference-assets/cross-money-history/warring-states-spade-coin.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chinese_Money_4_-_Warring_States_Spade-shaped_Coin.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "2012年拍摄的中国国家博物馆战国韩国卢氏百涅布币展陈。",
-      "boundary": "本地JPEG存储为5184×3456像素并带方向信息，显示时为竖幅。布币形似铲，不表示这件货币曾作为农具使用；展签支持馆内名称和时代归类，不能由照片单独确定金属成分、重量、购买力和流通路线。"
+      "boundary": "本地JPEG存储为5184×3456像素并带方向信息，显示时为竖幅。布币形似铲，不表示这件货币曾作为农具使用；展签支持馆内名称和时代归类，不能由照片单独确定金属成分、重量、购买力和流通路线。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "qin-ban-liang-nmc-2012-cc0",
       "title": "中国国家博物馆展陈的秦半两钱",
       "localPath": "reference-assets/cross-money-history/qin-ban-liang.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chinese_Money_8_-_Ban_Liang_Coin.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "2012年拍摄的中国国家博物馆半两钱展陈，可见方孔圆形和‘半两’钱文。",
-      "boundary": "本地JPEG为5184×3456像素。画面左侧还出现另一枚钱的局部，儿童界面应裁切或用指示框明确目标。照片无可靠比例尺，不能从显示大小读取真实直径、重量或购买力；法定‘半两’与每枚实际重量也需分开。"
+      "boundary": "本地JPEG为5184×3456像素。画面左侧还出现另一枚钱的局部，儿童界面应裁切或用指示框明确目标。照片无可靠比例尺，不能从显示大小读取真实直径、重量或购买力；法定‘半两’与每枚实际重量也需分开。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "western-han-wu-zhu-gary-todd-cc0",
       "title": "标作汉武帝时期的西汉五铢钱正反面",
       "localPath": "reference-assets/cross-money-history/han-wu-zhu.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:042_S-114_W._Han_Wu_Zhu,_Han_Wudi,_140-87,_25.5mm.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "文件页标作汉武帝时期、直径25.5毫米的西汉五铢钱正反面。",
-      "boundary": "本地JPEG为4277×2591像素，属于个人收藏物照片。开放文件元数据提供年代和直径，113年上林三官五铢与中央铸币事实由国博记录交叉核对；不得从锈色判断原色、真伪、精确年代和金属配比。"
+      "boundary": "本地JPEG为4277×2591像素，属于个人收藏物照片。开放文件元数据提供年代和直径，113年上林三官五铢与中央铸币事实由国博记录交叉核对；不得从锈色判断原色、真伪、精确年代和金属配比。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "tang-kaiyuan-gary-todd-cc0",
       "title": "标作唐高祖时期的开元通宝正反面",
       "localPath": "reference-assets/cross-money-history/tang-kaiyuan-tongbao.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:101_S-312_Tang_Kaiyuan,_Gaozu,_618-626_ff,_25mm.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "文件页标作唐高祖时期、直径25毫米的开元通宝正反面。",
-      "boundary": "本地JPEG为4069×2153像素，属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。"
+      "boundary": "本地JPEG为4069×2153像素，属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "northern-song-paper-currency-reproduction-2012-cc0",
       "title": "中国国家博物馆展陈的北宋纸币复制品",
       "localPath": "reference-assets/cross-money-history/northern-song-paper-currency-reproduction.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chinese_Money_11_-_Northern_Song_Paper_Currency.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "2012年拍摄的中国国家博物馆北宋纸币复制品展陈。",
-      "boundary": "本地JPEG存储为3456×5184像素并显示为竖幅。文件页明确标注reproduction，必须在儿童可见层写‘复制品’，不能称为北宋原钞、原纸、考古出土原件或原始墨色证据。"
+      "boundary": "本地JPEG存储为3456×5184像素并显示为竖幅。文件页明确标注reproduction，必须在儿童可见层写‘复制品’，不能称为北宋原钞、原纸、考古出土原件或原始墨色证据。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "yuan-paper-currency-printing-block-2012-cc0",
       "title": "元代至元通行宝钞贰佰文铜钞版",
       "localPath": "reference-assets/cross-money-history/yuan-paper-currency-printing-block.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chinese_Money_17_-_Yuan_Paper_Currency_Printing_Block.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "2012年拍摄的中国国家博物馆元代至元通行宝钞贰佰文铜钞版。",
-      "boundary": "本地JPEG存储为5184×3456像素并带方向信息，显示时为竖幅。它是印钞用铜版，不是流通纸钞；能观察版面、文字和图案，不能由一件版推断发行量、流通范围、接受程度和实际购买力。"
+      "boundary": "本地JPEG存储为5184×3456像素并带方向信息，显示时为竖幅。它是印钞用铜版，不是流通纸钞；能观察版面、文字和图案，不能由一件版推断发行量、流通范围、接受程度和实际购买力。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "met-lydian-gold-stater-252457-public-domain",
       "title": "约公元前560—前546年吕底亚金币",
       "localPath": "reference-assets/cross-money-history/lydian-gold-stater.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/252457",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain-open-access",
       "caption": "约公元前560—前546年的吕底亚金币，正面为相对的狮与牛前躯。",
-      "boundary": "本地JPEG为4000×3000像素。藏品号26.59.5，金质，约1.2×1.6×0.4厘米、8.018克。只比较材料、形状和图像，不作中国与吕底亚直接接触证据，不做文明、国家或财富排名。"
+      "boundary": "本地JPEG为4000×3000像素。藏品号26.59.5，金质，约1.2×1.6×0.4厘米、8.018克。只比较材料、形状和图像，不作中国与吕底亚直接接触证据，不做文明、国家或财富排名。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cross-02-money-history.jpg",

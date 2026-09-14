@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-ancient-01-01-human-farming",
   "trackId": "world-ancient",
   "trackLabel": "世界古代史",
@@ -13,7 +13,566 @@
   "title": "人类怎样走出非洲并学会耕种",
   "coreQuestion": "早期人类迁徙和农业出现怎样改变了世界？",
   "throughline": "用化石、石器、遗址和地图观察早期人类活动、迁徙以及不同地区独立出现的农业生活。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-ancient-01-01-human-farming",
+    "childTitle": "一块磨盘和一张迁徙地图",
+    "prompt": "人类走向不同大陆以后，为什么在许多地方分别开始种植和定居？",
+    "takeaway": "不同地区的人各自尝试适合当地的植物和动物，农业不是从一个地方复制全球。",
+    "object": "石磨盘、陶器与迁徙地图",
+    "people": [
+      "不同地区的迁徙者和早期农人"
+    ],
+    "place": "非洲与世界多地的农业起源区域",
+    "culture": null,
+    "care": "儿童页面用磨盘、种子和地图；头骨模型仅供家长与编辑核对。",
+    "preferredAssetId": "shangshan-basin-cup-grinder-2024-photo"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🗺️",
+      "label": "从一张地图出发",
+      "text": "一块磨盘和一张迁徙地图"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "磨盘和地图放一起",
+      "text": "先把磨盘、陶器和迁徙地图放在一起。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "各地尝试不同作物",
+      "text": "接着看不同地方的人试种植物、照料动物。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "农业没有单一起点",
+      "text": "最后许多地区各自走向农业和定居。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "不同地区的人各自尝试适合当地的植物和动物，农业不是从一个地方复制全球。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "迁徙",
+      "icon": "👣",
+      "plain": "人们离开原住地，搬到别的地方生活。",
+      "example": "迁徙可能因为气候、生计、战争或主动选择。",
+      "priority": 1
+    },
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
+    {
+      "term": "全球",
+      "icon": "🌍",
+      "plain": "把整个世界许多地区放在一起观察。",
+      "example": "全球问题在各地影响不同，不能用一个例子代表全部。",
+      "priority": 3
+    },
+    {
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "priority": 1
+    },
+    {
+      "term": "考古",
+      "icon": "🧹",
+      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
+      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "非洲",
+      "reading": "Fēizhōu",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-01-01-human-farming",
+        "world-contemporary-03-01-second-world-war"
+      ],
+      "note": "大洲名称。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一张地图",
+      "icon": "🗺️",
+      "label": "一块磨盘和一张迁徙地图",
+      "question": "人类走向不同大陆以后，为什么在许多地方分别开始种植和定居？"
+    },
+    "coverAudio": {
+      "id": "quest-3b8d089cb72ce7ef",
+      "text": "今天从一张地图出发：一块磨盘和一张迁徙地图。我们要去非洲与世界多地的农业起源区域，看看石磨盘、陶器与迁徙地图怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-da436a9ff69ae770",
+      "text": "五条线索都找到了，“一块磨盘和一张迁徙地图”的答案是：不同地区的人各自尝试适合当地的植物和动物，农业不是从一个地方复制全球。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 8,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一张地图出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是古代文明，时间是早期人类—约5世纪。",
+          "narration": "这是古代文明，时间是早期人类—约5世纪。",
+          "displayText": "这是古代文明，时间是早期人类—约5世纪。"
+        },
+        "assetId": "simplified-world-map-base-cc0",
+        "image": "/content/step-images/simplified-world-map-base-cc0.svg",
+        "imageAlt": "无国界简化世界底图",
+        "imageCaption": "用于绘制早期人类迁徙概括路线与农业起源范围的无国界世界底图。",
+        "imageBoundary": "保存Commons提供的1603×742像素SVG原文件，未改动。底图经过简化且不含南极洲；迁徙箭头和农业起源范围由产品界面另绘，必须标成依据现有证据的概括或假说，不显示精确GPS路线、不使用现代国界划分史前人群，也不暗示文明等级。",
+        "audio": {
+          "transition": {
+            "id": "quest-9ef0fc145b345212",
+            "text": "先给一张地图找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-21581725ac4a1096",
+            "text": "这是古代文明，时间是早期人类—约5世纪。"
+          },
+          "image": {
+            "id": "quest-9ee77fbcb3145fc1",
+            "text": "点开大图啦。这是无国界简化世界底图。这张图能帮我们找到：这是古代文明，时间是早期人类—约5世纪。"
+          },
+          "question": {
+            "id": "quest-90f1cd3d8372a95d",
+            "text": "从一张地图出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-01-human-farming-time-1",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "world-ancient-01-01-human-farming-time-2",
+            "label": "世界古代史 · 古代文明 · 早期人类—约5世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-41ed781097729712",
+              "text": "世界古代史 · 古代文明 · 早期人类—约5世纪"
+            }
+          },
+          {
+            "id": "world-ancient-01-01-human-farming-time-3",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "磨盘和地图放一起",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先把磨盘、陶器和迁徙地图放在一起。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "磨盘和地图放一起",
+          "screenText": "先把磨盘、陶器和迁徙地图放在一起。",
+          "narration": "先把磨盘、陶器和迁徙地图放在一起。",
+          "displayText": "先把磨盘、陶器和迁徙地图放在一起。"
+        },
+        "assetId": "cishan-saddle-quern-roller-2025-photo",
+        "image": "/content/step-images/cishan-saddle-quern-roller-2025-photo.jpg",
+        "imageAlt": "磁山遗址石磨盘与磨棒展陈",
+        "imageCaption": "河北博物院展出的磁山遗址石磨盘和磨棒。",
+        "imageBoundary": "保存Commons提供的1800×1200像素文件，未裁切、未缩放；拍摄日期为2025年1月18日。照片呈现器物及展陈，不从外形单独推断具体作物、磨制方法、使用次数或使用者身份；磁山黍和小米信息来自遗址样本研究。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-7807e915941dba32",
+            "text": "先把磨盘、陶器和迁徙地图放在一起。"
+          },
+          "image": {
+            "id": "quest-f61f82335a0c2cec",
+            "text": "点开大图啦。这是磁山遗址石磨盘与磨棒展陈。这张图能帮我们找到：先把磨盘、陶器和迁徙地图放在一起。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-01-human-farming-beginning-1",
+            "label": "石磨盘、陶器与迁徙地图，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-c4b918636eea27c8",
+              "text": "石磨盘、陶器与迁徙地图，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-ancient-01-01-human-farming-beginning-2",
+            "label": "不同地区的迁徙者和早期农人，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-de51745c289705e6",
+              "text": "不同地区的迁徙者和早期农人，只是故事人物"
+            }
+          },
+          {
+            "id": "world-ancient-01-01-human-farming-beginning-3",
+            "label": "非洲与世界多地的农业起，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-5e26e77896fbf4bd",
+              "text": "非洲与世界多地的农业起，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "各地尝试不同作物",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看不同地方的人试种植物、照料动物。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "各地尝试不同作物",
+          "screenText": "接着看不同地方的人试种植物、照料动物。",
+          "narration": "接着看不同地方的人试种植物、照料动物。",
+          "displayText": "接着看不同地方的人试种植物、照料动物。"
+        },
+        "assetId": "cishan-saddle-quern-roller-2025-photo",
+        "image": "/content/step-images/cishan-saddle-quern-roller-2025-photo.jpg",
+        "imageAlt": "磁山遗址石磨盘与磨棒展陈",
+        "imageCaption": "河北博物院展出的磁山遗址石磨盘和磨棒。",
+        "imageBoundary": "保存Commons提供的1800×1200像素文件，未裁切、未缩放；拍摄日期为2025年1月18日。照片呈现器物及展陈，不从外形单独推断具体作物、磨制方法、使用次数或使用者身份；磁山黍和小米信息来自遗址样本研究。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-7091557767790b55",
+            "text": "接着看不同地方的人试种植物、照料动物。"
+          },
+          "image": {
+            "id": "quest-81766339bc397db7",
+            "text": "点开大图啦。这是磁山遗址石磨盘与磨棒展陈。这张图能帮我们找到：接着看不同地方的人试种植物、照料动物。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-01-human-farming-journey-1",
+            "label": "非洲与世界多地的农业起源，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-70f0a42cd4b8ab41",
+              "text": "非洲与世界多地的农业起源，只说了地点"
+            }
+          },
+          {
+            "id": "world-ancient-01-01-human-farming-journey-2",
+            "label": "不同地区的迁徙者和早期农人，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-180a9abc1d7729a6",
+              "text": "不同地区的迁徙者和早期农人，只认出人物"
+            }
+          },
+          {
+            "id": "world-ancient-01-01-human-farming-journey-3",
+            "label": "接着看不同地方的人试种植物、照料动物。",
+            "correct": true,
+            "audio": {
+              "id": "quest-7091557767790b55",
+              "text": "接着看不同地方的人试种植物、照料动物。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "农业没有单一起点",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后许多地区各自走向农业和定居。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "农业没有单一起点",
+          "screenText": "最后许多地区各自走向农业和定居。",
+          "narration": "最后许多地区各自走向农业和定居。",
+          "displayText": "最后许多地区各自走向农业和定居。"
+        },
+        "assetId": "kuk-new-guinea-2002-satellite-image",
+        "image": "/content/step-images/kuk-new-guinea-2002-satellite-image.jpg",
+        "imageAlt": "库克早期农业遗址周边卫星图",
+        "imageCaption": "2002年5月7日获取的巴布亚新几内亚库克地区卫星图，覆盖约31.6×40千米。",
+        "imageBoundary": "Commons原图2664×2108像素，等比例缩至2200×1741像素，未裁切。必须标明现代卫星图和获取日期；它用于空间定位，不能直接显示或证明数千年前的沟渠、植物、耕作行为和年代，古代事实以实地考古与世界遗产记录为准。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-c8da2c7dc6377f81",
+            "text": "最后许多地区各自走向农业和定居。"
+          },
+          "image": {
+            "id": "quest-c49bc663acbe2c0e",
+            "text": "点开大图啦。这是库克早期农业遗址周边卫星图。这张图能帮我们找到：最后许多地区各自走向农业和定居。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-01-human-farming-change-1",
+            "label": "石磨盘、陶器与，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-20b2882cf2f0de0e",
+              "text": "石磨盘、陶器与，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-ancient-01-01-human-farming-change-2",
+            "label": "最后许多地区各自走向农业和定居。",
+            "correct": true,
+            "audio": {
+              "id": "quest-c8da2c7dc6377f81",
+              "text": "最后许多地区各自走向农业和定居。"
+            }
+          },
+          {
+            "id": "world-ancient-01-01-human-farming-change-3",
+            "label": "看不同地方的人试种，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-8e0f51fc1283a225",
+              "text": "看不同地方的人试种，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "不同地区的人各自尝试适合当地的植物和动物，农业不是从一个地方复制全球。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "不同地区的人各自尝试适合当地的植物和动物，农业不是从一个地方复制全球。",
+          "narration": "不同地区的人各自尝试适合当地的植物和动物，农业不是从一个地方复制全球。",
+          "displayText": "不同地区的人各自尝试适合当地的植物和动物，农业不是从一个地方复制全球。"
+        },
+        "assetId": "kuk-new-guinea-2002-satellite-image",
+        "image": "/content/step-images/kuk-new-guinea-2002-satellite-image.jpg",
+        "imageAlt": "库克早期农业遗址周边卫星图",
+        "imageCaption": "2002年5月7日获取的巴布亚新几内亚库克地区卫星图，覆盖约31.6×40千米。",
+        "imageBoundary": "Commons原图2664×2108像素，等比例缩至2200×1741像素，未裁切。必须标明现代卫星图和获取日期；它用于空间定位，不能直接显示或证明数千年前的沟渠、植物、耕作行为和年代，古代事实以实地考古与世界遗产记录为准。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-0587418e0a4bd913",
+            "text": "不同地区的人各自尝试适合当地的植物和动物，农业不是从一个地方复制全球。"
+          },
+          "image": {
+            "id": "quest-22406da6d715d91e",
+            "text": "点开大图啦。这是库克早期农业遗址周边卫星图。这张图能帮我们找到：不同地区的人各自尝试适合当地的植物和动物，农业不是从一个地方复制全球。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-01-human-farming-takeaway-1",
+            "label": "不同地区的人各自尝试适合当地的植物和动物，农业不是从一个地方复制全球。",
+            "correct": true,
+            "audio": {
+              "id": "quest-0587418e0a4bd913",
+              "text": "不同地区的人各自尝试适合当地的植物和动物，农业不是从一个地方复制全球。"
+            }
+          },
+          {
+            "id": "world-ancient-01-01-human-farming-takeaway-2",
+            "label": "把磨盘、陶器和迁徙地图放在一起。、石磨盘、陶器与迁徙地图，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-cd1b817c95cc9021",
+              "text": "把磨盘、陶器和迁徙地图放在一起。、石磨盘、陶器与迁徙地图，只说了原因"
+            }
+          },
+          {
+            "id": "world-ancient-01-01-human-farming-takeaway-3",
+            "label": "许多地区各自走向农业和定居。、一块磨盘和一张迁徙地图、不同地，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-8f0f29b2f62b4ec7",
+              "text": "许多地区各自走向农业和定居。、一块磨盘和一张迁徙地图、不同地，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "证据能说到哪一步",
+        "items": [
+          "把“土层位置—记录线索在哪里”“测年记录—估计年代”“古DNA—比较人群联系”“植物遗存—辨认作物”“遗址—观察活动痕迹”“地图—整理空间关系”配对；每张卡另有一个“不能证明”选项，例如一件器物不能独自测年、地图箭头不是精确行程。不给复原人脸、肤色或表情加“真实”标签。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "迁徙不是一条高速路",
+        "items": [
+          "儿童把“气候和资源窗口—短距离移动—停留生活—与其他人群相遇—有人继续前行”排成几条都可能成立的路线；允许分支和回返，不设置最快人群、国家或肤色得分，也不把史前迁徙写成现代国家征服。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "多地农业实验桌",
+        "items": [
+          "把“中国南方—稻”“中国北方—黍与小米”“新几内亚高地—当地植物利用和湿地农业”等卡片放到世界底图，再选择“种植与采集并存”“器物还要配合植物遗存”“变化经过许多代”三张证据规则卡；不做文明、作物或生活方式排行榜。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "早期智人在非洲演化形成，后来许多人群在很长时间里分批迁徙、停留、相遇和融合，逐渐到达世界许多地区。大约1.2万年前以后，不同地区的人们分别开始更密切地照料植物和动物；农业不是某个人在某一天突然发明，也不是只从一个地方传播到全世界。中国南方的稻作、北方的粟作和新几内亚高地的农业遗存，都是全球多中心故事的一部分。化石、古DNA、器物和遗址各自只能回答一部分问题；把它们放在一起，才能谨慎地理解人类迁徙和农业形成。"
@@ -180,13 +739,13 @@
         {
           "number": 2,
           "label": "语音 S02：",
-          "text": "这么久以前没有录像，研究者怎样知道？他们寻找化石、古DNA、植物遗存、工具和遗址。每一种证据都像一块拼图：头骨能帮助观察形状，却不会自己说出年代；地图能整理线索，却不是史前人的导航记录。我们要不断问：这块证据真的能告诉我什么？",
+          "text": "这么久以前没有录像，研究者怎样知道？他们寻找化石、古DNA、植物遗存、工具和遗址。每一种证据都像一块拼图：器物能帮助观察做法，却不会自己说出年代；地图能整理线索，却不是史前人的导航记录。我们要不断问：这块证据真的能告诉我什么？",
           "segments": [
             {
               "id": "world-ancient-01-01-human-farming-s01-v02-01",
               "order": 1,
               "tier": "core",
-              "text": "这么久以前没有录像，研究者怎样知道？他们寻找化石、古DNA、植物遗存、工具和遗址。每一种证据都像一块拼图：头骨能帮助观察形状，却不会自己说出年代；地图能整理线索，却不是史前人的导航记录。",
+              "text": "这么久以前没有录像，研究者怎样知道？他们寻找化石、古DNA、植物遗存、工具和遗址。每一种证据都像一块拼图：器物能帮助观察做法，却不会自己说出年代；地图能整理线索，却不是史前人的导航记录。",
               "hanCharacters": 79
             },
             {
@@ -203,27 +762,27 @@
     },
     {
       "number": 2,
-      "title": "一件头骨模型能说明什么",
-      "screenText": "约31.5万年前，非洲已经生活着早期智人。模型帮助看形状，年代要靠遗址和测年研究。",
+      "title": "迁徙从一小段路开始",
+      "screenText": "一代人也许只走一小段，再停下来生活。很多代以后，路线才慢慢变长。",
       "voices": [
         {
           "number": 3,
           "label": "语音 S03：",
-          "text": "眼前这件头骨是博物馆里的模型，原型来自摩洛哥杰贝尔·伊鲁德遗址。研究者把化石形状、遗址地层和测年结果放在一起，认为那里约三十一万五千年前已经有早期智人。这个发现提醒我们，智人的早期演化可能发生在非洲很广的区域。它不能证明某个洞穴就是全人类唯一的出生地，更不能给今天的人分高低。",
+          "text": "研究者在非洲不同遗址找到很久以前智人生活的证据。人们并不是在同一天排成一队出发；一代人也许只走到水源旁、山谷外或下一片适合生活的地方。有人停下，有人后来继续走。许多代的小路连起来，才成为跨越大洲的长故事。我们不能把一个遗址叫作全人类唯一的出生点，也不能给今天的人分高低。",
           "segments": [
             {
               "id": "world-ancient-01-01-human-farming-s02-v03-01",
               "order": 1,
               "tier": "core",
-              "text": "眼前这件头骨是博物馆里的模型，原型来自摩洛哥杰贝尔·伊鲁德遗址。研究者把化石形状、遗址地层和测年结果放在一起，认为那里约三十一万五千年前已经有早期智人。",
-              "hanCharacters": 70
+              "text": "研究者在非洲不同遗址找到很久以前智人生活的证据。人们并不是在同一天排成一队出发；一代人也许只走到水源旁、山谷外或下一片适合生活的地方。有人停下，有人后来继续走。",
+              "hanCharacters": 74
             },
             {
               "id": "world-ancient-01-01-human-farming-s02-v03-02",
               "order": 2,
               "tier": "extension",
-              "text": "这个发现提醒我们，智人的早期演化可能发生在非洲很广的区域。它不能证明某个洞穴就是全人类唯一的出生地，更不能给今天的人分高低。",
-              "hanCharacters": 58
+              "text": "许多代的小路连起来，才成为跨越大洲的长故事。我们不能把一个遗址叫作全人类唯一的出生点，也不能给今天的人分高低。",
+              "hanCharacters": 51
             }
           ]
         }
@@ -352,7 +911,7 @@
       "number": 1,
       "title": "证据能说到哪一步",
       "items": [
-        "把“头骨模型—观察形状”“测年记录—估计年代”“古DNA—比较人群联系”“植物遗存—辨认作物”“遗址—观察活动痕迹”“地图—整理空间关系”配对；每张卡另有一个“不能证明”选项，例如模型不能独自测年、地图箭头不是精确行程。不给复原人脸、肤色或表情加“真实”标签。"
+        "把“土层位置—记录线索在哪里”“测年记录—估计年代”“古DNA—比较人群联系”“植物遗存—辨认作物”“遗址—观察活动痕迹”“地图—整理空间关系”配对；每张卡另有一个“不能证明”选项，例如一件器物不能独自测年、地图箭头不是精确行程。不给复原人脸、肤色或表情加“真实”标签。"
       ]
     },
     {
@@ -478,50 +1037,65 @@
       "title": "杰贝尔·伊鲁德1号头骨模型",
       "localPath": "reference-assets/world-ancient-human-farming/jebel-irhoud-skull-cast-2024.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Jebel_Irhoud-1_NMNH.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2024年拍摄的史密森尼国家自然历史博物馆杰贝尔·伊鲁德1号头骨模型。",
-      "boundary": "保存Commons提供的1453×1546像素原图，未裁切、未缩放。必须在儿童主图固定标明“模型/复制品，不是原始化石”；照片只能帮助观察模型形状，化石身份、地点与年代以研究论文和馆方标签为依据。"
+      "boundary": "只供家长与编辑核对，不进入儿童页面。保存Commons提供的1453×1546像素原图，未裁切、未缩放；展示时必须标明“模型/复制品，不是原始化石”。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "shangshan-basin-cup-grinder-2024-photo",
       "title": "上山文化盆、陶杯与磨盘展陈",
       "localPath": "reference-assets/world-ancient-human-farming/shangshan-basin-cup-grinder-2024.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Basin,_Pottery_cup_%26_Grinder,_Neolithic,_Shangshan_Culture_(9000-6800_BC),_Xialang_site,_Xianju,_Zhejiang.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "中国考古博物馆展出的新石器时代上山文化盆、陶杯与磨盘，器物来自浙江仙居下汤遗址。",
-      "boundary": "保存Commons提供的1859×1822像素文件，未裁切、未缩放。拍摄日期为2024年7月13日。器名、文化和遗址信息来自展陈与文件页；照片本身不能证明磨盘加工过稻米、器物残留物、具体使用者或日常生活场景。"
+      "boundary": "保存Commons提供的1859×1822像素文件，未裁切、未缩放。拍摄日期为2024年7月13日。器名、文化和遗址信息来自展陈与文件页；照片本身不能证明磨盘加工过稻米、器物残留物、具体使用者或日常生活场景。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "cishan-saddle-quern-roller-2025-photo",
       "title": "磁山遗址石磨盘与磨棒展陈",
       "localPath": "reference-assets/world-ancient-human-farming/cishan-saddle-quern-roller-2025.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:20250118_Stone_Saddle-quern_and_Roller_01.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "河北博物院展出的磁山遗址石磨盘和磨棒。",
-      "boundary": "保存Commons提供的1800×1200像素文件，未裁切、未缩放；拍摄日期为2025年1月18日。照片呈现器物及展陈，不从外形单独推断具体作物、磨制方法、使用次数或使用者身份；磁山黍和小米信息来自遗址样本研究。"
+      "boundary": "保存Commons提供的1800×1200像素文件，未裁切、未缩放；拍摄日期为2025年1月18日。照片呈现器物及展陈，不从外形单独推断具体作物、磨制方法、使用次数或使用者身份；磁山黍和小米信息来自遗址样本研究。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "kuk-new-guinea-2002-satellite-image",
       "title": "库克早期农业遗址周边卫星图",
       "localPath": "reference-assets/world-ancient-human-farming/kuk-new-guinea-2002.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kuk_New_Guinea_2002.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain (NASA)",
       "clearance": "cleared-public-domain",
       "caption": "2002年5月7日获取的巴布亚新几内亚库克地区卫星图，覆盖约31.6×40千米。",
-      "boundary": "Commons原图2664×2108像素，等比例缩至2200×1741像素，未裁切。必须标明现代卫星图和获取日期；它用于空间定位，不能直接显示或证明数千年前的沟渠、植物、耕作行为和年代，古代事实以实地考古与世界遗产记录为准。"
+      "boundary": "Commons原图2664×2108像素，等比例缩至2200×1741像素，未裁切。必须标明现代卫星图和获取日期；它用于空间定位，不能直接显示或证明数千年前的沟渠、植物、耕作行为和年代，古代事实以实地考古与世界遗产记录为准。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "simplified-world-map-base-cc0",
       "title": "无国界简化世界底图",
       "localPath": "reference-assets/world-ancient-human-farming/world-map-base-cc0.svg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Simplified_blank_world_map_without_Antartica_(no_borders).svg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "用于绘制早期人类迁徙概括路线与农业起源范围的无国界世界底图。",
-      "boundary": "保存Commons提供的1603×742像素SVG原文件，未改动。底图经过简化且不含南极洲；迁徙箭头和农业起源范围由产品界面另绘，必须标成依据现有证据的概括或假说，不显示精确GPS路线、不使用现代国界划分史前人群，也不暗示文明等级。"
+      "boundary": "保存Commons提供的1603×742像素SVG原文件，未改动。底图经过简化且不含南极洲；迁徙箭头和农业起源范围由产品界面另绘，必须标成依据现有证据的概括或假说，不显示精确GPS路线、不使用现代国界划分史前人群，也不暗示文明等级。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-ancient-01-01-human-farming.jpg",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-02-03-zhou-order",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
@@ -13,7 +13,557 @@
   "title": "西周怎样组织一个大国家",
   "coreQuestion": "分封和礼制怎样维系西周的统治秩序？",
   "throughline": "利用地图、青铜铭文与礼器组合理解分封、宗法和礼制，同时看到地方文化之间的交流。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-ancient-02-03-zhou-order",
+    "childTitle": "大鼎上藏着谁的名字",
+    "prompt": "一段铸在青铜器里的文字，怎样帮助人们管理很远的地方？",
+    "takeaway": "鼎上的名字和命令说明：周王用分封、礼仪和许多执行者联系远方。",
+    "object": "大盂鼎和利簋铭文",
+    "people": [
+      "周王、受封者和铸器工匠"
+    ],
+    "place": "陕西周原与宝鸡一带",
+    "culture": "青铜铭文",
+    "care": "不把分封画成现代快递地图，也不让礼器代表所有人的生活。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "大鼎上藏着谁的名字"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "鼎里藏着名字",
+      "text": "先在大盂鼎和利簋里，找人名、时间和赏赐。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "任务送到远方",
+      "text": "接着看周王怎样把任务交给不同地方的人。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "铭文留下责任",
+      "text": "最后发现铭文把礼仪、权力和责任一起留下。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "鼎上的名字和命令说明：周王用分封、礼仪和许多执行者联系远方。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "责任",
+      "icon": "🤲",
+      "plain": "答应或应当承担、需要认真完成的事情。",
+      "example": "拥有公共权利，也常要承担相应责任。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "周原",
+      "reading": "Zhōuyuán",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-02-03-zhou-order"
+      ],
+      "note": "周代重要遗址区名称。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "大鼎上藏着谁的名字",
+      "question": "一段铸在青铜器里的文字，怎样帮助人们管理很远的地方？"
+    },
+    "coverAudio": {
+      "id": "quest-9300f77df48c8886",
+      "text": "今天从一件东西出发：大鼎上藏着谁的名字。我们要去陕西周原与宝鸡一带，看看大盂鼎和利簋铭文怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-6bfa4fda0d3652af",
+      "text": "五条线索都找到了，“大鼎上藏着谁的名字”的答案是：鼎上的名字和命令说明：周王用分封、礼仪和许多执行者联系远方。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 8,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是夏商西周，时间是约公元前21世纪—前771年。",
+          "narration": "这是夏商西周，时间是约公元前21世纪—前771年。",
+          "displayText": "这是夏商西周，时间是约公元前21世纪—前771年。"
+        },
+        "assetId": "xsz-da-yu-ding",
+        "image": "/content/step-images/xsz-da-yu-ding.jpg",
+        "imageAlt": "西周大盂鼎实物照片",
+        "imageCaption": "中国国家博物馆展出的西周大盂鼎。",
+        "imageBoundary": "图片分辨率较低，适合作为器物全形辅助图；铭文内容以国博资料为准。来源页现版本做过倾斜校正。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-eb0a73fab01bc2e7",
+            "text": "这是夏商西周，时间是约公元前21世纪—前771年。"
+          },
+          "image": {
+            "id": "quest-ab0fe369dcf9e36d",
+            "text": "点开大图啦。这是西周大盂鼎实物照片。这张图能帮我们找到：这是夏商西周，时间是约公元前21世纪—前771年。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-03-zhou-order-time-1",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "cn-ancient-02-03-zhou-order-time-2",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "cn-ancient-02-03-zhou-order-time-3",
+            "label": "中国古代史 · 夏商西周 · 约公元前21世纪—前771年",
+            "correct": true,
+            "audio": {
+              "id": "quest-887c975d5fc6d910",
+              "text": "中国古代史 · 夏商西周 · 约公元前21世纪—前771年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "鼎里藏着名字",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先在大盂鼎和利簋里，找人名、时间和赏赐。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "鼎里藏着名字",
+          "screenText": "先在大盂鼎和利簋里，找人名、时间和赏赐。",
+          "narration": "先在大盂鼎和利簋里，找人名、时间和赏赐。",
+          "displayText": "先在大盂鼎和利簋里，找人名、时间和赏赐。"
+        },
+        "assetId": "xsz-li-gui",
+        "image": "/content/step-images/xsz-li-gui.jpg",
+        "imageAlt": "西周利簋实物照片",
+        "imageCaption": "中国国家博物馆展出的西周利簋。",
+        "imageBoundary": "铭文内容以中国国家博物馆资料核验；未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-e8112830e74b2bb2",
+            "text": "先在大盂鼎和利簋里，找人名、时间和赏赐。"
+          },
+          "image": {
+            "id": "quest-58d763151af05782",
+            "text": "点开大图啦。这是西周利簋实物照片。这张图能帮我们找到：先在大盂鼎和利簋里，找人名、时间和赏赐。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-03-zhou-order-beginning-1",
+            "label": "陕西周原与宝鸡一，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec79000190e4938c",
+              "text": "陕西周原与宝鸡一，只是故事地点"
+            }
+          },
+          {
+            "id": "cn-ancient-02-03-zhou-order-beginning-2",
+            "label": "大盂鼎和利簋铭文，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-4260a1a99abb5873",
+              "text": "大盂鼎和利簋铭文，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-ancient-02-03-zhou-order-beginning-3",
+            "label": "周王、受封者和铸器工，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-fb5f63336991a2c7",
+              "text": "周王、受封者和铸器工，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "任务送到远方",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看周王怎样把任务交给不同地方的人。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "任务送到远方",
+          "screenText": "接着看周王怎样把任务交给不同地方的人。",
+          "narration": "接着看周王怎样把任务交给不同地方的人。",
+          "displayText": "接着看周王怎样把任务交给不同地方的人。"
+        },
+        "assetId": "xsz-da-yu-ding",
+        "image": "/content/step-images/xsz-da-yu-ding.jpg",
+        "imageAlt": "西周大盂鼎实物照片",
+        "imageCaption": "中国国家博物馆展出的西周大盂鼎。",
+        "imageBoundary": "图片分辨率较低，适合作为器物全形辅助图；铭文内容以国博资料为准。来源页现版本做过倾斜校正。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-461f1a98f2bca344",
+            "text": "接着看周王怎样把任务交给不同地方的人。"
+          },
+          "image": {
+            "id": "quest-6b3a19cc64cbc886",
+            "text": "点开大图啦。这是西周大盂鼎实物照片。这张图能帮我们找到：接着看周王怎样把任务交给不同地方的人。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-03-zhou-order-journey-1",
+            "label": "接着看周王怎样把任务交给不同地方的人。",
+            "correct": true,
+            "audio": {
+              "id": "quest-461f1a98f2bca344",
+              "text": "接着看周王怎样把任务交给不同地方的人。"
+            }
+          },
+          {
+            "id": "cn-ancient-02-03-zhou-order-journey-2",
+            "label": "陕西周原与宝鸡一带、大盂，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-3912517c808b5bc0",
+              "text": "陕西周原与宝鸡一带、大盂，只说了地点"
+            }
+          },
+          {
+            "id": "cn-ancient-02-03-zhou-order-journey-3",
+            "label": "周王、受封者和铸器工匠、大盂，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-c3e32bf58f9830cb",
+              "text": "周王、受封者和铸器工匠、大盂，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "铭文留下责任",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后发现铭文把礼仪、权力和责任一起留下。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "铭文留下责任",
+          "screenText": "最后发现铭文把礼仪、权力和责任一起留下。",
+          "narration": "最后发现铭文把礼仪、权力和责任一起留下。",
+          "displayText": "最后发现铭文把礼仪、权力和责任一起留下。"
+        },
+        "assetId": "xsz-da-yu-ding",
+        "image": "/content/step-images/xsz-da-yu-ding.jpg",
+        "imageAlt": "西周大盂鼎实物照片",
+        "imageCaption": "中国国家博物馆展出的西周大盂鼎。",
+        "imageBoundary": "图片分辨率较低，适合作为器物全形辅助图；铭文内容以国博资料为准。来源页现版本做过倾斜校正。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-4a8db08877695d33",
+            "text": "最后发现铭文把礼仪、权力和责任一起留下。"
+          },
+          "image": {
+            "id": "quest-af177e8040be3be1",
+            "text": "点开大图啦。这是西周大盂鼎实物照片。这张图能帮我们找到：最后发现铭文把礼仪、权力和责任一起留下。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-03-zhou-order-change-1",
+            "label": "看周王怎样把任务交给不同地，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-64b66b1b487efc46",
+              "text": "看周王怎样把任务交给不同地，还只是行动经过"
+            }
+          },
+          {
+            "id": "cn-ancient-02-03-zhou-order-change-2",
+            "label": "大盂鼎和利簋铭文、陕西，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-3c9288e5dfbc32e5",
+              "text": "大盂鼎和利簋铭文、陕西，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-ancient-02-03-zhou-order-change-3",
+            "label": "最后发现铭文把礼仪、权力和责任一起留下。",
+            "correct": true,
+            "audio": {
+              "id": "quest-4a8db08877695d33",
+              "text": "最后发现铭文把礼仪、权力和责任一起留下。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "鼎上的名字和命令说明：周王用分封、礼仪和许多执行者联系远方。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "鼎上的名字和命令说明：周王用分封、礼仪和许多执行者联系远方。",
+          "narration": "鼎上的名字和命令说明：周王用分封、礼仪和许多执行者联系远方。",
+          "displayText": "鼎上的名字和命令说明：周王用分封、礼仪和许多执行者联系远方。"
+        },
+        "assetId": "xsz-da-yu-ding",
+        "image": "/content/step-images/xsz-da-yu-ding.jpg",
+        "imageAlt": "西周大盂鼎实物照片",
+        "imageCaption": "中国国家博物馆展出的西周大盂鼎。",
+        "imageBoundary": "图片分辨率较低，适合作为器物全形辅助图；铭文内容以国博资料为准。来源页现版本做过倾斜校正。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-0071d9ff0a7b9bca",
+            "text": "鼎上的名字和命令说明：周王用分封、礼仪和许多执行者联系远方。"
+          },
+          "image": {
+            "id": "quest-da664446f57268dd",
+            "text": "点开大图啦。这是西周大盂鼎实物照片。这张图能帮我们找到：鼎上的名字和命令说明：周王用分封、礼仪和许多执行者联系远方。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-03-zhou-order-takeaway-1",
+            "label": "发现铭文把礼仪、权力和责任一起留下。、大鼎上藏着谁，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-d465502b1a68effd",
+              "text": "发现铭文把礼仪、权力和责任一起留下。、大鼎上藏着谁，只说了结果"
+            }
+          },
+          {
+            "id": "cn-ancient-02-03-zhou-order-takeaway-2",
+            "label": "鼎上的名字和命令说明：周王用分封、礼仪和许多执行者联系远方。",
+            "correct": true,
+            "audio": {
+              "id": "quest-0071d9ff0a7b9bca",
+              "text": "鼎上的名字和命令说明：周王用分封、礼仪和许多执行者联系远方。"
+            }
+          },
+          {
+            "id": "cn-ancient-02-03-zhou-order-takeaway-3",
+            "label": "在大盂鼎和利簋里，找人名、时间和赏赐。、大盂鼎，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-c21ae97d6a7d1665",
+              "text": "在大盂鼎和利簋里，找人名、时间和赏赐。、大盂鼎，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "关系网而非涂色图",
+        "items": [
+          "孩子连接周王、诸侯、封国、军队和礼仪；不以现代国界色块表现均匀控制。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "读一次册命",
+        "items": [
+          "将大盂鼎铭文内容简化成“追述—告诫—任命—赏赐—作器”五张卡，按资料顺序排列。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "礼器组合观察",
+        "items": [
+          "比较三组虚拟陈列的器物数量与组合，只判断“等级可能不同”，不猜具体墓主人姓名。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "西周建立后，周王把宗亲、功臣等分封到不同地区，形成诸侯国网络，并通过册命、职责和礼仪维持联系。青铜铭文记录了王的任命、赏赐和贵族的责任，礼器组合也显示等级差别。它不是现代中央政府直接管理每个地方的制度；诸侯拥有自己的地域和力量，周王室与地方的关系会随时间变化。"
@@ -321,20 +871,26 @@
       "title": "西周利簋实物照片",
       "localPath": "reference-assets/xia-shang-zhou/li-gui.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Western_Zhou_%22Li%22_Bronze_Gui.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "中国国家博物馆展出的西周利簋。",
-      "boundary": "铭文内容以中国国家博物馆资料核验；未修改原图。"
+      "boundary": "铭文内容以中国国家博物馆资料核验；未修改原图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "xsz-da-yu-ding",
       "title": "西周大盂鼎实物照片",
       "localPath": "reference-assets/xia-shang-zhou/da-yu-ding.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:大盂鼎_Da_Yu_ding.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "中国国家博物馆展出的西周大盂鼎。",
-      "boundary": "图片分辨率较低，适合作为器物全形辅助图；铭文内容以国博资料为准。来源页现版本做过倾斜校正。"
+      "boundary": "图片分辨率较低，适合作为器物全形辅助图；铭文内容以国博资料为准。来源页现版本做过倾斜校正。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-02-03-zhou-order.jpg",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.8.0",
+  "contentVersion": "0.9.0",
   "id": "cn-modern-06-01-peace-talks-and-civil-war",
   "trackId": "china-modern",
   "trackLabel": "中国近代史",
@@ -13,7 +13,595 @@
   "title": "抗战胜利后，和平为什么没有到来",
   "coreQuestion": "重庆谈判之后，国内局势怎样走向全面内战？",
   "throughline": "从重庆谈判、政治协商会议、全面内战爆发和解放区土地改革，理解人民对和平民主的愿望与局势变化。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "cn-modern-06-01-peace-talks-and-civil-war",
+    "childTitle": "毛泽东为什么坐飞机去重庆",
+    "prompt": "大家都说希望和平，为什么谈判以后还是走向了全面内战？",
+    "takeaway": "谈判留下和平努力的证据，但分歧、权力选择和军事行动让内战扩大。",
+    "object": "双十协定、谈判照片与分期地图",
+    "people": [
+      "毛泽东、周恩来、谈判代表与期待和平的民众"
+    ],
+    "place": "重庆、南京与国内各地",
+    "culture": "和平宣言与新闻照片",
+    "care": "把谈判、协议和后来行动分开，不设计攻城、武器或领土得分。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "👋",
+      "label": "从一个人出发",
+      "text": "毛泽东为什么坐飞机去重庆"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "飞机飞到重庆",
+      "text": "先看毛泽东坐飞机到重庆参加谈判。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "签下双十协定",
+      "text": "接着看代表讨论，并签下《双十协定》。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "和平愿望未实现",
+      "text": "最后和平愿望没有实现，地图上的局势继续变化。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "谈判留下和平努力的证据，但分歧、权力选择和军事行动让内战扩大。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "和平",
+      "icon": "🕊️",
+      "plain": "人们不靠战争解决分歧，并努力避免暴力伤害。",
+      "example": "和平需要规则、谈判和行动，不只是说一句愿望。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "领土",
+      "icon": "🗺️",
+      "plain": "一个国家依法拥有和管理的土地、水域等范围。",
+      "example": "历史地图要标时间，边界不会一直不变。",
+      "priority": 2
+    },
+    {
+      "term": "改革",
+      "icon": "🛠️",
+      "plain": "发现旧办法有问题，改变规则或做法。",
+      "example": "改革可能带来新机会，也可能遇到阻力和新问题。",
+      "priority": 1
+    },
+    {
+      "term": "民主",
+      "icon": "🗳️",
+      "plain": "公共事情不只由一个人说了算，人们按规则参与。",
+      "example": "不同年代参与范围不同，不能把古代投票当成今天制度。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "周恩来",
+      "reading": "Zhōu Ēnlái",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-06-01-peace-talks-and-civil-war",
+        "world-contemporary-04-03-decolonization"
+      ],
+      "note": "“恩”读ēn。"
+    },
+    {
+      "text": "重庆",
+      "reading": "Chóngqìng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-06-01-peace-talks-and-civil-war"
+      ],
+      "note": "“重”在地名中读chóng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个人",
+      "icon": "👋",
+      "label": "毛泽东为什么坐飞机去重庆",
+      "question": "大家都说希望和平，为什么谈判以后还是走向了全面内战？"
+    },
+    "coverAudio": {
+      "id": "quest-74a3d5312f101dd6",
+      "text": "今天从一个人出发：毛泽东为什么坐飞机去重庆。我们要去重庆、南京与国内各地，看看双十协定、谈判照片与分期地图怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-3aa6b61ddc6f0273",
+      "text": "五条线索都找到了，“毛泽东为什么坐飞机去重庆”的答案是：谈判留下和平努力的证据，但分歧、权力选择和军事行动让内战扩大。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个人出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是人民解放战争，时间是1945—1949年。",
+          "narration": "这是人民解放战争，时间是1945—1949年。",
+          "displayText": "这是人民解放战争，时间是1945—1949年。"
+        },
+        "assetId": "guiyuan-chongqing-2011-photo",
+        "image": "/content/step-images/guiyuan-chongqing-2011-photo.jpg",
+        "imageAlt": "2011年重庆桂园外景",
+        "imageCaption": "2011年拍摄的重庆桂园，《双十协定》签署地。",
+        "imageBoundary": "这是今天保存的历史建筑外景，不是1945年签署现场照片；街道、店面、车辆、树木和建筑维护状态属于当代环境。保存3648×2736像素原图，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-26e845d2917e6a26",
+            "text": "先给一个人找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-130869fb8b443330",
+            "text": "这是人民解放战争，时间是1945—1949年。"
+          },
+          "image": {
+            "id": "quest-612e1e50d5417b4d",
+            "text": "点开大图啦。这是2011年重庆桂园外景。这张图能帮我们找到：这是人民解放战争，时间是1945—1949年。"
+          },
+          "question": {
+            "id": "quest-1c5cffbdae9ffb27",
+            "text": "从一个人出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-time-1",
+            "label": "世界现代史 · 战后世界新变化 · 1945—1991年",
+            "correct": false,
+            "audio": {
+              "id": "quest-0e96b9cae516d4bb",
+              "text": "世界现代史 · 战后世界新变化 · 1945—1991年"
+            }
+          },
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-time-2",
+            "label": "中国近代史 · 人民解放战争 · 1945—1949年",
+            "correct": true,
+            "audio": {
+              "id": "quest-ab1a850a0e7f7fba",
+              "text": "中国近代史 · 人民解放战争 · 1945—1949年"
+            }
+          },
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-time-3",
+            "label": "世界现代史 · 第二次世界大战 · 1931—1945年",
+            "correct": false,
+            "audio": {
+              "id": "quest-7181b4ced8e577fc",
+              "text": "世界现代史 · 第二次世界大战 · 1931—1945年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "飞机飞到重庆",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看毛泽东坐飞机到重庆参加谈判。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "飞机飞到重庆",
+          "screenText": "先看毛泽东坐飞机到重庆参加谈判。",
+          "narration": "先看毛泽东坐飞机到重庆参加谈判。",
+          "displayText": "先看毛泽东坐飞机到重庆参加谈判。"
+        },
+        "assetId": "chongqing-negotiations-mao-chiang-1945-photo",
+        "image": "/content/step-images/chongqing-negotiations-mao-chiang-1945-photo.jpg",
+        "imageAlt": "1945年重庆谈判期间毛泽东与蒋介石合影",
+        "imageCaption": "1945年9月，重庆谈判期间，毛泽东与蒋介石在同一场合的合影。",
+        "imageBoundary": "合影证明两人共同出现，不能依据距离、表情或举杯动作推断谈判已经成功、分歧已经消失或全部政策立场。保存1018×1109像素原图，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-6c68cd53127b1433",
+            "text": "先看毛泽东坐飞机到重庆参加谈判。"
+          },
+          "image": {
+            "id": "quest-061c187d1d860b4b",
+            "text": "点开大图啦。这是1945年重庆谈判期间毛泽东与蒋介石合影。这张图能帮我们找到：先看毛泽东坐飞机到重庆参加谈判。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-beginning-1",
+            "label": "双十协定、谈判照片与分期地图，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-3a5a5eb7ab271a2f",
+              "text": "双十协定、谈判照片与分期地图，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-beginning-2",
+            "label": "毛泽东、周恩来、谈判代表与期待和，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-68573cb8b21a1135",
+              "text": "毛泽东、周恩来、谈判代表与期待和，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-beginning-3",
+            "label": "重庆、南京与国内各地、毛泽东，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-8dfbd8a545ea3022",
+              "text": "重庆、南京与国内各地、毛泽东，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "签下双十协定",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看代表讨论，并签下《双十协定》。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "签下双十协定",
+          "screenText": "接着看代表讨论，并签下《双十协定》。",
+          "narration": "接着看代表讨论，并签下《双十协定》。",
+          "displayText": "接着看代表讨论，并签下《双十协定》。"
+        },
+        "assetId": "guiyuan-chongqing-2011-photo",
+        "image": "/content/step-images/guiyuan-chongqing-2011-photo.jpg",
+        "imageAlt": "2011年重庆桂园外景",
+        "imageCaption": "2011年拍摄的重庆桂园，《双十协定》签署地。",
+        "imageBoundary": "这是今天保存的历史建筑外景，不是1945年签署现场照片；街道、店面、车辆、树木和建筑维护状态属于当代环境。保存3648×2736像素原图，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-9fe93cc7119231c0",
+            "text": "接着看代表讨论，并签下《双十协定》。"
+          },
+          "image": {
+            "id": "quest-952707a25a30d41e",
+            "text": "点开大图啦。这是2011年重庆桂园外景。这张图能帮我们找到：接着看代表讨论，并签下《双十协定》。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-journey-1",
+            "label": "重庆、南京与国内各地，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-1690c2b020e82857",
+              "text": "重庆、南京与国内各地，只说了地点"
+            }
+          },
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-journey-2",
+            "label": "毛泽东、周恩来、谈判代表与，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-bbff893ff1f7608d",
+              "text": "毛泽东、周恩来、谈判代表与，只认出人物"
+            }
+          },
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-journey-3",
+            "label": "接着看代表讨论，并签下《双十协定》。",
+            "correct": true,
+            "audio": {
+              "id": "quest-9fe93cc7119231c0",
+              "text": "接着看代表讨论，并签下《双十协定》。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "和平愿望未实现",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后和平愿望没有实现，地图上的局势继续变化。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "和平愿望未实现",
+          "screenText": "最后和平愿望没有实现，地图上的局势继续变化。",
+          "narration": "最后和平愿望没有实现，地图上的局势继续变化。",
+          "displayText": "最后和平愿望没有实现，地图上的局势继续变化。"
+        },
+        "assetId": "political-consultative-conference-1946-photo",
+        "image": "/content/step-images/political-consultative-conference-1946-photo.jpg",
+        "imageAlt": "1946年政治协商会议中的周恩来与罗隆基",
+        "imageCaption": "1946年重庆政治协商会议现场照片，画面中标注人物为周恩来与罗隆基。",
+        "imageBoundary": "照片只记录会议中的一个瞬间和部分人员；不能代表所有党派与代表，也不能把1946年政治协商会议误作1949年成立的中国人民政治协商会议。原图400×234像素，清晰度有限，不做人脸细节放大。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-a750df57a5ade2f1",
+            "text": "最后和平愿望没有实现，地图上的局势继续变化。"
+          },
+          "image": {
+            "id": "quest-e5b171f9f1cbc365",
+            "text": "点开大图啦。这是1946年政治协商会议中的周恩来与罗隆基。这张图能帮我们找到：最后和平愿望没有实现，地图上的局势继续变化。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-change-1",
+            "label": "双十协定、谈判照片与分期地，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-468f1ba8a0104166",
+              "text": "双十协定、谈判照片与分期地，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-change-2",
+            "label": "最后和平愿望没有实现，地图上的局势继续变化。",
+            "correct": true,
+            "audio": {
+              "id": "quest-a750df57a5ade2f1",
+              "text": "最后和平愿望没有实现，地图上的局势继续变化。"
+            }
+          },
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-change-3",
+            "label": "看代表讨论，并签下《双十协定》，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-c16c5a85a154b264",
+              "text": "看代表讨论，并签下《双十协定》，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "谈判留下和平努力的证据，但分歧、权力选择和军事行动让内战扩大。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "谈判留下和平努力的证据，但分歧、权力选择和军事行动让内战扩大。",
+          "narration": "谈判留下和平努力的证据，但分歧、权力选择和军事行动让内战扩大。",
+          "displayText": "谈判留下和平努力的证据，但分歧、权力选择和军事行动让内战扩大。"
+        },
+        "assetId": "china-land-law-outline-1947-scan",
+        "image": "/content/step-images/china-land-law-outline-1947-scan.jpg",
+        "imageAlt": "1947年《中国土地法大纲》历史文献扫描页",
+        "imageCaption": "《中国土地法大纲》历史出版物的题名页扫描图。",
+        "imageBoundary": "从22页DjVu文献生成的第一页1920×2775像素缩略图；页面只能证明文献名称和实体出版物存在，具体条款、实施范围、偏差与纠正仍以党史研究资料逐项核验。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-c6b2127f34986c0f",
+            "text": "谈判留下和平努力的证据，但分歧、权力选择和军事行动让内战扩大。"
+          },
+          "image": {
+            "id": "quest-c9801a1f6170ca0a",
+            "text": "点开大图啦。这是1947年《中国土地法大纲》历史文献扫描页。这张图能帮我们找到：谈判留下和平努力的证据，但分歧、权力选择和军事行动让内战扩大。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-takeaway-1",
+            "label": "谈判留下和平努力的证据，但分歧、权力选择和军事行动让内战扩大。",
+            "correct": true,
+            "audio": {
+              "id": "quest-c6b2127f34986c0f",
+              "text": "谈判留下和平努力的证据，但分歧、权力选择和军事行动让内战扩大。"
+            }
+          },
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-takeaway-2",
+            "label": "看毛泽东坐飞机到重庆参加谈判。、双十协定、谈判照，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-3fb4754d2ad88798",
+              "text": "看毛泽东坐飞机到重庆参加谈判。、双十协定、谈判照，只说了原因"
+            }
+          },
+          {
+            "id": "cn-modern-06-01-peace-talks-and-civil-war-takeaway-3",
+            "label": "和平愿望没有实现，地图上的局势继续变化。、毛泽东为什，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-40d994a2e375505d",
+              "text": "和平愿望没有实现，地图上的局势继续变化。、毛泽东为什，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "和平努力时间链",
+        "items": [
+          "把“重庆谈判—签署《双十协定》—政治协商会议—全面内战爆发”按时间排列，并给“协议已签署”和“协议得到执行”贴上不同标签。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "一张合影能证明什么",
+        "items": [
+          "观察重庆谈判合影、桂园今日照片和政治协商会议照片，分别判断它们能证明“人物共同出现”“今天保存的签署地点”“一次会议中的部分参加者”，不能用表情猜测全部立场。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "战局变化拼图",
+        "items": [
+          "把“转战陕北—保存和牵制”“挺进大别山—转入外线进攻”“土地改革—扩大群众支持”连成关系网，不设置占领城市、击败人数或抢夺土地得分。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "抗战胜利后，中国人民盼望和平、民主。国共双方经过重庆谈判签署《双十协定》，各党派和社会人士又参加政治协商会议，但已经达成的和平协议没有得到执行，1946年6月全面内战爆发。中国共产党一面争取和平，一面领导人民军队防御进攻；到1947年，人民解放军转入战略进攻。解放区土地改革改变了农民的生活与政治态度，也使人民战争得到更广泛的支持。"
@@ -366,40 +954,52 @@
       "title": "1945年重庆谈判期间毛泽东与蒋介石合影",
       "localPath": "reference-assets/china-modern-liberation-war/chongqing-negotiations-1945.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chiang_Kai-shek_and_Mao_Zedong.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — historical photograph published in China",
       "clearance": "cleared-open-license",
       "caption": "1945年9月，重庆谈判期间，毛泽东与蒋介石在同一场合的合影。",
-      "boundary": "合影证明两人共同出现，不能依据距离、表情或举杯动作推断谈判已经成功、分歧已经消失或全部政策立场。保存1018×1109像素原图，未作修改。"
+      "boundary": "合影证明两人共同出现，不能依据距离、表情或举杯动作推断谈判已经成功、分歧已经消失或全部政策立场。保存1018×1109像素原图，未作修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "guiyuan-chongqing-2011-photo",
       "title": "2011年重庆桂园外景",
       "localPath": "reference-assets/china-modern-liberation-war/guiyuan-2011.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Guiyuan.JPG",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "2011年拍摄的重庆桂园，《双十协定》签署地。",
-      "boundary": "这是今天保存的历史建筑外景，不是1945年签署现场照片；街道、店面、车辆、树木和建筑维护状态属于当代环境。保存3648×2736像素原图，未作修改。"
+      "boundary": "这是今天保存的历史建筑外景，不是1945年签署现场照片；街道、店面、车辆、树木和建筑维护状态属于当代环境。保存3648×2736像素原图，未作修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "political-consultative-conference-1946-photo",
       "title": "1946年政治协商会议中的周恩来与罗隆基",
       "localPath": "reference-assets/china-modern-liberation-war/political-consultative-conference-1946.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Zhou_Enlai_and_Luo_Longji_on_the_Political_Consultative_Conference.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — photograph taken in China in 1946",
       "clearance": "cleared-open-license",
       "caption": "1946年重庆政治协商会议现场照片，画面中标注人物为周恩来与罗隆基。",
-      "boundary": "照片只记录会议中的一个瞬间和部分人员；不能代表所有党派与代表，也不能把1946年政治协商会议误作1949年成立的中国人民政治协商会议。原图400×234像素，清晰度有限，不做人脸细节放大。"
+      "boundary": "照片只记录会议中的一个瞬间和部分人员；不能代表所有党派与代表，也不能把1946年政治协商会议误作1949年成立的中国人民政治协商会议。原图400×234像素，清晰度有限，不做人脸细节放大。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "china-land-law-outline-1947-scan",
       "title": "1947年《中国土地法大纲》历史文献扫描页",
       "localPath": "reference-assets/china-modern-liberation-war/chinese-land-law-outline-1947.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:CADAL3000159_%E4%B8%AD%E5%9C%8B%E5%9C%9F%E5%9C%B0%E6%B3%95%E5%A4%A7%E7%B6%B1.djvu",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — mechanical scan of a public-domain publication",
       "clearance": "cleared-open-license",
       "caption": "《中国土地法大纲》历史出版物的题名页扫描图。",
-      "boundary": "从22页DjVu文献生成的第一页1920×2775像素缩略图；页面只能证明文献名称和实体出版物存在，具体条款、实施范围、偏差与纠正仍以党史研究资料逐项核验。"
+      "boundary": "从22页DjVu文献生成的第一页1920×2775像素缩略图；页面只能证明文献名称和实体出版物存在，具体条款、实施范围、偏差与纠正仍以党史研究资料逐项核验。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-modern-06-01-peace-talks-and-civil-war.jpg",

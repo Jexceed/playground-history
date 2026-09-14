@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-ancient-01-02-river-civilizations",
   "trackId": "world-ancient",
   "trackLabel": "世界古代史",
@@ -13,7 +13,608 @@
   "title": "大河边为什么出现早期文明",
   "coreQuestion": "尼罗河和两河流域的人们怎样建设城市与国家？",
   "throughline": "从金字塔、象形文字、楔形文字和《汉谟拉比法典》等证据，比较古埃及与两河流域文明。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-ancient-01-02-river-civilizations",
+    "childTitle": "金字塔旁边为什么需要一条河",
+    "prompt": "河水、泥土、灌溉和城市，怎样一起帮助早期国家出现？",
+    "takeaway": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。",
+    "object": "金字塔遗址、泥板与汉谟拉比石碑",
+    "people": [
+      "农人、工匠、书吏与统治者"
+    ],
+    "place": "尼罗河流域与两河流域",
+    "culture": "象形文字与楔形文字",
+    "care": "不做文明排名；石碑是古代司法判例汇集，不称现代完整法典。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📍",
+      "label": "从一个地方出发",
+      "text": "金字塔旁边为什么需要一条河"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "河水带来泥土",
+      "text": "先看尼罗河涨水给田地带来水和泥土。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "修渠需要分工",
+      "text": "接着看人们修渠分工，城市里出现书吏和工匠。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "城市留下文字",
+      "text": "最后金字塔、泥板和法典留下早期国家的线索。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "文明",
+      "icon": "🏙️",
+      "plain": "许多人长期创造的社会生活与文化成果。",
+      "example": "不同文明各有环境和道路，不做高低排名。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "王朝",
+      "icon": "👑",
+      "plain": "以皇帝政权延续的一段历史时期。",
+      "example": "唐朝是王朝；唐朝结束不等于所有事情当天停止。",
+      "priority": 2
+    },
+    {
+      "term": "宗教",
+      "icon": "🕯️",
+      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
+      "example": "同一种宗教内部也有不同地区、时代和人群。",
+      "priority": 2
+    },
+    {
+      "term": "王权",
+      "icon": "👑",
+      "plain": "国王或皇帝掌握的统治权力。",
+      "example": "王权强不等于国王一个人能完成所有事情。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "尼罗河",
+      "reading": "Níluóhé",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-01-02-river-civilizations"
+      ],
+      "note": "河流名称。"
+    },
+    {
+      "text": "楔形文字",
+      "reading": "Xiēxíng wénzì",
+      "kind": "polyphone",
+      "chapterIds": [
+        "world-ancient-01-02-river-civilizations"
+      ],
+      "note": "“楔”读xiē。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个地方",
+      "icon": "📍",
+      "label": "金字塔旁边为什么需要一条河",
+      "question": "河水、泥土、灌溉和城市，怎样一起帮助早期国家出现？"
+    },
+    "coverAudio": {
+      "id": "quest-89be60686814d7e6",
+      "text": "今天从一个地方出发：金字塔旁边为什么需要一条河。我们要去尼罗河流域与两河流域，看看金字塔遗址、泥板与汉谟拉比石碑怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-c0942ac8b10085be",
+      "text": "五条线索都找到了，“金字塔旁边为什么需要一条河”的答案是：河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个地方出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是古代文明，时间是早期人类—约5世纪。",
+          "narration": "这是古代文明，时间是早期人类—约5世纪。",
+          "displayText": "这是古代文明，时间是早期人类—约5世纪。"
+        },
+        "assetId": "hammurabi-stele-2011-photo",
+        "image": "/content/step-images/hammurabi-stele-2011-photo.jpg",
+        "imageAlt": "汉谟拉比石碑2011年实拍",
+        "imageCaption": "2011年在卢浮宫拍摄的汉谟拉比石碑，上部浮雕和部分楔形文字清晰可见。",
+        "imageBoundary": "Commons原图2848×3272像素，等比例缩至1915×2200像素，未裁切。石碑事实以卢浮宫记录为准：约公元前1750年、现存282条司法判例，不是现代意义的完整法典。照片是现代展陈且只显示局部，不能冒充巴比伦颁布现场、证明原始展示地点或展示全部文字。",
+        "audio": {
+          "transition": {
+            "id": "quest-cafb042b318bc60f",
+            "text": "先给一个地方找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-21581725ac4a1096",
+            "text": "这是古代文明，时间是早期人类—约5世纪。"
+          },
+          "image": {
+            "id": "quest-d270bebbe14e2b5e",
+            "text": "点开大图啦。这是汉谟拉比石碑2011年实拍。这张图能帮我们找到：这是古代文明，时间是早期人类—约5世纪。"
+          },
+          "question": {
+            "id": "quest-6b36b10ba4b7def9",
+            "text": "从一个地方出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-02-river-civilizations-time-1",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "world-ancient-01-02-river-civilizations-time-2",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "world-ancient-01-02-river-civilizations-time-3",
+            "label": "世界古代史 · 古代文明 · 早期人类—约5世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-41ed781097729712",
+              "text": "世界古代史 · 古代文明 · 早期人类—约5世纪"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "河水带来泥土",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看尼罗河涨水给田地带来水和泥土。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "河水带来泥土",
+          "screenText": "先看尼罗河涨水给田地带来水和泥土。",
+          "narration": "先看尼罗河涨水给田地带来水和泥土。",
+          "displayText": "先看尼罗河涨水给田地带来水和泥土。"
+        },
+        "assetId": "hammurabi-stele-2011-photo",
+        "image": "/content/step-images/hammurabi-stele-2011-photo.jpg",
+        "imageAlt": "汉谟拉比石碑2011年实拍",
+        "imageCaption": "2011年在卢浮宫拍摄的汉谟拉比石碑，上部浮雕和部分楔形文字清晰可见。",
+        "imageBoundary": "Commons原图2848×3272像素，等比例缩至1915×2200像素，未裁切。石碑事实以卢浮宫记录为准：约公元前1750年、现存282条司法判例，不是现代意义的完整法典。照片是现代展陈且只显示局部，不能冒充巴比伦颁布现场、证明原始展示地点或展示全部文字。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-fe02057bfe6627cf",
+            "text": "先看尼罗河涨水给田地带来水和泥土。"
+          },
+          "image": {
+            "id": "quest-95a1a73aca101acf",
+            "text": "点开大图啦。这是汉谟拉比石碑2011年实拍。这张图能帮我们找到：先看尼罗河涨水给田地带来水和泥土。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-02-river-civilizations-beginning-1",
+            "label": "农人、工匠、书吏与统治者、尼罗河流，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-9b1fae58b3d253fc",
+              "text": "农人、工匠、书吏与统治者、尼罗河流，只是故事人物"
+            }
+          },
+          {
+            "id": "world-ancient-01-02-river-civilizations-beginning-2",
+            "label": "金字塔遗址、泥板与汉谟拉比石碑，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-4ffbf1a77bfff092",
+              "text": "金字塔遗址、泥板与汉谟拉比石碑，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-ancient-01-02-river-civilizations-beginning-3",
+            "label": "尼罗河流域与两河流域、农人、工，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-016d515e8539ca02",
+              "text": "尼罗河流域与两河流域、农人、工，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "修渠需要分工",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看人们修渠分工，城市里出现书吏和工匠。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "修渠需要分工",
+          "screenText": "接着看人们修渠分工，城市里出现书吏和工匠。",
+          "narration": "接着看人们修渠分工，城市里出现书吏和工匠。",
+          "displayText": "接着看人们修渠分工，城市里出现书吏和工匠。"
+        },
+        "assetId": "hammurabi-stele-2011-photo",
+        "image": "/content/step-images/hammurabi-stele-2011-photo.jpg",
+        "imageAlt": "汉谟拉比石碑2011年实拍",
+        "imageCaption": "2011年在卢浮宫拍摄的汉谟拉比石碑，上部浮雕和部分楔形文字清晰可见。",
+        "imageBoundary": "Commons原图2848×3272像素，等比例缩至1915×2200像素，未裁切。石碑事实以卢浮宫记录为准：约公元前1750年、现存282条司法判例，不是现代意义的完整法典。照片是现代展陈且只显示局部，不能冒充巴比伦颁布现场、证明原始展示地点或展示全部文字。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-5be7fb0fd23b1b3c",
+            "text": "接着看人们修渠分工，城市里出现书吏和工匠。"
+          },
+          "image": {
+            "id": "quest-2dd38d01fd03232c",
+            "text": "点开大图啦。这是汉谟拉比石碑2011年实拍。这张图能帮我们找到：接着看人们修渠分工，城市里出现书吏和工匠。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-02-river-civilizations-journey-1",
+            "label": "接着看人们修渠分工，城市里出现书吏和工匠。",
+            "correct": true,
+            "audio": {
+              "id": "quest-5be7fb0fd23b1b3c",
+              "text": "接着看人们修渠分工，城市里出现书吏和工匠。"
+            }
+          },
+          {
+            "id": "world-ancient-01-02-river-civilizations-journey-2",
+            "label": "农人、工匠、书吏与统治者、金字塔，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-fabed1681e48a965",
+              "text": "农人、工匠、书吏与统治者、金字塔，只认出人物"
+            }
+          },
+          {
+            "id": "world-ancient-01-02-river-civilizations-journey-3",
+            "label": "尼罗河流域与两河流域、金字塔，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-95d04fdbd4474ef0",
+              "text": "尼罗河流域与两河流域、金字塔，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "城市留下文字",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后金字塔、泥板和法典留下早期国家的线索。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "城市留下文字",
+          "screenText": "最后金字塔、泥板和法典留下早期国家的线索。",
+          "narration": "最后金字塔、泥板和法典留下早期国家的线索。",
+          "displayText": "最后金字塔、泥板和法典留下早期国家的线索。"
+        },
+        "assetId": "proto-cuneiform-grain-tablet-met-photo",
+        "image": "/content/step-images/proto-cuneiform-grain-tablet-met-photo.jpg",
+        "imageAlt": "原始楔形文字粮食管理泥板",
+        "imageCaption": "约公元前3100—前2900年的原始楔形文字泥板，很可能记录大麦和二粒小麦的交付与分配。",
+        "imageBoundary": "The Met开放获取原图3000×4000像素，等比例缩至1650×2200像素，未裁切；对象编号1988.433.2，很可能来自乌鲁克。必须保留馆方“most likely”的不确定性：早期文本没有动词，不能逐格编造确定名单、对白或事件。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-b9dc8297a53a2b77",
+            "text": "最后金字塔、泥板和法典留下早期国家的线索。"
+          },
+          "image": {
+            "id": "quest-878217d97c4ad125",
+            "text": "点开大图啦。这是原始楔形文字粮食管理泥板。这张图能帮我们找到：最后金字塔、泥板和法典留下早期国家的线索。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-02-river-civilizations-change-1",
+            "label": "金字塔遗址、泥板与汉谟拉，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-08bc964d2336f226",
+              "text": "金字塔遗址、泥板与汉谟拉，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-ancient-01-02-river-civilizations-change-2",
+            "label": "看人们修渠分工，城市里出现书，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-a02b54ff030ebce8",
+              "text": "看人们修渠分工，城市里出现书，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-ancient-01-02-river-civilizations-change-3",
+            "label": "最后金字塔、泥板和法典留下早期国家的线索。",
+            "correct": true,
+            "audio": {
+              "id": "quest-b9dc8297a53a2b77",
+              "text": "最后金字塔、泥板和法典留下早期国家的线索。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。",
+          "narration": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。",
+          "displayText": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。"
+        },
+        "assetId": "great-pyramid-giza-2010-photo",
+        "image": "/content/step-images/great-pyramid-giza-2010-photo.jpg",
+        "imageAlt": "胡夫大金字塔2010年实拍",
+        "imageCaption": "2010年拍摄的胡夫大金字塔，前景可见遗迹、游客和动物。",
+        "imageBoundary": "Commons原图2960×1850像素，等比例缩至2200×1375像素，未裁切。必须标明现代拍摄；前景活动和今天缺少大部分外层石材的外观不能搬回约公元前26世纪，也不能从照片推断施工方法、劳动者身份或完整墓葬建筑群布局。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-77ed1424fa4e6734",
+            "text": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。"
+          },
+          "image": {
+            "id": "quest-5e22179eae4294f3",
+            "text": "点开大图啦。这是胡夫大金字塔2010年实拍。这张图能帮我们找到：河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-01-02-river-civilizations-takeaway-1",
+            "label": "看尼罗河涨水给田地带来水和泥土。、金字塔遗址，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-2664578f5ab1e3a4",
+              "text": "看尼罗河涨水给田地带来水和泥土。、金字塔遗址，只说了原因"
+            }
+          },
+          {
+            "id": "world-ancient-01-02-river-civilizations-takeaway-2",
+            "label": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。",
+            "correct": true,
+            "audio": {
+              "id": "quest-77ed1424fa4e6734",
+              "text": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。"
+            }
+          },
+          {
+            "id": "world-ancient-01-02-river-civilizations-takeaway-3",
+            "label": "金字塔、泥板和法典留下早期国家的线索。、金字塔旁，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-1f5e957aaf7ddf5e",
+              "text": "金字塔、泥板和法典留下早期国家的线索。、金字塔旁，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "河流不是自动按钮",
+        "items": [
+          "把“河水与泥土”放在自然条件区，把“观察水情—修水道—合作维护—分配粮食—运输交换—记录规则”放在人类行动区，再连接成多种可能路线；只选“有大河”不能通关，系统也不把一次洪水直接判定为城市必然出现。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "城市工作网",
+        "items": [
+          "将“农人—生产粮食”“船工—沿河运输”“工匠—加工材料”“书吏—记录收发”“建设者—修水道和建筑”“管理者—组织与分配”连接到城市；不让国王一人完成全部建设，不按职业高低、财富、性别或出身计分，也不虚构真实古人的姓名和台词。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "一块文字证据能说什么",
+        "items": [
+          "分别给原始楔形文字泥板、墓室象形文字和汉谟拉比石碑选择“最可能回答的问题”和“不能证明的结论”。泥板可看数量与粮食管理但解释仍有限；墓室文字图像可看供奉观念但不是生活抓拍；石碑可看判例和王权理想但不能证明人人平等或每案实际执行。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "尼罗河与底格里斯河、幼发拉底河为农业、交通和聚落提供了重要条件，但“大河”不会自动造出城市和国家。人们还要观察水情、开沟引水、分配土地和粮食，组织不同工作，并通过贸易取得本地缺少的材料。约公元前4千纪末，埃及和两河流域都出现了城市、国家与文字，但发展道路并不相同：埃及较早形成统一王权，古王国留下金字塔和墓室图像；两河流域长期存在许多城市和城邦，发展出泥板书写与不同王国。建筑、文字和法律记录同时显示组织能力与社会差别，不能只把“宏伟”当作文明的全部。"
@@ -529,50 +1130,65 @@
       "title": "胡夫大金字塔2010年实拍",
       "localPath": "reference-assets/world-ancient-river-civilizations/great-pyramid-giza-2010.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "2010年拍摄的胡夫大金字塔，前景可见遗迹、游客和动物。",
-      "boundary": "Commons原图2960×1850像素，等比例缩至2200×1375像素，未裁切。必须标明现代拍摄；前景活动和今天缺少大部分外层石材的外观不能搬回约公元前26世纪，也不能从照片推断施工方法、劳动者身份或完整墓葬建筑群布局。"
+      "boundary": "Commons原图2960×1850像素，等比例缩至2200×1375像素，未裁切。必须标明现代拍摄；前景活动和今天缺少大部分外层石材的外观不能搬回约公元前26世纪，也不能从照片推断施工方法、劳动者身份或完整墓葬建筑群布局。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "raemkai-harvest-offerings-east-wall-image",
       "title": "拉埃姆凯墓室东墙收获与供奉图像",
       "localPath": "reference-assets/world-ancient-river-civilizations/raemkai-harvest-and-offerings.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/577371",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "古王国第五王朝拉埃姆凯墓室东墙局部，上方为农业庄园拟人形象与供奉，下方可见谷物收获场景。",
-      "boundary": "The Met开放获取原图约4988×3325像素，等比例缩至2200像素长边，未裁切。对象编号08.201.1f，约公元前2446—前2389年。它是墓葬艺术与供奉安排，不是现场照片；图像选择、比例和人物身份受墓葬目的与艺术规则影响，不能代表所有古埃及人的实际收获和分配。"
+      "boundary": "The Met开放获取原图约4988×3325像素，等比例缩至2200像素长边，未裁切。对象编号08.201.1f，约公元前2446—前2389年。它是墓葬艺术与供奉安排，不是现场照片；图像选择、比例和人物身份受墓葬目的与艺术规则影响，不能代表所有古埃及人的实际收获和分配。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "ziggurat-ur-2011-photo",
       "title": "乌尔大塔庙2011年实拍",
       "localPath": "reference-assets/world-ancient-river-civilizations/ziggurat-ur-2011.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ziggurate_of_Ur-_Iraq.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2011年拍摄的伊拉克乌尔大塔庙现代外观。",
-      "boundary": "Commons原图2576×1936像素，等比例缩至2200×1653像素，未裁切。采用文件页摄影日期和作者，不采用页面中把建筑误称为王室墓地的说明；建筑身份与世界遗产价值以UNESCO记录为准。必须说明遗址经历风化、保护和后期修复，不能从照片推断古代完整高度、施工步骤、最初外观或普通住房。"
+      "boundary": "Commons原图2576×1936像素，等比例缩至2200×1653像素，未裁切。采用文件页摄影日期和作者，不采用页面中把建筑误称为王室墓地的说明；建筑身份与世界遗产价值以UNESCO记录为准。必须说明遗址经历风化、保护和后期修复，不能从照片推断古代完整高度、施工步骤、最初外观或普通住房。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "proto-cuneiform-grain-tablet-met-photo",
       "title": "原始楔形文字粮食管理泥板",
       "localPath": "reference-assets/world-ancient-river-civilizations/proto-cuneiform-grain-tablet.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/327384",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "约公元前3100—前2900年的原始楔形文字泥板，很可能记录大麦和二粒小麦的交付与分配。",
-      "boundary": "The Met开放获取原图3000×4000像素，等比例缩至1650×2200像素，未裁切；对象编号1988.433.2，很可能来自乌鲁克。必须保留馆方“most likely”的不确定性：早期文本没有动词，不能逐格编造确定名单、对白或事件。"
+      "boundary": "The Met开放获取原图3000×4000像素，等比例缩至1650×2200像素，未裁切；对象编号1988.433.2，很可能来自乌鲁克。必须保留馆方“most likely”的不确定性：早期文本没有动词，不能逐格编造确定名单、对白或事件。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "hammurabi-stele-2011-photo",
       "title": "汉谟拉比石碑2011年实拍",
       "localPath": "reference-assets/world-ancient-river-civilizations/hammurabi-stele-2011.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Code_Of_Hammurabi.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 2.0",
       "clearance": "cleared-open-license",
       "caption": "2011年在卢浮宫拍摄的汉谟拉比石碑，上部浮雕和部分楔形文字清晰可见。",
-      "boundary": "Commons原图2848×3272像素，等比例缩至1915×2200像素，未裁切。石碑事实以卢浮宫记录为准：约公元前1750年、现存282条司法判例，不是现代意义的完整法典。照片是现代展陈且只显示局部，不能冒充巴比伦颁布现场、证明原始展示地点或展示全部文字。"
+      "boundary": "Commons原图2848×3272像素，等比例缩至1915×2200像素，未裁切。石碑事实以卢浮宫记录为准：约公元前1750年、现存282条司法判例，不是现代意义的完整法典。照片是现代展陈且只显示局部，不能冒充巴比伦颁布现场、证明原始展示地点或展示全部文字。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-ancient-01-02-river-civilizations.jpg",

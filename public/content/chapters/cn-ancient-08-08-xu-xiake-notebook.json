@@ -1,0 +1,1130 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.13.0",
+  "id": "cn-ancient-08-08-xu-xiake-notebook",
+  "trackId": "china-ancient",
+  "trackLabel": "中国古代史",
+  "period": {
+    "id": "ming",
+    "label": "明朝",
+    "years": "1368—1644年"
+  },
+  "order": 43,
+  "title": "徐霞客的旅行笔记怎样变成地理书",
+  "coreQuestion": "走路、观察、比较和逐日记录怎样帮助徐霞客修正书本里的答案？",
+  "throughline": "从1587—1641年和江阴出发，跟着徐霞客在山路、洞穴与河流旁观察记录；再说明今天所见《徐霞客游记》经过后人整理，画像也不是生前照片。",
+  "childEntry": {
+    "id": "cn-ancient-08-08-xu-xiake-notebook",
+    "childTitle": "和徐霞客记一段小路",
+    "prompt": "走过一条路，怎样让后来的人知道你看见了什么？",
+    "takeaway": "徐霞客实地旅行，记日期、路线与观察；后人整理成游记，亲见和听说需要分开。",
+    "object": "旅行日记、路线、洞穴与河流记录",
+    "people": [
+      "徐霞客",
+      "整理游记的人"
+    ],
+    "place": "江苏江阴及他考察过的山川道路",
+    "culture": "《徐霞客游记》与旅行记录",
+    "care": "桥和山脚路线为明确标注的学习示意，不冒充徐霞客具体一日行程；后世肖像不能当生前照片。",
+    "preferredAssetId": "xu-xiake-later-portrait-artwork",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-08-08-xu-xiake-notebook",
+    "featured": {
+      "type": "人物",
+      "icon": "🥾",
+      "title": "徐霞客与整理游记的人",
+      "childBridge": "走过一条路，怎样让后来的人知道你看见了什么？",
+      "evidenceBoundary": "桥和山脚路线为明确标注的学习示意，不冒充徐霞客具体一日行程；后世肖像不能当生前照片。"
+    },
+    "companions": [
+      {
+        "type": "典籍",
+        "label": "《徐霞客游记》",
+        "note": "许多逐日记录后来才被整理成书。"
+      },
+      {
+        "type": "地点",
+        "label": "江阴与西南山川",
+        "note": "每条记录都要带时间、地点和路线。"
+      },
+      {
+        "type": "方法",
+        "label": "看、问、比、记",
+        "note": "这套观察方法可以在安全的公园和博物馆练习。"
+      }
+    ],
+    "sourceIds": [
+      "NOPSS-XU-XIAKE",
+      "MOE-HISTORY-CURRICULUM-2022",
+      "PEP-HISTORY-7B-2026-TRIAL"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "徐霞客的时间",
+      "text": "徐霞客生活在1587年到1641年间，属于明代。他的游记后来又经过整理。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "先记今天到了哪里",
+      "text": "游记要让人知道哪天、走到哪里、看见什么。漂亮画面之外，地点和日期也有用。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "走过的路连起来",
+      "text": "图里先过桥，再到山脚。它是学习路线，不是徐霞客某天的真实地图。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "听说和亲眼看见",
+      "text": "有人告诉他一处景物，他也会实地考察、比较记载。记录时，听说与亲见要分开。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "日记后来成为游记",
+      "text": "徐霞客留下记录，后人参与整理和保存。今天读到的书还经过流传过程。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "游记",
+      "icon": "🥾",
+      "plain": "把旅行中看见、听见和查到的事情写下来。",
+      "example": "徐霞客边走边记，还会比较河流从哪里来。",
+      "priority": 1
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "徐霞客",
+      "reading": "Xú Xiákè",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-08-xu-xiake-notebook"
+      ],
+      "note": "“霞”读xiá。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "和徐霞客记一段小路",
+      "question": "走过一条路，怎样让后来的人知道你看见了什么？"
+    },
+    "cta": "去画今天的路线",
+    "anchor": "徐霞客与整理游记的人",
+    "boundary": "桥和山脚路线为明确标注的学习示意，不冒充徐霞客具体一日行程；后世肖像不能当生前照片。",
+    "evidence": [
+      {
+        "id": "xu-xiake-later-portrait-artwork",
+        "title": "后世徐霞客肖像艺术作品",
+        "localPath": "reference-assets/ming-qing/xu-xiake-portrait.png",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Xu_Xiake.png",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "Public Domain Mark 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "庐山博物馆资料所见后世徐霞客肖像艺术作品。",
+        "boundary": "这不是徐霞客生前照片或实地考察现场，只作为人物识别入口；旅行路线、观察内容和成书过程必须由文献资料支持。原图738×1270像素。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/xu-xiake-later-portrait-artwork.jpg"
+      }
+    ],
+    "coverAsset": {
+      "id": "xu-xiake-later-portrait-artwork",
+      "title": "后世徐霞客肖像艺术作品",
+      "localPath": "reference-assets/ming-qing/xu-xiake-portrait.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Xu_Xiake.png",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "庐山博物馆资料所见后世徐霞客肖像艺术作品。",
+      "boundary": "这不是徐霞客生前照片或实地考察现场，只作为人物识别入口；旅行路线、观察内容和成书过程必须由文献资料支持。原图738×1270像素。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/xu-xiake-later-portrait-artwork.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/xu-xiake-later-portrait-artwork.jpg",
+    "coverImageAlt": "后世徐霞客肖像艺术作品",
+    "coverImageKind": "历史材料",
+    "coverAudio": {
+      "id": "quest-93cfd71313f8a322",
+      "text": "和徐霞客记一段小路。走过一条路，怎样让后来的人知道你看见了什么？准备好就点“去画今天的路线”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-986b7f4a4a4e8a6f",
+      "text": "徐霞客实地旅行，记日期、路线与观察；后人整理成游记，亲见和听说需要分开。"
+    },
+    "finish": {
+      "title": "记一段房间里的小路",
+      "actions": [
+        "指一指你刚才从哪儿走到哪儿，例如椅子到桌边。",
+        "告诉家人一件亲眼看到的东西，再加一句“这是我看到的”。"
+      ],
+      "parent": "不用提供真实住址、拍摄或上传。可由家长画两个家具符号，孩子连线；重点是先后与观察来源。",
+      "sceneStepIndexes": [
+        2,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-7643560baf50b4b0",
+          "text": "指一指你刚才从哪儿走到哪儿，例如椅子到桌边。"
+        },
+        {
+          "id": "quest-5cac183b941b0914",
+          "text": "告诉家人一件亲眼看到的东西，再加一句“这是我看到的”。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-bf843cc2e9092ac3",
+        "text": "记一段房间里的小路。指一指你刚才从哪儿走到哪儿，例如椅子到桌边。告诉家人一件亲眼看到的东西，再加一句“这是我看到的”。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "徐霞客的时间",
+        "title": "徐霞客的时间",
+        "prompt": "这位旅行者先放在哪一站？",
+        "rightNote": "先确认人物属于明代，再把后来的整理过程单独看。",
+        "wrongNote": "先确认人物属于明代，再把后来的整理过程单独看。",
+        "sourceIds": [
+          "NOPSS-XU-XIAKE"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "徐霞客的时间",
+          "screenText": "徐霞客生活在1587年到1641年间，属于明代。他的游记后来又经过整理。",
+          "displayText": "徐霞客生活在1587年到1641年间，属于明代。他的游记后来又经过整理。",
+          "narration": "徐霞客生活在1587年到1641年间，属于明代。他的游记后来又经过整理。"
+        },
+        "assetId": "study-3e0954e32f45b31a",
+        "image": "/content/study-scenes/study-3e0954e32f45b31a.svg",
+        "studyImage": "/content/study-scenes/study-3e0954e32f45b31a.svg",
+        "studyImageAlt": "宋，明 徐霞客",
+        "imageAlt": "宋，明 徐霞客",
+        "imageCaption": "学习示意 · 宋，明 徐霞客",
+        "imageBoundary": "自制学习示意。桥和山脚路线为明确标注的学习示意，不冒充徐霞客具体一日行程；后世肖像不能当生前照片。",
+        "audio": {
+          "transition": {
+            "id": "quest-41eae63780953dac",
+            "text": "徐霞客的时间。"
+          },
+          "intro": {
+            "id": "quest-1d9261f4f4faa9ea",
+            "text": "徐霞客生活在1587年到1641年间，属于明代。他的游记后来又经过整理。"
+          },
+          "question": {
+            "id": "quest-acaf715b639065ff",
+            "text": "这位旅行者先放在哪一站？"
+          },
+          "image": {
+            "id": "quest-21d2def638b2e016",
+            "text": "这是学习示意图：宋，明 徐霞客。这位旅行者先放在哪一站？"
+          },
+          "right": {
+            "id": "quest-41ff2a181bd5ea6a",
+            "text": "找到了。先确认人物属于明代，再把后来的整理过程单独看。"
+          },
+          "wrong": {
+            "id": "quest-40ccd92f82a1abf7",
+            "text": "再比较一下。先确认人物属于明代，再把后来的整理过程单独看。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-08-xu-xiake-notebook-time-1",
+            "label": "明 · 1587—1641年",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-99ceff926b3f2f9a.svg",
+            "imageAlt": "明 1587—1641",
+            "audio": {
+              "id": "quest-7dc7abaf2b8ef8a3",
+              "text": "明 · 1587—1641年"
+            }
+          },
+          {
+            "id": "cn-ancient-08-08-xu-xiake-notebook-time-2",
+            "label": "宋 · 960年以后",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-5e28bd43f5499013.svg",
+            "imageAlt": "宋代",
+            "audio": {
+              "id": "quest-c897f10eed24c923",
+              "text": "宋 · 960年以后"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "先记今天到了哪里",
+        "title": "先记今天到了哪里",
+        "prompt": "想分清两次旅行，先补什么？",
+        "rightNote": "日期和地点让不同次的观察能被区分和核对。",
+        "wrongNote": "日期和地点让不同次的观察能被区分和核对。",
+        "sourceIds": [
+          "NOPSS-XU-XIAKE"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "先记今天到了哪里",
+          "screenText": "游记要让人知道哪天、走到哪里、看见什么。漂亮画面之外，地点和日期也有用。",
+          "displayText": "游记要让人知道哪天、走到哪里、看见什么。漂亮画面之外，地点和日期也有用。",
+          "narration": "游记要让人知道哪天、走到哪里、看见什么。漂亮画面之外，地点和日期也有用。"
+        },
+        "assetId": "study-717718874a966172",
+        "image": "/content/study-scenes/study-717718874a966172.svg",
+        "studyImage": "/content/study-scenes/study-717718874a966172.svg",
+        "studyImageAlt": "走过的路，旅行记录",
+        "imageAlt": "走过的路，旅行记录",
+        "imageCaption": "学习示意 · 走过的路，旅行记录",
+        "imageBoundary": "自制学习示意。桥和山脚路线为明确标注的学习示意，不冒充徐霞客具体一日行程；后世肖像不能当生前照片。",
+        "audio": {
+          "transition": {
+            "id": "quest-d7ed0cc10efa3808",
+            "text": "先记今天到了哪里。"
+          },
+          "intro": {
+            "id": "quest-ed030fb46fb36efe",
+            "text": "游记要让人知道哪天、走到哪里、看见什么。漂亮画面之外，地点和日期也有用。"
+          },
+          "question": {
+            "id": "quest-b5942279ddd363de",
+            "text": "想分清两次旅行，先补什么？"
+          },
+          "image": {
+            "id": "quest-65f158e5f8061249",
+            "text": "这是学习示意图：走过的路，旅行记录。想分清两次旅行，先补什么？"
+          },
+          "right": {
+            "id": "quest-c2f259735f67c6a8",
+            "text": "找到了。日期和地点让不同次的观察能被区分和核对。"
+          },
+          "wrong": {
+            "id": "quest-c4c5dc9d828f37f5",
+            "text": "再比较一下。日期和地点让不同次的观察能被区分和核对。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-08-xu-xiake-notebook-beginning-1",
+            "label": "日期和地点",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-a17e2b655a9112ac.svg",
+            "imageAlt": "日期，地点",
+            "audio": {
+              "id": "quest-ff0f17b87942825e",
+              "text": "日期和地点"
+            }
+          },
+          {
+            "id": "cn-ancient-08-08-xu-xiake-notebook-beginning-2",
+            "label": "只换纸张颜色",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-fa14b8b57759365c.svg",
+            "imageAlt": "纸张颜色",
+            "audio": {
+              "id": "quest-32fd9d8d0a712c97",
+              "text": "只换纸张颜色"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "走过的路连起来",
+        "title": "走过的路连起来",
+        "prompt": "哪条记录和这次示意路线相同？",
+        "rightNote": "按实际先后记录，后来的人才更容易理解路线。",
+        "wrongNote": "按实际先后记录，后来的人才更容易理解路线。",
+        "sourceIds": [
+          "NOPSS-XU-XIAKE"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "走过的路连起来",
+          "screenText": "图里先过桥，再到山脚。它是学习路线，不是徐霞客某天的真实地图。",
+          "displayText": "图里先过桥，再到山脚。它是学习路线，不是徐霞客某天的真实地图。",
+          "narration": "图里先过桥，再到山脚。它是学习路线，不是徐霞客某天的真实地图。"
+        },
+        "assetId": "study-ac11141da01c6290",
+        "image": "/content/study-scenes/study-ac11141da01c6290.svg",
+        "studyImage": "/content/study-scenes/study-ac11141da01c6290.svg",
+        "studyImageAlt": "先过桥，后到山脚",
+        "imageAlt": "先过桥，后到山脚",
+        "imageCaption": "学习示意 · 先过桥，后到山脚",
+        "imageBoundary": "自制学习示意。桥和山脚路线为明确标注的学习示意，不冒充徐霞客具体一日行程；后世肖像不能当生前照片。",
+        "audio": {
+          "transition": {
+            "id": "quest-9f8492e04a10e07a",
+            "text": "走过的路连起来。"
+          },
+          "intro": {
+            "id": "quest-399ea6833085ed43",
+            "text": "图里先过桥，再到山脚。它是学习路线，不是徐霞客某天的真实地图。"
+          },
+          "question": {
+            "id": "quest-726447dc0bfc6be1",
+            "text": "哪条记录和这次示意路线相同？"
+          },
+          "image": {
+            "id": "quest-8875a3a01e371438",
+            "text": "这是学习示意图：先过桥，后到山脚。哪条记录和这次示意路线相同？"
+          },
+          "right": {
+            "id": "quest-35924f42572a798c",
+            "text": "找到了。按实际先后记录，后来的人才更容易理解路线。"
+          },
+          "wrong": {
+            "id": "quest-d8917f138987425f",
+            "text": "再比较一下。按实际先后记录，后来的人才更容易理解路线。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-08-xu-xiake-notebook-journey-1",
+            "label": "先过桥，再到山脚",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-91f99b31b872ed59.svg",
+            "imageAlt": "桥，山脚",
+            "audio": {
+              "id": "quest-645abc1429d8a473",
+              "text": "先过桥，再到山脚"
+            }
+          },
+          {
+            "id": "cn-ancient-08-08-xu-xiake-notebook-journey-2",
+            "label": "先到山脚，再过桥",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-0bd79a5a36d2cbf5.svg",
+            "imageAlt": "山脚，桥",
+            "audio": {
+              "id": "quest-30a1a4f5c0be246d",
+              "text": "先到山脚，再过桥"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "听说和亲眼看见",
+        "title": "听说和亲眼看见",
+        "prompt": "没亲眼看到的事，怎样写？",
+        "rightNote": "如实标注来历，比把听说改成亲见更可靠。",
+        "wrongNote": "如实标注来历，比把听说改成亲见更可靠。",
+        "sourceIds": [
+          "NOPSS-XU-XIAKE"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "听说和亲眼看见",
+          "screenText": "有人告诉他一处景物，他也会实地考察、比较记载。记录时，听说与亲见要分开。",
+          "displayText": "有人告诉他一处景物，他也会实地考察、比较记载。记录时，听说与亲见要分开。",
+          "narration": "有人告诉他一处景物，他也会实地考察、比较记载。记录时，听说与亲见要分开。"
+        },
+        "assetId": "study-6ead6f890c35b158",
+        "image": "/content/study-scenes/study-6ead6f890c35b158.svg",
+        "studyImage": "/content/study-scenes/study-6ead6f890c35b158.svg",
+        "studyImageAlt": "听闻，观察，比较记录",
+        "imageAlt": "听闻，观察，比较记录",
+        "imageCaption": "学习示意 · 听闻，观察，比较记录",
+        "imageBoundary": "自制学习示意。桥和山脚路线为明确标注的学习示意，不冒充徐霞客具体一日行程；后世肖像不能当生前照片。",
+        "audio": {
+          "transition": {
+            "id": "quest-680ec3ae71045e3c",
+            "text": "听说和亲眼看见。"
+          },
+          "intro": {
+            "id": "quest-82625000c9f0cfba",
+            "text": "有人告诉他一处景物，他也会实地考察、比较记载。记录时，听说与亲见要分开。"
+          },
+          "question": {
+            "id": "quest-eb2db1d63a990f4a",
+            "text": "没亲眼看到的事，怎样写？"
+          },
+          "image": {
+            "id": "quest-23277df555966252",
+            "text": "这是学习示意图：听闻，观察，比较记录。没亲眼看到的事，怎样写？"
+          },
+          "right": {
+            "id": "quest-d521d44aae2354ab",
+            "text": "找到了。如实标注来历，比把听说改成亲见更可靠。"
+          },
+          "wrong": {
+            "id": "quest-a41a773abc527c76",
+            "text": "再比较一下。如实标注来历，比把听说改成亲见更可靠。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-08-xu-xiake-notebook-change-1",
+            "label": "写“听别人说”，待核对",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-074b184e9c9f8857.svg",
+            "imageAlt": "听说，待核对",
+            "audio": {
+              "id": "quest-c90ad7b64951d50f",
+              "text": "写“听别人说”，待核对"
+            }
+          },
+          {
+            "id": "cn-ancient-08-08-xu-xiake-notebook-change-2",
+            "label": "写“我亲眼见到”",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-bffd28856581c5b0.svg",
+            "imageAlt": "改写成亲眼见",
+            "audio": {
+              "id": "quest-3b27133bdc713f65",
+              "text": "写“我亲眼见到”"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "日记后来成为游记",
+        "title": "日记后来成为游记",
+        "prompt": "哪条链条更完整？",
+        "rightNote": "观察、记录、整理和保存都需要人的工作。",
+        "wrongNote": "观察、记录、整理和保存都需要人的工作。",
+        "sourceIds": [
+          "NOPSS-XU-XIAKE"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "日记后来成为游记",
+          "screenText": "徐霞客留下记录，后人参与整理和保存。今天读到的书还经过流传过程。",
+          "displayText": "徐霞客留下记录，后人参与整理和保存。今天读到的书还经过流传过程。",
+          "narration": "徐霞客留下记录，后人参与整理和保存。今天读到的书还经过流传过程。"
+        },
+        "assetId": "study-84d0f155695d9133",
+        "image": "/content/study-scenes/study-84d0f155695d9133.svg",
+        "studyImage": "/content/study-scenes/study-84d0f155695d9133.svg",
+        "studyImageAlt": "旅行，记录，整理流传",
+        "imageAlt": "旅行，记录，整理流传",
+        "imageCaption": "学习示意 · 旅行，记录，整理流传",
+        "imageBoundary": "自制学习示意。桥和山脚路线为明确标注的学习示意，不冒充徐霞客具体一日行程；后世肖像不能当生前照片。",
+        "audio": {
+          "transition": {
+            "id": "quest-bb703729dc14bc31",
+            "text": "日记后来成为游记。"
+          },
+          "intro": {
+            "id": "quest-5e886c562ff7f2de",
+            "text": "徐霞客留下记录，后人参与整理和保存。今天读到的书还经过流传过程。"
+          },
+          "question": {
+            "id": "quest-a647a77cd384a1aa",
+            "text": "哪条链条更完整？"
+          },
+          "image": {
+            "id": "quest-83dcf4f2c9fd024d",
+            "text": "这是学习示意图：旅行，记录，整理流传。哪条链条更完整？"
+          },
+          "right": {
+            "id": "quest-cca349d8b594b24a",
+            "text": "找到了。观察、记录、整理和保存都需要人的工作。"
+          },
+          "wrong": {
+            "id": "quest-11feafa31dbcdf4b",
+            "text": "再比较一下。观察、记录、整理和保存都需要人的工作。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-08-xu-xiake-notebook-takeaway-1",
+            "label": "旅行记录 → 后人整理 → 阅读",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-29e13c4f0980508e.svg",
+            "imageAlt": "记录，整理，阅读",
+            "audio": {
+              "id": "quest-52e6e82928a7688e",
+              "text": "旅行记录 → 后人整理 → 阅读"
+            }
+          },
+          {
+            "id": "cn-ancient-08-08-xu-xiake-notebook-takeaway-2",
+            "label": "旅行者一想 → 所有书自动出现",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-9fd083c370046e1a.svg",
+            "imageAlt": "一想，书自动出现",
+            "audio": {
+              "id": "quest-9d67a2897c3d6e0d",
+              "text": "旅行者一想 → 所有书自动出现"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "观察卡",
+        "items": [
+          "给一张安全的山水照片贴“方向、水流、入口、日期”四个图标。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "旧书与实地",
+        "items": [
+          "遇到不一致时选择“继续核对”，不选“永远相信一个答案”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "笔记身份证",
+        "items": [
+          "为一条旅行记录补齐时间、地点、路线和所见。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图片和语音为主",
+  "durationMinutes": 8,
+  "conclusion": [
+    "徐霞客从青年时期开始长期外出旅行考察，沿途观察山地、洞穴、河流、道路、植物和居民生活，并尽量逐日记录。他不只抄旧书，还把书本说法与实地所见比较，在岩溶地貌和江河源流等问题上留下重要认识。今天所见约63万字《徐霞客游记》由后人整理、增补，不是一趟旅行一次写完的原稿。儿童把他的办法概括为“看—量—问—比—记”，同时明确不独自探洞、不模仿危险行程。"
+  ],
+  "facts": [
+    {
+      "number": 1,
+      "text": "徐霞客名弘祖，生活于1587—1641年，是明代旅行家、地理学家和文学家。",
+      "sourceIds": [
+        "NOPSS-XU-XIAKE"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "他从22岁起长期旅行考察，足迹到达今天中国许多地区。",
+      "sourceIds": [
+        "NOPSS-XU-XIAKE"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "徐霞客尽量逐日记录所见，内容包括地貌、河流、洞穴、道路和人文情况。",
+      "sourceIds": [
+        "NOPSS-XU-XIAKE"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "他把实地观察与旧籍记载比较，对岩溶地貌和江河源流留下重要研究。",
+      "sourceIds": [
+        "NOPSS-XU-XIAKE"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "今天所见约63万字《徐霞客游记》经过后人整理和增补，不是作者生前整理完成的唯一定本。",
+      "sourceIds": [
+        "NOPSS-XU-XIAKE"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "后世徐霞客画像和现代旅行路线图只是辅助材料，不能代替游记文本、日期和实地记录。",
+      "sourceIds": [
+        "NOPSS-XU-XIAKE",
+        "MOE-HISTORY-CURRICULUM-2022"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "number": 1,
+      "title": "时间线定位——1587到1641年的旅行者",
+      "screenText": "1587年：徐霞客出生\n成年后：长期旅行、逐日记录\n去世后：后人整理《游记》",
+      "voices": [
+        {
+          "number": 1,
+          "label": "语音1｜时间定位",
+          "text": "徐霞客生活在明代晚期。他走过许多山川，尽量把当天看到的事情记下来。后来的人把留下的文字继续整理成书。",
+          "segments": [
+            {
+              "id": "cn-ancient-08-08-xu-xiake-notebook-s01-v01-01",
+              "order": 1,
+              "tier": "core",
+              "text": "徐霞客生活在明代晚期。他走过许多山川，尽量把当天看到的事情记下来。后来的人把留下的文字继续整理成书。",
+              "hanCharacters": 46
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 2,
+      "title": "第一拍——先用眼睛认真看",
+      "screenText": "山怎么连，水往哪里流，洞口在哪里？",
+      "voices": [
+        {
+          "number": 2,
+          "label": "语音2｜观察",
+          "text": "旅行不是只说真漂亮。徐霞客会看山的方向、水的流动和洞穴形状，把问题变得具体。认真看，是第一步。",
+          "segments": [
+            {
+              "id": "cn-ancient-08-08-xu-xiake-notebook-s02-v02-01",
+              "order": 1,
+              "tier": "core",
+              "text": "旅行不是只说真漂亮。徐霞客会看山的方向、水的流动和洞穴形状，把问题变得具体。认真看，是第一步。",
+              "hanCharacters": 41
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 3,
+      "title": "第二拍——边走边比较",
+      "screenText": "旧书这样写，眼前真的是这样吗？",
+      "voices": [
+        {
+          "number": 3,
+          "label": "语音3｜比较",
+          "text": "他把旧书里的答案和实地所见放在一起。如果不一样，就继续走、继续问、继续比较，而不是因为书很旧就永远不改。",
+          "segments": [
+            {
+              "id": "cn-ancient-08-08-xu-xiake-notebook-s03-v03-01",
+              "order": 1,
+              "tier": "core",
+              "text": "他把旧书里的答案和实地所见放在一起。如果不一样，就继续走、继续问、继续比较，而不是因为书很旧就永远不改。",
+              "hanCharacters": 46
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 4,
+      "title": "第三拍——把日期和路线记下来",
+      "screenText": "哪一天、从哪里来、往哪里去、看见什么。",
+      "voices": [
+        {
+          "number": 4,
+          "label": "语音4｜记录",
+          "text": "日期、路线和观察一起写，后来的人才知道一条记录放在哪里。少了时间和地点，一句“我看见了”就很难核对。",
+          "segments": [
+            {
+              "id": "cn-ancient-08-08-xu-xiake-notebook-s04-v04-01",
+              "order": 1,
+              "tier": "core",
+              "text": "日期、路线和观察一起写，后来的人才知道一条记录放在哪里。少了时间和地点，一句“我看见了”就很难核对。",
+              "hanCharacters": 43
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 5,
+      "title": "笔记怎样变成一本书",
+      "screenText": "许多日记留下来，后人整理、抄录和补充。",
+      "voices": [
+        {
+          "number": 5,
+          "label": "语音5｜成书边界",
+          "text": "今天的《徐霞客游记》不是一次旅行写完的整齐原稿。许多文字在他去世后由别人整理、抄录和增补，所以版本也需要研究。",
+          "segments": [
+            {
+              "id": "cn-ancient-08-08-xu-xiake-notebook-s05-v05-01",
+              "order": 1,
+              "tier": "core",
+              "text": "今天的《徐霞客游记》不是一次旅行写完的整齐原稿。许多文字在他去世后由别人整理、抄录和增补，所以版本也需要研究。",
+              "hanCharacters": 49
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 6,
+      "title": "学方法，不模仿危险",
+      "screenText": "看 → 问 → 比 → 记\n探洞和远行必须由专业成人负责",
+      "voices": [
+        {
+          "number": 6,
+          "label": "语音6｜完成复述",
+          "text": "请你复述：徐霞客靠观察、提问、比较和记录积累地理知识。我们可以学这种方法，但不能独自进洞或模仿危险旅行。",
+          "segments": [
+            {
+              "id": "cn-ancient-08-08-xu-xiake-notebook-s06-v06-01",
+              "order": 1,
+              "tier": "core",
+              "text": "请你复述：徐霞客靠观察、提问、比较和记录积累地理知识。我们可以学这种方法，但不能独自进洞或模仿危险旅行。",
+              "hanCharacters": 46
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    }
+  ],
+  "interactions": [
+    {
+      "number": 1,
+      "title": "观察卡",
+      "items": [
+        "给一张安全的山水照片贴“方向、水流、入口、日期”四个图标。"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "旧书与实地",
+      "items": [
+        "遇到不一致时选择“继续核对”，不选“永远相信一个答案”。"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "笔记身份证",
+      "items": [
+        "为一条旅行记录补齐时间、地点、路线和所见。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "NOPSS-XU-XIAKE",
+      "title": "奇人奇书：徐霞客及其《徐霞客游记》",
+      "institution": "全国哲学社会科学工作办公室",
+      "url": "https://www.nopss.gov.cn/n1/2023/0823/c448861-40062310.html",
+      "type": "national-research-office-history-geography-resource",
+      "authorityLevel": "A-national-research-office",
+      "factUse": "徐霞客长期旅行考察、逐日记录、后人整理游记及其对岩溶、河流与地理现象的实地观察；不把后世整理本说成一次完成的原稿",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "MOE-HISTORY-CURRICULUM-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "institution": "中华人民共和国教育部",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "type": "curriculum-standard",
+      "authorityLevel": "A",
+      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-HISTORY-7B-2026-TRIAL",
+      "title": "新修订义务教育历史教材七年级下册试教资料",
+      "institution": "人民教育出版社",
+      "url": "https://www.pep.com.cn/xw/zt/hd/sktbjc/jcsy/202606/t20260610_2006778.html",
+      "type": "current-textbook-implementation-reference",
+      "authorityLevel": "A-structure-only",
+      "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
+      "imageUse": "reference-only"
+    }
+  ],
+  "assets": [
+    {
+      "id": "study-3e0954e32f45b31a",
+      "title": "学习示意：宋、明 徐霞客",
+      "localPath": "reference-assets/focused-quests/study-3e0954e32f45b31a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "宋 → 明 徐霞客",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-99ceff926b3f2f9a",
+      "title": "学习示意：明 1587—1641",
+      "localPath": "reference-assets/focused-quests/study-99ceff926b3f2f9a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "明 1587—1641",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5e28bd43f5499013",
+      "title": "学习示意：宋代",
+      "localPath": "reference-assets/focused-quests/study-5e28bd43f5499013.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "宋代",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-717718874a966172",
+      "title": "学习示意：走过的路、旅行记录",
+      "localPath": "reference-assets/focused-quests/study-717718874a966172.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "走过的路 → 旅行记录",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a17e2b655a9112ac",
+      "title": "学习示意：日期、地点",
+      "localPath": "reference-assets/focused-quests/study-a17e2b655a9112ac.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "日期 → 地点",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-fa14b8b57759365c",
+      "title": "学习示意：纸张颜色",
+      "localPath": "reference-assets/focused-quests/study-fa14b8b57759365c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "纸张颜色",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-ac11141da01c6290",
+      "title": "学习示意：先过桥、后到山脚",
+      "localPath": "reference-assets/focused-quests/study-ac11141da01c6290.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "先过桥 → 后到山脚",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-91f99b31b872ed59",
+      "title": "学习示意：桥、山脚",
+      "localPath": "reference-assets/focused-quests/study-91f99b31b872ed59.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "桥 → 山脚",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-0bd79a5a36d2cbf5",
+      "title": "学习示意：山脚、桥",
+      "localPath": "reference-assets/focused-quests/study-0bd79a5a36d2cbf5.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "山脚 → 桥",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-6ead6f890c35b158",
+      "title": "学习示意：听闻、观察、比较记录",
+      "localPath": "reference-assets/focused-quests/study-6ead6f890c35b158.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "听闻 → 观察 → 比较记录",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-074b184e9c9f8857",
+      "title": "学习示意：听说，待核对",
+      "localPath": "reference-assets/focused-quests/study-074b184e9c9f8857.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "听说，待核对",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-bffd28856581c5b0",
+      "title": "学习示意：改写成亲眼见",
+      "localPath": "reference-assets/focused-quests/study-bffd28856581c5b0.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "改写成亲眼见",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-84d0f155695d9133",
+      "title": "学习示意：旅行、记录、整理流传",
+      "localPath": "reference-assets/focused-quests/study-84d0f155695d9133.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "旅行 → 记录 → 整理流传",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-29e13c4f0980508e",
+      "title": "学习示意：记录、整理、阅读",
+      "localPath": "reference-assets/focused-quests/study-29e13c4f0980508e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "记录 → 整理 → 阅读",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-9fd083c370046e1a",
+      "title": "学习示意：一想、书自动出现",
+      "localPath": "reference-assets/focused-quests/study-9fd083c370046e1a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "一想 → 书自动出现",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "tiangong-kaiwu-casting-illustration",
+      "title": "《天工开物》铸鼎插图",
+      "localPath": "reference-assets/ming-qing/tiangong-kaiwu-casting.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tiangong_Kaiwu_Tripod_Casting.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "《天工开物》传本中的铸鼎工序插图。",
+      "boundary": "历史技术书中的传刊插图，不是1637年作坊照片，也不能据一页复原所有设备、人数和步骤。原图400×309像素，尺寸较小，不宜过度放大。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "bencao-gangmu-historical-page",
+      "title": "《本草纲目》历史书页",
+      "localPath": "reference-assets/ming-qing/bencao-gangmu-page.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bencao_Gangmu_--_C.16_Chinese_materia_medica,_Bezoars,_etc._Wellcome_L0039333.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY 4.0",
+      "clearance": "cleared-open-license",
+      "caption": "《本草纲目》历史版本中的一页药物知识记录。",
+      "boundary": "图中包括传统药物图文，课程只用于研究历史知识整理方式；不得把古代记载转写为现代疗效承诺，也不得引导儿童采集、制作或服用药物。下载为1920×2880像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "xu-xiake-later-portrait-artwork",
+      "title": "后世徐霞客肖像艺术作品",
+      "localPath": "reference-assets/ming-qing/xu-xiake-portrait.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Xu_Xiake.png",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "庐山博物馆资料所见后世徐霞客肖像艺术作品。",
+      "boundary": "这不是徐霞客生前照片或实地考察现场，只作为人物识别入口；旅行路线、观察内容和成书过程必须由文献资料支持。原图738×1270像素。",
+      "childVisibility": "child-ok"
+    }
+  ],
+  "thumbnail": "/content/thumbnails/cn-ancient-08-08-xu-xiake-notebook.jpg",
+  "status": {
+    "outline": "verified",
+    "research": "verified",
+    "script": "first-draft",
+    "assets": "cleared",
+    "audio": "not-started",
+    "review": "pending"
+  }
+}

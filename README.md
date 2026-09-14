@@ -1,100 +1,67 @@
-# vinext-starter
+# 小小历史旅行团
 
-A clean full-stack starter running on
-[vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
-Drizzle support.
+当前制作入口：[设计方案3.0](docs/DESIGN-SPEC.md) · [任务实施指南](docs/TASK-IMPLEMENTATION-GUIDE.md) · [改进记录](docs/DESIGN-IMPROVEMENTS.md)。秦朝样章的整体方向已获用户认可，后续模型先读根AGENTS.md。当前只交付本机预览 `http://127.0.0.1:4173/`；原2.0 Word稿保留作历史参考。
 
-## Prerequisites
+当前本机试玩聚焦**秦汉至明清34章、10站**，其余69章在儿童及家长HTML入口隐藏，完整内容库保留。逐题内容、两张图卡和结束动作已重做；整体展示重审与真实儿童测试仍待进行。双击 `本机试玩.command`，使用方法见 [本机试玩说明](本机试玩说明.md)。
 
-- Node.js `>=22.13.0`
 
-## Quick Start
+这是一个面向 4—6 岁儿童的历史学习游戏（亲子共学，以图标和预生成语音为主，不识字也能玩）。当前优先建设可移植的内容库：以中国材料和统编历史课程结构为主线，先显示时间线，再用真实图片、简短文字和较多语音讲解展开；每条事实与图片授权都单独登记。网页版与未来微信小游戏共用这套内容，内容最终确认前不绑定某个平台，也不要求儿童登录 ChatGPT。
+
+## 建设方式
+
+```text
+课程与史料层
+Markdown章节 + JSON目录 + 来源/许可登记
+            ↓ 自动校验与生成
+平台无关内容包
+103章JSON + 逐步配图 + 缩略图 + 稳定语音ID
+            ↓
+本机网页版（当前） → 内容和玩法确认后再转换微信小程序
+```
+
+内容先在 `content/chapters/`、`content/sources.json`、`content/assets/`、`content/child-entry-points.json`、`content/quest-story-paths.json`、`content/child-language-glossary.json` 和 `content/voice-pronunciations.json` 中修改，再由脚本生成 `public/content/` 与 `content/runtime/`。不要手工修改生成文件，也不要把正文写死在网页组件里。
+
+## 当前进度
+
+- 7个板块、103章均有事实、儿童稿、语音稿和互动底稿；本轮新增秦长城、贞观之治、宋代指南针与火药记录，并把秦统一度量衡和毕昇活字改成清楚可见的独立主线。
+- 现有2684条事实卡、657个儿童屏幕、729篇语音稿、1154段短音频结构、339个互动、973条来源和459项素材登记。
+- 中国时间河现为23站；古代部分将秦、汉、隋、唐、五代十国、宋、元、明、清分别建设，辽·西夏·金收进宋站同一时间窗口，并明确它们与两宋先后并立。
+- 103章均有适合4—6岁的具体入口：物件、人物或真实群体、地点与低龄展示边界；97章自然连接诗歌、艺术、书信或歌曲。
+- 103章已接入“时间—起点—旅程—变化—回答”的五步故事弧任务，共515个判断步骤；每章先从9类记忆入口之一出发，并使用3条逐章“先—接着—最后”拍点，共309条。
+- 秦至清34章接入“课本里的老朋友”：16类主入口和103条人物、诗文、成语、地点、典籍延伸，唐宋明重点章每章至少3条。
+- 103章试玩页接入2210段去重本地预生成声音：章介绍、34段课本连接介绍、故事、515段逐步图片说明、当前问题、选项、反馈和结束回答都与页面使用同一稳定ID；验证不自动播放声音。
+- 已建立155项人名、地名和多音字校听表与7条年代读法规则；它们是正式配音前的编辑基线，不代表已定音。
+- 457项素材已清权并保存在本机，2项只供研究参考；其中刺激画面、头骨模型、英文研究图和仅适合家长解释的材料继续隔离在编辑层。
+- 全部103章使用同一套逐章内容驱动的五步故事弧，不再为任何单章提供第二入口或另一套状态机。339个原有互动作为亲子加餐任务接入；后续拖拽、地图或声音操作也以可复用的统一组件扩展。
+- 真实儿童复述、729篇编辑长讲稿的1154段正式结构化配音和内容冻结尚未完成，因此最终审核仍为0章；这不影响当前103章统一核心任务及其本机试玩声音使用。
+
+整体设计与后续制作先看 [设计方案](docs/DESIGN-SPEC.md)，评审传阅可用 [Word版](docs/小小历史旅行团设计方案.docx)。方案规定产品结构、逐任务内容与来源、页面组织、不识字儿童体验、素材和工具流程。配套 [103个任务设计索引](docs/TASK-DESIGN-INDEX.md)、[任务模板](docs/design/TASK-TEMPLATE.md) 和 [素材与工具工作单](docs/design/PRODUCTION-WORKBOOK.md)，用于分配后续制作；设计卡为草案，不替代正式章节与审核。
+
+完整说明见 [建设方案](docs/BUILD-PLAN.md)、[进度](content/PROGRESS.md)、[待办](docs/TODO.md)、[全库重做清单](docs/REDO-LIST.md) 和上一轮 [91章全库低龄编辑复核](content/FULL-LIBRARY-EDITORIAL-REVIEW.md)。
+
+## 本机试玩
+
+本轮优化：两张听选卡与逐张朗读高亮、时间题的站点插画、声音暂停续播、进行中步骤保存与旧勋章迁移、先复述再查看答案。每章共用同一入口和五步流程；具体人物与动作的图形选项仍待逐任务制作。
+
+双击 `本机试玩.command`，浏览器会自动打开。试玩不需要ChatGPT账号，也不会上传儿童数据。观察方法见 [本机试玩说明](本机试玩说明.md)。
+
+## 内容质量门禁
+
+需要命令行时，先安装 Node.js 22.13或更高版本和项目依赖，然后运行：
 
 ```bash
-npm install
-npm run dev
-npm run build
+npm run content:validate:assets
+npm run content:pack
+npm test
+npm run lint
+git diff --check
 ```
 
-This starter does not use `wrangler.jsonc`.
+自动校验通过只说明结构、引用、素材路径和构建正常，不代替史实复核、真实儿童理解测试与用户最终确认。
 
-## Included Shape
+## 当前明确不做
 
-- edit site code under `app/`
-- `.openai/hosting.json` declares optional Sites D1 and R2 bindings
-- `vite.config.ts` simulates declared bindings for local development
-- `db/schema.ts` starts intentionally empty
-- `examples/d1/` contains an optional D1 example surface
-- `drizzle.config.ts` supports local migration generation when needed
-
-## Workspace Auth Headers
-
-Signed-in visitors receive both `oai-authenticated-user-id` and `oai-authenticated-user-email`. Private Sites require every visitor to sign in; public Sites may also have anonymous visitors, for whom neither header is present.
-
-The user ID is stable for the same user on the same Site and different across Sites. Email and name are intended for display or contact purposes.
-
-SIWC-authenticated workspace sites may also receive
-`oai-authenticated-user-full-name` when the user's SIWC profile has a non-empty
-`name` claim. The full-name value is percent-encoded UTF-8 and is accompanied by
-`oai-authenticated-user-full-name-encoding: percent-encoded-utf-8`.
-
-Treat the full name as optional and fall back to email when it is absent:
-
-```tsx
-import { headers } from "next/headers";
-
-export default async function Home() {
-  const requestHeaders = await headers();
-  const userId = requestHeaders.get("oai-authenticated-user-id");
-  const email = requestHeaders.get("oai-authenticated-user-email");
-  const encodedFullName = requestHeaders.get("oai-authenticated-user-full-name");
-  const fullName =
-    encodedFullName &&
-    requestHeaders.get("oai-authenticated-user-full-name-encoding") ===
-      "percent-encoded-utf-8"
-      ? decodeURIComponent(encodedFullName)
-      : null;
-
-  const displayName = fullName ?? email;
-  // ...
-}
-```
-
-## Optional Dispatch-Owned ChatGPT Sign-In
-
-Import the ready-to-use helpers from `app/chatgpt-auth.ts` when the site needs
-optional or required ChatGPT sign-in:
-
-- Use `getChatGPTUser()` for optional signed-in UI.
-- Use `requireChatGPTUser(returnTo)` for server-rendered pages that should send
-  anonymous visitors through Sign in with ChatGPT.
-- Use `chatGPTSignInPath(returnTo)` and `chatGPTSignOutPath(returnTo)` for
-  browser links or actions.
-- Pass a same-origin relative `returnTo` path for the destination after sign-in
-  or sign-out. The helper validates and safely encodes it.
-- Mark protected pages with `export const dynamic = "force-dynamic"` because
-  they depend on per-request identity headers.
-
-Dispatch owns `/signin-with-chatgpt`, `/signout-with-chatgpt`, `/callback`, the
-OAuth cookies, and identity header injection. Do not implement app routes for
-those reserved paths. Routes that do not import and call the helper remain
-anonymous-compatible.
-
-SIWC establishes identity only; it does not prove workspace membership. Use the
-Sites hosting platform's access policy controls for workspace-wide restrictions,
-or enforce explicit server-side membership or allowlist checks.
-
-Use SIWC for account pages, user-specific dashboards, saved records, and write
-actions tied to the current ChatGPT user. Leave public content anonymous.
-
-## Useful Commands
-
-- `npm run dev`: start local development
-- `npm run build`: verify the vinext build output
-- `npm test`: build the starter and verify its rendered loading skeleton
-- `npm run db:generate`: generate Drizzle migrations after schema changes
-
-## Learn More
-
-- [vinext Documentation](https://github.com/cloudflare/vinext)
-- [Drizzle D1 Guide](https://orm.drizzle.team/docs/get-started/d1-new)
+- 不在文字、音色和读音表经儿童试听、人工校听并冻结前批量生成729篇编辑长讲稿对应的1154段结构化配音。
+- 不把“103章核心任务与试玩声音均可用”说成“已经通过真实儿童测试或编辑长讲稿配音已经完成”。
+- 不在用户确认前部署公网版本或转换微信小程序。
+- 不要求儿童登录ChatGPT，不接入儿童数据上传、支付或学习账号。

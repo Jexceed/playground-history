@@ -1,19 +1,793 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-08-05-late-crisis",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
   "period": {
-    "id": "ming-qing",
-    "label": "明清",
-    "years": "1368—1840年前（本内容轨范围）"
+    "id": "qing",
+    "label": "清朝",
+    "years": "1644—1840年前（本内容轨范围）"
   },
-  "order": 32,
+  "order": 36,
   "title": "繁盛背后为什么出现危机",
-  "coreQuestion": "明末清中叶以后，内部矛盾和世界变化怎样加深社会危机？",
-  "throughline": "连接明末政治与社会矛盾、清朝人口与土地压力、严格限制下的有限对外贸易和19世纪国际形势，为1840年以后的中国近代史建立入口。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "coreQuestion": "清中叶以后，内部矛盾和世界变化怎样加深社会危机？",
+  "throughline": "连接清朝人口与土地压力、权力与治理问题、严格限制下的有限对外贸易和19世纪国际形势，为1840年以后的中国近代史建立入口。",
+  "childEntry": {
+    "id": "cn-ancient-08-05-late-crisis",
+    "childTitle": "在广州码头看见远方",
+    "prompt": "广州还在通商，为什么又说清朝限制了海外贸易？",
+    "takeaway": "清朝通过广州等制度限制西方海上贸易，并非所有对外往来停止；观察同一时期的变化需要分别核对两地材料。",
+    "object": "贸易档案、白银流动图与早期蒸汽机",
+    "people": [
+      "广州行商、船员",
+      "不同地区的劳动者"
+    ],
+    "place": "广州口岸、中国内地与英国工业城市",
+    "culture": "中外知识译述",
+    "care": "码头画是艺术材料，机器图来自英国技术史；对照只表示同一时期的不同变化，不虚构直接因果。",
+    "preferredAssetId": "watt-steam-engine-1822-engraving",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-08-05-late-crisis",
+    "featured": {
+      "type": "历史",
+      "icon": "⚙️",
+      "title": "广州行商、船员与不同地区的劳动者",
+      "childBridge": "广州还在通商，为什么又说清朝限制了海外贸易？",
+      "evidenceBoundary": "码头画是艺术材料，机器图来自英国技术史；对照只表示同一时期的不同变化，不虚构直接因果。"
+    },
+    "companions": [
+      {
+        "type": "人物",
+        "label": "瓦特团队与中国工匠",
+        "note": "技术进步依靠多人改进，不是一个人的魔法。"
+      },
+      {
+        "type": "地点",
+        "label": "广州口岸",
+        "note": "从有限开放的港口观察贸易与信息。"
+      },
+      {
+        "type": "历史",
+        "label": "工业革命与清代危机",
+        "note": "两条时间线并排比较，不虚构直接同时联系。"
+      }
+    ],
+    "sourceIds": [
+      "SCIENCE-MUSEUM-ENERGY-HALL",
+      "DPM-QING-LIMITED-OPENING",
+      "NOPSS-CHINA-MODERN-HISTORY",
+      "DPM-HANG-MERCHANT"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "码头与机器的时间",
+      "text": "十八世纪，广州有对外贸易；英国蒸汽动力也在发展。它们可以放在同一段时间比较，不是同一个地点。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "广州仍有船来往",
+      "text": "1757年以后，清朝将西方海上贸易集中到广州管理。这不等于所有对外贸易停止。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "行商在中间做什么",
+      "text": "广州行商在外商与管理制度之间办理贸易等事务。码头不是只有船，还有处理往来的人。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "给蒸汽机另贴地点",
+      "text": "英国蒸汽机的材料说明那里动力技术的变化。它不是清代广州工厂的照片。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "为什么不能只凭一幅画",
+      "text": "贸易限制、国内治理和外部世界变化，都要分别研究。一幅码头画不能解释所有危机。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "档案",
+      "icon": "🗂️",
+      "plain": "被保存下来的文件、照片、录音等记录。",
+      "example": "一份档案记录一个角度，要和别的证据一起看。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "工业化",
+      "icon": "🏭",
+      "plain": "机器生产和工厂在社会中越来越重要的过程。",
+      "example": "工业化不是只多几座工厂，还会改变城市与生活。",
+      "priority": 1
+    },
+    {
+      "term": "革命",
+      "icon": "🔄",
+      "plain": "许多人推动改变旧政权或旧制度的大变化。",
+      "example": "革命不是只看一场战斗，还要看原因、参与者和结果。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "外交",
+      "icon": "🤝",
+      "plain": "国家之间交往、谈判和处理共同事情。",
+      "example": "外交不只是一位领导人见面，还有许多人长期工作。",
+      "priority": 2
+    },
+    {
+      "term": "危机",
+      "icon": "⚠️",
+      "plain": "问题迅速变严重，原来的办法难以应付。",
+      "example": "危机通常有多种原因，也会影响不同的人。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "瓦特",
+      "reading": "Wǎtè",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-05-late-crisis",
+        "world-modern-04-01-first-industrial-revolution"
+      ],
+      "note": "“瓦”在人名译名中读wǎ。"
+    },
+    {
+      "text": "广州",
+      "reading": "Guǎngzhōu",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-08-05-late-crisis",
+        "cn-modern-01-01-opium-war",
+        "cn-modern-01-02-deeper-crisis",
+        "cn-modern-04-02-cpc-national-revolution",
+        "cross-01-hero-biography"
+      ],
+      "note": "广东省会地名。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "在广州码头看见远方",
+      "question": "广州还在通商，为什么又说清朝限制了海外贸易？"
+    },
+    "cta": "去给两地图片贴标签",
+    "anchor": "广州行商、船员与不同地区的劳动者",
+    "boundary": "码头画是艺术材料，机器图来自英国技术史；对照只表示同一时期的不同变化，不虚构直接因果。",
+    "evidence": [
+      {
+        "id": "canton-factories-circa-1780-painting",
+        "title": "约1780年广州商馆艺术作品",
+        "localPath": "reference-assets/ming-qing/canton-factories-1780.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:CantonFactories1780.jpeg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "Public Domain Mark 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "约1780年描绘广州商馆的艺术作品。",
+        "boundary": "画面可用于观察艺术家表现的商馆、旗帜与船只，但它不是照片、精确测绘或贸易统计，不能凭旗帜数量推算商馆、国家或贸易额。原图640×440像素，画面老化且尺寸较小。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/canton-factories-circa-1780-painting.jpg"
+      },
+      {
+        "id": "watt-steam-engine-1822-engraving",
+        "title": "瓦特双作用蒸汽机历史技术雕版图",
+        "localPath": "reference-assets/ming-qing/watt-steam-engine-engraving.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Steam_engine_-_Mr._Watt%27s_double_steam_engine_from_his_specification_of_1782_LCCN2006691752.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "Public Domain Mark 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "1822年发表、依据瓦特1782年技术说明绘制的双作用蒸汽机雕版图。",
+        "boundary": "这是英文技术图，不是工厂现场照片，也不能代表工业革命全部机器。正文必须使用“瓦特改良蒸汽机”，不得写成“瓦特发明了第一台蒸汽机”。下载为1920×2421像素等比例图，未作其他修改。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/watt-steam-engine-1822-engraving.jpg"
+      }
+    ],
+    "coverAsset": {
+      "id": "watt-steam-engine-1822-engraving",
+      "title": "瓦特双作用蒸汽机历史技术雕版图",
+      "localPath": "reference-assets/ming-qing/watt-steam-engine-engraving.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Steam_engine_-_Mr._Watt%27s_double_steam_engine_from_his_specification_of_1782_LCCN2006691752.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "1822年发表、依据瓦特1782年技术说明绘制的双作用蒸汽机雕版图。",
+      "boundary": "这是英文技术图，不是工厂现场照片，也不能代表工业革命全部机器。正文必须使用“瓦特改良蒸汽机”，不得写成“瓦特发明了第一台蒸汽机”。下载为1920×2421像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/watt-steam-engine-1822-engraving.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/watt-steam-engine-1822-engraving.jpg",
+    "coverImageAlt": "瓦特双作用蒸汽机历史技术雕版图",
+    "coverImageKind": "历史材料",
+    "coverAudio": {
+      "id": "quest-a420aff04ccb854c",
+      "text": "在广州码头看见远方。广州还在通商，为什么又说清朝限制了海外贸易？准备好就点“去给两地图片贴标签”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-be7f1055a0ea432d",
+      "text": "清朝通过广州等制度限制西方海上贸易，并非所有对外往来停止；观察同一时期的变化需要分别核对两地材料。"
+    },
+    "finish": {
+      "title": "替两组图片当标签员",
+      "actions": [
+        "先指广州的船，再指英国的机器。",
+        "告诉家人：时间可以相近，地点却不同。"
+      ],
+      "parent": "问“有限制等于完全没有贸易吗？”接受仍有贸易但受管理。这里只认识近代前夜的若干线索，不以单一技术解释清朝全部危机。",
+      "sceneStepIndexes": [
+        0,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-af19ae3722863118",
+          "text": "先指广州的船，再指英国的机器。"
+        },
+        {
+          "id": "quest-4de7ab6683979ee8",
+          "text": "告诉家人：时间可以相近，地点却不同。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-22e1b7a98d51dcc5",
+        "text": "替两组图片当标签员。先指广州的船，再指英国的机器。告诉家人：时间可以相近，地点却不同。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "码头与机器的时间",
+        "title": "码头与机器的时间",
+        "prompt": "这两组线索应该怎样放？",
+        "rightNote": "同期比较不等于发生在同一地点，更不自动说明直接因果。",
+        "wrongNote": "同期比较不等于发生在同一地点，更不自动说明直接因果。",
+        "sourceIds": [
+          "DPM-HANG-MERCHANT",
+          "DPM-QING-LIMITED-OPENING",
+          "SCIENCE-MUSEUM-ENERGY-HALL"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "码头与机器的时间",
+          "screenText": "十八世纪，广州有对外贸易；英国蒸汽动力也在发展。它们可以放在同一段时间比较，不是同一个地点。",
+          "displayText": "十八世纪，广州有对外贸易；英国蒸汽动力也在发展。它们可以放在同一段时间比较，不是同一个地点。",
+          "narration": "十八世纪，广州有对外贸易；英国蒸汽动力也在发展。它们可以放在同一段时间比较，不是同一个地点。"
+        },
+        "assetId": "study-551d31a5938e22de",
+        "image": "/content/study-scenes/study-551d31a5938e22de.svg",
+        "studyImage": "/content/study-scenes/study-551d31a5938e22de.svg",
+        "studyImageAlt": "十八世纪 广州，十八世纪 英国",
+        "imageAlt": "十八世纪 广州，十八世纪 英国",
+        "imageCaption": "学习示意 · 十八世纪 广州，十八世纪 英国",
+        "imageBoundary": "自制学习示意。码头画是艺术材料，机器图来自英国技术史；对照只表示同一时期的不同变化，不虚构直接因果。",
+        "audio": {
+          "transition": {
+            "id": "quest-45c7f9e9581998a6",
+            "text": "码头与机器的时间。"
+          },
+          "intro": {
+            "id": "quest-516dd35a90038b41",
+            "text": "十八世纪，广州有对外贸易；英国蒸汽动力也在发展。它们可以放在同一段时间比较，不是同一个地点。"
+          },
+          "question": {
+            "id": "quest-d835665c548dca22",
+            "text": "这两组线索应该怎样放？"
+          },
+          "image": {
+            "id": "quest-b0f817bd5d7e3481",
+            "text": "这是学习示意图：十八世纪 广州，十八世纪 英国。这两组线索应该怎样放？"
+          },
+          "right": {
+            "id": "quest-855419790219027f",
+            "text": "找到了。同期比较不等于发生在同一地点，更不自动说明直接因果。"
+          },
+          "wrong": {
+            "id": "quest-23e9f1d76fd223ba",
+            "text": "再比较一下。同期比较不等于发生在同一地点，更不自动说明直接因果。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-05-late-crisis-time-1",
+            "label": "十八世纪，同期不同地",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-cebfaeb2c7b1a1e0.svg",
+            "imageAlt": "同期｜不同地方",
+            "audio": {
+              "id": "quest-bf3453e1b353426f",
+              "text": "十八世纪，同期不同地"
+            }
+          },
+          {
+            "id": "cn-ancient-08-05-late-crisis-time-2",
+            "label": "同一地点，同一张照片",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-32c7cd787b5c2807.svg",
+            "imageAlt": "同一地同一照片",
+            "audio": {
+              "id": "quest-9e0f8052635e5a22",
+              "text": "同一地点，同一张照片"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "广州仍有船来往",
+        "title": "广州仍有船来往",
+        "prompt": "哪张图更符合这句话？",
+        "rightNote": "有贸易和有限制可以同时发生，不能只选“全开”或“全停”。",
+        "wrongNote": "有贸易和有限制可以同时发生，不能只选“全开”或“全停”。",
+        "sourceIds": [
+          "DPM-HANG-MERCHANT",
+          "DPM-QING-LIMITED-OPENING",
+          "SCIENCE-MUSEUM-ENERGY-HALL"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "广州仍有船来往",
+          "screenText": "1757年以后，清朝将西方海上贸易集中到广州管理。这不等于所有对外贸易停止。",
+          "displayText": "1757年以后，清朝将西方海上贸易集中到广州管理。这不等于所有对外贸易停止。",
+          "narration": "1757年以后，清朝将西方海上贸易集中到广州管理。这不等于所有对外贸易停止。"
+        },
+        "assetId": "study-67bc449e42863065",
+        "image": "/content/study-scenes/study-67bc449e42863065.svg",
+        "studyImage": "/content/study-scenes/study-67bc449e42863065.svg",
+        "studyImageAlt": "广州来船，管理限制",
+        "imageAlt": "广州来船，管理限制",
+        "imageCaption": "学习示意 · 广州来船，管理限制",
+        "imageBoundary": "自制学习示意。码头画是艺术材料，机器图来自英国技术史；对照只表示同一时期的不同变化，不虚构直接因果。",
+        "audio": {
+          "transition": {
+            "id": "quest-c4def2ffd8078959",
+            "text": "广州仍有船来往。"
+          },
+          "intro": {
+            "id": "quest-dc749d03a4365b0f",
+            "text": "1757年以后，清朝将西方海上贸易集中到广州管理。这不等于所有对外贸易停止。"
+          },
+          "question": {
+            "id": "quest-6abe0bba3a3c6246",
+            "text": "哪张图更符合这句话？"
+          },
+          "image": {
+            "id": "quest-22f0718ad0f2fc33",
+            "text": "这是学习示意图：广州来船，管理限制。哪张图更符合这句话？"
+          },
+          "right": {
+            "id": "quest-58650924be6149c9",
+            "text": "找到了。有贸易和有限制可以同时发生，不能只选“全开”或“全停”。"
+          },
+          "wrong": {
+            "id": "quest-ca16aa23744feea1",
+            "text": "再比较一下。有贸易和有限制可以同时发生，不能只选“全开”或“全停”。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-05-late-crisis-beginning-1",
+            "label": "广州有船，通商受限制",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-2ff4769062860ada.svg",
+            "imageAlt": "有来往，有限制",
+            "audio": {
+              "id": "quest-5c7ac4381efe1a2d",
+              "text": "广州有船，通商受限制"
+            }
+          },
+          {
+            "id": "cn-ancient-08-05-late-crisis-beginning-2",
+            "label": "所有港口都没有任何往来",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-5aebd56f42e97d89.svg",
+            "imageAlt": "全部往来停止",
+            "audio": {
+              "id": "quest-ef47416dfe41aa1f",
+              "text": "所有港口都没有任何往来"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "行商在中间做什么",
+        "title": "行商在中间做什么",
+        "prompt": "要了解货物怎样交易，还应找谁？",
+        "rightNote": "船帆能看外观，交易过程需要人和记录的线索。",
+        "wrongNote": "船帆能看外观，交易过程需要人和记录的线索。",
+        "sourceIds": [
+          "DPM-HANG-MERCHANT",
+          "DPM-QING-LIMITED-OPENING",
+          "SCIENCE-MUSEUM-ENERGY-HALL"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "行商在中间做什么",
+          "screenText": "广州行商在外商与管理制度之间办理贸易等事务。码头不是只有船，还有处理往来的人。",
+          "displayText": "广州行商在外商与管理制度之间办理贸易等事务。码头不是只有船，还有处理往来的人。",
+          "narration": "广州行商在外商与管理制度之间办理贸易等事务。码头不是只有船，还有处理往来的人。"
+        },
+        "assetId": "study-1871f2851740db35",
+        "image": "/content/study-scenes/study-1871f2851740db35.svg",
+        "studyImage": "/content/study-scenes/study-1871f2851740db35.svg",
+        "studyImageAlt": "到港，办理贸易，记录",
+        "imageAlt": "到港，办理贸易，记录",
+        "imageCaption": "学习示意 · 到港，办理贸易，记录",
+        "imageBoundary": "自制学习示意。码头画是艺术材料，机器图来自英国技术史；对照只表示同一时期的不同变化，不虚构直接因果。",
+        "audio": {
+          "transition": {
+            "id": "quest-0891ff8b09bf363e",
+            "text": "行商在中间做什么。"
+          },
+          "intro": {
+            "id": "quest-562adde25d692068",
+            "text": "广州行商在外商与管理制度之间办理贸易等事务。码头不是只有船，还有处理往来的人。"
+          },
+          "question": {
+            "id": "quest-685080c3d31c2c94",
+            "text": "要了解货物怎样交易，还应找谁？"
+          },
+          "image": {
+            "id": "quest-fede5a3963f473a8",
+            "text": "这是学习示意图：到港，办理贸易，记录。要了解货物怎样交易，还应找谁？"
+          },
+          "right": {
+            "id": "quest-41d7d3a4acf34524",
+            "text": "找到了。船帆能看外观，交易过程需要人和记录的线索。"
+          },
+          "wrong": {
+            "id": "quest-e8d006f4cf92dad3",
+            "text": "再比较一下。船帆能看外观，交易过程需要人和记录的线索。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-05-late-crisis-journey-1",
+            "label": "行商、商人和相关记录",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-867adb1907b32718.svg",
+            "imageAlt": "商人，记录",
+            "audio": {
+              "id": "quest-3ec3fdef040fded0",
+              "text": "行商、商人和相关记录"
+            }
+          },
+          {
+            "id": "cn-ancient-08-05-late-crisis-journey-2",
+            "label": "只看船帆画得大不大",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-4ce3c9122c50a4bc.svg",
+            "imageAlt": "只看帆的大小",
+            "audio": {
+              "id": "quest-73f3520ace1e6cdf",
+              "text": "只看船帆画得大不大"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "给蒸汽机另贴地点",
+        "title": "给蒸汽机另贴地点",
+        "prompt": "这张英国机器资料该贴哪里？",
+        "rightNote": "图像属于哪里、什么年代，要先说明再作比较。",
+        "wrongNote": "图像属于哪里、什么年代，要先说明再作比较。",
+        "sourceIds": [
+          "DPM-HANG-MERCHANT",
+          "DPM-QING-LIMITED-OPENING",
+          "SCIENCE-MUSEUM-ENERGY-HALL"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "给蒸汽机另贴地点",
+          "screenText": "英国蒸汽机的材料说明那里动力技术的变化。它不是清代广州工厂的照片。",
+          "displayText": "英国蒸汽机的材料说明那里动力技术的变化。它不是清代广州工厂的照片。",
+          "narration": "英国蒸汽机的材料说明那里动力技术的变化。它不是清代广州工厂的照片。"
+        },
+        "assetId": "study-f305487dc3ce184e",
+        "image": "/content/study-scenes/study-f305487dc3ce184e.svg",
+        "studyImage": "/content/study-scenes/study-f305487dc3ce184e.svg",
+        "studyImageAlt": "英国蒸汽动力，广州贸易",
+        "imageAlt": "英国蒸汽动力，广州贸易",
+        "imageCaption": "学习示意 · 英国蒸汽动力，广州贸易",
+        "imageBoundary": "自制学习示意。码头画是艺术材料，机器图来自英国技术史；对照只表示同一时期的不同变化，不虚构直接因果。",
+        "audio": {
+          "transition": {
+            "id": "quest-da1c03977393e2e1",
+            "text": "给蒸汽机另贴地点。"
+          },
+          "intro": {
+            "id": "quest-d12e07d365c7ef73",
+            "text": "英国蒸汽机的材料说明那里动力技术的变化。它不是清代广州工厂的照片。"
+          },
+          "question": {
+            "id": "quest-2477852a15e8632d",
+            "text": "这张英国机器资料该贴哪里？"
+          },
+          "image": {
+            "id": "quest-186bd6f49081928e",
+            "text": "这是学习示意图：英国蒸汽动力，广州贸易。这张英国机器资料该贴哪里？"
+          },
+          "right": {
+            "id": "quest-e91884c94f3fdc67",
+            "text": "找到了。图像属于哪里、什么年代，要先说明再作比较。"
+          },
+          "wrong": {
+            "id": "quest-ee49d2a417e83df8",
+            "text": "再比较一下。图像属于哪里、什么年代，要先说明再作比较。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-05-late-crisis-change-1",
+            "label": "英国的技术变化",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-47f4525f4b1061f9.svg",
+            "imageAlt": "英国",
+            "audio": {
+              "id": "quest-f1e2d88cb6444858",
+              "text": "英国的技术变化"
+            }
+          },
+          {
+            "id": "cn-ancient-08-05-late-crisis-change-2",
+            "label": "广州码头的现场",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-56cfda233124681c.svg",
+            "imageAlt": "广州",
+            "audio": {
+              "id": "quest-58e5a1a0da09952a",
+              "text": "广州码头的现场"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "为什么不能只凭一幅画",
+        "title": "为什么不能只凭一幅画",
+        "prompt": "想继续研究变化，应怎样做？",
+        "rightNote": "比较要有各自材料，也不能把同时发生就说成唯一原因。",
+        "wrongNote": "比较要有各自材料，也不能把同时发生就说成唯一原因。",
+        "sourceIds": [
+          "DPM-HANG-MERCHANT",
+          "DPM-QING-LIMITED-OPENING",
+          "SCIENCE-MUSEUM-ENERGY-HALL"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "为什么不能只凭一幅画",
+          "screenText": "贸易限制、国内治理和外部世界变化，都要分别研究。一幅码头画不能解释所有危机。",
+          "displayText": "贸易限制、国内治理和外部世界变化，都要分别研究。一幅码头画不能解释所有危机。",
+          "narration": "贸易限制、国内治理和外部世界变化，都要分别研究。一幅码头画不能解释所有危机。"
+        },
+        "assetId": "study-01ff20dc9adcd8f4",
+        "image": "/content/study-scenes/study-01ff20dc9adcd8f4.svg",
+        "studyImage": "/content/study-scenes/study-01ff20dc9adcd8f4.svg",
+        "studyImageAlt": "港口图，记录，别处技术",
+        "imageAlt": "港口图，记录，别处技术",
+        "imageCaption": "学习示意 · 港口图，记录，别处技术",
+        "imageBoundary": "自制学习示意。码头画是艺术材料，机器图来自英国技术史；对照只表示同一时期的不同变化，不虚构直接因果。",
+        "audio": {
+          "transition": {
+            "id": "quest-ed80853f8d942d55",
+            "text": "为什么不能只凭一幅画。"
+          },
+          "intro": {
+            "id": "quest-16d2949969d2e87a",
+            "text": "贸易限制、国内治理和外部世界变化，都要分别研究。一幅码头画不能解释所有危机。"
+          },
+          "question": {
+            "id": "quest-451b6358047e1f49",
+            "text": "想继续研究变化，应怎样做？"
+          },
+          "image": {
+            "id": "quest-c12ec41d3401fb9d",
+            "text": "这是学习示意图：港口图，记录，别处技术。想继续研究变化，应怎样做？"
+          },
+          "right": {
+            "id": "quest-545b1648ab5fd1d7",
+            "text": "找到了。比较要有各自材料，也不能把同时发生就说成唯一原因。"
+          },
+          "wrong": {
+            "id": "quest-52db49a0978c4d08",
+            "text": "再比较一下。比较要有各自材料，也不能把同时发生就说成唯一原因。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-05-late-crisis-takeaway-1",
+            "label": "比较多地、多种记录",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-4f6772c6e035130a.svg",
+            "imageAlt": "多种材料互相核对",
+            "audio": {
+              "id": "quest-ca692a3d0f17facf",
+              "text": "比较多地、多种记录"
+            }
+          },
+          {
+            "id": "cn-ancient-08-05-late-crisis-takeaway-2",
+            "label": "只凭一幅画下全部结论",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-0279cbdf3454440b.svg",
+            "imageAlt": "一图解释全部",
+            "audio": {
+              "id": "quest-44b307040d9a0fd5",
+              "text": "只凭一幅画下全部结论"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "危机线索网",
+        "items": [
+          "把“土地与生计”“政治制度”“有限开放”“工业化与殖民扩张”连到中心，不能只留一个原因。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "证据大小",
+        "items": [
+          "把云南开荒执照放入“地方个案”，把多地区统计和研究放入“判断总体”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "准确改写",
+        "items": [
+          "把“清朝完全闭关、没有贸易”改成“对外贸易持续，但受到严格限制和管理”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 10,
   "conclusion": [
     "清前期社会经济恢复发展，人口明显增长，商业和对外贸易并未停止；与此同时，土地、资源和生计压力在一些地区加重，官僚体系与高度集中的权力也积累问题。清政府对外贸易采取严格限制和有限开放并存的办法，1757年后主要把西方商人的海上贸易限制在广州，并由特许行商等管理。与此同时，英国率先推进工业化，机器动力、生产能力和殖民扩张改变世界力量对比。中国近代危机不是一个皇帝、一次使团或一条政策单独造成，而是内部矛盾与外部变化长期交织的结果。"
@@ -356,24 +1130,225 @@
   ],
   "assets": [
     {
+      "id": "study-551d31a5938e22de",
+      "title": "学习示意：十八世纪 广州、十八世纪 英国",
+      "localPath": "reference-assets/focused-quests/study-551d31a5938e22de.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "十八世纪 广州 → 十八世纪 英国",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-cebfaeb2c7b1a1e0",
+      "title": "学习示意：同期｜不同地方",
+      "localPath": "reference-assets/focused-quests/study-cebfaeb2c7b1a1e0.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "同期｜不同地方",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-32c7cd787b5c2807",
+      "title": "学习示意：同一地同一照片",
+      "localPath": "reference-assets/focused-quests/study-32c7cd787b5c2807.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "同一地同一照片",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-67bc449e42863065",
+      "title": "学习示意：广州来船、管理限制",
+      "localPath": "reference-assets/focused-quests/study-67bc449e42863065.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "广州来船 → 管理限制",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-2ff4769062860ada",
+      "title": "学习示意：有来往、有限制",
+      "localPath": "reference-assets/focused-quests/study-2ff4769062860ada.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "有来往 → 有限制",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5aebd56f42e97d89",
+      "title": "学习示意：全部往来停止",
+      "localPath": "reference-assets/focused-quests/study-5aebd56f42e97d89.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "全部往来停止",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1871f2851740db35",
+      "title": "学习示意：到港、办理贸易、记录",
+      "localPath": "reference-assets/focused-quests/study-1871f2851740db35.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "到港 → 办理贸易 → 记录",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-867adb1907b32718",
+      "title": "学习示意：商人、记录",
+      "localPath": "reference-assets/focused-quests/study-867adb1907b32718.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "商人 → 记录",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-4ce3c9122c50a4bc",
+      "title": "学习示意：只看帆的大小",
+      "localPath": "reference-assets/focused-quests/study-4ce3c9122c50a4bc.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只看帆的大小",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-f305487dc3ce184e",
+      "title": "学习示意：英国蒸汽动力、广州贸易",
+      "localPath": "reference-assets/focused-quests/study-f305487dc3ce184e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "英国蒸汽动力 → 广州贸易",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-47f4525f4b1061f9",
+      "title": "学习示意：英国",
+      "localPath": "reference-assets/focused-quests/study-47f4525f4b1061f9.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "英国",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-56cfda233124681c",
+      "title": "学习示意：广州",
+      "localPath": "reference-assets/focused-quests/study-56cfda233124681c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "广州",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-01ff20dc9adcd8f4",
+      "title": "学习示意：港口图、记录、别处技术",
+      "localPath": "reference-assets/focused-quests/study-01ff20dc9adcd8f4.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "港口图 → 记录 → 别处技术",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-4f6772c6e035130a",
+      "title": "学习示意：多种材料互相核对",
+      "localPath": "reference-assets/focused-quests/study-4f6772c6e035130a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "多种材料互相核对",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-0279cbdf3454440b",
+      "title": "学习示意：一图解释全部",
+      "localPath": "reference-assets/focused-quests/study-0279cbdf3454440b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "一图解释全部",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
       "id": "canton-factories-circa-1780-painting",
       "title": "约1780年广州商馆艺术作品",
       "localPath": "reference-assets/ming-qing/canton-factories-1780.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:CantonFactories1780.jpeg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "约1780年描绘广州商馆的艺术作品。",
-      "boundary": "画面可用于观察艺术家表现的商馆、旗帜与船只，但它不是照片、精确测绘或贸易统计，不能凭旗帜数量推算商馆、国家或贸易额。原图640×440像素，画面老化且尺寸较小。"
+      "boundary": "画面可用于观察艺术家表现的商馆、旗帜与船只，但它不是照片、精确测绘或贸易统计，不能凭旗帜数量推算商馆、国家或贸易额。原图640×440像素，画面老化且尺寸较小。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "watt-steam-engine-1822-engraving",
       "title": "瓦特双作用蒸汽机历史技术雕版图",
       "localPath": "reference-assets/ming-qing/watt-steam-engine-engraving.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Steam_engine_-_Mr._Watt%27s_double_steam_engine_from_his_specification_of_1782_LCCN2006691752.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "1822年发表、依据瓦特1782年技术说明绘制的双作用蒸汽机雕版图。",
-      "boundary": "这是英文技术图，不是工厂现场照片，也不能代表工业革命全部机器。正文必须使用“瓦特改良蒸汽机”，不得写成“瓦特发明了第一台蒸汽机”。下载为1920×2421像素等比例图，未作其他修改。"
+      "boundary": "这是英文技术图，不是工厂现场照片，也不能代表工业革命全部机器。正文必须使用“瓦特改良蒸汽机”，不得写成“瓦特发明了第一台蒸汽机”。下载为1920×2421像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-08-05-late-crisis.jpg",

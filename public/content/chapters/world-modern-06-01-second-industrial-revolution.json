@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-modern-06-01-second-industrial-revolution",
   "trackId": "world-modern",
   "trackLabel": "世界近代史",
@@ -10,10 +10,597 @@
     "years": "19世纪后期—20世纪初"
   },
   "order": 9,
-  "title": "电、内燃机和新通信怎样再次改变生活",
-  "coreQuestion": "第二次工业革命为什么让世界更快也更不平等？",
-  "throughline": "先以1856—1913年技术与中国同期线定位事件，再用电灯专利和珍珠街电站、电话专利和接线员、汽车专利与贝尔塔行程、福特工厂照片、苯胺紫样本、转炉图、化工厂照片和反垄断漫画，认识装置必须连接能源、线路、道路、劳动、资本和规则才能改变生活，并比较效率、普及不均、重复劳动、环境污染和大企业权力；最后回到1880年代天津电报与唐胥铁路的晚清系统建设。",
-  "age": "6—9岁亲子共学",
+  "title": "电话里的声音怎样跑过电线",
+  "coreQuestion": "说话、振动、电的变化、线路和交换台怎样接力，让远处的人听见声音？",
+  "throughline": "从1876年电话专利图进入振动、线路、交换台与接线劳动，再扩展到新技术必须连接网络、组织和规则才能改变生活。",
+  "childEntry": {
+    "id": "world-modern-06-01-second-industrial-revolution",
+    "childTitle": "电话里的声音怎样跑过电线",
+    "prompt": "说话、振动、电流和听筒怎样接力，让远处的人听见声音？",
+    "takeaway": "新装置要接进电网、道路和工厂；便利增加时，权力与财富差距也可能扩大。",
+    "object": "电话专利图、早期电话、交换台、灯泡与汽车",
+    "people": [
+      "发明团队、工厂工人、通信员、乘客与消费者"
+    ],
+    "place": "欧美工业城市与中国早期铁路、电报网络",
+    "culture": "广告、专利图与城市影像",
+    "care": "不把发明归给一个名字，也不让速度和机器数量成为文明排名。",
+    "preferredAssetId": "bell-telephone-patent-1876-public-domain"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🎧",
+      "label": "从一个声音出发",
+      "text": "电话里的声音怎样跑过电线"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "声音变成电流",
+      "text": "先对着话筒说话，让声音变成振动和电流。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "沿电线一路接力",
+      "text": "接着经过电线、交换台，再从听筒变回声音。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "远处也能听见",
+      "text": "最后电话接入城市网络，远处的人可以互相听见。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "新装置要接进电网、道路和工厂；便利增加时，权力与财富差距也可能扩大。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "文明",
+      "icon": "🏙️",
+      "plain": "许多人长期创造的社会生活与文化成果。",
+      "example": "不同文明各有环境和道路，不做高低排名。",
+      "priority": 2
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "欧美",
+      "reading": "Ōuměi",
+      "kind": "place",
+      "chapterIds": [
+        "world-modern-06-01-second-industrial-revolution"
+      ],
+      "note": "“欧”读ōu。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个声音",
+      "icon": "🎧",
+      "label": "电话里的声音怎样跑过电线",
+      "question": "说话、振动、电流和听筒怎样接力，让远处的人听见声音？"
+    },
+    "coverAudio": {
+      "id": "quest-2f777419f11a81b7",
+      "text": "今天从一个声音出发：电话里的声音怎样跑过电线。我们要去欧美工业城市与中国早期铁路、电报网络，看看电话专利图、早期电话、交换台、灯泡与汽车怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-092dfa08f448579e",
+      "text": "五条线索都找到了，“电话里的声音怎样跑过电线”的答案是：新装置要接进电网、道路和工厂；便利增加时，权力与财富差距也可能扩大。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 11,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个声音出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是第二次工业革命与近代文化，时间是19世纪后期—20世纪初。",
+          "narration": "这是第二次工业革命与近代文化，时间是19世纪后期—20世纪初。",
+          "displayText": "这是第二次工业革命与近代文化，时间是19世纪后期—20世纪初。"
+        },
+        "assetId": "bell-telephone-patent-1876-public-domain",
+        "image": "/content/step-images/bell-telephone-patent-1876-public-domain.jpg",
+        "imageAlt": "1876年贝尔电话专利图与宣誓页",
+        "imageCaption": "1876年贝尔电话专利材料中的技术图与宣誓页；它记录专利主张，不是完整电话网络设计图。",
+        "imageBoundary": "本地文件为864×1200像素JPEG。电话发展涉及其他实验者、专利竞争、线路、交换台和接线劳动；不能把这页称为一人独自完成电话网络的证明。",
+        "audio": {
+          "transition": {
+            "id": "quest-6cef4ae0d2a76231",
+            "text": "先给一个声音找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-e301d7c0659b3771",
+            "text": "这是第二次工业革命与近代文化，时间是19世纪后期—20世纪初。"
+          },
+          "image": {
+            "id": "quest-6e12914638908393",
+            "text": "点开大图啦。这是1876年贝尔电话专利图与宣誓页。这张图能帮我们找到：这是第二次工业革命与近代文化，时间是19世纪后期—20世纪初。"
+          },
+          "question": {
+            "id": "quest-85ca992adf7a1174",
+            "text": "从一个声音出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-time-1",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-time-2",
+            "label": "世界近代史 · 第二次工业革命与近代文化 · 19世纪后期—20世纪初",
+            "correct": true,
+            "audio": {
+              "id": "quest-40725c07ff8c763e",
+              "text": "世界近代史 · 第二次工业革命与近代文化 · 19世纪后期—20世纪初"
+            }
+          },
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-time-3",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "声音变成电流",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先对着话筒说话，让声音变成振动和电流。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "声音变成电流",
+          "screenText": "先对着话筒说话，让声音变成振动和电流。",
+          "narration": "先对着话筒说话，让声音变成振动和电流。",
+          "displayText": "先对着话筒说话，让声音变成振动和电流。"
+        },
+        "assetId": "bell-telephone-patent-1876-public-domain",
+        "image": "/content/step-images/bell-telephone-patent-1876-public-domain.jpg",
+        "imageAlt": "1876年贝尔电话专利图与宣誓页",
+        "imageCaption": "1876年贝尔电话专利材料中的技术图与宣誓页；它记录专利主张，不是完整电话网络设计图。",
+        "imageBoundary": "本地文件为864×1200像素JPEG。电话发展涉及其他实验者、专利竞争、线路、交换台和接线劳动；不能把这页称为一人独自完成电话网络的证明。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-90416401c940b065",
+            "text": "先对着话筒说话，让声音变成振动和电流。"
+          },
+          "image": {
+            "id": "quest-06f7e07ac4fd4315",
+            "text": "点开大图啦。这是1876年贝尔电话专利图与宣誓页。这张图能帮我们找到：先对着话筒说话，让声音变成振动和电流。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-beginning-1",
+            "label": "电话专利图、早期电话、交换台、灯泡与汽车，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-d93de86e2c5a27d5",
+              "text": "电话专利图、早期电话、交换台、灯泡与汽车，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-beginning-2",
+            "label": "发明团队、工厂工人、通信员、乘客与消费者、欧，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-f7725a1fcd6c8625",
+              "text": "发明团队、工厂工人、通信员、乘客与消费者、欧，只是故事人物"
+            }
+          },
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-beginning-3",
+            "label": "欧美工业城市与中国早期铁路、电报网络、发，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-989c77e6c97de1fe",
+              "text": "欧美工业城市与中国早期铁路、电报网络、发，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "沿电线一路接力",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着经过电线、交换台，再从听筒变回声音。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "沿电线一路接力",
+          "screenText": "接着经过电线、交换台，再从听筒变回声音。",
+          "narration": "接着经过电线、交换台，再从听筒变回声音。",
+          "displayText": "接着经过电线、交换台，再从听筒变回声音。"
+        },
+        "assetId": "telephone-operators-1914-1917-no-known-restrictions",
+        "image": "/content/step-images/telephone-operators-1914-1917-no-known-restrictions.jpg",
+        "imageAlt": "1914—1917年电话接线员工作照片",
+        "imageCaption": "1914—1917年间拍摄的电话接线员和成排交换设备，地点由馆藏页提供。",
+        "imageBoundary": "本地文件为1280×929像素JPEG。照片能说明人工交换空间和劳动密度，不能给人物补写姓名、工资、一天通话量或心情，也不能代表所有地区的电话系统。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-e853cb3c3ad8d485",
+            "text": "接着经过电线、交换台，再从听筒变回声音。"
+          },
+          "image": {
+            "id": "quest-1ab5579892009001",
+            "text": "点开大图啦。这是1914—1917年电话接线员工作照片。这张图能帮我们找到：接着经过电线、交换台，再从听筒变回声音。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-journey-1",
+            "label": "欧美工业城市与中国早期铁路，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-9c0d7e7ee852ee6d",
+              "text": "欧美工业城市与中国早期铁路，只说了地点"
+            }
+          },
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-journey-2",
+            "label": "发明团队、工厂工人、通信员、乘，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-a3ba204f4a620e4b",
+              "text": "发明团队、工厂工人、通信员、乘，只认出人物"
+            }
+          },
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-journey-3",
+            "label": "接着经过电线、交换台，再从听筒变回声音。",
+            "correct": true,
+            "audio": {
+              "id": "quest-e853cb3c3ad8d485",
+              "text": "接着经过电线、交换台，再从听筒变回声音。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "远处也能听见",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后电话接入城市网络，远处的人可以互相听见。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "远处也能听见",
+          "screenText": "最后电话接入城市网络，远处的人可以互相听见。",
+          "narration": "最后电话接入城市网络，远处的人可以互相听见。",
+          "displayText": "最后电话接入城市网络，远处的人可以互相听见。"
+        },
+        "assetId": "telephone-operators-1914-1917-no-known-restrictions",
+        "image": "/content/step-images/telephone-operators-1914-1917-no-known-restrictions.jpg",
+        "imageAlt": "1914—1917年电话接线员工作照片",
+        "imageCaption": "1914—1917年间拍摄的电话接线员和成排交换设备，地点由馆藏页提供。",
+        "imageBoundary": "本地文件为1280×929像素JPEG。照片能说明人工交换空间和劳动密度，不能给人物补写姓名、工资、一天通话量或心情，也不能代表所有地区的电话系统。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-5627ac1e8206eacf",
+            "text": "最后电话接入城市网络，远处的人可以互相听见。"
+          },
+          "image": {
+            "id": "quest-0507662c3cb92036",
+            "text": "点开大图啦。这是1914—1917年电话接线员工作照片。这张图能帮我们找到：最后电话接入城市网络，远处的人可以互相听见。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-change-1",
+            "label": "电话专利图、早期电话、交换，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-e33f2e54b9cc37fe",
+              "text": "电话专利图、早期电话、交换，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-change-2",
+            "label": "最后电话接入城市网络，远处的人可以互相听见。",
+            "correct": true,
+            "audio": {
+              "id": "quest-5627ac1e8206eacf",
+              "text": "最后电话接入城市网络，远处的人可以互相听见。"
+            }
+          },
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-change-3",
+            "label": "经过电线、交换台，再从听筒变回，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-607a3ea5a37fe168",
+              "text": "经过电线、交换台，再从听筒变回，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "新装置要接进电网、道路和工厂；便利增加时，权力与财富差距也可能扩大。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "新装置要接进电网、道路和工厂；便利增加时，权力与财富差距也可能扩大。",
+          "narration": "新装置要接进电网、道路和工厂；便利增加时，权力与财富差距也可能扩大。",
+          "displayText": "新装置要接进电网、道路和工厂；便利增加时，权力与财富差距也可能扩大。"
+        },
+        "assetId": "telephone-operators-1914-1917-no-known-restrictions",
+        "image": "/content/step-images/telephone-operators-1914-1917-no-known-restrictions.jpg",
+        "imageAlt": "1914—1917年电话接线员工作照片",
+        "imageCaption": "1914—1917年间拍摄的电话接线员和成排交换设备，地点由馆藏页提供。",
+        "imageBoundary": "本地文件为1280×929像素JPEG。照片能说明人工交换空间和劳动密度，不能给人物补写姓名、工资、一天通话量或心情，也不能代表所有地区的电话系统。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-6bad8d0daee80432",
+            "text": "新装置要接进电网、道路和工厂；便利增加时，权力与财富差距也可能扩大。"
+          },
+          "image": {
+            "id": "quest-82bb52bf7455dbdf",
+            "text": "点开大图啦。这是1914—1917年电话接线员工作照片。这张图能帮我们找到：新装置要接进电网、道路和工厂；便利增加时，权力与财富差距也可能扩大。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-takeaway-1",
+            "label": "新装置要接进电网、道路和工厂；便利增加时，权力与财富差距也可能扩大。",
+            "correct": true,
+            "audio": {
+              "id": "quest-6bad8d0daee80432",
+              "text": "新装置要接进电网、道路和工厂；便利增加时，权力与财富差距也可能扩大。"
+            }
+          },
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-takeaway-2",
+            "label": "对着话筒说话，让声音变成振动和电流。、电话专利图、早期，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-7738e5ab2e8128d4",
+              "text": "对着话筒说话，让声音变成振动和电流。、电话专利图、早期，只说了原因"
+            }
+          },
+          {
+            "id": "world-modern-06-01-second-industrial-revolution-takeaway-3",
+            "label": "电话接入城市网络，远处的人可以互相听见。、电话里的声音怎样，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-1a2daf7238cb055a",
+              "text": "电话接入城市网络，远处的人可以互相听见。、电话里的声音怎样，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "点亮街区",
+        "items": [
+          "孩子按“能源—动力机与发电机—导线—开关和计量—灯”的因果顺序连接五张卡。",
+          "接错时语音提示“灯还缺少从哪里来的电”，不出现失败惩罚。",
+          "完成后再出现“许可、投资、安装、维修”四个半透明人物与制度卡，说明工程系统还需要社会协作。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "接通电话",
+        "items": [
+          "从三位接听者中选择目标，把“来电者—交换台—线路—接听者”连成一条正确路径。",
+          "不计算手速；完成标准是线路正确并能说出接线员的作用。",
+          "照片人物不添加姓名、对白、工资或心情。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "流水线双面卡",
+        "items": [
+          "六张卡分到两侧：“产量更多、时间更短、部分商品更便宜”与“动作重复、节奏受控、劳动压力增加”。",
+          "“工资一定提高”“所有人都能买车”是证据不足卡，放入“还要查资料”。",
+          "完成反馈：“同一项变化可以同时有进步和代价。”"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "电话系统拼图",
+        "items": [
+          "把“说话—振动—电的变化—线路—交换台—接听者”连成通信链。",
+          "再把“安装、接线、维修”人物卡放到相应环节。",
+          "完成后再和晚清中国电报线作系统构成比较，不做国家得分。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 11,
   "conclusion": [
     "19世纪后半期到20世纪初，电力、电话、内燃机、钢铁和化学工业相互推动，形成常被称作“第二次工业革命”的一组变化。真正改变生活的不是一只灯泡、一部电话或一辆汽车单独出现，而是发电站、导线、交换台、道路、燃料、工厂、维修、资金和劳动者连接成了系统。系统让照明、通信、交通和生产更快、更便宜，也扩大了大企业的力量，令流水线劳动更重复、更受节奏控制，并带来燃煤烟尘、工业废物等环境问题。新技术的好处也没有同时到达每个地区和家庭。晚清中国并非“完全拒绝技术”：1880年代已经出现电报总局、津沪公共电报线、唐胥铁路等尝试。更准确的问题是，技术能否与人才、资金、管理、线路和国家主权连接成持续运行的网络。技术可以扩大人的能力，却不会自动带来平等或正义；人们还要通过劳动组织、公共建设、法律和社会选择决定它怎样被使用。"
@@ -545,27 +1132,27 @@
     },
     {
       "number": 2,
-      "title": "点亮街区需要什么",
-      "screenText": "灯泡不会自己发电。\n能源 → 发电机 → 电线 → 开关和计量 → 灯\n还需要工程师、工人、投资和城市许可。",
+      "title": "第一拍——声音先变成电的变化",
+      "screenText": "说话让薄片振动。\n装置把振动变成电的变化，再沿线路出发。",
       "voices": [
         {
           "number": 2,
           "label": "语音2｜约72秒",
-          "text": "这张1880年专利图画的是爱迪生团队改进的电灯结构。注意，它叫‘电灯改进’，不是‘世界上第一盏灯’。两年后，纽约珍珠街电站开始给附近用户供电。电站烧燃料带动机器，发电机产生电，导线把电送到开关和灯。城市还要允许铺线，投资人要付建设费用，工人要安装和维修。真正点亮街区的，是许多人一起建立的系统。",
+          "text": "一八七六年的电话专利图，记录了贝尔团队当时申请保护的一种装置。说话会让薄片振动，装置把变化送进线路，远处的听筒再把变化还原成声音。专利图能说明结构和主张，不能证明一个人独自完成了后来所有电话技术。",
           "segments": [
             {
               "id": "world-modern-06-01-second-industrial-revolution-s02-v02-01",
               "order": 1,
               "tier": "core",
-              "text": "这张1880年专利图画的是爱迪生团队改进的电灯结构。注意，它叫‘电灯改进’，不是‘世界上第一盏灯’。两年后，纽约珍珠街电站开始给附近用户供电。电站烧燃料带动机器，发电机产生电，导线把电送到开关和灯。",
-              "hanCharacters": 82
+              "text": "一八七六年的电话专利图，记录了贝尔团队当时申请保护的一种装置。说话会让薄片振动，装置把变化送进线路，远处的听筒再把变化还原成声音。",
+              "hanCharacters": 60
             },
             {
               "id": "world-modern-06-01-second-industrial-revolution-s02-v02-02",
               "order": 2,
               "tier": "extension",
-              "text": "城市还要允许铺线，投资人要付建设费用，工人要安装和维修。真正点亮街区的，是许多人一起建立的系统。",
-              "hanCharacters": 43
+              "text": "专利图能说明结构和主张，不能证明一个人独自完成了后来所有电话技术。",
+              "hanCharacters": 31
             }
           ]
         }
@@ -584,7 +1171,7 @@
     },
     {
       "number": 3,
-      "title": "一句话怎样穿过城市",
+      "title": "第二拍——交换台帮声音找到人",
       "screenText": "来电者 → 接线员和交换台 → 线路 → 接听者\n电话变快了，背后仍有人工作。",
       "voices": [
         {
@@ -623,27 +1210,20 @@
     },
     {
       "number": 4,
-      "title": "汽车为什么不能只靠发动机",
-      "screenText": "发动机让车能动。\n燃料、道路、维修和零件，才让车能走远。\n1888年，贝尔塔·本茨的长途行程把这些缺口都显出来了。",
+      "title": "第三拍——电话接进一张城市网络",
+      "screenText": "电话机 + 交换台 + 线路 + 接线员 + 维修\n一件装置接进系统，才能被更多人可靠使用。",
       "voices": [
         {
           "number": 4,
           "label": "语音4｜约72秒",
-          "text": "本茨的专利车用内燃机带动车轮。1888年，贝尔塔·本茨驾驶它走了大约一百公里。路上没有今天的加油站，她要到药房寻找燃料；车辆出了小问题，她还想办法清理油管、修理绝缘和刹车。她的行程不只证明车能走，也证明车要进入日常生活，社会还得建设道路、燃料供应、零件和修理网络。一个发明能不能改变生活，要看它能不能被可靠地使用。",
+          "text": "一部电话只能连很少的人。要让城市里更多电话互相接通，还要有交换台、线路、接线员、安装和维修。新装置改变生活，不是因为它突然获得魔法，而是因为许多人把它接进一张可以长期运行的网络。",
           "segments": [
             {
               "id": "world-modern-06-01-second-industrial-revolution-s04-v04-01",
               "order": 1,
               "tier": "core",
-              "text": "本茨的专利车用内燃机带动车轮。1888年，贝尔塔·本茨驾驶它走了大约一百公里。路上没有今天的加油站，她要到药房寻找燃料；车辆出了小问题，她还想办法清理油管、修理绝缘和刹车。",
-              "hanCharacters": 73
-            },
-            {
-              "id": "world-modern-06-01-second-industrial-revolution-s04-v04-02",
-              "order": 2,
-              "tier": "extension",
-              "text": "她的行程不只证明车能走，也证明车要进入日常生活，社会还得建设道路、燃料供应、零件和修理网络。一个发明能不能改变生活，要看它能不能被可靠地使用。",
-              "hanCharacters": 64
+              "text": "一部电话只能连很少的人。要让城市里更多电话互相接通，还要有交换台、线路、接线员、安装和维修。新装置改变生活，不是因为它突然获得魔法，而是因为许多人把它接进一张可以长期运行的网络。",
+              "hanCharacters": 80
             }
           ]
         }
@@ -691,8 +1271,8 @@
     },
     {
       "number": 6,
-      "title": "新材料、大公司和新问题",
-      "screenText": "钢更多，机器和铁路能造得更大。\n合成染料带来新颜色，也推动化学工业。\n大工厂和大公司更强，烟尘、废物、垄断与劳动问题也更突出。",
+      "title": "网络变大，也会出现新问题",
+      "screenText": "线路越多，通信越快；公司和城市网络也变得更大。\n还要问：谁能使用、谁在劳动、规则是否公平？",
       "voices": [
         {
           "number": 6,
@@ -720,27 +1300,20 @@
     },
     {
       "number": 7,
-      "title": "中国同期——有机器还要有网络",
-      "screenText": "1880 天津电报总局\n1881 津沪公共电报线、唐胥铁路\n晚清中国已经在建设新技术系统。\n真正困难的是把人才、资金、线路、管理和主权长期连起来。",
+      "title": "拼出电话声音旅行的答案",
+      "screenText": "振动 → 电的变化 → 线路 → 交换台 → 听筒里的声音\n装置、网络和劳动缺一不可。",
       "voices": [
         {
           "number": 7,
           "label": "语音7｜约78秒",
-          "text": "晚清中国并不是看见机器就全部拒绝。1880年天津设立电报总局，第二年津沪公共电报线建成；同一年，服务开平煤矿运输的唐胥铁路建成。铁路要把矿井、轨道、机车和港口接起来，电报要有线路、报务员、学堂和管理机构。中国还兴办船厂、工厂和学堂。这些事业有成果，也遇到资金、管理、外国控制和国家主权等难题。历史问题不是‘谁更聪明’，而是一个社会怎样把许多条件持续连接起来。",
+          "text": "现在拼出完整路线：人说话，薄片振动；装置把振动变成电的变化；线路把变化送到交换台和远处；听筒再把它变回声音。电话变快了，背后仍有接线、安装和维修劳动。一件新装置接进网络，才真正改变生活。",
           "segments": [
             {
               "id": "world-modern-06-01-second-industrial-revolution-s07-v07-01",
               "order": 1,
               "tier": "core",
-              "text": "晚清中国并不是看见机器就全部拒绝。1880年天津设立电报总局，第二年津沪公共电报线建成；同一年，服务开平煤矿运输的唐胥铁路建成。铁路要把矿井、轨道、机车和港口接起来，电报要有线路、报务员、学堂和管理机构。",
-              "hanCharacters": 87
-            },
-            {
-              "id": "world-modern-06-01-second-industrial-revolution-s07-v07-02",
-              "order": 2,
-              "tier": "extension",
-              "text": "中国还兴办船厂、工厂和学堂。这些事业有成果，也遇到资金、管理、外国控制和国家主权等难题。历史问题不是‘谁更聪明’，而是一个社会怎样把许多条件持续连接起来。",
-              "hanCharacters": 67
+              "text": "现在拼出完整路线：人说话，薄片振动；装置把振动变成电的变化；线路把变化送到交换台和远处；听筒再把它变回声音。电话变快了，背后仍有接线、安装和维修劳动。一件新装置接进网络，才真正改变生活。",
+              "hanCharacters": 82
             }
           ]
         },
@@ -769,11 +1342,11 @@
       "interactions": [
         {
           "number": 4,
-          "title": "中国同期系统拼图",
+          "title": "电话系统拼图",
           "items": [
-            "第一组把“煤矿—轨道—机车—港口与市场”连成运输链。",
-            "第二组把“电报局—报务人员与学堂—电报线—城市节点”连成通信链。",
-            "完成后与纽约供电、美国电话网络并排，只比较“系统由哪些部分组成”，不做国家得分。"
+            "把“说话—振动—电的变化—线路—交换台—接听者”连成通信链。",
+            "再把“安装、接线、维修”人物卡放到相应环节。",
+            "完成后再和晚清中国电报线作系统构成比较，不做国家得分。"
           ]
         }
       ]
@@ -809,11 +1382,11 @@
     },
     {
       "number": 4,
-      "title": "中国同期系统拼图",
+      "title": "电话系统拼图",
       "items": [
-        "第一组把“煤矿—轨道—机车—港口与市场”连成运输链。",
-        "第二组把“电报局—报务人员与学堂—电报线—城市节点”连成通信链。",
-        "完成后与纽约供电、美国电话网络并排，只比较“系统由哪些部分组成”，不做国家得分。"
+        "把“说话—振动—电的变化—线路—交换台—接听者”连成通信链。",
+        "再把“安装、接线、维修”人物卡放到相应环节。",
+        "完成后再和晚清中国电报线作系统构成比较，不做国家得分。"
       ]
     }
   ],
@@ -1155,100 +1728,130 @@
       "title": "1880年爱迪生电灯改进专利图",
       "localPath": "reference-assets/world-modern-second-industrial-revolution/edison-light-bulb-patent-1880.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Drawing_for_an_Electric_Lamp_-_NARA_-_595450.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "第223898号电灯改进专利图，1880年1月27日获批；图中可见灯丝、玻璃泡和连接结构。",
-      "boundary": "本地文件为1920×2782像素JPEG，原件藏美国国家档案馆。儿童稿必须使用“电灯改进专利”，不能称为世界第一盏电灯；专利署名也不能证明全部实验由一人完成。"
+      "boundary": "本地文件为1920×2782像素JPEG，原件藏美国国家档案馆。儿童稿必须使用“电灯改进专利”，不能称为世界第一盏电灯；专利署名也不能证明全部实验由一人完成。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "bell-telephone-patent-1876-public-domain",
       "title": "1876年贝尔电话专利图与宣誓页",
       "localPath": "reference-assets/world-modern-second-industrial-revolution/bell-telephone-patent-1876.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell%27s_Telephone_Patent_Drawing_and_Oath_-_NARA_-_302052_(page_2).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1876年贝尔电话专利材料中的技术图与宣誓页；它记录专利主张，不是完整电话网络设计图。",
-      "boundary": "本地文件为864×1200像素JPEG。电话发展涉及其他实验者、专利竞争、线路、交换台和接线劳动；不能把这页称为一人独自完成电话网络的证明。"
+      "boundary": "本地文件为864×1200像素JPEG。电话发展涉及其他实验者、专利竞争、线路、交换台和接线劳动；不能把这页称为一人独自完成电话网络的证明。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "telephone-operators-1914-1917-no-known-restrictions",
       "title": "1914—1917年电话接线员工作照片",
       "localPath": "reference-assets/world-modern-second-industrial-revolution/telephone-operators-1914-1917.jpg",
       "sourcePage": "https://www.loc.gov/pictures/item/2016853369/",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "No known restrictions on publication",
       "clearance": "cleared-no-known-restrictions",
       "caption": "1914—1917年间拍摄的电话接线员和成排交换设备，地点由馆藏页提供。",
-      "boundary": "本地文件为1280×929像素JPEG。照片能说明人工交换空间和劳动密度，不能给人物补写姓名、工资、一天通话量或心情，也不能代表所有地区的电话系统。"
+      "boundary": "本地文件为1280×929像素JPEG。照片能说明人工交换空间和劳动密度，不能给人物补写姓名、工资、一天通话量或心情，也不能代表所有地区的电话系统。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "benz-patent-motorwagen-drawing-1886-public-domain",
       "title": "1886年本茨专利机动车技术图",
       "localPath": "reference-assets/world-modern-second-industrial-revolution/benz-patent-drawing-1886.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Patentschrift_37435_Benz_Patent-Motorwagen.pdf",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1886年第37435号本茨专利文献中的机动车结构图；本地文件由公有领域PDF相关页面渲染。",
-      "boundary": "本地文件为1555×2103像素JPEG。专利图用于识别早期三轮结构、发动机与传动，不证明此后汽车所有部件均由本茨发明；贝尔塔行程事实以德国专利商标局资料核验。"
+      "boundary": "本地文件为1555×2103像素JPEG。专利图用于识别早期三轮结构、发动机与传动，不证明此后汽车所有部件均由本茨发明；贝尔塔行程事实以德国专利商标局资料核验。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "ford-chassis-assembly-line-c1913-no-known-restrictions",
       "title": "约1913年福特工厂汽车底盘排列照片",
       "localPath": "reference-assets/world-modern-second-industrial-revolution/ford-assembly-line-1913.jpg",
       "sourcePage": "https://www.loc.gov/item/2011661021/",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "No known restrictions on publication",
       "clearance": "cleared-no-known-restrictions",
       "caption": "约1913年福特汽车公司厂房内排列的未完成汽车底盘。",
-      "boundary": "本地文件为1536×1236像素JPEG。照片显示厂房和底盘排列，不能单凭画面计算装配速度、工资、产量或工人感受；装配时间与劳动影响另以国会图书馆、史密森学会和国家公园管理局资料核验。"
+      "boundary": "本地文件为1536×1236像素JPEG。照片显示厂房和底盘排列，不能单凭画面计算装配速度、工资、产量或工人感受；装配时间与劳动影响另以国会图书馆、史密森学会和国家公园管理局资料核验。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "perkin-mauve-sample-1906-public-domain",
       "title": "1906年纪念册中的珀金苯胺紫样本",
       "localPath": "reference-assets/world-modern-second-industrial-revolution/perkin-mauve-sample-1906.jpg",
       "sourcePage": "https://digital.sciencehistory.org/works/o2sfuyr",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1906年纪念册中由珀金提供的苯胺紫织物样本，展示合成染料的真实颜色和材料。",
-      "boundary": "本地文件为3094×4374像素JPEG。它是1856年发现50周年时提供的样本，不是第一次实验遗留的布片；不得根据褪色程度推断原始配方或生产条件。"
+      "boundary": "本地文件为3094×4374像素JPEG。它是1856年发现50周年时提供的样本，不是第一次实验遗留的布片；不得根据褪色程度推断原始配方或生产条件。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "bessemer-converter-diagram-1905-public-domain",
       "title": "1905年贝塞麦转炉技术图",
       "localPath": "reference-assets/world-modern-second-industrial-revolution/bessemer-converter-diagram-1905.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:NIE_1905_Iron_and_Steel_-_Bessemer_steel_converter.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1905年百科全书绘制的贝塞麦转炉图，可见转炉容器、进风结构和倾倒方向。",
-      "boundary": "本地文件为521×504像素JPEG。这是后来的技术图，不是19世纪炼钢现场照片；贝塞麦工艺作用和原料限制以英国科学博物馆集团实物记录核验。"
+      "boundary": "本地文件为521×504像素JPEG。这是后来的技术图，不是19世纪炼钢现场照片；贝塞麦工艺作用和原料限制以英国科学博物馆集团实物记录核验。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "deseronto-chemical-works-1907-no-known-restrictions",
       "title": "1907年德瑟龙托化工厂与焚烧设施照片",
       "localPath": "reference-assets/world-modern-second-industrial-revolution/chemical-works-deseronto-1907.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:%22Refuse_burners_and_Chemical_works_from_the_Bay%22_(3745119937).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "No known restrictions on publication",
       "clearance": "cleared-no-known-restrictions",
       "caption": "1907年从加拿大德瑟龙托海湾方向拍摄的化工厂、焚烧设施、码头与烟囱。",
-      "boundary": "本地文件为2048×1633像素JPEG。它只证明特定工业景观，不能由烟雾颜色判断具体化学物、排放量或个人健康后果；污染史结论另由环境机构资料支持。"
+      "boundary": "本地文件为2048×1633像素JPEG。它只证明特定工业景观，不能由烟雾颜色判断具体化学物、排放量或个人健康后果；污染史结论另由环境机构资料支持。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "standard-oil-next-cartoon-1904-no-known-restrictions",
       "title": "1904年《下一个！》标准石油讽刺漫画",
       "localPath": "reference-assets/world-modern-second-industrial-revolution/standard-oil-octopus-1904.jpg",
       "sourcePage": "https://www.loc.gov/item/2001695241/",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "No known restrictions on publication",
       "clearance": "cleared-no-known-restrictions",
       "caption": "乌多·凯普勒1904年政治漫画，用章鱼触手夸张表现标准石油公司的广泛影响。",
-      "boundary": "本地文件为8548×5427像素JPEG。漫画是批评性观点和象征表达，不是公司组织图、资产表或政府调查结论；不得把每条触手当成已核实的控制关系。"
+      "boundary": "本地文件为8548×5427像素JPEG。漫画是批评性观点和象征表达，不是公司组织图、资产表或政府调查结论；不得把每条触手当成已核实的控制关系。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "rocket-of-china-locomotive-1882-public-domain",
       "title": "1882年公司记录中的中国早期蒸汽机车照片",
       "localPath": "reference-assets/world-modern-second-industrial-revolution/rocket-of-china-1882.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Rocket-China.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1882年公司记录照片中的中国早期蒸汽机车，后来的公开资料常称其为“Rocket of China”。",
-      "boundary": "本地文件为600×383像素JPEG。公开资料对唐胥铁路早期机车的中文名称、制造者和“第一”称号存在不同写法；正式内容只用照片说明早期蒸汽铁路实践，不据图确定零件产地或唯一制造者。"
+      "boundary": "本地文件为600×383像素JPEG。公开资料对唐胥铁路早期机车的中文名称、制造者和“第一”称号存在不同写法；正式内容只用照片说明早期蒸汽铁路实践，不据图确定零件产地或唯一制造者。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-modern-06-01-second-industrial-revolution.jpg",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.12.0",
+  "contentVersion": "0.13.0",
   "id": "cn-contemporary-02-02-science-diplomacy",
   "trackId": "china-contemporary",
   "trackLabel": "中国现代史",
@@ -10,10 +10,586 @@
     "years": "1956—1978年"
   },
   "order": 5,
-  "title": "科学、国防和外交怎样打开新局面",
-  "coreQuestion": "20世纪六七十年代的重要成就怎样影响国家发展？",
-  "throughline": "从国防科技、人工合成结晶牛胰岛素、恢复联合国合法席位和中外关系变化等证据，观察困难条件下的发展与外交突破。",
-  "age": "6—9岁亲子共学",
+  "title": "东方红一号怎样把信号送回地面",
+  "coreQuestion": "研究、制造、发射和测控怎样完成一次接力？",
+  "throughline": "儿童主线只跟随东方红一号从研究、制造、发射到地面测控的协作链；国防科技、生命科学与外交材料留在家长层作时代延伸。",
+  "childEntry": {
+    "id": "cn-contemporary-02-02-science-diplomacy",
+    "childTitle": "一颗卫星为什么会唱《东方红》",
+    "prompt": "科学家、工厂和全国协作，怎样让信号从太空传回来？",
+    "takeaway": "卫星不是一个人造出的；研究、制造、发射和测控要一起接力。",
+    "object": "东方红一号和测控记录",
+    "people": [
+      "科学家和工程技术人员"
+    ],
+    "place": "酒泉发射场与北京测控站",
+    "culture": "《东方红》卫星播送旋律",
+    "care": "不把科研写成某位科学家单独完成，也不把国防技术做成武器升级游戏。",
+    "preferredAssetId": "dongfanghong-1-1970-photo"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🎧",
+      "label": "从一个声音出发",
+      "text": "一颗卫星为什么会唱《东方红》"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "卫星升上天空",
+      "text": "先在发射场看东方红一号升上天空。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "太空传来旋律",
+      "text": "接着听卫星播送《东方红》的旋律。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "四个环节接力",
+      "text": "最后研究、制造、发射和测控接力，让卫星信号传回地面。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "卫星不是一个人造出的；研究、制造、发射和测控要一起接力。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "革命",
+      "icon": "🔄",
+      "plain": "许多人推动改变旧政权或旧制度的大变化。",
+      "example": "革命不是只看一场战斗，还要看原因、参与者和结果。",
+      "priority": 1
+    },
+    {
+      "term": "冷战",
+      "icon": "🧊",
+      "plain": "两个集团长期对立，却没有彼此直接全面开战。",
+      "example": "冷战仍包含军备竞赛、威胁和别处的真实战争。",
+      "priority": 1
+    },
+    {
+      "term": "权利",
+      "icon": "🫶",
+      "plain": "规则承认一个人可以做、可以得到保护的事情。",
+      "example": "写有权利，还要检查妇女、奴隶和穷人是否真的拥有。",
+      "priority": 1
+    },
+    {
+      "term": "共和国",
+      "icon": "🏛️",
+      "plain": "国家职位不是由皇位世代传下去的国家形式。",
+      "example": "写下共和国原则，不代表这些原则立刻全部做到。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "外交",
+      "icon": "🤝",
+      "plain": "国家之间交往、谈判和处理共同事情。",
+      "example": "外交不只是一位领导人见面，还有许多人长期工作。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "国际",
+      "icon": "🌍",
+      "plain": "不同国家之间或许多国家共同参与的事情。",
+      "example": "国际合作要看谁参加、怎样分工、规则如何执行。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "酒泉",
+      "reading": "Jiǔquán",
+      "kind": "place",
+      "chapterIds": [
+        "cn-contemporary-02-02-science-diplomacy"
+      ],
+      "note": "甘肃地名。"
+    },
+    {
+      "text": "联合国",
+      "reading": "Liánhéguó",
+      "kind": "title",
+      "chapterIds": [
+        "cn-contemporary-02-02-science-diplomacy",
+        "cn-contemporary-04-02-china-and-world-today",
+        "world-contemporary-05-02-peace-development"
+      ],
+      "note": "“联合”连读，不在“联”后停顿。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个声音",
+      "icon": "🎧",
+      "label": "一颗卫星为什么会唱《东方红》",
+      "question": "科学家、工厂和全国协作，怎样让信号从太空传回来？"
+    },
+    "coverAudio": {
+      "id": "quest-f32189bad2b71529",
+      "text": "今天从一个声音出发：一颗卫星为什么会唱《东方红》。我们要去酒泉发射场与北京测控站，看看东方红一号和测控记录怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-06826248cb84b8af",
+      "text": "五条线索都找到了，“一颗卫星为什么会唱《东方红》”的答案是：卫星不是一个人造出的；研究、制造、发射和测控要一起接力。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个声音出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是社会主义建设道路的探索，时间是1956—1978年。",
+          "narration": "这是社会主义建设道路的探索，时间是1956—1978年。",
+          "displayText": "这是社会主义建设道路的探索，时间是1956—1978年。"
+        },
+        "assetId": "dongfanghong-1-1970-photo",
+        "image": "/content/step-images/dongfanghong-1-1970-photo.jpg",
+        "imageAlt": "东方红一号人造卫星历史照片",
+        "imageCaption": "1970年发射的中国第一颗人造地球卫星‘东方红一号’。",
+        "imageBoundary": "Commons登记作者为新华社、日期为1970年4月24日，来源指向新华社相关历史页面。照片只显示卫星外形，不能显示火箭、发射地点、运行轨道、科研人员或整个协作网络；这些事实以国家航天局资料核验。保存1000×646像素原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-6cef4ae0d2a76231",
+            "text": "先给一个声音找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-1afb0a2388027b73",
+            "text": "这是社会主义建设道路的探索，时间是1956—1978年。"
+          },
+          "image": {
+            "id": "quest-17d72defc4440e3d",
+            "text": "点开大图啦。这是东方红一号人造卫星历史照片。这张图能帮我们找到：这是社会主义建设道路的探索，时间是1956—1978年。"
+          },
+          "question": {
+            "id": "quest-85ca992adf7a1174",
+            "text": "从一个声音出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-time-1",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-time-2",
+            "label": "中国现代史 · 社会主义建设道路的探索 · 1956—1978年",
+            "correct": true,
+            "audio": {
+              "id": "quest-1944392d8be01064",
+              "text": "中国现代史 · 社会主义建设道路的探索 · 1956—1978年"
+            }
+          },
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-time-3",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "卫星升上天空",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先在发射场看东方红一号升上天空。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "卫星升上天空",
+          "screenText": "先在发射场看东方红一号升上天空。",
+          "narration": "先在发射场看东方红一号升上天空。",
+          "displayText": "先在发射场看东方红一号升上天空。"
+        },
+        "assetId": "dongfanghong-1-1970-photo",
+        "image": "/content/step-images/dongfanghong-1-1970-photo.jpg",
+        "imageAlt": "东方红一号人造卫星历史照片",
+        "imageCaption": "1970年发射的中国第一颗人造地球卫星‘东方红一号’。",
+        "imageBoundary": "Commons登记作者为新华社、日期为1970年4月24日，来源指向新华社相关历史页面。照片只显示卫星外形，不能显示火箭、发射地点、运行轨道、科研人员或整个协作网络；这些事实以国家航天局资料核验。保存1000×646像素原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-009249044ac7ef36",
+            "text": "先在发射场看东方红一号升上天空。"
+          },
+          "image": {
+            "id": "quest-67002d220302ea33",
+            "text": "点开大图啦。这是东方红一号人造卫星历史照片。这张图能帮我们找到：先在发射场看东方红一号升上天空。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-beginning-1",
+            "label": "东方红一号和测控记录，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-cd442e1a16e5b688",
+              "text": "东方红一号和测控记录，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-beginning-2",
+            "label": "科学家和工程技术人员、酒，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-711f161f9eb1d876",
+              "text": "科学家和工程技术人员、酒，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-beginning-3",
+            "label": "酒泉发射场与北京测控，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-e8066c05145b5be8",
+              "text": "酒泉发射场与北京测控，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "太空传来旋律",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着听卫星播送《东方红》的旋律。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "太空传来旋律",
+          "screenText": "接着听卫星播送《东方红》的旋律。",
+          "narration": "接着听卫星播送《东方红》的旋律。",
+          "displayText": "接着听卫星播送《东方红》的旋律。"
+        },
+        "assetId": "dongfanghong-1-1970-photo",
+        "image": "/content/step-images/dongfanghong-1-1970-photo.jpg",
+        "imageAlt": "东方红一号人造卫星历史照片",
+        "imageCaption": "1970年发射的中国第一颗人造地球卫星‘东方红一号’。",
+        "imageBoundary": "Commons登记作者为新华社、日期为1970年4月24日，来源指向新华社相关历史页面。照片只显示卫星外形，不能显示火箭、发射地点、运行轨道、科研人员或整个协作网络；这些事实以国家航天局资料核验。保存1000×646像素原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-a3beb0d335f79c42",
+            "text": "接着听卫星播送《东方红》的旋律。"
+          },
+          "image": {
+            "id": "quest-4132d0175b2d535f",
+            "text": "点开大图啦。这是东方红一号人造卫星历史照片。这张图能帮我们找到：接着听卫星播送《东方红》的旋律。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-journey-1",
+            "label": "酒泉发射场与北京测，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-3c2c64267d8bb5cf",
+              "text": "酒泉发射场与北京测，只说了地点"
+            }
+          },
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-journey-2",
+            "label": "科学家和工程技术人员，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-743c756de4ad21ee",
+              "text": "科学家和工程技术人员，只认出人物"
+            }
+          },
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-journey-3",
+            "label": "接着听卫星播送《东方红》的旋律。",
+            "correct": true,
+            "audio": {
+              "id": "quest-a3beb0d335f79c42",
+              "text": "接着听卫星播送《东方红》的旋律。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "四个环节接力",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后研究、制造、发射和测控接力，让卫星信号传回地面。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "四个环节接力",
+          "screenText": "最后研究、制造、发射和测控接力，让卫星信号传回地面。",
+          "narration": "最后研究、制造、发射和测控接力，让卫星信号传回地面。",
+          "displayText": "最后研究、制造、发射和测控接力，让卫星信号传回地面。"
+        },
+        "assetId": "un-resolution-2758-document",
+        "image": "/content/step-images/un-resolution-2758-document.jpg",
+        "imageAlt": "联合国大会第2758号决议原页",
+        "imageCaption": "1971年10月25日联合国大会第2758号决议英文原页。",
+        "imageBoundary": "保存540×596像素公共领域文件图。原页能核对决议编号、主题、核心条文和日期；儿童界面需配简明中文，不要求读英文全文，也不据这页文件单独解释各国投票原因或后续全部外交影响。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-75c90a61daa105ad",
+            "text": "最后研究、制造、发射和测控接力，让卫星信号传回地面。"
+          },
+          "image": {
+            "id": "quest-3b186d6893d26e47",
+            "text": "点开大图啦。这是联合国大会第2758号决议原页。这张图能帮我们找到：最后研究、制造、发射和测控接力，让卫星信号传回地面。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-change-1",
+            "label": "东方红一号和测控记录、酒泉发射场与，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-5b813c35724a34c7",
+              "text": "东方红一号和测控记录、酒泉发射场与，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-change-2",
+            "label": "最后研究、制造、发射和测控接力，让卫星信号传回地面。",
+            "correct": true,
+            "audio": {
+              "id": "quest-75c90a61daa105ad",
+              "text": "最后研究、制造、发射和测控接力，让卫星信号传回地面。"
+            }
+          },
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-change-3",
+            "label": "听卫星播送《东方红》的旋律。、一颗卫星，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-68393246f8a5d8e6",
+              "text": "听卫星播送《东方红》的旋律。、一颗卫星，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "卫星不是一个人造出的；研究、制造、发射和测控要一起接力。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "卫星不是一个人造出的；研究、制造、发射和测控要一起接力。",
+          "narration": "卫星不是一个人造出的；研究、制造、发射和测控要一起接力。",
+          "displayText": "卫星不是一个人造出的；研究、制造、发射和测控要一起接力。"
+        },
+        "assetId": "dongfanghong-1-1970-photo",
+        "image": "/content/step-images/dongfanghong-1-1970-photo.jpg",
+        "imageAlt": "东方红一号人造卫星历史照片",
+        "imageCaption": "1970年发射的中国第一颗人造地球卫星‘东方红一号’。",
+        "imageBoundary": "Commons登记作者为新华社、日期为1970年4月24日，来源指向新华社相关历史页面。照片只显示卫星外形，不能显示火箭、发射地点、运行轨道、科研人员或整个协作网络；这些事实以国家航天局资料核验。保存1000×646像素原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-09cd8f2565c53f57",
+            "text": "卫星不是一个人造出的；研究、制造、发射和测控要一起接力。"
+          },
+          "image": {
+            "id": "quest-8872ed637afeb9a6",
+            "text": "点开大图啦。这是东方红一号人造卫星历史照片。这张图能帮我们找到：卫星不是一个人造出的；研究、制造、发射和测控要一起接力。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-takeaway-1",
+            "label": "卫星不是一个人造出的；研究、制造、发射和测控要一起接力。",
+            "correct": true,
+            "audio": {
+              "id": "quest-09cd8f2565c53f57",
+              "text": "卫星不是一个人造出的；研究、制造、发射和测控要一起接力。"
+            }
+          },
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-takeaway-2",
+            "label": "在发射场看东方红一号升上天空。、东方红一号，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-782e4ef4b67f08b6",
+              "text": "在发射场看东方红一号升上天空。、东方红一号，只说了原因"
+            }
+          },
+          {
+            "id": "cn-contemporary-02-02-science-diplomacy-takeaway-3",
+            "label": "研究、制造、发射和测控接力，让卫星信号传回地面，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-f61c578bc2ea9fb8",
+              "text": "研究、制造、发射和测控接力，让卫星信号传回地面，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "科学协作链",
+        "items": [
+          "把“提出问题—分工研究—制造材料—反复测试—汇总证据”连接到卫星和胰岛素两个项目；系统奖励任务衔接和证据完整，不让儿童设计武器、选择攻击目标或比较爆炸威力。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "证据能说到哪里",
+        "items": [
+          "为政府声明原页、卫星照片、结晶照片、联合国决议和会谈照片分别配对“能证明”和“不能单独证明”的句子，例如“能看到会谈人物”与“不能证明当天已经建交”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "外交文件时间锁",
+        "items": [
+          "依次放入“1971年恢复联合国合法席位”“1972年2月中美正常化进程开始”“1972年9月中日建交”，再把对应文件连上；不设置模拟驱逐代表、给国家打分或把外交谈判做成输赢对抗。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "20世纪六七十年代，世界处在冷战和核威胁之中，中国也面对严峻的国家安全与国际环境。中国科研和工程人员通过长期协作，先后完成第一颗原子弹、氢弹和“东方红一号”人造卫星；政府在1964年第一次核试验当天声明，发展核武器是为了防御，并承诺不首先使用核武器。与此同时，多个科研单位在1965年合作完成人工全合成结晶牛胰岛素，说明科技发展不只有国防，也包括认识生命、服务健康。1971年，联合国大会第2758号决议恢复中华人民共和国在联合国的一切权利；1972年，《上海公报》开启中美关系正常化进程，中日两国则从9月29日起正式建立外交关系。这些科技与外交成就是许多人克服困难、抵制动乱干扰取得的，不能说成“文化大革命”带来的结果。"
@@ -469,80 +1045,104 @@
       "title": "1964年10月16日中华人民共和国政府声明第一页",
       "localPath": "reference-assets/china-contemporary-science-diplomacy/gov-nuclear-statement-1964-p1.jpg",
       "sourcePage": "https://www.gov.cn/gongbao/shuju/1964/gwyb196414.pdf",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — official government document under Article 5 of the PRC Copyright Law",
       "clearance": "cleared-open-license",
       "caption": "《国务院公报》刊载的1964年10月16日中华人民共和国政府声明第一页。",
-      "boundary": "从1964年第十四号《国务院公报》第259页按240 dpi完整转为JPEG，未改动正文。页面能核对第一次核试验日期、时代背景和政府说明；儿童界面应另排大字摘录，不能要求低龄儿童阅读整页小字。"
+      "boundary": "从1964年第十四号《国务院公报》第259页按240 dpi完整转为JPEG，未改动正文。页面能核对第一次核试验日期、时代背景和政府说明；儿童界面应另排大字摘录，不能要求低龄儿童阅读整页小字。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "gov-nuclear-statement-1964-page-2",
       "title": "1964年10月16日中华人民共和国政府声明第二页",
       "localPath": "reference-assets/china-contemporary-science-diplomacy/gov-nuclear-statement-1964-p2.jpg",
       "sourcePage": "https://www.gov.cn/gongbao/shuju/1964/gwyb196414.pdf",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — official government document under Article 5 of the PRC Copyright Law",
       "clearance": "cleared-open-license",
       "caption": "政府声明第二页，其中写明发展核武器为了防御，并宣布不首先使用核武器。",
-      "boundary": "从《国务院公报》第260页按240 dpi完整转为JPEG，未增删文字。界面可以放大相关段落，但须保留‘局部放大’标识和原页入口；不从文献推演武器技术、爆炸威力或军事行动。"
+      "boundary": "从《国务院公报》第260页按240 dpi完整转为JPEG，未增删文字。界面可以放大相关段落，但须保留‘局部放大’标识和原页入口；不从文献推演武器技术、爆炸威力或军事行动。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "dongfanghong-1-1970-photo",
       "title": "东方红一号人造卫星历史照片",
       "localPath": "reference-assets/china-contemporary-science-diplomacy/dongfanghong-1.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Dongfanghong-1.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — photograph taken in China in 1970",
       "clearance": "cleared-open-license",
       "caption": "1970年发射的中国第一颗人造地球卫星‘东方红一号’。",
-      "boundary": "Commons登记作者为新华社、日期为1970年4月24日，来源指向新华社相关历史页面。照片只显示卫星外形，不能显示火箭、发射地点、运行轨道、科研人员或整个协作网络；这些事实以国家航天局资料核验。保存1000×646像素原图。"
+      "boundary": "Commons登记作者为新华社、日期为1970年4月24日，来源指向新华社相关历史页面。照片只显示卫星外形，不能显示火箭、发射地点、运行轨道、科研人员或整个协作网络；这些事实以国家航天局资料核验。保存1000×646像素原图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "bovine-insulin-structure-model",
       "title": "牛胰岛素结构模型",
       "localPath": "reference-assets/china-contemporary-science-diplomacy/insulin-bovine-structure.jpg",
       "sourcePage": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4624679/",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 4.0",
       "clearance": "cleared-open-license",
       "caption": "牛胰岛素分子结构模型；它是科学结构示意，不是1965年实验现场照片。",
-      "boundary": "取自Yeping Sun 2015年开放获取文章《The creation of synthetic crystalline bovine insulin》图1，原图677×608像素。颜色分别表示不同元素，不能让儿童把球棍模型理解成肉眼可见的真实颜色和大小；正式使用须署名作者、文章和CC BY 4.0。"
+      "boundary": "取自Yeping Sun 2015年开放获取文章《The creation of synthetic crystalline bovine insulin》图1，原图677×608像素。颜色分别表示不同元素，不能让儿童把球棍模型理解成肉眼可见的真实颜色和大小；正式使用须署名作者、文章和CC BY 4.0。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "synthetic-bovine-insulin-crystal-1965",
       "title": "1965年人工合成结晶牛胰岛素科学照片",
       "localPath": "reference-assets/china-contemporary-science-diplomacy/insulin-crystal-1965.jpg",
       "sourcePage": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4624679/",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 4.0",
       "clearance": "cleared-open-license",
       "caption": "1965年论文所示的人工合成结晶牛胰岛素。",
-      "boundary": "取自Yeping Sun 2015年开放获取文章图3，图注说明改编自1965年《Scientia Sinica》。这是低分辨率黑白科学图像，能显示结晶形态，不能单独证明化学结构、生物活性、所有实验步骤或团队分工；这些结论必须结合实验报告和中科院史料。保存373×252像素原图。"
+      "boundary": "取自Yeping Sun 2015年开放获取文章图3，图注说明改编自1965年《Scientia Sinica》。这是低分辨率黑白科学图像，能显示结晶形态，不能单独证明化学结构、生物活性、所有实验步骤或团队分工；这些结论必须结合实验报告和中科院史料。保存373×252像素原图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "un-resolution-2758-document",
       "title": "联合国大会第2758号决议原页",
       "localPath": "reference-assets/china-contemporary-science-diplomacy/un-resolution-2758.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Resolution-2758.png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — United Nations official document",
       "clearance": "cleared-open-license",
       "caption": "1971年10月25日联合国大会第2758号决议英文原页。",
-      "boundary": "保存540×596像素公共领域文件图。原页能核对决议编号、主题、核心条文和日期；儿童界面需配简明中文，不要求读英文全文，也不据这页文件单独解释各国投票原因或后续全部外交影响。"
+      "boundary": "保存540×596像素公共领域文件图。原页能核对决议编号、主题、核心条文和日期；儿童界面需配简明中文，不要求读英文全文，也不据这页文件单独解释各国投票原因或后续全部外交影响。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "nixon-zhou-tea-1972-nara-photo",
       "title": "尼克松与周恩来在北京会谈历史照片",
       "localPath": "reference-assets/china-contemporary-science-diplomacy/nixon-zhou-tea-1972.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Photograph_of_President_Richard_Nixon_and_Premier_Chou_En-lai_-_NARA_-_194409.tif",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — work of the United States federal government",
       "clearance": "cleared-open-license",
       "caption": "1972年2月21日，尼克松到达北京后与周恩来在宾馆会谈。",
-      "boundary": "美国国家档案馆档案号194409，原始说明是两人在尼克松抵达北京后饮茶会谈。保存1920×1280像素的Commons转换JPEG。它不是《上海公报》签署现场；不能根据手势、表情、座次或茶点推断谈判内容和结果。"
+      "boundary": "美国国家档案馆档案号194409，原始说明是两人在尼克松抵达北京后饮茶会谈。保存1920×1280像素的Commons转换JPEG。它不是《上海公报》签署现场；不能根据手势、表情、座次或茶点推断谈判内容和结果。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "china-japan-joint-communique-1972-document-photo",
       "title": "1972年中日联合声明签署文本实物照片",
       "localPath": "reference-assets/china-contemporary-science-diplomacy/china-japan-joint-communique-1972.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Joint_Communique_of_Japan_and_China.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 4.0",
       "clearance": "cleared-open-license",
       "caption": "中日联合声明签署文本实物，可见周恩来、姬鹏飞、田中角荣和大平正芳的签名。",
-      "boundary": "日本国外务省外交史料馆公开的文件实物照片，Commons登记CC BY 4.0。照片能显示文本实物、日期和签名，不能单独概括声明全部九项内容；建交日期和条款以中国外交部原文核验。保存2592×1598像素原图。"
+      "boundary": "日本国外务省外交史料馆公开的文件实物照片，Commons登记CC BY 4.0。照片能显示文本实物、日期和签名，不能单独概括声明全部九项内容；建交日期和条款以中国外交部原文核验。保存2592×1598像素原图。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-contemporary-02-02-science-diplomacy.jpg",

@@ -1,22 +1,719 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-08-03-frontiers-unity",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
   "period": {
-    "id": "ming-qing",
-    "label": "明清",
-    "years": "1368—1840年前（本内容轨范围）"
+    "id": "qing",
+    "label": "清朝",
+    "years": "1644—1840年前（本内容轨范围）"
   },
-  "order": 30,
-  "title": "明清怎样维护统一多民族国家",
-  "coreQuestion": "中央政权怎样治理边疆、维护领土和处理不同地区关系？",
-  "throughline": "连接郑成功收复台湾、清朝在台湾建制、册封达赖与班禅、设置驻藏大臣及治理新疆等事实，建立清晰地图线索。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "order": 34,
+  "title": "承德避暑山庄为什么像一张立体地图",
+  "coreQuestion": "承德的宫殿、寺庙、驿路和会见活动，怎样留下不同地区交往与治理的线索？",
+  "throughline": "先走进承德这一具体地点，观察会见、翻译、交通和多种建筑传统，再分别放回台湾、西藏、新疆等地区的历史。",
+  "childEntry": {
+    "id": "cn-ancient-08-03-frontiers-unity",
+    "childTitle": "到承德听懂彼此的话",
+    "prompt": "一处会见地点，为什么会出现不同的建筑和文字？",
+    "takeaway": "清代承德是朝廷与多民族交往的重要地点；建筑、文书和活动记录要相互参照，不能只凭外形判断所有人。",
+    "object": "避暑山庄、外八庙、敕书与驿路遗存",
+    "people": [
+      "承德会见的参",
+      "者",
+      "译者"
+    ],
+    "place": "河北承德及清代多民族交往地区",
+    "culture": "承德多种建筑传统与多语言文书",
+    "care": "建筑简图是形制比较，不对应某族固定身份；近代前夜的内容边界不等于清朝于1840年结束。",
+    "preferredAssetId": "chengde-mountain-resort-current-view",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-08-03-frontiers-unity",
+    "featured": {
+      "type": "地点",
+      "icon": "🏞️",
+      "title": "承德会见的参与者与译者",
+      "childBridge": "一处会见地点，为什么会出现不同的建筑和文字？",
+      "evidenceBoundary": "建筑简图是形制比较，不对应某族固定身份；近代前夜的内容边界不等于清朝于1840年结束。"
+    },
+    "companions": [
+      {
+        "type": "人物",
+        "label": "首领、翻译、工匠与商旅",
+        "note": "会见之外还有翻译、建造和日常往来。"
+      },
+      {
+        "type": "地点",
+        "label": "避暑山庄与外八庙",
+        "note": "不同建筑传统在同一地区相遇。"
+      },
+      {
+        "type": "文字",
+        "label": "多语言文书",
+        "note": "文字能记录治理，也要结合时间和发布者判断。"
+      }
+    ],
+    "sourceIds": [
+      "NEAC-CHENGDE-EXCHANGE",
+      "DPM-GOLDEN-URN",
+      "NEAC-XINJIANG-HISTORY"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "这次来到清朝",
+      "text": "明朝在1644年结束。我们接着到清朝的承德，看近代以前的交往线索。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "建筑不只有一种样子",
+      "text": "承德有多种建筑传统的线索。形制可以帮助观察，不能只靠屋顶猜所有人的身份。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "会见要能交流",
+      "text": "来到这里的人使用不同语言和表达。会见、翻译和文书帮助交流，也有具体政治背景。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "一张照片能说多少",
+      "text": "今天的照片能看见现存建筑。要了解清代某次会见，还需要相关档案与记载。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "把几条线索一起看",
+      "text": "建筑、语言、文书和往来活动，让我们具体认识交往。不同地方与时间仍要分别核对。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "民族",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
+      "example": "民族不是按外貌排高低，也不会永远固定不变。",
+      "priority": 2
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "翻译",
+      "icon": "🗣️",
+      "plain": "把一种语言表达的意思换成另一种语言。",
+      "example": "翻译需要懂语言和知识，也常由团队反复校订。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "皇帝",
+      "icon": "👑",
+      "plain": "古代君主国家最高统治者的一种称号。",
+      "example": "皇帝会作决定，也依靠官员、军队、工匠和百姓。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "边疆",
+      "reading": "Biānjiāng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-08-03-frontiers-unity",
+        "cn-contemporary-01-02-consolidation"
+      ],
+      "note": "泛指靠近国界的地区，不是单一地点名。"
+    },
+    {
+      "text": "西藏",
+      "reading": "Xīzàng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-08-03-frontiers-unity"
+      ],
+      "note": "“藏”在地名中读zàng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "到承德听懂彼此的话",
+      "question": "一处会见地点，为什么会出现不同的建筑和文字？"
+    },
+    "cta": "去认不同的建筑线索",
+    "anchor": "承德会见的参与者与译者",
+    "boundary": "建筑简图是形制比较，不对应某族固定身份；近代前夜的内容边界不等于清朝于1840年结束。",
+    "evidence": [
+      {
+        "id": "chengde-mountain-resort-current-view",
+        "title": "承德避暑山庄现状照片",
+        "localPath": "reference-assets/ming-qing/chengde-mountain-resort.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Chengde_Montain_Resort01.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "Public domain — author dedication",
+        "clearance": "cleared-open-license",
+        "caption": "2006年拍摄的承德避暑山庄园林现状。",
+        "boundary": "照片显示长期维修保护后的园林，不是清代会见现场或完整外八庙全景；用于从建筑与地点进入清代多民族交往史。原图1600×1200像素。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/chengde-mountain-resort-current-view.jpg"
+      }
+    ],
+    "coverAsset": {
+      "id": "chengde-mountain-resort-current-view",
+      "title": "承德避暑山庄现状照片",
+      "localPath": "reference-assets/ming-qing/chengde-mountain-resort.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chengde_Montain_Resort01.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public domain — author dedication",
+      "clearance": "cleared-open-license",
+      "caption": "2006年拍摄的承德避暑山庄园林现状。",
+      "boundary": "照片显示长期维修保护后的园林，不是清代会见现场或完整外八庙全景；用于从建筑与地点进入清代多民族交往史。原图1600×1200像素。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/chengde-mountain-resort-current-view.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/chengde-mountain-resort-current-view.jpg",
+    "coverImageAlt": "承德避暑山庄现状照片",
+    "coverImageKind": "历史材料",
+    "coverAudio": {
+      "id": "quest-ccd452938572dcac",
+      "text": "到承德听懂彼此的话。一处会见地点，为什么会出现不同的建筑和文字？准备好就点“去认不同的建筑线索”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-ada749b675250f8f",
+      "text": "清代承德是朝廷与多民族交往的重要地点；建筑、文书和活动记录要相互参照，不能只凭外形判断所有人。"
+    },
+    "finish": {
+      "title": "给一张建筑图配两条线索",
+      "actions": [
+        "先指一处你看得见的建筑形状。",
+        "再问家人：想知道以前这里见过谁，还要查什么？"
+      ],
+      "parent": "可答书、文书、历史记录。不以服装、口音和屋顶给民族评高低，不把复杂交往写成一次普通聚会。",
+      "sceneStepIndexes": [
+        1,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-49ba51e056ae333a",
+          "text": "先指一处你看得见的建筑形状。"
+        },
+        {
+          "id": "quest-faa9ff0eab20deab",
+          "text": "再问家人：想知道以前这里见过谁，还要查什么？"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-a17989a324d03c18",
+        "text": "给一张建筑图配两条线索。先指一处你看得见的建筑形状。再问家人：想知道以前这里见过谁，还要查什么？"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "这次来到清朝",
+        "title": "这次来到清朝",
+        "prompt": "承德这段任务放在哪边？",
+        "rightNote": "先沿着明走到清，本轮只看近代以前的这一段内容。",
+        "wrongNote": "先沿着明走到清，本轮只看近代以前的这一段内容。",
+        "sourceIds": [
+          "NEAC-CHENGDE-EXCHANGE"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "这次来到清朝",
+          "screenText": "明朝在1644年结束。我们接着到清朝的承德，看近代以前的交往线索。",
+          "displayText": "明朝在1644年结束。我们接着到清朝的承德，看近代以前的交往线索。",
+          "narration": "明朝在1644年结束。我们接着到清朝的承德，看近代以前的交往线索。"
+        },
+        "assetId": "study-1298faf9cba2e1c6",
+        "image": "/content/study-scenes/study-1298faf9cba2e1c6.svg",
+        "studyImage": "/content/study-scenes/study-1298faf9cba2e1c6.svg",
+        "studyImageAlt": "明 到1644年，清 承德",
+        "imageAlt": "明 到1644年，清 承德",
+        "imageCaption": "学习示意 · 明 到1644年，清 承德",
+        "imageBoundary": "自制学习示意。建筑简图是形制比较，不对应某族固定身份；近代前夜的内容边界不等于清朝于1840年结束。",
+        "audio": {
+          "transition": {
+            "id": "quest-b491feb0e870ca98",
+            "text": "这次来到清朝。"
+          },
+          "intro": {
+            "id": "quest-523b8af6be19867e",
+            "text": "明朝在1644年结束。我们接着到清朝的承德，看近代以前的交往线索。"
+          },
+          "question": {
+            "id": "quest-2bd59a8dc28b3236",
+            "text": "承德这段任务放在哪边？"
+          },
+          "image": {
+            "id": "quest-029976abeae4b22e",
+            "text": "这是学习示意图：明 到1644年，清 承德。承德这段任务放在哪边？"
+          },
+          "right": {
+            "id": "quest-eadcff3561e4f048",
+            "text": "找到了。先沿着明走到清，本轮只看近代以前的这一段内容。"
+          },
+          "wrong": {
+            "id": "quest-090455334aef89b4",
+            "text": "再比较一下。先沿着明走到清，本轮只看近代以前的这一段内容。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-03-frontiers-unity-time-1",
+            "label": "明之后的清 · 1644年后",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-24d5f3ba06b4a9ba.svg",
+            "imageAlt": "清 1644年后",
+            "audio": {
+              "id": "quest-c4ed87fdb4f1aed9",
+              "text": "明之后的清 · 1644年后"
+            }
+          },
+          {
+            "id": "cn-ancient-08-03-frontiers-unity-time-2",
+            "label": "明之前的元 · 1271年后",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-6ece542e910be7c4.svg",
+            "imageAlt": "元 1271年后",
+            "audio": {
+              "id": "quest-c163a06a0d787ad4",
+              "text": "明之前的元 · 1271年后"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "建筑不只有一种样子",
+        "title": "建筑不只有一种样子",
+        "prompt": "看到不同屋顶，先怎样做？",
+        "rightNote": "先观察和核对，不把外观当作整个人群的标签。",
+        "wrongNote": "先观察和核对，不把外观当作整个人群的标签。",
+        "sourceIds": [
+          "NEAC-CHENGDE-EXCHANGE"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "建筑不只有一种样子",
+          "screenText": "承德有多种建筑传统的线索。形制可以帮助观察，不能只靠屋顶猜所有人的身份。",
+          "displayText": "承德有多种建筑传统的线索。形制可以帮助观察，不能只靠屋顶猜所有人的身份。",
+          "narration": "承德有多种建筑传统的线索。形制可以帮助观察，不能只靠屋顶猜所有人的身份。"
+        },
+        "assetId": "chengde-mountain-resort-current-view",
+        "image": "/content/step-images/chengde-mountain-resort-current-view.jpg",
+        "studyImage": "/content/study-scenes/study-23c329760f78aab4.svg",
+        "studyImageAlt": "一种屋顶，另一种形制",
+        "imageAlt": "承德避暑山庄现状照片",
+        "imageCaption": "承德避暑山庄现状照片",
+        "imageBoundary": "照片显示长期维修保护后的园林，不是清代会见现场或完整外八庙全景；用于从建筑与地点进入清代多民族交往史。原图1600×1200像素。",
+        "audio": {
+          "transition": {
+            "id": "quest-31b69ed34bf372d3",
+            "text": "建筑不只有一种样子。"
+          },
+          "intro": {
+            "id": "quest-150fe44b5ce0c00c",
+            "text": "承德有多种建筑传统的线索。形制可以帮助观察，不能只靠屋顶猜所有人的身份。"
+          },
+          "question": {
+            "id": "quest-219d02687f43f2d4",
+            "text": "看到不同屋顶，先怎样做？"
+          },
+          "image": {
+            "id": "quest-b5e4ba9be9bf4d8e",
+            "text": "这张是承德避暑山庄现状照片。承德有多种建筑传统的线索。形制可以帮助观察，不能只靠屋顶猜所有人的身份。"
+          },
+          "right": {
+            "id": "quest-29fa636b4212b7ae",
+            "text": "找到了。先观察和核对，不把外观当作整个人群的标签。"
+          },
+          "wrong": {
+            "id": "quest-310fe7d9ad0197be",
+            "text": "再比较一下。先观察和核对，不把外观当作整个人群的标签。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-03-frontiers-unity-beginning-1",
+            "label": "比较形状，再查建筑资料",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-3e2b34756f430596.svg",
+            "imageAlt": "比较，核对",
+            "audio": {
+              "id": "quest-cf1fd635b0c252ab",
+              "text": "比较形状，再查建筑资料"
+            }
+          },
+          {
+            "id": "cn-ancient-08-03-frontiers-unity-beginning-2",
+            "label": "直接说住的人全都一样",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-ac7297ffd80faaaa.svg",
+            "imageAlt": "凭屋顶定身份",
+            "audio": {
+              "id": "quest-9fea79f67046c6df",
+              "text": "直接说住的人全都一样"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "会见要能交流",
+        "title": "会见要能交流",
+        "prompt": "彼此听不懂时，谁能帮助？",
+        "rightNote": "理解语言比单纯提高音量更有帮助。",
+        "wrongNote": "理解语言比单纯提高音量更有帮助。",
+        "sourceIds": [
+          "NEAC-CHENGDE-EXCHANGE"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "会见要能交流",
+          "screenText": "来到这里的人使用不同语言和表达。会见、翻译和文书帮助交流，也有具体政治背景。",
+          "displayText": "来到这里的人使用不同语言和表达。会见、翻译和文书帮助交流，也有具体政治背景。",
+          "narration": "来到这里的人使用不同语言和表达。会见、翻译和文书帮助交流，也有具体政治背景。"
+        },
+        "assetId": "study-ad2ecf93265245dd",
+        "image": "/content/study-scenes/study-ad2ecf93265245dd.svg",
+        "studyImage": "/content/study-scenes/study-ad2ecf93265245dd.svg",
+        "studyImageAlt": "会见，翻译，文书",
+        "imageAlt": "会见，翻译，文书",
+        "imageCaption": "学习示意 · 会见，翻译，文书",
+        "imageBoundary": "自制学习示意。建筑简图是形制比较，不对应某族固定身份；近代前夜的内容边界不等于清朝于1840年结束。",
+        "audio": {
+          "transition": {
+            "id": "quest-aedd3fe1b04247a8",
+            "text": "会见要能交流。"
+          },
+          "intro": {
+            "id": "quest-7f78d52a7405d0d5",
+            "text": "来到这里的人使用不同语言和表达。会见、翻译和文书帮助交流，也有具体政治背景。"
+          },
+          "question": {
+            "id": "quest-daff856aa1ba592e",
+            "text": "彼此听不懂时，谁能帮助？"
+          },
+          "image": {
+            "id": "quest-da29456693d3a359",
+            "text": "这是学习示意图：会见，翻译，文书。彼此听不懂时，谁能帮助？"
+          },
+          "right": {
+            "id": "quest-76e091ff3d61608c",
+            "text": "找到了。理解语言比单纯提高音量更有帮助。"
+          },
+          "wrong": {
+            "id": "quest-f64cc3377a9802d8",
+            "text": "再比较一下。理解语言比单纯提高音量更有帮助。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-03-frontiers-unity-journey-1",
+            "label": "了解语言的译者",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-ff232b3561c777ec.svg",
+            "imageAlt": "译者协助",
+            "audio": {
+              "id": "quest-7db25f8d61195024",
+              "text": "了解语言的译者"
+            }
+          },
+          {
+            "id": "cn-ancient-08-03-frontiers-unity-journey-2",
+            "label": "只把声音喊得更响",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-7cd635f425d5178f.svg",
+            "imageAlt": "只提高音量",
+            "audio": {
+              "id": "quest-bb9c11472c919e40",
+              "text": "只把声音喊得更响"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "一张照片能说多少",
+        "title": "一张照片能说多少",
+        "prompt": "查一次会见内容，哪组材料更合适？",
+        "rightNote": "今景不能记录过去每次谈了什么，需要当时的文书等材料。",
+        "wrongNote": "今景不能记录过去每次谈了什么，需要当时的文书等材料。",
+        "sourceIds": [
+          "NEAC-CHENGDE-EXCHANGE"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "一张照片能说多少",
+          "screenText": "今天的照片能看见现存建筑。要了解清代某次会见，还需要相关档案与记载。",
+          "displayText": "今天的照片能看见现存建筑。要了解清代某次会见，还需要相关档案与记载。",
+          "narration": "今天的照片能看见现存建筑。要了解清代某次会见，还需要相关档案与记载。"
+        },
+        "assetId": "study-f579c2bae5562a56",
+        "image": "/content/study-scenes/study-f579c2bae5562a56.svg",
+        "studyImage": "/content/study-scenes/study-f579c2bae5562a56.svg",
+        "studyImageAlt": "建筑今景，历史记载",
+        "imageAlt": "建筑今景，历史记载",
+        "imageCaption": "学习示意 · 建筑今景，历史记载",
+        "imageBoundary": "自制学习示意。建筑简图是形制比较，不对应某族固定身份；近代前夜的内容边界不等于清朝于1840年结束。",
+        "audio": {
+          "transition": {
+            "id": "quest-6907a250891d3d67",
+            "text": "一张照片能说多少。"
+          },
+          "intro": {
+            "id": "quest-60c6219f7dd59e41",
+            "text": "今天的照片能看见现存建筑。要了解清代某次会见，还需要相关档案与记载。"
+          },
+          "question": {
+            "id": "quest-22a4f46b14dc21e2",
+            "text": "查一次会见内容，哪组材料更合适？"
+          },
+          "image": {
+            "id": "quest-cfeca16ce38e98e1",
+            "text": "这是学习示意图：建筑今景，历史记载。查一次会见内容，哪组材料更合适？"
+          },
+          "right": {
+            "id": "quest-72e559197b571440",
+            "text": "找到了。今景不能记录过去每次谈了什么，需要当时的文书等材料。"
+          },
+          "wrong": {
+            "id": "quest-3922524243646df0",
+            "text": "再比较一下。今景不能记录过去每次谈了什么，需要当时的文书等材料。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-03-frontiers-unity-change-1",
+            "label": "建筑资料加会见记录",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-a52a789f2796358c.svg",
+            "imageAlt": "建筑，会见记录",
+            "audio": {
+              "id": "quest-ac49435c82a5ccab",
+              "text": "建筑资料加会见记录"
+            }
+          },
+          {
+            "id": "cn-ancient-08-03-frontiers-unity-change-2",
+            "label": "只看今天屋顶照片",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-86e49680ab22d6ba.svg",
+            "imageAlt": "只有今景",
+            "audio": {
+              "id": "quest-fe14d68ae166128f",
+              "text": "只看今天屋顶照片"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "把几条线索一起看",
+        "title": "把几条线索一起看",
+        "prompt": "介绍承德时，怎样比较完整？",
+        "rightNote": "从可核对的具体活动讲起，不用一张照片替所有人发言。",
+        "wrongNote": "从可核对的具体活动讲起，不用一张照片替所有人发言。",
+        "sourceIds": [
+          "NEAC-CHENGDE-EXCHANGE"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "把几条线索一起看",
+          "screenText": "建筑、语言、文书和往来活动，让我们具体认识交往。不同地方与时间仍要分别核对。",
+          "displayText": "建筑、语言、文书和往来活动，让我们具体认识交往。不同地方与时间仍要分别核对。",
+          "narration": "建筑、语言、文书和往来活动，让我们具体认识交往。不同地方与时间仍要分别核对。"
+        },
+        "assetId": "study-0dcdd0720d563591",
+        "image": "/content/study-scenes/study-0dcdd0720d563591.svg",
+        "studyImage": "/content/study-scenes/study-0dcdd0720d563591.svg",
+        "studyImageAlt": "建筑，参与者，记录",
+        "imageAlt": "建筑，参与者，记录",
+        "imageCaption": "学习示意 · 建筑，参与者，记录",
+        "imageBoundary": "自制学习示意。建筑简图是形制比较，不对应某族固定身份；近代前夜的内容边界不等于清朝于1840年结束。",
+        "audio": {
+          "transition": {
+            "id": "quest-53dbc4160a9b9bbd",
+            "text": "把几条线索一起看。"
+          },
+          "intro": {
+            "id": "quest-464532a9cfd01c19",
+            "text": "建筑、语言、文书和往来活动，让我们具体认识交往。不同地方与时间仍要分别核对。"
+          },
+          "question": {
+            "id": "quest-f28389c466476812",
+            "text": "介绍承德时，怎样比较完整？"
+          },
+          "image": {
+            "id": "quest-c34b18796984e160",
+            "text": "这是学习示意图：建筑，参与者，记录。介绍承德时，怎样比较完整？"
+          },
+          "right": {
+            "id": "quest-ab632d97a5e5de26",
+            "text": "找到了。从可核对的具体活动讲起，不用一张照片替所有人发言。"
+          },
+          "wrong": {
+            "id": "quest-b17f64e2aa86b066",
+            "text": "再比较一下。从可核对的具体活动讲起，不用一张照片替所有人发言。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-03-frontiers-unity-takeaway-1",
+            "label": "看建筑，也看人和记录",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-92e0ec33709fda2d.svg",
+            "imageAlt": "建筑，人，文书",
+            "audio": {
+              "id": "quest-aed4dcc4795b4db0",
+              "text": "看建筑，也看人和记录"
+            }
+          },
+          {
+            "id": "cn-ancient-08-03-frontiers-unity-takeaway-2",
+            "label": "只数屋顶就概括所有人",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-b4cd9732e9de4d1d.svg",
+            "imageAlt": "只数屋顶",
+            "audio": {
+              "id": "quest-d226a16536e19428",
+              "text": "只数屋顶就概括所有人"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "双时间点",
+        "items": [
+          "把1662放到“郑成功收复台湾”，把1683放到“清朝统一台湾”。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "地区与办法",
+        "items": [
+          "将“台湾府”“驻藏大臣”“伊犁将军”放到相应区域，并听取一句简短解释。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "地图边界检查",
+        "items": [
+          "从“现代研究示意”“清朝原图”“现代国界图”中选择正确身份。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 10,
   "conclusion": [
-    "17—18世纪，明清中国的统一进程和边疆治理涉及台湾、西藏、新疆等不同地区。1662年郑成功驱逐荷兰殖民者、收复台湾；1683年清朝统一台湾，随后设府治理。清朝通过册封、驻藏大臣等制度处理西藏事务，通过平定准噶尔与大小和卓叛乱、设置伊犁将军等措施治理新疆。不同地区的历史条件不同，中央治理既包含军事行动，也包含行政建制、制度联系、交通和地方合作，不能用“一场战争解决所有问题”概括。"
+    "17—18世纪，清朝的统一进程和边疆治理涉及台湾、西藏、新疆等不同地区。1662年郑成功驱逐荷兰殖民者、收复台湾；1683年清朝统一台湾，随后设府治理。清朝通过册封、驻藏大臣等制度处理西藏事务，通过平定准噶尔与大小和卓叛乱、设置伊犁将军等措施治理新疆。不同地区的历史条件不同，中央治理既包含军事行动，也包含行政建制、制度联系、交通和地方合作，不能用“一场战争解决所有问题”概括。"
   ],
   "facts": [
     {
@@ -71,39 +768,54 @@
         "GOV-TIBET-HISTORY-1992",
         "NEAC-XINJIANG-HISTORY"
       ]
+    },
+    {
+      "number": 8,
+      "text": "承德避暑山庄及周围寺庙形成于清代，是清朝处理政务、会见不同地区首领和展开礼仪活动的重要空间之一。",
+      "sourceIds": [
+        "NEAC-CHENGDE-EXCHANGE"
+      ]
+    },
+    {
+      "number": 9,
+      "text": "承德建筑吸收多种建筑传统，能够作为观察交往与治理的窗口；但一处建筑群不能代表台湾、西藏、新疆等各地全部历史。",
+      "sourceIds": [
+        "NEAC-CHENGDE-EXCHANGE",
+        "NMC-MING-QING"
+      ]
     }
   ],
   "screens": [
     {
       "number": 1,
-      "title": "时间线定位：不同地区，不同办法",
-      "screenText": "17—18世纪，统一与治理在台湾、西藏、新疆有不同过程。",
+      "title": "时间线定位：17—18世纪的清代承德",
+      "screenText": "清代：承德成为处理政务、会见来客和举行礼仪的重要空间。",
       "voices": [
         {
           "number": 1,
           "label": "语音 S01：",
-          "text": "清朝建立以后，怎样维护统一、怎样治理距离中央很远的地区，是一个长期问题。台湾隔着海峡，西藏位于高原，新疆地域辽阔。地理和历史不同，治理办法也不会完全相同。",
+          "text": "把故事放回清代。承德在长城以北，宫殿、园林、寺庙和驿路在这里相连。清朝统治者在这里处理一些政务，也会见来自不同地区的人。",
           "segments": [
             {
               "id": "cn-ancient-08-03-frontiers-unity-s01-v01-01",
               "order": 1,
               "tier": "core",
-              "text": "清朝建立以后，怎样维护统一、怎样治理距离中央很远的地区，是一个长期问题。台湾隔着海峡，西藏位于高原，新疆地域辽阔。地理和历史不同，治理办法也不会完全相同。",
-              "hanCharacters": 68
+              "text": "把故事放回清代。承德在长城以北，宫殿、园林、寺庙和驿路在这里相连。清朝统治者在这里处理一些政务，也会见来自不同地区的人。",
+              "hanCharacters": 53
             }
           ]
         },
         {
           "number": 2,
           "label": "语音 S02：",
-          "text": "我们用三种线索观察：先看发生了什么，再看建立了什么制度，最后看当地人怎样继续生活和交往。只记战争，会漏掉治理；只记官名，也会漏掉真实的人和地方。",
+          "text": "我们不从一张空白大地图开始，而是先走进一个真实地点：看谁来到承德，看建筑留下什么线索，再回到台湾、西藏、新疆等不同地区，比较治理办法为什么不一样。",
           "segments": [
             {
               "id": "cn-ancient-08-03-frontiers-unity-s01-v02-01",
               "order": 1,
               "tier": "core",
-              "text": "我们用三种线索观察：先看发生了什么，再看建立了什么制度，最后看当地人怎样继续生活和交往。只记战争，会漏掉治理；只记官名，也会漏掉真实的人和地方。",
-              "hanCharacters": 64
+              "text": "我们不从一张空白大地图开始，而是先走进一个真实地点：看谁来到承德，看建筑留下什么线索，再回到台湾、西藏、新疆等不同地区，比较治理办法为什么不一样。",
+              "hanCharacters": 65
             }
           ]
         }
@@ -112,20 +824,20 @@
     },
     {
       "number": 2,
-      "title": "台湾：先分清两个时间点",
-      "screenText": "1662年郑成功收复台湾；1683年清朝统一台湾。",
+      "title": "第一拍：为什么许多人来到承德",
+      "screenText": "会见、礼仪、办事和交通，让不同地区的人在这里相遇。",
       "voices": [
         {
           "number": 3,
           "label": "语音 S03：",
-          "text": "1662年，郑成功驱逐荷兰殖民者，收复台湾。1683年，清朝统一台湾，第二年设置台湾府。图中是后人保存下来的艺术画像，不是照相机拍下的郑成功，也不能证明他的面貌一丝不差。",
+          "text": "来到承德的不只有皇帝和官员，也有不同地区的首领、翻译、随行人员、工匠和商旅。一次会见不能完成全部治理，后面还要有文书、道路、制度和长期往来。",
           "segments": [
             {
               "id": "cn-ancient-08-03-frontiers-unity-s02-v03-01",
               "order": 1,
               "tier": "core",
-              "text": "1662年，郑成功驱逐荷兰殖民者，收复台湾。1683年，清朝统一台湾，第二年设置台湾府。图中是后人保存下来的艺术画像，不是照相机拍下的郑成功，也不能证明他的面貌一丝不差。",
-              "hanCharacters": 68
+              "text": "来到承德的不只有皇帝和官员，也有不同地区的首领、翻译、随行人员、工匠和商旅。一次会见不能完成全部治理，后面还要有文书、道路、制度和长期往来。",
+              "hanCharacters": 61
             }
           ]
         }
@@ -134,20 +846,20 @@
     },
     {
       "number": 3,
-      "title": "西藏：册封、驻藏与制度联系",
-      "screenText": "册封达赖与班禅，设置驻藏大臣，形成治理制度。",
+      "title": "第二拍：建筑为什么像立体地图",
+      "screenText": "宫殿、园林和寺庙吸收多种建筑传统，却不是把各地缩小复制。",
       "voices": [
         {
           "number": 4,
           "label": "语音 S04：",
-          "text": "清朝先后确立册封达赖和班禅的制度，1727年设置驻藏大臣，与西藏地方共同处理重要事务。1793年又完善一些制度。金瓶掣签是一项具体制度，不能用一只金瓶代替西藏全部历史。",
+          "text": "承德建筑能让我们观察不同形式怎样在一个地方相遇。它像一张可以走进去的立体地图，但只是交往留下的一扇窗，不能用一座寺庙代替一个地区的全部生活和历史。",
           "segments": [
             {
               "id": "cn-ancient-08-03-frontiers-unity-s03-v04-01",
               "order": 1,
               "tier": "core",
-              "text": "清朝先后确立册封达赖和班禅的制度，1727年设置驻藏大臣，与西藏地方共同处理重要事务。1793年又完善一些制度。金瓶掣签是一项具体制度，不能用一只金瓶代替西藏全部历史。",
-              "hanCharacters": 70
+              "text": "承德建筑能让我们观察不同形式怎样在一个地方相遇。它像一张可以走进去的立体地图，但只是交往留下的一扇窗，不能用一座寺庙代替一个地区的全部生活和历史。",
+              "hanCharacters": 69
             }
           ]
         }
@@ -156,19 +868,19 @@
     },
     {
       "number": 4,
-      "title": "新疆：从战事转向持续治理",
-      "screenText": "18世纪中叶平定叛乱；1762年设置伊犁将军。",
+      "title": "第三拍：走出承德以后，办法并不相同",
+      "screenText": "台湾设府；西藏有册封和驻藏制度；新疆设置伊犁将军。",
       "voices": [
         {
           "number": 5,
           "label": "语音 S05：",
-          "text": "清朝平定准噶尔和大小和卓叛乱后，1762年设置伊犁将军，加强治理。请注意，叛乱者是特定集团，不能把新疆某个民族整体说成敌人。当地各族人民一直在耕作、放牧、贸易和共同生活。",
+          "text": "台湾隔着海峡，西藏位于高原，新疆地域辽阔，历史条件也不同。清朝在不同地区采用不同安排。记住这些例子不是为了背官名，而是发现治理要和真实地点、交通与地方关系连接。",
           "segments": [
             {
               "id": "cn-ancient-08-03-frontiers-unity-s04-v05-01",
               "order": 1,
               "tier": "core",
-              "text": "清朝平定准噶尔和大小和卓叛乱后，1762年设置伊犁将军，加强治理。请注意，叛乱者是特定集团，不能把新疆某个民族整体说成敌人。当地各族人民一直在耕作、放牧、贸易和共同生活。",
+              "text": "台湾隔着海峡，西藏位于高原，新疆地域辽阔，历史条件也不同。清朝在不同地区采用不同安排。记住这些例子不是为了背官名，而是发现治理要和真实地点、交通与地方关系连接。",
               "hanCharacters": 72
             }
           ]
@@ -178,20 +890,20 @@
     },
     {
       "number": 5,
-      "title": "地图是现代研究工具",
-      "screenText": "现代底图帮助定位；它不是清朝原图，也不是今天国界。",
+      "title": "一张今天的照片能证明什么",
+      "screenText": "能看见保存后的建筑和环境；看不见清代一次会见的完整过程。",
       "voices": [
         {
           "number": 6,
           "label": "语音 S06：",
-          "text": "这张图由现代人根据历史地理资料制作。我们只在核实后标出台湾、西藏和新疆的大致位置。历史边界会变化，地图也有研究差异，所以不能把这张1820年示意图套到清朝每一年。",
+          "text": "照片拍的是今天经过修缮和保护的承德，不是清代现场。它能帮助辨认空间和建筑，却不能告诉我们某次会见里每个人说了什么。要回答这些问题，还要查文书和更多记录。",
           "segments": [
             {
               "id": "cn-ancient-08-03-frontiers-unity-s05-v06-01",
               "order": 1,
               "tier": "core",
-              "text": "这张图由现代人根据历史地理资料制作。我们只在核实后标出台湾、西藏和新疆的大致位置。历史边界会变化，地图也有研究差异，所以不能把这张1820年示意图套到清朝每一年。",
-              "hanCharacters": 71
+              "text": "照片拍的是今天经过修缮和保护的承德，不是清代现场。它能帮助辨认空间和建筑，却不能告诉我们某次会见里每个人说了什么。要回答这些问题，还要查文书和更多记录。",
+              "hanCharacters": 70
             }
           ]
         }
@@ -200,20 +912,20 @@
     },
     {
       "number": 6,
-      "title": "治理不只有战争",
-      "screenText": "军事、建制、官员、交通和地方合作共同发生作用。",
+      "title": "治理不只有地图颜色和战争",
+      "screenText": "规则、官员、交通、翻译、地方合作和居民生活都在起作用。",
       "voices": [
         {
           "number": 7,
           "label": "语音 S07：",
-          "text": "战事可能改变局势，持续治理却要依靠行政建制、规则、交通和许多人日常合作。不同地区采用不同安排。统一不是地图上涂完一种颜色就结束，而是长期建立联系、处理问题的过程。",
+          "text": "战事会改变局势，持续联系还要靠行政建制、规则、交通、翻译和许多人日常合作。统一不是地图涂成一种颜色就完成，更不是把某个民族整体说成敌人。",
           "segments": [
             {
               "id": "cn-ancient-08-03-frontiers-unity-s06-v07-01",
               "order": 1,
               "tier": "core",
-              "text": "战事可能改变局势，持续治理却要依靠行政建制、规则、交通和许多人日常合作。不同地区采用不同安排。统一不是地图上涂完一种颜色就结束，而是长期建立联系、处理问题的过程。",
-              "hanCharacters": 73
+              "text": "战事会改变局势，持续联系还要靠行政建制、规则、交通、翻译和许多人日常合作。统一不是地图涂成一种颜色就完成，更不是把某个民族整体说成敌人。",
+              "hanCharacters": 61
             }
           ]
         }
@@ -222,20 +934,20 @@
     },
     {
       "number": 7,
-      "title": "统一多民族国家由许多人共同生活出来",
-      "screenText": "国家制度连接地区；各族人民也在迁徙、贸易和文化交流中建立联系。",
+      "title": "拼出承德这扇窗口的答案",
+      "screenText": "一个地点看见相遇；多个地区还要分别放回自己的历史。",
       "voices": [
         {
           "number": 8,
           "label": "语音 S08：",
-          "text": "这一章的主角不只是皇帝和将军。农民、牧民、商人、僧侣、官员和各地居民都参与了真实历史。下一章，我们进入书页、作坊、城市和戏台，看看明清人的生产、知识与文化。",
+          "text": "承德留下会见、往来和多种建筑传统相遇的线索。它帮助我们进入清代多民族国家治理，却不能代替台湾、西藏、新疆等地的完整历史。人物、制度、地点和普通人的生活要一起看。",
           "segments": [
             {
               "id": "cn-ancient-08-03-frontiers-unity-s07-v08-01",
               "order": 1,
               "tier": "core",
-              "text": "这一章的主角不只是皇帝和将军。农民、牧民、商人、僧侣、官员和各地居民都参与了真实历史。下一章，我们进入书页、作坊、城市和戏台，看看明清人的生产、知识与文化。",
-              "hanCharacters": 66
+              "text": "承德留下会见、往来和多种建筑传统相遇的线索。它帮助我们进入清代多民族国家治理，却不能代替台湾、西藏、新疆等地的完整历史。人物、制度、地点和普通人的生活要一起看。",
+              "hanCharacters": 71
             }
           ]
         }
@@ -336,28 +1048,252 @@
       "authorityLevel": "A",
       "factUse": "1792年颁发金瓶及理藩院尚书、驻藏大臣监督掣签的制度信息",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "NEAC-CHENGDE-EXCHANGE",
+      "title": "承德避暑山庄：各民族交往交流交融的历史见证",
+      "institution": "国家民族事务委员会",
+      "url": "https://www.neac.gov.cn/seac/c103391/202309/1167585.shtml",
+      "type": "central-government-history-resource",
+      "authorityLevel": "A-central-government",
+      "factUse": "避暑山庄和外八庙的会见活动、建筑类型及其在清代多民族交往与治理中的作用；建筑只是一个观察窗口，不代替各地区完整历史",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "study-1298faf9cba2e1c6",
+      "title": "学习示意：明 到1644年、清 承德",
+      "localPath": "reference-assets/focused-quests/study-1298faf9cba2e1c6.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "明 到1644年 → 清 承德",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-24d5f3ba06b4a9ba",
+      "title": "学习示意：清 1644年后",
+      "localPath": "reference-assets/focused-quests/study-24d5f3ba06b4a9ba.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "清 1644年后",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-6ece542e910be7c4",
+      "title": "学习示意：元 1271年后",
+      "localPath": "reference-assets/focused-quests/study-6ece542e910be7c4.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "元 1271年后",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-23c329760f78aab4",
+      "title": "学习示意：一种屋顶、另一种形制",
+      "localPath": "reference-assets/focused-quests/study-23c329760f78aab4.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "一种屋顶 → 另一种形制",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-3e2b34756f430596",
+      "title": "学习示意：比较、核对",
+      "localPath": "reference-assets/focused-quests/study-3e2b34756f430596.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "比较 → 核对",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-ac7297ffd80faaaa",
+      "title": "学习示意：凭屋顶定身份",
+      "localPath": "reference-assets/focused-quests/study-ac7297ffd80faaaa.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "凭屋顶定身份",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-ad2ecf93265245dd",
+      "title": "学习示意：会见、翻译、文书",
+      "localPath": "reference-assets/focused-quests/study-ad2ecf93265245dd.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "会见 → 翻译 → 文书",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-ff232b3561c777ec",
+      "title": "学习示意：译者协助",
+      "localPath": "reference-assets/focused-quests/study-ff232b3561c777ec.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "译者协助",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-7cd635f425d5178f",
+      "title": "学习示意：只提高音量",
+      "localPath": "reference-assets/focused-quests/study-7cd635f425d5178f.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只提高音量",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-f579c2bae5562a56",
+      "title": "学习示意：建筑今景、历史记载",
+      "localPath": "reference-assets/focused-quests/study-f579c2bae5562a56.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "建筑今景 → 历史记载",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a52a789f2796358c",
+      "title": "学习示意：建筑、会见记录",
+      "localPath": "reference-assets/focused-quests/study-a52a789f2796358c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "建筑 → 会见记录",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-86e49680ab22d6ba",
+      "title": "学习示意：只有今景",
+      "localPath": "reference-assets/focused-quests/study-86e49680ab22d6ba.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只有今景",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-0dcdd0720d563591",
+      "title": "学习示意：建筑、参与者、记录",
+      "localPath": "reference-assets/focused-quests/study-0dcdd0720d563591.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "建筑 → 参与者 → 记录",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-92e0ec33709fda2d",
+      "title": "学习示意：建筑、人、文书",
+      "localPath": "reference-assets/focused-quests/study-92e0ec33709fda2d.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "建筑 → 人 → 文书",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b4cd9732e9de4d1d",
+      "title": "学习示意：只数屋顶",
+      "localPath": "reference-assets/focused-quests/study-b4cd9732e9de4d1d.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只数屋顶",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "qing-1820-modern-blank-map",
       "title": "1820年清朝形势现代空白底图",
       "localPath": "reference-assets/ming-qing/qing-1820-modern-basemap.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Qing_Dynasty_blank_map_1820.svg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "现代作者依据历史地理资料绘制的1820年清朝形势空白底图。",
-      "boundary": "这是现代研究底图，不是清代原图或现代国界。只允许添加经过来源核验的教学标签；不可套用到整个清代。由SVG等比例导出为1920×1601像素PNG。"
+      "boundary": "这是现代研究底图，不是清代原图或现代国界。只允许添加经过来源核验的教学标签；不可套用到整个清代。由SVG等比例导出为1920×1601像素PNG。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "zheng-chenggong-portrait-artwork",
       "title": "17世纪《郑成功像》艺术作品",
       "localPath": "reference-assets/ming-qing/zheng-chenggong-portrait.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Portrait_of_Zheng_Chenggong.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "17世纪艺术作品《郑成功像》。",
-      "boundary": "这是历史绘画而非照片，画中还包括其他人物；只能作为后世保存的艺术形象，不保证与郑成功真人面貌完全一致。原图782×1579像素，未作修改。"
+      "boundary": "这是历史绘画而非照片，画中还包括其他人物；只能作为后世保存的艺术形象，不保证与郑成功真人面貌完全一致。原图782×1579像素，未作修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "chengde-mountain-resort-current-view",
+      "title": "承德避暑山庄现状照片",
+      "localPath": "reference-assets/ming-qing/chengde-mountain-resort.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chengde_Montain_Resort01.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public domain — author dedication",
+      "clearance": "cleared-open-license",
+      "caption": "2006年拍摄的承德避暑山庄园林现状。",
+      "boundary": "照片显示长期维修保护后的园林，不是清代会见现场或完整外八庙全景；用于从建筑与地点进入清代多民族交往史。原图1600×1200像素。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-08-03-frontiers-unity.jpg",

@@ -1,35 +1,32 @@
-const voiceBase = "/audio/voice/zh-CN/xiaoxiao";
+import { createVoicePlayer, idleVoiceSnapshot } from "./voice-player";
+export type { VoicePlaybackResult } from "./voice-player";
 
-let activeAudio: HTMLAudioElement | null = null;
-
-export async function playVoice(id: string) {
-  stopVoice();
-  if (typeof window === "undefined") return;
-
-  const audio = new Audio(`${voiceBase}/${id}.mp3`);
-  activeAudio = audio;
+const player = createVoicePlayer((id) => {
+  const audio = new Audio(`/audio/voice/zh-CN/xiaoxiao/${id}.mp3`);
+  audio.preload = "auto";
   audio.volume = 0.96;
-  document.documentElement.dataset.voiceSource = "local-mp3";
+  return audio;
+});
 
-  await new Promise<void>((resolve) => {
-    audio.onended = () => resolve();
-    audio.onerror = () => {
-      document.documentElement.dataset.voiceSource = "local-mp3-error";
-      resolve();
-    };
-    audio.play().catch(() => resolve());
-  });
+player.subscribe(() => {
+  if (typeof document === "undefined") return;
+  const { status, id } = player.getSnapshot();
+  document.documentElement.dataset.voiceSource = `local-mp3-${status === "ended" ? "ready" : status}`;
+  document.documentElement.dataset.voiceId = id ?? "";
+});
 
-  if (activeAudio === audio) activeAudio = null;
+export const subscribeVoice = player.subscribe;
+export const getVoiceSnapshot = player.getSnapshot;
+export const getServerVoiceSnapshot = () => idleVoiceSnapshot;
+export const pauseVoice = player.pause;
+export const resumeVoice = player.resume;
+export const stopVoice = player.stop;
+
+export function playVoiceSequence(ids: string[]) {
+  if (typeof window === "undefined") return Promise.resolve("stopped" as const);
+  return player.play(ids);
 }
 
-export function stopVoice() {
-  if (!activeAudio) return;
-  activeAudio.pause();
-  try {
-    activeAudio.currentTime = 0;
-  } catch {
-    // The browser may block seeking before audio metadata is ready.
-  }
-  activeAudio = null;
+export function playVoice(id: string) {
+  return playVoiceSequence([id]);
 }

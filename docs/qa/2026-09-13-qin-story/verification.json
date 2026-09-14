@@ -1,0 +1,60 @@
+{
+  "version": "0.65.0",
+  "checkedAt": "2026-09-13T02:51:07.869321+00:00",
+  "scope": "Qin measurement story only; other 33 scripts unchanged",
+  "storyScenes": [
+    "river",
+    "workshop",
+    "workshop",
+    "workshop",
+    "reunion"
+  ],
+  "browserObservations": [
+    "Station welcomes the travel group",
+    "Cover shows the three children and a separate actual Qin artifact card",
+    "First step starts with the travel map",
+    "Wrong era choice produces character retry dialogue",
+    "Correct choices replace the question with character responses",
+    "Keyboard alignment completes at offset 0",
+    "Two additional friends appear in the reunion illustration",
+    "390x600 final-step continue button is fully visible after correction",
+    "Family starts aligned and was moved 0 to 3 to 0",
+    "Temporary viewport override reset",
+    "Home with original river artwork and all three children visibly confirmed in production preview"
+  ],
+  "checks": {
+    "automatedTests": {
+      "passed": 19,
+      "failed": 0
+    },
+    "productionBuild": "passed",
+    "localAssets": "passed",
+    "appTypeCheck": "passed",
+    "lint": "passed",
+    "gitDiffCheck": "passed",
+    "fullProjectTypeCheck": "not claimed; existing Cloudflare worker type issues remain outside this interface check",
+    "localImageLoading": "SSR verifies direct local image URLs, avoiding the unavailable development image-transform binding"
+  },
+  "audio": {
+    "localLines": 3003,
+    "allFormalEditorialSegmentsGenerated": false
+  },
+  "image": {
+    "mode": "built-in imagegen",
+    "generatedCount": 1,
+    "source": "reference-assets/qin-han/qin-friends-reunion-v1.png",
+    "runtime": "public/content/step-images/qin-friends-reunion-v1.jpg",
+    "prompt": "docs/qa/2026-09-13-qin-story/reunion-prompt.txt"
+  },
+  "status": "ready for local review; no real-child validation",
+  "hosting": "local only, no deployment",
+  "sha256": {
+    "app/ObjectWorkbench.tsx": "6bd3091eb963e367edb3c64f51fbcded6ad0dbe4ffcfab2b7477deb1f3b2dfb4",
+    "app/page.tsx": "be983a84ee387f0a0bc05ebeb32dbdbde55c93581360aada1dd4d13b57116e3b",
+    "app/workbench.css": "e6ce9be9e380b512661008c154f1dea372c63ca372cb6f0dae5fad9b06054960",
+    "content/focused-quests.json": "5b579f6bf9c7e20368afa4970078dbed40b4460e687cb031a7b68fdd3b88b908",
+    "scripts/lib/focused-gameplay.mjs": "207282d26e27b96bd6eee676f93e7c0874203e2368dcd9387490538e910ef6cd",
+    "public/content/preview-manifest.json": "dc96df79e9bd69fd6876ff2c854bd40e56b6202789a2fc3d95267fe04f303878",
+    "public/audio/voice/manifest.json": "7812e8b76952e85e7925ccf59a648b1e77711c84f925a67c45b9ac41a586e80c"
+  }
+}

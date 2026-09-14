@@ -1,19 +1,717 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-08-02-zheng-he",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
   "period": {
-    "id": "ming-qing",
-    "label": "明清",
-    "years": "1368—1840年前（本内容轨范围）"
+    "id": "ming",
+    "label": "明朝",
+    "years": "1368—1644年"
   },
-  "order": 29,
+  "order": 33,
   "title": "郑和船队为什么驶向远洋",
   "coreQuestion": "郑和下西洋反映了明朝怎样的航海能力和对外交往？",
   "throughline": "以航线图、船队相关文献和沿线遗存认识郑和下西洋的目的、范围、交往与历史条件，并与戚继光抗倭区分。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-ancient-08-02-zheng-he",
+    "childTitle": "帮郑和船队准备出海",
+    "prompt": "大船有了，为什么还不能马上远航？",
+    "takeaway": "郑和船队在1405—1433年间七下西洋，远航依靠众多船员、补给、航路知识和沿途交流。",
+    "object": "航海图、碑刻与船厂遗址",
+    "people": [
+      "郑和、船员",
+      "沿途接应者"
+    ],
+    "place": "南京、长乐、印度洋沿岸与东非港口",
+    "culture": "郑和航海碑刻",
+    "care": "船图与路线为学习示意，不声称精确复原宝船尺寸；碑文是交流材料，不能推出所有航行细节。",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-08-02-zheng-he",
+    "featured": {
+      "type": "人物",
+      "icon": "🧭",
+      "title": "郑和、船员与沿途接应者",
+      "childBridge": "大船有了，为什么还不能马上远航？",
+      "evidenceBoundary": "船图与路线为学习示意，不声称精确复原宝船尺寸；碑文是交流材料，不能推出所有航行细节。"
+    },
+    "companions": [
+      {
+        "type": "地点",
+        "label": "南京与长乐",
+        "note": "造船、集合和出发需要陆地上的港口与船厂。"
+      },
+      {
+        "type": "历史",
+        "label": "七下西洋",
+        "note": "七次远航有不同路线和任务，不是一趟环游。"
+      },
+      {
+        "type": "实物",
+        "label": "航海碑刻",
+        "note": "碑刻能核对时间和到访地点。"
+      },
+      {
+        "type": "自然",
+        "label": "季风",
+        "note": "船队要等待风向，也要依靠沿途伙伴。"
+      }
+    ],
+    "sourceIds": [
+      "SAAC-ZHENGHE-STELE",
+      "NMC-CONGZHENG-SHILU",
+      "PEP-HISTORY-7B-2026-TRIAL",
+      "NMC-MING-QING"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "七次航行的时间",
+      "text": "郑和船队从1405年到1433年间先后七下西洋，不是在同一天一次走完。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "大船还要装什么",
+      "text": "长途航行前，要准备饮水、粮食与各种物资。这里是备航学习图。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "找合适的风和时机",
+      "text": "船队会利用季风等航海知识。知道方向，还要判断什么时候适合走。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "碑上为什么不只一种文字",
+      "text": "郑和相关的三语碑留下汉文、泰米尔文、波斯文，能帮助我们认识跨地区交往。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "谁让大船走得远",
+      "text": "掌舵、看航路、修船、管物资，各有工作。沿途港口原来就有居民和社会。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "翻译",
+      "icon": "🗣️",
+      "plain": "把一种语言表达的意思换成另一种语言。",
+      "example": "翻译需要懂语言和知识，也常由团队反复校订。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "外交",
+      "icon": "🤝",
+      "plain": "国家之间交往、谈判和处理共同事情。",
+      "example": "外交不只是一位领导人见面，还有许多人长期工作。",
+      "priority": 2
+    },
+    {
+      "term": "政权",
+      "icon": "🏛️",
+      "plain": "谁在用什么机构和规则管理一个地方。",
+      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "郑和",
+      "reading": "Zhèng Hé",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-02-zheng-he"
+      ],
+      "note": "“和”在人名中读hé。"
+    },
+    {
+      "text": "长乐",
+      "reading": "Chánglè",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-08-02-zheng-he"
+      ],
+      "note": "福建地名；“长”读cháng，“乐”读lè。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "帮郑和船队准备出海",
+      "question": "大船有了，为什么还不能马上远航？"
+    },
+    "cta": "去备好远行物资",
+    "anchor": "郑和、船员与沿途接应者",
+    "boundary": "船图与路线为学习示意，不声称精确复原宝船尺寸；碑文是交流材料，不能推出所有航行细节。",
+    "evidence": [
+      {
+        "id": "galle-trilingual-stele-current-photo",
+        "title": "锡兰山三语碑现状照片",
+        "localPath": "reference-assets/ming-qing/galle-trilingual-stele.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gall_Trilingual_Inscription.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 3.0",
+        "clearance": "cleared-open-license",
+        "caption": "与郑和船队活动相关的锡兰山三语碑现状照片。",
+        "boundary": "石碑立于1409年，碑文使用中文、泰米尔文和波斯文。照片反光严重，文字不可可靠辨读；只展示整体形态，不设计找字、读文或OCR互动。原图1443×2073像素，未作其他修改。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/galle-trilingual-stele-current-photo.jpg"
+      }
+    ],
+    "coverAsset": {
+      "id": "zheng-he-seventh-voyage-modern-map",
+      "title": "郑和第七次航海现代中文示意图",
+      "localPath": "reference-assets/ming-qing/zheng-he-seventh-voyage-modern-map.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Zheng-He-7th-expedition-map-zh-hans.svg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "现代作者绘制的郑和第七次航海（1431—1433年）中文示意图。",
+      "boundary": "这只是第七次航海的现代研究示意，不是七次路线合并图或明代原图。实线为主航路，虚线、点线所示支线具有不同程度的不确定性，儿童界面必须保留图例说明。由SVG等比例导出为1920×1461像素PNG。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/zheng-he-seventh-voyage-modern-map.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/zheng-he-seventh-voyage-modern-map.jpg",
+    "coverImageAlt": "郑和第七次航海现代中文示意图",
+    "coverImageKind": "故事插画",
+    "coverAudio": {
+      "id": "quest-2b5f874f1576b113",
+      "text": "帮郑和船队准备出海。大船有了，为什么还不能马上远航？准备好就点“去备好远行物资”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-26e4c29e99957cae",
+      "text": "郑和船队在1405—1433年间七下西洋，远航依靠众多船员、补给、航路知识和沿途交流。"
+    },
+    "finish": {
+      "title": "给家人的手心船装行李",
+      "actions": [
+        "先递一袋想象的粮，再递一袋水。",
+        "问家人：谁掌舵，谁修船，谁看风？一起分工。"
+      ],
+      "parent": "不做征服、掠夺或财富得分。问“有大船还缺什么？”接受物资、船员、航路知识等。",
+      "sceneStepIndexes": [
+        1,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-9276b23294f77c33",
+          "text": "先递一袋想象的粮，再递一袋水。"
+        },
+        {
+          "id": "quest-93d1903f4b2a7908",
+          "text": "问家人：谁掌舵，谁修船，谁看风？一起分工。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-2224cd7f5e321643",
+        "text": "给家人的手心船装行李。先递一袋想象的粮，再递一袋水。问家人：谁掌舵，谁修船，谁看风？一起分工。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "七次航行的时间",
+        "title": "七次航行的时间",
+        "prompt": "应该用哪种时间图？",
+        "rightNote": "多次航行跨越许多年，不把一张单次航线当作全部。",
+        "wrongNote": "多次航行跨越许多年，不把一张单次航线当作全部。",
+        "sourceIds": [
+          "SAAC-ZHENGHE-STELE",
+          "NMC-MING-QING"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "七次航行的时间",
+          "screenText": "郑和船队从1405年到1433年间先后七下西洋，不是在同一天一次走完。",
+          "displayText": "郑和船队从1405年到1433年间先后七下西洋，不是在同一天一次走完。",
+          "narration": "郑和船队从1405年到1433年间先后七下西洋，不是在同一天一次走完。"
+        },
+        "assetId": "study-5a334d6712b2a10c",
+        "image": "/content/study-scenes/study-5a334d6712b2a10c.svg",
+        "studyImage": "/content/study-scenes/study-5a334d6712b2a10c.svg",
+        "studyImageAlt": "1405年，多次航行，1433年",
+        "imageAlt": "1405年，多次航行，1433年",
+        "imageCaption": "学习示意 · 1405年，多次航行，1433年",
+        "imageBoundary": "自制学习示意。船图与路线为学习示意，不声称精确复原宝船尺寸；碑文是交流材料，不能推出所有航行细节。",
+        "audio": {
+          "transition": {
+            "id": "quest-aaf5a60723ef6508",
+            "text": "七次航行的时间。"
+          },
+          "intro": {
+            "id": "quest-579e62ea58ccf407",
+            "text": "郑和船队从1405年到1433年间先后七下西洋，不是在同一天一次走完。"
+          },
+          "question": {
+            "id": "quest-77e8eb52da360e41",
+            "text": "应该用哪种时间图？"
+          },
+          "image": {
+            "id": "quest-004e039841ad9d99",
+            "text": "这是学习示意图：1405年，多次航行，1433年。应该用哪种时间图？"
+          },
+          "right": {
+            "id": "quest-6d177ce2000ed21c",
+            "text": "找到了。多次航行跨越许多年，不把一张单次航线当作全部。"
+          },
+          "wrong": {
+            "id": "quest-d74190e02859dcab",
+            "text": "再比较一下。多次航行跨越许多年，不把一张单次航线当作全部。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-02-zheng-he-time-1",
+            "label": "1405—1433年的多次出发",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-a7e728a9c169a782.svg",
+            "imageAlt": "1405—1433 多次",
+            "audio": {
+              "id": "quest-584d859961ccfa00",
+              "text": "1405—1433年的多次出发"
+            }
+          },
+          {
+            "id": "cn-ancient-08-02-zheng-he-time-2",
+            "label": "1405年一天走完七次",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-4014d47bd496ad7b.svg",
+            "imageAlt": "1405年 一天",
+            "audio": {
+              "id": "quest-78a99bb193310439",
+              "text": "1405年一天走完七次"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "大船还要装什么",
+        "title": "大船还要装什么",
+        "prompt": "船上已有路线图，还应备什么？",
+        "rightNote": "旗帜不能代替长途航行需要的补给。",
+        "wrongNote": "旗帜不能代替长途航行需要的补给。",
+        "sourceIds": [
+          "SAAC-ZHENGHE-STELE",
+          "NMC-MING-QING"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "大船还要装什么",
+          "screenText": "长途航行前，要准备饮水、粮食与各种物资。这里是备航学习图。",
+          "displayText": "长途航行前，要准备饮水、粮食与各种物资。这里是备航学习图。",
+          "narration": "长途航行前，要准备饮水、粮食与各种物资。这里是备航学习图。"
+        },
+        "assetId": "study-68c22ee378b9d10e",
+        "image": "/content/study-scenes/study-68c22ee378b9d10e.svg",
+        "studyImage": "/content/study-scenes/study-68c22ee378b9d10e.svg",
+        "studyImageAlt": "船队，备航物资",
+        "imageAlt": "船队，备航物资",
+        "imageCaption": "学习示意 · 船队，备航物资",
+        "imageBoundary": "自制学习示意。船图与路线为学习示意，不声称精确复原宝船尺寸；碑文是交流材料，不能推出所有航行细节。",
+        "audio": {
+          "transition": {
+            "id": "quest-1ff1190d82b140b1",
+            "text": "大船还要装什么。"
+          },
+          "intro": {
+            "id": "quest-f4c52f51975b22e4",
+            "text": "长途航行前，要准备饮水、粮食与各种物资。这里是备航学习图。"
+          },
+          "question": {
+            "id": "quest-315c028aa3eabc59",
+            "text": "船上已有路线图，还应备什么？"
+          },
+          "image": {
+            "id": "quest-389290e337e73def",
+            "text": "这是学习示意图：船队，备航物资。船上已有路线图，还应备什么？"
+          },
+          "right": {
+            "id": "quest-0d764843f3fddd6b",
+            "text": "找到了。旗帜不能代替长途航行需要的补给。"
+          },
+          "wrong": {
+            "id": "quest-accab0f50cf36493",
+            "text": "再比较一下。旗帜不能代替长途航行需要的补给。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-02-zheng-he-beginning-1",
+            "label": "水和粮食",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-0543b686929aa77b.svg",
+            "imageAlt": "饮水，粮食",
+            "audio": {
+              "id": "quest-5be1b34cc3ffb8e6",
+              "text": "水和粮食"
+            }
+          },
+          {
+            "id": "cn-ancient-08-02-zheng-he-beginning-2",
+            "label": "只再放更多旗子",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-84cf842816e96aa3.svg",
+            "imageAlt": "更多旗子",
+            "audio": {
+              "id": "quest-954a1db2377e0e62",
+              "text": "只再放更多旗子"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "找合适的风和时机",
+        "title": "找合适的风和时机",
+        "prompt": "准备离港，还该留意什么？",
+        "rightNote": "风、航路与船员经验共同影响航行，外观不决定时机。",
+        "wrongNote": "风、航路与船员经验共同影响航行，外观不决定时机。",
+        "sourceIds": [
+          "SAAC-ZHENGHE-STELE",
+          "NMC-MING-QING"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "找合适的风和时机",
+          "screenText": "船队会利用季风等航海知识。知道方向，还要判断什么时候适合走。",
+          "displayText": "船队会利用季风等航海知识。知道方向，还要判断什么时候适合走。",
+          "narration": "船队会利用季风等航海知识。知道方向，还要判断什么时候适合走。"
+        },
+        "assetId": "study-0368ece0f705d599",
+        "image": "/content/study-scenes/study-0368ece0f705d599.svg",
+        "studyImage": "/content/study-scenes/study-0368ece0f705d599.svg",
+        "studyImageAlt": "方向，季风，启航",
+        "imageAlt": "方向，季风，启航",
+        "imageCaption": "学习示意 · 方向，季风，启航",
+        "imageBoundary": "自制学习示意。船图与路线为学习示意，不声称精确复原宝船尺寸；碑文是交流材料，不能推出所有航行细节。",
+        "audio": {
+          "transition": {
+            "id": "quest-79401d198b491361",
+            "text": "找合适的风和时机。"
+          },
+          "intro": {
+            "id": "quest-a31215d5d3296361",
+            "text": "船队会利用季风等航海知识。知道方向，还要判断什么时候适合走。"
+          },
+          "question": {
+            "id": "quest-05e60a84d1b13884",
+            "text": "准备离港，还该留意什么？"
+          },
+          "image": {
+            "id": "quest-54619ece2bfa238a",
+            "text": "这是学习示意图：方向，季风，启航。准备离港，还该留意什么？"
+          },
+          "right": {
+            "id": "quest-7f25a92c14d77b2a",
+            "text": "找到了。风、航路与船员经验共同影响航行，外观不决定时机。"
+          },
+          "wrong": {
+            "id": "quest-cc7ab055ff577b56",
+            "text": "再比较一下。风、航路与船员经验共同影响航行，外观不决定时机。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-02-zheng-he-journey-1",
+            "label": "风向和适航时机",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-d423a349e0871d97.svg",
+            "imageAlt": "风向和时机",
+            "audio": {
+              "id": "quest-2138a926c1df362f",
+              "text": "风向和适航时机"
+            }
+          },
+          {
+            "id": "cn-ancient-08-02-zheng-he-journey-2",
+            "label": "只看船的颜色",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-25f15d8216fce65c.svg",
+            "imageAlt": "船的颜色",
+            "audio": {
+              "id": "quest-90951b6a9fd6a208",
+              "text": "只看船的颜色"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "碑上为什么不只一种文字",
+        "title": "碑上为什么不只一种文字",
+        "prompt": "理解不同文字，要谁帮忙？",
+        "rightNote": "文字大小不能翻译内容，需要语言知识和核对。",
+        "wrongNote": "文字大小不能翻译内容，需要语言知识和核对。",
+        "sourceIds": [
+          "SAAC-ZHENGHE-STELE",
+          "NMC-MING-QING"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "碑上为什么不只一种文字",
+          "screenText": "郑和相关的三语碑留下汉文、泰米尔文、波斯文，能帮助我们认识跨地区交往。",
+          "displayText": "郑和相关的三语碑留下汉文、泰米尔文、波斯文，能帮助我们认识跨地区交往。",
+          "narration": "郑和相关的三语碑留下汉文、泰米尔文、波斯文，能帮助我们认识跨地区交往。"
+        },
+        "assetId": "study-75389e428b056ee5",
+        "image": "/content/study-scenes/study-75389e428b056ee5.svg",
+        "studyImage": "/content/study-scenes/study-75389e428b056ee5.svg",
+        "studyImageAlt": "三种文字，交流",
+        "imageAlt": "三种文字，交流",
+        "imageCaption": "学习示意 · 三种文字，交流",
+        "imageBoundary": "自制学习示意。船图与路线为学习示意，不声称精确复原宝船尺寸；碑文是交流材料，不能推出所有航行细节。",
+        "audio": {
+          "transition": {
+            "id": "quest-5d1dbbd65ba86b3d",
+            "text": "碑上为什么不只一种文字。"
+          },
+          "intro": {
+            "id": "quest-89bf189d7fecdb4b",
+            "text": "郑和相关的三语碑留下汉文、泰米尔文、波斯文，能帮助我们认识跨地区交往。"
+          },
+          "question": {
+            "id": "quest-8a7a3430e620a0d9",
+            "text": "理解不同文字，要谁帮忙？"
+          },
+          "image": {
+            "id": "quest-05403bd05c627a2c",
+            "text": "这是学习示意图：三种文字，交流。理解不同文字，要谁帮忙？"
+          },
+          "right": {
+            "id": "quest-6a0b6b76a3af8bfd",
+            "text": "找到了。文字大小不能翻译内容，需要语言知识和核对。"
+          },
+          "wrong": {
+            "id": "quest-a5d99d0a1ae2dba5",
+            "text": "再比较一下。文字大小不能翻译内容，需要语言知识和核对。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-02-zheng-he-change-1",
+            "label": "懂语言的人一起核对",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-116747611cc117d0.svg",
+            "imageAlt": "语言协作核对",
+            "audio": {
+              "id": "quest-e3662d323e097075",
+              "text": "懂语言的人一起核对"
+            }
+          },
+          {
+            "id": "cn-ancient-08-02-zheng-he-change-2",
+            "label": "只按字形大小猜意思",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-427883e7d2986ea2.svg",
+            "imageAlt": "按字的大小猜",
+            "audio": {
+              "id": "quest-2e3962492af10c74",
+              "text": "只按字形大小猜意思"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "谁让大船走得远",
+        "title": "谁让大船走得远",
+        "prompt": "哪张图能把船队讲完整？",
+        "rightNote": "远航是大量协作，不是一个人发现无人世界。",
+        "wrongNote": "远航是大量协作，不是一个人发现无人世界。",
+        "sourceIds": [
+          "SAAC-ZHENGHE-STELE",
+          "NMC-MING-QING"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "谁让大船走得远",
+          "screenText": "掌舵、看航路、修船、管物资，各有工作。沿途港口原来就有居民和社会。",
+          "displayText": "掌舵、看航路、修船、管物资，各有工作。沿途港口原来就有居民和社会。",
+          "narration": "掌舵、看航路、修船、管物资，各有工作。沿途港口原来就有居民和社会。"
+        },
+        "assetId": "study-f245c40cfd9a3da1",
+        "image": "/content/study-scenes/study-f245c40cfd9a3da1.svg",
+        "studyImage": "/content/study-scenes/study-f245c40cfd9a3da1.svg",
+        "studyImageAlt": "郑和，船员，沿途社会",
+        "imageAlt": "郑和，船员，沿途社会",
+        "imageCaption": "学习示意 · 郑和，船员，沿途社会",
+        "imageBoundary": "自制学习示意。船图与路线为学习示意，不声称精确复原宝船尺寸；碑文是交流材料，不能推出所有航行细节。",
+        "audio": {
+          "transition": {
+            "id": "quest-7648a3bc664933e8",
+            "text": "谁让大船走得远。"
+          },
+          "intro": {
+            "id": "quest-3eb0c01af72c2123",
+            "text": "掌舵、看航路、修船、管物资，各有工作。沿途港口原来就有居民和社会。"
+          },
+          "question": {
+            "id": "quest-fa994705a1fe6f6a",
+            "text": "哪张图能把船队讲完整？"
+          },
+          "image": {
+            "id": "quest-318cdb7edd1c3368",
+            "text": "这是学习示意图：郑和，船员，沿途社会。哪张图能把船队讲完整？"
+          },
+          "right": {
+            "id": "quest-807180efc7a00f87",
+            "text": "找到了。远航是大量协作，不是一个人发现无人世界。"
+          },
+          "wrong": {
+            "id": "quest-731eaa7751f90b54",
+            "text": "再比较一下。远航是大量协作，不是一个人发现无人世界。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-02-zheng-he-takeaway-1",
+            "label": "郑和与船员、沿途接应",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-d705fd73b9123810.svg",
+            "imageAlt": "船员与沿途接应",
+            "audio": {
+              "id": "quest-b5c350c2f3f67418",
+              "text": "郑和与船员、沿途接应"
+            }
+          },
+          {
+            "id": "cn-ancient-08-02-zheng-he-takeaway-2",
+            "label": "只有郑和一个人在船上",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-65efdf7112b858f6.svg",
+            "imageAlt": "只有郑和",
+            "audio": {
+              "id": "quest-182b9d788b70589b",
+              "text": "只有郑和一个人在船上"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "第几次航海",
+        "items": [
+          "把“1431—1433”与“第七次航海图”配对，拒绝“七次全部路线图”。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "远航需要什么",
+        "items": [
+          "从船只、粮水、季风知识、翻译和港口补给中找出共同支撑远航的条件。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "两段海洋史",
+        "items": [
+          "把“外交贸易”连到郑和，把“东南沿海防卫”连到戚继光。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "1405—1433年，郑和率船队七次下西洋。航行依靠国家组织、造船与航海知识、补给和沿线港口网络，目的包括传达明朝意图、开展外交和贸易。船队到访的是早已有居民、政权和商路的地区，因此不能说郑和“发现”了它们。航线图和锡兰山三语碑帮助我们认识航程与交往，但一张第七次航海图不能代表七次航行全部路线，一块碑也不能把复杂交往简化成只有和平或只有冲突。"
@@ -272,28 +970,239 @@
       "authorityLevel": "A",
       "factUse": "杨英参与郑氏政权及其记录郑成功收复台湾的文献性质和局限",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-HISTORY-7B-2026-TRIAL",
+      "title": "新修订义务教育历史教材七年级下册试教资料",
+      "institution": "人民教育出版社",
+      "url": "https://www.pep.com.cn/xw/zt/hd/sktbjc/jcsy/202606/t20260610_2006778.html",
+      "type": "current-textbook-implementation-reference",
+      "authorityLevel": "A-structure-only",
+      "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "study-5a334d6712b2a10c",
+      "title": "学习示意：1405年、多次航行、1433年",
+      "localPath": "reference-assets/focused-quests/study-5a334d6712b2a10c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1405年 → 多次航行 → 1433年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a7e728a9c169a782",
+      "title": "学习示意：1405—1433 多次",
+      "localPath": "reference-assets/focused-quests/study-a7e728a9c169a782.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1405—1433 多次",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-4014d47bd496ad7b",
+      "title": "学习示意：1405年 一天",
+      "localPath": "reference-assets/focused-quests/study-4014d47bd496ad7b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1405年 一天",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-68c22ee378b9d10e",
+      "title": "学习示意：船队、备航物资",
+      "localPath": "reference-assets/focused-quests/study-68c22ee378b9d10e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "船队 → 备航物资",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-0543b686929aa77b",
+      "title": "学习示意：饮水、粮食",
+      "localPath": "reference-assets/focused-quests/study-0543b686929aa77b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "饮水 → 粮食",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-84cf842816e96aa3",
+      "title": "学习示意：更多旗子",
+      "localPath": "reference-assets/focused-quests/study-84cf842816e96aa3.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "更多旗子",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-0368ece0f705d599",
+      "title": "学习示意：方向、季风、启航",
+      "localPath": "reference-assets/focused-quests/study-0368ece0f705d599.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "方向 → 季风 → 启航",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d423a349e0871d97",
+      "title": "学习示意：风向和时机",
+      "localPath": "reference-assets/focused-quests/study-d423a349e0871d97.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "风向和时机",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-25f15d8216fce65c",
+      "title": "学习示意：船的颜色",
+      "localPath": "reference-assets/focused-quests/study-25f15d8216fce65c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "船的颜色",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-75389e428b056ee5",
+      "title": "学习示意：三种文字、交流",
+      "localPath": "reference-assets/focused-quests/study-75389e428b056ee5.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "三种文字 → 交流",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-116747611cc117d0",
+      "title": "学习示意：语言协作核对",
+      "localPath": "reference-assets/focused-quests/study-116747611cc117d0.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "语言协作核对",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-427883e7d2986ea2",
+      "title": "学习示意：按字的大小猜",
+      "localPath": "reference-assets/focused-quests/study-427883e7d2986ea2.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "按字的大小猜",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-f245c40cfd9a3da1",
+      "title": "学习示意：郑和、船员、沿途社会",
+      "localPath": "reference-assets/focused-quests/study-f245c40cfd9a3da1.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "郑和 → 船员 → 沿途社会",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d705fd73b9123810",
+      "title": "学习示意：船员与沿途接应",
+      "localPath": "reference-assets/focused-quests/study-d705fd73b9123810.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "船员与沿途接应",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-65efdf7112b858f6",
+      "title": "学习示意：只有郑和",
+      "localPath": "reference-assets/focused-quests/study-65efdf7112b858f6.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只有郑和",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "zheng-he-seventh-voyage-modern-map",
       "title": "郑和第七次航海现代中文示意图",
       "localPath": "reference-assets/ming-qing/zheng-he-seventh-voyage-modern-map.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Zheng-He-7th-expedition-map-zh-hans.svg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "现代作者绘制的郑和第七次航海（1431—1433年）中文示意图。",
-      "boundary": "这只是第七次航海的现代研究示意，不是七次路线合并图或明代原图。实线为主航路，虚线、点线所示支线具有不同程度的不确定性，儿童界面必须保留图例说明。由SVG等比例导出为1920×1461像素PNG。"
+      "boundary": "这只是第七次航海的现代研究示意，不是七次路线合并图或明代原图。实线为主航路，虚线、点线所示支线具有不同程度的不确定性，儿童界面必须保留图例说明。由SVG等比例导出为1920×1461像素PNG。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "galle-trilingual-stele-current-photo",
       "title": "锡兰山三语碑现状照片",
       "localPath": "reference-assets/ming-qing/galle-trilingual-stele.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Gall_Trilingual_Inscription.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "与郑和船队活动相关的锡兰山三语碑现状照片。",
-      "boundary": "石碑立于1409年，碑文使用中文、泰米尔文和波斯文。照片反光严重，文字不可可靠辨读；只展示整体形态，不设计找字、读文或OCR互动。原图1443×2073像素，未作其他修改。"
+      "boundary": "石碑立于1409年，碑文使用中文、泰米尔文和波斯文。照片反光严重，文字不可可靠辨读；只展示整体形态，不设计找字、读文或OCR互动。原图1443×2073像素，未作其他修改。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-08-02-zheng-he.jpg",

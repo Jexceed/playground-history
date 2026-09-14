@@ -1,0 +1,96 @@
+
+> chronicle-bureau-prototype@0.1.0 test
+> npm run build && node --experimental-strip-types --test tests/*.test.mjs
+
+
+> chronicle-bureau-prototype@0.1.0 build
+> npm run content:pack && WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build
+
+
+> chronicle-bureau-prototype@0.1.0 content:pack
+> node scripts/prepare-focused-quests.mjs && node scripts/validate-content.mjs && node scripts/build-content-pack.mjs && node scripts/generate-content-thumbnails.mjs && node scripts/audit-gameplay-coherence.mjs
+
+逐题学习图：505 个；34章儿童入口与连续故事同步。
+内容校验通过：7 个课程板块，共 103 章。
+其中：中国史 67 章，世界史 30 章，跨学科 6 章。
+已有详稿 103 章，事实研究完成 103 章，最终审核通过 0 章。
+事实卡 2684 条，儿童屏幕 657 屏，语音稿 729 段，互动 339 个。
+低龄兴趣入口 103 章，均含实物入口与地点连接。
+儿童口语词典 80 词，103章均已匹配难词解释。
+配音读音表 154 项、年代读法 7 条，103章均有编辑校听入口。
+来源登记 978 条，素材登记 971 条，其中已清权本地素材 969 条。
+本机研究素材缓存 966/966 个文件；发布包构建不强制携带原始研究缓存。
+内容包生成完成：7 个板块，103 章。
+章节缩略图生成完成：103 张；步骤图片 229 张。
+结构审计：完整库103章/515步；本轮34章/170步，340张选项图、68条结束动作。真实儿童审核仍待进行。
+
+  vinext build  (Vite 8.0.13)
+
+[1/5] analyze client references...
+[2Ktransforming...✓ 132 modules transformed.
+rendering chunks...
+✓ built in 419ms
+[2/5] analyze server references...
+[2Ktransforming...✓ 105 modules transformed.
+rendering chunks...
+✓ built in 84ms
+[3/5] build rsc environment...
+[2Ktransforming...✓ 138 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 296ms
+[4/5] build client environment...
+[2Ktransforming...✓ 113 modules transformed.
+rendering chunks...
+computing gzip size...
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.29s
+[5/5] build ssr environment...
+[2Ktransforming...✓ 111 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 171ms
+[0m
+  Route (app)
+  ─ ? /
+
+  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+
+  Build complete. Run `vinext start` to start the production server.
+
+✔ pause and resume retain position and continue the remaining narration queue (2.152458ms)
+✔ a new answer or navigation cancels old callbacks and every queued clip (0.332625ms)
+✔ a stale play rejection after a quick pause/resume cannot stop resumed audio (0.35175ms)
+✔ media errors and autoplay blocks end the queue with a recoverable state (0.439583ms)
+✔ a loading clip can remain paused until the user resumes it (0.39225ms)
+✔ local progress restores valid steps and preserves legacy completion badges (0.2635ms)
+✔ all 515 steps have two stable audible choices with one correct answer and balanced positions (2.993375ms)
+✔ a focused UI keeps completed records for chapters currently hidden (0.410875ms)
+✔ renders only the Qin–Qing local playtest scope (58.381125ms)
+✔ keeps the complete source library and emits a separate focused UI bundle (58.485875ms)
+✔ every focused question has two authored pictures, source references and a concrete ending (10.677375ms)
+✔ ships a complete local narration pack (387.544042ms)
+✔ keeps every active task step in one viewport with a narrated image overlay (0.773625ms)
+✔ packages every navigation and step badge used by the child pages (1.890042ms)
+✔ keeps existing narration files when synthesis fails (2165.033166ms)
+✔ ships two local voice audition profiles before the full narration run (0.902708ms)
+✔ the measuring phrase gets its chosen tones without changing the noun 度量衡 (3.05025ms)
+✔ the same proportional drag aligns the ruler on phone and desktop boards (0.329625ms)
+✔ only the Qin measurement task enables the new workbench and keeps its real artifact (4.399792ms)
+✔ the Qin story has departure, discovery and reunion without dropping the artifact (3.366083ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2735.36025

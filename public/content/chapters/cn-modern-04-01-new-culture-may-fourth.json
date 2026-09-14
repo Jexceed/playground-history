@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.8.0",
+  "contentVersion": "0.9.0",
   "id": "cn-modern-04-01-new-culture-may-fourth",
   "trackId": "china-modern",
   "trackLabel": "中国近代史",
@@ -13,7 +13,658 @@
   "title": "新文化和五四运动带来了什么新声音",
   "coreQuestion": "青年和知识分子为什么重新思考国家、科学与民主？",
   "throughline": "从新文化运动的刊物、北京学生游行路线和五四运动的传播，理解思想解放、爱国行动与社会动员。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-modern-04-01-new-culture-may-fourth",
+    "childTitle": "鲁迅把什么写进新文章",
+    "prompt": "报刊、白话文和青年行动，为什么会让新声音传得更远？",
+    "takeaway": "更易懂的文字、报刊和公开行动，让更多人能参加关于国家未来的讨论。",
+    "object": "《新青年》、白话小说与学生传单",
+    "people": [
+      "陈独秀、李大钊、鲁迅、学生与编辑"
+    ],
+    "place": "上海与北京",
+    "culture": "《新青年》与白话文学",
+    "care": "不让一篇文章代表所有人的想法，也不把街头冲突做成刺激玩法。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "👋",
+      "label": "从一个人出发",
+      "text": "鲁迅把什么写进新文章"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "翻开新青年",
+      "text": "先翻开《新青年》，看看文章为什么改用白话。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "鲁迅写下新问题",
+      "text": "接着读鲁迅小说和学生传单，听见新的问题。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "讨论走出书页",
+      "text": "最后思想讨论走到街头和学校，变成更多行动。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "更易懂的文字、报刊和公开行动，让更多人能参加关于国家未来的讨论。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "小说",
+      "icon": "📖",
+      "plain": "用人物和一连串事情讲故事的文学作品。",
+      "example": "《西游记》是明代长篇小说，不是玄奘本人的旅行日记。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "priority": 1
+    },
+    {
+      "term": "革命",
+      "icon": "🔄",
+      "plain": "许多人推动改变旧政权或旧制度的大变化。",
+      "example": "革命不是只看一场战斗，还要看原因、参与者和结果。",
+      "priority": 1
+    },
+    {
+      "term": "民主",
+      "icon": "🗳️",
+      "plain": "公共事情不只由一个人说了算，人们按规则参与。",
+      "example": "不同年代参与范围不同，不能把古代投票当成今天制度。",
+      "priority": 1
+    },
+    {
+      "term": "权利",
+      "icon": "🫶",
+      "plain": "规则承认一个人可以做、可以得到保护的事情。",
+      "example": "写有权利，还要检查妇女、奴隶和穷人是否真的拥有。",
+      "priority": 1
+    },
+    {
+      "term": "主权",
+      "icon": "🏠",
+      "plain": "一个国家自己决定本国事务的权力。",
+      "example": "强迫签约、割地或控制关税会伤害主权。",
+      "priority": 1
+    },
+    {
+      "term": "共和国",
+      "icon": "🏛️",
+      "plain": "国家职位不是由皇位世代传下去的国家形式。",
+      "example": "写下共和国原则，不代表这些原则立刻全部做到。",
+      "priority": 2
+    },
+    {
+      "term": "民族",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
+      "example": "民族不是按外貌排高低，也不会永远固定不变。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "外交",
+      "icon": "🤝",
+      "plain": "国家之间交往、谈判和处理共同事情。",
+      "example": "外交不只是一位领导人见面，还有许多人长期工作。",
+      "priority": 2
+    },
+    {
+      "term": "危机",
+      "icon": "⚠️",
+      "plain": "问题迅速变严重，原来的办法难以应付。",
+      "example": "危机通常有多种原因，也会影响不同的人。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "国际",
+      "icon": "🌍",
+      "plain": "不同国家之间或许多国家共同参与的事情。",
+      "example": "国际合作要看谁参加、怎样分工、规则如何执行。",
+      "priority": 3
+    },
+    {
+      "term": "阶级",
+      "icon": "🪜",
+      "plain": "因生产关系、财产和权力位置不同形成的社会群体。",
+      "example": "阶级不是给个人贴好坏标签，要看具体历史关系。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "运动",
+      "icon": "📣",
+      "plain": "许多人围绕一个目标持续参加的行动。",
+      "example": "历史运动里的人、目标和做法可能并不完全相同。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "陈独秀",
+      "reading": "Chén Dúxiù",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-04-01-new-culture-may-fourth"
+      ],
+      "note": "“秀”读xiù。"
+    },
+    {
+      "text": "李大钊",
+      "reading": "Lǐ Dàzhāo",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-04-01-new-culture-may-fourth",
+        "world-contemporary-01-02-russian-revolution"
+      ],
+      "note": "“钊”读zhāo。"
+    },
+    {
+      "text": "鲁迅",
+      "reading": "Lǔ Xùn",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-04-01-new-culture-may-fourth"
+      ],
+      "note": "“迅”读xùn。"
+    },
+    {
+      "text": "上海",
+      "reading": "Shànghǎi",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-01-04-reform-and-national-crisis",
+        "cn-modern-03-01-everyday-modernization",
+        "cn-modern-04-01-new-culture-may-fourth",
+        "cn-modern-04-02-cpc-national-revolution"
+      ],
+      "note": "“上”在地名中读shàng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个人",
+      "icon": "👋",
+      "label": "鲁迅把什么写进新文章",
+      "question": "报刊、白话文和青年行动，为什么会让新声音传得更远？"
+    },
+    "coverAudio": {
+      "id": "quest-dbf3098c268c05a6",
+      "text": "今天从一个人出发：鲁迅把什么写进新文章。我们要去上海与北京，看看《新青年》、白话小说与学生传单怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-38dc00d8a5c32b34",
+      "text": "五条线索都找到了，“鲁迅把什么写进新文章”的答案是：更易懂的文字、报刊和公开行动，让更多人能参加关于国家未来的讨论。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个人出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是中国共产党成立与革命新道路，时间是1919—1936年。",
+          "narration": "这是中国共产党成立与革命新道路，时间是1919—1936年。",
+          "displayText": "这是中国共产党成立与革命新道路，时间是1919—1936年。"
+        },
+        "assetId": "new-youth-first-issue-1915-cover",
+        "image": "/content/step-images/new-youth-first-issue-1915-cover.jpg",
+        "imageAlt": "1915年《青年杂志》第一卷第一号封面",
+        "imageCaption": "1915年《青年杂志》第一卷第一号封面；1916年起刊名改为《新青年》。",
+        "imageBoundary": "从公共领域PDF第一页生成的960×1358像素预览图。封面本身写“青年杂志”，不得把后来的《新青年》刊名覆盖到原件；中央肖像和装饰不用于推断刊物全部思想内容。",
+        "audio": {
+          "transition": {
+            "id": "quest-26e845d2917e6a26",
+            "text": "先给一个人找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-0e5a0af6abceeedb",
+            "text": "这是中国共产党成立与革命新道路，时间是1919—1936年。"
+          },
+          "image": {
+            "id": "quest-d4919d776d463495",
+            "text": "点开大图啦。这是1915年《青年杂志》第一卷第一号封面。这张图能帮我们找到：这是中国共产党成立与革命新道路，时间是1919—1936年。"
+          },
+          "question": {
+            "id": "quest-1c5cffbdae9ffb27",
+            "text": "从一个人出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-time-1",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-time-2",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-time-3",
+            "label": "中国近代史 · 中国共产党成立与革命新道路 · 1919—1936年",
+            "correct": true,
+            "audio": {
+              "id": "quest-652023a7098358d2",
+              "text": "中国近代史 · 中国共产党成立与革命新道路 · 1919—1936年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "翻开新青年",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先翻开《新青年》，看看文章为什么改用白话。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "翻开新青年",
+          "screenText": "先翻开《新青年》，看看文章为什么改用白话。",
+          "narration": "先翻开《新青年》，看看文章为什么改用白话。",
+          "displayText": "先翻开《新青年》，看看文章为什么改用白话。"
+        },
+        "assetId": "new-youth-first-issue-1915-cover",
+        "image": "/content/step-images/new-youth-first-issue-1915-cover.jpg",
+        "imageAlt": "1915年《青年杂志》第一卷第一号封面",
+        "imageCaption": "1915年《青年杂志》第一卷第一号封面；1916年起刊名改为《新青年》。",
+        "imageBoundary": "从公共领域PDF第一页生成的960×1358像素预览图。封面本身写“青年杂志”，不得把后来的《新青年》刊名覆盖到原件；中央肖像和装饰不用于推断刊物全部思想内容。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-841698e59051ea7c",
+            "text": "先翻开《新青年》，看看文章为什么改用白话。"
+          },
+          "image": {
+            "id": "quest-d6211e0aff757652",
+            "text": "点开大图啦。这是1915年《青年杂志》第一卷第一号封面。这张图能帮我们找到：先翻开《新青年》，看看文章为什么改用白话。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-beginning-1",
+            "label": "陈独秀、李大钊、鲁迅、学生与编辑，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-254178617e57ea64",
+              "text": "陈独秀、李大钊、鲁迅、学生与编辑，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-beginning-2",
+            "label": "《新青年》、白话小说与学生传单，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-dc78212dbf75cc8e",
+              "text": "《新青年》、白话小说与学生传单，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-beginning-3",
+            "label": "上海与北京、陈独秀、李大钊、鲁，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-a62ceef71181ca76",
+              "text": "上海与北京、陈独秀、李大钊、鲁，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "鲁迅写下新问题",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着读鲁迅小说和学生传单，听见新的问题。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "鲁迅写下新问题",
+          "screenText": "接着读鲁迅小说和学生传单，听见新的问题。",
+          "narration": "接着读鲁迅小说和学生传单，听见新的问题。",
+          "displayText": "接着读鲁迅小说和学生传单，听见新的问题。"
+        },
+        "assetId": "may-fourth-beijing-students-1919-photo",
+        "image": "/content/step-images/may-fourth-beijing-students-1919-photo.jpg",
+        "imageAlt": "1919年5月4日北京学生游行历史照片",
+        "imageCaption": "1919年5月4日，北京学生抗议巴黎和会关于山东问题的决定。",
+        "imageBoundary": "原图仅485×336像素，能辨认队伍、旗帜和标语轮廓，不能辨认个人、逐字抄录全部标语或代表全国所有参加者；不进行人脸修复和想象补画。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-aa0ec0bfb20e3047",
+            "text": "接着读鲁迅小说和学生传单，听见新的问题。"
+          },
+          "image": {
+            "id": "quest-0270805d966def24",
+            "text": "点开大图啦。这是1919年5月4日北京学生游行历史照片。这张图能帮我们找到：接着读鲁迅小说和学生传单，听见新的问题。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-journey-1",
+            "label": "接着读鲁迅小说和学生传单，听见新的问题。",
+            "correct": true,
+            "audio": {
+              "id": "quest-aa0ec0bfb20e3047",
+              "text": "接着读鲁迅小说和学生传单，听见新的问题。"
+            }
+          },
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-journey-2",
+            "label": "陈独秀、李大钊、鲁迅、学生与编，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-e0f4c83a611105f4",
+              "text": "陈独秀、李大钊、鲁迅、学生与编，只认出人物"
+            }
+          },
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-journey-3",
+            "label": "上海与北京、《新青年》、白，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-1b2908836ca449fb",
+              "text": "上海与北京、《新青年》、白，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "讨论走出书页",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后思想讨论走到街头和学校，变成更多行动。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "讨论走出书页",
+          "screenText": "最后思想讨论走到街头和学校，变成更多行动。",
+          "narration": "最后思想讨论走到街头和学校，变成更多行动。",
+          "displayText": "最后思想讨论走到街头和学校，变成更多行动。"
+        },
+        "assetId": "may-fourth-beijing-students-1919-photo",
+        "image": "/content/step-images/may-fourth-beijing-students-1919-photo.jpg",
+        "imageAlt": "1919年5月4日北京学生游行历史照片",
+        "imageCaption": "1919年5月4日，北京学生抗议巴黎和会关于山东问题的决定。",
+        "imageBoundary": "原图仅485×336像素，能辨认队伍、旗帜和标语轮廓，不能辨认个人、逐字抄录全部标语或代表全国所有参加者；不进行人脸修复和想象补画。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-25fd86d6aed6482b",
+            "text": "最后思想讨论走到街头和学校，变成更多行动。"
+          },
+          "image": {
+            "id": "quest-c6044ba5b11093f5",
+            "text": "点开大图啦。这是1919年5月4日北京学生游行历史照片。这张图能帮我们找到：最后思想讨论走到街头和学校，变成更多行动。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-change-1",
+            "label": "《新青年》、白话小说与学，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-d0bdf681fadcc369",
+              "text": "《新青年》、白话小说与学，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-change-2",
+            "label": "读鲁迅小说和学生传单，听见新，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-c865574b41a55881",
+              "text": "读鲁迅小说和学生传单，听见新，还只是行动经过"
+            }
+          },
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-change-3",
+            "label": "最后思想讨论走到街头和学校，变成更多行动。",
+            "correct": true,
+            "audio": {
+              "id": "quest-25fd86d6aed6482b",
+              "text": "最后思想讨论走到街头和学校，变成更多行动。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "更易懂的文字、报刊和公开行动，让更多人能参加关于国家未来的讨论。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "更易懂的文字、报刊和公开行动，让更多人能参加关于国家未来的讨论。",
+          "narration": "更易懂的文字、报刊和公开行动，让更多人能参加关于国家未来的讨论。",
+          "displayText": "更易懂的文字、报刊和公开行动，让更多人能参加关于国家未来的讨论。"
+        },
+        "assetId": "peking-university-red-building-2023-photo",
+        "image": "/content/step-images/peking-university-red-building-2023-photo.jpg",
+        "imageAlt": "2023年北大红楼遗址照片",
+        "imageCaption": "2023年拍摄的北大红楼遗址与全国重点文物保护单位标志。",
+        "imageBoundary": "这是遗址局部的当代照片，不是1918年落成照或1919年五四运动现场；牌匾能证明今天的保护身份，不能单独证明楼内某一历史活动。下载为1920×1440像素等比例缩略图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-790745910ecf5bc2",
+            "text": "更易懂的文字、报刊和公开行动，让更多人能参加关于国家未来的讨论。"
+          },
+          "image": {
+            "id": "quest-270d67d4b7144280",
+            "text": "点开大图啦。这是2023年北大红楼遗址照片。这张图能帮我们找到：更易懂的文字、报刊和公开行动，让更多人能参加关于国家未来的讨论。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-takeaway-1",
+            "label": "翻开《新青年》，看看文章为什么改用白话。、《新青年，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-a59e8e4d0cb65289",
+              "text": "翻开《新青年》，看看文章为什么改用白话。、《新青年，只说了原因"
+            }
+          },
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-takeaway-2",
+            "label": "更易懂的文字、报刊和公开行动，让更多人能参加关于国家未来的讨论。",
+            "correct": true,
+            "audio": {
+              "id": "quest-790745910ecf5bc2",
+              "text": "更易懂的文字、报刊和公开行动，让更多人能参加关于国家未来的讨论。"
+            }
+          },
+          {
+            "id": "cn-modern-04-01-new-culture-may-fourth-takeaway-3",
+            "label": "思想讨论走到街头和学校，变成更多行动。、鲁迅把什么写进，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-f3183164740a42d4",
+              "text": "思想讨论走到街头和学校，变成更多行动。、鲁迅把什么写进，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "思想、行动、结果三栏",
+        "items": [
+          "把“提倡白话文”“学生游行”“中国代表没有签字”放入正确栏目，理解三者的先后与联系。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "照片能告诉我们多少",
+        "items": [
+          "在游行照片中选出“有队伍、旗帜和标语”，排除“知道每个人姓名”和“看见全国所有参与者”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "导火线与深背景",
+        "items": [
+          "把“巴黎和会外交失败”放入导火线，把“民族危机、军阀统治、思想启蒙”放入长期背景。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "辛亥革命以后，共和国有了新的名称和制度，国家独立、政治民主和社会进步却没有自动实现。1915年，陈独秀在上海创办《青年杂志》，次年改名《新青年》。陈独秀、李大钊、胡适、鲁迅等人通过刊物和学校讨论民主、科学、白话文、新文学和社会伦理，北京大学成为新文化运动的重要阵地。1917年俄国十月革命以后，马克思主义在中国得到进一步传播。1919年，中国在巴黎和会上的外交失败成为五四运动的直接导火线；5月4日北京学生集会游行，6月以后工人、商人等更多社会力量参加，运动扩展到许多城市。新文化运动和五四运动不是同一件事：前者首先是一场思想文化运动，后者是一场由学生开始并扩展为社会各界参加的爱国群众运动；两者又通过人的思想觉醒、报刊传播和救国探索紧密连接。"
@@ -313,30 +964,39 @@
       "title": "1915年《青年杂志》第一卷第一号封面",
       "localPath": "reference-assets/china-modern-new-democratic-revolution/new-youth-first-issue-1915.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E9%9D%92%E5%B9%B4_%E7%AC%AC1%E5%8D%B7%E7%AC%AC1%E8%99%9F.pdf",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — periodical published in 1915",
       "clearance": "cleared-open-license",
       "caption": "1915年《青年杂志》第一卷第一号封面；1916年起刊名改为《新青年》。",
-      "boundary": "从公共领域PDF第一页生成的960×1358像素预览图。封面本身写“青年杂志”，不得把后来的《新青年》刊名覆盖到原件；中央肖像和装饰不用于推断刊物全部思想内容。"
+      "boundary": "从公共领域PDF第一页生成的960×1358像素预览图。封面本身写“青年杂志”，不得把后来的《新青年》刊名覆盖到原件；中央肖像和装饰不用于推断刊物全部思想内容。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "may-fourth-beijing-students-1919-photo",
       "title": "1919年5月4日北京学生游行历史照片",
       "localPath": "reference-assets/china-modern-new-democratic-revolution/may-fourth-students-1919.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Beijing_students_protesting_the_Treaty_of_Versailles_(May_4,_1919).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — 1919 anonymous historical photograph",
       "clearance": "cleared-open-license",
       "caption": "1919年5月4日，北京学生抗议巴黎和会关于山东问题的决定。",
-      "boundary": "原图仅485×336像素，能辨认队伍、旗帜和标语轮廓，不能辨认个人、逐字抄录全部标语或代表全国所有参加者；不进行人脸修复和想象补画。"
+      "boundary": "原图仅485×336像素，能辨认队伍、旗帜和标语轮廓，不能辨认个人、逐字抄录全部标语或代表全国所有参加者；不进行人脸修复和想象补画。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "peking-university-red-building-2023-photo",
       "title": "2023年北大红楼遗址照片",
       "localPath": "reference-assets/china-modern-new-democratic-revolution/peking-university-red-building-2023.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Honglou_(Peking_University)_1.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2023年拍摄的北大红楼遗址与全国重点文物保护单位标志。",
-      "boundary": "这是遗址局部的当代照片，不是1918年落成照或1919年五四运动现场；牌匾能证明今天的保护身份，不能单独证明楼内某一历史活动。下载为1920×1440像素等比例缩略图，未作其他修改。"
+      "boundary": "这是遗址局部的当代照片，不是1918年落成照或1919年五四运动现场；牌匾能证明今天的保护身份，不能单独证明楼内某一历史活动。下载为1920×1440像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-modern-04-01-new-culture-may-fourth.jpg",

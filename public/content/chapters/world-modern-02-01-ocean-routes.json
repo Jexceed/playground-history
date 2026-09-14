@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-modern-02-01-ocean-routes",
   "trackId": "world-modern",
   "trackLabel": "世界近代史",
@@ -13,7 +13,565 @@
   "title": "远洋航行怎样把世界连接起来",
   "coreQuestion": "新航路带来了交流，也带来了哪些掠夺与灾难？",
   "throughline": "先确认15世纪前印度洋等已有多港口网络和1405—1433年郑和远航，再以1493年信件、泰诺文物、达伽马日志、皮加费塔地图、Slave Voyages估算、波托西银山与中国外销瓷认识跨洋连接、殖民侵略、强迫劳动、跨大西洋贩奴和明代白银网络。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-modern-02-01-ocean-routes",
+    "childTitle": "一本航海日志听见了谁的声音",
+    "prompt": "远洋路线连接更多地方时，为什么交流、掠夺和灾难会一起出现？",
+    "takeaway": "新航路带来物品与知识，也带来殖民、强迫劳动和疾病，不能只讲冒险。",
+    "object": "航海日志、泰诺石雕与分层路线图",
+    "people": [
+      "水手、向导、原住民、商人与殖民者"
+    ],
+    "place": "印度洋、大西洋与美洲海岸",
+    "culture": "航海记录与原住民器物",
+    "care": "先看原住民文物再读欧洲记录；不把“发现”写成无人土地第一次被看见。",
+    "preferredAssetId": "taino-zemi-1200-1500-met-open-access"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📄",
+      "label": "从一页文字出发",
+      "text": "一本航海日志听见了谁的声音"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "日志里谁有声音",
+      "text": "先打开航海日志，看谁写了字，谁没有留下名字。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "沿海路找不同线索",
+      "text": "接着沿海路遇见水手、向导和原住民器物。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "连接也带来伤害",
+      "text": "最后远洋连接更多地方，也带来控制、疾病和伤害。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "新航路带来物品与知识，也带来殖民、强迫劳动和疾病，不能只讲冒险。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
+    },
+    {
+      "term": "档案",
+      "icon": "🗂️",
+      "plain": "被保存下来的文件、照片、录音等记录。",
+      "example": "一份档案记录一个角度，要和别的证据一起看。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "翻译",
+      "icon": "🗣️",
+      "plain": "把一种语言表达的意思换成另一种语言。",
+      "example": "翻译需要懂语言和知识，也常由团队反复校订。",
+      "priority": 2
+    },
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "大西洋",
+      "reading": "Dàxīyáng",
+      "kind": "place",
+      "chapterIds": [
+        "world-modern-02-01-ocean-routes"
+      ],
+      "note": "大洋名称。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一页文字",
+      "icon": "📄",
+      "label": "一本航海日志听见了谁的声音",
+      "question": "远洋路线连接更多地方时，为什么交流、掠夺和灾难会一起出现？"
+    },
+    "coverAudio": {
+      "id": "quest-debcbbe7871aaec0",
+      "text": "今天从一页文字出发：一本航海日志听见了谁的声音。我们要去印度洋、大西洋与美洲海岸，看看航海日志、泰诺石雕与分层路线图怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-fc887c637b5870ec",
+      "text": "五条线索都找到了，“一本航海日志听见了谁的声音”的答案是：新航路带来物品与知识，也带来殖民、强迫劳动和疾病，不能只讲冒险。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 10,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一页文字出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是新航路与全球联系，时间是15—17世纪。",
+          "narration": "这是新航路与全球联系，时间是15—17世纪。",
+          "displayText": "这是新航路与全球联系，时间是15—17世纪。"
+        },
+        "assetId": "taino-zemi-1200-1500-met-open-access",
+        "image": "/content/step-images/taino-zemi-1200-1500-met-open-access.jpg",
+        "imageAlt": "1200—1500年泰诺zemí石质形象",
+        "imageCaption": "泰诺艺术家约1200—1500年制作的石质zemí形象，与祖先、神圣力量、仪式和政治权力相关；对象编号1979.206.1209。",
+        "imageBoundary": "保留The Met开放原图3000×4000像素，未裁切。对象地理记录为多米尼加共和国（存疑），不可写成瓜纳哈尼出土物；不按外观猜神名、人物姓名、情绪、疾病或死亡。",
+        "audio": {
+          "transition": {
+            "id": "quest-b549517b0dc0130c",
+            "text": "先给一页文字找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-2eebfd3c14127eb9",
+            "text": "这是新航路与全球联系，时间是15—17世纪。"
+          },
+          "image": {
+            "id": "quest-4ace61b5ddac6267",
+            "text": "点开大图啦。这是1200—1500年泰诺zemí石质形象。这张图能帮我们找到：这是新航路与全球联系，时间是15—17世纪。"
+          },
+          "question": {
+            "id": "quest-00e58e93824b8fd3",
+            "text": "从一页文字出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-02-01-ocean-routes-time-1",
+            "label": "世界近代史 · 新航路与全球联系 · 15—17世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-13c91d7e1d4ea679",
+              "text": "世界近代史 · 新航路与全球联系 · 15—17世纪"
+            }
+          },
+          {
+            "id": "world-modern-02-01-ocean-routes-time-2",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "world-modern-02-01-ocean-routes-time-3",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "日志里谁有声音",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先打开航海日志，看谁写了字，谁没有留下名字。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "日志里谁有声音",
+          "screenText": "先打开航海日志，看谁写了字，谁没有留下名字。",
+          "narration": "先打开航海日志，看谁写了字，谁没有留下名字。",
+          "displayText": "先打开航海日志，看谁写了字，谁没有留下名字。"
+        },
+        "assetId": "vasco-da-gama-journal-folio-1497-1499-public-domain",
+        "image": "/content/step-images/vasco-da-gama-journal-folio-1497-1499-public-domain.jpg",
+        "imageAlt": "1497—1499年达伽马首次印度航行日志首页",
+        "imageCaption": "1497—1499年达伽马首次印度航行日志首页，现由葡萄牙波尔图市立公共图书馆保存。",
+        "imageBoundary": "保留Commons原图2335×3184像素，未裁切。手稿作者身份通常作匿名处理，不能直接署为达伽马亲笔；它是航行一方记录，不等于东非、印度或船上全部人的共同叙述。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-056402b154592cc1",
+            "text": "先打开航海日志，看谁写了字，谁没有留下名字。"
+          },
+          "image": {
+            "id": "quest-c4d4e3fcffb223b2",
+            "text": "点开大图啦。这是1497—1499年达伽马首次印度航行日志首页。这张图能帮我们找到：先打开航海日志，看谁写了字，谁没有留下名字。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-02-01-ocean-routes-beginning-1",
+            "label": "印度洋、大西洋与美洲海岸、水手，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-4a1cd1cccb483782",
+              "text": "印度洋、大西洋与美洲海岸、水手，只是故事地点"
+            }
+          },
+          {
+            "id": "world-modern-02-01-ocean-routes-beginning-2",
+            "label": "水手、向导、原住民、商人与殖民者，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-0ee07169e17afae9",
+              "text": "水手、向导、原住民、商人与殖民者，只是故事人物"
+            }
+          },
+          {
+            "id": "world-modern-02-01-ocean-routes-beginning-3",
+            "label": "航海日志、泰诺石雕与分层路线图，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-783e8213728d338e",
+              "text": "航海日志、泰诺石雕与分层路线图，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "沿海路找不同线索",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着沿海路遇见水手、向导和原住民器物。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "沿海路找不同线索",
+          "screenText": "接着沿海路遇见水手、向导和原住民器物。",
+          "narration": "接着沿海路遇见水手、向导和原住民器物。",
+          "displayText": "接着沿海路遇见水手、向导和原住民器物。"
+        },
+        "assetId": "taino-zemi-1200-1500-met-open-access",
+        "image": "/content/step-images/taino-zemi-1200-1500-met-open-access.jpg",
+        "imageAlt": "1200—1500年泰诺zemí石质形象",
+        "imageCaption": "泰诺艺术家约1200—1500年制作的石质zemí形象，与祖先、神圣力量、仪式和政治权力相关；对象编号1979.206.1209。",
+        "imageBoundary": "保留The Met开放原图3000×4000像素，未裁切。对象地理记录为多米尼加共和国（存疑），不可写成瓜纳哈尼出土物；不按外观猜神名、人物姓名、情绪、疾病或死亡。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-1b4ada1f882c7f8a",
+            "text": "接着沿海路遇见水手、向导和原住民器物。"
+          },
+          "image": {
+            "id": "quest-5abab202a8ec6bf0",
+            "text": "点开大图啦。这是1200—1500年泰诺zemí石质形象。这张图能帮我们找到：接着沿海路遇见水手、向导和原住民器物。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-02-01-ocean-routes-journey-1",
+            "label": "印度洋、大西洋与美洲海岸，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-d6a1b094430d84ca",
+              "text": "印度洋、大西洋与美洲海岸，只说了地点"
+            }
+          },
+          {
+            "id": "world-modern-02-01-ocean-routes-journey-2",
+            "label": "接着沿海路遇见水手、向导和原住民器物。",
+            "correct": true,
+            "audio": {
+              "id": "quest-1b4ada1f882c7f8a",
+              "text": "接着沿海路遇见水手、向导和原住民器物。"
+            }
+          },
+          {
+            "id": "world-modern-02-01-ocean-routes-journey-3",
+            "label": "水手、向导、原住民、商人与殖，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-9bdf5448f1962873",
+              "text": "水手、向导、原住民、商人与殖，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "连接也带来伤害",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后远洋连接更多地方，也带来控制、疾病和伤害。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "连接也带来伤害",
+          "screenText": "最后远洋连接更多地方，也带来控制、疾病和伤害。",
+          "narration": "最后远洋连接更多地方，也带来控制、疾病和伤害。",
+          "displayText": "最后远洋连接更多地方，也带来控制、疾病和伤害。"
+        },
+        "assetId": "taino-zemi-1200-1500-met-open-access",
+        "image": "/content/step-images/taino-zemi-1200-1500-met-open-access.jpg",
+        "imageAlt": "1200—1500年泰诺zemí石质形象",
+        "imageCaption": "泰诺艺术家约1200—1500年制作的石质zemí形象，与祖先、神圣力量、仪式和政治权力相关；对象编号1979.206.1209。",
+        "imageBoundary": "保留The Met开放原图3000×4000像素，未裁切。对象地理记录为多米尼加共和国（存疑），不可写成瓜纳哈尼出土物；不按外观猜神名、人物姓名、情绪、疾病或死亡。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-e619043d01367973",
+            "text": "最后远洋连接更多地方，也带来控制、疾病和伤害。"
+          },
+          "image": {
+            "id": "quest-29a436c5fc67266e",
+            "text": "点开大图啦。这是1200—1500年泰诺zemí石质形象。这张图能帮我们找到：最后远洋连接更多地方，也带来控制、疾病和伤害。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-02-01-ocean-routes-change-1",
+            "label": "最后远洋连接更多地方，也带来控制、疾病和伤害。",
+            "correct": true,
+            "audio": {
+              "id": "quest-e619043d01367973",
+              "text": "最后远洋连接更多地方，也带来控制、疾病和伤害。"
+            }
+          },
+          {
+            "id": "world-modern-02-01-ocean-routes-change-2",
+            "label": "航海日志、泰诺石雕与分层路线，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-bc7818d727a20d18",
+              "text": "航海日志、泰诺石雕与分层路线，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-modern-02-01-ocean-routes-change-3",
+            "label": "沿海路遇见水手、向导和原住民器物，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-2da7b1b2c8a59469",
+              "text": "沿海路遇见水手、向导和原住民器物，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "新航路带来物品与知识，也带来殖民、强迫劳动和疾病，不能只讲冒险。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "新航路带来物品与知识，也带来殖民、强迫劳动和疾病，不能只讲冒险。",
+          "narration": "新航路带来物品与知识，也带来殖民、强迫劳动和疾病，不能只讲冒险。",
+          "displayText": "新航路带来物品与知识，也带来殖民、强迫劳动和疾病，不能只讲冒险。"
+        },
+        "assetId": "taino-zemi-1200-1500-met-open-access",
+        "image": "/content/step-images/taino-zemi-1200-1500-met-open-access.jpg",
+        "imageAlt": "1200—1500年泰诺zemí石质形象",
+        "imageCaption": "泰诺艺术家约1200—1500年制作的石质zemí形象，与祖先、神圣力量、仪式和政治权力相关；对象编号1979.206.1209。",
+        "imageBoundary": "保留The Met开放原图3000×4000像素，未裁切。对象地理记录为多米尼加共和国（存疑），不可写成瓜纳哈尼出土物；不按外观猜神名、人物姓名、情绪、疾病或死亡。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-b0caf108e4e3d210",
+            "text": "新航路带来物品与知识，也带来殖民、强迫劳动和疾病，不能只讲冒险。"
+          },
+          "image": {
+            "id": "quest-def73d5136a8d282",
+            "text": "点开大图啦。这是1200—1500年泰诺zemí石质形象。这张图能帮我们找到：新航路带来物品与知识，也带来殖民、强迫劳动和疾病，不能只讲冒险。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-02-01-ocean-routes-takeaway-1",
+            "label": "远洋连接更多地方，也带来控制、疾病和伤害。、一本航海日，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-2b887c4a49bc38ef",
+              "text": "远洋连接更多地方，也带来控制、疾病和伤害。、一本航海日，只说了结果"
+            }
+          },
+          {
+            "id": "world-modern-02-01-ocean-routes-takeaway-2",
+            "label": "打开航海日志，看谁写了字，谁没有留下名字。、航海日，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-8b3666c919fc7da3",
+              "text": "打开航海日志，看谁写了字，谁没有留下名字。、航海日，只说了原因"
+            }
+          },
+          {
+            "id": "world-modern-02-01-ocean-routes-takeaway-3",
+            "label": "新航路带来物品与知识，也带来殖民、强迫劳动和疾病，不能只讲冒险。",
+            "correct": true,
+            "audio": {
+              "id": "quest-b0caf108e4e3d210",
+              "text": "新航路带来物品与知识，也带来殖民、强迫劳动和疾病，不能只讲冒险。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把路线放回已有网络",
+        "items": [
+          "先放“15世纪前印度洋多港口网络”和“1405—1433年郑和航行”，再放1488、1492、1497—1499、1519—1522与1565年后节点。反馈强调“先有网络，后来跨洋连接更紧”；不做谁先到达、谁赢得海洋的竞速。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "两件证据，两种视角",
+        "items": [
+          "把“泰诺zemí”“哥伦布1493年信件”“达伽马航海日志”“皮加费塔海峡图”连到各自能说明的内容。zemí支持接触前精神与艺术生活，信件支持占有宣称，日志支持航行一方记录，海峡图支持当时制图表达；它们都不能代表所有人的声音或现代精确地图。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "沿着银与瓷器找劳动",
+        "items": [
+          "把波托西、阿卡普尔科、马尼拉、中国沿海和欧洲放到来源驱动的多线路图，再点击采矿、运输、航海、制瓷与销售。完成条件是同时找到“商品流动”和“强制劳动/殖民权力”，不设置利润、领地、货量或人口得分。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 10,
   "conclusion": [
     "15世纪末以前，欧亚非之间早已有陆路和海路，印度洋沿岸也有港口、商人、船员和航海知识。1405—1433年郑和船队的远航就在这张旧网络中发生。15世纪末以后，欧洲王室支持的船队开辟或固定了绕过非洲、横渡大西洋和后来横渡太平洋的新路线，使原有区域网络被更紧密地接进跨大洋网络。连接带来了地图、作物、商品和知识的流动，也带来侵占土地、殖民统治、强迫劳动、疾病传播和跨大西洋贩卖被奴役者。麦哲伦发起的船队完成了第一次环球航行，但麦哲伦本人1521年死于麦克坦战斗，最终由埃尔卡诺与幸存船员完成。16世纪后，美洲白银经大西洋和马尼拉等路线流动，中国的白银需求、丝绸、瓷器与海商也参与塑造了全球贸易。全球联系不是各地一起获利的欢乐旅行，而是交流、竞争、暴力、抵抗和不平等同时发生的历史过程。"
@@ -769,70 +1327,91 @@
       "title": "郑和第七次航海现代中文示意图",
       "localPath": "reference-assets/ming-qing/zheng-he-seventh-voyage-modern-map.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Zheng-He-7th-expedition-map-zh-hans.svg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "现代作者绘制的郑和第七次航海（1431—1433年）中文示意图。",
-      "boundary": "这只是第七次航海的现代研究示意，不是七次路线合并图或明代原图。实线为主航路，虚线、点线所示支线具有不同程度的不确定性，儿童界面必须保留图例说明。由SVG等比例导出为1920×1461像素PNG。"
+      "boundary": "这只是第七次航海的现代研究示意，不是七次路线合并图或明代原图。实线为主航路，虚线、点线所示支线具有不同程度的不确定性，儿童界面必须保留图例说明。由SVG等比例导出为1920×1461像素PNG。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "columbus-letter-first-voyage-1493-public-domain",
       "title": "1493年哥伦布首次航行信件刊本页",
       "localPath": "reference-assets/world-modern-ocean-routes/columbus-letter-1493.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Columbus%27s_letter_on_the_first_voyage.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-public-domain",
       "caption": "1493年刊行的哥伦布首次航行信件页，由欧洲航行一方为王室和欧洲读者形成并传播。",
-      "boundary": "保留Commons原图555×760像素，未裁切。只用于观察早期印刷页和哥伦布一方的叙述，包括占有宣称；不能据此表示泰诺人同意、还原泰诺声音或证明信中每个判断准确。"
+      "boundary": "保留Commons原图555×760像素，未裁切。只用于观察早期印刷页和哥伦布一方的叙述，包括占有宣称；不能据此表示泰诺人同意、还原泰诺声音或证明信中每个判断准确。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "taino-zemi-1200-1500-met-open-access",
       "title": "1200—1500年泰诺zemí石质形象",
       "localPath": "reference-assets/world-modern-ocean-routes/taino-zemi-1200-1500.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/313384",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "泰诺艺术家约1200—1500年制作的石质zemí形象，与祖先、神圣力量、仪式和政治权力相关；对象编号1979.206.1209。",
-      "boundary": "保留The Met开放原图3000×4000像素，未裁切。对象地理记录为多米尼加共和国（存疑），不可写成瓜纳哈尼出土物；不按外观猜神名、人物姓名、情绪、疾病或死亡。"
+      "boundary": "保留The Met开放原图3000×4000像素，未裁切。对象地理记录为多米尼加共和国（存疑），不可写成瓜纳哈尼出土物；不按外观猜神名、人物姓名、情绪、疾病或死亡。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "vasco-da-gama-journal-folio-1497-1499-public-domain",
       "title": "1497—1499年达伽马首次印度航行日志首页",
       "localPath": "reference-assets/world-modern-ocean-routes/vasco-da-gama-journal-1497-1499.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Roteiro_da_primeira_viagem_de_Vasco_da_Gama.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-public-domain",
       "caption": "1497—1499年达伽马首次印度航行日志首页，现由葡萄牙波尔图市立公共图书馆保存。",
-      "boundary": "保留Commons原图2335×3184像素，未裁切。手稿作者身份通常作匿名处理，不能直接署为达伽马亲笔；它是航行一方记录，不等于东非、印度或船上全部人的共同叙述。"
+      "boundary": "保留Commons原图2335×3184像素，未裁切。手稿作者身份通常作匿名处理，不能直接署为达伽马亲笔；它是航行一方记录，不等于东非、印度或船上全部人的共同叙述。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "pigafetta-magellan-strait-map-1800-edition-public-domain",
       "title": "皮加费塔麦哲伦海峡图的1800年刊本复制页",
       "localPath": "reference-assets/world-modern-ocean-routes/pigafetta-magellan-strait-map-1520.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:The_First_Map_of_the_Strait_of_Magellan,_1520_WDL3972.png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-public-domain",
       "caption": "随船者皮加费塔所绘麦哲伦海峡图在1800年意大利文版本中的复制页，表现1520年航行所知的海峡。",
-      "boundary": "保留Commons原图1024×1429像素，未裁切，右上可见馆藏印章。必须同时显示‘源于1520年航行的地图、1800年刊本复制页’；不冒充1520年原纸、现代卫星图或精确海岸测量。"
+      "boundary": "保留Commons原图1024×1429像素，未裁切，右上可见馆藏印章。必须同时显示‘源于1520年航行的地图、1800年刊本复制页’；不冒充1520年原纸、现代卫星图或精确海岸测量。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "cerro-rico-potosi-current-2018-cc-by-sa-4",
       "title": "2018年波托西城中所见塞罗里科银山",
       "localPath": "reference-assets/world-modern-ocean-routes/cerro-rico-potosi-2018.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Vista_del_Cerro_Rico_de_Potos%C3%AD,_en_Potos%C3%AD_-_Bolivia_(2018).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2018年从今天的玻利维亚波托西城街道望向塞罗里科银山，山体仍可见长期采矿留下的形态。",
-      "boundary": "保留Commons原图3120×4160像素，未裁切；照片中有现代电线、车辆、交通标志、居民和建筑。它只能显示今天的城市与山体，不冒充16世纪矿山、殖民劳动者住所或采银现场。"
+      "boundary": "保留Commons原图3120×4160像素，未裁切；照片中有现代电线、车辆、交通标志、居民和建筑。它只能显示今天的城市与山体，不冒充16世纪矿山、殖民劳动者住所或采银现场。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "ming-augustinian-export-jar-1575-1600-met-open-access",
       "title": "约1575—1600年奥古斯丁会徽记中国外销青花瓷罐",
       "localPath": "reference-assets/world-modern-ocean-routes/ming-export-jar-1575-1600.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/680974",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "约1575—1600年中国制作的外销青花瓷罐，绘有奥古斯丁会双头鹰、心与箭徽记；对象编号2016.166.1。",
-      "boundary": "保留The Met开放原图3144×4000像素，未裁切。修会在墨西哥、菲律宾和澳门均有活动，馆方只说可能为其中一处传教者制作；不得据图确定唯一目的地、运输路线、具体工坊或订购人。"
+      "boundary": "保留The Met开放原图3144×4000像素，未裁切。修会在墨西哥、菲律宾和澳门均有活动，馆方只说可能为其中一处传教者制作；不得据图确定唯一目的地、运输路线、具体工坊或订购人。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-modern-02-01-ocean-routes.jpg",

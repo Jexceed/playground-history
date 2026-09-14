@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.8.0",
+  "contentVersion": "0.9.0",
   "id": "cn-modern-01-02-deeper-crisis",
   "trackId": "china-modern",
   "trackLabel": "中国近代史",
@@ -10,10 +10,631 @@
     "years": "1840—1911年"
   },
   "order": 2,
-  "title": "战火怎样一步步深入中国",
-  "coreQuestion": "第二次鸦片战争和太平天国运动反映了哪些内外矛盾？",
-  "throughline": "用地图、条约文本和遗址资料观察列强侵略加深、清政府统治危机和大规模社会动荡。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "title": "圆明园的石头柱子为什么留下来",
+  "coreQuestion": "遗址、旧照片和档案怎样帮助我们记住圆明园遭到破坏的历史？",
+  "throughline": "以圆明园遗址和1905年旧照片为锚，确认1860年英法联军侵略与破坏责任，并用档案补足照片看不到的事件。",
+  "childEntry": {
+    "id": "cn-modern-01-02-deeper-crisis",
+    "childTitle": "圆明园的石头柱子为什么留下来",
+    "prompt": "遗址、旧照片和档案，怎样帮助我们记住圆明园遭到破坏的历史？",
+    "takeaway": "圆明园遗址记录英法联军侵略造成的破坏；它提醒我们用证据记住伤害，而不是把废墟当寻宝场。",
+    "object": "圆明园遗址、旧照片与档案",
+    "people": [
+      "抵抗者、普通居民与各方政治力量"
+    ],
+    "place": "广州、天津、北京与长江流域",
+    "culture": "晚清档案",
+    "care": "明确英法联军侵略与破坏责任；不把圆明园毁坏做成寻宝，不展示遗体和处决，也不把废墟照片说成破坏发生时的现场照。",
+    "preferredAssetId": "yuanmingyuan-ruins-1905-photo"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📍",
+      "label": "从一个地方出发",
+      "text": "圆明园的石头柱子为什么留下来"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "先看留下的石柱",
+      "text": "先看今天圆明园留下的石柱和旧照片。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "放回当年的位置",
+      "text": "接着把遗址放回当年的时间和地点。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "危机影响普通人",
+      "text": "最后它提醒我们，危机加深，普通人也受影响。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "圆明园遗址记录英法联军侵略造成的破坏；它提醒我们用证据记住伤害，而不是把废墟当寻宝场。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "档案",
+      "icon": "🗂️",
+      "plain": "被保存下来的文件、照片、录音等记录。",
+      "example": "一份档案记录一个角度，要和别的证据一起看。",
+      "priority": 1
+    },
+    {
+      "term": "侵略",
+      "icon": "⛔",
+      "plain": "用武力进入别国，夺取土地或控制权。",
+      "example": "抵抗侵略和发动侵略的责任不能混在一起。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "责任",
+      "icon": "🤲",
+      "plain": "答应或应当承担、需要认真完成的事情。",
+      "example": "拥有公共权利，也常要承担相应责任。",
+      "priority": 3
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "条约",
+      "icon": "📄",
+      "plain": "国家或政治力量之间写下并同意遵守的约定。",
+      "example": "还要问条约是否平等、由谁签、后来怎样执行。",
+      "priority": 1
+    },
+    {
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "危机",
+      "icon": "⚠️",
+      "plain": "问题迅速变严重，原来的办法难以应付。",
+      "example": "危机通常有多种原因，也会影响不同的人。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "政权",
+      "icon": "🏛️",
+      "plain": "谁在用什么机构和规则管理一个地方。",
+      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "运动",
+      "icon": "📣",
+      "plain": "许多人围绕一个目标持续参加的行动。",
+      "example": "历史运动里的人、目标和做法可能并不完全相同。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "广州",
+      "reading": "Guǎngzhōu",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-08-05-late-crisis",
+        "cn-modern-01-01-opium-war",
+        "cn-modern-01-02-deeper-crisis",
+        "cn-modern-04-02-cpc-national-revolution",
+        "cross-01-hero-biography"
+      ],
+      "note": "广东省会地名。"
+    },
+    {
+      "text": "天津",
+      "reading": "Tiānjīn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-01-02-deeper-crisis",
+        "cn-modern-03-01-everyday-modernization"
+      ],
+      "note": "地名连读。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个地方",
+      "icon": "📍",
+      "label": "圆明园的石头柱子为什么留下来",
+      "question": "遗址、旧照片和档案，怎样帮助我们记住圆明园遭到破坏的历史？"
+    },
+    "coverAudio": {
+      "id": "quest-9d61936b3a803df9",
+      "text": "今天从一个地方出发：圆明园的石头柱子为什么留下来。我们要去广州、天津、北京与长江流域，看看圆明园遗址、旧照片与档案怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-8f7a83727e5d8722",
+      "text": "五条线索都找到了，“圆明园的石头柱子为什么留下来”的答案是：圆明园遗址记录英法联军侵略造成的破坏；它提醒我们用证据记住伤害，而不是把废墟当寻宝场。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个地方出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是晚清的危机与救亡，时间是1840—1911年。",
+          "narration": "这是晚清的危机与救亡，时间是1840—1911年。",
+          "displayText": "这是晚清的危机与救亡，时间是1840—1911年。"
+        },
+        "assetId": "yuanmingyuan-ruins-1905-photo",
+        "image": "/content/step-images/yuanmingyuan-ruins-1905-photo.jpg",
+        "imageAlt": "1905年出版的圆明园遗址照片",
+        "imageCaption": "1905年出版的圆明园遗址历史照片。",
+        "imageBoundary": "照片拍摄、出版于1860年劫掠焚毁之后数十年，只能说明后来保存下来的遗址状态；不是1860年破坏现场，也不是圆明园被破坏前的完整原貌。下载为1920×1386像素等比例图。",
+        "audio": {
+          "transition": {
+            "id": "quest-cafb042b318bc60f",
+            "text": "先给一个地方找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-59e8bd4e5ea15d2f",
+            "text": "这是晚清的危机与救亡，时间是1840—1911年。"
+          },
+          "image": {
+            "id": "quest-daefdd891d8d8dbb",
+            "text": "点开大图啦。这是1905年出版的圆明园遗址照片。这张图能帮我们找到：这是晚清的危机与救亡，时间是1840—1911年。"
+          },
+          "question": {
+            "id": "quest-6b36b10ba4b7def9",
+            "text": "从一个地方出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-01-02-deeper-crisis-time-1",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "cn-modern-01-02-deeper-crisis-time-2",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "cn-modern-01-02-deeper-crisis-time-3",
+            "label": "中国近代史 · 晚清的危机与救亡 · 1840—1911年",
+            "correct": true,
+            "audio": {
+              "id": "quest-a326ed6569d4da14",
+              "text": "中国近代史 · 晚清的危机与救亡 · 1840—1911年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "先看留下的石柱",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看今天圆明园留下的石柱和旧照片。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "先看留下的石柱",
+          "screenText": "先看今天圆明园留下的石柱和旧照片。",
+          "narration": "先看今天圆明园留下的石柱和旧照片。",
+          "displayText": "先看今天圆明园留下的石柱和旧照片。"
+        },
+        "assetId": "yuanmingyuan-ruins-1905-photo",
+        "image": "/content/step-images/yuanmingyuan-ruins-1905-photo.jpg",
+        "imageAlt": "1905年出版的圆明园遗址照片",
+        "imageCaption": "1905年出版的圆明园遗址历史照片。",
+        "imageBoundary": "照片拍摄、出版于1860年劫掠焚毁之后数十年，只能说明后来保存下来的遗址状态；不是1860年破坏现场，也不是圆明园被破坏前的完整原貌。下载为1920×1386像素等比例图。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-53f031ab6e73f321",
+            "text": "先看今天圆明园留下的石柱和旧照片。"
+          },
+          "image": {
+            "id": "quest-123debc8a09ab104",
+            "text": "点开大图啦。这是1905年出版的圆明园遗址照片。这张图能帮我们找到：先看今天圆明园留下的石柱和旧照片。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-01-02-deeper-crisis-beginning-1",
+            "label": "抵抗者、普通居民与各方政治力，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-52162998e1d22587",
+              "text": "抵抗者、普通居民与各方政治力，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-modern-01-02-deeper-crisis-beginning-2",
+            "label": "圆明园遗址、旧照片与档案，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-1d78f050884b53cb",
+              "text": "圆明园遗址、旧照片与档案，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-modern-01-02-deeper-crisis-beginning-3",
+            "label": "广州、天津、北京与长江流，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-632265531fdb12fa",
+              "text": "广州、天津、北京与长江流，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "放回当年的位置",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着把遗址放回当年的时间和地点。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "放回当年的位置",
+          "screenText": "接着把遗址放回当年的时间和地点。",
+          "narration": "接着把遗址放回当年的时间和地点。",
+          "displayText": "接着把遗址放回当年的时间和地点。"
+        },
+        "assetId": "yuanmingyuan-ruins-1905-photo",
+        "image": "/content/step-images/yuanmingyuan-ruins-1905-photo.jpg",
+        "imageAlt": "1905年出版的圆明园遗址照片",
+        "imageCaption": "1905年出版的圆明园遗址历史照片。",
+        "imageBoundary": "照片拍摄、出版于1860年劫掠焚毁之后数十年，只能说明后来保存下来的遗址状态；不是1860年破坏现场，也不是圆明园被破坏前的完整原貌。下载为1920×1386像素等比例图。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-03a3d34c27a2924e",
+            "text": "接着把遗址放回当年的时间和地点。"
+          },
+          "image": {
+            "id": "quest-5d873ffcd0e15f80",
+            "text": "点开大图啦。这是1905年出版的圆明园遗址照片。这张图能帮我们找到：接着把遗址放回当年的时间和地点。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-01-02-deeper-crisis-journey-1",
+            "label": "接着把遗址放回当年的时间和地点。",
+            "correct": true,
+            "audio": {
+              "id": "quest-03a3d34c27a2924e",
+              "text": "接着把遗址放回当年的时间和地点。"
+            }
+          },
+          {
+            "id": "cn-modern-01-02-deeper-crisis-journey-2",
+            "label": "抵抗者、普通居民与各方，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-dce34b4656833009",
+              "text": "抵抗者、普通居民与各方，只认出人物"
+            }
+          },
+          {
+            "id": "cn-modern-01-02-deeper-crisis-journey-3",
+            "label": "广州、天津、北京与，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-e16fdde04e1d0caa",
+              "text": "广州、天津、北京与，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "危机影响普通人",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后它提醒我们，危机加深，普通人也受影响。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "危机影响普通人",
+          "screenText": "最后它提醒我们，危机加深，普通人也受影响。",
+          "narration": "最后它提醒我们，危机加深，普通人也受影响。",
+          "displayText": "最后它提醒我们，危机加深，普通人也受影响。"
+        },
+        "assetId": "yuanmingyuan-ruins-1905-photo",
+        "image": "/content/step-images/yuanmingyuan-ruins-1905-photo.jpg",
+        "imageAlt": "1905年出版的圆明园遗址照片",
+        "imageCaption": "1905年出版的圆明园遗址历史照片。",
+        "imageBoundary": "照片拍摄、出版于1860年劫掠焚毁之后数十年，只能说明后来保存下来的遗址状态；不是1860年破坏现场，也不是圆明园被破坏前的完整原貌。下载为1920×1386像素等比例图。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-dfddc45a852ad721",
+            "text": "最后它提醒我们，危机加深，普通人也受影响。"
+          },
+          "image": {
+            "id": "quest-38f0397112536ceb",
+            "text": "点开大图啦。这是1905年出版的圆明园遗址照片。这张图能帮我们找到：最后它提醒我们，危机加深，普通人也受影响。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-01-02-deeper-crisis-change-1",
+            "label": "圆明园遗址、旧照片与档案，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-7dc4cf44340416b5",
+              "text": "圆明园遗址、旧照片与档案，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-modern-01-02-deeper-crisis-change-2",
+            "label": "把遗址放回当年的时间和地点，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-dad3a777f1399b62",
+              "text": "把遗址放回当年的时间和地点，还只是行动经过"
+            }
+          },
+          {
+            "id": "cn-modern-01-02-deeper-crisis-change-3",
+            "label": "最后它提醒我们，危机加深，普通人也受影响。",
+            "correct": true,
+            "audio": {
+              "id": "quest-dfddc45a852ad721",
+              "text": "最后它提醒我们，危机加深，普通人也受影响。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "圆明园遗址记录英法联军侵略造成的破坏；它提醒我们用证据记住伤害，而不是把废墟当寻宝场。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "圆明园遗址记录英法联军侵略造成的破坏；它提醒我们用证据记住伤害，而不是把废墟当寻宝场。",
+          "narration": "圆明园遗址记录英法联军侵略造成的破坏；它提醒我们用证据记住伤害，而不是把废墟当寻宝场。",
+          "displayText": "圆明园遗址记录英法联军侵略造成的破坏；它提醒我们用证据记住伤害，而不是把废墟当寻宝场。"
+        },
+        "assetId": "yuanmingyuan-ruins-1905-photo",
+        "image": "/content/step-images/yuanmingyuan-ruins-1905-photo.jpg",
+        "imageAlt": "1905年出版的圆明园遗址照片",
+        "imageCaption": "1905年出版的圆明园遗址历史照片。",
+        "imageBoundary": "照片拍摄、出版于1860年劫掠焚毁之后数十年，只能说明后来保存下来的遗址状态；不是1860年破坏现场，也不是圆明园被破坏前的完整原貌。下载为1920×1386像素等比例图。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-9a4d16d7fa657ce2",
+            "text": "圆明园遗址记录英法联军侵略造成的破坏；它提醒我们用证据记住伤害，而不是把废墟当寻宝场。"
+          },
+          "image": {
+            "id": "quest-7d7ecff8fccec08d",
+            "text": "点开大图啦。这是1905年出版的圆明园遗址照片。这张图能帮我们找到：圆明园遗址记录英法联军侵略造成的破坏；它提醒我们用证据记住伤害，而不是把废墟当寻宝场。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-01-02-deeper-crisis-takeaway-1",
+            "label": "看今天圆明园留下的石柱和旧照片。、圆明园遗址、旧照片与档案、广州、天津，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-377ebf51a60ef443",
+              "text": "看今天圆明园留下的石柱和旧照片。、圆明园遗址、旧照片与档案、广州、天津，只说了原因"
+            }
+          },
+          {
+            "id": "cn-modern-01-02-deeper-crisis-takeaway-2",
+            "label": "圆明园遗址记录英法联军侵略造成的破坏；它提醒我们用证据记住伤害，而不是把废墟当寻宝场。",
+            "correct": true,
+            "audio": {
+              "id": "quest-9a4d16d7fa657ce2",
+              "text": "圆明园遗址记录英法联军侵略造成的破坏；它提醒我们用证据记住伤害，而不是把废墟当寻宝场。"
+            }
+          },
+          {
+            "id": "cn-modern-01-02-deeper-crisis-takeaway-3",
+            "label": "它提醒我们，危机加深，普通人也受影响。、圆明园的石头柱子为什么留下来、晚清档，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-62f80464ab3da72d",
+              "text": "它提醒我们，危机加深，普通人也受影响。、圆明园的石头柱子为什么留下来、晚清档，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "两条时间线",
+        "items": [
+          "把“第二次鸦片战争”和“太平天国运动”放在两条平行线上，观察时间重叠但事件不同。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "照片时间检查",
+        "items": [
+          "选择“1905年出版的破坏后照片”，拒绝“1860年纵火现场照”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "主张与结果",
+        "items": [
+          "把《天朝田亩制度》放到“制度设想”，不能直接放到“全国已经实现”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "第一次鸦片战争以后，列强要求扩大在华权益，英法于1856—1860年发动第二次鸦片战争，侵略力量从沿海进一步深入，清政府被迫签订更多不平等条约。1860年英法联军抢劫并焚毁圆明园，是战争破坏文化遗产的突出证据。与此同时，赋税、土地、灾荒和清朝统治危机等矛盾加剧，1851—1864年太平天国运动席卷许多地区。运动提出自己的制度主张并沉重打击清朝统治，也因领导集团内斗、政策难以落实、战争破坏和中外势力镇压等多种原因失败。内外两条危机线相互影响，但不是同一场战争。"
@@ -109,8 +730,8 @@
     },
     {
       "number": 2,
-      "title": "第二次鸦片战争让侵略进一步深入",
-      "screenText": "1856—1860年，英法发动侵略战争，清政府丧失更多主权。",
+      "title": "第一拍：战火为什么来到北京",
+      "screenText": "1856—1860年，英法发动侵略战争；1860年战火进入北京。",
       "voices": [
         {
           "number": 3,
@@ -131,8 +752,8 @@
     },
     {
       "number": 3,
-      "title": "文化遗产也会成为战争受害者",
-      "screenText": "1860年，英法联军抢劫并焚毁圆明园。",
+      "title": "第二拍：石头柱子留下什么线索",
+      "screenText": "1860年英法联军抢劫并焚毁圆明园；遗址记录破坏，不是寻宝场。",
       "voices": [
         {
           "number": 4,
@@ -153,7 +774,7 @@
     },
     {
       "number": 4,
-      "title": "太平天国为什么兴起",
+      "title": "同一时期，国内还有另一条危机线",
       "screenText": "1851年金田起义；土地、赋税和统治危机推动大规模反抗。",
       "voices": [
         {
@@ -175,20 +796,20 @@
     },
     {
       "number": 5,
-      "title": "文件里的理想不等于真实结果",
-      "screenText": "太平天国提出土地等制度主张，但许多没有充分实现。",
+      "title": "第三拍：旧照片还要和档案对读",
+      "screenText": "遗址看破坏后的空间；旧照片看后来状态；档案查事件和责任。",
       "voices": [
         {
           "number": 6,
           "label": "语音 S06：",
-          "text": "《天朝田亩制度》表达了平均土地等设想。历史文件能告诉我们“有人想做什么”，却不能自动证明“大家真的都得到了什么”。领导集团内斗、政策困难和长期战争，让理想与现实距离很大。",
+          "text": "一张1905年出版的照片只能看见破坏数十年后的状态，不是1860年纵火现场。把遗址、照片和档案放在一起，我们才能确认时间、事件与英法联军的侵略责任，也知道圆明园原来的全部样子不能只靠废墟还原。",
           "segments": [
             {
               "id": "cn-modern-01-02-deeper-crisis-s05-v06-01",
               "order": 1,
               "tier": "core",
-              "text": "《天朝田亩制度》表达了平均土地等设想。历史文件能告诉我们“有人想做什么”，却不能自动证明“大家真的都得到了什么”。领导集团内斗、政策困难和长期战争，让理想与现实距离很大。",
-              "hanCharacters": 73
+              "text": "一张1905年出版的照片只能看见破坏数十年后的状态，不是1860年纵火现场。把遗址、照片和档案放在一起，我们才能确认时间、事件与英法联军的侵略责任，也知道圆明园原来的全部样子不能只靠废墟还原。",
+              "hanCharacters": 81
             }
           ]
         }
@@ -197,20 +818,20 @@
     },
     {
       "number": 6,
-      "title": "地图显示长期流动，不是一日疆界",
-      "screenText": "深浅颜色表示不同阶段到达或控制过的区域。",
+      "title": "拼出石头柱子留下的回答",
+      "screenText": "用证据记住文化损失和侵略责任，不把废墟变成刺激游戏。",
       "voices": [
         {
           "number": 7,
           "label": "语音 S07：",
-          "text": "这张现代图把多年变化叠在一起。颜色越多，不表示同一天拥有越大、越稳定的国家疆界。1864年，太平天国在内斗、战争消耗和中外势力镇压等多重作用下失败。危机促使一些清朝官员开始寻找新的“自强”办法。",
+          "text": "圆明园遗址记录英法联军侵略造成的破坏。照片能让我们看见保存后的石柱，档案帮助确认事件和责任。学习这段历史不是在废墟里寻宝，也不展示伤害画面，而是用证据记住文化损失。",
           "segments": [
             {
               "id": "cn-modern-01-02-deeper-crisis-s06-v07-01",
               "order": 1,
               "tier": "core",
-              "text": "这张现代图把多年变化叠在一起。颜色越多，不表示同一天拥有越大、越稳定的国家疆界。1864年，太平天国在内斗、战争消耗和中外势力镇压等多重作用下失败。危机促使一些清朝官员开始寻找新的“自强”办法。",
-              "hanCharacters": 83
+              "text": "圆明园遗址记录英法联军侵略造成的破坏。照片能让我们看见保存后的石柱，档案帮助确认事件和责任。学习这段历史不是在废墟里寻宝，也不展示伤害画面，而是用证据记住文化损失。",
+              "hanCharacters": 76
             }
           ]
         }
@@ -289,20 +910,26 @@
       "title": "1905年出版的圆明园遗址照片",
       "localPath": "reference-assets/china-modern-late-qing/yuanmingyuan-ruins-1905.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Old_ruins_in_the_Summer_Palace.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "1905年出版的圆明园遗址历史照片。",
-      "boundary": "照片拍摄、出版于1860年劫掠焚毁之后数十年，只能说明后来保存下来的遗址状态；不是1860年破坏现场，也不是圆明园被破坏前的完整原貌。下载为1920×1386像素等比例图。"
+      "boundary": "照片拍摄、出版于1860年劫掠焚毁之后数十年，只能说明后来保存下来的遗址状态；不是1860年破坏现场，也不是圆明园被破坏前的完整原貌。下载为1920×1386像素等比例图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "taiping-kingdom-multiphase-modern-map",
       "title": "太平天国活动范围现代多阶段示意图",
       "localPath": "reference-assets/china-modern-late-qing/taiping-modern-map.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Taiping_Heavenly_Kingdom_map_zh-cn.svg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 4.0",
       "clearance": "cleared-open-license",
       "caption": "现代作者绘制的太平天国不同时段活动范围示意图。",
-      "boundary": "图中不同颜色叠加了多个时间阶段，不能当作同一时刻的固定疆界或官方地图；正文只用于观察运动范围随时间变化。由SVG等比例导出为1920×1458像素PNG。"
+      "boundary": "图中不同颜色叠加了多个时间阶段，不能当作同一时刻的固定疆界或官方地图；正文只用于观察运动范围随时间变化。由SVG等比例导出为1920×1458像素PNG。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-modern-01-02-deeper-crisis.jpg",

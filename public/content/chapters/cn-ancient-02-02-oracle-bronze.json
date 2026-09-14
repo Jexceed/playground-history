@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-02-02-oracle-bronze",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
@@ -13,7 +13,544 @@
   "title": "甲骨文和青铜器会说话",
   "coreQuestion": "文字和青铜器记录了怎样的商周社会？",
   "throughline": "通过甲骨文、青铜铭文和典型器物认识文字、铸造技术、祭祀活动与历史记录。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-ancient-02-02-oracle-bronze",
+    "childTitle": "龟甲上的小问号",
+    "prompt": "古人把问题刻在甲骨上，大铜鼎又留下了什么？",
+    "takeaway": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。",
+    "object": "甲骨刻辞和后母戊鼎",
+    "people": [
+      "刻字者和铸铜工匠"
+    ],
+    "place": "河南安阳殷墟",
+    "culture": "甲骨文字",
+    "care": "甲骨和兽骨先以文字、纹路与工艺进入，不放大骨骼外形制造惊吓。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "龟甲上的小问号"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "龟甲上的问题",
+      "text": "先看龟甲上刻下的问题，再找烧灼后的裂纹。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "把结果也写下",
+      "text": "接着看刻字者怎样把结果也留在甲骨上。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "文字让商代清楚",
+      "text": "最后和青铜鼎铭文相对照，让商代故事更清楚。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "考古",
+      "icon": "🧹",
+      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
+      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "殷墟",
+      "reading": "Yīnxū",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-02-01-early-states",
+        "cn-ancient-02-02-oracle-bronze"
+      ],
+      "note": "“殷”在此读yīn，“墟”读xū。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "龟甲上的小问号",
+      "question": "古人把问题刻在甲骨上，大铜鼎又留下了什么？"
+    },
+    "coverAudio": {
+      "id": "quest-cdb774ef157d183c",
+      "text": "今天从一件东西出发：龟甲上的小问号。我们要去河南安阳殷墟，看看甲骨刻辞和后母戊鼎怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-78bb3ed1784639ca",
+      "text": "五条线索都找到了，“龟甲上的小问号”的答案是：甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 7,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是夏商西周，时间是约公元前21世纪—前771年。",
+          "narration": "这是夏商西周，时间是约公元前21世纪—前771年。",
+          "displayText": "这是夏商西周，时间是约公元前21世纪—前771年。"
+        },
+        "assetId": "xsz-houmuwu-ding",
+        "image": "/content/step-images/xsz-houmuwu-ding.jpg",
+        "imageAlt": "后母戊鼎实物照片",
+        "imageCaption": "中国国家博物馆展出的后母戊鼎原件。",
+        "imageBoundary": "重量和工艺以中国国家博物馆记录为准；不用来源页曾出现的 875 千克旧数据。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-eb0a73fab01bc2e7",
+            "text": "这是夏商西周，时间是约公元前21世纪—前771年。"
+          },
+          "image": {
+            "id": "quest-e032a5c15b064580",
+            "text": "点开大图啦。这是后母戊鼎实物照片。这张图能帮我们找到：这是夏商西周，时间是约公元前21世纪—前771年。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-time-1",
+            "label": "中国近代史 · 晚清的危机与救亡 · 1840—1911年",
+            "correct": false,
+            "audio": {
+              "id": "quest-a326ed6569d4da14",
+              "text": "中国近代史 · 晚清的危机与救亡 · 1840—1911年"
+            }
+          },
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-time-2",
+            "label": "中国古代史 · 夏商西周 · 约公元前21世纪—前771年",
+            "correct": true,
+            "audio": {
+              "id": "quest-887c975d5fc6d910",
+              "text": "中国古代史 · 夏商西周 · 约公元前21世纪—前771年"
+            }
+          },
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-time-3",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "龟甲上的问题",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看龟甲上刻下的问题，再找烧灼后的裂纹。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "龟甲上的问题",
+          "screenText": "先看龟甲上刻下的问题，再找烧灼后的裂纹。",
+          "narration": "先看龟甲上刻下的问题，再找烧灼后的裂纹。",
+          "displayText": "先看龟甲上刻下的问题，再找烧灼后的裂纹。"
+        },
+        "assetId": "xsz-oracle-ox-scapula",
+        "image": "/content/step-images/xsz-oracle-ox-scapula.jpg",
+        "imageAlt": "商代刻辞牛肩胛骨",
+        "imageCaption": "中国文字博物馆展出的殷墟商代刻辞牛肩胛骨。",
+        "imageBoundary": "页面只引导观察骨片和刻辞；若特定钻凿、灼痕在照片中不清楚，应允许孩子选择‘本图无法确认’。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-08063ffb3b0be2c9",
+            "text": "先看龟甲上刻下的问题，再找烧灼后的裂纹。"
+          },
+          "image": {
+            "id": "quest-a06ca638c4bfd6bf",
+            "text": "点开大图啦。这是商代刻辞牛肩胛骨。这张图能帮我们找到：先看龟甲上刻下的问题，再找烧灼后的裂纹。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-beginning-1",
+            "label": "甲骨刻辞和后母戊鼎，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-b980907ea7b92fef",
+              "text": "甲骨刻辞和后母戊鼎，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-beginning-2",
+            "label": "河南安阳殷墟、刻字，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-f7b7eaf096396eb9",
+              "text": "河南安阳殷墟、刻字，只是故事地点"
+            }
+          },
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-beginning-3",
+            "label": "刻字者和铸铜工匠、河南，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-b5fbf0054490bf8c",
+              "text": "刻字者和铸铜工匠、河南，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "把结果也写下",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看刻字者怎样把结果也留在甲骨上。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "把结果也写下",
+          "screenText": "接着看刻字者怎样把结果也留在甲骨上。",
+          "narration": "接着看刻字者怎样把结果也留在甲骨上。",
+          "displayText": "接着看刻字者怎样把结果也留在甲骨上。"
+        },
+        "assetId": "xsz-oracle-bone-pit",
+        "image": "/content/step-images/xsz-oracle-bone-pit.jpg",
+        "imageAlt": "殷墟 YH127 甲骨窖穴展示",
+        "imageCaption": "殷墟 YH127 甲骨窖穴的现场展示。",
+        "imageBoundary": "照片经过来源页记载的裁切；不把窖穴内每一块骨片都描述成有文字。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-d18ebde81ce14272",
+            "text": "接着看刻字者怎样把结果也留在甲骨上。"
+          },
+          "image": {
+            "id": "quest-3134344470404787",
+            "text": "点开大图啦。这是殷墟 YH127 甲骨窖穴展示。这张图能帮我们找到：接着看刻字者怎样把结果也留在甲骨上。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-journey-1",
+            "label": "刻字者和铸铜工匠、甲骨刻辞，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-35613725c5d037b8",
+              "text": "刻字者和铸铜工匠、甲骨刻辞，只认出人物"
+            }
+          },
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-journey-2",
+            "label": "河南安阳殷墟、甲骨刻辞，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-3518eec834b7f938",
+              "text": "河南安阳殷墟、甲骨刻辞，只说了地点"
+            }
+          },
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-journey-3",
+            "label": "接着看刻字者怎样把结果也留在甲骨上。",
+            "correct": true,
+            "audio": {
+              "id": "quest-d18ebde81ce14272",
+              "text": "接着看刻字者怎样把结果也留在甲骨上。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "文字让商代清楚",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后和青铜鼎铭文相对照，让商代故事更清楚。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "文字让商代清楚",
+          "screenText": "最后和青铜鼎铭文相对照，让商代故事更清楚。",
+          "narration": "最后和青铜鼎铭文相对照，让商代故事更清楚。",
+          "displayText": "最后和青铜鼎铭文相对照，让商代故事更清楚。"
+        },
+        "assetId": "xsz-houmuwu-ding",
+        "image": "/content/step-images/xsz-houmuwu-ding.jpg",
+        "imageAlt": "后母戊鼎实物照片",
+        "imageCaption": "中国国家博物馆展出的后母戊鼎原件。",
+        "imageBoundary": "重量和工艺以中国国家博物馆记录为准；不用来源页曾出现的 875 千克旧数据。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-222d3d318e5b8c70",
+            "text": "最后和青铜鼎铭文相对照，让商代故事更清楚。"
+          },
+          "image": {
+            "id": "quest-506c01cb5c359b43",
+            "text": "点开大图啦。这是后母戊鼎实物照片。这张图能帮我们找到：最后和青铜鼎铭文相对照，让商代故事更清楚。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-change-1",
+            "label": "看刻字者怎样把结果也留在甲骨，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-5f2582a1a8d6dc22",
+              "text": "看刻字者怎样把结果也留在甲骨，还只是行动经过"
+            }
+          },
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-change-2",
+            "label": "最后和青铜鼎铭文相对照，让商代故事更清楚。",
+            "correct": true,
+            "audio": {
+              "id": "quest-222d3d318e5b8c70",
+              "text": "最后和青铜鼎铭文相对照，让商代故事更清楚。"
+            }
+          },
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-change-3",
+            "label": "甲骨刻辞和后母戊鼎、河南，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-98c8e86a6efc7769",
+              "text": "甲骨刻辞和后母戊鼎、河南，还只是故事起点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。",
+          "narration": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。",
+          "displayText": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。"
+        },
+        "assetId": "xsz-oracle-ox-scapula",
+        "image": "/content/step-images/xsz-oracle-ox-scapula.jpg",
+        "imageAlt": "商代刻辞牛肩胛骨",
+        "imageCaption": "中国文字博物馆展出的殷墟商代刻辞牛肩胛骨。",
+        "imageBoundary": "页面只引导观察骨片和刻辞；若特定钻凿、灼痕在照片中不清楚，应允许孩子选择‘本图无法确认’。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-3545725829822e52",
+            "text": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。"
+          },
+          "image": {
+            "id": "quest-6c1143d52dc2a8e7",
+            "text": "点开大图啦。这是商代刻辞牛肩胛骨。这张图能帮我们找到：甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-takeaway-1",
+            "label": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。",
+            "correct": true,
+            "audio": {
+              "id": "quest-3545725829822e52",
+              "text": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。"
+            }
+          },
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-takeaway-2",
+            "label": "和青铜鼎铭文相对照，让商代故事更清楚。、龟甲上的，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-be7480d83be75bf9",
+              "text": "和青铜鼎铭文相对照，让商代故事更清楚。、龟甲上的，只说了结果"
+            }
+          },
+          {
+            "id": "cn-ancient-02-02-oracle-bronze-takeaway-3",
+            "label": "看龟甲上刻下的问题，再找烧灼后的裂纹。、甲骨，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-cc23af6121f20113",
+              "text": "看龟甲上刻下的问题，再找烧灼后的裂纹。、甲骨，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "甲骨观察镜",
+        "items": [
+          "放大照片，依次寻找“骨片、刻辞、钻凿或灼痕”；找不到的特征可以选择“本图无法确认”，不强迫猜测。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "青铜铸造顺序",
+        "items": [
+          "排列“设计—制范—熔炼—浇铸—清理”五步；复杂器物追加“分铸、连接”的可选卡。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "谁能直接证明",
+        "items": [
+          "把“后母戊鼎很重”“需要组织大量材料和工序”“有三千名工匠参加”放入事实、合理推断、无依据数字三栏。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 7,
   "conclusion": [
     "甲骨文、青铜器及其铭文不会像故事人物那样开口，却能保存可检查的信息。甲骨文记录商王室占卜以及与政治、军事、农业、天气等有关的活动；青铜器的材料、铸造痕迹、纹饰、出土位置和铭文，则让我们观察商周的技术、礼仪、权力和历史事件。研究者需要把文字、器物与考古背景放在一起解释。"
@@ -330,30 +867,39 @@
       "title": "商代刻辞牛肩胛骨",
       "localPath": "reference-assets/xia-shang-zhou/oracle-bone.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ancient_Chinese_Writing_on_Ox_Scapula,_Shang_Dynasty_Oracle_Bone,_Yinxu,_Anyang.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "中国文字博物馆展出的殷墟商代刻辞牛肩胛骨。",
-      "boundary": "页面只引导观察骨片和刻辞；若特定钻凿、灼痕在照片中不清楚，应允许孩子选择‘本图无法确认’。未修改原图。"
+      "boundary": "页面只引导观察骨片和刻辞；若特定钻凿、灼痕在照片中不清楚，应允许孩子选择‘本图无法确认’。未修改原图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "xsz-oracle-bone-pit",
       "title": "殷墟 YH127 甲骨窖穴展示",
       "localPath": "reference-assets/xia-shang-zhou/oracle-bone-pit.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Oracle_bones_pit.JPG",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 2.0",
       "clearance": "cleared-open-license",
       "caption": "殷墟 YH127 甲骨窖穴的现场展示。",
-      "boundary": "照片经过来源页记载的裁切；不把窖穴内每一块骨片都描述成有文字。"
+      "boundary": "照片经过来源页记载的裁切；不把窖穴内每一块骨片都描述成有文字。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "xsz-houmuwu-ding",
       "title": "后母戊鼎实物照片",
       "localPath": "reference-assets/xia-shang-zhou/houmuwu-ding.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:HouMuWuDingFullView.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "中国国家博物馆展出的后母戊鼎原件。",
-      "boundary": "重量和工艺以中国国家博物馆记录为准；不用来源页曾出现的 875 千克旧数据。未修改原图。"
+      "boundary": "重量和工艺以中国国家博物馆记录为准；不用来源页曾出现的 875 千克旧数据。未修改原图。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-02-02-oracle-bronze.jpg",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.12.0",
+  "contentVersion": "0.13.0",
   "id": "cn-contemporary-04-02-china-and-world-today",
   "trackId": "china-contemporary",
   "trackLabel": "中国现代史",
@@ -13,7 +13,616 @@
   "title": "今天的中国怎样与世界相连",
   "coreQuestion": "商品、人员、科技和共同问题怎样把中国与世界联系起来？",
   "throughline": "从共建“一带一路”、国际合作、文化交流和全球性问题等经核验的实例，理解中国与世界相互联系的现实。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "cn-contemporary-04-02-china-and-world-today",
+    "childTitle": "一片茶叶怎样走向世界",
+    "prompt": "商品、文化、国际行动和共同环境问题，需要哪些道路与规则？",
+    "takeaway": "一片茶叶连接生产、运输与文化；今天的中国也在共同规则中与世界合作。",
+    "object": "茶叶、集装箱、维和档案与气候协议",
+    "people": [
+      "制茶人、运输者、科学家、维和人员与国际合作者"
+    ],
+    "place": "中国茶区、港口与联合国会议地点",
+    "culture": "中国传统制茶技艺及其相关习俗",
+    "care": "不同联系分别说明，不把所有国际合作画成一张没有差异的网络。",
+    "preferredAssetId": "wuyishan-tea-plantation-2019-photo"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "一片茶叶怎样走向世界"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "茶叶从茶园出发",
+      "text": "先跟一片茶叶从茶园来到港口。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "集装箱送向世界",
+      "text": "接着看集装箱、规则和运输者把它送向世界。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "合作也一起出发",
+      "text": "最后茶文化、合作行动和环境责任也一起出发。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "一片茶叶连接生产、运输与文化；今天的中国也在共同规则中与世界合作。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "档案",
+      "icon": "🗂️",
+      "plain": "被保存下来的文件、照片、录音等记录。",
+      "example": "一份档案记录一个角度，要和别的证据一起看。",
+      "priority": 1
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "国际",
+      "icon": "🌍",
+      "plain": "不同国家之间或许多国家共同参与的事情。",
+      "example": "国际合作要看谁参加、怎样分工、规则如何执行。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "和平",
+      "icon": "🕊️",
+      "plain": "人们不靠战争解决分歧，并努力避免暴力伤害。",
+      "example": "和平需要规则、谈判和行动，不只是说一句愿望。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "民主",
+      "icon": "🗳️",
+      "plain": "公共事情不只由一个人说了算，人们按规则参与。",
+      "example": "不同年代参与范围不同，不能把古代投票当成今天制度。",
+      "priority": 1
+    },
+    {
+      "term": "条约",
+      "icon": "📄",
+      "plain": "国家或政治力量之间写下并同意遵守的约定。",
+      "example": "还要问条约是否平等、由谁签、后来怎样执行。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "共和国",
+      "icon": "🏛️",
+      "plain": "国家职位不是由皇位世代传下去的国家形式。",
+      "example": "写下共和国原则，不代表这些原则立刻全部做到。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "领土",
+      "icon": "🗺️",
+      "plain": "一个国家依法拥有和管理的土地、水域等范围。",
+      "example": "历史地图要标时间，边界不会一直不变。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "全球",
+      "icon": "🌍",
+      "plain": "把整个世界许多地区放在一起观察。",
+      "example": "全球问题在各地影响不同，不能用一个例子代表全部。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "联合国",
+      "reading": "Liánhéguó",
+      "kind": "title",
+      "chapterIds": [
+        "cn-contemporary-02-02-science-diplomacy",
+        "cn-contemporary-04-02-china-and-world-today",
+        "world-contemporary-05-02-peace-development"
+      ],
+      "note": "“联合”连读，不在“联”后停顿。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "一片茶叶怎样走向世界",
+      "question": "商品、文化、国际行动和共同环境问题，需要哪些道路与规则？"
+    },
+    "coverAudio": {
+      "id": "quest-3e25c3d0b80c0b89",
+      "text": "今天从一件东西出发：一片茶叶怎样走向世界。我们要去中国茶区、港口与联合国会议地点，看看茶叶、集装箱、维和档案与气候协议怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-e2c0fc4f3b9b9c39",
+      "text": "五条线索都找到了，“一片茶叶怎样走向世界”的答案是：一片茶叶连接生产、运输与文化；今天的中国也在共同规则中与世界合作。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是中国特色社会主义新时代，时间是2012年至今。",
+          "narration": "这是中国特色社会主义新时代，时间是2012年至今。",
+          "displayText": "这是中国特色社会主义新时代，时间是2012年至今。"
+        },
+        "assetId": "wuyishan-tea-plantation-2019-photo",
+        "image": "/content/step-images/wuyishan-tea-plantation-2019-photo.jpg",
+        "imageAlt": "武夷山大红袍景区茶园2019年照片",
+        "imageCaption": "2019年1月21日拍摄的武夷山大红袍景区茶园，可见岩壁之间的茶树种植景观。",
+        "imageBoundary": "Commons原图2976×3968像素，本地按原比例缩小为1650×2200像素，未裁切。照片早于2022年列入名录，只能显示一个地点的茶园景观，不能代替采茶、手工制茶、饮茶、分享等全部技艺和相关习俗，也不能代表全国所有茶区。正式使用须署名Lennartbj，链接CC BY-SA 4.0，并以同一许可共享改编版本。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-a1ef38e2d9e98b97",
+            "text": "这是中国特色社会主义新时代，时间是2012年至今。"
+          },
+          "image": {
+            "id": "quest-5e811fb1eb8b78a8",
+            "text": "点开大图啦。这是武夷山大红袍景区茶园2019年照片。这张图能帮我们找到：这是中国特色社会主义新时代，时间是2012年至今。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-time-1",
+            "label": "中国现代史 · 中国特色社会主义新时代 · 2012年至今",
+            "correct": true,
+            "audio": {
+              "id": "quest-bb09c9ca3e99174e",
+              "text": "中国现代史 · 中国特色社会主义新时代 · 2012年至今"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-time-2",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-time-3",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "茶叶从茶园出发",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先跟一片茶叶从茶园来到港口。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "茶叶从茶园出发",
+          "screenText": "先跟一片茶叶从茶园来到港口。",
+          "narration": "先跟一片茶叶从茶园来到港口。",
+          "displayText": "先跟一片茶叶从茶园来到港口。"
+        },
+        "assetId": "wuyishan-tea-plantation-2019-photo",
+        "image": "/content/step-images/wuyishan-tea-plantation-2019-photo.jpg",
+        "imageAlt": "武夷山大红袍景区茶园2019年照片",
+        "imageCaption": "2019年1月21日拍摄的武夷山大红袍景区茶园，可见岩壁之间的茶树种植景观。",
+        "imageBoundary": "Commons原图2976×3968像素，本地按原比例缩小为1650×2200像素，未裁切。照片早于2022年列入名录，只能显示一个地点的茶园景观，不能代替采茶、手工制茶、饮茶、分享等全部技艺和相关习俗，也不能代表全国所有茶区。正式使用须署名Lennartbj，链接CC BY-SA 4.0，并以同一许可共享改编版本。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-375dcaafa4606811",
+            "text": "先跟一片茶叶从茶园来到港口。"
+          },
+          "image": {
+            "id": "quest-5766f21222850f24",
+            "text": "点开大图啦。这是武夷山大红袍景区茶园2019年照片。这张图能帮我们找到：先跟一片茶叶从茶园来到港口。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-beginning-1",
+            "label": "中国茶区、港口与联合国会议地点，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-742b3476ce0e4fb4",
+              "text": "中国茶区、港口与联合国会议地点，只是故事地点"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-beginning-2",
+            "label": "制茶人、运输者、科学家、维和人员与国，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-cb9b6554b16ee250",
+              "text": "制茶人、运输者、科学家、维和人员与国，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-beginning-3",
+            "label": "茶叶、集装箱、维和档案与气候协议，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-e97fdd42423cab88",
+              "text": "茶叶、集装箱、维和档案与气候协议，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "集装箱送向世界",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看集装箱、规则和运输者把它送向世界。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "集装箱送向世界",
+          "screenText": "接着看集装箱、规则和运输者把它送向世界。",
+          "narration": "接着看集装箱、规则和运输者把它送向世界。",
+          "displayText": "接着看集装箱、规则和运输者把它送向世界。"
+        },
+        "assetId": "cr-express-zhengzhou-2020-photo",
+        "image": "/content/step-images/cr-express-zhengzhou-2020-photo.jpg",
+        "imageAlt": "郑州中欧班列货运列车2020年实拍",
+        "imageCaption": "2020年6月12日，一列装载中欧班列集装箱的货运列车离开郑州铁路集装箱中心站。",
+        "imageBoundary": "保存Commons提供的1800×1200像素文件，未裁切、未缩放。照片只显示一列具体列车、集装箱和郑州场站附近环境，不能证明最终目的地、沿途口岸、货物内容、是否已经跨境或全部中欧班列运行方式。正式使用须署名Windmemories，链接CC BY-SA 4.0，并以同一许可共享改编版本。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-f79a65b7fc9382f3",
+            "text": "接着看集装箱、规则和运输者把它送向世界。"
+          },
+          "image": {
+            "id": "quest-16a9d4f8ba09098f",
+            "text": "点开大图啦。这是郑州中欧班列货运列车2020年实拍。这张图能帮我们找到：接着看集装箱、规则和运输者把它送向世界。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-journey-1",
+            "label": "中国茶区、港口与联合国会议，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-54d70da0114e8f40",
+              "text": "中国茶区、港口与联合国会议，只说了地点"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-journey-2",
+            "label": "接着看集装箱、规则和运输者把它送向世界。",
+            "correct": true,
+            "audio": {
+              "id": "quest-f79a65b7fc9382f3",
+              "text": "接着看集装箱、规则和运输者把它送向世界。"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-journey-3",
+            "label": "制茶人、运输者、科学家、维和人，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-fadfa27838ca14a5",
+              "text": "制茶人、运输者、科学家、维和人，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "合作也一起出发",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后茶文化、合作行动和环境责任也一起出发。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "合作也一起出发",
+          "screenText": "最后茶文化、合作行动和环境责任也一起出发。",
+          "narration": "最后茶文化、合作行动和环境责任也一起出发。",
+          "displayText": "最后茶文化、合作行动和环境责任也一起出发。"
+        },
+        "assetId": "chinese-un-peacekeeper-bukavu-2011-photo",
+        "image": "/content/step-images/chinese-un-peacekeeper-bukavu-2011-photo.jpg",
+        "imageAlt": "布卡武授勋仪式中的中国维和人员2011年照片",
+        "imageCaption": "2011年3月23日，刚果民主共和国南基伍省布卡武一次授勋仪式上的中国维和人员。",
+        "imageBoundary": "Commons原文件5616×3536像素，本地按原比例缩小为2200×1385像素，未裁切。原说明称该仪式为巴基斯坦蓝盔部队授勋活动，并指出画面中有中国维和人员；照片不能证明画面人物的姓名、岗位、任务经历，也不能代表中国全部维和行动。正式使用须署名MONUSCO Photos / Myriam Asmani，链接CC BY-SA 2.0，并以相同或兼容许可共享改编版本。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-bc7564a7c149e52f",
+            "text": "最后茶文化、合作行动和环境责任也一起出发。"
+          },
+          "image": {
+            "id": "quest-5c3821c42f25cc44",
+            "text": "点开大图啦。这是布卡武授勋仪式中的中国维和人员2011年照片。这张图能帮我们找到：最后茶文化、合作行动和环境责任也一起出发。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-change-1",
+            "label": "最后茶文化、合作行动和环境责任也一起出发。",
+            "correct": true,
+            "audio": {
+              "id": "quest-bc7564a7c149e52f",
+              "text": "最后茶文化、合作行动和环境责任也一起出发。"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-change-2",
+            "label": "茶叶、集装箱、维和档案与，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-0499b35de34dfc6a",
+              "text": "茶叶、集装箱、维和档案与，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-change-3",
+            "label": "看集装箱、规则和运输者把它送，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-6c12f7c57be9dd26",
+              "text": "看集装箱、规则和运输者把它送，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "一片茶叶连接生产、运输与文化；今天的中国也在共同规则中与世界合作。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "一片茶叶连接生产、运输与文化；今天的中国也在共同规则中与世界合作。",
+          "narration": "一片茶叶连接生产、运输与文化；今天的中国也在共同规则中与世界合作。",
+          "displayText": "一片茶叶连接生产、运输与文化；今天的中国也在共同规则中与世界合作。"
+        },
+        "assetId": "earth-eastern-hemisphere-composite-2007",
+        "image": "/content/step-images/earth-eastern-hemisphere-composite-2007.jpg",
+        "imageAlt": "NASA东半球地球合成图",
+        "imageCaption": "2007年发布的地球东半球合成图，由多颗卫星、航天器和测绘项目的数据组合而成。",
+        "imageBoundary": "Commons原图3718×3718像素，本地按原比例缩小为2200×2200像素，未裁切。它是NASA科学家和艺术家组合多源数据制作的合成图，不是某一时刻的单张照片；不能从中判断某年的气温、污染、排放或物种数量。使用时注明NASA与Reto Stöckli，不把NASA徽记用于宣传或暗示认可。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-3cf2a90549fe9abf",
+            "text": "一片茶叶连接生产、运输与文化；今天的中国也在共同规则中与世界合作。"
+          },
+          "image": {
+            "id": "quest-965f47e4fa3dd0c3",
+            "text": "点开大图啦。这是NASA东半球地球合成图。这张图能帮我们找到：一片茶叶连接生产、运输与文化；今天的中国也在共同规则中与世界合作。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-takeaway-1",
+            "label": "茶文化、合作行动和环境责任也一起出发。、一片茶叶怎样走向，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-281551c4db5e9877",
+              "text": "茶文化、合作行动和环境责任也一起出发。、一片茶叶怎样走向，只说了结果"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-takeaway-2",
+            "label": "跟一片茶叶从茶园来到港口。、茶叶、集装箱、维和档案与，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-d3f213bf35c31918",
+              "text": "跟一片茶叶从茶园来到港口。、茶叶、集装箱、维和档案与，只说了原因"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-02-china-and-world-today-takeaway-3",
+            "label": "一片茶叶连接生产、运输与文化；今天的中国也在共同规则中与世界合作。",
+            "correct": true,
+            "audio": {
+              "id": "quest-3cf2a90549fe9abf",
+              "text": "一片茶叶连接生产、运输与文化；今天的中国也在共同规则中与世界合作。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "一只箱子的旅程",
+        "items": [
+          "把“工厂装箱—到集装箱场站—铁路或港口运输—海关与口岸查验—可能换装或转运—目的地接收”排成合理顺序；系统允许多条真实路线，不设置出口金额、品牌、国家或速度排行榜，也不把一次运输成功解释成所有参与方必然同样受益。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "合作任务桌",
+        "items": [
+          "把“观察员—记录和报告”“工程人员—修路架桥”“运输人员—运送物资”“医疗人员—救治伤病”配对，再把“受联合国授权、遵守任务规则”放在共同底座；不出现武器升级、射击、占领土地、击败国家或伤亡得分，照片中的真实人物不被虚构姓名和经历。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "共同问题圆桌",
+        "items": [
+          "面对“气候变化”和“生物多样性减少”两张问题卡，为不同国家选择“制定本国行动—执行—监测—报告—复查—技术或资金合作”；没有一个国家被设成永久反派，不用儿童猜测现实家庭的碳排放，不把签署文件当作立即通关胜利。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "今天的中国与世界相连，不只表示地图上有几条线。1990年，中国开始派军事观察员参加联合国维和行动；2013年提出共建“丝绸之路经济带”和“21世纪海上丝绸之路”，2015年发布愿景与行动；2016年中国批准《巴黎协定》；2022年，中国传统制茶技艺及其相关习俗列入联合国教科文组织人类非物质文化遗产代表作名录，昆明—蒙特利尔全球生物多样性框架通过；2023年，中国政府发布共建“一带一路”十周年白皮书。商品运输、国际责任、文化交流和共同环境问题各有不同的参与者、规则和证据。把这些线索连起来，可以看见：世界联系需要道路和设备，也需要协商、规则、专业分工、文化尊重和长期行动。"
@@ -464,50 +1073,65 @@
       "title": "2011—2022年中欧班列开行量及货运量图",
       "localPath": "reference-assets/china-contemporary-china-and-world-today/china-europe-rail-express-2011-2022.jpg",
       "sourcePage": "https://www.mfa.gov.cn/ziliao_674904/zcwj_674915/202310/t20231010_11158751.shtml",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain / official administrative document and factual chart under Article 5 of the PRC Copyright Law",
       "clearance": "cleared-official-document",
       "caption": "国务院新闻办公室2023年白皮书图1，显示2011—2022年中欧班列开行量和货运量。",
-      "boundary": "保存外交部白皮书网页嵌入的800×599像素原图，未改动图中文字。柱形单位是列，折线单位是万标准箱，两条纵轴不能混读。2011和2012年早于2013年倡议提出；图表不能证明单个项目收益、具体路线、货物内容或每列装载量。"
+      "boundary": "保存外交部白皮书网页嵌入的800×599像素原图，未改动图中文字。柱形单位是列，折线单位是万标准箱，两条纵轴不能混读。2011和2012年早于2013年倡议提出；图表不能证明单个项目收益、具体路线、货物内容或每列装载量。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "cr-express-zhengzhou-2020-photo",
       "title": "郑州中欧班列货运列车2020年实拍",
       "localPath": "reference-assets/china-contemporary-china-and-world-today/cr-express-zhengzhou-2020.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:CR_Express_train_near_Putian,_Zhengzhou_2020061201.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2020年6月12日，一列装载中欧班列集装箱的货运列车离开郑州铁路集装箱中心站。",
-      "boundary": "保存Commons提供的1800×1200像素文件，未裁切、未缩放。照片只显示一列具体列车、集装箱和郑州场站附近环境，不能证明最终目的地、沿途口岸、货物内容、是否已经跨境或全部中欧班列运行方式。正式使用须署名Windmemories，链接CC BY-SA 4.0，并以同一许可共享改编版本。"
+      "boundary": "保存Commons提供的1800×1200像素文件，未裁切、未缩放。照片只显示一列具体列车、集装箱和郑州场站附近环境，不能证明最终目的地、沿途口岸、货物内容、是否已经跨境或全部中欧班列运行方式。正式使用须署名Windmemories，链接CC BY-SA 4.0，并以同一许可共享改编版本。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "chinese-un-peacekeeper-bukavu-2011-photo",
       "title": "布卡武授勋仪式中的中国维和人员2011年照片",
       "localPath": "reference-assets/china-contemporary-china-and-world-today/chinese-un-peacekeeper-2011.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Chinese_peacekeeper_attends_a_medal_parade_ceremony_in_Bukavu,_South_Kivu_(10761340676).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 2.0",
       "clearance": "cleared-open-license",
       "caption": "2011年3月23日，刚果民主共和国南基伍省布卡武一次授勋仪式上的中国维和人员。",
-      "boundary": "Commons原文件5616×3536像素，本地按原比例缩小为2200×1385像素，未裁切。原说明称该仪式为巴基斯坦蓝盔部队授勋活动，并指出画面中有中国维和人员；照片不能证明画面人物的姓名、岗位、任务经历，也不能代表中国全部维和行动。正式使用须署名MONUSCO Photos / Myriam Asmani，链接CC BY-SA 2.0，并以相同或兼容许可共享改编版本。"
+      "boundary": "Commons原文件5616×3536像素，本地按原比例缩小为2200×1385像素，未裁切。原说明称该仪式为巴基斯坦蓝盔部队授勋活动，并指出画面中有中国维和人员；照片不能证明画面人物的姓名、岗位、任务经历，也不能代表中国全部维和行动。正式使用须署名MONUSCO Photos / Myriam Asmani，链接CC BY-SA 2.0，并以相同或兼容许可共享改编版本。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "wuyishan-tea-plantation-2019-photo",
       "title": "武夷山大红袍景区茶园2019年照片",
       "localPath": "reference-assets/china-contemporary-china-and-world-today/wuyishan-tea-plantation-2019.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:China_Wuyishan_Tea_Plantation.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2019年1月21日拍摄的武夷山大红袍景区茶园，可见岩壁之间的茶树种植景观。",
-      "boundary": "Commons原图2976×3968像素，本地按原比例缩小为1650×2200像素，未裁切。照片早于2022年列入名录，只能显示一个地点的茶园景观，不能代替采茶、手工制茶、饮茶、分享等全部技艺和相关习俗，也不能代表全国所有茶区。正式使用须署名Lennartbj，链接CC BY-SA 4.0，并以同一许可共享改编版本。"
+      "boundary": "Commons原图2976×3968像素，本地按原比例缩小为1650×2200像素，未裁切。照片早于2022年列入名录，只能显示一个地点的茶园景观，不能代替采茶、手工制茶、饮茶、分享等全部技艺和相关习俗，也不能代表全国所有茶区。正式使用须署名Lennartbj，链接CC BY-SA 4.0，并以同一许可共享改编版本。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "earth-eastern-hemisphere-composite-2007",
       "title": "NASA东半球地球合成图",
       "localPath": "reference-assets/china-contemporary-china-and-world-today/earth-eastern-hemisphere-composite-2007.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Blue_Marble_Eastern_Hemisphere.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — NASA work",
       "clearance": "cleared-open-license",
       "caption": "2007年发布的地球东半球合成图，由多颗卫星、航天器和测绘项目的数据组合而成。",
-      "boundary": "Commons原图3718×3718像素，本地按原比例缩小为2200×2200像素，未裁切。它是NASA科学家和艺术家组合多源数据制作的合成图，不是某一时刻的单张照片；不能从中判断某年的气温、污染、排放或物种数量。使用时注明NASA与Reto Stöckli，不把NASA徽记用于宣传或暗示认可。"
+      "boundary": "Commons原图3718×3718像素，本地按原比例缩小为2200×2200像素，未裁切。它是NASA科学家和艺术家组合多源数据制作的合成图，不是某一时刻的单张照片；不能从中判断某年的气温、污染、排放或物种数量。使用时注明NASA与Reto Stöckli，不把NASA徽记用于宣传或暗示认可。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-contemporary-04-02-china-and-world-today.jpg",

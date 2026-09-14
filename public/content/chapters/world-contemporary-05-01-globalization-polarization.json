@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-contemporary-05-01-globalization-polarization",
   "trackId": "world-contemporary",
   "trackLabel": "世界现代史",
@@ -13,7 +13,645 @@
   "title": "冷战结束后，世界为什么更相连也更复杂",
   "coreQuestion": "多极化、经济全球化和信息化怎样改变国家与个人？",
   "throughline": "先以1989—2008年时间线连接冷战两极结构结束、万维网软件开放、欧盟和世贸组织建立、中国接入国际互联网和加入世贸组织、亚洲金融危机及全球金融危机；再把多极化限定为力量更多元但仍不均衡的发展趋势，以港口和全球价值链解释商品跨国生产及收益差异，以第一台网页服务器、铺缆船、缓存机柜和网吧区分互联网与万维网；最后用雷曼兄弟破产、G20峰会和数字鸿沟说明连接既带来知识、市场与合作，也会传递风险，并要求公平规则、信息核验和儿童隐私保护。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-contemporary-05-01-globalization-polarization",
+    "childTitle": "第一台网页服务器发出了什么",
+    "prompt": "互联网、贸易和全球规则让世界更近时，为什么机会与风险也一起增加？",
+    "takeaway": "网络和贸易连接更多人，危机也传播更快，所以合作规则与公平同样重要。",
+    "object": "CERN网页服务器、集装箱与国际协定",
+    "people": [
+      "程序员、港口工人、消费者、企业与各国谈判者"
+    ],
+    "place": "日内瓦、世界港口与全球网络节点",
+    "culture": "早期网页与数字生活",
+    "care": "不说互联网由一个人瞬间发明，也不把全球化写成国界消失或人人同样受益。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "⚙️",
+      "label": "从一台机器出发",
+      "text": "第一台网页服务器发出了什么"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "服务器送出网页",
+      "text": "先看第一台网页服务器送出一个网页。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "网络和集装箱加速",
+      "text": "接着让网络和集装箱把信息与商品连得更快。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "规则和公平更重要",
+      "text": "最后机会和危机都会传播，规则与公平更重要。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "网络和贸易连接更多人，危机也传播更快，所以合作规则与公平同样重要。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "危机",
+      "icon": "⚠️",
+      "plain": "问题迅速变严重，原来的办法难以应付。",
+      "example": "危机通常有多种原因，也会影响不同的人。",
+      "priority": 2
+    },
+    {
+      "term": "国际",
+      "icon": "🌍",
+      "plain": "不同国家之间或许多国家共同参与的事情。",
+      "example": "国际合作要看谁参加、怎样分工、规则如何执行。",
+      "priority": 3
+    },
+    {
+      "term": "全球",
+      "icon": "🌍",
+      "plain": "把整个世界许多地区放在一起观察。",
+      "example": "全球问题在各地影响不同，不能用一个例子代表全部。",
+      "priority": 3
+    },
+    {
+      "term": "改革",
+      "icon": "🛠️",
+      "plain": "发现旧办法有问题，改变规则或做法。",
+      "example": "改革可能带来新机会，也可能遇到阻力和新问题。",
+      "priority": 1
+    },
+    {
+      "term": "经济",
+      "icon": "🧺",
+      "plain": "人们怎样生产、交换、分配和使用东西。",
+      "example": "经济变化最后会落到工作、食物、住房等生活里。",
+      "priority": 1
+    },
+    {
+      "term": "冷战",
+      "icon": "🧊",
+      "plain": "两个集团长期对立，却没有彼此直接全面开战。",
+      "example": "冷战仍包含军备竞赛、威胁和别处的真实战争。",
+      "priority": 1
+    },
+    {
+      "term": "权利",
+      "icon": "🫶",
+      "plain": "规则承认一个人可以做、可以得到保护的事情。",
+      "example": "写有权利，还要检查妇女、奴隶和穷人是否真的拥有。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "多极化",
+      "icon": "🌐",
+      "plain": "世界大事受到多个国家和力量共同影响。",
+      "example": "多极不是给强国排座位，也不代表力量完全相等。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "金融",
+      "icon": "🏦",
+      "plain": "借钱、存钱、投资和支付等资金活动。",
+      "example": "金融危机不能只用一家银行或一天股价解释。",
+      "priority": 3
+    },
+    {
+      "term": "联盟",
+      "icon": "🔗",
+      "plain": "不同一方为了共同目标暂时或长期合作。",
+      "example": "联盟成员仍可能有不同想法和利益。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "日内瓦",
+      "reading": "Rìnèiwǎ",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-05-01-globalization-polarization"
+      ],
+      "note": "“日”读rì。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一台机器",
+      "icon": "⚙️",
+      "label": "第一台网页服务器发出了什么",
+      "question": "互联网、贸易和全球规则让世界更近时，为什么机会与风险也一起增加？"
+    },
+    "coverAudio": {
+      "id": "quest-f3b28ff4e2b27274",
+      "text": "今天从一台机器出发：第一台网页服务器发出了什么。我们要去日内瓦、世界港口与全球网络节点，看看CERN网页服务器、集装箱与国际协定怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-7145dddcd9053d70",
+      "text": "五条线索都找到了，“第一台网页服务器发出了什么”的答案是：网络和贸易连接更多人，危机也传播更快，所以合作规则与公平同样重要。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 12,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一台机器出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是当今世界发展趋势，时间是1991年至今。",
+          "narration": "这是当今世界发展趋势，时间是1991年至今。",
+          "displayText": "这是当今世界发展趋势，时间是1991年至今。"
+        },
+        "assetId": "globalization-miami-container-port-uscbp-public-domain",
+        "image": "/content/step-images/globalization-miami-container-port-uscbp-public-domain.jpg",
+        "imageAlt": "美国海关与边境保护局拍摄的迈阿密集装箱港口航空图",
+        "imageCaption": "迈阿密集装箱港口航空照片，可同时看到集装箱船、岸桥、堆场、拖车和港区道路。",
+        "imageBoundary": "本地文件为3040×2008像素彩色JPEG，Commons未登记拍摄日期。只用于观察港口基础设施的空间关系，不能根据集装箱颜色猜测货物、出发地、目的地、品牌、价值或劳动条件；全球价值链结构由WTO和世界银行资料说明。",
+        "audio": {
+          "transition": {
+            "id": "quest-8b7a34459d3f2eba",
+            "text": "先给一台机器找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-6b7d46789b8f6662",
+            "text": "这是当今世界发展趋势，时间是1991年至今。"
+          },
+          "image": {
+            "id": "quest-4387a485e3e42123",
+            "text": "点开大图啦。这是美国海关与边境保护局拍摄的迈阿密集装箱港口航空图。这张图能帮我们找到：这是当今世界发展趋势，时间是1991年至今。"
+          },
+          "question": {
+            "id": "quest-f75c2d78fe1fb0f2",
+            "text": "从一台机器出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-time-1",
+            "label": "世界近代史 · 第二次工业革命与近代文化 · 19世纪后期—20世纪初",
+            "correct": false,
+            "audio": {
+              "id": "quest-40725c07ff8c763e",
+              "text": "世界近代史 · 第二次工业革命与近代文化 · 19世纪后期—20世纪初"
+            }
+          },
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-time-2",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-time-3",
+            "label": "世界现代史 · 当今世界发展趋势 · 1991年至今",
+            "correct": true,
+            "audio": {
+              "id": "quest-67868a47cf6da01e",
+              "text": "世界现代史 · 当今世界发展趋势 · 1991年至今"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "服务器送出网页",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看第一台网页服务器送出一个网页。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "服务器送出网页",
+          "screenText": "先看第一台网页服务器送出一个网页。",
+          "narration": "先看第一台网页服务器送出一个网页。",
+          "displayText": "先看第一台网页服务器送出一个网页。"
+        },
+        "assetId": "globalization-first-web-server-cern-display-2005-cc-by-sa",
+        "image": "/content/step-images/globalization-first-web-server-cern-display-2005-cc-by-sa.jpg",
+        "imageAlt": "欧洲核子研究中心展出的第一台网页服务器，摄于2005年",
+        "imageCaption": "2005年在CERN展出的NeXT计算机；它曾作为第一台网页服务器，机身仍可见‘这台机器是服务器，请勿关机’标签。",
+        "imageBoundary": "本地文件为2048×1536像素彩色JPEG。它是2005年的展览照片，不是1989年构想、1990年编程或第一网站运行现场；下方提案副本和书籍是展陈内容。正式使用须署名Coolcaesar并链接CC BY-SA 3.0，修改后继续以相同许可共享。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-ff2a6a77f49cf7c4",
+            "text": "先看第一台网页服务器送出一个网页。"
+          },
+          "image": {
+            "id": "quest-74bf587ba44c26ef",
+            "text": "点开大图啦。这是欧洲核子研究中心展出的第一台网页服务器，摄于2005年。这张图能帮我们找到：先看第一台网页服务器送出一个网页。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-beginning-1",
+            "label": "日内瓦、世界港口与全球网络节点、程序，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-813ea4aec5e08cfe",
+              "text": "日内瓦、世界港口与全球网络节点、程序，只是故事地点"
+            }
+          },
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-beginning-2",
+            "label": "CERN网页服务器、集装箱与国际协定，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-7f625905c05fa1eb",
+              "text": "CERN网页服务器、集装箱与国际协定，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-beginning-3",
+            "label": "程序员、港口工人、消费者、企业与各国谈判，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-26ae6f2fe45e3da4",
+              "text": "程序员、港口工人、消费者、企业与各国谈判，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "网络和集装箱加速",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着让网络和集装箱把信息与商品连得更快。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "网络和集装箱加速",
+          "screenText": "接着让网络和集装箱把信息与商品连得更快。",
+          "narration": "接着让网络和集装箱把信息与商品连得更快。",
+          "displayText": "接着让网络和集装箱把信息与商品连得更快。"
+        },
+        "assetId": "globalization-wikimedia-cache-servers-2013-cc-by-sa",
+        "image": "/content/step-images/globalization-wikimedia-cache-servers-2013-cc-by-sa.jpg",
+        "imageAlt": "维基媒体旧金山缓存中心服务器机柜，2013年",
+        "imageCaption": "2013年6月20日，维基媒体旧金山缓存中心设置中的服务器、网络设备和线缆。",
+        "imageBoundary": "本地文件为2448×3264像素彩色JPEG。照片只显示一个机构的一处缓存设施，不能把互联网想成集中在一个房间，也不能据设备灯光判断访问量、存储内容或服务范围。正式使用须署名Mutante并链接CC BY-SA 3.0。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-f4578ab1f0f85cee",
+            "text": "接着让网络和集装箱把信息与商品连得更快。"
+          },
+          "image": {
+            "id": "quest-756c89cffc2598b6",
+            "text": "点开大图啦。这是维基媒体旧金山缓存中心服务器机柜，2013年。这张图能帮我们找到：接着让网络和集装箱把信息与商品连得更快。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-journey-1",
+            "label": "接着让网络和集装箱把信息与商品连得更快。",
+            "correct": true,
+            "audio": {
+              "id": "quest-f4578ab1f0f85cee",
+              "text": "接着让网络和集装箱把信息与商品连得更快。"
+            }
+          },
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-journey-2",
+            "label": "日内瓦、世界港口与全球网络，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-89ba5166210fd22c",
+              "text": "日内瓦、世界港口与全球网络，只说了地点"
+            }
+          },
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-journey-3",
+            "label": "程序员、港口工人、消费者、企业，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-66152f3902b85f5b",
+              "text": "程序员、港口工人、消费者、企业，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "规则和公平更重要",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后机会和危机都会传播，规则与公平更重要。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "规则和公平更重要",
+          "screenText": "最后机会和危机都会传播，规则与公平更重要。",
+          "narration": "最后机会和危机都会传播，规则与公平更重要。",
+          "displayText": "最后机会和危机都会传播，规则与公平更重要。"
+        },
+        "assetId": "globalization-miami-container-port-uscbp-public-domain",
+        "image": "/content/step-images/globalization-miami-container-port-uscbp-public-domain.jpg",
+        "imageAlt": "美国海关与边境保护局拍摄的迈阿密集装箱港口航空图",
+        "imageCaption": "迈阿密集装箱港口航空照片，可同时看到集装箱船、岸桥、堆场、拖车和港区道路。",
+        "imageBoundary": "本地文件为3040×2008像素彩色JPEG，Commons未登记拍摄日期。只用于观察港口基础设施的空间关系，不能根据集装箱颜色猜测货物、出发地、目的地、品牌、价值或劳动条件；全球价值链结构由WTO和世界银行资料说明。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-09383b0db224bf48",
+            "text": "最后机会和危机都会传播，规则与公平更重要。"
+          },
+          "image": {
+            "id": "quest-bcbe3932ad3ef48c",
+            "text": "点开大图啦。这是美国海关与边境保护局拍摄的迈阿密集装箱港口航空图。这张图能帮我们找到：最后机会和危机都会传播，规则与公平更重要。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-change-1",
+            "label": "让网络和集装箱把信息与商品连，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-3e75471c8b967611",
+              "text": "让网络和集装箱把信息与商品连，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-change-2",
+            "label": "CERN网页服务器、集装，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-2b3f660b54f8dbd4",
+              "text": "CERN网页服务器、集装，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-change-3",
+            "label": "最后机会和危机都会传播，规则与公平更重要。",
+            "correct": true,
+            "audio": {
+              "id": "quest-09383b0db224bf48",
+              "text": "最后机会和危机都会传播，规则与公平更重要。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "网络和贸易连接更多人，危机也传播更快，所以合作规则与公平同样重要。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "网络和贸易连接更多人，危机也传播更快，所以合作规则与公平同样重要。",
+          "narration": "网络和贸易连接更多人，危机也传播更快，所以合作规则与公平同样重要。",
+          "displayText": "网络和贸易连接更多人，危机也传播更快，所以合作规则与公平同样重要。"
+        },
+        "assetId": "globalization-china-wto-accession-protocol-2001-reuse",
+        "image": "/content/step-images/globalization-china-wto-accession-protocol-2001-reuse.jpg",
+        "imageAlt": "中国加入世界贸易组织议定书中文第一页，2001年",
+        "imageCaption": "中国加入世界贸易组织议定书中文第一页，可核对成员资格和履行世贸组织协定义务的正式表述。",
+        "imageBoundary": "复用中国现代史章节已核素材，原图为1589×2200像素JPEG。它能核对议定书名称、成员资格和部分总体义务，不能单独说明十五年谈判、全部附件、国内产业影响或每个家庭结果；儿童界面只用‘成员权利—规则义务’大字卡。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-e7012b2228171b09",
+            "text": "网络和贸易连接更多人，危机也传播更快，所以合作规则与公平同样重要。"
+          },
+          "image": {
+            "id": "quest-4c1238333d6238ff",
+            "text": "点开大图啦。这是中国加入世界贸易组织议定书中文第一页，2001年。这张图能帮我们找到：网络和贸易连接更多人，危机也传播更快，所以合作规则与公平同样重要。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-takeaway-1",
+            "label": "机会和危机都会传播，规则与公平更重要。、第一台网页服务器，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-4f9557f213d4904f",
+              "text": "机会和危机都会传播，规则与公平更重要。、第一台网页服务器，只说了结果"
+            }
+          },
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-takeaway-2",
+            "label": "网络和贸易连接更多人，危机也传播更快，所以合作规则与公平同样重要。",
+            "correct": true,
+            "audio": {
+              "id": "quest-e7012b2228171b09",
+              "text": "网络和贸易连接更多人，危机也传播更快，所以合作规则与公平同样重要。"
+            }
+          },
+          {
+            "id": "world-contemporary-05-01-globalization-polarization-takeaway-3",
+            "label": "看第一台网页服务器送出一个网页。、CERN网页服务器，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-1afcfd25edae8ee1",
+              "text": "看第一台网页服务器送出一个网页。、CERN网页服务器，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "四条轨道时间线",
+        "items": [
+          "将“政治结构、区域合作、贸易规则、信息网络、金融危机”卡放到相应年份。",
+          "完成提示：“同一年可能有不同类型的变化；时间线不是国家得分榜。”"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "搭一条不冒充品牌的生产链",
+        "items": [
+          "用“设计、原料、零件、组装、运输、销售、维修”拼成结构模型，再为每个环节选择“可能在同地／可能跨国”。",
+          "系统始终标注“全球价值链示意，不是某品牌真实供应商名单”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "把网页送到屏幕",
+        "items": [
+          "按“设备—本地网络—远距离线路—服务器—返回页面”接通路径。",
+          "再把“电子邮件、网页、文件传输”放到“互联网可承载的服务”，把“浏览器、网页、链接”放到“万维网”。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "连接机会与证据边界",
+        "items": [
+          "将“学习、通信、市场、合作”放入“机会”，将“数字鸿沟、错误信息、隐私、危机传导”放入“需要管理的风险”。",
+          "为港口照、服务器照、雷曼大楼照、G20合影分别选择“能证明”和“不能证明”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 12,
   "conclusion": [
     "1991年，冷战两极对抗的主要结构结束，但世界没有从此变成一个国家说了算，也没有马上变得和平、平等。美国仍有很强影响力，欧洲一体化继续推进，中国等发展中经济体的作用上升，越来越多国家和区域组织在国际事务中表达自己的利益。2008年全球金融危机后，二十国集团领导人共同开会，是参与协调的力量变得更多的一个例子；它不能证明所有参与者力量相等。“世界多极化”更准确地说是一种发展趋势，而不是已经完成的整齐格局。",
@@ -1513,90 +2151,117 @@
       "title": "欧洲核子研究中心展出的第一台网页服务器，摄于2005年",
       "localPath": "reference-assets/world-contemporary-globalization-polarization/first-web-server-cern-2005.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:First_Web_Server.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0 Unported",
       "clearance": "cleared-open-license",
       "caption": "2005年在CERN展出的NeXT计算机；它曾作为第一台网页服务器，机身仍可见‘这台机器是服务器，请勿关机’标签。",
-      "boundary": "本地文件为2048×1536像素彩色JPEG。它是2005年的展览照片，不是1989年构想、1990年编程或第一网站运行现场；下方提案副本和书籍是展陈内容。正式使用须署名Coolcaesar并链接CC BY-SA 3.0，修改后继续以相同许可共享。"
+      "boundary": "本地文件为2048×1536像素彩色JPEG。它是2005年的展览照片，不是1989年构想、1990年编程或第一网站运行现场；下方提案副本和书籍是展陈内容。正式使用须署名Coolcaesar并链接CC BY-SA 3.0，修改后继续以相同许可共享。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "globalization-wikimedia-cache-servers-2013-cc-by-sa",
       "title": "维基媒体旧金山缓存中心服务器机柜，2013年",
       "localPath": "reference-assets/world-contemporary-globalization-polarization/wikimedia-cache-servers-2013.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Wikimedia_racks_ULSFO_2013_06_20_06_servers.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0 Unported",
       "clearance": "cleared-open-license",
       "caption": "2013年6月20日，维基媒体旧金山缓存中心设置中的服务器、网络设备和线缆。",
-      "boundary": "本地文件为2448×3264像素彩色JPEG。照片只显示一个机构的一处缓存设施，不能把互联网想成集中在一个房间，也不能据设备灯光判断访问量、存储内容或服务范围。正式使用须署名Mutante并链接CC BY-SA 3.0。"
+      "boundary": "本地文件为2448×3264像素彩色JPEG。照片只显示一个机构的一处缓存设施，不能把互联网想成集中在一个房间，也不能据设备灯光判断访问量、存储内容或服务范围。正式使用须署名Mutante并链接CC BY-SA 3.0。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "globalization-miami-container-port-uscbp-public-domain",
       "title": "美国海关与边境保护局拍摄的迈阿密集装箱港口航空图",
       "localPath": "reference-assets/world-contemporary-globalization-polarization/miami-container-port-cbp.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_the_Port_of_Miami_Container_Port.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States federal government work",
       "clearance": "cleared-public-domain",
       "caption": "迈阿密集装箱港口航空照片，可同时看到集装箱船、岸桥、堆场、拖车和港区道路。",
-      "boundary": "本地文件为3040×2008像素彩色JPEG，Commons未登记拍摄日期。只用于观察港口基础设施的空间关系，不能根据集装箱颜色猜测货物、出发地、目的地、品牌、价值或劳动条件；全球价值链结构由WTO和世界银行资料说明。"
+      "boundary": "本地文件为3040×2008像素彩色JPEG，Commons未登记拍摄日期。只用于观察港口基础设施的空间关系，不能根据集装箱颜色猜测货物、出发地、目的地、品牌、价值或劳动条件；全球价值链结构由WTO和世界银行资料说明。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "globalization-cable-layer-cs-dependable-2006-cc-by-sa",
       "title": "铺缆船CS Dependable停靠俄勒冈州阿斯托里亚港，2006年",
       "localPath": "reference-assets/world-contemporary-globalization-polarization/cable-layer-ship-2006.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Cable_layer_ship.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0 Unported",
       "clearance": "cleared-open-license",
       "caption": "2006年，铺缆船CS Dependable停靠美国俄勒冈州阿斯托里亚港，船尾可见放缆设备。",
-      "boundary": "本地文件为2592×1944像素彩色JPEG。它能显示铺缆船的船型和设备位置，不能证明拍摄时正在铺缆、船上装载哪种电缆、作业目的地或任何具体国际网络路线。正式使用须署名Nsandel并链接CC BY-SA 3.0。"
+      "boundary": "本地文件为2592×1944像素彩色JPEG。它能显示铺缆船的船型和设备位置，不能证明拍摄时正在铺缆、船上装载哪种电缆、作业目的地或任何具体国际网络路线。正式使用须署名Nsandel并链接CC BY-SA 3.0。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "globalization-maastricht-treaty-display-rome-1997-cc-by",
       "title": "1997年罗马展出的《马斯特里赫特条约》",
       "localPath": "reference-assets/world-contemporary-globalization-polarization/maastricht-treaty-display-1997.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Treaty_of_Maastricht_on_display_in_Rome,_1997_(clip_1).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 3.0 Unported",
       "clearance": "cleared-open-license",
       "caption": "1997年，1992年签署的《马斯特里赫特条约》在罗马卡比托利欧博物馆展出。",
-      "boundary": "本地文件为1920×1080像素视频帧。厚叠文件是1997年展陈画面，不能冒充1992年2月7日签署现场，也不能从文件厚度推断欧盟权力大小或成员意见一致。正式使用须注明European Commission并链接CC BY 3.0。"
+      "boundary": "本地文件为1920×1080像素视频帧。厚叠文件是1997年展陈画面，不能冒充1992年2月7日签署现场，也不能从文件厚度推断欧盟权力大小或成员意见一致。正式使用须注明European Commission并链接CC BY 3.0。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "globalization-lehman-headquarters-september-15-2008-cc-by",
       "title": "雷曼兄弟申请破产当日的纽约总部，2008年9月15日",
       "localPath": "reference-assets/world-contemporary-globalization-polarization/lehman-brothers-2008-09-15.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Lehman_Brothers-20080915.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 2.0 Generic",
       "clearance": "cleared-open-license",
       "caption": "2008年9月15日晚，雷曼兄弟纽约总部外观；公司控股主体当天申请破产保护。",
-      "boundary": "本地文件为2666×4000像素彩色JPEG。它能核对建筑、招牌和拍摄日期，不能显示次贷、住房抵押贷款证券、机构持仓、政策决定或危机传播链；不得让一栋大楼代替多因素危机。正式使用须署名Robert Scoble并链接CC BY 2.0。"
+      "boundary": "本地文件为2666×4000像素彩色JPEG。它能核对建筑、招牌和拍摄日期，不能显示次贷、住房抵押贷款证券、机构持仓、政策决定或危机传播链；不得让一栋大楼代替多因素危机。正式使用须署名Robert Scoble并链接CC BY 2.0。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "globalization-g20-washington-group-2008-cc-by",
       "title": "2008年华盛顿G20金融市场和世界经济峰会合影",
       "localPath": "reference-assets/world-contemporary-globalization-polarization/g20-washington-2008.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Cumbre_de_Washington.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 2.0 Generic",
       "clearance": "cleared-open-license",
       "caption": "2008年11月15日，G20成员领导人与联合国、世界银行、国际货币基金组织等机构代表在华盛顿合影。",
-      "boundary": "本地文件为2300×1176像素彩色JPEG。画面能说明一次峰会有多国和国际机构参与，不能证明照片中每人力量相等、会议已经解决危机、参与者代表世界所有国家，或普通人拥有同等发言权。正式使用须归属Presidencia de la Nación Argentina并链接CC BY 2.0。"
+      "boundary": "本地文件为2300×1176像素彩色JPEG。画面能说明一次峰会有多国和国际机构参与，不能证明照片中每人力量相等、会议已经解决危机、参与者代表世界所有国家，或普通人拥有同等发言权。正式使用须归属Presidencia de la Nación Argentina并链接CC BY 2.0。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "globalization-lijiang-internet-cafe-2006-cc-by",
       "title": "云南丽江一间网吧内部，2006年1月26日",
       "localPath": "reference-assets/world-contemporary-globalization-polarization/lijiang-internet-cafe-2006.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chinesisches_Internetcafe_Lijiang.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 2.5 Generic",
       "clearance": "cleared-open-license",
       "caption": "2006年1月，云南丽江一间网吧内，许多人使用排列成行的台式电脑。",
-      "boundary": "本地文件为800×600像素彩色JPEG。画面不是1994年中国全功能接入国际互联网现场，也不能证明人物姓名、年龄、正在浏览的内容、家庭是否有电脑，或全国城乡接入水平。正式使用须署名Chrislb并链接CC BY 2.5。"
+      "boundary": "本地文件为800×600像素彩色JPEG。画面不是1994年中国全功能接入国际互联网现场，也不能证明人物姓名、年龄、正在浏览的内容、家庭是否有电脑，或全国城乡接入水平。正式使用须署名Chrislb并链接CC BY 2.5。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "globalization-china-wto-accession-protocol-2001-reuse",
       "title": "中国加入世界贸易组织议定书中文第一页，2001年",
       "localPath": "reference-assets/china-contemporary-chinese-characteristics-reunification/china-wto-accession-protocol-2001.jpg",
       "sourcePage": "https://treaty.mfa.gov.cn/web/detail1.jsp?objid=1545032325250",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — official international treaty under Article 5 of the PRC Copyright Law",
       "clearance": "cleared-open-license-reuse",
       "caption": "中国加入世界贸易组织议定书中文第一页，可核对成员资格和履行世贸组织协定义务的正式表述。",
-      "boundary": "复用中国现代史章节已核素材，原图为1589×2200像素JPEG。它能核对议定书名称、成员资格和部分总体义务，不能单独说明十五年谈判、全部附件、国内产业影响或每个家庭结果；儿童界面只用‘成员权利—规则义务’大字卡。"
+      "boundary": "复用中国现代史章节已核素材，原图为1589×2200像素JPEG。它能核对议定书名称、成员资格和部分总体义务，不能单独说明十五年谈判、全部附件、国内产业影响或每个家庭结果；儿童界面只用‘成员权利—规则义务’大字卡。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-contemporary-05-01-globalization-polarization.jpg",

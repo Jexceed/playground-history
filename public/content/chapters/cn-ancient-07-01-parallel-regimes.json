@@ -1,19 +1,751 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-07-01-parallel-regimes",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
   "period": {
-    "id": "liao-song-xia-jin-yuan",
-    "label": "辽宋夏金元",
-    "years": "916—1368年"
+    "id": "song",
+    "label": "宋朝（与辽·西夏·金并立）",
+    "years": "916—1279年（宋960年起）"
   },
-  "order": 23,
+  "order": 25,
   "title": "辽宋夏金为什么长期并立",
   "coreQuestion": "多个政权怎样在战争、议和与贸易中相处？",
   "throughline": "从辽、北宋、西夏、金和南宋的地图变化认识政权并立、民族关系和南北对峙。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-ancient-07-01-parallel-regimes",
+    "childTitle": "给两个年份配地图",
+    "prompt": "同一段时间里，地图上会不会有几个政权？",
+    "takeaway": "辽、宋、西夏、金在不同时间窗口先后并立；它们不是宋的下属，也不能全部塞进同一年。",
+    "object": "分期地图、盟约与货币",
+    "people": [
+      "两扇时间窗里的不同政权"
+    ],
+    "place": "开封、上京、中兴府与中都",
+    "culture": "多种文字与器物传统",
+    "care": "政权卡是同处时间窗的关系图，不是真实疆界图；不把并立政权画成宋的从属。",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-07-01-parallel-regimes",
+    "featured": {
+      "type": "历史",
+      "icon": "🗺️",
+      "title": "两扇时间窗里的不同政权",
+      "childBridge": "同一段时间里，地图上会不会有几个政权？",
+      "evidenceBoundary": "政权卡是同处时间窗的关系图，不是真实疆界图；不把并立政权画成宋的从属。"
+    },
+    "companions": [
+      {
+        "type": "人物故事",
+        "label": "岳飞与南宋",
+        "note": "一位人物只能打开一扇窗，不能代表多政权全部关系。"
+      },
+      {
+        "type": "成语故事",
+        "label": "精忠报国",
+        "note": "后世故事和文化记忆要与可核验史实分开。"
+      },
+      {
+        "type": "地点",
+        "label": "开封、中都与上京",
+        "note": "多座都城帮助理解多个政权同时存在。"
+      }
+    ],
+    "sourceIds": [
+      "NMC-LIAO-SONG-XIA-JIN-YUAN",
+      "NEAC-LIAO-SONG-XIA-JIN-CHINA",
+      "PEP-HISTORY-7B-2026-TRIAL"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "两张地图的时间",
+      "text": "1111年，可看到辽、北宋和西夏。到1160年，则有金、南宋和西夏。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "同一窗里看几家",
+      "text": "把1111年的时间窗打开，辽、北宋、西夏同处这一窗口，它们是不同政权。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "把时间推到1160年",
+      "text": "时间向前走，组合变了：这一窗口看金、南宋和西夏。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "相邻不是上下级",
+      "text": "这些政权有交战、和议与往来。今天只看关系：同时存在不等于谁是谁的下属。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "给地图加日期",
+      "text": "没有时间的地图容易把不同年代混到一起。每次换图，先检查年份。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "货币",
+      "icon": "🪙",
+      "plain": "大家用来交换和计算价值的共同工具。",
+      "example": "贝壳、铜钱、纸币形状不同，都要看当时怎样使用。",
+      "priority": 2
+    },
+    {
+      "term": "政权",
+      "icon": "🏛️",
+      "plain": "谁在用什么机构和规则管理一个地方。",
+      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
+      "priority": 2
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "迁徙",
+      "icon": "👣",
+      "plain": "人们离开原住地，搬到别的地方生活。",
+      "example": "迁徙可能因为气候、生计、战争或主动选择。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "手工业",
+      "icon": "🧵",
+      "plain": "主要靠手和工具制作器物的生产活动。",
+      "example": "陶器、织物和青铜器都需要材料、技术与分工。",
+      "priority": 2
+    },
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "中都",
+      "reading": "Zhōngdū",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-07-01-parallel-regimes"
+      ],
+      "note": "“都”在都城名称中读dū。"
+    },
+    {
+      "text": "中兴府",
+      "reading": "Zhōngxīngfǔ",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-07-01-parallel-regimes"
+      ],
+      "note": "“兴”在此读xīng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "给两个年份配地图",
+      "question": "同一段时间里，地图上会不会有几个政权？"
+    },
+    "cta": "去找同时的邻居",
+    "anchor": "两扇时间窗里的不同政权",
+    "boundary": "政权卡是同处时间窗的关系图，不是真实疆界图；不把并立政权画成宋的从属。",
+    "evidence": [],
+    "coverAsset": {
+      "id": "liao-tomb-mural-fragment-photo",
+      "title": "辽墓人物壁画残片照片",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/liao-tomb-mural-fragment.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fragment_of_a_Liao_dynasty_tomb_mural.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "内蒙古林东北山开龙寺墓地出土的一块辽代人物壁画残片照片。",
+      "boundary": "具体出土信息来自Commons文件说明，课程只将其作为辽代墓葬彩绘残片的观察材料。它不是完整壁画、人物肖像照或族群身份鉴定材料；不得仅凭面貌判断人物身份。下载为1920像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/liao-tomb-mural-fragment-photo.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/liao-tomb-mural-fragment-photo.jpg",
+    "coverImageAlt": "辽墓人物壁画残片照片",
+    "coverImageKind": "历史材料",
+    "coverAudio": {
+      "id": "quest-7b367e33c391c46e",
+      "text": "给两个年份配地图。同一段时间里，地图上会不会有几个政权？准备好就点“去找同时的邻居”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-37ad34f310e1fc7d",
+      "text": "辽、宋、西夏、金在不同时间窗口先后并立；它们不是宋的下属，也不能全部塞进同一年。"
+    },
+    "finish": {
+      "title": "家人报年份，你来指地图",
+      "actions": [
+        "家人说1111年，你指“辽、北宋、西夏”。",
+        "家人说1160年，你再指另一组，不用背数字。"
+      ],
+      "parent": "由家长读日期和名称。孩子能理解“同一年可以有几家”和“换年份组合会变”即可；图不作边界考题。",
+      "sceneStepIndexes": [
+        0,
+        2
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-1f865ff1a9f1a75b",
+          "text": "家人说1111年，你指“辽、北宋、西夏”。"
+        },
+        {
+          "id": "quest-7aab5afa5b460009",
+          "text": "家人说1160年，你再指另一组，不用背数字。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-786752247f21eeab",
+        "text": "家人报年份，你来指地图。家人说1111年，你指“辽、北宋、西夏”。家人说1160年，你再指另一组，不用背数字。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "两张地图的时间",
+        "title": "两张地图的时间",
+        "prompt": "哪一年应该配“辽、北宋、西夏”？",
+        "rightNote": "1111年与1160年的政权组合不同，先看日期再配图。",
+        "wrongNote": "1111年与1160年的政权组合不同，先看日期再配图。",
+        "sourceIds": [
+          "NEAC-LIAO-SONG-XIA-JIN-CHINA",
+          "NMC-LIAO-SONG-XIA-JIN-YUAN"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "两张地图的时间",
+          "screenText": "1111年，可看到辽、北宋和西夏。到1160年，则有金、南宋和西夏。",
+          "displayText": "1111年，可看到辽、北宋和西夏。到1160年，则有金、南宋和西夏。",
+          "narration": "1111年，可看到辽、北宋和西夏。到1160年，则有金、南宋和西夏。"
+        },
+        "assetId": "study-db990f379f67323b",
+        "image": "/content/study-scenes/study-db990f379f67323b.svg",
+        "studyImage": "/content/study-scenes/study-db990f379f67323b.svg",
+        "studyImageAlt": "1111年 辽 北宋 西夏，1160年 金 南宋 西夏",
+        "imageAlt": "1111年 辽 北宋 西夏，1160年 金 南宋 西夏",
+        "imageCaption": "学习示意 · 1111年 辽 北宋 西夏，1160年 金 南宋 西夏",
+        "imageBoundary": "自制学习示意。政权卡是同处时间窗的关系图，不是真实疆界图；不把并立政权画成宋的从属。",
+        "audio": {
+          "transition": {
+            "id": "quest-4b310b7bf2916355",
+            "text": "两张地图的时间。"
+          },
+          "intro": {
+            "id": "quest-4cacec6df19603e1",
+            "text": "1111年，可看到辽、北宋和西夏。到1160年，则有金、南宋和西夏。"
+          },
+          "question": {
+            "id": "quest-19b0347213c8adc5",
+            "text": "哪一年应该配“辽、北宋、西夏”？"
+          },
+          "image": {
+            "id": "quest-e12a2e2882627ebc",
+            "text": "这是学习示意图：1111年 辽 北宋 西夏，1160年 金 南宋 西夏。哪一年应该配“辽、北宋、西夏”？"
+          },
+          "right": {
+            "id": "quest-f12e4eec9d3998d0",
+            "text": "找到了。1111年与1160年的政权组合不同，先看日期再配图。"
+          },
+          "wrong": {
+            "id": "quest-38138d1985146893",
+            "text": "再比较一下。1111年与1160年的政权组合不同，先看日期再配图。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-01-parallel-regimes-time-1",
+            "label": "1111年",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-1819e8ad5a575b69.svg",
+            "imageAlt": "1111年",
+            "audio": {
+              "id": "quest-f9339b52d8288672",
+              "text": "1111年"
+            }
+          },
+          {
+            "id": "cn-ancient-07-01-parallel-regimes-time-2",
+            "label": "1160年",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-31c0bd7648e6d0cf.svg",
+            "imageAlt": "1160年",
+            "audio": {
+              "id": "quest-fe181c20dedefd12",
+              "text": "1160年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "同一窗里看几家",
+        "title": "同一窗里看几家",
+        "prompt": "该怎样摆这三张卡？",
+        "rightNote": "这道题说的是同时存在，不能改成单线先后。",
+        "wrongNote": "这道题说的是同时存在，不能改成单线先后。",
+        "sourceIds": [
+          "NEAC-LIAO-SONG-XIA-JIN-CHINA",
+          "NMC-LIAO-SONG-XIA-JIN-YUAN"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "同一窗里看几家",
+          "screenText": "把1111年的时间窗打开，辽、北宋、西夏同处这一窗口，它们是不同政权。",
+          "displayText": "把1111年的时间窗打开，辽、北宋、西夏同处这一窗口，它们是不同政权。",
+          "narration": "把1111年的时间窗打开，辽、北宋、西夏同处这一窗口，它们是不同政权。"
+        },
+        "assetId": "study-955b98b29366d182",
+        "image": "/content/study-scenes/study-955b98b29366d182.svg",
+        "studyImage": "/content/study-scenes/study-955b98b29366d182.svg",
+        "studyImageAlt": "1111年 三个政权",
+        "imageAlt": "1111年 三个政权",
+        "imageCaption": "学习示意 · 1111年 三个政权",
+        "imageBoundary": "自制学习示意。政权卡是同处时间窗的关系图，不是真实疆界图；不把并立政权画成宋的从属。",
+        "audio": {
+          "transition": {
+            "id": "quest-615219159b8eb272",
+            "text": "同一窗里看几家。"
+          },
+          "intro": {
+            "id": "quest-7a448d1c1d45f9ee",
+            "text": "把1111年的时间窗打开，辽、北宋、西夏同处这一窗口，它们是不同政权。"
+          },
+          "question": {
+            "id": "quest-76ec51c066c3648b",
+            "text": "该怎样摆这三张卡？"
+          },
+          "image": {
+            "id": "quest-4c22efb988d81669",
+            "text": "这是学习示意图：1111年 三个政权。该怎样摆这三张卡？"
+          },
+          "right": {
+            "id": "quest-3b1321e6f4d2bf0b",
+            "text": "找到了。这道题说的是同时存在，不能改成单线先后。"
+          },
+          "wrong": {
+            "id": "quest-b4e2ec39aedd04b7",
+            "text": "再比较一下。这道题说的是同时存在，不能改成单线先后。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-01-parallel-regimes-beginning-1",
+            "label": "并排放进同一年",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-5936975f735dae73.svg",
+            "imageAlt": "辽｜北宋｜西夏",
+            "audio": {
+              "id": "quest-50f1010f7c3d0b71",
+              "text": "并排放进同一年"
+            }
+          },
+          {
+            "id": "cn-ancient-07-01-parallel-regimes-beginning-2",
+            "label": "排成先辽再北宋再西夏",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-926e606aecc0f481.svg",
+            "imageAlt": "辽→北宋→西夏",
+            "audio": {
+              "id": "quest-d8c99160a5094258",
+              "text": "排成先辽再北宋再西夏"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "把时间推到1160年",
+        "title": "把时间推到1160年",
+        "prompt": "原来的北宋卡要换成哪张？",
+        "rightNote": "这一窗口里应是南宋，不是把前一张地图原样搬来。",
+        "wrongNote": "这一窗口里应是南宋，不是把前一张地图原样搬来。",
+        "sourceIds": [
+          "NEAC-LIAO-SONG-XIA-JIN-CHINA",
+          "NMC-LIAO-SONG-XIA-JIN-YUAN"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "把时间推到1160年",
+          "screenText": "时间向前走，组合变了：这一窗口看金、南宋和西夏。",
+          "displayText": "时间向前走，组合变了：这一窗口看金、南宋和西夏。",
+          "narration": "时间向前走，组合变了：这一窗口看金、南宋和西夏。"
+        },
+        "assetId": "study-070bffd1bdb9f5fb",
+        "image": "/content/study-scenes/study-070bffd1bdb9f5fb.svg",
+        "studyImage": "/content/study-scenes/study-070bffd1bdb9f5fb.svg",
+        "studyImageAlt": "1160年，金 南宋 西夏",
+        "imageAlt": "1160年，金 南宋 西夏",
+        "imageCaption": "学习示意 · 1160年，金 南宋 西夏",
+        "imageBoundary": "自制学习示意。政权卡是同处时间窗的关系图，不是真实疆界图；不把并立政权画成宋的从属。",
+        "audio": {
+          "transition": {
+            "id": "quest-5a1007319cab1976",
+            "text": "把时间推到1160年。"
+          },
+          "intro": {
+            "id": "quest-d13b67e612e0b9cc",
+            "text": "时间向前走，组合变了：这一窗口看金、南宋和西夏。"
+          },
+          "question": {
+            "id": "quest-337c460846d9768b",
+            "text": "原来的北宋卡要换成哪张？"
+          },
+          "image": {
+            "id": "quest-a94e5e7b1bc9231d",
+            "text": "这是学习示意图：1160年，金 南宋 西夏。原来的北宋卡要换成哪张？"
+          },
+          "right": {
+            "id": "quest-7c1db60afc63aeaa",
+            "text": "找到了。这一窗口里应是南宋，不是把前一张地图原样搬来。"
+          },
+          "wrong": {
+            "id": "quest-e90ac444e30cd4c6",
+            "text": "再比较一下。这一窗口里应是南宋，不是把前一张地图原样搬来。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-01-parallel-regimes-journey-1",
+            "label": "南宋",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-1692f368b884f537.svg",
+            "imageAlt": "南宋",
+            "audio": {
+              "id": "quest-8561df4a8a4eaa2f",
+              "text": "南宋"
+            }
+          },
+          {
+            "id": "cn-ancient-07-01-parallel-regimes-journey-2",
+            "label": "辽",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-efb947ce7575d0fd.svg",
+            "imageAlt": "辽",
+            "audio": {
+              "id": "quest-ad181593b1c0cf45",
+              "text": "辽"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "相邻不是上下级",
+        "title": "相邻不是上下级",
+        "prompt": "哪张图不会误写成上下级？",
+        "rightNote": "并列表示不同政权同时存在，不给它们排文明高低。",
+        "wrongNote": "并列表示不同政权同时存在，不给它们排文明高低。",
+        "sourceIds": [
+          "NEAC-LIAO-SONG-XIA-JIN-CHINA",
+          "NMC-LIAO-SONG-XIA-JIN-YUAN"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "相邻不是上下级",
+          "screenText": "这些政权有交战、和议与往来。今天只看关系：同时存在不等于谁是谁的下属。",
+          "displayText": "这些政权有交战、和议与往来。今天只看关系：同时存在不等于谁是谁的下属。",
+          "narration": "这些政权有交战、和议与往来。今天只看关系：同时存在不等于谁是谁的下属。"
+        },
+        "assetId": "study-cbe05f6257b1f42f",
+        "image": "/content/study-scenes/study-cbe05f6257b1f42f.svg",
+        "studyImage": "/content/study-scenes/study-cbe05f6257b1f42f.svg",
+        "studyImageAlt": "不同政权",
+        "imageAlt": "不同政权",
+        "imageCaption": "学习示意 · 不同政权",
+        "imageBoundary": "自制学习示意。政权卡是同处时间窗的关系图，不是真实疆界图；不把并立政权画成宋的从属。",
+        "audio": {
+          "transition": {
+            "id": "quest-1ea553d1e1e3f2db",
+            "text": "相邻不是上下级。"
+          },
+          "intro": {
+            "id": "quest-9534c81394049f8f",
+            "text": "这些政权有交战、和议与往来。今天只看关系：同时存在不等于谁是谁的下属。"
+          },
+          "question": {
+            "id": "quest-f1291fdcce59851c",
+            "text": "哪张图不会误写成上下级？"
+          },
+          "image": {
+            "id": "quest-0433aac5b2502e78",
+            "text": "这是学习示意图：不同政权。哪张图不会误写成上下级？"
+          },
+          "right": {
+            "id": "quest-1aff84f1f4f8c394",
+            "text": "找到了。并列表示不同政权同时存在，不给它们排文明高低。"
+          },
+          "wrong": {
+            "id": "quest-9d437d7fc49291be",
+            "text": "再比较一下。并列表示不同政权同时存在，不给它们排文明高低。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-01-parallel-regimes-change-1",
+            "label": "几个政权并列",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-b7eff4092cacc8e5.svg",
+            "imageAlt": "各自并列",
+            "audio": {
+              "id": "quest-6e9cc8989af2f273",
+              "text": "几个政权并列"
+            }
+          },
+          {
+            "id": "cn-ancient-07-01-parallel-regimes-change-2",
+            "label": "宋在上面统领其他",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-b69b5110018be9ca.svg",
+            "imageAlt": "宋统领其余",
+            "audio": {
+              "id": "quest-dba98ec7466071bd",
+              "text": "宋在上面统领其他"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "给地图加日期",
+        "title": "给地图加日期",
+        "prompt": "两张图看起来不同，先核对什么？",
+        "rightNote": "年份决定这一刻能看见哪些政权，颜色只是辅助。",
+        "wrongNote": "年份决定这一刻能看见哪些政权，颜色只是辅助。",
+        "sourceIds": [
+          "NEAC-LIAO-SONG-XIA-JIN-CHINA",
+          "NMC-LIAO-SONG-XIA-JIN-YUAN"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "给地图加日期",
+          "screenText": "没有时间的地图容易把不同年代混到一起。每次换图，先检查年份。",
+          "displayText": "没有时间的地图容易把不同年代混到一起。每次换图，先检查年份。",
+          "narration": "没有时间的地图容易把不同年代混到一起。每次换图，先检查年份。"
+        },
+        "assetId": "study-7d52ed5dd0c21c8b",
+        "image": "/content/study-scenes/study-7d52ed5dd0c21c8b.svg",
+        "studyImage": "/content/study-scenes/study-7d52ed5dd0c21c8b.svg",
+        "studyImageAlt": "地图，标日期",
+        "imageAlt": "地图，标日期",
+        "imageCaption": "学习示意 · 地图，标日期",
+        "imageBoundary": "自制学习示意。政权卡是同处时间窗的关系图，不是真实疆界图；不把并立政权画成宋的从属。",
+        "audio": {
+          "transition": {
+            "id": "quest-d05e09e0b2e744ff",
+            "text": "给地图加日期。"
+          },
+          "intro": {
+            "id": "quest-228b85320ec31b9b",
+            "text": "没有时间的地图容易把不同年代混到一起。每次换图，先检查年份。"
+          },
+          "question": {
+            "id": "quest-2ed5650add326a89",
+            "text": "两张图看起来不同，先核对什么？"
+          },
+          "image": {
+            "id": "quest-dc3bc6dbd38fe3e0",
+            "text": "这是学习示意图：地图，标日期。两张图看起来不同，先核对什么？"
+          },
+          "right": {
+            "id": "quest-8904b4bbb24cfe6b",
+            "text": "找到了。年份决定这一刻能看见哪些政权，颜色只是辅助。"
+          },
+          "wrong": {
+            "id": "quest-3a307243acf4df46",
+            "text": "再比较一下。年份决定这一刻能看见哪些政权，颜色只是辅助。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-01-parallel-regimes-takeaway-1",
+            "label": "各自的年份",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-fc8004aad1de670f.svg",
+            "imageAlt": "核对日期",
+            "audio": {
+              "id": "quest-9315b5a485086fca",
+              "text": "各自的年份"
+            }
+          },
+          {
+            "id": "cn-ancient-07-01-parallel-regimes-takeaway-2",
+            "label": "哪张颜色更漂亮",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-25e115ca7d63b2ff.svg",
+            "imageAlt": "挑颜色",
+            "audio": {
+              "id": "quest-1e89899b11e328e6",
+              "text": "哪张颜色更漂亮"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "地图换时间",
+        "items": [
+          "把“1111年前后”和“1127年以后”放到不同地图槽位，拒绝一图包办三百年。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "关系三角形",
+        "items": [
+          "把战争、议和、贸易分别连到相应证据，理解它们可以先后或同时出现。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "拒绝单一标签",
+        "items": [
+          "从“多个政权共同参与中国历史”与“宋朝对几个外国”中选择证据支持的表述。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "10—13世纪，中国境内先后有辽、北宋、西夏、金、南宋等政权并立。它们会争夺土地和资源，也会议和、互派使者、设置市场并交换物品。边界和力量不断变化，不存在一张地图可以代表三百多年。契丹、汉、党项、女真等不同人群并非各自完全隔绝；制度、文字、技术和生活方式持续交流。儿童叙事不把这一段简化成“宋朝对外国”，也不按族群给战争双方贴固定善恶标签。"
@@ -272,28 +1004,265 @@
       "authorityLevel": "A",
       "factUse": "1206年蒙古政权建立、1271年定国号元和1279年完成统一的时间节点",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-HISTORY-7B-2026-TRIAL",
+      "title": "新修订义务教育历史教材七年级下册试教资料",
+      "institution": "人民教育出版社",
+      "url": "https://www.pep.com.cn/xw/zt/hd/sktbjc/jcsy/202606/t20260610_2006778.html",
+      "type": "current-textbook-implementation-reference",
+      "authorityLevel": "A-structure-only",
+      "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "study-db990f379f67323b",
+      "title": "学习示意：1111年 辽 北宋 西夏、1160年 金 南宋 西夏",
+      "localPath": "reference-assets/focused-quests/study-db990f379f67323b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1111年 辽 北宋 西夏 → 1160年 金 南宋 西夏",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1819e8ad5a575b69",
+      "title": "学习示意：1111年",
+      "localPath": "reference-assets/focused-quests/study-1819e8ad5a575b69.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1111年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-31c0bd7648e6d0cf",
+      "title": "学习示意：1160年",
+      "localPath": "reference-assets/focused-quests/study-31c0bd7648e6d0cf.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1160年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-955b98b29366d182",
+      "title": "学习示意：1111年 三个政权",
+      "localPath": "reference-assets/focused-quests/study-955b98b29366d182.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1111年 三个政权",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5936975f735dae73",
+      "title": "学习示意：辽｜北宋｜西夏",
+      "localPath": "reference-assets/focused-quests/study-5936975f735dae73.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "辽｜北宋｜西夏",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-926e606aecc0f481",
+      "title": "学习示意：辽→北宋→西夏",
+      "localPath": "reference-assets/focused-quests/study-926e606aecc0f481.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "辽→北宋→西夏",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-070bffd1bdb9f5fb",
+      "title": "学习示意：1160年、金 南宋 西夏",
+      "localPath": "reference-assets/focused-quests/study-070bffd1bdb9f5fb.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1160年 → 金 南宋 西夏",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1692f368b884f537",
+      "title": "学习示意：南宋",
+      "localPath": "reference-assets/focused-quests/study-1692f368b884f537.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "南宋",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-efb947ce7575d0fd",
+      "title": "学习示意：辽",
+      "localPath": "reference-assets/focused-quests/study-efb947ce7575d0fd.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "辽",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-cbe05f6257b1f42f",
+      "title": "学习示意：不同政权",
+      "localPath": "reference-assets/focused-quests/study-cbe05f6257b1f42f.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "不同政权",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b7eff4092cacc8e5",
+      "title": "学习示意：各自并列",
+      "localPath": "reference-assets/focused-quests/study-b7eff4092cacc8e5.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "各自并列",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b69b5110018be9ca",
+      "title": "学习示意：宋统领其余",
+      "localPath": "reference-assets/focused-quests/study-b69b5110018be9ca.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "宋统领其余",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-7d52ed5dd0c21c8b",
+      "title": "学习示意：地图、标日期",
+      "localPath": "reference-assets/focused-quests/study-7d52ed5dd0c21c8b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "地图 → 标日期",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-fc8004aad1de670f",
+      "title": "学习示意：核对日期",
+      "localPath": "reference-assets/focused-quests/study-fc8004aad1de670f.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "核对日期",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-25e115ca7d63b2ff",
+      "title": "学习示意：挑颜色",
+      "localPath": "reference-assets/focused-quests/study-25e115ca7d63b2ff.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "挑颜色",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "song-liao-xixia-1111-modern-map",
       "title": "1111年前后辽、北宋、西夏形势现代示意图",
       "localPath": "reference-assets/liao-song-xia-jin-yuan/song-liao-xixia-1111-map.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Song-Liao-Xixia-1111.png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 3.0",
       "clearance": "cleared-open-license",
       "caption": "现代作者绘制的1111年前后辽、北宋、西夏形势示意图；原图为英文标注。",
-      "boundary": "这是现代研究示意和单一时间切片，不是古地图、现代国界或916—1279年通用形势图。儿童版须加中文对照标签；不能凭图上色块判断今天的主权范围。原图556×537像素，未作修改。"
+      "boundary": "这是现代研究示意和单一时间切片，不是古地图、现代国界或916—1279年通用形势图。儿童版须加中文对照标签；不能凭图上色块判断今天的主权范围。原图556×537像素，未作修改。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "liao-tomb-mural-fragment-photo",
       "title": "辽墓人物壁画残片照片",
       "localPath": "reference-assets/liao-song-xia-jin-yuan/liao-tomb-mural-fragment.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Fragment_of_a_Liao_dynasty_tomb_mural.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "内蒙古林东北山开龙寺墓地出土的一块辽代人物壁画残片照片。",
-      "boundary": "具体出土信息来自Commons文件说明，课程只将其作为辽代墓葬彩绘残片的观察材料。它不是完整壁画、人物肖像照或族群身份鉴定材料；不得仅凭面貌判断人物身份。下载为1920像素等比例图，未作其他修改。"
+      "boundary": "具体出土信息来自Commons文件说明，课程只将其作为辽代墓葬彩绘残片的观察材料。它不是完整壁画、人物肖像照或族群身份鉴定材料；不得仅凭面貌判断人物身份。下载为1920像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qingming-scroll-rainbow-bridge-detail",
+      "title": "张择端《清明上河图》虹桥附近局部",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/qingming-river-original-detail.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_(detail_of_original).jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "北宋张择端《清明上河图》中虹桥附近的局部图像。",
+      "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "liao-song-xixia-jin-two-times-child-map",
+      "title": "1111与1160年前后辽宋夏金双时间片儿童地图",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/liao-song-xixia-jin-two-times-child-map.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童双时间片地图：1111年前后看辽、北宋、西夏，1160年前后看金、南宋、西夏，并定位上京、开封、中兴府、中都和临安。",
+      "boundary": "2026-08-12为低龄玩法自制。它不是古地图、现代国界图或精确政权边界复原；两个时间片用来避免把辽、北宋、西夏、金误说成全程同时存在，色块与线条只服务低龄方位比较。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-07-01-parallel-regimes.jpg",

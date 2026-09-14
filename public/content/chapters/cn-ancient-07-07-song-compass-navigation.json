@@ -1,0 +1,1141 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.13.0",
+  "id": "cn-ancient-07-07-song-compass-navigation",
+  "trackId": "china-ancient",
+  "trackLabel": "中国古代史",
+  "period": {
+    "id": "song",
+    "label": "宋朝（与辽·西夏·金并立）",
+    "years": "916—1279年（宋960年起）"
+  },
+  "order": 28,
+  "title": "小小指南针为什么不能独自开船",
+  "coreQuestion": "指南针和星辰、风向、水深怎样一起帮助海船辨认方向？",
+  "throughline": "从磁针方向线索进入天空、海岸、风向和水深的航海工具链，再让船上成年人观察、记录、商量并不断修正航路。",
+  "childEntry": {
+    "id": "cn-ancient-07-07-song-compass-navigation",
+    "childTitle": "阴天里帮船工找方向",
+    "prompt": "看不见太阳和星星时，指向的针能帮什么忙？",
+    "takeaway": "宋代航海记录中已有指南针使用；方向线索要和风浪、海岸、航路经验一起判断。",
+    "object": "指南浮针与航海工具箱",
+    "people": [
+      "宋代船工"
+    ],
+    "place": "宋代海船、港口与近海航路",
+    "culture": "宋代航海记录与“四项技术时间带”",
+    "care": "磁针图只解释指向功能，不复原某艘宋船的仪器形制，不把指南针当现代自动导航。",
+    "preferredAssetId": "song-floating-compass-fish-child-diagram",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-07-07-song-compass-navigation",
+    "featured": {
+      "type": "技术",
+      "icon": "🧭",
+      "title": "宋代船工",
+      "childBridge": "看不见太阳和星星时，指向的针能帮什么忙？",
+      "evidenceBoundary": "磁针图只解释指向功能，不复原某艘宋船的仪器形制，不把指南针当现代自动导航。"
+    },
+    "companions": [
+      {
+        "type": "天空",
+        "label": "星辰和太阳",
+        "note": "晴朗时提供方向与时间线索，阴天还要换方法。"
+      },
+      {
+        "type": "地点",
+        "label": "宋代港口与海船",
+        "note": "港口、航路和船上协作让工具真正被使用。"
+      },
+      {
+        "type": "技术时间带",
+        "label": "纸—印刷—指南针—火药",
+        "note": "指南针是四条跨时代技术线之一。"
+      }
+    ],
+    "sourceIds": [
+      "CAS-ANCIENT-NAVIGATION",
+      "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+      "CAS-FOUR-GREAT-INVENTIONS"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "指南针上船的时间",
+      "text": "宋代的航海记载已经说到用指南针辨方向。我们来到宋代船工的故事。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "抬头看不清天空",
+      "text": "船工会参考太阳和星星。今天的学习图里云很厚，看不到它们。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "针告诉哪一类消息",
+      "text": "指向的针帮助辨别方向，却不会写出前方暗礁、水深和所有危险。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "有方向还要看风浪",
+      "text": "船工还要注意风、浪、海岸和航路。针指着一个方向，不代表船可以不顾天气直走。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "给小船配一组帮手",
+      "text": "看天、看海、辨方向、照料船，各有作用。航海需要一组办法。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "指南针",
+      "reading": "Zhǐnánzhēn",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-07-07-song-compass-navigation"
+      ],
+      "note": "“指”读zhǐ，三字连读。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "阴天里帮船工找方向",
+      "question": "看不见太阳和星星时，指向的针能帮什么忙？"
+    },
+    "cta": "去看船上的针",
+    "anchor": "宋代船工",
+    "boundary": "磁针图只解释指向功能，不复原某艘宋船的仪器形制，不把指南针当现代自动导航。",
+    "evidence": [],
+    "coverAsset": {
+      "id": "song-floating-compass-fish-child-diagram",
+      "title": "宋代指南浮针与航海工具箱儿童示意图",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-floating-compass-fish-child-diagram.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童原理图：用浮在水面上的磁性指南工具辨认南方，同时观察星辰、风向和水深。",
+      "boundary": "2026-08-12为低龄玩法自制。它不是宋代指南鱼或海船实物照片，也不是精确器物、船只或航海现场复原；画面明确指南工具只是航海技术链的一环，不能理解成自动驾驶。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/song-floating-compass-fish-child-diagram.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/song-floating-compass-fish-child-diagram.jpg",
+    "coverImageAlt": "宋代指南浮针与航海工具箱儿童示意图",
+    "coverImageKind": "故事插画",
+    "coverAudio": {
+      "id": "quest-42639d6da6f4e666",
+      "text": "阴天里帮船工找方向。看不见太阳和星星时，指向的针能帮什么忙？准备好就点“去看船上的针”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-00ebf40d3f86125c",
+      "text": "宋代航海记录中已有指南针使用；方向线索要和风浪、海岸、航路经验一起判断。"
+    },
+    "finish": {
+      "title": "给家人的手心船指路",
+      "actions": [
+        "伸出一根手指当指向的针，家人手心当船。",
+        "家人说“风大啦”，你补一句：还要看风浪。"
+      ],
+      "parent": "这是理解工具边界的手势游戏，不自制磁化针或进行真实水域活动。孩子能说“针帮找方向，还要看天气”即可。",
+      "sceneStepIndexes": [
+        2,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-5ac577a98d6c0700",
+          "text": "伸出一根手指当指向的针，家人手心当船。"
+        },
+        {
+          "id": "quest-b688e594ed30972d",
+          "text": "家人说“风大啦”，你补一句：还要看风浪。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-a164e9731602fa9a",
+        "text": "给家人的手心船指路。伸出一根手指当指向的针，家人手心当船。家人说“风大啦”，你补一句：还要看风浪。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "指南针上船的时间",
+        "title": "指南针上船的时间",
+        "prompt": "先停在哪个时代？",
+        "rightNote": "本章依据的是宋代航海记载，不能把同样说法任意放到更早年代。",
+        "wrongNote": "本章依据的是宋代航海记载，不能把同样说法任意放到更早年代。",
+        "sourceIds": [
+          "CAS-ANCIENT-NAVIGATION"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "指南针上船的时间",
+          "screenText": "宋代的航海记载已经说到用指南针辨方向。我们来到宋代船工的故事。",
+          "displayText": "宋代的航海记载已经说到用指南针辨方向。我们来到宋代船工的故事。",
+          "narration": "宋代的航海记载已经说到用指南针辨方向。我们来到宋代船工的故事。"
+        },
+        "assetId": "study-b583675aa2bd3ded",
+        "image": "/content/study-scenes/study-b583675aa2bd3ded.svg",
+        "studyImage": "/content/study-scenes/study-b583675aa2bd3ded.svg",
+        "studyImageAlt": "隋，宋代航海记录",
+        "imageAlt": "隋，宋代航海记录",
+        "imageCaption": "学习示意 · 隋，宋代航海记录",
+        "imageBoundary": "自制学习示意。磁针图只解释指向功能，不复原某艘宋船的仪器形制，不把指南针当现代自动导航。",
+        "audio": {
+          "transition": {
+            "id": "quest-fe97e903a5ac7738",
+            "text": "指南针上船的时间。"
+          },
+          "intro": {
+            "id": "quest-5fe53177c49ce452",
+            "text": "宋代的航海记载已经说到用指南针辨方向。我们来到宋代船工的故事。"
+          },
+          "question": {
+            "id": "quest-a9048b3b0128df3b",
+            "text": "先停在哪个时代？"
+          },
+          "image": {
+            "id": "quest-4ffa94be8cdb6c97",
+            "text": "这是学习示意图：隋，宋代航海记录。先停在哪个时代？"
+          },
+          "right": {
+            "id": "quest-3a157c596b7a0046",
+            "text": "找到了。本章依据的是宋代航海记载，不能把同样说法任意放到更早年代。"
+          },
+          "wrong": {
+            "id": "quest-6fdcf01bb137849c",
+            "text": "再比较一下。本章依据的是宋代航海记载，不能把同样说法任意放到更早年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-07-song-compass-navigation-time-1",
+            "label": "宋 · 960年以后",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-c23c6a7c5536f283.svg",
+            "imageAlt": "宋 960年以后",
+            "audio": {
+              "id": "quest-c897f10eed24c923",
+              "text": "宋 · 960年以后"
+            }
+          },
+          {
+            "id": "cn-ancient-07-07-song-compass-navigation-time-2",
+            "label": "隋 · 581—618年",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-8ff9602cb494f704.svg",
+            "imageAlt": "隋 581—618年",
+            "audio": {
+              "id": "quest-c4c1a53f0d43dc68",
+              "text": "隋 · 581—618年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "抬头看不清天空",
+        "title": "抬头看不清天空",
+        "prompt": "这时哪件工具可以补充方向线索？",
+        "rightNote": "粮食很重要，但这道题在找方向线索。",
+        "wrongNote": "粮食很重要，但这道题在找方向线索。",
+        "sourceIds": [
+          "CAS-ANCIENT-NAVIGATION"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "抬头看不清天空",
+          "screenText": "船工会参考太阳和星星。今天的学习图里云很厚，看不到它们。",
+          "displayText": "船工会参考太阳和星星。今天的学习图里云很厚，看不到它们。",
+          "narration": "船工会参考太阳和星星。今天的学习图里云很厚，看不到它们。"
+        },
+        "assetId": "study-1159725e1d863967",
+        "image": "/content/study-scenes/study-1159725e1d863967.svg",
+        "studyImage": "/content/study-scenes/study-1159725e1d863967.svg",
+        "studyImageAlt": "云遮天空，海上船",
+        "imageAlt": "云遮天空，海上船",
+        "imageCaption": "学习示意 · 云遮天空，海上船",
+        "imageBoundary": "自制学习示意。磁针图只解释指向功能，不复原某艘宋船的仪器形制，不把指南针当现代自动导航。",
+        "audio": {
+          "transition": {
+            "id": "quest-a156fa6608862da8",
+            "text": "抬头看不清天空。"
+          },
+          "intro": {
+            "id": "quest-b59f1b826c6c1918",
+            "text": "船工会参考太阳和星星。今天的学习图里云很厚，看不到它们。"
+          },
+          "question": {
+            "id": "quest-b5ccd29015652312",
+            "text": "这时哪件工具可以补充方向线索？"
+          },
+          "image": {
+            "id": "quest-c2903b076298a1b9",
+            "text": "这是学习示意图：云遮天空，海上船。这时哪件工具可以补充方向线索？"
+          },
+          "right": {
+            "id": "quest-866c907a9eb6a713",
+            "text": "找到了。粮食很重要，但这道题在找方向线索。"
+          },
+          "wrong": {
+            "id": "quest-9bf0ed7bb84b277b",
+            "text": "再比较一下。粮食很重要，但这道题在找方向线索。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-07-song-compass-navigation-beginning-1",
+            "label": "指向的磁针",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-3587c478855384b2.svg",
+            "imageAlt": "磁针",
+            "audio": {
+              "id": "quest-11313d7c9b8ab682",
+              "text": "指向的磁针"
+            }
+          },
+          {
+            "id": "cn-ancient-07-07-song-compass-navigation-beginning-2",
+            "label": "一袋储备粮食",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-1ae53fd354cc3dac.svg",
+            "imageAlt": "储备粮",
+            "audio": {
+              "id": "quest-aa709423a90ace04",
+              "text": "一袋储备粮食"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "针告诉哪一类消息",
+        "title": "针告诉哪一类消息",
+        "prompt": "它直接帮忙判断什么？",
+        "rightNote": "方向与水深是不同问题，需要不同观察与经验。",
+        "wrongNote": "方向与水深是不同问题，需要不同观察与经验。",
+        "sourceIds": [
+          "CAS-ANCIENT-NAVIGATION"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "针告诉哪一类消息",
+          "screenText": "指向的针帮助辨别方向，却不会写出前方暗礁、水深和所有危险。",
+          "displayText": "指向的针帮助辨别方向，却不会写出前方暗礁、水深和所有危险。",
+          "narration": "指向的针帮助辨别方向，却不会写出前方暗礁、水深和所有危险。"
+        },
+        "assetId": "study-303fd05d6079f022",
+        "image": "/content/study-scenes/study-303fd05d6079f022.svg",
+        "studyImage": "/content/study-scenes/study-303fd05d6079f022.svg",
+        "studyImageAlt": "方向，水深另查",
+        "imageAlt": "方向，水深另查",
+        "imageCaption": "学习示意 · 方向，水深另查",
+        "imageBoundary": "自制学习示意。磁针图只解释指向功能，不复原某艘宋船的仪器形制，不把指南针当现代自动导航。",
+        "audio": {
+          "transition": {
+            "id": "quest-fe732bed8b5b8414",
+            "text": "针告诉哪一类消息。"
+          },
+          "intro": {
+            "id": "quest-98a6c6708f485c71",
+            "text": "指向的针帮助辨别方向，却不会写出前方暗礁、水深和所有危险。"
+          },
+          "question": {
+            "id": "quest-06f20229beca2fb3",
+            "text": "它直接帮忙判断什么？"
+          },
+          "image": {
+            "id": "quest-ce7bb8711a19c333",
+            "text": "这是学习示意图：方向，水深另查。它直接帮忙判断什么？"
+          },
+          "right": {
+            "id": "quest-b8665ffc94090e32",
+            "text": "找到了。方向与水深是不同问题，需要不同观察与经验。"
+          },
+          "wrong": {
+            "id": "quest-e1cd838301aa925a",
+            "text": "再比较一下。方向与水深是不同问题，需要不同观察与经验。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-07-song-compass-navigation-journey-1",
+            "label": "往哪个方向",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-1ae3c727ceabc930.svg",
+            "imageAlt": "方向",
+            "audio": {
+              "id": "quest-d8d8163e094b6286",
+              "text": "往哪个方向"
+            }
+          },
+          {
+            "id": "cn-ancient-07-07-song-compass-navigation-journey-2",
+            "label": "前方每处有多深",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-84883dd255403505.svg",
+            "imageAlt": "每处水深",
+            "audio": {
+              "id": "quest-129f6bc02fac52d3",
+              "text": "前方每处有多深"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "有方向还要看风浪",
+        "title": "有方向还要看风浪",
+        "prompt": "准备接着航行，还要做什么？",
+        "rightNote": "工具提供线索，船员还得观察和配合。",
+        "wrongNote": "工具提供线索，船员还得观察和配合。",
+        "sourceIds": [
+          "CAS-ANCIENT-NAVIGATION"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "有方向还要看风浪",
+          "screenText": "船工还要注意风、浪、海岸和航路。针指着一个方向，不代表船可以不顾天气直走。",
+          "displayText": "船工还要注意风、浪、海岸和航路。针指着一个方向，不代表船可以不顾天气直走。",
+          "narration": "船工还要注意风、浪、海岸和航路。针指着一个方向，不代表船可以不顾天气直走。"
+        },
+        "assetId": "study-7309cb377acb7b22",
+        "image": "/content/study-scenes/study-7309cb377acb7b22.svg",
+        "studyImage": "/content/study-scenes/study-7309cb377acb7b22.svg",
+        "studyImageAlt": "磁针，风浪，航路",
+        "imageAlt": "磁针，风浪，航路",
+        "imageCaption": "学习示意 · 磁针，风浪，航路",
+        "imageBoundary": "自制学习示意。磁针图只解释指向功能，不复原某艘宋船的仪器形制，不把指南针当现代自动导航。",
+        "audio": {
+          "transition": {
+            "id": "quest-6fe0b0c9ed859981",
+            "text": "有方向还要看风浪。"
+          },
+          "intro": {
+            "id": "quest-73194c4bcc53f70b",
+            "text": "船工还要注意风、浪、海岸和航路。针指着一个方向，不代表船可以不顾天气直走。"
+          },
+          "question": {
+            "id": "quest-19613c18be77f994",
+            "text": "准备接着航行，还要做什么？"
+          },
+          "image": {
+            "id": "quest-7277501b06ea9348",
+            "text": "这是学习示意图：磁针，风浪，航路。准备接着航行，还要做什么？"
+          },
+          "right": {
+            "id": "quest-b0e6fe975d930305",
+            "text": "找到了。工具提供线索，船员还得观察和配合。"
+          },
+          "wrong": {
+            "id": "quest-f218ba9beb823c62",
+            "text": "再比较一下。工具提供线索，船员还得观察和配合。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-07-song-compass-navigation-change-1",
+            "label": "结合风浪和航路判断",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-819e515d5ad25346.svg",
+            "imageAlt": "方向，天气，路线",
+            "audio": {
+              "id": "quest-38706ec645e5bd5e",
+              "text": "结合风浪和航路判断"
+            }
+          },
+          {
+            "id": "cn-ancient-07-07-song-compass-navigation-change-2",
+            "label": "只盯着针，不看周围",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-30810471de5c794c.svg",
+            "imageAlt": "只看磁针",
+            "audio": {
+              "id": "quest-c65fffa48953a74e",
+              "text": "只盯着针，不看周围"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "给小船配一组帮手",
+        "title": "给小船配一组帮手",
+        "prompt": "哪组准备更完整？",
+        "rightNote": "指南针是重要工具，也需要人的判断与经验。",
+        "wrongNote": "指南针是重要工具，也需要人的判断与经验。",
+        "sourceIds": [
+          "CAS-ANCIENT-NAVIGATION"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "给小船配一组帮手",
+          "screenText": "看天、看海、辨方向、照料船，各有作用。航海需要一组办法。",
+          "displayText": "看天、看海、辨方向、照料船，各有作用。航海需要一组办法。",
+          "narration": "看天、看海、辨方向、照料船，各有作用。航海需要一组办法。"
+        },
+        "assetId": "study-e11b12177e78b78c",
+        "image": "/content/study-scenes/study-e11b12177e78b78c.svg",
+        "studyImage": "/content/study-scenes/study-e11b12177e78b78c.svg",
+        "studyImageAlt": "工具，观察，合作",
+        "imageAlt": "工具，观察，合作",
+        "imageCaption": "学习示意 · 工具，观察，合作",
+        "imageBoundary": "自制学习示意。磁针图只解释指向功能，不复原某艘宋船的仪器形制，不把指南针当现代自动导航。",
+        "audio": {
+          "transition": {
+            "id": "quest-c5dbae82f86d56f3",
+            "text": "给小船配一组帮手。"
+          },
+          "intro": {
+            "id": "quest-1c3de1e83c7eeaf7",
+            "text": "看天、看海、辨方向、照料船，各有作用。航海需要一组办法。"
+          },
+          "question": {
+            "id": "quest-6c800a84fc47c08e",
+            "text": "哪组准备更完整？"
+          },
+          "image": {
+            "id": "quest-35990c474baf521d",
+            "text": "这是学习示意图：工具，观察，合作。哪组准备更完整？"
+          },
+          "right": {
+            "id": "quest-c372cc5c2d03eefd",
+            "text": "找到了。指南针是重要工具，也需要人的判断与经验。"
+          },
+          "wrong": {
+            "id": "quest-2cf6e6b16bd0d5ab",
+            "text": "再比较一下。指南针是重要工具，也需要人的判断与经验。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-07-07-song-compass-navigation-takeaway-1",
+            "label": "磁针＋观察＋船员合作",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-509cee6217ead0bc.svg",
+            "imageAlt": "针，观察，合作",
+            "audio": {
+              "id": "quest-1485fcd1360c4422",
+              "text": "磁针＋观察＋船员合作"
+            }
+          },
+          {
+            "id": "cn-ancient-07-07-song-compass-navigation-takeaway-2",
+            "label": "磁针替大家做所有事",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-7597be116ea032e5.svg",
+            "imageAlt": "一根针包办",
+            "audio": {
+              "id": "quest-9c3f59f1e2c0f548",
+              "text": "磁针替大家做所有事"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "航海工具箱",
+        "items": [
+          "把指南针、星辰、海岸、风向和水深放入工具箱，不选“只靠一个工具”。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "天气变了怎么办",
+        "items": [
+          "晴天、阴天、近岸三种场景各选两条可用线索。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "证据边界",
+        "items": [
+          "给儿童示意图贴“原理示意”，不给它贴“宋代船上照片”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
+  "durationMinutes": 8,
+  "conclusion": [
+    "人们很早就认识磁石指向的特性。宋代文献留下海船在阴晦天气使用指南针和指南浮针的早期可靠记录。但指南针只提供方向线索，航海者还要观察星辰、太阳、海岸、风向、水深和航路经验。它不是自动驾驶，也不能保证永不迷航。指南针与造纸、印刷和火药一样，经历长期积累、应用与改进。"
+  ],
+  "facts": [
+    {
+      "number": 1,
+      "text": "中国古代对磁石和指向特性的认识早于宋代，指南工具经历了长期发展。",
+      "sourceIds": [
+        "CAS-ANCIENT-NAVIGATION",
+        "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "1099—1102 年间成书的文献记录海船在阴晦天气看指南针，属于早期可靠航海记录。",
+      "sourceIds": [
+        "CAS-ANCIENT-NAVIGATION"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "1123 年相关航海记录提到使用指南浮针辨认方向。",
+      "sourceIds": [
+        "CAS-ANCIENT-NAVIGATION"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "指南针不能单独完成航海；星辰、日月、海岸、风向、水深和经验共同组成导航技术链。",
+      "sourceIds": [
+        "CAS-ANCIENT-NAVIGATION"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "漂浮指南针儿童图是现代原理示意，不是宋代原物、文献插图或精确船上现场复原。",
+      "sourceIds": [
+        "CAS-ANCIENT-NAVIGATION"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "海上贸易和人员往来为航海知识的使用、交流和改进提供了场景，但不同航线条件并不相同。",
+      "sourceIds": [
+        "NMC-LIAO-SONG-XIA-JIN-YUAN",
+        "CAS-ANCIENT-NAVIGATION"
+      ]
+    },
+    {
+      "number": 7,
+      "text": "造纸、印刷、指南针和火药不是同一时间完成，四条技术线都要分别寻找证据。",
+      "sourceIds": [
+        "CAS-FOUR-GREAT-INVENTIONS",
+        "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "number": 1,
+      "title": "时间线定位：先认识磁性，再上船使用",
+      "screenText": "人们很早观察磁石；宋代文献清楚记录指南针进入海船。",
+      "voices": [
+        {
+          "number": 1,
+          "label": "语音 N01：",
+          "text": "指南针不是宋代某一天突然出现的。人们先观察磁石会指向，慢慢改进指向工具。到了宋代，文献终于把它在海船上的使用清楚记录下来。",
+          "segments": [
+            {
+              "id": "cn-ancient-07-07-song-compass-navigation-s01-v01-01",
+              "order": 1,
+              "tier": "core",
+              "text": "指南针不是宋代某一天突然出现的。人们先观察磁石会指向，慢慢改进指向工具。到了宋代，文献终于把它在海船上的使用清楚记录下来。",
+              "hanCharacters": 56
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "label": "语音 N02：",
+          "text": "我们要追一艘船的工具箱：指南针给方向线索，星辰、太阳、风向、水深、海岸和水手经验也要一起工作。",
+          "segments": [
+            {
+              "id": "cn-ancient-07-07-song-compass-navigation-s01-v02-01",
+              "order": 1,
+              "tier": "core",
+              "text": "我们要追一艘船的工具箱：指南针给方向线索，星辰、太阳、风向、水深、海岸和水手经验也要一起工作。",
+              "hanCharacters": 40
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 2,
+      "title": "磁针先给一条方向线索",
+      "screenText": "磁针稳定后会指向，让水手在看不清远处时多一条线索。",
+      "voices": [
+        {
+          "number": 3,
+          "label": "语音 N03：",
+          "text": "这张图用漂浮磁针帮助理解原理。它是现代儿童示意，不是宋代原物。磁针稳定后给出方向，但它不会告诉水手前面有没有浅滩、风浪或礁石。",
+          "segments": [
+            {
+              "id": "cn-ancient-07-07-song-compass-navigation-s02-v03-01",
+              "order": 1,
+              "tier": "core",
+              "text": "这张图用漂浮磁针帮助理解原理。它是现代儿童示意，不是宋代原物。磁针稳定后给出方向，但它不会告诉水手前面有没有浅滩、风浪或礁石。",
+              "hanCharacters": 57
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 3,
+      "title": "天空和海岸也在“说话”",
+      "screenText": "看星辰和太阳，认海岸和岛屿，都是航海者的方法。",
+      "voices": [
+        {
+          "number": 4,
+          "label": "语音 N04：",
+          "text": "天气晴朗时，水手会观察星辰和太阳；靠近陆地时，还要辨认海岸、岛屿和港口。每一条线索都有能做和不能做的事情。",
+          "segments": [
+            {
+              "id": "cn-ancient-07-07-song-compass-navigation-s03-v04-01",
+              "order": 1,
+              "tier": "core",
+              "text": "天气晴朗时，水手会观察星辰和太阳；靠近陆地时，还要辨认海岸、岛屿和港口。每一条线索都有能做和不能做的事情。",
+              "hanCharacters": 47
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 4,
+      "title": "风向和水深提醒危险",
+      "screenText": "风会推着船走，水深会提醒哪里可能太浅。",
+      "voices": [
+        {
+          "number": 5,
+          "label": "语音 N05：",
+          "text": "方向正确，也不等于路线安全。水手要观察风向和海浪，还会测量水深。把这些线索合起来，才能不断修正航路。",
+          "segments": [
+            {
+              "id": "cn-ancient-07-07-song-compass-navigation-s04-v05-01",
+              "order": 1,
+              "tier": "core",
+              "text": "方向正确，也不等于路线安全。水手要观察风向和海浪，还会测量水深。把这些线索合起来，才能不断修正航路。",
+              "hanCharacters": 44
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 5,
+      "title": "谁把工具真正用起来",
+      "screenText": "船长、水手和掌握航路的人轮流观察、记录、商量和调整。",
+      "voices": [
+        {
+          "number": 6,
+          "label": "语音 N06：",
+          "text": "工具不会自己开船。船上的成年人要轮流观察、记录天气和位置，再一起决定怎样调整。知识是在一次次航行和交流中被使用、修正和传下去的。",
+          "segments": [
+            {
+              "id": "cn-ancient-07-07-song-compass-navigation-s05-v06-01",
+              "order": 1,
+              "tier": "core",
+              "text": "工具不会自己开船。船上的成年人要轮流观察、记录天气和位置，再一起决定怎样调整。知识是在一次次航行和交流中被使用、修正和传下去的。",
+              "hanCharacters": 58
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 6,
+      "title": "回答问题",
+      "screenText": "指南针给方向，星辰、海岸、风向、水深和经验补上其他线索，海船才能前进。",
+      "voices": [
+        {
+          "number": 7,
+          "label": "语音 N07：",
+          "text": "所以指南针很重要，却不是自动驾驶。它和纸、印刷、火药一样，是四条跨时代技术线中的一条。下一张故事卡，我们去看火药知识怎样被安全记录。",
+          "segments": [
+            {
+              "id": "cn-ancient-07-07-song-compass-navigation-s06-v07-01",
+              "order": 1,
+              "tier": "core",
+              "text": "所以指南针很重要，却不是自动驾驶。它和纸、印刷、火药一样，是四条跨时代技术线中的一条。下一张故事卡，我们去看火药知识怎样被安全记录。",
+              "hanCharacters": 58
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    }
+  ],
+  "interactions": [
+    {
+      "number": 1,
+      "title": "航海工具箱",
+      "items": [
+        "把指南针、星辰、海岸、风向和水深放入工具箱，不选“只靠一个工具”。"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "天气变了怎么办",
+      "items": [
+        "晴天、阴天、近岸三种场景各选两条可用线索。"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "证据边界",
+      "items": [
+        "给儿童示意图贴“原理示意”，不给它贴“宋代船上照片”。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "CAS-ANCIENT-NAVIGATION",
+      "title": "中国古代航海技术上的成就",
+      "institution": "中国科学院自然科学史研究所",
+      "url": "https://www.ihns.cas.cn/kxcb_/kxjd/202212/t20221206_6567192.html",
+      "type": "science-history-reference",
+      "authorityLevel": "A",
+      "factUse": "1099—1102年间海船使用指南针的文献记录、1123年指南浮针航海记录和航海技术链",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+      "title": "中国古代重要科技发明创造时间线",
+      "institution": "中国科学院自然科学史研究所",
+      "url": "https://ihns.cas.cn/yjcg/xszz/zztj/202212/t20221207_6570683.html",
+      "type": "science-history-chronology",
+      "authorityLevel": "A",
+      "factUse": "秦长城由战国墙段发展而来，以及造纸、雕版印刷、火药、指南针和泥活字跨时代逐步成熟的时间边界",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-LIAO-SONG-XIA-JIN-YUAN",
+      "title": "“古代中国”基本陈列：辽宋夏金元时期",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html",
+      "type": "museum-permanent-exhibition",
+      "authorityLevel": "A",
+      "factUse": "916—1368年多政权并立到统一、经济重心南移、城市商业、科技文化和宋元海外贸易的总体脉络",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "CAS-FOUR-GREAT-INVENTIONS",
+      "title": "中国四大发明和中国二十四大发明述评",
+      "institution": "中国科学院自然科学史研究所",
+      "url": "https://ihns.cas.cn/kxcb_/kxjd/202212/t20221206_6567193.html",
+      "type": "science-history-review",
+      "authorityLevel": "A",
+      "factUse": "造纸、印刷、火药、指南针四项重要技术的历史概括、长期发展和跨文化传播边界",
+      "imageUse": "reference-only"
+    }
+  ],
+  "assets": [
+    {
+      "id": "study-8ff9602cb494f704",
+      "title": "学习示意：隋 581—618年",
+      "localPath": "reference-assets/focused-quests/study-8ff9602cb494f704.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "隋 581—618年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b583675aa2bd3ded",
+      "title": "学习示意：隋、宋代航海记录",
+      "localPath": "reference-assets/focused-quests/study-b583675aa2bd3ded.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "隋 → 宋代航海记录",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-c23c6a7c5536f283",
+      "title": "学习示意：宋 960年以后",
+      "localPath": "reference-assets/focused-quests/study-c23c6a7c5536f283.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "宋 960年以后",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1159725e1d863967",
+      "title": "学习示意：云遮天空、海上船",
+      "localPath": "reference-assets/focused-quests/study-1159725e1d863967.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "云遮天空 → 海上船",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-3587c478855384b2",
+      "title": "学习示意：磁针",
+      "localPath": "reference-assets/focused-quests/study-3587c478855384b2.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "磁针",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1ae53fd354cc3dac",
+      "title": "学习示意：储备粮",
+      "localPath": "reference-assets/focused-quests/study-1ae53fd354cc3dac.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "储备粮",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-303fd05d6079f022",
+      "title": "学习示意：方向、水深另查",
+      "localPath": "reference-assets/focused-quests/study-303fd05d6079f022.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "方向 → 水深另查",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1ae3c727ceabc930",
+      "title": "学习示意：方向",
+      "localPath": "reference-assets/focused-quests/study-1ae3c727ceabc930.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "方向",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-84883dd255403505",
+      "title": "学习示意：每处水深",
+      "localPath": "reference-assets/focused-quests/study-84883dd255403505.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "每处水深",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-7309cb377acb7b22",
+      "title": "学习示意：磁针、风浪、航路",
+      "localPath": "reference-assets/focused-quests/study-7309cb377acb7b22.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "磁针 → 风浪 → 航路",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-819e515d5ad25346",
+      "title": "学习示意：方向、天气、路线",
+      "localPath": "reference-assets/focused-quests/study-819e515d5ad25346.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "方向 → 天气 → 路线",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-30810471de5c794c",
+      "title": "学习示意：只看磁针",
+      "localPath": "reference-assets/focused-quests/study-30810471de5c794c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只看磁针",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e11b12177e78b78c",
+      "title": "学习示意：工具、观察、合作",
+      "localPath": "reference-assets/focused-quests/study-e11b12177e78b78c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "工具 → 观察 → 合作",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-509cee6217ead0bc",
+      "title": "学习示意：针、观察、合作",
+      "localPath": "reference-assets/focused-quests/study-509cee6217ead0bc.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "针 → 观察 → 合作",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-7597be116ea032e5",
+      "title": "学习示意：一根针包办",
+      "localPath": "reference-assets/focused-quests/study-7597be116ea032e5.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "一根针包办",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "song-floating-compass-fish-child-diagram",
+      "title": "宋代指南浮针与航海工具箱儿童示意图",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-floating-compass-fish-child-diagram.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童原理图：用浮在水面上的磁性指南工具辨认南方，同时观察星辰、风向和水深。",
+      "boundary": "2026-08-12为低龄玩法自制。它不是宋代指南鱼或海船实物照片，也不是精确器物、船只或航海现场复原；画面明确指南工具只是航海技术链的一环，不能理解成自动驾驶。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "four-inventions-time-journey-child-illustration",
+      "title": "造纸、印刷、指南针与火药跨时代接力儿童艺术表现",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/four-inventions-time-journey-child-illustration.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童艺术表现：纸、印刷、指南针和火药被一条纸带串成四个不同时代的技术场景。",
+      "boundary": "2026-08-12为低龄玩法自制。四区并排是跨时代学习拼贴，不表示四项技术同年、同地或由同一批人完成；人物、工具、作坊、海船和节庆场景均非历史照片、原物或精确复原。印刷页与记录页只画无文字图样，不能用来辨认古文字。",
+      "childVisibility": "child-ok"
+    }
+  ],
+  "thumbnail": "/content/thumbnails/cn-ancient-07-07-song-compass-navigation.jpg",
+  "status": {
+    "outline": "verified",
+    "research": "verified",
+    "script": "first-draft",
+    "assets": "verified",
+    "audio": "not-started",
+    "review": "in-progress"
+  }
+}

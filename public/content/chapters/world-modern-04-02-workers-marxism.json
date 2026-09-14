@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-modern-04-02-workers-marxism",
   "trackId": "world-modern",
   "trackLabel": "世界近代史",
@@ -13,7 +13,702 @@
   "title": "工人为什么组织起来，马克思主义怎样诞生",
   "coreQuestion": "工业社会的问题催生了哪些新思想和行动？",
   "throughline": "从1811—1812年卢德派和1838—1848年宪章运动确认工人先于理论行动，再以新拉纳克改革、恩格斯调查、《共产党宣言》初版与后序、第一国际会员证和巴黎公社布告及照片，认识马克思主义形成、跨国工人组织、72天城市实践及其分歧、未完成与镇压；最后落到1920年首个中文全译本。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-modern-04-02-workers-marxism",
+    "childTitle": "一张大请愿书走过多少城市",
+    "prompt": "工人为什么组织、写报纸、开会和请愿，还要形成新的思想？",
+    "takeaway": "工人先为现实问题行动，思想家再研究这些经验，组织和理论彼此推动。",
+    "object": "人民宪章请愿书、工人报刊与《共产党宣言》",
+    "people": [
+      "工人、宪章派成员、马克思、恩格斯与巴黎公社参与者"
+    ],
+    "place": "英国工业城市、伦敦、布鲁塞尔与巴黎",
+    "culture": "工人报刊与政治文献",
+    "care": "不让儿童扮演暴力冲突，不把思想形成写成两个人关门想出的答案。",
+    "preferredAssetId": "chartist-kennington-meeting-1848-restored-public-domain"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📄",
+      "label": "从一页文字出发",
+      "text": "一张大请愿书走过多少城市"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "请愿书走过城市",
+      "text": "先让大请愿书走过一座座工业城市。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "工人把要求写下",
+      "text": "接着看工人办报、开会，把要求写下来。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "行动推动新思想",
+      "text": "最后马克思、恩格斯研究这些行动，形成新的思想。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "工人先为现实问题行动，思想家再研究这些经验，组织和理论彼此推动。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "档案",
+      "icon": "🗂️",
+      "plain": "被保存下来的文件、照片、录音等记录。",
+      "example": "一份档案记录一个角度，要和别的证据一起看。",
+      "priority": 1
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "改革",
+      "icon": "🛠️",
+      "plain": "发现旧办法有问题，改变规则或做法。",
+      "example": "改革可能带来新机会，也可能遇到阻力和新问题。",
+      "priority": 1
+    },
+    {
+      "term": "经济",
+      "icon": "🧺",
+      "plain": "人们怎样生产、交换、分配和使用东西。",
+      "example": "经济变化最后会落到工作、食物、住房等生活里。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "权利",
+      "icon": "🫶",
+      "plain": "规则承认一个人可以做、可以得到保护的事情。",
+      "example": "写有权利，还要检查妇女、奴隶和穷人是否真的拥有。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "危机",
+      "icon": "⚠️",
+      "plain": "问题迅速变严重，原来的办法难以应付。",
+      "example": "危机通常有多种原因，也会影响不同的人。",
+      "priority": 2
+    },
+    {
+      "term": "议会",
+      "icon": "🪑",
+      "plain": "一些代表一起讨论、决定公共事情的机构。",
+      "example": "还要问哪些人能选代表，哪些人当时被排除。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "社会主义",
+      "icon": "🤝",
+      "plain": "主张生产与社会发展更多服务共同需要的制度方向。",
+      "example": "不同国家的实践并不完全一样，要看具体时间和政策。",
+      "priority": 3
+    },
+    {
+      "term": "资本主义",
+      "icon": "🏭",
+      "plain": "以资本、市场和雇佣劳动为重要基础的社会制度。",
+      "example": "不同国家的发展道路不同，也要看工人和殖民地代价。",
+      "priority": 3
+    },
+    {
+      "term": "国际",
+      "icon": "🌍",
+      "plain": "不同国家之间或许多国家共同参与的事情。",
+      "example": "国际合作要看谁参加、怎样分工、规则如何执行。",
+      "priority": 3
+    },
+    {
+      "term": "阶级",
+      "icon": "🪜",
+      "plain": "因生产关系、财产和权力位置不同形成的社会群体。",
+      "example": "阶级不是给个人贴好坏标签，要看具体历史关系。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    },
+    {
+      "term": "运动",
+      "icon": "📣",
+      "plain": "许多人围绕一个目标持续参加的行动。",
+      "example": "历史运动里的人、目标和做法可能并不完全相同。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "恩格斯",
+      "reading": "Ēngésī",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-04-02-workers-marxism"
+      ],
+      "note": "“恩”读ēn。"
+    },
+    {
+      "text": "马克思",
+      "reading": "Mǎkèsī",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-04-02-workers-marxism"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "巴黎公社",
+      "reading": "Bālí Gōngshè",
+      "kind": "title",
+      "chapterIds": [
+        "world-modern-04-02-workers-marxism"
+      ],
+      "note": "“公社”作为整体连读。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一页文字",
+      "icon": "📄",
+      "label": "一张大请愿书走过多少城市",
+      "question": "工人为什么组织、写报纸、开会和请愿，还要形成新的思想？"
+    },
+    "coverAudio": {
+      "id": "quest-8de181dd8f41d448",
+      "text": "今天从一页文字出发：一张大请愿书走过多少城市。我们要去英国工业城市、伦敦、布鲁塞尔与巴黎，看看人民宪章请愿书、工人报刊与《共产党宣言》怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-4beb03ab8b7648c6",
+      "text": "五条线索都找到了，“一张大请愿书走过多少城市”的答案是：工人先为现实问题行动，思想家再研究这些经验，组织和理论彼此推动。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 11,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一页文字出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是工业革命与社会主义思想，时间是18世纪中期—19世纪。",
+          "narration": "这是工业革命与社会主义思想，时间是18世纪中期—19世纪。",
+          "displayText": "这是工业革命与社会主义思想，时间是18世纪中期—19世纪。"
+        },
+        "assetId": "chartist-kennington-meeting-1848-restored-public-domain",
+        "image": "/content/step-images/chartist-kennington-meeting-1848-restored-public-domain.jpg",
+        "imageAlt": "1848年肯宁顿公地宪章派大会银版照片数字修复图",
+        "imageCaption": "1848年4月10日伦敦肯宁顿公地宪章派大会的银版照片数字修复图，显示大批参与者聚集。",
+        "imageBoundary": "本地文件为2797×1990像素PNG。必须标注‘数字修复’；照片能证明公开集会规模很大，不能精确清点全体人数，也不能证明画面中每个人的政治立场。",
+        "audio": {
+          "transition": {
+            "id": "quest-b549517b0dc0130c",
+            "text": "先给一页文字找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-f1d5579e0f0e9213",
+            "text": "这是工业革命与社会主义思想，时间是18世纪中期—19世纪。"
+          },
+          "image": {
+            "id": "quest-e04354dbf0542036",
+            "text": "点开大图啦。这是1848年肯宁顿公地宪章派大会银版照片数字修复图。这张图能帮我们找到：这是工业革命与社会主义思想，时间是18世纪中期—19世纪。"
+          },
+          "question": {
+            "id": "quest-00e58e93824b8fd3",
+            "text": "从一页文字出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-04-02-workers-marxism-time-1",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "world-modern-04-02-workers-marxism-time-2",
+            "label": "世界近代史 · 工业革命与社会主义思想 · 18世纪中期—19世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-7019455a00f0e12f",
+              "text": "世界近代史 · 工业革命与社会主义思想 · 18世纪中期—19世纪"
+            }
+          },
+          {
+            "id": "world-modern-04-02-workers-marxism-time-3",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "请愿书走过城市",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先让大请愿书走过一座座工业城市。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "请愿书走过城市",
+          "screenText": "先让大请愿书走过一座座工业城市。",
+          "narration": "先让大请愿书走过一座座工业城市。",
+          "displayText": "先让大请愿书走过一座座工业城市。"
+        },
+        "assetId": "chartist-kennington-meeting-1848-restored-public-domain",
+        "image": "/content/step-images/chartist-kennington-meeting-1848-restored-public-domain.jpg",
+        "imageAlt": "1848年肯宁顿公地宪章派大会银版照片数字修复图",
+        "imageCaption": "1848年4月10日伦敦肯宁顿公地宪章派大会的银版照片数字修复图，显示大批参与者聚集。",
+        "imageBoundary": "本地文件为2797×1990像素PNG。必须标注‘数字修复’；照片能证明公开集会规模很大，不能精确清点全体人数，也不能证明画面中每个人的政治立场。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-a48d82434aed528c",
+            "text": "先让大请愿书走过一座座工业城市。"
+          },
+          "image": {
+            "id": "quest-99c42bb086e4a5f6",
+            "text": "点开大图啦。这是1848年肯宁顿公地宪章派大会银版照片数字修复图。这张图能帮我们找到：先让大请愿书走过一座座工业城市。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-04-02-workers-marxism-beginning-1",
+            "label": "人民宪章请愿书、工人报刊与《共产党宣言》，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-15d6873fe16ed752",
+              "text": "人民宪章请愿书、工人报刊与《共产党宣言》，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-modern-04-02-workers-marxism-beginning-2",
+            "label": "英国工业城市、伦敦、布鲁塞尔与巴黎、工人，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-b1ae25d001ba82a2",
+              "text": "英国工业城市、伦敦、布鲁塞尔与巴黎、工人，只是故事地点"
+            }
+          },
+          {
+            "id": "world-modern-04-02-workers-marxism-beginning-3",
+            "label": "工人、宪章派成员、马克思、恩格斯与巴黎公社参，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-0831d3bc941879f9",
+              "text": "工人、宪章派成员、马克思、恩格斯与巴黎公社参，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "工人把要求写下",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看工人办报、开会，把要求写下来。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "工人把要求写下",
+          "screenText": "接着看工人办报、开会，把要求写下来。",
+          "narration": "接着看工人办报、开会，把要求写下来。",
+          "displayText": "接着看工人办报、开会，把要求写下来。"
+        },
+        "assetId": "first-international-membership-card-1870-cc0",
+        "image": "/content/step-images/first-international-membership-card-1870-cc0.jpg",
+        "imageAlt": "1870年国际工人协会会员证",
+        "imageCaption": "一张签发于1870年5月31日的国际工人协会会员证，印有多种语言的组织名称。",
+        "imageBoundary": "本地文件为2560×1940像素PNG。会员证能证明跨国组织、会员制度和多语言传播，不能证明各国所有工人都加入或观点一致。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-7cc950050f3f54c0",
+            "text": "接着看工人办报、开会，把要求写下来。"
+          },
+          "image": {
+            "id": "quest-7ccfc22d0094e7ca",
+            "text": "点开大图啦。这是1870年国际工人协会会员证。这张图能帮我们找到：接着看工人办报、开会，把要求写下来。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-04-02-workers-marxism-journey-1",
+            "label": "工人、宪章派成员、马克思，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-39ad48a12ad8fa1a",
+              "text": "工人、宪章派成员、马克思，只认出人物"
+            }
+          },
+          {
+            "id": "world-modern-04-02-workers-marxism-journey-2",
+            "label": "英国工业城市、伦敦、布，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-844f956902f92630",
+              "text": "英国工业城市、伦敦、布，只说了地点"
+            }
+          },
+          {
+            "id": "world-modern-04-02-workers-marxism-journey-3",
+            "label": "接着看工人办报、开会，把要求写下来。",
+            "correct": true,
+            "audio": {
+              "id": "quest-7cc950050f3f54c0",
+              "text": "接着看工人办报、开会，把要求写下来。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "行动推动新思想",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后马克思、恩格斯研究这些行动，形成新的思想。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "行动推动新思想",
+          "screenText": "最后马克思、恩格斯研究这些行动，形成新的思想。",
+          "narration": "最后马克思、恩格斯研究这些行动，形成新的思想。",
+          "displayText": "最后马克思、恩格斯研究这些行动，形成新的思想。"
+        },
+        "assetId": "karl-marx-portrait-1875-public-domain",
+        "image": "/content/step-images/karl-marx-portrait-1875-public-domain.jpg",
+        "imageAlt": "1875年卡尔·马克思肖像照",
+        "imageCaption": "约1875年的卡尔·马克思照相馆肖像，比《共产党宣言》出版晚约27年。",
+        "imageBoundary": "本地文件为2928×4361像素PNG，保留照相卡边框。只能作为人物识别图，不能当作1848年写作现场，也不能从神情推断其思想。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-850379fe405f6055",
+            "text": "最后马克思、恩格斯研究这些行动，形成新的思想。"
+          },
+          "image": {
+            "id": "quest-8cfb64662cf11c9e",
+            "text": "点开大图啦。这是1875年卡尔·马克思肖像照。这张图能帮我们找到：最后马克思、恩格斯研究这些行动，形成新的思想。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-04-02-workers-marxism-change-1",
+            "label": "看工人办报、开会，把要求写下来，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-a5f1037fe52df1c6",
+              "text": "看工人办报、开会，把要求写下来，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-modern-04-02-workers-marxism-change-2",
+            "label": "最后马克思、恩格斯研究这些行动，形成新的思想。",
+            "correct": true,
+            "audio": {
+              "id": "quest-850379fe405f6055",
+              "text": "最后马克思、恩格斯研究这些行动，形成新的思想。"
+            }
+          },
+          {
+            "id": "world-modern-04-02-workers-marxism-change-3",
+            "label": "人民宪章请愿书、工人报刊与《，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-6d18607ac387a948",
+              "text": "人民宪章请愿书、工人报刊与《，还只是故事起点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "工人先为现实问题行动，思想家再研究这些经验，组织和理论彼此推动。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "工人先为现实问题行动，思想家再研究这些经验，组织和理论彼此推动。",
+          "narration": "工人先为现实问题行动，思想家再研究这些经验，组织和理论彼此推动。",
+          "displayText": "工人先为现实问题行动，思想家再研究这些经验，组织和理论彼此推动。"
+        },
+        "assetId": "first-international-membership-card-1870-cc0",
+        "image": "/content/step-images/first-international-membership-card-1870-cc0.jpg",
+        "imageAlt": "1870年国际工人协会会员证",
+        "imageCaption": "一张签发于1870年5月31日的国际工人协会会员证，印有多种语言的组织名称。",
+        "imageBoundary": "本地文件为2560×1940像素PNG。会员证能证明跨国组织、会员制度和多语言传播，不能证明各国所有工人都加入或观点一致。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-e6067015a17f1b86",
+            "text": "工人先为现实问题行动，思想家再研究这些经验，组织和理论彼此推动。"
+          },
+          "image": {
+            "id": "quest-9315da091e525af6",
+            "text": "点开大图啦。这是1870年国际工人协会会员证。这张图能帮我们找到：工人先为现实问题行动，思想家再研究这些经验，组织和理论彼此推动。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-04-02-workers-marxism-takeaway-1",
+            "label": "工人先为现实问题行动，思想家再研究这些经验，组织和理论彼此推动。",
+            "correct": true,
+            "audio": {
+              "id": "quest-e6067015a17f1b86",
+              "text": "工人先为现实问题行动，思想家再研究这些经验，组织和理论彼此推动。"
+            }
+          },
+          {
+            "id": "world-modern-04-02-workers-marxism-takeaway-2",
+            "label": "马克思、恩格斯研究这些行动，形成新的思想。、一张大请愿，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-f087152d605134cc",
+              "text": "马克思、恩格斯研究这些行动，形成新的思想。、一张大请愿，只说了结果"
+            }
+          },
+          {
+            "id": "world-modern-04-02-workers-marxism-takeaway-3",
+            "label": "让大请愿书走过一座座工业城市。、人民宪章请愿书、工，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-dc2a8d51434a82bc",
+              "text": "让大请愿书走过一座座工业城市。、人民宪章请愿书、工，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把主线排回时间",
+        "items": [
+          "依次排列“工人行动—社会调查—政治纲领—跨国组织—巴黎公社—中文全译本”。每张卡必须读出年代和证据类型；不把理论放在工人行动之前。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "六项主张里谁还没被包括",
+        "items": [
+          "从《人民宪章》卡中找出“成年男子普选”，再把“成年妇女”放入“当时未包括”区。反馈说明推动政治改革与保留性别排除可以同时存在。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "这件史料能证明什么",
+        "items": [
+          "把初版封面、会员证、政策布告、街垒照与“出版信息、跨国组织、公开命令、物质现场”配对；再选择一项它不能独立证明的结论。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "公社的三只资料盒",
+        "items": [
+          "把“已公开宣布”“尝试但未完全完成”“镇压与后果”分别归档。面包工布告进入第一盒，废弃作坊计划进入第二盒，大规模逮捕与流放进入第三盒；不做巷战射击或处决模拟。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 11,
   "conclusion": [
     "工业革命让生产更快，也把许多工人放进由机器、工时、工资和雇主管理的共同环境。工人在马克思和恩格斯提出理论以前已经通过请愿、集会、互助、罢工和毁坏特定机器等方式行动；他们的处境和主张也并不完全相同。欧文等人尝试用教育、合作和工厂改革回应问题，马克思和恩格斯则在工人运动、德国哲学、英国政治经济学和法国社会主义等思想基础上继续研究。1848年受共产主义者同盟委托发表的《共产党宣言》是一份政治纲领：它分析生产方式、阶级关系、资本主义的巨大生产能力与内在冲突，主张工人联合起来争取自身解放。它不是法律、人口普查，也不是不受时代影响的预言。1864年的第一国际把不同国家、不同主张的工人活动者连接起来，马克思参与并起草重要文件，但不是一人创造或遥控组织。1871年巴黎公社在战争和围城中存在72天，尝试改善劳动、租金、教育和政教关系，女性也组织救护、劳动与保卫活动；公社内部有多种派别，许多措施尚未完成，最后在内战、双方暴力与凡尔赛政府的残酷镇压中失败。马克思支持并总结公社经验，却没有在巴黎现场指挥它。马克思主义后来才逐步传入中国，1920年陈望道的首个中文全译本是重要节点；不能从1848年直接画箭头说它当时已经影响清朝。"
@@ -952,100 +1647,130 @@
       "title": "1812年想象的‘卢德派首领’彩色版画",
       "localPath": "reference-assets/world-modern-workers-marxism/luddite-leader-1812.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Luddite.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1812年5月出版的手工着色政治版画，把传说中的‘内德·卢德’想象成卢德派首领；这不是一位真实领袖的肖像。",
-      "boundary": "本地文件为3021×3988像素JPEG。内德·卢德是传说人物，主界面必须固定写‘想象形象’；版画能说明公众怎样表现运动，不能证明参与者真实长相、服装或统一指挥关系。"
+      "boundary": "本地文件为3021×3988像素JPEG。内德·卢德是传说人物，主界面必须固定写‘想象形象’；版画能说明公众怎样表现运动，不能证明参与者真实长相、服装或统一指挥关系。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "chartist-kennington-meeting-1848-restored-public-domain",
       "title": "1848年肯宁顿公地宪章派大会银版照片数字修复图",
       "localPath": "reference-assets/world-modern-workers-marxism/chartist-meeting-1848.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Chartist_meeting_on_Kennington_Common_by_William_Edward_Kilburn_1848_-_restoration1.png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark",
       "clearance": "cleared-public-domain",
       "caption": "1848年4月10日伦敦肯宁顿公地宪章派大会的银版照片数字修复图，显示大批参与者聚集。",
-      "boundary": "本地文件为2797×1990像素PNG。必须标注‘数字修复’；照片能证明公开集会规模很大，不能精确清点全体人数，也不能证明画面中每个人的政治立场。"
+      "boundary": "本地文件为2797×1990像素PNG。必须标注‘数字修复’；照片能证明公开集会规模很大，不能精确清点全体人数，也不能证明画面中每个人的政治立场。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "karl-marx-portrait-1875-public-domain",
       "title": "1875年卡尔·马克思肖像照",
       "localPath": "reference-assets/world-modern-workers-marxism/karl-marx-1875.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Portrait_Karl_Marx_(SM_stf131).png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark",
       "clearance": "cleared-public-domain",
       "caption": "约1875年的卡尔·马克思照相馆肖像，比《共产党宣言》出版晚约27年。",
-      "boundary": "本地文件为2928×4361像素PNG，保留照相卡边框。只能作为人物识别图，不能当作1848年写作现场，也不能从神情推断其思想。"
+      "boundary": "本地文件为2928×4361像素PNG，保留照相卡边框。只能作为人物识别图，不能当作1848年写作现场，也不能从神情推断其思想。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "friedrich-engels-portrait-1877-public-domain",
       "title": "1877年弗里德里希·恩格斯肖像照",
       "localPath": "reference-assets/world-modern-workers-marxism/friedrich-engels-1877.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Friedrich_Engels_portrait_(cropped).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark",
       "clearance": "cleared-public-domain",
       "caption": "1877年5月的弗里德里希·恩格斯肖像，经过后世裁切并去除棕褐色调。",
-      "boundary": "本地文件为615×820像素JPEG。它比1845年《英国工人阶级状况》出版晚32年；只作人物识别，并显著标注裁切和年代差。"
+      "boundary": "本地文件为615×820像素JPEG。它比1845年《英国工人阶级状况》出版晚32年；只作人物识别，并显著标注裁切和年代差。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "communist-manifesto-first-edition-cover-1848-gfdl",
       "title": "1848年《共产党宣言》德文初版封面",
       "localPath": "reference-assets/world-modern-workers-marxism/communist-manifesto-1848.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Communist-manifesto.png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "GNU Free Documentation License 1.2 or later",
       "clearance": "cleared-open-license",
       "caption": "1848年2月在伦敦出版的《共产党宣言》德文初版绿色封面。",
-      "boundary": "本地文件为1021×1600像素PNG。它是政治纲领的出版物封面，不是法律、统计表或全体工人的共同意见；显示时保留德文书名与出版信息。"
+      "boundary": "本地文件为1021×1600像素PNG。它是政治纲领的出版物封面，不是法律、统计表或全体工人的共同意见；显示时保留德文书名与出版信息。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "first-international-membership-card-1870-cc0",
       "title": "1870年国际工人协会会员证",
       "localPath": "reference-assets/world-modern-workers-marxism/first-international-card-1870.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:International_Working_Men%27s_Association_card_of_membership.png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-public-domain",
       "caption": "一张签发于1870年5月31日的国际工人协会会员证，印有多种语言的组织名称。",
-      "boundary": "本地文件为2560×1940像素PNG。会员证能证明跨国组织、会员制度和多语言传播，不能证明各国所有工人都加入或观点一致。"
+      "boundary": "本地文件为2560×1940像素PNG。会员证能证明跨国组织、会员制度和多语言传播，不能证明各国所有工人都加入或观点一致。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "paris-commune-barricade-1871-cc0",
       "title": "1871年巴黎公社街垒照片",
       "localPath": "reference-assets/world-modern-workers-marxism/paris-commune-barricade-1871.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Barricade_Paris_1871_by_Pierre-Ambrose_Richebourg.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-public-domain",
       "caption": "1871年巴黎一处以铺路石和火炮构成的街垒；部分人物因长曝光而模糊。",
-      "boundary": "本地文件为3485×3702像素JPEG。它是真实蛋白照片，但未必拍到正在战斗的瞬间，不能凭画面确认每个人身份；人物模糊可用来解释当时摄影限制。"
+      "boundary": "本地文件为3485×3702像素JPEG。它是真实蛋白照片，但未必拍到正在战斗的瞬间，不能凭画面确认每个人身份；人物模糊可用来解释当时摄影限制。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "paris-commune-bakery-night-work-decree-1871-cc0",
       "title": "1871年巴黎公社废除面包工夜班布告",
       "localPath": "reference-assets/world-modern-workers-marxism/paris-commune-night-work-decree-1871.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Commune_de_Paris._Affiche._20_avril_1871._n%C2%B0176.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-public-domain",
       "caption": "1871年4月20日巴黎公社第176号布告，第一条宣布废除面包工夜间劳动。",
-      "boundary": "本地文件为4284×5370像素JPEG，文字清晰。原件能证明公社公开发布这项命令，不能单独证明每家面包房立即、完整执行；儿童屏只放大标题、日期和第一条并给出中文释义。"
+      "boundary": "本地文件为4284×5370像素JPEG，文字清晰。原件能证明公社公开发布这项命令，不能单独证明每家面包房立即、完整执行；儿童屏只放大标题、日期和第一条并给出中文释义。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "paris-commune-womens-union-manifesto-1871-cc0",
       "title": "1871年巴黎公社妇女联合会布告",
       "localPath": "reference-assets/world-modern-workers-marxism/paris-commune-womens-union-1871.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Commune_de_Paris._Manifeste_du_Comit%C3%A9_central_de_l%27Union_des_femmes_pour_la_d%C3%A9fense_de_Paris_et_le_soin_aux_bless%C3%A9s._Affiche._6_mai_1871._n%C2%B0270.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0 / Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1871年5月6日妇女联合会中央委员会布告，公开谈到劳动、平等、救护和保卫巴黎。",
-      "boundary": "本地文件为3748×6012像素JPEG，保留签名与日期。它证明女性有组织地公开行动，却不能证明她们获得投票或被选举权；儿童屏只节选标题、组织名、日期和经核对的中文释义。"
+      "boundary": "本地文件为3748×6012像素JPEG，保留签名与日期。它证明女性有组织地公开行动，却不能证明她们获得投票或被选举权；儿童屏只节选标题、组织名、日期和经核对的中文释义。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "paris-hotel-de-ville-ruins-1871-cc0",
       "title": "1871年巴黎市政厅办公庭院废墟照片",
       "localPath": "reference-assets/world-modern-workers-marxism/paris-hotel-de-ville-ruins-1871.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ruines_de_la_Commune_de_Paris%2C_1871._La_cour_des_bureaux%2C_H%C3%B4tel_de_Ville%2C_4%C3%A8me_arrondissement%2C_Paris._PH4388%282%29.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-public-domain",
       "caption": "1871年拍摄的巴黎市政厅办公庭院废墟，显示建筑在内战与火灾后的严重破坏。",
-      "boundary": "本地文件为5782×4494像素JPEG，保留相纸边缘与原有题签。照片能证明破坏结果，不能单独判定每处损坏由炮击、战斗或纵火中的哪一种造成；必须与档案文字互证。"
+      "boundary": "本地文件为5782×4494像素JPEG，保留相纸边缘与原有题签。照片能证明破坏结果，不能单独判定每处损坏由炮击、战斗或纵火中的哪一种造成；必须与档案文字互证。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-modern-04-02-workers-marxism.jpg",

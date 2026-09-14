@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.8.0",
+  "contentVersion": "0.9.0",
   "id": "cn-modern-01-01-opium-war",
   "trackId": "china-modern",
   "trackLabel": "中国近代史",
@@ -13,7 +13,674 @@
   "title": "鸦片战争为什么成为一道历史分界线",
   "coreQuestion": "战争和不平等条约怎样改变了中国的处境？",
   "throughline": "从鸦片走私、虎门销烟、战争经过和《南京条约》等证据，认识中国近代史的开端以及主权受到破坏。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-modern-01-01-opium-war",
+    "childTitle": "林则徐在虎门做了什么",
+    "prompt": "禁烟、抵抗和一份不平等条约，怎样改变了中国的处境？",
+    "takeaway": "林则徐禁烟是维护国家利益；战败后的不平等条约让中国主权受损。",
+    "object": "奏折、条约文本与虎门遗址",
+    "people": [
+      "林则徐、关天培、清军与沿海民众"
+    ],
+    "place": "广东虎门、广州与南京",
+    "culture": "林则徐文书",
+    "care": "不展示吸食、伤亡或炮击刺激画面；明确英国侵略责任和中国抵抗。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "👋",
+      "label": "从一个人出发",
+      "text": "林则徐在虎门做了什么"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "任命书送到林则徐",
+      "text": "先看林则徐收到任命书，带着奏折来到广东。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "虎门依令处理",
+      "text": "接着在虎门依照命令处理收缴的鸦片。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "条约留下后果",
+      "text": "最后条约和遗址说明国家主权受到破坏。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "林则徐禁烟是维护国家利益；战败后的不平等条约让中国主权受损。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "侵略",
+      "icon": "⛔",
+      "plain": "用武力进入别国，夺取土地或控制权。",
+      "example": "抵抗侵略和发动侵略的责任不能混在一起。",
+      "priority": 1
+    },
+    {
+      "term": "条约",
+      "icon": "📄",
+      "plain": "国家或政治力量之间写下并同意遵守的约定。",
+      "example": "还要问条约是否平等、由谁签、后来怎样执行。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "主权",
+      "icon": "🏠",
+      "plain": "一个国家自己决定本国事务的权力。",
+      "example": "强迫签约、割地或控制关税会伤害主权。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "责任",
+      "icon": "🤲",
+      "plain": "答应或应当承担、需要认真完成的事情。",
+      "example": "拥有公共权利，也常要承担相应责任。",
+      "priority": 3
+    },
+    {
+      "term": "工业化",
+      "icon": "🏭",
+      "plain": "机器生产和工厂在社会中越来越重要的过程。",
+      "example": "工业化不是只多几座工厂，还会改变城市与生活。",
+      "priority": 1
+    },
+    {
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "priority": 1
+    },
+    {
+      "term": "经济",
+      "icon": "🧺",
+      "plain": "人们怎样生产、交换、分配和使用东西。",
+      "example": "经济变化最后会落到工作、食物、住房等生活里。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "关税",
+      "icon": "🧾",
+      "plain": "货物进出一个地方时按规则缴纳的钱。",
+      "example": "谁能决定关税，会影响国家主权和贸易。",
+      "priority": 2
+    },
+    {
+      "term": "领土",
+      "icon": "🗺️",
+      "plain": "一个国家依法拥有和管理的土地、水域等范围。",
+      "example": "历史地图要标时间，边界不会一直不变。",
+      "priority": 2
+    },
+    {
+      "term": "民族",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
+      "example": "民族不是按外貌排高低，也不会永远固定不变。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "关天培",
+      "reading": "Guān Tiānpéi",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-01-01-opium-war"
+      ],
+      "note": "“培”读péi。"
+    },
+    {
+      "text": "林则徐",
+      "reading": "Lín Zéxú",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-01-01-opium-war",
+        "cross-01-hero-biography"
+      ],
+      "note": "“则”读zé，“徐”读xú。"
+    },
+    {
+      "text": "广州",
+      "reading": "Guǎngzhōu",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-08-05-late-crisis",
+        "cn-modern-01-01-opium-war",
+        "cn-modern-01-02-deeper-crisis",
+        "cn-modern-04-02-cpc-national-revolution",
+        "cross-01-hero-biography"
+      ],
+      "note": "广东省会地名。"
+    },
+    {
+      "text": "虎门",
+      "reading": "Hǔmén",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-01-01-opium-war",
+        "cross-01-hero-biography"
+      ],
+      "note": "广东地名。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个人",
+      "icon": "👋",
+      "label": "林则徐在虎门做了什么",
+      "question": "禁烟、抵抗和一份不平等条约，怎样改变了中国的处境？"
+    },
+    "coverAudio": {
+      "id": "quest-9d832b84b65f5a99",
+      "text": "今天从一个人出发：林则徐在虎门做了什么。我们要去广东虎门、广州与南京，看看奏折、条约文本与虎门遗址怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-54f76dfdea7e1fb6",
+      "text": "五条线索都找到了，“林则徐在虎门做了什么”的答案是：林则徐禁烟是维护国家利益；战败后的不平等条约让中国主权受损。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个人出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是晚清的危机与救亡，时间是1840—1911年。",
+          "narration": "这是晚清的危机与救亡，时间是1840—1911年。",
+          "displayText": "这是晚清的危机与救亡，时间是1840—1911年。"
+        },
+        "assetId": "lin-zexu-portrait-19c-public-domain",
+        "image": "/content/step-images/lin-zexu-portrait-19c-public-domain.jpg",
+        "imageAlt": "19世纪林则徐油画肖像",
+        "imageCaption": "19世纪关乔昌绘制的林则徐油画肖像。",
+        "imageBoundary": "本地文件为1212×1615像素JPEG。它是正式肖像画，不是照片、虎门销烟现场或人物心理记录；不得从表情、服装推断行动、性格或预知战争。Commons按二维公版作品忠实复制标记公有领域；跨法域商业使用前仍保留PD-Art复核提示。",
+        "audio": {
+          "transition": {
+            "id": "quest-26e845d2917e6a26",
+            "text": "先给一个人找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-59e8bd4e5ea15d2f",
+            "text": "这是晚清的危机与救亡，时间是1840—1911年。"
+          },
+          "image": {
+            "id": "quest-19f1da5e28cf8f81",
+            "text": "点开大图啦。这是19世纪林则徐油画肖像。这张图能帮我们找到：这是晚清的危机与救亡，时间是1840—1911年。"
+          },
+          "question": {
+            "id": "quest-1c5cffbdae9ffb27",
+            "text": "从一个人出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-01-01-opium-war-time-1",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "cn-modern-01-01-opium-war-time-2",
+            "label": "中国近代史 · 晚清的危机与救亡 · 1840—1911年",
+            "correct": true,
+            "audio": {
+              "id": "quest-a326ed6569d4da14",
+              "text": "中国近代史 · 晚清的危机与救亡 · 1840—1911年"
+            }
+          },
+          {
+            "id": "cn-modern-01-01-opium-war-time-3",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "任命书送到林则徐",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看林则徐收到任命书，带着奏折来到广东。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "任命书送到林则徐",
+          "screenText": "先看林则徐收到任命书，带着奏折来到广东。",
+          "narration": "先看林则徐收到任命书，带着奏折来到广东。",
+          "displayText": "先看林则徐收到任命书，带着奏折来到广东。"
+        },
+        "assetId": "lin-zexu-portrait-19c-public-domain",
+        "image": "/content/step-images/lin-zexu-portrait-19c-public-domain.jpg",
+        "imageAlt": "19世纪林则徐油画肖像",
+        "imageCaption": "19世纪关乔昌绘制的林则徐油画肖像。",
+        "imageBoundary": "本地文件为1212×1615像素JPEG。它是正式肖像画，不是照片、虎门销烟现场或人物心理记录；不得从表情、服装推断行动、性格或预知战争。Commons按二维公版作品忠实复制标记公有领域；跨法域商业使用前仍保留PD-Art复核提示。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-947c46a135362c55",
+            "text": "先看林则徐收到任命书，带着奏折来到广东。"
+          },
+          "image": {
+            "id": "quest-46ace82552172cda",
+            "text": "点开大图啦。这是19世纪林则徐油画肖像。这张图能帮我们找到：先看林则徐收到任命书，带着奏折来到广东。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-01-01-opium-war-beginning-1",
+            "label": "奏折、条约文本与虎门遗址，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-07364671d185cf4d",
+              "text": "奏折、条约文本与虎门遗址，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-modern-01-01-opium-war-beginning-2",
+            "label": "林则徐、关天培、清军与沿海民，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-beb38868780033ec",
+              "text": "林则徐、关天培、清军与沿海民，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-modern-01-01-opium-war-beginning-3",
+            "label": "广东虎门、广州与南京、林，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-e1843ae19da59ff4",
+              "text": "广东虎门、广州与南京、林，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "虎门依令处理",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着在虎门依照命令处理收缴的鸦片。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "虎门依令处理",
+          "screenText": "接着在虎门依照命令处理收缴的鸦片。",
+          "narration": "接着在虎门依照命令处理收缴的鸦片。",
+          "displayText": "接着在虎门依照命令处理收缴的鸦片。"
+        },
+        "assetId": "humen-opium-destruction-19c-artwork",
+        "image": "/content/step-images/humen-opium-destruction-19c-artwork.jpg",
+        "imageAlt": "19世纪虎门销烟艺术作品",
+        "imageCaption": "19世纪中国艺术家描绘虎门销烟的作品。",
+        "imageBoundary": "这是历史艺术作品，不是1839年现场照片、精确流程记录或操作指南。不得据画面还原销烟配方、步骤和人数，也不得设计儿童处理毒品的互动。原图1306×800像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-81da372af31aac7f",
+            "text": "接着在虎门依照命令处理收缴的鸦片。"
+          },
+          "image": {
+            "id": "quest-fc850fa37b338291",
+            "text": "点开大图啦。这是19世纪虎门销烟艺术作品。这张图能帮我们找到：接着在虎门依照命令处理收缴的鸦片。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-01-01-opium-war-journey-1",
+            "label": "广东虎门、广州与南京，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-7599af674445ce27",
+              "text": "广东虎门、广州与南京，只说了地点"
+            }
+          },
+          {
+            "id": "cn-modern-01-01-opium-war-journey-2",
+            "label": "林则徐、关天培、清军与沿，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-624deab5a18de556",
+              "text": "林则徐、关天培、清军与沿，只认出人物"
+            }
+          },
+          {
+            "id": "cn-modern-01-01-opium-war-journey-3",
+            "label": "接着在虎门依照命令处理收缴的鸦片。",
+            "correct": true,
+            "audio": {
+              "id": "quest-81da372af31aac7f",
+              "text": "接着在虎门依照命令处理收缴的鸦片。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "条约留下后果",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后条约和遗址说明国家主权受到破坏。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "条约留下后果",
+          "screenText": "最后条约和遗址说明国家主权受到破坏。",
+          "narration": "最后条约和遗址说明国家主权受到破坏。",
+          "displayText": "最后条约和遗址说明国家主权受到破坏。"
+        },
+        "assetId": "nanjing-treaty-original-part",
+        "image": "/content/step-images/nanjing-treaty-original-part.jpg",
+        "imageAlt": "1842年《南京条约》原件局部",
+        "imageCaption": "1842年中英《南京条约》中英文原件的一部分。",
+        "imageBoundary": "图像只呈现条约局部，不能代替全部十三款；低龄儿童只认识其原始文献身份，不要求辨读手写英文。显示图像带数字收藏机构水印，不得裁去或误说成原件自带文字。原图1550×909像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-931065607062d951",
+            "text": "最后条约和遗址说明国家主权受到破坏。"
+          },
+          "image": {
+            "id": "quest-401a81c6ba0bde4e",
+            "text": "点开大图啦。这是1842年《南京条约》原件局部。这张图能帮我们找到：最后条约和遗址说明国家主权受到破坏。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-01-01-opium-war-change-1",
+            "label": "奏折、条约文本与虎，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-852bce6667d7a4f7",
+              "text": "奏折、条约文本与虎，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-modern-01-01-opium-war-change-2",
+            "label": "最后条约和遗址说明国家主权受到破坏。",
+            "correct": true,
+            "audio": {
+              "id": "quest-931065607062d951",
+              "text": "最后条约和遗址说明国家主权受到破坏。"
+            }
+          },
+          {
+            "id": "cn-modern-01-01-opium-war-change-3",
+            "label": "在虎门依照命令处理收缴，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-12a4f11c9e0aa598",
+              "text": "在虎门依照命令处理收缴，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "林则徐禁烟是维护国家利益；战败后的不平等条约让中国主权受损。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "林则徐禁烟是维护国家利益；战败后的不平等条约让中国主权受损。",
+          "narration": "林则徐禁烟是维护国家利益；战败后的不平等条约让中国主权受损。",
+          "displayText": "林则徐禁烟是维护国家利益；战败后的不平等条约让中国主权受损。"
+        },
+        "assetId": "lin-zexu-portrait-19c-public-domain",
+        "image": "/content/step-images/lin-zexu-portrait-19c-public-domain.jpg",
+        "imageAlt": "19世纪林则徐油画肖像",
+        "imageCaption": "19世纪关乔昌绘制的林则徐油画肖像。",
+        "imageBoundary": "本地文件为1212×1615像素JPEG。它是正式肖像画，不是照片、虎门销烟现场或人物心理记录；不得从表情、服装推断行动、性格或预知战争。Commons按二维公版作品忠实复制标记公有领域；跨法域商业使用前仍保留PD-Art复核提示。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-686fc174e4852d91",
+            "text": "林则徐禁烟是维护国家利益；战败后的不平等条约让中国主权受损。"
+          },
+          "image": {
+            "id": "quest-d90c3c9a3a4e5c76",
+            "text": "点开大图啦。这是19世纪林则徐油画肖像。这张图能帮我们找到：林则徐禁烟是维护国家利益；战败后的不平等条约让中国主权受损。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-01-01-opium-war-takeaway-1",
+            "label": "林则徐禁烟是维护国家利益；战败后的不平等条约让中国主权受损。",
+            "correct": true,
+            "audio": {
+              "id": "quest-686fc174e4852d91",
+              "text": "林则徐禁烟是维护国家利益；战败后的不平等条约让中国主权受损。"
+            }
+          },
+          {
+            "id": "cn-modern-01-01-opium-war-takeaway-2",
+            "label": "看林则徐收到任命书，带着奏折来到广东。、奏折，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-fc0f6f859d73dd70",
+              "text": "看林则徐收到任命书，带着奏折来到广东。、奏折，只说了原因"
+            }
+          },
+          {
+            "id": "cn-modern-01-01-opium-war-takeaway-3",
+            "label": "条约和遗址说明国家主权受到破坏。、林则徐在虎门做了，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-32470fea26b65422",
+              "text": "条约和遗址说明国家主权受到破坏。、林则徐在虎门做了，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "分界线前后",
+        "items": [
+          "把“清前期有限贸易”放到1840年前，把“第一个不平等条约”放到1842年。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "责任判断",
+        "items": [
+          "选择“禁烟保护民众；英国发动侵略战争”，拒绝“禁烟造成侵略者无责任”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "条约影响卡",
+        "items": [
+          "将香港岛、赔款、五口通商、关税主权分别放到领土、财政、口岸和主权四个框。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "19世纪上半叶，英国商人向中国大量走私鸦片，伤害民众健康并引发白银外流等问题。1839年，林则徐主持虎门销烟；英国政府以此为借口并为维护、扩大在华利益，于1840年发动侵略战争。清军和民众进行了抵抗，清政府最终战败，1842年被迫签订中国近代史上第一个不平等条约《南京条约》。条约割让香港岛、赔款、开放五处通商口岸并破坏关税等主权。历史分界线不是说1840年一天所有生活突然改变，而是中国主权和社会发展从此受到更深的外来侵略影响，中国人民争取民族独立、人民解放的近代历程由此展开。"
@@ -310,20 +977,39 @@
       "title": "19世纪虎门销烟艺术作品",
       "localPath": "reference-assets/china-modern-late-qing/humen-opium-destruction-artwork.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Destruction_of_opium_in_1839.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "19世纪中国艺术家描绘虎门销烟的作品。",
-      "boundary": "这是历史艺术作品，不是1839年现场照片、精确流程记录或操作指南。不得据画面还原销烟配方、步骤和人数，也不得设计儿童处理毒品的互动。原图1306×800像素，未作修改。"
+      "boundary": "这是历史艺术作品，不是1839年现场照片、精确流程记录或操作指南。不得据画面还原销烟配方、步骤和人数，也不得设计儿童处理毒品的互动。原图1306×800像素，未作修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "nanjing-treaty-original-part",
       "title": "1842年《南京条约》原件局部",
       "localPath": "reference-assets/china-modern-late-qing/nanjing-treaty-part.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Treaty_of_Nanking_(part_of).png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — government/legal document",
       "clearance": "cleared-open-license",
       "caption": "1842年中英《南京条约》中英文原件的一部分。",
-      "boundary": "图像只呈现条约局部，不能代替全部十三款；低龄儿童只认识其原始文献身份，不要求辨读手写英文。显示图像带数字收藏机构水印，不得裁去或误说成原件自带文字。原图1550×909像素，未作修改。"
+      "boundary": "图像只呈现条约局部，不能代替全部十三款；低龄儿童只认识其原始文献身份，不要求辨读手写英文。显示图像带数字收藏机构水印，不得裁去或误说成原件自带文字。原图1550×909像素，未作修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "lin-zexu-portrait-19c-public-domain",
+      "title": "19世纪林则徐油画肖像",
+      "localPath": "reference-assets/cross-hero-biography/lin-zexu-portrait-19c.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Portrait_of_Lin_Zexu_(cropped).jpeg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0 / PD-Art",
+      "clearance": "cleared-open-license",
+      "caption": "19世纪关乔昌绘制的林则徐油画肖像。",
+      "boundary": "本地文件为1212×1615像素JPEG。它是正式肖像画，不是照片、虎门销烟现场或人物心理记录；不得从表情、服装推断行动、性格或预知战争。Commons按二维公版作品忠实复制标记公有领域；跨法域商业使用前仍保留PD-Art复核提示。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-modern-01-01-opium-war.jpg",

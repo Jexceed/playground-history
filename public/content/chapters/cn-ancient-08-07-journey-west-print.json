@@ -1,0 +1,1139 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.13.0",
+  "id": "cn-ancient-08-07-journey-west-print",
+  "trackId": "china-ancient",
+  "trackLabel": "中国古代史",
+  "period": {
+    "id": "ming",
+    "label": "明朝",
+    "years": "1368—1644年"
+  },
+  "order": 42,
+  "title": "一本明代《西游记》怎样让故事跑远",
+  "coreQuestion": "文字、插图、刻版、印刷和读者怎样让孙悟空的故事传到更多地方？",
+  "throughline": "以1592年金陵世德堂本跨页插图为主角，观察文字与图像怎样配合，再追到刻版、印刷和读者；最后清楚分开唐代玄奘真人与明代小说角色。",
+  "childEntry": {
+    "id": "cn-ancient-08-07-journey-west-print",
+    "childTitle": "帮孙悟空走进一本书",
+    "prompt": "故事里会变化的孙悟空，怎样变成读者手里的书页？",
+    "takeaway": "《西游记》是明代小说；书页流传要靠作者、刻工、印工和装订者，小说法术不是真实旅行记录。",
+    "object": "1592年世德堂本《西游记》插图",
+    "people": [
+      "吴承恩",
+      "刻印、装订者"
+    ],
+    "place": "明代金陵书坊与故事流传的许多地方",
+    "culture": "《西游记》小说、版画与说故事传统",
+    "care": "印书图是工序示意，不伪造1592年书坊现场。传统作者署名与版本材料需要分别核对。",
+    "preferredAssetId": "journey-west-shidetang-1592-print",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-08-07-journey-west-print",
+    "featured": {
+      "type": "名著",
+      "icon": "🐒",
+      "title": "吴承恩与刻印、装订者",
+      "childBridge": "故事里会变化的孙悟空，怎样变成读者手里的书页？",
+      "evidenceBoundary": "印书图是工序示意，不伪造1592年书坊现场。"
+    },
+    "companions": [
+      {
+        "type": "人物",
+        "label": "玄奘与吴承恩",
+        "note": "一位在唐代，一位在明代，必须放在两层时间里。"
+      },
+      {
+        "type": "课文",
+        "label": "《猴王出世》",
+        "note": "课文节选帮助走近名著，不等于整部小说。"
+      },
+      {
+        "type": "成语故事",
+        "label": "腾云驾雾",
+        "note": "这是文学想象，不是古代交通技术。"
+      },
+      {
+        "type": "地点",
+        "label": "金陵书坊",
+        "note": "故事传播还要靠刻工、印工、书商和读者。"
+      }
+    ],
+    "sourceIds": [
+      "PEP-PRIMARY-CHINESE-G5B-2022",
+      "PEP-PRIMARY-TRADITIONAL-CULTURE-2019",
+      "NLC-JOURNEY-WEST-CLASSIC"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "取经与小说的时间",
+      "text": "玄奘在唐代远行；到明代，《西游记》小说讲出了孙悟空等神奇伙伴。1592年有世德堂刊本。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "先分清两位同行者",
+      "text": "玄奘是真实历史人物。孙悟空是小说人物，可以在故事里大显身手。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "书坊里没有变书法术",
+      "text": "刻工把图文刻在版上，印工上墨、覆纸印出。图里是简化步骤。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "散页还要排好",
+      "text": "印出的书页要整理顺序，再装订。先后弄错，读者会接不上故事。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "谁把故事交给读者",
+      "text": "传统上《西游记》署名吴承恩。小说流传还离不开刻印、装订和保存的人。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "小说",
+      "icon": "📖",
+      "plain": "用人物和一连串事情讲故事的文学作品。",
+      "example": "《西游记》是明代长篇小说，不是玄奘本人的旅行日记。",
+      "priority": 1
+    },
+    {
+      "term": "游记",
+      "icon": "🥾",
+      "plain": "把旅行中看见、听见和查到的事情写下来。",
+      "example": "徐霞客边走边记，还会比较河流从哪里来。",
+      "priority": 1
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "吴承恩",
+      "reading": "Wú Chéng’ēn",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-07-journey-west-print"
+      ],
+      "note": "“承恩”两音节读清楚。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "帮孙悟空走进一本书",
+      "question": "故事里会变化的孙悟空，怎样变成读者手里的书页？"
+    },
+    "cta": "去书坊看印书",
+    "anchor": "吴承恩与刻印、装订者",
+    "boundary": "印书图是工序示意，不伪造1592年书坊现场。传统作者署名与版本材料需要分别核对。",
+    "evidence": [
+      {
+        "id": "journey-west-shidetang-1592-print",
+        "title": "1592年世德堂本《西游记》跨页插图",
+        "localPath": "reference-assets/ming-qing/journey-west-1592.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Journey_to_the_West,_Shidetang_Hall_of_Jinling_in_1592.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "Public Domain Mark 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "1592年金陵世德堂本《西游记》中孙悟空与铁扇公主故事的跨页插图。",
+        "boundary": "这是明代小说刊本的插图，不是玄奘西行现场、唐代画面或人物照片；只能证明明代读者怎样借文字与版画阅读故事。原图1856×1637像素。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/journey-west-shidetang-1592-print.jpg"
+      }
+    ],
+    "coverAsset": {
+      "id": "journey-west-shidetang-1592-print",
+      "title": "1592年世德堂本《西游记》跨页插图",
+      "localPath": "reference-assets/ming-qing/journey-west-1592.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Journey_to_the_West,_Shidetang_Hall_of_Jinling_in_1592.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "1592年金陵世德堂本《西游记》中孙悟空与铁扇公主故事的跨页插图。",
+      "boundary": "这是明代小说刊本的插图，不是玄奘西行现场、唐代画面或人物照片；只能证明明代读者怎样借文字与版画阅读故事。原图1856×1637像素。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/journey-west-shidetang-1592-print.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/journey-west-shidetang-1592-print.jpg",
+    "coverImageAlt": "1592年世德堂本《西游记》跨页插图",
+    "coverImageKind": "历史材料",
+    "coverAudio": {
+      "id": "quest-be4f1f17d8858313",
+      "text": "帮孙悟空走进一本书。故事里会变化的孙悟空，怎样变成读者手里的书页？准备好就点“去书坊看印书”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-1ad393f4b954f3e0",
+      "text": "《西游记》是明代小说；书页流传要靠作者、刻工、印工和装订者，小说法术不是真实旅行记录。"
+    },
+    "finish": {
+      "title": "当一次小书坊的排页人",
+      "actions": [
+        "用手指依次点“刻版、印页、装订”。",
+        "家人假装收到书，你告诉他孙悟空在故事里，印书人在故事外。"
+      ],
+      "parent": "可以用三张已有纸卡练排序，不用刻刀或印刷设备。问“书页是谁做出来的？”接受刻工、印工、装订者中的两种。",
+      "sceneStepIndexes": [
+        2,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-0afdae7a2e01fd69",
+          "text": "用手指依次点“刻版、印页、装订”。"
+        },
+        {
+          "id": "quest-a135d1217f03dc1a",
+          "text": "家人假装收到书，你告诉他孙悟空在故事里，印书人在故事外。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-8d8d1d36ac028963",
+        "text": "当一次小书坊的排页人。用手指依次点“刻版、印页、装订”。家人假装收到书，你告诉他孙悟空在故事里，印书人在故事外。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "取经与小说的时间",
+        "title": "取经与小说的时间",
+        "prompt": "哪张时间顺序对？",
+        "rightNote": "真实旅行在前，小说在后来发展；不能互当同一份记录。",
+        "wrongNote": "真实旅行在前，小说在后来发展；不能互当同一份记录。",
+        "sourceIds": [
+          "NLC-JOURNEY-WEST-CLASSIC"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "取经与小说的时间",
+          "screenText": "玄奘在唐代远行；到明代，《西游记》小说讲出了孙悟空等神奇伙伴。1592年有世德堂刊本。",
+          "displayText": "玄奘在唐代远行；到明代，《西游记》小说讲出了孙悟空等神奇伙伴。1592年有世德堂刊本。",
+          "narration": "玄奘在唐代远行；到明代，《西游记》小说讲出了孙悟空等神奇伙伴。1592年有世德堂刊本。"
+        },
+        "assetId": "study-e014dc34f6a9b581",
+        "image": "/content/study-scenes/study-e014dc34f6a9b581.svg",
+        "studyImage": "/content/study-scenes/study-e014dc34f6a9b581.svg",
+        "studyImageAlt": "唐 玄奘，明 1592年刊本",
+        "imageAlt": "唐 玄奘，明 1592年刊本",
+        "imageCaption": "学习示意 · 唐 玄奘，明 1592年刊本",
+        "imageBoundary": "自制学习示意。印书图是工序示意，不伪造1592年书坊现场。传统作者署名与版本材料需要分别核对。",
+        "audio": {
+          "transition": {
+            "id": "quest-e61a7c4c8127bf95",
+            "text": "取经与小说的时间。"
+          },
+          "intro": {
+            "id": "quest-70a8ef4c3b2aac2e",
+            "text": "玄奘在唐代远行；到明代，《西游记》小说讲出了孙悟空等神奇伙伴。1592年有世德堂刊本。"
+          },
+          "question": {
+            "id": "quest-b28e61dcb6b1fce7",
+            "text": "哪张时间顺序对？"
+          },
+          "image": {
+            "id": "quest-b2cd4a335796f048",
+            "text": "这是学习示意图：唐 玄奘，明 1592年刊本。哪张时间顺序对？"
+          },
+          "right": {
+            "id": "quest-0e16e24314a53a49",
+            "text": "找到了。真实旅行在前，小说在后来发展；不能互当同一份记录。"
+          },
+          "wrong": {
+            "id": "quest-8706bf224ce4698d",
+            "text": "再比较一下。真实旅行在前，小说在后来发展；不能互当同一份记录。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-07-journey-west-print-time-1",
+            "label": "唐代玄奘 → 明代小说",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-27ecca7c1f61e0af.svg",
+            "imageAlt": "唐代，明代",
+            "audio": {
+              "id": "quest-52dfa3753a4bbeb6",
+              "text": "唐代玄奘 → 明代小说"
+            }
+          },
+          {
+            "id": "cn-ancient-08-07-journey-west-print-time-2",
+            "label": "明代小说 → 唐代玄奘",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-9872eae56f918552.svg",
+            "imageAlt": "明代，唐代",
+            "audio": {
+              "id": "quest-5aa30f557877d5a4",
+              "text": "明代小说 → 唐代玄奘"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "先分清两位同行者",
+        "title": "先分清两位同行者",
+        "prompt": "哪个属于小说里的神奇伙伴？",
+        "rightNote": "孙悟空属于文学想象，不需要把他当真实译经成员。",
+        "wrongNote": "孙悟空属于文学想象，不需要把他当真实译经成员。",
+        "sourceIds": [
+          "NLC-JOURNEY-WEST-CLASSIC"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "先分清两位同行者",
+          "screenText": "玄奘是真实历史人物。孙悟空是小说人物，可以在故事里大显身手。",
+          "displayText": "玄奘是真实历史人物。孙悟空是小说人物，可以在故事里大显身手。",
+          "narration": "玄奘是真实历史人物。孙悟空是小说人物，可以在故事里大显身手。"
+        },
+        "assetId": "study-d8b58b598ae2bce3",
+        "image": "/content/study-scenes/study-d8b58b598ae2bce3.svg",
+        "studyImage": "/content/study-scenes/study-d8b58b598ae2bce3.svg",
+        "studyImageAlt": "历史玄奘，小说孙悟空",
+        "imageAlt": "历史玄奘，小说孙悟空",
+        "imageCaption": "学习示意 · 历史玄奘，小说孙悟空",
+        "imageBoundary": "自制学习示意。印书图是工序示意，不伪造1592年书坊现场。传统作者署名与版本材料需要分别核对。",
+        "audio": {
+          "transition": {
+            "id": "quest-9a23005d9e0d927a",
+            "text": "先分清两位同行者。"
+          },
+          "intro": {
+            "id": "quest-5efcea2fadc49fb3",
+            "text": "玄奘是真实历史人物。孙悟空是小说人物，可以在故事里大显身手。"
+          },
+          "question": {
+            "id": "quest-690c502a8b6863b4",
+            "text": "哪个属于小说里的神奇伙伴？"
+          },
+          "image": {
+            "id": "quest-c889157f4c6697cc",
+            "text": "这是学习示意图：历史玄奘，小说孙悟空。哪个属于小说里的神奇伙伴？"
+          },
+          "right": {
+            "id": "quest-be91a6a0fc4a1c2b",
+            "text": "找到了。孙悟空属于文学想象，不需要把他当真实译经成员。"
+          },
+          "wrong": {
+            "id": "quest-62311b1b4188b5c1",
+            "text": "再比较一下。孙悟空属于文学想象，不需要把他当真实译经成员。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-07-journey-west-print-beginning-1",
+            "label": "孙悟空",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-9107ae43b8694a67.svg",
+            "imageAlt": "孙悟空",
+            "audio": {
+              "id": "quest-38cb71aa7661b973",
+              "text": "孙悟空"
+            }
+          },
+          {
+            "id": "cn-ancient-08-07-journey-west-print-beginning-2",
+            "label": "历史上的玄奘",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-da21a2ccd95a908b.svg",
+            "imageAlt": "玄奘",
+            "audio": {
+              "id": "quest-877efb248afd9690",
+              "text": "历史上的玄奘"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "书坊里没有变书法术",
+        "title": "书坊里没有变书法术",
+        "prompt": "纸上出现图文之前，要做什么？",
+        "rightNote": "书页图文需要版和印制工序，不是孙悟空变出来的。",
+        "wrongNote": "书页图文需要版和印制工序，不是孙悟空变出来的。",
+        "sourceIds": [
+          "NLC-JOURNEY-WEST-CLASSIC"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "书坊里没有变书法术",
+          "screenText": "刻工把图文刻在版上，印工上墨、覆纸印出。图里是简化步骤。",
+          "displayText": "刻工把图文刻在版上，印工上墨、覆纸印出。图里是简化步骤。",
+          "narration": "刻工把图文刻在版上，印工上墨、覆纸印出。图里是简化步骤。"
+        },
+        "assetId": "study-cc96ae81ff369582",
+        "image": "/content/study-scenes/study-cc96ae81ff369582.svg",
+        "studyImage": "/content/study-scenes/study-cc96ae81ff369582.svg",
+        "studyImageAlt": "刻版，上墨，印页",
+        "imageAlt": "刻版，上墨，印页",
+        "imageCaption": "学习示意 · 刻版，上墨，印页",
+        "imageBoundary": "自制学习示意。印书图是工序示意，不伪造1592年书坊现场。传统作者署名与版本材料需要分别核对。",
+        "audio": {
+          "transition": {
+            "id": "quest-5bef7ca6f5d83213",
+            "text": "书坊里没有变书法术。"
+          },
+          "intro": {
+            "id": "quest-22c2053cfa64b3b5",
+            "text": "刻工把图文刻在版上，印工上墨、覆纸印出。图里是简化步骤。"
+          },
+          "question": {
+            "id": "quest-cb26e597b0763dd2",
+            "text": "纸上出现图文之前，要做什么？"
+          },
+          "image": {
+            "id": "quest-6c178737cf3579cb",
+            "text": "这是学习示意图：刻版，上墨，印页。纸上出现图文之前，要做什么？"
+          },
+          "right": {
+            "id": "quest-6e72c6180cdea57e",
+            "text": "找到了。书页图文需要版和印制工序，不是孙悟空变出来的。"
+          },
+          "wrong": {
+            "id": "quest-8adcb945dde9b335",
+            "text": "再比较一下。书页图文需要版和印制工序，不是孙悟空变出来的。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-07-journey-west-print-journey-1",
+            "label": "刻好版并上墨",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-320206aca7b99a65.svg",
+            "imageAlt": "刻版，上墨",
+            "audio": {
+              "id": "quest-02ab0eb51e6f1366",
+              "text": "刻好版并上墨"
+            }
+          },
+          {
+            "id": "cn-ancient-08-07-journey-west-print-journey-2",
+            "label": "把白纸先订成空本",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-7c876577fea4eb88.svg",
+            "imageAlt": "白纸，空本",
+            "audio": {
+              "id": "quest-70504422dd8d39fa",
+              "text": "把白纸先订成空本"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "散页还要排好",
+        "title": "散页还要排好",
+        "prompt": "装订前应该先检查什么？",
+        "rightNote": "按顺序整理，故事才能一页页接着读。",
+        "wrongNote": "按顺序整理，故事才能一页页接着读。",
+        "sourceIds": [
+          "NLC-JOURNEY-WEST-CLASSIC"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "散页还要排好",
+          "screenText": "印出的书页要整理顺序，再装订。先后弄错，读者会接不上故事。",
+          "displayText": "印出的书页要整理顺序，再装订。先后弄错，读者会接不上故事。",
+          "narration": "印出的书页要整理顺序，再装订。先后弄错，读者会接不上故事。"
+        },
+        "assetId": "study-5c81062527fc2894",
+        "image": "/content/study-scenes/study-5c81062527fc2894.svg",
+        "studyImage": "/content/study-scenes/study-5c81062527fc2894.svg",
+        "studyImageAlt": "散页，排序，装订",
+        "imageAlt": "散页，排序，装订",
+        "imageCaption": "学习示意 · 散页，排序，装订",
+        "imageBoundary": "自制学习示意。印书图是工序示意，不伪造1592年书坊现场。传统作者署名与版本材料需要分别核对。",
+        "audio": {
+          "transition": {
+            "id": "quest-8665351967b6b195",
+            "text": "散页还要排好。"
+          },
+          "intro": {
+            "id": "quest-aa3c839fcd037001",
+            "text": "印出的书页要整理顺序，再装订。先后弄错，读者会接不上故事。"
+          },
+          "question": {
+            "id": "quest-5055f585154aa88f",
+            "text": "装订前应该先检查什么？"
+          },
+          "image": {
+            "id": "quest-360766fb90f58169",
+            "text": "这是学习示意图：散页，排序，装订。装订前应该先检查什么？"
+          },
+          "right": {
+            "id": "quest-d5dcd2dcce15f580",
+            "text": "找到了。按顺序整理，故事才能一页页接着读。"
+          },
+          "wrong": {
+            "id": "quest-59b98b9d0be964e5",
+            "text": "再比较一下。按顺序整理，故事才能一页页接着读。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-07-journey-west-print-change-1",
+            "label": "书页的顺序",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-a919dba66d0ecdc7.svg",
+            "imageAlt": "核对页序",
+            "audio": {
+              "id": "quest-2404884c78ccd066",
+              "text": "书页的顺序"
+            }
+          },
+          {
+            "id": "cn-ancient-08-07-journey-west-print-change-2",
+            "label": "只看纸堆高不高",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-5eba18079f0ef251.svg",
+            "imageAlt": "只比纸堆高度",
+            "audio": {
+              "id": "quest-dfcb34f6752a3bee",
+              "text": "只看纸堆高不高"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "谁把故事交给读者",
+        "title": "谁把故事交给读者",
+        "prompt": "介绍一本老书时，还应看见谁？",
+        "rightNote": "人物让故事生动，真实的制作协作让书来到读者手里。",
+        "wrongNote": "人物让故事生动，真实的制作协作让书来到读者手里。",
+        "sourceIds": [
+          "NLC-JOURNEY-WEST-CLASSIC"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "谁把故事交给读者",
+          "screenText": "传统上《西游记》署名吴承恩。小说流传还离不开刻印、装订和保存的人。",
+          "displayText": "传统上《西游记》署名吴承恩。小说流传还离不开刻印、装订和保存的人。",
+          "narration": "传统上《西游记》署名吴承恩。小说流传还离不开刻印、装订和保存的人。"
+        },
+        "assetId": "study-e9ac0ed05d343f8d",
+        "image": "/content/study-scenes/study-e9ac0ed05d343f8d.svg",
+        "studyImage": "/content/study-scenes/study-e9ac0ed05d343f8d.svg",
+        "studyImageAlt": "写作，刻印，装订",
+        "imageAlt": "写作，刻印，装订",
+        "imageCaption": "学习示意 · 写作，刻印，装订",
+        "imageBoundary": "自制学习示意。印书图是工序示意，不伪造1592年书坊现场。传统作者署名与版本材料需要分别核对。",
+        "audio": {
+          "transition": {
+            "id": "quest-2a48938561a730b2",
+            "text": "谁把故事交给读者。"
+          },
+          "intro": {
+            "id": "quest-add7399e8921a7bf",
+            "text": "传统上《西游记》署名吴承恩。小说流传还离不开刻印、装订和保存的人。"
+          },
+          "question": {
+            "id": "quest-abb110950691252f",
+            "text": "介绍一本老书时，还应看见谁？"
+          },
+          "image": {
+            "id": "quest-7a80977053906031",
+            "text": "这是学习示意图：写作，刻印，装订。介绍一本老书时，还应看见谁？"
+          },
+          "right": {
+            "id": "quest-069025ac900a5a27",
+            "text": "找到了。人物让故事生动，真实的制作协作让书来到读者手里。"
+          },
+          "wrong": {
+            "id": "quest-d272b9e96c49eacf",
+            "text": "再比较一下。人物让故事生动，真实的制作协作让书来到读者手里。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-07-journey-west-print-takeaway-1",
+            "label": "写作、刻印、装订的人",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-4dd200bcf911300b.svg",
+            "imageAlt": "作者，印工，装订者",
+            "audio": {
+              "id": "quest-1fdec6704dc6fe94",
+              "text": "写作、刻印、装订的人"
+            }
+          },
+          {
+            "id": "cn-ancient-08-07-journey-west-print-takeaway-2",
+            "label": "只有小说里的孙悟空",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-506999c0fd382bbd.svg",
+            "imageAlt": "只有孙悟空",
+            "audio": {
+              "id": "quest-30e2038de591eceb",
+              "text": "只有小说里的孙悟空"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "时间分层",
+        "items": [
+          "把玄奘放入唐代，把世德堂本和孙悟空放入明代小说层。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "印书接力",
+        "items": [
+          "排序“画稿—刻版—施墨—压纸—装订”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "证据标签",
+        "items": [
+          "给1592年插图贴“小说刊本”，拒绝“唐代现场照片”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图片和语音为主",
+  "durationMinutes": 8,
+  "conclusion": [
+    "《西游记》是明代长篇小说，以唐代玄奘西行取经的真人真事为原始素材，又加入孙悟空、猪八戒、沙僧等丰富文学想象。1592年金陵世德堂刊本把文字和跨页插图印在纸上，留下明代读者怎样接触故事的证据。一本书的传播依靠作者、整理者、画稿者、刻工、印工、书坊和读者，不能只归功于一个名字。儿童通过“画—刻—墨—印—装订”理解出版，同时始终分开唐代历史人物与明代小说角色。"
+  ],
+  "facts": [
+    {
+      "number": 1,
+      "text": "《西游记》是中国古代长篇小说，传统上署名明代吴承恩。",
+      "sourceIds": [
+        "NLC-JOURNEY-WEST-CLASSIC"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "小说以唐代玄奘西行取经为历史素材，又进行了大量文学想象与改编。",
+      "sourceIds": [
+        "NLC-JOURNEY-WEST-CLASSIC"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "孙悟空、猪八戒和沙僧属于小说角色，不是玄奘真实西行队伍成员。",
+      "sourceIds": [
+        "NLC-JOURNEY-WEST-CLASSIC"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "现存1592年金陵世德堂本含文字与跨页版画，可观察明代小说刊本的图文关系。",
+      "sourceIds": [
+        "NLC-JOURNEY-WEST-CLASSIC"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "木版印刷需要画稿、反写上版、刻版、施墨、覆纸和印刷等协作环节，单页插图不能告诉我们每位工匠姓名。",
+      "sourceIds": [
+        "NLC-JOURNEY-WEST-CLASSIC",
+        "MOE-HISTORY-CURRICULUM-2022"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "刊本插图表现小说情节，不是唐代取经现场、真实人物照片或1592年演员表演记录。",
+      "sourceIds": [
+        "NLC-JOURNEY-WEST-CLASSIC"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "number": 1,
+      "title": "时间线定位——唐代真人与明代小说",
+      "screenText": "7世纪：玄奘真实西行\n明代：《西游记》小说形成\n1592年：世德堂刊本",
+      "voices": [
+        {
+          "number": 1,
+          "label": "语音1｜时间定位",
+          "text": "先把两层时间分开。玄奘是唐代历史人物。几百年后，明代小说家把取经素材变成充满想象的《西游记》。",
+          "segments": [
+            {
+              "id": "cn-ancient-08-07-journey-west-print-s01-v01-01",
+              "order": 1,
+              "tier": "core",
+              "text": "先把两层时间分开。玄奘是唐代历史人物。几百年后，明代小说家把取经素材变成充满想象的《西游记》。",
+              "hanCharacters": 41
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 2,
+      "title": "第一拍——画稿先讲一个场面",
+      "screenText": "跨页插图画出孙悟空和铁扇公主的故事。",
+      "voices": [
+        {
+          "number": 2,
+          "label": "语音2｜看插图",
+          "text": "这幅插图跨过两页，旁边还有文字。它帮助读者想象小说场面，却不是孙悟空真实存在的照片。",
+          "segments": [
+            {
+              "id": "cn-ancient-08-07-journey-west-print-s02-v02-01",
+              "order": 1,
+              "tier": "core",
+              "text": "这幅插图跨过两页，旁边还有文字。它帮助读者想象小说场面，却不是孙悟空真实存在的照片。",
+              "hanCharacters": 38
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 3,
+      "title": "第二拍——把线条刻到木版上",
+      "screenText": "画稿 → 上版 → 刻出能留下墨的线",
+      "voices": [
+        {
+          "number": 3,
+          "label": "语音3｜理解刻版",
+          "text": "工匠把画稿转到木版上，再小心刻出线条。刻版不是按一下按钮就完成，需要手、眼睛、工具和经验一起工作。",
+          "segments": [
+            {
+              "id": "cn-ancient-08-07-journey-west-print-s03-v03-01",
+              "order": 1,
+              "tier": "core",
+              "text": "工匠把画稿转到木版上，再小心刻出线条。刻版不是按一下按钮就完成，需要手、眼睛、工具和经验一起工作。",
+              "hanCharacters": 43
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 4,
+      "title": "第三拍——墨和纸让图像出现",
+      "screenText": "施墨 → 覆纸 → 压印 → 揭起",
+      "voices": [
+        {
+          "number": 4,
+          "label": "语音4｜看见印刷",
+          "text": "木版上施墨，盖上纸，均匀压印，再把纸揭起，图像就来到纸上。同一块版可以继续印，但每张纸仍要认真操作。",
+          "segments": [
+            {
+              "id": "cn-ancient-08-07-journey-west-print-s04-v04-01",
+              "order": 1,
+              "tier": "core",
+              "text": "木版上施墨，盖上纸，均匀压印，再把纸揭起，图像就来到纸上。同一块版可以继续印，但每张纸仍要认真操作。",
+              "hanCharacters": 43
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 5,
+      "title": "书为什么能跑得更远",
+      "screenText": "印页、装订、书坊和读者，一站站接力。",
+      "voices": [
+        {
+          "number": 5,
+          "label": "语音5｜传播网络",
+          "text": "印好的纸页要排序、装订，再由书坊和读者带到不同地方。故事跑得远，不是孙悟空飞过去，而是很多人和书一起接力。",
+          "segments": [
+            {
+              "id": "cn-ancient-08-07-journey-west-print-s05-v05-01",
+              "order": 1,
+              "tier": "core",
+              "text": "印好的纸页要排序、装订，再由书坊和读者带到不同地方。故事跑得远，不是孙悟空飞过去，而是很多人和书一起接力。",
+              "hanCharacters": 47
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 6,
+      "title": "历史人物和小说角色各归各位",
+      "screenText": "玄奘：唐代历史人物\n孙悟空：明代小说角色",
+      "voices": [
+        {
+          "number": 6,
+          "label": "语音6｜完成复述",
+          "text": "请你复述：玄奘是真实历史人物，孙悟空是小说角色。明代工匠把文字和插图印成书，让想象故事传到更多读者手中。",
+          "segments": [
+            {
+              "id": "cn-ancient-08-07-journey-west-print-s06-v06-01",
+              "order": 1,
+              "tier": "core",
+              "text": "请你复述：玄奘是真实历史人物，孙悟空是小说角色。明代工匠把文字和插图印成书，让想象故事传到更多读者手中。",
+              "hanCharacters": 47
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    }
+  ],
+  "interactions": [
+    {
+      "number": 1,
+      "title": "时间分层",
+      "items": [
+        "把玄奘放入唐代，把世德堂本和孙悟空放入明代小说层。"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "印书接力",
+      "items": [
+        "排序“画稿—刻版—施墨—压纸—装订”。"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "证据标签",
+      "items": [
+        "给1592年插图贴“小说刊本”，拒绝“唐代现场照片”。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "NLC-JOURNEY-WEST-CLASSIC",
+      "title": "中华传统文化百部经典·西游记",
+      "institution": "国家图书馆出版社",
+      "url": "https://www.nlc.cn/web/zdxm/bbjd/mobile/dtxx/xctg/20241018_2641596.shtml",
+      "type": "national-library-classic-literature-resource",
+      "authorityLevel": "A-national-library",
+      "factUse": "《西游记》为明代长篇小说，以玄奘西行为历史素材并进行丰富文学想象；孙悟空等角色属于小说，不进入玄奘真实队伍",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "MOE-HISTORY-CURRICULUM-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "institution": "中华人民共和国教育部",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "type": "curriculum-standard",
+      "authorityLevel": "A",
+      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-PRIMARY-CHINESE-G5B-2022",
+      "title": "义务教育教科书语文五年级下册同步字词学习手册目录",
+      "institution": "人民教育出版社",
+      "url": "https://www.pep.com.cn/products/zhytu/gjshnj/csxp/tbzc/202306/t20230629_1984172.shtml",
+      "type": "official-textbook-companion-catalog",
+      "authorityLevel": "A-national-textbook-publisher-structure-only",
+      "factUse": "核对统编小学语文五年级下册以古典名著为主题编入《草船借箭》《猴王出世》等篇目；用于区分历史人物、后世小说与课文节选",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-PRIMARY-TRADITIONAL-CULTURE-2019",
+      "title": "整体渗透，将核心价值观化为语文的“血肉”",
+      "institution": "人民教育出版社",
+      "url": "https://www.pep.com.cn/xw/zt/hd/zjywjytbskjc/201905/t20190517_1938342.html",
+      "type": "official-textbook-editorial-explanation",
+      "authorityLevel": "A-national-textbook-publisher",
+      "factUse": "核对统编小学语文教材中的古诗文、成语、神话、历史故事与四大名著节选结构，并明确改编、节选和史实之间的边界",
+      "imageUse": "reference-only"
+    }
+  ],
+  "assets": [
+    {
+      "id": "study-e014dc34f6a9b581",
+      "title": "学习示意：唐 玄奘、明 1592年刊本",
+      "localPath": "reference-assets/focused-quests/study-e014dc34f6a9b581.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "唐 玄奘 → 明 1592年刊本",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-27ecca7c1f61e0af",
+      "title": "学习示意：唐代、明代",
+      "localPath": "reference-assets/focused-quests/study-27ecca7c1f61e0af.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "唐代 → 明代",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-9872eae56f918552",
+      "title": "学习示意：明代、唐代",
+      "localPath": "reference-assets/focused-quests/study-9872eae56f918552.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "明代 → 唐代",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d8b58b598ae2bce3",
+      "title": "学习示意：历史玄奘、小说孙悟空",
+      "localPath": "reference-assets/focused-quests/study-d8b58b598ae2bce3.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "历史玄奘 → 小说孙悟空",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-9107ae43b8694a67",
+      "title": "学习示意：孙悟空",
+      "localPath": "reference-assets/focused-quests/study-9107ae43b8694a67.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "孙悟空",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-da21a2ccd95a908b",
+      "title": "学习示意：玄奘",
+      "localPath": "reference-assets/focused-quests/study-da21a2ccd95a908b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "玄奘",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-cc96ae81ff369582",
+      "title": "学习示意：刻版、上墨、印页",
+      "localPath": "reference-assets/focused-quests/study-cc96ae81ff369582.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "刻版 → 上墨 → 印页",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-320206aca7b99a65",
+      "title": "学习示意：刻版、上墨",
+      "localPath": "reference-assets/focused-quests/study-320206aca7b99a65.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "刻版 → 上墨",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-7c876577fea4eb88",
+      "title": "学习示意：白纸、空本",
+      "localPath": "reference-assets/focused-quests/study-7c876577fea4eb88.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "白纸 → 空本",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5c81062527fc2894",
+      "title": "学习示意：散页、排序、装订",
+      "localPath": "reference-assets/focused-quests/study-5c81062527fc2894.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "散页 → 排序 → 装订",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a919dba66d0ecdc7",
+      "title": "学习示意：核对页序",
+      "localPath": "reference-assets/focused-quests/study-a919dba66d0ecdc7.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "核对页序",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5eba18079f0ef251",
+      "title": "学习示意：只比纸堆高度",
+      "localPath": "reference-assets/focused-quests/study-5eba18079f0ef251.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只比纸堆高度",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e9ac0ed05d343f8d",
+      "title": "学习示意：写作、刻印、装订",
+      "localPath": "reference-assets/focused-quests/study-e9ac0ed05d343f8d.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "写作 → 刻印 → 装订",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-4dd200bcf911300b",
+      "title": "学习示意：作者、印工、装订者",
+      "localPath": "reference-assets/focused-quests/study-4dd200bcf911300b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "作者 → 印工 → 装订者",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-506999c0fd382bbd",
+      "title": "学习示意：只有孙悟空",
+      "localPath": "reference-assets/focused-quests/study-506999c0fd382bbd.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只有孙悟空",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "tiangong-kaiwu-casting-illustration",
+      "title": "《天工开物》铸鼎插图",
+      "localPath": "reference-assets/ming-qing/tiangong-kaiwu-casting.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tiangong_Kaiwu_Tripod_Casting.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "《天工开物》传本中的铸鼎工序插图。",
+      "boundary": "历史技术书中的传刊插图，不是1637年作坊照片，也不能据一页复原所有设备、人数和步骤。原图400×309像素，尺寸较小，不宜过度放大。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "journey-west-shidetang-1592-print",
+      "title": "1592年世德堂本《西游记》跨页插图",
+      "localPath": "reference-assets/ming-qing/journey-west-1592.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Journey_to_the_West,_Shidetang_Hall_of_Jinling_in_1592.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "1592年金陵世德堂本《西游记》中孙悟空与铁扇公主故事的跨页插图。",
+      "boundary": "这是明代小说刊本的插图，不是玄奘西行现场、唐代画面或人物照片；只能证明明代读者怎样借文字与版画阅读故事。原图1856×1637像素。",
+      "childVisibility": "child-ok"
+    }
+  ],
+  "thumbnail": "/content/thumbnails/cn-ancient-08-07-journey-west-print.jpg",
+  "status": {
+    "outline": "verified",
+    "research": "verified",
+    "script": "first-draft",
+    "assets": "cleared",
+    "audio": "not-started",
+    "review": "pending"
+  }
+}

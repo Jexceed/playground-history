@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-contemporary-02-02-depression-fascism-resistance",
   "trackId": "world-contemporary",
   "trackLabel": "世界现代史",
@@ -10,10 +10,748 @@
     "years": "1918—1939年"
   },
   "order": 4,
-  "title": "经济危机为什么让世界走向不同方向",
-  "coreQuestion": "罗斯福新政、法西斯扩张和殖民地民族运动怎样回应危机？",
-  "throughline": "先以1919—1938年时间线确认法西斯在大萧条前已经出现，再沿股灾、银行恐慌、生产就业循环与全球传导解释经济危机；比较美国新政的救济、监管、社会保障及覆盖不平等，意大利、德国和日本法西斯与军国主义的独裁侵略，以及印度食盐进军、埃及1919年革命和不完整独立、墨西哥卡德纳斯改革；中国线从九一八事变、国际申诉和抗日救亡走到七七事变与全民族抗战。",
-  "age": "6—9岁亲子共学",
+  "title": "一小袋盐怎样变成和平抗议",
+  "coreQuestion": "不公平的食盐规则为什么让许多人一起上路？",
+  "throughline": "儿童主线跟随甘地从萨巴尔马蒂步行到丹迪，以盐和路线理解和平抗议怎样让不公平规则被看见；经济危机、法西斯和各国应对留在家长层。",
+  "childEntry": {
+    "id": "world-contemporary-02-02-depression-fascism-resistance",
+    "childTitle": "一小袋盐为什么变成抗议",
+    "prompt": "甘地手里的一小袋盐，为什么会让许多人一起走上路？",
+    "takeaway": "一小袋盐连着不公平的规则；甘地用步行和取盐发起和平抗议。",
+    "object": "盐、步行路线和丹迪照片",
+    "people": [
+      "甘地和一起步行的人们"
+    ],
+    "place": "印度萨巴尔马蒂到丹迪",
+    "culture": "丹迪盐路新闻照片",
+    "care": "不展示惩罚与镇压画面；和平行动不等于立刻成功，要看规则后来怎样改变。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "一小袋盐为什么变成抗议"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "盐也被规则管住",
+      "text": "先看一小袋盐背后，藏着普通人不能自己取盐的规则。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "一小袋盐上路",
+      "text": "接着跟甘地拿起一小袋盐，走上抗议路线。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "更多人一起加入",
+      "text": "最后越来越多人加入和平抗议，让不公平的规则被看见。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "一小袋盐连着不公平的规则；甘地用步行和取盐发起和平抗议。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "和平",
+      "icon": "🕊️",
+      "plain": "人们不靠战争解决分歧，并努力避免暴力伤害。",
+      "example": "和平需要规则、谈判和行动，不只是说一句愿望。",
+      "priority": 1
+    },
+    {
+      "term": "法西斯",
+      "icon": "⛔",
+      "plain": "用独裁、迫害和极端民族主义推动侵略扩张的政治力量。",
+      "example": "法西斯上台有社会背景，也有具体组织和责任人。",
+      "priority": 1
+    },
+    {
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "priority": 1
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "改革",
+      "icon": "🛠️",
+      "plain": "发现旧办法有问题，改变规则或做法。",
+      "example": "改革可能带来新机会，也可能遇到阻力和新问题。",
+      "priority": 1
+    },
+    {
+      "term": "革命",
+      "icon": "🔄",
+      "plain": "许多人推动改变旧政权或旧制度的大变化。",
+      "example": "革命不是只看一场战斗，还要看原因、参与者和结果。",
+      "priority": 1
+    },
+    {
+      "term": "公民",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "属于一个国家、依法有权利也有责任的人。",
+      "example": "古代有些地方只让少数人成为公民。",
+      "priority": 1
+    },
+    {
+      "term": "经济",
+      "icon": "🧺",
+      "plain": "人们怎样生产、交换、分配和使用东西。",
+      "example": "经济变化最后会落到工作、食物、住房等生活里。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "民主",
+      "icon": "🗳️",
+      "plain": "公共事情不只由一个人说了算，人们按规则参与。",
+      "example": "不同年代参与范围不同，不能把古代投票当成今天制度。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "侵略",
+      "icon": "⛔",
+      "plain": "用武力进入别国，夺取土地或控制权。",
+      "example": "抵抗侵略和发动侵略的责任不能混在一起。",
+      "priority": 1
+    },
+    {
+      "term": "权利",
+      "icon": "🫶",
+      "plain": "规则承认一个人可以做、可以得到保护的事情。",
+      "example": "写有权利，还要检查妇女、奴隶和穷人是否真的拥有。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "反法西斯",
+      "icon": "🕊️",
+      "plain": "反对法西斯独裁、迫害和侵略扩张。",
+      "example": "反法西斯力量来自许多国家和不同社会群体。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "民族",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
+      "example": "民族不是按外貌排高低，也不会永远固定不变。",
+      "priority": 2
+    },
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "危机",
+      "icon": "⚠️",
+      "plain": "问题迅速变严重，原来的办法难以应付。",
+      "example": "危机通常有多种原因，也会影响不同的人。",
+      "priority": 2
+    },
+    {
+      "term": "议会",
+      "icon": "🪑",
+      "plain": "一些代表一起讨论、决定公共事情的机构。",
+      "example": "还要问哪些人能选代表，哪些人当时被排除。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "国际",
+      "icon": "🌍",
+      "plain": "不同国家之间或许多国家共同参与的事情。",
+      "example": "国际合作要看谁参加、怎样分工、规则如何执行。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "运动",
+      "icon": "📣",
+      "plain": "许多人围绕一个目标持续参加的行动。",
+      "example": "历史运动里的人、目标和做法可能并不完全相同。",
+      "priority": 3
+    },
+    {
+      "term": "责任",
+      "icon": "🤲",
+      "plain": "答应或应当承担、需要认真完成的事情。",
+      "example": "拥有公共权利，也常要承担相应责任。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "甘地",
+      "reading": "Gāndì",
+      "kind": "person",
+      "chapterIds": [
+        "world-contemporary-02-02-depression-fascism-resistance",
+        "world-contemporary-04-03-decolonization"
+      ],
+      "note": "“甘”读gān。"
+    },
+    {
+      "text": "罗斯福",
+      "reading": "Luósīfú",
+      "kind": "person",
+      "chapterIds": [
+        "world-contemporary-02-02-depression-fascism-resistance"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "欧洲",
+      "reading": "Ōuzhōu",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-01-01-first-world-war",
+        "world-contemporary-02-02-depression-fascism-resistance",
+        "world-contemporary-03-01-second-world-war"
+      ],
+      "note": "大洲名称。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "一小袋盐为什么变成抗议",
+      "question": "甘地手里的一小袋盐，为什么会让许多人一起走上路？"
+    },
+    "coverAudio": {
+      "id": "quest-2fcadf6ebd9e1eb3",
+      "text": "今天从一件东西出发：一小袋盐为什么变成抗议。我们要去印度萨巴尔马蒂到丹迪，看看盐、步行路线和丹迪照片怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-ceea358520b46e8a",
+      "text": "五条线索都找到了，“一小袋盐为什么变成抗议”的答案是：一小袋盐连着不公平的规则；甘地用步行和取盐发起和平抗议。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 11,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是两次世界大战之间，时间是1918—1939年。",
+          "narration": "这是两次世界大战之间，时间是1918—1939年。",
+          "displayText": "这是两次世界大战之间，时间是1918—1939年。"
+        },
+        "assetId": "national-movement-gandhi-dandi-1930-public-domain",
+        "image": "/content/step-images/national-movement-gandhi-dandi-1930-public-domain.jpg",
+        "imageAlt": "甘地在丹迪，1930年4月5日",
+        "imageCaption": "1930年4月5日，甘地抵达丹迪；次日他违反殖民盐法。",
+        "imageBoundary": "本地文件为4416×6291像素JPEG。照片证明甘地在丹迪及其公众形象，不能冒充4月6日取盐动作的精确瞬间，不能代表所有参加者，也不能把印度独立归功于单一人物。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-6bb1e8050b9abc39",
+            "text": "这是两次世界大战之间，时间是1918—1939年。"
+          },
+          "image": {
+            "id": "quest-2de22ae490079830",
+            "text": "点开大图啦。这是甘地在丹迪，1930年4月5日。这张图能帮我们找到：这是两次世界大战之间，时间是1918—1939年。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-time-1",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": true,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-time-2",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-time-3",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "盐也被规则管住",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看一小袋盐背后，藏着普通人不能自己取盐的规则。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "盐也被规则管住",
+          "screenText": "先看一小袋盐背后，藏着普通人不能自己取盐的规则。",
+          "narration": "先看一小袋盐背后，藏着普通人不能自己取盐的规则。",
+          "displayText": "先看一小袋盐背后，藏着普通人不能自己取盐的规则。"
+        },
+        "assetId": "national-movement-gandhi-dandi-1930-public-domain",
+        "image": "/content/step-images/national-movement-gandhi-dandi-1930-public-domain.jpg",
+        "imageAlt": "甘地在丹迪，1930年4月5日",
+        "imageCaption": "1930年4月5日，甘地抵达丹迪；次日他违反殖民盐法。",
+        "imageBoundary": "本地文件为4416×6291像素JPEG。照片证明甘地在丹迪及其公众形象，不能冒充4月6日取盐动作的精确瞬间，不能代表所有参加者，也不能把印度独立归功于单一人物。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-af7f8e52bbc5ce8b",
+            "text": "先看一小袋盐背后，藏着普通人不能自己取盐的规则。"
+          },
+          "image": {
+            "id": "quest-8650df4e6f679080",
+            "text": "点开大图啦。这是甘地在丹迪，1930年4月5日。这张图能帮我们找到：先看一小袋盐背后，藏着普通人不能自己取盐的规则。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-beginning-1",
+            "label": "印度萨巴尔马蒂到丹迪，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-616108d31f71a857",
+              "text": "印度萨巴尔马蒂到丹迪，只是故事地点"
+            }
+          },
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-beginning-2",
+            "label": "甘地和一起步行的人们、印度，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-74f702e3da317078",
+              "text": "甘地和一起步行的人们、印度，只是故事人物"
+            }
+          },
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-beginning-3",
+            "label": "盐、步行路线和丹迪照片，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-40a71cfa4784ecd5",
+              "text": "盐、步行路线和丹迪照片，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "一小袋盐上路",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着跟甘地拿起一小袋盐，走上抗议路线。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "一小袋盐上路",
+          "screenText": "接着跟甘地拿起一小袋盐，走上抗议路线。",
+          "narration": "接着跟甘地拿起一小袋盐，走上抗议路线。",
+          "displayText": "接着跟甘地拿起一小袋盐，走上抗议路线。"
+        },
+        "assetId": "depression-new-york-breadline-c1932-public-domain",
+        "image": "/content/step-images/depression-new-york-breadline-c1932-public-domain.jpg",
+        "imageAlt": "纽约市等待食物的队伍，约1932年",
+        "imageCaption": "约1932年，纽约市一列等待食物的人群，显示大萧条时期部分城市居民的生活困难。",
+        "imageBoundary": "本地JPEG为2000×1608像素，由NARA公开TIFF转换，原始TIFF一并保存。画面只证明某时某地存在食物队伍；不能识别个人、推断每人失业原因或用队伍长度计算全国贫困规模。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-3f20451d76d1f0d1",
+            "text": "接着跟甘地拿起一小袋盐，走上抗议路线。"
+          },
+          "image": {
+            "id": "quest-48a4e58a1424487c",
+            "text": "点开大图啦。这是纽约市等待食物的队伍，约1932年。这张图能帮我们找到：接着跟甘地拿起一小袋盐，走上抗议路线。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-journey-1",
+            "label": "印度萨巴尔马蒂到丹迪、盐，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-37151fba7ec2639c",
+              "text": "印度萨巴尔马蒂到丹迪、盐，只说了地点"
+            }
+          },
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-journey-2",
+            "label": "接着跟甘地拿起一小袋盐，走上抗议路线。",
+            "correct": true,
+            "audio": {
+              "id": "quest-3f20451d76d1f0d1",
+              "text": "接着跟甘地拿起一小袋盐，走上抗议路线。"
+            }
+          },
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-journey-3",
+            "label": "甘地和一起步行的人们、盐、步，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-9f0de539de8531db",
+              "text": "甘地和一起步行的人们、盐、步，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "更多人一起加入",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后越来越多人加入和平抗议，让不公平的规则被看见。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "更多人一起加入",
+          "screenText": "最后越来越多人加入和平抗议，让不公平的规则被看见。",
+          "narration": "最后越来越多人加入和平抗议，让不公平的规则被看见。",
+          "displayText": "最后越来越多人加入和平抗议，让不公平的规则被看见。"
+        },
+        "assetId": "national-movement-gandhi-dandi-1930-public-domain",
+        "image": "/content/step-images/national-movement-gandhi-dandi-1930-public-domain.jpg",
+        "imageAlt": "甘地在丹迪，1930年4月5日",
+        "imageCaption": "1930年4月5日，甘地抵达丹迪；次日他违反殖民盐法。",
+        "imageBoundary": "本地文件为4416×6291像素JPEG。照片证明甘地在丹迪及其公众形象，不能冒充4月6日取盐动作的精确瞬间，不能代表所有参加者，也不能把印度独立归功于单一人物。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-c98bcabd5e4da434",
+            "text": "最后越来越多人加入和平抗议，让不公平的规则被看见。"
+          },
+          "image": {
+            "id": "quest-22b2c96a58d9e083",
+            "text": "点开大图啦。这是甘地在丹迪，1930年4月5日。这张图能帮我们找到：最后越来越多人加入和平抗议，让不公平的规则被看见。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-change-1",
+            "label": "最后越来越多人加入和平抗议，让不公平的规则被看见。",
+            "correct": true,
+            "audio": {
+              "id": "quest-c98bcabd5e4da434",
+              "text": "最后越来越多人加入和平抗议，让不公平的规则被看见。"
+            }
+          },
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-change-2",
+            "label": "盐、步行路线和丹迪照片、印度萨巴，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-d6a6b28766a3f900",
+              "text": "盐、步行路线和丹迪照片、印度萨巴，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-change-3",
+            "label": "跟甘地拿起一小袋盐，走上抗议路线，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-14245a083077bfed",
+              "text": "跟甘地拿起一小袋盐，走上抗议路线，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "一小袋盐连着不公平的规则；甘地用步行和取盐发起和平抗议。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "一小袋盐连着不公平的规则；甘地用步行和取盐发起和平抗议。",
+          "narration": "一小袋盐连着不公平的规则；甘地用步行和取盐发起和平抗议。",
+          "displayText": "一小袋盐连着不公平的规则；甘地用步行和取盐发起和平抗议。"
+        },
+        "assetId": "fascism-march-on-rome-approach-1922-public-domain",
+        "image": "/content/step-images/fascism-march-on-rome-approach-1922-public-domain.jpg",
+        "imageAlt": "法西斯队伍接近罗马，1922年10月",
+        "imageCaption": "1922年10月法西斯队伍接近罗马的远景，刊于当年意大利画报。",
+        "imageBoundary": "本地文件为915×611像素PNG。采用远景是为了呈现政治施压而非塑造领袖英雄形象；照片不能证明全体意大利人支持法西斯，也不能把墨索里尼获任命说成队伍军事攻占了整座罗马。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-93bb8e7fbb62fde4",
+            "text": "一小袋盐连着不公平的规则；甘地用步行和取盐发起和平抗议。"
+          },
+          "image": {
+            "id": "quest-9dab8ecfb8fe80f1",
+            "text": "点开大图啦。这是法西斯队伍接近罗马，1922年10月。这张图能帮我们找到：一小袋盐连着不公平的规则；甘地用步行和取盐发起和平抗议。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-takeaway-1",
+            "label": "越来越多人加入和平抗议，让不公平的规则被看见，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-8ebbf24721a73990",
+              "text": "越来越多人加入和平抗议，让不公平的规则被看见，只说了结果"
+            }
+          },
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-takeaway-2",
+            "label": "看一小袋盐背后，藏着普通人不能自己取盐的规，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-0440e4adbdad8e00",
+              "text": "看一小袋盐背后，藏着普通人不能自己取盐的规，只说了原因"
+            }
+          },
+          {
+            "id": "world-contemporary-02-02-depression-fascism-resistance-takeaway-3",
+            "label": "一小袋盐连着不公平的规则；甘地用步行和取盐发起和平抗议。",
+            "correct": true,
+            "audio": {
+              "id": "quest-93bb8e7fbb62fde4",
+              "text": "一小袋盐连着不公平的规则；甘地用步行和取盐发起和平抗议。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "时间线归位",
+        "items": [
+          "把“意大利法西斯上台、大萧条开始、食盐进军、九一八事变、罗斯福新政、七七事变、墨西哥石油征收”拖到年份。",
+          "放错时只提示“再看前后”，不扣分；完成后特别显示：“法西斯上台早于1929年”。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "让危机循环停下来",
+        "items": [
+          "孩子把“银行检查与存款保护、临时食物救济、公共工作、继续造谣排外”放到循环旁。",
+          "前三项分别连接信心、眼前生活和工资；“造谣排外”显示：“它伤害人，也不能让商品重新卖出去。”",
+          "不设置财富排行榜或“让别人失业”的对抗玩法。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "证据侦探——一页法律能证明多少",
+        "items": [
+          "观察《授权法》原页、德国国会资料和受迫害记录卡。",
+          "将“政府获得绕开议会立法权”放入“文件直接证明”；将“所有德国人都支持纳粹”放入“文件不能证明”。",
+          "中国线显示李顿报告封面，并追问：“有调查报告，为什么仍没及时制止侵略？”"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "目标、方法、结果三层卡",
+        "items": [
+          "把“让家庭先吃上饭、逮捕反对者、违反盐法、建立老年保障、征收石油资产、侵占别国土地”放入目标、方法、结果关系网。",
+          "系统不按国家评高低，而追问：“是否保留发言权？是否伤害无辜？是否侵略别人？谁承担代价？”"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 11,
   "conclusion": [
     "1929年开始的世界经济大危机不是“股市一天跌下来”这么简单。生产和借贷已经存在脆弱之处，股价暴跌后，银行恐慌、企业减产、失业和消费下降互相推动；金本位、借贷和贸易又把冲击传到许多国家和殖民地。不同地区受到的时间、程度和社会后果并不完全相同。",
@@ -1358,100 +2096,130 @@
       "title": "纽约证券交易所外的人群，1929年10月24日",
       "localPath": "reference-assets/world-contemporary-depression-fascism-resistance/nyse-crowd-1929.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Crowds_gathering_outside_New_York_Stock_Exchange.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States publication, copyright expired or not renewed",
       "clearance": "cleared-public-domain",
       "caption": "1929年10月24日，纽约证券交易所外聚集的人群；这一天后来被称为‘黑色星期四’。",
-      "boundary": "本地文件为3000×2362像素JPEG。照片能证明特定日期交易所外聚集了人群，不能显示每个人的身份、损失或想法，也不能把股市暴跌解释为大萧条的唯一原因。"
+      "boundary": "本地文件为3000×2362像素JPEG。照片能证明特定日期交易所外聚集了人群，不能显示每个人的身份、损失或想法，也不能把股市暴跌解释为大萧条的唯一原因。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "depression-new-york-breadline-c1932-public-domain",
       "title": "纽约市等待食物的队伍，约1932年",
       "localPath": "reference-assets/world-contemporary-depression-fascism-resistance/breadline-new-york-1932.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Depression,_Breadlines-long_line_of_people_waiting_to_be_fed,_New_York_City,_in_the_absence_of_substantial_government..._-_NARA_-_196506.tif",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States federal government record",
       "clearance": "cleared-public-domain",
       "caption": "约1932年，纽约市一列等待食物的人群，显示大萧条时期部分城市居民的生活困难。",
-      "boundary": "本地JPEG为2000×1608像素，由NARA公开TIFF转换，原始TIFF一并保存。画面只证明某时某地存在食物队伍；不能识别个人、推断每人失业原因或用队伍长度计算全国贫困规模。"
+      "boundary": "本地JPEG为2000×1608像素，由NARA公开TIFF转换，原始TIFF一并保存。画面只证明某时某地存在食物队伍；不能识别个人、推断每人失业原因或用队伍长度计算全国贫困规模。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "new-deal-ccc-workers-bridge-c1935-public-domain",
       "title": "民间资源保护队修建桥梁，约1935年",
       "localPath": "reference-assets/world-contemporary-depression-fascism-resistance/ccc-bridge-c1935.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:CCC_workers_building_a_bridge_-_NARA_-_285789.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States federal government record",
       "clearance": "cleared-public-domain",
       "caption": "约1935年，民间资源保护队成员在一处桥梁工地施工。",
-      "boundary": "本地文件为1920×1126像素JPEG。照片只证明特定公共工程队伍和桥梁施工场景，不能证明每名失业者都进入该项目，也不能单独评价工资、种族待遇、劳动安全或全国复苏程度。"
+      "boundary": "本地文件为1920×1126像素JPEG。照片只证明特定公共工程队伍和桥梁施工场景，不能证明每名失业者都进入该项目，也不能单独评价工资、种族待遇、劳动安全或全国复苏程度。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "new-deal-social-security-act-signing-1935-public-domain",
       "title": "罗斯福签署《社会保障法》，1935年8月14日",
       "localPath": "reference-assets/world-contemporary-depression-fascism-resistance/social-security-signing-1935.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Signing_Of_The_Social_Security_Act.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — Harris & Ewing collection, no known restrictions",
       "clearance": "cleared-public-domain",
       "caption": "1935年8月14日，罗斯福总统在国会议员和政府成员陪同下签署《社会保障法》。",
-      "boundary": "本地文件为4130×3240像素JPEG。照片能核验签署场景和在场者，不能证明法案当天已全面实施或所有劳动者获得同等覆盖；家长层必须同时说明农业与家务工人等早期排除。"
+      "boundary": "本地文件为4130×3240像素JPEG。照片能核验签署场景和在场者，不能证明法案当天已全面实施或所有劳动者获得同等覆盖；家长层必须同时说明农业与家务工人等早期排除。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "fascism-march-on-rome-approach-1922-public-domain",
       "title": "法西斯队伍接近罗马，1922年10月",
       "localPath": "reference-assets/world-contemporary-depression-fascism-resistance/march-on-rome-1922.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:March_on_Rome_1922_-_Alle_porte_di_Roma.png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — anonymous 1922 Italian publication, term expired",
       "clearance": "cleared-public-domain",
       "caption": "1922年10月法西斯队伍接近罗马的远景，刊于当年意大利画报。",
-      "boundary": "本地文件为915×611像素PNG。采用远景是为了呈现政治施压而非塑造领袖英雄形象；照片不能证明全体意大利人支持法西斯，也不能把墨索里尼获任命说成队伍军事攻占了整座罗马。"
+      "boundary": "本地文件为915×611像素PNG。采用远景是为了呈现政治施压而非塑造领袖英雄形象；照片不能证明全体意大利人支持法西斯，也不能把墨索里尼获任命说成队伍军事攻占了整座罗马。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "fascism-enabling-act-page-one-1933-public-domain",
       "title": "德国《授权法》公布文本第一页，1933年",
       "localPath": "reference-assets/world-contemporary-depression-fascism-resistance/enabling-act-1933-p1.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Erm%C3%A4chtigungsgesetz_1933-03-24.djvu",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — official German legal text",
       "clearance": "cleared-public-domain",
       "caption": "1933年3月24日公布的《授权法》第一页，正文允许政府在没有议会正常参与的情况下制定法律。",
-      "boundary": "本地文件为1280×1982像素JPEG，由官方法律公报扫描件渲染。页面证明正式法条，不能单独显示投票前的逮捕、恐吓和迫害；必须与德国联邦议院和美国大屠杀纪念馆资料对读。"
+      "boundary": "本地文件为1280×1982像素JPEG，由官方法律公报扫描件渲染。页面证明正式法条，不能单独显示投票前的逮捕、恐吓和迫害；必须与德国联邦议院和美国大屠杀纪念馆资料对读。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "national-movement-gandhi-dandi-1930-public-domain",
       "title": "甘地在丹迪，1930年4月5日",
       "localPath": "reference-assets/world-contemporary-depression-fascism-resistance/gandhi-dandi-1930.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Gandhi_at_Dandi,_5_April_1930.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — photograph published in India before 1941, term expired",
       "clearance": "cleared-public-domain",
       "caption": "1930年4月5日，甘地抵达丹迪；次日他违反殖民盐法。",
-      "boundary": "本地文件为4416×6291像素JPEG。照片证明甘地在丹迪及其公众形象，不能冒充4月6日取盐动作的精确瞬间，不能代表所有参加者，也不能把印度独立归功于单一人物。"
+      "boundary": "本地文件为4416×6291像素JPEG。照片证明甘地在丹迪及其公众形象，不能冒充4月6日取盐动作的精确瞬间，不能代表所有参加者，也不能把印度独立归功于单一人物。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "national-movement-egyptian-delegation-malta-1919-public-domain",
       "title": "被拘押在马耳他的埃及政治人物，1919年4月12日",
       "localPath": "reference-assets/world-contemporary-depression-fascism-resistance/egyptian-delegation-malta-1919.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ch.Schulz%26Kugel,_Egyptian_political_prisoners_in_Malta,_12_April_1919_(Mohamed_Mahmoud,_Isma%27il_Sidqi,_Saad_Zaghloul,_Hamad_el-Basel).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — 1919 photograph, term expired",
       "clearance": "cleared-public-domain",
       "caption": "1919年4月12日，穆罕默德·马哈茂德、伊斯梅尔·西德基、萨阿德·扎格鲁勒和哈马德·巴塞勒被拘押在马耳他期间合影。",
-      "boundary": "本地文件为1744×1181像素JPEG。图上后加英文姓名标签可辅助辨认；照片只呈现四名男性政治人物，不能代表1919年埃及革命全部参与者，正式界面需另以文字说明妇女和其他社会群体。"
+      "boundary": "本地文件为1744×1181像素JPEG。图上后加英文姓名标签可辅助辨认；照片只呈现四名男性政治人物，不能代表1919年埃及革命全部参与者，正式界面需另以文字说明妇女和其他社会群体。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "mexico-cardenas-union-banquet-1938-cc0",
       "title": "卡德纳斯与韦拉克鲁斯工会成员，1938年1月",
       "localPath": "reference-assets/world-contemporary-depression-fascism-resistance/cardenas-union-banquet-1938.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Presidente_L%C3%A1zaro_C%C3%A1rdenas_reunido_con_Sindicato_obrero_veracruzano_en_1938.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0 Universal",
       "clearance": "cleared-open-license",
       "caption": "1938年1月，墨西哥总统卡德纳斯与韦拉克鲁斯圣罗莎工会成员在宴会上交谈。",
-      "boundary": "本地文件为1362×767像素JPEG。产品应裁取中央人物，弱化桌上酒瓶；照片证明一次工会社交会面，不是3月18日石油征收签字现场，也不能证明所有工人支持政府。"
+      "boundary": "本地文件为1362×767像素JPEG。产品应裁取中央人物，弱化桌上酒瓶；照片证明一次工会社交会面，不是3月18日石油征收签字现场，也不能证明所有工人支持政府。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "china-lytton-report-cover-1932-public-domain",
       "title": "国际联盟李顿调查团报告封面，1932年10月1日",
       "localPath": "reference-assets/world-contemporary-depression-fascism-resistance/lytton-report-cover-1932.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:League_of_Nations-Appeal_by_the_Chinese_Government.pdf",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — League of Nations official document, 1932",
       "clearance": "cleared-public-domain",
       "caption": "1932年10月1日国际联盟发布的调查报告封面，标题注明‘中国政府的申诉’。",
-      "boundary": "本地JPEG为1269×2258像素，由报告PDF封面渲染，原始PDF一并保存。封面证明中国申诉、调查团和报告文件存在；不能证明国际联盟及时阻止侵略，也不能单靠封面判断报告全部结论。"
+      "boundary": "本地JPEG为1269×2258像素，由报告PDF封面渲染，原始PDF一并保存。封面证明中国申诉、调查团和报告文件存在；不能证明国际联盟及时阻止侵略，也不能单靠封面判断报告全部结论。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-contemporary-02-02-depression-fascism-resistance.jpg",

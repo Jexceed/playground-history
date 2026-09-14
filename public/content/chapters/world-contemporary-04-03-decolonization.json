@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-contemporary-04-03-decolonization",
   "trackId": "world-contemporary",
   "trackLabel": "世界现代史",
@@ -10,10 +10,806 @@
     "years": "1945—1991年"
   },
   "order": 8,
-  "title": "亚洲、非洲和拉丁美洲怎样争取独立与发展",
-  "coreQuestion": "殖民体系为什么在战后走向瓦解？",
-  "throughline": "先用1947—1999年时间线连接印度与巴基斯坦独立和分治、万隆会议、加纳独立、非洲年、联合国反殖民宣言、阿尔及利亚独立、非洲统一组织、纳米比亚独立、南非全民选举与巴拿马收回运河；再区分法律权力移交、人民长期斗争、战争谈判和国际监督等不同道路，并以七十七国集团和国际经济新秩序宣言说明政治独立后仍要争取资源、贸易和发展规则；中国线从万隆会议和非洲十国访问走到中坦赞三国合作建设坦赞铁路，明确中国是支持者与合作伙伴，不能替当地人民成为独立叙事主角。",
-  "age": "6—9岁亲子共学",
+  "title": "曼德拉投下第一票以后",
+  "coreQuestion": "共同选举怎样改变南非，又为什么不是故事终点？",
+  "throughline": "儿童主线从旧规则下不能平等投票，走到曼德拉与许多人参加1994年共同选举，再看到公平建设仍要继续；亚洲、非洲和拉美的其他路线留在家长层比较。",
+  "childEntry": {
+    "id": "world-contemporary-04-03-decolonization",
+    "childTitle": "曼德拉投下第一票",
+    "prompt": "曼德拉投票的照片，怎样讲出南非从不公平规则走向共同选举？",
+    "takeaway": "长期行动改变了不公平规则；共同投票以后，还要继续建设公平生活。",
+    "object": "曼德拉投票照片和选票",
+    "people": [
+      "曼德拉和第一次共同投票的人们"
+    ],
+    "place": "南非",
+    "culture": "共同选举的新闻照片",
+    "care": "不展示种族隔离暴力；共同投票是重要变化，不说成不公平从此全部消失。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "👋",
+      "label": "从一个人出发",
+      "text": "曼德拉投下第一票"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "先看谁不能投票",
+      "text": "先看南非旧规则怎样让许多人不能平等投票。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "曼德拉走进投票站",
+      "text": "接着看曼德拉和许多人第一次参加共同选举。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "投票不是故事终点",
+      "text": "最后共同投票以后，南非还要继续建设更公平的生活。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "长期行动改变了不公平规则；共同投票以后，还要继续建设公平生活。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "殖民地",
+      "icon": "⛓️",
+      "plain": "被外来国家控制，居民和资源受它支配的地方。",
+      "example": "殖民统治不是普通旅行或平等交流。",
+      "priority": 1
+    },
+    {
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "priority": 1
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "革命",
+      "icon": "🔄",
+      "plain": "许多人推动改变旧政权或旧制度的大变化。",
+      "example": "革命不是只看一场战斗，还要看原因、参与者和结果。",
+      "priority": 1
+    },
+    {
+      "term": "和平",
+      "icon": "🕊️",
+      "plain": "人们不靠战争解决分歧，并努力避免暴力伤害。",
+      "example": "和平需要规则、谈判和行动，不只是说一句愿望。",
+      "priority": 1
+    },
+    {
+      "term": "经济",
+      "icon": "🧺",
+      "plain": "人们怎样生产、交换、分配和使用东西。",
+      "example": "经济变化最后会落到工作、食物、住房等生活里。",
+      "priority": 1
+    },
+    {
+      "term": "冷战",
+      "icon": "🧊",
+      "plain": "两个集团长期对立，却没有彼此直接全面开战。",
+      "example": "冷战仍包含军备竞赛、威胁和别处的真实战争。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "民主",
+      "icon": "🗳️",
+      "plain": "公共事情不只由一个人说了算，人们按规则参与。",
+      "example": "不同年代参与范围不同，不能把古代投票当成今天制度。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "迁徙",
+      "icon": "👣",
+      "plain": "人们离开原住地，搬到别的地方生活。",
+      "example": "迁徙可能因为气候、生计、战争或主动选择。",
+      "priority": 1
+    },
+    {
+      "term": "条约",
+      "icon": "📄",
+      "plain": "国家或政治力量之间写下并同意遵守的约定。",
+      "example": "还要问条约是否平等、由谁签、后来怎样执行。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "主权",
+      "icon": "🏠",
+      "plain": "一个国家自己决定本国事务的权力。",
+      "example": "强迫签约、割地或控制关税会伤害主权。",
+      "priority": 1
+    },
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "民族",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
+      "example": "民族不是按外貌排高低，也不会永远固定不变。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "外交",
+      "icon": "🤝",
+      "plain": "国家之间交往、谈判和处理共同事情。",
+      "example": "外交不只是一位领导人见面，还有许多人长期工作。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "议会",
+      "icon": "🪑",
+      "plain": "一些代表一起讨论、决定公共事情的机构。",
+      "example": "还要问哪些人能选代表，哪些人当时被排除。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "自由",
+      "icon": "🕊️",
+      "plain": "在不伤害别人并遵守共同规则时作出选择。",
+      "example": "历史文件写下自由，还要看哪些人当时没有得到。",
+      "priority": 2
+    },
+    {
+      "term": "自治",
+      "icon": "🏘️",
+      "plain": "一个地区或群体依法管理一部分自己的公共事情。",
+      "example": "自治仍在国家法律和共同制度内运行。",
+      "priority": 2
+    },
+    {
+      "term": "宗教",
+      "icon": "🕯️",
+      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
+      "example": "同一种宗教内部也有不同地区、时代和人群。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "国际",
+      "icon": "🌍",
+      "plain": "不同国家之间或许多国家共同参与的事情。",
+      "example": "国际合作要看谁参加、怎样分工、规则如何执行。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "运动",
+      "icon": "📣",
+      "plain": "许多人围绕一个目标持续参加的行动。",
+      "example": "历史运动里的人、目标和做法可能并不完全相同。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "恩克鲁玛",
+      "reading": "Ēnkèlǔmǎ",
+      "kind": "person",
+      "chapterIds": [
+        "world-contemporary-04-03-decolonization"
+      ],
+      "note": "按中文译名逐音节读清楚。"
+    },
+    {
+      "text": "甘地",
+      "reading": "Gāndì",
+      "kind": "person",
+      "chapterIds": [
+        "world-contemporary-02-02-depression-fascism-resistance",
+        "world-contemporary-04-03-decolonization"
+      ],
+      "note": "“甘”读gān。"
+    },
+    {
+      "text": "曼德拉",
+      "reading": "Màndélā",
+      "kind": "person",
+      "chapterIds": [
+        "world-contemporary-04-03-decolonization"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "周恩来",
+      "reading": "Zhōu Ēnlái",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-06-01-peace-talks-and-civil-war",
+        "world-contemporary-04-03-decolonization"
+      ],
+      "note": "“恩”读ēn。"
+    },
+    {
+      "text": "万隆",
+      "reading": "Wànlóng",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-04-01-cold-war",
+        "world-contemporary-04-03-decolonization"
+      ],
+      "note": "印度尼西亚城市译名。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个人",
+      "icon": "👋",
+      "label": "曼德拉投下第一票",
+      "question": "曼德拉投票的照片，怎样讲出南非从不公平规则走向共同选举？"
+    },
+    "coverAudio": {
+      "id": "quest-d649e4f0c4182165",
+      "text": "今天从一个人出发：曼德拉投下第一票。我们要去南非，看看曼德拉投票照片和选票怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-2f112652836915de",
+      "text": "五条线索都找到了，“曼德拉投下第一票”的答案是：长期行动改变了不公平规则；共同投票以后，还要继续建设公平生活。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 12,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个人出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是战后世界新变化，时间是1945—1991年。",
+          "narration": "这是战后世界新变化，时间是1945—1991年。",
+          "displayText": "这是战后世界新变化，时间是1945—1991年。"
+        },
+        "assetId": "decolonization-mandela-voting-1994-cc-by-sa",
+        "image": "/content/step-images/decolonization-mandela-voting-1994-cc-by-sa.jpg",
+        "imageAlt": "曼德拉在南非第一次民主选举中投票，1994年4月",
+        "imageCaption": "1994年4月，曼德拉在Ohlange School投票；这是他第一次参加国家选举投票。",
+        "imageBoundary": "本地文件为538×800像素黑白JPEG，作者已通过Wikimedia VRT确认开放许可。画面只显示一位选民的投票动作；不能代表约2000万投票者的全部经历，也不能暗示选举当天已经消除住房、土地、教育和收入方面的种族隔离遗产。",
+        "audio": {
+          "transition": {
+            "id": "quest-26e845d2917e6a26",
+            "text": "先给一个人找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-a9bb779e61be9677",
+            "text": "这是战后世界新变化，时间是1945—1991年。"
+          },
+          "image": {
+            "id": "quest-a8ce065f3f33f4a0",
+            "text": "点开大图啦。这是曼德拉在南非第一次民主选举中投票，1994年4月。这张图能帮我们找到：这是战后世界新变化，时间是1945—1991年。"
+          },
+          "question": {
+            "id": "quest-1c5cffbdae9ffb27",
+            "text": "从一个人出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-04-03-decolonization-time-1",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "world-contemporary-04-03-decolonization-time-2",
+            "label": "世界现代史 · 战后世界新变化 · 1945—1991年",
+            "correct": true,
+            "audio": {
+              "id": "quest-0e96b9cae516d4bb",
+              "text": "世界现代史 · 战后世界新变化 · 1945—1991年"
+            }
+          },
+          {
+            "id": "world-contemporary-04-03-decolonization-time-3",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "先看谁不能投票",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看南非旧规则怎样让许多人不能平等投票。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "先看谁不能投票",
+          "screenText": "先看南非旧规则怎样让许多人不能平等投票。",
+          "narration": "先看南非旧规则怎样让许多人不能平等投票。",
+          "displayText": "先看南非旧规则怎样让许多人不能平等投票。"
+        },
+        "assetId": "decolonization-mandela-voting-1994-cc-by-sa",
+        "image": "/content/step-images/decolonization-mandela-voting-1994-cc-by-sa.jpg",
+        "imageAlt": "曼德拉在南非第一次民主选举中投票，1994年4月",
+        "imageCaption": "1994年4月，曼德拉在Ohlange School投票；这是他第一次参加国家选举投票。",
+        "imageBoundary": "本地文件为538×800像素黑白JPEG，作者已通过Wikimedia VRT确认开放许可。画面只显示一位选民的投票动作；不能代表约2000万投票者的全部经历，也不能暗示选举当天已经消除住房、土地、教育和收入方面的种族隔离遗产。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-7155790cafd7fe81",
+            "text": "先看南非旧规则怎样让许多人不能平等投票。"
+          },
+          "image": {
+            "id": "quest-2c374dfb45626aa2",
+            "text": "点开大图啦。这是曼德拉在南非第一次民主选举中投票，1994年4月。这张图能帮我们找到：先看南非旧规则怎样让许多人不能平等投票。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-04-03-decolonization-beginning-1",
+            "label": "曼德拉投票照片和选票，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-0f3f47be233c563c",
+              "text": "曼德拉投票照片和选票，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-contemporary-04-03-decolonization-beginning-2",
+            "label": "南非、曼德拉和第一次，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-c71045ff2f64cc2e",
+              "text": "南非、曼德拉和第一次，只是故事地点"
+            }
+          },
+          {
+            "id": "world-contemporary-04-03-decolonization-beginning-3",
+            "label": "曼德拉和第一次共同投票的，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-91deee12f6173e1c",
+              "text": "曼德拉和第一次共同投票的，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "曼德拉走进投票站",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看曼德拉和许多人第一次参加共同选举。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "曼德拉走进投票站",
+          "screenText": "接着看曼德拉和许多人第一次参加共同选举。",
+          "narration": "接着看曼德拉和许多人第一次参加共同选举。",
+          "displayText": "接着看曼德拉和许多人第一次参加共同选举。"
+        },
+        "assetId": "decolonization-mandela-voting-1994-cc-by-sa",
+        "image": "/content/step-images/decolonization-mandela-voting-1994-cc-by-sa.jpg",
+        "imageAlt": "曼德拉在南非第一次民主选举中投票，1994年4月",
+        "imageCaption": "1994年4月，曼德拉在Ohlange School投票；这是他第一次参加国家选举投票。",
+        "imageBoundary": "本地文件为538×800像素黑白JPEG，作者已通过Wikimedia VRT确认开放许可。画面只显示一位选民的投票动作；不能代表约2000万投票者的全部经历，也不能暗示选举当天已经消除住房、土地、教育和收入方面的种族隔离遗产。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-24b923c6c871fde1",
+            "text": "接着看曼德拉和许多人第一次参加共同选举。"
+          },
+          "image": {
+            "id": "quest-29aee03d16f0a2c2",
+            "text": "点开大图啦。这是曼德拉在南非第一次民主选举中投票，1994年4月。这张图能帮我们找到：接着看曼德拉和许多人第一次参加共同选举。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-04-03-decolonization-journey-1",
+            "label": "曼德拉和第一次共同投票的人们，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-39a4036dd9547ca3",
+              "text": "曼德拉和第一次共同投票的人们，只认出人物"
+            }
+          },
+          {
+            "id": "world-contemporary-04-03-decolonization-journey-2",
+            "label": "南非、曼德拉投票照片和选票，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-be37568ba48b9088",
+              "text": "南非、曼德拉投票照片和选票，只说了地点"
+            }
+          },
+          {
+            "id": "world-contemporary-04-03-decolonization-journey-3",
+            "label": "接着看曼德拉和许多人第一次参加共同选举。",
+            "correct": true,
+            "audio": {
+              "id": "quest-24b923c6c871fde1",
+              "text": "接着看曼德拉和许多人第一次参加共同选举。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "投票不是故事终点",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后共同投票以后，南非还要继续建设更公平的生活。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "投票不是故事终点",
+          "screenText": "最后共同投票以后，南非还要继续建设更公平的生活。",
+          "narration": "最后共同投票以后，南非还要继续建设更公平的生活。",
+          "displayText": "最后共同投票以后，南非还要继续建设更公平的生活。"
+        },
+        "assetId": "decolonization-mandela-voting-1994-cc-by-sa",
+        "image": "/content/step-images/decolonization-mandela-voting-1994-cc-by-sa.jpg",
+        "imageAlt": "曼德拉在南非第一次民主选举中投票，1994年4月",
+        "imageCaption": "1994年4月，曼德拉在Ohlange School投票；这是他第一次参加国家选举投票。",
+        "imageBoundary": "本地文件为538×800像素黑白JPEG，作者已通过Wikimedia VRT确认开放许可。画面只显示一位选民的投票动作；不能代表约2000万投票者的全部经历，也不能暗示选举当天已经消除住房、土地、教育和收入方面的种族隔离遗产。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-5015f3e28239a18f",
+            "text": "最后共同投票以后，南非还要继续建设更公平的生活。"
+          },
+          "image": {
+            "id": "quest-6b5824a3415c5c40",
+            "text": "点开大图啦。这是曼德拉在南非第一次民主选举中投票，1994年4月。这张图能帮我们找到：最后共同投票以后，南非还要继续建设更公平的生活。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-04-03-decolonization-change-1",
+            "label": "看曼德拉和许多人第一次参加共同选举，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-2e1bc1c8e825b154",
+              "text": "看曼德拉和许多人第一次参加共同选举，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-contemporary-04-03-decolonization-change-2",
+            "label": "最后共同投票以后，南非还要继续建设更公平的生活。",
+            "correct": true,
+            "audio": {
+              "id": "quest-5015f3e28239a18f",
+              "text": "最后共同投票以后，南非还要继续建设更公平的生活。"
+            }
+          },
+          {
+            "id": "world-contemporary-04-03-decolonization-change-3",
+            "label": "曼德拉投票照片和选票、南非、曼，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-79ab9b3fd4affb6d",
+              "text": "曼德拉投票照片和选票、南非、曼，还只是故事起点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "长期行动改变了不公平规则；共同投票以后，还要继续建设公平生活。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "长期行动改变了不公平规则；共同投票以后，还要继续建设公平生活。",
+          "narration": "长期行动改变了不公平规则；共同投票以后，还要继续建设公平生活。",
+          "displayText": "长期行动改变了不公平规则；共同投票以后，还要继续建设公平生活。"
+        },
+        "assetId": "decolonization-castro-washington-april-1959-public-domain",
+        "image": "/content/step-images/decolonization-castro-washington-april-1959-public-domain.jpg",
+        "imageAlt": "古巴革命后卡斯特罗访问华盛顿，1959年4月",
+        "imageCaption": "1959年4月，古巴革命后卡斯特罗访问美国华盛顿，由美国国务院安全人员陪同。",
+        "imageBoundary": "本地文件为600×400像素黑白JPEG。它不是1959年1月革命胜利或进入哈瓦那现场，也不能根据军装、陪同位置和人物表情推断美古关系后来全部变化；正文必须先说明巴蒂斯塔离境和革命政府建立。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-5c37700de8980032",
+            "text": "长期行动改变了不公平规则；共同投票以后，还要继续建设公平生活。"
+          },
+          "image": {
+            "id": "quest-97513e375398172a",
+            "text": "点开大图啦。这是古巴革命后卡斯特罗访问华盛顿，1959年4月。这张图能帮我们找到：长期行动改变了不公平规则；共同投票以后，还要继续建设公平生活。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-04-03-decolonization-takeaway-1",
+            "label": "长期行动改变了不公平规则；共同投票以后，还要继续建设公平生活。",
+            "correct": true,
+            "audio": {
+              "id": "quest-5c37700de8980032",
+              "text": "长期行动改变了不公平规则；共同投票以后，还要继续建设公平生活。"
+            }
+          },
+          {
+            "id": "world-contemporary-04-03-decolonization-takeaway-2",
+            "label": "共同投票以后，南非还要继续建设更公平的生活。、曼德拉，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-2c1ee9cfcf5d5213",
+              "text": "共同投票以后，南非还要继续建设更公平的生活。、曼德拉，只说了结果"
+            }
+          },
+          {
+            "id": "world-contemporary-04-03-decolonization-takeaway-3",
+            "label": "看南非旧规则怎样让许多人不能平等投票。、曼德拉投，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-1f951a55951e4602",
+              "text": "看南非旧规则怎样让许多人不能平等投票。、曼德拉投，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把节点放进“独立—团结—发展”时间线",
+        "items": [
+          "将“独立与分治、亚非合作、非洲年、国际反殖民规则、区域组织、经济规则、民主权利、运河移交”放到相应年份。",
+          "完成提示：“一个年份可以同时有庆祝和困难；时间线不等于胜利排行榜。”"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "一份证据能说到哪里",
+        "items": [
+          "法律页配“英国法律安排”，难民营照片配“一个营地的生活与劳动”，边界时间配“独立后两日才公布”。",
+          "把“英国送给印度自由”“照片能看出每个人宗教”“分治只有一个群体负责”放入“证据不支持”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "为五条道路选择正确动词",
+        "items": [
+          "加纳配“宪制移交与选举”，阿尔及利亚配“长期战争、谈判和公投”，纳米比亚配“请愿、斗争、谈判和国际监督”，南非配“长期反种族隔离与全民选举”，非洲统一组织配“区域团结与支持”。",
+          "不设置枪战、夺旗、领土占领或领导人战力值。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "修好叙事主语",
+        "items": [
+          "将“中国给非洲独立”改成“非洲人民长期斗争；中国提供支持与合作”。",
+          "将“中国送了一条铁路”改成“坦桑尼亚、赞比亚提出需要，中坦赞三国合作建设”。",
+          "将“联合国让纳米比亚独立”改成“纳米比亚人民长期行动，区域和国际力量提供压力、谈判与监督框架”。",
+          "为什么一张《印度独立法》不能讲完印度与巴基斯坦独立？",
+          "“非洲年”为什么既重要，又不是非洲独立的起点或终点？",
+          "阿尔及利亚、纳米比亚和南非的道路有哪些不同？",
+          "为什么政治独立以后还要成立七十七国集团？",
+          "古巴革命和巴拿马收回运河为什么不能算同一种事件？",
+          "坦赞铁路故事里，怎样安排主语才尊重非洲国家的主体地位？"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 12,
   "conclusion": [
     "第二次世界大战后，殖民体系不是因为殖民国家突然决定“把自由送出去”而瓦解。亚洲、非洲和拉丁美洲人民在更早时期已经通过组织、罢工、游行、选举、谈判、文化教育和武装斗争等不同方式争取主权；大战削弱了欧洲殖民国家，联合国自决原则和越来越多新国家进入国际组织，又改变了国际力量。印度和巴基斯坦独立、万隆会议、加纳独立、“非洲年”、阿尔及利亚战争、非洲统一组织、纳米比亚独立和南非废除种族隔离，是这条长线上相互连接但道路不同的节点。",
@@ -1575,84 +2371,147 @@
   ],
   "assets": [
     {
+      "id": "nixon-zhou-tea-1972-nara-photo",
+      "title": "尼克松与周恩来在北京会谈历史照片",
+      "localPath": "reference-assets/china-contemporary-science-diplomacy/nixon-zhou-tea-1972.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Photograph_of_President_Richard_Nixon_and_Premier_Chou_En-lai_-_NARA_-_194409.tif",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public domain — work of the United States federal government",
+      "clearance": "cleared-open-license",
+      "caption": "1972年2月21日，尼克松到达北京后与周恩来在宾馆会谈。",
+      "boundary": "美国国家档案馆档案号194409，原始说明是两人在尼克松抵达北京后饮茶会谈。保存1920×1280像素的Commons转换JPEG。它不是《上海公报》签署现场；不能根据手势、表情、座次或茶点推断谈判内容和结果。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "simplified-world-map-base-cc0",
+      "title": "无国界简化世界底图",
+      "localPath": "reference-assets/world-ancient-human-farming/world-map-base-cc0.svg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Simplified_blank_world_map_without_Antartica_(no_borders).svg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC0 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "用于绘制早期人类迁徙概括路线与农业起源范围的无国界世界底图。",
+      "boundary": "保存Commons提供的1603×742像素SVG原文件，未改动。底图经过简化且不含南极洲；迁徙箭头和农业起源范围由产品界面另绘，必须标成依据现有证据的概括或假说，不显示精确GPS路线、不使用现代国界划分史前人群，也不暗示文明等级。",
+      "childVisibility": "child-ok"
+    },
+    {
       "id": "decolonization-indian-independence-act-first-page-1947-public-domain",
       "title": "《印度独立法》第一页，1947年",
       "localPath": "reference-assets/world-contemporary-decolonization/indian-independence-act-first-page-1947.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:First-page_of_Indian_Independence_Act,_1947_(10_%26_11_Geo._6._Ch._30.).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — free of known copyright restrictions",
       "clearance": "cleared-public-domain",
       "caption": "1947年《印度独立法》第一页，写明从8月15日起建立印度和巴基斯坦两个自治领。",
-      "boundary": "本地文件为1986×3402像素彩色JPEG。它是英国议会通过的法律文本，只能核对英国法定权力移交安排；不能把印度和巴基斯坦人民几十年的独立斗争写成英国议会单方面‘赠送’，也不能删除分治和迁徙代价。"
+      "boundary": "本地文件为1986×3402像素彩色JPEG。它是英国议会通过的法律文本，只能核对英国法定权力移交安排；不能把印度和巴基斯坦人民几十年的独立斗争写成英国议会单方面‘赠送’，也不能删除分治和迁徙代价。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "decolonization-india-women-refugees-1947-public-domain",
       "title": "德里Kingsway难民营中缝纫和编织的女性，1947年9月",
       "localPath": "reference-assets/world-contemporary-decolonization/india-women-refugees-kingsway-camp-1947.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Women_refugees_at_the_kingsway_camp_busy_in_sewing_and_knitting,_September_1947.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — Indian government photograph published before 1966",
       "clearance": "cleared-public-domain",
       "caption": "1947年9月，德里Kingsway难民营中的女性正在缝纫和编织，儿童在一旁。",
-      "boundary": "本地文件为735×744像素黑白JPEG。画面不能说明人物姓名、宗教、从哪里迁来、遭遇了什么伤害或当时感受；只用于把分治从地图边界连接到营地中的生活与劳动，不展示暴力伤亡。"
+      "boundary": "本地文件为735×744像素黑白JPEG。画面不能说明人物姓名、宗教、从哪里迁来、遭遇了什么伤害或当时感受；只用于把分治从地图边界连接到营地中的生活与劳动，不展示暴力伤亡。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "decolonization-ghana-university-students-january-1957-ogl",
       "title": "黄金海岸大学学院学生和导师，1957年1月",
       "localPath": "reference-assets/world-contemporary-decolonization/ghana-university-students-january-1957.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:The_National_Archives_UK_-_CO_1069-46-19_B001.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "UK Open Government Licence v1.0",
       "clearance": "cleared-open-license",
       "caption": "1957年1月，黄金海岸大学学院Legon Hall外的学生和导师；两个月后加纳取得独立。",
-      "boundary": "本地文件为602×452像素黑白JPEG，来源于英国殖民部档案。必须保留‘The National Archives UK’归属；不能把照片中所有人认作独立运动成员，也不能让殖民档案图注替他们表达政治立场。"
+      "boundary": "本地文件为602×452像素黑白JPEG，来源于英国殖民部档案。必须保留‘The National Archives UK’归属；不能把照片中所有人认作独立运动成员，也不能让殖民档案图注替他们表达政治立场。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "decolonization-ghana-new-nation-newsreel-1957-public-domain",
       "title": "新闻短片《加纳：一个新国家》，1957年3月7日",
       "localPath": "reference-assets/world-contemporary-decolonization/ghana-new-nation-newsreel-1957.ogv",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ghana_(1957-03-07_A_New_Nation).ogv",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — Universal Newsreels collection donated to the public domain",
       "clearance": "cleared-public-domain",
       "caption": "1957年3月的新闻短片片段，记录加纳独立庆祝、恩克鲁玛和国际来宾。",
-      "boundary": "本地文件为约55秒、640×480的OGV新闻短片。儿童界面默认静音播放并由本地普通话解释；原英语旁白带有美国新闻片剪辑立场，不能代表所有加纳人、不能把领导人和来宾合影当成独立运动全部过程。"
+      "boundary": "本地文件为约55秒、640×480的OGV新闻短片。儿童界面默认静音播放并由本地普通话解释；原英语旁白带有美国新闻片剪辑立场，不能代表所有加纳人、不能把领导人和来宾合影当成独立运动全部过程。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "decolonization-castro-washington-april-1959-public-domain",
       "title": "古巴革命后卡斯特罗访问华盛顿，1959年4月",
       "localPath": "reference-assets/world-contemporary-decolonization/castro-washington-april-1959.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Fidel_Castro_during_a_visit_to_Washington.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States federal government work",
       "clearance": "cleared-public-domain",
       "caption": "1959年4月，古巴革命后卡斯特罗访问美国华盛顿，由美国国务院安全人员陪同。",
-      "boundary": "本地文件为600×400像素黑白JPEG。它不是1959年1月革命胜利或进入哈瓦那现场，也不能根据军装、陪同位置和人物表情推断美古关系后来全部变化；正文必须先说明巴蒂斯塔离境和革命政府建立。"
+      "boundary": "本地文件为600×400像素黑白JPEG。它不是1959年1月革命胜利或进入哈瓦那现场，也不能根据军装、陪同位置和人物表情推断美古关系后来全部变化；正文必须先说明巴蒂斯塔离境和革命政府建立。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "decolonization-mandela-voting-1994-cc-by-sa",
       "title": "曼德拉在南非第一次民主选举中投票，1994年4月",
       "localPath": "reference-assets/world-contemporary-decolonization/mandela-voting-1994.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Mandela_voting_in_1994.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0 Unported",
       "clearance": "cleared-open-license",
       "caption": "1994年4月，曼德拉在Ohlange School投票；这是他第一次参加国家选举投票。",
-      "boundary": "本地文件为538×800像素黑白JPEG，作者已通过Wikimedia VRT确认开放许可。画面只显示一位选民的投票动作；不能代表约2000万投票者的全部经历，也不能暗示选举当天已经消除住房、土地、教育和收入方面的种族隔离遗产。"
+      "boundary": "本地文件为538×800像素黑白JPEG，作者已通过Wikimedia VRT确认开放许可。画面只显示一位选民的投票动作；不能代表约2000万投票者的全部经历，也不能暗示选举当天已经消除住房、土地、教育和收入方面的种族隔离遗产。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "decolonization-panama-canal-transfer-ceremony-1999-public-domain",
       "title": "巴拿马运河移交仪式，1999年12月14日",
       "localPath": "reference-assets/world-contemporary-decolonization/panama-canal-transfer-ceremony-1999.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ceremony_Transfer.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States federal government work",
       "clearance": "cleared-public-domain",
       "caption": "1999年12月14日，巴拿马运河米拉弗洛雷斯船闸举行移交仪式。",
-      "boundary": "本地文件为630×439像素彩色JPEG。仪式早于12月31日主权和经营管理权正式移交，不能冒充最后时刻；人物挥手不能显示1903年条约、1964年冲突、1977年谈判和22年过渡期。"
+      "boundary": "本地文件为630×439像素彩色JPEG。仪式早于12月31日主权和经营管理权正式移交，不能冒充最后时刻；人物挥手不能显示1903年条约、1964年冲突、1977年谈判和22年过渡期。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "decolonization-tazara-workers-2012-cc-by-sa",
       "title": "坦赞铁路Mukuba Express列车工作人员，2012年10月17日",
       "localPath": "reference-assets/world-contemporary-decolonization/tazara-workers-2012.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Workers_on_Tazara_Railway.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 2.0 Generic",
       "clearance": "cleared-open-license",
       "caption": "2012年，坦赞铁路Mukuba Express列车上的两名工作人员；铁路仍连接坦桑尼亚和赞比亚。",
-      "boundary": "本地文件为3583×5374像素彩色JPEG。它不是1970年代中国建设者、施工或通车现场，不根据工作证识别姓名；只用于显示铁路在后来的运营岗位，历史动因、三国合作、建设与移交日期由外交部资料核验。"
+      "boundary": "本地文件为3583×5374像素彩色JPEG。它不是1970年代中国建设者、施工或通车现场，不根据工作证识别姓名；只用于显示铁路在后来的运营岗位，历史动因、三国合作、建设与移交日期由外交部资料核验。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "national-movement-gandhi-dandi-1930-public-domain",
+      "title": "甘地在丹迪，1930年4月5日",
+      "localPath": "reference-assets/world-contemporary-depression-fascism-resistance/gandhi-dandi-1930.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gandhi_at_Dandi,_5_April_1930.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain — photograph published in India before 1941, term expired",
+      "clearance": "cleared-public-domain",
+      "caption": "1930年4月5日，甘地抵达丹迪；次日他违反殖民盐法。",
+      "boundary": "本地文件为4416×6291像素JPEG。照片证明甘地在丹迪及其公众形象，不能冒充4月6日取盐动作的精确瞬间，不能代表所有参加者，也不能把印度独立归功于单一人物。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-contemporary-04-03-decolonization.jpg",

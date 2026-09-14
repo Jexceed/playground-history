@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.8.0",
+  "contentVersion": "0.9.0",
   "id": "cn-modern-05-01-from-local-to-national-war",
   "trackId": "china-modern",
   "trackLabel": "中国近代史",
@@ -13,7 +13,592 @@
   "title": "局部抗战怎样发展为全民族抗战",
   "coreQuestion": "从九一八事变到七七事变，中国社会发生了什么变化？",
   "throughline": "通过侵略路线、东北抗战、一二·九运动、西安事变和七七事变，认识民族危机加深与抗日民族统一战线的形成。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-modern-05-01-from-local-to-national-war",
+    "childTitle": "从沈阳到卢沟桥，时间线怎样变了",
+    "prompt": "局部侵略为什么一步步扩大，越来越多的人又怎样开始抵抗？",
+    "takeaway": "侵略从东北逐步扩大，各地军民、学生和社会力量也不断组织抵抗。",
+    "object": "地图、报纸、纪念设施与档案",
+    "people": [
+      "东北军民、学生、守军与各地抗日力量"
+    ],
+    "place": "沈阳、北平卢沟桥与华北地区",
+    "culture": "抗日救亡歌曲与报刊",
+    "care": "不展示尸体、伤口和武器特写；侵略责任、抵抗与时间变化必须清楚。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📍",
+      "label": "从一个地方出发",
+      "text": "从沈阳到卢沟桥，时间线怎样变了"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "两座城放上时间线",
+      "text": "先把沈阳和卢沟桥放到同一条时间线上。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "报纸留下行动",
+      "text": "接着看报纸、学生行动和纪念设施留下的线索。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "守护家园连起来",
+      "text": "最后局部危机扩大，各地守护家园的行动连起来。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "侵略从东北逐步扩大，各地军民、学生和社会力量也不断组织抵抗。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "档案",
+      "icon": "🗂️",
+      "plain": "被保存下来的文件、照片、录音等记录。",
+      "example": "一份档案记录一个角度，要和别的证据一起看。",
+      "priority": 1
+    },
+    {
+      "term": "侵略",
+      "icon": "⛔",
+      "plain": "用武力进入别国，夺取土地或控制权。",
+      "example": "抵抗侵略和发动侵略的责任不能混在一起。",
+      "priority": 1
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "责任",
+      "icon": "🤲",
+      "plain": "答应或应当承担、需要认真完成的事情。",
+      "example": "拥有公共权利，也常要承担相应责任。",
+      "priority": 3
+    },
+    {
+      "term": "和平",
+      "icon": "🕊️",
+      "plain": "人们不靠战争解决分歧，并努力避免暴力伤害。",
+      "example": "和平需要规则、谈判和行动，不只是说一句愿望。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "民族",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
+      "example": "民族不是按外貌排高低，也不会永远固定不变。",
+      "priority": 2
+    },
+    {
+      "term": "危机",
+      "icon": "⚠️",
+      "plain": "问题迅速变严重，原来的办法难以应付。",
+      "example": "危机通常有多种原因，也会影响不同的人。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "运动",
+      "icon": "📣",
+      "plain": "许多人围绕一个目标持续参加的行动。",
+      "example": "历史运动里的人、目标和做法可能并不完全相同。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "卢沟桥",
+      "reading": "Lúgōuqiáo",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-05-01-from-local-to-national-war"
+      ],
+      "note": "北京地名；“沟”读gōu。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个地方",
+      "icon": "📍",
+      "label": "从沈阳到卢沟桥，时间线怎样变了",
+      "question": "局部侵略为什么一步步扩大，越来越多的人又怎样开始抵抗？"
+    },
+    "coverAudio": {
+      "id": "quest-26186310eee2636c",
+      "text": "今天从一个地方出发：从沈阳到卢沟桥，时间线怎样变了。我们要去沈阳、北平卢沟桥与华北地区，看看地图、报纸、纪念设施与档案怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-f3f4295ace817661",
+      "text": "五条线索都找到了，“从沈阳到卢沟桥，时间线怎样变了”的答案是：侵略从东北逐步扩大，各地军民、学生和社会力量也不断组织抵抗。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 10,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个地方出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是中华民族的抗日战争，时间是1931—1945年。",
+          "narration": "这是中华民族的抗日战争，时间是1931—1945年。",
+          "displayText": "这是中华民族的抗日战争，时间是1931—1945年。"
+        },
+        "assetId": "resistance-shenyang-lugouqiao-timeline-child-study",
+        "image": "/content/step-images/resistance-shenyang-lugouqiao-timeline-child-study.jpg",
+        "imageAlt": "沈阳九一八至卢沟桥七七双节点儿童时间线示意",
+        "imageCaption": "用1931年沈阳九一八事变和1937年卢沟桥七七事变两个节点定位抗战时间线。",
+        "imageBoundary": "项目自制的明亮儿童时间线示意，只用于核对1931年—1937年的先后与沈阳、卢沟桥两个地点；不是历史现场照片，也不是精确行政或军事地图，底图轮廓、建筑和箭头均为概念化表达。年份、事件名和地点以国家博物馆、教育部与国防部资料核验。1536×1024像素。",
+        "audio": {
+          "transition": {
+            "id": "quest-cafb042b318bc60f",
+            "text": "先给一个地方找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-18ccc488d1ab06fb",
+            "text": "这是中华民族的抗日战争，时间是1931—1945年。"
+          },
+          "image": {
+            "id": "quest-0ddd051051392c29",
+            "text": "点开大图啦。这是沈阳九一八至卢沟桥七七双节点儿童时间线示意。这张图能帮我们找到：这是中华民族的抗日战争，时间是1931—1945年。"
+          },
+          "question": {
+            "id": "quest-6b36b10ba4b7def9",
+            "text": "从一个地方出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-time-1",
+            "label": "中国古代史 · 夏商西周 · 约公元前21世纪—前771年",
+            "correct": false,
+            "audio": {
+              "id": "quest-887c975d5fc6d910",
+              "text": "中国古代史 · 夏商西周 · 约公元前21世纪—前771年"
+            }
+          },
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-time-2",
+            "label": "中国古代史 · 春秋战国 · 前770—前221年",
+            "correct": false,
+            "audio": {
+              "id": "quest-e3a8eb496edbf0f1",
+              "text": "中国古代史 · 春秋战国 · 前770—前221年"
+            }
+          },
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-time-3",
+            "label": "中国近代史 · 中华民族的抗日战争 · 1931—1945年",
+            "correct": true,
+            "audio": {
+              "id": "quest-443bcb3b86779bc8",
+              "text": "中国近代史 · 中华民族的抗日战争 · 1931—1945年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "两座城放上时间线",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先把沈阳和卢沟桥放到同一条时间线上。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "两座城放上时间线",
+          "screenText": "先把沈阳和卢沟桥放到同一条时间线上。",
+          "narration": "先把沈阳和卢沟桥放到同一条时间线上。",
+          "displayText": "先把沈阳和卢沟桥放到同一条时间线上。"
+        },
+        "assetId": "resistance-shenyang-lugouqiao-timeline-child-study",
+        "image": "/content/step-images/resistance-shenyang-lugouqiao-timeline-child-study.jpg",
+        "imageAlt": "沈阳九一八至卢沟桥七七双节点儿童时间线示意",
+        "imageCaption": "用1931年沈阳九一八事变和1937年卢沟桥七七事变两个节点定位抗战时间线。",
+        "imageBoundary": "项目自制的明亮儿童时间线示意，只用于核对1931年—1937年的先后与沈阳、卢沟桥两个地点；不是历史现场照片，也不是精确行政或军事地图，底图轮廓、建筑和箭头均为概念化表达。年份、事件名和地点以国家博物馆、教育部与国防部资料核验。1536×1024像素。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-120c2329bf2fa560",
+            "text": "先把沈阳和卢沟桥放到同一条时间线上。"
+          },
+          "image": {
+            "id": "quest-bea7d35d961a5344",
+            "text": "点开大图啦。这是沈阳九一八至卢沟桥七七双节点儿童时间线示意。这张图能帮我们找到：先把沈阳和卢沟桥放到同一条时间线上。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-beginning-1",
+            "label": "沈阳、北平卢沟桥与华北地区，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-2c0448dacb1f23ab",
+              "text": "沈阳、北平卢沟桥与华北地区，只是故事地点"
+            }
+          },
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-beginning-2",
+            "label": "地图、报纸、纪念设施与档案，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-aba2618a2a18bf33",
+              "text": "地图、报纸、纪念设施与档案，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-beginning-3",
+            "label": "东北军民、学生、守军与各地抗日，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-2c9bd468f244b4c9",
+              "text": "东北军民、学生、守军与各地抗日，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "报纸留下行动",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看报纸、学生行动和纪念设施留下的线索。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "报纸留下行动",
+          "screenText": "接着看报纸、学生行动和纪念设施留下的线索。",
+          "narration": "接着看报纸、学生行动和纪念设施留下的线索。",
+          "displayText": "接着看报纸、学生行动和纪念设施留下的线索。"
+        },
+        "assetId": "mukden-incident-museum-2014-photo",
+        "image": "/content/step-images/mukden-incident-museum-2014-photo.jpg",
+        "imageAlt": "2014年沈阳“九一八”历史博物馆外景",
+        "imageCaption": "2014年拍摄的沈阳“九一八”历史博物馆纪念建筑与广场。",
+        "imageBoundary": "当代纪念馆照片，画面中的国旗、参观者、广场和建筑钟面都属于现代纪念环境；钟面与日期是纪念设计，不是1931年事变现场遗物。下载为1920×1280像素等比例缩略图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-1c7fd74d75514c6d",
+            "text": "接着看报纸、学生行动和纪念设施留下的线索。"
+          },
+          "image": {
+            "id": "quest-51118373f7ab98ad",
+            "text": "点开大图啦。这是2014年沈阳“九一八”历史博物馆外景。这张图能帮我们找到：接着看报纸、学生行动和纪念设施留下的线索。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-journey-1",
+            "label": "接着看报纸、学生行动和纪念设施留下的线索。",
+            "correct": true,
+            "audio": {
+              "id": "quest-1c7fd74d75514c6d",
+              "text": "接着看报纸、学生行动和纪念设施留下的线索。"
+            }
+          },
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-journey-2",
+            "label": "沈阳、北平卢沟桥与华北地区，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-4b3220d64b1cefa8",
+              "text": "沈阳、北平卢沟桥与华北地区，只说了地点"
+            }
+          },
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-journey-3",
+            "label": "东北军民、学生、守军与各地抗日力，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-e3160ddd8f56deac",
+              "text": "东北军民、学生、守军与各地抗日力，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "守护家园连起来",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后局部危机扩大，各地守护家园的行动连起来。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "守护家园连起来",
+          "screenText": "最后局部危机扩大，各地守护家园的行动连起来。",
+          "narration": "最后局部危机扩大，各地守护家园的行动连起来。",
+          "displayText": "最后局部危机扩大，各地守护家园的行动连起来。"
+        },
+        "assetId": "december-ninth-neu-students-1935-photo",
+        "image": "/content/step-images/december-ninth-neu-students-1935-photo.jpg",
+        "imageAlt": "1935年一二·九运动中的东北大学学生队伍",
+        "imageCaption": "1935年12月9日，一二·九运动游行队伍中的东北大学学生。",
+        "imageBoundary": "历史照片显示校旗和部分学生，只能证明游行中的一个场景；不能辨认所有个人、代表全部参加者或逐字猜读背景中模糊招牌。原图1527×1122像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-5e19914133ba63cc",
+            "text": "最后局部危机扩大，各地守护家园的行动连起来。"
+          },
+          "image": {
+            "id": "quest-b2c727546caaeb51",
+            "text": "点开大图啦。这是1935年一二·九运动中的东北大学学生队伍。这张图能帮我们找到：最后局部危机扩大，各地守护家园的行动连起来。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-change-1",
+            "label": "看报纸、学生行动和纪念设施留下，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-7947cb8e999ef1a4",
+              "text": "看报纸、学生行动和纪念设施留下，还只是行动经过"
+            }
+          },
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-change-2",
+            "label": "地图、报纸、纪念设施与档案，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-96f8da66d14306f6",
+              "text": "地图、报纸、纪念设施与档案，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-change-3",
+            "label": "最后局部危机扩大，各地守护家园的行动连起来。",
+            "correct": true,
+            "audio": {
+              "id": "quest-5e19914133ba63cc",
+              "text": "最后局部危机扩大，各地守护家园的行动连起来。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "侵略从东北逐步扩大，各地军民、学生和社会力量也不断组织抵抗。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "侵略从东北逐步扩大，各地军民、学生和社会力量也不断组织抵抗。",
+          "narration": "侵略从东北逐步扩大，各地军民、学生和社会力量也不断组织抵抗。",
+          "displayText": "侵略从东北逐步扩大，各地军民、学生和社会力量也不断组织抵抗。"
+        },
+        "assetId": "december-ninth-neu-students-1935-photo",
+        "image": "/content/step-images/december-ninth-neu-students-1935-photo.jpg",
+        "imageAlt": "1935年一二·九运动中的东北大学学生队伍",
+        "imageCaption": "1935年12月9日，一二·九运动游行队伍中的东北大学学生。",
+        "imageBoundary": "历史照片显示校旗和部分学生，只能证明游行中的一个场景；不能辨认所有个人、代表全部参加者或逐字猜读背景中模糊招牌。原图1527×1122像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-12a53d2e3df40970",
+            "text": "侵略从东北逐步扩大，各地军民、学生和社会力量也不断组织抵抗。"
+          },
+          "image": {
+            "id": "quest-740059752dc8f939",
+            "text": "点开大图啦。这是1935年一二·九运动中的东北大学学生队伍。这张图能帮我们找到：侵略从东北逐步扩大，各地军民、学生和社会力量也不断组织抵抗。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-takeaway-1",
+            "label": "局部危机扩大，各地守护家园的行动连起来。、从沈阳到，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-e456a04698e9a0c0",
+              "text": "局部危机扩大，各地守护家园的行动连起来。、从沈阳到，只说了结果"
+            }
+          },
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-takeaway-2",
+            "label": "侵略从东北逐步扩大，各地军民、学生和社会力量也不断组织抵抗。",
+            "correct": true,
+            "audio": {
+              "id": "quest-12a53d2e3df40970",
+              "text": "侵略从东北逐步扩大，各地军民、学生和社会力量也不断组织抵抗。"
+            }
+          },
+          {
+            "id": "cn-modern-05-01-from-local-to-national-war-takeaway-3",
+            "label": "把沈阳和卢沟桥放到同一条时间线上。、地图、报纸，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-28860caef73c51ee",
+              "text": "把沈阳和卢沟桥放到同一条时间线上。、地图、报纸，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "六年时间链",
+        "items": [
+          "把“九一八事变—一二·九运动—西安事变和平解决—七七事变—抗日民族统一战线正式形成”按时间与因果排序，不设置射击或占领得分。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "历史照片还是今日遗址",
+        "items": [
+          "给学生游行合影、人物合影、九一八博物馆和宛平城弹坑遗址分别贴上“历史照片”“今日纪念地/遗址”，并说出每张图不能证明什么。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "局部与全国",
+        "items": [
+          "把“东北义勇军和抗联坚持抵抗”放入1931年开始的完整抗战，把“国共合作基础上的广泛社会动员”放入1937年开始的全民族抗战阶段，理解两段相连而不互相替代。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 10,
   "conclusion": [
     "1931年九一八事变后，日本迅速扩大对中国东北的侵略，中国人民的十四年抗战由此开始。东北民众、部分爱国官兵组成抗日义勇军，中国共产党组织抗日游击队并逐步形成东北抗日联军，局部抗战长期坚持。侵略势力继续向华北推进，1935年一二·九运动推动全国抗日救亡形成新高潮。1936年西安事变发生后，中国共产党从民族大局出发推动和平解决，停止内战、共同抗日逐渐成为更现实的政治方向，抗日民族统一战线初步形成。1937年7月7日，日军在卢沟桥附近发动进攻，中国守军抵抗，七七事变成为全民族抗战爆发的标志；同年9月，以国共合作为基础的抗日民族统一战线正式形成。“局部”到“全国”不是一天自动完成的变化，而是侵略扩大、各地抵抗、社会动员、政治协商与国共再次合作共同推动的过程。"
@@ -390,40 +975,65 @@
       "title": "2014年沈阳“九一八”历史博物馆外景",
       "localPath": "reference-assets/china-modern-war-of-resistance/mukden-incident-museum-2014.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:2014_9-18_Mukden_Incident_Museum,_Shenyang_01.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "2014年拍摄的沈阳“九一八”历史博物馆纪念建筑与广场。",
-      "boundary": "当代纪念馆照片，画面中的国旗、参观者、广场和建筑钟面都属于现代纪念环境；钟面与日期是纪念设计，不是1931年事变现场遗物。下载为1920×1280像素等比例缩略图，未作其他修改。"
+      "boundary": "当代纪念馆照片，画面中的国旗、参观者、广场和建筑钟面都属于现代纪念环境；钟面与日期是纪念设计，不是1931年事变现场遗物。下载为1920×1280像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "december-ninth-neu-students-1935-photo",
       "title": "1935年一二·九运动中的东北大学学生队伍",
       "localPath": "reference-assets/china-modern-war-of-resistance/december-ninth-students-1935.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:NEU_students_marching_in_the_December_9th_Movement.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — photograph taken in China in 1935",
       "clearance": "cleared-open-license",
       "caption": "1935年12月9日，一二·九运动游行队伍中的东北大学学生。",
-      "boundary": "历史照片显示校旗和部分学生，只能证明游行中的一个场景；不能辨认所有个人、代表全部参加者或逐字猜读背景中模糊招牌。原图1527×1122像素，未作修改。"
+      "boundary": "历史照片显示校旗和部分学生，只能证明游行中的一个场景；不能辨认所有个人、代表全部参加者或逐字猜读背景中模糊招牌。原图1527×1122像素，未作修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "zhang-xueliang-yang-hucheng-1936-photo",
       "title": "1936年张学良与杨虎城合影",
       "localPath": "reference-assets/china-modern-war-of-resistance/zhang-xueliang-yang-hucheng-1936.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Zhang_Xueliang_and_Yang_Hucheng.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — photograph taken in China in 1936",
       "clearance": "cleared-open-license",
       "caption": "1936年的张学良（左）与杨虎城（右）合影。",
-      "boundary": "人物合影不是1936年12月12日扣留现场，也不是周恩来等参与的谈判现场；不能从表情、坐姿或军服推断事变经过和个人全部立场。原图550×740像素，未作修改。"
+      "boundary": "人物合影不是1936年12月12日扣留现场，也不是周恩来等参与的谈判现场；不能从表情、坐姿或军服推断事变经过和个人全部立场。原图550×740像素，未作修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "lugouqiao-impact-site-2016-photo",
       "title": "2016年宛平城“七七事变弹坑遗址”照片",
       "localPath": "reference-assets/china-modern-war-of-resistance/lugouqiao-impact-site-2016.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:%E4%B8%83%E4%B8%83%E4%BA%8B%E5%8F%98%E5%BC%B9%E5%9D%91%E9%81%97%E5%9D%80.JPG",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2016年拍摄的宛平城墙“七七事变弹坑遗址”与说明牌。",
-      "boundary": "这是遗址保护状态的当代照片，不是1937年炮击发生时的影像；画面中的说明牌、线缆、修缮砖石和周边环境属于后期展示。下载为1920×1279像素等比例缩略图，未作其他修改。"
+      "boundary": "这是遗址保护状态的当代照片，不是1937年炮击发生时的影像；画面中的说明牌、线缆、修缮砖石和周边环境属于后期展示。下载为1920×1279像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "resistance-shenyang-lugouqiao-timeline-child-study",
+      "title": "沈阳九一八至卢沟桥七七双节点儿童时间线示意",
+      "localPath": "reference-assets/china-modern-war-of-resistance/shenyang-lugouqiao-timeline-child-study-self-made.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "用1931年沈阳九一八事变和1937年卢沟桥七七事变两个节点定位抗战时间线。",
+      "boundary": "项目自制的明亮儿童时间线示意，只用于核对1931年—1937年的先后与沈阳、卢沟桥两个地点；不是历史现场照片，也不是精确行政或军事地图，底图轮廓、建筑和箭头均为概念化表达。年份、事件名和地点以国家博物馆、教育部与国防部资料核验。1536×1024像素。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-modern-05-01-from-local-to-national-war.jpg",

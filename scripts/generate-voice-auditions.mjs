@@ -10,10 +10,15 @@ const outputDir = join(root, "public", "audio", "auditions");
 const sourceDataDir = join(root, "content", "runtime");
 const siblingPython = resolve(root, "..", "playground", "local-tts", ".venv", "bin", "python");
 const python = process.env.HISTORY_EDGE_TTS_PYTHON || (existsSync(siblingPython) ? siblingPython : "python3");
+const reuseExisting = process.argv.includes("--reuse-existing");
 const temporaryDir = await mkdtemp(join(tmpdir(), "history-voice-auditions-"));
 
 await mkdir(outputDir, { recursive: true });
 await mkdir(sourceDataDir, { recursive: true });
+const existingManifestPath = join(outputDir, "manifest.json");
+const existingManifest = reuseExisting && existsSync(existingManifestPath)
+  ? JSON.parse(await readFile(existingManifestPath, "utf8"))
+  : null;
 
 const profiles = [];
 try {
@@ -23,15 +28,24 @@ try {
       const filename = `${profile.id}-${sample.id}.mp3`;
       const outputPath = join(outputDir, filename);
       const textPath = join(temporaryDir, `${profile.id}-${sample.id}.txt`);
-      await writeFile(textPath, sample.text);
-      await run(python, [
-        "-m", "edge_tts",
-        "--voice", profile.voice,
-        `--rate=${profile.rate}`,
-        `--pitch=${profile.pitch}`,
-        "--file", textPath,
-        "--write-media", outputPath,
-      ]);
+      const oldProfile = existingManifest?.profiles?.find((item) => item.id === profile.id);
+      const oldSample = oldProfile?.samples?.find((item) => item.id === sample.id);
+      const canReuse = existsSync(outputPath)
+        && oldProfile?.voice === profile.voice
+        && oldProfile?.rate === profile.rate
+        && oldProfile?.pitch === profile.pitch
+        && oldSample?.text === sample.text;
+      if (!canReuse) {
+        await writeFile(textPath, sample.text);
+        await run(python, [
+          "-m", "edge_tts",
+          "--voice", profile.voice,
+          `--rate=${profile.rate}`,
+          `--pitch=${profile.pitch}`,
+          "--file", textPath,
+          "--write-media", outputPath,
+        ]);
+      }
       const file = await stat(outputPath);
       if (file.size < 1024) throw new Error(`${filename} 生成失败：文件过小`);
       samples.push({
@@ -42,7 +56,7 @@ try {
         src: `/audio/auditions/${encodeURIComponent(basename(outputPath))}`,
         bytes: file.size,
       });
-      process.stdout.write(`生成试听：${profile.label} / ${sample.label}\n`);
+      process.stdout.write(`${canReuse ? "复用试听" : "生成试听"}：${profile.label} / ${sample.label}\n`);
     }
     profiles.push({ ...profile, samples });
   }

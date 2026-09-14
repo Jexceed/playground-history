@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-14",
+  "designVersion": "3.0",
+  "contentVersion": "0.67.0",
+  "userApproval": "Qin overall design direction approved; not full-library or child-test approval",
+  "otherAuthoredChaptersChanged": [],
+  "unchangedFiles": {
+    "content/voice-interface-lines.json": true,
+    "content/voice-pronunciations.json": true,
+    "public/audio/voice-lines.json": true,
+    "public/audio/voice/manifest.json": true,
+    "content/product-map.json": true
+  },
+  "scope": {
+    "libraryChapters": 103,
+    "steps": 515,
+    "visibleChapters": 34
+  },
+  "automated": {
+    "assetPaths": "pass",
+    "build": "pass",
+    "testsPassed": 20,
+    "lint": "pass",
+    "appTypes": "pass",
+    "diffCheck": "pass",
+    "rejectedRegressionFixtures": [
+      "old-photo-option",
+      "mixed-vector-and-bitmap"
+    ],
+    "appTypeCommand": "npm run typecheck:app"
+  },
+  "browser": {
+    "viewports": [
+      "801x785",
+      "390x600"
+    ],
+    "changedStep": "journey",
+    "checked": [
+      "ruler and weight are both SVG illustrations",
+      "wrong selection places same weight illustration on desk",
+      "right selection restores ruler and short feedback",
+      "real artifact remains at first step and inspection entry"
+    ],
+    "childTest": "pending",
+    "optionPhotos": 0,
+    "optionIllustrations": 2,
+    "nextButtonBottom": 590.5,
+    "viewportHeight": 600,
+    "pageWidth": 390,
+    "viewportOverrideReset": true
+  }
+}

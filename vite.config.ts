@@ -14,6 +14,8 @@ const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 const localBindingConfig = {
   main: "./worker/index.ts",
   compatibility_flags: ["nodejs_compat"],
+  // 本地开发缺少 Cloudflare IMAGES 绑定；提供 ASSETS 后图片优化端点会回退为原图直通。
+  assets: { binding: "ASSETS", directory: "./public" },
   d1_databases: d1
     ? [
         {

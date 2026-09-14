@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.8.0",
+  "contentVersion": "0.9.0",
   "id": "cn-modern-03-01-everyday-modernization",
   "trackId": "china-modern",
   "trackLabel": "中国近代史",
@@ -13,7 +13,591 @@
   "title": "火车、报纸和新式学堂来到身边",
   "coreQuestion": "近代交通、教育、传媒和生活习俗怎样改变普通人的一天？",
   "throughline": "用车票、照片、报刊、校舍和生活用品观察近代工业、交通通信、教育文化与社会习俗的变化，同时看到地区差异。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-modern-03-01-everyday-modernization",
+    "childTitle": "坐火车、读报纸、进学堂",
+    "prompt": "新的交通、消息和学校，怎样改变一个普通人的一天？",
+    "takeaway": "火车、报纸和学堂改变了出行与学习，但各地、各家变化快慢不同。",
+    "object": "火车票、报纸、课本与老照片",
+    "people": [
+      "学生、教师、报童、乘客与邮递员"
+    ],
+    "place": "上海、天津与近代铁路沿线城市",
+    "culture": "报刊、新式学堂与近代歌曲",
+    "care": "城市新生活不代表所有地区同时改变，也不拿新旧习惯做高低评分。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "⚙️",
+      "label": "从一台机器出发",
+      "text": "坐火车、读报纸、进学堂"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "拿火车票进城",
+      "text": "先拿一张火车票，去近代城市走一圈。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "读报进学堂",
+      "text": "接着读报纸、进学堂，再让邮递员送信。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "变化快慢不一样",
+      "text": "最后新交通和新知识改变生活，各地快慢不同。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "火车、报纸和学堂改变了出行与学习，但各地、各家变化快慢不同。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "革命",
+      "icon": "🔄",
+      "plain": "许多人推动改变旧政权或旧制度的大变化。",
+      "example": "革命不是只看一场战斗，还要看原因、参与者和结果。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "主权",
+      "icon": "🏠",
+      "plain": "一个国家自己决定本国事务的权力。",
+      "example": "强迫签约、割地或控制关税会伤害主权。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "文明",
+      "icon": "🏙️",
+      "plain": "许多人长期创造的社会生活与文化成果。",
+      "example": "不同文明各有环境和道路，不做高低排名。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "上海",
+      "reading": "Shànghǎi",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-01-04-reform-and-national-crisis",
+        "cn-modern-03-01-everyday-modernization",
+        "cn-modern-04-01-new-culture-may-fourth",
+        "cn-modern-04-02-cpc-national-revolution"
+      ],
+      "note": "“上”在地名中读shàng。"
+    },
+    {
+      "text": "天津",
+      "reading": "Tiānjīn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-01-02-deeper-crisis",
+        "cn-modern-03-01-everyday-modernization"
+      ],
+      "note": "地名连读。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一台机器",
+      "icon": "⚙️",
+      "label": "坐火车、读报纸、进学堂",
+      "question": "新的交通、消息和学校，怎样改变一个普通人的一天？"
+    },
+    "coverAudio": {
+      "id": "quest-b70eb2d62869f0af",
+      "text": "今天从一台机器出发：坐火车、读报纸、进学堂。我们要去上海、天津与近代铁路沿线城市，看看火车票、报纸、课本与老照片怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-bca13a583a898cd0",
+      "text": "五条线索都找到了，“坐火车、读报纸、进学堂”的答案是：火车、报纸和学堂改变了出行与学习，但各地、各家变化快慢不同。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 8,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一台机器出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是近代社会生活变化，时间是19世纪中期—20世纪中期。",
+          "narration": "这是近代社会生活变化，时间是19世纪中期—20世纪中期。",
+          "displayText": "这是近代社会生活变化，时间是19世纪中期—20世纪中期。"
+        },
+        "assetId": "li-shanlan-math-class-1868-1870-photo",
+        "image": "/content/step-images/li-shanlan-math-class-1868-1870-photo.jpg",
+        "imageAlt": "1868—1870年李善兰与北京同文馆学生合影",
+        "imageCaption": "1868—1870年，数学教师李善兰与北京同文馆学生合影。",
+        "imageBoundary": "合影证明特定师生与教育场景，不能代表全国学校、全部课程或所有儿童的入学机会；不得只凭服装断言教学内容仍然完全传统。下载为1920×1742像素等比例图。",
+        "audio": {
+          "transition": {
+            "id": "quest-8b7a34459d3f2eba",
+            "text": "先给一台机器找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-2c0be8e28aa38f14",
+            "text": "这是近代社会生活变化，时间是19世纪中期—20世纪中期。"
+          },
+          "image": {
+            "id": "quest-6fdf355f11ccd907",
+            "text": "点开大图啦。这是1868—1870年李善兰与北京同文馆学生合影。这张图能帮我们找到：这是近代社会生活变化，时间是19世纪中期—20世纪中期。"
+          },
+          "question": {
+            "id": "quest-f75c2d78fe1fb0f2",
+            "text": "从一台机器出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-03-01-everyday-modernization-time-1",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "cn-modern-03-01-everyday-modernization-time-2",
+            "label": "中国近代史 · 近代社会生活变化 · 19世纪中期—20世纪中期",
+            "correct": true,
+            "audio": {
+              "id": "quest-a3ba6f0b375df832",
+              "text": "中国近代史 · 近代社会生活变化 · 19世纪中期—20世纪中期"
+            }
+          },
+          {
+            "id": "cn-modern-03-01-everyday-modernization-time-3",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "拿火车票进城",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先拿一张火车票，去近代城市走一圈。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "拿火车票进城",
+          "screenText": "先拿一张火车票，去近代城市走一圈。",
+          "narration": "先拿一张火车票，去近代城市走一圈。",
+          "displayText": "先拿一张火车票，去近代城市走一圈。"
+        },
+        "assetId": "li-shanlan-math-class-1868-1870-photo",
+        "image": "/content/step-images/li-shanlan-math-class-1868-1870-photo.jpg",
+        "imageAlt": "1868—1870年李善兰与北京同文馆学生合影",
+        "imageCaption": "1868—1870年，数学教师李善兰与北京同文馆学生合影。",
+        "imageBoundary": "合影证明特定师生与教育场景，不能代表全国学校、全部课程或所有儿童的入学机会；不得只凭服装断言教学内容仍然完全传统。下载为1920×1742像素等比例图。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-1c5e53c1815626ea",
+            "text": "先拿一张火车票，去近代城市走一圈。"
+          },
+          "image": {
+            "id": "quest-d3c8de3126842665",
+            "text": "点开大图啦。这是1868—1870年李善兰与北京同文馆学生合影。这张图能帮我们找到：先拿一张火车票，去近代城市走一圈。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-03-01-everyday-modernization-beginning-1",
+            "label": "火车票、报纸、课本与老照片，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-0ff2e35dd998eac7",
+              "text": "火车票、报纸、课本与老照片，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-modern-03-01-everyday-modernization-beginning-2",
+            "label": "学生、教师、报童、乘客与邮递员，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-920b34e2de4e9ee3",
+              "text": "学生、教师、报童、乘客与邮递员，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-modern-03-01-everyday-modernization-beginning-3",
+            "label": "上海、天津与近代铁路沿线城，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-53b3610bb049607a",
+              "text": "上海、天津与近代铁路沿线城，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "读报进学堂",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着读报纸、进学堂，再让邮递员送信。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "读报进学堂",
+          "screenText": "接着读报纸、进学堂，再让邮递员送信。",
+          "narration": "接着读报纸、进学堂，再让邮递员送信。",
+          "displayText": "接着读报纸、进学堂，再让邮递员送信。"
+        },
+        "assetId": "li-shanlan-math-class-1868-1870-photo",
+        "image": "/content/step-images/li-shanlan-math-class-1868-1870-photo.jpg",
+        "imageAlt": "1868—1870年李善兰与北京同文馆学生合影",
+        "imageCaption": "1868—1870年，数学教师李善兰与北京同文馆学生合影。",
+        "imageBoundary": "合影证明特定师生与教育场景，不能代表全国学校、全部课程或所有儿童的入学机会；不得只凭服装断言教学内容仍然完全传统。下载为1920×1742像素等比例图。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-2f99f26dde9542b2",
+            "text": "接着读报纸、进学堂，再让邮递员送信。"
+          },
+          "image": {
+            "id": "quest-0c752376c760302b",
+            "text": "点开大图啦。这是1868—1870年李善兰与北京同文馆学生合影。这张图能帮我们找到：接着读报纸、进学堂，再让邮递员送信。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-03-01-everyday-modernization-journey-1",
+            "label": "上海、天津与近代铁路沿，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-16840ba30dc5b60d",
+              "text": "上海、天津与近代铁路沿，只说了地点"
+            }
+          },
+          {
+            "id": "cn-modern-03-01-everyday-modernization-journey-2",
+            "label": "学生、教师、报童、乘客与邮，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-1037afe4dd346aa5",
+              "text": "学生、教师、报童、乘客与邮，只认出人物"
+            }
+          },
+          {
+            "id": "cn-modern-03-01-everyday-modernization-journey-3",
+            "label": "接着读报纸、进学堂，再让邮递员送信。",
+            "correct": true,
+            "audio": {
+              "id": "quest-2f99f26dde9542b2",
+              "text": "接着读报纸、进学堂，再让邮递员送信。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "变化快慢不一样",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后新交通和新知识改变生活，各地快慢不同。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "变化快慢不一样",
+          "screenText": "最后新交通和新知识改变生活，各地快慢不同。",
+          "narration": "最后新交通和新知识改变生活，各地快慢不同。",
+          "displayText": "最后新交通和新知识改变生活，各地快慢不同。"
+        },
+        "assetId": "qinglongqiao-station-1909-photo",
+        "image": "/content/step-images/qinglongqiao-station-1909-photo.jpg",
+        "imageAlt": "1909年京张铁路青龙桥车站历史照片",
+        "imageCaption": "1909年的京张铁路青龙桥车站。",
+        "imageBoundary": "照片出自《京张路工摄影》，可观察车站、铁轨、山地环境和工作人员；不能据此推断全国已形成铁路网、所有人都能乘车或每个人的身份。下载为1920×1492像素等比例图。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-839f97ba54d798d5",
+            "text": "最后新交通和新知识改变生活，各地快慢不同。"
+          },
+          "image": {
+            "id": "quest-0e09b8f45d613da6",
+            "text": "点开大图啦。这是1909年京张铁路青龙桥车站历史照片。这张图能帮我们找到：最后新交通和新知识改变生活，各地快慢不同。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-03-01-everyday-modernization-change-1",
+            "label": "火车票、报纸、课本与老照，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-ecb2b93c2bfde9f8",
+              "text": "火车票、报纸、课本与老照，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-modern-03-01-everyday-modernization-change-2",
+            "label": "最后新交通和新知识改变生活，各地快慢不同。",
+            "correct": true,
+            "audio": {
+              "id": "quest-839f97ba54d798d5",
+              "text": "最后新交通和新知识改变生活，各地快慢不同。"
+            }
+          },
+          {
+            "id": "cn-modern-03-01-everyday-modernization-change-3",
+            "label": "读报纸、进学堂，再让邮递员送，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-52545997ca49ff9e",
+              "text": "读报纸、进学堂，再让邮递员送，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "火车、报纸和学堂改变了出行与学习，但各地、各家变化快慢不同。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "火车、报纸和学堂改变了出行与学习，但各地、各家变化快慢不同。",
+          "narration": "火车、报纸和学堂改变了出行与学习，但各地、各家变化快慢不同。",
+          "displayText": "火车、报纸和学堂改变了出行与学习，但各地、各家变化快慢不同。"
+        },
+        "assetId": "li-shanlan-math-class-1868-1870-photo",
+        "image": "/content/step-images/li-shanlan-math-class-1868-1870-photo.jpg",
+        "imageAlt": "1868—1870年李善兰与北京同文馆学生合影",
+        "imageCaption": "1868—1870年，数学教师李善兰与北京同文馆学生合影。",
+        "imageBoundary": "合影证明特定师生与教育场景，不能代表全国学校、全部课程或所有儿童的入学机会；不得只凭服装断言教学内容仍然完全传统。下载为1920×1742像素等比例图。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-ddfe5a3e5c37ca43",
+            "text": "火车、报纸和学堂改变了出行与学习，但各地、各家变化快慢不同。"
+          },
+          "image": {
+            "id": "quest-62a9c35f7c5dd676",
+            "text": "点开大图啦。这是1868—1870年李善兰与北京同文馆学生合影。这张图能帮我们找到：火车、报纸和学堂改变了出行与学习，但各地、各家变化快慢不同。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-modern-03-01-everyday-modernization-takeaway-1",
+            "label": "火车、报纸和学堂改变了出行与学习，但各地、各家变化快慢不同。",
+            "correct": true,
+            "audio": {
+              "id": "quest-ddfe5a3e5c37ca43",
+              "text": "火车、报纸和学堂改变了出行与学习，但各地、各家变化快慢不同。"
+            }
+          },
+          {
+            "id": "cn-modern-03-01-everyday-modernization-takeaway-2",
+            "label": "拿一张火车票，去近代城市走一圈。、火车票、报纸，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-68ec6dba46bb4f9d",
+              "text": "拿一张火车票，去近代城市走一圈。、火车票、报纸，只说了原因"
+            }
+          },
+          {
+            "id": "cn-modern-03-01-everyday-modernization-takeaway-3",
+            "label": "新交通和新知识改变生活，各地快慢不同。、坐火车、读，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-65f915891b5f9e0b",
+              "text": "新交通和新知识改变生活，各地快慢不同。、坐火车、读，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "跨期时间线",
+        "items": [
+          "按1862、1872、1881、1905、1909、1912以后排列学堂、报纸、铁路、考试和习俗事件。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "一张车站照能证明什么",
+        "items": [
+          "选择“1909年青龙桥车站存在”，排除“全国已有铁路网”和“所有人都能坐火车”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "报纸阅读三步",
+        "items": [
+          "先找报头与日期，再看报道主题，最后追问作者、来源和是否需要交叉核验。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "变化速度地图",
+        "items": [
+          "把城市、铁路沿线、乡村和不同家庭放进“较早接触/较晚接触/资料不足”，允许多个合理答案并要求说明证据。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "中国近代社会生活变化并不是1912年突然开始，而是从晚清延续到民国，并在城市、乡村、不同地区和不同人群中快慢不一。铁路缩短部分地区的旅行和运输时间，也牵涉资金、技术和国家主权；报刊让更多消息进入公共讨论，但一份报纸不等于全部事实；新式学堂增加语言、数学、科学、体育等课程，1905年停止科举后，新旧教育仍长期并存；辛亥革命后，剪辫、禁缠足、改变称谓礼节等社会改良加快。近代化不是简单地“换上西式物品”，而是中国人在危机中学习、创造、争论并改变制度和生活的复杂过程。"
@@ -372,30 +956,39 @@
       "title": "1909年京张铁路青龙桥车站历史照片",
       "localPath": "reference-assets/china-modern-revolution-social/qinglongqiao-station-1909.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Qinglongqiao_Railway_Station_in_1909.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — 1909 historical photograph",
       "clearance": "cleared-open-license",
       "caption": "1909年的京张铁路青龙桥车站。",
-      "boundary": "照片出自《京张路工摄影》，可观察车站、铁轨、山地环境和工作人员；不能据此推断全国已形成铁路网、所有人都能乘车或每个人的身份。下载为1920×1492像素等比例图。"
+      "boundary": "照片出自《京张路工摄影》，可观察车站、铁轨、山地环境和工作人员；不能据此推断全国已形成铁路网、所有人都能乘车或每个人的身份。下载为1920×1492像素等比例图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "shenbao-first-issue-1872-page",
       "title": "1872年《申报》创刊号",
       "localPath": "reference-assets/china-modern-revolution-social/shenbao-first-issue-1872.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:%E7%94%B3%E6%8A%A5%E5%88%9B%E5%88%8A%E5%8F%B7.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — China and pre-1931 publication",
       "clearance": "cleared-open-license",
       "caption": "1872年4月30日《申报》创刊号页面。",
-      "boundary": "图中竖排小字密集，儿童端只找报头和日期，不要求全文辨读。报纸是有选择和立场的历史记录，页面出现的说法须另行核验。下载为1280×1892像素等比例图。"
+      "boundary": "图中竖排小字密集，儿童端只找报头和日期，不要求全文辨读。报纸是有选择和立场的历史记录，页面出现的说法须另行核验。下载为1280×1892像素等比例图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "li-shanlan-math-class-1868-1870-photo",
       "title": "1868—1870年李善兰与北京同文馆学生合影",
       "localPath": "reference-assets/china-modern-revolution-social/mathematics-teacher-pupils-1868-1870.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Native_Professor_of_Mathematics,_and_pupils_Wellcome_L0040982.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 4.0",
       "clearance": "cleared-open-license",
       "caption": "1868—1870年，数学教师李善兰与北京同文馆学生合影。",
-      "boundary": "合影证明特定师生与教育场景，不能代表全国学校、全部课程或所有儿童的入学机会；不得只凭服装断言教学内容仍然完全传统。下载为1920×1742像素等比例图。"
+      "boundary": "合影证明特定师生与教育场景，不能代表全国学校、全部课程或所有儿童的入学机会；不得只凭服装断言教学内容仍然完全传统。下载为1920×1742像素等比例图。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-modern-03-01-everyday-modernization.jpg",

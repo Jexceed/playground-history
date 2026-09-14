@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-09-12T18:55:47.087645+00:00",
+  "contentVersion": "0.63.0",
+  "scope": {
+    "visibleChapters": 34,
+    "visibleStations": 10,
+    "hiddenChaptersPreserved": 69,
+    "completeLibraryChapters": 103
+  },
+  "results": {
+    "contentAndAssets": "pass; all 103 chapters, all registered local files",
+    "npmTest": {
+      "passed": 16,
+      "failed": 0
+    },
+    "lint": "pass",
+    "gitDiffCheck": "pass",
+    "appTypeCheck": "pass",
+    "fullTypeCheck": "pre-existing Cloudflare worker types absent: cloudflare:workers, Fetcher, D1Database",
+    "browser": {
+      "chapters": 34,
+      "steps": 170,
+      "wrongAnswerRetries": 170,
+      "viewport": "390x844",
+      "pageErrors": 0,
+      "outOfViewportControls": 0
+    },
+    "additionalInteractions": [
+      "real local audio pause/resume",
+      "image modal focus trap and restoration",
+      "reload resume through the common cover and hidden completions retained",
+      "80 task steps across 360x740, 390x600, 844x390 and 1440x900",
+      "parent scope and actual updated question review",
+      "102 real local MP3 samples decode and play in Chrome, muted"
+    ],
+    "finalSmallChangeRegression": {
+      "homepageCue": "local MP3 playing",
+      "qinSteps": 5,
+      "scopeIntroText": "小小历史旅行团集合啦。今天先从秦朝走到清朝。点一站，挑一个想试的小任务。和工匠量一块布，陪李白望一望月。想听选项，就点图卡。",
+      "status": "pass"
+    }
+  },
+  "audio": {
+    "completeLibraryLocalClips": 3000,
+    "currentScopeIncludingSharedGuides": 1525,
+    "browserDecodePlaySamples": 102,
+    "playbackTestMuted": true,
+    "allClipsHumanAuditioned": false,
+    "editorialFormalSegmentsGenerated": false
+  },
+  "limitations": [
+    "真实4—6岁儿童测试尚未进行；兴趣、语速舒适度和独立理解待验收",
+    "UX01整体展示与美术的后续重审继续保留",
+    "其余69章仅隐藏，未宣称完成本轮内容重写",
+    "没有公网部署、微信转换或Git推送"
+  ],
+  "workingTreeSha256": {
+    "content/focused-quests.json": "d7e0cf244cac2d634f8ce84f9ec8ebf690d8c4738dcf6a5be63a266c08068a27",
+    "content/preview-scope.json": "f1e806dc60b3a1150c3b27fed551161e2e9290188bd456e77c568fe85846ad91",
+    "content/voice-interface-lines.json": "89de42936aff6f83bf9a9bf25e5a370ada7731bd9e41759c52e65b144656406f",
+    "app/page.tsx": "1b3a59baab1dfb0e51edcf9218bd198e225fc65046be133447fcbaebda51c1b7",
+    "app/globals.css": "6d510cc0c7d98cfb80096a3dab7ab2bd396a81a45794dabba43bfc4c32dee5f2",
+    "scripts/lib/study-visuals.mjs": "129811ea28fc242a0f40d7c344ed3f2a2c8b4800ac7cdf2d20a1b8698e662cf6",
+    "public/content/preview-manifest.json": "3872e1fa5c5a37d2cb6e06f5fb1543584200e50389bb2bb7357a0d6e8f10a4ba",
+    "public/audio/voice/manifest.json": "948297b53409893224c389d5c39db6c8ba35b2178578b1bd7c8232f901b25abc"
+  }
+}

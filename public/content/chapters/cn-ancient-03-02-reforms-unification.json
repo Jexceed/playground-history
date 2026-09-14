@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-03-02-reforms-unification",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
@@ -13,7 +13,602 @@
   "title": "诸侯争霸与变法图强",
   "coreQuestion": "为什么各国在战争中不断改革？",
   "throughline": "从春秋争霸、战国兼并和商鞅变法等重要变化，理解旧制度瓦解与走向统一的趋势。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-ancient-03-02-reforms-unification",
+    "childTitle": "一只量杯怎样帮秦国改规则",
+    "prompt": "量杯上的小字，能告诉我们商鞅变法改变了什么吗？",
+    "takeaway": "统一量器只是一个窗口；新法律、奖惩和基层组织一起改变了秦国。",
+    "object": "商鞅方升",
+    "people": [
+      "商鞅、秦孝公和执行新规则的人"
+    ],
+    "place": "战国秦国与今天的陕西、河南一带",
+    "culture": "量器铭文",
+    "care": "不把战争胜负做成得分，也不把变法成败归给单一人物。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "一只量杯怎样帮秦国改规则"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "先拿量杯比一比",
+      "text": "先拿商鞅方升量一量，看各处是否用同一标准。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "新规则怎样执行",
+      "text": "接着看新规则怎样让办事和奖惩更统一。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "小量杯背后的变化",
+      "text": "最后发现量杯虽小，背后是秦国在改规则。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "统一量器只是一个窗口；新法律、奖惩和基层组织一起改变了秦国。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "改革",
+      "icon": "🛠️",
+      "plain": "发现旧办法有问题，改变规则或做法。",
+      "example": "改革可能带来新机会，也可能遇到阻力和新问题。",
+      "priority": 1
+    },
+    {
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "货币",
+      "icon": "🪙",
+      "plain": "大家用来交换和计算价值的共同工具。",
+      "example": "贝壳、铜钱、纸币形状不同，都要看当时怎样使用。",
+      "priority": 2
+    },
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "商鞅",
+      "reading": "Shāng Yāng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-03-02-reforms-unification"
+      ],
+      "note": "“鞅”在人名中读yāng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "一只量杯怎样帮秦国改规则",
+      "question": "量杯上的小字，能告诉我们商鞅变法改变了什么吗？"
+    },
+    "coverAudio": {
+      "id": "quest-5b0cec14f8e620a9",
+      "text": "今天从一件东西出发：一只量杯怎样帮秦国改规则。我们要去战国秦国与今天的陕西、河南一带，看看商鞅方升怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-aca34bf1587b035a",
+      "text": "五条线索都找到了，“一只量杯怎样帮秦国改规则”的答案是：统一量器只是一个窗口；新法律、奖惩和基层组织一起改变了秦国。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 8,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是春秋战国，时间是前770—前221年。",
+          "narration": "这是春秋战国，时间是前770—前221年。",
+          "displayText": "这是春秋战国，时间是前770—前221年。"
+        },
+        "assetId": "saws-shangyang-measure",
+        "image": "/content/step-images/saws-shangyang-measure.jpg",
+        "imageAlt": "商鞅方升实物照片",
+        "imageCaption": "上海博物馆东馆展出的商鞅方升；器侧可见战国铭文。",
+        "imageBoundary": "第一组铭文为秦孝公十八年，第二组为公元前221年统一后加刻；儿童页面不得把两组铭文混成同一年代。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-16ace2d60e63a25e",
+            "text": "这是春秋战国，时间是前770—前221年。"
+          },
+          "image": {
+            "id": "quest-486374fbd5f8e23d",
+            "text": "点开大图啦。这是商鞅方升实物照片。这张图能帮我们找到：这是春秋战国，时间是前770—前221年。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-02-reforms-unification-time-1",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "cn-ancient-03-02-reforms-unification-time-2",
+            "label": "中国古代史 · 春秋战国 · 前770—前221年",
+            "correct": true,
+            "audio": {
+              "id": "quest-e3a8eb496edbf0f1",
+              "text": "中国古代史 · 春秋战国 · 前770—前221年"
+            }
+          },
+          {
+            "id": "cn-ancient-03-02-reforms-unification-time-3",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "先拿量杯比一比",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先拿商鞅方升量一量，看各处是否用同一标准。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "先拿量杯比一比",
+          "screenText": "先拿商鞅方升量一量，看各处是否用同一标准。",
+          "narration": "先拿商鞅方升量一量，看各处是否用同一标准。",
+          "displayText": "先拿商鞅方升量一量，看各处是否用同一标准。"
+        },
+        "assetId": "saws-shangyang-measure",
+        "image": "/content/step-images/saws-shangyang-measure.jpg",
+        "imageAlt": "商鞅方升实物照片",
+        "imageCaption": "上海博物馆东馆展出的商鞅方升；器侧可见战国铭文。",
+        "imageBoundary": "第一组铭文为秦孝公十八年，第二组为公元前221年统一后加刻；儿童页面不得把两组铭文混成同一年代。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-fe22183385c990c1",
+            "text": "先拿商鞅方升量一量，看各处是否用同一标准。",
+            "synthesisText": "先拿商鞅方升良衣良，看各处是否用同一标准。"
+          },
+          "image": {
+            "id": "quest-4427c0c835f38979",
+            "text": "点开大图啦。这是商鞅方升实物照片。这张图能帮我们找到：先拿商鞅方升量一量，看各处是否用同一标准。",
+            "synthesisText": "点开大图啦。这是商鞅方升实物照片。这张图能帮我们找到：先拿商鞅方升良衣良，看各处是否用同一标准。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-02-reforms-unification-beginning-1",
+            "label": "商鞅方升，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-59eeea7dda954306",
+              "text": "商鞅方升，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-ancient-03-02-reforms-unification-beginning-2",
+            "label": "商鞅、秦孝公，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-85e0fc70260c51c5",
+              "text": "商鞅、秦孝公，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-ancient-03-02-reforms-unification-beginning-3",
+            "label": "战国秦国，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-c211b5ce2cec547e",
+              "text": "战国秦国，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "新规则怎样执行",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看新规则怎样让办事和奖惩更统一。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "新规则怎样执行",
+          "screenText": "接着看新规则怎样让办事和奖惩更统一。",
+          "narration": "接着看新规则怎样让办事和奖惩更统一。",
+          "displayText": "接着看新规则怎样让办事和奖惩更统一。"
+        },
+        "assetId": "saws-shangyang-measure",
+        "image": "/content/step-images/saws-shangyang-measure.jpg",
+        "imageAlt": "商鞅方升实物照片",
+        "imageCaption": "上海博物馆东馆展出的商鞅方升；器侧可见战国铭文。",
+        "imageBoundary": "第一组铭文为秦孝公十八年，第二组为公元前221年统一后加刻；儿童页面不得把两组铭文混成同一年代。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-da210df678b7f6f9",
+            "text": "接着看新规则怎样让办事和奖惩更统一。"
+          },
+          "image": {
+            "id": "quest-7d8c0bcd49e00bdf",
+            "text": "点开大图啦。这是商鞅方升实物照片。这张图能帮我们找到：接着看新规则怎样让办事和奖惩更统一。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-02-reforms-unification-journey-1",
+            "label": "战国秦国与今天的陕西，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-bfc53894086d615e",
+              "text": "战国秦国与今天的陕西，只说了地点"
+            }
+          },
+          {
+            "id": "cn-ancient-03-02-reforms-unification-journey-2",
+            "label": "商鞅、秦孝公和执行新规则的，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-2175e2ba5b47ab1b",
+              "text": "商鞅、秦孝公和执行新规则的，只认出人物"
+            }
+          },
+          {
+            "id": "cn-ancient-03-02-reforms-unification-journey-3",
+            "label": "接着看新规则怎样让办事和奖惩更统一。",
+            "correct": true,
+            "audio": {
+              "id": "quest-da210df678b7f6f9",
+              "text": "接着看新规则怎样让办事和奖惩更统一。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "小量杯背后的变化",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后发现量杯虽小，背后是秦国在改规则。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "小量杯背后的变化",
+          "screenText": "最后发现量杯虽小，背后是秦国在改规则。",
+          "narration": "最后发现量杯虽小，背后是秦国在改规则。",
+          "displayText": "最后发现量杯虽小，背后是秦国在改规则。"
+        },
+        "assetId": "saws-shangyang-measure",
+        "image": "/content/step-images/saws-shangyang-measure.jpg",
+        "imageAlt": "商鞅方升实物照片",
+        "imageCaption": "上海博物馆东馆展出的商鞅方升；器侧可见战国铭文。",
+        "imageBoundary": "第一组铭文为秦孝公十八年，第二组为公元前221年统一后加刻；儿童页面不得把两组铭文混成同一年代。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-8fe33f5ff8b44d61",
+            "text": "最后发现量杯虽小，背后是秦国在改规则。"
+          },
+          "image": {
+            "id": "quest-c6f8921c7433c930",
+            "text": "点开大图啦。这是商鞅方升实物照片。这张图能帮我们找到：最后发现量杯虽小，背后是秦国在改规则。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-02-reforms-unification-change-1",
+            "label": "商鞅方升、战国秦国与，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-038df8fe13e2050b",
+              "text": "商鞅方升、战国秦国与，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-ancient-03-02-reforms-unification-change-2",
+            "label": "最后发现量杯虽小，背后是秦国在改规则。",
+            "correct": true,
+            "audio": {
+              "id": "quest-8fe33f5ff8b44d61",
+              "text": "最后发现量杯虽小，背后是秦国在改规则。"
+            }
+          },
+          {
+            "id": "cn-ancient-03-02-reforms-unification-change-3",
+            "label": "看新规则怎样让办事和奖惩，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-03947e36c532ad04",
+              "text": "看新规则怎样让办事和奖惩，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "统一量器只是一个窗口；新法律、奖惩和基层组织一起改变了秦国。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "统一量器只是一个窗口；新法律、奖惩和基层组织一起改变了秦国。",
+          "narration": "统一量器只是一个窗口；新法律、奖惩和基层组织一起改变了秦国。",
+          "displayText": "统一量器只是一个窗口；新法律、奖惩和基层组织一起改变了秦国。"
+        },
+        "assetId": "saws-shangyang-measure",
+        "image": "/content/step-images/saws-shangyang-measure.jpg",
+        "imageAlt": "商鞅方升实物照片",
+        "imageCaption": "上海博物馆东馆展出的商鞅方升；器侧可见战国铭文。",
+        "imageBoundary": "第一组铭文为秦孝公十八年，第二组为公元前221年统一后加刻；儿童页面不得把两组铭文混成同一年代。未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-9d37825a39dadc3f",
+            "text": "统一量器只是一个窗口；新法律、奖惩和基层组织一起改变了秦国。"
+          },
+          "image": {
+            "id": "quest-1c7204d740279389",
+            "text": "点开大图啦。这是商鞅方升实物照片。这张图能帮我们找到：统一量器只是一个窗口；新法律、奖惩和基层组织一起改变了秦国。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-03-02-reforms-unification-takeaway-1",
+            "label": "统一量器只是一个窗口；新法律、奖惩和基层组织一起改变了秦国。",
+            "correct": true,
+            "audio": {
+              "id": "quest-9d37825a39dadc3f",
+              "text": "统一量器只是一个窗口；新法律、奖惩和基层组织一起改变了秦国。"
+            }
+          },
+          {
+            "id": "cn-ancient-03-02-reforms-unification-takeaway-2",
+            "label": "拿商鞅方升量一量，看各处是否用同一标准。、商鞅，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-219779db56dda22a",
+              "text": "拿商鞅方升量一量，看各处是否用同一标准。、商鞅，只说了原因",
+              "synthesisText": "拿商鞅方升良衣良，看各处是否用同一标准。、商鞅，只说了原因"
+            }
+          },
+          {
+            "id": "cn-ancient-03-02-reforms-unification-takeaway-3",
+            "label": "发现量杯虽小，背后是秦国在改规则。、一只量杯怎样帮，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-f696c59a414ba92a",
+              "text": "发现量杯虽小，背后是秦国在改规则。、一只量杯怎样帮，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "改革压力图",
+        "items": [
+          "将“生产变化、城市商业、战争压力、旧秩序松动”连到“各国改革”，允许多条关系，不设唯一单因答案。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "方升上的两次刻字",
+        "items": [
+          "把“公元前 344 年制定标准”和“公元前 221 年统一后加刻诏书”放到正确时间位置，避免年代混淆。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "谁得到了什么",
+        "items": [
+          "把改革影响分成“国家组织能力”“交换共同标准”“百姓负担”“战争伤害”四栏，完成后比较不同观察角度。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "西周以来的政治秩序逐渐瓦解后，春秋诸侯争霸，战国兼并战争更加激烈。生产和社会关系变化、战争压力以及争夺人口和土地，促使多个诸侯国进行改革。秦国商鞅变法是其中影响深远的一例。商鞅方升和列国货币让我们看到标准与制度的实际作用，但改革既增强国家组织能力，也加强了对人口、赋税和军事的控制。"
@@ -308,20 +903,26 @@
       "title": "商鞅方升实物照片",
       "localPath": "reference-assets/spring-autumn-warring-states/shangyang-measure.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:商鞅方升258.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "上海博物馆东馆展出的商鞅方升；器侧可见战国铭文。",
-      "boundary": "第一组铭文为秦孝公十八年，第二组为公元前221年统一后加刻；儿童页面不得把两组铭文混成同一年代。未修改原图。"
+      "boundary": "第一组铭文为秦孝公十八年，第二组为公元前221年统一后加刻；儿童页面不得把两组铭文混成同一年代。未修改原图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "saws-han-wei-zhao-coins",
       "title": "战国韩魏赵铸币展览照片",
       "localPath": "reference-assets/spring-autumn-warring-states/warring-states-coins.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Cast_Coins_of_Han,_Wei,_and_Zhao,_Warring_States.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "上海博物馆展出的战国韩、魏、赵方足布币和相关展签。",
-      "boundary": "照片只证明展签所列韩、魏、赵铸币类型；正文关于列国货币和度量差异以中国国家博物馆总体资料交叉核验。未修改原图。"
+      "boundary": "照片只证明展签所列韩、魏、赵铸币类型；正文关于列国货币和度量差异以中国国家博物馆总体资料交叉核验。未修改原图。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-03-02-reforms-unification.jpg",

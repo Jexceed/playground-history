@@ -1,0 +1,102 @@
+{
+  "version": "0.64.0",
+  "checkedAt": "2026-09-13T01:52:10.530880+00:00",
+  "scope": {
+    "homepage": "restored original river artwork and layout",
+    "deeplyChangedChapters": [
+      "cn-ancient-04-01-qin-unification"
+    ],
+    "otherChapterScriptsChanged": 0,
+    "visibleChapters": 34,
+    "hiddenChaptersPreserved": 69
+  },
+  "checks": {
+    "npmTest": {
+      "passed": 18,
+      "failed": 0
+    },
+    "assetValidation": "pass",
+    "lint": "pass",
+    "appTypeCheck": "pass",
+    "gitDiffCheck": "pass",
+    "browserViewports": [
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "steps": 5,
+        "wrongRetries": 5,
+        "touchDrag": true,
+        "familyReplay": true
+      },
+      {
+        "viewport": {
+          "width": 360,
+          "height": 740
+        },
+        "steps": 5,
+        "wrongRetries": 5,
+        "touchDrag": true,
+        "familyReplay": true
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 600
+        },
+        "steps": 5,
+        "wrongRetries": 5,
+        "touchDrag": true,
+        "familyReplay": true
+      },
+      {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "steps": 5,
+        "wrongRetries": 5,
+        "touchDrag": true,
+        "familyReplay": true
+      },
+      {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "steps": 5,
+        "wrongRetries": 5,
+        "touchDrag": true,
+        "familyReplay": true
+      }
+    ],
+    "browserErrors": [],
+    "outOfViewportControls": [],
+    "actualTouchDrag": true,
+    "wrongAlignmentFeedback": "corrected; narration rebuilt and source/voice mapping checked",
+    "artifactViewer": "actual Qin weight photo visible on cover and in modal",
+    "familyPractice": "remains movable after matching"
+  },
+  "art": {
+    "provider": "built-in imagegen",
+    "source": "reference-assets/qin-han/qin-workshop-story-v1.png",
+    "runtime": "public/content/step-images/qin-workshop-story-v1.jpg",
+    "prompt": "docs/qa/2026-09-13-qin/workshop-art-prompt.txt",
+    "boundary": "modern fictional story illustration, not a historical reconstruction"
+  },
+  "audio": {
+    "libraryLocalLines": 3002,
+    "allFormalEditorialAudioGenerated": false
+  },
+  "status": "ready for user review, not child validated",
+  "sha256": {
+    "app/page.tsx": "bad3a87b7a2bd9e97450cabc0c4ae63d2ea582d34483970480ad89deccb3323c",
+    "app/ObjectWorkbench.tsx": "a0722fcb400b9f08a1a73d30091da10e9ee2286205f3127ab19eea59d68ff275",
+    "app/workbench.css": "6dc6326c889155aa15ff1c4b78df36d0fb14c7c6a95d93c1274f81f0c9a656e4",
+    "app/workbench-model.ts": "1e3ea898330cc60d9bc27a2fbc2f525f249115430baf91a4e082e267d79d27ce",
+    "content/focused-quests.json": "a13a911554fffd1da595eac17f8a37c0d962fd5e584d7ca6f4791d96a0e13cca",
+    "scripts/lib/focused-gameplay.mjs": "bdca95bc7334b5ba99368aeb70661ca9545a9f6f0d4c836113a67cac518f0ce0",
+    "public/content/preview-manifest.json": "9e08df66c2b9e967f99ae37eab510a3913f23a1767e170853955d1327232033c"
+  }
+}

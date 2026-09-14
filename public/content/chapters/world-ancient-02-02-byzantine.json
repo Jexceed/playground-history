@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-ancient-02-02-byzantine",
   "trackId": "world-ancient",
   "trackLabel": "世界古代史",
@@ -13,7 +13,638 @@
   "title": "拜占庭怎样延续罗马并连接欧亚",
   "coreQuestion": "《查士丁尼法典》、都城和商路说明了什么？",
   "throughline": "先确认居民自称罗马人与东部罗马延续，再以君士坦丁堡位置、查士丁尼多部法律汇编、圣索菲亚多层建筑、手稿与中国境内东罗马金币认识帝国的权力、信仰、知识和欧亚网络。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-ancient-02-02-byzantine",
+    "childTitle": "一座大教堂为什么修了很多次",
+    "prompt": "都城、法律和商路，怎样让东部罗马继续一千多年？",
+    "takeaway": "君士坦丁堡的位置、法律和贸易帮助政权延续，城市也多次受创再修复。",
+    "object": "圣索菲亚建筑、金币与法律手稿",
+    "people": [
+      "查士丁尼、法学家、建筑师、工匠与城市居民"
+    ],
+    "place": "君士坦丁堡，也就是今天的伊斯坦布尔",
+    "culture": "镶嵌画与法律汇编",
+    "care": "建筑经历多重用途和修缮；法律汇编也保留古代身份不平等。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "一座大教堂为什么修了很多次"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "大教堂多次修复",
+      "text": "先看圣索菲亚大教堂为什么一次次修复。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "港口金币和法律",
+      "text": "接着找君士坦丁堡的港口、金币和法律手稿。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "城市延续很久",
+      "text": "最后位置、贸易和法律帮助东部罗马延续很久。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "君士坦丁堡的位置、法律和贸易帮助政权延续，城市也多次受创再修复。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "政权",
+      "icon": "🏛️",
+      "plain": "谁在用什么机构和规则管理一个地方。",
+      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
+      "priority": 2
+    },
+    {
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "翻译",
+      "icon": "🗣️",
+      "plain": "把一种语言表达的意思换成另一种语言。",
+      "example": "翻译需要懂语言和知识，也常由团队反复校订。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "税收",
+      "icon": "🧾",
+      "plain": "公共机构按规则向居民或交易收取的钱和物。",
+      "example": "税收可用于公共事务，也要看负担是否合理。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "自由",
+      "icon": "🕊️",
+      "plain": "在不伤害别人并遵守共同规则时作出选择。",
+      "example": "历史文件写下自由，还要看哪些人当时没有得到。",
+      "priority": 2
+    },
+    {
+      "term": "宗教",
+      "icon": "🕯️",
+      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
+      "example": "同一种宗教内部也有不同地区、时代和人群。",
+      "priority": 2
+    },
+    {
+      "term": "帝国",
+      "icon": "🗺️",
+      "plain": "由中心统治许多地区和人群的大政权。",
+      "example": "帝国地图会变化，不能把不同时期边界画成一张。",
+      "priority": 3
+    },
+    {
+      "term": "皇帝",
+      "icon": "👑",
+      "plain": "古代君主国家最高统治者的一种称号。",
+      "example": "皇帝会作决定，也依靠官员、军队、工匠和百姓。",
+      "priority": 3
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "查士丁尼",
+      "reading": "Chāshìdīngní",
+      "kind": "person",
+      "chapterIds": [
+        "world-ancient-02-02-byzantine"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "君士坦丁堡",
+      "reading": "Jūnshìtǎndīngbǎo",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-02-byzantine"
+      ],
+      "note": "“坦”读tǎn，“堡”读bǎo。"
+    },
+    {
+      "text": "伊斯坦布尔",
+      "reading": "Yīsītǎnbù’ěr",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-02-byzantine"
+      ],
+      "note": "按中文译名逐音节清楚读出。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "一座大教堂为什么修了很多次",
+      "question": "都城、法律和商路，怎样让东部罗马继续一千多年？"
+    },
+    "coverAudio": {
+      "id": "quest-a968806e521d55d4",
+      "text": "今天从一件东西出发：一座大教堂为什么修了很多次。我们要去君士坦丁堡，也就是今天的伊斯坦布尔，看看圣索菲亚建筑、金币与法律手稿怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-e00071a9a9132944",
+      "text": "五条线索都找到了，“一座大教堂为什么修了很多次”的答案是：君士坦丁堡的位置、法律和贸易帮助政权延续，城市也多次受创再修复。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 8,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是中古世界，时间是约5—15世纪。",
+          "narration": "这是中古世界，时间是约5—15世纪。",
+          "displayText": "这是中古世界，时间是约5—15世纪。"
+        },
+        "assetId": "justinian-ravenna-mosaic-c547-public-domain",
+        "image": "/content/step-images/justinian-ravenna-mosaic-c547-public-domain.jpg",
+        "imageAlt": "约547年拉文纳查士丁尼与随从镶嵌画",
+        "imageCaption": "约547年意大利拉文纳圣维塔莱教堂镶嵌画，表现查士丁尼、马克西米安主教、官员、军人与教士的仪式队列。",
+        "imageBoundary": "Commons文件705×497像素，未放大、未裁切；原作匿名且处于公共领域，文件页按二维公共领域作品忠实复现处理。画面是政治宗教艺术，不是君士坦丁堡宫廷照片；查士丁尼本人没有因本图而可被证明站在拉文纳现场，不能编造对白、动作先后或人物性格。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-1fb2283ac891f89c",
+            "text": "这是中古世界，时间是约5—15世纪。"
+          },
+          "image": {
+            "id": "quest-691d51012bccf98f",
+            "text": "点开大图啦。这是约547年拉文纳查士丁尼与随从镶嵌画。这张图能帮我们找到：这是中古世界，时间是约5—15世纪。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-02-byzantine-time-1",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "world-ancient-02-02-byzantine-time-2",
+            "label": "世界古代史 · 中古世界 · 约5—15世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-138b018948e0ad9a",
+              "text": "世界古代史 · 中古世界 · 约5—15世纪"
+            }
+          },
+          {
+            "id": "world-ancient-02-02-byzantine-time-3",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "大教堂多次修复",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看圣索菲亚大教堂为什么一次次修复。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "大教堂多次修复",
+          "screenText": "先看圣索菲亚大教堂为什么一次次修复。",
+          "narration": "先看圣索菲亚大教堂为什么一次次修复。",
+          "displayText": "先看圣索菲亚大教堂为什么一次次修复。"
+        },
+        "assetId": "hagia-sophia-exterior-2023-photo",
+        "image": "/content/step-images/hagia-sophia-exterior-2023-photo.jpg",
+        "imageAlt": "圣索菲亚大教堂2023年外观实拍",
+        "imageCaption": "2023年拍摄的伊斯坦布尔圣索菲亚大教堂外观；画面同时包含六世纪主体、奥斯曼时期及以后增建和现代维护设施。",
+        "imageBoundary": "Commons原图4032×1908像素，等比缩至2200×1041像素，未裁切；拍摄于2023-04-14。宣礼塔、附属建筑、土耳其国旗、围挡和维护设施不是537年原貌，界面必须采用分层标注。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-1cdff9eeee0937f6",
+            "text": "先看圣索菲亚大教堂为什么一次次修复。"
+          },
+          "image": {
+            "id": "quest-287acbd66d813bb1",
+            "text": "点开大图啦。这是圣索菲亚大教堂2023年外观实拍。这张图能帮我们找到：先看圣索菲亚大教堂为什么一次次修复。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-02-byzantine-beginning-1",
+            "label": "圣索菲亚建筑、金币与法律手稿，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-2309ea3da9978223",
+              "text": "圣索菲亚建筑、金币与法律手稿，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-ancient-02-02-byzantine-beginning-2",
+            "label": "查士丁尼、法学家、建筑师、工匠与，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-bae99d4fbfebfd09",
+              "text": "查士丁尼、法学家、建筑师、工匠与，只是故事人物"
+            }
+          },
+          {
+            "id": "world-ancient-02-02-byzantine-beginning-3",
+            "label": "君士坦丁堡，也就是今天的伊斯，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-5f9d67f205438de0",
+              "text": "君士坦丁堡，也就是今天的伊斯，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "港口金币和法律",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着找君士坦丁堡的港口、金币和法律手稿。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "港口金币和法律",
+          "screenText": "接着找君士坦丁堡的港口、金币和法律手稿。",
+          "narration": "接着找君士坦丁堡的港口、金币和法律手稿。",
+          "displayText": "接着找君士坦丁堡的港口、金币和法律手稿。"
+        },
+        "assetId": "digesta-justiniani-1495-public-domain-page",
+        "image": "/content/step-images/digesta-justiniani-1495-public-domain-page.jpg",
+        "imageAlt": "1495年《学说汇纂》与标准评注印刷页",
+        "imageCaption": "1495年印刷的《学说汇纂》及阿库尔修斯标准评注页，显示查士丁尼法律文本在后世欧洲继续被编排、印刷和学习。",
+        "imageBoundary": "Commons原图2000×2997像素，等比缩至1468×2200像素，未裁切。底部含杜塞尔多夫大学与州立图书馆数字水印，保留以说明数字来源。它是1495年后世印刷与评注版本，不是529—534年原稿、皇帝亲笔或一整套《民法大全》的封面。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-bf4debb0138f75b9",
+            "text": "接着找君士坦丁堡的港口、金币和法律手稿。"
+          },
+          "image": {
+            "id": "quest-a43294bf136006dc",
+            "text": "点开大图啦。这是1495年《学说汇纂》与标准评注印刷页。这张图能帮我们找到：接着找君士坦丁堡的港口、金币和法律手稿。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-02-byzantine-journey-1",
+            "label": "君士坦丁堡，也就是今天的伊，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-19b3d7e20577f0d6",
+              "text": "君士坦丁堡，也就是今天的伊，只说了地点"
+            }
+          },
+          {
+            "id": "world-ancient-02-02-byzantine-journey-2",
+            "label": "查士丁尼、法学家、建筑师、工匠，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-c74f0dce8667f690",
+              "text": "查士丁尼、法学家、建筑师、工匠，只认出人物"
+            }
+          },
+          {
+            "id": "world-ancient-02-02-byzantine-journey-3",
+            "label": "接着找君士坦丁堡的港口、金币和法律手稿。",
+            "correct": true,
+            "audio": {
+              "id": "quest-bf4debb0138f75b9",
+              "text": "接着找君士坦丁堡的港口、金币和法律手稿。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "城市延续很久",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后位置、贸易和法律帮助东部罗马延续很久。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "城市延续很久",
+          "screenText": "最后位置、贸易和法律帮助东部罗马延续很久。",
+          "narration": "最后位置、贸易和法律帮助东部罗马延续很久。",
+          "displayText": "最后位置、贸易和法律帮助东部罗马延续很久。"
+        },
+        "assetId": "justin-ii-gold-tremissis-met-open-access",
+        "image": "/content/step-images/justin-ii-gold-tremissis-met-open-access.jpg",
+        "imageAlt": "565—578年查斯丁二世金币正面",
+        "imageCaption": "565—578年的查斯丁二世金质三分之一索里达金币正面，直径约1.6厘米，现藏大都会艺术博物馆。",
+        "imageBoundary": "The Met开放原图1320×1337像素，未裁切、未放大；对象编号47.151.1。本图只作同一时期东罗马金币形制参照，并非中国出土件，也不是中国国家博物馆藏页描述的那一枚；不能用两馆材料拼成同一件文物或虚构流传路线。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-4aec7a253fbae4be",
+            "text": "最后位置、贸易和法律帮助东部罗马延续很久。"
+          },
+          "image": {
+            "id": "quest-56afed974f881573",
+            "text": "点开大图啦。这是565—578年查斯丁二世金币正面。这张图能帮我们找到：最后位置、贸易和法律帮助东部罗马延续很久。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-02-byzantine-change-1",
+            "label": "圣索菲亚建筑、金币与法律，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-7ba3ee4c5838448b",
+              "text": "圣索菲亚建筑、金币与法律，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-ancient-02-02-byzantine-change-2",
+            "label": "最后位置、贸易和法律帮助东部罗马延续很久。",
+            "correct": true,
+            "audio": {
+              "id": "quest-4aec7a253fbae4be",
+              "text": "最后位置、贸易和法律帮助东部罗马延续很久。"
+            }
+          },
+          {
+            "id": "world-ancient-02-02-byzantine-change-3",
+            "label": "找君士坦丁堡的港口、金币和法，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-a733997f5605667e",
+              "text": "找君士坦丁堡的港口、金币和法，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "君士坦丁堡的位置、法律和贸易帮助政权延续，城市也多次受创再修复。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 5,
+          "title": "把三条线索连成答案",
+          "screenText": "君士坦丁堡的位置、法律和贸易帮助政权延续，城市也多次受创再修复。",
+          "narration": "君士坦丁堡的位置、法律和贸易帮助政权延续，城市也多次受创再修复。",
+          "displayText": "君士坦丁堡的位置、法律和贸易帮助政权延续，城市也多次受创再修复。"
+        },
+        "assetId": "hagia-sophia-interior-2024-cc0-photo",
+        "image": "/content/step-images/hagia-sophia-interior-2024-cc0-photo.jpg",
+        "imageAlt": "圣索菲亚大教堂2024年内部实拍",
+        "imageCaption": "2024年拍摄的圣索菲亚大教堂内部，可同时观察穹顶、拱、拜占庭图像、伊斯兰书法圆牌、灯具和现代使用状态。",
+        "imageBoundary": "Commons原图3850×5867像素，等比缩至1443×2200像素，未裁切；摄影者以CC0释出。照片反映2020年用途变化后的内部状态，不把伊斯兰书法圆牌、现代照明、栏杆、地毯和游客搬回六世纪，也不因一张照片判断所有图像的开放状态。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-09251fce0be564a9",
+            "text": "君士坦丁堡的位置、法律和贸易帮助政权延续，城市也多次受创再修复。"
+          },
+          "image": {
+            "id": "quest-2a47f5eab47a571b",
+            "text": "点开大图啦。这是圣索菲亚大教堂2024年内部实拍。这张图能帮我们找到：君士坦丁堡的位置、法律和贸易帮助政权延续，城市也多次受创再修复。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-ancient-02-02-byzantine-takeaway-1",
+            "label": "君士坦丁堡的位置、法律和贸易帮助政权延续，城市也多次受创再修复。",
+            "correct": true,
+            "audio": {
+              "id": "quest-09251fce0be564a9",
+              "text": "君士坦丁堡的位置、法律和贸易帮助政权延续，城市也多次受创再修复。"
+            }
+          },
+          {
+            "id": "world-ancient-02-02-byzantine-takeaway-2",
+            "label": "看圣索菲亚大教堂为什么一次次修复。、圣索菲亚建筑，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-50d54399999ef014",
+              "text": "看圣索菲亚大教堂为什么一次次修复。、圣索菲亚建筑，只说了原因"
+            }
+          },
+          {
+            "id": "world-ancient-02-02-byzantine-takeaway-3",
+            "label": "位置、贸易和法律帮助东部罗马延续很久。、一座大教堂为什，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-abfd556f4e89976e",
+              "text": "位置、贸易和法律帮助东部罗马延续很久。、一座大教堂为什，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "时间线接力",
+        "items": [
+          "把330年建都、476年西部皇帝结束、529—534年法律汇编、532—537年建堂、1204年十字军占领和1453年奥斯曼攻占放回时间线。系统不让儿童把476年当拜占庭建国日，也不设置攻城、杀敌或疆域积分。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "建筑分层灯",
+        "items": [
+          "在两张现代照片上分别点亮“六世纪主体”“拜占庭后续修复与图像”“奥斯曼增建与伊斯兰元素”“现代维护和使用”。答案允许同一空间多层重叠，不要求儿童判断哪一种宗教用途“更正确”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "金币能说多远",
+        "items": [
+          "把结论放进“证据支持”“还要更多证据”两格。支持项包括中国境内确有拜占庭金币及仿制品、钱币可经网络远距离流动；不支持项包括这张大都会金币就是中国出土件、某位皇帝亲自派它到中国、两国已有现代式直达贸易。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "今天所说的“拜占庭帝国”，是现代历史学家对中世纪东部罗马帝国的称呼；生活在其中的人通常自称罗马人。君士坦丁堡坐在博斯普鲁斯海峡两岸交通的交会处，既是皇帝、教会和军队的中心，也是黑海、地中海和欧亚贸易网络中的重要城市。查士丁尼时期整理罗马法律、重建圣索菲亚大教堂，把帝国的罗马身份、基督教信仰、希腊语言文化与皇权展示连在一起。拜占庭人复制、选择并重新解释古希腊罗马文本，也通过战争、外交、贸易和翻译网络与拉丁西欧、伊斯兰世界及更远地区发生联系。它不是“独自保存全部文明”的保险箱，也不是1453年后就毫无痕迹地消失。"
@@ -555,50 +1186,65 @@
       "title": "圣索菲亚大教堂2023年外观实拍",
       "localPath": "reference-assets/world-ancient-byzantine/hagia-sophia-exterior-2023.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Exterior_of_Hagia_Sophia-.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2023年拍摄的伊斯坦布尔圣索菲亚大教堂外观；画面同时包含六世纪主体、奥斯曼时期及以后增建和现代维护设施。",
-      "boundary": "Commons原图4032×1908像素，等比缩至2200×1041像素，未裁切；拍摄于2023-04-14。宣礼塔、附属建筑、土耳其国旗、围挡和维护设施不是537年原貌，界面必须采用分层标注。"
+      "boundary": "Commons原图4032×1908像素，等比缩至2200×1041像素，未裁切；拍摄于2023-04-14。宣礼塔、附属建筑、土耳其国旗、围挡和维护设施不是537年原貌，界面必须采用分层标注。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "hagia-sophia-interior-2024-cc0-photo",
       "title": "圣索菲亚大教堂2024年内部实拍",
       "localPath": "reference-assets/world-ancient-byzantine/hagia-sophia-interior-2024.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia,_Interior.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-public-domain",
       "caption": "2024年拍摄的圣索菲亚大教堂内部，可同时观察穹顶、拱、拜占庭图像、伊斯兰书法圆牌、灯具和现代使用状态。",
-      "boundary": "Commons原图3850×5867像素，等比缩至1443×2200像素，未裁切；摄影者以CC0释出。照片反映2020年用途变化后的内部状态，不把伊斯兰书法圆牌、现代照明、栏杆、地毯和游客搬回六世纪，也不因一张照片判断所有图像的开放状态。"
+      "boundary": "Commons原图3850×5867像素，等比缩至1443×2200像素，未裁切；摄影者以CC0释出。照片反映2020年用途变化后的内部状态，不把伊斯兰书法圆牌、现代照明、栏杆、地毯和游客搬回六世纪，也不因一张照片判断所有图像的开放状态。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "justinian-ravenna-mosaic-c547-public-domain",
       "title": "约547年拉文纳查士丁尼与随从镶嵌画",
       "localPath": "reference-assets/world-ancient-byzantine/justinian-ravenna-mosaic-c547.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Justinian_mosaik_ravenna.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / faithful reproduction of public-domain two-dimensional work",
       "clearance": "cleared-public-domain",
       "caption": "约547年意大利拉文纳圣维塔莱教堂镶嵌画，表现查士丁尼、马克西米安主教、官员、军人与教士的仪式队列。",
-      "boundary": "Commons文件705×497像素，未放大、未裁切；原作匿名且处于公共领域，文件页按二维公共领域作品忠实复现处理。画面是政治宗教艺术，不是君士坦丁堡宫廷照片；查士丁尼本人没有因本图而可被证明站在拉文纳现场，不能编造对白、动作先后或人物性格。"
+      "boundary": "Commons文件705×497像素，未放大、未裁切；原作匿名且处于公共领域，文件页按二维公共领域作品忠实复现处理。画面是政治宗教艺术，不是君士坦丁堡宫廷照片；查士丁尼本人没有因本图而可被证明站在拉文纳现场，不能编造对白、动作先后或人物性格。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "digesta-justiniani-1495-public-domain-page",
       "title": "1495年《学说汇纂》与标准评注印刷页",
       "localPath": "reference-assets/world-ancient-byzantine/digesta-justiniani-1495.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Digesta_Justiniani_Infortiatum_1997304.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1495年印刷的《学说汇纂》及阿库尔修斯标准评注页，显示查士丁尼法律文本在后世欧洲继续被编排、印刷和学习。",
-      "boundary": "Commons原图2000×2997像素，等比缩至1468×2200像素，未裁切。底部含杜塞尔多夫大学与州立图书馆数字水印，保留以说明数字来源。它是1495年后世印刷与评注版本，不是529—534年原稿、皇帝亲笔或一整套《民法大全》的封面。"
+      "boundary": "Commons原图2000×2997像素，等比缩至1468×2200像素，未裁切。底部含杜塞尔多夫大学与州立图书馆数字水印，保留以说明数字来源。它是1495年后世印刷与评注版本，不是529—534年原稿、皇帝亲笔或一整套《民法大全》的封面。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "justin-ii-gold-tremissis-met-open-access",
       "title": "565—578年查斯丁二世金币正面",
       "localPath": "reference-assets/world-ancient-byzantine/justin-ii-gold-tremissis-565-578.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/468247",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain",
       "caption": "565—578年的查斯丁二世金质三分之一索里达金币正面，直径约1.6厘米，现藏大都会艺术博物馆。",
-      "boundary": "The Met开放原图1320×1337像素，未裁切、未放大；对象编号47.151.1。本图只作同一时期东罗马金币形制参照，并非中国出土件，也不是中国国家博物馆藏页描述的那一枚；不能用两馆材料拼成同一件文物或虚构流传路线。"
+      "boundary": "The Met开放原图1320×1337像素，未裁切、未放大；对象编号47.151.1。本图只作同一时期东罗马金币形制参照，并非中国出土件，也不是中国国家博物馆藏页描述的那一枚；不能用两馆材料拼成同一件文物或虚构流传路线。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-ancient-02-02-byzantine.jpg",

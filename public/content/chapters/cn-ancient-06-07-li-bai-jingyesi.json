@@ -1,0 +1,1156 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.13.0",
+  "id": "cn-ancient-06-07-li-bai-jingyesi",
+  "trackId": "china-ancient",
+  "trackLabel": "中国古代史",
+  "period": {
+    "id": "tang",
+    "label": "唐朝",
+    "years": "618—907年"
+  },
+  "order": 38,
+  "title": "李白怎样用月光写思念",
+  "coreQuestion": "《静夜思》怎样用短短四句把眼前月光和远方故乡连起来？",
+  "throughline": "先把李白放回唐代，再沿月光、疑霜、抬头、低头四个动作读诗；用后世画像说明人物记忆，同时保留写作地点和字词解释的讨论边界。",
+  "childEntry": {
+    "id": "cn-ancient-06-07-li-bai-jingyesi",
+    "childTitle": "跟李白抬头看月亮",
+    "prompt": "抬头看见月亮以后，诗里的人又想到了哪里？",
+    "takeaway": "《静夜思》用月光和抬头、低头的动作表达思乡；诗意感受不等于当晚日记。",
+    "object": "《静夜思》诗句与后世李白画像",
+    "people": [
+      "李白",
+      "《静夜思》"
+    ],
+    "place": "唐代中国与诗人思念的故乡",
+    "culture": "唐代古诗《静夜思》",
+    "care": "月夜人物是诗意学习图，不复原李白当晚场景；后世李白画像不能冒充当时肖像。",
+    "preferredAssetId": "li-bai-strolling-song-painting",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-06-07-li-bai-jingyesi",
+    "featured": {
+      "type": "诗歌",
+      "icon": "🌙",
+      "title": "李白与《静夜思》",
+      "childBridge": "抬头看见月亮以后，诗里的人又想到了哪里？",
+      "evidenceBoundary": "月夜人物是诗意学习图，不复原李白当晚场景；后世李白画像不能冒充当时肖像。"
+    },
+    "companions": [
+      {
+        "type": "人物",
+        "label": "李白",
+        "note": "从四个动作认识诗人，不编造当夜完整生活。"
+      },
+      {
+        "type": "课文",
+        "label": "《望庐山瀑布》",
+        "note": "同一位诗人还会把瀑布想成银河，可比较想象方法。"
+      },
+      {
+        "type": "成语故事",
+        "label": "铁杵成针",
+        "note": "这是后世流传的励志故事，不当作可靠生平证据。"
+      },
+      {
+        "type": "地点",
+        "label": "故乡与远方",
+        "note": "诗把眼前月光和心里的故乡连起来。"
+      }
+    ],
+    "sourceIds": [
+      "PEP-PRIMARY-CHINESE-G1B-2022",
+      "PEP-PRIMARY-CHINESE-G2A-2017",
+      "PEP-CHINESE-CLASSICS-RESOURCE",
+      "CCDI-LIBAI-JINGYESI"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "李白的时间",
+      "text": "李白生活在唐代。后来的人还画过李白像，但那不是他当时的照片。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "月光像什么",
+      "text": "“床前明月光，疑是地上霜。”诗中把明亮月光看得像地上的霜。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "先做哪个动作",
+      "text": "“举头望明月”，先抬头望向月亮。你也可以抬一点头，跟着诗做。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "低头以后想到哪里",
+      "text": "“低头思故乡”，低下头，想到自己的家乡。前后动作把心情接起来。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "动作接成一首诗",
+      "text": "月光引出思念。我们可以用动作理解诗，不必猜李白那一夜的每个细节。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "古诗",
+      "icon": "🌙",
+      "plain": "古代诗人用有节奏的短句写景物、动作和感受。",
+      "example": "《静夜思》用月光和抬头、低头写思念。",
+      "priority": 1
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "李白",
+      "reading": "Lǐ Bái",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-07-li-bai-jingyesi"
+      ],
+      "note": "“白”读bái。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "跟李白抬头看月亮",
+      "question": "抬头看见月亮以后，诗里的人又想到了哪里？"
+    },
+    "cta": "去做诗里的动作",
+    "anchor": "李白与《静夜思》",
+    "boundary": "月夜人物是诗意学习图，不复原李白当晚场景；后世李白画像不能冒充当时肖像。",
+    "evidence": [
+      {
+        "id": "li-bai-strolling-song-painting",
+        "title": "南宋梁楷《李白行吟图》",
+        "localPath": "reference-assets/sui-tang-five-dynasties/li-bai-strolling.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:LiBai.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "Public Domain Mark 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "南宋画家梁楷在李白生活数百年后创作的《李白行吟图》。",
+        "boundary": "这是一幅后世艺术形象，不是李白肖像写生，也不能证明《静夜思》的写作地点、姿势或衣着；只用来连接诗人姓名和后世纪念。原图395×654像素。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/li-bai-strolling-song-painting.jpg"
+      }
+    ],
+    "coverAsset": {
+      "id": "li-bai-strolling-song-painting",
+      "title": "南宋梁楷《李白行吟图》",
+      "localPath": "reference-assets/sui-tang-five-dynasties/li-bai-strolling.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:LiBai.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "南宋画家梁楷在李白生活数百年后创作的《李白行吟图》。",
+      "boundary": "这是一幅后世艺术形象，不是李白肖像写生，也不能证明《静夜思》的写作地点、姿势或衣着；只用来连接诗人姓名和后世纪念。原图395×654像素。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/li-bai-strolling-song-painting.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/li-bai-strolling-song-painting.jpg",
+    "coverImageAlt": "南宋梁楷《李白行吟图》",
+    "coverImageKind": "历史材料",
+    "coverAudio": {
+      "id": "quest-6a5d912946b0d704",
+      "text": "跟李白抬头看月亮。抬头看见月亮以后，诗里的人又想到了哪里？准备好就点“去做诗里的动作”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-5693d9147e21bca3",
+      "text": "《静夜思》用月光和抬头、低头的动作表达思乡；诗意感受不等于当晚日记。"
+    },
+    "finish": {
+      "title": "把两句诗做给家人看",
+      "actions": [
+        "先抬头，指一指想象的月亮。",
+        "再低头，把手放胸前；家人来猜你想到哪里。"
+      ],
+      "parent": "接受“家”“家乡”或指家的动作，不考背诵。问“月光真变成霜了吗？”帮助分清诗的比喻感受。",
+      "sceneStepIndexes": [
+        2,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-0cdd4a3a20ba40fa",
+          "text": "先抬头，指一指想象的月亮。"
+        },
+        {
+          "id": "quest-95aceba383dddb1d",
+          "text": "再低头，把手放胸前；家人来猜你想到哪里。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-18b7806850bd861e",
+        "text": "把两句诗做给家人看。先抬头，指一指想象的月亮。再低头，把手放胸前；家人来猜你想到哪里。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "李白的时间",
+        "title": "李白的时间",
+        "prompt": "李白放在哪一站？",
+        "rightNote": "先把诗人放在唐朝，后来的画像另外说明年代。",
+        "wrongNote": "先把诗人放在唐朝，后来的画像另外说明年代。",
+        "sourceIds": [
+          "CCDI-LIBAI-JINGYESI"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "李白的时间",
+          "screenText": "李白生活在唐代。后来的人还画过李白像，但那不是他当时的照片。",
+          "displayText": "李白生活在唐代。后来的人还画过李白像，但那不是他当时的照片。",
+          "narration": "李白生活在唐代。后来的人还画过李白像，但那不是他当时的照片。"
+        },
+        "assetId": "study-5ccb0f1e3b136b62",
+        "image": "/content/study-scenes/study-5ccb0f1e3b136b62.svg",
+        "studyImage": "/content/study-scenes/study-5ccb0f1e3b136b62.svg",
+        "studyImageAlt": "唐 李白，后来画像",
+        "imageAlt": "唐 李白，后来画像",
+        "imageCaption": "学习示意 · 唐 李白，后来画像",
+        "imageBoundary": "自制学习示意。月夜人物是诗意学习图，不复原李白当晚场景；后世李白画像不能冒充当时肖像。",
+        "audio": {
+          "transition": {
+            "id": "quest-e2b582bb087ae4b7",
+            "text": "李白的时间。"
+          },
+          "intro": {
+            "id": "quest-f1c63803e1640245",
+            "text": "李白生活在唐代。后来的人还画过李白像，但那不是他当时的照片。"
+          },
+          "question": {
+            "id": "quest-502d47ca45af3fe7",
+            "text": "李白放在哪一站？"
+          },
+          "image": {
+            "id": "quest-76ce7bf4d0664791",
+            "text": "这是学习示意图：唐 李白，后来画像。李白放在哪一站？"
+          },
+          "right": {
+            "id": "quest-b6e406d60c28995d",
+            "text": "找到了。先把诗人放在唐朝，后来的画像另外说明年代。"
+          },
+          "wrong": {
+            "id": "quest-d3e7867f70fa3864",
+            "text": "再比较一下。先把诗人放在唐朝，后来的画像另外说明年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-07-li-bai-jingyesi-time-1",
+            "label": "唐 · 618—907年",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-b2efc9b0ded6e1de.svg",
+            "imageAlt": "唐 618—907年",
+            "audio": {
+              "id": "quest-662ae669e35779be",
+              "text": "唐 · 618—907年"
+            }
+          },
+          {
+            "id": "cn-ancient-06-07-li-bai-jingyesi-time-2",
+            "label": "宋 · 960年以后",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-9b03e405ac986559.svg",
+            "imageAlt": "宋 960年以后",
+            "audio": {
+              "id": "quest-c897f10eed24c923",
+              "text": "宋 · 960年以后"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "月光像什么",
+        "title": "月光像什么",
+        "prompt": "诗句把月光想成了什么？",
+        "rightNote": "“疑是”是诗里的感受，不是说月光真的变成霜。",
+        "wrongNote": "“疑是”是诗里的感受，不是说月光真的变成霜。",
+        "sourceIds": [
+          "CCDI-LIBAI-JINGYESI"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "月光像什么",
+          "screenText": "“床前明月光，疑是地上霜。”诗中把明亮月光看得像地上的霜。",
+          "displayText": "“床前明月光，疑是地上霜。”诗中把明亮月光看得像地上的霜。",
+          "narration": "“床前明月光，疑是地上霜。”诗中把明亮月光看得像地上的霜。"
+        },
+        "assetId": "study-874d988e7372df83",
+        "image": "/content/study-scenes/study-874d988e7372df83.svg",
+        "studyImage": "/content/study-scenes/study-874d988e7372df83.svg",
+        "studyImageAlt": "月光落地，好像白霜",
+        "imageAlt": "月光落地，好像白霜",
+        "imageCaption": "学习示意 · 月光落地，好像白霜",
+        "imageBoundary": "自制学习示意。月夜人物是诗意学习图，不复原李白当晚场景；后世李白画像不能冒充当时肖像。",
+        "audio": {
+          "transition": {
+            "id": "quest-caa419ac4048ec90",
+            "text": "月光像什么。"
+          },
+          "intro": {
+            "id": "quest-401a14e3c073d58f",
+            "text": "“床前明月光，疑是地上霜。”诗中把明亮月光看得像地上的霜。"
+          },
+          "question": {
+            "id": "quest-0917dfbf1444a0a8",
+            "text": "诗句把月光想成了什么？"
+          },
+          "image": {
+            "id": "quest-247f17a536a76cd0",
+            "text": "这是学习示意图：月光落地，好像白霜。诗句把月光想成了什么？"
+          },
+          "right": {
+            "id": "quest-bfe640274ab4cb4c",
+            "text": "找到了。“疑是”是诗里的感受，不是说月光真的变成霜。"
+          },
+          "wrong": {
+            "id": "quest-c0bee6b2c775a9fe",
+            "text": "再比较一下。“疑是”是诗里的感受，不是说月光真的变成霜。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-07-li-bai-jingyesi-beginning-1",
+            "label": "像白白的霜",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-68daa825a95d1e2a.svg",
+            "imageAlt": "白白的霜",
+            "audio": {
+              "id": "quest-ff7c12d5d026cdcf",
+              "text": "像白白的霜"
+            }
+          },
+          {
+            "id": "cn-ancient-06-07-li-bai-jingyesi-beginning-2",
+            "label": "像红红的火",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-abd51f2c06aa9a93.svg",
+            "imageAlt": "红红的火",
+            "audio": {
+              "id": "quest-b11faf64f904ce04",
+              "text": "像红红的火"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "先做哪个动作",
+        "title": "先做哪个动作",
+        "prompt": "哪张动作卡对应“举头”？",
+        "rightNote": "举头就是抬头；月亮在诗里的上方。",
+        "wrongNote": "举头就是抬头；月亮在诗里的上方。",
+        "sourceIds": [
+          "CCDI-LIBAI-JINGYESI"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "先做哪个动作",
+          "screenText": "“举头望明月”，先抬头望向月亮。你也可以抬一点头，跟着诗做。",
+          "displayText": "“举头望明月”，先抬头望向月亮。你也可以抬一点头，跟着诗做。",
+          "narration": "“举头望明月”，先抬头望向月亮。你也可以抬一点头，跟着诗做。"
+        },
+        "assetId": "study-b84fda3316ab86c7",
+        "image": "/content/study-scenes/study-b84fda3316ab86c7.svg",
+        "studyImage": "/content/study-scenes/study-b84fda3316ab86c7.svg",
+        "studyImageAlt": "抬头望月",
+        "imageAlt": "抬头望月",
+        "imageCaption": "学习示意 · 抬头望月",
+        "imageBoundary": "自制学习示意。月夜人物是诗意学习图，不复原李白当晚场景；后世李白画像不能冒充当时肖像。",
+        "audio": {
+          "transition": {
+            "id": "quest-b3c9c634f49b573d",
+            "text": "先做哪个动作。"
+          },
+          "intro": {
+            "id": "quest-84f701b4bbfd8857",
+            "text": "“举头望明月”，先抬头望向月亮。你也可以抬一点头，跟着诗做。"
+          },
+          "question": {
+            "id": "quest-68583ecd686e7e86",
+            "text": "哪张动作卡对应“举头”？"
+          },
+          "image": {
+            "id": "quest-75de046cb3416362",
+            "text": "这是学习示意图：抬头望月。哪张动作卡对应“举头”？"
+          },
+          "right": {
+            "id": "quest-3dcba2593afbed3a",
+            "text": "找到了。举头就是抬头；月亮在诗里的上方。"
+          },
+          "wrong": {
+            "id": "quest-b456dea7e6ead7b2",
+            "text": "再比较一下。举头就是抬头；月亮在诗里的上方。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-07-li-bai-jingyesi-journey-1",
+            "label": "抬头向上看",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-c14be94c87fb24ac.svg",
+            "imageAlt": "抬头",
+            "audio": {
+              "id": "quest-bf84b6deedeb82f6",
+              "text": "抬头向上看"
+            }
+          },
+          {
+            "id": "cn-ancient-06-07-li-bai-jingyesi-journey-2",
+            "label": "低头向下看",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-c62b5241069b7f84.svg",
+            "imageAlt": "低头",
+            "audio": {
+              "id": "quest-decfee389ecf4144",
+              "text": "低头向下看"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "低头以后想到哪里",
+        "title": "低头以后想到哪里",
+        "prompt": "低头后，诗里想到的是哪里？",
+        "rightNote": "前一句望月，后一句思故乡，所想的地方变了。",
+        "wrongNote": "前一句望月，后一句思故乡，所想的地方变了。",
+        "sourceIds": [
+          "CCDI-LIBAI-JINGYESI"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "低头以后想到哪里",
+          "screenText": "“低头思故乡”，低下头，想到自己的家乡。前后动作把心情接起来。",
+          "displayText": "“低头思故乡”，低下头，想到自己的家乡。前后动作把心情接起来。",
+          "narration": "“低头思故乡”，低下头，想到自己的家乡。前后动作把心情接起来。"
+        },
+        "assetId": "study-282155f7ae3ee1fb",
+        "image": "/content/study-scenes/study-282155f7ae3ee1fb.svg",
+        "studyImage": "/content/study-scenes/study-282155f7ae3ee1fb.svg",
+        "studyImageAlt": "低头，想到故乡",
+        "imageAlt": "低头，想到故乡",
+        "imageCaption": "学习示意 · 低头，想到故乡",
+        "imageBoundary": "自制学习示意。月夜人物是诗意学习图，不复原李白当晚场景；后世李白画像不能冒充当时肖像。",
+        "audio": {
+          "transition": {
+            "id": "quest-617cbcc1382ef320",
+            "text": "低头以后想到哪里。"
+          },
+          "intro": {
+            "id": "quest-48e854453ca9bb44",
+            "text": "“低头思故乡”，低下头，想到自己的家乡。前后动作把心情接起来。"
+          },
+          "question": {
+            "id": "quest-9213919da0c7a90a",
+            "text": "低头后，诗里想到的是哪里？"
+          },
+          "image": {
+            "id": "quest-e052400ab7176f5e",
+            "text": "这是学习示意图：低头，想到故乡。低头后，诗里想到的是哪里？"
+          },
+          "right": {
+            "id": "quest-175ead174d14c9ac",
+            "text": "找到了。前一句望月，后一句思故乡，所想的地方变了。"
+          },
+          "wrong": {
+            "id": "quest-70902942cab51bcd",
+            "text": "再比较一下。前一句望月，后一句思故乡，所想的地方变了。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-07-li-bai-jingyesi-change-1",
+            "label": "家乡",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-8150e2fa97c30b9a.svg",
+            "imageAlt": "故乡",
+            "audio": {
+              "id": "quest-d7ca9746beed7b47",
+              "text": "家乡"
+            }
+          },
+          {
+            "id": "cn-ancient-06-07-li-bai-jingyesi-change-2",
+            "label": "眼前的月亮",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-47e282d45e7fd29f.svg",
+            "imageAlt": "眼前月亮",
+            "audio": {
+              "id": "quest-5c44f1196cf5f5a3",
+              "text": "眼前的月亮"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "动作接成一首诗",
+        "title": "动作接成一首诗",
+        "prompt": "哪组动作和诗句先后相同？",
+        "rightNote": "按诗句先后，先举头望月，再低头思故乡。",
+        "wrongNote": "按诗句先后，先举头望月，再低头思故乡。",
+        "sourceIds": [
+          "CCDI-LIBAI-JINGYESI"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "动作接成一首诗",
+          "screenText": "月光引出思念。我们可以用动作理解诗，不必猜李白那一夜的每个细节。",
+          "displayText": "月光引出思念。我们可以用动作理解诗，不必猜李白那一夜的每个细节。",
+          "narration": "月光引出思念。我们可以用动作理解诗，不必猜李白那一夜的每个细节。"
+        },
+        "assetId": "study-70683cdad4cd566b",
+        "image": "/content/study-scenes/study-70683cdad4cd566b.svg",
+        "studyImage": "/content/study-scenes/study-70683cdad4cd566b.svg",
+        "studyImageAlt": "举头望月，低头思乡",
+        "imageAlt": "举头望月，低头思乡",
+        "imageCaption": "学习示意 · 举头望月，低头思乡",
+        "imageBoundary": "自制学习示意。月夜人物是诗意学习图，不复原李白当晚场景；后世李白画像不能冒充当时肖像。",
+        "audio": {
+          "transition": {
+            "id": "quest-f6e1ffecc1d93530",
+            "text": "动作接成一首诗。"
+          },
+          "intro": {
+            "id": "quest-7a9982f64ccaeef0",
+            "text": "月光引出思念。我们可以用动作理解诗，不必猜李白那一夜的每个细节。"
+          },
+          "question": {
+            "id": "quest-a337359d21a133f0",
+            "text": "哪组动作和诗句先后相同？"
+          },
+          "image": {
+            "id": "quest-5bb8c9a07ae99d16",
+            "text": "这是学习示意图：举头望月，低头思乡。哪组动作和诗句先后相同？"
+          },
+          "right": {
+            "id": "quest-6d3c37ad67ffe8d7",
+            "text": "找到了。按诗句先后，先举头望月，再低头思故乡。"
+          },
+          "wrong": {
+            "id": "quest-e6d874cd0da4b0b4",
+            "text": "再比较一下。按诗句先后，先举头望月，再低头思故乡。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-07-li-bai-jingyesi-takeaway-1",
+            "label": "抬头望月 → 低头想家",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-dc7087d8ae8eb42b.svg",
+            "imageAlt": "望月，思乡",
+            "audio": {
+              "id": "quest-bdfe7ad6ffda32d1",
+              "text": "抬头望月 → 低头想家"
+            }
+          },
+          {
+            "id": "cn-ancient-06-07-li-bai-jingyesi-takeaway-2",
+            "label": "低头想家 → 抬头望月",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-9c53858c8eede8fb.svg",
+            "imageAlt": "思乡，望月",
+            "audio": {
+              "id": "quest-65b65c4ec718e8cd",
+              "text": "低头想家 → 抬头望月"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "动作排序",
+        "items": [
+          "按“看光—疑霜—抬头—低头思乡”排列四张图标卡。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "诗与照片",
+        "items": [
+          "把诗句贴到“文学感受”，把后世画像贴到“艺术形象”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "保留问号",
+        "items": [
+          "为具体写作地点和“床”字解释贴“仍有讨论”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图片和语音为主",
+  "durationMinutes": 7,
+  "conclusion": [
+    "《静夜思》用月光、疑霜、抬头和低头四组简单景物与动作，写出远离故乡时的思念。儿童可以跟着身体动作感受诗的顺序，同时要知道诗是文学作品，不是唐代房间照片或李白旅行档案。关于作品具体写作地点和“床”字所指，后世存在不同讨论；低龄页保留未知，不讲成唯一答案。后世《李白行吟图》帮助我们认识诗人怎样被记忆，却不是李白生前照片。"
+  ],
+  "facts": [
+    {
+      "number": 1,
+      "text": "李白是唐代诗人，《静夜思》以五言绝句形式流传。",
+      "sourceIds": [
+        "CCDI-LIBAI-JINGYESI"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "常见文本最后两句为“举头望明月，低头思故乡”，把动作与思念连在一起。",
+      "sourceIds": [
+        "CCDI-LIBAI-JINGYESI"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "诗中先看见明亮月光，再写像地上白霜，随后由抬头转为低头。",
+      "sourceIds": [
+        "CCDI-LIBAI-JINGYESI"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "作品表达诗人的思乡感受，不能当作唐代所有旅人的共同口述或生活统计。",
+      "sourceIds": [
+        "CCDI-LIBAI-JINGYESI",
+        "MOE-HISTORY-CURRICULUM-2022"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "《静夜思》的具体写作地点和“床”字解释存在讨论，儿童层不指定唯一房间或城市。",
+      "sourceIds": [
+        "CCDI-LIBAI-JINGYESI"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "南宋梁楷《李白行吟图》创作于李白去世数百年后，是艺术形象而非生前照片。",
+      "sourceIds": [
+        "CCDI-LIBAI-JINGYESI"
+      ]
+    }
+  ],
+  "screens": [
+    {
+      "number": 1,
+      "title": "时间线定位——唐代诗人李白",
+      "screenText": "701—762年：李白生活的时代\n后来：诗被一次次抄写、朗读和记住",
+      "voices": [
+        {
+          "number": 1,
+          "label": "语音1｜时间定位",
+          "text": "李白生活在唐代。我们读到的《静夜思》，经过后来的人抄写、刊印和朗读，走了很长的时间才来到今天。",
+          "segments": [
+            {
+              "id": "cn-ancient-06-07-li-bai-jingyesi-s01-v01-01",
+              "order": 1,
+              "tier": "core",
+              "text": "李白生活在唐代。我们读到的《静夜思》，经过后来的人抄写、刊印和朗读，走了很长的时间才来到今天。",
+              "hanCharacters": 40
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 2,
+      "title": "第一拍——月光来到眼前",
+      "screenText": "床前明月光",
+      "voices": [
+        {
+          "number": 2,
+          "label": "语音2｜看月光",
+          "text": "第一拍，眼前很亮。诗没有先讲大道理，只让月光来到我们面前。你可以用手指轻轻画出一小片光。",
+          "segments": [
+            {
+              "id": "cn-ancient-06-07-li-bai-jingyesi-s02-v02-01",
+              "order": 1,
+              "tier": "core",
+              "text": "第一拍，眼前很亮。诗没有先讲大道理，只让月光来到我们面前。你可以用手指轻轻画出一小片光。",
+              "hanCharacters": 39
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 3,
+      "title": "第二拍——一眼看错了吗",
+      "screenText": "疑是地上霜",
+      "voices": [
+        {
+          "number": 3,
+          "label": "语音3｜从光想到霜",
+          "text": "第二拍，明亮的月光让诗人想到白霜。“疑是”表示刚刚猜了一下，不是说房间里真的落满了霜。",
+          "segments": [
+            {
+              "id": "cn-ancient-06-07-li-bai-jingyesi-s03-v03-01",
+              "order": 1,
+              "tier": "core",
+              "text": "第二拍，明亮的月光让诗人想到白霜。“疑是”表示刚刚猜了一下，不是说房间里真的落满了霜。",
+              "hanCharacters": 37
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 4,
+      "title": "第三拍——抬头确认",
+      "screenText": "举头望明月",
+      "voices": [
+        {
+          "number": 4,
+          "label": "语音4｜抬头",
+          "text": "第三拍，抬起头，看见明月。动作把眼前的亮光和天上的月亮接在一起。我们只做轻轻抬头，不需要猜诗人坐在哪里。",
+          "segments": [
+            {
+              "id": "cn-ancient-06-07-li-bai-jingyesi-s04-v04-01",
+              "order": 1,
+              "tier": "core",
+              "text": "第三拍，抬起头，看见明月。动作把眼前的亮光和天上的月亮接在一起。我们只做轻轻抬头，不需要猜诗人坐在哪里。",
+              "hanCharacters": 46
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 5,
+      "title": "第四拍——低头想到远方",
+      "screenText": "低头思故乡",
+      "voices": [
+        {
+          "number": 5,
+          "label": "语音5｜低头思念",
+          "text": "第四拍，低下头，想到故乡。月亮没有真的把人送回家，诗却让近处的光和远方的人与地方连在一起。",
+          "segments": [
+            {
+              "id": "cn-ancient-06-07-li-bai-jingyesi-s05-v05-01",
+              "order": 1,
+              "tier": "core",
+              "text": "第四拍，低下头，想到故乡。月亮没有真的把人送回家，诗却让近处的光和远方的人与地方连在一起。",
+              "hanCharacters": 40
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 6,
+      "title": "用四个动作读完一首诗",
+      "screenText": "看光 → 疑霜 → 抬头 → 思乡",
+      "voices": [
+        {
+          "number": 6,
+          "label": "语音6｜完成复述",
+          "text": "请你用四个动作说一遍：看见月光，想到白霜，抬头看月亮，低头思念故乡。诗很短，故事的顺序却很清楚。",
+          "segments": [
+            {
+              "id": "cn-ancient-06-07-li-bai-jingyesi-s06-v06-01",
+              "order": 1,
+              "tier": "core",
+              "text": "请你用四个动作说一遍：看见月光，想到白霜，抬头看月亮，低头思念故乡。诗很短，故事的顺序却很清楚。",
+              "hanCharacters": 41
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    }
+  ],
+  "interactions": [
+    {
+      "number": 1,
+      "title": "动作排序",
+      "items": [
+        "按“看光—疑霜—抬头—低头思乡”排列四张图标卡。"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "诗与照片",
+      "items": [
+        "把诗句贴到“文学感受”，把后世画像贴到“艺术形象”。"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "保留问号",
+      "items": [
+        "为具体写作地点和“床”字解释贴“仍有讨论”。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "CCDI-LIBAI-JINGYESI",
+      "title": "每日一字：夜——《静夜思》",
+      "institution": "中央纪委国家监委网站",
+      "url": "https://m.ccdi.gov.cn/content/ac/4f/23528.html",
+      "type": "central-government-classical-literature-resource",
+      "authorityLevel": "A-central-government-cultural-resource",
+      "factUse": "李白《静夜思》的基本文本与夜深思乡主题；诗中具体作年、作地和‘床’字解释存在讨论，儿童层不写成唯一确定答案",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "MOE-HISTORY-CURRICULUM-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "institution": "中华人民共和国教育部",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "type": "curriculum-standard",
+      "authorityLevel": "A",
+      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-PRIMARY-CHINESE-G1B-2022",
+      "title": "义务教育教科书语文一年级下册同步字词学习手册目录",
+      "institution": "人民教育出版社",
+      "url": "https://www.pep.com.cn/products/zhytu/gjshnj/csxp/tbzc/202306/t20230627_1984160.shtml",
+      "type": "official-textbook-companion-catalog",
+      "authorityLevel": "A-national-textbook-publisher-structure-only",
+      "factUse": "核对统编小学语文一年级下册编入《静夜思》；只用于建立课本熟悉度连接，不替代诗歌与唐代史实来源",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-PRIMARY-CHINESE-G2A-2017",
+      "title": "义务教育教科书语文二年级上册目录",
+      "institution": "人民教育出版社",
+      "url": "https://www.pep.com.cn/products/jc/jks/201802/t20180205_1922570.shtml",
+      "type": "official-textbook-catalog",
+      "authorityLevel": "A-national-textbook-publisher-structure-only",
+      "factUse": "核对教材编入《望庐山瀑布》《大禹治水》《曹冲称象》等篇目；只用于建立课本熟悉度连接",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-CHINESE-CLASSICS-RESOURCE",
+      "title": "中华经典资源库·中华经典诗文精讲",
+      "institution": "人民教育出版社（教育部语用司重大项目成果）",
+      "url": "https://www.pep.com.cn/products/zhytu/gjshnj/zhyxdb/202004/t20200419_1950891.shtml",
+      "type": "official-classics-education-resource",
+      "authorityLevel": "A-national-textbook-publisher-classics",
+      "factUse": "核对从《论语》《兰亭集序》《木兰诗》到唐宋诗词的经典篇目及其教材关联；用于选择适合儿童的诗文入口，不替代历史事实来源",
+      "imageUse": "reference-only"
+    }
+  ],
+  "assets": [
+    {
+      "id": "study-5ccb0f1e3b136b62",
+      "title": "学习示意：唐 李白、后来画像",
+      "localPath": "reference-assets/focused-quests/study-5ccb0f1e3b136b62.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "唐 李白 → 后来画像",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b2efc9b0ded6e1de",
+      "title": "学习示意：唐 618—907年",
+      "localPath": "reference-assets/focused-quests/study-b2efc9b0ded6e1de.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "唐 618—907年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-9b03e405ac986559",
+      "title": "学习示意：宋 960年以后",
+      "localPath": "reference-assets/focused-quests/study-9b03e405ac986559.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "宋 960年以后",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-874d988e7372df83",
+      "title": "学习示意：月光落地、好像白霜",
+      "localPath": "reference-assets/focused-quests/study-874d988e7372df83.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "月光落地 → 好像白霜",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-68daa825a95d1e2a",
+      "title": "学习示意：白白的霜",
+      "localPath": "reference-assets/focused-quests/study-68daa825a95d1e2a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "白白的霜",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-abd51f2c06aa9a93",
+      "title": "学习示意：红红的火",
+      "localPath": "reference-assets/focused-quests/study-abd51f2c06aa9a93.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "红红的火",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b84fda3316ab86c7",
+      "title": "学习示意：抬头望月",
+      "localPath": "reference-assets/focused-quests/study-b84fda3316ab86c7.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "抬头望月",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-c14be94c87fb24ac",
+      "title": "学习示意：抬头",
+      "localPath": "reference-assets/focused-quests/study-c14be94c87fb24ac.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "抬头",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-c62b5241069b7f84",
+      "title": "学习示意：低头",
+      "localPath": "reference-assets/focused-quests/study-c62b5241069b7f84.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "低头",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-282155f7ae3ee1fb",
+      "title": "学习示意：低头、想到故乡",
+      "localPath": "reference-assets/focused-quests/study-282155f7ae3ee1fb.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "低头 → 想到故乡",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8150e2fa97c30b9a",
+      "title": "学习示意：故乡",
+      "localPath": "reference-assets/focused-quests/study-8150e2fa97c30b9a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "故乡",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-47e282d45e7fd29f",
+      "title": "学习示意：眼前月亮",
+      "localPath": "reference-assets/focused-quests/study-47e282d45e7fd29f.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "眼前月亮",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-70683cdad4cd566b",
+      "title": "学习示意：举头望月、低头思乡",
+      "localPath": "reference-assets/focused-quests/study-70683cdad4cd566b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "举头望月 → 低头思乡",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-dc7087d8ae8eb42b",
+      "title": "学习示意：望月、思乡",
+      "localPath": "reference-assets/focused-quests/study-dc7087d8ae8eb42b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "望月 → 思乡",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-9c53858c8eede8fb",
+      "title": "学习示意：思乡、望月",
+      "localPath": "reference-assets/focused-quests/study-9c53858c8eede8fb.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "思乡 → 望月",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "tang-kaiyuan-tongbao-museum-photo",
+      "title": "开元通宝博物馆展览照片",
+      "localPath": "reference-assets/sui-tang-five-dynasties/kaiyuan-tongbao.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tang_Kaiyuan_Coin_(14251544611).jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC0 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "洛阳博物馆展出的唐代开元通宝照片。",
+      "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。下载为1920像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "big-wild-goose-pagoda-current-view",
+      "title": "大雁塔现状照片",
+      "localPath": "reference-assets/sui-tang-five-dynasties/big-wild-goose-pagoda.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Big_Wild_Goose_Pagoda_2.JPG",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC0 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "今天西安大慈恩寺内的大雁塔。",
+      "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。下载为1920×2560像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "li-bai-strolling-song-painting",
+      "title": "南宋梁楷《李白行吟图》",
+      "localPath": "reference-assets/sui-tang-five-dynasties/li-bai-strolling.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:LiBai.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "南宋画家梁楷在李白生活数百年后创作的《李白行吟图》。",
+      "boundary": "这是一幅后世艺术形象，不是李白肖像写生，也不能证明《静夜思》的写作地点、姿势或衣着；只用来连接诗人姓名和后世纪念。原图395×654像素。",
+      "childVisibility": "child-ok"
+    }
+  ],
+  "thumbnail": "/content/thumbnails/cn-ancient-06-07-li-bai-jingyesi.jpg",
+  "status": {
+    "outline": "verified",
+    "research": "verified",
+    "script": "first-draft",
+    "assets": "cleared",
+    "audio": "not-started",
+    "review": "pending"
+  }
+}

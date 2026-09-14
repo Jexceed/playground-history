@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-01-02-first-farmers",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
@@ -13,7 +13,546 @@
   "title": "河边的第一批村落",
   "coreQuestion": "人们为什么开始种植作物、饲养动物并定居下来？",
   "throughline": "以河姆渡、半坡等遗址观察南北不同的原始农耕生活、房屋、陶器与食物。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "childEntry": {
+    "id": "cn-ancient-01-02-first-farmers",
+    "childTitle": "彩陶盆里的第一座村庄",
+    "prompt": "一只画着人脸和鱼的盆，能带我们看见怎样的村庄生活？",
+    "takeaway": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。",
+    "object": "人面鱼纹彩陶盆和骨耜",
+    "people": [
+      "河姆渡与半坡的村民"
+    ],
+    "place": "浙江河姆渡与陕西半坡遗址",
+    "culture": "彩陶纹样",
+    "care": "不替纹样指定唯一故事，也不把南北村落画成同一种生活。",
+    "preferredAssetId": "origins-banpo-bowl"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📍",
+      "label": "从一个地方出发",
+      "text": "彩陶盆里的第一座村庄"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "彩陶盆和稻谷",
+      "text": "先看半坡彩陶盆，再找河姆渡的稻谷和骨耜。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "村里的一天",
+      "text": "接着看村民怎样种植、做饭，并在村里定居。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "南北两座村庄",
+      "text": "最后发现南北村庄不同，都在学着安稳生活。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "考古",
+      "icon": "🧹",
+      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
+      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "半坡",
+      "reading": "Bànpō",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-01-02-first-farmers"
+      ],
+      "note": "西安遗址名。"
+    },
+    {
+      "text": "河姆渡",
+      "reading": "Hémǔdù",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-01-02-first-farmers"
+      ],
+      "note": "“姆”读mǔ。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个地方",
+      "icon": "📍",
+      "label": "彩陶盆里的第一座村庄",
+      "question": "一只画着人脸和鱼的盆，能带我们看见怎样的村庄生活？"
+    },
+    "coverAudio": {
+      "id": "quest-03eaa1e6ccd423b9",
+      "text": "今天从一个地方出发：彩陶盆里的第一座村庄。我们要去浙江河姆渡与陕西半坡遗址，看看人面鱼纹彩陶盆和骨耜怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-0e56ef657e00b16c",
+      "text": "五条线索都找到了，“彩陶盆里的第一座村庄”的答案是：彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 8,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个地方出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是远古时期，时间是约200万年前—约公元前21世纪。",
+          "narration": "这是远古时期，时间是约200万年前—约公元前21世纪。",
+          "displayText": "这是远古时期，时间是约200万年前—约公元前21世纪。"
+        },
+        "assetId": "origins-banpo-bowl",
+        "image": "/content/step-images/origins-banpo-bowl.jpg",
+        "imageAlt": "半坡人面鱼纹彩陶盆",
+        "imageCaption": "半坡遗址出土的人面鱼纹彩陶盆。",
+        "imageBoundary": "纹样含义存在多种解释，只作观察题；照片经过来源页记载的色彩校正。",
+        "audio": {
+          "transition": {
+            "id": "quest-cafb042b318bc60f",
+            "text": "先给一个地方找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-c0bfe54a85c11f2c",
+            "text": "这是远古时期，时间是约200万年前—约公元前21世纪。"
+          },
+          "image": {
+            "id": "quest-5622bf7bd4c047ff",
+            "text": "点开大图啦。这是半坡人面鱼纹彩陶盆。这张图能帮我们找到：这是远古时期，时间是约200万年前—约公元前21世纪。"
+          },
+          "question": {
+            "id": "quest-6b36b10ba4b7def9",
+            "text": "从一个地方出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-01-02-first-farmers-time-1",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "cn-ancient-01-02-first-farmers-time-2",
+            "label": "中国古代史 · 远古时期 · 约200万年前—约公元前21世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-94ff591985218457",
+              "text": "中国古代史 · 远古时期 · 约200万年前—约公元前21世纪"
+            }
+          },
+          {
+            "id": "cn-ancient-01-02-first-farmers-time-3",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "彩陶盆和稻谷",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看半坡彩陶盆，再找河姆渡的稻谷和骨耜。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "彩陶盆和稻谷",
+          "screenText": "先看半坡彩陶盆，再找河姆渡的稻谷和骨耜。",
+          "narration": "先看半坡彩陶盆，再找河姆渡的稻谷和骨耜。",
+          "displayText": "先看半坡彩陶盆，再找河姆渡的稻谷和骨耜。"
+        },
+        "assetId": "origins-banpo-bowl",
+        "image": "/content/step-images/origins-banpo-bowl.jpg",
+        "imageAlt": "半坡人面鱼纹彩陶盆",
+        "imageCaption": "半坡遗址出土的人面鱼纹彩陶盆。",
+        "imageBoundary": "纹样含义存在多种解释，只作观察题；照片经过来源页记载的色彩校正。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-477ed3a466d832fc",
+            "text": "先看半坡彩陶盆，再找河姆渡的稻谷和骨耜。"
+          },
+          "image": {
+            "id": "quest-f92b626800d22425",
+            "text": "点开大图啦。这是半坡人面鱼纹彩陶盆。这张图能帮我们找到：先看半坡彩陶盆，再找河姆渡的稻谷和骨耜。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-01-02-first-farmers-beginning-1",
+            "label": "人面鱼纹彩陶盆和骨耜，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-547847b7af324187",
+              "text": "人面鱼纹彩陶盆和骨耜，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-ancient-01-02-first-farmers-beginning-2",
+            "label": "河姆渡与半坡的村民、浙江，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-fbc477d4926fa6b5",
+              "text": "河姆渡与半坡的村民、浙江，只是故事人物"
+            }
+          },
+          {
+            "id": "cn-ancient-01-02-first-farmers-beginning-3",
+            "label": "浙江河姆渡与陕西半坡，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-593d2631b946a84e",
+              "text": "浙江河姆渡与陕西半坡，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "村里的一天",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看村民怎样种植、做饭，并在村里定居。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "村里的一天",
+          "screenText": "接着看村民怎样种植、做饭，并在村里定居。",
+          "narration": "接着看村民怎样种植、做饭，并在村里定居。",
+          "displayText": "接着看村民怎样种植、做饭，并在村里定居。"
+        },
+        "assetId": "origins-hemudu-bone-spade",
+        "image": "/content/step-images/origins-hemudu-bone-spade.jpg",
+        "imageAlt": "河姆渡遗址出土带藤骨耜",
+        "imageCaption": "河姆渡遗址出土的带藤骨耜，可见骨板、木柄和绑缚结构。",
+        "imageBoundary": "事实名称和用途以中国国家博物馆藏品记录核验；未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-33483cfaa60cd135",
+            "text": "接着看村民怎样种植、做饭，并在村里定居。"
+          },
+          "image": {
+            "id": "quest-8ec05ed40dd9b366",
+            "text": "点开大图啦。这是河姆渡遗址出土带藤骨耜。这张图能帮我们找到：接着看村民怎样种植、做饭，并在村里定居。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-01-02-first-farmers-journey-1",
+            "label": "浙江河姆渡与陕西半坡遗址，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-517a2c52248a454f",
+              "text": "浙江河姆渡与陕西半坡遗址，只说了地点"
+            }
+          },
+          {
+            "id": "cn-ancient-01-02-first-farmers-journey-2",
+            "label": "河姆渡与半坡的村民、人面鱼纹彩，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-e83ad15762e7debf",
+              "text": "河姆渡与半坡的村民、人面鱼纹彩，只认出人物"
+            }
+          },
+          {
+            "id": "cn-ancient-01-02-first-farmers-journey-3",
+            "label": "接着看村民怎样种植、做饭，并在村里定居。",
+            "correct": true,
+            "audio": {
+              "id": "quest-33483cfaa60cd135",
+              "text": "接着看村民怎样种植、做饭，并在村里定居。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "南北两座村庄",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后发现南北村庄不同，都在学着安稳生活。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "南北两座村庄",
+          "screenText": "最后发现南北村庄不同，都在学着安稳生活。",
+          "narration": "最后发现南北村庄不同，都在学着安稳生活。",
+          "displayText": "最后发现南北村庄不同，都在学着安稳生活。"
+        },
+        "assetId": "origins-hemudu-bone-spade",
+        "image": "/content/step-images/origins-hemudu-bone-spade.jpg",
+        "imageAlt": "河姆渡遗址出土带藤骨耜",
+        "imageCaption": "河姆渡遗址出土的带藤骨耜，可见骨板、木柄和绑缚结构。",
+        "imageBoundary": "事实名称和用途以中国国家博物馆藏品记录核验；未修改原图。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-04d2626253ac8cd8",
+            "text": "最后发现南北村庄不同，都在学着安稳生活。"
+          },
+          "image": {
+            "id": "quest-c3dd93ef42f29711",
+            "text": "点开大图啦。这是河姆渡遗址出土带藤骨耜。这张图能帮我们找到：最后发现南北村庄不同，都在学着安稳生活。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-01-02-first-farmers-change-1",
+            "label": "人面鱼纹彩陶盆和骨耜，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-2d9ca6f8ac4ccff6",
+              "text": "人面鱼纹彩陶盆和骨耜，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-ancient-01-02-first-farmers-change-2",
+            "label": "最后发现南北村庄不同，都在学着安稳生活。",
+            "correct": true,
+            "audio": {
+              "id": "quest-04d2626253ac8cd8",
+              "text": "最后发现南北村庄不同，都在学着安稳生活。"
+            }
+          },
+          {
+            "id": "cn-ancient-01-02-first-farmers-change-3",
+            "label": "看村民怎样种植、做饭，并在，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-16b6323a1dea24f7",
+              "text": "看村民怎样种植、做饭，并在，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。",
+          "narration": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。",
+          "displayText": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。"
+        },
+        "assetId": "origins-banpo-bowl",
+        "image": "/content/step-images/origins-banpo-bowl.jpg",
+        "imageAlt": "半坡人面鱼纹彩陶盆",
+        "imageCaption": "半坡遗址出土的人面鱼纹彩陶盆。",
+        "imageBoundary": "纹样含义存在多种解释，只作观察题；照片经过来源页记载的色彩校正。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-00af4fb64a341114",
+            "text": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。"
+          },
+          "image": {
+            "id": "quest-2cbae74a5e3b2b3e",
+            "text": "点开大图啦。这是半坡人面鱼纹彩陶盆。这张图能帮我们找到：彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-01-02-first-farmers-takeaway-1",
+            "label": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。",
+            "correct": true,
+            "audio": {
+              "id": "quest-00af4fb64a341114",
+              "text": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。"
+            }
+          },
+          {
+            "id": "cn-ancient-01-02-first-farmers-takeaway-2",
+            "label": "看半坡彩陶盆，再找河姆渡的稻谷和骨耜。、人面，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-5357cad23d61bbbd",
+              "text": "看半坡彩陶盆，再找河姆渡的稻谷和骨耜。、人面，只说了原因"
+            }
+          },
+          {
+            "id": "cn-ancient-01-02-first-farmers-takeaway-3",
+            "label": "发现南北村庄不同，都在学着安稳生活。、彩陶盆里的，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-35327440418ae4be",
+              "text": "发现南北村庄不同，都在学着安稳生活。、彩陶盆里的，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "南北村落配对",
+        "items": [
+          "把稻谷、骨耜、干栏式建筑放入长江流域证据组；把半坡彩陶盆放入黄河流域证据组。地图明确标注“代表性遗址，不代表全部地区”。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "看见与推测",
+        "items": [
+          "针对彩陶盆选择“我能直接看见鱼纹”和“图案一定表示某种神”——后者进入“还需证据”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "建房选择",
+        "items": [
+          "给出潮湿低地和较干燥台地两个环境，让孩子选择架高地板或半地穴方案，并听取理由反馈。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "距今约一万年前后，中国不同地区逐渐形成农业生活。长江流域的稻作与黄河流域的粟作是两条重要传统，但真实生活并非只有种田：人们也采集、捕鱼和狩猎。河姆渡与半坡的房屋、农具、稻谷和陶器说明，环境不同，生活办法也不同。"
@@ -260,20 +799,26 @@
       "title": "河姆渡遗址出土带藤骨耜",
       "localPath": "reference-assets/origins/hemudu-bone-spade.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Bone_spade_with_rattans_unearthed_at_Hemudu_Site.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "河姆渡遗址出土的带藤骨耜，可见骨板、木柄和绑缚结构。",
-      "boundary": "事实名称和用途以中国国家博物馆藏品记录核验；未修改原图。"
+      "boundary": "事实名称和用途以中国国家博物馆藏品记录核验；未修改原图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "origins-banpo-bowl",
       "title": "半坡人面鱼纹彩陶盆",
       "localPath": "reference-assets/origins/banpo-bowl.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Banpo_bowl.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 2.0",
       "clearance": "cleared-open-license",
       "caption": "半坡遗址出土的人面鱼纹彩陶盆。",
-      "boundary": "纹样含义存在多种解释，只作观察题；照片经过来源页记载的色彩校正。"
+      "boundary": "纹样含义存在多种解释，只作观察题；照片经过来源页记载的色彩校正。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-01-02-first-farmers.jpg",

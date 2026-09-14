@@ -143,6 +143,7 @@
 - `NMC-WUZHU-COIN`：[五铢钱](https://www.chnmuseum.cn/zp/zpml/hb/201812/t20181218_26289.shtml)，中国国家博物馆；中央统一铸币的时间、机构和币制意义。
 - `HAN-YANGLING-OFFICIAL`：[汉景帝阳陵资料](https://wwj.shaanxi.gov.cn/bsfw/cjwt/202302/t20230206_2274009.html)，陕西省文物局 / 汉景帝阳陵博物院；遗址性质与考古博物馆身份。
 - `NMC-SILK-ROAD-NETWORK`：[丝绸之路文明交流专题](https://m.chnmuseum.cn/portals/0/web/zt/20190411sfgx/)，中国国家博物馆；张骞、路线网络和双向文明交流。
+- `HKEDB-WANGWEI-SONG-YUANER`：[《送元二使安西》推荐篇章及教学资料](https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS2_08.pdf)，香港特别行政区政府教育局；王维诗歌、渭城送别、阳关和安西的地点连接，只作唐诗亲子延伸，不作为汉代丝路的直接证据。
 - `NEAC-XUANQUAN-POST`：[悬泉置汉代驿站考古资料](https://www.neac.gov.cn/seac/c103391/202302/1161310.shtml)，国家民族事务委员会；人员、马匹、食物、使者和文书记录。
 - `GANSU-XUANQUAN-SLIPS`：[悬泉置遗址和汉简资料](https://www.gswbj.gov.cn/a/2022/10/14/15341.html)，甘肃省文化和旅游厅；发掘、简牍与驿站日常管理。
 - `JIUSAN-CAILUN-PAPER`：[蔡伦与造纸术史实辨析](https://www.93.gov.cn/xwjc-snyw/207014.html)，九三学社中央；西汉已有纸和蔡伦改进造纸术的边界。
@@ -186,6 +187,7 @@
 - `UNESCO-ANCIENT-NARA`：[Historic Monuments of Ancient Nara](https://whc.unesco.org/en/list/870/)，UNESCO World Heritage Centre；鉴真创建唐招提寺及现存遗产环境。
 - `NEAC-ANSHI-NOT-ETHNIC`：[曾活跃在古丝绸之路上的粟特人，最后去哪儿了？](https://www.neac.gov.cn/seac/c103391/202310/1168524.shtml)，国家民族事务委员会；安史双方人员构成及冲突不是民族战争的研究边界。
 - `NPM-JIZHI-WENGAO`：[唐颜真卿祭侄文稿](https://digitalarchive.npm.gov.tw/Collection/Detail/3?dep=P)，台北故宫博物院；758年正文、战争背景和后世题跋边界。
+- `CCTV-DUFU-CHUNWANG-CHANGAN`：[杜甫在安史之乱中的长安写下《春望》](https://tv.cctv.com/2024/01/05/VIDETeGGSSdZ6oxwq2ff1Ryb240105.shtml)，中央广播电视总台央视网；连接杜甫、诗歌与长安处境，不把诗当作伤亡统计或完整战史。
 - `NOPSS-TANG-MILITARY-SYSTEM`：[唐代军事制度研究](https://www.nopss.gov.cn/n1/2024/0516/c373410-40237211.html)，全国哲学社会科学工作办公室；反对用单一制度变化解释唐朝衰落。
 - `NMC-QIANLIU-IRON-CERTIFICATE`：[钱镠铁券](https://www.chnmuseum.cn/zp/zpml/kgfjp/202111/t20211116_252287.shtml)，中国国家博物馆；897年铁券及晚唐中央与地方人物关系的个案证据。
 

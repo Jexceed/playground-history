@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.9.0",
+  "contentVersion": "0.10.0",
   "id": "cross-03-cultural-exchange",
   "trackId": "cross-disciplinary",
   "trackLabel": "跨学科主题学习",
@@ -13,7 +13,581 @@
   "title": "骆驼上的乐队：一件唐三彩怎样证明文化交流",
   "coreQuestion": "一件墓葬陶俑、一个中国器形和一块远方出土的残片，分别能怎样证明文化交流？",
   "throughline": "先以723年西安墓葬出土的三彩釉陶载乐骆驼区分实物所见、国博解释、学者复原与未知声音，再以伊朗金属器形影响中国唐代三彩双耳瓶建立向中国输入的证据；随后用中国制造而在伊朗尼沙普尔出土的三彩残片证明器物确实向西移动，并以10世纪尼沙普尔泼彩刻划纹碗说明当地工匠可能吸收唐三彩和阿拔斯陶器影响后继续创新。孩子最终制作‘直接证明—馆方解释—合理推断—仍然未知’四层网络图，不从脸型猜民族，不播放伪唐代原声，也不画唯一虚构商路。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "cross-03-cultural-exchange",
+    "childTitle": "骆驼背上的乐队是真的吗",
+    "prompt": "一件唐三彩、一个远方器形和一块出土残片，怎样一起证明交流？",
+    "takeaway": "三件实物放回时间与地点，能证明工艺和器物经过许多人接力传播。",
+    "object": "三彩载乐骆驼俑与尼沙普尔陶片",
+    "people": [
+      "乐手、歌者、陶工、商旅与考古人员"
+    ],
+    "place": "西安、长安交流网络与伊朗尼沙普尔",
+    "culture": "唐代乐舞与多地陶器工艺",
+    "care": "艺术场景不是商队照片；能看见乐器，不能复原确定的唐代原声。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "骆驼背上的乐队是真的吗"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "先看骆驼乐队",
+      "text": "先看三彩骆驼背上的乐手和釉色。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "再和远方陶片对照",
+      "text": "接着对照远方陶片、器形和出土地点。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "三件实物互相支持",
+      "text": "最后三件实物互相支持，说明工艺经过多人传播。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "三件实物放回时间与地点，能证明工艺和器物经过许多人接力传播。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "考古",
+      "icon": "🧹",
+      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
+      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "尼沙普尔",
+      "reading": "Níshāpǔ’ěr",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-03-islamic-world",
+        "cross-03-cultural-exchange"
+      ],
+      "note": "“普尔”两音节读清楚。"
+    },
+    {
+      "text": "长安",
+      "reading": "Cháng’ān",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-04-02-han-governance",
+        "cn-ancient-04-03-silk-road",
+        "cn-ancient-06-02-tang-governance",
+        "cn-ancient-06-03-tang-changan",
+        "cn-ancient-06-04-tang-cultural-exchange",
+        "cross-03-cultural-exchange"
+      ],
+      "note": "“长”在地名中读cháng。"
+    },
+    {
+      "text": "乐手",
+      "reading": "Yuèshǒu",
+      "kind": "polyphone",
+      "chapterIds": [
+        "cn-ancient-06-03-tang-changan",
+        "cross-03-cultural-exchange"
+      ],
+      "note": "表示演奏音乐的人时，“乐”读yuè。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "骆驼背上的乐队是真的吗",
+      "question": "一件唐三彩、一个远方器形和一块出土残片，怎样一起证明交流？"
+    },
+    "coverAudio": {
+      "id": "quest-23ddf9dcb4024268",
+      "text": "今天从一件东西出发：骆驼背上的乐队是真的吗。我们要去西安、长安交流网络与伊朗尼沙普尔，看看三彩载乐骆驼俑与尼沙普尔陶片怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-42658c10438abacb",
+      "text": "五条线索都找到了，“骆驼背上的乐队是真的吗”的答案是：三件实物放回时间与地点，能证明工艺和器物经过许多人接力传播。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 12,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这个故事会跨越很多时代，来比较跨时代证据任务。",
+          "narration": "这个故事会跨越很多时代，来比较跨时代证据任务。",
+          "displayText": "这个故事会跨越很多时代，来比较跨时代证据任务。"
+        },
+        "assetId": "met-chinese-sancai-fragment-nishapur-449479-public-domain",
+        "image": "/content/step-images/met-chinese-sancai-fragment-nishapur-449479-public-domain.jpg",
+        "imageAlt": "中国制造、尼沙普尔出土的三彩碗底残片",
+        "imageCaption": "7世纪晚期至8世纪上半叶中国制造、伊朗尼沙普尔出土的三彩碗底残片，直径6.7厘米。",
+        "imageBoundary": "本地JPEG为2948×4000像素，藏品号38.40.274。它能直接支持器物从中国到达尼沙普尔，不能单件还原陆路或海路、转手城市、运输者、到达年份、交易或赠礼方式；断口形成时间未知。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-67ed9824b7d74732",
+            "text": "这个故事会跨越很多时代，来比较跨时代证据任务。"
+          },
+          "image": {
+            "id": "quest-14db1c44a6132b80",
+            "text": "点开大图啦。这是中国制造、尼沙普尔出土的三彩碗底残片。这张图能帮我们找到：这个故事会跨越很多时代，来比较跨时代证据任务。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-03-cultural-exchange-time-1",
+            "label": "跨越很多时代 · 跨时代证据任务",
+            "correct": true,
+            "audio": {
+              "id": "quest-91c6443f7f3a1ac7",
+              "text": "跨越很多时代 · 跨时代证据任务"
+            }
+          },
+          {
+            "id": "cross-03-cultural-exchange-time-2",
+            "label": "世界近代史 · 工业革命与社会主义思想 · 18世纪中期—19世纪",
+            "correct": false,
+            "audio": {
+              "id": "quest-7019455a00f0e12f",
+              "text": "世界近代史 · 工业革命与社会主义思想 · 18世纪中期—19世纪"
+            }
+          },
+          {
+            "id": "cross-03-cultural-exchange-time-3",
+            "label": "世界近代史 · 殖民扩张与民族反抗 · 18—19世纪",
+            "correct": false,
+            "audio": {
+              "id": "quest-59b0752a32d916a8",
+              "text": "世界近代史 · 殖民扩张与民族反抗 · 18—19世纪"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "先看骆驼乐队",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先看三彩骆驼背上的乐手和釉色。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "先看骆驼乐队",
+          "screenText": "先看三彩骆驼背上的乐手和釉色。",
+          "narration": "先看三彩骆驼背上的乐手和釉色。",
+          "displayText": "先看三彩骆驼背上的乐手和釉色。"
+        },
+        "assetId": "nmc-tang-sancai-camel-musicians-2025-cc-by-sa",
+        "image": "/content/step-images/nmc-tang-sancai-camel-musicians-2025-cc-by-sa.jpg",
+        "imageAlt": "中国国家博物馆展陈的三彩釉陶载乐骆驼",
+        "imageCaption": "2025年在中国国家博物馆拍摄的唐代三彩釉陶载乐骆驼现代展陈照片。",
+        "imageBoundary": "本地JPEG为1200×1800像素。需署名Windmemories并附CC BY-SA 4.0许可；图片是现代展厅照片，不是723年演出照片。仅一把琵琶可直接辨认，筚篥和鼓属学者复原；两个国博页面对墓主人姓名写法不同，儿童主层只写‘陕西西安一座唐墓’。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-6b9640c32419e3db",
+            "text": "先看三彩骆驼背上的乐手和釉色。"
+          },
+          "image": {
+            "id": "quest-b181c10c8d4ccbb0",
+            "text": "点开大图啦。这是中国国家博物馆展陈的三彩釉陶载乐骆驼。这张图能帮我们找到：先看三彩骆驼背上的乐手和釉色。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-03-cultural-exchange-beginning-1",
+            "label": "乐手、歌者、陶工、商旅与考古人员，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-951b7f6d38f79b3c",
+              "text": "乐手、歌者、陶工、商旅与考古人员，只是故事人物"
+            }
+          },
+          {
+            "id": "cross-03-cultural-exchange-beginning-2",
+            "label": "西安、长安交流网络与伊朗尼沙，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-bc273cc7c417b57b",
+              "text": "西安、长安交流网络与伊朗尼沙，只是故事地点"
+            }
+          },
+          {
+            "id": "cross-03-cultural-exchange-beginning-3",
+            "label": "三彩载乐骆驼俑与尼沙普尔陶片，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-8d9536264d9e8a5f",
+              "text": "三彩载乐骆驼俑与尼沙普尔陶片，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "再和远方陶片对照",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着对照远方陶片、器形和出土地点。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "再和远方陶片对照",
+          "screenText": "接着对照远方陶片、器形和出土地点。",
+          "narration": "接着对照远方陶片、器形和出土地点。",
+          "displayText": "接着对照远方陶片、器形和出土地点。"
+        },
+        "assetId": "met-nishapur-splashware-bowl-449348-public-domain",
+        "image": "/content/step-images/met-nishapur-splashware-bowl-449348-public-domain.jpg",
+        "imageAlt": "10世纪尼沙普尔绿黄褐泼彩刻划纹碗",
+        "imageCaption": "10世纪伊朗尼沙普尔出土的绿、黄、褐泼彩刻划纹碗，高7.3厘米、直径26厘米。",
+        "imageBoundary": "本地JPEG为3811×3049像素，藏品号38.40.137。中国唐三彩影响必须保留‘可能’语气；釉下刻划几何和植物纹为本地创新，且阿拔斯地区陶器也可能参与影响，不能写成中国到尼沙普尔的一步复制。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-b63e3b624b761346",
+            "text": "接着对照远方陶片、器形和出土地点。"
+          },
+          "image": {
+            "id": "quest-b94a7e59f8f1e247",
+            "text": "点开大图啦。这是10世纪尼沙普尔绿黄褐泼彩刻划纹碗。这张图能帮我们找到：接着对照远方陶片、器形和出土地点。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-03-cultural-exchange-journey-1",
+            "label": "乐手、歌者、陶工、商旅与，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-91c1cd4ca8aafa3d",
+              "text": "乐手、歌者、陶工、商旅与，只认出人物"
+            }
+          },
+          {
+            "id": "cross-03-cultural-exchange-journey-2",
+            "label": "接着对照远方陶片、器形和出土地点。",
+            "correct": true,
+            "audio": {
+              "id": "quest-b63e3b624b761346",
+              "text": "接着对照远方陶片、器形和出土地点。"
+            }
+          },
+          {
+            "id": "cross-03-cultural-exchange-journey-3",
+            "label": "西安、长安交流网络与，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-3bcce8b9180b900b",
+              "text": "西安、长安交流网络与，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "三件实物互相支持",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后三件实物互相支持，说明工艺经过多人传播。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "三件实物互相支持",
+          "screenText": "最后三件实物互相支持，说明工艺经过多人传播。",
+          "narration": "最后三件实物互相支持，说明工艺经过多人传播。",
+          "displayText": "最后三件实物互相支持，说明工艺经过多人传播。"
+        },
+        "assetId": "met-chinese-sancai-fragment-nishapur-449479-public-domain",
+        "image": "/content/step-images/met-chinese-sancai-fragment-nishapur-449479-public-domain.jpg",
+        "imageAlt": "中国制造、尼沙普尔出土的三彩碗底残片",
+        "imageCaption": "7世纪晚期至8世纪上半叶中国制造、伊朗尼沙普尔出土的三彩碗底残片，直径6.7厘米。",
+        "imageBoundary": "本地JPEG为2948×4000像素，藏品号38.40.274。它能直接支持器物从中国到达尼沙普尔，不能单件还原陆路或海路、转手城市、运输者、到达年份、交易或赠礼方式；断口形成时间未知。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-1117450df6fce11c",
+            "text": "最后三件实物互相支持，说明工艺经过多人传播。"
+          },
+          "image": {
+            "id": "quest-a7350774deddefbd",
+            "text": "点开大图啦。这是中国制造、尼沙普尔出土的三彩碗底残片。这张图能帮我们找到：最后三件实物互相支持，说明工艺经过多人传播。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-03-cultural-exchange-change-1",
+            "label": "最后三件实物互相支持，说明工艺经过多人传播。",
+            "correct": true,
+            "audio": {
+              "id": "quest-1117450df6fce11c",
+              "text": "最后三件实物互相支持，说明工艺经过多人传播。"
+            }
+          },
+          {
+            "id": "cross-03-cultural-exchange-change-2",
+            "label": "对照远方陶片、器形和出土地点，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-36bc545ae8a66867",
+              "text": "对照远方陶片、器形和出土地点，还只是行动经过"
+            }
+          },
+          {
+            "id": "cross-03-cultural-exchange-change-3",
+            "label": "三彩载乐骆驼俑与尼沙普尔陶，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-7763cb357c49ba32",
+              "text": "三彩载乐骆驼俑与尼沙普尔陶，还只是故事起点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "三件实物放回时间与地点，能证明工艺和器物经过许多人接力传播。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "三件实物放回时间与地点，能证明工艺和器物经过许多人接力传播。",
+          "narration": "三件实物放回时间与地点，能证明工艺和器物经过许多人接力传播。",
+          "displayText": "三件实物放回时间与地点，能证明工艺和器物经过许多人接力传播。"
+        },
+        "assetId": "met-nishapur-splashware-bowl-449348-public-domain",
+        "image": "/content/step-images/met-nishapur-splashware-bowl-449348-public-domain.jpg",
+        "imageAlt": "10世纪尼沙普尔绿黄褐泼彩刻划纹碗",
+        "imageCaption": "10世纪伊朗尼沙普尔出土的绿、黄、褐泼彩刻划纹碗，高7.3厘米、直径26厘米。",
+        "imageBoundary": "本地JPEG为3811×3049像素，藏品号38.40.137。中国唐三彩影响必须保留‘可能’语气；釉下刻划几何和植物纹为本地创新，且阿拔斯地区陶器也可能参与影响，不能写成中国到尼沙普尔的一步复制。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-5aa91f536a36a6a8",
+            "text": "三件实物放回时间与地点，能证明工艺和器物经过许多人接力传播。"
+          },
+          "image": {
+            "id": "quest-5c0ede4ad422b39b",
+            "text": "点开大图啦。这是10世纪尼沙普尔绿黄褐泼彩刻划纹碗。这张图能帮我们找到：三件实物放回时间与地点，能证明工艺和器物经过许多人接力传播。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-03-cultural-exchange-takeaway-1",
+            "label": "看三彩骆驼背上的乐手和釉色。、三彩载乐骆驼俑与，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-75fb92b40c139558",
+              "text": "看三彩骆驼背上的乐手和釉色。、三彩载乐骆驼俑与，只说了原因"
+            }
+          },
+          {
+            "id": "cross-03-cultural-exchange-takeaway-2",
+            "label": "三件实物互相支持，说明工艺经过多人传播。、骆驼背上，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-f2c4dc7d0cb6f0c6",
+              "text": "三件实物互相支持，说明工艺经过多人传播。、骆驼背上，只说了结果"
+            }
+          },
+          {
+            "id": "cross-03-cultural-exchange-takeaway-3",
+            "label": "三件实物放回时间与地点，能证明工艺和器物经过许多人接力传播。",
+            "correct": true,
+            "audio": {
+              "id": "quest-5aa91f536a36a6a8",
+              "text": "三件实物放回时间与地点，能证明工艺和器物经过许多人接力传播。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "把5张器物卡放回时间线",
+        "items": [
+          "按“萨珊青铜执壶—唐三彩双耳瓶—723年载乐骆驼—中国三彩残片—10世纪尼沙普尔泼彩碗”排列。",
+          "地图只标制作地或出土地已经明确的点，不让孩子沿一条固定直线拖动“唯一商队”。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "给句子贴证据标签",
+        "items": [
+          "“骆驼头高58.4厘米”贴“实物记录”。",
+          "“它记录了当天真实节目单”贴“不能证明”。",
+          "“表现一个乐舞场景”贴“博物馆解释”。",
+          "“墓主人姓名”显示两条来源差异，贴“待进一步核对”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "看见、解释、未知三格分拣",
+        "items": [
+          "把“可辨琵琶”放进“直接看见”。",
+          "把“筚篥与鼓”放进“学者复原”。",
+          "把“旋律、速度、音高、演奏者姓名”放进“仍然未知”。",
+          "不设置“看脸猜民族”或用现代音乐冒充唐代原声。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "把地图线画到证据允许的位置",
+        "items": [
+          "先在“中国制造”和“尼沙普尔出土”两点盖章。",
+          "两点之间只显示“可能经过多段陆路或海路”的虚线网络，不让玩家选择一条唯一正确路线。",
+          "将“到达尼沙普尔”放入“能证明”，将“商人姓名、具体路线、到达年份、交换方式”放入“不能由本件证明”。"
+        ]
+      },
+      {
+        "number": 5,
+        "title": "制作并讲解交流证据图",
+        "items": [
+          "孩子选择至少4件器物，给每件填写“年代、制作地、发现地、材料、来源”中的已有项目；不知道的字段保留“未知”。",
+          "至少放入三条不同方向的证据：“伊朗器形影响中国唐器”“中国三彩到达尼沙普尔”“尼沙普尔工匠加入本地刻划纹”。",
+          "每条连线必须选择证据强度：“实物直接证明”“馆方解释”“可能影响”；系统拒绝把“可能”升级为“确定”。",
+          "最后选择一句证据边界，例如：“残片能证明到达，不能说明唯一路线”“陶俑能显示乐器形状，不能保存唐代原声”。",
+          "点“听我的证据图”时，只拼接已录好的本地旁白短句与器物名称；不录制、上传或在线分析儿童声音。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 12,
   "conclusion": [
     "文化交流不能只靠“看起来像外国人”或“颜色很像”来证明。本章先把中国国家博物馆的三彩釉陶载乐骆驼放进中国时间线：它是723年前后的唐代明器，1957年在陕西西安一座唐墓中出土，表现一峰骆驼、五个人物和乐舞场景；它能说明唐代工匠怎样塑造、唐代墓葬怎样表现乐舞和交流，却不是一场真实演出的照片。器物今天只残留一把可辨的琵琶，筚篥和鼓来自夏鼐等学者依据形态与音乐史所作的复原解释；人物的族属也不能只凭脸型确认。随后用两组实物建立双向证据链：一件中国唐代三彩双耳瓶的器形源自古代伊朗金属器传统，说明外来器形进入中国后被中国工匠用本地陶土和彩釉重新制作；一块中国制造、在伊朗尼沙普尔出土的三彩碗残片，证明中国器物确实到达当地。10世纪尼沙普尔泼彩刻划纹碗又显示，当地工匠可能受到唐三彩影响，同时加入本地几何和植物刻划纹。孩子最后把“实物直接证明、博物馆解释、合理推断、仍然未知”分为四层，理解文化交流是多人、多站、多方向的网络，不是一个人沿一条固定道路把完整文化搬到另一地。"
@@ -1135,60 +1709,78 @@
       "title": "中国国家博物馆展陈的三彩釉陶载乐骆驼",
       "localPath": "reference-assets/cross-cultural-exchange/tang-sancai-camel-musicians-nmc-2025.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:20251026_Sancai-glazed_Pottery_Musician_on_Camelback.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2025年在中国国家博物馆拍摄的唐代三彩釉陶载乐骆驼现代展陈照片。",
-      "boundary": "本地JPEG为1200×1800像素。需署名Windmemories并附CC BY-SA 4.0许可；图片是现代展厅照片，不是723年演出照片。仅一把琵琶可直接辨认，筚篥和鼓属学者复原；两个国博页面对墓主人姓名写法不同，儿童主层只写‘陕西西安一座唐墓’。"
+      "boundary": "本地JPEG为1200×1800像素。需署名Windmemories并附CC BY-SA 4.0许可；图片是现代展厅照片，不是723年演出照片。仅一把琵琶可直接辨认，筚篥和鼓属学者复原；两个国博页面对墓主人姓名写法不同，儿童主层只写‘陕西西安一座唐墓’。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "met-tang-female-musician-konghou-44804-public-domain",
       "title": "唐代彩绘陶持箜篌乐伎女俑",
       "localPath": "reference-assets/cross-cultural-exchange/tang-female-musician-konghou.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/44804",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain-open-access",
       "caption": "中国唐代7世纪晚期彩绘陶持箜篌乐伎女俑，高14.9厘米。",
-      "boundary": "本地JPEG为557×700像素。藏品号23.180.7，属于墓葬陶俑；可观察乐器形状和人物姿势，不能还原旋律、音高、速度或真实演奏者身份。"
+      "boundary": "本地JPEG为557×700像素。藏品号23.180.7，属于墓葬陶俑；可观察乐器形状和人物姿势，不能还原旋律、音高、速度或真实演奏者身份。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "met-tang-sancai-amphora-39524-public-domain",
       "title": "唐代7世纪晚期三彩双耳瓶",
       "localPath": "reference-assets/cross-cultural-exchange/tang-sancai-amphora.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/39524",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain-open-access",
       "caption": "中国唐代7世纪晚期三彩双耳瓶，高28.3厘米；馆方说明器形源自古代伊朗金属器传统。",
-      "boundary": "本地JPEG为2912×3880像素，藏品号1997.1.2。它是中国制造的三彩陶器，不得写成伊朗制造；‘器形来源’不等于已知某一件直接原型或唯一传播路线。"
+      "boundary": "本地JPEG为2912×3880像素，藏品号1997.1.2。它是中国制造的三彩陶器，不得写成伊朗制造；‘器形来源’不等于已知某一件直接原型或唯一传播路线。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "met-sasanian-bronze-ewer-327346-public-domain",
       "title": "约3—7世纪萨珊文化青铜执壶",
       "localPath": "reference-assets/cross-cultural-exchange/sasanian-bronze-ewer.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/327346",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain-open-access",
       "caption": "约3—7世纪萨珊文化伊朗地区青铜执壶，高15.6厘米、宽约12厘米。",
-      "boundary": "本地JPEG为894×1100像素，藏品号1988.102.22。只作较早伊朗金属器形制比较，不宣称它是唐三彩双耳瓶的直接原型、中国出土物或同一商队运输物。"
+      "boundary": "本地JPEG为894×1100像素，藏品号1988.102.22。只作较早伊朗金属器形制比较，不宣称它是唐三彩双耳瓶的直接原型、中国出土物或同一商队运输物。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "met-chinese-sancai-fragment-nishapur-449479-public-domain",
       "title": "中国制造、尼沙普尔出土的三彩碗底残片",
       "localPath": "reference-assets/cross-cultural-exchange/chinese-sancai-bowl-fragment-nishapur.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/449479",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain-open-access",
       "caption": "7世纪晚期至8世纪上半叶中国制造、伊朗尼沙普尔出土的三彩碗底残片，直径6.7厘米。",
-      "boundary": "本地JPEG为2948×4000像素，藏品号38.40.274。它能直接支持器物从中国到达尼沙普尔，不能单件还原陆路或海路、转手城市、运输者、到达年份、交易或赠礼方式；断口形成时间未知。"
+      "boundary": "本地JPEG为2948×4000像素，藏品号38.40.274。它能直接支持器物从中国到达尼沙普尔，不能单件还原陆路或海路、转手城市、运输者、到达年份、交易或赠礼方式；断口形成时间未知。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "met-nishapur-splashware-bowl-449348-public-domain",
       "title": "10世纪尼沙普尔绿黄褐泼彩刻划纹碗",
       "localPath": "reference-assets/cross-cultural-exchange/nishapur-splashware-bowl.jpg",
       "sourcePage": "https://www.metmuseum.org/art/collection/search/449348",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / The Met Open Access",
       "clearance": "cleared-public-domain-open-access",
       "caption": "10世纪伊朗尼沙普尔出土的绿、黄、褐泼彩刻划纹碗，高7.3厘米、直径26厘米。",
-      "boundary": "本地JPEG为3811×3049像素，藏品号38.40.137。中国唐三彩影响必须保留‘可能’语气；釉下刻划几何和植物纹为本地创新，且阿拔斯地区陶器也可能参与影响，不能写成中国到尼沙普尔的一步复制。"
+      "boundary": "本地JPEG为3811×3049像素，藏品号38.40.137。中国唐三彩影响必须保留‘可能’语气；釉下刻划几何和植物纹为本地创新，且阿拔斯地区陶器也可能参与影响，不能写成中国到尼沙普尔的一步复制。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cross-03-cultural-exchange.jpg",

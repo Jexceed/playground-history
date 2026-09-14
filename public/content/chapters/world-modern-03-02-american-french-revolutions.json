@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-modern-03-02-american-french-revolutions",
   "trackId": "world-modern",
   "trackLabel": "世界近代史",
@@ -13,7 +13,704 @@
   "title": "独立与人权的口号怎样改变欧美",
   "coreQuestion": "美国独立战争和法国大革命有哪些相同与不同？",
   "throughline": "以1775—1791年美国独立、建国文件和1789—1804年法国—海地革命双线时间轴，比较《独立宣言》、美国宪法、法国《人权和公民权宣言》、《女权和女公民权宣言》、海地独立宣言与《法国民法典》，同时检查奴隶制、原住民土地、妇女参政、恐怖统治和拿破仑恢复殖民地奴隶制等权利边界。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-modern-03-02-american-french-revolutions",
+    "childTitle": "三份人权文件漏掉了谁",
+    "prompt": "写下自由和平等以后，为什么妇女、被奴役者和殖民地人民还要继续行动？",
+    "takeaway": "文件提出新原则，却漏掉许多人；后来者继续行动，才扩大权利范围。",
+    "object": "独立宣言、法国人权宣言与海地独立档案",
+    "people": [
+      "革命参与者、妇女、被奴役者与海地起义者"
+    ],
+    "place": "北美、法国巴黎与海地",
+    "culture": "宣言文本与革命图像",
+    "care": "文件原则、实际执行和被排除者的行动分开，不做断头台或战斗游戏。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "📄",
+      "label": "从一页文字出发",
+      "text": "三份人权文件漏掉了谁"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "自由平等写进文件",
+      "text": "先翻开北美和法国写下的自由平等文件。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "谁没有被写进去",
+      "text": "接着问：妇女、被排除者和殖民地人民在哪里？"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "后来者继续行动",
+      "text": "最后看海地等地继续行动，让权利范围扩大。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "文件提出新原则，却漏掉许多人；后来者继续行动，才扩大权利范围。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "殖民地",
+      "icon": "⛓️",
+      "plain": "被外来国家控制，居民和资源受它支配的地方。",
+      "example": "殖民统治不是普通旅行或平等交流。",
+      "priority": 1
+    },
+    {
+      "term": "档案",
+      "icon": "🗂️",
+      "plain": "被保存下来的文件、照片、录音等记录。",
+      "example": "一份档案记录一个角度，要和别的证据一起看。",
+      "priority": 1
+    },
+    {
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "priority": 1
+    },
+    {
+      "term": "革命",
+      "icon": "🔄",
+      "plain": "许多人推动改变旧政权或旧制度的大变化。",
+      "example": "革命不是只看一场战斗，还要看原因、参与者和结果。",
+      "priority": 1
+    },
+    {
+      "term": "和平",
+      "icon": "🕊️",
+      "plain": "人们不靠战争解决分歧，并努力避免暴力伤害。",
+      "example": "和平需要规则、谈判和行动，不只是说一句愿望。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "权利",
+      "icon": "🫶",
+      "plain": "规则承认一个人可以做、可以得到保护的事情。",
+      "example": "写有权利，还要检查妇女、奴隶和穷人是否真的拥有。",
+      "priority": 1
+    },
+    {
+      "term": "自由",
+      "icon": "🕊️",
+      "plain": "在不伤害别人并遵守共同规则时作出选择。",
+      "example": "历史文件写下自由，还要看哪些人当时没有得到。",
+      "priority": 2
+    },
+    {
+      "term": "奴隶制",
+      "icon": "⛓️",
+      "plain": "把人当财物并强迫劳动的不平等制度。",
+      "example": "讲奴隶制要看被伤害的人和反抗，不能让孩子扮演买卖。",
+      "priority": 1
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "改革",
+      "icon": "🛠️",
+      "plain": "发现旧办法有问题，改变规则或做法。",
+      "example": "改革可能带来新机会，也可能遇到阻力和新问题。",
+      "priority": 1
+    },
+    {
+      "term": "公民",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "属于一个国家、依法有权利也有责任的人。",
+      "example": "古代有些地方只让少数人成为公民。",
+      "priority": 1
+    },
+    {
+      "term": "民主",
+      "icon": "🗳️",
+      "plain": "公共事情不只由一个人说了算，人们按规则参与。",
+      "example": "不同年代参与范围不同，不能把古代投票当成今天制度。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "宪法",
+      "icon": "📜",
+      "plain": "规定国家怎样组织、人民有哪些基本权利的根本法律。",
+      "example": "写进宪法是一项承诺，还要看后来怎样实行。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "主权",
+      "icon": "🏠",
+      "plain": "一个国家自己决定本国事务的权力。",
+      "example": "强迫签约、割地或控制关税会伤害主权。",
+      "priority": 1
+    },
+    {
+      "term": "共和国",
+      "icon": "🏛️",
+      "plain": "国家职位不是由皇位世代传下去的国家形式。",
+      "example": "写下共和国原则，不代表这些原则立刻全部做到。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "税收",
+      "icon": "🧾",
+      "plain": "公共机构按规则向居民或交易收取的钱和物。",
+      "example": "税收可用于公共事务，也要看负担是否合理。",
+      "priority": 2
+    },
+    {
+      "term": "议会",
+      "icon": "🪑",
+      "plain": "一些代表一起讨论、决定公共事情的机构。",
+      "example": "还要问哪些人能选代表，哪些人当时被排除。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "政权",
+      "icon": "🏛️",
+      "plain": "谁在用什么机构和规则管理一个地方。",
+      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
+      "priority": 2
+    },
+    {
+      "term": "宗教",
+      "icon": "🕯️",
+      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
+      "example": "同一种宗教内部也有不同地区、时代和人群。",
+      "priority": 2
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "王权",
+      "icon": "👑",
+      "plain": "国王或皇帝掌握的统治权力。",
+      "example": "王权强不等于国王一个人能完成所有事情。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "海地",
+      "reading": "Hǎidì",
+      "kind": "place",
+      "chapterIds": [
+        "world-modern-03-02-american-french-revolutions"
+      ],
+      "note": "加勒比国家名称。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一页文字",
+      "icon": "📄",
+      "label": "三份人权文件漏掉了谁",
+      "question": "写下自由和平等以后，为什么妇女、被奴役者和殖民地人民还要继续行动？"
+    },
+    "coverAudio": {
+      "id": "quest-26533185b5552fd4",
+      "text": "今天从一页文字出发：三份人权文件漏掉了谁。我们要去北美、法国巴黎与海地，看看独立宣言、法国人权宣言与海地独立档案怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-9f20f9c83c21167e",
+      "text": "五条线索都找到了，“三份人权文件漏掉了谁”的答案是：文件提出新原则，却漏掉许多人；后来者继续行动，才扩大权利范围。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 11,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一页文字出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是英美法资产阶级革命，时间是17—18世纪。",
+          "narration": "这是英美法资产阶级革命，时间是17—18世纪。",
+          "displayText": "这是英美法资产阶级革命，时间是17—18世纪。"
+        },
+        "assetId": "haiti-independence-declaration-poster-1804-public-domain",
+        "image": "/content/step-images/haiti-independence-declaration-poster-1804-public-domain.jpg",
+        "imageAlt": "1804年海地独立宣言印刷海报",
+        "imageCaption": "英国国家档案馆保存的1804年海地独立宣言印刷海报，顶部写有“自由或死亡”，档案号MFQ 1/184。",
+        "imageBoundary": "保留Commons图像960×1201像素，未裁切。它证明独立政治宣告及传播版本，不代表所有海地居民对德萨林政权看法相同；不可将‘自由或死亡’做成暴力选择按钮。",
+        "audio": {
+          "transition": {
+            "id": "quest-b549517b0dc0130c",
+            "text": "先给一页文字找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-5477594bb8becb68",
+            "text": "这是英美法资产阶级革命，时间是17—18世纪。"
+          },
+          "image": {
+            "id": "quest-b45804e28cd13427",
+            "text": "点开大图啦。这是1804年海地独立宣言印刷海报。这张图能帮我们找到：这是英美法资产阶级革命，时间是17—18世纪。"
+          },
+          "question": {
+            "id": "quest-00e58e93824b8fd3",
+            "text": "从一页文字出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-03-02-american-french-revolutions-time-1",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "world-modern-03-02-american-french-revolutions-time-2",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          },
+          {
+            "id": "world-modern-03-02-american-french-revolutions-time-3",
+            "label": "世界近代史 · 英美法资产阶级革命 · 17—18世纪",
+            "correct": true,
+            "audio": {
+              "id": "quest-5929831d10adc0c5",
+              "text": "世界近代史 · 英美法资产阶级革命 · 17—18世纪"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "自由平等写进文件",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先翻开北美和法国写下的自由平等文件。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "自由平等写进文件",
+          "screenText": "先翻开北美和法国写下的自由平等文件。",
+          "narration": "先翻开北美和法国写下的自由平等文件。",
+          "displayText": "先翻开北美和法国写下的自由平等文件。"
+        },
+        "assetId": "haiti-independence-declaration-poster-1804-public-domain",
+        "image": "/content/step-images/haiti-independence-declaration-poster-1804-public-domain.jpg",
+        "imageAlt": "1804年海地独立宣言印刷海报",
+        "imageCaption": "英国国家档案馆保存的1804年海地独立宣言印刷海报，顶部写有“自由或死亡”，档案号MFQ 1/184。",
+        "imageBoundary": "保留Commons图像960×1201像素，未裁切。它证明独立政治宣告及传播版本，不代表所有海地居民对德萨林政权看法相同；不可将‘自由或死亡’做成暴力选择按钮。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-6b992ed1b8ea2106",
+            "text": "先翻开北美和法国写下的自由平等文件。"
+          },
+          "image": {
+            "id": "quest-1ee507c2d37af5b8",
+            "text": "点开大图啦。这是1804年海地独立宣言印刷海报。这张图能帮我们找到：先翻开北美和法国写下的自由平等文件。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-03-02-american-french-revolutions-beginning-1",
+            "label": "三份人权文件漏掉了谁、北美、法国巴黎与海，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-5e4046cce3eb88b4",
+              "text": "三份人权文件漏掉了谁、北美、法国巴黎与海，只是故事人物"
+            }
+          },
+          {
+            "id": "world-modern-03-02-american-french-revolutions-beginning-2",
+            "label": "独立宣言、法国人权宣言与海地独立档案，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-f17bc0c54480ddcc",
+              "text": "独立宣言、法国人权宣言与海地独立档案，是能核对的证物"
+            }
+          },
+          {
+            "id": "world-modern-03-02-american-french-revolutions-beginning-3",
+            "label": "北美、法国巴黎与海地、三份人权文件漏，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-cda74885ccc82813",
+              "text": "北美、法国巴黎与海地、三份人权文件漏，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "谁没有被写进去",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着问：妇女、被排除者和殖民地人民在哪里？",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "谁没有被写进去",
+          "screenText": "接着问：妇女、被排除者和殖民地人民在哪里？",
+          "narration": "接着问：妇女、被排除者和殖民地人民在哪里？",
+          "displayText": "接着问：妇女、被排除者和殖民地人民在哪里？"
+        },
+        "assetId": "olympe-womens-rights-1791-public-domain",
+        "image": "/content/step-images/olympe-womens-rights-1791-public-domain.jpg",
+        "imageAlt": "1791年《女权和女公民权宣言》刊本页",
+        "imageCaption": "奥兰普·德古热1791年《女权和女公民权宣言》刊本页，仿照1789年宣言追问妇女公民权。",
+        "imageBoundary": "保留Commons图像250×489像素，未裁切，分辨率只适合小幅展示。必须标明这是政治主张而非议会通过的法律；不把德古热只写成后来被处死的人。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-2c25e0ad2e73c890",
+            "text": "接着问：妇女、被排除者和殖民地人民在哪里？"
+          },
+          "image": {
+            "id": "quest-5186393ece309e58",
+            "text": "点开大图啦。这是1791年《女权和女公民权宣言》刊本页。这张图能帮我们找到：接着问：妇女、被排除者和殖民地人民在哪里？"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-03-02-american-french-revolutions-journey-1",
+            "label": "接着问：妇女、被排除者和殖民地人民在哪里？",
+            "correct": true,
+            "audio": {
+              "id": "quest-2c25e0ad2e73c890",
+              "text": "接着问：妇女、被排除者和殖民地人民在哪里？"
+            }
+          },
+          {
+            "id": "world-modern-03-02-american-french-revolutions-journey-2",
+            "label": "三份人权文件漏掉了谁、独立宣言，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-26473cef782c0561",
+              "text": "三份人权文件漏掉了谁、独立宣言，只认出人物"
+            }
+          },
+          {
+            "id": "world-modern-03-02-american-french-revolutions-journey-3",
+            "label": "北美、法国巴黎与海地、独立宣，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-d54081a37d4fa8c8",
+              "text": "北美、法国巴黎与海地、独立宣，只说了地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "后来者继续行动",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后看海地等地继续行动，让权利范围扩大。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "后来者继续行动",
+          "screenText": "最后看海地等地继续行动，让权利范围扩大。",
+          "narration": "最后看海地等地继续行动，让权利范围扩大。",
+          "displayText": "最后看海地等地继续行动，让权利范围扩大。"
+        },
+        "assetId": "women-march-versailles-print-1789-public-domain",
+        "image": "/content/step-images/women-march-versailles-print-1789-public-domain.jpg",
+        "imageAlt": "1789年版画《到凡尔赛去》",
+        "imageCaption": "匿名版画《到凡尔赛去》，表现1789年10月5日巴黎妇女与其他群众前往凡尔赛；BnF编号btv1b8410839z。",
+        "imageBoundary": "本地文件为Commons重定向取得的3840×2619像素JPEG，未裁切。作品是当时艺术表现而非照片；人物、武器、队列和文字经过组织，不能统计参与人数、确定每人身份或说明所有妇女诉求相同。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-b6dca87b053b5e3a",
+            "text": "最后看海地等地继续行动，让权利范围扩大。"
+          },
+          "image": {
+            "id": "quest-fc4c7c5492d2e41d",
+            "text": "点开大图啦。这是1789年版画《到凡尔赛去》。这张图能帮我们找到：最后看海地等地继续行动，让权利范围扩大。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-03-02-american-french-revolutions-change-1",
+            "label": "独立宣言、法国人权宣言，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-a8bc03b7ba6c5660",
+              "text": "独立宣言、法国人权宣言，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-modern-03-02-american-french-revolutions-change-2",
+            "label": "问：妇女、被排除者和殖民地，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-452365608665b558",
+              "text": "问：妇女、被排除者和殖民地，还只是行动经过"
+            }
+          },
+          {
+            "id": "world-modern-03-02-american-french-revolutions-change-3",
+            "label": "最后看海地等地继续行动，让权利范围扩大。",
+            "correct": true,
+            "audio": {
+              "id": "quest-b6dca87b053b5e3a",
+              "text": "最后看海地等地继续行动，让权利范围扩大。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "文件提出新原则，却漏掉许多人；后来者继续行动，才扩大权利范围。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "文件提出新原则，却漏掉许多人；后来者继续行动，才扩大权利范围。",
+          "narration": "文件提出新原则，却漏掉许多人；后来者继续行动，才扩大权利范围。",
+          "displayText": "文件提出新原则，却漏掉许多人；后来者继续行动，才扩大权利范围。"
+        },
+        "assetId": "haiti-independence-declaration-poster-1804-public-domain",
+        "image": "/content/step-images/haiti-independence-declaration-poster-1804-public-domain.jpg",
+        "imageAlt": "1804年海地独立宣言印刷海报",
+        "imageCaption": "英国国家档案馆保存的1804年海地独立宣言印刷海报，顶部写有“自由或死亡”，档案号MFQ 1/184。",
+        "imageBoundary": "保留Commons图像960×1201像素，未裁切。它证明独立政治宣告及传播版本，不代表所有海地居民对德萨林政权看法相同；不可将‘自由或死亡’做成暴力选择按钮。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-029de98c203972c0",
+            "text": "文件提出新原则，却漏掉许多人；后来者继续行动，才扩大权利范围。"
+          },
+          "image": {
+            "id": "quest-f89d20fa70e1f2e4",
+            "text": "点开大图啦。这是1804年海地独立宣言印刷海报。这张图能帮我们找到：文件提出新原则，却漏掉许多人；后来者继续行动，才扩大权利范围。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-modern-03-02-american-french-revolutions-takeaway-1",
+            "label": "翻开北美和法国写下的自由平等文件。、独立宣言、法，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-394b8e153186778f",
+              "text": "翻开北美和法国写下的自由平等文件。、独立宣言、法，只说了原因"
+            }
+          },
+          {
+            "id": "world-modern-03-02-american-french-revolutions-takeaway-2",
+            "label": "文件提出新原则，却漏掉许多人；后来者继续行动，才扩大权利范围。",
+            "correct": true,
+            "audio": {
+              "id": "quest-029de98c203972c0",
+              "text": "文件提出新原则，却漏掉许多人；后来者继续行动，才扩大权利范围。"
+            }
+          },
+          {
+            "id": "world-modern-03-02-american-french-revolutions-takeaway-3",
+            "label": "看海地等地继续行动，让权利范围扩大。、三份人权文件漏，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-ab45edfcd275a3bd",
+              "text": "看海地等地继续行动，让权利范围扩大。、三份人权文件漏，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "双线时间轴",
+        "items": [
+          "把1776美国宣言、1787美国宪法、1789法国权利宣言、1791女权宣言与圣多明各起义、1799政变、1804海地独立和法国民法典放回两条共时线。反馈解释相互影响与不同目标，不做哪个国家更早、更自由的竞速。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "文件各自回答什么",
+        "items": [
+          "把美国《独立宣言》连到“为什么脱离英国”，美国宪法连到“联邦政府怎样组织”，法国权利宣言连到“法律与国民主权原则”，《女权宣言》连到“质问妇女为何被排除”，海地独立宣言连到“摆脱法国殖民统治”。任何一项都不能连到“所有问题从此解决”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "口号与现实配对",
+        "items": [
+          "把“人生而平等”与“美国奴隶制仍继续”，“法律对所有人相同”与“法国妇女仍无同等参政权”，“普遍自由”与“圣多明各被奴役者自己起义争取自由”配对。反馈强调矛盾会推动后来行动，不用人物伤亡、土地或财富计分。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 11,
   "conclusion": [
     "美国独立战争和法国大革命都受到启蒙思想影响，也都留下谈论自由、平等、人民权利和政府责任的重要文件，但两者解决的问题不同。北美十三个英属殖民地经过1775—1783年战争脱离英国，1776年《独立宣言》说明独立理由，1787年宪法建立联邦政府框架。它们没有同时结束奴隶制、停止侵占原住民土地或让妇女普遍参政。法国大革命从1789年的财政、社会和政治危机开始，先建立君主立宪制，1792年建立共和国，又经历战争、处死国王、恐怖统治和政权更迭，1799年拿破仑政变结束革命时期。1789年《人权和公民权宣言》宣布法律平等和国家主权来自国民，妇女和被奴役者却要继续行动，才能迫使“普遍权利”面对自己的边界。圣多明各被奴役者1791年起义推动法国1794年首次废奴；拿破仑政府1802年恢复奴隶制，海地革命者击败法国军队并于1804年宣布独立。拿破仑时期《法国民法典》统一部分法律、保留财产和法律平等等革命成果，也加强丈夫和父亲在家庭中的权力。革命的意义不能只看口号，也要追问权利给了谁、谁仍被排除、后来谁继续争取。"
@@ -874,70 +1571,91 @@
       "title": "1776年美国《独立宣言》羊皮纸誊清签署本",
       "localPath": "reference-assets/world-modern-american-french-revolutions/us-declaration-1776.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Engrossed_Declaration_of_Independence,_front.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain / U.S. federal government record",
       "clearance": "cleared-public-domain",
       "caption": "1776年美国《独立宣言》羊皮纸誊清本正面；大陆会议7月4日通过文字，这一版本从8月2日起由代表陆续签署。",
-      "boundary": "本地文件为Commons重定向取得的3840×4669像素JPEG，未裁切。必须区分7月4日通过与8月2日开始签署，不说56名代表同一天落笔；文件原则不能用来证明当时已结束奴隶制或实现普遍投票权。"
+      "boundary": "本地文件为Commons重定向取得的3840×4669像素JPEG，未裁切。必须区分7月4日通过与8月2日开始签署，不说56名代表同一天落笔；文件原则不能用来证明当时已结束奴隶制或实现普遍投票权。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "us-constitution-page1-1787-public-domain",
       "title": "1787年美国宪法第一页",
       "localPath": "reference-assets/world-modern-american-french-revolutions/us-constitution-1787-page1.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_(page_1).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "1787年9月17日美国制宪会议签署的宪法第一页，以“We the People”开头并设置国会立法权。",
-      "boundary": "本地文件为3840×4648像素JPEG，未裁切。首页不能代表四页宪法全部内容；展示三权结构时必须同时提示五分之三计算、奴隶输入条款和选举资格限制。"
+      "boundary": "本地文件为3840×4648像素JPEG，未裁切。首页不能代表四页宪法全部内容；展示三权结构时必须同时提示五分之三计算、奴隶输入条款和选举资格限制。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "french-rights-declaration-original-1789-public-domain",
       "title": "1789年《人权和公民权宣言》原稿第一页",
       "localPath": "reference-assets/world-modern-american-french-revolutions/french-rights-declaration-1789-page1.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:D%C3%A9claration_des_droits_de_l%27homme_et_du_citoyen_de_1789._Page_1_-_Archives_Nationales_-_AE-II-1129.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "法国国家档案馆保存的1789年《人权和公民权宣言》原稿第一页，档案号AE/II/1129。",
-      "boundary": "保留Commons图像685×1000像素，未裁切。它支持1789年制宪议会通过的权利原则，不表示妇女、殖民地被奴役者和所有贫穷男性已经获得同等政治参与。"
+      "boundary": "保留Commons图像685×1000像素，未裁切。它支持1789年制宪议会通过的权利原则，不表示妇女、殖民地被奴役者和所有贫穷男性已经获得同等政治参与。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "olympe-womens-rights-1791-public-domain",
       "title": "1791年《女权和女公民权宣言》刊本页",
       "localPath": "reference-assets/world-modern-american-french-revolutions/olympe-de-gouges-womens-rights-1791.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:DDFC.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "奥兰普·德古热1791年《女权和女公民权宣言》刊本页，仿照1789年宣言追问妇女公民权。",
-      "boundary": "保留Commons图像250×489像素，未裁切，分辨率只适合小幅展示。必须标明这是政治主张而非议会通过的法律；不把德古热只写成后来被处死的人。"
+      "boundary": "保留Commons图像250×489像素，未裁切，分辨率只适合小幅展示。必须标明这是政治主张而非议会通过的法律；不把德古热只写成后来被处死的人。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "women-march-versailles-print-1789-public-domain",
       "title": "1789年版画《到凡尔赛去》",
       "localPath": "reference-assets/world-modern-american-french-revolutions/womens-march-versailles-1789.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Versailles,_%C3%A0_Versailles_du_5_Octobre_1789_-_estampe_-_non_identifi%C3%A9_-_btv1b8410839z.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "匿名版画《到凡尔赛去》，表现1789年10月5日巴黎妇女与其他群众前往凡尔赛；BnF编号btv1b8410839z。",
-      "boundary": "本地文件为Commons重定向取得的3840×2619像素JPEG，未裁切。作品是当时艺术表现而非照片；人物、武器、队列和文字经过组织，不能统计参与人数、确定每人身份或说明所有妇女诉求相同。"
+      "boundary": "本地文件为Commons重定向取得的3840×2619像素JPEG，未裁切。作品是当时艺术表现而非照片；人物、武器、队列和文字经过组织，不能统计参与人数、确定每人身份或说明所有妇女诉求相同。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "haiti-independence-declaration-poster-1804-public-domain",
       "title": "1804年海地独立宣言印刷海报",
       "localPath": "reference-assets/world-modern-american-french-revolutions/haiti-declaration-independence-1804.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Deklarasyon_Endepandans_Ayiti.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "英国国家档案馆保存的1804年海地独立宣言印刷海报，顶部写有“自由或死亡”，档案号MFQ 1/184。",
-      "boundary": "保留Commons图像960×1201像素，未裁切。它证明独立政治宣告及传播版本，不代表所有海地居民对德萨林政权看法相同；不可将‘自由或死亡’做成暴力选择按钮。"
+      "boundary": "保留Commons图像960×1201像素，未裁切。它证明独立政治宣告及传播版本，不代表所有海地居民对德萨林政权看法相同；不可将‘自由或死亡’做成暴力选择按钮。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "french-code-civil-first-edition-1804-public-domain",
       "title": "1804年《法国民法典》原版数字化页",
       "localPath": "reference-assets/world-modern-american-french-revolutions/code-civil-1804.png",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Code_Civil_1804.png",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain",
       "clearance": "cleared-public-domain",
       "caption": "法国国家印刷机构1804年出版的《法国民法典》原版数字化页，可见总标题、序题和第一条。",
-      "boundary": "保留Commons图像636×762像素，未裁切。法典用于说明统一民事法律、世俗登记和家庭财产规则，也必须同时说明丈夫父亲权力及已婚妇女限制，不能写成完全平等的现代法典。"
+      "boundary": "保留Commons图像636×762像素，未裁切。法典用于说明统一民事法律、世俗登记和家庭财产规则，也必须同时说明丈夫父亲权力及已婚妇女限制，不能写成完全平等的现代法典。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-modern-03-02-american-french-revolutions.jpg",

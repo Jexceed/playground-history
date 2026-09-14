@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.12.0",
+  "contentVersion": "0.13.0",
   "id": "cn-contemporary-04-01-new-era-development",
   "trackId": "china-contemporary",
   "trackLabel": "中国现代史",
@@ -13,7 +13,600 @@
   "title": "进入新时代，中国面对哪些新任务",
   "coreQuestion": "新的发展阶段怎样回应人民生活与国家治理的新需要？",
   "throughline": "依据课程标准，以脱贫攻坚、科技创新、生态文明和公共基础设施等可核验案例，认识新时代的发展成就与任务。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "cn-contemporary-04-01-new-era-development",
+    "childTitle": "高铁、稻田和社区怎样一起变好",
+    "prompt": "新的发展任务为什么既要看速度，也要看生活、环境和公平？",
+    "takeaway": "高铁和新技术是成果，发展还要看普通生活、城乡差距和环境能否变好。",
+    "object": "高铁、生态修复照片与公共服务记录",
+    "people": [
+      "工程师、农民、社区工作者与普通居民"
+    ],
+    "place": "中国不同地区的城市、乡村与生态保护地",
+    "culture": "非遗与当代生活记录",
+    "care": "不用宏大口号代替具体任务，也不做地区发展高低排名。",
+    "preferredAssetId": "fuxing-cr400af-2017-photo"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "⚙️",
+      "label": "从一台机器出发",
+      "text": "高铁、稻田和社区怎样一起变好"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "坐高铁看三种地方",
+      "text": "先坐高铁穿过城市、稻田和青山。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "看看大家在忙什么",
+      "text": "接着看工程师、农民和社区工作者各自忙什么。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "一起改善生活",
+      "text": "最后交通、生态和公共服务要一起改善生活。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "高铁和新技术是成果，发展还要看普通生活、城乡差距和环境能否变好。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "改革",
+      "icon": "🛠️",
+      "plain": "发现旧办法有问题，改变规则或做法。",
+      "example": "改革可能带来新机会，也可能遇到阻力和新问题。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "文明",
+      "icon": "🏙️",
+      "plain": "许多人长期创造的社会生活与文化成果。",
+      "example": "不同文明各有环境和道路，不做高低排名。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "社会主义",
+      "icon": "🤝",
+      "plain": "主张生产与社会发展更多服务共同需要的制度方向。",
+      "example": "不同国家的实践并不完全一样，要看具体时间和政策。",
+      "priority": 3
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "全球",
+      "icon": "🌍",
+      "plain": "把整个世界许多地区放在一起观察。",
+      "example": "全球问题在各地影响不同，不能用一个例子代表全部。",
+      "priority": 3
+    },
+    {
+      "term": "责任",
+      "icon": "🤲",
+      "plain": "答应或应当承担、需要认真完成的事情。",
+      "example": "拥有公共权利，也常要承担相应责任。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "非遗",
+      "reading": "Fēiyí",
+      "kind": "term",
+      "chapterIds": [
+        "cn-contemporary-04-01-new-era-development"
+      ],
+      "note": "“非物质文化遗产”的简称。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一台机器",
+      "icon": "⚙️",
+      "label": "高铁、稻田和社区怎样一起变好",
+      "question": "新的发展任务为什么既要看速度，也要看生活、环境和公平？"
+    },
+    "coverAudio": {
+      "id": "quest-2323e89d218bc0e8",
+      "text": "今天从一台机器出发：高铁、稻田和社区怎样一起变好。我们要去中国不同地区的城市、乡村与生态保护地，看看高铁、生态修复照片与公共服务记录怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-7f880ea27b86bec6",
+      "text": "五条线索都找到了，“高铁、稻田和社区怎样一起变好”的答案是：高铁和新技术是成果，发展还要看普通生活、城乡差距和环境能否变好。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 9,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一台机器出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是中国特色社会主义新时代，时间是2012年至今。",
+          "narration": "这是中国特色社会主义新时代，时间是2012年至今。",
+          "displayText": "这是中国特色社会主义新时代，时间是2012年至今。"
+        },
+        "assetId": "fuxing-cr400af-2017-photo",
+        "image": "/content/step-images/fuxing-cr400af-2017-photo.jpg",
+        "imageAlt": "复兴号CR400AF列车2017年实拍",
+        "imageCaption": "2017年6月26日在北京拍摄的复兴号CR400AF-2001列车。",
+        "imageBoundary": "Commons原图5520×3680像素，本地按原比例缩小为2200×1466像素，未裁切。照片显示一列具体型号列车和铁路设施，不能证明2012—2021年全国铁路总里程、各地车次、速度、票价或可达性；统计趋势必须另据国家统计局资料。正式使用须署名N509FZ，链接CC BY-SA 4.0，并以同一许可共享改编版本。",
+        "audio": {
+          "transition": {
+            "id": "quest-8b7a34459d3f2eba",
+            "text": "先给一台机器找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-a1ef38e2d9e98b97",
+            "text": "这是中国特色社会主义新时代，时间是2012年至今。"
+          },
+          "image": {
+            "id": "quest-589d1f1baebfe6d6",
+            "text": "点开大图啦。这是复兴号CR400AF列车2017年实拍。这张图能帮我们找到：这是中国特色社会主义新时代，时间是2012年至今。"
+          },
+          "question": {
+            "id": "quest-f75c2d78fe1fb0f2",
+            "text": "从一台机器出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-04-01-new-era-development-time-1",
+            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "correct": false,
+            "audio": {
+              "id": "quest-ec1b28f3cd29e479",
+              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-01-new-era-development-time-2",
+            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "correct": false,
+            "audio": {
+              "id": "quest-d697ebadd2ec4ecb",
+              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-01-new-era-development-time-3",
+            "label": "中国现代史 · 中国特色社会主义新时代 · 2012年至今",
+            "correct": true,
+            "audio": {
+              "id": "quest-bb09c9ca3e99174e",
+              "text": "中国现代史 · 中国特色社会主义新时代 · 2012年至今"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "坐高铁看三种地方",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先坐高铁穿过城市、稻田和青山。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "坐高铁看三种地方",
+          "screenText": "先坐高铁穿过城市、稻田和青山。",
+          "narration": "先坐高铁穿过城市、稻田和青山。",
+          "displayText": "先坐高铁穿过城市、稻田和青山。"
+        },
+        "assetId": "fuxing-cr400af-2017-photo",
+        "image": "/content/step-images/fuxing-cr400af-2017-photo.jpg",
+        "imageAlt": "复兴号CR400AF列车2017年实拍",
+        "imageCaption": "2017年6月26日在北京拍摄的复兴号CR400AF-2001列车。",
+        "imageBoundary": "Commons原图5520×3680像素，本地按原比例缩小为2200×1466像素，未裁切。照片显示一列具体型号列车和铁路设施，不能证明2012—2021年全国铁路总里程、各地车次、速度、票价或可达性；统计趋势必须另据国家统计局资料。正式使用须署名N509FZ，链接CC BY-SA 4.0，并以同一许可共享改编版本。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-4f19658341a2e64f",
+            "text": "先坐高铁穿过城市、稻田和青山。"
+          },
+          "image": {
+            "id": "quest-ee3857c536c66ad1",
+            "text": "点开大图啦。这是复兴号CR400AF列车2017年实拍。这张图能帮我们找到：先坐高铁穿过城市、稻田和青山。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-04-01-new-era-development-beginning-1",
+            "label": "中国不同地区的城市、乡村与生态保，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-b93c5f26ac6cc2b0",
+              "text": "中国不同地区的城市、乡村与生态保，只是故事地点"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-01-new-era-development-beginning-2",
+            "label": "高铁、生态修复照片与公共服务记录，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-569cf6d0a0b1dab7",
+              "text": "高铁、生态修复照片与公共服务记录，是能核对的证物"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-01-new-era-development-beginning-3",
+            "label": "工程师、农民、社区工作者与普通居民，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-74b1dee881123cd7",
+              "text": "工程师、农民、社区工作者与普通居民，只是故事人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "看看大家在忙什么",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看工程师、农民和社区工作者各自忙什么。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "看看大家在忙什么",
+          "screenText": "接着看工程师、农民和社区工作者各自忙什么。",
+          "narration": "接着看工程师、农民和社区工作者各自忙什么。",
+          "displayText": "接着看工程师、农民和社区工作者各自忙什么。"
+        },
+        "assetId": "poverty-population-change-2012-2020-chart",
+        "image": "/content/step-images/poverty-population-change-2012-2020-chart.jpg",
+        "imageAlt": "2012—2020年中国农村贫困人口变化图",
+        "imageCaption": "国务院新闻办公室白皮书中的图1，显示2012—2020年按脱贫攻坚工作口径统计的中国农村贫困人口数量变化。",
+        "imageBoundary": "保存官方网页嵌入的900×695像素原图，未改动图中文字。图中单位为万人，2020年标注‘全部脱贫’，必须结合正文解释为‘到2020年底、现行标准下’完成脱贫攻坚目标任务；它不能显示单个家庭经历、贫困多维标准变化、返贫风险或2020年以后的情况。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-dc3b3b91f6d7954b",
+            "text": "接着看工程师、农民和社区工作者各自忙什么。"
+          },
+          "image": {
+            "id": "quest-5fae7f5508199e0a",
+            "text": "点开大图啦。这是2012—2020年中国农村贫困人口变化图。这张图能帮我们找到：接着看工程师、农民和社区工作者各自忙什么。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-04-01-new-era-development-journey-1",
+            "label": "接着看工程师、农民和社区工作者各自忙什么。",
+            "correct": true,
+            "audio": {
+              "id": "quest-dc3b3b91f6d7954b",
+              "text": "接着看工程师、农民和社区工作者各自忙什么。"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-01-new-era-development-journey-2",
+            "label": "中国不同地区的城市、乡村与生，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-807d933716874e5e",
+              "text": "中国不同地区的城市、乡村与生，只说了地点"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-01-new-era-development-journey-3",
+            "label": "工程师、农民、社区工作者与普通居，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-58c47b1faf36ee9e",
+              "text": "工程师、农民、社区工作者与普通居，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "一起改善生活",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后交通、生态和公共服务要一起改善生活。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "一起改善生活",
+          "screenText": "最后交通、生态和公共服务要一起改善生活。",
+          "narration": "最后交通、生态和公共服务要一起改善生活。",
+          "displayText": "最后交通、生态和公共服务要一起改善生活。"
+        },
+        "assetId": "fuxing-cr400af-2017-photo",
+        "image": "/content/step-images/fuxing-cr400af-2017-photo.jpg",
+        "imageAlt": "复兴号CR400AF列车2017年实拍",
+        "imageCaption": "2017年6月26日在北京拍摄的复兴号CR400AF-2001列车。",
+        "imageBoundary": "Commons原图5520×3680像素，本地按原比例缩小为2200×1466像素，未裁切。照片显示一列具体型号列车和铁路设施，不能证明2012—2021年全国铁路总里程、各地车次、速度、票价或可达性；统计趋势必须另据国家统计局资料。正式使用须署名N509FZ，链接CC BY-SA 4.0，并以同一许可共享改编版本。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-9c3b0fc4af3cfba1",
+            "text": "最后交通、生态和公共服务要一起改善生活。"
+          },
+          "image": {
+            "id": "quest-88519cc41d695164",
+            "text": "点开大图啦。这是复兴号CR400AF列车2017年实拍。这张图能帮我们找到：最后交通、生态和公共服务要一起改善生活。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-04-01-new-era-development-change-1",
+            "label": "看工程师、农民和社区工作者，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-189255ab3be6f046",
+              "text": "看工程师、农民和社区工作者，还只是行动经过"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-01-new-era-development-change-2",
+            "label": "高铁、生态修复照片与公，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-958bff613c96d7af",
+              "text": "高铁、生态修复照片与公，还只是故事起点"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-01-new-era-development-change-3",
+            "label": "最后交通、生态和公共服务要一起改善生活。",
+            "correct": true,
+            "audio": {
+              "id": "quest-9c3b0fc4af3cfba1",
+              "text": "最后交通、生态和公共服务要一起改善生活。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "高铁和新技术是成果，发展还要看普通生活、城乡差距和环境能否变好。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 6,
+          "title": "把三条线索连成答案",
+          "screenText": "高铁和新技术是成果，发展还要看普通生活、城乡差距和环境能否变好。",
+          "narration": "高铁和新技术是成果，发展还要看普通生活、城乡差距和环境能否变好。",
+          "displayText": "高铁和新技术是成果，发展还要看普通生活、城乡差距和环境能否变好。"
+        },
+        "assetId": "fuxing-cr400af-2017-photo",
+        "image": "/content/step-images/fuxing-cr400af-2017-photo.jpg",
+        "imageAlt": "复兴号CR400AF列车2017年实拍",
+        "imageCaption": "2017年6月26日在北京拍摄的复兴号CR400AF-2001列车。",
+        "imageBoundary": "Commons原图5520×3680像素，本地按原比例缩小为2200×1466像素，未裁切。照片显示一列具体型号列车和铁路设施，不能证明2012—2021年全国铁路总里程、各地车次、速度、票价或可达性；统计趋势必须另据国家统计局资料。正式使用须署名N509FZ，链接CC BY-SA 4.0，并以同一许可共享改编版本。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-147890cc04024a29",
+            "text": "高铁和新技术是成果，发展还要看普通生活、城乡差距和环境能否变好。"
+          },
+          "image": {
+            "id": "quest-0981b9456f354a53",
+            "text": "点开大图啦。这是复兴号CR400AF列车2017年实拍。这张图能帮我们找到：高铁和新技术是成果，发展还要看普通生活、城乡差距和环境能否变好。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-contemporary-04-01-new-era-development-takeaway-1",
+            "label": "交通、生态和公共服务要一起改善生活。、高铁、稻田和社区，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-930d4a8258676d3e",
+              "text": "交通、生态和公共服务要一起改善生活。、高铁、稻田和社区，只说了结果"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-01-new-era-development-takeaway-2",
+            "label": "高铁和新技术是成果，发展还要看普通生活、城乡差距和环境能否变好。",
+            "correct": true,
+            "audio": {
+              "id": "quest-147890cc04024a29",
+              "text": "高铁和新技术是成果，发展还要看普通生活、城乡差距和环境能否变好。"
+            }
+          },
+          {
+            "id": "cn-contemporary-04-01-new-era-development-takeaway-3",
+            "label": "坐高铁穿过城市、稻田和青山。、高铁、生态修复照片与，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-ddad3e39744dc170",
+              "text": "坐高铁穿过城市、稻田和青山。、高铁、生态修复照片与，只说了原因"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "美好生活需要篮",
+        "items": [
+          "把“吃穿、教育、健康、安全、环境、公平、更多玩具、比赛第一”等卡片放进“基本生活”“公共需要”“个人愿望”三个篮子；允许讨论同一卡片在不同家庭中的意义，不生成家庭幸福分数，也不要求儿童透露自己家庭的收入、住房或健康信息。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "一户一策证据桌",
+        "items": [
+          "使用完全虚构且不带真实姓名、照片和地址的情境卡，把“饮水不安全、上学路远、慢性病就医、住房有危险、缺少稳定工作机会”分别连接到“核实困难—选择措施—检查结果—继续监测”；不把接受帮助画成羞耻、失败或依赖，不让儿童猜测现实同学谁需要帮扶。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "一个系统怎样连起来",
+        "items": [
+          "先拼“北斗卫星—地面运行控制—用户设备”，再拼“铁路线路—车站—列车—旅客”和“法律—多地执行—监测—长期修复”；缺少一块时只提示系统功能受影响，不用爆炸、灾害或武器画面，也不把科技、速度或工程规模换成国家胜负分数。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
     "新时代不是把过去全部翻篇，也不是只有一张“成就表”。2012年，中共十八大把生态文明建设纳入“五位一体”总体布局；2013年，精准扶贫理念提出后，识别对象、分类施策和跟踪成效逐步成为脱贫攻坚的重要工作方法；2017年，中共十九大作出中国特色社会主义进入新时代的历史方位判断，并把人民对美好生活的多方面需要与发展不平衡不充分联系起来。到2020年，北斗三号全球卫星导航系统正式开通，现行标准下脱贫攻坚目标任务完成；同年通过的长江保护法于2021年施行。2012—2021年，高速铁路和互联网继续扩展。把这些线索连起来，能看见新时代发展的一个重要特点：新的需要越来越多，解决问题也越来越依靠精细识别、科技系统、法律规则、公共基础设施和持续治理。"
@@ -461,50 +1054,65 @@
       "title": "2012—2020年中国农村贫困人口变化图",
       "localPath": "reference-assets/china-contemporary-new-era-development/poverty-population-2012-2020.jpg",
       "sourcePage": "https://www.cac.gov.cn/2021-04/06/c_1619292662575527.htm",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain / official administrative document and factual chart under Article 5 of the PRC Copyright Law",
       "clearance": "cleared-official-document",
       "caption": "国务院新闻办公室白皮书中的图1，显示2012—2020年按脱贫攻坚工作口径统计的中国农村贫困人口数量变化。",
-      "boundary": "保存官方网页嵌入的900×695像素原图，未改动图中文字。图中单位为万人，2020年标注‘全部脱贫’，必须结合正文解释为‘到2020年底、现行标准下’完成脱贫攻坚目标任务；它不能显示单个家庭经历、贫困多维标准变化、返贫风险或2020年以后的情况。"
+      "boundary": "保存官方网页嵌入的900×695像素原图，未改动图中文字。图中单位为万人，2020年标注‘全部脱贫’，必须结合正文解释为‘到2020年底、现行标准下’完成脱贫攻坚目标任务；它不能显示单个家庭经历、贫困多维标准变化、返贫风险或2020年以后的情况。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "beidou-3-satellite-mockup-2022",
       "title": "北斗三号导航卫星模型2022年照片",
       "localPath": "reference-assets/china-contemporary-new-era-development/beidou-3-mockup-2022.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Beidou-3_Satellite_Mockup.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2022年12月13日拍摄的北斗三号导航卫星模型；这是展览模型，不是在轨卫星。",
-      "boundary": "Commons原图2680×2011像素，本地按原比例缩小为2200×1651像素，未裁切。背景含导航应用展示屏和展陈文字，只作为拍摄现场信息。模型能帮助观察外形，不能证明实际卫星数量、轨道、工作状态、开通日期或系统精度。正式使用须署名AKAMGO yalms，链接CC BY-SA 4.0，并以同一许可共享改编版本。"
+      "boundary": "Commons原图2680×2011像素，本地按原比例缩小为2200×1651像素，未裁切。背景含导航应用展示屏和展陈文字，只作为拍摄现场信息。模型能帮助观察外形，不能证明实际卫星数量、轨道、工作状态、开通日期或系统精度。正式使用须署名AKAMGO yalms，链接CC BY-SA 4.0，并以同一许可共享改编版本。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "yangtze-river-protection-law-2020-gazette-page-1",
       "title": "长江保护法全国人大常委会公报第一页",
       "localPath": "reference-assets/china-contemporary-new-era-development/yangtze-protection-law-2020.jpg",
       "sourcePage": "https://wb.flk.npc.gov.cn/flfg/PDF/18252080d5634d1e8bc670dca7898448.pdf",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public domain — official law under Article 5 of the PRC Copyright Law",
       "clearance": "cleared-open-license",
       "caption": "全国人大常委会公报中的长江保护法首页，可核对2020年12月26日通过、2021年3月1日起施行及法律目录。",
-      "boundary": "本地文件由国家法律法规数据库13页公报原版PDF第一页完整转为1203×1850像素JPEG，未改动文字。原页可以核对法律名称、通过和施行日期、目录及总则开头，不能单独概括全部条文、各地执行或生态效果；儿童主界面需另排大字。"
+      "boundary": "本地文件由国家法律法规数据库13页公报原版PDF第一页完整转为1203×1850像素JPEG，未改动文字。原页可以核对法律名称、通过和施行日期、目录及总则开头，不能单独概括全部条文、各地执行或生态效果；儿童主界面需另排大字。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "poyang-baishazhou-wetland-2017",
       "title": "鄱阳白沙洲湿地公园2017年照片",
       "localPath": "reference-assets/china-contemporary-new-era-development/poyang-wetland-2017.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Poyang_Baishazhou_2017.11.25_15-05-05.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2017年11月25日拍摄的鄱阳白沙洲湿地公园，可见水域、滩地、鸟群和观察者。",
-      "boundary": "Commons原图3900×2600像素，本地按原比例缩小为2200×1466像素，未裁切。照片早于长江保护法通过和施行，只能显示该时刻的一处真实湿地景观，不能证明法律效果、整个长江流域生态状况或鸟类种群变化。正式使用须署名Zhangzhugang，链接CC BY-SA 4.0，并以同一许可共享改编版本。"
+      "boundary": "Commons原图3900×2600像素，本地按原比例缩小为2200×1466像素，未裁切。照片早于长江保护法通过和施行，只能显示该时刻的一处真实湿地景观，不能证明法律效果、整个长江流域生态状况或鸟类种群变化。正式使用须署名Zhangzhugang，链接CC BY-SA 4.0，并以同一许可共享改编版本。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "fuxing-cr400af-2017-photo",
       "title": "复兴号CR400AF列车2017年实拍",
       "localPath": "reference-assets/china-contemporary-new-era-development/fuxing-cr400af-2017.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:CR400AF-2001@BJN_(20170626110730).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2017年6月26日在北京拍摄的复兴号CR400AF-2001列车。",
-      "boundary": "Commons原图5520×3680像素，本地按原比例缩小为2200×1466像素，未裁切。照片显示一列具体型号列车和铁路设施，不能证明2012—2021年全国铁路总里程、各地车次、速度、票价或可达性；统计趋势必须另据国家统计局资料。正式使用须署名N509FZ，链接CC BY-SA 4.0，并以同一许可共享改编版本。"
+      "boundary": "Commons原图5520×3680像素，本地按原比例缩小为2200×1466像素，未裁切。照片显示一列具体型号列车和铁路设施，不能证明2012—2021年全国铁路总里程、各地车次、速度、票价或可达性；统计趋势必须另据国家统计局资料。正式使用须署名N509FZ，链接CC BY-SA 4.0，并以同一许可共享改编版本。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-contemporary-04-01-new-era-development.jpg",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.9.0",
+  "contentVersion": "0.10.0",
   "id": "cross-01-hero-biography",
   "trackId": "cross-disciplinary",
   "trackLabel": "跨学科主题学习",
@@ -13,7 +13,659 @@
   "title": "中华英雄谱：怎样给林则徐做一份证据档案",
   "coreQuestion": "怎样用可靠史料讲林则徐，而不是只讲传奇？",
   "throughline": "先以1785—1850年时间线把虎门销烟放回林则徐的治水、地方任职、组织翻译和新疆水利经历，再以19世纪肖像、烟具、书法、销烟历史画、遗址和三人共同署名的《虎门销烟完竣折》区分事实、评价与纪念；最后比较玻利瓦尔文稿、秘书记录与肖像的证据类型，制作带‘能证明／不能证明’边界的三层声音档案。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "cross-01-hero-biography",
+    "childTitle": "给林则徐装一个证据档案盒",
+    "prompt": "肖像、任命书、奏折和遗址，怎样讲出人物行动又不讲成传奇？",
+    "takeaway": "把不同证据放回时间线，才能看见林则徐的选择、同伴和真实边界。",
+    "object": "林则徐肖像、任命书与《虎门销烟完竣折》",
+    "people": [
+      "林则徐、邓廷桢、怡良、参与销烟者与当地民众"
+    ],
+    "place": "福建、广东广州与虎门",
+    "culture": "人物书信与奏折",
+    "care": "主持者、协作者和时代局限同时存在，不做单人英雄奇迹。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "👋",
+      "label": "从一个人出发",
+      "text": "给林则徐装一个证据档案盒"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "先放肖像和任命书",
+      "text": "先把林则徐肖像和任命书放进档案盒。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "再加入奏折和遗址",
+      "text": "接着加入奏折、同伴名单和虎门遗址。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "证据排成时间线",
+      "text": "最后按时间排好证据，人物故事就不会变成传奇。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "把不同证据放回时间线，才能看见林则徐的选择、同伴和真实边界。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "档案",
+      "icon": "🗂️",
+      "plain": "被保存下来的文件、照片、录音等记录。",
+      "example": "一份档案记录一个角度，要和别的证据一起看。",
+      "priority": 1
+    },
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "priority": 1
+    },
+    {
+      "term": "法律",
+      "icon": "⚖️",
+      "plain": "由公共权力制定并要求遵守的正式规则。",
+      "example": "古代法律和今天不同，要放回当时社会理解。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "翻译",
+      "icon": "🗣️",
+      "plain": "把一种语言表达的意思换成另一种语言。",
+      "example": "翻译需要懂语言和知识，也常由团队反复校订。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "民族",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
+      "example": "民族不是按外貌排高低，也不会永远固定不变。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "统治",
+      "icon": "🏛️",
+      "plain": "掌权者用机构和规则管理人群与地方。",
+      "example": "研究统治还要问谁能参与、谁承担负担。",
+      "priority": 3
+    },
+    {
+      "term": "运动",
+      "icon": "📣",
+      "plain": "许多人围绕一个目标持续参加的行动。",
+      "example": "历史运动里的人、目标和做法可能并不完全相同。",
+      "priority": 3
+    },
+    {
+      "term": "责任",
+      "icon": "🤲",
+      "plain": "答应或应当承担、需要认真完成的事情。",
+      "example": "拥有公共权利，也常要承担相应责任。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "邓廷桢",
+      "reading": "Dèng Tíngzhēn",
+      "kind": "person",
+      "chapterIds": [
+        "cross-01-hero-biography"
+      ],
+      "note": "“桢”读zhēn。"
+    },
+    {
+      "text": "林则徐",
+      "reading": "Lín Zéxú",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-01-01-opium-war",
+        "cross-01-hero-biography"
+      ],
+      "note": "“则”读zé，“徐”读xú。"
+    },
+    {
+      "text": "广州",
+      "reading": "Guǎngzhōu",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-08-05-late-crisis",
+        "cn-modern-01-01-opium-war",
+        "cn-modern-01-02-deeper-crisis",
+        "cn-modern-04-02-cpc-national-revolution",
+        "cross-01-hero-biography"
+      ],
+      "note": "广东省会地名。"
+    },
+    {
+      "text": "虎门",
+      "reading": "Hǔmén",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-01-01-opium-war",
+        "cross-01-hero-biography"
+      ],
+      "note": "广东地名。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一个人",
+      "icon": "👋",
+      "label": "给林则徐装一个证据档案盒",
+      "question": "肖像、任命书、奏折和遗址，怎样讲出人物行动又不讲成传奇？"
+    },
+    "coverAudio": {
+      "id": "quest-20d859faf71f8124",
+      "text": "今天从一个人出发：给林则徐装一个证据档案盒。我们要去福建、广东广州与虎门，看看林则徐肖像、任命书与《虎门销烟完竣折》怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-7da7d7182741eb1a",
+      "text": "五条线索都找到了，“给林则徐装一个证据档案盒”的答案是：把不同证据放回时间线，才能看见林则徐的选择、同伴和真实边界。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 12,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一个人出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这个故事会跨越很多时代，来比较跨时代证据任务。",
+          "narration": "这个故事会跨越很多时代，来比较跨时代证据任务。",
+          "displayText": "这个故事会跨越很多时代，来比较跨时代证据任务。"
+        },
+        "assetId": "humen-opium-destruction-19c-artwork",
+        "image": "/content/step-images/humen-opium-destruction-19c-artwork.jpg",
+        "imageAlt": "19世纪虎门销烟艺术作品",
+        "imageCaption": "19世纪中国艺术家描绘虎门销烟的作品。",
+        "imageBoundary": "这是历史艺术作品，不是1839年现场照片、精确流程记录或操作指南。不得据画面还原销烟配方、步骤和人数，也不得设计儿童处理毒品的互动。原图1306×800像素，未作修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-26e845d2917e6a26",
+            "text": "先给一个人找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-67ed9824b7d74732",
+            "text": "这个故事会跨越很多时代，来比较跨时代证据任务。"
+          },
+          "image": {
+            "id": "quest-7c109e7da128cf78",
+            "text": "点开大图啦。这是19世纪虎门销烟艺术作品。这张图能帮我们找到：这个故事会跨越很多时代，来比较跨时代证据任务。"
+          },
+          "question": {
+            "id": "quest-1c5cffbdae9ffb27",
+            "text": "从一个人出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-01-hero-biography-time-1",
+            "label": "世界现代史 · 战后世界新变化 · 1945—1991年",
+            "correct": false,
+            "audio": {
+              "id": "quest-0e96b9cae516d4bb",
+              "text": "世界现代史 · 战后世界新变化 · 1945—1991年"
+            }
+          },
+          {
+            "id": "cross-01-hero-biography-time-2",
+            "label": "跨越很多时代 · 跨时代证据任务",
+            "correct": true,
+            "audio": {
+              "id": "quest-91c6443f7f3a1ac7",
+              "text": "跨越很多时代 · 跨时代证据任务"
+            }
+          },
+          {
+            "id": "cross-01-hero-biography-time-3",
+            "label": "世界现代史 · 第二次世界大战 · 1931—1945年",
+            "correct": false,
+            "audio": {
+              "id": "quest-7181b4ced8e577fc",
+              "text": "世界现代史 · 第二次世界大战 · 1931—1945年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "先放肖像和任命书",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先把林则徐肖像和任命书放进档案盒。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "先放肖像和任命书",
+          "screenText": "先把林则徐肖像和任命书放进档案盒。",
+          "narration": "先把林则徐肖像和任命书放进档案盒。",
+          "displayText": "先把林则徐肖像和任命书放进档案盒。"
+        },
+        "assetId": "lin-zexu-portrait-19c-public-domain",
+        "image": "/content/step-images/lin-zexu-portrait-19c-public-domain.jpg",
+        "imageAlt": "19世纪林则徐油画肖像",
+        "imageCaption": "19世纪关乔昌绘制的林则徐油画肖像。",
+        "imageBoundary": "本地文件为1212×1615像素JPEG。它是正式肖像画，不是照片、虎门销烟现场或人物心理记录；不得从表情、服装推断行动、性格或预知战争。Commons按二维公版作品忠实复制标记公有领域；跨法域商业使用前仍保留PD-Art复核提示。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-8bd83772071187c4",
+            "text": "先把林则徐肖像和任命书放进档案盒。"
+          },
+          "image": {
+            "id": "quest-7682ccb3047572a5",
+            "text": "点开大图啦。这是19世纪林则徐油画肖像。这张图能帮我们找到：先把林则徐肖像和任命书放进档案盒。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-01-hero-biography-beginning-1",
+            "label": "林则徐肖像、任命书与《虎门销烟完竣折》，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-5e013f96ac445f05",
+              "text": "林则徐肖像、任命书与《虎门销烟完竣折》，是能核对的证物"
+            }
+          },
+          {
+            "id": "cross-01-hero-biography-beginning-2",
+            "label": "林则徐、邓廷桢、怡良、参与销烟者与当地民众，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-4e95a168196c6f14",
+              "text": "林则徐、邓廷桢、怡良、参与销烟者与当地民众，只是故事人物"
+            }
+          },
+          {
+            "id": "cross-01-hero-biography-beginning-3",
+            "label": "福建、广东广州与虎门、林则徐、邓廷桢，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-9c731d13419d5fe9",
+              "text": "福建、广东广州与虎门、林则徐、邓廷桢，只是故事地点"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "再加入奏折和遗址",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着加入奏折、同伴名单和虎门遗址。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "再加入奏折和遗址",
+          "screenText": "接着加入奏折、同伴名单和虎门遗址。",
+          "narration": "接着加入奏折、同伴名单和虎门遗址。",
+          "displayText": "接着加入奏折、同伴名单和虎门遗址。"
+        },
+        "assetId": "lin-zexu-memorial-fuzhou-2004-cc-by-sa",
+        "image": "/content/step-images/lin-zexu-memorial-fuzhou-2004-cc-by-sa.jpg",
+        "imageAlt": "2004年福州林则徐纪念建筑入口",
+        "imageCaption": "2004年7月7日拍摄的福州林则徐纪念建筑入口。",
+        "imageBoundary": "本地文件为2048×1536像素JPEG。它只记录2004年可见外观和‘林文忠公祠’匾额，不是清代原貌、虎门现场或林则徐故居证据。若裁切、标注或改色，衍生作品须按CC BY-SA 4.0署名并以兼容许可分享。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-8e7573e5b9d635e7",
+            "text": "接着加入奏折、同伴名单和虎门遗址。"
+          },
+          "image": {
+            "id": "quest-c8400531513c66f1",
+            "text": "点开大图啦。这是2004年福州林则徐纪念建筑入口。这张图能帮我们找到：接着加入奏折、同伴名单和虎门遗址。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-01-hero-biography-journey-1",
+            "label": "福建、广东广州与虎门，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-897e5815cfc78960",
+              "text": "福建、广东广州与虎门，只说了地点"
+            }
+          },
+          {
+            "id": "cross-01-hero-biography-journey-2",
+            "label": "林则徐、邓廷桢、怡良、参，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-a745d081d4626e79",
+              "text": "林则徐、邓廷桢、怡良、参，只认出人物"
+            }
+          },
+          {
+            "id": "cross-01-hero-biography-journey-3",
+            "label": "接着加入奏折、同伴名单和虎门遗址。",
+            "correct": true,
+            "audio": {
+              "id": "quest-8e7573e5b9d635e7",
+              "text": "接着加入奏折、同伴名单和虎门遗址。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "证据排成时间线",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后按时间排好证据，人物故事就不会变成传奇。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "证据排成时间线",
+          "screenText": "最后按时间排好证据，人物故事就不会变成传奇。",
+          "narration": "最后按时间排好证据，人物故事就不会变成传奇。",
+          "displayText": "最后按时间排好证据，人物故事就不会变成传奇。"
+        },
+        "assetId": "lin-zexu-portrait-19c-public-domain",
+        "image": "/content/step-images/lin-zexu-portrait-19c-public-domain.jpg",
+        "imageAlt": "19世纪林则徐油画肖像",
+        "imageCaption": "19世纪关乔昌绘制的林则徐油画肖像。",
+        "imageBoundary": "本地文件为1212×1615像素JPEG。它是正式肖像画，不是照片、虎门销烟现场或人物心理记录；不得从表情、服装推断行动、性格或预知战争。Commons按二维公版作品忠实复制标记公有领域；跨法域商业使用前仍保留PD-Art复核提示。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-6634f3e8052d8737",
+            "text": "最后按时间排好证据，人物故事就不会变成传奇。"
+          },
+          "image": {
+            "id": "quest-3f7b7cd1f64b56fa",
+            "text": "点开大图啦。这是19世纪林则徐油画肖像。这张图能帮我们找到：最后按时间排好证据，人物故事就不会变成传奇。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-01-hero-biography-change-1",
+            "label": "林则徐肖像、任命书与《虎门，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-7fb7b073ea0e54be",
+              "text": "林则徐肖像、任命书与《虎门，还只是故事起点"
+            }
+          },
+          {
+            "id": "cross-01-hero-biography-change-2",
+            "label": "最后按时间排好证据，人物故事就不会变成传奇。",
+            "correct": true,
+            "audio": {
+              "id": "quest-6634f3e8052d8737",
+              "text": "最后按时间排好证据，人物故事就不会变成传奇。"
+            }
+          },
+          {
+            "id": "cross-01-hero-biography-change-3",
+            "label": "加入奏折、同伴名单和虎门遗址，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-0b8ed7c400a4646d",
+              "text": "加入奏折、同伴名单和虎门遗址，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "把不同证据放回时间线，才能看见林则徐的选择、同伴和真实边界。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "把不同证据放回时间线，才能看见林则徐的选择、同伴和真实边界。",
+          "narration": "把不同证据放回时间线，才能看见林则徐的选择、同伴和真实边界。",
+          "displayText": "把不同证据放回时间线，才能看见林则徐的选择、同伴和真实边界。"
+        },
+        "assetId": "lin-zexu-calligraphy-scroll-public-domain",
+        "image": "/content/step-images/lin-zexu-calligraphy-scroll-public-domain.jpg",
+        "imageAlt": "林则徐行书轴",
+        "imageCaption": "林则徐所书清代纸本行书轴，现藏上海博物馆。",
+        "imageBoundary": "本地文件为2669×6000像素JPEG，原作154×68厘米。它是本人书法作品，不是《虎门销烟完竣折》，不能单独证明禁烟政策、勇气或政治主张。Commons按二维公版作品忠实复制标记公有领域；跨法域商业使用前仍保留PD-Art复核提示。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-876e1af992d5487d",
+            "text": "把不同证据放回时间线，才能看见林则徐的选择、同伴和真实边界。"
+          },
+          "image": {
+            "id": "quest-508f865bba4866fd",
+            "text": "点开大图啦。这是林则徐行书轴。这张图能帮我们找到：把不同证据放回时间线，才能看见林则徐的选择、同伴和真实边界。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "cross-01-hero-biography-takeaway-1",
+            "label": "把不同证据放回时间线，才能看见林则徐的选择、同伴和真实边界。",
+            "correct": true,
+            "audio": {
+              "id": "quest-876e1af992d5487d",
+              "text": "把不同证据放回时间线，才能看见林则徐的选择、同伴和真实边界。"
+            }
+          },
+          {
+            "id": "cross-01-hero-biography-takeaway-2",
+            "label": "把林则徐肖像和任命书放进档案盒。、林则徐肖像，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-e943cb2b9871ab80",
+              "text": "把林则徐肖像和任命书放进档案盒。、林则徐肖像，只说了原因"
+            }
+          },
+          {
+            "id": "cross-01-hero-biography-takeaway-3",
+            "label": "按时间排好证据，人物故事就不会变成传奇。、给林则徐，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-9f302ffd2aede442",
+              "text": "按时间排好证据，人物故事就不会变成传奇。、给林则徐，只说了结果"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "人物时间线归位",
+        "items": [
+          "把“出生、考中进士、奉命禁烟、虎门销烟、鸦片战争、新疆水利、后世纪念”放到正确年份。",
+          "“后世纪念”必须放在人物去世以后；“鸦片战争”不能放在禁烟之前，也不显示“禁烟造成侵略者无责任”。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "证据身份分拣",
+        "items": [
+          "将“19世纪肖像、清代奏折、遗址铺地石、19世纪历史画、2004年纪念建筑照片、无来源对白”放入正确抽屉。",
+          "无来源对白进入“创意／待核查”，不能因语句感人获得更高分。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "证据配问题",
+        "items": [
+          "“人物形象—肖像”“毒品器物—烟管”“本人书写作品—行书轴”“销烟日期与数量—完竣折”“后人怎样纪念—现代纪念建筑”配对。",
+          "若把肖像拖到“销烟数量”，系统提示：“图片很真实，但它没有这个答案。”"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "把行动网络接完整",
+        "items": [
+          "将“清政府任命—林则徐主持—邓廷桢与怡良共同上奏—关天培等协助海防—执行人员与当地力量—档案保存者”连成网络。",
+          "不设计销毁步骤模拟、毒品处理配方、单人搬箱计分或“最强官员”排行。"
+        ]
+      },
+      {
+        "number": 5,
+        "title": "制作并讲解档案",
+        "items": [
+          "孩子从“主持禁烟、组织翻译、参与治水、受到处分、后人纪念”中选3条行动，每条必须连接来源卡。",
+          "再选1条评价和1条边界，组成完整结论，例如：“林则徐主持禁烟并维护民族尊严；《完竣折》和遗址支持这件事；三人署名也提醒我，行动不是他一人完成。”",
+          "点“听我的档案”时，客户端按已选卡片拼接预录本地短句；不上传儿童声音，不调用在线生成模型。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 12,
   "conclusion": [
     "讲一位历史人物，不能只重复一个响亮称号，也不能用一张肖像替代一生。林则徐生于1785年，长期担任清朝官员并参与治水、禁烟、海防、翻译西方资料和新疆水利事务；1839年虎门销烟是他最重要的历史行动之一。国家档案局和中国国家博物馆保存、研究的《虎门销烟完竣折》由林则徐、邓廷桢、怡良共同上奏，能核对时间、数量和行动参与者；销烟池铺地石、19世纪艺术作品、鸦片烟具、人物肖像、书法和现代纪念建筑又分别回答不同问题。可靠的人物档案要把人放回时代和集体行动中，用“事实—证据—边界”说明评价：林则徐主持禁烟、抵抗外来侵略并关注民生，因此被后人纪念；他仍受到清代知识和制度条件限制，也不是独自完成所有行动。跨到同一时期的世界，玻利瓦尔的文稿、秘书记录、肖像与后世历史画同样需要分清第一手文献、艺术表达和后来记忆；比较证据，不是给英雄排高低。"
@@ -1105,70 +1757,91 @@
       "title": "19世纪虎门销烟艺术作品",
       "localPath": "reference-assets/china-modern-late-qing/humen-opium-destruction-artwork.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Destruction_of_opium_in_1839.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "19世纪中国艺术家描绘虎门销烟的作品。",
-      "boundary": "这是历史艺术作品，不是1839年现场照片、精确流程记录或操作指南。不得据画面还原销烟配方、步骤和人数，也不得设计儿童处理毒品的互动。原图1306×800像素，未作修改。"
+      "boundary": "这是历史艺术作品，不是1839年现场照片、精确流程记录或操作指南。不得据画面还原销烟配方、步骤和人数，也不得设计儿童处理毒品的互动。原图1306×800像素，未作修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "lin-zexu-portrait-19c-public-domain",
       "title": "19世纪林则徐油画肖像",
       "localPath": "reference-assets/cross-hero-biography/lin-zexu-portrait-19c.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Portrait_of_Lin_Zexu_(cropped).jpeg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0 / PD-Art",
       "clearance": "cleared-open-license",
       "caption": "19世纪关乔昌绘制的林则徐油画肖像。",
-      "boundary": "本地文件为1212×1615像素JPEG。它是正式肖像画，不是照片、虎门销烟现场或人物心理记录；不得从表情、服装推断行动、性格或预知战争。Commons按二维公版作品忠实复制标记公有领域；跨法域商业使用前仍保留PD-Art复核提示。"
+      "boundary": "本地文件为1212×1615像素JPEG。它是正式肖像画，不是照片、虎门销烟现场或人物心理记录；不得从表情、服装推断行动、性格或预知战争。Commons按二维公版作品忠实复制标记公有领域；跨法域商业使用前仍保留PD-Art复核提示。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "lin-zexu-calligraphy-scroll-public-domain",
       "title": "林则徐行书轴",
       "localPath": "reference-assets/cross-hero-biography/lin-zexu-calligraphy-scroll.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:林则徐_行书轴.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0 / PD-Art",
       "clearance": "cleared-open-license",
       "caption": "林则徐所书清代纸本行书轴，现藏上海博物馆。",
-      "boundary": "本地文件为2669×6000像素JPEG，原作154×68厘米。它是本人书法作品，不是《虎门销烟完竣折》，不能单独证明禁烟政策、勇气或政治主张。Commons按二维公版作品忠实复制标记公有领域；跨法域商业使用前仍保留PD-Art复核提示。"
+      "boundary": "本地文件为2669×6000像素JPEG，原作154×68厘米。它是本人书法作品，不是《虎门销烟完竣折》，不能单独证明禁烟政策、勇气或政治主张。Commons按二维公版作品忠实复制标记公有领域；跨法域商业使用前仍保留PD-Art复核提示。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "lin-zexu-memorial-fuzhou-2004-cc-by-sa",
       "title": "2004年福州林则徐纪念建筑入口",
       "localPath": "reference-assets/cross-hero-biography/lin-zexu-memorial-fuzhou-2004.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Lin_Zexu_Memorial_in_Fuzhou.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2004年7月7日拍摄的福州林则徐纪念建筑入口。",
-      "boundary": "本地文件为2048×1536像素JPEG。它只记录2004年可见外观和‘林文忠公祠’匾额，不是清代原貌、虎门现场或林则徐故居证据。若裁切、标注或改色，衍生作品须按CC BY-SA 4.0署名并以兼容许可分享。"
+      "boundary": "本地文件为2048×1536像素JPEG。它只记录2004年可见外观和‘林文忠公祠’匾额，不是清代原貌、虎门现场或林则徐故居证据。若裁切、标注或改色，衍生作品须按CC BY-SA 4.0署名并以兼容许可分享。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "opium-pipe-china-19c-wilanow-cc0",
       "title": "中国19世纪鸦片烟管",
       "localPath": "reference-assets/cross-hero-biography/opium-pipe-china-19c.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Opium_Pipe_(Wil.2676).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "中国19世纪黄铜与白铜鸦片烟管，高35.5厘米。",
-      "boundary": "本地文件为733×2500像素JPEG。器物不属于林则徐，不用于推断吸食人数、走私数量或禁烟现场；儿童界面不得展示使用方法、处理步骤或把器物做成可玩奖励。"
+      "boundary": "本地文件为733×2500像素JPEG。器物不属于林则徐，不用于推断吸食人数、走私数量或禁烟现场；儿童界面不得展示使用方法、处理步骤或把器物做成可玩奖励。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "jamaica-letter-manuscript-exhibition-2017-cc-by-sa",
       "title": "2017年展陈中拍摄的1815年《牙买加来信》原稿页",
       "localPath": "reference-assets/world-modern-colonial-resistance/jamaica-32487613314.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:CARTA_DE_JAMAICA_(32487613314).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 2.0",
       "clearance": "cleared-open-license",
       "caption": "2017年在厄瓜多尔总统府展陈中拍摄的1815年《牙买加来信》西班牙文原稿页。玻利瓦尔口述，秘书佩德罗·布里塞尼奥·门德斯记录。",
-      "boundary": "本地文件为5472×3648像素JPEG，照片斜向拍摄，保留展柜和档案印章。必须标明这是2017年展陈照片，不说是直接扫描；不能把笔迹说成玻利瓦尔亲笔，也不能仅凭一页概括全部文本。若裁切或叠加标注，成品按CC BY-SA 2.0署名并以兼容许可分享。"
+      "boundary": "本地文件为5472×3648像素JPEG，照片斜向拍摄，保留展柜和档案印章。必须标明这是2017年展陈照片，不说是直接扫描；不能把笔迹说成玻利瓦尔亲笔，也不能仅凭一页概括全部文本。若裁切或叠加标注，成品按CC BY-SA 2.0署名并以兼容许可分享。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "simon-bolivar-portrait-c1823-public-domain",
       "title": "约1823年西蒙·玻利瓦尔油画肖像",
       "localPath": "reference-assets/world-modern-colonial-resistance/simon-bolivar-c1823.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:José_Gil_de_Castro_-_Simón_Bolívar_-_Google_Art_Project.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark",
       "clearance": "cleared-public-domain",
       "caption": "秘鲁画家何塞·希尔·德·卡斯特罗约1823年绘制的玻利瓦尔肖像，创作时间接近独立战争后期。",
-      "boundary": "本地文件为3039×4001像素JPEG。它是正式油画肖像，不是照片，也不能从军装和姿态推断玻利瓦尔一人指挥了所有拉丁美洲独立运动。"
+      "boundary": "本地文件为3039×4001像素JPEG。它是正式油画肖像，不是照片，也不能从军装和姿态推断玻利瓦尔一人指挥了所有拉丁美洲独立运动。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cross-01-hero-biography.jpg",

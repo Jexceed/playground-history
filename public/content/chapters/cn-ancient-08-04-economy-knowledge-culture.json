@@ -1,22 +1,760 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-08-04-economy-knowledge-culture",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
   "period": {
-    "id": "ming-qing",
-    "label": "明清",
-    "years": "1368—1840年前（本内容轨范围）"
+    "id": "ming",
+    "label": "明朝",
+    "years": "1368—1644年"
   },
-  "order": 31,
-  "title": "农书、工艺、商业与文学中的明清生活",
-  "coreQuestion": "经济变化和知识积累怎样影响明清社会生活？",
-  "throughline": "从《本草纲目》《天工开物》《农政全书》、城镇商业与小说戏曲等证据观察科技、经济和文化，同时放入全球经济互动背景。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "order": 35,
+  "title": "明代农书、工艺、商业与文学怎样相遇",
+  "coreQuestion": "经济变化和知识积累怎样影响明代社会生活？",
+  "throughline": "从《本草纲目》《天工开物》《农政全书》、明代城镇商业与小说戏曲等证据观察科技、经济和文化，同时放入全球经济互动背景。",
+  "childEntry": {
+    "id": "cn-ancient-08-04-economy-knowledge-culture",
+    "childTitle": "跟宋应星问一问工匠",
+    "prompt": "一本书怎样把工匠的办法留给后来的人？",
+    "takeaway": "宋应星的《天工开物》记录生产技术；观察、请教和整理离不开劳动者的实践。",
+    "object": "《本草纲目》《天工开物》与《南都繁会图》",
+    "people": [
+      "宋应星",
+      "劳动者"
+    ],
+    "place": "南京及明代城乡市场",
+    "culture": "昆曲与明代文学",
+    "care": "纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-08-04-economy-knowledge-culture",
+    "featured": {
+      "type": "人物",
+      "icon": "📚",
+      "title": "宋应星与劳动者",
+      "childBridge": "一本书怎样把工匠的办法留给后来的人？",
+      "evidenceBoundary": "纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。"
+    },
+    "companions": [
+      {
+        "type": "典籍",
+        "label": "《本草纲目》",
+        "note": "整理许多旧知识，也留下当时认识的边界。"
+      },
+      {
+        "type": "典籍",
+        "label": "《天工开物》",
+        "note": "插图帮助观察工艺，不是工坊现场照片。"
+      },
+      {
+        "type": "人物",
+        "label": "徐光启",
+        "note": "把农事经验、书本和交流继续连起来。"
+      },
+      {
+        "type": "地点",
+        "label": "南京书坊与工坊",
+        "note": "知识还要经过刻版、印刷和读者。"
+      }
+    ],
+    "sourceIds": [
+      "NMC-BENCAO-GANGMU",
+      "NMC-TIANGONG-KAIWU",
+      "UNESCO-BENCAO-GANGMU",
+      "PEP-HISTORY-7B-2026-TRIAL"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "两本书的时间",
+      "text": "李时珍在1578年完成《本草纲目》书稿。宋应星的《天工开物》在1637年刊行，都属于明代。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "把目光放到工匠手上",
+      "text": "今天跟着《天工开物》看制作。技术不只来自书桌，也来自许多工匠的实践。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "做法要按先后记",
+      "text": "看这条简化纺织图：有纤维，纺成线，再织成布。我们只用图理解顺序。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "看过以后还要整理",
+      "text": "把见到的办法写下、画下，再比较核对，后来的人才有材料可以学习。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "书是谁的成果",
+      "text": "作者整理成书，工匠创造和实践做法。不能把所有工艺都说成宋应星独自发明。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    },
+    {
+      "term": "经济",
+      "icon": "🧺",
+      "plain": "人们怎样生产、交换、分配和使用东西。",
+      "example": "经济变化最后会落到工作、食物、住房等生活里。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "小说",
+      "icon": "📖",
+      "plain": "用人物和一连串事情讲故事的文学作品。",
+      "example": "《西游记》是明代长篇小说，不是玄奘本人的旅行日记。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "李时珍",
+      "reading": "Lǐ Shízhēn",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-04-economy-knowledge-culture"
+      ],
+      "note": "“珍”读zhēn。"
+    },
+    {
+      "text": "宋应星",
+      "reading": "Sòng Yìngxīng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-04-economy-knowledge-culture"
+      ],
+      "note": "“应”在人名中读yìng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "跟宋应星问一问工匠",
+      "question": "一本书怎样把工匠的办法留给后来的人？"
+    },
+    "cta": "去把做法画下来",
+    "anchor": "宋应星与劳动者",
+    "boundary": "纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。",
+    "evidence": [
+      {
+        "id": "tiangong-kaiwu-casting-illustration",
+        "title": "《天工开物》铸鼎插图",
+        "localPath": "reference-assets/ming-qing/tiangong-kaiwu-casting.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tiangong_Kaiwu_Tripod_Casting.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "Public Domain Mark 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "《天工开物》传本中的铸鼎工序插图。",
+        "boundary": "历史技术书中的传刊插图，不是1637年作坊照片，也不能据一页复原所有设备、人数和步骤。原图400×309像素，尺寸较小，不宜过度放大。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/tiangong-kaiwu-casting-illustration.jpg"
+      }
+    ],
+    "coverAsset": {
+      "id": "tiangong-kaiwu-casting-illustration",
+      "title": "《天工开物》铸鼎插图",
+      "localPath": "reference-assets/ming-qing/tiangong-kaiwu-casting.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tiangong_Kaiwu_Tripod_Casting.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "《天工开物》传本中的铸鼎工序插图。",
+      "boundary": "历史技术书中的传刊插图，不是1637年作坊照片，也不能据一页复原所有设备、人数和步骤。原图400×309像素，尺寸较小，不宜过度放大。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/tiangong-kaiwu-casting-illustration.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/tiangong-kaiwu-casting-illustration.jpg",
+    "coverImageAlt": "《天工开物》铸鼎插图",
+    "coverImageKind": "历史材料",
+    "coverAudio": {
+      "id": "quest-1ffeefd668815b56",
+      "text": "跟宋应星问一问工匠。一本书怎样把工匠的办法留给后来的人？准备好就点“去把做法画下来”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-4fa02336c1feb18c",
+      "text": "宋应星的《天工开物》记录生产技术；观察、请教和整理离不开劳动者的实践。"
+    },
+    "finish": {
+      "title": "把一个小动作教给家人",
+      "actions": [
+        "选“拿纸、对齐、对折”三个安全动作，慢慢做一遍。",
+        "请家人按顺序复做，你指出哪一步没说明白。"
+      ],
+      "parent": "体验记录技术的价值，不让孩子采药、辨药或尝植物；《本草纲目》只作同代知识整理的连接。",
+      "sceneStepIndexes": [
+        2,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-7512647934bc557a",
+          "text": "选“拿纸、对齐、对折”三个安全动作，慢慢做一遍。"
+        },
+        {
+          "id": "quest-9afc4d85a45e7a4e",
+          "text": "请家人按顺序复做，你指出哪一步没说明白。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-59c047f56e39b452",
+        "text": "把一个小动作教给家人。选“拿纸、对齐、对折”三个安全动作，慢慢做一遍。请家人按顺序复做，你指出哪一步没说明白。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "两本书的时间",
+        "title": "两本书的时间",
+        "prompt": "哪件事在前？",
+        "rightNote": "两位作者都认真整理知识，这里先区分两本书和各自时间。",
+        "wrongNote": "两位作者都认真整理知识，这里先区分两本书和各自时间。",
+        "sourceIds": [
+          "NMC-TIANGONG-KAIWU",
+          "NMC-BENCAO-GANGMU",
+          "UNESCO-BENCAO-GANGMU"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "两本书的时间",
+          "screenText": "李时珍在1578年完成《本草纲目》书稿。宋应星的《天工开物》在1637年刊行，都属于明代。",
+          "displayText": "李时珍在1578年完成《本草纲目》书稿。宋应星的《天工开物》在1637年刊行，都属于明代。",
+          "narration": "李时珍在1578年完成《本草纲目》书稿。宋应星的《天工开物》在1637年刊行，都属于明代。"
+        },
+        "assetId": "study-118b2e45b7d25e71",
+        "image": "/content/study-scenes/study-118b2e45b7d25e71.svg",
+        "studyImage": "/content/study-scenes/study-118b2e45b7d25e71.svg",
+        "studyImageAlt": "1578年 本草成稿，1637年 天工刊行",
+        "imageAlt": "1578年 本草成稿，1637年 天工刊行",
+        "imageCaption": "学习示意 · 1578年 本草成稿，1637年 天工刊行",
+        "imageBoundary": "自制学习示意。纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。",
+        "audio": {
+          "transition": {
+            "id": "quest-0df64d27aab2a80a",
+            "text": "两本书的时间。"
+          },
+          "intro": {
+            "id": "quest-1b3d7d37e2794b02",
+            "text": "李时珍在1578年完成《本草纲目》书稿。宋应星的《天工开物》在1637年刊行，都属于明代。"
+          },
+          "question": {
+            "id": "quest-9de56ca95d39d80a",
+            "text": "哪件事在前？"
+          },
+          "image": {
+            "id": "quest-4f649715993175e8",
+            "text": "这是学习示意图：1578年 本草成稿，1637年 天工刊行。哪件事在前？"
+          },
+          "right": {
+            "id": "quest-5ccf129d650c25fc",
+            "text": "找到了。两位作者都认真整理知识，这里先区分两本书和各自时间。"
+          },
+          "wrong": {
+            "id": "quest-5cced8532d0ce503",
+            "text": "再比较一下。两位作者都认真整理知识，这里先区分两本书和各自时间。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-04-economy-knowledge-culture-time-1",
+            "label": "1578年《本草纲目》成稿",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-e5361fe864f9b896.svg",
+            "imageAlt": "1578年",
+            "audio": {
+              "id": "quest-fb709ab7f71eedff",
+              "text": "1578年《本草纲目》成稿"
+            }
+          },
+          {
+            "id": "cn-ancient-08-04-economy-knowledge-culture-time-2",
+            "label": "1637年《天工开物》刊行",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-d70ef2cd0cb924ad.svg",
+            "imageAlt": "1637年",
+            "audio": {
+              "id": "quest-9a693f643929e2b7",
+              "text": "1637年《天工开物》刊行"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "把目光放到工匠手上",
+        "title": "把目光放到工匠手上",
+        "prompt": "想知道一种东西怎样做，先看谁？",
+        "rightNote": "观察实际制作，才能追问步骤和工具怎样配合。",
+        "wrongNote": "观察实际制作，才能追问步骤和工具怎样配合。",
+        "sourceIds": [
+          "NMC-TIANGONG-KAIWU",
+          "NMC-BENCAO-GANGMU",
+          "UNESCO-BENCAO-GANGMU"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "把目光放到工匠手上",
+          "screenText": "今天跟着《天工开物》看制作。技术不只来自书桌，也来自许多工匠的实践。",
+          "displayText": "今天跟着《天工开物》看制作。技术不只来自书桌，也来自许多工匠的实践。",
+          "narration": "今天跟着《天工开物》看制作。技术不只来自书桌，也来自许多工匠的实践。"
+        },
+        "assetId": "study-62dcfc13c2cf8c4b",
+        "image": "/content/study-scenes/study-62dcfc13c2cf8c4b.svg",
+        "studyImage": "/content/study-scenes/study-62dcfc13c2cf8c4b.svg",
+        "studyImageAlt": "工匠实践，书中记录",
+        "imageAlt": "工匠实践，书中记录",
+        "imageCaption": "学习示意 · 工匠实践，书中记录",
+        "imageBoundary": "自制学习示意。纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。",
+        "audio": {
+          "transition": {
+            "id": "quest-86f81638e89da25b",
+            "text": "把目光放到工匠手上。"
+          },
+          "intro": {
+            "id": "quest-697dd1d7fb292355",
+            "text": "今天跟着《天工开物》看制作。技术不只来自书桌，也来自许多工匠的实践。"
+          },
+          "question": {
+            "id": "quest-6aa72cd1286079a9",
+            "text": "想知道一种东西怎样做，先看谁？"
+          },
+          "image": {
+            "id": "quest-f364968919622551",
+            "text": "这是学习示意图：工匠实践，书中记录。想知道一种东西怎样做，先看谁？"
+          },
+          "right": {
+            "id": "quest-7a792f9a71aaba42",
+            "text": "找到了。观察实际制作，才能追问步骤和工具怎样配合。"
+          },
+          "wrong": {
+            "id": "quest-6bbc9d4d81c1ae4f",
+            "text": "再比较一下。观察实际制作，才能追问步骤和工具怎样配合。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-04-economy-knowledge-culture-beginning-1",
+            "label": "实际制作的工匠",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-c492f718f476a2c5.svg",
+            "imageAlt": "制作的工匠",
+            "audio": {
+              "id": "quest-1c30fa5d29da121e",
+              "text": "实际制作的工匠"
+            }
+          },
+          {
+            "id": "cn-ancient-08-04-economy-knowledge-culture-beginning-2",
+            "label": "只看书封面上的花纹",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-9fec1685b22e923a.svg",
+            "imageAlt": "封面花纹",
+            "audio": {
+              "id": "quest-9384af5c2e84057b",
+              "text": "只看书封面上的花纹"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "做法要按先后记",
+        "title": "做法要按先后记",
+        "prompt": "布放在这条流程的哪里？",
+        "rightNote": "材料经过加工，才成为布；真实工艺还有更多步骤。",
+        "wrongNote": "材料经过加工，才成为布；真实工艺还有更多步骤。",
+        "sourceIds": [
+          "NMC-TIANGONG-KAIWU",
+          "NMC-BENCAO-GANGMU",
+          "UNESCO-BENCAO-GANGMU"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "做法要按先后记",
+          "screenText": "看这条简化纺织图：有纤维，纺成线，再织成布。我们只用图理解顺序。",
+          "displayText": "看这条简化纺织图：有纤维，纺成线，再织成布。我们只用图理解顺序。",
+          "narration": "看这条简化纺织图：有纤维，纺成线，再织成布。我们只用图理解顺序。"
+        },
+        "assetId": "study-c4bf58524b31adc1",
+        "image": "/content/study-scenes/study-c4bf58524b31adc1.svg",
+        "studyImage": "/content/study-scenes/study-c4bf58524b31adc1.svg",
+        "studyImageAlt": "纤维，纺线，织布",
+        "imageAlt": "纤维，纺线，织布",
+        "imageCaption": "学习示意 · 纤维，纺线，织布",
+        "imageBoundary": "自制学习示意。纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。",
+        "audio": {
+          "transition": {
+            "id": "quest-f502436fecc2b7c2",
+            "text": "做法要按先后记。"
+          },
+          "intro": {
+            "id": "quest-ea399d22c6c9cf7b",
+            "text": "看这条简化纺织图：有纤维，纺成线，再织成布。我们只用图理解顺序。"
+          },
+          "question": {
+            "id": "quest-9c7e298715c592cb",
+            "text": "布放在这条流程的哪里？"
+          },
+          "image": {
+            "id": "quest-bf08d3aaabb8299c",
+            "text": "这是学习示意图：纤维，纺线，织布。布放在这条流程的哪里？"
+          },
+          "right": {
+            "id": "quest-388f07b574f306e7",
+            "text": "找到了。材料经过加工，才成为布；真实工艺还有更多步骤。"
+          },
+          "wrong": {
+            "id": "quest-df374e119d0b6d4e",
+            "text": "再比较一下。材料经过加工，才成为布；真实工艺还有更多步骤。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-04-economy-knowledge-culture-journey-1",
+            "label": "纤维、纺线之后",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-854f9e32899d7cc9.svg",
+            "imageAlt": "纤维，线，布",
+            "audio": {
+              "id": "quest-9ffeb9ec96902f15",
+              "text": "纤维、纺线之后"
+            }
+          },
+          {
+            "id": "cn-ancient-08-04-economy-knowledge-culture-journey-2",
+            "label": "纤维还没准备之前",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-8c2fc7285192c77f.svg",
+            "imageAlt": "先有布，后备纤维",
+            "audio": {
+              "id": "quest-7db62d167ca73bd4",
+              "text": "纤维还没准备之前"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "看过以后还要整理",
+        "title": "看过以后还要整理",
+        "prompt": "哪种记录更有用？",
+        "rightNote": "感叹可以表达喜欢，步骤与说明才能帮助理解怎样制作。",
+        "wrongNote": "感叹可以表达喜欢，步骤与说明才能帮助理解怎样制作。",
+        "sourceIds": [
+          "NMC-TIANGONG-KAIWU",
+          "NMC-BENCAO-GANGMU",
+          "UNESCO-BENCAO-GANGMU"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "看过以后还要整理",
+          "screenText": "把见到的办法写下、画下，再比较核对，后来的人才有材料可以学习。",
+          "displayText": "把见到的办法写下、画下，再比较核对，后来的人才有材料可以学习。",
+          "narration": "把见到的办法写下、画下，再比较核对，后来的人才有材料可以学习。"
+        },
+        "assetId": "study-7690196bccbde195",
+        "image": "/content/study-scenes/study-7690196bccbde195.svg",
+        "studyImage": "/content/study-scenes/study-7690196bccbde195.svg",
+        "studyImageAlt": "观察，图文记录，整理",
+        "imageAlt": "观察，图文记录，整理",
+        "imageCaption": "学习示意 · 观察，图文记录，整理",
+        "imageBoundary": "自制学习示意。纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。",
+        "audio": {
+          "transition": {
+            "id": "quest-fa231d0c95338638",
+            "text": "看过以后还要整理。"
+          },
+          "intro": {
+            "id": "quest-73b9dcff773904c8",
+            "text": "把见到的办法写下、画下，再比较核对，后来的人才有材料可以学习。"
+          },
+          "question": {
+            "id": "quest-05efa7fd2befc716",
+            "text": "哪种记录更有用？"
+          },
+          "image": {
+            "id": "quest-5e98c42475cafc74",
+            "text": "这是学习示意图：观察，图文记录，整理。哪种记录更有用？"
+          },
+          "right": {
+            "id": "quest-7761217d16f8d03b",
+            "text": "找到了。感叹可以表达喜欢，步骤与说明才能帮助理解怎样制作。"
+          },
+          "wrong": {
+            "id": "quest-3126cf041a20aac7",
+            "text": "再比较一下。感叹可以表达喜欢，步骤与说明才能帮助理解怎样制作。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-04-economy-knowledge-culture-change-1",
+            "label": "步骤配图，说明做法",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-0161700929a09e21.svg",
+            "imageAlt": "步骤图和说明",
+            "audio": {
+              "id": "quest-4ba6d68bb5e72fb2",
+              "text": "步骤配图，说明做法"
+            }
+          },
+          {
+            "id": "cn-ancient-08-04-economy-knowledge-culture-change-2",
+            "label": "只写“真好看”",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-7d04a673c105e120.svg",
+            "imageAlt": "只写真好看",
+            "audio": {
+              "id": "quest-dc5aa3506849c412",
+              "text": "只写“真好看”"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "书是谁的成果",
+        "title": "书是谁的成果",
+        "prompt": "介绍这本书时，要把谁一起讲？",
+        "rightNote": "把记录者与实际劳动者都看见，技术故事才连得起来。",
+        "wrongNote": "把记录者与实际劳动者都看见，技术故事才连得起来。",
+        "sourceIds": [
+          "NMC-TIANGONG-KAIWU",
+          "NMC-BENCAO-GANGMU",
+          "UNESCO-BENCAO-GANGMU"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "书是谁的成果",
+          "screenText": "作者整理成书，工匠创造和实践做法。不能把所有工艺都说成宋应星独自发明。",
+          "displayText": "作者整理成书，工匠创造和实践做法。不能把所有工艺都说成宋应星独自发明。",
+          "narration": "作者整理成书，工匠创造和实践做法。不能把所有工艺都说成宋应星独自发明。"
+        },
+        "assetId": "study-eaed01b77118babe",
+        "image": "/content/study-scenes/study-eaed01b77118babe.svg",
+        "studyImage": "/content/study-scenes/study-eaed01b77118babe.svg",
+        "studyImageAlt": "工匠，宋应星，书",
+        "imageAlt": "工匠，宋应星，书",
+        "imageCaption": "学习示意 · 工匠，宋应星，书",
+        "imageBoundary": "自制学习示意。纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。",
+        "audio": {
+          "transition": {
+            "id": "quest-3cb046858cfae036",
+            "text": "书是谁的成果。"
+          },
+          "intro": {
+            "id": "quest-bdcc8815d08cd3d8",
+            "text": "作者整理成书，工匠创造和实践做法。不能把所有工艺都说成宋应星独自发明。"
+          },
+          "question": {
+            "id": "quest-75c95e4e60f796d5",
+            "text": "介绍这本书时，要把谁一起讲？"
+          },
+          "image": {
+            "id": "quest-63eb4c4103ebf3ef",
+            "text": "这是学习示意图：工匠，宋应星，书。介绍这本书时，要把谁一起讲？"
+          },
+          "right": {
+            "id": "quest-f98ebec6d9f95ffa",
+            "text": "找到了。把记录者与实际劳动者都看见，技术故事才连得起来。"
+          },
+          "wrong": {
+            "id": "quest-a228c2b136ab69c0",
+            "text": "再比较一下。把记录者与实际劳动者都看见，技术故事才连得起来。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-08-04-economy-knowledge-culture-takeaway-1",
+            "label": "作者与长期实践的工匠",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-fbdd5c346ae5b3e7.svg",
+            "imageAlt": "作者和工匠",
+            "audio": {
+              "id": "quest-ef2994a086ac6f21",
+              "text": "作者与长期实践的工匠"
+            }
+          },
+          {
+            "id": "cn-ancient-08-04-economy-knowledge-culture-takeaway-2",
+            "label": "只有作者一个人",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-3a9a85124e3109aa.svg",
+            "imageAlt": "只有作者",
+            "audio": {
+              "id": "quest-0f05fe5e8b8a893d",
+              "text": "只有作者一个人"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "商品旅行链",
+        "items": [
+          "按“原料—制作—运输—市场”排列一件器物的路径。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "证据能说什么",
+        "items": [
+          "把画卷、书页、现代演出照片分别连到“艺术观察”“历史知识记录”“今日传承”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "安全判断",
+        "items": [
+          "选择“用《本草纲目》研究历史医学”，拒绝“照古书自己采药服药”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
-    "明中后期，农业和手工业继续发展，商品生产、城市商业和跨区域贸易更加活跃；清前期经济恢复并扩大，但地区、家庭和社会群体之间并不一样。《本草纲目》《天工开物》等著作整理前人知识，也记录观察、实践和工艺经验。小说、戏曲和绘画反映城市文化与公众娱乐的发展。明清中国还处在白银、作物和商品跨洲流动的世界中，不能把它讲成完全与外界隔绝，也不能因后来的工业差距而说这一时期“没有科学”。"
+    "明中后期，农业和手工业继续发展，商品生产、城市商业和跨区域贸易更加活跃，但地区、家庭和社会群体之间并不一样。《本草纲目》《天工开物》《农政全书》等著作整理前人知识，也记录观察、实践和工艺经验。小说、戏曲和绘画反映城市文化与公众娱乐的发展。明代中国还处在白银、作物和商品跨洲流动的世界中，不能把它讲成完全与外界隔绝，也不能因后来的工业差距而说这一时期“没有科学”。"
   ],
   "facts": [
     {
@@ -28,10 +766,10 @@
     },
     {
       "number": 2,
-      "text": "清前期经济恢复发展，人口和耕地等也发生变化。新的作物与更大范围的市场联系影响生产和生活，但“经济增长”不表示每个家庭都同样富裕。",
+      "text": "明中后期，白银更广泛地进入赋税与市场活动，美洲作物也逐渐传入中国；这些变化发生的时间和范围并不完全相同，不能说一件商品立刻改变所有人的生活。",
       "sourceIds": [
-        "NMC-MING-QING",
-        "NMC-NANDU-FANHUI"
+        "CSSN-MING-SILVER-GLOBAL",
+        "NPS-COLUMBIAN-EXCHANGE"
       ]
     },
     {
@@ -51,7 +789,7 @@
     },
     {
       "number": 5,
-      "text": "《农政全书》等著作也整理农业、水利和生产经验。明清知识既继承旧成果，也来自观察和实践。",
+      "text": "《农政全书》等著作也整理农业、水利和生产经验。明代知识既继承旧成果，也来自观察和实践。",
       "sourceIds": [
         "NMC-MING-QING",
         "NMC-TIANGONG-KAIWU"
@@ -86,7 +824,7 @@
     {
       "number": 1,
       "title": "时间线定位：从田野到城市",
-      "screenText": "16—18世纪，更多产品进入市场，城市文化也更加活跃。",
+      "screenText": "16—17世纪，更多产品进入市场，城市文化也更加活跃。",
       "voices": [
         {
           "number": 1,
@@ -105,14 +843,14 @@
         {
           "number": 2,
           "label": "语音 S02：",
-          "text": "明中后期，商品生产和城市商业更加活跃；清前期经济继续恢复发展。但是“市场热闹”不等于人人富裕。地区、职业和家庭条件不同，得到的机会和承受的压力也不同。",
+          "text": "明中后期，商品生产和城市商业更加活跃。但是“市场热闹”不等于人人富裕。地区、职业和家庭条件不同，得到的机会和承受的压力也不同。",
           "segments": [
             {
               "id": "cn-ancient-08-04-economy-knowledge-culture-s01-v02-01",
               "order": 1,
               "tier": "core",
-              "text": "明中后期，商品生产和城市商业更加活跃；清前期经济继续恢复发展。但是“市场热闹”不等于人人富裕。地区、职业和家庭条件不同，得到的机会和承受的压力也不同。",
-              "hanCharacters": 66
+              "text": "明中后期，商品生产和城市商业更加活跃。但是“市场热闹”不等于人人富裕。地区、职业和家庭条件不同，得到的机会和承受的压力也不同。",
+              "hanCharacters": 55
             }
           ]
         }
@@ -237,14 +975,14 @@
         {
           "number": 8,
           "label": "语音 S08：",
-          "text": "明清人整理自然知识、改进生产、创造文学和戏曲，也面对贫富差异、制度限制和新的世界竞争。历史不是“全都繁荣”或“完全停滞”二选一。下一章，我们追问繁盛背后为什么逐渐出现危机。",
+          "text": "明代人整理自然知识、改进生产、创造文学和戏曲，也面对贫富差异和制度限制。历史不是“全都繁荣”或“完全停滞”二选一。下一站进入清朝，我们再看新的治理办法和世界变化。",
           "segments": [
             {
               "id": "cn-ancient-08-04-economy-knowledge-culture-s07-v08-01",
               "order": 1,
               "tier": "core",
-              "text": "明清人整理自然知识、改进生产、创造文学和戏曲，也面对贫富差异、制度限制和新的世界竞争。历史不是“全都繁荣”或“完全停滞”二选一。下一章，我们追问繁盛背后为什么逐渐出现危机。",
-              "hanCharacters": 74
+              "text": "明代人整理自然知识、改进生产、创造文学和戏曲，也面对贫富差异和制度限制。历史不是“全都繁荣”或“完全停滞”二选一。下一站进入清朝，我们再看新的治理办法和世界变化。",
+              "hanCharacters": 70
             }
           ]
         }
@@ -317,6 +1055,26 @@
       "imageUse": "reference-only"
     },
     {
+      "id": "CSSN-MING-SILVER-GLOBAL",
+      "title": "全球史视野下的明代白银货币化",
+      "institution": "中国社会科学网 / 光明日报",
+      "url": "https://www.cssn.cn/zkzg/zkzg_skyskl/zkzg_skyskl_yc/202207/t20220727_5421739.shtml",
+      "type": "chinese-academic-history",
+      "authorityLevel": "A-academic-commentary",
+      "factUse": "明代中后期白银货币化、中国内部市场需求、日本银与美洲银流入、1567年隆庆开关和马尼拉贸易的中国史脉络",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NPS-COLUMBIAN-EXCHANGE",
+      "title": "The Columbian Exchange",
+      "institution": "United States National Park Service",
+      "url": "https://www.nps.gov/teachers/classrooms/the-columbian-exchange.htm",
+      "type": "public-history-education",
+      "authorityLevel": "A-government-education",
+      "factUse": "1492年后人员、动植物、文化与疾病在东西半球之间流动并产生不对称影响；适合低龄教学但须与殖民暴力资料并用",
+      "imageUse": "reference-only"
+    },
+    {
       "id": "UNESCO-BENCAO-GANGMU",
       "title": "Ben Cao Gang Mu — Memory of the World",
       "institution": "UNESCO Memory of the World",
@@ -337,56 +1095,250 @@
       "imageUse": "reference-only"
     },
     {
-      "id": "NPS-COLUMBIAN-EXCHANGE",
-      "title": "The Columbian Exchange",
-      "institution": "United States National Park Service",
-      "url": "https://www.nps.gov/teachers/classrooms/the-columbian-exchange.htm",
-      "type": "public-history-education",
-      "authorityLevel": "A-government-education",
-      "factUse": "1492年后人员、动植物、文化与疾病在东西半球之间流动并产生不对称影响；适合低龄教学但须与殖民暴力资料并用",
-      "imageUse": "reference-only"
-    },
-    {
-      "id": "CSSN-MING-SILVER-GLOBAL",
-      "title": "全球史视野下的明代白银货币化",
-      "institution": "中国社会科学网 / 光明日报",
-      "url": "https://www.cssn.cn/zkzg/zkzg_skyskl/zkzg_skyskl_yc/202207/t20220727_5421739.shtml",
-      "type": "chinese-academic-history",
-      "authorityLevel": "A-academic-commentary",
-      "factUse": "明代中后期白银货币化、中国内部市场需求、日本银与美洲银流入、1567年隆庆开关和马尼拉贸易的中国史脉络",
+      "id": "PEP-HISTORY-7B-2026-TRIAL",
+      "title": "新修订义务教育历史教材七年级下册试教资料",
+      "institution": "人民教育出版社",
+      "url": "https://www.pep.com.cn/xw/zt/hd/sktbjc/jcsy/202606/t20260610_2006778.html",
+      "type": "current-textbook-implementation-reference",
+      "authorityLevel": "A-structure-only",
+      "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
       "imageUse": "reference-only"
     }
   ],
   "assets": [
     {
+      "id": "study-118b2e45b7d25e71",
+      "title": "学习示意：1578年 本草成稿、1637年 天工刊行",
+      "localPath": "reference-assets/focused-quests/study-118b2e45b7d25e71.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1578年 本草成稿 → 1637年 天工刊行",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e5361fe864f9b896",
+      "title": "学习示意：1578年",
+      "localPath": "reference-assets/focused-quests/study-e5361fe864f9b896.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1578年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d70ef2cd0cb924ad",
+      "title": "学习示意：1637年",
+      "localPath": "reference-assets/focused-quests/study-d70ef2cd0cb924ad.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "1637年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-62dcfc13c2cf8c4b",
+      "title": "学习示意：工匠实践、书中记录",
+      "localPath": "reference-assets/focused-quests/study-62dcfc13c2cf8c4b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "工匠实践 → 书中记录",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-c492f718f476a2c5",
+      "title": "学习示意：制作的工匠",
+      "localPath": "reference-assets/focused-quests/study-c492f718f476a2c5.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "制作的工匠",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-9fec1685b22e923a",
+      "title": "学习示意：封面花纹",
+      "localPath": "reference-assets/focused-quests/study-9fec1685b22e923a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "封面花纹",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-c4bf58524b31adc1",
+      "title": "学习示意：纤维、纺线、织布",
+      "localPath": "reference-assets/focused-quests/study-c4bf58524b31adc1.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "纤维 → 纺线 → 织布",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-854f9e32899d7cc9",
+      "title": "学习示意：纤维、线、布",
+      "localPath": "reference-assets/focused-quests/study-854f9e32899d7cc9.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "纤维 → 线 → 布",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8c2fc7285192c77f",
+      "title": "学习示意：先有布、后备纤维",
+      "localPath": "reference-assets/focused-quests/study-8c2fc7285192c77f.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "先有布 → 后备纤维",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-7690196bccbde195",
+      "title": "学习示意：观察、图文记录、整理",
+      "localPath": "reference-assets/focused-quests/study-7690196bccbde195.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "观察 → 图文记录 → 整理",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-0161700929a09e21",
+      "title": "学习示意：步骤图和说明",
+      "localPath": "reference-assets/focused-quests/study-0161700929a09e21.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "步骤图和说明",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-7d04a673c105e120",
+      "title": "学习示意：只写真好看",
+      "localPath": "reference-assets/focused-quests/study-7d04a673c105e120.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只写真好看",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-eaed01b77118babe",
+      "title": "学习示意：工匠、宋应星、书",
+      "localPath": "reference-assets/focused-quests/study-eaed01b77118babe.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "工匠 → 宋应星 → 书",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-fbdd5c346ae5b3e7",
+      "title": "学习示意：作者和工匠",
+      "localPath": "reference-assets/focused-quests/study-fbdd5c346ae5b3e7.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "作者和工匠",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-3a9a85124e3109aa",
+      "title": "学习示意：只有作者",
+      "localPath": "reference-assets/focused-quests/study-3a9a85124e3109aa.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只有作者",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
       "id": "tiangong-kaiwu-casting-illustration",
       "title": "《天工开物》铸鼎插图",
       "localPath": "reference-assets/ming-qing/tiangong-kaiwu-casting.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tiangong_Kaiwu_Tripod_Casting.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "《天工开物》传本中的铸鼎工序插图。",
-      "boundary": "历史技术书中的传刊插图，不是1637年作坊照片，也不能据一页复原所有设备、人数和步骤。原图400×309像素，尺寸较小，不宜过度放大。"
+      "boundary": "历史技术书中的传刊插图，不是1637年作坊照片，也不能据一页复原所有设备、人数和步骤。原图400×309像素，尺寸较小，不宜过度放大。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "bencao-gangmu-historical-page",
       "title": "《本草纲目》历史书页",
       "localPath": "reference-assets/ming-qing/bencao-gangmu-page.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Bencao_Gangmu_--_C.16_Chinese_materia_medica,_Bezoars,_etc._Wellcome_L0039333.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 4.0",
       "clearance": "cleared-open-license",
       "caption": "《本草纲目》历史版本中的一页药物知识记录。",
-      "boundary": "图中包括传统药物图文，课程只用于研究历史知识整理方式；不得把古代记载转写为现代疗效承诺，也不得引导儿童采集、制作或服用药物。下载为1920×2880像素等比例图，未作其他修改。"
+      "boundary": "图中包括传统药物图文，课程只用于研究历史知识整理方式；不得把古代记载转写为现代疗效承诺，也不得引导儿童采集、制作或服用药物。下载为1920×2880像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "kunqu-current-stage-performance",
       "title": "现代昆曲舞台演出照片",
       "localPath": "reference-assets/ming-qing/kunqu-current-performance.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Kunqu_opera_performance_in_Hangzhou_Grand_Theatre.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2023年杭州剧院《紫钗记》昆曲演出照片。",
-      "boundary": "这是现代舞台和当代演员的传承实践，画面可见现代灯光及“周末戏曲大舞台”等文字；不能当作明代演出现场或服装舞台的原样复原。原图1920×1280像素，未作修改。"
+      "boundary": "这是现代舞台和当代演员的传承实践，画面可见现代灯光及“周末戏曲大舞台”等文字；不能当作明代演出现场或服装舞台的原样复原。原图1920×1280像素，未作修改。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-08-04-economy-knowledge-culture.jpg",

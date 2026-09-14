@@ -1,7 +1,7 @@
 # 经济危机为什么让世界走向不同方向
 
 - 章节 ID：world-contemporary-02-02-depression-fascism-resistance
-- 适龄：6—9岁亲子共学
+- 适龄：4—6岁亲子共学；儿童以图标和语音为主
 - 建议时长：11分钟
 - 屏幕：7
 - 语音：8段

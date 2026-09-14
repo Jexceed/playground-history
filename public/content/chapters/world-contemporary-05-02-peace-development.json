@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.14.0",
+  "contentVersion": "0.15.0",
   "id": "world-contemporary-05-02-peace-development",
   "trackId": "world-contemporary",
   "trackLabel": "世界现代史",
@@ -13,7 +13,670 @@
   "title": "全球问题为什么需要一起解决",
   "coreQuestion": "联合国和各国怎样面对和平、环境、资源与公共健康问题？",
   "throughline": "先以1945—2022年时间线连接《联合国宪章》、中国与巴西倡议国际卫生组织、联合国维和、援外医疗、全球根除天花、《蒙特利尔议定书》、国际卫生条例、2030年议程、《巴黎协定》、新冠全球紧急状态和生物多样性框架；再用‘问题越界但责任能力不同—共同规则—分别行动—公平支持—监测复查’解释国际合作。联合国部分明确它不是世界政府并受会员国决定、安理会否决和任务授权约束；公共健康比较天花成功与疫苗公平；环境比较臭氧可核结果、气候长期行动及候鸟迁徙路线；中国线从创始签署、卫生倡议、援外医疗和维和走到人类命运共同体理念，同时保留其他国家、国际组织和普通人的主体作用。",
-  "age": "6—9岁亲子共学",
+  "childEntry": {
+    "id": "world-contemporary-05-02-peace-development",
+    "childTitle": "一只候鸟为什么需要许多国家",
+    "prompt": "鸟会飞过边界，疾病和气候也会；大家怎样分享数据、制定规则并一起行动？",
+    "takeaway": "跨境问题没有一个国家能单独解决，要分享信息、约定规则并检查行动。",
+    "object": "联合国宪章、疫苗记录、候鸟照片与可持续发展目标",
+    "people": [
+      "医生、科学家、维和人员、湿地保护者与社区居民"
+    ],
+    "place": "联合国、黄海湿地与候鸟迁徙沿线",
+    "culture": "国际标志、公共健康记录与自然观察",
+    "care": "不从一张照片给鸟或人物编身份；不同全球问题需要不同合作方法。"
+  },
+  "textbookConnection": null,
+  "childStory": [
+    {
+      "id": "hook",
+      "icon": "🔎",
+      "label": "从一件东西出发",
+      "text": "一只候鸟为什么需要许多国家"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "跟候鸟飞过边界",
+      "text": "先跟一只候鸟飞过黄海湿地和国界。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "科学家分享数据",
+      "text": "接着看科学家分享迁徙、疾病和气候数据。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "许多国家一起行动",
+      "text": "最后许多国家约定规则，一起解决跨境问题。"
+    },
+    {
+      "id": "answer-retell",
+      "icon": "🗣️",
+      "label": "把故事讲给家人听",
+      "text": "跨境问题没有一个国家能单独解决，要分享信息、约定规则并检查行动。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "迁徙",
+      "icon": "👣",
+      "plain": "人们离开原住地，搬到别的地方生活。",
+      "example": "迁徙可能因为气候、生计、战争或主动选择。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "国际",
+      "icon": "🌍",
+      "plain": "不同国家之间或许多国家共同参与的事情。",
+      "example": "国际合作要看谁参加、怎样分工、规则如何执行。",
+      "priority": 3
+    },
+    {
+      "term": "全球",
+      "icon": "🌍",
+      "plain": "把整个世界许多地区放在一起观察。",
+      "example": "全球问题在各地影响不同，不能用一个例子代表全部。",
+      "priority": 3
+    },
+    {
+      "term": "和平",
+      "icon": "🕊️",
+      "plain": "人们不靠战争解决分歧，并努力避免暴力伤害。",
+      "example": "和平需要规则、谈判和行动，不只是说一句愿望。",
+      "priority": 1
+    },
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "平等",
+      "icon": "⚖️",
+      "plain": "不因出身、性别或身份被规定成高低贵贱。",
+      "example": "说人人平等，要看法律和生活中是否真的做到。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "主权",
+      "icon": "🏠",
+      "plain": "一个国家自己决定本国事务的权力。",
+      "example": "强迫签约、割地或控制关税会伤害主权。",
+      "priority": 1
+    },
+    {
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "领土",
+      "icon": "🗺️",
+      "plain": "一个国家依法拥有和管理的土地、水域等范围。",
+      "example": "历史地图要标时间，边界不会一直不变。",
+      "priority": 2
+    },
+    {
+      "term": "政府",
+      "icon": "🏢",
+      "plain": "在一定时期管理国家公共事情的机构。",
+      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
+      "priority": 2
+    },
+    {
+      "term": "组织",
+      "icon": "🤝",
+      "plain": "许多人为了共同事情分工、联系和行动。",
+      "example": "一个名人背后常有组织、协作者和普通参与者。",
+      "priority": 2
+    },
+    {
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
+    },
+    {
+      "term": "金融",
+      "icon": "🏦",
+      "plain": "借钱、存钱、投资和支付等资金活动。",
+      "example": "金融危机不能只用一家银行或一天股价解释。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    },
+    {
+      "term": "责任",
+      "icon": "🤲",
+      "plain": "答应或应当承担、需要认真完成的事情。",
+      "example": "拥有公共权利，也常要承担相应责任。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "黄海",
+      "reading": "Huánghǎi",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-05-02-peace-development"
+      ],
+      "note": "海域名称。"
+    },
+    {
+      "text": "联合国",
+      "reading": "Liánhéguó",
+      "kind": "title",
+      "chapterIds": [
+        "cn-contemporary-02-02-science-diplomacy",
+        "cn-contemporary-04-02-china-and-world-today",
+        "world-contemporary-05-02-peace-development"
+      ],
+      "note": "“联合”连读，不在“联”后停顿。"
+    }
+  ],
+  "gameplay": {
+    "mode": "memory-hook-story-quest-v3",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "一件东西",
+      "icon": "🔎",
+      "label": "一只候鸟为什么需要许多国家",
+      "question": "鸟会飞过边界，疾病和气候也会；大家怎样分享数据、制定规则并一起行动？"
+    },
+    "coverAudio": {
+      "id": "quest-55db005327990f0c",
+      "text": "今天从一件东西出发：一只候鸟为什么需要许多国家。我们要去联合国、黄海湿地与候鸟迁徙沿线，看看联合国宪章、疫苗记录、候鸟照片与可持续发展目标怎样把答案一点点带出来。准备好就点开始。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-df8431b5c7d12790",
+      "text": "五条线索都找到了，“一只候鸟为什么需要许多国家”的答案是：跨境问题没有一个国家能单独解决，要分享信息、约定规则并检查行动。 你获得了历史证据小侦探勋章。"
+    },
+    "estimatedMinutes": 12,
+    "badge": {
+      "icon": "🏅",
+      "label": "历史证据小侦探"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到时间",
+        "title": "先把故事放进时间河",
+        "prompt": "从一件东西出发，先找哪个年代？",
+        "rightNote": "时间找对了，故事有了起点。",
+        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "story": {
+          "screenNumber": 1,
+          "title": "先把故事放进时间河",
+          "screenText": "这是当今世界发展趋势，时间是1991年至今。",
+          "narration": "这是当今世界发展趋势，时间是1991年至今。",
+          "displayText": "这是当今世界发展趋势，时间是1991年至今。"
+        },
+        "assetId": "peace-development-un-charter-reproduction-1945-nara-public-domain",
+        "image": "/content/step-images/peace-development-un-charter-reproduction-1945-nara-public-domain.jpg",
+        "imageAlt": "美国国家档案馆保存的1945年《联合国宪章》复制展示页",
+        "imageCaption": "一张1945年《联合国宪章》复制展示页，集合英文序言、部分签字页和认证信息；左侧可见中国代表签名。",
+        "imageBoundary": "本地文件为2072×3000像素JPEG。它是档案机构保存的复制展示图，不是整份宪章在签署现场同时摊开的照片；中央文字、各国签名和下方认证页来自不同页面的缩印组合。能核对文件名称、年份和部分签名，不能独自说明全部条款、会议讨论或联合国此后行动。",
+        "audio": {
+          "transition": {
+            "id": "quest-539cc8e9e5394229",
+            "text": "先给一件东西找到正确年代。"
+          },
+          "intro": {
+            "id": "quest-6b7d46789b8f6662",
+            "text": "这是当今世界发展趋势，时间是1991年至今。"
+          },
+          "image": {
+            "id": "quest-078127d963a008bb",
+            "text": "点开大图啦。这是美国国家档案馆保存的1945年《联合国宪章》复制展示页。这张图能帮我们找到：这是当今世界发展趋势，时间是1991年至今。"
+          },
+          "question": {
+            "id": "quest-50c86239196ce113",
+            "text": "从一件东西出发，先找哪个年代？"
+          },
+          "right": {
+            "id": "quest-c2d78010da74a324",
+            "text": "答对啦！时间找对了，故事有了起点。"
+          },
+          "wrong": {
+            "id": "quest-97f81f02dcd7c5eb",
+            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-05-02-peace-development-time-1",
+            "label": "世界现代史 · 当今世界发展趋势 · 1991年至今",
+            "correct": true,
+            "audio": {
+              "id": "quest-67868a47cf6da01e",
+              "text": "世界现代史 · 当今世界发展趋势 · 1991年至今"
+            }
+          },
+          {
+            "id": "world-contemporary-05-02-peace-development-time-2",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "correct": false,
+            "audio": {
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
+            }
+          },
+          {
+            "id": "world-contemporary-05-02-peace-development-time-3",
+            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "correct": false,
+            "audio": {
+              "id": "quest-2626ffdfff6b200a",
+              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-object",
+        "icon": "🔎",
+        "phase": "第一拍 · 故事起点",
+        "title": "跟候鸟飞过边界",
+        "prompt": "哪一件证物能先打开这个故事？",
+        "rightNote": "先跟一只候鸟飞过黄海湿地和国界。",
+        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "story": {
+          "screenNumber": 2,
+          "title": "跟候鸟飞过边界",
+          "screenText": "先跟一只候鸟飞过黄海湿地和国界。",
+          "narration": "先跟一只候鸟飞过黄海湿地和国界。",
+          "displayText": "先跟一只候鸟飞过黄海湿地和国界。"
+        },
+        "assetId": "peace-development-bar-tailed-godwit-alaska-2022-public-domain",
+        "image": "/content/step-images/peace-development-bar-tailed-godwit-alaska-2022-public-domain.jpg",
+        "imageAlt": "阿拉斯加育空三角洲清晨的斑尾塍鹬，2022年",
+        "imageCaption": "2022年5月14日，阿拉斯加育空三角洲国家野生动物保护区清晨的一只斑尾塍鹬。",
+        "imageBoundary": "本地文件为4433×3325像素彩色JPEG。照片能核对物种、地点、日期和湿地环境，不能确认该个体的出生地、此前路线、飞行距离、下一站或健康状况；跨国迁徙路线由USFWS长期研究资料说明。使用时注明Mark Lindberg / USFWS，不用太阳位置推算方向和速度。",
+        "audio": {
+          "transition": {
+            "id": "quest-bc13be496686808e",
+            "text": "时间找到了。先找一件看得见、能核对的证物。"
+          },
+          "intro": {
+            "id": "quest-6b66397bd9d71e03",
+            "text": "先跟一只候鸟飞过黄海湿地和国界。"
+          },
+          "image": {
+            "id": "quest-9a418f4e7cb8fff5",
+            "text": "点开大图啦。这是阿拉斯加育空三角洲清晨的斑尾塍鹬，2022年。这张图能帮我们找到：先跟一只候鸟飞过黄海湿地和国界。"
+          },
+          "question": {
+            "id": "quest-785d31b501154b8e",
+            "text": "哪一件证物能先打开这个故事？"
+          },
+          "right": {
+            "id": "quest-9e334cf899a379f3",
+            "text": "答对啦！第一件证物找到了。"
+          },
+          "wrong": {
+            "id": "quest-83318c217691cf7c",
+            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-05-02-peace-development-beginning-1",
+            "label": "联合国、黄海湿地与候鸟迁徙沿线、医生、科学家，只是故事地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-35bb6cfb4c30521f",
+              "text": "联合国、黄海湿地与候鸟迁徙沿线、医生、科学家，只是故事地点"
+            }
+          },
+          {
+            "id": "world-contemporary-05-02-peace-development-beginning-2",
+            "label": "医生、科学家、维和人员、湿地保护者与社区居民、联合，只是故事人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-e52b03ffc63433c4",
+              "text": "医生、科学家、维和人员、湿地保护者与社区居民、联合，只是故事人物"
+            }
+          },
+          {
+            "id": "world-contemporary-05-02-peace-development-beginning-3",
+            "label": "联合国宪章、疫苗记录、候鸟照片与可持续发展目标，是能核对的证物",
+            "correct": true,
+            "audio": {
+              "id": "quest-00e7d66173d77d1a",
+              "text": "联合国宪章、疫苗记录、候鸟照片与可持续发展目标，是能核对的证物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "people-place-action",
+        "icon": "🧭",
+        "phase": "第二拍 · 故事继续",
+        "title": "科学家分享数据",
+        "prompt": "故事里的人来到这里以后，做了什么？",
+        "rightNote": "接着看科学家分享迁徙、疾病和气候数据。",
+        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "story": {
+          "screenNumber": 3,
+          "title": "科学家分享数据",
+          "screenText": "接着看科学家分享迁徙、疾病和气候数据。",
+          "narration": "接着看科学家分享迁徙、疾病和气候数据。",
+          "displayText": "接着看科学家分享迁徙、疾病和气候数据。"
+        },
+        "assetId": "peace-development-antarctic-ozone-map-september-2009-cc-by",
+        "image": "/content/step-images/peace-development-antarctic-ozone-map-september-2009-cc-by.jpg",
+        "imageAlt": "2009年9月10日南极臭氧浓度卫星数据图",
+        "imageCaption": "以卫星观测合成的2009年9月10日南极臭氧浓度图，紫色和蓝色表示较低臭氧浓度。",
+        "imageBoundary": "本地文件为716×716像素JPEG。它是数据可视化，不是普通相机拍到的蓝紫色天空或实体洞口；只能说明特定日期附近的空间分布，长期趋势要比较多年同口径数据。正式使用须注明NASA Goddard Space Flight Center并链接CC BY 2.0；图旁必须给出颜色含义。",
+        "audio": {
+          "transition": {
+            "id": "quest-d4c11419e03a18fd",
+            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+          },
+          "intro": {
+            "id": "quest-50652c714574b991",
+            "text": "接着看科学家分享迁徙、疾病和气候数据。"
+          },
+          "image": {
+            "id": "quest-36e76f3ed888d8cb",
+            "text": "点开大图啦。这是2009年9月10日南极臭氧浓度卫星数据图。这张图能帮我们找到：接着看科学家分享迁徙、疾病和气候数据。"
+          },
+          "question": {
+            "id": "quest-329a69e64424a884",
+            "text": "故事里的人来到这里以后，做了什么？"
+          },
+          "right": {
+            "id": "quest-d7d6754891bc9f0f",
+            "text": "答对啦！人物、地点和行动连起来了。"
+          },
+          "wrong": {
+            "id": "quest-66c837d18451416f",
+            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-05-02-peace-development-journey-1",
+            "label": "联合国、黄海湿地与候鸟迁，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-aed799ff61f9a622",
+              "text": "联合国、黄海湿地与候鸟迁，只说了地点"
+            }
+          },
+          {
+            "id": "world-contemporary-05-02-peace-development-journey-2",
+            "label": "接着看科学家分享迁徙、疾病和气候数据。",
+            "correct": true,
+            "audio": {
+              "id": "quest-50652c714574b991",
+              "text": "接着看科学家分享迁徙、疾病和气候数据。"
+            }
+          },
+          {
+            "id": "world-contemporary-05-02-peace-development-journey-3",
+            "label": "医生、科学家、维和人员、湿地，只认出人物",
+            "correct": false,
+            "audio": {
+              "id": "quest-4b22ff77277b21db",
+              "text": "医生、科学家、维和人员、湿地，只认出人物"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "第三拍 · 看见变化",
+        "title": "许多国家一起行动",
+        "prompt": "前面的行动带来了什么变化？",
+        "rightNote": "最后许多国家约定规则，一起解决跨境问题。",
+        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "story": {
+          "screenNumber": 4,
+          "title": "许多国家一起行动",
+          "screenText": "最后许多国家约定规则，一起解决跨境问题。",
+          "narration": "最后许多国家约定规则，一起解决跨境问题。",
+          "displayText": "最后许多国家约定规则，一起解决跨境问题。"
+        },
+        "assetId": "peace-development-un-charter-reproduction-1945-nara-public-domain",
+        "image": "/content/step-images/peace-development-un-charter-reproduction-1945-nara-public-domain.jpg",
+        "imageAlt": "美国国家档案馆保存的1945年《联合国宪章》复制展示页",
+        "imageCaption": "一张1945年《联合国宪章》复制展示页，集合英文序言、部分签字页和认证信息；左侧可见中国代表签名。",
+        "imageBoundary": "本地文件为2072×3000像素JPEG。它是档案机构保存的复制展示图，不是整份宪章在签署现场同时摊开的照片；中央文字、各国签名和下方认证页来自不同页面的缩印组合。能核对文件名称、年份和部分签名，不能独自说明全部条款、会议讨论或联合国此后行动。",
+        "audio": {
+          "transition": {
+            "id": "quest-ca472709af5bb16a",
+            "text": "行动发生了。再看看它带来了什么变化。"
+          },
+          "intro": {
+            "id": "quest-40d0bd51eb5781af",
+            "text": "最后许多国家约定规则，一起解决跨境问题。"
+          },
+          "image": {
+            "id": "quest-b81a7e4394732bb4",
+            "text": "点开大图啦。这是美国国家档案馆保存的1945年《联合国宪章》复制展示页。这张图能帮我们找到：最后许多国家约定规则，一起解决跨境问题。"
+          },
+          "question": {
+            "id": "quest-2f86a3a6bc009210",
+            "text": "前面的行动带来了什么变化？"
+          },
+          "right": {
+            "id": "quest-53f7633e99fda023",
+            "text": "答对啦！你找到了前因带来的变化。"
+          },
+          "wrong": {
+            "id": "quest-631e3024b71736c9",
+            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-05-02-peace-development-change-1",
+            "label": "最后许多国家约定规则，一起解决跨境问题。",
+            "correct": true,
+            "audio": {
+              "id": "quest-40d0bd51eb5781af",
+              "text": "最后许多国家约定规则，一起解决跨境问题。"
+            }
+          },
+          {
+            "id": "world-contemporary-05-02-peace-development-change-2",
+            "label": "联合国宪章、疫苗记录，还只是故事起点",
+            "correct": false,
+            "audio": {
+              "id": "quest-6931972748c3f059",
+              "text": "联合国宪章、疫苗记录，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-contemporary-05-02-peace-development-change-3",
+            "label": "看科学家分享迁徙、疾病和气，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-68c868e04f421556",
+              "text": "看科学家分享迁徙、疾病和气，还只是行动经过"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "reason-result",
+        "icon": "🗣️",
+        "phase": "把线索连成答案",
+        "title": "把三条线索连成答案",
+        "prompt": "哪句话同时说清了原因和结果？",
+        "rightNote": "跨境问题没有一个国家能单独解决，要分享信息、约定规则并检查行动。",
+        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
+        "story": {
+          "screenNumber": 7,
+          "title": "把三条线索连成答案",
+          "screenText": "跨境问题没有一个国家能单独解决，要分享信息、约定规则并检查行动。",
+          "narration": "跨境问题没有一个国家能单独解决，要分享信息、约定规则并检查行动。",
+          "displayText": "跨境问题没有一个国家能单独解决，要分享信息、约定规则并检查行动。"
+        },
+        "assetId": "peace-development-un-general-assembly-hall-2016-cc-by",
+        "image": "/content/step-images/peace-development-un-general-assembly-hall-2016-cc-by.jpg",
+        "imageAlt": "联合国大会会场内部，2016年5月",
+        "imageCaption": "2016年5月24日，纽约联合国总部大会会场内部，可见主席台、会员国席位与联合国徽记。",
+        "imageBoundary": "本地文件为1024×768像素JPEG。照片是2016年参观时拍摄的会场空间，不是1945年签署宪章、2015年通过2030议程或任何具体表决现场；空席不能用于推断某国缺席或会议参与度。正式使用须署名Ron Cogswell并链接CC BY 2.0；不得用联合国徽记暗示产品获联合国认可。",
+        "audio": {
+          "transition": {
+            "id": "quest-a7cb01ad27c42767",
+            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+          },
+          "intro": {
+            "id": "quest-93cb06b201d3a210",
+            "text": "跨境问题没有一个国家能单独解决，要分享信息、约定规则并检查行动。"
+          },
+          "image": {
+            "id": "quest-6ebd42ba5435305f",
+            "text": "点开大图啦。这是联合国大会会场内部，2016年5月。这张图能帮我们找到：跨境问题没有一个国家能单独解决，要分享信息、约定规则并检查行动。"
+          },
+          "question": {
+            "id": "quest-1626b51c966f57f7",
+            "text": "哪句话同时说清了原因和结果？"
+          },
+          "right": {
+            "id": "quest-7efb4ef63956e209",
+            "text": "答对啦！原因和结果都说清楚了。"
+          },
+          "wrong": {
+            "id": "quest-0cee35f61bffd03b",
+            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+          }
+        },
+        "options": [
+          {
+            "id": "world-contemporary-05-02-peace-development-takeaway-1",
+            "label": "许多国家约定规则，一起解决跨境问题。、一只候鸟为什么需，只说了结果",
+            "correct": false,
+            "audio": {
+              "id": "quest-b511b5e9b43ec008",
+              "text": "许多国家约定规则，一起解决跨境问题。、一只候鸟为什么需，只说了结果"
+            }
+          },
+          {
+            "id": "world-contemporary-05-02-peace-development-takeaway-2",
+            "label": "跟一只候鸟飞过黄海湿地和国界。、联合国宪章、疫苗记，只说了原因",
+            "correct": false,
+            "audio": {
+              "id": "quest-25f64b602e99c314",
+              "text": "跟一只候鸟飞过黄海湿地和国界。、联合国宪章、疫苗记，只说了原因"
+            }
+          },
+          {
+            "id": "world-contemporary-05-02-peace-development-takeaway-3",
+            "label": "跨境问题没有一个国家能单独解决，要分享信息、约定规则并检查行动。",
+            "correct": true,
+            "audio": {
+              "id": "quest-93cb06b201d3a210",
+              "text": "跨境问题没有一个国家能单独解决，要分享信息、约定规则并检查行动。"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "四层时间线",
+        "items": [
+          "把事件卡放入“建立机构／通过规则／开展行动／核查结果”四条轨道，再按年份排列。",
+          "“1980根除天花”只能放在核查结果；“2015巴黎协定通过”只能放在规则，不出现“签字后立即解决”的奖励动画。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "和平任务桌",
+        "items": [
+          "把“观察停火—记录报告”“工程—修复道路设施”“运输—运送人员物资”“医疗—救治伤病”“政治进程—协商”配对。",
+          "再把“主要各方同意、公正、受授权约束”放在底座；不设置枪械、伤亡、领土、国家胜负或维和人员英雄排行。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "疫情信息接力",
+        "items": [
+          "将“基层发现—检测评估—国家报告—国际预警—医疗与公共卫生行动—持续监测”接成信息链。",
+          "加入“疫苗已研发但运输不足”“有疫苗但基层接种能力不足”两张故障卡，让儿童补上冷链、人员、信任或数据，不模拟真实个人感染，不给国家贴“危险源”标签。"
+        ]
+      },
+      {
+        "number": 4,
+        "title": "共同问题行动桌",
+        "items": [
+          "从“停火后仍不安全、跨境疫情、臭氧损耗、候鸟湿地减少”中任选一题，依次选择“可信证据—协商规则—各方行动—资金技术—监测报告—定期复查”。",
+          "系统允许多种合理分工，但必须同时出现共同目标与责任差异；不设置国家道德排名、家庭碳排分数、签约即通关或“一个英雄拯救世界”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 12,
   "conclusion": [
     "第二次世界大战结束后，人们没有获得一个“从此自动和平”的世界，而是逐步建立了更多一起讨论、制定规则、交换信息和检查行动的机制。1945年《联合国宪章》把维护和平、发展友好关系和解决经济、社会、文化、人道问题放在同一份创始文件中；同年，中国和巴西代表共同建议建立国际卫生组织，世界卫生组织于1948年开始运行。此后，联合国维和、全球消灭天花、《蒙特利尔议定书》、国际卫生条例、2030年可持续发展议程、《巴黎协定》和昆明—蒙特利尔全球生物多样性框架，分别提供了合作的实例，也留下了限制和未完成的任务。全球问题需要合作，不是因为各国责任、能力和损失完全相同，而是因为空气、海洋、物种迁徙、疾病传播和和平安全不会被国境线完全隔开；有效合作还必须把共同目标变成各国行动、资金和技术支持、监测报告、定期复查与公众参与。"
@@ -1518,90 +2181,117 @@
       "title": "美国国家档案馆保存的1945年《联合国宪章》复制展示页",
       "localPath": "reference-assets/world-contemporary-peace-development/un-charter-1945.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:%22Charter_of_the_United_Nations%22_-_NARA_-_514049.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — U.S. National Archives holding / no known copyright restriction",
       "clearance": "cleared-public-domain",
       "caption": "一张1945年《联合国宪章》复制展示页，集合英文序言、部分签字页和认证信息；左侧可见中国代表签名。",
-      "boundary": "本地文件为2072×3000像素JPEG。它是档案机构保存的复制展示图，不是整份宪章在签署现场同时摊开的照片；中央文字、各国签名和下方认证页来自不同页面的缩印组合。能核对文件名称、年份和部分签名，不能独自说明全部条款、会议讨论或联合国此后行动。"
+      "boundary": "本地文件为2072×3000像素JPEG。它是档案机构保存的复制展示图，不是整份宪章在签署现场同时摊开的照片；中央文字、各国签名和下方认证页来自不同页面的缩印组合。能核对文件名称、年份和部分签名，不能独自说明全部条款、会议讨论或联合国此后行动。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "peace-development-un-general-assembly-hall-2016-cc-by",
       "title": "联合国大会会场内部，2016年5月",
       "localPath": "reference-assets/world-contemporary-peace-development/un-general-assembly-hall-2016.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:U.N._General_Assembly_Hall_New_York_(NY)_April_2016_(27131089892).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 2.0 Generic",
       "clearance": "cleared-open-license",
       "caption": "2016年5月24日，纽约联合国总部大会会场内部，可见主席台、会员国席位与联合国徽记。",
-      "boundary": "本地文件为1024×768像素JPEG。照片是2016年参观时拍摄的会场空间，不是1945年签署宪章、2015年通过2030议程或任何具体表决现场；空席不能用于推断某国缺席或会议参与度。正式使用须署名Ron Cogswell并链接CC BY 2.0；不得用联合国徽记暗示产品获联合国认可。"
+      "boundary": "本地文件为1024×768像素JPEG。照片是2016年参观时拍摄的会场空间，不是1945年签署宪章、2015年通过2030议程或任何具体表决现场；空席不能用于推断某国缺席或会议参与度。正式使用须署名Ron Cogswell并链接CC BY 2.0；不得用联合国徽记暗示产品获联合国认可。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "peace-development-who-headquarters-geneva-2007-cc-by-sa",
       "title": "世界卫生组织日内瓦总部，2007年",
       "localPath": "reference-assets/world-contemporary-peace-development/who-headquarters-2007.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:World_Health_Organisation_headquarters,_Geneva,_north_and_west_sides_2007.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 3.0 Unported",
       "clearance": "cleared-open-license",
       "caption": "2007年5月21日拍摄的世界卫生组织日内瓦总部北侧和西侧建筑。",
-      "boundary": "本地文件为2583×1772像素JPEG。建筑照片只显示一个机构的办公地点和外墙徽记，不能证明某项公共卫生行动、某次会议或全球健康结果；徽记不得单独提取或用于暗示认可。正式使用须署名Yann Forget，链接CC BY-SA 3.0，并以相同或兼容许可共享改编版本。"
+      "boundary": "本地文件为2583×1772像素JPEG。建筑照片只显示一个机构的办公地点和外墙徽记，不能证明某项公共卫生行动、某次会议或全球健康结果；徽记不得单独提取或用于暗示认可。正式使用须署名Yann Forget，链接CC BY-SA 3.0，并以相同或兼容许可共享改编版本。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "peace-development-smallpox-vaccination-niger-1969-public-domain",
       "title": "尼日尔天花消灭和麻疹控制项目中的接种，1969年",
       "localPath": "reference-assets/world-contemporary-peace-development/smallpox-campaign-niger-1969.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Fighting_smallpox_in_Niger,_1969.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States federal government work",
       "clearance": "cleared-public-domain",
       "caption": "1969年2月，尼日尔天花消灭和麻疹控制项目中的一次天花接种。",
-      "boundary": "本地文件为2124×2750像素黑白JPEG。画面可见接种器接触一名成人肩部，不展示天花伤口或患者痛苦；人物姓名、年龄、接种史、接种效果和后续情况均未登记。照片只承担一个现场环节，不能代替病例发现、追踪、实验室、全球核查和多年统计。"
+      "boundary": "本地文件为2124×2750像素黑白JPEG。画面可见接种器接触一名成人肩部，不展示天花伤口或患者痛苦；人物姓名、年龄、接种史、接种效果和后续情况均未登记。照片只承担一个现场环节，不能代替病例发现、追踪、实验室、全球核查和多年统计。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "peace-development-covax-vaccine-ghana-2021-public-domain",
       "title": "加纳COVAX接种行动中的新冠疫苗瓶，2021年",
       "localPath": "reference-assets/world-contemporary-peace-development/covax-vaccine-ghana-2021.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Covishield_(2021)_N.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States federal government work",
       "clearance": "cleared-public-domain",
       "caption": "2021年3月1日，加纳启动新冠疫苗接种活动时，一名工作人员展示通过COVAX机制获得的疫苗瓶。",
-      "boundary": "本地文件为1620×1080像素彩色JPEG。只使用完整现场照片，不单独放大商标作产品宣传；能说明一只具体疫苗瓶出现在加纳接种行动，不能证明库存、质量批次、谁已接种、运输条件、全国覆盖或后来效果。2022年覆盖差异必须来自WHO固定日期统计，而不是从画面人物和瓶数推断。"
+      "boundary": "本地文件为1620×1080像素彩色JPEG。只使用完整现场照片，不单独放大商标作产品宣传；能说明一只具体疫苗瓶出现在加纳接种行动，不能证明库存、质量批次、谁已接种、运输条件、全国覆盖或后来效果。2022年覆盖差异必须来自WHO固定日期统计，而不是从画面人物和瓶数推断。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "peace-development-antarctic-ozone-map-september-2009-cc-by",
       "title": "2009年9月10日南极臭氧浓度卫星数据图",
       "localPath": "reference-assets/world-contemporary-peace-development/antarctic-ozone-hole-2009.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:2009_Antarctic_Ozone_Hole_(3927062424).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY 2.0 Generic",
       "clearance": "cleared-open-license",
       "caption": "以卫星观测合成的2009年9月10日南极臭氧浓度图，紫色和蓝色表示较低臭氧浓度。",
-      "boundary": "本地文件为716×716像素JPEG。它是数据可视化，不是普通相机拍到的蓝紫色天空或实体洞口；只能说明特定日期附近的空间分布，长期趋势要比较多年同口径数据。正式使用须注明NASA Goddard Space Flight Center并链接CC BY 2.0；图旁必须给出颜色含义。"
+      "boundary": "本地文件为716×716像素JPEG。它是数据可视化，不是普通相机拍到的蓝紫色天空或实体洞口；只能说明特定日期附近的空间分布，长期趋势要比较多年同口径数据。正式使用须注明NASA Goddard Space Flight Center并链接CC BY 2.0；图旁必须给出颜色含义。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "peace-development-bar-tailed-godwit-alaska-2022-public-domain",
       "title": "阿拉斯加育空三角洲清晨的斑尾塍鹬，2022年",
       "localPath": "reference-assets/world-contemporary-peace-development/bar-tailed-godwit-alaska-2022.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Bar-tailed_godwit_at_sunrise_(53703695656).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — United States Fish and Wildlife Service work",
       "clearance": "cleared-public-domain",
       "caption": "2022年5月14日，阿拉斯加育空三角洲国家野生动物保护区清晨的一只斑尾塍鹬。",
-      "boundary": "本地文件为4433×3325像素彩色JPEG。照片能核对物种、地点、日期和湿地环境，不能确认该个体的出生地、此前路线、飞行距离、下一站或健康状况；跨国迁徙路线由USFWS长期研究资料说明。使用时注明Mark Lindberg / USFWS，不用太阳位置推算方向和速度。"
+      "boundary": "本地文件为4433×3325像素彩色JPEG。照片能核对物种、地点、日期和湿地环境，不能确认该个体的出生地、此前路线、飞行距离、下一站或健康状况；跨国迁徙路线由USFWS长期研究资料说明。使用时注明Mark Lindberg / USFWS，不用太阳位置推算方向和速度。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "peace-development-chinese-peacekeeper-bukavu-2011-reuse",
       "title": "布卡武授勋仪式中的中国维和人员，2011年（复用）",
       "localPath": "reference-assets/china-contemporary-china-and-world-today/chinese-un-peacekeeper-2011.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:A_Chinese_peacekeeper_attends_a_medal_parade_ceremony_in_Bukavu,_South_Kivu_(10761340676).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 2.0 Generic",
       "clearance": "cleared-open-license-reuse",
       "caption": "2011年3月23日，刚果民主共和国南基伍省布卡武一次授勋仪式上的中国维和人员。",
-      "boundary": "复用中国现代史章节已核素材，本地为2200×1385像素JPEG。原说明称现场是一次巴基斯坦蓝盔部队授勋活动；照片不能证明人物姓名、岗位和经历。正式使用须署名MONUSCO Photos / Myriam Asmani，链接CC BY-SA 2.0，并以相同或兼容许可共享改编版本。"
+      "boundary": "复用中国现代史章节已核素材，本地为2200×1385像素JPEG。原说明称现场是一次巴基斯坦蓝盔部队授勋活动；照片不能证明人物姓名、岗位和经历。正式使用须署名MONUSCO Photos / Myriam Asmani，链接CC BY-SA 2.0，并以相同或兼容许可共享改编版本。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "peace-development-earth-eastern-hemisphere-composite-2007-reuse",
       "title": "NASA东半球地球合成图，2007年（复用）",
       "localPath": "reference-assets/china-contemporary-china-and-world-today/earth-eastern-hemisphere-composite-2007.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Blue_Marble_Eastern_Hemisphere.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "Public Domain — NASA work",
       "clearance": "cleared-public-domain-reuse",
       "caption": "2007年发布的地球东半球合成图，由多颗卫星、航天器和测绘项目的数据组合而成。",
-      "boundary": "复用中国现代史章节已核素材，本地为2200×2200像素JPEG。它是多源数据合成图，不是某一时刻的单张照片；不能从图中判断某年温度、污染、排放和物种数量。使用时注明NASA与Reto Stöckli，不使用NASA徽记暗示认可。"
+      "boundary": "复用中国现代史章节已核素材，本地为2200×2200像素JPEG。它是多源数据合成图，不是某一时刻的单张照片；不能从图中判断某年温度、污染、排放和物种数量。使用时注明NASA与Reto Stöckli，不使用NASA徽记暗示认可。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-contemporary-05-02-peace-development.jpg",

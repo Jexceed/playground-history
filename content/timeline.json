@@ -3,7 +3,7 @@
   "title": "中华文明时间线",
   "scope": "中国古代史",
   "primarySourceId": "NMC-ANCIENT-CHINA",
-  "editorialNote": "分期和年代采用中国国家博物馆“古代中国”基本陈列。儿童摘要为忠实改写，不增加具体人物、数字或因果判断。",
+  "editorialNote": "总脉络和年代依据中国国家博物馆“古代中国”基本陈列、课程标准与统编教材。儿童导航把辽、西夏、金的并立故事收进宋站同一窗口，便于孩子看到同一时间的多政权地图；正文仍明确它们与两宋先后并立，不写成宋的下属或单线先后。",
   "periods": [
     {
       "id": "ancient-origins",
@@ -12,7 +12,9 @@
       "years": "约200万年前—约公元前21世纪",
       "sourceSummary": "人类在中国大地繁衍生息，逐步制作工具、发展农业、饲养家畜并烧制陶器，早期国家开始出现。",
       "childSummary": "人们学会做工具、种庄稼、养动物和烧陶器，早期的国家慢慢出现。",
-      "sourceIds": ["NMC-ANCIENT-CHINA"],
+      "sourceIds": [
+        "NMC-ANCIENT-CHINA"
+      ],
       "status": "verified"
     },
     {
@@ -22,7 +24,9 @@
       "years": "约公元前21世纪—前771年",
       "sourceSummary": "早期国家继续发展，青铜器、文字和礼制成为这一时期的重要文明成果。",
       "childSummary": "早期国家不断成长，人们铸造青铜器、使用文字，也形成了重要的礼仪制度。",
-      "sourceIds": ["NMC-ANCIENT-CHINA"],
+      "sourceIds": [
+        "NMC-ANCIENT-CHINA"
+      ],
       "status": "verified"
     },
     {
@@ -32,57 +36,148 @@
       "years": "前770—前221年",
       "sourceSummary": "铁器使用推动社会变化，思想文化活跃，各地区在交往与战争中不断融合，并走向统一。",
       "childSummary": "铁制工具越来越多，许多思想家提出新主张，各地也在交流和战争中逐渐走向统一。",
-      "sourceIds": ["NMC-ANCIENT-CHINA", "NMC-SPRING-AUTUMN-WARRING-STATES"],
+      "sourceIds": [
+        "NMC-ANCIENT-CHINA",
+        "NMC-SPRING-AUTUMN-WARRING-STATES"
+      ],
       "status": "verified"
     },
     {
-      "id": "qin-han",
+      "id": "qin",
       "order": 4,
-      "label": "秦汉",
-      "years": "前221—公元220年",
-      "sourceSummary": "统一的多民族国家建立并发展，中央集权制度得到巩固，经济、科技与对外交往取得重要进展。",
-      "childSummary": "统一国家建立起来，制度、经济和技术不断发展，与外部世界的交往也更多了。",
-      "sourceIds": ["NMC-ANCIENT-CHINA", "NMC-QIN-HAN-OVERVIEW"],
+      "label": "秦朝",
+      "years": "前221—前207年",
+      "sourceSummary": "秦结束战国分裂局面，建立中国历史上第一个统一多民族的封建国家，推行统一措施；严苛统治和沉重负担也使社会矛盾迅速激化。",
+      "childSummary": "秦把许多规则统一起来，也因严苛法律和沉重负担很快走向结束。",
+      "sourceIds": [
+        "NMC-ANCIENT-CHINA",
+        "NMC-QIN-HAN-OVERVIEW"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "han",
+      "order": 5,
+      "label": "汉朝",
+      "years": "前202—公元220年",
+      "sourceSummary": "汉初休养生息，西汉国力逐步增强；两汉时期统一国家继续发展，丝绸之路、造纸、医学和史学留下重要成果。",
+      "childSummary": "汉朝让生产和生活慢慢恢复，钱币、驿站、纸张和史书把更大的国家连接起来。",
+      "sourceIds": [
+        "NMC-ANCIENT-CHINA",
+        "NMC-QIN-HAN-OVERVIEW",
+        "NMC-QIN-HAN-CIVILIZATION"
+      ],
       "status": "verified"
     },
     {
       "id": "three-kingdoms-jin-northern-southern",
-      "order": 5,
+      "order": 6,
       "label": "三国两晋南北朝",
       "years": "220—589年",
       "sourceSummary": "政权长期分立，人口迁徙促进南方经济发展，不同族群在交往中进一步融合，文化呈现交流交融的特点。",
       "childSummary": "许多政权先后出现，人们大量迁徙，南方得到开发，不同族群的生活和文化也不断交流。",
-      "sourceIds": ["NMC-ANCIENT-CHINA", "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"],
+      "sourceIds": [
+        "NMC-ANCIENT-CHINA",
+        "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+      ],
       "status": "verified"
     },
     {
-      "id": "sui-tang-five-dynasties",
-      "order": 6,
-      "label": "隋唐五代",
-      "years": "581—960年",
-      "sourceSummary": "隋唐重新统一并形成繁荣、开放的社会面貌；唐后期社会发生变化，随后进入五代时期。",
-      "childSummary": "隋唐重新统一，经济和文化繁荣，对外交流活跃；唐朝以后又经历了新的变化。",
-      "sourceIds": ["NMC-ANCIENT-CHINA", "NMC-SUI-TANG-FIVE-DYNASTIES", "PEP-2016-HISTORY-7B-U1"],
-      "status": "verified"
-    },
-    {
-      "id": "liao-song-xia-jin-yuan",
+      "id": "sui",
       "order": 7,
-      "label": "辽宋夏金元",
-      "years": "916—1368年",
-      "sourceSummary": "多个政权并立并逐步走向统一，农业、手工业、商业、城市、科技文化和海外贸易都有显著发展。",
-      "childSummary": "多个政权先后并立，后来重新统一；城市、商业、技术和海上贸易都很活跃。",
-      "sourceIds": ["NMC-ANCIENT-CHINA", "NMC-LIAO-SONG-XIA-JIN-YUAN", "PEP-HISTORY-REVISION-2024"],
+      "label": "隋朝",
+      "years": "581—618年",
+      "sourceSummary": "隋结束长期南北分立，重新统一，建立和调整中央制度、选官制度与南北交通；大规模工程、战争和征发也加重社会负担。",
+      "childSummary": "隋朝重新把南北连起来，修制度、开运河，也因沉重负担很快结束。",
+      "sourceIds": [
+        "NMC-ANCIENT-CHINA",
+        "NMC-SUI-TANG-FIVE-DYNASTIES",
+        "PEP-2016-HISTORY-7B-U1"
+      ],
       "status": "verified"
     },
     {
-      "id": "ming-qing",
+      "id": "tang",
       "order": 8,
-      "label": "明清",
-      "years": "1368—1911年（本板块讲至1840年前）",
-      "sourceSummary": "统一多民族国家继续发展，社会经济与文化取得成就；后期中国与率先完成工业化的西方国家之间差距扩大。",
-      "childSummary": "统一国家继续发展，社会经济和文化取得许多成就；到后期，中国也面临越来越大的外部挑战。",
-      "sourceIds": ["NMC-ANCIENT-CHINA", "NMC-MING-QING", "PEP-HISTORY-7B-2026-TRIAL"],
+      "label": "唐朝",
+      "years": "618—907年",
+      "sourceSummary": "唐朝在恢复发展中形成繁荣、开放的社会面貌，制度、经济、文化与中外交流取得重要进展；安史之乱后政治社会格局发生长期变化。",
+      "childSummary": "唐朝的城市、诗歌、书法和远行故事很丰富，繁荣以后也经历了长久变化。",
+      "sourceIds": [
+        "NMC-ANCIENT-CHINA",
+        "NMC-SUI-TANG-FIVE-DYNASTIES",
+        "PEP-2016-HISTORY-7B-U1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "five-dynasties-ten-kingdoms",
+      "order": 9,
+      "label": "五代十国",
+      "years": "907—960年",
+      "sourceSummary": "唐朝结束后，北方五个王朝先后更替，南方和其他地区存在多个政权；政局分立的同时，部分地区的经济、城市和文化继续发展。",
+      "childSummary": "许多政权先后出现，战争没有让耕作、城市和文化全部停下，新的统一进程也在形成。",
+      "sourceIds": [
+        "NMC-ANCIENT-CHINA",
+        "NMC-SUI-TANG-FIVE-DYNASTIES",
+        "NMC-QIANLIU-IRON-CERTIFICATE"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "song",
+      "order": 10,
+      "label": "宋朝（与辽·西夏·金并立）",
+      "years": "916—1279年（宋960年起）",
+      "sourceSummary": "两宋时期农业、手工业、商业、城市、科技文化和海外贸易显著发展；辽、西夏、金与两宋先后并立，在战争、议和、贸易、迁徙和制度文化交流中形成不断变化的多政权格局。",
+      "childSummary": "在同一个时间窗口里看宋与辽、西夏、金：地图边界会变，城市、商旅、印刷、指南针和书本也在继续发展。",
+      "sourceIds": [
+        "NMC-ANCIENT-CHINA",
+        "NMC-LIAO-SONG-XIA-JIN-YUAN",
+        "PEP-HISTORY-REVISION-2024"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yuan",
+      "order": 11,
+      "label": "元朝",
+      "years": "1271—1368年",
+      "sourceSummary": "元朝完成新的统一，建立行省等制度，交通网络和人员往来推动各地区及欧亚之间的交流。",
+      "childSummary": "元朝重新统一，行省、驿站和海港把辽阔地区连接起来。",
+      "sourceIds": [
+        "NMC-ANCIENT-CHINA",
+        "NMC-LIAO-SONG-XIA-JIN-YUAN",
+        "PEP-HISTORY-REVISION-2024"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "ming",
+      "order": 12,
+      "label": "明朝",
+      "years": "1368—1644年",
+      "sourceSummary": "明朝重新组织中央和地方治理，郑和远航、城市商业、科技著作、小说戏曲等留下丰富记录，也面临权力集中和社会矛盾。",
+      "childSummary": "明朝有故宫、大船、工艺书、小说和旅行笔记，也有需要追问的治理与社会问题。",
+      "sourceIds": [
+        "NMC-ANCIENT-CHINA",
+        "NMC-MING-QING",
+        "PEP-HISTORY-7B-2026-TRIAL"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "qing",
+      "order": 13,
+      "label": "清朝",
+      "years": "1644—1840年前",
+      "sourceSummary": "清前期统一多民族国家进一步巩固发展，经济恢复、人口与市场扩大；制度、土地生计、有限开放及工业化世界变化也逐步积累新的压力。",
+      "childSummary": "清代的承德、文书、广州商馆和世界机器，帮助我们看到治理、生活与新挑战。",
+      "sourceIds": [
+        "NMC-ANCIENT-CHINA",
+        "NMC-MING-QING",
+        "PEP-HISTORY-7B-2026-TRIAL"
+      ],
       "status": "verified"
     }
   ]

@@ -1,19 +1,777 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-06-02-tang-governance",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
   "period": {
-    "id": "sui-tang-five-dynasties",
-    "label": "隋唐五代",
-    "years": "581—960年"
+    "id": "tang",
+    "label": "唐朝",
+    "years": "618—907年"
   },
-  "order": 19,
-  "title": "从贞观之治到开元盛世",
-  "coreQuestion": "唐初统治者采取了哪些措施，社会为何走向繁荣？",
-  "throughline": "从唐初政治调整、生产发展和制度延续理解贞观之治与开元盛世，同时避免把整个唐代都写成盛世。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "order": 20,
+  "title": "一枚开元通宝的一天",
+  "coreQuestion": "一枚开元通宝从铸造处走到市场，会经过谁的手，又能告诉我们什么？",
+  "throughline": "从铜料、铸造、共同形制到市场交换，理解钱币与治理、经济活动的关系，并说明一枚钱不能证明人人富足。",
+  "childEntry": {
+    "id": "cn-ancient-06-02-tang-governance",
+    "childTitle": "开元通宝的名字小谜",
+    "prompt": "钱上有“开元”，就一定铸在开元年间吗？",
+    "takeaway": "开元通宝从621年开始铸行，早于唐玄宗的开元年号；物件年代要结合记录，不能只凭同名。",
+    "object": "开元通宝、铸钱与市场记录",
+    "people": [
+      "唐代铸钱工匠"
+    ],
+    "place": "长安与洛阳",
+    "culture": "唐代市场生活与相关诗句",
+    "care": "形状示意不摹写真实钱文；621年指开始铸行时间，不代表每一枚传世开元通宝都铸于621年。",
+    "preferredAssetId": "tang-kaiyuan-tongbao-museum-photo",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-06-02-tang-governance",
+    "featured": {
+      "type": "实物",
+      "icon": "🪙",
+      "title": "唐代铸钱工匠",
+      "childBridge": "钱上有“开元”，就一定铸在开元年间吗？",
+      "evidenceBoundary": "形状示意不摹写真实钱文；621年指开始铸行时间，不代表每一枚传世开元通宝都铸于621年。"
+    },
+    "companions": [
+      {
+        "type": "文字",
+        "label": "“开元通宝”钱文",
+        "note": "钱名中的“开元”不是唐玄宗开元年号。"
+      },
+      {
+        "type": "人物",
+        "label": "铸钱工匠、农人和商人",
+        "note": "让生产者和使用者接住钱币旅程。"
+      },
+      {
+        "type": "地点",
+        "label": "长安与洛阳市场",
+        "note": "从城市观察钱币怎样进入交换和管理。"
+      }
+    ],
+    "sourceIds": [
+      "NMC-KAIYUAN-TONGBAO",
+      "NMC-SUI-TANG-FIVE-DYNASTIES",
+      "PEP-HISTORY-7B-2026-TRIAL"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "同名的两个时间",
+      "text": "开元通宝在621年开始铸行。唐玄宗的开元年号从713年开始。同名不等于同一年。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "认一认圆和方",
+      "text": "观察实物照片：钱的外面是圆的，中间有方孔。小图只是帮助看形状。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "写好字还不够",
+      "text": "钱上有字，但钱币还要由工匠制作。写字和铸钱不是同一步。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "钱到集市里",
+      "text": "开元通宝长期流通。认识钱的样子，可以帮助人们认钱；交换还需要货物和买卖双方。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "替文物贴年代签",
+      "text": "这枚钱的名称和后来年号相同。我们要查记录，不能让名字替我们下结论。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "市场",
+      "icon": "🧺",
+      "plain": "人们交换商品和服务的地方或关系。",
+      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
+      "priority": 2
+    },
+    {
+      "term": "经济",
+      "icon": "🧺",
+      "plain": "人们怎样生产、交换、分配和使用东西。",
+      "example": "经济变化最后会落到工作、食物、住房等生活里。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "手工业",
+      "icon": "🧵",
+      "plain": "主要靠手和工具制作器物的生产活动。",
+      "example": "陶器、织物和青铜器都需要材料、技术与分工。",
+      "priority": 2
+    },
+    {
+      "term": "工业",
+      "icon": "🏭",
+      "plain": "用机器、工厂和分工大规模生产东西。",
+      "example": "工业发展也要看劳动、安全、资源和环境。",
+      "priority": 2
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
+    {
+      "term": "社会",
+      "icon": "🧑‍🤝‍🧑",
+      "plain": "许多人一起生活、分工并形成关系的整体。",
+      "example": "社会变化要看不同人受到的影响。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "皇帝",
+      "icon": "👑",
+      "plain": "古代君主国家最高统治者的一种称号。",
+      "example": "皇帝会作决定，也依靠官员、军队、工匠和百姓。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    },
+    {
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "唐太宗",
+      "reading": "Táng Tàizōng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-02-tang-governance",
+        "cn-ancient-06-08-zhenguan-governance"
+      ],
+      "note": "“太宗”是庙号。"
+    },
+    {
+      "text": "唐玄宗",
+      "reading": "Táng Xuánzōng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-02-tang-governance"
+      ],
+      "note": "“玄”读xuán。"
+    },
+    {
+      "text": "武则天",
+      "reading": "Wǔ Zétiān",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-02-tang-governance"
+      ],
+      "note": "“则”读zé。"
+    },
+    {
+      "text": "长安",
+      "reading": "Cháng’ān",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-04-02-han-governance",
+        "cn-ancient-04-03-silk-road",
+        "cn-ancient-06-02-tang-governance",
+        "cn-ancient-06-03-tang-changan",
+        "cn-ancient-06-04-tang-cultural-exchange",
+        "cross-03-cultural-exchange"
+      ],
+      "note": "“长”在地名中读cháng。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "开元通宝的名字小谜",
+      "question": "钱上有“开元”，就一定铸在开元年间吗？"
+    },
+    "cta": "去认一枚钱",
+    "anchor": "唐代铸钱工匠",
+    "boundary": "形状示意不摹写真实钱文；621年指开始铸行时间，不代表每一枚传世开元通宝都铸于621年。",
+    "evidence": [
+      {
+        "id": "tang-kaiyuan-tongbao-museum-photo",
+        "title": "开元通宝博物馆展览照片",
+        "localPath": "reference-assets/sui-tang-five-dynasties/kaiyuan-tongbao.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tang_Kaiyuan_Coin_(14251544611).jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC0 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "洛阳博物馆展出的唐代开元通宝照片。",
+        "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。下载为1920像素等比例图，未作其他修改。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/tang-kaiyuan-tongbao-museum-photo.jpg"
+      }
+    ],
+    "coverAsset": {
+      "id": "tang-kaiyuan-tongbao-museum-photo",
+      "title": "开元通宝博物馆展览照片",
+      "localPath": "reference-assets/sui-tang-five-dynasties/kaiyuan-tongbao.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tang_Kaiyuan_Coin_(14251544611).jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC0 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "洛阳博物馆展出的唐代开元通宝照片。",
+      "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。下载为1920像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/tang-kaiyuan-tongbao-museum-photo.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/tang-kaiyuan-tongbao-museum-photo.jpg",
+    "coverImageAlt": "开元通宝博物馆展览照片",
+    "coverImageKind": "历史材料",
+    "coverAudio": {
+      "id": "quest-23a3bc46d0f1a044",
+      "text": "开元通宝的名字小谜。钱上有“开元”，就一定铸在开元年间吗？准备好就点“去认一枚钱”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-39a9f97ce76a11fe",
+      "text": "开元通宝从621年开始铸行，早于唐玄宗的开元年号；物件年代要结合记录，不能只凭同名。"
+    },
+    "finish": {
+      "title": "给钱币当小讲解员",
+      "actions": [
+        "先指621年，再指713年。",
+        "告诉家人：这两个“开元”，哪个先出现？"
+      ],
+      "parent": "不要求认钱文；家长读年份，孩子指先后即可。可追问“只凭名字能定年代吗？”",
+      "sceneStepIndexes": [
+        0,
+        4
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-acc8d2b2726e67a9",
+          "text": "先指621年，再指713年。"
+        },
+        {
+          "id": "quest-1356d216ebf0e6fb",
+          "text": "告诉家人：这两个“开元”，哪个先出现？"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-1bd466a9c7674efd",
+        "text": "给钱币当小讲解员。先指621年，再指713年。告诉家人：这两个“开元”，哪个先出现？"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "同名的两个时间",
+        "title": "同名的两个时间",
+        "prompt": "哪一个更早？",
+        "rightNote": "621年在前，所以不能看到“开元”就说钱一定始铸于713年。",
+        "wrongNote": "621年在前，所以不能看到“开元”就说钱一定始铸于713年。",
+        "sourceIds": [
+          "NMC-KAIYUAN-TONGBAO",
+          "NMC-SUI-TANG-FIVE-DYNASTIES"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "同名的两个时间",
+          "screenText": "开元通宝在621年开始铸行。唐玄宗的开元年号从713年开始。同名不等于同一年。",
+          "displayText": "开元通宝在621年开始铸行。唐玄宗的开元年号从713年开始。同名不等于同一年。",
+          "narration": "开元通宝在621年开始铸行。唐玄宗的开元年号从713年开始。同名不等于同一年。"
+        },
+        "assetId": "study-10995f96f90b78c3",
+        "image": "/content/study-scenes/study-10995f96f90b78c3.svg",
+        "studyImage": "/content/study-scenes/study-10995f96f90b78c3.svg",
+        "studyImageAlt": "621年 钱币，713年 年号",
+        "imageAlt": "621年 钱币，713年 年号",
+        "imageCaption": "学习示意 · 621年 钱币，713年 年号",
+        "imageBoundary": "自制学习示意。形状示意不摹写真实钱文；621年指开始铸行时间，不代表每一枚传世开元通宝都铸于621年。",
+        "audio": {
+          "transition": {
+            "id": "quest-dd1801d9895a7805",
+            "text": "同名的两个时间。"
+          },
+          "intro": {
+            "id": "quest-91b69cc44d1dcbb1",
+            "text": "开元通宝在621年开始铸行。唐玄宗的开元年号从713年开始。同名不等于同一年。"
+          },
+          "question": {
+            "id": "quest-17cd01ad6e2687f9",
+            "text": "哪一个更早？"
+          },
+          "image": {
+            "id": "quest-f801e29f67fd992c",
+            "text": "这是学习示意图：621年 钱币，713年 年号。哪一个更早？"
+          },
+          "right": {
+            "id": "quest-c165479717baba98",
+            "text": "找到了。621年在前，所以不能看到“开元”就说钱一定始铸于713年。"
+          },
+          "wrong": {
+            "id": "quest-ceeea208e5cb9b1d",
+            "text": "再比较一下。621年在前，所以不能看到“开元”就说钱一定始铸于713年。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-02-tang-governance-time-1",
+            "label": "621年开始铸开元通宝",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-41634931b31720f4.svg",
+            "imageAlt": "621年 铸钱",
+            "audio": {
+              "id": "quest-d76de91afc50c86f",
+              "text": "621年开始铸开元通宝"
+            }
+          },
+          {
+            "id": "cn-ancient-06-02-tang-governance-time-2",
+            "label": "713年开始开元年号",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-ad98753ecdb32cd3.svg",
+            "imageAlt": "713年 年号",
+            "audio": {
+              "id": "quest-6991edecb18f99da",
+              "text": "713年开始开元年号"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "认一认圆和方",
+        "title": "认一认圆和方",
+        "prompt": "哪张小图与它相近？",
+        "rightNote": "外面和孔洞都要看，不只看有一个孔。",
+        "wrongNote": "外面和孔洞都要看，不只看有一个孔。",
+        "sourceIds": [
+          "NMC-KAIYUAN-TONGBAO",
+          "NMC-SUI-TANG-FIVE-DYNASTIES"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "认一认圆和方",
+          "screenText": "观察实物照片：钱的外面是圆的，中间有方孔。小图只是帮助看形状。",
+          "displayText": "观察实物照片：钱的外面是圆的，中间有方孔。小图只是帮助看形状。",
+          "narration": "观察实物照片：钱的外面是圆的，中间有方孔。小图只是帮助看形状。"
+        },
+        "assetId": "tang-kaiyuan-tongbao-museum-photo",
+        "image": "/content/step-images/tang-kaiyuan-tongbao-museum-photo.jpg",
+        "studyImage": "/content/study-scenes/study-cac8835b30b7044d.svg",
+        "studyImageAlt": "开元通宝外形",
+        "imageAlt": "开元通宝博物馆展览照片",
+        "imageCaption": "开元通宝博物馆展览照片",
+        "imageBoundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。下载为1920像素等比例图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-0f787ba939621c78",
+            "text": "认一认圆和方。"
+          },
+          "intro": {
+            "id": "quest-9e7b2e75535da45f",
+            "text": "观察实物照片：钱的外面是圆的，中间有方孔。小图只是帮助看形状。"
+          },
+          "question": {
+            "id": "quest-604c03eab98d906e",
+            "text": "哪张小图与它相近？"
+          },
+          "image": {
+            "id": "quest-bdda23f35a9dca14",
+            "text": "这张是开元通宝博物馆展览照片。观察实物照片：钱的外面是圆的，中间有方孔。小图只是帮助看形状。"
+          },
+          "right": {
+            "id": "quest-aa47db0eebdb7f6f",
+            "text": "找到了。外面和孔洞都要看，不只看有一个孔。"
+          },
+          "wrong": {
+            "id": "quest-bcc3e268f2a3ae4d",
+            "text": "再比较一下。外面和孔洞都要看，不只看有一个孔。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-02-tang-governance-beginning-1",
+            "label": "圆外缘、方孔",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-d28d3713663652da.svg",
+            "imageAlt": "圆外方孔",
+            "audio": {
+              "id": "quest-d3840b9b168d0fff",
+              "text": "圆外缘、方孔"
+            }
+          },
+          {
+            "id": "cn-ancient-06-02-tang-governance-beginning-2",
+            "label": "方外缘、圆孔",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-d7e57081c311f2ec.svg",
+            "imageAlt": "方外圆孔",
+            "audio": {
+              "id": "quest-1026d781ff034732",
+              "text": "方外缘、圆孔"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "写好字还不够",
+        "title": "写好字还不够",
+        "prompt": "把钱的样式变成钱币，要做什么？",
+        "rightNote": "工匠按照样式制作，文字不会自己变成金属钱。",
+        "wrongNote": "工匠按照样式制作，文字不会自己变成金属钱。",
+        "sourceIds": [
+          "NMC-KAIYUAN-TONGBAO",
+          "NMC-SUI-TANG-FIVE-DYNASTIES"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "写好字还不够",
+          "screenText": "钱上有字，但钱币还要由工匠制作。写字和铸钱不是同一步。",
+          "displayText": "钱上有字，但钱币还要由工匠制作。写字和铸钱不是同一步。",
+          "narration": "钱上有字，但钱币还要由工匠制作。写字和铸钱不是同一步。"
+        },
+        "assetId": "study-fd7bdc918a8a8404",
+        "image": "/content/study-scenes/study-fd7bdc918a8a8404.svg",
+        "studyImage": "/content/study-scenes/study-fd7bdc918a8a8404.svg",
+        "studyImageAlt": "钱文样式，制作，钱币",
+        "imageAlt": "钱文样式，制作，钱币",
+        "imageCaption": "学习示意 · 钱文样式，制作，钱币",
+        "imageBoundary": "自制学习示意。形状示意不摹写真实钱文；621年指开始铸行时间，不代表每一枚传世开元通宝都铸于621年。",
+        "audio": {
+          "transition": {
+            "id": "quest-d88af6387091aa25",
+            "text": "写好字还不够。"
+          },
+          "intro": {
+            "id": "quest-92cd0b5388dac639",
+            "text": "钱上有字，但钱币还要由工匠制作。写字和铸钱不是同一步。"
+          },
+          "question": {
+            "id": "quest-a0252adf44bfa8c6",
+            "text": "把钱的样式变成钱币，要做什么？"
+          },
+          "image": {
+            "id": "quest-656a9d5a816dde7f",
+            "text": "这是学习示意图：钱文样式，制作，钱币。把钱的样式变成钱币，要做什么？"
+          },
+          "right": {
+            "id": "quest-7688ca8ce364ae6c",
+            "text": "找到了。工匠按照样式制作，文字不会自己变成金属钱。"
+          },
+          "wrong": {
+            "id": "quest-dd51f9b67342f3fc",
+            "text": "再比较一下。工匠按照样式制作，文字不会自己变成金属钱。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-02-tang-governance-journey-1",
+            "label": "准备材料并铸造",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-1464beca6f3b9259.svg",
+            "imageAlt": "制作铸造",
+            "audio": {
+              "id": "quest-0f9937cfa53356ec",
+              "text": "准备材料并铸造"
+            }
+          },
+          {
+            "id": "cn-ancient-06-02-tang-governance-journey-2",
+            "label": "只把名字念一遍",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-c25c4886066664c4.svg",
+            "imageAlt": "念出名字",
+            "audio": {
+              "id": "quest-75caf5750ab7701e",
+              "text": "只把名字念一遍"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "钱到集市里",
+        "title": "钱到集市里",
+        "prompt": "摊位上还缺什么，才能交换？",
+        "rightNote": "钱币是交换中的一环，货物和人的劳动也在其中。",
+        "wrongNote": "钱币是交换中的一环，货物和人的劳动也在其中。",
+        "sourceIds": [
+          "NMC-KAIYUAN-TONGBAO",
+          "NMC-SUI-TANG-FIVE-DYNASTIES"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "钱到集市里",
+          "screenText": "开元通宝长期流通。认识钱的样子，可以帮助人们认钱；交换还需要货物和买卖双方。",
+          "displayText": "开元通宝长期流通。认识钱的样子，可以帮助人们认钱；交换还需要货物和买卖双方。",
+          "narration": "开元通宝长期流通。认识钱的样子，可以帮助人们认钱；交换还需要货物和买卖双方。"
+        },
+        "assetId": "study-32e94139476c18dc",
+        "image": "/content/study-scenes/study-32e94139476c18dc.svg",
+        "studyImage": "/content/study-scenes/study-32e94139476c18dc.svg",
+        "studyImageAlt": "钱币，货物，买卖双方",
+        "imageAlt": "钱币，货物，买卖双方",
+        "imageCaption": "学习示意 · 钱币，货物，买卖双方",
+        "imageBoundary": "自制学习示意。形状示意不摹写真实钱文；621年指开始铸行时间，不代表每一枚传世开元通宝都铸于621年。",
+        "audio": {
+          "transition": {
+            "id": "quest-4058790d47c7a603",
+            "text": "钱到集市里。"
+          },
+          "intro": {
+            "id": "quest-74439786bb790076",
+            "text": "开元通宝长期流通。认识钱的样子，可以帮助人们认钱；交换还需要货物和买卖双方。"
+          },
+          "question": {
+            "id": "quest-0230c9edaf63ebc2",
+            "text": "摊位上还缺什么，才能交换？"
+          },
+          "image": {
+            "id": "quest-952956865c5acf30",
+            "text": "这是学习示意图：钱币，货物，买卖双方。摊位上还缺什么，才能交换？"
+          },
+          "right": {
+            "id": "quest-a1a8c7ad21265383",
+            "text": "找到了。钱币是交换中的一环，货物和人的劳动也在其中。"
+          },
+          "wrong": {
+            "id": "quest-7dffa59690cc661f",
+            "text": "再比较一下。钱币是交换中的一环，货物和人的劳动也在其中。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-02-tang-governance-change-1",
+            "label": "货物和交易的人",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-f06dc8ae85c504bd.svg",
+            "imageAlt": "货物，双方",
+            "audio": {
+              "id": "quest-08be4b5ee34b9d54",
+              "text": "货物和交易的人"
+            }
+          },
+          {
+            "id": "cn-ancient-06-02-tang-governance-change-2",
+            "label": "只有一堆钱就够",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-b2bd2d16e2954833.svg",
+            "imageAlt": "只有钱币",
+            "audio": {
+              "id": "quest-9c6811c030510619",
+              "text": "只有一堆钱就够"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "替文物贴年代签",
+        "title": "替文物贴年代签",
+        "prompt": "年代签该凭什么写？",
+        "rightNote": "名称是一条线索，要和铸行记录一起核对。",
+        "wrongNote": "名称是一条线索，要和铸行记录一起核对。",
+        "sourceIds": [
+          "NMC-KAIYUAN-TONGBAO",
+          "NMC-SUI-TANG-FIVE-DYNASTIES"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "替文物贴年代签",
+          "screenText": "这枚钱的名称和后来年号相同。我们要查记录，不能让名字替我们下结论。",
+          "displayText": "这枚钱的名称和后来年号相同。我们要查记录，不能让名字替我们下结论。",
+          "narration": "这枚钱的名称和后来年号相同。我们要查记录，不能让名字替我们下结论。"
+        },
+        "assetId": "study-a437870581dfa5d5",
+        "image": "/content/study-scenes/study-a437870581dfa5d5.svg",
+        "studyImage": "/content/study-scenes/study-a437870581dfa5d5.svg",
+        "studyImageAlt": "开元通宝，核对记录",
+        "imageAlt": "开元通宝，核对记录",
+        "imageCaption": "学习示意 · 开元通宝，核对记录",
+        "imageBoundary": "自制学习示意。形状示意不摹写真实钱文；621年指开始铸行时间，不代表每一枚传世开元通宝都铸于621年。",
+        "audio": {
+          "transition": {
+            "id": "quest-68d51c269f545e28",
+            "text": "替文物贴年代签。"
+          },
+          "intro": {
+            "id": "quest-84a505308917a371",
+            "text": "这枚钱的名称和后来年号相同。我们要查记录，不能让名字替我们下结论。"
+          },
+          "question": {
+            "id": "quest-43b84f2b599c714d",
+            "text": "年代签该凭什么写？"
+          },
+          "image": {
+            "id": "quest-e90dadebe41a167d",
+            "text": "这是学习示意图：开元通宝，核对记录。年代签该凭什么写？"
+          },
+          "right": {
+            "id": "quest-48a00ed28dd9784c",
+            "text": "找到了。名称是一条线索，要和铸行记录一起核对。"
+          },
+          "wrong": {
+            "id": "quest-456a7206c849521a",
+            "text": "再比较一下。名称是一条线索，要和铸行记录一起核对。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-02-tang-governance-takeaway-1",
+            "label": "藏品资料与历史记录",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-b398789d1c2eb816.svg",
+            "imageAlt": "查看铸行记录",
+            "audio": {
+              "id": "quest-2aeff7799b2bbaa1",
+              "text": "藏品资料与历史记录"
+            }
+          },
+          {
+            "id": "cn-ancient-06-02-tang-governance-takeaway-2",
+            "label": "只凭“开元”两个字",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-6ab297932bf75d3c.svg",
+            "imageAlt": "仅凭相同名字",
+            "audio": {
+              "id": "quest-2937d53e7b820b64",
+              "text": "只凭“开元”两个字"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "时间线找转折",
+        "items": [
+          "把“唐建立—贞观—开元—755年转折”排顺，并指出“盛世”不覆盖哪个节点以后。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "一枚钱能证明什么",
+        "items": [
+          "选择“621年已有开元通宝、钱币形制与交换”作为可支持判断，不选择“所有唐人都富裕”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "证据看谁的生活",
+        "items": [
+          "把开元通宝放入“较广泛流通线索”，把舞马银壶放入“宫廷与高等级工艺线索”。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
     "618年唐朝建立后，统治者面对隋末战争造成的破坏，逐步恢复秩序和生产。唐朝继承并调整隋代制度，在唐太宗、武则天和唐玄宗前期等不同时段，农业、手工业、商业和文化继续发展。史家用“贞观之治”和“开元盛世”概括其中较安定、繁荣的阶段，但繁荣不是一个人的功劳，也不表示每个地区、每个家庭都同样富足，更不能代表从618到907年的整个唐朝。"
@@ -125,20 +883,20 @@
     },
     {
       "number": 2,
-      "title": "先从隋末的困难中恢复",
-      "screenText": "少一些破坏，恢复耕作，让社会重新运转。",
+      "title": "第一拍：铜料怎样变成一枚钱",
+      "screenText": "备铜料、做钱模、铸成方孔圆钱，再一枚枚整理。",
       "voices": [
         {
           "number": 3,
           "label": "语音 S03：",
-          "text": "唐初统治者吸取隋朝灭亡的教训，采取措施恢复生产，也重视选用官员和听取意见。贞观年间，社会逐步稳定。它不是突然出现的奇迹，而是许多农民、工匠、官员和家庭共同劳动的结果。",
+          "text": "开元通宝不会自己从地里长出来。备料、制模、铸造和整理都要工匠完成，官府还要规定钱币形制。自制插图只帮助理解接力过程；真正的钱有多大、钱文怎样写，要看馆藏照片。",
           "segments": [
             {
               "id": "cn-ancient-06-02-tang-governance-s02-v03-01",
               "order": 1,
               "tier": "core",
-              "text": "唐初统治者吸取隋朝灭亡的教训，采取措施恢复生产，也重视选用官员和听取意见。贞观年间，社会逐步稳定。它不是突然出现的奇迹，而是许多农民、工匠、官员和家庭共同劳动的结果。",
-              "hanCharacters": 74
+              "text": "开元通宝不会自己从地里长出来。备料、制模、铸造和整理都要工匠完成，官府还要规定钱币形制。自制插图只帮助理解接力过程；真正的钱有多大、钱文怎样写，要看馆藏照片。",
+              "hanCharacters": 70
             }
           ]
         }
@@ -147,20 +905,20 @@
     },
     {
       "number": 3,
-      "title": "国家机器怎样分工",
-      "screenText": "三省六部分工处理政务，唐朝在隋代制度上继续调整。",
+      "title": "第二拍：钱币为什么要有共同样子",
+      "screenText": "大家认得同一种钱，市场交换和计算才更方便。",
       "voices": [
         {
           "number": 4,
           "label": "语音 S04：",
-          "text": "国家很大，皇帝不可能独自处理每件事。唐朝继承并完善三省六部等制度，不同机构负责拟定、审核和执行政令。制度有助于管理统一国家，但真实运行还会受到人物、地方和时代条件影响。",
+          "text": "一枚钱能在不同人手里交换，需要大家大致认得它的形状、重量和钱文。规范钱币是国家管理的一部分，却不是皇帝一个人做完的，还要靠官员、工匠、运输者和使用者。",
           "segments": [
             {
               "id": "cn-ancient-06-02-tang-governance-s03-v04-01",
               "order": 1,
               "tier": "core",
-              "text": "国家很大，皇帝不可能独自处理每件事。唐朝继承并完善三省六部等制度，不同机构负责拟定、审核和执行政令。制度有助于管理统一国家，但真实运行还会受到人物、地方和时代条件影响。",
-              "hanCharacters": 76
+              "text": "一枚钱能在不同人手里交换，需要大家大致认得它的形状、重量和钱文。规范钱币是国家管理的一部分，却不是皇帝一个人做完的，还要靠官员、工匠、运输者和使用者。",
+              "hanCharacters": 67
             }
           ]
         }
@@ -169,8 +927,8 @@
     },
     {
       "number": 4,
-      "title": "一枚钱币能告诉我们什么",
-      "screenText": "开元通宝621年开始铸造，比唐玄宗的开元年间早九十多年。",
+      "title": "第三拍：这枚钱来到市场",
+      "screenText": "621年开始铸造；它可以交换物品，也会被成串携带。",
       "voices": [
         {
           "number": 5,
@@ -191,20 +949,20 @@
     },
     {
       "number": 5,
-      "title": "怎样理解“开元盛世”",
-      "screenText": "农业、手工业、商业和文化发展，共同形成繁荣景象。",
+      "title": "一枚钱能证明什么，不能证明什么",
+      "screenText": "它能说明钱币形制和交换线索，不能证明每个人都富有。",
       "voices": [
         {
           "number": 6,
           "label": "语音 S06：",
-          "text": "武则天时期社会经济继续发展，唐玄宗前期又出现开元盛世。这件银壶表现宫廷舞马，也展示精细的金银器工艺。它能证明高水平工艺和宫廷文化，却不能代表每个普通家庭的衣食生活。",
+          "text": "一枚开元通宝能帮助我们观察铸造、管理和交换，却不能告诉我们每个家庭有多少钱。后来武则天和唐玄宗前期，农业、手工业、商业与文化继续发展；“繁荣”仍不等于人人生活相同。",
           "segments": [
             {
               "id": "cn-ancient-06-02-tang-governance-s05-v06-01",
               "order": 1,
               "tier": "core",
-              "text": "武则天时期社会经济继续发展，唐玄宗前期又出现开元盛世。这件银壶表现宫廷舞马，也展示精细的金银器工艺。它能证明高水平工艺和宫廷文化，却不能代表每个普通家庭的衣食生活。",
-              "hanCharacters": 76
+              "text": "一枚开元通宝能帮助我们观察铸造、管理和交换，却不能告诉我们每个家庭有多少钱。后来武则天和唐玄宗前期，农业、手工业、商业与文化继续发展；“繁荣”仍不等于人人生活相同。",
+              "hanCharacters": 72
             }
           ]
         }
@@ -213,20 +971,20 @@
     },
     {
       "number": 6,
-      "title": "盛世不是永远不变",
-      "screenText": "繁荣是真实的，差异和风险也真实存在。",
+      "title": "拼出一枚钱的一天",
+      "screenText": "工匠铸造 → 共同形制 → 市场交换 → 留下经济线索。",
       "voices": [
         {
           "number": 7,
           "label": "语音 S07：",
-          "text": "“盛世”说的是一段时期的总体繁荣，不等于没有贫困、负担和地区差异。更不能说唐朝从头到尾都一样强盛。下一章我们进入长安，用市场遗址、道路和文物，看看繁荣与开放留下了哪些可以核验的证据。",
+          "text": "开元通宝连接工匠、官府、商人和普通使用者。它始铸于621年，名称中的“开元”不是唐玄宗年号。我们用它进入唐初治理和市场生活，也记住：一件钱币不能证明所有唐人都富足。",
           "segments": [
             {
               "id": "cn-ancient-06-02-tang-governance-s06-v07-01",
               "order": 1,
               "tier": "core",
-              "text": "“盛世”说的是一段时期的总体繁荣，不等于没有贫困、负担和地区差异。更不能说唐朝从头到尾都一样强盛。下一章我们进入长安，用市场遗址、道路和文物，看看繁荣与开放留下了哪些可以核验的证据。",
-              "hanCharacters": 81
+              "text": "开元通宝连接工匠、官府、商人和普通使用者。它始铸于621年，名称中的“开元”不是唐玄宗年号。我们用它进入唐初治理和市场生活，也记住：一件钱币不能证明所有唐人都富足。",
+              "hanCharacters": 69
             }
           ]
         }
@@ -297,18 +1055,252 @@
       "authorityLevel": "A",
       "factUse": "唐代金银器、舞马形象和工艺候选素材",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-HISTORY-7B-2026-TRIAL",
+      "title": "新修订义务教育历史教材七年级下册试教资料",
+      "institution": "人民教育出版社",
+      "url": "https://www.pep.com.cn/xw/zt/hd/sktbjc/jcsy/202606/t20260610_2006778.html",
+      "type": "current-textbook-implementation-reference",
+      "authorityLevel": "A-structure-only",
+      "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "study-d28d3713663652da",
+      "title": "学习示意：圆外方孔",
+      "localPath": "reference-assets/focused-quests/study-d28d3713663652da.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "圆外方孔",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d7e57081c311f2ec",
+      "title": "学习示意：方外圆孔",
+      "localPath": "reference-assets/focused-quests/study-d7e57081c311f2ec.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "方外圆孔",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-10995f96f90b78c3",
+      "title": "学习示意：621年 钱币、713年 年号",
+      "localPath": "reference-assets/focused-quests/study-10995f96f90b78c3.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "621年 钱币 → 713年 年号",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-41634931b31720f4",
+      "title": "学习示意：621年 铸钱",
+      "localPath": "reference-assets/focused-quests/study-41634931b31720f4.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "621年 铸钱",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-ad98753ecdb32cd3",
+      "title": "学习示意：713年 年号",
+      "localPath": "reference-assets/focused-quests/study-ad98753ecdb32cd3.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "713年 年号",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-cac8835b30b7044d",
+      "title": "学习示意：开元通宝外形",
+      "localPath": "reference-assets/focused-quests/study-cac8835b30b7044d.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "开元通宝外形",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-fd7bdc918a8a8404",
+      "title": "学习示意：钱文样式、制作、钱币",
+      "localPath": "reference-assets/focused-quests/study-fd7bdc918a8a8404.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "钱文样式 → 制作 → 钱币",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1464beca6f3b9259",
+      "title": "学习示意：制作铸造",
+      "localPath": "reference-assets/focused-quests/study-1464beca6f3b9259.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "制作铸造",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-c25c4886066664c4",
+      "title": "学习示意：念出名字",
+      "localPath": "reference-assets/focused-quests/study-c25c4886066664c4.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "念出名字",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-32e94139476c18dc",
+      "title": "学习示意：钱币、货物、买卖双方",
+      "localPath": "reference-assets/focused-quests/study-32e94139476c18dc.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "钱币 → 货物 → 买卖双方",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-f06dc8ae85c504bd",
+      "title": "学习示意：货物、双方",
+      "localPath": "reference-assets/focused-quests/study-f06dc8ae85c504bd.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "货物 → 双方",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b2bd2d16e2954833",
+      "title": "学习示意：只有钱币",
+      "localPath": "reference-assets/focused-quests/study-b2bd2d16e2954833.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只有钱币",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a437870581dfa5d5",
+      "title": "学习示意：开元通宝、核对记录",
+      "localPath": "reference-assets/focused-quests/study-a437870581dfa5d5.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "开元通宝 → 核对记录",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b398789d1c2eb816",
+      "title": "学习示意：查看铸行记录",
+      "localPath": "reference-assets/focused-quests/study-b398789d1c2eb816.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "查看铸行记录",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-6ab297932bf75d3c",
+      "title": "学习示意：仅凭相同名字",
+      "localPath": "reference-assets/focused-quests/study-6ab297932bf75d3c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "仅凭相同名字",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "kaiyuan-coin-journey-child-illustration",
+      "title": "开元通宝从铸造到市场的儿童示意图",
+      "localPath": "reference-assets/sui-tang-five-dynasties/kaiyuan-coin-journey-self-made.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童示意图：铜料、铸造、方孔圆钱与市场交换形成一段接力。",
+      "boundary": "2026-08-09为低龄玩法自制的绘本插图。画中钱文为避免生成错误而作抽象纹样，不能用于辨读钱文、铸造技术或服饰细节；真实形制以开元通宝馆藏照片为证。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "tang-kaiyuan-tongbao-museum-photo",
       "title": "开元通宝博物馆展览照片",
       "localPath": "reference-assets/sui-tang-five-dynasties/kaiyuan-tongbao.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tang_Kaiyuan_Coin_(14251544611).jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "洛阳博物馆展出的唐代开元通宝照片。",
-      "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。下载为1920像素等比例图，未作其他修改。"
+      "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。下载为1920像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "tang-taizong-weizheng-discussion-child-illustration",
+      "title": "唐太宗听魏征陈述意见儿童艺术表现",
+      "localPath": "reference-assets/sui-tang-five-dynasties/tang-taizong-weizheng-discussion-child-illustration.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "自制儿童艺术表现：唐太宗与魏征在同一张桌前讨论，提示治理需要听取不同意见。",
+      "boundary": "2026-08-12为低龄玩法自制。人物容貌、服饰、宫殿、奏板和这次谈话都不是肖像、照片或精确历史现场复原；一场谈话也不能代表唐朝全部治理过程。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-06-02-tang-governance.jpg",

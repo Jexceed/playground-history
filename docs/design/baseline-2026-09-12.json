@@ -1,0 +1,94 @@
+{
+  "capturedOn": "2026-09-12",
+  "contentVersion": "0.61.0",
+  "generatedAtField": "2026-08-10",
+  "totals": {
+    "tracks": 7,
+    "chapters": 103,
+    "facts": 2684,
+    "screens": 657,
+    "audioClips": 729,
+    "audioSegments": 1154,
+    "coreAudioSegments": 729,
+    "extensionAudioSegments": 425,
+    "interactions": 339,
+    "playableChapters": 103,
+    "coreQuestSteps": 515,
+    "localVoiceLines": 2204,
+    "glossaryTerms": 80,
+    "pronunciationEntries": 155,
+    "yearReadingRules": 7,
+    "sources": 973,
+    "textbookConnections": 34,
+    "assets": 459
+  },
+  "tracks": [
+    {
+      "id": "china-ancient",
+      "label": "中国古代史",
+      "chapters": 43
+    },
+    {
+      "id": "china-modern",
+      "label": "中国近代史",
+      "chapters": 14
+    },
+    {
+      "id": "china-contemporary",
+      "label": "中国现代史",
+      "chapters": 10
+    },
+    {
+      "id": "world-ancient",
+      "label": "世界古代史",
+      "chapters": 10
+    },
+    {
+      "id": "world-modern",
+      "label": "世界近代史",
+      "chapters": 10
+    },
+    {
+      "id": "world-contemporary",
+      "label": "世界现代史",
+      "chapters": 10
+    },
+    {
+      "id": "cross-disciplinary",
+      "label": "跨学科主题学习",
+      "chapters": 6
+    }
+  ],
+  "reviewStates": {
+    "in-progress": 60,
+    "pending": 43
+  },
+  "runtimeAndPublicManifestEqual": true,
+  "uniqueStepImages": 240,
+  "referencedLocalFilesChecked": 2547,
+  "missingFiles": [],
+  "emptyFiles": [],
+  "explicitStepImageOverrides": 75,
+  "automaticStepImageSelections": 440,
+  "contentManifestBytes": 3175686,
+  "note": "全库结构和文件存在性核对，不等于图意逐张审核、语音试听、浏览器验证或真实儿童测试。",
+  "sourceHashes": {
+    "AGENTS.md": "aae8da280b1f245c92dccbd3fb4ced6c8b1d91182ae15ab9a55f744c48fbd5b5",
+    "docs/BUILD-PLAN.md": "e599315d93f6ab39a6509bde25368559b3e62f748bf17c91ca9855cc93fa4dfc",
+    "public/content/manifest.json": "436183d520dc548916cbc75c6a4d2fa9962af3a13271f8c2c91754f1c2611872",
+    "content/quest-story-paths.json": "4e08191b70bf60a24200ef35e83ec1277b2aaf932458332067c94e8f12280b91",
+    "content/step-image-overrides.json": "1ce4cda182b41b67cfa4f9ff531d9d0776da22e8bd48b99aee187792f284eee4",
+    "app/page.tsx": "a3d52133c7e20f8fa772758a8f25ee469f357b0254ef0eec199ad6046f9d575c",
+    "app/speech.ts": "938c49df3bcfbda73edc81427c5c94805707ccfcec050256fbc5612d07e92518"
+  },
+  "checks": {
+    "contentAndLocalAssets": "passed",
+    "gameplayCoherence": "passed",
+    "directWordMatchSteps": 244,
+    "totalSteps": 515,
+    "wordMatchNote": "自动词语匹配指标，不是人工图片审核结论。",
+    "browserInteractionTestThisRun": false,
+    "humanAudioReviewThisRun": false,
+    "childTestThisRun": false
+  }
+}

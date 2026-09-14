@@ -1,0 +1,1493 @@
+{
+  "schemaVersion": 1,
+  "audience": "编辑与配音校听；儿童页面不直接显示拼音",
+  "status": "editorial-baseline-pending-voice-freeze-and-listening-check",
+  "notation": "现代标准汉语拼音（带声调）；人名按姓名分词，外国译名单纯标注普通话读法",
+  "instructions": [
+    "生成正式语音前，逐章对照本表校听人名、地名和多音字。",
+    "拼音只帮助编辑判断读音，不替代历史名称本身，也不要求4—6岁儿童识读。",
+    "同一汉字在别的词里可能有不同读音；校听时必须按本表登记的完整词语判断。",
+    "本表是第一版编辑基线，需在文字冻结、音色定稿和人工试听后再标记为正式定音。"
+  ],
+  "yearReadingRules": [
+    {
+      "id": "four-digit-year",
+      "example": "1949年",
+      "reading": "一九四九年",
+      "note": "公元四位年份逐位读，避免读成数量。"
+    },
+    {
+      "id": "year-with-zero",
+      "example": "2000年",
+      "reading": "二〇〇〇年",
+      "note": "年份中的0读líng；书面校音使用“〇”。"
+    },
+    {
+      "id": "bce-year",
+      "example": "公元前221年",
+      "reading": "公元前二百二十一年",
+      "note": "公元前年份按完整数值读，不省略“公元前”。"
+    },
+    {
+      "id": "approximate-bce-year",
+      "example": "约前256年",
+      "reading": "约公元前二百五十六年",
+      "note": "语音补出“公元”，并保留“约”表示年代并非精确日历点。"
+    },
+    {
+      "id": "year-range",
+      "example": "1931—1945年",
+      "reading": "一九三一年到一九四五年",
+      "note": "连接号读作“到”，起止两端都说清“年”。"
+    },
+    {
+      "id": "full-date",
+      "example": "1937年7月7日",
+      "reading": "一九三七年七月七日",
+      "note": "年份逐位读，月日按普通日期读。"
+    },
+    {
+      "id": "century",
+      "example": "19世纪",
+      "reading": "十九世纪",
+      "note": "世纪按数量读，不逐位读成“一九世纪”。"
+    }
+  ],
+  "entries": [
+    {
+      "text": "周口店",
+      "reading": "Zhōukǒudiàn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-01-01-human-evidence"
+      ],
+      "note": "北京地名；连续读作“周—口—店”。"
+    },
+    {
+      "text": "河姆渡",
+      "reading": "Hémǔdù",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-01-02-first-farmers"
+      ],
+      "note": "“姆”读mǔ。"
+    },
+    {
+      "text": "半坡",
+      "reading": "Bànpō",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-01-02-first-farmers"
+      ],
+      "note": "西安遗址名。"
+    },
+    {
+      "text": "良渚",
+      "reading": "Liángzhǔ",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-01-03-civilization-origins"
+      ],
+      "note": "“渚”读zhǔ。"
+    },
+    {
+      "text": "二里头",
+      "reading": "Èrlǐtóu",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-02-01-early-states"
+      ],
+      "note": "河南遗址名。"
+    },
+    {
+      "text": "殷墟",
+      "reading": "Yīnxū",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-02-01-early-states",
+        "cn-ancient-02-02-oracle-bronze"
+      ],
+      "note": "“殷”在此读yīn，“墟”读xū。"
+    },
+    {
+      "text": "周原",
+      "reading": "Zhōuyuán",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-02-03-zhou-order"
+      ],
+      "note": "周代重要遗址区名称。"
+    },
+    {
+      "text": "都江堰",
+      "reading": "Dūjiāngyàn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-03-01-iron-waterworks",
+        "cross-05-environment-development"
+      ],
+      "note": "“都”在此读dū，不读dōu。"
+    },
+    {
+      "text": "商鞅",
+      "reading": "Shāng Yāng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-03-02-reforms-unification"
+      ],
+      "note": "“鞅”在人名中读yāng。"
+    },
+    {
+      "text": "曲阜",
+      "reading": "Qūfù",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-03-03-hundred-schools"
+      ],
+      "note": "“曲”在此读qū。"
+    },
+    {
+      "text": "秦始皇",
+      "reading": "Qín Shǐhuáng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-04-01-qin-unification",
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "note": "“始皇”是称号，不拆成口语停顿。"
+    },
+    {
+      "text": "度量衡",
+      "reading": "Dù liàng héng",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-04-01-qin-unification"
+      ],
+      "note": "“度”读dù，“量”在此读liàng，分别指长度、容量和重量标准。"
+    },
+    {
+      "text": "烽燧",
+      "reading": "Fēngsuì",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "note": "“燧”读suì；指传递警报的设施。"
+    },
+    {
+      "text": "长安",
+      "reading": "Cháng’ān",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-04-02-han-governance",
+        "cn-ancient-04-03-silk-road",
+        "cn-ancient-06-02-tang-governance",
+        "cn-ancient-06-03-tang-changan",
+        "cn-ancient-06-04-tang-cultural-exchange",
+        "cross-03-cultural-exchange"
+      ],
+      "note": "“长”在地名中读cháng。"
+    },
+    {
+      "text": "张骞",
+      "reading": "Zhāng Qiān",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-04-03-silk-road"
+      ],
+      "note": "“骞”读qiān。"
+    },
+    {
+      "text": "敦煌",
+      "reading": "Dūnhuáng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-04-03-silk-road",
+        "cn-ancient-05-05-dunhuang-story"
+      ],
+      "note": "河西走廊重要地点。"
+    },
+    {
+      "text": "蔡伦",
+      "reading": "Cài Lún",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-04-04-han-knowledge"
+      ],
+      "note": "“伦”读lún。"
+    },
+    {
+      "text": "张仲景",
+      "reading": "Zhāng Zhòngjǐng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-04-04-han-knowledge"
+      ],
+      "note": "“仲”读zhòng。"
+    },
+    {
+      "text": "司马迁",
+      "reading": "Sīmǎ Qiān",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-04-04-han-knowledge"
+      ],
+      "note": "复姓“司马”连读。"
+    },
+    {
+      "text": "建康",
+      "reading": "Jiànkāng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-05-01-division-migration",
+        "cn-ancient-05-02-jiangnan-development"
+      ],
+      "note": "古代地名，今南京一带。"
+    },
+    {
+      "text": "北魏孝文帝",
+      "reading": "Běi Wèi Xiàowéndì",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-05-03-ethnic-interaction"
+      ],
+      "note": "“魏”读wèi。"
+    },
+    {
+      "text": "云冈",
+      "reading": "Yúngāng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-05-03-ethnic-interaction",
+        "cn-ancient-05-04-science-art"
+      ],
+      "note": "“冈”读gāng。"
+    },
+    {
+      "text": "刘徽",
+      "reading": "Liú Huī",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-05-04-science-art"
+      ],
+      "note": "“徽”读huī。"
+    },
+    {
+      "text": "王羲之",
+      "reading": "Wáng Xīzhī",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-05-04-science-art",
+        "cross-06-calligraphy-journey"
+      ],
+      "note": "“羲”读xī。"
+    },
+    {
+      "text": "祖冲之",
+      "reading": "Zǔ Chōngzhī",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-05-04-science-art"
+      ],
+      "note": "“冲”在此读chōng。"
+    },
+    {
+      "text": "大运河",
+      "reading": "Dàyùnhé",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-06-01-sui-unification-canal",
+        "cross-04-transport-history"
+      ],
+      "note": "“运河”连读清楚。"
+    },
+    {
+      "text": "唐太宗",
+      "reading": "Táng Tàizōng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-02-tang-governance",
+        "cn-ancient-06-08-zhenguan-governance"
+      ],
+      "note": "“太宗”是庙号。"
+    },
+    {
+      "text": "贞观之治",
+      "reading": "Zhēnguān zhī zhì",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-06-08-zhenguan-governance"
+      ],
+      "note": "“贞观”是唐太宗年号；四字连读清楚。"
+    },
+    {
+      "text": "魏征",
+      "reading": "Wèi Zhēng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-08-zhenguan-governance"
+      ],
+      "note": "“征”在人名中读zhēng。"
+    },
+    {
+      "text": "武则天",
+      "reading": "Wǔ Zétiān",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-02-tang-governance"
+      ],
+      "note": "“则”读zé。"
+    },
+    {
+      "text": "唐玄宗",
+      "reading": "Táng Xuánzōng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-02-tang-governance"
+      ],
+      "note": "“玄”读xuán。"
+    },
+    {
+      "text": "乐手",
+      "reading": "Yuèshǒu",
+      "kind": "polyphone",
+      "chapterIds": [
+        "cn-ancient-06-03-tang-changan",
+        "cross-03-cultural-exchange"
+      ],
+      "note": "表示演奏音乐的人时，“乐”读yuè。"
+    },
+    {
+      "text": "玄奘",
+      "reading": "Xuán Zàng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-04-tang-cultural-exchange"
+      ],
+      "note": "“奘”在人名中读zàng。"
+    },
+    {
+      "text": "辩机",
+      "reading": "Biànjī",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-04-tang-cultural-exchange"
+      ],
+      "note": "人名连读。"
+    },
+    {
+      "text": "鉴真",
+      "reading": "Jiànzhēn",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-04-tang-cultural-exchange",
+        "world-ancient-02-04-medieval-japan"
+      ],
+      "note": "“鉴”读jiàn。"
+    },
+    {
+      "text": "奈良",
+      "reading": "Nàiliáng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-06-04-tang-cultural-exchange",
+        "world-ancient-02-04-medieval-japan"
+      ],
+      "note": "日本地名的普通话译名读法。"
+    },
+    {
+      "text": "钱镠",
+      "reading": "Qián Liú",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-05-tang-decline"
+      ],
+      "note": "“镠”读liú。"
+    },
+    {
+      "text": "颜真卿",
+      "reading": "Yán Zhēnqīng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-06-yan-zhenqing-draft",
+        "cross-06-calligraphy-journey"
+      ],
+      "note": "“卿”读qīng。"
+    },
+    {
+      "text": "李白",
+      "reading": "Lǐ Bái",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-07-li-bai-jingyesi"
+      ],
+      "note": "“白”读bái。"
+    },
+    {
+      "text": "中兴府",
+      "reading": "Zhōngxīngfǔ",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-07-01-parallel-regimes"
+      ],
+      "note": "“兴”在此读xīng。"
+    },
+    {
+      "text": "中都",
+      "reading": "Zhōngdū",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-07-01-parallel-regimes"
+      ],
+      "note": "“都”在都城名称中读dū。"
+    },
+    {
+      "text": "张择端",
+      "reading": "Zhāng Zéduān",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-07-02-song-economy-cities"
+      ],
+      "note": "“择”在人名中读zé。"
+    },
+    {
+      "text": "汴京",
+      "reading": "Biànjīng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-07-02-song-economy-cities"
+      ],
+      "note": "“汴”读biàn。"
+    },
+    {
+      "text": "毕昇",
+      "reading": "Bì Shēng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-07-03-song-inventions"
+      ],
+      "note": "“昇”读shēng。"
+    },
+    {
+      "text": "沈括",
+      "reading": "Shěn Kuò",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-07-03-song-inventions"
+      ],
+      "note": "姓“沈”读shěn；“括”读kuò。"
+    },
+    {
+      "text": "指南针",
+      "reading": "Zhǐnánzhēn",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-07-07-song-compass-navigation"
+      ],
+      "note": "“指”读zhǐ，三字连读。"
+    },
+    {
+      "text": "武经总要",
+      "reading": "Wǔjīng Zǒngyào",
+      "kind": "title",
+      "chapterIds": [
+        "cn-ancient-07-08-song-gunpowder-records"
+      ],
+      "note": "古代典籍名；“要”在此读yào。"
+    },
+    {
+      "text": "忽必烈",
+      "reading": "Hūbìliè",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-07-04-yuan-unification"
+      ],
+      "note": "三字连读，不在“必”后拉长停顿。"
+    },
+    {
+      "text": "元大都",
+      "reading": "Yuán Dàdū",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-07-04-yuan-unification"
+      ],
+      "note": "“都”在都城名称中读dū。"
+    },
+    {
+      "text": "驿卒",
+      "reading": "Yìzú",
+      "kind": "polyphone",
+      "chapterIds": [
+        "cn-ancient-07-05-yuan-exchange",
+        "cross-04-transport-history"
+      ],
+      "note": "“驿”读yì，“卒”表示差役时读zú。"
+    },
+    {
+      "text": "泉州",
+      "reading": "Quánzhōu",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-07-05-yuan-exchange",
+        "world-ancient-02-03-islamic-world",
+        "cross-04-transport-history"
+      ],
+      "note": "福建地名。"
+    },
+    {
+      "text": "朱元璋",
+      "reading": "Zhū Yuánzhāng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-01-ming-governance"
+      ],
+      "note": "“璋”读zhāng。"
+    },
+    {
+      "text": "郑和",
+      "reading": "Zhèng Hé",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-02-zheng-he"
+      ],
+      "note": "“和”在人名中读hé。"
+    },
+    {
+      "text": "长乐",
+      "reading": "Chánglè",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-08-02-zheng-he"
+      ],
+      "note": "福建地名；“长”读cháng，“乐”读lè。"
+    },
+    {
+      "text": "西藏",
+      "reading": "Xīzàng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-08-03-frontiers-unity"
+      ],
+      "note": "“藏”在地名中读zàng。"
+    },
+    {
+      "text": "李时珍",
+      "reading": "Lǐ Shízhēn",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-04-economy-knowledge-culture"
+      ],
+      "note": "“珍”读zhēn。"
+    },
+    {
+      "text": "宋应星",
+      "reading": "Sòng Yìngxīng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-04-economy-knowledge-culture"
+      ],
+      "note": "“应”在人名中读yìng。"
+    },
+    {
+      "text": "广州",
+      "reading": "Guǎngzhōu",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-08-05-late-crisis",
+        "cn-modern-01-01-opium-war",
+        "cn-modern-01-02-deeper-crisis",
+        "cn-modern-04-02-cpc-national-revolution",
+        "cross-01-hero-biography"
+      ],
+      "note": "广东省会地名。"
+    },
+    {
+      "text": "林则徐",
+      "reading": "Lín Zéxú",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-01-01-opium-war",
+        "cross-01-hero-biography"
+      ],
+      "note": "“则”读zé，“徐”读xú。"
+    },
+    {
+      "text": "关天培",
+      "reading": "Guān Tiānpéi",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-01-01-opium-war"
+      ],
+      "note": "“培”读péi。"
+    },
+    {
+      "text": "虎门",
+      "reading": "Hǔmén",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-01-01-opium-war",
+        "cross-01-hero-biography"
+      ],
+      "note": "广东地名。"
+    },
+    {
+      "text": "天津",
+      "reading": "Tiānjīn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-01-02-deeper-crisis",
+        "cn-modern-03-01-everyday-modernization"
+      ],
+      "note": "地名连读。"
+    },
+    {
+      "text": "左宗棠",
+      "reading": "Zuǒ Zōngtáng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-01-03-self-strengthening-frontier"
+      ],
+      "note": "“棠”读táng。"
+    },
+    {
+      "text": "马尾",
+      "reading": "Mǎwěi",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-01-03-self-strengthening-frontier"
+      ],
+      "note": "福州地名。"
+    },
+    {
+      "text": "康有为",
+      "reading": "Kāng Yǒuwéi",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-01-04-reform-and-national-crisis"
+      ],
+      "note": "“为”在人名中读wéi。"
+    },
+    {
+      "text": "梁启超",
+      "reading": "Liáng Qǐchāo",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-01-04-reform-and-national-crisis"
+      ],
+      "note": "“启”读qǐ。"
+    },
+    {
+      "text": "孙中山",
+      "reading": "Sūn Zhōngshān",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-02-01-revolution-1911",
+        "cn-modern-02-02-early-republic"
+      ],
+      "note": "人名连读。"
+    },
+    {
+      "text": "黄兴",
+      "reading": "Huáng Xīng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-02-01-revolution-1911"
+      ],
+      "note": "“兴”在人名中读xīng。"
+    },
+    {
+      "text": "武昌",
+      "reading": "Wǔchāng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-02-01-revolution-1911"
+      ],
+      "note": "武汉三镇之一。"
+    },
+    {
+      "text": "袁世凯",
+      "reading": "Yuán Shìkǎi",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-02-02-early-republic"
+      ],
+      "note": "“凯”读kǎi。"
+    },
+    {
+      "text": "上海",
+      "reading": "Shànghǎi",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-01-04-reform-and-national-crisis",
+        "cn-modern-03-01-everyday-modernization",
+        "cn-modern-04-01-new-culture-may-fourth",
+        "cn-modern-04-02-cpc-national-revolution"
+      ],
+      "note": "“上”在地名中读shàng。"
+    },
+    {
+      "text": "陈独秀",
+      "reading": "Chén Dúxiù",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-04-01-new-culture-may-fourth"
+      ],
+      "note": "“秀”读xiù。"
+    },
+    {
+      "text": "李大钊",
+      "reading": "Lǐ Dàzhāo",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-04-01-new-culture-may-fourth",
+        "world-contemporary-01-02-russian-revolution"
+      ],
+      "note": "“钊”读zhāo。"
+    },
+    {
+      "text": "鲁迅",
+      "reading": "Lǔ Xùn",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-04-01-new-culture-may-fourth"
+      ],
+      "note": "“迅”读xùn。"
+    },
+    {
+      "text": "嘉兴",
+      "reading": "Jiāxīng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-04-02-cpc-national-revolution"
+      ],
+      "note": "“兴”在地名中读xīng。"
+    },
+    {
+      "text": "井冈山",
+      "reading": "Jǐnggāngshān",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-04-03-new-revolutionary-road"
+      ],
+      "note": "“冈”读gāng。"
+    },
+    {
+      "text": "瑞金",
+      "reading": "Ruìjīn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-04-03-new-revolutionary-road"
+      ],
+      "note": "江西地名。"
+    },
+    {
+      "text": "遵义",
+      "reading": "Zūnyì",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-04-03-new-revolutionary-road"
+      ],
+      "note": "“遵”读zūn。"
+    },
+    {
+      "text": "卢沟桥",
+      "reading": "Lúgōuqiáo",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-05-01-from-local-to-national-war"
+      ],
+      "note": "北京地名；“沟”读gōu。"
+    },
+    {
+      "text": "张伯苓",
+      "reading": "Zhāng Bólíng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-05-02-whole-nation-resistance"
+      ],
+      "note": "“伯”在人名中读bó，“苓”读líng。"
+    },
+    {
+      "text": "西南联大",
+      "reading": "Xīnán Liándà",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-05-02-whole-nation-resistance"
+      ],
+      "note": "西南联合大学的简称。"
+    },
+    {
+      "text": "重庆",
+      "reading": "Chóngqìng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-06-01-peace-talks-and-civil-war"
+      ],
+      "note": "“重”在地名中读chóng。"
+    },
+    {
+      "text": "周恩来",
+      "reading": "Zhōu Ēnlái",
+      "kind": "person",
+      "chapterIds": [
+        "cn-modern-06-01-peace-talks-and-civil-war",
+        "world-contemporary-04-03-decolonization"
+      ],
+      "note": "“恩”读ēn。"
+    },
+    {
+      "text": "淮海",
+      "reading": "Huáihǎi",
+      "kind": "place",
+      "chapterIds": [
+        "cn-modern-06-02-victory-1949"
+      ],
+      "note": "“淮”读huái。"
+    },
+    {
+      "text": "天安门",
+      "reading": "Tiān’ānmén",
+      "kind": "place",
+      "chapterIds": [
+        "cn-contemporary-01-01-founding"
+      ],
+      "note": "“天安”两音节间不吞音。"
+    },
+    {
+      "text": "边疆",
+      "reading": "Biānjiāng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-08-03-frontiers-unity",
+        "cn-contemporary-01-02-consolidation"
+      ],
+      "note": "泛指靠近国界的地区，不是单一地点名。"
+    },
+    {
+      "text": "鞍山",
+      "reading": "Ānshān",
+      "kind": "place",
+      "chapterIds": [
+        "cn-contemporary-01-03-industrialization-transition"
+      ],
+      "note": "“鞍”读ān。"
+    },
+    {
+      "text": "建设者",
+      "reading": "Jiànshèzhě",
+      "kind": "phrase",
+      "chapterIds": [
+        "cn-contemporary-01-03-industrialization-transition",
+        "cn-contemporary-02-01-exploration-achievements-setbacks"
+      ],
+      "note": "“建设”连读，语气不要误作地名。"
+    },
+    {
+      "text": "酒泉",
+      "reading": "Jiǔquán",
+      "kind": "place",
+      "chapterIds": [
+        "cn-contemporary-02-02-science-diplomacy"
+      ],
+      "note": "甘肃地名。"
+    },
+    {
+      "text": "小岗村",
+      "reading": "Xiǎogǎngcūn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-contemporary-03-01-reform-begins"
+      ],
+      "note": "“岗”在地名中读gǎng。"
+    },
+    {
+      "text": "凤阳",
+      "reading": "Fèngyáng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-contemporary-03-01-reform-begins"
+      ],
+      "note": "安徽地名。"
+    },
+    {
+      "text": "深圳",
+      "reading": "Shēnzhèn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-contemporary-03-01-reform-begins"
+      ],
+      "note": "“圳”读zhèn。"
+    },
+    {
+      "text": "家庭相册",
+      "reading": "Jiātíng xiàngcè",
+      "kind": "polyphone",
+      "chapterIds": [
+        "cn-contemporary-03-02-reform-daily-life",
+        "world-contemporary-04-02-postwar-development"
+      ],
+      "note": "“相”在“相册”中读xiàng。"
+    },
+    {
+      "text": "香港",
+      "reading": "Xiānggǎng",
+      "kind": "place",
+      "chapterIds": [
+        "cn-contemporary-03-03-chinese-characteristics-reunification"
+      ],
+      "note": "“港”读gǎng。"
+    },
+    {
+      "text": "澳门",
+      "reading": "Àomén",
+      "kind": "place",
+      "chapterIds": [
+        "cn-contemporary-03-03-chinese-characteristics-reunification"
+      ],
+      "note": "“澳”读ào。"
+    },
+    {
+      "text": "非遗",
+      "reading": "Fēiyí",
+      "kind": "term",
+      "chapterIds": [
+        "cn-contemporary-04-01-new-era-development"
+      ],
+      "note": "“非物质文化遗产”的简称。"
+    },
+    {
+      "text": "联合国",
+      "reading": "Liánhéguó",
+      "kind": "title",
+      "chapterIds": [
+        "cn-contemporary-02-02-science-diplomacy",
+        "cn-contemporary-04-02-china-and-world-today",
+        "world-contemporary-05-02-peace-development"
+      ],
+      "note": "“联合”连读，不在“联”后停顿。"
+    },
+    {
+      "text": "非洲",
+      "reading": "Fēizhōu",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-01-01-human-farming",
+        "world-contemporary-03-01-second-world-war"
+      ],
+      "note": "大洲名称。"
+    },
+    {
+      "text": "尼罗河",
+      "reading": "Níluóhé",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-01-02-river-civilizations"
+      ],
+      "note": "河流名称。"
+    },
+    {
+      "text": "楔形文字",
+      "reading": "Xiēxíng wénzì",
+      "kind": "polyphone",
+      "chapterIds": [
+        "world-ancient-01-02-river-civilizations"
+      ],
+      "note": "“楔”读xiē。"
+    },
+    {
+      "text": "阿育王",
+      "reading": "Āyù Wáng",
+      "kind": "person",
+      "chapterIds": [
+        "world-ancient-01-03-ancient-india"
+      ],
+      "note": "“阿”在此读ā。"
+    },
+    {
+      "text": "摩亨佐-达罗",
+      "reading": "Móhēngzuǒ-Dáluó",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-01-03-ancient-india"
+      ],
+      "note": "按中文译名逐字清楚读出。"
+    },
+    {
+      "text": "雅典",
+      "reading": "Yǎdiǎn",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-01-04-greek-city-states"
+      ],
+      "note": "“雅”读yǎ。"
+    },
+    {
+      "text": "斯巴达",
+      "reading": "Sībādá",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-01-04-greek-city-states"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "地中海",
+      "reading": "Dìzhōnghǎi",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-01-05-rome-empire"
+      ],
+      "note": "“中”读zhōng。"
+    },
+    {
+      "text": "西欧",
+      "reading": "Xī’ōu",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-01-medieval-europe",
+        "world-contemporary-04-02-postwar-development"
+      ],
+      "note": "“西”“欧”之间避免吞音。"
+    },
+    {
+      "text": "查士丁尼",
+      "reading": "Chāshìdīngní",
+      "kind": "person",
+      "chapterIds": [
+        "world-ancient-02-02-byzantine"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "君士坦丁堡",
+      "reading": "Jūnshìtǎndīngbǎo",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-02-byzantine"
+      ],
+      "note": "“坦”读tǎn，“堡”读bǎo。"
+    },
+    {
+      "text": "伊斯坦布尔",
+      "reading": "Yīsītǎnbù’ěr",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-02-byzantine"
+      ],
+      "note": "按中文译名逐音节清楚读出。"
+    },
+    {
+      "text": "大马士革",
+      "reading": "Dàmǎshìgé",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-03-islamic-world"
+      ],
+      "note": "“革”在译名中读gé。"
+    },
+    {
+      "text": "巴格达",
+      "reading": "Bāgédá",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-03-islamic-world"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "尼沙普尔",
+      "reading": "Níshāpǔ’ěr",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-03-islamic-world",
+        "cross-03-cultural-exchange"
+      ],
+      "note": "“普尔”两音节读清楚。"
+    },
+    {
+      "text": "紫式部",
+      "reading": "Zǐshìbù",
+      "kind": "person",
+      "chapterIds": [
+        "world-ancient-02-04-medieval-japan"
+      ],
+      "note": "“部”读bù。"
+    },
+    {
+      "text": "镰仓",
+      "reading": "Liáncāng",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-04-medieval-japan"
+      ],
+      "note": "“镰”读lián，“仓”读cāng。"
+    },
+    {
+      "text": "廷巴克图",
+      "reading": "Tíngbākètú",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-05-africa-americas"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "安第斯",
+      "reading": "Āndìsī",
+      "kind": "place",
+      "chapterIds": [
+        "world-ancient-02-05-africa-americas"
+      ],
+      "note": "“第”读dì。"
+    },
+    {
+      "text": "达·芬奇",
+      "reading": "Dá Fēnqí",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-01-01-workshops-renaissance"
+      ],
+      "note": "间隔号处可作很短停顿。"
+    },
+    {
+      "text": "佛罗伦萨",
+      "reading": "Fóluólúnsà",
+      "kind": "place",
+      "chapterIds": [
+        "world-modern-01-01-workshops-renaissance"
+      ],
+      "note": "按中文译名逐音节读清楚。"
+    },
+    {
+      "text": "大西洋",
+      "reading": "Dàxīyáng",
+      "kind": "place",
+      "chapterIds": [
+        "world-modern-02-01-ocean-routes"
+      ],
+      "note": "大洋名称。"
+    },
+    {
+      "text": "苏格兰",
+      "reading": "Sūgélán",
+      "kind": "place",
+      "chapterIds": [
+        "world-modern-03-01-english-revolution"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "爱尔兰",
+      "reading": "Ài’ěrlán",
+      "kind": "place",
+      "chapterIds": [
+        "world-modern-03-01-english-revolution"
+      ],
+      "note": "“爱”“尔”之间避免吞音。"
+    },
+    {
+      "text": "海地",
+      "reading": "Hǎidì",
+      "kind": "place",
+      "chapterIds": [
+        "world-modern-03-02-american-french-revolutions"
+      ],
+      "note": "加勒比国家名称。"
+    },
+    {
+      "text": "瓦特",
+      "reading": "Wǎtè",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-05-late-crisis",
+        "world-modern-04-01-first-industrial-revolution"
+      ],
+      "note": "“瓦”在人名译名中读wǎ。"
+    },
+    {
+      "text": "博尔顿",
+      "reading": "Bó’ěrdùn",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-04-01-first-industrial-revolution"
+      ],
+      "note": "“博”“尔”之间避免吞音。"
+    },
+    {
+      "text": "马克思",
+      "reading": "Mǎkèsī",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-04-02-workers-marxism"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "恩格斯",
+      "reading": "Ēngésī",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-04-02-workers-marxism"
+      ],
+      "note": "“恩”读ēn。"
+    },
+    {
+      "text": "巴黎公社",
+      "reading": "Bālí Gōngshè",
+      "kind": "title",
+      "chapterIds": [
+        "world-modern-04-02-workers-marxism"
+      ],
+      "note": "“公社”作为整体连读。"
+    },
+    {
+      "text": "玻利瓦尔",
+      "reading": "Bōlìwǎ’ěr",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-05-01-colonial-resistance"
+      ],
+      "note": "按中文译名逐音节读清楚。"
+    },
+    {
+      "text": "圣马丁",
+      "reading": "Shèng Mǎdīng",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-05-01-colonial-resistance"
+      ],
+      "note": "人名译法按“圣—马丁”读。"
+    },
+    {
+      "text": "俄国",
+      "reading": "Éguó",
+      "kind": "place",
+      "chapterIds": [
+        "world-modern-05-02-capitalist-expansion",
+        "world-contemporary-01-02-russian-revolution"
+      ],
+      "note": "“俄”读é。"
+    },
+    {
+      "text": "欧美",
+      "reading": "Ōuměi",
+      "kind": "place",
+      "chapterIds": [
+        "world-modern-06-01-second-industrial-revolution"
+      ],
+      "note": "“欧”读ōu。"
+    },
+    {
+      "text": "贝多芬",
+      "reading": "Bèiduōfēn",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-06-02-science-art"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "巴尔扎克",
+      "reading": "Bā’ěrzhākè",
+      "kind": "person",
+      "chapterIds": [
+        "world-modern-06-02-science-art"
+      ],
+      "note": "“巴”“尔”之间避免吞音。"
+    },
+    {
+      "text": "欧洲",
+      "reading": "Ōuzhōu",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-01-01-first-world-war",
+        "world-contemporary-02-02-depression-fascism-resistance",
+        "world-contemporary-03-01-second-world-war"
+      ],
+      "note": "大洲名称。"
+    },
+    {
+      "text": "列宁",
+      "reading": "Lièníng",
+      "kind": "person",
+      "chapterIds": [
+        "world-contemporary-01-02-russian-revolution"
+      ],
+      "note": "“列”读liè。"
+    },
+    {
+      "text": "彼得格勒",
+      "reading": "Bǐdégélè",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-01-02-russian-revolution"
+      ],
+      "note": "按中文译名逐音节读清楚。"
+    },
+    {
+      "text": "华盛顿",
+      "reading": "Huáshèngdùn",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-02-01-interwar-order-socialism"
+      ],
+      "note": "作为美国地名译名时按此读法。"
+    },
+    {
+      "text": "罗斯福",
+      "reading": "Luósīfú",
+      "kind": "person",
+      "chapterIds": [
+        "world-contemporary-02-02-depression-fascism-resistance"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "甘地",
+      "reading": "Gāndì",
+      "kind": "person",
+      "chapterIds": [
+        "world-contemporary-02-02-depression-fascism-resistance",
+        "world-contemporary-04-03-decolonization"
+      ],
+      "note": "“甘”读gān。"
+    },
+    {
+      "text": "太平洋",
+      "reading": "Tàipíngyáng",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-03-01-second-world-war"
+      ],
+      "note": "大洋名称。"
+    },
+    {
+      "text": "柏林",
+      "reading": "Bólín",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-04-01-cold-war"
+      ],
+      "note": "“柏”在地名译名中读bó。"
+    },
+    {
+      "text": "朝鲜半岛",
+      "reading": "Cháoxiǎn Bàndǎo",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-04-01-cold-war"
+      ],
+      "note": "“朝”在此读cháo，“鲜”读xiǎn。"
+    },
+    {
+      "text": "万隆",
+      "reading": "Wànlóng",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-04-01-cold-war",
+        "world-contemporary-04-03-decolonization"
+      ],
+      "note": "印度尼西亚城市译名。"
+    },
+    {
+      "text": "恩克鲁玛",
+      "reading": "Ēnkèlǔmǎ",
+      "kind": "person",
+      "chapterIds": [
+        "world-contemporary-04-03-decolonization"
+      ],
+      "note": "按中文译名逐音节读清楚。"
+    },
+    {
+      "text": "曼德拉",
+      "reading": "Màndélā",
+      "kind": "person",
+      "chapterIds": [
+        "world-contemporary-04-03-decolonization"
+      ],
+      "note": "按中文译名连读。"
+    },
+    {
+      "text": "日内瓦",
+      "reading": "Rìnèiwǎ",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-05-01-globalization-polarization"
+      ],
+      "note": "“日”读rì。"
+    },
+    {
+      "text": "黄海",
+      "reading": "Huánghǎi",
+      "kind": "place",
+      "chapterIds": [
+        "world-contemporary-05-02-peace-development"
+      ],
+      "note": "海域名称。"
+    },
+    {
+      "text": "邓廷桢",
+      "reading": "Dèng Tíngzhēn",
+      "kind": "person",
+      "chapterIds": [
+        "cross-01-hero-biography"
+      ],
+      "note": "“桢”读zhēn。"
+    },
+    {
+      "text": "苏轼",
+      "reading": "Sū Shì",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-07-06-su-shi-moon"
+      ],
+      "note": "“轼”读shì。"
+    },
+    {
+      "text": "太和殿",
+      "reading": "Tàihédiàn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-08-06-forbidden-city-roof-beasts"
+      ],
+      "note": "故宫宫殿名；“和”读hé。"
+    },
+    {
+      "text": "吴承恩",
+      "reading": "Wú Chéng’ēn",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-07-journey-west-print"
+      ],
+      "note": "“承恩”两音节读清楚。"
+    },
+    {
+      "text": "徐霞客",
+      "reading": "Xú Xiákè",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-08-08-xu-xiake-notebook"
+      ],
+      "note": "“霞”读xiá。"
+    },
+    {
+      "text": "铸币",
+      "reading": "Zhùbì",
+      "kind": "phrase",
+      "chapterIds": [
+        "cross-02-money-history"
+      ],
+      "note": "“铸”读zhù。"
+    },
+    {
+      "text": "量一量",
+      "reading": "liáng yī liáng",
+      "kind": "phrase",
+      "chapterIds": [
+        "cn-ancient-04-01-qin-unification"
+      ],
+      "synthesisText": "良衣良",
+      "note": "本机试听按用户指定的第二声、第一声、第二声合成；仅完整短语采用同音字校音，显示文字和稳定ID仍用量一量。不得替换度量衡中的量。"
+    }
+  ]
+}

@@ -1,84 +1,770 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.10.0",
+  "contentVersion": "0.13.0",
   "id": "cn-ancient-06-05-tang-decline",
   "trackId": "china-ancient",
   "trackLabel": "中国古代史",
   "period": {
-    "id": "sui-tang-five-dynasties",
-    "label": "隋唐五代",
-    "years": "581—960年"
+    "id": "five-dynasties-ten-kingdoms",
+    "label": "五代十国",
+    "years": "907—960年"
   },
-  "order": 22,
-  "title": "盛唐以后为何走向动荡",
-  "coreQuestion": "安史之乱为什么成为唐朝由盛转衰的重要转折？",
-  "throughline": "从安史之乱、藩镇割据和五代十国局面理解繁荣并非永远延续，并为北宋建立铺垫。",
-  "age": "6—9岁亲子共学；低龄儿童以语音为主",
+  "order": 24,
+  "title": "钱镠铁券怎样带我们走进五代十国",
+  "coreQuestion": "唐朝结束后，五代十国为什么不是一片空白？",
+  "throughline": "从晚唐钱镠铁券进入907—960年的独立时间线，区分北方五代与南方等地多个政权，并观察政局分立中延续的生产、城市、文化与新的统一进程。",
+  "childEntry": {
+    "id": "cn-ancient-06-05-tang-decline",
+    "childTitle": "钱镠的铁券跨过了唐朝",
+    "prompt": "一件东西，能不能比一个朝代留得更久？",
+    "takeaway": "钱镠铁券颁于唐末897年；907年后进入五代十国，政权变化中各地生活仍在延续。",
+    "object": "钱镠铁券和907—960年时间线",
+    "people": [
+      "钱镠",
+      "保存铁券的人"
+    ],
+    "place": "开封、洛阳、杭州与五代十国时期各地",
+    "culture": "钱镠铁券上的文字与吴越地区延续的城市文化",
+    "care": "时间图不精确绘制政权疆界。金属文书的具体承诺放在家长层，不设计免罚或阵营游戏。",
+    "preferredAssetId": "qian-liu-iron-certificate-museum-photo",
+    "playableSource": "content/focused-quests.json"
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-06-05-tang-decline",
+    "featured": {
+      "type": "历史实物",
+      "icon": "📜",
+      "title": "钱镠与保存铁券的人",
+      "childBridge": "一件东西，能不能比一个朝代留得更久？",
+      "evidenceBoundary": "时间图不精确绘制政权疆界。"
+    },
+    "companions": [
+      {
+        "type": "人物",
+        "label": "钱镠",
+        "note": "从一个地方人物进入，不把历史写成个人传奇。"
+      },
+      {
+        "type": "地点",
+        "label": "开封、洛阳与杭州",
+        "note": "不同城市分别连接北方王朝更替和南方发展。"
+      },
+      {
+        "type": "历史",
+        "label": "五代和十国",
+        "note": "名称概括不同政权，不表示正好同时只有十五个国家。"
+      }
+    ],
+    "sourceIds": [
+      "NMC-SUI-TANG-FIVE-DYNASTIES",
+      "NMC-QIANLIU-IRON-CERTIFICATE",
+      "PEP-HISTORY-7B-2026-TRIAL"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "铁券的先后",
+      "text": "钱镠在897年得到铁券。907年唐朝结束，后来进入五代十国时期。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "铁券不是普通纸",
+      "text": "这是一件金属文书，券上有文字。它记录朝廷给钱镠的承诺，要靠文字内容核对。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "五代不是同一排朋友",
+      "text": "907年以后，北方几个王朝先后更替，南方也有多个政权。不能画成全都同时出现。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "城里生活没有只剩年号",
+      "text": "政权变化时，人们仍要种田、修水利、制作东西。不同地方经历不同，不能一概而论。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "文物能跨越朝代",
+      "text": "铁券从唐末流传下来。后来看到它的人，生活在不同的时代。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "政权",
+      "icon": "🏛️",
+      "plain": "谁在用什么机构和规则管理一个地方。",
+      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
+      "priority": 2
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "国家",
+      "icon": "🗺️",
+      "plain": "许多人住在共同疆域里，按公共规则生活。",
+      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "priority": 2
+    },
+    {
+      "term": "王朝",
+      "icon": "👑",
+      "plain": "以皇帝政权延续的一段历史时期。",
+      "example": "唐朝是王朝；唐朝结束不等于所有事情当天停止。",
+      "priority": 2
+    },
+    {
+      "term": "发展",
+      "icon": "🌱",
+      "plain": "事物经过一段时间出现增长或变化。",
+      "example": "发展不只看速度和数量，也要看人的生活与环境。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "钱镠",
+      "reading": "Qián Liú",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-06-05-tang-decline"
+      ],
+      "note": "“镠”读liú。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "钱镠的铁券跨过了唐朝",
+      "question": "一件东西，能不能比一个朝代留得更久？"
+    },
+    "cta": "去给铁券排时间",
+    "anchor": "钱镠与保存铁券的人",
+    "boundary": "时间图不精确绘制政权疆界。金属文书的具体承诺放在家长层，不设计免罚或阵营游戏。",
+    "evidence": [
+      {
+        "id": "qian-liu-iron-certificate-museum-photo",
+        "title": "钱镠铁券展览照片",
+        "localPath": "reference-assets/sui-tang-five-dynasties/qian-liu-iron-certificate.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Iron_Plaque_for_Quan_Liu,_2016-09-15_01.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 4.0",
+        "clearance": "cleared-open-license",
+        "caption": "中国国家博物馆展出的晚唐钱镠铁券。",
+        "boundary": "铁券由唐昭宗于897年赐给钱镠。Commons英文文件名将Qian误作Quan，本内容沿用收藏机构的正确中文名。它是中央与一位地方人物关系的个案证据，不代表所有节度使，也不简写为传奇式“免死金牌”。下载为1920像素等比例图，未作其他修改。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qian-liu-iron-certificate-museum-photo.jpg"
+      }
+    ],
+    "coverAsset": {
+      "id": "qian-liu-iron-certificate-museum-photo",
+      "title": "钱镠铁券展览照片",
+      "localPath": "reference-assets/sui-tang-five-dynasties/qian-liu-iron-certificate.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Iron_Plaque_for_Quan_Liu,_2016-09-15_01.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 4.0",
+      "clearance": "cleared-open-license",
+      "caption": "中国国家博物馆展出的晚唐钱镠铁券。",
+      "boundary": "铁券由唐昭宗于897年赐给钱镠。Commons英文文件名将Qian误作Quan，本内容沿用收藏机构的正确中文名。它是中央与一位地方人物关系的个案证据，不代表所有节度使，也不简写为传奇式“免死金牌”。下载为1920像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/qian-liu-iron-certificate-museum-photo.jpg"
+    },
+    "presentation": null,
+    "sceneAsset": null,
+    "narrativeAssets": [],
+    "coverImage": "/content/step-images/qian-liu-iron-certificate-museum-photo.jpg",
+    "coverImageAlt": "钱镠铁券展览照片",
+    "coverImageKind": "历史材料",
+    "coverAudio": {
+      "id": "quest-6a7f89c647a73b1a",
+      "text": "钱镠的铁券跨过了唐朝。一件东西，能不能比一个朝代留得更久？准备好就点“去给铁券排时间”。"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-d66e23725ca673a1",
+      "text": "钱镠铁券颁于唐末897年；907年后进入五代十国，政权变化中各地生活仍在延续。"
+    },
+    "finish": {
+      "title": "让一件小物件跨过时间",
+      "actions": [
+        "拿手边一件安全的小物件，放到“以前”这一边。",
+        "慢慢移到“后来”这一边，说：东西可以留下来。"
+      ],
+      "parent": "问“看到旧物时，怎么知道是哪时做的？”可答查记录。铁券不是儿童的免罚卡，不把免死承诺演成魔法护身。",
+      "sceneStepIndexes": [
+        0,
+        4
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-84a7b1160605f3c0",
+          "text": "拿手边一件安全的小物件，放到“以前”这一边。"
+        },
+        {
+          "id": "quest-7547d672cf97fb5d",
+          "text": "慢慢移到“后来”这一边，说：东西可以留下来。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-0ab25e5bfead158f",
+        "text": "让一件小物件跨过时间。拿手边一件安全的小物件，放到“以前”这一边。慢慢移到“后来”这一边，说：东西可以留下来。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "铁券的先后",
+        "title": "铁券的先后",
+        "prompt": "铁券是在唐结束前还是后颁给他的？",
+        "rightNote": "先有897年的铁券，再到907年唐结束。",
+        "wrongNote": "先有897年的铁券，再到907年唐结束。",
+        "sourceIds": [
+          "NMC-QIANLIU-IRON-CERTIFICATE"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 1,
+          "title": "铁券的先后",
+          "screenText": "钱镠在897年得到铁券。907年唐朝结束，后来进入五代十国时期。",
+          "displayText": "钱镠在897年得到铁券。907年唐朝结束，后来进入五代十国时期。",
+          "narration": "钱镠在897年得到铁券。907年唐朝结束，后来进入五代十国时期。"
+        },
+        "assetId": "study-68fe3923aefbff07",
+        "image": "/content/study-scenes/study-68fe3923aefbff07.svg",
+        "studyImage": "/content/study-scenes/study-68fe3923aefbff07.svg",
+        "studyImageAlt": "897年 铁券，907年 唐结束",
+        "imageAlt": "897年 铁券，907年 唐结束",
+        "imageCaption": "学习示意 · 897年 铁券，907年 唐结束",
+        "imageBoundary": "自制学习示意。时间图不精确绘制政权疆界。金属文书的具体承诺放在家长层，不设计免罚或阵营游戏。",
+        "audio": {
+          "transition": {
+            "id": "quest-a28e2f2f01b6f404",
+            "text": "铁券的先后。"
+          },
+          "intro": {
+            "id": "quest-db681d1582ab21e6",
+            "text": "钱镠在897年得到铁券。907年唐朝结束，后来进入五代十国时期。"
+          },
+          "question": {
+            "id": "quest-b4dc2b87b4f11efa",
+            "text": "铁券是在唐结束前还是后颁给他的？"
+          },
+          "image": {
+            "id": "quest-4175fa51e88fd4a9",
+            "text": "这是学习示意图：897年 铁券，907年 唐结束。铁券是在唐结束前还是后颁给他的？"
+          },
+          "right": {
+            "id": "quest-b3f42e8c0f289f22",
+            "text": "找到了。先有897年的铁券，再到907年唐结束。"
+          },
+          "wrong": {
+            "id": "quest-0381a53d478d53ee",
+            "text": "再比较一下。先有897年的铁券，再到907年唐结束。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-05-tang-decline-time-1",
+            "label": "897年，在907年之前",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-f4b26102bad57f53.svg",
+            "imageAlt": "897年 先",
+            "audio": {
+              "id": "quest-afb69d179440fe19",
+              "text": "897年，在907年之前"
+            }
+          },
+          {
+            "id": "cn-ancient-06-05-tang-decline-time-2",
+            "label": "907年以后",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-814857fff01883a7.svg",
+            "imageAlt": "907年以后 后",
+            "audio": {
+              "id": "quest-846e2f3d4ff5f55e",
+              "text": "907年以后"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "铁券不是普通纸",
+        "title": "铁券不是普通纸",
+        "prompt": "想知道承诺了什么，先看哪里？",
+        "rightNote": "颜色能帮助观察外观，却不能说明承诺的内容。",
+        "wrongNote": "颜色能帮助观察外观，却不能说明承诺的内容。",
+        "sourceIds": [
+          "NMC-QIANLIU-IRON-CERTIFICATE"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "铁券不是普通纸",
+          "screenText": "这是一件金属文书，券上有文字。它记录朝廷给钱镠的承诺，要靠文字内容核对。",
+          "displayText": "这是一件金属文书，券上有文字。它记录朝廷给钱镠的承诺，要靠文字内容核对。",
+          "narration": "这是一件金属文书，券上有文字。它记录朝廷给钱镠的承诺，要靠文字内容核对。"
+        },
+        "assetId": "qian-liu-iron-certificate-museum-photo",
+        "image": "/content/step-images/qian-liu-iron-certificate-museum-photo.jpg",
+        "studyImage": "/content/study-scenes/study-d8e6f4f57670c8f3.svg",
+        "studyImageAlt": "金属铁券，文字内容",
+        "imageAlt": "钱镠铁券展览照片",
+        "imageCaption": "钱镠铁券展览照片",
+        "imageBoundary": "铁券由唐昭宗于897年赐给钱镠。Commons英文文件名将Qian误作Quan，本内容沿用收藏机构的正确中文名。它是中央与一位地方人物关系的个案证据，不代表所有节度使，也不简写为传奇式“免死金牌”。下载为1920像素等比例图，未作其他修改。",
+        "audio": {
+          "transition": {
+            "id": "quest-ffa9bb0c7b7f4ad4",
+            "text": "铁券不是普通纸。"
+          },
+          "intro": {
+            "id": "quest-db9d5646735124f2",
+            "text": "这是一件金属文书，券上有文字。它记录朝廷给钱镠的承诺，要靠文字内容核对。"
+          },
+          "question": {
+            "id": "quest-92d7b3acd517b859",
+            "text": "想知道承诺了什么，先看哪里？"
+          },
+          "image": {
+            "id": "quest-4ea0d522aa9200ae",
+            "text": "这张是钱镠铁券展览照片。这是一件金属文书，券上有文字。它记录朝廷给钱镠的承诺，要靠文字内容核对。"
+          },
+          "right": {
+            "id": "quest-741dad8091d1f057",
+            "text": "找到了。颜色能帮助观察外观，却不能说明承诺的内容。"
+          },
+          "wrong": {
+            "id": "quest-95ba133107d8a88f",
+            "text": "再比较一下。颜色能帮助观察外观，却不能说明承诺的内容。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-05-tang-decline-beginning-1",
+            "label": "券上的文字记录",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-8e2036994b0742c0.svg",
+            "imageAlt": "核对文字",
+            "audio": {
+              "id": "quest-72b572112e4dd6a6",
+              "text": "券上的文字记录"
+            }
+          },
+          {
+            "id": "cn-ancient-06-05-tang-decline-beginning-2",
+            "label": "只看金属颜色",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-244a0d9ad70834ef.svg",
+            "imageAlt": "只看颜色",
+            "audio": {
+              "id": "quest-9dfe1ca7036833c6",
+              "text": "只看金属颜色"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "五代不是同一排朋友",
+        "title": "五代不是同一排朋友",
+        "prompt": "表示北方王朝更替，用哪张图？",
+        "rightNote": "先后更替与同时并立，是两种不同的时间关系。",
+        "wrongNote": "先后更替与同时并立，是两种不同的时间关系。",
+        "sourceIds": [
+          "NMC-SUI-TANG-FIVE-DYNASTIES"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "五代不是同一排朋友",
+          "screenText": "907年以后，北方几个王朝先后更替，南方也有多个政权。不能画成全都同时出现。",
+          "displayText": "907年以后，北方几个王朝先后更替，南方也有多个政权。不能画成全都同时出现。",
+          "narration": "907年以后，北方几个王朝先后更替，南方也有多个政权。不能画成全都同时出现。"
+        },
+        "assetId": "study-2d0389b8f03b84f3",
+        "image": "/content/study-scenes/study-2d0389b8f03b84f3.svg",
+        "studyImage": "/content/study-scenes/study-2d0389b8f03b84f3.svg",
+        "studyImageAlt": "北方先后，南方多个政权",
+        "imageAlt": "北方先后，南方多个政权",
+        "imageCaption": "学习示意 · 北方先后，南方多个政权",
+        "imageBoundary": "自制学习示意。时间图不精确绘制政权疆界。金属文书的具体承诺放在家长层，不设计免罚或阵营游戏。",
+        "audio": {
+          "transition": {
+            "id": "quest-2b03bc8020c4928c",
+            "text": "五代不是同一排朋友。"
+          },
+          "intro": {
+            "id": "quest-6c6ec0b43dec6729",
+            "text": "907年以后，北方几个王朝先后更替，南方也有多个政权。不能画成全都同时出现。"
+          },
+          "question": {
+            "id": "quest-1815185b6c0d3e03",
+            "text": "表示北方王朝更替，用哪张图？"
+          },
+          "image": {
+            "id": "quest-cae345b938b78567",
+            "text": "这是学习示意图：北方先后，南方多个政权。表示北方王朝更替，用哪张图？"
+          },
+          "right": {
+            "id": "quest-9c7af69f3842806d",
+            "text": "找到了。先后更替与同时并立，是两种不同的时间关系。"
+          },
+          "wrong": {
+            "id": "quest-fa830e8ba076f2b4",
+            "text": "再比较一下。先后更替与同时并立，是两种不同的时间关系。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-05-tang-decline-journey-1",
+            "label": "一个接一个的时间线",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-07c60071c3d9f398.svg",
+            "imageAlt": "先后更替",
+            "audio": {
+              "id": "quest-e955ca69bb68601a",
+              "text": "一个接一个的时间线"
+            }
+          },
+          {
+            "id": "cn-ancient-06-05-tang-decline-journey-2",
+            "label": "全部放在同一天",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-1e670669e4d52ad9.svg",
+            "imageAlt": "全都同一天",
+            "audio": {
+              "id": "quest-6c97998c5608535b",
+              "text": "全部放在同一天"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "城里生活没有只剩年号",
+        "title": "城里生活没有只剩年号",
+        "prompt": "还想了解当地生活，应该再找什么？",
+        "rightNote": "年号帮助定位，生活还需要别的证据。",
+        "wrongNote": "年号帮助定位，生活还需要别的证据。",
+        "sourceIds": [
+          "NMC-SUI-TANG-FIVE-DYNASTIES"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "城里生活没有只剩年号",
+          "screenText": "政权变化时，人们仍要种田、修水利、制作东西。不同地方经历不同，不能一概而论。",
+          "displayText": "政权变化时，人们仍要种田、修水利、制作东西。不同地方经历不同，不能一概而论。",
+          "narration": "政权变化时，人们仍要种田、修水利、制作东西。不同地方经历不同，不能一概而论。"
+        },
+        "assetId": "study-e7a1b91863873a04",
+        "image": "/content/study-scenes/study-e7a1b91863873a04.svg",
+        "studyImage": "/content/study-scenes/study-e7a1b91863873a04.svg",
+        "studyImageAlt": "政权变化，耕作，制作",
+        "imageAlt": "政权变化，耕作，制作",
+        "imageCaption": "学习示意 · 政权变化，耕作，制作",
+        "imageBoundary": "自制学习示意。时间图不精确绘制政权疆界。金属文书的具体承诺放在家长层，不设计免罚或阵营游戏。",
+        "audio": {
+          "transition": {
+            "id": "quest-1db03eadda56bad6",
+            "text": "城里生活没有只剩年号。"
+          },
+          "intro": {
+            "id": "quest-2a061a817c1dfae9",
+            "text": "政权变化时，人们仍要种田、修水利、制作东西。不同地方经历不同，不能一概而论。"
+          },
+          "question": {
+            "id": "quest-87642f3f394bc4e7",
+            "text": "还想了解当地生活，应该再找什么？"
+          },
+          "image": {
+            "id": "quest-d86c163c7a6ee562",
+            "text": "这是学习示意图：政权变化，耕作，制作。还想了解当地生活，应该再找什么？"
+          },
+          "right": {
+            "id": "quest-6c5bc7a3ffe60410",
+            "text": "找到了。年号帮助定位，生活还需要别的证据。"
+          },
+          "wrong": {
+            "id": "quest-7b69234b2a2bb8a2",
+            "text": "再比较一下。年号帮助定位，生活还需要别的证据。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-05-tang-decline-change-1",
+            "label": "田地、水利与器物材料",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-85510c4d8069352c.svg",
+            "imageAlt": "田地，器物",
+            "audio": {
+              "id": "quest-bada9c1043c19bd4",
+              "text": "田地、水利与器物材料"
+            }
+          },
+          {
+            "id": "cn-ancient-06-05-tang-decline-change-2",
+            "label": "只记住政权名字",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-154d4298c2703f64.svg",
+            "imageAlt": "只有政权名",
+            "audio": {
+              "id": "quest-9fd42aeffe719153",
+              "text": "只记住政权名字"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "文物能跨越朝代",
+        "title": "文物能跨越朝代",
+        "prompt": "哪条路径可以成立？",
+        "rightNote": "朝代更替不会让所有物件和生活痕迹一起消失。",
+        "wrongNote": "朝代更替不会让所有物件和生活痕迹一起消失。",
+        "sourceIds": [
+          "NMC-QIANLIU-IRON-CERTIFICATE"
+        ],
+        "interaction": null,
+        "narrative": null,
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "文物能跨越朝代",
+          "screenText": "铁券从唐末流传下来。后来看到它的人，生活在不同的时代。",
+          "displayText": "铁券从唐末流传下来。后来看到它的人，生活在不同的时代。",
+          "narration": "铁券从唐末流传下来。后来看到它的人，生活在不同的时代。"
+        },
+        "assetId": "study-34de44e37c32b636",
+        "image": "/content/study-scenes/study-34de44e37c32b636.svg",
+        "studyImage": "/content/study-scenes/study-34de44e37c32b636.svg",
+        "studyImageAlt": "唐末铁券，后来保存",
+        "imageAlt": "唐末铁券，后来保存",
+        "imageCaption": "学习示意 · 唐末铁券，后来保存",
+        "imageBoundary": "自制学习示意。时间图不精确绘制政权疆界。金属文书的具体承诺放在家长层，不设计免罚或阵营游戏。",
+        "audio": {
+          "transition": {
+            "id": "quest-2011bda7d5a3d359",
+            "text": "文物能跨越朝代。"
+          },
+          "intro": {
+            "id": "quest-86faca2f59d57b66",
+            "text": "铁券从唐末流传下来。后来看到它的人，生活在不同的时代。"
+          },
+          "question": {
+            "id": "quest-0bd90dc7c343753e",
+            "text": "哪条路径可以成立？"
+          },
+          "image": {
+            "id": "quest-032cfd7c906a8f0e",
+            "text": "这是学习示意图：唐末铁券，后来保存。哪条路径可以成立？"
+          },
+          "right": {
+            "id": "quest-7cbc3ed07eef8169",
+            "text": "找到了。朝代更替不会让所有物件和生活痕迹一起消失。"
+          },
+          "wrong": {
+            "id": "quest-4bc8efffa34eb649",
+            "text": "再比较一下。朝代更替不会让所有物件和生活痕迹一起消失。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-06-05-tang-decline-takeaway-1",
+            "label": "唐末制作 → 后世保存",
+            "correct": true,
+            "objectView": null,
+            "image": "/content/study-scenes/study-5f1084d1492ffd34.svg",
+            "imageAlt": "唐末，后世",
+            "audio": {
+              "id": "quest-e29971c050d34609",
+              "text": "唐末制作 → 后世保存"
+            }
+          },
+          {
+            "id": "cn-ancient-06-05-tang-decline-takeaway-2",
+            "label": "唐一结束 → 所有旧物消失",
+            "correct": false,
+            "objectView": null,
+            "image": "/content/study-scenes/study-247cf4a99ba83cb9.svg",
+            "imageAlt": "唐结束，旧物全消失",
+            "audio": {
+              "id": "quest-b238b15e1901d82a",
+              "text": "唐一结束 → 所有旧物消失"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "时间夹心卡",
+        "items": [
+          "把907年、五代十国、960年按顺序排好。"
+        ]
+      },
+      {
+        "number": 2,
+        "title": "先后还是同时",
+        "items": [
+          "选择“五代在北方先后更替”，拒绝“五个王朝一直同时存在”。"
+        ]
+      },
+      {
+        "number": 3,
+        "title": "历史没有空白",
+        "items": [
+          "把铁券、城市、农田和书画放到“仍在继续”，不把分立时期只画成战争。"
+        ]
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
-    "755年爆发、763年结束的安史之乱给社会造成严重破坏，是唐朝由盛转衰的重要转折。此后唐朝并没有立即灭亡，而是又延续了一百多年。中央财政和军事格局改变，部分地方军政力量扩大，朝廷内部矛盾、赋税与土地问题以及唐末起义等因素相互影响，907年唐朝结束。随后北方五个王朝相继更替，南方和其他地区也存在多个政权，合称五代十国。分裂和战争真实存在，农业、商业和文化也没有完全停下；960年北宋建立，新的统一进程开始。"
+    "907年唐朝结束后，北方五个王朝相继更替，南方和其他地区也存在多个政权，合称五代十国。这个名称概括一段多政权并立的历史，不表示某一天正好同时只有十五个国家。分立与战争真实存在，农业、商业、城市和文化也没有全部停下。897年唐昭宗赐给钱镠的铁券，记录晚唐中央和地方人物的关系，是走进这一时期的前奏；它不能代表全部五代十国。960年北宋建立，新的统一进程开始。"
   ],
   "facts": [
     {
       "number": 1,
-      "text": "755年安史之乱爆发，763年结束。战争造成大量人员伤亡、流离和生产破坏，成为唐朝由盛转衰的重要转折。",
+      "text": "907年唐朝结束，960年北宋建立；五代十国位于这两个时间点之间。",
       "sourceIds": [
         "NMC-SUI-TANG-FIVE-DYNASTIES"
       ]
     },
     {
       "number": 2,
-      "text": "叛军和唐军中都有不同族群背景的将领与士兵。安史之乱是争夺统治权力的政治军事冲突，不能叙述成两个民族之间的战争。",
+      "text": "907年后梁建立，唐朝结束；923年后唐取代后梁。北方王朝的变化要按先后排序，不能画成一直同时存在。",
       "sourceIds": [
-        "NEAC-ANSHI-NOT-ETHNIC"
+        "NMC-SUI-TANG-FIVE-DYNASTIES"
       ]
     },
     {
       "number": 3,
-      "text": "颜真卿758年书写《祭侄文稿》，悼念在战争中遇害的侄子颜季明。文稿上的修改和涂抹是书写过程的真实痕迹，为观察战争造成的个人和家庭伤痛提供了文献证据。",
+      "text": "936年后晋建立，947年后汉建立。短时间内接连更替，说明“五代”不是一个王朝的名字。",
       "sourceIds": [
-        "NPM-JIZHI-WENGAO"
+        "NMC-SUI-TANG-FIVE-DYNASTIES"
       ]
     },
     {
       "number": 4,
-      "text": "今天看到的《祭侄文稿》长卷还包含后世题跋和收藏印记，并非整卷每一部分都由颜真卿在758年写成。",
+      "text": "951年后周建立，960年北宋建立。后梁、后唐、后晋、后汉、后周这五个北方王朝合称“五代”。",
       "sourceIds": [
-        "NPM-JIZHI-WENGAO"
+        "NMC-SUI-TANG-FIVE-DYNASTIES"
       ]
     },
     {
       "number": 5,
-      "text": "安史之乱后，唐朝没有立刻结束；从763年到907年仍有一百多年。部分节度使掌握较强地方军政力量，但不同地区、不同时间与中央的关系并不完全一样。",
+      "text": "南方和其他地区先后存在多个政权，史书合称“十国”；这个名称是历史概括，不表示所有政权在同一天同时存在。",
       "sourceIds": [
         "NMC-SUI-TANG-FIVE-DYNASTIES"
       ]
     },
     {
       "number": 6,
-      "text": "不能把唐朝衰落只解释为府兵制变化、藩镇、宦官、赋税、土地问题、某次起义或某一个人的行为。长期制度变化和多种社会矛盾需要放在一起观察。",
+      "text": "五代十国时期存在战争、分立和政权更替，儿童层不把地图变化做成占地得分，也不以武器和伤亡画面吸引注意。",
       "sourceIds": [
-        "NOPSS-TANG-MILITARY-SYSTEM",
         "NMC-SUI-TANG-FIVE-DYNASTIES"
       ]
     },
     {
       "number": 7,
-      "text": "897年唐昭宗赐钱镠铁券，铁券文字记录了对钱镠的褒奖和承诺。它可作为晚唐中央与强大地方人物关系的一个实例，但不能代表所有节度使，也不能单凭它证明唐朝灭亡原因。",
-      "sourceIds": [
-        "NMC-QIANLIU-IRON-CERTIFICATE"
-      ]
-    },
-    {
-      "number": 8,
-      "text": "907年唐朝结束。此后北方后梁、后唐、后晋、后汉、后周相继更替，同时南方和其他地区存在多个政权，史称五代十国。",
+      "text": "南方一些地区的农业、手工业、商业、城市和文化继续发展。分立不等于普通人的生产和生活全部停止。",
       "sourceIds": [
         "NMC-SUI-TANG-FIVE-DYNASTIES"
       ]
     },
     {
+      "number": 8,
+      "text": "897年唐昭宗赐钱镠铁券，文字记录了对钱镠的褒奖和承诺。它早于907年，是晚唐中央与地方人物关系的一件具体证据。",
+      "sourceIds": [
+        "NMC-QIANLIU-IRON-CERTIFICATE"
+      ]
+    },
+    {
       "number": 9,
-      "text": "五代十国时期战争与分立持续，南方一些地区的经济、城镇和文化也继续发展。960年北宋建立，开始新的统一进程。",
+      "text": "钱镠后来成为吴越政权的重要建立者。铁券可以带孩子追踪一个人物从晚唐进入五代十国，但不能代表所有地区和政权。",
+      "sourceIds": [
+        "NMC-QIANLIU-IRON-CERTIFICATE",
+        "NMC-SUI-TANG-FIVE-DYNASTIES"
+      ]
+    },
+    {
+      "number": 10,
+      "text": "960年北宋建立后，结束分裂、重新组织国家成为新的历史主线；一些政权此后仍继续存在，统一过程不是一天完成。",
       "sourceIds": [
         "NMC-SUI-TANG-FIVE-DYNASTIES"
       ]
@@ -87,34 +773,34 @@
   "screens": [
     {
       "number": 1,
-      "title": "时间线定位：转折不是立刻结束",
-      "screenText": "755年战乱爆发；763年结束；907年唐亡；960年北宋建立。",
+      "title": "时间线定位：五代十国单独成站",
+      "screenText": "907年唐朝结束；960年北宋建立。中间是五代十国。",
       "voices": [
         {
           "number": 1,
           "label": "语音 S01：",
-          "text": "755年，安史之乱爆发，763年结束。它是唐朝由盛转衰的重要转折，但唐朝没有在763年立即消失，而是又延续了一百多年。907年唐朝结束，960年北宋建立，历史才进入下一条主线。",
+          "text": "五代十国不再藏在“隋唐五代”里。把它单独放进时间河：907年唐朝结束，960年北宋建立，中间五十多年有许多政权先后出现。",
           "segments": [
             {
               "id": "cn-ancient-06-05-tang-decline-s01-v01-01",
               "order": 1,
               "tier": "core",
-              "text": "755年，安史之乱爆发，763年结束。它是唐朝由盛转衰的重要转折，但唐朝没有在763年立即消失，而是又延续了一百多年。907年唐朝结束，960年北宋建立，历史才进入下一条主线。",
-              "hanCharacters": 64
+              "text": "五代十国不再藏在“隋唐五代”里。把它单独放进时间河：907年唐朝结束，960年北宋建立，中间五十多年有许多政权先后出现。",
+              "hanCharacters": 47
             }
           ]
         },
         {
           "number": 2,
           "label": "语音 S02：",
-          "text": "所以，“发生战乱”不等于“王朝当天灭亡”。我们要追踪长期变化：战争怎样伤害家庭，中央和地方的力量怎样变化，多种矛盾又怎样在时间里累积。",
+          "text": "“五代”说的是北方五个先后更替的王朝，“十国”是对南方和其他地区多个政权的概括。它们并非在同一天整齐排成十五个国家。",
           "segments": [
             {
               "id": "cn-ancient-06-05-tang-decline-s01-v02-01",
               "order": 1,
               "tier": "core",
-              "text": "所以，“发生战乱”不等于“王朝当天灭亡”。我们要追踪长期变化：战争怎样伤害家庭，中央和地方的力量怎样变化，多种矛盾又怎样在时间里累积。",
-              "hanCharacters": 57
+              "text": "“五代”说的是北方五个先后更替的王朝，“十国”是对南方和其他地区多个政权的概括。它们并非在同一天整齐排成十五个国家。",
+              "hanCharacters": 51
             }
           ]
         }
@@ -123,20 +809,20 @@
     },
     {
       "number": 2,
-      "title": "一份手稿让我们看到人的伤痛",
-      "screenText": "颜真卿在758年写下祭文，悼念战乱中遇害的亲人。",
+      "title": "一块铁券从晚唐来到眼前",
+      "screenText": "897年，唐昭宗把铁券赐给钱镠。这个时间还在晚唐。",
       "voices": [
         {
           "number": 3,
           "label": "语音 S03：",
-          "text": "战争不只是地图上的箭头。颜真卿在《祭侄文稿》中悼念遇害的侄子颜季明，卷上还能看到修改和涂抹。它让我们接近一个家庭的悲痛。整幅长卷还有后世题跋，不能说每个字都写于同一天。",
+          "text": "铁券上的文字记录褒奖和承诺。它让我们看见晚唐中央与地方人物的一种关系，也把钱镠带到五代十国的故事门口。它不是传说里的“免死金牌”。",
           "segments": [
             {
               "id": "cn-ancient-06-05-tang-decline-s02-v03-01",
               "order": 1,
               "tier": "core",
-              "text": "战争不只是地图上的箭头。颜真卿在《祭侄文稿》中悼念遇害的侄子颜季明，卷上还能看到修改和涂抹。它让我们接近一个家庭的悲痛。整幅长卷还有后世题跋，不能说每个字都写于同一天。",
-              "hanCharacters": 76
+              "text": "铁券上的文字记录褒奖和承诺。它让我们看见晚唐中央与地方人物的一种关系，也把钱镠带到五代十国的故事门口。它不是传说里的“免死金牌”。",
+              "hanCharacters": 59
             }
           ]
         }
@@ -145,20 +831,20 @@
     },
     {
       "number": 3,
-      "title": "安史之乱以后发生了什么",
-      "screenText": "财政和军队格局改变，部分地方力量扩大，中央控制受到挑战。",
+      "title": "北方五个王朝先后更替",
+      "screenText": "后梁、后唐、后晋、后汉、后周先后出现，不是同时并排。",
       "voices": [
         {
           "number": 4,
           "label": "语音 S04：",
-          "text": "为了平定战争，唐朝的军政安排发生变化。后来一些节度使在地方拥有较强力量，但他们与中央的关系并不处处相同。朝廷内部矛盾、财政压力和普通人的赋税负担也在变化，不能用一个词解释一百多年的历史。",
+          "text": "北方王朝更替较快，地图和都城也会变化。给它们排顺序，是为了看清时间，不是比较谁占的地方更多。每个王朝内部还有许多不同人的生活。",
           "segments": [
             {
               "id": "cn-ancient-06-05-tang-decline-s03-v04-01",
               "order": 1,
               "tier": "core",
-              "text": "为了平定战争，唐朝的军政安排发生变化。后来一些节度使在地方拥有较强力量，但他们与中央的关系并不处处相同。朝廷内部矛盾、财政压力和普通人的赋税负担也在变化，不能用一个词解释一百多年的历史。",
-              "hanCharacters": 86
+              "text": "北方王朝更替较快，地图和都城也会变化。给它们排顺序，是为了看清时间，不是比较谁占的地方更多。每个王朝内部还有许多不同人的生活。",
+              "hanCharacters": 57
             }
           ]
         }
@@ -167,20 +853,20 @@
     },
     {
       "number": 4,
-      "title": "一块铁券能证明多少",
-      "screenText": "897年的铁券，记录晚唐中央对钱镠的褒奖与承诺。",
+      "title": "南方和其他地区也有多个政权",
+      "screenText": "吴越等政权有自己的城市、道路、农田和居民。",
       "voices": [
         {
           "number": 5,
           "label": "语音 S05：",
-          "text": "这块铁券由唐昭宗赐给钱镠。它说明晚唐中央会用特殊凭证褒奖有实力的地方人物，是观察中央与地方关系的一件证据。但一块铁券不能代表所有地区，也不能单独回答唐朝为什么灭亡。",
+          "text": "钱镠后来成为吴越政权的重要建立者。杭州等城市仍有人耕作、修水利、做手艺和交易。一个地方的故事不能代替整个十国，却能提醒我们：分立时期并不是生活全部停止。",
           "segments": [
             {
               "id": "cn-ancient-06-05-tang-decline-s04-v05-01",
               "order": 1,
               "tier": "core",
-              "text": "这块铁券由唐昭宗赐给钱镠。它说明晚唐中央会用特殊凭证褒奖有实力的地方人物，是观察中央与地方关系的一件证据。但一块铁券不能代表所有地区，也不能单独回答唐朝为什么灭亡。",
-              "hanCharacters": 77
+              "text": "钱镠后来成为吴越政权的重要建立者。杭州等城市仍有人耕作、修水利、做手艺和交易。一个地方的故事不能代替整个十国，却能提醒我们：分立时期并不是生活全部停止。",
+              "hanCharacters": 69
             }
           ]
         }
@@ -189,20 +875,20 @@
     },
     {
       "number": 5,
-      "title": "五代十国不是历史突然停止",
-      "screenText": "政权分立与战争持续，生产、城市和文化也在一些地区延续。",
+      "title": "生活没有全部停下",
+      "screenText": "政权在变，耕作、交易和文化也在一些地区继续。",
       "voices": [
         {
           "number": 6,
           "label": "语音 S06：",
-          "text": "907年以后，北方五个王朝先后更替，南方和其他地区也有多个政权，称为五代十国。这里有战争和分裂，却不是一片空白。人们仍在耕作、交易和创造。960年北宋建立，下一阶段将面对怎样重新组织国家的问题。",
+          "text": "五代十国有战争和分裂，也有日常生产、城市发展和文化延续。960年北宋建立，新的统一进程开始，但并不是所有政权在这一天同时消失。",
           "segments": [
             {
               "id": "cn-ancient-06-05-tang-decline-s05-v06-01",
               "order": 1,
               "tier": "core",
-              "text": "907年以后，北方五个王朝先后更替，南方和其他地区也有多个政权，称为五代十国。这里有战争和分裂，却不是一片空白。人们仍在耕作、交易和创造。960年北宋建立，下一阶段将面对怎样重新组织国家的问题。",
-              "hanCharacters": 81
+              "text": "五代十国有战争和分裂，也有日常生产、城市发展和文化延续。960年北宋建立，新的统一进程开始，但并不是所有政权在这一天同时消失。",
+              "hanCharacters": 54
             }
           ]
         }
@@ -213,23 +899,23 @@
   "interactions": [
     {
       "number": 1,
-      "title": "转折还是终点",
+      "title": "时间夹心卡",
       "items": [
-        "把755年放在“重要转折”，把907年放在“唐朝结束”，不能重叠。"
+        "把907年、五代十国、960年按顺序排好。"
       ]
     },
     {
       "number": 2,
-      "title": "证据放大镜",
+      "title": "先后还是同时",
       "items": [
-        "从《祭侄文稿》选择“一个家庭的战争伤痛”，从钱镠铁券选择“一个中央与地方关系实例”；不让单件证据代替全部历史。"
+        "选择“五代在北方先后更替”，拒绝“五个王朝一直同时存在”。"
       ]
     },
     {
       "number": 3,
-      "title": "多因拼图",
+      "title": "历史没有空白",
       "items": [
-        "把战争破坏、财政军事变化、地方力量、朝廷矛盾、社会负担和唐末起义拼在一起，拒绝“只有一个原因”。"
+        "把铁券、城市、农田和书画放到“仍在继续”，不把分立时期只画成战争。"
       ]
     }
   ],
@@ -245,36 +931,6 @@
       "imageUse": "reference-only"
     },
     {
-      "id": "NOPSS-TANG-MILITARY-SYSTEM",
-      "title": "唐代军事制度研究",
-      "institution": "全国哲学社会科学工作办公室",
-      "url": "https://www.nopss.gov.cn/n1/2024/0516/c373410-40237211.html",
-      "type": "research-summary",
-      "authorityLevel": "A",
-      "factUse": "唐代军事制度长期变化，以及不能用府兵制衰落等单一制度因素解释唐朝由盛转衰的研究边界",
-      "imageUse": "reference-only"
-    },
-    {
-      "id": "NEAC-ANSHI-NOT-ETHNIC",
-      "title": "曾活跃在古丝绸之路上的粟特人，最后去哪儿了？",
-      "institution": "国家民族事务委员会",
-      "url": "https://www.neac.gov.cn/seac/c103391/202310/1168524.shtml",
-      "type": "government-history-article",
-      "authorityLevel": "A",
-      "factUse": "安史叛军与唐军均由不同背景人群构成，安史之乱是统治权力斗争而非民族战争的研究边界",
-      "imageUse": "reference-only"
-    },
-    {
-      "id": "NPM-JIZHI-WENGAO",
-      "title": "唐颜真卿祭侄文稿",
-      "institution": "台北故宫博物院",
-      "url": "https://digitalarchive.npm.gov.tw/Collection/Detail/3?dep=P",
-      "type": "museum-object-record",
-      "authorityLevel": "A",
-      "factUse": "758年《祭侄文稿》的作者、书写背景、卷面内容以及后世题跋边界",
-      "imageUse": "reference-only"
-    },
-    {
       "id": "NMC-QIANLIU-IRON-CERTIFICATE",
       "title": "钱镠铁券",
       "institution": "中国国家博物馆",
@@ -283,28 +939,226 @@
       "authorityLevel": "A",
       "factUse": "897年唐昭宗赐钱镠铁券的年代、形制、文字与晚唐地方军政力量背景",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-HISTORY-7B-2026-TRIAL",
+      "title": "新修订义务教育历史教材七年级下册试教资料",
+      "institution": "人民教育出版社",
+      "url": "https://www.pep.com.cn/xw/zt/hd/sktbjc/jcsy/202606/t20260610_2006778.html",
+      "type": "current-textbook-implementation-reference",
+      "authorityLevel": "A-structure-only",
+      "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
     {
-      "id": "yan-zhenqing-ji-zhi-wen-gao-scroll",
-      "title": "颜真卿《祭侄文稿》长卷图像",
-      "localPath": "reference-assets/sui-tang-five-dynasties/ji-zhi-wen-gao.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yan_Zhenqing_-_Draft_of_a_Requiem_to_My_Nephew.jpg",
-      "license": "Public Domain Mark 1.0",
-      "clearance": "cleared-open-license",
-      "caption": "台北故宫博物院藏颜真卿《祭侄文稿》及后世题跋的长卷图像。",
-      "boundary": "颜真卿于758年写祭文悼念颜季明，正文中的修改涂抹属于书写痕迹；长卷还含后世题跋与印记，不能把整卷都标成颜真卿同日书写。1920×111像素等比例长卷图，展示时需支持局部放大。"
+      "id": "study-68fe3923aefbff07",
+      "title": "学习示意：897年 铁券、907年 唐结束",
+      "localPath": "reference-assets/focused-quests/study-68fe3923aefbff07.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "897年 铁券 → 907年 唐结束",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-f4b26102bad57f53",
+      "title": "学习示意：897年 先",
+      "localPath": "reference-assets/focused-quests/study-f4b26102bad57f53.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "897年 先",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-814857fff01883a7",
+      "title": "学习示意：907年以后 后",
+      "localPath": "reference-assets/focused-quests/study-814857fff01883a7.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "907年以后 后",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d8e6f4f57670c8f3",
+      "title": "学习示意：金属铁券、文字内容",
+      "localPath": "reference-assets/focused-quests/study-d8e6f4f57670c8f3.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "金属铁券 → 文字内容",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8e2036994b0742c0",
+      "title": "学习示意：核对文字",
+      "localPath": "reference-assets/focused-quests/study-8e2036994b0742c0.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "核对文字",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-244a0d9ad70834ef",
+      "title": "学习示意：只看颜色",
+      "localPath": "reference-assets/focused-quests/study-244a0d9ad70834ef.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只看颜色",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-2d0389b8f03b84f3",
+      "title": "学习示意：北方先后、南方多个政权",
+      "localPath": "reference-assets/focused-quests/study-2d0389b8f03b84f3.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "北方先后 → 南方多个政权",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-07c60071c3d9f398",
+      "title": "学习示意：先后更替",
+      "localPath": "reference-assets/focused-quests/study-07c60071c3d9f398.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "先后更替",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1e670669e4d52ad9",
+      "title": "学习示意：全都同一天",
+      "localPath": "reference-assets/focused-quests/study-1e670669e4d52ad9.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "全都同一天",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e7a1b91863873a04",
+      "title": "学习示意：政权变化、耕作、制作",
+      "localPath": "reference-assets/focused-quests/study-e7a1b91863873a04.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "政权变化 → 耕作 → 制作",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-85510c4d8069352c",
+      "title": "学习示意：田地、器物",
+      "localPath": "reference-assets/focused-quests/study-85510c4d8069352c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "田地 → 器物",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-154d4298c2703f64",
+      "title": "学习示意：只有政权名",
+      "localPath": "reference-assets/focused-quests/study-154d4298c2703f64.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "只有政权名",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-34de44e37c32b636",
+      "title": "学习示意：唐末铁券、后来保存",
+      "localPath": "reference-assets/focused-quests/study-34de44e37c32b636.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "唐末铁券 → 后来保存",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5f1084d1492ffd34",
+      "title": "学习示意：唐末、后世",
+      "localPath": "reference-assets/focused-quests/study-5f1084d1492ffd34.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "唐末 → 后世",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-247cf4a99ba83cb9",
+      "title": "学习示意：唐结束、旧物全消失",
+      "localPath": "reference-assets/focused-quests/study-247cf4a99ba83cb9.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "唐结束 → 旧物全消失",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
     },
     {
       "id": "qian-liu-iron-certificate-museum-photo",
       "title": "钱镠铁券展览照片",
       "localPath": "reference-assets/sui-tang-five-dynasties/qian-liu-iron-certificate.jpg",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Iron_Plaque_for_Quan_Liu,_2016-09-15_01.jpg",
+      "sourceFile": null,
+      "licensePath": null,
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "中国国家博物馆展出的晚唐钱镠铁券。",
-      "boundary": "铁券由唐昭宗于897年赐给钱镠。Commons英文文件名将Qian误作Quan，本内容沿用收藏机构的正确中文名。它是中央与一位地方人物关系的个案证据，不代表所有节度使，也不简写为传奇式“免死金牌”。下载为1920像素等比例图，未作其他修改。"
+      "boundary": "铁券由唐昭宗于897年赐给钱镠。Commons英文文件名将Qian误作Quan，本内容沿用收藏机构的正确中文名。它是中央与一位地方人物关系的个案证据，不代表所有节度使，也不简写为传奇式“免死金牌”。下载为1920像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-06-05-tang-decline.jpg",
