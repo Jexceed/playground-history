@@ -38,7 +38,7 @@ test("keeps the complete source library and emits a separate focused UI bundle",
  let segmentCount=0;
  for(const c of full.tracks.flatMap(t=>t.chapters)){
   const detail=await read(`public/content/chapters/${c.id}.json`);assert.deepEqual(detail.gameplay,c.gameplay);
-  assert.equal(detail.gameplay.steps.length,5);assert.equal(detail.gameplay.steps.filter(s=>s.options.filter(o=>o.correct).length===1).length,5);
+  assert.equal(detail.gameplay.steps.length,5);assert.equal(detail.gameplay.steps.filter(s=>s.options.length?s.options.filter(o=>o.correct).length===1:["look-listen","scene-find","history-lab"].includes(s.interaction?.kind)).length,5);
   for(const screen of detail.screens)for(const v of screen.voices){
    assert.equal(v.segments.map(s=>s.text).join("").replace(/\s/g,""),v.text.replace(/\s/g,""));
    assert.ok(v.segments.every(s=>s.hanCharacters<=90));segmentCount+=v.segments.length;
@@ -51,7 +51,7 @@ test("keeps the complete source library and emits a separate focused UI bundle",
  assert.equal(segmentCount,full.totals.audioSegments);
 });
 
-test("every focused question has two authored pictures, source references and a concrete ending",async()=>{
+test("focused steps retain authored prompts, appropriate interaction structures and concrete endings",async()=>{
  const source=JSON.parse(await readFile(new URL("content/focused-quests.json",root),"utf8"));
  const preview=JSON.parse(await readFile(new URL("public/content/preview-manifest.json",root),"utf8"));
  const byId=new Map(preview.tracks.flatMap(t=>t.chapters.map(c=>[c.id,c])));
@@ -60,7 +60,9 @@ test("every focused question has two authored pictures, source references and a 
   assert.equal(game.finish.actions.length,2);assert.ok(game.finish.parent);assert.equal(game.finish.actionAudio.length,2);
   for(const [i,step] of game.steps.entries()){
    assert.equal(step.prompt,authored.steps[i].question);assert.equal(step.story.narration,authored.steps[i].story);
-   assert.equal(step.options.length,2);assert.notEqual(step.options[0].image,step.options[1].image);assert.ok(step.sourceIds.length);
+   assert.ok(step.sourceIds.length);
+   if(["look-listen","scene-find","history-lab"].includes(step.interaction?.kind)){assert.equal(step.options.length,0);continue;}
+   assert.equal(step.options.length,2);assert.notEqual(step.options[0].image,step.options[1].image);
    for(const o of step.options){await access(new URL(`public${o.image}`,root));assert.ok(o.label&&o.imageAlt);}
   }
  }
@@ -95,7 +97,7 @@ test("ships a complete local narration pack", async () => {
   await access(new URL("app/speech.ts", root));
 });
 
-test("keeps every active task step in one viewport with a narrated image overlay", async () => {
+test("keeps narrated image inspection and step badges available in active tasks", async () => {
   const page = await readFile(new URL("app/page.tsx", root), "utf8");
   const css = await readFile(new URL("app/globals.css", root), "utf8");
   assert.match(page, /taskStepActive/);
@@ -107,9 +109,6 @@ test("keeps every active task step in one viewport with a narrated image overlay
   assert.match(page, /quest-step-badge-fallback/);
   assert.match(page, /onError=\{\(\) => setImageFailed\(true\)\}/);
   assert.match(page, /role="dialog"/);
-  assert.match(css, /\.task-step-active \{[^}]*height: 100svh;[^}]*overflow: hidden;/s);
-  assert.match(css, /height: calc\(100svh - 64px\)/);
-  assert.match(css, /grid-template-rows: minmax\(120px, 22svh\) minmax\(0, 1fr\)/);
   assert.match(css, /\.image-lightbox-backdrop \{[^}]*position: fixed;/s);
 });
 

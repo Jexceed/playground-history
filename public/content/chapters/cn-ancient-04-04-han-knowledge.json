@@ -15,17 +15,17 @@
   "throughline": "儿童主线沿树皮、麻头、旧布到纸页，认识蔡伦与工匠怎样在前人经验上改进造纸；医学与《史记》留在家长层作同一时代的延伸。",
   "childEntry": {
     "id": "cn-ancient-04-04-han-knowledge",
-    "childTitle": "蔡伦接过一张旧纸",
-    "prompt": "蔡伦之前已有纸，他还可以把什么做得更好？",
-    "takeaway": "纸不是蔡伦一个人突然变出来的；他总结、改进已有办法，后来的人继续传播和改进。",
+    "childTitle": "蔡伦怎样让纸更好用？",
+    "prompt": "以前已经有纸，蔡伦为什么还要改进？树皮、旧布和旧渔网里藏着线索。",
+    "takeaway": "蔡伦以前已有纸。蔡伦改进原料和造纸办法，让纸更适合书写；105年上报成果，后来人继续完善。",
     "object": "造纸材料和纸页",
     "people": [
       "蔡伦",
-      "制纸人"
+      "改进造纸的工匠"
     ],
     "place": "洛阳",
     "culture": "课文《纸的发明》与纸—印刷—指南针—火药时间带",
-    "care": "造纸过程图仅表示材料处理与纸页成形的先后，不声称完全复原蔡伦的具体工艺。",
+    "care": "小伙伴和工匠为虚构教学角色，不把青衣向导当作蔡伦肖像，不编造蔡伦接过某张旧纸的经历。照片中的西汉纸不是蔡伦所造，也不能据模糊照片断定写过什么。原料插画与书写材料比较是学习示意，不能冒充蔡伦作坊、具体配比或完整工艺；不把明代《天工开物》的竹纸工序放进105年。纸与简帛长期并用，不说蔡伦之后立即只用纸。帛书《阴阳五行》不直接称作医学书。",
     "playableSource": "content/focused-quests.json"
   },
   "textbookConnection": {
@@ -33,9 +33,9 @@
     "featured": {
       "type": "课文",
       "icon": "📄",
-      "title": "蔡伦与制纸人",
-      "childBridge": "蔡伦之前已有纸，他还可以把什么做得更好？",
-      "evidenceBoundary": "造纸过程图仅表示材料处理与纸页成形的先后，不声称完全复原蔡伦的具体工艺。"
+      "title": "蔡伦与改进造纸的工匠",
+      "childBridge": "以前已经有纸，蔡伦为什么还要改进？树皮、旧布和旧渔网里藏着线索。",
+      "evidenceBoundary": "小伙伴和工匠为虚构教学角色，不把青衣向导当作蔡伦肖像，不编造蔡伦接过某张旧纸的经历。"
     },
     "companions": [
       {
@@ -60,39 +60,43 @@
       "JIUSAN-CAILUN-PAPER",
       "CAS-FOUR-GREAT-INVENTIONS",
       "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
-      "NMC-QIN-HAN-OVERVIEW"
+      "NMC-QIN-HAN-OVERVIEW",
+      "HUNAN-MAWANGDUI-SILK-BOOK",
+      "CSTM-ANCIENT-PAPER",
+      "NLC-EARLY-PAPER-BOOKS",
+      "HKAMO-MAWANGDUI-YINYANG"
     ]
   },
   "childStory": [
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "纸的先后",
-      "text": "西汉已经有纸。到东汉105年，蔡伦把改进的造纸办法报告给朝廷。"
+      "label": "先有早期纸，再有蔡伦改进",
+      "text": "西汉纸残片告诉我们：蔡伦以前，已经有纸。到了东汉105年，蔡伦把改进造纸的成果上报朝廷。我们去看看他改进了什么。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "写字材料排一排",
-      "text": "纸普及以前，人们也在竹木简和丝帛上写字。每种材料都有不同的使用条件。"
+      "label": "写字的材料，还能更好用",
+      "text": "写同样多的字，竹木简搬起来比较重；丝帛轻软，却比较贵。蔡伦利用树皮、麻头、破布、旧渔网等原料，改进已有的造纸办法，让纸更适合书写。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "把材料变成纸",
-      "text": "造纸要处理纤维，再把纸页做出来。图里只画大步骤，不是古代作坊的现场照片。"
+      "label": "旧东西，也能成为造纸原料",
+      "text": "《后汉书》记下蔡伦用过的原料，有树皮，也有旧布、旧渔网。它们要经过处理，才能做成纸。跟着小伙伴找两样，看看它们原来是什么。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "改进交给下一双手",
-      "text": "蔡伦总结和改进办法，还要有人照着做、接着试。纸的制作没有停在一个人手里。"
+      "label": "同样多的话，怎样轻便地带走",
+      "text": "小伙伴要把许多话记下来，带给远方的朋友。竹木简也能写，纸则轻薄。要写同样多的话，又想让行李轻一点，选哪种材料？"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "为蔡伦写一句介绍",
-      "text": "课文《纸的发明》会带你再遇见蔡伦。我们先把“已有”和“改进”放对。"
+      "label": "先有纸，再把办法改得更好",
+      "text": "小伙伴们又看了西汉纸照片：蔡伦以前，已经有纸。东汉105年，他上报了改进成果。后来工匠继续改进，纸渐渐更常用于书写，把人们的话和经验传下去。"
     }
   ],
   "glossary": [
@@ -173,6 +177,33 @@
         "cn-ancient-04-04-han-knowledge"
       ],
       "note": "“仲”读zhòng。"
+    },
+    {
+      "text": "帛书",
+      "reading": "bó shū",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-04-04-han-knowledge"
+      ],
+      "note": "帛读bó；区分丝帛与纸。"
+    },
+    {
+      "text": "麻头",
+      "reading": "mátóu",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-04-04-han-knowledge"
+      ],
+      "note": "造纸原料，连续读作“麻—头”。"
+    },
+    {
+      "text": "纤维",
+      "reading": "xiān wéi",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-04-04-han-knowledge"
+      ],
+      "note": "纤读xiān，儿童可解释为植物里的小细丝。"
     }
   ],
   "gameplay": {
@@ -182,12 +213,12 @@
     "hook": {
       "kind": "具体任务",
       "icon": "🔎",
-      "label": "蔡伦接过一张旧纸",
-      "question": "蔡伦之前已有纸，他还可以把什么做得更好？"
+      "label": "蔡伦怎样让纸更好用？",
+      "question": "以前已经有纸，蔡伦为什么还要改进？树皮、旧布和旧渔网里藏着线索。"
     },
-    "cta": "去找纸的办法",
-    "anchor": "蔡伦与制纸人",
-    "boundary": "造纸过程图仅表示材料处理与纸页成形的先后，不声称完全复原蔡伦的具体工艺。",
+    "cta": "去找造纸改进的办法",
+    "anchor": "蔡伦与改进造纸的工匠",
+    "boundary": "小伙伴和工匠为虚构教学角色，不把青衣向导当作蔡伦肖像，不编造蔡伦接过某张旧纸的经历。照片中的西汉纸不是蔡伦所造，也不能据模糊照片断定写过什么。原料插画与书写材料比较是学习示意，不能冒充蔡伦作坊、具体配比或完整工艺；不把明代《天工开物》的竹纸工序放进105年。纸与简帛长期并用，不说蔡伦之后立即只用纸。帛书《阴阳五行》不直接称作医学书。",
     "evidence": [
       {
         "id": "qin-han-western-han-paper",
@@ -202,8 +233,94 @@
         "boundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。下载为1920像素等比例缩略图，未作其他修改。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/qin-han-western-han-paper.jpg"
+      },
+      {
+        "id": "qin-han-mawangdui-silk-scroll",
+        "title": "马王堆帛书《阴阳五行》实物照片",
+        "localPath": "reference-assets/qin-han/mawangdui-silk-scroll.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Silk_scroll_-_Yin_Yang_and_Five_Elements,_Western_Han_dynasty,_Hunan_Museum.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC0 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "湖南博物院藏马王堆三号汉墓出土帛书《阴阳五行》。",
+        "boundary": "照片有玻璃反光和现代衬底。它用于观察帛书材料与残损状态，不把这篇帛书本身称为医学著作；马王堆医学材料和《导引图》另以馆方资料说明。下载为1920像素等比例缩略图，未作其他修改。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-han-mawangdui-silk-scroll.jpg"
       }
     ],
+    "photoAlbum": {
+      "id": "han-writing-materials",
+      "title": "早期纸与帛书",
+      "label": "翻翻真实书写材料",
+      "photos": [
+        {
+          "assetId": "qin-han-western-han-paper",
+          "title": "西汉纸残片 · 早于蔡伦",
+          "label": "早期纸",
+          "period": "西汉 · 早于蔡伦",
+          "observation": "看看薄薄的残片和破损边缘。",
+          "narration": "这是展出的西汉纸残片。它们告诉我们，蔡伦以前已经有纸。看看破损的边缘，不需要找字，也不能说这就是蔡伦造的纸。",
+          "sourceIds": [
+            "CSTM-ANCIENT-PAPER",
+            "NLC-EARLY-PAPER-BOOKS"
+          ],
+          "sourceLinks": [
+            {
+              "title": "中国科学技术馆：古代纸张及造纸工艺",
+              "url": "https://cstm.cdstm.cn/cszl/hxzg/wmjl/art/2020/art_35113f84365e4fc789f95e54f26fe2d0.html"
+            },
+            {
+              "title": "国家图书馆、国家古籍保护中心，李致忠：小知识：中国什么时候有了纸书？",
+              "url": "https://www.nlc.cn/pcab/zlyj/zlyj_djsh/20190418_177780.shtml"
+            },
+            {
+              "title": "摄影 Gary Lee Todd, Ph.D. · 原文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Western_Han_Paper_(10095191884).jpg"
+            }
+          ],
+          "boundary": "不要求认字，不指定照片展示的具体文字与用途。 残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。下载为1920像素等比例缩略图，未作其他修改。",
+          "caption": "真实文物 · 甘肃省博物馆展出",
+          "image": "/content/step-images/qin-han-western-han-paper.jpg",
+          "audio": {
+            "id": "quest-5806ef2b1acd2750",
+            "text": "这是展出的西汉纸残片。它们告诉我们，蔡伦以前已经有纸。看看破损的边缘，不需要找字，也不能说这就是蔡伦造的纸。"
+          }
+        },
+        {
+          "assetId": "qin-han-mawangdui-silk-scroll",
+          "title": "马王堆帛书 · 字写在丝帛上",
+          "label": "写在丝帛上",
+          "period": "西汉 · 马王堆汉墓出土",
+          "observation": "看看文字怎样排列在丝帛上。",
+          "narration": "这是马王堆汉墓出土的帛书，字写在丝帛上。帛与纸是不同的材料；丝帛轻软，但成本较高。",
+          "sourceIds": [
+            "HKAMO-MAWANGDUI-YINYANG"
+          ],
+          "sourceLinks": [
+            {
+              "title": "香港古物古迹办事处，湖南博物院藏品展览：帛书《阴阳五行》乙篇",
+              "url": "https://www.amo.gov.hk/tc/visitor-centre/exhibitions/heritage-discovery-centre/han-exhibition/ag23/index.html"
+            },
+            {
+              "title": "国家图书馆、国家古籍保护中心，李致忠：小知识：中国什么时候有了纸书？",
+              "url": "https://www.nlc.cn/pcab/zlyj/zlyj_djsh/20190418_177780.shtml"
+            },
+            {
+              "title": "摄影 Huangdan2060 · 原文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Silk_scroll_-_Yin_Yang_and_Five_Elements,_Western_Han_dynasty,_Hunan_Museum.jpg"
+            }
+          ],
+          "boundary": "这是帛，不是纸；照片中的反光与衬底属于现代展陈。 照片有玻璃反光和现代衬底。它用于观察帛书材料与残损状态，不把这篇帛书本身称为医学著作；马王堆医学材料和《导引图》另以馆方资料说明。下载为1920像素等比例缩略图，未作其他修改。",
+          "caption": "真实文物 · 西汉",
+          "image": "/content/step-images/qin-han-mawangdui-silk-scroll.jpg",
+          "audio": {
+            "id": "quest-d42c00415fdb6868",
+            "text": "这是马王堆汉墓出土的帛书，字写在丝帛上。帛与纸是不同的材料；丝帛轻软，但成本较高。"
+          }
+        }
+      ]
+    },
     "coverAsset": {
       "id": "qin-han-western-han-paper",
       "title": "西汉纸张残片展览照片",
@@ -218,45 +335,135 @@
       "childVisibility": "child-ok",
       "image": "/content/step-images/qin-han-western-han-paper.jpg"
     },
-    "presentation": null,
-    "sceneAsset": null,
-    "narrativeAssets": [],
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "han-paper-materials-v3",
+      "sceneAlt": "小伙伴与青衣向导观察树皮、旧渔网、旧布和书写材料，现代故事插画",
+      "title": "蔡伦怎样让纸更好用？",
+      "evidenceTitle": "早期纸与帛书",
+      "evidenceLine": "实物帮助辨材料，文献说明蔡伦的改进。",
+      "evidenceNarration": "这是展出的西汉纸残片。它们告诉我们，蔡伦以前已经有纸。看看破损的边缘，不需要找字，也不能说这就是蔡伦造的纸。",
+      "guide": "点你选的东西。小喇叭可以听名字。",
+      "alignHint": "拖动纸页，放上晾纸架。",
+      "familyHint": "看看早期纸和原料，指出已有与改进。",
+      "familyLabel": "和家人找原料、看早期纸",
+      "nextLabel": "接着找线索",
+      "lastLabel": "把发现带回家",
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "han-paper-friends-reunion-v1",
+        "reunionAlt": "戴圆框眼镜、留齐刘海的绿衣男孩与黄衣男孩、马尾女孩在晾纸架前分享发现，现代故事插画",
+        "coverCaption": "从一片早期纸，去寻找蔡伦的改进",
+        "coverNarration": "蔡伦以前已经有纸。他改进原料和造纸办法，让纸更适合书写。小小旅行团出发，去树皮和旧渔网里找线索。",
+        "stationLine": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。",
+        "stationNarration": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。",
+        "closingCaption": "先有纸，蔡伦再改进；文字更方便留下来",
+        "closingNarration": "我们找到线索啦！西汉已有纸，蔡伦改进原料和造纸办法。纸让文字更方便记录和携带，后来的人还在接着改进。",
+        "closingLine": "蔡伦改进造纸，让文字更方便留下来。",
+        "fictionNote": "三位小伙伴与工匠是虚构教学角色；西汉纸、帛书与蔡伦改进据史料；原料示意不是历史作坊复原。",
+        "reunionImage": "/content/step-images/han-paper-friends-reunion-v1.jpg",
+        "stationAudio": {
+          "id": "quest-b549846014ecf911",
+          "text": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。"
+        },
+        "closingAudio": {
+          "id": "quest-57f0908c21e2bfdf",
+          "text": "我们找到线索啦！西汉已有纸，蔡伦改进原料和造纸办法。纸让文字更方便记录和携带，后来的人还在接着改进。"
+        }
+      },
+      "sceneFraming": "story",
+      "sceneAspectRatio": 2.2,
+      "familyMode": "actions",
+      "sceneImage": "/content/step-images/han-paper-materials-v3.jpg",
+      "evidenceAudio": {
+        "id": "quest-5806ef2b1acd2750",
+        "text": "这是展出的西汉纸残片。它们告诉我们，蔡伦以前已经有纸。看看破损的边缘，不需要找字，也不能说这就是蔡伦造的纸。"
+      },
+      "guideAudio": {
+        "id": "quest-911070a82d573a06",
+        "text": "点你选的东西。小喇叭可以听名字。"
+      }
+    },
+    "sceneAsset": {
+      "id": "han-paper-materials-v3",
+      "title": "树皮旧网与书写材料故事插画",
+      "localPath": "reference-assets/qin-han/han-paper-materials-v3.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "小伙伴寻找史料中记载的造纸原料。",
+      "boundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/han-paper-materials-v3-prompt.txt。 局部修正竹木简为薄平简片编成的册，不再像圆木棍；其余原料、角色和构图保持。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/han-paper-materials-v3.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "han-paper-friends-reunion-v1",
+        "title": "三位小伙伴在晾纸架前分享发现的故事插画",
+        "localPath": "reference-assets/qin-han/han-paper-friends-reunion-v1.png",
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "三位小伙伴与工匠在晾纸架前相聚。",
+        "boundary": "现代虚构旅行故事插画，只承担角色叙事；角色外形按 docs/CHARACTERS.md。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/han-paper-friends-reunion-v1.jpg"
+      },
+      {
+        "id": "han-paper-materials-v3",
+        "title": "树皮旧网与书写材料故事插画",
+        "localPath": "reference-assets/qin-han/han-paper-materials-v3.png",
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "小伙伴寻找史料中记载的造纸原料。",
+        "boundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/han-paper-materials-v3-prompt.txt。 局部修正竹木简为薄平简片编成的册，不再像圆木棍；其余原料、角色和构图保持。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/han-paper-materials-v3.jpg"
+      }
+    ],
     "coverImage": "/content/step-images/qin-han-western-han-paper.jpg",
     "coverImageAlt": "西汉纸张残片展览照片",
     "coverImageKind": "历史材料",
     "coverAudio": {
-      "id": "quest-2e639d922b2de36c",
-      "text": "蔡伦接过一张旧纸。蔡伦之前已有纸，他还可以把什么做得更好？准备好就点“去找纸的办法”。"
+      "id": "quest-9feca7249a68e175",
+      "text": "蔡伦以前已经有纸。他改进原料和造纸办法，让纸更适合书写。小小旅行团出发，去树皮和旧渔网里找线索。"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-d3f1d0a87e516efe",
-      "text": "纸不是蔡伦一个人突然变出来的；他总结、改进已有办法，后来的人继续传播和改进。"
+      "id": "quest-7dd36dc7d622e1e0",
+      "text": "蔡伦以前已有纸。蔡伦改进原料和造纸办法，让纸更适合书写；105年上报成果，后来人继续完善。"
     },
     "finish": {
-      "title": "用手传一张想象的纸",
+      "title": "找到蔡伦改进造纸的线索啦！",
       "actions": [
-        "先说“以前已经有纸”，把空手递给家人。",
-        "请他接着说“后来有人改进”，再把办法传回来。"
+        "翻回早期纸照片，指给家人看：蔡伦以前已经有纸。",
+        "在故事图里找一种造纸原料，再拿一张家里的纸，说说你想记下哪句话。"
       ],
-      "parent": "问“蔡伦做了什么？”接受“把办法改得更好”。不要求现场用水、打浆或加热造纸。",
+      "parent": "先问“蔡伦做的是第一张纸，还是在已有办法上改进？”允许孩子指西汉纸照片和树皮、旧渔网来回答。《后汉书》记“树肤、麻头及敝布、渔网”，105年是上报成果，不是世界第一次出现纸。纸更便于记录和携带，简帛并没有当年全部退出。学习图不教授配比、浸泡时长、蒸煮或抄晒设备，也不把后世工序说成蔡伦现场。可联系课文《纸的发明》，但课文目录仅证明课程连接，史实另有科技馆、国家古籍保护中心与馆藏资料。",
       "sceneStepIndexes": [
-        0,
+        2,
         3
       ],
       "actionAudio": [
         {
-          "id": "quest-111350a83f091284",
-          "text": "先说“以前已经有纸”，把空手递给家人。"
+          "id": "quest-2f6b900f4a956606",
+          "text": "翻回早期纸照片，指给家人看：蔡伦以前已经有纸。"
         },
         {
-          "id": "quest-f04473a82afddba4",
-          "text": "请他接着说“后来有人改进”，再把办法传回来。"
+          "id": "quest-32e71ac9a91abbe4",
+          "text": "在故事图里找一种造纸原料，再拿一张家里的纸，说说你想记下哪句话。"
         }
       ],
       "introAudio": {
-        "id": "quest-781a5b6106dda4ea",
-        "text": "用手传一张想象的纸。先说“以前已经有纸”，把空手递给家人。请他接着说“后来有人改进”，再把办法传回来。"
+        "id": "quest-57f0908c21e2bfdf",
+        "text": "我们找到线索啦！西汉已有纸，蔡伦改进原料和造纸办法。纸让文字更方便记录和携带，后来的人还在接着改进。"
       }
     },
     "estimatedMinutes": 6,
@@ -269,82 +476,143 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "纸的先后",
-        "title": "纸的先后",
-        "prompt": "哪条时间顺序对？",
-        "rightNote": "早期纸在前，蔡伦的改进在后。",
-        "wrongNote": "早期纸在前，蔡伦的改进在后。",
+        "phase": "先有早期纸，再有蔡伦改进",
+        "title": "先有早期纸，再有蔡伦改进",
+        "prompt": "去哪个时候，看看蔡伦改进造纸？",
+        "rightNote": "对！先有纸，后来蔡伦改进了办法。",
+        "wrongNote": "西汉已有纸，蔡伦改进要往后找。",
         "sourceIds": [
-          "JIUSAN-CAILUN-PAPER",
-          "NMC-QIN-HAN-OVERVIEW"
+          "CSTM-ANCIENT-PAPER",
+          "NLC-EARLY-PAPER-BOOKS"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "找到东汉，去看蔡伦的改进。"
+        },
+        "narrative": {
+          "scene": "artifact",
+          "caption": "真纸帮助分清已有和改进",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "对！先有纸，后来蔡伦改进了办法。",
+          "retry": "西汉已有纸，蔡伦改进要往后找。",
+          "nextLabel": "为什么还要改进",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "qin-han-western-han-paper",
+          "title": "西汉纸残片 · 早于蔡伦",
+          "localPath": "reference-assets/qin-han/western-han-paper.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Western_Han_Paper_(10095191884).jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC0 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "真实文物 · 甘肃省博物馆展出",
+          "boundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。下载为1920像素等比例缩略图，未作其他修改。 甘肃省博物馆展出的西汉纸张残片。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/qin-han-western-han-paper.jpg",
+          "label": "点开早期纸和帛书相册",
+          "placement": "main",
+          "framing": "panorama",
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "中国科学技术馆：古代纸张及造纸工艺",
+              "url": "https://cstm.cdstm.cn/cszl/hxzg/wmjl/art/2020/art_35113f84365e4fc789f95e54f26fe2d0.html"
+            },
+            {
+              "title": "国家图书馆、国家古籍保护中心，李致忠：小知识：中国什么时候有了纸书？",
+              "url": "https://www.nlc.cn/pcab/zlyj/zlyj_djsh/20190418_177780.shtml"
+            },
+            {
+              "title": "摄影 Gary Lee Todd, Ph.D. · 原文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Western_Han_Paper_(10095191884).jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-5806ef2b1acd2750",
+            "text": "这是展出的西汉纸残片。它们告诉我们，蔡伦以前已经有纸。看看破损的边缘，不需要找字，也不能说这就是蔡伦造的纸。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "纸的先后",
-          "screenText": "西汉已经有纸。到东汉105年，蔡伦把改进的造纸办法报告给朝廷。",
-          "displayText": "西汉已经有纸。到东汉105年，蔡伦把改进的造纸办法报告给朝廷。",
-          "narration": "西汉已经有纸。到东汉105年，蔡伦把改进的造纸办法报告给朝廷。"
+          "title": "先有早期纸，再有蔡伦改进",
+          "screenText": "西汉纸残片告诉我们：蔡伦以前，已经有纸。到了东汉105年，蔡伦把改进造纸的成果上报朝廷。我们去看看他改进了什么。",
+          "displayText": "西汉纸残片告诉我们：蔡伦以前，已经有纸。到了东汉105年，蔡伦把改进造纸的成果上报朝廷。我们去看看他改进了什么。",
+          "narration": "西汉纸残片告诉我们：蔡伦以前，已经有纸。到了东汉105年，蔡伦把改进造纸的成果上报朝廷。我们去看看他改进了什么。"
         },
-        "assetId": "study-2a5c8909b4dac380",
-        "image": "/content/study-scenes/study-2a5c8909b4dac380.svg",
-        "studyImage": "/content/study-scenes/study-2a5c8909b4dac380.svg",
-        "studyImageAlt": "西汉 早期纸，东汉 105年",
-        "imageAlt": "西汉 早期纸，东汉 105年",
-        "imageCaption": "学习示意 · 西汉 早期纸，东汉 105年",
-        "imageBoundary": "自制学习示意。造纸过程图仅表示材料处理与纸页成形的先后，不声称完全复原蔡伦的具体工艺。",
+        "assetId": "qin-han-western-han-paper",
+        "image": "/content/step-images/qin-han-western-han-paper.jpg",
+        "studyImage": "/content/study-scenes/study-6f7c0df4efb41d4c.svg",
+        "studyImageAlt": "西汉已有纸，东汉蔡伦改进",
+        "imageAlt": "西汉纸张残片展览照片",
+        "imageCaption": "西汉纸张残片展览照片",
+        "imageBoundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。下载为1920像素等比例缩略图，未作其他修改。",
         "audio": {
+          "lead": {
+            "id": "quest-1e5a7542f21282a1",
+            "text": "西汉已有纸。蔡伦在东汉报告改进成果，我们去哪个时候？"
+          },
           "transition": {
-            "id": "quest-e8fbf87eb1c4ae8d",
-            "text": "纸的先后。"
+            "id": "quest-1a1c8346e9e004c9",
+            "text": "先有早期纸，再有蔡伦改进。"
           },
           "intro": {
-            "id": "quest-d24ef008a46e1400",
-            "text": "西汉已经有纸。到东汉105年，蔡伦把改进的造纸办法报告给朝廷。"
+            "id": "quest-ab1dc2f63bcbe0e3",
+            "text": "西汉纸残片告诉我们：蔡伦以前，已经有纸。到了东汉105年，蔡伦把改进造纸的成果上报朝廷。我们去看看他改进了什么。"
           },
           "question": {
-            "id": "quest-846052e01b61867f",
-            "text": "哪条时间顺序对？"
+            "id": "quest-d4495a734a09e1d0",
+            "text": "去哪个时候，看看蔡伦改进造纸？"
           },
           "image": {
-            "id": "quest-d130a86ea9c66585",
-            "text": "这是学习示意图：西汉 早期纸，东汉 105年。哪条时间顺序对？"
+            "id": "quest-9854affbd3a7161e",
+            "text": "这张是西汉纸张残片展览照片。西汉纸残片告诉我们：蔡伦以前，已经有纸。到了东汉105年，蔡伦把改进造纸的成果上报朝廷。我们去看看他改进了什么。"
           },
           "right": {
-            "id": "quest-c777fc379968ba91",
-            "text": "找到了。早期纸在前，蔡伦的改进在后。"
+            "id": "quest-3f6ea9493c620b7e",
+            "text": "对！先有纸，后来蔡伦改进了办法。"
           },
           "wrong": {
-            "id": "quest-e3b24da5075ede78",
-            "text": "再比较一下。早期纸在前，蔡伦的改进在后。"
+            "id": "quest-7fc1d311fb9b14de",
+            "text": "西汉已有纸，蔡伦改进要往后找。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-04-04-han-knowledge-time-1",
-            "label": "西汉有纸 → 105年改进",
+            "label": "东汉 · 105年",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-f479ee8d93caf849.svg",
-            "imageAlt": "已有纸，蔡伦改进",
+            "objectView": {
+              "kind": "era",
+              "name": "东汉",
+              "date": "105年",
+              "stationImage": "/images/history-stations/han.webp"
+            },
+            "image": "/content/study-scenes/study-8566c083b3b3ac0a.svg",
+            "imageAlt": "东汉 105年",
             "audio": {
-              "id": "quest-f756164b60a9982a",
-              "text": "西汉有纸 → 105年改进"
+              "id": "quest-f9f098e265f2797d",
+              "text": "东汉 · 105年"
             }
           },
           {
             "id": "cn-ancient-04-04-han-knowledge-time-2",
-            "label": "105年改进 → 西汉有纸",
+            "label": "西汉 · 蔡伦之前",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-ce778db5627c48c7.svg",
-            "imageAlt": "蔡伦改进，才有早期纸",
+            "objectView": {
+              "kind": "era",
+              "name": "西汉",
+              "date": "蔡伦之前",
+              "stationImage": "/images/history-stations/han.webp"
+            },
+            "image": "/content/study-scenes/study-171397fa439b196a.svg",
+            "imageAlt": "西汉 蔡伦之前",
             "audio": {
-              "id": "quest-59415abad544758a",
-              "text": "105年改进 → 西汉有纸"
+              "id": "quest-b310efc3ea9c815b",
+              "text": "西汉 · 蔡伦之前"
             }
           }
         ]
@@ -353,250 +621,374 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "写字材料排一排",
-        "title": "写字材料排一排",
-        "prompt": "哪件是一片片编起来的简？",
-        "rightNote": "一片片简靠绳编连；纸是另一种材料。",
-        "wrongNote": "一片片简靠绳编连；纸是另一种材料。",
+        "phase": "写字的材料，还能更好用",
+        "title": "写字的材料，还能更好用",
+        "prompt": "写字的材料，还能更好用",
+        "rightNote": "改进原料和办法，让纸更适合书写。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
-          "JIUSAN-CAILUN-PAPER",
-          "NMC-QIN-HAN-OVERVIEW"
+          "CSTM-ANCIENT-PAPER",
+          "NLC-EARLY-PAPER-BOOKS"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "看看桌上原料和写字材料。",
+          "continueLabel": "去找古书记下的原料"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "为什么要改进造纸",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "改进原料和办法，让纸更适合书写。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "去找古书记下的原料",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "qin-han-mawangdui-silk-scroll",
+          "title": "马王堆帛书 · 字写在丝帛上",
+          "localPath": "reference-assets/qin-han/mawangdui-silk-scroll.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Silk_scroll_-_Yin_Yang_and_Five_Elements,_Western_Han_dynasty,_Hunan_Museum.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC0 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "真实文物 · 西汉",
+          "boundary": "照片有玻璃反光和现代衬底。它用于观察帛书材料与残损状态，不把这篇帛书本身称为医学著作；马王堆医学材料和《导引图》另以馆方资料说明。下载为1920像素等比例缩略图，未作其他修改。 湖南博物院藏马王堆三号汉墓出土帛书《阴阳五行》。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/qin-han-mawangdui-silk-scroll.jpg",
+          "label": "看看真正的帛书",
+          "placement": "supporting",
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "香港古物古迹办事处，湖南博物院藏品展览：帛书《阴阳五行》乙篇",
+              "url": "https://www.amo.gov.hk/tc/visitor-centre/exhibitions/heritage-discovery-centre/han-exhibition/ag23/index.html"
+            },
+            {
+              "title": "国家图书馆、国家古籍保护中心，李致忠：小知识：中国什么时候有了纸书？",
+              "url": "https://www.nlc.cn/pcab/zlyj/zlyj_djsh/20190418_177780.shtml"
+            },
+            {
+              "title": "摄影 Huangdan2060 · 原文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Silk_scroll_-_Yin_Yang_and_Five_Elements,_Western_Han_dynasty,_Hunan_Museum.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-d42c00415fdb6868",
+            "text": "这是马王堆汉墓出土的帛书，字写在丝帛上。帛与纸是不同的材料；丝帛轻软，但成本较高。"
+          }
+        },
         "story": {
           "screenNumber": 2,
-          "title": "写字材料排一排",
-          "screenText": "纸普及以前，人们也在竹木简和丝帛上写字。每种材料都有不同的使用条件。",
-          "displayText": "纸普及以前，人们也在竹木简和丝帛上写字。每种材料都有不同的使用条件。",
-          "narration": "纸普及以前，人们也在竹木简和丝帛上写字。每种材料都有不同的使用条件。"
+          "title": "写字的材料，还能更好用",
+          "screenText": "写同样多的字，竹木简搬起来比较重；丝帛轻软，却比较贵。蔡伦利用树皮、麻头、破布、旧渔网等原料，改进已有的造纸办法，让纸更适合书写。",
+          "displayText": "竹木简重，丝帛贵。\n改进原料和办法，让纸更好写。",
+          "narration": "写同样多的字，竹木简搬起来比较重；丝帛轻软，却比较贵。蔡伦利用树皮、麻头、破布、旧渔网等原料，改进已有的造纸办法，让纸更适合书写。"
         },
-        "assetId": "study-da12363c5a674b97",
-        "image": "/content/study-scenes/study-da12363c5a674b97.svg",
-        "studyImage": "/content/study-scenes/study-da12363c5a674b97.svg",
-        "studyImageAlt": "竹木简，丝帛，纸",
-        "imageAlt": "竹木简，丝帛，纸",
-        "imageCaption": "学习示意 · 竹木简，丝帛，纸",
-        "imageBoundary": "自制学习示意。造纸过程图仅表示材料处理与纸页成形的先后，不声称完全复原蔡伦的具体工艺。",
+        "assetId": "study-001e5d296dfc6cc6",
+        "image": "/content/study-scenes/study-001e5d296dfc6cc6.svg",
+        "studyImage": "/content/study-scenes/study-001e5d296dfc6cc6.svg",
+        "studyImageAlt": "竹木简，丝帛，改进造纸",
+        "imageAlt": "竹木简，丝帛，改进造纸",
+        "imageCaption": "学习示意 · 竹木简，丝帛，改进造纸",
+        "imageBoundary": "自制学习示意。小伙伴和工匠为虚构教学角色，不把青衣向导当作蔡伦肖像，不编造蔡伦接过某张旧纸的经历。照片中的西汉纸不是蔡伦所造，也不能据模糊照片断定写过什么。原料插画与书写材料比较是学习示意，不能冒充蔡伦作坊、具体配比或完整工艺；不把明代《天工开物》的竹纸工序放进105年。纸与简帛长期并用，不说蔡伦之后立即只用纸。帛书《阴阳五行》不直接称作医学书。",
         "audio": {
+          "lead": {
+            "id": "quest-f8748e07110c4af4",
+            "text": "竹木简重，丝帛贵。蔡伦改进已有办法，让纸更适合写字。"
+          },
           "transition": {
-            "id": "quest-66b49d480397ce24",
-            "text": "写字材料排一排。"
+            "id": "quest-2dfb4457d5eee61e",
+            "text": "写字的材料，还能更好用。"
           },
           "intro": {
-            "id": "quest-6627fa674100b91e",
-            "text": "纸普及以前，人们也在竹木简和丝帛上写字。每种材料都有不同的使用条件。"
+            "id": "quest-1d8cbe2da562f50b",
+            "text": "写同样多的字，竹木简搬起来比较重；丝帛轻软，却比较贵。蔡伦利用树皮、麻头、破布、旧渔网等原料，改进已有的造纸办法，让纸更适合书写。"
           },
           "question": {
-            "id": "quest-91df1ad9b88f5503",
-            "text": "哪件是一片片编起来的简？"
+            "id": "quest-f4221066be9435cb",
+            "text": "写字的材料，还能更好用"
           },
           "image": {
-            "id": "quest-acabec85e46dada0",
-            "text": "这是学习示意图：竹木简，丝帛，纸。哪件是一片片编起来的简？"
+            "id": "quest-597152be3cbcf4e2",
+            "text": "这是学习示意图：竹木简，丝帛，改进造纸。写字的材料，还能更好用"
           },
           "right": {
-            "id": "quest-08ac5d5b9d899f72",
-            "text": "找到了。一片片简靠绳编连；纸是另一种材料。"
+            "id": "quest-a9a6b380a502d600",
+            "text": "改进原料和办法，让纸更适合书写。"
           },
           "wrong": {
-            "id": "quest-9b39d1b86ca86fab",
-            "text": "再比较一下。一片片简靠绳编连；纸是另一种材料。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-04-04-han-knowledge-beginning-1",
-            "label": "细长竹片排成串",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-2adcbb157fe1a4dd.svg",
-            "imageAlt": "编连的简",
-            "audio": {
-              "id": "quest-5f79783126777e6c",
-              "text": "细长竹片排成串"
-            }
-          },
-          {
-            "id": "cn-ancient-04-04-han-knowledge-beginning-2",
-            "label": "一张平整的纸",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-a6bcf31b15d9968e.svg",
-            "imageAlt": "平整的纸",
-            "audio": {
-              "id": "quest-3c6361c99379747d",
-              "text": "一张平整的纸"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "把材料变成纸",
-        "title": "把材料变成纸",
-        "prompt": "纸页放在哪里更合适？",
-        "rightNote": "先把材料处理好，再形成纸页。这里只比较前后顺序。",
-        "wrongNote": "先把材料处理好，再形成纸页。这里只比较前后顺序。",
+        "phase": "旧东西，也能成为造纸原料",
+        "title": "旧东西，也能成为造纸原料",
+        "prompt": "哪一份是从树上取下的原料？",
+        "rightNote": "树皮和旧渔网，都能处理后造纸。",
+        "wrongNote": "这份是旧渔网，再找找树皮。",
         "sourceIds": [
-          "JIUSAN-CAILUN-PAPER",
-          "NMC-QIN-HAN-OVERVIEW"
+          "CSTM-ANCIENT-PAPER",
+          "NLC-EARLY-PAPER-BOOKS"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听清问题，点图里的原料。",
+          "ariaLabel": "找出历史记载中的造纸原料",
+          "hotspots": [
+            {
+              "id": "bark",
+              "label": "树皮原料",
+              "x": 0.335,
+              "y": 0.3,
+              "width": 0.34,
+              "height": 0.19
+            },
+            {
+              "id": "net",
+              "label": "旧渔网和旧布",
+              "x": 0.686,
+              "y": 0.177,
+              "width": 0.304,
+              "height": 0.401
+            }
+          ],
+          "rounds": [
+            {
+              "id": "find-bark",
+              "question": "哪一份是从树上取下的原料？",
+              "targetId": "bark",
+              "feedback": "是树皮！处理里面的纤维，才能造纸。",
+              "retry": "这份是旧渔网，再找找树皮。",
+              "nextLabel": "再找原来捕鱼用的材料",
+              "audio": {
+                "question": {
+                  "id": "quest-c8f67e3c37d74a42",
+                  "text": "哪一份是从树上取下的原料？"
+                },
+                "right": {
+                  "id": "quest-f3fc1a06da04cf87",
+                  "text": "是树皮！处理里面的纤维，才能造纸。"
+                },
+                "wrong": {
+                  "id": "quest-f38a5087de9c7334",
+                  "text": "这份是旧渔网，再找找树皮。"
+                }
+              }
+            },
+            {
+              "id": "find-net",
+              "question": "哪一份原来用来捕鱼，也能造纸？",
+              "targetId": "net",
+              "feedback": "旧渔网也能处理成纸，不是直接写上去。",
+              "retry": "这是树皮，再找找有网眼的旧渔网。",
+              "audio": {
+                "question": {
+                  "id": "quest-45945753af8c565a",
+                  "text": "哪一份原来用来捕鱼，也能造纸？"
+                },
+                "right": {
+                  "id": "quest-0769a869d915a02f",
+                  "text": "旧渔网也能处理成纸，不是直接写上去。"
+                },
+                "wrong": {
+                  "id": "quest-e53dace31b6d160f",
+                  "text": "这是树皮，再找找有网眼的旧渔网。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "从原来的用途，认识新的材料",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "树皮和旧渔网，都能处理后造纸。",
+          "retry": "这份是旧渔网，再找找树皮。",
+          "nextLabel": "替小伙伴选书写材料",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "把材料变成纸",
-          "screenText": "造纸要处理纤维，再把纸页做出来。图里只画大步骤，不是古代作坊的现场照片。",
-          "displayText": "造纸要处理纤维，再把纸页做出来。图里只画大步骤，不是古代作坊的现场照片。",
-          "narration": "造纸要处理纤维，再把纸页做出来。图里只画大步骤，不是古代作坊的现场照片。"
+          "title": "旧东西，也能成为造纸原料",
+          "screenText": "《后汉书》记下蔡伦用过的原料，有树皮，也有旧布、旧渔网。它们要经过处理，才能做成纸。跟着小伙伴找两样，看看它们原来是什么。",
+          "displayText": "《后汉书》记下蔡伦用过的原料，有树皮，也有旧布、旧渔网。它们要经过处理，才能做成纸。跟着小伙伴找两样，看看它们原来是什么。",
+          "narration": "《后汉书》记下蔡伦用过的原料，有树皮，也有旧布、旧渔网。它们要经过处理，才能做成纸。跟着小伙伴找两样，看看它们原来是什么。"
         },
-        "assetId": "study-e3def94a0daa4a7a",
-        "image": "/content/study-scenes/study-e3def94a0daa4a7a.svg",
-        "studyImage": "/content/study-scenes/study-e3def94a0daa4a7a.svg",
-        "studyImageAlt": "处理纤维，形成纸页",
-        "imageAlt": "处理纤维，形成纸页",
-        "imageCaption": "学习示意 · 处理纤维，形成纸页",
-        "imageBoundary": "自制学习示意。造纸过程图仅表示材料处理与纸页成形的先后，不声称完全复原蔡伦的具体工艺。",
+        "assetId": "han-paper-materials-v3",
+        "image": "/content/step-images/han-paper-materials-v3.jpg",
+        "studyImage": "/content/study-scenes/study-9acdc44c297c7b59.svg",
+        "studyImageAlt": "树皮，旧网与旧布，处理成纸",
+        "imageAlt": "树皮旧网与书写材料故事插画",
+        "imageCaption": "树皮旧网与书写材料故事插画",
+        "imageBoundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/han-paper-materials-v3-prompt.txt。 局部修正竹木简为薄平简片编成的册，不再像圆木棍；其余原料、角色和构图保持。",
         "audio": {
+          "lead": {
+            "id": "quest-a18f7b471e441eab",
+            "text": "古书记下了树皮、旧布和渔网。找找这些造纸原料。"
+          },
           "transition": {
-            "id": "quest-ccb50778aef2b729",
-            "text": "把材料变成纸。"
+            "id": "quest-e85394e6661417c1",
+            "text": "旧东西，也能成为造纸原料。"
           },
           "intro": {
-            "id": "quest-6441db5b9c776652",
-            "text": "造纸要处理纤维，再把纸页做出来。图里只画大步骤，不是古代作坊的现场照片。"
+            "id": "quest-1d051bc92f707941",
+            "text": "《后汉书》记下蔡伦用过的原料，有树皮，也有旧布、旧渔网。它们要经过处理，才能做成纸。跟着小伙伴找两样，看看它们原来是什么。"
           },
           "question": {
-            "id": "quest-30942d26177d6e3f",
-            "text": "纸页放在哪里更合适？"
+            "id": "quest-c8f67e3c37d74a42",
+            "text": "哪一份是从树上取下的原料？"
           },
           "image": {
-            "id": "quest-9e222ba95bd245e7",
-            "text": "这是学习示意图：处理纤维，形成纸页。纸页放在哪里更合适？"
+            "id": "quest-39a9db61e9466550",
+            "text": "这张是树皮旧网与书写材料故事插画。《后汉书》记下蔡伦用过的原料，有树皮，也有旧布、旧渔网。它们要经过处理，才能做成纸。跟着小伙伴找两样，看看它们原来是什么。"
           },
           "right": {
-            "id": "quest-9cc534469f058d36",
-            "text": "找到了。先把材料处理好，再形成纸页。这里只比较前后顺序。"
+            "id": "quest-b93bec3a8575dc65",
+            "text": "树皮和旧渔网，都能处理后造纸。"
           },
           "wrong": {
-            "id": "quest-a3c11fa40601bd01",
-            "text": "再比较一下。先把材料处理好，再形成纸页。这里只比较前后顺序。"
+            "id": "quest-f38a5087de9c7334",
+            "text": "这份是旧渔网，再找找树皮。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-04-04-han-knowledge-journey-1",
-            "label": "处理纤维之后",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-4d34c9f357322a66.svg",
-            "imageAlt": "处理材料，纸页",
-            "audio": {
-              "id": "quest-c11a413f7125f174",
-              "text": "处理纤维之后"
-            }
-          },
-          {
-            "id": "cn-ancient-04-04-han-knowledge-journey-2",
-            "label": "处理纤维之前",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-110a61af3dafd32b.svg",
-            "imageAlt": "纸页，处理材料",
-            "audio": {
-              "id": "quest-312fa8a1496add4a",
-              "text": "处理纤维之前"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "改进交给下一双手",
-        "title": "改进交给下一双手",
-        "prompt": "什么能帮助别人继续改进？",
-        "rightNote": "传播办法，更多人才能制作、比较和改进。",
-        "wrongNote": "传播办法，更多人才能制作、比较和改进。",
+        "phase": "同样多的话，怎样轻便地带走",
+        "title": "同样多的话，怎样轻便地带走",
+        "prompt": "写同样多的话，带哪种更轻便？",
+        "rightNote": "纸轻薄，记下许多话也更方便带走。",
+        "wrongNote": "竹木简能写字，许多片带起来会较重。",
         "sourceIds": [
-          "JIUSAN-CAILUN-PAPER",
-          "NMC-QIN-HAN-OVERVIEW"
+          "CSTM-ANCIENT-PAPER",
+          "NLC-EARLY-PAPER-BOOKS"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "pick",
+          "hint": "比较写同样多文字时的携带。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "把改进的用处放进生活",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "纸轻薄，记下许多话也更方便带走。",
+          "retry": "竹木简能写字，许多片带起来会较重。",
+          "nextLabel": "回头看看蔡伦做了什么",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "改进交给下一双手",
-          "screenText": "蔡伦总结和改进办法，还要有人照着做、接着试。纸的制作没有停在一个人手里。",
-          "displayText": "蔡伦总结和改进办法，还要有人照着做、接着试。纸的制作没有停在一个人手里。",
-          "narration": "蔡伦总结和改进办法，还要有人照着做、接着试。纸的制作没有停在一个人手里。"
+          "title": "同样多的话，怎样轻便地带走",
+          "screenText": "小伙伴要把许多话记下来，带给远方的朋友。竹木简也能写，纸则轻薄。要写同样多的话，又想让行李轻一点，选哪种材料？",
+          "displayText": "小伙伴要把许多话记下来，带给远方的朋友。竹木简也能写，纸则轻薄。要写同样多的话，又想让行李轻一点，选哪种材料？",
+          "narration": "小伙伴要把许多话记下来，带给远方的朋友。竹木简也能写，纸则轻薄。要写同样多的话，又想让行李轻一点，选哪种材料？"
         },
-        "assetId": "study-674d4702652567f7",
-        "image": "/content/study-scenes/study-674d4702652567f7.svg",
-        "studyImage": "/content/study-scenes/study-674d4702652567f7.svg",
-        "studyImageAlt": "蔡伦，办法，后来的制纸人",
-        "imageAlt": "蔡伦，办法，后来的制纸人",
-        "imageCaption": "学习示意 · 蔡伦，办法，后来的制纸人",
-        "imageBoundary": "自制学习示意。造纸过程图仅表示材料处理与纸页成形的先后，不声称完全复原蔡伦的具体工艺。",
+        "assetId": "han-paper-materials-v3",
+        "image": "/content/step-images/han-paper-materials-v3.jpg",
+        "studyImage": "/content/study-scenes/study-cc9a5907e872e692.svg",
+        "studyImageAlt": "轻薄书写，简册较重",
+        "imageAlt": "树皮旧网与书写材料故事插画",
+        "imageCaption": "树皮旧网与书写材料故事插画",
+        "imageBoundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/han-paper-materials-v3-prompt.txt。 局部修正竹木简为薄平简片编成的册，不再像圆木棍；其余原料、角色和构图保持。",
         "audio": {
+          "lead": {
+            "id": "quest-6b873a5a5bfa5d1e",
+            "text": "要写同样多的话，纸和竹木简，带哪种更轻便？"
+          },
           "transition": {
-            "id": "quest-85ab99785d7af39f",
-            "text": "改进交给下一双手。"
+            "id": "quest-0c47fe43cf53752a",
+            "text": "同样多的话，怎样轻便地带走。"
           },
           "intro": {
-            "id": "quest-d6250b5ef7977eb5",
-            "text": "蔡伦总结和改进办法，还要有人照着做、接着试。纸的制作没有停在一个人手里。"
+            "id": "quest-1bafe41ec13a0805",
+            "text": "小伙伴要把许多话记下来，带给远方的朋友。竹木简也能写，纸则轻薄。要写同样多的话，又想让行李轻一点，选哪种材料？"
           },
           "question": {
-            "id": "quest-08bd3d2fd28cc747",
-            "text": "什么能帮助别人继续改进？"
+            "id": "quest-fa396f4bfecc7a9c",
+            "text": "写同样多的话，带哪种更轻便？"
           },
           "image": {
-            "id": "quest-1535ecaedbab88af",
-            "text": "这是学习示意图：蔡伦，办法，后来的制纸人。什么能帮助别人继续改进？"
+            "id": "quest-6cffd65619ea7a9c",
+            "text": "这张是树皮旧网与书写材料故事插画。小伙伴要把许多话记下来，带给远方的朋友。竹木简也能写，纸则轻薄。要写同样多的话，又想让行李轻一点，选哪种材料？"
           },
           "right": {
-            "id": "quest-9091f30895cc5722",
-            "text": "找到了。传播办法，更多人才能制作、比较和改进。"
+            "id": "quest-af59ade6a7c27c4c",
+            "text": "纸轻薄，记下许多话也更方便带走。"
           },
           "wrong": {
-            "id": "quest-bcf71e07c589d0b3",
-            "text": "再比较一下。传播办法，更多人才能制作、比较和改进。"
+            "id": "quest-cfefa3191cb301dc",
+            "text": "竹木简能写字，许多片带起来会较重。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-04-04-han-knowledge-change-1",
-            "label": "把办法传给别人",
+            "label": "用轻薄的纸",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-836a08a75d8e9437.svg",
-            "imageAlt": "交流做法",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "han-paper-materials-v3",
+              "crop": {
+                "x": 535,
+                "y": 500,
+                "width": 500,
+                "height": 122,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/han-paper-materials-v3.jpg",
+              "imageAlt": "用轻薄的纸"
+            },
+            "image": "/content/study-scenes/study-cb2eb65ed8c01e3e.svg",
+            "imageAlt": "用轻薄的纸",
             "audio": {
-              "id": "quest-c6f023839b4fb9d5",
-              "text": "把办法传给别人"
+              "id": "quest-5db6cc5f4d440861",
+              "text": "用轻薄的纸"
             }
           },
           {
             "id": "cn-ancient-04-04-han-knowledge-change-2",
-            "label": "只把成纸藏起来",
+            "label": "用一册竹木简",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-2ca73e00aa129ae2.svg",
-            "imageAlt": "只收藏成纸",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "han-paper-materials-v3",
+              "crop": {
+                "x": 80,
+                "y": 440,
+                "width": 440,
+                "height": 155,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/han-paper-materials-v3.jpg",
+              "imageAlt": "用一册竹木简"
+            },
+            "image": "/content/study-scenes/study-ea1a69ee4403220d.svg",
+            "imageAlt": "用一册竹木简",
             "audio": {
-              "id": "quest-20938a49f026b7e3",
-              "text": "只把成纸藏起来"
+              "id": "quest-e61952ee4c02d175",
+              "text": "用一册竹木简"
             }
           }
         ]
@@ -605,85 +997,113 @@
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "为蔡伦写一句介绍",
-        "title": "为蔡伦写一句介绍",
-        "prompt": "哪张介绍更准确？",
-        "rightNote": "认识前人的尝试，也认识蔡伦和后来的制纸人。",
-        "wrongNote": "认识前人的尝试，也认识蔡伦和后来的制纸人。",
+        "phase": "先有纸，再把办法改得更好",
+        "title": "先有纸，再把办法改得更好",
+        "prompt": "先有纸，再把办法改得更好",
+        "rightNote": "西汉已有纸，蔡伦改进原料和方法。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
-          "JIUSAN-CAILUN-PAPER",
-          "NMC-QIN-HAN-OVERVIEW"
+          "CSTM-ANCIENT-PAPER",
+          "NLC-EARLY-PAPER-BOOKS",
+          "PEP-PRIMARY-CHINESE-G3B-2022"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "指一指相册里的早期纸，再听蔡伦做了什么。",
+          "continueLabel": "把造纸的发现带回家"
+        },
+        "narrative": {
+          "scene": "reunion",
+          "caption": "用真材料校对今天的发现",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "西汉已有纸，蔡伦改进原料和方法。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "把造纸的发现带回家",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "qin-han-western-han-paper",
+          "title": "西汉纸残片 · 早于蔡伦",
+          "localPath": "reference-assets/qin-han/western-han-paper.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Western_Han_Paper_(10095191884).jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC0 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "真实文物 · 甘肃省博物馆展出",
+          "boundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。下载为1920像素等比例缩略图，未作其他修改。 甘肃省博物馆展出的西汉纸张残片。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/qin-han-western-han-paper.jpg",
+          "label": "再看看早于蔡伦的纸",
+          "placement": "supporting",
+          "framing": "landscape",
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "中国科学技术馆：古代纸张及造纸工艺",
+              "url": "https://cstm.cdstm.cn/cszl/hxzg/wmjl/art/2020/art_35113f84365e4fc789f95e54f26fe2d0.html"
+            },
+            {
+              "title": "国家图书馆、国家古籍保护中心，李致忠：小知识：中国什么时候有了纸书？",
+              "url": "https://www.nlc.cn/pcab/zlyj/zlyj_djsh/20190418_177780.shtml"
+            },
+            {
+              "title": "摄影 Gary Lee Todd, Ph.D. · 原文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Western_Han_Paper_(10095191884).jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-5806ef2b1acd2750",
+            "text": "这是展出的西汉纸残片。它们告诉我们，蔡伦以前已经有纸。看看破损的边缘，不需要找字，也不能说这就是蔡伦造的纸。"
+          }
+        },
         "story": {
           "screenNumber": 5,
-          "title": "为蔡伦写一句介绍",
-          "screenText": "课文《纸的发明》会带你再遇见蔡伦。我们先把“已有”和“改进”放对。",
-          "displayText": "课文《纸的发明》会带你再遇见蔡伦。我们先把“已有”和“改进”放对。",
-          "narration": "课文《纸的发明》会带你再遇见蔡伦。我们先把“已有”和“改进”放对。"
+          "title": "先有纸，再把办法改得更好",
+          "screenText": "小伙伴们又看了西汉纸照片：蔡伦以前，已经有纸。东汉105年，他上报了改进成果。后来工匠继续改进，纸渐渐更常用于书写，把人们的话和经验传下去。",
+          "displayText": "西汉已有纸，蔡伦接着改进。\n好用的纸，让文字更方便传下去。",
+          "narration": "小伙伴们又看了西汉纸照片：蔡伦以前，已经有纸。东汉105年，他上报了改进成果。后来工匠继续改进，纸渐渐更常用于书写，把人们的话和经验传下去。"
         },
-        "assetId": "study-b4ff0925c21a02e4",
-        "image": "/content/study-scenes/study-b4ff0925c21a02e4.svg",
-        "studyImage": "/content/study-scenes/study-b4ff0925c21a02e4.svg",
-        "studyImageAlt": "前人的纸，蔡伦改进，继续传播",
-        "imageAlt": "前人的纸，蔡伦改进，继续传播",
-        "imageCaption": "学习示意 · 前人的纸，蔡伦改进，继续传播",
-        "imageBoundary": "自制学习示意。造纸过程图仅表示材料处理与纸页成形的先后，不声称完全复原蔡伦的具体工艺。",
+        "assetId": "study-db1f0da7a8e7595f",
+        "image": "/content/study-scenes/study-db1f0da7a8e7595f.svg",
+        "studyImage": "/content/study-scenes/study-db1f0da7a8e7595f.svg",
+        "studyImageAlt": "先有早期纸，蔡伦改进，逐渐用于书写",
+        "imageAlt": "先有早期纸，蔡伦改进，逐渐用于书写",
+        "imageCaption": "学习示意 · 先有早期纸，蔡伦改进，逐渐用于书写",
+        "imageBoundary": "自制学习示意。小伙伴和工匠为虚构教学角色，不把青衣向导当作蔡伦肖像，不编造蔡伦接过某张旧纸的经历。照片中的西汉纸不是蔡伦所造，也不能据模糊照片断定写过什么。原料插画与书写材料比较是学习示意，不能冒充蔡伦作坊、具体配比或完整工艺；不把明代《天工开物》的竹纸工序放进105年。纸与简帛长期并用，不说蔡伦之后立即只用纸。帛书《阴阳五行》不直接称作医学书。",
         "audio": {
+          "lead": {
+            "id": "quest-c8b490dd4e6617bb",
+            "text": "蔡伦以前已有纸；他改进造纸，后来的人还接着做。"
+          },
           "transition": {
-            "id": "quest-6731432043ed9bf1",
-            "text": "为蔡伦写一句介绍。"
+            "id": "quest-957f2a1faffe496d",
+            "text": "先有纸，再把办法改得更好。"
           },
           "intro": {
-            "id": "quest-507191e32d043ae0",
-            "text": "课文《纸的发明》会带你再遇见蔡伦。我们先把“已有”和“改进”放对。"
+            "id": "quest-ed09097cf5af2c7a",
+            "text": "小伙伴们又看了西汉纸照片：蔡伦以前，已经有纸。东汉105年，他上报了改进成果。后来工匠继续改进，纸渐渐更常用于书写，把人们的话和经验传下去。"
           },
           "question": {
-            "id": "quest-fc0b8963c90579b9",
-            "text": "哪张介绍更准确？"
+            "id": "quest-5f2eff2ec0d20045",
+            "text": "先有纸，再把办法改得更好"
           },
           "image": {
-            "id": "quest-50880dbb222bfd94",
-            "text": "这是学习示意图：前人的纸，蔡伦改进，继续传播。哪张介绍更准确？"
+            "id": "quest-f10f3820eb8d7170",
+            "text": "这是学习示意图：先有早期纸，蔡伦改进，逐渐用于书写。先有纸，再把办法改得更好"
           },
           "right": {
-            "id": "quest-f08625864ec1f61c",
-            "text": "找到了。认识前人的尝试，也认识蔡伦和后来的制纸人。"
+            "id": "quest-2aa0ff7cb2a799aa",
+            "text": "西汉已有纸，蔡伦改进原料和方法。"
           },
           "wrong": {
-            "id": "quest-a3f1a23ad634c148",
-            "text": "再比较一下。认识前人的尝试，也认识蔡伦和后来的制纸人。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-04-04-han-knowledge-takeaway-1",
-            "label": "接过旧办法，再改进",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-aa84d04a38415b2c.svg",
-            "imageAlt": "已有，改进",
-            "audio": {
-              "id": "quest-9c40b7dcadf9b247",
-              "text": "接过旧办法，再改进"
-            }
-          },
-          {
-            "id": "cn-ancient-04-04-han-knowledge-takeaway-2",
-            "label": "世上没纸时独自造出纸",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-818f67b9e7fc29a7.svg",
-            "imageAlt": "一个人，第一张纸",
-            "audio": {
-              "id": "quest-faccb34663268f1f",
-              "text": "世上没纸时独自造出纸"
-            }
-          }
-        ]
+        "options": []
       }
     ],
     "extensionTasks": [
@@ -728,15 +1148,15 @@
       "number": 2,
       "text": "考古发现证明西汉已经有纸。东汉蔡伦总结和改进造纸材料与方法，并于公元 105 年上报朝廷；他不是第一个制作纸的人。",
       "sourceIds": [
-        "NMC-QIN-HAN-OVERVIEW",
-        "JIUSAN-CAILUN-PAPER"
+        "CSTM-ANCIENT-PAPER",
+        "NLC-EARLY-PAPER-BOOKS"
       ]
     },
     {
       "number": 3,
-      "text": "一些早期纸张可能用于包裹等用途，并非每一片都带文字。纸逐渐成为重要书写材料是长期过程。",
+      "text": "早期纸张发现早于蔡伦。纸逐渐成为重要书写材料是长期过程，与简帛并用而非立即替代。",
       "sourceIds": [
-        "JIUSAN-CAILUN-PAPER"
+        "NLC-EARLY-PAPER-BOOKS"
       ]
     },
     {
@@ -807,14 +1227,14 @@
         {
           "number": 2,
           "label": "语音 K02：",
-          "text": "这些薄薄的纤维残片被博物馆标作西汉纸。它们告诉我们，蔡伦生活以前纸已经存在。不过早期纸不一定都用来写字，有的可能用于包裹。考古证据帮助我们修正“一个人突然发明纸”的简单故事。",
+          "text": "这些薄薄的纤维残片被博物馆标作西汉纸。它们告诉我们，蔡伦生活以前纸已经存在。照片中未必能辨出文字，不能只看残片就猜出它的具体用途。考古证据帮助我们修正“一个人突然发明纸”的简单故事。",
           "segments": [
             {
               "id": "cn-ancient-04-04-han-knowledge-s02-v02-01",
               "order": 1,
               "tier": "core",
-              "text": "这些薄薄的纤维残片被博物馆标作西汉纸。它们告诉我们，蔡伦生活以前纸已经存在。不过早期纸不一定都用来写字，有的可能用于包裹。考古证据帮助我们修正“一个人突然发明纸”的简单故事。",
-              "hanCharacters": 79
+              "text": "这些薄薄的纤维残片被博物馆标作西汉纸。它们告诉我们，蔡伦生活以前纸已经存在。照片中未必能辨出文字，不能只看残片就猜出它的具体用途。考古证据帮助我们修正“一个人突然发明纸”的简单故事。",
+              "hanCharacters": 83
             }
           ]
         }
@@ -984,13 +1404,23 @@
       "imageUse": "reference-only"
     },
     {
-      "id": "JIUSAN-CAILUN-PAPER",
-      "title": "蔡伦与造纸术史实辨析",
-      "institution": "九三学社中央委员会",
-      "url": "https://www.93.gov.cn/xwjc-snyw/207014.html",
-      "type": "science-history-article",
+      "id": "CSTM-ANCIENT-PAPER",
+      "title": "古代纸张及造纸工艺",
+      "institution": "中国科学技术馆",
+      "url": "https://cstm.cdstm.cn/cszl/hxzg/wmjl/art/2020/art_35113f84365e4fc789f95e54f26fe2d0.html",
+      "type": "museum-education",
       "authorityLevel": "A",
-      "factUse": "西汉已有纸、蔡伦改进造纸术而非独自发明第一张纸的证据边界",
+      "factUse": "西汉已有纸，105年蔡伦改进；树皮、麻头、破布、旧鱼网等原料；竹木简重量与缣帛成本。后文《天工开物》属明代，不逆推为蔡伦工艺。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NLC-EARLY-PAPER-BOOKS",
+      "title": "小知识：中国什么时候有了纸书？",
+      "institution": "国家图书馆、国家古籍保护中心，李致忠",
+      "url": "https://www.nlc.cn/pcab/zlyj/zlyj_djsh/20190418_177780.shtml",
+      "type": "library-research",
+      "authorityLevel": "A",
+      "factUse": "考古早期纸与蔡伦改进的区别；引《后汉书》说明原料和105年上报；简帛与纸长期并用，不说105年立即全面替代。",
       "imageUse": "reference-only"
     },
     {
@@ -1014,6 +1444,16 @@
       "imageUse": "reference-only"
     },
     {
+      "id": "HKAMO-MAWANGDUI-YINYANG",
+      "title": "帛书《阴阳五行》乙篇",
+      "institution": "香港古物古迹办事处，湖南博物院藏品展览",
+      "url": "https://www.amo.gov.hk/tc/visitor-centre/exhibitions/heritage-discovery-centre/han-exhibition/ag23/index.html",
+      "type": "government-museum-object-record",
+      "authorityLevel": "A",
+      "factUse": "马王堆三号汉墓出土帛书的身份与书写材料；不把该件直接称为医学书。",
+      "imageUse": "reference-only"
+    },
+    {
       "id": "PEP-PRIMARY-CHINESE-G3B-2022",
       "title": "义务教育教科书语文三年级下册同步字词学习手册目录",
       "institution": "人民教育出版社",
@@ -1031,6 +1471,16 @@
       "type": "official-textbook-editorial-explanation",
       "authorityLevel": "A-national-textbook-publisher",
       "factUse": "核对三年级下册《纸的发明》采用蔡伦改进造纸术的教材表述，并保留学术解释边界",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "JIUSAN-CAILUN-PAPER",
+      "title": "蔡伦与造纸术史实辨析",
+      "institution": "九三学社中央委员会",
+      "url": "https://www.93.gov.cn/xwjc-snyw/207014.html",
+      "type": "science-history-article",
+      "authorityLevel": "A",
+      "factUse": "西汉已有纸、蔡伦改进造纸术而非独自发明第一张纸的证据边界",
       "imageUse": "reference-only"
     },
     {
@@ -1056,197 +1506,119 @@
   ],
   "assets": [
     {
-      "id": "study-2a5c8909b4dac380",
-      "title": "学习示意：西汉 早期纸、东汉 105年",
-      "localPath": "reference-assets/focused-quests/study-2a5c8909b4dac380.svg",
+      "id": "study-6f7c0df4efb41d4c",
+      "title": "学习示意：西汉已有纸、东汉蔡伦改进",
+      "localPath": "reference-assets/focused-quests/study-6f7c0df4efb41d4c.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "西汉 早期纸 → 东汉 105年",
+      "caption": "西汉已有纸 → 东汉蔡伦改进",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-f479ee8d93caf849",
-      "title": "学习示意：已有纸、蔡伦改进",
-      "localPath": "reference-assets/focused-quests/study-f479ee8d93caf849.svg",
+      "id": "study-8566c083b3b3ac0a",
+      "title": "学习示意：东汉 105年",
+      "localPath": "reference-assets/focused-quests/study-8566c083b3b3ac0a.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "已有纸 → 蔡伦改进",
+      "caption": "东汉 105年",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-ce778db5627c48c7",
-      "title": "学习示意：蔡伦改进、才有早期纸",
-      "localPath": "reference-assets/focused-quests/study-ce778db5627c48c7.svg",
+      "id": "study-171397fa439b196a",
+      "title": "学习示意：西汉 蔡伦之前",
+      "localPath": "reference-assets/focused-quests/study-171397fa439b196a.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "蔡伦改进 → 才有早期纸",
+      "caption": "西汉 蔡伦之前",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-da12363c5a674b97",
-      "title": "学习示意：竹木简、丝帛、纸",
-      "localPath": "reference-assets/focused-quests/study-da12363c5a674b97.svg",
+      "id": "study-001e5d296dfc6cc6",
+      "title": "学习示意：竹木简、丝帛、改进造纸",
+      "localPath": "reference-assets/focused-quests/study-001e5d296dfc6cc6.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "竹木简 → 丝帛 → 纸",
+      "caption": "竹木简 → 丝帛 → 改进造纸",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-2adcbb157fe1a4dd",
-      "title": "学习示意：编连的简",
-      "localPath": "reference-assets/focused-quests/study-2adcbb157fe1a4dd.svg",
+      "id": "study-9acdc44c297c7b59",
+      "title": "学习示意：树皮、旧网与旧布、处理成纸",
+      "localPath": "reference-assets/focused-quests/study-9acdc44c297c7b59.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "编连的简",
+      "caption": "树皮 → 旧网与旧布 → 处理成纸",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-a6bcf31b15d9968e",
-      "title": "学习示意：平整的纸",
-      "localPath": "reference-assets/focused-quests/study-a6bcf31b15d9968e.svg",
+      "id": "study-cc9a5907e872e692",
+      "title": "学习示意：轻薄书写、简册较重",
+      "localPath": "reference-assets/focused-quests/study-cc9a5907e872e692.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "平整的纸",
+      "caption": "轻薄书写 → 简册较重",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-e3def94a0daa4a7a",
-      "title": "学习示意：处理纤维、形成纸页",
-      "localPath": "reference-assets/focused-quests/study-e3def94a0daa4a7a.svg",
+      "id": "study-cb2eb65ed8c01e3e",
+      "title": "学习示意：用轻薄的纸",
+      "localPath": "reference-assets/focused-quests/study-cb2eb65ed8c01e3e.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "处理纤维 → 形成纸页",
+      "caption": "用轻薄的纸",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-4d34c9f357322a66",
-      "title": "学习示意：处理材料、纸页",
-      "localPath": "reference-assets/focused-quests/study-4d34c9f357322a66.svg",
+      "id": "study-ea1a69ee4403220d",
+      "title": "学习示意：用一册竹木简",
+      "localPath": "reference-assets/focused-quests/study-ea1a69ee4403220d.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "处理材料 → 纸页",
+      "caption": "用一册竹木简",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-110a61af3dafd32b",
-      "title": "学习示意：纸页、处理材料",
-      "localPath": "reference-assets/focused-quests/study-110a61af3dafd32b.svg",
+      "id": "study-db1f0da7a8e7595f",
+      "title": "学习示意：先有早期纸、蔡伦改进、逐渐用于书写",
+      "localPath": "reference-assets/focused-quests/study-db1f0da7a8e7595f.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "纸页 → 处理材料",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-674d4702652567f7",
-      "title": "学习示意：蔡伦、办法、后来的制纸人",
-      "localPath": "reference-assets/focused-quests/study-674d4702652567f7.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "蔡伦 → 办法 → 后来的制纸人",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-836a08a75d8e9437",
-      "title": "学习示意：交流做法",
-      "localPath": "reference-assets/focused-quests/study-836a08a75d8e9437.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "交流做法",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-2ca73e00aa129ae2",
-      "title": "学习示意：只收藏成纸",
-      "localPath": "reference-assets/focused-quests/study-2ca73e00aa129ae2.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "只收藏成纸",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-b4ff0925c21a02e4",
-      "title": "学习示意：前人的纸、蔡伦改进、继续传播",
-      "localPath": "reference-assets/focused-quests/study-b4ff0925c21a02e4.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "前人的纸 → 蔡伦改进 → 继续传播",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-aa84d04a38415b2c",
-      "title": "学习示意：已有、改进",
-      "localPath": "reference-assets/focused-quests/study-aa84d04a38415b2c.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "已有 → 改进",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-818f67b9e7fc29a7",
-      "title": "学习示意：一个人、第一张纸",
-      "localPath": "reference-assets/focused-quests/study-818f67b9e7fc29a7.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "一个人 → 第一张纸",
+      "caption": "先有早期纸 → 蔡伦改进 → 逐渐用于书写",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1300,6 +1672,58 @@
       "clearance": "cleared-open-license",
       "caption": "依据马王堆三号汉墓出土《导引图》制作的现代彩色复原图。",
       "boundary": "这不是出土原件照片，必须在图片上持续显示“现代复原”。只用于帮助观察人物动作，不把复原色彩、衣饰细节或缺损补画当作西汉直接证据。下载为1920像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "han-paper-workshop-story-v1",
+      "title": "汉代造纸工坊故事插画",
+      "localPath": "reference-assets/qin-han/han-paper-workshop-story-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "小伙伴和工匠在造纸工坊看木框纸浆和晾纸架。",
+      "boundary": "现代故事插画，不是汉代作场复原；造纸步骤图是学习示意，不声称复原蔡伦工艺。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "han-paper-friends-reunion-v1",
+      "title": "三位小伙伴在晾纸架前分享发现的故事插画",
+      "localPath": "reference-assets/qin-han/han-paper-friends-reunion-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "三位小伙伴与工匠在晾纸架前相聚。",
+      "boundary": "现代虚构旅行故事插画，只承担角色叙事；角色外形按 docs/CHARACTERS.md。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "han-paper-materials-v2",
+      "title": "树皮旧网与书写材料故事插画",
+      "localPath": "reference-assets/qin-han/han-paper-materials-v2.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "小伙伴寻找史料中记载的造纸原料。",
+      "boundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/han-paper-materials-v2-prompt.txt。 竹木简形态不准确，v3已修正，本版仅编辑留档。",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "han-paper-materials-v3",
+      "title": "树皮旧网与书写材料故事插画",
+      "localPath": "reference-assets/qin-han/han-paper-materials-v3.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "小伙伴寻找史料中记载的造纸原料。",
+      "boundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/han-paper-materials-v3-prompt.txt。 局部修正竹木简为薄平简片编成的册，不再像圆木棍；其余原料、角色和构图保持。",
       "childVisibility": "child-ok"
     }
   ],

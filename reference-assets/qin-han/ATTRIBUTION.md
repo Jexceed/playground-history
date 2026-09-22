@@ -53,3 +53,64 @@
 ## 2026-09-14统一工具选项
 
 尺子与砝码的交互学习道具由项目代码 `app/ObjectWorkbench.tsx` 绘制；两项使用同一套SVG呈现方式，选择后复用同一组件。道具不属于背景位图，也不是出土器物的外形复原；真实铁权照片、摄影者与CC BY-SA许可仍按原记录保留。
+
+## 2026-09-14秦长城章故事插画（codex + gpt-6 image-gen）
+
+`qin-wall-site-story-v1.png`（1536×1024）：山脚工地场景，两段中间有缺口的低矮旧墙，黄衣男孩与无名工匠。`qin-wall-friends-reunion-v1.png`（1536×1024）：三位小伙伴与工匠在连起来的旧墙段前相聚。均使用 codex exec + gpt-6 image-gen 各生成一次，参考主页v4角色、秦朝工坊v1与相聚v3的画风；角色外形按 `docs/CHARACTERS.md`。提示词见 `docs/qa/2026-09-14-qin-han-wall/prompts/`。
+
+两图均为现代虚构故事插画，不是秦代现场、遗址照片或精确施工复原；下部留空区域由界面叠放学习道具。真实材料继续使用玉门关遗址照片（guan，CC BY 3.0，标注秦之后的汉代）与上文登记素材。
+
+## 2026-09-14场景插画v2（远景蜿蜒长墙）
+
+用户反馈初版“看不出长城的感觉”。`qin-wall-site-story-v2.png`（1536×1024）在v1基础上把远景改为沿山脊蜿蜒到天边的一长串土石墙，黄衣男孩改为指向远方；其余角色、画风与下方留白不变。同为codex image-gen一次生成的故事插画，不是历史现场。v1留档不再进入游戏。
+
+## 2026-09-14汉三章故事插画（codex + gpt-6 image-gen）
+
+各一次生成、无重试，参考主页v4角色与秦朝工坊/相聚画风，角色外形按 `docs/CHARACTERS.md`，下部留空供交互道具。完整提示词见 `docs/qa/2026-09-14-han-trio/prompts/`。
+
+- `han-market-story-v1.png` / `han-market-friends-reunion-v1.png`：汉代集市钱摊场景与相聚（五铢钱章）。
+- `silk-post-story-v1.png` / `silk-post-friends-reunion-v1.png`：戈壁驿站备粮与送行（丝路章）。
+- `han-paper-workshop-story-v1.png` / `han-paper-friends-reunion-v1.png`：造纸工坊与晾纸架相聚（造纸章）。
+
+均为现代虚构故事插画，不是汉代现场、遗址照片或工艺复原；真实材料继续使用海昏侯五铢钱（三猎，CC BY-SA 4.0）、玉门关遗址（guan，CC BY 3.0）、悬泉置封检（三猎，CC BY-SA 4.0）、西汉纸残片（Gary Lee Todd，CC0 1.0）与马王堆帛书（Huangdan2060，CC0 1.0）等已登记照片。
+
+
+## 2026-09-14长城接力故事优化
+
+`qin-wall-teamwork-story-v1.png` 为内置imagegen生成的运料、垒墙协作故事插画，沿用山边场景和既有黄衣小伙伴、工匠形象。仅作教学叙事，不作为秦代服装、工具、人员或精确施工的证据；孩子只观察，墙段操作是学习模型。提示词见 `docs/qa/2026-09-14-qin-wall-refinement/teamwork-prompt.txt`。
+
+金山岭照片沿用Severin.stalder摄影、Brandmeister降低蓝色饱和度的Commons编辑版本，CC BY-SA 3.0；本项目只生成缩图，儿童页使用宽幅构图，大图保留全幅。金山岭的明代身份另据河北省文物局资料。玉门关照片仍供原有汉代任务使用，不再用于本章证明秦墙的风化或外貌。
+
+## 长城守关与观察故事图（2026-09-15）
+
+`qin-wall-guard-story-v1.png`：小小历史旅行团项目使用内置imagegen制作的虚构教学插画，供本项目使用。以原协作图为角色与画风参考，新增守关、观察远方的情境；生成后局部修正高处守卫的多余手臂。不是秦代现场、服饰建筑复原或真实人物自述。依据UNESCO长城记录与上海市绿化和市容管理局的亭障用途介绍，只说明防御功能，不据图推断具体装备或通报信号。
+
+完整提示词和修正记录：`docs/qa/2026-09-15-wall-purpose/`。既有工地、运料与相聚图保留。
+
+## 长城相册真实照片（2026-09-15）
+
+运行照片只做等比例缩小和JPEG压缩，未重画、未生成补全；原图与文件页快照保留在本目录及source-pages。历史身份由已登记权威资料支持，Commons仅核对作者、拍摄对象与许可。
+
+- `yumen-pass.jpg`：guan，[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)；[文件页](https://commons.wikimedia.org/wiki/File:%E7%8E%89%E9%97%A8%E5%85%B3_%E9%81%97%E5%9D%80_-_panoramio.jpg)。今天的玉门关遗址和周围戈壁景观。
+- `jinshanling-panorama.jpg`：Severin.stalder；色彩编辑 Brandmeister，[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)；[文件页](https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg)。金山岭长城沿山脊蜿蜒的全景。金山岭为明代修建段，比秦朝晚很多。
+- `jinshanling-walkway.jpg`：Saad Akhtar，[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)；[文件页](https://commons.wikimedia.org/wiki/File:Greatwall-SA2.jpg)。墙顶的通道、台阶与两侧墙体。
+- `jinshanling-tower-close.jpg`：Saad Akhtar，[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)；[文件页](https://commons.wikimedia.org/wiki/File:Ruins_of_the_guard_tower.jpg)。不完整城楼内部的空间与拱形洞口。
+- `han-wall-detail.jpg`：N509FZ，[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)；[文件页](https://commons.wikimedia.org/wiki/File:Site_of_Han_Dynasty_Great_Wall_at_Yumenguan_(20230917105206).jpg)。汉代土筑墙体的分层纹理与远处高台遗迹。
+- `yumen-pass-close.jpg`：Popolon，[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)；[文件页](https://commons.wikimedia.org/wiki/File:Dunhuang.yumenguan.jpg)。小方盘城的土墙转角和门洞。
+- `jinshanling-tower.jpg`：Jakub Hałun，[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)；[文件页](https://commons.wikimedia.org/wiki/File:20090529_Great_Wall_8159.jpg)。沿山脊相连的墙体和城楼；候选取景与全景重复，本轮未进入儿童相册。
+- `dunhuang-han-wall.jpg`：Kunwang1990，[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)；[文件页](https://commons.wikimedia.org/wiki/File:%E6%95%A6%E7%85%8C%E6%B1%89%E9%95%BF%E5%9F%8E%E9%81%97%E5%9D%80.JPG)。现代标识石占据前景，本轮改选墙体更清楚的照片。
+
+玉门关、小方盘城与敦煌土墙明确标为汉代遗址；明代金山岭/司马台照片不作秦墙复原。完整选片与使用位置见docs/qa/2026-09-15-wall-album/。
+
+
+## 2026-09-18 五铢钱章
+
+- `han-wuzhu-stone-mould.jpg`：上海博物馆西汉五铢石范参观照片，摄影 **猫猫的日记本**，2014-07-13，CC BY-SA 4.0。原文件页 <https://commons.wikimedia.org/wiki/File:Coin_Mould_in_Shanghai_Museum_03_2014-07.JPG>；许可 <https://creativecommons.org/licenses/by-sa/4.0/>。保留原图；运行图仅等比例缩小和格式压缩。器物身份根据照片内馆方展签，不冒称上林三官遗物或博物馆官方摄影。页面快照见 `source-pages/han-wuzhu-stone-mould.html`。
+- `han-mint-workshop-v1.png`：内置 image_gen 生成的现代教学故事插画；沿用项目黄衣小伙伴与青衣工匠。不是历史照片或工坊复原，天平是简化称量学具。提示词与生成过程记在 `docs/qa/2026-09-18-han-wuzhu/`。旧集市与团聚插画原件继续保留。
+
+
+## 2026-09-18 汉朝其余两章
+
+`silk-post-messages-v2.png` 与 `han-paper-materials-v2.png` 使用内置 image_gen 生成；同项目已有插画仅作风格与角色参考，旧图保留。新图分别用于后来的汉代驿站文书/补给、蔡伦改进所涉原料观察。现代教学插画，不是张骞、蔡伦肖像或考古现场复原；不为木简生成可当史料引用的文本。两份实际提示词见 `docs/qa/2026-09-18-han-silk-paper/` 下对应 `-prompt.txt`。未增加外部照片；沿用四张已登记清权照片，出处链接另补当前权威说明。
+
+`han-paper-materials-v3.png`为v2的局部编辑：只把圆棍状物改为薄平简片编成的简册，保留角色、树皮、渔网、旧布、纸页与背景。内置 image_gen；实际提示词为 `han-paper-materials-v3-prompt.txt`。v2标为editor-only但不删除，儿童页面统一使用v3。

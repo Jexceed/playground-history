@@ -20,3 +20,11 @@
 | `xu-xiake-portrait.png` | 后世徐霞客画像 | Public Domain Mark 1.0 | 后世艺术形象，不是旅行现场或照相肖像。 |
 
 完整来源页、许可链接、章节用途和事实核验来源见 `content/assets/ming-qing-assets.json`。
+
+## 2026-09-21 明清八章更新
+
+《天工开物》1637年宋应星自刻本第3册，国图馆藏善本04915，开放扫描PDF第7页渲染为 tiangong-1637-brickmaking.png；PD扫描，保留国图水印。文件页 https://commons.wikimedia.org/wiki/File:NLC892-411999010751-35275_天工開物_第3冊.pdf 。不是旧版400×309铸鼎小图。
+
+三语碑纠正：1409年南京刻制，第三次航行带至锡兰；科伦坡馆藏原碑。Kanatonian原摄影、Pataliputra现版本裁切校色，CC BY-SA 3.0；三段文字内容不同。
+
+本轮8张章节故事图、ming-friends-reunion-v1与qing-friends-reunion-v2为项目使用内置image_gen自制。原PNG和实际提示词保存在本项目及docs/qa/2026-09-21-remaining-chapters/。qing-friends-reunion-v1仅编辑存档。插画不是史料、指定人物肖像或精确技术复原。详细用途与边界以content/assets/ming-qing-assets.json为准。

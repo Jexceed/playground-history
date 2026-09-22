@@ -15,3 +15,12 @@
 | `zuchongzhi-pi-method-child-diagram.png` | 项目组AI辅助生成 | 项目自制 | 只解释接续前人方法、分割圆和逐步计算；人物、木简、算筹均非肖像或传世原物。 |
 
 完整来源页、许可链接、章节用途和事实核验来源见 `content/assets/three-kingdoms-jin-northern-southern-assets.json`。
+
+
+## 2026-09-19 五章优化
+
+- `northern-qi-ox-cart.jpg`：国博北齐陶牛车参观照片，Gary Todd，CC0 1.0；原文件页 https://commons.wikimedia.org/wiki/File:Northern_Qi_Pottery_Ox_Cart.jpg ，原始文件2575412字节。国博器物说明支持交通形制，不为模型编造南迁主人或路线。原图不裁改。
+- `nine-chapters-1936.pdf`：国图藏1936年商务印书馆《九章算术》印本公开扫描，Commons的PD-scan/PD-China声明及版次见 https://commons.wikimedia.org/wiki/File:NLC416-06jh008176-16580_%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93.pdf 。`nine-chapters-1936-title.png`为PDF第3页直接渲染，没有AI修字、重画、去条码。原PDF及前四页核对图保留。此为后世传本，绝非刘徽或祖冲之手稿；数学史用中科院文献交叉核验。
+- `jin-migration-neighbours-v1.png`、`jin-jiangnan-fields-kiln-v1.png`、`wei-luoyang-reform-v1.png`、`jin-circle-study-v1.png`、`dunhuang-deer-story-cards-v1.png`、`jin-travel-journal-reunion-v1.png`：本项目通过内置image_gen生成。角色参考项目已认可的汉朝三伙伴聚会插画；各主题只作教学情境，不是具体古人肖像或建筑服装器形复原。数学室为今天的复古学习空间，几何计算另用精确代码模型。鹿的学习图不是原壁画布局或现代动画截图。六份完整提示词保存在 `docs/qa/2026-09-19-jin-northern-southern/`。
+
+旧迁徙、稻田与数学自制图保留为editor-only，当前入口/覆盖索引同步指向新图；没有删除旧原件。

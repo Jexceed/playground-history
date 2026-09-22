@@ -15,9 +15,9 @@
   "throughline": "以祖冲之、书法、石窟艺术等案例观察传统文化的继承、创新与跨区域交流。",
   "childEntry": {
     "id": "cn-ancient-05-04-science-art",
-    "childTitle": "陪祖冲之把圆看仔细",
-    "prompt": "有棱角的图形，怎样一步步更接近圆？",
-    "takeaway": "刘徽用多边形逼近圆，祖冲之后来推进圆周率计算；数学成果接续前人的方法。",
+    "childTitle": "祖冲之怎样把圆算得更准？",
+    "prompt": "直边图形放进同一个圆，分得更细，会发生什么？跟着小伙伴试试古人的思路。",
+    "takeaway": "刘徽用直边图形逐步逼近圆，后来祖冲之把圆周率算得更精确。今天的模型只帮助理解思路，不是他们的计算原稿。",
     "object": "《兰亭序》神龙本、圆周率记录和云冈石窟",
     "people": [
       "刘徽",
@@ -25,8 +25,9 @@
     ],
     "place": "绍兴兰亭、南京与大同云冈",
     "culture": "《兰亭集序》与书法传统",
-    "care": "图形是数学学习示意，不声称完整复原祖冲之已散佚的计算过程。人物不是当时肖像。",
-    "playableSource": "content/focused-quests.json"
+    "care": "书影是1936年后世印本，不是刘徽或祖冲之手稿，条码是现代馆藏管理标记。图中人物为今天的教学角色，书房陈设不当作南朝遗物。学具演示内接多边形的直觉，祖冲之具体算法已散佚，不声称按几次按钮就得到他的精度，不要求孩子背小数。",
+    "playableSource": "content/focused-quests.json",
+    "preferredAssetId": "nine-chapters-1936-title"
   },
   "textbookConnection": {
     "id": "cn-ancient-05-04-science-art",
@@ -34,8 +35,8 @@
       "type": "书法",
       "icon": "🖌️",
       "title": "刘徽与祖冲之",
-      "childBridge": "有棱角的图形，怎样一步步更接近圆？",
-      "evidenceBoundary": "图形是数学学习示意，不声称完整复原祖冲之已散佚的计算过程。"
+      "childBridge": "直边图形放进同一个圆，分得更细，会发生什么？跟着小伙伴试试古人的思路。",
+      "evidenceBoundary": "书影是1936年后世印本，不是刘徽或祖冲之手稿，条码是现代馆藏管理标记。"
     },
     "companions": [
       {
@@ -53,39 +54,40 @@
       "PEP-CHINESE-CLASSICS-RESOURCE",
       "DPM-LANTING-SHENLONG",
       "CAS-ZUCHONGZHI-PI",
-      "CAS-PI-HISTORY-2005"
+      "CAS-PI-HISTORY-2005",
+      "NLC-NINE-CHAPTERS-1936"
     ]
   },
   "childStory": [
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "数学家的先后",
-      "text": "刘徽在263年解释割圆的方法。到了五世纪，祖冲之把圆周率算得更加精确。"
+      "label": "数学书把方法传下来",
+      "text": "这是《九章算术》的后世印本，印于1936年，比书里的古人晚很多。刘徽为它作注；到南朝的5世纪，祖冲之继续推进圆周率计算。我们去找祖冲之的时代。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "摸一摸边角",
-      "text": "圆周是弯曲的。图里的六边形有直边和角，它还没有贴住整条圆周。"
+      "label": "圆边一圈，到底有多长",
+      "text": "古人想更准确地算圆周长和圆面积。刘徽在263年解释割圆的方法，用越来越多的直边逐步逼近圆。祖冲之后来把圆周率算得更精确。现在，我们用学习图试一试思路。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "多分几条边",
-      "text": "在同一个圆里，增加内接多边形的边，边缘就更贴近圆周。"
+      "label": "保持同一个圆，把边分细",
+      "text": "金色圆保持不变，绿色图形由直边围成。先看六条边，再把边分得更多。比一比直边与圆边之间的空隙，不用计算小数。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "把新结果留下来",
-      "text": "祖冲之得到更精确的结果。后人通过文献了解这项成就，不能把示意图当成他的原稿。"
+      "label": "同样的圆，哪幅更贴近",
+      "text": "小伙伴拿出两幅学习图，外面的圆一样大。一幅有六条直边，另一幅有二十四条。哪幅直边与圆之间留下的空隙更小？"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "谁把办法接下去",
-      "text": "前人留下方法，后来的人比较、计算、再推进。孩子不用记很长的小数。"
+      "label": "接过方法，再继续探索",
+      "text": "祖冲之没有从零开始发明圆周率。他接续已有研究，把结果推进得更精确。今天我们也看前人留下的书，再用模型理解；这几步操作并不是他全部的计算。"
     }
   ],
   "glossary": [
@@ -193,66 +195,161 @@
     "hook": {
       "kind": "具体任务",
       "icon": "🔎",
-      "label": "陪祖冲之把圆看仔细",
-      "question": "有棱角的图形，怎样一步步更接近圆？"
+      "label": "祖冲之怎样把圆算得更准？",
+      "question": "直边图形放进同一个圆，分得更细，会发生什么？跟着小伙伴试试古人的思路。"
     },
-    "cta": "去让图形更像圆",
+    "cta": "去把圆看得更仔细",
     "anchor": "刘徽与祖冲之",
-    "boundary": "图形是数学学习示意，不声称完整复原祖冲之已散佚的计算过程。人物不是当时肖像。",
-    "evidence": [],
+    "boundary": "书影是1936年后世印本，不是刘徽或祖冲之手稿，条码是现代馆藏管理标记。图中人物为今天的教学角色，书房陈设不当作南朝遗物。学具演示内接多边形的直觉，祖冲之具体算法已散佚，不声称按几次按钮就得到他的精度，不要求孩子背小数。",
+    "evidence": [
+      {
+        "id": "nine-chapters-1936-title",
+        "title": "《九章算术》1936年印本题名页书影",
+        "localPath": "reference-assets/three-kingdoms-jin-northern-southern/nine-chapters-1936-title.png",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:NLC416-06jh008176-16580_%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93.pdf",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "Public Domain Mark 1.0 / PD-scan (PD-China)",
+        "clearance": "cleared-open-license",
+        "caption": "1936年印本书影｜比刘徽、祖冲之晚很多｜不是本人手稿。",
+        "boundary": "从已核验开放PDF第3页直接渲染，未重画或修字，原PDF与前四页保留。书页可见刘徽注与李淳风注释；条码属于后来图书馆管理，不是古代符号。本轮只展示公版古籍内容与责任说明，不引用现代新增序言。祖冲之具体计算过程已散佚，不能将此页写成其算法手稿。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/nine-chapters-1936-title.jpg"
+      }
+    ],
+    "photoAlbum": null,
     "coverAsset": {
-      "id": "yungang-cave-20-current-view",
-      "title": "云冈石窟第20窟现状照片",
-      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/yungang-cave-20.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cave_20,_Yungang_Grottoes.jpg",
+      "id": "nine-chapters-1936-title",
+      "title": "《九章算术》1936年印本题名页书影",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/nine-chapters-1936-title.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NLC416-06jh008176-16580_%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93.pdf",
       "sourceFile": null,
       "licensePath": null,
-      "license": "CC0 1.0",
+      "license": "Public Domain Mark 1.0 / PD-scan (PD-China)",
       "clearance": "cleared-open-license",
-      "caption": "今天的云冈石窟第20窟及其露天造像。",
-      "boundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+      "caption": "1936年印本书影｜比刘徽、祖冲之晚很多｜不是本人手稿。",
+      "boundary": "从已核验开放PDF第3页直接渲染，未重画或修字，原PDF与前四页保留。书页可见刘徽注与李淳风注释；条码属于后来图书馆管理，不是古代符号。本轮只展示公版古籍内容与责任说明，不引用现代新增序言。祖冲之具体计算过程已散佚，不能将此页写成其算法手稿。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/yungang-cave-20-current-view.jpg"
+      "image": "/content/step-images/nine-chapters-1936-title.jpg"
     },
-    "presentation": null,
-    "sceneAsset": null,
-    "narrativeAssets": [],
-    "coverImage": "/content/step-images/yungang-cave-20-current-view.jpg",
-    "coverImageAlt": "云冈石窟第20窟现状照片",
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "jin-circle-study-v1",
+      "sceneAlt": "今天学习古代数学方法的故事插画，现代教学插画",
+      "title": "祖冲之怎样把圆算得更准？",
+      "evidenceTitle": "《九章算术》1936年印本题名页书影",
+      "evidenceLine": "真材料帮助观察，年代与解释另有文献。",
+      "evidenceNarration": "这张是古数学书《九章算术》的后世印本书影，印于1936年。后人把旧方法传下来，又继续研究；纸上的条码是现代图书馆的标记。",
+      "guide": "听清问题，点你找到的画面。小喇叭能重听。",
+      "alignHint": "",
+      "familyHint": "回看图里的线索，再和家人一起说一说。",
+      "familyLabel": "和家人再把边分细一点",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "把发现带回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 2.2,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "jin-travel-journal-reunion-v1",
+        "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
+        "coverCaption": "祖冲之怎样把圆算得更准？",
+        "coverNarration": "祖冲之怎样把圆算得更准？小小旅行团出发！直边图形放进同一个圆，分得更细，会发生什么？跟着小伙伴试试古人的思路。",
+        "stationLine": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
+        "stationNarration": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
+        "closingCaption": "回看刚刚读懂的历史",
+        "closingNarration": "刘徽用直边图形逐步逼近圆，后来祖冲之把圆周率算得更精确。今天的模型只帮助理解思路，不是他们的计算原稿。",
+        "closingLine": "前人留下方法，后来人接着算得更准。",
+        "fictionNote": "书影是1936年后世印本，不是刘徽或祖冲之手稿，条码是现代馆藏管理标记。图中人物为今天的教学角色，书房陈设不当作南朝遗物。学具演示内接多边形的直觉，祖冲之具体算法已散佚，不声称按几次按钮就得到他的精度，不要求孩子背小数。",
+        "reunionImage": "/content/step-images/jin-travel-journal-reunion-v1.jpg",
+        "stationAudio": {
+          "id": "quest-07878431a28f0aec",
+          "text": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。"
+        },
+        "closingAudio": {
+          "id": "quest-a8cc6b3ba094f870",
+          "text": "刘徽用直边图形逐步逼近圆，后来祖冲之把圆周率算得更精确。今天的模型只帮助理解思路，不是他们的计算原稿。"
+        }
+      },
+      "practice": {
+        "scene": "circle-refine"
+      },
+      "sceneImage": "/content/step-images/jin-circle-study-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-13f470e6aa4fd1d6",
+        "text": "这张是古数学书《九章算术》的后世印本书影，印于1936年。后人把旧方法传下来，又继续研究；纸上的条码是现代图书馆的标记。"
+      },
+      "guideAudio": {
+        "id": "quest-8910b65852f3deb0",
+        "text": "听清问题，点你找到的画面。小喇叭能重听。"
+      }
+    },
+    "sceneAsset": {
+      "id": "jin-circle-study-v1",
+      "title": "今天学习古代数学方法的故事插画",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-circle-study-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "今天学习古代数学方法的故事插画；非历史现场复原。",
+      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-circle-study-v1-prompt.txt。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/jin-circle-study-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "jin-travel-journal-reunion-v1",
+        "title": "三位小伙伴回看本段历史的聚会插画",
+        "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-travel-journal-reunion-v1.png",
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
+        "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/jin-travel-journal-reunion-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/nine-chapters-1936-title.jpg",
+    "coverImageAlt": "《九章算术》1936年印本题名页书影",
     "coverImageKind": "历史材料",
     "coverAudio": {
-      "id": "quest-815bfdf859d96abc",
-      "text": "陪祖冲之把圆看仔细。有棱角的图形，怎样一步步更接近圆？准备好就点“去让图形更像圆”。"
+      "id": "quest-82b262132af7414b",
+      "text": "祖冲之怎样把圆算得更准？小小旅行团出发！直边图形放进同一个圆，分得更细，会发生什么？跟着小伙伴试试古人的思路。"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-27136f96a6bcbb43",
-      "text": "刘徽用多边形逼近圆，祖冲之后来推进圆周率计算；数学成果接续前人的方法。"
+      "id": "quest-a8cc6b3ba094f870",
+      "text": "刘徽用直边图形逐步逼近圆，后来祖冲之把圆周率算得更精确。今天的模型只帮助理解思路，不是他们的计算原稿。"
     },
     "finish": {
-      "title": "手指沿着圆走一圈",
+      "title": "直边更多，就更贴近圆！",
       "actions": [
-        "先指六边形的一个角，再沿圆周画一圈。",
-        "指给家人看：哪张多边形更贴近圆？"
+        "先看六条直边，再点按钮分细，指给家人看空隙怎样改变。",
+        "请家人问“祖冲之有没有接过前人的方法？”你用古书和新图形说明。"
       ],
-      "parent": "问“多分几条边后，空隙怎样了？”接受“变小”“更像圆”或手势。此处演示刘徽方法的直觉，不要求算圆周率。",
+      "parent": "圆周率是圆周长与直径的比值。孩子能说“边更多，空隙更小”即可。模型用同一个圆，不能把放大圆或任意拉伸图形当细分。有限多边形仍有直边，不等于真正圆。数学成果由后世文献记载，祖冲之精确推算过程不可从此学具复原。",
       "sceneStepIndexes": [
-        1,
-        2
+        2,
+        3
       ],
       "actionAudio": [
         {
-          "id": "quest-aa9ce47beea602a1",
-          "text": "先指六边形的一个角，再沿圆周画一圈。"
+          "id": "quest-46145c1a188ad0e3",
+          "text": "先看六条直边，再点按钮分细，指给家人看空隙怎样改变。"
         },
         {
-          "id": "quest-e3e559ad7b48c93b",
-          "text": "指给家人看：哪张多边形更贴近圆？"
+          "id": "quest-d3b8152458dfea30",
+          "text": "请家人问“祖冲之有没有接过前人的方法？”你用古书和新图形说明。"
         }
       ],
       "introAudio": {
-        "id": "quest-2d273c032e55a77b",
-        "text": "手指沿着圆走一圈。先指六边形的一个角，再沿圆周画一圈。指给家人看：哪张多边形更贴近圆？"
+        "id": "quest-a8cc6b3ba094f870",
+        "text": "刘徽用直边图形逐步逼近圆，后来祖冲之把圆周率算得更精确。今天的模型只帮助理解思路，不是他们的计算原稿。"
       }
     },
     "estimatedMinutes": 6,
@@ -265,82 +362,148 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "数学家的先后",
-        "title": "数学家的先后",
-        "prompt": "哪位在前，哪位在后？",
-        "rightNote": "刘徽在前，祖冲之在后来继续探索。",
-        "wrongNote": "刘徽在前，祖冲之在后来继续探索。",
+        "phase": "数学书把方法传下来",
+        "title": "数学书把方法传下来",
+        "prompt": "祖冲之继续研究圆，是在哪个时期？",
+        "rightNote": "到了南朝，再接着看前人的方法。",
+        "wrongNote": "唐朝在后面，祖冲之生活在更早的南朝。",
         "sourceIds": [
           "CAS-ZUCHONGZHI-PI",
-          "CAS-PI-HISTORY-2005"
+          "CAS-PI-HISTORY-2005",
+          "NLC-NINE-CHAPTERS-1936"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听清问题，看看图里的线索。"
+        },
+        "narrative": {
+          "scene": "artifact",
+          "caption": "数学书把方法传下来",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "到了南朝，再接着看前人的方法。",
+          "retry": "唐朝在后面，祖冲之生活在更早的南朝。",
+          "nextLabel": "古人为什么要研究圆",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "nine-chapters-1936-title",
+          "title": "《九章算术》· 后世印本",
+          "localPath": "reference-assets/three-kingdoms-jin-northern-southern/nine-chapters-1936-title.png",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:NLC416-06jh008176-16580_%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93.pdf",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "Public Domain Mark 1.0 / PD-scan (PD-China)",
+          "clearance": "cleared-open-license",
+          "caption": "1936年印本 · 不是祖冲之手稿",
+          "boundary": "从已核验开放PDF第3页直接渲染，未重画或修字，原PDF与前四页保留。书页可见刘徽注与李淳风注释；条码属于后来图书馆管理，不是古代符号。本轮只展示公版古籍内容与责任说明，不引用现代新增序言。祖冲之具体计算过程已散佚，不能将此页写成其算法手稿。 1936年印本书影｜比刘徽、祖冲之晚很多｜不是本人手稿。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/nine-chapters-1936-title.jpg",
+          "label": "点开真材料，听听说明",
+          "placement": "main",
+          "framing": "object",
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "中国科学院地球环境研究所：“π日”说π：这么复杂一个数谁算的？咋算的？",
+              "url": "https://ieexa.cas.cn/kp/kpwz/201603/t20160314_5839987.html"
+            },
+            {
+              "title": "中国科学院自动化研究所：圆周率π的计算历程",
+              "url": "https://ia.cas.cn/kxcb/kpwz/200502/t20050228_2299209.html"
+            },
+            {
+              "title": "国家图书馆馆藏；商务印书馆；开放扫描文件页承载书目与许可：《九章算术》1936年商务印书馆印本，国家图书馆藏扫描",
+              "url": "https://commons.wikimedia.org/wiki/File:NLC416-06jh008176-16580_%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93.pdf"
+            },
+            {
+              "title": "图片身份、作者与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:NLC416-06jh008176-16580_%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93.pdf"
+            }
+          ],
+          "audio": {
+            "id": "quest-13f470e6aa4fd1d6",
+            "text": "这张是古数学书《九章算术》的后世印本书影，印于1936年。后人把旧方法传下来，又继续研究；纸上的条码是现代图书馆的标记。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "数学家的先后",
-          "screenText": "刘徽在263年解释割圆的方法。到了五世纪，祖冲之把圆周率算得更加精确。",
-          "displayText": "刘徽在263年解释割圆的方法。到了五世纪，祖冲之把圆周率算得更加精确。",
-          "narration": "刘徽在263年解释割圆的方法。到了五世纪，祖冲之把圆周率算得更加精确。"
+          "title": "数学书把方法传下来",
+          "screenText": "这是《九章算术》的后世印本，印于1936年，比书里的古人晚很多。刘徽为它作注；到南朝的5世纪，祖冲之继续推进圆周率计算。我们去找祖冲之的时代。",
+          "displayText": "这是《九章算术》的后世印本，印于1936年，比书里的古人晚很多。刘徽为它作注；到南朝的5世纪，祖冲之继续推进圆周率计算。我们去找祖冲之的时代。",
+          "narration": "这是《九章算术》的后世印本，印于1936年，比书里的古人晚很多。刘徽为它作注；到南朝的5世纪，祖冲之继续推进圆周率计算。我们去找祖冲之的时代。"
         },
-        "assetId": "study-b3e45d7de0abf5ae",
-        "image": "/content/study-scenes/study-b3e45d7de0abf5ae.svg",
-        "studyImage": "/content/study-scenes/study-b3e45d7de0abf5ae.svg",
-        "studyImageAlt": "263年 刘徽，五世纪 祖冲之",
-        "imageAlt": "263年 刘徽，五世纪 祖冲之",
-        "imageCaption": "学习示意 · 263年 刘徽，五世纪 祖冲之",
-        "imageBoundary": "自制学习示意。图形是数学学习示意，不声称完整复原祖冲之已散佚的计算过程。人物不是当时肖像。",
+        "assetId": "nine-chapters-1936-title",
+        "image": "/content/step-images/nine-chapters-1936-title.jpg",
+        "studyImage": "/content/study-scenes/study-3b74b77b85e5eb20.svg",
+        "studyImageAlt": "后世印本，南朝祖冲之",
+        "imageAlt": "《九章算术》1936年印本题名页书影",
+        "imageCaption": "《九章算术》1936年印本题名页书影",
+        "imageBoundary": "从已核验开放PDF第3页直接渲染，未重画或修字，原PDF与前四页保留。书页可见刘徽注与李淳风注释；条码属于后来图书馆管理，不是古代符号。本轮只展示公版古籍内容与责任说明，不引用现代新增序言。祖冲之具体计算过程已散佚，不能将此页写成其算法手稿。",
         "audio": {
+          "lead": {
+            "id": "quest-76a132c157d41388",
+            "text": "祖冲之生活在南朝。这本书是后来印的，我们先去他的时代。"
+          },
           "transition": {
-            "id": "quest-607fe7385d2bd8f0",
-            "text": "数学家的先后。"
+            "id": "quest-64d60d512905bd53",
+            "text": "数学书把方法传下来。"
           },
           "intro": {
-            "id": "quest-c450bab20aaaea7b",
-            "text": "刘徽在263年解释割圆的方法。到了五世纪，祖冲之把圆周率算得更加精确。"
+            "id": "quest-a6bb42b8e99e79c5",
+            "text": "这是《九章算术》的后世印本，印于1936年，比书里的古人晚很多。刘徽为它作注；到南朝的5世纪，祖冲之继续推进圆周率计算。我们去找祖冲之的时代。"
           },
           "question": {
-            "id": "quest-da03549925c6a7f2",
-            "text": "哪位在前，哪位在后？"
+            "id": "quest-4e1c51df2ace388a",
+            "text": "祖冲之继续研究圆，是在哪个时期？"
           },
           "image": {
-            "id": "quest-cf07acf4c6552642",
-            "text": "这是学习示意图：263年 刘徽，五世纪 祖冲之。哪位在前，哪位在后？"
+            "id": "quest-2785aaa7461f249c",
+            "text": "这张是《九章算术》1936年印本题名页书影。这是《九章算术》的后世印本，印于1936年，比书里的古人晚很多。刘徽为它作注；到南朝的5世纪，祖冲之继续推进圆周率计算。我们去找祖冲之的时代。"
           },
           "right": {
-            "id": "quest-4e4f01113f6342b9",
-            "text": "找到了。刘徽在前，祖冲之在后来继续探索。"
+            "id": "quest-f63b79a1f5dea264",
+            "text": "到了南朝，再接着看前人的方法。"
           },
           "wrong": {
-            "id": "quest-245e0443e9a5f355",
-            "text": "再比较一下。刘徽在前，祖冲之在后来继续探索。"
+            "id": "quest-42ae15a4cb3030a7",
+            "text": "唐朝在后面，祖冲之生活在更早的南朝。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-05-04-science-art-time-1",
-            "label": "刘徽263年 → 祖冲之五世纪",
+            "label": "南朝 · 5世纪",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-982bb25a607aa377.svg",
-            "imageAlt": "刘徽，祖冲之",
+            "objectView": {
+              "kind": "era",
+              "name": "南朝",
+              "date": "5世纪",
+              "stationImage": "/images/history-stations/meeting.webp"
+            },
+            "image": "/content/study-scenes/study-5eba77508bc705f3.svg",
+            "imageAlt": "南朝 5世纪",
             "audio": {
-              "id": "quest-6ef7f7039f8dc700",
-              "text": "刘徽263年 → 祖冲之五世纪"
+              "id": "quest-a12cb65582b23cb8",
+              "text": "南朝 · 5世纪"
             }
           },
           {
             "id": "cn-ancient-05-04-science-art-time-2",
-            "label": "祖冲之五世纪 → 刘徽263年",
+            "label": "唐朝 · 7世纪起",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-e47e982a1aeeaba8.svg",
-            "imageAlt": "祖冲之，刘徽",
+            "objectView": {
+              "kind": "era",
+              "name": "唐朝",
+              "date": "7世纪起",
+              "stationImage": "/images/history-stations/tang.webp"
+            },
+            "image": "/content/study-scenes/study-87c3f38235c7b604.svg",
+            "imageAlt": "唐朝 7世纪起",
             "audio": {
-              "id": "quest-2a3ee54979f243f1",
-              "text": "祖冲之五世纪 → 刘徽263年"
+              "id": "quest-62b224c885cd8333",
+              "text": "唐朝 · 7世纪起"
             }
           }
         ]
@@ -349,166 +512,198 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "摸一摸边角",
-        "title": "摸一摸边角",
-        "prompt": "哪张图还有明显的角？",
-        "rightNote": "六边形的转角能看见，圆周没有这样的角。",
-        "wrongNote": "六边形的转角能看见，圆周没有这样的角。",
+        "phase": "圆边一圈，到底有多长",
+        "title": "圆边一圈，到底有多长",
+        "prompt": "圆边一圈，到底有多长",
+        "rightNote": "古人接过前人的方法，继续算得更准。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
           "CAS-ZUCHONGZHI-PI",
           "CAS-PI-HISTORY-2005"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听清问题，看看图里的线索。",
+          "continueLabel": "动手把边分细一点"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "圆边一圈，到底有多长",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "古人接过前人的方法，继续算得更准。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "动手把边分细一点",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "摸一摸边角",
-          "screenText": "圆周是弯曲的。图里的六边形有直边和角，它还没有贴住整条圆周。",
-          "displayText": "圆周是弯曲的。图里的六边形有直边和角，它还没有贴住整条圆周。",
-          "narration": "圆周是弯曲的。图里的六边形有直边和角，它还没有贴住整条圆周。"
+          "title": "圆边一圈，到底有多长",
+          "screenText": "古人想更准确地算圆周长和圆面积。刘徽在263年解释割圆的方法，用越来越多的直边逐步逼近圆。祖冲之后来把圆周率算得更精确。现在，我们用学习图试一试思路。",
+          "displayText": "用直边，一步步贴近圆。\n前人留方法，后来人继续算。",
+          "narration": "古人想更准确地算圆周长和圆面积。刘徽在263年解释割圆的方法，用越来越多的直边逐步逼近圆。祖冲之后来把圆周率算得更精确。现在，我们用学习图试一试思路。"
         },
-        "assetId": "study-7d38e70c934b7ebf",
-        "image": "/content/study-scenes/study-7d38e70c934b7ebf.svg",
-        "studyImage": "/content/study-scenes/study-7d38e70c934b7ebf.svg",
-        "studyImageAlt": "六条直边，弯曲圆周",
-        "imageAlt": "六条直边，弯曲圆周",
-        "imageCaption": "学习示意 · 六条直边，弯曲圆周",
-        "imageBoundary": "自制学习示意。图形是数学学习示意，不声称完整复原祖冲之已散佚的计算过程。人物不是当时肖像。",
+        "assetId": "study-734bec6ef4db96fe",
+        "image": "/content/study-scenes/study-734bec6ef4db96fe.svg",
+        "studyImage": "/content/study-scenes/study-734bec6ef4db96fe.svg",
+        "studyImageAlt": "研究圆，直边逼近，方法接续",
+        "imageAlt": "研究圆，直边逼近，方法接续",
+        "imageCaption": "学习示意 · 研究圆，直边逼近，方法接续",
+        "imageBoundary": "自制学习示意。书影是1936年后世印本，不是刘徽或祖冲之手稿，条码是现代馆藏管理标记。图中人物为今天的教学角色，书房陈设不当作南朝遗物。学具演示内接多边形的直觉，祖冲之具体算法已散佚，不声称按几次按钮就得到他的精度，不要求孩子背小数。",
         "audio": {
+          "lead": {
+            "id": "quest-31cacd0b7b3bb86c",
+            "text": "刘徽先留下方法，祖冲之后来算得更准。我们用学习图试试思路。"
+          },
           "transition": {
-            "id": "quest-14c12e2f324f1987",
-            "text": "摸一摸边角。"
+            "id": "quest-9d2a12d8a439e002",
+            "text": "圆边一圈，到底有多长。"
           },
           "intro": {
-            "id": "quest-b6a478a058c58a6b",
-            "text": "圆周是弯曲的。图里的六边形有直边和角，它还没有贴住整条圆周。"
+            "id": "quest-3a965e7b2e875bfc",
+            "text": "古人想更准确地算圆周长和圆面积。刘徽在263年解释割圆的方法，用越来越多的直边逐步逼近圆。祖冲之后来把圆周率算得更精确。现在，我们用学习图试一试思路。"
           },
           "question": {
-            "id": "quest-84195802279f50e0",
-            "text": "哪张图还有明显的角？"
+            "id": "quest-236a34fbafef21b9",
+            "text": "圆边一圈，到底有多长"
           },
           "image": {
-            "id": "quest-8721addbfb084640",
-            "text": "这是学习示意图：六条直边，弯曲圆周。哪张图还有明显的角？"
+            "id": "quest-d07704420b7d2735",
+            "text": "这是学习示意图：研究圆，直边逼近，方法接续。圆边一圈，到底有多长"
           },
           "right": {
-            "id": "quest-566e0c8046d7b579",
-            "text": "找到了。六边形的转角能看见，圆周没有这样的角。"
+            "id": "quest-5b428537833e26fb",
+            "text": "古人接过前人的方法，继续算得更准。"
           },
           "wrong": {
-            "id": "quest-7ecd51fd5298a75b",
-            "text": "再比较一下。六边形的转角能看见，圆周没有这样的角。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-05-04-science-art-beginning-1",
-            "label": "六边形",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-b7b80037be9ded47.svg",
-            "imageAlt": "六边形",
-            "audio": {
-              "id": "quest-ac60b7f331f894b2",
-              "text": "六边形"
-            }
-          },
-          {
-            "id": "cn-ancient-05-04-science-art-beginning-2",
-            "label": "圆",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-69cf5170eff0741a.svg",
-            "imageAlt": "圆",
-            "audio": {
-              "id": "quest-aeb04a06782bb8b1",
-              "text": "圆"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "多分几条边",
-        "title": "多分几条边",
-        "prompt": "哪一个更接近外面的圆？",
-        "rightNote": "边数增加后，与圆周之间的空隙变小了。",
-        "wrongNote": "边数增加后，与圆周之间的空隙变小了。",
+        "phase": "保持同一个圆，把边分细",
+        "title": "保持同一个圆，把边分细",
+        "prompt": "保持同一个圆，把直边分细。",
+        "rightNote": "二十四条边更贴近圆周啦，仍然是直边图形。",
+        "wrongNote": "先看清同一个圆里的空隙。",
         "sourceIds": [
           "CAS-ZUCHONGZHI-PI",
           "CAS-PI-HISTORY-2005"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "circle-refine",
+          "hint": "点按钮，观察同一个圆里的空隙。",
+          "refinements": [
+            {
+              "sides": 12,
+              "narration": "分成十二条边了，空隙更小。再分细一次看看。",
+              "audio": {
+                "id": "quest-af52a88757307099",
+                "text": "分成十二条边了，空隙更小。再分细一次看看。"
+              }
+            },
+            {
+              "sides": 24,
+              "narration": "二十四条边更贴近圆周啦，仍然是直边图形。",
+              "audio": {
+                "id": "quest-128cb8f6c0cc699e",
+                "text": "二十四条边更贴近圆周啦，仍然是直边图形。"
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "保持同一个圆，把边分细",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "二十四条边更贴近圆周啦，仍然是直边图形。",
+          "retry": "先看清同一个圆里的空隙。",
+          "nextLabel": "比较哪幅更贴近圆",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "多分几条边",
-          "screenText": "在同一个圆里，增加内接多边形的边，边缘就更贴近圆周。",
-          "displayText": "在同一个圆里，增加内接多边形的边，边缘就更贴近圆周。",
-          "narration": "在同一个圆里，增加内接多边形的边，边缘就更贴近圆周。"
+          "title": "保持同一个圆，把边分细",
+          "screenText": "金色圆保持不变，绿色图形由直边围成。先看六条边，再把边分得更多。比一比直边与圆边之间的空隙，不用计算小数。",
+          "displayText": "金色圆保持不变，绿色图形由直边围成。先看六条边，再把边分得更多。比一比直边与圆边之间的空隙，不用计算小数。",
+          "narration": "金色圆保持不变，绿色图形由直边围成。先看六条边，再把边分得更多。比一比直边与圆边之间的空隙，不用计算小数。"
         },
-        "assetId": "study-32d31f5e094b507a",
-        "image": "/content/study-scenes/study-32d31f5e094b507a.svg",
-        "studyImage": "/content/study-scenes/study-32d31f5e094b507a.svg",
-        "studyImageAlt": "同一个圆里的两种图形",
-        "imageAlt": "同一个圆里的两种图形",
-        "imageCaption": "学习示意 · 同一个圆里的两种图形",
-        "imageBoundary": "自制学习示意。图形是数学学习示意，不声称完整复原祖冲之已散佚的计算过程。人物不是当时肖像。",
+        "assetId": "jin-circle-study-v1",
+        "image": "/content/step-images/jin-circle-study-v1.jpg",
+        "studyImage": "/content/study-scenes/study-c1a481f5da23dcfa.svg",
+        "studyImageAlt": "先看六边形，再把边分细",
+        "imageAlt": "今天学习古代数学方法的故事插画",
+        "imageCaption": "今天学习古代数学方法的故事插画",
+        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-circle-study-v1-prompt.txt。",
         "audio": {
+          "lead": {
+            "id": "quest-3add94cc7c045be1",
+            "text": "点按钮，把六条直边分细，看看空隙怎样变化。"
+          },
           "transition": {
-            "id": "quest-8cf2073409bd4d4e",
-            "text": "多分几条边。"
+            "id": "quest-2425435b9793250c",
+            "text": "保持同一个圆，把边分细。"
           },
           "intro": {
-            "id": "quest-c693b34599410aa9",
-            "text": "在同一个圆里，增加内接多边形的边，边缘就更贴近圆周。"
+            "id": "quest-88884252a58f7624",
+            "text": "金色圆保持不变，绿色图形由直边围成。先看六条边，再把边分得更多。比一比直边与圆边之间的空隙，不用计算小数。"
           },
           "question": {
-            "id": "quest-9c72cd68ee51de54",
-            "text": "哪一个更接近外面的圆？"
+            "id": "quest-22477cb951f74518",
+            "text": "保持同一个圆，把直边分细。"
           },
           "image": {
-            "id": "quest-f96db98e7de3366f",
-            "text": "这是学习示意图：同一个圆里的两种图形。哪一个更接近外面的圆？"
+            "id": "quest-46b792d1bd72bb20",
+            "text": "这张是今天学习古代数学方法的故事插画。金色圆保持不变，绿色图形由直边围成。先看六条边，再把边分得更多。比一比直边与圆边之间的空隙，不用计算小数。"
           },
           "right": {
-            "id": "quest-6258bcd2bcb8abb4",
-            "text": "找到了。边数增加后，与圆周之间的空隙变小了。"
+            "id": "quest-128cb8f6c0cc699e",
+            "text": "二十四条边更贴近圆周啦，仍然是直边图形。"
           },
           "wrong": {
-            "id": "quest-985b8442eb0bc0d3",
-            "text": "再比较一下。边数增加后，与圆周之间的空隙变小了。"
+            "id": "quest-ceafbaf3f1addc24",
+            "text": "先看清同一个圆里的空隙。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-05-04-science-art-journey-1",
-            "label": "十二边形",
+            "label": "24条直边的图形",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-0dcc4237e67574c0.svg",
-            "imageAlt": "十二条边",
+            "objectView": {
+              "kind": "circle-model",
+              "sides": 24
+            },
+            "image": "/content/study-scenes/study-7a80c9e66c654313.svg",
+            "imageAlt": "24条直边",
             "audio": {
-              "id": "quest-8c35c41223acfcbe",
-              "text": "十二边形"
+              "id": "quest-a4ffddf2a41dc740",
+              "text": "24条直边的图形"
             }
           },
           {
             "id": "cn-ancient-05-04-science-art-journey-2",
-            "label": "六边形",
+            "label": "6条直边的图形",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-47564b2ce62855f6.svg",
-            "imageAlt": "六条边",
+            "objectView": {
+              "kind": "circle-model",
+              "sides": 6
+            },
+            "image": "/content/study-scenes/study-f7c13b2cfea19b96.svg",
+            "imageAlt": "6条直边",
             "audio": {
-              "id": "quest-ac60b7f331f894b2",
-              "text": "六边形"
+              "id": "quest-ef01fb2ff971e9a2",
+              "text": "6条直边的图形"
             }
           }
         ]
@@ -517,82 +712,104 @@
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "把新结果留下来",
-        "title": "把新结果留下来",
-        "prompt": "后人怎样核对这项成果？",
-        "rightNote": "今天的圆帮助理解，历史成果要靠文献核对。",
-        "wrongNote": "今天的圆帮助理解，历史成果要靠文献核对。",
+        "phase": "同样的圆，哪幅更贴近",
+        "title": "同样的圆，哪幅更贴近",
+        "prompt": "哪幅图与外面的圆更贴近？",
+        "rightNote": "直边更多，空隙更小，近似得更好。",
+        "wrongNote": "六条边的空隙还比较大，再比较另一幅。",
         "sourceIds": [
           "CAS-ZUCHONGZHI-PI",
           "CAS-PI-HISTORY-2005"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清问题，看看图里的线索。"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "同样的圆，哪幅更贴近",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "直边更多，空隙更小，近似得更好。",
+          "retry": "六条边的空隙还比较大，再比较另一幅。",
+          "nextLabel": "看看方法怎样被接下去",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "把新结果留下来",
-          "screenText": "祖冲之得到更精确的结果。后人通过文献了解这项成就，不能把示意图当成他的原稿。",
-          "displayText": "祖冲之得到更精确的结果。后人通过文献了解这项成就，不能把示意图当成他的原稿。",
-          "narration": "祖冲之得到更精确的结果。后人通过文献了解这项成就，不能把示意图当成他的原稿。"
+          "title": "同样的圆，哪幅更贴近",
+          "screenText": "小伙伴拿出两幅学习图，外面的圆一样大。一幅有六条直边，另一幅有二十四条。哪幅直边与圆之间留下的空隙更小？",
+          "displayText": "小伙伴拿出两幅学习图，外面的圆一样大。一幅有六条直边，另一幅有二十四条。哪幅直边与圆之间留下的空隙更小？",
+          "narration": "小伙伴拿出两幅学习图，外面的圆一样大。一幅有六条直边，另一幅有二十四条。哪幅直边与圆之间留下的空隙更小？"
         },
-        "assetId": "study-30a7b406d8f5b9d9",
-        "image": "/content/study-scenes/study-30a7b406d8f5b9d9.svg",
-        "studyImage": "/content/study-scenes/study-30a7b406d8f5b9d9.svg",
-        "studyImageAlt": "祖冲之，后世文献，今天学习图",
-        "imageAlt": "祖冲之，后世文献，今天学习图",
-        "imageCaption": "学习示意 · 祖冲之，后世文献，今天学习图",
-        "imageBoundary": "自制学习示意。图形是数学学习示意，不声称完整复原祖冲之已散佚的计算过程。人物不是当时肖像。",
+        "assetId": "jin-circle-study-v1",
+        "image": "/content/step-images/jin-circle-study-v1.jpg",
+        "studyImage": "/content/study-scenes/study-fd95e0fd4cd85b40.svg",
+        "studyImageAlt": "六条直边，二十四条直边",
+        "imageAlt": "今天学习古代数学方法的故事插画",
+        "imageCaption": "今天学习古代数学方法的故事插画",
+        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-circle-study-v1-prompt.txt。",
         "audio": {
+          "lead": {
+            "id": "quest-b3e22876028d8ead",
+            "text": "两个圆一样大，哪幅直边图形更贴近圆周？"
+          },
           "transition": {
-            "id": "quest-d2b04e2577aa7d28",
-            "text": "把新结果留下来。"
+            "id": "quest-e57eb86320f91d13",
+            "text": "同样的圆，哪幅更贴近。"
           },
           "intro": {
-            "id": "quest-36dc1b186363fade",
-            "text": "祖冲之得到更精确的结果。后人通过文献了解这项成就，不能把示意图当成他的原稿。"
+            "id": "quest-ae4211a8c493b80f",
+            "text": "小伙伴拿出两幅学习图，外面的圆一样大。一幅有六条直边，另一幅有二十四条。哪幅直边与圆之间留下的空隙更小？"
           },
           "question": {
-            "id": "quest-b34b11d79db6a949",
-            "text": "后人怎样核对这项成果？"
+            "id": "quest-38fc560490870481",
+            "text": "哪幅图与外面的圆更贴近？"
           },
           "image": {
-            "id": "quest-7c3adc69ea0aecb0",
-            "text": "这是学习示意图：祖冲之，后世文献，今天学习图。后人怎样核对这项成果？"
+            "id": "quest-7eb6678c0cc64d5a",
+            "text": "这张是今天学习古代数学方法的故事插画。小伙伴拿出两幅学习图，外面的圆一样大。一幅有六条直边，另一幅有二十四条。哪幅直边与圆之间留下的空隙更小？"
           },
           "right": {
-            "id": "quest-8b21c6ef375c9cb1",
-            "text": "找到了。今天的圆帮助理解，历史成果要靠文献核对。"
+            "id": "quest-b93a5e20414fad36",
+            "text": "直边更多，空隙更小，近似得更好。"
           },
           "wrong": {
-            "id": "quest-b7dcb9364152f365",
-            "text": "再比较一下。今天的圆帮助理解，历史成果要靠文献核对。"
+            "id": "quest-db8b28f583b35ff0",
+            "text": "六条边的空隙还比较大，再比较另一幅。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-05-04-science-art-change-1",
-            "label": "看记载成果的文献",
+            "label": "24条直边的图形",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-8be31b239ac9e223.svg",
-            "imageAlt": "历史文献",
+            "objectView": {
+              "kind": "circle-model",
+              "sides": 24
+            },
+            "image": "/content/study-scenes/study-7a80c9e66c654313.svg",
+            "imageAlt": "24条直边",
             "audio": {
-              "id": "quest-258bfb846e4bf13d",
-              "text": "看记载成果的文献"
+              "id": "quest-a4ffddf2a41dc740",
+              "text": "24条直边的图形"
             }
           },
           {
             "id": "cn-ancient-05-04-science-art-change-2",
-            "label": "只看今天画的圆",
+            "label": "6条直边的图形",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-0028ddbc3679f0cb.svg",
-            "imageAlt": "今天画的圆",
+            "objectView": {
+              "kind": "circle-model",
+              "sides": 6
+            },
+            "image": "/content/study-scenes/study-f7c13b2cfea19b96.svg",
+            "imageAlt": "6条直边",
             "audio": {
-              "id": "quest-cbbf628bf3fc70a1",
-              "text": "只看今天画的圆"
+              "id": "quest-ef01fb2ff971e9a2",
+              "text": "6条直边的图形"
             }
           }
         ]
@@ -601,85 +818,77 @@
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "谁把办法接下去",
-        "title": "谁把办法接下去",
-        "prompt": "哪张图讲清这种接续？",
-        "rightNote": "数学可以接过前人的方法，再继续改进。",
-        "wrongNote": "数学可以接过前人的方法，再继续改进。",
+        "phase": "接过方法，再继续探索",
+        "title": "接过方法，再继续探索",
+        "prompt": "接过方法，再继续探索",
+        "rightNote": "学习前人的方法，再认真比较、继续推进。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
           "CAS-ZUCHONGZHI-PI",
           "CAS-PI-HISTORY-2005"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听清问题，看看图里的线索。",
+          "continueLabel": "把数学的发现带回家"
+        },
+        "narrative": {
+          "scene": "reunion",
+          "caption": "接过方法，再继续探索",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "学习前人的方法，再认真比较、继续推进。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "把数学的发现带回家",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 5,
-          "title": "谁把办法接下去",
-          "screenText": "前人留下方法，后来的人比较、计算、再推进。孩子不用记很长的小数。",
-          "displayText": "前人留下方法，后来的人比较、计算、再推进。孩子不用记很长的小数。",
-          "narration": "前人留下方法，后来的人比较、计算、再推进。孩子不用记很长的小数。"
+          "title": "接过方法，再继续探索",
+          "screenText": "祖冲之没有从零开始发明圆周率。他接续已有研究，把结果推进得更精确。今天我们也看前人留下的书，再用模型理解；这几步操作并不是他全部的计算。",
+          "displayText": "接过前人的方法，继续探索。\n学习模型，不冒充古人原稿。",
+          "narration": "祖冲之没有从零开始发明圆周率。他接续已有研究，把结果推进得更精确。今天我们也看前人留下的书，再用模型理解；这几步操作并不是他全部的计算。"
         },
-        "assetId": "study-32a774275a6d7557",
-        "image": "/content/study-scenes/study-32a774275a6d7557.svg",
-        "studyImage": "/content/study-scenes/study-32a774275a6d7557.svg",
-        "studyImageAlt": "前人方法，继续探索",
-        "imageAlt": "前人方法，继续探索",
-        "imageCaption": "学习示意 · 前人方法，继续探索",
-        "imageBoundary": "自制学习示意。图形是数学学习示意，不声称完整复原祖冲之已散佚的计算过程。人物不是当时肖像。",
+        "assetId": "study-417df9b634db3ea0",
+        "image": "/content/study-scenes/study-417df9b634db3ea0.svg",
+        "studyImage": "/content/study-scenes/study-417df9b634db3ea0.svg",
+        "studyImageAlt": "保存方法，继续探索",
+        "imageAlt": "保存方法，继续探索",
+        "imageCaption": "学习示意 · 保存方法，继续探索",
+        "imageBoundary": "自制学习示意。书影是1936年后世印本，不是刘徽或祖冲之手稿，条码是现代馆藏管理标记。图中人物为今天的教学角色，书房陈设不当作南朝遗物。学具演示内接多边形的直觉，祖冲之具体算法已散佚，不声称按几次按钮就得到他的精度，不要求孩子背小数。",
         "audio": {
+          "lead": {
+            "id": "quest-c0c3b9f14d55ae56",
+            "text": "今天只体验思路。祖冲之接续前人研究，真正的计算复杂得多。"
+          },
           "transition": {
-            "id": "quest-55a75a311ed7ae98",
-            "text": "谁把办法接下去。"
+            "id": "quest-e581659a1ae0d988",
+            "text": "接过方法，再继续探索。"
           },
           "intro": {
-            "id": "quest-7d79ac030477fb35",
-            "text": "前人留下方法，后来的人比较、计算、再推进。孩子不用记很长的小数。"
+            "id": "quest-2a019742162e7cd6",
+            "text": "祖冲之没有从零开始发明圆周率。他接续已有研究，把结果推进得更精确。今天我们也看前人留下的书，再用模型理解；这几步操作并不是他全部的计算。"
           },
           "question": {
-            "id": "quest-73450be428ee34ac",
-            "text": "哪张图讲清这种接续？"
+            "id": "quest-c6e0a01cc935d9ef",
+            "text": "接过方法，再继续探索"
           },
           "image": {
-            "id": "quest-42fa7e8fa08f3bd4",
-            "text": "这是学习示意图：前人方法，继续探索。哪张图讲清这种接续？"
+            "id": "quest-30476fc61f82206d",
+            "text": "这是学习示意图：保存方法，继续探索。接过方法，再继续探索"
           },
           "right": {
-            "id": "quest-3f4e4c8d8783671d",
-            "text": "找到了。数学可以接过前人的方法，再继续改进。"
+            "id": "quest-7fbb1737f07cdb78",
+            "text": "学习前人的方法，再认真比较、继续推进。"
           },
           "wrong": {
-            "id": "quest-cb36fd2094fc641e",
-            "text": "再比较一下。数学可以接过前人的方法，再继续改进。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-05-04-science-art-takeaway-1",
-            "label": "旧方法 → 新探索",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-89290c9294481c85.svg",
-            "imageAlt": "接过方法，推进结果",
-            "audio": {
-              "id": "quest-648de49a84e14681",
-              "text": "旧方法 → 新探索"
-            }
-          },
-          {
-            "id": "cn-ancient-05-04-science-art-takeaway-2",
-            "label": "每个人都从零开始",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-a8c33d3bda3b7a7e.svg",
-            "imageAlt": "不看前人，独自开始",
-            "audio": {
-              "id": "quest-bf340a7629a467f9",
-              "text": "每个人都从零开始"
-            }
-          }
-        ]
+        "options": []
       }
     ],
     "extensionTasks": [
@@ -1002,6 +1211,16 @@
       "imageUse": "reference-only"
     },
     {
+      "id": "NLC-NINE-CHAPTERS-1936",
+      "title": "《九章算术》1936年商务印书馆印本，国家图书馆藏扫描",
+      "institution": "国家图书馆馆藏；商务印书馆；开放扫描文件页承载书目与许可",
+      "url": "https://commons.wikimedia.org/wiki/File:NLC416-06jh008176-16580_%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93.pdf",
+      "type": "library-document-scan-metadata",
+      "authorityLevel": "document-edition-metadata",
+      "factUse": "1936年印本的版次、题名、刘徽注与李淳风注释的责任说明；数学史结论另据中科院。不是263年原书或祖冲之手稿。",
+      "imageUse": "public-domain-scan"
+    },
+    {
       "id": "PEP-CHINESE-CLASSICS-RESOURCE",
       "title": "中华经典资源库·中华经典诗文精讲",
       "institution": "人民教育出版社（教育部语用司重大项目成果）",
@@ -1014,197 +1233,119 @@
   ],
   "assets": [
     {
-      "id": "study-b3e45d7de0abf5ae",
-      "title": "学习示意：263年 刘徽、五世纪 祖冲之",
-      "localPath": "reference-assets/focused-quests/study-b3e45d7de0abf5ae.svg",
+      "id": "study-87c3f38235c7b604",
+      "title": "学习示意：唐朝 7世纪起",
+      "localPath": "reference-assets/focused-quests/study-87c3f38235c7b604.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "263年 刘徽 → 五世纪 祖冲之",
+      "caption": "唐朝 7世纪起",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-982bb25a607aa377",
-      "title": "学习示意：刘徽、祖冲之",
-      "localPath": "reference-assets/focused-quests/study-982bb25a607aa377.svg",
+      "id": "study-3b74b77b85e5eb20",
+      "title": "学习示意：后世印本、南朝祖冲之",
+      "localPath": "reference-assets/focused-quests/study-3b74b77b85e5eb20.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "刘徽 → 祖冲之",
+      "caption": "后世印本 → 南朝祖冲之",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-e47e982a1aeeaba8",
-      "title": "学习示意：祖冲之、刘徽",
-      "localPath": "reference-assets/focused-quests/study-e47e982a1aeeaba8.svg",
+      "id": "study-5eba77508bc705f3",
+      "title": "学习示意：南朝 5世纪",
+      "localPath": "reference-assets/focused-quests/study-5eba77508bc705f3.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "祖冲之 → 刘徽",
+      "caption": "南朝 5世纪",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-7d38e70c934b7ebf",
-      "title": "学习示意：六条直边、弯曲圆周",
-      "localPath": "reference-assets/focused-quests/study-7d38e70c934b7ebf.svg",
+      "id": "study-734bec6ef4db96fe",
+      "title": "学习示意：研究圆、直边逼近、方法接续",
+      "localPath": "reference-assets/focused-quests/study-734bec6ef4db96fe.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "六条直边 → 弯曲圆周",
+      "caption": "研究圆 → 直边逼近 → 方法接续",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-b7b80037be9ded47",
-      "title": "学习示意：六边形",
-      "localPath": "reference-assets/focused-quests/study-b7b80037be9ded47.svg",
+      "id": "study-c1a481f5da23dcfa",
+      "title": "学习示意：先看六边形、再把边分细",
+      "localPath": "reference-assets/focused-quests/study-c1a481f5da23dcfa.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "六边形",
+      "caption": "先看六边形 → 再把边分细",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-69cf5170eff0741a",
-      "title": "学习示意：圆",
-      "localPath": "reference-assets/focused-quests/study-69cf5170eff0741a.svg",
+      "id": "study-7a80c9e66c654313",
+      "title": "学习示意：24条直边",
+      "localPath": "reference-assets/focused-quests/study-7a80c9e66c654313.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "圆",
+      "caption": "24条直边",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-32d31f5e094b507a",
-      "title": "学习示意：同一个圆里的两种图形",
-      "localPath": "reference-assets/focused-quests/study-32d31f5e094b507a.svg",
+      "id": "study-f7c13b2cfea19b96",
+      "title": "学习示意：6条直边",
+      "localPath": "reference-assets/focused-quests/study-f7c13b2cfea19b96.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "同一个圆里的两种图形",
+      "caption": "6条直边",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-0dcc4237e67574c0",
-      "title": "学习示意：十二条边",
-      "localPath": "reference-assets/focused-quests/study-0dcc4237e67574c0.svg",
+      "id": "study-fd95e0fd4cd85b40",
+      "title": "学习示意：六条直边、二十四条直边",
+      "localPath": "reference-assets/focused-quests/study-fd95e0fd4cd85b40.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "十二条边",
+      "caption": "六条直边 → 二十四条直边",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-47564b2ce62855f6",
-      "title": "学习示意：六条边",
-      "localPath": "reference-assets/focused-quests/study-47564b2ce62855f6.svg",
+      "id": "study-417df9b634db3ea0",
+      "title": "学习示意：保存方法、继续探索",
+      "localPath": "reference-assets/focused-quests/study-417df9b634db3ea0.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "六条边",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-30a7b406d8f5b9d9",
-      "title": "学习示意：祖冲之、后世文献、今天学习图",
-      "localPath": "reference-assets/focused-quests/study-30a7b406d8f5b9d9.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "祖冲之 → 后世文献 → 今天学习图",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-8be31b239ac9e223",
-      "title": "学习示意：历史文献",
-      "localPath": "reference-assets/focused-quests/study-8be31b239ac9e223.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "历史文献",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-0028ddbc3679f0cb",
-      "title": "学习示意：今天画的圆",
-      "localPath": "reference-assets/focused-quests/study-0028ddbc3679f0cb.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "今天画的圆",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-32a774275a6d7557",
-      "title": "学习示意：前人方法、继续探索",
-      "localPath": "reference-assets/focused-quests/study-32a774275a6d7557.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "前人方法 → 继续探索",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-89290c9294481c85",
-      "title": "学习示意：接过方法、推进结果",
-      "localPath": "reference-assets/focused-quests/study-89290c9294481c85.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "接过方法 → 推进结果",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-a8c33d3bda3b7a7e",
-      "title": "学习示意：不看前人、独自开始",
-      "localPath": "reference-assets/focused-quests/study-a8c33d3bda3b7a7e.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "不看前人 → 独自开始",
+      "caption": "保存方法 → 继续探索",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1244,7 +1385,46 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "自制儿童方法图：学习前人的方法，把圆分得更细，再一步步计算和检查。",
-      "boundary": "2026-08-12为低龄玩法自制。人物不是祖冲之肖像，木简与算筹不是某件传世原物，几何步骤是帮助理解“接续方法并提高精度”的概念图，不代替完整数学证明。",
+      "boundary": "2026-08-12为低龄玩法自制。人物不是祖冲之肖像，木简与算筹不是某件传世原物，几何步骤是帮助理解“接续方法并提高精度”的概念图，不代替完整数学证明。 2026-09-19由新故事图与精确学习图替换；旧图保留供编辑参考。",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "nine-chapters-1936-title",
+      "title": "《九章算术》1936年印本题名页书影",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/nine-chapters-1936-title.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NLC416-06jh008176-16580_%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93.pdf",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0 / PD-scan (PD-China)",
+      "clearance": "cleared-open-license",
+      "caption": "1936年印本书影｜比刘徽、祖冲之晚很多｜不是本人手稿。",
+      "boundary": "从已核验开放PDF第3页直接渲染，未重画或修字，原PDF与前四页保留。书页可见刘徽注与李淳风注释；条码属于后来图书馆管理，不是古代符号。本轮只展示公版古籍内容与责任说明，不引用现代新增序言。祖冲之具体计算过程已散佚，不能将此页写成其算法手稿。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "jin-circle-study-v1",
+      "title": "今天学习古代数学方法的故事插画",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-circle-study-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "今天学习古代数学方法的故事插画；非历史现场复原。",
+      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-circle-study-v1-prompt.txt。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "jin-travel-journal-reunion-v1",
+      "title": "三位小伙伴回看本段历史的聚会插画",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-travel-journal-reunion-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
+      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
       "childVisibility": "child-ok"
     }
   ],

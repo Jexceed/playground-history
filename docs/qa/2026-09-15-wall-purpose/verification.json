@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-15",
+  "request": "补齐长城抵御外敌的用途，避免整章只讲修墙",
+  "chapterId": "cn-ancient-04-05-qin-great-wall",
+  "url": "http://127.0.0.1:4173/",
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "source": "本轮实际浏览器内容区域测量",
+    "additionalDeviceSizes": []
+  },
+  "checks": {
+    "checkLocal": {
+      "exitCode": 0,
+      "tests": 24,
+      "passed": 24
+    },
+    "voiceUpdate": {
+      "exitCode": 0,
+      "generated": 26,
+      "total": 3009
+    },
+    "otherChapterDraftsChanged": [],
+    "otherChapterDraftsCompared": 33,
+    "allVoiceSourceManifestFileIssues": [],
+    "gitDiffCheck": {
+      "exitCode": 0
+    },
+    "qaLinksMissing": []
+  },
+  "browser": {
+    "openingPurposeVisible": true,
+    "timeQuestionWrongRetry": true,
+    "readingSingleContinue": true,
+    "pauseResumeReplay": true,
+    "wallDragThenGuardTransition": true,
+    "guardSceneVisible": true,
+    "readingButtonBottoms": [
+      549.8671875,
+      549.8671875,
+      549.8671875
+    ],
+    "readingHorizontalOverflow": false,
+    "finishPurposeVisible": true,
+    "familyActionsExpanded": true,
+    "replayReturnsToCover": true,
+    "finalCoverTitle": "长城为什么要修？"
+  },
+  "observedReadingNarrations": [
+    {
+      "id": "quest-6bff950cc1658a90",
+      "text": "“长城长”，小伙伴望着山边的旧墙。秦朝把更早的墙段连接、修补起来，抵御来自北方的进攻。高墙让来进攻的人更难通过，边地也更容易守卫。",
+      "durationSeconds": 15.768
+    },
+    {
+      "id": "quest-f69942763992db2b",
+      "text": "墙不会自己发现远处的动静。看，关口有人看守，决定能不能通行；高处的守卫观察远方，发现敌情就传递消息。城墙和人配合，才能更好地抵御进攻。",
+      "durationSeconds": 16.824
+    },
+    {
+      "id": "quest-3f0ad7dcf9aa5bb8",
+      "text": "三位伙伴明白了：秦朝修长城，是为了抵御外来进攻、守卫边地。墙要有人修，也要有人守。后来的人继续修筑，才留下不同时代的长城。",
+      "durationSeconds": 15.384
+    }
+  ],
+  "imageGeneration": {
+    "mode": "built-in imagegen",
+    "generationCalls": 1,
+    "targetedCorrectionCalls": 1,
+    "correction": "修正高处守卫的多余手臂",
+    "savedSource": "reference-assets/qin-han/qin-wall-guard-story-v1.png",
+    "savedRuntime": "public/content/step-images/qin-wall-guard-story-v1.jpg",
+    "referencePreserved": "reference-assets/qin-han/qin-wall-teamwork-story-v1.png"
+  },
+  "notPerformed": [
+    "真实儿童独立试玩",
+    "人工逐段校听",
+    "其他设备尺寸检查"
+  ],
+  "contentVersion": "0.68.0",
+  "commit": false,
+  "deployment": false
+}

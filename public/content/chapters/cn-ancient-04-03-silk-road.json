@@ -15,17 +15,17 @@
   "throughline": "从张骞通西域、路线、出土物与往来记录认识陆上丝绸之路的开辟和中外文明交流。",
   "childEntry": {
     "id": "cn-ancient-04-03-silk-road",
-    "childTitle": "给张骞的远行备一袋粮",
-    "prompt": "去很远的地方，只知道方向就够了吗？",
-    "takeaway": "张骞的出使增进了了解；更长久的往来还靠许多人、补给地点和多条道路。",
+    "childTitle": "张骞出使，带回了什么？",
+    "prompt": "远行不只要带水粮。张骞带回的见闻，怎样让汉朝与西域更了解彼此？",
+    "takeaway": "张骞出使西域，带回见闻、推动联系。后来使者、商旅继续往来，驿站帮助接待和传递消息。丝绸之路是许多路连成的网络。",
     "object": "路线图、简牍和沿线出土物",
     "people": [
       "张骞",
-      "沿途接待者"
+      "后来往来的使者"
     ],
     "place": "长安、河西走廊、敦煌与中亚",
     "culture": "王维《送元二使安西》可作唐代送别与阳关地点延伸，不作汉代路线证据",
-    "care": "旅途图是补给原理示意，不复原张骞某一次行程，也不把悬泉置直接指定为首次出使的每个停点。",
+    "care": "小伙伴、驿站人物和回信情境为教学虚构，不是张骞本人行程实录。第一次出使在前138年；玉门关属于其后设立的关防，不能让张骞首次出使途经此关。悬泉置材料用于认识后来的驿站制度，不指定张骞在那里休息。封检不是粮食或马匹总账，更不是张骞日记；不能逐件臆造收发人。驿站按制度接待公务人员、使者等，不等于每个商人均免费入住。图中的木简、马匹和服饰是故事示意，不是具体遗址复原。",
     "playableSource": "content/focused-quests.json"
   },
   "textbookConnection": {
@@ -33,9 +33,9 @@
     "featured": {
       "type": "人物",
       "icon": "🐫",
-      "title": "张骞与沿途接待者",
-      "childBridge": "去很远的地方，只知道方向就够了吗？",
-      "evidenceBoundary": "旅途图是补给原理示意，不复原张骞某一次行程，也不把悬泉置直接指定为首次出使的每个停点。"
+      "title": "张骞与后来往来的使者",
+      "childBridge": "远行不只要带水粮。张骞带回的见闻，怎样让汉朝与西域更了解彼此？",
+      "evidenceBoundary": "小伙伴、驿站人物和回信情境为教学虚构，不是张骞本人行程实录。"
     },
     "companions": [
       {
@@ -54,42 +54,52 @@
       "UNESCO-CHANGAN-TIANSHAN",
       "HKEDB-WANGWEI-SONG-YUANER",
       "NMC-SILK-ROAD-EXHIBITION",
-      "NEAC-XUANQUAN-POST"
+      "NEAC-XUANQUAN-POST",
+      "GANSU-XUANQUAN-SLIPS",
+      "NMC-ZHANG-QIAN-MISSIONS",
+      "DHA-HEXI-GATES-CHRONOLOGY"
     ]
   },
   "childStory": [
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "张骞出发的时间",
-      "text": "前138年，汉武帝派张骞出使西域。更早已有不同地区的人走在这些道路上。"
+      "label": "从关口回望张骞出使",
+      "text": "照片是后来汉代的玉门关。张骞首次出使时，这座关还没设立。前138年，汉武帝派他向西去。我们先回到这次出使，听听他带回什么。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "远行袋里放什么",
-      "text": "先陪旅行者做准备。路上要走很多天，水和食物需要补充。"
+      "label": "没结成联盟，也带回见闻",
+      "text": "汉武帝派张骞出使，想联合大月氏，一起对抗匈奴。这次没结成联盟，张骞却带回了西域的道路、物产等见闻。后来，汉朝和西域的使者来往更多了。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "在驿置歇一歇",
-      "text": "汉代悬泉置留下简牍，记录接待、粮食和马匹。它帮助我们了解旅途中的补给。"
+      "label": "把见闻说清楚",
+      "text": "小伙伴听完张骞的故事，来到后来的汉代驿站。远行人想让家乡知道沿途见闻。吃饱饭很重要，要把见闻留下来，还得做什么？"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "路不是一根线",
-      "text": "丝路是许多路线连成的网络。来往者有人走这一段，有人接着走另一段。"
+      "label": "来往背后，有人接力",
+      "text": "张骞之后，使者和商旅继续来往。驿站接待按规定通行的人，也传递文书。小伙伴看见有人备食物，有人整理文书。两件事都让往来能继续。"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "给远行人送别",
-      "text": "唐代王维写过“西出阳关无故人”。这句诗能让我们想一想远行的心情，却不是张骞的日记。"
+      "label": "让回信继续走",
+      "text": "一位使者带着回信到了驿站。消息也要往回走，让远方知道答复。小伙伴已经会找帮手了，这次先请谁处理回信？"
     }
   ],
   "glossary": [
+    {
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
     {
       "term": "证据",
       "icon": "🔎",
@@ -98,17 +108,17 @@
       "priority": 1
     },
     {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
       "term": "交流",
       "icon": "↔️",
       "plain": "不同的人把物品、知识或做法带给彼此。",
       "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
-      "priority": 1
-    },
-    {
-      "term": "遗址",
-      "icon": "🏚️",
-      "plain": "过去的人生活或活动后留下的地方。",
-      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
       "priority": 1
     },
     {
@@ -161,6 +171,25 @@
       "note": "河西走廊重要地点。"
     },
     {
+      "text": "悬泉置",
+      "reading": "Xuánquánzhì",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-04-03-silk-road"
+      ],
+      "note": "“置”读zhì；汉代驿站名，连续读作“悬—泉—置”。"
+    },
+    {
+      "text": "玉门关",
+      "reading": "Yùménguān",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall",
+        "cn-ancient-04-03-silk-road"
+      ],
+      "note": "西北关隘名，连续读作“玉—门—关”。"
+    },
+    {
       "text": "长安",
       "reading": "Cháng’ān",
       "kind": "place",
@@ -173,6 +202,25 @@
         "cross-03-cultural-exchange"
       ],
       "note": "“长”在地名中读cháng。"
+    },
+    {
+      "text": "大月氏",
+      "reading": "dà yuè zhī",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-04-03-silk-road"
+      ],
+      "note": "完整国名的氏读zhī；字音参考 https://dict.revised.moe.edu.tw/dictView.jsp?ID=41935&la=0&powerMode=0 ，仍待人工校听。",
+      "synthesisText": "大月支"
+    },
+    {
+      "text": "封检",
+      "reading": "fēng jiǎn",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-04-03-silk-road"
+      ],
+      "note": "封缄文书的木质器物名称；不读成封建。"
     }
   ],
   "gameplay": {
@@ -182,13 +230,27 @@
     "hook": {
       "kind": "具体任务",
       "icon": "🔎",
-      "label": "给张骞的远行备一袋粮",
-      "question": "去很远的地方，只知道方向就够了吗？"
+      "label": "张骞出使，带回了什么？",
+      "question": "远行不只要带水粮。张骞带回的见闻，怎样让汉朝与西域更了解彼此？"
     },
-    "cta": "帮远行人备粮",
-    "anchor": "张骞与沿途接待者",
-    "boundary": "旅途图是补给原理示意，不复原张骞某一次行程，也不把悬泉置直接指定为首次出使的每个停点。",
+    "cta": "去听张骞和丝路的故事",
+    "anchor": "张骞与后来往来的使者",
+    "boundary": "小伙伴、驿站人物和回信情境为教学虚构，不是张骞本人行程实录。第一次出使在前138年；玉门关属于其后设立的关防，不能让张骞首次出使途经此关。悬泉置材料用于认识后来的驿站制度，不指定张骞在那里休息。封检不是粮食或马匹总账，更不是张骞日记；不能逐件臆造收发人。驿站按制度接待公务人员、使者等，不等于每个商人均免费入住。图中的木简、马匹和服饰是故事示意，不是具体遗址复原。",
     "evidence": [
+      {
+        "id": "qin-han-yumen-pass",
+        "title": "玉门关遗址现状照片",
+        "localPath": "reference-assets/qin-han/yumen-pass.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E7%8E%89%E9%97%A8%E5%85%B3_%E9%81%97%E5%9D%80_-_panoramio.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY 3.0",
+        "clearance": "cleared-open-license",
+        "caption": "今天的玉门关遗址和周围戈壁景观。",
+        "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-han-yumen-pass.jpg"
+      },
       {
         "id": "qin-han-xuanquan-seal-tag",
         "title": "悬泉置封检实物照片",
@@ -204,6 +266,80 @@
         "image": "/content/step-images/qin-han-xuanquan-seal-tag.jpg"
       }
     ],
+    "photoAlbum": {
+      "id": "silk-road-evidence",
+      "title": "关口与文书的线索",
+      "label": "翻翻丝路真材料",
+      "photos": [
+        {
+          "assetId": "qin-han-yumen-pass",
+          "title": "玉门关 · 后来的汉代关口",
+          "label": "后来的关口",
+          "period": "汉代关防 · 张骞首次出使之后",
+          "observation": "看看关口周围的戈壁与通行空间。",
+          "narration": "这是今天的玉门关遗址。它设立在张骞首次出使之后，是后来汉朝与西域来往的关口之一，不是张骞首次出发的地方。",
+          "sourceIds": [
+            "DHA-HEXI-GATES-CHRONOLOGY",
+            "UNESCO-CHANGAN-TIANSHAN"
+          ],
+          "sourceLinks": [
+            {
+              "title": "敦煌研究院，樊锦诗：挖掘敦煌文化遗产中蕴含的中华文明精神标识",
+              "url": "https://www.dha.ac.cn/info/1018/5661.htm"
+            },
+            {
+              "title": "UNESCO World Heritage Centre：Silk Roads: the Routes Network of Chang'an-Tianshan Corridor",
+              "url": "https://whc.unesco.org/en/list/1442/"
+            },
+            {
+              "title": "摄影 guan · 原文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:%E7%8E%89%E9%97%A8%E5%85%B3_%E9%81%97%E5%9D%80_-_panoramio.jpg"
+            }
+          ],
+          "boundary": "不是前138年的现场，也不等于整条丝路。 照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
+          "caption": "汉代遗址今景 · 晚于张骞首次出使",
+          "thumbnailPosition": "50% 83%",
+          "image": "/content/step-images/qin-han-yumen-pass.jpg",
+          "audio": {
+            "id": "quest-6b4da114390b5b99",
+            "text": "这是今天的玉门关遗址。它设立在张骞首次出使之后，是后来汉朝与西域来往的关口之一，不是张骞首次出发的地方。"
+          }
+        },
+        {
+          "assetId": "qin-han-xuanquan-seal-tag",
+          "title": "悬泉置封检 · 文书的线索",
+          "label": "文书木牌",
+          "period": "汉代 · 悬泉置出土",
+          "observation": "看看木牌上的文字痕迹与凹槽。",
+          "narration": "这是悬泉置出土的封检，用来封缄和标记文书。木牌上的字给研究人员留下了线索，不是张骞的日记。",
+          "sourceIds": [
+            "NEAC-XUANQUAN-POST",
+            "GANSU-XUANQUAN-SLIPS"
+          ],
+          "sourceLinks": [
+            {
+              "title": "国家民族事务委员会：悬泉置：汉代丝绸之路驿站考古资料",
+              "url": "https://www.neac.gov.cn/seac/c103391/202302/1161310.shtml"
+            },
+            {
+              "title": "甘肃省文化和旅游厅：悬泉置遗址和汉简资料",
+              "url": "https://www.gswbj.gov.cn/a/2022/10/14/15341.html"
+            },
+            {
+              "title": "摄影 三猎 · 原文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:%E6%82%AC%E6%B3%89%E7%BD%AE%E5%B0%81%E6%A3%80.jpg"
+            }
+          ],
+          "boundary": "不要求儿童辨字，不编造这件文书的具体行程或收发人。 照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。下载为1920像素等比例缩略图，未作其他修改。",
+          "caption": "真实木质文物 · 汉代驿站",
+          "image": "/content/step-images/qin-han-xuanquan-seal-tag.jpg",
+          "audio": {
+            "id": "quest-753dc2ec0a479f32",
+            "text": "这是悬泉置出土的封检，用来封缄和标记文书。木牌上的字给研究人员留下了线索，不是张骞的日记。"
+          }
+        }
+      ]
+    },
     "coverAsset": {
       "id": "qin-han-yumen-pass",
       "title": "玉门关遗址现状照片",
@@ -214,49 +350,153 @@
       "license": "CC BY 3.0",
       "clearance": "cleared-open-license",
       "caption": "今天的玉门关遗址和周围戈壁景观。",
-      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。页面只把关隘作为交通网络节点。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/qin-han-yumen-pass.jpg"
     },
-    "presentation": null,
-    "sceneAsset": null,
-    "narrativeAssets": [],
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "silk-post-messages-v2",
+      "sceneAlt": "小伙伴在后来的汉代驿站观察记录文书与准备食物，现代故事插画",
+      "title": "张骞出使，带回了什么？",
+      "evidenceTitle": "关口与文书留下的线索",
+      "evidenceLine": "玉门关与封检帮助认识后来的往来，不能当张骞第一次出使的现场。",
+      "evidenceNarration": "这是今天的玉门关遗址。它设立在张骞首次出使之后，是后来汉朝与西域来往的关口之一，不是张骞首次出发的地方。",
+      "guide": "点你选的东西。小喇叭可以听名字。",
+      "alignHint": "拖动粮袋，驮到骆驼背上。",
+      "familyHint": "互相传一句见闻和一句回信。",
+      "familyLabel": "和家人传一次见闻与回信",
+      "nextLabel": "接着找线索",
+      "lastLabel": "把发现带回家",
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "silk-post-friends-reunion-v1",
+        "reunionAlt": "戴圆框眼镜、留齐刘海的绿衣男孩与黄衣男孩、马尾女孩在驿站外为远行人送行，现代故事插画",
+        "coverCaption": "从张骞带回的见闻，走向后来的往来",
+        "coverNarration": "张骞出使西域，带回了远方见闻。小小旅行团想知道：人和消息怎样继续来往？一起找找线索。",
+        "stationLine": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。",
+        "stationNarration": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。",
+        "closingCaption": "出使带回见闻，后来往来增多",
+        "closingNarration": "张骞带回西域见闻，推动了联系。后来使者来来往往，驿站帮着接待和传文书，许多路连成了网。",
+        "closingLine": "张骞带回见闻，后来人们继续往来。",
+        "fictionNote": "张骞是历史人物；小伙伴、驿站角色及回信情境为教学虚构。玉门关和驿站说明与首次出使分开。",
+        "reunionImage": "/content/step-images/silk-post-friends-reunion-v1.jpg",
+        "stationAudio": {
+          "id": "quest-b549846014ecf911",
+          "text": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。"
+        },
+        "closingAudio": {
+          "id": "quest-fe9069d63c339d36",
+          "text": "张骞带回西域见闻，推动了联系。后来使者来来往往，驿站帮着接待和传文书，许多路连成了网。"
+        }
+      },
+      "sceneFraming": "story",
+      "sceneAspectRatio": 2.2,
+      "familyMode": "actions",
+      "sceneImage": "/content/step-images/silk-post-messages-v2.jpg",
+      "evidenceAudio": {
+        "id": "quest-6b4da114390b5b99",
+        "text": "这是今天的玉门关遗址。它设立在张骞首次出使之后，是后来汉朝与西域来往的关口之一，不是张骞首次出发的地方。"
+      },
+      "guideAudio": {
+        "id": "quest-911070a82d573a06",
+        "text": "点你选的东西。小喇叭可以听名字。"
+      }
+    },
+    "sceneAsset": {
+      "id": "silk-post-messages-v2",
+      "title": "汉代驿站文书与补给故事插画",
+      "localPath": "reference-assets/qin-han/silk-post-messages-v2.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "小伙伴观察驿站的文书整理和旅途补给。",
+      "boundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/silk-post-messages-v2-prompt.txt。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/silk-post-messages-v2.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "silk-post-friends-reunion-v1",
+        "title": "三位小伙伴在驿站外送行的故事插画",
+        "localPath": "reference-assets/qin-han/silk-post-friends-reunion-v1.png",
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "三位小伙伴与工匠在驿站外为远行人送行。",
+        "boundary": "现代虚构旅行故事插画，只承担角色叙事；角色外形按 docs/CHARACTERS.md。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/silk-post-friends-reunion-v1.jpg"
+      },
+      {
+        "id": "silk-post-messages-v2",
+        "title": "汉代驿站文书与补给故事插画",
+        "localPath": "reference-assets/qin-han/silk-post-messages-v2.png",
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "小伙伴观察驿站的文书整理和旅途补给。",
+        "boundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/silk-post-messages-v2-prompt.txt。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/silk-post-messages-v2.jpg"
+      },
+      {
+        "id": "silk-post-story-v1",
+        "title": "戈壁驿站备粮故事插画",
+        "localPath": "reference-assets/qin-han/silk-post-story-v1.png",
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "小伙伴和工匠在驿站院子里为远行人收拾行囊。",
+        "boundary": "现代故事插画，不是汉代驿站复原；张骞出使与驿站功能以登记史料为准。交互粮袋由共用组件绘制。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/silk-post-story-v1.jpg"
+      }
+    ],
     "coverImage": "/content/step-images/qin-han-yumen-pass.jpg",
     "coverImageAlt": "玉门关遗址现状照片",
     "coverImageKind": "历史材料",
     "coverAudio": {
-      "id": "quest-58e4fbaacfa7dfe2",
-      "text": "给张骞的远行备一袋粮。去很远的地方，只知道方向就够了吗？准备好就点“帮远行人备粮”。"
+      "id": "quest-34e23e6fdae90081",
+      "text": "张骞出使西域，带回了远方见闻。小小旅行团想知道：人和消息怎样继续来往？一起找找线索。"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-fc6cbb533019d912",
-      "text": "张骞的出使增进了了解；更长久的往来还靠许多人、补给地点和多条道路。"
+      "id": "quest-9e43716ea43bdae6",
+      "text": "张骞出使西域，带回见闻、推动联系。后来使者、商旅继续往来，驿站帮助接待和传递消息。丝绸之路是许多路连成的网络。"
     },
     "finish": {
-      "title": "送一位远行人出发",
+      "title": "见闻和回信，也在路上走！",
       "actions": [
-        "假装把水袋和粮袋递给家人。",
-        "问他：走到下一站，还需要谁帮忙？"
+        "请家人当远方的使者，说一句他看见的事，你来认真听。",
+        "把见闻转告另一位家人，再带一句回信；指出故事里谁帮着传文书。"
       ],
-      "parent": "可回答供水、备粮、照顾马匹、带路。提醒不是张骞一人修成丝路，不必背路线和地名。",
+      "parent": "问孩子：张骞最初为什么出使？没结成联盟，还带回了什么？接受“找盟友”“西域见闻”等短答。第二次出使与后来使者相互往来继续推动联系，不能说第一次任务本来就是旅游或卖丝绸。驿站场景讲张骞之后的往来；不臆定他首次途经玉门关、悬泉置。封检只支持文书线索，接待与粮食制度需结合其他汉简研究。王维《送元二使安西》是唐诗，可亲子读“西出阳关无故人”想想送别；阳关并非玉门关，也不是张骞日记。",
       "sceneStepIndexes": [
-        1,
-        2
+        2,
+        3
       ],
       "actionAudio": [
         {
-          "id": "quest-76acd870bb2bb2cc",
-          "text": "假装把水袋和粮袋递给家人。"
+          "id": "quest-eb4b1be115950f71",
+          "text": "请家人当远方的使者，说一句他看见的事，你来认真听。"
         },
         {
-          "id": "quest-3dabfb04d1c6cb06",
-          "text": "问他：走到下一站，还需要谁帮忙？"
+          "id": "quest-815f221e94553b8f",
+          "text": "把见闻转告另一位家人，再带一句回信；指出故事里谁帮着传文书。"
         }
       ],
       "introAudio": {
-        "id": "quest-95f9b44125d87700",
-        "text": "送一位远行人出发。假装把水袋和粮袋递给家人。问他：走到下一站，还需要谁帮忙？"
+        "id": "quest-fe9069d63c339d36",
+        "text": "张骞带回西域见闻，推动了联系。后来使者来来往往，驿站帮着接待和传文书，许多路连成了网。"
       }
     },
     "estimatedMinutes": 6,
@@ -269,58 +509,111 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "张骞出发的时间",
-        "title": "张骞出发的时间",
-        "prompt": "张骞出使放在哪里？",
-        "rightNote": "这次出使在汉朝。道路的往来比一个人的旅程更长久。",
-        "wrongNote": "这次出使在汉朝。道路的往来比一个人的旅程更长久。",
+        "phase": "从关口回望张骞出使",
+        "title": "从关口回望张骞出使",
+        "prompt": "张骞出使西域，是哪个朝代的事？",
+        "rightNote": "找到汉朝了！去听张骞的故事。",
+        "wrongNote": "唐朝更晚，张骞出使在汉朝。",
         "sourceIds": [
+          "NMC-ZHANG-QIAN-MISSIONS",
           "NMC-SILK-ROAD-EXHIBITION",
           "UNESCO-CHANGAN-TIANSHAN",
-          "NEAC-XUANQUAN-POST"
+          "NEAC-XUANQUAN-POST",
+          "DHA-HEXI-GATES-CHRONOLOGY"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "先找到汉朝这一站。"
+        },
+        "narrative": {
+          "scene": "artifact",
+          "caption": "关口比第一次出使晚",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "找到汉朝了！去听张骞的故事。",
+          "retry": "唐朝更晚，张骞出使在汉朝。",
+          "nextLabel": "张骞为什么向西走",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "qin-han-yumen-pass",
+          "title": "玉门关 · 后来的汉代关口",
+          "localPath": "reference-assets/qin-han/yumen-pass.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:%E7%8E%89%E9%97%A8%E5%85%B3_%E9%81%97%E5%9D%80_-_panoramio.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY 3.0",
+          "clearance": "cleared-open-license",
+          "caption": "汉代遗址今景 · 晚于张骞首次出使",
+          "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。 今天的玉门关遗址和周围戈壁景观。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/qin-han-yumen-pass.jpg",
+          "label": "翻翻关口和文书相册",
+          "placement": "main",
+          "framing": "panorama",
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "敦煌研究院，樊锦诗：挖掘敦煌文化遗产中蕴含的中华文明精神标识",
+              "url": "https://www.dha.ac.cn/info/1018/5661.htm"
+            },
+            {
+              "title": "UNESCO World Heritage Centre：Silk Roads: the Routes Network of Chang'an-Tianshan Corridor",
+              "url": "https://whc.unesco.org/en/list/1442/"
+            },
+            {
+              "title": "摄影 guan · 原文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:%E7%8E%89%E9%97%A8%E5%85%B3_%E9%81%97%E5%9D%80_-_panoramio.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-6b4da114390b5b99",
+            "text": "这是今天的玉门关遗址。它设立在张骞首次出使之后，是后来汉朝与西域来往的关口之一，不是张骞首次出发的地方。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "张骞出发的时间",
-          "screenText": "前138年，汉武帝派张骞出使西域。更早已有不同地区的人走在这些道路上。",
-          "displayText": "前138年，汉武帝派张骞出使西域。更早已有不同地区的人走在这些道路上。",
-          "narration": "前138年，汉武帝派张骞出使西域。更早已有不同地区的人走在这些道路上。"
+          "title": "从关口回望张骞出使",
+          "screenText": "照片是后来汉代的玉门关。张骞首次出使时，这座关还没设立。前138年，汉武帝派他向西去。我们先回到这次出使，听听他带回什么。",
+          "displayText": "照片是后来汉代的玉门关。张骞首次出使时，这座关还没设立。前138年，汉武帝派他向西去。我们先回到这次出使，听听他带回什么。",
+          "narration": "照片是后来汉代的玉门关。张骞首次出使时，这座关还没设立。前138年，汉武帝派他向西去。我们先回到这次出使，听听他带回什么。"
         },
-        "assetId": "study-af12815f5ba89226",
-        "image": "/content/study-scenes/study-af12815f5ba89226.svg",
-        "studyImage": "/content/study-scenes/study-af12815f5ba89226.svg",
-        "studyImageAlt": "秦 前221年，汉 前138年",
-        "imageAlt": "秦 前221年，汉 前138年",
-        "imageCaption": "学习示意 · 秦 前221年，汉 前138年",
-        "imageBoundary": "自制学习示意。旅途图是补给原理示意，不复原张骞某一次行程，也不把悬泉置直接指定为首次出使的每个停点。",
+        "assetId": "qin-han-yumen-pass",
+        "image": "/content/step-images/qin-han-yumen-pass.jpg",
+        "studyImage": "/content/study-scenes/study-d07e87329f037486.svg",
+        "studyImageAlt": "后来设关，先有张骞出使",
+        "imageAlt": "玉门关遗址现状照片",
+        "imageCaption": "玉门关遗址现状照片",
+        "imageBoundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
         "audio": {
+          "lead": {
+            "id": "quest-d5002265c4199eaf",
+            "text": "这是后来的汉代关口。张骞先出使西域，他生活在哪个朝代？"
+          },
           "transition": {
-            "id": "quest-1563f68db3422c49",
-            "text": "张骞出发的时间。"
+            "id": "quest-719e925cb224c1e1",
+            "text": "从关口回望张骞出使。"
           },
           "intro": {
-            "id": "quest-440cadcd49e2c84b",
-            "text": "前138年，汉武帝派张骞出使西域。更早已有不同地区的人走在这些道路上。"
+            "id": "quest-69ba63719f50ef2e",
+            "text": "照片是后来汉代的玉门关。张骞首次出使时，这座关还没设立。前138年，汉武帝派他向西去。我们先回到这次出使，听听他带回什么。"
           },
           "question": {
-            "id": "quest-cf9718283262c8c0",
-            "text": "张骞出使放在哪里？"
+            "id": "quest-6cbdb6f049ab8505",
+            "text": "张骞出使西域，是哪个朝代的事？"
           },
           "image": {
-            "id": "quest-519d974c306ad26a",
-            "text": "这是学习示意图：秦 前221年，汉 前138年。张骞出使放在哪里？"
+            "id": "quest-33fcba51ef9eda3d",
+            "text": "这张是玉门关遗址现状照片。照片是后来汉代的玉门关。张骞首次出使时，这座关还没设立。前138年，汉武帝派他向西去。我们先回到这次出使，听听他带回什么。"
           },
           "right": {
-            "id": "quest-4482730404b31cf0",
-            "text": "找到了。这次出使在汉朝。道路的往来比一个人的旅程更长久。"
+            "id": "quest-453c5c7d58e0c487",
+            "text": "找到汉朝了！去听张骞的故事。"
           },
           "wrong": {
-            "id": "quest-a367ac6d2c00b7e4",
-            "text": "再比较一下。这次出使在汉朝。道路的往来比一个人的旅程更长久。"
+            "id": "quest-43b82b7f6f5d3772",
+            "text": "唐朝更晚，张骞出使在汉朝。"
           }
         },
         "options": [
@@ -328,9 +621,14 @@
             "id": "cn-ancient-04-03-silk-road-time-1",
             "label": "汉朝 · 前138年",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-59dafc3d6d17eeed.svg",
-            "imageAlt": "汉 前138年",
+            "objectView": {
+              "kind": "era",
+              "name": "汉朝",
+              "date": "前138年",
+              "stationImage": "/images/history-stations/han.webp"
+            },
+            "image": "/content/study-scenes/study-a4b3382e00333420.svg",
+            "imageAlt": "汉朝 前138年",
             "audio": {
               "id": "quest-ba55bed6eaaeca96",
               "text": "汉朝 · 前138年"
@@ -338,14 +636,19 @@
           },
           {
             "id": "cn-ancient-04-03-silk-road-time-2",
-            "label": "秦朝 · 前221年",
+            "label": "唐朝 · 618年起",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-a3b1f6f8ac607165.svg",
-            "imageAlt": "秦 前221年",
+            "objectView": {
+              "kind": "era",
+              "name": "唐朝",
+              "date": "618年起",
+              "stationImage": "/images/history-stations/tang.webp"
+            },
+            "image": "/content/study-scenes/study-ccfaa55fa1680e08.svg",
+            "imageAlt": "唐朝 618年起",
             "audio": {
-              "id": "quest-908e92e19358b831",
-              "text": "秦朝 · 前221年"
+              "id": "quest-f29b7172e56abf3a",
+              "text": "唐朝 · 618年起"
             }
           }
         ]
@@ -354,168 +657,208 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "远行袋里放什么",
-        "title": "远行袋里放什么",
-        "prompt": "已经有路线，接下来备哪一袋？",
-        "rightNote": "路线帮人找方向，水和粮食帮助人继续赶路。",
-        "wrongNote": "路线帮人找方向，水和粮食帮助人继续赶路。",
+        "phase": "没结成联盟，也带回见闻",
+        "title": "没结成联盟，也带回见闻",
+        "prompt": "张骞带回了什么？",
+        "rightNote": "远方的见闻，也能帮助人们来往。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
+          "NMC-ZHANG-QIAN-MISSIONS",
           "NMC-SILK-ROAD-EXHIBITION",
           "UNESCO-CHANGAN-TIANSHAN",
-          "NEAC-XUANQUAN-POST"
+          "NEAC-XUANQUAN-POST",
+          "DHA-HEXI-GATES-CHRONOLOGY"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听出使的目的和带回的见闻。",
+          "continueLabel": "帮忙把见闻带回来"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "先听张骞出使的故事",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "远方的见闻，也能帮助人们来往。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "帮忙把见闻带回来",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "远行袋里放什么",
-          "screenText": "先陪旅行者做准备。路上要走很多天，水和食物需要补充。",
-          "displayText": "先陪旅行者做准备。路上要走很多天，水和食物需要补充。",
-          "narration": "先陪旅行者做准备。路上要走很多天，水和食物需要补充。"
+          "title": "没结成联盟，也带回见闻",
+          "screenText": "汉武帝派张骞出使，想联合大月氏，一起对抗匈奴。这次没结成联盟，张骞却带回了西域的道路、物产等见闻。后来，汉朝和西域的使者来往更多了。",
+          "displayText": "想寻找盟友，未能结盟。\n带回西域见闻，推动后来往来。",
+          "narration": "汉武帝派张骞出使，想联合大月氏，一起对抗匈奴。这次没结成联盟，张骞却带回了西域的道路、物产等见闻。后来，汉朝和西域的使者来往更多了。"
         },
-        "assetId": "study-31664ddbed1d4bc5",
-        "image": "/content/study-scenes/study-31664ddbed1d4bc5.svg",
-        "studyImage": "/content/study-scenes/study-31664ddbed1d4bc5.svg",
-        "studyImageAlt": "已有路线，还要准备",
-        "imageAlt": "已有路线，还要准备",
-        "imageCaption": "学习示意 · 已有路线，还要准备",
-        "imageBoundary": "自制学习示意。旅途图是补给原理示意，不复原张骞某一次行程，也不把悬泉置直接指定为首次出使的每个停点。",
+        "assetId": "study-f63c3d893ee904a1",
+        "image": "/content/study-scenes/study-f63c3d893ee904a1.svg",
+        "studyImage": "/content/study-scenes/study-f63c3d893ee904a1.svg",
+        "studyImageAlt": "出使联络，带回见闻，使者往来",
+        "imageAlt": "出使联络，带回见闻，使者往来",
+        "imageCaption": "学习示意 · 出使联络，带回见闻，使者往来",
+        "imageBoundary": "自制学习示意。小伙伴、驿站人物和回信情境为教学虚构，不是张骞本人行程实录。第一次出使在前138年；玉门关属于其后设立的关防，不能让张骞首次出使途经此关。悬泉置材料用于认识后来的驿站制度，不指定张骞在那里休息。封检不是粮食或马匹总账，更不是张骞日记；不能逐件臆造收发人。驿站按制度接待公务人员、使者等，不等于每个商人均免费入住。图中的木简、马匹和服饰是故事示意，不是具体遗址复原。",
         "audio": {
+          "lead": {
+            "id": "quest-c7a2c7092cc61471",
+            "text": "张骞没有结成联盟，却带回了西域见闻。"
+          },
           "transition": {
-            "id": "quest-0553db91936cc215",
-            "text": "远行袋里放什么。"
+            "id": "quest-9e3454a6e1764940",
+            "text": "没结成联盟，也带回见闻。"
           },
           "intro": {
-            "id": "quest-d42acc599fffd741",
-            "text": "先陪旅行者做准备。路上要走很多天，水和食物需要补充。"
+            "id": "quest-90c2e17d8b9e7efd",
+            "text": "汉武帝派张骞出使，想联合大月氏，一起对抗匈奴。这次没结成联盟，张骞却带回了西域的道路、物产等见闻。后来，汉朝和西域的使者来往更多了。",
+            "synthesisText": "汉武帝派张骞出使，想联合大月支，一起对抗匈奴。这次没结成联盟，张骞却带回了西域的道路、物产等见闻。后来，汉朝和西域的使者来往更多了。"
           },
           "question": {
-            "id": "quest-b0b6b12c053d04f6",
-            "text": "已经有路线，接下来备哪一袋？"
+            "id": "quest-a9d1cbba686633a5",
+            "text": "张骞带回了什么？"
           },
           "image": {
-            "id": "quest-72fd8c91904d52ee",
-            "text": "这是学习示意图：已有路线，还要准备。已经有路线，接下来备哪一袋？"
+            "id": "quest-c5490e18f7402a3b",
+            "text": "这是学习示意图：出使联络，带回见闻，使者往来。张骞带回了什么？"
           },
           "right": {
-            "id": "quest-ccca68ad9c95e6ff",
-            "text": "找到了。路线帮人找方向，水和粮食帮助人继续赶路。"
+            "id": "quest-812c9f8dc37b4f42",
+            "text": "远方的见闻，也能帮助人们来往。"
           },
           "wrong": {
-            "id": "quest-3615e66932602fe5",
-            "text": "再比较一下。路线帮人找方向，水和粮食帮助人继续赶路。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-04-03-silk-road-beginning-1",
-            "label": "水和粮食",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-d6186f7f2ab71ff9.svg",
-            "imageAlt": "水，粮食",
-            "audio": {
-              "id": "quest-5be1b34cc3ffb8e6",
-              "text": "水和粮食"
-            }
-          },
-          {
-            "id": "cn-ancient-04-03-silk-road-beginning-2",
-            "label": "只有另一张路线图",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-716499803bb1da00.svg",
-            "imageAlt": "第二张路线图",
-            "audio": {
-              "id": "quest-ad9bc3d3b38172a8",
-              "text": "只有另一张路线图"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "在驿置歇一歇",
-        "title": "在驿置歇一歇",
-        "prompt": "哪种记录能核对有没有备粮？",
-        "rightNote": "简牍中的粮食记录能支持补给问题，墙的颜色回答不了它。",
-        "wrongNote": "简牍中的粮食记录能支持补给问题，墙的颜色回答不了它。",
+        "phase": "把见闻说清楚",
+        "title": "把见闻说清楚",
+        "prompt": "想把沿途见闻留下来，选哪件事？",
+        "rightNote": "把见闻记下、讲清，远方就更好了解了。",
+        "wrongNote": "备粮能走远，见闻还要记下、讲清。",
         "sourceIds": [
+          "NMC-ZHANG-QIAN-MISSIONS",
           "NMC-SILK-ROAD-EXHIBITION",
           "UNESCO-CHANGAN-TIANSHAN",
-          "NEAC-XUANQUAN-POST"
+          "NEAC-XUANQUAN-POST",
+          "DHA-HEXI-GATES-CHRONOLOGY"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "pick",
+          "hint": "选能把见闻留下来的办法。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "在后来的驿站，学着保存消息",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "把见闻记下、讲清，远方就更好了解了。",
+          "retry": "备粮能走远，见闻还要记下、讲清。",
+          "nextLabel": "去看看驿站怎样帮忙",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "在驿置歇一歇",
-          "screenText": "汉代悬泉置留下简牍，记录接待、粮食和马匹。它帮助我们了解旅途中的补给。",
-          "displayText": "汉代悬泉置留下简牍，记录接待、粮食和马匹。它帮助我们了解旅途中的补给。",
-          "narration": "汉代悬泉置留下简牍，记录接待、粮食和马匹。它帮助我们了解旅途中的补给。"
+          "title": "把见闻说清楚",
+          "screenText": "小伙伴听完张骞的故事，来到后来的汉代驿站。远行人想让家乡知道沿途见闻。吃饱饭很重要，要把见闻留下来，还得做什么？",
+          "displayText": "小伙伴听完张骞的故事，来到后来的汉代驿站。远行人想让家乡知道沿途见闻。吃饱饭很重要，要把见闻留下来，还得做什么？",
+          "narration": "小伙伴听完张骞的故事，来到后来的汉代驿站。远行人想让家乡知道沿途见闻。吃饱饭很重要，要把见闻留下来，还得做什么？"
         },
-        "assetId": "study-8bb84e9a55d6c991",
-        "image": "/content/study-scenes/study-8bb84e9a55d6c991.svg",
-        "studyImage": "/content/study-scenes/study-8bb84e9a55d6c991.svg",
-        "studyImageAlt": "悬泉简牍，粮食，马匹",
-        "imageAlt": "悬泉简牍，粮食，马匹",
-        "imageCaption": "学习示意 · 悬泉简牍，粮食，马匹",
-        "imageBoundary": "自制学习示意。旅途图是补给原理示意，不复原张骞某一次行程，也不把悬泉置直接指定为首次出使的每个停点。",
+        "assetId": "silk-post-messages-v2",
+        "image": "/content/step-images/silk-post-messages-v2.jpg",
+        "studyImage": "/content/study-scenes/study-b626bb90487b84ba.svg",
+        "studyImageAlt": "留下见闻，旅途补给",
+        "imageAlt": "汉代驿站文书与补给故事插画",
+        "imageCaption": "汉代驿站文书与补给故事插画",
+        "imageBoundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/silk-post-messages-v2-prompt.txt。",
         "audio": {
+          "lead": {
+            "id": "quest-3515e7492456890f",
+            "text": "想让家乡了解沿途见闻，先记下来，还是只备好粮食？"
+          },
           "transition": {
-            "id": "quest-592675a9fcac8f17",
-            "text": "在驿置歇一歇。"
+            "id": "quest-931dc1f73face2c1",
+            "text": "把见闻说清楚。"
           },
           "intro": {
-            "id": "quest-bab3740319877162",
-            "text": "汉代悬泉置留下简牍，记录接待、粮食和马匹。它帮助我们了解旅途中的补给。"
+            "id": "quest-a10ec55c32889cf3",
+            "text": "小伙伴听完张骞的故事，来到后来的汉代驿站。远行人想让家乡知道沿途见闻。吃饱饭很重要，要把见闻留下来，还得做什么？"
           },
           "question": {
-            "id": "quest-d84fb96e70a6a5cd",
-            "text": "哪种记录能核对有没有备粮？"
+            "id": "quest-2ea6577ba588bb4a",
+            "text": "想把沿途见闻留下来，选哪件事？"
           },
           "image": {
-            "id": "quest-cd888006dc0f2226",
-            "text": "这是学习示意图：悬泉简牍，粮食，马匹。哪种记录能核对有没有备粮？"
+            "id": "quest-d8d2586d61f6cd8e",
+            "text": "这张是汉代驿站文书与补给故事插画。小伙伴听完张骞的故事，来到后来的汉代驿站。远行人想让家乡知道沿途见闻。吃饱饭很重要，要把见闻留下来，还得做什么？"
           },
           "right": {
-            "id": "quest-59e92c5cfee03be0",
-            "text": "找到了。简牍中的粮食记录能支持补给问题，墙的颜色回答不了它。"
+            "id": "quest-ab52e4b9d8625725",
+            "text": "把见闻记下、讲清，远方就更好了解了。"
           },
           "wrong": {
-            "id": "quest-2501213f1ff4c12e",
-            "text": "再比较一下。简牍中的粮食记录能支持补给问题，墙的颜色回答不了它。"
+            "id": "quest-7aed38eb694fb89c",
+            "text": "备粮能走远，见闻还要记下、讲清。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-04-03-silk-road-journey-1",
-            "label": "粮食收支记录",
+            "label": "把见闻记下来",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-939c48b9e8fc0689.svg",
-            "imageAlt": "粮食收支",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "silk-post-messages-v2",
+              "crop": {
+                "x": 510,
+                "y": 130,
+                "width": 410,
+                "height": 385,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/silk-post-messages-v2.jpg",
+              "imageAlt": "把见闻记下来"
+            },
+            "image": "/content/study-scenes/study-af2df925feaee786.svg",
+            "imageAlt": "把见闻记下来",
             "audio": {
-              "id": "quest-d1743875a882a101",
-              "text": "粮食收支记录"
+              "id": "quest-64c7977c1af3b5af",
+              "text": "把见闻记下来"
             }
           },
           {
             "id": "cn-ancient-04-03-silk-road-journey-2",
-            "label": "墙面颜色记录",
+            "label": "把水粮备齐",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-15ff9e7fb3e5682f.svg",
-            "imageAlt": "墙面颜色",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "silk-post-story-v1",
+              "crop": {
+                "x": 695,
+                "y": 325,
+                "width": 345,
+                "height": 175,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/silk-post-story-v1.jpg",
+              "imageAlt": "把水粮备齐"
+            },
+            "image": "/content/study-scenes/study-021680b32538007d.svg",
+            "imageAlt": "把水粮备齐",
             "audio": {
-              "id": "quest-2b873bc9e5260a15",
-              "text": "墙面颜色记录"
+              "id": "quest-d5a846c77b214406",
+              "text": "把水粮备齐"
             }
           }
         ]
@@ -524,167 +867,304 @@
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "路不是一根线",
-        "title": "路不是一根线",
-        "prompt": "哪张图更像这样的往来？",
-        "rightNote": "相连的道路和沿途的人，让东西与消息能一段段传递。",
-        "wrongNote": "相连的道路和沿途的人，让东西与消息能一段段传递。",
+        "phase": "来往背后，有人接力",
+        "title": "来往背后，有人接力",
+        "prompt": "谁在准备路上需要的食物？",
+        "rightNote": "备粮、传文书，驿站帮着人们来往。",
+        "wrongNote": "他在整理文书，找找锅和粮食。",
         "sourceIds": [
+          "NMC-ZHANG-QIAN-MISSIONS",
           "NMC-SILK-ROAD-EXHIBITION",
           "UNESCO-CHANGAN-TIANSHAN",
-          "NEAC-XUANQUAN-POST"
+          "NEAC-XUANQUAN-POST",
+          "DHA-HEXI-GATES-CHRONOLOGY"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听清问题，点图中的人。",
+          "ariaLabel": "在驿站图中找人",
+          "hotspots": [
+            {
+              "id": "food",
+              "label": "备食物的人",
+              "x": 0.715,
+              "y": 0.055,
+              "width": 0.28,
+              "height": 0.48
+            },
+            {
+              "id": "clerk",
+              "label": "整理文书的人",
+              "x": 0.38,
+              "y": 0.125,
+              "width": 0.22,
+              "height": 0.375
+            }
+          ],
+          "rounds": [
+            {
+              "id": "find-food",
+              "question": "谁在准备路上需要的食物？",
+              "targetId": "food",
+              "feedback": "找到了！补充食物，才能接着赶路。",
+              "retry": "他在整理文书，找找锅和粮食。",
+              "nextLabel": "再找整理文书的人",
+              "audio": {
+                "question": {
+                  "id": "quest-c27718c51bf65b2d",
+                  "text": "谁在准备路上需要的食物？"
+                },
+                "right": {
+                  "id": "quest-2930db9cc6ec0ad1",
+                  "text": "找到了！补充食物，才能接着赶路。"
+                },
+                "wrong": {
+                  "id": "quest-930e98a2e2c63860",
+                  "text": "他在整理文书，找找锅和粮食。"
+                }
+              }
+            },
+            {
+              "id": "find-dispatch",
+              "question": "要把文书送下去，先找谁整理？",
+              "targetId": "clerk",
+              "feedback": "对，整理好文书，再交给传递的人。",
+              "retry": "她在备食物，再找找拿笔和木简的人。",
+              "audio": {
+                "question": {
+                  "id": "quest-70e46806ca2e8e69",
+                  "text": "要把文书送下去，先找谁整理？"
+                },
+                "right": {
+                  "id": "quest-306773a4d0a8f5a1",
+                  "text": "对，整理好文书，再交给传递的人。"
+                },
+                "wrong": {
+                  "id": "quest-b9e4390e590863c1",
+                  "text": "她在备食物，再找找拿笔和木简的人。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "听问题，找出两种工作",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "备粮、传文书，驿站帮着人们来往。",
+          "retry": "他在整理文书，找找锅和粮食。",
+          "nextLabel": "帮一封回信继续走",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "qin-han-xuanquan-seal-tag",
+          "title": "悬泉置封检 · 文书的线索",
+          "localPath": "reference-assets/qin-han/xuanquan-seal-tag.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%82%AC%E6%B3%89%E7%BD%AE%E5%B0%81%E6%A3%80.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 4.0",
+          "clearance": "cleared-open-license",
+          "caption": "真实木质文物 · 汉代驿站",
+          "boundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。下载为1920像素等比例缩略图，未作其他修改。 甘肃省博物馆藏悬泉置出土封检，用于封缄和标记文书或物品。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/qin-han-xuanquan-seal-tag.jpg",
+          "label": "看看驿站留下的真木牌",
+          "placement": "supporting",
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "国家民族事务委员会：悬泉置：汉代丝绸之路驿站考古资料",
+              "url": "https://www.neac.gov.cn/seac/c103391/202302/1161310.shtml"
+            },
+            {
+              "title": "甘肃省文化和旅游厅：悬泉置遗址和汉简资料",
+              "url": "https://www.gswbj.gov.cn/a/2022/10/14/15341.html"
+            },
+            {
+              "title": "摄影 三猎 · 原文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:%E6%82%AC%E6%B3%89%E7%BD%AE%E5%B0%81%E6%A3%80.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-753dc2ec0a479f32",
+            "text": "这是悬泉置出土的封检，用来封缄和标记文书。木牌上的字给研究人员留下了线索，不是张骞的日记。"
+          }
+        },
         "story": {
           "screenNumber": 4,
-          "title": "路不是一根线",
-          "screenText": "丝路是许多路线连成的网络。来往者有人走这一段，有人接着走另一段。",
-          "displayText": "丝路是许多路线连成的网络。来往者有人走这一段，有人接着走另一段。",
-          "narration": "丝路是许多路线连成的网络。来往者有人走这一段，有人接着走另一段。"
+          "title": "来往背后，有人接力",
+          "screenText": "张骞之后，使者和商旅继续来往。驿站接待按规定通行的人，也传递文书。小伙伴看见有人备食物，有人整理文书。两件事都让往来能继续。",
+          "displayText": "张骞之后，使者和商旅继续来往。驿站接待按规定通行的人，也传递文书。小伙伴看见有人备食物，有人整理文书。两件事都让往来能继续。",
+          "narration": "张骞之后，使者和商旅继续来往。驿站接待按规定通行的人，也传递文书。小伙伴看见有人备食物，有人整理文书。两件事都让往来能继续。"
         },
-        "assetId": "study-b53a35f25033cb75",
-        "image": "/content/study-scenes/study-b53a35f25033cb75.svg",
-        "studyImage": "/content/study-scenes/study-b53a35f25033cb75.svg",
-        "studyImageAlt": "多条道路和停留点",
-        "imageAlt": "多条道路和停留点",
-        "imageCaption": "学习示意 · 多条道路和停留点",
-        "imageBoundary": "自制学习示意。旅途图是补给原理示意，不复原张骞某一次行程，也不把悬泉置直接指定为首次出使的每个停点。",
+        "assetId": "silk-post-messages-v2",
+        "image": "/content/step-images/silk-post-messages-v2.jpg",
+        "studyImage": "/content/study-scenes/study-54870fd7c34d24e1.svg",
+        "studyImageAlt": "接待补给，文书传递",
+        "imageAlt": "汉代驿站文书与补给故事插画",
+        "imageCaption": "汉代驿站文书与补给故事插画",
+        "imageBoundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/silk-post-messages-v2-prompt.txt。",
         "audio": {
+          "lead": {
+            "id": "quest-f313e8f90944a9b9",
+            "text": "后来使者继续来往。看看驿站里，谁备粮，谁整理文书。"
+          },
           "transition": {
-            "id": "quest-a58c8041d78421b3",
-            "text": "路不是一根线。"
+            "id": "quest-cd01a85f82502cea",
+            "text": "来往背后，有人接力。"
           },
           "intro": {
-            "id": "quest-806660995489ffa8",
-            "text": "丝路是许多路线连成的网络。来往者有人走这一段，有人接着走另一段。"
+            "id": "quest-f06c7730b072941f",
+            "text": "张骞之后，使者和商旅继续来往。驿站接待按规定通行的人，也传递文书。小伙伴看见有人备食物，有人整理文书。两件事都让往来能继续。"
           },
           "question": {
-            "id": "quest-42e8ff5899c89f45",
-            "text": "哪张图更像这样的往来？"
+            "id": "quest-c27718c51bf65b2d",
+            "text": "谁在准备路上需要的食物？"
           },
           "image": {
-            "id": "quest-063381d0a5f24288",
-            "text": "这是学习示意图：多条道路和停留点。哪张图更像这样的往来？"
+            "id": "quest-64e714d4c129d511",
+            "text": "这张是汉代驿站文书与补给故事插画。张骞之后，使者和商旅继续来往。驿站接待按规定通行的人，也传递文书。小伙伴看见有人备食物，有人整理文书。两件事都让往来能继续。"
           },
           "right": {
-            "id": "quest-909c346dbb62048b",
-            "text": "找到了。相连的道路和沿途的人，让东西与消息能一段段传递。"
+            "id": "quest-2a0dcbdd9f7fe545",
+            "text": "备粮、传文书，驿站帮着人们来往。"
           },
           "wrong": {
-            "id": "quest-6eb8c4ff3b39f778",
-            "text": "再比较一下。相连的道路和沿途的人，让东西与消息能一段段传递。"
+            "id": "quest-930e98a2e2c63860",
+            "text": "他在整理文书，找找锅和粮食。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-04-03-silk-road-change-1",
-            "label": "多条道路相连",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-94d1570e8c32c6ae.svg",
-            "imageAlt": "路线相连",
-            "audio": {
-              "id": "quest-ffd4b485e031d4a1",
-              "text": "多条道路相连"
-            }
-          },
-          {
-            "id": "cn-ancient-04-03-silk-road-change-2",
-            "label": "每条道路都断开",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-eeacd1457ae2a1f8.svg",
-            "imageAlt": "路线互不相通",
-            "audio": {
-              "id": "quest-d596021095b090a8",
-              "text": "每条道路都断开"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "给远行人送别",
-        "title": "给远行人送别",
-        "prompt": "要查张骞出使经过，先找哪类材料？",
-        "rightNote": "诗能帮助感受离别，核对张骞经历还要用相关历史记录。",
-        "wrongNote": "诗能帮助感受离别，核对张骞经历还要用相关历史记录。",
+        "phase": "让回信继续走",
+        "title": "让回信继续走",
+        "prompt": "回信到了，先请谁处理这份文书？",
+        "rightNote": "对，整理后再传递，让答复也能送回去。",
+        "wrongNote": "备粮照顾旅人，回信还要请人处理。",
         "sourceIds": [
+          "NMC-ZHANG-QIAN-MISSIONS",
           "NMC-SILK-ROAD-EXHIBITION",
-          "HKEDB-WANGWEI-SONG-YUANER"
+          "UNESCO-CHANGAN-TIANSHAN",
+          "NEAC-XUANQUAN-POST",
+          "DHA-HEXI-GATES-CHRONOLOGY"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "pick",
+          "hint": "选能处理回信的人。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "scene": "reunion",
+          "caption": "来，也有回；消息不断往来",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "对，整理后再传递，让答复也能送回去。",
+          "retry": "备粮照顾旅人，回信还要请人处理。",
+          "nextLabel": "把张骞与丝路的发现带回家",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 5,
-          "title": "给远行人送别",
-          "screenText": "唐代王维写过“西出阳关无故人”。这句诗能让我们想一想远行的心情，却不是张骞的日记。",
-          "displayText": "唐代王维写过“西出阳关无故人”。这句诗能让我们想一想远行的心情，却不是张骞的日记。",
-          "narration": "唐代王维写过“西出阳关无故人”。这句诗能让我们想一想远行的心情，却不是张骞的日记。"
+          "title": "让回信继续走",
+          "screenText": "一位使者带着回信到了驿站。消息也要往回走，让远方知道答复。小伙伴已经会找帮手了，这次先请谁处理回信？",
+          "displayText": "一位使者带着回信到了驿站。消息也要往回走，让远方知道答复。小伙伴已经会找帮手了，这次先请谁处理回信？",
+          "narration": "一位使者带着回信到了驿站。消息也要往回走，让远方知道答复。小伙伴已经会找帮手了，这次先请谁处理回信？"
         },
-        "assetId": "study-89d7ceda299a7fe3",
-        "image": "/content/study-scenes/study-89d7ceda299a7fe3.svg",
-        "studyImage": "/content/study-scenes/study-89d7ceda299a7fe3.svg",
-        "studyImageAlt": "汉 张骞，唐 王维送别诗",
-        "imageAlt": "汉 张骞，唐 王维送别诗",
-        "imageCaption": "学习示意 · 汉 张骞，唐 王维送别诗",
-        "imageBoundary": "自制学习示意。旅途图是补给原理示意，不复原张骞某一次行程，也不把悬泉置直接指定为首次出使的每个停点。",
+        "assetId": "study-82b2aff48fb29a55",
+        "image": "/content/study-scenes/study-82b2aff48fb29a55.svg",
+        "studyImage": "/content/study-scenes/study-82b2aff48fb29a55.svg",
+        "studyImageAlt": "来信回信，双向往来",
+        "imageAlt": "来信回信，双向往来",
+        "imageCaption": "学习示意 · 来信回信，双向往来",
+        "imageBoundary": "自制学习示意。小伙伴、驿站人物和回信情境为教学虚构，不是张骞本人行程实录。第一次出使在前138年；玉门关属于其后设立的关防，不能让张骞首次出使途经此关。悬泉置材料用于认识后来的驿站制度，不指定张骞在那里休息。封检不是粮食或马匹总账，更不是张骞日记；不能逐件臆造收发人。驿站按制度接待公务人员、使者等，不等于每个商人均免费入住。图中的木简、马匹和服饰是故事示意，不是具体遗址复原。",
         "audio": {
+          "lead": {
+            "id": "quest-350395f204650ab7",
+            "text": "使者带来了回信。先请整理文书的人帮忙，还是请备粮的人？"
+          },
           "transition": {
-            "id": "quest-75086c7e5edbf916",
-            "text": "给远行人送别。"
+            "id": "quest-77d71c01ebdbcbc1",
+            "text": "让回信继续走。"
           },
           "intro": {
-            "id": "quest-be0bbb6fa6ff49c8",
-            "text": "唐代王维写过“西出阳关无故人”。这句诗能让我们想一想远行的心情，却不是张骞的日记。"
+            "id": "quest-2b2a916e0864b68c",
+            "text": "一位使者带着回信到了驿站。消息也要往回走，让远方知道答复。小伙伴已经会找帮手了，这次先请谁处理回信？"
           },
           "question": {
-            "id": "quest-cdc944dfce3ee12e",
-            "text": "要查张骞出使经过，先找哪类材料？"
+            "id": "quest-51a14b957650b8d2",
+            "text": "回信到了，先请谁处理这份文书？"
           },
           "image": {
-            "id": "quest-6aa4f8b45688d73c",
-            "text": "这是学习示意图：汉 张骞，唐 王维送别诗。要查张骞出使经过，先找哪类材料？"
+            "id": "quest-68c1cc9dfe6d7b0b",
+            "text": "这是学习示意图：来信回信，双向往来。回信到了，先请谁处理这份文书？"
           },
           "right": {
-            "id": "quest-198441b16d9321d7",
-            "text": "找到了。诗能帮助感受离别，核对张骞经历还要用相关历史记录。"
+            "id": "quest-b3b40dfffa757987",
+            "text": "对，整理后再传递，让答复也能送回去。"
           },
           "wrong": {
-            "id": "quest-09342d6e42ab1580",
-            "text": "再比较一下。诗能帮助感受离别，核对张骞经历还要用相关历史记录。"
+            "id": "quest-8c86fc0654495818",
+            "text": "备粮照顾旅人，回信还要请人处理。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-04-03-silk-road-takeaway-1",
-            "label": "关于汉代出使的记录",
+            "label": "请整理文书的人",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-c37ef202b1e84f5b.svg",
-            "imageAlt": "汉代出使记录",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "silk-post-messages-v2",
+              "crop": {
+                "x": 510,
+                "y": 130,
+                "width": 410,
+                "height": 385,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/silk-post-messages-v2.jpg",
+              "imageAlt": "请整理文书的人"
+            },
+            "image": "/content/study-scenes/study-6a4df6ced813cc0c.svg",
+            "imageAlt": "请整理文书的人",
             "audio": {
-              "id": "quest-64ff54302cdf9aed",
-              "text": "关于汉代出使的记录"
+              "id": "quest-5f02e78b369449d4",
+              "text": "请整理文书的人"
             }
           },
           {
             "id": "cn-ancient-04-03-silk-road-takeaway-2",
-            "label": "只读唐代送别诗",
+            "label": "请备食物的人",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-3eb0f27e7701b7d9.svg",
-            "imageAlt": "唐代送别诗",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "silk-post-messages-v2",
+              "crop": {
+                "x": 1090,
+                "y": 45,
+                "width": 440,
+                "height": 495,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/silk-post-messages-v2.jpg",
+              "imageAlt": "请备食物的人"
+            },
+            "image": "/content/study-scenes/study-d44a9257a7e0e147.svg",
+            "imageAlt": "请备食物的人",
             "audio": {
-              "id": "quest-a4622ea6e1dd4a37",
-              "text": "只读唐代送别诗"
+              "id": "quest-5a7c256fd0a7b3da",
+              "text": "请备食物的人"
             }
           }
         ]
@@ -722,10 +1202,10 @@
   "facts": [
     {
       "number": 1,
-      "text": "张骞第一次出使西域始于公元前 138 年，第二次出使在此后。他的使命使汉朝获得关于西域多地的重要信息，并推动官方联系。",
+      "text": "张骞第一次出使西域始于公元前138年，最初使命是联合大月氏对抗匈奴，联盟未成，但带回西域重要信息。第二次出使及副使、来使的往来进一步推动联系。",
       "sourceIds": [
-        "NMC-SILK-ROAD-EXHIBITION",
-        "NMC-SILK-ROAD-NETWORK"
+        "NMC-ZHANG-QIAN-MISSIONS",
+        "NMC-SILK-ROAD-EXHIBITION"
       ]
     },
     {
@@ -970,6 +1450,16 @@
   ],
   "sources": [
     {
+      "id": "NMC-ZHANG-QIAN-MISSIONS",
+      "title": "中华史诗美术大展：张骞奉使西域",
+      "institution": "中国国家博物馆",
+      "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/",
+      "type": "museum-exhibition-history",
+      "authorityLevel": "A",
+      "factUse": "前138年初次出使的结盟目的、未达成联盟、带回西域信息，以及后续使者相互往来；展出美术作品不当作汉代照片。",
+      "imageUse": "reference-only"
+    },
+    {
       "id": "NMC-SILK-ROAD-EXHIBITION",
       "title": "“丝绸之路”展览回顾",
       "institution": "中国国家博物馆",
@@ -1030,6 +1520,16 @@
       "imageUse": "reference-only"
     },
     {
+      "id": "DHA-HEXI-GATES-CHRONOLOGY",
+      "title": "挖掘敦煌文化遗产中蕴含的中华文明精神标识",
+      "institution": "敦煌研究院，樊锦诗",
+      "url": "https://www.dha.ac.cn/info/1018/5661.htm",
+      "type": "research-institute-history",
+      "authorityLevel": "A",
+      "factUse": "区分前138/119年张骞出使与前111年列四郡据两关；不把玉门关放进首次出使路线。",
+      "imageUse": "reference-only"
+    },
+    {
       "id": "PEP-HISTORY-TEXTBOOK-STRUCTURE-2024",
       "title": "义务教育历史新教材的特点和教学建议",
       "institution": "人民教育出版社",
@@ -1042,197 +1542,145 @@
   ],
   "assets": [
     {
-      "id": "study-a3b1f6f8ac607165",
-      "title": "学习示意：秦 前221年",
-      "localPath": "reference-assets/focused-quests/study-a3b1f6f8ac607165.svg",
+      "id": "study-d07e87329f037486",
+      "title": "学习示意：后来设关、先有张骞出使",
+      "localPath": "reference-assets/focused-quests/study-d07e87329f037486.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "秦 前221年",
+      "caption": "后来设关 → 先有张骞出使",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-af12815f5ba89226",
-      "title": "学习示意：秦 前221年、汉 前138年",
-      "localPath": "reference-assets/focused-quests/study-af12815f5ba89226.svg",
+      "id": "study-a4b3382e00333420",
+      "title": "学习示意：汉朝 前138年",
+      "localPath": "reference-assets/focused-quests/study-a4b3382e00333420.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "秦 前221年 → 汉 前138年",
+      "caption": "汉朝 前138年",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-59dafc3d6d17eeed",
-      "title": "学习示意：汉 前138年",
-      "localPath": "reference-assets/focused-quests/study-59dafc3d6d17eeed.svg",
+      "id": "study-ccfaa55fa1680e08",
+      "title": "学习示意：唐朝 618年起",
+      "localPath": "reference-assets/focused-quests/study-ccfaa55fa1680e08.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "汉 前138年",
+      "caption": "唐朝 618年起",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-31664ddbed1d4bc5",
-      "title": "学习示意：已有路线、还要准备",
-      "localPath": "reference-assets/focused-quests/study-31664ddbed1d4bc5.svg",
+      "id": "study-f63c3d893ee904a1",
+      "title": "学习示意：出使联络、带回见闻、使者往来",
+      "localPath": "reference-assets/focused-quests/study-f63c3d893ee904a1.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "已有路线 → 还要准备",
+      "caption": "出使联络 → 带回见闻 → 使者往来",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-d6186f7f2ab71ff9",
-      "title": "学习示意：水、粮食",
-      "localPath": "reference-assets/focused-quests/study-d6186f7f2ab71ff9.svg",
+      "id": "study-b626bb90487b84ba",
+      "title": "学习示意：留下见闻、旅途补给",
+      "localPath": "reference-assets/focused-quests/study-b626bb90487b84ba.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "水 → 粮食",
+      "caption": "留下见闻 → 旅途补给",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-716499803bb1da00",
-      "title": "学习示意：第二张路线图",
-      "localPath": "reference-assets/focused-quests/study-716499803bb1da00.svg",
+      "id": "study-af2df925feaee786",
+      "title": "学习示意：把见闻记下来",
+      "localPath": "reference-assets/focused-quests/study-af2df925feaee786.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "第二张路线图",
+      "caption": "把见闻记下来",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-8bb84e9a55d6c991",
-      "title": "学习示意：悬泉简牍、粮食、马匹",
-      "localPath": "reference-assets/focused-quests/study-8bb84e9a55d6c991.svg",
+      "id": "study-021680b32538007d",
+      "title": "学习示意：把水粮备齐",
+      "localPath": "reference-assets/focused-quests/study-021680b32538007d.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "悬泉简牍 → 粮食 → 马匹",
+      "caption": "把水粮备齐",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-939c48b9e8fc0689",
-      "title": "学习示意：粮食收支",
-      "localPath": "reference-assets/focused-quests/study-939c48b9e8fc0689.svg",
+      "id": "study-54870fd7c34d24e1",
+      "title": "学习示意：接待补给、文书传递",
+      "localPath": "reference-assets/focused-quests/study-54870fd7c34d24e1.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "粮食收支",
+      "caption": "接待补给 → 文书传递",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-15ff9e7fb3e5682f",
-      "title": "学习示意：墙面颜色",
-      "localPath": "reference-assets/focused-quests/study-15ff9e7fb3e5682f.svg",
+      "id": "study-82b2aff48fb29a55",
+      "title": "学习示意：来信回信、双向往来",
+      "localPath": "reference-assets/focused-quests/study-82b2aff48fb29a55.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "墙面颜色",
+      "caption": "来信回信 → 双向往来",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-b53a35f25033cb75",
-      "title": "学习示意：多条道路和停留点",
-      "localPath": "reference-assets/focused-quests/study-b53a35f25033cb75.svg",
+      "id": "study-6a4df6ced813cc0c",
+      "title": "学习示意：请整理文书的人",
+      "localPath": "reference-assets/focused-quests/study-6a4df6ced813cc0c.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "多条道路和停留点",
+      "caption": "请整理文书的人",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-94d1570e8c32c6ae",
-      "title": "学习示意：路线相连",
-      "localPath": "reference-assets/focused-quests/study-94d1570e8c32c6ae.svg",
+      "id": "study-d44a9257a7e0e147",
+      "title": "学习示意：请备食物的人",
+      "localPath": "reference-assets/focused-quests/study-d44a9257a7e0e147.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "路线相连",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-eeacd1457ae2a1f8",
-      "title": "学习示意：路线互不相通",
-      "localPath": "reference-assets/focused-quests/study-eeacd1457ae2a1f8.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "路线互不相通",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-89d7ceda299a7fe3",
-      "title": "学习示意：汉 张骞、唐 王维送别诗",
-      "localPath": "reference-assets/focused-quests/study-89d7ceda299a7fe3.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "汉 张骞 → 唐 王维送别诗",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-c37ef202b1e84f5b",
-      "title": "学习示意：汉代出使记录",
-      "localPath": "reference-assets/focused-quests/study-c37ef202b1e84f5b.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "汉代出使记录",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-3eb0f27e7701b7d9",
-      "title": "学习示意：唐代送别诗",
-      "localPath": "reference-assets/focused-quests/study-3eb0f27e7701b7d9.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "唐代送别诗",
+      "caption": "请备食物的人",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1246,7 +1694,7 @@
       "license": "CC BY 3.0",
       "clearance": "cleared-open-license",
       "caption": "今天的玉门关遗址和周围戈壁景观。",
-      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。页面只把关隘作为交通网络节点。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
       "childVisibility": "child-ok"
     },
     {
@@ -1260,6 +1708,45 @@
       "clearance": "cleared-open-license",
       "caption": "甘肃省博物馆藏悬泉置出土封检，用于封缄和标记文书或物品。",
       "boundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。下载为1920像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "silk-post-story-v1",
+      "title": "戈壁驿站备粮故事插画",
+      "localPath": "reference-assets/qin-han/silk-post-story-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "小伙伴和工匠在驿站院子里为远行人收拾行囊。",
+      "boundary": "现代故事插画，不是汉代驿站复原；张骞出使与驿站功能以登记史料为准。交互粮袋由共用组件绘制。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "silk-post-friends-reunion-v1",
+      "title": "三位小伙伴在驿站外送行的故事插画",
+      "localPath": "reference-assets/qin-han/silk-post-friends-reunion-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "三位小伙伴与工匠在驿站外为远行人送行。",
+      "boundary": "现代虚构旅行故事插画，只承担角色叙事；角色外形按 docs/CHARACTERS.md。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "silk-post-messages-v2",
+      "title": "汉代驿站文书与补给故事插画",
+      "localPath": "reference-assets/qin-han/silk-post-messages-v2.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "小伙伴观察驿站的文书整理和旅途补给。",
+      "boundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/silk-post-messages-v2-prompt.txt。",
       "childVisibility": "child-ok"
     }
   ],

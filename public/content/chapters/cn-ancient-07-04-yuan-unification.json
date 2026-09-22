@@ -15,27 +15,28 @@
   "throughline": "从蒙古兴起、元朝统一、行省和宣政院等制度认识统一多民族国家的发展及西藏正式纳入中央行政管辖。",
   "childEntry": {
     "id": "cn-ancient-07-04-yuan-unification",
-    "childTitle": "帮大都把消息送远",
-    "prompt": "地方很远，为什么要有人分工接住消息？",
-    "takeaway": "元朝1271年定国号、1279年完成全国统一；管理辽阔地区需要层次与分工，行省不同于今天的省界。",
+    "childTitle": "元朝这么大，地方的事谁来办？",
+    "prompt": "元朝的都城大都在今天北京一带。管理这么多地方，能只靠都城里的人吗？小伙伴去看看地方的分工。",
+    "takeaway": "元朝统一后，中央与地方分工。行省等机构联系各地，基层有人核对情况、办理事务；不是一个人跑遍全国，各地办法也有差别。",
     "object": "元代地图、印章与都城遗址",
     "people": [
       "忽必烈",
-      "中央、地方办事者"
+      "元代中央、地方办事的人"
     ],
     "place": "元大都，也就是今天北京一带",
     "culture": "多文字官方文书",
-    "care": "联系图不是元代疆界图；虚构信件只演示信息流转，不冒充真实政务档案。",
-    "playableSource": "content/focused-quests.json"
+    "care": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
+    "playableSource": "content/focused-quests.json",
+    "preferredAssetId": "yuan-local-affairs-v1"
   },
   "textbookConnection": {
     "id": "cn-ancient-07-04-yuan-unification",
     "featured": {
       "type": "地点",
       "icon": "🏙️",
-      "title": "忽必烈与中央、地方办事者",
-      "childBridge": "地方很远，为什么要有人分工接住消息？",
-      "evidenceBoundary": "联系图不是元代疆界图；虚构信件只演示信息流转，不冒充真实政务档案。"
+      "title": "忽必烈与元代中央、地方办事的人",
+      "childBridge": "元朝的都城大都在今天北京一带。管理这么多地方，能只靠都城里的人吗？小伙伴去看看地方的分工。",
+      "evidenceBoundary": "1271定国号与1279完成统一分开。"
     },
     "companions": [
       {
@@ -57,49 +58,44 @@
     "sourceIds": [
       "SCIO-YUAN-PROVINCES",
       "NEAC-MONGOL-YUAN-HISTORY",
-      "NMC-LIAO-SONG-XIA-JIN-YUAN"
+      "NMC-LIAO-SONG-XIA-JIN-YUAN",
+      "CASS-YUAN-LOCAL-OFFICIALS",
+      "BJ-YUAN-DADU-WALL"
     ]
   },
   "childStory": [
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "两个年份的先后",
-      "text": "忽必烈在1271年定国号为元。1279年，南宋结束，元完成全国统一。"
+      "label": "从元大都留下的土城墙出发",
+      "text": "这是元大都城墙留下的土迹。忽必烈1271年定国号元，1279年南宋结束、元完成统一。大都是元朝的都城，在今天北京一带。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "地图很大，消息很远",
-      "text": "元朝都城大都位于今天北京一带。今天的学习图画出中心与远处地点，只表示联系。"
+      "label": "都城之外，也要有人办事",
+      "text": "元朝统一经历了战争，也带来破坏。后来，各地还要恢复生活。中央和地方官员分工，行省等机构联系各地，下面有人就近办事。我们去看一处查验桥梁的故事。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "不是一个人跑遍各地",
-      "text": "中央和地方有不同机构与官员。事务需要分工，不能都靠一个人往返。"
+      "label": "桥边看情况，桌边记下来",
+      "text": "居民说桥面有块石头松了。当地办事的人来到桥边核对，另一人把情况记下来。这个故事让我们看看，地方事务需要哪些工作。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "行省和今天省份",
-      "text": "元代发展行省制度。它与后来的地方制度有联系，但职能和边界都不能照搬到今天。"
+      "label": "只写桥坏了，还不够清楚",
+      "text": "记录上只写着桥面有问题，还没说清哪一处。要了解眼前的情况，小伙伴该先找人做什么？"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "信送到了还没完",
-      "text": "传递消息只是一步。接收的人还要查看、处理并回复，分工才真正运转。"
+      "label": "分担事情，也要彼此联系",
+      "text": "查清情况后，还需要安排实际办理。元代行省等地方机构分担事务、联系中央；不同地区的办法也有差别。今天的省与它们有历史联系，却不能把边界和权力照搬过去。"
     }
   ],
   "glossary": [
-    {
-      "term": "档案",
-      "icon": "🗂️",
-      "plain": "被保存下来的文件、照片、录音等记录。",
-      "example": "一份档案记录一个角度，要和别的证据一起看。",
-      "priority": 1
-    },
     {
       "term": "统一",
       "icon": "🧩",
@@ -115,17 +111,17 @@
       "priority": 1
     },
     {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
-      "priority": 1
-    },
-    {
       "term": "制度",
       "icon": "📋",
       "plain": "大家长期照着运行的一整套规则和办法。",
       "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
       "priority": 1
     },
     {
@@ -210,6 +206,15 @@
       "note": "三字连读，不在“必”后拉长停顿。"
     },
     {
+      "text": "行省",
+      "reading": "xíng shěng",
+      "kind": "phrase",
+      "chapterIds": [
+        "cn-ancient-07-04-yuan-unification"
+      ],
+      "note": "2026-09-21新增编辑校听词；不自动视为人耳试听通过。"
+    },
+    {
       "text": "元大都",
       "reading": "Yuán Dàdū",
       "kind": "place",
@@ -226,66 +231,250 @@
     "hook": {
       "kind": "具体任务",
       "icon": "🔎",
-      "label": "帮大都把消息送远",
-      "question": "地方很远，为什么要有人分工接住消息？"
+      "label": "元朝这么大，地方的事谁来办？",
+      "question": "元朝的都城大都在今天北京一带。管理这么多地方，能只靠都城里的人吗？小伙伴去看看地方的分工。"
     },
-    "cta": "去接力送一封信",
-    "anchor": "忽必烈与中央、地方办事者",
-    "boundary": "联系图不是元代疆界图；虚构信件只演示信息流转，不冒充真实政务档案。",
-    "evidence": [],
+    "cta": "去看看地方怎样办事",
+    "anchor": "忽必烈与元代中央、地方办事的人",
+    "boundary": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
+    "evidence": [
+      {
+        "id": "yuan-dadu-wall-cutaway",
+        "title": "元大都城墙遗址断面现状照片",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-dadu-wall-cutaway.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:700多年前所筑城墙断面清晰可见_-_panoramio.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 3.0",
+        "clearance": "cleared-open-license",
+        "caption": "元代城墙遗址 · 2011年照片",
+        "boundary": "照片显示遗址土墙断面与现代植被，并非元代城市原貌；层状土迹是观察点，不能由照片推断行政制度。摄影mayanming，CC BY-SA 3.0。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/yuan-dadu-wall-cutaway.jpg"
+      },
+      {
+        "id": "yuan-dadu-wall-section",
+        "title": "元大都土城遗址公园土垣照片",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-dadu-wall-section.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:城墙夯土_-_Rammed-Earth_Wall_-_2012.05_-_panoramio.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY 3.0",
+        "clearance": "cleared-open-license",
+        "caption": "元代城墙遗址 · 2012年公园照片",
+        "boundary": "照片显示公园中的土垣与树木，不是元代城墙完整原貌；今日植被也不代表元代环境。摄影rheins，CC BY 3.0。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/yuan-dadu-wall-section.jpg"
+      }
+    ],
+    "photoAlbum": {
+      "id": "yuan-dadu-wall",
+      "title": "大都城墙留下的土迹",
+      "label": "看看土墙与遗址公园",
+      "photos": [
+        {
+          "assetId": "yuan-dadu-wall-cutaway",
+          "title": "元大都城墙遗址断面现状照片",
+          "label": "土墙断面",
+          "period": "元代遗址 · 2011年照片",
+          "observation": "找找土墙里层状的痕迹。",
+          "narration": "土墙断面留下层状痕迹。它经历了漫长的变化，不是元代城墙完整高度。",
+          "sourceIds": [
+            "BJ-YUAN-DADU-WALL"
+          ],
+          "sourceLinks": [
+            {
+              "title": "北京市人民政府：元大都城垣遗址公园",
+              "url": "https://www.beijing.gov.cn/renwen/rwzyd/qgzdwwbhdw/yddcqyz/202210/t20221031_2848744.html"
+            },
+            {
+              "title": "图像原始文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:700多年前所筑城墙断面清晰可见_-_panoramio.jpg"
+            }
+          ],
+          "boundary": "照片显示遗址土墙断面与现代植被，并非元代城市原貌；层状土迹是观察点，不能由照片推断行政制度。摄影mayanming，CC BY-SA 3.0。",
+          "image": "/content/step-images/yuan-dadu-wall-cutaway.jpg",
+          "caption": "元代城墙遗址 · 2011年照片",
+          "audio": {
+            "id": "quest-5c9355ec4bacd5fa",
+            "text": "土墙断面留下层状痕迹。它经历了漫长的变化，不是元代城墙完整高度。"
+          }
+        },
+        {
+          "assetId": "yuan-dadu-wall-section",
+          "title": "元大都土城遗址公园土垣照片",
+          "label": "公园里的土垣",
+          "period": "元代遗址 · 2012年照片",
+          "observation": "树木旁，土垣连成一道长坡。",
+          "narration": "这是今天公园里保留的土垣，树木和游园环境属于后来的变化。不能把它当成元代街景。",
+          "sourceIds": [
+            "BJ-YUAN-DADU-WALL"
+          ],
+          "sourceLinks": [
+            {
+              "title": "北京市人民政府：元大都城垣遗址公园",
+              "url": "https://www.beijing.gov.cn/renwen/rwzyd/qgzdwwbhdw/yddcqyz/202210/t20221031_2848744.html"
+            },
+            {
+              "title": "图像原始文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:城墙夯土_-_Rammed-Earth_Wall_-_2012.05_-_panoramio.jpg"
+            }
+          ],
+          "boundary": "照片显示公园中的土垣与树木，不是元代城墙完整原貌；今日植被也不代表元代环境。摄影rheins，CC BY 3.0。",
+          "image": "/content/step-images/yuan-dadu-wall-section.jpg",
+          "caption": "元代城墙遗址 · 2012年公园照片",
+          "audio": {
+            "id": "quest-792032602d5db1b4",
+            "text": "这是今天公园里保留的土垣，树木和游园环境属于后来的变化。不能把它当成元代街景。"
+          }
+        }
+      ]
+    },
     "coverAsset": {
-      "id": "quanzhou-luoyang-bridge-current-view",
-      "title": "泉州洛阳桥现状照片",
-      "localPath": "reference-assets/liao-song-xia-jin-yuan/quanzhou-luoyang-bridge.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Luoyang_Bridge,_Quanzhou_(20201001150149).jpg",
+      "id": "yuan-local-affairs-v1",
+      "title": "元代地方事务：现场核对与文书记录教学插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-local-affairs-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
       "licensePath": null,
-      "license": "CC BY-SA 4.0",
-      "clearance": "cleared-open-license",
-      "caption": "今天泉州洛阳桥的现状照片；该桥是宋元泉州世界遗产组成部分之一。",
-      "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。下载为1920×1280像素等比例图，未作其他修改。",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/quanzhou-luoyang-bridge-current-view.jpg"
+      "image": "/content/step-images/yuan-local-affairs-v1.jpg"
     },
-    "presentation": null,
-    "sceneAsset": null,
-    "narrativeAssets": [],
-    "coverImage": "/content/step-images/quanzhou-luoyang-bridge-current-view.jpg",
-    "coverImageAlt": "泉州洛阳桥现状照片",
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "yuan-local-affairs-v1",
+      "sceneAlt": "元朝这么大，地方的事谁来办？的儿童故事插画",
+      "title": "元朝这么大，地方的事谁来办？",
+      "evidenceTitle": "元大都城墙遗址断面现状照片",
+      "evidenceLine": "真实材料与故事插画分别看。",
+      "evidenceNarration": "看土墙留下的层状痕迹。这是元大都遗址今天的一部分，树林和公园不是元代现场。中央与地方怎样办事，还要读历史资料。",
+      "guide": "听听问题，点图回答。",
+      "alignHint": "",
+      "familyHint": "回看图里的线索，再和家人说说发现。",
+      "familyLabel": "和家人回看今天的发现",
+      "familyMode": "actions",
+      "nextLabel": "继续看故事",
+      "lastLabel": "把发现带回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "yuan-friends-reunion-v1",
+        "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
+        "reunionAspectRatio": 1.82,
+        "coverCaption": "元朝这么大，地方的事谁来办？",
+        "coverNarration": "元朝的都城大都在今天北京一带。管理这么多地方，能只靠都城里的人吗？小伙伴去看看地方的分工。",
+        "stationLine": "元朝完成统一以后，地方事务要分工办理，消息和人员也要借助驿站、道路与港口往来。",
+        "stationNarration": "元朝完成统一以后，地方事务要分工办理，消息和人员也要借助驿站、道路与港口往来。",
+        "closingCaption": "带着发现回家",
+        "closingNarration": "元朝统一后，中央与地方分工。行省等机构联系各地，基层有人核对情况、办理事务；不是一个人跑遍全国，各地办法也有差别。",
+        "closingLine": "中央与地方分担事情，治理还要就地办理。",
+        "fictionNote": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
+        "reunionFit": "contain",
+        "reunionImage": "/content/step-images/yuan-friends-reunion-v1.jpg",
+        "stationAudio": {
+          "id": "quest-8def5a7bc59fabe6",
+          "text": "元朝完成统一以后，地方事务要分工办理，消息和人员也要借助驿站、道路与港口往来。"
+        },
+        "closingAudio": {
+          "id": "quest-25351dcad6589006",
+          "text": "元朝统一后，中央与地方分工。行省等机构联系各地，基层有人核对情况、办理事务；不是一个人跑遍全国，各地办法也有差别。"
+        }
+      },
+      "sceneImage": "/content/step-images/yuan-local-affairs-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-69d6f5b73cba88c1",
+        "text": "看土墙留下的层状痕迹。这是元大都遗址今天的一部分，树林和公园不是元代现场。中央与地方怎样办事，还要读历史资料。"
+      },
+      "guideAudio": {
+        "id": "quest-556f5af30cc82d77",
+        "text": "听听问题，点图回答。"
+      }
+    },
+    "sceneAsset": {
+      "id": "yuan-local-affairs-v1",
+      "title": "元代地方事务：现场核对与文书记录教学插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-local-affairs-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/yuan-local-affairs-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "yuan-friends-reunion-v1",
+        "title": "三位小伙伴回看元朝地方事务和驿站的插画",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-friends-reunion-v1.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史照片。",
+        "boundary": "今天的旅行手册回顾图；桥、文书、马与空白圆牌是新画的学习线索，不冒充元代真实文书或符牌。完整书页以contain取景，不裁掉工作内容。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/yuan-friends-reunion-v1.jpg"
+      },
+      {
+        "id": "yuan-local-affairs-v1",
+        "title": "元代地方事务：现场核对与文书记录教学插画",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-local-affairs-v1.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史照片。",
+        "boundary": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/yuan-local-affairs-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/yuan-local-affairs-v1.jpg",
+    "coverImageAlt": "元代地方事务：现场核对与文书记录教学插画",
     "coverImageKind": "历史材料",
     "coverAudio": {
-      "id": "quest-f209e411582cb7a8",
-      "text": "帮大都把消息送远。地方很远，为什么要有人分工接住消息？准备好就点“去接力送一封信”。"
+      "id": "quest-c37504e88e77312b",
+      "text": "元朝的都城大都在今天北京一带。管理这么多地方，能只靠都城里的人吗？小伙伴去看看地方的分工。"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-eac395beedefe76e",
-      "text": "元朝1271年定国号、1279年完成全国统一；管理辽阔地区需要层次与分工，行省不同于今天的省界。"
+      "id": "quest-25351dcad6589006",
+      "text": "元朝统一后，中央与地方分工。行省等机构联系各地，基层有人核对情况、办理事务；不是一个人跑遍全国，各地办法也有差别。"
     },
     "finish": {
-      "title": "和家人接力一封空手信",
+      "title": "地方的事情，要有人就地办理。",
       "actions": [
-        "你递出想象的信，家人接住后做阅读动作。",
-        "请他回一个动作，体验送达以后还有处理和回复。"
+        "在故事图里找到现场核对与桌边记录两种工作。",
+        "家人说“地方遇到事情”，你用自己的话说说为什么还要就地了解、实际办理。"
       ],
-      "parent": "问“送到就等于办好了吗？”接受还要看、商量、回复。无需背行省名称或描画疆界。",
+      "parent": "儿童知道中央与地方有分工即可，不要求背机构层级。修桥是虚构教学案例，不能推断每件小事都经过行省、中央；基层具体办理与省级协调不同。",
       "sceneStepIndexes": [
-        3,
-        4
+        2,
+        3
       ],
       "actionAudio": [
         {
-          "id": "quest-8db2c8895cf0d4fb",
-          "text": "你递出想象的信，家人接住后做阅读动作。"
+          "id": "quest-90fee7212e8ad406",
+          "text": "在故事图里找到现场核对与桌边记录两种工作。"
         },
         {
-          "id": "quest-2033fc7f9c850082",
-          "text": "请他回一个动作，体验送达以后还有处理和回复。"
+          "id": "quest-d347275fee613f3c",
+          "text": "家人说“地方遇到事情”，你用自己的话说说为什么还要就地了解、实际办理。"
         }
       ],
       "introAudio": {
-        "id": "quest-06540e81a112b0d4",
-        "text": "和家人接力一封空手信。你递出想象的信，家人接住后做阅读动作。请他回一个动作，体验送达以后还有处理和回复。"
+        "id": "quest-25351dcad6589006",
+        "text": "元朝统一后，中央与地方分工。行省等机构联系各地，基层有人核对情况、办理事务；不是一个人跑遍全国，各地办法也有差别。"
       }
     },
     "estimatedMinutes": 6,
@@ -298,82 +487,140 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "两个年份的先后",
-        "title": "两个年份的先后",
-        "prompt": "哪一件先发生？",
-        "rightNote": "国号确立在前，完成统一在后，不把两个年份说成同一件事。",
-        "wrongNote": "国号确立在前，完成统一在后，不把两个年份说成同一件事。",
+        "phase": "从元大都留下的土城墙出发",
+        "title": "从元大都留下的土城墙出发",
+        "prompt": "跟着大都的土城墙，到哪个朝代？",
+        "rightNote": "到元朝，看看都城怎样联系地方。",
+        "wrongNote": "宋朝更早，大都是元朝的都城。",
         "sourceIds": [
-          "SCIO-YUAN-PROVINCES",
-          "NEAC-MONGOL-YUAN-HISTORY"
+          "NEAC-MONGOL-YUAN-HISTORY",
+          "BJ-YUAN-DADU-WALL"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听听问题，看看图里的线索。"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "从元大都留下的土城墙出发",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "到元朝，看看都城怎样联系地方。",
+          "retry": "宋朝更早，大都是元朝的都城。",
+          "nextLabel": "看看这么多地方怎样分工",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "yuan-dadu-wall-cutaway",
+          "title": "元大都城墙遗址断面现状照片",
+          "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-dadu-wall-cutaway.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:700多年前所筑城墙断面清晰可见_-_panoramio.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 3.0",
+          "clearance": "cleared-open-license",
+          "caption": "元代城墙遗址 · 2011年照片",
+          "boundary": "照片显示遗址土墙断面与现代植被，并非元代城市原貌；层状土迹是观察点，不能由照片推断行政制度。摄影mayanming，CC BY-SA 3.0。 元代城墙遗址 · 2011年照片",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/yuan-dadu-wall-cutaway.jpg",
+          "label": "点开真材料，听听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 325,
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "北京市人民政府：元大都城垣遗址公园",
+              "url": "https://www.beijing.gov.cn/renwen/rwzyd/qgzdwwbhdw/yddcqyz/202210/t20221031_2848744.html"
+            },
+            {
+              "title": "图像原始文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:700多年前所筑城墙断面清晰可见_-_panoramio.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-69d6f5b73cba88c1",
+            "text": "看土墙留下的层状痕迹。这是元大都遗址今天的一部分，树林和公园不是元代现场。中央与地方怎样办事，还要读历史资料。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "两个年份的先后",
-          "screenText": "忽必烈在1271年定国号为元。1279年，南宋结束，元完成全国统一。",
-          "displayText": "忽必烈在1271年定国号为元。1279年，南宋结束，元完成全国统一。",
-          "narration": "忽必烈在1271年定国号为元。1279年，南宋结束，元完成全国统一。"
+          "title": "从元大都留下的土城墙出发",
+          "screenText": "这是元大都城墙留下的土迹。忽必烈1271年定国号元，1279年南宋结束、元完成统一。大都是元朝的都城，在今天北京一带。",
+          "displayText": "这是元大都城墙留下的土迹。忽必烈1271年定国号元，1279年南宋结束、元完成统一。大都是元朝的都城，在今天北京一带。",
+          "narration": "这是元大都城墙留下的土迹。忽必烈1271年定国号元，1279年南宋结束、元完成统一。大都是元朝的都城，在今天北京一带。"
         },
-        "assetId": "study-12e0203db8b4be24",
-        "image": "/content/study-scenes/study-12e0203db8b4be24.svg",
-        "studyImage": "/content/study-scenes/study-12e0203db8b4be24.svg",
-        "studyImageAlt": "1271年 定国号，1279年 统一",
-        "imageAlt": "1271年 定国号，1279年 统一",
-        "imageCaption": "学习示意 · 1271年 定国号，1279年 统一",
-        "imageBoundary": "自制学习示意。联系图不是元代疆界图；虚构信件只演示信息流转，不冒充真实政务档案。",
+        "assetId": "study-b978f2a5cb920f1a",
+        "image": "/content/study-scenes/study-b978f2a5cb920f1a.svg",
+        "studyImage": "/content/study-scenes/study-b978f2a5cb920f1a.svg",
+        "studyImageAlt": "从元大都留下的土城墙出发",
+        "imageAlt": "从元大都留下的土城墙出发",
+        "imageCaption": "学习示意 · 从元大都留下的土城墙出发",
+        "imageBoundary": "自制学习示意。1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
         "audio": {
+          "lead": {
+            "id": "quest-dea483190f1f85da",
+            "text": "这是元大都的城墙遗址，我们去元朝看看中央与地方。"
+          },
           "transition": {
-            "id": "quest-32f43a34346a9f6a",
-            "text": "两个年份的先后。"
+            "id": "quest-8ce71cd903c1eb7a",
+            "text": "从元大都留下的土城墙出发。"
           },
           "intro": {
-            "id": "quest-5bbfc1d814fe6cea",
-            "text": "忽必烈在1271年定国号为元。1279年，南宋结束，元完成全国统一。"
+            "id": "quest-8ce66926167acd44",
+            "text": "这是元大都城墙留下的土迹。忽必烈1271年定国号元，1279年南宋结束、元完成统一。大都是元朝的都城，在今天北京一带。"
           },
           "question": {
-            "id": "quest-a5e2c7af3f4e611f",
-            "text": "哪一件先发生？"
+            "id": "quest-6caf03d67149ff1b",
+            "text": "跟着大都的土城墙，到哪个朝代？"
           },
           "image": {
-            "id": "quest-a509c2ef601e1296",
-            "text": "这是学习示意图：1271年 定国号，1279年 统一。哪一件先发生？"
+            "id": "quest-45fdc50a2854548c",
+            "text": "这是学习示意图：从元大都留下的土城墙出发。跟着大都的土城墙，到哪个朝代？"
           },
           "right": {
-            "id": "quest-d5811a0de570afd9",
-            "text": "找到了。国号确立在前，完成统一在后，不把两个年份说成同一件事。"
+            "id": "quest-422b1111af4a0279",
+            "text": "到元朝，看看都城怎样联系地方。"
           },
           "wrong": {
-            "id": "quest-c4f3396b92758d36",
-            "text": "再比较一下。国号确立在前，完成统一在后，不把两个年份说成同一件事。"
+            "id": "quest-4071ee9b8a50ea0a",
+            "text": "宋朝更早，大都是元朝的都城。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-07-04-yuan-unification-time-1",
-            "label": "1271年定国号",
+            "label": "元朝 · 1271—1368年",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-0817224c50d93d75.svg",
-            "imageAlt": "1271年",
+            "objectView": {
+              "kind": "era",
+              "name": "元朝",
+              "date": "1271—1368年",
+              "stationImage": "/images/history-stations/yuan.webp"
+            },
+            "image": "/content/study-scenes/study-975b7e19cba2032e.svg",
+            "imageAlt": "元朝，1271—1368年",
             "audio": {
-              "id": "quest-a43c6c29555112e0",
-              "text": "1271年定国号"
+              "id": "quest-d26fc2dff988a9c3",
+              "text": "元朝 · 1271—1368年"
             }
           },
           {
             "id": "cn-ancient-07-04-yuan-unification-time-2",
-            "label": "1279年南宋结束",
+            "label": "北宋 · 960—1127年",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-110d1474eb358c8a.svg",
-            "imageAlt": "1279年",
+            "objectView": {
+              "kind": "era",
+              "name": "北宋",
+              "date": "960—1127年",
+              "stationImage": "/images/history-stations/cities.webp"
+            },
+            "image": "/content/study-scenes/study-be65ddf9c5cbd5dd.svg",
+            "imageAlt": "北宋，960—1127年",
             "audio": {
-              "id": "quest-d9d94a75c7823bf8",
-              "text": "1279年南宋结束"
+              "id": "quest-f74ad7b45de67e28",
+              "text": "北宋 · 960—1127年"
             }
           }
         ]
@@ -382,250 +629,341 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "地图很大，消息很远",
-        "title": "地图很大，消息很远",
-        "prompt": "远处的消息要送到哪里处理？",
-        "rightNote": "治理需要人接收与处理消息，不能只有一条空路线。",
-        "wrongNote": "治理需要人接收与处理消息，不能只有一条空路线。",
+        "phase": "都城之外，也要有人办事",
+        "title": "都城之外，也要有人办事",
+        "prompt": "地方有人了解情况，也有人办理",
+        "rightNote": "不是只送一张纸，还要有人做具体的事。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
           "SCIO-YUAN-PROVINCES",
-          "NEAC-MONGOL-YUAN-HISTORY"
+          "CASS-YUAN-LOCAL-OFFICIALS",
+          "NMC-LIAO-SONG-XIA-JIN-YUAN"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听问题，看看图里的线索。",
+          "continueLabel": "找找现场和记录的两种工作"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "都城之外，也要有人办事",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "不是只送一张纸，还要有人做具体的事。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "找找现场和记录的两种工作",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "地图很大，消息很远",
-          "screenText": "元朝都城大都位于今天北京一带。今天的学习图画出中心与远处地点，只表示联系。",
-          "displayText": "元朝都城大都位于今天北京一带。今天的学习图画出中心与远处地点，只表示联系。",
-          "narration": "元朝都城大都位于今天北京一带。今天的学习图画出中心与远处地点，只表示联系。"
+          "title": "都城之外，也要有人办事",
+          "screenText": "元朝统一经历了战争，也带来破坏。后来，各地还要恢复生活。中央和地方官员分工，行省等机构联系各地，下面有人就近办事。我们去看一处查验桥梁的故事。",
+          "displayText": "行省等机构联系各地。\n具体的事情，还要就地办理。",
+          "narration": "元朝统一经历了战争，也带来破坏。后来，各地还要恢复生活。中央和地方官员分工，行省等机构联系各地，下面有人就近办事。我们去看一处查验桥梁的故事。"
         },
-        "assetId": "study-1e75eee64ec0ce42",
-        "image": "/content/study-scenes/study-1e75eee64ec0ce42.svg",
-        "studyImage": "/content/study-scenes/study-1e75eee64ec0ce42.svg",
-        "studyImageAlt": "大都，联系远处",
-        "imageAlt": "大都，联系远处",
-        "imageCaption": "学习示意 · 大都，联系远处",
-        "imageBoundary": "自制学习示意。联系图不是元代疆界图；虚构信件只演示信息流转，不冒充真实政务档案。",
+        "assetId": "yuan-local-affairs-v1",
+        "image": "/content/step-images/yuan-local-affairs-v1.jpg",
+        "studyImage": "/content/study-scenes/study-45701140cc0ddef5.svg",
+        "studyImageAlt": "都城之外，也要有人办事",
+        "imageAlt": "元代地方事务：现场核对与文书记录教学插画",
+        "imageCaption": "元代地方事务：现场核对与文书记录教学插画",
+        "imageBoundary": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
         "audio": {
+          "lead": {
+            "id": "quest-62ec0109294b52f1",
+            "text": "地方有人了解情况，也有人办理"
+          },
           "transition": {
-            "id": "quest-cb09fd6d75064c9a",
-            "text": "地图很大，消息很远。"
+            "id": "quest-6ae6644d1132910a",
+            "text": "都城之外，也要有人办事。"
           },
           "intro": {
-            "id": "quest-023f7d6c2ea857f2",
-            "text": "元朝都城大都位于今天北京一带。今天的学习图画出中心与远处地点，只表示联系。"
+            "id": "quest-c54ba55e3b98e986",
+            "text": "元朝统一经历了战争，也带来破坏。后来，各地还要恢复生活。中央和地方官员分工，行省等机构联系各地，下面有人就近办事。我们去看一处查验桥梁的故事。"
           },
           "question": {
-            "id": "quest-18a1b355792a724b",
-            "text": "远处的消息要送到哪里处理？"
+            "id": "quest-62ec0109294b52f1",
+            "text": "地方有人了解情况，也有人办理"
           },
           "image": {
-            "id": "quest-9ef66bf0564dd79e",
-            "text": "这是学习示意图：大都，联系远处。远处的消息要送到哪里处理？"
+            "id": "quest-8a5acd44bbb31039",
+            "text": "这张是元代地方事务：现场核对与文书记录教学插画。元朝统一经历了战争，也带来破坏。后来，各地还要恢复生活。中央和地方官员分工，行省等机构联系各地，下面有人就近办事。我们去看一处查验桥梁的故事。"
           },
           "right": {
-            "id": "quest-532b7d2e3745d044",
-            "text": "找到了。治理需要人接收与处理消息，不能只有一条空路线。"
+            "id": "quest-5af8ab22fb999bf0",
+            "text": "不是只送一张纸，还要有人做具体的事。"
           },
           "wrong": {
-            "id": "quest-69d7ab68a136cb00",
-            "text": "再比较一下。治理需要人接收与处理消息，不能只有一条空路线。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-04-yuan-unification-beginning-1",
-            "label": "送到有关机构与人员",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-608bf3ad5cfd0729.svg",
-            "imageAlt": "有关机构和人员",
-            "audio": {
-              "id": "quest-89bfded3a58189ae",
-              "text": "送到有关机构与人员"
-            }
-          },
-          {
-            "id": "cn-ancient-07-04-yuan-unification-beginning-2",
-            "label": "只留在路边石头下",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-51ec0f34b6680f09.svg",
-            "imageAlt": "路边石头",
-            "audio": {
-              "id": "quest-10a1721f6ef10bf1",
-              "text": "只留在路边石头下"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "不是一个人跑遍各地",
-        "title": "不是一个人跑遍各地",
-        "prompt": "哪种安排能分担事务？",
-        "rightNote": "分工让各地事务有人承接，仍需要联系与管理。",
-        "wrongNote": "分工让各地事务有人承接，仍需要联系与管理。",
+        "phase": "桥边看情况，桌边记下来",
+        "title": "桥边看情况，桌边记下来",
+        "prompt": "谁在桥边听居民说明情况？",
+        "rightNote": "现场与记录，把事情慢慢弄清。",
+        "wrongNote": "再看看他在桥边，还是在桌边。",
         "sourceIds": [
-          "SCIO-YUAN-PROVINCES",
-          "NEAC-MONGOL-YUAN-HISTORY"
+          "CASS-YUAN-LOCAL-OFFICIALS"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听听问题，看看图里的线索。",
+          "hotspots": [
+            {
+              "id": "site",
+              "label": "桥边核对情况的人",
+              "x": 0.06,
+              "y": 0.35,
+              "width": 0.4,
+              "height": 0.26
+            },
+            {
+              "id": "record",
+              "label": "桌边记录的人",
+              "x": 0.72,
+              "y": 0.37,
+              "width": 0.265,
+              "height": 0.19
+            }
+          ],
+          "rounds": [
+            {
+              "id": "site",
+              "question": "谁在桥边听居民说明情况？",
+              "targetId": "site",
+              "feedback": "他来到现场，听居民指明具体位置。",
+              "retry": "他正写记录，再找桥边的人。",
+              "nextLabel": "再找记录情况的工作",
+              "audio": {
+                "question": {
+                  "id": "quest-1c745f898952c0e6",
+                  "text": "谁在桥边听居民说明情况？"
+                },
+                "right": {
+                  "id": "quest-cf7bc2140698fe3f",
+                  "text": "他来到现场，听居民指明具体位置。"
+                },
+                "wrong": {
+                  "id": "quest-0372b6dfa56f50cb",
+                  "text": "他正写记录，再找桥边的人。"
+                }
+              }
+            },
+            {
+              "id": "record",
+              "question": "谁正把了解的情况写下来？",
+              "targetId": "record",
+              "feedback": "记录帮助把地方情况联系起来。",
+              "retry": "他在桥边核对，再找拿笔的人。",
+              "nextLabel": "记录还缺什么线索",
+              "audio": {
+                "question": {
+                  "id": "quest-a311f8c250ccf57b",
+                  "text": "谁正把了解的情况写下来？"
+                },
+                "right": {
+                  "id": "quest-9a3712c36a11bf99",
+                  "text": "记录帮助把地方情况联系起来。"
+                },
+                "wrong": {
+                  "id": "quest-4394f0773f7e8fca",
+                  "text": "他在桥边核对，再找拿笔的人。"
+                }
+              }
+            }
+          ],
+          "imageLabel": "故事插画",
+          "sceneAspectRatio": 1.5
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "桥边看情况，桌边记下来",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "现场与记录，把事情慢慢弄清。",
+          "retry": "再看看他在桥边，还是在桌边。",
+          "nextLabel": "记录还缺什么线索",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "不是一个人跑遍各地",
-          "screenText": "中央和地方有不同机构与官员。事务需要分工，不能都靠一个人往返。",
-          "displayText": "中央和地方有不同机构与官员。事务需要分工，不能都靠一个人往返。",
-          "narration": "中央和地方有不同机构与官员。事务需要分工，不能都靠一个人往返。"
+          "title": "桥边看情况，桌边记下来",
+          "screenText": "居民说桥面有块石头松了。当地办事的人来到桥边核对，另一人把情况记下来。这个故事让我们看看，地方事务需要哪些工作。",
+          "displayText": "居民说桥面有块石头松了。当地办事的人来到桥边核对，另一人把情况记下来。这个故事让我们看看，地方事务需要哪些工作。",
+          "narration": "居民说桥面有块石头松了。当地办事的人来到桥边核对，另一人把情况记下来。这个故事让我们看看，地方事务需要哪些工作。"
         },
-        "assetId": "study-30f2f5ab452a3e5c",
-        "image": "/content/study-scenes/study-30f2f5ab452a3e5c.svg",
-        "studyImage": "/content/study-scenes/study-30f2f5ab452a3e5c.svg",
-        "studyImageAlt": "中心，各地负责者",
-        "imageAlt": "中心，各地负责者",
-        "imageCaption": "学习示意 · 中心，各地负责者",
-        "imageBoundary": "自制学习示意。联系图不是元代疆界图；虚构信件只演示信息流转，不冒充真实政务档案。",
+        "assetId": "yuan-local-affairs-v1",
+        "image": "/content/step-images/yuan-local-affairs-v1.jpg",
+        "studyImage": "/content/study-scenes/study-8bebea298ff42f5c.svg",
+        "studyImageAlt": "桥边看情况，桌边记下来",
+        "imageAlt": "元代地方事务：现场核对与文书记录教学插画",
+        "imageCaption": "元代地方事务：现场核对与文书记录教学插画",
+        "imageBoundary": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
         "audio": {
+          "lead": {
+            "id": "quest-1c745f898952c0e6",
+            "text": "谁在桥边听居民说明情况？"
+          },
           "transition": {
-            "id": "quest-96b99bc846916e48",
-            "text": "不是一个人跑遍各地。"
+            "id": "quest-52671f3ecf19485d",
+            "text": "桥边看情况，桌边记下来。"
           },
           "intro": {
-            "id": "quest-77521934c645c3f9",
-            "text": "中央和地方有不同机构与官员。事务需要分工，不能都靠一个人往返。"
+            "id": "quest-0e932357b64a293f",
+            "text": "居民说桥面有块石头松了。当地办事的人来到桥边核对，另一人把情况记下来。这个故事让我们看看，地方事务需要哪些工作。"
           },
           "question": {
-            "id": "quest-5babf9c8d0dfb4a8",
-            "text": "哪种安排能分担事务？"
+            "id": "quest-1c745f898952c0e6",
+            "text": "谁在桥边听居民说明情况？"
           },
           "image": {
-            "id": "quest-47da497573a23bbb",
-            "text": "这是学习示意图：中心，各地负责者。哪种安排能分担事务？"
+            "id": "quest-1a75b3bce85b5f9e",
+            "text": "这张是元代地方事务：现场核对与文书记录教学插画。居民说桥面有块石头松了。当地办事的人来到桥边核对，另一人把情况记下来。这个故事让我们看看，地方事务需要哪些工作。"
           },
           "right": {
-            "id": "quest-4a7d954e071f8ad1",
-            "text": "找到了。分工让各地事务有人承接，仍需要联系与管理。"
+            "id": "quest-5e818d07cb4db23e",
+            "text": "现场与记录，把事情慢慢弄清。"
           },
           "wrong": {
-            "id": "quest-bed84362f2179def",
-            "text": "再比较一下。分工让各地事务有人承接，仍需要联系与管理。"
+            "id": "quest-4ade6338bf16394e",
+            "text": "再看看他在桥边，还是在桌边。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-04-yuan-unification-journey-1",
-            "label": "不同地方有人负责",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-ab630f7255587cf9.svg",
-            "imageAlt": "各地分工",
-            "audio": {
-              "id": "quest-25b1d0d45c377e47",
-              "text": "不同地方有人负责"
-            }
-          },
-          {
-            "id": "cn-ancient-07-04-yuan-unification-journey-2",
-            "label": "一个人处理所有地点",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-09e498421f309dcd.svg",
-            "imageAlt": "一个人包办",
-            "audio": {
-              "id": "quest-78d69157eca8cda8",
-              "text": "一个人处理所有地点"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "行省和今天省份",
-        "title": "行省和今天省份",
-        "prompt": "给元代地图标注时，应怎样做？",
-        "rightNote": "名字相近或有渊源，不等于所有范围和作用都相同。",
-        "wrongNote": "名字相近或有渊源，不等于所有范围和作用都相同。",
+        "phase": "只写桥坏了，还不够清楚",
+        "title": "只写桥坏了，还不够清楚",
+        "prompt": "要弄清桥哪里坏了，先做什么？",
+        "rightNote": "就地查看，才能把具体情况弄清。",
+        "wrongNote": "抄写能留下记录，眼前还需要核对现场。",
         "sourceIds": [
-          "SCIO-YUAN-PROVINCES",
-          "NEAC-MONGOL-YUAN-HISTORY"
+          "CASS-YUAN-LOCAL-OFFICIALS"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "pick",
+          "hint": "听听问题，看看图里的线索。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "只写桥坏了，还不够清楚",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "就地查看，才能把具体情况弄清。",
+          "retry": "抄写能留下记录，眼前还需要核对现场。",
+          "nextLabel": "把地方办事的发现连起来",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "行省和今天省份",
-          "screenText": "元代发展行省制度。它与后来的地方制度有联系，但职能和边界都不能照搬到今天。",
-          "displayText": "元代发展行省制度。它与后来的地方制度有联系，但职能和边界都不能照搬到今天。",
-          "narration": "元代发展行省制度。它与后来的地方制度有联系，但职能和边界都不能照搬到今天。"
+          "title": "只写桥坏了，还不够清楚",
+          "screenText": "记录上只写着桥面有问题，还没说清哪一处。要了解眼前的情况，小伙伴该先找人做什么？",
+          "displayText": "记录上只写着桥面有问题，还没说清哪一处。要了解眼前的情况，小伙伴该先找人做什么？",
+          "narration": "记录上只写着桥面有问题，还没说清哪一处。要了解眼前的情况，小伙伴该先找人做什么？"
         },
-        "assetId": "study-142e3c0efea1caf9",
-        "image": "/content/study-scenes/study-142e3c0efea1caf9.svg",
-        "studyImage": "/content/study-scenes/study-142e3c0efea1caf9.svg",
-        "studyImageAlt": "元代行省，今天省份",
-        "imageAlt": "元代行省，今天省份",
-        "imageCaption": "学习示意 · 元代行省，今天省份",
-        "imageBoundary": "自制学习示意。联系图不是元代疆界图；虚构信件只演示信息流转，不冒充真实政务档案。",
+        "assetId": "yuan-local-affairs-v1",
+        "image": "/content/step-images/yuan-local-affairs-v1.jpg",
+        "studyImage": "/content/study-scenes/study-c19e961d5ed3b2af.svg",
+        "studyImageAlt": "只写桥坏了，还不够清楚",
+        "imageAlt": "元代地方事务：现场核对与文书记录教学插画",
+        "imageCaption": "元代地方事务：现场核对与文书记录教学插画",
+        "imageBoundary": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
         "audio": {
+          "lead": {
+            "id": "quest-aa534d13a591cb1f",
+            "text": "要弄清桥哪里坏了，先做什么？"
+          },
           "transition": {
-            "id": "quest-547dd7249dd9b356",
-            "text": "行省和今天省份。"
+            "id": "quest-13960aebb72e3fc5",
+            "text": "只写桥坏了，还不够清楚。"
           },
           "intro": {
-            "id": "quest-9f227ee744cf8ee3",
-            "text": "元代发展行省制度。它与后来的地方制度有联系，但职能和边界都不能照搬到今天。"
+            "id": "quest-2fec3ddeb7ef113d",
+            "text": "记录上只写着桥面有问题，还没说清哪一处。要了解眼前的情况，小伙伴该先找人做什么？"
           },
           "question": {
-            "id": "quest-0201e29617fb8bf5",
-            "text": "给元代地图标注时，应怎样做？"
+            "id": "quest-aa534d13a591cb1f",
+            "text": "要弄清桥哪里坏了，先做什么？"
           },
           "image": {
-            "id": "quest-604de274cfaaef99",
-            "text": "这是学习示意图：元代行省，今天省份。给元代地图标注时，应怎样做？"
+            "id": "quest-e54ee8abf03e3acd",
+            "text": "这张是元代地方事务：现场核对与文书记录教学插画。记录上只写着桥面有问题，还没说清哪一处。要了解眼前的情况，小伙伴该先找人做什么？"
           },
           "right": {
-            "id": "quest-4f8c952aab866dc7",
-            "text": "找到了。名字相近或有渊源，不等于所有范围和作用都相同。"
+            "id": "quest-f0d8c82e45b6a3e4",
+            "text": "就地查看，才能把具体情况弄清。"
           },
           "wrong": {
-            "id": "quest-29545a02e975e934",
-            "text": "再比较一下。名字相近或有渊源，不等于所有范围和作用都相同。"
+            "id": "quest-c29ff49638c383a9",
+            "text": "抄写能留下记录，眼前还需要核对现场。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-07-04-yuan-unification-change-1",
-            "label": "按元代资料核对",
+            "label": "到桥边核对具体位置",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-af6bd0cc151b5dea.svg",
-            "imageAlt": "核对元代资料",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "yuan-local-affairs-v1",
+              "crop": {
+                "x": 30,
+                "y": 80,
+                "width": 695,
+                "height": 515,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/yuan-local-affairs-v1.jpg",
+              "imageAlt": "到桥边核对具体位置"
+            },
+            "image": "/content/study-scenes/study-bf124f6e7d905e23.svg",
+            "imageAlt": "到桥边核对具体位置",
             "audio": {
-              "id": "quest-7519b34d55185b81",
-              "text": "按元代资料核对"
+              "id": "quest-00e9d3cd05ab2efd",
+              "text": "到桥边核对具体位置"
             }
           },
           {
             "id": "cn-ancient-07-04-yuan-unification-change-2",
-            "label": "直接套今天全部省界",
+            "label": "在桌边继续整理文书",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-df81beac35e4602d.svg",
-            "imageAlt": "照抄今天省界",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "yuan-local-affairs-v1",
+              "crop": {
+                "x": 1080,
+                "y": 105,
+                "width": 450,
+                "height": 460,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/yuan-local-affairs-v1.jpg",
+              "imageAlt": "在桌边继续整理文书"
+            },
+            "image": "/content/study-scenes/study-6e49b95df0fbc5b0.svg",
+            "imageAlt": "在桌边继续整理文书",
             "audio": {
-              "id": "quest-ce10e438d07185df",
-              "text": "直接套今天全部省界"
+              "id": "quest-976c0efeb08050a8",
+              "text": "在桌边继续整理文书"
             }
           }
         ]
@@ -634,85 +972,77 @@
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "信送到了还没完",
-        "title": "信送到了还没完",
-        "prompt": "送达以后接哪一步？",
-        "rightNote": "消息到达与事情解决是两步，需要有人继续工作。",
-        "wrongNote": "消息到达与事情解决是两步，需要有人继续工作。",
+        "phase": "分担事情，也要彼此联系",
+        "title": "分担事情，也要彼此联系",
+        "prompt": "地方办事，与中央相互联系",
+        "rightNote": "记住分工与联系，不用背下所有机构名。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
           "SCIO-YUAN-PROVINCES",
-          "NEAC-MONGOL-YUAN-HISTORY"
+          "CASS-YUAN-LOCAL-OFFICIALS"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听问题，看看图里的线索。",
+          "continueLabel": "带着地方办事的发现回家"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "分担事情，也要彼此联系",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "记住分工与联系，不用背下所有机构名。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "带着地方办事的发现回家",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 5,
-          "title": "信送到了还没完",
-          "screenText": "传递消息只是一步。接收的人还要查看、处理并回复，分工才真正运转。",
-          "displayText": "传递消息只是一步。接收的人还要查看、处理并回复，分工才真正运转。",
-          "narration": "传递消息只是一步。接收的人还要查看、处理并回复，分工才真正运转。"
+          "title": "分担事情，也要彼此联系",
+          "screenText": "查清情况后，还需要安排实际办理。元代行省等地方机构分担事务、联系中央；不同地区的办法也有差别。今天的省与它们有历史联系，却不能把边界和权力照搬过去。",
+          "displayText": "有人就地办事，也要彼此联系。\n元代行省，不等于今天的省。",
+          "narration": "查清情况后，还需要安排实际办理。元代行省等地方机构分担事务、联系中央；不同地区的办法也有差别。今天的省与它们有历史联系，却不能把边界和权力照搬过去。"
         },
-        "assetId": "study-9dd247cd518a5ba6",
-        "image": "/content/study-scenes/study-9dd247cd518a5ba6.svg",
-        "studyImage": "/content/study-scenes/study-9dd247cd518a5ba6.svg",
-        "studyImageAlt": "送达，处理，回复",
-        "imageAlt": "送达，处理，回复",
-        "imageCaption": "学习示意 · 送达，处理，回复",
-        "imageBoundary": "自制学习示意。联系图不是元代疆界图；虚构信件只演示信息流转，不冒充真实政务档案。",
+        "assetId": "yuan-local-affairs-v1",
+        "image": "/content/step-images/yuan-local-affairs-v1.jpg",
+        "studyImage": "/content/study-scenes/study-460cfcdc6b5fc81a.svg",
+        "studyImageAlt": "分担事情，也要彼此联系",
+        "imageAlt": "元代地方事务：现场核对与文书记录教学插画",
+        "imageCaption": "元代地方事务：现场核对与文书记录教学插画",
+        "imageBoundary": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
         "audio": {
+          "lead": {
+            "id": "quest-fc6fb60a5eab8a9a",
+            "text": "地方办事，与中央相互联系"
+          },
           "transition": {
-            "id": "quest-c2c1ff09bcb1443e",
-            "text": "信送到了还没完。"
+            "id": "quest-1fd80793d9513878",
+            "text": "分担事情，也要彼此联系。"
           },
           "intro": {
-            "id": "quest-16a0e92bcbf199c4",
-            "text": "传递消息只是一步。接收的人还要查看、处理并回复，分工才真正运转。"
+            "id": "quest-5c86f4076a00a22e",
+            "text": "查清情况后，还需要安排实际办理。元代行省等地方机构分担事务、联系中央；不同地区的办法也有差别。今天的省与它们有历史联系，却不能把边界和权力照搬过去。"
           },
           "question": {
-            "id": "quest-770c045f4830370c",
-            "text": "送达以后接哪一步？"
+            "id": "quest-fc6fb60a5eab8a9a",
+            "text": "地方办事，与中央相互联系"
           },
           "image": {
-            "id": "quest-e830e3dcecfd9e5a",
-            "text": "这是学习示意图：送达，处理，回复。送达以后接哪一步？"
+            "id": "quest-ee9d62291fc551b2",
+            "text": "这张是元代地方事务：现场核对与文书记录教学插画。查清情况后，还需要安排实际办理。元代行省等地方机构分担事务、联系中央；不同地区的办法也有差别。今天的省与它们有历史联系，却不能把边界和权力照搬过去。"
           },
           "right": {
-            "id": "quest-3d2fa8670ed30f61",
-            "text": "找到了。消息到达与事情解决是两步，需要有人继续工作。"
+            "id": "quest-9a5d6c2edcefb36b",
+            "text": "记住分工与联系，不用背下所有机构名。"
           },
           "wrong": {
-            "id": "quest-0b3170be0cab66af",
-            "text": "再比较一下。消息到达与事情解决是两步，需要有人继续工作。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-04-yuan-unification-takeaway-1",
-            "label": "查看处理，再回复",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-019baa407f9d0082.svg",
-            "imageAlt": "处理，回复",
-            "audio": {
-              "id": "quest-69c656482152f136",
-              "text": "查看处理，再回复"
-            }
-          },
-          {
-            "id": "cn-ancient-07-04-yuan-unification-takeaway-2",
-            "label": "把信放着就算事情解决",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-d8da90ff96468ed5.svg",
-            "imageAlt": "放着不处理",
-            "audio": {
-              "id": "quest-4c3fae1f958cdd0e",
-              "text": "把信放着就算事情解决"
-            }
-          }
-        ]
+        "options": []
       }
     ],
     "extensionTasks": [
@@ -1014,201 +1344,143 @@
       "authorityLevel": "A",
       "factUse": "916—1368年多政权并立到统一、经济重心南移、城市商业、科技文化和宋元海外贸易的总体脉络",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "CASS-YUAN-LOCAL-OFFICIALS",
+      "institution": "中国社会科学院法学研究所；李治安",
+      "title": "元代县官研究",
+      "url": "https://iolaw.cssn.cn/gdfls/200409/t20040930_4593101.shtml",
+      "type": "institution-history-reference",
+      "authorityLevel": "A",
+      "factUse": "元代地方机构层次、县级官府亲临民事与办理地方事务；虚构桥梁故事只是教学举例",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "BJ-YUAN-DADU-WALL",
+      "institution": "北京市人民政府",
+      "title": "元大都城垣遗址公园",
+      "url": "https://www.beijing.gov.cn/renwen/rwzyd/qgzdwwbhdw/yddcqyz/202210/t20221031_2848744.html",
+      "type": "institution-history-reference",
+      "authorityLevel": "A",
+      "factUse": "公园建立在元大都土城遗址上；遗址现状与元朝都城的关系，不以照片重建古城",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
     {
-      "id": "study-12e0203db8b4be24",
-      "title": "学习示意：1271年 定国号、1279年 统一",
-      "localPath": "reference-assets/focused-quests/study-12e0203db8b4be24.svg",
+      "id": "study-be65ddf9c5cbd5dd",
+      "title": "学习示意：北宋、960—1127年",
+      "localPath": "reference-assets/focused-quests/study-be65ddf9c5cbd5dd.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "1271年 定国号 → 1279年 统一",
+      "caption": "北宋 → 960—1127年",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-0817224c50d93d75",
-      "title": "学习示意：1271年",
-      "localPath": "reference-assets/focused-quests/study-0817224c50d93d75.svg",
+      "id": "study-b978f2a5cb920f1a",
+      "title": "学习示意：从元大都留下的土城墙出发",
+      "localPath": "reference-assets/focused-quests/study-b978f2a5cb920f1a.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "1271年",
+      "caption": "从元大都留下的土城墙出发",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-110d1474eb358c8a",
-      "title": "学习示意：1279年",
-      "localPath": "reference-assets/focused-quests/study-110d1474eb358c8a.svg",
+      "id": "study-975b7e19cba2032e",
+      "title": "学习示意：元朝、1271—1368年",
+      "localPath": "reference-assets/focused-quests/study-975b7e19cba2032e.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "1279年",
+      "caption": "元朝 → 1271—1368年",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-1e75eee64ec0ce42",
-      "title": "学习示意：大都、联系远处",
-      "localPath": "reference-assets/focused-quests/study-1e75eee64ec0ce42.svg",
+      "id": "study-45701140cc0ddef5",
+      "title": "学习示意：都城之外，也要有人办事",
+      "localPath": "reference-assets/focused-quests/study-45701140cc0ddef5.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "大都 → 联系远处",
+      "caption": "都城之外，也要有人办事",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-608bf3ad5cfd0729",
-      "title": "学习示意：有关机构和人员",
-      "localPath": "reference-assets/focused-quests/study-608bf3ad5cfd0729.svg",
+      "id": "study-8bebea298ff42f5c",
+      "title": "学习示意：桥边看情况，桌边记下来",
+      "localPath": "reference-assets/focused-quests/study-8bebea298ff42f5c.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "有关机构和人员",
+      "caption": "桥边看情况，桌边记下来",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-51ec0f34b6680f09",
-      "title": "学习示意：路边石头",
-      "localPath": "reference-assets/focused-quests/study-51ec0f34b6680f09.svg",
+      "id": "study-c19e961d5ed3b2af",
+      "title": "学习示意：只写桥坏了，还不够清楚",
+      "localPath": "reference-assets/focused-quests/study-c19e961d5ed3b2af.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "路边石头",
+      "caption": "只写桥坏了，还不够清楚",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-30f2f5ab452a3e5c",
-      "title": "学习示意：中心、各地负责者",
-      "localPath": "reference-assets/focused-quests/study-30f2f5ab452a3e5c.svg",
+      "id": "study-bf124f6e7d905e23",
+      "title": "学习示意：到桥边核对具体位置",
+      "localPath": "reference-assets/focused-quests/study-bf124f6e7d905e23.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "中心 → 各地负责者",
+      "caption": "到桥边核对具体位置",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-ab630f7255587cf9",
-      "title": "学习示意：各地分工",
-      "localPath": "reference-assets/focused-quests/study-ab630f7255587cf9.svg",
+      "id": "study-6e49b95df0fbc5b0",
+      "title": "学习示意：在桌边继续整理文书",
+      "localPath": "reference-assets/focused-quests/study-6e49b95df0fbc5b0.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "各地分工",
+      "caption": "在桌边继续整理文书",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-09e498421f309dcd",
-      "title": "学习示意：一个人包办",
-      "localPath": "reference-assets/focused-quests/study-09e498421f309dcd.svg",
+      "id": "study-460cfcdc6b5fc81a",
+      "title": "学习示意：分担事情，也要彼此联系",
+      "localPath": "reference-assets/focused-quests/study-460cfcdc6b5fc81a.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "一个人包办",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-142e3c0efea1caf9",
-      "title": "学习示意：元代行省、今天省份",
-      "localPath": "reference-assets/focused-quests/study-142e3c0efea1caf9.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "元代行省 → 今天省份",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-af6bd0cc151b5dea",
-      "title": "学习示意：核对元代资料",
-      "localPath": "reference-assets/focused-quests/study-af6bd0cc151b5dea.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "核对元代资料",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-df81beac35e4602d",
-      "title": "学习示意：照抄今天省界",
-      "localPath": "reference-assets/focused-quests/study-df81beac35e4602d.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "照抄今天省界",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-9dd247cd518a5ba6",
-      "title": "学习示意：送达、处理、回复",
-      "localPath": "reference-assets/focused-quests/study-9dd247cd518a5ba6.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "送达 → 处理 → 回复",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-019baa407f9d0082",
-      "title": "学习示意：处理、回复",
-      "localPath": "reference-assets/focused-quests/study-019baa407f9d0082.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "处理 → 回复",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-d8da90ff96468ed5",
-      "title": "学习示意：放着不处理",
-      "localPath": "reference-assets/focused-quests/study-d8da90ff96468ed5.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "放着不处理",
+      "caption": "分担事情，也要彼此联系",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1262,6 +1534,58 @@
       "clearance": "cleared-project-created",
       "caption": "自制儿童同窗示意：大都、行省、文书和驿站共同参与远距离治理与消息传递。",
       "boundary": "2026-08-12为低龄玩法自制。区域轮廓、节点、道路、官印、文书和人物均为概念化学习符号，不是元代原图、真实文书、精确行省边界或驿路复原；只用于理解多层节点怎样连接，不能据图推出每一道命令的路线和速度。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "yuan-dadu-wall-cutaway",
+      "title": "元大都城墙遗址断面现状照片",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-dadu-wall-cutaway.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:700多年前所筑城墙断面清晰可见_-_panoramio.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "元代城墙遗址 · 2011年照片",
+      "boundary": "照片显示遗址土墙断面与现代植被，并非元代城市原貌；层状土迹是观察点，不能由照片推断行政制度。摄影mayanming，CC BY-SA 3.0。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "yuan-dadu-wall-section",
+      "title": "元大都土城遗址公园土垣照片",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-dadu-wall-section.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:城墙夯土_-_Rammed-Earth_Wall_-_2012.05_-_panoramio.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "元代城墙遗址 · 2012年公园照片",
+      "boundary": "照片显示公园中的土垣与树木，不是元代城墙完整原貌；今日植被也不代表元代环境。摄影rheins，CC BY 3.0。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "yuan-local-affairs-v1",
+      "title": "元代地方事务：现场核对与文书记录教学插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-local-affairs-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "yuan-friends-reunion-v1",
+      "title": "三位小伙伴回看元朝地方事务和驿站的插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-friends-reunion-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "今天的旅行手册回顾图；桥、文书、马与空白圆牌是新画的学习线索，不冒充元代真实文书或符牌。完整书页以contain取景，不裁掉工作内容。",
       "childVisibility": "child-ok"
     }
   ],

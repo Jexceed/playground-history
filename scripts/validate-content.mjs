@@ -45,6 +45,7 @@ const catalogs = catalogPaths.map(readJson);
 const catalog = catalogs[0];
 const productMap = readJson("content/product-map.json");
 const childEntryPoints = readJson("content/child-entry-points.json");
+const focusedChapterById = new Map(readJson("content/focused-quests.json").chapters.map(chapter => [chapter.id, chapter]));
 const stepImageOverrideRegistry = readJson("content/step-image-overrides.json");
 const childLanguageGlossary = readJson("content/child-language-glossary.json");
 const voicePronunciations = readJson("content/voice-pronunciations.json");
@@ -196,7 +197,8 @@ for (const item of voicePronunciations.entries) {
     const chapter = catalogChapterById.get(chapterId);
     const detailText = fs.readFileSync(path.join(root, chapter.detailPath), "utf8");
     const entryText = JSON.stringify(childEntryById.get(chapterId));
-    assert(`${entryText}\n${detailText}`.includes(item.text), `配音读音表 ${item.text} 未出现在章节 ${chapterId}`);
+    const focusedText = JSON.stringify(focusedChapterById.get(chapterId) ?? {});
+    assert(`${entryText}\n${detailText}\n${focusedText}`.includes(item.text), `配音读音表 ${item.text} 未出现在章节 ${chapterId}`);
     pronunciationCoverage.add(chapterId);
   }
 }

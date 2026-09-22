@@ -15,27 +15,28 @@
   "throughline": "从《本草纲目》《天工开物》《农政全书》、明代城镇商业与小说戏曲等证据观察科技、经济和文化，同时放入全球经济互动背景。",
   "childEntry": {
     "id": "cn-ancient-08-04-economy-knowledge-culture",
-    "childTitle": "跟宋应星问一问工匠",
-    "prompt": "一本书怎样把工匠的办法留给后来的人？",
-    "takeaway": "宋应星的《天工开物》记录生产技术；观察、请教和整理离不开劳动者的实践。",
+    "childTitle": "宋应星为什么把工匠写进书？",
+    "prompt": "砖怎么做，布怎么织？《天工开物》把许多人的生产手艺写进图文。小伙伴也试着观察一次，再留下记录。",
+    "takeaway": "宋应星整理生产技术，1637年刊行《天工开物》。工匠长期积累的经验，经观察和图文记录，可以让更多人了解。",
     "object": "《本草纲目》《天工开物》与《南都繁会图》",
     "people": [
       "宋应星",
-      "劳动者"
+      "长期积累经验的工匠"
     ],
     "place": "南京及明代城乡市场",
     "culture": "昆曲与明代文学",
-    "care": "纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。",
-    "playableSource": "content/focused-quests.json"
+    "care": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
+    "playableSource": "content/focused-quests.json",
+    "preferredAssetId": "ming-craft-observation-v1"
   },
   "textbookConnection": {
     "id": "cn-ancient-08-04-economy-knowledge-culture",
     "featured": {
       "type": "人物",
       "icon": "📚",
-      "title": "宋应星与劳动者",
-      "childBridge": "一本书怎样把工匠的办法留给后来的人？",
-      "evidenceBoundary": "纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。"
+      "title": "宋应星与长期积累经验的工匠",
+      "childBridge": "砖怎么做，布怎么织？《天工开物》把许多人的生产手艺写进图文。小伙伴也试着观察一次，再留下记录。",
+      "evidenceBoundary": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。"
     },
     "companions": [
       {
@@ -63,39 +64,41 @@
       "NMC-BENCAO-GANGMU",
       "NMC-TIANGONG-KAIWU",
       "UNESCO-BENCAO-GANGMU",
-      "PEP-HISTORY-7B-2026-TRIAL"
+      "PEP-HISTORY-7B-2026-TRIAL",
+      "NLC-TIANGONG-STRUCTURE",
+      "NLC-TIANGONG-1637-SCAN"
     ]
   },
   "childStory": [
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "两本书的时间",
-      "text": "李时珍在1578年完成《本草纲目》书稿。宋应星的《天工开物》在1637年刊行，都属于明代。"
+      "label": "从真实材料走进明朝",
+      "text": "这页古书把做砖的工序画出来了。它来自1637年刊行的《天工开物》，作者宋应星生活在明朝。书里还记录种粮、织布等许多生产手艺。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "把目光放到工匠手上",
-      "text": "今天跟着《天工开物》看制作。技术不只来自书桌，也来自许多工匠的实践。"
+      "label": "普通人的手艺，也值得记录",
+      "text": "衣服和饭食，都离不开劳动。宋应星把许多生产知识整理成《天工开物》，用文字和图画说明。今天的小伙伴也来练习：看清一位工匠怎样织布，再把过程记下来。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "做法要按先后记",
-      "text": "看这条简化纺织图：有纤维，纺成线，再织成布。我们只用图理解顺序。"
+      "label": "织布的人，记录的人",
+      "text": "织布的人操作织机，旁边的人把看到的方法画下来。先找正在做的动作，再找把动作留下来的记录。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "看过以后还要整理",
-      "text": "把见到的办法写下、画下，再比较核对，后来的人才有材料可以学习。"
+      "label": "漂亮的布，是怎样织成的",
+      "text": "小伙伴已经看见一卷漂亮的布，现在想知道线怎样变成布。为了把方法讲清楚，还需要观察哪一处？"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "书是谁的成果",
-      "text": "作者整理成书，工匠创造和实践做法。不能把所有工艺都说成宋应星独自发明。"
+      "label": "一本书，许多人的经验",
+      "text": "《天工开物》记录了许多生产技术。宋应星整理这些知识，背后还有工匠长期的实践。图文能帮助后来的人了解方法，但学会手艺还需要亲自练习、继续改进。"
     }
   ],
   "glossary": [
@@ -218,81 +221,174 @@
     "hook": {
       "kind": "具体任务",
       "icon": "🔎",
-      "label": "跟宋应星问一问工匠",
-      "question": "一本书怎样把工匠的办法留给后来的人？"
+      "label": "宋应星为什么把工匠写进书？",
+      "question": "砖怎么做，布怎么织？《天工开物》把许多人的生产手艺写进图文。小伙伴也试着观察一次，再留下记录。"
     },
-    "cta": "去把做法画下来",
-    "anchor": "宋应星与劳动者",
-    "boundary": "纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。",
+    "cta": "观察工匠怎样留下手艺",
+    "anchor": "宋应星与长期积累经验的工匠",
+    "boundary": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
     "evidence": [
       {
-        "id": "tiangong-kaiwu-casting-illustration",
-        "title": "《天工开物》铸鼎插图",
-        "localPath": "reference-assets/ming-qing/tiangong-kaiwu-casting.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tiangong_Kaiwu_Tripod_Casting.jpg",
+        "id": "tiangong-1637-brickmaking",
+        "title": "1637年《天工开物》砖瓦制作书影",
+        "localPath": "reference-assets/ming-qing/tiangong-1637-brickmaking.png",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:NLC892-411999010751-35275_天工開物_第3冊.pdf",
         "sourceFile": null,
         "licensePath": null,
         "license": "Public Domain Mark 1.0",
         "clearance": "cleared-open-license",
-        "caption": "《天工开物》传本中的铸鼎工序插图。",
-        "boundary": "历史技术书中的传刊插图，不是1637年作坊照片，也不能据一页复原所有设备、人数和步骤。原图400×309像素，尺寸较小，不宜过度放大。",
+        "caption": "明代1637年刊本 · 砖瓦制作图",
+        "boundary": "1637年刊本第3册书影，图示砖瓦制作，后续织布故事用于体验另一种工艺的观察与记录。不是宋应星的亲历照片，也不要求儿童辨读古字。",
         "childVisibility": "child-ok",
-        "image": "/content/step-images/tiangong-kaiwu-casting-illustration.jpg"
+        "image": "/content/step-images/tiangong-1637-brickmaking.jpg"
       }
     ],
+    "photoAlbum": null,
     "coverAsset": {
-      "id": "tiangong-kaiwu-casting-illustration",
-      "title": "《天工开物》铸鼎插图",
-      "localPath": "reference-assets/ming-qing/tiangong-kaiwu-casting.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tiangong_Kaiwu_Tripod_Casting.jpg",
+      "id": "ming-craft-observation-v1",
+      "title": "织布与记录教学故事图",
+      "localPath": "reference-assets/ming-qing/ming-craft-observation-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
       "licensePath": null,
-      "license": "Public Domain Mark 1.0",
-      "clearance": "cleared-open-license",
-      "caption": "《天工开物》传本中的铸鼎工序插图。",
-      "boundary": "历史技术书中的传刊插图，不是1637年作坊照片，也不能据一页复原所有设备、人数和步骤。原图400×309像素，尺寸较小，不宜过度放大。",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/tiangong-kaiwu-casting-illustration.jpg"
+      "image": "/content/step-images/ming-craft-observation-v1.jpg"
     },
-    "presentation": null,
-    "sceneAsset": null,
-    "narrativeAssets": [],
-    "coverImage": "/content/step-images/tiangong-kaiwu-casting-illustration.jpg",
-    "coverImageAlt": "《天工开物》铸鼎插图",
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "ming-craft-observation-v1",
+      "sceneAlt": "宋应星为什么把工匠写进书？的儿童故事插画",
+      "title": "宋应星为什么把工匠写进书？",
+      "evidenceTitle": "1637年《天工开物》砖瓦制作书影",
+      "evidenceLine": "真实材料与故事插画分别看。",
+      "evidenceNarration": "看看古书怎样把做砖的工具和工序画下来。这是真实的1637年刊本书影，不要求认出古字。后面的织布图，是另一种工艺的教学故事。",
+      "guide": "听听问题，点图回答。",
+      "alignHint": "",
+      "familyHint": "回看图里的线索，再和家人说说发现。",
+      "familyLabel": "和家人回看今天的发现",
+      "familyMode": "actions",
+      "nextLabel": "继续看故事",
+      "lastLabel": "把发现带回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "ming-friends-reunion-v1",
+        "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
+        "reunionAspectRatio": 1.82,
+        "coverCaption": "宋应星为什么把工匠写进书？",
+        "coverNarration": "砖怎么做，布怎么织？《天工开物》把许多人的生产手艺写进图文。小伙伴也试着观察一次，再留下记录。",
+        "stationLine": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
+        "stationNarration": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
+        "closingCaption": "带着发现回家",
+        "closingNarration": "宋应星整理生产技术，1637年刊行《天工开物》。工匠长期积累的经验，经观察和图文记录，可以让更多人了解。",
+        "closingLine": "看见怎样做，再把方法留下来。",
+        "fictionNote": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
+        "reunionFit": "contain",
+        "reunionImage": "/content/step-images/ming-friends-reunion-v1.jpg",
+        "stationAudio": {
+          "id": "quest-85f0f7da351bfce2",
+          "text": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。"
+        },
+        "closingAudio": {
+          "id": "quest-4952eedf40a4bf20",
+          "text": "宋应星整理生产技术，1637年刊行《天工开物》。工匠长期积累的经验，经观察和图文记录，可以让更多人了解。"
+        }
+      },
+      "sceneImage": "/content/step-images/ming-craft-observation-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-0b9b875fc048e992",
+        "text": "看看古书怎样把做砖的工具和工序画下来。这是真实的1637年刊本书影，不要求认出古字。后面的织布图，是另一种工艺的教学故事。"
+      },
+      "guideAudio": {
+        "id": "quest-556f5af30cc82d77",
+        "text": "听听问题，点图回答。"
+      }
+    },
+    "sceneAsset": {
+      "id": "ming-craft-observation-v1",
+      "title": "织布与记录教学故事图",
+      "localPath": "reference-assets/ming-qing/ming-craft-observation-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/ming-craft-observation-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "ming-friends-reunion-v1",
+        "title": "三位小伙伴回看明朝发现的手册插画",
+        "localPath": "reference-assets/ming-qing/ming-friends-reunion-v1.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史照片。",
+        "boundary": "现代旅行手册回顾图，图中小画是新绘的学习线索，不是历史照片、原稿或精确机械图。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/ming-friends-reunion-v1.jpg"
+      },
+      {
+        "id": "ming-craft-observation-v1",
+        "title": "织布与记录教学故事图",
+        "localPath": "reference-assets/ming-qing/ming-craft-observation-v1.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史照片。",
+        "boundary": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/ming-craft-observation-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/ming-craft-observation-v1.jpg",
+    "coverImageAlt": "织布与记录教学故事图",
     "coverImageKind": "历史材料",
     "coverAudio": {
-      "id": "quest-1ffeefd668815b56",
-      "text": "跟宋应星问一问工匠。一本书怎样把工匠的办法留给后来的人？准备好就点“去把做法画下来”。"
+      "id": "quest-e7da4d1ada4a2fba",
+      "text": "砖怎么做，布怎么织？《天工开物》把许多人的生产手艺写进图文。小伙伴也试着观察一次，再留下记录。"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-4fa02336c1feb18c",
-      "text": "宋应星的《天工开物》记录生产技术；观察、请教和整理离不开劳动者的实践。"
+      "id": "quest-4952eedf40a4bf20",
+      "text": "宋应星整理生产技术，1637年刊行《天工开物》。工匠长期积累的经验，经观察和图文记录，可以让更多人了解。"
     },
     "finish": {
-      "title": "把一个小动作教给家人",
+      "title": "看见怎样做，再把方法留下来。",
       "actions": [
-        "选“拿纸、对齐、对折”三个安全动作，慢慢做一遍。",
-        "请家人按顺序复做，你指出哪一步没说明白。"
+        "先指织机的工作，再指记录，告诉家人两者怎样连接。",
+        "请家人慢慢演示叠一张纸，你先看，再画两个步骤说明怎样做。"
       ],
-      "parent": "体验记录技术的价值，不让孩子采药、辨药或尝植物；《本草纲目》只作同代知识整理的连接。",
+      "parent": "使用安全日常动作体验观察与记录；不把古代技术书作为未经验证的医疗或工艺操作指南。",
       "sceneStepIndexes": [
         2,
         3
       ],
       "actionAudio": [
         {
-          "id": "quest-7512647934bc557a",
-          "text": "选“拿纸、对齐、对折”三个安全动作，慢慢做一遍。"
+          "id": "quest-477e241e8ae4ef46",
+          "text": "先指织机的工作，再指记录，告诉家人两者怎样连接。"
         },
         {
-          "id": "quest-9afc4d85a45e7a4e",
-          "text": "请家人按顺序复做，你指出哪一步没说明白。"
+          "id": "quest-75da40ffe95aa98b",
+          "text": "请家人慢慢演示叠一张纸，你先看，再画两个步骤说明怎样做。"
         }
       ],
       "introAudio": {
-        "id": "quest-59c047f56e39b452",
-        "text": "把一个小动作教给家人。选“拿纸、对齐、对折”三个安全动作，慢慢做一遍。请家人按顺序复做，你指出哪一步没说明白。"
+        "id": "quest-4952eedf40a4bf20",
+        "text": "宋应星整理生产技术，1637年刊行《天工开物》。工匠长期积累的经验，经观察和图文记录，可以让更多人了解。"
       }
     },
     "estimatedMinutes": 6,
@@ -305,83 +401,146 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "两本书的时间",
-        "title": "两本书的时间",
-        "prompt": "哪件事在前？",
-        "rightNote": "两位作者都认真整理知识，这里先区分两本书和各自时间。",
-        "wrongNote": "两位作者都认真整理知识，这里先区分两本书和各自时间。",
+        "phase": "从真实材料走进明朝",
+        "title": "从真实材料走进明朝",
+        "prompt": "1637年的这本书，属于哪一朝？",
+        "rightNote": "明朝的宋应星，把生产手艺整理成书。",
+        "wrongNote": "清朝在后，这本书初刊在明朝。",
         "sourceIds": [
-          "NMC-TIANGONG-KAIWU",
-          "NMC-BENCAO-GANGMU",
-          "UNESCO-BENCAO-GANGMU"
+          "NLC-TIANGONG-STRUCTURE",
+          "NLC-TIANGONG-1637-SCAN"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听听问题，看看图里的线索。"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "从真实材料走进明朝",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "明朝的宋应星，把生产手艺整理成书。",
+          "retry": "清朝在后，这本书初刊在明朝。",
+          "nextLabel": "看看为什么要记录手艺",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "tiangong-1637-brickmaking",
+          "title": "1637年《天工开物》砖瓦制作书影",
+          "localPath": "reference-assets/ming-qing/tiangong-1637-brickmaking.png",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:NLC892-411999010751-35275_天工開物_第3冊.pdf",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "Public Domain Mark 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "明代1637年刊本 · 砖瓦制作图",
+          "boundary": "1637年刊本第3册书影，图示砖瓦制作，后续织布故事用于体验另一种工艺的观察与记录。不是宋应星的亲历照片，也不要求儿童辨读古字。 明代1637年刊本 · 砖瓦制作图",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/tiangong-1637-brickmaking.jpg",
+          "label": "点开真材料，听听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 315,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "国家图书馆：《天工开物》专题陈列",
+              "url": "https://www.nlc.cn/nmcb/gonggao/20210628_202456.shtml"
+            },
+            {
+              "title": "国家图书馆馆藏；Wikimedia Commons开放扫描文件页：1637年宋应星自刻本《天工开物》第3册",
+              "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999010751-35275_天工開物_第3冊.pdf"
+            },
+            {
+              "title": "图像原始文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999010751-35275_天工開物_第3冊.pdf"
+            }
+          ],
+          "audio": {
+            "id": "quest-0b9b875fc048e992",
+            "text": "看看古书怎样把做砖的工具和工序画下来。这是真实的1637年刊本书影，不要求认出古字。后面的织布图，是另一种工艺的教学故事。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "两本书的时间",
-          "screenText": "李时珍在1578年完成《本草纲目》书稿。宋应星的《天工开物》在1637年刊行，都属于明代。",
-          "displayText": "李时珍在1578年完成《本草纲目》书稿。宋应星的《天工开物》在1637年刊行，都属于明代。",
-          "narration": "李时珍在1578年完成《本草纲目》书稿。宋应星的《天工开物》在1637年刊行，都属于明代。"
+          "title": "从真实材料走进明朝",
+          "screenText": "这页古书把做砖的工序画出来了。它来自1637年刊行的《天工开物》，作者宋应星生活在明朝。书里还记录种粮、织布等许多生产手艺。",
+          "displayText": "这页古书把做砖的工序画出来了。它来自1637年刊行的《天工开物》，作者宋应星生活在明朝。书里还记录种粮、织布等许多生产手艺。",
+          "narration": "这页古书把做砖的工序画出来了。它来自1637年刊行的《天工开物》，作者宋应星生活在明朝。书里还记录种粮、织布等许多生产手艺。"
         },
-        "assetId": "study-118b2e45b7d25e71",
-        "image": "/content/study-scenes/study-118b2e45b7d25e71.svg",
-        "studyImage": "/content/study-scenes/study-118b2e45b7d25e71.svg",
-        "studyImageAlt": "1578年 本草成稿，1637年 天工刊行",
-        "imageAlt": "1578年 本草成稿，1637年 天工刊行",
-        "imageCaption": "学习示意 · 1578年 本草成稿，1637年 天工刊行",
-        "imageBoundary": "自制学习示意。纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。",
+        "assetId": "study-ed76d4b44b8f0668",
+        "image": "/content/study-scenes/study-ed76d4b44b8f0668.svg",
+        "studyImage": "/content/study-scenes/study-ed76d4b44b8f0668.svg",
+        "studyImageAlt": "从真实材料走进明朝",
+        "imageAlt": "从真实材料走进明朝",
+        "imageCaption": "学习示意 · 从真实材料走进明朝",
+        "imageBoundary": "自制学习示意。书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
         "audio": {
+          "lead": {
+            "id": "quest-47b14bfb60b57ca9",
+            "text": "《天工开物》初刊于明朝1637年。"
+          },
           "transition": {
-            "id": "quest-0df64d27aab2a80a",
-            "text": "两本书的时间。"
+            "id": "quest-f743a58cdb4b8575",
+            "text": "从真实材料走进明朝。"
           },
           "intro": {
-            "id": "quest-1b3d7d37e2794b02",
-            "text": "李时珍在1578年完成《本草纲目》书稿。宋应星的《天工开物》在1637年刊行，都属于明代。"
+            "id": "quest-438da8402d22a383",
+            "text": "这页古书把做砖的工序画出来了。它来自1637年刊行的《天工开物》，作者宋应星生活在明朝。书里还记录种粮、织布等许多生产手艺。"
           },
           "question": {
-            "id": "quest-9de56ca95d39d80a",
-            "text": "哪件事在前？"
+            "id": "quest-7da1809bf408291e",
+            "text": "1637年的这本书，属于哪一朝？"
           },
           "image": {
-            "id": "quest-4f649715993175e8",
-            "text": "这是学习示意图：1578年 本草成稿，1637年 天工刊行。哪件事在前？"
+            "id": "quest-babd3fbe93a82027",
+            "text": "这是学习示意图：从真实材料走进明朝。1637年的这本书，属于哪一朝？"
           },
           "right": {
-            "id": "quest-5ccf129d650c25fc",
-            "text": "找到了。两位作者都认真整理知识，这里先区分两本书和各自时间。"
+            "id": "quest-eeb9ed27b2f49f02",
+            "text": "明朝的宋应星，把生产手艺整理成书。"
           },
           "wrong": {
-            "id": "quest-5cced8532d0ce503",
-            "text": "再比较一下。两位作者都认真整理知识，这里先区分两本书和各自时间。"
+            "id": "quest-df85874982a37888",
+            "text": "清朝在后，这本书初刊在明朝。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-08-04-economy-knowledge-culture-time-1",
-            "label": "1578年《本草纲目》成稿",
+            "label": "明朝 · 1368—1644年",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-e5361fe864f9b896.svg",
-            "imageAlt": "1578年",
+            "objectView": {
+              "kind": "era",
+              "name": "明朝",
+              "date": "1368—1644年",
+              "stationImage": "/images/history-stations/later.webp",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-c1e2142733a7aafe.svg",
+            "imageAlt": "明朝，1368—1644年",
             "audio": {
-              "id": "quest-fb709ab7f71eedff",
-              "text": "1578年《本草纲目》成稿"
+              "id": "quest-82f94fc733063f6c",
+              "text": "明朝 · 1368—1644年"
             }
           },
           {
             "id": "cn-ancient-08-04-economy-knowledge-culture-time-2",
-            "label": "1637年《天工开物》刊行",
+            "label": "清朝 · 1644年入关以后",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-d70ef2cd0cb924ad.svg",
-            "imageAlt": "1637年",
+            "objectView": {
+              "kind": "era",
+              "name": "清朝",
+              "date": "1644年入关以后",
+              "stationImage": "/images/history-stations/later.webp",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-aff85b6be241200a.svg",
+            "imageAlt": "清朝，1644年入关以后",
             "audio": {
-              "id": "quest-9a693f643929e2b7",
-              "text": "1637年《天工开物》刊行"
+              "id": "quest-599237464d14c854",
+              "text": "清朝 · 1644年入关以后"
             }
           }
         ]
@@ -390,253 +549,339 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "把目光放到工匠手上",
-        "title": "把目光放到工匠手上",
-        "prompt": "想知道一种东西怎样做，先看谁？",
-        "rightNote": "观察实际制作，才能追问步骤和工具怎样配合。",
-        "wrongNote": "观察实际制作，才能追问步骤和工具怎样配合。",
+        "phase": "普通人的手艺，也值得记录",
+        "title": "普通人的手艺，也值得记录",
+        "prompt": "手艺从劳动中来，图文把它留下",
+        "rightNote": "工匠的经验，是这本书的重要内容。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
-          "NMC-TIANGONG-KAIWU",
-          "NMC-BENCAO-GANGMU",
-          "UNESCO-BENCAO-GANGMU"
+          "NLC-TIANGONG-STRUCTURE"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听问题，看看图里的线索。",
+          "continueLabel": "找找操作与记录"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "普通人的手艺，也值得记录",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "工匠的经验，是这本书的重要内容。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "找找操作与记录",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "把目光放到工匠手上",
-          "screenText": "今天跟着《天工开物》看制作。技术不只来自书桌，也来自许多工匠的实践。",
-          "displayText": "今天跟着《天工开物》看制作。技术不只来自书桌，也来自许多工匠的实践。",
-          "narration": "今天跟着《天工开物》看制作。技术不只来自书桌，也来自许多工匠的实践。"
+          "title": "普通人的手艺，也值得记录",
+          "screenText": "衣服和饭食，都离不开劳动。宋应星把许多生产知识整理成《天工开物》，用文字和图画说明。今天的小伙伴也来练习：看清一位工匠怎样织布，再把过程记下来。",
+          "displayText": "不是只看做好的东西。\n还要看，人们怎样把它做出来。",
+          "narration": "衣服和饭食，都离不开劳动。宋应星把许多生产知识整理成《天工开物》，用文字和图画说明。今天的小伙伴也来练习：看清一位工匠怎样织布，再把过程记下来。"
         },
-        "assetId": "study-62dcfc13c2cf8c4b",
-        "image": "/content/study-scenes/study-62dcfc13c2cf8c4b.svg",
-        "studyImage": "/content/study-scenes/study-62dcfc13c2cf8c4b.svg",
-        "studyImageAlt": "工匠实践，书中记录",
-        "imageAlt": "工匠实践，书中记录",
-        "imageCaption": "学习示意 · 工匠实践，书中记录",
-        "imageBoundary": "自制学习示意。纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。",
+        "assetId": "ming-craft-observation-v1",
+        "image": "/content/step-images/ming-craft-observation-v1.jpg",
+        "studyImage": "/content/study-scenes/study-4f9405a91550bb48.svg",
+        "studyImageAlt": "普通人的手艺，也值得记录",
+        "imageAlt": "织布与记录教学故事图",
+        "imageCaption": "织布与记录教学故事图",
+        "imageBoundary": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
         "audio": {
+          "lead": {
+            "id": "quest-d44aa7663419d82c",
+            "text": "手艺从劳动中来，图文把它留下"
+          },
           "transition": {
-            "id": "quest-86f81638e89da25b",
-            "text": "把目光放到工匠手上。"
+            "id": "quest-e671aa8966910c5e",
+            "text": "普通人的手艺，也值得记录。"
           },
           "intro": {
-            "id": "quest-697dd1d7fb292355",
-            "text": "今天跟着《天工开物》看制作。技术不只来自书桌，也来自许多工匠的实践。"
+            "id": "quest-85d311dd817a7026",
+            "text": "衣服和饭食，都离不开劳动。宋应星把许多生产知识整理成《天工开物》，用文字和图画说明。今天的小伙伴也来练习：看清一位工匠怎样织布，再把过程记下来。"
           },
           "question": {
-            "id": "quest-6aa72cd1286079a9",
-            "text": "想知道一种东西怎样做，先看谁？"
+            "id": "quest-d44aa7663419d82c",
+            "text": "手艺从劳动中来，图文把它留下"
           },
           "image": {
-            "id": "quest-f364968919622551",
-            "text": "这是学习示意图：工匠实践，书中记录。想知道一种东西怎样做，先看谁？"
+            "id": "quest-4579478b215d0a3c",
+            "text": "这张是织布与记录教学故事图。衣服和饭食，都离不开劳动。宋应星把许多生产知识整理成《天工开物》，用文字和图画说明。今天的小伙伴也来练习：看清一位工匠怎样织布，再把过程记下来。"
           },
           "right": {
-            "id": "quest-7a792f9a71aaba42",
-            "text": "找到了。观察实际制作，才能追问步骤和工具怎样配合。"
+            "id": "quest-cecda565dc42e925",
+            "text": "工匠的经验，是这本书的重要内容。"
           },
           "wrong": {
-            "id": "quest-6bbc9d4d81c1ae4f",
-            "text": "再比较一下。观察实际制作，才能追问步骤和工具怎样配合。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-08-04-economy-knowledge-culture-beginning-1",
-            "label": "实际制作的工匠",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-c492f718f476a2c5.svg",
-            "imageAlt": "制作的工匠",
-            "audio": {
-              "id": "quest-1c30fa5d29da121e",
-              "text": "实际制作的工匠"
-            }
-          },
-          {
-            "id": "cn-ancient-08-04-economy-knowledge-culture-beginning-2",
-            "label": "只看书封面上的花纹",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-9fec1685b22e923a.svg",
-            "imageAlt": "封面花纹",
-            "audio": {
-              "id": "quest-9384af5c2e84057b",
-              "text": "只看书封面上的花纹"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "做法要按先后记",
-        "title": "做法要按先后记",
-        "prompt": "布放在这条流程的哪里？",
-        "rightNote": "材料经过加工，才成为布；真实工艺还有更多步骤。",
-        "wrongNote": "材料经过加工，才成为布；真实工艺还有更多步骤。",
+        "phase": "织布的人，记录的人",
+        "title": "织布的人，记录的人",
+        "prompt": "哪里正在把线织成布？",
+        "rightNote": "操作产生经验，记录帮助人们了解。",
+        "wrongNote": "看看织机和书页分别在哪里。",
         "sourceIds": [
-          "NMC-TIANGONG-KAIWU",
-          "NMC-BENCAO-GANGMU",
-          "UNESCO-BENCAO-GANGMU"
+          "NLC-TIANGONG-STRUCTURE"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听听问题，看看图里的线索。",
+          "hotspots": [
+            {
+              "id": "weave",
+              "label": "左边织机上的操作",
+              "x": 0.04,
+              "y": 0.36,
+              "width": 0.38,
+              "height": 0.24
+            },
+            {
+              "id": "record",
+              "label": "右边画下方法的书页",
+              "x": 0.61,
+              "y": 0.3,
+              "width": 0.25,
+              "height": 0.16
+            }
+          ],
+          "rounds": [
+            {
+              "id": "weave",
+              "question": "哪里正在把线织成布？",
+              "targetId": "weave",
+              "feedback": "手艺来自实际操作和积累。",
+              "retry": "那里在记录，再找织机上的工作。",
+              "nextLabel": "再找把方法记录下来的地方",
+              "audio": {
+                "question": {
+                  "id": "quest-ba5f757eefdfe237",
+                  "text": "哪里正在把线织成布？"
+                },
+                "right": {
+                  "id": "quest-6685079073c87875",
+                  "text": "手艺来自实际操作和积累。"
+                },
+                "wrong": {
+                  "id": "quest-9d6b92986d05a9de",
+                  "text": "那里在记录，再找织机上的工作。"
+                }
+              }
+            },
+            {
+              "id": "record",
+              "question": "哪里把看到的方法留在了纸上？",
+              "targetId": "record",
+              "feedback": "图文可以帮助后来的人了解过程。",
+              "retry": "织机正在工作，记录在另一边的纸上。",
+              "nextLabel": "还想看清怎样织布",
+              "audio": {
+                "question": {
+                  "id": "quest-8a49e3dc2fce1a89",
+                  "text": "哪里把看到的方法留在了纸上？"
+                },
+                "right": {
+                  "id": "quest-c6c4c95bc1841e3b",
+                  "text": "图文可以帮助后来的人了解过程。"
+                },
+                "wrong": {
+                  "id": "quest-3424ec97d886cca7",
+                  "text": "织机正在工作，记录在另一边的纸上。"
+                }
+              }
+            }
+          ],
+          "imageLabel": "故事插画",
+          "sceneAspectRatio": 1.5
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "织布的人，记录的人",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "操作产生经验，记录帮助人们了解。",
+          "retry": "看看织机和书页分别在哪里。",
+          "nextLabel": "要了解方法，应该先看什么",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "做法要按先后记",
-          "screenText": "看这条简化纺织图：有纤维，纺成线，再织成布。我们只用图理解顺序。",
-          "displayText": "看这条简化纺织图：有纤维，纺成线，再织成布。我们只用图理解顺序。",
-          "narration": "看这条简化纺织图：有纤维，纺成线，再织成布。我们只用图理解顺序。"
+          "title": "织布的人，记录的人",
+          "screenText": "织布的人操作织机，旁边的人把看到的方法画下来。先找正在做的动作，再找把动作留下来的记录。",
+          "displayText": "织布的人操作织机，旁边的人把看到的方法画下来。先找正在做的动作，再找把动作留下来的记录。",
+          "narration": "织布的人操作织机，旁边的人把看到的方法画下来。先找正在做的动作，再找把动作留下来的记录。"
         },
-        "assetId": "study-c4bf58524b31adc1",
-        "image": "/content/study-scenes/study-c4bf58524b31adc1.svg",
-        "studyImage": "/content/study-scenes/study-c4bf58524b31adc1.svg",
-        "studyImageAlt": "纤维，纺线，织布",
-        "imageAlt": "纤维，纺线，织布",
-        "imageCaption": "学习示意 · 纤维，纺线，织布",
-        "imageBoundary": "自制学习示意。纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。",
+        "assetId": "ming-craft-observation-v1",
+        "image": "/content/step-images/ming-craft-observation-v1.jpg",
+        "studyImage": "/content/study-scenes/study-1f349ccf466e6b4a.svg",
+        "studyImageAlt": "织布的人，记录的人",
+        "imageAlt": "织布与记录教学故事图",
+        "imageCaption": "织布与记录教学故事图",
+        "imageBoundary": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
         "audio": {
+          "lead": {
+            "id": "quest-ba5f757eefdfe237",
+            "text": "哪里正在把线织成布？"
+          },
           "transition": {
-            "id": "quest-f502436fecc2b7c2",
-            "text": "做法要按先后记。"
+            "id": "quest-468fc86a4ee0ce3e",
+            "text": "织布的人，记录的人。"
           },
           "intro": {
-            "id": "quest-ea399d22c6c9cf7b",
-            "text": "看这条简化纺织图：有纤维，纺成线，再织成布。我们只用图理解顺序。"
+            "id": "quest-4207d32a48b90ce5",
+            "text": "织布的人操作织机，旁边的人把看到的方法画下来。先找正在做的动作，再找把动作留下来的记录。"
           },
           "question": {
-            "id": "quest-9c7e298715c592cb",
-            "text": "布放在这条流程的哪里？"
+            "id": "quest-ba5f757eefdfe237",
+            "text": "哪里正在把线织成布？"
           },
           "image": {
-            "id": "quest-bf08d3aaabb8299c",
-            "text": "这是学习示意图：纤维，纺线，织布。布放在这条流程的哪里？"
+            "id": "quest-9e739551556bd6f2",
+            "text": "这张是织布与记录教学故事图。织布的人操作织机，旁边的人把看到的方法画下来。先找正在做的动作，再找把动作留下来的记录。"
           },
           "right": {
-            "id": "quest-388f07b574f306e7",
-            "text": "找到了。材料经过加工，才成为布；真实工艺还有更多步骤。"
+            "id": "quest-dced3593da06e207",
+            "text": "操作产生经验，记录帮助人们了解。"
           },
           "wrong": {
-            "id": "quest-df374e119d0b6d4e",
-            "text": "再比较一下。材料经过加工，才成为布；真实工艺还有更多步骤。"
+            "id": "quest-c498390e170225cf",
+            "text": "看看织机和书页分别在哪里。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-08-04-economy-knowledge-culture-journey-1",
-            "label": "纤维、纺线之后",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-854f9e32899d7cc9.svg",
-            "imageAlt": "纤维，线，布",
-            "audio": {
-              "id": "quest-9ffeb9ec96902f15",
-              "text": "纤维、纺线之后"
-            }
-          },
-          {
-            "id": "cn-ancient-08-04-economy-knowledge-culture-journey-2",
-            "label": "纤维还没准备之前",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-8c2fc7285192c77f.svg",
-            "imageAlt": "先有布，后备纤维",
-            "audio": {
-              "id": "quest-7db62d167ca73bd4",
-              "text": "纤维还没准备之前"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "看过以后还要整理",
-        "title": "看过以后还要整理",
-        "prompt": "哪种记录更有用？",
-        "rightNote": "感叹可以表达喜欢，步骤与说明才能帮助理解怎样制作。",
-        "wrongNote": "感叹可以表达喜欢，步骤与说明才能帮助理解怎样制作。",
+        "phase": "漂亮的布，是怎样织成的",
+        "title": "漂亮的布，是怎样织成的",
+        "prompt": "要了解织法，接着看哪一处？",
+        "rightNote": "观察织机怎样工作，才看得见过程。",
+        "wrongNote": "成品能看颜色和纹样，还看不到怎样织。",
         "sourceIds": [
-          "NMC-TIANGONG-KAIWU",
-          "NMC-BENCAO-GANGMU",
-          "UNESCO-BENCAO-GANGMU"
+          "NLC-TIANGONG-STRUCTURE"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "pick",
+          "hint": "听听问题，看看图里的线索。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "漂亮的布，是怎样织成的",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "观察织机怎样工作，才看得见过程。",
+          "retry": "成品能看颜色和纹样，还看不到怎样织。",
+          "nextLabel": "把手艺的发现带进书里",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "看过以后还要整理",
-          "screenText": "把见到的办法写下、画下，再比较核对，后来的人才有材料可以学习。",
-          "displayText": "把见到的办法写下、画下，再比较核对，后来的人才有材料可以学习。",
-          "narration": "把见到的办法写下、画下，再比较核对，后来的人才有材料可以学习。"
+          "title": "漂亮的布，是怎样织成的",
+          "screenText": "小伙伴已经看见一卷漂亮的布，现在想知道线怎样变成布。为了把方法讲清楚，还需要观察哪一处？",
+          "displayText": "小伙伴已经看见一卷漂亮的布，现在想知道线怎样变成布。为了把方法讲清楚，还需要观察哪一处？",
+          "narration": "小伙伴已经看见一卷漂亮的布，现在想知道线怎样变成布。为了把方法讲清楚，还需要观察哪一处？"
         },
-        "assetId": "study-7690196bccbde195",
-        "image": "/content/study-scenes/study-7690196bccbde195.svg",
-        "studyImage": "/content/study-scenes/study-7690196bccbde195.svg",
-        "studyImageAlt": "观察，图文记录，整理",
-        "imageAlt": "观察，图文记录，整理",
-        "imageCaption": "学习示意 · 观察，图文记录，整理",
-        "imageBoundary": "自制学习示意。纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。",
+        "assetId": "ming-craft-observation-v1",
+        "image": "/content/step-images/ming-craft-observation-v1.jpg",
+        "studyImage": "/content/study-scenes/study-7c1f8804a9be4909.svg",
+        "studyImageAlt": "漂亮的布，是怎样织成的",
+        "imageAlt": "织布与记录教学故事图",
+        "imageCaption": "织布与记录教学故事图",
+        "imageBoundary": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
         "audio": {
+          "lead": {
+            "id": "quest-9f3908800bf6084f",
+            "text": "要了解织法，接着看哪一处？"
+          },
           "transition": {
-            "id": "quest-fa231d0c95338638",
-            "text": "看过以后还要整理。"
+            "id": "quest-6bc7e16c4b66d848",
+            "text": "漂亮的布，是怎样织成的。"
           },
           "intro": {
-            "id": "quest-73b9dcff773904c8",
-            "text": "把见到的办法写下、画下，再比较核对，后来的人才有材料可以学习。"
+            "id": "quest-61f84fe850f9e723",
+            "text": "小伙伴已经看见一卷漂亮的布，现在想知道线怎样变成布。为了把方法讲清楚，还需要观察哪一处？"
           },
           "question": {
-            "id": "quest-05efa7fd2befc716",
-            "text": "哪种记录更有用？"
+            "id": "quest-9f3908800bf6084f",
+            "text": "要了解织法，接着看哪一处？"
           },
           "image": {
-            "id": "quest-5e98c42475cafc74",
-            "text": "这是学习示意图：观察，图文记录，整理。哪种记录更有用？"
+            "id": "quest-83a0e6ea64c9018f",
+            "text": "这张是织布与记录教学故事图。小伙伴已经看见一卷漂亮的布，现在想知道线怎样变成布。为了把方法讲清楚，还需要观察哪一处？"
           },
           "right": {
-            "id": "quest-7761217d16f8d03b",
-            "text": "找到了。感叹可以表达喜欢，步骤与说明才能帮助理解怎样制作。"
+            "id": "quest-88fe247ddf62934c",
+            "text": "观察织机怎样工作，才看得见过程。"
           },
           "wrong": {
-            "id": "quest-3126cf041a20aac7",
-            "text": "再比较一下。感叹可以表达喜欢，步骤与说明才能帮助理解怎样制作。"
+            "id": "quest-8cc19016707eb824",
+            "text": "成品能看颜色和纹样，还看不到怎样织。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-08-04-economy-knowledge-culture-change-1",
-            "label": "步骤配图，说明做法",
+            "label": "观察织机正在怎样工作",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-0161700929a09e21.svg",
-            "imageAlt": "步骤图和说明",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "ming-craft-observation-v1",
+              "crop": {
+                "x": 20,
+                "y": 25,
+                "width": 640,
+                "height": 650,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/ming-craft-observation-v1.jpg",
+              "imageAlt": "观察织机正在怎样工作"
+            },
+            "image": "/content/study-scenes/study-bfab74f168942ba1.svg",
+            "imageAlt": "观察织机正在怎样工作",
             "audio": {
-              "id": "quest-4ba6d68bb5e72fb2",
-              "text": "步骤配图，说明做法"
+              "id": "quest-235b877a4016aabd",
+              "text": "观察织机正在怎样工作"
             }
           },
           {
             "id": "cn-ancient-08-04-economy-knowledge-culture-change-2",
-            "label": "只写“真好看”",
+            "label": "只看已经织好的布卷",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-7d04a673c105e120.svg",
-            "imageAlt": "只写真好看",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "ming-craft-observation-v1",
+              "crop": {
+                "x": 55,
+                "y": 740,
+                "width": 715,
+                "height": 205,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/ming-craft-observation-v1.jpg",
+              "imageAlt": "只看已经织好的布卷"
+            },
+            "image": "/content/study-scenes/study-af0121411160c5f6.svg",
+            "imageAlt": "只看已经织好的布卷",
             "audio": {
-              "id": "quest-dc5aa3506849c412",
-              "text": "只写“真好看”"
+              "id": "quest-0d88aa8d4c88063d",
+              "text": "只看已经织好的布卷"
             }
           }
         ]
@@ -645,86 +890,76 @@
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "书是谁的成果",
-        "title": "书是谁的成果",
-        "prompt": "介绍这本书时，要把谁一起讲？",
-        "rightNote": "把记录者与实际劳动者都看见，技术故事才连得起来。",
-        "wrongNote": "把记录者与实际劳动者都看见，技术故事才连得起来。",
+        "phase": "一本书，许多人的经验",
+        "title": "一本书，许多人的经验",
+        "prompt": "把劳动经验写进历史",
+        "rightNote": "作者的整理，与工匠的劳动都值得记住。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
-          "NMC-TIANGONG-KAIWU",
-          "NMC-BENCAO-GANGMU",
-          "UNESCO-BENCAO-GANGMU"
+          "NLC-TIANGONG-STRUCTURE"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听问题，看看图里的线索。",
+          "continueLabel": "带着手艺的发现回家"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "一本书，许多人的经验",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "作者的整理，与工匠的劳动都值得记住。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "带着手艺的发现回家",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 5,
-          "title": "书是谁的成果",
-          "screenText": "作者整理成书，工匠创造和实践做法。不能把所有工艺都说成宋应星独自发明。",
-          "displayText": "作者整理成书，工匠创造和实践做法。不能把所有工艺都说成宋应星独自发明。",
-          "narration": "作者整理成书，工匠创造和实践做法。不能把所有工艺都说成宋应星独自发明。"
+          "title": "一本书，许多人的经验",
+          "screenText": "《天工开物》记录了许多生产技术。宋应星整理这些知识，背后还有工匠长期的实践。图文能帮助后来的人了解方法，但学会手艺还需要亲自练习、继续改进。",
+          "displayText": "许多工匠的经验，整理成图文。\n阅读能了解，手艺还要练习。",
+          "narration": "《天工开物》记录了许多生产技术。宋应星整理这些知识，背后还有工匠长期的实践。图文能帮助后来的人了解方法，但学会手艺还需要亲自练习、继续改进。"
         },
-        "assetId": "study-eaed01b77118babe",
-        "image": "/content/study-scenes/study-eaed01b77118babe.svg",
-        "studyImage": "/content/study-scenes/study-eaed01b77118babe.svg",
-        "studyImageAlt": "工匠，宋应星，书",
-        "imageAlt": "工匠，宋应星，书",
-        "imageCaption": "学习示意 · 工匠，宋应星，书",
-        "imageBoundary": "自制学习示意。纺织图只表示材料加工的大顺序，不声称还原书中全部机械结构或某一作坊。",
+        "assetId": "ming-craft-observation-v1",
+        "image": "/content/step-images/ming-craft-observation-v1.jpg",
+        "studyImage": "/content/study-scenes/study-24cbfc0605c637bd.svg",
+        "studyImageAlt": "一本书，许多人的经验",
+        "imageAlt": "织布与记录教学故事图",
+        "imageCaption": "织布与记录教学故事图",
+        "imageBoundary": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
         "audio": {
+          "lead": {
+            "id": "quest-3455940663841c43",
+            "text": "把劳动经验写进历史"
+          },
           "transition": {
-            "id": "quest-3cb046858cfae036",
-            "text": "书是谁的成果。"
+            "id": "quest-4c1d79326ec1786f",
+            "text": "一本书，许多人的经验。"
           },
           "intro": {
-            "id": "quest-bdcc8815d08cd3d8",
-            "text": "作者整理成书，工匠创造和实践做法。不能把所有工艺都说成宋应星独自发明。"
+            "id": "quest-c326c26c9a8a7ff9",
+            "text": "《天工开物》记录了许多生产技术。宋应星整理这些知识，背后还有工匠长期的实践。图文能帮助后来的人了解方法，但学会手艺还需要亲自练习、继续改进。"
           },
           "question": {
-            "id": "quest-75c95e4e60f796d5",
-            "text": "介绍这本书时，要把谁一起讲？"
+            "id": "quest-3455940663841c43",
+            "text": "把劳动经验写进历史"
           },
           "image": {
-            "id": "quest-63eb4c4103ebf3ef",
-            "text": "这是学习示意图：工匠，宋应星，书。介绍这本书时，要把谁一起讲？"
+            "id": "quest-59710dc5ce05c505",
+            "text": "这张是织布与记录教学故事图。《天工开物》记录了许多生产技术。宋应星整理这些知识，背后还有工匠长期的实践。图文能帮助后来的人了解方法，但学会手艺还需要亲自练习、继续改进。"
           },
           "right": {
-            "id": "quest-f98ebec6d9f95ffa",
-            "text": "找到了。把记录者与实际劳动者都看见，技术故事才连得起来。"
+            "id": "quest-84694e862fa487d0",
+            "text": "作者的整理，与工匠的劳动都值得记住。"
           },
           "wrong": {
-            "id": "quest-a228c2b136ab69c0",
-            "text": "再比较一下。把记录者与实际劳动者都看见，技术故事才连得起来。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-08-04-economy-knowledge-culture-takeaway-1",
-            "label": "作者与长期实践的工匠",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-fbdd5c346ae5b3e7.svg",
-            "imageAlt": "作者和工匠",
-            "audio": {
-              "id": "quest-ef2994a086ac6f21",
-              "text": "作者与长期实践的工匠"
-            }
-          },
-          {
-            "id": "cn-ancient-08-04-economy-knowledge-culture-takeaway-2",
-            "label": "只有作者一个人",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-3a9a85124e3109aa.svg",
-            "imageAlt": "只有作者",
-            "audio": {
-              "id": "quest-0f05fe5e8b8a893d",
-              "text": "只有作者一个人"
-            }
-          }
-        ]
+        "options": []
       }
     ],
     "extensionTasks": [
@@ -1095,6 +1330,26 @@
       "imageUse": "reference-only"
     },
     {
+      "id": "NLC-TIANGONG-STRUCTURE",
+      "institution": "国家图书馆",
+      "title": "《天工开物》专题陈列",
+      "url": "https://www.nlc.cn/nmcb/gonggao/20210628_202456.shtml",
+      "type": "institution-history-reference",
+      "authorityLevel": "A",
+      "factUse": "1637年初刊，上中下三卷、十八篇，生产技术记录；与国博页面18卷的分类口径分开",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NLC-TIANGONG-1637-SCAN",
+      "institution": "国家图书馆馆藏；Wikimedia Commons开放扫描文件页",
+      "title": "1637年宋应星自刻本《天工开物》第3册",
+      "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999010751-35275_天工開物_第3冊.pdf",
+      "type": "institution-history-reference",
+      "authorityLevel": "A",
+      "factUse": "国图善本04915；1637自刻本第3册，儿童展示PDF第7页砖瓦制作插图，保留馆藏水印；文件页仅支撑扫描版本与许可",
+      "imageUse": "open-access"
+    },
+    {
       "id": "PEP-HISTORY-7B-2026-TRIAL",
       "title": "新修订义务教育历史教材七年级下册试教资料",
       "institution": "人民教育出版社",
@@ -1107,197 +1362,119 @@
   ],
   "assets": [
     {
-      "id": "study-118b2e45b7d25e71",
-      "title": "学习示意：1578年 本草成稿、1637年 天工刊行",
-      "localPath": "reference-assets/focused-quests/study-118b2e45b7d25e71.svg",
+      "id": "study-ed76d4b44b8f0668",
+      "title": "学习示意：从真实材料走进明朝",
+      "localPath": "reference-assets/focused-quests/study-ed76d4b44b8f0668.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "1578年 本草成稿 → 1637年 天工刊行",
+      "caption": "从真实材料走进明朝",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-e5361fe864f9b896",
-      "title": "学习示意：1578年",
-      "localPath": "reference-assets/focused-quests/study-e5361fe864f9b896.svg",
+      "id": "study-c1e2142733a7aafe",
+      "title": "学习示意：明朝、1368—1644年",
+      "localPath": "reference-assets/focused-quests/study-c1e2142733a7aafe.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "1578年",
+      "caption": "明朝 → 1368—1644年",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-d70ef2cd0cb924ad",
-      "title": "学习示意：1637年",
-      "localPath": "reference-assets/focused-quests/study-d70ef2cd0cb924ad.svg",
+      "id": "study-aff85b6be241200a",
+      "title": "学习示意：清朝、1644年入关以后",
+      "localPath": "reference-assets/focused-quests/study-aff85b6be241200a.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "1637年",
+      "caption": "清朝 → 1644年入关以后",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-62dcfc13c2cf8c4b",
-      "title": "学习示意：工匠实践、书中记录",
-      "localPath": "reference-assets/focused-quests/study-62dcfc13c2cf8c4b.svg",
+      "id": "study-4f9405a91550bb48",
+      "title": "学习示意：普通人的手艺，也值得记录",
+      "localPath": "reference-assets/focused-quests/study-4f9405a91550bb48.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "工匠实践 → 书中记录",
+      "caption": "普通人的手艺，也值得记录",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-c492f718f476a2c5",
-      "title": "学习示意：制作的工匠",
-      "localPath": "reference-assets/focused-quests/study-c492f718f476a2c5.svg",
+      "id": "study-1f349ccf466e6b4a",
+      "title": "学习示意：织布的人，记录的人",
+      "localPath": "reference-assets/focused-quests/study-1f349ccf466e6b4a.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "制作的工匠",
+      "caption": "织布的人，记录的人",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-9fec1685b22e923a",
-      "title": "学习示意：封面花纹",
-      "localPath": "reference-assets/focused-quests/study-9fec1685b22e923a.svg",
+      "id": "study-7c1f8804a9be4909",
+      "title": "学习示意：漂亮的布，是怎样织成的",
+      "localPath": "reference-assets/focused-quests/study-7c1f8804a9be4909.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "封面花纹",
+      "caption": "漂亮的布，是怎样织成的",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-c4bf58524b31adc1",
-      "title": "学习示意：纤维、纺线、织布",
-      "localPath": "reference-assets/focused-quests/study-c4bf58524b31adc1.svg",
+      "id": "study-bfab74f168942ba1",
+      "title": "学习示意：观察织机正在怎样工作",
+      "localPath": "reference-assets/focused-quests/study-bfab74f168942ba1.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "纤维 → 纺线 → 织布",
+      "caption": "观察织机正在怎样工作",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-854f9e32899d7cc9",
-      "title": "学习示意：纤维、线、布",
-      "localPath": "reference-assets/focused-quests/study-854f9e32899d7cc9.svg",
+      "id": "study-af0121411160c5f6",
+      "title": "学习示意：只看已经织好的布卷",
+      "localPath": "reference-assets/focused-quests/study-af0121411160c5f6.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "纤维 → 线 → 布",
+      "caption": "只看已经织好的布卷",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-8c2fc7285192c77f",
-      "title": "学习示意：先有布、后备纤维",
-      "localPath": "reference-assets/focused-quests/study-8c2fc7285192c77f.svg",
+      "id": "study-24cbfc0605c637bd",
+      "title": "学习示意：一本书，许多人的经验",
+      "localPath": "reference-assets/focused-quests/study-24cbfc0605c637bd.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "先有布 → 后备纤维",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-7690196bccbde195",
-      "title": "学习示意：观察、图文记录、整理",
-      "localPath": "reference-assets/focused-quests/study-7690196bccbde195.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "观察 → 图文记录 → 整理",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-0161700929a09e21",
-      "title": "学习示意：步骤图和说明",
-      "localPath": "reference-assets/focused-quests/study-0161700929a09e21.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "步骤图和说明",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-7d04a673c105e120",
-      "title": "学习示意：只写真好看",
-      "localPath": "reference-assets/focused-quests/study-7d04a673c105e120.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "只写真好看",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-eaed01b77118babe",
-      "title": "学习示意：工匠、宋应星、书",
-      "localPath": "reference-assets/focused-quests/study-eaed01b77118babe.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "工匠 → 宋应星 → 书",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-fbdd5c346ae5b3e7",
-      "title": "学习示意：作者和工匠",
-      "localPath": "reference-assets/focused-quests/study-fbdd5c346ae5b3e7.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "作者和工匠",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-3a9a85124e3109aa",
-      "title": "学习示意：只有作者",
-      "localPath": "reference-assets/focused-quests/study-3a9a85124e3109aa.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "只有作者",
+      "caption": "一本书，许多人的经验",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1338,6 +1515,45 @@
       "clearance": "cleared-open-license",
       "caption": "2023年杭州剧院《紫钗记》昆曲演出照片。",
       "boundary": "这是现代舞台和当代演员的传承实践，画面可见现代灯光及“周末戏曲大舞台”等文字；不能当作明代演出现场或服装舞台的原样复原。原图1920×1280像素，未作修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "tiangong-1637-brickmaking",
+      "title": "1637年《天工开物》砖瓦制作书影",
+      "localPath": "reference-assets/ming-qing/tiangong-1637-brickmaking.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NLC892-411999010751-35275_天工開物_第3冊.pdf",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "明代1637年刊本 · 砖瓦制作图",
+      "boundary": "1637年刊本第3册书影，图示砖瓦制作，后续织布故事用于体验另一种工艺的观察与记录。不是宋应星的亲历照片，也不要求儿童辨读古字。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "ming-craft-observation-v1",
+      "title": "织布与记录教学故事图",
+      "localPath": "reference-assets/ming-qing/ming-craft-observation-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "ming-friends-reunion-v1",
+      "title": "三位小伙伴回看明朝发现的手册插画",
+      "localPath": "reference-assets/ming-qing/ming-friends-reunion-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "现代旅行手册回顾图，图中小画是新绘的学习线索，不是历史照片、原稿或精确机械图。",
       "childVisibility": "child-ok"
     }
   ],

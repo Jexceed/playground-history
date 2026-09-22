@@ -1,0 +1,10 @@
+.history-lab{padding:16px;background:#fff9e9;border:2px solid #d2bd8b;border-radius:24px;color:#365e50;box-shadow:0 7px #dfd1a9}
+.history-lab-diagram{display:block;width:100%;max-height:305px;border-radius:15px}
+.history-lab-status{font-size:19px;line-height:1.5;text-align:center;min-height:3em;margin:12px 0}
+.history-lab-action{display:block;margin:0 auto;padding:12px 26px;min-height:52px;font-size:21px;font-weight:750;color:white;background:#457666;border:2px solid #305f50;border-radius:16px;box-shadow:0 4px #315348;cursor:pointer}
+.history-lab-action:disabled{background:#d6e6d7;color:#486858;box-shadow:none;cursor:default}
+.history-lab-action:focus-visible{outline:3px solid #bd8739;outline-offset:4px}
+.history-lab small{display:block;text-align:center;margin-top:14px;color:#807555;font-size:12px}
+.bench-choice .history-lab-diagram{height:130px}
+
+.history-lab[data-lab-kind="engine"] .history-lab-diagram{max-height:275px}

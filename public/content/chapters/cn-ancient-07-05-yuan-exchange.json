@@ -15,27 +15,28 @@
   "throughline": "从驿站、航海、城市和不同人群的物质文化，观察统一后的交通网络、商业与文化交流。",
   "childEntry": {
     "id": "cn-ancient-07-05-yuan-exchange",
-    "childTitle": "让驿站接住下一封信",
-    "prompt": "消息很远，一匹马能不能一直不休息地跑？",
-    "takeaway": "元代驿站通过人员、马匹与补给接力传递消息；使用有制度，不能等同人人免费住宿。",
+    "childTitle": "元代驿站，怎样把消息接下去？",
+    "prompt": "送公文的人来到驿站，先要核对凭证，再准备下一程的马匹和粮草。消息要走远，谁来接这一棒？",
+    "takeaway": "元代驿站主要服务官方通信和运输。核对凭证、准备马匹粮草、交接文书，需要不同的人配合。道路与港口连接往来，也靠许多人的劳动。",
     "object": "驿站凭证、海船遗物与路线图",
     "people": [
-      "驿站办事者、马夫",
-      "传信人"
+      "元代使者、驿站人员",
+      "供给物资的家庭"
     ],
     "place": "大都、泉州与欧亚交通网络",
     "culture": "旅行记录与多语言交流",
-    "care": "接力图是制度功能示意，不为一件元代瓷器虚构完整旅行路线。泉州遗迹今景经历维护。",
-    "playableSource": "content/focused-quests.json"
+    "care": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
+    "playableSource": "content/focused-quests.json",
+    "preferredAssetId": "yuan-relay-work-v1"
   },
   "textbookConnection": {
     "id": "cn-ancient-07-05-yuan-exchange",
     "featured": {
       "type": "地点",
       "icon": "⛵",
-      "title": "驿站办事者、马夫与传信人",
-      "childBridge": "消息很远，一匹马能不能一直不休息地跑？",
-      "evidenceBoundary": "接力图是制度功能示意，不为一件元代瓷器虚构完整旅行路线。"
+      "title": "元代使者、驿站人员与供给物资的家庭",
+      "childBridge": "送公文的人来到驿站，先要核对凭证，再准备下一程的马匹和粮草。消息要走远，谁来接这一棒？",
+      "evidenceBoundary": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。"
     },
     "companions": [
       {
@@ -57,39 +58,42 @@
     "sourceIds": [
       "UNESCO-SONG-YUAN-QUANZHOU",
       "NMC-LIAO-SONG-XIA-JIN-YUAN",
-      "NMC-ZHIYUAN-BANKNOTE"
+      "NMC-ZHIYUAN-BANKNOTE",
+      "MET-YUAN-PAIZA",
+      "HEBEI-YUAN-RELAY",
+      "GANSU-YUAN-PAIZA-RESEARCH"
     ]
   },
   "childStory": [
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "驿路的时间",
-      "text": "元朝1271年定国号，1368年结束。今天来看元代的驿站与水陆联系。"
+      "label": "从一件真正的通行牌出发",
+      "text": "这件圆牌来自元代，牌上有八思巴文。它是一种通行凭证。小伙伴想去看看：送公文的人来到驿站，怎样按规定继续下一程？"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "马也要歇一歇",
-      "text": "驿路上安排站点，让马匹、人员和物资得到补充。它不是一匹马从头跑到底。"
+      "label": "送消息，也要准备下一程",
+      "text": "元代驿站主要为官方通信和运输服务。使者要按规定出示凭证，站里有人备马、准备粮草。消息能继续走，靠的不只是一匹马，还有供给物资和劳力的人。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "进站要核对什么",
-      "text": "使用官方驿站有规定，需要相应凭证。它不是任何人都能随意取马的地方。"
+      "label": "柜台与马厩，谁在忙",
+      "text": "小伙伴在这幅驿站故事图里，看到柜台边核对圆牌，也看到有人为马备草。先找核对凭证的地方，再找照料马匹的人。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "消息换一双手",
-      "text": "一段路接一段路，有人送、有人接、有人补充粮草。接力靠多种工作配合。"
+      "label": "凭证核对好，下一程怎样接上",
+      "text": "凭证已经核对，下一程的马也准备好了。文书还在使者身上。要让消息继续往前走，接下来该安排哪件事？"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "水路也有人接应",
-      "text": "泉州港的宋元遗迹帮助认识海上往来。港口与陆路各有条件，商船不能自动使用所有官驿。"
+      "label": "陆路有站点，水路也有帮手",
+      "text": "官方文书沿驿路传递，商人和货物也沿道路、桥梁与港口往来。它们的用途和规矩不完全相同。交通把不同地方连起来，也离不开沿途供给与劳动。"
     }
   ],
   "glossary": [
@@ -98,13 +102,6 @@
       "icon": "↔️",
       "plain": "不同的人把物品、知识或做法带给彼此。",
       "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
-      "priority": 1
-    },
-    {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
       "priority": 1
     },
     {
@@ -133,6 +130,13 @@
       "icon": "🔎",
       "plain": "能帮助我们判断过去发生过什么的线索。",
       "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
       "priority": 1
     },
     {
@@ -180,6 +184,15 @@
   ],
   "pronunciations": [
     {
+      "text": "八思巴文",
+      "reading": "Bāsībā wén",
+      "kind": "phrase",
+      "chapterIds": [
+        "cn-ancient-07-05-yuan-exchange"
+      ],
+      "note": "2026-09-21新增编辑校听词；不自动视为人耳试听通过。"
+    },
+    {
       "text": "泉州",
       "reading": "Quánzhōu",
       "kind": "place",
@@ -208,13 +221,41 @@
     "hook": {
       "kind": "具体任务",
       "icon": "🔎",
-      "label": "让驿站接住下一封信",
-      "question": "消息很远，一匹马能不能一直不休息地跑？"
+      "label": "元代驿站，怎样把消息接下去？",
+      "question": "送公文的人来到驿站，先要核对凭证，再准备下一程的马匹和粮草。消息要走远，谁来接这一棒？"
     },
-    "cta": "去换马接着走",
-    "anchor": "驿站办事者、马夫与传信人",
-    "boundary": "接力图是制度功能示意，不为一件元代瓷器虚构完整旅行路线。泉州遗迹今景经历维护。",
+    "cta": "到驿站看看怎样接力",
+    "anchor": "元代使者、驿站人员与供给物资的家庭",
+    "boundary": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
     "evidence": [
+      {
+        "id": "yuan-paiza-met-front",
+        "title": "元代八思巴文铁牌 · 正面",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-paiza-met-front.jpg",
+        "sourcePage": "https://www.metmuseum.org/art/collection/search/39624",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC0 1.0 / Met Open Access",
+        "clearance": "cleared-open-license",
+        "caption": "元代13世纪晚期 · 铁地嵌银",
+        "boundary": "铁地嵌银，馆方定名为通行牌。正反图为同一件Met藏品1993.256，不能串用甘肃馆藏尺寸与来源。文字可供观察，不要求孩子辨读；不能凭牌面推出具体持有人、路线或所有元代凭证的规则。馆方标Public Domain，按Met开放政策CC0使用。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/yuan-paiza-met-front.jpg"
+      },
+      {
+        "id": "yuan-paiza-met-back",
+        "title": "元代八思巴文铁牌 · 背面",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-paiza-met-back.jpg",
+        "sourcePage": "https://www.metmuseum.org/art/collection/search/39624",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC0 1.0 / Met Open Access",
+        "clearance": "cleared-open-license",
+        "caption": "元代13世纪晚期 · 铁地嵌银",
+        "boundary": "铁地嵌银，馆方定名为通行牌。正反图为同一件Met藏品1993.256，不能串用甘肃馆藏尺寸与来源。文字可供观察，不要求孩子辨读；不能凭牌面推出具体持有人、路线或所有元代凭证的规则。馆方标Public Domain，按Met开放政策CC0使用。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/yuan-paiza-met-back.jpg"
+      },
       {
         "id": "quanzhou-luoyang-bridge-current-view",
         "title": "泉州洛阳桥现状照片",
@@ -230,59 +271,224 @@
         "image": "/content/step-images/quanzhou-luoyang-bridge-current-view.jpg"
       }
     ],
+    "photoAlbum": {
+      "id": "yuan-paiza",
+      "title": "元代通行牌的两面",
+      "label": "翻看真正通行牌的两面",
+      "photos": [
+        {
+          "assetId": "yuan-paiza-met-front",
+          "title": "元代八思巴文铁牌 · 正面",
+          "label": "正面轮廓",
+          "period": "元代13世纪晚期",
+          "observation": "圆牌上面还有可以悬挂的环。",
+          "narration": "先看圆形的牌，再看上面的挂环。这是一种通行凭证，不是普通钱币。",
+          "sourceIds": [
+            "MET-YUAN-PAIZA",
+            "MET-OPEN-ACCESS"
+          ],
+          "sourceLinks": [
+            {
+              "title": "The Metropolitan Museum of Art：Safe Conduct Pass (Paiza) with Inscription in Phakpa Script",
+              "url": "https://www.metmuseum.org/art/collection/search/39624"
+            },
+            {
+              "title": "The Metropolitan Museum of Art：Open Access at The Met",
+              "url": "https://www.metmuseum.org/hubs/open-access"
+            },
+            {
+              "title": "图像原始文件与许可",
+              "url": "https://www.metmuseum.org/art/collection/search/39624"
+            }
+          ],
+          "boundary": "铁地嵌银，馆方定名为通行牌。正反图为同一件Met藏品1993.256，不能串用甘肃馆藏尺寸与来源。文字可供观察，不要求孩子辨读；不能凭牌面推出具体持有人、路线或所有元代凭证的规则。馆方标Public Domain，按Met开放政策CC0使用。",
+          "image": "/content/step-images/yuan-paiza-met-front.jpg",
+          "caption": "元代13世纪晚期 · 铁地嵌银",
+          "audio": {
+            "id": "quest-b0796fb11b79e372",
+            "text": "先看圆形的牌，再看上面的挂环。这是一种通行凭证，不是普通钱币。"
+          }
+        },
+        {
+          "assetId": "yuan-paiza-met-back",
+          "title": "元代八思巴文铁牌 · 背面",
+          "label": "背面的文字",
+          "period": "元代13世纪晚期",
+          "observation": "两面的银色字形方向不同。",
+          "narration": "馆方说明，这块牌的两面字形方向相反。它们都是同一块牌的一部分，不要求小伙伴认出这些字。",
+          "sourceIds": [
+            "MET-YUAN-PAIZA",
+            "MET-OPEN-ACCESS"
+          ],
+          "sourceLinks": [
+            {
+              "title": "The Metropolitan Museum of Art：Safe Conduct Pass (Paiza) with Inscription in Phakpa Script",
+              "url": "https://www.metmuseum.org/art/collection/search/39624"
+            },
+            {
+              "title": "The Metropolitan Museum of Art：Open Access at The Met",
+              "url": "https://www.metmuseum.org/hubs/open-access"
+            },
+            {
+              "title": "图像原始文件与许可",
+              "url": "https://www.metmuseum.org/art/collection/search/39624"
+            }
+          ],
+          "boundary": "铁地嵌银，馆方定名为通行牌。正反图为同一件Met藏品1993.256，不能串用甘肃馆藏尺寸与来源。文字可供观察，不要求孩子辨读；不能凭牌面推出具体持有人、路线或所有元代凭证的规则。馆方标Public Domain，按Met开放政策CC0使用。",
+          "image": "/content/step-images/yuan-paiza-met-back.jpg",
+          "caption": "元代13世纪晚期 · 铁地嵌银",
+          "audio": {
+            "id": "quest-d9b5d8425b8ddc34",
+            "text": "馆方说明，这块牌的两面字形方向相反。它们都是同一块牌的一部分，不要求小伙伴认出这些字。"
+          }
+        }
+      ]
+    },
     "coverAsset": {
-      "id": "quanzhou-luoyang-bridge-current-view",
-      "title": "泉州洛阳桥现状照片",
-      "localPath": "reference-assets/liao-song-xia-jin-yuan/quanzhou-luoyang-bridge.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Luoyang_Bridge,_Quanzhou_(20201001150149).jpg",
+      "id": "yuan-relay-work-v1",
+      "title": "元代驿站核对凭证、备马与粮草的故事插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-relay-work-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
       "licensePath": null,
-      "license": "CC BY-SA 4.0",
-      "clearance": "cleared-open-license",
-      "caption": "今天泉州洛阳桥的现状照片；该桥是宋元泉州世界遗产组成部分之一。",
-      "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。下载为1920×1280像素等比例图，未作其他修改。",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/quanzhou-luoyang-bridge-current-view.jpg"
+      "image": "/content/step-images/yuan-relay-work-v1.jpg"
     },
-    "presentation": null,
-    "sceneAsset": null,
-    "narrativeAssets": [],
-    "coverImage": "/content/step-images/quanzhou-luoyang-bridge-current-view.jpg",
-    "coverImageAlt": "泉州洛阳桥现状照片",
-    "coverImageKind": "历史材料",
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "yuan-relay-work-v1",
+      "sceneAlt": "元代驿站，怎样把消息接下去？的儿童故事插画",
+      "title": "元代驿站，怎样把消息接下去？",
+      "evidenceTitle": "元代八思巴文铁牌 · 正面",
+      "evidenceLine": "真实材料与故事插画分别看。",
+      "evidenceNarration": "看看圆牌、挂环和银色文字。这是元代八思巴文通行牌，用来表明办事身份；具体是谁带着它走过哪里，还没有线索。",
+      "guide": "听听问题，点图回答。",
+      "alignHint": "",
+      "familyHint": "回看图里的线索，再和家人说说发现。",
+      "familyLabel": "和家人回看今天的发现",
+      "familyMode": "actions",
+      "nextLabel": "继续看故事",
+      "lastLabel": "把发现带回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "yuan-friends-reunion-v1",
+        "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
+        "reunionAspectRatio": 1.82,
+        "coverCaption": "元代驿站，怎样把消息接下去？",
+        "coverNarration": "送公文的人来到驿站，先要核对凭证，再准备下一程的马匹和粮草。消息要走远，谁来接这一棒？",
+        "stationLine": "元朝完成统一以后，地方事务要分工办理，消息和人员也要借助驿站、道路与港口往来。",
+        "stationNarration": "元朝完成统一以后，地方事务要分工办理，消息和人员也要借助驿站、道路与港口往来。",
+        "closingCaption": "带着发现回家",
+        "closingNarration": "元代驿站主要服务官方通信和运输。核对凭证、准备马匹粮草、交接文书，需要不同的人配合。道路与港口连接往来，也靠许多人的劳动。",
+        "closingLine": "凭证、马匹与人手，一起接住下一程。",
+        "fictionNote": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
+        "reunionFit": "contain",
+        "reunionImage": "/content/step-images/yuan-friends-reunion-v1.jpg",
+        "stationAudio": {
+          "id": "quest-8def5a7bc59fabe6",
+          "text": "元朝完成统一以后，地方事务要分工办理，消息和人员也要借助驿站、道路与港口往来。"
+        },
+        "closingAudio": {
+          "id": "quest-4621c877ff28c3e0",
+          "text": "元代驿站主要服务官方通信和运输。核对凭证、准备马匹粮草、交接文书，需要不同的人配合。道路与港口连接往来，也靠许多人的劳动。"
+        }
+      },
+      "sceneImage": "/content/step-images/yuan-relay-work-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-214a99c20c81aab1",
+        "text": "看看圆牌、挂环和银色文字。这是元代八思巴文通行牌，用来表明办事身份；具体是谁带着它走过哪里，还没有线索。"
+      },
+      "guideAudio": {
+        "id": "quest-556f5af30cc82d77",
+        "text": "听听问题，点图回答。"
+      }
+    },
+    "sceneAsset": {
+      "id": "yuan-relay-work-v1",
+      "title": "元代驿站核对凭证、备马与粮草的故事插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-relay-work-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/yuan-relay-work-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "yuan-friends-reunion-v1",
+        "title": "三位小伙伴回看元朝地方事务和驿站的插画",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-friends-reunion-v1.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史照片。",
+        "boundary": "今天的旅行手册回顾图；桥、文书、马与空白圆牌是新画的学习线索，不冒充元代真实文书或符牌。完整书页以contain取景，不裁掉工作内容。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/yuan-friends-reunion-v1.jpg"
+      },
+      {
+        "id": "yuan-relay-work-v1",
+        "title": "元代驿站核对凭证、备马与粮草的故事插画",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-relay-work-v1.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史照片。",
+        "boundary": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/yuan-relay-work-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/yuan-relay-work-v1.jpg",
+    "coverImageAlt": "元代驿站核对凭证、备马与粮草的故事插画",
+    "coverImageKind": "故事插画",
     "coverAudio": {
-      "id": "quest-e901788c57e4c7b7",
-      "text": "让驿站接住下一封信。消息很远，一匹马能不能一直不休息地跑？准备好就点“去换马接着走”。"
+      "id": "quest-fd40be185cdd121d",
+      "text": "送公文的人来到驿站，先要核对凭证，再准备下一程的马匹和粮草。消息要走远，谁来接这一棒？"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-32eeba9e5d41c4af",
-      "text": "元代驿站通过人员、马匹与补给接力传递消息；使用有制度，不能等同人人免费住宿。"
+      "id": "quest-4621c877ff28c3e0",
+      "text": "元代驿站主要服务官方通信和运输。核对凭证、准备马匹粮草、交接文书，需要不同的人配合。道路与港口连接往来，也靠许多人的劳动。"
     },
     "finish": {
-      "title": "两个人当两座驿站",
+      "title": "有人送，也有人准备下一程！",
       "actions": [
-        "你把想象的信交给家人，他做换马动作。",
-        "再把信交回来，说说谁送信、谁备粮草。"
+        "指柜台边的凭证，再指为马准备粮草的人，说出两种不同工作。",
+        "用一个纸卷和两个位置演示交接；每到一站，都说清是谁接、谁准备下一程。"
       ],
-      "parent": "问“驿站和一块路牌有何不同？”可答有人、有马、有补给。不要把官驿说成全民免费旅馆。",
+      "parent": "重点是官方用途、使用规矩与供给劳动，不是人人拿一面牌就能任意取马。没有给博物馆牌编持有人，也不把商贸都画成官驿运输。",
       "sceneStepIndexes": [
         2,
         3
       ],
       "actionAudio": [
         {
-          "id": "quest-e3404828596329af",
-          "text": "你把想象的信交给家人，他做换马动作。"
+          "id": "quest-0550944a70394aa3",
+          "text": "指柜台边的凭证，再指为马准备粮草的人，说出两种不同工作。"
         },
         {
-          "id": "quest-7c803fdf26cfceeb",
-          "text": "再把信交回来，说说谁送信、谁备粮草。"
+          "id": "quest-743791f8cc54c511",
+          "text": "用一个纸卷和两个位置演示交接；每到一站，都说清是谁接、谁准备下一程。"
         }
       ],
       "introAudio": {
-        "id": "quest-58fc108b0f6b7aa5",
-        "text": "两个人当两座驿站。你把想象的信交给家人，他做换马动作。再把信交回来，说说谁送信、谁备粮草。"
+        "id": "quest-4621c877ff28c3e0",
+        "text": "元代驿站主要服务官方通信和运输。核对凭证、准备马匹粮草、交接文书，需要不同的人配合。道路与港口连接往来，也靠许多人的劳动。"
       }
     },
     "estimatedMinutes": 6,
@@ -295,82 +501,144 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "驿路的时间",
-        "title": "驿路的时间",
-        "prompt": "这次驿路任务在哪一段？",
-        "rightNote": "先到元代看本章的驿站制度，不把后代材料直接套用。",
-        "wrongNote": "先到元代看本章的驿站制度，不把后代材料直接套用。",
+        "phase": "从一件真正的通行牌出发",
+        "title": "从一件真正的通行牌出发",
+        "prompt": "这件通行牌，带我们去哪一朝？",
+        "rightNote": "去元代驿站，看看凭证与接力。",
+        "wrongNote": "明朝在后，这件馆藏圆牌定为元代。",
         "sourceIds": [
-          "NMC-LIAO-SONG-XIA-JIN-YUAN",
-          "UNESCO-SONG-YUAN-QUANZHOU"
+          "MET-YUAN-PAIZA",
+          "HEBEI-YUAN-RELAY"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听听问题，看看图里的线索。"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "从一件真正的通行牌出发",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "去元代驿站，看看凭证与接力。",
+          "retry": "明朝在后，这件馆藏圆牌定为元代。",
+          "nextLabel": "听听驿站为什么要准备这些",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "yuan-paiza-met-front",
+          "title": "元代八思巴文铁牌 · 正面",
+          "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-paiza-met-front.jpg",
+          "sourcePage": "https://www.metmuseum.org/art/collection/search/39624",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC0 1.0 / Met Open Access",
+          "clearance": "cleared-open-license",
+          "caption": "元代13世纪晚期 · 铁地嵌银",
+          "boundary": "铁地嵌银，馆方定名为通行牌。正反图为同一件Met藏品1993.256，不能串用甘肃馆藏尺寸与来源。文字可供观察，不要求孩子辨读；不能凭牌面推出具体持有人、路线或所有元代凭证的规则。馆方标Public Domain，按Met开放政策CC0使用。 元代13世纪晚期 · 铁地嵌银",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/yuan-paiza-met-front.jpg",
+          "label": "点开真材料，听听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 330,
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "The Metropolitan Museum of Art：Safe Conduct Pass (Paiza) with Inscription in Phakpa Script",
+              "url": "https://www.metmuseum.org/art/collection/search/39624"
+            },
+            {
+              "title": "The Metropolitan Museum of Art：Open Access at The Met",
+              "url": "https://www.metmuseum.org/hubs/open-access"
+            },
+            {
+              "title": "图像原始文件与许可",
+              "url": "https://www.metmuseum.org/art/collection/search/39624"
+            }
+          ],
+          "audio": {
+            "id": "quest-214a99c20c81aab1",
+            "text": "看看圆牌、挂环和银色文字。这是元代八思巴文通行牌，用来表明办事身份；具体是谁带着它走过哪里，还没有线索。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "驿路的时间",
-          "screenText": "元朝1271年定国号，1368年结束。今天来看元代的驿站与水陆联系。",
-          "displayText": "元朝1271年定国号，1368年结束。今天来看元代的驿站与水陆联系。",
-          "narration": "元朝1271年定国号，1368年结束。今天来看元代的驿站与水陆联系。"
+          "title": "从一件真正的通行牌出发",
+          "screenText": "这件圆牌来自元代，牌上有八思巴文。它是一种通行凭证。小伙伴想去看看：送公文的人来到驿站，怎样按规定继续下一程？",
+          "displayText": "这件圆牌来自元代，牌上有八思巴文。它是一种通行凭证。小伙伴想去看看：送公文的人来到驿站，怎样按规定继续下一程？",
+          "narration": "这件圆牌来自元代，牌上有八思巴文。它是一种通行凭证。小伙伴想去看看：送公文的人来到驿站，怎样按规定继续下一程？"
         },
-        "assetId": "study-beef64dbec72cee3",
-        "image": "/content/study-scenes/study-beef64dbec72cee3.svg",
-        "studyImage": "/content/study-scenes/study-beef64dbec72cee3.svg",
-        "studyImageAlt": "元1271—1368，明1368—1644",
-        "imageAlt": "元1271—1368，明1368—1644",
-        "imageCaption": "学习示意 · 元1271—1368，明1368—1644",
-        "imageBoundary": "自制学习示意。接力图是制度功能示意，不为一件元代瓷器虚构完整旅行路线。泉州遗迹今景经历维护。",
+        "assetId": "study-fbd6de2f9b7ec508",
+        "image": "/content/study-scenes/study-fbd6de2f9b7ec508.svg",
+        "studyImage": "/content/study-scenes/study-fbd6de2f9b7ec508.svg",
+        "studyImageAlt": "从一件真正的通行牌出发",
+        "imageAlt": "从一件真正的通行牌出发",
+        "imageCaption": "学习示意 · 从一件真正的通行牌出发",
+        "imageBoundary": "自制学习示意。Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
         "audio": {
+          "lead": {
+            "id": "quest-d6f9c91227ece4b9",
+            "text": "这件通行牌来自元代，我们去看驿站怎样接力。"
+          },
           "transition": {
-            "id": "quest-24ce07f12e83e58f",
-            "text": "驿路的时间。"
+            "id": "quest-1180efe71f23e693",
+            "text": "从一件真正的通行牌出发。"
           },
           "intro": {
-            "id": "quest-cab85bb6b8b05028",
-            "text": "元朝1271年定国号，1368年结束。今天来看元代的驿站与水陆联系。"
+            "id": "quest-d933708e3365b6e7",
+            "text": "这件圆牌来自元代，牌上有八思巴文。它是一种通行凭证。小伙伴想去看看：送公文的人来到驿站，怎样按规定继续下一程？"
           },
           "question": {
-            "id": "quest-57735914506df2ba",
-            "text": "这次驿路任务在哪一段？"
+            "id": "quest-529fd51ddbcc3e11",
+            "text": "这件通行牌，带我们去哪一朝？"
           },
           "image": {
-            "id": "quest-c3c353c7c1385528",
-            "text": "这是学习示意图：元1271—1368，明1368—1644。这次驿路任务在哪一段？"
+            "id": "quest-16070ea1a432b0ff",
+            "text": "这是学习示意图：从一件真正的通行牌出发。这件通行牌，带我们去哪一朝？"
           },
           "right": {
-            "id": "quest-5aa8f289dfd3a85e",
-            "text": "找到了。先到元代看本章的驿站制度，不把后代材料直接套用。"
+            "id": "quest-0699f708fa804eb2",
+            "text": "去元代驿站，看看凭证与接力。"
           },
           "wrong": {
-            "id": "quest-a7d919c5eecefd67",
-            "text": "再比较一下。先到元代看本章的驿站制度，不把后代材料直接套用。"
+            "id": "quest-cf556bc9f53104cd",
+            "text": "明朝在后，这件馆藏圆牌定为元代。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-07-05-yuan-exchange-time-1",
-            "label": "元 · 1271—1368年",
+            "label": "元朝 · 13世纪晚期",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-adff78a3430f7b5b.svg",
-            "imageAlt": "元1271—1368",
+            "objectView": {
+              "kind": "era",
+              "name": "元朝",
+              "date": "13世纪晚期",
+              "stationImage": "/images/history-stations/yuan.webp"
+            },
+            "image": "/content/study-scenes/study-3bf709bd4fbb5ebf.svg",
+            "imageAlt": "元朝，13世纪晚期",
             "audio": {
-              "id": "quest-e6b387e3880c7451",
-              "text": "元 · 1271—1368年"
+              "id": "quest-8e8bfc965a12069c",
+              "text": "元朝 · 13世纪晚期"
             }
           },
           {
             "id": "cn-ancient-07-05-yuan-exchange-time-2",
-            "label": "明 · 1368—1644年",
+            "label": "明朝 · 14—17世纪",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-1441bd2b3259e9d5.svg",
-            "imageAlt": "明1368—1644",
+            "objectView": {
+              "kind": "era",
+              "name": "明朝",
+              "date": "14—17世纪",
+              "stationImage": "/images/history-stations/later.webp"
+            },
+            "image": "/content/study-scenes/study-6fe70b1c401f38ea.svg",
+            "imageAlt": "明朝，14—17世纪",
             "audio": {
-              "id": "quest-ef9fe4ef6ca38aa4",
-              "text": "明 · 1368—1644年"
+              "id": "quest-07e9c39b11f97275",
+              "text": "明朝 · 14—17世纪"
             }
           }
         ]
@@ -379,250 +647,343 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "马也要歇一歇",
-        "title": "马也要歇一歇",
-        "prompt": "跑过一段以后，哪里能接力？",
-        "rightNote": "路牌指方向，驿站的人手与物资才能支持接力。",
-        "wrongNote": "路牌指方向，驿站的人手与物资才能支持接力。",
+        "phase": "送消息，也要准备下一程",
+        "title": "送消息，也要准备下一程",
+        "prompt": "核对凭证，再准备下一程",
+        "rightNote": "许多人的工作，托住了驿站接力。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
           "NMC-LIAO-SONG-XIA-JIN-YUAN",
-          "UNESCO-SONG-YUAN-QUANZHOU"
+          "HEBEI-YUAN-RELAY",
+          "GANSU-YUAN-PAIZA-RESEARCH"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听问题，看看图里的线索。",
+          "continueLabel": "找找站里不同的工作"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "送消息，也要准备下一程",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "许多人的工作，托住了驿站接力。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "找找站里不同的工作",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "马也要歇一歇",
-          "screenText": "驿路上安排站点，让马匹、人员和物资得到补充。它不是一匹马从头跑到底。",
-          "displayText": "驿路上安排站点，让马匹、人员和物资得到补充。它不是一匹马从头跑到底。",
-          "narration": "驿路上安排站点，让马匹、人员和物资得到补充。它不是一匹马从头跑到底。"
+          "title": "送消息，也要准备下一程",
+          "screenText": "元代驿站主要为官方通信和运输服务。使者要按规定出示凭证，站里有人备马、准备粮草。消息能继续走，靠的不只是一匹马，还有供给物资和劳力的人。",
+          "displayText": "先核对凭证。\n人手、马匹、粮草一起准备。",
+          "narration": "元代驿站主要为官方通信和运输服务。使者要按规定出示凭证，站里有人备马、准备粮草。消息能继续走，靠的不只是一匹马，还有供给物资和劳力的人。"
         },
-        "assetId": "study-dbb7c49842d588c4",
-        "image": "/content/study-scenes/study-dbb7c49842d588c4.svg",
-        "studyImage": "/content/study-scenes/study-dbb7c49842d588c4.svg",
-        "studyImageAlt": "赶路，驿站",
-        "imageAlt": "赶路，驿站",
-        "imageCaption": "学习示意 · 赶路，驿站",
-        "imageBoundary": "自制学习示意。接力图是制度功能示意，不为一件元代瓷器虚构完整旅行路线。泉州遗迹今景经历维护。",
+        "assetId": "yuan-relay-work-v1",
+        "image": "/content/step-images/yuan-relay-work-v1.jpg",
+        "studyImage": "/content/study-scenes/study-d3d5984f9847a4d8.svg",
+        "studyImageAlt": "送消息，也要准备下一程",
+        "imageAlt": "元代驿站核对凭证、备马与粮草的故事插画",
+        "imageCaption": "元代驿站核对凭证、备马与粮草的故事插画",
+        "imageBoundary": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
         "audio": {
+          "lead": {
+            "id": "quest-41e30f0aefc961f6",
+            "text": "核对凭证，再准备下一程"
+          },
           "transition": {
-            "id": "quest-da230857fce7a0b2",
-            "text": "马也要歇一歇。"
+            "id": "quest-acfdfac78b8b6b5d",
+            "text": "送消息，也要准备下一程。"
           },
           "intro": {
-            "id": "quest-d08e1e718f16718f",
-            "text": "驿路上安排站点，让马匹、人员和物资得到补充。它不是一匹马从头跑到底。"
+            "id": "quest-7b985e44ea7d4cc0",
+            "text": "元代驿站主要为官方通信和运输服务。使者要按规定出示凭证，站里有人备马、准备粮草。消息能继续走，靠的不只是一匹马，还有供给物资和劳力的人。"
           },
           "question": {
-            "id": "quest-b65096944cb34960",
-            "text": "跑过一段以后，哪里能接力？"
+            "id": "quest-41e30f0aefc961f6",
+            "text": "核对凭证，再准备下一程"
           },
           "image": {
-            "id": "quest-159a88d9a05bd54d",
-            "text": "这是学习示意图：赶路，驿站。跑过一段以后，哪里能接力？"
+            "id": "quest-88755d4946d86f14",
+            "text": "这张是元代驿站核对凭证、备马与粮草的故事插画。元代驿站主要为官方通信和运输服务。使者要按规定出示凭证，站里有人备马、准备粮草。消息能继续走，靠的不只是一匹马，还有供给物资和劳力的人。"
           },
           "right": {
-            "id": "quest-967bf6712ea40a48",
-            "text": "找到了。路牌指方向，驿站的人手与物资才能支持接力。"
+            "id": "quest-134ffe2a0914eff3",
+            "text": "许多人的工作，托住了驿站接力。"
           },
           "wrong": {
-            "id": "quest-d5e29d4ee00e427a",
-            "text": "再比较一下。路牌指方向，驿站的人手与物资才能支持接力。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-05-yuan-exchange-beginning-1",
-            "label": "有补给和马匹的驿站",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-c5cd78d063561beb.svg",
-            "imageAlt": "人员马匹补给",
-            "audio": {
-              "id": "quest-708dd43970c2f864",
-              "text": "有补给和马匹的驿站"
-            }
-          },
-          {
-            "id": "cn-ancient-07-05-yuan-exchange-beginning-2",
-            "label": "一块没有人手的路牌",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-5084da2b36df53a7.svg",
-            "imageAlt": "只有路牌",
-            "audio": {
-              "id": "quest-b0fd017a4360b89f",
-              "text": "一块没有人手的路牌"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "进站要核对什么",
-        "title": "进站要核对什么",
-        "prompt": "办事人员先核对哪件？",
-        "rightNote": "凭证与规定决定能否使用，不能靠外表判断。",
-        "wrongNote": "凭证与规定决定能否使用，不能靠外表判断。",
+        "phase": "柜台与马厩，谁在忙",
+        "title": "柜台与马厩，谁在忙",
+        "prompt": "哪里正在核对来人的凭证？",
+        "rightNote": "凭证与补给，各有工作要做。",
+        "wrongNote": "再看看圆牌和马匹分别在哪里。",
         "sourceIds": [
-          "NMC-LIAO-SONG-XIA-JIN-YUAN",
-          "UNESCO-SONG-YUAN-QUANZHOU"
+          "HEBEI-YUAN-RELAY",
+          "GANSU-YUAN-PAIZA-RESEARCH"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听听问题，看看图里的线索。",
+          "hotspots": [
+            {
+              "id": "credential",
+              "label": "柜台边核对凭证的地方",
+              "x": 0.065,
+              "y": 0.32,
+              "width": 0.255,
+              "height": 0.155
+            },
+            {
+              "id": "feed",
+              "label": "为马匹准备粮草的人",
+              "x": 0.5,
+              "y": 0.31,
+              "width": 0.2,
+              "height": 0.2
+            }
+          ],
+          "rounds": [
+            {
+              "id": "credential",
+              "question": "哪里正在核对来人的凭证？",
+              "targetId": "credential",
+              "feedback": "圆牌和登记一起核对，再按规定办事。",
+              "retry": "这里在备草，再找柜台和圆牌。",
+              "nextLabel": "再找为马准备粮草的人",
+              "audio": {
+                "question": {
+                  "id": "quest-b5ee48ffee2a04df",
+                  "text": "哪里正在核对来人的凭证？"
+                },
+                "right": {
+                  "id": "quest-0402d9d371b8d105",
+                  "text": "圆牌和登记一起核对，再按规定办事。"
+                },
+                "wrong": {
+                  "id": "quest-477b3fb3b5011a57",
+                  "text": "这里在备草，再找柜台和圆牌。"
+                }
+              }
+            },
+            {
+              "id": "feed",
+              "question": "谁在为下一程准备马匹和粮草？",
+              "targetId": "feed",
+              "feedback": "有人备草照料马，接力才有条件。",
+              "retry": "那里在核对凭证，再找马槽旁的人。",
+              "nextLabel": "看看下一程怎样开始",
+              "audio": {
+                "question": {
+                  "id": "quest-b2f78610b4805ced",
+                  "text": "谁在为下一程准备马匹和粮草？"
+                },
+                "right": {
+                  "id": "quest-a137e12d2a27c756",
+                  "text": "有人备草照料马，接力才有条件。"
+                },
+                "wrong": {
+                  "id": "quest-7bc1e26993cb410f",
+                  "text": "那里在核对凭证，再找马槽旁的人。"
+                }
+              }
+            }
+          ],
+          "imageLabel": "故事插画",
+          "sceneAspectRatio": 1.5
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "柜台与马厩，谁在忙",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "凭证与补给，各有工作要做。",
+          "retry": "再看看圆牌和马匹分别在哪里。",
+          "nextLabel": "下一程准备好以后",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "进站要核对什么",
-          "screenText": "使用官方驿站有规定，需要相应凭证。它不是任何人都能随意取马的地方。",
-          "displayText": "使用官方驿站有规定，需要相应凭证。它不是任何人都能随意取马的地方。",
-          "narration": "使用官方驿站有规定，需要相应凭证。它不是任何人都能随意取马的地方。"
+          "title": "柜台与马厩，谁在忙",
+          "screenText": "小伙伴在这幅驿站故事图里，看到柜台边核对圆牌，也看到有人为马备草。先找核对凭证的地方，再找照料马匹的人。",
+          "displayText": "小伙伴在这幅驿站故事图里，看到柜台边核对圆牌，也看到有人为马备草。先找核对凭证的地方，再找照料马匹的人。",
+          "narration": "小伙伴在这幅驿站故事图里，看到柜台边核对圆牌，也看到有人为马备草。先找核对凭证的地方，再找照料马匹的人。"
         },
-        "assetId": "study-87ef9b8701e9e797",
-        "image": "/content/study-scenes/study-87ef9b8701e9e797.svg",
-        "studyImage": "/content/study-scenes/study-87ef9b8701e9e797.svg",
-        "studyImageAlt": "来人，核对凭证，安排马匹",
-        "imageAlt": "来人，核对凭证，安排马匹",
-        "imageCaption": "学习示意 · 来人，核对凭证，安排马匹",
-        "imageBoundary": "自制学习示意。接力图是制度功能示意，不为一件元代瓷器虚构完整旅行路线。泉州遗迹今景经历维护。",
+        "assetId": "yuan-relay-work-v1",
+        "image": "/content/step-images/yuan-relay-work-v1.jpg",
+        "studyImage": "/content/study-scenes/study-eede51b11fc16301.svg",
+        "studyImageAlt": "柜台与马厩，谁在忙",
+        "imageAlt": "元代驿站核对凭证、备马与粮草的故事插画",
+        "imageCaption": "元代驿站核对凭证、备马与粮草的故事插画",
+        "imageBoundary": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
         "audio": {
+          "lead": {
+            "id": "quest-b5ee48ffee2a04df",
+            "text": "哪里正在核对来人的凭证？"
+          },
           "transition": {
-            "id": "quest-f6131e3dccf39795",
-            "text": "进站要核对什么。"
+            "id": "quest-f56d72cb814dee70",
+            "text": "柜台与马厩，谁在忙。"
           },
           "intro": {
-            "id": "quest-2c6367758a7fb8ba",
-            "text": "使用官方驿站有规定，需要相应凭证。它不是任何人都能随意取马的地方。"
+            "id": "quest-8c14334fb0d8c6e3",
+            "text": "小伙伴在这幅驿站故事图里，看到柜台边核对圆牌，也看到有人为马备草。先找核对凭证的地方，再找照料马匹的人。"
           },
           "question": {
-            "id": "quest-fd9256beb30b6274",
-            "text": "办事人员先核对哪件？"
+            "id": "quest-b5ee48ffee2a04df",
+            "text": "哪里正在核对来人的凭证？"
           },
           "image": {
-            "id": "quest-587050a0c732b502",
-            "text": "这是学习示意图：来人，核对凭证，安排马匹。办事人员先核对哪件？"
+            "id": "quest-311094cd9fac4c46",
+            "text": "这张是元代驿站核对凭证、备马与粮草的故事插画。小伙伴在这幅驿站故事图里，看到柜台边核对圆牌，也看到有人为马备草。先找核对凭证的地方，再找照料马匹的人。"
           },
           "right": {
-            "id": "quest-c5830fdc3927258f",
-            "text": "找到了。凭证与规定决定能否使用，不能靠外表判断。"
+            "id": "quest-e960490b577594a6",
+            "text": "凭证与补给，各有工作要做。"
           },
           "wrong": {
-            "id": "quest-0105bc4780dbceeb",
-            "text": "再比较一下。凭证与规定决定能否使用，不能靠外表判断。"
+            "id": "quest-aff4aead9f87138b",
+            "text": "再看看圆牌和马匹分别在哪里。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-05-yuan-exchange-journey-1",
-            "label": "通行和使用凭证",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-11c52921ac193af5.svg",
-            "imageAlt": "相关凭证",
-            "audio": {
-              "id": "quest-6ce677a12f754286",
-              "text": "通行和使用凭证"
-            }
-          },
-          {
-            "id": "cn-ancient-07-05-yuan-exchange-journey-2",
-            "label": "衣服是不是好看",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-7f8fa23234e159be.svg",
-            "imageAlt": "衣服颜色",
-            "audio": {
-              "id": "quest-3b5af505d34d2146",
-              "text": "衣服是不是好看"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "消息换一双手",
-        "title": "消息换一双手",
-        "prompt": "哪种做法能继续传消息？",
-        "rightNote": "交接内容和补给才让旅程继续，装饰不代替接力。",
-        "wrongNote": "交接内容和补给才让旅程继续，装饰不代替接力。",
+        "phase": "凭证核对好，下一程怎样接上",
+        "title": "凭证核对好，下一程怎样接上",
+        "prompt": "让消息继续，下一步做什么？",
+        "rightNote": "带好文书，换上备好的马，接着走下一程。",
+        "wrongNote": "备草要继续做，消息还需要人接着送。",
         "sourceIds": [
-          "NMC-LIAO-SONG-XIA-JIN-YUAN",
-          "UNESCO-SONG-YUAN-QUANZHOU"
+          "HEBEI-YUAN-RELAY",
+          "NMC-LIAO-SONG-XIA-JIN-YUAN"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "pick",
+          "hint": "听听问题，看看图里的线索。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "凭证核对好，下一程怎样接上",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "带好文书，换上备好的马，接着走下一程。",
+          "retry": "备草要继续做，消息还需要人接着送。",
+          "nextLabel": "再看看水路与陆路",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "消息换一双手",
-          "screenText": "一段路接一段路，有人送、有人接、有人补充粮草。接力靠多种工作配合。",
-          "displayText": "一段路接一段路，有人送、有人接、有人补充粮草。接力靠多种工作配合。",
-          "narration": "一段路接一段路，有人送、有人接、有人补充粮草。接力靠多种工作配合。"
+          "title": "凭证核对好，下一程怎样接上",
+          "screenText": "凭证已经核对，下一程的马也准备好了。文书还在使者身上。要让消息继续往前走，接下来该安排哪件事？",
+          "displayText": "凭证已经核对，下一程的马也准备好了。文书还在使者身上。要让消息继续往前走，接下来该安排哪件事？",
+          "narration": "凭证已经核对，下一程的马也准备好了。文书还在使者身上。要让消息继续往前走，接下来该安排哪件事？"
         },
-        "assetId": "study-2e21d45101f3d720",
-        "image": "/content/study-scenes/study-2e21d45101f3d720.svg",
-        "studyImage": "/content/study-scenes/study-2e21d45101f3d720.svg",
-        "studyImageAlt": "消息，交接，继续",
-        "imageAlt": "消息，交接，继续",
-        "imageCaption": "学习示意 · 消息，交接，继续",
-        "imageBoundary": "自制学习示意。接力图是制度功能示意，不为一件元代瓷器虚构完整旅行路线。泉州遗迹今景经历维护。",
+        "assetId": "yuan-relay-work-v1",
+        "image": "/content/step-images/yuan-relay-work-v1.jpg",
+        "studyImage": "/content/study-scenes/study-8a56e1297eb3a198.svg",
+        "studyImageAlt": "凭证核对好，下一程怎样接上",
+        "imageAlt": "元代驿站核对凭证、备马与粮草的故事插画",
+        "imageCaption": "元代驿站核对凭证、备马与粮草的故事插画",
+        "imageBoundary": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
         "audio": {
+          "lead": {
+            "id": "quest-b8697a2d87e4e29f",
+            "text": "让消息继续，下一步做什么？"
+          },
           "transition": {
-            "id": "quest-a281c29201101c71",
-            "text": "消息换一双手。"
+            "id": "quest-fe7ca053ded90315",
+            "text": "凭证核对好，下一程怎样接上。"
           },
           "intro": {
-            "id": "quest-5e4afc6aac879f20",
-            "text": "一段路接一段路，有人送、有人接、有人补充粮草。接力靠多种工作配合。"
+            "id": "quest-7b6bc39d8b84fe62",
+            "text": "凭证已经核对，下一程的马也准备好了。文书还在使者身上。要让消息继续往前走，接下来该安排哪件事？"
           },
           "question": {
-            "id": "quest-6c7943ba36e357a4",
-            "text": "哪种做法能继续传消息？"
+            "id": "quest-b8697a2d87e4e29f",
+            "text": "让消息继续，下一步做什么？"
           },
           "image": {
-            "id": "quest-8827d5ade309685a",
-            "text": "这是学习示意图：消息，交接，继续。哪种做法能继续传消息？"
+            "id": "quest-be9632c726b61f60",
+            "text": "这张是元代驿站核对凭证、备马与粮草的故事插画。凭证已经核对，下一程的马也准备好了。文书还在使者身上。要让消息继续往前走，接下来该安排哪件事？"
           },
           "right": {
-            "id": "quest-c59e5a9eca8af3cb",
-            "text": "找到了。交接内容和补给才让旅程继续，装饰不代替接力。"
+            "id": "quest-b571cac8b0bbc452",
+            "text": "带好文书，换上备好的马，接着走下一程。"
           },
           "wrong": {
-            "id": "quest-204166dafc7ddcec",
-            "text": "再比较一下。交接内容和补给才让旅程继续，装饰不代替接力。"
+            "id": "quest-e33fd4ca50550d70",
+            "text": "备草要继续做，消息还需要人接着送。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-07-05-yuan-exchange-change-1",
-            "label": "交接消息并补充马匹",
+            "label": "换马，带文书出发",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-85c453db40c0c642.svg",
-            "imageAlt": "交接，换马补给",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "yuan-relay-work-v1",
+              "crop": {
+                "x": 1210,
+                "y": 140,
+                "width": 315,
+                "height": 250,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/yuan-relay-work-v1.jpg",
+              "imageAlt": "换马，带文书出发"
+            },
+            "image": "/content/study-scenes/study-2540e87aa858860b.svg",
+            "imageAlt": "换马，带文书出发",
             "audio": {
-              "id": "quest-8180ea72ab5917a8",
-              "text": "交接消息并补充马匹"
+              "id": "quest-d4d93e48bf3e5bb1",
+              "text": "换马，带文书出发"
             }
           },
           {
             "id": "cn-ancient-07-05-yuan-exchange-change-2",
-            "label": "只把信封换一种颜色",
+            "label": "继续给槽里的马备草",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-0316526537f51d46.svg",
-            "imageAlt": "换信封颜色",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "yuan-relay-work-v1",
+              "crop": {
+                "x": 735,
+                "y": 160,
+                "width": 460,
+                "height": 350,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/yuan-relay-work-v1.jpg",
+              "imageAlt": "继续给槽里的马备草"
+            },
+            "image": "/content/study-scenes/study-9e3695bfdbec42f3.svg",
+            "imageAlt": "继续给槽里的马备草",
             "audio": {
-              "id": "quest-2b12f43f2a639467",
-              "text": "只把信封换一种颜色"
+              "id": "quest-501d455e11bd6fd0",
+              "text": "继续给槽里的马备草"
             }
           }
         ]
@@ -631,85 +992,110 @@
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "水路也有人接应",
-        "title": "水路也有人接应",
-        "prompt": "要讲水陆联系，哪组线索更完整？",
-        "rightNote": "路线需要港口、站点与人的工作才能发挥作用。",
-        "wrongNote": "路线需要港口、站点与人的工作才能发挥作用。",
+        "phase": "陆路有站点，水路也有帮手",
+        "title": "陆路有站点，水路也有帮手",
+        "prompt": "道路和港口，把往来连起来",
+        "rightNote": "把桥、站和工作的人一起记住。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
           "NMC-LIAO-SONG-XIA-JIN-YUAN",
-          "UNESCO-SONG-YUAN-QUANZHOU"
+          "UNESCO-SONG-YUAN-QUANZHOU",
+          "HEBEI-YUAN-RELAY"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听问题，看看图里的线索。",
+          "continueLabel": "带着驿站的发现回家"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "陆路有站点，水路也有帮手",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "把桥、站和工作的人一起记住。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "带着驿站的发现回家",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "quanzhou-luoyang-bridge-current-view",
+          "title": "泉州洛阳桥 · 遗产现状",
+          "localPath": "reference-assets/liao-song-xia-jin-yuan/quanzhou-luoyang-bridge.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Luoyang_Bridge,_Quanzhou_(20201001150149).jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 4.0",
+          "clearance": "cleared-open-license",
+          "caption": "宋代始建 · 2020年照片 · 后世维修",
+          "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。下载为1920×1280像素等比例图，未作其他修改。 今天泉州洛阳桥的现状照片；该桥是宋元泉州世界遗产组成部分之一。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/quanzhou-luoyang-bridge-current-view.jpg",
+          "label": "点开真材料，听听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 325,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "UNESCO World Heritage Centre：Quanzhou: Emporium of the World in Song-Yuan China",
+              "url": "https://whc.unesco.org/en/list/1561/"
+            },
+            {
+              "title": "照片作者与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Luoyang_Bridge,_Quanzhou_(20201001150149).jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-3200036f2cd214d1",
+            "text": "长长的桥帮助连接陆路。洛阳桥宋代已经建造，后来继续使用和维修，这张是今天的样子，不是元代商人正在过桥。"
+          }
+        },
         "story": {
           "screenNumber": 5,
-          "title": "水路也有人接应",
-          "screenText": "泉州港的宋元遗迹帮助认识海上往来。港口与陆路各有条件，商船不能自动使用所有官驿。",
-          "displayText": "泉州港的宋元遗迹帮助认识海上往来。港口与陆路各有条件，商船不能自动使用所有官驿。",
-          "narration": "泉州港的宋元遗迹帮助认识海上往来。港口与陆路各有条件，商船不能自动使用所有官驿。"
+          "title": "陆路有站点，水路也有帮手",
+          "screenText": "官方文书沿驿路传递，商人和货物也沿道路、桥梁与港口往来。它们的用途和规矩不完全相同。交通把不同地方连起来，也离不开沿途供给与劳动。",
+          "displayText": "站点、道路、桥梁与港口。\n往来离不开沿途的人。",
+          "narration": "官方文书沿驿路传递，商人和货物也沿道路、桥梁与港口往来。它们的用途和规矩不完全相同。交通把不同地方连起来，也离不开沿途供给与劳动。"
         },
-        "assetId": "study-87552e37779d8d68",
-        "image": "/content/study-scenes/study-87552e37779d8d68.svg",
-        "studyImage": "/content/study-scenes/study-87552e37779d8d68.svg",
-        "studyImageAlt": "港口，陆路，接应",
-        "imageAlt": "港口，陆路，接应",
-        "imageCaption": "学习示意 · 港口，陆路，接应",
-        "imageBoundary": "自制学习示意。接力图是制度功能示意，不为一件元代瓷器虚构完整旅行路线。泉州遗迹今景经历维护。",
+        "assetId": "yuan-relay-work-v1",
+        "image": "/content/step-images/yuan-relay-work-v1.jpg",
+        "studyImage": "/content/study-scenes/study-3795c400c27ec662.svg",
+        "studyImageAlt": "陆路有站点，水路也有帮手",
+        "imageAlt": "元代驿站核对凭证、备马与粮草的故事插画",
+        "imageCaption": "元代驿站核对凭证、备马与粮草的故事插画",
+        "imageBoundary": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
         "audio": {
+          "lead": {
+            "id": "quest-7c8971e83e59527a",
+            "text": "道路和港口，把往来连起来"
+          },
           "transition": {
-            "id": "quest-67cd7fa289a674c4",
-            "text": "水路也有人接应。"
+            "id": "quest-34e9de3af67dcade",
+            "text": "陆路有站点，水路也有帮手。"
           },
           "intro": {
-            "id": "quest-d177e1f72e0f9400",
-            "text": "泉州港的宋元遗迹帮助认识海上往来。港口与陆路各有条件，商船不能自动使用所有官驿。"
+            "id": "quest-3467590800e082d5",
+            "text": "官方文书沿驿路传递，商人和货物也沿道路、桥梁与港口往来。它们的用途和规矩不完全相同。交通把不同地方连起来，也离不开沿途供给与劳动。"
           },
           "question": {
-            "id": "quest-6f7a819f9094ebbb",
-            "text": "要讲水陆联系，哪组线索更完整？"
+            "id": "quest-7c8971e83e59527a",
+            "text": "道路和港口，把往来连起来"
           },
           "image": {
-            "id": "quest-d06968638dfaec8a",
-            "text": "这是学习示意图：港口，陆路，接应。要讲水陆联系，哪组线索更完整？"
+            "id": "quest-45bb6f2368081b51",
+            "text": "这张是元代驿站核对凭证、备马与粮草的故事插画。官方文书沿驿路传递，商人和货物也沿道路、桥梁与港口往来。它们的用途和规矩不完全相同。交通把不同地方连起来，也离不开沿途供给与劳动。"
           },
           "right": {
-            "id": "quest-ff28fd978eb5fc4f",
-            "text": "找到了。路线需要港口、站点与人的工作才能发挥作用。"
+            "id": "quest-b1b68a0494129d36",
+            "text": "把桥、站和工作的人一起记住。"
           },
           "wrong": {
-            "id": "quest-e9218c4bb895613f",
-            "text": "再比较一下。路线需要港口、站点与人的工作才能发挥作用。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-05-yuan-exchange-takeaway-1",
-            "label": "港口、道路和沿途的人",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-0dbef779990eca1e.svg",
-            "imageAlt": "港口，站点，人员",
-            "audio": {
-              "id": "quest-82df9ccb00615999",
-              "text": "港口、道路和沿途的人"
-            }
-          },
-          {
-            "id": "cn-ancient-07-05-yuan-exchange-takeaway-2",
-            "label": "只画一条线不画人和站",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-e13b0f5b8ddf0bce.svg",
-            "imageAlt": "只有一根路线",
-            "audio": {
-              "id": "quest-f2f9d9dd9eca125c",
-              "text": "只画一条线不画人和站"
-            }
-          }
-        ]
+        "options": []
       }
     ],
     "extensionTasks": [
@@ -989,201 +1375,153 @@
       "authorityLevel": "A",
       "factUse": "元代纸币制度、至元通行宝钞的文字与使用范围，以及纸币需要制度信用的边界",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "MET-YUAN-PAIZA",
+      "institution": "The Metropolitan Museum of Art",
+      "title": "Safe Conduct Pass (Paiza) with Inscription in Phakpa Script",
+      "url": "https://www.metmuseum.org/art/collection/search/39624",
+      "type": "institution-history-reference",
+      "authorityLevel": "A",
+      "factUse": "中国元代13世纪晚期八思巴文铁牌，铁嵌银，1993.256；正反字形相反；与甘肃馆藏不是同一件",
+      "imageUse": "open-access"
+    },
+    {
+      "id": "HEBEI-YUAN-RELAY",
+      "institution": "河北省民族事务委员会",
+      "title": "道中华：元代驿站网络与凭证",
+      "url": "https://mw.hebei.gov.cn/system/2026/01/06/030371524.shtml",
+      "type": "institution-history-reference",
+      "authorityLevel": "A",
+      "factUse": "元代驿站、凭证与站户供给人力、马匹、粮草的制度背景，不把今天鸡鸣驿建筑当元代原貌",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "GANSU-YUAN-PAIZA-RESEARCH",
+      "institution": "国务院侨务办公室转载；甘肃省博物馆李永平访谈",
+      "title": "元朝治下东西方如何交流？",
+      "url": "https://www.gqb.gov.cn/news/2023/0506/56998.shtml",
+      "type": "institution-history-reference",
+      "authorityLevel": "A",
+      "factUse": "只采用符牌作为军政、通行、传驿查验凭证的解释；甘肃圆牌与Met圆牌分开。不采用文中八思巴文字源及使用范围的过度概括",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
     {
-      "id": "study-beef64dbec72cee3",
-      "title": "学习示意：元1271—1368、明1368—1644",
-      "localPath": "reference-assets/focused-quests/study-beef64dbec72cee3.svg",
+      "id": "study-6fe70b1c401f38ea",
+      "title": "学习示意：明朝、14—17世纪",
+      "localPath": "reference-assets/focused-quests/study-6fe70b1c401f38ea.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "元1271—1368 → 明1368—1644",
+      "caption": "明朝 → 14—17世纪",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-adff78a3430f7b5b",
-      "title": "学习示意：元1271—1368",
-      "localPath": "reference-assets/focused-quests/study-adff78a3430f7b5b.svg",
+      "id": "study-fbd6de2f9b7ec508",
+      "title": "学习示意：从一件真正的通行牌出发",
+      "localPath": "reference-assets/focused-quests/study-fbd6de2f9b7ec508.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "元1271—1368",
+      "caption": "从一件真正的通行牌出发",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-1441bd2b3259e9d5",
-      "title": "学习示意：明1368—1644",
-      "localPath": "reference-assets/focused-quests/study-1441bd2b3259e9d5.svg",
+      "id": "study-3bf709bd4fbb5ebf",
+      "title": "学习示意：元朝、13世纪晚期",
+      "localPath": "reference-assets/focused-quests/study-3bf709bd4fbb5ebf.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "明1368—1644",
+      "caption": "元朝 → 13世纪晚期",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-dbb7c49842d588c4",
-      "title": "学习示意：赶路、驿站",
-      "localPath": "reference-assets/focused-quests/study-dbb7c49842d588c4.svg",
+      "id": "study-d3d5984f9847a4d8",
+      "title": "学习示意：送消息，也要准备下一程",
+      "localPath": "reference-assets/focused-quests/study-d3d5984f9847a4d8.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "赶路 → 驿站",
+      "caption": "送消息，也要准备下一程",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-c5cd78d063561beb",
-      "title": "学习示意：人员马匹补给",
-      "localPath": "reference-assets/focused-quests/study-c5cd78d063561beb.svg",
+      "id": "study-eede51b11fc16301",
+      "title": "学习示意：柜台与马厩，谁在忙",
+      "localPath": "reference-assets/focused-quests/study-eede51b11fc16301.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "人员马匹补给",
+      "caption": "柜台与马厩，谁在忙",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-5084da2b36df53a7",
-      "title": "学习示意：只有路牌",
-      "localPath": "reference-assets/focused-quests/study-5084da2b36df53a7.svg",
+      "id": "study-8a56e1297eb3a198",
+      "title": "学习示意：凭证核对好，下一程怎样接上",
+      "localPath": "reference-assets/focused-quests/study-8a56e1297eb3a198.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "只有路牌",
+      "caption": "凭证核对好，下一程怎样接上",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-87ef9b8701e9e797",
-      "title": "学习示意：来人、核对凭证、安排马匹",
-      "localPath": "reference-assets/focused-quests/study-87ef9b8701e9e797.svg",
+      "id": "study-2540e87aa858860b",
+      "title": "学习示意：换马，带文书出发",
+      "localPath": "reference-assets/focused-quests/study-2540e87aa858860b.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "来人 → 核对凭证 → 安排马匹",
+      "caption": "换马，带文书出发",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-11c52921ac193af5",
-      "title": "学习示意：相关凭证",
-      "localPath": "reference-assets/focused-quests/study-11c52921ac193af5.svg",
+      "id": "study-9e3695bfdbec42f3",
+      "title": "学习示意：继续给槽里的马备草",
+      "localPath": "reference-assets/focused-quests/study-9e3695bfdbec42f3.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "相关凭证",
+      "caption": "继续给槽里的马备草",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-7f8fa23234e159be",
-      "title": "学习示意：衣服颜色",
-      "localPath": "reference-assets/focused-quests/study-7f8fa23234e159be.svg",
+      "id": "study-3795c400c27ec662",
+      "title": "学习示意：陆路有站点，水路也有帮手",
+      "localPath": "reference-assets/focused-quests/study-3795c400c27ec662.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "衣服颜色",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-2e21d45101f3d720",
-      "title": "学习示意：消息、交接、继续",
-      "localPath": "reference-assets/focused-quests/study-2e21d45101f3d720.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "消息 → 交接 → 继续",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-85c453db40c0c642",
-      "title": "学习示意：交接、换马补给",
-      "localPath": "reference-assets/focused-quests/study-85c453db40c0c642.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "交接 → 换马补给",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-0316526537f51d46",
-      "title": "学习示意：换信封颜色",
-      "localPath": "reference-assets/focused-quests/study-0316526537f51d46.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "换信封颜色",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-87552e37779d8d68",
-      "title": "学习示意：港口、陆路、接应",
-      "localPath": "reference-assets/focused-quests/study-87552e37779d8d68.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "港口 → 陆路 → 接应",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-0dbef779990eca1e",
-      "title": "学习示意：港口、站点、人员",
-      "localPath": "reference-assets/focused-quests/study-0dbef779990eca1e.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "港口 → 站点 → 人员",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-e13b0f5b8ddf0bce",
-      "title": "学习示意：只有一根路线",
-      "localPath": "reference-assets/focused-quests/study-e13b0f5b8ddf0bce.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "只有一根路线",
+      "caption": "陆路有站点，水路也有帮手",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1224,6 +1562,58 @@
       "clearance": "cleared-project-created",
       "caption": "自制儿童艺术表现：成年驿卒交接抽象凭证，旅行者在驿站换马并继续前往桥梁和港口。",
       "boundary": "2026-08-12为低龄玩法自制。凭证外形、人物、驿站、桥梁、港口和路线均为概念化艺术表现，不是元代现场、真实凭证复原或精确路线图；只说明凭证、驿站、换马和水陆节点需要多人接力。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "yuan-paiza-met-front",
+      "title": "元代八思巴文铁牌 · 正面",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-paiza-met-front.jpg",
+      "sourcePage": "https://www.metmuseum.org/art/collection/search/39624",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC0 1.0 / Met Open Access",
+      "clearance": "cleared-open-license",
+      "caption": "元代13世纪晚期 · 铁地嵌银",
+      "boundary": "铁地嵌银，馆方定名为通行牌。正反图为同一件Met藏品1993.256，不能串用甘肃馆藏尺寸与来源。文字可供观察，不要求孩子辨读；不能凭牌面推出具体持有人、路线或所有元代凭证的规则。馆方标Public Domain，按Met开放政策CC0使用。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "yuan-paiza-met-back",
+      "title": "元代八思巴文铁牌 · 背面",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-paiza-met-back.jpg",
+      "sourcePage": "https://www.metmuseum.org/art/collection/search/39624",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC0 1.0 / Met Open Access",
+      "clearance": "cleared-open-license",
+      "caption": "元代13世纪晚期 · 铁地嵌银",
+      "boundary": "铁地嵌银，馆方定名为通行牌。正反图为同一件Met藏品1993.256，不能串用甘肃馆藏尺寸与来源。文字可供观察，不要求孩子辨读；不能凭牌面推出具体持有人、路线或所有元代凭证的规则。馆方标Public Domain，按Met开放政策CC0使用。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "yuan-relay-work-v1",
+      "title": "元代驿站核对凭证、备马与粮草的故事插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-relay-work-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "yuan-friends-reunion-v1",
+      "title": "三位小伙伴回看元朝地方事务和驿站的插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-friends-reunion-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "今天的旅行手册回顾图；桥、文书、马与空白圆牌是新画的学习线索，不冒充元代真实文书或符牌。完整书页以contain取景，不裁掉工作内容。",
       "childVisibility": "child-ok"
     }
   ],

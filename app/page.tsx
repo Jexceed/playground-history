@@ -6,6 +6,11 @@ import { ObjectWorkbench, WorkbenchCover, WorkbenchFamily, stepVoiceIds, type Wo
 import "./workbench.css";
 import { ContentOverview } from "./ContentOverview";
 import { FinishNavigation } from "./FinishNavigation";
+import { canContinueStep } from "./step-flow";
+import { PhotoCrop } from "./PhotoCrop";
+import { PhotoAlbumButton } from "./PhotoAlbumButton";
+import { focusAlbumPhoto, type FocusedImage, type PhotoAlbum } from "./photo-album";
+import "./photo-album.css";
 import { playVoiceSequence, stopVoice, pauseVoice, resumeVoice, subscribeVoice, getVoiceSnapshot, getServerVoiceSnapshot } from "./speech";
 import { emptyProgress, parseProgress, listenOptions, PROGRESS_STORAGE_KEY, LEGACY_COMPLETED_KEY, type LocalProgress } from "./quest-progress";
 import { useModal } from "./use-modal";
@@ -61,7 +66,7 @@ type GameOption = {
 type VoiceLine = { id: string; text: string };
 
 type GameStep = {
-  inspection?: { title:string; image:string; caption:string; boundary:string; label:string; audio:VoiceLine; sourceLinks?:Array<{title:string;url:string}> } | null;
+  inspection?: { id:string; title:string; image:string; caption:string; boundary:string; label:string; audio:VoiceLine; sourceLinks?:Array<{title:string;url:string}>;placement?:"main"|"supporting";framing?:"landscape"|"panorama"|"object";openAlbum?:boolean;displayHeight?:number } | null;
   concepts?:Array<{term:string;meaning:string}>|null;
   narrative?: StoryScene | null;
   interaction?: WorkbenchInteraction;
@@ -105,6 +110,7 @@ type ExtensionTask = {
 
 type Gameplay = {
   presentation: WorkbenchPresentation | null;
+  photoAlbum?: PhotoAlbum | null;
   mode: "authored-picture-quest-v4";
   cta: string;
   anchor: string;
@@ -153,14 +159,6 @@ type ManifestTrack = {
   chapters: ManifestChapter[];
 };
 
-type FocusedImage = {
-  title: string;
-  boundary: string;
-  images: Array<{ src: string; alt: string; caption: string }>;
-  voice: VoiceLine;
-  sourceLinks?:Array<{title:string;url:string}>;
-};
-
 const contentManifest = contentManifestJson as unknown as {
   contentVersion: string;
   tracks: ManifestTrack[];
@@ -181,14 +179,14 @@ const allStations: Station[] = [
   { id: "early", periodId: "ancient-origins", years: "约200万年前—约前21世纪", title: "远古时期", childLine: "从一堆火和一只彩陶盆出发", iconSrc: "/images/history-stations/early.webp" },
   { id: "states", periodId: "xia-shang-western-zhou", years: "约前21世纪—前771年", title: "夏商西周", childLine: "看看大鼎和龟甲会说什么", iconSrc: "/images/history-stations/states.webp" },
   { id: "change", periodId: "spring-autumn-warring-states", years: "前770年—前221年", title: "春秋战国", childLine: "跟着竹简和水渠寻找新办法", iconSrc: "/images/history-stations/change.webp" },
-  { id: "qin", periodId: "qin", years: "前221年—前207年", title: "秦朝", childLine: "拿同一把尺，再去拼接长城旧墙段", iconSrc: "/images/history-stations/united.webp" },
+  { id: "qin", periodId: "qin", years: "前221年—前207年", title: "秦朝", childLine: "拿同一把尺，再看长城怎样守卫边地", iconSrc: "/images/history-stations/united.webp" },
   { id: "han", periodId: "han", years: "前202年—220年", title: "汉朝", childLine: "沿驿路走丝路，再看纸怎样把话带远", iconSrc: "/images/history-stations/han.webp" },
-  { id: "meeting", periodId: "three-kingdoms-jin-northern-southern", years: "220年—589年", title: "三国两晋南北朝", childLine: "坐一条小船去江南看新邻居", iconSrc: "/images/history-stations/meeting.webp" },
+  { id: "meeting", periodId: "three-kingdoms-jin-northern-southern", years: "220年—589年", title: "三国两晋南北朝", childLine: "看江南新邻居，听改革、数学和壁画的故事", iconSrc: "/images/history-stations/meeting.webp" },
   { id: "sui", periodId: "sui", years: "581年—618年", title: "隋朝", childLine: "跟着粮船走运河，看南北怎样连起来", iconSrc: "/images/history-stations/sui.webp" },
   { id: "tang", periodId: "tang", years: "618年—907年", title: "唐朝", childLine: "从贞观之治走到长安小骆驼和月亮", iconSrc: "/images/history-stations/tang.webp" },
-  { id: "five-dynasties", periodId: "five-dynasties-ten-kingdoms", years: "907年—960年", title: "五代十国", childLine: "跟钱镠铁券走进许多城市", iconSrc: "/images/history-stations/five-dynasties.webp" },
-  { id: "song", periodId: "song", years: "916年—1279年 · 宋960年起", title: "宋朝与辽·西夏·金", childLine: "同窗看并立地图、长卷和三项技术", iconSrc: "/images/history-stations/cities.webp" },
-  { id: "yuan", periodId: "yuan", years: "1271年—1368年", title: "元朝", childLine: "骑上驿马，把消息送到远方", iconSrc: "/images/history-stations/yuan.webp" },
+  { id: "five-dynasties", periodId: "five-dynasties-ten-kingdoms", years: "907年—960年", title: "五代十国", childLine: "从钱镠铁券，走到吴越的水与田", iconSrc: "/images/history-stations/five-dynasties.webp" },
+  { id: "song", periodId: "song", years: "916年—1279年 · 宋960年起", title: "宋朝与辽·西夏·金", childLine: "看并立的政权、长卷、技术与月亮", iconSrc: "/images/history-stations/cities.webp" },
+  { id: "yuan", periodId: "yuan", years: "1271年—1368年", title: "元朝", childLine: "看地方怎样办事，跟驿马把消息送远", iconSrc: "/images/history-stations/yuan.webp" },
   { id: "ming", periodId: "ming", years: "1368年—1644年", title: "明朝", childLine: "大船、故宫、书坊和游记排成一队", iconSrc: "/images/history-stations/later.webp" },
   { id: "qing", periodId: "qing", years: "1644年—1840年前", title: "清朝", childLine: "到承德会见，再去广州看世界变化", iconSrc: "/images/history-stations/qing.webp" },
   { id: "lateqing", periodId: "late-qing-crisis-and-response", years: "1840—1911年", title: "晚清的危机与救亡", childLine: "一艘轮船送来一封紧急信", iconSrc: "/images/history-stations/lateqing.webp" },
@@ -319,6 +317,7 @@ export default function Home() {
   const [questStarted, setQuestStarted] = useState(false);
   const [questStep, setQuestStep] = useState(0);
   const [questSolved, setQuestSolved] = useState(false);
+  const workbenchNarrationRef = useRef<{key:string;ids:string[]}|null>(null);
   const [progress, setProgress] = useState<LocalProgress>(emptyProgress);
   const progressRef = useRef(progress);
   const completedChapterIds = new Set(progress.completed);
@@ -367,6 +366,7 @@ export default function Home() {
   const listen = (id: string) => listenSequence([id]);
   const haltVoice = () => stopVoice();
   const openImage = (image: FocusedImage) => { setFocusedImage(image); void speakSequence([image.voice.id]); };
+  const openPhotoAlbum = (album: PhotoAlbum, index = 0) => openImage(focusAlbumPhoto(album, index));
   const closeImage = () => { haltVoice(); setFocusedImage(null); };
   const closePanel = () => { haltVoice(); setPanel(null); };
   const imageDialogRef = useModal(Boolean(focusedImage), closeImage);
@@ -395,6 +395,7 @@ export default function Home() {
   };
 
   const openQuest = (chapter: ManifestChapter, restart = false) => {
+    workbenchNarrationRef.current=null;
     haltVoice(); setFocusedImage(null); setPanel(null); setQuestChapter(chapter);
     setQuestStarted(false); setQuestStep(0); setQuestSolved(false); setFinishRevealed(false);
     setCompletedExtensionIds(new Set());
@@ -404,6 +405,7 @@ export default function Home() {
   };
   const startQuest = (resume = true) => {
     if (!questChapter) return;
+    workbenchNarrationRef.current=null;
     const savedIndex = resume && savedCoverStep ? questChapter.gameplay.steps.findIndex((step) => step.id === savedCoverStep) : 0;
     const index = Math.max(0, savedIndex);
     setQuestStarted(true); setQuestStep(index); setQuestSolved(false); setFinishRevealed(false);
@@ -422,13 +424,14 @@ export default function Home() {
       return;
     }
     setVoiceOn(true);
+    const narrationOverride=workbenchNarrationRef.current;
     const questVoiceIds = focusedImage
       ? [focusedImage.voice.id]
       : questChapter
       ? !questStarted
         ? [questChapter.gameplay.coverAudio.id, questChapter.gameplay.textbookAudio?.id].filter((id): id is string => Boolean(id))
         : questStep < questChapter.gameplay.steps.length
-          ? stepVoiceIds(questChapter.gameplay.steps[questStep])
+          ? narrationOverride?.key===`${questChapter.id}:${questChapter.gameplay.steps[questStep].id}`?narrationOverride.ids:stepVoiceIds(questChapter.gameplay.steps[questStep])
           : [finishRevealed ? questChapter.gameplay.finishAudio.id : questChapter.gameplay.finish.introAudio.id]
       : null;
     if (screen === "quest" && questVoiceIds) void speakSequence(questVoiceIds, true);
@@ -438,7 +441,8 @@ export default function Home() {
   const activeQuestStep = questChapter?.gameplay.steps[questStep] ?? null;
   const isLastQuestStep = Boolean(questChapter && questStep === questChapter.gameplay.steps.length - 1);
   const nextQuestStep = () => {
-    if (!questChapter || !questSolved) return;
+    if (!questChapter || !canContinueStep(activeQuestStep, questSolved)) return;
+    workbenchNarrationRef.current=null;
     setQuestSolved(false);
     if (isLastQuestStep) completeQuest(questChapter.id);
     const ids = isLastQuestStep ? [questChapter.gameplay.finish.introAudio.id] : stepVoiceIds(questChapter.gameplay.steps[questStep+1]);
@@ -449,7 +453,7 @@ export default function Home() {
   const resumeChapter = progress.current ? chaptersById.get(progress.current.chapterId) : null;
 
   return (
-    <main className={`history-app ${screen === "river" ? "river-restored" : "focused-preview"} ${questChapter?.gameplay.presentation ? "workbench-active" : ""} ${taskStepActive ? "task-step-active" : ""} ${focusedImage ? "image-focus-active" : ""}`}>
+    <main className={`history-app ${screen === "river" ? "river-restored" : "focused-preview"} ${questChapter?.gameplay.presentation ? "workbench-active" : ""} ${taskStepActive ? "task-step-active" : ""} ${focusedImage ? "image-focus-active" : ""}`} data-playing-voice-id={voice.id??undefined}>
       <header className="app-header">
         <button className="brand" onClick={goHome} aria-label="回到小小历史旅行团首页">
           <span aria-hidden="true">🏠</span>
@@ -605,6 +609,7 @@ export default function Home() {
         <section className={`quest-cover focus-cover pop-in ${questChapter.gameplay.presentation?.story?"trip-cover":""}`} data-voice-id={questChapter.gameplay.coverAudio.id}>
           <div className="trip-cover-artwork">
             {questChapter.gameplay.presentation?.story ? <WorkbenchCover presentation={questChapter.gameplay.presentation}/> : <div className="quest-cover-photo"><Image src={questChapter.gameplay.coverImage} alt={questChapter.gameplay.coverImageAlt} width={900} height={430} loading="eager" unoptimized/><span className="real-badge">{questChapter.gameplay.coverImageKind}</span></div>}
+            {questChapter.gameplay.photoAlbum&&<PhotoAlbumButton album={questChapter.gameplay.photoAlbum} onOpen={()=>openPhotoAlbum(questChapter.gameplay.photoAlbum!)}/>}
           </div>
           <div className="quest-cover-copy">
             <button className="back-link" onClick={goHome}>⬅ 回到时间河</button>
@@ -620,7 +625,7 @@ export default function Home() {
       )}
 
       {screen === "quest" && questChapter?.gameplay.presentation && questStarted && activeQuestStep && (
-        <ObjectWorkbench key={`${questChapter.id}:${activeQuestStep.id}`} step={activeQuestStep} seed={`${questChapter.id}:${activeQuestStep.id}`} presentation={questChapter.gameplay.presentation} periodLabel={questChapter.periodLabel} solved={questSolved} isLast={isLastQuestStep} speak={speakSequence} listen={listenSequence} onSolved={()=>setQuestSolved(true)} onNext={nextQuestStep} onInspect={()=>{const evidence=activeQuestStep.inspection;if(evidence)openImage({title:evidence.title,boundary:evidence.boundary,images:[{src:evidence.image,alt:evidence.title,caption:evidence.caption}],voice:evidence.audio,sourceLinks:evidence.sourceLinks})}}/>
+        <ObjectWorkbench key={`${questChapter.id}:${activeQuestStep.id}`} step={activeQuestStep} seed={`${questChapter.id}:${activeQuestStep.id}`} presentation={questChapter.gameplay.presentation} photoAlbum={questChapter.gameplay.photoAlbum} periodLabel={questChapter.periodLabel} solved={questSolved} isLast={isLastQuestStep} speak={speakSequence} listen={listenSequence} onSolved={()=>setQuestSolved(true)} onNext={nextQuestStep} onNarrationChange={ids=>{workbenchNarrationRef.current={key:`${questChapter.id}:${activeQuestStep.id}`,ids};}} onInspect={()=>{const evidence=activeQuestStep.inspection,album=questChapter.gameplay.photoAlbum;if(!evidence)return;if(evidence.openAlbum&&album){openPhotoAlbum(album,album.photos.findIndex(photo=>photo.assetId===evidence.id));return;}openImage({title:evidence.title,boundary:evidence.boundary,images:[{src:evidence.image,alt:evidence.title,caption:evidence.caption}],voice:evidence.audio,sourceLinks:evidence.sourceLinks})}}/>
       )}
 
       {screen === "quest" && questChapter && questStarted && activeQuestStep && !questChapter.gameplay.presentation && questStep < questChapter.gameplay.steps.length && (
@@ -668,14 +673,14 @@ export default function Home() {
       {screen === "quest" && questChapter && questStarted && questStep >= questChapter.gameplay.steps.length && (
         <section className={`quest-finish focus-finish pop-in ${questChapter.gameplay.presentation?"workbench-finish":""}`} data-retell-state={finishRevealed?"answer":"first"} data-voice-id={questChapter.gameplay.finish.introAudio.id}>
           <p className="eyebrow">{questChapter.gameplay.presentation?.story?"小小旅行团 · 带着发现回家":"🌟 你找到这次的小发现啦"}</p><h1>{questChapter.gameplay.finish.title}</h1>
-          {questChapter.gameplay.presentation ? <div className="workbench-finish-picture"><Image src={questChapter.gameplay.presentation.story?.reunionImage??questChapter.gameplay.presentation.sceneImage} alt={questChapter.gameplay.presentation.story?.reunionAlt??questChapter.gameplay.presentation.sceneAlt} width={1536} height={1024} unoptimized/><p>{questChapter.gameplay.presentation.story?.closingLine}</p></div> : <>
+          {questChapter.gameplay.presentation ? <div className="workbench-finish-picture"><Image src={questChapter.gameplay.presentation.story?.reunionImage??questChapter.gameplay.presentation.sceneImage} alt={questChapter.gameplay.presentation.story?.reunionAlt??questChapter.gameplay.presentation.sceneAlt} width={1536} height={1024} style={questChapter.gameplay.presentation.story?.reunionAspectRatio?{height:'auto',aspectRatio:questChapter.gameplay.presentation.story.reunionAspectRatio,objectFit:questChapter.gameplay.presentation.story.reunionFit,background:questChapter.gameplay.presentation.story.reunionFit==='contain'?'#f4ead3':undefined}:undefined} unoptimized/><p>{questChapter.gameplay.presentation.story?.closingLine}</p></div> : <>
           <p className="finish-instruction">不用背答案，和家人试这两个动作。</p>
           <div className="finish-action-cards">{questChapter.gameplay.finish.actions.map((action,index)=>{const step=questChapter.gameplay.steps[questChapter.gameplay.finish.sceneStepIndexes?.[index]??index+2];const done=completedExtensionIds.has(`finish-${index}`);return <article key={action}><Image src={step.studyImage} alt={step.studyImageAlt} width={900} height={430} unoptimized/><span className="finish-action-number">{index+1}</span><p>{action}</p><button className="listen-button" onClick={()=>listen(questChapter.gameplay.finish.actionAudio[index].id)}>🔊 听这个动作</button><button className={`tried-action ${done?"done":""}`} aria-pressed={done} onClick={()=>setCompletedExtensionIds(current=>{const next=new Set(current);if(done)next.delete(`finish-${index}`);else next.add(`finish-${index}`);return next})}>{done?"✓ 试过啦":"✋ 我试过啦"}</button></article>})}</div>
           </>}
           <button className="listen-button quest-finish-listen" onClick={()=>{setFinishRevealed(true);listen(questChapter.gameplay.finishAudio.id)}}>🔊 听听这次发现</button>
-          {finishRevealed&&<p className="final-answer">{questChapter.childEntry.takeaway}</p>}
           <FinishNavigation onHome={goHome} onReplay={()=>openQuest(questChapter,true)}/>
-          {questChapter.gameplay.presentation&&<details className="family-extra"><summary>和家人再量一量 <span>＋</span></summary><WorkbenchFamily presentation={questChapter.gameplay.presentation}><div className="workbench-family-directions">{questChapter.gameplay.finish.actions.map((action,index)=><p key={action}><button className="workbench-sound" aria-label={`听第${index+1}个动作`} onClick={()=>listen(questChapter.gameplay.finish.actionAudio[index].id)}><span aria-hidden="true">▶</span></button>{action}</p>)}</div></WorkbenchFamily></details>}
+          {finishRevealed&&<p className="final-answer">{questChapter.childEntry.takeaway}</p>}
+          {questChapter.gameplay.presentation&&<details className="family-extra"><summary>{questChapter.gameplay.presentation.familyLabel??"和家人再量一量"} <span>＋</span></summary><WorkbenchFamily presentation={questChapter.gameplay.presentation} onRefine={sides=>{const step=questChapter.gameplay.steps.find(s=>s.interaction?.kind==='circle-refine');const stage=step?.interaction?.refinements?.find(r=>r.sides===sides);if(stage)listen(stage.audio.id);else if(step)listen(step.audio.lead?.id??step.audio.intro.id);}}>{questChapter.gameplay.presentation.familyMode==='actions'&&questChapter.gameplay.photoAlbum&&<PhotoAlbumButton album={questChapter.gameplay.photoAlbum} onOpen={()=>openPhotoAlbum(questChapter.gameplay.photoAlbum!)} />}<div className="workbench-family-directions">{questChapter.gameplay.finish.actions.map((action,index)=><p key={action}><button className="workbench-sound" aria-label={`听第${index+1}个动作`} onClick={()=>listen(questChapter.gameplay.finish.actionAudio[index].id)}><span aria-hidden="true">▶</span></button>{action}</p>)}</div></WorkbenchFamily></details>}
           <details className="focus-parent-note"><summary>👪 家长怎么接话？</summary><p>{questChapter.gameplay.finish.parent}</p><p>{questChapter.gameplay.boundary}</p></details>
         </section>
       )}
@@ -684,26 +689,30 @@ export default function Home() {
         <div className="image-lightbox-backdrop" onClick={closeImage}>
           <section
             ref={imageDialogRef}
-            className="image-lightbox pop-in"
+            className={`image-lightbox pop-in ${focusedImage.album ? "photo-album-dialog" : ""}`}
             role="dialog"
             aria-modal="true"
-            aria-label={`${focusedImage.title}图片说明`}
+            aria-label={`${focusedImage.album?.data.title??focusedImage.title}图片说明`}
             data-voice-id={focusedImage.voice.id}
+            data-album-index={focusedImage.album?.index}
             onClick={(event) => event.stopPropagation()}
           >
             <button className="image-lightbox-close" type="button" onClick={closeImage} aria-label="关闭大图">✕</button>
-            <div className={`image-lightbox-visual ${focusedImage.images.length > 1 ? "multiple" : ""}`}>
+            <div className={`image-lightbox-visual ${focusedImage.images.length > 1 ? "multiple" : ""} ${focusedImage.album ? "photo-album-visual" : ""}`}>
               {focusedImage.images.map((item) => (
                 <figure key={item.src}>
-                  <Image src={item.src} alt={item.alt} width={1600} height={1200} unoptimized />
+                  {item.crop?<PhotoCrop src={item.src} alt={item.alt} crop={item.crop}/>:<Image src={item.src} alt={item.alt} width={1600} height={1200} unoptimized />}
                   <figcaption>{item.caption}</figcaption>
                 </figure>
               ))}
+              {focusedImage.album&&<div className="photo-album-thumbnails" role="group" aria-label="选择一张照片">{focusedImage.album.data.photos.map((photo,index)=><button key={photo.assetId} onClick={()=>openPhotoAlbum(focusedImage.album!.data,index)} aria-pressed={index===focusedImage.album!.index} aria-label={`看${photo.label}，${photo.period}`}>{photo.crop?<PhotoCrop src={photo.image} alt="" crop={photo.crop}/>:<Image src={photo.image} alt="" style={{objectPosition:photo.thumbnailPosition}} width={120} height={80} unoptimized/>}<span>{photo.label}</span></button>)}</div>}
             </div>
             <div className="image-lightbox-copy">
-              <small>🔎 图片说明</small>
+              <small>{focusedImage.album?`${focusedImage.album.data.title} · 第${focusedImage.album.index+1}/${focusedImage.album.data.photos.length}张`:'🔎 图片说明'}</small>
+              {focusedImage.period&&<span className="photo-album-period">{focusedImage.period}</span>}
               <h2>{focusedImage.title}</h2>
-              <p>{focusedImage.voice.text}</p>
+              <p>{focusedImage.observation??focusedImage.voice.text}</p>
+              {focusedImage.album&&<div className="photo-album-pager"><button disabled={focusedImage.album.index===0} onClick={()=>openPhotoAlbum(focusedImage.album!.data,focusedImage.album!.index-1)}>← 前一张</button><button disabled={focusedImage.album.index===focusedImage.album.data.photos.length-1} onClick={()=>openPhotoAlbum(focusedImage.album!.data,focusedImage.album!.index+1)}>后一张 →</button></div>}
               <button className="listen-button" type="button" onClick={() => listen(focusedImage.voice.id)}>🔊 再听一次图片说明</button>
               <PauseButton />
               <details className="image-evidence-boundary"><summary>家长看史料来源与图片说明</summary><p>{focusedImage.boundary}</p>{focusedImage.sourceLinks?.map(source=><p key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></p>)}</details>

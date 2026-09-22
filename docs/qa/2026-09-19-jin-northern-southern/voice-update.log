@@ -1,0 +1,67 @@
+
+> chronicle-bureau-prototype@0.1.0 voice:update
+> npm run content:pack && npm run voice:generate
+
+
+> chronicle-bureau-prototype@0.1.0 content:pack
+> node scripts/prepare-focused-quests.mjs && node scripts/validate-content.mjs && node scripts/build-content-pack.mjs && node scripts/generate-content-thumbnails.mjs && node scripts/audit-gameplay-coherence.mjs
+
+逐题学习图：458 个；34章儿童入口与连续故事同步。
+内容校验通过：7 个课程板块，共 103 章。
+其中：中国史 67 章，世界史 30 章，跨学科 6 章。
+已有详稿 103 章，事实研究完成 103 章，最终审核通过 0 章。
+事实卡 2684 条，儿童屏幕 657 屏，语音稿 729 段，互动 339 个。
+低龄兴趣入口 103 章，均含实物入口与地点连接。
+儿童口语词典 80 词，103章均已匹配难词解释。
+配音读音表 167 项、年代读法 7 条，103章均有编辑校听入口。
+来源登记 997 条，素材登记 955 条，其中已清权本地素材 953 条。
+本机研究素材缓存 950/950 个文件；发布包构建不强制携带原始研究缓存。
+内容包生成完成：7 个板块，103 章。
+章节缩略图生成完成：103 张；步骤图片 254 张。
+结构审计：完整库103章/515步；本轮34章/170步，298张选项图、13个阅读步骤、16个图中提问、68条结束动作。真实儿童审核仍待进行。
+
+> chronicle-bureau-prototype@0.1.0 voice:generate
+> node scripts/generate-voices.mjs
+
+需要生成 230/3046 段语音，并发数 8。
+已生成 25/230 段。
+已生成 50/230 段。
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/__main__.py", line 6, in <module>
+    main()
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/util.py", line 141, in main
+    asyncio.run(amain())
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/util.py", line 136, in amain
+    await _run_tts(args)
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/util.py", line 73, in _run_tts
+    async for chunk in communicate.stream():
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/communicate.py", line 588, in stream
+    async for message in self.__stream():
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/communicate.py", line 465, in __stream
+    ) as session, session.ws_connect(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/client.py", line 1683, in __aenter__
+    self._resp: _RetType_co = await self._coro
+                              ^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/client.py", line 1261, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 503, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?[query-redacted]'
+已生成 75/230 段。
+已生成 100/230 段。
+已生成 125/230 段。
+已生成 150/230 段。
+已生成 175/230 段。
+已生成 200/230 段。
+已生成 225/230 段。
+已生成 230/230 段。

@@ -15,18 +15,18 @@
   "throughline": "以自制儿童路线图和普通陶碗作为寻证线索，连接分批迁徙、重新安顿及与当地居民共同生活，并明确不虚构某个真实家庭。",
   "childEntry": {
     "id": "cn-ancient-05-01-division-migration",
-    "childTitle": "给搬家的邻居找一条路",
-    "prompt": "有人搬到江南，那里原来就住着谁？",
-    "takeaway": "迁徙者来到已有居民的地方，带来经验，也学习当地生活；变化需要长时间。",
+    "childTitle": "新邻居怎样在江南安家？",
+    "prompt": "有人为躲避战乱来到江南。这里原来有人住，新邻居怎样慢慢安顿？",
+    "takeaway": "部分居民分批来到江南。他们向当地人学习水土知识，也带来自己的经验，安家需要长期劳动与互助。",
     "object": "迁徙记录、道路与日用陶器",
     "people": [
-      "当地居民",
-      "迁来的人"
+      "迁来的人",
+      "江南原有居民"
     ],
     "place": "洛阳、建康与长江流域",
     "culture": null,
-    "care": "搬家家庭与动作都是教学故事，没有给真实出土器物虚构主人和经历。",
-    "preferredAssetId": "southward-migration-child-route-illustration",
+    "care": "这是一户虚构家庭的安顿故事，不替具体文物编主人或路线。迁徙不止南迁，也不是所有北方人同一次搬走。牛车是北齐墓葬模型，不是某家南迁时乘过的真车。插画房屋、桥梁、衣着是情境表达，不是晋代建筑或族群外貌复原。",
+    "preferredAssetId": "northern-qi-ox-cart-photo",
     "playableSource": "content/focused-quests.json"
   },
   "textbookConnection": {
@@ -34,9 +34,9 @@
     "featured": {
       "type": "成语故事",
       "icon": "⛵",
-      "title": "当地居民与迁来的人",
-      "childBridge": "有人搬到江南，那里原来就住着谁？",
-      "evidenceBoundary": "搬家家庭与动作都是教学故事，没有给真实出土器物虚构主人和经历。"
+      "title": "迁来的人与江南原有居民",
+      "childBridge": "有人为躲避战乱来到江南。这里原来有人住，新邻居怎样慢慢安顿？",
+      "evidenceBoundary": "这是一户虚构家庭的安顿故事，不替具体文物编主人或路线。"
     },
     "companions": [
       {
@@ -54,39 +54,40 @@
       "PEP-PRIMARY-CHINESE-G5B-2022",
       "PEP-PRIMARY-TRADITIONAL-CULTURE-2019",
       "PEP-HISTORY-REVISION-2024",
-      "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+      "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+      "NMC-NORTHERN-QI-OX-CART"
     ]
   },
   "childStory": [
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "迁徙的时间",
-      "text": "三国、两晋、南北朝，从220年到589年，政权多次变化，一些人陆续向南迁居。"
+      "label": "从一辆陶牛车找时代",
+      "text": "这件北齐陶牛车让我们看见古代车子的样子。它在三国两晋南北朝这一段。那时部分居民因战乱分批迁往江南；不能说他们都坐过这辆车。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "河对岸有人家",
-      "text": "来看一个帮助理解迁徙的虚构家庭。他们走到江边，对岸已有村落和田地。"
+      "label": "搬来以后，还要慢慢安顿",
+      "text": "魏、蜀、吴曾同时存在，西晋短暂统一后，南北又有并立的政权。有些家庭为躲避战乱分批来到江南。当地原有人居住；新邻居要了解水土，也带来自己的手艺。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "把经验带过去",
-      "text": "搬家的人带着用具和生活经验。到了新地方，还要认识当地水土。"
+      "label": "两位邻居，各有经验",
+      "text": "这是一个虚构的安家故事。新来的木工放下行李，帮忙修门；当地的种田人拿着秧苗，告诉大家哪里有水。先找一找两人的工作。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "两家一起试办法",
-      "text": "当地居民熟悉水路，迁来的人也会一些手艺。大家可以互相学习。"
+      "label": "水土不同，先问明白",
+      "text": "新家的田容易积水，小伙伴想知道哪里适合种、哪里需要排水。刚认识的两位邻居，谁更熟悉这里的水土？"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "给迁徙图补上人",
-      "text": "地图上的箭头看起来简单，真正搬家和安顿却很不容易。"
+      "label": "本地人也能向新邻居学习",
+      "text": "后来，当地人家的木门松了。他熟悉种田，却想学修门的办法。小伙伴记得，新来的邻居也有可以分享的手艺。"
     }
   ],
   "glossary": [
@@ -95,6 +96,13 @@
       "icon": "👣",
       "plain": "人们离开原住地，搬到别的地方生活。",
       "example": "迁徙可能因为气候、生计、战争或主动选择。",
+      "priority": 1
+    },
+    {
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
       "priority": 1
     },
     {
@@ -152,66 +160,172 @@
     "hook": {
       "kind": "具体任务",
       "icon": "🔎",
-      "label": "给搬家的邻居找一条路",
-      "question": "有人搬到江南，那里原来就住着谁？"
+      "label": "新邻居怎样在江南安家？",
+      "question": "有人为躲避战乱来到江南。这里原来有人住，新邻居怎样慢慢安顿？"
     },
-    "cta": "陪邻居过河",
-    "anchor": "当地居民与迁来的人",
-    "boundary": "搬家家庭与动作都是教学故事，没有给真实出土器物虚构主人和经历。",
-    "evidence": [],
+    "cta": "去认识江南的新邻居",
+    "anchor": "迁来的人与江南原有居民",
+    "boundary": "这是一户虚构家庭的安顿故事，不替具体文物编主人或路线。迁徙不止南迁，也不是所有北方人同一次搬走。牛车是北齐墓葬模型，不是某家南迁时乘过的真车。插画房屋、桥梁、衣着是情境表达，不是晋代建筑或族群外貌复原。",
+    "evidence": [
+      {
+        "id": "northern-qi-ox-cart-photo",
+        "title": "北齐陶牛车模型实物照片",
+        "localPath": "reference-assets/three-kingdoms-jin-northern-southern/northern-qi-ox-cart.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Northern_Qi_Pottery_Ox_Cart.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC0 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "北齐陶牛车模型｜中国国家博物馆展出｜摄影Gary Todd｜CC0 1.0。",
+        "boundary": "2011年参观照片，不是国博官方摄影。陶模型能观察牛车造型，不能证明某户家庭乘它南迁或所有移民同路。展托及背景属于现代展陈；原图保留，运行图仅等比例缩小。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/northern-qi-ox-cart-photo.jpg"
+      }
+    ],
+    "photoAlbum": null,
     "coverAsset": {
-      "id": "southward-migration-child-route-illustration",
-      "title": "北方到江南的迁徙路线儿童示意图",
-      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/migration-south-self-made.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "northern-qi-ox-cart-photo",
+      "title": "北齐陶牛车模型实物照片",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/northern-qi-ox-cart.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Northern_Qi_Pottery_Ox_Cart.jpg",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制；按OpenAI使用条款持有输出使用权",
-      "clearance": "cleared-project-created",
-      "caption": "自制儿童示意图：脚印从黄河流域分批走向长江流域，陶碗提示用日用品寻找生活线索。",
-      "boundary": "2026-08-09为低龄玩法自制。它不是精确历史地图，不表示一次整齐迁徙、固定路线或现代边界；陶碗和相遇人物不是某个真实家庭的个案复原。",
+      "license": "CC0 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "北齐陶牛车模型｜中国国家博物馆展出｜摄影Gary Todd｜CC0 1.0。",
+      "boundary": "2011年参观照片，不是国博官方摄影。陶模型能观察牛车造型，不能证明某户家庭乘它南迁或所有移民同路。展托及背景属于现代展陈；原图保留，运行图仅等比例缩小。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/southward-migration-child-route-illustration.jpg"
+      "image": "/content/step-images/northern-qi-ox-cart-photo.jpg"
     },
-    "presentation": null,
-    "sceneAsset": null,
-    "narrativeAssets": [],
-    "coverImage": "/content/step-images/southward-migration-child-route-illustration.jpg",
-    "coverImageAlt": "北方到江南的迁徙路线儿童示意图",
-    "coverImageKind": "故事插画",
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "jin-migration-neighbours-v1",
+      "sceneAlt": "新邻居在江南安家的故事插画，现代教学插画",
+      "title": "新邻居怎样在江南安家？",
+      "evidenceTitle": "北齐陶牛车模型实物照片",
+      "evidenceLine": "真材料帮助观察，年代与解释另有文献。",
+      "evidenceNarration": "看看牛、车轮和车篷。这是陶牛车模型，不是真正载过人的大车，也不能知道哪户人家用它搬过家。",
+      "guide": "听清问题，点你找到的画面。小喇叭能重听。",
+      "alignHint": "",
+      "familyHint": "回看图里的线索，再和家人一起说一说。",
+      "familyLabel": "和家人回看今天的发现",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "把发现带回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 2.2,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "jin-travel-journal-reunion-v1",
+        "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
+        "coverCaption": "新邻居怎样在江南安家？",
+        "coverNarration": "新邻居怎样在江南安家？小小旅行团出发！有人为躲避战乱来到江南。这里原来有人住，新邻居怎样慢慢安顿？",
+        "stationLine": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
+        "stationNarration": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
+        "closingCaption": "回看刚刚读懂的历史",
+        "closingNarration": "部分居民分批来到江南。他们向当地人学习水土知识，也带来自己的经验，安家需要长期劳动与互助。",
+        "closingLine": "新邻居与当地人，带着不同经验一起安家。",
+        "fictionNote": "这是一户虚构家庭的安顿故事，不替具体文物编主人或路线。迁徙不止南迁，也不是所有北方人同一次搬走。牛车是北齐墓葬模型，不是某家南迁时乘过的真车。插画房屋、桥梁、衣着是情境表达，不是晋代建筑或族群外貌复原。",
+        "reunionImage": "/content/step-images/jin-travel-journal-reunion-v1.jpg",
+        "stationAudio": {
+          "id": "quest-07878431a28f0aec",
+          "text": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。"
+        },
+        "closingAudio": {
+          "id": "quest-2edca937c3cef8a8",
+          "text": "部分居民分批来到江南。他们向当地人学习水土知识，也带来自己的经验，安家需要长期劳动与互助。"
+        }
+      },
+      "sceneImage": "/content/step-images/jin-migration-neighbours-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-e74a652405af6fd6",
+        "text": "看看牛、车轮和车篷。这是陶牛车模型，不是真正载过人的大车，也不能知道哪户人家用它搬过家。"
+      },
+      "guideAudio": {
+        "id": "quest-8910b65852f3deb0",
+        "text": "听清问题，点你找到的画面。小喇叭能重听。"
+      }
+    },
+    "sceneAsset": {
+      "id": "jin-migration-neighbours-v1",
+      "title": "新邻居在江南安家的故事插画",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-migration-neighbours-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "新邻居在江南安家的故事插画；非历史现场复原。",
+      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-migration-neighbours-v1-prompt.txt。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/jin-migration-neighbours-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "jin-travel-journal-reunion-v1",
+        "title": "三位小伙伴回看本段历史的聚会插画",
+        "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-travel-journal-reunion-v1.png",
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
+        "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/jin-travel-journal-reunion-v1.jpg"
+      },
+      {
+        "id": "jin-migration-neighbours-v1",
+        "title": "新邻居在江南安家的故事插画",
+        "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-migration-neighbours-v1.png",
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "新邻居在江南安家的故事插画；非历史现场复原。",
+        "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-migration-neighbours-v1-prompt.txt。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/jin-migration-neighbours-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/northern-qi-ox-cart-photo.jpg",
+    "coverImageAlt": "北齐陶牛车模型实物照片",
+    "coverImageKind": "历史材料",
     "coverAudio": {
-      "id": "quest-cd767133b244e636",
-      "text": "给搬家的邻居找一条路。有人搬到江南，那里原来就住着谁？准备好就点“陪邻居过河”。"
+      "id": "quest-ab94db0ec081da72",
+      "text": "新邻居怎样在江南安家？小小旅行团出发！有人为躲避战乱来到江南。这里原来有人住，新邻居怎样慢慢安顿？"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-befaa490ed727a9b",
-      "text": "迁徙者来到已有居民的地方，带来经验，也学习当地生活；变化需要长时间。"
+      "id": "quest-2edca937c3cef8a8",
+      "text": "部分居民分批来到江南。他们向当地人学习水土知识，也带来自己的经验，安家需要长期劳动与互助。"
     },
     "finish": {
-      "title": "两只手当两家邻居",
+      "title": "安家，要一起想办法！",
       "actions": [
-        "一只手说“我熟悉这里的水路”。",
-        "另一只手说“我也带来了办法”，让两只手碰一碰。"
+        "在图里找新邻居的行李，再找当地人指出的水田。",
+        "家人说“门要修”“田里积水”，你分别指能帮助的人。"
       ],
-      "parent": "问“江南原来有人吗？谁向谁学习？”不要求背政权表；不让孩子扮演战争或逃难场面。",
+      "parent": "问“江南原来有人住吗？新来的人只教别人，还是也向别人学习？”不让孩子扮演战争或逃难。三国并立、西晋短暂统一、其后南北并立是不同阶段，不画成五个政权简单排队。",
       "sceneStepIndexes": [
         2,
         3
       ],
       "actionAudio": [
         {
-          "id": "quest-9dc6335a90932479",
-          "text": "一只手说“我熟悉这里的水路”。"
+          "id": "quest-e59e03946886ec02",
+          "text": "在图里找新邻居的行李，再找当地人指出的水田。"
         },
         {
-          "id": "quest-60f9b34bc2dcbb1c",
-          "text": "另一只手说“我也带来了办法”，让两只手碰一碰。"
+          "id": "quest-17f85b9d0a60bd69",
+          "text": "家人说“门要修”“田里积水”，你分别指能帮助的人。"
         }
       ],
       "introAudio": {
-        "id": "quest-3e47027430fe59b8",
-        "text": "两只手当两家邻居。一只手说“我熟悉这里的水路”。另一只手说“我也带来了办法”，让两只手碰一碰。"
+        "id": "quest-2edca937c3cef8a8",
+        "text": "部分居民分批来到江南。他们向当地人学习水土知识，也带来自己的经验，安家需要长期劳动与互助。"
       }
     },
     "estimatedMinutes": 6,
@@ -224,81 +338,140 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "迁徙的时间",
-        "title": "迁徙的时间",
-        "prompt": "这段旅程在汉朝的哪一边？",
-        "rightNote": "把汉朝放在前面，再走进这个持续很久的时期。",
-        "wrongNote": "把汉朝放在前面，再走进这个持续很久的时期。",
+        "phase": "从一辆陶牛车找时代",
+        "title": "从一辆陶牛车找时代",
+        "prompt": "到哪个时期，看看迁徙与安家？",
+        "rightNote": "来到这一站，去看看新邻居。",
+        "wrongNote": "汉朝更早，北齐在后面这一站。",
         "sourceIds": [
-          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+          "NMC-NORTHERN-QI-OX-CART"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听清问题，看看图里的线索。"
+        },
+        "narrative": {
+          "scene": "artifact",
+          "caption": "从一辆陶牛车找时代",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "来到这一站，去看看新邻居。",
+          "retry": "汉朝更早，北齐在后面这一站。",
+          "nextLabel": "新邻居为什么来到这里",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "northern-qi-ox-cart-photo",
+          "title": "陶牛车模型 · 北齐",
+          "localPath": "reference-assets/three-kingdoms-jin-northern-southern/northern-qi-ox-cart.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Northern_Qi_Pottery_Ox_Cart.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC0 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "北齐 · 6世纪 · 实物照片",
+          "boundary": "2011年参观照片，不是国博官方摄影。陶模型能观察牛车造型，不能证明某户家庭乘它南迁或所有移民同路。展托及背景属于现代展陈；原图保留，运行图仅等比例缩小。 北齐陶牛车模型｜中国国家博物馆展出｜摄影Gary Todd｜CC0 1.0。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/northern-qi-ox-cart-photo.jpg",
+          "label": "点开真材料，听听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 350,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：陶牛车",
+              "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202111/t20211111_252115.shtml"
+            },
+            {
+              "title": "图片身份、作者与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Northern_Qi_Pottery_Ox_Cart.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-e74a652405af6fd6",
+            "text": "看看牛、车轮和车篷。这是陶牛车模型，不是真正载过人的大车，也不能知道哪户人家用它搬过家。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "迁徙的时间",
-          "screenText": "三国、两晋、南北朝，从220年到589年，政权多次变化，一些人陆续向南迁居。",
-          "displayText": "三国、两晋、南北朝，从220年到589年，政权多次变化，一些人陆续向南迁居。",
-          "narration": "三国、两晋、南北朝，从220年到589年，政权多次变化，一些人陆续向南迁居。"
+          "title": "从一辆陶牛车找时代",
+          "screenText": "这件北齐陶牛车让我们看见古代车子的样子。它在三国两晋南北朝这一段。那时部分居民因战乱分批迁往江南；不能说他们都坐过这辆车。",
+          "displayText": "这件北齐陶牛车让我们看见古代车子的样子。它在三国两晋南北朝这一段。那时部分居民因战乱分批迁往江南；不能说他们都坐过这辆车。",
+          "narration": "这件北齐陶牛车让我们看见古代车子的样子。它在三国两晋南北朝这一段。那时部分居民因战乱分批迁往江南；不能说他们都坐过这辆车。"
         },
-        "assetId": "study-c3c633c92acbd14d",
-        "image": "/content/study-scenes/study-c3c633c92acbd14d.svg",
-        "studyImage": "/content/study-scenes/study-c3c633c92acbd14d.svg",
-        "studyImageAlt": "汉 到220年，220—589年",
-        "imageAlt": "汉 到220年，220—589年",
-        "imageCaption": "学习示意 · 汉 到220年，220—589年",
-        "imageBoundary": "自制学习示意。搬家家庭与动作都是教学故事，没有给真实出土器物虚构主人和经历。",
+        "assetId": "northern-qi-ox-cart-photo",
+        "image": "/content/step-images/northern-qi-ox-cart-photo.jpg",
+        "studyImage": "/content/study-scenes/study-2e9a206c8c3b5a97.svg",
+        "studyImageAlt": "出行的线索，分批迁居",
+        "imageAlt": "北齐陶牛车模型实物照片",
+        "imageCaption": "北齐陶牛车模型实物照片",
+        "imageBoundary": "2011年参观照片，不是国博官方摄影。陶模型能观察牛车造型，不能证明某户家庭乘它南迁或所有移民同路。展托及背景属于现代展陈；原图保留，运行图仅等比例缩小。",
         "audio": {
+          "lead": {
+            "id": "quest-6adbab2a81cac9a3",
+            "text": "这是北齐的陶牛车。我们到魏晋南北朝，看看迁徙与安家。"
+          },
           "transition": {
-            "id": "quest-1caf315fd063eb62",
-            "text": "迁徙的时间。"
+            "id": "quest-96910c4f004d1a10",
+            "text": "从一辆陶牛车找时代。"
           },
           "intro": {
-            "id": "quest-ad21f61908e88cb7",
-            "text": "三国、两晋、南北朝，从220年到589年，政权多次变化，一些人陆续向南迁居。"
+            "id": "quest-64a4044108884ced",
+            "text": "这件北齐陶牛车让我们看见古代车子的样子。它在三国两晋南北朝这一段。那时部分居民因战乱分批迁往江南；不能说他们都坐过这辆车。"
           },
           "question": {
-            "id": "quest-6f1c2c22cf778640",
-            "text": "这段旅程在汉朝的哪一边？"
+            "id": "quest-20152a37a15597e3",
+            "text": "到哪个时期，看看迁徙与安家？"
           },
           "image": {
-            "id": "quest-c84d03063371ce01",
-            "text": "这是学习示意图：汉 到220年，220—589年。这段旅程在汉朝的哪一边？"
+            "id": "quest-e9cc08bd3822c9c6",
+            "text": "这张是北齐陶牛车模型实物照片。这件北齐陶牛车让我们看见古代车子的样子。它在三国两晋南北朝这一段。那时部分居民因战乱分批迁往江南；不能说他们都坐过这辆车。"
           },
           "right": {
-            "id": "quest-8b1cfbf8e53bc51a",
-            "text": "找到了。把汉朝放在前面，再走进这个持续很久的时期。"
+            "id": "quest-2d50491b803d1950",
+            "text": "来到这一站，去看看新邻居。"
           },
           "wrong": {
-            "id": "quest-b3b8fbe22725c6f4",
-            "text": "再比较一下。把汉朝放在前面，再走进这个持续很久的时期。"
+            "id": "quest-5cd67a6fd96c03e6",
+            "text": "汉朝更早，北齐在后面这一站。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-05-01-division-migration-time-1",
-            "label": "汉朝之后 · 220—589年",
+            "label": "魏晋南北朝 · 220—589年",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-8a07073e42d5dbff.svg",
-            "imageAlt": "汉，220—589年",
+            "objectView": {
+              "kind": "era",
+              "name": "魏晋南北朝",
+              "date": "220—589年",
+              "stationImage": "/images/history-stations/meeting.webp"
+            },
+            "image": "/content/study-scenes/study-e35339f8ab6baddc.svg",
+            "imageAlt": "魏晋南北朝 220—589年",
             "audio": {
-              "id": "quest-dba930524331407d",
-              "text": "汉朝之后 · 220—589年"
+              "id": "quest-33e8a2bbf7c61794",
+              "text": "魏晋南北朝 · 220—589年"
             }
           },
           {
             "id": "cn-ancient-05-01-division-migration-time-2",
-            "label": "汉朝之前 · 前221年",
+            "label": "汉朝 · 前202—220年",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-a5adf15d5fb5e78c.svg",
-            "imageAlt": "前221年，汉",
+            "objectView": {
+              "kind": "era",
+              "name": "汉朝",
+              "date": "前202—220年",
+              "stationImage": "/images/history-stations/han.webp"
+            },
+            "image": "/content/study-scenes/study-1ce901b95081fbd1.svg",
+            "imageAlt": "汉朝 前202—220年",
             "audio": {
-              "id": "quest-fcafc38a6a5b0b64",
-              "text": "汉朝之前 · 前221年"
+              "id": "quest-cf04b69e7d1a757d",
+              "text": "汉朝 · 前202—220年"
             }
           }
         ]
@@ -307,247 +480,336 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "河对岸有人家",
-        "title": "河对岸有人家",
-        "prompt": "他们要去的是哪一种地方？",
-        "rightNote": "南方不是空白。到来的人会遇见当地居民。",
-        "wrongNote": "南方不是空白。到来的人会遇见当地居民。",
+        "phase": "搬来以后，还要慢慢安顿",
+        "title": "搬来以后，还要慢慢安顿",
+        "prompt": "搬来以后，还要慢慢安顿",
+        "rightNote": "新邻居要学习，也能分享经验。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
           "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听清问题，看看图里的线索。",
+          "continueLabel": "看看两位邻居会什么"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "搬来以后，还要慢慢安顿",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "新邻居要学习，也能分享经验。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "看看两位邻居会什么",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "河对岸有人家",
-          "screenText": "来看一个帮助理解迁徙的虚构家庭。他们走到江边，对岸已有村落和田地。",
-          "displayText": "来看一个帮助理解迁徙的虚构家庭。他们走到江边，对岸已有村落和田地。",
-          "narration": "来看一个帮助理解迁徙的虚构家庭。他们走到江边，对岸已有村落和田地。"
+          "title": "搬来以后，还要慢慢安顿",
+          "screenText": "魏、蜀、吴曾同时存在，西晋短暂统一后，南北又有并立的政权。有些家庭为躲避战乱分批来到江南。当地原有人居住；新邻居要了解水土，也带来自己的手艺。",
+          "displayText": "当地原有人居住。\n新邻居来学习，也带来手艺。",
+          "narration": "魏、蜀、吴曾同时存在，西晋短暂统一后，南北又有并立的政权。有些家庭为躲避战乱分批来到江南。当地原有人居住；新邻居要了解水土，也带来自己的手艺。"
         },
-        "assetId": "study-f4db6021417e0a47",
-        "image": "/content/study-scenes/study-f4db6021417e0a47.svg",
-        "studyImage": "/content/study-scenes/study-f4db6021417e0a47.svg",
-        "studyImageAlt": "来到江边，已有村落",
-        "imageAlt": "来到江边，已有村落",
-        "imageCaption": "学习示意 · 来到江边，已有村落",
-        "imageBoundary": "自制学习示意。搬家家庭与动作都是教学故事，没有给真实出土器物虚构主人和经历。",
+        "assetId": "study-8fe05827d1d120bd",
+        "image": "/content/study-scenes/study-8fe05827d1d120bd.svg",
+        "studyImage": "/content/study-scenes/study-8fe05827d1d120bd.svg",
+        "studyImageAlt": "原有人家，相遇安顿",
+        "imageAlt": "原有人家，相遇安顿",
+        "imageCaption": "学习示意 · 原有人家，相遇安顿",
+        "imageBoundary": "自制学习示意。这是一户虚构家庭的安顿故事，不替具体文物编主人或路线。迁徙不止南迁，也不是所有北方人同一次搬走。牛车是北齐墓葬模型，不是某家南迁时乘过的真车。插画房屋、桥梁、衣着是情境表达，不是晋代建筑或族群外貌复原。",
         "audio": {
+          "lead": {
+            "id": "quest-a203b4542f3f3d28",
+            "text": "有些家庭分批来到江南。当地原有人居住，大家要慢慢安顿、互相学习。"
+          },
           "transition": {
-            "id": "quest-9209f1244dec2b08",
-            "text": "河对岸有人家。"
+            "id": "quest-63ec9df8fd74e014",
+            "text": "搬来以后，还要慢慢安顿。"
           },
           "intro": {
-            "id": "quest-fb42f1b7311c7895",
-            "text": "来看一个帮助理解迁徙的虚构家庭。他们走到江边，对岸已有村落和田地。"
+            "id": "quest-157a161fa27f5677",
+            "text": "魏、蜀、吴曾同时存在，西晋短暂统一后，南北又有并立的政权。有些家庭为躲避战乱分批来到江南。当地原有人居住；新邻居要了解水土，也带来自己的手艺。"
           },
           "question": {
-            "id": "quest-24257c1e464516cc",
-            "text": "他们要去的是哪一种地方？"
+            "id": "quest-f02110473f7a1024",
+            "text": "搬来以后，还要慢慢安顿"
           },
           "image": {
-            "id": "quest-9327eb612e19e528",
-            "text": "这是学习示意图：来到江边，已有村落。他们要去的是哪一种地方？"
+            "id": "quest-113aa88ccb2c97d1",
+            "text": "这是学习示意图：原有人家，相遇安顿。搬来以后，还要慢慢安顿"
           },
           "right": {
-            "id": "quest-abbccdde3939852b",
-            "text": "找到了。南方不是空白。到来的人会遇见当地居民。"
+            "id": "quest-748acb196b42cafb",
+            "text": "新邻居要学习，也能分享经验。"
           },
           "wrong": {
-            "id": "quest-f7099032eeeabaa0",
-            "text": "再比较一下。南方不是空白。到来的人会遇见当地居民。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-05-01-division-migration-beginning-1",
-            "label": "已有居民的村落",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-976714cff047b948.svg",
-            "imageAlt": "有人住的村落",
-            "audio": {
-              "id": "quest-989b23cc0160c7bb",
-              "text": "已有居民的村落"
-            }
-          },
-          {
-            "id": "cn-ancient-05-01-division-migration-beginning-2",
-            "label": "没有人住的空地",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-67bb5380bc5050bc.svg",
-            "imageAlt": "空白地面",
-            "audio": {
-              "id": "quest-eff0cd6812846288",
-              "text": "没有人住的空地"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "把经验带过去",
-        "title": "把经验带过去",
-        "prompt": "想在这里种田，先向谁了解水土？",
-        "rightNote": "旧经验有用，也需要了解新地方的条件。",
-        "wrongNote": "旧经验有用，也需要了解新地方的条件。",
+        "phase": "两位邻居，各有经验",
+        "title": "两位邻居，各有经验",
+        "prompt": "谁在修门，带来了木工手艺？",
+        "rightNote": "两个人各有经验，能互相帮忙。",
+        "wrongNote": "他熟悉田里的水，再找拿工具的人。",
         "sourceIds": [
           "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听清问题，看看图里的线索。",
+          "hotspots": [
+            {
+              "id": "carpenter",
+              "label": "修门的新邻居",
+              "x": 0.43,
+              "y": 0.3,
+              "width": 0.26,
+              "height": 0.31
+            },
+            {
+              "id": "farmer",
+              "label": "讲水田的当地人",
+              "x": 0.76,
+              "y": 0.33,
+              "width": 0.23,
+              "height": 0.29
+            }
+          ],
+          "rounds": [
+            {
+              "id": "find-carpenter",
+              "question": "谁在修门，带来了木工手艺？",
+              "targetId": "carpenter",
+              "feedback": "找到了，他正用木工工具修门。",
+              "retry": "他熟悉田里的水，再找拿工具的人。",
+              "nextLabel": "再找熟悉当地水土的人",
+              "audio": {
+                "question": {
+                  "id": "quest-9120ec490ede298e",
+                  "text": "谁在修门，带来了木工手艺？"
+                },
+                "right": {
+                  "id": "quest-009db1e503b6e0d9",
+                  "text": "找到了，他正用木工工具修门。"
+                },
+                "wrong": {
+                  "id": "quest-61faf6cb0ffd96df",
+                  "text": "他熟悉田里的水，再找拿工具的人。"
+                }
+              }
+            },
+            {
+              "id": "find-farmer",
+              "question": "谁在告诉大家田里哪里有水？",
+              "targetId": "farmer",
+              "feedback": "他熟悉这里的水土，可以教新邻居。",
+              "retry": "他正修门，找找拿秧苗、指水田的人。",
+              "audio": {
+                "question": {
+                  "id": "quest-a6a1e75b4c7f6a13",
+                  "text": "谁在告诉大家田里哪里有水？"
+                },
+                "right": {
+                  "id": "quest-356563c6d32927fb",
+                  "text": "他熟悉这里的水土，可以教新邻居。"
+                },
+                "wrong": {
+                  "id": "quest-03b6ed8199249fbe",
+                  "text": "他正修门，找找拿秧苗、指水田的人。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "两位邻居，各有经验",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "两个人各有经验，能互相帮忙。",
+          "retry": "他熟悉田里的水，再找拿工具的人。",
+          "nextLabel": "新家要种田，先问谁",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "把经验带过去",
-          "screenText": "搬家的人带着用具和生活经验。到了新地方，还要认识当地水土。",
-          "displayText": "搬家的人带着用具和生活经验。到了新地方，还要认识当地水土。",
-          "narration": "搬家的人带着用具和生活经验。到了新地方，还要认识当地水土。"
+          "title": "两位邻居，各有经验",
+          "screenText": "这是一个虚构的安家故事。新来的木工放下行李，帮忙修门；当地的种田人拿着秧苗，告诉大家哪里有水。先找一找两人的工作。",
+          "displayText": "这是一个虚构的安家故事。新来的木工放下行李，帮忙修门；当地的种田人拿着秧苗，告诉大家哪里有水。先找一找两人的工作。",
+          "narration": "这是一个虚构的安家故事。新来的木工放下行李，帮忙修门；当地的种田人拿着秧苗，告诉大家哪里有水。先找一找两人的工作。"
         },
-        "assetId": "study-b57a37f0b1d51764",
-        "image": "/content/study-scenes/study-b57a37f0b1d51764.svg",
-        "studyImage": "/content/study-scenes/study-b57a37f0b1d51764.svg",
-        "studyImageAlt": "带来经验，新地方水土，一起商量",
-        "imageAlt": "带来经验，新地方水土，一起商量",
-        "imageCaption": "学习示意 · 带来经验，新地方水土，一起商量",
-        "imageBoundary": "自制学习示意。搬家家庭与动作都是教学故事，没有给真实出土器物虚构主人和经历。",
+        "assetId": "jin-migration-neighbours-v1",
+        "image": "/content/step-images/jin-migration-neighbours-v1.jpg",
+        "studyImage": "/content/study-scenes/study-5cac409ce28abc39.svg",
+        "studyImageAlt": "木工手艺，当地水土",
+        "imageAlt": "新邻居在江南安家的故事插画",
+        "imageCaption": "新邻居在江南安家的故事插画",
+        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-migration-neighbours-v1-prompt.txt。",
         "audio": {
+          "lead": {
+            "id": "quest-dd872b27e48d965d",
+            "text": "看看两位邻居。谁在修门，谁熟悉这里的田？"
+          },
           "transition": {
-            "id": "quest-6a796ec9745ca984",
-            "text": "把经验带过去。"
+            "id": "quest-47d445fadb43b1bb",
+            "text": "两位邻居，各有经验。"
           },
           "intro": {
-            "id": "quest-4b85ef6f24eb9f08",
-            "text": "搬家的人带着用具和生活经验。到了新地方，还要认识当地水土。"
+            "id": "quest-2f085283c71d3c10",
+            "text": "这是一个虚构的安家故事。新来的木工放下行李，帮忙修门；当地的种田人拿着秧苗，告诉大家哪里有水。先找一找两人的工作。"
           },
           "question": {
-            "id": "quest-cd53dbdb431954de",
-            "text": "想在这里种田，先向谁了解水土？"
+            "id": "quest-9120ec490ede298e",
+            "text": "谁在修门，带来了木工手艺？"
           },
           "image": {
-            "id": "quest-d77d98644952192a",
-            "text": "这是学习示意图：带来经验，新地方水土，一起商量。想在这里种田，先向谁了解水土？"
+            "id": "quest-2d2a7bf35400173b",
+            "text": "这张是新邻居在江南安家的故事插画。这是一个虚构的安家故事。新来的木工放下行李，帮忙修门；当地的种田人拿着秧苗，告诉大家哪里有水。先找一找两人的工作。"
           },
           "right": {
-            "id": "quest-551a5f694623cd1e",
-            "text": "找到了。旧经验有用，也需要了解新地方的条件。"
+            "id": "quest-c68fb4ba706210b2",
+            "text": "两个人各有经验，能互相帮忙。"
           },
           "wrong": {
-            "id": "quest-d20d0743e4cd4ec1",
-            "text": "再比较一下。旧经验有用，也需要了解新地方的条件。"
+            "id": "quest-61faf6cb0ffd96df",
+            "text": "他熟悉田里的水，再找拿工具的人。"
+          }
+        },
+        "options": []
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "水土不同，先问明白",
+        "title": "水土不同，先问明白",
+        "prompt": "想了解当地水土，先向谁请教？",
+        "rightNote": "当地人熟悉水土，先听听他的经验。",
+        "wrongNote": "木工能帮修门，水土先问当地种田人。",
+        "sourceIds": [
+          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清问题，看看图里的线索。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "水土不同，先问明白",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "当地人熟悉水土，先听听他的经验。",
+          "retry": "木工能帮修门，水土先问当地种田人。",
+          "nextLabel": "当地人的门坏了怎么办",
+          "kind": "fictional-guide-scene"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "水土不同，先问明白",
+          "screenText": "新家的田容易积水，小伙伴想知道哪里适合种、哪里需要排水。刚认识的两位邻居，谁更熟悉这里的水土？",
+          "displayText": "新家的田容易积水，小伙伴想知道哪里适合种、哪里需要排水。刚认识的两位邻居，谁更熟悉这里的水土？",
+          "narration": "新家的田容易积水，小伙伴想知道哪里适合种、哪里需要排水。刚认识的两位邻居，谁更熟悉这里的水土？"
+        },
+        "assetId": "jin-migration-neighbours-v1",
+        "image": "/content/step-images/jin-migration-neighbours-v1.jpg",
+        "studyImage": "/content/study-scenes/study-1586dcbf3c8913c4.svg",
+        "studyImageAlt": "积水问题，请教经验",
+        "imageAlt": "新邻居在江南安家的故事插画",
+        "imageCaption": "新邻居在江南安家的故事插画",
+        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-migration-neighbours-v1-prompt.txt。",
+        "audio": {
+          "lead": {
+            "id": "quest-a025dd9ab6a30266",
+            "text": "想知道哪里积水，先找熟悉当地水田的人。"
+          },
+          "transition": {
+            "id": "quest-ac6a4dc0f47649c7",
+            "text": "水土不同，先问明白。"
+          },
+          "intro": {
+            "id": "quest-66def335ddd22777",
+            "text": "新家的田容易积水，小伙伴想知道哪里适合种、哪里需要排水。刚认识的两位邻居，谁更熟悉这里的水土？"
+          },
+          "question": {
+            "id": "quest-dc7b86163ccb4f7f",
+            "text": "想了解当地水土，先向谁请教？"
+          },
+          "image": {
+            "id": "quest-5fc7a0d7fda84db8",
+            "text": "这张是新邻居在江南安家的故事插画。新家的田容易积水，小伙伴想知道哪里适合种、哪里需要排水。刚认识的两位邻居，谁更熟悉这里的水土？"
+          },
+          "right": {
+            "id": "quest-421f9e71b57205b1",
+            "text": "当地人熟悉水土，先听听他的经验。"
+          },
+          "wrong": {
+            "id": "quest-8e33daef7318ad56",
+            "text": "木工能帮修门，水土先问当地种田人。"
           }
         },
         "options": [
           {
-            "id": "cn-ancient-05-01-division-migration-journey-1",
+            "id": "cn-ancient-05-01-division-migration-change-1",
             "label": "向当地种田人请教",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-23a802fbac5761ba.svg",
-            "imageAlt": "请教本地农人",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "jin-migration-neighbours-v1",
+              "crop": {
+                "x": 1130,
+                "y": 90,
+                "width": 400,
+                "height": 570,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/jin-migration-neighbours-v1.jpg",
+              "imageAlt": "向当地种田人请教"
+            },
+            "image": "/content/study-scenes/study-b4a8c83a93ce6637.svg",
+            "imageAlt": "向当地种田人请教",
             "audio": {
               "id": "quest-33be6507ca1000df",
               "text": "向当地种田人请教"
             }
           },
           {
-            "id": "cn-ancient-05-01-division-migration-journey-2",
-            "label": "只照旧地方的习惯",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-eb98d32f7dced529.svg",
-            "imageAlt": "只照旧习惯",
-            "audio": {
-              "id": "quest-258466246c324508",
-              "text": "只照旧地方的习惯"
-            }
-          }
-        ]
-      },
-      {
-        "id": "change",
-        "questionKind": "cause-effect",
-        "icon": "✨",
-        "phase": "两家一起试办法",
-        "title": "两家一起试办法",
-        "prompt": "哪种做法是在互相学习？",
-        "rightNote": "双方都有经验，不是只有一边带来知识。",
-        "wrongNote": "双方都有经验，不是只有一边带来知识。",
-        "sourceIds": [
-          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
-        ],
-        "interaction": null,
-        "narrative": null,
-        "concepts": null,
-        "inspection": null,
-        "story": {
-          "screenNumber": 4,
-          "title": "两家一起试办法",
-          "screenText": "当地居民熟悉水路，迁来的人也会一些手艺。大家可以互相学习。",
-          "displayText": "当地居民熟悉水路，迁来的人也会一些手艺。大家可以互相学习。",
-          "narration": "当地居民熟悉水路，迁来的人也会一些手艺。大家可以互相学习。"
-        },
-        "assetId": "study-3f135ebd8bc141e5",
-        "image": "/content/study-scenes/study-3f135ebd8bc141e5.svg",
-        "studyImage": "/content/study-scenes/study-3f135ebd8bc141e5.svg",
-        "studyImageAlt": "本地水路，迁来手艺",
-        "imageAlt": "本地水路，迁来手艺",
-        "imageCaption": "学习示意 · 本地水路，迁来手艺",
-        "imageBoundary": "自制学习示意。搬家家庭与动作都是教学故事，没有给真实出土器物虚构主人和经历。",
-        "audio": {
-          "transition": {
-            "id": "quest-2d9c72add3f0edd0",
-            "text": "两家一起试办法。"
-          },
-          "intro": {
-            "id": "quest-f510d49910e71d18",
-            "text": "当地居民熟悉水路，迁来的人也会一些手艺。大家可以互相学习。"
-          },
-          "question": {
-            "id": "quest-8282ed23d267fb0d",
-            "text": "哪种做法是在互相学习？"
-          },
-          "image": {
-            "id": "quest-49e1bddbe775d694",
-            "text": "这是学习示意图：本地水路，迁来手艺。哪种做法是在互相学习？"
-          },
-          "right": {
-            "id": "quest-fd846d56808d5fea",
-            "text": "找到了。双方都有经验，不是只有一边带来知识。"
-          },
-          "wrong": {
-            "id": "quest-d3ad2c382929314d",
-            "text": "再比较一下。双方都有经验，不是只有一边带来知识。"
-          }
-        },
-        "options": [
-          {
-            "id": "cn-ancient-05-01-division-migration-change-1",
-            "label": "你教我水路，我教你手艺",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-76df6bd48a3bad9c.svg",
-            "imageAlt": "双向交流",
-            "audio": {
-              "id": "quest-52b5c8abe0bfdced",
-              "text": "你教我水路，我教你手艺"
-            }
-          },
-          {
             "id": "cn-ancient-05-01-division-migration-change-2",
-            "label": "只有新来的人教别人",
+            "label": "向新来的木工请教",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-0c479b70531c4fb6.svg",
-            "imageAlt": "只有一方教",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "jin-migration-neighbours-v1",
+              "crop": {
+                "x": 630,
+                "y": 100,
+                "width": 440,
+                "height": 530,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/jin-migration-neighbours-v1.jpg",
+              "imageAlt": "向新来的木工请教"
+            },
+            "image": "/content/study-scenes/study-4a020b1a0885490f.svg",
+            "imageAlt": "向新来的木工请教",
             "audio": {
-              "id": "quest-19abd3da3265500a",
-              "text": "只有新来的人教别人"
+              "id": "quest-fae5b7189f083ef3",
+              "text": "向新来的木工请教"
             }
           }
         ]
@@ -556,81 +818,124 @@
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "给迁徙图补上人",
-        "title": "给迁徙图补上人",
-        "prompt": "箭头到终点后，还要画什么？",
-        "rightNote": "箭头只表示移动；生活的变化还靠许多人长期相处。",
-        "wrongNote": "箭头只表示移动；生活的变化还靠许多人长期相处。",
+        "phase": "本地人也能向新邻居学习",
+        "title": "本地人也能向新邻居学习",
+        "prompt": "想学修木门，找谁更合适？",
+        "rightNote": "这回向新邻居学手艺，帮助是双向的。",
+        "wrongNote": "种田经验很重要，修门再问拿木工工具的人。",
         "sourceIds": [
           "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清问题，看看图里的线索。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "scene": "reunion",
+          "caption": "本地人也能向新邻居学习",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "这回向新邻居学手艺，帮助是双向的。",
+          "retry": "种田经验很重要，修门再问拿木工工具的人。",
+          "nextLabel": "把安家的发现带回家",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 5,
-          "title": "给迁徙图补上人",
-          "screenText": "地图上的箭头看起来简单，真正搬家和安顿却很不容易。",
-          "displayText": "地图上的箭头看起来简单，真正搬家和安顿却很不容易。",
-          "narration": "地图上的箭头看起来简单，真正搬家和安顿却很不容易。"
+          "title": "本地人也能向新邻居学习",
+          "screenText": "后来，当地人家的木门松了。他熟悉种田，却想学修门的办法。小伙伴记得，新来的邻居也有可以分享的手艺。",
+          "displayText": "后来，当地人家的木门松了。他熟悉种田，却想学修门的办法。小伙伴记得，新来的邻居也有可以分享的手艺。",
+          "narration": "后来，当地人家的木门松了。他熟悉种田，却想学修门的办法。小伙伴记得，新来的邻居也有可以分享的手艺。"
         },
-        "assetId": "study-6ddcfec1dc73d20d",
-        "image": "/content/study-scenes/study-6ddcfec1dc73d20d.svg",
-        "studyImage": "/content/study-scenes/study-6ddcfec1dc73d20d.svg",
-        "studyImageAlt": "迁徙箭头，相遇，安顿",
-        "imageAlt": "迁徙箭头，相遇，安顿",
-        "imageCaption": "学习示意 · 迁徙箭头，相遇，安顿",
-        "imageBoundary": "自制学习示意。搬家家庭与动作都是教学故事，没有给真实出土器物虚构主人和经历。",
+        "assetId": "study-64cdcdec214d094b",
+        "image": "/content/study-scenes/study-64cdcdec214d094b.svg",
+        "studyImage": "/content/study-scenes/study-64cdcdec214d094b.svg",
+        "studyImageAlt": "带来手艺，互相学习",
+        "imageAlt": "带来手艺，互相学习",
+        "imageCaption": "学习示意 · 带来手艺，互相学习",
+        "imageBoundary": "自制学习示意。这是一户虚构家庭的安顿故事，不替具体文物编主人或路线。迁徙不止南迁，也不是所有北方人同一次搬走。牛车是北齐墓葬模型，不是某家南迁时乘过的真车。插画房屋、桥梁、衣着是情境表达，不是晋代建筑或族群外貌复原。",
         "audio": {
+          "lead": {
+            "id": "quest-a9e0426670109c18",
+            "text": "当地人想学修门，去找哪位邻居？"
+          },
           "transition": {
-            "id": "quest-d069e42f7d8b8217",
-            "text": "给迁徙图补上人。"
+            "id": "quest-74f717aad59299b1",
+            "text": "本地人也能向新邻居学习。"
           },
           "intro": {
-            "id": "quest-d4a2a1f886b11305",
-            "text": "地图上的箭头看起来简单，真正搬家和安顿却很不容易。"
+            "id": "quest-66ce60ad2cbf549d",
+            "text": "后来，当地人家的木门松了。他熟悉种田，却想学修门的办法。小伙伴记得，新来的邻居也有可以分享的手艺。"
           },
           "question": {
-            "id": "quest-9953570df8c7f599",
-            "text": "箭头到终点后，还要画什么？"
+            "id": "quest-6285f29adddaa770",
+            "text": "想学修木门，找谁更合适？"
           },
           "image": {
-            "id": "quest-0ff32377c6dee869",
-            "text": "这是学习示意图：迁徙箭头，相遇，安顿。箭头到终点后，还要画什么？"
+            "id": "quest-ddf3765538651d74",
+            "text": "这是学习示意图：带来手艺，互相学习。想学修木门，找谁更合适？"
           },
           "right": {
-            "id": "quest-b77ca401132d4742",
-            "text": "找到了。箭头只表示移动；生活的变化还靠许多人长期相处。"
+            "id": "quest-8c3767466b673677",
+            "text": "这回向新邻居学手艺，帮助是双向的。"
           },
           "wrong": {
-            "id": "quest-d96ac5268fb232e5",
-            "text": "再比较一下。箭头只表示移动；生活的变化还靠许多人长期相处。"
+            "id": "quest-12ec2d847d2aee7f",
+            "text": "种田经验很重要，修门再问拿木工工具的人。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-05-01-division-migration-takeaway-1",
-            "label": "相遇与慢慢安顿",
+            "label": "向新来的木工请教",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-9adfc771b5e3ba4e.svg",
-            "imageAlt": "相处，逐步建设",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "jin-migration-neighbours-v1",
+              "crop": {
+                "x": 630,
+                "y": 100,
+                "width": 440,
+                "height": 530,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/jin-migration-neighbours-v1.jpg",
+              "imageAlt": "向新来的木工请教"
+            },
+            "image": "/content/study-scenes/study-4a020b1a0885490f.svg",
+            "imageAlt": "向新来的木工请教",
             "audio": {
-              "id": "quest-03d211c738524959",
-              "text": "相遇与慢慢安顿"
+              "id": "quest-fae5b7189f083ef3",
+              "text": "向新来的木工请教"
             }
           },
           {
             "id": "cn-ancient-05-01-division-migration-takeaway-2",
-            "label": "到达就立刻建好一切",
+            "label": "向当地种田人请教",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-5fecc1455a73fe81.svg",
-            "imageAlt": "到达即全部建成",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "jin-migration-neighbours-v1",
+              "crop": {
+                "x": 1130,
+                "y": 90,
+                "width": 400,
+                "height": 570,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/jin-migration-neighbours-v1.jpg",
+              "imageAlt": "向当地种田人请教"
+            },
+            "image": "/content/study-scenes/study-b4a8c83a93ce6637.svg",
+            "imageAlt": "向当地种田人请教",
             "audio": {
-              "id": "quest-b57d794a6ce14935",
-              "text": "到达就立刻建好一切"
+              "id": "quest-33be6507ca1000df",
+              "text": "向当地种田人请教"
             }
           }
         ]
@@ -929,6 +1234,16 @@
       "imageUse": "reference-only"
     },
     {
+      "id": "NMC-NORTHERN-QI-OX-CART",
+      "title": "陶牛车",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202111/t20211111_252115.shtml",
+      "type": "museum-object-record",
+      "authorityLevel": "A",
+      "factUse": "三国两晋南北朝牛车交通与陶模型形制；不据墓葬器物编造某个南迁家庭或固定路线。",
+      "imageUse": "reference-only"
+    },
+    {
       "id": "PEP-PRIMARY-CHINESE-G5B-2022",
       "title": "义务教育教科书语文五年级下册同步字词学习手册目录",
       "institution": "人民教育出版社",
@@ -951,197 +1266,119 @@
   ],
   "assets": [
     {
-      "id": "study-c3c633c92acbd14d",
-      "title": "学习示意：汉 到220年、220—589年",
-      "localPath": "reference-assets/focused-quests/study-c3c633c92acbd14d.svg",
+      "id": "study-2e9a206c8c3b5a97",
+      "title": "学习示意：出行的线索、分批迁居",
+      "localPath": "reference-assets/focused-quests/study-2e9a206c8c3b5a97.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "汉 到220年 → 220—589年",
+      "caption": "出行的线索 → 分批迁居",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-8a07073e42d5dbff",
-      "title": "学习示意：汉、220—589年",
-      "localPath": "reference-assets/focused-quests/study-8a07073e42d5dbff.svg",
+      "id": "study-e35339f8ab6baddc",
+      "title": "学习示意：魏晋南北朝 220—589年",
+      "localPath": "reference-assets/focused-quests/study-e35339f8ab6baddc.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "汉 → 220—589年",
+      "caption": "魏晋南北朝 220—589年",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-a5adf15d5fb5e78c",
-      "title": "学习示意：前221年、汉",
-      "localPath": "reference-assets/focused-quests/study-a5adf15d5fb5e78c.svg",
+      "id": "study-1ce901b95081fbd1",
+      "title": "学习示意：汉朝 前202—220年",
+      "localPath": "reference-assets/focused-quests/study-1ce901b95081fbd1.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "前221年 → 汉",
+      "caption": "汉朝 前202—220年",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-f4db6021417e0a47",
-      "title": "学习示意：来到江边、已有村落",
-      "localPath": "reference-assets/focused-quests/study-f4db6021417e0a47.svg",
+      "id": "study-8fe05827d1d120bd",
+      "title": "学习示意：原有人家、相遇安顿",
+      "localPath": "reference-assets/focused-quests/study-8fe05827d1d120bd.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "来到江边 → 已有村落",
+      "caption": "原有人家 → 相遇安顿",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-976714cff047b948",
-      "title": "学习示意：有人住的村落",
-      "localPath": "reference-assets/focused-quests/study-976714cff047b948.svg",
+      "id": "study-5cac409ce28abc39",
+      "title": "学习示意：木工手艺、当地水土",
+      "localPath": "reference-assets/focused-quests/study-5cac409ce28abc39.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "有人住的村落",
+      "caption": "木工手艺 → 当地水土",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-67bb5380bc5050bc",
-      "title": "学习示意：空白地面",
-      "localPath": "reference-assets/focused-quests/study-67bb5380bc5050bc.svg",
+      "id": "study-1586dcbf3c8913c4",
+      "title": "学习示意：积水问题、请教经验",
+      "localPath": "reference-assets/focused-quests/study-1586dcbf3c8913c4.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "空白地面",
+      "caption": "积水问题 → 请教经验",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-b57a37f0b1d51764",
-      "title": "学习示意：带来经验、新地方水土、一起商量",
-      "localPath": "reference-assets/focused-quests/study-b57a37f0b1d51764.svg",
+      "id": "study-b4a8c83a93ce6637",
+      "title": "学习示意：向当地种田人请教",
+      "localPath": "reference-assets/focused-quests/study-b4a8c83a93ce6637.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "带来经验 → 新地方水土 → 一起商量",
+      "caption": "向当地种田人请教",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-23a802fbac5761ba",
-      "title": "学习示意：请教本地农人",
-      "localPath": "reference-assets/focused-quests/study-23a802fbac5761ba.svg",
+      "id": "study-4a020b1a0885490f",
+      "title": "学习示意：向新来的木工请教",
+      "localPath": "reference-assets/focused-quests/study-4a020b1a0885490f.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "请教本地农人",
+      "caption": "向新来的木工请教",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-eb98d32f7dced529",
-      "title": "学习示意：只照旧习惯",
-      "localPath": "reference-assets/focused-quests/study-eb98d32f7dced529.svg",
+      "id": "study-64cdcdec214d094b",
+      "title": "学习示意：带来手艺、互相学习",
+      "localPath": "reference-assets/focused-quests/study-64cdcdec214d094b.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "只照旧习惯",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-3f135ebd8bc141e5",
-      "title": "学习示意：本地水路、迁来手艺",
-      "localPath": "reference-assets/focused-quests/study-3f135ebd8bc141e5.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "本地水路 → 迁来手艺",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-76df6bd48a3bad9c",
-      "title": "学习示意：双向交流",
-      "localPath": "reference-assets/focused-quests/study-76df6bd48a3bad9c.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "双向交流",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-0c479b70531c4fb6",
-      "title": "学习示意：只有一方教",
-      "localPath": "reference-assets/focused-quests/study-0c479b70531c4fb6.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "只有一方教",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-6ddcfec1dc73d20d",
-      "title": "学习示意：迁徙箭头、相遇、安顿",
-      "localPath": "reference-assets/focused-quests/study-6ddcfec1dc73d20d.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "迁徙箭头 → 相遇 → 安顿",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-9adfc771b5e3ba4e",
-      "title": "学习示意：相处、逐步建设",
-      "localPath": "reference-assets/focused-quests/study-9adfc771b5e3ba4e.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "相处 → 逐步建设",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-5fecc1455a73fe81",
-      "title": "学习示意：到达即全部建成",
-      "localPath": "reference-assets/focused-quests/study-5fecc1455a73fe81.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "到达即全部建成",
+      "caption": "带来手艺 → 互相学习",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1155,8 +1392,8 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "自制儿童示意图：脚印从黄河流域分批走向长江流域，陶碗提示用日用品寻找生活线索。",
-      "boundary": "2026-08-09为低龄玩法自制。它不是精确历史地图，不表示一次整齐迁徙、固定路线或现代边界；陶碗和相遇人物不是某个真实家庭的个案复原。",
-      "childVisibility": "child-ok"
+      "boundary": "2026-08-09为低龄玩法自制。它不是精确历史地图，不表示一次整齐迁徙、固定路线或现代边界；陶碗和相遇人物不是某个真实家庭的个案复原。 2026-09-19由新故事图与精确学习图替换；旧图保留供编辑参考。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "three-kingdoms-262-editorial-map",
@@ -1182,6 +1419,45 @@
       "clearance": "cleared-open-license",
       "caption": "1948年河北景县封氏墓群出土的北朝鲜卑服陶武士俑。",
       "boundary": "器物信息与国家博物馆同一器物记录交叉核验。陶俑表现帽、裤、短衣和披风等服装形象；墓俑不是武士肖像，不能凭外貌或服装单独判定某个真实人物的族群身份。下载为1920像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "northern-qi-ox-cart-photo",
+      "title": "北齐陶牛车模型实物照片",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/northern-qi-ox-cart.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Northern_Qi_Pottery_Ox_Cart.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC0 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "北齐陶牛车模型｜中国国家博物馆展出｜摄影Gary Todd｜CC0 1.0。",
+      "boundary": "2011年参观照片，不是国博官方摄影。陶模型能观察牛车造型，不能证明某户家庭乘它南迁或所有移民同路。展托及背景属于现代展陈；原图保留，运行图仅等比例缩小。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "jin-migration-neighbours-v1",
+      "title": "新邻居在江南安家的故事插画",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-migration-neighbours-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "新邻居在江南安家的故事插画；非历史现场复原。",
+      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-migration-neighbours-v1-prompt.txt。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "jin-travel-journal-reunion-v1",
+      "title": "三位小伙伴回看本段历史的聚会插画",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-travel-journal-reunion-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
+      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
       "childVisibility": "child-ok"
     }
   ],

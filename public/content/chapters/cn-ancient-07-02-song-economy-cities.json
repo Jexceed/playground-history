@@ -15,27 +15,28 @@
   "throughline": "通过城市图像、店铺遗址、瓷器、钱币和航运资料观察经济重心南移、城市商业和国内外贸易。",
   "childEntry": {
     "id": "cn-ancient-07-02-song-economy-cities",
-    "childTitle": "在清明上河图里找工作",
-    "prompt": "长卷里这么热闹，谁在让城市运转？",
-    "takeaway": "《清明上河图》用绘画表现城市生活；船工、商贩等各有工作，画面不能统计所有人的生活。",
+    "childTitle": "清明上河图里，谁让城市忙起来？",
+    "prompt": "长卷里的桥上桥下都很热闹。船工、搬运者和店里的人，怎样把水路与街市接起来？",
+    "takeaway": "北宋画家张择端画下汴京的城市生活。河船、桥梁、搬运和买卖彼此联系，热闹背后有许多人的劳动。",
     "object": "《清明上河图》、广告铜版和纸币印版",
     "people": [
       "张择端",
-      "画里的劳动者"
+      "汴京街市里的人们"
     ],
     "place": "北宋汴京，也就是今天的河南开封",
     "culture": "《清明上河图》",
-    "care": "长卷是绘画；运输学习图不冒充画中某一人物的确定经历。白兔广告和长卷属于不同实物材料。",
-    "playableSource": "content/focused-quests.json"
+    "care": "原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
+    "playableSource": "content/focused-quests.json",
+    "preferredAssetId": "song-city-work-v1"
   },
   "textbookConnection": {
     "id": "cn-ancient-07-02-song-economy-cities",
     "featured": {
       "type": "课文",
       "icon": "🖼️",
-      "title": "张择端与画里的劳动者",
-      "childBridge": "长卷里这么热闹，谁在让城市运转？",
-      "evidenceBoundary": "长卷是绘画；运输学习图不冒充画中某一人物的确定经历。"
+      "title": "张择端与汴京街市里的人们",
+      "childBridge": "长卷里的桥上桥下都很热闹。船工、搬运者和店里的人，怎样把水路与街市接起来？",
+      "evidenceBoundary": "原作局部与现代港口教学插画分开。"
     },
     "companions": [
       {
@@ -64,39 +65,40 @@
       "DPM-QINGMING-SCROLL",
       "NMC-HUIZI-PLATE",
       "PEP-PRIMARY-TRADITIONAL-CULTURE-2019",
-      "NMC-SONG-AD-PLATE"
+      "NMC-SONG-AD-PLATE",
+      "NMC-LIAO-SONG-XIA-JIN-YUAN"
     ]
   },
   "childStory": [
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "长卷的时间",
-      "text": "张择端的《清明上河图》属于北宋。我们先到宋朝，再走进画里的街市。"
+      "label": "一幅真正的北宋长卷",
+      "text": "张择端画下汴京的街市。我们先看真正的画卷局部：河边有船，桥上有人。这次去北宋看看。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "桥下谁在忙",
-      "text": "画卷中有河流、船和桥。先看桥边的船，想想有人需要怎样合作。"
+      "label": "河流把货物带到城市",
+      "text": "画中的汴河是运输的水路。桥下船工忙着过桥，桥上行人和商贩往来。有人运货、有人搬运、有人买卖，城市生活靠不同工作接在一起。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "货物怎样进街市",
-      "text": "我们用学习图接一段流程：船运来货物，再由人搬到街边。不能说每件货都走同一路。"
+      "label": "从真画里找水路和桥",
+      "text": "跟小伙伴看看这幅真画：河船走水路，行人可以从桥上过去。先找船，再找过河的桥。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "小白兔也能当招牌",
-      "text": "宋代针铺广告铜版上有白兔图。图案帮助人们认店，与今天只靠读长文字不同。"
+      "label": "从船上到街边，还要接一程",
+      "text": "这幅新画演一段搬运故事。货物到了岸边，接下来要送进街边。船工和搬运者各有工作，小伙伴该找谁接这一程？"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "画卷能告诉多少",
-      "text": "画家选择了要画的人和场景。画得热闹，不等于当时所有家庭都过一样的生活。"
+      "label": "热闹里，也看见不同生活",
+      "text": "长卷让我们看见许多人的工作。画家只画了他选择的场景，不能说明所有人过得一样。看见热闹，也别忘了撑船、搬运和做东西的人。"
     }
   ],
   "glossary": [
@@ -198,12 +200,12 @@
     "hook": {
       "kind": "具体任务",
       "icon": "🔎",
-      "label": "在清明上河图里找工作",
-      "question": "长卷里这么热闹，谁在让城市运转？"
+      "label": "清明上河图里，谁让城市忙起来？",
+      "question": "长卷里的桥上桥下都很热闹。船工、搬运者和店里的人，怎样把水路与街市接起来？"
     },
-    "cta": "去桥边找一找",
-    "anchor": "张择端与画里的劳动者",
-    "boundary": "长卷是绘画；运输学习图不冒充画中某一人物的确定经历。白兔广告和长卷属于不同实物材料。",
+    "cta": "去桥边找找忙碌的人",
+    "anchor": "张择端与汴京街市里的人们",
+    "boundary": "原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
     "evidence": [
       {
         "id": "qingming-scroll-rainbow-bridge-detail",
@@ -220,59 +222,151 @@
         "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg"
       }
     ],
+    "photoAlbum": null,
     "coverAsset": {
-      "id": "qingming-scroll-rainbow-bridge-detail",
-      "title": "张择端《清明上河图》虹桥附近局部",
-      "localPath": "reference-assets/liao-song-xia-jin-yuan/qingming-river-original-detail.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_(detail_of_original).jpg",
+      "id": "song-city-work-v1",
+      "title": "清明上河图里，谁让城市忙起来？故事插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-city-work-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
       "licensePath": null,
-      "license": "Public Domain Mark 1.0",
-      "clearance": "cleared-open-license",
-      "caption": "北宋张择端《清明上河图》中虹桥附近的局部图像。",
-      "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg"
+      "image": "/content/step-images/song-city-work-v1.jpg"
     },
-    "presentation": null,
-    "sceneAsset": null,
-    "narrativeAssets": [],
-    "coverImage": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg",
-    "coverImageAlt": "张择端《清明上河图》虹桥附近局部",
-    "coverImageKind": "历史材料",
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "song-city-work-v1",
+      "sceneAlt": "清明上河图里，谁让城市忙起来？的儿童故事插画",
+      "title": "清明上河图里，谁让城市忙起来？",
+      "evidenceTitle": "张择端《清明上河图》虹桥局部",
+      "evidenceLine": "真实材料与故事插画分别看。",
+      "evidenceNarration": "先看看弯弯的桥，再看看桥边的船。画家画出了不同的工作；这是绘画，不是当天的照片。",
+      "guide": "听听问题，点图回答。",
+      "alignHint": "",
+      "familyHint": "回看图里的线索，再和家人说说发现。",
+      "familyLabel": "和家人回看今天的发现",
+      "familyMode": "actions",
+      "nextLabel": "继续看故事",
+      "lastLabel": "把发现带回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "song-friends-reunion-v2",
+        "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
+        "reunionAspectRatio": 1.82,
+        "coverCaption": "清明上河图里，谁让城市忙起来？",
+        "coverNarration": "长卷里的桥上桥下都很热闹。船工、搬运者和店里的人，怎样把水路与街市接起来？",
+        "stationLine": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
+        "stationNarration": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
+        "closingCaption": "带着发现回家",
+        "closingNarration": "北宋画家张择端画下汴京的城市生活。河船、桥梁、搬运和买卖彼此联系，热闹背后有许多人的劳动。",
+        "closingLine": "桥上桥下，许多工作连起城市。",
+        "fictionNote": "原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
+        "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
+        "stationAudio": {
+          "id": "quest-afff15281530ee8d",
+          "text": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。"
+        },
+        "closingAudio": {
+          "id": "quest-cc7423848ece54b4",
+          "text": "北宋画家张择端画下汴京的城市生活。河船、桥梁、搬运和买卖彼此联系，热闹背后有许多人的劳动。"
+        }
+      },
+      "sceneImage": "/content/step-images/song-city-work-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-74d5f10b1c72eb6f",
+        "text": "先看看弯弯的桥，再看看桥边的船。画家画出了不同的工作；这是绘画，不是当天的照片。"
+      },
+      "guideAudio": {
+        "id": "quest-556f5af30cc82d77",
+        "text": "听听问题，点图回答。"
+      }
+    },
+    "sceneAsset": {
+      "id": "song-city-work-v1",
+      "title": "清明上河图里，谁让城市忙起来？故事插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-city-work-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/song-city-work-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "song-friends-reunion-v2",
+        "title": "宋代历史站小伙伴回看旅行册",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/song-friends-reunion-v2.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史照片。",
+        "boundary": "三位现代儿童回顾旅行手册；册上船、印刷图样与月亮为整站学习线索，不冒充古代原物或个人亲历。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/song-friends-reunion-v2.jpg"
+      },
+      {
+        "id": "song-city-work-v1",
+        "title": "清明上河图里，谁让城市忙起来？故事插画",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/song-city-work-v1.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史照片。",
+        "boundary": "原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/song-city-work-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/song-city-work-v1.jpg",
+    "coverImageAlt": "清明上河图里，谁让城市忙起来？故事插画",
+    "coverImageKind": "故事插画",
     "coverAudio": {
-      "id": "quest-ae367c856234e03d",
-      "text": "在清明上河图里找工作。长卷里这么热闹，谁在让城市运转？准备好就点“去桥边找一找”。"
+      "id": "quest-e1b01e264dcf2871",
+      "text": "长卷里的桥上桥下都很热闹。船工、搬运者和店里的人，怎样把水路与街市接起来？"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-08591527aec18c61",
-      "text": "《清明上河图》用绘画表现城市生活；船工、商贩等各有工作，画面不能统计所有人的生活。"
+      "id": "quest-cc7423848ece54b4",
+      "text": "北宋画家张择端画下汴京的城市生活。河船、桥梁、搬运和买卖彼此联系，热闹背后有许多人的劳动。"
     },
     "finish": {
-      "title": "你演工作，家人来猜",
+      "title": "城市的热闹，靠大家一起忙！",
       "actions": [
-        "假装划船，再假装把一箱货递给家人。",
-        "家人猜完，你指回长卷中的船和岸边。"
+        "在真画里指出船和桥，分别说谁从这里经过。",
+        "家人说“货到岸边了”，你指搬运者怎样把它接到街市。"
       ],
-      "parent": "问“只有船、没人搬货行吗？”接受需要合作。不让孩子由画面推断全国富裕程度。",
+      "parent": "交通和劳动服务城市商业；不把画中每个人身份都猜定，不用一幅画推出所有家庭富足。",
       "sceneStepIndexes": [
         2,
-        1
+        3
       ],
       "actionAudio": [
         {
-          "id": "quest-594fb43a69951fe5",
-          "text": "假装划船，再假装把一箱货递给家人。"
+          "id": "quest-ba9756e2126be77e",
+          "text": "在真画里指出船和桥，分别说谁从这里经过。"
         },
         {
-          "id": "quest-158c5bbacb593557",
-          "text": "家人猜完，你指回长卷中的船和岸边。"
+          "id": "quest-7c6cdc2c1e314a7a",
+          "text": "家人说“货到岸边了”，你指搬运者怎样把它接到街市。"
         }
       ],
       "introAudio": {
-        "id": "quest-23c65378a1e769ca",
-        "text": "你演工作，家人来猜。假装划船，再假装把一箱货递给家人。家人猜完，你指回长卷中的船和岸边。"
+        "id": "quest-cc7423848ece54b4",
+        "text": "北宋画家张择端画下汴京的城市生活。河船、桥梁、搬运和买卖彼此联系，热闹背后有许多人的劳动。"
       }
     },
     "estimatedMinutes": 6,
@@ -285,83 +379,139 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "长卷的时间",
-        "title": "长卷的时间",
-        "prompt": "应该停在哪一站？",
-        "rightNote": "这幅画属于北宋，不是唐代长安的街景。",
-        "wrongNote": "这幅画属于北宋，不是唐代长安的街景。",
+        "phase": "一幅真正的北宋长卷",
+        "title": "一幅真正的北宋长卷",
+        "prompt": "这幅画里的故事在哪个时期？",
+        "rightNote": "去北宋，看看桥上桥下。",
+        "wrongNote": "唐朝更早，这幅作品来自北宋。",
         "sourceIds": [
-          "DPM-QINGMING-SCROLL",
-          "NMC-SONG-AD-PLATE",
-          "NMC-HUIZI-PLATE"
+          "DPM-QINGMING-SCROLL"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听听问题，看看图里的线索。"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "一幅真正的北宋长卷",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "去北宋，看看桥上桥下。",
+          "retry": "唐朝更早，这幅作品来自北宋。",
+          "nextLabel": "听听画里的城市",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "qingming-scroll-rainbow-bridge-detail",
+          "title": "张择端《清明上河图》虹桥局部",
+          "localPath": "reference-assets/liao-song-xia-jin-yuan/qingming-river-original-detail.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_(detail_of_original).jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "Public Domain Mark 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "北宋原作局部 · 不是整卷",
+          "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。 北宋张择端《清明上河图》中虹桥附近的局部图像。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg",
+          "label": "点开真材料，听听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 320,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "故宫博物院：张择端《清明上河图》卷",
+              "url": "https://www.dpm.org.cn/collection/paint/228226.html"
+            },
+            {
+              "title": "图像作者、原始文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_(detail_of_original).jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-74d5f10b1c72eb6f",
+            "text": "先看看弯弯的桥，再看看桥边的船。画家画出了不同的工作；这是绘画，不是当天的照片。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "长卷的时间",
-          "screenText": "张择端的《清明上河图》属于北宋。我们先到宋朝，再走进画里的街市。",
-          "displayText": "张择端的《清明上河图》属于北宋。我们先到宋朝，再走进画里的街市。",
-          "narration": "张择端的《清明上河图》属于北宋。我们先到宋朝，再走进画里的街市。"
+          "title": "一幅真正的北宋长卷",
+          "screenText": "张择端画下汴京的街市。我们先看真正的画卷局部：河边有船，桥上有人。这次去北宋看看。",
+          "displayText": "张择端画下汴京的街市。我们先看真正的画卷局部：河边有船，桥上有人。这次去北宋看看。",
+          "narration": "张择端画下汴京的街市。我们先看真正的画卷局部：河边有船，桥上有人。这次去北宋看看。"
         },
-        "assetId": "study-000c179ab5b856e6",
-        "image": "/content/study-scenes/study-000c179ab5b856e6.svg",
-        "studyImage": "/content/study-scenes/study-000c179ab5b856e6.svg",
-        "studyImageAlt": "唐，北宋 长卷",
-        "imageAlt": "唐，北宋 长卷",
-        "imageCaption": "学习示意 · 唐，北宋 长卷",
-        "imageBoundary": "自制学习示意。长卷是绘画；运输学习图不冒充画中某一人物的确定经历。白兔广告和长卷属于不同实物材料。",
+        "assetId": "study-c92f8c593d4c1c40",
+        "image": "/content/study-scenes/study-c92f8c593d4c1c40.svg",
+        "studyImage": "/content/study-scenes/study-c92f8c593d4c1c40.svg",
+        "studyImageAlt": "一幅真正的北宋长卷",
+        "imageAlt": "一幅真正的北宋长卷",
+        "imageCaption": "学习示意 · 一幅真正的北宋长卷",
+        "imageBoundary": "自制学习示意。原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
         "audio": {
+          "lead": {
+            "id": "quest-820b7c513afb1cc3",
+            "text": "这是北宋张择端的《清明上河图》。"
+          },
           "transition": {
-            "id": "quest-a702dd9e5433aacf",
-            "text": "长卷的时间。"
+            "id": "quest-b825fe6a036abc06",
+            "text": "一幅真正的北宋长卷。"
           },
           "intro": {
-            "id": "quest-a71b3e34a1c9e887",
-            "text": "张择端的《清明上河图》属于北宋。我们先到宋朝，再走进画里的街市。"
+            "id": "quest-253e928009d8bd58",
+            "text": "张择端画下汴京的街市。我们先看真正的画卷局部：河边有船，桥上有人。这次去北宋看看。"
           },
           "question": {
-            "id": "quest-948432a038d288f8",
-            "text": "应该停在哪一站？"
+            "id": "quest-3a30ef3799768533",
+            "text": "这幅画里的故事在哪个时期？"
           },
           "image": {
-            "id": "quest-fb1c5adf0b673010",
-            "text": "这是学习示意图：唐，北宋 长卷。应该停在哪一站？"
+            "id": "quest-ac35599b6257d19f",
+            "text": "这是学习示意图：一幅真正的北宋长卷。这幅画里的故事在哪个时期？"
           },
           "right": {
-            "id": "quest-18d0e9891b1adfde",
-            "text": "找到了。这幅画属于北宋，不是唐代长安的街景。"
+            "id": "quest-25cee88655dc5248",
+            "text": "去北宋，看看桥上桥下。"
           },
           "wrong": {
-            "id": "quest-3ea94391033192e0",
-            "text": "再比较一下。这幅画属于北宋，不是唐代长安的街景。"
+            "id": "quest-447fc58cc06bf199",
+            "text": "唐朝更早，这幅作品来自北宋。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-07-02-song-economy-cities-time-1",
-            "label": "宋 · 960年以后",
+            "label": "北宋 · 960—1127年",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-e7bbc11c5c8176db.svg",
-            "imageAlt": "宋 960年以后",
+            "objectView": {
+              "kind": "era",
+              "name": "北宋",
+              "date": "960—1127年",
+              "stationImage": "/images/history-stations/cities.webp"
+            },
+            "image": "/content/study-scenes/study-be65ddf9c5cbd5dd.svg",
+            "imageAlt": "北宋，960—1127年",
             "audio": {
-              "id": "quest-c897f10eed24c923",
-              "text": "宋 · 960年以后"
+              "id": "quest-f74ad7b45de67e28",
+              "text": "北宋 · 960—1127年"
             }
           },
           {
             "id": "cn-ancient-07-02-song-economy-cities-time-2",
-            "label": "唐 · 618—907年",
+            "label": "唐朝 · 618—907年",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-b2efc9b0ded6e1de.svg",
-            "imageAlt": "唐 618—907年",
+            "objectView": {
+              "kind": "era",
+              "name": "唐朝",
+              "date": "618—907年",
+              "stationImage": "/images/history-stations/tang.webp"
+            },
+            "image": "/content/study-scenes/study-c4b9b4761561a066.svg",
+            "imageAlt": "唐朝，618—907年",
             "audio": {
-              "id": "quest-662ae669e35779be",
-              "text": "唐 · 618—907年"
+              "id": "quest-3be720cd7bfdc54e",
+              "text": "唐朝 · 618—907年"
             }
           }
         ]
@@ -370,253 +520,373 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "桥下谁在忙",
-        "title": "桥下谁在忙",
-        "prompt": "想找水上运输，先看哪里？",
-        "rightNote": "船与水路能帮我们找运输线索，屋瓦回答另一个问题。",
-        "wrongNote": "船与水路能帮我们找运输线索，屋瓦回答另一个问题。",
+        "phase": "河流把货物带到城市",
+        "title": "河流把货物带到城市",
+        "prompt": "先看看桥下，再看看桥上",
+        "rightNote": "找找画里不同的路和工作。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
           "DPM-QINGMING-SCROLL",
-          "NMC-SONG-AD-PLATE",
-          "NMC-HUIZI-PLATE"
+          "NMC-LIAO-SONG-XIA-JIN-YUAN"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听问题，看看图里的线索。",
+          "continueLabel": "在真画里找一找"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "河流把货物带到城市",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "找找画里不同的路和工作。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "在真画里找一找",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "qingming-scroll-rainbow-bridge-detail",
+          "title": "张择端《清明上河图》虹桥局部",
+          "localPath": "reference-assets/liao-song-xia-jin-yuan/qingming-river-original-detail.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_(detail_of_original).jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "Public Domain Mark 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "北宋原作局部 · 不是整卷",
+          "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。 北宋张择端《清明上河图》中虹桥附近的局部图像。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg",
+          "label": "点开真材料，听听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 335,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "故宫博物院：张择端《清明上河图》卷",
+              "url": "https://www.dpm.org.cn/collection/paint/228226.html"
+            },
+            {
+              "title": "图像作者、原始文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_(detail_of_original).jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-74d5f10b1c72eb6f",
+            "text": "先看看弯弯的桥，再看看桥边的船。画家画出了不同的工作；这是绘画，不是当天的照片。"
+          }
+        },
         "story": {
           "screenNumber": 2,
-          "title": "桥下谁在忙",
-          "screenText": "画卷中有河流、船和桥。先看桥边的船，想想有人需要怎样合作。",
-          "displayText": "画卷中有河流、船和桥。先看桥边的船，想想有人需要怎样合作。",
-          "narration": "画卷中有河流、船和桥。先看桥边的船，想想有人需要怎样合作。"
+          "title": "河流把货物带到城市",
+          "screenText": "画中的汴河是运输的水路。桥下船工忙着过桥，桥上行人和商贩往来。有人运货、有人搬运、有人买卖，城市生活靠不同工作接在一起。",
+          "displayText": "河里有船。\n桥上有人，街边有买卖。",
+          "narration": "画中的汴河是运输的水路。桥下船工忙着过桥，桥上行人和商贩往来。有人运货、有人搬运、有人买卖，城市生活靠不同工作接在一起。"
         },
         "assetId": "qingming-scroll-rainbow-bridge-detail",
         "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg",
-        "studyImage": "/content/study-scenes/study-fff9267357053178.svg",
-        "studyImageAlt": "桥边河船",
+        "studyImage": "/content/study-scenes/study-2aad9b59702686e7.svg",
+        "studyImageAlt": "河流把货物带到城市",
         "imageAlt": "张择端《清明上河图》虹桥附近局部",
         "imageCaption": "张择端《清明上河图》虹桥附近局部",
         "imageBoundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。",
         "audio": {
+          "lead": {
+            "id": "quest-c0e1dc221385450c",
+            "text": "先看看桥下，再看看桥上"
+          },
           "transition": {
-            "id": "quest-27c4895a974e4035",
-            "text": "桥下谁在忙。"
+            "id": "quest-40beefca7bcff67d",
+            "text": "河流把货物带到城市。"
           },
           "intro": {
-            "id": "quest-0679ace620dc6905",
-            "text": "画卷中有河流、船和桥。先看桥边的船，想想有人需要怎样合作。"
+            "id": "quest-a83f19e1210e38c2",
+            "text": "画中的汴河是运输的水路。桥下船工忙着过桥，桥上行人和商贩往来。有人运货、有人搬运、有人买卖，城市生活靠不同工作接在一起。"
           },
           "question": {
-            "id": "quest-6010df070dc66bea",
-            "text": "想找水上运输，先看哪里？"
+            "id": "quest-c0e1dc221385450c",
+            "text": "先看看桥下，再看看桥上"
           },
           "image": {
-            "id": "quest-eacd0e57167ee829",
-            "text": "这张是张择端《清明上河图》虹桥附近局部。画卷中有河流、船和桥。先看桥边的船，想想有人需要怎样合作。"
+            "id": "quest-3885b42fdb7a0035",
+            "text": "这张是张择端《清明上河图》虹桥附近局部。画中的汴河是运输的水路。桥下船工忙着过桥，桥上行人和商贩往来。有人运货、有人搬运、有人买卖，城市生活靠不同工作接在一起。"
           },
           "right": {
-            "id": "quest-8d7fe7905db15ae1",
-            "text": "找到了。船与水路能帮我们找运输线索，屋瓦回答另一个问题。"
+            "id": "quest-b922e6728cfe49aa",
+            "text": "找找画里不同的路和工作。"
           },
           "wrong": {
-            "id": "quest-4389ace3f22fccb2",
-            "text": "再比较一下。船与水路能帮我们找运输线索，屋瓦回答另一个问题。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-02-song-economy-cities-beginning-1",
-            "label": "桥边河里的船",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-f8cd1fa62fd12581.svg",
-            "imageAlt": "河里的船",
-            "audio": {
-              "id": "quest-a543149c69f499f3",
-              "text": "桥边河里的船"
-            }
-          },
-          {
-            "id": "cn-ancient-07-02-song-economy-cities-beginning-2",
-            "label": "屋顶上的瓦",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-486366485d310b20.svg",
-            "imageAlt": "屋顶的瓦",
-            "audio": {
-              "id": "quest-39254eb7215bad02",
-              "text": "屋顶上的瓦"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "货物怎样进街市",
-        "title": "货物怎样进街市",
-        "prompt": "哪条顺序能接上这段运输？",
-        "rightNote": "这张图要先靠岸，再卸下并运走货物。",
-        "wrongNote": "这张图要先靠岸，再卸下并运走货物。",
+        "phase": "从真画里找水路和桥",
+        "title": "从真画里找水路和桥",
+        "prompt": "找到在河里运输的船",
+        "rightNote": "桥上桥下，各有通行的办法。",
+        "wrongNote": "再看看河面和桥面。",
         "sourceIds": [
-          "DPM-QINGMING-SCROLL",
-          "NMC-SONG-AD-PLATE",
-          "NMC-HUIZI-PLATE"
+          "DPM-QINGMING-SCROLL"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听听问题，看看图里的线索。",
+          "hotspots": [
+            {
+              "id": "boat",
+              "label": "河里的船",
+              "x": 0.68,
+              "y": 0.16,
+              "width": 0.29,
+              "height": 0.28
+            },
+            {
+              "id": "bridge",
+              "label": "行人走的桥",
+              "x": 0.37,
+              "y": 0.25,
+              "width": 0.17,
+              "height": 0.43
+            }
+          ],
+          "rounds": [
+            {
+              "id": "boat",
+              "question": "找到在河里运输的船",
+              "targetId": "boat",
+              "feedback": "船把货物沿水路带来。",
+              "retry": "这里是桥面，再看看河里的船。",
+              "nextLabel": "再找行人过河的路",
+              "audio": {
+                "question": {
+                  "id": "quest-2169d9de5af04833",
+                  "text": "找到在河里运输的船"
+                },
+                "right": {
+                  "id": "quest-0f4e9e925cb13e77",
+                  "text": "船把货物沿水路带来。"
+                },
+                "wrong": {
+                  "id": "quest-bb1954095f21e779",
+                  "text": "这里是桥面，再看看河里的船。"
+                }
+              }
+            },
+            {
+              "id": "bridge",
+              "question": "行人要过河，可以走哪里？",
+              "targetId": "bridge",
+              "feedback": "桥把河两边的通行连起来。",
+              "retry": "这是水里的船，再找桥面。",
+              "nextLabel": "看看岸边接下来的工作",
+              "audio": {
+                "question": {
+                  "id": "quest-268ddda4971cc123",
+                  "text": "行人要过河，可以走哪里？"
+                },
+                "right": {
+                  "id": "quest-86ac2019ec5010e7",
+                  "text": "桥把河两边的通行连起来。"
+                },
+                "wrong": {
+                  "id": "quest-7e1eb320b3d8ffaa",
+                  "text": "这是水里的船，再找桥面。"
+                }
+              }
+            }
+          ],
+          "imageLabel": "文物图像",
+          "sceneAspectRatio": 2
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "从真画里找水路和桥",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "桥上桥下，各有通行的办法。",
+          "retry": "再看看河面和桥面。",
+          "nextLabel": "货到岸边，还要谁帮忙",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "货物怎样进街市",
-          "screenText": "我们用学习图接一段流程：船运来货物，再由人搬到街边。不能说每件货都走同一路。",
-          "displayText": "我们用学习图接一段流程：船运来货物，再由人搬到街边。不能说每件货都走同一路。",
-          "narration": "我们用学习图接一段流程：船运来货物，再由人搬到街边。不能说每件货都走同一路。"
+          "title": "从真画里找水路和桥",
+          "screenText": "跟小伙伴看看这幅真画：河船走水路，行人可以从桥上过去。先找船，再找过河的桥。",
+          "displayText": "跟小伙伴看看这幅真画：河船走水路，行人可以从桥上过去。先找船，再找过河的桥。",
+          "narration": "跟小伙伴看看这幅真画：河船走水路，行人可以从桥上过去。先找船，再找过河的桥。"
         },
-        "assetId": "study-750595e656d7f8ae",
-        "image": "/content/study-scenes/study-750595e656d7f8ae.svg",
-        "studyImage": "/content/study-scenes/study-750595e656d7f8ae.svg",
-        "studyImageAlt": "靠岸，卸货，搬运",
-        "imageAlt": "靠岸，卸货，搬运",
-        "imageCaption": "学习示意 · 靠岸，卸货，搬运",
-        "imageBoundary": "自制学习示意。长卷是绘画；运输学习图不冒充画中某一人物的确定经历。白兔广告和长卷属于不同实物材料。",
+        "assetId": "qingming-scroll-rainbow-bridge-detail",
+        "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg",
+        "studyImage": "/content/study-scenes/study-a1a219609bd31405.svg",
+        "studyImageAlt": "从真画里找水路和桥",
+        "imageAlt": "张择端《清明上河图》虹桥附近局部",
+        "imageCaption": "张择端《清明上河图》虹桥附近局部",
+        "imageBoundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。",
         "audio": {
+          "lead": {
+            "id": "quest-2169d9de5af04833",
+            "text": "找到在河里运输的船"
+          },
           "transition": {
-            "id": "quest-a9556a1669b405ab",
-            "text": "货物怎样进街市。"
+            "id": "quest-b5eba0279eea42f0",
+            "text": "从真画里找水路和桥。"
           },
           "intro": {
-            "id": "quest-9fe3b873797bb2bf",
-            "text": "我们用学习图接一段流程：船运来货物，再由人搬到街边。不能说每件货都走同一路。"
+            "id": "quest-3258bdc63cc0cd56",
+            "text": "跟小伙伴看看这幅真画：河船走水路，行人可以从桥上过去。先找船，再找过河的桥。"
           },
           "question": {
-            "id": "quest-9ece1a0faebcd223",
-            "text": "哪条顺序能接上这段运输？"
+            "id": "quest-2169d9de5af04833",
+            "text": "找到在河里运输的船"
           },
           "image": {
-            "id": "quest-a5461fd780d992cc",
-            "text": "这是学习示意图：靠岸，卸货，搬运。哪条顺序能接上这段运输？"
+            "id": "quest-624b2251b7c163e9",
+            "text": "这张是张择端《清明上河图》虹桥附近局部。跟小伙伴看看这幅真画：河船走水路，行人可以从桥上过去。先找船，再找过河的桥。"
           },
           "right": {
-            "id": "quest-6751bf48ea3e44e4",
-            "text": "找到了。这张图要先靠岸，再卸下并运走货物。"
+            "id": "quest-34ce6abf90136759",
+            "text": "桥上桥下，各有通行的办法。"
           },
           "wrong": {
-            "id": "quest-633943bbbcd6e639",
-            "text": "再比较一下。这张图要先靠岸，再卸下并运走货物。"
+            "id": "quest-43b77db7bf0cf125",
+            "text": "再看看河面和桥面。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-02-song-economy-cities-journey-1",
-            "label": "船靠岸 → 卸货 → 搬运",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-d7ab9a6b1c401ec8.svg",
-            "imageAlt": "靠岸，卸货，搬运",
-            "audio": {
-              "id": "quest-93795ec88ed00005",
-              "text": "船靠岸 → 卸货 → 搬运"
-            }
-          },
-          {
-            "id": "cn-ancient-07-02-song-economy-cities-journey-2",
-            "label": "先卸货 → 船才到岸",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-6b5178cc3b741156.svg",
-            "imageAlt": "先卸货，后靠岸",
-            "audio": {
-              "id": "quest-63aff57baf94ac59",
-              "text": "先卸货 → 船才到岸"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "小白兔也能当招牌",
-        "title": "小白兔也能当招牌",
-        "prompt": "不识字的人可以先认什么？",
-        "rightNote": "显眼图案可以成为认店的线索；它不代表整座城人人识字。",
-        "wrongNote": "显眼图案可以成为认店的线索；它不代表整座城人人识字。",
+        "phase": "从船上到街边，还要接一程",
+        "title": "从船上到街边，还要接一程",
+        "prompt": "把岸边货物送到街边，找谁？",
+        "rightNote": "搬运的人接上这一程，水路和街市连起来。",
+        "wrongNote": "船工照料河里的船，再找背着货的人。",
         "sourceIds": [
           "DPM-QINGMING-SCROLL",
-          "NMC-SONG-AD-PLATE",
-          "NMC-HUIZI-PLATE"
+          "NMC-LIAO-SONG-XIA-JIN-YUAN"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "pick",
+          "hint": "听听问题，看看图里的线索。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "从船上到街边，还要接一程",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "搬运的人接上这一程，水路和街市连起来。",
+          "retry": "船工照料河里的船，再找背着货的人。",
+          "nextLabel": "再回看长卷里的生活",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "小白兔也能当招牌",
-          "screenText": "宋代针铺广告铜版上有白兔图。图案帮助人们认店，与今天只靠读长文字不同。",
-          "displayText": "宋代针铺广告铜版上有白兔图。图案帮助人们认店，与今天只靠读长文字不同。",
-          "narration": "宋代针铺广告铜版上有白兔图。图案帮助人们认店，与今天只靠读长文字不同。"
+          "title": "从船上到街边，还要接一程",
+          "screenText": "这幅新画演一段搬运故事。货物到了岸边，接下来要送进街边。船工和搬运者各有工作，小伙伴该找谁接这一程？",
+          "displayText": "这幅新画演一段搬运故事。货物到了岸边，接下来要送进街边。船工和搬运者各有工作，小伙伴该找谁接这一程？",
+          "narration": "这幅新画演一段搬运故事。货物到了岸边，接下来要送进街边。船工和搬运者各有工作，小伙伴该找谁接这一程？"
         },
-        "assetId": "study-5179858dc96055ff",
-        "image": "/content/study-scenes/study-5179858dc96055ff.svg",
-        "studyImage": "/content/study-scenes/study-5179858dc96055ff.svg",
-        "studyImageAlt": "白兔标识，针铺",
-        "imageAlt": "白兔标识，针铺",
-        "imageCaption": "学习示意 · 白兔标识，针铺",
-        "imageBoundary": "自制学习示意。长卷是绘画；运输学习图不冒充画中某一人物的确定经历。白兔广告和长卷属于不同实物材料。",
+        "assetId": "song-city-work-v1",
+        "image": "/content/step-images/song-city-work-v1.jpg",
+        "studyImage": "/content/study-scenes/study-f7258f5e9dba397e.svg",
+        "studyImageAlt": "从船上到街边，还要接一程",
+        "imageAlt": "清明上河图里，谁让城市忙起来？故事插画",
+        "imageCaption": "清明上河图里，谁让城市忙起来？故事插画",
+        "imageBoundary": "原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
         "audio": {
+          "lead": {
+            "id": "quest-68aeca928830b649",
+            "text": "把岸边货物送到街边，找谁？"
+          },
           "transition": {
-            "id": "quest-336b2f86a753d2fb",
-            "text": "小白兔也能当招牌。"
+            "id": "quest-f602d996ce87ede3",
+            "text": "从船上到街边，还要接一程。"
           },
           "intro": {
-            "id": "quest-2f8b5175ddf0b9ea",
-            "text": "宋代针铺广告铜版上有白兔图。图案帮助人们认店，与今天只靠读长文字不同。"
+            "id": "quest-be30b60f9286d64c",
+            "text": "这幅新画演一段搬运故事。货物到了岸边，接下来要送进街边。船工和搬运者各有工作，小伙伴该找谁接这一程？"
           },
           "question": {
-            "id": "quest-b463e28c830a00da",
-            "text": "不识字的人可以先认什么？"
+            "id": "quest-68aeca928830b649",
+            "text": "把岸边货物送到街边，找谁？"
           },
           "image": {
-            "id": "quest-79b21bcfe2aaaab1",
-            "text": "这是学习示意图：白兔标识，针铺。不识字的人可以先认什么？"
+            "id": "quest-c53f9dfb62d91829",
+            "text": "这张是清明上河图里，谁让城市忙起来？故事插画。这幅新画演一段搬运故事。货物到了岸边，接下来要送进街边。船工和搬运者各有工作，小伙伴该找谁接这一程？"
           },
           "right": {
-            "id": "quest-e4ba6da53000c160",
-            "text": "找到了。显眼图案可以成为认店的线索；它不代表整座城人人识字。"
+            "id": "quest-e41c40eecc6effe5",
+            "text": "搬运的人接上这一程，水路和街市连起来。"
           },
           "wrong": {
-            "id": "quest-4b99c48d6c7ca079",
-            "text": "再比较一下。显眼图案可以成为认店的线索；它不代表整座城人人识字。"
+            "id": "quest-faa80eaaad3b9033",
+            "text": "船工照料河里的船，再找背着货的人。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-07-02-song-economy-cities-change-1",
-            "label": "招牌上的白兔图",
+            "label": "找背货的搬运者",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-fe960f8365cac217.svg",
-            "imageAlt": "白兔图案",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "song-city-work-v1",
+              "crop": {
+                "x": 1040,
+                "y": 150,
+                "width": 375,
+                "height": 370,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/song-city-work-v1.jpg",
+              "imageAlt": "找背货的搬运者"
+            },
+            "image": "/content/study-scenes/study-55cfb6a984795813.svg",
+            "imageAlt": "找背货的搬运者",
             "audio": {
-              "id": "quest-72357964e258f096",
-              "text": "招牌上的白兔图"
+              "id": "quest-0a64f228627d1920",
+              "text": "找背货的搬运者"
             }
           },
           {
             "id": "cn-ancient-07-02-song-economy-cities-change-2",
-            "label": "只有长长的说明文字",
+            "label": "找撑船的船工",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-fdd4b692db6dc8a9.svg",
-            "imageAlt": "长段文字",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "song-city-work-v1",
+              "crop": {
+                "x": 135,
+                "y": 160,
+                "width": 325,
+                "height": 460,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/song-city-work-v1.jpg",
+              "imageAlt": "找撑船的船工"
+            },
+            "image": "/content/study-scenes/study-80555e244afe2b0e.svg",
+            "imageAlt": "找撑船的船工",
             "audio": {
-              "id": "quest-39cce8db2ac19813",
-              "text": "只有长长的说明文字"
+              "id": "quest-ab75261bf73b24e7",
+              "text": "找撑船的船工"
             }
           }
         ]
@@ -625,86 +895,109 @@
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "画卷能告诉多少",
-        "title": "画卷能告诉多少",
-        "prompt": "要了解更多人的生活，还需怎样做？",
-        "rightNote": "长卷是重要材料，也要和文献、遗物相互参照。",
-        "wrongNote": "长卷是重要材料，也要和文献、遗物相互参照。",
+        "phase": "热闹里，也看见不同生活",
+        "title": "热闹里，也看见不同生活",
+        "prompt": "把人的工作也看进画里",
+        "rightNote": "城市的日常，是许多劳动接起来的。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
           "DPM-QINGMING-SCROLL",
-          "NMC-SONG-AD-PLATE",
-          "NMC-HUIZI-PLATE"
+          "NMC-LIAO-SONG-XIA-JIN-YUAN"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听问题，看看图里的线索。",
+          "continueLabel": "带着城市的发现回家"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "热闹里，也看见不同生活",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "城市的日常，是许多劳动接起来的。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "带着城市的发现回家",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "qingming-scroll-rainbow-bridge-detail",
+          "title": "张择端《清明上河图》虹桥局部",
+          "localPath": "reference-assets/liao-song-xia-jin-yuan/qingming-river-original-detail.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_(detail_of_original).jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "Public Domain Mark 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "北宋原作局部 · 不是整卷",
+          "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。 北宋张择端《清明上河图》中虹桥附近的局部图像。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg",
+          "label": "点开真材料，听听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 335,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "故宫博物院：张择端《清明上河图》卷",
+              "url": "https://www.dpm.org.cn/collection/paint/228226.html"
+            },
+            {
+              "title": "图像作者、原始文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_(detail_of_original).jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-74d5f10b1c72eb6f",
+            "text": "先看看弯弯的桥，再看看桥边的船。画家画出了不同的工作；这是绘画，不是当天的照片。"
+          }
+        },
         "story": {
           "screenNumber": 5,
-          "title": "画卷能告诉多少",
-          "screenText": "画家选择了要画的人和场景。画得热闹，不等于当时所有家庭都过一样的生活。",
-          "displayText": "画家选择了要画的人和场景。画得热闹，不等于当时所有家庭都过一样的生活。",
-          "narration": "画家选择了要画的人和场景。画得热闹，不等于当时所有家庭都过一样的生活。"
+          "title": "热闹里，也看见不同生活",
+          "screenText": "长卷让我们看见许多人的工作。画家只画了他选择的场景，不能说明所有人过得一样。看见热闹，也别忘了撑船、搬运和做东西的人。",
+          "displayText": "看热闹，也看劳动。\n一幅画，不等于所有人的生活。",
+          "narration": "长卷让我们看见许多人的工作。画家只画了他选择的场景，不能说明所有人过得一样。看见热闹，也别忘了撑船、搬运和做东西的人。"
         },
-        "assetId": "study-6ef50bb7b8903b14",
-        "image": "/content/study-scenes/study-6ef50bb7b8903b14.svg",
-        "studyImage": "/content/study-scenes/study-6ef50bb7b8903b14.svg",
-        "studyImageAlt": "画卷，文献，实物",
-        "imageAlt": "画卷，文献，实物",
-        "imageCaption": "学习示意 · 画卷，文献，实物",
-        "imageBoundary": "自制学习示意。长卷是绘画；运输学习图不冒充画中某一人物的确定经历。白兔广告和长卷属于不同实物材料。",
+        "assetId": "qingming-scroll-rainbow-bridge-detail",
+        "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg",
+        "studyImage": "/content/study-scenes/study-97dd4cf0de8f485c.svg",
+        "studyImageAlt": "热闹里，也看见不同生活",
+        "imageAlt": "张择端《清明上河图》虹桥附近局部",
+        "imageCaption": "张择端《清明上河图》虹桥附近局部",
+        "imageBoundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。",
         "audio": {
+          "lead": {
+            "id": "quest-767eb33b69eedae2",
+            "text": "把人的工作也看进画里"
+          },
           "transition": {
-            "id": "quest-8ac84709c947ebd1",
-            "text": "画卷能告诉多少。"
+            "id": "quest-f264a2d91aff2410",
+            "text": "热闹里，也看见不同生活。"
           },
           "intro": {
-            "id": "quest-736a95fa8ece1fdd",
-            "text": "画家选择了要画的人和场景。画得热闹，不等于当时所有家庭都过一样的生活。"
+            "id": "quest-839218ce60b065a6",
+            "text": "长卷让我们看见许多人的工作。画家只画了他选择的场景，不能说明所有人过得一样。看见热闹，也别忘了撑船、搬运和做东西的人。"
           },
           "question": {
-            "id": "quest-e37a729125861b43",
-            "text": "要了解更多人的生活，还需怎样做？"
+            "id": "quest-767eb33b69eedae2",
+            "text": "把人的工作也看进画里"
           },
           "image": {
-            "id": "quest-f5dec580349398a7",
-            "text": "这是学习示意图：画卷，文献，实物。要了解更多人的生活，还需怎样做？"
+            "id": "quest-6a17a0a995f021c2",
+            "text": "这张是张择端《清明上河图》虹桥附近局部。长卷让我们看见许多人的工作。画家只画了他选择的场景，不能说明所有人过得一样。看见热闹，也别忘了撑船、搬运和做东西的人。"
           },
           "right": {
-            "id": "quest-9c48cbe734b97f9f",
-            "text": "找到了。长卷是重要材料，也要和文献、遗物相互参照。"
+            "id": "quest-8dad4f24ae980fc6",
+            "text": "城市的日常，是许多劳动接起来的。"
           },
           "wrong": {
-            "id": "quest-b753aaff7d6b9c17",
-            "text": "再比较一下。长卷是重要材料，也要和文献、遗物相互参照。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-02-song-economy-cities-takeaway-1",
-            "label": "把画和其他记录比较",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-c0a6700a63111d03.svg",
-            "imageAlt": "画，其他材料",
-            "audio": {
-              "id": "quest-341579ba88b331d3",
-              "text": "把画和其他记录比较"
-            }
-          },
-          {
-            "id": "cn-ancient-07-02-song-economy-cities-takeaway-2",
-            "label": "只凭热闹画面就下结论",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-2c44dde7583c9d17.svg",
-            "imageAlt": "只凭一幅画",
-            "audio": {
-              "id": "quest-3e5c7972aaddd1c5",
-              "text": "只凭热闹画面就下结论"
-            }
-          }
-        ]
+        "options": []
       }
     ],
     "extensionTasks": [
@@ -1030,197 +1323,119 @@
   ],
   "assets": [
     {
-      "id": "study-b2efc9b0ded6e1de",
-      "title": "学习示意：唐 618—907年",
-      "localPath": "reference-assets/focused-quests/study-b2efc9b0ded6e1de.svg",
+      "id": "study-be65ddf9c5cbd5dd",
+      "title": "学习示意：北宋、960—1127年",
+      "localPath": "reference-assets/focused-quests/study-be65ddf9c5cbd5dd.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "唐 618—907年",
+      "caption": "北宋 → 960—1127年",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-000c179ab5b856e6",
-      "title": "学习示意：唐、北宋 长卷",
-      "localPath": "reference-assets/focused-quests/study-000c179ab5b856e6.svg",
+      "id": "study-c92f8c593d4c1c40",
+      "title": "学习示意：一幅真正的北宋长卷",
+      "localPath": "reference-assets/focused-quests/study-c92f8c593d4c1c40.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "唐 → 北宋 长卷",
+      "caption": "一幅真正的北宋长卷",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-e7bbc11c5c8176db",
-      "title": "学习示意：宋 960年以后",
-      "localPath": "reference-assets/focused-quests/study-e7bbc11c5c8176db.svg",
+      "id": "study-c4b9b4761561a066",
+      "title": "学习示意：唐朝、618—907年",
+      "localPath": "reference-assets/focused-quests/study-c4b9b4761561a066.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "宋 960年以后",
+      "caption": "唐朝 → 618—907年",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-fff9267357053178",
-      "title": "学习示意：桥边河船",
-      "localPath": "reference-assets/focused-quests/study-fff9267357053178.svg",
+      "id": "study-2aad9b59702686e7",
+      "title": "学习示意：河流把货物带到城市",
+      "localPath": "reference-assets/focused-quests/study-2aad9b59702686e7.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "桥边河船",
+      "caption": "河流把货物带到城市",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-f8cd1fa62fd12581",
-      "title": "学习示意：河里的船",
-      "localPath": "reference-assets/focused-quests/study-f8cd1fa62fd12581.svg",
+      "id": "study-a1a219609bd31405",
+      "title": "学习示意：从真画里找水路和桥",
+      "localPath": "reference-assets/focused-quests/study-a1a219609bd31405.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "河里的船",
+      "caption": "从真画里找水路和桥",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-486366485d310b20",
-      "title": "学习示意：屋顶的瓦",
-      "localPath": "reference-assets/focused-quests/study-486366485d310b20.svg",
+      "id": "study-f7258f5e9dba397e",
+      "title": "学习示意：从船上到街边，还要接一程",
+      "localPath": "reference-assets/focused-quests/study-f7258f5e9dba397e.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "屋顶的瓦",
+      "caption": "从船上到街边，还要接一程",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-750595e656d7f8ae",
-      "title": "学习示意：靠岸、卸货、搬运",
-      "localPath": "reference-assets/focused-quests/study-750595e656d7f8ae.svg",
+      "id": "study-55cfb6a984795813",
+      "title": "学习示意：找背货的搬运者",
+      "localPath": "reference-assets/focused-quests/study-55cfb6a984795813.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "靠岸 → 卸货 → 搬运",
+      "caption": "找背货的搬运者",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-d7ab9a6b1c401ec8",
-      "title": "学习示意：靠岸、卸货、搬运",
-      "localPath": "reference-assets/focused-quests/study-d7ab9a6b1c401ec8.svg",
+      "id": "study-80555e244afe2b0e",
+      "title": "学习示意：找撑船的船工",
+      "localPath": "reference-assets/focused-quests/study-80555e244afe2b0e.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "靠岸 → 卸货 → 搬运",
+      "caption": "找撑船的船工",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-6b5178cc3b741156",
-      "title": "学习示意：先卸货、后靠岸",
-      "localPath": "reference-assets/focused-quests/study-6b5178cc3b741156.svg",
+      "id": "study-97dd4cf0de8f485c",
+      "title": "学习示意：热闹里，也看见不同生活",
+      "localPath": "reference-assets/focused-quests/study-97dd4cf0de8f485c.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "先卸货 → 后靠岸",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-5179858dc96055ff",
-      "title": "学习示意：白兔标识、针铺",
-      "localPath": "reference-assets/focused-quests/study-5179858dc96055ff.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "白兔标识 → 针铺",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-fe960f8365cac217",
-      "title": "学习示意：白兔图案",
-      "localPath": "reference-assets/focused-quests/study-fe960f8365cac217.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "白兔图案",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-fdd4b692db6dc8a9",
-      "title": "学习示意：长段文字",
-      "localPath": "reference-assets/focused-quests/study-fdd4b692db6dc8a9.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "长段文字",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-6ef50bb7b8903b14",
-      "title": "学习示意：画卷、文献、实物",
-      "localPath": "reference-assets/focused-quests/study-6ef50bb7b8903b14.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "画卷 → 文献 → 实物",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-c0a6700a63111d03",
-      "title": "学习示意：画、其他材料",
-      "localPath": "reference-assets/focused-quests/study-c0a6700a63111d03.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "画 → 其他材料",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-2c44dde7583c9d17",
-      "title": "学习示意：只凭一幅画",
-      "localPath": "reference-assets/focused-quests/study-2c44dde7583c9d17.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "只凭一幅画",
+      "caption": "热闹里，也看见不同生活",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1248,6 +1463,45 @@
       "clearance": "cleared-open-license",
       "caption": "中国国家博物馆藏南宋会子铜印版的展览照片。",
       "boundary": "这是印制纸币的铜版，不是纸币本身。它可以说明南宋纸币制作和管理，但不能单独证明所有城市都同样繁荣；纸币还伴随信用和发行管理问题。照片拍摄于2025年，1200×1800像素，未作修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "song-city-work-v1",
+      "title": "清明上河图里，谁让城市忙起来？故事插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-city-work-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "song-friends-reunion-v1",
+      "title": "宋代历史站小伙伴回看旅行册",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-friends-reunion-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "三位现代儿童回顾旅行手册；册上船、印刷图样与月亮为整站学习线索，不冒充古代原物或个人亲历。",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "song-friends-reunion-v2",
+      "title": "宋代历史站小伙伴回看旅行册",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-friends-reunion-v2.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "三位现代儿童回顾旅行手册；册上船、印刷图样与月亮为整站学习线索，不冒充古代原物或个人亲历。",
       "childVisibility": "child-ok"
     }
   ],

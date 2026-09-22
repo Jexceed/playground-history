@@ -15,18 +15,18 @@
   "throughline": "把1076年中秋、密州和苏轼兄弟分隔放在第一屏，再沿问月、看月、想到离合、送出祝愿四拍读词；区分作品、后世画像和今天的节日传承。",
   "childEntry": {
     "id": "cn-ancient-07-06-su-shi-moon",
-    "childTitle": "把苏轼的月亮送给弟弟",
-    "prompt": "相隔很远的人，怎样借同一轮月亮表达想念？",
-    "takeaway": "苏轼在1076年中秋写词怀念苏辙，用月的圆缺表达感受和祝愿；词不是生活统计。",
+    "childTitle": "跟苏轼望月，给远方一份祝愿",
+    "prompt": "中秋的月亮很圆，苏轼却和弟弟相隔两地。他把怎样的牵挂，写进《水调歌头》？",
+    "takeaway": "1076年中秋，北宋苏轼写《水调歌头》，也思念弟弟苏辙。他借明月寄托祝愿：虽然相隔千里，仍愿亲人平安。",
     "object": "《水调歌头》词句与后世苏轼画像",
     "people": [
-      "苏轼、苏辙",
-      "《水调歌头》"
+      "苏轼",
+      "弟弟苏辙"
     ],
     "place": "1076年的密州与远方亲人所在之处",
     "culture": "宋词《水调歌头》",
-    "care": "两地望月为词意学习图，不复原1076年两人的具体现场；后世苏轼像需按其实际年代标注。",
-    "preferredAssetId": "su-shi-yuan-portrait-artwork",
+    "care": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
+    "preferredAssetId": "song-moon-wishes-v1",
     "playableSource": "content/focused-quests.json"
   },
   "textbookConnection": {
@@ -34,9 +34,9 @@
     "featured": {
       "type": "诗词",
       "icon": "🌕",
-      "title": "苏轼、苏辙与《水调歌头》",
-      "childBridge": "相隔很远的人，怎样借同一轮月亮表达想念？",
-      "evidenceBoundary": "两地望月为词意学习图，不复原1076年两人的具体现场；后世苏轼像需按其实际年代标注。"
+      "title": "苏轼与弟弟苏辙",
+      "childBridge": "中秋的月亮很圆，苏轼却和弟弟相隔两地。他把怎样的牵挂，写进《水调歌头》？",
+      "evidenceBoundary": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。"
     },
     "companions": [
       {
@@ -63,39 +63,41 @@
     "sourceIds": [
       "CCDI-SUSHI-WATER-MELODY",
       "PEP-CHINESE-CLASSICS-RESOURCE",
-      "PEP-PRIMARY-CHINESE-MAGAZINE-SUSHI-2018"
+      "PEP-PRIMARY-CHINESE-MAGAZINE-SUSHI-2018",
+      "SH-SUSHI-WATER-MELODY",
+      "NPM-ZHAO-SUSHI-PORTRAIT"
     ]
   },
   "childStory": [
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "这首词的时间",
-      "text": "1076年中秋，苏轼写下《水调歌头》，想到弟弟苏辙。李白的唐代诗在更早。"
+      "label": "画里的人，词里的年代",
+      "text": "这是后人画的苏轼像。苏轼生活在北宋，1076年中秋写下《水调歌头》，也想到远方的弟弟苏辙。画像是更晚的元代作品。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "月亮有不同模样",
-      "text": "“月有阴晴圆缺”。诗词会借月亮的变化表达感受。先看圆月和弯月的样子。"
+      "label": "《水调歌头》· 节选",
+      "text": "苏轼在中秋想到远方的弟弟。这是《水调歌头》节选：人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "词里想到谁",
-      "text": "词的开头说明兼怀子由，子由就是苏轼的弟弟苏辙。他们当时相隔两地。"
+      "label": "词把牵挂托给了什么",
+      "text": "人可以写信问候，也可以在词里寄托祝愿。苏轼写“千里共婵娟”，这里的婵娟指明月。小伙伴从这幅想象画里找找。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "隔得远也能祝愿",
-      "text": "“但愿人长久，千里共婵娟。”他希望亲人平安，虽相隔很远，也能共赏明月。"
+      "label": "人分在两处，牵挂还能相连",
+      "text": "图里两处窗边的人各在一地，下面的小伙伴却站在一起。苏轼想念弟弟时，也是在相隔两地的处境里。看看这幅画怎样表达远方。"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "给思念找一个动作",
-      "text": "李白望月思乡，苏轼借月怀人。相近的月亮意象，可以表达不同的牵挂。"
+      "label": "把祝愿带给你牵挂的人",
+      "text": "“但愿人长久，千里共婵娟。”希望亲人平安，虽然相隔很远，也能共赏明月。你也可以想一个牵挂的人，说一句自己的祝愿，不用背出整首词。"
     }
   ],
   "glossary": [
@@ -116,6 +118,24 @@
         "cn-ancient-07-06-su-shi-moon"
       ],
       "note": "“轼”读shì。"
+    },
+    {
+      "text": "苏辙",
+      "reading": "Sū Zhé",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-07-06-su-shi-moon"
+      ],
+      "note": "2026-09-21新增编辑校听词；不自动视为人耳试听通过。"
+    },
+    {
+      "text": "婵娟",
+      "reading": "chán juān",
+      "kind": "phrase",
+      "chapterIds": [
+        "cn-ancient-07-06-su-shi-moon"
+      ],
+      "note": "2026-09-21新增编辑校听词；不自动视为人耳试听通过。"
     }
   ],
   "gameplay": {
@@ -125,12 +145,12 @@
     "hook": {
       "kind": "具体任务",
       "icon": "🔎",
-      "label": "把苏轼的月亮送给弟弟",
-      "question": "相隔很远的人，怎样借同一轮月亮表达想念？"
+      "label": "跟苏轼望月，给远方一份祝愿",
+      "question": "中秋的月亮很圆，苏轼却和弟弟相隔两地。他把怎样的牵挂，写进《水调歌头》？"
     },
-    "cta": "去寄一个月亮心愿",
-    "anchor": "苏轼、苏辙与《水调歌头》",
-    "boundary": "两地望月为词意学习图，不复原1076年两人的具体现场；后世苏轼像需按其实际年代标注。",
+    "cta": "去听月亮里的祝愿",
+    "anchor": "苏轼与弟弟苏辙",
+    "boundary": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
     "evidence": [
       {
         "id": "su-shi-yuan-portrait-artwork",
@@ -142,64 +162,156 @@
         "license": "Public Domain Mark 1.0",
         "clearance": "cleared-open-license",
         "caption": "元代赵孟頫在苏轼去世后所绘苏轼艺术形象。",
-        "boundary": "后世绘画不是苏轼生前照片，也不能证明他写《水调歌头》时的衣着、动作或房间；只用于连接人物、作品和后世纪念。原图750×1766像素。",
+        "boundary": "后世绘画不是苏轼生前照片，也不能证明他写《水调歌头》时的衣着、动作或房间；只用于连接人物、作品和后世纪念。原图750×1766像素。 台北故宫故书000155、1301年册首画像身份已核对。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/su-shi-yuan-portrait-artwork.jpg"
       }
     ],
+    "photoAlbum": null,
     "coverAsset": {
-      "id": "su-shi-yuan-portrait-artwork",
-      "title": "元代赵孟頫绘苏轼像",
-      "localPath": "reference-assets/liao-song-xia-jin-yuan/su-shi-portrait.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Su_shi.jpg",
+      "id": "song-moon-wishes-v1",
+      "title": "跟苏轼望月，给远方一份祝愿故事插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-moon-wishes-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
       "licensePath": null,
-      "license": "Public Domain Mark 1.0",
-      "clearance": "cleared-open-license",
-      "caption": "元代赵孟頫在苏轼去世后所绘苏轼艺术形象。",
-      "boundary": "后世绘画不是苏轼生前照片，也不能证明他写《水调歌头》时的衣着、动作或房间；只用于连接人物、作品和后世纪念。原图750×1766像素。",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/su-shi-yuan-portrait-artwork.jpg"
+      "image": "/content/step-images/song-moon-wishes-v1.jpg"
     },
-    "presentation": null,
-    "sceneAsset": null,
-    "narrativeAssets": [],
-    "coverImage": "/content/step-images/su-shi-yuan-portrait-artwork.jpg",
-    "coverImageAlt": "元代赵孟頫绘苏轼像",
-    "coverImageKind": "历史材料",
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "song-moon-wishes-v1",
+      "sceneAlt": "跟苏轼望月，给远方一份祝愿的儿童故事插画",
+      "title": "跟苏轼望月，给远方一份祝愿",
+      "evidenceTitle": "苏轼像 · 元代赵孟頫绘",
+      "evidenceLine": "真实材料与故事插画分别看。",
+      "evidenceNarration": "这张画画的是苏轼，但画家赵孟頫生活在更晚的元代。画像让后人纪念苏轼，不能当作他写词那一夜的照片。",
+      "guide": "听听问题，点图回答。",
+      "alignHint": "",
+      "familyHint": "回看图里的线索，再和家人说说发现。",
+      "familyLabel": "和家人回看今天的发现",
+      "familyMode": "actions",
+      "nextLabel": "继续看故事",
+      "lastLabel": "把发现带回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "song-friends-reunion-v2",
+        "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
+        "reunionAspectRatio": 1.82,
+        "coverCaption": "跟苏轼望月，给远方一份祝愿",
+        "coverNarration": "中秋的月亮很圆，苏轼却和弟弟相隔两地。他把怎样的牵挂，写进《水调歌头》？",
+        "stationLine": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
+        "stationNarration": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
+        "closingCaption": "带着发现回家",
+        "closingNarration": "1076年中秋，北宋苏轼写《水调歌头》，也思念弟弟苏辙。他借明月寄托祝愿：虽然相隔千里，仍愿亲人平安。",
+        "closingLine": "相隔很远，也能把牵挂放在同一轮月亮里。",
+        "fictionNote": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
+        "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
+        "stationAudio": {
+          "id": "quest-afff15281530ee8d",
+          "text": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。"
+        },
+        "closingAudio": {
+          "id": "quest-ec5a619d9c0aa694",
+          "text": "1076年中秋，北宋苏轼写《水调歌头》，也思念弟弟苏辙。他借明月寄托祝愿：虽然相隔千里，仍愿亲人平安。"
+        }
+      },
+      "sceneImage": "/content/step-images/song-moon-wishes-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-19944b493ada316c",
+        "text": "这张画画的是苏轼，但画家赵孟頫生活在更晚的元代。画像让后人纪念苏轼，不能当作他写词那一夜的照片。"
+      },
+      "guideAudio": {
+        "id": "quest-556f5af30cc82d77",
+        "text": "听听问题，点图回答。"
+      }
+    },
+    "sceneAsset": {
+      "id": "song-moon-wishes-v1",
+      "title": "跟苏轼望月，给远方一份祝愿故事插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-moon-wishes-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/song-moon-wishes-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "song-friends-reunion-v2",
+        "title": "宋代历史站小伙伴回看旅行册",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/song-friends-reunion-v2.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史照片。",
+        "boundary": "三位现代儿童回顾旅行手册；册上船、印刷图样与月亮为整站学习线索，不冒充古代原物或个人亲历。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/song-friends-reunion-v2.jpg"
+      },
+      {
+        "id": "song-moon-wishes-v1",
+        "title": "跟苏轼望月，给远方一份祝愿故事插画",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/song-moon-wishes-v1.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史照片。",
+        "boundary": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/song-moon-wishes-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/song-moon-wishes-v1.jpg",
+    "coverImageAlt": "跟苏轼望月，给远方一份祝愿故事插画",
+    "coverImageKind": "故事插画",
     "coverAudio": {
-      "id": "quest-bb7dd4376b7cb345",
-      "text": "把苏轼的月亮送给弟弟。相隔很远的人，怎样借同一轮月亮表达想念？准备好就点“去寄一个月亮心愿”。"
+      "id": "quest-8c229eb1a15e3eb1",
+      "text": "中秋的月亮很圆，苏轼却和弟弟相隔两地。他把怎样的牵挂，写进《水调歌头》？"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-45e692bddaa3c187",
-      "text": "苏轼在1076年中秋写词怀念苏辙，用月的圆缺表达感受和祝愿；词不是生活统计。"
+      "id": "quest-ec5a619d9c0aa694",
+      "text": "1076年中秋，北宋苏轼写《水调歌头》，也思念弟弟苏辙。他借明月寄托祝愿：虽然相隔千里，仍愿亲人平安。"
     },
     "finish": {
-      "title": "给远方亲人送一句祝愿",
+      "title": "给远方的人，一份温柔的祝愿。",
       "actions": [
-        "双手围成一个圆月，想一位不在身边的家人。",
-        "对家人说“愿你平安”，或把圆月手势轻轻递过去。"
+        "听“千里共婵娟”，分别指画里两处窗边的人，再指月亮。",
+        "想一个牵挂的人，用自己的话说一句祝愿，也可以请家人代说。"
       ],
-      "parent": "不要求孩子公开姓名、住址或录音。问“月亮真的把城市搬近了吗？”接受想念、祝愿、同看月亮等表达。",
+      "parent": "不把诗词变成背诵竞赛，不规定孩子一定悲伤或必须思念某个人。明确节选和文学想象；李白思乡与苏轼兼怀子由各有作品语境。",
       "sceneStepIndexes": [
-        1,
+        2,
         3
       ],
       "actionAudio": [
         {
-          "id": "quest-1718d744be6a32bb",
-          "text": "双手围成一个圆月，想一位不在身边的家人。"
+          "id": "quest-3c2f8a8d248d391f",
+          "text": "听“千里共婵娟”，分别指画里两处窗边的人，再指月亮。"
         },
         {
-          "id": "quest-94c68b0e069df079",
-          "text": "对家人说“愿你平安”，或把圆月手势轻轻递过去。"
+          "id": "quest-a18fafd86534f1be",
+          "text": "想一个牵挂的人，用自己的话说一句祝愿，也可以请家人代说。"
         }
       ],
       "introAudio": {
-        "id": "quest-0b0db006bc6a7132",
-        "text": "给远方亲人送一句祝愿。双手围成一个圆月，想一位不在身边的家人。对家人说“愿你平安”，或把圆月手势轻轻递过去。"
+        "id": "quest-ec5a619d9c0aa694",
+        "text": "1076年中秋，北宋苏轼写《水调歌头》，也思念弟弟苏辙。他借明月寄托祝愿：虽然相隔千里，仍愿亲人平安。"
       }
     },
     "estimatedMinutes": 6,
@@ -212,81 +324,144 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "这首词的时间",
-        "title": "这首词的时间",
-        "prompt": "这首词属于哪一站？",
-        "rightNote": "苏轼在宋代，别把两位写月亮的诗人放到同一时代。",
-        "wrongNote": "苏轼在宋代，别把两位写月亮的诗人放到同一时代。",
+        "phase": "画里的人，词里的年代",
+        "title": "画里的人，词里的年代",
+        "prompt": "苏轼写这首词，应该在哪一站？",
+        "rightNote": "到北宋，听他写给远方的牵挂。",
+        "wrongNote": "元代画像更晚，作词的人生活在北宋。",
         "sourceIds": [
-          "CCDI-SUSHI-WATER-MELODY"
+          "SH-SUSHI-WATER-MELODY",
+          "NPM-ZHAO-SUSHI-PORTRAIT"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听听问题，看看图里的线索。"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "画里的人，词里的年代",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "到北宋，听他写给远方的牵挂。",
+          "retry": "元代画像更晚，作词的人生活在北宋。",
+          "nextLabel": "轻轻听这段词",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "su-shi-yuan-portrait-artwork",
+          "title": "苏轼像 · 元代赵孟頫绘",
+          "localPath": "reference-assets/liao-song-xia-jin-yuan/su-shi-portrait.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Su_shi.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "Public Domain Mark 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "1301年后世画像 · 人物是北宋苏轼",
+          "boundary": "后世绘画不是苏轼生前照片，也不能证明他写《水调歌头》时的衣着、动作或房间；只用于连接人物、作品和后世纪念。原图750×1766像素。 台北故宫故书000155、1301年册首画像身份已核对。 元代赵孟頫在苏轼去世后所绘苏轼艺术形象。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/su-shi-yuan-portrait-artwork.jpg",
+          "label": "点开真材料，听听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 350,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "台北故宫博物院：元赵孟頫行书赤壁二赋册",
+              "url": "https://digitalarchive.npm.gov.tw/Collection/Detail/425?dep=P"
+            },
+            {
+              "title": "上海市民政局：但愿人长久，千里共婵娟",
+              "url": "https://mzj.sh.gov.cn/lnb-wsws/20240918/db07bfa108f94ee29e706b9bbb646c1a.html"
+            },
+            {
+              "title": "图像作者、原始文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Su_shi.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-19944b493ada316c",
+            "text": "这张画画的是苏轼，但画家赵孟頫生活在更晚的元代。画像让后人纪念苏轼，不能当作他写词那一夜的照片。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "这首词的时间",
-          "screenText": "1076年中秋，苏轼写下《水调歌头》，想到弟弟苏辙。李白的唐代诗在更早。",
-          "displayText": "1076年中秋，苏轼写下《水调歌头》，想到弟弟苏辙。李白的唐代诗在更早。",
-          "narration": "1076年中秋，苏轼写下《水调歌头》，想到弟弟苏辙。李白的唐代诗在更早。"
+          "title": "画里的人，词里的年代",
+          "screenText": "这是后人画的苏轼像。苏轼生活在北宋，1076年中秋写下《水调歌头》，也想到远方的弟弟苏辙。画像是更晚的元代作品。",
+          "displayText": "这是后人画的苏轼像。苏轼生活在北宋，1076年中秋写下《水调歌头》，也想到远方的弟弟苏辙。画像是更晚的元代作品。",
+          "narration": "这是后人画的苏轼像。苏轼生活在北宋，1076年中秋写下《水调歌头》，也想到远方的弟弟苏辙。画像是更晚的元代作品。"
         },
-        "assetId": "study-2423ba798be093a9",
-        "image": "/content/study-scenes/study-2423ba798be093a9.svg",
-        "studyImage": "/content/study-scenes/study-2423ba798be093a9.svg",
-        "studyImageAlt": "唐 李白，宋 1076年 苏轼",
-        "imageAlt": "唐 李白，宋 1076年 苏轼",
-        "imageCaption": "学习示意 · 唐 李白，宋 1076年 苏轼",
-        "imageBoundary": "自制学习示意。两地望月为词意学习图，不复原1076年两人的具体现场；后世苏轼像需按其实际年代标注。",
+        "assetId": "study-8e5aa877ef0ba8b1",
+        "image": "/content/study-scenes/study-8e5aa877ef0ba8b1.svg",
+        "studyImage": "/content/study-scenes/study-8e5aa877ef0ba8b1.svg",
+        "studyImageAlt": "画里的人，词里的年代",
+        "imageAlt": "画里的人，词里的年代",
+        "imageCaption": "学习示意 · 画里的人，词里的年代",
+        "imageBoundary": "自制学习示意。《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
         "audio": {
+          "lead": {
+            "id": "quest-3a0d12c9da6e3825",
+            "text": "苏轼生活在北宋。这张画像是后来的元代作品。"
+          },
           "transition": {
-            "id": "quest-bf12a36c4676f8d0",
-            "text": "这首词的时间。"
+            "id": "quest-69d5883fac4340a7",
+            "text": "画里的人，词里的年代。"
           },
           "intro": {
-            "id": "quest-2a1cfc0be1d729c7",
-            "text": "1076年中秋，苏轼写下《水调歌头》，想到弟弟苏辙。李白的唐代诗在更早。"
+            "id": "quest-ef4c7b24251548ea",
+            "text": "这是后人画的苏轼像。苏轼生活在北宋，1076年中秋写下《水调歌头》，也想到远方的弟弟苏辙。画像是更晚的元代作品。"
           },
           "question": {
-            "id": "quest-6a32166c0412891d",
-            "text": "这首词属于哪一站？"
+            "id": "quest-ece75f5fe9d7df03",
+            "text": "苏轼写这首词，应该在哪一站？"
           },
           "image": {
-            "id": "quest-932be61f730de166",
-            "text": "这是学习示意图：唐 李白，宋 1076年 苏轼。这首词属于哪一站？"
+            "id": "quest-12dbd435b20aef38",
+            "text": "这是学习示意图：画里的人，词里的年代。苏轼写这首词，应该在哪一站？"
           },
           "right": {
-            "id": "quest-8d23a4d61a951eaf",
-            "text": "找到了。苏轼在宋代，别把两位写月亮的诗人放到同一时代。"
+            "id": "quest-8ef4a8e45e921a99",
+            "text": "到北宋，听他写给远方的牵挂。"
           },
           "wrong": {
-            "id": "quest-f1136ce8fe3607d9",
-            "text": "再比较一下。苏轼在宋代，别把两位写月亮的诗人放到同一时代。"
+            "id": "quest-e222abb58ef6dabf",
+            "text": "元代画像更晚，作词的人生活在北宋。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-07-06-su-shi-moon-time-1",
-            "label": "宋 · 1076年",
+            "label": "北宋 · 1076年",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-934fdfdc6c7e14bb.svg",
-            "imageAlt": "宋 1076年",
+            "objectView": {
+              "kind": "era",
+              "name": "北宋",
+              "date": "1076年",
+              "stationImage": "/images/history-stations/cities.webp"
+            },
+            "image": "/content/study-scenes/study-8f70ec728933b7bf.svg",
+            "imageAlt": "北宋，1076年",
             "audio": {
-              "id": "quest-7a278df311e362d9",
-              "text": "宋 · 1076年"
+              "id": "quest-67ebefe1bfabda4e",
+              "text": "北宋 · 1076年"
             }
           },
           {
             "id": "cn-ancient-07-06-su-shi-moon-time-2",
-            "label": "唐 · 李白的时代",
+            "label": "元朝 · 1301年画像",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-90f9b245b6b574a4.svg",
-            "imageAlt": "唐 李白",
+            "objectView": {
+              "kind": "era",
+              "name": "元朝",
+              "date": "1301年画像",
+              "stationImage": "/images/history-stations/yuan.webp"
+            },
+            "image": "/content/study-scenes/study-55286b4ec315a78e.svg",
+            "imageAlt": "元朝，1301年画像",
             "audio": {
-              "id": "quest-01d955b417714a8a",
-              "text": "唐 · 李白的时代"
+              "id": "quest-0cb8ebddf0c33ca8",
+              "text": "元朝 · 1301年画像"
             }
           }
         ]
@@ -295,164 +470,199 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "月亮有不同模样",
-        "title": "月亮有不同模样",
-        "prompt": "哪张卡是圆月？",
-        "rightNote": "圆月和弯月形状不同；这里用来理解词中的圆与缺。",
-        "wrongNote": "圆月和弯月形状不同；这里用来理解词中的圆与缺。",
+        "phase": "《水调歌头》· 节选",
+        "title": "《水调歌头》· 节选",
+        "prompt": "《水调歌头》· 节选",
+        "rightNote": "听到哪一句，就慢慢想一想。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
-          "CCDI-SUSHI-WATER-MELODY"
+          "SH-SUSHI-WATER-MELODY"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听问题，看看图里的线索。",
+          "continueLabel": "看看词把祝愿托给什么"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "《水调歌头》· 节选",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "听到哪一句，就慢慢想一想。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "看看词把祝愿托给什么",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "月亮有不同模样",
-          "screenText": "“月有阴晴圆缺”。诗词会借月亮的变化表达感受。先看圆月和弯月的样子。",
-          "displayText": "“月有阴晴圆缺”。诗词会借月亮的变化表达感受。先看圆月和弯月的样子。",
-          "narration": "“月有阴晴圆缺”。诗词会借月亮的变化表达感受。先看圆月和弯月的样子。"
+          "title": "《水调歌头》· 节选",
+          "screenText": "苏轼在中秋想到远方的弟弟。这是《水调歌头》节选：人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。",
+          "displayText": "人有悲欢离合，月有阴晴圆缺，\n此事古难全。\n但愿人长久，千里共婵娟。",
+          "narration": "苏轼在中秋想到远方的弟弟。这是《水调歌头》节选：人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。"
         },
-        "assetId": "study-0706a515300213a8",
-        "image": "/content/study-scenes/study-0706a515300213a8.svg",
-        "studyImage": "/content/study-scenes/study-0706a515300213a8.svg",
-        "studyImageAlt": "圆月，弯月",
-        "imageAlt": "圆月，弯月",
-        "imageCaption": "学习示意 · 圆月，弯月",
-        "imageBoundary": "自制学习示意。两地望月为词意学习图，不复原1076年两人的具体现场；后世苏轼像需按其实际年代标注。",
+        "assetId": "song-moon-wishes-v1",
+        "image": "/content/step-images/song-moon-wishes-v1.jpg",
+        "studyImage": "/content/study-scenes/study-75179162003b9193.svg",
+        "studyImageAlt": "听听《水调歌头》里的祝愿",
+        "imageAlt": "跟苏轼望月，给远方一份祝愿故事插画",
+        "imageCaption": "跟苏轼望月，给远方一份祝愿故事插画",
+        "imageBoundary": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
         "audio": {
+          "lead": {
+            "id": "quest-673eeb527bdf2c6b",
+            "text": "《水调歌头》· 节选"
+          },
           "transition": {
-            "id": "quest-206c6dff2922a738",
-            "text": "月亮有不同模样。"
+            "id": "quest-5ce59606e6f28c4d",
+            "text": "《水调歌头》· 节选。"
           },
           "intro": {
-            "id": "quest-f13ee2db08bb5b5d",
-            "text": "“月有阴晴圆缺”。诗词会借月亮的变化表达感受。先看圆月和弯月的样子。"
+            "id": "quest-c6f00f2058f3e96d",
+            "text": "苏轼在中秋想到远方的弟弟。这是《水调歌头》节选：人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。"
           },
           "question": {
-            "id": "quest-69e275225944992b",
-            "text": "哪张卡是圆月？"
+            "id": "quest-673eeb527bdf2c6b",
+            "text": "《水调歌头》· 节选"
           },
           "image": {
-            "id": "quest-356fa78267adb5e4",
-            "text": "这是学习示意图：圆月，弯月。哪张卡是圆月？"
+            "id": "quest-0013049fe9f61041",
+            "text": "这张是跟苏轼望月，给远方一份祝愿故事插画。苏轼在中秋想到远方的弟弟。这是《水调歌头》节选：人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。"
           },
           "right": {
-            "id": "quest-002c6f4f3b353e33",
-            "text": "找到了。圆月和弯月形状不同；这里用来理解词中的圆与缺。"
+            "id": "quest-a40e54278006505a",
+            "text": "听到哪一句，就慢慢想一想。"
           },
           "wrong": {
-            "id": "quest-729645acb3d1ff10",
-            "text": "再比较一下。圆月和弯月形状不同；这里用来理解词中的圆与缺。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-06-su-shi-moon-beginning-1",
-            "label": "圆圆的一轮月",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-01335f042234908f.svg",
-            "imageAlt": "圆月",
-            "audio": {
-              "id": "quest-b63c571cd59f6769",
-              "text": "圆圆的一轮月"
-            }
-          },
-          {
-            "id": "cn-ancient-07-06-su-shi-moon-beginning-2",
-            "label": "弯弯的一弯月",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-bb4565fa214ff00a.svg",
-            "imageAlt": "弯月",
-            "audio": {
-              "id": "quest-321b95784befd2db",
-              "text": "弯弯的一弯月"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "词里想到谁",
-        "title": "词里想到谁",
-        "prompt": "苏轼要把思念送给谁？",
-        "rightNote": "这首词的怀念对象是弟弟，不是另一位写月的诗人。",
-        "wrongNote": "这首词的怀念对象是弟弟，不是另一位写月的诗人。",
+        "phase": "词把牵挂托给了什么",
+        "title": "词把牵挂托给了什么",
+        "prompt": "这句词把远方的祝愿托给什么？",
+        "rightNote": "他借明月，表达对远方亲人的牵挂。",
+        "wrongNote": "信也能问候，这句词借的是明月。",
         "sourceIds": [
-          "CCDI-SUSHI-WATER-MELODY"
+          "SH-SUSHI-WATER-MELODY"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "pick",
+          "hint": "听听问题，看看图里的线索。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "词把牵挂托给了什么",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "他借明月，表达对远方亲人的牵挂。",
+          "retry": "信也能问候，这句词借的是明月。",
+          "nextLabel": "再看看相隔两地的人",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "词里想到谁",
-          "screenText": "词的开头说明兼怀子由，子由就是苏轼的弟弟苏辙。他们当时相隔两地。",
-          "displayText": "词的开头说明兼怀子由，子由就是苏轼的弟弟苏辙。他们当时相隔两地。",
-          "narration": "词的开头说明兼怀子由，子由就是苏轼的弟弟苏辙。他们当时相隔两地。"
+          "title": "词把牵挂托给了什么",
+          "screenText": "人可以写信问候，也可以在词里寄托祝愿。苏轼写“千里共婵娟”，这里的婵娟指明月。小伙伴从这幅想象画里找找。",
+          "displayText": "人可以写信问候，也可以在词里寄托祝愿。苏轼写“千里共婵娟”，这里的婵娟指明月。小伙伴从这幅想象画里找找。",
+          "narration": "人可以写信问候，也可以在词里寄托祝愿。苏轼写“千里共婵娟”，这里的婵娟指明月。小伙伴从这幅想象画里找找。"
         },
-        "assetId": "study-9e0079d35dc424e5",
-        "image": "/content/study-scenes/study-9e0079d35dc424e5.svg",
-        "studyImage": "/content/study-scenes/study-9e0079d35dc424e5.svg",
-        "studyImageAlt": "苏轼，寄托思念，苏辙",
-        "imageAlt": "苏轼，寄托思念，苏辙",
-        "imageCaption": "学习示意 · 苏轼，寄托思念，苏辙",
-        "imageBoundary": "自制学习示意。两地望月为词意学习图，不复原1076年两人的具体现场；后世苏轼像需按其实际年代标注。",
+        "assetId": "song-moon-wishes-v1",
+        "image": "/content/step-images/song-moon-wishes-v1.jpg",
+        "studyImage": "/content/study-scenes/study-02b9ef2b3b2a8e50.svg",
+        "studyImageAlt": "词把牵挂托给了什么",
+        "imageAlt": "跟苏轼望月，给远方一份祝愿故事插画",
+        "imageCaption": "跟苏轼望月，给远方一份祝愿故事插画",
+        "imageBoundary": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
         "audio": {
+          "lead": {
+            "id": "quest-2d43a16b9d783781",
+            "text": "这句词把远方的祝愿托给什么？"
+          },
           "transition": {
-            "id": "quest-d26730853aa55304",
-            "text": "词里想到谁。"
+            "id": "quest-2058f3aeb9e52576",
+            "text": "词把牵挂托给了什么。"
           },
           "intro": {
-            "id": "quest-5ce605ad3d5d551d",
-            "text": "词的开头说明兼怀子由，子由就是苏轼的弟弟苏辙。他们当时相隔两地。"
+            "id": "quest-508679f793566cf9",
+            "text": "人可以写信问候，也可以在词里寄托祝愿。苏轼写“千里共婵娟”，这里的婵娟指明月。小伙伴从这幅想象画里找找。"
           },
           "question": {
-            "id": "quest-9be21b24403f8101",
-            "text": "苏轼要把思念送给谁？"
+            "id": "quest-2d43a16b9d783781",
+            "text": "这句词把远方的祝愿托给什么？"
           },
           "image": {
-            "id": "quest-fae5af1be8201eda",
-            "text": "这是学习示意图：苏轼，寄托思念，苏辙。苏轼要把思念送给谁？"
+            "id": "quest-404b538a443699f3",
+            "text": "这张是跟苏轼望月，给远方一份祝愿故事插画。人可以写信问候，也可以在词里寄托祝愿。苏轼写“千里共婵娟”，这里的婵娟指明月。小伙伴从这幅想象画里找找。"
           },
           "right": {
-            "id": "quest-91285da0753b69cd",
-            "text": "找到了。这首词的怀念对象是弟弟，不是另一位写月的诗人。"
+            "id": "quest-5fee7fa4638229f4",
+            "text": "他借明月，表达对远方亲人的牵挂。"
           },
           "wrong": {
-            "id": "quest-08470ff29f345dcc",
-            "text": "再比较一下。这首词的怀念对象是弟弟，不是另一位写月的诗人。"
+            "id": "quest-7850169c2016850b",
+            "text": "信也能问候，这句词借的是明月。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-07-06-su-shi-moon-journey-1",
-            "label": "弟弟苏辙",
+            "label": "同一轮明月",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-abfb2f5094d1ad21.svg",
-            "imageAlt": "弟弟苏辙",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "song-moon-wishes-v1",
+              "crop": {
+                "x": 750,
+                "y": 42,
+                "width": 145,
+                "height": 148,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/song-moon-wishes-v1.jpg",
+              "imageAlt": "同一轮明月"
+            },
+            "image": "/content/study-scenes/study-0692e31e0a03493e.svg",
+            "imageAlt": "同一轮明月",
             "audio": {
-              "id": "quest-f3c16b60412925e1",
-              "text": "弟弟苏辙"
+              "id": "quest-8d860c0298dc7fd2",
+              "text": "同一轮明月"
             }
           },
           {
             "id": "cn-ancient-07-06-su-shi-moon-journey-2",
-            "label": "更早的诗人李白",
+            "label": "桌上的书信",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-b00dfffbc38c1f60.svg",
-            "imageAlt": "唐代李白",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "song-moon-wishes-v1",
+              "crop": {
+                "x": 170,
+                "y": 374,
+                "width": 210,
+                "height": 74,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/song-moon-wishes-v1.jpg",
+              "imageAlt": "桌上的书信"
+            },
+            "image": "/content/study-scenes/study-0aaf7575425611a5.svg",
+            "imageAlt": "桌上的书信",
             "audio": {
-              "id": "quest-409d622415843abb",
-              "text": "更早的诗人李白"
+              "id": "quest-6c054956bc2f8734",
+              "text": "桌上的书信"
             }
           }
         ]
@@ -461,167 +671,194 @@
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "隔得远也能祝愿",
-        "title": "隔得远也能祝愿",
-        "prompt": "这句祝愿更接近哪张图？",
-        "rightNote": "词在表达祝愿，不是说月亮真的搬动了城市。",
-        "wrongNote": "词在表达祝愿，不是说月亮真的搬动了城市。",
+        "phase": "人分在两处，牵挂还能相连",
+        "title": "人分在两处，牵挂还能相连",
+        "prompt": "哪组人各在一处，却想着彼此？",
+        "rightNote": "两处窗景表达相隔，明月寄托牵挂。",
+        "wrongNote": "小伙伴站在一起，再找两处窗边的人。",
         "sourceIds": [
-          "CCDI-SUSHI-WATER-MELODY"
+          "SH-SUSHI-WATER-MELODY"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听听问题，看看图里的线索。",
+          "hotspots": [
+            {
+              "id": "apart",
+              "label": "两处窗边的亲人",
+              "x": 0.025,
+              "y": 0.04,
+              "width": 0.95,
+              "height": 0.4
+            },
+            {
+              "id": "together",
+              "label": "站在一起的小伙伴",
+              "x": 0.13,
+              "y": 0.565,
+              "width": 0.65,
+              "height": 0.4
+            }
+          ],
+          "rounds": [
+            {
+              "id": "apart",
+              "question": "哪组人各在一处，却想着彼此？",
+              "targetId": "apart",
+              "feedback": "两处窗景表达相隔，明月寄托牵挂。",
+              "retry": "小伙伴站在一起，再找两处窗边的人。",
+              "nextLabel": "听听这句祝愿",
+              "audio": {
+                "question": {
+                  "id": "quest-fdd70a88a8565661",
+                  "text": "哪组人各在一处，却想着彼此？"
+                },
+                "right": {
+                  "id": "quest-6686ddfd17ce9e5c",
+                  "text": "两处窗景表达相隔，明月寄托牵挂。"
+                },
+                "wrong": {
+                  "id": "quest-75cbf5c23fd4e856",
+                  "text": "小伙伴站在一起，再找两处窗边的人。"
+                }
+              }
+            }
+          ],
+          "imageLabel": "故事插画",
+          "sceneAspectRatio": 1.5
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "人分在两处，牵挂还能相连",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "两处窗景表达相隔，明月寄托牵挂。",
+          "retry": "小伙伴站在一起，再找两处窗边的人。",
+          "nextLabel": "把自己的祝愿轻轻说出来",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "隔得远也能祝愿",
-          "screenText": "“但愿人长久，千里共婵娟。”他希望亲人平安，虽相隔很远，也能共赏明月。",
-          "displayText": "“但愿人长久，千里共婵娟。”他希望亲人平安，虽相隔很远，也能共赏明月。",
-          "narration": "“但愿人长久，千里共婵娟。”他希望亲人平安，虽相隔很远，也能共赏明月。"
+          "title": "人分在两处，牵挂还能相连",
+          "screenText": "图里两处窗边的人各在一地，下面的小伙伴却站在一起。苏轼想念弟弟时，也是在相隔两地的处境里。看看这幅画怎样表达远方。",
+          "displayText": "图里两处窗边的人各在一地，下面的小伙伴却站在一起。苏轼想念弟弟时，也是在相隔两地的处境里。看看这幅画怎样表达远方。",
+          "narration": "图里两处窗边的人各在一地，下面的小伙伴却站在一起。苏轼想念弟弟时，也是在相隔两地的处境里。看看这幅画怎样表达远方。"
         },
-        "assetId": "study-2cfc58ac36eda867",
-        "image": "/content/study-scenes/study-2cfc58ac36eda867.svg",
-        "studyImage": "/content/study-scenes/study-2cfc58ac36eda867.svg",
-        "studyImageAlt": "两地共望明月",
-        "imageAlt": "两地共望明月",
-        "imageCaption": "学习示意 · 两地共望明月",
-        "imageBoundary": "自制学习示意。两地望月为词意学习图，不复原1076年两人的具体现场；后世苏轼像需按其实际年代标注。",
+        "assetId": "song-moon-wishes-v1",
+        "image": "/content/step-images/song-moon-wishes-v1.jpg",
+        "studyImage": "/content/study-scenes/study-1b8f0d6cac12e4b9.svg",
+        "studyImageAlt": "人分在两处，牵挂还能相连",
+        "imageAlt": "跟苏轼望月，给远方一份祝愿故事插画",
+        "imageCaption": "跟苏轼望月，给远方一份祝愿故事插画",
+        "imageBoundary": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
         "audio": {
+          "lead": {
+            "id": "quest-fdd70a88a8565661",
+            "text": "哪组人各在一处，却想着彼此？"
+          },
           "transition": {
-            "id": "quest-e58e46bda50c9897",
-            "text": "隔得远也能祝愿。"
+            "id": "quest-713d4b35f3ff9913",
+            "text": "人分在两处，牵挂还能相连。"
           },
           "intro": {
-            "id": "quest-897084f41c35cc9b",
-            "text": "“但愿人长久，千里共婵娟。”他希望亲人平安，虽相隔很远，也能共赏明月。"
+            "id": "quest-ed11f5c2f730f457",
+            "text": "图里两处窗边的人各在一地，下面的小伙伴却站在一起。苏轼想念弟弟时，也是在相隔两地的处境里。看看这幅画怎样表达远方。"
           },
           "question": {
-            "id": "quest-31f9bce3b11fe0dd",
-            "text": "这句祝愿更接近哪张图？"
+            "id": "quest-fdd70a88a8565661",
+            "text": "哪组人各在一处，却想着彼此？"
           },
           "image": {
-            "id": "quest-5831daec4c93cb49",
-            "text": "这是学习示意图：两地共望明月。这句祝愿更接近哪张图？"
+            "id": "quest-7dfa494a04ec42e0",
+            "text": "这张是跟苏轼望月，给远方一份祝愿故事插画。图里两处窗边的人各在一地，下面的小伙伴却站在一起。苏轼想念弟弟时，也是在相隔两地的处境里。看看这幅画怎样表达远方。"
           },
           "right": {
-            "id": "quest-ada61b0f6a79aac1",
-            "text": "找到了。词在表达祝愿，不是说月亮真的搬动了城市。"
+            "id": "quest-6686ddfd17ce9e5c",
+            "text": "两处窗景表达相隔，明月寄托牵挂。"
           },
           "wrong": {
-            "id": "quest-e069290606e1c839",
-            "text": "再比较一下。词在表达祝愿，不是说月亮真的搬动了城市。"
+            "id": "quest-75cbf5c23fd4e856",
+            "text": "小伙伴站在一起，再找两处窗边的人。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-06-su-shi-moon-change-1",
-            "label": "两地的人寄托同一份祝愿",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-85f71ff321e56b3d.svg",
-            "imageAlt": "两地相互想念",
-            "audio": {
-              "id": "quest-2d52bb115427b6b5",
-              "text": "两地的人寄托同一份祝愿"
-            }
-          },
-          {
-            "id": "cn-ancient-07-06-su-shi-moon-change-2",
-            "label": "月亮把两座城搬到一起",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-ec6ecede2dccbf04.svg",
-            "imageAlt": "两座城搬到一起",
-            "audio": {
-              "id": "quest-8865bc7e7cc00a4c",
-              "text": "月亮把两座城搬到一起"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "给思念找一个动作",
-        "title": "给思念找一个动作",
-        "prompt": "想表现苏轼这句祝愿，选哪张？",
-        "rightNote": "借景寄情，让我们理解感受，不把诗意当机械过程。",
-        "wrongNote": "借景寄情，让我们理解感受，不把诗意当机械过程。",
+        "phase": "把祝愿带给你牵挂的人",
+        "title": "把祝愿带给你牵挂的人",
+        "prompt": "轻轻望月，想一个牵挂的人",
+        "rightNote": "你的祝愿，可以用自己的话说。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
-          "CCDI-SUSHI-WATER-MELODY"
+          "SH-SUSHI-WATER-MELODY"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听问题，看看图里的线索。",
+          "continueLabel": "带着祝愿回家"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "把祝愿带给你牵挂的人",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "你的祝愿，可以用自己的话说。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "带着祝愿回家",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 5,
-          "title": "给思念找一个动作",
-          "screenText": "李白望月思乡，苏轼借月怀人。相近的月亮意象，可以表达不同的牵挂。",
-          "displayText": "李白望月思乡，苏轼借月怀人。相近的月亮意象，可以表达不同的牵挂。",
-          "narration": "李白望月思乡，苏轼借月怀人。相近的月亮意象，可以表达不同的牵挂。"
+          "title": "把祝愿带给你牵挂的人",
+          "screenText": "“但愿人长久，千里共婵娟。”希望亲人平安，虽然相隔很远，也能共赏明月。你也可以想一个牵挂的人，说一句自己的祝愿，不用背出整首词。",
+          "displayText": "但愿人长久，千里共婵娟。\n也给你牵挂的人，一份祝愿。",
+          "narration": "“但愿人长久，千里共婵娟。”希望亲人平安，虽然相隔很远，也能共赏明月。你也可以想一个牵挂的人，说一句自己的祝愿，不用背出整首词。"
         },
-        "assetId": "study-d4fed7ec6091598f",
-        "image": "/content/study-scenes/study-d4fed7ec6091598f.svg",
-        "studyImage": "/content/study-scenes/study-d4fed7ec6091598f.svg",
-        "studyImageAlt": "月亮，牵挂，远方亲人",
-        "imageAlt": "月亮，牵挂，远方亲人",
-        "imageCaption": "学习示意 · 月亮，牵挂，远方亲人",
-        "imageBoundary": "自制学习示意。两地望月为词意学习图，不复原1076年两人的具体现场；后世苏轼像需按其实际年代标注。",
+        "assetId": "song-moon-wishes-v1",
+        "image": "/content/step-images/song-moon-wishes-v1.jpg",
+        "studyImage": "/content/study-scenes/study-65838d759cb633a6.svg",
+        "studyImageAlt": "把祝愿带给你牵挂的人",
+        "imageAlt": "跟苏轼望月，给远方一份祝愿故事插画",
+        "imageCaption": "跟苏轼望月，给远方一份祝愿故事插画",
+        "imageBoundary": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
         "audio": {
+          "lead": {
+            "id": "quest-417f4a8ed4bdcf26",
+            "text": "轻轻望月，想一个牵挂的人"
+          },
           "transition": {
-            "id": "quest-eb93fd3f69fa7496",
-            "text": "给思念找一个动作。"
+            "id": "quest-b2c28cc3528474cb",
+            "text": "把祝愿带给你牵挂的人。"
           },
           "intro": {
-            "id": "quest-53062d8e729bb2be",
-            "text": "李白望月思乡，苏轼借月怀人。相近的月亮意象，可以表达不同的牵挂。"
+            "id": "quest-c3d8ae17ebe5903c",
+            "text": "“但愿人长久，千里共婵娟。”希望亲人平安，虽然相隔很远，也能共赏明月。你也可以想一个牵挂的人，说一句自己的祝愿，不用背出整首词。"
           },
           "question": {
-            "id": "quest-a48c98edda010346",
-            "text": "想表现苏轼这句祝愿，选哪张？"
+            "id": "quest-417f4a8ed4bdcf26",
+            "text": "轻轻望月，想一个牵挂的人"
           },
           "image": {
-            "id": "quest-6db39def2ae42d29",
-            "text": "这是学习示意图：月亮，牵挂，远方亲人。想表现苏轼这句祝愿，选哪张？"
+            "id": "quest-8100612535c74c64",
+            "text": "这张是跟苏轼望月，给远方一份祝愿故事插画。“但愿人长久，千里共婵娟。”希望亲人平安，虽然相隔很远，也能共赏明月。你也可以想一个牵挂的人，说一句自己的祝愿，不用背出整首词。"
           },
           "right": {
-            "id": "quest-3f3869fe1caf824f",
-            "text": "找到了。借景寄情，让我们理解感受，不把诗意当机械过程。"
+            "id": "quest-27cf05cac4325e50",
+            "text": "你的祝愿，可以用自己的话说。"
           },
           "wrong": {
-            "id": "quest-3d6c08c89b5a5e32",
-            "text": "再比较一下。借景寄情，让我们理解感受，不把诗意当机械过程。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-06-su-shi-moon-takeaway-1",
-            "label": "望月，祝远方亲人平安",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-ed659c63782bdb98.svg",
-            "imageAlt": "祝亲人平安",
-            "audio": {
-              "id": "quest-bd82b587a98210da",
-              "text": "望月，祝远方亲人平安"
-            }
-          },
-          {
-            "id": "cn-ancient-07-06-su-shi-moon-takeaway-2",
-            "label": "把月亮当成送货机器",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-2fce364a0c6892e9.svg",
-            "imageAlt": "月亮送货",
-            "audio": {
-              "id": "quest-3a3fcaa517d11be2",
-              "text": "把月亮当成送货机器"
-            }
-          }
-        ]
+        "options": []
       }
     ],
     "extensionTasks": [
@@ -877,6 +1114,26 @@
       "imageUse": "reference-only"
     },
     {
+      "id": "SH-SUSHI-WATER-MELODY",
+      "institution": "上海市民政局",
+      "title": "但愿人长久，千里共婵娟",
+      "url": "https://mzj.sh.gov.cn/lnb-wsws/20240918/db07bfa108f94ee29e706b9bbb646c1a.html",
+      "type": "institution-history-reference",
+      "authorityLevel": "A",
+      "factUse": "1076年中秋密州作词、兼怀子由与下阕原文；诗歌不是家庭统计",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NPM-ZHAO-SUSHI-PORTRAIT",
+      "institution": "台北故宫博物院",
+      "title": "元赵孟頫行书赤壁二赋册",
+      "url": "https://digitalarchive.npm.gov.tw/Collection/Detail/425?dep=P",
+      "type": "institution-history-reference",
+      "authorityLevel": "A",
+      "factUse": "1301年赵孟頫书赤壁二赋并作东坡像置于起首；不是1076年的现场",
+      "imageUse": "reference-only"
+    },
+    {
       "id": "PEP-CHINESE-CLASSICS-RESOURCE",
       "title": "中华经典资源库·中华经典诗文精讲",
       "institution": "人民教育出版社（教育部语用司重大项目成果）",
@@ -899,197 +1156,119 @@
   ],
   "assets": [
     {
-      "id": "study-2423ba798be093a9",
-      "title": "学习示意：唐 李白、宋 1076年 苏轼",
-      "localPath": "reference-assets/focused-quests/study-2423ba798be093a9.svg",
+      "id": "study-8e5aa877ef0ba8b1",
+      "title": "学习示意：画里的人，词里的年代",
+      "localPath": "reference-assets/focused-quests/study-8e5aa877ef0ba8b1.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "唐 李白 → 宋 1076年 苏轼",
+      "caption": "画里的人，词里的年代",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-934fdfdc6c7e14bb",
-      "title": "学习示意：宋 1076年",
-      "localPath": "reference-assets/focused-quests/study-934fdfdc6c7e14bb.svg",
+      "id": "study-8f70ec728933b7bf",
+      "title": "学习示意：北宋、1076年",
+      "localPath": "reference-assets/focused-quests/study-8f70ec728933b7bf.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "宋 1076年",
+      "caption": "北宋 → 1076年",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-90f9b245b6b574a4",
-      "title": "学习示意：唐 李白",
-      "localPath": "reference-assets/focused-quests/study-90f9b245b6b574a4.svg",
+      "id": "study-55286b4ec315a78e",
+      "title": "学习示意：元朝、1301年画像",
+      "localPath": "reference-assets/focused-quests/study-55286b4ec315a78e.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "唐 李白",
+      "caption": "元朝 → 1301年画像",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-0706a515300213a8",
-      "title": "学习示意：圆月、弯月",
-      "localPath": "reference-assets/focused-quests/study-0706a515300213a8.svg",
+      "id": "study-75179162003b9193",
+      "title": "学习示意：听听《水调歌头》里的祝愿",
+      "localPath": "reference-assets/focused-quests/study-75179162003b9193.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "圆月 → 弯月",
+      "caption": "听听《水调歌头》里的祝愿",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-01335f042234908f",
-      "title": "学习示意：圆月",
-      "localPath": "reference-assets/focused-quests/study-01335f042234908f.svg",
+      "id": "study-02b9ef2b3b2a8e50",
+      "title": "学习示意：词把牵挂托给了什么",
+      "localPath": "reference-assets/focused-quests/study-02b9ef2b3b2a8e50.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "圆月",
+      "caption": "词把牵挂托给了什么",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-bb4565fa214ff00a",
-      "title": "学习示意：弯月",
-      "localPath": "reference-assets/focused-quests/study-bb4565fa214ff00a.svg",
+      "id": "study-0692e31e0a03493e",
+      "title": "学习示意：同一轮明月",
+      "localPath": "reference-assets/focused-quests/study-0692e31e0a03493e.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "弯月",
+      "caption": "同一轮明月",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-9e0079d35dc424e5",
-      "title": "学习示意：苏轼、寄托思念、苏辙",
-      "localPath": "reference-assets/focused-quests/study-9e0079d35dc424e5.svg",
+      "id": "study-0aaf7575425611a5",
+      "title": "学习示意：桌上的书信",
+      "localPath": "reference-assets/focused-quests/study-0aaf7575425611a5.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "苏轼 → 寄托思念 → 苏辙",
+      "caption": "桌上的书信",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-abfb2f5094d1ad21",
-      "title": "学习示意：弟弟苏辙",
-      "localPath": "reference-assets/focused-quests/study-abfb2f5094d1ad21.svg",
+      "id": "study-1b8f0d6cac12e4b9",
+      "title": "学习示意：人分在两处，牵挂还能相连",
+      "localPath": "reference-assets/focused-quests/study-1b8f0d6cac12e4b9.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "弟弟苏辙",
+      "caption": "人分在两处，牵挂还能相连",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-b00dfffbc38c1f60",
-      "title": "学习示意：唐代李白",
-      "localPath": "reference-assets/focused-quests/study-b00dfffbc38c1f60.svg",
+      "id": "study-65838d759cb633a6",
+      "title": "学习示意：把祝愿带给你牵挂的人",
+      "localPath": "reference-assets/focused-quests/study-65838d759cb633a6.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "唐代李白",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-2cfc58ac36eda867",
-      "title": "学习示意：两地共望明月",
-      "localPath": "reference-assets/focused-quests/study-2cfc58ac36eda867.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "两地共望明月",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-85f71ff321e56b3d",
-      "title": "学习示意：两地相互想念",
-      "localPath": "reference-assets/focused-quests/study-85f71ff321e56b3d.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "两地相互想念",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-ec6ecede2dccbf04",
-      "title": "学习示意：两座城搬到一起",
-      "localPath": "reference-assets/focused-quests/study-ec6ecede2dccbf04.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "两座城搬到一起",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-d4fed7ec6091598f",
-      "title": "学习示意：月亮、牵挂、远方亲人",
-      "localPath": "reference-assets/focused-quests/study-d4fed7ec6091598f.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "月亮 → 牵挂 → 远方亲人",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-ed659c63782bdb98",
-      "title": "学习示意：祝亲人平安",
-      "localPath": "reference-assets/focused-quests/study-ed659c63782bdb98.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "祝亲人平安",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-2fce364a0c6892e9",
-      "title": "学习示意：月亮送货",
-      "localPath": "reference-assets/focused-quests/study-2fce364a0c6892e9.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "月亮送货",
+      "caption": "把祝愿带给你牵挂的人",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1129,7 +1308,46 @@
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "元代赵孟頫在苏轼去世后所绘苏轼艺术形象。",
-      "boundary": "后世绘画不是苏轼生前照片，也不能证明他写《水调歌头》时的衣着、动作或房间；只用于连接人物、作品和后世纪念。原图750×1766像素。",
+      "boundary": "后世绘画不是苏轼生前照片，也不能证明他写《水调歌头》时的衣着、动作或房间；只用于连接人物、作品和后世纪念。原图750×1766像素。 台北故宫故书000155、1301年册首画像身份已核对。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "song-moon-wishes-v1",
+      "title": "跟苏轼望月，给远方一份祝愿故事插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-moon-wishes-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "song-friends-reunion-v1",
+      "title": "宋代历史站小伙伴回看旅行册",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-friends-reunion-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "三位现代儿童回顾旅行手册；册上船、印刷图样与月亮为整站学习线索，不冒充古代原物或个人亲历。",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "song-friends-reunion-v2",
+      "title": "宋代历史站小伙伴回看旅行册",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-friends-reunion-v2.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "三位现代儿童回顾旅行手册；册上船、印刷图样与月亮为整站学习线索，不冒充古代原物或个人亲历。",
       "childVisibility": "child-ok"
     }
   ],

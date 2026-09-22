@@ -4,7 +4,7 @@
 - 时间位置：三国两晋南北朝；重点观察北魏时期
 - 核心问题：迁徙、改革和共同生活怎样推动民族交融？
 - 适龄：4—6岁亲子共学；儿童以图标和语音为主
-- 内容状态：事实研究完成；儿童稿与语音稿第一版；待儿童理解测试
+- 内容状态：事实研究完成；2026-09-19五步重做；待真实儿童理解与人工校听
 
 ## 本章结论
 
@@ -14,7 +14,7 @@
 
 1. 魏晋南北朝时期，匈奴、鲜卑、羯、氐、羌等族群进入中原并先后建立政权；各族既经历冲突，也持续交往、交流和交融。[NOPSS-ETHNIC-INTERACTION-WEIJIN]
 2. 鲜卑拓跋部建立北魏，439年统一北方，为北方各地区与各族群之间更广泛的联系提供了新的政治条件。[PEP-HISTORY-REVISION-2024; NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN]
-3. 北魏孝文帝在493年决定迁都，次年正式迁往洛阳。迁都面对反对，也与北魏加强中原统治、吸收中原制度文化有关。[NMC-YUANYU-EPITAPH; NEAC-XIAOWEN-MUTUAL-INFLUENCE]
+3. 北魏孝文帝于493年宣布迁都并安排建设，494年迁都洛阳，495年又有朝廷用语规定。迁都面对反对，也与北魏加强中原统治、吸收中原制度文化有关。[LUOYANG-CHRONICLE-XIAOWEN; NMC-YUANYU-EPITAPH; NEAC-XIAOWEN-MUTUAL-INFLUENCE]
 4. 孝文帝改革涉及朝廷语言、服饰、姓氏、礼仪和婚姻等方面。部分规定主要针对迁往洛阳的鲜卑贵族和官员，不能简单说北方所有人同时改变。[NEAC-XIAOWEN-MUTUAL-INFLUENCE]
 5. 文化影响是双向的：中原居民更多采用上衣下裤、胡衣胡帽和高足坐具，来自西北、北方和更远地区的音乐舞蹈也在北方流行；北方政权则吸收中原官制、礼仪和书写文化。[NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN; NEAC-XIAOWEN-MUTUAL-INFLUENCE]
 6. 鲜卑服陶武士俑表现了当时艺术家对服装形象的塑造。墓俑能帮助观察帽、裤、短衣和披风等特征，但一件俑不能代表所有鲜卑人，也不能仅凭服装断定具体人物的族群身份。[NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN]
@@ -120,25 +120,28 @@
 - 不凭陶俑面貌、服装或姓名单独判定具体个人族群身份。
 - 不把今天的云冈石窟照片当作北魏刚开凿时的完整原貌。
 
-## 本轮试玩任务（秦汉至明清）
+## 当前五步试玩（2026-09-19）
 
-本章当前儿童页面以 `content/focused-quests.json` 中同ID的逐题稿为准；下列任务替换旧通用提问。上文研究事实与编辑长稿继续作为家长和编辑背景，不直接当作儿童屏幕。
+上文是保留的研究背景与编辑长稿。当前儿童讲述、图与操作以 `content/focused-quests.json` 为准，不把旧长稿直接塞到儿童屏幕。
 
-**任务：跟着孝文帝去洛阳。** 搬到洛阳以后，人们怎样听懂彼此、学到新办法？
+**孝文帝迁都后，改变了什么？** 都城从平城迁到洛阳，孝文帝还改变了朝廷的语言、衣冠和制度。小伙伴去看看这些改变。
 
-1. 北魏孝文帝在493年决定迁都，494年迁都洛阳。我们把决定和行动排一排。 [NEAC-XIAOWEN-MUTUAL-INFLUENCE; NMC-YUANYU-EPITAPH]
-   - 孩子要判断：哪件事先发生？
-2. 洛阳原来就有人生活。迁来的人与当地人打交道，不是搬进一座空城。 [NEAC-XIAOWEN-MUTUAL-INFLUENCE; NMC-YUANYU-EPITAPH]
-   - 孩子要判断：到了洛阳，谁会相遇？
-3. 孝文帝的改革涉及朝廷用语和衣冠等方面。日常交往中，人们也在学习彼此的表达。 [NEAC-XIAOWEN-MUTUAL-INFLUENCE; NMC-YUANYU-EPITAPH]
-   - 孩子要判断：要把事情商量明白，哪种做法有帮助？
-4. 长期接触中，不同人群的生活和文化互相影响。不是只有一方有好办法。 [NEAC-XIAOWEN-MUTUAL-INFLUENCE; NMC-YUANYU-EPITAPH]
-   - 孩子要判断：哪张图表示互相影响？
-5. 改革有具体对象和过程。朝廷规定不能代表每个地方、每个人立即一样。 [NEAC-XIAOWEN-MUTUAL-INFLUENCE; NMC-YUANYU-EPITAPH]
-   - 孩子要判断：怎样画这段变化更合适？
+带走的历史关系：北魏孝文帝迁都洛阳，并改革朝廷的语言、衣冠等制度。人们在长期来往中互相影响，不是所有人一天变得一样。 [NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN; NEAC-XIAOWEN-MUTUAL-INFLUENCE; NMC-YUANYU-EPITAPH; UNESCO-YUNGANG]
 
-**结束动作：** 你做一个动作，请家人猜。 换家人做一个新动作，你来学一学。
+| 步骤 | 内容与孩子动作 | 理解与依据 |
+| --- | --- | --- |
+| time | 从旧都附近的石窟出发：看真材料，选择年代 | 这张照片是今天的云冈石窟，开凿于北魏，靠近当时的平城。孝文帝后来把都城迁往洛阳，改革朝廷制度。先找到北魏这一站。 [NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN ; NEAC-XIAOWEN-MUTUAL-INFLUENCE ; NMC-YUANYU-EPITAPH ; UNESCO-YUNGANG] |
+| beginning | 迁都，也改变朝廷做事的办法：看图听完整短故事，再继续 | 迁都与制度改革相连；不是只讲互相打招呼。 [NEAC-XIAOWEN-MUTUAL-INFLUENCE ; NMC-YUANYU-EPITAPH] |
+| journey | 说清事情，做好衣服：按每轮问题点图；所有问题完成才前进 | 区分语言沟通与衣冠制作，不把外表改变当成全部改革。 [NEAC-XIAOWEN-MUTUAL-INFLUENCE ; NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN] |
+| change | 听懂，才能一起商量：按问题选图，图文与声音同步回应 | 根据当前困难选择语言解释，理解改革涉及多方面。 [NEAC-XIAOWEN-MUTUAL-INFLUENCE ; NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN] |
+| takeaway | 变化不会在一天里完成：看图听完整短故事，再继续 | 孝文帝推行的规定有具体对象，生活习惯的改变更需要时间。人们也会互相学习衣着、音乐等办法。小伙伴发现：迁都与改革，和每天的交往一起带来变化。 [NEAC-XIAOWEN-MUTUAL-INFLUENCE ; NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN] |
 
-**家长接话：** 问“刚才是谁学谁？”让孩子体验双方学习，再联系迁都后的交往，不模仿或评比民族口音。
+**图片、文献与虚构边界：** 人物为教学角色，不是孝文帝或具体官员肖像。云冈为平城附近北魏遗存，今日照片不能当作当年新建状态；北朝陶俑用于观察服饰，不把它当改革前后成套对照，更不能从服装判断民族。改革规定与生活变化有对象和过程，不将任何人群评为先进或落后。
 
-**图像边界：** 人物为关系示意，不依服装猜民族身份。迁都与改革不能当作所有居民生活的统一照片。
+**亲子动作：** 在故事图中先找讲解文书的人，再找做衣服的人。 家人说“听不明白”“需要衣服”，你指不同帮手，再说还有哪些生活办法会互相学习。
+
+**家长接话：** 迁都和改革服务北魏加强统治、吸收中原制度文化，不是只为日常礼貌。儿童用北魏5世纪定位；洛阳地方史志分别记493年宣布筹建、494年迁都、495年朝廷用语规定。语言、服饰、姓氏等政策和日常双向影响分别解释，不模仿口音或评比人群高低。
+
+新故事图与实际提示词保存在 `reference-assets/three-kingdoms-jin-northern-southern/`、`docs/qa/2026-09-19-jin-northern-southern/`。原图保留，来源、许可与身份见素材登记。
+
+编辑核对（已补正）：洛阳市政府公开地方史志《大事记》PDF第103—104页区分493年宣布迁都并经营洛阳、494年迁都、495年朝廷用语规定。国博元羽墓志页的493年可对照迁都过程的开始；民委页面的490年不用于本轮纪年。儿童保留北魏5世纪定位，不考细年背诵；家长可查各节点。[LUOYANG-CHRONICLE-XIAOWEN]

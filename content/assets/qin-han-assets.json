@@ -80,7 +80,8 @@
     {
       "id": "qin-han-yumen-pass",
       "chapterIds": [
-        "cn-ancient-04-03-silk-road"
+        "cn-ancient-04-03-silk-road",
+        "cn-ancient-04-05-qin-great-wall"
       ],
       "title": "玉门关遗址现状照片",
       "localPath": "reference-assets/qin-han/yumen-pass.jpg",
@@ -90,10 +91,11 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
       "clearance": "cleared-open-license",
       "factSourceIds": [
-        "UNESCO-CHANGAN-TIANSHAN"
+        "UNESCO-CHANGAN-TIANSHAN",
+        "DHA-DUNHUANG-ARCHAEOLOGY-2023"
       ],
       "caption": "今天的玉门关遗址和周围戈壁景观。",
-      "notes": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。页面只把关隘作为交通网络节点。下载为1920像素等比例缩略图，未作其他修改。"
+      "notes": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。"
     },
     {
       "id": "qin-han-xuanquan-seal-tag",
@@ -128,7 +130,9 @@
       "clearance": "cleared-open-license",
       "factSourceIds": [
         "NMC-QIN-HAN-OVERVIEW",
-        "JIUSAN-CAILUN-PAPER"
+        "JIUSAN-CAILUN-PAPER",
+        "CSTM-ANCIENT-PAPER",
+        "NLC-EARLY-PAPER-BOOKS"
       ],
       "caption": "甘肃省博物馆展出的西汉纸张残片。",
       "notes": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。下载为1920像素等比例缩略图，未作其他修改。"
@@ -146,7 +150,8 @@
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "clearance": "cleared-open-license",
       "factSourceIds": [
-        "HUNAN-MAWANGDUI-SILK-BOOK"
+        "HUNAN-MAWANGDUI-SILK-BOOK",
+        "HKAMO-MAWANGDUI-YINYANG"
       ],
       "caption": "湖南博物院藏马王堆三号汉墓出土帛书《阴阳五行》。",
       "notes": "照片有玻璃反光和现代衬底。它用于观察帛书材料与残损状态，不把这篇帛书本身称为医学著作；马王堆医学材料和《导引图》另以馆方资料说明。下载为1920像素等比例缩略图，未作其他修改。"
@@ -282,6 +287,470 @@
       ],
       "caption": "黄衣小伙伴邀请红衣和绿衣伙伴一起量布，工匠在旁回应。",
       "notes": "现代虚构旅行故事插画，不作为秦代真实人物、服装、工坊或历史现场的证据；画面只承担角色叙事，真实铁权照片继续单独展示。 2026-09-14将绿衣小伙伴更新为与主页一致的中国现代儿童角色，保持空桌面与其他人物。 2026-09-14为区分两个男孩，绿衣小伙伴增加深棕圆框眼镜和齐刘海。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-wall-site-story-v1",
+      "chapterIds": [],
+      "title": "秦长城山脚工地故事插画",
+      "localPath": "reference-assets/qin-han/qin-wall-site-story-v1.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，使用 codex + gpt-6 image-gen 生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "UNESCO-GREAT-WALL",
+        "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+      ],
+      "caption": "小伙伴和无名工匠在山脚看两段中间有缺口的低矮旧墙。",
+      "notes": "现代故事插画，不是秦代现场、遗址照片或精确施工复原；旧墙段连接、关口与烽燧配合以登记史料为准。交互墙段由 app/ObjectWorkbench.tsx 的共用组件绘制，真实遗址另在证据入口展示。 v1留档：远景没有体现长墙蜿蜒，2026-09-14由v2替代进入游戏。",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "qin-wall-friends-reunion-v1",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "title": "三位小伙伴在山脚墙段旁分享发现的故事插画",
+      "localPath": "reference-assets/qin-han/qin-wall-friends-reunion-v1.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，使用 codex + gpt-6 image-gen 生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "UNESCO-GREAT-WALL",
+        "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+      ],
+      "caption": "黄衣、绿衣小伙伴和红衣伙伴在连起来的旧墙段前相聚。",
+      "notes": "现代虚构旅行故事插画，不作为秦代真实人物、服装、工地或历史现场的证据；画面只承担角色叙事。角色外形按 docs/CHARACTERS.md：黄衣翘短发、绿衣圆框眼镜齐刘海、红衣高马尾花发夹。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-wall-site-story-v2",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "title": "秦长城山脚工地故事插画（远景蜿蜒长墙版）",
+      "localPath": "reference-assets/qin-han/qin-wall-site-story-v2.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，使用 codex + gpt-6 image-gen 生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "UNESCO-GREAT-WALL",
+        "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+        "SHIJI-MENGTIAN"
+      ],
+      "caption": "小伙伴和无名工匠在山脚看蜿蜒到远方的旧墙和中间的缺口。",
+      "notes": "现代故事插画，不是秦代现场、遗址照片或精确施工复原；远景蜿蜒长墙帮助理解长城之长与沿山脊延伸。交互墙段由 app/ObjectWorkbench.tsx 的共用组件绘制，真实遗址另在证据入口展示。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "han-market-story-v1",
+      "chapterIds": [
+        "cn-ancient-04-02-han-governance"
+      ],
+      "title": "汉代集市钱摊故事插画",
+      "localPath": "reference-assets/qin-han/han-market-story-v1.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，使用 codex + gpt-6 image-gen 生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "NMC-WUZHU-COIN",
+        "NMC-QIN-HAN-OVERVIEW"
+      ],
+      "caption": "小伙伴和工匠在钱摊前看成串的铜钱。",
+      "notes": "现代故事插画，不是汉代现场复原；五铢钱身份与统一铸造以登记史料为准。交互钱串由共用组件绘制，真实文物另在证据入口展示。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "han-market-friends-reunion-v1",
+      "chapterIds": [
+        "cn-ancient-04-02-han-governance"
+      ],
+      "title": "三位小伙伴在集市钱摊前分享发现的故事插画",
+      "localPath": "reference-assets/qin-han/han-market-friends-reunion-v1.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，使用 codex + gpt-6 image-gen 生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "NMC-WUZHU-COIN",
+        "NMC-QIN-HAN-OVERVIEW"
+      ],
+      "caption": "三位小伙伴与工匠在集市钱摊前相聚。",
+      "notes": "现代虚构旅行故事插画，只承担角色叙事；角色外形按 docs/CHARACTERS.md。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "silk-post-story-v1",
+      "chapterIds": [
+        "cn-ancient-04-03-silk-road"
+      ],
+      "title": "戈壁驿站备粮故事插画",
+      "localPath": "reference-assets/qin-han/silk-post-story-v1.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，使用 codex + gpt-6 image-gen 生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "NMC-SILK-ROAD-EXHIBITION",
+        "UNESCO-CHANGAN-TIANSHAN",
+        "NEAC-XUANQUAN-POST"
+      ],
+      "caption": "小伙伴和工匠在驿站院子里为远行人收拾行囊。",
+      "notes": "现代故事插画，不是汉代驿站复原；张骞出使与驿站功能以登记史料为准。交互粮袋由共用组件绘制。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "silk-post-friends-reunion-v1",
+      "chapterIds": [
+        "cn-ancient-04-03-silk-road"
+      ],
+      "title": "三位小伙伴在驿站外送行的故事插画",
+      "localPath": "reference-assets/qin-han/silk-post-friends-reunion-v1.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，使用 codex + gpt-6 image-gen 生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "NMC-SILK-ROAD-EXHIBITION",
+        "UNESCO-CHANGAN-TIANSHAN",
+        "NEAC-XUANQUAN-POST"
+      ],
+      "caption": "三位小伙伴与工匠在驿站外为远行人送行。",
+      "notes": "现代虚构旅行故事插画，只承担角色叙事；角色外形按 docs/CHARACTERS.md。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "han-paper-workshop-story-v1",
+      "chapterIds": [
+        "cn-ancient-04-04-han-knowledge"
+      ],
+      "title": "汉代造纸工坊故事插画",
+      "localPath": "reference-assets/qin-han/han-paper-workshop-story-v1.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，使用 codex + gpt-6 image-gen 生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "JIUSAN-CAILUN-PAPER",
+        "NMC-QIN-HAN-OVERVIEW"
+      ],
+      "caption": "小伙伴和工匠在造纸工坊看木框纸浆和晾纸架。",
+      "notes": "现代故事插画，不是汉代作场复原；造纸步骤图是学习示意，不声称复原蔡伦工艺。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "han-paper-friends-reunion-v1",
+      "chapterIds": [
+        "cn-ancient-04-04-han-knowledge"
+      ],
+      "title": "三位小伙伴在晾纸架前分享发现的故事插画",
+      "localPath": "reference-assets/qin-han/han-paper-friends-reunion-v1.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，使用 codex + gpt-6 image-gen 生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "JIUSAN-CAILUN-PAPER",
+        "NMC-QIN-HAN-OVERVIEW"
+      ],
+      "caption": "三位小伙伴与工匠在晾纸架前相聚。",
+      "notes": "现代虚构旅行故事插画，只承担角色叙事；角色外形按 docs/CHARACTERS.md。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-han-jinshanling-panorama",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "title": "金山岭明长城全景照片",
+      "localPath": "reference-assets/qin-han/jinshanling-panorama.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+      "author": "Severin.stalder；色彩编辑 Brandmeister",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "clearance": "cleared-open-license",
+      "factSourceIds": [
+        "HEBEI-WENWU-JINSHANLING",
+        "UNESCO-GREAT-WALL"
+      ],
+      "caption": "金山岭长城沿山脊蜿蜒的全景。金山岭为明代修建段，比秦朝晚很多。",
+      "notes": "照片用于展示长城沿山脊延伸的形态。金山岭为明代墙段，不冒充秦长城。采用Commons的edit版本：原摄影Severin.stalder，Brandmeister降低蓝色饱和度；本项目仅等比例缩小，未重画照片。作者、编辑与CC BY-SA 3.0许可已核对原文件页。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-wall-teamwork-story-v1",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "title": "修墙者运石、垒墙的协作故事插画",
+      "localPath": "reference-assets/qin-han/qin-wall-teamwork-story-v1.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，内置imagegen辅助生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "GUYANG-GOV-QIN-WALL-STRUCTURES",
+        "UNESCO-GREAT-WALL"
+      ],
+      "caption": "小伙伴观察成年人运料与垒墙，展示修筑需要多人协作。",
+      "notes": "虚构教学插画；不作为秦代工人身份、服装、工具、精确施工工艺或某段遗址原貌的证据。孩子只观察，画面示意石料逐层垒放，真实材料依据另列。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-wall-guard-story-v1",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "title": "长城关口与守卫观察的故事插画",
+      "localPath": "reference-assets/qin-han/qin-wall-guard-story-v1.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，内置imagegen辅助生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "UNESCO-GREAT-WALL",
+        "SH-LHS-ANCIENT-DEFENCE-POSTS"
+      ],
+      "caption": "小伙伴观察有人看守的关口和高处的守卫，理解城墙与人配合防御。",
+      "notes": "虚构教学插画，不是秦代现场、军服或建筑复原。画面只表达墙体阻挡、通道有人看守、守卫观察远处的关系，不呈现具体战斗或传信信号。原运料插画保留。生成1次后局部修正瞭望守卫多余手臂1次；提示词与结果见docs/qa/2026-09-15-wall-purpose/。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-han-jinshanling-walkway",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "title": "金山岭至司马台明长城墙顶与台阶照片",
+      "localPath": "reference-assets/qin-han/jinshanling-walkway.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Greatwall-SA2.jpg",
+      "author": "Saad Akhtar",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "clearance": "cleared-open-license",
+      "factSourceIds": [
+        "HEBEI-WENWU-JINSHANLING",
+        "UNESCO-GREAT-WALL"
+      ],
+      "caption": "墙顶的通道、台阶与两侧墙体。",
+      "notes": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-han-jinshanling-tower-detail",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "title": "金山岭至司马台明长城城楼内部照片",
+      "localPath": "reference-assets/qin-han/jinshanling-tower-close.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ruins_of_the_guard_tower.jpg",
+      "author": "Saad Akhtar",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "clearance": "cleared-open-license",
+      "factSourceIds": [
+        "HEBEI-WENWU-JINSHANLING",
+        "UNESCO-GREAT-WALL"
+      ],
+      "caption": "不完整城楼内部的空间与拱形洞口。",
+      "notes": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-han-han-wall-detail",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "title": "玉门关附近汉长城墙体与高台遗址照片",
+      "localPath": "reference-assets/qin-han/han-wall-detail.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Site_of_Han_Dynasty_Great_Wall_at_Yumenguan_(20230917105206).jpg",
+      "author": "N509FZ",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "clearance": "cleared-open-license",
+      "factSourceIds": [
+        "DHA-DUNHUANG-ARCHAEOLOGY-2023",
+        "GSWB-HAN-WALL-LAYERS-2023"
+      ],
+      "caption": "汉代土筑墙体的分层纹理与远处高台遗迹。",
+      "notes": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-han-yumen-pass-close",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "title": "玉门关遗址小方盘城近景照片",
+      "localPath": "reference-assets/qin-han/yumen-pass-close.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dunhuang.yumenguan.jpg",
+      "author": "Popolon",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "clearance": "cleared-open-license",
+      "factSourceIds": [
+        "DHA-DUNHUANG-ARCHAEOLOGY-2023",
+        "UNESCO-CHANGAN-TIANSHAN"
+      ],
+      "caption": "小方盘城的土墙转角和门洞。",
+      "notes": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-han-jinshanling-towers-reference",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "title": "金山岭明长城城楼序列参考照片",
+      "localPath": "reference-assets/qin-han/jinshanling-tower.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20090529_Great_Wall_8159.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "clearance": "cleared-open-license",
+      "factSourceIds": [
+        "HEBEI-WENWU-JINSHANLING"
+      ],
+      "caption": "沿山脊相连的墙体和城楼；候选取景与全景重复，本轮未进入儿童相册。",
+      "notes": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。仅作编辑选片参考，不进入儿童页面。",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "qin-han-han-wall-sign-reference",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "title": "敦煌汉长城遗址与现代标识石参考照片",
+      "localPath": "reference-assets/qin-han/dunhuang-han-wall.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%95%A6%E7%85%8C%E6%B1%89%E9%95%BF%E5%9F%8E%E9%81%97%E5%9D%80.JPG",
+      "author": "Kunwang1990",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "clearance": "cleared-open-license",
+      "factSourceIds": [
+        "DHA-DUNHUANG-ARCHAEOLOGY-2023",
+        "GSWB-HAN-WALL-LAYERS-2023"
+      ],
+      "caption": "现代标识石占据前景，本轮改选墙体更清楚的照片。",
+      "notes": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。仅作编辑选片参考，不进入儿童页面。",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "han-wuzhu-stone-mould",
+      "chapterIds": [
+        "cn-ancient-04-02-han-governance"
+      ],
+      "title": "西汉五铢石范实物照片",
+      "localPath": "reference-assets/qin-han/han-wuzhu-stone-mould.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Coin_Mould_in_Shanghai_Museum_03_2014-07.JPG",
+      "author": "猫猫的日记本",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "clearance": "cleared-open-license",
+      "factSourceIds": [
+        "SHM-WUZHU-STONE-MOULD-LABEL",
+        "NMC-HAN-WUZHU-REFORM"
+      ],
+      "caption": "西汉五铢石范｜上海博物馆展出｜摄影 猫猫的日记本｜CC BY-SA 4.0。",
+      "notes": "2014年参观照片；原文件保留，运行图只等比例缩小、格式压缩。照片中馆方展签清楚标为“五铢石范 西汉”。可观察钱腔轮廓，不能认定它来自上林三官或展示全部铸造工序。不是秦半两钱范，也不是博物馆官方摄影。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "han-mint-workshop-v1",
+      "chapterIds": [
+        "cn-ancient-04-02-han-governance"
+      ],
+      "title": "汉朝铸钱工坊与核对工具故事插画",
+      "localPath": "reference-assets/qin-han/han-mint-workshop-v1.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，使用内置 image_gen 生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "NMC-HAN-WUZHU-REFORM",
+        "NMC-WUZHU-COIN",
+        "SHM-WUZHU-STONE-MOULD-LABEL"
+      ],
+      "caption": "小伙伴与工匠观察钱范和称量工具；现代教学故事插画。",
+      "notes": "沿用黄衣翘发男孩与青衣成人。真实石范只用于形态参考；天平为解释轻重核对的简化学具，不声称本图是上林三官工坊复原或每枚钱出厂必经该场景。钱币不生成伪铭文。实际提示词存于 docs/qa/2026-09-18-han-wuzhu/mint-art-prompt-v2.txt。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "silk-post-messages-v2",
+      "chapterIds": [
+        "cn-ancient-04-03-silk-road"
+      ],
+      "title": "汉代驿站文书与补给故事插画",
+      "localPath": "reference-assets/qin-han/silk-post-messages-v2.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，内置 image_gen 生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "NMC-ZHANG-QIAN-MISSIONS",
+        "NMC-SILK-ROAD-EXHIBITION",
+        "UNESCO-CHANGAN-TIANSHAN",
+        "NEAC-XUANQUAN-POST",
+        "DHA-HEXI-GATES-CHRONOLOGY"
+      ],
+      "caption": "小伙伴观察驿站的文书整理和旅途补给。",
+      "notes": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/silk-post-messages-v2-prompt.txt。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "han-paper-materials-v2",
+      "chapterIds": [
+        "cn-ancient-04-04-han-knowledge"
+      ],
+      "title": "树皮旧网与书写材料故事插画",
+      "localPath": "reference-assets/qin-han/han-paper-materials-v2.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，内置 image_gen 生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "CSTM-ANCIENT-PAPER",
+        "NLC-EARLY-PAPER-BOOKS"
+      ],
+      "caption": "小伙伴寻找史料中记载的造纸原料。",
+      "notes": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/han-paper-materials-v2-prompt.txt。 竹木简形态不准确，v3已修正，本版仅编辑留档。",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "han-paper-materials-v3",
+      "chapterIds": [
+        "cn-ancient-04-04-han-knowledge"
+      ],
+      "title": "树皮旧网与书写材料故事插画",
+      "localPath": "reference-assets/qin-han/han-paper-materials-v3.png",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目，内置 image_gen 生成",
+      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "CSTM-ANCIENT-PAPER",
+        "NLC-EARLY-PAPER-BOOKS"
+      ],
+      "caption": "小伙伴寻找史料中记载的造纸原料。",
+      "notes": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/han-paper-materials-v3-prompt.txt。 局部修正竹木简为薄平简片编成的册，不再像圆木棍；其余原料、角色和构图保持。",
       "childVisibility": "child-ok"
     }
   ],

@@ -32,6 +32,7 @@ let voiceLineByText;
 
 function registerVoiceLine(text, preferredId = null) {
   const normalized = text.replace(/\s+/g, " ").trim();
+  if (!normalized) throw new Error("不能登记空语音：请补齐源稿中的引导或回应，再生成声音");
   const existingByText = voiceLineByText.get(normalized);
   if (existingByText) return existingByText;
   const id = preferredId ?? `quest-${createHash("sha1").update(normalized).digest("hex").slice(0, 16)}`;
@@ -763,7 +764,7 @@ function addAsset(chapterId, asset, usage, boundary) {
       license: asset.license ?? null,
       clearance: asset.clearance,
       caption: (asset.caption ?? usage)?.trim() || asset.title || asset.objectName || "章节登记图片",
-      boundary: (asset.notes ?? boundary)?.trim() || "只用于观察图片中可见的物件、地点或艺术表现；不能由单张图推出人物动机、完整过程或所有人的生活。",
+      boundary: (asset.boundary ?? asset.notes ?? boundary)?.trim() || "只用于观察图片中可见的物件、地点或艺术表现；不能由单张图推出人物动机、完整过程或所有人的生活。",
       childVisibility: asset.childVisibility ?? "child-ok",
     });
   }
@@ -866,6 +867,10 @@ for (const [catalogIndex, catalog] of catalogs.entries()) {
     });
     if (gameplay.steps.length !== 5) throw new Error(`${chapter.id} 核心关卡不是5步`);
     for (const gameStep of gameplay.steps) {
+      const lookListen = gameStep.interaction?.kind === "look-listen";
+      const sceneFind = gameStep.interaction?.kind === "scene-find" && gameStep.interaction.rounds?.length > 0;
+      const historyLab = gameStep.interaction?.kind === "history-lab" && gameStep.interaction.lab?.stages?.length > 0;
+      if ((lookListen || sceneFind || historyLab) && gameStep.options.length === 0) continue;
       if (gameStep.options.length !== (focused ? 2 : 3) || gameStep.options.filter((option) => option.correct).length !== 1) {
         throw new Error(`${chapter.id} 的 ${gameStep.id} 选项结构无效`);
       }

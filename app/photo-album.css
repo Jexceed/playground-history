@@ -1,0 +1,26 @@
+.photo-album-button { display:flex; align-items:center; gap:14px; width:100%; min-height:78px; margin-top:16px; padding:12px 14px; border:2px solid #d8cfad; border-radius:16px; background:#fffdf4; color:#345d50; text-align:left; cursor:pointer; }
+.photo-album-button:hover { border-color:#5d8a70; background:#f3f6e9; }
+.photo-album-previews { display:flex; flex-shrink:0; padding-left:0; }
+.photo-album-previews :is(img,svg) { width:52px; height:48px; border:2px solid #fff; border-radius:5px; object-fit:cover; box-shadow:0 2px 4px #324b3426; }
+.photo-album-previews >*+* { margin-left:-17px; }
+.photo-album-button strong { display:block; font-size:18px; line-height:1.4; }
+.photo-album-button small { display:block; margin-top:4px; font-size:12px; color:#7a826b; }
+.photo-album-open { margin-left:auto; font-size:24px; }
+.photo-album-visual { grid-template-rows:minmax(0,1fr) auto; gap:12px; background:none; }
+.photo-album-visual figure { display:grid; grid-template-rows:minmax(0,1fr) auto; background:#f2eee5; border-radius:12px; }
+.photo-album-visual figcaption { position:static; margin:0; padding:9px 12px; border-radius:0; background:#e8e3cf; color:#355646; font-size:13px; }
+.photo-album-thumbnails { display:grid; grid-auto-flow:column; grid-auto-columns:minmax(0,1fr); gap:8px; }
+.photo-album-thumbnails button { min-width:0; padding:4px; border:3px solid transparent; border-radius:10px; color:#546656; background:#eee9d9; cursor:pointer; }
+.photo-album-thumbnails button[aria-pressed="true"] { border-color:#3d7b68; color:#245544; background:#e2efdd; }
+.photo-album-thumbnails button :is(img,svg) { width:100%; height:58px; object-fit:cover; border-radius:4px; }
+.photo-album-thumbnails span { display:block; margin-top:4px; font-size:13px; font-weight:750; }
+.photo-album-dialog .image-lightbox-copy { justify-content:center; }
+.photo-album-dialog .image-lightbox-copy:has(.image-evidence-boundary[open]) { justify-content:flex-start; }
+.photo-album-period { align-self:flex-start; margin:12px 0 4px; padding:6px 12px; border-radius:18px; background:#e4ecdc; color:#416a54; font-size:16px; font-weight:750; }
+.photo-album-dialog .image-lightbox-copy h2 { font-size:34px; line-height:1.25; margin:10px 0 16px; }
+.photo-album-dialog .image-lightbox-copy >p { font-size:21px; line-height:1.65; font-weight:650; }
+.photo-album-pager { display:flex; gap:10px; margin-top:24px; }
+.photo-album-pager button { flex:1; min-height:48px; padding:8px 12px; border:2px solid #aebfa6; border-radius:12px; color:#2c6656; background:#edf1e4; font-size:17px; font-weight:750; cursor:pointer; }
+.photo-album-pager button:disabled { opacity:.35; cursor:default; }
+
+.image-lightbox-visual figure > .photo-crop { display:block; width:100%; height:100%; }

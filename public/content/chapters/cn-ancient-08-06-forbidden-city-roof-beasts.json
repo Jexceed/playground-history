@@ -15,18 +15,18 @@
   "throughline": "从1420年前后紫禁城基本建成定位，抬头观察屋脊、骑凤仙人与十只脊兽，再把太和殿放回整座宫城；说明现存建筑经过重建和维修。",
   "childEntry": {
     "id": "cn-ancient-08-06-forbidden-city-roof-beasts",
-    "childTitle": "屋顶小兽怎样排队",
-    "prompt": "太和殿屋顶的领队，算不算那十只小兽？",
-    "takeaway": "太和殿檐角有骑凤仙人领队，后面排列十只走兽；它们属于建筑构件与装饰，不是活着的守卫。",
+    "childTitle": "故宫屋脊的小兽，只是装饰吗？",
+    "prompt": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？",
+    "takeaway": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。",
     "object": "太和殿屋脊、骑凤仙人与十只脊兽",
     "people": [
-      "古建筑工匠",
-      "太和殿屋顶小兽"
+      "明清宫殿的工匠",
+      "今天的观察者"
     ],
     "place": "北京故宫太和殿",
     "culture": "宫殿建筑与屋脊装饰",
-    "care": "队列图只示意一个檐角的领队加十只走兽，简化外形而不伪造每只兽的精确雕塑样式。",
-    "preferredAssetId": "taihe-hall-ten-roof-beasts-current-photo",
+    "care": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
+    "preferredAssetId": "ming-roof-learning-v1",
     "playableSource": "content/focused-quests.json"
   },
   "textbookConnection": {
@@ -34,9 +34,9 @@
     "featured": {
       "type": "地点",
       "icon": "🐉",
-      "title": "古建筑工匠与太和殿屋顶小兽",
-      "childBridge": "太和殿屋顶的领队，算不算那十只小兽？",
-      "evidenceBoundary": "队列图只示意一个檐角的领队加十只走兽，简化外形而不伪造每只兽的精确雕塑样式。"
+      "title": "明清宫殿的工匠与今天的观察者",
+      "childBridge": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？",
+      "evidenceBoundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。"
     },
     "companions": [
       {
@@ -58,39 +58,40 @@
     "sourceIds": [
       "DPM-TAIHE-ROOF-BEASTS",
       "UNESCO-FORBIDDEN-CITY",
-      "PEP-HISTORY-7B-2026-TRIAL"
+      "PEP-HISTORY-7B-2026-TRIAL",
+      "DPM-YOUNG-ROOF"
     ]
   },
   "childStory": [
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "宫殿和照片的时间",
-      "text": "北京宫殿在明代1420年建成。太和殿后来多次重建，今天照片不是1420年的现场。"
+      "label": "从真实材料走进明朝",
+      "text": "北京宫殿在明朝1420年建成，后来多次维修重建。照片里的太和殿，是清代重建后的形制。我们先回到明朝建宫殿的时候，再看今天留下的小兽。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "找到最前面的领队",
-      "text": "看檐角队伍：最前面是骑着凤的仙人，后面跟着小兽。先找领队的位置。"
+      "label": "小兽像帽子，也装点屋脊",
+      "text": "古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "十只小兽从哪里数",
-      "text": "太和殿的十只走兽，指领队后面的那一队，不把骑凤仙人算进十只。"
+      "label": "照片里，谁在队伍前面",
+      "text": "照片最前面是骑凤仙人，后面才是十只走兽。仙人雕像不算走兽。先找队伍前面的仙人，再找跟在后面的一排小兽。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "它们怎样留在屋顶",
-      "text": "小兽是建筑构件与装饰，也与固定屋面部件有关。它们不会像动物一样自己走动。"
+      "label": "给固定处戴上一顶小兽帽",
+      "text": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "给小兽小队拍说明",
-      "text": "不同建筑的走兽数量和形制可能不同。不能把太和殿这一队套到所有屋顶。"
+      "label": "同一座宫殿，也会发生变化",
+      "text": "明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。"
     }
   ],
   "glossary": [
@@ -127,13 +128,27 @@
     "hook": {
       "kind": "具体任务",
       "icon": "🔎",
-      "label": "屋顶小兽怎样排队",
-      "question": "太和殿屋顶的领队，算不算那十只小兽？"
+      "label": "故宫屋脊的小兽，只是装饰吗？",
+      "question": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？"
     },
-    "cta": "去数屋脊小队",
-    "anchor": "古建筑工匠与太和殿屋顶小兽",
-    "boundary": "队列图只示意一个檐角的领队加十只走兽，简化外形而不伪造每只兽的精确雕塑样式。",
+    "cta": "抬头找找屋脊的小兽",
+    "anchor": "明清宫殿的工匠与今天的观察者",
+    "boundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
     "evidence": [
+      {
+        "id": "forbidden-city-hall-current-photo",
+        "title": "故宫太和殿区域现状照片",
+        "localPath": "reference-assets/ming-qing/hall-supreme-harmony-current.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_Forbidden_City.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY 3.0 PL",
+        "clearance": "cleared-open-license",
+        "caption": "今天北京故宫太和殿区域的现状照片。",
+        "boundary": "2009年现状照片，有现代游客。北京宫殿1420年建成与明朝1368年建立不是同一事件；今天太和殿为清康熙重建后的形制，用于举行盛大典礼，不能把此图当洪武办公现场。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/forbidden-city-hall-current-photo.jpg"
+      },
       {
         "id": "taihe-hall-ten-roof-beasts-current-photo",
         "title": "太和殿屋脊十只脊兽现状照片",
@@ -144,64 +159,215 @@
         "license": "CC BY-SA 3.0",
         "clearance": "cleared-open-license",
         "caption": "今天太和殿屋脊上的十只脊兽与骑凤仙人。",
-        "boundary": "照片拍摄于2014年，只展示经过历代维修后的现状与一个观察角度；脊兽顺序和建筑意义以故宫资料核验，不让儿童仅凭照片给每只动物强行命名。原图4000×3000像素。",
+        "boundary": "2014年现状照片，现存太和殿为清康熙重建形制；十只走兽不含骑凤仙人，也不含后面的大构件。儿童局部观察保留原图入口，不要求逐一认出兽名。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/taihe-hall-ten-roof-beasts-current-photo.jpg"
       }
     ],
+    "photoAlbum": {
+      "id": "taihe-roof-context",
+      "title": "从整座太和殿看到屋脊",
+      "label": "看看整座建筑与屋脊细节",
+      "photos": [
+        {
+          "assetId": "forbidden-city-hall-current-photo",
+          "title": "故宫太和殿区域现状照片",
+          "label": "整座太和殿",
+          "period": "明代始建 · 清代重建形制 · 2009年照片",
+          "observation": "先看宫殿，再找屋顶的四个角。",
+          "narration": "太和殿用于举行盛大典礼。今天看到的形制来自清代重建，照片还拍到了现代游客。",
+          "sourceIds": [
+            "DPM-TAIHE-ROOF-BEASTS",
+            "DPM-YOUNG-ROOF"
+          ],
+          "sourceLinks": [
+            {
+              "title": "故宫博物院：太和殿：建筑、重建与檐角走兽",
+              "url": "https://www.dpm.org.cn/show/225724.html"
+            },
+            {
+              "title": "故宫博物院青少网站：太和殿屋脊上的神兽",
+              "url": "https://young.dpm.org.cn/info/646"
+            },
+            {
+              "title": "照片与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_Forbidden_City.jpg"
+            }
+          ],
+          "boundary": "2009年现状照片，有现代游客。北京宫殿1420年建成与明朝1368年建立不是同一事件；今天太和殿为清康熙重建后的形制，用于举行盛大典礼，不能把此图当洪武办公现场。",
+          "image": "/content/step-images/forbidden-city-hall-current-photo.jpg",
+          "caption": "今天北京故宫太和殿区域的现状照片。",
+          "audio": {
+            "id": "quest-7a45750a2209aaba",
+            "text": "太和殿用于举行盛大典礼。今天看到的形制来自清代重建，照片还拍到了现代游客。"
+          }
+        },
+        {
+          "assetId": "taihe-hall-ten-roof-beasts-current-photo",
+          "title": "太和殿屋脊十只脊兽现状照片",
+          "label": "屋脊小兽",
+          "period": "清代重建形制 · 2014年照片",
+          "observation": "骑凤仙人在前，后面跟着走兽。",
+          "narration": "这张照片让我们仔细看仙人与走兽。十只走兽不含最前的骑凤仙人，也不含后面的大构件。",
+          "sourceIds": [
+            "DPM-TAIHE-ROOF-BEASTS",
+            "DPM-YOUNG-ROOF"
+          ],
+          "sourceLinks": [
+            {
+              "title": "故宫博物院：太和殿：建筑、重建与檐角走兽",
+              "url": "https://www.dpm.org.cn/show/225724.html"
+            },
+            {
+              "title": "故宫博物院青少网站：太和殿屋脊上的神兽",
+              "url": "https://young.dpm.org.cn/info/646"
+            },
+            {
+              "title": "照片与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:太和殿的脊獸.JPG"
+            }
+          ],
+          "boundary": "2014年现状照片，现存太和殿为清康熙重建形制；十只走兽不含骑凤仙人，也不含后面的大构件。儿童局部观察保留原图入口，不要求逐一认出兽名。",
+          "image": "/content/step-images/taihe-hall-ten-roof-beasts-current-photo.jpg",
+          "caption": "今天太和殿屋脊上的十只脊兽与骑凤仙人。",
+          "audio": {
+            "id": "quest-c036a0276acb7eb3",
+            "text": "这张照片让我们仔细看仙人与走兽。十只走兽不含最前的骑凤仙人，也不含后面的大构件。"
+          }
+        }
+      ]
+    },
     "coverAsset": {
-      "id": "taihe-hall-ten-roof-beasts-current-photo",
-      "title": "太和殿屋脊十只脊兽现状照片",
-      "localPath": "reference-assets/ming-qing/taihe-hall-roof-beasts.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:太和殿的脊獸.JPG",
+      "id": "ming-roof-learning-v1",
+      "title": "屋脊构件学习模型故事图",
+      "localPath": "reference-assets/ming-qing/ming-roof-learning-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
       "licensePath": null,
-      "license": "CC BY-SA 3.0",
-      "clearance": "cleared-open-license",
-      "caption": "今天太和殿屋脊上的十只脊兽与骑凤仙人。",
-      "boundary": "照片拍摄于2014年，只展示经过历代维修后的现状与一个观察角度；脊兽顺序和建筑意义以故宫资料核验，不让儿童仅凭照片给每只动物强行命名。原图4000×3000像素。",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/taihe-hall-ten-roof-beasts-current-photo.jpg"
+      "image": "/content/step-images/ming-roof-learning-v1.jpg"
     },
-    "presentation": null,
-    "sceneAsset": null,
-    "narrativeAssets": [],
-    "coverImage": "/content/step-images/taihe-hall-ten-roof-beasts-current-photo.jpg",
-    "coverImageAlt": "太和殿屋脊十只脊兽现状照片",
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "ming-roof-learning-v1",
+      "sceneAlt": "故宫屋脊的小兽，只是装饰吗？的儿童故事插画",
+      "title": "故宫屋脊的小兽，只是装饰吗？",
+      "evidenceTitle": "故宫太和殿区域现状照片",
+      "evidenceLine": "真实材料与故事插画分别看。",
+      "evidenceNarration": "先看太和殿整座建筑，再到相册看屋脊。北京宫殿明代建成，眼前太和殿的形制来自清代重建。",
+      "guide": "听听问题，点图回答。",
+      "alignHint": "",
+      "familyHint": "回看图里的线索，再和家人说说发现。",
+      "familyLabel": "和家人回看今天的发现",
+      "familyMode": "actions",
+      "nextLabel": "继续看故事",
+      "lastLabel": "把发现带回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "ming-friends-reunion-v1",
+        "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
+        "reunionAspectRatio": 1.82,
+        "coverCaption": "故宫屋脊的小兽，只是装饰吗？",
+        "coverNarration": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？",
+        "stationLine": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
+        "stationNarration": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
+        "closingCaption": "带着发现回家",
+        "closingNarration": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。",
+        "closingLine": "小兽有用途，建筑也有自己的历史。",
+        "fictionNote": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
+        "reunionFit": "contain",
+        "reunionImage": "/content/step-images/ming-friends-reunion-v1.jpg",
+        "stationAudio": {
+          "id": "quest-85f0f7da351bfce2",
+          "text": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。"
+        },
+        "closingAudio": {
+          "id": "quest-5dc0981bbf2d2d40",
+          "text": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。"
+        }
+      },
+      "sceneImage": "/content/step-images/ming-roof-learning-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-edcdaafa14e2b850",
+        "text": "先看太和殿整座建筑，再到相册看屋脊。北京宫殿明代建成，眼前太和殿的形制来自清代重建。"
+      },
+      "guideAudio": {
+        "id": "quest-556f5af30cc82d77",
+        "text": "听听问题，点图回答。"
+      }
+    },
+    "sceneAsset": {
+      "id": "ming-roof-learning-v1",
+      "title": "屋脊构件学习模型故事图",
+      "localPath": "reference-assets/ming-qing/ming-roof-learning-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/ming-roof-learning-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "ming-friends-reunion-v1",
+        "title": "三位小伙伴回看明朝发现的手册插画",
+        "localPath": "reference-assets/ming-qing/ming-friends-reunion-v1.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史照片。",
+        "boundary": "现代旅行手册回顾图，图中小画是新绘的学习线索，不是历史照片、原稿或精确机械图。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/ming-friends-reunion-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/ming-roof-learning-v1.jpg",
+    "coverImageAlt": "屋脊构件学习模型故事图",
     "coverImageKind": "历史材料",
     "coverAudio": {
-      "id": "quest-fcafda4de45f5b11",
-      "text": "屋顶小兽怎样排队。太和殿屋顶的领队，算不算那十只小兽？准备好就点“去数屋脊小队”。"
+      "id": "quest-650818f53cddca93",
+      "text": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-ae9854068454d84d",
-      "text": "太和殿檐角有骑凤仙人领队，后面排列十只走兽；它们属于建筑构件与装饰，不是活着的守卫。"
+      "id": "quest-5dc0981bbf2d2d40",
+      "text": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。"
     },
     "finish": {
-      "title": "带家人认一队屋顶小兽",
+      "title": "小兽有用途，建筑也有自己的历史。",
       "actions": [
-        "先指骑凤仙人，说“这是领队”。",
-        "从后面第一只兽开始，和家人慢慢指着数，不必背兽名。"
+        "先在真图里指出仙人和走兽，再说出小兽曾有的一种用途。",
+        "把一张纸轻轻盖在桌上的小积木上，演示“遮护”，再说这只是学习模型。"
       ],
-      "parent": "重点区分领队与走兽。不要求四岁孩子独立数到十；家长可逐一念数。保持地面观察，不模仿爬屋顶。",
+      "parent": "礼制讨论限建筑用途与构件规制，不给人物或人群排高低；不把小兽神话功能当物理事实。",
       "sceneStepIndexes": [
-        1,
-        2
+        2,
+        3
       ],
       "actionAudio": [
         {
-          "id": "quest-c07dc4cdf7721788",
-          "text": "先指骑凤仙人，说“这是领队”。"
+          "id": "quest-8ac599cb617d4091",
+          "text": "先在真图里指出仙人和走兽，再说出小兽曾有的一种用途。"
         },
         {
-          "id": "quest-b8183f646d1e79e7",
-          "text": "从后面第一只兽开始，和家人慢慢指着数，不必背兽名。"
+          "id": "quest-73b33a30b8016b4e",
+          "text": "把一张纸轻轻盖在桌上的小积木上，演示“遮护”，再说这只是学习模型。"
         }
       ],
       "introAudio": {
-        "id": "quest-4f11cfd14a7ba5d8",
-        "text": "带家人认一队屋顶小兽。先指骑凤仙人，说“这是领队”。从后面第一只兽开始，和家人慢慢指着数，不必背兽名。"
+        "id": "quest-5dc0981bbf2d2d40",
+        "text": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。"
       }
     },
     "estimatedMinutes": 6,
@@ -214,82 +380,146 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "宫殿和照片的时间",
-        "title": "宫殿和照片的时间",
-        "prompt": "哪条先后合适？",
-        "rightNote": "先有营建历史，后有修建与今天拍摄，不能混成一刻。",
-        "wrongNote": "先有营建历史，后有修建与今天拍摄，不能混成一刻。",
+        "phase": "从真实材料走进明朝",
+        "title": "从真实材料走进明朝",
+        "prompt": "北京宫殿1420年建成，在哪一朝？",
+        "rightNote": "从明代始建，再看到清代重建后的样子。",
+        "wrongNote": "清代重建在后，1420年建成在明朝。",
         "sourceIds": [
           "DPM-TAIHE-ROOF-BEASTS",
           "UNESCO-FORBIDDEN-CITY"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听听问题，看看图里的线索。"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "从真实材料走进明朝",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "从明代始建，再看到清代重建后的样子。",
+          "retry": "清代重建在后，1420年建成在明朝。",
+          "nextLabel": "听听小兽为什么上屋顶",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "forbidden-city-hall-current-photo",
+          "title": "故宫太和殿区域现状照片",
+          "localPath": "reference-assets/ming-qing/hall-supreme-harmony-current.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_Forbidden_City.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY 3.0 PL",
+          "clearance": "cleared-open-license",
+          "caption": "明代始建 · 太和殿为清代重建形制",
+          "boundary": "2009年现状照片，有现代游客。北京宫殿1420年建成与明朝1368年建立不是同一事件；今天太和殿为清康熙重建后的形制，用于举行盛大典礼，不能把此图当洪武办公现场。 今天北京故宫太和殿区域的现状照片。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/forbidden-city-hall-current-photo.jpg",
+          "label": "点开真材料，听听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 290,
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "故宫博物院：太和殿：建筑、重建与檐角走兽",
+              "url": "https://www.dpm.org.cn/show/225724.html"
+            },
+            {
+              "title": "UNESCO World Heritage Centre：Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+              "url": "https://whc.unesco.org/en/list/439/"
+            },
+            {
+              "title": "图像原始文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_Forbidden_City.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-edcdaafa14e2b850",
+            "text": "先看太和殿整座建筑，再到相册看屋脊。北京宫殿明代建成，眼前太和殿的形制来自清代重建。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "宫殿和照片的时间",
-          "screenText": "北京宫殿在明代1420年建成。太和殿后来多次重建，今天照片不是1420年的现场。",
-          "displayText": "北京宫殿在明代1420年建成。太和殿后来多次重建，今天照片不是1420年的现场。",
-          "narration": "北京宫殿在明代1420年建成。太和殿后来多次重建，今天照片不是1420年的现场。"
+          "title": "从真实材料走进明朝",
+          "screenText": "北京宫殿在明朝1420年建成，后来多次维修重建。照片里的太和殿，是清代重建后的形制。我们先回到明朝建宫殿的时候，再看今天留下的小兽。",
+          "displayText": "北京宫殿在明朝1420年建成，后来多次维修重建。照片里的太和殿，是清代重建后的形制。我们先回到明朝建宫殿的时候，再看今天留下的小兽。",
+          "narration": "北京宫殿在明朝1420年建成，后来多次维修重建。照片里的太和殿，是清代重建后的形制。我们先回到明朝建宫殿的时候，再看今天留下的小兽。"
         },
-        "assetId": "study-e5c66de42a942d7f",
-        "image": "/content/study-scenes/study-e5c66de42a942d7f.svg",
-        "studyImage": "/content/study-scenes/study-e5c66de42a942d7f.svg",
-        "studyImageAlt": "明 1420年，后来重建，今天照片",
-        "imageAlt": "明 1420年，后来重建，今天照片",
-        "imageCaption": "学习示意 · 明 1420年，后来重建，今天照片",
-        "imageBoundary": "自制学习示意。队列图只示意一个檐角的领队加十只走兽，简化外形而不伪造每只兽的精确雕塑样式。",
+        "assetId": "study-ed76d4b44b8f0668",
+        "image": "/content/study-scenes/study-ed76d4b44b8f0668.svg",
+        "studyImage": "/content/study-scenes/study-ed76d4b44b8f0668.svg",
+        "studyImageAlt": "从真实材料走进明朝",
+        "imageAlt": "从真实材料走进明朝",
+        "imageCaption": "学习示意 · 从真实材料走进明朝",
+        "imageBoundary": "自制学习示意。1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
         "audio": {
+          "lead": {
+            "id": "quest-cbfd2e235bc90c98",
+            "text": "北京宫殿1420年在明朝建成，今天太和殿则经历清代重建。"
+          },
           "transition": {
-            "id": "quest-923b2f7e40a78837",
-            "text": "宫殿和照片的时间。"
+            "id": "quest-f743a58cdb4b8575",
+            "text": "从真实材料走进明朝。"
           },
           "intro": {
-            "id": "quest-fdd81ea871f3db09",
-            "text": "北京宫殿在明代1420年建成。太和殿后来多次重建，今天照片不是1420年的现场。"
+            "id": "quest-ae60376cdd7332f0",
+            "text": "北京宫殿在明朝1420年建成，后来多次维修重建。照片里的太和殿，是清代重建后的形制。我们先回到明朝建宫殿的时候，再看今天留下的小兽。"
           },
           "question": {
-            "id": "quest-5827f05b4982aa88",
-            "text": "哪条先后合适？"
+            "id": "quest-69135ade4535017e",
+            "text": "北京宫殿1420年建成，在哪一朝？"
           },
           "image": {
-            "id": "quest-1a1e8ea825f92799",
-            "text": "这是学习示意图：明 1420年，后来重建，今天照片。哪条先后合适？"
+            "id": "quest-340d280f5f288aab",
+            "text": "这是学习示意图：从真实材料走进明朝。北京宫殿1420年建成，在哪一朝？"
           },
           "right": {
-            "id": "quest-9a71d7e7cb23dbc0",
-            "text": "找到了。先有营建历史，后有修建与今天拍摄，不能混成一刻。"
+            "id": "quest-fdb351684c49a647",
+            "text": "从明代始建，再看到清代重建后的样子。"
           },
           "wrong": {
-            "id": "quest-e2412b87d17151b3",
-            "text": "再比较一下。先有营建历史，后有修建与今天拍摄，不能混成一刻。"
+            "id": "quest-e3470be55b59fd5a",
+            "text": "清代重建在后，1420年建成在明朝。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-08-06-forbidden-city-roof-beasts-time-1",
-            "label": "明代营建 → 后来重建维护",
+            "label": "明朝 · 1368—1644年",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-f38cee0322611091.svg",
-            "imageAlt": "营建，重建，拍照",
+            "objectView": {
+              "kind": "era",
+              "name": "明朝",
+              "date": "1368—1644年",
+              "stationImage": "/images/history-stations/later.webp",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-c1e2142733a7aafe.svg",
+            "imageAlt": "明朝，1368—1644年",
             "audio": {
-              "id": "quest-9d13051eec3a4188",
-              "text": "明代营建 → 后来重建维护"
+              "id": "quest-82f94fc733063f6c",
+              "text": "明朝 · 1368—1644年"
             }
           },
           {
             "id": "cn-ancient-08-06-forbidden-city-roof-beasts-time-2",
-            "label": "今天拍照 → 才有明代宫殿",
+            "label": "清朝 · 1644年入关以后",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-1aaec7fba9a3140d.svg",
-            "imageAlt": "先拍照，后营建",
+            "objectView": {
+              "kind": "era",
+              "name": "清朝",
+              "date": "1644年入关以后",
+              "stationImage": "/images/history-stations/later.webp",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-aff85b6be241200a.svg",
+            "imageAlt": "清朝，1644年入关以后",
             "audio": {
-              "id": "quest-7ad9174609c9f680",
-              "text": "今天拍照 → 才有明代宫殿"
+              "id": "quest-599237464d14c854",
+              "text": "清朝 · 1644年入关以后"
             }
           }
         ]
@@ -298,337 +528,427 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "找到最前面的领队",
-        "title": "找到最前面的领队",
-        "prompt": "领队在队伍哪一头？",
-        "rightNote": "骑凤仙人领在前面，不是最后一只小兽。",
-        "wrongNote": "骑凤仙人领在前面，不是最后一只小兽。",
+        "phase": "小兽像帽子，也装点屋脊",
+        "title": "小兽像帽子，也装点屋脊",
+        "prompt": "看看固定处，再看看小兽",
+        "rightNote": "实用、装饰和建筑规矩，都留下了历史。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
           "DPM-TAIHE-ROOF-BEASTS",
-          "UNESCO-FORBIDDEN-CITY"
+          "DPM-YOUNG-ROOF"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听问题，看看图里的线索。",
+          "continueLabel": "去真照片里找小兽"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "小兽像帽子，也装点屋脊",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "实用、装饰和建筑规矩，都留下了历史。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "去真照片里找小兽",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "找到最前面的领队",
-          "screenText": "看檐角队伍：最前面是骑着凤的仙人，后面跟着小兽。先找领队的位置。",
-          "displayText": "看檐角队伍：最前面是骑着凤的仙人，后面跟着小兽。先找领队的位置。",
-          "narration": "看檐角队伍：最前面是骑着凤的仙人，后面跟着小兽。先找领队的位置。"
+          "title": "小兽像帽子，也装点屋脊",
+          "screenText": "古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。",
+          "displayText": "小兽能装点屋脊，也曾遮护固定处。\n宫殿的安排，还有礼制意义。",
+          "narration": "古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。"
         },
-        "assetId": "taihe-hall-ten-roof-beasts-current-photo",
-        "image": "/content/step-images/taihe-hall-ten-roof-beasts-current-photo.jpg",
-        "studyImage": "/content/study-scenes/study-f56bf0589fc3305f.svg",
-        "studyImageAlt": "领队和十只小兽",
-        "imageAlt": "太和殿屋脊十只脊兽现状照片",
-        "imageCaption": "太和殿屋脊十只脊兽现状照片",
-        "imageBoundary": "照片拍摄于2014年，只展示经过历代维修后的现状与一个观察角度；脊兽顺序和建筑意义以故宫资料核验，不让儿童仅凭照片给每只动物强行命名。原图4000×3000像素。",
+        "assetId": "ming-roof-learning-v1",
+        "image": "/content/step-images/ming-roof-learning-v1.jpg",
+        "studyImage": "/content/study-scenes/study-3ada0d092c03c4af.svg",
+        "studyImageAlt": "小兽像帽子，也装点屋脊",
+        "imageAlt": "屋脊构件学习模型故事图",
+        "imageCaption": "屋脊构件学习模型故事图",
+        "imageBoundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
         "audio": {
+          "lead": {
+            "id": "quest-089b481fc68a03d0",
+            "text": "看看固定处，再看看小兽"
+          },
           "transition": {
-            "id": "quest-66c90b9db45368da",
-            "text": "找到最前面的领队。"
+            "id": "quest-18fdd2e586270f96",
+            "text": "小兽像帽子，也装点屋脊。"
           },
           "intro": {
-            "id": "quest-9255a3a21c341bd1",
-            "text": "看檐角队伍：最前面是骑着凤的仙人，后面跟着小兽。先找领队的位置。"
+            "id": "quest-6436f1d2522eb107",
+            "text": "古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。"
           },
           "question": {
-            "id": "quest-1c6c641ad7e500db",
-            "text": "领队在队伍哪一头？"
+            "id": "quest-089b481fc68a03d0",
+            "text": "看看固定处，再看看小兽"
           },
           "image": {
-            "id": "quest-086a55c217dd6146",
-            "text": "这张是太和殿屋脊十只脊兽现状照片。看檐角队伍：最前面是骑着凤的仙人，后面跟着小兽。先找领队的位置。"
+            "id": "quest-837143a8ad8d348c",
+            "text": "这张是屋脊构件学习模型故事图。古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。"
           },
           "right": {
-            "id": "quest-5f7a9e474925c1fe",
-            "text": "找到了。骑凤仙人领在前面，不是最后一只小兽。"
+            "id": "quest-5862616cd3da0312",
+            "text": "实用、装饰和建筑规矩，都留下了历史。"
           },
           "wrong": {
-            "id": "quest-f5555d816844b6ac",
-            "text": "再比较一下。骑凤仙人领在前面，不是最后一只小兽。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-08-06-forbidden-city-roof-beasts-beginning-1",
-            "label": "檐角最前面",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-02718e10d6256da6.svg",
-            "imageAlt": "最前面的骑凤仙人",
-            "audio": {
-              "id": "quest-c5d1deead752348f",
-              "text": "檐角最前面"
-            }
-          },
-          {
-            "id": "cn-ancient-08-06-forbidden-city-roof-beasts-beginning-2",
-            "label": "小兽队列最后面",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-e321ce4e5a9fd33b.svg",
-            "imageAlt": "队列末尾小兽",
-            "audio": {
-              "id": "quest-9c418d97bc7220f2",
-              "text": "小兽队列最后面"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "十只小兽从哪里数",
-        "title": "十只小兽从哪里数",
-        "prompt": "数十只时从哪里开始？",
-        "rightNote": "领队单独看，后面才是十只走兽。家长可以陪你指着数。",
-        "wrongNote": "领队单独看，后面才是十只走兽。家长可以陪你指着数。",
+        "phase": "照片里，谁在队伍前面",
+        "title": "照片里，谁在队伍前面",
+        "prompt": "先找骑在凤凰上的仙人雕像",
+        "rightNote": "仙人与走兽，是不同的屋脊装饰。",
+        "wrongNote": "先看队伍最前面，再看后面的一排。",
         "sourceIds": [
           "DPM-TAIHE-ROOF-BEASTS",
-          "UNESCO-FORBIDDEN-CITY"
+          "DPM-YOUNG-ROOF"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听听问题，看看图里的线索。",
+          "hotspots": [
+            {
+              "id": "rider",
+              "label": "队伍前面的骑凤仙人",
+              "x": 0.845,
+              "y": 0.07,
+              "width": 0.14,
+              "height": 0.32
+            },
+            {
+              "id": "beasts",
+              "label": "仙人后面的一排走兽",
+              "x": 0.02,
+              "y": 0.14,
+              "width": 0.81,
+              "height": 0.49
+            }
+          ],
+          "rounds": [
+            {
+              "id": "rider",
+              "question": "先找骑在凤凰上的仙人雕像",
+              "targetId": "rider",
+              "feedback": "前面的仙人雕像，不算在十只走兽里。",
+              "retry": "这一排是走兽，再看队伍最前端。",
+              "nextLabel": "再找仙人后面的一排走兽",
+              "audio": {
+                "question": {
+                  "id": "quest-adec83edc5b27762",
+                  "text": "先找骑在凤凰上的仙人雕像"
+                },
+                "right": {
+                  "id": "quest-b90f736bf5cc3fce",
+                  "text": "前面的仙人雕像，不算在十只走兽里。"
+                },
+                "wrong": {
+                  "id": "quest-d40e1d3ec6710f24",
+                  "text": "这一排是走兽，再看队伍最前端。"
+                }
+              }
+            },
+            {
+              "id": "beasts",
+              "question": "再找仙人后面的一排走兽",
+              "targetId": "beasts",
+              "feedback": "这是走兽队伍，我们不必背下每个名字。",
+              "retry": "仙人在前面，走兽排在它的后方。",
+              "nextLabel": "用模型看看构件的用途",
+              "audio": {
+                "question": {
+                  "id": "quest-1bbd0feab00aa08d",
+                  "text": "再找仙人后面的一排走兽"
+                },
+                "right": {
+                  "id": "quest-9a4fed35e1d39efe",
+                  "text": "这是走兽队伍，我们不必背下每个名字。"
+                },
+                "wrong": {
+                  "id": "quest-5ff8e1a9e0c23f07",
+                  "text": "仙人在前面，走兽排在它的后方。"
+                }
+              }
+            }
+          ],
+          "imageLabel": "实物照片",
+          "sceneAspectRatio": 2.5,
+          "imageCrop": {
+            "x": 800,
+            "y": 930,
+            "width": 3000,
+            "height": 1200,
+            "sourceWidth": 4000,
+            "sourceHeight": 3000
+          }
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "照片里，谁在队伍前面",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "仙人与走兽，是不同的屋脊装饰。",
+          "retry": "先看队伍最前面，再看后面的一排。",
+          "nextLabel": "用模型看它怎样盖住固定处",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "taihe-hall-ten-roof-beasts-current-photo",
+          "title": "太和殿屋脊十只脊兽现状照片",
+          "localPath": "reference-assets/ming-qing/taihe-hall-roof-beasts.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:太和殿的脊獸.JPG",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 3.0",
+          "clearance": "cleared-open-license",
+          "caption": "今天太和殿屋脊上的十只脊兽与骑凤仙人。",
+          "boundary": "2014年现状照片，现存太和殿为清康熙重建形制；十只走兽不含骑凤仙人，也不含后面的大构件。儿童局部观察保留原图入口，不要求逐一认出兽名。 今天太和殿屋脊上的十只脊兽与骑凤仙人。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/taihe-hall-ten-roof-beasts-current-photo.jpg",
+          "label": "点开真材料，听听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 320,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "故宫博物院：太和殿：建筑、重建与檐角走兽",
+              "url": "https://www.dpm.org.cn/show/225724.html"
+            },
+            {
+              "title": "故宫博物院青少网站：太和殿屋脊上的神兽",
+              "url": "https://young.dpm.org.cn/info/646"
+            },
+            {
+              "title": "图像原始文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:太和殿的脊獸.JPG"
+            }
+          ],
+          "audio": {
+            "id": "quest-a9f862d520ab3606",
+            "text": "现在看的是真实照片的一部分。点开可以看原图。骑凤仙人在最前，后面是十只走兽；更大的屋脊构件不混在这十只里面。"
+          }
+        },
         "story": {
           "screenNumber": 3,
-          "title": "十只小兽从哪里数",
-          "screenText": "太和殿的十只走兽，指领队后面的那一队，不把骑凤仙人算进十只。",
-          "displayText": "太和殿的十只走兽，指领队后面的那一队，不把骑凤仙人算进十只。",
-          "narration": "太和殿的十只走兽，指领队后面的那一队，不把骑凤仙人算进十只。"
+          "title": "照片里，谁在队伍前面",
+          "screenText": "照片最前面是骑凤仙人，后面才是十只走兽。仙人雕像不算走兽。先找队伍前面的仙人，再找跟在后面的一排小兽。",
+          "displayText": "照片最前面是骑凤仙人，后面才是十只走兽。仙人雕像不算走兽。先找队伍前面的仙人，再找跟在后面的一排小兽。",
+          "narration": "照片最前面是骑凤仙人，后面才是十只走兽。仙人雕像不算走兽。先找队伍前面的仙人，再找跟在后面的一排小兽。"
         },
-        "assetId": "study-173a0fcb99883fcc",
-        "image": "/content/study-scenes/study-173a0fcb99883fcc.svg",
-        "studyImage": "/content/study-scenes/study-173a0fcb99883fcc.svg",
-        "studyImageAlt": "领队｜十只走兽",
-        "imageAlt": "领队｜十只走兽",
-        "imageCaption": "学习示意 · 领队｜十只走兽",
-        "imageBoundary": "自制学习示意。队列图只示意一个檐角的领队加十只走兽，简化外形而不伪造每只兽的精确雕塑样式。",
+        "assetId": "taihe-hall-ten-roof-beasts-current-photo",
+        "image": "/content/step-images/taihe-hall-ten-roof-beasts-current-photo.jpg",
+        "studyImage": "/content/study-scenes/study-40c02eec6ed947c8.svg",
+        "studyImageAlt": "照片里，谁在队伍前面",
+        "imageAlt": "太和殿屋脊十只脊兽现状照片",
+        "imageCaption": "太和殿屋脊十只脊兽现状照片",
+        "imageBoundary": "2014年现状照片，现存太和殿为清康熙重建形制；十只走兽不含骑凤仙人，也不含后面的大构件。儿童局部观察保留原图入口，不要求逐一认出兽名。",
         "audio": {
+          "lead": {
+            "id": "quest-adec83edc5b27762",
+            "text": "先找骑在凤凰上的仙人雕像"
+          },
           "transition": {
-            "id": "quest-5c813523d2351e37",
-            "text": "十只小兽从哪里数。"
+            "id": "quest-70c12880529c124a",
+            "text": "照片里，谁在队伍前面。"
           },
           "intro": {
-            "id": "quest-9599e5139f292af9",
-            "text": "太和殿的十只走兽，指领队后面的那一队，不把骑凤仙人算进十只。"
+            "id": "quest-8f959d52b65b8da3",
+            "text": "照片最前面是骑凤仙人，后面才是十只走兽。仙人雕像不算走兽。先找队伍前面的仙人，再找跟在后面的一排小兽。"
           },
           "question": {
-            "id": "quest-b4fea376bda19ec4",
-            "text": "数十只时从哪里开始？"
+            "id": "quest-adec83edc5b27762",
+            "text": "先找骑在凤凰上的仙人雕像"
           },
           "image": {
-            "id": "quest-36ba9f88e116ef08",
-            "text": "这是学习示意图：领队｜十只走兽。数十只时从哪里开始？"
+            "id": "quest-576e5493f48037aa",
+            "text": "这张是太和殿屋脊十只脊兽现状照片。照片最前面是骑凤仙人，后面才是十只走兽。仙人雕像不算走兽。先找队伍前面的仙人，再找跟在后面的一排小兽。"
           },
           "right": {
-            "id": "quest-a9eedabb5d74784b",
-            "text": "找到了。领队单独看，后面才是十只走兽。家长可以陪你指着数。"
+            "id": "quest-6d6ae95a78a172cf",
+            "text": "仙人与走兽，是不同的屋脊装饰。"
           },
           "wrong": {
-            "id": "quest-c3cba017ef093d46",
-            "text": "再比较一下。领队单独看，后面才是十只走兽。家长可以陪你指着数。"
+            "id": "quest-2596bedbe1c1fee0",
+            "text": "先看队伍最前面，再看后面的一排。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-08-06-forbidden-city-roof-beasts-journey-1",
-            "label": "从领队后第一只兽",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-29a5213ffcbb6455.svg",
-            "imageAlt": "领队后第一只兽",
-            "audio": {
-              "id": "quest-5264fac3b6661fda",
-              "text": "从领队后第一只兽"
-            }
-          },
-          {
-            "id": "cn-ancient-08-06-forbidden-city-roof-beasts-journey-2",
-            "label": "从骑凤仙人开始",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-e3b1f639fad2e930.svg",
-            "imageAlt": "骑凤仙人",
-            "audio": {
-              "id": "quest-d7c1ec4c20f39042",
-              "text": "从骑凤仙人开始"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "它们怎样留在屋顶",
-        "title": "它们怎样留在屋顶",
-        "prompt": "屋顶要维护时，需要谁？",
-        "rightNote": "构件需要人的维护，神话形象不等于真的有法术。",
-        "wrongNote": "构件需要人的维护，神话形象不等于真的有法术。",
+        "phase": "给固定处戴上一顶小兽帽",
+        "title": "给固定处戴上一顶小兽帽",
+        "prompt": "小兽怎样罩住这个固定处？",
+        "rightNote": "盖住固定处，也给屋脊添上装饰。",
+        "wrongNote": "再看看固定处在哪里。",
         "sourceIds": [
-          "DPM-TAIHE-ROOF-BEASTS",
-          "UNESCO-FORBIDDEN-CITY"
+          "DPM-YOUNG-ROOF",
+          "DPM-TAIHE-ROOF-BEASTS"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "history-lab",
+          "hint": "听听问题，看看图里的线索。",
+          "lab": {
+            "kind": "roof",
+            "stages": [
+              {
+                "label": "把小兽罩在固定处上",
+                "narration": "小兽的底座落到屋脊上，像帽子一样罩住固定处，也装饰了屋顶。",
+                "audio": {
+                  "id": "quest-a3cf74a915fa8b40",
+                  "text": "小兽的底座落到屋脊上，像帽子一样罩住固定处，也装饰了屋顶。"
+                }
+              }
+            ]
+          }
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "给固定处戴上一顶小兽帽",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "盖住固定处，也给屋脊添上装饰。",
+          "retry": "再看看固定处在哪里。",
+          "nextLabel": "把用途和历史连起来",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "它们怎样留在屋顶",
-          "screenText": "小兽是建筑构件与装饰，也与固定屋面部件有关。它们不会像动物一样自己走动。",
-          "displayText": "小兽是建筑构件与装饰，也与固定屋面部件有关。它们不会像动物一样自己走动。",
-          "narration": "小兽是建筑构件与装饰，也与固定屋面部件有关。它们不会像动物一样自己走动。"
+          "title": "给固定处戴上一顶小兽帽",
+          "screenText": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。",
+          "displayText": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。",
+          "narration": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。"
         },
-        "assetId": "study-47941fbdea60224f",
-        "image": "/content/study-scenes/study-47941fbdea60224f.svg",
-        "studyImage": "/content/study-scenes/study-47941fbdea60224f.svg",
-        "studyImageAlt": "屋面构件，专业维护",
-        "imageAlt": "屋面构件，专业维护",
-        "imageCaption": "学习示意 · 屋面构件，专业维护",
-        "imageBoundary": "自制学习示意。队列图只示意一个檐角的领队加十只走兽，简化外形而不伪造每只兽的精确雕塑样式。",
+        "assetId": "ming-roof-learning-v1",
+        "image": "/content/step-images/ming-roof-learning-v1.jpg",
+        "studyImage": "/content/study-scenes/study-22bd2eb46bd07596.svg",
+        "studyImageAlt": "给固定处戴上一顶小兽帽",
+        "imageAlt": "屋脊构件学习模型故事图",
+        "imageCaption": "屋脊构件学习模型故事图",
+        "imageBoundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
         "audio": {
+          "lead": {
+            "id": "quest-220be148e500e20f",
+            "text": "小兽怎样罩住这个固定处？"
+          },
           "transition": {
-            "id": "quest-d41846a116095667",
-            "text": "它们怎样留在屋顶。"
+            "id": "quest-9d32b19b9597d9df",
+            "text": "给固定处戴上一顶小兽帽。"
           },
           "intro": {
-            "id": "quest-4e51f1ff6cf34b96",
-            "text": "小兽是建筑构件与装饰，也与固定屋面部件有关。它们不会像动物一样自己走动。"
+            "id": "quest-21544605b41c98c6",
+            "text": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。"
           },
           "question": {
-            "id": "quest-ef99e9c25bfc02b8",
-            "text": "屋顶要维护时，需要谁？"
+            "id": "quest-220be148e500e20f",
+            "text": "小兽怎样罩住这个固定处？"
           },
           "image": {
-            "id": "quest-7a89e37bdfe87ce3",
-            "text": "这是学习示意图：屋面构件，专业维护。屋顶要维护时，需要谁？"
+            "id": "quest-a27d7fd99e005527",
+            "text": "这张是屋脊构件学习模型故事图。这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。"
           },
           "right": {
-            "id": "quest-981e4dbc093816d6",
-            "text": "找到了。构件需要人的维护，神话形象不等于真的有法术。"
+            "id": "quest-17ed417e6e8a8d9e",
+            "text": "盖住固定处，也给屋脊添上装饰。"
           },
           "wrong": {
-            "id": "quest-24681442e9d9b84f",
-            "text": "再比较一下。构件需要人的维护，神话形象不等于真的有法术。"
+            "id": "quest-1d2ab0bef0dc91c4",
+            "text": "再看看固定处在哪里。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-08-06-forbidden-city-roof-beasts-change-1",
-            "label": "懂古建筑的维修人员",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-c5bf507f6d63885d.svg",
-            "imageAlt": "维修人员",
-            "audio": {
-              "id": "quest-8c28671ab5bb02cc",
-              "text": "懂古建筑的维修人员"
-            }
-          },
-          {
-            "id": "cn-ancient-08-06-forbidden-city-roof-beasts-change-2",
-            "label": "等小兽自己补屋瓦",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-1538566a3e1668c5.svg",
-            "imageAlt": "小兽自己修瓦",
-            "audio": {
-              "id": "quest-e9b2d0a079cd4659",
-              "text": "等小兽自己补屋瓦"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "给小兽小队拍说明",
-        "title": "给小兽小队拍说明",
-        "prompt": "看另一座屋顶时，先做什么？",
-        "rightNote": "具体建筑要具体核对，今天学的十只是太和殿这一处的线索。",
-        "wrongNote": "具体建筑要具体核对，今天学的十只是太和殿这一处的线索。",
+        "phase": "同一座宫殿，也会发生变化",
+        "title": "同一座宫殿，也会发生变化",
+        "prompt": "看用途，也看它来自哪个时候",
+        "rightNote": "不要把今天看见的，都当成最初的样子。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
           "DPM-TAIHE-ROOF-BEASTS",
-          "UNESCO-FORBIDDEN-CITY"
+          "UNESCO-FORBIDDEN-CITY",
+          "DPM-YOUNG-ROOF"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听问题，看看图里的线索。",
+          "continueLabel": "带着屋脊的发现回家"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "同一座宫殿，也会发生变化",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "不要把今天看见的，都当成最初的样子。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "带着屋脊的发现回家",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 5,
-          "title": "给小兽小队拍说明",
-          "screenText": "不同建筑的走兽数量和形制可能不同。不能把太和殿这一队套到所有屋顶。",
-          "displayText": "不同建筑的走兽数量和形制可能不同。不能把太和殿这一队套到所有屋顶。",
-          "narration": "不同建筑的走兽数量和形制可能不同。不能把太和殿这一队套到所有屋顶。"
+          "title": "同一座宫殿，也会发生变化",
+          "screenText": "明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。",
+          "displayText": "明代始建，后来又重建。\n今天的样子，不全是最初的样子。",
+          "narration": "明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。"
         },
-        "assetId": "study-95b3bcb9b190523b",
-        "image": "/content/study-scenes/study-95b3bcb9b190523b.svg",
-        "studyImage": "/content/study-scenes/study-95b3bcb9b190523b.svg",
-        "studyImageAlt": "太和殿，另一座建筑",
-        "imageAlt": "太和殿，另一座建筑",
-        "imageCaption": "学习示意 · 太和殿，另一座建筑",
-        "imageBoundary": "自制学习示意。队列图只示意一个檐角的领队加十只走兽，简化外形而不伪造每只兽的精确雕塑样式。",
+        "assetId": "ming-roof-learning-v1",
+        "image": "/content/step-images/ming-roof-learning-v1.jpg",
+        "studyImage": "/content/study-scenes/study-0d109dc642ca9165.svg",
+        "studyImageAlt": "同一座宫殿，也会发生变化",
+        "imageAlt": "屋脊构件学习模型故事图",
+        "imageCaption": "屋脊构件学习模型故事图",
+        "imageBoundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
         "audio": {
+          "lead": {
+            "id": "quest-531dd33863c48b9a",
+            "text": "看用途，也看它来自哪个时候"
+          },
           "transition": {
-            "id": "quest-380181b386cf86a5",
-            "text": "给小兽小队拍说明。"
+            "id": "quest-cceb975521194cdf",
+            "text": "同一座宫殿，也会发生变化。"
           },
           "intro": {
-            "id": "quest-369370ac2940db62",
-            "text": "不同建筑的走兽数量和形制可能不同。不能把太和殿这一队套到所有屋顶。"
+            "id": "quest-736b123d7abf1e2e",
+            "text": "明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。"
           },
           "question": {
-            "id": "quest-3891581f67dd456a",
-            "text": "看另一座屋顶时，先做什么？"
+            "id": "quest-531dd33863c48b9a",
+            "text": "看用途，也看它来自哪个时候"
           },
           "image": {
-            "id": "quest-4505e24d8a67abe4",
-            "text": "这是学习示意图：太和殿，另一座建筑。看另一座屋顶时，先做什么？"
+            "id": "quest-4c045c579acc51b3",
+            "text": "这张是屋脊构件学习模型故事图。明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。"
           },
           "right": {
-            "id": "quest-34d838d5555e70a7",
-            "text": "找到了。具体建筑要具体核对，今天学的十只是太和殿这一处的线索。"
+            "id": "quest-23c80d36c012e114",
+            "text": "不要把今天看见的，都当成最初的样子。"
           },
           "wrong": {
-            "id": "quest-cffe4d24b01985ca",
-            "text": "再比较一下。具体建筑要具体核对，今天学的十只是太和殿这一处的线索。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-08-06-forbidden-city-roof-beasts-takeaway-1",
-            "label": "看实物、查这座建筑",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-a485e44971675305.svg",
-            "imageAlt": "观察，核对",
-            "audio": {
-              "id": "quest-190dd3c05aaa6746",
-              "text": "看实物、查这座建筑"
-            }
-          },
-          {
-            "id": "cn-ancient-08-06-forbidden-city-roof-beasts-takeaway-2",
-            "label": "直接写“都有十只”",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-c150f228e744969e.svg",
-            "imageAlt": "所有屋顶十只",
-            "audio": {
-              "id": "quest-c6da07897e07a89f",
-              "text": "直接写“都有十只”"
-            }
-          }
-        ]
+        "options": []
       }
     ],
     "extensionTasks": [
@@ -868,10 +1188,10 @@
       "id": "DPM-TAIHE-ROOF-BEASTS",
       "title": "太和殿：建筑、重建与檐角走兽",
       "institution": "故宫博物院",
-      "url": "https://www.dpm.org.cn/explore/building/236465.html",
+      "url": "https://www.dpm.org.cn/show/225724.html",
       "type": "national-museum-architecture-record",
       "authorityLevel": "A-national-museum",
-      "factUse": "太和殿历史、后世重建形制、檐角十个走兽及构件功能；不把骑凤仙人计入十兽",
+      "factUse": "1420明代始建奉天殿，现存太和殿为清康熙重建后形制；十走兽、骑凤仙人与大吻等构件分开；盛大典礼用途",
       "imageUse": "reference-only"
     },
     {
@@ -895,6 +1215,16 @@
       "imageUse": "reference-only"
     },
     {
+      "id": "DPM-YOUNG-ROOF",
+      "institution": "故宫博物院青少网站",
+      "title": "太和殿屋脊上的神兽",
+      "url": "https://young.dpm.org.cn/info/646",
+      "type": "institution-history-reference",
+      "authorityLevel": "A",
+      "factUse": "骑凤仙人与十只走兽分开；屋脊构件兼具遮护固定处和装饰意义，不把一种旧构造推广至所有房屋",
+      "imageUse": "reference-only"
+    },
+    {
       "id": "PEP-HISTORY-7B-2026-TRIAL",
       "title": "新修订义务教育历史教材七年级下册试教资料",
       "institution": "人民教育出版社",
@@ -907,197 +1237,93 @@
   ],
   "assets": [
     {
-      "id": "study-e5c66de42a942d7f",
-      "title": "学习示意：明 1420年、后来重建、今天照片",
-      "localPath": "reference-assets/focused-quests/study-e5c66de42a942d7f.svg",
+      "id": "study-ed76d4b44b8f0668",
+      "title": "学习示意：从真实材料走进明朝",
+      "localPath": "reference-assets/focused-quests/study-ed76d4b44b8f0668.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "明 1420年 → 后来重建 → 今天照片",
+      "caption": "从真实材料走进明朝",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-f38cee0322611091",
-      "title": "学习示意：营建、重建、拍照",
-      "localPath": "reference-assets/focused-quests/study-f38cee0322611091.svg",
+      "id": "study-c1e2142733a7aafe",
+      "title": "学习示意：明朝、1368—1644年",
+      "localPath": "reference-assets/focused-quests/study-c1e2142733a7aafe.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "营建 → 重建 → 拍照",
+      "caption": "明朝 → 1368—1644年",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-1aaec7fba9a3140d",
-      "title": "学习示意：先拍照、后营建",
-      "localPath": "reference-assets/focused-quests/study-1aaec7fba9a3140d.svg",
+      "id": "study-aff85b6be241200a",
+      "title": "学习示意：清朝、1644年入关以后",
+      "localPath": "reference-assets/focused-quests/study-aff85b6be241200a.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "先拍照 → 后营建",
+      "caption": "清朝 → 1644年入关以后",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-f56bf0589fc3305f",
-      "title": "学习示意：领队和十只小兽",
-      "localPath": "reference-assets/focused-quests/study-f56bf0589fc3305f.svg",
+      "id": "study-3ada0d092c03c4af",
+      "title": "学习示意：小兽像帽子，也装点屋脊",
+      "localPath": "reference-assets/focused-quests/study-3ada0d092c03c4af.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "领队和十只小兽",
+      "caption": "小兽像帽子，也装点屋脊",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-02718e10d6256da6",
-      "title": "学习示意：最前面的骑凤仙人",
-      "localPath": "reference-assets/focused-quests/study-02718e10d6256da6.svg",
+      "id": "study-40c02eec6ed947c8",
+      "title": "学习示意：照片里，谁在队伍前面",
+      "localPath": "reference-assets/focused-quests/study-40c02eec6ed947c8.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "最前面的骑凤仙人",
+      "caption": "照片里，谁在队伍前面",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-e321ce4e5a9fd33b",
-      "title": "学习示意：队列末尾小兽",
-      "localPath": "reference-assets/focused-quests/study-e321ce4e5a9fd33b.svg",
+      "id": "study-22bd2eb46bd07596",
+      "title": "学习示意：给固定处戴上一顶小兽帽",
+      "localPath": "reference-assets/focused-quests/study-22bd2eb46bd07596.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "队列末尾小兽",
+      "caption": "给固定处戴上一顶小兽帽",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-173a0fcb99883fcc",
-      "title": "学习示意：领队｜十只走兽",
-      "localPath": "reference-assets/focused-quests/study-173a0fcb99883fcc.svg",
+      "id": "study-0d109dc642ca9165",
+      "title": "学习示意：同一座宫殿，也会发生变化",
+      "localPath": "reference-assets/focused-quests/study-0d109dc642ca9165.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "领队｜十只走兽",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-29a5213ffcbb6455",
-      "title": "学习示意：领队后第一只兽",
-      "localPath": "reference-assets/focused-quests/study-29a5213ffcbb6455.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "领队后第一只兽",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-e3b1f639fad2e930",
-      "title": "学习示意：骑凤仙人",
-      "localPath": "reference-assets/focused-quests/study-e3b1f639fad2e930.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "骑凤仙人",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-47941fbdea60224f",
-      "title": "学习示意：屋面构件、专业维护",
-      "localPath": "reference-assets/focused-quests/study-47941fbdea60224f.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "屋面构件 → 专业维护",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-c5bf507f6d63885d",
-      "title": "学习示意：维修人员",
-      "localPath": "reference-assets/focused-quests/study-c5bf507f6d63885d.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "维修人员",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-1538566a3e1668c5",
-      "title": "学习示意：小兽自己修瓦",
-      "localPath": "reference-assets/focused-quests/study-1538566a3e1668c5.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "小兽自己修瓦",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-95b3bcb9b190523b",
-      "title": "学习示意：太和殿、另一座建筑",
-      "localPath": "reference-assets/focused-quests/study-95b3bcb9b190523b.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "太和殿 → 另一座建筑",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-a485e44971675305",
-      "title": "学习示意：观察、核对",
-      "localPath": "reference-assets/focused-quests/study-a485e44971675305.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "观察 → 核对",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-c150f228e744969e",
-      "title": "学习示意：所有屋顶十只",
-      "localPath": "reference-assets/focused-quests/study-c150f228e744969e.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "所有屋顶十只",
+      "caption": "同一座宫殿，也会发生变化",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1111,7 +1337,7 @@
       "license": "CC BY 3.0 PL",
       "clearance": "cleared-open-license",
       "caption": "今天北京故宫太和殿区域的现状照片。",
-      "boundary": "照片摄于2009年并出现现代游客；现存建筑经历历代修建、重建与保护，不是1420年现场或全部明代原貌。下载为1920×851像素等比例图，未作其他修改。",
+      "boundary": "2009年现状照片，有现代游客。北京宫殿1420年建成与明朝1368年建立不是同一事件；今天太和殿为清康熙重建后的形制，用于举行盛大典礼，不能把此图当洪武办公现场。",
       "childVisibility": "child-ok"
     },
     {
@@ -1124,7 +1350,33 @@
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "今天太和殿屋脊上的十只脊兽与骑凤仙人。",
-      "boundary": "照片拍摄于2014年，只展示经过历代维修后的现状与一个观察角度；脊兽顺序和建筑意义以故宫资料核验，不让儿童仅凭照片给每只动物强行命名。原图4000×3000像素。",
+      "boundary": "2014年现状照片，现存太和殿为清康熙重建形制；十只走兽不含骑凤仙人，也不含后面的大构件。儿童局部观察保留原图入口，不要求逐一认出兽名。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "ming-roof-learning-v1",
+      "title": "屋脊构件学习模型故事图",
+      "localPath": "reference-assets/ming-qing/ming-roof-learning-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "ming-friends-reunion-v1",
+      "title": "三位小伙伴回看明朝发现的手册插画",
+      "localPath": "reference-assets/ming-qing/ming-friends-reunion-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "现代旅行手册回顾图，图中小画是新绘的学习线索，不是历史照片、原稿或精确机械图。",
       "childVisibility": "child-ok"
     }
   ],

@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-15",
+  "task": "Qin Great Wall refinement and user-requested Web acceptance scope update",
+  "chapterId": "cn-ancient-04-05-qin-great-wall",
+  "otherAuthoredChaptersChecked": 33,
+  "otherAuthoredChaptersChanged": [],
+  "contentVersion": "0.68.0",
+  "checks": {
+    "checkLocal": {
+      "exitCode": 0,
+      "tests": 24,
+      "passed": 24
+    },
+    "updatedExistingTests": {
+      "exitCode": 0,
+      "tests": 13,
+      "passed": 13
+    },
+    "gitDiffCheck": {
+      "exitCode": 0
+    }
+  },
+  "pageChecks": {
+    "url": "http://127.0.0.1:4173/",
+    "wallFiveStepFlow": true,
+    "wrongTimeChoiceAndRetry": true,
+    "readingContinuesOnce": true,
+    "wallDragMisalignedThenSnaps": true,
+    "arrowAlternative": true,
+    "newTeamworkSceneVisible": true,
+    "fullStoryVoiceBinding": "quest-7f8a05b24a1dc73f",
+    "photoInspectionAndSources": true,
+    "finishReturnGoesHome": true,
+    "finishReplayGoesToChapterCover": true,
+    "familyExerciseExpandsAndMoves": true
+  },
+  "acceptanceScope": "Use one target browser content size, specified by the user or measured from the current browser, and verify layout and interactions at that size. Multi-device adaptation and viewport matrices are out of scope unless explicitly requested.",
+  "image": {
+    "generationCalls": 1,
+    "source": "reference-assets/qin-han/qin-wall-teamwork-story-v1.png",
+    "runtime": "public/content/step-images/qin-wall-teamwork-story-v1.jpg",
+    "prompt": "docs/qa/2026-09-14-qin-wall-refinement/teamwork-prompt.txt"
+  },
+  "notVerified": [
+    "Real children independently completing and understanding the chapter",
+    "Final human listening and pronunciation approval",
+    "Reusable photograph reliably identified as Qin Wall remains a source gap"
+  ],
+  "lastObservedPageCheckViewport": {
+    "width": 1280,
+    "height": 720,
+    "purpose": "Recorded environment of the prior Wall page check, not a prescribed size for future tasks."
+  }
+}

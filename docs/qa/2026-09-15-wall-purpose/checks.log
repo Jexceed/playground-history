@@ -1,0 +1,126 @@
+
+> chronicle-bureau-prototype@0.1.0 check:local
+> npm run content:validate:assets && npm test && npm run lint && npm run typecheck:app
+
+
+> chronicle-bureau-prototype@0.1.0 content:validate:assets
+> node scripts/prepare-focused-quests.mjs && node scripts/validate-content.mjs --require-local-assets
+
+逐题学习图：483 个；34章儿童入口与连续故事同步。
+内容校验通过：7 个课程板块，共 103 章。
+其中：中国史 67 章，世界史 30 章，跨学科 6 章。
+已有详稿 103 章，事实研究完成 103 章，最终审核通过 0 章。
+事实卡 2684 条，儿童屏幕 657 屏，语音稿 729 段，互动 339 个。
+低龄兴趣入口 103 章，均含实物入口与地点连接。
+儿童口语词典 80 词，103章均已匹配难词解释。
+配音读音表 160 项、年代读法 7 条，103章均有编辑校听入口。
+来源登记 985 条，素材登记 961 条，其中已清权本地素材 959 条。
+本机研究素材缓存 956/956 个文件，已执行严格路径检查。
+
+> chronicle-bureau-prototype@0.1.0 test
+> npm run build && node --experimental-strip-types --test tests/*.test.mjs
+
+
+> chronicle-bureau-prototype@0.1.0 build
+> npm run content:pack && WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build
+
+
+> chronicle-bureau-prototype@0.1.0 content:pack
+> node scripts/prepare-focused-quests.mjs && node scripts/validate-content.mjs && node scripts/build-content-pack.mjs && node scripts/generate-content-thumbnails.mjs && node scripts/audit-gameplay-coherence.mjs
+
+逐题学习图：483 个；34章儿童入口与连续故事同步。
+内容校验通过：7 个课程板块，共 103 章。
+其中：中国史 67 章，世界史 30 章，跨学科 6 章。
+已有详稿 103 章，事实研究完成 103 章，最终审核通过 0 章。
+事实卡 2684 条，儿童屏幕 657 屏，语音稿 729 段，互动 339 个。
+低龄兴趣入口 103 章，均含实物入口与地点连接。
+儿童口语词典 80 词，103章均已匹配难词解释。
+配音读音表 160 项、年代读法 7 条，103章均有编辑校听入口。
+来源登记 985 条，素材登记 961 条，其中已清权本地素材 959 条。
+本机研究素材缓存 956/956 个文件；发布包构建不强制携带原始研究缓存。
+内容包生成完成：7 个板块，103 章。
+章节缩略图生成完成：103 张；步骤图片 240 张。
+结构审计：完整库103章/515步；本轮34章/170步，316张选项图、12个阅读步骤、68条结束动作。真实儿童审核仍待进行。
+
+  vinext build  (Vite 8.0.13)
+
+[1/5] analyze client references...
+[2Ktransforming...✓ 132 modules transformed.
+rendering chunks...
+✓ built in 629ms
+[2/5] analyze server references...
+[2Ktransforming...✓ 108 modules transformed.
+rendering chunks...
+✓ built in 177ms
+[3/5] build rsc environment...
+[2Ktransforming...✓ 138 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 578ms
+[4/5] build client environment...
+[2Ktransforming...✓ 116 modules transformed.
+rendering chunks...
+computing gzip size...
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.48s
+[5/5] build ssr environment...
+[2Ktransforming...✓ 114 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 247ms
+[0m
+  Route (app)
+  ─ ? /
+
+  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+
+  Build complete. Run `vinext start` to start the production server.
+
+✔ pause and resume retain position and continue the remaining narration queue (2.528459ms)
+✔ a new answer or navigation cancels old callbacks and every queued clip (0.456625ms)
+✔ a stale play rejection after a quick pause/resume cannot stop resumed audio (0.845375ms)
+✔ media errors and autoplay blocks end the queue with a recoverable state (0.437708ms)
+✔ a loading clip can remain paused until the user resumes it (0.288792ms)
+✔ local progress restores valid steps and preserves legacy completion badges (0.275166ms)
+✔ all 515 steps have two stable audible choices with one correct answer and balanced positions (4.044541ms)
+✔ a focused UI keeps completed records for chapters currently hidden (0.54475ms)
+✔ renders only the Qin–Qing local playtest scope (79.969708ms)
+✔ keeps the complete source library and emits a separate focused UI bundle (76.811584ms)
+✔ every focused question has two authored pictures, source references and a concrete ending (11.095333ms)
+✔ ships a complete local narration pack (375.658417ms)
+✔ keeps narrated image inspection and step badges available in active tasks (0.7075ms)
+✔ packages every navigation and step badge used by the child pages (1.328541ms)
+✔ keeps existing narration files when synthesis fails (2175.041125ms)
+✔ ships two local voice audition profiles before the full narration run (0.638708ms)
+✔ every reading page narrates its full story and can advance in one click (0.970834ms)
+✔ one-click story continuation does not bypass an unanswered quiz or operation (0.205417ms)
+✔ the measuring phrase gets its chosen tones without changing the noun 度量衡 (3.675958ms)
+✔ pointer displacement maps proportionally to the ruler model (0.531541ms)
+✔ the Qin measurement task keeps its real artifact and ruler workbench (5.831833ms)
+✔ the Qin story has departure, discovery and reunion without dropping the artifact (4.664958ms)
+✔ the Great Wall task explains its defensive purpose with one hands-on wall-join (4.394ms)
+✔ the three Han chapters follow the look-listen shape with one hands-on step each (3.669708ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2778.214792
+
+> chronicle-bureau-prototype@0.1.0 lint
+> eslint . --ignore-pattern dist --ignore-pattern .next
+
+
+> chronicle-bureau-prototype@0.1.0 typecheck:app
+> tsc --noEmit -p tsconfig.app.json
+

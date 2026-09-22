@@ -16,26 +16,27 @@
   "childEntry": {
     "id": "cn-ancient-06-04-tang-cultural-exchange",
     "childTitle": "玄奘带回书以后",
-    "prompt": "书带回来了，谁来把里面的话翻译清楚？",
-    "takeaway": "玄奘远行带回经典，译场中许多人合作；《西游记》的神奇伙伴属于后来的小说。",
+    "prompt": "玄奘远行带回经书。不同语言里的意思，怎样让更多人读懂？",
+    "takeaway": "玄奘远行学习，回国后与许多人合作翻译经书。讲清、写下、核对，帮助不同地方的知识流传；后来的西游故事另有文学想象。",
     "object": "《大唐西域记》、大雁塔与唐招提寺",
     "people": [
-      "玄奘、辩机",
-      "译场协作者"
+      "玄奘",
+      "译经协作者"
     ],
     "place": "长安、河西走廊与日本奈良",
     "culture": "王维《送元二使安西》连接渭城、阳关与送别心情；诗不是玄奘的旅行日志",
-    "care": "图中人物和书箱都是关系示意，不作为玄奘旅程或译场现场复原；历史人物与明代小说分开。",
-    "playableSource": "content/focused-quests.json"
+    "care": "大雁塔照片为2014年现状，始建652年晚于645年归来，经历后世改修。译场人物和室内安排为教学虚构，不是某次现场或具体协作者肖像。《大唐西域记》的旅途记录与译经工作分开；百回本《西游记》属后来明代小说，取经故事此前已有流传。",
+    "playableSource": "content/focused-quests.json",
+    "preferredAssetId": "big-wild-goose-pagoda-current-view"
   },
   "textbookConnection": {
     "id": "cn-ancient-06-04-tang-cultural-exchange",
     "featured": {
       "type": "诗歌",
       "icon": "🌄",
-      "title": "玄奘、辩机与译场协作者",
-      "childBridge": "书带回来了，谁来把里面的话翻译清楚？",
-      "evidenceBoundary": "图中人物和书箱都是关系示意，不作为玄奘旅程或译场现场复原；历史人物与明代小说分开。"
+      "title": "玄奘与译经协作者",
+      "childBridge": "玄奘远行带回经书。不同语言里的意思，怎样让更多人读懂？",
+      "evidenceBoundary": "大雁塔照片为2014年现状，始建652年晚于645年归来，经历后世改修。"
     },
     "companions": [
       {
@@ -59,39 +60,43 @@
       "NOPSS-XUANZANG-XIYUJI",
       "FMPRC-JIANZHEN",
       "PEP-HISTORY-7B-2026-TRIAL",
-      "UNESCO-ANCIENT-NARA"
+      "UNESCO-ANCIENT-NARA",
+      "CSSN-TANG-TRANSLATION",
+      "SHAANXI-BIG-WILD-GOOSE-PAGODA",
+      "NLC-JOURNEY-WEST-CLASSIC",
+      "XIAN-CHRONICLE-BIG-PAGODA"
     ]
   },
   "childStory": [
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "玄奘与小说的时间",
-      "text": "玄奘在唐代645年回到长安。讲孙悟空的《西游记》，是后来明代的小说。"
+      "label": "从大雁塔，找到玄奘的时代",
+      "text": "玄奘在唐代645年回到长安。后来，652年始建的大雁塔与保存带回的经卷有关。这张是今天的塔，样子经过后世改修。先去唐朝，听书回来以后的故事。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "远路带回来的书",
-      "text": "玄奘带回经典。书到了长安，不熟悉原来语言的人还需要帮助才能读懂。"
+      "label": "带回经书，还要让人读懂",
+      "text": "玄奘到远方学习佛教，带回不同语言的经书。书到了长安，还要把意思译成汉文。译场里，人们讲解、记录、整理和核对，依靠学问与合作，才能把书译得更清楚。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "译场里的许多双手",
-      "text": "译场里有人讲解，有人记录、整理和校对。不是玄奘一个人包办每一步。"
+      "label": "讲清、写下，再核对",
+      "text": "这幅学习图把几种工作画在一起：有人讲解，有人执笔记录，还有人把两份稿子放在一起核对。图中人不是一份真实合影，动作帮助我们理解译场合作。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "记录也要分清来源",
-      "text": "辩机协助写成《大唐西域记》。其中既有亲历，也有听来的情况，要分别核对。"
+      "label": "要检查意思，不能只看整齐",
+      "text": "小伙伴问：译出来的话，和原书的意思对得上吗？写得整齐很有用，核对意思却要把原文和译文放在一起，遇到疑问再讨论。"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "遇见孙悟空",
-      "text": "孙悟空很好玩，但不在玄奘真实的译经团队里。人物和小说可以相连，也要分清。"
+      "label": "真实远行，也成为后来的故事",
+      "text": "玄奘和协作者用学问把经书译出来，让知识继续流传。到后来的明代，长篇小说《西游记》讲起唐僧与孙悟空的神奇经历。真实历史与文学想象有关联，也各有自己的讲法。"
     }
   ],
   "glossary": [
@@ -183,6 +188,15 @@
         "cross-03-cultural-exchange"
       ],
       "note": "“长”在地名中读cháng。"
+    },
+    {
+      "text": "译经",
+      "reading": "yì jīng",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-06-04-tang-cultural-exchange"
+      ],
+      "note": "本轮编辑校听项；保持原词，不作单字全局替换。人工试听待进行。"
     }
   ],
   "gameplay": {
@@ -193,11 +207,11 @@
       "kind": "具体任务",
       "icon": "🔎",
       "label": "玄奘带回书以后",
-      "question": "书带回来了，谁来把里面的话翻译清楚？"
+      "question": "玄奘远行带回经书。不同语言里的意思，怎样让更多人读懂？"
     },
-    "cta": "去帮书找到读者",
-    "anchor": "玄奘、辩机与译场协作者",
-    "boundary": "图中人物和书箱都是关系示意，不作为玄奘旅程或译场现场复原；历史人物与明代小说分开。",
+    "cta": "去看看怎样把书译清楚",
+    "anchor": "玄奘与译经协作者",
+    "boundary": "大雁塔照片为2014年现状，始建652年晚于645年归来，经历后世改修。译场人物和室内安排为教学虚构，不是某次现场或具体协作者肖像。《大唐西域记》的旅途记录与译经工作分开；百回本《西游记》属后来明代小说，取经故事此前已有流传。",
     "evidence": [
       {
         "id": "big-wild-goose-pagoda-current-view",
@@ -214,6 +228,7 @@
         "image": "/content/step-images/big-wild-goose-pagoda-current-view.jpg"
       }
     ],
+    "photoAlbum": null,
     "coverAsset": {
       "id": "big-wild-goose-pagoda-current-view",
       "title": "大雁塔现状照片",
@@ -228,45 +243,136 @@
       "childVisibility": "child-ok",
       "image": "/content/step-images/big-wild-goose-pagoda-current-view.jpg"
     },
-    "presentation": null,
-    "sceneAsset": null,
-    "narrativeAssets": [],
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "tang-translation-work-v1",
+      "sceneAlt": "讲解记录与核对的译场学习图",
+      "title": "玄奘带回书以后",
+      "evidenceTitle": "先看真实材料",
+      "evidenceLine": "真实材料提供线索，插画帮助理解故事。",
+      "evidenceNarration": "先看看真实材料，再听故事。",
+      "guide": "听问题，看看图里的线索。小喇叭能重听。",
+      "alignHint": "",
+      "familyHint": "回看图，和家人分享一个具体发现。",
+      "familyLabel": "和家人回看今天的发现",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "把发现带回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.75,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "tang-translation-reunion-v2",
+        "reunionAspectRatio": 1.78,
+        "reunionAlt": "小伙伴区分译书与小说的插画",
+        "coverCaption": "玄奘带回书以后",
+        "coverNarration": "小小旅行团到了唐朝！玄奘远行带回经书。不同语言里的意思，怎样让更多人读懂？",
+        "stationLine": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。",
+        "stationNarration": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。",
+        "closingCaption": "带着这一章的发现回家",
+        "closingNarration": "玄奘远行学习，回国后与许多人合作翻译经书。讲清、写下、核对，帮助不同地方的知识流传；后来的西游故事另有文学想象。",
+        "closingLine": "讲清、写下、核对，让知识传下去。",
+        "fictionNote": "大雁塔照片为2014年现状，始建652年晚于645年归来，经历后世改修。译场人物和室内安排为教学虚构，不是某次现场或具体协作者肖像。《大唐西域记》的旅途记录与译经工作分开；百回本《西游记》属后来明代小说，取经故事此前已有流传。",
+        "reunionImage": "/content/step-images/tang-translation-reunion-v2.jpg",
+        "stationAudio": {
+          "id": "quest-28429f02d81f52a4",
+          "text": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。"
+        },
+        "closingAudio": {
+          "id": "quest-d60f26ae639f3262",
+          "text": "玄奘远行学习，回国后与许多人合作翻译经书。讲清、写下、核对，帮助不同地方的知识流传；后来的西游故事另有文学想象。"
+        }
+      },
+      "sceneImage": "/content/step-images/tang-translation-work-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-996b2865505c8884",
+        "text": "先看看真实材料，再听故事。"
+      },
+      "guideAudio": {
+        "id": "quest-a164f4cbf6ca2ea6",
+        "text": "听问题，看看图里的线索。小喇叭能重听。"
+      }
+    },
+    "sceneAsset": {
+      "id": "tang-translation-work-v1",
+      "title": "讲解记录与核对的译场学习图",
+      "localPath": "reference-assets/sui-tang-five-dynasties/tang-translation-work-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学插画 · 不作历史现场或文物证据",
+      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-work-v1-prompt.txt。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/tang-translation-work-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "tang-translation-reunion-v2",
+        "title": "小伙伴区分译书与小说的插画",
+        "localPath": "reference-assets/sui-tang-five-dynasties/tang-translation-reunion-v2.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "项目自制；按OpenAI使用条款持有输出使用权",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学插画 · 不作历史现场或文物证据",
+        "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-reunion-v2-prompt.txt。 v2只把左页讲解者改为僧人，其他区域不变。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/tang-translation-reunion-v2.jpg"
+      },
+      {
+        "id": "tang-translation-work-v1",
+        "title": "讲解记录与核对的译场学习图",
+        "localPath": "reference-assets/sui-tang-five-dynasties/tang-translation-work-v1.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "项目自制；按OpenAI使用条款持有输出使用权",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学插画 · 不作历史现场或文物证据",
+        "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-work-v1-prompt.txt。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/tang-translation-work-v1.jpg"
+      }
+    ],
     "coverImage": "/content/step-images/big-wild-goose-pagoda-current-view.jpg",
     "coverImageAlt": "大雁塔现状照片",
     "coverImageKind": "历史材料",
     "coverAudio": {
-      "id": "quest-f6ed3c7e2649514c",
-      "text": "玄奘带回书以后。书带回来了，谁来把里面的话翻译清楚？准备好就点“去帮书找到读者”。"
+      "id": "quest-4dc5fc946253511b",
+      "text": "小小旅行团到了唐朝！玄奘远行带回经书。不同语言里的意思，怎样让更多人读懂？"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-9302b72eea4e53d8",
-      "text": "玄奘远行带回经典，译场中许多人合作；《西游记》的神奇伙伴属于后来的小说。"
+      "id": "quest-d60f26ae639f3262",
+      "text": "玄奘远行学习，回国后与许多人合作翻译经书。讲清、写下、核对，帮助不同地方的知识流传；后来的西游故事另有文学想象。"
     },
     "finish": {
-      "title": "两个人接力解释一句话",
+      "title": "书里的意思，靠大家传下去！",
       "actions": [
-        "家人说“这句话是什么意思”，你用动作解释。",
-        "换家人把你的动作说出来，体验解释和记录的分工。"
+        "指图找讲解、记录和核对的人，分别说说他们帮了什么忙。",
+        "请家人说一句短话，你换种说法解释；再一起检查意思有没有变。"
       ],
-      "parent": "问“书回来后为什么还要大家合作？”可答让人听懂、写下、检查。这个小游戏只体验分工，不复原古代译场语言。",
+      "parent": "只体验解释与核对，不模拟古代语言或宗教仪式。辩机协助整理《大唐西域记》，该记录不能与全部译经步骤混同。国家图书馆推广页简介有玄奘生卒年误植，正文导读列602—664，本章仅采用交叉核验的645归来及明代小说信息。",
       "sceneStepIndexes": [
         2,
         3
       ],
       "actionAudio": [
         {
-          "id": "quest-3d7a64c45cc9cdb6",
-          "text": "家人说“这句话是什么意思”，你用动作解释。"
+          "id": "quest-199e5e5c59c5c783",
+          "text": "指图找讲解、记录和核对的人，分别说说他们帮了什么忙。"
         },
         {
-          "id": "quest-311900c9b94cb8d0",
-          "text": "换家人把你的动作说出来，体验解释和记录的分工。"
+          "id": "quest-ab8a2507a09050e1",
+          "text": "请家人说一句短话，你换种说法解释；再一起检查意思有没有变。"
         }
       ],
       "introAudio": {
-        "id": "quest-72f1889d899c05b0",
-        "text": "两个人接力解释一句话。家人说“这句话是什么意思”，你用动作解释。换家人把你的动作说出来，体验解释和记录的分工。"
+        "id": "quest-d60f26ae639f3262",
+        "text": "玄奘远行学习，回国后与许多人合作翻译经书。讲清、写下、核对，帮助不同地方的知识流传；后来的西游故事另有文学想象。"
       }
     },
     "estimatedMinutes": 6,
@@ -279,82 +385,147 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "玄奘与小说的时间",
-        "title": "玄奘与小说的时间",
-        "prompt": "哪一个在前？",
-        "rightNote": "真实玄奘在前，后来小说发展出神奇故事。",
-        "wrongNote": "真实玄奘在前，后来小说发展出神奇故事。",
+        "phase": "从大雁塔，找到玄奘的时代",
+        "title": "从大雁塔，找到玄奘的时代",
+        "prompt": "玄奘的译书故事，发生在哪一朝？",
+        "rightNote": "来到唐朝，看看书怎样让人读懂。",
+        "wrongNote": "明朝在后面，玄奘的译书故事发生在唐朝。",
         "sourceIds": [
           "NOPSS-XUANZANG-XIYUJI",
-          "NLC-JOURNEY-WEST-CLASSIC"
+          "CSSN-TANG-TRANSLATION",
+          "SHAANXI-BIG-WILD-GOOSE-PAGODA",
+          "NLC-JOURNEY-WEST-CLASSIC",
+          "XIAN-CHRONICLE-BIG-PAGODA"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听清问题，看看图里的线索。"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "artifact",
+          "caption": "从大雁塔，找到玄奘的时代",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "来到唐朝，看看书怎样让人读懂。",
+          "retry": "明朝在后面，玄奘的译书故事发生在唐朝。",
+          "nextLabel": "远路回来，书还需要翻译"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "big-wild-goose-pagoda-current-view",
+          "title": "大雁塔 · 今天的照片",
+          "localPath": "reference-assets/sui-tang-five-dynasties/big-wild-goose-pagoda.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Big_Wild_Goose_Pagoda_2.JPG",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC0 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "始建于唐代652年 · 现存外观经后世改修",
+          "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。下载为1920×2560像素等比例图，未作其他修改。 今天西安大慈恩寺内的大雁塔。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/big-wild-goose-pagoda-current-view.jpg",
+          "label": "点开真实材料，听听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 350,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "西安市地方志办公室：建塔年代与用途",
+              "url": "https://xadfz.xa.gov.cn/xadq/rwxa/1802954373708996609.html"
+            },
+            {
+              "title": "陕西省文物局：大雁塔",
+              "url": "https://wwj.shaanxi.gov.cn/wbxx/bkydww/sjwhyc/201911/t20191115_1954435.html"
+            },
+            {
+              "title": "图像来源与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Big_Wild_Goose_Pagoda_2.JPG"
+            }
+          ],
+          "audio": {
+            "id": "quest-7b94f102e0955722",
+            "text": "这是今天的大雁塔，始建于唐代，曾用来保存经卷。照片不能当作玄奘归来那年的现场。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "玄奘与小说的时间",
-          "screenText": "玄奘在唐代645年回到长安。讲孙悟空的《西游记》，是后来明代的小说。",
-          "displayText": "玄奘在唐代645年回到长安。讲孙悟空的《西游记》，是后来明代的小说。",
-          "narration": "玄奘在唐代645年回到长安。讲孙悟空的《西游记》，是后来明代的小说。"
+          "title": "从大雁塔，找到玄奘的时代",
+          "screenText": "玄奘在唐代645年回到长安。后来，652年始建的大雁塔与保存带回的经卷有关。这张是今天的塔，样子经过后世改修。先去唐朝，听书回来以后的故事。",
+          "displayText": "玄奘在唐代645年回到长安。后来，652年始建的大雁塔与保存带回的经卷有关。这张是今天的塔，样子经过后世改修。先去唐朝，听书回来以后的故事。",
+          "narration": "玄奘在唐代645年回到长安。后来，652年始建的大雁塔与保存带回的经卷有关。这张是今天的塔，样子经过后世改修。先去唐朝，听书回来以后的故事。"
         },
-        "assetId": "study-3b4ba70def4f3ed4",
-        "image": "/content/study-scenes/study-3b4ba70def4f3ed4.svg",
-        "studyImage": "/content/study-scenes/study-3b4ba70def4f3ed4.svg",
-        "studyImageAlt": "唐 645年，明代小说",
-        "imageAlt": "唐 645年，明代小说",
-        "imageCaption": "学习示意 · 唐 645年，明代小说",
-        "imageBoundary": "自制学习示意。图中人物和书箱都是关系示意，不作为玄奘旅程或译场现场复原；历史人物与明代小说分开。",
+        "assetId": "big-wild-goose-pagoda-current-view",
+        "image": "/content/step-images/big-wild-goose-pagoda-current-view.jpg",
+        "studyImage": "/content/study-scenes/study-8e988b7610dbaf70.svg",
+        "studyImageAlt": "从大雁塔，找到玄奘的时代",
+        "imageAlt": "大雁塔现状照片",
+        "imageCaption": "大雁塔现状照片",
+        "imageBoundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。下载为1920×2560像素等比例图，未作其他修改。",
         "audio": {
+          "lead": {
+            "id": "quest-1a43c8eac3237ff9",
+            "text": "玄奘生活在唐朝。照片是今天的大雁塔，先去唐朝听故事。"
+          },
           "transition": {
-            "id": "quest-c65f03d336e6fb79",
-            "text": "玄奘与小说的时间。"
+            "id": "quest-c266bc653fa63411",
+            "text": "从大雁塔，找到玄奘的时代。"
           },
           "intro": {
-            "id": "quest-27fad465dda6226f",
-            "text": "玄奘在唐代645年回到长安。讲孙悟空的《西游记》，是后来明代的小说。"
+            "id": "quest-91136f9b69f9f790",
+            "text": "玄奘在唐代645年回到长安。后来，652年始建的大雁塔与保存带回的经卷有关。这张是今天的塔，样子经过后世改修。先去唐朝，听书回来以后的故事。"
           },
           "question": {
-            "id": "quest-40ab97541391cfa6",
-            "text": "哪一个在前？"
+            "id": "quest-204603e2b1da8d1f",
+            "text": "玄奘的译书故事，发生在哪一朝？"
           },
           "image": {
-            "id": "quest-c3ed2a033e138718",
-            "text": "这是学习示意图：唐 645年，明代小说。哪一个在前？"
+            "id": "quest-84d67044aa9fdca3",
+            "text": "这张是大雁塔现状照片。玄奘在唐代645年回到长安。后来，652年始建的大雁塔与保存带回的经卷有关。这张是今天的塔，样子经过后世改修。先去唐朝，听书回来以后的故事。"
           },
           "right": {
-            "id": "quest-ffc2ed605539e7ea",
-            "text": "找到了。真实玄奘在前，后来小说发展出神奇故事。"
+            "id": "quest-be484233af948ad5",
+            "text": "来到唐朝，看看书怎样让人读懂。"
           },
           "wrong": {
-            "id": "quest-7741315d29ecba30",
-            "text": "再比较一下。真实玄奘在前，后来小说发展出神奇故事。"
+            "id": "quest-c77ea7f78b9a7eac",
+            "text": "明朝在后面，玄奘的译书故事发生在唐朝。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-06-04-tang-cultural-exchange-time-1",
-            "label": "唐代玄奘 → 明代小说",
+            "label": "唐朝 · 645年归来",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-aaf92f70c4662820.svg",
-            "imageAlt": "唐代玄奘，明代小说",
+            "objectView": {
+              "kind": "era",
+              "name": "唐朝",
+              "date": "645年归来",
+              "stationImage": "/images/history-stations/tang.webp"
+            },
+            "image": "/content/study-scenes/study-88316bdc0dff025d.svg",
+            "imageAlt": "唐朝 645年归来",
             "audio": {
-              "id": "quest-52dfa3753a4bbeb6",
-              "text": "唐代玄奘 → 明代小说"
+              "id": "quest-0c32c7acf5905b87",
+              "text": "唐朝 · 645年归来"
             }
           },
           {
             "id": "cn-ancient-06-04-tang-cultural-exchange-time-2",
-            "label": "明代小说 → 唐代玄奘",
+            "label": "明朝 · 1368年以后",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-6f94ced74e2010ab.svg",
-            "imageAlt": "明代小说，唐代玄奘",
+            "objectView": {
+              "kind": "era",
+              "name": "明朝",
+              "date": "1368年以后",
+              "stationImage": "/images/history-stations/exploration.webp"
+            },
+            "image": "/content/study-scenes/study-d41925abf6902d10.svg",
+            "imageAlt": "明朝 1368年以后",
             "audio": {
-              "id": "quest-5aa30f557877d5a4",
-              "text": "明代小说 → 唐代玄奘"
+              "id": "quest-e126ca135061ae77",
+              "text": "明朝 · 1368年以后"
             }
           }
         ]
@@ -363,250 +534,354 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "远路带回来的书",
-        "title": "远路带回来的书",
-        "prompt": "书回来后，还需要做什么？",
-        "rightNote": "整理有用，但要让更多读者理解，还需要翻译。",
-        "wrongNote": "整理有用，但要让更多读者理解，还需要翻译。",
+        "phase": "带回经书，还要让人读懂",
+        "title": "带回经书，还要让人读懂",
+        "prompt": "书里的意思，怎样传给读者？",
+        "rightNote": "一起接着看。",
+        "wrongNote": "再看看这一幕。",
         "sourceIds": [
           "NOPSS-XUANZANG-XIYUJI",
-          "UNESCO-ANCIENT-NARA"
+          "CSSN-TANG-TRANSLATION",
+          "SHAANXI-BIG-WILD-GOOSE-PAGODA",
+          "NLC-JOURNEY-WEST-CLASSIC"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听清问题，看看图里的线索。",
+          "continueLabel": "找出译场里的不同工作"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "带回经书，还要让人读懂",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "一起接着看。",
+          "retry": "再看看这一幕。",
+          "nextLabel": "找出译场里的不同工作"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "远路带回来的书",
-          "screenText": "玄奘带回经典。书到了长安，不熟悉原来语言的人还需要帮助才能读懂。",
-          "displayText": "玄奘带回经典。书到了长安，不熟悉原来语言的人还需要帮助才能读懂。",
-          "narration": "玄奘带回经典。书到了长安，不熟悉原来语言的人还需要帮助才能读懂。"
+          "title": "带回经书，还要让人读懂",
+          "screenText": "玄奘到远方学习佛教，带回不同语言的经书。书到了长安，还要把意思译成汉文。译场里，人们讲解、记录、整理和核对，依靠学问与合作，才能把书译得更清楚。",
+          "displayText": "把意思讲清、写下，再仔细核对。\n翻译需要学问，也需要合作。",
+          "narration": "玄奘到远方学习佛教，带回不同语言的经书。书到了长安，还要把意思译成汉文。译场里，人们讲解、记录、整理和核对，依靠学问与合作，才能把书译得更清楚。"
         },
-        "assetId": "study-e0104d0ef5abfa80",
-        "image": "/content/study-scenes/study-e0104d0ef5abfa80.svg",
-        "studyImage": "/content/study-scenes/study-e0104d0ef5abfa80.svg",
-        "studyImageAlt": "带回书，不同语言",
-        "imageAlt": "带回书，不同语言",
-        "imageCaption": "学习示意 · 带回书，不同语言",
-        "imageBoundary": "自制学习示意。图中人物和书箱都是关系示意，不作为玄奘旅程或译场现场复原；历史人物与明代小说分开。",
+        "assetId": "tang-translation-work-v1",
+        "image": "/content/step-images/tang-translation-work-v1.jpg",
+        "studyImage": "/content/study-scenes/study-6a4b9f39c3a03076.svg",
+        "studyImageAlt": "带回经书，还要让人读懂",
+        "imageAlt": "讲解记录与核对的译场学习图",
+        "imageCaption": "讲解记录与核对的译场学习图",
+        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-work-v1-prompt.txt。",
         "audio": {
+          "lead": {
+            "id": "quest-aa0ebdf286c23a2a",
+            "text": "书回来以后，还要靠许多人合作翻译。"
+          },
           "transition": {
-            "id": "quest-8c316c6d46e4bccc",
-            "text": "远路带回来的书。"
+            "id": "quest-2bce536493788357",
+            "text": "带回经书，还要让人读懂。"
           },
           "intro": {
-            "id": "quest-2c507243b519aed7",
-            "text": "玄奘带回经典。书到了长安，不熟悉原来语言的人还需要帮助才能读懂。"
+            "id": "quest-c31a5e2b647dec79",
+            "text": "玄奘到远方学习佛教，带回不同语言的经书。书到了长安，还要把意思译成汉文。译场里，人们讲解、记录、整理和核对，依靠学问与合作，才能把书译得更清楚。"
           },
           "question": {
-            "id": "quest-52852871d48e101d",
-            "text": "书回来后，还需要做什么？"
+            "id": "quest-5d202e5c8ecf4efc",
+            "text": "书里的意思，怎样传给读者？"
           },
           "image": {
-            "id": "quest-d4fdfb5c2a31265a",
-            "text": "这是学习示意图：带回书，不同语言。书回来后，还需要做什么？"
+            "id": "quest-1deabb0274e879ae",
+            "text": "这张是讲解记录与核对的译场学习图。玄奘到远方学习佛教，带回不同语言的经书。书到了长安，还要把意思译成汉文。译场里，人们讲解、记录、整理和核对，依靠学问与合作，才能把书译得更清楚。"
           },
           "right": {
-            "id": "quest-d75b56464ff0af25",
-            "text": "找到了。整理有用，但要让更多读者理解，还需要翻译。"
+            "id": "quest-6261c933705a3753",
+            "text": "一起接着看。"
           },
           "wrong": {
-            "id": "quest-b43e2239f8ed3441",
-            "text": "再比较一下。整理有用，但要让更多读者理解，还需要翻译。"
+            "id": "quest-132fe992f98fa35d",
+            "text": "再看看这一幕。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-06-04-tang-cultural-exchange-beginning-1",
-            "label": "翻译并解释书中的话",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-3e5d8270440699fa.svg",
-            "imageAlt": "翻译解释",
-            "audio": {
-              "id": "quest-b4a8c05c2b212082",
-              "text": "翻译并解释书中的话"
-            }
-          },
-          {
-            "id": "cn-ancient-06-04-tang-cultural-exchange-beginning-2",
-            "label": "只把书堆得更整齐",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-ef3c34628787f246.svg",
-            "imageAlt": "只排整齐",
-            "audio": {
-              "id": "quest-a95cd0dc18dced8a",
-              "text": "只把书堆得更整齐"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "译场里的许多双手",
-        "title": "译场里的许多双手",
-        "prompt": "哪组分工能互相配合？",
-        "rightNote": "搬运不能代替理解与校对，不同工作要相互配合。",
-        "wrongNote": "搬运不能代替理解与校对，不同工作要相互配合。",
+        "phase": "讲清、写下，再核对",
+        "title": "讲清、写下，再核对",
+        "prompt": "谁在讲解？谁又在记录？",
+        "rightNote": "一起接着看。",
+        "wrongNote": "再看看这一幕。",
         "sourceIds": [
           "NOPSS-XUANZANG-XIYUJI",
-          "UNESCO-ANCIENT-NARA"
+          "CSSN-TANG-TRANSLATION",
+          "SHAANXI-BIG-WILD-GOOSE-PAGODA",
+          "NLC-JOURNEY-WEST-CLASSIC"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听清问题，看看图里的线索。",
+          "ariaLabel": "在译场学习图中找不同工作",
+          "hotspots": [
+            {
+              "id": "explain",
+              "label": "正在讲解的人",
+              "x": 0.02,
+              "y": 0.425,
+              "width": 0.225,
+              "height": 0.225
+            },
+            {
+              "id": "write",
+              "label": "执笔记录的人",
+              "x": 0.28,
+              "y": 0.48,
+              "width": 0.265,
+              "height": 0.25
+            },
+            {
+              "id": "compare",
+              "label": "对照两份稿子的人",
+              "x": 0.61,
+              "y": 0.495,
+              "width": 0.375,
+              "height": 0.235
+            }
+          ],
+          "rounds": [
+            {
+              "id": "find-explain",
+              "question": "谁在把意思讲给旁人听？",
+              "targetId": "explain",
+              "feedback": "讲解帮助大家先理解意思。",
+              "retry": "再找正在说话、用手解释的人。",
+              "nextLabel": "再找写下内容的人",
+              "audio": {
+                "question": {
+                  "id": "quest-7c8c02ca62e3faa1",
+                  "text": "谁在把意思讲给旁人听？"
+                },
+                "right": {
+                  "id": "quest-c7dc76602bd5659f",
+                  "text": "讲解帮助大家先理解意思。"
+                },
+                "wrong": {
+                  "id": "quest-c9c29117659953db",
+                  "text": "再找正在说话、用手解释的人。"
+                }
+              }
+            },
+            {
+              "id": "find-writer",
+              "question": "谁在用笔把内容记录下来？",
+              "targetId": "write",
+              "feedback": "记录把讨论的内容留下，之后还要核对。",
+              "retry": "再找手里拿笔、正在纸上写的人。",
+              "audio": {
+                "question": {
+                  "id": "quest-dcf1f010dc5bb956",
+                  "text": "谁在用笔把内容记录下来？"
+                },
+                "right": {
+                  "id": "quest-0a445ca0733f913d",
+                  "text": "记录把讨论的内容留下，之后还要核对。"
+                },
+                "wrong": {
+                  "id": "quest-9ba53f11c58b7a4d",
+                  "text": "再找手里拿笔、正在纸上写的人。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "讲清、写下，再核对",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "一起接着看。",
+          "retry": "再看看这一幕。",
+          "nextLabel": "译文的意思，要怎样检查"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "译场里的许多双手",
-          "screenText": "译场里有人讲解，有人记录、整理和校对。不是玄奘一个人包办每一步。",
-          "displayText": "译场里有人讲解，有人记录、整理和校对。不是玄奘一个人包办每一步。",
-          "narration": "译场里有人讲解，有人记录、整理和校对。不是玄奘一个人包办每一步。"
+          "title": "讲清、写下，再核对",
+          "screenText": "这幅学习图把几种工作画在一起：有人讲解，有人执笔记录，还有人把两份稿子放在一起核对。图中人不是一份真实合影，动作帮助我们理解译场合作。",
+          "displayText": "这幅学习图把几种工作画在一起：有人讲解，有人执笔记录，还有人把两份稿子放在一起核对。图中人不是一份真实合影，动作帮助我们理解译场合作。",
+          "narration": "这幅学习图把几种工作画在一起：有人讲解，有人执笔记录，还有人把两份稿子放在一起核对。图中人不是一份真实合影，动作帮助我们理解译场合作。"
         },
-        "assetId": "study-93c7d486f874025c",
-        "image": "/content/study-scenes/study-93c7d486f874025c.svg",
-        "studyImage": "/content/study-scenes/study-93c7d486f874025c.svg",
-        "studyImageAlt": "讲解，记录，校对",
-        "imageAlt": "讲解，记录，校对",
-        "imageCaption": "学习示意 · 讲解，记录，校对",
-        "imageBoundary": "自制学习示意。图中人物和书箱都是关系示意，不作为玄奘旅程或译场现场复原；历史人物与明代小说分开。",
+        "assetId": "tang-translation-work-v1",
+        "image": "/content/step-images/tang-translation-work-v1.jpg",
+        "studyImage": "/content/study-scenes/study-6ca7f2a1e8084833.svg",
+        "studyImageAlt": "讲清、写下，再核对",
+        "imageAlt": "讲解记录与核对的译场学习图",
+        "imageCaption": "讲解记录与核对的译场学习图",
+        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-work-v1-prompt.txt。",
         "audio": {
+          "lead": {
+            "id": "quest-d9ebd08adb01d2be",
+            "text": "先找讲解意思的人，再找拿笔记录的人。"
+          },
           "transition": {
-            "id": "quest-8d3dfca2ce61de96",
-            "text": "译场里的许多双手。"
+            "id": "quest-3b769780f22d7185",
+            "text": "讲清、写下，再核对。"
           },
           "intro": {
-            "id": "quest-5ae855b19eb3f4d1",
-            "text": "译场里有人讲解，有人记录、整理和校对。不是玄奘一个人包办每一步。"
+            "id": "quest-803611e7f11c9260",
+            "text": "这幅学习图把几种工作画在一起：有人讲解，有人执笔记录，还有人把两份稿子放在一起核对。图中人不是一份真实合影，动作帮助我们理解译场合作。"
           },
           "question": {
-            "id": "quest-31e3fc98837ebfdc",
-            "text": "哪组分工能互相配合？"
+            "id": "quest-822d4e7fbccbec99",
+            "text": "谁在讲解？谁又在记录？"
           },
           "image": {
-            "id": "quest-e4d6c207d85c2161",
-            "text": "这是学习示意图：讲解，记录，校对。哪组分工能互相配合？"
+            "id": "quest-797d21867fbf82da",
+            "text": "这张是讲解记录与核对的译场学习图。这幅学习图把几种工作画在一起：有人讲解，有人执笔记录，还有人把两份稿子放在一起核对。图中人不是一份真实合影，动作帮助我们理解译场合作。"
           },
           "right": {
-            "id": "quest-832e6470e3fddee8",
-            "text": "找到了。搬运不能代替理解与校对，不同工作要相互配合。"
+            "id": "quest-6261c933705a3753",
+            "text": "一起接着看。"
           },
           "wrong": {
-            "id": "quest-aff96f6b545b19d9",
-            "text": "再比较一下。搬运不能代替理解与校对，不同工作要相互配合。"
+            "id": "quest-132fe992f98fa35d",
+            "text": "再看看这一幕。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-06-04-tang-cultural-exchange-journey-1",
-            "label": "讲解、记录、校对",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-531d44cea5446d93.svg",
-            "imageAlt": "讲解，记录，校对",
-            "audio": {
-              "id": "quest-ae786a2605bb84ea",
-              "text": "讲解、记录、校对"
-            }
-          },
-          {
-            "id": "cn-ancient-06-04-tang-cultural-exchange-journey-2",
-            "label": "大家都只搬书箱",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-aef8be468e677775.svg",
-            "imageAlt": "搬箱，搬箱，搬箱",
-            "audio": {
-              "id": "quest-08f56c5d35ba9a6d",
-              "text": "大家都只搬书箱"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "记录也要分清来源",
-        "title": "记录也要分清来源",
-        "prompt": "听来的消息怎样标更合适？",
-        "rightNote": "亲眼见到和听别人讲，是不同的证据来源。",
-        "wrongNote": "亲眼见到和听别人讲，是不同的证据来源。",
+        "phase": "要检查意思，不能只看整齐",
+        "title": "要检查意思，不能只看整齐",
+        "prompt": "要检查译得对不对，先找哪种工作？",
+        "rightNote": "对照与讨论，帮助译文贴近原来的意思。",
+        "wrongNote": "记录有用，核对意思还要对照原文。",
         "sourceIds": [
           "NOPSS-XUANZANG-XIYUJI",
-          "UNESCO-ANCIENT-NARA"
+          "CSSN-TANG-TRANSLATION",
+          "SHAANXI-BIG-WILD-GOOSE-PAGODA",
+          "NLC-JOURNEY-WEST-CLASSIC"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清问题，看看图里的线索。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "要检查意思，不能只看整齐",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "对照与讨论，帮助译文贴近原来的意思。",
+          "retry": "记录有用，核对意思还要对照原文。",
+          "nextLabel": "书的远行，还留下了什么"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "记录也要分清来源",
-          "screenText": "辩机协助写成《大唐西域记》。其中既有亲历，也有听来的情况，要分别核对。",
-          "displayText": "辩机协助写成《大唐西域记》。其中既有亲历，也有听来的情况，要分别核对。",
-          "narration": "辩机协助写成《大唐西域记》。其中既有亲历，也有听来的情况，要分别核对。"
+          "title": "要检查意思，不能只看整齐",
+          "screenText": "小伙伴问：译出来的话，和原书的意思对得上吗？写得整齐很有用，核对意思却要把原文和译文放在一起，遇到疑问再讨论。",
+          "displayText": "小伙伴问：译出来的话，和原书的意思对得上吗？写得整齐很有用，核对意思却要把原文和译文放在一起，遇到疑问再讨论。",
+          "narration": "小伙伴问：译出来的话，和原书的意思对得上吗？写得整齐很有用，核对意思却要把原文和译文放在一起，遇到疑问再讨论。"
         },
-        "assetId": "study-84040d5472465033",
-        "image": "/content/study-scenes/study-84040d5472465033.svg",
-        "studyImage": "/content/study-scenes/study-84040d5472465033.svg",
-        "studyImageAlt": "亲历，听闻，分别记录",
-        "imageAlt": "亲历，听闻，分别记录",
-        "imageCaption": "学习示意 · 亲历，听闻，分别记录",
-        "imageBoundary": "自制学习示意。图中人物和书箱都是关系示意，不作为玄奘旅程或译场现场复原；历史人物与明代小说分开。",
+        "assetId": "tang-translation-work-v1",
+        "image": "/content/step-images/tang-translation-work-v1.jpg",
+        "studyImage": "/content/study-scenes/study-c4cf64a96b0a40e0.svg",
+        "studyImageAlt": "要检查意思，不能只看整齐",
+        "imageAlt": "讲解记录与核对的译场学习图",
+        "imageCaption": "讲解记录与核对的译场学习图",
+        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-work-v1-prompt.txt。",
         "audio": {
+          "lead": {
+            "id": "quest-3f146a317b690c86",
+            "text": "想知道意思对不对，选对照两份稿子的工作。"
+          },
           "transition": {
-            "id": "quest-c535321a9e0b7203",
-            "text": "记录也要分清来源。"
+            "id": "quest-7f44749476f74ea0",
+            "text": "要检查意思，不能只看整齐。"
           },
           "intro": {
-            "id": "quest-74be1d80a312fbcd",
-            "text": "辩机协助写成《大唐西域记》。其中既有亲历，也有听来的情况，要分别核对。"
+            "id": "quest-b83eb69af6a9ccff",
+            "text": "小伙伴问：译出来的话，和原书的意思对得上吗？写得整齐很有用，核对意思却要把原文和译文放在一起，遇到疑问再讨论。"
           },
           "question": {
-            "id": "quest-a0d7c79567f22929",
-            "text": "听来的消息怎样标更合适？"
+            "id": "quest-f9f59a8db59c3344",
+            "text": "要检查译得对不对，先找哪种工作？"
           },
           "image": {
-            "id": "quest-8dd03f04177f3fb9",
-            "text": "这是学习示意图：亲历，听闻，分别记录。听来的消息怎样标更合适？"
+            "id": "quest-17dc834b2ac0e977",
+            "text": "这张是讲解记录与核对的译场学习图。小伙伴问：译出来的话，和原书的意思对得上吗？写得整齐很有用，核对意思却要把原文和译文放在一起，遇到疑问再讨论。"
           },
           "right": {
-            "id": "quest-f02c3ff2cf7cc2e3",
-            "text": "找到了。亲眼见到和听别人讲，是不同的证据来源。"
+            "id": "quest-07a00ceffd29b3bc",
+            "text": "对照与讨论，帮助译文贴近原来的意思。"
           },
           "wrong": {
-            "id": "quest-6311d953ab965725",
-            "text": "再比较一下。亲眼见到和听别人讲，是不同的证据来源。"
+            "id": "quest-70c0ffbef70f16c4",
+            "text": "记录有用，核对意思还要对照原文。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-06-04-tang-cultural-exchange-change-1",
-            "label": "标明听说，继续核对",
+            "label": "对照原文与译文",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-f1ff6ad3f5849991.svg",
-            "imageAlt": "听说待核对",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "tang-translation-work-v1",
+              "crop": {
+                "x": 930,
+                "y": 510,
+                "width": 600,
+                "height": 240,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/tang-translation-work-v1.jpg",
+              "imageAlt": "对照原文与译文"
+            },
+            "image": "/content/study-scenes/study-b9d9f0e379d004db.svg",
+            "imageAlt": "对照原文与译文",
             "audio": {
-              "id": "quest-82c54b032fe2090b",
-              "text": "标明听说，继续核对"
+              "id": "quest-761d0c6243f21df0",
+              "text": "对照原文与译文"
             }
           },
           {
             "id": "cn-ancient-06-04-tang-cultural-exchange-change-2",
-            "label": "直接写成亲眼所见",
+            "label": "把内容写在纸上",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-452113b922fec629.svg",
-            "imageAlt": "改成亲眼见",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "tang-translation-work-v1",
+              "crop": {
+                "x": 405,
+                "y": 490,
+                "width": 440,
+                "height": 240,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/tang-translation-work-v1.jpg",
+              "imageAlt": "把内容写在纸上"
+            },
+            "image": "/content/study-scenes/study-9ccadbaf91382847.svg",
+            "imageAlt": "把内容写在纸上",
             "audio": {
-              "id": "quest-8de1e62c947dc6c8",
-              "text": "直接写成亲眼所见"
+              "id": "quest-d1a0b6185e5b13e1",
+              "text": "把内容写在纸上"
             }
           }
         ]
@@ -615,85 +890,79 @@
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "遇见孙悟空",
-        "title": "遇见孙悟空",
-        "prompt": "介绍译场合作时，该找谁？",
-        "rightNote": "小说可以引起兴趣，译经经过要回到历史人物和记录。",
-        "wrongNote": "小说可以引起兴趣，译经经过要回到历史人物和记录。",
+        "phase": "真实远行，也成为后来的故事",
+        "title": "真实远行，也成为后来的故事",
+        "prompt": "真实译书与神奇小说，怎样分别讲？",
+        "rightNote": "一起接着看。",
+        "wrongNote": "再看看这一幕。",
         "sourceIds": [
           "NOPSS-XUANZANG-XIYUJI",
-          "UNESCO-ANCIENT-NARA"
+          "CSSN-TANG-TRANSLATION",
+          "SHAANXI-BIG-WILD-GOOSE-PAGODA",
+          "NLC-JOURNEY-WEST-CLASSIC"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听清问题，看看图里的线索。",
+          "continueLabel": "把译书的发现带回家"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "reunion",
+          "caption": "真实远行，也成为后来的故事",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "一起接着看。",
+          "retry": "再看看这一幕。",
+          "nextLabel": "把译书的发现带回家"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 5,
-          "title": "遇见孙悟空",
-          "screenText": "孙悟空很好玩，但不在玄奘真实的译经团队里。人物和小说可以相连，也要分清。",
-          "displayText": "孙悟空很好玩，但不在玄奘真实的译经团队里。人物和小说可以相连，也要分清。",
-          "narration": "孙悟空很好玩，但不在玄奘真实的译经团队里。人物和小说可以相连，也要分清。"
+          "title": "真实远行，也成为后来的故事",
+          "screenText": "玄奘和协作者用学问把经书译出来，让知识继续流传。到后来的明代，长篇小说《西游记》讲起唐僧与孙悟空的神奇经历。真实历史与文学想象有关联，也各有自己的讲法。",
+          "displayText": "真实译书：学问与合作。\n后来小说：丰富的文学想象。",
+          "narration": "玄奘和协作者用学问把经书译出来，让知识继续流传。到后来的明代，长篇小说《西游记》讲起唐僧与孙悟空的神奇经历。真实历史与文学想象有关联，也各有自己的讲法。"
         },
-        "assetId": "study-714b47b77575c8a1",
-        "image": "/content/study-scenes/study-714b47b77575c8a1.svg",
-        "studyImage": "/content/study-scenes/study-714b47b77575c8a1.svg",
-        "studyImageAlt": "历史译场，后来小说",
-        "imageAlt": "历史译场，后来小说",
-        "imageCaption": "学习示意 · 历史译场，后来小说",
-        "imageBoundary": "自制学习示意。图中人物和书箱都是关系示意，不作为玄奘旅程或译场现场复原；历史人物与明代小说分开。",
+        "assetId": "tang-translation-reunion-v2",
+        "image": "/content/step-images/tang-translation-reunion-v2.jpg",
+        "studyImage": "/content/study-scenes/study-1e2a46b01232b358.svg",
+        "studyImageAlt": "真实远行，也成为后来的故事",
+        "imageAlt": "小伙伴区分译书与小说的插画",
+        "imageCaption": "小伙伴区分译书与小说的插画",
+        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-reunion-v2-prompt.txt。 v2只把左页讲解者改为僧人，其他区域不变。",
         "audio": {
+          "lead": {
+            "id": "quest-31bb1f2f50a5be00",
+            "text": "真实的译书靠学问与合作；孙悟空在后来的小说里。"
+          },
           "transition": {
-            "id": "quest-a56792a0d0a3fe66",
-            "text": "遇见孙悟空。"
+            "id": "quest-11cc40dc6e1f0ce2",
+            "text": "真实远行，也成为后来的故事。"
           },
           "intro": {
-            "id": "quest-f5c908d3b743752e",
-            "text": "孙悟空很好玩，但不在玄奘真实的译经团队里。人物和小说可以相连，也要分清。"
+            "id": "quest-d04a2fbf6d7ce187",
+            "text": "玄奘和协作者用学问把经书译出来，让知识继续流传。到后来的明代，长篇小说《西游记》讲起唐僧与孙悟空的神奇经历。真实历史与文学想象有关联，也各有自己的讲法。"
           },
           "question": {
-            "id": "quest-2fd77b16d6e69cb2",
-            "text": "介绍译场合作时，该找谁？"
+            "id": "quest-4a2ba051b8b34c79",
+            "text": "真实译书与神奇小说，怎样分别讲？"
           },
           "image": {
-            "id": "quest-9fabd2dadfb52524",
-            "text": "这是学习示意图：历史译场，后来小说。介绍译场合作时，该找谁？"
+            "id": "quest-1af83eb298c7ba5d",
+            "text": "这张是小伙伴区分译书与小说的插画。玄奘和协作者用学问把经书译出来，让知识继续流传。到后来的明代，长篇小说《西游记》讲起唐僧与孙悟空的神奇经历。真实历史与文学想象有关联，也各有自己的讲法。"
           },
           "right": {
-            "id": "quest-1ece56c4010d9104",
-            "text": "找到了。小说可以引起兴趣，译经经过要回到历史人物和记录。"
+            "id": "quest-6261c933705a3753",
+            "text": "一起接着看。"
           },
           "wrong": {
-            "id": "quest-2b94b2a124451f37",
-            "text": "再比较一下。小说可以引起兴趣，译经经过要回到历史人物和记录。"
+            "id": "quest-132fe992f98fa35d",
+            "text": "再看看这一幕。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-06-04-tang-cultural-exchange-takeaway-1",
-            "label": "玄奘与翻译协作者",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-a56fe68e562ae521.svg",
-            "imageAlt": "译场协作者",
-            "audio": {
-              "id": "quest-bceeb0d3b8fd058e",
-              "text": "玄奘与翻译协作者"
-            }
-          },
-          {
-            "id": "cn-ancient-06-04-tang-cultural-exchange-takeaway-2",
-            "label": "孙悟空与神奇法术",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-71fb152d3c201294.svg",
-            "imageAlt": "孙悟空法术",
-            "audio": {
-              "id": "quest-8bd1f3e5da67f1ef",
-              "text": "孙悟空与神奇法术"
-            }
-          }
-        ]
+        "options": []
       }
     ],
     "extensionTasks": [
@@ -738,7 +1007,7 @@
       "number": 2,
       "text": "玄奘回国后参加译经活动。翻译需要懂不同语言的人、校订者、记录者和支持场所，不是一个人独自把所有经卷变成汉字。",
       "sourceIds": [
-        "NOPSS-XUANZANG-XIYUJI"
+        "CSSN-TANG-TRANSLATION"
       ]
     },
     {
@@ -752,7 +1021,7 @@
       "number": 4,
       "text": "玄奘是历史人物，《西游记》是后世文学作品；孙悟空、猪八戒和沙僧不属于真实西行队伍。",
       "sourceIds": [
-        "NOPSS-XUANZANG-XIYUJI"
+        "NLC-JOURNEY-WEST-CLASSIC"
       ]
     },
     {
@@ -1022,6 +1291,26 @@
       "imageUse": "reference-only"
     },
     {
+      "id": "CSSN-TANG-TRANSLATION",
+      "title": "隋唐佛经阐释中的“八备”与“五不翻”",
+      "institution": "中国社会科学网；康宇、姜春兰（黑龙江大学）",
+      "url": "https://www.cssn.cn/skgz/bwyc/202302/t20230228_5599619.shtml",
+      "type": "academic-research-article",
+      "authorityLevel": "A",
+      "factUse": "唐代译场的解释、笔录、核对等分工及玄奘重视跨语言意义；不把教学三步图说成固定历史流水线",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NLC-JOURNEY-WEST-CLASSIC",
+      "title": "中华传统文化百部经典·西游记",
+      "institution": "国家图书馆出版社",
+      "url": "https://www.nlc.cn/web/zdxm/bbjd/mobile/dtxx/xctg/20241018_2641596.shtml",
+      "type": "national-library-classic-literature-resource",
+      "authorityLevel": "A-national-library",
+      "factUse": "《西游记》为明代长篇小说，以玄奘西行为历史素材并进行丰富文学想象；孙悟空等角色属于小说，不进入玄奘真实队伍",
+      "imageUse": "reference-only"
+    },
+    {
       "id": "SHAANXI-BIG-WILD-GOOSE-PAGODA",
       "title": "大雁塔",
       "institution": "陕西省文物局",
@@ -1052,13 +1341,13 @@
       "imageUse": "reference-only"
     },
     {
-      "id": "NLC-JOURNEY-WEST-CLASSIC",
-      "title": "中华传统文化百部经典·西游记",
-      "institution": "国家图书馆出版社",
-      "url": "https://www.nlc.cn/web/zdxm/bbjd/mobile/dtxx/xctg/20241018_2641596.shtml",
-      "type": "national-library-classic-literature-resource",
-      "authorityLevel": "A-national-library",
-      "factUse": "《西游记》为明代长篇小说，以玄奘西行为历史素材并进行丰富文学想象；孙悟空等角色属于小说，不进入玄奘真实队伍",
+      "id": "XIAN-CHRONICLE-BIG-PAGODA",
+      "title": "大雁塔（西安市志旅游分志）",
+      "institution": "西安市地方志办公室",
+      "url": "https://xadfz.xa.gov.cn/xadq/rwxa/1802954373708996609.html",
+      "type": "government-local-chronicle",
+      "authorityLevel": "A",
+      "factUse": "652年为玄奘藏经典而建的年代与用途；现状描述不等于唐初原貌",
       "imageUse": "reference-only"
     },
     {
@@ -1074,197 +1363,119 @@
   ],
   "assets": [
     {
-      "id": "study-3b4ba70def4f3ed4",
-      "title": "学习示意：唐 645年、明代小说",
-      "localPath": "reference-assets/focused-quests/study-3b4ba70def4f3ed4.svg",
+      "id": "study-8e988b7610dbaf70",
+      "title": "学习示意：从大雁塔，找到玄奘的时代",
+      "localPath": "reference-assets/focused-quests/study-8e988b7610dbaf70.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "唐 645年 → 明代小说",
+      "caption": "从大雁塔，找到玄奘的时代",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-aaf92f70c4662820",
-      "title": "学习示意：唐代玄奘、明代小说",
-      "localPath": "reference-assets/focused-quests/study-aaf92f70c4662820.svg",
+      "id": "study-88316bdc0dff025d",
+      "title": "学习示意：唐朝 645年归来",
+      "localPath": "reference-assets/focused-quests/study-88316bdc0dff025d.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "唐代玄奘 → 明代小说",
+      "caption": "唐朝 645年归来",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-6f94ced74e2010ab",
-      "title": "学习示意：明代小说、唐代玄奘",
-      "localPath": "reference-assets/focused-quests/study-6f94ced74e2010ab.svg",
+      "id": "study-d41925abf6902d10",
+      "title": "学习示意：明朝 1368年以后",
+      "localPath": "reference-assets/focused-quests/study-d41925abf6902d10.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "明代小说 → 唐代玄奘",
+      "caption": "明朝 1368年以后",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-e0104d0ef5abfa80",
-      "title": "学习示意：带回书、不同语言",
-      "localPath": "reference-assets/focused-quests/study-e0104d0ef5abfa80.svg",
+      "id": "study-6a4b9f39c3a03076",
+      "title": "学习示意：带回经书，还要让人读懂",
+      "localPath": "reference-assets/focused-quests/study-6a4b9f39c3a03076.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "带回书 → 不同语言",
+      "caption": "带回经书，还要让人读懂",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-3e5d8270440699fa",
-      "title": "学习示意：翻译解释",
-      "localPath": "reference-assets/focused-quests/study-3e5d8270440699fa.svg",
+      "id": "study-6ca7f2a1e8084833",
+      "title": "学习示意：讲清、写下，再核对",
+      "localPath": "reference-assets/focused-quests/study-6ca7f2a1e8084833.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "翻译解释",
+      "caption": "讲清、写下，再核对",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-ef3c34628787f246",
-      "title": "学习示意：只排整齐",
-      "localPath": "reference-assets/focused-quests/study-ef3c34628787f246.svg",
+      "id": "study-c4cf64a96b0a40e0",
+      "title": "学习示意：要检查意思，不能只看整齐",
+      "localPath": "reference-assets/focused-quests/study-c4cf64a96b0a40e0.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "只排整齐",
+      "caption": "要检查意思，不能只看整齐",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-93c7d486f874025c",
-      "title": "学习示意：讲解、记录、校对",
-      "localPath": "reference-assets/focused-quests/study-93c7d486f874025c.svg",
+      "id": "study-b9d9f0e379d004db",
+      "title": "学习示意：对照原文与译文",
+      "localPath": "reference-assets/focused-quests/study-b9d9f0e379d004db.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "讲解 → 记录 → 校对",
+      "caption": "对照原文与译文",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-531d44cea5446d93",
-      "title": "学习示意：讲解、记录、校对",
-      "localPath": "reference-assets/focused-quests/study-531d44cea5446d93.svg",
+      "id": "study-9ccadbaf91382847",
+      "title": "学习示意：把内容写在纸上",
+      "localPath": "reference-assets/focused-quests/study-9ccadbaf91382847.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "讲解 → 记录 → 校对",
+      "caption": "把内容写在纸上",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-aef8be468e677775",
-      "title": "学习示意：搬箱、搬箱、搬箱",
-      "localPath": "reference-assets/focused-quests/study-aef8be468e677775.svg",
+      "id": "study-1e2a46b01232b358",
+      "title": "学习示意：真实远行，也成为后来的故事",
+      "localPath": "reference-assets/focused-quests/study-1e2a46b01232b358.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "搬箱 → 搬箱 → 搬箱",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-84040d5472465033",
-      "title": "学习示意：亲历、听闻、分别记录",
-      "localPath": "reference-assets/focused-quests/study-84040d5472465033.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "亲历 → 听闻 → 分别记录",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-f1ff6ad3f5849991",
-      "title": "学习示意：听说待核对",
-      "localPath": "reference-assets/focused-quests/study-f1ff6ad3f5849991.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "听说待核对",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-452113b922fec629",
-      "title": "学习示意：改成亲眼见",
-      "localPath": "reference-assets/focused-quests/study-452113b922fec629.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "改成亲眼见",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-714b47b77575c8a1",
-      "title": "学习示意：历史译场、后来小说",
-      "localPath": "reference-assets/focused-quests/study-714b47b77575c8a1.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "历史译场 → 后来小说",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-a56fe68e562ae521",
-      "title": "学习示意：译场协作者",
-      "localPath": "reference-assets/focused-quests/study-a56fe68e562ae521.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "译场协作者",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-71fb152d3c201294",
-      "title": "学习示意：孙悟空法术",
-      "localPath": "reference-assets/focused-quests/study-71fb152d3c201294.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "孙悟空法术",
+      "caption": "真实远行，也成为后来的故事",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1292,6 +1503,45 @@
       "clearance": "cleared-open-license",
       "caption": "从南大门望向今天奈良唐招提寺金堂。",
       "boundary": "鉴真于759年创建唐招提寺；照片呈现今天经过长期保存与维护的遗产建筑和环境，不是753年东渡或759年建寺现场。下载为1920像素等比例图，未作其他修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "tang-translation-work-v1",
+      "title": "讲解记录与核对的译场学习图",
+      "localPath": "reference-assets/sui-tang-five-dynasties/tang-translation-work-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学插画 · 不作历史现场或文物证据",
+      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-work-v1-prompt.txt。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "tang-translation-reunion-v1",
+      "title": "小伙伴区分译书与小说的插画",
+      "localPath": "reference-assets/sui-tang-five-dynasties/tang-translation-reunion-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学插画 · 不作历史现场或文物证据",
+      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-reunion-v1-prompt.txt。 左页讲解者形象待修，当前用v2。",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "tang-translation-reunion-v2",
+      "title": "小伙伴区分译书与小说的插画",
+      "localPath": "reference-assets/sui-tang-five-dynasties/tang-translation-reunion-v2.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学插画 · 不作历史现场或文物证据",
+      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-reunion-v2-prompt.txt。 v2只把左页讲解者改为僧人，其他区域不变。",
       "childVisibility": "child-ok"
     }
   ],

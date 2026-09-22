@@ -22,3 +22,19 @@
 | `yuan-relay-credential-child-study.png` | 项目组AI辅助生成 | 项目自制 | 凭证、换马和水陆接力的艺术表现；不是元代现场、真实凭证复原或精确路线图。 |
 
 完整来源页、许可链接、章节用途和事实核验来源见 `content/assets/liao-song-xia-jin-yuan-assets.json`。
+
+## 2026-09-21 宋辽夏金六章
+
+最终主图song-city-work-v1、song-print-work-v1、song-compass-crew-v1、song-moon-wishes-v1、song-books-museum-v1、song-time-study-v2，整站回顾song-friends-reunion-v2：内置image_gen自制现代教学插画。两张v1修订前图保存为编辑层，全部提示词见docs/qa/2026-09-21-remaining-chapters/；人物为现代小伙伴，不能冒称历史人物亲历。
+
+song-quanzhou-ship.jpg：摄影John Meckley（meckleychina），2006-12-29，CC BY 2.0，https://creativecommons.org/licenses/by/2.0/ 。原文件页 https://commons.wikimedia.org/wiki/File:Song_Dynasty_Ancient_Ship_of_Quanzhou_Bay_20061229.jpg 。馆藏展陈照片，保留原图1024×757，运行等比例缩制；不声称官方摄影或船上指南针出土。
+
+wujing-ming-volume1.pdf：国家图书馆藏明刻《武经总要前集》第1册，善本书号16737，83页。开放文件页为 https://commons.wikimedia.org/wiki/File:NLC892-411999028209-148443_武經總要前集_第1冊.pdf ，标示Public Domain Mark 1.0。wujing-ming-cover.png是第1页整页渲染，前5页渲染留编辑核对，馆藏水印保留；不是1044年原纸，无AI修复。
+
+## 2026-09-21 元朝两章
+
+- yuan-local-affairs-v1.png、yuan-relay-work-v1.png、yuan-friends-reunion-v1.png：项目内置image_gen自制教学插画；原图与实际提示词已留项目，前两图是虚构情境，结束图是今天的旅行手册。
+- yuan-dadu-wall-cutaway.jpg：mayanming，2011-06-10，CC BY-SA 3.0；原文件页 https://commons.wikimedia.org/wiki/File:700多年前所筑城墙断面清晰可见_-_panoramio.jpg 。不对原照片重绘，运行等比例缩图。
+- yuan-dadu-wall-section.jpg：rheins，2012-05-23，CC BY 3.0；原文件页 https://commons.wikimedia.org/wiki/File:城墙夯土_-_Rammed-Earth_Wall_-_2012.05_-_panoramio.jpg 。两图是遗址现状而非元代街景。
+- yuan-paiza-met-front.jpg、yuan-paiza-met-back.jpg：The Metropolitan Museum of Art，藏品1993.256，中国元代13世纪晚期八思巴文铁嵌银牌；https://www.metmuseum.org/art/collection/search/39624 ，馆方开放政策 https://www.metmuseum.org/hubs/open-access ，CC0。正反同一文物，不混为甘肃馆藏。
+- yuan-bronze-seal-candidate.jpg：Gary Todd，CC0；文件页称新乡市博物馆元铜印，但未核到准确官方器物身份，未登记儿童素材。仅编辑研究候选。

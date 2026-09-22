@@ -1,0 +1,123 @@
+{
+  "date": "2026-09-16",
+  "startedOn": "2026-09-15",
+  "chapterId": "cn-ancient-04-05-qin-great-wall",
+  "request": "增加长城后面几步的提问和互动",
+  "viewport": {
+    "width": 613,
+    "height": 785,
+    "source": "用户当前浏览器内容区域实测；检查标签失效后按相同尺寸恢复",
+    "otherSizesTested": [],
+    "temporaryOverrideRestored": true
+  },
+  "url": "http://127.0.0.1:4173/",
+  "flow": [
+    "timeline",
+    "look-listen",
+    "slide-fit",
+    "scene-find",
+    "pick"
+  ],
+  "sceneQuestions": [
+    {
+      "id": "find-lookout",
+      "question": "谁在观察远处的动静？",
+      "targetId": "lookout",
+      "feedback": "找到了！他站在高处望远。",
+      "retry": "他在守门，再找找望远的人。",
+      "audio": {
+        "question": {
+          "id": "quest-69d3e7c1e46f3285",
+          "text": "谁在观察远处的动静？"
+        },
+        "right": {
+          "id": "quest-b5733b4745a47fef",
+          "text": "找到了！他站在高处望远。"
+        },
+        "wrong": {
+          "id": "quest-824c191f1eaaf89b",
+          "text": "他在守门，再找找望远的人。"
+        }
+      }
+    },
+    {
+      "id": "find-gate",
+      "question": "有人来到关口，谁来查看？",
+      "targetId": "gate",
+      "feedback": "望远、守关，两位守卫找齐啦！",
+      "retry": "他在望远，再找找门旁的人。",
+      "audio": {
+        "question": {
+          "id": "quest-5fe1664848634904",
+          "text": "有人来到关口，谁来查看？"
+        },
+        "right": {
+          "id": "quest-eef340d8ff937591",
+          "text": "望远、守关，两位守卫找齐啦！"
+        },
+        "wrong": {
+          "id": "quest-670c80aebfd9df6e",
+          "text": "他在望远，再找找门旁的人。"
+        }
+      }
+    }
+  ],
+  "checks": {
+    "checkLocal": {
+      "exitCode": 0,
+      "tests": 26,
+      "passed": 26
+    },
+    "voiceUpdate": {
+      "exitCode": 0,
+      "generated": 19,
+      "total": 3022
+    },
+    "voiceSourceManifestFileIssues": [],
+    "otherChapterSourceChanges": [],
+    "firstThreeStepsUnchanged": true,
+    "photoAlbumUnchanged": true,
+    "qaLinksMissing": [],
+    "gitDiffCheck": {
+      "exitCode": 0,
+      "gitExecutable": "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/bin/git",
+      "note": "System Git requested Xcode license agreement; used the already installed independent Git runtime."
+    }
+  },
+  "browser": {
+    "roundOneWrongHasCrossAndRetry": true,
+    "wrongDoesNotShowContinue": true,
+    "roundOneCorrectOnlyOffersRoundTwo": true,
+    "albumPreservesCorrectFirstRound": true,
+    "roundTwoUsesOwnVoice": true,
+    "unmuteKeepsRoundTwoVoice": "quest-5fe1664848634904",
+    "roundTwoWrongCanRetry": true,
+    "bothRoundsRequiredForNextStep": true,
+    "sceneScrollTopAfterFix": 0,
+    "sceneQuestionNextButtonBottom": 656.984375,
+    "wrongChoiceMainImage": "/content/step-images/qin-wall-teamwork-story-v1.jpg",
+    "correctChoiceMainImage": "/content/step-images/qin-wall-guard-story-v1.jpg",
+    "wrongChoiceDoesNotUnlockFinish": true,
+    "correctChoiceNextButtonBottom": 775.078125,
+    "correctChoiceVoice": "quest-53238f950e66534c",
+    "finishReached": true
+  },
+  "counts": {
+    "sources": 987,
+    "assets": 969,
+    "voiceLines": 3022,
+    "visibleReadingSteps": 10,
+    "visibleOptionPictures": 318,
+    "pictureQuestions": 2
+  },
+  "newImageGenerationCalls": 0,
+  "contentVersion": "0.68.0",
+  "limitations": [
+    "真实儿童独立试玩未做",
+    "新增语音未逐段人工校听",
+    "没有多端尺寸测试"
+  ],
+  "commit": false,
+  "push": false,
+  "deployment": false
+}

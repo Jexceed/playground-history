@@ -406,3 +406,116 @@
  .tool-illustration { height:64px; }
  .tool-illustration .learning-weight { width:88px; height:64px; }
 }
+
+/* Chapter learning props and the generic pick / slide-fit interactions. */
+.prop-art { display:block; width:100%; height:auto; filter:drop-shadow(0 4px 3px #66471d24); }
+.prop-tool .prop-art { width:min(76%,150px); height:88px; }
+.bench-pick-demo { position:relative; width:100%; max-width:420px; display:flex; align-items:center; justify-content:center; }
+.pick-context { width:100%; opacity:.95; }
+.pick-context .prop-art { filter:none; }
+.pick-object { position:absolute; width:34%; transition:transform .55s,opacity .4s; }
+.pick-object.waiting { opacity:.45; transform:translate(16%,10%) rotate(-6deg); }
+.pick-object.landed { transform:translate(0,0); }
+.pick-slot { display:grid; place-items:center; width:100%; aspect-ratio:10/7; border:3px dashed #d9c9a0; border-radius:14px; color:#b39a66; font-size:30px; font-weight:800; background:#fff8e680; }
+.slide-track { height:110px; }
+.slide-target { width:70%; left:15%; top:20px; }
+.slide-movable { width:19%; left:39.5%; top:26px; }
+.slide-fit .alignment-origin { left:50%; }
+.slide-art { display:block; width:100%; height:100%; overflow:visible; }
+.slide-movable .slide-art { filter:drop-shadow(0 4px 3px #2c4a3c33); }
+.cover-prop { width:min(56%,330px); }
+
+/* Look-and-listen steps: a full story beat with one big continue action, no quiz. */
+.look-listen-story { font-size:19px; line-height:1.9; color:#4a6355; background:#fffdf4; border:1px solid #e7dcc0; border-radius:16px; padding:16px 18px; margin:0 0 16px; }
+.trip-episode[data-interaction-kind="look-listen"] .workbench-response { min-height:56px; }
+@media(max-width:900px){
+ .look-listen-story { font-size:16px; line-height:1.75; padding:12px 14px; margin-bottom:10px; }
+}
+@media(max-width:699px) and (max-height:650px){
+ .look-listen-story { font-size:14px; line-height:1.6; padding:9px 11px; }
+}
+@media(max-width:900px){
+ .prop-tool .prop-art { width:min(82%,110px); height:62px; }
+ .slide-track { height:70px; }
+ .slide-target { top:12px; }
+ .slide-movable { top:16px; }
+ .pick-object { width:30%; }
+}
+@media(max-width:699px) and (max-height:650px){
+ .trip-episode[data-interaction-kind="slide-fit"] .workbench-scene { width:min(100%,48svh); }
+ .trip-episode[data-interaction-kind="slide-fit"] .alignment-copy { display:none; }
+ .trip-episode[data-interaction-kind="slide-fit"] .bench-toys { top:47%; height:46%; }
+ .trip-episode[data-interaction-kind="slide-fit"] .real-object-link { right:max(16px,calc((100% - 48svh)/2 + 12px)); }
+}
+.workbench-family .slide-track { height:100px; }
+.workbench-family .slide-movable { top:24px; }
+@media(max-width:699px){
+ .workbench-family .slide-track { height:65px; }
+ .workbench-family .slide-movable { top:14px; }
+}
+
+/* Story framing is a reusable opt-in; it leaves earlier workshop layouts intact. */
+.story-framed-cover .workbench-art,
+.object-quest[data-scene-framing="story"] .workbench-art { aspect-ratio:var(--story-aspect,2.2); object-position:center top; }
+.object-quest[data-scene-framing="story"] .look-listen-story { display:block; white-space:pre-line; }
+.reading-next { margin-top:18px; }
+.object-quest[data-scene-framing="story"] .look-listen-story { border:0; background:none; padding:0 3px; font-size:23px; line-height:1.7; color:#46664f; margin:2px 0 24px; }
+.object-quest[data-scene-framing="story"][data-interaction-kind="look-listen"] .trip-speech { margin-bottom:16px; }
+.story-puzzle { padding:10px 8px 8px; border:2px solid #d6d2b3; border-radius:18px; background:#f8f5e6; }
+.story-puzzle >small { display:block; margin-top:5px; text-align:center; color:#8b8067; font-size:12px; }
+.story-puzzle.puzzle-retry { border-color:#ba5a48; background:#fff0e7; }
+.story-puzzle.puzzle-retry >small { color:#9d3d30; font-weight:750; }
+.story-puzzle.puzzle-done { border-color:#52856a; }
+.slide-fit[data-slide-scene="wall-join"] .slide-track { height:90px; }
+.slide-fit[data-slide-scene="wall-join"] .slide-target { width:90%; left:5%; top:0; height:80px; }
+.slide-fit[data-slide-scene="wall-join"] .slide-movable { top:0; height:80px; }
+.slide-fit[data-slide-scene="wall-join"] .alignment-origin { display:none; }
+.slide-fit[data-slide-scene="wall-join"] .ruler-grip { top:44%; right:9px; color:#346e57; }
+@media(max-width:900px){
+ .story-framed-cover { width:100%; }
+ .object-quest[data-scene-framing="story"] .workbench-scene { width:100%; max-height:none; }
+ .object-quest[data-scene-framing="story"] .look-listen-story { font-size:18px; margin-bottom:16px; }
+ .slide-fit[data-slide-scene="wall-join"] .slide-track { height:76px; }
+ .slide-fit[data-slide-scene="wall-join"] .slide-target,
+ .slide-fit[data-slide-scene="wall-join"] .slide-movable { top:0; height:68px; }
+}
+@media(max-width:699px){
+ .object-quest[data-scene-framing="story"] .workbench-sound { width:44px; height:44px; }
+ .object-quest[data-scene-framing="story"] .trip-speech h1 { min-height:0; }
+ .object-quest[data-scene-framing="story"] .reading-next { margin-top:12px; }
+ .object-quest[data-scene-framing="story"] .story-puzzle { padding:4px 8px 7px; }
+ .object-quest[data-scene-framing="story"] .story-puzzle .alignment-controls { margin-top:0; }
+ .object-quest[data-scene-framing="story"] .workbench-response { min-height:32px; padding:5px 0; }
+}
+@media(max-width:699px) and (max-height:650px){
+ .object-quest[data-scene-framing="story"][data-interaction-kind="slide-fit"] .workbench-art { height:120px; aspect-ratio:auto; }
+ .object-quest[data-scene-framing="story"] .trip-speech h1 { font-size:20px; line-height:1.35; }
+ .object-quest[data-scene-framing="story"] .look-listen-story { font-size:17px; margin-bottom:12px; }
+ .object-quest[data-scene-framing="story"] .workbench-response p { font-size:13px; }
+}
+/* Landscape framing is explicit per photograph; the inspection dialog keeps the full frame. */
+.quest-artifact-picture[data-image-framing="landscape"] >img { height:auto; aspect-ratio:2.2; object-fit:cover; object-position:center 58%; }
+.quest-artifact-picture[data-image-framing="panorama"] >img { height:auto; aspect-ratio:3; object-fit:cover; object-position:center 76%; }
+/* Feedback may change text, but must not move the object under a child's finger. */
+.object-quest[data-scene-framing="story"][data-interaction-kind="slide-fit"] .trip-speech h1 { min-height:2lh; }
+.object-quest[data-scene-framing="story"][data-interaction-kind="slide-fit"] .workbench-help,
+.object-quest[data-scene-framing="story"][data-interaction-kind="slide-fit"] .workbench-next { min-height:57px; }
+@media(max-width:900px){
+ .object-quest[data-scene-framing="story"][data-interaction-kind="slide-fit"] .workbench-help,
+ .object-quest[data-scene-framing="story"][data-interaction-kind="slide-fit"] .workbench-next { min-height:49px; }
+}
+.slide-fit[data-slide-scene="wall-join"] .alignment-controls { display:grid; grid-template-columns:44px minmax(0,146px) 44px; gap:12px; justify-content:center; }
+.slide-fit[data-slide-scene="wall-join"] .alignment-controls >span { min-width:0; text-align:center; }
+/* The coin card and its mould share one coordinate system, including the square opening. */
+.slide-fit[data-slide-scene="coin-mould"] .slide-track { height:90px; }
+.slide-fit[data-slide-scene="coin-mould"] .slide-target { width:90%; left:5%; top:0; height:80px; }
+.slide-fit[data-slide-scene="coin-mould"] .slide-movable { top:0; height:80px; }
+.slide-fit[data-slide-scene="coin-mould"] .alignment-origin,
+.slide-fit[data-slide-scene="coin-mould"] .ruler-grip { display:none; }
+.slide-fit[data-slide-scene="coin-mould"] .alignment-controls { display:grid; grid-template-columns:44px minmax(0,155px) 44px; gap:10px; justify-content:center; }
+.slide-fit[data-slide-scene="coin-mould"] .alignment-controls >span { min-width:0; text-align:center; }
+
+.quest-artifact-picture[data-image-framing="object"] >img { height:190px; width:100%; object-fit:contain; background:#f6f0e2; }
+
+.era-object .era-marker { grid-row:1 / 3; width:65px; height:85px; }
+.quest-date-stop .era-marker { width:clamp(75px,12vw,140px); height:130px; }

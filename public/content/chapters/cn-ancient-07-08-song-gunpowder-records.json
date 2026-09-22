@@ -15,18 +15,18 @@
   "throughline": "只追踪观察、记录、传播和用途变化，不提供配方、比例、混合或点火步骤；以《武经总要》传世图像练习文献证据边界。",
   "childEntry": {
     "id": "cn-ancient-07-08-song-gunpowder-records",
-    "childTitle": "给古书里的技术排时间",
-    "prompt": "一种技术从尝试到记进书里，会经过哪些人？",
-    "takeaway": "火药知识经过长期积累，1044年《武经总要》留下记载；技术史研究要分清早期探索、记录与后续应用。",
+    "childTitle": "古书怎样留下火药的历史？",
+    "prompt": "火药经过长期探索，宋代已经用到军事。一本古书把知识记下来，后人又怎样把它传到今天？",
+    "takeaway": "火药知识经过长期探索，北宋1044年编成的《武经总要》留下军事技术记录。后来的刻印与保存，让今天还能研究这些知识的历史。",
     "object": "《武经总要》传世图像与安全记录示意",
     "people": [
-      "探索者、编书者",
-      "后来的研究者"
+      "曾公亮等编书者",
+      "保存古籍的人们"
     ],
     "place": "北宋书房、开封与不同使用场景",
     "culture": "《武经总要》与“四项技术时间带”",
-    "care": "图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。",
-    "preferredAssetId": "gunpowder-record-safety-child-illustration",
+    "care": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+    "preferredAssetId": "song-books-museum-v1",
     "playableSource": "content/focused-quests.json"
   },
   "textbookConnection": {
@@ -34,9 +34,9 @@
     "featured": {
       "type": "典籍",
       "icon": "📘",
-      "title": "探索者、编书者与后来的研究者",
-      "childBridge": "一种技术从尝试到记进书里，会经过哪些人？",
-      "evidenceBoundary": "图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。"
+      "title": "曾公亮等编书者与保存古籍的人们",
+      "childBridge": "火药经过长期探索，宋代已经用到军事。一本古书把知识记下来，后人又怎样把它传到今天？",
+      "evidenceBoundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。"
     },
     "companions": [
       {
@@ -58,39 +58,41 @@
     "sourceIds": [
       "CAS-IHNS-ANCIENT-ROCKETS",
       "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
-      "CAS-FOUR-GREAT-INVENTIONS"
+      "CAS-FOUR-GREAT-INVENTIONS",
+      "JJ-ZENG-WUJING-HISTORY",
+      "NLC-WUJING-MING-SCAN"
     ]
   },
   "childStory": [
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "探索和记载的时间",
-      "text": "早期已有有关火药的知识探索。北宋1044年编成的《武经总要》留下相关记载。"
+      "label": "宋代编的书，后来人继续保存",
+      "text": "《武经总要》在北宋1044年编成。照片是后来明代刻本的封面，时间比编书晚得多。先到北宋，看看这本书为何留下记录。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "古书能留下什么",
-      "text": "今天我们只看书页和时间。古书把技术知识写下来，让后人有材料可以研究。"
+      "label": "已经有人探索，也有人记下来",
+      "text": "火药知识经过长期探索，宋代已经用于军事。曾公亮等人编写《武经总要》，整理当时的知识。书不是发明突然开始的那一天，而是留下记录的一条线索。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "把几代人的工作接起来",
-      "text": "有人尝试，有人记录，后来的人又阅读和研究。我们不做任何配料、点火或制作实验。"
+      "label": "旧书和今天的笔记，谁留下什么",
+      "text": "小伙伴在今天的图书馆看旧书。旁边的人正在做研究笔记：旧书保留以前的文字，今天的笔记记录现在的理解。两种记录不是同一时代。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "用途也会发生变化",
-      "text": "技术在不同场合被采用，也会带来不同后果。看见一个名称，不够说明所有用途。"
+      "label": "宋代编书，明代又刻印",
+      "text": "这本书最初在北宋编成，我们看到的封面却来自明代刻本。小伙伴把两张时间卡排在心里：先有书的内容，后人再刻印流传。"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "当安全的古书讲解员",
-      "text": "我们学的是技术怎样积累和留下记录。可以排时间卡，不需要重做危险过程。"
+      "label": "不同时间的人，把知识接下去",
+      "text": "古人探索和记录，后人刻印、保存，今天的人再研究。火药后来也用于不同场合；了解用途，要看对应时代的材料。我们用古书和时间线，认识技术怎样积累。"
     }
   ],
   "glossary": [
@@ -103,6 +105,15 @@
     }
   ],
   "pronunciations": [
+    {
+      "text": "曾公亮",
+      "reading": "Zēng Gōngliàng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-07-08-song-gunpowder-records"
+      ],
+      "note": "2026-09-21新增编辑校听词；不自动视为人耳试听通过。"
+    },
     {
       "text": "武经总要",
       "reading": "Wǔjīng Zǒngyào",
@@ -120,66 +131,159 @@
     "hook": {
       "kind": "具体任务",
       "icon": "🔎",
-      "label": "给古书里的技术排时间",
-      "question": "一种技术从尝试到记进书里，会经过哪些人？"
+      "label": "古书怎样留下火药的历史？",
+      "question": "火药经过长期探索，宋代已经用到军事。一本古书把知识记下来，后人又怎样把它传到今天？"
     },
-    "cta": "去整理技术卡",
-    "anchor": "探索者、编书者与后来的研究者",
-    "boundary": "图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。",
-    "evidence": [],
+    "cta": "去古书里找时间线索",
+    "anchor": "曾公亮等编书者与保存古籍的人们",
+    "boundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+    "evidence": [
+      {
+        "id": "wujing-ming-cover",
+        "title": "《武经总要》后世明刻本封面书影",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/wujing-ming-cover.png",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:NLC892-411999028209-148443_武經總要前集_第1冊.pdf",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "Public Domain Mark 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "明代刻本 · 国家图书馆藏 · PDF第1页",
+        "boundary": "这是后世刻本封面，不是1044年纸本原稿，也不是火药配方所在页。扫描文件公版；整页渲染，保留馆藏水印，无AI修复或重绘。宋代成书与明代刻印分开说明。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/wujing-ming-cover.jpg"
+      }
+    ],
+    "photoAlbum": null,
     "coverAsset": {
-      "id": "gunpowder-record-safety-child-illustration",
-      "title": "火药知识观察、记录与安全用途儿童艺术表现",
-      "localPath": "reference-assets/liao-song-xia-jin-yuan/gunpowder-record-safety-child-illustration.png",
+      "id": "song-books-museum-v1",
+      "title": "古书怎样留下火药的历史？故事插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-books-museum-v1.png",
       "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "自制儿童艺术表现：成年人分开观察材料、用图形记录，并在远处观看安全的节庆光点。",
-      "boundary": "2026-08-12为低龄玩法自制。它不是宋代现场、真实配方、实验或点火教程；罩内材料的颜色和形状、人物、书本符号与节庆场景均为抽象艺术表现，不表示可用材料、比例、制作步骤或安全操作。儿童只学习历史证据和用途变化。",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/gunpowder-record-safety-child-illustration.jpg"
+      "image": "/content/step-images/song-books-museum-v1.jpg"
     },
-    "presentation": null,
-    "sceneAsset": null,
-    "narrativeAssets": [],
-    "coverImage": "/content/step-images/gunpowder-record-safety-child-illustration.jpg",
-    "coverImageAlt": "火药知识观察、记录与安全用途儿童艺术表现",
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "song-books-museum-v1",
+      "sceneAlt": "古书怎样留下火药的历史？的儿童故事插画",
+      "title": "古书怎样留下火药的历史？",
+      "evidenceTitle": "《武经总要》· 后世刻本封面",
+      "evidenceLine": "真实材料与故事插画分别看。",
+      "evidenceNarration": "这张是真正旧书封面的书影。书的内容在北宋编成，这一本却是明代刻印流传的。圆形水印来自现代馆藏扫描，不是宋代印记。",
+      "guide": "听听问题，点图回答。",
+      "alignHint": "",
+      "familyHint": "回看图里的线索，再和家人说说发现。",
+      "familyLabel": "和家人回看今天的发现",
+      "familyMode": "actions",
+      "nextLabel": "继续看故事",
+      "lastLabel": "把发现带回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "song-friends-reunion-v2",
+        "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
+        "reunionAspectRatio": 1.82,
+        "coverCaption": "古书怎样留下火药的历史？",
+        "coverNarration": "火药经过长期探索，宋代已经用到军事。一本古书把知识记下来，后人又怎样把它传到今天？",
+        "stationLine": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
+        "stationNarration": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
+        "closingCaption": "带着发现回家",
+        "closingNarration": "火药知识经过长期探索，北宋1044年编成的《武经总要》留下军事技术记录。后来的刻印与保存，让今天还能研究这些知识的历史。",
+        "closingLine": "探索、记录与保存，把知识带到今天。",
+        "fictionNote": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+        "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
+        "stationAudio": {
+          "id": "quest-afff15281530ee8d",
+          "text": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。"
+        },
+        "closingAudio": {
+          "id": "quest-0745d95c11687ccf",
+          "text": "火药知识经过长期探索，北宋1044年编成的《武经总要》留下军事技术记录。后来的刻印与保存，让今天还能研究这些知识的历史。"
+        }
+      },
+      "sceneImage": "/content/step-images/song-books-museum-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-7701e404934258d3",
+        "text": "这张是真正旧书封面的书影。书的内容在北宋编成，这一本却是明代刻印流传的。圆形水印来自现代馆藏扫描，不是宋代印记。"
+      },
+      "guideAudio": {
+        "id": "quest-556f5af30cc82d77",
+        "text": "听听问题，点图回答。"
+      }
+    },
+    "sceneAsset": {
+      "id": "song-books-museum-v1",
+      "title": "古书怎样留下火药的历史？故事插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-books-museum-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/song-books-museum-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "song-friends-reunion-v2",
+        "title": "宋代历史站小伙伴回看旅行册",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/song-friends-reunion-v2.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史照片。",
+        "boundary": "三位现代儿童回顾旅行手册；册上船、印刷图样与月亮为整站学习线索，不冒充古代原物或个人亲历。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/song-friends-reunion-v2.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/song-books-museum-v1.jpg",
+    "coverImageAlt": "古书怎样留下火药的历史？故事插画",
     "coverImageKind": "故事插画",
     "coverAudio": {
-      "id": "quest-105a5e3e5134245c",
-      "text": "给古书里的技术排时间。一种技术从尝试到记进书里，会经过哪些人？准备好就点“去整理技术卡”。"
+      "id": "quest-5e5f31fd75af915f",
+      "text": "火药经过长期探索，宋代已经用到军事。一本古书把知识记下来，后人又怎样把它传到今天？"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-4c0a929e13d060ab",
-      "text": "火药知识经过长期积累，1044年《武经总要》留下记载；技术史研究要分清早期探索、记录与后续应用。"
+      "id": "quest-0745d95c11687ccf",
+      "text": "火药知识经过长期探索，北宋1044年编成的《武经总要》留下军事技术记录。后来的刻印与保存，让今天还能研究这些知识的历史。"
     },
     "finish": {
-      "title": "用三个手势讲一段技术史",
+      "title": "古书把以前的知识带到今天！",
       "actions": [
-        "先指头脑表示探索，再假装写字表示记录。",
-        "最后摊开手表示看书研究，请家人按先后再做一遍。"
+        "用三个纸片或三个位置表示探索、编书、后世保存，请家人读出来。",
+        "指旧书，再指今天的笔记，说出它们为什么不是同一时期的记录。"
       ],
-      "parent": "不出现配方、比例、操作温度、点火或武器制作；不以爆炸和伤亡作为奖励。问“有书的年份等于最早探索年份吗？”",
+      "parent": "本章认识技术史而非安全口号；明确火药早于1044编书、宋代军事应用与后世版本。不会以儿童实验重做配制或点火，不以战争胜负得分。",
       "sceneStepIndexes": [
-        0,
-        2
+        2,
+        3
       ],
       "actionAudio": [
         {
-          "id": "quest-ddaeb2444f1c19ba",
-          "text": "先指头脑表示探索，再假装写字表示记录。"
+          "id": "quest-67c06a65fef8c1dd",
+          "text": "用三个纸片或三个位置表示探索、编书、后世保存，请家人读出来。"
         },
         {
-          "id": "quest-fa36277c0d148b62",
-          "text": "最后摊开手表示看书研究，请家人按先后再做一遍。"
+          "id": "quest-e934f827fc50b9dc",
+          "text": "指旧书，再指今天的笔记，说出它们为什么不是同一时期的记录。"
         }
       ],
       "introAudio": {
-        "id": "quest-bd36d36b1d3d1b27",
-        "text": "用三个手势讲一段技术史。先指头脑表示探索，再假装写字表示记录。最后摊开手表示看书研究，请家人按先后再做一遍。"
+        "id": "quest-0745d95c11687ccf",
+        "text": "火药知识经过长期探索，北宋1044年编成的《武经总要》留下军事技术记录。后来的刻印与保存，让今天还能研究这些知识的历史。"
       }
     },
     "estimatedMinutes": 6,
@@ -192,82 +296,144 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "探索和记载的时间",
-        "title": "探索和记载的时间",
-        "prompt": "哪条顺序合适？",
-        "rightNote": "书的编写有明确时间，但知识探索并非都从那天开始。",
-        "wrongNote": "书的编写有明确时间，但知识探索并非都从那天开始。",
+        "phase": "宋代编的书，后来人继续保存",
+        "title": "宋代编的书，后来人继续保存",
+        "prompt": "《武经总要》最初编成在哪一朝？",
+        "rightNote": "先到北宋，再看书怎样传下来。",
+        "wrongNote": "明代刻本在后，最初编书在北宋。",
         "sourceIds": [
-          "CAS-IHNS-ANCIENT-ROCKETS",
-          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+          "JJ-ZENG-WUJING-HISTORY",
+          "NLC-WUJING-MING-SCAN"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听听问题，看看图里的线索。"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "宋代编的书，后来人继续保存",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "先到北宋，再看书怎样传下来。",
+          "retry": "明代刻本在后，最初编书在北宋。",
+          "nextLabel": "听听为什么把知识写进书",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "wujing-ming-cover",
+          "title": "《武经总要》· 后世刻本封面",
+          "localPath": "reference-assets/liao-song-xia-jin-yuan/wujing-ming-cover.png",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:NLC892-411999028209-148443_武經總要前集_第1冊.pdf",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "Public Domain Mark 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "明代刻本 · 国图藏扫描第1页",
+          "boundary": "这是后世刻本封面，不是1044年纸本原稿，也不是火药配方所在页。扫描文件公版；整页渲染，保留馆藏水印，无AI修复或重绘。宋代成书与明代刻印分开说明。 明代刻本 · 国家图书馆藏 · PDF第1页",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/wujing-ming-cover.jpg",
+          "label": "点开真材料，听听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 335,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "国家图书馆馆藏；开放扫描文件页提供书目与许可：《武经总要前集》明刻本第1册，善本书号16737",
+              "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999028209-148443_武經總要前集_第1冊.pdf"
+            },
+            {
+              "title": "晋江市人民政府：曾公亮和《武经总要》",
+              "url": "https://www.jinjiang.gov.cn/yxjj/szjj/wssl/202406/t20240603_3043257.htm"
+            },
+            {
+              "title": "图像作者、原始文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999028209-148443_武經總要前集_第1冊.pdf"
+            }
+          ],
+          "audio": {
+            "id": "quest-7701e404934258d3",
+            "text": "这张是真正旧书封面的书影。书的内容在北宋编成，这一本却是明代刻印流传的。圆形水印来自现代馆藏扫描，不是宋代印记。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "探索和记载的时间",
-          "screenText": "早期已有有关火药的知识探索。北宋1044年编成的《武经总要》留下相关记载。",
-          "displayText": "早期已有有关火药的知识探索。北宋1044年编成的《武经总要》留下相关记载。",
-          "narration": "早期已有有关火药的知识探索。北宋1044年编成的《武经总要》留下相关记载。"
+          "title": "宋代编的书，后来人继续保存",
+          "screenText": "《武经总要》在北宋1044年编成。照片是后来明代刻本的封面，时间比编书晚得多。先到北宋，看看这本书为何留下记录。",
+          "displayText": "《武经总要》在北宋1044年编成。照片是后来明代刻本的封面，时间比编书晚得多。先到北宋，看看这本书为何留下记录。",
+          "narration": "《武经总要》在北宋1044年编成。照片是后来明代刻本的封面，时间比编书晚得多。先到北宋，看看这本书为何留下记录。"
         },
-        "assetId": "study-9f427a7550371dd3",
-        "image": "/content/study-scenes/study-9f427a7550371dd3.svg",
-        "studyImage": "/content/study-scenes/study-9f427a7550371dd3.svg",
-        "studyImageAlt": "早期探索，1044年 记载",
-        "imageAlt": "早期探索，1044年 记载",
-        "imageCaption": "学习示意 · 早期探索，1044年 记载",
-        "imageBoundary": "自制学习示意。图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。",
+        "assetId": "study-5515633ad864a9ac",
+        "image": "/content/study-scenes/study-5515633ad864a9ac.svg",
+        "studyImage": "/content/study-scenes/study-5515633ad864a9ac.svg",
+        "studyImageAlt": "宋代编的书，后来人继续保存",
+        "imageAlt": "宋代编的书，后来人继续保存",
+        "imageCaption": "学习示意 · 宋代编的书，后来人继续保存",
+        "imageBoundary": "自制学习示意。儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
         "audio": {
+          "lead": {
+            "id": "quest-b9f82c69795b67ea",
+            "text": "这本书最初在北宋编成。照片是后来留下的明代刻本。"
+          },
           "transition": {
-            "id": "quest-4e4698783d5a64e5",
-            "text": "探索和记载的时间。"
+            "id": "quest-d8b60f852ba1995d",
+            "text": "宋代编的书，后来人继续保存。"
           },
           "intro": {
-            "id": "quest-491bd081e7bceaa3",
-            "text": "早期已有有关火药的知识探索。北宋1044年编成的《武经总要》留下相关记载。"
+            "id": "quest-36fa6dcd9c4d27ad",
+            "text": "《武经总要》在北宋1044年编成。照片是后来明代刻本的封面，时间比编书晚得多。先到北宋，看看这本书为何留下记录。"
           },
           "question": {
-            "id": "quest-48a312f030e997c2",
-            "text": "哪条顺序合适？"
+            "id": "quest-59e133b8829db248",
+            "text": "《武经总要》最初编成在哪一朝？"
           },
           "image": {
-            "id": "quest-ad3302d890823ae8",
-            "text": "这是学习示意图：早期探索，1044年 记载。哪条顺序合适？"
+            "id": "quest-b6d08992b6c09ac1",
+            "text": "这是学习示意图：宋代编的书，后来人继续保存。《武经总要》最初编成在哪一朝？"
           },
           "right": {
-            "id": "quest-34b97a994b5d6de7",
-            "text": "找到了。书的编写有明确时间，但知识探索并非都从那天开始。"
+            "id": "quest-9c8bd79bf3742b3e",
+            "text": "先到北宋，再看书怎样传下来。"
           },
           "wrong": {
-            "id": "quest-de1cce4b72cd25c1",
-            "text": "再比较一下。书的编写有明确时间，但知识探索并非都从那天开始。"
+            "id": "quest-08fdf10d4b8c6be8",
+            "text": "明代刻本在后，最初编书在北宋。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-07-08-song-gunpowder-records-time-1",
-            "label": "早期探索 → 1044年记载",
+            "label": "北宋 · 1044年",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-375e44d848c15443.svg",
-            "imageAlt": "探索，1044年记载",
+            "objectView": {
+              "kind": "era",
+              "name": "北宋",
+              "date": "1044年",
+              "stationImage": "/images/history-stations/cities.webp"
+            },
+            "image": "/content/study-scenes/study-6e8feb50c70854e3.svg",
+            "imageAlt": "北宋，1044年",
             "audio": {
-              "id": "quest-0c785fed38ad6c9a",
-              "text": "早期探索 → 1044年记载"
+              "id": "quest-e4c065e71fe08dbf",
+              "text": "北宋 · 1044年"
             }
           },
           {
             "id": "cn-ancient-07-08-song-gunpowder-records-time-2",
-            "label": "1044年记载 → 才有一切探索",
+            "label": "明朝 · 14—17世纪",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-fc8e1b6259244c0d.svg",
-            "imageAlt": "1044年记载，一切才开始",
+            "objectView": {
+              "kind": "era",
+              "name": "明朝",
+              "date": "14—17世纪",
+              "stationImage": "/images/history-stations/later.webp"
+            },
+            "image": "/content/study-scenes/study-6fe70b1c401f38ea.svg",
+            "imageAlt": "明朝，14—17世纪",
             "audio": {
-              "id": "quest-7af9c98fe2792639",
-              "text": "1044年记载 → 才有一切探索"
+              "id": "quest-07e9c39b11f97275",
+              "text": "明朝 · 14—17世纪"
             }
           }
         ]
@@ -276,250 +442,327 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "古书能留下什么",
-        "title": "古书能留下什么",
-        "prompt": "后人想知道书写了什么，先查什么？",
-        "rightNote": "正文与版本能核对记录，封皮颜色不能代替内容。",
-        "wrongNote": "正文与版本能核对记录，封皮颜色不能代替内容。",
+        "phase": "已经有人探索，也有人记下来",
+        "title": "已经有人探索，也有人记下来",
+        "prompt": "古书把当时的知识留下来",
+        "rightNote": "前面的探索和后来的记录要分开。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
-          "CAS-IHNS-ANCIENT-ROCKETS",
+          "JJ-ZENG-WUJING-HISTORY",
           "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听问题，看看图里的线索。",
+          "continueLabel": "到今天的图书馆找线索"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "已经有人探索，也有人记下来",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "前面的探索和后来的记录要分开。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "到今天的图书馆找线索",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "古书能留下什么",
-          "screenText": "今天我们只看书页和时间。古书把技术知识写下来，让后人有材料可以研究。",
-          "displayText": "今天我们只看书页和时间。古书把技术知识写下来，让后人有材料可以研究。",
-          "narration": "今天我们只看书页和时间。古书把技术知识写下来，让后人有材料可以研究。"
+          "title": "已经有人探索，也有人记下来",
+          "screenText": "火药知识经过长期探索，宋代已经用于军事。曾公亮等人编写《武经总要》，整理当时的知识。书不是发明突然开始的那一天，而是留下记录的一条线索。",
+          "displayText": "先有长期探索。\n北宋编书，记录军事技术。",
+          "narration": "火药知识经过长期探索，宋代已经用于军事。曾公亮等人编写《武经总要》，整理当时的知识。书不是发明突然开始的那一天，而是留下记录的一条线索。"
         },
-        "assetId": "study-c16f8b44015f8988",
-        "image": "/content/study-scenes/study-c16f8b44015f8988.svg",
-        "studyImage": "/content/study-scenes/study-c16f8b44015f8988.svg",
-        "studyImageAlt": "古书，核对正文",
-        "imageAlt": "古书，核对正文",
-        "imageCaption": "学习示意 · 古书，核对正文",
-        "imageBoundary": "自制学习示意。图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。",
+        "assetId": "song-books-museum-v1",
+        "image": "/content/step-images/song-books-museum-v1.jpg",
+        "studyImage": "/content/study-scenes/study-cd944b07ad635b56.svg",
+        "studyImageAlt": "已经有人探索，也有人记下来",
+        "imageAlt": "古书怎样留下火药的历史？故事插画",
+        "imageCaption": "古书怎样留下火药的历史？故事插画",
+        "imageBoundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
         "audio": {
+          "lead": {
+            "id": "quest-f1ee6191b76f62c1",
+            "text": "古书把当时的知识留下来"
+          },
           "transition": {
-            "id": "quest-82775410999056ea",
-            "text": "古书能留下什么。"
+            "id": "quest-6cf645928c36b077",
+            "text": "已经有人探索，也有人记下来。"
           },
           "intro": {
-            "id": "quest-14e21cf23fc31231",
-            "text": "今天我们只看书页和时间。古书把技术知识写下来，让后人有材料可以研究。"
+            "id": "quest-1097d8c1f55bd04d",
+            "text": "火药知识经过长期探索，宋代已经用于军事。曾公亮等人编写《武经总要》，整理当时的知识。书不是发明突然开始的那一天，而是留下记录的一条线索。"
           },
           "question": {
-            "id": "quest-01bb286c4cec364c",
-            "text": "后人想知道书写了什么，先查什么？"
+            "id": "quest-f1ee6191b76f62c1",
+            "text": "古书把当时的知识留下来"
           },
           "image": {
-            "id": "quest-a44d0b6ac39d733a",
-            "text": "这是学习示意图：古书，核对正文。后人想知道书写了什么，先查什么？"
+            "id": "quest-a493216d3c9d6a94",
+            "text": "这张是古书怎样留下火药的历史？故事插画。火药知识经过长期探索，宋代已经用于军事。曾公亮等人编写《武经总要》，整理当时的知识。书不是发明突然开始的那一天，而是留下记录的一条线索。"
           },
           "right": {
-            "id": "quest-ee0c9dad0386dd11",
-            "text": "找到了。正文与版本能核对记录，封皮颜色不能代替内容。"
+            "id": "quest-762c536c554cba55",
+            "text": "前面的探索和后来的记录要分开。"
           },
           "wrong": {
-            "id": "quest-fc739f5d38a384ab",
-            "text": "再比较一下。正文与版本能核对记录，封皮颜色不能代替内容。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-08-song-gunpowder-records-beginning-1",
-            "label": "书的正文与版本",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-82253de943b7cbd2.svg",
-            "imageAlt": "正文版本",
-            "audio": {
-              "id": "quest-839679503a8bcbe9",
-              "text": "书的正文与版本"
-            }
-          },
-          {
-            "id": "cn-ancient-07-08-song-gunpowder-records-beginning-2",
-            "label": "只看封皮的颜色",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-c2796f9be2de6b82.svg",
-            "imageAlt": "封皮颜色",
-            "audio": {
-              "id": "quest-d386e744be6c8487",
-              "text": "只看封皮的颜色"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "把几代人的工作接起来",
-        "title": "把几代人的工作接起来",
-        "prompt": "哪张卡接在已有探索后？",
-        "rightNote": "记录接住已有知识，也会影响后来的研究。",
-        "wrongNote": "记录接住已有知识，也会影响后来的研究。",
+        "phase": "旧书和今天的笔记，谁留下什么",
+        "title": "旧书和今天的笔记，谁留下什么",
+        "prompt": "哪本书是从以前保存下来的？",
+        "rightNote": "旧书与今天的研究，各有时间。",
+        "wrongNote": "再看看展柜与正在书写的地方。",
         "sourceIds": [
-          "CAS-IHNS-ANCIENT-ROCKETS",
-          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+          "JJ-ZENG-WUJING-HISTORY",
+          "NLC-WUJING-MING-SCAN"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听听问题，看看图里的线索。",
+          "hotspots": [
+            {
+              "id": "old",
+              "label": "展柜里的旧书",
+              "x": 0.055,
+              "y": 0.555,
+              "width": 0.325,
+              "height": 0.23
+            },
+            {
+              "id": "note",
+              "label": "今天做研究笔记的地方",
+              "x": 0.62,
+              "y": 0.64,
+              "width": 0.34,
+              "height": 0.15
+            }
+          ],
+          "rounds": [
+            {
+              "id": "old",
+              "question": "哪本书是从以前保存下来的？",
+              "targetId": "old",
+              "feedback": "展柜里的旧书，保留以前流传的内容。",
+              "retry": "这是今天的笔记，再看看展柜。",
+              "nextLabel": "再找今天的研究记录",
+              "audio": {
+                "question": {
+                  "id": "quest-b57ce24bba08416b",
+                  "text": "哪本书是从以前保存下来的？"
+                },
+                "right": {
+                  "id": "quest-f1db95ba85a7fdf9",
+                  "text": "展柜里的旧书，保留以前流传的内容。"
+                },
+                "wrong": {
+                  "id": "quest-00dcc338c3c22aec",
+                  "text": "这是今天的笔记，再看看展柜。"
+                }
+              }
+            },
+            {
+              "id": "note",
+              "question": "今天的人正在哪里写研究笔记？",
+              "targetId": "note",
+              "feedback": "这份笔记记下今天的观察与理解。",
+              "retry": "旧书是以前留下的，再找正在写字的手。",
+              "nextLabel": "把两个时间点分清楚",
+              "audio": {
+                "question": {
+                  "id": "quest-8c5bde938a610b9e",
+                  "text": "今天的人正在哪里写研究笔记？"
+                },
+                "right": {
+                  "id": "quest-078ee61474e85ee6",
+                  "text": "这份笔记记下今天的观察与理解。"
+                },
+                "wrong": {
+                  "id": "quest-af38275e4c702af2",
+                  "text": "旧书是以前留下的，再找正在写字的手。"
+                }
+              }
+            }
+          ],
+          "imageLabel": "故事插画",
+          "sceneAspectRatio": 1.5
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "旧书和今天的笔记，谁留下什么",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "旧书与今天的研究，各有时间。",
+          "retry": "再看看展柜与正在书写的地方。",
+          "nextLabel": "比一比成书与刻印的时间",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "把几代人的工作接起来",
-          "screenText": "有人尝试，有人记录，后来的人又阅读和研究。我们不做任何配料、点火或制作实验。",
-          "displayText": "有人尝试，有人记录，后来的人又阅读和研究。我们不做任何配料、点火或制作实验。",
-          "narration": "有人尝试，有人记录，后来的人又阅读和研究。我们不做任何配料、点火或制作实验。"
+          "title": "旧书和今天的笔记，谁留下什么",
+          "screenText": "小伙伴在今天的图书馆看旧书。旁边的人正在做研究笔记：旧书保留以前的文字，今天的笔记记录现在的理解。两种记录不是同一时代。",
+          "displayText": "小伙伴在今天的图书馆看旧书。旁边的人正在做研究笔记：旧书保留以前的文字，今天的笔记记录现在的理解。两种记录不是同一时代。",
+          "narration": "小伙伴在今天的图书馆看旧书。旁边的人正在做研究笔记：旧书保留以前的文字，今天的笔记记录现在的理解。两种记录不是同一时代。"
         },
-        "assetId": "study-1f867cfc4c76e2dd",
-        "image": "/content/study-scenes/study-1f867cfc4c76e2dd.svg",
-        "studyImage": "/content/study-scenes/study-1f867cfc4c76e2dd.svg",
-        "studyImageAlt": "探索，记录，后人研究",
-        "imageAlt": "探索，记录，后人研究",
-        "imageCaption": "学习示意 · 探索，记录，后人研究",
-        "imageBoundary": "自制学习示意。图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。",
+        "assetId": "song-books-museum-v1",
+        "image": "/content/step-images/song-books-museum-v1.jpg",
+        "studyImage": "/content/study-scenes/study-575639bf9a6917df.svg",
+        "studyImageAlt": "旧书和今天的笔记，谁留下什么",
+        "imageAlt": "古书怎样留下火药的历史？故事插画",
+        "imageCaption": "古书怎样留下火药的历史？故事插画",
+        "imageBoundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
         "audio": {
+          "lead": {
+            "id": "quest-b57ce24bba08416b",
+            "text": "哪本书是从以前保存下来的？"
+          },
           "transition": {
-            "id": "quest-8ccdaa700c75e7c8",
-            "text": "把几代人的工作接起来。"
+            "id": "quest-28607e5dcc3dcdf2",
+            "text": "旧书和今天的笔记，谁留下什么。"
           },
           "intro": {
-            "id": "quest-9b2f6747633335f1",
-            "text": "有人尝试，有人记录，后来的人又阅读和研究。我们不做任何配料、点火或制作实验。"
+            "id": "quest-398b21a12b334fbf",
+            "text": "小伙伴在今天的图书馆看旧书。旁边的人正在做研究笔记：旧书保留以前的文字，今天的笔记记录现在的理解。两种记录不是同一时代。"
           },
           "question": {
-            "id": "quest-6321e5b0e1358b85",
-            "text": "哪张卡接在已有探索后？"
+            "id": "quest-b57ce24bba08416b",
+            "text": "哪本书是从以前保存下来的？"
           },
           "image": {
-            "id": "quest-103c2a75f4eb49ee",
-            "text": "这是学习示意图：探索，记录，后人研究。哪张卡接在已有探索后？"
+            "id": "quest-bd820d90e32ce635",
+            "text": "这张是古书怎样留下火药的历史？故事插画。小伙伴在今天的图书馆看旧书。旁边的人正在做研究笔记：旧书保留以前的文字，今天的笔记记录现在的理解。两种记录不是同一时代。"
           },
           "right": {
-            "id": "quest-d0c43aba99a94774",
-            "text": "找到了。记录接住已有知识，也会影响后来的研究。"
+            "id": "quest-79a05bc34b7d9325",
+            "text": "旧书与今天的研究，各有时间。"
           },
           "wrong": {
-            "id": "quest-77a215605e864970",
-            "text": "再比较一下。记录接住已有知识，也会影响后来的研究。"
+            "id": "quest-ab1adde0fe2eb331",
+            "text": "再看看展柜与正在书写的地方。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-08-song-gunpowder-records-journey-1",
-            "label": "整理并写下知识",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-297990b24ffa345a.svg",
-            "imageAlt": "整理记录",
-            "audio": {
-              "id": "quest-700edefe2669af00",
-              "text": "整理并写下知识"
-            }
-          },
-          {
-            "id": "cn-ancient-07-08-song-gunpowder-records-journey-2",
-            "label": "宣布从未有过探索",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-a8c1db38555e01d5.svg",
-            "imageAlt": "抹去前人探索",
-            "audio": {
-              "id": "quest-3aee7843b82897b1",
-              "text": "宣布从未有过探索"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "用途也会发生变化",
-        "title": "用途也会发生变化",
-        "prompt": "研究另一时期的用途，应该怎样做？",
-        "rightNote": "时期与用途要分别核对，不以一种用途概括全部。",
-        "wrongNote": "时期与用途要分别核对，不以一种用途概括全部。",
+        "phase": "宋代编书，明代又刻印",
+        "title": "宋代编书，明代又刻印",
+        "prompt": "北宋编书和明代刻印，哪个先？",
+        "rightNote": "先在北宋编书，后来还有新的刻本。",
+        "wrongNote": "明代刻印在后，不能改成宋代原纸。",
         "sourceIds": [
-          "CAS-IHNS-ANCIENT-ROCKETS",
-          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+          "JJ-ZENG-WUJING-HISTORY",
+          "NLC-WUJING-MING-SCAN"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听听问题，看看图里的线索。"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "宋代编书，明代又刻印",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "先在北宋编书，后来还有新的刻本。",
+          "retry": "明代刻印在后，不能改成宋代原纸。",
+          "nextLabel": "听听一本书的接力",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "用途也会发生变化",
-          "screenText": "技术在不同场合被采用，也会带来不同后果。看见一个名称，不够说明所有用途。",
-          "displayText": "技术在不同场合被采用，也会带来不同后果。看见一个名称，不够说明所有用途。",
-          "narration": "技术在不同场合被采用，也会带来不同后果。看见一个名称，不够说明所有用途。"
+          "title": "宋代编书，明代又刻印",
+          "screenText": "这本书最初在北宋编成，我们看到的封面却来自明代刻本。小伙伴把两张时间卡排在心里：先有书的内容，后人再刻印流传。",
+          "displayText": "这本书最初在北宋编成，我们看到的封面却来自明代刻本。小伙伴把两张时间卡排在心里：先有书的内容，后人再刻印流传。",
+          "narration": "这本书最初在北宋编成，我们看到的封面却来自明代刻本。小伙伴把两张时间卡排在心里：先有书的内容，后人再刻印流传。"
         },
-        "assetId": "study-70e8fbb86a40de02",
-        "image": "/content/study-scenes/study-70e8fbb86a40de02.svg",
-        "studyImage": "/content/study-scenes/study-70e8fbb86a40de02.svg",
-        "studyImageAlt": "不同时期，不同应用",
-        "imageAlt": "不同时期，不同应用",
-        "imageCaption": "学习示意 · 不同时期，不同应用",
-        "imageBoundary": "自制学习示意。图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。",
+        "assetId": "study-2eed7a0a6364cdef",
+        "image": "/content/study-scenes/study-2eed7a0a6364cdef.svg",
+        "studyImage": "/content/study-scenes/study-2eed7a0a6364cdef.svg",
+        "studyImageAlt": "宋代编书，明代又刻印",
+        "imageAlt": "宋代编书，明代又刻印",
+        "imageCaption": "学习示意 · 宋代编书，明代又刻印",
+        "imageBoundary": "自制学习示意。儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
         "audio": {
+          "lead": {
+            "id": "quest-50a9c9b09099063c",
+            "text": "北宋编书和明代刻印，哪个先？"
+          },
           "transition": {
-            "id": "quest-4352a4b588f1999f",
-            "text": "用途也会发生变化。"
+            "id": "quest-e656b920f874b3d1",
+            "text": "宋代编书，明代又刻印。"
           },
           "intro": {
-            "id": "quest-b839c2b573b57f51",
-            "text": "技术在不同场合被采用，也会带来不同后果。看见一个名称，不够说明所有用途。"
+            "id": "quest-9cfc58fb66b33009",
+            "text": "这本书最初在北宋编成，我们看到的封面却来自明代刻本。小伙伴把两张时间卡排在心里：先有书的内容，后人再刻印流传。"
           },
           "question": {
-            "id": "quest-3a3edb5cf079e9e5",
-            "text": "研究另一时期的用途，应该怎样做？"
+            "id": "quest-50a9c9b09099063c",
+            "text": "北宋编书和明代刻印，哪个先？"
           },
           "image": {
-            "id": "quest-45ef31e299a905d2",
-            "text": "这是学习示意图：不同时期，不同应用。研究另一时期的用途，应该怎样做？"
+            "id": "quest-97a352f0d476ad27",
+            "text": "这是学习示意图：宋代编书，明代又刻印。北宋编书和明代刻印，哪个先？"
           },
           "right": {
-            "id": "quest-5085d80315211cc0",
-            "text": "找到了。时期与用途要分别核对，不以一种用途概括全部。"
+            "id": "quest-a9d19ddc64ed6813",
+            "text": "先在北宋编书，后来还有新的刻本。"
           },
           "wrong": {
-            "id": "quest-38b213118ba6b5a8",
-            "text": "再比较一下。时期与用途要分别核对，不以一种用途概括全部。"
+            "id": "quest-06a116f1c937e65a",
+            "text": "明代刻印在后，不能改成宋代原纸。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-07-08-song-gunpowder-records-change-1",
-            "label": "查那一时期的记录",
+            "label": "北宋编成 · 1044年",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-4a6a8ab4f474be92.svg",
-            "imageAlt": "按时期查资料",
+            "objectView": {
+              "kind": "era",
+              "name": "北宋编成",
+              "date": "1044年",
+              "stationImage": "/images/history-stations/cities.webp",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-80554b6af23cffe1.svg",
+            "imageAlt": "北宋编成，1044年",
             "audio": {
-              "id": "quest-e77e1592ad2ccc35",
-              "text": "查那一时期的记录"
+              "id": "quest-38e3bd81ca4fd09d",
+              "text": "北宋编成 · 1044年"
             }
           },
           {
             "id": "cn-ancient-07-08-song-gunpowder-records-change-2",
-            "label": "把所有用途都说成一样",
+            "label": "明代刻印 · 1368—1644年间",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-e38f1029be189cc8.svg",
-            "imageAlt": "所有用途相同",
+            "objectView": {
+              "kind": "era",
+              "name": "明代刻印",
+              "date": "1368—1644年间",
+              "stationImage": "/images/history-stations/later.webp",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-e56471d21615955f.svg",
+            "imageAlt": "明代刻印，1368—1644年间",
             "audio": {
-              "id": "quest-4f5fd51c52b6bde0",
-              "text": "把所有用途都说成一样"
+              "id": "quest-9d1e9f35b17e5551",
+              "text": "明代刻印 · 1368—1644年间"
             }
           }
         ]
@@ -528,85 +771,78 @@
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "当安全的古书讲解员",
-        "title": "当安全的古书讲解员",
-        "prompt": "今天用哪种办法展示学习结果？",
-        "rightNote": "排时间、看材料，就能讲技术史；危险制作不属于任务。",
-        "wrongNote": "排时间、看材料，就能讲技术史；危险制作不属于任务。",
+        "phase": "不同时间的人，把知识接下去",
+        "title": "不同时间的人，把知识接下去",
+        "prompt": "一项技术，有很长的历史",
+        "rightNote": "留下记录，后来的人才能继续认识历史。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
-          "CAS-IHNS-ANCIENT-ROCKETS",
-          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+          "JJ-ZENG-WUJING-HISTORY",
+          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+          "NLC-WUJING-MING-SCAN"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听听问题，看看图里的线索。",
+          "continueLabel": "带着古书的发现回家"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "不同时间的人，把知识接下去",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "留下记录，后来的人才能继续认识历史。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "带着古书的发现回家",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 5,
-          "title": "当安全的古书讲解员",
-          "screenText": "我们学的是技术怎样积累和留下记录。可以排时间卡，不需要重做危险过程。",
-          "displayText": "我们学的是技术怎样积累和留下记录。可以排时间卡，不需要重做危险过程。",
-          "narration": "我们学的是技术怎样积累和留下记录。可以排时间卡，不需要重做危险过程。"
+          "title": "不同时间的人，把知识接下去",
+          "screenText": "古人探索和记录，后人刻印、保存，今天的人再研究。火药后来也用于不同场合；了解用途，要看对应时代的材料。我们用古书和时间线，认识技术怎样积累。",
+          "displayText": "探索 → 记录 → 刻印保存。\n后来的研究，仍要核对年代。",
+          "narration": "古人探索和记录，后人刻印、保存，今天的人再研究。火药后来也用于不同场合；了解用途，要看对应时代的材料。我们用古书和时间线，认识技术怎样积累。"
         },
-        "assetId": "study-91b83207ab6d8159",
-        "image": "/content/study-scenes/study-91b83207ab6d8159.svg",
-        "studyImage": "/content/study-scenes/study-91b83207ab6d8159.svg",
-        "studyImageAlt": "探索，记录，研究",
-        "imageAlt": "探索，记录，研究",
-        "imageCaption": "学习示意 · 探索，记录，研究",
-        "imageBoundary": "自制学习示意。图只表现知识记录与传递，不画配料器具组合、燃烧结构和武器构造。",
+        "assetId": "song-books-museum-v1",
+        "image": "/content/step-images/song-books-museum-v1.jpg",
+        "studyImage": "/content/study-scenes/study-80373ba5b51bddb7.svg",
+        "studyImageAlt": "不同时间的人，把知识接下去",
+        "imageAlt": "古书怎样留下火药的历史？故事插画",
+        "imageCaption": "古书怎样留下火药的历史？故事插画",
+        "imageBoundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
         "audio": {
+          "lead": {
+            "id": "quest-bc6e420a92fdc9f0",
+            "text": "一项技术，有很长的历史"
+          },
           "transition": {
-            "id": "quest-5f2956238ac8c76b",
-            "text": "当安全的古书讲解员。"
+            "id": "quest-1c0a660f5588aaef",
+            "text": "不同时间的人，把知识接下去。"
           },
           "intro": {
-            "id": "quest-5601d65a6bce2248",
-            "text": "我们学的是技术怎样积累和留下记录。可以排时间卡，不需要重做危险过程。"
+            "id": "quest-70c3e48a963a8209",
+            "text": "古人探索和记录，后人刻印、保存，今天的人再研究。火药后来也用于不同场合；了解用途，要看对应时代的材料。我们用古书和时间线，认识技术怎样积累。"
           },
           "question": {
-            "id": "quest-63d371ad91e85468",
-            "text": "今天用哪种办法展示学习结果？"
+            "id": "quest-bc6e420a92fdc9f0",
+            "text": "一项技术，有很长的历史"
           },
           "image": {
-            "id": "quest-db5f1197c3c24d83",
-            "text": "这是学习示意图：探索，记录，研究。今天用哪种办法展示学习结果？"
+            "id": "quest-7798ba8eef945370",
+            "text": "这张是古书怎样留下火药的历史？故事插画。古人探索和记录，后人刻印、保存，今天的人再研究。火药后来也用于不同场合；了解用途，要看对应时代的材料。我们用古书和时间线，认识技术怎样积累。"
           },
           "right": {
-            "id": "quest-80b1ceb069150f31",
-            "text": "找到了。排时间、看材料，就能讲技术史；危险制作不属于任务。"
+            "id": "quest-74df9a5f03e8e920",
+            "text": "留下记录，后来的人才能继续认识历史。"
           },
           "wrong": {
-            "id": "quest-95f241fcccf2694a",
-            "text": "再比较一下。排时间、看材料，就能讲技术史；危险制作不属于任务。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-07-08-song-gunpowder-records-takeaway-1",
-            "label": "排探索、记录、研究三张卡",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-925780bebd3bef5d.svg",
-            "imageAlt": "整理时间卡",
-            "audio": {
-              "id": "quest-0a3eafc218d6300f",
-              "text": "排探索、记录、研究三张卡"
-            }
-          },
-          {
-            "id": "cn-ancient-07-08-song-gunpowder-records-takeaway-2",
-            "label": "照古书自己混合和点火",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-6f205aa3e8564787.svg",
-            "imageAlt": "混合点火",
-            "audio": {
-              "id": "quest-35a22620cc13e55b",
-              "text": "照古书自己混合和点火"
-            }
-          }
-        ]
+        "options": []
       }
     ],
     "extensionTasks": [
@@ -903,201 +1139,143 @@
       "authorityLevel": "A",
       "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "JJ-ZENG-WUJING-HISTORY",
+      "institution": "晋江市人民政府",
+      "title": "曾公亮和《武经总要》",
+      "url": "https://www.jinjiang.gov.cn/yxjj/szjj/wssl/202406/t20240603_3043257.htm",
+      "type": "institution-history-reference",
+      "authorityLevel": "A",
+      "factUse": "1040至1044年编书、宋代军事著作与技术记录；不进入配方与制作细节",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NLC-WUJING-MING-SCAN",
+      "institution": "国家图书馆馆藏；开放扫描文件页提供书目与许可",
+      "title": "《武经总要前集》明刻本第1册，善本书号16737",
+      "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999028209-148443_武經總要前集_第1冊.pdf",
+      "type": "catalog-scan-metadata",
+      "authorityLevel": "B-metadata",
+      "factUse": "图像身份与版本元数据；PDF第1页封面，第2至4页序文，馆藏水印保留",
+      "imageUse": "open-scan"
     }
   ],
   "assets": [
     {
-      "id": "study-9f427a7550371dd3",
-      "title": "学习示意：早期探索、1044年 记载",
-      "localPath": "reference-assets/focused-quests/study-9f427a7550371dd3.svg",
+      "id": "study-5515633ad864a9ac",
+      "title": "学习示意：宋代编的书，后来人继续保存",
+      "localPath": "reference-assets/focused-quests/study-5515633ad864a9ac.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "早期探索 → 1044年 记载",
+      "caption": "宋代编的书，后来人继续保存",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-375e44d848c15443",
-      "title": "学习示意：探索、1044年记载",
-      "localPath": "reference-assets/focused-quests/study-375e44d848c15443.svg",
+      "id": "study-6e8feb50c70854e3",
+      "title": "学习示意：北宋、1044年",
+      "localPath": "reference-assets/focused-quests/study-6e8feb50c70854e3.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "探索 → 1044年记载",
+      "caption": "北宋 → 1044年",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-fc8e1b6259244c0d",
-      "title": "学习示意：1044年记载、一切才开始",
-      "localPath": "reference-assets/focused-quests/study-fc8e1b6259244c0d.svg",
+      "id": "study-6fe70b1c401f38ea",
+      "title": "学习示意：明朝、14—17世纪",
+      "localPath": "reference-assets/focused-quests/study-6fe70b1c401f38ea.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "1044年记载 → 一切才开始",
+      "caption": "明朝 → 14—17世纪",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-c16f8b44015f8988",
-      "title": "学习示意：古书、核对正文",
-      "localPath": "reference-assets/focused-quests/study-c16f8b44015f8988.svg",
+      "id": "study-cd944b07ad635b56",
+      "title": "学习示意：已经有人探索，也有人记下来",
+      "localPath": "reference-assets/focused-quests/study-cd944b07ad635b56.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "古书 → 核对正文",
+      "caption": "已经有人探索，也有人记下来",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-82253de943b7cbd2",
-      "title": "学习示意：正文版本",
-      "localPath": "reference-assets/focused-quests/study-82253de943b7cbd2.svg",
+      "id": "study-575639bf9a6917df",
+      "title": "学习示意：旧书和今天的笔记，谁留下什么",
+      "localPath": "reference-assets/focused-quests/study-575639bf9a6917df.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "正文版本",
+      "caption": "旧书和今天的笔记，谁留下什么",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-c2796f9be2de6b82",
-      "title": "学习示意：封皮颜色",
-      "localPath": "reference-assets/focused-quests/study-c2796f9be2de6b82.svg",
+      "id": "study-2eed7a0a6364cdef",
+      "title": "学习示意：宋代编书，明代又刻印",
+      "localPath": "reference-assets/focused-quests/study-2eed7a0a6364cdef.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "封皮颜色",
+      "caption": "宋代编书，明代又刻印",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-1f867cfc4c76e2dd",
-      "title": "学习示意：探索、记录、后人研究",
-      "localPath": "reference-assets/focused-quests/study-1f867cfc4c76e2dd.svg",
+      "id": "study-80554b6af23cffe1",
+      "title": "学习示意：北宋编成、1044年",
+      "localPath": "reference-assets/focused-quests/study-80554b6af23cffe1.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "探索 → 记录 → 后人研究",
+      "caption": "北宋编成 → 1044年",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-297990b24ffa345a",
-      "title": "学习示意：整理记录",
-      "localPath": "reference-assets/focused-quests/study-297990b24ffa345a.svg",
+      "id": "study-e56471d21615955f",
+      "title": "学习示意：明代刻印、1368—1644年间",
+      "localPath": "reference-assets/focused-quests/study-e56471d21615955f.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "整理记录",
+      "caption": "明代刻印 → 1368—1644年间",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-a8c1db38555e01d5",
-      "title": "学习示意：抹去前人探索",
-      "localPath": "reference-assets/focused-quests/study-a8c1db38555e01d5.svg",
+      "id": "study-80373ba5b51bddb7",
+      "title": "学习示意：不同时间的人，把知识接下去",
+      "localPath": "reference-assets/focused-quests/study-80373ba5b51bddb7.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "抹去前人探索",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-70e8fbb86a40de02",
-      "title": "学习示意：不同时期、不同应用",
-      "localPath": "reference-assets/focused-quests/study-70e8fbb86a40de02.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "不同时期 → 不同应用",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-4a6a8ab4f474be92",
-      "title": "学习示意：按时期查资料",
-      "localPath": "reference-assets/focused-quests/study-4a6a8ab4f474be92.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "按时期查资料",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-e38f1029be189cc8",
-      "title": "学习示意：所有用途相同",
-      "localPath": "reference-assets/focused-quests/study-e38f1029be189cc8.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "所有用途相同",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-91b83207ab6d8159",
-      "title": "学习示意：探索、记录、研究",
-      "localPath": "reference-assets/focused-quests/study-91b83207ab6d8159.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "探索 → 记录 → 研究",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-925780bebd3bef5d",
-      "title": "学习示意：整理时间卡",
-      "localPath": "reference-assets/focused-quests/study-925780bebd3bef5d.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "整理时间卡",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-6f205aa3e8564787",
-      "title": "学习示意：混合点火",
-      "localPath": "reference-assets/focused-quests/study-6f205aa3e8564787.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "混合点火",
+      "caption": "不同时间的人，把知识接下去",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1111,8 +1289,8 @@
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "《武经总要》传本所见火箭装置图像。",
-      "boundary": "图像属于古代技术文本的传抄与刊刻传统，不是11世纪战场照片，也不能据此复原所有制作细节。课程用它说明火药技术曾被记录和应用，不制作武器操作教程。原图570×846像素，未作修改。",
-      "childVisibility": "child-ok"
+      "boundary": "图像属于古代技术文本的传抄与刊刻传统，不是11世纪战场照片，也不能据此复原所有制作细节。课程用它说明火药技术曾被记录和应用，不制作武器操作教程。原图570×846像素，未作修改。 2026-09-21当前章改用代码关系图或明确版本的封面及新教学场景；旧图仅存档，不用于本轮儿童观察。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "four-inventions-time-journey-child-illustration",
@@ -1137,7 +1315,59 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "自制儿童艺术表现：成年人分开观察材料、用图形记录，并在远处观看安全的节庆光点。",
-      "boundary": "2026-08-12为低龄玩法自制。它不是宋代现场、真实配方、实验或点火教程；罩内材料的颜色和形状、人物、书本符号与节庆场景均为抽象艺术表现，不表示可用材料、比例、制作步骤或安全操作。儿童只学习历史证据和用途变化。",
+      "boundary": "2026-08-12为低龄玩法自制。它不是宋代现场、真实配方、实验或点火教程；罩内材料的颜色和形状、人物、书本符号与节庆场景均为抽象艺术表现，不表示可用材料、比例、制作步骤或安全操作。儿童只学习历史证据和用途变化。 2026-09-21当前章改用代码关系图或明确版本的封面及新教学场景；旧图仅存档，不用于本轮儿童观察。",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "wujing-ming-cover",
+      "title": "《武经总要》后世明刻本封面书影",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/wujing-ming-cover.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NLC892-411999028209-148443_武經總要前集_第1冊.pdf",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "明代刻本 · 国家图书馆藏 · PDF第1页",
+      "boundary": "这是后世刻本封面，不是1044年纸本原稿，也不是火药配方所在页。扫描文件公版；整页渲染，保留馆藏水印，无AI修复或重绘。宋代成书与明代刻印分开说明。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "song-books-museum-v1",
+      "title": "古书怎样留下火药的历史？故事插画",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-books-museum-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "song-friends-reunion-v1",
+      "title": "宋代历史站小伙伴回看旅行册",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-friends-reunion-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "三位现代儿童回顾旅行手册；册上船、印刷图样与月亮为整站学习线索，不冒充古代原物或个人亲历。",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "song-friends-reunion-v2",
+      "title": "宋代历史站小伙伴回看旅行册",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-friends-reunion-v2.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史照片。",
+      "boundary": "三位现代儿童回顾旅行手册；册上船、印刷图样与月亮为整站学习线索，不冒充古代原物或个人亲历。",
       "childVisibility": "child-ok"
     }
   ],

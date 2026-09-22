@@ -15,89 +15,100 @@
   "throughline": "先找战国旧墙段，再看秦怎样连接、修缮和增筑，并把墙、关口、道路、烽燧与驻守放进同一防御系统；同时区分秦代遗址与明代砖石长城。",
   "childEntry": {
     "id": "cn-ancient-04-05-qin-great-wall",
-    "childTitle": "帮长城连上旧墙段",
-    "prompt": "秦朝修长城，是从一张空白地图开始的吗？",
-    "takeaway": "秦在旧有墙段基础上修筑和连接，还需要道路、关口与许多人长期维护。",
+    "childTitle": "长城为什么要修？",
+    "prompt": "长长的城墙能抵御外来进攻。小伙伴还想知道：有了墙，为什么还要有人守？",
+    "takeaway": "秦朝连接、修缮旧墙，是为了抵御来自北方的进攻。城墙、关口和守卫的人相互配合，帮助守卫边地。",
     "object": "低矮墙段、关口和烽燧示意",
     "people": [
-      "筑墙者和运送者"
+      "秦朝修墙、运料",
+      "守关的人们"
     ],
     "place": "秦朝北方边地的多段墙体与山口",
-    "culture": "“万里长城”的跨时代记忆",
-    "care": "路线简图不标真实边界和精确墙线。今天的长城照片不能当作秦朝工程现场。",
-    "preferredAssetId": "qin-great-wall-connection-child-illustration",
+    "culture": "二年级课文《神州谣》",
+    "care": "小伙伴、工匠、守卫和关口场景是虚构教学故事，不是秦代现场、真实人物自述或服饰建筑复原。长城帮助抵御外来的进攻，但并非不可越过，也不会自动防御。接墙是学习模型，不表示真墙可以整段搬起。金山岭照片为后来的明代墙段，不作秦长城原貌；汉代玉门关不用于说明秦墙演变。《神州谣》用于引发观察，不提供秦墙路线；《史记》的起止记载只放家长延伸，不作今天全部长城的地图。相册另展示明代长城的不同角度，以及汉代土墙和玉门关遗址；各图独立标年代，用于跨时期观察，不作为秦长城原貌。",
+    "preferredAssetId": "qin-han-jinshanling-panorama",
     "playableSource": "content/focused-quests.json"
   },
   "textbookConnection": {
     "id": "cn-ancient-04-05-qin-great-wall",
     "featured": {
-      "type": "地点",
-      "icon": "🧱",
-      "title": "筑墙者和运送者",
-      "childBridge": "秦朝修长城，是从一张空白地图开始的吗？",
-      "evidenceBoundary": "路线简图不标真实边界和精确墙线。"
+      "type": "课文",
+      "icon": "📖",
+      "title": "《神州谣》（二年级下册识字课文）",
+      "childBridge": "课文写“长城长，珠峰耸”。长长的墙为什么要修？去看看它怎样与守卫的人一起守卫边地。",
+      "evidenceBoundary": "《神州谣》是识字课文，帮助感受长城；抵御进攻的用途、秦墙文献与遗址年代分别核对，课文不提供军事、施工或测绘记录。"
     },
     "companions": [
+      {
+        "type": "文献",
+        "label": "《史记·蒙恬列传》",
+        "note": "“西起临洮，至辽东，延袤万余里”的出处。"
+      },
       {
         "type": "历史",
         "label": "战国旧墙段",
         "note": "秦以前一些诸侯国已经修墙，秦不是从空地开始。"
       },
       {
-        "type": "地点",
-        "label": "山口、道路与烽燧",
-        "note": "长城是一套系统，不只是墙体。"
-      },
-      {
         "type": "人物",
-        "label": "劳动者与驻守者",
-        "note": "防御工程也带来劳役、运输和驻守负担。"
+        "label": "修墙与守边的人们",
+        "note": "夯筑、运输和驻守由许多普通人承担。"
       }
     ],
     "sourceIds": [
       "UNESCO-GREAT-WALL",
       "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
-      "NMC-QIN-HAN-OVERVIEW"
+      "NMC-QIN-HAN-OVERVIEW",
+      "SHIJI-MENGTIAN",
+      "XINHUA-GUYANG-QIN-WALL",
+      "XINHUA-NINGXIA-EARTH-WALL",
+      "PEP-PRIMARY-CHINESE-G2B-2018",
+      "GUYANG-GOV-QIN-WALL-STRUCTURES",
+      "HEBEI-WENWU-JINSHANLING",
+      "SH-LHS-ANCIENT-DEFENCE-POSTS",
+      "DHA-DUNHUANG-ARCHAEOLOGY-2023",
+      "GSWB-HAN-WALL-LAYERS-2023",
+      "UNESCO-CHANGAN-TIANSHAN"
     ]
   },
   "childStory": [
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "长城的先后",
-      "text": "战国时一些国家已经筑墙。秦统一以后，又修筑、连接其中一些墙段。"
+      "label": "从今天的长城出发",
+      "text": "长城用来抵御外来进攻、守卫边地。照片里的金山岭墙段是明代的。我们先去更早的秦朝，看看人们为什么连接、修缮旧墙。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "找出缺口",
-      "text": "看看这张简图：山边已有两段墙，中间留着缺口。真实工程要随地形安排。"
+      "label": "连起旧墙，抵御进攻",
+      "text": "“长城长”，小伙伴望着山边的旧墙。秦朝把更早的墙段连接、修补起来，抵御来自北方的进攻。高墙让来进攻的人更难通过，边地也更容易守卫。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "人从哪里走",
-      "text": "墙边还需要关口和道路，供人员按规定往来，也要运送物资。"
+      "label": "帮旧墙补一段",
+      "text": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "谁让墙留在山边",
-      "text": "筑墙、运土、修路，都要许多人出力。修好以后，还会损坏，需要维护。"
+      "label": "找到两位守卫",
+      "text": "墙不会自己观察。有人在高处望远，有人在关口查看来往的人，他们互相传递消息。一起找找两位守卫。"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "今天照片里的墙",
-      "text": "今天常见的高大砖墙，许多属于明代修建部分。长城不是一次建成的。"
+      "label": "让关口早点得到消息",
+      "text": "城墙帮着阻挡进攻，关口需要有人看守。现在，小伙伴想让关口早点知道远处的动静。选个办法帮帮他。"
     }
   ],
   "glossary": [
     {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "term": "独立",
+      "icon": "🌱",
+      "plain": "一个国家或人民不再由外来力量控制。",
+      "example": "宣布独立是节点，建立新制度还需要很长过程。",
       "priority": 1
     },
     {
@@ -105,6 +116,13 @@
       "icon": "🏚️",
       "plain": "过去的人生活或活动后留下的地方。",
       "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "统一",
+      "icon": "🧩",
+      "plain": "原来分开的地方进入同一个国家治理。",
+      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
       "priority": 1
     }
   ],
@@ -118,6 +136,35 @@
         "cn-ancient-04-05-qin-great-wall"
       ],
       "note": "“始皇”是称号，不拆成口语停顿。"
+    },
+    {
+      "text": "看守",
+      "reading": "kān shǒu",
+      "kind": "phrase",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "note": "看守的看读第一声，与看一看区分；现有语音引擎按完整词组自然合成，仍需人工校听。"
+    },
+    {
+      "text": "长城长",
+      "reading": "cháng chéng cháng",
+      "kind": "phrase",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "synthesisText": "常城常",
+      "note": "课文中的两个长均读cháng；只对完整短语校音，页面保留原文。"
+    },
+    {
+      "text": "玉门关",
+      "reading": "Yùménguān",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall",
+        "cn-ancient-04-03-silk-road"
+      ],
+      "note": "西北关隘名，连续读作“玉—门—关”。"
     },
     {
       "text": "烽燧",
@@ -136,66 +183,486 @@
     "hook": {
       "kind": "具体任务",
       "icon": "🔎",
-      "label": "帮长城连上旧墙段",
-      "question": "秦朝修长城，是从一张空白地图开始的吗？"
+      "label": "长城为什么要修？",
+      "question": "长长的城墙能抵御外来进攻。小伙伴还想知道：有了墙，为什么还要有人守？"
     },
-    "cta": "去接一段墙",
-    "anchor": "筑墙者和运送者",
-    "boundary": "路线简图不标真实边界和精确墙线。今天的长城照片不能当作秦朝工程现场。",
-    "evidence": [],
+    "cta": "去看看谁在守长城",
+    "anchor": "秦朝修墙、运料与守关的人们",
+    "boundary": "小伙伴、工匠、守卫和关口场景是虚构教学故事，不是秦代现场、真实人物自述或服饰建筑复原。长城帮助抵御外来的进攻，但并非不可越过，也不会自动防御。接墙是学习模型，不表示真墙可以整段搬起。金山岭照片为后来的明代墙段，不作秦长城原貌；汉代玉门关不用于说明秦墙演变。《神州谣》用于引发观察，不提供秦墙路线；《史记》的起止记载只放家长延伸，不作今天全部长城的地图。相册另展示明代长城的不同角度，以及汉代土墙和玉门关遗址；各图独立标年代，用于跨时期观察，不作为秦长城原貌。",
+    "evidence": [
+      {
+        "id": "qin-han-jinshanling-panorama",
+        "title": "金山岭明长城全景照片",
+        "localPath": "reference-assets/qin-han/jinshanling-panorama.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 3.0",
+        "clearance": "cleared-open-license",
+        "caption": "金山岭长城沿山脊蜿蜒的全景。金山岭为明代修建段，比秦朝晚很多。",
+        "boundary": "照片用于展示长城沿山脊延伸的形态。金山岭为明代墙段，不冒充秦长城。采用Commons的edit版本：原摄影Severin.stalder，Brandmeister降低蓝色饱和度；本项目仅等比例缩小，未重画照片。作者、编辑与CC BY-SA 3.0许可已核对原文件页。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-han-jinshanling-panorama.jpg"
+      },
+      {
+        "id": "qin-han-jinshanling-walkway",
+        "title": "金山岭至司马台明长城墙顶与台阶照片",
+        "localPath": "reference-assets/qin-han/jinshanling-walkway.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Greatwall-SA2.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY 2.0",
+        "clearance": "cleared-open-license",
+        "caption": "墙顶的通道、台阶与两侧墙体。",
+        "boundary": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-han-jinshanling-walkway.jpg"
+      },
+      {
+        "id": "qin-han-jinshanling-tower-detail",
+        "title": "金山岭至司马台明长城城楼内部照片",
+        "localPath": "reference-assets/qin-han/jinshanling-tower-close.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ruins_of_the_guard_tower.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY 2.0",
+        "clearance": "cleared-open-license",
+        "caption": "不完整城楼内部的空间与拱形洞口。",
+        "boundary": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-han-jinshanling-tower-detail.jpg"
+      },
+      {
+        "id": "qin-han-han-wall-detail",
+        "title": "玉门关附近汉长城墙体与高台遗址照片",
+        "localPath": "reference-assets/qin-han/han-wall-detail.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Site_of_Han_Dynasty_Great_Wall_at_Yumenguan_(20230917105206).jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 4.0",
+        "clearance": "cleared-open-license",
+        "caption": "汉代土筑墙体的分层纹理与远处高台遗迹。",
+        "boundary": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-han-han-wall-detail.jpg"
+      },
+      {
+        "id": "qin-han-yumen-pass",
+        "title": "玉门关遗址现状照片",
+        "localPath": "reference-assets/qin-han/yumen-pass.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E7%8E%89%E9%97%A8%E5%85%B3_%E9%81%97%E5%9D%80_-_panoramio.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY 3.0",
+        "clearance": "cleared-open-license",
+        "caption": "今天的玉门关遗址和周围戈壁景观。",
+        "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-han-yumen-pass.jpg"
+      },
+      {
+        "id": "qin-han-yumen-pass-close",
+        "title": "玉门关遗址小方盘城近景照片",
+        "localPath": "reference-assets/qin-han/yumen-pass-close.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dunhuang.yumenguan.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 3.0",
+        "clearance": "cleared-open-license",
+        "caption": "小方盘城的土墙转角和门洞。",
+        "boundary": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-han-yumen-pass-close.jpg"
+      }
+    ],
+    "photoAlbum": {
+      "id": "great-wall-forms",
+      "title": "长城相册",
+      "label": "看看真实的长城",
+      "photos": [
+        {
+          "assetId": "qin-han-jinshanling-panorama",
+          "title": "山脊上的长墙",
+          "label": "远看长墙",
+          "period": "明代 · 秦之后",
+          "observation": "沿着山脊，找找长城弯到了哪里。",
+          "narration": "这是明代的金山岭长城，比秦朝晚。看，长墙沿着山脊弯弯曲曲。点下面的小照片，还能看看墙顶、城楼和汉代遗址。",
+          "caption": "金山岭 · 明代长城 · 现代照片",
+          "sourceIds": [
+            "HEBEI-WENWU-JINSHANLING",
+            "UNESCO-GREAT-WALL"
+          ],
+          "boundary": "本图提供全景形态，不作秦长城原貌或整条长城的统一地图。 照片用于展示长城沿山脊延伸的形态。金山岭为明代墙段，不冒充秦长城。采用Commons的edit版本：原摄影Severin.stalder，Brandmeister降低蓝色饱和度；本项目仅等比例缩小，未重画照片。作者、编辑与CC BY-SA 3.0许可已核对原文件页。",
+          "sourceLinks": [
+            {
+              "title": "长城保护 久久为功——河北长城保护工作实践",
+              "url": "https://wenwu.hebei.gov.cn/system/2023/11/15/030263380.shtml"
+            },
+            {
+              "title": "The Great Wall",
+              "url": "https://whc.unesco.org/en/list/438/"
+            },
+            {
+              "title": "照片作者：Severin.stalder；色彩编辑 Brandmeister · 原文件说明",
+              "url": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
+            },
+            {
+              "title": "照片许可：CC BY-SA 3.0",
+              "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+            }
+          ],
+          "image": "/content/step-images/qin-han-jinshanling-panorama.jpg",
+          "audio": {
+            "id": "quest-e05b3a328c788e36",
+            "text": "这是明代的金山岭长城，比秦朝晚。看，长墙沿着山脊弯弯曲曲。点下面的小照片，还能看看墙顶、城楼和汉代遗址。"
+          }
+        },
+        {
+          "assetId": "qin-han-jinshanling-walkway",
+          "title": "墙顶也有路",
+          "label": "墙顶的路",
+          "period": "明代 · 秦之后",
+          "observation": "沿着台阶，看这条路怎样通向城楼。",
+          "narration": "这是金山岭到司马台一带的明代长城。走近看，墙顶有路和台阶，两边有墙。守卫的人可以沿着墙顶行走。",
+          "caption": "明代长城墙顶 · 2004年照片",
+          "sourceIds": [
+            "HEBEI-WENWU-JINSHANLING",
+            "UNESCO-GREAT-WALL"
+          ],
+          "boundary": "照片中的通道、缺损和游客属于拍摄时状态，不用这张图证明秦代墙顶结构。 原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+          "sourceLinks": [
+            {
+              "title": "长城保护 久久为功——河北长城保护工作实践",
+              "url": "https://wenwu.hebei.gov.cn/system/2023/11/15/030263380.shtml"
+            },
+            {
+              "title": "The Great Wall",
+              "url": "https://whc.unesco.org/en/list/438/"
+            },
+            {
+              "title": "照片作者：Saad Akhtar · 原文件说明",
+              "url": "https://commons.wikimedia.org/wiki/File:Greatwall-SA2.jpg"
+            },
+            {
+              "title": "照片许可：CC BY 2.0",
+              "url": "https://creativecommons.org/licenses/by/2.0/"
+            }
+          ],
+          "image": "/content/step-images/qin-han-jinshanling-walkway.jpg",
+          "audio": {
+            "id": "quest-afb71f52d45e5816",
+            "text": "这是金山岭到司马台一带的明代长城。走近看，墙顶有路和台阶，两边有墙。守卫的人可以沿着墙顶行走。"
+          }
+        },
+        {
+          "assetId": "qin-han-jinshanling-tower-detail",
+          "title": "城楼里的空间",
+          "label": "城楼近看",
+          "period": "明代 · 秦之后",
+          "observation": "找找拱形的洞口，再看楼里的空间。",
+          "narration": "这是一座明代长城城楼的照片。屋顶已经不完整，里面的空间和拱形洞口露出来了。古时有人在城楼驻守、观察。",
+          "caption": "明代城楼遗存 · 2004年照片",
+          "sourceIds": [
+            "HEBEI-WENWU-JINSHANLING",
+            "UNESCO-GREAT-WALL"
+          ],
+          "boundary": "不能依据缺损外观判断损坏原因；城楼与秦代守卫故事仅作功能对照，不作为同年代建筑。 原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+          "sourceLinks": [
+            {
+              "title": "长城保护 久久为功——河北长城保护工作实践",
+              "url": "https://wenwu.hebei.gov.cn/system/2023/11/15/030263380.shtml"
+            },
+            {
+              "title": "The Great Wall",
+              "url": "https://whc.unesco.org/en/list/438/"
+            },
+            {
+              "title": "照片作者：Saad Akhtar · 原文件说明",
+              "url": "https://commons.wikimedia.org/wiki/File:Ruins_of_the_guard_tower.jpg"
+            },
+            {
+              "title": "照片许可：CC BY 2.0",
+              "url": "https://creativecommons.org/licenses/by/2.0/"
+            }
+          ],
+          "image": "/content/step-images/qin-han-jinshanling-tower-detail.jpg",
+          "audio": {
+            "id": "quest-3f6035c84e9285c4",
+            "text": "这是一座明代长城城楼的照片。屋顶已经不完整，里面的空间和拱形洞口露出来了。古时有人在城楼驻守、观察。"
+          }
+        },
+        {
+          "assetId": "qin-han-han-wall-detail",
+          "title": "沙土筑成的长城",
+          "label": "汉代土墙",
+          "period": "汉代 · 秦之后",
+          "observation": "土墙留下一道道层次。找找远处的高台。",
+          "narration": "这是玉门关附近的汉代长城遗址，比秦朝晚。看，土墙留下一道道层次，远处还有高台遗迹。长城并不全是砖墙。",
+          "caption": "汉长城遗址 · 2023年照片",
+          "sourceIds": [
+            "DHA-DUNHUANG-ARCHAEOLOGY-2023",
+            "GSWB-HAN-WALL-LAYERS-2023"
+          ],
+          "boundary": "本例用于观察敦煌地区汉代土筑墙体与分层材料；不把矮土墙都判定为秦墙，也不以照片复原原高。 原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+          "sourceLinks": [
+            {
+              "title": "张小刚：敦煌考古成就与展望",
+              "url": "https://www.nopss.gov.cn/n1/2023/0828/c219544-40065225.html"
+            },
+            {
+              "title": "“长城大省”守护精神根脉生生不息",
+              "url": "https://www.gswbj.gov.cn/a/2023/10/11/18852.html"
+            },
+            {
+              "title": "照片作者：N509FZ · 原文件说明",
+              "url": "https://commons.wikimedia.org/wiki/File:Site_of_Han_Dynasty_Great_Wall_at_Yumenguan_(20230917105206).jpg"
+            },
+            {
+              "title": "照片许可：CC BY-SA 4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            }
+          ],
+          "image": "/content/step-images/qin-han-han-wall-detail.jpg",
+          "audio": {
+            "id": "quest-68a89135ed6f09fa",
+            "text": "这是玉门关附近的汉代长城遗址，比秦朝晚。看，土墙留下一道道层次，远处还有高台遗迹。长城并不全是砖墙。"
+          }
+        },
+        {
+          "assetId": "qin-han-yumen-pass",
+          "title": "戈壁中的关城",
+          "label": "玉门关远看",
+          "period": "汉代 · 秦之后",
+          "observation": "看看关城，再看看周围宽阔的戈壁。",
+          "narration": "这是汉代玉门关遗址的小方盘城，比秦朝晚。它坐落在戈壁上，附近还有长城和烽燧遗址。守卫边地不只靠一条长墙。",
+          "caption": "玉门关遗址 · 小方盘城 · 2011年照片",
+          "sourceIds": [
+            "DHA-DUNHUANG-ARCHAEOLOGY-2023",
+            "UNESCO-CHANGAN-TIANSHAN"
+          ],
+          "boundary": "这里展示玉门关遗址的小方盘城与环境，不将它说成秦代长城或秦墙风化后的样子。 照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
+          "sourceLinks": [
+            {
+              "title": "张小刚：敦煌考古成就与展望",
+              "url": "https://www.nopss.gov.cn/n1/2023/0828/c219544-40065225.html"
+            },
+            {
+              "title": "Silk Roads: the Routes Network of Chang'an-Tianshan Corridor",
+              "url": "https://whc.unesco.org/en/list/1442/"
+            },
+            {
+              "title": "照片作者：guan · 原文件说明",
+              "url": "https://commons.wikimedia.org/wiki/File:%E7%8E%89%E9%97%A8%E5%85%B3_%E9%81%97%E5%9D%80_-_panoramio.jpg"
+            },
+            {
+              "title": "照片许可：CC BY 3.0",
+              "url": "https://creativecommons.org/licenses/by/3.0/"
+            }
+          ],
+          "image": "/content/step-images/qin-han-yumen-pass.jpg",
+          "audio": {
+            "id": "quest-bcd28af1debd668d",
+            "text": "这是汉代玉门关遗址的小方盘城，比秦朝晚。它坐落在戈壁上，附近还有长城和烽燧遗址。守卫边地不只靠一条长墙。"
+          }
+        },
+        {
+          "assetId": "qin-han-yumen-pass-close",
+          "title": "方城的门洞",
+          "label": "玉门关近看",
+          "period": "汉代 · 秦之后",
+          "observation": "走近看，土墙上的门洞在哪里？",
+          "narration": "走近看看汉代玉门关遗址的小方盘城。厚厚的土墙转了一个角，墙上留着门洞。关城、长墙和守卫的人，要互相配合。",
+          "caption": "小方盘城近景 · 汉代遗址 · 2013年照片",
+          "sourceIds": [
+            "DHA-DUNHUANG-ARCHAEOLOGY-2023",
+            "UNESCO-CHANGAN-TIANSHAN"
+          ],
+          "boundary": "建筑身份以汉代关防遗址的组成部分表述；不把眼前每个洞口、栏杆或保护设施都当作汉代原物。 原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+          "sourceLinks": [
+            {
+              "title": "张小刚：敦煌考古成就与展望",
+              "url": "https://www.nopss.gov.cn/n1/2023/0828/c219544-40065225.html"
+            },
+            {
+              "title": "Silk Roads: the Routes Network of Chang'an-Tianshan Corridor",
+              "url": "https://whc.unesco.org/en/list/1442/"
+            },
+            {
+              "title": "照片作者：Popolon · 原文件说明",
+              "url": "https://commons.wikimedia.org/wiki/File:Dunhuang.yumenguan.jpg"
+            },
+            {
+              "title": "照片许可：CC BY-SA 3.0",
+              "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+            }
+          ],
+          "image": "/content/step-images/qin-han-yumen-pass-close.jpg",
+          "audio": {
+            "id": "quest-9ba301add4474099",
+            "text": "走近看看汉代玉门关遗址的小方盘城。厚厚的土墙转了一个角，墙上留着门洞。关城、长墙和守卫的人，要互相配合。"
+          }
+        }
+      ]
+    },
     "coverAsset": {
-      "id": "qin-great-wall-connection-child-illustration",
-      "title": "秦连接、修缮和增筑北方墙段儿童艺术表现",
-      "localPath": "reference-assets/qin-han/qin-great-wall-connection-child-illustration.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "qin-han-jinshanling-panorama",
+      "title": "金山岭明长城全景照片",
+      "localPath": "reference-assets/qin-han/jinshanling-panorama.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制；按OpenAI使用条款持有输出使用权",
-      "clearance": "cleared-project-created",
-      "caption": "自制儿童艺术表现：成年人沿低矮土石墙段连接、修缮和运输材料，远处还有分散旧墙与道路。",
-      "boundary": "2026-08-12为低龄玩法自制。它不是秦代现场、长城遗址照片、精确墙体复原或施工说明；人物、车具、墙体样式和地形均为帮助理解“旧墙段—连接—系统”的艺术表现，也不能用来推断工程人数、工期或某一具体地点。",
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "金山岭长城沿山脊蜿蜒的全景。金山岭为明代修建段，比秦朝晚很多。",
+      "boundary": "照片用于展示长城沿山脊延伸的形态。金山岭为明代墙段，不冒充秦长城。采用Commons的edit版本：原摄影Severin.stalder，Brandmeister降低蓝色饱和度；本项目仅等比例缩小，未重画照片。作者、编辑与CC BY-SA 3.0许可已核对原文件页。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/qin-great-wall-connection-child-illustration.jpg"
+      "image": "/content/step-images/qin-han-jinshanling-panorama.jpg"
     },
-    "presentation": null,
-    "sceneAsset": null,
-    "narrativeAssets": [],
-    "coverImage": "/content/step-images/qin-great-wall-connection-child-illustration.jpg",
-    "coverImageAlt": "秦连接、修缮和增筑北方墙段儿童艺术表现",
-    "coverImageKind": "故事插画",
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "qin-wall-site-story-v2",
+      "sceneAlt": "小伙伴和修墙工匠在山脚看蜿蜒到远方的旧墙和中间的缺口，现代故事插画",
+      "title": "长城为什么要修？",
+      "evidenceTitle": "这张照片是今天的长城",
+      "evidenceLine": "它是明代修建的金山岭，比秦朝晚很多。看它怎样沿着山脊一直走。",
+      "evidenceNarration": "这是今天的金山岭长城照片，是明代修建的部分。秦朝连接的旧墙段，大多不是这样整齐的砖墙。",
+      "guide": "点你选的图形。小喇叭可以听名字。",
+      "alignHint": "拖动这段墙，把它接进缺口里。",
+      "familyHint": "挪开模型中的一段，再请家人把两端接齐。",
+      "familyLabel": "和家人试试守关",
+      "practice": {
+        "scene": "wall-join"
+      },
+      "nextLabel": "接着看一看",
+      "lastLabel": "把长城的发现带回家",
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "qin-wall-friends-reunion-v1",
+        "reunionAlt": "戴圆框眼镜、留齐刘海的绿衣男孩与黄衣男孩、马尾女孩在山脚墙段旁分享发现，现代故事插画",
+        "coverCaption": "抵御外来进攻，长城怎样守卫边地",
+        "coverNarration": "“长城长，珠峰耸。”这么长的墙，是用来抵御外敌、守卫边地的。有了墙，为什么还要有人守？小小旅行团，去关口看看吧！",
+        "stationLine": "秦朝站到了！去工坊量布，或去山边看长城。",
+        "stationNarration": "秦朝站到了！去工坊量布，还是去山边看长城？",
+        "closingCaption": "带回长城守卫边地的发现",
+        "closingNarration": "我们找到长城的本领啦！它帮助抵御外来的进攻。城墙、关口和守卫的人一起配合，才能更好地守卫边地。",
+        "closingLine": "抵御外来进攻，墙和人一起守卫边地。",
+        "fictionNote": "角色与场景属于虚构教学叙事，不作为秦代军服、关口或瞭望设施的精确复原。抵御北方进攻、墙体与关口的配合、守卫观察与传信分别以登记资料支持；不描绘战斗或将防御写成绝对有效。",
+        "reunionImage": "/content/step-images/qin-wall-friends-reunion-v1.jpg",
+        "stationAudio": {
+          "id": "quest-8f5ab1834a314594",
+          "text": "秦朝站到了！去工坊量布，还是去山边看长城？"
+        },
+        "closingAudio": {
+          "id": "quest-3ed9fe7d806f91cd",
+          "text": "我们找到长城的本领啦！它帮助抵御外来的进攻。城墙、关口和守卫的人一起配合，才能更好地守卫边地。"
+        }
+      },
+      "sceneFraming": "story",
+      "sceneImage": "/content/step-images/qin-wall-site-story-v2.jpg",
+      "evidenceAudio": {
+        "id": "quest-cd46d85734cfe0a0",
+        "text": "这是今天的金山岭长城照片，是明代修建的部分。秦朝连接的旧墙段，大多不是这样整齐的砖墙。"
+      },
+      "guideAudio": {
+        "id": "quest-e0607bf8a0fb551c",
+        "text": "点你选的图形。小喇叭可以听名字。"
+      }
+    },
+    "sceneAsset": {
+      "id": "qin-wall-site-story-v2",
+      "title": "秦长城山脚工地故事插画（远景蜿蜒长墙版）",
+      "localPath": "reference-assets/qin-han/qin-wall-site-story-v2.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "小伙伴和无名工匠在山脚看蜿蜒到远方的旧墙和中间的缺口。",
+      "boundary": "现代故事插画，不是秦代现场、遗址照片或精确施工复原；远景蜿蜒长墙帮助理解长城之长与沿山脊延伸。交互墙段由 app/ObjectWorkbench.tsx 的共用组件绘制，真实遗址另在证据入口展示。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/qin-wall-site-story-v2.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "qin-wall-friends-reunion-v1",
+        "title": "三位小伙伴在山脚墙段旁分享发现的故事插画",
+        "localPath": "reference-assets/qin-han/qin-wall-friends-reunion-v1.png",
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "黄衣、绿衣小伙伴和红衣伙伴在连起来的旧墙段前相聚。",
+        "boundary": "现代虚构旅行故事插画，不作为秦代真实人物、服装、工地或历史现场的证据；画面只承担角色叙事。角色外形按 docs/CHARACTERS.md：黄衣翘短发、绿衣圆框眼镜齐刘海、红衣高马尾花发夹。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-wall-friends-reunion-v1.jpg"
+      },
+      {
+        "id": "qin-wall-guard-story-v1",
+        "title": "长城关口与守卫观察的故事插画",
+        "localPath": "reference-assets/qin-han/qin-wall-guard-story-v1.png",
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "小伙伴观察有人看守的关口和高处的守卫，理解城墙与人配合防御。",
+        "boundary": "虚构教学插画，不是秦代现场、军服或建筑复原。画面只表达墙体阻挡、通道有人看守、守卫观察远处的关系，不呈现具体战斗或传信信号。原运料插画保留。生成1次后局部修正瞭望守卫多余手臂1次；提示词与结果见docs/qa/2026-09-15-wall-purpose/。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-wall-guard-story-v1.jpg"
+      },
+      {
+        "id": "qin-wall-teamwork-story-v1",
+        "title": "修墙者运石、垒墙的协作故事插画",
+        "localPath": "reference-assets/qin-han/qin-wall-teamwork-story-v1.png",
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "小伙伴观察成年人运料与垒墙，展示修筑需要多人协作。",
+        "boundary": "虚构教学插画；不作为秦代工人身份、服装、工具、精确施工工艺或某段遗址原貌的证据。孩子只观察，画面示意石料逐层垒放，真实材料依据另列。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-wall-teamwork-story-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/qin-han-jinshanling-panorama.jpg",
+    "coverImageAlt": "金山岭明长城全景照片",
+    "coverImageKind": "历史材料",
     "coverAudio": {
-      "id": "quest-cd8120742ba605da",
-      "text": "帮长城连上旧墙段。秦朝修长城，是从一张空白地图开始的吗？准备好就点“去接一段墙”。"
+      "id": "quest-46f02be095c16ee3",
+      "text": "“长城长，珠峰耸。”这么长的墙，是用来抵御外敌、守卫边地的。有了墙，为什么还要有人守？小小旅行团，去关口看看吧！",
+      "synthesisText": "“常城常，珠峰耸。”这么长的墙，是用来抵御外敌、守卫边地的。有了墙，为什么还要有人守？小小旅行团，去关口看看吧！"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-03817802c1fa5889",
-      "text": "秦在旧有墙段基础上修筑和连接，还需要道路、关口与许多人长期维护。"
+      "id": "quest-e0381e90cfb38224",
+      "text": "秦朝连接、修缮旧墙，是为了抵御来自北方的进攻。城墙、关口和守卫的人相互配合，帮助守卫边地。"
     },
     "finish": {
-      "title": "用手搭一段长城",
+      "title": "知道长城为什么要修啦！",
       "actions": [
-        "两只手各当一段墙，中间留个空。",
-        "请家人帮忙连起来，再指出通行的关口。"
+        "把模型中的墙段接齐，再摆一道积木墙。",
+        "在积木墙上留个关口，放上小玩偶当守卫。"
       ],
-      "parent": "问“墙连起来以后，还需要谁做什么？”接受修补、运送、维护道路等回答。说明手势只是示意。",
+      "parent": "先请孩子指出望远与守关的两位守卫，再说说“要早点发现远处动静，为什么先安排人观察”。允许指图和做望远动作，不要求背术语。先请孩子回答“修长城是为了什么”，再指认城墙、关口和守卫的配合：墙阻挡进攻，关口控制通行，守卫观察并传递消息；不要求背“防御系统”。秦朝北部边防可结合《史记·蒙恬列传》中北逐匈奴的背景理解，不把长城外的所有人都说成敌人。仍需认识先有旧墙、秦朝接着修、后世继续修筑。金山岭是明代墙段，不代表秦墙原貌。模型只示意连接，真墙需要逐步修筑、驻守与维护。家长延伸：文献中的临洮、辽东和“延袤万余里”不是今天全部长城的统一起止或现代实测长度。可再翻相册，比较明代砖墙、汉代土墙与小方盘城；先听清各自年代，不要求孩子根据外观猜朝代。",
       "sceneStepIndexes": [
         1,
-        2
+        3
       ],
       "actionAudio": [
         {
-          "id": "quest-e54d0242d855440f",
-          "text": "两只手各当一段墙，中间留个空。"
+          "id": "quest-0c9f08db100c0c96",
+          "text": "把模型中的墙段接齐，再摆一道积木墙。"
         },
         {
-          "id": "quest-475914114651a1d7",
-          "text": "请家人帮忙连起来，再指出通行的关口。"
+          "id": "quest-3666c75dd4f0f92b",
+          "text": "在积木墙上留个关口，放上小玩偶当守卫。"
         }
       ],
       "introAudio": {
-        "id": "quest-7222d85fd2f15673",
-        "text": "用手搭一段长城。两只手各当一段墙，中间留个空。请家人帮忙连起来，再指出通行的关口。"
+        "id": "quest-3ed9fe7d806f91cd",
+        "text": "我们找到长城的本领啦！它帮助抵御外来的进攻。城墙、关口和守卫的人一起配合，才能更好地守卫边地。"
       }
     },
     "estimatedMinutes": 6,
@@ -208,82 +675,148 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "长城的先后",
-        "title": "长城的先后",
-        "prompt": "哪条先后顺序对？",
-        "rightNote": "战国旧墙在前，秦的修接在后。",
-        "wrongNote": "战国旧墙在前，秦的修接在后。",
+        "phase": "从今天的长城出发",
+        "title": "从今天的长城出发",
+        "prompt": "秦朝和明朝，哪一站更早？",
+        "rightNote": "秦朝更早！我们去看看旧墙。",
+        "wrongNote": "明朝在后面，再往前找一站。",
         "sourceIds": [
           "UNESCO-GREAT-WALL",
-          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+          "HEBEI-WENWU-JINSHANLING"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "选好年代，就去看看长城的用处。"
+        },
+        "narrative": {
+          "scene": "artifact",
+          "caption": "从今天，走向更早的故事",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "秦朝更早！我们去看看旧墙。",
+          "retry": "明朝在后面，再往前找一站。",
+          "nextLabel": "长城是用来做什么的",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "qin-han-jinshanling-panorama",
+          "title": "金山岭 · 明代长城",
+          "localPath": "reference-assets/qin-han/jinshanling-panorama.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 3.0",
+          "clearance": "cleared-open-license",
+          "caption": "真实照片 · 比秦朝晚",
+          "boundary": "照片用于展示长城沿山脊延伸的形态。金山岭为明代墙段，不冒充秦长城。采用Commons的edit版本：原摄影Severin.stalder，Brandmeister降低蓝色饱和度；本项目仅等比例缩小，未重画照片。作者、编辑与CC BY-SA 3.0许可已核对原文件页。 金山岭长城沿山脊蜿蜒的全景。金山岭为明代修建段，比秦朝晚很多。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/qin-han-jinshanling-panorama.jpg",
+          "label": "点照片，翻翻长城相册",
+          "placement": "main",
+          "framing": "landscape",
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "河北省文物局：金山岭的明代身份与保护",
+              "url": "https://wenwu.hebei.gov.cn/system/2023/11/15/030263380.shtml"
+            },
+            {
+              "title": "UNESCO：长城世界遗产记录",
+              "url": "https://whc.unesco.org/en/list/438/"
+            },
+            {
+              "title": "摄影与色彩编辑：Commons文件说明",
+              "url": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
+            },
+            {
+              "title": "照片许可：CC BY-SA 3.0",
+              "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+            }
+          ],
+          "audio": {
+            "id": "quest-e05b3a328c788e36",
+            "text": "这是明代的金山岭长城，比秦朝晚。看，长墙沿着山脊弯弯曲曲。点下面的小照片，还能看看墙顶、城楼和汉代遗址。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "长城的先后",
-          "screenText": "战国时一些国家已经筑墙。秦统一以后，又修筑、连接其中一些墙段。",
-          "displayText": "战国时一些国家已经筑墙。秦统一以后，又修筑、连接其中一些墙段。",
-          "narration": "战国时一些国家已经筑墙。秦统一以后，又修筑、连接其中一些墙段。"
+          "title": "从今天的长城出发",
+          "screenText": "长城用来抵御外来进攻、守卫边地。照片里的金山岭墙段是明代的。我们先去更早的秦朝，看看人们为什么连接、修缮旧墙。",
+          "displayText": "长城用来抵御外来进攻、守卫边地。照片里的金山岭墙段是明代的。我们先去更早的秦朝，看看人们为什么连接、修缮旧墙。",
+          "narration": "长城用来抵御外来进攻、守卫边地。照片里的金山岭墙段是明代的。我们先去更早的秦朝，看看人们为什么连接、修缮旧墙。"
         },
-        "assetId": "study-e6c628a12fefd7c6",
-        "image": "/content/study-scenes/study-e6c628a12fefd7c6.svg",
-        "studyImage": "/content/study-scenes/study-e6c628a12fefd7c6.svg",
-        "studyImageAlt": "战国 先筑墙，秦 前221年后",
-        "imageAlt": "战国 先筑墙，秦 前221年后",
-        "imageCaption": "学习示意 · 战国 先筑墙，秦 前221年后",
-        "imageBoundary": "自制学习示意。路线简图不标真实边界和精确墙线。今天的长城照片不能当作秦朝工程现场。",
+        "assetId": "qin-han-jinshanling-panorama",
+        "image": "/content/step-images/qin-han-jinshanling-panorama.jpg",
+        "studyImage": "/content/study-scenes/study-f7bb8ec41a638ba6.svg",
+        "studyImageAlt": "秦 前221年起，明 1368年起",
+        "imageAlt": "金山岭明长城全景照片",
+        "imageCaption": "金山岭明长城全景照片",
+        "imageBoundary": "照片用于展示长城沿山脊延伸的形态。金山岭为明代墙段，不冒充秦长城。采用Commons的edit版本：原摄影Severin.stalder，Brandmeister降低蓝色饱和度；本项目仅等比例缩小，未重画照片。作者、编辑与CC BY-SA 3.0许可已核对原文件页。",
         "audio": {
+          "lead": {
+            "id": "quest-4d7f794b472f1588",
+            "text": "长城帮助抵御外来进攻。照片里的墙是明代的。先去更早的秦朝，哪一站更早呢？"
+          },
           "transition": {
-            "id": "quest-bb076851e83522a5",
-            "text": "长城的先后。"
+            "id": "quest-f6a67eb4958b5c61",
+            "text": "从今天的长城出发。"
           },
           "intro": {
-            "id": "quest-502685f88a29112a",
-            "text": "战国时一些国家已经筑墙。秦统一以后，又修筑、连接其中一些墙段。"
+            "id": "quest-ef08649272dcab80",
+            "text": "长城用来抵御外来进攻、守卫边地。照片里的金山岭墙段是明代的。我们先去更早的秦朝，看看人们为什么连接、修缮旧墙。"
           },
           "question": {
-            "id": "quest-897045ca11904721",
-            "text": "哪条先后顺序对？"
+            "id": "quest-12d8b863f9b9116a",
+            "text": "秦朝和明朝，哪一站更早？"
           },
           "image": {
-            "id": "quest-3fe560d65e715e0e",
-            "text": "这是学习示意图：战国 先筑墙，秦 前221年后。哪条先后顺序对？"
+            "id": "quest-d4739bca071a3e84",
+            "text": "这张是金山岭明长城全景照片。长城用来抵御外来进攻、守卫边地。照片里的金山岭墙段是明代的。我们先去更早的秦朝，看看人们为什么连接、修缮旧墙。"
           },
           "right": {
-            "id": "quest-535a288f61b39258",
-            "text": "找到了。战国旧墙在前，秦的修接在后。"
+            "id": "quest-c699ccb5ce071fe4",
+            "text": "秦朝更早！我们去看看旧墙。"
           },
           "wrong": {
-            "id": "quest-ee160d79635d8b0a",
-            "text": "再比较一下。战国旧墙在前，秦的修接在后。"
+            "id": "quest-cbcf2dd3d9df9a8a",
+            "text": "明朝在后面，再往前找一站。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-04-05-qin-great-wall-time-1",
-            "label": "战国旧墙 → 秦修接",
+            "label": "秦 · 前221年起",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-860639fcaeb14786.svg",
-            "imageAlt": "战国旧墙，秦朝修接",
+            "objectView": {
+              "kind": "era",
+              "name": "秦朝",
+              "date": "前221年起",
+              "stationImage": "/images/history-stations/united.webp"
+            },
+            "image": "/content/study-scenes/study-2163611b383f5dcb.svg",
+            "imageAlt": "秦 前221年起",
             "audio": {
-              "id": "quest-a1a9456f8c0493ae",
-              "text": "战国旧墙 → 秦修接"
+              "id": "quest-8a6efea6cc2ca940",
+              "text": "秦 · 前221年起"
             }
           },
           {
             "id": "cn-ancient-04-05-qin-great-wall-time-2",
-            "label": "秦修接 → 战国旧墙",
+            "label": "明 · 1368年起",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-19edea37017a45a5.svg",
-            "imageAlt": "秦朝修接，战国旧墙",
+            "objectView": {
+              "kind": "era",
+              "name": "明朝",
+              "date": "1368年起",
+              "stationImage": "/images/history-stations/later.webp"
+            },
+            "image": "/content/study-scenes/study-912aa4295cad4168.svg",
+            "imageAlt": "明 1368年起",
             "audio": {
-              "id": "quest-2499224acadc8ed7",
-              "text": "秦修接 → 战国旧墙"
+              "id": "quest-cb74e0185760c46e",
+              "text": "明 · 1368年起"
             }
           }
         ]
@@ -292,166 +825,186 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "找出缺口",
-        "title": "找出缺口",
-        "prompt": "这次要把两段墙连起来，接在哪里？",
-        "rightNote": "补上两段之间的缺口，才是在做连接。",
-        "wrongNote": "补上两段之间的缺口，才是在做连接。",
+        "phase": "连起旧墙，抵御进攻",
+        "title": "连起旧墙，抵御进攻",
+        "prompt": "连起旧墙，抵御进攻。",
+        "rightNote": "连接旧墙，帮助抵御外来进攻。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
           "UNESCO-GREAT-WALL",
-          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+          "PEP-PRIMARY-CHINESE-G2B-2018"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "看一看旧墙之间的空隙。",
+          "continueLabel": "去给旧墙补一段"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "为什么要把旧墙接起来",
+          "speaker": "工匠",
+          "responseSpeaker": "小伙伴",
+          "response": "连接旧墙，帮助抵御外来进攻。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "去给旧墙补一段",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "找出缺口",
-          "screenText": "看看这张简图：山边已有两段墙，中间留着缺口。真实工程要随地形安排。",
-          "displayText": "看看这张简图：山边已有两段墙，中间留着缺口。真实工程要随地形安排。",
-          "narration": "看看这张简图：山边已有两段墙，中间留着缺口。真实工程要随地形安排。"
+          "title": "连起旧墙，抵御进攻",
+          "screenText": "“长城长”，小伙伴望着山边的旧墙。秦朝把更早的墙段连接、修补起来，抵御来自北方的进攻。高墙让来进攻的人更难通过，边地也更容易守卫。",
+          "displayText": "抵御外来进攻，守卫北方边地。\n先有旧墙，秦朝接着修。",
+          "narration": "“长城长”，小伙伴望着山边的旧墙。秦朝把更早的墙段连接、修补起来，抵御来自北方的进攻。高墙让来进攻的人更难通过，边地也更容易守卫。"
         },
-        "assetId": "study-a3c9041a2e1f8c1b",
-        "image": "/content/study-scenes/study-a3c9041a2e1f8c1b.svg",
-        "studyImage": "/content/study-scenes/study-a3c9041a2e1f8c1b.svg",
-        "studyImageAlt": "两段墙和缺口",
-        "imageAlt": "两段墙和缺口",
-        "imageCaption": "学习示意 · 两段墙和缺口",
-        "imageBoundary": "自制学习示意。路线简图不标真实边界和精确墙线。今天的长城照片不能当作秦朝工程现场。",
+        "assetId": "study-2eefa787f10fdfda",
+        "image": "/content/study-scenes/study-2eefa787f10fdfda.svg",
+        "studyImage": "/content/study-scenes/study-2eefa787f10fdfda.svg",
+        "studyImageAlt": "连接旧墙，阻挡进攻，守卫边地",
+        "imageAlt": "连接旧墙，阻挡进攻，守卫边地",
+        "imageCaption": "学习示意 · 连接旧墙，阻挡进攻，守卫边地",
+        "imageBoundary": "自制学习示意。小伙伴、工匠、守卫和关口场景是虚构教学故事，不是秦代现场、真实人物自述或服饰建筑复原。长城帮助抵御外来的进攻，但并非不可越过，也不会自动防御。接墙是学习模型，不表示真墙可以整段搬起。金山岭照片为后来的明代墙段，不作秦长城原貌；汉代玉门关不用于说明秦墙演变。《神州谣》用于引发观察，不提供秦墙路线；《史记》的起止记载只放家长延伸，不作今天全部长城的地图。相册另展示明代长城的不同角度，以及汉代土墙和玉门关遗址；各图独立标年代，用于跨时期观察，不作为秦长城原貌。",
         "audio": {
+          "lead": {
+            "id": "quest-94f5d4f07ecee0c6",
+            "text": "秦朝连接、修补旧墙，是为了抵御来自北方的进攻，帮助守卫边地。"
+          },
           "transition": {
-            "id": "quest-a114fea2fbbcc50f",
-            "text": "找出缺口。"
+            "id": "quest-ced9cd102ad1d325",
+            "text": "连起旧墙，抵御进攻。"
           },
           "intro": {
-            "id": "quest-38842cd2e004b4a7",
-            "text": "看看这张简图：山边已有两段墙，中间留着缺口。真实工程要随地形安排。"
+            "id": "quest-6bff950cc1658a90",
+            "text": "“长城长”，小伙伴望着山边的旧墙。秦朝把更早的墙段连接、修补起来，抵御来自北方的进攻。高墙让来进攻的人更难通过，边地也更容易守卫。",
+            "synthesisText": "“常城常”，小伙伴望着山边的旧墙。秦朝把更早的墙段连接、修补起来，抵御来自北方的进攻。高墙让来进攻的人更难通过，边地也更容易守卫。"
           },
           "question": {
-            "id": "quest-8ebe300c86b98302",
-            "text": "这次要把两段墙连起来，接在哪里？"
+            "id": "quest-ced9cd102ad1d325",
+            "text": "连起旧墙，抵御进攻。"
           },
           "image": {
-            "id": "quest-55cbb557b120a3d5",
-            "text": "这是学习示意图：两段墙和缺口。这次要把两段墙连起来，接在哪里？"
+            "id": "quest-0cff3ef47603b09b",
+            "text": "这是学习示意图：连接旧墙，阻挡进攻，守卫边地。连起旧墙，抵御进攻。"
           },
           "right": {
-            "id": "quest-7cb34f7d35ff8283",
-            "text": "找到了。补上两段之间的缺口，才是在做连接。"
+            "id": "quest-6fdb2ca0e1a9182d",
+            "text": "连接旧墙，帮助抵御外来进攻。"
           },
           "wrong": {
-            "id": "quest-b2aa0019882bd7ef",
-            "text": "再比较一下。补上两段之间的缺口，才是在做连接。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-04-05-qin-great-wall-beginning-1",
-            "label": "接在中间缺口",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-35b079a813bdd14a.svg",
-            "imageAlt": "补中间缺口",
-            "audio": {
-              "id": "quest-0a455468b8fc71b0",
-              "text": "接在中间缺口"
-            }
-          },
-          {
-            "id": "cn-ancient-04-05-qin-great-wall-beginning-2",
-            "label": "接在原墙上方",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-487069d7bdbaccca.svg",
-            "imageAlt": "加高原有墙段",
-            "audio": {
-              "id": "quest-299add465ea658c4",
-              "text": "接在原墙上方"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "人从哪里走",
-        "title": "人从哪里走",
-        "prompt": "运东西的人要经过墙，找什么？",
-        "rightNote": "关口留出管理通行的地方，封闭墙面不能当路走。",
-        "wrongNote": "关口留出管理通行的地方，封闭墙面不能当路走。",
+        "phase": "帮旧墙补一段",
+        "title": "帮旧墙补一段",
+        "prompt": "帮旧墙补一段",
+        "rightNote": "模型接好了！去看看谁来守卫。",
+        "wrongNote": "还错开一点，看看两端接上了吗？",
         "sourceIds": [
           "UNESCO-GREAT-WALL",
-          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+          "GUYANG-GOV-QIN-WALL-STRUCTURES"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "slide-fit",
+          "scene": "wall-join",
+          "hint": "把绿色模型挪进虚线缺口。",
+          "copy": "模型接齐两端，真实修墙要逐步筑造。",
+          "ariaLabel": "移动模型墙段，让两端接上",
+          "placement": "panel"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "这回，轮到你动手了",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "模型接好了！去看看谁来守卫。",
+          "retry": "还错开一点，看看两端接上了吗？",
+          "nextLabel": "去关口看看",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "人从哪里走",
-          "screenText": "墙边还需要关口和道路，供人员按规定往来，也要运送物资。",
-          "displayText": "墙边还需要关口和道路，供人员按规定往来，也要运送物资。",
-          "narration": "墙边还需要关口和道路，供人员按规定往来，也要运送物资。"
+          "title": "帮旧墙补一段",
+          "screenText": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。",
+          "displayText": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。",
+          "narration": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。"
         },
-        "assetId": "study-9f96a21b0a9ea297",
-        "image": "/content/study-scenes/study-9f96a21b0a9ea297.svg",
-        "studyImage": "/content/study-scenes/study-9f96a21b0a9ea297.svg",
-        "studyImageAlt": "运送物资，关口，墙段",
-        "imageAlt": "运送物资，关口，墙段",
-        "imageCaption": "学习示意 · 运送物资，关口，墙段",
-        "imageBoundary": "自制学习示意。路线简图不标真实边界和精确墙线。今天的长城照片不能当作秦朝工程现场。",
+        "assetId": "study-4a50c7703ecc0563",
+        "image": "/content/study-scenes/study-4a50c7703ecc0563.svg",
+        "studyImage": "/content/study-scenes/study-4a50c7703ecc0563.svg",
+        "studyImageAlt": "模型还有缺口，连接后还需守卫",
+        "imageAlt": "模型还有缺口，连接后还需守卫",
+        "imageCaption": "学习示意 · 模型还有缺口，连接后还需守卫",
+        "imageBoundary": "自制学习示意。小伙伴、工匠、守卫和关口场景是虚构教学故事，不是秦代现场、真实人物自述或服饰建筑复原。长城帮助抵御外来的进攻，但并非不可越过，也不会自动防御。接墙是学习模型，不表示真墙可以整段搬起。金山岭照片为后来的明代墙段，不作秦长城原貌；汉代玉门关不用于说明秦墙演变。《神州谣》用于引发观察，不提供秦墙路线；《史记》的起止记载只放家长延伸，不作今天全部长城的地图。相册另展示明代长城的不同角度，以及汉代土墙和玉门关遗址；各图独立标年代，用于跨时期观察，不作为秦长城原貌。",
         "audio": {
+          "lead": {
+            "id": "quest-b1b3c4737e04f819",
+            "text": "模型里少了一段。把绿色墙段挪到虚线缺口里，让两端接上。"
+          },
           "transition": {
-            "id": "quest-7425d1a1381158bb",
-            "text": "人从哪里走。"
+            "id": "quest-d350f678cdb211db",
+            "text": "帮旧墙补一段。"
           },
           "intro": {
-            "id": "quest-d78fdb30444622ea",
-            "text": "墙边还需要关口和道路，供人员按规定往来，也要运送物资。"
+            "id": "quest-ef5774a3c9e40ceb",
+            "text": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。"
           },
           "question": {
-            "id": "quest-05540eb960ca10a4",
-            "text": "运东西的人要经过墙，找什么？"
+            "id": "quest-7d65ce75802a48c3",
+            "text": "帮旧墙补一段"
           },
           "image": {
-            "id": "quest-942b887cba8afcd0",
-            "text": "这是学习示意图：运送物资，关口，墙段。运东西的人要经过墙，找什么？"
+            "id": "quest-4dddd5abc5b366de",
+            "text": "这是学习示意图：模型还有缺口，连接后还需守卫。帮旧墙补一段"
           },
           "right": {
-            "id": "quest-e5cbb674001d31a4",
-            "text": "找到了。关口留出管理通行的地方，封闭墙面不能当路走。"
+            "id": "quest-f98a88a655f0d0d7",
+            "text": "模型接好了！去看看谁来守卫。"
           },
           "wrong": {
-            "id": "quest-4216e2a8b34d20dd",
-            "text": "再比较一下。关口留出管理通行的地方，封闭墙面不能当路走。"
+            "id": "quest-7775b92098c7cdc8",
+            "text": "还错开一点，看看两端接上了吗？"
           }
         },
         "options": [
           {
             "id": "cn-ancient-04-05-qin-great-wall-journey-1",
-            "label": "找关口通道",
+            "label": "墙段接进了缺口",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-95597d3b8bb861ec.svg",
-            "imageAlt": "可通行的关口",
+            "objectView": {
+              "kind": "prop",
+              "icon": "wall-joined"
+            },
+            "image": "/content/study-scenes/study-449271273834a106.svg",
+            "imageAlt": "接进缺口",
             "audio": {
-              "id": "quest-684a87471d64bfa2",
-              "text": "找关口通道"
+              "id": "quest-8dddeef7398a2d61",
+              "text": "墙段接进了缺口"
             }
           },
           {
             "id": "cn-ancient-04-05-qin-great-wall-journey-2",
-            "label": "找封闭墙面",
+            "label": "缺口还错开着",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-6ede938063ddaea1.svg",
-            "imageAlt": "封闭的墙面",
+            "objectView": {
+              "kind": "prop",
+              "icon": "wall-gap"
+            },
+            "image": "/content/study-scenes/study-0e4f04adbd965da6.svg",
+            "imageAlt": "缺口还留着",
             "audio": {
-              "id": "quest-2ffda0e5c5ac904f",
-              "text": "找封闭墙面"
+              "id": "quest-4a4358ffbd358b73",
+              "text": "缺口还错开着"
             }
           }
         ]
@@ -460,166 +1013,341 @@
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "谁让墙留在山边",
-        "title": "谁让墙留在山边",
-        "prompt": "下雨损坏了墙，接下来需要什么？",
-        "rightNote": "命令不能自己补好墙，还得有人带着材料来维护。",
-        "wrongNote": "命令不能自己补好墙，还得有人带着材料来维护。",
+        "phase": "找到两位守卫",
+        "title": "找到两位守卫",
+        "prompt": "谁在观察远处的动静？",
+        "rightNote": "望远、守关，两位守卫找齐啦！",
+        "wrongNote": "他在守门，再找找望远的人。",
         "sourceIds": [
           "UNESCO-GREAT-WALL",
-          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+          "SH-LHS-ANCIENT-DEFENCE-POSTS"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听清问题，点图中的人。",
+          "hotspots": [
+            {
+              "id": "lookout",
+              "label": "高处望远的守卫",
+              "x": 0.74,
+              "y": 0.015,
+              "width": 0.19,
+              "height": 0.26
+            },
+            {
+              "id": "gate",
+              "label": "关口旁的守卫",
+              "x": 0.46,
+              "y": 0.32,
+              "width": 0.13,
+              "height": 0.34
+            }
+          ],
+          "rounds": [
+            {
+              "id": "find-lookout",
+              "question": "谁在观察远处的动静？",
+              "targetId": "lookout",
+              "feedback": "找到了！他站在高处望远。",
+              "retry": "他在守门，再找找望远的人。",
+              "nextLabel": "再找守关的人",
+              "audio": {
+                "question": {
+                  "id": "quest-69d3e7c1e46f3285",
+                  "text": "谁在观察远处的动静？"
+                },
+                "right": {
+                  "id": "quest-b5733b4745a47fef",
+                  "text": "找到了！他站在高处望远。"
+                },
+                "wrong": {
+                  "id": "quest-824c191f1eaaf89b",
+                  "text": "他在守门，再找找望远的人。"
+                }
+              }
+            },
+            {
+              "id": "find-gate",
+              "question": "有人来到关口，谁来查看？",
+              "targetId": "gate",
+              "feedback": "望远、守关，两位守卫找齐啦！",
+              "retry": "他在望远，再找找门旁的人。",
+              "audio": {
+                "question": {
+                  "id": "quest-5fe1664848634904",
+                  "text": "有人来到关口，谁来查看？"
+                },
+                "right": {
+                  "id": "quest-eef340d8ff937591",
+                  "text": "望远、守关，两位守卫找齐啦！"
+                },
+                "wrong": {
+                  "id": "quest-670c80aebfd9df6e",
+                  "text": "他在望远，再找找门旁的人。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "听问题，在图里找人",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "望远、守关，两位守卫找齐啦！",
+          "retry": "他在守门，再找找望远的人。",
+          "nextLabel": "帮小伙伴想个办法",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "qin-han-jinshanling-tower-detail",
+          "title": "明代城楼 · 内部空间",
+          "localPath": "reference-assets/qin-han/jinshanling-tower-close.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Ruins_of_the_guard_tower.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY 2.0",
+          "clearance": "cleared-open-license",
+          "caption": "明代城楼遗存 · 2004年照片",
+          "boundary": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。 不完整城楼内部的空间与拱形洞口。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/qin-han-jinshanling-tower-detail.jpg",
+          "label": "看看明代城楼和更多长城照片",
+          "placement": "supporting",
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "长城保护 久久为功——河北长城保护工作实践",
+              "url": "https://wenwu.hebei.gov.cn/system/2023/11/15/030263380.shtml"
+            },
+            {
+              "title": "The Great Wall",
+              "url": "https://whc.unesco.org/en/list/438/"
+            },
+            {
+              "title": "照片作者：Saad Akhtar · 原文件说明",
+              "url": "https://commons.wikimedia.org/wiki/File:Ruins_of_the_guard_tower.jpg"
+            },
+            {
+              "title": "照片许可：CC BY 2.0",
+              "url": "https://creativecommons.org/licenses/by/2.0/"
+            }
+          ],
+          "audio": {
+            "id": "quest-3f6035c84e9285c4",
+            "text": "这是一座明代长城城楼的照片。屋顶已经不完整，里面的空间和拱形洞口露出来了。古时有人在城楼驻守、观察。"
+          }
+        },
         "story": {
           "screenNumber": 4,
-          "title": "谁让墙留在山边",
-          "screenText": "筑墙、运土、修路，都要许多人出力。修好以后，还会损坏，需要维护。",
-          "displayText": "筑墙、运土、修路，都要许多人出力。修好以后，还会损坏，需要维护。",
-          "narration": "筑墙、运土、修路，都要许多人出力。修好以后，还会损坏，需要维护。"
+          "title": "找到两位守卫",
+          "screenText": "墙不会自己观察。有人在高处望远，有人在关口查看来往的人，他们互相传递消息。一起找找两位守卫。",
+          "displayText": "听清问题，点点图中的守卫。",
+          "narration": "墙不会自己观察。有人在高处望远，有人在关口查看来往的人，他们互相传递消息。一起找找两位守卫。"
         },
-        "assetId": "study-407a5ac0a2a40e08",
-        "image": "/content/study-scenes/study-407a5ac0a2a40e08.svg",
-        "studyImage": "/content/study-scenes/study-407a5ac0a2a40e08.svg",
-        "studyImageAlt": "墙段，风雨，修补",
-        "imageAlt": "墙段，风雨，修补",
-        "imageCaption": "学习示意 · 墙段，风雨，修补",
-        "imageBoundary": "自制学习示意。路线简图不标真实边界和精确墙线。今天的长城照片不能当作秦朝工程现场。",
+        "assetId": "qin-wall-guard-story-v1",
+        "image": "/content/step-images/qin-wall-guard-story-v1.jpg",
+        "studyImage": "/content/study-scenes/study-1b70b701472adfaf.svg",
+        "studyImageAlt": "阻挡进攻，看守通行，观察传信",
+        "imageAlt": "长城关口与守卫观察的故事插画",
+        "imageCaption": "长城关口与守卫观察的故事插画",
+        "imageBoundary": "虚构教学插画，不是秦代现场、军服或建筑复原。画面只表达墙体阻挡、通道有人看守、守卫观察远处的关系，不呈现具体战斗或传信信号。原运料插画保留。生成1次后局部修正瞭望守卫多余手臂1次；提示词与结果见docs/qa/2026-09-15-wall-purpose/。",
         "audio": {
+          "lead": {
+            "id": "quest-b8d73152ffd8f37a",
+            "text": "谁在观察远处的动静？点点图中的人。"
+          },
           "transition": {
-            "id": "quest-e5d6d39c800c9daa",
-            "text": "谁让墙留在山边。"
+            "id": "quest-ce41a4615c1869a2",
+            "text": "找到两位守卫。"
           },
           "intro": {
-            "id": "quest-490bb5648f88a892",
-            "text": "筑墙、运土、修路，都要许多人出力。修好以后，还会损坏，需要维护。"
+            "id": "quest-8dc1c91aa0ccae5e",
+            "text": "墙不会自己观察。有人在高处望远，有人在关口查看来往的人，他们互相传递消息。一起找找两位守卫。"
           },
           "question": {
-            "id": "quest-4bb20d2ab7380017",
-            "text": "下雨损坏了墙，接下来需要什么？"
+            "id": "quest-69d3e7c1e46f3285",
+            "text": "谁在观察远处的动静？"
           },
           "image": {
-            "id": "quest-e892fcb161329c2c",
-            "text": "这是学习示意图：墙段，风雨，修补。下雨损坏了墙，接下来需要什么？"
+            "id": "quest-b462ad3506e3b740",
+            "text": "这张是长城关口与守卫观察的故事插画。墙不会自己观察。有人在高处望远，有人在关口查看来往的人，他们互相传递消息。一起找找两位守卫。"
           },
           "right": {
-            "id": "quest-29ec99e962fb504d",
-            "text": "找到了。命令不能自己补好墙，还得有人带着材料来维护。"
+            "id": "quest-eef340d8ff937591",
+            "text": "望远、守关，两位守卫找齐啦！"
           },
           "wrong": {
-            "id": "quest-5df26c9b862f7134",
-            "text": "再比较一下。命令不能自己补好墙，还得有人带着材料来维护。"
+            "id": "quest-824c191f1eaaf89b",
+            "text": "他在守门，再找找望远的人。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-04-05-qin-great-wall-change-1",
-            "label": "有人继续修补",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-fdd8aecb9f80ca7f.svg",
-            "imageAlt": "带材料修补",
-            "audio": {
-              "id": "quest-b6d547d34806d034",
-              "text": "有人继续修补"
-            }
-          },
-          {
-            "id": "cn-ancient-04-05-qin-great-wall-change-2",
-            "label": "只保存最初命令",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-198ffad71eca70ec.svg",
-            "imageAlt": "保存筑墙命令",
-            "audio": {
-              "id": "quest-0acf69f34c0407e4",
-              "text": "只保存最初命令"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "今天照片里的墙",
-        "title": "今天照片里的墙",
-        "prompt": "能把今天每一段砖墙都叫秦长城吗？",
-        "rightNote": "同是长城，不同墙段的年代和修建过程可能不同。",
-        "wrongNote": "同是长城，不同墙段的年代和修建过程可能不同。",
+        "phase": "让关口早点得到消息",
+        "title": "让关口早点得到消息",
+        "prompt": "想早点发现远处的动静，先怎么办？",
+        "rightNote": "对，望远的人先发现，再把消息传到关口。",
+        "wrongNote": "修墙能挡一挡，发现动静还得靠人。",
         "sourceIds": [
           "UNESCO-GREAT-WALL",
-          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+          "HEBEI-WENWU-JINSHANLING",
+          "SH-LHS-ANCIENT-DEFENCE-POSTS",
+          "GUYANG-GOV-QIN-WALL-STRUCTURES"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "pick",
+          "hint": "想早点知道远处的动静，选个办法。"
+        },
+        "narrative": {
+          "scene": "reunion",
+          "caption": "用刚找到的办法帮助伙伴",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "对，望远的人先发现，再把消息传到关口。",
+          "retry": "修墙能挡一挡，发现动静还得靠人。",
+          "nextLabel": "把长城的发现带回家",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "qin-han-jinshanling-panorama",
+          "title": "金山岭 · 明代长城",
+          "localPath": "reference-assets/qin-han/jinshanling-panorama.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 3.0",
+          "clearance": "cleared-open-license",
+          "caption": "真实照片 · 比秦朝晚",
+          "boundary": "照片用于展示长城沿山脊延伸的形态。金山岭为明代墙段，不冒充秦长城。采用Commons的edit版本：原摄影Severin.stalder，Brandmeister降低蓝色饱和度；本项目仅等比例缩小，未重画照片。作者、编辑与CC BY-SA 3.0许可已核对原文件页。 金山岭长城沿山脊蜿蜒的全景。金山岭为明代修建段，比秦朝晚很多。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/qin-han-jinshanling-panorama.jpg",
+          "label": "再翻翻长城相册",
+          "placement": "supporting",
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "河北省文物局：金山岭的明代身份与保护",
+              "url": "https://wenwu.hebei.gov.cn/system/2023/11/15/030263380.shtml"
+            },
+            {
+              "title": "UNESCO：长城世界遗产记录",
+              "url": "https://whc.unesco.org/en/list/438/"
+            },
+            {
+              "title": "摄影与色彩编辑：Commons文件说明",
+              "url": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
+            },
+            {
+              "title": "照片许可：CC BY-SA 3.0",
+              "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+            }
+          ],
+          "audio": {
+            "id": "quest-e05b3a328c788e36",
+            "text": "这是明代的金山岭长城，比秦朝晚。看，长墙沿着山脊弯弯曲曲。点下面的小照片，还能看看墙顶、城楼和汉代遗址。"
+          }
+        },
         "story": {
           "screenNumber": 5,
-          "title": "今天照片里的墙",
-          "screenText": "今天常见的高大砖墙，许多属于明代修建部分。长城不是一次建成的。",
-          "displayText": "今天常见的高大砖墙，许多属于明代修建部分。长城不是一次建成的。",
-          "narration": "今天常见的高大砖墙，许多属于明代修建部分。长城不是一次建成的。"
+          "title": "让关口早点得到消息",
+          "screenText": "城墙帮着阻挡进攻，关口需要有人看守。现在，小伙伴想让关口早点知道远处的动静。选个办法帮帮他。",
+          "displayText": "想早点发现远处的动静，先怎么办？",
+          "narration": "城墙帮着阻挡进攻，关口需要有人看守。现在，小伙伴想让关口早点知道远处的动静。选个办法帮帮他。"
         },
-        "assetId": "study-dc7aadaa174934bd",
-        "image": "/content/study-scenes/study-dc7aadaa174934bd.svg",
-        "studyImage": "/content/study-scenes/study-dc7aadaa174934bd.svg",
-        "studyImageAlt": "早期墙段，明代砖墙",
-        "imageAlt": "早期墙段，明代砖墙",
-        "imageCaption": "学习示意 · 早期墙段，明代砖墙",
-        "imageBoundary": "自制学习示意。路线简图不标真实边界和精确墙线。今天的长城照片不能当作秦朝工程现场。",
+        "assetId": "study-b6f28749247a3ee6",
+        "image": "/content/study-scenes/study-b6f28749247a3ee6.svg",
+        "studyImage": "/content/study-scenes/study-b6f28749247a3ee6.svg",
+        "studyImageAlt": "抵御进攻，有人守卫，后世继续修",
+        "imageAlt": "抵御进攻，有人守卫，后世继续修",
+        "imageCaption": "学习示意 · 抵御进攻，有人守卫，后世继续修",
+        "imageBoundary": "自制学习示意。小伙伴、工匠、守卫和关口场景是虚构教学故事，不是秦代现场、真实人物自述或服饰建筑复原。长城帮助抵御外来的进攻，但并非不可越过，也不会自动防御。接墙是学习模型，不表示真墙可以整段搬起。金山岭照片为后来的明代墙段，不作秦长城原貌；汉代玉门关不用于说明秦墙演变。《神州谣》用于引发观察，不提供秦墙路线；《史记》的起止记载只放家长延伸，不作今天全部长城的地图。相册另展示明代长城的不同角度，以及汉代土墙和玉门关遗址；各图独立标年代，用于跨时期观察，不作为秦长城原貌。",
         "audio": {
+          "lead": {
+            "id": "quest-623bea824b6bcd55",
+            "text": "关口想早点知道远处的动静。请人去高处望远，还是先把墙再修高些？"
+          },
           "transition": {
-            "id": "quest-989a239e3635e26f",
-            "text": "今天照片里的墙。"
+            "id": "quest-11a536353edbac7d",
+            "text": "让关口早点得到消息。"
           },
           "intro": {
-            "id": "quest-4c289ad813dd7bf8",
-            "text": "今天常见的高大砖墙，许多属于明代修建部分。长城不是一次建成的。"
+            "id": "quest-21dee824f3185f2c",
+            "text": "城墙帮着阻挡进攻，关口需要有人看守。现在，小伙伴想让关口早点知道远处的动静。选个办法帮帮他。"
           },
           "question": {
-            "id": "quest-57db42c3d6570bc1",
-            "text": "能把今天每一段砖墙都叫秦长城吗？"
+            "id": "quest-976656014a1518bf",
+            "text": "想早点发现远处的动静，先怎么办？"
           },
           "image": {
-            "id": "quest-4155c0df490c9107",
-            "text": "这是学习示意图：早期墙段，明代砖墙。能把今天每一段砖墙都叫秦长城吗？"
+            "id": "quest-a184581341d97ddb",
+            "text": "这是学习示意图：抵御进攻，有人守卫，后世继续修。想早点发现远处的动静，先怎么办？"
           },
           "right": {
-            "id": "quest-16059e13260d8208",
-            "text": "找到了。同是长城，不同墙段的年代和修建过程可能不同。"
+            "id": "quest-53238f950e66534c",
+            "text": "对，望远的人先发现，再把消息传到关口。"
           },
           "wrong": {
-            "id": "quest-cb1b0a0b96661b80",
-            "text": "再比较一下。同是长城，不同墙段的年代和修建过程可能不同。"
+            "id": "quest-02faa9779212d8a2",
+            "text": "修墙能挡一挡，发现动静还得靠人。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-04-05-qin-great-wall-takeaway-1",
-            "label": "要先查这段的年代",
+            "label": "请守卫去高处望远",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-603654d3af05d40e.svg",
-            "imageAlt": "查具体墙段年代",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "qin-wall-guard-story-v1",
+              "crop": {
+                "x": 1130,
+                "y": 0,
+                "width": 360,
+                "height": 280,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/qin-wall-guard-story-v1.jpg",
+              "imageAlt": "请守卫去高处望远"
+            },
+            "image": "/content/study-scenes/study-0b65354a6d29cab6.svg",
+            "imageAlt": "高处观察，传递消息",
             "audio": {
-              "id": "quest-8ba9f3c29a703505",
-              "text": "要先查这段的年代"
+              "id": "quest-84984247a26a7e82",
+              "text": "请守卫去高处望远"
             }
           },
           {
             "id": "cn-ancient-04-05-qin-great-wall-takeaway-2",
-            "label": "看见长城就写秦朝",
+            "label": "请工匠再添一层墙",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-6c28a177c7f980ee.svg",
-            "imageAlt": "所有砖墙标秦朝",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "qin-wall-teamwork-story-v1",
+              "crop": {
+                "x": 1010,
+                "y": 135,
+                "width": 526,
+                "height": 405,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/qin-wall-teamwork-story-v1.jpg",
+              "imageAlt": "请工匠再添一层墙"
+            },
+            "image": "/content/study-scenes/study-cb61e200648e6da5.svg",
+            "imageAlt": "运来材料，继续修墙",
             "audio": {
-              "id": "quest-7dabf23c590a4e52",
-              "text": "看见长城就写秦朝"
+              "id": "quest-d9c20c9d5316c4c2",
+              "text": "请工匠再添一层墙"
             }
           }
         ]
@@ -652,7 +1380,7 @@
   "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
-    "长城不是秦始皇从一片空地上“第一次造出”的一条完整高墙。战国时期一些诸侯国已经修筑城墙；秦统一后拆除部分内地旧墙，同时连接、修缮和增筑北方部分墙段，并与关口、道路、烽燧等共同构成防御系统。今天熟悉的高大砖石墙多与明代修筑有关，不能拿它直接代替秦长城的样子。"
+    "秦朝修筑北方长城，是为了抵御来自北方的进攻、守卫边地。长城并非秦始皇从一片空地上“第一次造出”的一条完整高墙。战国时期一些诸侯国已经修筑城墙；秦统一后拆除部分内地旧墙，同时连接、修缮和增筑北方部分墙段，并与关口、道路、烽燧等共同构成防御系统。今天熟悉的高大砖石墙多与明代修筑有关，不能拿它直接代替秦长城的样子。"
   ],
   "facts": [
     {
@@ -665,7 +1393,7 @@
     },
     {
       "number": 2,
-      "text": "秦统一后，约公元前 220 年起连接、修缮和增筑北方防御墙段，形成更长的防御体系。",
+      "text": "秦统一后，约公元前 220 年起连接、修缮和增筑北方防御墙段，用以抵御来自北方的进攻，形成更长的防御体系。",
       "sourceIds": [
         "UNESCO-GREAT-WALL",
         "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
@@ -673,9 +1401,10 @@
     },
     {
       "number": 3,
-      "text": "长城不是只有墙体，还要和关口、道路、烽燧以及驻守、运输等行动配合。",
+      "text": "长城的墙体与关口、道路、烽燧等相互配合；关口控制通行，驻守者观察敌情、传递消息，墙体不能自行完成防御。",
       "sourceIds": [
-        "UNESCO-GREAT-WALL"
+        "UNESCO-GREAT-WALL",
+        "SH-LHS-ANCIENT-DEFENCE-POSTS"
       ]
     },
     {
@@ -687,9 +1416,9 @@
     },
     {
       "number": 5,
-      "text": "许多秦代墙段采用当地可取得的土、石等材料，长期风雨会让遗址变低、变碎，不能都想成整齐砖墙。",
+      "text": "固阳秦长城可见石筑、土筑、土石混筑和山险墙，取材与地形相关；不能把所有秦墙都说成同一种材料或把土与碎石一律混在一起夯筑。",
       "sourceIds": [
-        "UNESCO-GREAT-WALL"
+        "GUYANG-GOV-QIN-WALL-STRUCTURES"
       ]
     },
     {
@@ -841,14 +1570,14 @@
         {
           "number": 7,
           "label": "语音 G07：",
-          "text": "所以秦长城的关键词不是“突然造出一条墙”，而是“旧墙段、连接、修缮、增筑和系统”。这些工程服务防御，也让许多普通人承担了劳役、运输和驻守负担。",
+          "text": "秦修长城，是为了抵御来自北方的进攻。旧墙段连接起来，还要配合关口、观察和传信的守卫。修墙、运送物资和驻守都需要人出力，不能只记住墙有多长。",
           "segments": [
             {
               "id": "cn-ancient-04-05-qin-great-wall-s06-v07-01",
               "order": 1,
               "tier": "core",
-              "text": "所以秦长城的关键词不是“突然造出一条墙”，而是“旧墙段、连接、修缮、增筑和系统”。这些工程服务防御，也让许多普通人承担了劳役、运输和驻守负担。",
-              "hanCharacters": 59
+              "text": "秦修长城，是为了抵御来自北方的进攻。旧墙段连接起来，还要配合关口、观察和传信的守卫。修墙、运送物资和驻守都需要人出力，不能只记住墙有多长。",
+              "hanCharacters": 61
             }
           ]
         }
@@ -897,7 +1626,27 @@
       "url": "https://whc.unesco.org/en/list/438/",
       "type": "world-heritage-record",
       "authorityLevel": "A-primary",
-      "factUse": "战国已有墙段、秦约公元前220年起连接更早防御设施、长城跨多个朝代不断修筑，以及墙体、关口、烽燧等遗产系统边界",
+      "factUse": "秦约公元前220年起连接早期防御设施，目的为抵御来自北方的进攻；长城跨多个朝代修筑，并由墙体、关口、瞭望设施等相互配合。只引用对应事实，不采用页面中的月球可见等旧说法。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "SH-LHS-ANCIENT-DEFENCE-POSTS",
+      "title": "中国古亭：飞檐翘角，空凌秀丽——亭障的防御与通讯用途",
+      "institution": "上海市绿化和市容管理局（绿色上海）",
+      "url": "https://lhsr.sh.gov.cn/jnylwh/20221008/262a36d4b395419c98a79ff001b8f62e.html",
+      "type": "government-cultural-explanation",
+      "authorityLevel": "A-primary",
+      "factUse": "“亭的历史和用途”部分：边防亭障、亭候承担防御、观察敌情及通报军情的用途，秦汉以来延续相关功能；不据此复原某座秦代关口外观，也不推导固定传信信号。",
+      "imageUse": "none"
+    },
+    {
+      "id": "GUYANG-GOV-QIN-WALL-STRUCTURES",
+      "title": "固阳秦长城：墙体类型、遗存与保护",
+      "institution": "固阳县人民政府",
+      "url": "https://www.guyang.gov.cn/ywdt/tt/202508/t20250821_261353.html",
+      "type": "government-heritage-description",
+      "authorityLevel": "A-primary",
+      "factUse": "固阳秦长城有石筑、土筑、土石混筑和山险墙，就地取材；遗存含不同时期修缮痕迹，不能把土墙风化或某张照片等同全部秦墙的原貌。",
       "imageUse": "reference-only"
     },
     {
@@ -919,202 +1668,243 @@
       "authorityLevel": "A",
       "factUse": "秦汉时间线、统一制度、汉代治理、科技文化、对外交往和秦亡汉兴的总体脉络",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "HEBEI-WENWU-JINSHANLING",
+      "title": "长城保护 久久为功——河北长城保护工作实践",
+      "institution": "河北省文物局",
+      "url": "https://wenwu.hebei.gov.cn/system/2023/11/15/030263380.shtml",
+      "type": "heritage-agency-report",
+      "authorityLevel": "A-primary",
+      "factUse": "金山岭为明代长城墙段，长城遗址需要持续巡护与保护；只支持相应段落，不把今天的全景照片等同秦代墙貌。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "PEP-PRIMARY-CHINESE-G2B-2018",
+      "title": "义务教育教科书语文二年级下册目录（含识字课文《神州谣》）",
+      "institution": "人民教育出版社",
+      "url": "https://www.pep.com.cn/products/jc/jks/201802/t20180205_1922575.shtml",
+      "type": "textbook-catalog",
+      "authorityLevel": "A",
+      "factUse": "《神州谣》为二年级下册识字第1课，课文含“长城长，珠峰耸”；只证明篇目熟悉度，不代替历史事实来源",
+      "imageUse": "none"
+    },
+    {
+      "id": "SHIJI-MENGTIAN",
+      "title": "《史记·蒙恬列传》：“起临洮，至辽东，延袤万余里”",
+      "institution": "中国哲学书电子化计划",
+      "url": "https://ctext.org/shiji/meng-tian-lie-juan/zh",
+      "type": "primary-text",
+      "authorityLevel": "A-primary",
+      "factUse": "蒙恬主持修筑、秦长城西起临洮东至辽东、延袤万余里与北逐匈奴的背景",
+      "imageUse": "none"
+    },
+    {
+      "id": "DHA-DUNHUANG-ARCHAEOLOGY-2023",
+      "title": "张小刚：敦煌考古成就与展望",
+      "institution": "敦煌研究院研究人员撰写，全国哲学社会科学工作办公室刊载",
+      "url": "https://www.nopss.gov.cn/n1/2023/0828/c219544-40065225.html",
+      "type": "researcher-archaeology-overview",
+      "authorityLevel": "A-primary",
+      "factUse": "敦煌地区汉长城、汉代烽燧及小方盘城（汉玉门关）等遗存的年代、类型与边防交通背景；不据照片复原建筑原貌。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "GSWB-HAN-WALL-LAYERS-2023",
+      "title": "“长城大省”守护精神根脉生生不息",
+      "institution": "甘肃省文博局网站刊载《瞭望》记者现场报道",
+      "url": "https://www.gswbj.gov.cn/a/2023/10/11/18852.html",
+      "type": "heritage-field-report",
+      "authorityLevel": "B-authoritative",
+      "factUse": "敦煌汉长城采用沙土与芦苇红柳等材料分层夯筑，遗址墙面可见层次；只用于该地区实例，不泛化全部长城。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-CHANGAN-TIANSHAN",
+      "title": "Silk Roads: the Routes Network of Chang'an-Tianshan Corridor",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1442/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A",
+      "factUse": "长安—天山廊道的范围、遗产点和跨区域交流网络",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "XINHUA-GUYANG-QIN-WALL",
+      "title": "固阳秦长城国家文化公园开园一年接待游客50万人次",
+      "institution": "新华网内蒙古频道",
+      "url": "http://www.nmg.xinhuanet.com/20250515/6100fa35fbd1448891e583a507edc3c5/c.html",
+      "type": "official-media-report",
+      "authorityLevel": "A",
+      "factUse": "固阳秦长城片石垒砌遗存、烽燧障城防御体系与就地取材的建造方式",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "XINHUA-NINGXIA-EARTH-WALL",
+      "title": "守望宁夏“土长城”",
+      "institution": "瞭望周刊社（新华社）",
+      "url": "http://lw.news.cn/2023-10/08/c_1310744357.htm",
+      "type": "official-media-report",
+      "authorityLevel": "A",
+      "factUse": "战国秦长城夯土版筑工艺、土长城风化成低矮土埂的现状与保护",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
     {
-      "id": "study-e6c628a12fefd7c6",
-      "title": "学习示意：战国 先筑墙、秦 前221年后",
-      "localPath": "reference-assets/focused-quests/study-e6c628a12fefd7c6.svg",
+      "id": "study-f7bb8ec41a638ba6",
+      "title": "学习示意：秦 前221年起、明 1368年起",
+      "localPath": "reference-assets/focused-quests/study-f7bb8ec41a638ba6.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "战国 先筑墙 → 秦 前221年后",
+      "caption": "秦 前221年起 → 明 1368年起",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-860639fcaeb14786",
-      "title": "学习示意：战国旧墙、秦朝修接",
-      "localPath": "reference-assets/focused-quests/study-860639fcaeb14786.svg",
+      "id": "study-2163611b383f5dcb",
+      "title": "学习示意：秦 前221年起",
+      "localPath": "reference-assets/focused-quests/study-2163611b383f5dcb.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "战国旧墙 → 秦朝修接",
+      "caption": "秦 前221年起",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-19edea37017a45a5",
-      "title": "学习示意：秦朝修接、战国旧墙",
-      "localPath": "reference-assets/focused-quests/study-19edea37017a45a5.svg",
+      "id": "study-912aa4295cad4168",
+      "title": "学习示意：明 1368年起",
+      "localPath": "reference-assets/focused-quests/study-912aa4295cad4168.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "秦朝修接 → 战国旧墙",
+      "caption": "明 1368年起",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-a3c9041a2e1f8c1b",
-      "title": "学习示意：两段墙和缺口",
-      "localPath": "reference-assets/focused-quests/study-a3c9041a2e1f8c1b.svg",
+      "id": "study-2eefa787f10fdfda",
+      "title": "学习示意：连接旧墙、阻挡进攻、守卫边地",
+      "localPath": "reference-assets/focused-quests/study-2eefa787f10fdfda.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "两段墙和缺口",
+      "caption": "连接旧墙 → 阻挡进攻 → 守卫边地",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-35b079a813bdd14a",
-      "title": "学习示意：补中间缺口",
-      "localPath": "reference-assets/focused-quests/study-35b079a813bdd14a.svg",
+      "id": "study-4a50c7703ecc0563",
+      "title": "学习示意：模型还有缺口、连接后还需守卫",
+      "localPath": "reference-assets/focused-quests/study-4a50c7703ecc0563.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "补中间缺口",
+      "caption": "模型还有缺口 → 连接后还需守卫",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-487069d7bdbaccca",
-      "title": "学习示意：加高原有墙段",
-      "localPath": "reference-assets/focused-quests/study-487069d7bdbaccca.svg",
+      "id": "study-449271273834a106",
+      "title": "学习示意：接进缺口",
+      "localPath": "reference-assets/focused-quests/study-449271273834a106.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "加高原有墙段",
+      "caption": "接进缺口",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-9f96a21b0a9ea297",
-      "title": "学习示意：运送物资、关口、墙段",
-      "localPath": "reference-assets/focused-quests/study-9f96a21b0a9ea297.svg",
+      "id": "study-0e4f04adbd965da6",
+      "title": "学习示意：缺口还留着",
+      "localPath": "reference-assets/focused-quests/study-0e4f04adbd965da6.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "运送物资 → 关口 → 墙段",
+      "caption": "缺口还留着",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-95597d3b8bb861ec",
-      "title": "学习示意：可通行的关口",
-      "localPath": "reference-assets/focused-quests/study-95597d3b8bb861ec.svg",
+      "id": "study-1b70b701472adfaf",
+      "title": "学习示意：阻挡进攻、看守通行、观察传信",
+      "localPath": "reference-assets/focused-quests/study-1b70b701472adfaf.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "可通行的关口",
+      "caption": "阻挡进攻 → 看守通行 → 观察传信",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-6ede938063ddaea1",
-      "title": "学习示意：封闭的墙面",
-      "localPath": "reference-assets/focused-quests/study-6ede938063ddaea1.svg",
+      "id": "study-b6f28749247a3ee6",
+      "title": "学习示意：抵御进攻、有人守卫、后世继续修",
+      "localPath": "reference-assets/focused-quests/study-b6f28749247a3ee6.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "封闭的墙面",
+      "caption": "抵御进攻 → 有人守卫 → 后世继续修",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-407a5ac0a2a40e08",
-      "title": "学习示意：墙段、风雨、修补",
-      "localPath": "reference-assets/focused-quests/study-407a5ac0a2a40e08.svg",
+      "id": "study-0b65354a6d29cab6",
+      "title": "学习示意：高处观察、传递消息",
+      "localPath": "reference-assets/focused-quests/study-0b65354a6d29cab6.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "墙段 → 风雨 → 修补",
+      "caption": "高处观察 → 传递消息",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-fdd8aecb9f80ca7f",
-      "title": "学习示意：带材料修补",
-      "localPath": "reference-assets/focused-quests/study-fdd8aecb9f80ca7f.svg",
+      "id": "study-cb61e200648e6da5",
+      "title": "学习示意：运来材料、继续修墙",
+      "localPath": "reference-assets/focused-quests/study-cb61e200648e6da5.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "带材料修补",
+      "caption": "运来材料 → 继续修墙",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-198ffad71eca70ec",
-      "title": "学习示意：保存筑墙命令",
-      "localPath": "reference-assets/focused-quests/study-198ffad71eca70ec.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "保存筑墙命令",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-dc7aadaa174934bd",
-      "title": "学习示意：早期墙段、明代砖墙",
-      "localPath": "reference-assets/focused-quests/study-dc7aadaa174934bd.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "早期墙段 → 明代砖墙",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-603654d3af05d40e",
-      "title": "学习示意：查具体墙段年代",
-      "localPath": "reference-assets/focused-quests/study-603654d3af05d40e.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "查具体墙段年代",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-6c28a177c7f980ee",
-      "title": "学习示意：所有砖墙标秦朝",
-      "localPath": "reference-assets/focused-quests/study-6c28a177c7f980ee.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "所有砖墙标秦朝",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "id": "qin-han-yumen-pass",
+      "title": "玉门关遗址现状照片",
+      "localPath": "reference-assets/qin-han/yumen-pass.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%E7%8E%89%E9%97%A8%E5%85%B3_%E9%81%97%E5%9D%80_-_panoramio.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "今天的玉门关遗址和周围戈壁景观。",
+      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
       "childVisibility": "child-ok"
     },
     {
@@ -1129,6 +1919,149 @@
       "caption": "自制儿童艺术表现：成年人沿低矮土石墙段连接、修缮和运输材料，远处还有分散旧墙与道路。",
       "boundary": "2026-08-12为低龄玩法自制。它不是秦代现场、长城遗址照片、精确墙体复原或施工说明；人物、车具、墙体样式和地形均为帮助理解“旧墙段—连接—系统”的艺术表现，也不能用来推断工程人数、工期或某一具体地点。",
       "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-wall-friends-reunion-v1",
+      "title": "三位小伙伴在山脚墙段旁分享发现的故事插画",
+      "localPath": "reference-assets/qin-han/qin-wall-friends-reunion-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "黄衣、绿衣小伙伴和红衣伙伴在连起来的旧墙段前相聚。",
+      "boundary": "现代虚构旅行故事插画，不作为秦代真实人物、服装、工地或历史现场的证据；画面只承担角色叙事。角色外形按 docs/CHARACTERS.md：黄衣翘短发、绿衣圆框眼镜齐刘海、红衣高马尾花发夹。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-wall-site-story-v2",
+      "title": "秦长城山脚工地故事插画（远景蜿蜒长墙版）",
+      "localPath": "reference-assets/qin-han/qin-wall-site-story-v2.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "小伙伴和无名工匠在山脚看蜿蜒到远方的旧墙和中间的缺口。",
+      "boundary": "现代故事插画，不是秦代现场、遗址照片或精确施工复原；远景蜿蜒长墙帮助理解长城之长与沿山脊延伸。交互墙段由 app/ObjectWorkbench.tsx 的共用组件绘制，真实遗址另在证据入口展示。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-han-jinshanling-panorama",
+      "title": "金山岭明长城全景照片",
+      "localPath": "reference-assets/qin-han/jinshanling-panorama.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "金山岭长城沿山脊蜿蜒的全景。金山岭为明代修建段，比秦朝晚很多。",
+      "boundary": "照片用于展示长城沿山脊延伸的形态。金山岭为明代墙段，不冒充秦长城。采用Commons的edit版本：原摄影Severin.stalder，Brandmeister降低蓝色饱和度；本项目仅等比例缩小，未重画照片。作者、编辑与CC BY-SA 3.0许可已核对原文件页。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-wall-teamwork-story-v1",
+      "title": "修墙者运石、垒墙的协作故事插画",
+      "localPath": "reference-assets/qin-han/qin-wall-teamwork-story-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "小伙伴观察成年人运料与垒墙，展示修筑需要多人协作。",
+      "boundary": "虚构教学插画；不作为秦代工人身份、服装、工具、精确施工工艺或某段遗址原貌的证据。孩子只观察，画面示意石料逐层垒放，真实材料依据另列。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-wall-guard-story-v1",
+      "title": "长城关口与守卫观察的故事插画",
+      "localPath": "reference-assets/qin-han/qin-wall-guard-story-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "小伙伴观察有人看守的关口和高处的守卫，理解城墙与人配合防御。",
+      "boundary": "虚构教学插画，不是秦代现场、军服或建筑复原。画面只表达墙体阻挡、通道有人看守、守卫观察远处的关系，不呈现具体战斗或传信信号。原运料插画保留。生成1次后局部修正瞭望守卫多余手臂1次；提示词与结果见docs/qa/2026-09-15-wall-purpose/。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-han-jinshanling-walkway",
+      "title": "金山岭至司马台明长城墙顶与台阶照片",
+      "localPath": "reference-assets/qin-han/jinshanling-walkway.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Greatwall-SA2.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY 2.0",
+      "clearance": "cleared-open-license",
+      "caption": "墙顶的通道、台阶与两侧墙体。",
+      "boundary": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-han-jinshanling-tower-detail",
+      "title": "金山岭至司马台明长城城楼内部照片",
+      "localPath": "reference-assets/qin-han/jinshanling-tower-close.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ruins_of_the_guard_tower.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY 2.0",
+      "clearance": "cleared-open-license",
+      "caption": "不完整城楼内部的空间与拱形洞口。",
+      "boundary": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-han-han-wall-detail",
+      "title": "玉门关附近汉长城墙体与高台遗址照片",
+      "localPath": "reference-assets/qin-han/han-wall-detail.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Site_of_Han_Dynasty_Great_Wall_at_Yumenguan_(20230917105206).jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 4.0",
+      "clearance": "cleared-open-license",
+      "caption": "汉代土筑墙体的分层纹理与远处高台遗迹。",
+      "boundary": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-han-yumen-pass-close",
+      "title": "玉门关遗址小方盘城近景照片",
+      "localPath": "reference-assets/qin-han/yumen-pass-close.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dunhuang.yumenguan.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "小方盘城的土墙转角和门洞。",
+      "boundary": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-han-jinshanling-towers-reference",
+      "title": "金山岭明长城城楼序列参考照片",
+      "localPath": "reference-assets/qin-han/jinshanling-tower.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20090529_Great_Wall_8159.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "沿山脊相连的墙体和城楼；候选取景与全景重复，本轮未进入儿童相册。",
+      "boundary": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。仅作编辑选片参考，不进入儿童页面。",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "qin-han-han-wall-sign-reference",
+      "title": "敦煌汉长城遗址与现代标识石参考照片",
+      "localPath": "reference-assets/qin-han/dunhuang-han-wall.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%95%A6%E7%85%8C%E6%B1%89%E9%95%BF%E5%9F%8E%E9%81%97%E5%9D%80.JPG",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "现代标识石占据前景，本轮改选墙体更清楚的照片。",
+      "boundary": "原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。仅作编辑选片参考，不进入儿童页面。",
+      "childVisibility": "editor-only"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-04-05-qin-great-wall.jpg",

@@ -1,5 +1,6 @@
 // Original, deliberately schematic learning graphics. No historical facsimiles.
 import { createHash } from 'node:crypto';
+import { polygonPoints } from '../../app/circle-geometry.ts';
 export const escapeXml = (value) => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
 const line=(x1,y1,x2,y2,extra='')=>`<path d="M${x1} ${y1}L${x2} ${y2}" ${extra}/>`;
 const rect=(x,y,w,h,fill='#ecd5a5',rx=5)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${rx}" fill="${fill}"/>`;
@@ -99,6 +100,8 @@ export function iconMarkup(name){if(!icons[name]) throw new Error(`Unknown study
 export function visualId(scene,compact=false){return `study-${createHash('sha256').update(JSON.stringify({scene,compact,rendererVersion:2})).digest('hex').slice(0,16)}`;}
 function lines(text,max){const c=[...text];const out=[];for(let i=0;i<c.length;i+=max)out.push(c.slice(i,i+max).join(''));return out;}
 export function renderVisual(scene,compact=false){
+ if(scene.kind==='circle-study')return `<svg xmlns="http://www.w3.org/2000/svg" width="420" height="242" viewBox="0 0 120 140" role="img"><title>${escapeXml(scene.items.map(x=>x.label).join('，'))}</title><rect width="120" height="140" fill="#fffaf0"/><circle cx="60" cy="60" r="42" fill="#f5d68d" stroke="#ae793d" stroke-width="1.4"/><polygon points="${polygonPoints(scene.sides)}" fill="#9ccdbc" stroke="#2f7764" stroke-width="1.1"/><text x="60" y="125" text-anchor="middle" font-size="10" fill="#355e58">${scene.sides}条直边 · 同一个圆</text></svg>`;
+
  if(scene.items.length===1&&scene.items[0].icon==='roofrow'){
   const w=compact?420:900,h=compact?242:430;const k=w/900;
   const row=`<g transform="scale(${k})"><path d="M25 277L870 277" stroke="#cba368" stroke-width="20"/>${group(iconMarkup('leader'),30,100,1.25)}${Array.from({length:10},(_,i)=>group(iconMarkup('beast'),180+i*65,185,.62)).join('')}<text x="100" y="322" text-anchor="middle" font-size="28">领队</text><text x="510" y="322" text-anchor="middle" font-size="28">后面十只走兽</text></g>`;

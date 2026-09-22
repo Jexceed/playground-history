@@ -136,10 +136,17 @@ test("local progress restores valid steps and preserves legacy completion badges
   }
 });
 
-test("all 515 steps have two stable audible choices with one correct answer and balanced positions", () => {
+test("all quiz choices are stable and audible while scene questions retain their own structure", () => {
   let count = 0;
+  let answered = 0;
   let firstCorrect = 0;
   for (const chapter of chapters.values()) for (const step of chapter.gameplay.steps) {
+    count += 1;
+    if (!step.options.length) {
+      assert.ok(["look-listen", "scene-find", "history-lab"].includes(step.interaction?.kind));
+      continue;
+    }
+    answered += 1;
     const before = JSON.stringify(step.options);
     const seed = `${chapter.id}:${step.id}`;
     const options = listenOptions(step.options, seed);
@@ -150,10 +157,9 @@ test("all 515 steps have two stable audible choices with one correct answer and 
     assert.deepEqual(listenOptions(step.options, seed), options);
     assert.equal(JSON.stringify(step.options), before);
     firstCorrect += Number(options[0].correct);
-    count += 1;
   }
   assert.equal(count, 515);
-  assert.ok(firstCorrect > count * .4 && firstCorrect < count * .6, `${firstCorrect}/${count}`);
+  assert.ok(firstCorrect > answered * .4 && firstCorrect < answered * .6, `${firstCorrect}/${answered}`);
 });
 
 test("a focused UI keeps completed records for chapters currently hidden", () => {

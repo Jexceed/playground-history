@@ -15,18 +15,17 @@
   "throughline": "从稻米、水田和水利进入江南生活，再用青瓷器物观察原有居民、迁入者、自然条件和长期劳动怎样共同推动发展。",
   "childEntry": {
     "id": "cn-ancient-05-02-jiangnan-development",
-    "childTitle": "给江南稻田找水",
-    "prompt": "有了河流，水就一定会流进每一块田吗？",
-    "takeaway": "江南农业发展既靠水土条件，也靠当地居民与迁来者耕作、修渠和维护。",
+    "childTitle": "江南的稻田和青瓷",
+    "prompt": "水土提供条件。田里长出粮食、作坊烧出青瓷，还需要人做哪些事？",
+    "takeaway": "当地居民和迁来的人共同劳动。修渠、种田、制瓷，让江南一些地方逐步发展；好水土不会自己变成收成。",
     "object": "稻谷遗存、农具和水利遗迹",
     "people": [
-      "江南农人",
-      "迁来者"
+      "江南种田人和制瓷工匠"
     ],
     "place": "长江中下游与建康",
     "culture": null,
-    "care": "水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。",
-    "preferredAssetId": "jiangnan-rice-life-child-illustration",
+    "care": "田渠与作坊是教学情境，不复原某年某村。青瓷只能支持器物工艺与造型，不能证明田地产量或家家富足。羊形器用途仍有讨论，鸡首壶馆藏品有墓葬背景；插画器形不是对它们的精确复制。水渠维护与农业发展另据历史文献。",
+    "preferredAssetId": "wu-celadon-sheep-vessel",
     "playableSource": "content/focused-quests.json"
   },
   "textbookConnection": {
@@ -34,9 +33,9 @@
     "featured": {
       "type": "诗歌",
       "icon": "🪷",
-      "title": "江南农人与迁来者",
-      "childBridge": "有了河流，水就一定会流进每一块田吗？",
-      "evidenceBoundary": "水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。"
+      "title": "江南种田人和制瓷工匠",
+      "childBridge": "水土提供条件。田里长出粮食、作坊烧出青瓷，还需要人做哪些事？",
+      "evidenceBoundary": "田渠与作坊是教学情境，不复原某年某村。"
     },
     "companions": [
       {
@@ -53,39 +52,41 @@
     "sourceIds": [
       "PEP-CHINESE-CLASSICS-RESOURCE",
       "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
-      "NMC-CELADON-SHEEP"
+      "NMC-CELADON-SHEEP",
+      "NMC-CELADON-CRAFT",
+      "MET-EASTERN-JIN-CHICKEN-HEAD-EWER"
     ]
   },
   "childStory": [
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "江南变化的时间",
-      "text": "220年到589年，江南许多地方逐步发展。它不是在某一天突然变成大粮仓。"
+      "label": "从一只青瓷小羊出发",
+      "text": "这只羊形器烧造于三国吴时期。看它的形状和表面光泽，能认识当时的制瓷手艺。后来江南的农业和手工业继续发展，我们去看看背后的人。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "诗里的水乡",
-      "text": "“江南可采莲，莲叶何田田。”汉乐府《江南》写水边采莲的景象，不是某座晋代村庄的记录。"
+      "label": "有条件，还要有人动手",
+      "text": "江南原有居民长期在这里生活。北方一些人迁来，带来劳动力和经验。这里的河网、土地与原料提供条件，人们还要修渠种田、选料制瓷，生产才慢慢发展。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "给水流开一条路",
-      "text": "水在河里，田在旁边。人们要按地势修整水渠，让水能进入需要的地方。"
+      "label": "田边与作坊，各在忙什么",
+      "text": "小伙伴看见田边有人清理堵住的水渠，作坊里有人把泥做成器物。这是两种不同的工作，都能帮助生活。听问题，找出正在做这件事的人。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "一起把水渠修好",
-      "text": "会看水土、会种田、会修渠的人一起劳动。水渠堵了，还得清理。"
+      "label": "已经有渠，也要维护",
+      "text": "小伙伴看见水渠边有泥草。水路要常常查看和维护，才能让水继续流进田。现在选一件能帮水路畅通的事。"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "稻田为什么改变",
-      "text": "水土提供条件，人们的劳动把条件变成田地里的变化。不同地方进度不一样。"
+      "label": "器物也不是自己长出来的",
+      "text": "田间的劳动带来粮食，工匠的手艺带来器物。小伙伴想做一件青瓷，泥已经准备好了；要让泥有器物的形状，该请谁接着做？"
     }
   ],
   "glossary": [
@@ -172,13 +173,27 @@
     "hook": {
       "kind": "具体任务",
       "icon": "🔎",
-      "label": "给江南稻田找水",
-      "question": "有了河流，水就一定会流进每一块田吗？"
+      "label": "江南的稻田和青瓷",
+      "question": "水土提供条件。田里长出粮食、作坊烧出青瓷，还需要人做哪些事？"
     },
-    "cta": "去帮稻田引水",
-    "anchor": "江南农人与迁来者",
-    "boundary": "水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。",
+    "cta": "去田边和作坊看看",
+    "anchor": "江南种田人和制瓷工匠",
+    "boundary": "田渠与作坊是教学情境，不复原某年某村。青瓷只能支持器物工艺与造型，不能证明田地产量或家家富足。羊形器用途仍有讨论，鸡首壶馆藏品有墓葬背景；插画器形不是对它们的精确复制。水渠维护与农业发展另据历史文献。",
     "evidence": [
+      {
+        "id": "wu-celadon-sheep-vessel",
+        "title": "三国吴青瓷羊形器展览照片",
+        "localPath": "reference-assets/three-kingdoms-jin-northern-southern/wu-celadon-sheep.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:20251026_20251026_Sheep-shaped_Celadon_Candle_Holder_from_Qingliangshan.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 4.0",
+        "clearance": "cleared-open-license",
+        "caption": "南京清凉山出土、中国国家博物馆藏三国吴青瓷羊形器。",
+        "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。原图为1800×1200像素，未作裁切或调色。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/wu-celadon-sheep-vessel.jpg"
+      },
       {
         "id": "eastern-jin-chicken-head-ewer",
         "title": "东晋越窑青瓷鸡首壶馆藏图像",
@@ -194,59 +209,223 @@
         "image": "/content/step-images/eastern-jin-chicken-head-ewer.jpg"
       }
     ],
+    "photoAlbum": {
+      "id": "jiangnan-celadon-evidence",
+      "title": "江南青瓷的两条线索",
+      "label": "翻翻真实青瓷",
+      "photos": [
+        {
+          "assetId": "wu-celadon-sheep-vessel",
+          "title": "青瓷羊形器 · 三国吴",
+          "label": "小羊的造型",
+          "period": "三国吴 · 3世纪",
+          "observation": "看看耳、角和器物的表面。",
+          "narration": "这是一件三国吴的青瓷羊形器。看看耳朵、卷曲的角和光亮表面。它不是活羊，它的具体用途还有不同解释。",
+          "caption": "真实器物 · 南京出土",
+          "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。原图为1800×1200像素，未作裁切或调色。",
+          "sourceIds": [
+            "NMC-CELADON-SHEEP",
+            "NMC-CELADON-CRAFT"
+          ],
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：青瓷羊形器",
+              "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202112/t20211203_252538.shtml"
+            },
+            {
+              "title": "中国国家博物馆：最早的瓷器品牌",
+              "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33107.shtml"
+            },
+            {
+              "title": "图片身份、作者与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:20251026_20251026_Sheep-shaped_Celadon_Candle_Holder_from_Qingliangshan.jpg"
+            }
+          ],
+          "thumbnailPosition": "50% 24%",
+          "image": "/content/step-images/wu-celadon-sheep-vessel.jpg",
+          "audio": {
+            "id": "quest-87f03357b6995a14",
+            "text": "这是一件三国吴的青瓷羊形器。看看耳朵、卷曲的角和光亮表面。它不是活羊，它的具体用途还有不同解释。"
+          }
+        },
+        {
+          "assetId": "eastern-jin-chicken-head-ewer",
+          "title": "鸡首壶 · 东晋",
+          "label": "小鸡头的壶",
+          "period": "东晋 · 4—5世纪",
+          "observation": "找找壶上的小鸡头造型。",
+          "narration": "这件东晋青瓷壶有小鸡头一样的造型。它是墓葬用器，能帮助认识工艺，不能说明每个家庭都有同样的壶。",
+          "caption": "4—5世纪 · 馆藏实物",
+          "boundary": "大都会艺术博物馆记录其为青瓷釉炻器和墓葬用器，鸡首造型的含义仍不明确。图片为馆方开放获取图像，下载为1920像素等比例缩略图，未作其他修改。",
+          "sourceIds": [
+            "MET-EASTERN-JIN-CHICKEN-HEAD-EWER"
+          ],
+          "sourceLinks": [
+            {
+              "title": "The Metropolitan Museum of Art：Chicken-Headed Ewer",
+              "url": "https://www.metmuseum.org/art/collection/search/42350"
+            },
+            {
+              "title": "中国国家博物馆：最早的瓷器品牌",
+              "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33107.shtml"
+            },
+            {
+              "title": "图片身份、作者与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Chicken-Headed_Ewer-_MET_DP-14609-030.jpg"
+            }
+          ],
+          "thumbnailPosition": "50% 20%",
+          "image": "/content/step-images/eastern-jin-chicken-head-ewer.jpg",
+          "audio": {
+            "id": "quest-08dd9ccb5e50c773",
+            "text": "这件东晋青瓷壶有小鸡头一样的造型。它是墓葬用器，能帮助认识工艺，不能说明每个家庭都有同样的壶。"
+          }
+        }
+      ]
+    },
     "coverAsset": {
-      "id": "jiangnan-rice-life-child-illustration",
-      "title": "江南稻作、水利与居民协作儿童示意图",
-      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jiangnan-rice-self-made.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "wu-celadon-sheep-vessel",
+      "title": "三国吴青瓷羊形器展览照片",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/wu-celadon-sheep.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20251026_20251026_Sheep-shaped_Celadon_Candle_Holder_from_Qingliangshan.jpg",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制；按OpenAI使用条款持有输出使用权",
-      "clearance": "cleared-project-created",
-      "caption": "自制儿童示意图：稻作、河网、水利和不同居民的长期劳动共同改变江南。",
-      "boundary": "2026-08-09为低龄玩法自制。它不是魏晋南北朝某年某地的照片或精确农具、服饰复原，也不证明所有江南地区采用同样耕作方式。",
+      "license": "CC BY-SA 4.0",
+      "clearance": "cleared-open-license",
+      "caption": "南京清凉山出土、中国国家博物馆藏三国吴青瓷羊形器。",
+      "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。原图为1800×1200像素，未作裁切或调色。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/jiangnan-rice-life-child-illustration.jpg"
+      "image": "/content/step-images/wu-celadon-sheep-vessel.jpg"
     },
-    "presentation": null,
-    "sceneAsset": null,
-    "narrativeAssets": [],
-    "coverImage": "/content/step-images/jiangnan-rice-life-child-illustration.jpg",
-    "coverImageAlt": "江南稻作、水利与居民协作儿童示意图",
-    "coverImageKind": "故事插画",
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "jin-jiangnan-fields-kiln-v1",
+      "sceneAlt": "江南田渠与青瓷作坊故事插画，现代教学插画",
+      "title": "江南的稻田和青瓷",
+      "evidenceTitle": "三国吴青瓷羊形器展览照片",
+      "evidenceLine": "真材料帮助观察，年代与解释另有文献。",
+      "evidenceNarration": "这是一件三国吴的青瓷羊形器。看看耳朵、卷曲的角和光亮表面。它不是活羊，它的具体用途还有不同解释。",
+      "guide": "听清问题，点你找到的画面。小喇叭能重听。",
+      "alignHint": "",
+      "familyHint": "回看图里的线索，再和家人一起说一说。",
+      "familyLabel": "和家人回看今天的发现",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "把发现带回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 2.2,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "jin-travel-journal-reunion-v1",
+        "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
+        "coverCaption": "江南的稻田和青瓷",
+        "coverNarration": "江南的稻田和青瓷小小旅行团出发！水土提供条件。田里长出粮食、作坊烧出青瓷，还需要人做哪些事？",
+        "stationLine": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
+        "stationNarration": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
+        "closingCaption": "回看刚刚读懂的历史",
+        "closingNarration": "当地居民和迁来的人共同劳动。修渠、种田、制瓷，让江南一些地方逐步发展；好水土不会自己变成收成。",
+        "closingLine": "好水土加上共同劳动，江南慢慢发展。",
+        "fictionNote": "田渠与作坊是教学情境，不复原某年某村。青瓷只能支持器物工艺与造型，不能证明田地产量或家家富足。羊形器用途仍有讨论，鸡首壶馆藏品有墓葬背景；插画器形不是对它们的精确复制。水渠维护与农业发展另据历史文献。",
+        "reunionImage": "/content/step-images/jin-travel-journal-reunion-v1.jpg",
+        "stationAudio": {
+          "id": "quest-07878431a28f0aec",
+          "text": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。"
+        },
+        "closingAudio": {
+          "id": "quest-6f437884a38d2ac5",
+          "text": "当地居民和迁来的人共同劳动。修渠、种田、制瓷，让江南一些地方逐步发展；好水土不会自己变成收成。"
+        }
+      },
+      "sceneImage": "/content/step-images/jin-jiangnan-fields-kiln-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-87f03357b6995a14",
+        "text": "这是一件三国吴的青瓷羊形器。看看耳朵、卷曲的角和光亮表面。它不是活羊，它的具体用途还有不同解释。"
+      },
+      "guideAudio": {
+        "id": "quest-8910b65852f3deb0",
+        "text": "听清问题，点你找到的画面。小喇叭能重听。"
+      }
+    },
+    "sceneAsset": {
+      "id": "jin-jiangnan-fields-kiln-v1",
+      "title": "江南田渠与青瓷作坊故事插画",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-jiangnan-fields-kiln-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "江南田渠与青瓷作坊故事插画；非历史现场复原。",
+      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-jiangnan-fields-kiln-v1-prompt.txt。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/jin-jiangnan-fields-kiln-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "jin-travel-journal-reunion-v1",
+        "title": "三位小伙伴回看本段历史的聚会插画",
+        "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-travel-journal-reunion-v1.png",
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
+        "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/jin-travel-journal-reunion-v1.jpg"
+      },
+      {
+        "id": "jin-jiangnan-fields-kiln-v1",
+        "title": "江南田渠与青瓷作坊故事插画",
+        "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-jiangnan-fields-kiln-v1.png",
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "江南田渠与青瓷作坊故事插画；非历史现场复原。",
+        "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-jiangnan-fields-kiln-v1-prompt.txt。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/jin-jiangnan-fields-kiln-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/wu-celadon-sheep-vessel.jpg",
+    "coverImageAlt": "三国吴青瓷羊形器展览照片",
+    "coverImageKind": "历史材料",
     "coverAudio": {
-      "id": "quest-b052ccf94b63ed3e",
-      "text": "给江南稻田找水。有了河流，水就一定会流进每一块田吗？准备好就点“去帮稻田引水”。"
+      "id": "quest-0f61d02729bb245d",
+      "text": "江南的稻田和青瓷小小旅行团出发！水土提供条件。田里长出粮食、作坊烧出青瓷，还需要人做哪些事？"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-bb04fac9ef326835",
-      "text": "江南农业发展既靠水土条件，也靠当地居民与迁来者耕作、修渠和维护。"
+      "id": "quest-6f437884a38d2ac5",
+      "text": "当地居民和迁来的人共同劳动。修渠、种田、制瓷，让江南一些地方逐步发展；好水土不会自己变成收成。"
     },
     "finish": {
-      "title": "用手指画一条水渠",
+      "title": "看见江南背后的劳动啦！",
       "actions": [
-        "从图里的河指到田，沿着接通的水路走。",
-        "家人说“这里堵啦”，你指出需要修哪里。"
+        "指图里的水渠，请家人指出水被堵住的地方。",
+        "再找泥坯和烧好的器物，说说修渠与制瓷各帮助得到什么。"
       ],
-      "parent": "问“只有河水，田就一定有收成吗？”接受修渠、种田、维护等具体回应；诗歌只用来感受景象。",
+      "parent": "接受“水进田里”“种粮食”“工匠做瓷器”等具体回答，再补上当地人与迁来的人共同劳动、变化持续多代。不要把一件青瓷当整个江南产量证明，也不把羊形器的烛台说当唯一结论。",
       "sceneStepIndexes": [
         2,
         3
       ],
       "actionAudio": [
         {
-          "id": "quest-422a3b9bc3c4d0b1",
-          "text": "从图里的河指到田，沿着接通的水路走。"
+          "id": "quest-5882aad9cd49d14e",
+          "text": "指图里的水渠，请家人指出水被堵住的地方。"
         },
         {
-          "id": "quest-f4dbab128e9fc615",
-          "text": "家人说“这里堵啦”，你指出需要修哪里。"
+          "id": "quest-ab15d9d75e500488",
+          "text": "再找泥坯和烧好的器物，说说修渠与制瓷各帮助得到什么。"
         }
       ],
       "introAudio": {
-        "id": "quest-be807baac6b8ca16",
-        "text": "用手指画一条水渠。从图里的河指到田，沿着接通的水路走。家人说“这里堵啦”，你指出需要修哪里。"
+        "id": "quest-6f437884a38d2ac5",
+        "text": "当地居民和迁来的人共同劳动。修渠、种田、制瓷，让江南一些地方逐步发展；好水土不会自己变成收成。"
       }
     },
     "estimatedMinutes": 6,
@@ -259,81 +438,145 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "江南变化的时间",
-        "title": "江南变化的时间",
-        "prompt": "这段变化应该画多长？",
-        "rightNote": "这是持续很久、各地不一样的变化。",
-        "wrongNote": "这是持续很久、各地不一样的变化。",
+        "phase": "从一只青瓷小羊出发",
+        "title": "从一只青瓷小羊出发",
+        "prompt": "这件小羊器，带我们先到哪一站？",
+        "rightNote": "先到三国吴，再看后来的江南变化。",
+        "wrongNote": "东晋更晚，这件小羊器在三国吴时期。",
         "sourceIds": [
-          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+          "NMC-CELADON-CRAFT",
+          "NMC-CELADON-SHEEP",
+          "MET-EASTERN-JIN-CHICKEN-HEAD-EWER"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听清问题，看看图里的线索。"
+        },
+        "narrative": {
+          "scene": "artifact",
+          "caption": "从一只青瓷小羊出发",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "先到三国吴，再看后来的江南变化。",
+          "retry": "东晋更晚，这件小羊器在三国吴时期。",
+          "nextLabel": "去看看田与窑里的劳动",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "wu-celadon-sheep-vessel",
+          "title": "青瓷羊形器 · 三国吴",
+          "localPath": "reference-assets/three-kingdoms-jin-northern-southern/wu-celadon-sheep.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:20251026_20251026_Sheep-shaped_Celadon_Candle_Holder_from_Qingliangshan.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 4.0",
+          "clearance": "cleared-open-license",
+          "caption": "真实器物 · 南京出土",
+          "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。原图为1800×1200像素，未作裁切或调色。 南京清凉山出土、中国国家博物馆藏三国吴青瓷羊形器。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/wu-celadon-sheep-vessel.jpg",
+          "label": "看看青瓷小羊和鸡首壶",
+          "placement": "main",
+          "framing": "object",
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：青瓷羊形器",
+              "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202112/t20211203_252538.shtml"
+            },
+            {
+              "title": "中国国家博物馆：最早的瓷器品牌",
+              "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33107.shtml"
+            },
+            {
+              "title": "图片身份、作者与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:20251026_20251026_Sheep-shaped_Celadon_Candle_Holder_from_Qingliangshan.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-87f03357b6995a14",
+            "text": "这是一件三国吴的青瓷羊形器。看看耳朵、卷曲的角和光亮表面。它不是活羊，它的具体用途还有不同解释。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "江南变化的时间",
-          "screenText": "220年到589年，江南许多地方逐步发展。它不是在某一天突然变成大粮仓。",
-          "displayText": "220年到589年，江南许多地方逐步发展。它不是在某一天突然变成大粮仓。",
-          "narration": "220年到589年，江南许多地方逐步发展。它不是在某一天突然变成大粮仓。"
+          "title": "从一只青瓷小羊出发",
+          "screenText": "这只羊形器烧造于三国吴时期。看它的形状和表面光泽，能认识当时的制瓷手艺。后来江南的农业和手工业继续发展，我们去看看背后的人。",
+          "displayText": "这只羊形器烧造于三国吴时期。看它的形状和表面光泽，能认识当时的制瓷手艺。后来江南的农业和手工业继续发展，我们去看看背后的人。",
+          "narration": "这只羊形器烧造于三国吴时期。看它的形状和表面光泽，能认识当时的制瓷手艺。后来江南的农业和手工业继续发展，我们去看看背后的人。"
         },
-        "assetId": "study-c2aa2f1d5444b410",
-        "image": "/content/study-scenes/study-c2aa2f1d5444b410.svg",
-        "studyImage": "/content/study-scenes/study-c2aa2f1d5444b410.svg",
-        "studyImageAlt": "220年，慢慢发展，589年",
-        "imageAlt": "220年，慢慢发展，589年",
-        "imageCaption": "学习示意 · 220年，慢慢发展，589年",
-        "imageBoundary": "自制学习示意。水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。",
+        "assetId": "wu-celadon-sheep-vessel",
+        "image": "/content/step-images/wu-celadon-sheep-vessel.jpg",
+        "studyImage": "/content/study-scenes/study-18f57e985bdcbc66.svg",
+        "studyImageAlt": "三国吴制瓷，制瓷手艺",
+        "imageAlt": "三国吴青瓷羊形器展览照片",
+        "imageCaption": "三国吴青瓷羊形器展览照片",
+        "imageBoundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。原图为1800×1200像素，未作裁切或调色。",
         "audio": {
+          "lead": {
+            "id": "quest-d3a1c78887612677",
+            "text": "这件青瓷小羊来自三国吴。选好年代，去看看手艺与劳动。"
+          },
           "transition": {
-            "id": "quest-d80a560fa2d7ae27",
-            "text": "江南变化的时间。"
+            "id": "quest-6b2b46ff037728d9",
+            "text": "从一只青瓷小羊出发。"
           },
           "intro": {
-            "id": "quest-67f474304ab815c7",
-            "text": "220年到589年，江南许多地方逐步发展。它不是在某一天突然变成大粮仓。"
+            "id": "quest-781b4a96fb5645a1",
+            "text": "这只羊形器烧造于三国吴时期。看它的形状和表面光泽，能认识当时的制瓷手艺。后来江南的农业和手工业继续发展，我们去看看背后的人。"
           },
           "question": {
-            "id": "quest-95f9b14ad6b39d46",
-            "text": "这段变化应该画多长？"
+            "id": "quest-b06aedf837246cdc",
+            "text": "这件小羊器，带我们先到哪一站？"
           },
           "image": {
-            "id": "quest-bab3116761fe8a0c",
-            "text": "这是学习示意图：220年，慢慢发展，589年。这段变化应该画多长？"
+            "id": "quest-4dc50000a754a474",
+            "text": "这张是三国吴青瓷羊形器展览照片。这只羊形器烧造于三国吴时期。看它的形状和表面光泽，能认识当时的制瓷手艺。后来江南的农业和手工业继续发展，我们去看看背后的人。"
           },
           "right": {
-            "id": "quest-7c6c28b6ee7218c4",
-            "text": "找到了。这是持续很久、各地不一样的变化。"
+            "id": "quest-ac60ab8f4bce6b67",
+            "text": "先到三国吴，再看后来的江南变化。"
           },
           "wrong": {
-            "id": "quest-669e0761faba9195",
-            "text": "再比较一下。这是持续很久、各地不一样的变化。"
+            "id": "quest-6fa2618fa8c4676e",
+            "text": "东晋更晚，这件小羊器在三国吴时期。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-05-02-jiangnan-development-time-1",
-            "label": "画在220—589年一段里",
+            "label": "三国·吴 · 3世纪",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-01403fe0050a8429.svg",
-            "imageAlt": "220—589年 持续",
+            "objectView": {
+              "kind": "era",
+              "name": "三国·吴",
+              "date": "3世纪",
+              "stationImage": "/images/history-stations/meeting.webp"
+            },
+            "image": "/content/study-scenes/study-291061fae19c3254.svg",
+            "imageAlt": "三国·吴 3世纪",
             "audio": {
-              "id": "quest-ef522aecfbcb60ca",
-              "text": "画在220—589年一段里"
+              "id": "quest-5ec8476b2df9aeab",
+              "text": "三国·吴 · 3世纪"
             }
           },
           {
             "id": "cn-ancient-05-02-jiangnan-development-time-2",
-            "label": "只点在589年一天上",
+            "label": "东晋 · 4—5世纪",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-d7e2cad410ca0fec.svg",
-            "imageAlt": "589年 某一天",
+            "objectView": {
+              "kind": "era",
+              "name": "东晋",
+              "date": "4—5世纪",
+              "stationImage": "/images/history-stations/meeting.webp"
+            },
+            "image": "/content/study-scenes/study-6099c788c832272d.svg",
+            "imageAlt": "东晋 4—5世纪",
             "audio": {
-              "id": "quest-6085e8213f319e11",
-              "text": "只点在589年一天上"
+              "id": "quest-543c22a2a669ee08",
+              "text": "东晋 · 4—5世纪"
             }
           }
         ]
@@ -342,247 +585,338 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "诗里的水乡",
-        "title": "诗里的水乡",
-        "prompt": "诗句可以带我们想象什么？",
-        "rightNote": "诗帮助感受水乡，不能统计村庄收了多少粮。",
-        "wrongNote": "诗帮助感受水乡，不能统计村庄收了多少粮。",
+        "phase": "有条件，还要有人动手",
+        "title": "有条件，还要有人动手",
+        "prompt": "有条件，还要有人动手",
+        "rightNote": "好水土加上劳动，才慢慢有变化。",
+        "wrongNote": "可以再听一遍。",
         "sourceIds": [
-          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+          "NMC-CELADON-CRAFT"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听清问题，看看图里的线索。",
+          "continueLabel": "找找两种生产工作"
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "有条件，还要有人动手",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "好水土加上劳动，才慢慢有变化。",
+          "retry": "可以再听一遍。",
+          "nextLabel": "找找两种生产工作",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "诗里的水乡",
-          "screenText": "“江南可采莲，莲叶何田田。”汉乐府《江南》写水边采莲的景象，不是某座晋代村庄的记录。",
-          "displayText": "“江南可采莲，莲叶何田田。”汉乐府《江南》写水边采莲的景象，不是某座晋代村庄的记录。",
-          "narration": "“江南可采莲，莲叶何田田。”汉乐府《江南》写水边采莲的景象，不是某座晋代村庄的记录。"
+          "title": "有条件，还要有人动手",
+          "screenText": "江南原有居民长期在这里生活。北方一些人迁来，带来劳动力和经验。这里的河网、土地与原料提供条件，人们还要修渠种田、选料制瓷，生产才慢慢发展。",
+          "displayText": "田里要种，水渠要修。\n瓷器也要靠工匠做出来。",
+          "narration": "江南原有居民长期在这里生活。北方一些人迁来，带来劳动力和经验。这里的河网、土地与原料提供条件，人们还要修渠种田、选料制瓷，生产才慢慢发展。"
         },
-        "assetId": "study-8681f9f6c10022d5",
-        "image": "/content/study-scenes/study-8681f9f6c10022d5.svg",
-        "studyImage": "/content/study-scenes/study-8681f9f6c10022d5.svg",
-        "studyImageAlt": "水面，莲叶",
-        "imageAlt": "水面，莲叶",
-        "imageCaption": "学习示意 · 水面，莲叶",
-        "imageBoundary": "自制学习示意。水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。",
+        "assetId": "study-229d27422997d3b5",
+        "image": "/content/study-scenes/study-229d27422997d3b5.svg",
+        "studyImage": "/content/study-scenes/study-229d27422997d3b5.svg",
+        "studyImageAlt": "当地条件，共同劳动，逐步发展",
+        "imageAlt": "当地条件，共同劳动，逐步发展",
+        "imageCaption": "学习示意 · 当地条件，共同劳动，逐步发展",
+        "imageBoundary": "自制学习示意。田渠与作坊是教学情境，不复原某年某村。青瓷只能支持器物工艺与造型，不能证明田地产量或家家富足。羊形器用途仍有讨论，鸡首壶馆藏品有墓葬背景；插画器形不是对它们的精确复制。水渠维护与农业发展另据历史文献。",
         "audio": {
+          "lead": {
+            "id": "quest-d53c52582e001023",
+            "text": "江南的发展既有水土条件，也靠当地人与迁来的人共同劳动。"
+          },
           "transition": {
-            "id": "quest-883d2f6a5aceb94d",
-            "text": "诗里的水乡。"
+            "id": "quest-66d5bb257ecc6307",
+            "text": "有条件，还要有人动手。"
           },
           "intro": {
-            "id": "quest-87a652a4b9c3fca1",
-            "text": "“江南可采莲，莲叶何田田。”汉乐府《江南》写水边采莲的景象，不是某座晋代村庄的记录。"
+            "id": "quest-8cd3b52a24f23d39",
+            "text": "江南原有居民长期在这里生活。北方一些人迁来，带来劳动力和经验。这里的河网、土地与原料提供条件，人们还要修渠种田、选料制瓷，生产才慢慢发展。"
           },
           "question": {
-            "id": "quest-f0879d74eb0cefc6",
-            "text": "诗句可以带我们想象什么？"
+            "id": "quest-901e094eb6020597",
+            "text": "有条件，还要有人动手"
           },
           "image": {
-            "id": "quest-06aff452aa5b4ae1",
-            "text": "这是学习示意图：水面，莲叶。诗句可以带我们想象什么？"
+            "id": "quest-feb5799b3a1c712e",
+            "text": "这是学习示意图：当地条件，共同劳动，逐步发展。有条件，还要有人动手"
           },
           "right": {
-            "id": "quest-f4e658fb5c515b3a",
-            "text": "找到了。诗帮助感受水乡，不能统计村庄收了多少粮。"
+            "id": "quest-280783594ab2cb0d",
+            "text": "好水土加上劳动，才慢慢有变化。"
           },
           "wrong": {
-            "id": "quest-eed182d5e4ad59f3",
-            "text": "再比较一下。诗帮助感受水乡，不能统计村庄收了多少粮。"
+            "id": "quest-cf2d9f2d3be46572",
+            "text": "可以再听一遍。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-05-02-jiangnan-development-beginning-1",
-            "label": "水面和茂密莲叶",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-47c809688e8877b9.svg",
-            "imageAlt": "莲叶和水面",
-            "audio": {
-              "id": "quest-a9a1ae162e7ffafa",
-              "text": "水面和茂密莲叶"
-            }
-          },
-          {
-            "id": "cn-ancient-05-02-jiangnan-development-beginning-2",
-            "label": "每户人家的粮食数",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-77224df7751b7bee.svg",
-            "imageAlt": "每家粮食数量",
-            "audio": {
-              "id": "quest-cb3b74c7aec5c4d2",
-              "text": "每户人家的粮食数"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "给水流开一条路",
-        "title": "给水流开一条路",
-        "prompt": "哪条水路能到田里？",
-        "rightNote": "把需要的田和水路接通，才可能引水灌溉。",
-        "wrongNote": "把需要的田和水路接通，才可能引水灌溉。",
+        "phase": "田边与作坊，各在忙什么",
+        "title": "田边与作坊，各在忙什么",
+        "prompt": "谁在清理水渠，让水继续流？",
+        "rightNote": "田间和作坊，都有人在认真劳动。",
+        "wrongNote": "他在做器物，找找水渠边的人。",
         "sourceIds": [
-          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+          "NMC-CELADON-CRAFT"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听清问题，看看图里的线索。",
+          "hotspots": [
+            {
+              "id": "field",
+              "label": "清渠的种田人",
+              "x": 0.39,
+              "y": 0.125,
+              "width": 0.24,
+              "height": 0.49
+            },
+            {
+              "id": "potter",
+              "label": "做器物的工匠",
+              "x": 0.72,
+              "y": 0.105,
+              "width": 0.27,
+              "height": 0.5
+            }
+          ],
+          "rounds": [
+            {
+              "id": "find-field",
+              "question": "谁在清理水渠，让水继续流？",
+              "targetId": "field",
+              "feedback": "他在清理堵处，水才能继续往田里流。",
+              "retry": "他在做器物，找找水渠边的人。",
+              "nextLabel": "再找做器物的人",
+              "audio": {
+                "question": {
+                  "id": "quest-90ff77a63cc0bbfb",
+                  "text": "谁在清理水渠，让水继续流？"
+                },
+                "right": {
+                  "id": "quest-3a7df2acf50247a3",
+                  "text": "他在清理堵处，水才能继续往田里流。"
+                },
+                "wrong": {
+                  "id": "quest-e489b43a4fa981b4",
+                  "text": "他在做器物，找找水渠边的人。"
+                }
+              }
+            },
+            {
+              "id": "find-potter",
+              "question": "谁正在把泥做成器物的形状？",
+              "targetId": "potter",
+              "feedback": "找到了！成形以后，还要施釉和烧制。",
+              "retry": "他在清理水渠，找找桌前做泥坯的人。",
+              "audio": {
+                "question": {
+                  "id": "quest-ef902d466a850201",
+                  "text": "谁正在把泥做成器物的形状？"
+                },
+                "right": {
+                  "id": "quest-4658c62d8b39b071",
+                  "text": "找到了！成形以后，还要施釉和烧制。"
+                },
+                "wrong": {
+                  "id": "quest-dd17b7950561ef59",
+                  "text": "他在清理水渠，找找桌前做泥坯的人。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "田边与作坊，各在忙什么",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "田间和作坊，都有人在认真劳动。",
+          "retry": "他在做器物，找找水渠边的人。",
+          "nextLabel": "让水路保持畅通",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "给水流开一条路",
-          "screenText": "水在河里，田在旁边。人们要按地势修整水渠，让水能进入需要的地方。",
-          "displayText": "水在河里，田在旁边。人们要按地势修整水渠，让水能进入需要的地方。",
-          "narration": "水在河里，田在旁边。人们要按地势修整水渠，让水能进入需要的地方。"
+          "title": "田边与作坊，各在忙什么",
+          "screenText": "小伙伴看见田边有人清理堵住的水渠，作坊里有人把泥做成器物。这是两种不同的工作，都能帮助生活。听问题，找出正在做这件事的人。",
+          "displayText": "小伙伴看见田边有人清理堵住的水渠，作坊里有人把泥做成器物。这是两种不同的工作，都能帮助生活。听问题，找出正在做这件事的人。",
+          "narration": "小伙伴看见田边有人清理堵住的水渠，作坊里有人把泥做成器物。这是两种不同的工作，都能帮助生活。听问题，找出正在做这件事的人。"
         },
-        "assetId": "study-b68450e96ea155d2",
-        "image": "/content/study-scenes/study-b68450e96ea155d2.svg",
-        "studyImage": "/content/study-scenes/study-b68450e96ea155d2.svg",
-        "studyImageAlt": "河流，稻田",
-        "imageAlt": "河流，稻田",
-        "imageCaption": "学习示意 · 河流，稻田",
-        "imageBoundary": "自制学习示意。水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。",
+        "assetId": "jin-jiangnan-fields-kiln-v1",
+        "image": "/content/step-images/jin-jiangnan-fields-kiln-v1.jpg",
+        "studyImage": "/content/study-scenes/study-5cfe9e3aa2466e07.svg",
+        "studyImageAlt": "维护水渠，制作器物",
+        "imageAlt": "江南田渠与青瓷作坊故事插画",
+        "imageCaption": "江南田渠与青瓷作坊故事插画",
+        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-jiangnan-fields-kiln-v1-prompt.txt。",
         "audio": {
+          "lead": {
+            "id": "quest-abc85a85b0e158a7",
+            "text": "谁在清理水渠？谁在把泥做成器物？"
+          },
           "transition": {
-            "id": "quest-b24e575d7b004146",
-            "text": "给水流开一条路。"
+            "id": "quest-841068dc1e61f742",
+            "text": "田边与作坊，各在忙什么。"
           },
           "intro": {
-            "id": "quest-cecd6a159c181ea5",
-            "text": "水在河里，田在旁边。人们要按地势修整水渠，让水能进入需要的地方。"
+            "id": "quest-e3ef235389069212",
+            "text": "小伙伴看见田边有人清理堵住的水渠，作坊里有人把泥做成器物。这是两种不同的工作，都能帮助生活。听问题，找出正在做这件事的人。"
           },
           "question": {
-            "id": "quest-2ba4a1c30af2794a",
-            "text": "哪条水路能到田里？"
+            "id": "quest-90ff77a63cc0bbfb",
+            "text": "谁在清理水渠，让水继续流？"
           },
           "image": {
-            "id": "quest-c4b77d8ce0debeea",
-            "text": "这是学习示意图：河流，稻田。哪条水路能到田里？"
+            "id": "quest-40f73f1297f82088",
+            "text": "这张是江南田渠与青瓷作坊故事插画。小伙伴看见田边有人清理堵住的水渠，作坊里有人把泥做成器物。这是两种不同的工作，都能帮助生活。听问题，找出正在做这件事的人。"
           },
           "right": {
-            "id": "quest-a3797308aacac439",
-            "text": "找到了。把需要的田和水路接通，才可能引水灌溉。"
+            "id": "quest-d05848144d54af22",
+            "text": "田间和作坊，都有人在认真劳动。"
           },
           "wrong": {
-            "id": "quest-6e24fb9b4c33dc38",
-            "text": "再比较一下。把需要的田和水路接通，才可能引水灌溉。"
+            "id": "quest-e489b43a4fa981b4",
+            "text": "他在做器物，找找水渠边的人。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-05-02-jiangnan-development-journey-1",
-            "label": "河流和田相连",
-            "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-3a526e9ef1669b3b.svg",
-            "imageAlt": "水路通向田地",
-            "audio": {
-              "id": "quest-69decae619bb6001",
-              "text": "河流和田相连"
-            }
-          },
-          {
-            "id": "cn-ancient-05-02-jiangnan-development-journey-2",
-            "label": "水渠停在田外",
-            "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-3d3d8c4f1c023ca4.svg",
-            "imageAlt": "水路未接到田地",
-            "audio": {
-              "id": "quest-312b95f0b963a7a2",
-              "text": "水渠停在田外"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "一起把水渠修好",
-        "title": "一起把水渠修好",
-        "prompt": "已经有渠却不通水，该做什么？",
-        "rightNote": "丰收图不能疏通水渠，还要实际检查和维护。",
-        "wrongNote": "丰收图不能疏通水渠，还要实际检查和维护。",
+        "phase": "已经有渠，也要维护",
+        "title": "已经有渠，也要维护",
+        "prompt": "想让水进田，先做哪件事？",
+        "rightNote": "先查堵处、清理维护，让水能过去。",
+        "wrongNote": "做器物有用，但不能把这条水渠疏通。",
         "sourceIds": [
           "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清问题，看看图里的线索。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "已经有渠，也要维护",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "先查堵处、清理维护，让水能过去。",
+          "retry": "做器物有用，但不能把这条水渠疏通。",
+          "nextLabel": "再看看一件瓷器的背后",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "一起把水渠修好",
-          "screenText": "会看水土、会种田、会修渠的人一起劳动。水渠堵了，还得清理。",
-          "displayText": "会看水土、会种田、会修渠的人一起劳动。水渠堵了，还得清理。",
-          "narration": "会看水土、会种田、会修渠的人一起劳动。水渠堵了，还得清理。"
+          "title": "已经有渠，也要维护",
+          "screenText": "小伙伴看见水渠边有泥草。水路要常常查看和维护，才能让水继续流进田。现在选一件能帮水路畅通的事。",
+          "displayText": "水渠前面有水，后面却堵着，小田还没得到水。小伙伴想帮忙。是先查看堵住的地方，还是先去作坊做器物？",
+          "narration": "小伙伴看见水渠边有泥草。水路要常常查看和维护，才能让水继续流进田。现在选一件能帮水路畅通的事。"
         },
-        "assetId": "study-97ee3d4984215db7",
-        "image": "/content/study-scenes/study-97ee3d4984215db7.svg",
-        "studyImage": "/content/study-scenes/study-97ee3d4984215db7.svg",
-        "studyImageAlt": "水渠，堵处，维护",
-        "imageAlt": "水渠，堵处，维护",
-        "imageCaption": "学习示意 · 水渠，堵处，维护",
-        "imageBoundary": "自制学习示意。水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。",
+        "assetId": "jin-jiangnan-fields-kiln-v1",
+        "image": "/content/step-images/jin-jiangnan-fields-kiln-v1.jpg",
+        "studyImage": "/content/study-scenes/study-8ecb61f5eb099d97.svg",
+        "studyImageAlt": "查看堵处，持续维护",
+        "imageAlt": "江南田渠与青瓷作坊故事插画",
+        "imageCaption": "江南田渠与青瓷作坊故事插画",
+        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-jiangnan-fields-kiln-v1-prompt.txt。",
         "audio": {
+          "lead": {
+            "id": "quest-f9359da9c672f429",
+            "text": "水路需要常常维护，先选能让水顺利进田的办法。"
+          },
           "transition": {
-            "id": "quest-baed41d6fe1b6d34",
-            "text": "一起把水渠修好。"
+            "id": "quest-136d8a0c6ab9810f",
+            "text": "已经有渠，也要维护。"
           },
           "intro": {
-            "id": "quest-33d146a715fc7c8c",
-            "text": "会看水土、会种田、会修渠的人一起劳动。水渠堵了，还得清理。"
+            "id": "quest-f7112c4685b42fd1",
+            "text": "小伙伴看见水渠边有泥草。水路要常常查看和维护，才能让水继续流进田。现在选一件能帮水路畅通的事。"
           },
           "question": {
-            "id": "quest-d83127e4c2356766",
-            "text": "已经有渠却不通水，该做什么？"
+            "id": "quest-37c559abbc20d016",
+            "text": "想让水进田，先做哪件事？"
           },
           "image": {
-            "id": "quest-c91db8fbbcbe74a3",
-            "text": "这是学习示意图：水渠，堵处，维护。已经有渠却不通水，该做什么？"
+            "id": "quest-537c53f5712793df",
+            "text": "这张是江南田渠与青瓷作坊故事插画。小伙伴看见水渠边有泥草。水路要常常查看和维护，才能让水继续流进田。现在选一件能帮水路畅通的事。"
           },
           "right": {
-            "id": "quest-b76e6bc57b7eba64",
-            "text": "找到了。丰收图不能疏通水渠，还要实际检查和维护。"
+            "id": "quest-6f8989d9d57c0c30",
+            "text": "先查堵处、清理维护，让水能过去。"
           },
           "wrong": {
-            "id": "quest-9b05282c5b2028a5",
-            "text": "再比较一下。丰收图不能疏通水渠，还要实际检查和维护。"
+            "id": "quest-d1d3777389455387",
+            "text": "做器物有用，但不能把这条水渠疏通。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-05-02-jiangnan-development-change-1",
-            "label": "查看堵处再维护",
+            "label": "先查看并清理堵处",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-7f84de36889f601a.svg",
-            "imageAlt": "检查疏通",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "jin-jiangnan-fields-kiln-v1",
+              "crop": {
+                "x": 580,
+                "y": 120,
+                "width": 420,
+                "height": 530,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/jin-jiangnan-fields-kiln-v1.jpg",
+              "imageAlt": "先查看并清理堵处"
+            },
+            "image": "/content/study-scenes/study-00c05778ba679c22.svg",
+            "imageAlt": "先查看并清理堵处",
             "audio": {
-              "id": "quest-7710acea6dc2377d",
-              "text": "查看堵处再维护"
+              "id": "quest-9d4746142beebe8f",
+              "text": "先查看并清理堵处"
             }
           },
           {
             "id": "cn-ancient-05-02-jiangnan-development-change-2",
-            "label": "再画一张丰收的画",
+            "label": "请工匠把泥坯成形",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-8388326dce6f8ef2.svg",
-            "imageAlt": "画丰收图",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "jin-jiangnan-fields-kiln-v1",
+              "crop": {
+                "x": 1090,
+                "y": 110,
+                "width": 440,
+                "height": 540,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/jin-jiangnan-fields-kiln-v1.jpg",
+              "imageAlt": "请工匠把泥坯成形"
+            },
+            "image": "/content/study-scenes/study-68e6816765f82994.svg",
+            "imageAlt": "请工匠把泥坯成形",
             "audio": {
-              "id": "quest-50ceaa61ec53a1a0",
-              "text": "再画一张丰收的画"
+              "id": "quest-fd2b714fef2ed7af",
+              "text": "请工匠把泥坯成形"
             }
           }
         ]
@@ -591,81 +925,160 @@
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "稻田为什么改变",
-        "title": "稻田为什么改变",
-        "prompt": "哪两张线索需要放在一起？",
-        "rightNote": "有自然条件，也要有人耕作、修整和维护。",
-        "wrongNote": "有自然条件，也要有人耕作、修整和维护。",
+        "phase": "器物也不是自己长出来的",
+        "title": "器物也不是自己长出来的",
+        "prompt": "要做出器物的形状，选哪件事？",
+        "rightNote": "工匠先做出形状，再经过施釉与烧制。",
+        "wrongNote": "清渠能帮助种田，器物的形状要靠制瓷手艺。",
         "sourceIds": [
-          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+          "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+          "NMC-CELADON-CRAFT"
         ],
-        "interaction": null,
-        "narrative": null,
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清问题，看看图里的线索。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "scene": "reunion",
+          "caption": "器物也不是自己长出来的",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "工匠先做出形状，再经过施釉与烧制。",
+          "retry": "清渠能帮助种田，器物的形状要靠制瓷手艺。",
+          "nextLabel": "把江南的发现带回家",
+          "kind": "fictional-guide-scene"
+        },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "eastern-jin-chicken-head-ewer",
+          "title": "鸡首壶 · 东晋",
+          "localPath": "reference-assets/three-kingdoms-jin-northern-southern/eastern-jin-chicken-head-ewer.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Chicken-Headed_Ewer-_MET_DP-14609-030.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC0 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "4—5世纪 · 馆藏实物",
+          "boundary": "大都会艺术博物馆记录其为青瓷釉炻器和墓葬用器，鸡首造型的含义仍不明确。图片为馆方开放获取图像，下载为1920像素等比例缩略图，未作其他修改。 大都会艺术博物馆藏东晋4—5世纪越窑青瓷鸡首壶。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/eastern-jin-chicken-head-ewer.jpg",
+          "label": "看看真正的鸡首壶",
+          "placement": "supporting",
+          "framing": "object",
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "The Metropolitan Museum of Art：Chicken-Headed Ewer",
+              "url": "https://www.metmuseum.org/art/collection/search/42350"
+            },
+            {
+              "title": "中国国家博物馆：最早的瓷器品牌",
+              "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33107.shtml"
+            },
+            {
+              "title": "图片身份、作者与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Chicken-Headed_Ewer-_MET_DP-14609-030.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-08dd9ccb5e50c773",
+            "text": "这件东晋青瓷壶有小鸡头一样的造型。它是墓葬用器，能帮助认识工艺，不能说明每个家庭都有同样的壶。"
+          }
+        },
         "story": {
           "screenNumber": 5,
-          "title": "稻田为什么改变",
-          "screenText": "水土提供条件，人们的劳动把条件变成田地里的变化。不同地方进度不一样。",
-          "displayText": "水土提供条件，人们的劳动把条件变成田地里的变化。不同地方进度不一样。",
-          "narration": "水土提供条件，人们的劳动把条件变成田地里的变化。不同地方进度不一样。"
+          "title": "器物也不是自己长出来的",
+          "screenText": "田间的劳动带来粮食，工匠的手艺带来器物。小伙伴想做一件青瓷，泥已经准备好了；要让泥有器物的形状，该请谁接着做？",
+          "displayText": "田间的劳动带来粮食，工匠的手艺带来器物。小伙伴想做一件青瓷，泥已经准备好了；要让泥有器物的形状，该请谁接着做？",
+          "narration": "田间的劳动带来粮食，工匠的手艺带来器物。小伙伴想做一件青瓷，泥已经准备好了；要让泥有器物的形状，该请谁接着做？"
         },
-        "assetId": "study-07e81bed652bf44d",
-        "image": "/content/study-scenes/study-07e81bed652bf44d.svg",
-        "studyImage": "/content/study-scenes/study-07e81bed652bf44d.svg",
-        "studyImageAlt": "水土，劳动，田地变化",
-        "imageAlt": "水土，劳动，田地变化",
-        "imageCaption": "学习示意 · 水土，劳动，田地变化",
-        "imageBoundary": "自制学习示意。水田图是灌溉功能示意，不对应一处已核定的晋代工程；诗歌不能证明村庄产量。",
+        "assetId": "study-e962daaa795dba8e",
+        "image": "/content/study-scenes/study-e962daaa795dba8e.svg",
+        "studyImage": "/content/study-scenes/study-e962daaa795dba8e.svg",
+        "studyImageAlt": "田间劳动，制瓷手艺",
+        "imageAlt": "田间劳动，制瓷手艺",
+        "imageCaption": "学习示意 · 田间劳动，制瓷手艺",
+        "imageBoundary": "自制学习示意。田渠与作坊是教学情境，不复原某年某村。青瓷只能支持器物工艺与造型，不能证明田地产量或家家富足。羊形器用途仍有讨论，鸡首壶馆藏品有墓葬背景；插画器形不是对它们的精确复制。水渠维护与农业发展另据历史文献。",
         "audio": {
+          "lead": {
+            "id": "quest-c24f813de86829f8",
+            "text": "泥准备好了，选哪件事能帮它做出形状？"
+          },
           "transition": {
-            "id": "quest-52a1c0aab0497c66",
-            "text": "稻田为什么改变。"
+            "id": "quest-e2493e6cbb210376",
+            "text": "器物也不是自己长出来的。"
           },
           "intro": {
-            "id": "quest-2bf20a033011b24c",
-            "text": "水土提供条件，人们的劳动把条件变成田地里的变化。不同地方进度不一样。"
+            "id": "quest-e672b977269f83cb",
+            "text": "田间的劳动带来粮食，工匠的手艺带来器物。小伙伴想做一件青瓷，泥已经准备好了；要让泥有器物的形状，该请谁接着做？"
           },
           "question": {
-            "id": "quest-c12c18d58080bbc1",
-            "text": "哪两张线索需要放在一起？"
+            "id": "quest-27290f37d16987de",
+            "text": "要做出器物的形状，选哪件事？"
           },
           "image": {
-            "id": "quest-f282941bd638085b",
-            "text": "这是学习示意图：水土，劳动，田地变化。哪两张线索需要放在一起？"
+            "id": "quest-7be23569078dc24e",
+            "text": "这是学习示意图：田间劳动，制瓷手艺。要做出器物的形状，选哪件事？"
           },
           "right": {
-            "id": "quest-fbc37a6803dde70b",
-            "text": "找到了。有自然条件，也要有人耕作、修整和维护。"
+            "id": "quest-1b8cca3fd856d671",
+            "text": "工匠先做出形状，再经过施釉与烧制。"
           },
           "wrong": {
-            "id": "quest-c1566927372c79aa",
-            "text": "再比较一下。有自然条件，也要有人耕作、修整和维护。"
+            "id": "quest-da109a167f716bed",
+            "text": "清渠能帮助种田，器物的形状要靠制瓷手艺。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-05-02-jiangnan-development-takeaway-1",
-            "label": "合适水土＋长期劳动",
+            "label": "请工匠把泥坯成形",
             "correct": true,
-            "objectView": null,
-            "image": "/content/study-scenes/study-82f3b1ab80ebc528.svg",
-            "imageAlt": "水土，劳动",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "jin-jiangnan-fields-kiln-v1",
+              "crop": {
+                "x": 1090,
+                "y": 110,
+                "width": 440,
+                "height": 540,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/jin-jiangnan-fields-kiln-v1.jpg",
+              "imageAlt": "请工匠把泥坯成形"
+            },
+            "image": "/content/study-scenes/study-68e6816765f82994.svg",
+            "imageAlt": "请工匠把泥坯成形",
             "audio": {
-              "id": "quest-2bb929bf6990608d",
-              "text": "合适水土＋长期劳动"
+              "id": "quest-fd2b714fef2ed7af",
+              "text": "请工匠把泥坯成形"
             }
           },
           {
             "id": "cn-ancient-05-02-jiangnan-development-takeaway-2",
-            "label": "只有河流＋等待",
+            "label": "先查看并清理堵处",
             "correct": false,
-            "objectView": null,
-            "image": "/content/study-scenes/study-fb2987d9e8580000.svg",
-            "imageAlt": "只有河流，等待",
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "jin-jiangnan-fields-kiln-v1",
+              "crop": {
+                "x": 580,
+                "y": 120,
+                "width": 420,
+                "height": 530,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/jin-jiangnan-fields-kiln-v1.jpg",
+              "imageAlt": "先查看并清理堵处"
+            },
+            "image": "/content/study-scenes/study-00c05778ba679c22.svg",
+            "imageAlt": "先查看并清理堵处",
             "audio": {
-              "id": "quest-0df4d875de1bfcb7",
-              "text": "只有河流＋等待"
+              "id": "quest-9d4746142beebe8f",
+              "text": "先查看并清理堵处"
             }
           }
         ]
@@ -923,7 +1336,7 @@
     },
     {
       "id": "NMC-CELADON-CRAFT",
-      "title": "三国两晋南北朝青瓷研究资料",
+      "title": "最早的瓷器品牌",
       "institution": "中国国家博物馆",
       "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33107.shtml",
       "type": "museum-research",
@@ -984,197 +1397,119 @@
   ],
   "assets": [
     {
-      "id": "study-c2aa2f1d5444b410",
-      "title": "学习示意：220年、慢慢发展、589年",
-      "localPath": "reference-assets/focused-quests/study-c2aa2f1d5444b410.svg",
+      "id": "study-18f57e985bdcbc66",
+      "title": "学习示意：三国吴制瓷、制瓷手艺",
+      "localPath": "reference-assets/focused-quests/study-18f57e985bdcbc66.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "220年 → 慢慢发展 → 589年",
+      "caption": "三国吴制瓷 → 制瓷手艺",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-01403fe0050a8429",
-      "title": "学习示意：220—589年 持续",
-      "localPath": "reference-assets/focused-quests/study-01403fe0050a8429.svg",
+      "id": "study-291061fae19c3254",
+      "title": "学习示意：三国·吴 3世纪",
+      "localPath": "reference-assets/focused-quests/study-291061fae19c3254.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "220—589年 持续",
+      "caption": "三国·吴 3世纪",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-d7e2cad410ca0fec",
-      "title": "学习示意：589年 某一天",
-      "localPath": "reference-assets/focused-quests/study-d7e2cad410ca0fec.svg",
+      "id": "study-6099c788c832272d",
+      "title": "学习示意：东晋 4—5世纪",
+      "localPath": "reference-assets/focused-quests/study-6099c788c832272d.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "589年 某一天",
+      "caption": "东晋 4—5世纪",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-8681f9f6c10022d5",
-      "title": "学习示意：水面、莲叶",
-      "localPath": "reference-assets/focused-quests/study-8681f9f6c10022d5.svg",
+      "id": "study-229d27422997d3b5",
+      "title": "学习示意：当地条件、共同劳动、逐步发展",
+      "localPath": "reference-assets/focused-quests/study-229d27422997d3b5.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "水面 → 莲叶",
+      "caption": "当地条件 → 共同劳动 → 逐步发展",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-47c809688e8877b9",
-      "title": "学习示意：莲叶和水面",
-      "localPath": "reference-assets/focused-quests/study-47c809688e8877b9.svg",
+      "id": "study-5cfe9e3aa2466e07",
+      "title": "学习示意：维护水渠、制作器物",
+      "localPath": "reference-assets/focused-quests/study-5cfe9e3aa2466e07.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "莲叶和水面",
+      "caption": "维护水渠 → 制作器物",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-77224df7751b7bee",
-      "title": "学习示意：每家粮食数量",
-      "localPath": "reference-assets/focused-quests/study-77224df7751b7bee.svg",
+      "id": "study-8ecb61f5eb099d97",
+      "title": "学习示意：查看堵处、持续维护",
+      "localPath": "reference-assets/focused-quests/study-8ecb61f5eb099d97.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "每家粮食数量",
+      "caption": "查看堵处 → 持续维护",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-b68450e96ea155d2",
-      "title": "学习示意：河流、稻田",
-      "localPath": "reference-assets/focused-quests/study-b68450e96ea155d2.svg",
+      "id": "study-00c05778ba679c22",
+      "title": "学习示意：先查看并清理堵处",
+      "localPath": "reference-assets/focused-quests/study-00c05778ba679c22.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "河流 → 稻田",
+      "caption": "先查看并清理堵处",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-3a526e9ef1669b3b",
-      "title": "学习示意：水路通向田地",
-      "localPath": "reference-assets/focused-quests/study-3a526e9ef1669b3b.svg",
+      "id": "study-68e6816765f82994",
+      "title": "学习示意：请工匠把泥坯成形",
+      "localPath": "reference-assets/focused-quests/study-68e6816765f82994.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "水路通向田地",
+      "caption": "请工匠把泥坯成形",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-3d3d8c4f1c023ca4",
-      "title": "学习示意：水路未接到田地",
-      "localPath": "reference-assets/focused-quests/study-3d3d8c4f1c023ca4.svg",
+      "id": "study-e962daaa795dba8e",
+      "title": "学习示意：田间劳动、制瓷手艺",
+      "localPath": "reference-assets/focused-quests/study-e962daaa795dba8e.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "水路未接到田地",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-97ee3d4984215db7",
-      "title": "学习示意：水渠、堵处、维护",
-      "localPath": "reference-assets/focused-quests/study-97ee3d4984215db7.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "水渠 → 堵处 → 维护",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-7f84de36889f601a",
-      "title": "学习示意：检查疏通",
-      "localPath": "reference-assets/focused-quests/study-7f84de36889f601a.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "检查疏通",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-8388326dce6f8ef2",
-      "title": "学习示意：画丰收图",
-      "localPath": "reference-assets/focused-quests/study-8388326dce6f8ef2.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "画丰收图",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-07e81bed652bf44d",
-      "title": "学习示意：水土、劳动、田地变化",
-      "localPath": "reference-assets/focused-quests/study-07e81bed652bf44d.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "水土 → 劳动 → 田地变化",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-82f3b1ab80ebc528",
-      "title": "学习示意：水土、劳动",
-      "localPath": "reference-assets/focused-quests/study-82f3b1ab80ebc528.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "水土 → 劳动",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-fb2987d9e8580000",
-      "title": "学习示意：只有河流、等待",
-      "localPath": "reference-assets/focused-quests/study-fb2987d9e8580000.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "只有河流 → 等待",
+      "caption": "田间劳动 → 制瓷手艺",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1188,8 +1523,8 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "自制儿童示意图：稻作、河网、水利和不同居民的长期劳动共同改变江南。",
-      "boundary": "2026-08-09为低龄玩法自制。它不是魏晋南北朝某年某地的照片或精确农具、服饰复原，也不证明所有江南地区采用同样耕作方式。",
-      "childVisibility": "child-ok"
+      "boundary": "2026-08-09为低龄玩法自制。它不是魏晋南北朝某年某地的照片或精确农具、服饰复原，也不证明所有江南地区采用同样耕作方式。 2026-09-19由新故事图与精确学习图替换；旧图保留供编辑参考。",
+      "childVisibility": "editor-only"
     },
     {
       "id": "wu-celadon-sheep-vessel",
@@ -1215,6 +1550,32 @@
       "clearance": "cleared-open-license",
       "caption": "大都会艺术博物馆藏东晋4—5世纪越窑青瓷鸡首壶。",
       "boundary": "大都会艺术博物馆记录其为青瓷釉炻器和墓葬用器，鸡首造型的含义仍不明确。图片为馆方开放获取图像，下载为1920像素等比例缩略图，未作其他修改。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "jin-jiangnan-fields-kiln-v1",
+      "title": "江南田渠与青瓷作坊故事插画",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-jiangnan-fields-kiln-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "江南田渠与青瓷作坊故事插画；非历史现场复原。",
+      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-jiangnan-fields-kiln-v1-prompt.txt。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "jin-travel-journal-reunion-v1",
+      "title": "三位小伙伴回看本段历史的聚会插画",
+      "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-travel-journal-reunion-v1.png",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
+      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
       "childVisibility": "child-ok"
     }
   ],

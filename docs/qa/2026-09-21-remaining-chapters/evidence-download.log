@@ -1,0 +1,10 @@
+curl: (35) Recv failure: Connection reset by peer
+song-quanzhou-ship https://upload.wikimedia.org/wikipedia/commons/8/89/Song_Dynasty_Ancient_Ship_of_Quanzhou_Bay_20061229.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
+Traceback (most recent call last):
+  File "/Users/chiang/Documents/Projects/history/docs/qa/2026-09-21-remaining-chapters/fetch_song_evidence.py", line 10, in <module>
+    subprocess.run(['/usr/bin/curl','--fail','--silent','--show-error','--location','--proxy','http://127.0.0.1:7890','--max-time','90',media,'-o',str(root/(key+ext))],check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/usr/bin/curl', '--fail', '--silent', '--show-error', '--location', '--proxy', 'http://127.0.0.1:7890', '--max-time', '90', 'https://upload.wikimedia.org/wikipedia/commons/3/31/NLC892-411999028209-148443_%E6%AD%A6%E7%B6%93%E7%B8%BD%E8%A6%81%E5%89%8D%E9%9B%86_%E7%AC%AC1%E5%86%8A.pdf?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original', '-o', 'reference-assets/liao-song-xia-jin-yuan/wujing-ming-volume1.pdf']' returned non-zero exit status 35.
