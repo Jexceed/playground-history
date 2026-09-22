@@ -7,7 +7,24 @@
   "period": {
     "id": "tang",
     "label": "唐朝",
-    "years": "618—907年"
+    "years": "618—907年",
+    "learningContext": {
+      "childIntro": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
+      "chronology": "618—907年为唐朝范围；本组故事分属不同时期，贞观、开元通宝始铸、开元年号不可混为一个节点。",
+      "covered": "治理恢复、钱名与年号、城市乐舞、译经、书法与诗。",
+      "scopeBoundary": "科举、唐前后期变化等在背景稿中；李白诗作和颜真卿文稿不能被拼成唐朝始终繁盛的单一画面。",
+      "sourceIds": [
+        "NMC-SUI-TANG-FIVE-DYNASTIES"
+      ],
+      "sources": [
+        {
+          "id": "NMC-SUI-TANG-FIVE-DYNASTIES",
+          "title": "“古代中国”基本陈列：隋唐五代时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html"
+        }
+      ]
+    }
   },
   "order": 20,
   "title": "一枚开元通宝的一天",
@@ -18,16 +35,45 @@
     "childTitle": "开元通宝，名字里的小谜",
     "prompt": "钱叫“开元通宝”，后来又有“开元年间”。哪个先出现？一起看真钱、听记录。",
     "takeaway": "唐朝初年已经开始铸开元通宝，后来才有唐玄宗的开元年间。钱的名字不是这枚钱的生日，年代还要结合历史记录。",
-    "object": "开元通宝、铸钱与市场记录",
+    "object": "开元通宝 · 同一枚钱的两面",
     "people": [
       "唐初的开元通宝",
       "后来的开元年间"
     ],
-    "place": "长安与洛阳",
-    "culture": "唐代市场生活与相关诗句",
+    "place": "唐代中国；博物馆钱币观察",
+    "culture": "钱名与年号的不同时间",
     "care": "621年是开元通宝开始铸行的年份，不是照片中每枚钱的铸造年份。私人收藏照片与馆藏摄影分开说明；钱文和正反面只是观察线索，不能凭锈色断代、鉴真或证明所有唐人富裕。博物馆插画中的无字圆片和日历画为现代学具。",
     "preferredAssetId": "tang-kaiyuan-gary-todd-cc0",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-06-02-tang-governance",
+    "theme": "材料与时间",
+    "learningGoal": "钱名与年号不是一回事，要结合记录辨认年代。",
+    "parentQuestion": "开元通宝和开元年间，名字像，为什么不能当同一天开始？",
+    "observe": "家长报出两个年份后，借钱币和日历符号指出钱先出现、年号在后，不要求记住数字或计算年份差。",
+    "misconception": "某类钱的始铸年份不等于手里每枚钱的铸造日期。",
+    "evidenceStepIds": [
+      "time",
+      "journey"
+    ],
+    "sourceIds": [
+      "NMC-KAIYUAN-TONGBAO",
+      "NMC-SUI-TANG-FIVE-DYNASTIES",
+      "DPM-KAIYUAN-ERA"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-07-08-song-gunpowder-records",
+        "relation": "和古书成书、后世刊印对照：同名材料也可能有不同时间层。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "年号",
+      "货币",
+      "证据"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-06-02-tang-governance",
@@ -96,115 +142,28 @@
   ],
   "glossary": [
     {
-      "term": "市场",
-      "icon": "🧺",
-      "plain": "人们交换商品和服务的地方或关系。",
-      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
-      "priority": 2
-    },
-    {
-      "term": "经济",
-      "icon": "🧺",
-      "plain": "人们怎样生产、交换、分配和使用东西。",
-      "example": "经济变化最后会落到工作、食物、住房等生活里。",
+      "term": "年号",
+      "icon": "🗓️",
+      "plain": "古代皇帝给一段在位年份取的名称。",
+      "example": "开元通宝的钱名与后来开元年间的年号，不是同一个时间。",
       "priority": 1
     },
     {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "term": "货币",
+      "icon": "🪙",
+      "plain": "大家用来交换和计算价值的共同工具。",
+      "example": "贝壳、铜钱、纸币形状不同，都要看当时怎样使用。",
+      "priority": 2
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
       "priority": 1
-    },
-    {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
-      "priority": 1
-    },
-    {
-      "term": "手工业",
-      "icon": "🧵",
-      "plain": "主要靠手和工具制作器物的生产活动。",
-      "example": "陶器、织物和青铜器都需要材料、技术与分工。",
-      "priority": 2
-    },
-    {
-      "term": "工业",
-      "icon": "🏭",
-      "plain": "用机器、工厂和分工大规模生产东西。",
-      "example": "工业发展也要看劳动、安全、资源和环境。",
-      "priority": 2
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "农业",
-      "icon": "🌾",
-      "plain": "种植作物、饲养动物来获得食物和原料。",
-      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
-      "priority": 2
-    },
-    {
-      "term": "社会",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "许多人一起生活、分工并形成关系的整体。",
-      "example": "社会变化要看不同人受到的影响。",
-      "priority": 2
-    },
-    {
-      "term": "文化",
-      "icon": "🎨",
-      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
-      "example": "文化会交流变化，不能排成谁高谁低。",
-      "priority": 2
-    },
-    {
-      "term": "发展",
-      "icon": "🌱",
-      "plain": "事物经过一段时间出现增长或变化。",
-      "example": "发展不只看速度和数量，也要看人的生活与环境。",
-      "priority": 3
-    },
-    {
-      "term": "皇帝",
-      "icon": "👑",
-      "plain": "古代君主国家最高统治者的一种称号。",
-      "example": "皇帝会作决定，也依靠官员、军队、工匠和百姓。",
-      "priority": 3
-    },
-    {
-      "term": "生产",
-      "icon": "🛠️",
-      "plain": "把材料和劳动变成食物、工具或其他产品。",
-      "example": "生产离不开人、工具、材料和组织。",
-      "priority": 3
-    },
-    {
-      "term": "治理",
-      "icon": "🧭",
-      "plain": "一起安排公共事情、解决共同问题。",
-      "example": "修路、管水、定规则和听取意见都可能属于治理。",
-      "priority": 3
     }
   ],
   "pronunciations": [
-    {
-      "text": "唐太宗",
-      "reading": "Táng Tàizōng",
-      "kind": "person",
-      "chapterIds": [
-        "cn-ancient-06-02-tang-governance",
-        "cn-ancient-06-08-zhenguan-governance"
-      ],
-      "note": "“太宗”是庙号。"
-    },
     {
       "text": "唐玄宗",
       "reading": "Táng Xuánzōng",
@@ -215,29 +174,6 @@
       "note": "“玄”读xuán。"
     },
     {
-      "text": "武则天",
-      "reading": "Wǔ Zétiān",
-      "kind": "person",
-      "chapterIds": [
-        "cn-ancient-06-02-tang-governance"
-      ],
-      "note": "“则”读zé。"
-    },
-    {
-      "text": "长安",
-      "reading": "Cháng’ān",
-      "kind": "place",
-      "chapterIds": [
-        "cn-ancient-04-02-han-governance",
-        "cn-ancient-04-03-silk-road",
-        "cn-ancient-06-02-tang-governance",
-        "cn-ancient-06-03-tang-changan",
-        "cn-ancient-06-04-tang-cultural-exchange",
-        "cross-03-cultural-exchange"
-      ],
-      "note": "“长”在地名中读cháng。"
-    },
-    {
       "text": "开元通宝",
       "reading": "Kāiyuán tōngbǎo",
       "kind": "term",
@@ -245,6 +181,15 @@
         "cn-ancient-06-02-tang-governance"
       ],
       "note": "本轮编辑校听项目；保持原词，不作单字全局替换。人工试听待进行。"
+    },
+    {
+      "text": "年号",
+      "reading": "niánhào",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-06-02-tang-governance"
+      ],
+      "note": "“号”读hào，区别钱名和纪年名称。 本轮仅补校听项，仍需人耳确认。"
     }
   ],
   "gameplay": {
@@ -271,7 +216,7 @@
         "license": "CC0 1.0",
         "clearance": "cleared-open-license",
         "caption": "文件页标作唐高祖时期、直径25毫米的开元通宝正反面。",
-        "boundary": "本地JPEG为4069×2153像素，属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
+        "boundary": "属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/tang-kaiyuan-gary-todd-cc0.jpg"
       },
@@ -285,7 +230,7 @@
         "license": "CC0 1.0",
         "clearance": "cleared-open-license",
         "caption": "洛阳博物馆展出的唐代开元通宝照片。",
-        "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。下载为1920像素等比例图，未作其他修改。",
+        "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/tang-kaiyuan-tongbao-museum-photo.jpg"
       }
@@ -303,7 +248,7 @@
           "observation": "找找四个字围着方孔的那一面。",
           "narration": "这是同一枚开元通宝的正面和背面。正面方孔周围有四个字：开，元，通，宝。它不是两枚不同的钱，也不能只看照片就知道是哪一年铸的。",
           "caption": "实物正反面照片 · Gary Todd收藏",
-          "boundary": "本地JPEG为4069×2153像素，属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
+          "boundary": "属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
           "sourceIds": [
             "COMMONS-TANG-KAIYUAN-GARY-TODD",
             "NMC-KAIYUAN-TONGBAO"
@@ -333,7 +278,7 @@
           "observation": "仍然能看到圆外缘与方孔。",
           "narration": "这是博物馆展出的开元通宝。留意圆形外缘和中间的方孔。一类钱可能流通很久，不能说每一枚都在同一年做成。",
           "caption": "洛阳博物馆展出的唐代开元通宝照片。 · 原图局部",
-          "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。下载为1920像素等比例图，未作其他修改。 本页用原图局部显示钱币和展架，未修改原始图像。 开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。下载为1920像素等比例图，未作其他修改。",
+          "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。",
           "sourceIds": [
             "NMC-KAIYUAN-TONGBAO"
           ],
@@ -374,7 +319,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "文件页标作唐高祖时期、直径25毫米的开元通宝正反面。",
-      "boundary": "本地JPEG为4069×2153像素，属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
+      "boundary": "属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/tang-kaiyuan-gary-todd-cc0.jpg"
     },
@@ -402,16 +347,15 @@
         "reunionAlt": "三位小伙伴向向导分享钱名与年号发现的现代故事插画",
         "coverCaption": "开元通宝，名字里的小谜",
         "coverNarration": "小小旅行团来到唐朝！钱叫开元通宝，后来又有开元年间。名字相像，时间一样吗？一起来找线索。",
-        "stationLine": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。",
-        "stationNarration": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。",
         "closingCaption": "钱名是线索，年代要核对",
         "closingNarration": "唐朝初年已经开始铸开元通宝，后来才有唐玄宗的开元年间。钱的名字不是这枚钱的生日，年代还要结合历史记录。",
         "closingLine": "钱名先出现，年号在后来。",
         "fictionNote": "621年是开元通宝开始铸行的年份，不是照片中每枚钱的铸造年份。私人收藏照片与馆藏摄影分开说明；钱文和正反面只是观察线索，不能凭锈色断代、鉴真或证明所有唐人富裕。博物馆插画中的无字圆片和日历画为现代学具。",
         "reunionImage": "/content/step-images/tang-kaiyuan-reunion-v2.jpg",
+        "stationLine": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
         "stationAudio": {
-          "id": "quest-28429f02d81f52a4",
-          "text": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。"
+          "id": "quest-02a554bf66a28d47",
+          "text": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。"
         },
         "closingAudio": {
           "id": "quest-3d0b94143fc05538",
@@ -438,7 +382,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "今天的博物馆学习故事 · 不是唐代现场",
-      "boundary": "人物是现代小伙伴与向导，桌上无字圆片、日历画与手册都是现代学具，不是文物。真实钱文看独立实物照片；没有以生成文字冒充开元通宝钱文。实际提示词：docs/qa/2026-09-19-sui-qing/tang-kaiyuan-museum-v1-prompt.txt。",
+      "boundary": "现代博物馆学习情境，钱币与日历符号帮助区分钱名、始铸与年号。它们是教学道具，不是唐代原日历或钱币铭文的精确复原。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/tang-kaiyuan-museum-v1.jpg"
     },
@@ -453,7 +397,7 @@
         "license": "项目自制；按OpenAI使用条款持有输出使用权",
         "clearance": "cleared-project-created",
         "caption": "今天的博物馆学习故事 · 不是唐代现场",
-        "boundary": "人物是现代小伙伴与向导，桌上无字圆片、日历画与手册都是现代学具，不是文物。真实钱文看独立实物照片；没有以生成文字冒充开元通宝钱文。实际提示词：docs/qa/2026-09-19-sui-qing/tang-kaiyuan-reunion-v2-prompt.txt。 v2只改书页符号：右页改为无字日历，左页去掉伪钱文。",
+        "boundary": "现代手册用钱币与日历符号回顾两个时间。册页不是唐代文物，具体钱文与年代仍须回到实物照片和文献核对。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/tang-kaiyuan-reunion-v2.jpg"
       }
@@ -541,7 +485,7 @@
           "license": "CC0 1.0",
           "clearance": "cleared-open-license",
           "caption": "实物正反面照片 · Gary Todd收藏",
-          "boundary": "本地JPEG为4069×2153像素，属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。 文件页标作唐高祖时期、直径25毫米的开元通宝正反面。",
+          "boundary": "属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。 文件页标作唐高祖时期、直径25毫米的开元通宝正反面。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/tang-kaiyuan-gary-todd-cc0.jpg",
           "label": "点开真钱，听听两面的说明",
@@ -576,7 +520,7 @@
         "studyImageAlt": "唐初开始铸钱，唐朝621年",
         "imageAlt": "标作唐高祖时期的开元通宝正反面",
         "imageCaption": "标作唐高祖时期的开元通宝正反面",
-        "imageBoundary": "本地JPEG为4069×2153像素，属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
+        "imageBoundary": "属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
         "audio": {
           "lead": {
             "id": "quest-cd42003a61410b07",
@@ -688,7 +632,7 @@
         "studyImageAlt": "钱名在前，年号在后",
         "imageAlt": "小伙伴观察钱与年代记录的故事插画",
         "imageCaption": "小伙伴观察钱与年代记录的故事插画",
-        "imageBoundary": "人物是现代小伙伴与向导，桌上无字圆片、日历画与手册都是现代学具，不是文物。真实钱文看独立实物照片；没有以生成文字冒充开元通宝钱文。实际提示词：docs/qa/2026-09-19-sui-qing/tang-kaiyuan-museum-v1-prompt.txt。",
+        "imageBoundary": "现代博物馆学习情境，钱币与日历符号帮助区分钱名、始铸与年号。它们是教学道具，不是唐代原日历或钱币铭文的精确复原。",
         "audio": {
           "lead": {
             "id": "quest-4d3abfb445cb0ff0",
@@ -803,7 +747,7 @@
           "license": "CC0 1.0",
           "clearance": "cleared-open-license",
           "caption": "实物正反面照片 · Gary Todd收藏",
-          "boundary": "本地JPEG为4069×2153像素，属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。 文件页标作唐高祖时期、直径25毫米的开元通宝正反面。",
+          "boundary": "属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。 文件页标作唐高祖时期、直径25毫米的开元通宝正反面。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/tang-kaiyuan-gary-todd-cc0.jpg",
           "label": "放大看真钱与出处",
@@ -837,7 +781,7 @@
         "studyImageAlt": "正面有钱文，背面没有这四字",
         "imageAlt": "标作唐高祖时期的开元通宝正反面",
         "imageCaption": "标作唐高祖时期的开元通宝正反面",
-        "imageBoundary": "本地JPEG为4069×2153像素，属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
+        "imageBoundary": "属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
         "audio": {
           "lead": {
             "id": "quest-42d601b5ed120c24",
@@ -913,11 +857,11 @@
         "studyImageAlt": "621年始铸，713年改元",
         "imageAlt": "小伙伴观察钱与年代记录的故事插画",
         "imageCaption": "小伙伴观察钱与年代记录的故事插画",
-        "imageBoundary": "人物是现代小伙伴与向导，桌上无字圆片、日历画与手册都是现代学具，不是文物。真实钱文看独立实物照片；没有以生成文字冒充开元通宝钱文。实际提示词：docs/qa/2026-09-19-sui-qing/tang-kaiyuan-museum-v1-prompt.txt。",
+        "imageBoundary": "现代博物馆学习情境，钱币与日历符号帮助区分钱名、始铸与年号。它们是教学道具，不是唐代原日历或钱币铭文的精确复原。",
         "audio": {
           "lead": {
-            "id": "quest-cb2717fb865ea52c",
-            "text": "钱先出现，年号在后来。先听两个时间，再找开始铸钱的一站。"
+            "id": "quest-b9c1e96c46db6b07",
+            "text": "621年先开始铸开元通宝，713年才开始开元年间。要找开始铸钱的时间，指哪一站？"
           },
           "transition": {
             "id": "quest-6668be54860e67cb",
@@ -1027,7 +971,7 @@
         "studyImageAlt": "名字是线索，核对记录",
         "imageAlt": "小伙伴分享钱名与年号发现的故事插画",
         "imageCaption": "小伙伴分享钱名与年号发现的故事插画",
-        "imageBoundary": "人物是现代小伙伴与向导，桌上无字圆片、日历画与手册都是现代学具，不是文物。真实钱文看独立实物照片；没有以生成文字冒充开元通宝钱文。实际提示词：docs/qa/2026-09-19-sui-qing/tang-kaiyuan-reunion-v2-prompt.txt。 v2只改书页符号：右页改为无字日历，左页去掉伪钱文。",
+        "imageBoundary": "现代手册用钱币与日历符号回顾两个时间。册页不是唐代文物，具体钱文与年代仍须回到实物照片和文献核对。",
         "audio": {
           "lead": {
             "id": "quest-16ac5f2f21df7f33",
@@ -1158,6 +1102,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1412,7 +1357,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "文件页标作唐高祖时期、直径25毫米的开元通宝正反面。",
-      "boundary": "本地JPEG为4069×2153像素，属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
+      "boundary": "属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
       "childVisibility": "child-ok"
     },
     {
@@ -1555,7 +1500,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "洛阳博物馆展出的唐代开元通宝照片。",
-      "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。下载为1920像素等比例图，未作其他修改。",
+      "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。",
       "childVisibility": "child-ok"
     },
     {
@@ -1581,7 +1526,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "今天的博物馆学习故事 · 不是唐代现场",
-      "boundary": "人物是现代小伙伴与向导，桌上无字圆片、日历画与手册都是现代学具，不是文物。真实钱文看独立实物照片；没有以生成文字冒充开元通宝钱文。实际提示词：docs/qa/2026-09-19-sui-qing/tang-kaiyuan-museum-v1-prompt.txt。",
+      "boundary": "现代博物馆学习情境，钱币与日历符号帮助区分钱名、始铸与年号。它们是教学道具，不是唐代原日历或钱币铭文的精确复原。",
       "childVisibility": "child-ok"
     },
     {
@@ -1607,7 +1552,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "今天的博物馆学习故事 · 不是唐代现场",
-      "boundary": "人物是现代小伙伴与向导，桌上无字圆片、日历画与手册都是现代学具，不是文物。真实钱文看独立实物照片；没有以生成文字冒充开元通宝钱文。实际提示词：docs/qa/2026-09-19-sui-qing/tang-kaiyuan-reunion-v2-prompt.txt。 v2只改书页符号：右页改为无字日历，左页去掉伪钱文。",
+      "boundary": "现代手册用钱币与日历符号回顾两个时间。册页不是唐代文物，具体钱文与年代仍须回到实物照片和文献核对。",
       "childVisibility": "child-ok"
     }
   ],
@@ -1619,5 +1564,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

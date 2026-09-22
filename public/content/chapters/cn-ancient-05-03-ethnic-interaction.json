@@ -7,7 +7,24 @@
   "period": {
     "id": "three-kingdoms-jin-northern-southern",
     "label": "三国两晋南北朝",
-    "years": "220—589年"
+    "years": "220—589年",
+    "learningContext": {
+      "childIntro": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。",
+      "chronology": "220—589年为这组故事的时代范围，不是一个朝代名；曹魏、蜀汉、孙吴成立年份不同，西晋统一后又出现南北分立。",
+      "covered": "迁徙互助、江南生产、北魏改革、数学继承、壁画叙事。",
+      "scopeBoundary": "具体政权更替及战争过程保留在背景稿；不让儿童背所有政权名称，也不把整个时期说成只有战乱。",
+      "sourceIds": [
+        "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+      ],
+      "sources": [
+        {
+          "id": "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+          "title": "“古代中国”基本陈列：三国两晋南北朝时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail5.html"
+        }
+      ]
+    }
   },
   "order": 17,
   "title": "交往交流怎样改变不同族群",
@@ -18,16 +35,46 @@
     "childTitle": "孝文帝迁都后，改变了什么？",
     "prompt": "都城从平城迁到洛阳，孝文帝还改变了朝廷的语言、衣冠和制度。小伙伴去看看这些改变。",
     "takeaway": "北魏孝文帝迁都洛阳，并改革朝廷的语言、衣冠等制度。人们在长期来往中互相影响，不是所有人一天变得一样。",
-    "object": "服饰俑、墓志和城市遗址",
+    "object": "云冈石窟 · 北魏遗存",
     "people": [
       "孝文帝",
       "迁都后的北魏社会"
     ],
-    "place": "山西平城与河南洛阳",
-    "culture": "云冈与龙门石窟艺术",
+    "place": "北魏平城与迁都后的洛阳",
+    "culture": "北魏迁都与制度改革",
     "care": "人物为教学角色，不是孝文帝或具体官员肖像。云冈为平城附近北魏遗存，今日照片不能当作当年新建状态；北朝陶俑用于观察服饰，不把它当改革前后成套对照，更不能从服装判断民族。改革规定与生活变化有对象和过程，不将任何人群评为先进或落后。",
     "playableSource": "content/focused-quests.json",
     "preferredAssetId": "yungang-cave-20-current-view"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-05-03-ethnic-interaction",
+    "theme": "治理和规则",
+    "learningGoal": "北魏迁都与改革改变朝廷制度，生活变化需要时间。",
+    "parentQuestion": "衣服换好了，文书还没听懂，改变完成了吗？",
+    "observe": "指出仍需学习语言和沟通；能记住北魏孝文帝与迁都洛阳。",
+    "misconception": "不把朝廷要求推广成所有人一天改变，更不用衣貌给族群分高低。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+      "NEAC-XIAOWEN-MUTUAL-INFLUENCE",
+      "NMC-YUANYU-EPITAPH",
+      "UNESCO-YUNGANG",
+      "LUOYANG-CHRONICLE-XIAOWEN"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-08-03-frontiers-unity",
+        "relation": "比较北魏改革与清代会见的沟通需要，两个制度背景不同。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "改革",
+      "制度",
+      "交流"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-05-03-ethnic-interaction",
@@ -101,13 +148,6 @@
       "priority": 1
     },
     {
-      "term": "遗址",
-      "icon": "🏚️",
-      "plain": "过去的人生活或活动后留下的地方。",
-      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
-      "priority": 1
-    },
-    {
       "term": "制度",
       "icon": "📋",
       "plain": "大家长期照着运行的一整套规则和办法。",
@@ -115,81 +155,11 @@
       "priority": 1
     },
     {
-      "term": "民族",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
-      "example": "民族不是按外貌排高低，也不会永远固定不变。",
-      "priority": 2
-    },
-    {
-      "term": "社会",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "许多人一起生活、分工并形成关系的整体。",
-      "example": "社会变化要看不同人受到的影响。",
-      "priority": 2
-    },
-    {
       "term": "交流",
       "icon": "↔️",
       "plain": "不同的人把物品、知识或做法带给彼此。",
       "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
       "priority": 1
-    },
-    {
-      "term": "贸易",
-      "icon": "🚚",
-      "plain": "不同人或地方交换、买卖物品和服务。",
-      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
-      "priority": 1
-    },
-    {
-      "term": "迁徙",
-      "icon": "👣",
-      "plain": "人们离开原住地，搬到别的地方生活。",
-      "example": "迁徙可能因为气候、生计、战争或主动选择。",
-      "priority": 1
-    },
-    {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
-      "priority": 1
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "市场",
-      "icon": "🧺",
-      "plain": "人们交换商品和服务的地方或关系。",
-      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
-      "priority": 2
-    },
-    {
-      "term": "文化",
-      "icon": "🎨",
-      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
-      "example": "文化会交流变化，不能排成谁高谁低。",
-      "priority": 2
-    },
-    {
-      "term": "政权",
-      "icon": "🏛️",
-      "plain": "谁在用什么机构和规则管理一个地方。",
-      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
-      "priority": 2
-    },
-    {
-      "term": "军队",
-      "icon": "🛡️",
-      "plain": "由国家或政治力量组织的武装人员。",
-      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
-      "priority": 3
     }
   ],
   "pronunciations": [
@@ -237,7 +207,7 @@
         "license": "CC0 1.0",
         "clearance": "cleared-open-license",
         "caption": "今天的云冈石窟第20窟及其露天造像。",
-        "boundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+        "boundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/yungang-cave-20-current-view.jpg"
       },
@@ -251,7 +221,7 @@
         "license": "CC BY-SA 2.5",
         "clearance": "cleared-open-license",
         "caption": "1948年河北景县封氏墓群出土的北朝鲜卑服陶武士俑。",
-        "boundary": "器物信息与国家博物馆同一器物记录交叉核验。陶俑表现帽、裤、短衣和披风等服装形象；墓俑不是武士肖像，不能凭外貌或服装单独判定某个真实人物的族群身份。下载为1920像素等比例缩略图，未作其他修改。",
+        "boundary": "器物信息与国家博物馆同一器物记录交叉核验。陶俑表现帽、裤、短衣和披风等服装形象；墓俑不是武士肖像，不能凭外貌或服装单独判定某个真实人物的族群身份。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/northern-dynasties-xianbei-warrior.jpg"
       }
@@ -267,7 +237,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "今天的云冈石窟第20窟及其露天造像。",
-      "boundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/yungang-cave-20-current-view.jpg"
     },
@@ -294,16 +264,15 @@
         "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
         "coverCaption": "孝文帝迁都后，改变了什么？",
         "coverNarration": "孝文帝迁都后，改变了什么？小小旅行团出发！都城从平城迁到洛阳，孝文帝还改变了朝廷的语言、衣冠和制度。小伙伴去看看这些改变。",
-        "stationLine": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
-        "stationNarration": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
         "closingCaption": "回看刚刚读懂的历史",
         "closingNarration": "北魏孝文帝迁都洛阳，并改革朝廷的语言、衣冠等制度。人们在长期来往中互相影响，不是所有人一天变得一样。",
         "closingLine": "迁都、改革与长期来往，让生活发生变化。",
         "fictionNote": "人物为教学角色，不是孝文帝或具体官员肖像。云冈为平城附近北魏遗存，今日照片不能当作当年新建状态；北朝陶俑用于观察服饰，不把它当改革前后成套对照，更不能从服装判断民族。改革规定与生活变化有对象和过程，不将任何人群评为先进或落后。",
         "reunionImage": "/content/step-images/jin-travel-journal-reunion-v1.jpg",
+        "stationLine": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。",
         "stationAudio": {
-          "id": "quest-07878431a28f0aec",
-          "text": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。"
+          "id": "quest-3b178ba3d4febef9",
+          "text": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。"
         },
         "closingAudio": {
           "id": "quest-1489e7f76893926d",
@@ -330,7 +299,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "洛阳文书讲解与制衣故事插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/wei-luoyang-reform-v1-prompt.txt。",
+      "boundary": "教学情境中的讲解文书与制衣工作，帮助理解语言与衣冠解决不同问题。没有复原孝文帝某次会议，也不能根据服饰判断人的族群或改革已全部完成。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/wei-luoyang-reform-v1.jpg"
     },
@@ -345,7 +314,7 @@
         "license": "项目自制，供本项目使用",
         "clearance": "cleared-project-created",
         "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
-        "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
+        "boundary": "三位现代小伙伴回看旅行手册的教学插画。册页中的器物、圆形与鹿故事是回顾线索，不是原始文物、数学原稿或北魏壁画本体。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/jin-travel-journal-reunion-v1.jpg"
       },
@@ -359,7 +328,7 @@
         "license": "项目自制，供本项目使用",
         "clearance": "cleared-project-created",
         "caption": "洛阳文书讲解与制衣故事插画；非历史现场复原。",
-        "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/wei-luoyang-reform-v1-prompt.txt。",
+        "boundary": "教学情境中的讲解文书与制衣工作，帮助理解语言与衣冠解决不同问题。没有复原孝文帝某次会议，也不能根据服饰判断人的族群或改革已全部完成。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/wei-luoyang-reform-v1.jpg"
       }
@@ -449,7 +418,7 @@
           "license": "CC0 1.0",
           "clearance": "cleared-open-license",
           "caption": "今天的照片 · 平城附近",
-          "boundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。下载为1920像素等比例缩略图，未作其他修改。 今天的云冈石窟第20窟及其露天造像。",
+          "boundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。 今天的云冈石窟第20窟及其露天造像。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/yungang-cave-20-current-view.jpg",
           "label": "点开真材料，听听说明",
@@ -492,7 +461,7 @@
         "studyImageAlt": "平城与洛阳，北魏改革",
         "imageAlt": "云冈石窟第20窟现状照片",
         "imageCaption": "云冈石窟第20窟现状照片",
-        "imageBoundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+        "imageBoundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。",
         "audio": {
           "lead": {
             "id": "quest-c25b67f8bcc56086",
@@ -742,7 +711,7 @@
         "studyImageAlt": "讲清文书，准备衣服",
         "imageAlt": "洛阳文书讲解与制衣故事插画",
         "imageCaption": "洛阳文书讲解与制衣故事插画",
-        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/wei-luoyang-reform-v1-prompt.txt。",
+        "imageBoundary": "教学情境中的讲解文书与制衣工作，帮助理解语言与衣冠解决不同问题。没有复原孝文帝某次会议，也不能根据服饰判断人的族群或改革已全部完成。",
         "audio": {
           "lead": {
             "id": "quest-126dae23e4f207dc",
@@ -818,7 +787,7 @@
         "studyImageAlt": "学习表达，商量事情",
         "imageAlt": "洛阳文书讲解与制衣故事插画",
         "imageCaption": "洛阳文书讲解与制衣故事插画",
-        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/wei-luoyang-reform-v1-prompt.txt。",
+        "imageBoundary": "教学情境中的讲解文书与制衣工作，帮助理解语言与衣冠解决不同问题。没有复原孝文帝某次会议，也不能根据服饰判断人的族群或改革已全部完成。",
         "audio": {
           "lead": {
             "id": "quest-7498013d2db81601",
@@ -1072,6 +1041,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1453,7 +1423,7 @@
       "license": "CC BY-SA 2.5",
       "clearance": "cleared-open-license",
       "caption": "1948年河北景县封氏墓群出土的北朝鲜卑服陶武士俑。",
-      "boundary": "器物信息与国家博物馆同一器物记录交叉核验。陶俑表现帽、裤、短衣和披风等服装形象；墓俑不是武士肖像，不能凭外貌或服装单独判定某个真实人物的族群身份。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "器物信息与国家博物馆同一器物记录交叉核验。陶俑表现帽、裤、短衣和披风等服装形象；墓俑不是武士肖像，不能凭外貌或服装单独判定某个真实人物的族群身份。",
       "childVisibility": "child-ok"
     },
     {
@@ -1466,7 +1436,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "今天的云冈石窟第20窟及其露天造像。",
-      "boundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。",
       "childVisibility": "child-ok"
     },
     {
@@ -1479,7 +1449,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "洛阳文书讲解与制衣故事插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/wei-luoyang-reform-v1-prompt.txt。",
+      "boundary": "教学情境中的讲解文书与制衣工作，帮助理解语言与衣冠解决不同问题。没有复原孝文帝某次会议，也不能根据服饰判断人的族群或改革已全部完成。",
       "childVisibility": "child-ok"
     },
     {
@@ -1492,7 +1462,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
+      "boundary": "三位现代小伙伴回看旅行手册的教学插画。册页中的器物、圆形与鹿故事是回顾线索，不是原始文物、数学原稿或北魏壁画本体。",
       "childVisibility": "child-ok"
     }
   ],
@@ -1504,5 +1474,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

@@ -7,7 +7,8 @@
   "period": {
     "id": "ancient-civilizations",
     "label": "古代文明",
-    "years": "早期人类—约5世纪"
+    "years": "早期人类—约5世纪",
+    "learningContext": null
   },
   "order": 5,
   "title": "罗马怎样从城市变成大帝国",
@@ -26,6 +27,7 @@
     "culture": "拉丁铭文与城市建筑",
     "care": "不把扩张做成征服积分；传说建城、共和国制度和帝国变化分开。"
   },
+  "learningGuide": null,
   "textbookConnection": null,
   "childStory": [
     {
@@ -142,6 +144,13 @@
       "icon": "🏚️",
       "plain": "过去的人生活或活动后留下的地方。",
       "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
+    },
+    {
+      "term": "驿站",
+      "icon": "🐎",
+      "plain": "古代按规定接待使者、传递公文并准备交通补给的站点。",
+      "example": "官驿有使用规矩，不能把它当人人可以随便取马的旅馆。",
       "priority": 1
     },
     {
@@ -827,6 +836,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1260,5 +1270,6 @@
     "assets": "cleared",
     "audio": "script-ready",
     "review": "pending"
-  }
+  },
+  "contentReadiness": "legacy-draft-not-in-preview"
 }

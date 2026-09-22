@@ -7,7 +7,24 @@
   "period": {
     "id": "song",
     "label": "宋朝（与辽·西夏·金并立）",
-    "years": "916—1279年（宋960年起）"
+    "years": "916—1279年（宋960年起）",
+    "learningContext": {
+      "childIntro": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+      "chronology": "916是辽相关起点，宋从960年开始；北宋与南宋分期，辽与金先后更替、西夏存在其间。窗口范围不等于宋始于916年。",
+      "covered": "同年并立、城市劳动、活字、指南针、火药文献与宋词。",
+      "scopeBoundary": "经济重心南移、海外贸易及政权关系在背景稿中；三项技术不能代表宋代生活全部。",
+      "sourceIds": [
+        "NMC-LIAO-SONG-XIA-JIN-YUAN"
+      ],
+      "sources": [
+        {
+          "id": "NMC-LIAO-SONG-XIA-JIN-YUAN",
+          "title": "“古代中国”基本陈列：辽宋夏金元时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+        }
+      ]
+    }
   },
   "order": 29,
   "title": "火药知识怎样被安全记进书里",
@@ -18,16 +35,44 @@
     "childTitle": "古书怎样留下火药的历史？",
     "prompt": "火药经过长期探索，宋代已经用到军事。一本古书把知识记下来，后人又怎样把它传到今天？",
     "takeaway": "火药知识经过长期探索，北宋1044年编成的《武经总要》留下军事技术记录。后来的刻印与保存，让今天还能研究这些知识的历史。",
-    "object": "《武经总要》传世图像与安全记录示意",
+    "object": "《武经总要》· 后世刻本封面",
     "people": [
       "曾公亮等编书者",
       "保存古籍的人们"
     ],
-    "place": "北宋书房、开封与不同使用场景",
-    "culture": "《武经总要》与“四项技术时间带”",
+    "place": "北宋编书、明代刻印；今天的图书馆",
+    "culture": "《武经总要》编成与后印",
     "care": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
     "preferredAssetId": "song-books-museum-v1",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-07-08-song-gunpowder-records",
+    "theme": "材料与时间",
+    "learningGoal": "技术经过积累，成书、后印与今天研究是不同节点。",
+    "parentQuestion": "看到明代刻本，为什么还能研究更早的宋代知识？",
+    "observe": "说出先编成、后来再印保存；不把编书日当火药发明日。",
+    "misconception": "书影是明代版本；讨论军事用途，不做配制、点火或伤害得分。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "JJ-ZENG-WUJING-HISTORY",
+      "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+      "NLC-WUJING-MING-SCAN"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-08-04-economy-knowledge-culture",
+        "relation": "比较两本技术书怎样留下知识，分别核对编成和刊印年代。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "技术",
+      "战争",
+      "证据"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-07-08-song-gunpowder-records",
@@ -102,6 +147,20 @@
       "plain": "人们解决具体问题时积累的工具和做法。",
       "example": "技术常由许多人长期改进，不是某天突然出现。",
       "priority": 2
+    },
+    {
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
     }
   ],
   "pronunciations": [
@@ -192,16 +251,15 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "古书怎样留下火药的历史？",
         "coverNarration": "火药经过长期探索，宋代已经用到军事。一本古书把知识记下来，后人又怎样把它传到今天？",
-        "stationLine": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
-        "stationNarration": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
         "closingCaption": "带着发现回家",
         "closingNarration": "火药知识经过长期探索，北宋1044年编成的《武经总要》留下军事技术记录。后来的刻印与保存，让今天还能研究这些知识的历史。",
         "closingLine": "探索、记录与保存，把知识带到今天。",
         "fictionNote": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
         "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
+        "stationLine": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
         "stationAudio": {
-          "id": "quest-afff15281530ee8d",
-          "text": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。"
+          "id": "quest-1bc1ed1a12336ca9",
+          "text": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。"
         },
         "closingAudio": {
           "id": "quest-0745d95c11687ccf",
@@ -914,17 +972,19 @@
     },
     {
       "number": 6,
-      "text": "儿童学习火药史不需要接触配方、比例、混合或点火方法，历史证据可通过文献、年代和用途变化来判断。",
-      "sourceIds": [
-        "MOE-HISTORY-CURRICULUM-2022"
-      ]
-    },
-    {
-      "number": 7,
       "text": "造纸、印刷、指南针和火药分别跨越不同时代发展，不能压成“宋代同时发明四样东西”。",
       "sourceIds": [
         "CAS-FOUR-GREAT-INVENTIONS",
         "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+      ]
+    }
+  ],
+  "methodNotes": [
+    {
+      "number": 1,
+      "text": "儿童学习火药史不需要接触配方、比例、混合或点火方法，历史证据可通过文献、年代和用途变化来判断。",
+      "sourceIds": [
+        "MOE-HISTORY-CURRICULUM-2022"
       ]
     }
   ],
@@ -1159,6 +1219,16 @@
       "authorityLevel": "B-metadata",
       "factUse": "图像身份与版本元数据；PDF第1页封面，第2至4页序文，馆藏水印保留",
       "imageUse": "open-scan"
+    },
+    {
+      "id": "NMC-LIAO-SONG-XIA-JIN-YUAN",
+      "title": "“古代中国”基本陈列：辽宋夏金元时期",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html",
+      "type": "museum-permanent-exhibition",
+      "authorityLevel": "A",
+      "factUse": "916—1368年多政权并立到统一、经济重心南移、城市商业、科技文化和宋元海外贸易的总体脉络",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1379,5 +1449,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

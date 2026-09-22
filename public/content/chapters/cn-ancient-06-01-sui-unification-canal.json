@@ -7,7 +7,24 @@
   "period": {
     "id": "sui",
     "label": "隋朝",
-    "years": "581—618年"
+    "years": "581—618年",
+    "learningContext": {
+      "childIntro": "南北长期分立以后，隋朝重新统一。为什么还要把水路连起来？我们跟一船粮食去看看。",
+      "chronology": "581年隋建立，589年完成统一，605年起大规模开凿并连接运河；这些不是同一年。",
+      "covered": "统一背景、南北物资运输、长期维护和劳役负担。",
+      "scopeBoundary": "科举形成与隋末变化在背景稿中；运河这一章不代替隋代全部制度史。",
+      "sourceIds": [
+        "NMC-SUI-TANG-FIVE-DYNASTIES"
+      ],
+      "sources": [
+        {
+          "id": "NMC-SUI-TANG-FIVE-DYNASTIES",
+          "title": "“古代中国”基本陈列：隋唐五代时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html"
+        }
+      ]
+    }
   },
   "order": 19,
   "title": "一艘运粮船怎样从南方开到洛阳",
@@ -18,16 +35,45 @@
     "childTitle": "大运河为什么连接南北？",
     "prompt": "一船粮食要去远方，为什么需要相通的水路？跟小伙伴看看运河与粮仓。",
     "takeaway": "隋朝连接新旧水道，让粮食等物资沿南北水路运输。开河、行船、装卸和维护都离不开人；繁重劳役也给百姓带来负担。",
-    "object": "运粮船、河道、船闸与粮仓遗存",
+    "object": "大运河上的货船 · 现代照片",
     "people": [
       "隋朝运河、粮船",
       "劳动的人"
     ],
-    "place": "洛阳、扬州与大运河沿线",
-    "culture": "大运河沿线城市文化",
+    "place": "隋代南北水路；今天的大运河与粮仓遗迹",
+    "culture": "南北运输、维护与劳役",
     "care": "真实照片呈现2006年大运河货船与2024年回洛仓园区，均非隋代现场。园区绿篱、道路和保护棚为现代展示设施，不能当仓窖本体。回洛仓废弃不晚于初唐，运河系统后世沿用不等于这座仓一直使用。故事人物、码头、木船与装卸棚均为教学虚构，非隋代工艺复原。",
     "preferredAssetId": "grand-canal-cargo-boat-2006",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-06-01-sui-unification-canal",
+    "theme": "交通和交往",
+    "learningGoal": "隋朝连接水道以运输物资，工程和维护也带来劳动负担。",
+    "parentQuestion": "粮食要运远，为什么装好船还不够？",
+    "observe": "指出相通水路、清理泥沙和搬运工作；能提到劳动的人。",
+    "misconception": "不能只讲便利，也不能把今天河船当隋代船原貌。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "UNESCO-GRAND-CANAL",
+      "NMC-SUI-TANG-FIVE-DYNASTIES",
+      "HENAN-SUI-GRANARIES-ARCHAEOLOGY",
+      "NDRC-SUI-CANAL-LUOYANG"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-06-05-tang-decline",
+        "relation": "对照吴越水利：运河运输、海塘挡潮、水道通田，用途各不相同。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "建设",
+      "生产",
+      "贸易"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-06-01-sui-unification-canal",
@@ -97,60 +143,25 @@
   ],
   "glossary": [
     {
-      "term": "文化",
-      "icon": "🎨",
-      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
-      "example": "文化会交流变化，不能排成谁高谁低。",
-      "priority": 2
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
     },
     {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
       "priority": 1
-    },
-    {
-      "term": "遗址",
-      "icon": "🏚️",
-      "plain": "过去的人生活或活动后留下的地方。",
-      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
-      "priority": 1
-    },
-    {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
-      "priority": 1
-    },
-    {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
-      "priority": 1
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "社会",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "许多人一起生活、分工并形成关系的整体。",
-      "example": "社会变化要看不同人受到的影响。",
-      "priority": 2
-    },
-    {
-      "term": "王朝",
-      "icon": "👑",
-      "plain": "以皇帝政权延续的一段历史时期。",
-      "example": "唐朝是王朝；唐朝结束不等于所有事情当天停止。",
-      "priority": 2
     }
   ],
   "pronunciations": [
@@ -310,17 +321,16 @@
         "reunionAlt": "三位现代小伙伴和向导在运河边回看粮船手册的故事插画",
         "coverCaption": "大运河为什么连接南北？",
         "coverNarration": "小小旅行团到了隋朝！南北统一以后，为什么还要连接水道？跟着粮船，看看粮食怎样运到远方。",
-        "stationLine": "隋朝重新统一南北。跟粮船看看，大运河怎样把南北联系起来。",
-        "stationNarration": "隋朝重新统一南北。跟粮船看看，大运河怎样把南北联系起来。",
         "closingCaption": "运河连接南北，也记住劳动的人",
         "closingNarration": "隋朝连接新旧水道，让粮食等物资沿南北水路运输。开河、行船、装卸和维护都离不开人；繁重劳役也给百姓带来负担。",
         "closingLine": "水路连起南北，运输离不开人。",
         "fictionNote": "真实照片呈现2006年大运河货船与2024年回洛仓园区，均非隋代现场。园区绿篱、道路和保护棚为现代展示设施，不能当仓窖本体。回洛仓废弃不晚于初唐，运河系统后世沿用不等于这座仓一直使用。故事人物、码头、木船与装卸棚均为教学虚构，非隋代工艺复原。",
         "reunionAspectRatio": 2.2,
         "reunionImage": "/content/step-images/sui-canal-reunion-v1.jpg",
+        "stationLine": "南北长期分立以后，隋朝重新统一。为什么还要把水路连起来？我们跟一船粮食去看看。",
         "stationAudio": {
-          "id": "quest-2dde5f5765469e2f",
-          "text": "隋朝重新统一南北。跟粮船看看，大运河怎样把南北联系起来。"
+          "id": "quest-cc590ee56a3a8335",
+          "text": "南北长期分立以后，隋朝重新统一。为什么还要把水路连起来？我们跟一船粮食去看看。"
         },
         "closingAudio": {
           "id": "quest-2fc4cec8915fa327",
@@ -347,7 +357,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学故事插画 · 不是历史复原",
-      "boundary": "装卸粮袋与清理浅水泥沙是教学动作，非具体人物记录或某年码头复原。木船、装卸棚、工具比例不作为工程史证据。三位现代小伙伴只观察。 实际提示词：docs/qa/2026-09-19-sui-qing/sui-canal-workers-v1-prompt.txt。",
+      "boundary": "虚构运河工作场景，区分搬运粮食与清理水道。人物、船只和工具不指向某次实际工程；运输效用与劳役负担需结合历史资料理解。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/sui-canal-workers-v1.jpg"
     },
@@ -362,7 +372,7 @@
         "license": "项目自制；按OpenAI使用条款持有输出使用权",
         "clearance": "cleared-project-created",
         "caption": "现代教学故事插画 · 不是历史复原",
-        "boundary": "今天的虚构旅行回顾，手册蓝线是学习图，不是精确运河地图。三位现代儿童与向导，非隋代人物。 实际提示词：docs/qa/2026-09-19-sui-qing/sui-canal-reunion-v1-prompt.txt。",
+        "boundary": "现代小伙伴用旅行手册回顾南北运输与维护劳动。册页是教学新画，不是隋代航程记录、工程图或粮仓档案。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/sui-canal-reunion-v1.jpg"
       },
@@ -376,7 +386,7 @@
         "license": "项目自制；按OpenAI使用条款持有输出使用权",
         "clearance": "cleared-project-created",
         "caption": "现代教学故事插画 · 不是历史复原",
-        "boundary": "装卸粮袋与清理浅水泥沙是教学动作，非具体人物记录或某年码头复原。木船、装卸棚、工具比例不作为工程史证据。三位现代小伙伴只观察。 实际提示词：docs/qa/2026-09-19-sui-qing/sui-canal-workers-v1-prompt.txt。",
+        "boundary": "虚构运河工作场景，区分搬运粮食与清理水道。人物、船只和工具不指向某次实际工程；运输效用与劳役负担需结合历史资料理解。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/sui-canal-workers-v1.jpg"
       }
@@ -754,7 +764,7 @@
         "studyImageAlt": "装卸粮袋，清理河道",
         "imageAlt": "运河装卸与维护故事插画",
         "imageCaption": "运河装卸与维护故事插画",
-        "imageBoundary": "装卸粮袋与清理浅水泥沙是教学动作，非具体人物记录或某年码头复原。木船、装卸棚、工具比例不作为工程史证据。三位现代小伙伴只观察。 实际提示词：docs/qa/2026-09-19-sui-qing/sui-canal-workers-v1-prompt.txt。",
+        "imageBoundary": "虚构运河工作场景，区分搬运粮食与清理水道。人物、船只和工具不指向某次实际工程；运输效用与劳役负担需结合历史资料理解。",
         "audio": {
           "lead": {
             "id": "quest-9c4fbddcd945e361",
@@ -832,11 +842,11 @@
         "studyImageAlt": "维护河道，运送粮食",
         "imageAlt": "运河装卸与维护故事插画",
         "imageCaption": "运河装卸与维护故事插画",
-        "imageBoundary": "装卸粮袋与清理浅水泥沙是教学动作，非具体人物记录或某年码头复原。木船、装卸棚、工具比例不作为工程史证据。三位现代小伙伴只观察。 实际提示词：docs/qa/2026-09-19-sui-qing/sui-canal-workers-v1-prompt.txt。",
+        "imageBoundary": "虚构运河工作场景，区分搬运粮食与清理水道。人物、船只和工具不指向某次实际工程；运输效用与劳役负担需结合历史资料理解。",
         "audio": {
           "lead": {
-            "id": "quest-2a4a134a196260bd",
-            "text": "粮食要走远路。选一件能让水路保持畅通的事。"
+            "id": "quest-ebd01d8ba278eff3",
+            "text": "粮食已经装好，河道里却积了泥沙。想让粮船继续通行，先选哪件事？"
           },
           "transition": {
             "id": "quest-83635838411b1704",
@@ -961,7 +971,7 @@
         "studyImageAlt": "沟通南北，劳动的人",
         "imageAlt": "小伙伴回看运粮发现的故事插画",
         "imageCaption": "小伙伴回看运粮发现的故事插画",
-        "imageBoundary": "今天的虚构旅行回顾，手册蓝线是学习图，不是精确运河地图。三位现代儿童与向导，非隋代人物。 实际提示词：docs/qa/2026-09-19-sui-qing/sui-canal-reunion-v1-prompt.txt。",
+        "imageBoundary": "现代小伙伴用旅行手册回顾南北运输与维护劳动。册页是教学新画，不是隋代航程记录、工程图或粮仓档案。",
         "audio": {
           "lead": {
             "id": "quest-a8d6551f6ceec09a",
@@ -1084,6 +1094,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1530,7 +1541,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学故事插画 · 不是历史复原",
-      "boundary": "装卸粮袋与清理浅水泥沙是教学动作，非具体人物记录或某年码头复原。木船、装卸棚、工具比例不作为工程史证据。三位现代小伙伴只观察。 实际提示词：docs/qa/2026-09-19-sui-qing/sui-canal-workers-v1-prompt.txt。",
+      "boundary": "虚构运河工作场景，区分搬运粮食与清理水道。人物、船只和工具不指向某次实际工程；运输效用与劳役负担需结合历史资料理解。",
       "childVisibility": "child-ok"
     },
     {
@@ -1543,7 +1554,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学故事插画 · 不是历史复原",
-      "boundary": "今天的虚构旅行回顾，手册蓝线是学习图，不是精确运河地图。三位现代儿童与向导，非隋代人物。 实际提示词：docs/qa/2026-09-19-sui-qing/sui-canal-reunion-v1-prompt.txt。",
+      "boundary": "现代小伙伴用旅行手册回顾南北运输与维护劳动。册页是教学新画，不是隋代航程记录、工程图或粮仓档案。",
       "childVisibility": "child-ok"
     }
   ],
@@ -1555,5 +1566,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

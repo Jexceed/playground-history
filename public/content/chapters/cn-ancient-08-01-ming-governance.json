@@ -7,7 +7,31 @@
   "period": {
     "id": "ming",
     "label": "明朝",
-    "years": "1368—1644年"
+    "years": "1368—1644年",
+    "learningContext": {
+      "childIntro": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
+      "chronology": "1368年建立明朝，1420年北京宫殿建成、1421年正式迁都；各个故事不是发生在同一年。",
+      "covered": "政务环节、郑和交往、工艺记录、屋脊构件、小说刊印、旅行观察。",
+      "scopeBoundary": "社会经济、边防与明末变化在背景稿中；工艺、旅行和宫廷故事是取样，不能当完整明史。",
+      "sourceIds": [
+        "NMC-MING-QING",
+        "UNESCO-FORBIDDEN-CITY"
+      ],
+      "sources": [
+        {
+          "id": "NMC-MING-QING",
+          "title": "“古代中国”基本陈列：明清时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail8.html"
+        },
+        {
+          "id": "UNESCO-FORBIDDEN-CITY",
+          "title": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/439/"
+        }
+      ]
+    }
   },
   "order": 32,
   "title": "明朝怎样加强中央权力",
@@ -18,16 +42,44 @@
     "childTitle": "明朝的事情，怎样从意见变成行动？",
     "prompt": "宫里批好一份文书，河边的水闸就会自己修好吗？小伙伴去找提意见、作决定和实际做事的人。",
     "takeaway": "明代皇帝掌握重要决定，后来内阁帮助拟意见；决定落到实际事情上，还需要官员和劳动者办理。",
-    "object": "奏章、印信与明代宫城遗址",
+    "object": "故宫太和殿区域现状照片",
     "people": [
       "明代皇帝、内阁",
       "实际办事的人"
     ],
-    "place": "南京与北京",
-    "culture": "明代档案文书",
+    "place": "明代朝廷与地方办理；南京、北京年代分开",
+    "culture": "明代票拟与实际办理",
     "care": "明初1380年废丞相与后来内阁形成票拟分开，不压成同一年。三扇故事窗表示不同地点的虚构角色分工，不是洪武在北京办公或真实奏章。批红也可能由司礼监代行，不把皇权集中等同于决策必然正确。",
     "playableSource": "content/focused-quests.json",
     "preferredAssetId": "ming-court-work-v1"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-08-01-ming-governance",
+    "theme": "治理和规则",
+    "learningGoal": "明代拟意见、掌握决定和实际办理是不同环节。",
+    "parentQuestion": "大臣写好了建议，就能当作事情已经决定、做完了吗？",
+    "observe": "区分内阁拟意见、皇帝裁定、各地办理，能指出纸上决定后还需劳动。",
+    "misconception": "内阁发展晚于明初废相；不把皇权集中等同决策总是正确。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "NMC-MING-QING",
+      "DPM-MING-PIAONI",
+      "UNESCO-FORBIDDEN-CITY"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-06-08-zhenguan-governance",
+        "relation": "与唐代听意见对照，讨论在各自制度下建议怎样影响行动。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "内阁",
+      "皇帝",
+      "治理"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-08-01-ming-governance",
@@ -97,17 +149,10 @@
   ],
   "glossary": [
     {
-      "term": "档案",
-      "icon": "🗂️",
-      "plain": "被保存下来的文件、照片、录音等记录。",
-      "example": "一份档案记录一个角度，要和别的证据一起看。",
-      "priority": 1
-    },
-    {
-      "term": "遗址",
-      "icon": "🏚️",
-      "plain": "过去的人生活或活动后留下的地方。",
-      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "term": "内阁",
+      "icon": "📜",
+      "plain": "明代逐渐形成、帮助皇帝商议和拟写处理意见的机构。",
+      "example": "拟意见不等于自己作最后决定，也不同于今天有些国家的内阁。",
       "priority": 1
     },
     {
@@ -115,41 +160,6 @@
       "icon": "👑",
       "plain": "古代君主国家最高统治者的一种称号。",
       "example": "皇帝会作决定，也依靠官员、军队、工匠和百姓。",
-      "priority": 3
-    },
-    {
-      "term": "独立",
-      "icon": "🌱",
-      "plain": "一个国家或人民不再由外来力量控制。",
-      "example": "宣布独立是节点，建立新制度还需要很长过程。",
-      "priority": 1
-    },
-    {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
-      "priority": 1
-    },
-    {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
-      "priority": 1
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "统治",
-      "icon": "🏛️",
-      "plain": "掌权者用机构和规则管理人群与地方。",
-      "example": "研究统治还要问谁能参与、谁承担负担。",
       "priority": 3
     },
     {
@@ -162,13 +172,13 @@
   ],
   "pronunciations": [
     {
-      "text": "朱元璋",
-      "reading": "Zhū Yuánzhāng",
-      "kind": "person",
+      "text": "内阁",
+      "reading": "nèigé",
+      "kind": "term",
       "chapterIds": [
         "cn-ancient-08-01-ming-governance"
       ],
-      "note": "“璋”读zhāng。"
+      "note": "“阁”读gé，明代机构名。 本轮仅补校听项，仍需人耳确认。"
     }
   ],
   "gameplay": {
@@ -239,17 +249,16 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "明朝的事情，怎样从意见变成行动？",
         "coverNarration": "宫里批好一份文书，河边的水闸就会自己修好吗？小伙伴去找提意见、作决定和实际做事的人。",
-        "stationLine": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
-        "stationNarration": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
         "closingCaption": "带着发现回家",
         "closingNarration": "明代皇帝掌握重要决定，后来内阁帮助拟意见；决定落到实际事情上，还需要官员和劳动者办理。",
         "closingLine": "有意见、有决定，还要有人真正做事。",
         "fictionNote": "明初1380年废丞相与后来内阁形成票拟分开，不压成同一年。三扇故事窗表示不同地点的虚构角色分工，不是洪武在北京办公或真实奏章。批红也可能由司礼监代行，不把皇权集中等同于决策必然正确。",
         "reunionFit": "contain",
         "reunionImage": "/content/step-images/ming-friends-reunion-v1.jpg",
+        "stationLine": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
         "stationAudio": {
-          "id": "quest-85f0f7da351bfce2",
-          "text": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。"
+          "id": "quest-cca292f14668bfcd",
+          "text": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。"
         },
         "closingAudio": {
           "id": "quest-9ebbeea1816229a6",
@@ -764,8 +773,8 @@
         "imageBoundary": "明初1380年废丞相与后来内阁形成票拟分开，不压成同一年。三扇故事窗表示不同地点的虚构角色分工，不是洪武在北京办公或真实奏章。批红也可能由司礼监代行，不把皇权集中等同于决策必然正确。",
         "audio": {
           "lead": {
-            "id": "quest-497e316f9e55faf7",
-            "text": "水闸还没修好，该谁接着做？"
+            "id": "quest-575ab5e23f724c96",
+            "text": "文书已经批下来了，水闸却还没修好。要把明朝朝廷的决定落实，该谁接着做？"
           },
           "transition": {
             "id": "quest-fe257a8905200c65",
@@ -1006,6 +1015,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1408,5 +1418,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

@@ -7,7 +7,31 @@
   "period": {
     "id": "five-dynasties-ten-kingdoms",
     "label": "五代十国",
-    "years": "907—960年"
+    "years": "907—960年（北方五代；部分十国延续至北宋）",
+    "learningContext": {
+      "childIntro": "唐朝结束后，北方五个王朝先后更替，各地还有并立的政权。我们去吴越看水利；它和后来的北宋也有一段交叠。",
+      "chronology": "907—960年说的是北方五代；部分十国政权延续至北宋。吴越在978年纳土归宋，不在960年突然消失。",
+      "covered": "从唐末铁券到吴越水利，政权变化与地方生活。",
+      "scopeBoundary": "一个吴越故事不等于十国完整史；其余政权的差异保留背景范围，不让孩子把十国当十个先后朝代。",
+      "sourceIds": [
+        "NMC-SUI-TANG-FIVE-DYNASTIES",
+        "ZJSK-WUYUE-978"
+      ],
+      "sources": [
+        {
+          "id": "NMC-SUI-TANG-FIVE-DYNASTIES",
+          "title": "“古代中国”基本陈列：隋唐五代时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html"
+        },
+        {
+          "id": "ZJSK-WUYUE-978",
+          "title": "潮起吴越国：978年纳土归宋",
+          "institution": "浙江省社科联与杭州市临安区社科联等联合制作",
+          "url": "https://www.zjskw.gov.cn/col/col1229556977/art/2026/art_0bf5c649e8280cea2b67498755ac6d79.html"
+        }
+      ]
+    }
   },
   "order": 24,
   "title": "钱镠铁券怎样带我们走进五代十国",
@@ -18,16 +42,44 @@
     "childTitle": "跟钱镠看吴越的水与田",
     "prompt": "唐朝结束以后，钱镠在吴越经营地方。海潮要挡住，水道要畅通，人们怎样照料水边的生活？",
     "takeaway": "钱镠先在唐末得到铁券，后来治理吴越。政权发生变化，人们仍要修海塘、疏通水道，靠劳动经营当地生活。",
-    "object": "钱镠铁券和907—960年时间线",
+    "object": "钱镠铁券 · 唐末897年",
     "people": [
       "钱镠",
       "吴越修塘、疏水的人们"
     ],
-    "place": "开封、洛阳、杭州与五代十国时期各地",
-    "culture": "钱镠铁券上的文字与吴越地区延续的城市文化",
+    "place": "唐末至吴越；钱塘江与杭州一带",
+    "culture": "钱镠铁券与吴越水利文献",
     "care": "897年铁券是唐昭宗颁赐钱镠的凭证，不能把它改成吴越颁发或普通钱币。北方五代先后更替，十国有先后也有并立；960不是各地同时结束的年份。修塘疏水由文献支持，新图为教学情境，不复原某处海塘、不把射潮神话当史实、不把钱镠说成独自完成工程。",
     "preferredAssetId": "qian-waterworks-v1",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-06-05-tang-decline",
+    "theme": "生活与劳动",
+    "learningGoal": "政权更替中，吴越水利仍需组织与长期劳动。",
+    "parentQuestion": "挡海潮和让水进田，是同一件工作吗？",
+    "observe": "分别指出夯海塘和清水道；说出它们解决的不同需要。",
+    "misconception": "897年受铁券在唐末；960年北宋建立不等于吴越同年结束。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "NMC-QIANLIU-IRON-CERTIFICATE",
+      "NMC-SUI-TANG-FIVE-DYNASTIES",
+      "HZ-QIANLIU-WATERWORKS"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-07-01-parallel-regimes",
+        "relation": "五代十国与宋辽夏金有时间交叠，不能按站号当整齐接班。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "政权",
+      "农业",
+      "建设"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-06-05-tang-decline",
@@ -96,13 +148,6 @@
   ],
   "glossary": [
     {
-      "term": "文化",
-      "icon": "🎨",
-      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
-      "example": "文化会交流变化，不能排成谁高谁低。",
-      "priority": 2
-    },
-    {
       "term": "政权",
       "icon": "🏛️",
       "plain": "谁在用什么机构和规则管理一个地方。",
@@ -110,52 +155,17 @@
       "priority": 2
     },
     {
-      "term": "治理",
-      "icon": "🧭",
-      "plain": "一起安排公共事情、解决共同问题。",
-      "example": "修路、管水、定规则和听取意见都可能属于治理。",
-      "priority": 3
-    },
-    {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
-      "priority": 1
-    },
-    {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
-      "priority": 1
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
       "priority": 2
     },
     {
-      "term": "王朝",
-      "icon": "👑",
-      "plain": "以皇帝政权延续的一段历史时期。",
-      "example": "唐朝是王朝；唐朝结束不等于所有事情当天停止。",
-      "priority": 2
-    },
-    {
-      "term": "发展",
-      "icon": "🌱",
-      "plain": "事物经过一段时间出现增长或变化。",
-      "example": "发展不只看速度和数量，也要看人的生活与环境。",
-      "priority": 3
-    },
-    {
-      "term": "生产",
-      "icon": "🛠️",
-      "plain": "把材料和劳动变成食物、工具或其他产品。",
-      "example": "生产离不开人、工具、材料和组织。",
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
       "priority": 3
     }
   ],
@@ -194,7 +204,7 @@
         "license": "CC BY-SA 4.0",
         "clearance": "cleared-open-license",
         "caption": "中国国家博物馆展出的晚唐钱镠铁券。",
-        "boundary": "铁券由唐昭宗于897年赐给钱镠。Commons英文文件名将Qian误作Quan，本内容沿用收藏机构的正确中文名。它是中央与一位地方人物关系的个案证据，不代表所有节度使，也不简写为传奇式“免死金牌”。下载为1920像素等比例图，未作其他修改。",
+        "boundary": "铁券由唐昭宗于897年赐给钱镠。Commons英文文件名将Qian误作Quan，本内容沿用收藏机构的正确中文名。它是中央与一位地方人物关系的个案证据，不代表所有节度使，也不简写为传奇式“免死金牌”。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/qian-liu-iron-certificate-museum-photo.jpg"
       }
@@ -238,16 +248,15 @@
         "reunionAspectRatio": 1.78,
         "coverCaption": "跟钱镠看吴越的水与田",
         "coverNarration": "唐朝结束以后，钱镠在吴越经营地方。海潮要挡住，水道要畅通，人们怎样照料水边的生活？",
-        "stationLine": "唐朝结束后，北方王朝先后更替，东南的吴越也在经营地方。跟着钱镠的线索去看看。",
-        "stationNarration": "唐朝结束后，北方王朝先后更替，东南的吴越也在经营地方。跟着钱镠的线索去看看。",
         "closingCaption": "带着发现回家",
         "closingNarration": "钱镠先在唐末得到铁券，后来治理吴越。政权发生变化，人们仍要修海塘、疏通水道，靠劳动经营当地生活。",
         "closingLine": "朝代会变，照料水与田还要靠人。",
         "fictionNote": "897年铁券是唐昭宗颁赐钱镠的凭证，不能把它改成吴越颁发或普通钱币。北方五代先后更替，十国有先后也有并立；960不是各地同时结束的年份。修塘疏水由文献支持，新图为教学情境，不复原某处海塘、不把射潮神话当史实、不把钱镠说成独自完成工程。",
         "reunionImage": "/content/step-images/qian-reunion-v1.jpg",
+        "stationLine": "唐朝结束后，北方五个王朝先后更替，各地还有并立的政权。我们去吴越看水利；它和后来的北宋也有一段交叠。",
         "stationAudio": {
-          "id": "quest-67541b2a6d892dc8",
-          "text": "唐朝结束后，北方王朝先后更替，东南的吴越也在经营地方。跟着钱镠的线索去看看。"
+          "id": "quest-80cf660b4378bf6e",
+          "text": "唐朝结束后，北方五个王朝先后更替，各地还有并立的政权。我们去吴越看水利；它和后来的北宋也有一段交叠。"
         },
         "closingAudio": {
           "id": "quest-f39ac5a1c1f243be",
@@ -389,7 +398,7 @@
           "license": "CC BY-SA 4.0",
           "clearance": "cleared-open-license",
           "caption": "国博藏品 · 参观照片",
-          "boundary": "铁券由唐昭宗于897年赐给钱镠。Commons英文文件名将Qian误作Quan，本内容沿用收藏机构的正确中文名。它是中央与一位地方人物关系的个案证据，不代表所有节度使，也不简写为传奇式“免死金牌”。下载为1920像素等比例图，未作其他修改。 中国国家博物馆展出的晚唐钱镠铁券。",
+          "boundary": "铁券由唐昭宗于897年赐给钱镠。Commons英文文件名将Qian误作Quan，本内容沿用收藏机构的正确中文名。它是中央与一位地方人物关系的个案证据，不代表所有节度使，也不简写为传奇式“免死金牌”。 中国国家博物馆展出的晚唐钱镠铁券。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/qian-liu-iron-certificate-museum-photo.jpg",
           "label": "点开真材料，听听说明",
@@ -754,8 +763,8 @@
         "imageBoundary": "897年铁券是唐昭宗颁赐钱镠的凭证，不能把它改成吴越颁发或普通钱币。北方五代先后更替，十国有先后也有并立；960不是各地同时结束的年份。修塘疏水由文献支持，新图为教学情境，不复原某处海塘、不把射潮神话当史实、不把钱镠说成独自完成工程。",
         "audio": {
           "lead": {
-            "id": "quest-2709b5c129fcd0bd",
-            "text": "让水重新流过去，先做什么？"
+            "id": "quest-e3d1f4ad13092682",
+            "text": "水道里的泥沙挡住水，水不容易流向田里。现在先清水道，还是先加固海边的海塘？"
           },
           "transition": {
             "id": "quest-70a7f1958827fd22",
@@ -1015,6 +1024,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1204,6 +1214,16 @@
       "authorityLevel": "A-structure-only",
       "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "ZJSK-WUYUE-978",
+      "title": "潮起吴越国：978年纳土归宋",
+      "institution": "浙江省社科联与杭州市临安区社科联等联合制作",
+      "url": "https://www.zjskw.gov.cn/col/col1229556977/art/2026/art_0bf5c649e8280cea2b67498755ac6d79.html",
+      "type": "institution-history-chronology",
+      "authorityLevel": "B",
+      "factUse": "仅用978年钱俶纳土归宋节点，说明960年五代结束不等于吴越同年结束；不采用AI视频作为历史图像证据",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1334,7 +1354,7 @@
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "中国国家博物馆展出的晚唐钱镠铁券。",
-      "boundary": "铁券由唐昭宗于897年赐给钱镠。Commons英文文件名将Qian误作Quan，本内容沿用收藏机构的正确中文名。它是中央与一位地方人物关系的个案证据，不代表所有节度使，也不简写为传奇式“免死金牌”。下载为1920像素等比例图，未作其他修改。",
+      "boundary": "铁券由唐昭宗于897年赐给钱镠。Commons英文文件名将Qian误作Quan，本内容沿用收藏机构的正确中文名。它是中央与一位地方人物关系的个案证据，不代表所有节度使，也不简写为传奇式“免死金牌”。",
       "childVisibility": "child-ok"
     },
     {
@@ -1372,5 +1392,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

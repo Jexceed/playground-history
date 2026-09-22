@@ -7,7 +7,8 @@
   "period": {
     "id": "spring-autumn-warring-states",
     "label": "春秋战国",
-    "years": "前770—前221年"
+    "years": "前770—前221年",
+    "learningContext": null
   },
   "order": 8,
   "title": "诸侯争霸与变法图强",
@@ -26,6 +27,7 @@
     "culture": "量器铭文",
     "care": "不把战争胜负做成得分，也不把变法成败归给单一人物。"
   },
+  "learningGuide": null,
   "textbookConnection": null,
   "childStory": [
     {
@@ -89,6 +91,13 @@
       "priority": 2
     },
     {
+      "term": "度量衡",
+      "icon": "📏",
+      "plain": "量长短、量容量、称轻重所用的办法和标准。",
+      "example": "尺子量长短，容量看能装多少，秤与砝码帮助比较轻重。",
+      "priority": 1
+    },
+    {
       "term": "改革",
       "icon": "🛠️",
       "plain": "发现旧办法有问题，改变规则或做法。",
@@ -100,6 +109,13 @@
       "icon": "🏺",
       "plain": "从过去保存下来、能帮助认识历史的东西。",
       "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
+    },
+    {
+      "term": "诏书",
+      "icon": "📜",
+      "plain": "古代皇帝公开发布命令的一种文书。",
+      "example": "秦铁权上的诏文留下推广共同标准的记录，器物用途也要另外观察。",
       "priority": 1
     },
     {
@@ -676,6 +692,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -933,5 +950,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "legacy-draft-not-in-preview"
 }

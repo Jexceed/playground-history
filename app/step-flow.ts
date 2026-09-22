@@ -12,3 +12,7 @@ export function stepVoiceIds(step: SpokenStep): string[] {
 export function canContinueStep(step: StepKind | null | undefined, solved: boolean): boolean {
   return Boolean(step && (solved || step.interaction?.kind === "look-listen"));
 }
+
+export function usesChoiceCards(kind:string|undefined):boolean {
+  return !['align-rulers','slide-fit','look-listen','scene-find','circle-refine','history-lab'].includes(kind??'');
+}

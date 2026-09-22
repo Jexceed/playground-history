@@ -7,7 +7,31 @@
   "period": {
     "id": "ming",
     "label": "明朝",
-    "years": "1368—1644年"
+    "years": "1368—1644年",
+    "learningContext": {
+      "childIntro": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
+      "chronology": "1368年建立明朝，1420年北京宫殿建成、1421年正式迁都；各个故事不是发生在同一年。",
+      "covered": "政务环节、郑和交往、工艺记录、屋脊构件、小说刊印、旅行观察。",
+      "scopeBoundary": "社会经济、边防与明末变化在背景稿中；工艺、旅行和宫廷故事是取样，不能当完整明史。",
+      "sourceIds": [
+        "NMC-MING-QING",
+        "UNESCO-FORBIDDEN-CITY"
+      ],
+      "sources": [
+        {
+          "id": "NMC-MING-QING",
+          "title": "“古代中国”基本陈列：明清时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail8.html"
+        },
+        {
+          "id": "UNESCO-FORBIDDEN-CITY",
+          "title": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/439/"
+        }
+      ]
+    }
   },
   "order": 42,
   "title": "一本明代《西游记》怎样让故事跑远",
@@ -18,16 +42,42 @@
     "childTitle": "《西游记》怎样从书页走到读者手里？",
     "prompt": "真古书里画着孙悟空，但孙悟空不是历史上的真人。小伙伴走进书坊故事，看看图文怎样印出来、装成书。",
     "takeaway": "明代小说《西游记》把历史素材化为文学想象。书坊印出图文、整理装订，让故事有了可以流传的书本。",
-    "object": "1592年世德堂本《西游记》插图",
+    "object": "1592年世德堂本《西游记》跨页插图",
     "people": [
       "《西游记》",
       "明代书坊的劳动者"
     ],
-    "place": "明代金陵书坊与故事流传的许多地方",
-    "culture": "《西游记》小说、版画与说故事传统",
+    "place": "明代金陵刊本与虚构书坊",
+    "culture": "《西游记》小说与明代刊刻",
     "care": "1592世德堂本为明代小说图像，不是唐代玄奘现场。孙悟空只在书页想象中出现，不列入真实西行队伍。书坊图不声称复原某家1592年作坊；印刷传播不等于当时人人识字或人人拥有书。",
     "preferredAssetId": "ming-novel-bookshop-v1",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-08-07-journey-west-print",
+    "theme": "艺术和表达",
+    "learningGoal": "明代小说通过刊刻装订传播，文学角色与史实不同。",
+    "parentQuestion": "孙悟空和这页1592年的古书，哪一个是想象角色，哪一个是材料？",
+    "observe": "指小说角色与真实刊本，并解释印页后还要整理成册。",
+    "misconception": "小说借历史素材创作，不是玄奘唐代西行实录。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "NLC-JOURNEY-WEST-CLASSIC"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-06-04-tang-cultural-exchange",
+        "relation": "回到玄奘译书章，对照历史人物、翻译活动与后来的小说。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "小说",
+      "技术",
+      "文化"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-08-07-journey-west-print",
@@ -107,22 +157,29 @@
       "priority": 1
     },
     {
-      "term": "游记",
-      "icon": "🥾",
-      "plain": "把旅行中看见、听见和查到的事情写下来。",
-      "example": "徐霞客边走边记，还会比较河流从哪里来。",
-      "priority": 1
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
     }
   ],
   "pronunciations": [
     {
-      "text": "吴承恩",
-      "reading": "Wú Chéng’ēn",
+      "text": "孙悟空",
+      "reading": "Sūn Wùkōng",
       "kind": "person",
       "chapterIds": [
         "cn-ancient-08-07-journey-west-print"
       ],
-      "note": "“承恩”两音节读清楚。"
+      "note": "“空”在人名里读kōng。人物属于小说。 当前仍待人耳校听。"
     }
   ],
   "gameplay": {
@@ -193,17 +250,16 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "《西游记》怎样从书页走到读者手里？",
         "coverNarration": "真古书里画着孙悟空，但孙悟空不是历史上的真人。小伙伴走进书坊故事，看看图文怎样印出来、装成书。",
-        "stationLine": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
-        "stationNarration": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
         "closingCaption": "带着发现回家",
         "closingNarration": "明代小说《西游记》把历史素材化为文学想象。书坊印出图文、整理装订，让故事有了可以流传的书本。",
         "closingLine": "故事有想象，书本也有做出来的过程。",
         "fictionNote": "1592世德堂本为明代小说图像，不是唐代玄奘现场。孙悟空只在书页想象中出现，不列入真实西行队伍。书坊图不声称复原某家1592年作坊；印刷传播不等于当时人人识字或人人拥有书。",
         "reunionFit": "contain",
         "reunionImage": "/content/step-images/ming-friends-reunion-v1.jpg",
+        "stationLine": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
         "stationAudio": {
-          "id": "quest-85f0f7da351bfce2",
-          "text": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。"
+          "id": "quest-cca292f14668bfcd",
+          "text": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。"
         },
         "closingAudio": {
           "id": "quest-5f045c05de53c45e",
@@ -711,8 +767,8 @@
         "imageBoundary": "1592世德堂本为明代小说图像，不是唐代玄奘现场。孙悟空只在书页想象中出现，不列入真实西行队伍。书坊图不声称复原某家1592年作坊；印刷传播不等于当时人人识字或人人拥有书。",
         "audio": {
           "lead": {
-            "id": "quest-e6753250f74297f5",
-            "text": "一叠纸页，要请谁接着处理？"
+            "id": "quest-4fcd1af18564eb4e",
+            "text": "图文已经印好，却还是一叠分开的纸页。要变成一本能翻看的书，请谁接着处理？"
           },
           "transition": {
             "id": "quest-f24e712f69742e67",
@@ -942,6 +998,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1139,6 +1196,26 @@
       "authorityLevel": "A-national-textbook-publisher",
       "factUse": "核对统编小学语文教材中的古诗文、成语、神话、历史故事与四大名著节选结构，并明确改编、节选和史实之间的边界",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-MING-QING",
+      "title": "“古代中国”基本陈列：明清时期",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail8.html",
+      "type": "museum-permanent-exhibition",
+      "authorityLevel": "A",
+      "factUse": "1368年以后明清政治、经济、统一多民族国家、对外关系、文化及1840年前危机的总体脉络",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-FORBIDDEN-CITY",
+      "title": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/439/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A",
+      "factUse": "北京紫禁城始建年代、明清宫殿功能与现存遗产经过长期保护的边界",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1320,5 +1397,6 @@
     "assets": "cleared",
     "audio": "not-started",
     "review": "pending"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

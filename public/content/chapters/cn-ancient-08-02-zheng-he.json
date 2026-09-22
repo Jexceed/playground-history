@@ -7,7 +7,31 @@
   "period": {
     "id": "ming",
     "label": "明朝",
-    "years": "1368—1644年"
+    "years": "1368—1644年",
+    "learningContext": {
+      "childIntro": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
+      "chronology": "1368年建立明朝，1420年北京宫殿建成、1421年正式迁都；各个故事不是发生在同一年。",
+      "covered": "政务环节、郑和交往、工艺记录、屋脊构件、小说刊印、旅行观察。",
+      "scopeBoundary": "社会经济、边防与明末变化在背景稿中；工艺、旅行和宫廷故事是取样，不能当完整明史。",
+      "sourceIds": [
+        "NMC-MING-QING",
+        "UNESCO-FORBIDDEN-CITY"
+      ],
+      "sources": [
+        {
+          "id": "NMC-MING-QING",
+          "title": "“古代中国”基本陈列：明清时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail8.html"
+        },
+        {
+          "id": "UNESCO-FORBIDDEN-CITY",
+          "title": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/439/"
+        }
+      ]
+    }
   },
   "order": 33,
   "title": "郑和船队为什么驶向远洋",
@@ -18,16 +42,44 @@
     "childTitle": "郑和的船队，怎样与远方交往？",
     "prompt": "石碑从南京走到今天的斯里兰卡，留下三种文字。小伙伴去看远航怎样准备，又怎样与不同语言的人交流。",
     "takeaway": "明代郑和多次率船队远航，开展对外交往。补给让船队走远，语言沟通帮助交流；三语碑留下了联系的证据。",
-    "object": "航海图、碑刻与船厂遗址",
+    "object": "锡兰山三语碑现状照片",
     "people": [
       "郑和",
       "船队中的不同工作者"
     ],
-    "place": "南京、长乐、印度洋沿岸与东非港口",
-    "culture": "郑和航海碑刻",
+    "place": "南京刻碑与锡兰遗存；印度洋交往故事",
+    "culture": "三语碑与多语言交往",
     "care": "1405—1433七次远航；三语碑1409年南京刻制，第三次航行带至锡兰，不把刻制与立碑日期混写。三段文字宗教对象及内容不同，不是逐字翻译。故事图为印度洋港口教学情境，不是特定斯里兰卡城市复原或某次会面记录；不把所有远航活动概括为没有冲突。",
     "playableSource": "content/focused-quests.json",
     "preferredAssetId": "ming-voyage-talk-v1"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-08-02-zheng-he",
+    "theme": "交通和交往",
+    "learningGoal": "郑和国家远航包含交往目的，需要补给与语言沟通。",
+    "parentQuestion": "船到了港口，为什么还要有人解释不同语言？",
+    "observe": "说明远航不仅到达远方，还要交流；补给支持航行，解释帮助交往。",
+    "misconception": "1409刻碑与出海落地不是同一日期；三种文字不是逐字相同。",
+    "evidenceStepIds": [
+      "time",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "NMC-MING-QING",
+      "SAAC-ZHENGHE-STELE"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-07-07-song-compass-navigation",
+        "relation": "从宋代方向工具到明代远航，比较工具、经验与合作的不同作用。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "外交",
+      "交流",
+      "见闻"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-08-02-zheng-he",
@@ -101,34 +153,6 @@
   ],
   "glossary": [
     {
-      "term": "交流",
-      "icon": "↔️",
-      "plain": "不同的人把物品、知识或做法带给彼此。",
-      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
-      "priority": 1
-    },
-    {
-      "term": "遗址",
-      "icon": "🏚️",
-      "plain": "过去的人生活或活动后留下的地方。",
-      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
-      "priority": 1
-    },
-    {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
-      "priority": 1
-    },
-    {
-      "term": "翻译",
-      "icon": "🗣️",
-      "plain": "把一种语言表达的意思换成另一种语言。",
-      "example": "翻译需要懂语言和知识，也常由团队反复校订。",
-      "priority": 2
-    },
-    {
       "term": "外交",
       "icon": "🤝",
       "plain": "国家之间交往、谈判和处理共同事情。",
@@ -136,39 +160,18 @@
       "priority": 2
     },
     {
-      "term": "宗教",
-      "icon": "🕯️",
-      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
-      "example": "同一种宗教内部也有不同地区、时代和人群。",
-      "priority": 2
-    },
-    {
-      "term": "贸易",
-      "icon": "🚚",
-      "plain": "不同人或地方交换、买卖物品和服务。",
-      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
       "priority": 1
     },
     {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "政权",
-      "icon": "🏛️",
-      "plain": "谁在用什么机构和规则管理一个地方。",
-      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
-      "priority": 2
-    },
-    {
-      "term": "组织",
-      "icon": "🤝",
-      "plain": "许多人为了共同事情分工、联系和行动。",
-      "example": "一个名人背后常有组织、协作者和普通参与者。",
-      "priority": 2
+      "term": "见闻",
+      "icon": "👣",
+      "plain": "亲眼看见、亲耳听到或了解的事情。",
+      "example": "远行者可以把沿途的道路、物产等见闻带回来。",
+      "priority": 1
     }
   ],
   "pronunciations": [
@@ -180,15 +183,6 @@
         "cn-ancient-08-02-zheng-he"
       ],
       "note": "“和”在人名中读hé。"
-    },
-    {
-      "text": "长乐",
-      "reading": "Chánglè",
-      "kind": "place",
-      "chapterIds": [
-        "cn-ancient-08-02-zheng-he"
-      ],
-      "note": "福建地名；“长”读cháng，“乐”读lè。"
     }
   ],
   "gameplay": {
@@ -259,17 +253,16 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "郑和的船队，怎样与远方交往？",
         "coverNarration": "石碑从南京走到今天的斯里兰卡，留下三种文字。小伙伴去看远航怎样准备，又怎样与不同语言的人交流。",
-        "stationLine": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
-        "stationNarration": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
         "closingCaption": "带着发现回家",
         "closingNarration": "明代郑和多次率船队远航，开展对外交往。补给让船队走远，语言沟通帮助交流；三语碑留下了联系的证据。",
         "closingLine": "船能走远，也要把意思说清楚。",
         "fictionNote": "1405—1433七次远航；三语碑1409年南京刻制，第三次航行带至锡兰，不把刻制与立碑日期混写。三段文字宗教对象及内容不同，不是逐字翻译。故事图为印度洋港口教学情境，不是特定斯里兰卡城市复原或某次会面记录；不把所有远航活动概括为没有冲突。",
         "reunionFit": "contain",
         "reunionImage": "/content/step-images/ming-friends-reunion-v1.jpg",
+        "stationLine": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
         "stationAudio": {
-          "id": "quest-85f0f7da351bfce2",
-          "text": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。"
+          "id": "quest-cca292f14668bfcd",
+          "text": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。"
         },
         "closingAudio": {
           "id": "quest-740120b8d6f2df54",
@@ -778,8 +771,8 @@
         "imageBoundary": "1405—1433七次远航；三语碑1409年南京刻制，第三次航行带至锡兰，不把刻制与立碑日期混写。三段文字宗教对象及内容不同，不是逐字翻译。故事图为印度洋港口教学情境，不是特定斯里兰卡城市复原或某次会面记录；不把所有远航活动概括为没有冲突。",
         "audio": {
           "lead": {
-            "id": "quest-d1693c3a642cc5b3",
-            "text": "要让双方听懂，该请谁帮忙？"
+            "id": "quest-c54b57783e244deb",
+            "text": "船已经到港，补给也安排好了。双方说不同语言，要互相说明来意，现在先请谁帮忙？"
           },
           "transition": {
             "id": "quest-0d333057772e60a6",
@@ -1049,6 +1042,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1260,6 +1254,16 @@
       "authorityLevel": "A-structure-only",
       "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-FORBIDDEN-CITY",
+      "title": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/439/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A",
+      "factUse": "北京紫禁城始建年代、明清宫殿功能与现存遗产经过长期保护的边界",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1441,5 +1445,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

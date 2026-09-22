@@ -7,7 +7,24 @@
   "period": {
     "id": "three-kingdoms-jin-northern-southern",
     "label": "三国两晋南北朝",
-    "years": "220—589年"
+    "years": "220—589年",
+    "learningContext": {
+      "childIntro": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。",
+      "chronology": "220—589年为这组故事的时代范围，不是一个朝代名；曹魏、蜀汉、孙吴成立年份不同，西晋统一后又出现南北分立。",
+      "covered": "迁徙互助、江南生产、北魏改革、数学继承、壁画叙事。",
+      "scopeBoundary": "具体政权更替及战争过程保留在背景稿；不让儿童背所有政权名称，也不把整个时期说成只有战乱。",
+      "sourceIds": [
+        "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+      ],
+      "sources": [
+        {
+          "id": "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+          "title": "“古代中国”基本陈列：三国两晋南北朝时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail5.html"
+        }
+      ]
+    }
   },
   "order": 39,
   "title": "敦煌墙上的九色鹿怎样讲故事",
@@ -18,15 +35,42 @@
     "childTitle": "跟着九色鹿读懂壁画",
     "prompt": "古人把不同时间的故事画在一面墙上。先救人，后有约定，后来又发生什么？",
     "takeaway": "北魏画工把鹿王故事画在洞窟墙上，用连续场景讲救助、约定与失信。今天的学习画帮助读故事，不能冒充原壁画。",
-    "object": "莫高窟第257窟九色鹿壁画",
+    "object": "鹿王壁画局部 · 北魏",
     "people": [
       "北魏壁画里的鹿王故事"
     ],
     "place": "甘肃敦煌莫高窟第257窟",
-    "culture": "鹿王本生故事画与敦煌壁画",
+    "culture": "鹿王本生故事与连续壁画",
     "care": "这是佛教本生故事与古代艺术，不是真实鹿的新闻或北魏人物传记。第一步为第257窟原壁画局部；新画卡是现代教学绘本，不是现代动画截图。原壁画从两端向中间展开，新画卡为了教学从左到右排列，不把局部当整面墙。",
     "preferredAssetId": "dunhuang-cave-257-nine-coloured-deer-detail",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-05-05-dunhuang-story",
+    "theme": "艺术和表达",
+    "learningGoal": "连续画面能把不同时刻讲成故事。",
+    "parentQuestion": "同一只鹿为什么在墙画里出现多次？",
+    "observe": "按动作指出救助、许诺、失信，不把重复出现当成多只鹿。",
+    "misconception": "这是北魏佛教故事壁画，不是真实事件照片；现代卡片布局与原画不同。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "DHA-MOGAO-CAVE-257",
+      "DHA-NINE-COLOURED-DEER-EDUCATION"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-08-07-journey-west-print",
+        "relation": "壁画与小说都讲故事，材料是真实遗存，故事情节另看其性质。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "宗教",
+      "文化",
+      "证据"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-05-05-dunhuang-story",
@@ -89,11 +133,25 @@
   ],
   "glossary": [
     {
-      "term": "发展",
-      "icon": "🌱",
-      "plain": "事物经过一段时间出现增长或变化。",
-      "example": "发展不只看速度和数量，也要看人的生活与环境。",
-      "priority": 3
+      "term": "宗教",
+      "icon": "🕯️",
+      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
+      "example": "同一种宗教内部也有不同地区、时代和人群。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
     }
   ],
   "pronunciations": [
@@ -132,7 +190,7 @@
         "license": "Public Domain Mark 1.0",
         "clearance": "cleared-open-license",
         "caption": "敦煌莫高窟第257窟北魏鹿王本生故事画中的九色鹿局部。",
-        "boundary": "开放文件来自古代壁画的二维复制；儿童层必须说明它是洞窟墙面故事画局部，不是完整画面、真实动物照片或现代动画截图。原图912×1135像素。",
+        "boundary": "开放文件来自古代壁画的二维复制；儿童层必须说明它是洞窟墙面故事画局部，不是完整画面、真实动物照片或现代动画截图。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/dunhuang-cave-257-nine-coloured-deer-detail.jpg"
       }
@@ -148,7 +206,7 @@
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "敦煌莫高窟第257窟北魏鹿王本生故事画中的九色鹿局部。",
-      "boundary": "开放文件来自古代壁画的二维复制；儿童层必须说明它是洞窟墙面故事画局部，不是完整画面、真实动物照片或现代动画截图。原图912×1135像素。",
+      "boundary": "开放文件来自古代壁画的二维复制；儿童层必须说明它是洞窟墙面故事画局部，不是完整画面、真实动物照片或现代动画截图。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/dunhuang-cave-257-nine-coloured-deer-detail.jpg"
     },
@@ -175,16 +233,15 @@
         "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
         "coverCaption": "跟着九色鹿读懂壁画",
         "coverNarration": "跟着九色鹿读懂壁画小小旅行团出发！古人把不同时间的故事画在一面墙上。先救人，后有约定，后来又发生什么？",
-        "stationLine": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
-        "stationNarration": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
         "closingCaption": "回看刚刚读懂的历史",
         "closingNarration": "北魏画工把鹿王故事画在洞窟墙上，用连续场景讲救助、约定与失信。今天的学习画帮助读故事，不能冒充原壁画。",
         "closingLine": "跟着连续画面，读懂前后发生的故事。",
         "fictionNote": "这是佛教本生故事与古代艺术，不是真实鹿的新闻或北魏人物传记。第一步为第257窟原壁画局部；新画卡是现代教学绘本，不是现代动画截图。原壁画从两端向中间展开，新画卡为了教学从左到右排列，不把局部当整面墙。",
         "reunionImage": "/content/step-images/jin-travel-journal-reunion-v1.jpg",
+        "stationLine": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。",
         "stationAudio": {
-          "id": "quest-07878431a28f0aec",
-          "text": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。"
+          "id": "quest-3b178ba3d4febef9",
+          "text": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。"
         },
         "closingAudio": {
           "id": "quest-62ec1dc3ccf2f779",
@@ -211,7 +268,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "鹿王故事三幅现代学习插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/dunhuang-deer-story-cards-v1-prompt.txt。",
+      "boundary": "根据鹿王故事新绘的学习卡，不是北魏原壁画或真实事件照片。卡片从左到右排教学顺序，原壁画有自己的叙事布局，不能把两种布局混称。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/dunhuang-deer-story-cards-v1.jpg"
     },
@@ -226,7 +283,7 @@
         "license": "项目自制，供本项目使用",
         "clearance": "cleared-project-created",
         "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
-        "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
+        "boundary": "三位现代小伙伴回看旅行手册的教学插画。册页中的器物、圆形与鹿故事是回顾线索，不是原始文物、数学原稿或北魏壁画本体。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/jin-travel-journal-reunion-v1.jpg"
       },
@@ -240,7 +297,7 @@
         "license": "项目自制，供本项目使用",
         "clearance": "cleared-project-created",
         "caption": "鹿王故事三幅现代学习插画；非历史现场复原。",
-        "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/dunhuang-deer-story-cards-v1-prompt.txt。",
+        "boundary": "根据鹿王故事新绘的学习卡，不是北魏原壁画或真实事件照片。卡片从左到右排教学顺序，原壁画有自己的叙事布局，不能把两种布局混称。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/dunhuang-deer-story-cards-v1.jpg"
       }
@@ -327,7 +384,7 @@
           "license": "Public Domain Mark 1.0",
           "clearance": "cleared-open-license",
           "caption": "莫高窟第257窟 · 原壁画局部",
-          "boundary": "开放文件来自古代壁画的二维复制；儿童层必须说明它是洞窟墙面故事画局部，不是完整画面、真实动物照片或现代动画截图。原图912×1135像素。 敦煌莫高窟第257窟北魏鹿王本生故事画中的九色鹿局部。",
+          "boundary": "开放文件来自古代壁画的二维复制；儿童层必须说明它是洞窟墙面故事画局部，不是完整画面、真实动物照片或现代动画截图。 敦煌莫高窟第257窟北魏鹿王本生故事画中的九色鹿局部。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/dunhuang-cave-257-nine-coloured-deer-detail.jpg",
           "label": "点开真材料，听听说明",
@@ -366,7 +423,7 @@
         "studyImageAlt": "北魏壁画，连续故事",
         "imageAlt": "莫高窟第257窟九色鹿壁画局部",
         "imageCaption": "莫高窟第257窟九色鹿壁画局部",
-        "imageBoundary": "开放文件来自古代壁画的二维复制；儿童层必须说明它是洞窟墙面故事画局部，不是完整画面、真实动物照片或现代动画截图。原图912×1135像素。",
+        "imageBoundary": "开放文件来自古代壁画的二维复制；儿童层必须说明它是洞窟墙面故事画局部，不是完整画面、真实动物照片或现代动画截图。",
         "audio": {
           "lead": {
             "id": "quest-d1b6e79a53a6a117",
@@ -624,7 +681,7 @@
         "studyImageAlt": "救助时刻，约定时刻",
         "imageAlt": "鹿王故事三幅现代学习插画",
         "imageCaption": "鹿王故事三幅现代学习插画",
-        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/dunhuang-deer-story-cards-v1-prompt.txt。",
+        "imageBoundary": "根据鹿王故事新绘的学习卡，不是北魏原壁画或真实事件照片。卡片从左到右排教学顺序，原壁画有自己的叙事布局，不能把两种布局混称。",
         "audio": {
           "lead": {
             "id": "quest-ef68721392e46f40",
@@ -700,7 +757,7 @@
         "studyImageAlt": "没有守约，讲清经过",
         "imageAlt": "鹿王故事三幅现代学习插画",
         "imageCaption": "鹿王故事三幅现代学习插画",
-        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/dunhuang-deer-story-cards-v1-prompt.txt。",
+        "imageBoundary": "根据鹿王故事新绘的学习卡，不是北魏原壁画或真实事件照片。卡片从左到右排教学顺序，原壁画有自己的叙事布局，不能把两种布局混称。",
         "audio": {
           "lead": {
             "id": "quest-68651f9d96f92c17",
@@ -776,7 +833,7 @@
         "studyImageAlt": "先前承诺，后来失信",
         "imageAlt": "鹿王故事三幅现代学习插画",
         "imageCaption": "鹿王故事三幅现代学习插画",
-        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/dunhuang-deer-story-cards-v1-prompt.txt。",
+        "imageBoundary": "根据鹿王故事新绘的学习卡，不是北魏原壁画或真实事件照片。卡片从左到右排教学顺序，原壁画有自己的叙事布局，不能把两种布局混称。",
         "audio": {
           "lead": {
             "id": "quest-2edd4d4620727671",
@@ -935,6 +992,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1122,6 +1180,16 @@
       "authorityLevel": "A",
       "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+      "title": "“古代中国”基本陈列：三国两晋南北朝时期",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail5.html",
+      "type": "museum-permanent-exhibition",
+      "authorityLevel": "A",
+      "factUse": "220—589年政权变化、人口迁徙、江南发展、社会生活、青瓷、科技文化和中外交流的总体脉络",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1252,7 +1320,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "今天西安大慈恩寺内的大雁塔。",
-      "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。下载为1920×2560像素等比例图，未作其他修改。",
+      "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。",
       "childVisibility": "child-ok"
     },
     {
@@ -1265,7 +1333,7 @@
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "敦煌莫高窟第257窟北魏鹿王本生故事画中的九色鹿局部。",
-      "boundary": "开放文件来自古代壁画的二维复制；儿童层必须说明它是洞窟墙面故事画局部，不是完整画面、真实动物照片或现代动画截图。原图912×1135像素。",
+      "boundary": "开放文件来自古代壁画的二维复制；儿童层必须说明它是洞窟墙面故事画局部，不是完整画面、真实动物照片或现代动画截图。",
       "childVisibility": "child-ok"
     },
     {
@@ -1278,7 +1346,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "鹿王故事三幅现代学习插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/dunhuang-deer-story-cards-v1-prompt.txt。",
+      "boundary": "根据鹿王故事新绘的学习卡，不是北魏原壁画或真实事件照片。卡片从左到右排教学顺序，原壁画有自己的叙事布局，不能把两种布局混称。",
       "childVisibility": "child-ok"
     },
     {
@@ -1291,7 +1359,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
+      "boundary": "三位现代小伙伴回看旅行手册的教学插画。册页中的器物、圆形与鹿故事是回顾线索，不是原始文物、数学原稿或北魏壁画本体。",
       "childVisibility": "child-ok"
     }
   ],
@@ -1303,5 +1371,6 @@
     "assets": "cleared",
     "audio": "not-started",
     "review": "pending"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

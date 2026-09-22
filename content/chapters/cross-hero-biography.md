@@ -8,118 +8,124 @@
 - 互动：5个
 - 状态：事实研究完成，儿童稿和语音稿初稿
 
+- 本轮适龄复核：2026-09-22仅校准成人记录与儿童观察的分工；编辑长稿仍待重写、校听和真实共玩，不直接作为学前主线。
+
 ## 本章结论
 
 讲一位历史人物，不能只重复一个响亮称号，也不能用一张肖像替代一生。林则徐生于1785年，长期担任清朝官员并参与治水、禁烟、海防、翻译西方资料和新疆水利事务；1839年虎门销烟是他最重要的历史行动之一。国家档案局和中国国家博物馆保存、研究的《虎门销烟完竣折》由林则徐、邓廷桢、怡良共同上奏，能核对时间、数量和行动参与者；销烟池铺地石、19世纪艺术作品、鸦片烟具、人物肖像、书法和现代纪念建筑又分别回答不同问题。可靠的人物档案要把人放回时代和集体行动中，用“事实—证据—边界”说明评价：林则徐主持禁烟、抵抗外来侵略并关注民生，因此被后人纪念；他仍受到清代知识和制度条件限制，也不是独自完成所有行动。跨到同一时期的世界，玻利瓦尔的文稿、秘书记录、肖像与后世历史画同样需要分清第一手文献、艺术表达和后来记忆；比较证据，不是给英雄排高低。
 
-## 86条事实卡
-
+## 事实卡
 ### 先把人物放回时间线
 
-1. 教育部《义务教育历史课程标准（2022年版）》把“中华英雄谱”列为跨学科主题学习参考示例，任务重点是搜集、整理、判断和表达史料，不是背一串称号。[MOE-HISTORY-CURRICULUM-2022]
-2. 人民教育出版社的新修订教材使用建议强调把人物和事件放进具体时空、前后联系和可信史料中理解。[PEP-HISTORY-8-2025-GUIDANCE]
-3. 林则徐生于1785年，籍贯为福建侯官，也就是今天福州一带。[XINJIANG-WATER-LIN-ZEXU-2025]
-4. 1811年，林则徐考中进士，后来在中央和多个地方担任官职。[XINJIANG-WATER-LIN-ZEXU-2025]
-5. 林则徐的任职经历不只包含禁烟；他还处理司法、赈灾、河工、海塘和地方治理事务。[XINJIANG-WATER-LIN-ZEXU-2025]
-6. 1830年代初，林则徐曾担任东河河道总督，治理黄河、运河等河务是他履历中的重要部分。[XINJIANG-WATER-LIN-ZEXU-2025]
-7. 1838年底，清朝任命林则徐为钦差大臣，前往广东查禁鸦片。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-8. 1839年3月，林则徐抵达广州开展禁烟，禁烟行动发生在鸦片大量走私、损害民众健康并影响社会经济的背景下。[NMC-HUMEN-STONE; NMC-OPIUM-PARAPHERNALIA]
-9. 1839年6月3日至25日，林则徐在虎门监督销毁收缴的两万余箱、共2376254斤鸦片。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-10. 1839年7月5日，林则徐与两广总督邓廷桢、广东巡抚怡良共同上奏，报告销烟完成。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL; SAAC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-11. 1840年，英国政府为维护和扩大在华利益发动鸦片战争；禁烟保护民众与发动侵略战争的责任必须分开。[NOPSS-CHINA-MODERN-HISTORY; NMC-OPIUM-PARAPHERNALIA]
-12. 战争期间，清政府撤换并处分林则徐，后来把他遣往新疆；人物受到处分不表示先前行动从历史中消失。[NOPSS-CHINA-MODERN-HISTORY; XINJIANG-WATER-LIN-ZEXU-2025]
-13. 在新疆期间，林则徐继续勘察土地、水源和边防，并参与水渠、屯田等事务。[XINJIANG-WATER-LIN-ZEXU-2025]
-14. 1844年前后，林则徐参与伊犁阿齐乌苏大渠等水利工作；工程仍依靠当地官员、工匠和民众共同完成。[XINJIANG-WATER-LIN-ZEXU-2025]
-15. 林则徐于1850年去世；“1785—1850”只是生命范围，人物档案仍要把行动放入具体年份。[XINJIANG-WATER-LIN-ZEXU-2025]
-16. 2004年的福州照片记录了一处林则徐纪念建筑入口，属于后世纪念时间线，不是清代历史现场。[COMMONS-LIN-ZEXU-MEMORIAL-FUZHOU-2004]
+1. 人民教育出版社的新修订教材使用建议强调把人物和事件放进具体时空、前后联系和可信史料中理解。[PEP-HISTORY-8-2025-GUIDANCE]
+2. 林则徐生于1785年，籍贯为福建侯官，也就是今天福州一带。[XINJIANG-WATER-LIN-ZEXU-2025]
+3. 1811年，林则徐考中进士，后来在中央和多个地方担任官职。[XINJIANG-WATER-LIN-ZEXU-2025]
+4. 林则徐的任职经历不只包含禁烟；他还处理司法、赈灾、河工、海塘和地方治理事务。[XINJIANG-WATER-LIN-ZEXU-2025]
+5. 1830年代初，林则徐曾担任东河河道总督，治理黄河、运河等河务是他履历中的重要部分。[XINJIANG-WATER-LIN-ZEXU-2025]
+6. 1838年底，清朝任命林则徐为钦差大臣，前往广东查禁鸦片。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+7. 1839年3月，林则徐抵达广州开展禁烟，禁烟行动发生在鸦片大量走私、损害民众健康并影响社会经济的背景下。[NMC-HUMEN-STONE; NMC-OPIUM-PARAPHERNALIA]
+8. 1839年6月3日至25日，林则徐在虎门监督销毁收缴的两万余箱、共2376254斤鸦片。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+9. 1839年7月5日，林则徐与两广总督邓廷桢、广东巡抚怡良共同上奏，报告销烟完成。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL; SAAC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+10. 1840年，英国政府为维护和扩大在华利益发动鸦片战争；禁烟保护民众与发动侵略战争的责任必须分开。[NOPSS-CHINA-MODERN-HISTORY; NMC-OPIUM-PARAPHERNALIA]
+11. 战争期间，清政府撤换并处分林则徐，后来把他遣往新疆；人物受到处分不表示先前行动从历史中消失。[NOPSS-CHINA-MODERN-HISTORY; XINJIANG-WATER-LIN-ZEXU-2025]
+12. 在新疆期间，林则徐继续勘察土地、水源和边防，并参与水渠、屯田等事务。[XINJIANG-WATER-LIN-ZEXU-2025]
+13. 1844年前后，林则徐参与伊犁阿齐乌苏大渠等水利工作；工程仍依靠当地官员、工匠和民众共同完成。[XINJIANG-WATER-LIN-ZEXU-2025]
+14. 林则徐于1850年去世；“1785—1850”只是生命范围，人物档案仍要把行动放入具体年份。[XINJIANG-WATER-LIN-ZEXU-2025]
+15. 2004年的福州照片记录了一处林则徐纪念建筑入口，属于后世纪念时间线，不是清代历史现场。[COMMONS-LIN-ZEXU-MEMORIAL-FUZHOU-2004]
 
 ### 一张肖像能回答什么，不能回答什么
 
-17. 本章肖像被文件页标作19世纪关乔昌绘制的林则徐画像，是油画作品，不是照片。[COMMONS-LIN-ZEXU-PORTRAIT-19C]
-18. 肖像能帮助确认后人保存、传播的人物形象，也能观察画家使用的构图、服饰和绘画材料。[COMMONS-LIN-ZEXU-PORTRAIT-19C]
-19. 肖像不能证明林则徐在虎门销烟时站在哪里、说了什么或怎样组织现场。[COMMONS-LIN-ZEXU-PORTRAIT-19C; NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-20. 画中人物表情不能直接证明他“正在担心”“非常愤怒”或“已经知道战争会发生”。[COMMONS-LIN-ZEXU-PORTRAIT-19C]
-21. 正式肖像会经过画家选择和整理，因此“画得像谁”和“这个人做了什么”是两个问题。[COMMONS-LIN-ZEXU-PORTRAIT-19C]
-22. 19世纪中国画家描绘虎门销烟的作品也是历史图像，但它仍是艺术作品，不是照相机记录的现场。[NMC-HUMEN-STONE]
-23. 历史画可以说明人们怎样表现一次事件，却不能单独提供准确人数、动作顺序和销毁数量。[NMC-HUMEN-STONE; NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-24. 销烟池铺地石是从遗址出土的实物，能连接地点和工程遗存；一块石头不能复原整座销烟池和全部行动。[NMC-HUMEN-STONE]
-25. 本章展示的19世纪鸦片烟管高35.5厘米、宽8厘米，是博物馆器物，不属于林则徐个人。[COMMONS-OPIUM-PIPE-WILANOW-19C]
-26. 鸦片烟具能说明毒品使用需要特定器物，却不能从一件收藏品计算当时吸食人数或走私数量。[COMMONS-OPIUM-PIPE-WILANOW-19C; NMC-OPIUM-PARAPHERNALIA]
-27. 鸦片烟管的金属装饰不是“好玩”或“值得尝试”的理由；儿童版只讨论器物身份和毒品危害，不展示使用方法。[COMMONS-OPIUM-PIPE-WILANOW-19C; NMC-OPIUM-PARAPHERNALIA]
-28. 人物肖像、历史画、遗址石和烟具回答的问题不同，把它们放在一起才能形成更完整的情境。[MOE-HISTORY-CURRICULUM-2022; NMC-HUMEN-STONE]
+16. 本章肖像被文件页标作19世纪关乔昌绘制的林则徐画像，是油画作品，不是照片。[COMMONS-LIN-ZEXU-PORTRAIT-19C]
+17. 肖像能帮助确认后人保存、传播的人物形象，也能观察画家使用的构图、服饰和绘画材料。[COMMONS-LIN-ZEXU-PORTRAIT-19C]
+18. 肖像不能证明林则徐在虎门销烟时站在哪里、说了什么或怎样组织现场。[COMMONS-LIN-ZEXU-PORTRAIT-19C; NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+19. 画中人物表情不能直接证明他“正在担心”“非常愤怒”或“已经知道战争会发生”。[COMMONS-LIN-ZEXU-PORTRAIT-19C]
+20. 正式肖像会经过画家选择和整理，因此“画得像谁”和“这个人做了什么”是两个问题。[COMMONS-LIN-ZEXU-PORTRAIT-19C]
+21. 19世纪中国画家描绘虎门销烟的作品也是历史图像，但它仍是艺术作品，不是照相机记录的现场。[NMC-HUMEN-STONE]
+22. 历史画可以说明人们怎样表现一次事件，却不能单独提供准确人数、动作顺序和销毁数量。[NMC-HUMEN-STONE; NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+23. 销烟池铺地石是从遗址出土的实物，能连接地点和工程遗存；一块石头不能复原整座销烟池和全部行动。[NMC-HUMEN-STONE]
+24. 本章展示的19世纪鸦片烟管高35.5厘米、宽8厘米，是博物馆器物，不属于林则徐个人。[COMMONS-OPIUM-PIPE-WILANOW-19C]
+25. 鸦片烟具能说明毒品使用需要特定器物，却不能从一件收藏品计算当时吸食人数或走私数量。[COMMONS-OPIUM-PIPE-WILANOW-19C; NMC-OPIUM-PARAPHERNALIA]
+26. 鸦片烟管的金属装饰不是“好玩”或“值得尝试”的理由；儿童版只讨论器物身份和毒品危害，不展示使用方法。[COMMONS-OPIUM-PIPE-WILANOW-19C; NMC-OPIUM-PARAPHERNALIA]
+27. 人物肖像、历史画、遗址石和烟具回答的问题不同，把它们放在一起才能形成更完整的情境。[MOE-HISTORY-CURRICULUM-2022; NMC-HUMEN-STONE]
 
 ### 文书为什么比一句传奇更能核对行动
 
-29. 《虎门销烟完竣折》是销烟完成后向皇帝报告的奏折，属于清代官府文书。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-30. 中国国家博物馆登记这份奏折纵21.7厘米、横10厘米；尺寸说明原件形态，不说明全文只有一页。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-31. 奏折原为清宫档案，后来由章士钊收藏并捐赠中国国家博物馆。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-32. 国家档案局把《虎门销烟完竣折》列入中国档案文献遗产名录，说明它作为档案原件受到保存和确认。[SAAC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-33. 奏折题名同时出现林则徐、邓廷桢和怡良，能直接纠正“林则徐一个人完成全部销烟”的写法。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL; SAAC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-34. 官员共同上奏仍不能代表所有参与者；现场还需要负责接收、核验、看守、运输和执行的许多人。[NMC-HUMEN-STONE; NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-35. 奏折记录报告者希望皇帝知道的内容，因此它是重要第一手文书，也有特定写作目的和官府立场。[MOE-HISTORY-CURRICULUM-2022; NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-36. “第一手”表示材料形成于人物和事件所在时代附近，不表示每一句话自动完整、中立或不需要核对。[MOE-HISTORY-CURRICULUM-2022]
-37. 博物馆说明可以帮助儿童了解文书背景，却不能取代原件；网页缩略图也不等于原件已经放进孩子手中。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-38. 中国国家博物馆不同简介页面对销烟结束日期有“23日”和“25日”等简写差别；本章采用直接介绍完竣折的“6月3日至25日”口径，并保留来源。[NMC-HUMEN-STONE; NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-39. 发现两个页面数字不同，不应随意挑喜欢的答案；应比较页面用途、档案依据和是否直接讨论同一份文书。[MOE-HISTORY-CURRICULUM-2022]
-40. “2376254斤”是奏折相关记录中的历史计量口径，不能直接当成现代精密称重报告，也不要求低龄儿童背下全部数字。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-41. 儿童稿可以说“两百三十七万多斤”，档案卡再保留完整数字；简化语言不能改变数量级。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-42. 可靠复述至少要包含“谁参与、什么时候、在哪里、做了什么、由什么证据支持”五个部分。[MOE-HISTORY-CURRICULUM-2022]
+28. 《虎门销烟完竣折》是销烟完成后向皇帝报告的奏折，属于清代官府文书。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+29. 中国国家博物馆登记这份奏折纵21.7厘米、横10厘米；尺寸说明原件形态，不说明全文只有一页。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+30. 奏折原为清宫档案，后来由章士钊收藏并捐赠中国国家博物馆。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+31. 国家档案局把《虎门销烟完竣折》列入中国档案文献遗产名录，说明它作为档案原件受到保存和确认。[SAAC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+32. 奏折题名同时出现林则徐、邓廷桢和怡良，能直接纠正“林则徐一个人完成全部销烟”的写法。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL; SAAC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+33. 官员共同上奏仍不能代表所有参与者；现场还需要负责接收、核验、看守、运输和执行的许多人。[NMC-HUMEN-STONE; NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+34. 奏折记录报告者希望皇帝知道的内容，因此它是重要第一手文书，也有特定写作目的和官府立场。[MOE-HISTORY-CURRICULUM-2022; NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+35. 博物馆说明可以帮助儿童了解文书背景，却不能取代原件；网页缩略图也不等于原件已经放进孩子手中。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+36. 中国国家博物馆不同简介页面对销烟结束日期有“23日”和“25日”等简写差别；本章采用直接介绍完竣折的“6月3日至25日”口径，并保留来源。[NMC-HUMEN-STONE; NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+37. “2376254斤”是奏折相关记录中的历史计量口径，不能直接当成现代精密称重报告，也不要求低龄儿童背下全部数字。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+38. 儿童稿可以说“两百三十七万多斤”，档案卡再保留完整数字；简化语言不能改变数量级。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
 
 ### 虎门之后，为什么还要继续看人物的一生
 
-43. 只用虎门销烟一件事概括林则徐，会漏掉他此前和此后的地方治理、治水、翻译与边防经历。[XINJIANG-WATER-LIN-ZEXU-2025; NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
-44. 林则徐在广州收集外文书报，并组织翻译、整理有关世界地理、新闻和法律的材料。[NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
-45. 《澳门月报》《华事夷言》《四洲志》《各国律例》等名称，说明获取世界知识需要翻译者、资料来源和整理过程。[NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
-46. “组织翻译”不等于林则徐独自读懂并写成所有外文资料；译者、抄写者和信息提供者同样参与知识生产。[NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
-47. 收集更多资料也不表示林则徐已经完全理解工业化英国、国际关系和战争能力。[NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
-48. 中国国家博物馆研究指出，他在注意外部世界的同时，仍受清朝旧有“天朝”观念和治理方式限制。[NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
-49. 说明人物局限不是抹去贡献，而是把评价从神话变成有证据的历史判断。[MOE-HISTORY-CURRICULUM-2022; NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
-50. 林则徐被遣往新疆以后继续参与水利和屯田，说明人物经历会在政治处境改变后出现新的行动线索。[XINJIANG-WATER-LIN-ZEXU-2025]
-51. 新疆水利厅资料记载他勘察水源、土地和渠道，并把以往治水经验用于当地事务。[XINJIANG-WATER-LIN-ZEXU-2025]
-52. 后人把一些渠道、坎儿井和工具称为“林公渠”“林公井”“林公车”，这些名称首先是纪念线索，还需工程档案和地方资料核对具体归属。[XINJIANG-WATER-LIN-ZEXU-2025]
-53. 一项水利工程不能由一个官员亲手完成；调查、设计、出资、施工、维护和使用都涉及不同人群。[XINJIANG-WATER-LIN-ZEXU-2025]
-54. 本章不把新疆经历写成“被处分后一个人开出绿洲”的奇迹故事，而写成他参与地方水利的可核行动。[XINJIANG-WATER-LIN-ZEXU-2025]
-55. 林则徐的行书轴为清代纸本书法，纵154厘米、横68厘米，现藏上海博物馆。[COMMONS-LIN-ZEXU-CALLIGRAPHY]
-56. 书法轴由林则徐书写，能作为他的书写作品和落款印章证据，却不是《虎门销烟完竣折》。[COMMONS-LIN-ZEXU-CALLIGRAPHY; NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-57. 只看笔画好不好看，不能判断一个人的政策、勇气和历史影响；书法审美与历史评价要分开。[COMMONS-LIN-ZEXU-CALLIGRAPHY]
+39. 只用虎门销烟一件事概括林则徐，会漏掉他此前和此后的地方治理、治水、翻译与边防经历。[XINJIANG-WATER-LIN-ZEXU-2025; NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
+40. 林则徐在广州收集外文书报，并组织翻译、整理有关世界地理、新闻和法律的材料。[NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
+41. 《澳门月报》《华事夷言》《四洲志》《各国律例》等名称，说明获取世界知识需要翻译者、资料来源和整理过程。[NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
+42. “组织翻译”不等于林则徐独自读懂并写成所有外文资料；译者、抄写者和信息提供者同样参与知识生产。[NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
+43. 收集更多资料也不表示林则徐已经完全理解工业化英国、国际关系和战争能力。[NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
+44. 中国国家博物馆研究指出，他在注意外部世界的同时，仍受清朝旧有“天朝”观念和治理方式限制。[NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
+45. 说明人物局限不是抹去贡献，而是把评价从神话变成有证据的历史判断。[MOE-HISTORY-CURRICULUM-2022; NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
+46. 林则徐被遣往新疆以后继续参与水利和屯田，说明人物经历会在政治处境改变后出现新的行动线索。[XINJIANG-WATER-LIN-ZEXU-2025]
+47. 新疆水利厅资料记载他勘察水源、土地和渠道，并把以往治水经验用于当地事务。[XINJIANG-WATER-LIN-ZEXU-2025]
+48. 后人把一些渠道、坎儿井和工具称为“林公渠”“林公井”“林公车”，这些名称首先是纪念线索，还需工程档案和地方资料核对具体归属。[XINJIANG-WATER-LIN-ZEXU-2025]
+49. 一项水利工程不能由一个官员亲手完成；调查、设计、出资、施工、维护和使用都涉及不同人群。[XINJIANG-WATER-LIN-ZEXU-2025]
+50. 本章不把新疆经历写成“被处分后一个人开出绿洲”的奇迹故事，而写成他参与地方水利的可核行动。[XINJIANG-WATER-LIN-ZEXU-2025]
+51. 林则徐的行书轴为清代纸本书法，纵154厘米、横68厘米，现藏上海博物馆。[COMMONS-LIN-ZEXU-CALLIGRAPHY]
+52. 书法轴由林则徐书写，能作为他的书写作品和落款印章证据，却不是《虎门销烟完竣折》。[COMMONS-LIN-ZEXU-CALLIGRAPHY; NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+53. 只看笔画好不好看，不能判断一个人的政策、勇气和历史影响；书法审美与历史评价要分开。[COMMONS-LIN-ZEXU-CALLIGRAPHY]
 
 ### “英雄”是一种评价，怎样让评价有证据
 
-58. “林则徐主持虎门销烟”是可以用文书、遗址和博物馆记录核对的事实判断。[NMC-HUMEN-STONE; NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-59. “这项行动维护民族尊严、反抗外来侵略”是把行动放入中国近代史主线后形成的历史评价。[NOPSS-CHINA-MODERN-HISTORY; NMC-HUMEN-STONE]
-60. “民族英雄”是对人物行动、担当和历史意义的概括，不是出生时就贴在身上的标签。[MOE-HISTORY-CURRICULUM-2022; NMC-HUMEN-STONE]
-61. 评价人物不能只写“他很勇敢”，还要说明在什么问题上作出什么行动、承担什么后果、留下什么影响。[MOE-HISTORY-CURRICULUM-2022]
-62. 英雄人物仍会受时代知识、制度位置和个人判断限制；有贡献与有局限可以同时成立。[NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
-63. 把所有成就归给一个人，会抹去邓廷桢、怡良、关天培、翻译者、工匠、士兵、地方官员和普通民众等参与者。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL; NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
-64. 把所有历史变化归给一个人，也会漏掉鸦片走私、英国工业化和海外扩张、清政府制度与战争决策等更大背景。[NOPSS-CHINA-MODERN-HISTORY; NMC-OPIUM-PARAPHERNALIA]
-65. 现代纪念馆、纪念碑和教材说明后人怎样选择和讲述人物，不等同于人物生前已经知道自己会怎样被纪念。[COMMONS-LIN-ZEXU-MEMORIAL-FUZHOU-2004]
-66. 2004年纪念建筑照片能证明拍摄时入口外观和匾额，不能证明建筑始建年代、历次修缮和每件馆藏来源。[COMMONS-LIN-ZEXU-MEMORIAL-FUZHOU-2004]
-67. “事实—评价—纪念”三栏并列，可以让孩子看见：发生过什么、我们怎样解释、后人怎样记住，是三个相连但不同的问题。[MOE-HISTORY-CURRICULUM-2022]
-68. 没有来源的精彩对白、秘密心情、临终嘱托和童年奇遇不能放进事实栏。[MOE-HISTORY-CURRICULUM-2022]
-69. 如果为了游戏加入角色口吻，必须明确标为创意表达，且不能让虚构台词承担关键事实。[MOE-HISTORY-CURRICULUM-2022]
+54. “林则徐主持虎门销烟”是可以用文书、遗址和博物馆记录核对的事实判断。[NMC-HUMEN-STONE; NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+55. “这项行动维护民族尊严、反抗外来侵略”是把行动放入中国近代史主线后形成的历史评价。[NOPSS-CHINA-MODERN-HISTORY; NMC-HUMEN-STONE]
+56. “民族英雄”是对人物行动、担当和历史意义的概括，不是出生时就贴在身上的标签。[MOE-HISTORY-CURRICULUM-2022; NMC-HUMEN-STONE]
+57. 英雄人物仍会受时代知识、制度位置和个人判断限制；有贡献与有局限可以同时成立。[NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
+58. 把所有成就归给一个人，会抹去邓廷桢、怡良、关天培、翻译者、工匠、士兵、地方官员和普通民众等参与者。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL; NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
+59. 把所有历史变化归给一个人，也会漏掉鸦片走私、英国工业化和海外扩张、清政府制度与战争决策等更大背景。[NOPSS-CHINA-MODERN-HISTORY; NMC-OPIUM-PARAPHERNALIA]
+60. 现代纪念馆、纪念碑和教材说明后人怎样选择和讲述人物，不等同于人物生前已经知道自己会怎样被纪念。[COMMONS-LIN-ZEXU-MEMORIAL-FUZHOU-2004]
+61. 2004年纪念建筑照片能证明拍摄时入口外观和匾额，不能证明建筑始建年代、历次修缮和每件馆藏来源。[COMMONS-LIN-ZEXU-MEMORIAL-FUZHOU-2004]
 
 ### 同一时期的世界人物，证据为什么不一样
 
-70. 19世纪初，拉丁美洲多地发生反对西班牙和葡萄牙殖民统治的独立运动，与清代中国面临的问题和社会结构并不相同。[MOE-HISTORY-CURRICULUM-2022; UNESCO-BOLIVAR-WRITINGS]
-71. 玻利瓦尔是拉丁美洲北部独立运动的重要人物，但独立由多地区、多领导者、军队、民众和国际援助共同推动。[UNESCO-BOLIVAR-WRITINGS]
-72. 联合国教科文组织“世界记忆”项目登记了1813—1830年的玻利瓦尔文稿群，人物研究可以依靠一组长期形成的文献，而不是一句名言。[UNESCO-BOLIVAR-WRITINGS]
-73. 1815年《牙买加来信》由流亡中的玻利瓦尔口述、秘书记录，因此“内容来自谁”和“笔迹属于谁”需要分开。[UNESCO-JAMAICA-LETTER-1815]
-74. 约1823年的玻利瓦尔油画接近独立战争后期，仍是正式肖像，不是战场照片，也不能代表全部独立运动。[UNESCO-BOLIVAR-WRITINGS]
-75. 比较林则徐和玻利瓦尔时，可以比较“有哪些文书、谁书写、图像何时形成、后人怎样纪念”，不能用战争规模、领土或个人声望做英雄积分。[MOE-HISTORY-CURRICULUM-2022; UNESCO-BOLIVAR-WRITINGS]
-76. 两人的肖像都能显示后世保存的人物形象，却不能单独证明行动；两人的文书又因行政制度和形成方式不同而需要不同读法。[COMMONS-LIN-ZEXU-PORTRAIT-19C; UNESCO-BOLIVAR-WRITINGS]
-77. 世界连接的目的，是让孩子看见不同地区都需要用证据研究人物，不是用外国人物替换中国主轴。[MOE-HISTORY-CURRICULUM-2022]
+62. 19世纪初，拉丁美洲多地发生反对西班牙和葡萄牙殖民统治的独立运动，与清代中国面临的问题和社会结构并不相同。[MOE-HISTORY-CURRICULUM-2022; UNESCO-BOLIVAR-WRITINGS]
+63. 玻利瓦尔是拉丁美洲北部独立运动的重要人物，但独立由多地区、多领导者、军队、民众和国际援助共同推动。[UNESCO-BOLIVAR-WRITINGS]
+64. 联合国教科文组织“世界记忆”项目登记了1813—1830年的玻利瓦尔文稿群，人物研究可以依靠一组长期形成的文献，而不是一句名言。[UNESCO-BOLIVAR-WRITINGS]
+65. 1815年《牙买加来信》由流亡中的玻利瓦尔口述、秘书记录，因此“内容来自谁”和“笔迹属于谁”需要分开。[UNESCO-JAMAICA-LETTER-1815]
+66. 约1823年的玻利瓦尔油画接近独立战争后期，仍是正式肖像，不是战场照片，也不能代表全部独立运动。[UNESCO-BOLIVAR-WRITINGS]
+67. 比较林则徐和玻利瓦尔时，可以比较“有哪些文书、谁书写、图像何时形成、后人怎样纪念”，不能用战争规模、领土或个人声望做英雄积分。[MOE-HISTORY-CURRICULUM-2022; UNESCO-BOLIVAR-WRITINGS]
+68. 两人的肖像都能显示后世保存的人物形象，却不能单独证明行动；两人的文书又因行政制度和形成方式不同而需要不同读法。[COMMONS-LIN-ZEXU-PORTRAIT-19C; UNESCO-BOLIVAR-WRITINGS]
 
 ### 一份合格人物档案要留下哪些边界
 
-78. 档案首页先写姓名、生卒年和时间线；称号放在“后人评价”栏，不放在姓名前代替全部介绍。[MOE-HISTORY-CURRICULUM-2022]
-79. 每条行动卡至少连接一个明确来源 ID；如果只有“听说”，就放入待核查区。[MOE-HISTORY-CURRICULUM-2022]
-80. 每张图片都要标明“原物／原文书／同时代艺术／后人作品／现代照片”中的一种身份。[MOE-HISTORY-CURRICULUM-2022]
-81. 人物肖像的说明要写“画作”或“照片”及年代，不能统一称为“真实现场”。[COMMONS-LIN-ZEXU-PORTRAIT-19C]
-82. 器物说明要写名称、年代、材料、尺寸、收藏机构和“是否属于人物本人”；本章烟管明确不是林则徐个人物品。[COMMONS-OPIUM-PIPE-WILANOW-19C]
-83. 事件说明要出现共同参与者和时代条件，避免“一个人按下按钮就改变历史”。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
-84. 评价说明要同时给出支持证据和必要边界，例如“主持禁烟、维护民族尊严；仍受当时知识和制度限制”。[NMC-HUMEN-STONE; NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
-85. 最后一行用儿童自己的话回答“我知道什么—证据是什么—我还不知道什么”，比背诵一句赞美更能证明学会了历史方法。[MOE-HISTORY-CURRICULUM-2022]
-86. 完成的人物档案不是“永远定稿”；出现更可靠的新材料时，应保留原来源并说明为什么修改。[MOE-HISTORY-CURRICULUM-2022]
+69. 人物肖像的说明要写“画作”或“照片”及年代，不能统一称为“真实现场”。[COMMONS-LIN-ZEXU-PORTRAIT-19C]
+70. 器物说明要写名称、年代、材料、尺寸、收藏机构和“是否属于人物本人”；本章烟管明确不是林则徐个人物品。[COMMONS-OPIUM-PIPE-WILANOW-19C]
+71. 事件说明要出现共同参与者和时代条件，避免“一个人按下按钮就改变历史”。[NMC-LIN-ZEXU-HUMEN-COMPLETION-MEMORIAL]
+72. 评价说明要同时给出支持证据和必要边界，例如“主持禁烟、维护民族尊严；仍受当时知识和制度限制”。[NMC-HUMEN-STONE; NMC-LIN-ZEXU-WORLD-TRANSLATIONS]
+
+## 学习设计与史料阅读方法
+
+以下是史料阅读方法和本项目的活动安排，单独列出，不计作历史事件或器物事实。课程标准用于方法参考；具体表格、数量和操作要求由项目设计。成人负责整理记录，孩子可以指图、做动作或口述，不要求独立填表或背诵固定答案。
+
+1. 教育部《义务教育历史课程标准（2022年版）》把“中华英雄谱”列为跨学科主题学习参考示例，任务重点是搜集、整理、判断和表达史料，不是背一串称号。[MOE-HISTORY-CURRICULUM-2022]
+2. “第一手”表示材料形成于人物和事件所在时代附近，不表示每一句话自动完整、中立或不需要核对。[MOE-HISTORY-CURRICULUM-2022]
+3. 发现两个页面数字不同，不应随意挑喜欢的答案；应比较页面用途、档案依据和是否直接讨论同一份文书。[MOE-HISTORY-CURRICULUM-2022]
+4. 成人整理人物资料时核对参与者、时间、地点、行动与依据；儿童可以先指出一个具体行动，不要求一次复述五个要素。[MOE-HISTORY-CURRICULUM-2022]
+5. 评价人物不能只写“他很勇敢”，还要说明在什么问题上作出什么行动、承担什么后果、留下什么影响。[MOE-HISTORY-CURRICULUM-2022]
+6. “事实—评价—纪念”三栏并列，可以让孩子看见：发生过什么、我们怎样解释、后人怎样记住，是三个相连但不同的问题。[MOE-HISTORY-CURRICULUM-2022]
+7. 没有来源的精彩对白、秘密心情、临终嘱托和童年奇遇不能放进事实栏。[MOE-HISTORY-CURRICULUM-2022]
+8. 如果为了游戏加入角色口吻，必须明确标为创意表达，且不能让虚构台词承担关键事实。[MOE-HISTORY-CURRICULUM-2022]
+9. 世界连接的目的，是让孩子看见不同地区都需要用证据研究人物，不是用外国人物替换中国主轴。[MOE-HISTORY-CURRICULUM-2022]
+10. 档案首页先写姓名、生卒年和时间线；称号放在“后人评价”栏，不放在姓名前代替全部介绍。[MOE-HISTORY-CURRICULUM-2022]
+11. 每条行动卡至少连接一个明确来源 ID；如果只有“听说”，就放入待核查区。[MOE-HISTORY-CURRICULUM-2022]
+12. 每张图片都要标明“原物／原文书／同时代艺术／后人作品／现代照片”中的一种身份。[MOE-HISTORY-CURRICULUM-2022]
+13. 最后请孩子用指图或自己的话表达一个发现；成人记录是否给过提示。一次表达不能独自证明已经掌握历史方法。[MOE-HISTORY-CURRICULUM-2022]
+14. 完成的人物档案不是“永远定稿”；出现更可靠的新材料时，应保留原来源并说明为什么修改。[MOE-HISTORY-CURRICULUM-2022]
 
 ## 7屏儿童页面、6段语音与5个互动
 
@@ -225,7 +231,7 @@
 
 **互动5：制作并讲解档案**
 
-- 孩子从“主持禁烟、组织翻译、参与治水、受到处分、后人纪念”中选3条行动，每条必须连接来源卡。
+- 成人先选一张文物或文书图，讲一个有依据的行动。孩子指出人物在做什么；来源卡由成人连接，更多行动另作可选加餐。
 - 再选1条评价和1条边界，组成完整结论，例如：“林则徐主持禁烟并维护民族尊严；《完竣折》和遗址支持这件事；三人署名也提醒我，行动不是他一人完成。”
 - 点“听我的档案”时，客户端按已选卡片拼接预录本地短句；不上传儿童声音，不调用在线生成模型。
 

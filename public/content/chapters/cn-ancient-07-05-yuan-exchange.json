@@ -7,7 +7,24 @@
   "period": {
     "id": "yuan",
     "label": "元朝",
-    "years": "1271—1368年"
+    "years": "1271—1368年",
+    "learningContext": {
+      "childIntro": "许多政权并立之后，元朝完成统一。地方事情怎样办理，消息怎样送远？我们去看地方分工和驿站。",
+      "chronology": "1271年定国号元，1279年南宋结束、元完成统一，1368年元朝在全国的统治结束；不能压为一次换牌。",
+      "covered": "中央地方分工、官驿规则、运输供给与劳动。",
+      "scopeBoundary": "元代族群、社会差异及海上交往在背景稿中；行省与今天省份不完全相同，也不把官驿等同全部商路。",
+      "sourceIds": [
+        "NMC-LIAO-SONG-XIA-JIN-YUAN"
+      ],
+      "sources": [
+        {
+          "id": "NMC-LIAO-SONG-XIA-JIN-YUAN",
+          "title": "“古代中国”基本陈列：辽宋夏金元时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+        }
+      ]
+    }
   },
   "order": 31,
   "title": "更大的交通网络带来什么",
@@ -18,16 +35,47 @@
     "childTitle": "元代驿站，怎样把消息接下去？",
     "prompt": "送公文的人来到驿站，先要核对凭证，再准备下一程的马匹和粮草。消息要走远，谁来接这一棒？",
     "takeaway": "元代驿站主要服务官方通信和运输。核对凭证、准备马匹粮草、交接文书，需要不同的人配合。道路与港口连接往来，也靠许多人的劳动。",
-    "object": "驿站凭证、海船遗物与路线图",
+    "object": "元代八思巴文铁牌 · 正面",
     "people": [
       "元代使者、驿站人员",
       "供给物资的家庭"
     ],
-    "place": "大都、泉州与欧亚交通网络",
-    "culture": "旅行记录与多语言交流",
+    "place": "元代官驿；宋代始建洛阳桥的现状对照",
+    "culture": "八思巴文通行牌与官驿制度",
     "care": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
     "playableSource": "content/focused-quests.json",
     "preferredAssetId": "yuan-relay-work-v1"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-07-05-yuan-exchange",
+    "theme": "交通和交往",
+    "learningGoal": "官驿接力靠规定、凭证、马匹粮草与供给劳动。",
+    "parentQuestion": "为什么有一匹马，还不等于消息就能一直送下去？",
+    "observe": "依次指凭证、备草、下一程，说明接力需要不同工作与使用规矩。",
+    "misconception": "符牌不属于所有人的通用门票，不编造馆藏牌的特定持有人。",
+    "evidenceStepIds": [
+      "time",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "NMC-LIAO-SONG-XIA-JIN-YUAN",
+      "MET-YUAN-PAIZA",
+      "HEBEI-YUAN-RELAY",
+      "GANSU-YUAN-PAIZA-RESEARCH",
+      "UNESCO-SONG-YUAN-QUANZHOU"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-04-03-silk-road",
+        "relation": "对照汉代出使后的往来，分清不同年代、官驿与商路。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "驿站",
+      "制度",
+      "交流"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-07-05-yuan-exchange",
@@ -98,38 +146,10 @@
   ],
   "glossary": [
     {
-      "term": "交流",
-      "icon": "↔️",
-      "plain": "不同的人把物品、知识或做法带给彼此。",
-      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
-      "priority": 1
-    },
-    {
-      "term": "平等",
-      "icon": "⚖️",
-      "plain": "不因出身、性别或身份被规定成高低贵贱。",
-      "example": "说人人平等，要看法律和生活中是否真的做到。",
-      "priority": 1
-    },
-    {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
-      "priority": 1
-    },
-    {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
-      "priority": 1
-    },
-    {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "term": "驿站",
+      "icon": "🐎",
+      "plain": "古代按规定接待使者、传递公文并准备交通补给的站点。",
+      "example": "官驿有使用规矩，不能把它当人人可以随便取马的旅馆。",
       "priority": 1
     },
     {
@@ -140,46 +160,11 @@
       "priority": 1
     },
     {
-      "term": "翻译",
-      "icon": "🗣️",
-      "plain": "把一种语言表达的意思换成另一种语言。",
-      "example": "翻译需要懂语言和知识，也常由团队反复校订。",
-      "priority": 2
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "技术",
-      "icon": "⚙️",
-      "plain": "人们解决具体问题时积累的工具和做法。",
-      "example": "技术常由许多人长期改进，不是某天突然出现。",
-      "priority": 2
-    },
-    {
-      "term": "市场",
-      "icon": "🧺",
-      "plain": "人们交换商品和服务的地方或关系。",
-      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
-      "priority": 2
-    },
-    {
-      "term": "皇帝",
-      "icon": "👑",
-      "plain": "古代君主国家最高统治者的一种称号。",
-      "example": "皇帝会作决定，也依靠官员、军队、工匠和百姓。",
-      "priority": 3
-    },
-    {
-      "term": "生产",
-      "icon": "🛠️",
-      "plain": "把材料和劳动变成食物、工具或其他产品。",
-      "example": "生产离不开人、工具、材料和组织。",
-      "priority": 3
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
     }
   ],
   "pronunciations": [
@@ -202,16 +187,6 @@
         "cross-04-transport-history"
       ],
       "note": "福建地名。"
-    },
-    {
-      "text": "驿卒",
-      "reading": "Yìzú",
-      "kind": "polyphone",
-      "chapterIds": [
-        "cn-ancient-07-05-yuan-exchange",
-        "cross-04-transport-history"
-      ],
-      "note": "“驿”读yì，“卒”表示差役时读zú。"
     }
   ],
   "gameplay": {
@@ -266,7 +241,7 @@
         "license": "CC BY-SA 4.0",
         "clearance": "cleared-open-license",
         "caption": "今天泉州洛阳桥的现状照片；该桥是宋元泉州世界遗产组成部分之一。",
-        "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。下载为1920×1280像素等比例图，未作其他修改。",
+        "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/quanzhou-luoyang-bridge-current-view.jpg"
       }
@@ -382,17 +357,16 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "元代驿站，怎样把消息接下去？",
         "coverNarration": "送公文的人来到驿站，先要核对凭证，再准备下一程的马匹和粮草。消息要走远，谁来接这一棒？",
-        "stationLine": "元朝完成统一以后，地方事务要分工办理，消息和人员也要借助驿站、道路与港口往来。",
-        "stationNarration": "元朝完成统一以后，地方事务要分工办理，消息和人员也要借助驿站、道路与港口往来。",
         "closingCaption": "带着发现回家",
         "closingNarration": "元代驿站主要服务官方通信和运输。核对凭证、准备马匹粮草、交接文书，需要不同的人配合。道路与港口连接往来，也靠许多人的劳动。",
         "closingLine": "凭证、马匹与人手，一起接住下一程。",
         "fictionNote": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
         "reunionFit": "contain",
         "reunionImage": "/content/step-images/yuan-friends-reunion-v1.jpg",
+        "stationLine": "许多政权并立之后，元朝完成统一。地方事情怎样办理，消息怎样送远？我们去看地方分工和驿站。",
         "stationAudio": {
-          "id": "quest-8def5a7bc59fabe6",
-          "text": "元朝完成统一以后，地方事务要分工办理，消息和人员也要借助驿站、道路与港口往来。"
+          "id": "quest-55d5658fefed3bf2",
+          "text": "许多政权并立之后，元朝完成统一。地方事情怎样办理，消息怎样送远？我们去看地方分工和驿站。"
         },
         "closingAudio": {
           "id": "quest-4621c877ff28c3e0",
@@ -907,8 +881,8 @@
         "imageBoundary": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
         "audio": {
           "lead": {
-            "id": "quest-b8697a2d87e4e29f",
-            "text": "让消息继续，下一步做什么？"
+            "id": "quest-5758912b2c53c4a2",
+            "text": "凭证已经核对好，下一程的马也备好了。要让文书继续往前送，接下来做什么？"
           },
           "transition": {
             "id": "quest-fe7ca053ded90315",
@@ -1028,7 +1002,7 @@
           "license": "CC BY-SA 4.0",
           "clearance": "cleared-open-license",
           "caption": "宋代始建 · 2020年照片 · 后世维修",
-          "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。下载为1920×1280像素等比例图，未作其他修改。 今天泉州洛阳桥的现状照片；该桥是宋元泉州世界遗产组成部分之一。",
+          "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。 今天泉州洛阳桥的现状照片；该桥是宋元泉州世界遗产组成部分之一。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/quanzhou-luoyang-bridge-current-view.jpg",
           "label": "点开真材料，听听说明",
@@ -1186,6 +1160,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1535,7 +1510,7 @@
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "今天泉州洛阳桥的现状照片；该桥是宋元泉州世界遗产组成部分之一。",
-      "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。下载为1920×1280像素等比例图，未作其他修改。",
+      "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。",
       "childVisibility": "child-ok"
     },
     {
@@ -1625,5 +1600,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

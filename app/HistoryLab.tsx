@@ -64,6 +64,9 @@ function EngineDiagram({stage,angle}:{stage:number;angle:number}){
  <path d="M196 237H486" stroke="#987748" strokeWidth="8" strokeLinecap="round"/><text x="270" y="279" textAnchor="middle" fill="#687b65" fontSize="19">{moving?'看连杆怎样带动轮子':stage===0?'先看活塞与轮子怎样连着':stage===1?'活塞到另一边，轮子转了半圈':'活塞回来了，轮子继续转完一圈'}</text>
  </svg>;
 }
+export function HistoryLabDiagram({kind,stage=0,angle=stage*180}:{kind:HistoryLabKind;stage?:number;angle?:number}){
+ return kind==='polities'?<PolityDiagram index={stage}/>:kind==='printing'?<PrintingDiagram stage={stage}/>:kind==='compass'?<CompassDiagram stage={stage}/>:kind==='roof'?<RoofDiagram stage={stage}/>:<EngineDiagram stage={stage} angle={angle}/>;
+}
 const LAB_COPY:Record<HistoryLabKind,{initial:string;note:string}>={
  polities:{initial:'先听这三家的名字，再把年份往后看。',note:'同时存在的关系示意，不画疆界'},
  printing:{initial:'中间要换成月字，两旁的字留在原处。',note:'用三个简字体验重排，不复原毕昇原套泥活字'},
@@ -85,7 +88,7 @@ export function HistoryLab({config,locked,onStage}:{config:HistoryLabConfig;lock
   frame.current=requestAnimationFrame(tick);
  };
  return <div className="history-lab" data-lab-kind={config.kind} data-lab-stage={stage} data-lab-motion={busy?"running":"still"}>
- {config.kind==='polities'?<PolityDiagram index={stage}/>:config.kind==='printing'?<PrintingDiagram stage={stage}/>:config.kind==='compass'?<CompassDiagram stage={stage}/>:config.kind==='roof'?<RoofDiagram stage={stage}/>:<EngineDiagram stage={busy?stage+1:stage} angle={engineAngle}/>}
+ <HistoryLabDiagram kind={config.kind} stage={config.kind==='engine'&&busy?stage+1:stage} angle={engineAngle}/>
  <p className="history-lab-status" role="status">{stage===0?LAB_COPY[config.kind].initial:config.stages[stage-1].narration}</p>
  <button className="history-lab-action" disabled={locked||snap.complete||busy} onClick={advance}>{busy?'看看它怎样动……':action?.label??'观察完成'}</button>
  <small>{LAB_COPY[config.kind].note}</small>

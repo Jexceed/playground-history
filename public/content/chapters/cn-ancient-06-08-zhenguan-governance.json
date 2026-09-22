@@ -7,7 +7,24 @@
   "period": {
     "id": "tang",
     "label": "唐朝",
-    "years": "618—907年"
+    "years": "618—907年",
+    "learningContext": {
+      "childIntro": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
+      "chronology": "618—907年为唐朝范围；本组故事分属不同时期，贞观、开元通宝始铸、开元年号不可混为一个节点。",
+      "covered": "治理恢复、钱名与年号、城市乐舞、译经、书法与诗。",
+      "scopeBoundary": "科举、唐前后期变化等在背景稿中；李白诗作和颜真卿文稿不能被拼成唐朝始终繁盛的单一画面。",
+      "sourceIds": [
+        "NMC-SUI-TANG-FIVE-DYNASTIES"
+      ],
+      "sources": [
+        {
+          "id": "NMC-SUI-TANG-FIVE-DYNASTIES",
+          "title": "“古代中国”基本陈列：隋唐五代时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html"
+        }
+      ]
+    }
   },
   "order": 21,
   "title": "贞观之治是谁一起做出来的",
@@ -18,16 +35,45 @@
     "childTitle": "贞观之治，怎样慢慢做到？",
     "prompt": "唐初的生活需要恢复。唐太宗为什么听取魏征的意见？听完以后，又要靠谁去做？",
     "takeaway": "贞观时期，唐太宗听取魏征等人的意见，重视恢复生产、减轻部分负担。合适的安排和许多人的劳动，让生活慢慢恢复；这是共同作用的过程。",
-    "object": "田地、奏章与纳谏艺术表现",
+    "object": "《贞观政要》· 明代刻本",
     "people": [
       "唐太宗、魏征",
       "劳动的百姓"
     ],
-    "place": "唐初长安与各地州县",
-    "culture": "“贞观之治”与纳谏故事",
+    "place": "唐初各地恢复生产的背景；虚构田间情境",
+    "culture": "《贞观政要》后世印本与纳谏",
     "care": "书影来自明代刊本，内容讲唐代贞观时期，不能把书的印刷年代当事件年代。讨论图是现代艺术表现，不是人物肖像或某次谈话现场。田间人物与情境为教学虚构，不称魏征亲访；不把一次建议或一个人的话写成全国立刻改变。",
     "preferredAssetId": "zhenguan-zhengyao-ming-preface",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-06-08-zhenguan-governance",
+    "theme": "治理和规则",
+    "learningGoal": "唐初恢复需要听取意见、合适安排与具体劳动。",
+    "parentQuestion": "听到了田里的困难，事情就已经解决了吗？",
+    "observe": "区分听情况与耕作，说明意见要影响安排，还要落实。",
+    "misconception": "不能把贞观之治说成一个人的一句话立刻让所有人富足。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "NMC-SUI-TANG-FIVE-DYNASTIES",
+      "CCDI-TANG-ADMINISTRATION",
+      "NJU-ZHENGUAN-ZHENGYAO",
+      "COMMONS-NJLIB-ZHENGUAN-1476"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-08-01-ming-governance",
+        "relation": "比较唐代纳谏与明代拟意见、作决定：共同看听取意见与实际行动。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "纳谏",
+      "治理",
+      "生产"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-06-08-zhenguan-governance",
@@ -97,31 +143,24 @@
   ],
   "glossary": [
     {
-      "term": "生产",
-      "icon": "🛠️",
-      "plain": "把材料和劳动变成食物、工具或其他产品。",
-      "example": "生产离不开人、工具、材料和组织。",
-      "priority": 3
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "市场",
-      "icon": "🧺",
-      "plain": "人们交换商品和服务的地方或关系。",
-      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
-      "priority": 2
+      "term": "纳谏",
+      "icon": "👂",
+      "plain": "掌权的人认真听取别人指出问题、提出的意见。",
+      "example": "听见以后还要考虑怎样安排，事情不会自己变好。",
+      "priority": 1
     },
     {
       "term": "治理",
       "icon": "🧭",
       "plain": "一起安排公共事情、解决共同问题。",
       "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    },
+    {
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
       "priority": 3
     }
   ],
@@ -144,15 +183,6 @@
         "cn-ancient-06-08-zhenguan-governance"
       ],
       "note": "“征”在人名中读zhēng。"
-    },
-    {
-      "text": "吴兢",
-      "reading": "Wú Jīng",
-      "kind": "person",
-      "chapterIds": [
-        "cn-ancient-06-08-zhenguan-governance"
-      ],
-      "note": "本轮编辑校听项目；保持原词，不作单字全局替换。人工试听待进行。"
     },
     {
       "text": "纳谏",
@@ -250,16 +280,15 @@
         "reunionAlt": "三位小伙伴和向导回看倾听与耕作两幅图的现代插画",
         "coverCaption": "贞观之治，怎样慢慢做到？",
         "coverNarration": "小小旅行团走进贞观的故事。唐太宗为什么听魏征的意见？怎样让百姓的生活慢慢恢复？去听建议，也看行动。",
-        "stationLine": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。",
-        "stationNarration": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。",
         "closingCaption": "治理与恢复，需要许多人一起做",
         "closingNarration": "贞观时期，唐太宗听取魏征等人的意见，重视恢复生产、减轻部分负担。合适的安排和许多人的劳动，让生活慢慢恢复；这是共同作用的过程。",
         "closingLine": "听意见、想办法，大家一起行动。",
         "fictionNote": "书影来自明代刊本，内容讲唐代贞观时期，不能把书的印刷年代当事件年代。讨论图是现代艺术表现，不是人物肖像或某次谈话现场。田间人物与情境为教学虚构，不称魏征亲访；不把一次建议或一个人的话写成全国立刻改变。",
         "reunionImage": "/content/step-images/tang-zhenguan-reunion-v1.jpg",
+        "stationLine": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
         "stationAudio": {
-          "id": "quest-28429f02d81f52a4",
-          "text": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。"
+          "id": "quest-02a554bf66a28d47",
+          "text": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。"
         },
         "closingAudio": {
           "id": "quest-26de92a31433eedc",
@@ -286,7 +315,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学故事插画 · 不是历史现场",
-      "boundary": "三位儿童为现代旅行者；田边记录者、讲述者和耕作者均为虚构人物，不当作魏征亲访记录，也不复原具体村庄、农具或服装制度。提示词：docs/qa/2026-09-19-sui-qing/tang-zhenguan-field-work-v1-prompt.txt。",
+      "boundary": "田边讲述、记录和耕作的人是虚构角色，用来理解了解困难与实际劳动。图画不声称魏征亲访此村，也不复原某日唐代现场。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/tang-zhenguan-field-work-v1.jpg"
     },
@@ -301,7 +330,7 @@
         "license": "项目自制；按OpenAI使用条款持有输出使用权",
         "clearance": "cleared-project-created",
         "caption": "现代教学故事插画 · 不是历史现场",
-        "boundary": "三位儿童为现代旅行者；田边记录者、讲述者和耕作者均为虚构人物，不当作魏征亲访记录，也不复原具体村庄、农具或服装制度。提示词：docs/qa/2026-09-19-sui-qing/tang-zhenguan-reunion-v1-prompt.txt。",
+        "boundary": "现代小伙伴回顾听取情况、作出安排和实际劳动。手册中的田间情境是学习线索，不是贞观年间的真实合影或政务记录。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/tang-zhenguan-reunion-v1.jpg"
       },
@@ -315,7 +344,7 @@
         "license": "项目自制；按OpenAI使用条款持有输出使用权",
         "clearance": "cleared-project-created",
         "caption": "现代教学故事插画 · 不是历史现场",
-        "boundary": "三位儿童为现代旅行者；田边记录者、讲述者和耕作者均为虚构人物，不当作魏征亲访记录，也不复原具体村庄、农具或服装制度。提示词：docs/qa/2026-09-19-sui-qing/tang-zhenguan-field-work-v1-prompt.txt。",
+        "boundary": "田边讲述、记录和耕作的人是虚构角色，用来理解了解困难与实际劳动。图画不声称魏征亲访此村，也不复原某日唐代现场。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/tang-zhenguan-field-work-v1.jpg"
       }
@@ -699,7 +728,7 @@
         "studyImageAlt": "说明情况，耕作土地",
         "imageAlt": "了解农人困难与田间劳动的故事插画",
         "imageCaption": "了解农人困难与田间劳动的故事插画",
-        "imageBoundary": "三位儿童为现代旅行者；田边记录者、讲述者和耕作者均为虚构人物，不当作魏征亲访记录，也不复原具体村庄、农具或服装制度。提示词：docs/qa/2026-09-19-sui-qing/tang-zhenguan-field-work-v1-prompt.txt。",
+        "imageBoundary": "田边讲述、记录和耕作的人是虚构角色，用来理解了解困难与实际劳动。图画不声称魏征亲访此村，也不复原某日唐代现场。",
         "audio": {
           "lead": {
             "id": "quest-75326669d502ed8b",
@@ -776,7 +805,7 @@
         "studyImageAlt": "先了解困难，再考虑安排",
         "imageAlt": "了解农人困难与田间劳动的故事插画",
         "imageCaption": "了解农人困难与田间劳动的故事插画",
-        "imageBoundary": "三位儿童为现代旅行者；田边记录者、讲述者和耕作者均为虚构人物，不当作魏征亲访记录，也不复原具体村庄、农具或服装制度。提示词：docs/qa/2026-09-19-sui-qing/tang-zhenguan-field-work-v1-prompt.txt。",
+        "imageBoundary": "田边讲述、记录和耕作的人是虚构角色，用来理解了解困难与实际劳动。图画不声称魏征亲访此村，也不复原某日唐代现场。",
         "audio": {
           "lead": {
             "id": "quest-55fa34ff2b040723",
@@ -904,7 +933,7 @@
         "studyImageAlt": "许多人配合，慢慢恢复生产",
         "imageAlt": "了解农人困难与田间劳动的故事插画",
         "imageCaption": "了解农人困难与田间劳动的故事插画",
-        "imageBoundary": "三位儿童为现代旅行者；田边记录者、讲述者和耕作者均为虚构人物，不当作魏征亲访记录，也不复原具体村庄、农具或服装制度。提示词：docs/qa/2026-09-19-sui-qing/tang-zhenguan-field-work-v1-prompt.txt。",
+        "imageBoundary": "田边讲述、记录和耕作的人是虚构角色，用来理解了解困难与实际劳动。图画不声称魏征亲访此村，也不复原某日唐代现场。",
         "audio": {
           "lead": {
             "id": "quest-c3e3daebb86e61c0",
@@ -1072,6 +1101,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1472,7 +1502,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学故事插画 · 不是历史现场",
-      "boundary": "三位儿童为现代旅行者；田边记录者、讲述者和耕作者均为虚构人物，不当作魏征亲访记录，也不复原具体村庄、农具或服装制度。提示词：docs/qa/2026-09-19-sui-qing/tang-zhenguan-field-work-v1-prompt.txt。",
+      "boundary": "田边讲述、记录和耕作的人是虚构角色，用来理解了解困难与实际劳动。图画不声称魏征亲访此村，也不复原某日唐代现场。",
       "childVisibility": "child-ok"
     },
     {
@@ -1485,7 +1515,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学故事插画 · 不是历史现场",
-      "boundary": "三位儿童为现代旅行者；田边记录者、讲述者和耕作者均为虚构人物，不当作魏征亲访记录，也不复原具体村庄、农具或服装制度。提示词：docs/qa/2026-09-19-sui-qing/tang-zhenguan-reunion-v1-prompt.txt。",
+      "boundary": "现代小伙伴回顾听取情况、作出安排和实际劳动。手册中的田间情境是学习线索，不是贞观年间的真实合影或政务记录。",
       "childVisibility": "child-ok"
     }
   ],
@@ -1497,5 +1527,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

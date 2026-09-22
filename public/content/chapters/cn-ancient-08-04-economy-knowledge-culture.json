@@ -7,7 +7,31 @@
   "period": {
     "id": "ming",
     "label": "明朝",
-    "years": "1368—1644年"
+    "years": "1368—1644年",
+    "learningContext": {
+      "childIntro": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
+      "chronology": "1368年建立明朝，1420年北京宫殿建成、1421年正式迁都；各个故事不是发生在同一年。",
+      "covered": "政务环节、郑和交往、工艺记录、屋脊构件、小说刊印、旅行观察。",
+      "scopeBoundary": "社会经济、边防与明末变化在背景稿中；工艺、旅行和宫廷故事是取样，不能当完整明史。",
+      "sourceIds": [
+        "NMC-MING-QING",
+        "UNESCO-FORBIDDEN-CITY"
+      ],
+      "sources": [
+        {
+          "id": "NMC-MING-QING",
+          "title": "“古代中国”基本陈列：明清时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail8.html"
+        },
+        {
+          "id": "UNESCO-FORBIDDEN-CITY",
+          "title": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/439/"
+        }
+      ]
+    }
   },
   "order": 35,
   "title": "明代农书、工艺、商业与文学怎样相遇",
@@ -18,16 +42,44 @@
     "childTitle": "宋应星为什么把工匠写进书？",
     "prompt": "砖怎么做，布怎么织？《天工开物》把许多人的生产手艺写进图文。小伙伴也试着观察一次，再留下记录。",
     "takeaway": "宋应星整理生产技术，1637年刊行《天工开物》。工匠长期积累的经验，经观察和图文记录，可以让更多人了解。",
-    "object": "《本草纲目》《天工开物》与《南都繁会图》",
+    "object": "1637年《天工开物》砖瓦制作书影",
     "people": [
       "宋应星",
       "长期积累经验的工匠"
     ],
-    "place": "南京及明代城乡市场",
-    "culture": "昆曲与明代文学",
+    "place": "明代工艺记录；今天的织布观察练习",
+    "culture": "宋应星《天工开物》",
     "care": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
     "playableSource": "content/focused-quests.json",
     "preferredAssetId": "ming-craft-observation-v1"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-08-04-economy-knowledge-culture",
+    "theme": "知识与技术",
+    "learningGoal": "生产手艺来自许多人，观察整理让经验成为图文知识。",
+    "parentQuestion": "只看一卷做好的布，能知道它怎样织成吗？",
+    "observe": "选择观察操作并留下记录，记住宋应星整理工匠长期经验。",
+    "misconception": "砖瓦原书图与织布故事是不同工艺，不把宋应星说成所有技术的发明人。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "NLC-TIANGONG-STRUCTURE",
+      "NLC-TIANGONG-1637-SCAN",
+      "NMC-TIANGONG-KAIWU"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-08-08-xu-xiake-notebook",
+        "relation": "工艺书与游记都来自观察整理；一个记录生产，一个认识山川。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "手工业",
+      "技术",
+      "生产"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-08-04-economy-knowledge-culture",
@@ -103,17 +155,17 @@
   ],
   "glossary": [
     {
+      "term": "手工业",
+      "icon": "🧵",
+      "plain": "主要靠手和工具制作器物的生产活动。",
+      "example": "陶器、织物和青铜器都需要材料、技术与分工。",
+      "priority": 2
+    },
+    {
       "term": "技术",
       "icon": "⚙️",
       "plain": "人们解决具体问题时积累的工具和做法。",
       "example": "技术常由许多人长期改进，不是某天突然出现。",
-      "priority": 2
-    },
-    {
-      "term": "市场",
-      "icon": "🧺",
-      "plain": "人们交换商品和服务的地方或关系。",
-      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
       "priority": 2
     },
     {
@@ -122,88 +174,9 @@
       "plain": "把材料和劳动变成食物、工具或其他产品。",
       "example": "生产离不开人、工具、材料和组织。",
       "priority": 3
-    },
-    {
-      "term": "经济",
-      "icon": "🧺",
-      "plain": "人们怎样生产、交换、分配和使用东西。",
-      "example": "经济变化最后会落到工作、食物、住房等生活里。",
-      "priority": 1
-    },
-    {
-      "term": "贸易",
-      "icon": "🚚",
-      "plain": "不同人或地方交换、买卖物品和服务。",
-      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
-      "priority": 1
-    },
-    {
-      "term": "小说",
-      "icon": "📖",
-      "plain": "用人物和一连串事情讲故事的文学作品。",
-      "example": "《西游记》是明代长篇小说，不是玄奘本人的旅行日记。",
-      "priority": 1
-    },
-    {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
-      "priority": 1
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "农业",
-      "icon": "🌾",
-      "plain": "种植作物、饲养动物来获得食物和原料。",
-      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
-      "priority": 2
-    },
-    {
-      "term": "社会",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "许多人一起生活、分工并形成关系的整体。",
-      "example": "社会变化要看不同人受到的影响。",
-      "priority": 2
-    },
-    {
-      "term": "文化",
-      "icon": "🎨",
-      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
-      "example": "文化会交流变化，不能排成谁高谁低。",
-      "priority": 2
-    },
-    {
-      "term": "发展",
-      "icon": "🌱",
-      "plain": "事物经过一段时间出现增长或变化。",
-      "example": "发展不只看速度和数量，也要看人的生活与环境。",
-      "priority": 3
-    },
-    {
-      "term": "治理",
-      "icon": "🧭",
-      "plain": "一起安排公共事情、解决共同问题。",
-      "example": "修路、管水、定规则和听取意见都可能属于治理。",
-      "priority": 3
     }
   ],
   "pronunciations": [
-    {
-      "text": "李时珍",
-      "reading": "Lǐ Shízhēn",
-      "kind": "person",
-      "chapterIds": [
-        "cn-ancient-08-04-economy-knowledge-culture"
-      ],
-      "note": "“珍”读zhēn。"
-    },
     {
       "text": "宋应星",
       "reading": "Sòng Yìngxīng",
@@ -282,17 +255,16 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "宋应星为什么把工匠写进书？",
         "coverNarration": "砖怎么做，布怎么织？《天工开物》把许多人的生产手艺写进图文。小伙伴也试着观察一次，再留下记录。",
-        "stationLine": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
-        "stationNarration": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
         "closingCaption": "带着发现回家",
         "closingNarration": "宋应星整理生产技术，1637年刊行《天工开物》。工匠长期积累的经验，经观察和图文记录，可以让更多人了解。",
         "closingLine": "看见怎样做，再把方法留下来。",
         "fictionNote": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
         "reunionFit": "contain",
         "reunionImage": "/content/step-images/ming-friends-reunion-v1.jpg",
+        "stationLine": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
         "stationAudio": {
-          "id": "quest-85f0f7da351bfce2",
-          "text": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。"
+          "id": "quest-cca292f14668bfcd",
+          "text": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。"
         },
         "closingAudio": {
           "id": "quest-4952eedf40a4bf20",
@@ -805,8 +777,8 @@
         "imageBoundary": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
         "audio": {
           "lead": {
-            "id": "quest-9f3908800bf6084f",
-            "text": "要了解织法，接着看哪一处？"
+            "id": "quest-d7fc453ccf2c4ccd",
+            "text": "小伙伴已经看到织好的布，还想知道线怎样变成布。为了看清过程，接着观察哪里？"
           },
           "transition": {
             "id": "quest-6bc7e16c4b66d848",
@@ -1055,6 +1027,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1358,6 +1331,16 @@
       "authorityLevel": "A-structure-only",
       "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-FORBIDDEN-CITY",
+      "title": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/439/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A",
+      "factUse": "北京紫禁城始建年代、明清宫殿功能与现存遗产经过长期保护的边界",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1565,5 +1548,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

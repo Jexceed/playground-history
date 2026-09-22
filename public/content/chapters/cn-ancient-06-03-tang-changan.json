@@ -7,7 +7,24 @@
   "period": {
     "id": "tang",
     "label": "唐朝",
-    "years": "618—907年"
+    "years": "618—907年",
+    "learningContext": {
+      "childIntro": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
+      "chronology": "618—907年为唐朝范围；本组故事分属不同时期，贞观、开元通宝始铸、开元年号不可混为一个节点。",
+      "covered": "治理恢复、钱名与年号、城市乐舞、译经、书法与诗。",
+      "scopeBoundary": "科举、唐前后期变化等在背景稿中；李白诗作和颜真卿文稿不能被拼成唐朝始终繁盛的单一画面。",
+      "sourceIds": [
+        "NMC-SUI-TANG-FIVE-DYNASTIES"
+      ],
+      "sources": [
+        {
+          "id": "NMC-SUI-TANG-FIVE-DYNASTIES",
+          "title": "“古代中国”基本陈列：隋唐五代时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html"
+        }
+      ]
+    }
   },
   "order": 22,
   "title": "从文物看唐代长安",
@@ -18,16 +35,44 @@
     "childTitle": "骆驼背上的唐代乐舞",
     "prompt": "陶俑把乐队放到骆驼背上。长安的来往，怎样带来了不同的乐舞技艺？",
     "takeaway": "唐代长安有来自不同地方的人，乐舞技艺也随着来往传播。工匠把歌唱和奏乐做进陶俑，留下了艺术形象。",
-    "object": "三彩载乐骆驼俑",
+    "object": "载乐骆驼俑 · 唐代",
     "people": [
       "唐代乐舞、工匠",
       "来到长安的人"
     ],
-    "place": "唐代长安东市与今天的西安",
-    "culture": "唐代乐舞与百戏",
+    "place": "唐代长安；今天的文物观察与乐舞练习",
+    "culture": "唐三彩中的乐舞形象",
     "care": "照片为陕博八人载乐俑，不混作国博另一件五人俑。艺术形象不是特定商队的旅行照，也不能复原一首确切唐曲。小伙伴拿的是现代学习道具，只体验不同手势，不作演奏或古器复原教学。",
     "playableSource": "content/focused-quests.json",
     "preferredAssetId": "tang-sancai-music-camel-front"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-06-03-tang-changan",
+    "theme": "艺术和表达",
+    "learningGoal": "唐代乐舞随人群往来传播，陶俑保存艺术形象。",
+    "parentQuestion": "这件俑除了骆驼，还让我们看见什么人的活动？",
+    "observe": "指背上的演奏者并做一个姿势，想到人们也会带着技艺来往。",
+    "misconception": "陶俑不是演出实拍；今天动作不能当作唐代音乐原声。",
+    "evidenceStepIds": [
+      "time",
+      "journey"
+    ],
+    "sourceIds": [
+      "SHAANXI-SANCAI-CAMEL-509",
+      "NMC-BAIXI-STUDY"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-04-03-silk-road",
+        "relation": "丝路上的来往既有货物与消息，也有人携带的技艺。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "交流",
+      "文化",
+      "文物"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-06-03-tang-changan",
@@ -110,69 +155,6 @@
       "priority": 1
     },
     {
-      "term": "考古",
-      "icon": "🧹",
-      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
-      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
-      "priority": 1
-    },
-    {
-      "term": "文物",
-      "icon": "🏺",
-      "plain": "从过去保存下来、能帮助认识历史的东西。",
-      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
-      "priority": 1
-    },
-    {
-      "term": "遗址",
-      "icon": "🏚️",
-      "plain": "过去的人生活或活动后留下的地方。",
-      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
-      "priority": 1
-    },
-    {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
-      "priority": 1
-    },
-    {
-      "term": "手工业",
-      "icon": "🧵",
-      "plain": "主要靠手和工具制作器物的生产活动。",
-      "example": "陶器、织物和青铜器都需要材料、技术与分工。",
-      "priority": 2
-    },
-    {
-      "term": "工业",
-      "icon": "🏭",
-      "plain": "用机器、工厂和分工大规模生产东西。",
-      "example": "工业发展也要看劳动、安全、资源和环境。",
-      "priority": 2
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "社会",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "许多人一起生活、分工并形成关系的整体。",
-      "example": "社会变化要看不同人受到的影响。",
-      "priority": 2
-    },
-    {
-      "term": "市场",
-      "icon": "🧺",
-      "plain": "人们交换商品和服务的地方或关系。",
-      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
-      "priority": 2
-    },
-    {
       "term": "文化",
       "icon": "🎨",
       "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
@@ -180,11 +162,11 @@
       "priority": 2
     },
     {
-      "term": "生产",
-      "icon": "🛠️",
-      "plain": "把材料和劳动变成食物、工具或其他产品。",
-      "example": "生产离不开人、工具、材料和组织。",
-      "priority": 3
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
     }
   ],
   "pronunciations": [
@@ -193,24 +175,12 @@
       "reading": "Cháng’ān",
       "kind": "place",
       "chapterIds": [
-        "cn-ancient-04-02-han-governance",
         "cn-ancient-04-03-silk-road",
-        "cn-ancient-06-02-tang-governance",
         "cn-ancient-06-03-tang-changan",
         "cn-ancient-06-04-tang-cultural-exchange",
         "cross-03-cultural-exchange"
       ],
       "note": "“长”在地名中读cháng。"
-    },
-    {
-      "text": "乐手",
-      "reading": "Yuèshǒu",
-      "kind": "polyphone",
-      "chapterIds": [
-        "cn-ancient-06-03-tang-changan",
-        "cross-03-cultural-exchange"
-      ],
-      "note": "表示演奏音乐的人时，“乐”读yuè。"
     },
     {
       "text": "拨弦",
@@ -387,16 +357,15 @@
         "reunionAlt": "小伙伴回看乐舞发现的插画",
         "coverCaption": "骆驼背上的唐代乐舞",
         "coverNarration": "小小旅行团到了唐朝！陶俑把乐队放到骆驼背上。长安的来往，怎样带来了不同的乐舞技艺？",
-        "stationLine": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。",
-        "stationNarration": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。",
         "closingCaption": "带着这一章的发现回家",
         "closingNarration": "唐代长安有来自不同地方的人，乐舞技艺也随着来往传播。工匠把歌唱和奏乐做进陶俑，留下了艺术形象。",
         "closingLine": "人们的来往，也带来乐舞技艺。",
         "fictionNote": "照片为陕博八人载乐俑，不混作国博另一件五人俑。艺术形象不是特定商队的旅行照，也不能复原一首确切唐曲。小伙伴拿的是现代学习道具，只体验不同手势，不作演奏或古器复原教学。",
         "reunionImage": "/content/step-images/tang-music-reunion-v1.jpg",
+        "stationLine": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
         "stationAudio": {
-          "id": "quest-28429f02d81f52a4",
-          "text": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。"
+          "id": "quest-02a554bf66a28d47",
+          "text": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。"
         },
         "closingAudio": {
           "id": "quest-fa3462c8ec54c109",
@@ -423,7 +392,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学插画 · 不作历史现场或文物证据",
-      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-music-actions-v2-prompt.txt。 v2只移除背景向导，三位儿童、手、乐器和位置均保留。",
+      "boundary": "三位现代小伙伴用学习道具体验吹奏和拨弦。动作图不等于唐代演出、原曲或原乐器，唐代乐舞形象须与真陶俑及记录分开看。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/tang-music-actions-v2.jpg"
     },
@@ -438,7 +407,7 @@
         "license": "项目自制；按OpenAI使用条款持有输出使用权",
         "clearance": "cleared-project-created",
         "caption": "现代教学插画 · 不作历史现场或文物证据",
-        "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-music-reunion-v1-prompt.txt。",
+        "boundary": "现代旅行手册回顾乐舞形象和动作，人物是今天的虚构小伙伴。它不保存唐代原声，也不能代替文物上的演奏姿态证据。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/tang-music-reunion-v1.jpg"
       },
@@ -452,7 +421,7 @@
         "license": "项目自制；按OpenAI使用条款持有输出使用权",
         "clearance": "cleared-project-created",
         "caption": "现代教学插画 · 不作历史现场或文物证据",
-        "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-music-actions-v2-prompt.txt。 v2只移除背景向导，三位儿童、手、乐器和位置均保留。",
+        "boundary": "三位现代小伙伴用学习道具体验吹奏和拨弦。动作图不等于唐代演出、原曲或原乐器，唐代乐舞形象须与真陶俑及记录分开看。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/tang-music-actions-v2.jpg"
       }
@@ -690,7 +659,7 @@
         "studyImageAlt": "人来来往往，技艺也会相遇",
         "imageAlt": "小伙伴体验吹奏与拨弦的故事插画",
         "imageCaption": "小伙伴体验吹奏与拨弦的故事插画",
-        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-music-actions-v2-prompt.txt。 v2只移除背景向导，三位儿童、手、乐器和位置均保留。",
+        "imageBoundary": "三位现代小伙伴用学习道具体验吹奏和拨弦。动作图不等于唐代演出、原曲或原乐器，唐代乐舞形象须与真陶俑及记录分开看。",
         "audio": {
           "lead": {
             "id": "quest-d5cee2026050b4c7",
@@ -920,7 +889,7 @@
         "studyImageAlt": "现代小伙伴，学两种拿法",
         "imageAlt": "小伙伴体验吹奏与拨弦的故事插画",
         "imageCaption": "小伙伴体验吹奏与拨弦的故事插画",
-        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-music-actions-v2-prompt.txt。 v2只移除背景向导，三位儿童、手、乐器和位置均保留。",
+        "imageBoundary": "三位现代小伙伴用学习道具体验吹奏和拨弦。动作图不等于唐代演出、原曲或原乐器，唐代乐舞形象须与真陶俑及记录分开看。",
         "audio": {
           "lead": {
             "id": "quest-0b0cb1debd4bbff5",
@@ -1047,7 +1016,7 @@
         "studyImageAlt": "从一件陶俑，想到人的来往",
         "imageAlt": "小伙伴回看乐舞发现的插画",
         "imageCaption": "小伙伴回看乐舞发现的插画",
-        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-music-reunion-v1-prompt.txt。",
+        "imageBoundary": "现代旅行手册回顾乐舞形象和动作，人物是今天的虚构小伙伴。它不保存唐代原声，也不能代替文物上的演奏姿态证据。",
         "audio": {
           "lead": {
             "id": "quest-fa51012c4c887841",
@@ -1217,6 +1186,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1718,7 +1688,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学插画 · 不作历史现场或文物证据",
-      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-music-reunion-v1-prompt.txt。",
+      "boundary": "现代旅行手册回顾乐舞形象和动作，人物是今天的虚构小伙伴。它不保存唐代原声，也不能代替文物上的演奏姿态证据。",
       "childVisibility": "child-ok"
     },
     {
@@ -1731,7 +1701,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学插画 · 不作历史现场或文物证据",
-      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-music-actions-v2-prompt.txt。 v2只移除背景向导，三位儿童、手、乐器和位置均保留。",
+      "boundary": "三位现代小伙伴用学习道具体验吹奏和拨弦。动作图不等于唐代演出、原曲或原乐器，唐代乐舞形象须与真陶俑及记录分开看。",
       "childVisibility": "child-ok"
     },
     {
@@ -1847,5 +1817,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

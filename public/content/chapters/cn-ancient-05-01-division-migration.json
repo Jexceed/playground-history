@@ -7,7 +7,24 @@
   "period": {
     "id": "three-kingdoms-jin-northern-southern",
     "label": "三国两晋南北朝",
-    "years": "220—589年"
+    "years": "220—589年",
+    "learningContext": {
+      "childIntro": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。",
+      "chronology": "220—589年为这组故事的时代范围，不是一个朝代名；曹魏、蜀汉、孙吴成立年份不同，西晋统一后又出现南北分立。",
+      "covered": "迁徙互助、江南生产、北魏改革、数学继承、壁画叙事。",
+      "scopeBoundary": "具体政权更替及战争过程保留在背景稿；不让儿童背所有政权名称，也不把整个时期说成只有战乱。",
+      "sourceIds": [
+        "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+      ],
+      "sources": [
+        {
+          "id": "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+          "title": "“古代中国”基本陈列：三国两晋南北朝时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail5.html"
+        }
+      ]
+    }
   },
   "order": 15,
   "title": "一只碗怎样跟着人们去江南",
@@ -18,16 +35,43 @@
     "childTitle": "新邻居怎样在江南安家？",
     "prompt": "有人为躲避战乱来到江南。这里原来有人住，新邻居怎样慢慢安顿？",
     "takeaway": "部分居民分批来到江南。他们向当地人学习水土知识，也带来自己的经验，安家需要长期劳动与互助。",
-    "object": "迁徙记录、道路与日用陶器",
+    "object": "陶牛车模型 · 北齐",
     "people": [
       "迁来的人",
       "江南原有居民"
     ],
-    "place": "洛阳、建康与长江流域",
+    "place": "三国两晋南北朝的江南迁徙与安家故事",
     "culture": null,
     "care": "这是一户虚构家庭的安顿故事，不替具体文物编主人或路线。迁徙不止南迁，也不是所有北方人同一次搬走。牛车是北齐墓葬模型，不是某家南迁时乘过的真车。插画房屋、桥梁、衣着是情境表达，不是晋代建筑或族群外貌复原。",
     "preferredAssetId": "northern-qi-ox-cart-photo",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-05-01-division-migration",
+    "theme": "生活与劳动",
+    "learningGoal": "迁来的人和当地居民各有经验，安家需要互相帮助。",
+    "parentQuestion": "当地人和新邻居，各有什么可以教给对方？",
+    "observe": "按水土与木工两种需要指不同的人，知道江南原来就有人居住。",
+    "misconception": "北齐牛车是当时车形的证据，不证明每个迁徙家庭都坐过它。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+      "NMC-NORTHERN-QI-OX-CART"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-05-02-jiangnan-development",
+        "relation": "先看安家互助，再看田间和作坊的长期劳动。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "迁徙",
+      "手工业",
+      "农业"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-05-01-division-migration",
@@ -99,58 +143,29 @@
       "priority": 1
     },
     {
-      "term": "文物",
-      "icon": "🏺",
-      "plain": "从过去保存下来、能帮助认识历史的东西。",
-      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
-      "priority": 1
-    },
-    {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
-      "priority": 1
-    },
-    {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
-      "priority": 1
-    },
-    {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
-      "priority": 1
-    },
-    {
-      "term": "政权",
-      "icon": "🏛️",
-      "plain": "谁在用什么机构和规则管理一个地方。",
-      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
+      "term": "手工业",
+      "icon": "🧵",
+      "plain": "主要靠手和工具制作器物的生产活动。",
+      "example": "陶器、织物和青铜器都需要材料、技术与分工。",
       "priority": 2
     },
     {
-      "term": "军队",
-      "icon": "🛡️",
-      "plain": "由国家或政治力量组织的武装人员。",
-      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
-      "priority": 3
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
     }
   ],
   "pronunciations": [
     {
-      "text": "建康",
-      "reading": "Jiànkāng",
-      "kind": "place",
+      "text": "迁徙",
+      "reading": "qiānxǐ",
+      "kind": "term",
       "chapterIds": [
-        "cn-ancient-05-01-division-migration",
-        "cn-ancient-05-02-jiangnan-development"
+        "cn-ancient-05-01-division-migration"
       ],
-      "note": "古代地名，今南京一带。"
+      "note": "“徙”读xǐ，连读迁徙。 当前仍待人耳校听。"
     }
   ],
   "gameplay": {
@@ -220,16 +235,15 @@
         "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
         "coverCaption": "新邻居怎样在江南安家？",
         "coverNarration": "新邻居怎样在江南安家？小小旅行团出发！有人为躲避战乱来到江南。这里原来有人住，新邻居怎样慢慢安顿？",
-        "stationLine": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
-        "stationNarration": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
         "closingCaption": "回看刚刚读懂的历史",
         "closingNarration": "部分居民分批来到江南。他们向当地人学习水土知识，也带来自己的经验，安家需要长期劳动与互助。",
         "closingLine": "新邻居与当地人，带着不同经验一起安家。",
         "fictionNote": "这是一户虚构家庭的安顿故事，不替具体文物编主人或路线。迁徙不止南迁，也不是所有北方人同一次搬走。牛车是北齐墓葬模型，不是某家南迁时乘过的真车。插画房屋、桥梁、衣着是情境表达，不是晋代建筑或族群外貌复原。",
         "reunionImage": "/content/step-images/jin-travel-journal-reunion-v1.jpg",
+        "stationLine": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。",
         "stationAudio": {
-          "id": "quest-07878431a28f0aec",
-          "text": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。"
+          "id": "quest-3b178ba3d4febef9",
+          "text": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。"
         },
         "closingAudio": {
           "id": "quest-2edca937c3cef8a8",
@@ -256,7 +270,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "新邻居在江南安家的故事插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-migration-neighbours-v1-prompt.txt。",
+      "boundary": "虚构安家故事，表达新邻居与当地居民互相学习。人物、衣服和木屋不能用来确认真实家庭或族群身份，亦不说明所有迁徙者经历相同。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/jin-migration-neighbours-v1.jpg"
     },
@@ -271,7 +285,7 @@
         "license": "项目自制，供本项目使用",
         "clearance": "cleared-project-created",
         "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
-        "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
+        "boundary": "三位现代小伙伴回看旅行手册的教学插画。册页中的器物、圆形与鹿故事是回顾线索，不是原始文物、数学原稿或北魏壁画本体。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/jin-travel-journal-reunion-v1.jpg"
       },
@@ -285,7 +299,7 @@
         "license": "项目自制，供本项目使用",
         "clearance": "cleared-project-created",
         "caption": "新邻居在江南安家的故事插画；非历史现场复原。",
-        "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-migration-neighbours-v1-prompt.txt。",
+        "boundary": "虚构安家故事，表达新邻居与当地居民互相学习。人物、衣服和木屋不能用来确认真实家庭或族群身份，亦不说明所有迁徙者经历相同。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/jin-migration-neighbours-v1.jpg"
       }
@@ -655,7 +669,7 @@
         "studyImageAlt": "木工手艺，当地水土",
         "imageAlt": "新邻居在江南安家的故事插画",
         "imageCaption": "新邻居在江南安家的故事插画",
-        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-migration-neighbours-v1-prompt.txt。",
+        "imageBoundary": "虚构安家故事，表达新邻居与当地居民互相学习。人物、衣服和木屋不能用来确认真实家庭或族群身份，亦不说明所有迁徙者经历相同。",
         "audio": {
           "lead": {
             "id": "quest-dd872b27e48d965d",
@@ -730,7 +744,7 @@
         "studyImageAlt": "积水问题，请教经验",
         "imageAlt": "新邻居在江南安家的故事插画",
         "imageCaption": "新邻居在江南安家的故事插画",
-        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-migration-neighbours-v1-prompt.txt。",
+        "imageBoundary": "虚构安家故事，表达新邻居与当地居民互相学习。人物、衣服和木屋不能用来确认真实家庭或族群身份，亦不说明所有迁徙者经历相同。",
         "audio": {
           "lead": {
             "id": "quest-a025dd9ab6a30266",
@@ -1031,6 +1045,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1418,7 +1433,7 @@
       "license": "CC BY-SA 2.5",
       "clearance": "cleared-open-license",
       "caption": "1948年河北景县封氏墓群出土的北朝鲜卑服陶武士俑。",
-      "boundary": "器物信息与国家博物馆同一器物记录交叉核验。陶俑表现帽、裤、短衣和披风等服装形象；墓俑不是武士肖像，不能凭外貌或服装单独判定某个真实人物的族群身份。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "器物信息与国家博物馆同一器物记录交叉核验。陶俑表现帽、裤、短衣和披风等服装形象；墓俑不是武士肖像，不能凭外貌或服装单独判定某个真实人物的族群身份。",
       "childVisibility": "child-ok"
     },
     {
@@ -1444,7 +1459,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "新邻居在江南安家的故事插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-migration-neighbours-v1-prompt.txt。",
+      "boundary": "虚构安家故事，表达新邻居与当地居民互相学习。人物、衣服和木屋不能用来确认真实家庭或族群身份，亦不说明所有迁徙者经历相同。",
       "childVisibility": "child-ok"
     },
     {
@@ -1457,7 +1472,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
+      "boundary": "三位现代小伙伴回看旅行手册的教学插画。册页中的器物、圆形与鹿故事是回顾线索，不是原始文物、数学原稿或北魏壁画本体。",
       "childVisibility": "child-ok"
     }
   ],
@@ -1469,5 +1484,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

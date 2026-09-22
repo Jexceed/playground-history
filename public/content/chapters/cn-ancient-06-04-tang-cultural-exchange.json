@@ -7,7 +7,24 @@
   "period": {
     "id": "tang",
     "label": "唐朝",
-    "years": "618—907年"
+    "years": "618—907年",
+    "learningContext": {
+      "childIntro": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
+      "chronology": "618—907年为唐朝范围；本组故事分属不同时期，贞观、开元通宝始铸、开元年号不可混为一个节点。",
+      "covered": "治理恢复、钱名与年号、城市乐舞、译经、书法与诗。",
+      "scopeBoundary": "科举、唐前后期变化等在背景稿中；李白诗作和颜真卿文稿不能被拼成唐朝始终繁盛的单一画面。",
+      "sourceIds": [
+        "NMC-SUI-TANG-FIVE-DYNASTIES"
+      ],
+      "sources": [
+        {
+          "id": "NMC-SUI-TANG-FIVE-DYNASTIES",
+          "title": "“古代中国”基本陈列：隋唐五代时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html"
+        }
+      ]
+    }
   },
   "order": 23,
   "title": "玄奘、鉴真与跨海越岭的交流",
@@ -18,16 +35,46 @@
     "childTitle": "玄奘带回书以后",
     "prompt": "玄奘远行带回经书。不同语言里的意思，怎样让更多人读懂？",
     "takeaway": "玄奘远行学习，回国后与许多人合作翻译经书。讲清、写下、核对，帮助不同地方的知识流传；后来的西游故事另有文学想象。",
-    "object": "《大唐西域记》、大雁塔与唐招提寺",
+    "object": "大雁塔 · 今天的照片",
     "people": [
       "玄奘",
       "译经协作者"
     ],
-    "place": "长安、河西走廊与日本奈良",
-    "culture": "王维《送元二使安西》连接渭城、阳关与送别心情；诗不是玄奘的旅行日志",
+    "place": "唐代长安译场；今天的大雁塔",
+    "culture": "佛经翻译；与后来的《西游记》分开",
     "care": "大雁塔照片为2014年现状，始建652年晚于645年归来，经历后世改修。译场人物和室内安排为教学虚构，不是某次现场或具体协作者肖像。《大唐西域记》的旅途记录与译经工作分开；百回本《西游记》属后来明代小说，取经故事此前已有流传。",
     "playableSource": "content/focused-quests.json",
     "preferredAssetId": "big-wild-goose-pagoda-current-view"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-06-04-tang-cultural-exchange",
+    "theme": "知识与技术",
+    "learningGoal": "不同语言的书要经过讲解、记录与核对才能流传。",
+    "parentQuestion": "书运回来了，怎样才能让汉文读者看懂？",
+    "observe": "指译场几种工作，说明抄得整齐与译对意思并不相同。",
+    "misconception": "真实玄奘与后来的唐僧小说相连，却不是同一份旅行记录。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "NOPSS-XUANZANG-XIYUJI",
+      "CSSN-TANG-TRANSLATION",
+      "SHAANXI-BIG-WILD-GOOSE-PAGODA",
+      "NLC-JOURNEY-WEST-CLASSIC",
+      "XIAN-CHRONICLE-BIG-PAGODA"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-08-07-journey-west-print",
+        "relation": "隔着唐与明两个时期，分清真实译经与后来小说创作。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "翻译",
+      "宗教",
+      "交流"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-06-04-tang-cultural-exchange",
@@ -101,20 +148,6 @@
   ],
   "glossary": [
     {
-      "term": "小说",
-      "icon": "📖",
-      "plain": "用人物和一连串事情讲故事的文学作品。",
-      "example": "《西游记》是明代长篇小说，不是玄奘本人的旅行日记。",
-      "priority": 1
-    },
-    {
-      "term": "游记",
-      "icon": "🥾",
-      "plain": "把旅行中看见、听见和查到的事情写下来。",
-      "example": "徐霞客边走边记，还会比较河流从哪里来。",
-      "priority": 1
-    },
-    {
       "term": "翻译",
       "icon": "🗣️",
       "plain": "把一种语言表达的意思换成另一种语言。",
@@ -122,17 +155,17 @@
       "priority": 2
     },
     {
+      "term": "宗教",
+      "icon": "🕯️",
+      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
+      "example": "同一种宗教内部也有不同地区、时代和人群。",
+      "priority": 2
+    },
+    {
       "term": "交流",
       "icon": "↔️",
       "plain": "不同的人把物品、知识或做法带给彼此。",
       "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
-      "priority": 1
-    },
-    {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
       "priority": 1
     }
   ],
@@ -147,16 +180,6 @@
       "note": "人名连读。"
     },
     {
-      "text": "鉴真",
-      "reading": "Jiànzhēn",
-      "kind": "person",
-      "chapterIds": [
-        "cn-ancient-06-04-tang-cultural-exchange",
-        "world-ancient-02-04-medieval-japan"
-      ],
-      "note": "“鉴”读jiàn。"
-    },
-    {
       "text": "玄奘",
       "reading": "Xuán Zàng",
       "kind": "person",
@@ -166,23 +189,11 @@
       "note": "“奘”在人名中读zàng。"
     },
     {
-      "text": "奈良",
-      "reading": "Nàiliáng",
-      "kind": "place",
-      "chapterIds": [
-        "cn-ancient-06-04-tang-cultural-exchange",
-        "world-ancient-02-04-medieval-japan"
-      ],
-      "note": "日本地名的普通话译名读法。"
-    },
-    {
       "text": "长安",
       "reading": "Cháng’ān",
       "kind": "place",
       "chapterIds": [
-        "cn-ancient-04-02-han-governance",
         "cn-ancient-04-03-silk-road",
-        "cn-ancient-06-02-tang-governance",
         "cn-ancient-06-03-tang-changan",
         "cn-ancient-06-04-tang-cultural-exchange",
         "cross-03-cultural-exchange"
@@ -223,7 +234,7 @@
         "license": "CC0 1.0",
         "clearance": "cleared-open-license",
         "caption": "今天西安大慈恩寺内的大雁塔。",
-        "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。下载为1920×2560像素等比例图，未作其他修改。",
+        "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/big-wild-goose-pagoda-current-view.jpg"
       }
@@ -239,7 +250,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "今天西安大慈恩寺内的大雁塔。",
-      "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。下载为1920×2560像素等比例图，未作其他修改。",
+      "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/big-wild-goose-pagoda-current-view.jpg"
     },
@@ -267,16 +278,15 @@
         "reunionAlt": "小伙伴区分译书与小说的插画",
         "coverCaption": "玄奘带回书以后",
         "coverNarration": "小小旅行团到了唐朝！玄奘远行带回经书。不同语言里的意思，怎样让更多人读懂？",
-        "stationLine": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。",
-        "stationNarration": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。",
         "closingCaption": "带着这一章的发现回家",
         "closingNarration": "玄奘远行学习，回国后与许多人合作翻译经书。讲清、写下、核对，帮助不同地方的知识流传；后来的西游故事另有文学想象。",
         "closingLine": "讲清、写下、核对，让知识传下去。",
         "fictionNote": "大雁塔照片为2014年现状，始建652年晚于645年归来，经历后世改修。译场人物和室内安排为教学虚构，不是某次现场或具体协作者肖像。《大唐西域记》的旅途记录与译经工作分开；百回本《西游记》属后来明代小说，取经故事此前已有流传。",
         "reunionImage": "/content/step-images/tang-translation-reunion-v2.jpg",
+        "stationLine": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
         "stationAudio": {
-          "id": "quest-28429f02d81f52a4",
-          "text": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。"
+          "id": "quest-02a554bf66a28d47",
+          "text": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。"
         },
         "closingAudio": {
           "id": "quest-d60f26ae639f3262",
@@ -303,7 +313,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学插画 · 不作历史现场或文物证据",
-      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-work-v1-prompt.txt。",
+      "boundary": "用虚构角色把讲解、记录和核对画在一起，帮助理解译场合作。不是玄奘及协作者的真实合影，也不是某一天译经活动的完整复原。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/tang-translation-work-v1.jpg"
     },
@@ -318,7 +328,7 @@
         "license": "项目自制；按OpenAI使用条款持有输出使用权",
         "clearance": "cleared-project-created",
         "caption": "现代教学插画 · 不作历史现场或文物证据",
-        "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-reunion-v2-prompt.txt。 v2只把左页讲解者改为僧人，其他区域不变。",
+        "boundary": "现代小伙伴回看译书与小说两种材料。册页中僧人和小说线索为新画，不能把孙悟空放进玄奘真实西行队伍。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/tang-translation-reunion-v2.jpg"
       },
@@ -332,7 +342,7 @@
         "license": "项目自制；按OpenAI使用条款持有输出使用权",
         "clearance": "cleared-project-created",
         "caption": "现代教学插画 · 不作历史现场或文物证据",
-        "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-work-v1-prompt.txt。",
+        "boundary": "用虚构角色把讲解、记录和核对画在一起，帮助理解译场合作。不是玄奘及协作者的真实合影，也不是某一天译经活动的完整复原。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/tang-translation-work-v1.jpg"
       }
@@ -422,7 +432,7 @@
           "license": "CC0 1.0",
           "clearance": "cleared-open-license",
           "caption": "始建于唐代652年 · 现存外观经后世改修",
-          "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。下载为1920×2560像素等比例图，未作其他修改。 今天西安大慈恩寺内的大雁塔。",
+          "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。 今天西安大慈恩寺内的大雁塔。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/big-wild-goose-pagoda-current-view.jpg",
           "label": "点开真实材料，听听说明",
@@ -462,7 +472,7 @@
         "studyImageAlt": "从大雁塔，找到玄奘的时代",
         "imageAlt": "大雁塔现状照片",
         "imageCaption": "大雁塔现状照片",
-        "imageBoundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。下载为1920×2560像素等比例图，未作其他修改。",
+        "imageBoundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。",
         "audio": {
           "lead": {
             "id": "quest-1a43c8eac3237ff9",
@@ -575,7 +585,7 @@
         "studyImageAlt": "带回经书，还要让人读懂",
         "imageAlt": "讲解记录与核对的译场学习图",
         "imageCaption": "讲解记录与核对的译场学习图",
-        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-work-v1-prompt.txt。",
+        "imageBoundary": "用虚构角色把讲解、记录和核对画在一起，帮助理解译场合作。不是玄奘及协作者的真实合影，也不是某一天译经活动的完整复原。",
         "audio": {
           "lead": {
             "id": "quest-aa0ebdf286c23a2a",
@@ -724,7 +734,7 @@
         "studyImageAlt": "讲清、写下，再核对",
         "imageAlt": "讲解记录与核对的译场学习图",
         "imageCaption": "讲解记录与核对的译场学习图",
-        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-work-v1-prompt.txt。",
+        "imageBoundary": "用虚构角色把讲解、记录和核对画在一起，帮助理解译场合作。不是玄奘及协作者的真实合影，也不是某一天译经活动的完整复原。",
         "audio": {
           "lead": {
             "id": "quest-d9ebd08adb01d2be",
@@ -802,7 +812,7 @@
         "studyImageAlt": "要检查意思，不能只看整齐",
         "imageAlt": "讲解记录与核对的译场学习图",
         "imageCaption": "讲解记录与核对的译场学习图",
-        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-work-v1-prompt.txt。",
+        "imageBoundary": "用虚构角色把讲解、记录和核对画在一起，帮助理解译场合作。不是玄奘及协作者的真实合影，也不是某一天译经活动的完整复原。",
         "audio": {
           "lead": {
             "id": "quest-3f146a317b690c86",
@@ -931,7 +941,7 @@
         "studyImageAlt": "真实远行，也成为后来的故事",
         "imageAlt": "小伙伴区分译书与小说的插画",
         "imageCaption": "小伙伴区分译书与小说的插画",
-        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-reunion-v2-prompt.txt。 v2只把左页讲解者改为僧人，其他区域不变。",
+        "imageBoundary": "现代小伙伴回看译书与小说两种材料。册页中僧人和小说线索为新画，不能把孙悟空放进玄奘真实西行队伍。",
         "audio": {
           "lead": {
             "id": "quest-31bb1f2f50a5be00",
@@ -1068,6 +1078,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1489,7 +1500,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "今天西安大慈恩寺内的大雁塔。",
-      "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。下载为1920×2560像素等比例图，未作其他修改。",
+      "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。",
       "childVisibility": "child-ok"
     },
     {
@@ -1515,7 +1526,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学插画 · 不作历史现场或文物证据",
-      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-work-v1-prompt.txt。",
+      "boundary": "用虚构角色把讲解、记录和核对画在一起，帮助理解译场合作。不是玄奘及协作者的真实合影，也不是某一天译经活动的完整复原。",
       "childVisibility": "child-ok"
     },
     {
@@ -1541,7 +1552,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学插画 · 不作历史现场或文物证据",
-      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-translation-reunion-v2-prompt.txt。 v2只把左页讲解者改为僧人，其他区域不变。",
+      "boundary": "现代小伙伴回看译书与小说两种材料。册页中僧人和小说线索为新画，不能把孙悟空放进玄奘真实西行队伍。",
       "childVisibility": "child-ok"
     }
   ],
@@ -1553,5 +1564,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

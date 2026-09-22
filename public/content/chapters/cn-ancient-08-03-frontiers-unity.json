@@ -7,7 +7,45 @@
   "period": {
     "id": "qing",
     "label": "清朝",
-    "years": "1644—1840年前（本内容轨范围）"
+    "years": "1644年入关后—1840年前（本站范围）",
+    "learningContext": {
+      "childIntro": "到承德看会见和办事，再到广州看商船与世界变化。这一站先讲到近代前夜，清朝还有后面的历史。",
+      "chronology": "1636年改国号大清，1644年入关并迁都北京，1912年清帝退位。本站讲到1840年前是选材边界，不是清朝终点。",
+      "covered": "会见与地区联系、广州贸易的存在及限制、同期工业变化。",
+      "scopeBoundary": "边疆治理的不同制度、人口经济与近代危机在完整源稿中；两章不代表清史全貌，也不用一项原因解释后来变局。",
+      "sourceIds": [
+        "NMC-MING-QING",
+        "DPM-QING-NAME-1636",
+        "DPM-QING-ABDICATION",
+        "NMC-QING-ABDICATION-NEWSPAPER"
+      ],
+      "sources": [
+        {
+          "id": "NMC-MING-QING",
+          "title": "“古代中国”基本陈列：明清时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail8.html"
+        },
+        {
+          "id": "DPM-QING-NAME-1636",
+          "title": "皇太极与1636年大清国号",
+          "institution": "故宫博物院",
+          "url": "https://www.dpm.org.cn/lemmas/239616.html"
+        },
+        {
+          "id": "DPM-QING-ABDICATION",
+          "title": "优待条件",
+          "institution": "故宫博物院",
+          "url": "https://www.dpm.org.cn/lemmas/245278.html"
+        },
+        {
+          "id": "NMC-QING-ABDICATION-NEWSPAPER",
+          "title": "清帝退位号外",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/zp/zpml/gmww/202208/t20220805_256891.shtml"
+        }
+      ]
+    }
   },
   "order": 34,
   "title": "承德避暑山庄为什么像一张立体地图",
@@ -18,16 +56,43 @@
     "childTitle": "承德山庄里，为什么要会见来客？",
     "prompt": "这里有山水，也有会见和办事。来自不同地区的人来到承德，小伙伴去看大家怎样解释意思、记录事情。",
     "takeaway": "清代承德不只是避暑的地方，也用于处理政务、会见不同地区的来客。沟通与联系，是了解多民族国家历史的一条线索。",
-    "object": "避暑山庄、外八庙、敕书与驿路遗存",
+    "object": "承德避暑山庄现状照片",
     "people": [
       "清代承德的来客、翻译",
       "记录者"
     ],
-    "place": "河北承德及清代多民族交往地区",
-    "culture": "承德多种建筑传统与多语言文书",
+    "place": "河北承德避暑山庄；虚构会见情境",
+    "culture": "清代会见、政务与地区联系",
     "care": "现代园林照片不等于清代会见现场。故事角色和会谈为虚构，不按衣服判断具体族群，不声称复原某位首领某次会见。会见、礼仪只是清代处理不同地区事务的一部分，各地制度有差异，历史中也存在战争和冲突，不能从一幅和睦图推出始终如此。",
     "preferredAssetId": "qing-chengde-meeting-v1",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-08-03-frontiers-unity",
+    "theme": "治理和规则",
+    "learningGoal": "清代承德会见和政务连接不同地区，沟通是其中一部分。",
+    "parentQuestion": "避暑山庄除了休息赏景，人们为什么还在这里会见？",
+    "observe": "指出会见、解释与记录，联系处理事务和维持交往的目的。",
+    "misconception": "一幅和睦故事图不代表所有历史关系，各地治理方式也不相同。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "NEAC-CHENGDE-EXCHANGE",
+      "NMC-MING-QING"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-05-03-ethnic-interaction",
+        "relation": "与北魏的语言、制度变化对照，沟通需要相似，时代与制度不同。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "治理",
+      "交流",
+      "制度"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-08-03-frontiers-unity",
@@ -96,10 +161,17 @@
   ],
   "glossary": [
     {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "term": "治理",
+      "icon": "🧭",
+      "plain": "一起安排公共事情、解决共同问题。",
+      "example": "修路、管水、定规则和听取意见都可能属于治理。",
+      "priority": 3
+    },
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
       "priority": 1
     },
     {
@@ -108,76 +180,17 @@
       "plain": "大家长期照着运行的一整套规则和办法。",
       "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
       "priority": 1
-    },
-    {
-      "term": "翻译",
-      "icon": "🗣️",
-      "plain": "把一种语言表达的意思换成另一种语言。",
-      "example": "翻译需要懂语言和知识，也常由团队反复校订。",
-      "priority": 2
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "民族",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "在长期历史中形成、共享认同与文化联系的人们。",
-      "example": "民族不是按外貌排高低，也不会永远固定不变。",
-      "priority": 2
-    },
-    {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
-      "priority": 1
-    },
-    {
-      "term": "皇帝",
-      "icon": "👑",
-      "plain": "古代君主国家最高统治者的一种称号。",
-      "example": "皇帝会作决定，也依靠官员、军队、工匠和百姓。",
-      "priority": 3
-    },
-    {
-      "term": "统治",
-      "icon": "🏛️",
-      "plain": "掌权者用机构和规则管理人群与地方。",
-      "example": "研究统治还要问谁能参与、谁承担负担。",
-      "priority": 3
-    },
-    {
-      "term": "治理",
-      "icon": "🧭",
-      "plain": "一起安排公共事情、解决共同问题。",
-      "example": "修路、管水、定规则和听取意见都可能属于治理。",
-      "priority": 3
     }
   ],
   "pronunciations": [
     {
-      "text": "边疆",
-      "reading": "Biānjiāng",
-      "kind": "place",
-      "chapterIds": [
-        "cn-ancient-08-03-frontiers-unity",
-        "cn-contemporary-01-02-consolidation"
-      ],
-      "note": "泛指靠近国界的地区，不是单一地点名。"
-    },
-    {
-      "text": "西藏",
-      "reading": "Xīzàng",
+      "text": "承德",
+      "reading": "Chéngdé",
       "kind": "place",
       "chapterIds": [
         "cn-ancient-08-03-frontiers-unity"
       ],
-      "note": "“藏”在地名中读zàng。"
+      "note": "地名承德，两个字都读第二声。 当前仍待人耳校听。"
     }
   ],
   "gameplay": {
@@ -248,17 +261,16 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "承德山庄里，为什么要会见来客？",
         "coverNarration": "这里有山水，也有会见和办事。来自不同地区的人来到承德，小伙伴去看大家怎样解释意思、记录事情。",
-        "stationLine": "到承德看会见和联系，再到广州看海外贸易与正在变化的世界。",
-        "stationNarration": "到承德看会见和联系，再到广州看海外贸易与正在变化的世界。",
         "closingCaption": "带着发现回家",
         "closingNarration": "清代承德不只是避暑的地方，也用于处理政务、会见不同地区的来客。沟通与联系，是了解多民族国家历史的一条线索。",
         "closingLine": "相互说明、留下记录，让联系继续。",
         "fictionNote": "现代园林照片不等于清代会见现场。故事角色和会谈为虚构，不按衣服判断具体族群，不声称复原某位首领某次会见。会见、礼仪只是清代处理不同地区事务的一部分，各地制度有差异，历史中也存在战争和冲突，不能从一幅和睦图推出始终如此。",
         "reunionFit": "contain",
         "reunionImage": "/content/step-images/qing-friends-reunion-v2.jpg",
+        "stationLine": "到承德看会见和办事，再到广州看商船与世界变化。这一站先讲到近代前夜，清朝还有后面的历史。",
         "stationAudio": {
-          "id": "quest-8beddcdc8489aaa9",
-          "text": "到承德看会见和联系，再到广州看海外贸易与正在变化的世界。"
+          "id": "quest-6bffde08ce55d19b",
+          "text": "到承德看会见和办事，再到广州看商船与世界变化。这一站先讲到近代前夜，清朝还有后面的历史。"
         },
         "closingAudio": {
           "id": "quest-0fbe6b24e2c8e273",
@@ -767,8 +779,8 @@
         "imageBoundary": "现代园林照片不等于清代会见现场。故事角色和会谈为虚构，不按衣服判断具体族群，不声称复原某位首领某次会见。会见、礼仪只是清代处理不同地区事务的一部分，各地制度有差异，历史中也存在战争和冲突，不能从一幅和睦图推出始终如此。",
         "audio": {
           "lead": {
-            "id": "quest-ba2f9e995a973127",
-            "text": "一句话没听懂，先请谁帮助？"
+            "id": "quest-02339eb1cc14445e",
+            "text": "来客说完了，另一边还没听懂，记录的人也拿起笔。要先把意思弄明白，请谁帮助？"
           },
           "transition": {
             "id": "quest-d9a123d49871bdc6",
@@ -1024,6 +1036,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1297,6 +1310,36 @@
       "authorityLevel": "A-central-government",
       "factUse": "避暑山庄和外八庙的会见活动、建筑类型及其在清代多民族交往与治理中的作用；建筑只是一个观察窗口，不代替各地区完整历史",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "DPM-QING-NAME-1636",
+      "title": "皇太极与1636年大清国号",
+      "institution": "故宫博物院",
+      "url": "https://www.dpm.org.cn/lemmas/239616.html",
+      "type": "museum-dynastic-chronology",
+      "authorityLevel": "A",
+      "factUse": "1636年改国号大清，与1644年入关/迁都北京分别定位；不采用不同历法月份的混写",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "DPM-QING-ABDICATION",
+      "title": "优待条件",
+      "institution": "故宫博物院",
+      "url": "https://www.dpm.org.cn/lemmas/245278.html",
+      "type": "museum-document-history",
+      "authorityLevel": "A",
+      "factUse": "1912年2月12日清帝退位及清室优待条件，区分清王朝终结与社会问题是否解决",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-QING-ABDICATION-NEWSPAPER",
+      "title": "清帝退位号外",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/zp/zpml/gmww/202208/t20220805_256891.shtml",
+      "type": "museum-document-record",
+      "authorityLevel": "A",
+      "factUse": "1912年2月12日退位诏书，次日公报号外刊载；帮助区分清朝终点与本试玩1840年前的选材范围",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1491,5 +1534,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

@@ -3,7 +3,7 @@ const ids=['time','beginning','journey','change','takeaway'];
 const kinds=['time-location','evidence-observation','action-sequence','cause-effect','apply-and-explain'];
 const icons=['🕰️','🔎','🧭','✨','🗣️'];
 const url=(scene,small=false)=>`/content/study-scenes/${visualId(scene,small)}.svg`;
-export function buildFocusedGameplay({focused,registerVoiceLine,assets,interactions,childEntry}){
+export function buildFocusedGameplay({focused,registerVoiceLine,assets,interactions,childEntry,stationContext}){
  const voice=registerVoiceLine;
  const findEvidence=id=>{
   const asset=assets.find(a=>a.id===id);
@@ -31,7 +31,7 @@ export function buildFocusedGameplay({focused,registerVoiceLine,assets,interacti
   if(!crop||!['x','y','width','height','sourceWidth','sourceHeight'].every(key=>Number.isFinite(crop[key]))||crop.x<0||crop.y<0||crop.width<=0||crop.height<=0||crop.x+crop.width>crop.sourceWidth||crop.y+crop.height>crop.sourceHeight)throw new Error(`Invalid scene crop: ${focused.id}`);
   if(!narrativeAssets.some(item=>item.id===asset.id))narrativeAssets.push(asset);
  }
- const tripPresentation=trip?{...trip,reunionImage:narrativeAssets[0].image,stationAudio:voice(trip.stationNarration),closingAudio:voice(trip.closingNarration)}:null;
+ const tripPresentation=trip?{...trip,reunionImage:narrativeAssets[0].image,stationLine:stationContext?.childIntro??trip.stationLine,stationAudio:voice(stationContext?.childIntro??trip.stationNarration),closingAudio:voice(trip.closingNarration)}:null;
  const presentation=focused.presentation?{...focused.presentation,story:tripPresentation,sceneImage:sceneAsset.image,evidenceAudio:voice(focused.presentation.evidenceNarration),guideAudio:voice(focused.presentation.guide)}:null;
  const steps=focused.steps.map((s,i)=>{
   const interaction=s.interaction?.kind==='scene-find'?{...s.interaction,rounds:s.interaction.rounds.map(round=>({...round,audio:{question:voice(round.question),right:voice(round.feedback),wrong:voice(round.retry)}}))}:s.interaction?.kind==='circle-refine'?{...s.interaction,refinements:s.interaction.refinements.map(r=>({...r,audio:voice(r.narration)}))}:s.interaction?.kind==='history-lab'?{...s.interaction,lab:{...s.interaction.lab,stages:s.interaction.lab.stages.map(stage=>({...stage,audio:voice(stage.narration)}))}}:s.interaction??null;

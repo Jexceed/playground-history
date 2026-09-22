@@ -7,7 +7,31 @@
   "period": {
     "id": "ming",
     "label": "明朝",
-    "years": "1368—1644年"
+    "years": "1368—1644年",
+    "learningContext": {
+      "childIntro": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
+      "chronology": "1368年建立明朝，1420年北京宫殿建成、1421年正式迁都；各个故事不是发生在同一年。",
+      "covered": "政务环节、郑和交往、工艺记录、屋脊构件、小说刊印、旅行观察。",
+      "scopeBoundary": "社会经济、边防与明末变化在背景稿中；工艺、旅行和宫廷故事是取样，不能当完整明史。",
+      "sourceIds": [
+        "NMC-MING-QING",
+        "UNESCO-FORBIDDEN-CITY"
+      ],
+      "sources": [
+        {
+          "id": "NMC-MING-QING",
+          "title": "“古代中国”基本陈列：明清时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail8.html"
+        },
+        {
+          "id": "UNESCO-FORBIDDEN-CITY",
+          "title": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/439/"
+        }
+      ]
+    }
   },
   "order": 43,
   "title": "徐霞客的旅行笔记怎样变成地理书",
@@ -18,16 +42,42 @@
     "childTitle": "跟徐霞客学会看山水、留记录",
     "prompt": "走过一座桥，看见一条河，怎样让后来的人也知道你的发现？小伙伴从徐霞客的游记出发，练习看清楚、记具体。",
     "takeaway": "明代徐霞客长期旅行、观察山川并留下记录；后人整理成游记。具体的观察和记录，帮助人们认识地理。",
-    "object": "旅行日记、路线、洞穴与河流记录",
+    "object": "后世徐霞客肖像艺术作品",
     "people": [
       "徐霞客",
       "后来整理游记的人"
     ],
-    "place": "江苏江阴及他考察过的山川道路",
-    "culture": "《徐霞客游记》与旅行记录",
+    "place": "明代山川观察；今天自己的记录练习",
+    "culture": "《徐霞客游记》与后人整理",
     "care": "后世画像不是生前照片。旅行观察图是今天的教学练习，现代线圈本与铅笔不当徐霞客原物，角色不当其肖像。没有编造徐霞客在此桥的亲历日记；游记由后人整理，不是一趟旅行当场完成。",
     "preferredAssetId": "ming-travel-observation-v1",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-08-08-xu-xiake-notebook",
+    "theme": "知识与技术",
+    "learningGoal": "长年观察与具体记录留下认识山川的线索，后人继续整理。",
+    "parentQuestion": "离开河边后，怎样让没来的人了解你看见的桥与水？",
+    "observe": "留下具体位置关系，知道徐霞客长年记录、后人编成游记。",
+    "misconception": "现代练习本不是徐霞客原稿，画像也是后世作品。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "NOPSS-XU-XIAKE"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-08-04-economy-knowledge-culture",
+        "relation": "与工艺观察相连：都要记具体所见，记录对象和目的不同。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "游记",
+      "见闻",
+      "证据"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-08-08-xu-xiake-notebook",
@@ -99,6 +149,20 @@
       "icon": "🥾",
       "plain": "把旅行中看见、听见和查到的事情写下来。",
       "example": "徐霞客边走边记，还会比较河流从哪里来。",
+      "priority": 1
+    },
+    {
+      "term": "见闻",
+      "icon": "👣",
+      "plain": "亲眼看见、亲耳听到或了解的事情。",
+      "example": "远行者可以把沿途的道路、物产等见闻带回来。",
+      "priority": 1
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
       "priority": 1
     }
   ],
@@ -181,17 +245,16 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "跟徐霞客学会看山水、留记录",
         "coverNarration": "走过一座桥，看见一条河，怎样让后来的人也知道你的发现？小伙伴从徐霞客的游记出发，练习看清楚、记具体。",
-        "stationLine": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
-        "stationNarration": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
         "closingCaption": "带着发现回家",
         "closingNarration": "明代徐霞客长期旅行、观察山川并留下记录；后人整理成游记。具体的观察和记录，帮助人们认识地理。",
         "closingLine": "看得仔细，记得具体，发现才留得下来。",
         "fictionNote": "后世画像不是生前照片。旅行观察图是今天的教学练习，现代线圈本与铅笔不当徐霞客原物，角色不当其肖像。没有编造徐霞客在此桥的亲历日记；游记由后人整理，不是一趟旅行当场完成。",
         "reunionFit": "contain",
         "reunionImage": "/content/step-images/ming-friends-reunion-v1.jpg",
+        "stationLine": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
         "stationAudio": {
-          "id": "quest-85f0f7da351bfce2",
-          "text": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。"
+          "id": "quest-cca292f14668bfcd",
+          "text": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。"
         },
         "closingAudio": {
           "id": "quest-f29e20059604cbe0",
@@ -699,8 +762,8 @@
         "imageBoundary": "后世画像不是生前照片。旅行观察图是今天的教学练习，现代线圈本与铅笔不当徐霞客原物，角色不当其肖像。没有编造徐霞客在此桥的亲历日记；游记由后人整理，不是一趟旅行当场完成。",
         "audio": {
           "lead": {
-            "id": "quest-768a405f7c46a08e",
-            "text": "离开之前，怎样留下具体发现？"
+            "id": "quest-3c117c8c5cedbde5",
+            "text": "我们已经看清桥与河的位置，马上要离开了。怎样把这个具体发现留给没来的人？"
           },
           "transition": {
             "id": "quest-fd57b23a5f15b57a",
@@ -930,6 +993,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1116,6 +1180,26 @@
       "type": "current-textbook-implementation-reference",
       "authorityLevel": "A-structure-only",
       "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-MING-QING",
+      "title": "“古代中国”基本陈列：明清时期",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail8.html",
+      "type": "museum-permanent-exhibition",
+      "authorityLevel": "A",
+      "factUse": "1368年以后明清政治、经济、统一多民族国家、对外关系、文化及1840年前危机的总体脉络",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-FORBIDDEN-CITY",
+      "title": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/439/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A",
+      "factUse": "北京紫禁城始建年代、明清宫殿功能与现存遗产经过长期保护的边界",
       "imageUse": "reference-only"
     }
   ],
@@ -1311,5 +1395,6 @@
     "assets": "cleared",
     "audio": "not-started",
     "review": "pending"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

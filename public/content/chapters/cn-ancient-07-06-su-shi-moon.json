@@ -7,7 +7,24 @@
   "period": {
     "id": "song",
     "label": "宋朝（与辽·西夏·金并立）",
-    "years": "916—1279年（宋960年起）"
+    "years": "916—1279年（宋960年起）",
+    "learningContext": {
+      "childIntro": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+      "chronology": "916是辽相关起点，宋从960年开始；北宋与南宋分期，辽与金先后更替、西夏存在其间。窗口范围不等于宋始于916年。",
+      "covered": "同年并立、城市劳动、活字、指南针、火药文献与宋词。",
+      "scopeBoundary": "经济重心南移、海外贸易及政权关系在背景稿中；三项技术不能代表宋代生活全部。",
+      "sourceIds": [
+        "NMC-LIAO-SONG-XIA-JIN-YUAN"
+      ],
+      "sources": [
+        {
+          "id": "NMC-LIAO-SONG-XIA-JIN-YUAN",
+          "title": "“古代中国”基本陈列：辽宋夏金元时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+        }
+      ]
+    }
   },
   "order": 40,
   "title": "苏轼怎样把月亮寄给远方的亲人",
@@ -18,16 +35,44 @@
     "childTitle": "跟苏轼望月，给远方一份祝愿",
     "prompt": "中秋的月亮很圆，苏轼却和弟弟相隔两地。他把怎样的牵挂，写进《水调歌头》？",
     "takeaway": "1076年中秋，北宋苏轼写《水调歌头》，也思念弟弟苏辙。他借明月寄托祝愿：虽然相隔千里，仍愿亲人平安。",
-    "object": "《水调歌头》词句与后世苏轼画像",
+    "object": "苏轼像 · 元代赵孟頫绘",
     "people": [
       "苏轼",
       "弟弟苏辙"
     ],
-    "place": "1076年的密州与远方亲人所在之处",
+    "place": "1076年密州与远方亲人；元代后世画像",
     "culture": "宋词《水调歌头》",
     "care": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
     "preferredAssetId": "song-moon-wishes-v1",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-07-06-su-shi-moon",
+    "theme": "艺术和表达",
+    "learningGoal": "苏轼借明月寄托对相隔两地亲人的祝愿。",
+    "parentQuestion": "相隔很远的人，词里怎样把他们联系起来？",
+    "observe": "结合两处窗景和明月表达祝愿，知道婵娟在词里指明月。",
+    "misconception": "1076年词作与1301年画像分开，插画不声称真实合影。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "SH-SUSHI-WATER-MELODY",
+      "NPM-ZHAO-SUSHI-PORTRAIT",
+      "CCDI-SUSHI-WATER-MELODY"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-06-07-li-bai-jingyesi",
+        "relation": "与李白望月互相回看：诗词都有牵挂，表达与人物不同。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "婵娟",
+      "宋词",
+      "文化"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-07-06-su-shi-moon",
@@ -102,10 +147,24 @@
   ],
   "glossary": [
     {
+      "term": "婵娟",
+      "icon": "🌕",
+      "plain": "这个词可以形容美好的样子，苏轼这句词里指明月。",
+      "example": "千里共婵娟，是相隔很远仍可以共赏明月的祝愿。",
+      "priority": 1
+    },
+    {
       "term": "宋词",
       "icon": "🌕",
       "plain": "宋代很兴盛、可以配着曲调唱的一种文学作品。",
       "example": "苏轼用《水调歌头》写月亮、离别和祝愿。",
+      "priority": 2
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
       "priority": 2
     }
   ],
@@ -162,7 +221,7 @@
         "license": "Public Domain Mark 1.0",
         "clearance": "cleared-open-license",
         "caption": "元代赵孟頫在苏轼去世后所绘苏轼艺术形象。",
-        "boundary": "后世绘画不是苏轼生前照片，也不能证明他写《水调歌头》时的衣着、动作或房间；只用于连接人物、作品和后世纪念。原图750×1766像素。 台北故宫故书000155、1301年册首画像身份已核对。",
+        "boundary": "后世绘画不是苏轼生前照片，也不能证明他写《水调歌头》时的衣着、动作或房间；只用于连接人物、作品和后世纪念。 台北故宫故书000155、1301年册首画像身份已核对。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/su-shi-yuan-portrait-artwork.jpg"
       }
@@ -206,16 +265,15 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "跟苏轼望月，给远方一份祝愿",
         "coverNarration": "中秋的月亮很圆，苏轼却和弟弟相隔两地。他把怎样的牵挂，写进《水调歌头》？",
-        "stationLine": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
-        "stationNarration": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
         "closingCaption": "带着发现回家",
         "closingNarration": "1076年中秋，北宋苏轼写《水调歌头》，也思念弟弟苏辙。他借明月寄托祝愿：虽然相隔千里，仍愿亲人平安。",
         "closingLine": "相隔很远，也能把牵挂放在同一轮月亮里。",
         "fictionNote": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
         "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
+        "stationLine": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
         "stationAudio": {
-          "id": "quest-afff15281530ee8d",
-          "text": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。"
+          "id": "quest-1bc1ed1a12336ca9",
+          "text": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。"
         },
         "closingAudio": {
           "id": "quest-ec5a619d9c0aa694",
@@ -358,7 +416,7 @@
           "license": "Public Domain Mark 1.0",
           "clearance": "cleared-open-license",
           "caption": "1301年后世画像 · 人物是北宋苏轼",
-          "boundary": "后世绘画不是苏轼生前照片，也不能证明他写《水调歌头》时的衣着、动作或房间；只用于连接人物、作品和后世纪念。原图750×1766像素。 台北故宫故书000155、1301年册首画像身份已核对。 元代赵孟頫在苏轼去世后所绘苏轼艺术形象。",
+          "boundary": "后世绘画不是苏轼生前照片，也不能证明他写《水调歌头》时的衣着、动作或房间；只用于连接人物、作品和后世纪念。 台北故宫故书000155、1301年册首画像身份已核对。 元代赵孟頫在苏轼去世后所绘苏轼艺术形象。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/su-shi-yuan-portrait-artwork.jpg",
           "label": "点开真材料，听听说明",
@@ -586,8 +644,8 @@
         "imageBoundary": "《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
         "audio": {
           "lead": {
-            "id": "quest-2d43a16b9d783781",
-            "text": "这句词把远方的祝愿托给什么？"
+            "id": "quest-9544aaa22b06d887",
+            "text": "词里说千里共婵娟，这里的婵娟指明月。苏轼把给远方的祝愿，托给了什么？"
           },
           "transition": {
             "id": "quest-2058f3aeb9e52576",
@@ -935,6 +993,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1152,6 +1211,16 @@
       "authorityLevel": "A-national-textbook-publisher-teaching",
       "factUse": "核对苏轼《饮湖上初晴后雨》在小学语文教学中的熟悉度；用于与苏轼月亮词章形成作品和地点延伸",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-LIAO-SONG-XIA-JIN-YUAN",
+      "title": "“古代中国”基本陈列：辽宋夏金元时期",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html",
+      "type": "museum-permanent-exhibition",
+      "authorityLevel": "A",
+      "factUse": "916—1368年多政权并立到统一、经济重心南移、城市商业、科技文化和宋元海外贸易的总体脉络",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1282,7 +1351,7 @@
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "北宋张择端《清明上河图》中虹桥附近的局部图像。",
-      "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。",
+      "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。 这里展示的是原图局部，不作为完整构图。",
       "childVisibility": "child-ok"
     },
     {
@@ -1295,7 +1364,7 @@
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "北京印刷博物馆中的木活字展示。",
-      "boundary": "这是现代博物馆陈列的木活字，不是毕昇原物，也不是北宋泥活字。它只用于帮助儿童理解“单字可移动、可重排”的原理；活字印刷并未马上取代雕版印刷。原图1920×1115像素，未作修改。",
+      "boundary": "这是现代博物馆陈列的木活字，不是毕昇原物，也不是北宋泥活字。它只用于帮助儿童理解“单字可移动、可重排”的原理；活字印刷并未马上取代雕版印刷。",
       "childVisibility": "child-ok"
     },
     {
@@ -1308,7 +1377,7 @@
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "元代赵孟頫在苏轼去世后所绘苏轼艺术形象。",
-      "boundary": "后世绘画不是苏轼生前照片，也不能证明他写《水调歌头》时的衣着、动作或房间；只用于连接人物、作品和后世纪念。原图750×1766像素。 台北故宫故书000155、1301年册首画像身份已核对。",
+      "boundary": "后世绘画不是苏轼生前照片，也不能证明他写《水调歌头》时的衣着、动作或房间；只用于连接人物、作品和后世纪念。 台北故宫故书000155、1301年册首画像身份已核对。",
       "childVisibility": "child-ok"
     },
     {
@@ -1359,5 +1428,6 @@
     "assets": "cleared",
     "audio": "not-started",
     "review": "pending"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

@@ -551,8 +551,8 @@ function parseMetadata(markdown) {
   );
 }
 
-function parseFacts(markdown) {
-  const section = getSection(markdown, (heading) => /^(?:\d+条)?事实卡$/.test(heading));
+function parseFacts(markdown, methodNotes = false) {
+  const section = getSection(markdown, (heading) => methodNotes ? heading === "学习设计与史料阅读方法" : /^(?:\d+条)?事实卡$/.test(heading));
   return section.split("\n").flatMap((line) => {
     const match = line.match(/^(\d+)\.\s+(.+)$/);
     if (!match) return [];
@@ -689,7 +689,14 @@ function collectCitationIds(markdown) {
 
 const catalogs = catalogPaths.map(readJson);
 const productMap = readJson("content/product-map.json");
+function periodLearningContext(period){
+ const context=period.learningContext;
+ if(!context)return null;
+ return {...context,sources:context.sourceIds.map(id=>sourceById.get(id)).filter(Boolean).map(({id,title,institution,url})=>({id,title,institution,url}))};
+}
 const childEntryPoints = readJson("content/child-entry-points.json");
+const learningMap = readJson("content/learning-map.json");
+const learningGuideByChapter = new Map(learningMap.chapters.map(c=>[c.id,c]));
 const childEntryByChapter = new Map(childEntryPoints.chapters.map((entry) => [entry.id, entry]));
 const questStoryPaths = readJson("content/quest-story-paths.json");
 const storyPathByChapter = new Map(questStoryPaths.chapters.map((entry) => [entry.id, entry]));
@@ -787,6 +794,7 @@ fs.mkdirSync(sourceDataRoot, { recursive: true });
 
 const manifestTracks = [];
 let totalFacts = 0;
+let totalMethodNotes = 0;
 let totalScreens = 0;
 let totalAudio = 0;
 let totalAudioSegments = 0;
@@ -809,12 +817,14 @@ for (const [catalogIndex, catalog] of catalogs.entries()) {
     const metadata = parseMetadata(markdown);
     const conclusion = markdownBlocks(getSection(markdown, (heading) => heading === "本章结论"));
     const facts = parseFacts(markdown);
+    const methodNotes = parseFacts(markdown,true);
     const screens = parseScreens(markdown);
     const embeddedInteractions = screens.flatMap((screen) => screen.interactions);
     const interactions = embeddedInteractions.length ? embeddedInteractions : parseSeparateInteractions(markdown);
     const textbookConnection = textbookConnectionByChapter.get(chapter.id) ?? null;
     const focused = focusedById.get(chapter.id);
-    const sourceIds = [...new Set([...collectCitationIds(markdown), ...(textbookConnection?.sourceIds ?? []), ...(focused?.steps.flatMap(s=>s.sourceIds) ?? [])])];
+    const learningGuide = learningGuideByChapter.get(chapter.id) ?? null;
+    const sourceIds = [...new Set([...collectCitationIds(markdown), ...(textbookConnection?.sourceIds ?? []), ...(focused?.steps.flatMap(s=>s.sourceIds) ?? []),...(periodById.get(chapter.periodId)?.learningContext?.sourceIds??[])])];
     const sources = sourceIds.map((id) => sourceById.get(id)).filter(Boolean);
     const assets = assetsByChapter.get(chapter.id) ?? [];
     const childEntry = childEntryByChapter.get(chapter.id);
@@ -824,13 +834,13 @@ for (const [catalogIndex, catalog] of catalogs.entries()) {
     const childStory = focused ? focused.steps.map((s,i)=>({id:["time","beginning","journey","change","takeaway"][i],icon:["🕰️","🔎","🧭","✨","🗣️"][i],label:s.title,text:s.story})) : buildChildStory(childEntry, storyPath);
     if (childStory.some((step) => [...step.text].length > 120)) throw new Error(`${chapter.id} 的亲子故事骨架单步超过120字`);
     const childEntryText = JSON.stringify(childEntry);
-    const childLanguageText = `${childEntryText} ${screens.map((screen) => `${screen.title} ${screen.screenText} ${screen.voices.map((voice) => voice.text).join(" ")}`).join(" ")}`;
-    const glossary = childLanguageGlossary.terms
+    const childLanguageText = focused ? `${childEntryText} ${JSON.stringify(focused.steps)}` : `${childEntryText} ${screens.map((screen) => `${screen.title} ${screen.screenText} ${screen.voices.map((voice) => voice.text).join(" ")}`).join(" ")}`;
+    const glossary = learningGuide ? learningGuide.glossaryTerms.map(term=>childLanguageGlossary.terms.find(item=>item.term===term)) : childLanguageGlossary.terms
       .filter((item) => childLanguageText.includes(item.term))
-      .sort((a, b) => Number(!childEntryText.includes(a.term)) - Number(!childEntryText.includes(b.term)) || a.priority - b.priority || b.term.length - a.term.length || a.term.localeCompare(b.term, "zh-CN"));
+      .sort((a,b)=>Number(!childEntryText.includes(a.term))-Number(!childEntryText.includes(b.term))||a.priority-b.priority||b.term.length-a.term.length||a.term.localeCompare(b.term,"zh-CN"));
     if (glossary.length === 0 && !focused) throw new Error(`${chapter.id} 没有匹配任何儿童口语词典解释`);
     const pronunciations = voicePronunciations.entries
-      .filter((item) => item.chapterIds.includes(chapter.id))
+      .filter((item) => item.chapterIds.includes(chapter.id)&&(!focused||JSON.stringify(focused).includes(item.text)))
       .sort((a, b) => a.kind.localeCompare(b.kind) || a.text.localeCompare(b.text, "zh-CN"));
     if (pronunciations.length === 0) throw new Error(`${chapter.id} 没有匹配任何配音读音校听项`);
     const period = periodById.get(chapter.periodId);
@@ -851,7 +861,7 @@ for (const [catalogIndex, catalog] of catalogs.entries()) {
       })),
     }));
     const gameplayContext = gameplayContextById.get(chapter.id);
-    const gameplay = focused ? buildFocusedGameplay({focused, registerVoiceLine, assets, interactions, childEntry}) : buildGameplay({
+    const gameplay = focused ? buildFocusedGameplay({focused, registerVoiceLine, assets, interactions, childEntry,stationContext:period.learningContext}) : buildGameplay({
       chapter,
       childEntry,
       textbookConnection,
@@ -889,12 +899,13 @@ for (const [catalogIndex, catalog] of catalogs.entries()) {
       id: chapter.id,
       trackId: catalog.trackId,
       trackLabel: trackInfo.label,
-      period: { id: period.id, label: period.label, years: period.years ?? period.range ?? "" },
+      period: { id: period.id, label: period.label, years: period.years ?? period.range ?? "",learningContext:periodLearningContext(period) },
       order: chapter.order,
       title: chapter.title,
       coreQuestion: chapter.coreQuestion,
       throughline: chapter.throughline,
       childEntry,
+      learningGuide,
       textbookConnection,
       childStory,
       glossary,
@@ -904,17 +915,20 @@ for (const [catalogIndex, catalog] of catalogs.entries()) {
       durationMinutes: chapter.targets.durationMinutes,
       conclusion,
       facts,
+      methodNotes,
       screens: segmentedScreens,
       interactions,
       sources,
       assets,
       thumbnail,
       status: chapter.status,
+      contentReadiness:focused?"authored-playtest-family-validation-pending":"legacy-draft-not-in-preview",
     };
 
     fs.writeFileSync(path.join(chapterOutputRoot, `${chapter.id}.json`), `${JSON.stringify(chapterPack, null, 2)}\n`);
 
     totalFacts += facts.length;
+    totalMethodNotes += methodNotes.length;
     totalScreens += screens.length;
     totalAudio += parsedAudioCount;
     totalAudioSegments += parsedAudioSegmentCount;
@@ -931,6 +945,7 @@ for (const [catalogIndex, catalog] of catalogs.entries()) {
       coreQuestion: chapter.coreQuestion,
       throughline: chapter.throughline,
       childEntry,
+      learningGuide,
       textbookConnection,
       childStory,
       glossary: glossary.slice(0, 6),
@@ -946,11 +961,13 @@ for (const [catalogIndex, catalog] of catalogs.entries()) {
       extensionAudioSegments: parsedExtensionAudioSegmentCount,
       interactions: chapter.targets.interactions,
       factCount: facts.length,
+      methodNoteCount: methodNotes.length,
       sourceCount: sources.length,
       assetCount: assets.length,
       thumbnail,
       detailUrl: `/content/chapters/${chapter.id}.json`,
       reviewStatus: chapter.status.review,
+      contentReadiness:focused?"authored-playtest-family-validation-pending":"legacy-draft-not-in-preview",
     });
   }
 
@@ -960,7 +977,7 @@ for (const [catalogIndex, catalog] of catalogs.entries()) {
     label: trackInfo.label,
     range: trackInfo.range,
     editorialNote: catalog.editorialNote,
-    periods: catalog.periods,
+    periods: catalog.periods.map(period=>({...period,learningContext:periodLearningContext(period)})),
     chapters: manifestChapters,
   });
 }
@@ -975,6 +992,7 @@ const manifest = {
     tracks: manifestTracks.length,
     chapters: manifestTracks.reduce((sum, track) => sum + track.chapters.length, 0),
     facts: totalFacts,
+    methodNotes: totalMethodNotes,
     screens: totalScreens,
     audioClips: totalAudio,
     audioSegments: totalAudioSegments,
@@ -1032,7 +1050,7 @@ const previewVoiceIds=new Set();
 const collectVoices=obj=>{if(!obj||typeof obj!=="object")return;if(typeof obj.id==="string"&&typeof obj.text==="string"&&voiceLineById.has(obj.id))previewVoiceIds.add(obj.id);else Object.values(obj).forEach(collectVoices);};
 previewChapters.forEach(c=>collectVoices(c.gameplay));
 ["river-intro","choice-help","choice-circle","choice-square","choice-first","resume-hint"].forEach(id=>previewVoiceIds.add(id));
-const preview={...manifest,title:"秦汉至明清本机试玩",scope:previewScope,tracks:previewTracks,totals:{...manifest.totals,tracks:previewTracks.length,chapters:previewChapters.length,playableChapters:previewChapters.length,coreQuestSteps:previewChapters.length*5,facts:sum("factCount"),screens:sum("screens"),audioClips:sum("audioClips"),audioSegments:sum("audioSegments"),coreAudioSegments:sum("coreAudioSegments"),extensionAudioSegments:sum("extensionAudioSegments"),interactions:sum("interactions"),textbookConnections:34,sources:distinct("sources","id"),assets:distinct("assets","id"),glossaryTerms:distinct("glossary","term"),pronunciationEntries:distinct("pronunciations","text"),localVoiceLines:previewVoiceIds.size},voicePlayback:{...manifest.voicePlayback,lineCount:previewVoiceIds.size}};
+const preview={...manifest,title:"秦汉至明清本机试玩",scope:previewScope,tracks:previewTracks,totals:{...manifest.totals,tracks:previewTracks.length,chapters:previewChapters.length,playableChapters:previewChapters.length,coreQuestSteps:previewChapters.length*5,facts:sum("factCount"),methodNotes:sum("methodNoteCount"),screens:sum("screens"),audioClips:sum("audioClips"),audioSegments:sum("audioSegments"),coreAudioSegments:sum("coreAudioSegments"),extensionAudioSegments:sum("extensionAudioSegments"),interactions:sum("interactions"),textbookConnections:34,sources:distinct("sources","id"),assets:distinct("assets","id"),glossaryTerms:distinct("glossary","term"),pronunciationEntries:distinct("pronunciations","text"),localVoiceLines:previewVoiceIds.size},voicePlayback:{...manifest.voicePlayback,lineCount:previewVoiceIds.size}};
 const previewText=JSON.stringify(preview,null,2)+"\n";
 fs.writeFileSync(path.join(sourceDataRoot,"preview-manifest.json"),previewText);
 fs.writeFileSync(path.join(outputRoot,"preview-manifest.json"),previewText);

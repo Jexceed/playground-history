@@ -7,7 +7,24 @@
   "period": {
     "id": "yuan",
     "label": "元朝",
-    "years": "1271—1368年"
+    "years": "1271—1368年",
+    "learningContext": {
+      "childIntro": "许多政权并立之后，元朝完成统一。地方事情怎样办理，消息怎样送远？我们去看地方分工和驿站。",
+      "chronology": "1271年定国号元，1279年南宋结束、元完成统一，1368年元朝在全国的统治结束；不能压为一次换牌。",
+      "covered": "中央地方分工、官驿规则、运输供给与劳动。",
+      "scopeBoundary": "元代族群、社会差异及海上交往在背景稿中；行省与今天省份不完全相同，也不把官驿等同全部商路。",
+      "sourceIds": [
+        "NMC-LIAO-SONG-XIA-JIN-YUAN"
+      ],
+      "sources": [
+        {
+          "id": "NMC-LIAO-SONG-XIA-JIN-YUAN",
+          "title": "“古代中国”基本陈列：辽宋夏金元时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+        }
+      ]
+    }
   },
   "order": 30,
   "title": "元朝怎样重新完成统一",
@@ -18,16 +35,45 @@
     "childTitle": "元朝这么大，地方的事谁来办？",
     "prompt": "元朝的都城大都在今天北京一带。管理这么多地方，能只靠都城里的人吗？小伙伴去看看地方的分工。",
     "takeaway": "元朝统一后，中央与地方分工。行省等机构联系各地，基层有人核对情况、办理事务；不是一个人跑遍全国，各地办法也有差别。",
-    "object": "元代地图、印章与都城遗址",
+    "object": "元大都城墙遗址断面现状照片",
     "people": [
       "忽必烈",
       "元代中央、地方办事的人"
     ],
-    "place": "元大都，也就是今天北京一带",
-    "culture": "多文字官方文书",
+    "place": "元大都，今北京一带；虚构地方查桥故事",
+    "culture": "元代中央地方分工",
     "care": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
     "playableSource": "content/focused-quests.json",
     "preferredAssetId": "yuan-local-affairs-v1"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-07-04-yuan-unification",
+    "theme": "治理和规则",
+    "learningGoal": "元朝中央与地方分工，具体事务还需就地了解办理。",
+    "parentQuestion": "都城很远，地方的桥有问题，为什么要有人在当地查看？",
+    "observe": "指现场查验与记录，联系地方分担事务；不用背机构名称。",
+    "misconception": "虚构桥例不能证明所有小事都层层报到皇帝，行省也不等于今天省份。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "NEAC-MONGOL-YUAN-HISTORY",
+      "SCIO-YUAN-PROVINCES",
+      "CASS-YUAN-LOCAL-OFFICIALS",
+      "BJ-YUAN-DADU-WALL"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-07-05-yuan-exchange",
+        "relation": "地方办事离不开联系，再看官方消息如何借驿站传递。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "行省",
+      "治理",
+      "制度"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-07-04-yuan-unification",
@@ -97,95 +143,11 @@
   ],
   "glossary": [
     {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
-      "priority": 1
-    },
-    {
-      "term": "遗址",
-      "icon": "🏚️",
-      "plain": "过去的人生活或活动后留下的地方。",
-      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
-      "priority": 1
-    },
-    {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
-      "priority": 1
-    },
-    {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
-      "priority": 1
-    },
-    {
-      "term": "国家",
+      "term": "行省",
       "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "货币",
-      "icon": "🪙",
-      "plain": "大家用来交换和计算价值的共同工具。",
-      "example": "贝壳、铜钱、纸币形状不同，都要看当时怎样使用。",
-      "priority": 2
-    },
-    {
-      "term": "领土",
-      "icon": "🗺️",
-      "plain": "一个国家依法拥有和管理的土地、水域等范围。",
-      "example": "历史地图要标时间，边界不会一直不变。",
-      "priority": 2
-    },
-    {
-      "term": "社会",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "许多人一起生活、分工并形成关系的整体。",
-      "example": "社会变化要看不同人受到的影响。",
-      "priority": 2
-    },
-    {
-      "term": "文化",
-      "icon": "🎨",
-      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
-      "example": "文化会交流变化，不能排成谁高谁低。",
-      "priority": 2
-    },
-    {
-      "term": "政权",
-      "icon": "🏛️",
-      "plain": "谁在用什么机构和规则管理一个地方。",
-      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
-      "priority": 2
-    },
-    {
-      "term": "宗教",
-      "icon": "🕯️",
-      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
-      "example": "同一种宗教内部也有不同地区、时代和人群。",
-      "priority": 2
-    },
-    {
-      "term": "组织",
-      "icon": "🤝",
-      "plain": "许多人为了共同事情分工、联系和行动。",
-      "example": "一个名人背后常有组织、协作者和普通参与者。",
-      "priority": 2
-    },
-    {
-      "term": "生产",
-      "icon": "🛠️",
-      "plain": "把材料和劳动变成食物、工具或其他产品。",
-      "example": "生产离不开人、工具、材料和组织。",
-      "priority": 3
+      "plain": "元代帮助朝廷联系许多地方、办理一部分事务的机构。",
+      "example": "它和今天的省有历史联系，但边界与职责不能直接照搬。",
+      "priority": 1
     },
     {
       "term": "治理",
@@ -193,6 +155,13 @@
       "plain": "一起安排公共事情、解决共同问题。",
       "example": "修路、管水、定规则和听取意见都可能属于治理。",
       "priority": 3
+    },
+    {
+      "term": "制度",
+      "icon": "📋",
+      "plain": "大家长期照着运行的一整套规则和办法。",
+      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "priority": 1
     }
   ],
   "pronunciations": [
@@ -368,17 +337,16 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "元朝这么大，地方的事谁来办？",
         "coverNarration": "元朝的都城大都在今天北京一带。管理这么多地方，能只靠都城里的人吗？小伙伴去看看地方的分工。",
-        "stationLine": "元朝完成统一以后，地方事务要分工办理，消息和人员也要借助驿站、道路与港口往来。",
-        "stationNarration": "元朝完成统一以后，地方事务要分工办理，消息和人员也要借助驿站、道路与港口往来。",
         "closingCaption": "带着发现回家",
         "closingNarration": "元朝统一后，中央与地方分工。行省等机构联系各地，基层有人核对情况、办理事务；不是一个人跑遍全国，各地办法也有差别。",
         "closingLine": "中央与地方分担事情，治理还要就地办理。",
         "fictionNote": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
         "reunionFit": "contain",
         "reunionImage": "/content/step-images/yuan-friends-reunion-v1.jpg",
+        "stationLine": "许多政权并立之后，元朝完成统一。地方事情怎样办理，消息怎样送远？我们去看地方分工和驿站。",
         "stationAudio": {
-          "id": "quest-8def5a7bc59fabe6",
-          "text": "元朝完成统一以后，地方事务要分工办理，消息和人员也要借助驿站、道路与港口往来。"
+          "id": "quest-55d5658fefed3bf2",
+          "text": "许多政权并立之后，元朝完成统一。地方事情怎样办理，消息怎样送远？我们去看地方分工和驿站。"
         },
         "closingAudio": {
           "id": "quest-25351dcad6589006",
@@ -887,8 +855,8 @@
         "imageBoundary": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
         "audio": {
           "lead": {
-            "id": "quest-aa534d13a591cb1f",
-            "text": "要弄清桥哪里坏了，先做什么？"
+            "id": "quest-0947fcbd2d686fac",
+            "text": "文书只写了桥有问题，还没说清哪里坏了。要把具体位置弄明白，先做什么？"
           },
           "transition": {
             "id": "quest-13960aebb72e3fc5",
@@ -1133,6 +1101,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1507,7 +1476,7 @@
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "今天泉州洛阳桥的现状照片；该桥是宋元泉州世界遗产组成部分之一。",
-      "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。下载为1920×1280像素等比例图，未作其他修改。",
+      "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。",
       "childVisibility": "child-ok"
     },
     {
@@ -1597,5 +1566,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

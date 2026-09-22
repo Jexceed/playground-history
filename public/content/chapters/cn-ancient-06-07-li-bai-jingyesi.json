@@ -7,7 +7,24 @@
   "period": {
     "id": "tang",
     "label": "唐朝",
-    "years": "618—907年"
+    "years": "618—907年",
+    "learningContext": {
+      "childIntro": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
+      "chronology": "618—907年为唐朝范围；本组故事分属不同时期，贞观、开元通宝始铸、开元年号不可混为一个节点。",
+      "covered": "治理恢复、钱名与年号、城市乐舞、译经、书法与诗。",
+      "scopeBoundary": "科举、唐前后期变化等在背景稿中；李白诗作和颜真卿文稿不能被拼成唐朝始终繁盛的单一画面。",
+      "sourceIds": [
+        "NMC-SUI-TANG-FIVE-DYNASTIES"
+      ],
+      "sources": [
+        {
+          "id": "NMC-SUI-TANG-FIVE-DYNASTIES",
+          "title": "“古代中国”基本陈列：隋唐五代时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html"
+        }
+      ]
+    }
   },
   "order": 38,
   "title": "李白怎样用月光写思念",
@@ -18,16 +35,43 @@
     "childTitle": "跟李白望月，轻轻想家",
     "prompt": "“举头望明月，低头思故乡。”先安静听一遍，再跟小伙伴感受望月与想家的心情。",
     "takeaway": "唐代李白的《静夜思》，把月光、举头和低头连成思乡的感受。后来的我们也能轻轻读诗，想起自己牵挂的人和地方。",
-    "object": "《静夜思》诗句与后世李白画像",
+    "object": "梁楷画李白 · 后世画像",
     "people": [
       "李白",
       "《静夜思》"
     ],
-    "place": "唐代中国与诗人思念的故乡",
+    "place": "唐代诗人的思乡；后世画像与今天读诗",
     "culture": "唐代古诗《静夜思》",
     "care": "梁楷画像作于南宋13世纪，是后世艺术形象而非李白生前写真。诗意图是现代小伙伴代入阅读，不指定李白当晚房间、城市或具体家人。采用通行小学文本；不把诗当日记、月光当真霜，不用背诵分数评价感受。",
     "preferredAssetId": "li-bai-strolling-song-painting",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-06-07-li-bai-jingyesi",
+    "theme": "艺术和表达",
+    "learningGoal": "诗用月光与动作表达思乡，也容得下自己的感受。",
+    "parentQuestion": "抬头看到月亮，低头为什么会想到家？",
+    "observe": "用抬头、低头或指图连接月亮和牵挂的人，不要求背完整首诗。",
+    "misconception": "后世李白画像不是唐代照片；不编确定的写诗地点与当夜见闻。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "CCDI-LIBAI-JINGYESI",
+      "PEP-POETRY-EXPERIENCE",
+      "TNM-LIBAI-LIANGKAI"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-07-06-su-shi-moon",
+        "relation": "比较李白思乡与苏轼祝愿，月亮相似，作品与处境不同。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "古诗",
+      "文化"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-06-07-li-bai-jingyesi",
@@ -108,6 +152,13 @@
       "plain": "古代诗人用有节奏的短句写景物、动作和感受。",
       "example": "《静夜思》用月光和抬头、低头写思念。",
       "priority": 1
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
     }
   ],
   "pronunciations": [
@@ -154,7 +205,7 @@
         "license": "Public Domain Mark 1.0",
         "clearance": "cleared-open-license",
         "caption": "梁楷《李白吟行图》人物部分 · 南宋13世纪",
-        "boundary": "这是一幅后世艺术形象，不是李白肖像写生，也不能证明《静夜思》的写作地点、姿势或衣着；只用来连接诗人姓名和后世纪念。原图395×654像素。 本地图片呈人物部分，不冒称装裱全幅；藏所与时代另由东京国立博物馆TA-164条目核对。",
+        "boundary": "这是一幅后世艺术形象，不是李白肖像写生，也不能证明《静夜思》的写作地点、姿势或衣着；只用来连接诗人姓名和后世纪念。 这里展示人物部分，不冒称装裱全幅；藏所与时代另由东京国立博物馆TA-164条目核对。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/li-bai-strolling-song-painting.jpg"
       }
@@ -170,7 +221,7 @@
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "梁楷《李白吟行图》人物部分 · 南宋13世纪",
-      "boundary": "这是一幅后世艺术形象，不是李白肖像写生，也不能证明《静夜思》的写作地点、姿势或衣着；只用来连接诗人姓名和后世纪念。原图395×654像素。 本地图片呈人物部分，不冒称装裱全幅；藏所与时代另由东京国立博物馆TA-164条目核对。",
+      "boundary": "这是一幅后世艺术形象，不是李白肖像写生，也不能证明《静夜思》的写作地点、姿势或衣着；只用来连接诗人姓名和后世纪念。 这里展示人物部分，不冒称装裱全幅；藏所与时代另由东京国立博物馆TA-164条目核对。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/li-bai-strolling-song-painting.jpg"
     },
@@ -198,16 +249,15 @@
         "reunionAlt": "小伙伴一起读诗想家的插画",
         "coverCaption": "跟李白望月，轻轻想家",
         "coverNarration": "小小旅行团到了唐朝！“举头望明月，低头思故乡。”先安静听一遍，再跟小伙伴感受望月与想家的心情。",
-        "stationLine": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。",
-        "stationNarration": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。",
         "closingCaption": "带着这一章的发现回家",
         "closingNarration": "唐代李白的《静夜思》，把月光、举头和低头连成思乡的感受。后来的我们也能轻轻读诗，想起自己牵挂的人和地方。",
         "closingLine": "轻轻望月，也想起牵挂的地方。",
         "fictionNote": "梁楷画像作于南宋13世纪，是后世艺术形象而非李白生前写真。诗意图是现代小伙伴代入阅读，不指定李白当晚房间、城市或具体家人。采用通行小学文本；不把诗当日记、月光当真霜，不用背诵分数评价感受。",
         "reunionImage": "/content/step-images/tang-poem-reunion-v1.jpg",
+        "stationLine": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
         "stationAudio": {
-          "id": "quest-28429f02d81f52a4",
-          "text": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。"
+          "id": "quest-02a554bf66a28d47",
+          "text": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。"
         },
         "closingAudio": {
           "id": "quest-e890e2afc1d698b8",
@@ -234,7 +284,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学插画 · 不作历史现场或文物证据",
-      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-poem-actions-v1-prompt.txt。",
+      "boundary": "今天读《静夜思》时的动作与想象。月光和家乡形象帮助表达思念，不是李白写诗当夜、故居或亲人的现场复原。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/tang-poem-actions-v1.jpg"
     },
@@ -249,7 +299,7 @@
         "license": "项目自制；按OpenAI使用条款持有输出使用权",
         "clearance": "cleared-project-created",
         "caption": "现代教学插画 · 不作历史现场或文物证据",
-        "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-poem-reunion-v1-prompt.txt。",
+        "boundary": "现代小伙伴一起读诗的回顾图。每个人可以有自己的牵挂，画面不声称还原李白的房间、故乡或当夜具体经历。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/tang-poem-reunion-v1.jpg"
       },
@@ -263,7 +313,7 @@
         "license": "项目自制；按OpenAI使用条款持有输出使用权",
         "clearance": "cleared-project-created",
         "caption": "现代教学插画 · 不作历史现场或文物证据",
-        "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-poem-actions-v1-prompt.txt。",
+        "boundary": "今天读《静夜思》时的动作与想象。月光和家乡形象帮助表达思念，不是李白写诗当夜、故居或亲人的现场复原。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/tang-poem-actions-v1.jpg"
       }
@@ -351,7 +401,7 @@
           "license": "Public Domain Mark 1.0",
           "clearance": "cleared-open-license",
           "caption": "南宋13世纪 · 画中诗人生活在唐代",
-          "boundary": "这是一幅后世艺术形象，不是李白肖像写生，也不能证明《静夜思》的写作地点、姿势或衣着；只用来连接诗人姓名和后世纪念。原图395×654像素。 本地图片呈人物部分，不冒称装裱全幅；藏所与时代另由东京国立博物馆TA-164条目核对。 梁楷《李白吟行图》人物部分 · 南宋13世纪",
+          "boundary": "这是一幅后世艺术形象，不是李白肖像写生，也不能证明《静夜思》的写作地点、姿势或衣着；只用来连接诗人姓名和后世纪念。 这里展示人物部分，不冒称装裱全幅；藏所与时代另由东京国立博物馆TA-164条目核对。 梁楷《李白吟行图》人物部分 · 南宋13世纪",
           "childVisibility": "child-ok",
           "image": "/content/step-images/li-bai-strolling-song-painting.jpg",
           "label": "点开真实材料，听听说明",
@@ -387,7 +437,7 @@
         "studyImageAlt": "画中是李白，诗人生活在唐朝",
         "imageAlt": "南宋梁楷《李白行吟图》",
         "imageCaption": "南宋梁楷《李白行吟图》",
-        "imageBoundary": "这是一幅后世艺术形象，不是李白肖像写生，也不能证明《静夜思》的写作地点、姿势或衣着；只用来连接诗人姓名和后世纪念。原图395×654像素。 本地图片呈人物部分，不冒称装裱全幅；藏所与时代另由东京国立博物馆TA-164条目核对。",
+        "imageBoundary": "这是一幅后世艺术形象，不是李白肖像写生，也不能证明《静夜思》的写作地点、姿势或衣着；只用来连接诗人姓名和后世纪念。 这里展示人物部分，不冒称装裱全幅；藏所与时代另由东京国立博物馆TA-164条目核对。",
         "audio": {
           "lead": {
             "id": "quest-3df98d127c62a1a4",
@@ -499,7 +549,7 @@
         "studyImageAlt": "月光来了，思念也来了",
         "imageAlt": "小伙伴望月与思乡的诗意学习图",
         "imageCaption": "小伙伴望月与思乡的诗意学习图",
-        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-poem-actions-v1-prompt.txt。",
+        "imageBoundary": "今天读《静夜思》时的动作与想象。月光和家乡形象帮助表达思念，不是李白写诗当夜、故居或亲人的现场复原。",
         "audio": {
           "lead": {
             "id": "quest-811ad26a197707e6",
@@ -617,7 +667,7 @@
         "studyImageAlt": "轻轻举头，望一望月亮",
         "imageAlt": "小伙伴望月与思乡的诗意学习图",
         "imageCaption": "小伙伴望月与思乡的诗意学习图",
-        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-poem-actions-v1-prompt.txt。",
+        "imageBoundary": "今天读《静夜思》时的动作与想象。月光和家乡形象帮助表达思念，不是李白写诗当夜、故居或亲人的现场复原。",
         "audio": {
           "lead": {
             "id": "quest-aee5f199c218c317",
@@ -694,7 +744,7 @@
         "studyImageAlt": "目光看月，心里却想起家",
         "imageAlt": "小伙伴望月与思乡的诗意学习图",
         "imageCaption": "小伙伴望月与思乡的诗意学习图",
-        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-poem-actions-v1-prompt.txt。",
+        "imageBoundary": "今天读《静夜思》时的动作与想象。月光和家乡形象帮助表达思念，不是李白写诗当夜、故居或亲人的现场复原。",
         "audio": {
           "lead": {
             "id": "quest-e0bcccb00c61fbaf",
@@ -822,7 +872,7 @@
         "studyImageAlt": "把月光和思念留在心里",
         "imageAlt": "小伙伴一起读诗想家的插画",
         "imageCaption": "小伙伴一起读诗想家的插画",
-        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-poem-reunion-v1-prompt.txt。",
+        "imageBoundary": "现代小伙伴一起读诗的回顾图。每个人可以有自己的牵挂，画面不声称还原李白的房间、故乡或当夜具体经历。",
         "audio": {
           "lead": {
             "id": "quest-8bab1d8583e30cc0",
@@ -930,6 +980,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1157,6 +1208,16 @@
       "authorityLevel": "A-national-textbook-publisher-classics",
       "factUse": "核对从《论语》《兰亭集序》《木兰诗》到唐宋诗词的经典篇目及其教材关联；用于选择适合儿童的诗文入口，不替代历史事实来源",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-SUI-TANG-FIVE-DYNASTIES",
+      "title": "“古代中国”基本陈列：隋唐五代时期",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html",
+      "type": "museum-permanent-exhibition",
+      "authorityLevel": "A",
+      "factUse": "581—960年隋朝统一、唐前期发展、安史之乱后变化、五代十国以及经济文化延续的总体脉络",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1287,7 +1348,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "洛阳博物馆展出的唐代开元通宝照片。",
-      "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。下载为1920像素等比例图，未作其他修改。",
+      "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。",
       "childVisibility": "child-ok"
     },
     {
@@ -1300,7 +1361,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "今天西安大慈恩寺内的大雁塔。",
-      "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。下载为1920×2560像素等比例图，未作其他修改。",
+      "boundary": "大雁塔始建于652年，用于保存玄奘带回的经卷、佛像等；现存塔经历后世改建和维修。照片拍摄于2014年，不是652年原塔外观。",
       "childVisibility": "child-ok"
     },
     {
@@ -1313,7 +1374,7 @@
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "梁楷《李白吟行图》人物部分 · 南宋13世纪",
-      "boundary": "这是一幅后世艺术形象，不是李白肖像写生，也不能证明《静夜思》的写作地点、姿势或衣着；只用来连接诗人姓名和后世纪念。原图395×654像素。 本地图片呈人物部分，不冒称装裱全幅；藏所与时代另由东京国立博物馆TA-164条目核对。",
+      "boundary": "这是一幅后世艺术形象，不是李白肖像写生，也不能证明《静夜思》的写作地点、姿势或衣着；只用来连接诗人姓名和后世纪念。 这里展示人物部分，不冒称装裱全幅；藏所与时代另由东京国立博物馆TA-164条目核对。",
       "childVisibility": "child-ok"
     },
     {
@@ -1326,7 +1387,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学插画 · 不作历史现场或文物证据",
-      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-poem-actions-v1-prompt.txt。",
+      "boundary": "今天读《静夜思》时的动作与想象。月光和家乡形象帮助表达思念，不是李白写诗当夜、故居或亲人的现场复原。",
       "childVisibility": "child-ok"
     },
     {
@@ -1339,7 +1400,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学插画 · 不作历史现场或文物证据",
-      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-poem-reunion-v1-prompt.txt。",
+      "boundary": "现代小伙伴一起读诗的回顾图。每个人可以有自己的牵挂，画面不声称还原李白的房间、故乡或当夜具体经历。",
       "childVisibility": "child-ok"
     }
   ],
@@ -1351,5 +1412,6 @@
     "assets": "cleared",
     "audio": "not-started",
     "review": "pending"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

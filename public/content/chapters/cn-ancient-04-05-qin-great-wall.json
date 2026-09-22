@@ -7,7 +7,24 @@
   "period": {
     "id": "qin",
     "label": "秦朝",
-    "years": "前221—前207年"
+    "years": "前221—前207年",
+    "learningContext": {
+      "childIntro": "秦统一六国后，怎样让不同地方按共同标准办事？看看度量衡，再看长城怎样守卫边地。",
+      "chronology": "前221年统一六国，前207年秦朝结束。统一不是各地生活一夜相同。",
+      "covered": "共同标准、边地防守与劳动配合。",
+      "scopeBoundary": "两章以共同标准与边地防守为例。郡县制、统一文字和秦末变化尚未单独展开，不能说两章讲完秦史。",
+      "sourceIds": [
+        "NMC-QIN-HAN-OVERVIEW"
+      ],
+      "sources": [
+        {
+          "id": "NMC-QIN-HAN-OVERVIEW",
+          "title": "“古代中国”基本陈列：秦汉时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+        }
+      ]
+    }
   },
   "order": 11,
   "title": "秦长城不是从空地里突然长出来的",
@@ -18,16 +35,54 @@
     "childTitle": "长城为什么要修？",
     "prompt": "长长的城墙能抵御外来进攻。小伙伴还想知道：有了墙，为什么还要有人守？",
     "takeaway": "秦朝连接、修缮旧墙，是为了抵御来自北方的进攻。城墙、关口和守卫的人相互配合，帮助守卫边地。",
-    "object": "低矮墙段、关口和烽燧示意",
+    "object": "金山岭 · 明代长城",
     "people": [
       "秦朝修墙、运料",
       "守关的人们"
     ],
-    "place": "秦朝北方边地的多段墙体与山口",
+    "place": "秦朝北方边地；后世长城与汉代关口对照",
     "culture": "二年级课文《神州谣》",
     "care": "小伙伴、工匠、守卫和关口场景是虚构教学故事，不是秦代现场、真实人物自述或服饰建筑复原。长城帮助抵御外来的进攻，但并非不可越过，也不会自动防御。接墙是学习模型，不表示真墙可以整段搬起。金山岭照片为后来的明代墙段，不作秦长城原貌；汉代玉门关不用于说明秦墙演变。《神州谣》用于引发观察，不提供秦墙路线；《史记》的起止记载只放家长延伸，不作今天全部长城的地图。相册另展示明代长城的不同角度，以及汉代土墙和玉门关遗址；各图独立标年代，用于跨时期观察，不作为秦长城原貌。",
     "preferredAssetId": "qin-han-jinshanling-panorama",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-04-05-qin-great-wall",
+    "theme": "治理和规则",
+    "learningGoal": "城墙帮助抵御进攻，守卫、关口与消息也要配合。",
+    "parentQuestion": "墙已经接好，为什么还需要守卫的人？",
+    "observe": "指望远与守关两种工作，说明墙不会自己观察和报信。",
+    "misconception": "相册的明墙、汉关不能当秦墙原貌。",
+    "evidenceStepIds": [
+      "time",
+      "change",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "UNESCO-GREAT-WALL",
+      "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+      "GUYANG-GOV-QIN-WALL-STRUCTURES",
+      "NMC-QIN-HAN-OVERVIEW",
+      "SHIJI-MENGTIAN",
+      "PEP-PRIMARY-CHINESE-G2B-2018",
+      "HEBEI-WENWU-JINSHANLING",
+      "SH-LHS-ANCIENT-DEFENCE-POSTS",
+      "DHA-DUNHUANG-ARCHAEOLOGY-2023",
+      "GSWB-HAN-WALL-LAYERS-2023",
+      "UNESCO-CHANGAN-TIANSHAN"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-06-01-sui-unification-canal",
+        "relation": "同是大型工程，长城侧重防守，运河侧重运输。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "战争",
+      "遗址",
+      "建设"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-04-05-qin-great-wall",
@@ -105,10 +160,10 @@
   ],
   "glossary": [
     {
-      "term": "独立",
-      "icon": "🌱",
-      "plain": "一个国家或人民不再由外来力量控制。",
-      "example": "宣布独立是节点，建立新制度还需要很长过程。",
+      "term": "战争",
+      "icon": "🕯️",
+      "plain": "不同国家或力量使用武力的大规模冲突。",
+      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
       "priority": 1
     },
     {
@@ -119,24 +174,14 @@
       "priority": 1
     },
     {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
-      "priority": 1
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
+      "priority": 3
     }
   ],
   "pronunciations": [
-    {
-      "text": "秦始皇",
-      "reading": "Qín Shǐhuáng",
-      "kind": "person",
-      "chapterIds": [
-        "cn-ancient-04-01-qin-unification",
-        "cn-ancient-04-05-qin-great-wall"
-      ],
-      "note": "“始皇”是称号，不拆成口语停顿。"
-    },
     {
       "text": "看守",
       "reading": "kān shǒu",
@@ -256,7 +301,7 @@
         "license": "CC BY 3.0",
         "clearance": "cleared-open-license",
         "caption": "今天的玉门关遗址和周围戈壁景观。",
-        "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
+        "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/qin-han-yumen-pass.jpg"
       },
@@ -440,7 +485,7 @@
             "DHA-DUNHUANG-ARCHAEOLOGY-2023",
             "UNESCO-CHANGAN-TIANSHAN"
           ],
-          "boundary": "这里展示玉门关遗址的小方盘城与环境，不将它说成秦代长城或秦墙风化后的样子。 照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
+          "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。",
           "sourceLinks": [
             {
               "title": "张小刚：敦煌考古成就与展望",
@@ -541,16 +586,15 @@
         "reunionAlt": "戴圆框眼镜、留齐刘海的绿衣男孩与黄衣男孩、马尾女孩在山脚墙段旁分享发现，现代故事插画",
         "coverCaption": "抵御外来进攻，长城怎样守卫边地",
         "coverNarration": "“长城长，珠峰耸。”这么长的墙，是用来抵御外敌、守卫边地的。有了墙，为什么还要有人守？小小旅行团，去关口看看吧！",
-        "stationLine": "秦朝站到了！去工坊量布，或去山边看长城。",
-        "stationNarration": "秦朝站到了！去工坊量布，还是去山边看长城？",
         "closingCaption": "带回长城守卫边地的发现",
         "closingNarration": "我们找到长城的本领啦！它帮助抵御外来的进攻。城墙、关口和守卫的人一起配合，才能更好地守卫边地。",
         "closingLine": "抵御外来进攻，墙和人一起守卫边地。",
         "fictionNote": "角色与场景属于虚构教学叙事，不作为秦代军服、关口或瞭望设施的精确复原。抵御北方进攻、墙体与关口的配合、守卫观察与传信分别以登记资料支持；不描绘战斗或将防御写成绝对有效。",
         "reunionImage": "/content/step-images/qin-wall-friends-reunion-v1.jpg",
+        "stationLine": "秦统一六国后，怎样让不同地方按共同标准办事？看看度量衡，再看长城怎样守卫边地。",
         "stationAudio": {
-          "id": "quest-8f5ab1834a314594",
-          "text": "秦朝站到了！去工坊量布，还是去山边看长城？"
+          "id": "quest-d0be142898827dc9",
+          "text": "秦统一六国后，怎样让不同地方按共同标准办事？看看度量衡，再看长城怎样守卫边地。"
         },
         "closingAudio": {
           "id": "quest-3ed9fe7d806f91cd",
@@ -607,7 +651,7 @@
         "license": "项目自制，供本项目使用",
         "clearance": "cleared-project-created",
         "caption": "小伙伴观察有人看守的关口和高处的守卫，理解城墙与人配合防御。",
-        "boundary": "虚构教学插画，不是秦代现场、军服或建筑复原。画面只表达墙体阻挡、通道有人看守、守卫观察远处的关系，不呈现具体战斗或传信信号。原运料插画保留。生成1次后局部修正瞭望守卫多余手臂1次；提示词与结果见docs/qa/2026-09-15-wall-purpose/。",
+        "boundary": "虚构教学插画，表达城墙阻挡、关口查看与高处观察的配合，不是秦代现场或具体军服、建筑复原，也不据此推断某次战斗。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/qin-wall-guard-story-v1.jpg"
       },
@@ -1152,7 +1196,7 @@
         "studyImageAlt": "阻挡进攻，看守通行，观察传信",
         "imageAlt": "长城关口与守卫观察的故事插画",
         "imageCaption": "长城关口与守卫观察的故事插画",
-        "imageBoundary": "虚构教学插画，不是秦代现场、军服或建筑复原。画面只表达墙体阻挡、通道有人看守、守卫观察远处的关系，不呈现具体战斗或传信信号。原运料插画保留。生成1次后局部修正瞭望守卫多余手臂1次；提示词与结果见docs/qa/2026-09-15-wall-purpose/。",
+        "imageBoundary": "虚构教学插画，表达城墙阻挡、关口查看与高处观察的配合，不是秦代现场或具体军服、建筑复原，也不据此推断某次战斗。",
         "audio": {
           "lead": {
             "id": "quest-b8d73152ffd8f37a",
@@ -1437,6 +1481,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1904,7 +1949,7 @@
       "license": "CC BY 3.0",
       "clearance": "cleared-open-license",
       "caption": "今天的玉门关遗址和周围戈壁景观。",
-      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。",
       "childVisibility": "child-ok"
     },
     {
@@ -1982,7 +2027,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "小伙伴观察有人看守的关口和高处的守卫，理解城墙与人配合防御。",
-      "boundary": "虚构教学插画，不是秦代现场、军服或建筑复原。画面只表达墙体阻挡、通道有人看守、守卫观察远处的关系，不呈现具体战斗或传信信号。原运料插画保留。生成1次后局部修正瞭望守卫多余手臂1次；提示词与结果见docs/qa/2026-09-15-wall-purpose/。",
+      "boundary": "虚构教学插画，表达城墙阻挡、关口查看与高处观察的配合，不是秦代现场或具体军服、建筑复原，也不据此推断某次战斗。",
       "childVisibility": "child-ok"
     },
     {
@@ -2072,5 +2117,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useId, useRef, useState, type PointerEvent, type KeyboardEvent, type CSSProperties } from "react";
 import { listenOptions } from "./quest-progress";
 import { alignedRuler, clampRulerOffset, pointerRulerOffset } from "./workbench-model";
-import { stepVoiceIds } from "./step-flow";
+import { stepVoiceIds, usesChoiceCards } from "./step-flow";
 import { PhotoAlbumButton } from "./PhotoAlbumButton";
 import type { PhotoAlbum } from "./photo-album";
 import "./scene-interactions.css";
@@ -393,7 +393,7 @@ function EraMarker({view}:{view:ObjectView}) {
   </svg>;
 }
 
-function OptionObject({ option }: { option: Option }) {
+export function WorkbenchChoiceArt({ option }: { option: Pick<Option,"label"|"objectView"> }) {
   const view=option.objectView;
   if(view?.kind==='polity-panel')return <PolityDiagram index={view.windowIndex??0}/>;
   if(view?.kind==='printing-panel')return <PrintingDiagram connected={view.connected}/>;
@@ -403,7 +403,7 @@ function OptionObject({ option }: { option: Option }) {
   if(view?.kind==='ruler')return <div className="tool-illustration ruler-tool"><WoodenRuler/></div>;
   if(view?.kind==='weight')return <div className="tool-illustration"><LearningWeight/></div>;
   if(view?.kind==='prop')return <div className="tool-illustration prop-tool"><PropArt icon={view.icon??''} label={option.label}/></div>;
-  if(view?.kind==='era')return <div className="era-object"><EraMarker view={view}/><strong>{view.name}</strong><span>{view.date}</span></div>;
+  if(view?.kind==='era')return <div className={`era-object ${(view.name?.length??0)>4?'era-name-long':''}`}><EraMarker view={view}/><strong>{view.name}</strong><span>{view.date}</span></div>;
   return null;
 }
 export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,solved,isLast,speak,listen,onSolved,onNext,onInspect,onNarrationChange}:Props){
@@ -473,8 +473,8 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
       {!episode&&<p className="workbench-story">{step.story.displayText}</p>}
       {lookListen&&episode&&<p className="workbench-story look-listen-story">{step.story.displayText}</p>}
       {sceneFind&&<div className="scene-find-progress"><span>找一找 · {roundIndex+1}/{rounds.length}</span><p>{step.interaction?.hint}</p></div>}
-      {kind!=='align-rulers'&&kind!=='slide-fit'&&!lookListen&&!sceneFind&&!circleRefine&&!historyLab?<div className="workbench-choices" role="group" aria-label={step.prompt}>{options.map(option=><div key={option.id} className={`bench-choice ${picked?.id===option.id?(option.correct?'right':'try-again'):''}`}>
-        <button className="bench-choice-action" data-option-id={option.id} onClick={()=>choose(option)} disabled={solved} aria-label={`选择${option.label}`} aria-pressed={picked?.id===option.id}><OptionObject option={option}/><span>{option.objectView?.kind==='era'?'就去这一站':option.label}</span>{picked?.id===option.id&&<i><b aria-hidden="true">{option.correct?'✓':'×'}</b>{option.correct?'选对啦':'再试试'}</i>}</button>
+      {usesChoiceCards(kind)?<div className="workbench-choices" role="group" aria-label={step.prompt}>{options.map(option=><div key={option.id} className={`bench-choice ${picked?.id===option.id?(option.correct?'right':'try-again'):''}`}>
+        <button className="bench-choice-action" data-option-id={option.id} onClick={()=>choose(option)} disabled={solved} aria-label={`选择${option.label}`} aria-pressed={picked?.id===option.id}><WorkbenchChoiceArt option={option}/><span>{option.objectView?.kind==='era'?'就去这一站':option.label}</span>{picked?.id===option.id&&<i><b aria-hidden="true">{option.correct?'✓':'×'}</b>{option.correct?'选对啦':'再试试'}</i>}</button>
         <button className="bench-option-sound" aria-label={`听${option.label}`} onClick={()=>listen([option.audio.id])}><SoundIcon/></button>
       </div>)}</div>:circleRefine?<p className="circle-study-caption">直边越分越细，慢慢贴近圆周。</p>:lookListen||sceneFind||historyLab?null:kind==='slide-fit'&&step.interaction?.placement==='panel'?<div className={`story-puzzle ${tried&&!solved?"puzzle-retry":solved?"puzzle-done":""}`}><SlideFit scene={step.interaction.scene??''} hint={step.interaction.hint} ariaLabel={step.interaction.ariaLabel??'移动模型'} onJudge={judge} locked={solved}/><small>{tried&&!solved?"× 再试试 · ":solved?"✓ ":""}{step.interaction.modelLabel??"接墙学习模型"}</small></div>:<div className="alignment-copy"><span aria-hidden="true">↔</span><p>{(kind==='slide-fit'?(step.interaction?.copy??step.interaction?.hint??''):'把青尺往黄尺的起点挪一挪。\n每一格都要对上。').split('\n').map((line,i,all)=><span key={i}>{line}{i<all.length-1&&<br/>}</span>)}</p></div>}
       {!lookListen&&(sceneFind||episode&&(solved||tried||(kind==='slide-fit'&&step.interaction?.placement==='panel'))?<div className="workbench-response-spacer" data-feedback={sceneFind?(sceneResult?.correct?'right':sceneResult?'wrong':'hint'):solved?'right':tried?'wrong':'hint'}/>:<div className={`workbench-response ${solved?'done':tried?'retry':''}`} role="status" data-feedback={solved?'right':tried?'wrong':'hint'}><span aria-hidden="true">{solved?'✓':tried?'×':'☝'}</span><p>{solved?step.rightNote:tried?step.wrongNote:step.interaction?.hint}</p></div>)}

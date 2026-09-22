@@ -21,7 +21,6 @@
 1945年5月德国投降。日本在中国长期抗战、盟军推进和封锁、美国向广岛与长崎投下原子弹、苏联对日作战等多重压力下，于8月宣布接受《波茨坦公告》，9月2日签署投降书；中国把9月3日定为抗日战争胜利纪念日。原子弹首次用于人类造成大量平民死亡，不能做成“终极武器通关”。胜利结束了法西斯侵略，却不能让死者归来，也没有自动消除殖民统治、种族歧视和强权政治；建立联合国、审判战争罪行和重新思考和平规则成为战后的重要任务。
 
 ## 事实卡
-
 ### 先看时间线：给每个“开始”和“结束”加上范围
 
 1. 1931年9月18日，日本关东军发动九一八事变并侵占中国东北，中国人民十四年抗日战争由此开始。[NMC-RESISTANCE-918-EXHIBITION; MOE-EASTERN-ANTI-FASCIST-BATTLEFIELD]
@@ -106,38 +105,43 @@
 68. 侵华日军在南京制造大屠杀，相关档案包含当时文件、战后调查审判和中国司法材料，并被列入联合国教科文组织世界记忆名录。[NANJING-MEMORIAL-FACT-EXHIBITION; UNESCO-NANJING-DOCUMENTS]
 69. 南京遇难者名单墙是当代纪念设施，它帮助儿童理解“每个数字后面都是具体的人”，却不能替代档案、证言和审判证据链。[NANJING-MEMORIAL-FACT-EXHIBITION]
 70. 德国、意大利和日本境内及占领区也有人反对法西斯、帮助被迫害者或参加抵抗，因此不能把政府与军队罪行写成一个民族天生如此。[USHMM-HOLOCAUST-WWII]
-71. 责任表述要具体到“纳粹德国及其合作者”“侵华日军”“法西斯意大利政权”等行动主体，而不是让儿童仇恨今天的普通人。[MOE-HISTORY-CURRICULUM-2022]
-72. 低龄内容不展示遗体和伤口；名单、空遗址、法律、日记和物件已经能够建立严肃证据，不需要用惊吓换取记忆。[UNESCO-NANJING-DOCUMENTS; AUSCHWITZ-MEMORIAL-HISTORY]
+71. 低龄内容不展示遗体和伤口；名单、空遗址、法律、日记和物件已经能够建立严肃证据，不需要用惊吓换取记忆。[UNESCO-NANJING-DOCUMENTS; AUSCHWITZ-MEMORIAL-HISTORY]
 
 ### 反法西斯同盟与战局转变：胜利为什么是一个网络
 
-73. 1942年《联合国家宣言》把共同目标、使用全部资源和不单独媾和写成正式承诺，是反法西斯同盟形成的重要文件。[UN-PREPARATORY-YEARS]
-74. 宣言照片上后来增加了更多国家的签名，能显示联盟扩大；签名本身不能证明各国资源相同、意见一致或合作没有冲突。[NARA-DECLARATION-UNITED-NATIONS-1942]
-75. 中国、美国、英国、苏联承担不同主要战场和资源任务，其他许多国家、殖民地部队与抵抗组织也不可缺少。[UN-PREPARATORY-YEARS; UKNA-GLOBAL-WWII]
-76. 中国长期抗战、苏联东线、英国坚持作战和美国参战使轴心国难以集中全部力量到一个方向。[MOE-EASTERN-ANTI-FASCIST-BATTLEFIELD; USHMM-WWII-KEY-DATES]
-77. 1942年中途岛战役中，美军破译部分日军通信并伏击进攻舰队，日军损失四艘航空母舰，太平洋海上力量对比发生重要变化。[NHHC-MIDWAY]
-78. 中途岛是太平洋战场的重要转折，却没有立刻结束日本在中国、东南亚和太平洋岛屿上的占领与战争。[NHHC-MIDWAY; IWM-WAR-EAST-ASIA]
-79. 斯大林格勒战役从1942年延续至1943年2月，苏军包围并迫使德军第六集团军投降，是欧洲东线重要转折。[USHMM-WWII-KEY-DATES]
-80. 斯大林格勒解放后的废墟照片显示城市巨大破坏；界面只用上部和中部画面，不据此统计伤亡，也不把废墟变成“胜利背景”。[RIA-STALINGRAD-AFTER-LIBERATION-1943]
-81. 1942年秋阿拉曼战役阻止轴心军队继续向埃及和苏伊士方向推进，盟军随后在北非转入反攻。[IWM-EL-ALAMEIN]
-82. 不同战场的转折发生在接近时期，却不是同一条指挥链；海上情报、城市防御、工业生产、补给和多国部队各自发挥作用。[NHHC-MIDWAY; IWM-EL-ALAMEIN; USHMM-WWII-KEY-DATES]
-83. 1944年诺曼底登陆开辟欧洲西线大规模反攻，苏军从东推进，各地抵抗力量也配合破坏交通、提供情报和争取解放。[USHMM-WWII-KEY-DATES]
-84. 反法西斯战争胜利是正面战场、敌后抵抗、工业、运输、医疗、情报和外交组成的网络，不能做成“哪位将军战力最高”的排行。[UN-PREPARATORY-YEARS; UKNA-GLOBAL-WWII]
+72. 1942年《联合国家宣言》把共同目标、使用全部资源和不单独媾和写成正式承诺，是反法西斯同盟形成的重要文件。[UN-PREPARATORY-YEARS]
+73. 宣言照片上后来增加了更多国家的签名，能显示联盟扩大；签名本身不能证明各国资源相同、意见一致或合作没有冲突。[NARA-DECLARATION-UNITED-NATIONS-1942]
+74. 中国、美国、英国、苏联承担不同主要战场和资源任务，其他许多国家、殖民地部队与抵抗组织也不可缺少。[UN-PREPARATORY-YEARS; UKNA-GLOBAL-WWII]
+75. 中国长期抗战、苏联东线、英国坚持作战和美国参战使轴心国难以集中全部力量到一个方向。[MOE-EASTERN-ANTI-FASCIST-BATTLEFIELD; USHMM-WWII-KEY-DATES]
+76. 1942年中途岛战役中，美军破译部分日军通信并伏击进攻舰队，日军损失四艘航空母舰，太平洋海上力量对比发生重要变化。[NHHC-MIDWAY]
+77. 中途岛是太平洋战场的重要转折，却没有立刻结束日本在中国、东南亚和太平洋岛屿上的占领与战争。[NHHC-MIDWAY; IWM-WAR-EAST-ASIA]
+78. 斯大林格勒战役从1942年延续至1943年2月，苏军包围并迫使德军第六集团军投降，是欧洲东线重要转折。[USHMM-WWII-KEY-DATES]
+79. 斯大林格勒解放后的废墟照片显示城市巨大破坏；界面只用上部和中部画面，不据此统计伤亡，也不把废墟变成“胜利背景”。[RIA-STALINGRAD-AFTER-LIBERATION-1943]
+80. 1942年秋阿拉曼战役阻止轴心军队继续向埃及和苏伊士方向推进，盟军随后在北非转入反攻。[IWM-EL-ALAMEIN]
+81. 不同战场的转折发生在接近时期，却不是同一条指挥链；海上情报、城市防御、工业生产、补给和多国部队各自发挥作用。[NHHC-MIDWAY; IWM-EL-ALAMEIN; USHMM-WWII-KEY-DATES]
+82. 1944年诺曼底登陆开辟欧洲西线大规模反攻，苏军从东推进，各地抵抗力量也配合破坏交通、提供情报和争取解放。[USHMM-WWII-KEY-DATES]
+83. 反法西斯战争胜利是正面战场、敌后抵抗、工业、运输、医疗、情报和外交组成的网络，不能做成“哪位将军战力最高”的排行。[UN-PREPARATORY-YEARS; UKNA-GLOBAL-WWII]
 
 ### 战争怎样结束：为什么不能做成一颗“终极武器”通关
 
-85. 1945年春，苏军从东面包围柏林，西方盟军从西面进入德国；纳粹德国在5月无条件投降。[USHMM-WWII-KEY-DATES; NARA-GERMAN-SURRENDER]
-86. 欧洲战争结束时，亚洲和太平洋战争仍在继续，中国许多地区仍被日军占领。[SAAC-RESISTANCE-SURRENDER-INTRO]
-87. 1945年7月《波茨坦公告》要求日本无条件投降，并重申《开罗宣言》条款应实施。[MFA-CAIRO-DECLARATION; NARA-JAPAN-SURRENDER]
-88. 美国8月6日和9日向广岛、长崎投下原子弹，首次把核武器用于人类，造成大量平民死亡和长期伤害。[NARA-ATOMIC-BOMBINGS]
-89. 苏联8月对日作战并进攻日本占领下的中国东北，进一步破坏日本继续战争的军事和外交打算。[NARA-ATOMIC-BOMBINGS; USHMM-WWII-KEY-DATES]
-90. 日本投降是在中国长期抗战、盟军海空推进与封锁、常规轰炸、原子弹、苏联参战和国内决策等多重压力下发生；学界仍讨论各因素权重。[USHIST-ATOMIC-BOMB-DEBATE; NARA-ATOMIC-BOMBINGS]
-91. 把胜利全部归给原子弹，会抹去中国十四年抗战和多国长期牺牲，也会遮住核武器对平民造成的灾难。[MOE-EASTERN-ANTI-FASCIST-BATTLEFIELD; NARA-ATOMIC-BOMBINGS]
-92. 9月2日日本投降书由日本代表签署，并由盟军最高统帅及美国、中国、英国、苏联等国代表接受。[NARA-JAPAN-SURRENDER]
-93. 投降签字照片记录日本外相重光葵落笔的具体时刻，不能说明亚洲各地受降、遣返和恢复秩序当场完成。[NARA-JAPANESE-SURRENDER-PHOTO-1945; SAAC-RESISTANCE-SURRENDER-INTRO]
-94. 战争胜利制止了法西斯侵略和种族灭绝，却没有自动消除殖民统治、难民问题、种族歧视或大国分歧。[UKNA-GLOBAL-WWII]
-95. 1945年各国签署《联合国宪章》，试图把战时合作转成维护和平的新组织；中国是创始会员国和安理会常任理事国之一。[UN-CHARTER-FULL-TEXT; NARA-UN-CHARTER]
-96. 本章最终答案是：侵略把局部冲突连成世界战争，多国军民与长期抵抗组成胜利网络；和平不能只靠胜利一次，还要靠规则、记忆和持续制止仇恨。[MOE-HISTORY-CURRICULUM-2022]
+84. 1945年春，苏军从东面包围柏林，西方盟军从西面进入德国；纳粹德国在5月无条件投降。[USHMM-WWII-KEY-DATES; NARA-GERMAN-SURRENDER]
+85. 欧洲战争结束时，亚洲和太平洋战争仍在继续，中国许多地区仍被日军占领。[SAAC-RESISTANCE-SURRENDER-INTRO]
+86. 1945年7月《波茨坦公告》要求日本无条件投降，并重申《开罗宣言》条款应实施。[MFA-CAIRO-DECLARATION; NARA-JAPAN-SURRENDER]
+87. 美国8月6日和9日向广岛、长崎投下原子弹，首次把核武器用于人类，造成大量平民死亡和长期伤害。[NARA-ATOMIC-BOMBINGS]
+88. 苏联8月对日作战并进攻日本占领下的中国东北，进一步破坏日本继续战争的军事和外交打算。[NARA-ATOMIC-BOMBINGS; USHMM-WWII-KEY-DATES]
+89. 日本投降是在中国长期抗战、盟军海空推进与封锁、常规轰炸、原子弹、苏联参战和国内决策等多重压力下发生；学界仍讨论各因素权重。[USHIST-ATOMIC-BOMB-DEBATE; NARA-ATOMIC-BOMBINGS]
+90. 把胜利全部归给原子弹，会抹去中国十四年抗战和多国长期牺牲，也会遮住核武器对平民造成的灾难。[MOE-EASTERN-ANTI-FASCIST-BATTLEFIELD; NARA-ATOMIC-BOMBINGS]
+91. 9月2日日本投降书由日本代表签署，并由盟军最高统帅及美国、中国、英国、苏联等国代表接受。[NARA-JAPAN-SURRENDER]
+92. 投降签字照片记录日本外相重光葵落笔的具体时刻，不能说明亚洲各地受降、遣返和恢复秩序当场完成。[NARA-JAPANESE-SURRENDER-PHOTO-1945; SAAC-RESISTANCE-SURRENDER-INTRO]
+93. 战争胜利制止了法西斯侵略和种族灭绝，却没有自动消除殖民统治、难民问题、种族歧视或大国分歧。[UKNA-GLOBAL-WWII]
+94. 1945年各国签署《联合国宪章》，试图把战时合作转成维护和平的新组织；中国是创始会员国和安理会常任理事国之一。[UN-CHARTER-FULL-TEXT; NARA-UN-CHARTER]
+95. 本章最终答案是：侵略把局部冲突连成世界战争，多国军民与长期抵抗组成胜利网络；和平不能只靠胜利一次，还要靠规则、记忆和持续制止仇恨。[MOE-HISTORY-CURRICULUM-2022]
+
+## 学习设计与史料阅读方法
+
+以下是史料阅读方法和本项目的活动安排，单独列出，不计作历史事件或器物事实。课程标准用于方法参考；具体表格、数量和操作要求由项目设计。成人负责整理记录，孩子可以指图、做动作或口述，不要求独立填表或背诵固定答案。
+
+1. 责任表述要具体到“纳粹德国及其合作者”“侵华日军”“法西斯意大利政权”等行动主体，而不是让儿童仇恨今天的普通人。[MOE-HISTORY-CURRICULUM-2022]
 
 ## 7屏儿童故事与语音稿
 

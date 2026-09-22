@@ -7,7 +7,24 @@
   "period": {
     "id": "song",
     "label": "宋朝（与辽·西夏·金并立）",
-    "years": "916—1279年（宋960年起）"
+    "years": "916—1279年（宋960年起）",
+    "learningContext": {
+      "childIntro": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+      "chronology": "916是辽相关起点，宋从960年开始；北宋与南宋分期，辽与金先后更替、西夏存在其间。窗口范围不等于宋始于916年。",
+      "covered": "同年并立、城市劳动、活字、指南针、火药文献与宋词。",
+      "scopeBoundary": "经济重心南移、海外贸易及政权关系在背景稿中；三项技术不能代表宋代生活全部。",
+      "sourceIds": [
+        "NMC-LIAO-SONG-XIA-JIN-YUAN"
+      ],
+      "sources": [
+        {
+          "id": "NMC-LIAO-SONG-XIA-JIN-YUAN",
+          "title": "“古代中国”基本陈列：辽宋夏金元时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+        }
+      ]
+    }
   },
   "order": 26,
   "title": "宋代城市为什么越来越热闹",
@@ -18,16 +35,46 @@
     "childTitle": "清明上河图里，谁让城市忙起来？",
     "prompt": "长卷里的桥上桥下都很热闹。船工、搬运者和店里的人，怎样把水路与街市接起来？",
     "takeaway": "北宋画家张择端画下汴京的城市生活。河船、桥梁、搬运和买卖彼此联系，热闹背后有许多人的劳动。",
-    "object": "《清明上河图》、广告铜版和纸币印版",
+    "object": "张择端《清明上河图》虹桥局部",
     "people": [
       "张择端",
       "汴京街市里的人们"
     ],
-    "place": "北宋汴京，也就是今天的河南开封",
-    "culture": "《清明上河图》",
+    "place": "北宋汴京，今河南开封",
+    "culture": "张择端《清明上河图》",
     "care": "原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
     "playableSource": "content/focused-quests.json",
     "preferredAssetId": "song-city-work-v1"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-07-02-song-economy-cities",
+    "theme": "生活与劳动",
+    "learningGoal": "北宋城市的水路、街市与劳动相互联系。",
+    "parentQuestion": "货物到了岸边，怎样才会进入街边生活？",
+    "observe": "指船工与搬运者的接力，用桥说明河两边怎样来往。",
+    "misconception": "画卷是艺术家的选择，不能说明所有城市或所有家庭一样富足。",
+    "evidenceStepIds": [
+      "time",
+      "beginning",
+      "journey",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "DPM-QINGMING-SCROLL",
+      "NMC-LIAO-SONG-XIA-JIN-YUAN"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-08-05-late-crisis",
+        "relation": "比较宋代城市运输与清代广州海外贸易，各自规矩和年代不同。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "市场",
+      "生产",
+      "贸易"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-07-02-song-economy-cities",
@@ -103,48 +150,6 @@
   ],
   "glossary": [
     {
-      "term": "经济",
-      "icon": "🧺",
-      "plain": "人们怎样生产、交换、分配和使用东西。",
-      "example": "经济变化最后会落到工作、食物、住房等生活里。",
-      "priority": 1
-    },
-    {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
-      "priority": 1
-    },
-    {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
-      "priority": 1
-    },
-    {
-      "term": "手工业",
-      "icon": "🧵",
-      "plain": "主要靠手和工具制作器物的生产活动。",
-      "example": "陶器、织物和青铜器都需要材料、技术与分工。",
-      "priority": 2
-    },
-    {
-      "term": "工业",
-      "icon": "🏭",
-      "plain": "用机器、工厂和分工大规模生产东西。",
-      "example": "工业发展也要看劳动、安全、资源和环境。",
-      "priority": 2
-    },
-    {
-      "term": "技术",
-      "icon": "⚙️",
-      "plain": "人们解决具体问题时积累的工具和做法。",
-      "example": "技术常由许多人长期改进，不是某天突然出现。",
-      "priority": 2
-    },
-    {
       "term": "市场",
       "icon": "🧺",
       "plain": "人们交换商品和服务的地方或关系。",
@@ -152,25 +157,18 @@
       "priority": 2
     },
     {
-      "term": "组织",
-      "icon": "🤝",
-      "plain": "许多人为了共同事情分工、联系和行动。",
-      "example": "一个名人背后常有组织、协作者和普通参与者。",
-      "priority": 2
-    },
-    {
-      "term": "发展",
-      "icon": "🌱",
-      "plain": "事物经过一段时间出现增长或变化。",
-      "example": "发展不只看速度和数量，也要看人的生活与环境。",
-      "priority": 3
-    },
-    {
       "term": "生产",
       "icon": "🛠️",
       "plain": "把材料和劳动变成食物、工具或其他产品。",
       "example": "生产离不开人、工具、材料和组织。",
       "priority": 3
+    },
+    {
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
     }
   ],
   "pronunciations": [
@@ -217,7 +215,7 @@
         "license": "Public Domain Mark 1.0",
         "clearance": "cleared-open-license",
         "caption": "北宋张择端《清明上河图》中虹桥附近的局部图像。",
-        "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。",
+        "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。 这里展示的是原图局部，不作为完整构图。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg"
       }
@@ -261,16 +259,15 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "清明上河图里，谁让城市忙起来？",
         "coverNarration": "长卷里的桥上桥下都很热闹。船工、搬运者和店里的人，怎样把水路与街市接起来？",
-        "stationLine": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
-        "stationNarration": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
         "closingCaption": "带着发现回家",
         "closingNarration": "北宋画家张择端画下汴京的城市生活。河船、桥梁、搬运和买卖彼此联系，热闹背后有许多人的劳动。",
         "closingLine": "桥上桥下，许多工作连起城市。",
         "fictionNote": "原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
         "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
+        "stationLine": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
         "stationAudio": {
-          "id": "quest-afff15281530ee8d",
-          "text": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。"
+          "id": "quest-1bc1ed1a12336ca9",
+          "text": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。"
         },
         "closingAudio": {
           "id": "quest-cc7423848ece54b4",
@@ -412,7 +409,7 @@
           "license": "Public Domain Mark 1.0",
           "clearance": "cleared-open-license",
           "caption": "北宋原作局部 · 不是整卷",
-          "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。 北宋张择端《清明上河图》中虹桥附近的局部图像。",
+          "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。 这里展示的是原图局部，不作为完整构图。 北宋张择端《清明上河图》中虹桥附近的局部图像。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg",
           "label": "点开真材料，听听说明",
@@ -555,7 +552,7 @@
           "license": "Public Domain Mark 1.0",
           "clearance": "cleared-open-license",
           "caption": "北宋原作局部 · 不是整卷",
-          "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。 北宋张择端《清明上河图》中虹桥附近的局部图像。",
+          "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。 这里展示的是原图局部，不作为完整构图。 北宋张择端《清明上河图》中虹桥附近的局部图像。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg",
           "label": "点开真材料，听听说明",
@@ -591,7 +588,7 @@
         "studyImageAlt": "河流把货物带到城市",
         "imageAlt": "张择端《清明上河图》虹桥附近局部",
         "imageCaption": "张择端《清明上河图》虹桥附近局部",
-        "imageBoundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。",
+        "imageBoundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。 这里展示的是原图局部，不作为完整构图。",
         "audio": {
           "lead": {
             "id": "quest-c0e1dc221385450c",
@@ -731,7 +728,7 @@
         "studyImageAlt": "从真画里找水路和桥",
         "imageAlt": "张择端《清明上河图》虹桥附近局部",
         "imageCaption": "张择端《清明上河图》虹桥附近局部",
-        "imageBoundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。",
+        "imageBoundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。 这里展示的是原图局部，不作为完整构图。",
         "audio": {
           "lead": {
             "id": "quest-2169d9de5af04833",
@@ -810,8 +807,8 @@
         "imageBoundary": "原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
         "audio": {
           "lead": {
-            "id": "quest-68aeca928830b649",
-            "text": "把岸边货物送到街边，找谁？"
+            "id": "quest-c8e0d77162d5ab4c",
+            "text": "这幅故事图里，货物已经从船上送到岸边。接下来要进街市，请谁来接这一程？"
           },
           "transition": {
             "id": "quest-f602d996ce87ede3",
@@ -930,7 +927,7 @@
           "license": "Public Domain Mark 1.0",
           "clearance": "cleared-open-license",
           "caption": "北宋原作局部 · 不是整卷",
-          "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。 北宋张择端《清明上河图》中虹桥附近的局部图像。",
+          "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。 这里展示的是原图局部，不作为完整构图。 北宋张择端《清明上河图》中虹桥附近的局部图像。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg",
           "label": "点开真材料，听听说明",
@@ -966,7 +963,7 @@
         "studyImageAlt": "热闹里，也看见不同生活",
         "imageAlt": "张择端《清明上河图》虹桥附近局部",
         "imageCaption": "张择端《清明上河图》虹桥附近局部",
-        "imageBoundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。",
+        "imageBoundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。 这里展示的是原图局部，不作为完整构图。",
         "audio": {
           "lead": {
             "id": "quest-767eb33b69eedae2",
@@ -1088,6 +1085,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1449,7 +1447,7 @@
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "北宋张择端《清明上河图》中虹桥附近的局部图像。",
-      "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。",
+      "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。 这里展示的是原图局部，不作为完整构图。",
       "childVisibility": "child-ok"
     },
     {
@@ -1513,5 +1511,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

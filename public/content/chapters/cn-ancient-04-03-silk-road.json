@@ -7,7 +7,24 @@
   "period": {
     "id": "han",
     "label": "汉朝",
-    "years": "前202—公元220年"
+    "years": "前202—公元220年",
+    "learningContext": {
+      "childIntro": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。",
+      "chronology": "前202年西汉建立；汉代范围包含西汉、东汉以及中间政局变化，不能画成连续不变的一段统治。",
+      "covered": "五铢钱管理、张骞使命和见闻、造纸改进。",
+      "scopeBoundary": "恢复生产、文景时期、汉武帝的其他政策与东汉末年属于背景研究，儿童主线只取三个具体问题。",
+      "sourceIds": [
+        "NMC-QIN-HAN-OVERVIEW"
+      ],
+      "sources": [
+        {
+          "id": "NMC-QIN-HAN-OVERVIEW",
+          "title": "“古代中国”基本陈列：秦汉时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+        }
+      ]
+    }
   },
   "order": 13,
   "title": "张骞之后的丝绸之路",
@@ -18,15 +35,47 @@
     "childTitle": "张骞出使，带回了什么？",
     "prompt": "远行不只要带水粮。张骞带回的见闻，怎样让汉朝与西域更了解彼此？",
     "takeaway": "张骞出使西域，带回见闻、推动联系。后来使者、商旅继续往来，驿站帮助接待和传递消息。丝绸之路是许多路连成的网络。",
-    "object": "路线图、简牍和沿线出土物",
+    "object": "玉门关 · 后来的汉代关口",
     "people": [
       "张骞",
       "后来往来的使者"
     ],
-    "place": "长安、河西走廊、敦煌与中亚",
-    "culture": "王维《送元二使安西》可作唐代送别与阳关地点延伸，不作汉代路线证据",
+    "place": "汉代西域往来；后来河西驿站与玉门关",
+    "culture": "张骞出使记载与后来丝路联系",
     "care": "小伙伴、驿站人物和回信情境为教学虚构，不是张骞本人行程实录。第一次出使在前138年；玉门关属于其后设立的关防，不能让张骞首次出使途经此关。悬泉置材料用于认识后来的驿站制度，不指定张骞在那里休息。封检不是粮食或马匹总账，更不是张骞日记；不能逐件臆造收发人。驿站按制度接待公务人员、使者等，不等于每个商人均免费入住。图中的木简、马匹和服饰是故事示意，不是具体遗址复原。",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-04-03-silk-road",
+    "theme": "交通和交往",
+    "learningGoal": "张骞的出使使命与带回的见闻不是同一结果。",
+    "parentQuestion": "没有结成联盟，为什么还会记住张骞这次出使？",
+    "observe": "能说或指见闻被带回、后来联系继续；补给只是支持远行。",
+    "misconception": "丝绸之路由很多人和多条路线形成；玉门关比首次出使晚。",
+    "evidenceStepIds": [
+      "time",
+      "change"
+    ],
+    "sourceIds": [
+      "NMC-ZHANG-QIAN-MISSIONS",
+      "NMC-SILK-ROAD-EXHIBITION",
+      "UNESCO-CHANGAN-TIANSHAN",
+      "NEAC-XUANQUAN-POST",
+      "DHA-HEXI-GATES-CHRONOLOGY",
+      "HKEDB-WANGWEI-SONG-YUANER"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-07-05-yuan-exchange",
+        "relation": "汉代出使与元代官驿分属不同年代，比较消息怎样往返。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "见闻",
+      "联盟",
+      "驿站"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-04-03-silk-road",
@@ -94,60 +143,25 @@
   ],
   "glossary": [
     {
-      "term": "遗址",
-      "icon": "🏚️",
-      "plain": "过去的人生活或活动后留下的地方。",
-      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "term": "见闻",
+      "icon": "👣",
+      "plain": "亲眼看见、亲耳听到或了解的事情。",
+      "example": "远行者可以把沿途的道路、物产等见闻带回来。",
       "priority": 1
     },
     {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "term": "联盟",
+      "icon": "🔗",
+      "plain": "不同一方为了共同目标暂时或长期合作。",
+      "example": "联盟成员仍可能有不同想法和利益。",
+      "priority": 3
+    },
+    {
+      "term": "驿站",
+      "icon": "🐎",
+      "plain": "古代按规定接待使者、传递公文并准备交通补给的站点。",
+      "example": "官驿有使用规矩，不能把它当人人可以随便取马的旅馆。",
       "priority": 1
-    },
-    {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
-      "priority": 1
-    },
-    {
-      "term": "交流",
-      "icon": "↔️",
-      "plain": "不同的人把物品、知识或做法带给彼此。",
-      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
-      "priority": 1
-    },
-    {
-      "term": "技术",
-      "icon": "⚙️",
-      "plain": "人们解决具体问题时积累的工具和做法。",
-      "example": "技术常由许多人长期改进，不是某天突然出现。",
-      "priority": 2
-    },
-    {
-      "term": "市场",
-      "icon": "🧺",
-      "plain": "人们交换商品和服务的地方或关系。",
-      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
-      "priority": 2
-    },
-    {
-      "term": "政权",
-      "icon": "🏛️",
-      "plain": "谁在用什么机构和规则管理一个地方。",
-      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
-      "priority": 2
-    },
-    {
-      "term": "宗教",
-      "icon": "🕯️",
-      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
-      "example": "同一种宗教内部也有不同地区、时代和人群。",
-      "priority": 2
     }
   ],
   "pronunciations": [
@@ -188,20 +202,6 @@
         "cn-ancient-04-03-silk-road"
       ],
       "note": "西北关隘名，连续读作“玉—门—关”。"
-    },
-    {
-      "text": "长安",
-      "reading": "Cháng’ān",
-      "kind": "place",
-      "chapterIds": [
-        "cn-ancient-04-02-han-governance",
-        "cn-ancient-04-03-silk-road",
-        "cn-ancient-06-02-tang-governance",
-        "cn-ancient-06-03-tang-changan",
-        "cn-ancient-06-04-tang-cultural-exchange",
-        "cross-03-cultural-exchange"
-      ],
-      "note": "“长”在地名中读cháng。"
     },
     {
       "text": "大月氏",
@@ -247,7 +247,7 @@
         "license": "CC BY 3.0",
         "clearance": "cleared-open-license",
         "caption": "今天的玉门关遗址和周围戈壁景观。",
-        "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
+        "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/qin-han-yumen-pass.jpg"
       },
@@ -261,7 +261,7 @@
         "license": "CC BY-SA 4.0",
         "clearance": "cleared-open-license",
         "caption": "甘肃省博物馆藏悬泉置出土封检，用于封缄和标记文书或物品。",
-        "boundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。下载为1920像素等比例缩略图，未作其他修改。",
+        "boundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/qin-han-xuanquan-seal-tag.jpg"
       }
@@ -296,7 +296,7 @@
               "url": "https://commons.wikimedia.org/wiki/File:%E7%8E%89%E9%97%A8%E5%85%B3_%E9%81%97%E5%9D%80_-_panoramio.jpg"
             }
           ],
-          "boundary": "不是前138年的现场，也不等于整条丝路。 照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
+          "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。",
           "caption": "汉代遗址今景 · 晚于张骞首次出使",
           "thumbnailPosition": "50% 83%",
           "image": "/content/step-images/qin-han-yumen-pass.jpg",
@@ -330,7 +330,7 @@
               "url": "https://commons.wikimedia.org/wiki/File:%E6%82%AC%E6%B3%89%E7%BD%AE%E5%B0%81%E6%A3%80.jpg"
             }
           ],
-          "boundary": "不要求儿童辨字，不编造这件文书的具体行程或收发人。 照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。下载为1920像素等比例缩略图，未作其他修改。",
+          "boundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。",
           "caption": "真实木质文物 · 汉代驿站",
           "image": "/content/step-images/qin-han-xuanquan-seal-tag.jpg",
           "audio": {
@@ -350,7 +350,7 @@
       "license": "CC BY 3.0",
       "clearance": "cleared-open-license",
       "caption": "今天的玉门关遗址和周围戈壁景观。",
-      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/qin-han-yumen-pass.jpg"
     },
@@ -374,16 +374,15 @@
         "reunionAlt": "戴圆框眼镜、留齐刘海的绿衣男孩与黄衣男孩、马尾女孩在驿站外为远行人送行，现代故事插画",
         "coverCaption": "从张骞带回的见闻，走向后来的往来",
         "coverNarration": "张骞出使西域，带回了远方见闻。小小旅行团想知道：人和消息怎样继续来往？一起找找线索。",
-        "stationLine": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。",
-        "stationNarration": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。",
         "closingCaption": "出使带回见闻，后来往来增多",
         "closingNarration": "张骞带回西域见闻，推动了联系。后来使者来来往往，驿站帮着接待和传文书，许多路连成了网。",
         "closingLine": "张骞带回见闻，后来人们继续往来。",
         "fictionNote": "张骞是历史人物；小伙伴、驿站角色及回信情境为教学虚构。玉门关和驿站说明与首次出使分开。",
         "reunionImage": "/content/step-images/silk-post-friends-reunion-v1.jpg",
+        "stationLine": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。",
         "stationAudio": {
-          "id": "quest-b549846014ecf911",
-          "text": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。"
+          "id": "quest-6bd16741428ab81d",
+          "text": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。"
         },
         "closingAudio": {
           "id": "quest-fe9069d63c339d36",
@@ -413,7 +412,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "小伙伴观察驿站的文书整理和旅途补给。",
-      "boundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/silk-post-messages-v2-prompt.txt。",
+      "boundary": "现代教学故事图，文书整理和补给表达不同工作。人物并非历史人物肖像，图中信件没有真实收发人，不是某座汉代驿站的现场记录。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/silk-post-messages-v2.jpg"
     },
@@ -442,7 +441,7 @@
         "license": "项目自制，供本项目使用",
         "clearance": "cleared-project-created",
         "caption": "小伙伴观察驿站的文书整理和旅途补给。",
-        "boundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/silk-post-messages-v2-prompt.txt。",
+        "boundary": "现代教学故事图，文书整理和补给表达不同工作。人物并非历史人物肖像，图中信件没有真实收发人，不是某座汉代驿站的现场记录。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/silk-post-messages-v2.jpg"
       },
@@ -546,7 +545,7 @@
           "license": "CC BY 3.0",
           "clearance": "cleared-open-license",
           "caption": "汉代遗址今景 · 晚于张骞首次出使",
-          "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。 今天的玉门关遗址和周围戈壁景观。",
+          "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。 今天的玉门关遗址和周围戈壁景观。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/qin-han-yumen-pass.jpg",
           "label": "翻翻关口和文书相册",
@@ -585,7 +584,7 @@
         "studyImageAlt": "后来设关，先有张骞出使",
         "imageAlt": "玉门关遗址现状照片",
         "imageCaption": "玉门关遗址现状照片",
-        "imageBoundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
+        "imageBoundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。",
         "audio": {
           "lead": {
             "id": "quest-d5002265c4199eaf",
@@ -779,11 +778,11 @@
         "studyImageAlt": "留下见闻，旅途补给",
         "imageAlt": "汉代驿站文书与补给故事插画",
         "imageCaption": "汉代驿站文书与补给故事插画",
-        "imageBoundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/silk-post-messages-v2-prompt.txt。",
+        "imageBoundary": "现代教学故事图，文书整理和补给表达不同工作。人物并非历史人物肖像，图中信件没有真实收发人，不是某座汉代驿站的现场记录。",
         "audio": {
           "lead": {
-            "id": "quest-3515e7492456890f",
-            "text": "想让家乡了解沿途见闻，先记下来，还是只备好粮食？"
+            "id": "quest-6364fdb422e4bc8e",
+            "text": "小伙伴来到后来的汉代驿站。要让家乡了解沿途见闻，先把见闻记下来，还是只备好水粮？"
           },
           "transition": {
             "id": "quest-931dc1f73face2c1",
@@ -968,7 +967,7 @@
           "license": "CC BY-SA 4.0",
           "clearance": "cleared-open-license",
           "caption": "真实木质文物 · 汉代驿站",
-          "boundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。下载为1920像素等比例缩略图，未作其他修改。 甘肃省博物馆藏悬泉置出土封检，用于封缄和标记文书或物品。",
+          "boundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。 甘肃省博物馆藏悬泉置出土封检，用于封缄和标记文书或物品。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/qin-han-xuanquan-seal-tag.jpg",
           "label": "看看驿站留下的真木牌",
@@ -1006,7 +1005,7 @@
         "studyImageAlt": "接待补给，文书传递",
         "imageAlt": "汉代驿站文书与补给故事插画",
         "imageCaption": "汉代驿站文书与补给故事插画",
-        "imageBoundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/silk-post-messages-v2-prompt.txt。",
+        "imageBoundary": "现代教学故事图，文书整理和补给表达不同工作。人物并非历史人物肖像，图中信件没有真实收发人，不是某座汉代驿站的现场记录。",
         "audio": {
           "lead": {
             "id": "quest-f313e8f90944a9b9",
@@ -1269,6 +1268,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1538,6 +1538,16 @@
       "authorityLevel": "A",
       "factUse": "确认依据2022年版课程标准修订的六册国家统编历史教材、34个单元和127课的总体结构",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-QIN-HAN-OVERVIEW",
+      "title": "“古代中国”基本陈列：秦汉时期",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html",
+      "type": "museum-permanent-exhibition",
+      "authorityLevel": "A",
+      "factUse": "秦汉时间线、统一制度、汉代治理、科技文化、对外交往和秦亡汉兴的总体脉络",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1694,7 +1704,7 @@
       "license": "CC BY 3.0",
       "clearance": "cleared-open-license",
       "caption": "今天的玉门关遗址和周围戈壁景观。",
-      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。",
       "childVisibility": "child-ok"
     },
     {
@@ -1707,7 +1717,7 @@
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "甘肃省博物馆藏悬泉置出土封检，用于封缄和标记文书或物品。",
-      "boundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。",
       "childVisibility": "child-ok"
     },
     {
@@ -1746,7 +1756,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "小伙伴观察驿站的文书整理和旅途补给。",
-      "boundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/silk-post-messages-v2-prompt.txt。",
+      "boundary": "现代教学故事图，文书整理和补给表达不同工作。人物并非历史人物肖像，图中信件没有真实收发人，不是某座汉代驿站的现场记录。",
       "childVisibility": "child-ok"
     }
   ],
@@ -1758,5 +1768,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

@@ -1,3 +1,4 @@
+import {validateLearningMap} from "./lib/learning-map.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
@@ -127,6 +128,15 @@ const timelinePeriodIds = unique(timeline.periods.map((item) => item.id), "时�
 const chapterIds = unique(catalogs.flatMap((item) => item.chapters.map((chapter) => chapter.id)), "章节 ID");
 const catalogChapterById = new Map(catalogs.flatMap((item) => item.chapters.map((chapter) => [chapter.id, chapter])));
 const sourceIds = unique(sourceRegistry.sources.map((item) => item.id), "来源 ID");
+validateLearningMap(readJson("content/learning-map.json"),readJson("content/focused-quests.json"),sourceIds,new Set(childLanguageGlossary.terms.map(t=>t.term)));
+const visiblePeriods=new Set(readJson("content/preview-scope.json").periodIds);
+for(const period of catalog.periods.filter(p=>visiblePeriods.has(p.id))){
+ const c=period.learningContext;
+ assert(c&&['childIntro','chronology','covered','scopeBoundary'].every(k=>typeof c[k]==='string'&&c[k].trim()),`时期${period.id}缺少学习范围或时间说明`);
+ assert([...c.childIntro].length<=90,`时期${period.id}儿童开场过长`);
+ assert(c.sourceIds?.length&&c.sourceIds.every(id=>sourceIds.has(id)),`时期${period.id}来源未登记`);
+}
+
 unique(productMap.tracks.map((item) => item.id), "内容板块 ID");
 
 assert(childEntryPoints.audience.includes("4—6岁"), "低龄兴趣入口的适龄说明必须为4—6岁");
@@ -262,6 +272,7 @@ const expectedCatalogs = [
   ["cross-disciplinary", 6],
 ];
 let factCardCount = 0;
+let methodNoteCount = 0;
 for (const [index, [trackId, chapterCount]] of expectedCatalogs.entries()) {
   assert(catalogs[index].trackId === trackId, `第 ${index + 1} 份目录必须属于 ${trackId}`);
   assert(catalogs[index].chapters.length === chapterCount, `${trackId} 应有 ${chapterCount} 章，当前为 ${catalogs[index].chapters.length}`);
@@ -314,6 +325,12 @@ for (const currentCatalog of catalogs) {
         `章节 ${chapter.id} 的事实卡`,
       );
       factCardCount += factLines.length;
+      const methodSection=detailText.match(/\n## 学习设计与史料阅读方法\s*\n([\s\S]*?)(?=\n## |$)/);
+      if(methodSection){
+        const lines=methodSection[1].split("\n").filter(line=>/^\d+\.\s/.test(line));
+        assertSequential(lines.map(line=>Number(line.match(/^(\d+)\./)[1])),lines.length,`章节${chapter.id}的学习方法`);
+        methodNoteCount+=lines.length;
+      }
       for (const factLine of factLines) {
         assert(
           /\[[A-Z][A-Z0-9-]+(?:;\s*[A-Z][A-Z0-9-]+)*\]/.test(factLine),
@@ -326,7 +343,7 @@ for (const currentCatalog of catalogs) {
       );
       assert(childSection, `章节 ${chapter.id} 缺少儿童页面与语音稿`);
       const childText = childSection[1];
-      const glossaryMatches = childLanguageGlossary.terms.filter((item) => `${childText}\n${JSON.stringify(childEntryById.get(chapter.id))}`.includes(item.term));
+      const glossaryMatches = childLanguageGlossary.terms.filter((item) => `${childText}\n${JSON.stringify(childEntryById.get(chapter.id))}\n${JSON.stringify(focusedChapterById.get(chapter.id)?.steps??[])}`.includes(item.term));
       assert(glossaryMatches.length > 0 || /^cn-ancient-(04|05|06|07|08)-/.test(chapter.id), `章节 ${chapter.id} 没有匹配任何儿童口语词典解释`);
       for (const item of glossaryMatches) usedGlossaryTerms.add(item.term);
       const screenHeadings = childText.match(/^### (?:第\d+屏|\d+\.)[^\n]*/gm) ?? [];
@@ -412,6 +429,7 @@ for (const currentCatalog of catalogs) {
   }
 }
 
+for(const guide of readJson("content/learning-map.json").chapters)for(const term of guide.glossaryTerms)usedGlossaryTerms.add(term);
 for (const term of glossaryTerms) {
   assert(usedGlossaryTerms.has(term), `儿童口语词典词语没有在任何章节使用：${term}`);
 }
@@ -538,8 +556,8 @@ const clearedAssetCount = assetRegistries
 
 console.log(`内容校验通过：${catalogs.length} 个课程板块，共 ${chapterIds.size} 章。`);
 console.log(`其中：中国史 ${catalogs.slice(0, 3).reduce((sum, item) => sum + item.chapters.length, 0)} 章，世界史 ${catalogs.slice(3, 6).reduce((sum, item) => sum + item.chapters.length, 0)} 章，跨学科 ${catalogs[6].chapters.length} 章。`);
-console.log(`已有详稿 ${detailedChapters} 章，事实研究完成 ${verifiedResearch} 章，最终审核通过 ${approvedChapters} 章。`);
-console.log(`事实卡 ${factCardCount} 条，儿童屏幕 ${screenCount} 屏，语音稿 ${audioClipCount} 段，互动 ${interactionCount} 个。`);
+console.log(`已有详稿 ${detailedChapters} 章，研究标记verified ${verifiedResearch} 章（不等于逐条终审），最终审核通过 ${approvedChapters} 章。`);
+console.log(`事实卡 ${factCardCount} 条，另列学习方法 ${methodNoteCount} 项；编辑屏幕 ${screenCount} 屏，语音稿 ${audioClipCount} 段，互动 ${interactionCount} 个。`);
 console.log(`低龄兴趣入口 ${childEntryIds.size} 章，均含实物入口与地点连接。`);
 console.log(`儿童口语词典 ${glossaryTerms.size} 词，${chapterIds.size}章均已匹配难词解释。`);
 console.log(`配音读音表 ${pronunciationTexts.size} 项、年代读法 ${voicePronunciations.yearReadingRules.length} 条，${chapterIds.size}章均有编辑校听入口。`);

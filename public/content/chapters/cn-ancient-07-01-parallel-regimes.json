@@ -7,7 +7,24 @@
   "period": {
     "id": "song",
     "label": "宋朝（与辽·西夏·金并立）",
-    "years": "916—1279年（宋960年起）"
+    "years": "916—1279年（宋960年起）",
+    "learningContext": {
+      "childIntro": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+      "chronology": "916是辽相关起点，宋从960年开始；北宋与南宋分期，辽与金先后更替、西夏存在其间。窗口范围不等于宋始于916年。",
+      "covered": "同年并立、城市劳动、活字、指南针、火药文献与宋词。",
+      "scopeBoundary": "经济重心南移、海外贸易及政权关系在背景稿中；三项技术不能代表宋代生活全部。",
+      "sourceIds": [
+        "NMC-LIAO-SONG-XIA-JIN-YUAN"
+      ],
+      "sources": [
+        {
+          "id": "NMC-LIAO-SONG-XIA-JIN-YUAN",
+          "title": "“古代中国”基本陈列：辽宋夏金元时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+        }
+      ]
+    }
   },
   "order": 25,
   "title": "辽宋夏金为什么长期并立",
@@ -18,16 +35,44 @@
     "childTitle": "同一年，历史里住着谁？",
     "prompt": "北宋的时候，辽和西夏也存在。后来年份变了，同一幅时间图里还有哪些政权？",
     "takeaway": "1111年看辽、北宋、西夏；1160年看金、南宋、西夏。历史中既有先后，也有同时存在的政权，它们之间有冲突，也有往来。",
-    "object": "分期地图、盟约与货币",
+    "object": "《清明上河图》局部 · 北宋",
     "people": [
       "北宋、南宋",
       "并立的辽、西夏、金"
     ],
-    "place": "开封、上京、中兴府与中都",
-    "culture": "多种文字与器物传统",
+    "place": "1111年与1160年的并立关系，不画精确疆界",
+    "culture": "同年并立与先后变化",
     "care": "年份卡是关系学具，不画疆界或现代国家。三个图标同样大小不代表疆域大小；两个年份不是唯一并立组合，1111年还有其他政权。画卷为北宋艺术材料，不能当作1111年当天记录。",
     "playableSource": "content/focused-quests.json",
     "preferredAssetId": "song-time-study-v2"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-07-01-parallel-regimes",
+    "theme": "材料与时间",
+    "learningGoal": "同一年可以有并立政权，年代变了组合也会变。",
+    "parentQuestion": "同一年里，是不是只能放一张政权卡？",
+    "observe": "比较1111与1160两组，能指出西夏仍在、其他名字发生变化。",
+    "misconception": "关系图不是精确疆界图；宋不包含辽、西夏、金。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "NMC-LIAO-SONG-XIA-JIN-YUAN",
+      "NEAC-LIAO-SONG-XIA-JIN-CHINA",
+      "DPM-QINGMING-SCROLL"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-07-04-yuan-unification",
+        "relation": "先看并立，再看元朝统一；1271定国号与1279统一分开。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "政权",
+      "王朝",
+      "交流"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-07-01-parallel-regimes",
@@ -96,20 +141,6 @@
   ],
   "glossary": [
     {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "货币",
-      "icon": "🪙",
-      "plain": "大家用来交换和计算价值的共同工具。",
-      "example": "贝壳、铜钱、纸币形状不同，都要看当时怎样使用。",
-      "priority": 2
-    },
-    {
       "term": "政权",
       "icon": "🏛️",
       "plain": "谁在用什么机构和规则管理一个地方。",
@@ -117,122 +148,29 @@
       "priority": 2
     },
     {
-      "term": "贸易",
-      "icon": "🚚",
-      "plain": "不同人或地方交换、买卖物品和服务。",
-      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "term": "王朝",
+      "icon": "👑",
+      "plain": "以皇帝政权延续的一段历史时期。",
+      "example": "唐朝是王朝；唐朝结束不等于所有事情当天停止。",
+      "priority": 2
+    },
+    {
+      "term": "交流",
+      "icon": "↔️",
+      "plain": "不同的人把物品、知识或做法带给彼此。",
+      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
       "priority": 1
-    },
-    {
-      "term": "迁徙",
-      "icon": "👣",
-      "plain": "人们离开原住地，搬到别的地方生活。",
-      "example": "迁徙可能因为气候、生计、战争或主动选择。",
-      "priority": 1
-    },
-    {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
-      "priority": 1
-    },
-    {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
-      "priority": 1
-    },
-    {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
-      "priority": 1
-    },
-    {
-      "term": "手工业",
-      "icon": "🧵",
-      "plain": "主要靠手和工具制作器物的生产活动。",
-      "example": "陶器、织物和青铜器都需要材料、技术与分工。",
-      "priority": 2
-    },
-    {
-      "term": "工业",
-      "icon": "🏭",
-      "plain": "用机器、工厂和分工大规模生产东西。",
-      "example": "工业发展也要看劳动、安全、资源和环境。",
-      "priority": 2
-    },
-    {
-      "term": "技术",
-      "icon": "⚙️",
-      "plain": "人们解决具体问题时积累的工具和做法。",
-      "example": "技术常由许多人长期改进，不是某天突然出现。",
-      "priority": 2
-    },
-    {
-      "term": "农业",
-      "icon": "🌾",
-      "plain": "种植作物、饲养动物来获得食物和原料。",
-      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
-      "priority": 2
-    },
-    {
-      "term": "市场",
-      "icon": "🧺",
-      "plain": "人们交换商品和服务的地方或关系。",
-      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
-      "priority": 2
-    },
-    {
-      "term": "文化",
-      "icon": "🎨",
-      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
-      "example": "文化会交流变化，不能排成谁高谁低。",
-      "priority": 2
-    },
-    {
-      "term": "发展",
-      "icon": "🌱",
-      "plain": "事物经过一段时间出现增长或变化。",
-      "example": "发展不只看速度和数量，也要看人的生活与环境。",
-      "priority": 3
-    },
-    {
-      "term": "统治",
-      "icon": "🏛️",
-      "plain": "掌权者用机构和规则管理人群与地方。",
-      "example": "研究统治还要问谁能参与、谁承担负担。",
-      "priority": 3
-    },
-    {
-      "term": "治理",
-      "icon": "🧭",
-      "plain": "一起安排公共事情、解决共同问题。",
-      "example": "修路、管水、定规则和听取意见都可能属于治理。",
-      "priority": 3
     }
   ],
   "pronunciations": [
     {
-      "text": "中都",
-      "reading": "Zhōngdū",
-      "kind": "place",
+      "text": "西夏",
+      "reading": "Xī Xià",
+      "kind": "term",
       "chapterIds": [
         "cn-ancient-07-01-parallel-regimes"
       ],
-      "note": "“都”在都城名称中读dū。"
-    },
-    {
-      "text": "中兴府",
-      "reading": "Zhōngxīngfǔ",
-      "kind": "place",
-      "chapterIds": [
-        "cn-ancient-07-01-parallel-regimes"
-      ],
-      "note": "“兴”在此读xīng。"
+      "note": "与两宋先后并立的政权名；“夏”读xià。 当前仍待人耳校听。"
     }
   ],
   "gameplay": {
@@ -259,7 +197,7 @@
         "license": "Public Domain Mark 1.0",
         "clearance": "cleared-open-license",
         "caption": "北宋张择端《清明上河图》中虹桥附近的局部图像。",
-        "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。",
+        "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。 这里展示的是原图局部，不作为完整构图。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg"
       }
@@ -303,16 +241,15 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "同一年，历史里住着谁？",
         "coverNarration": "北宋的时候，辽和西夏也存在。后来年份变了，同一幅时间图里还有哪些政权？",
-        "stationLine": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
-        "stationNarration": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
         "closingCaption": "带着发现回家",
         "closingNarration": "1111年看辽、北宋、西夏；1160年看金、南宋、西夏。历史中既有先后，也有同时存在的政权，它们之间有冲突，也有往来。",
         "closingLine": "看清年份，也看见同时存在的历史。",
         "fictionNote": "年份卡是关系学具，不画疆界或现代国家。三个图标同样大小不代表疆域大小；两个年份不是唯一并立组合，1111年还有其他政权。画卷为北宋艺术材料，不能当作1111年当天记录。",
         "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
+        "stationLine": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
         "stationAudio": {
-          "id": "quest-afff15281530ee8d",
-          "text": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。"
+          "id": "quest-1bc1ed1a12336ca9",
+          "text": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。"
         },
         "closingAudio": {
           "id": "quest-0efcde08c4e67f0c",
@@ -441,7 +378,7 @@
           "license": "Public Domain Mark 1.0",
           "clearance": "cleared-open-license",
           "caption": "张择端作品 · 原作局部影像",
-          "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。 北宋张择端《清明上河图》中虹桥附近的局部图像。",
+          "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。 这里展示的是原图局部，不作为完整构图。 北宋张择端《清明上河图》中虹桥附近的局部图像。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg",
           "label": "点开真材料，听听说明",
@@ -975,6 +912,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1352,7 +1290,7 @@
       "license": "Public Domain Mark 1.0",
       "clearance": "cleared-open-license",
       "caption": "北宋张择端《清明上河图》中虹桥附近的局部图像。",
-      "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。图像为1920×960像素等比例局部，未作其他修改。",
+      "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。 这里展示的是原图局部，不作为完整构图。",
       "childVisibility": "child-ok"
     },
     {
@@ -1429,5 +1367,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

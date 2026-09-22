@@ -519,3 +519,6 @@
 
 .era-object .era-marker { grid-row:1 / 3; width:65px; height:85px; }
 .quest-date-stop .era-marker { width:clamp(75px,12vw,140px); height:130px; }
+
+/* Keep long event names inside the same time-choice card as their icon and year. */
+.era-object.era-name-long strong{font-size:clamp(18px,2vw,26px);line-height:1.2}

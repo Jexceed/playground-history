@@ -7,7 +7,24 @@
   "period": {
     "id": "tang",
     "label": "唐朝",
-    "years": "618—907年"
+    "years": "618—907年",
+    "learningContext": {
+      "childIntro": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
+      "chronology": "618—907年为唐朝范围；本组故事分属不同时期，贞观、开元通宝始铸、开元年号不可混为一个节点。",
+      "covered": "治理恢复、钱名与年号、城市乐舞、译经、书法与诗。",
+      "scopeBoundary": "科举、唐前后期变化等在背景稿中；李白诗作和颜真卿文稿不能被拼成唐朝始终繁盛的单一画面。",
+      "sourceIds": [
+        "NMC-SUI-TANG-FIVE-DYNASTIES"
+      ],
+      "sources": [
+        {
+          "id": "NMC-SUI-TANG-FIVE-DYNASTIES",
+          "title": "“古代中国”基本陈列：隋唐五代时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html"
+        }
+      ]
+    }
   },
   "order": 37,
   "title": "颜真卿的涂改为什么也重要",
@@ -18,16 +35,45 @@
     "childTitle": "颜真卿的草稿，为什么留下来？",
     "prompt": "一篇纪念亲人的文稿，留着许多涂改。它怎样把书写和流传的故事带到今天？",
     "takeaway": "颜真卿的文稿纪念亲人，保留了书写和修改的痕迹。后人的收藏与题跋，又留下另一段时间的故事；一件作品可以有不同年代的痕迹。",
-    "object": "《祭侄文稿》手稿与卷上题跋",
+    "object": "《祭侄文稿》· 正文段",
     "people": [
       "颜真卿",
       "保存作品的后人"
     ],
-    "place": "唐代常山、蒲州与今天的博物馆",
-    "culture": "颜真卿书法与手稿",
+    "place": "唐代文稿与后人题跋；今天的博物馆",
+    "culture": "《祭侄文稿》与后世题跋",
     "care": "真迹由台北故宫开放影像取得，正文段与1786年乾隆引首分开。原作墨痕不是儿童练习线条，教学草稿不是颜真卿手迹。只说纪念亲人的背景，不展开伤亡细节；不凭每一笔墨色推断具体情绪。",
     "preferredAssetId": "yan-jizhi-main-npm",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-06-06-yan-zhenqing-draft",
+    "theme": "材料与时间",
+    "learningGoal": "作品的修改、收藏和后加文字记录不同过程。",
+    "parentQuestion": "同一卷里所有墨字都出自颜真卿同一天吗？",
+    "observe": "比较唐代正文与清代引首，说明修改稿也能留下过程。",
+    "misconception": "不能用黑色就是唐代、红色就是后世代替版本和题跋核对。",
+    "evidenceStepIds": [
+      "time",
+      "journey",
+      "change"
+    ],
+    "sourceIds": [
+      "NPM-JIZHI-WENGAO",
+      "NPM-JIZHI-OPEN-IMAGES"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-06-02-tang-governance",
+        "relation": "钱名、作品正文和后加题字，都要结合各自年代记录。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "证据",
+      "文物",
+      "文化"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-06-06-yan-zhenqing-draft",
@@ -96,25 +142,25 @@
   ],
   "glossary": [
     {
-      "term": "档案",
-      "icon": "🗂️",
-      "plain": "被保存下来的文件、照片、录音等记录。",
-      "example": "一份档案记录一个角度，要和别的证据一起看。",
-      "priority": 1
-    },
-    {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
-      "priority": 1
-    },
-    {
       "term": "证据",
       "icon": "🔎",
       "plain": "能帮助我们判断过去发生过什么的线索。",
       "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
       "priority": 1
+    },
+    {
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
     }
   ],
   "pronunciations": [
@@ -293,16 +339,15 @@
         "reunionAlt": "小伙伴回看书写与流传的插画",
         "coverCaption": "颜真卿的草稿，为什么留下来？",
         "coverNarration": "小小旅行团到了唐朝！一篇纪念亲人的文稿，留着许多涂改。它怎样把书写和流传的故事带到今天？",
-        "stationLine": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。",
-        "stationNarration": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。",
         "closingCaption": "带着这一章的发现回家",
         "closingNarration": "颜真卿的文稿纪念亲人，保留了书写和修改的痕迹。后人的收藏与题跋，又留下另一段时间的故事；一件作品可以有不同年代的痕迹。",
         "closingLine": "保留书写过程，也看见后人传承。",
         "fictionNote": "真迹由台北故宫开放影像取得，正文段与1786年乾隆引首分开。原作墨痕不是儿童练习线条，教学草稿不是颜真卿手迹。只说纪念亲人的背景，不展开伤亡细节；不凭每一笔墨色推断具体情绪。",
         "reunionImage": "/content/step-images/tang-draft-reunion-v1.jpg",
+        "stationLine": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
         "stationAudio": {
-          "id": "quest-28429f02d81f52a4",
-          "text": "唐朝的故事从钱币和治理，走到长安、远行、书法与诗。挑一件真材料，跟小伙伴去发现。"
+          "id": "quest-02a554bf66a28d47",
+          "text": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。"
         },
         "closingAudio": {
           "id": "quest-62b3b2364501d46f",
@@ -329,7 +374,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学插画 · 不作历史现场或文物证据",
-      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-draft-learning-v1-prompt.txt。",
+      "boundary": "今天的练习图比较有改痕的草稿与整齐誊清稿。纸上的线条不是颜真卿原字，练习只帮助理解为什么要保留修改过程。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/tang-draft-learning-v1.jpg"
     },
@@ -344,7 +389,7 @@
         "license": "项目自制；按OpenAI使用条款持有输出使用权",
         "clearance": "cleared-project-created",
         "caption": "现代教学插画 · 不作历史现场或文物证据",
-        "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-draft-reunion-v1-prompt.txt。",
+        "boundary": "现代手册回顾书写、修改与后人保存。图中纸页不是《祭侄文稿》原件，正文、引首和收藏痕迹仍分别以原卷资料说明。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/tang-draft-reunion-v1.jpg"
       },
@@ -358,7 +403,7 @@
         "license": "项目自制；按OpenAI使用条款持有输出使用权",
         "clearance": "cleared-project-created",
         "caption": "现代教学插画 · 不作历史现场或文物证据",
-        "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-draft-learning-v1-prompt.txt。",
+        "boundary": "今天的练习图比较有改痕的草稿与整齐誊清稿。纸上的线条不是颜真卿原字，练习只帮助理解为什么要保留修改过程。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/tang-draft-learning-v1.jpg"
       }
@@ -596,7 +641,7 @@
         "studyImageAlt": "纪念亲人，也留下写作过程",
         "imageAlt": "小伙伴回看书写与流传的插画",
         "imageCaption": "小伙伴回看书写与流传的插画",
-        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-draft-reunion-v1-prompt.txt。",
+        "imageBoundary": "现代手册回顾书写、修改与后人保存。图中纸页不是《祭侄文稿》原件，正文、引首和收藏痕迹仍分别以原卷资料说明。",
         "audio": {
           "lead": {
             "id": "quest-f9615171d8deb3bd",
@@ -937,11 +982,11 @@
         "studyImageAlt": "要看改过哪里，保留哪张纸",
         "imageAlt": "小伙伴比较草稿与誊清稿的学习图",
         "imageCaption": "小伙伴比较草稿与誊清稿的学习图",
-        "imageBoundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-draft-learning-v1-prompt.txt。",
+        "imageBoundary": "今天的练习图比较有改痕的草稿与整齐誊清稿。纸上的线条不是颜真卿原字，练习只帮助理解为什么要保留修改过程。",
         "audio": {
           "lead": {
-            "id": "quest-e8bca12958b5a137",
-            "text": "这次要看修改的过程，找留着改痕的纸。"
+            "id": "quest-758b005617fed501",
+            "text": "这是今天的两张练习纸。想让家人看见刚才怎样改过，选留着改痕的草稿，还是整齐的誊清稿？"
           },
           "transition": {
             "id": "quest-09e6c15bc4579c50",
@@ -1096,6 +1141,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1293,6 +1339,16 @@
       "authorityLevel": "A-structure-only",
       "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-SUI-TANG-FIVE-DYNASTIES",
+      "title": "“古代中国”基本陈列：隋唐五代时期",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html",
+      "type": "museum-permanent-exhibition",
+      "authorityLevel": "A",
+      "factUse": "581—960年隋朝统一、唐前期发展、安史之乱后变化、五代十国以及经济文化延续的总体脉络",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1423,7 +1479,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "洛阳博物馆展出的唐代开元通宝照片。",
-      "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。下载为1920像素等比例图，未作其他修改。",
+      "boundary": "开元通宝始铸于621年，名称中的“开元”不是唐玄宗的开元年号。钱币照片可用于观察形制与钱文，不能单独证明所有唐人富裕。",
       "childVisibility": "child-ok"
     },
     {
@@ -1475,7 +1531,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学插画 · 不作历史现场或文物证据",
-      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-draft-learning-v1-prompt.txt。",
+      "boundary": "今天的练习图比较有改痕的草稿与整齐誊清稿。纸上的线条不是颜真卿原字，练习只帮助理解为什么要保留修改过程。",
       "childVisibility": "child-ok"
     },
     {
@@ -1488,7 +1544,7 @@
       "license": "项目自制；按OpenAI使用条款持有输出使用权",
       "clearance": "cleared-project-created",
       "caption": "现代教学插画 · 不作历史现场或文物证据",
-      "boundary": "三位小伙伴是现代虚构儿童，人物、手册与道具为教学表达。乐器动作不复原唐曲，纸上抽象线条不冒充古代手迹，译场不认作特定一日现场，诗图不认作李白当晚场景。提示词：docs/qa/2026-09-19-sui-qing/tang-draft-reunion-v1-prompt.txt。",
+      "boundary": "现代手册回顾书写、修改与后人保存。图中纸页不是《祭侄文稿》原件，正文、引首和收藏痕迹仍分别以原卷资料说明。",
       "childVisibility": "child-ok"
     }
   ],
@@ -1500,5 +1556,6 @@
     "assets": "cleared",
     "audio": "not-started",
     "review": "pending"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

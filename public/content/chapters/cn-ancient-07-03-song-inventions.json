@@ -7,7 +7,24 @@
   "period": {
     "id": "song",
     "label": "宋朝（与辽·西夏·金并立）",
-    "years": "916—1279年（宋960年起）"
+    "years": "916—1279年（宋960年起）",
+    "learningContext": {
+      "childIntro": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+      "chronology": "916是辽相关起点，宋从960年开始；北宋与南宋分期，辽与金先后更替、西夏存在其间。窗口范围不等于宋始于916年。",
+      "covered": "同年并立、城市劳动、活字、指南针、火药文献与宋词。",
+      "scopeBoundary": "经济重心南移、海外贸易及政权关系在背景稿中；三项技术不能代表宋代生活全部。",
+      "sourceIds": [
+        "NMC-LIAO-SONG-XIA-JIN-YUAN"
+      ],
+      "sources": [
+        {
+          "id": "NMC-LIAO-SONG-XIA-JIN-YUAN",
+          "title": "“古代中国”基本陈列：辽宋夏金元时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+        }
+      ]
+    }
   },
   "order": 27,
   "title": "毕昇的活字怎样排成一页",
@@ -18,16 +35,44 @@
     "childTitle": "毕昇的活字，怎样换一句话？",
     "prompt": "一整页刻在一块版上，和一块一个字有什么不同？跟小伙伴试试拆换、重排，再看看印到纸上的变化。",
     "takeaway": "北宋毕昇探索泥活字，沈括把方法记在《梦溪笔谈》里。分开的字块可以拆换和重排；后人继续改进，雕版也长期使用。",
-    "object": "木活字展品、印版与《梦溪笔谈》记录",
+    "object": "木活字展示 · 后来的材料",
     "people": [
       "毕昇、沈括",
       "后来的印刷工匠"
     ],
-    "place": "北宋开封与书坊",
-    "culture": "《梦溪笔谈》与“四项技术时间带”",
+    "place": "北宋活字记载；今天的印刷体验工坊",
+    "culture": "沈括《梦溪笔谈》的活字记载",
     "care": "照片为北京印刷博物馆的木活字展示，不是毕昇泥活字原套。代码用三个简单字演示单块替换、反字到正字；不复原材料、加热、配方和完整传统工序。现代体验图不是宋代现场，活字没有立刻替代雕版。",
     "preferredAssetId": "song-print-work-v1",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-07-03-song-inventions",
+    "theme": "知识与技术",
+    "learningGoal": "分开的活字可以拆换重排，技术发展有记录与传承。",
+    "parentQuestion": "下一页要换内容，分开的字块能怎样再用？",
+    "observe": "演示取出中间字、换入新字再印，区分整块雕版。",
+    "misconception": "毕昇探索泥活字，现代木活字照片不是其原套遗物；雕版未立刻消失。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "ICH-MOVABLE-TYPE-INTERVIEW",
+      "CAS-MOVABLE-TYPE-HISTORY",
+      "CAS-PRINT-WORKSHOP-2025"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-08-07-journey-west-print",
+        "relation": "比较字块重排与书坊印装：技术方案和成书工序不是同一问题。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "活字",
+      "技术",
+      "证据"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-07-03-song-inventions",
@@ -102,11 +147,25 @@
   ],
   "glossary": [
     {
+      "term": "活字",
+      "icon": "🧩",
+      "plain": "一个字做在一小块上，可以拆开再排成别的内容。",
+      "example": "毕昇探索泥活字，后来还有木、金属等不同活字。",
+      "priority": 1
+    },
+    {
       "term": "技术",
       "icon": "⚙️",
       "plain": "人们解决具体问题时积累的工具和做法。",
       "example": "技术常由许多人长期改进，不是某天突然出现。",
       "priority": 2
+    },
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
     }
   ],
   "pronunciations": [
@@ -153,7 +212,7 @@
         "license": "CC BY-SA 4.0",
         "clearance": "cleared-open-license",
         "caption": "北京印刷博物馆中的木活字展示。",
-        "boundary": "这是现代博物馆陈列的木活字，不是毕昇原物，也不是北宋泥活字。它只用于帮助儿童理解“单字可移动、可重排”的原理；活字印刷并未马上取代雕版印刷。原图1920×1115像素，未作修改。",
+        "boundary": "这是现代博物馆陈列的木活字，不是毕昇原物，也不是北宋泥活字。它只用于帮助儿童理解“单字可移动、可重排”的原理；活字印刷并未马上取代雕版印刷。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/wooden-movable-type-museum-display.jpg"
       }
@@ -197,16 +256,15 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "毕昇的活字，怎样换一句话？",
         "coverNarration": "一整页刻在一块版上，和一块一个字有什么不同？跟小伙伴试试拆换、重排，再看看印到纸上的变化。",
-        "stationLine": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
-        "stationNarration": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
         "closingCaption": "带着发现回家",
         "closingNarration": "北宋毕昇探索泥活字，沈括把方法记在《梦溪笔谈》里。分开的字块可以拆换和重排；后人继续改进，雕版也长期使用。",
         "closingLine": "一个个字块，拆开以后还能重排。",
         "fictionNote": "照片为北京印刷博物馆的木活字展示，不是毕昇泥活字原套。代码用三个简单字演示单块替换、反字到正字；不复原材料、加热、配方和完整传统工序。现代体验图不是宋代现场，活字没有立刻替代雕版。",
         "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
+        "stationLine": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
         "stationAudio": {
-          "id": "quest-afff15281530ee8d",
-          "text": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。"
+          "id": "quest-1bc1ed1a12336ca9",
+          "text": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。"
         },
         "closingAudio": {
           "id": "quest-cb8c9235f46770c1",
@@ -335,7 +393,7 @@
           "license": "CC BY-SA 4.0",
           "clearance": "cleared-open-license",
           "caption": "现代博物馆陈列 · 不是毕昇原物",
-          "boundary": "这是现代博物馆陈列的木活字，不是毕昇原物，也不是北宋泥活字。它只用于帮助儿童理解“单字可移动、可重排”的原理；活字印刷并未马上取代雕版印刷。原图1920×1115像素，未作修改。 北京印刷博物馆中的木活字展示。",
+          "boundary": "这是现代博物馆陈列的木活字，不是毕昇原物，也不是北宋泥活字。它只用于帮助儿童理解“单字可移动、可重排”的原理；活字印刷并未马上取代雕版印刷。 北京印刷博物馆中的木活字展示。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/wooden-movable-type-museum-display.jpg",
           "label": "点开真材料，听听说明",
@@ -668,8 +726,8 @@
         "imageBoundary": "照片为北京印刷博物馆的木活字展示，不是毕昇泥活字原套。代码用三个简单字演示单块替换、反字到正字；不复原材料、加热、配方和完整传统工序。现代体验图不是宋代现场，活字没有立刻替代雕版。",
         "audio": {
           "lead": {
-            "id": "quest-ba41fe0ba01bb16a",
-            "text": "哪种版能拆开字块，重新排列？"
+            "id": "quest-76de8165301d452a",
+            "text": "下一页要换成不同的内容。哪一种版，能把字块拆开，重新排列？"
           },
           "transition": {
             "id": "quest-15c5a44b05edb52e",
@@ -888,6 +946,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1109,6 +1168,16 @@
       "authorityLevel": "A",
       "factUse": "现代印刷教学体验中的选字、排版、研墨与印制步骤；现代活动不当宋代现场",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-LIAO-SONG-XIA-JIN-YUAN",
+      "title": "“古代中国”基本陈列：辽宋夏金元时期",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html",
+      "type": "museum-permanent-exhibition",
+      "authorityLevel": "A",
+      "factUse": "916—1368年多政权并立到统一、经济重心南移、城市商业、科技文化和宋元海外贸易的总体脉络",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1252,7 +1321,7 @@
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "北京印刷博物馆中的木活字展示。",
-      "boundary": "这是现代博物馆陈列的木活字，不是毕昇原物，也不是北宋泥活字。它只用于帮助儿童理解“单字可移动、可重排”的原理；活字印刷并未马上取代雕版印刷。原图1920×1115像素，未作修改。",
+      "boundary": "这是现代博物馆陈列的木活字，不是毕昇原物，也不是北宋泥活字。它只用于帮助儿童理解“单字可移动、可重排”的原理；活字印刷并未马上取代雕版印刷。",
       "childVisibility": "child-ok"
     },
     {
@@ -1316,5 +1385,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

@@ -7,7 +7,24 @@
   "period": {
     "id": "song",
     "label": "宋朝（与辽·西夏·金并立）",
-    "years": "916—1279年（宋960年起）"
+    "years": "916—1279年（宋960年起）",
+    "learningContext": {
+      "childIntro": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+      "chronology": "916是辽相关起点，宋从960年开始；北宋与南宋分期，辽与金先后更替、西夏存在其间。窗口范围不等于宋始于916年。",
+      "covered": "同年并立、城市劳动、活字、指南针、火药文献与宋词。",
+      "scopeBoundary": "经济重心南移、海外贸易及政权关系在背景稿中；三项技术不能代表宋代生活全部。",
+      "sourceIds": [
+        "NMC-LIAO-SONG-XIA-JIN-YUAN"
+      ],
+      "sources": [
+        {
+          "id": "NMC-LIAO-SONG-XIA-JIN-YUAN",
+          "title": "“古代中国”基本陈列：辽宋夏金元时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+        }
+      ]
+    }
   },
   "order": 28,
   "title": "小小指南针为什么不能独自开船",
@@ -18,16 +35,44 @@
     "childTitle": "宋代海船，怎样在阴天辨方向？",
     "prompt": "天空被云遮住，海上的船员怎样辨方向？看看指南针能告诉什么，再找找船上其他人的工作。",
     "takeaway": "宋代航海文献记载用指南针辨方向。磁针给南北线索，船员还要看风浪、海岸和水深；远航需要工具、经验与合作。",
-    "object": "指南浮针与航海工具箱",
+    "object": "泉州湾宋代海船遗存",
     "people": [
       "宋代船员",
       "记录航海的作者"
     ],
-    "place": "宋代海船、港口与近海航路",
-    "culture": "宋代航海记录与“四项技术时间带”",
+    "place": "宋代海上航行；泉州湾古船遗存",
+    "culture": "宋代航海文献",
     "care": "泉州古船照片是考古船体与现代展陈，没有展示指南针出土；用针的事实由文献支持。船上插画是教学情境，不复原特定古船。方向模型固定红端指南，省略磁偏角、摇晃和磁干扰，不能作真实航海教程。",
     "preferredAssetId": "song-compass-crew-v1",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-07-07-song-compass-navigation",
+    "theme": "知识与技术",
+    "learningGoal": "指南针增加方向线索，海船仍需人的经验与配合。",
+    "parentQuestion": "磁针能指方向，是不是所有船员都不用看别的了？",
+    "observe": "转船观察南北线索，再指看风与测深，说明工具不能包办航海。",
+    "misconception": "宋船遗存不等于船上发现过这枚指南针，学具也非实物复原。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "CAS-ANCIENT-NAVIGATION",
+      "QZ-SONG-SHIP-HERITAGE",
+      "NMC-LIAO-SONG-XIA-JIN-YUAN"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-08-02-zheng-he",
+        "relation": "由宋代航海工具联系明代远航的补给和沟通，避免把远航归因于一件工具。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "磁针",
+      "技术",
+      "交流"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-07-07-song-compass-navigation",
@@ -97,10 +142,10 @@
   ],
   "glossary": [
     {
-      "term": "考古",
-      "icon": "🧹",
-      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
-      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
+      "term": "磁针",
+      "icon": "🧭",
+      "plain": "能给出南北方向线索的带磁性的针。",
+      "example": "学习图里船转动，稳定后的磁针仍给南北线索。",
       "priority": 1
     },
     {
@@ -197,16 +242,15 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "宋代海船，怎样在阴天辨方向？",
         "coverNarration": "天空被云遮住，海上的船员怎样辨方向？看看指南针能告诉什么，再找找船上其他人的工作。",
-        "stationLine": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
-        "stationNarration": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。",
         "closingCaption": "带着发现回家",
         "closingNarration": "宋代航海文献记载用指南针辨方向。磁针给南北线索，船员还要看风浪、海岸和水深；远航需要工具、经验与合作。",
         "closingLine": "针给方向，航海还要大家观察。",
         "fictionNote": "泉州古船照片是考古船体与现代展陈，没有展示指南针出土；用针的事实由文献支持。船上插画是教学情境，不复原特定古船。方向模型固定红端指南，省略磁偏角、摇晃和磁干扰，不能作真实航海教程。",
         "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
+        "stationLine": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
         "stationAudio": {
-          "id": "quest-afff15281530ee8d",
-          "text": "这一站有同时存在的政权，也有繁忙的城市、不断改进的技术和寄托思念的词。每个故事都有自己的年代。"
+          "id": "quest-1bc1ed1a12336ca9",
+          "text": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。"
         },
         "closingAudio": {
           "id": "quest-c788fda351d2a711",
@@ -921,6 +965,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1323,5 +1368,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

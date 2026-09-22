@@ -7,12 +7,13 @@
   "period": {
     "id": "evidence-projects",
     "label": "跨时代证据任务",
-    "years": "贯穿中国史与世界史"
+    "years": "贯穿中国史与世界史",
+    "learningContext": null
   },
   "order": 4,
   "title": "走陆路还是水路：给历史任务规划一条真实路线",
   "coreQuestion": "年代、任务、使用权限、地理和交通系统怎样共同决定一条路线是否可行？",
-  "throughline": "先沿汉代悬泉置与玉门关、7世纪隋代大运河统一系统、10—14世纪宋元泉州、1405—1433年郑和远航、1881年唐胥铁路和1909年京张铁路建立中国交通时间线，再用‘年代—使用者—货物—起点—终点—必要节点’六格任务卡选择道路、驿站、运河、桥梁、港口、海船或铁路。每条路线标作学习模拟，缺少速度、水位、风向、费用和载量时保留未知；以罗马阿庇亚大道和英国早期煤运铁路作系统比较，不做文明竞速。",
+  "throughline": "从汉代驿路、隋代运河、宋元港口到明代远航和晚清铁路，成人先限定年代与任务、整理来源和路线条件，孩子一次只为具体需要指认少量节点。六格任务卡由成人记录，路线标学习模拟，不编精确速度或唯一最佳路线。",
   "childEntry": {
     "id": "cross-04-transport-history",
     "childTitle": "郑和船、大运河还是驿路",
@@ -27,6 +28,7 @@
     "care": "路线选择是学习模拟；速度、水位、季风、费用未知时明确保留未知。",
     "preferredAssetId": "quanzhou-luoyang-bridge-current-view"
   },
+  "learningGuide": null,
   "textbookConnection": null,
   "childStory": [
     {
@@ -73,6 +75,13 @@
       "icon": "🧩",
       "plain": "原来分开的地方进入同一个国家治理。",
       "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "priority": 1
+    },
+    {
+      "term": "驿站",
+      "icon": "🐎",
+      "plain": "古代按规定接待使者、传递公文并准备交通补给的站点。",
+      "example": "官驿有使用规矩，不能把它当人人可以随便取马的旅馆。",
       "priority": 1
     },
     {
@@ -210,7 +219,7 @@
         "image": "/content/step-images/quanzhou-luoyang-bridge-current-view.jpg",
         "imageAlt": "泉州洛阳桥现状照片",
         "imageCaption": "今天泉州洛阳桥的现状照片；该桥是宋元泉州世界遗产组成部分之一。",
-        "imageBoundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。下载为1920×1280像素等比例图，未作其他修改。",
+        "imageBoundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。",
         "audio": {
           "transition": {
             "id": "quest-9ef0fc145b345212",
@@ -364,7 +373,7 @@
         "image": "/content/step-images/qin-han-yumen-pass.jpg",
         "imageAlt": "玉门关遗址现状照片",
         "imageCaption": "今天的玉门关遗址和周围戈壁景观。",
-        "imageBoundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
+        "imageBoundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。",
         "audio": {
           "transition": {
             "id": "quest-d4c11419e03a18fd",
@@ -518,7 +527,7 @@
         "image": "/content/step-images/qin-han-xuanquan-seal-tag.jpg",
         "imageAlt": "悬泉置封检实物照片",
         "imageCaption": "甘肃省博物馆藏悬泉置出土封检，用于封缄和标记文书或物品。",
-        "imageBoundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。下载为1920像素等比例缩略图，未作其他修改。",
+        "imageBoundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。",
         "audio": {
           "transition": {
             "id": "quest-a7cb01ad27c42767",
@@ -625,9 +634,583 @@
   "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 12,
   "conclusion": [
-    "历史路线没有脱离年代和任务的“永远最快”。本章沿中国主时间线观察五类交通系统：汉代河西走廊的道路、关隘和悬泉置驿站；隋代把早期河段连接成统一系统、元代达到新高峰的大运河；10—14世纪把山地生产区、桥梁、河流、城市和海港连在一起的宋元泉州；1405—1433年进入既有印度洋网络的郑和船队；1881年服务开平煤矿运输的唐胥铁路和1909年通车的京张铁路。孩子先填写“什么时候、谁能使用、运什么、从哪里到哪里、必须经过什么节点、哪些条件未知”六格任务卡，再选择道路、驿站、运河、桥梁、港口、海船或铁路。所有路线都是依据真实历史条件设计的学习模拟，不冒充某位古人的真实日记；缺少速度、水位、风向、费用和路况数据时，不编抵达分钟数或“唯一最优路线”。世界连接用前312年开始建设的罗马阿庇亚大道与汉代驿路比较国家道路系统，用1825年斯托克顿—达灵顿铁路与1881年唐胥铁路比较煤炭运输和铁路网络形成，不做文明或国家竞速排名。"
+    "历史路线没有脱离年代和任务的“永远最快”。本章沿中国主时间线观察五类交通系统：汉代河西走廊的道路、关隘和悬泉置驿站；隋代把早期河段连接成统一系统、元代达到新高峰的大运河；10—14世纪把山地生产区、桥梁、河流、城市和海港连在一起的宋元泉州；1405—1433年进入既有印度洋网络的郑和船队；1881年服务开平煤矿运输的唐胥铁路和1909年通车的京张铁路。成人先整理年代、使用规矩与地点资料。共玩时一次只给两个熟悉的节点，让孩子听需要、指路线；六格任务卡由成人按孩子的表达记录，不要求孩子识字填表。所有路线都是依据真实历史条件设计的学习模拟，不冒充某位古人的真实日记；缺少速度、水位、风向、费用和路况数据时，不编抵达分钟数或“唯一最优路线”。世界连接用前312年开始建设的罗马阿庇亚大道与汉代驿路比较国家道路系统，用1825年斯托克顿—达灵顿铁路与1881年唐胥铁路比较煤炭运输和铁路网络形成，不做文明或国家竞速排名。"
   ],
   "facts": [
+    {
+      "number": 1,
+      "text": "交通方式没有脱离任务的“永远最好”：传公文、运大批粮食、把瓷器送到港口和运煤需要不同系统。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST",
+        "UNESCO-GRAND-CANAL",
+        "UNESCO-SONG-YUAN-QUANZHOU",
+        "YANTIAN-TANGXU-RAILWAY-1881"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "道路、驿站、关隘、桥梁、河道、码头、船舶、铁路和车站共同构成网络，不能把一张船或一台机车当作完整交通系统。",
+      "sourceIds": [
+        "UNESCO-CHANGAN-TIANSHAN",
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "“地图上更短”不自动等于历史上更快；山地、河流、水位、季风、道路状态、交通工具和制度许可都会影响选择。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL",
+        "UNESCO-SILK-ROADS-ABOUT"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "本章中国时间线依次标出汉代悬泉置与玉门关、7世纪隋代大运河统一系统、10—14世纪宋元泉州、1405—1433年郑和航行、1881年唐胥铁路和1909年京张铁路。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST",
+        "UNESCO-GRAND-CANAL",
+        "UNESCO-SONG-YUAN-QUANZHOU",
+        "SAAC-ZHENGHE-STELE",
+        "YANTIAN-TANGXU-RAILWAY-1881",
+        "GZCPPCC-EARLY-CHINA-RAILWAY"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "一条路线可以分成多段：陆路到河港、船运到海港、再换海船，换装节点本身就是历史证据。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU",
+        "UNESCO-SILK-ROADS-ABOUT"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "交通设施也有使用范围；汉代驿站主要服务官方接待、公文和邮书，不是所有普通旅客都能免费使用的公共旅馆。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST"
+      ]
+    },
+    {
+      "number": 7,
+      "text": "悬泉置位于汉代河西走廊东西交通线上，是官方驿站遗址。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST",
+        "GANSU-XUANQUAN-SLIPS"
+      ]
+    },
+    {
+      "number": 8,
+      "text": "它的主要工作包括接待经过的官方人员，以及传递政令文书和邮书。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST"
+      ]
+    },
+    {
+      "number": 9,
+      "text": "出土简牍记录人员、马匹、车辆、粮食、住宿、文书交接和纠纷处理，让交通史留下日常档案。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST",
+        "GANSU-XUANQUAN-SLIPS"
+      ]
+    },
+    {
+      "number": 10,
+      "text": "驿站要有管理人员、驿卒、厨役、饲养人员、马匹、车辆、仓储和住处，不能只画一匹飞奔的马。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST"
+      ]
+    },
+    {
+      "number": 11,
+      "text": "国民委页面转述考古研究称，悬泉置主体坞院约50米见方，西南侧还有约30米见方的马厩区。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST"
+      ]
+    },
+    {
+      "number": 12,
+      "text": "页面还记录驿站约有10辆传车和40匹传马；这是该遗址一定阶段的配置，不代表汉代每座驿站都完全相同。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST"
+      ]
+    },
+    {
+      "number": 13,
+      "text": "悬泉置有不同等级的传舍，反映接待受身份和制度区分，并不是人人获得相同服务。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST"
+      ]
+    },
+    {
+      "number": 14,
+      "text": "文书传递记录会写方向、种类、数量、发文单位、收文机构、时间、经手人和封缄状态等项目。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST"
+      ]
+    },
+    {
+      "number": 15,
+      "text": "本章照片中的悬泉置封检，是用于封缄和标记文书或物品的木质实物，不是信件正文。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST",
+        "GANSU-XUANQUAN-SLIPS"
+      ]
+    },
+    {
+      "number": 16,
+      "text": "封检能帮助证明管理与传递制度，却不能由一件器物猜出未记录的收件人、内容和完整路线。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST",
+        "GANSU-XUANQUAN-SLIPS"
+      ]
+    },
+    {
+      "number": 17,
+      "text": "玉门关是长安—天山交通网络中的关隘节点之一，不是整条丝绸之路。",
+      "sourceIds": [
+        "UNESCO-CHANGAN-TIANSHAN"
+      ]
+    },
+    {
+      "number": 18,
+      "text": "本章玉门关照片拍于2011年，画面是经过两千多年变化与保护的遗址现状，不是汉代建筑原貌。",
+      "sourceIds": [
+        "UNESCO-CHANGAN-TIANSHAN"
+      ]
+    },
+    {
+      "number": 19,
+      "text": "把悬泉置、关隘、道路、绿洲和其他驿站连起来，才比“长安到西域一条直线”更接近真实网络。",
+      "sourceIds": [
+        "UNESCO-CHANGAN-TIANSHAN"
+      ]
+    },
+    {
+      "number": 20,
+      "text": "罗马阿庇亚大道从公元前312年开始建设，最初服务军事扩张与控制，后来也连接城市、聚落、农业和贸易。",
+      "sourceIds": [
+        "UNESCO-VIA-APPIA"
+      ]
+    },
+    {
+      "number": 21,
+      "text": "阿庇亚大道遗产包含总长超过800千米的道路系统及桥梁、里程碑和驿站等工程，不是一条在各处都完全相同的石板路。",
+      "sourceIds": [
+        "UNESCO-VIA-APPIA"
+      ]
+    },
+    {
+      "number": 22,
+      "text": "汉代驿路与罗马道路都显示国家组织交通节点的重要性，但用途、管理、地域和使用者不同；本章只比较系统构成，不证明中罗两路直接相连。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST",
+        "UNESCO-VIA-APPIA"
+      ]
+    },
+    {
+      "number": 23,
+      "text": "中国大运河不是隋代从空白地面一次挖出的单一河道；部分河段从公元前5世纪起已经陆续建设。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 24,
+      "text": "7世纪隋代第一次把不同河段构想和组织成统一的帝国内部交通系统。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 25,
+      "text": "因此准确表述是“新建、疏浚和连接既有与新河段”，不是“某位皇帝一个人挖完今天整条运河”。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL",
+        "NMC-SUI-TANG-FIVE-DYNASTIES"
+      ]
+    },
+    {
+      "number": 26,
+      "text": "大运河系统位于中国东北部和中东部平原，连接北方北京一带与南方浙江地区。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 27,
+      "text": "隋以后多个王朝继续完成、维护、改造并调整河道，交通系统会随都城、河流和治理需要变化。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 28,
+      "text": "到13世纪元代，大运河人工水道网络超过2000千米，连接包括黄河、长江在内的五个主要流域。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 29,
+      "text": "“超过2000千米”是13世纪网络的总体量级，不表示每艘船都从头到尾航行全部河段。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 30,
+      "text": "大运河长期运输粮食和重要原料，也服务国家行政、人口供给与军队需要。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 31,
+      "text": "漕运制度包含粮食运输、储存、税收和交通管理，不是一艘粮船单独完成的工作。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 32,
+      "text": "水运能承担成规模的粮食运输，但本章没有同口径船载量和陆运成本数据，不给出虚构的“多几倍、便宜几倍”。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 33,
+      "text": "河道需要与天然河流、湖泊、水位和水工设施共同运行，路线可用性不是在地图上画蓝线就自动成立。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 34,
+      "text": "堤坝、堰、桥梁和河岸工程显示交通还需要水利知识、材料、维护与管理。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 35,
+      "text": "大规模工程和隋代战争、徭役、赋税等给社会造成负担，但隋亡是多种矛盾共同作用，不能只归因于一条运河。",
+      "sourceIds": [
+        "NMC-SUI-TANG-FIVE-DYNASTIES"
+      ]
+    },
+    {
+      "number": 36,
+      "text": "今天仍使用或保存的河段经历长期改造，不应把现代河岸、船闸和城市景观全部叫作隋代原貌。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 37,
+      "text": "本章2022年遗址照片的主体是河南睢县现代保护标志，不是隋代石碑、开河现场或完整古河道。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 38,
+      "text": "世界遗产由多段河道和相关设施组成，遗产点照片只代表一个位置，不能替代整条历史网络。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 39,
+      "text": "路线任务若要在13世纪把大批粮食从南方向北方运输，可以选择大运河网络；具体河段、时长和水位未知时必须保留空白。",
+      "sourceIds": [
+        "UNESCO-GRAND-CANAL"
+      ]
+    },
+    {
+      "number": 40,
+      "text": "10—14世纪，泉州是中国宋元时期连接东亚、东南亚海洋贸易的重要港口城市。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 41,
+      "text": "城市位于河流与海洋交会处，东南方向接海，西北山地提供部分生产资源。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 42,
+      "text": "水陆交通网把山地生产区、城市、河流与海港连接起来，港口并不是孤零零的一座码头。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 43,
+      "text": "泉州遗产系统同时包含行政设施、宗教建筑、陶瓷与冶铁生产遗址、桥梁、码头和导航塔等组成部分。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 44,
+      "text": "桥梁帮助跨越河流，码头完成装卸，导航塔帮助航行者识别方向；不同设施承担不同工作。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 45,
+      "text": "洛阳桥是泉州交通网络中的一处遗产组成部分，不能单独代表全部海港系统。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 46,
+      "text": "本章洛阳桥照片拍于2020年，展示的是经过长期使用、维修和保护的现状，不是北宋建成时的照片。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 47,
+      "text": "从照片可观察桥面、桥墩、水域和今天环境，却不能直接数出宋元某天经过的商人和货物。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 48,
+      "text": "山地或内陆生产的陶瓷等物品，需要先经陆路、桥梁或河运到达城市与港区，再装上海船。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 49,
+      "text": "这种多段运输说明“产地”和“出口港”不必是同一个地点，“港口发现”也不等于“港口制造”。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 50,
+      "text": "港口运行还需要船员、搬运者、商人、翻译、管理人员、工匠、仓储和市场等共同参与。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 51,
+      "text": "泉州已有自己的居民、生产和社会生活，不能把它写成专门等外国船来访的空白码头。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 52,
+      "text": "一件中国瓷器在远方出土能说明物品移动，但不能自动证明它从泉州出发、由中国船直送或只换手一次。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU",
+        "UNESCO-SILK-ROADS-ABOUT"
+      ]
+    },
+    {
+      "number": 53,
+      "text": "港口路线图要把“内陆生产—水陆集运—城市与仓储—码头装卸—海上航行”分段显示，未知段不补成直线。",
+      "sourceIds": [
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 54,
+      "text": "1405—1433年，郑和船队七次航行印度洋，到达东南亚、南亚、阿拉伯海和东非等地区。",
+      "sourceIds": [
+        "SAAC-ZHENGHE-STELE",
+        "SCIO-ZHENGHE-WESTERN-OCEAN"
+      ]
+    },
+    {
+      "number": 55,
+      "text": "航行由明朝国家组织，需要船舶、船员、粮水、航海知识、季风判断和沿线港口补给，不是郑和一个人的冒险。",
+      "sourceIds": [
+        "NMC-MING-QING",
+        "SAAC-ZHENGHE-STELE"
+      ]
+    },
+    {
+      "number": 56,
+      "text": "沿线地区早已有居民、政权、港口和商路，郑和船队进入并影响既有网络，不是“发现无人知道的地方”。",
+      "sourceIds": [
+        "SCIO-ZHENGHE-WESTERN-OCEAN",
+        "UNESCO-SILK-ROADS-ABOUT"
+      ]
+    },
+    {
+      "number": 57,
+      "text": "1409年的锡兰山三语碑把汉文、泰米尔文和波斯文放在同一块碑上，是船队进入多语言、多信仰海域的实物证据。",
+      "sourceIds": [
+        "SAAC-ZHENGHE-STELE"
+      ]
+    },
+    {
+      "number": 58,
+      "text": "三语碑能证明特定交往和文字安排，却不能用一块碑概括七次远航中的每次协商、贸易与冲突。",
+      "sourceIds": [
+        "SAAC-ZHENGHE-STELE"
+      ]
+    },
+    {
+      "number": 59,
+      "text": "本章复用的路线图是现代作者绘制的郑和第七次航海示意，主要对应1431—1433年。",
+      "sourceIds": [
+        "SAAC-ZHENGHE-STELE"
+      ]
+    },
+    {
+      "number": 60,
+      "text": "这张图不是明代原图，也不是把七次航行全部叠在一起的完整路线图。",
+      "sourceIds": [
+        "SAAC-ZHENGHE-STELE"
+      ]
+    },
+    {
+      "number": 61,
+      "text": "图中的实线、虚线和点线表达不同路线与不确定程度，儿童界面必须保留图例，不能把所有线变成同样确定。",
+      "sourceIds": [
+        "SAAC-ZHENGHE-STELE"
+      ]
+    },
+    {
+      "number": 62,
+      "text": "海图或路线图能帮助定位港口与方向，不能独自给出每天风向、航速、停靠时长和船上每个人的经历。",
+      "sourceIds": [
+        "SAAC-ZHENGHE-STELE"
+      ]
+    },
+    {
+      "number": 63,
+      "text": "郑和远航扩大了明代中国的海上交往，但印度洋贸易早已由多地商人和港口共同运行，不能把1405年写成网络起点。",
+      "sourceIds": [
+        "UNESCO-SILK-ROADS-ABOUT",
+        "SCIO-ZHENGHE-WESTERN-OCEAN"
+      ]
+    },
+    {
+      "number": 64,
+      "text": "英国斯托克顿—达灵顿铁路于1825年9月27日开通，早期以煤炭货运为核心，也运输旅客。",
+      "sourceIds": [
+        "NRM-STOCKTON-DARLINGTON"
+      ]
+    },
+    {
+      "number": 65,
+      "text": "这条铁路说明近代铁路从机车扩展成矿区、轨道、车辆、车站和市场网络；一台机车不是全部铁路。",
+      "sourceIds": [
+        "NRM-STOCKTON-DARLINGTON"
+      ]
+    },
+    {
+      "number": 66,
+      "text": "1881年，晚清中国修建唐山至胥各庄的唐胥铁路，长度约9.7千米。",
+      "sourceIds": [
+        "YANTIAN-TANGXU-RAILWAY-1881",
+        "HEBEI-TANGXU-RAILWAY-HERITAGE"
+      ]
+    },
+    {
+      "number": 67,
+      "text": "它首先服务开平煤矿运输，说明早期铁路建设与具体矿业和运煤难题相连。",
+      "sourceIds": [
+        "YANTIAN-TANGXU-RAILWAY-1881",
+        "HEBEI-TANGXU-RAILWAY-HERITAGE"
+      ]
+    },
+    {
+      "number": 68,
+      "text": "9.7千米是一条短线，不等于1881年中国已经拥有覆盖全国的铁路网。",
+      "sourceIds": [
+        "YANTIAN-TANGXU-RAILWAY-1881"
+      ]
+    },
+    {
+      "number": 69,
+      "text": "铁路要持续运行，还要连接矿井、轨道、车辆、装卸点、维修、人员和后续水陆运输。",
+      "sourceIds": [
+        "HEBEI-TANGXU-RAILWAY-HERITAGE",
+        "NMC-LATE-QING-RAILWAY"
+      ]
+    },
+    {
+      "number": 70,
+      "text": "本章早期机车照片来自1882年公司记录，只能说明当时已有蒸汽铁路实践，不是1881年铺下第一根钢轨的现场照片。",
+      "sourceIds": [
+        "GZCPPCC-EARLY-CHINA-RAILWAY"
+      ]
+    },
+    {
+      "number": 71,
+      "text": "公开资料对唐胥铁路早期机车的中文名称、设计制造细节和若干“第一”称号存在不同写法，本章不强行给唯一答案。",
+      "sourceIds": [
+        "YANTIAN-TANGXU-RAILWAY-1881",
+        "HEBEI-TANGXU-RAILWAY-HERITAGE",
+        "GZCPPCC-EARLY-CHINA-RAILWAY"
+      ]
+    },
+    {
+      "number": 72,
+      "text": "1909年京张铁路通车，是中国工程师主持铁路建设和山地线路实践的重要节点。",
+      "sourceIds": [
+        "GZCPPCC-EARLY-CHINA-RAILWAY"
+      ]
+    },
+    {
+      "number": 73,
+      "text": "1909年青龙桥车站历史照片能显示车站、铁轨、山地环境和当时工作人员，却不能证明全国铁路已经密集。",
+      "sourceIds": [
+        "GZCPPCC-EARLY-CHINA-RAILWAY"
+      ]
+    },
+    {
+      "number": 74,
+      "text": "近代铁路改变了部分运输速度和运量，也牵涉资金、管理、矿业、外国技术与铁路权益等问题，不能只写成“机器让一切自动进步”。",
+      "sourceIds": [
+        "NMC-LATE-QING-RAILWAY",
+        "YANTIAN-TANGXU-RAILWAY-1881",
+        "GZCPPCC-EARLY-CHINA-RAILWAY"
+      ]
+    },
+    {
+      "number": 75,
+      "text": "1825年英国煤运铁路与1881年中国唐胥铁路可以比较任务和系统形成，不能用56年时间差给儿童做国家聪明程度排名。",
+      "sourceIds": [
+        "NRM-STOCKTON-DARLINGTON",
+        "YANTIAN-TANGXU-RAILWAY-1881"
+      ]
+    },
+    {
+      "number": 76,
+      "text": "一项任务可以换乘多种交通方式，换装、补给、检查和交接也是路线的一部分。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST",
+        "UNESCO-SONG-YUAN-QUANZHOU"
+      ]
+    },
+    {
+      "number": 77,
+      "text": "交通扩大联系，也会受到国家控制、身份限制、劳役负担、自然条件和战争等影响；“修路”不会自动让所有人同等受益。",
+      "sourceIds": [
+        "NEAC-XUANQUAN-POST",
+        "NMC-SUI-TANG-FIVE-DYNASTIES",
+        "NMC-LATE-QING-RAILWAY"
+      ]
+    }
+  ],
+  "methodNotes": [
     {
       "number": 1,
       "text": "教育部《义务教育历史课程标准（2022年版）》把“历史上水陆交通的发展”列为跨学科主题学习参考示例。",
@@ -644,635 +1227,63 @@
     },
     {
       "number": 3,
-      "text": "交通方式没有脱离任务的“永远最好”：传公文、运大批粮食、把瓷器送到港口和运煤需要不同系统。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST",
-        "UNESCO-GRAND-CANAL",
-        "UNESCO-SONG-YUAN-QUANZHOU",
-        "YANTIAN-TANGXU-RAILWAY-1881"
-      ]
-    },
-    {
-      "number": 4,
-      "text": "每张任务卡至少填写“年代、使用者或组织者、货物或消息、起点、终点、必须经过的节点”六项。",
+      "text": "本项目给成人准备的任务卡记录年代、使用者或组织者、货物或消息、起点、终点与节点；孩子每次只指认一种需要或两个地点，不承担独立填写。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 5,
-      "text": "道路、驿站、关隘、桥梁、河道、码头、船舶、铁路和车站共同构成网络，不能把一张船或一台机车当作完整交通系统。",
-      "sourceIds": [
-        "UNESCO-CHANGAN-TIANSHAN",
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 6,
-      "text": "“地图上更短”不自动等于历史上更快；山地、河流、水位、季风、道路状态、交通工具和制度许可都会影响选择。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL",
-        "UNESCO-SILK-ROADS-ABOUT"
-      ]
-    },
-    {
-      "number": 7,
+      "number": 4,
       "text": "本章没有同一口径的全程速度、费用和天气数据，因此不计算精确抵达时间和票价。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 8,
-      "text": "本章中国时间线依次标出汉代悬泉置与玉门关、7世纪隋代大运河统一系统、10—14世纪宋元泉州、1405—1433年郑和航行、1881年唐胥铁路和1909年京张铁路。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST",
-        "UNESCO-GRAND-CANAL",
-        "UNESCO-SONG-YUAN-QUANZHOU",
-        "SAAC-ZHENGHE-STELE",
-        "YANTIAN-TANGXU-RAILWAY-1881",
-        "GZCPPCC-EARLY-CHINA-RAILWAY"
-      ]
-    },
-    {
-      "number": 9,
+      "number": 5,
       "text": "今天地图上的省界、国界和公路不能直接当成古代路线底图；界面另绘时代化示意并注明来源。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 10,
-      "text": "一条路线可以分成多段：陆路到河港、船运到海港、再换海船，换装节点本身就是历史证据。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU",
-        "UNESCO-SILK-ROADS-ABOUT"
-      ]
-    },
-    {
-      "number": 11,
-      "text": "交通设施也有使用范围；汉代驿站主要服务官方接待、公文和邮书，不是所有普通旅客都能免费使用的公共旅馆。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST"
-      ]
-    },
-    {
-      "number": 12,
+      "number": 6,
       "text": "本章四个路线任务都明确标作“依据史料设计的学习模拟”，不是声称历史上确有某个同名人物完成了这趟行程。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 13,
-      "text": "悬泉置位于汉代河西走廊东西交通线上，是官方驿站遗址。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST",
-        "GANSU-XUANQUAN-SLIPS"
-      ]
-    },
-    {
-      "number": 14,
-      "text": "它的主要工作包括接待经过的官方人员，以及传递政令文书和邮书。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST"
-      ]
-    },
-    {
-      "number": 15,
-      "text": "出土简牍记录人员、马匹、车辆、粮食、住宿、文书交接和纠纷处理，让交通史留下日常档案。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST",
-        "GANSU-XUANQUAN-SLIPS"
-      ]
-    },
-    {
-      "number": 16,
-      "text": "驿站要有管理人员、驿卒、厨役、饲养人员、马匹、车辆、仓储和住处，不能只画一匹飞奔的马。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST"
-      ]
-    },
-    {
-      "number": 17,
-      "text": "国民委页面转述考古研究称，悬泉置主体坞院约50米见方，西南侧还有约30米见方的马厩区。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST"
-      ]
-    },
-    {
-      "number": 18,
-      "text": "页面还记录驿站约有10辆传车和40匹传马；这是该遗址一定阶段的配置，不代表汉代每座驿站都完全相同。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST"
-      ]
-    },
-    {
-      "number": 19,
-      "text": "悬泉置有不同等级的传舍，反映接待受身份和制度区分，并不是人人获得相同服务。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST"
-      ]
-    },
-    {
-      "number": 20,
-      "text": "文书传递记录会写方向、种类、数量、发文单位、收文机构、时间、经手人和封缄状态等项目。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST"
-      ]
-    },
-    {
-      "number": 21,
-      "text": "本章照片中的悬泉置封检，是用于封缄和标记文书或物品的木质实物，不是信件正文。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST",
-        "GANSU-XUANQUAN-SLIPS"
-      ]
-    },
-    {
-      "number": 22,
-      "text": "封检能帮助证明管理与传递制度，却不能由一件器物猜出未记录的收件人、内容和完整路线。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST",
-        "GANSU-XUANQUAN-SLIPS"
-      ]
-    },
-    {
-      "number": 23,
-      "text": "玉门关是长安—天山交通网络中的关隘节点之一，不是整条丝绸之路。",
-      "sourceIds": [
-        "UNESCO-CHANGAN-TIANSHAN"
-      ]
-    },
-    {
-      "number": 24,
-      "text": "本章玉门关照片拍于2011年，画面是经过两千多年变化与保护的遗址现状，不是汉代建筑原貌。",
-      "sourceIds": [
-        "UNESCO-CHANGAN-TIANSHAN"
-      ]
-    },
-    {
-      "number": 25,
-      "text": "把悬泉置、关隘、道路、绿洲和其他驿站连起来，才比“长安到西域一条直线”更接近真实网络。",
-      "sourceIds": [
-        "UNESCO-CHANGAN-TIANSHAN"
-      ]
-    },
-    {
-      "number": 26,
-      "text": "罗马阿庇亚大道从公元前312年开始建设，最初服务军事扩张与控制，后来也连接城市、聚落、农业和贸易。",
-      "sourceIds": [
-        "UNESCO-VIA-APPIA"
-      ]
-    },
-    {
-      "number": 27,
-      "text": "阿庇亚大道遗产包含总长超过800千米的道路系统及桥梁、里程碑和驿站等工程，不是一条在各处都完全相同的石板路。",
-      "sourceIds": [
-        "UNESCO-VIA-APPIA"
-      ]
-    },
-    {
-      "number": 28,
-      "text": "汉代驿路与罗马道路都显示国家组织交通节点的重要性，但用途、管理、地域和使用者不同；本章只比较系统构成，不证明中罗两路直接相连。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST",
-        "UNESCO-VIA-APPIA"
-      ]
-    },
-    {
-      "number": 29,
-      "text": "中国大运河不是隋代从空白地面一次挖出的单一河道；部分河段从公元前5世纪起已经陆续建设。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 30,
-      "text": "7世纪隋代第一次把不同河段构想和组织成统一的帝国内部交通系统。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 31,
-      "text": "因此准确表述是“新建、疏浚和连接既有与新河段”，不是“某位皇帝一个人挖完今天整条运河”。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL",
-        "NMC-SUI-TANG-FIVE-DYNASTIES"
-      ]
-    },
-    {
-      "number": 32,
-      "text": "大运河系统位于中国东北部和中东部平原，连接北方北京一带与南方浙江地区。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 33,
-      "text": "隋以后多个王朝继续完成、维护、改造并调整河道，交通系统会随都城、河流和治理需要变化。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 34,
-      "text": "到13世纪元代，大运河人工水道网络超过2000千米，连接包括黄河、长江在内的五个主要流域。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 35,
-      "text": "“超过2000千米”是13世纪网络的总体量级，不表示每艘船都从头到尾航行全部河段。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 36,
-      "text": "大运河长期运输粮食和重要原料，也服务国家行政、人口供给与军队需要。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 37,
-      "text": "漕运制度包含粮食运输、储存、税收和交通管理，不是一艘粮船单独完成的工作。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 38,
-      "text": "水运能承担成规模的粮食运输，但本章没有同口径船载量和陆运成本数据，不给出虚构的“多几倍、便宜几倍”。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 39,
-      "text": "河道需要与天然河流、湖泊、水位和水工设施共同运行，路线可用性不是在地图上画蓝线就自动成立。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 40,
-      "text": "堤坝、堰、桥梁和河岸工程显示交通还需要水利知识、材料、维护与管理。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 41,
-      "text": "大规模工程和隋代战争、徭役、赋税等给社会造成负担，但隋亡是多种矛盾共同作用，不能只归因于一条运河。",
-      "sourceIds": [
-        "NMC-SUI-TANG-FIVE-DYNASTIES"
-      ]
-    },
-    {
-      "number": 42,
-      "text": "今天仍使用或保存的河段经历长期改造，不应把现代河岸、船闸和城市景观全部叫作隋代原貌。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 43,
-      "text": "本章2022年遗址照片的主体是河南睢县现代保护标志，不是隋代石碑、开河现场或完整古河道。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 44,
-      "text": "世界遗产由多段河道和相关设施组成，遗产点照片只代表一个位置，不能替代整条历史网络。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 45,
-      "text": "路线任务若要在13世纪把大批粮食从南方向北方运输，可以选择大运河网络；具体河段、时长和水位未知时必须保留空白。",
-      "sourceIds": [
-        "UNESCO-GRAND-CANAL"
-      ]
-    },
-    {
-      "number": 46,
-      "text": "10—14世纪，泉州是中国宋元时期连接东亚、东南亚海洋贸易的重要港口城市。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 47,
-      "text": "城市位于河流与海洋交会处，东南方向接海，西北山地提供部分生产资源。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 48,
-      "text": "水陆交通网把山地生产区、城市、河流与海港连接起来，港口并不是孤零零的一座码头。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 49,
-      "text": "泉州遗产系统同时包含行政设施、宗教建筑、陶瓷与冶铁生产遗址、桥梁、码头和导航塔等组成部分。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 50,
-      "text": "桥梁帮助跨越河流，码头完成装卸，导航塔帮助航行者识别方向；不同设施承担不同工作。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 51,
-      "text": "洛阳桥是泉州交通网络中的一处遗产组成部分，不能单独代表全部海港系统。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 52,
-      "text": "本章洛阳桥照片拍于2020年，展示的是经过长期使用、维修和保护的现状，不是北宋建成时的照片。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 53,
-      "text": "从照片可观察桥面、桥墩、水域和今天环境，却不能直接数出宋元某天经过的商人和货物。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 54,
-      "text": "山地或内陆生产的陶瓷等物品，需要先经陆路、桥梁或河运到达城市与港区，再装上海船。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 55,
-      "text": "这种多段运输说明“产地”和“出口港”不必是同一个地点，“港口发现”也不等于“港口制造”。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 56,
-      "text": "港口运行还需要船员、搬运者、商人、翻译、管理人员、工匠、仓储和市场等共同参与。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 57,
-      "text": "泉州已有自己的居民、生产和社会生活，不能把它写成专门等外国船来访的空白码头。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 58,
-      "text": "一件中国瓷器在远方出土能说明物品移动，但不能自动证明它从泉州出发、由中国船直送或只换手一次。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU",
-        "UNESCO-SILK-ROADS-ABOUT"
-      ]
-    },
-    {
-      "number": 59,
-      "text": "港口路线图要把“内陆生产—水陆集运—城市与仓储—码头装卸—海上航行”分段显示，未知段不补成直线。",
-      "sourceIds": [
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 60,
-      "text": "1405—1433年，郑和船队七次航行印度洋，到达东南亚、南亚、阿拉伯海和东非等地区。",
-      "sourceIds": [
-        "SAAC-ZHENGHE-STELE",
-        "SCIO-ZHENGHE-WESTERN-OCEAN"
-      ]
-    },
-    {
-      "number": 61,
-      "text": "航行由明朝国家组织，需要船舶、船员、粮水、航海知识、季风判断和沿线港口补给，不是郑和一个人的冒险。",
-      "sourceIds": [
-        "NMC-MING-QING",
-        "SAAC-ZHENGHE-STELE"
-      ]
-    },
-    {
-      "number": 62,
-      "text": "沿线地区早已有居民、政权、港口和商路，郑和船队进入并影响既有网络，不是“发现无人知道的地方”。",
-      "sourceIds": [
-        "SCIO-ZHENGHE-WESTERN-OCEAN",
-        "UNESCO-SILK-ROADS-ABOUT"
-      ]
-    },
-    {
-      "number": 63,
-      "text": "1409年的锡兰山三语碑把汉文、泰米尔文和波斯文放在同一块碑上，是船队进入多语言、多信仰海域的实物证据。",
-      "sourceIds": [
-        "SAAC-ZHENGHE-STELE"
-      ]
-    },
-    {
-      "number": 64,
-      "text": "三语碑能证明特定交往和文字安排，却不能用一块碑概括七次远航中的每次协商、贸易与冲突。",
-      "sourceIds": [
-        "SAAC-ZHENGHE-STELE"
-      ]
-    },
-    {
-      "number": 65,
-      "text": "本章复用的路线图是现代作者绘制的郑和第七次航海示意，主要对应1431—1433年。",
-      "sourceIds": [
-        "SAAC-ZHENGHE-STELE"
-      ]
-    },
-    {
-      "number": 66,
-      "text": "这张图不是明代原图，也不是把七次航行全部叠在一起的完整路线图。",
-      "sourceIds": [
-        "SAAC-ZHENGHE-STELE"
-      ]
-    },
-    {
-      "number": 67,
-      "text": "图中的实线、虚线和点线表达不同路线与不确定程度，儿童界面必须保留图例，不能把所有线变成同样确定。",
-      "sourceIds": [
-        "SAAC-ZHENGHE-STELE"
-      ]
-    },
-    {
-      "number": 68,
-      "text": "海图或路线图能帮助定位港口与方向，不能独自给出每天风向、航速、停靠时长和船上每个人的经历。",
-      "sourceIds": [
-        "SAAC-ZHENGHE-STELE"
-      ]
-    },
-    {
-      "number": 69,
-      "text": "郑和远航扩大了明代中国的海上交往，但印度洋贸易早已由多地商人和港口共同运行，不能把1405年写成网络起点。",
-      "sourceIds": [
-        "UNESCO-SILK-ROADS-ABOUT",
-        "SCIO-ZHENGHE-WESTERN-OCEAN"
-      ]
-    },
-    {
-      "number": 70,
-      "text": "英国斯托克顿—达灵顿铁路于1825年9月27日开通，早期以煤炭货运为核心，也运输旅客。",
-      "sourceIds": [
-        "NRM-STOCKTON-DARLINGTON"
-      ]
-    },
-    {
-      "number": 71,
-      "text": "这条铁路说明近代铁路从机车扩展成矿区、轨道、车辆、车站和市场网络；一台机车不是全部铁路。",
-      "sourceIds": [
-        "NRM-STOCKTON-DARLINGTON"
-      ]
-    },
-    {
-      "number": 72,
-      "text": "1881年，晚清中国修建唐山至胥各庄的唐胥铁路，长度约9.7千米。",
-      "sourceIds": [
-        "YANTIAN-TANGXU-RAILWAY-1881",
-        "HEBEI-TANGXU-RAILWAY-HERITAGE"
-      ]
-    },
-    {
-      "number": 73,
-      "text": "它首先服务开平煤矿运输，说明早期铁路建设与具体矿业和运煤难题相连。",
-      "sourceIds": [
-        "YANTIAN-TANGXU-RAILWAY-1881",
-        "HEBEI-TANGXU-RAILWAY-HERITAGE"
-      ]
-    },
-    {
-      "number": 74,
-      "text": "9.7千米是一条短线，不等于1881年中国已经拥有覆盖全国的铁路网。",
-      "sourceIds": [
-        "YANTIAN-TANGXU-RAILWAY-1881"
-      ]
-    },
-    {
-      "number": 75,
-      "text": "铁路要持续运行，还要连接矿井、轨道、车辆、装卸点、维修、人员和后续水陆运输。",
-      "sourceIds": [
-        "HEBEI-TANGXU-RAILWAY-HERITAGE",
-        "NMC-LATE-QING-RAILWAY"
-      ]
-    },
-    {
-      "number": 76,
-      "text": "本章早期机车照片来自1882年公司记录，只能说明当时已有蒸汽铁路实践，不是1881年铺下第一根钢轨的现场照片。",
-      "sourceIds": [
-        "GZCPPCC-EARLY-CHINA-RAILWAY"
-      ]
-    },
-    {
-      "number": 77,
-      "text": "公开资料对唐胥铁路早期机车的中文名称、设计制造细节和若干“第一”称号存在不同写法，本章不强行给唯一答案。",
-      "sourceIds": [
-        "YANTIAN-TANGXU-RAILWAY-1881",
-        "HEBEI-TANGXU-RAILWAY-HERITAGE",
-        "GZCPPCC-EARLY-CHINA-RAILWAY"
-      ]
-    },
-    {
-      "number": 78,
-      "text": "1909年京张铁路通车，是中国工程师主持铁路建设和山地线路实践的重要节点。",
-      "sourceIds": [
-        "GZCPPCC-EARLY-CHINA-RAILWAY"
-      ]
-    },
-    {
-      "number": 79,
-      "text": "1909年青龙桥车站历史照片能显示车站、铁轨、山地环境和当时工作人员，却不能证明全国铁路已经密集。",
-      "sourceIds": [
-        "GZCPPCC-EARLY-CHINA-RAILWAY"
-      ]
-    },
-    {
-      "number": 80,
-      "text": "近代铁路改变了部分运输速度和运量，也牵涉资金、管理、矿业、外国技术与铁路权益等问题，不能只写成“机器让一切自动进步”。",
-      "sourceIds": [
-        "NMC-LATE-QING-RAILWAY",
-        "YANTIAN-TANGXU-RAILWAY-1881",
-        "GZCPPCC-EARLY-CHINA-RAILWAY"
-      ]
-    },
-    {
-      "number": 81,
-      "text": "1825年英国煤运铁路与1881年中国唐胥铁路可以比较任务和系统形成，不能用56年时间差给儿童做国家聪明程度排名。",
-      "sourceIds": [
-        "NRM-STOCKTON-DARLINGTON",
-        "YANTIAN-TANGXU-RAILWAY-1881"
-      ]
-    },
-    {
-      "number": 82,
+      "number": 7,
       "text": "路线图上的每一段都要注明“道路、驿站、关隘、运河、桥梁、港口、海路或铁路”，不能只画一根箭头。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 83,
+      "number": 8,
       "text": "每个节点至少链接一条来源；照片、遗址、简牍、碑刻、地图和机构记录承担的证明任务不同。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 84,
+      "number": 9,
       "text": "缺少历史速度、水位、风向、路况、费用或船载量时，字段写“未知”，不生成精确小时数和价格。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 85,
+      "number": 10,
       "text": "“可行路线”不等于“历史上确实有人这样走过”；学习模拟的角色名、任务和连线必须与真实史实分层标注。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 86,
-      "text": "一项任务可以换乘多种交通方式，换装、补给、检查和交接也是路线的一部分。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST",
-        "UNESCO-SONG-YUAN-QUANZHOU"
-      ]
-    },
-    {
-      "number": 87,
-      "text": "交通扩大联系，也会受到国家控制、身份限制、劳役负担、自然条件和战争等影响；“修路”不会自动让所有人同等受益。",
-      "sourceIds": [
-        "NEAC-XUANQUAN-POST",
-        "NMC-SUI-TANG-FIVE-DYNASTIES",
-        "NMC-LATE-QING-RAILWAY"
-      ]
-    },
-    {
-      "number": 88,
-      "text": "孩子最后复述：“我为哪个年代、哪项任务选择了哪些节点；证据支持可行，但没有证明某个人真的这样走过。”",
+      "number": 11,
+      "text": "共玩时请孩子指一指“要把什么送到哪里”；成人补充年代、使用规则和学习模拟的边界，不要求复述固定句式。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
@@ -1584,16 +1595,6 @@
   ],
   "sources": [
     {
-      "id": "MOE-HISTORY-CURRICULUM-2022",
-      "title": "义务教育历史课程标准（2022年版）",
-      "institution": "中华人民共和国教育部",
-      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
-      "type": "curriculum-standard",
-      "authorityLevel": "A",
-      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
-      "imageUse": "reference-only"
-    },
-    {
       "id": "NEAC-XUANQUAN-POST",
       "title": "悬泉置：汉代丝绸之路驿站考古资料",
       "institution": "国家民族事务委员会",
@@ -1752,6 +1753,16 @@
       "authorityLevel": "A-national-museum",
       "factUse": "晚清铁路建设、管理机构分散、路政演变与国家能力背景；避免把早期铁路写成一条线性成功故事",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "MOE-HISTORY-CURRICULUM-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "institution": "中华人民共和国教育部",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "type": "curriculum-standard",
+      "authorityLevel": "A",
+      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1765,7 +1776,7 @@
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "甘肃省博物馆藏悬泉置出土封检，用于封缄和标记文书或物品。",
-      "boundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "照片中两件木质封检及现代展陈背景可见。器物名称、出土地和驿站功能以甘肃官方资料交叉核验；不为封检虚构具体收发人。",
       "childVisibility": "child-ok"
     },
     {
@@ -1778,7 +1789,7 @@
       "license": "CC BY 3.0",
       "clearance": "cleared-open-license",
       "caption": "今天的玉门关遗址和周围戈壁景观。",
-      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "照片拍摄于2011年，是遗址现状，不是汉代建筑原貌；现代护栏、游客和保护工作属于今天。丝路章以交通网络节点使用；长城相册中单独作为汉代关防遗址的对照，明确在秦之后，不表示秦墙演变。",
       "childVisibility": "child-ok"
     },
     {
@@ -1817,7 +1828,7 @@
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "今天泉州洛阳桥的现状照片；该桥是宋元泉州世界遗产组成部分之一。",
-      "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。下载为1920×1280像素等比例图，未作其他修改。",
+      "boundary": "照片拍摄于2020年，展示经过长期使用、维修和保护的遗产现状，不是宋元时期原貌或商旅现场。它用于说明港口城市所依赖的交通设施。",
       "childVisibility": "child-ok"
     },
     {
@@ -1868,5 +1879,6 @@
     "assets": "cleared",
     "audio": "script-ready",
     "review": "pending"
-  }
+  },
+  "contentReadiness": "legacy-draft-not-in-preview"
 }

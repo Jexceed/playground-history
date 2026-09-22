@@ -7,7 +7,45 @@
   "period": {
     "id": "qing",
     "label": "清朝",
-    "years": "1644—1840年前（本内容轨范围）"
+    "years": "1644年入关后—1840年前（本站范围）",
+    "learningContext": {
+      "childIntro": "到承德看会见和办事，再到广州看商船与世界变化。这一站先讲到近代前夜，清朝还有后面的历史。",
+      "chronology": "1636年改国号大清，1644年入关并迁都北京，1912年清帝退位。本站讲到1840年前是选材边界，不是清朝终点。",
+      "covered": "会见与地区联系、广州贸易的存在及限制、同期工业变化。",
+      "scopeBoundary": "边疆治理的不同制度、人口经济与近代危机在完整源稿中；两章不代表清史全貌，也不用一项原因解释后来变局。",
+      "sourceIds": [
+        "NMC-MING-QING",
+        "DPM-QING-NAME-1636",
+        "DPM-QING-ABDICATION",
+        "NMC-QING-ABDICATION-NEWSPAPER"
+      ],
+      "sources": [
+        {
+          "id": "NMC-MING-QING",
+          "title": "“古代中国”基本陈列：明清时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail8.html"
+        },
+        {
+          "id": "DPM-QING-NAME-1636",
+          "title": "皇太极与1636年大清国号",
+          "institution": "故宫博物院",
+          "url": "https://www.dpm.org.cn/lemmas/239616.html"
+        },
+        {
+          "id": "DPM-QING-ABDICATION",
+          "title": "优待条件",
+          "institution": "故宫博物院",
+          "url": "https://www.dpm.org.cn/lemmas/245278.html"
+        },
+        {
+          "id": "NMC-QING-ABDICATION-NEWSPAPER",
+          "title": "清帝退位号外",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/zp/zpml/gmww/202208/t20220805_256891.shtml"
+        }
+      ]
+    }
   },
   "order": 36,
   "title": "繁盛背后为什么出现危机",
@@ -18,16 +56,47 @@
     "childTitle": "广州有商船，世界又发生了什么？",
     "prompt": "旧画里商船来往，码头上有人交涉、查验和搬货。海的另一边，机器也在变化。小伙伴把这两条线索放在一起看。",
     "takeaway": "清代广州仍有海外贸易，但西洋海上贸易受到口岸等限制。同期英国蒸汽动力不断改良，工业变化带来新的世界局势。",
-    "object": "贸易档案、白银流动图与早期蒸汽机",
+    "object": "约1780年广州商馆艺术作品",
     "people": [
       "广州贸易中的劳动者",
       "改良蒸汽机的瓦特等工程师"
     ],
-    "place": "广州口岸、中国内地与英国工业城市",
-    "culture": "中外知识译述",
+    "place": "清代广州；同期英国机器变化另作一条线索",
+    "culture": "历史商馆绘画与蒸汽机技术图",
     "care": "约1780广州商馆画与1822刊瓦特1782技术说明图不是同年同地。1757后的口岸限制针对西洋海上贸易，不等于所有外国人或全部清代贸易只准广州。十三行不是始终十三家。瓦特改良而非发明第一台蒸汽机；学具省略气门等，不复原瓦特整机；不以单一原因解释后来危机，本章截至近代前夜不表示清朝止于1840。",
     "preferredAssetId": "qing-canton-trade-v1",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-08-05-late-crisis",
+    "theme": "交通和交往",
+    "learningGoal": "清代海外贸易仍在而受限制，世界工业变化提供另一条线索。",
+    "parentQuestion": "有商船是不是就没有贸易限制？机器变化又发生在哪条线索里？",
+    "observe": "把广州查验与英国蒸汽动力分开叙述，认识同时发生不等于同地发生。",
+    "misconception": "广州口岸限制不等于断绝全部海外贸易；瓦特是改良者，清朝不止于1840。",
+    "evidenceStepIds": [
+      "time",
+      "change"
+    ],
+    "sourceIds": [
+      "DPM-HANG-MERCHANT",
+      "GD-CANTON-TRADE-SCOPE",
+      "SCIENCE-MUSEUM-ENERGY-HALL",
+      "SCIENCE-MUSEUM-WATT-IMPROVEMENT",
+      "NMC-MING-QING"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-07-02-song-economy-cities",
+        "relation": "比较宋代水陆城市与清代对外贸易，再看同主题中的时代差异。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "贸易",
+      "活塞",
+      "工业"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-08-05-late-crisis",
@@ -99,17 +168,17 @@
   ],
   "glossary": [
     {
-      "term": "档案",
-      "icon": "🗂️",
-      "plain": "被保存下来的文件、照片、录音等记录。",
-      "example": "一份档案记录一个角度，要和别的证据一起看。",
-      "priority": 1
-    },
-    {
       "term": "贸易",
       "icon": "🚚",
       "plain": "不同人或地方交换、买卖物品和服务。",
       "example": "远方货物常经过许多人接力，不一定一人走完全程。",
+      "priority": 1
+    },
+    {
+      "term": "活塞",
+      "icon": "↔️",
+      "plain": "机器里能在筒状部件内来回移动的零件。",
+      "example": "学习模型让我们看它通过连杆带动轮子，不是完整蒸汽机。",
       "priority": 1
     },
     {
@@ -118,97 +187,6 @@
       "plain": "用机器、工厂和分工大规模生产东西。",
       "example": "工业发展也要看劳动、安全、资源和环境。",
       "priority": 2
-    },
-    {
-      "term": "技术",
-      "icon": "⚙️",
-      "plain": "人们解决具体问题时积累的工具和做法。",
-      "example": "技术常由许多人长期改进，不是某天突然出现。",
-      "priority": 2
-    },
-    {
-      "term": "危机",
-      "icon": "⚠️",
-      "plain": "问题迅速变严重，原来的办法难以应付。",
-      "example": "危机通常有多种原因，也会影响不同的人。",
-      "priority": 2
-    },
-    {
-      "term": "工业化",
-      "icon": "🏭",
-      "plain": "机器生产和工厂在社会中越来越重要的过程。",
-      "example": "工业化不是只多几座工厂，还会改变城市与生活。",
-      "priority": 1
-    },
-    {
-      "term": "革命",
-      "icon": "🔄",
-      "plain": "许多人推动改变旧政权或旧制度的大变化。",
-      "example": "革命不是只看一场战斗，还要看原因、参与者和结果。",
-      "priority": 1
-    },
-    {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
-      "priority": 1
-    },
-    {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
-      "priority": 1
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "社会",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "许多人一起生活、分工并形成关系的整体。",
-      "example": "社会变化要看不同人受到的影响。",
-      "priority": 2
-    },
-    {
-      "term": "市场",
-      "icon": "🧺",
-      "plain": "人们交换商品和服务的地方或关系。",
-      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
-      "priority": 2
-    },
-    {
-      "term": "外交",
-      "icon": "🤝",
-      "plain": "国家之间交往、谈判和处理共同事情。",
-      "example": "外交不只是一位领导人见面，还有许多人长期工作。",
-      "priority": 2
-    },
-    {
-      "term": "文化",
-      "icon": "🎨",
-      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
-      "example": "文化会交流变化，不能排成谁高谁低。",
-      "priority": 2
-    },
-    {
-      "term": "政府",
-      "icon": "🏢",
-      "plain": "在一定时期管理国家公共事情的机构。",
-      "example": "政府会制定和执行规则，但不同年代的政府并不一样。",
-      "priority": 2
-    },
-    {
-      "term": "生产",
-      "icon": "🛠️",
-      "plain": "把材料和劳动变成食物、工具或其他产品。",
-      "example": "生产离不开人、工具、材料和组织。",
-      "priority": 3
     }
   ],
   "pronunciations": [
@@ -234,6 +212,15 @@
         "cross-01-hero-biography"
       ],
       "note": "广东省会地名。"
+    },
+    {
+      "text": "活塞",
+      "reading": "huósāi",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-08-05-late-crisis"
+      ],
+      "note": "“塞”在机械名称中读sāi，不读塞外的sài。 本轮仅补校听项，仍需人耳确认。"
     }
   ],
   "gameplay": {
@@ -318,17 +305,16 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "广州有商船，世界又发生了什么？",
         "coverNarration": "旧画里商船来往，码头上有人交涉、查验和搬货。海的另一边，机器也在变化。小伙伴把这两条线索放在一起看。",
-        "stationLine": "到承德看会见和联系，再到广州看海外贸易与正在变化的世界。",
-        "stationNarration": "到承德看会见和联系，再到广州看海外贸易与正在变化的世界。",
         "closingCaption": "带着发现回家",
         "closingNarration": "清代广州仍有海外贸易，但西洋海上贸易受到口岸等限制。同期英国蒸汽动力不断改良，工业变化带来新的世界局势。",
         "closingLine": "看见往来与限制，也看看世界怎样变化。",
         "fictionNote": "约1780广州商馆画与1822刊瓦特1782技术说明图不是同年同地。1757后的口岸限制针对西洋海上贸易，不等于所有外国人或全部清代贸易只准广州。十三行不是始终十三家。瓦特改良而非发明第一台蒸汽机；学具省略气门等，不复原瓦特整机；不以单一原因解释后来危机，本章截至近代前夜不表示清朝止于1840。",
         "reunionFit": "contain",
         "reunionImage": "/content/step-images/qing-friends-reunion-v2.jpg",
+        "stationLine": "到承德看会见和办事，再到广州看商船与世界变化。这一站先讲到近代前夜，清朝还有后面的历史。",
         "stationAudio": {
-          "id": "quest-8beddcdc8489aaa9",
-          "text": "到承德看会见和联系，再到广州看海外贸易与正在变化的世界。"
+          "id": "quest-6bffde08ce55d19b",
+          "text": "到承德看会见和办事，再到广州看商船与世界变化。这一站先讲到近代前夜，清朝还有后面的历史。"
         },
         "closingAudio": {
           "id": "quest-b7d9a4f73c3f903a",
@@ -1085,6 +1071,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1378,6 +1365,36 @@
       "authorityLevel": "A",
       "factUse": "1769分离冷凝器专利与蒸汽机效率改良；瓦特并非第一台蒸汽机的发明者",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "DPM-QING-NAME-1636",
+      "title": "皇太极与1636年大清国号",
+      "institution": "故宫博物院",
+      "url": "https://www.dpm.org.cn/lemmas/239616.html",
+      "type": "museum-dynastic-chronology",
+      "authorityLevel": "A",
+      "factUse": "1636年改国号大清，与1644年入关/迁都北京分别定位；不采用不同历法月份的混写",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "DPM-QING-ABDICATION",
+      "title": "优待条件",
+      "institution": "故宫博物院",
+      "url": "https://www.dpm.org.cn/lemmas/245278.html",
+      "type": "museum-document-history",
+      "authorityLevel": "A",
+      "factUse": "1912年2月12日清帝退位及清室优待条件，区分清王朝终结与社会问题是否解决",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-QING-ABDICATION-NEWSPAPER",
+      "title": "清帝退位号外",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/zp/zpml/gmww/202208/t20220805_256891.shtml",
+      "type": "museum-document-record",
+      "authorityLevel": "A",
+      "factUse": "1912年2月12日退位诏书，次日公报号外刊载；帮助区分清朝终点与本试玩1840年前的选材范围",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1546,5 +1563,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

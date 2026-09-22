@@ -8,120 +8,126 @@
 - 互动：5个
 - 状态：事实研究完成，儿童稿和语音稿初稿
 
+- 本轮适龄复核：2026-09-22仅校准成人记录与儿童观察的分工；编辑长稿仍待重写、校听和真实共玩，不直接作为学前主线。
+
 ## 本章结论
 
-文化交流不能只靠“看起来像外国人”或“颜色很像”来证明。本章先把中国国家博物馆的三彩釉陶载乐骆驼放进中国时间线：它是723年前后的唐代明器，1957年在陕西西安一座唐墓中出土，表现一峰骆驼、五个人物和乐舞场景；它能说明唐代工匠怎样塑造、唐代墓葬怎样表现乐舞和交流，却不是一场真实演出的照片。器物今天只残留一把可辨的琵琶，筚篥和鼓来自夏鼐等学者依据形态与音乐史所作的复原解释；人物的族属也不能只凭脸型确认。随后用两组实物建立双向证据链：一件中国唐代三彩双耳瓶的器形源自古代伊朗金属器传统，说明外来器形进入中国后被中国工匠用本地陶土和彩釉重新制作；一块中国制造、在伊朗尼沙普尔出土的三彩碗残片，证明中国器物确实到达当地。10世纪尼沙普尔泼彩刻划纹碗又显示，当地工匠可能受到唐三彩影响，同时加入本地几何和植物刻划纹。孩子最后把“实物直接证明、博物馆解释、合理推断、仍然未知”分为四层，理解文化交流是多人、多站、多方向的网络，不是一个人沿一条固定道路把完整文化搬到另一地。
+文化交流不能只靠“看起来像外国人”或“颜色很像”来证明。本章先把中国国家博物馆的三彩釉陶载乐骆驼放进中国时间线：它是723年前后的唐代明器，1957年在陕西西安一座唐墓中出土，表现一峰骆驼、五个人物和乐舞场景；它能说明唐代工匠怎样塑造、唐代墓葬怎样表现乐舞和交流，却不是一场真实演出的照片。器物今天只残留一把可辨的琵琶，筚篥和鼓来自夏鼐等学者依据形态与音乐史所作的复原解释；人物的族属也不能只凭脸型确认。随后用两组实物建立双向证据链：一件中国唐代三彩双耳瓶的器形源自古代伊朗金属器传统，说明外来器形进入中国后被中国工匠用本地陶土和彩釉重新制作；一块中国制造、在伊朗尼沙普尔出土的三彩碗残片，证明中国器物确实到达当地。10世纪尼沙普尔泼彩刻划纹碗又显示，当地工匠可能受到唐三彩影响，同时加入本地几何和植物刻划纹。成人把实物记录、机构解释、推断与未知分开整理，孩子先指出一个自己看得见的特征，理解文化交流是多人、多站、多方向的网络，不是一个人沿一条固定道路把完整文化搬到另一地。
 
-## 88条事实卡
-
+## 事实卡
 ### 先把器物放进时间线与路线网
 
-1. 教育部《义务教育历史课程标准（2022年版）》把“文化交流”列为跨学科主题学习参考示例，要求学生从可靠材料中寻找不同地区交往的证据。[MOE-HISTORY-CURRICULUM-2022]
-2. 本章从中国唐代出发，再向西连接中亚和伊朗地区；中国时间线始终是叙事主轴。[MOE-HISTORY-CURRICULUM-2022; UNESCO-CHANGAN-TIANSHAN]
-3. 丝绸之路不是一条笔直、唯一、从起点直达终点的公路，而是相互连接的陆路与海路网络。[UNESCO-SILK-ROADS-ABOUT]
-4. 长安—天山廊道是广阔丝路网络的一段，从汉唐都城长安、洛阳一带连接到中亚七河地区。[UNESCO-CHANGAN-TIANSHAN]
-5. 联合国教科文组织把这段廊道概括为约5000千米，并登记了城市、商贸聚落、道路、关隘、驿站、墓葬和宗教建筑等33处组成部分。[UNESCO-CHANGAN-TIANSHAN]
-6. 这段廊道在公元前2世纪至公元1世纪逐渐形成，并一直使用到16世纪；本章的唐代案例只占其中一段时间。[UNESCO-CHANGAN-TIANSHAN]
-7. 网络中流动的不只有丝绸，还包括其他商品、宗教信仰、科学知识、技术、生活习惯和艺术。[UNESCO-CHANGAN-TIANSHAN; UNESCO-SILK-ROADS-ABOUT]
-8. 长途货物往往由不同商人在不同路段接力运输，不必由同一个人走完整条路线。[UNESCO-CHANGAN-TIANSHAN; UNESCO-SILK-ROADS-ABOUT]
-9. 所以一件器物到达远方，可以证明跨区域移动，却通常不能单独说出每一位运输者和每一个停靠点。[UNESCO-SILK-ROADS-ABOUT]
-10. 本章时间线依次标出：约3—7世纪萨珊伊朗金属器、7世纪晚期中国唐三彩器、723年西安墓葬载乐骆驼、7世纪晚期至8世纪上半叶到达尼沙普尔的中国三彩残片、10世纪尼沙普尔泼彩碗。[MET-SASANIAN-BRONZE-EWER-327346; MET-TANG-SANCAI-AMPHORA-39524; NMC-SANCAI-MUSIC-CAMEL-2026; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479; MET-NISHAPUR-SPLASHWARE-BOWL-449348]
-11. 时间先后能帮助提出“可能受谁影响”的问题，但“更早”本身不能证明两件器物一定直接相遇。[MET-SASANIAN-BRONZE-EWER-327346; MET-TANG-SANCAI-AMPHORA-39524]
-12. 地图上的现代国界用来帮助今天定位，不能直接套到唐代政治疆域和人的身份上。[MOE-HISTORY-CURRICULUM-2022; UNESCO-CHANGAN-TIANSHAN]
-13. 合格的交流路线图要同时写年代、制作地、发现地、证据来源和仍然未知的路段。[MOE-HISTORY-CURRICULUM-2022]
+1. 本章从中国唐代出发，再向西连接中亚和伊朗地区；中国时间线始终是叙事主轴。[MOE-HISTORY-CURRICULUM-2022; UNESCO-CHANGAN-TIANSHAN]
+2. 丝绸之路不是一条笔直、唯一、从起点直达终点的公路，而是相互连接的陆路与海路网络。[UNESCO-SILK-ROADS-ABOUT]
+3. 长安—天山廊道是广阔丝路网络的一段，从汉唐都城长安、洛阳一带连接到中亚七河地区。[UNESCO-CHANGAN-TIANSHAN]
+4. 联合国教科文组织把这段廊道概括为约5000千米，并登记了城市、商贸聚落、道路、关隘、驿站、墓葬和宗教建筑等33处组成部分。[UNESCO-CHANGAN-TIANSHAN]
+5. 这段廊道在公元前2世纪至公元1世纪逐渐形成，并一直使用到16世纪；本章的唐代案例只占其中一段时间。[UNESCO-CHANGAN-TIANSHAN]
+6. 网络中流动的不只有丝绸，还包括其他商品、宗教信仰、科学知识、技术、生活习惯和艺术。[UNESCO-CHANGAN-TIANSHAN; UNESCO-SILK-ROADS-ABOUT]
+7. 长途货物往往由不同商人在不同路段接力运输，不必由同一个人走完整条路线。[UNESCO-CHANGAN-TIANSHAN; UNESCO-SILK-ROADS-ABOUT]
+8. 所以一件器物到达远方，可以证明跨区域移动，却通常不能单独说出每一位运输者和每一个停靠点。[UNESCO-SILK-ROADS-ABOUT]
+9. 本章时间线依次标出：约3—7世纪萨珊伊朗金属器、7世纪晚期中国唐三彩器、723年西安墓葬载乐骆驼、7世纪晚期至8世纪上半叶到达尼沙普尔的中国三彩残片、10世纪尼沙普尔泼彩碗。[MET-SASANIAN-BRONZE-EWER-327346; MET-TANG-SANCAI-AMPHORA-39524; NMC-SANCAI-MUSIC-CAMEL-2026; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479; MET-NISHAPUR-SPLASHWARE-BOWL-449348]
+10. 时间先后能帮助提出“可能受谁影响”的问题，但“更早”本身不能证明两件器物一定直接相遇。[MET-SASANIAN-BRONZE-EWER-327346; MET-TANG-SANCAI-AMPHORA-39524]
+11. 地图上的现代国界用来帮助今天定位，不能直接套到唐代政治疆域和人的身份上。[MOE-HISTORY-CURRICULUM-2022; UNESCO-CHANGAN-TIANSHAN]
 
 ### 第一件主角：西安墓葬中的载乐骆驼
 
-14. 中国国家博物馆把主器物定名为“三彩釉陶载乐骆驼”。[NMC-SANCAI-MUSIC-CAMEL; NMC-SANCAI-MUSIC-CAMEL-2026]
-15. 国博较新的专题页面把它定在唐开元十一年，即723年。[NMC-SANCAI-MUSIC-CAMEL-2026]
-16. 两个国博页面都记录它于1957年在陕西西安墓葬出土，因此“西安、1957年、唐墓出土”可以稳定写入儿童层。[NMC-SANCAI-MUSIC-CAMEL; NMC-SANCAI-MUSIC-CAMEL-2026]
-17. 两个国博页面对墓主人姓名的写法不同：一个写“鲜于庭诲墓”，另一个写“鲜于廉墓”。[NMC-SANCAI-MUSIC-CAMEL; NMC-SANCAI-MUSIC-CAMEL-2026]
-18. 在没有进一步核对正式考古报告前，本章不替来源消除这项差异，儿童主画面只写“陕西西安一座唐墓”。[NMC-SANCAI-MUSIC-CAMEL; NMC-SANCAI-MUSIC-CAMEL-2026]
-19. 国博记录的骆驼头高58.4厘米，首尾长43.4厘米，中间站立人物高25.1厘米。[NMC-SANCAI-MUSIC-CAMEL-2026]
-20. 器物不是按真人和真骆驼的相同比例缩小，工匠为了把五个人物放在驼背平台上调整了比例。[NMC-SANCAI-MUSIC-CAMEL]
-21. 骆驼昂首站立，双峰之间铺有长方形毡毯，人物坐或立在毯上。[NMC-SANCAI-MUSIC-CAMEL-2026; COMMONS-NMC-SANCAI-CAMEL-2025]
-22. 国博专题记录骆驼主要施白、黄、褐色釉，毛发位置用深褐釉表现。[NMC-SANCAI-MUSIC-CAMEL-2026]
-23. 今天照片里的颜色同时受烧造、埋藏、修复、展厅灯光、相机和屏幕影响，不能把屏幕取色值当成723年的精确配方。[COMMONS-NMC-SANCAI-CAMEL-2025]
-24. 这件器物属于随葬明器，不是为孩子准备的玩具，也不是一峰保存至今的真实骆驼。[NMC-CAMEL-SILK-ROAD-STUDY; NMC-SANCAI-MUSIC-CAMEL-2026]
-25. 墓葬陶俑能反映制作者和墓主人所处社会怎样选择、夸张并纪念某种生活图景，不能当作现场摄影。[NMC-CAMEL-SILK-ROAD-STUDY]
-26. 本章开放照片拍摄于2025年10月26日，地点是中国国家博物馆展厅。[COMMONS-NMC-SANCAI-CAMEL-2025]
-27. 这张照片能显示器物今天的整体外观和现代展陈，却不能记录唐代声音、动作顺序和观众反应。[COMMONS-NMC-SANCAI-CAMEL-2025]
-28. 照片作者Windmemories以CC BY-SA 4.0许可发布，使用时要保留署名、许可和相同方式共享要求。[COMMONS-NMC-SANCAI-CAMEL-2025]
-29. “出土地点”与“制作地点”不是同一概念；器物在西安出土，不等于已知具体作坊地址。[NMC-SANCAI-MUSIC-CAMEL-2026]
+12. 中国国家博物馆把主器物定名为“三彩釉陶载乐骆驼”。[NMC-SANCAI-MUSIC-CAMEL; NMC-SANCAI-MUSIC-CAMEL-2026]
+13. 国博较新的专题页面把它定在唐开元十一年，即723年。[NMC-SANCAI-MUSIC-CAMEL-2026]
+14. 两个国博页面都记录它于1957年在陕西西安墓葬出土，因此“西安、1957年、唐墓出土”可以稳定写入儿童层。[NMC-SANCAI-MUSIC-CAMEL; NMC-SANCAI-MUSIC-CAMEL-2026]
+15. 两个国博页面对墓主人姓名的写法不同：一个写“鲜于庭诲墓”，另一个写“鲜于廉墓”。[NMC-SANCAI-MUSIC-CAMEL; NMC-SANCAI-MUSIC-CAMEL-2026]
+16. 在没有进一步核对正式考古报告前，本章不替来源消除这项差异，儿童主画面只写“陕西西安一座唐墓”。[NMC-SANCAI-MUSIC-CAMEL; NMC-SANCAI-MUSIC-CAMEL-2026]
+17. 国博记录的骆驼头高58.4厘米，首尾长43.4厘米，中间站立人物高25.1厘米。[NMC-SANCAI-MUSIC-CAMEL-2026]
+18. 器物不是按真人和真骆驼的相同比例缩小，工匠为了把五个人物放在驼背平台上调整了比例。[NMC-SANCAI-MUSIC-CAMEL]
+19. 骆驼昂首站立，双峰之间铺有长方形毡毯，人物坐或立在毯上。[NMC-SANCAI-MUSIC-CAMEL-2026; COMMONS-NMC-SANCAI-CAMEL-2025]
+20. 国博专题记录骆驼主要施白、黄、褐色釉，毛发位置用深褐釉表现。[NMC-SANCAI-MUSIC-CAMEL-2026]
+21. 今天照片里的颜色同时受烧造、埋藏、修复、展厅灯光、相机和屏幕影响，不能把屏幕取色值当成723年的精确配方。[COMMONS-NMC-SANCAI-CAMEL-2025]
+22. 这件器物属于随葬明器，不是为孩子准备的玩具，也不是一峰保存至今的真实骆驼。[NMC-CAMEL-SILK-ROAD-STUDY; NMC-SANCAI-MUSIC-CAMEL-2026]
+23. 墓葬陶俑能反映制作者和墓主人所处社会怎样选择、夸张并纪念某种生活图景，不能当作现场摄影。[NMC-CAMEL-SILK-ROAD-STUDY]
+24. 本章开放照片拍摄于2025年10月26日，地点是中国国家博物馆展厅。[COMMONS-NMC-SANCAI-CAMEL-2025]
+25. 这张照片能显示器物今天的整体外观和现代展陈，却不能记录唐代声音、动作顺序和观众反应。[COMMONS-NMC-SANCAI-CAMEL-2025]
+26. 照片作者Windmemories以CC BY-SA 4.0许可发布，使用时要保留署名、许可和相同方式共享要求。[COMMONS-NMC-SANCAI-CAMEL-2025]
+27. “出土地点”与“制作地点”不是同一概念；器物在西安出土，不等于已知具体作坊地址。[NMC-SANCAI-MUSIC-CAMEL-2026]
 
 ### 骆驼上的乐队：什么看得见，什么是复原
 
-30. 器物上共有五个人物：中间一人站立，其余四人围坐。[NMC-SANCAI-MUSIC-CAMEL; NMC-SANCAI-MUSIC-CAMEL-2026]
-31. 国博把中间人物解释为舞者，把周围四人解释为乐手。[NMC-SANCAI-MUSIC-CAMEL]
-32. 今天器物上只有一把琵琶保存得足以直接辨认。[NMC-SANCAI-MUSIC-CAMEL]
-33. 筚篥和鼓等其他乐器，是国博页面转述夏鼐研究后给出的复原解释，不是照片中全部清晰保存的器物。[NMC-SANCAI-MUSIC-CAMEL]
-34. 儿童展签应写“学者复原为筚篥和鼓”，不能写成“我们亲眼看见每个人正拿着完整乐器”。[NMC-SANCAI-MUSIC-CAMEL]
-35. 国博页面使用“胡乐”等历史分类解释乐器与表演；本章保留这是博物馆解释，不把一个词当成所有音乐来源相同。[NMC-SANCAI-MUSIC-CAMEL]
-36. 国博还按人物造型把其中人物分作“汉、胡”，但陶俑面貌、发式和服装是工匠塑造的视觉线索，不是现代身份证明。[NMC-SANCAI-MUSIC-CAMEL]
-37. 只凭“高鼻深目”等面部特征不能可靠确定一个人的出生地、语言、家族或自我身份。[MOE-HISTORY-CURRICULUM-2022; NMC-SANCAI-MUSIC-CAMEL]
-38. 因此儿童活动观察“站立或坐下、衣着、姿势、可见乐器”，不设计“看脸猜民族”。[MOE-HISTORY-CURRICULUM-2022]
-39. 大都会艺术博物馆保存一件中国唐代7世纪晚期彩绘陶持箜篌乐伎女俑，高14.9厘米。[MET-TANG-FEMALE-MUSICIAN-KONGHOU-44804]
-40. 这件女俑属于一组乐伎陶俑；馆方记录同组表现拍手、琵琶、铜钹和箜篌。[MET-TANG-FEMALE-MUSICIAN-KONGHOU-44804]
-41. 馆方用这组器物讨论琵琶与日本琵琶的形制、拨片和演奏传统联系，是乐器传播与改变的另一条线索。[MET-TANG-FEMALE-MUSICIAN-KONGHOU-44804]
-42. 陶俑能保存乐器形状和演奏姿势，却没有保存旋律、音高、速度与当时演奏者的真实声音；本章旁白不冒充“唐代原声”。[NMC-SANCAI-MUSIC-CAMEL; MET-TANG-FEMALE-MUSICIAN-KONGHOU-44804]
+28. 器物上共有五个人物：中间一人站立，其余四人围坐。[NMC-SANCAI-MUSIC-CAMEL; NMC-SANCAI-MUSIC-CAMEL-2026]
+29. 国博把中间人物解释为舞者，把周围四人解释为乐手。[NMC-SANCAI-MUSIC-CAMEL]
+30. 今天器物上只有一把琵琶保存得足以直接辨认。[NMC-SANCAI-MUSIC-CAMEL]
+31. 筚篥和鼓等其他乐器，是国博页面转述夏鼐研究后给出的复原解释，不是照片中全部清晰保存的器物。[NMC-SANCAI-MUSIC-CAMEL]
+32. 儿童展签应写“学者复原为筚篥和鼓”，不能写成“我们亲眼看见每个人正拿着完整乐器”。[NMC-SANCAI-MUSIC-CAMEL]
+33. 国博页面使用“胡乐”等历史分类解释乐器与表演；本章保留这是博物馆解释，不把一个词当成所有音乐来源相同。[NMC-SANCAI-MUSIC-CAMEL]
+34. 国博还按人物造型把其中人物分作“汉、胡”，但陶俑面貌、发式和服装是工匠塑造的视觉线索，不是现代身份证明。[NMC-SANCAI-MUSIC-CAMEL]
+35. 只凭“高鼻深目”等面部特征不能可靠确定一个人的出生地、语言、家族或自我身份。[MOE-HISTORY-CURRICULUM-2022; NMC-SANCAI-MUSIC-CAMEL]
+36. 大都会艺术博物馆保存一件中国唐代7世纪晚期彩绘陶持箜篌乐伎女俑，高14.9厘米。[MET-TANG-FEMALE-MUSICIAN-KONGHOU-44804]
+37. 这件女俑属于一组乐伎陶俑；馆方记录同组表现拍手、琵琶、铜钹和箜篌。[MET-TANG-FEMALE-MUSICIAN-KONGHOU-44804]
+38. 馆方用这组器物讨论琵琶与日本琵琶的形制、拨片和演奏传统联系，是乐器传播与改变的另一条线索。[MET-TANG-FEMALE-MUSICIAN-KONGHOU-44804]
+39. 陶俑能保存乐器形状和演奏姿势，却没有保存旋律、音高、速度与当时演奏者的真实声音；本章旁白不冒充“唐代原声”。[NMC-SANCAI-MUSIC-CAMEL; MET-TANG-FEMALE-MUSICIAN-KONGHOU-44804]
 
 ### 材料与器形：外来影响怎样在中国重新制作
 
-43. 大都会艺术博物馆藏一件中国唐代7世纪晚期三彩双耳瓶，高28.3厘米。[MET-TANG-SANCAI-AMPHORA-39524]
-44. 它以陶土制成，表面施绿色、琥珀色和白色三彩釉。[MET-TANG-SANCAI-AMPHORA-39524]
-45. 馆方说明这种鲜艳的含铅低温釉在7世纪晚期至8世纪上半叶的随葬器中广泛使用。[MET-TANG-SANCAI-AMPHORA-39524]
-46. “三彩”并不要求每件器物都有完全相同的三种颜色：载乐骆驼以白、黄、褐为主，双耳瓶呈绿、琥珀和白。[NMC-SANCAI-MUSIC-CAMEL-2026; MET-TANG-SANCAI-AMPHORA-39524]
-47. 比较釉色时，事实栏只记录博物馆给出的材料与今天可见效果，不让孩子猜铅含量或烧成温度的精确数值。[NMC-SANCAI-MUSIC-CAMEL-2026; MET-TANG-SANCAI-AMPHORA-39524]
-48. 大都会博物馆明确解释，这件唐代双耳瓶的器形源自古代伊朗世界的金属器传统。[MET-TANG-SANCAI-AMPHORA-39524]
-49. 这条说明给出的是“器形来源和贸易影响”，不是说照片中的陶瓶本身在伊朗制造。[MET-TANG-SANCAI-AMPHORA-39524]
-50. 中国工匠把金属器传统中的形状转化成陶土和彩釉器物，材料、颜色和制作方法都发生了改变。[MET-TANG-SANCAI-AMPHORA-39524]
-51. “受到影响”不等于“一模一样复制”；选择材料、比例、釉色和用途本身就是再创造。[MET-TANG-SANCAI-AMPHORA-39524]
-52. 大都会博物馆另藏一件约3—7世纪萨珊文化的伊朗青铜执壶，高15.6厘米、宽约12厘米。[MET-SASANIAN-BRONZE-EWER-327346]
-53. 青铜执壶可以帮助孩子观察伊朗金属器的壶身、壶口和把手，但它没有被馆方登记为唐代双耳瓶的那一件直接原型。[MET-SASANIAN-BRONZE-EWER-327346; MET-TANG-SANCAI-AMPHORA-39524]
-54. 两件器物收藏在同一家博物馆，不代表它们古代也在同一房间、同一商队或同一作坊。[MET-SASANIAN-BRONZE-EWER-327346; MET-TANG-SANCAI-AMPHORA-39524]
-55. 要证明一种器形传播，需要年代先后、不同地点的多件器物、制作技术和研究解释共同支持，不能只靠轮廓相似。[MET-TANG-SANCAI-AMPHORA-39524]
-56. 这一组证据说明交流方向之一是“古代伊朗金属器形传统影响中国唐代器物”，不是只有中国器物向外移动。[MET-TANG-SANCAI-AMPHORA-39524]
+40. 大都会艺术博物馆藏一件中国唐代7世纪晚期三彩双耳瓶，高28.3厘米。[MET-TANG-SANCAI-AMPHORA-39524]
+41. 它以陶土制成，表面施绿色、琥珀色和白色三彩釉。[MET-TANG-SANCAI-AMPHORA-39524]
+42. 馆方说明这种鲜艳的含铅低温釉在7世纪晚期至8世纪上半叶的随葬器中广泛使用。[MET-TANG-SANCAI-AMPHORA-39524]
+43. “三彩”并不要求每件器物都有完全相同的三种颜色：载乐骆驼以白、黄、褐为主，双耳瓶呈绿、琥珀和白。[NMC-SANCAI-MUSIC-CAMEL-2026; MET-TANG-SANCAI-AMPHORA-39524]
+44. 比较釉色时，事实栏只记录博物馆给出的材料与今天可见效果，不让孩子猜铅含量或烧成温度的精确数值。[NMC-SANCAI-MUSIC-CAMEL-2026; MET-TANG-SANCAI-AMPHORA-39524]
+45. 大都会博物馆明确解释，这件唐代双耳瓶的器形源自古代伊朗世界的金属器传统。[MET-TANG-SANCAI-AMPHORA-39524]
+46. 这条说明给出的是“器形来源和贸易影响”，不是说照片中的陶瓶本身在伊朗制造。[MET-TANG-SANCAI-AMPHORA-39524]
+47. 中国工匠把金属器传统中的形状转化成陶土和彩釉器物，材料、颜色和制作方法都发生了改变。[MET-TANG-SANCAI-AMPHORA-39524]
+48. “受到影响”不等于“一模一样复制”；选择材料、比例、釉色和用途本身就是再创造。[MET-TANG-SANCAI-AMPHORA-39524]
+49. 大都会博物馆另藏一件约3—7世纪萨珊文化的伊朗青铜执壶，高15.6厘米、宽约12厘米。[MET-SASANIAN-BRONZE-EWER-327346]
+50. 青铜执壶可以帮助孩子观察伊朗金属器的壶身、壶口和把手，但它没有被馆方登记为唐代双耳瓶的那一件直接原型。[MET-SASANIAN-BRONZE-EWER-327346; MET-TANG-SANCAI-AMPHORA-39524]
+51. 两件器物收藏在同一家博物馆，不代表它们古代也在同一房间、同一商队或同一作坊。[MET-SASANIAN-BRONZE-EWER-327346; MET-TANG-SANCAI-AMPHORA-39524]
+52. 要证明一种器形传播，需要年代先后、不同地点的多件器物、制作技术和研究解释共同支持，不能只靠轮廓相似。[MET-TANG-SANCAI-AMPHORA-39524]
+53. 这一组证据说明交流方向之一是“古代伊朗金属器形传统影响中国唐代器物”，不是只有中国器物向外移动。[MET-TANG-SANCAI-AMPHORA-39524]
 
 ### 真正到达远方的实物：尼沙普尔中国三彩残片
 
-57. 大都会艺术博物馆保存一块三彩碗底残片，年代为7世纪晚期至8世纪上半叶。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
-58. 馆方把它的制作地登记为中国，把发现地登记为伊朗尼沙普尔。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
-59. 这是“在中国制造的器物确实到达尼沙普尔”的直接实物证据，比只看两件颜色相似的碗更强。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
-60. 残片直径6.7厘米，是碗底的一部分，不是一只完整保存的碗。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
-61. 残片以陶土制成，三彩釉下有模印浮雕圆章，馆方把图案说明为龙与火焰宝珠。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
-62. 图片中的断口是残片今天的状态，不能据此断定碗在运输途中、使用时、埋藏时还是考古以后破损。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
-63. “中国制造、尼沙普尔出土”不能单独说明它走陆路还是海路，也不能排除多段转运。[UNESCO-SILK-ROADS-ABOUT; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
-64. 残片不能告诉我们具体商人姓名、携带人数、每个停靠城市和确切到达年份。[UNESCO-SILK-ROADS-ABOUT; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
-65. 它可能通过贸易、礼物或其他交换方式移动；仅凭一块残片不能在这些方式中作唯一选择。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
-66. 发现地也不等于使用者身份：在尼沙普尔出土，不表示已知最后一位使用者的语言、信仰或家族。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
-67. 馆方认为这块输入的中国三彩残片是研究尼沙普尔陶器发展的重要证据。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
-68. 一块小残片之所以重要，不在于“完整漂亮”，而在于制作地、年代、发现地和材料能够连成可核验的证据链。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
+54. 大都会艺术博物馆保存一块三彩碗底残片，年代为7世纪晚期至8世纪上半叶。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
+55. 馆方把它的制作地登记为中国，把发现地登记为伊朗尼沙普尔。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
+56. 这是“在中国制造的器物确实到达尼沙普尔”的直接实物证据，比只看两件颜色相似的碗更强。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
+57. 残片直径6.7厘米，是碗底的一部分，不是一只完整保存的碗。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
+58. 残片以陶土制成，三彩釉下有模印浮雕圆章，馆方把图案说明为龙与火焰宝珠。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
+59. 图片中的断口是残片今天的状态，不能据此断定碗在运输途中、使用时、埋藏时还是考古以后破损。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
+60. “中国制造、尼沙普尔出土”不能单独说明它走陆路还是海路，也不能排除多段转运。[UNESCO-SILK-ROADS-ABOUT; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
+61. 残片不能告诉我们具体商人姓名、携带人数、每个停靠城市和确切到达年份。[UNESCO-SILK-ROADS-ABOUT; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
+62. 它可能通过贸易、礼物或其他交换方式移动；仅凭一块残片不能在这些方式中作唯一选择。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
+63. 发现地也不等于使用者身份：在尼沙普尔出土，不表示已知最后一位使用者的语言、信仰或家族。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
+64. 馆方认为这块输入的中国三彩残片是研究尼沙普尔陶器发展的重要证据。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
+65. 一块小残片之所以重要，不在于“完整漂亮”，而在于制作地、年代、发现地和材料能够连成可核验的证据链。[MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
 
 ### 尼沙普尔工匠不是照抄：输入、学习与本地创新
 
-69. 大都会博物馆藏一只10世纪绿、黄、褐泼彩装饰陶碗，出土于伊朗尼沙普尔。[MET-NISHAPUR-SPLASHWARE-BOWL-449348]
-70. 这只碗高7.3厘米、直径26厘米，比前面的6.7厘米中国残片保存得完整得多。[MET-NISHAPUR-SPLASHWARE-BOWL-449348; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
-71. 它以陶土制成，先覆盖白色泥浆，再刻划图案、泼施多色釉并罩透明釉。[MET-NISHAPUR-SPLASHWARE-BOWL-449348]
-72. 馆方把这种刻进表层的装饰称作sgraffito；儿童层用“在白色泥层上刻纹”解释，不要求背外文词。[MET-NISHAPUR-SPLASHWARE-BOWL-449348]
-73. 馆方说，伊拉克、伊朗和中亚西部的此类泼彩陶“可能”受到中国唐代三彩器影响。[MET-NISHAPUR-SPLASHWARE-BOWL-449348]
-74. “可能受到影响”是根据实物、年代与地区联系提出的研究判断，不能删去“可能”变成绝对结论。[MET-NISHAPUR-SPLASHWARE-BOWL-449348; MET-NISHAPUR-EDUCATOR-RESOURCE-UNIT6]
-75. 馆方同时指出，碗上刻划的几何和植物纹样是伊朗本地特点。[MET-NISHAPUR-SPLASHWARE-BOWL-449348]
-76. 教育资源进一步说明，尼沙普尔泼彩陶的输入不只有中国三彩，还可能包括阿拔斯地区陶器，因此传播不是单一来源、一步到位。[MET-NISHAPUR-EDUCATOR-RESOURCE-UNIT6]
-77. 当地工匠选择颜色、改变器形、加入刻划纹并服务本地生活，这叫吸收后创新，不是被动复制。[MET-NISHAPUR-SPLASHWARE-BOWL-449348; MET-NISHAPUR-EDUCATOR-RESOURCE-UNIT6]
-78. 这一组器物让交流方向形成往返：伊朗金属器形影响中国唐器，中国三彩实物向西移动，尼沙普尔工匠又把影响变成自己的作品。[MET-TANG-SANCAI-AMPHORA-39524; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479; MET-NISHAPUR-SPLASHWARE-BOWL-449348]
+66. 大都会博物馆藏一只10世纪绿、黄、褐泼彩装饰陶碗，出土于伊朗尼沙普尔。[MET-NISHAPUR-SPLASHWARE-BOWL-449348]
+67. 这只碗高7.3厘米、直径26厘米，比前面的6.7厘米中国残片保存得完整得多。[MET-NISHAPUR-SPLASHWARE-BOWL-449348; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
+68. 它以陶土制成，先覆盖白色泥浆，再刻划图案、泼施多色釉并罩透明釉。[MET-NISHAPUR-SPLASHWARE-BOWL-449348]
+69. 馆方把这种刻进表层的装饰称作sgraffito；儿童层用“在白色泥层上刻纹”解释，不要求背外文词。[MET-NISHAPUR-SPLASHWARE-BOWL-449348]
+70. 馆方说，伊拉克、伊朗和中亚西部的此类泼彩陶“可能”受到中国唐代三彩器影响。[MET-NISHAPUR-SPLASHWARE-BOWL-449348]
+71. “可能受到影响”是根据实物、年代与地区联系提出的研究判断，不能删去“可能”变成绝对结论。[MET-NISHAPUR-SPLASHWARE-BOWL-449348; MET-NISHAPUR-EDUCATOR-RESOURCE-UNIT6]
+72. 馆方同时指出，碗上刻划的几何和植物纹样是伊朗本地特点。[MET-NISHAPUR-SPLASHWARE-BOWL-449348]
+73. 教育资源进一步说明，尼沙普尔泼彩陶的输入不只有中国三彩，还可能包括阿拔斯地区陶器，因此传播不是单一来源、一步到位。[MET-NISHAPUR-EDUCATOR-RESOURCE-UNIT6]
+74. 当地工匠选择颜色、改变器形、加入刻划纹并服务本地生活，这叫吸收后创新，不是被动复制。[MET-NISHAPUR-SPLASHWARE-BOWL-449348; MET-NISHAPUR-EDUCATOR-RESOURCE-UNIT6]
+75. 这一组器物让交流方向形成往返：伊朗金属器形影响中国唐器，中国三彩实物向西移动，尼沙普尔工匠又把影响变成自己的作品。[MET-TANG-SANCAI-AMPHORA-39524; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479; MET-NISHAPUR-SPLASHWARE-BOWL-449348]
 
 ### 怎样完成一张不编故事的交流证据图
 
-79. “实物直接证明”栏只写来源明确记录的年代、材料、尺寸、制作地、发现地和今天可见特征。[MOE-HISTORY-CURRICULUM-2022]
-80. “博物馆解释”栏保留解释者和语气，例如“国博解释为乐舞场景”“大都会认为器形源自伊朗金属器传统”。[NMC-SANCAI-MUSIC-CAMEL; MET-TANG-SANCAI-AMPHORA-39524]
-81. “合理推断”栏必须能指出至少两条相互支持的证据，并使用“可能、说明、提供线索”等合适词语。[MOE-HISTORY-CURRICULUM-2022]
-82. “仍然未知”栏要主动保留具体运输者、唯一道路、精确到达年份、唐代原声和陶俑人物自我身份。[NMC-SANCAI-MUSIC-CAMEL; UNESCO-SILK-ROADS-ABOUT; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
-83. 图片说明必须标清“唐代墓葬陶俑”“现代展厅照片”“中国制造的考古残片”或“尼沙普尔本地陶碗”，不把它们都叫“丝路照片”。[COMMONS-NMC-SANCAI-CAMEL-2025; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479; MET-NISHAPUR-SPLASHWARE-BOWL-449348]
-84. 地图连线分三种：来源明确支持的地点用实线，区域性研究解释用虚线，完全未知的具体路段不画线。[UNESCO-CHANGAN-TIANSHAN; UNESCO-SILK-ROADS-ABOUT]
-85. 不从陶俑的脸猜民族，不把现代乐器录音叫唐代原声，不把颜色相似当成直接接触证据。[NMC-SANCAI-MUSIC-CAMEL; MET-TANG-FEMALE-MUSICIAN-KONGHOU-44804; MET-NISHAPUR-SPLASHWARE-BOWL-449348]
-86. 不给不同文化排高低，不把交流写成某一方“发明一切”，也不把影响写成另一方“只会模仿”。[MOE-HISTORY-CURRICULUM-2022; MET-NISHAPUR-EDUCATOR-RESOURCE-UNIT6]
-87. 最终作品至少放入一条向中国输入的证据、一条中国器物向外移动的证据和一条当地创新证据。[MET-TANG-SANCAI-AMPHORA-39524; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479; MET-NISHAPUR-SPLASHWARE-BOWL-449348]
-88. 孩子最后复述：“这件证据直接告诉我什么，博物馆怎样解释，我可以怎样小心推断，还有什么不知道。”[MOE-HISTORY-CURRICULUM-2022]
+76. “博物馆解释”栏保留解释者和语气，例如“国博解释为乐舞场景”“大都会认为器形源自伊朗金属器传统”。[NMC-SANCAI-MUSIC-CAMEL; MET-TANG-SANCAI-AMPHORA-39524]
+77. “仍然未知”栏要主动保留具体运输者、唯一道路、精确到达年份、唐代原声和陶俑人物自我身份。[NMC-SANCAI-MUSIC-CAMEL; UNESCO-SILK-ROADS-ABOUT; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479]
+78. 图片说明必须标清“唐代墓葬陶俑”“现代展厅照片”“中国制造的考古残片”或“尼沙普尔本地陶碗”，不把它们都叫“丝路照片”。[COMMONS-NMC-SANCAI-CAMEL-2025; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479; MET-NISHAPUR-SPLASHWARE-BOWL-449348]
+79. 地图连线分三种：来源明确支持的地点用实线，区域性研究解释用虚线，完全未知的具体路段不画线。[UNESCO-CHANGAN-TIANSHAN; UNESCO-SILK-ROADS-ABOUT]
+80. 不从陶俑的脸猜民族，不把现代乐器录音叫唐代原声，不把颜色相似当成直接接触证据。[NMC-SANCAI-MUSIC-CAMEL; MET-TANG-FEMALE-MUSICIAN-KONGHOU-44804; MET-NISHAPUR-SPLASHWARE-BOWL-449348]
+81. 不给不同文化排高低，不把交流写成某一方“发明一切”，也不把影响写成另一方“只会模仿”。[MOE-HISTORY-CURRICULUM-2022; MET-NISHAPUR-EDUCATOR-RESOURCE-UNIT6]
+82. 最终作品至少放入一条向中国输入的证据、一条中国器物向外移动的证据和一条当地创新证据。[MET-TANG-SANCAI-AMPHORA-39524; MET-CHINESE-SANCAI-FRAGMENT-NISHAPUR-449479; MET-NISHAPUR-SPLASHWARE-BOWL-449348]
+
+## 学习设计与史料阅读方法
+
+以下是史料阅读方法和本项目的活动安排，单独列出，不计作历史事件或器物事实。课程标准用于方法参考；具体表格、数量和操作要求由项目设计。成人负责整理记录，孩子可以指图、做动作或口述，不要求独立填表或背诵固定答案。
+
+1. 教育部《义务教育历史课程标准（2022年版）》把“文化交流”列为跨学科主题学习参考示例，要求学生从可靠材料中寻找不同地区交往的证据。[MOE-HISTORY-CURRICULUM-2022]
+2. 合格的交流路线图要同时写年代、制作地、发现地、证据来源和仍然未知的路段。[MOE-HISTORY-CURRICULUM-2022]
+3. 因此儿童活动观察“站立或坐下、衣着、姿势、可见乐器”，不设计“看脸猜民族”。[MOE-HISTORY-CURRICULUM-2022]
+4. “实物直接证明”栏只写来源明确记录的年代、材料、尺寸、制作地、发现地和今天可见特征。[MOE-HISTORY-CURRICULUM-2022]
+5. “合理推断”栏必须能指出至少两条相互支持的证据，并使用“可能、说明、提供线索”等合适词语。[MOE-HISTORY-CURRICULUM-2022]
+6. 请孩子指一个看得见的特征，或说还有什么想知道；四层证据说明由成人补充，不要求背诵研究术语。[MOE-HISTORY-CURRICULUM-2022]
 
 ## 7屏儿童页面、6段语音与5个互动
 
@@ -149,7 +155,8 @@
 **屏幕文字**
 
 一峰陶骆驼 + 五个陶人
-723年前后，1957年西安墓葬出土
+唐代器物（约723年前后）
+1957年出土于西安
 它表现乐舞，不是演出照片
 
 **语音2｜约104秒**
@@ -233,7 +240,7 @@
 
 **互动5：制作并讲解交流证据图**
 
-- 孩子选择至少4件器物，给每件填写“年代、制作地、发现地、材料、来源”中的已有项目；不知道的字段保留“未知”。
+- 成人先选两件关系有依据的器物，说明各自身份与年代。孩子指出一个可见特征；制作地、发现地与来源由成人记录，不要求独立填表。
 - 至少放入三条不同方向的证据：“伊朗器形影响中国唐器”“中国三彩到达尼沙普尔”“尼沙普尔工匠加入本地刻划纹”。
 - 每条连线必须选择证据强度：“实物直接证明”“馆方解释”“可能影响”；系统拒绝把“可能”升级为“确定”。
 - 最后选择一句证据边界，例如：“残片能证明到达，不能说明唯一路线”“陶俑能显示乐器形状，不能保存唐代原声”。

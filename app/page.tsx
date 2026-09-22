@@ -153,6 +153,7 @@ type ManifestChapter = {
 };
 
 type ManifestTrack = {
+  periods:Array<{id:string;years?:string;stationYears?:string}>;
   id: string;
   label: string;
   range: string;
@@ -201,7 +202,8 @@ const allStations: Station[] = [
   { id: "newera", periodId: "new-era", years: "2012年至今", title: "新时代", childLine: "高铁穿过青山，卫星飞上天空", iconSrc: "/images/history-stations/newera.webp" },
 ];
 
-const stations = allStations.filter(station => contentManifest.tracks.some(track=>track.chapters.some(chapter=>chapter.periodId===station.periodId)));
+const periodLabels=new Map(contentManifest.tracks.flatMap(t=>t.periods.map(p=>[p.id,p] as const)));
+const stations = allStations.filter(station => contentManifest.tracks.some(track=>track.chapters.some(chapter=>chapter.periodId===station.periodId))).map(station=>({...station,years:periodLabels.get(station.periodId)?.stationYears??station.years}));
 const allProgressChapters = new Map(progressIndex.map(chapter => [chapter.id, chapter]));
 
 const questStepBadgeById: Record<GameStep["id"], { src: string; alt: string; fallback: string }> = {
@@ -488,7 +490,7 @@ export default function Home() {
 
       {screen === "overview" && <>
         <section className="local-progress-controls" aria-label="本机学习记录">
-          <div><strong>本机学习记录</strong><p>本轮已完成 {progress.completed.filter(id=>chaptersById.has(id)).length} 个任务，本机共保存 {progress.completed.length} 个完成标记。{resumeChapter ? `正在探索：${resumeChapter.childEntry.childTitle}` : "可以从任意历史站出发。"}</p></div>
+          <div><strong>本机学习记录</strong><p>本轮已走完 {progress.completed.filter(id=>chaptersById.has(id)).length} 个任务，本机共保存 {progress.completed.length} 个完成标记。完成标记记录玩法进度，不代表已经理解。{resumeChapter ? `正在探索：${resumeChapter.childEntry.childTitle}` : "可以从任意历史站出发。"}</p></div>
           {confirmClear ? <div><p>清空这台浏览器中的完成标记和进行中故事？</p><button onClick={clearProgress}>确认清空</button><button onClick={() => setConfirmClear(false)}>保留记录</button></div> : <button onClick={() => setConfirmClear(true)}>清空本机记录</button>}
           {storageNotice && <p role="status">{storageNotice}</p>}
         </section>

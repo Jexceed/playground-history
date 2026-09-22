@@ -7,7 +7,8 @@
   "period": {
     "id": "medieval-world",
     "label": "中古世界",
-    "years": "约5—15世纪"
+    "years": "约5—15世纪",
+    "learningContext": null
   },
   "order": 10,
   "title": "中古非洲和美洲有哪些城市与文明",
@@ -26,6 +27,7 @@
     "culture": "手稿、玛雅文字与安第斯结绳",
     "care": "不做文明排名，也不虚构古代中国与美洲直接接触。"
   },
+  "learningGuide": null,
   "textbookConnection": null,
   "childStory": [
     {
@@ -247,11 +249,11 @@
         "options": [
           {
             "id": "world-ancient-02-05-africa-americas-time-1",
-            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "label": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）",
             "correct": false,
             "audio": {
-              "id": "quest-2626ffdfff6b200a",
-              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+              "id": "quest-0ee11e284f2f5ef2",
+              "text": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）"
             }
           },
           {
@@ -615,13 +617,6 @@
   "facts": [
     {
       "number": 1,
-      "text": "本章跨越约500—16世纪初，讲的不是一个“非洲帝国”或一个“美洲文明”，而是多个区域、语言、城市和政权。时间线把它们并排是为了比较，不表示它们彼此都直接往来。",
-      "sourceIds": [
-        "MOE-HISTORY-CURRICULUM-2022"
-      ]
-    },
-    {
-      "number": 2,
       "text": "帕伦克约在500—700年间达到繁盛；基尔瓦在9—19世纪有人居住、13—14世纪尤为繁荣；大津巴布韦主要在约1100—1450年发展；特诺奇蒂特兰传统上建于1325年、1521年被西班牙军队及其原住民盟友攻陷；廷巴克图在15—16世纪成为重要中心；安第斯道路在跨世纪建设后于15世纪达到最大扩展。",
       "sourceIds": [
         "UNESCO-PALENQUE",
@@ -633,28 +628,21 @@
       ]
     },
     {
-      "number": 3,
-      "text": "非洲与美洲没有沿着同一条“发展阶梯”前进。石墙、珊瑚石城市、泥土清真寺、石灰岩神庙、湖中农田、山地道路和结绳，是不同环境与社会关系中形成的办法，不能换算成文明高低分数。",
-      "sourceIds": [
-        "MOE-HISTORY-CURRICULUM-2022"
-      ]
-    },
-    {
-      "number": 4,
+      "number": 2,
       "text": "大津巴布韦位于今天津巴布韦南部，包含山丘遗址、大围场和谷地遗址。主要石墙采用干砌技术，即把修整过的石块相互叠合而不用灰浆黏住。",
       "sourceIds": [
         "UNESCO-GREAT-ZIMBABWE"
       ]
     },
     {
-      "number": 5,
+      "number": 3,
       "text": "遗址主要在约1100—1450年发展，是绍纳人祖先建立的政治与贸易中心。殖民时代曾有人否认非洲人能够建造这些石墙，今天的考古与遗产记录不支持“外来神秘民族建城”说。",
       "sourceIds": [
         "UNESCO-GREAT-ZIMBABWE"
       ]
     },
     {
-      "number": 6,
+      "number": 4,
       "text": "大津巴布韦发现玻璃珠、波斯和中国陶瓷以及基尔瓦钱币等物品。这些证据说明它通过内陆和海岸节点参与远距离贸易，但不能仅凭一片中国瓷器就说中国商人亲自走进这座城。",
       "sourceIds": [
         "UNESCO-GREAT-ZIMBABWE",
@@ -662,14 +650,14 @@
       ]
     },
     {
-      "number": 7,
+      "number": 5,
       "text": "基尔瓦基斯瓦尼和松戈姆纳拉位于今天坦桑尼亚海岸附近。当地斯瓦希里居民用珊瑚石与石灰建住宅、宫殿、清真寺和公共空间，城市在13—14世纪成为印度洋贸易的重要节点。",
       "sourceIds": [
         "UNESCO-KILWA-SONGO-MNARA"
       ]
     },
     {
-      "number": 8,
+      "number": 6,
       "text": "东非的黄金、象牙等货物经内陆网络来到海岸；阿拉伯、印度和中国的陶瓷、织物等又经许多港口与商人流动。斯瓦希里文化首先是非洲海岸社群长期形成的文化，不能简写成“阿拉伯人在非洲建的殖民城”。",
       "sourceIds": [
         "UNESCO-KILWA-SONGO-MNARA",
@@ -677,7 +665,7 @@
       ]
     },
     {
-      "number": 9,
+      "number": 7,
       "text": "1405—1433年间，郑和船队多次航行印度洋并到达东非。这给中国课程主线提供一个真实连接点：明代中国确实进入印度洋航海网络；但这不等于所有东非中国瓷器都由郑和船队带来，也不等于中国控制了当地贸易。",
       "sourceIds": [
         "SCIO-ZHENGHE-WESTERN-OCEAN",
@@ -685,7 +673,7 @@
       ]
     },
     {
-      "number": 10,
+      "number": 8,
       "text": "大津巴布韦与基尔瓦既有联系又不相同：前者是南部非洲内陆石城与政治中心，后者是斯瓦希里海岸港口城市。儿童互动应连接“内陆资源—中间节点—海岸港口—印度洋”，而不是画一条中国直达每座非洲城市的线。",
       "sourceIds": [
         "UNESCO-GREAT-ZIMBABWE",
@@ -693,14 +681,14 @@
       ]
     },
     {
-      "number": 11,
+      "number": 9,
       "text": "廷巴克图位于撒哈拉沙漠南缘，15—16世纪是商业、伊斯兰宗教与学术活动的重要中心。桑科雷、金加雷贝和西迪·叶海亚等清真寺及宗教学校共同构成知识生活，不是一座现代式围墙大学校园。",
       "sourceIds": [
         "UNESCO-TIMBUKTU"
       ]
     },
     {
-      "number": 12,
+      "number": 10,
       "text": "盐、黄金、书籍与其他货物随跨撒哈拉网络流动。手稿可以买卖、抄写、收藏和讲授，因此“城市有市场”和“城市有学者”不是两条无关的故事。",
       "sourceIds": [
         "UNESCO-TIMBUKTU",
@@ -708,42 +696,42 @@
       ]
     },
     {
-      "number": 13,
+      "number": 11,
       "text": "美国国会图书馆数字化的马里手稿来自廷巴克图多家私人图书馆，内容包括宗教、法律、语法、天文等。它们直接反驳“撒哈拉以南非洲没有书写和学术传统”的错误说法。",
       "sourceIds": [
         "LOC-ISLAMIC-MANUSCRIPTS-MALI"
       ]
     },
     {
-      "number": 14,
+      "number": 12,
       "text": "本章图片是一页1733年抄写的天文学手稿，比廷巴克图15—16世纪鼎盛期晚。它能说明书写传统继续延续，不能冒充15世纪课堂现场，也不能用一页代表所有藏书。",
       "sourceIds": [
         "LOC-TIMBUKTU-EXHIBITION"
       ]
     },
     {
-      "number": 15,
+      "number": 13,
       "text": "廷巴克图的泥土建筑需要居民持续修补。今天看到的墙面包含长期维护的结果；“古老而真实”不等于几百年间从未修理。",
       "sourceIds": [
         "UNESCO-TIMBUKTU"
       ]
     },
     {
-      "number": 16,
+      "number": 14,
       "text": "玛雅世界分布在今天墨西哥南部、危地马拉、伯利兹及邻近地区，不是一个长期统一的“大玛雅帝国”。城市政治体各有统治者，可能结盟、竞争、贸易或战争。",
       "sourceIds": [
         "INAH-MAYA-CITIES-WRITING"
       ]
     },
     {
-      "number": 17,
+      "number": 15,
       "text": "帕伦克约在500—700年繁盛，宫殿、神庙、浮雕与铭文留下统治、仪式和时间记录。遗址只是一座重要城市，不能拿它代替所有玛雅地区的生活。",
       "sourceIds": [
         "UNESCO-PALENQUE"
       ]
     },
     {
-      "number": 18,
+      "number": 16,
       "text": "玛雅书写包含表示词和音节的符号。铭文可记录日期、谱系和政治事件；今天的学者通过反复比较符号、语言与上下文逐步释读，不是凭图案“猜故事”。",
       "sourceIds": [
         "INAH-MAYA-CITIES-WRITING",
@@ -751,14 +739,14 @@
       ]
     },
     {
-      "number": 19,
+      "number": 17,
       "text": "农业为城市生活提供基础，不同地区利用玉米、豆类、南瓜等作物并适应雨林、低地或高地环境。儿童页不把某一种农法说成全部玛雅地区唯一方法。",
       "sourceIds": [
         "INAH-MAYA-CITIES-WRITING"
       ]
     },
     {
-      "number": 20,
+      "number": 18,
       "text": "许多古典期城市在不同时间经历人口减少、政治重组或中心转移，过程可能持续几十年且各地不同。不能说“玛雅人在一天内神秘消失”；玛雅后裔及其语言和文化今天仍然存在。",
       "sourceIds": [
         "INAH-MAYA-CITIES-WRITING",
@@ -766,63 +754,63 @@
       ]
     },
     {
-      "number": 21,
+      "number": 19,
       "text": "墨西加人把特诺奇蒂特兰建在特斯科科湖的岛屿上，传统纪年为1325年。城市以堤道连接陆地，运河承担交通，奇南帕农地增加湖区食物生产；它不是漂浮在水面的整座城市。",
       "sourceIds": [
         "INAH-MEXICA-GRANDEZA-DIVERSIDAD"
       ]
     },
     {
-      "number": 22,
+      "number": 20,
       "text": "墨西加人、特斯科科与特拉科潘约在15世纪形成三方联盟。常说的“阿兹特克帝国”更准确地说是由墨西加居主导地位的联盟与贡赋体系，许多地方保留自己的语言和统治关系。",
       "sourceIds": [
         "INAH-MEXICA-GRANDEZA-DIVERSIDAD"
       ]
     },
     {
-      "number": 23,
+      "number": 21,
       "text": "联盟通过战争和政治安排向许多地方索取产品与劳役。棉布、食物、羽毛、工艺品等进入中心，但承担贡赋的人可能付出沉重成本；互动不让儿童扮演征服者抢贡品或按财富给城市排名。",
       "sourceIds": [
         "INAH-MEXICA-GRANDEZA-DIVERSIDAD"
       ]
     },
     {
-      "number": 24,
+      "number": 22,
       "text": "1521年，西班牙军队与许多原住民盟友攻陷特诺奇蒂特兰。不能把过程讲成“少数欧洲人单独战胜整个美洲”，也不能把不同原住民群体合并成一个阵营。",
       "sourceIds": [
         "INAH-MEXICA-GRANDEZA-DIVERSIDAD"
       ]
     },
     {
-      "number": 25,
+      "number": 23,
       "text": "《门多萨手抄本》约1542年在征服后、总督安东尼奥·德·门多萨时期编成，整理统治者、征服、贡赋和日常生活信息。它很重要，但带有编写目的、图像传统与西班牙语注释，不能当1325年现场摄影。",
       "sourceIds": [
         "INAH-CODEX-MENDOZA"
       ]
     },
     {
-      "number": 26,
+      "number": 24,
       "text": "“塔万廷苏尤”是印加国家常用的本地名称，可理解为由四个方向组成的整体。它在15世纪迅速扩张，但安第斯山区原有社区、道路和知识并不是国家出现后才突然产生。",
       "sourceIds": [
         "UNESCO-QHAPAQ-NAN"
       ]
     },
     {
-      "number": 27,
+      "number": 25,
       "text": "卡帕克·南安第斯道路系统超过三万千米。许多路线由印加以前的安第斯社群跨越数世纪建设，印加国家扩展、连接和组织了既有道路，四条主线从库斯科向不同方向延伸。",
       "sourceIds": [
         "UNESCO-QHAPAQ-NAN"
       ]
     },
     {
-      "number": 28,
+      "number": 26,
       "text": "道路跨越高山、山谷、沙漠和热带地区，沿线有桥梁、阶梯、排水、储藏和住宿节点。不是每一段都铺同样的石头，也不能把今天一段维护良好的游览步道当作全部路网原貌。",
       "sourceIds": [
         "UNESCO-QHAPAQ-NAN"
       ]
     },
     {
-      "number": 29,
+      "number": 27,
       "text": "道路服务人员、物品、信息、军队、生产和仪式活动，也帮助国家征调劳力。连接能力可以带来协作和供给，也可能增加被统治社区的劳动负担。",
       "sourceIds": [
         "UNESCO-QHAPAQ-NAN",
@@ -830,21 +818,21 @@
       ]
     },
     {
-      "number": 30,
+      "number": 28,
       "text": "结绳使用主绳、垂绳、不同位置和多种结记录信息。较有把握的解释包括十进位计数与行政记录，专门管理者负责制作和读取；颜色、绳向及更多组合的含义仍需研究。",
       "sourceIds": [
         "MUSEO-LARCO-INCA-QUIPUS"
       ]
     },
     {
-      "number": 31,
+      "number": 29,
       "text": "布鲁克林博物馆编号36.718的结绳约制于1400—1532年，由棉和骆马科纤维制成。馆方将它描述为可能的叙事型结绳，并对据传的出土背景保留不确定性；本章不把每根绳臆译成人名或完整故事。",
       "sourceIds": [
         "BROOKLYN-QUIPU-36-718"
       ]
     },
     {
-      "number": 32,
+      "number": 30,
       "text": "非洲本章可见海上和跨沙漠交流，美洲本章可见区域内道路、湖区和城邦网络。交流范围不同不等于封闭或落后，也不等于所有地区在15世纪已接成一张全球网。",
       "sourceIds": [
         "UNESCO-KILWA-SONGO-MNARA",
@@ -853,7 +841,7 @@
       ]
     },
     {
-      "number": 33,
+      "number": 31,
       "text": "中国瓷器、基尔瓦钱币和港口遗址可以共同支持东非参与印度洋贸易；一座遗址中的外来物品通常经过多次转手，不能自动推出制造者、商人和最终使用者见过面。",
       "sourceIds": [
         "UNESCO-GREAT-ZIMBABWE",
@@ -862,7 +850,7 @@
       ]
     },
     {
-      "number": 34,
+      "number": 32,
       "text": "玛雅铭文、《门多萨手抄本》与结绳不是同一种“文字”。玛雅文字可以记录语言；《门多萨手抄本》是征服后图文来源；结绳能记录数量和行政信息但完整含义仍有争论。互动必须让儿童选择证据边界，而不是把三者都叫“看不懂的图案”。",
       "sourceIds": [
         "NMAI-LIVING-MAYA-GLYPHS",
@@ -871,11 +859,27 @@
       ]
     },
     {
-      "number": 35,
+      "number": 33,
       "text": "帕伦克、特诺奇蒂特兰和塔万廷苏尤与中国隋唐、宋元、明初在时间上有重叠，不构成彼此接触的证据。本章只在东非—印度洋部分加入中国瓷器和郑和航行；美洲部分不画中国船只、不讲未经权威资料支持的跨太平洋故事。",
       "sourceIds": [
         "SCIO-ZHENGHE-WESTERN-OCEAN",
         "NOPSS-INDIAN-OCEAN-COMMODITY-TRADE"
+      ]
+    }
+  ],
+  "methodNotes": [
+    {
+      "number": 1,
+      "text": "本章跨越约500—16世纪初，讲的不是一个“非洲帝国”或一个“美洲文明”，而是多个区域、语言、城市和政权。时间线把它们并排是为了比较，不表示它们彼此都直接往来。",
+      "sourceIds": [
+        "MOE-HISTORY-CURRICULUM-2022"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "非洲与美洲没有沿着同一条“发展阶梯”前进。石墙、珊瑚石城市、泥土清真寺、石灰岩神庙、湖中农田、山地道路和结绳，是不同环境与社会关系中形成的办法，不能换算成文明高低分数。",
+      "sourceIds": [
+        "MOE-HISTORY-CURRICULUM-2022"
       ]
     }
   ],
@@ -1094,16 +1098,6 @@
   ],
   "sources": [
     {
-      "id": "MOE-HISTORY-CURRICULUM-2022",
-      "title": "义务教育历史课程标准（2022年版）",
-      "institution": "中华人民共和国教育部",
-      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
-      "type": "curriculum-standard",
-      "authorityLevel": "A",
-      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
-      "imageUse": "reference-only"
-    },
-    {
       "id": "UNESCO-PALENQUE",
       "title": "Pre-Hispanic City and National Park of Palenque",
       "institution": "UNESCO World Heritage Centre",
@@ -1254,6 +1248,16 @@
       "imageUse": "CC BY / Brooklyn Museum Open Collection"
     },
     {
+      "id": "MOE-HISTORY-CURRICULUM-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "institution": "中华人民共和国教育部",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "type": "curriculum-standard",
+      "authorityLevel": "A",
+      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
+    },
+    {
       "id": "LOC-TIMBUKTU-MANUSCRIPTS-RIGHTS",
       "title": "Islamic Manuscripts from Mali: Rights and Access",
       "institution": "Library of Congress",
@@ -1365,5 +1369,6 @@
     "assets": "cleared",
     "audio": "script-ready",
     "review": "pending"
-  }
+  },
+  "contentReadiness": "legacy-draft-not-in-preview"
 }

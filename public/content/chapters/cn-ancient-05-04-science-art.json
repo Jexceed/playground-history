@@ -7,7 +7,24 @@
   "period": {
     "id": "three-kingdoms-jin-northern-southern",
     "label": "三国两晋南北朝",
-    "years": "220—589年"
+    "years": "220—589年",
+    "learningContext": {
+      "childIntro": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。",
+      "chronology": "220—589年为这组故事的时代范围，不是一个朝代名；曹魏、蜀汉、孙吴成立年份不同，西晋统一后又出现南北分立。",
+      "covered": "迁徙互助、江南生产、北魏改革、数学继承、壁画叙事。",
+      "scopeBoundary": "具体政权更替及战争过程保留在背景稿；不让儿童背所有政权名称，也不把整个时期说成只有战乱。",
+      "sourceIds": [
+        "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+      ],
+      "sources": [
+        {
+          "id": "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+          "title": "“古代中国”基本陈列：三国两晋南北朝时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail5.html"
+        }
+      ]
+    }
   },
   "order": 18,
   "title": "乱世中延续的数学、书法与艺术",
@@ -18,16 +35,43 @@
     "childTitle": "祖冲之怎样把圆算得更准？",
     "prompt": "直边图形放进同一个圆，分得更细，会发生什么？跟着小伙伴试试古人的思路。",
     "takeaway": "刘徽用直边图形逐步逼近圆，后来祖冲之把圆周率算得更精确。今天的模型只帮助理解思路，不是他们的计算原稿。",
-    "object": "《兰亭序》神龙本、圆周率记录和云冈石窟",
+    "object": "《九章算术》· 后世印本",
     "people": [
       "刘徽",
       "祖冲之"
     ],
-    "place": "绍兴兰亭、南京与大同云冈",
-    "culture": "《兰亭集序》与书法传统",
+    "place": "刘徽与祖冲之所处时代；今天的圆形学具",
+    "culture": "《九章算术》后世传本与数学继承",
     "care": "书影是1936年后世印本，不是刘徽或祖冲之手稿，条码是现代馆藏管理标记。图中人物为今天的教学角色，书房陈设不当作南朝遗物。学具演示内接多边形的直觉，祖冲之具体算法已散佚，不声称按几次按钮就得到他的精度，不要求孩子背小数。",
     "playableSource": "content/focused-quests.json",
     "preferredAssetId": "nine-chapters-1936-title"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-05-04-science-art",
+    "theme": "知识与技术",
+    "learningGoal": "后人接续研究，直边分细可帮助理解更精确地认识圆。",
+    "parentQuestion": "同样大的圆，哪幅图留下的空隙更小？可以指给我看。",
+    "observe": "比较六边与二十四边的空隙，并理解后来的人接着前人的研究继续做；不要求背诵人名和小数。",
+    "misconception": "模型只解释逼近思路，不等于复原祖冲之全部计算。",
+    "evidenceStepIds": [
+      "time"
+    ],
+    "sourceIds": [
+      "CAS-ZUCHONGZHI-PI",
+      "CAS-PI-HISTORY-2005",
+      "NLC-NINE-CHAPTERS-1936"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-08-04-economy-knowledge-culture",
+        "relation": "数学与工艺都积累前人知识，记录和模型帮助后来的人理解。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "技术",
+      "证据"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-05-04-science-art",
@@ -92,60 +136,18 @@
   ],
   "glossary": [
     {
-      "term": "交流",
-      "icon": "↔️",
-      "plain": "不同的人把物品、知识或做法带给彼此。",
-      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
-      "priority": 1
-    },
-    {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
-      "priority": 1
-    },
-    {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
-      "priority": 1
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
+      "term": "技术",
+      "icon": "⚙️",
+      "plain": "人们解决具体问题时积累的工具和做法。",
+      "example": "技术常由许多人长期改进，不是某天突然出现。",
       "priority": 2
     },
     {
-      "term": "文化",
-      "icon": "🎨",
-      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
-      "example": "文化会交流变化，不能排成谁高谁低。",
-      "priority": 2
-    },
-    {
-      "term": "政权",
-      "icon": "🏛️",
-      "plain": "谁在用什么机构和规则管理一个地方。",
-      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
-      "priority": 2
-    },
-    {
-      "term": "发展",
-      "icon": "🌱",
-      "plain": "事物经过一段时间出现增长或变化。",
-      "example": "发展不只看速度和数量，也要看人的生活与环境。",
-      "priority": 3
-    },
-    {
-      "term": "统治",
-      "icon": "🏛️",
-      "plain": "掌权者用机构和规则管理人群与地方。",
-      "example": "研究统治还要问谁能参与、谁承担负担。",
-      "priority": 3
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
     }
   ],
   "pronunciations": [
@@ -159,16 +161,6 @@
       "note": "“徽”读huī。"
     },
     {
-      "text": "王羲之",
-      "reading": "Wáng Xīzhī",
-      "kind": "person",
-      "chapterIds": [
-        "cn-ancient-05-04-science-art",
-        "cross-06-calligraphy-journey"
-      ],
-      "note": "“羲”读xī。"
-    },
-    {
       "text": "祖冲之",
       "reading": "Zǔ Chōngzhī",
       "kind": "person",
@@ -176,16 +168,6 @@
         "cn-ancient-05-04-science-art"
       ],
       "note": "“冲”在此读chōng。"
-    },
-    {
-      "text": "云冈",
-      "reading": "Yúngāng",
-      "kind": "place",
-      "chapterIds": [
-        "cn-ancient-05-03-ethnic-interaction",
-        "cn-ancient-05-04-science-art"
-      ],
-      "note": "“冈”读gāng。"
     }
   ],
   "gameplay": {
@@ -255,16 +237,15 @@
         "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
         "coverCaption": "祖冲之怎样把圆算得更准？",
         "coverNarration": "祖冲之怎样把圆算得更准？小小旅行团出发！直边图形放进同一个圆，分得更细，会发生什么？跟着小伙伴试试古人的思路。",
-        "stationLine": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
-        "stationNarration": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
         "closingCaption": "回看刚刚读懂的历史",
         "closingNarration": "刘徽用直边图形逐步逼近圆，后来祖冲之把圆周率算得更精确。今天的模型只帮助理解思路，不是他们的计算原稿。",
         "closingLine": "前人留下方法，后来人接着算得更准。",
         "fictionNote": "书影是1936年后世印本，不是刘徽或祖冲之手稿，条码是现代馆藏管理标记。图中人物为今天的教学角色，书房陈设不当作南朝遗物。学具演示内接多边形的直觉，祖冲之具体算法已散佚，不声称按几次按钮就得到他的精度，不要求孩子背小数。",
         "reunionImage": "/content/step-images/jin-travel-journal-reunion-v1.jpg",
+        "stationLine": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。",
         "stationAudio": {
-          "id": "quest-07878431a28f0aec",
-          "text": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。"
+          "id": "quest-3b178ba3d4febef9",
+          "text": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。"
         },
         "closingAudio": {
           "id": "quest-a8cc6b3ba094f870",
@@ -294,7 +275,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "今天学习古代数学方法的故事插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-circle-study-v1-prompt.txt。",
+      "boundary": "今天的小伙伴在复古学习情境中理解圆形，书、本子和人物不当作南朝遗物。图画引出问题，精确边数和圆的关系以旁边的几何学具为准。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/jin-circle-study-v1.jpg"
     },
@@ -309,7 +290,7 @@
         "license": "项目自制，供本项目使用",
         "clearance": "cleared-project-created",
         "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
-        "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
+        "boundary": "三位现代小伙伴回看旅行手册的教学插画。册页中的器物、圆形与鹿故事是回顾线索，不是原始文物、数学原稿或北魏壁画本体。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/jin-travel-journal-reunion-v1.jpg"
       }
@@ -644,7 +625,7 @@
         "studyImageAlt": "先看六边形，再把边分细",
         "imageAlt": "今天学习古代数学方法的故事插画",
         "imageCaption": "今天学习古代数学方法的故事插画",
-        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-circle-study-v1-prompt.txt。",
+        "imageBoundary": "今天的小伙伴在复古学习情境中理解圆形，书、本子和人物不当作南朝遗物。图画引出问题，精确边数和圆的关系以旁边的几何学具为准。",
         "audio": {
           "lead": {
             "id": "quest-3add94cc7c045be1",
@@ -750,7 +731,7 @@
         "studyImageAlt": "六条直边，二十四条直边",
         "imageAlt": "今天学习古代数学方法的故事插画",
         "imageCaption": "今天学习古代数学方法的故事插画",
-        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-circle-study-v1-prompt.txt。",
+        "imageBoundary": "今天的小伙伴在复古学习情境中理解圆形，书、本子和人物不当作南朝遗物。图画引出问题，精确边数和圆的关系以旁边的几何学具为准。",
         "audio": {
           "lead": {
             "id": "quest-b3e22876028d8ead",
@@ -978,6 +959,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1359,7 +1341,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "今天的云冈石窟第20窟及其露天造像。",
-      "boundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "照片拍摄于2025年，呈现风化、缺损和保护后的现状，不是北魏刚完成时的色彩与状态。石窟年代、文化交流和修缮边界以UNESCO遗产记录核验。",
       "childVisibility": "child-ok"
     },
     {
@@ -1411,7 +1393,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "今天学习古代数学方法的故事插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-circle-study-v1-prompt.txt。",
+      "boundary": "今天的小伙伴在复古学习情境中理解圆形，书、本子和人物不当作南朝遗物。图画引出问题，精确边数和圆的关系以旁边的几何学具为准。",
       "childVisibility": "child-ok"
     },
     {
@@ -1424,7 +1406,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
+      "boundary": "三位现代小伙伴回看旅行手册的教学插画。册页中的器物、圆形与鹿故事是回顾线索，不是原始文物、数学原稿或北魏壁画本体。",
       "childVisibility": "child-ok"
     }
   ],
@@ -1436,5 +1418,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

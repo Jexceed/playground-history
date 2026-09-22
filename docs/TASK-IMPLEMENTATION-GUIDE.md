@@ -165,3 +165,15 @@ git diff --check
 - 本轮author_*.py仅为制作记录，后续局部修改后的正式JSON才是最新源稿，禁止重跑旧作者脚本覆盖精修。
 
 当前目标尺寸1280×720，不追加多端要求。完整结构审计仍覆盖103章，实际新内容范围与逐章UI记录另列。
+
+## 2026-09-22 · 内容对齐与整体复核
+
+1. 修改主线时同步`focused-quests.chapters[].entry`（object/place/culture），准备脚本将其投影到低龄入口；不要只改标题而留下旧书法、旧地图等资料介绍。
+2. `content/learning-map.json`须覆盖当前34章且无重复、自连或失效链接。明确glossaryTerms，不再从任意JSON子串为当前主线猜词义。`validateLearningMap`校验引用，`LearningGuide`只提供亲子观察参考，不写儿童测评成绩。
+3. 朝代站统一使用catalog.periods.learningContext；childIntro用于文字与语音，chronology区分时间节点，covered与scopeBoundary说明取样范围。`stationYears`是短展示，不得把课程边界说成王朝终点。
+4. 核对`stepVoiceIds`实际播放序列，特别是有“已经准备好”“还没听懂”“刚才印好”的情境，以及新词解释。不要以story里出现过为已可听。
+5. 家长与儿童共用WorkbenchChoiceArt、HistoryLabDiagram和usesChoiceCards；新增玩法同步审核展示。寻找步骤列出每轮，模型列出阶段；不要把circle-refine/slide-fit的内部判定选项当作孩子看到的图卡。
+6. Markdown的“事实卡”与“学习设计与史料阅读方法”分别解析。后者保留参考来源，但不计事实数；复杂记录由成人整理。全库103章仍参与结构验证，隐藏69章保持legacy-draft-not-in-preview状态。
+7. 活跃材料的公开boundary不得出现提示词路径、像素或生产过程。notes和QA保留这些记录；修改boundary时同步相册里的重复说明，不重生成声音。
+
+本轮唯一窗口340×785，由用户当前浏览器读取；后续任务仍重新读取当时窗口，不将此尺寸设为所有任务的永久设备标准。

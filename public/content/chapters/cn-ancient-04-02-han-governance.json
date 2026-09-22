@@ -7,7 +7,24 @@
   "period": {
     "id": "han",
     "label": "汉朝",
-    "years": "前202—公元220年"
+    "years": "前202—公元220年",
+    "learningContext": {
+      "childIntro": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。",
+      "chronology": "前202年西汉建立；汉代范围包含西汉、东汉以及中间政局变化，不能画成连续不变的一段统治。",
+      "covered": "五铢钱管理、张骞使命和见闻、造纸改进。",
+      "scopeBoundary": "恢复生产、文景时期、汉武帝的其他政策与东汉末年属于背景研究，儿童主线只取三个具体问题。",
+      "sourceIds": [
+        "NMC-QIN-HAN-OVERVIEW"
+      ],
+      "sources": [
+        {
+          "id": "NMC-QIN-HAN-OVERVIEW",
+          "title": "“古代中国”基本陈列：秦汉时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+        }
+      ]
+    }
   },
   "order": 12,
   "title": "汉朝怎样从恢复走向强盛",
@@ -18,15 +35,47 @@
     "childTitle": "汉武帝为什么统一铸钱？",
     "prompt": "钱有的轻、有的重，怎么办？跟着小伙伴，去找汉武帝统一铸钱的办法。",
     "takeaway": "汉武帝把铸钱交给朝廷统一管理，工匠按共同规格做五铢钱。钱范帮助定形，称量比较轻重，串钱只方便携带。",
-    "object": "五铢钱和汉代简牍",
+    "object": "五铢钱 · 西汉",
     "people": [
       "汉武帝时期的铸钱工匠"
     ],
-    "place": "长安与汉代郡国",
-    "culture": "汉简文字",
+    "place": "西汉中央铸钱机构与教学工坊",
+    "culture": "《汉书》铸钱记录",
     "care": "小伙伴和工匠对话是虚构教学故事。前202年建汉、前118年始铸五铢、前113年中央集中铸币是不同事件。本章聚焦前113年。真钱与钱范照片提供可观察的形态，统一铸币制度由文献支持，不能仅从钱币外形推出。插画与钱形卡片是学习材料，不是上林三官工坊、具体秤具或真实铸造工序复原。核对轻重是帮助理解规格的教学情境，不声称逐枚检查的历史操作流程。成串的钱不代表日常统一计量单位、固定价格或普通家庭财富。",
     "preferredAssetId": "qin-han-haihun-wuzhu",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-04-02-han-governance",
+    "theme": "治理和规则",
+    "learningGoal": "汉武帝把铸钱权交给朝廷，形状与轻重都有规格。",
+    "parentQuestion": "有方孔的钱都串好了，能知道它们一样重吗？",
+    "observe": "指出还要称量；说出铸钱由朝廷统一管，串钱只是方便携带。",
+    "misconception": "统一铸钱不等于方孔第一次出现，也不等于任意私铸都合规定。",
+    "evidenceStepIds": [
+      "time",
+      "journey",
+      "change",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "NMC-WUZHU-COIN",
+      "NMC-HAN-WUZHU-REFORM",
+      "HANSHU-SHIHUO-MINTING",
+      "SHM-WUZHU-STONE-MOULD-LABEL"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-04-01-qin-unification",
+        "relation": "与秦度量衡对照共同标准，再分清钱币的管理权。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "钱范",
+      "货币",
+      "制度"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-04-02-han-governance",
@@ -94,11 +143,18 @@
   ],
   "glossary": [
     {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "term": "钱范",
+      "icon": "🪙",
+      "plain": "铸钱时帮助定出钱币形状的模具。",
+      "example": "钱范让钱有规定形状，轻重还需要称量核对。",
       "priority": 1
+    },
+    {
+      "term": "货币",
+      "icon": "🪙",
+      "plain": "大家用来交换和计算价值的共同工具。",
+      "example": "贝壳、铜钱、纸币形状不同，都要看当时怎样使用。",
+      "priority": 2
     },
     {
       "term": "制度",
@@ -106,149 +162,9 @@
       "plain": "大家长期照着运行的一整套规则和办法。",
       "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
       "priority": 1
-    },
-    {
-      "term": "交流",
-      "icon": "↔️",
-      "plain": "不同的人把物品、知识或做法带给彼此。",
-      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
-      "priority": 1
-    },
-    {
-      "term": "经济",
-      "icon": "🧺",
-      "plain": "人们怎样生产、交换、分配和使用东西。",
-      "example": "经济变化最后会落到工作、食物、住房等生活里。",
-      "priority": 1
-    },
-    {
-      "term": "文物",
-      "icon": "🏺",
-      "plain": "从过去保存下来、能帮助认识历史的东西。",
-      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
-      "priority": 1
-    },
-    {
-      "term": "遗址",
-      "icon": "🏚️",
-      "plain": "过去的人生活或活动后留下的地方。",
-      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
-      "priority": 1
-    },
-    {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
-      "priority": 1
-    },
-    {
-      "term": "手工业",
-      "icon": "🧵",
-      "plain": "主要靠手和工具制作器物的生产活动。",
-      "example": "陶器、织物和青铜器都需要材料、技术与分工。",
-      "priority": 2
-    },
-    {
-      "term": "工业",
-      "icon": "🏭",
-      "plain": "用机器、工厂和分工大规模生产东西。",
-      "example": "工业发展也要看劳动、安全、资源和环境。",
-      "priority": 2
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "技术",
-      "icon": "⚙️",
-      "plain": "人们解决具体问题时积累的工具和做法。",
-      "example": "技术常由许多人长期改进，不是某天突然出现。",
-      "priority": 2
-    },
-    {
-      "term": "农业",
-      "icon": "🌾",
-      "plain": "种植作物、饲养动物来获得食物和原料。",
-      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
-      "priority": 2
-    },
-    {
-      "term": "社会",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "许多人一起生活、分工并形成关系的整体。",
-      "example": "社会变化要看不同人受到的影响。",
-      "priority": 2
-    },
-    {
-      "term": "市场",
-      "icon": "🧺",
-      "plain": "人们交换商品和服务的地方或关系。",
-      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
-      "priority": 2
-    },
-    {
-      "term": "政权",
-      "icon": "🏛️",
-      "plain": "谁在用什么机构和规则管理一个地方。",
-      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
-      "priority": 2
-    },
-    {
-      "term": "组织",
-      "icon": "🤝",
-      "plain": "许多人为了共同事情分工、联系和行动。",
-      "example": "一个名人背后常有组织、协作者和普通参与者。",
-      "priority": 2
-    },
-    {
-      "term": "发展",
-      "icon": "🌱",
-      "plain": "事物经过一段时间出现增长或变化。",
-      "example": "发展不只看速度和数量，也要看人的生活与环境。",
-      "priority": 3
-    },
-    {
-      "term": "生产",
-      "icon": "🛠️",
-      "plain": "把材料和劳动变成食物、工具或其他产品。",
-      "example": "生产离不开人、工具、材料和组织。",
-      "priority": 3
-    },
-    {
-      "term": "统治",
-      "icon": "🏛️",
-      "plain": "掌权者用机构和规则管理人群与地方。",
-      "example": "研究统治还要问谁能参与、谁承担负担。",
-      "priority": 3
-    },
-    {
-      "term": "治理",
-      "icon": "🧭",
-      "plain": "一起安排公共事情、解决共同问题。",
-      "example": "修路、管水、定规则和听取意见都可能属于治理。",
-      "priority": 3
     }
   ],
   "pronunciations": [
-    {
-      "text": "长安",
-      "reading": "Cháng’ān",
-      "kind": "place",
-      "chapterIds": [
-        "cn-ancient-04-02-han-governance",
-        "cn-ancient-04-03-silk-road",
-        "cn-ancient-06-02-tang-governance",
-        "cn-ancient-06-03-tang-changan",
-        "cn-ancient-06-04-tang-cultural-exchange",
-        "cross-03-cultural-exchange"
-      ],
-      "note": "“长”在地名中读cháng。"
-    },
     {
       "text": "朝廷",
       "reading": "cháo tíng",
@@ -310,7 +226,7 @@
         "license": "CC BY-SA 4.0",
         "clearance": "cleared-open-license",
         "caption": "海昏侯国遗址出土并在首都博物馆展出的成串五铢钱。",
-        "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+        "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/qin-han-haihun-wuzhu.jpg"
       },
@@ -345,7 +261,7 @@
             "NMC-WUZHU-COIN"
           ],
           "caption": "真实出土文物 · 摄影 三猎 · CC BY-SA 4.0",
-          "boundary": "不能从这张照片认定每枚钱的铸造机构、当年价格或所有家庭财富。 照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+          "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。",
           "sourceLinks": [
             {
               "title": "中国国家博物馆：五铢铜钱",
@@ -415,7 +331,7 @@
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "海昏侯国遗址出土并在首都博物馆展出的成串五铢钱。",
-      "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/qin-han-haihun-wuzhu.jpg"
     },
@@ -442,16 +358,15 @@
         "reunionAlt": "戴圆框眼镜、留齐刘海的绿衣男孩与黄衣男孩、马尾女孩在集市钱摊前分享发现，现代故事插画",
         "coverCaption": "从真钱出发，去汉朝的铸钱工坊",
         "coverNarration": "汉武帝把铸钱交给朝廷统一管。小小旅行团想知道：钱有的轻、有的重，怎么办？一起去工坊找办法。",
-        "stationLine": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。",
-        "stationNarration": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。",
         "closingCaption": "汉武帝统一管铸钱，工匠照规矩做",
         "closingNarration": "我们找到办法啦！汉武帝把铸钱交给朝廷统一管。做钱要有共同规格：钱范帮助定形，称量比较轻重。",
         "closingLine": "朝廷统一管铸钱，工匠按共同规格做。",
         "fictionNote": "小伙伴和工匠是虚构教学角色；年代与铸币政策据国博及《汉书》，工具演示不是历史工序复原。",
         "reunionImage": "/content/step-images/han-market-friends-reunion-v1.jpg",
+        "stationLine": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。",
         "stationAudio": {
-          "id": "quest-b549846014ecf911",
-          "text": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。"
+          "id": "quest-6bd16741428ab81d",
+          "text": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。"
         },
         "closingAudio": {
           "id": "quest-2ba036bf7f730214",
@@ -480,7 +395,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "小伙伴与工匠观察钱范和称量工具；现代教学故事插画。",
-      "boundary": "沿用黄衣翘发男孩与青衣成人。真实石范只用于形态参考；天平为解释轻重核对的简化学具，不声称本图是上林三官工坊复原或每枚钱出厂必经该场景。钱币不生成伪铭文。实际提示词存于 docs/qa/2026-09-18-han-wuzhu/mint-art-prompt-v2.txt。",
+      "boundary": "现代小伙伴进入虚构铸钱故事。钱范形状参考真实材料，天平是解释核对轻重的简化学具；不声称这是某座上林三官工坊的原貌或每枚钱必经的场景。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/han-mint-workshop-v1.jpg"
     },
@@ -509,7 +424,7 @@
         "license": "项目自制，供本项目使用",
         "clearance": "cleared-project-created",
         "caption": "小伙伴与工匠观察钱范和称量工具；现代教学故事插画。",
-        "boundary": "沿用黄衣翘发男孩与青衣成人。真实石范只用于形态参考；天平为解释轻重核对的简化学具，不声称本图是上林三官工坊复原或每枚钱出厂必经该场景。钱币不生成伪铭文。实际提示词存于 docs/qa/2026-09-18-han-wuzhu/mint-art-prompt-v2.txt。",
+        "boundary": "现代小伙伴进入虚构铸钱故事。钱范形状参考真实材料，天平是解释核对轻重的简化学具；不声称这是某座上林三官工坊的原貌或每枚钱必经的场景。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/han-mint-workshop-v1.jpg"
       },
@@ -621,7 +536,7 @@
           "license": "CC BY-SA 4.0",
           "clearance": "cleared-open-license",
           "caption": "真实文物 · 海昏侯墓出土",
-          "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。下载为1920像素等比例缩略图，未作其他修改。 海昏侯国遗址出土并在首都博物馆展出的成串五铢钱。",
+          "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。 海昏侯国遗址出土并在首都博物馆展出的成串五铢钱。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/qin-han-haihun-wuzhu.jpg",
           "label": "点开真钱和钱范相册",
@@ -664,11 +579,11 @@
         "studyImageAlt": "西汉五铢钱，前113年集中铸钱",
         "imageAlt": "海昏侯国遗址出土五铢钱展览照片",
         "imageCaption": "海昏侯国遗址出土五铢钱展览照片",
-        "imageBoundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+        "imageBoundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。",
         "audio": {
           "lead": {
-            "id": "quest-db5c9244f25a18f4",
-            "text": "汉武帝把铸钱交给朝廷统一管。我们去哪个朝代找办法？"
+            "id": "quest-1e9ccc4ce5ec53a2",
+            "text": "汉朝的汉武帝把铸钱交给朝廷统一管。我们去哪个朝代，找统一铸钱的办法？"
           },
           "transition": {
             "id": "quest-1753e8a49d7313ef",
@@ -1099,7 +1014,7 @@
         "studyImageAlt": "钱范定形，称量轻重",
         "imageAlt": "汉朝铸钱工坊与核对工具故事插画",
         "imageCaption": "汉朝铸钱工坊与核对工具故事插画",
-        "imageBoundary": "沿用黄衣翘发男孩与青衣成人。真实石范只用于形态参考；天平为解释轻重核对的简化学具，不声称本图是上林三官工坊复原或每枚钱出厂必经该场景。钱币不生成伪铭文。实际提示词存于 docs/qa/2026-09-18-han-wuzhu/mint-art-prompt-v2.txt。",
+        "imageBoundary": "现代小伙伴进入虚构铸钱故事。钱范形状参考真实材料，天平是解释核对轻重的简化学具；不声称这是某座上林三官工坊的原貌或每枚钱必经的场景。",
         "audio": {
           "lead": {
             "id": "quest-664258a34f71db8d",
@@ -1172,7 +1087,7 @@
           "license": "CC BY-SA 4.0",
           "clearance": "cleared-open-license",
           "caption": "真实文物 · 海昏侯墓出土",
-          "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。下载为1920像素等比例缩略图，未作其他修改。 海昏侯国遗址出土并在首都博物馆展出的成串五铢钱。",
+          "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。 海昏侯国遗址出土并在首都博物馆展出的成串五铢钱。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/qin-han-haihun-wuzhu.jpg",
           "label": "再看看真钱和钱范",
@@ -1392,6 +1307,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1840,7 +1756,7 @@
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "海昏侯国遗址出土并在首都博物馆展出的成串五铢钱。",
-      "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "照片展示一批墓葬出土五铢钱，不将其数量直接外推为汉代市场计量或普通家庭财富。五铢钱制度以国家博物馆记录核验。",
       "childVisibility": "child-ok"
     },
     {
@@ -1892,7 +1808,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "小伙伴与工匠观察钱范和称量工具；现代教学故事插画。",
-      "boundary": "沿用黄衣翘发男孩与青衣成人。真实石范只用于形态参考；天平为解释轻重核对的简化学具，不声称本图是上林三官工坊复原或每枚钱出厂必经该场景。钱币不生成伪铭文。实际提示词存于 docs/qa/2026-09-18-han-wuzhu/mint-art-prompt-v2.txt。",
+      "boundary": "现代小伙伴进入虚构铸钱故事。钱范形状参考真实材料，天平是解释核对轻重的简化学具；不声称这是某座上林三官工坊的原貌或每枚钱必经的场景。",
       "childVisibility": "child-ok"
     }
   ],
@@ -1904,5 +1820,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

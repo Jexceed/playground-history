@@ -7,7 +7,24 @@
   "period": {
     "id": "three-kingdoms-jin-northern-southern",
     "label": "三国两晋南北朝",
-    "years": "220—589年"
+    "years": "220—589年",
+    "learningContext": {
+      "childIntro": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。",
+      "chronology": "220—589年为这组故事的时代范围，不是一个朝代名；曹魏、蜀汉、孙吴成立年份不同，西晋统一后又出现南北分立。",
+      "covered": "迁徙互助、江南生产、北魏改革、数学继承、壁画叙事。",
+      "scopeBoundary": "具体政权更替及战争过程保留在背景稿；不让儿童背所有政权名称，也不把整个时期说成只有战乱。",
+      "sourceIds": [
+        "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN"
+      ],
+      "sources": [
+        {
+          "id": "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+          "title": "“古代中国”基本陈列：三国两晋南北朝时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail5.html"
+        }
+      ]
+    }
   },
   "order": 16,
   "title": "一粒稻米怎样长成江南",
@@ -18,15 +35,45 @@
     "childTitle": "江南的稻田和青瓷",
     "prompt": "水土提供条件。田里长出粮食、作坊烧出青瓷，还需要人做哪些事？",
     "takeaway": "当地居民和迁来的人共同劳动。修渠、种田、制瓷，让江南一些地方逐步发展；好水土不会自己变成收成。",
-    "object": "稻谷遗存、农具和水利遗迹",
+    "object": "青瓷羊形器 · 三国吴",
     "people": [
       "江南种田人和制瓷工匠"
     ],
-    "place": "长江中下游与建康",
-    "culture": null,
+    "place": "三国至南朝的江南田间与作坊",
+    "culture": "青瓷手艺与田间劳动",
     "care": "田渠与作坊是教学情境，不复原某年某村。青瓷只能支持器物工艺与造型，不能证明田地产量或家家富足。羊形器用途仍有讨论，鸡首壶馆藏品有墓葬背景；插画器形不是对它们的精确复制。水渠维护与农业发展另据历史文献。",
     "preferredAssetId": "wu-celadon-sheep-vessel",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-05-02-jiangnan-development",
+    "theme": "生活与劳动",
+    "learningGoal": "水土提供条件，修渠与制瓷等劳动才形成生产。",
+    "parentQuestion": "有河、有泥，稻米和青瓷就会自己出现吗？",
+    "observe": "能指出修渠种田和制坯烧制是不同工作，都需要劳动。",
+    "misconception": "不能只把江南发展归功于北方迁来的人或自然条件。",
+    "evidenceStepIds": [
+      "time",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "NMC-THREE-KINGDOMS-NORTHERN-SOUTHERN",
+      "NMC-CELADON-CRAFT",
+      "NMC-CELADON-SHEEP",
+      "MET-EASTERN-JIN-CHICKEN-HEAD-EWER"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-06-01-sui-unification-canal",
+        "relation": "稻田水渠与运河都需维护，但一个助种田，一个助运输。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "农业",
+      "手工业",
+      "生产"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-05-02-jiangnan-development",
@@ -98,52 +145,10 @@
       "priority": 2
     },
     {
-      "term": "发展",
-      "icon": "🌱",
-      "plain": "事物经过一段时间出现增长或变化。",
-      "example": "发展不只看速度和数量，也要看人的生活与环境。",
-      "priority": 3
-    },
-    {
-      "term": "迁徙",
-      "icon": "👣",
-      "plain": "人们离开原住地，搬到别的地方生活。",
-      "example": "迁徙可能因为气候、生计、战争或主动选择。",
-      "priority": 1
-    },
-    {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
-      "priority": 1
-    },
-    {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
-      "priority": 1
-    },
-    {
       "term": "手工业",
       "icon": "🧵",
       "plain": "主要靠手和工具制作器物的生产活动。",
       "example": "陶器、织物和青铜器都需要材料、技术与分工。",
-      "priority": 2
-    },
-    {
-      "term": "工业",
-      "icon": "🏭",
-      "plain": "用机器、工厂和分工大规模生产东西。",
-      "example": "工业发展也要看劳动、安全、资源和环境。",
-      "priority": 2
-    },
-    {
-      "term": "政权",
-      "icon": "🏛️",
-      "plain": "谁在用什么机构和规则管理一个地方。",
-      "example": "朝代更换常伴随政权变化，但普通生活不会同一天全变。",
       "priority": 2
     },
     {
@@ -156,14 +161,13 @@
   ],
   "pronunciations": [
     {
-      "text": "建康",
-      "reading": "Jiànkāng",
-      "kind": "place",
+      "text": "青瓷",
+      "reading": "qīngcí",
+      "kind": "term",
       "chapterIds": [
-        "cn-ancient-05-01-division-migration",
         "cn-ancient-05-02-jiangnan-development"
       ],
-      "note": "古代地名，今南京一带。"
+      "note": "青色釉瓷器；“瓷”读cí。 当前仍待人耳校听。"
     }
   ],
   "gameplay": {
@@ -190,7 +194,7 @@
         "license": "CC BY-SA 4.0",
         "clearance": "cleared-open-license",
         "caption": "南京清凉山出土、中国国家博物馆藏三国吴青瓷羊形器。",
-        "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。原图为1800×1200像素，未作裁切或调色。",
+        "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/wu-celadon-sheep-vessel.jpg"
       },
@@ -204,7 +208,7 @@
         "license": "CC0 1.0",
         "clearance": "cleared-open-license",
         "caption": "大都会艺术博物馆藏东晋4—5世纪越窑青瓷鸡首壶。",
-        "boundary": "大都会艺术博物馆记录其为青瓷釉炻器和墓葬用器，鸡首造型的含义仍不明确。图片为馆方开放获取图像，下载为1920像素等比例缩略图，未作其他修改。",
+        "boundary": "大都会艺术博物馆记录其为青瓷釉炻器和墓葬用器，鸡首造型的含义仍不明确。图片为馆方开放获取图像，",
         "childVisibility": "child-ok",
         "image": "/content/step-images/eastern-jin-chicken-head-ewer.jpg"
       }
@@ -222,7 +226,7 @@
           "observation": "看看耳、角和器物的表面。",
           "narration": "这是一件三国吴的青瓷羊形器。看看耳朵、卷曲的角和光亮表面。它不是活羊，它的具体用途还有不同解释。",
           "caption": "真实器物 · 南京出土",
-          "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。原图为1800×1200像素，未作裁切或调色。",
+          "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。",
           "sourceIds": [
             "NMC-CELADON-SHEEP",
             "NMC-CELADON-CRAFT"
@@ -256,7 +260,7 @@
           "observation": "找找壶上的小鸡头造型。",
           "narration": "这件东晋青瓷壶有小鸡头一样的造型。它是墓葬用器，能帮助认识工艺，不能说明每个家庭都有同样的壶。",
           "caption": "4—5世纪 · 馆藏实物",
-          "boundary": "大都会艺术博物馆记录其为青瓷釉炻器和墓葬用器，鸡首造型的含义仍不明确。图片为馆方开放获取图像，下载为1920像素等比例缩略图，未作其他修改。",
+          "boundary": "大都会艺术博物馆记录其为青瓷釉炻器和墓葬用器，鸡首造型的含义仍不明确。图片为馆方开放获取图像，",
           "sourceIds": [
             "MET-EASTERN-JIN-CHICKEN-HEAD-EWER"
           ],
@@ -293,7 +297,7 @@
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "南京清凉山出土、中国国家博物馆藏三国吴青瓷羊形器。",
-      "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。原图为1800×1200像素，未作裁切或调色。",
+      "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/wu-celadon-sheep-vessel.jpg"
     },
@@ -320,16 +324,15 @@
         "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
         "coverCaption": "江南的稻田和青瓷",
         "coverNarration": "江南的稻田和青瓷小小旅行团出发！水土提供条件。田里长出粮食、作坊烧出青瓷，还需要人做哪些事？",
-        "stationLine": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
-        "stationNarration": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。",
         "closingCaption": "回看刚刚读懂的历史",
         "closingNarration": "当地居民和迁来的人共同劳动。修渠、种田、制瓷，让江南一些地方逐步发展；好水土不会自己变成收成。",
         "closingLine": "好水土加上共同劳动，江南慢慢发展。",
         "fictionNote": "田渠与作坊是教学情境，不复原某年某村。青瓷只能支持器物工艺与造型，不能证明田地产量或家家富足。羊形器用途仍有讨论，鸡首壶馆藏品有墓葬背景；插画器形不是对它们的精确复制。水渠维护与农业发展另据历史文献。",
         "reunionImage": "/content/step-images/jin-travel-journal-reunion-v1.jpg",
+        "stationLine": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。",
         "stationAudio": {
-          "id": "quest-07878431a28f0aec",
-          "text": "魏、蜀、吴曾经并立，晋之后南北也有同时存在的政权。一起去看迁徙、生产、改革、数学和壁画。"
+          "id": "quest-3b178ba3d4febef9",
+          "text": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。"
         },
         "closingAudio": {
           "id": "quest-6f437884a38d2ac5",
@@ -356,7 +359,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "江南田渠与青瓷作坊故事插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-jiangnan-fields-kiln-v1-prompt.txt。",
+      "boundary": "教学插画并置清理田渠与制坯两种工作，表达农业和手工业都需要劳动。不复原某个村庄或窑址，也不代表所有江南地区同期同样发展。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/jin-jiangnan-fields-kiln-v1.jpg"
     },
@@ -371,7 +374,7 @@
         "license": "项目自制，供本项目使用",
         "clearance": "cleared-project-created",
         "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
-        "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
+        "boundary": "三位现代小伙伴回看旅行手册的教学插画。册页中的器物、圆形与鹿故事是回顾线索，不是原始文物、数学原稿或北魏壁画本体。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/jin-travel-journal-reunion-v1.jpg"
       },
@@ -385,7 +388,7 @@
         "license": "项目自制，供本项目使用",
         "clearance": "cleared-project-created",
         "caption": "江南田渠与青瓷作坊故事插画；非历史现场复原。",
-        "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-jiangnan-fields-kiln-v1-prompt.txt。",
+        "boundary": "教学插画并置清理田渠与制坯两种工作，表达农业和手工业都需要劳动。不复原某个村庄或窑址，也不代表所有江南地区同期同样发展。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/jin-jiangnan-fields-kiln-v1.jpg"
       }
@@ -474,7 +477,7 @@
           "license": "CC BY-SA 4.0",
           "clearance": "cleared-open-license",
           "caption": "真实器物 · 南京出土",
-          "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。原图为1800×1200像素，未作裁切或调色。 南京清凉山出土、中国国家博物馆藏三国吴青瓷羊形器。",
+          "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。 南京清凉山出土、中国国家博物馆藏三国吴青瓷羊形器。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/wu-celadon-sheep-vessel.jpg",
           "label": "看看青瓷小羊和鸡首壶",
@@ -513,7 +516,7 @@
         "studyImageAlt": "三国吴制瓷，制瓷手艺",
         "imageAlt": "三国吴青瓷羊形器展览照片",
         "imageCaption": "三国吴青瓷羊形器展览照片",
-        "imageBoundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。原图为1800×1200像素，未作裁切或调色。",
+        "imageBoundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。",
         "audio": {
           "lead": {
             "id": "quest-d3a1c78887612677",
@@ -762,7 +765,7 @@
         "studyImageAlt": "维护水渠，制作器物",
         "imageAlt": "江南田渠与青瓷作坊故事插画",
         "imageCaption": "江南田渠与青瓷作坊故事插画",
-        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-jiangnan-fields-kiln-v1-prompt.txt。",
+        "imageBoundary": "教学插画并置清理田渠与制坯两种工作，表达农业和手工业都需要劳动。不复原某个村庄或窑址，也不代表所有江南地区同期同样发展。",
         "audio": {
           "lead": {
             "id": "quest-abc85a85b0e158a7",
@@ -837,7 +840,7 @@
         "studyImageAlt": "查看堵处，持续维护",
         "imageAlt": "江南田渠与青瓷作坊故事插画",
         "imageCaption": "江南田渠与青瓷作坊故事插画",
-        "imageBoundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-jiangnan-fields-kiln-v1-prompt.txt。",
+        "imageBoundary": "教学插画并置清理田渠与制坯两种工作，表达农业和手工业都需要劳动。不复原某个村庄或窑址，也不代表所有江南地区同期同样发展。",
         "audio": {
           "lead": {
             "id": "quest-f9359da9c672f429",
@@ -960,7 +963,7 @@
           "license": "CC0 1.0",
           "clearance": "cleared-open-license",
           "caption": "4—5世纪 · 馆藏实物",
-          "boundary": "大都会艺术博物馆记录其为青瓷釉炻器和墓葬用器，鸡首造型的含义仍不明确。图片为馆方开放获取图像，下载为1920像素等比例缩略图，未作其他修改。 大都会艺术博物馆藏东晋4—5世纪越窑青瓷鸡首壶。",
+          "boundary": "大都会艺术博物馆记录其为青瓷釉炻器和墓葬用器，鸡首造型的含义仍不明确。图片为馆方开放获取图像， 大都会艺术博物馆藏东晋4—5世纪越窑青瓷鸡首壶。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/eastern-jin-chicken-head-ewer.jpg",
           "label": "看看真正的鸡首壶",
@@ -1174,6 +1177,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1536,7 +1540,7 @@
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "南京清凉山出土、中国国家博物馆藏三国吴青瓷羊形器。",
-      "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。原图为1800×1200像素，未作裁切或调色。",
+      "boundary": "馆方常用名为青瓷羊形烛台，但研究页面也记录水器等不同用途判断；儿童页面持续使用较中性的“羊形器”，并说明用途仍有讨论。",
       "childVisibility": "child-ok"
     },
     {
@@ -1549,7 +1553,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "大都会艺术博物馆藏东晋4—5世纪越窑青瓷鸡首壶。",
-      "boundary": "大都会艺术博物馆记录其为青瓷釉炻器和墓葬用器，鸡首造型的含义仍不明确。图片为馆方开放获取图像，下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "大都会艺术博物馆记录其为青瓷釉炻器和墓葬用器，鸡首造型的含义仍不明确。图片为馆方开放获取图像，",
       "childVisibility": "child-ok"
     },
     {
@@ -1562,7 +1566,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "江南田渠与青瓷作坊故事插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-jiangnan-fields-kiln-v1-prompt.txt。",
+      "boundary": "教学插画并置清理田渠与制坯两种工作，表达农业和手工业都需要劳动。不复原某个村庄或窑址，也不代表所有江南地区同期同样发展。",
       "childVisibility": "child-ok"
     },
     {
@@ -1575,7 +1579,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
-      "boundary": "现代教学插画。人物、服饰、房屋和道具不作具体古代现场证据，不以长相或衣服判定族群。数学书房为今天的复古学习情境，现代装订和陈设不当作南朝遗物；几何关系由独立代码学具绘制。鹿故事新图按教学顺序排三幅，不复制原壁画布局或现代动画。提示词见 docs/qa/2026-09-19-jin-northern-southern/jin-travel-journal-reunion-v1-prompt.txt。",
+      "boundary": "三位现代小伙伴回看旅行手册的教学插画。册页中的器物、圆形与鹿故事是回顾线索，不是原始文物、数学原稿或北魏壁画本体。",
       "childVisibility": "child-ok"
     }
   ],
@@ -1587,5 +1591,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

@@ -8,120 +8,126 @@
 - 互动：5个
 - 状态：事实研究完成，儿童稿和语音稿初稿
 
+- 本轮适龄复核：2026-09-22仅校准成人记录与儿童观察的分工；编辑长稿仍待重写、校听和真实共玩，不直接作为学前主线。
+
 ## 本章结论
 
 生态环境与社会发展不是“人战胜一条河”的单人英雄故事。本章以中国都江堰为主线：约公元前256年，蜀郡守李冰主持、许多劳动者共同建设水利工程；工程利用岷江从山地进入成都平原时的地形和水流条件，以鱼嘴分水堤、飞沙堰溢洪道、宝瓶口引水口和其他堤岸水道协同完成分水、排沙、泄洪、控流与灌溉。史籍对李冰最初修建过程记载很简略，今天看到的系统也不是战国材料原封不动保存至今：唐、宋、元、明等时期不断修改扩展，历代管理者和劳动者通过岁修、淘挖河床、加固河堤与更新材料让它持续运行。水利带来灌溉、防洪、水运和生活用水等效益，也需要持续分配、维护、劳动和环境监测，不能把成都平原的全部发展归功于一个工程。最后与约公元前3000—前1500年、位于干旱卡迪尔岛的朵拉维拉比较：那里利用两条季节性溪流、蓄水池和排水系统保存稀缺水源；都江堰则在水量大、泥沙与洪水问题明显的岷江分流。环境不同，解决办法不同，不能按规模或年代给文明排高低。
 
-## 88条事实卡
-
+## 事实卡
 ### 先把工程放回时间线
 
-1. 教育部《义务教育历史课程标准（2022年版）》把“生态环境与社会发展”列为跨学科主题学习参考示例。[MOE-HISTORY-CURRICULUM-2022]
-2. 本章以都江堰为中国主案例，把地理、水流、泥沙、农业、劳动、制度和历史证据放在同一条时间线上。[MOE-HISTORY-CURRICULUM-2022; UNESCO-DUJIANGYAN]
-3. 联合国教科文组织把都江堰水利系统的初建年代概括为公元前3世纪，较具体的中国水利资料写作约公元前256年。[UNESCO-DUJIANGYAN; SICHUAN-DUJIANGYAN-OVERVIEW]
-4. 工程初建处在战国时期秦国治理蜀地的背景中，不是秦朝统一全国以后的工程。[SICHUAN-DUJIANGYAN-OVERVIEW; NEAC-DUJIANGYAN-MAINTENANCE]
-5. 中国水利资料记载，蜀郡守李冰主持、民众参与建设；“主持者”不能替代设计、开凿、搬运和维护的众多劳动者。[SICHUAN-DUJIANGYAN-OVERVIEW; NEAC-DUJIANGYAN-MAINTENANCE]
-6. 唐、宋、元、明等时期继续修改和扩展都江堰，工程不是公元前256年一次完工后再也不变。[UNESCO-DUJIANGYAN]
-7. 都江堰在2000年作为青城山—都江堰组成部分列入《世界遗产名录》。[UNESCO-DUJIANGYAN]
-8. 这个水利系统至今仍调节岷江水并把水分送到成都平原农田。[UNESCO-DUJIANGYAN]
-9. “使用两千多年”指工程思想、位置、功能和持续维护形成的活态系统，不表示每块石头、每条堤岸都保持战国原样。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
-10. 本章使用2002、2005、2019和2020年的照片，照片日期都必须与公元前3世纪的始建年代分开显示。[COMMONS-DUJIANGYAN-BAOPINGKOU-MAINTENANCE-2002; COMMONS-DUJIANGYAN-BAOPINGKOU-2019; COMMONS-DUJIANGYAN-WEIR-OVERVIEW-2020]
-11. 历史水利工程是河流、地形、人工结构、管理制度和维护劳动共同组成的系统，不能缩成一座“古代机器”。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
-12. 本章不用“征服自然”作为结论，而追问人怎样观察自然条件、作出干预，并长期承担维护和分配责任。[MOE-HISTORY-CURRICULUM-2022; UNESCO-DUJIANGYAN]
+1. 本章以都江堰为中国主案例，把地理、水流、泥沙、农业、劳动、制度和历史证据放在同一条时间线上。[MOE-HISTORY-CURRICULUM-2022; UNESCO-DUJIANGYAN]
+2. 联合国教科文组织把都江堰水利系统的初建年代概括为公元前3世纪，较具体的中国水利资料写作约公元前256年。[UNESCO-DUJIANGYAN; SICHUAN-DUJIANGYAN-OVERVIEW]
+3. 工程初建处在战国时期秦国治理蜀地的背景中，不是秦朝统一全国以后的工程。[SICHUAN-DUJIANGYAN-OVERVIEW; NEAC-DUJIANGYAN-MAINTENANCE]
+4. 中国水利资料记载，蜀郡守李冰主持、民众参与建设；“主持者”不能替代设计、开凿、搬运和维护的众多劳动者。[SICHUAN-DUJIANGYAN-OVERVIEW; NEAC-DUJIANGYAN-MAINTENANCE]
+5. 唐、宋、元、明等时期继续修改和扩展都江堰，工程不是公元前256年一次完工后再也不变。[UNESCO-DUJIANGYAN]
+6. 都江堰在2000年作为青城山—都江堰组成部分列入《世界遗产名录》。[UNESCO-DUJIANGYAN]
+7. 这个水利系统至今仍调节岷江水并把水分送到成都平原农田。[UNESCO-DUJIANGYAN]
+8. “使用两千多年”指工程思想、位置、功能和持续维护形成的活态系统，不表示每块石头、每条堤岸都保持战国原样。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
+9. 本章使用2002、2005、2019和2020年的照片，照片日期都必须与公元前3世纪的始建年代分开显示。[COMMONS-DUJIANGYAN-BAOPINGKOU-MAINTENANCE-2002; COMMONS-DUJIANGYAN-BAOPINGKOU-2019; COMMONS-DUJIANGYAN-WEIR-OVERVIEW-2020]
+10. 历史水利工程是河流、地形、人工结构、管理制度和维护劳动共同组成的系统，不能缩成一座“古代机器”。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
+11. 本章不用“征服自然”作为结论，而追问人怎样观察自然条件、作出干预，并长期承担维护和分配责任。[MOE-HISTORY-CURRICULUM-2022; UNESCO-DUJIANGYAN]
 
 ### 岷江从山地进入平原：工程先读懂了什么环境
 
-13. 都江堰位于成都平原西部、四川盆地与青藏高原相接的区域。[UNESCO-DUJIANGYAN]
-14. 水利枢纽处在岷江上游河谷向成都平原过渡的位置，地形高差和水流方向是设计条件。[UNESCO-DUJIANGYAN]
-15. 联合国教科文组织记录枢纽工程海拔约726米，位于成都平原较高处，并与灌溉区相连。[UNESCO-DUJIANGYAN]
-16. 岷江带来的不仅是可用水，也有洪水、泥沙和流量变化等需要处理的问题。[UNESCO-DUJIANGYAN; SICHUAN-DUJIANGYAN-OVERVIEW]
-17. 都江堰利用天然地形和水文条件解决引水灌溉、排沙、防洪与流量控制问题。[UNESCO-DUJIANGYAN]
-18. 联合国教科文组织把它概括为不以拦河大坝截断主流的引水系统；儿童层写“无坝引水”，不写成“完全没有任何人工堤岸和控制设施”。[UNESCO-DUJIANGYAN]
-19. 今天系统可分为渠首枢纽和灌溉区两大部分，渠首不是整套灌区的全部。[UNESCO-DUJIANGYAN]
-20. 岷江上游来水经过渠首分配，再进入成都平原的河渠网络，不是一条水管直达每块田。[UNESCO-DUJIANGYAN]
-21. 山地、河道弯曲、河床高低、流速和泥沙会互相影响，静止地图只能表示结构关系，不能重现每一天的水流。[UNESCO-DUJIANGYAN]
-22. 2020年总览照片能同时看见河流分支、山地、植被、堤岸、桥梁和现代游览设施。[COMMONS-DUJIANGYAN-WEIR-OVERVIEW-2020]
-23. 照片里某一刻的水色、水位和沙洲形状受当时天气、流量、光线与维护状态影响，不能当作全年固定样子。[COMMONS-DUJIANGYAN-WEIR-OVERVIEW-2020]
-24. 2005年鱼嘴照片显示今天的分流地形和堤岸，却不是战国刚完工时的材料、尺寸和植被记录。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
-25. 只凭俯视照片不能精确算出两条河道流量、泥沙比例和灌溉面积；这些需要测量数据与时间口径。[UNESCO-DUJIANGYAN]
-26. 环境条件给工程提供机会也提出限制，因此“顺应地形”不等于工程不需要人工建设、调度和维修。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
+12. 都江堰位于成都平原西部、四川盆地与青藏高原相接的区域。[UNESCO-DUJIANGYAN]
+13. 水利枢纽处在岷江上游河谷向成都平原过渡的位置，地形高差和水流方向是设计条件。[UNESCO-DUJIANGYAN]
+14. 联合国教科文组织记录枢纽工程海拔约726米，位于成都平原较高处，并与灌溉区相连。[UNESCO-DUJIANGYAN]
+15. 岷江带来的不仅是可用水，也有洪水、泥沙和流量变化等需要处理的问题。[UNESCO-DUJIANGYAN; SICHUAN-DUJIANGYAN-OVERVIEW]
+16. 都江堰利用天然地形和水文条件解决引水灌溉、排沙、防洪与流量控制问题。[UNESCO-DUJIANGYAN]
+17. 联合国教科文组织把它概括为不以拦河大坝截断主流的引水系统；儿童层写“无坝引水”，不写成“完全没有任何人工堤岸和控制设施”。[UNESCO-DUJIANGYAN]
+18. 今天系统可分为渠首枢纽和灌溉区两大部分，渠首不是整套灌区的全部。[UNESCO-DUJIANGYAN]
+19. 岷江上游来水经过渠首分配，再进入成都平原的河渠网络，不是一条水管直达每块田。[UNESCO-DUJIANGYAN]
+20. 山地、河道弯曲、河床高低、流速和泥沙会互相影响，静止地图只能表示结构关系，不能重现每一天的水流。[UNESCO-DUJIANGYAN]
+21. 2020年总览照片能同时看见河流分支、山地、植被、堤岸、桥梁和现代游览设施。[COMMONS-DUJIANGYAN-WEIR-OVERVIEW-2020]
+22. 照片里某一刻的水色、水位和沙洲形状受当时天气、流量、光线与维护状态影响，不能当作全年固定样子。[COMMONS-DUJIANGYAN-WEIR-OVERVIEW-2020]
+23. 2005年鱼嘴照片显示今天的分流地形和堤岸，却不是战国刚完工时的材料、尺寸和植被记录。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
+24. 只凭俯视照片不能精确算出两条河道流量、泥沙比例和灌溉面积；这些需要测量数据与时间口径。[UNESCO-DUJIANGYAN]
+25. 环境条件给工程提供机会也提出限制，因此“顺应地形”不等于工程不需要人工建设、调度和维修。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
 
 ### 三个主体工程怎样协同，而不是各自表演
 
-27. 都江堰渠首的三个主体工程是鱼嘴分水堤、飞沙堰溢洪道和宝瓶口引水口。[UNESCO-DUJIANGYAN; SICHUAN-DUJIANGYAN-OVERVIEW]
-28. 鱼嘴位于分流前端，把岷江水分入内江和外江两条河道。[SICHUAN-DUJIANGYAN-OVERVIEW; NEAC-DUJIANGYAN-MAINTENANCE]
-29. “鱼嘴”是形状和功能名称，不是一条真实鱼，也不靠鱼张嘴控制水流。[NEAC-DUJIANGYAN-MAINTENANCE]
-30. 中国官方研究介绍，早期鱼嘴曾使用装有卵石的竹笼等就地材料构筑，后世材料与结构不断改变。[NEAC-DUJIANGYAN-MAINTENANCE]
-31. 现状照片中的石砌、混凝土、道路和桥梁不能全部倒推为李冰时代原材料。[NEAC-DUJIANGYAN-MAINTENANCE]
-32. 飞沙堰承担泄洪和排沙等作用，帮助多余水量与部分泥沙离开内江系统。[UNESCO-DUJIANGYAN; SICHUAN-DUJIANGYAN-OVERVIEW]
-33. “飞沙”是对排沙作用的形象称呼，不能理解成所有沙粒都会自动飞走、渠道永不淤积。[NEAC-DUJIANGYAN-MAINTENANCE]
-34. 宝瓶口是人工开出的狭窄引水通道，控制进入成都平原渠系的水量。[UNESCO-DUJIANGYAN; SICHUAN-DUJIANGYAN-OVERVIEW]
-35. “宝瓶口”同样是形状名称，不是一只埋在山里的真实宝瓶。[SICHUAN-DUJIANGYAN-OVERVIEW]
-36. 2019年照片能显示宝瓶口附近狭窄水道、离堆和现代建筑环境。[COMMONS-DUJIANGYAN-BAOPINGKOU-2019]
-37. 单张照片没有流量尺，不能从画面宽窄直接算出当日每秒通过多少水。[COMMONS-DUJIANGYAN-BAOPINGKOU-2019]
-38. 鱼嘴先分流，飞沙堰帮助泄洪排沙，宝瓶口控制引入渠系的水，三者必须和其他堤岸水道协调工作。[UNESCO-DUJIANGYAN]
-39. 联合国教科文组织还列出百丈堤、二王庙水道、人字堤等辅助设施，因此“三大工程”不是“只有三个构件”。[UNESCO-DUJIANGYAN]
-40. 都江堰产生防洪、灌溉、水运和一般用水等综合作用，不应把全部功能只写成“浇田”。[UNESCO-DUJIANGYAN]
-41. 一个部件损坏、河床改变或泥沙堆积都会影响系统，三张孤立卡片不能代替整体关系。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
-42. 儿童互动只模拟“分水—排沙泄洪—控制引水”的概念关系，不生成可用于真实水利操作的闸门参数。[UNESCO-DUJIANGYAN]
-43. 国民委页面用平水期与洪水期的不同分流比例解释鱼嘴作用；这些是条件性概括，不是全年永远固定的60∶40公式。[NEAC-DUJIANGYAN-MAINTENANCE]
-44. 如果应用让孩子拖动水量，只显示“较多、较少、溢流和排沙”的定性结果，不冒充真实水动力计算。[NEAC-DUJIANGYAN-MAINTENANCE]
-45. 要得到实际流量、泥沙量和灌溉调度方案，必须使用当时监测资料与专业模型，本章史料不足以回答。[UNESCO-DUJIANGYAN]
+26. 都江堰渠首的三个主体工程是鱼嘴分水堤、飞沙堰溢洪道和宝瓶口引水口。[UNESCO-DUJIANGYAN; SICHUAN-DUJIANGYAN-OVERVIEW]
+27. 鱼嘴位于分流前端，把岷江水分入内江和外江两条河道。[SICHUAN-DUJIANGYAN-OVERVIEW; NEAC-DUJIANGYAN-MAINTENANCE]
+28. “鱼嘴”是形状和功能名称，不是一条真实鱼，也不靠鱼张嘴控制水流。[NEAC-DUJIANGYAN-MAINTENANCE]
+29. 中国官方研究介绍，早期鱼嘴曾使用装有卵石的竹笼等就地材料构筑，后世材料与结构不断改变。[NEAC-DUJIANGYAN-MAINTENANCE]
+30. 现状照片中的石砌、混凝土、道路和桥梁不能全部倒推为李冰时代原材料。[NEAC-DUJIANGYAN-MAINTENANCE]
+31. 飞沙堰承担泄洪和排沙等作用，帮助多余水量与部分泥沙离开内江系统。[UNESCO-DUJIANGYAN; SICHUAN-DUJIANGYAN-OVERVIEW]
+32. “飞沙”是对排沙作用的形象称呼，不能理解成所有沙粒都会自动飞走、渠道永不淤积。[NEAC-DUJIANGYAN-MAINTENANCE]
+33. 宝瓶口是人工开出的狭窄引水通道，控制进入成都平原渠系的水量。[UNESCO-DUJIANGYAN; SICHUAN-DUJIANGYAN-OVERVIEW]
+34. “宝瓶口”同样是形状名称，不是一只埋在山里的真实宝瓶。[SICHUAN-DUJIANGYAN-OVERVIEW]
+35. 2019年照片能显示宝瓶口附近狭窄水道、离堆和现代建筑环境。[COMMONS-DUJIANGYAN-BAOPINGKOU-2019]
+36. 单张照片没有流量尺，不能从画面宽窄直接算出当日每秒通过多少水。[COMMONS-DUJIANGYAN-BAOPINGKOU-2019]
+37. 鱼嘴先分流，飞沙堰帮助泄洪排沙，宝瓶口控制引入渠系的水，三者必须和其他堤岸水道协调工作。[UNESCO-DUJIANGYAN]
+38. 联合国教科文组织还列出百丈堤、二王庙水道、人字堤等辅助设施，因此“三大工程”不是“只有三个构件”。[UNESCO-DUJIANGYAN]
+39. 都江堰产生防洪、灌溉、水运和一般用水等综合作用，不应把全部功能只写成“浇田”。[UNESCO-DUJIANGYAN]
+40. 一个部件损坏、河床改变或泥沙堆积都会影响系统，三张孤立卡片不能代替整体关系。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
+41. 儿童互动只模拟“分水—排沙泄洪—控制引水”的概念关系，不生成可用于真实水利操作的闸门参数。[UNESCO-DUJIANGYAN]
+42. 国民委页面用平水期与洪水期的不同分流比例解释鱼嘴作用；这些是条件性概括，不是全年永远固定的60∶40公式。[NEAC-DUJIANGYAN-MAINTENANCE]
+43. 如果应用让孩子拖动水量，只显示“较多、较少、溢流和排沙”的定性结果，不冒充真实水动力计算。[NEAC-DUJIANGYAN-MAINTENANCE]
+44. 要得到实际流量、泥沙量和灌溉调度方案，必须使用当时监测资料与专业模型，本章史料不足以回答。[UNESCO-DUJIANGYAN]
 
 ### 为什么能用很久：答案不是“古人一次造得完美”
 
-46. 现存早期文献对李冰最初修建都江堰的过程记载很简略。[NEAC-DUJIANGYAN-MAINTENANCE]
-47. 《史记》留下李冰凿离堆、避水患和开水道等概要，不能据几句话复原每天施工顺序、工具和每位参与者。[NEAC-DUJIANGYAN-MAINTENANCE]
-48. 李冰是主持治水的重要人物，工程仍依靠许多劳动者、管理者和地方社会共同建设。[SICHUAN-DUJIANGYAN-OVERVIEW; NEAC-DUJIANGYAN-MAINTENANCE]
-49. 把都江堰说成“李冰一个人挖出来”会同时抹去集体劳动和长期维护。[NEAC-DUJIANGYAN-MAINTENANCE]
-50. 联合国教科文组织明确记录唐、宋、元、明时期对工程作过修改和扩展。[UNESCO-DUJIANGYAN]
-51. 历代地方管理者设置负责水利的官员和人员，工程运转需要制度而不只需要石头。[NEAC-DUJIANGYAN-MAINTENANCE]
-52. 古代常在冬季进行岁修，包括临时围水、淘修河床和加固河堤等工作。[NEAC-DUJIANGYAN-MAINTENANCE]
-53. 岁修说明泥沙会积、材料会损、水道会变；“顺应自然”并不等于“永不维修”。[NEAC-DUJIANGYAN-MAINTENANCE]
-54. 元代、清代等时期曾采用铁石、条石、铁链等新材料与做法改进鱼嘴和河岸。[NEAC-DUJIANGYAN-MAINTENANCE]
-55. 后世改造可以延续原有分水思想，同时改变具体材料和结构；“延续”与“改变”可以同时成立。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
-56. 2002年照片显示宝瓶口岁修场景中的低水位、卵石河床和现代人员，是2002年维护的图像证据。[COMMONS-DUJIANGYAN-BAOPINGKOU-MAINTENANCE-2002]
-57. 这张照片不能证明战国、唐代或宋代使用同样工具、服装和施工方法，也不能代表每年水位都相同。[COMMONS-DUJIANGYAN-BAOPINGKOU-MAINTENANCE-2002]
-58. 世界遗产保护、现代水利管理和监测继续参与系统运行，活态遗产不是封闭不动的博物馆展品。[UNESCO-DUJIANGYAN; SICHUAN-DUJIANGYAN-OVERVIEW]
-59. 联合国教科文组织页面记录灌溉农田668700公顷；这是该页面所用时期和范围的数字。[UNESCO-DUJIANGYAN]
-60. 四川省水利厅2025年页面记录当年灌溉面积1165万亩，换算约776667公顷，并写到服务范围覆盖多座城市。[SICHUAN-DUJIANGYAN-OVERVIEW]
-61. 两个面积数字的时间和统计范围可能不同，儿童数学卡先核对年份、单位和口径，不能直接判定其中一个“错了”。[UNESCO-DUJIANGYAN; SICHUAN-DUJIANGYAN-OVERVIEW]
+45. 现存早期文献对李冰最初修建都江堰的过程记载很简略。[NEAC-DUJIANGYAN-MAINTENANCE]
+46. 《史记》留下李冰凿离堆、避水患和开水道等概要，不能据几句话复原每天施工顺序、工具和每位参与者。[NEAC-DUJIANGYAN-MAINTENANCE]
+47. 李冰是主持治水的重要人物，工程仍依靠许多劳动者、管理者和地方社会共同建设。[SICHUAN-DUJIANGYAN-OVERVIEW; NEAC-DUJIANGYAN-MAINTENANCE]
+48. 把都江堰说成“李冰一个人挖出来”会同时抹去集体劳动和长期维护。[NEAC-DUJIANGYAN-MAINTENANCE]
+49. 联合国教科文组织明确记录唐、宋、元、明时期对工程作过修改和扩展。[UNESCO-DUJIANGYAN]
+50. 历代地方管理者设置负责水利的官员和人员，工程运转需要制度而不只需要石头。[NEAC-DUJIANGYAN-MAINTENANCE]
+51. 古代常在冬季进行岁修，包括临时围水、淘修河床和加固河堤等工作。[NEAC-DUJIANGYAN-MAINTENANCE]
+52. 岁修说明泥沙会积、材料会损、水道会变；“顺应自然”并不等于“永不维修”。[NEAC-DUJIANGYAN-MAINTENANCE]
+53. 元代、清代等时期曾采用铁石、条石、铁链等新材料与做法改进鱼嘴和河岸。[NEAC-DUJIANGYAN-MAINTENANCE]
+54. 后世改造可以延续原有分水思想，同时改变具体材料和结构；“延续”与“改变”可以同时成立。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
+55. 2002年照片显示宝瓶口岁修场景中的低水位、卵石河床和现代人员，是2002年维护的图像证据。[COMMONS-DUJIANGYAN-BAOPINGKOU-MAINTENANCE-2002]
+56. 这张照片不能证明战国、唐代或宋代使用同样工具、服装和施工方法，也不能代表每年水位都相同。[COMMONS-DUJIANGYAN-BAOPINGKOU-MAINTENANCE-2002]
+57. 世界遗产保护、现代水利管理和监测继续参与系统运行，活态遗产不是封闭不动的博物馆展品。[UNESCO-DUJIANGYAN; SICHUAN-DUJIANGYAN-OVERVIEW]
+58. 联合国教科文组织页面记录灌溉农田668700公顷；这是该页面所用时期和范围的数字。[UNESCO-DUJIANGYAN]
+59. 四川省水利厅2025年页面记录当年灌溉面积1165万亩，换算约776667公顷，并写到服务范围覆盖多座城市。[SICHUAN-DUJIANGYAN-OVERVIEW]
+60. 两个面积数字的时间和统计范围可能不同，儿童数学卡先核对年份、单位和口径，不能直接判定其中一个“错了”。[UNESCO-DUJIANGYAN; SICHUAN-DUJIANGYAN-OVERVIEW]
 
 ### 灌溉带来发展，也带来长期责任
 
-62. 都江堰为成都平原提供灌溉、防洪、水运和一般用水等多方面效益。[UNESCO-DUJIANGYAN]
-63. 稳定的水源有助于农业生产和聚落发展，但土壤、气候、劳动力、制度、市场与技术等也共同影响社会变化。[UNESCO-DUJIANGYAN; MOE-HISTORY-CURRICULUM-2022]
-64. 不能因为都江堰重要，就把成都平原两千多年的全部繁荣、人口和粮食变化都归给一项工程。[MOE-HISTORY-CURRICULUM-2022]
-65. “天府之国”是历史文化称谓，不是可以由一张水利照片单独检验的科学结论。[SICHUAN-DUJIANGYAN-OVERVIEW]
-66. 工程改变水的空间分配，既利用环境，也对河道、农田和人的生活作出持续干预。[UNESCO-DUJIANGYAN]
-67. “生态工程”不等于“没有人工影响”，而是强调利用地形水文、控制干预方式并持续管理。[UNESCO-DUJIANGYAN]
-68. 水是共享资源，灌溉范围、洪水风险和生活用水需要管理与协调，不会因为工程古老就自动公平分配。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
-69. 维护需要人员、材料、时间和组织，工程带来的收益与维护成本都属于社会发展史。[NEAC-DUJIANGYAN-MAINTENANCE]
-70. 水利设施可以降低部分风险，却不能保证以后永远没有洪水、干旱、地震、淤积和设施损坏。[UNESCO-DUJIANGYAN]
-71. 评价工程既看技术成果，也要看谁建设、谁维护、谁使用、数据属于哪个时期和环境怎样变化。[MOE-HISTORY-CURRICULUM-2022]
-72. 儿童活动不让玩家“放洪水冲村庄”或按受灾人数得分，只判断证据、结构关系与维护责任。[MOE-HISTORY-CURRICULUM-2022]
-73. 本章结论不是“古代办法可以直接复制到所有河流”，而是“先理解当地环境，再设计并长期校正”。[UNESCO-DUJIANGYAN]
+61. 都江堰为成都平原提供灌溉、防洪、水运和一般用水等多方面效益。[UNESCO-DUJIANGYAN]
+62. 稳定的水源有助于农业生产和聚落发展，但土壤、气候、劳动力、制度、市场与技术等也共同影响社会变化。[UNESCO-DUJIANGYAN; MOE-HISTORY-CURRICULUM-2022]
+63. “天府之国”是历史文化称谓，不是可以由一张水利照片单独检验的科学结论。[SICHUAN-DUJIANGYAN-OVERVIEW]
+64. 工程改变水的空间分配，既利用环境，也对河道、农田和人的生活作出持续干预。[UNESCO-DUJIANGYAN]
+65. “生态工程”不等于“没有人工影响”，而是强调利用地形水文、控制干预方式并持续管理。[UNESCO-DUJIANGYAN]
+66. 水是共享资源，灌溉范围、洪水风险和生活用水需要管理与协调，不会因为工程古老就自动公平分配。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
+67. 维护需要人员、材料、时间和组织，工程带来的收益与维护成本都属于社会发展史。[NEAC-DUJIANGYAN-MAINTENANCE]
+68. 水利设施可以降低部分风险，却不能保证以后永远没有洪水、干旱、地震、淤积和设施损坏。[UNESCO-DUJIANGYAN]
+69. 本章结论不是“古代办法可以直接复制到所有河流”，而是“先理解当地环境，再设计并长期校正”。[UNESCO-DUJIANGYAN]
 
 ### 向世界看：干旱城市为什么选择蓄水
 
-74. 朵拉维拉位于今天印度古吉拉特邦干旱的卡迪尔岛，是哈拉帕文明城市遗址。[UNESCO-DHOLAVIRA-HARAPPAN-CITY]
-75. 遗址大约在公元前3000—前1500年有人居住，年代整体早于都江堰初建。[UNESCO-DHOLAVIRA-HARAPPAN-CITY; UNESCO-DUJIANGYAN]
-76. 当地水资源稀缺，城市利用两条季节性溪流，并建设蓄水池和排水系统。[UNESCO-DHOLAVIRA-HARAPPAN-CITY]
-77. 蓄水设施位于城堡区东侧和南侧，是城市规划的一部分，不是一口孤立水坑。[UNESCO-DHOLAVIRA-HARAPPAN-CITY]
-78. 2017年照片显示考古发掘后保存的蓄水设施与墙体，是现代遗址现状，不是公元前3000年的蓄水现场。[UNESCO-DHOLAVIRA-HARAPPAN-CITY]
-79. 照片中设施看起来干燥，不能单独证明古代每个季节都无水，也不能从今日天气推断古代气候全过程。[UNESCO-DHOLAVIRA-HARAPPAN-CITY]
-80. 朵拉维拉面对的是干旱环境与季节性来水，核心任务包括收集、储存和排放；都江堰面对岷江大流量、泥沙和洪水，核心任务包括分水、排沙、泄洪和引水。[UNESCO-DHOLAVIRA-HARAPPAN-CITY; UNESCO-DUJIANGYAN]
-81. 两地都利用重力、地形和人工设施管理水，但器材、规模、社会组织和环境条件不同。[UNESCO-DHOLAVIRA-HARAPPAN-CITY; UNESCO-DUJIANGYAN]
-82. 这组比较不证明两地直接交流，也不按工程更大、年代更早或今天仍使用给文明排名。[UNESCO-DHOLAVIRA-HARAPPAN-CITY; UNESCO-DUJIANGYAN]
+70. 朵拉维拉位于今天印度古吉拉特邦干旱的卡迪尔岛，是哈拉帕文明城市遗址。[UNESCO-DHOLAVIRA-HARAPPAN-CITY]
+71. 遗址大约在公元前3000—前1500年有人居住，年代整体早于都江堰初建。[UNESCO-DHOLAVIRA-HARAPPAN-CITY; UNESCO-DUJIANGYAN]
+72. 当地水资源稀缺，城市利用两条季节性溪流，并建设蓄水池和排水系统。[UNESCO-DHOLAVIRA-HARAPPAN-CITY]
+73. 蓄水设施位于城堡区东侧和南侧，是城市规划的一部分，不是一口孤立水坑。[UNESCO-DHOLAVIRA-HARAPPAN-CITY]
+74. 2017年照片显示考古发掘后保存的蓄水设施与墙体，是现代遗址现状，不是公元前3000年的蓄水现场。[UNESCO-DHOLAVIRA-HARAPPAN-CITY]
+75. 照片中设施看起来干燥，不能单独证明古代每个季节都无水，也不能从今日天气推断古代气候全过程。[UNESCO-DHOLAVIRA-HARAPPAN-CITY]
+76. 朵拉维拉面对的是干旱环境与季节性来水，核心任务包括收集、储存和排放；都江堰面对岷江大流量、泥沙和洪水，核心任务包括分水、排沙、泄洪和引水。[UNESCO-DHOLAVIRA-HARAPPAN-CITY; UNESCO-DUJIANGYAN]
+77. 两地都利用重力、地形和人工设施管理水，但器材、规模、社会组织和环境条件不同。[UNESCO-DHOLAVIRA-HARAPPAN-CITY; UNESCO-DUJIANGYAN]
+78. 这组比较不证明两地直接交流，也不按工程更大、年代更早或今天仍使用给文明排名。[UNESCO-DHOLAVIRA-HARAPPAN-CITY; UNESCO-DUJIANGYAN]
 
 ### 怎样完成一张生态与社会证据图
 
-83. “环境条件”栏写地形、河流、季节和泥沙；“人工选择”栏写分水、引水、蓄水、排沙和维护。[MOE-HISTORY-CURRICULUM-2022]
-84. “社会作用”栏写灌溉、防洪、用水、劳动与管理；“证据边界”栏写照片年代、数字口径和仍然未知的问题。[MOE-HISTORY-CURRICULUM-2022]
-85. 现代照片必须标“现状”或“维护场景”，不能用滤镜改造成战国施工照；示意图必须标“依据来源绘制”。[COMMONS-DUJIANGYAN-WEIR-OVERVIEW-2020; COMMONS-DUJIANGYAN-BAOPINGKOU-MAINTENANCE-2002]
-86. 不写“李冰一个人造完”“两千年从未改变”“都江堰让所有人自动富裕”或“古代技术能解决所有现代水问题”。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
-87. 不让孩子操作真实工程参数、预测真实洪水或为城市分配现实用水；互动只训练结构关系、来源核对和责任意识。[MOE-HISTORY-CURRICULUM-2022]
-88. 孩子最后复述：“环境提出什么问题，人们做了什么选择，谁长期维护，证据能说到哪里。”[MOE-HISTORY-CURRICULUM-2022]
+79. 现代照片必须标“现状”或“维护场景”，不能用滤镜改造成战国施工照；示意图必须标“依据来源绘制”。[COMMONS-DUJIANGYAN-WEIR-OVERVIEW-2020; COMMONS-DUJIANGYAN-BAOPINGKOU-MAINTENANCE-2002]
+80. 不写“李冰一个人造完”“两千年从未改变”“都江堰让所有人自动富裕”或“古代技术能解决所有现代水问题”。[UNESCO-DUJIANGYAN; NEAC-DUJIANGYAN-MAINTENANCE]
+
+## 学习设计与史料阅读方法
+
+以下是史料阅读方法和本项目的活动安排，单独列出，不计作历史事件或器物事实。课程标准用于方法参考；具体表格、数量和操作要求由项目设计。成人负责整理记录，孩子可以指图、做动作或口述，不要求独立填表或背诵固定答案。
+
+1. 教育部《义务教育历史课程标准（2022年版）》把“生态环境与社会发展”列为跨学科主题学习参考示例。[MOE-HISTORY-CURRICULUM-2022]
+2. 不能因为都江堰重要，就把成都平原两千多年的全部繁荣、人口和粮食变化都归给一项工程。[MOE-HISTORY-CURRICULUM-2022]
+3. 评价工程既看技术成果，也要看谁建设、谁维护、谁使用、数据属于哪个时期和环境怎样变化。[MOE-HISTORY-CURRICULUM-2022]
+4. 儿童活动不让玩家“放洪水冲村庄”或按受灾人数得分，只判断证据、结构关系与维护责任。[MOE-HISTORY-CURRICULUM-2022]
+5. “环境条件”栏写地形、河流、季节和泥沙；“人工选择”栏写分水、引水、蓄水、排沙和维护。[MOE-HISTORY-CURRICULUM-2022]
+6. “社会作用”栏写灌溉、防洪、用水、劳动与管理；“证据边界”栏写照片年代、数字口径和仍然未知的问题。[MOE-HISTORY-CURRICULUM-2022]
+7. 不让孩子操作真实工程参数、预测真实洪水或为城市分配现实用水；互动只训练结构关系、来源核对和责任意识。[MOE-HISTORY-CURRICULUM-2022]
+8. 孩子指出水遇到的问题和一种维护工作即可；成人补充材料的年代与限制，不要求背出多层研究框架。[MOE-HISTORY-CURRICULUM-2022]
 
 ## 7屏儿童页面、6段语音与5个互动
 
@@ -229,7 +235,7 @@
 
 **互动5：制作并讲解水利证据图**
 
-- 从都江堰与朵拉维拉中选择一地，填写“环境条件—工程选择—社会作用—维护责任—证据边界”。
+- 成人先选一地，讲清是水太多还是需要存水；孩子指一种合适的做法，再找到维护的人。完整环境与证据表由成人整理。
 - 都江堰图至少连接鱼嘴、飞沙堰、宝瓶口与一项长期维护；朵拉维拉图至少连接季节性溪流、蓄水设施和城市布局。
 - 面积数字卡必须带年份和单位；若比较668700公顷与2025年1165万亩，先换算再选择“日期或统计范围可能不同”。
 - 最后选择一句边界：“现代照片不是古代现场”“工程重要，不等于解释全部社会发展”“长期使用不等于从未改变”。

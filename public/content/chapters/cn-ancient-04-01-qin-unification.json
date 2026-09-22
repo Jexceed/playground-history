@@ -7,7 +7,24 @@
   "period": {
     "id": "qin",
     "label": "秦朝",
-    "years": "前221—前207年"
+    "years": "前221—前207年",
+    "learningContext": {
+      "childIntro": "秦统一六国后，怎样让不同地方按共同标准办事？看看度量衡，再看长城怎样守卫边地。",
+      "chronology": "前221年统一六国，前207年秦朝结束。统一不是各地生活一夜相同。",
+      "covered": "共同标准、边地防守与劳动配合。",
+      "scopeBoundary": "两章以共同标准与边地防守为例。郡县制、统一文字和秦末变化尚未单独展开，不能说两章讲完秦史。",
+      "sourceIds": [
+        "NMC-QIN-HAN-OVERVIEW"
+      ],
+      "sources": [
+        {
+          "id": "NMC-QIN-HAN-OVERVIEW",
+          "title": "“古代中国”基本陈列：秦汉时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+        }
+      ]
+    }
   },
   "order": 10,
   "title": "秦朝为什么要用同一把尺",
@@ -18,15 +35,46 @@
     "childTitle": "秦统一度量衡",
     "prompt": "工坊里的两把尺，怎么一把长、一把短？",
     "takeaway": "秦统一度量衡，让量长短、量容量、称轻重都有共同标准。",
-    "object": "秦铁权、量器和度量衡诏文",
+    "object": "带着诏书的铁权",
     "people": [
       "秦朝工匠"
     ],
-    "place": "陕西咸阳与秦朝各郡",
-    "culture": "秦小篆诏文与“度量衡”",
+    "place": "秦朝各地；教学工坊",
+    "culture": "秦代度量衡诏文",
     "care": "小伙伴、工匠对话与量布情境是虚构教学故事，不是真实人物自述或历史现场。铁权照片是真实材料；刻度和尺子操作是理解共同标准的学习示意。另有汉代铜矩尺实物对照，标签与声音明确为秦之后的汉代，不冒充秦尺。",
     "preferredAssetId": "qin-han-qin-standard-weight",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-04-01-qin-unification",
+    "theme": "治理和规则",
+    "learningGoal": "共同标准让不同地方量得一致。",
+    "parentQuestion": "两个人都说三格，为什么量出的布还可能不一样长？",
+    "observe": "指两把尺的每格大小；不仅把起点放齐，还要让每格一样长。",
+    "misconception": "秦朝推广共同标准；不是只学会把任意两把尺摆整齐。",
+    "evidenceStepIds": [
+      "time",
+      "beginning",
+      "journey",
+      "change"
+    ],
+    "sourceIds": [
+      "NMC-QIN-DOUBLE-EDICT-PLATE",
+      "NMC-QIN-HAN-OVERVIEW",
+      "HENAN-QIN-26-EDICT-WEIGHT"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-04-02-han-governance",
+        "relation": "把共同标准与汉代铸钱规格对照，量布与铸钱的制度用途不同。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "度量衡",
+      "诏书",
+      "文物"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-04-01-qin-unification",
@@ -95,52 +143,28 @@
   ],
   "glossary": [
     {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
+      "term": "度量衡",
+      "icon": "📏",
+      "plain": "量长短、量容量、称轻重所用的办法和标准。",
+      "example": "尺子量长短，容量看能装多少，秤与砝码帮助比较轻重。",
       "priority": 1
     },
     {
-      "term": "考古",
-      "icon": "🧹",
-      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
-      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
+      "term": "诏书",
+      "icon": "📜",
+      "plain": "古代皇帝公开发布命令的一种文书。",
+      "example": "秦铁权上的诏文留下推广共同标准的记录，器物用途也要另外观察。",
       "priority": 1
     },
     {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
       "priority": 1
-    },
-    {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
-      "priority": 1
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
     }
   ],
   "pronunciations": [
-    {
-      "text": "秦始皇",
-      "reading": "Qín Shǐhuáng",
-      "kind": "person",
-      "chapterIds": [
-        "cn-ancient-04-01-qin-unification",
-        "cn-ancient-04-05-qin-great-wall"
-      ],
-      "note": "“始皇”是称号，不拆成口语停顿。"
-    },
     {
       "text": "量一量",
       "reading": "liáng yī liáng",
@@ -159,6 +183,15 @@
         "cn-ancient-04-01-qin-unification"
       ],
       "note": "“度”读dù，“量”在此读liàng，分别指长度、容量和重量标准。"
+    },
+    {
+      "text": "诏书",
+      "reading": "zhàoshū",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-04-01-qin-unification"
+      ],
+      "note": "“诏”读zhào，皇帝颁布命令的文书。 本轮仅补校听项，仍需人耳确认。"
     }
   ],
   "gameplay": {
@@ -238,16 +271,15 @@
         "reunionAlt": "戴圆框眼镜、留齐刘海的绿衣男孩与黄衣男孩、马尾女孩在工坊分享发现，现代故事插画",
         "coverCaption": "跟着小伙伴，走进秦朝工坊",
         "coverNarration": "秦统一度量衡，让大家用共同的标准。小小旅行团来到工坊：两把尺怎么不一样长？一起去量一量！",
-        "stationLine": "秦朝站到了！去工坊量布，或去看看长城。",
-        "stationNarration": "秦朝站到了！去工坊量布，还是去看看长城？",
         "closingCaption": "把共同标准教给小伙伴",
         "closingNarration": "我们找到办法啦！起点对齐，每一格也一样长。带家人来量一量吧！",
         "closingLine": "起点对齐，每一格也一样长。",
         "fictionNote": "三位小伙伴和无名工匠承担虚构教学叙事；秦代年代、统一度量衡及铁权用途以登记史料为准。",
         "reunionImage": "/content/step-images/qin-friends-reunion-v3.jpg",
+        "stationLine": "秦统一六国后，怎样让不同地方按共同标准办事？看看度量衡，再看长城怎样守卫边地。",
         "stationAudio": {
-          "id": "quest-2d2da20cd152573a",
-          "text": "秦朝站到了！去工坊量布，还是去看看长城？"
+          "id": "quest-d0be142898827dc9",
+          "text": "秦统一六国后，怎样让不同地方按共同标准办事？看看度量衡，再看长城怎样守卫边地。"
         },
         "closingAudio": {
           "id": "quest-bd7d452dbff88100",
@@ -438,8 +470,8 @@
         "imageBoundary": "河南博物院官方藏品研究确认器物为1986年河南宝丰出土、1997年入藏的秦代诏书铁权；官方资料解释铭文与前221年统一度量衡的关系。照片为Zcm11实物摄影，Commons文件页核对作者、拍摄日期与CC BY-SA 3.0许可；并非博物馆官方摄影，不冒称官方供图。不得根据单件器物声称所有地区立即完全执行同一标准。",
         "audio": {
           "lead": {
-            "id": "quest-5524908e5e373dcc",
-            "text": "这件铁权称轻重。量长短、量容量、称轻重，都要有标准。哪个朝代统一了这些标准？"
+            "id": "quest-2381bb1c00b4826e",
+            "text": "秦统一六国后，推行共同的度量衡标准。铁权用来称轻重，这个故事发生在哪个朝代？"
           },
           "transition": {
             "id": "quest-4b3f43b2ce61d503",
@@ -1093,6 +1125,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1617,5 +1650,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

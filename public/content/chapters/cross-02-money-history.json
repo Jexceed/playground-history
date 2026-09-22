@@ -7,12 +7,13 @@
   "period": {
     "id": "evidence-projects",
     "label": "跨时代证据任务",
-    "years": "贯穿中国史与世界史"
+    "years": "贯穿中国史与世界史",
+    "learningContext": null
   },
   "order": 2,
   "title": "小钱币，大历史：怎样做一条有证据的钱币时间线",
   "coreQuestion": "货币的材料、形状、文字和发现地点能说明什么，又不能说明什么？",
-  "throughline": "先沿商代货贝、战国多种区域铸币、秦半两、汉五铢、唐开元通宝、宋元纸币、明代宝钞与白银和清末机制币建立中国主时间线，再用8项开放实物照片区分原物、复制品、印钞工具与现代展陈；孩子比较材料、方孔、钱文、直径和法定换算，同时用‘能证明／不能证明’阻止由一枚钱虚构物价、主人和完整旅行路线，最后与吕底亚金币作无排名、无虚构接触的世界比较。",
+  "throughline": "沿中国货币变化选取真实材料，成人核对年代、发现地和来源，孩子每次只比较两件材料的一个可见特征；多格证据卡供成人整理，不让幼儿独立填表、计算购买力或给文明排名。",
   "childEntry": {
     "id": "cross-02-money-history",
     "childTitle": "一枚钱要去哪里旅行",
@@ -26,6 +27,7 @@
     "culture": "钱币文字与吉祥纹样",
     "care": "不比较财富、不收集掠夺品；复制品和印钞工具必须标清。"
   },
+  "learningGuide": null,
   "textbookConnection": null,
   "childStory": [
     {
@@ -233,11 +235,11 @@
           },
           {
             "id": "cross-02-money-history-time-2",
-            "label": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）",
+            "label": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）",
             "correct": false,
             "audio": {
-              "id": "quest-2626ffdfff6b200a",
-              "text": "中国古代史 · 清朝 · 1644—1840年前（本内容轨范围）"
+              "id": "quest-0ee11e284f2f5ef2",
+              "text": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）"
             }
           },
           {
@@ -348,7 +350,7 @@
         "image": "/content/step-images/tang-kaiyuan-gary-todd-cc0.jpg",
         "imageAlt": "标作唐高祖时期的开元通宝正反面",
         "imageCaption": "文件页标作唐高祖时期、直径25毫米的开元通宝正反面。",
-        "imageBoundary": "本地JPEG为4069×2153像素，属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
+        "imageBoundary": "属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
         "audio": {
           "transition": {
             "id": "quest-d4c11419e03a18fd",
@@ -597,7 +599,7 @@
         "number": 5,
         "title": "制作并讲解钱币时间线",
         "items": [
-          "孩子从8张货币卡中选5张按年代排列，每张至少填写4项已有证据，不知道的字段保留“未知”。",
+          "成人先从货币资料里选两张，讲清各自年代；孩子指一个形状或材料差别，再按刚听到的先后摆放。来源字段由成人记录，不考写字和计算。",
           "至少加入1组“延续”与1组“变化”，例如“方孔圆形延续；钱名从重量转向通宝”“金属钱继续存在；纸币和白银加入”。",
           "最后为一张卡选择证据边界，例如：“这张照片能显示钱文和形状，不能告诉我它买过什么、经过哪些城市。”",
           "点“听我的时间线”时，客户端只拼接预录的本地短句与已选卡片名称；不上传儿童声音，不调用在线生成模型，也不提供文物估价和财富排行。"
@@ -608,9 +610,556 @@
   "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 12,
   "conclusion": [
-    "货币史不是一条“贝壳突然变成纸币”的直线，也不能靠一枚钱猜出整个时代。中国主线先从商代货贝和仿贝青铜币出发，观察春秋战国时期布币、刀币、圜钱和贝币并存；秦统一后，方孔圆形半两成为统一的基本形制，西汉中央铸造上林三官五铢，唐代开元通宝又把钱名从“铢、两”等重量名称转向“通宝”钱文。宋代出现交子、会子等纸币，元代以纸钞为主要流通货币，明代宝钞、铜钱和白银的制度规定与实际使用又不完全相同，清末则出现机制铜、银元。孩子用“年代、材料、形状、文字、尺寸或重量、出土地、文献”七格证据卡制作时间线，并明确：一件货币可以说明形制、文字、官方制度或某地发现，却不能单独证明精确物价、购买力、主人、完整旅行路线和所有人的使用情况。最后把中国方孔铜钱与约公元前560—前546年的吕底亚金币比较，只比较证据，不写成没有证据的中外直接接触。"
+    "货币史不是一条“贝壳突然变成纸币”的直线，也不能靠一枚钱猜出整个时代。中国主线先从商代货贝和仿贝青铜币出发，观察春秋战国时期布币、刀币、圜钱和贝币并存；秦统一后，方孔圆形半两成为统一的基本形制，西汉中央铸造上林三官五铢，唐代开元通宝又把钱名从“铢、两”等重量名称转向“通宝”钱文。宋代出现交子、会子等纸币，元代以纸钞为主要流通货币，明代宝钞、铜钱和白银的制度规定与实际使用又不完全相同，清末则出现机制铜、银元。成人用年代、材料、形状、文字、尺寸或重量、出土地与文献整理资料，孩子每次只观察两件材料的一个差别，并明确：一件货币可以说明形制、文字、官方制度或某地发现，却不能单独证明精确物价、购买力、主人、完整旅行路线和所有人的使用情况。最后把中国方孔铜钱与约公元前560—前546年的吕底亚金币比较，只比较证据，不写成没有证据的中外直接接触。"
   ],
   "facts": [
+    {
+      "number": 1,
+      "text": "本章主线依次经过商周、春秋战国、秦汉、隋唐、宋元、明清，先定位年代，再观察单件器物。",
+      "sourceIds": [
+        "NMC-ANCIENT-COIN-COURSE-2025"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "本章照片中的一组穿孔海贝由中国国家博物馆展陈标作商代货贝；照片记录的是2012年的展柜和现代标签。",
+      "sourceIds": [
+        "COMMONS-SHANG-COWRIE-MONEY"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "展柜照片能让我们看见海贝大小不同、部分有孔，却不能给出每枚海贝的出土地、使用者和交易对象。",
+      "sourceIds": [
+        "COMMONS-SHANG-COWRIE-MONEY"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "商和西周时期已经出现仿照海贝形状铸成的无文青铜贝币，说明货币材料并不只限于天然贝壳。",
+      "sourceIds": [
+        "NMC-BRONZE-COWRIE-2020"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "一枚普通贝壳不因“长得像货贝”就自动成为货币；是否作货币使用还要核对年代、出土组合和研究记录。",
+      "sourceIds": [
+        "MOE-HISTORY-CURRICULUM-2022",
+        "NMC-BRONZE-COWRIE-2020"
+      ]
+    },
+    {
+      "number": 6,
+      "text": "春秋战国时期，不同地区形成布币、刀币、圜钱和贝币等多种货币体系，并不是全国只有一种钱。",
+      "sourceIds": [
+        "NMC-ANCIENT-COIN-COURSE-2025"
+      ]
+    },
+    {
+      "number": 7,
+      "text": "各诸侯国的铸币变化与各自政治经济、国力和同周边地区的商贸往来有关，但单枚钱币不能说明全部原因。",
+      "sourceIds": [
+        "NMC-ANCIENT-COIN-COURSE-2025"
+      ]
+    },
+    {
+      "number": 8,
+      "text": "本章布币照片的现代展签写有“卢氏百涅　战国·韩”，能支持展陈名称和时代归类。",
+      "sourceIds": [
+        "COMMONS-WARRING-STATES-SPADE-COIN"
+      ]
+    },
+    {
+      "number": 9,
+      "text": "布币外形像铲，不表示照片中的这件钱曾被当作农具挖土；形状相似和实际用途要分开。",
+      "sourceIds": [
+        "COMMONS-WARRING-STATES-SPADE-COIN"
+      ]
+    },
+    {
+      "number": 10,
+      "text": "楚国有文青铜贝币仿照贝形，钱文已有多种类型，是区域货币多样性的实物例子。",
+      "sourceIds": [
+        "NMC-BRONZE-COWRIE-2020"
+      ]
+    },
+    {
+      "number": 11,
+      "text": "有一类楚国铜贝上的字曾被释作“贝、襄、举、巽、鄂”等，说明真实文物上的文字也可能存在学术分歧。",
+      "sourceIds": [
+        "NMC-BRONZE-COWRIE-XUN-2022"
+      ]
+    },
+    {
+      "number": 12,
+      "text": "战国晚期齐国一类圜钱的钱文也有多种释读，多数学者接受“賹六刀”，仍有其他意见。",
+      "sourceIds": [
+        "NMC-QI-ROUND-COIN-2022"
+      ]
+    },
+    {
+      "number": 13,
+      "text": "公元前221年秦统一六国后，以黄金为上币、铜钱为下币，方孔圆钱成为此后长期沿用的主要形制。",
+      "sourceIds": [
+        "NMC-ANCIENT-COIN-COURSE-2025"
+      ]
+    },
+    {
+      "number": 14,
+      "text": "国博记录的秦半两正面有“半两”二字，方孔外是圆形钱体。",
+      "sourceIds": [
+        "NMC-BAN-LIANG-COIN-2022",
+        "COMMONS-QIN-BAN-LIANG-NMC"
+      ]
+    },
+    {
+      "number": 15,
+      "text": "从秦半两、汉五铢、唐开元通宝到清代铜钱，方孔圆钱延续很久；长期延续中仍发生钱文、重量、材料、铸造和制度变化。",
+      "sourceIds": [
+        "NMC-ANCIENT-COIN-COURSE-2025"
+      ]
+    },
+    {
+      "number": 16,
+      "text": "海贝、青铜或铜合金币、纸钞、银锭和金币的材料不同，首先能说明货币载体并不只有一种。",
+      "sourceIds": [
+        "NMC-ANCIENT-COIN-COURSE-2025",
+        "MET-LYDIAN-GOLD-STATER-252457"
+      ]
+    },
+    {
+      "number": 17,
+      "text": "博物馆照片如果没有可靠比例尺，就不能用屏幕上的厘米尺直接量出钱币真实直径。",
+      "sourceIds": [
+        "COMMONS-QIN-BAN-LIANG-NMC"
+      ]
+    },
+    {
+      "number": 18,
+      "text": "“半两”是秦钱上的钱文和法定重量名称，不等于今天把照片放在秤上能得到“半两”。",
+      "sourceIds": [
+        "NMC-BAN-LIANG-COIN-2022"
+      ]
+    },
+    {
+      "number": 19,
+      "text": "国博说明指出，行用中的半两钱实际重量并不总能达到法定标准；钱文、制度和实测值需要分栏记录。",
+      "sourceIds": [
+        "NMC-BAN-LIANG-COIN-2022"
+      ]
+    },
+    {
+      "number": 20,
+      "text": "汉武帝元鼎四年，即公元前113年，开始铸造上林三官五铢；这里说的是中央币制改革中的这一类标准五铢。",
+      "sourceIds": [
+        "NMC-WUZHU-COIN"
+      ]
+    },
+    {
+      "number": 21,
+      "text": "“五铢”同样以重量单位命名，钱文写出的是制度名称，不保证今天保存的每枚钱都完全没有磨损或误差。",
+      "sourceIds": [
+        "NMC-WUZHU-COIN"
+      ]
+    },
+    {
+      "number": 22,
+      "text": "上林三官包括钟官、辩铜和技巧，分别涉及铸造、铜的分类整理和刻范等工作。",
+      "sourceIds": [
+        "NMC-WUZHU-COIN"
+      ]
+    },
+    {
+      "number": 23,
+      "text": "上林三官五铢把铸币权收归中央并集中到京城，货币标准化与国家治理由此连接起来。",
+      "sourceIds": [
+        "NMC-WUZHU-COIN",
+        "NMC-ANCIENT-COIN-COURSE-2025"
+      ]
+    },
+    {
+      "number": 24,
+      "text": "国博记录称“五铢”钱名从汉延续到621年改行开元通宝，时间很长；这不表示739年里所有地区、所有人只使用同一种钱。",
+      "sourceIds": [
+        "NMC-WUZHU-COIN"
+      ]
+    },
+    {
+      "number": 25,
+      "text": "本章五铢照片来自Gary Lee Todd收藏，文件页把它标作汉武帝时期、直径25.5毫米；币制背景另由国博记录交叉核对。",
+      "sourceIds": [
+        "COMMONS-WESTERN-HAN-WU-ZHU-GARY-TODD",
+        "NMC-WUZHU-COIN"
+      ]
+    },
+    {
+      "number": 26,
+      "text": "钱币表面的绿色和褐色锈蚀是今天照片中可见的保存状态，不能直接当作刚铸成时的颜色。",
+      "sourceIds": [
+        "COMMONS-WESTERN-HAN-WU-ZHU-GARY-TODD"
+      ]
+    },
+    {
+      "number": 27,
+      "text": "只看锈色不能判断真伪、精确年代和金属配比；这些问题需要来源记录和专业检测。",
+      "sourceIds": [
+        "MOE-HISTORY-CURRICULUM-2022",
+        "COMMONS-WESTERN-HAN-WU-ZHU-GARY-TODD"
+      ]
+    },
+    {
+      "number": 28,
+      "text": "把两张不同拍摄距离的照片并排，不能直接说画面更大的钱真实尺寸更大。",
+      "sourceIds": [
+        "COMMONS-WESTERN-HAN-WU-ZHU-GARY-TODD",
+        "COMMONS-TANG-KAIYUAN-GARY-TODD"
+      ]
+    },
+    {
+      "number": 29,
+      "text": "磨损、锈蚀、缺口和附着物都可能影响今天的测量，因此数据卡要同时写保存状态和测量来源。",
+      "sourceIds": [
+        "COMMONS-WESTERN-HAN-WU-ZHU-GARY-TODD"
+      ]
+    },
+    {
+      "number": 30,
+      "text": "唐高祖武德四年，即621年，开始铸行开元通宝，结束了以五铢为代表的旧钱名体系。",
+      "sourceIds": [
+        "NMC-KAIYUAN-TONGBAO"
+      ]
+    },
+    {
+      "number": 31,
+      "text": "“开元通宝”告别以“铢、两”等重量单位给钱币命名的方式，开启使用“宝”字钱文的时代。",
+      "sourceIds": [
+        "NMC-KAIYUAN-TONGBAO",
+        "NMC-ANCIENT-COIN-COURSE-2025"
+      ]
+    },
+    {
+      "number": 32,
+      "text": "“开元通宝”四字在钱面上围绕方孔排列，观察钱文时要按钱币自身的方位读，不能按现代横排从左到右猜。",
+      "sourceIds": [
+        "NMC-KAIYUAN-TONGBAO",
+        "COMMONS-TANG-KAIYUAN-GARY-TODD"
+      ]
+    },
+    {
+      "number": 33,
+      "text": "国博页面把钱文书体记为隶书，并说早期钱文相传由欧阳询书写；“相传”必须保留，不能改成已被原稿证明的确定事实。",
+      "sourceIds": [
+        "NMC-KAIYUAN-TONGBAO"
+      ]
+    },
+    {
+      "number": 34,
+      "text": "“开元”在这里被解释为“开创新纪元”，不能因为后来有年号钱，就把所有“开元通宝”简单说成按唐玄宗开元年号命名。",
+      "sourceIds": [
+        "NMC-KAIYUAN-TONGBAO"
+      ]
+    },
+    {
+      "number": 35,
+      "text": "开元通宝的大小、轻重和外郭仍继承此前方孔圆钱的一些特点，改变与延续可以同时发生。",
+      "sourceIds": [
+        "NMC-KAIYUAN-TONGBAO"
+      ]
+    },
+    {
+      "number": 36,
+      "text": "本章照片文件页把一枚开元通宝标作唐高祖时期、直径25毫米；它显示正反面，但一枚样品不等于全部唐钱都完全相同。",
+      "sourceIds": [
+        "COMMONS-TANG-KAIYUAN-GARY-TODD"
+      ]
+    },
+    {
+      "number": 37,
+      "text": "国博说明称从唐天宝年间起，开元通宝铸造规定了明确成分比例；这项后来的制度不能倒推到621年的每一枚钱。",
+      "sourceIds": [
+        "NMC-KAIYUAN-TONGBAO"
+      ]
+    },
+    {
+      "number": 38,
+      "text": "开元通宝随着丝绸之路和区域往来影响东亚、东南亚多地，但“产生影响”不等于一枚钱就能画出唯一传播路线。",
+      "sourceIds": [
+        "NMC-KAIYUAN-TONGBAO"
+      ]
+    },
+    {
+      "number": 39,
+      "text": "一种钱币可能长期铸造、继续使用或被后人收藏，因此只凭类型通常不能把埋藏日期精确到某一年。",
+      "sourceIds": [
+        "NMC-WUZHU-COIN",
+        "NMC-KAIYUAN-TONGBAO"
+      ]
+    },
+    {
+      "number": 40,
+      "text": "字形、书体、面值和铸造特征可以帮助专业人员分类断代，但儿童任务不靠“看起来很古老”作结论。",
+      "sourceIds": [
+        "NMC-BRONZE-COWRIE-XUN-2022",
+        "NMC-QI-ROUND-COIN-2022"
+      ]
+    },
+    {
+      "number": 41,
+      "text": "两宋以铜钱为主，铁钱和白银也在特定地区使用，同时出现纸币这一货币创新。",
+      "sourceIds": [
+        "NMC-ANCIENT-COIN-COURSE-2025"
+      ]
+    },
+    {
+      "number": 42,
+      "text": "国博会子版说明称，北宋中叶四川在主要使用铁钱的背景下印制交子，并由政府设置交子务发行管理。",
+      "sourceIds": [
+        "NMC-HUIZI-PLATE"
+      ]
+    },
+    {
+      "number": 43,
+      "text": "纸币不是“把纸画成钱”就能使用，它涉及发行机构、面额、兑换、接受程度和数量管理。",
+      "sourceIds": [
+        "NMC-HUIZI-PLATE",
+        "NMC-DAMING-TONGXING-BAOCHAO"
+      ]
+    },
+    {
+      "number": 44,
+      "text": "本章北宋纸币图片是2012年拍摄的国博展厅复制品，文件页明确写有“reproduction”。",
+      "sourceIds": [
+        "COMMONS-NORTHERN-SONG-PAPER-CURRENCY-REPRODUCTION"
+      ]
+    },
+    {
+      "number": 45,
+      "text": "复制品能帮助观察现代展陈的图样，却不能证明北宋原钞纸张、墨色、尺寸和保存状态。",
+      "sourceIds": [
+        "COMMONS-NORTHERN-SONG-PAPER-CURRENCY-REPRODUCTION"
+      ]
+    },
+    {
+      "number": 46,
+      "text": "南宋从1160年起发行会子，并在临安设置会子务；国博馆藏“行在会子务”铜版是印刷会子的工具。",
+      "sourceIds": [
+        "NMC-HUIZI-PLATE"
+      ]
+    },
+    {
+      "number": 47,
+      "text": "会子后来有一贯、二百文、三百文、五百文等面额，面额体系可以和数学分类相连。",
+      "sourceIds": [
+        "NMC-HUIZI-PLATE"
+      ]
+    },
+    {
+      "number": 48,
+      "text": "南宋政府多次大量发行会子以应付军费和财政困难，国博说明记录了由此产生的贬值和市场混乱。",
+      "sourceIds": [
+        "NMC-HUIZI-PLATE"
+      ]
+    },
+    {
+      "number": 49,
+      "text": "“发行更多纸币”不必然等于社会拥有更多真实商品和财富；货币数量、信用和价格变化需要一起研究。",
+      "sourceIds": [
+        "NMC-HUIZI-PLATE"
+      ]
+    },
+    {
+      "number": 50,
+      "text": "金、元两朝以纸钞为主要流通货币，元代在纸币发行和管理上形成新的制度发展。",
+      "sourceIds": [
+        "NMC-ANCIENT-COIN-COURSE-2025"
+      ]
+    },
+    {
+      "number": 51,
+      "text": "本章元代照片显示的是“至元通行宝钞贰佰文铜钞版”，它由金属制成，却是生产纸钞的印版。",
+      "sourceIds": [
+        "COMMONS-YUAN-PAPER-CURRENCY-PRINTING-BLOCK"
+      ]
+    },
+    {
+      "number": 52,
+      "text": "印版不是在市场里直接找零的纸钞；器物材料和器物用途不能混为一谈。",
+      "sourceIds": [
+        "COMMONS-YUAN-PAPER-CURRENCY-PRINTING-BLOCK"
+      ]
+    },
+    {
+      "number": 53,
+      "text": "印版上的文字、钱串图案和面额能说明版面设计，不能由一块版计算总发行量。",
+      "sourceIds": [
+        "COMMONS-YUAN-PAPER-CURRENCY-PRINTING-BLOCK"
+      ]
+    },
+    {
+      "number": 54,
+      "text": "一块印版也不能单独证明纸钞在所有地区都同样被接受、实际能买多少东西或使用了多久。",
+      "sourceIds": [
+        "COMMONS-YUAN-PAPER-CURRENCY-PRINTING-BLOCK"
+      ]
+    },
+    {
+      "number": 55,
+      "text": "从纸币复制品、会子铜版和元代铜钞版，可以把“最后印出的纸”和“生产它的工具”分开观察。",
+      "sourceIds": [
+        "COMMONS-NORTHERN-SONG-PAPER-CURRENCY-REPRODUCTION",
+        "NMC-HUIZI-PLATE",
+        "COMMONS-YUAN-PAPER-CURRENCY-PRINTING-BLOCK"
+      ]
+    },
+    {
+      "number": 56,
+      "text": "研究纸币既要看实物或印版，也要看发行机构、法令和市场记录，图案漂亮不能代替制度证据。",
+      "sourceIds": [
+        "NMC-HUIZI-PLATE",
+        "NMC-DAMING-TONGXING-BAOCHAO"
+      ]
+    },
+    {
+      "number": 57,
+      "text": "明洪武八年，即1375年，政府开始印制大明通行宝钞，并设置印钞和管理机构。",
+      "sourceIds": [
+        "NMC-DAMING-TONGXING-BAOCHAO"
+      ]
+    },
+    {
+      "number": 58,
+      "text": "国博馆藏宝钞用桑穰纸印刷，版面有龙纹花栏、面额、钱串图案和管理文字。",
+      "sourceIds": [
+        "NMC-DAMING-TONGXING-BAOCHAO"
+      ]
+    },
+    {
+      "number": 59,
+      "text": "明初宝钞有一百文、二百文、三百文、四百文、五百文和一贯六等面额。",
+      "sourceIds": [
+        "NMC-DAMING-TONGXING-BAOCHAO"
+      ]
+    },
+    {
+      "number": 60,
+      "text": "官府规定一贯宝钞合一千文铜钱或银一两，这是法定换算，不表示每次真实交易都始终按同一比例完成。",
+      "sourceIds": [
+        "NMC-DAMING-TONGXING-BAOCHAO"
+      ]
+    },
+    {
+      "number": 61,
+      "text": "大量发行宝钞、限制金银交易和市场接受问题共同造成宝钞快速贬值，不能把原因简化为“纸太轻”。",
+      "sourceIds": [
+        "NMC-DAMING-TONGXING-BAOCHAO"
+      ]
+    },
+    {
+      "number": 62,
+      "text": "国博记录称15世纪中期市面已很少使用大明宝钞，1522年正式停用，制度也会随使用结果发生变化。",
+      "sourceIds": [
+        "NMC-DAMING-TONGXING-BAOCHAO"
+      ]
+    },
+    {
+      "number": 63,
+      "text": "一件洪武十六年“花银一十两”银锭说明，宝钞发行和禁银命令之后，江南贸易仍实际使用白银。",
+      "sourceIds": [
+        "NMC-MING-SILVER-INGOT-2022"
+      ]
+    },
+    {
+      "number": 64,
+      "text": "法令告诉我们政府希望怎样使用货币，银锭等实物告诉我们实际生活可能怎样不同；两类证据要放在一起。",
+      "sourceIds": [
+        "NMC-DAMING-TONGXING-BAOCHAO",
+        "NMC-MING-SILVER-INGOT-2022"
+      ]
+    },
+    {
+      "number": 65,
+      "text": "明代一件铜钞版在南京明故宫工部遗址出土，被国博认作1380年后印钞用版；它显示印刷技术和国家机构线索。",
+      "sourceIds": [
+        "NMC-DAMING-BAOCHAO-PRINTING-PLATE"
+      ]
+    },
+    {
+      "number": 66,
+      "text": "到清末，中国货币还出现机制铜元和银元；本章时间线把它作为下一阶段入口，不用一张图片假装讲完近代币制。",
+      "sourceIds": [
+        "NMC-ANCIENT-COIN-COURSE-2025"
+      ]
+    },
+    {
+      "number": 67,
+      "text": "大都会艺术博物馆藏一枚约公元前560—前546年的吕底亚金币，年代处在中国春秋时期，而不是秦汉时期。",
+      "sourceIds": [
+        "MET-LYDIAN-GOLD-STATER-252457",
+        "NMC-ANCIENT-COIN-COURSE-2025"
+      ]
+    },
+    {
+      "number": 68,
+      "text": "这枚钱以金制成，宽约1.6厘米、高约1.2厘米、厚约0.4厘米，重8.018克。",
+      "sourceIds": [
+        "MET-LYDIAN-GOLD-STATER-252457"
+      ]
+    },
+    {
+      "number": 69,
+      "text": "它的一面表现相对的狮与牛前躯，和中国方孔钱以文字围绕方孔的视觉组织明显不同。",
+      "sourceIds": [
+        "MET-LYDIAN-GOLD-STATER-252457",
+        "COMMONS-QIN-BAN-LIANG-NMC"
+      ]
+    },
+    {
+      "number": 70,
+      "text": "这枚吕底亚金币没有中国方孔钱的中央方孔；形状差异首先说明不同地区采用了不同货币形式。",
+      "sourceIds": [
+        "MET-LYDIAN-GOLD-STATER-252457"
+      ]
+    },
+    {
+      "number": 71,
+      "text": "大都会博物馆把藏品图像标记为公有领域开放获取，本章可以保存清晰原图并用于商业与非商业版本。",
+      "sourceIds": [
+        "MET-LYDIAN-GOLD-STATER-252457"
+      ]
+    },
+    {
+      "number": 72,
+      "text": "比较金币与半两、五铢、开元通宝时，可以比较材料、大小、图像、文字和孔形，不能仅凭“金”与“铜”给文明排高低。",
+      "sourceIds": [
+        "MET-LYDIAN-GOLD-STATER-252457",
+        "NMC-BAN-LIANG-COIN-2022"
+      ]
+    },
+    {
+      "number": 73,
+      "text": "本章没有中国与这枚吕底亚金币直接往来的证据，所以世界连接只作同一大时代的并列比较，不画虚构贸易线。",
+      "sourceIds": [
+        "MET-LYDIAN-GOLD-STATER-252457"
+      ]
+    },
+    {
+      "number": 74,
+      "text": "单枚钱币不能单独给出某年粮价、普通家庭收入、完整购买力、原主人身份和每次转手经过。",
+      "sourceIds": [
+        "NMC-BAN-LIANG-COIN-2022",
+        "COMMONS-YUAN-PAPER-CURRENCY-PRINTING-BLOCK"
+      ]
+    },
+    {
+      "number": 75,
+      "text": "最终时间线要同时显示“延续”和“变化”：方孔圆钱长期延续，材料、钱文、发行机构、纸币和银的使用不断变化。",
+      "sourceIds": [
+        "NMC-ANCIENT-COIN-COURSE-2025"
+      ]
+    }
+  ],
+  "methodNotes": [
     {
       "number": 1,
       "text": "教育部《义务教育历史课程标准（2022年版）》把“小钱币，大历史”列为跨学科主题学习参考示例，重点是从钱币材料、形状、文字和流通线索认识历史。",
@@ -620,629 +1169,84 @@
     },
     {
       "number": 2,
-      "text": "本章主线依次经过商周、春秋战国、秦汉、隋唐、宋元、明清，先定位年代，再观察单件器物。",
-      "sourceIds": [
-        "NMC-ANCIENT-COIN-COURSE-2025"
-      ]
-    },
-    {
-      "number": 3,
-      "text": "本章照片中的一组穿孔海贝由中国国家博物馆展陈标作商代货贝；照片记录的是2012年的展柜和现代标签。",
-      "sourceIds": [
-        "COMMONS-SHANG-COWRIE-MONEY"
-      ]
-    },
-    {
-      "number": 4,
-      "text": "展柜照片能让我们看见海贝大小不同、部分有孔，却不能给出每枚海贝的出土地、使用者和交易对象。",
-      "sourceIds": [
-        "COMMONS-SHANG-COWRIE-MONEY"
-      ]
-    },
-    {
-      "number": 5,
-      "text": "商和西周时期已经出现仿照海贝形状铸成的无文青铜贝币，说明货币材料并不只限于天然贝壳。",
-      "sourceIds": [
-        "NMC-BRONZE-COWRIE-2020"
-      ]
-    },
-    {
-      "number": 6,
-      "text": "一枚普通贝壳不因“长得像货贝”就自动成为货币；是否作货币使用还要核对年代、出土组合和研究记录。",
-      "sourceIds": [
-        "MOE-HISTORY-CURRICULUM-2022",
-        "NMC-BRONZE-COWRIE-2020"
-      ]
-    },
-    {
-      "number": 7,
-      "text": "春秋战国时期，不同地区形成布币、刀币、圜钱和贝币等多种货币体系，并不是全国只有一种钱。",
-      "sourceIds": [
-        "NMC-ANCIENT-COIN-COURSE-2025"
-      ]
-    },
-    {
-      "number": 8,
-      "text": "各诸侯国的铸币变化与各自政治经济、国力和同周边地区的商贸往来有关，但单枚钱币不能说明全部原因。",
-      "sourceIds": [
-        "NMC-ANCIENT-COIN-COURSE-2025"
-      ]
-    },
-    {
-      "number": 9,
-      "text": "本章布币照片的现代展签写有“卢氏百涅　战国·韩”，能支持展陈名称和时代归类。",
-      "sourceIds": [
-        "COMMONS-WARRING-STATES-SPADE-COIN"
-      ]
-    },
-    {
-      "number": 10,
-      "text": "布币外形像铲，不表示照片中的这件钱曾被当作农具挖土；形状相似和实际用途要分开。",
-      "sourceIds": [
-        "COMMONS-WARRING-STATES-SPADE-COIN"
-      ]
-    },
-    {
-      "number": 11,
-      "text": "楚国有文青铜贝币仿照贝形，钱文已有多种类型，是区域货币多样性的实物例子。",
-      "sourceIds": [
-        "NMC-BRONZE-COWRIE-2020"
-      ]
-    },
-    {
-      "number": 12,
-      "text": "有一类楚国铜贝上的字曾被释作“贝、襄、举、巽、鄂”等，说明真实文物上的文字也可能存在学术分歧。",
-      "sourceIds": [
-        "NMC-BRONZE-COWRIE-XUN-2022"
-      ]
-    },
-    {
-      "number": 13,
-      "text": "战国晚期齐国一类圜钱的钱文也有多种释读，多数学者接受“賹六刀”，仍有其他意见。",
-      "sourceIds": [
-        "NMC-QI-ROUND-COIN-2022"
-      ]
-    },
-    {
-      "number": 14,
-      "text": "公元前221年秦统一六国后，以黄金为上币、铜钱为下币，方孔圆钱成为此后长期沿用的主要形制。",
-      "sourceIds": [
-        "NMC-ANCIENT-COIN-COURSE-2025"
-      ]
-    },
-    {
-      "number": 15,
-      "text": "国博记录的秦半两正面有“半两”二字，方孔外是圆形钱体。",
-      "sourceIds": [
-        "NMC-BAN-LIANG-COIN-2022",
-        "COMMONS-QIN-BAN-LIANG-NMC"
-      ]
-    },
-    {
-      "number": 16,
-      "text": "从秦半两、汉五铢、唐开元通宝到清代铜钱，方孔圆钱延续很久；长期延续中仍发生钱文、重量、材料、铸造和制度变化。",
-      "sourceIds": [
-        "NMC-ANCIENT-COIN-COURSE-2025"
-      ]
-    },
-    {
-      "number": 17,
-      "text": "海贝、青铜或铜合金币、纸钞、银锭和金币的材料不同，首先能说明货币载体并不只有一种。",
-      "sourceIds": [
-        "NMC-ANCIENT-COIN-COURSE-2025",
-        "MET-LYDIAN-GOLD-STATER-252457"
-      ]
-    },
-    {
-      "number": 18,
-      "text": "博物馆照片如果没有可靠比例尺，就不能用屏幕上的厘米尺直接量出钱币真实直径。",
-      "sourceIds": [
-        "COMMONS-QIN-BAN-LIANG-NMC"
-      ]
-    },
-    {
-      "number": 19,
-      "text": "“半两”是秦钱上的钱文和法定重量名称，不等于今天把照片放在秤上能得到“半两”。",
-      "sourceIds": [
-        "NMC-BAN-LIANG-COIN-2022"
-      ]
-    },
-    {
-      "number": 20,
-      "text": "国博说明指出，行用中的半两钱实际重量并不总能达到法定标准；钱文、制度和实测值需要分栏记录。",
-      "sourceIds": [
-        "NMC-BAN-LIANG-COIN-2022"
-      ]
-    },
-    {
-      "number": 21,
-      "text": "汉武帝元鼎四年，即公元前113年，开始铸造上林三官五铢；这里说的是中央币制改革中的这一类标准五铢。",
-      "sourceIds": [
-        "NMC-WUZHU-COIN"
-      ]
-    },
-    {
-      "number": 22,
-      "text": "“五铢”同样以重量单位命名，钱文写出的是制度名称，不保证今天保存的每枚钱都完全没有磨损或误差。",
-      "sourceIds": [
-        "NMC-WUZHU-COIN"
-      ]
-    },
-    {
-      "number": 23,
-      "text": "上林三官包括钟官、辩铜和技巧，分别涉及铸造、铜的分类整理和刻范等工作。",
-      "sourceIds": [
-        "NMC-WUZHU-COIN"
-      ]
-    },
-    {
-      "number": 24,
-      "text": "上林三官五铢把铸币权收归中央并集中到京城，货币标准化与国家治理由此连接起来。",
-      "sourceIds": [
-        "NMC-WUZHU-COIN",
-        "NMC-ANCIENT-COIN-COURSE-2025"
-      ]
-    },
-    {
-      "number": 25,
-      "text": "国博记录称“五铢”钱名从汉延续到621年改行开元通宝，时间很长；这不表示739年里所有地区、所有人只使用同一种钱。",
-      "sourceIds": [
-        "NMC-WUZHU-COIN"
-      ]
-    },
-    {
-      "number": 26,
-      "text": "本章五铢照片来自Gary Lee Todd收藏，文件页把它标作汉武帝时期、直径25.5毫米；币制背景另由国博记录交叉核对。",
-      "sourceIds": [
-        "COMMONS-WESTERN-HAN-WU-ZHU-GARY-TODD",
-        "NMC-WUZHU-COIN"
-      ]
-    },
-    {
-      "number": 27,
-      "text": "钱币表面的绿色和褐色锈蚀是今天照片中可见的保存状态，不能直接当作刚铸成时的颜色。",
-      "sourceIds": [
-        "COMMONS-WESTERN-HAN-WU-ZHU-GARY-TODD"
-      ]
-    },
-    {
-      "number": 28,
-      "text": "只看锈色不能判断真伪、精确年代和金属配比；这些问题需要来源记录和专业检测。",
-      "sourceIds": [
-        "MOE-HISTORY-CURRICULUM-2022",
-        "COMMONS-WESTERN-HAN-WU-ZHU-GARY-TODD"
-      ]
-    },
-    {
-      "number": 29,
-      "text": "把两张不同拍摄距离的照片并排，不能直接说画面更大的钱真实尺寸更大。",
-      "sourceIds": [
-        "COMMONS-WESTERN-HAN-WU-ZHU-GARY-TODD",
-        "COMMONS-TANG-KAIYUAN-GARY-TODD"
-      ]
-    },
-    {
-      "number": 30,
       "text": "数学活动可以比较同一来源给出的直径、重量和比例，也可以计算圆形与方孔的几何关系；计算结果不能自动变成历史购买力。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 31,
-      "text": "磨损、锈蚀、缺口和附着物都可能影响今天的测量，因此数据卡要同时写保存状态和测量来源。",
-      "sourceIds": [
-        "COMMONS-WESTERN-HAN-WU-ZHU-GARY-TODD"
-      ]
-    },
-    {
-      "number": 32,
-      "text": "唐高祖武德四年，即621年，开始铸行开元通宝，结束了以五铢为代表的旧钱名体系。",
-      "sourceIds": [
-        "NMC-KAIYUAN-TONGBAO"
-      ]
-    },
-    {
-      "number": 33,
-      "text": "“开元通宝”告别以“铢、两”等重量单位给钱币命名的方式，开启使用“宝”字钱文的时代。",
-      "sourceIds": [
-        "NMC-KAIYUAN-TONGBAO",
-        "NMC-ANCIENT-COIN-COURSE-2025"
-      ]
-    },
-    {
-      "number": 34,
-      "text": "“开元通宝”四字在钱面上围绕方孔排列，观察钱文时要按钱币自身的方位读，不能按现代横排从左到右猜。",
-      "sourceIds": [
-        "NMC-KAIYUAN-TONGBAO",
-        "COMMONS-TANG-KAIYUAN-GARY-TODD"
-      ]
-    },
-    {
-      "number": 35,
-      "text": "国博页面把钱文书体记为隶书，并说早期钱文相传由欧阳询书写；“相传”必须保留，不能改成已被原稿证明的确定事实。",
-      "sourceIds": [
-        "NMC-KAIYUAN-TONGBAO"
-      ]
-    },
-    {
-      "number": 36,
-      "text": "“开元”在这里被解释为“开创新纪元”，不能因为后来有年号钱，就把所有“开元通宝”简单说成按唐玄宗开元年号命名。",
-      "sourceIds": [
-        "NMC-KAIYUAN-TONGBAO"
-      ]
-    },
-    {
-      "number": 37,
-      "text": "开元通宝的大小、轻重和外郭仍继承此前方孔圆钱的一些特点，改变与延续可以同时发生。",
-      "sourceIds": [
-        "NMC-KAIYUAN-TONGBAO"
-      ]
-    },
-    {
-      "number": 38,
-      "text": "本章照片文件页把一枚开元通宝标作唐高祖时期、直径25毫米；它显示正反面，但一枚样品不等于全部唐钱都完全相同。",
-      "sourceIds": [
-        "COMMONS-TANG-KAIYUAN-GARY-TODD"
-      ]
-    },
-    {
-      "number": 39,
-      "text": "国博说明称从唐天宝年间起，开元通宝铸造规定了明确成分比例；这项后来的制度不能倒推到621年的每一枚钱。",
-      "sourceIds": [
-        "NMC-KAIYUAN-TONGBAO"
-      ]
-    },
-    {
-      "number": 40,
-      "text": "开元通宝随着丝绸之路和区域往来影响东亚、东南亚多地，但“产生影响”不等于一枚钱就能画出唯一传播路线。",
-      "sourceIds": [
-        "NMC-KAIYUAN-TONGBAO"
-      ]
-    },
-    {
-      "number": 41,
+      "number": 3,
       "text": "如果一枚中国钱币在境外遗址有可靠出土记录，它可以成为跨区域流动线索；还要核对地层、年代和同出器物。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 42,
+      "number": 4,
       "text": "“发现地点”只确认物品最终被发现在哪里，不自动说明它从哪里出发、经过哪些城市、由谁携带。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 43,
-      "text": "一种钱币可能长期铸造、继续使用或被后人收藏，因此只凭类型通常不能把埋藏日期精确到某一年。",
-      "sourceIds": [
-        "NMC-WUZHU-COIN",
-        "NMC-KAIYUAN-TONGBAO"
-      ]
-    },
-    {
-      "number": 44,
-      "text": "字形、书体、面值和铸造特征可以帮助专业人员分类断代，但儿童任务不靠“看起来很古老”作结论。",
-      "sourceIds": [
-        "NMC-BRONZE-COWRIE-XUN-2022",
-        "NMC-QI-ROUND-COIN-2022"
-      ]
-    },
-    {
-      "number": 45,
+      "number": 5,
       "text": "钱文好不好看属于审美观察；它不能单独证明当时经济一定繁荣、国家一定强大或百姓一定富裕。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 46,
-      "text": "两宋以铜钱为主，铁钱和白银也在特定地区使用，同时出现纸币这一货币创新。",
-      "sourceIds": [
-        "NMC-ANCIENT-COIN-COURSE-2025"
-      ]
-    },
-    {
-      "number": 47,
-      "text": "国博会子版说明称，北宋中叶四川在主要使用铁钱的背景下印制交子，并由政府设置交子务发行管理。",
-      "sourceIds": [
-        "NMC-HUIZI-PLATE"
-      ]
-    },
-    {
-      "number": 48,
-      "text": "纸币不是“把纸画成钱”就能使用，它涉及发行机构、面额、兑换、接受程度和数量管理。",
-      "sourceIds": [
-        "NMC-HUIZI-PLATE",
-        "NMC-DAMING-TONGXING-BAOCHAO"
-      ]
-    },
-    {
-      "number": 49,
-      "text": "本章北宋纸币图片是2012年拍摄的国博展厅复制品，文件页明确写有“reproduction”。",
-      "sourceIds": [
-        "COMMONS-NORTHERN-SONG-PAPER-CURRENCY-REPRODUCTION"
-      ]
-    },
-    {
-      "number": 50,
-      "text": "复制品能帮助观察现代展陈的图样，却不能证明北宋原钞纸张、墨色、尺寸和保存状态。",
-      "sourceIds": [
-        "COMMONS-NORTHERN-SONG-PAPER-CURRENCY-REPRODUCTION"
-      ]
-    },
-    {
-      "number": 51,
-      "text": "南宋从1160年起发行会子，并在临安设置会子务；国博馆藏“行在会子务”铜版是印刷会子的工具。",
-      "sourceIds": [
-        "NMC-HUIZI-PLATE"
-      ]
-    },
-    {
-      "number": 52,
-      "text": "会子后来有一贯、二百文、三百文、五百文等面额，面额体系可以和数学分类相连。",
-      "sourceIds": [
-        "NMC-HUIZI-PLATE"
-      ]
-    },
-    {
-      "number": 53,
-      "text": "南宋政府多次大量发行会子以应付军费和财政困难，国博说明记录了由此产生的贬值和市场混乱。",
-      "sourceIds": [
-        "NMC-HUIZI-PLATE"
-      ]
-    },
-    {
-      "number": 54,
-      "text": "“发行更多纸币”不必然等于社会拥有更多真实商品和财富；货币数量、信用和价格变化需要一起研究。",
-      "sourceIds": [
-        "NMC-HUIZI-PLATE"
-      ]
-    },
-    {
-      "number": 55,
-      "text": "金、元两朝以纸钞为主要流通货币，元代在纸币发行和管理上形成新的制度发展。",
-      "sourceIds": [
-        "NMC-ANCIENT-COIN-COURSE-2025"
-      ]
-    },
-    {
-      "number": 56,
-      "text": "本章元代照片显示的是“至元通行宝钞贰佰文铜钞版”，它由金属制成，却是生产纸钞的印版。",
-      "sourceIds": [
-        "COMMONS-YUAN-PAPER-CURRENCY-PRINTING-BLOCK"
-      ]
-    },
-    {
-      "number": 57,
-      "text": "印版不是在市场里直接找零的纸钞；器物材料和器物用途不能混为一谈。",
-      "sourceIds": [
-        "COMMONS-YUAN-PAPER-CURRENCY-PRINTING-BLOCK"
-      ]
-    },
-    {
-      "number": 58,
-      "text": "印版上的文字、钱串图案和面额能说明版面设计，不能由一块版计算总发行量。",
-      "sourceIds": [
-        "COMMONS-YUAN-PAPER-CURRENCY-PRINTING-BLOCK"
-      ]
-    },
-    {
-      "number": 59,
-      "text": "一块印版也不能单独证明纸钞在所有地区都同样被接受、实际能买多少东西或使用了多久。",
-      "sourceIds": [
-        "COMMONS-YUAN-PAPER-CURRENCY-PRINTING-BLOCK"
-      ]
-    },
-    {
-      "number": 60,
-      "text": "从纸币复制品、会子铜版和元代铜钞版，可以把“最后印出的纸”和“生产它的工具”分开观察。",
-      "sourceIds": [
-        "COMMONS-NORTHERN-SONG-PAPER-CURRENCY-REPRODUCTION",
-        "NMC-HUIZI-PLATE",
-        "COMMONS-YUAN-PAPER-CURRENCY-PRINTING-BLOCK"
-      ]
-    },
-    {
-      "number": 61,
+      "number": 6,
       "text": "纸币上的面额是制度信息，不是今天收藏价格；儿童活动不进行估价、投资和“最值钱文物”排行。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 62,
-      "text": "研究纸币既要看实物或印版，也要看发行机构、法令和市场记录，图案漂亮不能代替制度证据。",
-      "sourceIds": [
-        "NMC-HUIZI-PLATE",
-        "NMC-DAMING-TONGXING-BAOCHAO"
-      ]
-    },
-    {
-      "number": 63,
-      "text": "明洪武八年，即1375年，政府开始印制大明通行宝钞，并设置印钞和管理机构。",
-      "sourceIds": [
-        "NMC-DAMING-TONGXING-BAOCHAO"
-      ]
-    },
-    {
-      "number": 64,
-      "text": "国博馆藏宝钞用桑穰纸印刷，版面有龙纹花栏、面额、钱串图案和管理文字。",
-      "sourceIds": [
-        "NMC-DAMING-TONGXING-BAOCHAO"
-      ]
-    },
-    {
-      "number": 65,
-      "text": "明初宝钞有一百文、二百文、三百文、四百文、五百文和一贯六等面额。",
-      "sourceIds": [
-        "NMC-DAMING-TONGXING-BAOCHAO"
-      ]
-    },
-    {
-      "number": 66,
-      "text": "官府规定一贯宝钞合一千文铜钱或银一两，这是法定换算，不表示每次真实交易都始终按同一比例完成。",
-      "sourceIds": [
-        "NMC-DAMING-TONGXING-BAOCHAO"
-      ]
-    },
-    {
-      "number": 67,
-      "text": "大量发行宝钞、限制金银交易和市场接受问题共同造成宝钞快速贬值，不能把原因简化为“纸太轻”。",
-      "sourceIds": [
-        "NMC-DAMING-TONGXING-BAOCHAO"
-      ]
-    },
-    {
-      "number": 68,
-      "text": "国博记录称15世纪中期市面已很少使用大明宝钞，1522年正式停用，制度也会随使用结果发生变化。",
-      "sourceIds": [
-        "NMC-DAMING-TONGXING-BAOCHAO"
-      ]
-    },
-    {
-      "number": 69,
-      "text": "一件洪武十六年“花银一十两”银锭说明，宝钞发行和禁银命令之后，江南贸易仍实际使用白银。",
-      "sourceIds": [
-        "NMC-MING-SILVER-INGOT-2022"
-      ]
-    },
-    {
-      "number": 70,
-      "text": "法令告诉我们政府希望怎样使用货币，银锭等实物告诉我们实际生活可能怎样不同；两类证据要放在一起。",
-      "sourceIds": [
-        "NMC-DAMING-TONGXING-BAOCHAO",
-        "NMC-MING-SILVER-INGOT-2022"
-      ]
-    },
-    {
-      "number": 71,
-      "text": "明代一件铜钞版在南京明故宫工部遗址出土，被国博认作1380年后印钞用版；它显示印刷技术和国家机构线索。",
-      "sourceIds": [
-        "NMC-DAMING-BAOCHAO-PRINTING-PLATE"
-      ]
-    },
-    {
-      "number": 72,
-      "text": "到清末，中国货币还出现机制铜元和银元；本章时间线把它作为下一阶段入口，不用一张图片假装讲完近代币制。",
-      "sourceIds": [
-        "NMC-ANCIENT-COIN-COURSE-2025"
-      ]
-    },
-    {
-      "number": 73,
-      "text": "大都会艺术博物馆藏一枚约公元前560—前546年的吕底亚金币，年代处在中国春秋时期，而不是秦汉时期。",
-      "sourceIds": [
-        "MET-LYDIAN-GOLD-STATER-252457",
-        "NMC-ANCIENT-COIN-COURSE-2025"
-      ]
-    },
-    {
-      "number": 74,
-      "text": "这枚钱以金制成，宽约1.6厘米、高约1.2厘米、厚约0.4厘米，重8.018克。",
-      "sourceIds": [
-        "MET-LYDIAN-GOLD-STATER-252457"
-      ]
-    },
-    {
-      "number": 75,
-      "text": "它的一面表现相对的狮与牛前躯，和中国方孔钱以文字围绕方孔的视觉组织明显不同。",
-      "sourceIds": [
-        "MET-LYDIAN-GOLD-STATER-252457",
-        "COMMONS-QIN-BAN-LIANG-NMC"
-      ]
-    },
-    {
-      "number": 76,
-      "text": "这枚吕底亚金币没有中国方孔钱的中央方孔；形状差异首先说明不同地区采用了不同货币形式。",
-      "sourceIds": [
-        "MET-LYDIAN-GOLD-STATER-252457"
-      ]
-    },
-    {
-      "number": 77,
-      "text": "大都会博物馆把藏品图像标记为公有领域开放获取，本章可以保存清晰原图并用于商业与非商业版本。",
-      "sourceIds": [
-        "MET-LYDIAN-GOLD-STATER-252457"
-      ]
-    },
-    {
-      "number": 78,
-      "text": "比较金币与半两、五铢、开元通宝时，可以比较材料、大小、图像、文字和孔形，不能仅凭“金”与“铜”给文明排高低。",
-      "sourceIds": [
-        "MET-LYDIAN-GOLD-STATER-252457",
-        "NMC-BAN-LIANG-COIN-2022"
-      ]
-    },
-    {
-      "number": 79,
+      "number": 7,
       "text": "两地都有货币并不表示它们同步经历相同制度，也不表示一种货币一定由另一种直接传播而来。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 80,
-      "text": "本章没有中国与这枚吕底亚金币直接往来的证据，所以世界连接只作同一大时代的并列比较，不画虚构贸易线。",
-      "sourceIds": [
-        "MET-LYDIAN-GOLD-STATER-252457"
-      ]
-    },
-    {
-      "number": 81,
-      "text": "每张货币卡至少填写“年代、材料、形状、文字、尺寸或重量、发现或收藏地点、来源”七格；缺失项写“未知”，不能猜。",
+      "number": 8,
+      "text": "七格货币卡供成人整理来源，不要求孩子独立填写；不知道的项目标“未知”，共玩只选一个可观察特征。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 82,
+      "number": 9,
       "text": "“收藏地点”是文物今天在哪里，“出土地”是它在哪里被发现，“流通地区”需要更多证据，三者不能写成同一个地点。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 83,
+      "number": 10,
       "text": "同一地点发现多枚同类钱，可以形成分布线索；要证明路线，还需要其他地点、地层、年代、文献和交通条件共同支持。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 84,
-      "text": "单枚钱币不能单独给出某年粮价、普通家庭收入、完整购买力、原主人身份和每次转手经过。",
-      "sourceIds": [
-        "NMC-BAN-LIANG-COIN-2022",
-        "COMMONS-YUAN-PAPER-CURRENCY-PRINTING-BLOCK"
-      ]
-    },
-    {
-      "number": 85,
+      "number": 11,
       "text": "金属更贵、钱币更重或图案更复杂，都不能直接换算成“这个时代的人更富”或“这个国家更强”。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 86,
+      "number": 12,
       "text": "事实栏写来源直接支持的内容，推断栏写多项证据连接后的判断，创意栏只设计卡片颜色、顺序和展签外观。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
     {
-      "number": 87,
-      "text": "最终时间线要同时显示“延续”和“变化”：方孔圆钱长期延续，材料、钱文、发行机构、纸币和银的使用不断变化。",
-      "sourceIds": [
-        "NMC-ANCIENT-COIN-COURSE-2025"
-      ]
-    },
-    {
-      "number": 88,
-      "text": "孩子最后用一句话复述：“我从什么证据知道什么，这件证据还不能告诉我什么”；有新研究时，保留来源并说明修改原因。",
+      "number": 13,
+      "text": "孩子可以指出一个看见的特征或说一句发现；成人帮助区别看见的与还不知道的，不要求固定复述。新研究仍需保留来源和修改原因。",
       "sourceIds": [
         "MOE-HISTORY-CURRICULUM-2022"
       ]
@@ -1490,7 +1494,7 @@
           "number": 5,
           "title": "制作并讲解钱币时间线",
           "items": [
-            "孩子从8张货币卡中选5张按年代排列，每张至少填写4项已有证据，不知道的字段保留“未知”。",
+            "成人先从货币资料里选两张，讲清各自年代；孩子指一个形状或材料差别，再按刚听到的先后摆放。来源字段由成人记录，不考写字和计算。",
             "至少加入1组“延续”与1组“变化”，例如“方孔圆形延续；钱名从重量转向通宝”“金属钱继续存在；纸币和白银加入”。",
             "最后为一张卡选择证据边界，例如：“这张照片能显示钱文和形状，不能告诉我它买过什么、经过哪些城市。”",
             "点“听我的时间线”时，客户端只拼接预录的本地短句与已选卡片名称；不上传儿童声音，不调用在线生成模型，也不提供文物估价和财富排行。"
@@ -1536,7 +1540,7 @@
       "number": 5,
       "title": "制作并讲解钱币时间线",
       "items": [
-        "孩子从8张货币卡中选5张按年代排列，每张至少填写4项已有证据，不知道的字段保留“未知”。",
+        "成人先从货币资料里选两张，讲清各自年代；孩子指一个形状或材料差别，再按刚听到的先后摆放。来源字段由成人记录，不考写字和计算。",
         "至少加入1组“延续”与1组“变化”，例如“方孔圆形延续；钱名从重量转向通宝”“金属钱继续存在；纸币和白银加入”。",
         "最后为一张卡选择证据边界，例如：“这张照片能显示钱文和形状，不能告诉我它买过什么、经过哪些城市。”",
         "点“听我的时间线”时，客户端只拼接预录的本地短句与已选卡片名称；不上传儿童声音，不调用在线生成模型，也不提供文物估价和财富排行。"
@@ -1544,16 +1548,6 @@
     }
   ],
   "sources": [
-    {
-      "id": "MOE-HISTORY-CURRICULUM-2022",
-      "title": "义务教育历史课程标准（2022年版）",
-      "institution": "中华人民共和国教育部",
-      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
-      "type": "curriculum-standard",
-      "authorityLevel": "A",
-      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
-      "imageUse": "reference-only"
-    },
     {
       "id": "NMC-ANCIENT-COIN-COURSE-2025",
       "title": "‘古泉撷珍——中国古代钱币鉴赏’在线课程介绍",
@@ -1582,6 +1576,16 @@
       "type": "museum-object-record",
       "authorityLevel": "A-national-museum-object",
       "factUse": "商周无文青铜贝币、春秋战国有文与无文青铜贝币及楚国有文青铜贝的形制和使用背景；不能把所有贝壳都自动认作货币",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "MOE-HISTORY-CURRICULUM-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "institution": "中华人民共和国教育部",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "type": "curriculum-standard",
+      "authorityLevel": "A",
+      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
       "imageUse": "reference-only"
     },
     {
@@ -1808,7 +1812,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "文件页标作唐高祖时期、直径25毫米的开元通宝正反面。",
-      "boundary": "本地JPEG为4069×2153像素，属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
+      "boundary": "属于个人收藏物照片。621年始铸、钱文与币制意义由国博记录交叉核对；一枚样品不代表全部唐代开元通宝完全相同，‘欧阳询书写’只按国博的‘相传’口径表达。",
       "childVisibility": "child-ok"
     },
     {
@@ -1859,5 +1863,6 @@
     "assets": "cleared",
     "audio": "script-ready",
     "review": "pending"
-  }
+  },
+  "contentReadiness": "legacy-draft-not-in-preview"
 }

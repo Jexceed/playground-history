@@ -65,7 +65,7 @@ fs.writeFileSync('reference-assets/focused-quests/ATTRIBUTION.md',`# 秦至清�
 const entries=read('content/child-entry-points.json'),paths=read('content/quest-story-paths.json'),textbook=read('content/textbook-connections.json');
 for(const chapter of focused.chapters){
  const entry=entries.chapters.find(c=>c.id===chapter.id);
- Object.assign(entry,{childTitle:chapter.title,prompt:chapter.hook,takeaway:chapter.outcome,care:chapter.boundary,people:chapter.anchor.split('与'),playableSource:'content/focused-quests.json'});
+ Object.assign(entry,{childTitle:chapter.title,prompt:chapter.hook,takeaway:chapter.outcome,care:chapter.boundary,people:chapter.anchor.split('与'),playableSource:'content/focused-quests.json',...chapter.entry});
  if(chapter.coverAssetId)entry.preferredAssetId=chapter.coverAssetId;
  if(chapter.id.endsWith('li-bai-jingyesi')) entry.culture='唐代古诗《静夜思》';
  if(chapter.id.endsWith('su-shi-moon')) entry.culture='宋词《水调歌头》';

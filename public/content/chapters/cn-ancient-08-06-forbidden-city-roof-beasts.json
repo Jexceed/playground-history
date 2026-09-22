@@ -7,7 +7,31 @@
   "period": {
     "id": "ming",
     "label": "明朝",
-    "years": "1368—1644年"
+    "years": "1368—1644年",
+    "learningContext": {
+      "childIntro": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
+      "chronology": "1368年建立明朝，1420年北京宫殿建成、1421年正式迁都；各个故事不是发生在同一年。",
+      "covered": "政务环节、郑和交往、工艺记录、屋脊构件、小说刊印、旅行观察。",
+      "scopeBoundary": "社会经济、边防与明末变化在背景稿中；工艺、旅行和宫廷故事是取样，不能当完整明史。",
+      "sourceIds": [
+        "NMC-MING-QING",
+        "UNESCO-FORBIDDEN-CITY"
+      ],
+      "sources": [
+        {
+          "id": "NMC-MING-QING",
+          "title": "“古代中国”基本陈列：明清时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail8.html"
+        },
+        {
+          "id": "UNESCO-FORBIDDEN-CITY",
+          "title": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/439/"
+        }
+      ]
+    }
   },
   "order": 41,
   "title": "故宫屋顶上的小兽为什么要排队",
@@ -18,16 +42,45 @@
     "childTitle": "故宫屋脊的小兽，只是装饰吗？",
     "prompt": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？",
     "takeaway": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。",
-    "object": "太和殿屋脊、骑凤仙人与十只脊兽",
+    "object": "故宫太和殿区域现状照片",
     "people": [
       "明清宫殿的工匠",
       "今天的观察者"
     ],
-    "place": "北京故宫太和殿",
-    "culture": "宫殿建筑与屋脊装饰",
+    "place": "北京故宫太和殿；明代始建与清代重建",
+    "culture": "屋脊构件、装饰与礼制",
     "care": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
     "preferredAssetId": "ming-roof-learning-v1",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-08-06-forbidden-city-roof-beasts",
+    "theme": "艺术和表达",
+    "learningGoal": "构件有用途和装饰意义，建筑今天的形制还经历重建。",
+    "parentQuestion": "小兽除了好看，还曾帮助遮护什么？今天全是最初留下的吗？",
+    "observe": "在模型指出固定处，区分明代始建与清代重建、仙人与走兽。",
+    "misconception": "一种旧构造不代表所有屋顶；现存十兽不能说成明代原物。",
+    "evidenceStepIds": [
+      "time",
+      "journey"
+    ],
+    "sourceIds": [
+      "DPM-TAIHE-ROOF-BEASTS",
+      "DPM-YOUNG-ROOF",
+      "UNESCO-FORBIDDEN-CITY"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-06-06-yan-zhenqing-draft",
+        "relation": "建筑重建与书画后加痕迹都提示：同一件材料可以经历多个时间层。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "礼制",
+      "建设",
+      "文物"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-08-06-forbidden-city-roof-beasts",
@@ -96,18 +149,25 @@
   ],
   "glossary": [
     {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "term": "礼制",
+      "icon": "🏛️",
+      "plain": "古代礼仪和身份安排的一套规定。",
+      "example": "宫殿装饰会体现当时规矩，不能拿来给今天的人排高低。",
       "priority": 1
     },
     {
-      "term": "皇帝",
-      "icon": "👑",
-      "plain": "古代君主国家最高统治者的一种称号。",
-      "example": "皇帝会作决定，也依靠官员、军队、工匠和百姓。",
+      "term": "建设",
+      "icon": "🏗️",
+      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
+      "example": "建设有成果，也要看成本、困难和谁参与。",
       "priority": 3
+    },
+    {
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
     }
   ],
   "pronunciations": [
@@ -119,6 +179,15 @@
         "cn-ancient-08-06-forbidden-city-roof-beasts"
       ],
       "note": "故宫宫殿名；“和”读hé。"
+    },
+    {
+      "text": "脊兽",
+      "reading": "jǐshòu",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-08-06-forbidden-city-roof-beasts"
+      ],
+      "note": "“脊”读jǐ，屋脊上的兽形构件。 本轮仅补校听项，仍需人耳确认。"
     }
   ],
   "gameplay": {
@@ -275,17 +344,16 @@
         "reunionAspectRatio": 1.82,
         "coverCaption": "故宫屋脊的小兽，只是装饰吗？",
         "coverNarration": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？",
-        "stationLine": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
-        "stationNarration": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。",
         "closingCaption": "带着发现回家",
         "closingNarration": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。",
         "closingLine": "小兽有用途，建筑也有自己的历史。",
         "fictionNote": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
         "reunionFit": "contain",
         "reunionImage": "/content/step-images/ming-friends-reunion-v1.jpg",
+        "stationLine": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
         "stationAudio": {
-          "id": "quest-85f0f7da351bfce2",
-          "text": "从宫殿和航海到工匠、书坊与游记，看看明朝人怎样办事、交往和留下知识。"
+          "id": "quest-cca292f14668bfcd",
+          "text": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。"
         },
         "closingAudio": {
           "id": "quest-5dc0981bbf2d2d40",
@@ -1026,6 +1094,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1233,6 +1302,16 @@
       "authorityLevel": "A-structure-only",
       "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-MING-QING",
+      "title": "“古代中国”基本陈列：明清时期",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail8.html",
+      "type": "museum-permanent-exhibition",
+      "authorityLevel": "A",
+      "factUse": "1368年以后明清政治、经济、统一多民族国家、对外关系、文化及1840年前危机的总体脉络",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1388,5 +1467,6 @@
     "assets": "cleared",
     "audio": "not-started",
     "review": "pending"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

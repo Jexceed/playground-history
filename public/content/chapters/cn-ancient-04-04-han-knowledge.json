@@ -7,7 +7,24 @@
   "period": {
     "id": "han",
     "label": "汉朝",
-    "years": "前202—公元220年"
+    "years": "前202—公元220年",
+    "learningContext": {
+      "childIntro": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。",
+      "chronology": "前202年西汉建立；汉代范围包含西汉、东汉以及中间政局变化，不能画成连续不变的一段统治。",
+      "covered": "五铢钱管理、张骞使命和见闻、造纸改进。",
+      "scopeBoundary": "恢复生产、文景时期、汉武帝的其他政策与东汉末年属于背景研究，儿童主线只取三个具体问题。",
+      "sourceIds": [
+        "NMC-QIN-HAN-OVERVIEW"
+      ],
+      "sources": [
+        {
+          "id": "NMC-QIN-HAN-OVERVIEW",
+          "title": "“古代中国”基本陈列：秦汉时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+        }
+      ]
+    }
   },
   "order": 14,
   "title": "蔡伦和工匠怎样改进造纸",
@@ -18,15 +35,47 @@
     "childTitle": "蔡伦怎样让纸更好用？",
     "prompt": "以前已经有纸，蔡伦为什么还要改进？树皮、旧布和旧渔网里藏着线索。",
     "takeaway": "蔡伦以前已有纸。蔡伦改进原料和造纸办法，让纸更适合书写；105年上报成果，后来人继续完善。",
-    "object": "造纸材料和纸页",
+    "object": "西汉纸残片 · 早于蔡伦",
     "people": [
       "蔡伦",
       "改进造纸的工匠"
     ],
-    "place": "洛阳",
-    "culture": "课文《纸的发明》与纸—印刷—指南针—火药时间带",
+    "place": "东汉造纸故事；西汉纸遗存作前例",
+    "culture": "《后汉书》蔡伦传与造纸改进",
     "care": "小伙伴和工匠为虚构教学角色，不把青衣向导当作蔡伦肖像，不编造蔡伦接过某张旧纸的经历。照片中的西汉纸不是蔡伦所造，也不能据模糊照片断定写过什么。原料插画与书写材料比较是学习示意，不能冒充蔡伦作坊、具体配比或完整工艺；不把明代《天工开物》的竹纸工序放进105年。纸与简帛长期并用，不说蔡伦之后立即只用纸。帛书《阴阳五行》不直接称作医学书。",
     "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-04-04-han-knowledge",
+    "theme": "知识与技术",
+    "learningGoal": "蔡伦改进已有造纸技术，许多工匠后来继续完善。",
+    "parentQuestion": "蔡伦以前已有纸，他为什么仍值得记住？",
+    "observe": "结合西汉纸与原料图，说出改进原料和方法、让纸更适合书写。",
+    "misconception": "不是蔡伦第一次造出所有纸，也不是把旧渔网直接摊开当纸。",
+    "evidenceStepIds": [
+      "time",
+      "beginning",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "CSTM-ANCIENT-PAPER",
+      "NLC-EARLY-PAPER-BOOKS",
+      "HKAMO-MAWANGDUI-YINYANG",
+      "HUNAN-MAWANGDUI-SILK-BOOK",
+      "PEP-PRIMARY-CHINESE-G3B-2022"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-07-03-song-inventions",
+        "relation": "纸与印刷都帮助保存文字，造纸和印字是不同技术。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "纤维",
+      "技术",
+      "生产"
+    ]
   },
   "textbookConnection": {
     "id": "cn-ancient-04-04-han-knowledge",
@@ -101,38 +150,10 @@
   ],
   "glossary": [
     {
-      "term": "档案",
-      "icon": "🗂️",
-      "plain": "被保存下来的文件、照片、录音等记录。",
-      "example": "一份档案记录一个角度，要和别的证据一起看。",
-      "priority": 1
-    },
-    {
-      "term": "交流",
-      "icon": "↔️",
-      "plain": "不同的人把物品、知识或做法带给彼此。",
-      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
-      "priority": 1
-    },
-    {
-      "term": "考古",
-      "icon": "🧹",
-      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
-      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
-      "priority": 1
-    },
-    {
-      "term": "迁徙",
-      "icon": "👣",
-      "plain": "人们离开原住地，搬到别的地方生活。",
-      "example": "迁徙可能因为气候、生计、战争或主动选择。",
-      "priority": 1
-    },
-    {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "term": "纤维",
+      "icon": "🧵",
+      "plain": "材料里很细很细的丝状部分。",
+      "example": "树皮、旧布等原料经过处理，里面的纤维可以用来造纸。",
       "priority": 1
     },
     {
@@ -143,11 +164,11 @@
       "priority": 2
     },
     {
-      "term": "组织",
-      "icon": "🤝",
-      "plain": "许多人为了共同事情分工、联系和行动。",
-      "example": "一个名人背后常有组织、协作者和普通参与者。",
-      "priority": 2
+      "term": "生产",
+      "icon": "🛠️",
+      "plain": "把材料和劳动变成食物、工具或其他产品。",
+      "example": "生产离不开人、工具、材料和组织。",
+      "priority": 3
     }
   ],
   "pronunciations": [
@@ -159,24 +180,6 @@
         "cn-ancient-04-04-han-knowledge"
       ],
       "note": "“伦”读lún。"
-    },
-    {
-      "text": "司马迁",
-      "reading": "Sīmǎ Qiān",
-      "kind": "person",
-      "chapterIds": [
-        "cn-ancient-04-04-han-knowledge"
-      ],
-      "note": "复姓“司马”连读。"
-    },
-    {
-      "text": "张仲景",
-      "reading": "Zhāng Zhòngjǐng",
-      "kind": "person",
-      "chapterIds": [
-        "cn-ancient-04-04-han-knowledge"
-      ],
-      "note": "“仲”读zhòng。"
     },
     {
       "text": "帛书",
@@ -230,7 +233,7 @@
         "license": "CC0 1.0",
         "clearance": "cleared-open-license",
         "caption": "甘肃省博物馆展出的西汉纸张残片。",
-        "boundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。下载为1920像素等比例缩略图，未作其他修改。",
+        "boundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/qin-han-western-han-paper.jpg"
       },
@@ -244,7 +247,7 @@
         "license": "CC0 1.0",
         "clearance": "cleared-open-license",
         "caption": "湖南博物院藏马王堆三号汉墓出土帛书《阴阳五行》。",
-        "boundary": "照片有玻璃反光和现代衬底。它用于观察帛书材料与残损状态，不把这篇帛书本身称为医学著作；马王堆医学材料和《导引图》另以馆方资料说明。下载为1920像素等比例缩略图，未作其他修改。",
+        "boundary": "照片有玻璃反光和现代衬底。它用于观察帛书材料与残损状态，不把这篇帛书本身称为医学著作；马王堆医学材料和《导引图》另以馆方资料说明。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/qin-han-mawangdui-silk-scroll.jpg"
       }
@@ -279,7 +282,7 @@
               "url": "https://commons.wikimedia.org/wiki/File:Western_Han_Paper_(10095191884).jpg"
             }
           ],
-          "boundary": "不要求认字，不指定照片展示的具体文字与用途。 残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。下载为1920像素等比例缩略图，未作其他修改。",
+          "boundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。",
           "caption": "真实文物 · 甘肃省博物馆展出",
           "image": "/content/step-images/qin-han-western-han-paper.jpg",
           "audio": {
@@ -311,7 +314,7 @@
               "url": "https://commons.wikimedia.org/wiki/File:Silk_scroll_-_Yin_Yang_and_Five_Elements,_Western_Han_dynasty,_Hunan_Museum.jpg"
             }
           ],
-          "boundary": "这是帛，不是纸；照片中的反光与衬底属于现代展陈。 照片有玻璃反光和现代衬底。它用于观察帛书材料与残损状态，不把这篇帛书本身称为医学著作；马王堆医学材料和《导引图》另以馆方资料说明。下载为1920像素等比例缩略图，未作其他修改。",
+          "boundary": "照片有玻璃反光和现代衬底。它用于观察帛书材料与残损状态，不把这篇帛书本身称为医学著作；马王堆医学材料和《导引图》另以馆方资料说明。",
           "caption": "真实文物 · 西汉",
           "image": "/content/step-images/qin-han-mawangdui-silk-scroll.jpg",
           "audio": {
@@ -331,7 +334,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "甘肃省博物馆展出的西汉纸张残片。",
-      "boundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/qin-han-western-han-paper.jpg"
     },
@@ -355,16 +358,15 @@
         "reunionAlt": "戴圆框眼镜、留齐刘海的绿衣男孩与黄衣男孩、马尾女孩在晾纸架前分享发现，现代故事插画",
         "coverCaption": "从一片早期纸，去寻找蔡伦的改进",
         "coverNarration": "蔡伦以前已经有纸。他改进原料和造纸办法，让纸更适合书写。小小旅行团出发，去树皮和旧渔网里找线索。",
-        "stationLine": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。",
-        "stationNarration": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。",
         "closingCaption": "先有纸，蔡伦再改进；文字更方便留下来",
         "closingNarration": "我们找到线索啦！西汉已有纸，蔡伦改进原料和造纸办法。纸让文字更方便记录和携带，后来的人还在接着改进。",
         "closingLine": "蔡伦改进造纸，让文字更方便留下来。",
         "fictionNote": "三位小伙伴与工匠是虚构教学角色；西汉纸、帛书与蔡伦改进据史料；原料示意不是历史作坊复原。",
         "reunionImage": "/content/step-images/han-paper-friends-reunion-v1.jpg",
+        "stationLine": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。",
         "stationAudio": {
-          "id": "quest-b549846014ecf911",
-          "text": "汉朝站到了！去看统一铸钱，听张骞出使，或找蔡伦改进造纸的办法。"
+          "id": "quest-6bd16741428ab81d",
+          "text": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。"
         },
         "closingAudio": {
           "id": "quest-57f0908c21e2bfdf",
@@ -394,7 +396,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "小伙伴寻找史料中记载的造纸原料。",
-      "boundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/han-paper-materials-v3-prompt.txt。 局部修正竹木简为薄平简片编成的册，不再像圆木棍；其余原料、角色和构图保持。",
+      "boundary": "现代教学图，区分树皮、旧布、渔网、纸与竹木简。原料形象用于观察，不能替代造纸工艺记录；人物不是蔡伦肖像，作坊不是历史现场复原。",
       "childVisibility": "child-ok",
       "image": "/content/step-images/han-paper-materials-v3.jpg"
     },
@@ -423,7 +425,7 @@
         "license": "项目自制，供本项目使用",
         "clearance": "cleared-project-created",
         "caption": "小伙伴寻找史料中记载的造纸原料。",
-        "boundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/han-paper-materials-v3-prompt.txt。 局部修正竹木简为薄平简片编成的册，不再像圆木棍；其余原料、角色和构图保持。",
+        "boundary": "现代教学图，区分树皮、旧布、渔网、纸与竹木简。原料形象用于观察，不能替代造纸工艺记录；人物不是蔡伦肖像，作坊不是历史现场复原。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/han-paper-materials-v3.jpg"
       }
@@ -510,7 +512,7 @@
           "license": "CC0 1.0",
           "clearance": "cleared-open-license",
           "caption": "真实文物 · 甘肃省博物馆展出",
-          "boundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。下载为1920像素等比例缩略图，未作其他修改。 甘肃省博物馆展出的西汉纸张残片。",
+          "boundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。 甘肃省博物馆展出的西汉纸张残片。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/qin-han-western-han-paper.jpg",
           "label": "点开早期纸和帛书相册",
@@ -549,7 +551,7 @@
         "studyImageAlt": "西汉已有纸，东汉蔡伦改进",
         "imageAlt": "西汉纸张残片展览照片",
         "imageCaption": "西汉纸张残片展览照片",
-        "imageBoundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。下载为1920像素等比例缩略图，未作其他修改。",
+        "imageBoundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。",
         "audio": {
           "lead": {
             "id": "quest-1e5a7542f21282a1",
@@ -656,7 +658,7 @@
           "license": "CC0 1.0",
           "clearance": "cleared-open-license",
           "caption": "真实文物 · 西汉",
-          "boundary": "照片有玻璃反光和现代衬底。它用于观察帛书材料与残损状态，不把这篇帛书本身称为医学著作；马王堆医学材料和《导引图》另以馆方资料说明。下载为1920像素等比例缩略图，未作其他修改。 湖南博物院藏马王堆三号汉墓出土帛书《阴阳五行》。",
+          "boundary": "照片有玻璃反光和现代衬底。它用于观察帛书材料与残损状态，不把这篇帛书本身称为医学著作；马王堆医学材料和《导引图》另以馆方资料说明。 湖南博物院藏马王堆三号汉墓出土帛书《阴阳五行》。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/qin-han-mawangdui-silk-scroll.jpg",
           "label": "看看真正的帛书",
@@ -833,7 +835,7 @@
         "studyImageAlt": "树皮，旧网与旧布，处理成纸",
         "imageAlt": "树皮旧网与书写材料故事插画",
         "imageCaption": "树皮旧网与书写材料故事插画",
-        "imageBoundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/han-paper-materials-v3-prompt.txt。 局部修正竹木简为薄平简片编成的册，不再像圆木棍；其余原料、角色和构图保持。",
+        "imageBoundary": "现代教学图，区分树皮、旧布、渔网、纸与竹木简。原料形象用于观察，不能替代造纸工艺记录；人物不是蔡伦肖像，作坊不是历史现场复原。",
         "audio": {
           "lead": {
             "id": "quest-a18f7b471e441eab",
@@ -909,7 +911,7 @@
         "studyImageAlt": "轻薄书写，简册较重",
         "imageAlt": "树皮旧网与书写材料故事插画",
         "imageCaption": "树皮旧网与书写材料故事插画",
-        "imageBoundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/han-paper-materials-v3-prompt.txt。 局部修正竹木简为薄平简片编成的册，不再像圆木棍；其余原料、角色和构图保持。",
+        "imageBoundary": "现代教学图，区分树皮、旧布、渔网、纸与竹木简。原料形象用于观察，不能替代造纸工艺记录；人物不是蔡伦肖像，作坊不是历史现场复原。",
         "audio": {
           "lead": {
             "id": "quest-6b873a5a5bfa5d1e",
@@ -1033,7 +1035,7 @@
           "license": "CC0 1.0",
           "clearance": "cleared-open-license",
           "caption": "真实文物 · 甘肃省博物馆展出",
-          "boundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。下载为1920像素等比例缩略图，未作其他修改。 甘肃省博物馆展出的西汉纸张残片。",
+          "boundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。 甘肃省博物馆展出的西汉纸张残片。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/qin-han-western-han-paper.jpg",
           "label": "再看看早于蔡伦的纸",
@@ -1196,6 +1198,7 @@
       ]
     }
   ],
+  "methodNotes": [],
   "screens": [
     {
       "number": 1,
@@ -1645,7 +1648,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "甘肃省博物馆展出的西汉纸张残片。",
-      "boundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "残片证明蔡伦以前已有纸，但照片中未见可辨文字；页面不能称其为书页或蔡伦所造。",
       "childVisibility": "child-ok"
     },
     {
@@ -1658,7 +1661,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "湖南博物院藏马王堆三号汉墓出土帛书《阴阳五行》。",
-      "boundary": "照片有玻璃反光和现代衬底。它用于观察帛书材料与残损状态，不把这篇帛书本身称为医学著作；马王堆医学材料和《导引图》另以馆方资料说明。下载为1920像素等比例缩略图，未作其他修改。",
+      "boundary": "照片有玻璃反光和现代衬底。它用于观察帛书材料与残损状态，不把这篇帛书本身称为医学著作；马王堆医学材料和《导引图》另以馆方资料说明。",
       "childVisibility": "child-ok"
     },
     {
@@ -1723,7 +1726,7 @@
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
       "caption": "小伙伴寻找史料中记载的造纸原料。",
-      "boundary": "现代教学故事插画，不是历史人物肖像、文物照片或具体场景工艺复原。沿用黄衣翘发无眼镜男孩与青衣成年向导。实际提示词归档于 docs/qa/2026-09-18-han-silk-paper/han-paper-materials-v3-prompt.txt。 局部修正竹木简为薄平简片编成的册，不再像圆木棍；其余原料、角色和构图保持。",
+      "boundary": "现代教学图，区分树皮、旧布、渔网、纸与竹木简。原料形象用于观察，不能替代造纸工艺记录；人物不是蔡伦肖像，作坊不是历史现场复原。",
       "childVisibility": "child-ok"
     }
   ],
@@ -1735,5 +1738,6 @@
     "assets": "verified",
     "audio": "not-started",
     "review": "in-progress"
-  }
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }
