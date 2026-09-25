@@ -13,9 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://shikong-danganju.jiangszzx.chatgpt.site"),
+  metadataBase: new URL("http://127.0.0.1:4173"),
   title: "小小历史旅行团｜沿着时间河去探险",
   description: "为 4–6 岁孩子设计的语音历史游戏：去洞穴找火种，和唐三彩骆驼逛长安，跟着人物、地点和真文物解开历史谜题。",
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "32x32" },
+    ],
+    apple: "/favicon-180.png",
+  },
   openGraph: {
     title: "小小历史旅行团",
     description: "沿着时间河，跟着人物、地点和真文物去历史里探险",

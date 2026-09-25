@@ -522,3 +522,15 @@
 
 /* Keep long event names inside the same time-choice card as their icon and year. */
 .era-object.era-name-long strong{font-size:clamp(18px,2vw,26px);line-height:1.2}
+
+/* 朝代选项卡的听选项按钮移到卡片外右下角:窄屏与宽屏下长名称(如“开元通宝始铸”)都会被卡片右上角的悬浮按钮压住。 */
+.bench-choice:has(.era-object) { display:flex; flex-direction:column; }
+.bench-choice:has(.era-object) .bench-choice-action { flex:1 0 auto; width:100%; }
+.bench-choice:has(.era-object) .bench-option-sound { position:static; align-self:flex-end; margin-top:8px; }
+
+/* 步骤身份标签避开观察对象:尺子叠层步骤移到左上(底部会被尺子SVG盖住);找图步骤提到热点虚线框之上。 */
+@media(max-width:900px){
+ .object-quest[data-interaction-kind="ruler-pairs"] .story-art-label,
+ .object-quest[data-interaction-kind="align-rulers"] .story-art-label { top:6px; bottom:auto; left:8px; right:auto; }
+ .object-quest[data-interaction-kind="scene-find"] .story-art-label { z-index:3; }
+}

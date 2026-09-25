@@ -537,7 +537,7 @@ export default function Home() {
 
           <div className="river-map">
             <div className="river-map-heading">
-              <h2>下一站，谁在河边等你？</h2>
+              <h2>下一站，<span className="keep-together">谁在河边等你？</span></h2>
               <span className="river-direction">秦汉 ⟶ 明清</span>
             </div>
             <ol className="river-path" style={{gridTemplateColumns:`repeat(${stations.length}, minmax(138px, 1fr)) auto`}} aria-label="秦汉至明清时间河十站">
@@ -576,7 +576,7 @@ export default function Home() {
               <div>
                 <small>{panel.kicker}</small>
                 <h2>{panel.title}</h2>
-                <p>{panel.years} · {panel.line}</p>
+                <p><span className="panel-years">{panel.years.split(" · ").map((token, i, arr) => <span key={token} className="year-token">{token}{i < arr.length - 1 ? " · " : ""}</span>)}</span><span className="panel-line">{panel.line}</span></p>
               </div>
               <button className="panel-close" onClick={closePanel} aria-label="关闭">✕</button>
             </header>
