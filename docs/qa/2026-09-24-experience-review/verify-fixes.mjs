@@ -1,4 +1,5 @@
 import { chromium } from 'playwright-core';
+import {readPrimaryActions, primaryActionFailures} from '../../../scripts/lib/viewport-audit.mjs';
 
 const D = 'docs/qa/2026-09-24-experience-review/shots';
 const browser = await chromium.launch({ channel: 'chrome', headless: true });
@@ -7,15 +8,21 @@ const bad = [];
 page.on('response', r => { if (r.status() >= 400) bad.push(`${r.status()} ${r.url().replace('http://127.0.0.1:4173', '')}`); });
 
 const report = [];
-function log(name, ok, detail = '') { const line = `${ok ? '✅' : '❌'} ${name}${detail ? ' — ' + detail : ''}`; report.push(line); console.log(line); }
+function log(name, ok, detail = '') { const line = `${ok ? '✅' : '❌'} ${name}${detail ? ' — ' + detail : ''}`; report.push(line); console.log(line); if (!ok) process.exitCode = 1; }
 
 async function choiceUntilRight(p) {
   for (const b of await p.$$('button.bench-choice-action:not([disabled])')) {
-    await b.click().catch(() => {}); await p.waitForTimeout(400);
+    await b.click(); await p.waitForTimeout(400);
+    const failures = primaryActionFailures(await p.evaluate(readPrimaryActions));
+    if (failures.length) throw new Error(failures.join(' | '));
     if (await p.evaluate(() => !!document.querySelector('.bench-choice.right'))) return;
   }
 }
-async function advance(p) { await p.click('.workbench-next'); await p.waitForTimeout(750); }
+async function advance(p) {
+  const failures = primaryActionFailures(await p.evaluate(readPrimaryActions), {required:true});
+  if (failures.length) throw new Error(failures.join(' | '));
+  await p.click('.workbench-next'); await p.waitForTimeout(750);
+}
 
 // ===== 1. 秦章:s1 朝代卡新布局、s2/s4/s5 徽标 =====
 await page.goto('http://127.0.0.1:4173/', { waitUntil: 'networkidle' });
@@ -84,17 +91,18 @@ await page.screenshot({ path: `${D}/fix-era-cards-s1.png`, clip: await page.loca
 async function viewportCheck(tag) {
   const r = await page.evaluate(() => {
     const de = document.documentElement;
-    const next = document.querySelector('.workbench-next');
-    return { overflowX: de.scrollWidth > window.innerWidth + 1, nextTop: next ? Math.round(next.getBoundingClientRect().top) : null };
+    return { overflowX: de.scrollWidth > window.innerWidth + 1 };
   });
   log(`${tag} 无横向溢出`, !r.overflowX);
+  const failures = primaryActionFailures(await page.evaluate(readPrimaryActions));
+  log(`${tag} 主按钮完整可见`, !failures.length, failures.join(' | '));
   return r;
 }
 
 // badge 多点覆盖检查
 async function badgeCheck(tag) {
   const r = await page.evaluate(() => {
-    const badge = document.querySelector('.object-quest .story-art-label');
+    const badge = document.querySelector('.object-quest .scene-find-label, .object-quest .story-art-label');
     if (!badge) return null;
     const rc = badge.getBoundingClientRect();
     if (rc.width === 0) return { hidden: true };
@@ -214,4 +222,5 @@ log('favicon 全部 200 且指向本机', fav.length > 0 && fav.every(f => f.sta
 console.log('\n===== 验证报告 =====');
 report.forEach(r => console.log(r));
 console.log('\n坏响应:', bad.length ? [...new Set(bad)].join('; ') : '无');
+if (bad.length) process.exitCode = 1;
 await browser.close();

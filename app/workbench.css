@@ -528,9 +528,8 @@
 .bench-choice:has(.era-object) .bench-choice-action { flex:1 0 auto; width:100%; }
 .bench-choice:has(.era-object) .bench-option-sound { position:static; align-self:flex-end; margin-top:8px; }
 
-/* 步骤身份标签避开观察对象:尺子叠层步骤移到左上(底部会被尺子SVG盖住);找图步骤提到热点虚线框之上。 */
+/* 尺子叠层步骤的身份标签移到左上，避开底部尺子学习图。 */
 @media(max-width:900px){
  .object-quest[data-interaction-kind="ruler-pairs"] .story-art-label,
  .object-quest[data-interaction-kind="align-rulers"] .story-art-label { top:6px; bottom:auto; left:8px; right:auto; }
- .object-quest[data-interaction-kind="scene-find"] .story-art-label { z-index:3; }
 }

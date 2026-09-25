@@ -456,7 +456,7 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
         {chosenScene&&step.interaction?.selectionFraming==='detail'?<SceneCardArt view={chosenScene} label={picked?.label??sceneAlt} detail/>:step.interaction?.imageCrop?<SceneCardArt view={{kind:'scene-card',image:sceneImage,crop:step.interaction.imageCrop}} label={sceneAlt} detail/>:<Image className="workbench-art" src={sceneImage} alt={sceneAlt} width={1536} height={1024} loading="eager" unoptimized/>}
         {sceneFind&&<div className="scene-find-hotspots" role="group" aria-label={step.interaction?.ariaLabel??"点图里的线索回答问题"}>{step.interaction?.hotspots?.map(spot=>{const state=sceneResult?.id===spot.id?(sceneResult.correct?'right':'retry'):'';return <button key={spot.id} className={`scene-find-target ${state}`} style={{left:`${spot.x*100}%`,top:`${spot.y*100}%`,width:`${spot.width*100}%`,height:`${spot.height*100}%`}} aria-label={`选择${spot.label}`} data-hotspot-id={spot.id} aria-pressed={sceneResult?.id===spot.id} disabled={solved||sceneResult?.correct} onClick={()=>chooseSpot(spot.id)}>{state&&<span><b aria-hidden="true">{state==='right'?'✓':'×'}</b>{state==='right'?'找到了':'再试试'}</span>}</button>;})}</div>}
         </div>
-        <span className="story-art-label">{step.interaction?.imageLabel??"故事插画"}</span>
+        {!sceneFind&&<span className="story-art-label">{step.interaction?.imageLabel??"故事插画"}</span>}
         <div className={`bench-toys toys-${kind}`} aria-live="polite">
           {kind==='ruler-pairs'&&<RulerPair match={Boolean(picked?.correct)} cloth/>}
           {kind==='tool-pick'&&<div className="bench-tool-demo"><Cloth marks={solved}/>{picked?.objectView?.kind==='weight'?<div className="bench-weight"><LearningWeight/></div>:<div className={solved?'tool-landed':'tool-waiting'}><WoodenRuler/></div>}</div>}
@@ -465,6 +465,7 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
           {kind==='slide-fit'&&step.interaction?.placement!=='panel'&&<SlideFit scene={step.interaction?.scene??''} hint={step.interaction?.hint??''} ariaLabel={step.interaction?.ariaLabel??step.interaction?.hint??'移动道具'} onJudge={judge} locked={solved}/>}
         </div>
       </div>}
+      {sceneFind&&<p className="scene-find-label">{step.interaction?.imageLabel??"故事插画"}</p>}
       {step.inspection&&((kind!=='timeline'&&!lookListen)||step.inspection.placement==='supporting')&&<button className="real-object-link" onClick={onInspect}><Image src={step.inspection.image} alt={step.inspection.title} width={150} height={95} unoptimized/><span><small>真实材料 · 点开看一看</small><strong>{step.inspection.label}</strong></span><span className="object-magnify" aria-hidden="true">⌕</span></button>}
     </div>
     <div className="workbench-task">

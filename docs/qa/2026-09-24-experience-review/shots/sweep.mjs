@@ -1,5 +1,5 @@
 import { chromium } from 'playwright-core';
-import fs from 'node:fs';
+import {readPrimaryActions, primaryActionFailures} from '../../../../scripts/lib/viewport-audit.mjs';
 
 const OUT = 'docs/qa/2026-09-24-experience-review/shots';
 const report = [];
@@ -15,19 +15,22 @@ const STATION = {
   '08-01-ming-governance':'ming','08-02-zheng-he':'ming','08-04-economy-knowledge-culture':'ming','08-06-forbidden-city-roof-beasts':'ming','08-07-journey-west-print':'ming','08-08-xu-xiake-notebook':'ming','08-03-frontiers-unity':'qing','08-05-late-crisis':'qing',
 };
 const chapters = Object.keys(STATION);
+const size = /^(\d+)x(\d+)$/.exec(process.argv[2] ?? '');
+if (!size || Number(size[1]) < 1 || Number(size[2]) < 1) throw new Error('请传入本轮实测窗口尺寸，例如：node docs/qa/2026-09-24-experience-review/shots/sweep.mjs 1280x720');
 
 const browser = await chromium.launch({ channel: 'chrome', headless: true });
-const page = await browser.newPage({ viewport: { width: 340, height: 785 } });
+const page = await browser.newPage({ viewport: { width: Number(size[1]), height: Number(size[2]) } });
 page.on('response', r => { if (r.status() >= 400) bad.push(`${r.status()} ${r.url().replace('http://127.0.0.1:4173','')}`); });
 page.on('console', m => { if (m.type()==='error' && !m.text().includes('favicon')) consoleErrs.push(m.text().slice(0,150)); });
 
-async function stepChecks(tag) {
+async function stepChecks(tag, {required = false} = {}) {
   const r = await page.evaluate(() => {
     const out = {};
     const de = document.documentElement;
     out.overflowX = de.scrollWidth > window.innerWidth + 1;
     out.brokenImgs = [...document.querySelectorAll('img')].filter(i => i.complete && i.naturalWidth === 0).map(i => (i.getAttribute('src')||'').slice(-60));
-    const badge = document.querySelector('.story-art-label');
+    // Only inspect the active caption, not labels inside folded family activities.
+    const badge = document.querySelector('.object-quest .scene-find-label');
     if (badge) {
       const b = badge.getBoundingClientRect();
       if (b.width > 0 && b.height > 0) {  // 折叠details里的不可见标签跳过
@@ -35,17 +38,17 @@ async function stepChecks(tag) {
         out.badgeCovered = covered;
       }
     }
-    const next = document.querySelector('.workbench-next');
-    out.nextTop = next ? Math.round(next.getBoundingClientRect().top) : null;
     return out;
   });
-  const flags = [];
+  const navigation = await page.evaluate(readPrimaryActions);
+  const flags = primaryActionFailures(navigation, {required});
   if (r.overflowX) flags.push('横向溢出');
   if (r.brokenImgs?.length) flags.push(`坏图:${r.brokenImgs.join(',')}`);
-  if (r.badgeCovered) flags.push(`身份标签被遮挡(遮挡者:${r.badgeCoverer})`);
+  if (r.badgeCovered) flags.push('当前找图身份标签被遮挡');
   if (flags.length) {
     report.push(`⚠️ ${tag}: ${flags.join(' | ')}`);
     await page.screenshot({ path: `${OUT}/flag-${tag}.png` });
+    throw new Error(`${tag}: ${flags.join(' | ')}`);
   }
   return r;
 }
@@ -70,26 +73,28 @@ async function playChapter(tag) {
     // scene-find 轮内推进优先(它的 .workbench-next 可能是“再找一位”)
     if (await page.$('button.scene-find-target:not([disabled])')) {
       for (const s of await page.$$('button.scene-find-target:not([disabled])')) {
-        await s.click().catch(() => {}); await page.waitForTimeout(400);
+        await s.click(); await page.waitForTimeout(400);
+        await stepChecks(`${tag}-${stepId}-after-hotspot`);
         if (await page.evaluate(() => !!document.querySelector('.scene-find-target.right'))) break;
       }
       await page.waitForTimeout(300);
       continue;
     }
-    if (await page.$('.scene-find-actions .workbench-next')) { await page.click('.scene-find-actions .workbench-next'); await page.waitForTimeout(700); continue; }
+    if (await page.$('.scene-find-actions .workbench-next')) { await stepChecks(`${tag}-${stepId}-before-next`, {required:true}); await page.click('.scene-find-actions .workbench-next'); await page.waitForTimeout(700); continue; }
     if (await page.$('button.bench-choice-action:not([disabled])')) {
       for (const b of await page.$$('button.bench-choice-action:not([disabled])')) {
-        await b.click().catch(() => {}); await page.waitForTimeout(450);
+        await b.click(); await page.waitForTimeout(450);
+        await stepChecks(`${tag}-${stepId}-after-choice`);
         if (await page.evaluate(() => !!document.querySelector('.bench-choice.right'))) break;
       }
       await page.waitForTimeout(300);
       continue;
     }
     const arrow = await page.$('.alignment-controls button:not([disabled])');
-    if (arrow) { await arrow.click().catch(() => {}); await page.waitForTimeout(120); continue; }
+    if (arrow) { await arrow.click(); await page.waitForTimeout(120); await stepChecks(`${tag}-${stepId}-after-move`); continue; }
     const labBtn = await page.$('.history-lab button:not([disabled]), [class*="circle"] button:not([disabled])');
-    if (labBtn) { await labBtn.click({ timeout: 3000 }).catch(() => {}); await page.waitForTimeout(2500); continue; }
-    if (await page.$('.workbench-next')) { await page.click('.workbench-next'); await page.waitForTimeout(700); continue; }
+    if (labBtn) { await labBtn.click({ timeout: 3000 }); await page.waitForTimeout(2500); await stepChecks(`${tag}-${stepId}-after-model`); continue; }
+    if (await page.$('.workbench-next')) { await stepChecks(`${tag}-${stepId}-before-next`, {required:true}); await page.click('.workbench-next'); await page.waitForTimeout(700); continue; }
     const anyBtn = await page.$('.object-quest button:not([disabled])');
     if (anyBtn) { await anyBtn.click().catch(() => {}); await page.waitForTimeout(500); continue; }
     await page.waitForTimeout(400);
@@ -120,7 +125,7 @@ for (const shortId of chapters) {
     const finished = await page.waitForSelector('.quest-finish', { timeout: 6000 }).then(()=>true).catch(()=>false);
     if (!finished) { report.push(`❌ ${shortId}: 未到达结束页`); await page.screenshot({ path: `${OUT}/stuck-${shortId}-finish.png` }); }
     else {
-      await stepChecks(`${shortId}-finish`);
+      await stepChecks(`${shortId}-finish`, {required:true});
       // 结束页必须有返回与重玩
       const nav = await page.evaluate(() => [...document.querySelectorAll('.finish-navigation button')].map(b => b.textContent.trim()));
       if (nav.length < 2) report.push(`⚠️ ${shortId}-finish: FinishNavigation按钮=${nav.length}`);
@@ -141,3 +146,4 @@ console.log('\n===== 控制台错误(除favicon) =====');
 [...new Set(consoleErrs)].forEach(r => console.log(r));
 console.log('\nDONE');
 await browser.close();
+if (report.length || bad.length || consoleErrs.length) process.exitCode = 1;

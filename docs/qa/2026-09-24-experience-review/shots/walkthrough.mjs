@@ -93,12 +93,8 @@ async function walkStep(stepName, { wrongFirst = true, action = null } = {}) {
   if (options.length) {
     if (wrongFirst && options.length > 1) {
       // 找一个错误项
-      let wrongBtn = null;
-      for (const b of options) {
-        const label = await b.getAttribute('aria-label');
-        // 无法从属性判断对错,先点第一个再看点后状态
-      }
-      wrongBtn = options[0];
+      // 无法从属性判断对错，先点第一个再看点后状态。
+      const wrongBtn = options[0];
       await wrongBtn.click();
       await page.waitForTimeout(600);
       const state = await page.locator('.bench-choice').first().getAttribute('class');
