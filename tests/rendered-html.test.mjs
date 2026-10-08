@@ -15,25 +15,26 @@ async function render() {
   }, { waitUntil() {}, passThroughOnException() {} });
 }
 
-test("renders only the Qin–Qing local playtest scope", async () => {
+test("renders only the current China local playtest scope", async () => {
  const response=await render(); assert.equal(response.status,200); const html=await response.text();
- assert.match(html,/小小历史旅行团/); assert.match(html,/秦汉至明清时间河十站/);assert.match(html,/家长入口/);
+ assert.match(html,/小小历史旅行团/); assert.match(html,/春秋至明清/);assert.match(html,/家长入口/);
  assert.match(html,/history-tour-river-v4/);assert.match(html,/river-hero/);assert.doesNotMatch(html,/focus-welcome/);
- for(const label of ["秦朝","汉朝","唐朝","宋朝与辽·西夏·金","明朝","清朝"])assert.ok(html.includes(label));
+ assert.match(html,/拿上地图，出发/);
+ assert.doesNotMatch(html,/下一站，|旅行团插画地图/);
  for(const label of ["世界古代史","远古时期","人民解放战争","跨时代小发现","打开五步故事","speechSynthesis"])assert.ok(!html.includes(label),label);
  const imageSources=[...html.matchAll(/<img[^>]*src="([^"]+)"/g)].map(match=>match[1]);
- assert.ok(imageSources.length>=10);
+ assert.ok(imageSources.length>=5);
  assert.ok(imageSources.every(src=>src.startsWith("/images/")||src.startsWith("/content/")), "local preview images must not require a remote image optimizer");
- assert.equal((html.match(/data-period-id=/g)??[]).length,10);
+ assert.equal((html.match(/data-period-id=/g)??[]).length,0,"station choices appear only after opening the time map");
 });
 
 test("keeps the complete source library and emits a separate focused UI bundle",async()=>{
  const read=async p=>JSON.parse(await readFile(new URL(p,root),"utf8"));
  const full=await read("public/content/manifest.json"),preview=await read("public/content/preview-manifest.json"),scope=await read("content/preview-scope.json");
- assert.equal(full.tracks.length,7);assert.equal(full.totals.chapters,103);assert.equal(full.totals.coreQuestSteps,515);
- assert.equal(preview.totals.chapters,34);assert.equal(preview.totals.coreQuestSteps,170);
+ assert.equal(full.tracks.length,7);assert.equal(full.totals.chapters,112);assert.equal(full.totals.coreQuestSteps,560);
+ assert.equal(preview.totals.chapters,44);assert.equal(preview.totals.coreQuestSteps,220);
  assert.deepEqual(new Set(preview.tracks.flatMap(t=>t.chapters.map(c=>c.id))),new Set(scope.chapterIds));
- assert.equal((await read("content/runtime/progress-index.json")).length,103);
+ assert.equal((await read("content/runtime/progress-index.json")).length,112);
  const voiceLines=new Map((await read("public/audio/voice-lines.json")).lines.map(l=>[l.id,l.text]));
  let segmentCount=0;
  for(const c of full.tracks.flatMap(t=>t.chapters)){

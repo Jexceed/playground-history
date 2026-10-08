@@ -1,0 +1,639 @@
+{
+  "schemaVersion": 1,
+  "scope": "2026-10-08中国历史新增任务材料",
+  "assets": [
+    {
+      "id": "analects-ming-commentary",
+      "chapterIds": [
+        "cn-ancient-03-03-hundred-schools"
+      ],
+      "title": "明刊《论语注疏》",
+      "localPath": "reference-assets/china-expansion/analects-ming-commentary.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Commentaries_of_the_Analects_of_Confucius.jpg",
+      "author": "AlexHe34",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "clearance": "cleared-open-license",
+      "factSourceIds": [
+        "EDB-ANALECTS-FOUR"
+      ],
+      "caption": "明刊《论语注疏》",
+      "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+      "notes": "原始文件与授权元数据保存在本轮QA。照片为开放授权参观摄影或古籍数字扫描，不冒称馆方官方摄影；运行缩图不修改文物内容。"
+    },
+    {
+      "id": "confucius-learning-v1",
+      "chapterIds": [
+        "cn-ancient-03-03-hundred-schools"
+      ],
+      "title": "跟孔子学会学与习的故事插画",
+      "localPath": "reference-assets/china-expansion/confucius-learning-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "EDB-ANALECTS-FOUR"
+      ],
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+      "notes": "参考既有三位小伙伴生成；实际提示词见docs/qa/2026-10-08-china-expansion/art-prompts*.json，原件保留在本目录。",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md"
+    },
+    {
+      "id": "qin-kneeling-archer",
+      "chapterIds": [
+        "cn-ancient-04-08-qin-terracotta"
+      ],
+      "title": "秦代跪射俑 · 文物照片",
+      "localPath": "reference-assets/china-expansion/qin-archer-full.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kneeling_archer_of_the_Terracotta_Army.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "clearance": "cleared-open-license",
+      "factSourceIds": [
+        "UNESCO-QIN-TERRACOTTA"
+      ],
+      "caption": "秦代跪射俑 · 文物照片",
+      "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+      "notes": "原始文件与授权元数据保存在本轮QA。照片为开放授权参观摄影或古籍数字扫描，不冒称馆方官方摄影；运行缩图不修改文物内容。"
+    },
+    {
+      "id": "qin-terracotta-visit-v1",
+      "chapterIds": [
+        "cn-ancient-04-08-qin-terracotta"
+      ],
+      "title": "兵马俑留下了哪些线索？的故事插画",
+      "localPath": "reference-assets/china-expansion/qin-terracotta-visit-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "UNESCO-QIN-TERRACOTTA"
+      ],
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+      "notes": "参考既有三位小伙伴生成；实际提示词见docs/qa/2026-10-08-china-expansion/art-prompts*.json，原件保留在本目录。",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md"
+    },
+    {
+      "id": "zhaozhou-bridge-now",
+      "chapterIds": [
+        "cn-ancient-06-09-zhaozhou-bridge"
+      ],
+      "title": "赵州桥 · 今日照片",
+      "localPath": "reference-assets/china-expansion/zhaozhou-bridge-now.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Zhaozhou_Bridge.jpg",
+      "author": "English Wikipedia user Zhao 1974",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "clearance": "cleared-public-domain",
+      "factSourceIds": [
+        "NMC-ZHAOZHOU-BRIDGE"
+      ],
+      "caption": "赵州桥 · 今日照片",
+      "boundary": "照片是今天的赵州桥，经过历代维修；教学图只演示过水关系，不计算洪水流量，不说洞越多越牢。",
+      "notes": "原始文件与授权元数据保存在本轮QA。照片为开放授权参观摄影或古籍数字扫描，不冒称馆方官方摄影；运行缩图不修改文物内容。"
+    },
+    {
+      "id": "sui-bridge-discovery-v1",
+      "chapterIds": [
+        "cn-ancient-06-09-zhaozhou-bridge"
+      ],
+      "title": "赵州桥的小桥洞有什么用？的故事插画",
+      "localPath": "reference-assets/china-expansion/sui-bridge-discovery-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "NMC-ZHAOZHOU-BRIDGE"
+      ],
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "照片是今天的赵州桥，经过历代维修；教学图只演示过水关系，不计算洪水流量，不说洞越多越牢。",
+      "notes": "参考既有三位小伙伴生成；实际提示词见docs/qa/2026-10-08-china-expansion/art-prompts*.json，原件保留在本目录。",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md"
+    },
+    {
+      "id": "dufu-collection-cover",
+      "chapterIds": [
+        "cn-ancient-06-11-du-fu-spring-rain"
+      ],
+      "title": "《杜工部集》后世刊本封面",
+      "localPath": "reference-assets/china-expansion/dufu-collection-cover.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%9D%9C%E5%B7%A5%E9%83%A8%E9%9B%86(%E4%BA%8C).djvu",
+      "author": "(唐)杜甫撰",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "clearance": "cleared-public-domain",
+      "factSourceIds": [
+        "EDB-DUFU-SPRING-RAIN"
+      ],
+      "caption": "《杜工部集》后世刊本封面",
+      "boundary": "古籍是后世刊本，不是杜甫手稿；雨夜图是诗意想象，不是写诗当晚的照片。花不会因一场雨瞬间长大，孩子的个人感受不判对错。",
+      "notes": "原始文件与授权元数据保存在本轮QA。照片为开放授权参观摄影或古籍数字扫描，不冒称馆方官方摄影；运行缩图不修改文物内容。"
+    },
+    {
+      "id": "tang-dufu-rain-v1",
+      "chapterIds": [
+        "cn-ancient-06-11-du-fu-spring-rain"
+      ],
+      "title": "杜甫为什么把春雨叫好雨？的故事插画",
+      "localPath": "reference-assets/china-expansion/tang-dufu-rain-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "EDB-DUFU-SPRING-RAIN"
+      ],
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "古籍是后世刊本，不是杜甫手稿；雨夜图是诗意想象，不是写诗当晚的照片。花不会因一场雨瞬间长大，孩子的个人感受不判对错。",
+      "notes": "参考既有三位小伙伴生成；实际提示词见docs/qa/2026-10-08-china-expansion/art-prompts*.json，原件保留在本目录。",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md"
+    },
+    {
+      "id": "huang-daopo-memorial",
+      "chapterIds": [
+        "cn-ancient-07-10-huang-daopo-cotton"
+      ],
+      "title": "黄道婆纪念馆 · 今日照片",
+      "localPath": "reference-assets/china-expansion/huang-daopo-memorial.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Huangdaopo_Memorial_inner.jpg",
+      "author": "Tigerzeng",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "clearance": "cleared-open-license",
+      "factSourceIds": [
+        "ICH-HUANG-DAOPO",
+        "ECNU-HUANG-DAOPO"
+      ],
+      "caption": "黄道婆纪念馆 · 今日照片",
+      "boundary": "纪念馆和人物雕像是后世纪念，不是元代现场。故事里的传承者不是黄道婆肖像，经纬模型不复原整台古织机；黄道婆不是棉花或所有织布方法的发明者。",
+      "notes": "原始文件与授权元数据保存在本轮QA。照片为开放授权参观摄影或古籍数字扫描，不冒称馆方官方摄影；运行缩图不修改文物内容。"
+    },
+    {
+      "id": "yuan-cotton-sharing-v1",
+      "chapterIds": [
+        "cn-ancient-07-10-huang-daopo-cotton"
+      ],
+      "title": "黄道婆把手艺带给了谁？的故事插画",
+      "localPath": "reference-assets/china-expansion/yuan-cotton-sharing-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "ICH-HUANG-DAOPO",
+        "ECNU-HUANG-DAOPO"
+      ],
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "纪念馆和人物雕像是后世纪念，不是元代现场。故事里的传承者不是黄道婆肖像，经纬模型不复原整台古织机；黄道婆不是棉花或所有织布方法的发明者。",
+      "notes": "参考既有三位小伙伴生成；实际提示词见docs/qa/2026-10-08-china-expansion/art-prompts*.json，原件保留在本目录。",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md"
+    },
+    {
+      "id": "li-qingzhao-rumengling-page",
+      "chapterIds": [
+        "cn-ancient-07-09-li-qingzhao-rumengling"
+      ],
+      "title": "清刻《漱玉词》· 宋代词作",
+      "localPath": "reference-assets/china-expansion/li-qingzhao-rumengling-page.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NLC892-312002087162-387332_%E6%BC%B1%E7%8E%89%E8%A9%9E.pdf",
+      "author": "〔宋〕李清照撰",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "clearance": "cleared-public-domain",
+      "factSourceIds": [
+        "BJWOMEN-LI-RUMENGLING",
+        "NLC-SHUYU-1881"
+      ],
+      "caption": "清刻《漱玉词》· 宋代词作",
+      "boundary": "所用清刻书页不是李清照手稿；插画是词意想象，不确定为某处真实溪亭，也不虚构准确作词年或同游者身份。",
+      "notes": "原始文件与授权元数据保存在本轮QA。照片为开放授权参观摄影或古籍数字扫描，不冒称馆方官方摄影；运行缩图不修改文物内容。"
+    },
+    {
+      "id": "song-liqingzhao-lotus-v1",
+      "chapterIds": [
+        "cn-ancient-07-09-li-qingzhao-rumengling"
+      ],
+      "title": "跟李清照的小船听一段回忆的故事插画",
+      "localPath": "reference-assets/china-expansion/song-liqingzhao-lotus-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "BJWOMEN-LI-RUMENGLING",
+        "NLC-SHUYU-1881"
+      ],
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "所用清刻书页不是李清照手稿；插画是词意想象，不确定为某处真实溪亭，也不虚构准确作词年或同游者身份。",
+      "notes": "参考既有三位小伙伴生成；实际提示词见docs/qa/2026-10-08-china-expansion/art-prompts*.json，原件保留在本目录。",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md"
+    },
+    {
+      "id": "han-changxin-lamp",
+      "chapterIds": [
+        "cn-ancient-04-06-han-palace-lantern"
+      ],
+      "title": "西汉长信宫灯 · 文物照片",
+      "localPath": "reference-assets/china-expansion/han-lamp-whole.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20250118_Changxin_Palace_Lamp_01.jpg",
+      "author": "Windmemories",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "clearance": "cleared-open-license",
+      "factSourceIds": [
+        "DPM-CHANGXIN-LAMP",
+        "HEBEI-CHANGXIN-STRUCTURE"
+      ],
+      "caption": "西汉长信宫灯 · 文物照片",
+      "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+      "notes": "原始文件与授权元数据保存在本轮QA。照片为开放授权参观摄影或古籍数字扫描，不冒称馆方官方摄影；运行缩图不修改文物内容。"
+    },
+    {
+      "id": "han-lamp-observation-v1",
+      "chapterIds": [
+        "cn-ancient-04-06-han-palace-lantern"
+      ],
+      "title": "长信宫灯的袖子为什么连着灯？的故事插画",
+      "localPath": "reference-assets/china-expansion/han-lamp-observation-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "DPM-CHANGXIN-LAMP",
+        "HEBEI-CHANGXIN-STRUCTURE"
+      ],
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+      "notes": "参考既有三位小伙伴生成；实际提示词见docs/qa/2026-10-08-china-expansion/art-prompts*.json，原件保留在本目录。",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md"
+    },
+    {
+      "id": "shiji-ming-edition",
+      "chapterIds": [
+        "cn-ancient-04-07-sima-qian-shiji"
+      ],
+      "title": "明刊《史记》· 后世书影",
+      "localPath": "reference-assets/china-expansion/shiji-ming-edition.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NCL-01308_01_%E5%8F%B2%E8%A8%98.pdf",
+      "author": "司馬遷",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "clearance": "cleared-public-domain",
+      "factSourceIds": [
+        "NLC-SHIJI-EDITIONS",
+        "SCIO-SIMA-QIAN-SHIJI",
+        "EDB-ANALECTS-FOUR"
+      ],
+      "caption": "明刊《史记》· 后世书影",
+      "boundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+      "notes": "原始文件与授权元数据保存在本轮QA。照片为开放授权参观摄影或古籍数字扫描，不冒称馆方官方摄影；运行缩图不修改文物内容。"
+    },
+    {
+      "id": "han-shiji-reading-v1",
+      "chapterIds": [
+        "cn-ancient-04-07-sima-qian-shiji"
+      ],
+      "title": "司马迁怎样把过去的事留下来？的故事插画",
+      "localPath": "reference-assets/china-expansion/han-shiji-reading-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "NLC-SHIJI-EDITIONS",
+        "SCIO-SIMA-QIAN-SHIJI",
+        "EDB-ANALECTS-FOUR"
+      ],
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+      "notes": "参考既有三位小伙伴生成；实际提示词见docs/qa/2026-10-08-china-expansion/art-prompts*.json，原件保留在本目录。",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md"
+    },
+    {
+      "id": "tang-jianzhen-departure-v1",
+      "chapterIds": [
+        "cn-ancient-06-10-jianzhen-eastward"
+      ],
+      "title": "鉴真向东出发以后做什么？的故事插画",
+      "localPath": "reference-assets/china-expansion/tang-jianzhen-departure-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "NMC-JIANZHEN-STORY",
+        "TOSHODAIJI-HISTORY"
+      ],
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "这是中国唐代文化交流故事，不新增世界史站。寺院照片是保存现状，不是抵达现场；故事里的船与书束是教学表现，不复原船型或唐代装帧。",
+      "notes": "参考既有三位小伙伴生成；实际提示词见docs/qa/2026-10-08-china-expansion/art-prompts*.json，原件保留在本目录。",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md"
+    },
+    {
+      "id": "zheng-bamboo-rocks",
+      "chapterIds": [
+        "cn-ancient-08-09-zheng-banqiao-bamboo"
+      ],
+      "title": "清代郑燮竹石画 · 馆藏图像",
+      "localPath": "reference-assets/china-expansion/zheng-bamboo-rocks.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Zheng_Xie_-_Bamboo_and_Rocks_-_95.54.2_-_Minneapolis_Institute_of_Art.jpg",
+      "author": "Zheng Xie",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "clearance": "cleared-public-domain",
+      "factSourceIds": [
+        "EDB-ZHENG-BAMBOO",
+        "MIA-ZHENG-BAMBOO-1760"
+      ],
+      "caption": "清代郑燮竹石画 · 馆藏图像",
+      "boundary": "郑板桥即郑燮；所用画作不声称就是《竹石》的原题诗画。根部示意是今天的学具，不补造古画细节，也不把遇险硬撑当品德答案。",
+      "notes": "原始文件与授权元数据保存在本轮QA。照片为开放授权参观摄影或古籍数字扫描，不冒称馆方官方摄影；运行缩图不修改文物内容。"
+    },
+    {
+      "id": "qing-bamboo-poetry-v1",
+      "chapterIds": [
+        "cn-ancient-08-09-zheng-banqiao-bamboo"
+      ],
+      "title": "郑板桥怎样把竹子写进诗里？的故事插画",
+      "localPath": "reference-assets/china-expansion/qing-bamboo-poetry-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "EDB-ZHENG-BAMBOO",
+        "MIA-ZHENG-BAMBOO-1760"
+      ],
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "郑板桥即郑燮；所用画作不声称就是《竹石》的原题诗画。根部示意是今天的学具，不补造古画细节，也不把遇险硬撑当品德答案。",
+      "notes": "参考既有三位小伙伴生成；实际提示词见docs/qa/2026-10-08-china-expansion/art-prompts*.json，原件保留在本目录。",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md"
+    },
+    {
+      "id": "han-lamp-sleeve-side",
+      "chapterIds": [
+        "cn-ancient-04-06-han-palace-lantern"
+      ],
+      "title": "长信宫灯侧后方照片",
+      "localPath": "reference-assets/china-expansion/han-lamp-sleeve-side.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chang_Xin_Gong_Deng_01.jpg",
+      "author": "我乃野云鹤",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "clearance": "cleared-open-license",
+      "factSourceIds": [
+        "DPM-CHANGXIN-LAMP",
+        "HEBEI-CHANGXIN-STRUCTURE"
+      ],
+      "caption": "从侧后方看长信宫灯的宽袖与灯盘。",
+      "boundary": "这是今日文物照片，可观察相连的袖管；照片本身不显示烟尘在器内的运行。",
+      "notes": "完整照片原件保留。"
+    },
+    {
+      "id": "qin-choice-scenes-v2",
+      "chapterIds": [
+        "cn-ancient-04-08-qin-terracotta"
+      ],
+      "title": "兵马俑留下了哪些线索？的情境选择分镜",
+      "localPath": "reference-assets/choice-art-refinement/qin-choice-scenes-v2.png",
+      "runtimeMaxEdge": 2400,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "UNESCO-QIN-TERRACOTTA"
+      ],
+      "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+      "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "notes": "画风参考原章插画；保留旧图。完整原图及局部取景记录在本项目，实际提示词见docs/qa/2026-10-08-choice-art-refinement/prompts*.json。"
+    },
+    {
+      "id": "confucius-choice-scenes-v2",
+      "chapterIds": [
+        "cn-ancient-03-03-hundred-schools"
+      ],
+      "title": "跟孔子学会学与习的情境选择分镜",
+      "localPath": "reference-assets/choice-art-refinement/confucius-choice-scenes-v2.png",
+      "runtimeMaxEdge": 2400,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "EDB-ANALECTS-FOUR"
+      ],
+      "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+      "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "notes": "画风参考原章插画；保留旧图。完整原图及局部取景记录在本项目，实际提示词见docs/qa/2026-10-08-choice-art-refinement/prompts*.json。"
+    },
+    {
+      "id": "bridge-choice-scenes-v2",
+      "chapterIds": [
+        "cn-ancient-06-09-zhaozhou-bridge"
+      ],
+      "title": "赵州桥的小桥洞有什么用？的情境选择分镜",
+      "localPath": "reference-assets/choice-art-refinement/bridge-choice-scenes-v2.png",
+      "runtimeMaxEdge": 2400,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "NMC-ZHAOZHOU-BRIDGE"
+      ],
+      "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+      "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "notes": "画风参考原章插画；保留旧图。完整原图及局部取景记录在本项目，实际提示词见docs/qa/2026-10-08-choice-art-refinement/prompts*.json。"
+    },
+    {
+      "id": "rain-choice-scenes-v2",
+      "chapterIds": [
+        "cn-ancient-06-11-du-fu-spring-rain"
+      ],
+      "title": "杜甫为什么把春雨叫好雨？的情境选择分镜",
+      "localPath": "reference-assets/choice-art-refinement/rain-choice-scenes-v2.png",
+      "runtimeMaxEdge": 2400,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "EDB-DUFU-SPRING-RAIN"
+      ],
+      "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+      "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "notes": "画风参考原章插画；保留旧图。完整原图及局部取景记录在本项目，实际提示词见docs/qa/2026-10-08-choice-art-refinement/prompts*.json。"
+    },
+    {
+      "id": "cotton-choice-scenes-v2",
+      "chapterIds": [
+        "cn-ancient-07-10-huang-daopo-cotton"
+      ],
+      "title": "黄道婆把手艺带给了谁？的情境选择分镜",
+      "localPath": "reference-assets/choice-art-refinement/cotton-choice-scenes-v2.png",
+      "runtimeMaxEdge": 2400,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "ICH-HUANG-DAOPO",
+        "ECNU-HUANG-DAOPO"
+      ],
+      "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+      "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "notes": "画风参考原章插画；保留旧图。完整原图及局部取景记录在本项目，实际提示词见docs/qa/2026-10-08-choice-art-refinement/prompts*.json。"
+    },
+    {
+      "id": "lotus-choice-scenes-v2",
+      "chapterIds": [
+        "cn-ancient-07-09-li-qingzhao-rumengling"
+      ],
+      "title": "跟李清照的小船听一段回忆的情境选择分镜",
+      "localPath": "reference-assets/choice-art-refinement/lotus-choice-scenes-v2.png",
+      "runtimeMaxEdge": 2400,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "BJWOMEN-LI-RUMENGLING",
+        "NLC-SHUYU-1881"
+      ],
+      "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+      "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "notes": "画风参考原章插画；保留旧图。完整原图及局部取景记录在本项目，实际提示词见docs/qa/2026-10-08-choice-art-refinement/prompts*.json。"
+    },
+    {
+      "id": "shiji-choice-scenes-v2",
+      "chapterIds": [
+        "cn-ancient-04-07-sima-qian-shiji"
+      ],
+      "title": "司马迁怎样把过去的事留下来？的情境选择分镜",
+      "localPath": "reference-assets/choice-art-refinement/shiji-choice-scenes-v2.png",
+      "runtimeMaxEdge": 2400,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "NLC-SHIJI-EDITIONS",
+        "SCIO-SIMA-QIAN-SHIJI",
+        "EDB-ANALECTS-FOUR"
+      ],
+      "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+      "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "notes": "画风参考原章插画；保留旧图。完整原图及局部取景记录在本项目，实际提示词见docs/qa/2026-10-08-choice-art-refinement/prompts*.json。"
+    },
+    {
+      "id": "jianzhen-choice-scenes-v2",
+      "chapterIds": [
+        "cn-ancient-06-10-jianzhen-eastward"
+      ],
+      "title": "鉴真向东出发以后做什么？的情境选择分镜",
+      "localPath": "reference-assets/choice-art-refinement/jianzhen-choice-scenes-v2.png",
+      "runtimeMaxEdge": 2400,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "NMC-JIANZHEN-STORY",
+        "TOSHODAIJI-HISTORY"
+      ],
+      "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+      "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "notes": "画风参考原章插画；保留旧图。完整原图及局部取景记录在本项目，实际提示词见docs/qa/2026-10-08-choice-art-refinement/prompts*.json。"
+    },
+    {
+      "id": "bamboo-choice-scenes-v2",
+      "chapterIds": [
+        "cn-ancient-08-09-zheng-banqiao-bamboo"
+      ],
+      "title": "郑板桥怎样把竹子写进诗里？的情境选择分镜",
+      "localPath": "reference-assets/choice-art-refinement/bamboo-choice-scenes-v2.png",
+      "runtimeMaxEdge": 2400,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "EDB-ZHENG-BAMBOO",
+        "MIA-ZHENG-BAMBOO-1760"
+      ],
+      "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+      "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "notes": "画风参考原章插画；保留旧图。完整原图及局部取景记录在本项目，实际提示词见docs/qa/2026-10-08-choice-art-refinement/prompts*.json。"
+    },
+    {
+      "id": "inventions-choice-scenes-v2",
+      "chapterIds": [
+        "cn-ancient-07-08-song-gunpowder-records"
+      ],
+      "title": "火药用在哪里，古书留下什么？的情境选择分镜",
+      "localPath": "reference-assets/choice-art-refinement/inventions-choice-scenes-v2.png",
+      "runtimeMaxEdge": 2400,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目自制（image_gen）",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "JJ-ZENG-WUJING-HISTORY",
+        "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
+        "NLC-WUJING-MING-SCAN",
+        "CAS-FOUR-GREAT-INVENTIONS"
+      ],
+      "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+      "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "notes": "画风参考原章插画；保留旧图。完整原图及局部取景记录在本项目，实际提示词见docs/qa/2026-10-08-choice-art-refinement/prompts*.json。"
+    }
+  ]
+}

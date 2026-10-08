@@ -1,6 +1,7 @@
 "use client";
 import {useEffect,useRef,useState} from 'react';
 import {engineLinkage,labSnapshot, type HistoryLabKind} from './history-lab-model';
+import {BridgeWaterDiagram,WeavingDiagram,LampDiagram} from './ChinaHistoryDiagrams';
 import './history-lab.css';
 export type LabStage={label:string;narration:string;audio:{id:string;text:string}};
 export type HistoryLabConfig={kind:HistoryLabKind;stages:LabStage[]};
@@ -65,6 +66,9 @@ function EngineDiagram({stage,angle}:{stage:number;angle:number}){
  </svg>;
 }
 export function HistoryLabDiagram({kind,stage=0,angle=stage*180}:{kind:HistoryLabKind;stage?:number;angle?:number}){
+ if(kind==='bridge-water')return <BridgeWaterDiagram stage={stage}/>;
+ if(kind==='weaving')return <WeavingDiagram stage={stage}/>;
+ if(kind==='lamp')return <LampDiagram stage={stage}/>;
  return kind==='polities'?<PolityDiagram index={stage}/>:kind==='printing'?<PrintingDiagram stage={stage}/>:kind==='compass'?<CompassDiagram stage={stage}/>:kind==='roof'?<RoofDiagram stage={stage}/>:<EngineDiagram stage={stage} angle={angle}/>;
 }
 const LAB_COPY:Record<HistoryLabKind,{initial:string;note:string}>={
@@ -72,7 +76,10 @@ const LAB_COPY:Record<HistoryLabKind,{initial:string;note:string}>={
  printing:{initial:'中间要换成月字，两旁的字留在原处。',note:'用三个简字体验重排，不复原毕昇原套泥活字'},
  compass:{initial:'看着南北方向，让船转一转。',note:'方向原理学具，不是宋代指南针实物'},
  roof:{initial:'小兽放在旁边，试着盖住这一个固定处。',note:'剖面学习模型：一种旧做法，不代表所有屋顶构造'},
- engine:{initial:'观察活塞一来一回，轮子怎样继续转。',note:'分步运动学具，省略气门等结构，不复原瓦特整机'}
+ engine:{initial:'观察活塞一来一回，轮子怎样继续转。',note:'分步运动学具，省略气门等结构，不复原瓦特整机'},
+ 'bridge-water':{initial:'水还低，先看大拱下面的水。',note:'过水关系示意，不模拟洪水流量或真实承载'},
+ weaving:{initial:'每次穿一排，再看看邻排哪里不同。',note:'经纬交错学具，不是元代织机复原'},
+ lamp:{initial:'先看开口，再观察光和烟的不同去处。',note:'功能学习模型，不对文物点火或操作'}
 };
 export function HistoryLab({config,locked,onStage}:{config:HistoryLabConfig;locked:boolean;onStage:(stage:LabStage,complete:boolean)=>void}){
  const [stage,setStage]=useState(0),[engineAngle,setEngineAngle]=useState(0),[busy,setBusy]=useState(false);

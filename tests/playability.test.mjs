@@ -158,7 +158,7 @@ test("all quiz choices are stable and audible while scene questions retain their
     assert.equal(JSON.stringify(step.options), before);
     firstCorrect += Number(options[0].correct);
   }
-  assert.equal(count, 515);
+  assert.equal(count, 560);
   assert.ok(firstCorrect > answered * .4 && firstCorrect < answered * .6, `${firstCorrect}/${answered}`);
 });
 

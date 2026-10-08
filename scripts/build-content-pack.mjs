@@ -729,11 +729,9 @@ const textbookConnections = readJson("content/textbook-connections.json");
 const textbookConnectionByChapter = new Map(textbookConnections.chapters.map((entry) => [entry.id, entry]));
 if (textbookConnectionByChapter.size !== textbookConnections.chapters.length) throw new Error("课本熟悉线索存在重复章节ID");
 for (const connection of textbookConnections.chapters) validateTextbookConnection(connection, sourceById);
-const expectedTextbookConnectionIds = childEntryPoints.chapters
-  .filter((entry) => /^cn-ancient-(?:04|05|06|07|08)-/.test(entry.id))
-  .map((entry) => entry.id);
+const expectedTextbookConnectionIds = focusedQuests.chapters.map(entry=>entry.id);
 if (expectedTextbookConnectionIds.length !== textbookConnectionByChapter.size) {
-  throw new Error(`秦至清课本熟悉线索覆盖不完整：${textbookConnectionByChapter.size}/${expectedTextbookConnectionIds.length}`);
+  throw new Error(`当前任务课本熟悉线索覆盖不完整：${textbookConnectionByChapter.size}/${expectedTextbookConnectionIds.length}`);
 }
 for (const id of expectedTextbookConnectionIds) if (!textbookConnectionByChapter.has(id)) throw new Error(`${id} 缺少课本熟悉线索`);
 const assetRegistries = fs.readdirSync(path.join(root, "content/assets"))
@@ -1038,10 +1036,10 @@ fs.writeFileSync(voiceOutputPath, `${JSON.stringify({
 }, null, 2)}\n`);
 console.log(`内容包生成完成：${manifest.totals.tracks} 个板块，${manifest.totals.chapters} 章。`);
 
-// The UI imports only the current 34-chapter scope. The complete library remains on disk.
+// The UI imports only the current authored China scope. The complete library remains on disk.
 const previewScope=readJson("content/preview-scope.json");
 const visible=new Set(previewScope.chapterIds);
-const previewTracks=manifestTracks.map(t=>({...t,range:"秦汉至明清",periods:t.periods.filter(p=>previewScope.periodIds.includes(p.id)),chapters:t.chapters.filter(c=>visible.has(c.id))})).filter(t=>t.chapters.length);
+const previewTracks=manifestTracks.map(t=>({...t,range:previewScope.label,periods:t.periods.filter(p=>previewScope.periodIds.includes(p.id)),chapters:t.chapters.filter(c=>visible.has(c.id))})).filter(t=>t.chapters.length);
 const previewChapters=previewTracks.flatMap(t=>t.chapters);
 const previewDetails=previewChapters.map(c=>readJson(`public/content/chapters/${c.id}.json`));
 const distinct=(key,idKey)=>new Set(previewDetails.flatMap(c=>c[key].map(x=>x[idKey]))).size;
@@ -1049,8 +1047,8 @@ const sum=key=>previewChapters.reduce((total,c)=>total+(c[key]??0),0);
 const previewVoiceIds=new Set();
 const collectVoices=obj=>{if(!obj||typeof obj!=="object")return;if(typeof obj.id==="string"&&typeof obj.text==="string"&&voiceLineById.has(obj.id))previewVoiceIds.add(obj.id);else Object.values(obj).forEach(collectVoices);};
 previewChapters.forEach(c=>collectVoices(c.gameplay));
-["river-intro","choice-help","choice-circle","choice-square","choice-first","resume-hint"].forEach(id=>previewVoiceIds.add(id));
-const preview={...manifest,title:"秦汉至明清本机试玩",scope:previewScope,tracks:previewTracks,totals:{...manifest.totals,tracks:previewTracks.length,chapters:previewChapters.length,playableChapters:previewChapters.length,coreQuestSteps:previewChapters.length*5,facts:sum("factCount"),methodNotes:sum("methodNoteCount"),screens:sum("screens"),audioClips:sum("audioClips"),audioSegments:sum("audioSegments"),coreAudioSegments:sum("coreAudioSegments"),extensionAudioSegments:sum("extensionAudioSegments"),interactions:sum("interactions"),textbookConnections:34,sources:distinct("sources","id"),assets:distinct("assets","id"),glossaryTerms:distinct("glossary","term"),pronunciationEntries:distinct("pronunciations","text"),localVoiceLines:previewVoiceIds.size},voicePlayback:{...manifest.voicePlayback,lineCount:previewVoiceIds.size}};
+voiceInterface.lines.forEach(line=>previewVoiceIds.add(line.id));
+const preview={...manifest,title:"春秋至明清本机试玩",scope:previewScope,tracks:previewTracks,totals:{...manifest.totals,tracks:previewTracks.length,chapters:previewChapters.length,playableChapters:previewChapters.length,coreQuestSteps:previewChapters.length*5,facts:sum("factCount"),methodNotes:sum("methodNoteCount"),screens:sum("screens"),audioClips:sum("audioClips"),audioSegments:sum("audioSegments"),coreAudioSegments:sum("coreAudioSegments"),extensionAudioSegments:sum("extensionAudioSegments"),interactions:sum("interactions"),textbookConnections:previewChapters.length,sources:distinct("sources","id"),assets:distinct("assets","id"),glossaryTerms:distinct("glossary","term"),pronunciationEntries:distinct("pronunciations","text"),localVoiceLines:previewVoiceIds.size},voicePlayback:{...manifest.voicePlayback,lineCount:previewVoiceIds.size}};
 const previewText=JSON.stringify(preview,null,2)+"\n";
 fs.writeFileSync(path.join(sourceDataRoot,"preview-manifest.json"),previewText);
 fs.writeFileSync(path.join(outputRoot,"preview-manifest.json"),previewText);

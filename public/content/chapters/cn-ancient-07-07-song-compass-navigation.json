@@ -9,12 +9,13 @@
     "label": "宋朝（与辽·西夏·金并立）",
     "years": "916—1279年（宋960年起）",
     "learningContext": {
-      "childIntro": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+      "childIntro": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。",
       "chronology": "916是辽相关起点，宋从960年开始；北宋与南宋分期，辽与金先后更替、西夏存在其间。窗口范围不等于宋始于916年。",
-      "covered": "同年并立、城市劳动、活字、指南针、火药文献与宋词。",
+      "covered": "同年并立、城市劳动、活字、指南针、火药用途与文献、苏轼和李清照的词。",
       "scopeBoundary": "经济重心南移、海外贸易及政权关系在背景稿中；三项技术不能代表宋代生活全部。",
       "sourceIds": [
-        "NMC-LIAO-SONG-XIA-JIN-YUAN"
+        "NMC-LIAO-SONG-XIA-JIN-YUAN",
+        "BJWOMEN-LI-RUMENGLING"
       ],
       "sources": [
         {
@@ -22,6 +23,12 @@
           "title": "“古代中国”基本陈列：辽宋夏金元时期",
           "institution": "中国国家博物馆",
           "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+        },
+        {
+          "id": "BJWOMEN-LI-RUMENGLING",
+          "title": "如梦令：一帘幽梦，千种诗情",
+          "institution": "北京市妇联学习平台",
+          "url": "https://study.bjwomen.gov.cn/thought/knowledge/2022/05/20/3988.shtml"
         }
       ]
     }
@@ -43,7 +50,7 @@
     "place": "宋代海上航行；泉州湾古船遗存",
     "culture": "宋代航海文献",
     "care": "泉州古船照片是考古船体与现代展陈，没有展示指南针出土；用针的事实由文献支持。船上插画是教学情境，不复原特定古船。方向模型固定红端指南，省略磁偏角、摇晃和磁干扰，不能作真实航海教程。",
-    "preferredAssetId": "song-compass-crew-v1",
+    "preferredAssetId": "song-quanzhou-ship",
     "playableSource": "content/focused-quests.json"
   },
   "learningGuide": {
@@ -205,18 +212,18 @@
     ],
     "photoAlbum": null,
     "coverAsset": {
-      "id": "song-compass-crew-v1",
-      "title": "宋代海船，怎样在阴天辨方向？故事插画",
-      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-compass-crew-v1.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "song-quanzhou-ship",
+      "title": "泉州湾宋代海船遗存展览照片",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-quanzhou-ship.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Song_Dynasty_Ancient_Ship_of_Quanzhou_Bay_20061229.jpg",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史照片。",
-      "boundary": "泉州古船照片是考古船体与现代展陈，没有展示指南针出土；用针的事实由文献支持。船上插画是教学情境，不复原特定古船。方向模型固定红端指南，省略磁偏角、摇晃和磁干扰，不能作真实航海教程。",
+      "license": "CC BY 2.0",
+      "clearance": "cleared-open-license",
+      "caption": "宋代海船残体 · 2006年参观照片",
+      "boundary": "照片展示出土船体与现代支撑和展陈，不是宋代航行现场。摄影John Meckley，CC BY 2.0。照片没有展示出土指南针，航海用针另由文献支持。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/song-compass-crew-v1.jpg"
+      "image": "/content/step-images/song-quanzhou-ship.jpg"
     },
     "presentation": {
       "kind": "object-workbench",
@@ -247,10 +254,10 @@
         "closingLine": "针给方向，航海还要大家观察。",
         "fictionNote": "泉州古船照片是考古船体与现代展陈，没有展示指南针出土；用针的事实由文献支持。船上插画是教学情境，不复原特定古船。方向模型固定红端指南，省略磁偏角、摇晃和磁干扰，不能作真实航海教程。",
         "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
-        "stationLine": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+        "stationLine": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。",
         "stationAudio": {
-          "id": "quest-1bc1ed1a12336ca9",
-          "text": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。"
+          "id": "quest-8a55adf0ba4cb9a7",
+          "text": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。"
         },
         "closingAudio": {
           "id": "quest-c788fda351d2a711",
@@ -297,9 +304,13 @@
         "image": "/content/step-images/song-friends-reunion-v2.jpg"
       }
     ],
-    "coverImage": "/content/step-images/song-compass-crew-v1.jpg",
-    "coverImageAlt": "宋代海船，怎样在阴天辨方向？故事插画",
-    "coverImageKind": "故事插画",
+    "coverImage": "/content/step-images/song-quanzhou-ship.jpg",
+    "coverImageAlt": "泉州湾宋代海船遗存展览照片",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "宋代海船遗存",
+      "fit": "contain"
+    },
     "coverAudio": {
       "id": "quest-cedbcf694e0548d8",
       "text": "天空被云遮住，海上的船员怎样辨方向？看看指南针能告诉什么，再找找船上其他人的工作。"
@@ -1186,6 +1197,16 @@
       "type": "institution-history-reference",
       "authorityLevel": "A",
       "factUse": "1974年后渚港出土宋代海船残体，展陈为考古遗存；不据照片推出船上指南针",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "BJWOMEN-LI-RUMENGLING",
+      "title": "如梦令：一帘幽梦，千种诗情",
+      "institution": "北京市妇联学习平台",
+      "url": "https://study.bjwomen.gov.cn/thought/knowledge/2022/05/20/3988.shtml",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "李清照《如梦令·常记溪亭日暮》的全文及追忆、回舟、入荷丛和惊起水鸟的叙事。",
       "imageUse": "reference-only"
     }
   ],

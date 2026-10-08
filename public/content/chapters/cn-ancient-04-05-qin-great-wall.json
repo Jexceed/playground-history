@@ -9,12 +9,13 @@
     "label": "秦朝",
     "years": "前221—前207年",
     "learningContext": {
-      "childIntro": "秦统一六国后，怎样让不同地方按共同标准办事？看看度量衡，再看长城怎样守卫边地。",
+      "childIntro": "到秦朝看共同的标准、守卫边地的长城，再从兵马俑的细节认识工匠留下的线索。",
       "chronology": "前221年统一六国，前207年秦朝结束。统一不是各地生活一夜相同。",
-      "covered": "共同标准、边地防守与劳动配合。",
-      "scopeBoundary": "两章以共同标准与边地防守为例。郡县制、统一文字和秦末变化尚未单独展开，不能说两章讲完秦史。",
+      "covered": "共同标准、边地防守与劳动配合、兵马俑的陪葬用途与文物线索。",
+      "scopeBoundary": "三章分别取共同标准、边地防守与陶俑证据。郡县制、统一文字和秦末变化尚未单独展开，不代表秦史全貌。",
       "sourceIds": [
-        "NMC-QIN-HAN-OVERVIEW"
+        "NMC-QIN-HAN-OVERVIEW",
+        "UNESCO-QIN-TERRACOTTA"
       ],
       "sources": [
         {
@@ -22,6 +23,12 @@
           "title": "“古代中国”基本陈列：秦汉时期",
           "institution": "中国国家博物馆",
           "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+        },
+        {
+          "id": "UNESCO-QIN-TERRACOTTA",
+          "title": "秦始皇陵及兵马俑遗产记录",
+          "institution": "UNESCO世界遗产中心",
+          "url": "https://whc.unesco.org/en/list/441/"
         }
       ]
     }
@@ -591,10 +598,10 @@
         "closingLine": "抵御外来进攻，墙和人一起守卫边地。",
         "fictionNote": "角色与场景属于虚构教学叙事，不作为秦代军服、关口或瞭望设施的精确复原。抵御北方进攻、墙体与关口的配合、守卫观察与传信分别以登记资料支持；不描绘战斗或将防御写成绝对有效。",
         "reunionImage": "/content/step-images/qin-wall-friends-reunion-v1.jpg",
-        "stationLine": "秦统一六国后，怎样让不同地方按共同标准办事？看看度量衡，再看长城怎样守卫边地。",
+        "stationLine": "到秦朝看共同的标准、守卫边地的长城，再从兵马俑的细节认识工匠留下的线索。",
         "stationAudio": {
-          "id": "quest-d0be142898827dc9",
-          "text": "秦统一六国后，怎样让不同地方按共同标准办事？看看度量衡，再看长城怎样守卫边地。"
+          "id": "quest-7098817005e1308b",
+          "text": "到秦朝看共同的标准、守卫边地的长城，再从兵马俑的细节认识工匠留下的线索。"
         },
         "closingAudio": {
           "id": "quest-3ed9fe7d806f91cd",
@@ -673,6 +680,10 @@
     "coverImage": "/content/step-images/qin-han-jinshanling-panorama.jpg",
     "coverImageAlt": "金山岭明长城全景照片",
     "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "金山岭长城 · 晚于秦代",
+      "fit": "cover"
+    },
     "coverAudio": {
       "id": "quest-46f02be095c16ee3",
       "text": "“长城长，珠峰耸。”这么长的墙，是用来抵御外敌、守卫边地的。有了墙，为什么还要有人守？小小旅行团，去关口看看吧！",
@@ -1360,7 +1371,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/qin-wall-guard-story-v1.jpg",
-              "imageAlt": "请守卫去高处望远"
+              "imageAlt": "请守卫去高处望远",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-0b65354a6d29cab6.svg",
             "imageAlt": "高处观察，传递消息",
@@ -1385,7 +1397,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/qin-wall-teamwork-story-v1.jpg",
-              "imageAlt": "请工匠再添一层墙"
+              "imageAlt": "请工匠再添一层墙",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-cb61e200648e6da5.svg",
             "imageAlt": "运来材料，继续修墙",
@@ -1792,6 +1805,16 @@
       "type": "official-media-report",
       "authorityLevel": "A",
       "factUse": "战国秦长城夯土版筑工艺、土长城风化成低矮土埂的现状与保护",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-QIN-TERRACOTTA",
+      "title": "秦始皇陵及兵马俑遗产记录",
+      "institution": "UNESCO世界遗产中心",
+      "url": "https://whc.unesco.org/en/list/441/",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "秦始皇陵、陪葬坑、陶人陶马、雕塑与工匠技艺的证据；不用页面的秦朝止年作为全朝代时间范围。",
       "imageUse": "reference-only"
     }
   ],

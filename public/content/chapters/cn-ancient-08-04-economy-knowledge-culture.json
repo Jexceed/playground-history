@@ -51,7 +51,7 @@
     "culture": "宋应星《天工开物》",
     "care": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
     "playableSource": "content/focused-quests.json",
-    "preferredAssetId": "ming-craft-observation-v1"
+    "preferredAssetId": "tiangong-1637-brickmaking"
   },
   "learningGuide": {
     "id": "cn-ancient-08-04-economy-knowledge-culture",
@@ -218,18 +218,18 @@
     ],
     "photoAlbum": null,
     "coverAsset": {
-      "id": "ming-craft-observation-v1",
-      "title": "织布与记录教学故事图",
-      "localPath": "reference-assets/ming-qing/ming-craft-observation-v1.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "tiangong-1637-brickmaking",
+      "title": "1637年《天工开物》砖瓦制作书影",
+      "localPath": "reference-assets/ming-qing/tiangong-1637-brickmaking.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NLC892-411999010751-35275_天工開物_第3冊.pdf",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史照片。",
-      "boundary": "书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "明代1637年刊本 · 砖瓦制作图",
+      "boundary": "1637年刊本第3册书影，图示砖瓦制作，后续织布故事用于体验另一种工艺的观察与记录。不是宋应星的亲历照片，也不要求儿童辨读古字。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/ming-craft-observation-v1.jpg"
+      "image": "/content/step-images/tiangong-1637-brickmaking.jpg"
     },
     "presentation": {
       "kind": "object-workbench",
@@ -325,9 +325,13 @@
         "image": "/content/step-images/ming-craft-observation-v1.jpg"
       }
     ],
-    "coverImage": "/content/step-images/ming-craft-observation-v1.jpg",
-    "coverImageAlt": "织布与记录教学故事图",
+    "coverImage": "/content/step-images/tiangong-1637-brickmaking.jpg",
+    "coverImageAlt": "1637年《天工开物》砖瓦制作书影",
     "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "《天工开物》1637年刊本",
+      "fit": "contain"
+    },
     "coverAudio": {
       "id": "quest-e7da4d1ada4a2fba",
       "text": "砖怎么做，布怎么织？《天工开物》把许多人的生产手艺写进图文。小伙伴也试着观察一次，再留下记录。"
@@ -822,7 +826,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/ming-craft-observation-v1.jpg",
-              "imageAlt": "观察织机正在怎样工作"
+              "imageAlt": "观察织机正在怎样工作",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-bfab74f168942ba1.svg",
             "imageAlt": "观察织机正在怎样工作",
@@ -847,7 +852,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/ming-craft-observation-v1.jpg",
-              "imageAlt": "只看已经织好的布卷"
+              "imageAlt": "只看已经织好的布卷",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-af0121411160c5f6.svg",
             "imageAlt": "只看已经织好的布卷",

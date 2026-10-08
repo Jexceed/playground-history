@@ -294,7 +294,7 @@ await shot('36-parent-bottom');
 // ---------- 8. 恢复进度 ----------
 await page.reload({ waitUntil: 'networkidle' });
 await page.waitForTimeout(800);
-const resume = await page.$('.resume-story');
+const resume = await page.$('.header-resume');
 console.log('resume button after reload:', !!resume);
 await shot('37-home-resume');
 

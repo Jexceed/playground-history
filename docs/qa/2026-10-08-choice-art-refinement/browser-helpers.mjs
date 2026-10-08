@@ -1,0 +1,21 @@
+// Run only through cua_repl, passing a documented CUA tab. No standalone browser driver.
+export function createArtRunner({fs,qaDir,audit,chapters,record}) {
+ const state=tab=>tab.playwright.evaluate(()=>({step:document.querySelector('.object-quest')?.getAttribute('data-step-id'),finish:!!document.querySelector('.quest-finish'),labStage:document.querySelector('.history-lab')?.getAttribute('data-lab-stage'),next:document.querySelector('.workbench-next')?.textContent,scrollY,overflow:document.documentElement.scrollWidth>innerWidth+1}));
+ const save=()=>fs.writeFile(qaDir+'/browser-checks.json',JSON.stringify(record,null,2)+'\n');
+ async function checkNext(tab,where){const s=await tab.playwright.evaluate(audit.readPrimaryActions);const failures=audit.primaryActionFailures(s,{required:true});record.actions.push({where,...s,failures});if(failures.length){record.failures.push({where,failures});await fs.writeFile(qaDir+'/failure.jpg',await tab.screenshot({fullPage:false}));await save();throw new Error(where+': '+failures.join('; '));}}
+ async function open(tab,id){const c=chapters.get(id);await tab.playwright.getByRole('button',{name:'回到小小历史旅行团首页',exact:true}).click();await tab.playwright.domSnapshot();await tab.playwright.getByRole('button',{name:'🧭 拿上地图，出发！',exact:true}).click();await tab.playwright.domSnapshot();await tab.playwright.locator('[data-period-id="'+c.periodId+'"]').click();await tab.playwright.domSnapshot();await tab.playwright.locator('[data-chapter-id="'+id+'"]').click();await tab.playwright.domSnapshot();if(await tab.playwright.locator('.restart-story').count())await tab.playwright.locator('.restart-story').click();else await tab.playwright.locator('.quest-start-actions .next-button').click();return state(tab);}
+ async function run(tab,id){const c=chapters.get(id);for(const s of c.gameplay.steps){const before=await state(tab);if(before.step!==s.id||before.overflow)throw new Error(id+'/'+JSON.stringify(before));
+  if(s.options.length){for(const good of [false,true]){const o=s.options.find(o=>o.correct===good);await tab.playwright.locator('[data-option-id="'+o.id+'"]').click();await tab.playwright.domSnapshot();if(await tab.playwright.locator(good?'.bench-choice.right':'.bench-choice.try-again').count()!==1)throw new Error('Selection feedback missing');if(s.interaction.choiceArt==='illustrated'){
+   const observed=await tab.playwright.evaluate(()=>({illustrated:document.querySelector('.object-quest')?.getAttribute('data-choice-art'),frames:Array.from(document.querySelectorAll('.workbench-scene-column .workbench-scene svg[role="img"]')).map(e=>({image:e.querySelector('image')?.getAttribute('href'),viewBox:e.getAttribute('viewBox')}))}));
+   const expected=(o.objectView.panels??[o.objectView]).map(v=>({image:v.image,viewBox:`${v.crop.x} ${v.crop.y} ${v.crop.width} ${v.crop.height}`}));
+   if(observed.illustrated!=='illustrated'||JSON.stringify(observed.frames)!==JSON.stringify(expected))throw new Error('Selected scene and choice diverged');
+   await fs.writeFile(qaDir+'/'+id+'-'+s.id+'-'+(good?'right':'wrong')+'.jpg',await tab.screenshot({fullPage:false}));record.choices.push({chapterId:id,stepId:s.id,correct:good,...observed});
+  }}}
+  else if(s.interaction.kind==='scene-find'){for(let ri=0;ri<s.interaction.rounds.length;ri++){const r=s.interaction.rounds[ri];await tab.playwright.locator('[data-hotspot-id="'+r.targetId+'"]').click();await tab.playwright.domSnapshot();await checkNext(tab,id+'/'+s.id+'/'+r.id);if(ri<s.interaction.rounds.length-1){await tab.playwright.locator('.workbench-next').click();await tab.playwright.domSnapshot();}}}
+  else if(s.interaction.kind==='history-lab'){for(let n=0;n<s.interaction.lab.stages.length;n++){await tab.playwright.locator('.history-lab-action').click();const after=await state(tab);if(Number(after.labStage)!==n+1)throw new Error('Stage missing');}}
+  else if(s.interaction.kind!=='look-listen')throw new Error('Unexpected interaction');
+  await checkNext(tab,id+'/'+s.id);await tab.playwright.locator('.workbench-next').click();await tab.playwright.domSnapshot();
+ }
+ if(!(await state(tab)).finish)throw new Error('No finish');await checkNext(tab,id+'/finish');record.chapters.push({id,steps:5,finished:true});await save();return {id,finished:true};}
+ return {open,run,state,checkNext,save};
+}

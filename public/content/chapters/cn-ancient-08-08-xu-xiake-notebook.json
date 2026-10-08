@@ -50,7 +50,7 @@
     "place": "明代山川观察；今天自己的记录练习",
     "culture": "《徐霞客游记》与后人整理",
     "care": "后世画像不是生前照片。旅行观察图是今天的教学练习，现代线圈本与铅笔不当徐霞客原物，角色不当其肖像。没有编造徐霞客在此桥的亲历日记；游记由后人整理，不是一趟旅行当场完成。",
-    "preferredAssetId": "ming-travel-observation-v1",
+    "preferredAssetId": "xu-xiake-later-portrait-artwork",
     "playableSource": "content/focused-quests.json"
   },
   "learningGuide": {
@@ -208,18 +208,18 @@
     ],
     "photoAlbum": null,
     "coverAsset": {
-      "id": "ming-travel-observation-v1",
-      "title": "今天的山水观察练习图",
-      "localPath": "reference-assets/ming-qing/ming-travel-observation-v1.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "xu-xiake-later-portrait-artwork",
+      "title": "后世徐霞客肖像艺术作品",
+      "localPath": "reference-assets/ming-qing/xu-xiake-portrait.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Xu_Xiake.png",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史照片。",
-      "boundary": "后世画像不是生前照片。旅行观察图是今天的教学练习，现代线圈本与铅笔不当徐霞客原物，角色不当其肖像。没有编造徐霞客在此桥的亲历日记；游记由后人整理，不是一趟旅行当场完成。",
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "庐山博物馆资料所见后世徐霞客肖像艺术作品。",
+      "boundary": "后世肖像艺术作品，不是徐霞客生前照片或某次旅行现场。观察方法与游记成书过程需结合文献；不能保证与本人容貌完全相同。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/ming-travel-observation-v1.jpg"
+      "image": "/content/step-images/xu-xiake-later-portrait-artwork.jpg"
     },
     "presentation": {
       "kind": "object-workbench",
@@ -315,9 +315,13 @@
         "image": "/content/step-images/ming-travel-observation-v1.jpg"
       }
     ],
-    "coverImage": "/content/step-images/ming-travel-observation-v1.jpg",
-    "coverImageAlt": "今天的山水观察练习图",
+    "coverImage": "/content/step-images/xu-xiake-later-portrait-artwork.jpg",
+    "coverImageAlt": "后世徐霞客肖像艺术作品",
     "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "后世徐霞客画像",
+      "fit": "contain"
+    },
     "coverAudio": {
       "id": "quest-3b139f23bde0e933",
       "text": "走过一座桥，看见一条河，怎样让后来的人也知道你的发现？小伙伴从徐霞客的游记出发，练习看清楚、记具体。"
@@ -807,7 +811,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/ming-travel-observation-v1.jpg",
-              "imageAlt": "画下桥与河的位置"
+              "imageAlt": "画下桥与河的位置",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-09db44511022684a.svg",
             "imageAlt": "画下桥与河的位置",
@@ -832,7 +837,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/ming-travel-observation-v1.jpg",
-              "imageAlt": "继续站在岸边看一会儿"
+              "imageAlt": "继续站在岸边看一会儿",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-d2f3eb1a59e0a0ab.svg",
             "imageAlt": "继续站在岸边看一会儿",

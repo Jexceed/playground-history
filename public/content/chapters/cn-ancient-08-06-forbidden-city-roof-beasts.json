@@ -50,7 +50,7 @@
     "place": "北京故宫太和殿；明代始建与清代重建",
     "culture": "屋脊构件、装饰与礼制",
     "care": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
-    "preferredAssetId": "ming-roof-learning-v1",
+    "preferredAssetId": "taihe-hall-ten-roof-beasts-current-photo",
     "playableSource": "content/focused-quests.json"
   },
   "learningGuide": {
@@ -307,18 +307,18 @@
       ]
     },
     "coverAsset": {
-      "id": "ming-roof-learning-v1",
-      "title": "屋脊构件学习模型故事图",
-      "localPath": "reference-assets/ming-qing/ming-roof-learning-v1.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "taihe-hall-ten-roof-beasts-current-photo",
+      "title": "太和殿屋脊十只脊兽现状照片",
+      "localPath": "reference-assets/ming-qing/taihe-hall-roof-beasts.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:太和殿的脊獸.JPG",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史照片。",
-      "boundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "今天太和殿屋脊上的十只脊兽与骑凤仙人。",
+      "boundary": "2014年现状照片，现存太和殿为清康熙重建形制；十只走兽不含骑凤仙人，也不含后面的大构件。儿童局部观察保留原图入口，不要求逐一认出兽名。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/ming-roof-learning-v1.jpg"
+      "image": "/content/step-images/taihe-hall-ten-roof-beasts-current-photo.jpg"
     },
     "presentation": {
       "kind": "object-workbench",
@@ -400,9 +400,21 @@
         "image": "/content/step-images/ming-friends-reunion-v1.jpg"
       }
     ],
-    "coverImage": "/content/step-images/ming-roof-learning-v1.jpg",
-    "coverImageAlt": "屋脊构件学习模型故事图",
+    "coverImage": "/content/step-images/taihe-hall-ten-roof-beasts-current-photo.jpg",
+    "coverImageAlt": "太和殿屋脊十只脊兽现状照片",
     "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "太和殿脊兽今景 · 清代重建",
+      "fit": "contain",
+      "crop": {
+        "x": 800,
+        "y": 930,
+        "width": 3000,
+        "height": 1200,
+        "sourceWidth": 4000,
+        "sourceHeight": 3000
+      }
+    },
     "coverAudio": {
       "id": "quest-650818f53cddca93",
       "text": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？"

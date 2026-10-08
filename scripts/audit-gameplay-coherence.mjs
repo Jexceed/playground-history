@@ -7,14 +7,19 @@ const voices=new Map(read('public/audio/voice-lines.json').lines.map(l=>[l.id,l.
 const registered=new Map(fs.readdirSync('content/assets').filter(n=>n.endsWith('.json')).flatMap(n=>read(`content/assets/${n}`).assets.map(a=>[a.id,a])));
 const sources=new Set(read('content/sources.json').sources.map(s=>s.id));
 const originalById=new Map(focused.chapters.map(c=>[c.id,c]));
-assert.equal(chapters.length,103);assert.equal(preview.tracks.flatMap(t=>t.chapters).length,34);assert.equal(scope.size,34);
+assert.equal(chapters.length,manifest.totals.chapters);assert.equal(preview.tracks.flatMap(t=>t.chapters).length,focused.chapters.length);assert.equal(scope.size,focused.chapters.length);assert.ok(scope.size>0);assert.ok([...scope].every(id=>id.startsWith('cn-ancient-')));
 const report=[];
 const checkVoice=v=>{assert.equal(voices.get(v.id),v.text,`Missing or stale voice ${v.id}`);assert.ok([...v.text.matchAll(/\p{Script=Han}/gu)].length<=90,`Long voice ${v.id}`);};
 // A format mismatch must not become an unintended clue to the correct answer.
 const optionMedium=(option)=>{
  if(option.objectView){
-  assert.ok(['era','ruler-pair','ruler','weight','prop','scene-card','circle-model','polity-panel','printing-panel'].includes(option.objectView.kind),`Unsupported option object: ${option.objectView.kind}`);
-  if(option.objectView.kind==='scene-card'){assert.ok(fs.existsSync(`public${option.objectView.image}`));return 'story-bitmap';}
+  assert.ok(['era','ruler-pair','ruler','weight','prop','scene-card','scene-strip','study-card','circle-model','polity-panel','printing-panel'].includes(option.objectView.kind),`Unsupported option object: ${option.objectView.kind}`);
+  if(option.objectView.kind==='scene-strip'){
+   const media=option.objectView.panels.map(panel=>optionMedium({objectView:{...panel,kind:'scene-card'}}));
+   assert.equal(new Set(media).size,1,'A strip cannot mix evidence photography with story illustration');
+   assert.equal(option.objectView.imageLabel,media[0]==='story-bitmap'?'故事插画':'历史材料');return media[0];
+  }
+  if(option.objectView.kind==='scene-card'){assert.ok(fs.existsSync(`public${option.objectView.image}`));const selfMade=registered.get(option.objectView.assetId)?.clearance==='cleared-project-created';assert.equal(option.objectView.imageLabel,selfMade?'故事插画':'历史材料');return selfMade?'story-bitmap':'historical-material-bitmap';}
   return 'workbench-illustration';
  }
  if(!option.image)return 'symbol-or-text';
@@ -70,6 +75,6 @@ for(const chapter of chapters){
  assert.ok(/\d|世纪|北宋|唐代|明代|北魏|战国/.test(game.steps[0].story.narration+game.steps[0].options.map(o=>o.label).join("")), chapter.id);
  report.push({id:chapter.id,title:authored.title,steps:5,distinctStudyScenes:visualIds.size,optionPictures:game.steps.reduce((n,s)=>n+s.options.length,0),readingSteps:game.steps.filter(s=>s.interaction?.kind==='look-listen').length,sceneQuestions:game.steps.reduce((n,s)=>n+(s.interaction?.kind==='scene-find'?s.interaction.rounds.length:0),0),endingActions:game.finish.actions.length,sourceIds:[...new Set(game.steps.flatMap(s=>s.sourceIds))],result:'structural-pass',humanChildTest:'pending'});
 }
-fs.mkdirSync('docs/qa/2026-09-13',{recursive:true});
-fs.writeFileSync('docs/qa/2026-09-13/structure-audit.json',JSON.stringify({libraryChapters:103,visibleChapters:34,hiddenChapters:69,focusedSteps:170,status:'automated-structure-only',chapters:report},null,2)+'\n');
-console.log(`结构审计：完整库103章/515步；本轮34章/170步，${report.reduce((n,c)=>n+c.optionPictures,0)}张选项图、${report.reduce((n,c)=>n+c.readingSteps,0)}个阅读步骤、${report.reduce((n,c)=>n+c.sceneQuestions,0)}个图中提问、${report.reduce((n,c)=>n+c.endingActions,0)}条结束动作。真实儿童审核仍待进行。`);
+fs.mkdirSync('docs/qa/2026-10-08-china-expansion',{recursive:true});
+fs.writeFileSync('docs/qa/2026-10-08-china-expansion/structure-audit.json',JSON.stringify({libraryChapters:chapters.length,visibleChapters:scope.size,hiddenChapters:chapters.length-scope.size,focusedSteps:scope.size*5,status:'automated-structure-only',chapters:report},null,2)+'\n');
+console.log(`结构审计：完整库${chapters.length}章/${chapters.length*5}步；本轮${scope.size}章/${scope.size*5}步，${report.reduce((n,c)=>n+c.optionPictures,0)}张选项图、${report.reduce((n,c)=>n+c.readingSteps,0)}个阅读步骤、${report.reduce((n,c)=>n+c.sceneQuestions,0)}个图中提问、${report.reduce((n,c)=>n+c.endingActions,0)}条结束动作。真实儿童审核仍待进行。`);

@@ -9,15 +9,16 @@
     "label": "清朝",
     "years": "1644年入关后—1840年前（本站范围）",
     "learningContext": {
-      "childIntro": "到承德看会见和办事，再到广州看商船与世界变化。这一站先讲到近代前夜，清朝还有后面的历史。",
+      "childIntro": "到清朝看承德的会见、广州的商船，再跟郑板桥看看诗和画里的竹子。",
       "chronology": "1636年改国号大清，1644年入关并迁都北京，1912年清帝退位。本站讲到1840年前是选材边界，不是清朝终点。",
-      "covered": "会见与地区联系、广州贸易的存在及限制、同期工业变化。",
-      "scopeBoundary": "边疆治理的不同制度、人口经济与近代危机在完整源稿中；两章不代表清史全貌，也不用一项原因解释后来变局。",
+      "covered": "会见与地区联系、广州贸易及同期工业变化、郑板桥的竹石诗画。",
+      "scopeBoundary": "边疆治理的不同制度、人口经济与近代危机在完整源稿中；三章不代表清史全貌，也不用一项原因解释后来变局。",
       "sourceIds": [
         "NMC-MING-QING",
         "DPM-QING-NAME-1636",
         "DPM-QING-ABDICATION",
-        "NMC-QING-ABDICATION-NEWSPAPER"
+        "NMC-QING-ABDICATION-NEWSPAPER",
+        "EDB-ZHENG-BAMBOO"
       ],
       "sources": [
         {
@@ -43,6 +44,12 @@
           "title": "清帝退位号外",
           "institution": "中国国家博物馆",
           "url": "https://www.chnmuseum.cn/zp/zpml/gmww/202208/t20220805_256891.shtml"
+        },
+        {
+          "id": "EDB-ZHENG-BAMBOO",
+          "title": "《竹石》选篇分析，第1页",
+          "institution": "香港特别行政区政府教育局",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/primary/lang/culture/03_020.pdf"
         }
       ]
     }
@@ -64,7 +71,7 @@
     "place": "河北承德避暑山庄；虚构会见情境",
     "culture": "清代会见、政务与地区联系",
     "care": "现代园林照片不等于清代会见现场。故事角色和会谈为虚构，不按衣服判断具体族群，不声称复原某位首领某次会见。会见、礼仪只是清代处理不同地区事务的一部分，各地制度有差异，历史中也存在战争和冲突，不能从一幅和睦图推出始终如此。",
-    "preferredAssetId": "qing-chengde-meeting-v1",
+    "preferredAssetId": "chengde-mountain-resort-current-view",
     "playableSource": "content/focused-quests.json"
   },
   "learningGuide": {
@@ -224,18 +231,18 @@
     ],
     "photoAlbum": null,
     "coverAsset": {
-      "id": "qing-chengde-meeting-v1",
-      "title": "清代承德会见教学故事图",
-      "localPath": "reference-assets/ming-qing/qing-chengde-meeting-v1.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "chengde-mountain-resort-current-view",
+      "title": "承德避暑山庄现状照片",
+      "localPath": "reference-assets/ming-qing/chengde-mountain-resort.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chengde_Montain_Resort01.jpg",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史照片。",
-      "boundary": "现代园林照片不等于清代会见现场。故事角色和会谈为虚构，不按衣服判断具体族群，不声称复原某位首领某次会见。会见、礼仪只是清代处理不同地区事务的一部分，各地制度有差异，历史中也存在战争和冲突，不能从一幅和睦图推出始终如此。",
+      "license": "Public domain — author dedication",
+      "clearance": "cleared-open-license",
+      "caption": "2006年拍摄的承德避暑山庄园林现状。",
+      "boundary": "2006年拍摄的园林现状，经过长期维修保护，不是清代会见现场。照片帮助认出地点，政务与不同地区交往由文献说明。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/qing-chengde-meeting-v1.jpg"
+      "image": "/content/step-images/chengde-mountain-resort-current-view.jpg"
     },
     "presentation": {
       "kind": "object-workbench",
@@ -267,10 +274,10 @@
         "fictionNote": "现代园林照片不等于清代会见现场。故事角色和会谈为虚构，不按衣服判断具体族群，不声称复原某位首领某次会见。会见、礼仪只是清代处理不同地区事务的一部分，各地制度有差异，历史中也存在战争和冲突，不能从一幅和睦图推出始终如此。",
         "reunionFit": "contain",
         "reunionImage": "/content/step-images/qing-friends-reunion-v2.jpg",
-        "stationLine": "到承德看会见和办事，再到广州看商船与世界变化。这一站先讲到近代前夜，清朝还有后面的历史。",
+        "stationLine": "到清朝看承德的会见、广州的商船，再跟郑板桥看看诗和画里的竹子。",
         "stationAudio": {
-          "id": "quest-6bffde08ce55d19b",
-          "text": "到承德看会见和办事，再到广州看商船与世界变化。这一站先讲到近代前夜，清朝还有后面的历史。"
+          "id": "quest-f8ee1ac25039f461",
+          "text": "到清朝看承德的会见、广州的商船，再跟郑板桥看看诗和画里的竹子。"
         },
         "closingAudio": {
           "id": "quest-0fbe6b24e2c8e273",
@@ -331,9 +338,13 @@
         "image": "/content/step-images/qing-chengde-meeting-v1.jpg"
       }
     ],
-    "coverImage": "/content/step-images/qing-chengde-meeting-v1.jpg",
-    "coverImageAlt": "清代承德会见教学故事图",
+    "coverImage": "/content/step-images/chengde-mountain-resort-current-view.jpg",
+    "coverImageAlt": "承德避暑山庄现状照片",
     "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "清代避暑山庄今景",
+      "fit": "cover"
+    },
     "coverAudio": {
       "id": "quest-f70a02a2ae3598c8",
       "text": "这里有山水，也有会见和办事。来自不同地区的人来到承德，小伙伴去看大家怎样解释意思、记录事情。"
@@ -824,7 +835,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/qing-chengde-meeting-v1.jpg",
-              "imageAlt": "请中间的人帮助解释"
+              "imageAlt": "请中间的人帮助解释",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-573a51ee3245bb86.svg",
             "imageAlt": "请中间的人帮助解释",
@@ -849,7 +861,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/qing-chengde-meeting-v1.jpg",
-              "imageAlt": "请桌边的人先写记录"
+              "imageAlt": "请桌边的人先写记录",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-d7ebd6869157f22b.svg",
             "imageAlt": "请桌边的人先写记录",
@@ -1339,6 +1352,16 @@
       "type": "museum-document-record",
       "authorityLevel": "A",
       "factUse": "1912年2月12日退位诏书，次日公报号外刊载；帮助区分清朝终点与本试玩1840年前的选材范围",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "EDB-ZHENG-BAMBOO",
+      "title": "《竹石》选篇分析，第1页",
+      "institution": "香港特别行政区政府教育局",
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/primary/lang/culture/03_020.pdf",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "清代郑板桥与题画诗《竹石》、咬定和坚劲的诗意、借竹喻人，不作抗风数值模型。",
       "imageUse": "reference-only"
     }
   ],

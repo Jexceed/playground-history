@@ -1,5 +1,6 @@
 .object-quest.trip-episode[data-interaction-kind="scene-find"] .workbench-art { aspect-ratio:auto; height:auto; object-fit:contain; }
 .object-quest.trip-episode[data-interaction-kind="scene-find"] .workbench-scene { max-height:none; aspect-ratio:var(--story-aspect,2.15); overflow:clip; }
+.object-quest.trip-episode[data-interaction-kind="scene-find"] .workbench-scene { width:100%; max-width:calc((100svh - 240px) * var(--story-aspect,2.15)); margin-inline:auto; }
 .scene-find-canvas { position:absolute; inset:0 0 auto; }
 .object-quest .toys-scene-find,.scene-choice .bench-toys { display:none; }
 .scene-find-hotspots { position:absolute; inset:0; pointer-events:none; z-index:2; }
@@ -23,5 +24,33 @@
 .scene-choice .workbench-help,.scene-choice .workbench-next { min-height:57px; }
 .object-quest .selected-scene-detail { width:100%; height:auto; background:#f0e8d2; }
 
+/* Narrative choices use actual scenes; the ordered panels reuse the same crops. */
+.object-quest[data-choice-art="illustrated"] .bench-choice-action { padding:8px 8px 14px; gap:12px; }
+.object-quest[data-choice-art="illustrated"] .bench-choice-action > .scene-card-art { height:clamp(125px,20svh,155px); border-radius:11px; background:#f7efdd; }
+.scene-strip-art { display:grid; grid-template-columns:repeat(var(--panel-count),minmax(0,1fr)); gap:12px; align-items:center; width:100%; }
+.scene-strip-panel { min-width:0; position:relative; border:1px solid #dacba7; border-radius:10px; background:#fffaf0; padding:4px; box-shadow:0 3px 0 #dfd6bd; }
+.scene-strip-panel .scene-card-art { border-radius:6px; height:auto; aspect-ratio:1.5; background:#f7f0df; }
+.scene-strip-caption { display:block; padding:7px 2px 4px; color:#355f54; font-size:12px; line-height:1.35; font-weight:700; }
+.scene-strip-join { position:absolute; right:-13px; top:40%; transform:translate(50%,-50%); z-index:1; color:#806140; background:#fff8e7; border:1px solid #dfcda9; border-radius:12px; font-size:12px; line-height:20px; min-width:20px; text-align:center; }
+.scene-strip-stage { display:flex; align-items:center; justify-content:center; padding:24px; background:radial-gradient(ellipse at top,#fffdf5,#f1e6cc); }
+.scene-strip-detail { gap:24px; }
+.scene-strip-detail .scene-strip-panel { padding:8px; border-radius:16px; box-shadow:0 5px 0 #dacbad; }
+.scene-strip-detail .scene-strip-caption { font-size:clamp(18px,1.6vw,23px); padding:14px 4px 10px; }
+.scene-strip-detail .scene-strip-join { right:-21px; font-size:20px; line-height:32px; min-width:32px; }
+.review-option .scene-strip-art { padding:8px; }
+
 /* A caption below the picture leaves the photograph and every hotspot unobscured. */
-.scene-find-label { width:max-content; margin:8px 4px 0 auto; padding:2px 7px; border-radius:6px; color:#765e35; background:#fff9e8; font-size:10px; line-height:1.5; letter-spacing:.05em; }
+.scene-find-label { width:max-content; margin:8px auto 0; padding:2px 7px; border-radius:6px; color:#765e35; background:#fff9e8; font-size:10px; line-height:1.5; letter-spacing:.05em; }
+
+.scene-strip-cue { display:inline-block; width:26px; height:23px; vertical-align:middle; margin-right:3px; }
+.scene-strip-detail .scene-strip-cue { width:40px; height:32px; margin-right:6px; }
+
+/* Two wide rows give each story frame more room than two tiny triptychs. */
+.scene-strip-choice .workbench-choices { grid-template-columns:1fr; gap:10px; }
+.object-quest.scene-strip-choice[data-choice-art="illustrated"] .bench-choice-action { display:grid; grid-template-columns:minmax(0,1fr) 145px; gap:16px; min-height:0; padding:8px 10px; align-items:center; }
+.scene-strip-choice .bench-choice-action >span { font-size:18px; line-height:1.35; padding:15px 22px 4px 0; }
+.scene-strip-choice .bench-choice-action .scene-card-art { height:72px; aspect-ratio:auto; }
+.scene-strip-choice .bench-choice-action .scene-strip-caption { font-size:13px; padding:5px 1px 3px; }
+.object-quest .workbench-scene.scene-strip-stage { background:radial-gradient(ellipse at top,#fffdf5,#f1e6cc); }
+.scene-strip-art[data-scene-relation="together"] { gap:0; border:2px solid #d6be8d; padding:8px; border-radius:14px; background:#efe5ce; }
+.scene-strip-art[data-scene-relation="together"] .scene-strip-join { right:0; }

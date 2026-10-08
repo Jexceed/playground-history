@@ -50,7 +50,7 @@
     "place": "唐末至吴越；钱塘江与杭州一带",
     "culture": "钱镠铁券与吴越水利文献",
     "care": "897年铁券是唐昭宗颁赐钱镠的凭证，不能把它改成吴越颁发或普通钱币。北方五代先后更替，十国有先后也有并立；960不是各地同时结束的年份。修塘疏水由文献支持，新图为教学情境，不复原某处海塘、不把射潮神话当史实、不把钱镠说成独自完成工程。",
-    "preferredAssetId": "qian-waterworks-v1",
+    "preferredAssetId": "qian-liu-iron-certificate-museum-photo",
     "playableSource": "content/focused-quests.json"
   },
   "learningGuide": {
@@ -211,18 +211,18 @@
     ],
     "photoAlbum": null,
     "coverAsset": {
-      "id": "qian-waterworks-v1",
-      "title": "吴越海塘与疏水劳动儿童故事插画",
-      "localPath": "reference-assets/sui-tang-five-dynasties/qian-waterworks-v1.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "qian-liu-iron-certificate-museum-photo",
+      "title": "钱镠铁券展览照片",
+      "localPath": "reference-assets/sui-tang-five-dynasties/qian-liu-iron-certificate.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Iron_Plaque_for_Quan_Liu,_2016-09-15_01.jpg",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史照片。",
-      "boundary": "897年铁券是唐昭宗颁赐钱镠的凭证，不能把它改成吴越颁发或普通钱币。北方五代先后更替，十国有先后也有并立；960不是各地同时结束的年份。修塘疏水由文献支持，新图为教学情境，不复原某处海塘、不把射潮神话当史实、不把钱镠说成独自完成工程。",
+      "license": "CC BY-SA 4.0",
+      "clearance": "cleared-open-license",
+      "caption": "中国国家博物馆展出的晚唐钱镠铁券。",
+      "boundary": "铁券由唐昭宗于897年赐给钱镠。Commons英文文件名将Qian误作Quan，本内容沿用收藏机构的正确中文名。它是中央与一位地方人物关系的个案证据，不代表所有节度使，也不简写为传奇式“免死金牌”。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/qian-waterworks-v1.jpg"
+      "image": "/content/step-images/qian-liu-iron-certificate-museum-photo.jpg"
     },
     "presentation": {
       "kind": "object-workbench",
@@ -317,9 +317,13 @@
         "image": "/content/step-images/qian-waterworks-v1.jpg"
       }
     ],
-    "coverImage": "/content/step-images/qian-waterworks-v1.jpg",
-    "coverImageAlt": "吴越海塘与疏水劳动儿童故事插画",
-    "coverImageKind": "故事插画",
+    "coverImage": "/content/step-images/qian-liu-iron-certificate-museum-photo.jpg",
+    "coverImageAlt": "钱镠铁券展览照片",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "钱镠铁券",
+      "fit": "contain"
+    },
     "coverAudio": {
       "id": "quest-cf452175517884b4",
       "text": "唐朝结束以后，钱镠在吴越经营地方。海潮要挡住，水道要畅通，人们怎样照料水边的生活？"
@@ -808,7 +812,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/qian-waterworks-v1.jpg",
-              "imageAlt": "清走水道里的泥沙"
+              "imageAlt": "清走水道里的泥沙",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-2beb7a61cc3588f2.svg",
             "imageAlt": "清走水道里的泥沙",
@@ -833,7 +838,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/qian-waterworks-v1.jpg",
-              "imageAlt": "加固海边的海塘"
+              "imageAlt": "加固海边的海塘",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-be10be711a1bdabf.svg",
             "imageAlt": "加固海边的海塘",

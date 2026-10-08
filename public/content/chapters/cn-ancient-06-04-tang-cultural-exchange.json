@@ -9,12 +9,14 @@
     "label": "唐朝",
     "years": "618—907年",
     "learningContext": {
-      "childIntro": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
+      "childIntro": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。",
       "chronology": "618—907年为唐朝范围；本组故事分属不同时期，贞观、开元通宝始铸、开元年号不可混为一个节点。",
-      "covered": "治理恢复、钱名与年号、城市乐舞、译经、书法与诗。",
+      "covered": "治理恢复、钱名与年号、城市乐舞、译经与东渡传授、书法与诗。",
       "scopeBoundary": "科举、唐前后期变化等在背景稿中；李白诗作和颜真卿文稿不能被拼成唐朝始终繁盛的单一画面。",
       "sourceIds": [
-        "NMC-SUI-TANG-FIVE-DYNASTIES"
+        "NMC-SUI-TANG-FIVE-DYNASTIES",
+        "EDB-DUFU-SPRING-RAIN",
+        "NMC-JIANZHEN-STORY"
       ],
       "sources": [
         {
@@ -22,6 +24,18 @@
           "title": "“古代中国”基本陈列：隋唐五代时期",
           "institution": "中国国家博物馆",
           "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html"
+        },
+        {
+          "id": "EDB-DUFU-SPRING-RAIN",
+          "title": "《春夜喜雨》朗读参考，第1页",
+          "institution": "香港特别行政区政府教育局",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/pth_lt/19_chun_ye_xi_yu.pdf"
+        },
+        {
+          "id": "NMC-JIANZHEN-STORY",
+          "title": "中华史诗美术大展：鉴真东渡",
+          "institution": "中国国家博物馆",
+          "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/"
         }
       ]
     }
@@ -283,10 +297,10 @@
         "closingLine": "讲清、写下、核对，让知识传下去。",
         "fictionNote": "大雁塔照片为2014年现状，始建652年晚于645年归来，经历后世改修。译场人物和室内安排为教学虚构，不是某次现场或具体协作者肖像。《大唐西域记》的旅途记录与译经工作分开；百回本《西游记》属后来明代小说，取经故事此前已有流传。",
         "reunionImage": "/content/step-images/tang-translation-reunion-v2.jpg",
-        "stationLine": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
+        "stationLine": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。",
         "stationAudio": {
-          "id": "quest-02a554bf66a28d47",
-          "text": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。"
+          "id": "quest-a249391b3ff41a8f",
+          "text": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。"
         },
         "closingAudio": {
           "id": "quest-d60f26ae639f3262",
@@ -350,6 +364,10 @@
     "coverImage": "/content/step-images/big-wild-goose-pagoda-current-view.jpg",
     "coverImageAlt": "大雁塔现状照片",
     "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "大雁塔今景",
+      "fit": "contain"
+    },
     "coverAudio": {
       "id": "quest-4dc5fc946253511b",
       "text": "小小旅行团到了唐朝！玄奘远行带回经书。不同语言里的意思，怎样让更多人读懂？"
@@ -860,7 +878,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/tang-translation-work-v1.jpg",
-              "imageAlt": "对照原文与译文"
+              "imageAlt": "对照原文与译文",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-b9d9f0e379d004db.svg",
             "imageAlt": "对照原文与译文",
@@ -885,7 +904,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/tang-translation-work-v1.jpg",
-              "imageAlt": "把内容写在纸上"
+              "imageAlt": "把内容写在纸上",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-9ccadbaf91382847.svg",
             "imageAlt": "把内容写在纸上",
@@ -1370,6 +1390,26 @@
       "authorityLevel": "A-structure-only",
       "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "EDB-DUFU-SPRING-RAIN",
+      "title": "《春夜喜雨》朗读参考，第1页",
+      "institution": "香港特别行政区政府教育局",
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/pth_lt/19_chun_ye_xi_yu.pdf",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "杜甫诗的原文、细雨润物、夜与晨景及喜悦表达；不据诗推定整年雨情。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-JIANZHEN-STORY",
+      "title": "中华史诗美术大展：鉴真东渡",
+      "institution": "中国国家博物馆",
+      "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "唐代鉴真受邀东渡、典籍与文化传授、同行协作；出海到达与入奈良分开，不用展览新画作现场照片。",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1513,7 +1553,7 @@
       "license": "CC BY 4.0",
       "clearance": "cleared-open-license",
       "caption": "从南大门望向今天奈良唐招提寺金堂。",
-      "boundary": "鉴真于759年创建唐招提寺；照片呈现今天经过长期保存与维护的遗产建筑和环境，不是753年东渡或759年建寺现场。下载为1920像素等比例图，未作其他修改。",
+      "boundary": "唐招提寺金堂的今日照片。寺院与鉴真在唐代的活动有关，金堂营建及维护也包含后人的工作；不是东渡抵达或建寺当年的现场记录。参观者摄影，按CC BY 4.0授权。",
       "childVisibility": "child-ok"
     },
     {

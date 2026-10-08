@@ -8,7 +8,30 @@
     "id": "spring-autumn-warring-states",
     "label": "春秋战国",
     "years": "前770—前221年",
-    "learningContext": null
+    "learningContext": {
+      "childIntro": "先到春秋认识孔子，听一句论语，再跟今天的小伙伴学一学、练一练。",
+      "chronology": "本站范围为春秋战国；当前只开放孔子与论语任务，人物生活在春秋。",
+      "covered": "孔子、论语、学与习以及文本流传。",
+      "scopeBoundary": "不把整个诸子百家压成一句话；其他旧稿暂不开放。",
+      "sourceIds": [
+        "EDB-ANALECTS-FOUR",
+        "MOE-HISTORY-CURRICULUM-2022"
+      ],
+      "sources": [
+        {
+          "id": "EDB-ANALECTS-FOUR",
+          "title": "《论语四则》选篇分析，1—2页",
+          "institution": "香港特别行政区政府教育局",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/primary/lang/culture/03_001.pdf"
+        },
+        {
+          "id": "MOE-HISTORY-CURRICULUM-2022",
+          "title": "义务教育历史课程标准（2022年版）",
+          "institution": "中华人民共和国教育部",
+          "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf"
+        }
+      ]
+    }
   },
   "order": 9,
   "title": "孔子说：学了还要常常练习",
@@ -16,68 +39,133 @@
   "throughline": "以孔子、《论语》的一句学习名言和竹简证据进入诸子百家，再比较不同思想怎样回答当时问题。",
   "childEntry": {
     "id": "cn-ancient-03-03-hundred-schools",
-    "childTitle": "孔子说：学了还要常常练习",
-    "prompt": "《论语》里的一句话，怎样陪我们把一件事越学越会？",
-    "takeaway": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。",
-    "object": "《论语》文字、竹简与孔子相关遗址",
+    "childTitle": "跟孔子学会学与习",
+    "prompt": "孔子说，学过还要温习和练习。小伙伴刚学了一个动作，怎样把学到的真正用起来？",
+    "takeaway": "孔子生活在春秋。《论语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。",
+    "object": "明刊《论语注疏》",
     "people": [
-      "孔子、学生与整理《论语》的人"
+      "孔子",
+      "《论语》"
     ],
-    "place": "山东曲阜及孔子游学的地区",
-    "culture": "《论语》中的学习句子",
-    "care": "《论语》由后人整理，不说成孔子亲手写成；学习句子联系孩子的练习经验，不把孔子神化。"
+    "place": "鲁国曲阜一带与今天的阅读室",
+    "culture": "孔子与《论语》",
+    "care": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+    "preferredAssetId": "analects-ming-commentary",
+    "playableSource": "content/focused-quests.json"
   },
-  "learningGuide": null,
-  "textbookConnection": null,
+  "learningGuide": {
+    "id": "cn-ancient-03-03-hundred-schools",
+    "theme": "知识与技术",
+    "learningGoal": "认识孔子与《论语》，把学、温习和实践连起来。",
+    "parentQuestion": "这句话是谁留下的？学过之后还能做什么？",
+    "observe": "能指出后世书本保存言行，并用动作演出温习和练习。",
+    "misconception": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+    "evidenceStepIds": [
+      "time",
+      "journey",
+      "change",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "EDB-ANALECTS-FOUR"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-04-04-han-knowledge",
+        "relation": "比较两章的材料与用途，留意人物、年代和任务不同。"
+      }
+    ],
+    "reviewStatus": "authored-implementation-family-test-pending",
+    "glossaryTerms": [
+      "文化",
+      "文物"
+    ]
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-03-03-hundred-schools",
+    "featured": {
+      "type": "人物与材料",
+      "icon": "📖",
+      "title": "孔子与《论语》",
+      "childBridge": "孔子说，学过还要温习和练习。小伙伴刚学了一个动作，怎样把学到的真正用起来？",
+      "evidenceBoundary": "眼前是明代刊本，不是孔子手稿。"
+    },
+    "companions": [
+      {
+        "type": "地点",
+        "label": "春秋鲁国与今天的阅读室",
+        "note": "地点与时代分别核对。"
+      },
+      {
+        "type": "材料",
+        "label": "明刊《论语注疏》",
+        "note": "实物或书影用于观察，文献用于解释。"
+      }
+    ],
+    "sourceIds": [
+      "EDB-ANALECTS-FOUR",
+      "MOE-HISTORY-CURRICULUM-2022"
+    ]
+  },
   "childStory": [
     {
-      "id": "hook",
-      "icon": "📜",
-      "label": "从一句诗文出发",
-      "text": "孔子说：学了还要常常练习"
+      "id": "time",
+      "icon": "🕰️",
+      "label": "先去孔子生活的时代",
+      "text": "孔子生活在春秋，重视学习。眼前是很久以后印的《论语注疏》，把孔子和弟子的言行传下来。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "学了还要练",
-      "text": "先听孔子说“学而时习之”，把学习变成行动。"
+      "label": "听一句留下来的古话",
+      "text": "《论语》记着：“学而时习之，不亦说乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "学生边问边做",
-      "text": "接着看学生提问、练习，再把谈话记下来。"
+      "label": "把听过的动作做出来",
+      "text": "这是今天的练习：小伙伴听过拍手的示范，要把动作自己做一次。找到正在亲手练习的地方。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "一句话传到今天",
-      "text": "最后《论语》把这些学习方法传给后来的人。"
+      "label": "隔一会儿，再想再试",
+      "text": "小伙伴过了一会儿忘了动作。先回想，听不清就再听示范，再自己试试；不用和别人比快。"
     },
     {
-      "id": "answer-retell",
+      "id": "takeaway",
       "icon": "🗣️",
-      "label": "把故事讲给家人听",
-      "text": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。"
+      "label": "书里的话来到今天",
+      "text": "孔子和弟子的言行由后人整理、抄写、刊印，传到今天。我们也能读这句话，在生活里练习。"
     }
   ],
   "glossary": [
     {
-      "term": "遗址",
-      "icon": "🏚️",
-      "plain": "过去的人生活或活动后留下的地方。",
-      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
-      "priority": 1
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
     },
     {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
       "priority": 1
     }
   ],
   "pronunciations": [
+    {
+      "text": "不亦说乎",
+      "reading": "bù yì yuè hū",
+      "kind": "phrase",
+      "chapterIds": [
+        "cn-ancient-03-03-hundred-schools"
+      ],
+      "note": "本轮新增中国历史任务的校听项；自动匹配不替代人工试听。",
+      "synthesisText": "不亦悦乎"
+    },
     {
       "text": "曲阜",
       "reading": "Qūfù",
@@ -86,260 +174,550 @@
         "cn-ancient-03-03-hundred-schools"
       ],
       "note": "“曲”在此读qū。"
+    },
+    {
+      "text": "论语",
+      "reading": "Lún yǔ",
+      "kind": "title",
+      "chapterIds": [
+        "cn-ancient-03-03-hundred-schools",
+        "cn-ancient-04-07-sima-qian-shiji"
+      ],
+      "note": "本轮新增中国历史任务的校听项；自动匹配不替代人工试听。",
+      "synthesisText": "伦语"
     }
   ],
   "gameplay": {
-    "mode": "memory-hook-story-quest-v3",
+    "mode": "authored-picture-quest-v4",
     "status": "playable-core",
     "audioStatus": "local-pre-generated",
     "hook": {
-      "kind": "一句诗文",
-      "icon": "📜",
-      "label": "孔子说：学了还要常常练习",
-      "question": "《论语》里的一句话，怎样陪我们把一件事越学越会？"
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "跟孔子学会学与习",
+      "question": "孔子说，学过还要温习和练习。小伙伴刚学了一个动作，怎样把学到的真正用起来？"
+    },
+    "cta": "跟孔子学一次再试一次",
+    "anchor": "孔子与《论语》",
+    "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+    "evidence": [
+      {
+        "id": "analects-ming-commentary",
+        "title": "明刊《论语注疏》",
+        "localPath": "reference-assets/china-expansion/analects-ming-commentary.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Commentaries_of_the_Analects_of_Confucius.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 3.0",
+        "clearance": "cleared-open-license",
+        "caption": "明刊《论语注疏》",
+        "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/analects-ming-commentary.jpg"
+      }
+    ],
+    "photoAlbum": null,
+    "coverAsset": {
+      "id": "analects-ming-commentary",
+      "title": "明刊《论语注疏》",
+      "localPath": "reference-assets/china-expansion/analects-ming-commentary.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Commentaries_of_the_Analects_of_Confucius.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "明刊《论语注疏》",
+      "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/analects-ming-commentary.jpg"
+    },
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "confucius-learning-v1",
+      "sceneAlt": "跟孔子学会学与习的现代教学故事插画",
+      "title": "跟孔子学会学与习",
+      "evidenceTitle": "明刊《论语注疏》",
+      "evidenceLine": "真材料的年代和身份可以在大图里查看。",
+      "evidenceNarration": "照片里是明代印的《论语注疏》，能看到经文和解释。它不是孔子亲笔。",
+      "guide": "听清故事，点图或动手找线索。",
+      "alignHint": "",
+      "familyHint": "回看图里的发现，再和家人做一次。",
+      "familyLabel": "和家人再试一次",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "带着发现回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "confucius-learning-v1",
+        "reunionAlt": "三位小伙伴回看跟孔子学会学与习的线索，现代教学插画",
+        "reunionAspectRatio": 1.5,
+        "reunionFit": "contain",
+        "coverCaption": "跟孔子学会学与习",
+        "coverNarration": "孔子说，学过还要温习和练习。小伙伴刚学了一个动作，怎样把学到的真正用起来？",
+        "closingCaption": "我们带回了一个发现",
+        "closingLine": "学过，还要温习和练习。",
+        "closingNarration": "孔子生活在春秋。《论语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。",
+        "fictionNote": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+        "reunionImage": "/content/step-images/confucius-learning-v1.jpg",
+        "stationLine": "先到春秋认识孔子，听一句论语，再跟今天的小伙伴学一学、练一练。",
+        "stationAudio": {
+          "id": "quest-7e494fa50c3cd1c4",
+          "text": "先到春秋认识孔子，听一句论语，再跟今天的小伙伴学一学、练一练。",
+          "synthesisText": "先到春秋认识孔子，听一句伦语，再跟今天的小伙伴学一学、练一练。"
+        },
+        "closingAudio": {
+          "id": "quest-f5c6beae73f36e81",
+          "text": "孔子生活在春秋。《论语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。",
+          "synthesisText": "孔子生活在春秋。《伦语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。"
+        }
+      },
+      "sceneImage": "/content/step-images/confucius-learning-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-dc60544d51f890c5",
+        "text": "照片里是明代印的《论语注疏》，能看到经文和解释。它不是孔子亲笔。",
+        "synthesisText": "照片里是明代印的《伦语注疏》，能看到经文和解释。它不是孔子亲笔。"
+      },
+      "guideAudio": {
+        "id": "quest-c1f444d9c3635141",
+        "text": "听清故事，点图或动手找线索。"
+      }
+    },
+    "sceneAsset": {
+      "id": "confucius-learning-v1",
+      "title": "跟孔子学会学与习的故事插画",
+      "localPath": "reference-assets/china-expansion/confucius-learning-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/confucius-learning-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "confucius-learning-v1",
+        "title": "跟孔子学会学与习的故事插画",
+        "localPath": "reference-assets/china-expansion/confucius-learning-v1.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md",
+        "license": "项目自制；按OpenAI使用条款持有输出使用权",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史现场或文物照片。",
+        "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/confucius-learning-v1.jpg"
+      },
+      {
+        "id": "confucius-choice-scenes-v2",
+        "title": "跟孔子学会学与习的情境选择分镜",
+        "localPath": "reference-assets/choice-art-refinement/confucius-choice-scenes-v2.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+        "license": "项目自制；按OpenAI使用条款持有输出使用权",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+        "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/confucius-choice-scenes-v2.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/analects-ming-commentary.jpg",
+    "coverImageAlt": "明刊《论语注疏》",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "明刊《论语注疏》",
+      "fit": "contain"
     },
     "coverAudio": {
-      "id": "quest-a920c2f6da53b8a6",
-      "text": "今天从一句诗文出发：孔子说：学了还要常常练习。我们要去山东曲阜及孔子游学的地区，看看《论语》文字、竹简与孔子相关遗址怎样把答案一点点带出来。准备好就点开始。"
+      "id": "quest-88713e5710c4fa04",
+      "text": "孔子说，学过还要温习和练习。小伙伴刚学了一个动作，怎样把学到的真正用起来？"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-7065d4df61d03787",
-      "text": "五条线索都找到了，“孔子说：学了还要常常练习”的答案是：孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。 你获得了历史证据小侦探勋章。"
+      "id": "quest-f5c6beae73f36e81",
+      "text": "孔子生活在春秋。《论语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。",
+      "synthesisText": "孔子生活在春秋。《伦语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。"
     },
-    "estimatedMinutes": 9,
+    "finish": {
+      "title": "学过，再试一次！",
+      "actions": [
+        "请家人示范一个短动作，隔一会儿再一起做。",
+        "指着书影说或听：孔子在春秋，这本书是后人印的。"
+      ],
+      "parent": "这句话是谁留下的？学过之后还能做什么？ 能指出后世书本保存言行，并用动作演出温习和练习。 眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+      "sceneStepIndexes": [
+        2,
+        4
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-486503512c266597",
+          "text": "请家人示范一个短动作，隔一会儿再一起做。"
+        },
+        {
+          "id": "quest-64eb328394df05e2",
+          "text": "指着书影说或听：孔子在春秋，这本书是后人印的。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-f5c6beae73f36e81",
+        "text": "孔子生活在春秋。《论语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。",
+        "synthesisText": "孔子生活在春秋。《伦语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。"
+      }
+    },
+    "estimatedMinutes": 6,
     "badge": {
-      "icon": "🏅",
-      "label": "历史证据小侦探"
+      "icon": "🌟",
+      "label": "小小观察员"
     },
     "steps": [
       {
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "先找到时间",
-        "title": "先把故事放进时间河",
-        "prompt": "从一句诗文出发，先找哪个年代？",
-        "rightNote": "时间找对了，故事有了起点。",
-        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "phase": "先去孔子生活的时代",
+        "title": "先去孔子生活的时代",
+        "prompt": "孔子生活在哪个时候？",
+        "rightNote": "春秋时期，孔子和学生讨论怎样学习。",
+        "wrongNote": "秦朝在后面，孔子生活在更早的春秋。",
+        "sourceIds": [
+          "EDB-ANALECTS-FOUR"
+        ],
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听清故事，再看看眼前的线索。"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "先去孔子生活的时代",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "春秋时期，孔子和学生讨论怎样学习。",
+          "retry": "秦朝在后面，孔子生活在更早的春秋。",
+          "nextLabel": "听一句留下来的古话"
+        },
+        "concepts": null,
+        "inspection": {
+          "id": "analects-ming-commentary",
+          "title": "明刊《论语注疏》",
+          "localPath": "reference-assets/china-expansion/analects-ming-commentary.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Commentaries_of_the_Analects_of_Confucius.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 3.0",
+          "clearance": "cleared-open-license",
+          "caption": "人物在春秋 · 书是明代刊本",
+          "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。 明刊《论语注疏》",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/analects-ming-commentary.jpg",
+          "label": "看大图，听材料说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 290,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "《论语四则》选篇分析，1—2页",
+              "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/primary/lang/culture/03_001.pdf"
+            }
+          ],
+          "audio": {
+            "id": "quest-dc60544d51f890c5",
+            "text": "照片里是明代印的《论语注疏》，能看到经文和解释。它不是孔子亲笔。",
+            "synthesisText": "照片里是明代印的《伦语注疏》，能看到经文和解释。它不是孔子亲笔。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "先把故事放进时间河",
-          "screenText": "这是春秋战国，时间是前770—前221年。",
-          "narration": "这是春秋战国，时间是前770—前221年。",
-          "displayText": "这是春秋战国，时间是前770—前221年。"
+          "title": "先去孔子生活的时代",
+          "screenText": "孔子生活在春秋，重视学习。眼前是很久以后印的《论语注疏》，把孔子和弟子的言行传下来。",
+          "displayText": "孔子生活在春秋，重视学习。眼前是很久以后印的《论语注疏》，把孔子和弟子的言行传下来。",
+          "narration": "孔子生活在春秋，重视学习。眼前是很久以后印的《论语注疏》，把孔子和弟子的言行传下来。"
         },
-        "assetId": "confucius-learning-practice-child-illustration",
-        "image": "/content/step-images/confucius-learning-practice-child-illustration.jpg",
-        "imageAlt": "孔子与学生问答练习儿童艺术表现",
-        "imageCaption": "自制儿童艺术表现：孔子与学生通过提问、练习和讨论一起学习。",
-        "imageBoundary": "2026-08-12为低龄玩法自制。人物容貌、年龄、服饰、庭院和动作都不是历史肖像或精确现场复原；画面只帮助理解学习、练习、请教和后人记录的关系。",
+        "assetId": "confucius-learning-v1",
+        "image": "/content/step-images/confucius-learning-v1.jpg",
+        "studyImage": "/content/study-scenes/study-33b23a28382b9ffb.svg",
+        "studyImageAlt": "先去孔子生活的时代",
+        "imageAlt": "跟孔子学会学与习的故事插画",
+        "imageCaption": "跟孔子学会学与习的故事插画",
+        "imageBoundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
         "audio": {
+          "lead": {
+            "id": "quest-41a9a3946d985ffa",
+            "text": "孔子生活在春秋，这本论语注疏是明代刊本。孔子生活在哪个时候？",
+            "synthesisText": "孔子生活在春秋，这本伦语注疏是明代刊本。孔子生活在哪个时候？"
+          },
           "transition": {
-            "id": "quest-8212eb93c555f9d1",
-            "text": "先给一句诗文找到正确年代。"
+            "id": "quest-bf951ae010d1a1ad",
+            "text": "先去孔子生活的时代。"
           },
           "intro": {
-            "id": "quest-16ace2d60e63a25e",
-            "text": "这是春秋战国，时间是前770—前221年。"
-          },
-          "image": {
-            "id": "quest-1adad089307d3192",
-            "text": "点开大图啦。这是孔子与学生问答练习儿童艺术表现。这张图能帮我们找到：这是春秋战国，时间是前770—前221年。"
+            "id": "quest-7da6f37f042de8bd",
+            "text": "孔子生活在春秋，重视学习。眼前是很久以后印的《论语注疏》，把孔子和弟子的言行传下来。",
+            "synthesisText": "孔子生活在春秋，重视学习。眼前是很久以后印的《伦语注疏》，把孔子和弟子的言行传下来。"
           },
           "question": {
-            "id": "quest-d81bd2485dbe2247",
-            "text": "从一句诗文出发，先找哪个年代？"
+            "id": "quest-88ff7d29a0c275cd",
+            "text": "孔子生活在哪个时候？"
+          },
+          "image": {
+            "id": "quest-53ec0a6fb6e55f7e",
+            "text": "这张是跟孔子学会学与习的故事插画。孔子生活在春秋，重视学习。眼前是很久以后印的《论语注疏》，把孔子和弟子的言行传下来。",
+            "synthesisText": "这张是跟孔子学会学与习的故事插画。孔子生活在春秋，重视学习。眼前是很久以后印的《伦语注疏》，把孔子和弟子的言行传下来。"
           },
           "right": {
-            "id": "quest-c2d78010da74a324",
-            "text": "答对啦！时间找对了，故事有了起点。"
+            "id": "quest-04b164cf09bf69b1",
+            "text": "春秋时期，孔子和学生讨论怎样学习。"
           },
           "wrong": {
-            "id": "quest-97f81f02dcd7c5eb",
-            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+            "id": "quest-6812e4855c947911",
+            "text": "秦朝在后面，孔子生活在更早的春秋。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-03-03-hundred-schools-time-1",
-            "label": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）",
-            "correct": false,
+            "label": "春秋 · 约前770—前476年",
+            "correct": true,
+            "objectView": {
+              "kind": "era",
+              "name": "春秋",
+              "date": "约前770—前476年",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-f3f146563d386a17.svg",
+            "imageAlt": "春秋，约前770—前476年",
             "audio": {
-              "id": "quest-0ee11e284f2f5ef2",
-              "text": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）"
+              "id": "quest-1a8872e56d0f063d",
+              "text": "春秋 · 约前770—前476年"
             }
           },
           {
             "id": "cn-ancient-03-03-hundred-schools-time-2",
-            "label": "中国近代史 · 晚清的危机与救亡 · 1840—1911年",
+            "label": "秦朝 · 前221—前207年",
             "correct": false,
+            "objectView": {
+              "kind": "era",
+              "name": "秦朝",
+              "date": "前221—前207年",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-de3ebe2f93775756.svg",
+            "imageAlt": "秦朝，前221—前207年",
             "audio": {
-              "id": "quest-a326ed6569d4da14",
-              "text": "中国近代史 · 晚清的危机与救亡 · 1840—1911年"
-            }
-          },
-          {
-            "id": "cn-ancient-03-03-hundred-schools-time-3",
-            "label": "中国古代史 · 春秋战国 · 前770—前221年",
-            "correct": true,
-            "audio": {
-              "id": "quest-e3a8eb496edbf0f1",
-              "text": "中国古代史 · 春秋战国 · 前770—前221年"
+              "id": "quest-8fcebd4b7661a897",
+              "text": "秦朝 · 前221—前207年"
             }
           }
         ]
       },
       {
         "id": "beginning",
-        "questionKind": "evidence-object",
+        "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "第一拍 · 故事起点",
-        "title": "学了还要练",
-        "prompt": "哪一件证物能先打开这个故事？",
-        "rightNote": "先听孔子说“学而时习之”，把学习变成行动。",
-        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "phase": "听一句留下来的古话",
+        "title": "听一句留下来的古话",
+        "prompt": "学过了，还可以怎样做？",
+        "rightNote": "学与习连起来，才把办法用起来。",
+        "wrongNote": "再听听，“习”还包括温习和实践。",
+        "sourceIds": [
+          "EDB-ANALECTS-FOUR"
+        ],
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听清故事，再看看眼前的线索。",
+          "continueLabel": "和小伙伴试一次"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "听一句留下来的古话",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "学与习连起来，才把办法用起来。",
+          "retry": "再听听，“习”还包括温习和实践。",
+          "nextLabel": "把听过的动作做出来"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "学了还要练",
-          "screenText": "先听孔子说“学而时习之”，把学习变成行动。",
-          "narration": "先听孔子说“学而时习之”，把学习变成行动。",
-          "displayText": "先听孔子说“学而时习之”，把学习变成行动。"
+          "title": "听一句留下来的古话",
+          "screenText": "《论语》记着：“学而时习之，不亦说乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。",
+          "displayText": "《论语》记着：“学而时习之，不亦说乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。",
+          "narration": "《论语》记着：“学而时习之，不亦说乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。"
         },
-        "assetId": "confucius-learning-practice-child-illustration",
-        "image": "/content/step-images/confucius-learning-practice-child-illustration.jpg",
-        "imageAlt": "孔子与学生问答练习儿童艺术表现",
-        "imageCaption": "自制儿童艺术表现：孔子与学生通过提问、练习和讨论一起学习。",
-        "imageBoundary": "2026-08-12为低龄玩法自制。人物容貌、年龄、服饰、庭院和动作都不是历史肖像或精确现场复原；画面只帮助理解学习、练习、请教和后人记录的关系。",
+        "assetId": "confucius-learning-v1",
+        "image": "/content/step-images/confucius-learning-v1.jpg",
+        "studyImage": "/content/study-scenes/study-d90d782575e39736.svg",
+        "studyImageAlt": "听一句留下来的古话",
+        "imageAlt": "跟孔子学会学与习的故事插画",
+        "imageCaption": "跟孔子学会学与习的故事插画",
+        "imageBoundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
         "audio": {
+          "lead": {
+            "id": "quest-e17e277f9d9b7e31",
+            "text": "《论语》记着：“学而时习之，不亦说乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。",
+            "synthesisText": "《伦语》记着：“学而时习之，不亦悦乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。"
+          },
           "transition": {
-            "id": "quest-bc13be496686808e",
-            "text": "时间找到了。先找一件看得见、能核对的证物。"
+            "id": "quest-817b1c6cdf9ee324",
+            "text": "听一句留下来的古话。"
           },
           "intro": {
-            "id": "quest-ba5ec74ca0b82293",
-            "text": "先听孔子说“学而时习之”，把学习变成行动。"
-          },
-          "image": {
-            "id": "quest-2e574476540e2c29",
-            "text": "点开大图啦。这是孔子与学生问答练习儿童艺术表现。这张图能帮我们找到：先听孔子说“学而时习之”，把学习变成行动。"
+            "id": "quest-e17e277f9d9b7e31",
+            "text": "《论语》记着：“学而时习之，不亦说乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。",
+            "synthesisText": "《伦语》记着：“学而时习之，不亦悦乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。"
           },
           "question": {
-            "id": "quest-785d31b501154b8e",
-            "text": "哪一件证物能先打开这个故事？"
+            "id": "quest-8d0e7401e6eeffa3",
+            "text": "学过了，还可以怎样做？"
+          },
+          "image": {
+            "id": "quest-98be290d0087e5c7",
+            "text": "这张是跟孔子学会学与习的故事插画。《论语》记着：“学而时习之，不亦说乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。",
+            "synthesisText": "这张是跟孔子学会学与习的故事插画。《伦语》记着：“学而时习之，不亦悦乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。"
           },
           "right": {
-            "id": "quest-9e334cf899a379f3",
-            "text": "答对啦！第一件证物找到了。"
+            "id": "quest-77294fe6c2823fad",
+            "text": "学与习连起来，才把办法用起来。"
           },
           "wrong": {
-            "id": "quest-83318c217691cf7c",
-            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+            "id": "quest-57f3b068c79072d5",
+            "text": "再听听，“习”还包括温习和实践。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-03-03-hundred-schools-beginning-1",
-            "label": "孔子、学生与整理《论语》的人、山东曲，只是故事人物",
-            "correct": false,
-            "audio": {
-              "id": "quest-4e21788ebbfd35d9",
-              "text": "孔子、学生与整理《论语》的人、山东曲，只是故事人物"
-            }
-          },
-          {
-            "id": "cn-ancient-03-03-hundred-schools-beginning-2",
-            "label": "《论语》文字、竹简与孔子相关遗址，是能核对的证物",
-            "correct": true,
-            "audio": {
-              "id": "quest-1ee48d3686ae92d3",
-              "text": "《论语》文字、竹简与孔子相关遗址，是能核对的证物"
-            }
-          },
-          {
-            "id": "cn-ancient-03-03-hundred-schools-beginning-3",
-            "label": "山东曲阜及孔子游学的地区、孔子，只是故事地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-9491b59ee675fa46",
-              "text": "山东曲阜及孔子游学的地区、孔子，只是故事地点"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
-        "questionKind": "people-place-action",
+        "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "第二拍 · 故事继续",
-        "title": "学生边问边做",
-        "prompt": "故事里的人来到这里以后，做了什么？",
-        "rightNote": "接着看学生提问、练习，再把谈话记下来。",
-        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "phase": "把听过的动作做出来",
+        "title": "把听过的动作做出来",
+        "prompt": "哪里在亲手练习？",
+        "rightNote": "对，小伙伴正把学到的动作做出来。",
+        "wrongNote": "书保存了话；这里要找亲手练习的动作。",
+        "sourceIds": [
+          "EDB-ANALECTS-FOUR"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清故事，再看看眼前的线索。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "把听过的动作做出来",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "对，小伙伴正把学到的动作做出来。",
+          "retry": "书保存了话；这里要找亲手练习的动作。",
+          "nextLabel": "隔一会儿，再想再试"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "学生边问边做",
-          "screenText": "接着看学生提问、练习，再把谈话记下来。",
-          "narration": "接着看学生提问、练习，再把谈话记下来。",
-          "displayText": "接着看学生提问、练习，再把谈话记下来。"
+          "title": "把听过的动作做出来",
+          "screenText": "这是今天的练习：小伙伴听过拍手的示范，要把动作自己做一次。找到正在亲手练习的地方。",
+          "displayText": "这是今天的练习：小伙伴听过拍手的示范，要把动作自己做一次。找到正在亲手练习的地方。",
+          "narration": "这是今天的练习：小伙伴听过拍手的示范，要把动作自己做一次。找到正在亲手练习的地方。"
         },
-        "assetId": "confucius-learning-practice-child-illustration",
-        "image": "/content/step-images/confucius-learning-practice-child-illustration.jpg",
-        "imageAlt": "孔子与学生问答练习儿童艺术表现",
-        "imageCaption": "自制儿童艺术表现：孔子与学生通过提问、练习和讨论一起学习。",
-        "imageBoundary": "2026-08-12为低龄玩法自制。人物容貌、年龄、服饰、庭院和动作都不是历史肖像或精确现场复原；画面只帮助理解学习、练习、请教和后人记录的关系。",
+        "assetId": "confucius-learning-v1",
+        "image": "/content/step-images/confucius-learning-v1.jpg",
+        "studyImage": "/content/study-scenes/study-63e6edf01f7eb757.svg",
+        "studyImageAlt": "把听过的动作做出来",
+        "imageAlt": "跟孔子学会学与习的故事插画",
+        "imageCaption": "跟孔子学会学与习的故事插画",
+        "imageBoundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
         "audio": {
+          "lead": {
+            "id": "quest-7c9c977fa5bc7f72",
+            "text": "小伙伴听过拍手示范，现在要自己试一次。哪里在亲手练习？"
+          },
           "transition": {
-            "id": "quest-d4c11419e03a18fd",
-            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+            "id": "quest-cfa94f72ed17573b",
+            "text": "把听过的动作做出来。"
           },
           "intro": {
-            "id": "quest-da367ae8f883ce24",
-            "text": "接着看学生提问、练习，再把谈话记下来。"
-          },
-          "image": {
-            "id": "quest-6abafa084719670b",
-            "text": "点开大图啦。这是孔子与学生问答练习儿童艺术表现。这张图能帮我们找到：接着看学生提问、练习，再把谈话记下来。"
+            "id": "quest-1d7748d0ccb5e949",
+            "text": "这是今天的练习：小伙伴听过拍手的示范，要把动作自己做一次。找到正在亲手练习的地方。"
           },
           "question": {
-            "id": "quest-329a69e64424a884",
-            "text": "故事里的人来到这里以后，做了什么？"
+            "id": "quest-dfce72c786f500c0",
+            "text": "哪里在亲手练习？"
+          },
+          "image": {
+            "id": "quest-640e19aeb4c32c44",
+            "text": "这张是跟孔子学会学与习的故事插画。这是今天的练习：小伙伴听过拍手的示范，要把动作自己做一次。找到正在亲手练习的地方。"
           },
           "right": {
-            "id": "quest-d7d6754891bc9f0f",
-            "text": "答对啦！人物、地点和行动连起来了。"
+            "id": "quest-45c5d81c75cede1f",
+            "text": "对，小伙伴正把学到的动作做出来。"
           },
           "wrong": {
-            "id": "quest-66c837d18451416f",
-            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+            "id": "quest-1c0ad111ed6d603a",
+            "text": "书保存了话；这里要找亲手练习的动作。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-03-03-hundred-schools-journey-1",
-            "label": "接着看学生提问、练习，再把谈话记下来。",
+            "label": "小伙伴动手练习",
             "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "confucius-learning-v1",
+              "crop": {
+                "x": 0,
+                "y": 0,
+                "width": 1536,
+                "height": 1024,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/confucius-learning-v1.jpg",
+              "imageAlt": "小伙伴动手练习",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-68c94465b052575e.svg",
+            "imageAlt": "小伙伴动手练习",
             "audio": {
-              "id": "quest-da367ae8f883ce24",
-              "text": "接着看学生提问、练习，再把谈话记下来。"
+              "id": "quest-f6f310a79eecb925",
+              "text": "小伙伴动手练习"
             }
           },
           {
             "id": "cn-ancient-03-03-hundred-schools-journey-2",
-            "label": "孔子、学生与整理《论语》的人，只认出人物",
+            "label": "展柜保存书本",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "confucius-learning-v1",
+              "crop": {
+                "x": 1060,
+                "y": 160,
+                "width": 420,
+                "height": 240,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/confucius-learning-v1.jpg",
+              "imageAlt": "展柜保存书本",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-6f120618e779aa44.svg",
+            "imageAlt": "展柜保存书本",
             "audio": {
-              "id": "quest-ef40163201412f5e",
-              "text": "孔子、学生与整理《论语》的人，只认出人物"
-            }
-          },
-          {
-            "id": "cn-ancient-03-03-hundred-schools-journey-3",
-            "label": "山东曲阜及孔子游学的地区，只说了地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-84518cf05c6a75e0",
-              "text": "山东曲阜及孔子游学的地区，只说了地点"
+              "id": "quest-c75f3cc249488cdc",
+              "text": "展柜保存书本"
             }
           }
         ]
@@ -348,152 +726,255 @@
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "第三拍 · 看见变化",
-        "title": "一句话传到今天",
-        "prompt": "前面的行动带来了什么变化？",
-        "rightNote": "最后《论语》把这些学习方法传给后来的人。",
-        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "phase": "隔一会儿，再想再试",
+        "title": "隔一会儿，再想再试",
+        "prompt": "忘了一步，怎样继续学？",
+        "rightNote": "回想、再听、再练，都是学习的办法。",
+        "wrongNote": "只听熟了还不够，再把办法做出来。",
+        "sourceIds": [
+          "EDB-ANALECTS-FOUR"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清故事，再看看眼前的线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "隔一会儿，再想再试",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "回想、再听、再练，都是学习的办法。",
+          "retry": "只听熟了还不够，再把办法做出来。",
+          "nextLabel": "书里的话来到今天"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "一句话传到今天",
-          "screenText": "最后《论语》把这些学习方法传给后来的人。",
-          "narration": "最后《论语》把这些学习方法传给后来的人。",
-          "displayText": "最后《论语》把这些学习方法传给后来的人。"
+          "title": "隔一会儿，再想再试",
+          "screenText": "小伙伴过了一会儿忘了动作。先回想，听不清就再听示范，再自己试试；不用和别人比快。",
+          "displayText": "小伙伴过了一会儿忘了动作。先回想，听不清就再听示范，再自己试试；不用和别人比快。",
+          "narration": "小伙伴过了一会儿忘了动作。先回想，听不清就再听示范，再自己试试；不用和别人比快。"
         },
-        "assetId": "analects-transmission-child-diagram",
-        "image": "/content/step-images/analects-transmission-child-diagram.jpg",
-        "imageAlt": "孔子言行经整理传抄到后世儿童示意图",
-        "imageCaption": "自制儿童传递示意：从师生谈话，到后人整理与传抄，再到今天阅读。",
-        "imageBoundary": "2026-08-12为低龄玩法自制。竹简、线装书和现代图画书都不是某件《论语》原件；图中不表示孔子亲手写成《论语》，也不为任何传本伪造可读文字。",
+        "assetId": "confucius-learning-v1",
+        "image": "/content/step-images/confucius-learning-v1.jpg",
+        "studyImage": "/content/study-scenes/study-3a8688ffe55d6bee.svg",
+        "studyImageAlt": "隔一会儿，再想再试",
+        "imageAlt": "跟孔子学会学与习的故事插画",
+        "imageCaption": "跟孔子学会学与习的故事插画",
+        "imageBoundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
         "audio": {
+          "lead": {
+            "id": "quest-c1e34338b5637858",
+            "text": "小伙伴忘了刚学过的一步，想把它学会。忘了一步，怎样继续学？"
+          },
           "transition": {
-            "id": "quest-ca472709af5bb16a",
-            "text": "行动发生了。再看看它带来了什么变化。"
+            "id": "quest-27776f29e640c9d4",
+            "text": "隔一会儿，再想再试。"
           },
           "intro": {
-            "id": "quest-229345ad738f4f86",
-            "text": "最后《论语》把这些学习方法传给后来的人。"
-          },
-          "image": {
-            "id": "quest-c9b7c50badce613b",
-            "text": "点开大图啦。这是孔子言行经整理传抄到后世儿童示意图。这张图能帮我们找到：最后《论语》把这些学习方法传给后来的人。"
+            "id": "quest-9acb385b80b3ab18",
+            "text": "小伙伴过了一会儿忘了动作。先回想，听不清就再听示范，再自己试试；不用和别人比快。"
           },
           "question": {
-            "id": "quest-2f86a3a6bc009210",
-            "text": "前面的行动带来了什么变化？"
+            "id": "quest-b9ba403ffe93ad69",
+            "text": "忘了一步，怎样继续学？"
+          },
+          "image": {
+            "id": "quest-34af62ddab44fd94",
+            "text": "这张是跟孔子学会学与习的故事插画。小伙伴过了一会儿忘了动作。先回想，听不清就再听示范，再自己试试；不用和别人比快。"
           },
           "right": {
-            "id": "quest-53f7633e99fda023",
-            "text": "答对啦！你找到了前因带来的变化。"
+            "id": "quest-d91ffc257a2e3bca",
+            "text": "回想、再听、再练，都是学习的办法。"
           },
           "wrong": {
-            "id": "quest-631e3024b71736c9",
-            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+            "id": "quest-b479737cb3a4e52d",
+            "text": "只听熟了还不够，再把办法做出来。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-03-03-hundred-schools-change-1",
-            "label": "《论语》文字、竹简与孔，还只是故事起点",
-            "correct": false,
+            "label": "再听一次，然后自己做",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "confucius-choice-scenes-v2",
+              "crop": {
+                "x": 8,
+                "y": 8,
+                "width": 754,
+                "height": 496,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/confucius-choice-scenes-v2.jpg",
+              "imageAlt": "再听一次，然后自己做",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-4c3bd6b6aa87ac94.svg",
+            "imageAlt": "再听，再练",
             "audio": {
-              "id": "quest-59a498c23257c0f6",
-              "text": "《论语》文字、竹简与孔，还只是故事起点"
+              "id": "quest-c49126d6ba803622",
+              "text": "再听一次，然后自己做"
             }
           },
           {
             "id": "cn-ancient-03-03-hundred-schools-change-2",
-            "label": "看学生提问、练习，再把谈话，还只是行动经过",
+            "label": "只多听几遍，还没有练",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "confucius-choice-scenes-v2",
+              "crop": {
+                "x": 778,
+                "y": 8,
+                "width": 750,
+                "height": 496,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/confucius-choice-scenes-v2.jpg",
+              "imageAlt": "只多听几遍，还没有练",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-c5b3424c743a8468.svg",
+            "imageAlt": "听，再听",
             "audio": {
-              "id": "quest-e6a069815abaab72",
-              "text": "看学生提问、练习，再把谈话，还只是行动经过"
-            }
-          },
-          {
-            "id": "cn-ancient-03-03-hundred-schools-change-3",
-            "label": "最后《论语》把这些学习方法传给后来的人。",
-            "correct": true,
-            "audio": {
-              "id": "quest-229345ad738f4f86",
-              "text": "最后《论语》把这些学习方法传给后来的人。"
+              "id": "quest-8e89310c4263b524",
+              "text": "只多听几遍，还没有练"
             }
           }
         ]
       },
       {
         "id": "takeaway",
-        "questionKind": "reason-result",
+        "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "把线索连成答案",
-        "title": "把三条线索连成答案",
-        "prompt": "哪句话同时说清了原因和结果？",
-        "rightNote": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。",
-        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
-        "story": {
-          "screenNumber": 7,
-          "title": "把三条线索连成答案",
-          "screenText": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。",
-          "narration": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。",
-          "displayText": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。"
+        "phase": "书里的话来到今天",
+        "title": "书里的话来到今天",
+        "prompt": "怎样把这句古话带回家？",
+        "rightNote": "和家人再练一次，让学过的办法用起来。",
+        "wrongNote": "认识书很重要，还可以把学过的办法用起来。",
+        "sourceIds": [
+          "EDB-ANALECTS-FOUR"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清故事，再看看眼前的线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
         },
-        "assetId": "analects-transmission-child-diagram",
-        "image": "/content/step-images/analects-transmission-child-diagram.jpg",
-        "imageAlt": "孔子言行经整理传抄到后世儿童示意图",
-        "imageCaption": "自制儿童传递示意：从师生谈话，到后人整理与传抄，再到今天阅读。",
-        "imageBoundary": "2026-08-12为低龄玩法自制。竹简、线装书和现代图画书都不是某件《论语》原件；图中不表示孔子亲手写成《论语》，也不为任何传本伪造可读文字。",
+        "narrative": {
+          "scene": "detail",
+          "caption": "书里的话来到今天",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "和家人再练一次，让学过的办法用起来。",
+          "retry": "认识书很重要，还可以把学过的办法用起来。",
+          "nextLabel": "带着发现回家"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "书里的话来到今天",
+          "screenText": "孔子和弟子的言行由后人整理、抄写、刊印，传到今天。我们也能读这句话，在生活里练习。",
+          "displayText": "孔子和弟子的言行由后人整理、抄写、刊印，传到今天。我们也能读这句话，在生活里练习。",
+          "narration": "孔子和弟子的言行由后人整理、抄写、刊印，传到今天。我们也能读这句话，在生活里练习。"
+        },
+        "assetId": "confucius-learning-v1",
+        "image": "/content/step-images/confucius-learning-v1.jpg",
+        "studyImage": "/content/study-scenes/study-58cd5089927935fd.svg",
+        "studyImageAlt": "书里的话来到今天",
+        "imageAlt": "跟孔子学会学与习的故事插画",
+        "imageCaption": "跟孔子学会学与习的故事插画",
+        "imageBoundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
         "audio": {
+          "lead": {
+            "id": "quest-4a3da8adb60a176a",
+            "text": "论语说，学过还要温习和实践。怎样把这句古话带回家？",
+            "synthesisText": "伦语说，学过还要温习和实践。怎样把这句古话带回家？"
+          },
           "transition": {
-            "id": "quest-a7cb01ad27c42767",
-            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+            "id": "quest-fd9e6b66f0cc4611",
+            "text": "书里的话来到今天。"
           },
           "intro": {
-            "id": "quest-010a5fd071afa650",
-            "text": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。"
-          },
-          "image": {
-            "id": "quest-80128b9838ee66d6",
-            "text": "点开大图啦。这是孔子言行经整理传抄到后世儿童示意图。这张图能帮我们找到：孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。"
+            "id": "quest-2a3c593fa0edd78e",
+            "text": "孔子和弟子的言行由后人整理、抄写、刊印，传到今天。我们也能读这句话，在生活里练习。"
           },
           "question": {
-            "id": "quest-1626b51c966f57f7",
-            "text": "哪句话同时说清了原因和结果？"
+            "id": "quest-88004195dc9826bf",
+            "text": "怎样把这句古话带回家？"
+          },
+          "image": {
+            "id": "quest-4967bfd1eb2833f0",
+            "text": "这张是跟孔子学会学与习的故事插画。孔子和弟子的言行由后人整理、抄写、刊印，传到今天。我们也能读这句话，在生活里练习。"
           },
           "right": {
-            "id": "quest-7efb4ef63956e209",
-            "text": "答对啦！原因和结果都说清楚了。"
+            "id": "quest-9e18103f40893873",
+            "text": "和家人再练一次，让学过的办法用起来。"
           },
           "wrong": {
-            "id": "quest-0cee35f61bffd03b",
-            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+            "id": "quest-cc315c52baee0b8d",
+            "text": "认识书很重要，还可以把学过的办法用起来。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-03-03-hundred-schools-takeaway-1",
-            "label": "听孔子说“学而时习之”，把学习变成行动。、《论语，只说了原因",
-            "correct": false,
+            "label": "选一件学过的事，再练一次",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "confucius-choice-scenes-v2",
+              "crop": {
+                "x": 8,
+                "y": 520,
+                "width": 754,
+                "height": 496,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/confucius-choice-scenes-v2.jpg",
+              "imageAlt": "选一件学过的事，再练一次",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-e543c794139fe5c1.svg",
+            "imageAlt": "学过，再练",
             "audio": {
-              "id": "quest-69809dfa56f18f43",
-              "text": "听孔子说“学而时习之”，把学习变成行动。、《论语，只说了原因"
+              "id": "quest-04726e14eecdf666",
+              "text": "选一件学过的事，再练一次"
             }
           },
           {
             "id": "cn-ancient-03-03-hundred-schools-takeaway-2",
-            "label": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。",
-            "correct": true,
-            "audio": {
-              "id": "quest-010a5fd071afa650",
-              "text": "孔子重视学习、练习和向别人请教；《论语》保存了后人整理的言行。"
-            }
-          },
-          {
-            "id": "cn-ancient-03-03-hundred-schools-takeaway-3",
-            "label": "《论语》把这些学习方法传给后来的人。、孔子说：学了还，只说了结果",
+            "label": "只记住这本书长什么样",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "confucius-choice-scenes-v2",
+              "crop": {
+                "x": 778,
+                "y": 520,
+                "width": 750,
+                "height": 496,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/confucius-choice-scenes-v2.jpg",
+              "imageAlt": "只记住这本书长什么样",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-6bfec800c2627554.svg",
+            "imageAlt": "看外形，书本",
             "audio": {
-              "id": "quest-8d788e6d49885115",
-              "text": "《论语》把这些学习方法传给后来的人。、孔子说：学了还，只说了结果"
+              "id": "quest-542401f36fc96c4b",
+              "text": "只记住这本书长什么样"
             }
           }
         ]
@@ -526,6 +1007,7 @@
   "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 9,
   "conclusion": [
+    "当前可玩章聚焦孔子与《论语》：孔子生活在春秋，后人保存与解释相关言行；“学而时习之”连接学习、温习和实践。2026-10-08新增明刊《论语注疏》对应书影，郭店与包山楚简只保留为旧研究的载体对照，不冒作《论语》。实际五步与可听问题以 content/focused-quests.json 为准。",
     "面对政治秩序变化、兼并战争和社会流动，春秋战国的思想家围绕“人怎样相处、国家怎样治理、战争怎样停止、人与自然怎样相处”等问题提出不同答案。儒、墨、道、法只是许多学派中的几种。竹简和传世文献保存了部分思想证据，但文本的抄写年代、流传过程和后世整理都需要说明，不能把今天的通行本当成某位思想家亲笔写成的原稿。"
   ],
   "facts": [
@@ -777,6 +1259,16 @@
   ],
   "sources": [
     {
+      "id": "EDB-ANALECTS-FOUR",
+      "title": "《论语四则》选篇分析，1—2页",
+      "institution": "香港特别行政区政府教育局",
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/primary/lang/culture/03_001.pdf",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "孔子及弟子言行的文本、学而时习之、温习与实践含义、三人不是固定数量。",
+      "imageUse": "reference-only"
+    },
+    {
       "id": "NMC-SPRING-AUTUMN-WARRING-STATES",
       "title": "“古代中国”基本陈列：春秋战国时期",
       "institution": "中国国家博物馆",
@@ -879,6 +1371,214 @@
   ],
   "assets": [
     {
+      "id": "analects-ming-commentary",
+      "title": "明刊《论语注疏》",
+      "localPath": "reference-assets/china-expansion/analects-ming-commentary.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Commentaries_of_the_Analects_of_Confucius.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "明刊《论语注疏》",
+      "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "confucius-learning-v1",
+      "title": "跟孔子学会学与习的故事插画",
+      "localPath": "reference-assets/china-expansion/confucius-learning-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "confucius-choice-scenes-v2",
+      "title": "跟孔子学会学与习的情境选择分镜",
+      "localPath": "reference-assets/choice-art-refinement/confucius-choice-scenes-v2.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+      "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-33b23a28382b9ffb",
+      "title": "学习示意：先去孔子生活的时代",
+      "localPath": "reference-assets/focused-quests/study-33b23a28382b9ffb.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "先去孔子生活的时代",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-f3f146563d386a17",
+      "title": "学习示意：春秋、约前770—前476年",
+      "localPath": "reference-assets/focused-quests/study-f3f146563d386a17.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "春秋 → 约前770—前476年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-de3ebe2f93775756",
+      "title": "学习示意：秦朝、前221—前207年",
+      "localPath": "reference-assets/focused-quests/study-de3ebe2f93775756.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "秦朝 → 前221—前207年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d90d782575e39736",
+      "title": "学习示意：听一句留下来的古话",
+      "localPath": "reference-assets/focused-quests/study-d90d782575e39736.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "听一句留下来的古话",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-63e6edf01f7eb757",
+      "title": "学习示意：把听过的动作做出来",
+      "localPath": "reference-assets/focused-quests/study-63e6edf01f7eb757.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "把听过的动作做出来",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-68c94465b052575e",
+      "title": "学习示意：小伙伴动手练习",
+      "localPath": "reference-assets/focused-quests/study-68c94465b052575e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "小伙伴动手练习",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-6f120618e779aa44",
+      "title": "学习示意：展柜保存书本",
+      "localPath": "reference-assets/focused-quests/study-6f120618e779aa44.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "展柜保存书本",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-3a8688ffe55d6bee",
+      "title": "学习示意：隔一会儿，再想再试",
+      "localPath": "reference-assets/focused-quests/study-3a8688ffe55d6bee.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "隔一会儿，再想再试",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-4c3bd6b6aa87ac94",
+      "title": "学习示意：再听、再练",
+      "localPath": "reference-assets/focused-quests/study-4c3bd6b6aa87ac94.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "再听 → 再练",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-c5b3424c743a8468",
+      "title": "学习示意：听、再听",
+      "localPath": "reference-assets/focused-quests/study-c5b3424c743a8468.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "听 → 再听",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-58cd5089927935fd",
+      "title": "学习示意：书里的话来到今天",
+      "localPath": "reference-assets/focused-quests/study-58cd5089927935fd.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "书里的话来到今天",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e543c794139fe5c1",
+      "title": "学习示意：学过、再练",
+      "localPath": "reference-assets/focused-quests/study-e543c794139fe5c1.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "学过 → 再练",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-6bfec800c2627554",
+      "title": "学习示意：看外形、书本",
+      "localPath": "reference-assets/focused-quests/study-6bfec800c2627554.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "看外形 → 书本",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
       "id": "saws-guodian-taiyi-slips",
       "title": "郭店楚简《太一生水》局部展示照片",
       "localPath": "reference-assets/spring-autumn-warring-states/guodian-taiyi-slips.jpg",
@@ -940,5 +1640,5 @@
     "audio": "not-started",
     "review": "in-progress"
   },
-  "contentReadiness": "legacy-draft-not-in-preview"
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

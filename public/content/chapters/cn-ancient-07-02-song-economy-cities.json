@@ -9,12 +9,13 @@
     "label": "宋朝（与辽·西夏·金并立）",
     "years": "916—1279年（宋960年起）",
     "learningContext": {
-      "childIntro": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+      "childIntro": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。",
       "chronology": "916是辽相关起点，宋从960年开始；北宋与南宋分期，辽与金先后更替、西夏存在其间。窗口范围不等于宋始于916年。",
-      "covered": "同年并立、城市劳动、活字、指南针、火药文献与宋词。",
+      "covered": "同年并立、城市劳动、活字、指南针、火药用途与文献、苏轼和李清照的词。",
       "scopeBoundary": "经济重心南移、海外贸易及政权关系在背景稿中；三项技术不能代表宋代生活全部。",
       "sourceIds": [
-        "NMC-LIAO-SONG-XIA-JIN-YUAN"
+        "NMC-LIAO-SONG-XIA-JIN-YUAN",
+        "BJWOMEN-LI-RUMENGLING"
       ],
       "sources": [
         {
@@ -22,6 +23,12 @@
           "title": "“古代中国”基本陈列：辽宋夏金元时期",
           "institution": "中国国家博物馆",
           "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+        },
+        {
+          "id": "BJWOMEN-LI-RUMENGLING",
+          "title": "如梦令：一帘幽梦，千种诗情",
+          "institution": "北京市妇联学习平台",
+          "url": "https://study.bjwomen.gov.cn/thought/knowledge/2022/05/20/3988.shtml"
         }
       ]
     }
@@ -44,7 +51,7 @@
     "culture": "张择端《清明上河图》",
     "care": "原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
     "playableSource": "content/focused-quests.json",
-    "preferredAssetId": "song-city-work-v1"
+    "preferredAssetId": "qingming-scroll-rainbow-bridge-detail"
   },
   "learningGuide": {
     "id": "cn-ancient-07-02-song-economy-cities",
@@ -222,18 +229,18 @@
     ],
     "photoAlbum": null,
     "coverAsset": {
-      "id": "song-city-work-v1",
-      "title": "清明上河图里，谁让城市忙起来？故事插画",
-      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-city-work-v1.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "qingming-scroll-rainbow-bridge-detail",
+      "title": "张择端《清明上河图》虹桥附近局部",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/qingming-river-original-detail.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Along_the_River_During_the_Qingming_Festival_(detail_of_original).jpg",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史照片。",
-      "boundary": "原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "北宋张择端《清明上河图》中虹桥附近的局部图像。",
+      "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。 这里展示的是原图局部，不作为完整构图。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/song-city-work-v1.jpg"
+      "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg"
     },
     "presentation": {
       "kind": "object-workbench",
@@ -264,10 +271,10 @@
         "closingLine": "桥上桥下，许多工作连起城市。",
         "fictionNote": "原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
         "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
-        "stationLine": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+        "stationLine": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。",
         "stationAudio": {
-          "id": "quest-1bc1ed1a12336ca9",
-          "text": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。"
+          "id": "quest-8a55adf0ba4cb9a7",
+          "text": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。"
         },
         "closingAudio": {
           "id": "quest-cc7423848ece54b4",
@@ -328,9 +335,13 @@
         "image": "/content/step-images/song-city-work-v1.jpg"
       }
     ],
-    "coverImage": "/content/step-images/song-city-work-v1.jpg",
-    "coverImageAlt": "清明上河图里，谁让城市忙起来？故事插画",
-    "coverImageKind": "故事插画",
+    "coverImage": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg",
+    "coverImageAlt": "张择端《清明上河图》虹桥附近局部",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "北宋《清明上河图》局部",
+      "fit": "contain"
+    },
     "coverAudio": {
       "id": "quest-e1b01e264dcf2871",
       "text": "长卷里的桥上桥下都很热闹。船工、搬运者和店里的人，怎样把水路与街市接起来？"
@@ -852,7 +863,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/song-city-work-v1.jpg",
-              "imageAlt": "找背货的搬运者"
+              "imageAlt": "找背货的搬运者",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-55cfb6a984795813.svg",
             "imageAlt": "找背货的搬运者",
@@ -877,7 +889,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/song-city-work-v1.jpg",
-              "imageAlt": "找撑船的船工"
+              "imageAlt": "找撑船的船工",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-80555e244afe2b0e.svg",
             "imageAlt": "找撑船的船工",
@@ -1316,6 +1329,16 @@
       "type": "official-textbook-editorial-explanation",
       "authorityLevel": "A-national-textbook-publisher",
       "factUse": "核对统编小学语文教材中的古诗文、成语、神话、历史故事与四大名著节选结构，并明确改编、节选和史实之间的边界",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "BJWOMEN-LI-RUMENGLING",
+      "title": "如梦令：一帘幽梦，千种诗情",
+      "institution": "北京市妇联学习平台",
+      "url": "https://study.bjwomen.gov.cn/thought/knowledge/2022/05/20/3988.shtml",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "李清照《如梦令·常记溪亭日暮》的全文及追忆、回舟、入荷丛和惊起水鸟的叙事。",
       "imageUse": "reference-only"
     }
   ],

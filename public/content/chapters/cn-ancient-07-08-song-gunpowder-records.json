@@ -9,12 +9,13 @@
     "label": "宋朝（与辽·西夏·金并立）",
     "years": "916—1279年（宋960年起）",
     "learningContext": {
-      "childIntro": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+      "childIntro": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。",
       "chronology": "916是辽相关起点，宋从960年开始；北宋与南宋分期，辽与金先后更替、西夏存在其间。窗口范围不等于宋始于916年。",
-      "covered": "同年并立、城市劳动、活字、指南针、火药文献与宋词。",
+      "covered": "同年并立、城市劳动、活字、指南针、火药用途与文献、苏轼和李清照的词。",
       "scopeBoundary": "经济重心南移、海外贸易及政权关系在背景稿中；三项技术不能代表宋代生活全部。",
       "sourceIds": [
-        "NMC-LIAO-SONG-XIA-JIN-YUAN"
+        "NMC-LIAO-SONG-XIA-JIN-YUAN",
+        "BJWOMEN-LI-RUMENGLING"
       ],
       "sources": [
         {
@@ -22,6 +23,12 @@
           "title": "“古代中国”基本陈列：辽宋夏金元时期",
           "institution": "中国国家博物馆",
           "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+        },
+        {
+          "id": "BJWOMEN-LI-RUMENGLING",
+          "title": "如梦令：一帘幽梦，千种诗情",
+          "institution": "北京市妇联学习平台",
+          "url": "https://study.bjwomen.gov.cn/thought/knowledge/2022/05/20/3988.shtml"
         }
       ]
     }
@@ -32,9 +39,9 @@
   "throughline": "只追踪观察、记录、传播和用途变化，不提供配方、比例、混合或点火步骤；以《武经总要》传世图像练习文献证据边界。",
   "childEntry": {
     "id": "cn-ancient-07-08-song-gunpowder-records",
-    "childTitle": "古书怎样留下火药的历史？",
-    "prompt": "火药经过长期探索，宋代已经用到军事。一本古书把知识记下来，后人又怎样把它传到今天？",
-    "takeaway": "火药知识经过长期探索，北宋1044年编成的《武经总要》留下军事技术记录。后来的刻印与保存，让今天还能研究这些知识的历史。",
+    "childTitle": "火药用在哪里，古书留下什么？",
+    "prompt": "古代人逐渐探索火药，把它用于一些兵器。小伙伴在古书中寻找线索：火药的用途，和指南针、印刷一样吗？",
+    "takeaway": "火药经过长期探索，用于一些军事技术。北宋《武经总要》留下记载，后世继续刻印保存；编书年份不是火药发明年份。",
     "object": "《武经总要》· 后世刻本封面",
     "people": [
       "曾公亮等编书者",
@@ -43,22 +50,22 @@
     "place": "北宋编书、明代刻印；今天的图书馆",
     "culture": "《武经总要》编成与后印",
     "care": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
-    "preferredAssetId": "song-books-museum-v1",
+    "preferredAssetId": "wujing-ming-cover",
     "playableSource": "content/focused-quests.json"
   },
   "learningGuide": {
     "id": "cn-ancient-07-08-song-gunpowder-records",
     "theme": "材料与时间",
-    "learningGoal": "技术经过积累，成书、后印与今天研究是不同节点。",
-    "parentQuestion": "看到明代刻本，为什么还能研究更早的宋代知识？",
-    "observe": "说出先编成、后来再印保存；不把编书日当火药发明日。",
+    "learningGoal": "火药在古代有军事用途，文献保留其长期发展的线索。",
+    "parentQuestion": "火药、指南针和印刷帮助人们做的事一样吗？",
+    "observe": "能按用途指认技术，并分清编书与发明不是同一件事。",
     "misconception": "书影是明代版本；讨论军事用途，不做配制、点火或伤害得分。",
     "evidenceStepIds": [
       "time"
     ],
     "sourceIds": [
+      "CAS-FOUR-GREAT-INVENTIONS",
       "JJ-ZENG-WUJING-HISTORY",
-      "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
       "NLC-WUJING-MING-SCAN"
     ],
     "related": [
@@ -80,7 +87,7 @@
       "type": "典籍",
       "icon": "📘",
       "title": "曾公亮等编书者与保存古籍的人们",
-      "childBridge": "火药经过长期探索，宋代已经用到军事。一本古书把知识记下来，后人又怎样把它传到今天？",
+      "childBridge": "古代人逐渐探索火药，把它用于一些兵器。小伙伴在古书中寻找线索：火药的用途，和指南针、印刷一样吗？",
       "evidenceBoundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。"
     },
     "companions": [
@@ -118,8 +125,8 @@
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "已经有人探索，也有人记下来",
-      "text": "火药知识经过长期探索，宋代已经用于军事。曾公亮等人编写《武经总要》，整理当时的知识。书不是发明突然开始的那一天，而是留下记录的一条线索。"
+      "label": "先弄清火药的用途",
+      "text": "古代人探索火药，并借助燃烧把它用于一些兵器。《武经总要》是北宋编写的军事书，留下相关记载，不是一本造纸书。"
     },
     {
       "id": "journey",
@@ -136,8 +143,8 @@
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "不同时间的人，把知识接下去",
-      "text": "古人探索和记录，后人刻印、保存，今天的人再研究。火药后来也用于不同场合；了解用途，要看对应时代的材料。我们用古书和时间线，认识技术怎样积累。"
+      "label": "把几项发明的用途分清楚",
+      "text": "指南针提供方向线索，印刷帮助复制文字，火药则参与古代一些军事技术。它们用途不同，都经过了长期发展。"
     }
   ],
   "glossary": [
@@ -190,8 +197,8 @@
     "hook": {
       "kind": "具体任务",
       "icon": "🔎",
-      "label": "古书怎样留下火药的历史？",
-      "question": "火药经过长期探索，宋代已经用到军事。一本古书把知识记下来，后人又怎样把它传到今天？"
+      "label": "火药用在哪里，古书留下什么？",
+      "question": "古代人逐渐探索火药，把它用于一些兵器。小伙伴在古书中寻找线索：火药的用途，和指南针、印刷一样吗？"
     },
     "cta": "去古书里找时间线索",
     "anchor": "曾公亮等编书者与保存古籍的人们",
@@ -214,24 +221,24 @@
     ],
     "photoAlbum": null,
     "coverAsset": {
-      "id": "song-books-museum-v1",
-      "title": "古书怎样留下火药的历史？故事插画",
-      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-books-museum-v1.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "wujing-ming-cover",
+      "title": "《武经总要》后世明刻本封面书影",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/wujing-ming-cover.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NLC892-411999028209-148443_武經總要前集_第1冊.pdf",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史照片。",
-      "boundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "明代刻本 · 国家图书馆藏 · PDF第1页",
+      "boundary": "这是后世刻本封面，不是1044年纸本原稿，也不是火药配方所在页。扫描文件公版；整页渲染，保留馆藏水印，无AI修复或重绘。宋代成书与明代刻印分开说明。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/song-books-museum-v1.jpg"
+      "image": "/content/step-images/wujing-ming-cover.jpg"
     },
     "presentation": {
       "kind": "object-workbench",
       "sceneAssetId": "song-books-museum-v1",
       "sceneAlt": "古书怎样留下火药的历史？的儿童故事插画",
-      "title": "古书怎样留下火药的历史？",
+      "title": "火药用在哪里，古书留下什么？",
       "evidenceTitle": "《武经总要》· 后世刻本封面",
       "evidenceLine": "真实材料与故事插画分别看。",
       "evidenceNarration": "这张是真正旧书封面的书影。书的内容在北宋编成，这一本却是明代刻印流传的。圆形水印来自现代馆藏扫描，不是宋代印记。",
@@ -250,20 +257,20 @@
         "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
         "reunionAspectRatio": 1.82,
         "coverCaption": "古书怎样留下火药的历史？",
-        "coverNarration": "火药经过长期探索，宋代已经用到军事。一本古书把知识记下来，后人又怎样把它传到今天？",
+        "coverNarration": "古代人逐渐探索火药，把它用于一些兵器。小伙伴在古书中寻找线索：火药的用途，和指南针、印刷一样吗？",
         "closingCaption": "带着发现回家",
-        "closingNarration": "火药知识经过长期探索，北宋1044年编成的《武经总要》留下军事技术记录。后来的刻印与保存，让今天还能研究这些知识的历史。",
-        "closingLine": "探索、记录与保存，把知识带到今天。",
+        "closingNarration": "火药经过长期探索，用于一些军事技术。北宋《武经总要》留下记载，后世继续刻印保存；编书年份不是火药发明年份。",
+        "closingLine": "用途与年代，回到史料找线索。",
         "fictionNote": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
         "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
-        "stationLine": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+        "stationLine": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。",
         "stationAudio": {
-          "id": "quest-1bc1ed1a12336ca9",
-          "text": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。"
+          "id": "quest-8a55adf0ba4cb9a7",
+          "text": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。"
         },
         "closingAudio": {
-          "id": "quest-0745d95c11687ccf",
-          "text": "火药知识经过长期探索，北宋1044年编成的《武经总要》留下军事技术记录。后来的刻印与保存，让今天还能研究这些知识的历史。"
+          "id": "quest-0f621cd2a88e6a18",
+          "text": "火药经过长期探索，用于一些军事技术。北宋《武经总要》留下记载，后世继续刻印保存；编书年份不是火药发明年份。"
         }
       },
       "sceneImage": "/content/step-images/song-books-museum-v1.jpg",
@@ -304,25 +311,43 @@
         "boundary": "三位现代儿童回顾旅行手册；册上船、印刷图样与月亮为整站学习线索，不冒充古代原物或个人亲历。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/song-friends-reunion-v2.jpg"
+      },
+      {
+        "id": "inventions-choice-scenes-v2",
+        "title": "火药用在哪里，古书留下什么？的情境选择分镜",
+        "localPath": "reference-assets/choice-art-refinement/inventions-choice-scenes-v2.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+        "license": "项目自制；按OpenAI使用条款持有输出使用权",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+        "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/inventions-choice-scenes-v2.jpg"
       }
     ],
-    "coverImage": "/content/step-images/song-books-museum-v1.jpg",
-    "coverImageAlt": "古书怎样留下火药的历史？故事插画",
-    "coverImageKind": "故事插画",
+    "coverImage": "/content/step-images/wujing-ming-cover.jpg",
+    "coverImageAlt": "《武经总要》后世明刻本封面书影",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "《武经总要》明代刻本",
+      "fit": "contain"
+    },
     "coverAudio": {
-      "id": "quest-5e5f31fd75af915f",
-      "text": "火药经过长期探索，宋代已经用到军事。一本古书把知识记下来，后人又怎样把它传到今天？"
+      "id": "quest-3cd3aafa1973f9bf",
+      "text": "古代人逐渐探索火药，把它用于一些兵器。小伙伴在古书中寻找线索：火药的用途，和指南针、印刷一样吗？"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-0745d95c11687ccf",
-      "text": "火药知识经过长期探索，北宋1044年编成的《武经总要》留下军事技术记录。后来的刻印与保存，让今天还能研究这些知识的历史。"
+      "id": "quest-0f621cd2a88e6a18",
+      "text": "火药经过长期探索，用于一些军事技术。北宋《武经总要》留下记载，后世继续刻印保存；编书年份不是火药发明年份。"
     },
     "finish": {
-      "title": "古书把以前的知识带到今天！",
+      "title": "分清技术的用途！",
       "actions": [
-        "用三个纸片或三个位置表示探索、编书、后世保存，请家人读出来。",
-        "指旧书，再指今天的笔记，说出它们为什么不是同一时期的记录。"
+        "用图卡分别指出造纸、印刷、指南针和火药的一种用途。",
+        "看书影的身份说明，区分北宋编书与后世刊印。"
       ],
       "parent": "本章认识技术史而非安全口号；明确火药早于1044编书、宋代军事应用与后世版本。不会以儿童实验重做配制或点火，不以战争胜负得分。",
       "sceneStepIndexes": [
@@ -331,17 +356,17 @@
       ],
       "actionAudio": [
         {
-          "id": "quest-67c06a65fef8c1dd",
-          "text": "用三个纸片或三个位置表示探索、编书、后世保存，请家人读出来。"
+          "id": "quest-1eec13f1c45abdb9",
+          "text": "用图卡分别指出造纸、印刷、指南针和火药的一种用途。"
         },
         {
-          "id": "quest-e934f827fc50b9dc",
-          "text": "指旧书，再指今天的笔记，说出它们为什么不是同一时期的记录。"
+          "id": "quest-52bc48435890a8c8",
+          "text": "看书影的身份说明，区分北宋编书与后世刊印。"
         }
       ],
       "introAudio": {
-        "id": "quest-0745d95c11687ccf",
-        "text": "火药知识经过长期探索，北宋1044年编成的《武经总要》留下军事技术记录。后来的刻印与保存，让今天还能研究这些知识的历史。"
+        "id": "quest-0f621cd2a88e6a18",
+        "text": "火药经过长期探索，用于一些军事技术。北宋《武经总要》留下记载，后世继续刻印保存；编书年份不是火药发明年份。"
       }
     },
     "estimatedMinutes": 6,
@@ -500,77 +525,131 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "已经有人探索，也有人记下来",
-        "title": "已经有人探索，也有人记下来",
-        "prompt": "古书把当时的知识留下来",
-        "rightNote": "前面的探索和后来的记录要分开。",
-        "wrongNote": "可以再听一遍。",
+        "phase": "先弄清火药的用途",
+        "title": "先弄清火药的用途",
+        "prompt": "这条火药记录涉及哪种用途？",
+        "rightNote": "它留下古代军事技术的线索。",
+        "wrongNote": "制作纸页属于造纸，火药在这里用于军事技术。",
         "sourceIds": [
+          "CAS-FOUR-GREAT-INVENTIONS",
           "JJ-ZENG-WUJING-HISTORY",
-          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY"
+          "NLC-WUJING-MING-SCAN"
         ],
         "interaction": {
-          "kind": "look-listen",
-          "hint": "听听问题，看看图里的线索。",
-          "continueLabel": "到今天的图书馆找线索"
+          "kind": "pick",
+          "hint": "听清故事，再看看眼前的线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
         },
         "narrative": {
           "scene": "detail",
-          "caption": "已经有人探索，也有人记下来",
+          "caption": "先弄清火药的用途",
           "speaker": "小伙伴",
           "responseSpeaker": "小伙伴",
-          "response": "前面的探索和后来的记录要分开。",
-          "retry": "可以再听一遍。",
-          "nextLabel": "到今天的图书馆找线索",
-          "kind": "fictional-guide-scene"
+          "response": "它留下古代军事技术的线索。",
+          "retry": "制作纸页属于造纸，火药在这里用于军事技术。",
+          "nextLabel": "接着看看"
         },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "已经有人探索，也有人记下来",
-          "screenText": "火药知识经过长期探索，宋代已经用于军事。曾公亮等人编写《武经总要》，整理当时的知识。书不是发明突然开始的那一天，而是留下记录的一条线索。",
-          "displayText": "先有长期探索。\n北宋编书，记录军事技术。",
-          "narration": "火药知识经过长期探索，宋代已经用于军事。曾公亮等人编写《武经总要》，整理当时的知识。书不是发明突然开始的那一天，而是留下记录的一条线索。"
+          "title": "先弄清火药的用途",
+          "screenText": "古代人探索火药，并借助燃烧把它用于一些兵器。《武经总要》是北宋编写的军事书，留下相关记载，不是一本造纸书。",
+          "displayText": "古代人探索火药，并借助燃烧把它用于一些兵器。《武经总要》是北宋编写的军事书，留下相关记载，不是一本造纸书。",
+          "narration": "古代人探索火药，并借助燃烧把它用于一些兵器。《武经总要》是北宋编写的军事书，留下相关记载，不是一本造纸书。"
         },
         "assetId": "song-books-museum-v1",
         "image": "/content/step-images/song-books-museum-v1.jpg",
-        "studyImage": "/content/study-scenes/study-cd944b07ad635b56.svg",
-        "studyImageAlt": "已经有人探索，也有人记下来",
+        "studyImage": "/content/study-scenes/study-d08d6686e5b9d9e0.svg",
+        "studyImageAlt": "先弄清火药的用途",
         "imageAlt": "古书怎样留下火药的历史？故事插画",
         "imageCaption": "古书怎样留下火药的历史？故事插画",
         "imageBoundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
         "audio": {
           "lead": {
-            "id": "quest-f1ee6191b76f62c1",
-            "text": "古书把当时的知识留下来"
+            "id": "quest-4ef3d25dfd18cbd1",
+            "text": "武经总要是军事书，记下火药用于一些兵器。这条火药记录涉及哪种用途？"
           },
           "transition": {
-            "id": "quest-6cf645928c36b077",
-            "text": "已经有人探索，也有人记下来。"
+            "id": "quest-cafa9086c684b8e8",
+            "text": "先弄清火药的用途。"
           },
           "intro": {
-            "id": "quest-1097d8c1f55bd04d",
-            "text": "火药知识经过长期探索，宋代已经用于军事。曾公亮等人编写《武经总要》，整理当时的知识。书不是发明突然开始的那一天，而是留下记录的一条线索。"
+            "id": "quest-2db4066a0634bac2",
+            "text": "古代人探索火药，并借助燃烧把它用于一些兵器。《武经总要》是北宋编写的军事书，留下相关记载，不是一本造纸书。"
           },
           "question": {
-            "id": "quest-f1ee6191b76f62c1",
-            "text": "古书把当时的知识留下来"
+            "id": "quest-8e80ce3c5d0f53f4",
+            "text": "这条火药记录涉及哪种用途？"
           },
           "image": {
-            "id": "quest-a493216d3c9d6a94",
-            "text": "这张是古书怎样留下火药的历史？故事插画。火药知识经过长期探索，宋代已经用于军事。曾公亮等人编写《武经总要》，整理当时的知识。书不是发明突然开始的那一天，而是留下记录的一条线索。"
+            "id": "quest-4be616a2595b7c9d",
+            "text": "这张是古书怎样留下火药的历史？故事插画。古代人探索火药，并借助燃烧把它用于一些兵器。《武经总要》是北宋编写的军事书，留下相关记载，不是一本造纸书。"
           },
           "right": {
-            "id": "quest-762c536c554cba55",
-            "text": "前面的探索和后来的记录要分开。"
+            "id": "quest-dd62e3d78eee8fa8",
+            "text": "它留下古代军事技术的线索。"
           },
           "wrong": {
-            "id": "quest-cf2d9f2d3be46572",
-            "text": "可以再听一遍。"
+            "id": "quest-258cec46c8c2f4e1",
+            "text": "制作纸页属于造纸，火药在这里用于军事技术。"
           }
         },
-        "options": []
+        "options": [
+          {
+            "id": "cn-ancient-07-08-song-gunpowder-records-beginning-1",
+            "label": "古代的一些军事技术",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "inventions-choice-scenes-v2",
+              "crop": {
+                "x": 8,
+                "y": 8,
+                "width": 755,
+                "height": 494,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/inventions-choice-scenes-v2.jpg",
+              "imageAlt": "古代的一些军事技术",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-4e9b52d9930ad933.svg",
+            "imageAlt": "燃烧作用，军事用途",
+            "audio": {
+              "id": "quest-0b44f862dca92878",
+              "text": "古代的一些军事技术"
+            }
+          },
+          {
+            "id": "cn-ancient-07-08-song-gunpowder-records-beginning-2",
+            "label": "把纤维做成书写的纸",
+            "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "inventions-choice-scenes-v2",
+              "crop": {
+                "x": 779,
+                "y": 8,
+                "width": 749,
+                "height": 494,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/inventions-choice-scenes-v2.jpg",
+              "imageAlt": "把纤维做成书写的纸",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-94d316b4f886f733.svg",
+            "imageAlt": "纤维，纸页",
+            "audio": {
+              "id": "quest-46a8b112ec68cc53",
+              "text": "把纤维做成书写的纸"
+            }
+          }
+        ]
       },
       {
         "id": "journey",
@@ -829,78 +908,131 @@
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "不同时间的人，把知识接下去",
-        "title": "不同时间的人，把知识接下去",
-        "prompt": "一项技术，有很长的历史",
-        "rightNote": "留下记录，后来的人才能继续认识历史。",
-        "wrongNote": "可以再听一遍。",
+        "phase": "把几项发明的用途分清楚",
+        "title": "把几项发明的用途分清楚",
+        "prompt": "想复制书页，该找哪项技术？",
+        "rightNote": "印刷帮助复制文字，火药有另一种用途。",
+        "wrongNote": "这里要复制文字，应该找印刷方法。",
         "sourceIds": [
+          "CAS-FOUR-GREAT-INVENTIONS",
           "JJ-ZENG-WUJING-HISTORY",
-          "CAS-ANCIENT-INVENTIONS-CHRONOLOGY",
           "NLC-WUJING-MING-SCAN"
         ],
         "interaction": {
-          "kind": "look-listen",
-          "hint": "听听问题，看看图里的线索。",
-          "continueLabel": "带着古书的发现回家"
+          "kind": "pick",
+          "hint": "听清故事，再看看眼前的线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
         },
         "narrative": {
           "scene": "detail",
-          "caption": "不同时间的人，把知识接下去",
+          "caption": "把几项发明的用途分清楚",
           "speaker": "小伙伴",
           "responseSpeaker": "小伙伴",
-          "response": "留下记录，后来的人才能继续认识历史。",
-          "retry": "可以再听一遍。",
-          "nextLabel": "带着古书的发现回家",
-          "kind": "fictional-guide-scene"
+          "response": "印刷帮助复制文字，火药有另一种用途。",
+          "retry": "这里要复制文字，应该找印刷方法。",
+          "nextLabel": "接着看看"
         },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 5,
-          "title": "不同时间的人，把知识接下去",
-          "screenText": "古人探索和记录，后人刻印、保存，今天的人再研究。火药后来也用于不同场合；了解用途，要看对应时代的材料。我们用古书和时间线，认识技术怎样积累。",
-          "displayText": "探索 → 记录 → 刻印保存。\n后来的研究，仍要核对年代。",
-          "narration": "古人探索和记录，后人刻印、保存，今天的人再研究。火药后来也用于不同场合；了解用途，要看对应时代的材料。我们用古书和时间线，认识技术怎样积累。"
+          "title": "把几项发明的用途分清楚",
+          "screenText": "指南针提供方向线索，印刷帮助复制文字，火药则参与古代一些军事技术。它们用途不同，都经过了长期发展。",
+          "displayText": "指南针提供方向线索，印刷帮助复制文字，火药则参与古代一些军事技术。它们用途不同，都经过了长期发展。",
+          "narration": "指南针提供方向线索，印刷帮助复制文字，火药则参与古代一些军事技术。它们用途不同，都经过了长期发展。"
         },
         "assetId": "song-books-museum-v1",
         "image": "/content/step-images/song-books-museum-v1.jpg",
-        "studyImage": "/content/study-scenes/study-80373ba5b51bddb7.svg",
-        "studyImageAlt": "不同时间的人，把知识接下去",
+        "studyImage": "/content/study-scenes/study-4938d61f15cfbff2.svg",
+        "studyImageAlt": "把几项发明的用途分清楚",
         "imageAlt": "古书怎样留下火药的历史？故事插画",
         "imageCaption": "古书怎样留下火药的历史？故事插画",
         "imageBoundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
         "audio": {
           "lead": {
-            "id": "quest-bc6e420a92fdc9f0",
-            "text": "一项技术，有很长的历史"
+            "id": "quest-5eabfe45610467d9",
+            "text": "印刷帮助复制文字，火药在古代有军事用途。想复制书页，该找哪项技术？"
           },
           "transition": {
-            "id": "quest-1c0a660f5588aaef",
-            "text": "不同时间的人，把知识接下去。"
+            "id": "quest-e4beb3efe770fe3f",
+            "text": "把几项发明的用途分清楚。"
           },
           "intro": {
-            "id": "quest-70c3e48a963a8209",
-            "text": "古人探索和记录，后人刻印、保存，今天的人再研究。火药后来也用于不同场合；了解用途，要看对应时代的材料。我们用古书和时间线，认识技术怎样积累。"
+            "id": "quest-51f7a290c90fce92",
+            "text": "指南针提供方向线索，印刷帮助复制文字，火药则参与古代一些军事技术。它们用途不同，都经过了长期发展。"
           },
           "question": {
-            "id": "quest-bc6e420a92fdc9f0",
-            "text": "一项技术，有很长的历史"
+            "id": "quest-9a5a0cf5ee53cbfb",
+            "text": "想复制书页，该找哪项技术？"
           },
           "image": {
-            "id": "quest-7798ba8eef945370",
-            "text": "这张是古书怎样留下火药的历史？故事插画。古人探索和记录，后人刻印、保存，今天的人再研究。火药后来也用于不同场合；了解用途，要看对应时代的材料。我们用古书和时间线，认识技术怎样积累。"
+            "id": "quest-41d879c6a997f2ad",
+            "text": "这张是古书怎样留下火药的历史？故事插画。指南针提供方向线索，印刷帮助复制文字，火药则参与古代一些军事技术。它们用途不同，都经过了长期发展。"
           },
           "right": {
-            "id": "quest-74df9a5f03e8e920",
-            "text": "留下记录，后来的人才能继续认识历史。"
+            "id": "quest-f3ab41b51038c89b",
+            "text": "印刷帮助复制文字，火药有另一种用途。"
           },
           "wrong": {
-            "id": "quest-cf2d9f2d3be46572",
-            "text": "可以再听一遍。"
+            "id": "quest-c09d5928b3a457a3",
+            "text": "这里要复制文字，应该找印刷方法。"
           }
         },
-        "options": []
+        "options": [
+          {
+            "id": "cn-ancient-07-08-song-gunpowder-records-takeaway-1",
+            "label": "用印刷把文字印到纸上",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "inventions-choice-scenes-v2",
+              "crop": {
+                "x": 8,
+                "y": 518,
+                "width": 755,
+                "height": 498,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/inventions-choice-scenes-v2.jpg",
+              "imageAlt": "用印刷把文字印到纸上",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-08848fde27cec73a.svg",
+            "imageAlt": "印版，书页",
+            "audio": {
+              "id": "quest-931f2ecce5864d7a",
+              "text": "用印刷把文字印到纸上"
+            }
+          },
+          {
+            "id": "cn-ancient-07-08-song-gunpowder-records-takeaway-2",
+            "label": "利用火药的燃烧作用",
+            "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "inventions-choice-scenes-v2",
+              "crop": {
+                "x": 779,
+                "y": 518,
+                "width": 749,
+                "height": 498,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/inventions-choice-scenes-v2.jpg",
+              "imageAlt": "利用火药的燃烧作用",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-bddb3aed3afad454.svg",
+            "imageAlt": "火药，军事用途",
+            "audio": {
+              "id": "quest-e4fa04e02e5fae1a",
+              "text": "利用火药的燃烧作用"
+            }
+          }
+        ]
       }
     ],
     "extensionTasks": [
@@ -930,6 +1062,7 @@
   "age": "4—6岁亲子共学；儿童以图标和语音为主",
   "durationMinutes": 8,
   "conclusion": [
+    "2026-10-08可玩主线补明火药的历史用途：火药经过长期探索，参与古代一些军事技术；与造纸、印刷、指南针分别比较用途，再区分北宋编书与后世刊印。界面不展示配方或制作操作。实际题目、图片与可听引导见 content/focused-quests.json。",
     "火药知识来自古人长期的材料观察和配制经验，不是某个人某一天独自完成。约 9 世纪起相关知识逐步成熟，1044 年成书的《武经总要》保存了火药配方和相关装置记录。儿童主线只观察“发现—记录—传播—用途变化”的历史过程，不呈现比例、制作和点火步骤。火药后来用于节庆、信号和军事等不同场景；技术用途与风险都要由人判断和管理。"
   ],
   "facts": [
@@ -1161,6 +1294,26 @@
   ],
   "sources": [
     {
+      "id": "CAS-FOUR-GREAT-INVENTIONS",
+      "title": "中国四大发明和中国二十四大发明述评",
+      "institution": "中国科学院自然科学史研究所",
+      "url": "https://ihns.cas.cn/kxcb_/kxjd/202212/t20221206_6567193.html",
+      "type": "science-history-review",
+      "authorityLevel": "A",
+      "factUse": "造纸、印刷、火药、指南针四项重要技术的历史概括、长期发展和跨文化传播边界",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "JJ-ZENG-WUJING-HISTORY",
+      "institution": "晋江市人民政府",
+      "title": "曾公亮和《武经总要》",
+      "url": "https://www.jinjiang.gov.cn/yxjj/szjj/wssl/202406/t20240603_3043257.htm",
+      "type": "institution-history-reference",
+      "authorityLevel": "A",
+      "factUse": "1040至1044年编书、宋代军事著作与技术记录；不进入配方与制作细节",
+      "imageUse": "reference-only"
+    },
+    {
       "id": "CAS-IHNS-ANCIENT-ROCKETS",
       "title": "揭秘中国古代火箭技术",
       "institution": "中国科学院自然科学史研究所",
@@ -1181,16 +1334,6 @@
       "imageUse": "reference-only"
     },
     {
-      "id": "CAS-FOUR-GREAT-INVENTIONS",
-      "title": "中国四大发明和中国二十四大发明述评",
-      "institution": "中国科学院自然科学史研究所",
-      "url": "https://ihns.cas.cn/kxcb_/kxjd/202212/t20221206_6567193.html",
-      "type": "science-history-review",
-      "authorityLevel": "A",
-      "factUse": "造纸、印刷、火药、指南针四项重要技术的历史概括、长期发展和跨文化传播边界",
-      "imageUse": "reference-only"
-    },
-    {
       "id": "MOE-HISTORY-CURRICULUM-2022",
       "title": "义务教育历史课程标准（2022年版）",
       "institution": "中华人民共和国教育部",
@@ -1198,16 +1341,6 @@
       "type": "curriculum-standard",
       "authorityLevel": "A",
       "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
-      "imageUse": "reference-only"
-    },
-    {
-      "id": "JJ-ZENG-WUJING-HISTORY",
-      "institution": "晋江市人民政府",
-      "title": "曾公亮和《武经总要》",
-      "url": "https://www.jinjiang.gov.cn/yxjj/szjj/wssl/202406/t20240603_3043257.htm",
-      "type": "institution-history-reference",
-      "authorityLevel": "A",
-      "factUse": "1040至1044年编书、宋代军事著作与技术记录；不进入配方与制作细节",
       "imageUse": "reference-only"
     },
     {
@@ -1229,9 +1362,32 @@
       "authorityLevel": "A",
       "factUse": "916—1368年多政权并立到统一、经济重心南移、城市商业、科技文化和宋元海外贸易的总体脉络",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "BJWOMEN-LI-RUMENGLING",
+      "title": "如梦令：一帘幽梦，千种诗情",
+      "institution": "北京市妇联学习平台",
+      "url": "https://study.bjwomen.gov.cn/thought/knowledge/2022/05/20/3988.shtml",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "李清照《如梦令·常记溪亭日暮》的全文及追忆、回舟、入荷丛和惊起水鸟的叙事。",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "inventions-choice-scenes-v2",
+      "title": "火药用在哪里，古书留下什么？的情境选择分镜",
+      "localPath": "reference-assets/choice-art-refinement/inventions-choice-scenes-v2.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+      "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "study-5515633ad864a9ac",
       "title": "学习示意：宋代编的书，后来人继续保存",
@@ -1272,15 +1428,41 @@
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-cd944b07ad635b56",
-      "title": "学习示意：已经有人探索，也有人记下来",
-      "localPath": "reference-assets/focused-quests/study-cd944b07ad635b56.svg",
+      "id": "study-d08d6686e5b9d9e0",
+      "title": "学习示意：先弄清火药的用途",
+      "localPath": "reference-assets/focused-quests/study-d08d6686e5b9d9e0.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "已经有人探索，也有人记下来",
+      "caption": "先弄清火药的用途",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-4e9b52d9930ad933",
+      "title": "学习示意：燃烧作用、军事用途",
+      "localPath": "reference-assets/focused-quests/study-4e9b52d9930ad933.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "燃烧作用 → 军事用途",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-94d316b4f886f733",
+      "title": "学习示意：纤维、纸页",
+      "localPath": "reference-assets/focused-quests/study-94d316b4f886f733.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "纤维 → 纸页",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1337,15 +1519,41 @@
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-80373ba5b51bddb7",
-      "title": "学习示意：不同时间的人，把知识接下去",
-      "localPath": "reference-assets/focused-quests/study-80373ba5b51bddb7.svg",
+      "id": "study-4938d61f15cfbff2",
+      "title": "学习示意：把几项发明的用途分清楚",
+      "localPath": "reference-assets/focused-quests/study-4938d61f15cfbff2.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "不同时间的人，把知识接下去",
+      "caption": "把几项发明的用途分清楚",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-08848fde27cec73a",
+      "title": "学习示意：印版、书页",
+      "localPath": "reference-assets/focused-quests/study-08848fde27cec73a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "印版 → 书页",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-bddb3aed3afad454",
+      "title": "学习示意：火药、军事用途",
+      "localPath": "reference-assets/focused-quests/study-bddb3aed3afad454.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "火药 → 军事用途",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },

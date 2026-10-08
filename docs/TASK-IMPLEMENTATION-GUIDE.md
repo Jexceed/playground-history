@@ -12,19 +12,29 @@
 
 已确定的主页、角色、两项选择方式、家长折叠、预生成语音和本地交付不需要反复询问确认。遇到真正缺失的学习目标、来源、用户偏好或权限时，说明具体缺口并继续不依赖它的工作；不能把历史缺图当作编造材料的理由。
 
+扩充任务先对照全部目录，区分新章、已有研究的独立试玩扩展和隐藏旧稿升级，避免重复ID。2026-10-08原8候选及孔子、兵马俑共10章已实现；孔子沿用原ID，新增9个ID。当前完整112章/560步、可见44章/220步、11站；实施证据见[QA](qa/2026-10-08-china-expansion/README.md)。
+
+用户明确本轮只做中国。[经典、发明与中国古迹方案](design/CORE-TOPICS-2026-10-08.md)是实施记录；国外遗产旧研究已归档。`content/play-routes.json`只索引已开放chapterId，沿用现有弹窗、声音、五步与进度，不给主页增加第二排卡片。
+
 2026-09-15用户澄清：取消的是多端适配，当前指定屏幕尺寸仍需保证。用户给出宽高时按指定值；未给出时读取当前浏览器内容区域的实际宽高并记录，作为本轮唯一目标尺寸。可指定该尺寸复现布局问题，临时调整后恢复原状；不自动增加手机、平板、桌面尺寸矩阵，旧QA与旧线框图也不触发多端工作。
 
 ## 2. 文件优先级与修改入口
 
+首页出发通过当前preview范围生成全部历史站选择，不以stations[0]代替选站。历史站任务卡从focused-quests的coverAssetId与coverDisplay生成；coverDisplay明确身份短标、contain/cover和必要的登记裁取。selectFocusedCover拒绝自制图、编辑专用图或未清权材料，不能仅按文件后缀选图。保持presentation.sceneAssetId等故事配置独立，不能为换任务卡图而替换任务内故事。
+
+续玩放在app-header中，验证中途返回、刷新后继续与原stepId一致。地图和站点复用现有模态层与焦点管理；站内“所有历史站”返回地图，关闭回到原触发按钮。
+
+主页不再渲染第二组横向历史站和旅行插画旁说明。用可用视口高度分配标题、图像与动作，保留完整插画，不通过overflow:hidden裁掉按钮。验收读取scrollWidth/scrollHeight以及可见控件的完整边界，并试着滚动确认主页不位移；只检查当轮实际窗口。入口巡检先点击.primary-action再选择弹窗里的data-period-id，不能再从主页直接找年代按钮。
+
 - 根 `AGENTS.md`：当前产品原则与边界。
 - `docs/DESIGN-SPEC.md`：已经认可的设计基线；`BUILD-PLAN.md`、`TODO.md`：当前范围和剩余工作。
-- `content/focused-quests.json`：可见34章的题干、故事、反馈、两项选择、表现方式和结束动作。
+- `content/focused-quests.json`：可见44章的题干、故事、反馈、两项选择、表现方式和结束动作。
 - `content/chapters/*.md`：事实底稿、编辑背景、正式长声音原稿；修改事实后同步。
 - `content/sources.json` 与 `content/assets/*.json`：事实引用和素材身份、路径、许可。
 - `content/voice-interface-lines.json`、`content/voice-pronunciations.json`：公共声音参数和词语级校音。
 - `public/content/**`、`content/runtime/**`、`public/audio/voice-lines.json`、`public/audio/voice/manifest.json`：生成文件，不手工改。
 
-完整库103章和当前34章展示包分别保留；隐藏不等于删除或审核通过。先确认是否属于可见范围，不为了让新入口“出现”而绕过展示清单。
+完整库112章和当前44章展示包分别保留；隐藏不等于删除或审核通过。先确认是否属于可见范围，不为了让新入口“出现”而绕过展示清单。
 
 ## 3. 制作一章的最小闭环
 
@@ -52,7 +62,7 @@
 
 - 沿用历史站、故事卡、封面、五步、结束的入口与进度。禁止用章节ID硬编码第二套导航或完成状态。
 - 优先用现有 `presentation`、`narrative`、`interaction`、`objectView` 配置。新增玩法时同步扩展共享组件、类型、生成器与校验支持的类型列表。
-- 当前工坊 `objectView` 支持 `era / ruler-pair / ruler / weight / prop / scene-card / circle-model`。故事图卡从登记的插画中裁取操作人物，选中后主场景同步更换；裁取需标明原图尺寸与范围，不能混入不同风格的照片。真实照片从 `inspection` 显示，不再用 `objectView: evidence` 充当普通工具选项。
+- 当前工坊 `objectView` 支持 `era / ruler-pair / ruler / weight / prop / scene-card / scene-strip / circle-model`。故事图卡从登记的插画中裁取操作人物，选中后主场景同步更换；裁取需标明原图尺寸与范围，不能混入不同风格的照片。真实照片从 `inspection` 显示，不再用 `objectView: evidence` 充当普通工具选项。
 - `scene-find`的`hotspots`使用原图归一化坐标，`rounds`逐问登记目标、问题、对错回应与声音。热点与原图使用同一坐标层；裁切空白时不得让焦点滚动导致图片和热点跳位。中间一问答对不标整步完成，全部问完才调用共享完成机制。末轮完成只标当前目标为正确，不能把所有未选候选一起涂绿。
 - `inspection` 绑定实际素材、简短说明声音和出处链接；不能随手取 `evidence[0]` 给所有步骤作图。
 - 多角度照片写入章节`photoAlbum.photos`，逐张维护`assetId / period / observation / narration / sourceIds / sourceLinks`。`inspection.openAlbum`从当前材料进入同一相册，`focusAlbumPhoto`统一切换图、文、年代、声音与出处；不用相册增加必答步骤。先验看原图，避免大段文字标牌或大量空景挤掉要观察的对象。
@@ -84,7 +94,7 @@ git diff --check
 
 `npm test`本身包含打包和构建。`npm run typecheck:app`使用仓库内的tsconfig.app.json检查全部界面文件，避免依赖某位模型留在临时目录里的配置；它不声称完整Cloudflare运行环境类型已验收。最后一次源稿修改后确认运行包已经更新；检查通过后不要没有原因地重复全部流程。
 
-`npm run content:audit`检查全库103章/515步结构、图声路径与同组选项技术呈现一致性。它可以拦住混入照片入口、未知道具类型、SVG和位图混搭等问题，但不能判断两张位图是否画风一致、史料是否有力或孩子是否理解。视觉与内容复核仍要人工完成。
+`npm run content:audit`检查全库112章/560步结构、图声路径与同组选项技术呈现一致性。它可以拦住混入照片入口、未知道具类型、SVG和位图混搭等问题，但不能判断两张位图是否画风一致、史料是否有力或孩子是否理解。视觉与内容复核仍要人工完成。
 
 实际浏览器按修改范围至少检查：
 
@@ -165,16 +175,37 @@ git diff --check
 - 素材公开boundary和编辑notes分开。来源ID登记具体页码及采用范围；原刊本与后印本、原物与模型、原碑与复制品分别写。国图等扫描水印保留，不用生成工具补造文字。
 - 本轮author_*.py仅为制作记录，后续局部修改后的正式JSON才是最新源稿，禁止重跑旧作者脚本覆盖精修。
 
-当前目标尺寸1280×720，不追加多端要求。完整结构审计仍覆盖103章，实际新内容范围与逐章UI记录另列。
+当前目标尺寸1280×720，不追加多端要求。完整结构审计仍覆盖112章，实际新内容范围与逐章UI记录另列。
 
 ## 2026-09-22 · 内容对齐与整体复核
 
 1. 修改主线时同步`focused-quests.chapters[].entry`（object/place/culture），准备脚本将其投影到低龄入口；不要只改标题而留下旧书法、旧地图等资料介绍。
-2. `content/learning-map.json`须覆盖当前34章且无重复、自连或失效链接。明确glossaryTerms，不再从任意JSON子串为当前主线猜词义。`validateLearningMap`校验引用，`LearningGuide`只提供亲子观察参考，不写儿童测评成绩。
+2. `content/learning-map.json`须覆盖当前44章且无重复、自连或失效链接。明确glossaryTerms，不再从任意JSON子串为当前主线猜词义。`validateLearningMap`校验引用，`LearningGuide`只提供亲子观察参考，不写儿童测评成绩。
 3. 朝代站统一使用catalog.periods.learningContext；childIntro用于文字与语音，chronology区分时间节点，covered与scopeBoundary说明取样范围。`stationYears`是短展示，不得把课程边界说成王朝终点。
 4. 核对`stepVoiceIds`实际播放序列，特别是有“已经准备好”“还没听懂”“刚才印好”的情境，以及新词解释。不要以story里出现过为已可听。
 5. 家长与儿童共用WorkbenchChoiceArt、HistoryLabDiagram和usesChoiceCards；新增玩法同步审核展示。寻找步骤列出每轮，模型列出阶段；不要把circle-refine/slide-fit的内部判定选项当作孩子看到的图卡。
-6. Markdown的“事实卡”与“学习设计与史料阅读方法”分别解析。后者保留参考来源，但不计事实数；复杂记录由成人整理。全库103章仍参与结构验证，隐藏69章保持legacy-draft-not-in-preview状态。
+6. Markdown的“事实卡”与“学习设计与史料阅读方法”分别解析。后者保留参考来源，但不计事实数；复杂记录由成人整理。全库112章仍参与结构验证，隐藏68章保持legacy-draft-not-in-preview状态。
 7. 活跃材料的公开boundary不得出现提示词路径、像素或生产过程。notes和QA保留这些记录；修改boundary时同步相册里的重复说明，不重生成声音。
 
 本轮唯一窗口340×785，由用户当前浏览器读取；后续任务仍重新读取当时窗口，不将此尺寸设为所有任务的永久设备标准。
+
+
+## 2026-10-08扩充章的复用与检查
+
+- `ChinaHistoryDiagrams.tsx`与`history-lab-model.ts`共同定义桥水位、织布与宫灯阶段，所有必要阶段完成才出现下一步。桥上人车方向与桥下过水不要画成同一方向；孔洞、刻度、交叠等精确关系由代码表达。
+- `study-card`选择后仍用原图；`scene-card.imageLabel`由素材身份决定，照片不标故事插画。真图热点先核对完整原图，再按相同取景坐标登记；纵长图受当前可用高度约束，身份标签置于图外。
+- 普通题入场短引导必须自含线索和问题。找图与操作进入时讲完整必要情境；进入下一轮时声音对应当前问题。家长页显示实际播放文字。
+- 结束插画不要用内联`height:auto`覆盖共享高度限制。反馈后、下一次点击或自动滚动前检查主按钮；展开练习时按钮位置仍须保留。对控件自动滚动造成的检查失败，记录原因并在页面原点复核，不能直接略过。
+- 新增站与章节同时刷新家长范围、主题分类与文化线索；诗文全文、意译、出处应能在家长入口展开查看，不能只存在JSON。
+- 生成数字来自manifest与preview-scope；专题复用不增加章数。为继续记录做兼容测试，旧隐藏章完成记录仍保留。
+
+
+## 2026-10-08 · 情境选项的画面要求
+
+本轮反馈指出，通用图标串虽然能通过路径、媒体类型与判定检查，放大后仍缺少历史对象和故事感。后续不得把这类占位图直接当作叙事选择的完成版本。
+
+- 先逐题列“看见谁、什么物件、什么动作”，再选择已有画面或生成补图。同组保持同一表现类型和画风，错误项也需认真绘制，不能靠粗糙程度暗示答案。
+- 单幅用scene-card，顺序、并立或功能配对用scene-strip。strip包含2—3个已登记素材的crop与短caption，relation为sequence/together/pair；同题不能混用历史照片与生成画。顺序不同但对象相同的两项复用相同取景，不能另画一组使无关细节变成答案提示。
+- 选项与选中后大图使用同一渲染组件及取景。素材图册默认不整张显示；原图保留在reference-assets，裁取写入正式源稿。图册可明确登记runtimeMaxEdge（900—2400）避免整图缩至900后局部失真，生成器按此输出；普通图保持既有设置。
+- choiceArt: illustrated只作用于本组题的画面尺寸；保持首页、真实证据、题目台词与兼容进度。纯美术修订不重生成声音。
+- 在当前窗口实看每个裁取、错选和选中状态：表情和动作可辨，旁人面部不被截断，分镜顺序可辨，按钮仍在首屏。不得仅凭新素材文件存在就交付。

@@ -6,7 +6,7 @@ import {stepVoiceIds,usesChoiceCards} from '../app/step-flow.ts';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const map=read('content/learning-map.json'),focused=read('content/focused-quests.json'),sources=new Set(read('content/sources.json').sources.map(s=>s.id)),terms=new Set(read('content/child-language-glossary.json').terms.map(t=>t.term));
 test('learning coverage refuses missing, duplicate and self-linked chapters',()=>{
- assert.equal(validateLearningMap(map,focused,sources,terms),34);
+ assert.equal(validateLearningMap(map,focused,sources,terms),44);
  for(const mutate of [m=>m.chapters.pop(),m=>m.chapters[1]=m.chapters[0],m=>m.chapters[0].related[0].chapterId=m.chapters[0].id,m=>m.chapters[0].sourceIds=['UNKNOWN'],m=>m.chapters[0].glossaryTerms=['未登记词']]){
   const bad=structuredClone(map);mutate(bad);assert.throws(()=>validateLearningMap(bad,focused,sources,terms));
  }

@@ -1,0 +1,178 @@
+
+> chronicle-bureau-prototype@0.1.0 voice:update
+> npm run content:pack && npm run voice:generate
+
+
+> chronicle-bureau-prototype@0.1.0 content:pack
+> node scripts/prepare-focused-quests.mjs && node scripts/validate-content.mjs && node scripts/build-content-pack.mjs && node scripts/generate-content-thumbnails.mjs && node scripts/audit-gameplay-coherence.mjs
+
+逐题学习图：398 个；44章儿童入口与连续故事同步。
+内容校验通过：7 个课程板块，共 112 章。
+其中：中国史 76 章，世界史 30 章，跨学科 6 章。
+已有详稿 112 章，研究标记verified 103 章（不等于逐条终审），最终审核通过 0 章。
+事实卡 2655 条，另列学习方法 74 项；编辑屏幕 702 屏，语音稿 774 段，互动 357 个。
+低龄兴趣入口 112 章，均含实物入口与地点连接。
+儿童口语词典 95 词，112章均已匹配难词解释。
+配音读音表 202 项、年代读法 7 条，112章均有编辑校听入口。
+来源登记 1044 条，素材登记 970 条，其中已清权本地素材 967 条。
+本机研究素材缓存 965/965 个文件；发布包构建不强制携带原始研究缓存。
+内容包生成完成：7 个板块，112 章。
+章节缩略图生成完成：112 张；步骤图片 317 张。
+结构审计：完整库112章/560步；本轮44章/220步，220张选项图、63个阅读步骤、73个图中提问、88条结束动作。真实儿童审核仍待进行。
+
+> chronicle-bureau-prototype@0.1.0 voice:generate
+> node scripts/generate-voices.mjs
+
+需要生成 478/3461 段语音，并发数 8。
+已生成 25/478 段。
+已生成 50/478 段。
+已生成 75/478 段。
+已生成 100/478 段。
+已生成 125/478 段。
+已生成 150/478 段。
+已生成 175/478 段。
+已生成 200/478 段。
+已生成 225/478 段。
+已生成 250/478 段。
+已生成 275/478 段。
+已生成 300/478 段。
+Traceback (most recent call last):
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1316, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py", line 1159, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py", line 1192, in _create_connection_transport
+    await waiter
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/sslproto.py", line 581, in _on_handshake_complete
+    raise handshake_exc
+ConnectionResetError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/__main__.py", line 6, in <module>
+    main()
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/util.py", line 141, in main
+    asyncio.run(amain())
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/util.py", line 136, in amain
+    await _run_tts(args)
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/util.py", line 73, in _run_tts
+    async for chunk in communicate.stream():
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/communicate.py", line 588, in stream
+    async for message in self.__stream():
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/communicate.py", line 465, in __stream
+    ) as session, session.ws_connect(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/client.py", line 1683, in __aenter__
+    self._resp: _RetType_co = await self._coro
+                              ^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/client.py", line 1244, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/client.py", line 856, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/client.py", line 810, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/connector.py", line 657, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1242, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1620, in _create_direct_connection
+    raise last_exc
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1589, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1324, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host speech.platform.bing.com:443 ssl:<ssl.SSLContext object at 0x106fefc50> [None]
+已生成 325/478 段。
+已生成 350/478 段。
+已生成 375/478 段。
+Traceback (most recent call last):
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1316, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs, sock=sock)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py", line 1159, in create_connection
+    transport, protocol = await self._create_connection_transport(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py", line 1192, in _create_connection_transport
+    await waiter
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/sslproto.py", line 581, in _on_handshake_complete
+    raise handshake_exc
+ConnectionResetError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/__main__.py", line 6, in <module>
+    main()
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/util.py", line 141, in main
+    asyncio.run(amain())
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/util.py", line 136, in amain
+    await _run_tts(args)
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/util.py", line 73, in _run_tts
+    async for chunk in communicate.stream():
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/communicate.py", line 588, in stream
+    async for message in self.__stream():
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/edge_tts/communicate.py", line 465, in __stream
+    ) as session, session.ws_connect(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/client.py", line 1683, in __aenter__
+    self._resp: _RetType_co = await self._coro
+                              ^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/client.py", line 1244, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/client.py", line 856, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/client.py", line 810, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/connector.py", line 657, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1242, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1620, in _create_direct_connection
+    raise last_exc
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1589, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/chiang/Documents/Projects/playground/local-tts/.venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1324, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host speech.platform.bing.com:443 ssl:<ssl.SSLContext object at 0x10a947c50> [None]
+已生成 400/478 段。
+已生成 425/478 段。
+已生成 450/478 段。
+已生成 475/478 段。
+已生成 478/478 段。

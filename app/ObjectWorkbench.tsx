@@ -14,10 +14,11 @@ export { stepVoiceIds } from "./step-flow";
 
 type Voice = { id: string; text: string };
 type SceneCrop = { x:number; y:number; width:number; height:number; sourceWidth:number; sourceHeight:number };
-export type ObjectView = { kind: "era" | "ruler-pair" | "ruler" | "weight" | "prop" | "scene-card" | "circle-model" | "polity-panel" | "printing-panel"; windowIndex?:number; connected?:boolean; sides?:number; match?: boolean; name?: string; date?: string; stationImage?: string; marker?: "coin" | "calendar"; icon?: string; image?:string; imageAlt?:string; crop?:SceneCrop };
+type ScenePanel = {image:string;imageAlt:string;crop:SceneCrop;caption:string;cue?:"light"|"smoke"};
+export type ObjectView = { kind: "era" | "ruler-pair" | "ruler" | "weight" | "prop" | "scene-card" | "scene-strip" | "study-card" | "circle-model" | "polity-panel" | "printing-panel"; windowIndex?:number; connected?:boolean; sides?:number; match?: boolean; name?: string; date?: string; stationImage?: string; marker?: "coin" | "calendar"; icon?: string; image?:string; imageAlt?:string; imageLabel?:string; crop?:SceneCrop; panels?:ScenePanel[]; relation?:"sequence"|"together"|"pair" };
 export type SceneFindRound = { id:string; question:string; targetId:string; feedback:string; retry:string; nextLabel?:string; audio:{question:Voice;right:Voice;wrong:Voice} };
 export type SceneHotspot = { id:string; label:string; x:number; y:number; width:number; height:number };
-export type WorkbenchInteraction = { kind: "timeline" | "ruler-pairs" | "tool-pick" | "align-rulers" | "pick" | "slide-fit" | "look-listen" | "scene-find" | "circle-refine" | "history-lab"; lab?:HistoryLabConfig; refinements?:Array<{sides:number;narration:string;audio:Voice}>; hint: string; context?: string; scene?: string; copy?: string; ariaLabel?: string; continueLabel?: string; placement?: "panel"; modelLabel?: string; selectionFraming?: "detail"; imageLabel?: "实物照片" | "文物图像" | "故事插画"; imageCrop?:SceneCrop; sceneAspectRatio?:number; hotspots?:SceneHotspot[]; rounds?:SceneFindRound[] };
+export type WorkbenchInteraction = { kind: "timeline" | "ruler-pairs" | "tool-pick" | "align-rulers" | "pick" | "slide-fit" | "look-listen" | "scene-find" | "circle-refine" | "history-lab"; lab?:HistoryLabConfig; refinements?:Array<{sides:number;narration:string;audio:Voice}>; hint: string; context?: string; scene?: string; copy?: string; ariaLabel?: string; continueLabel?: string; placement?: "panel"; modelLabel?: string; selectionFraming?: "detail"; choiceArt?:"illustrated"; imageLabel?: "实物照片" | "文物图像" | "故事插画"; imageCrop?:SceneCrop; sceneAspectRatio?:number; hotspots?:SceneHotspot[]; rounds?:SceneFindRound[] };
 export type StoryScene = {
   scene:"artifact"|"timeline"|"workshop"|"reunion"|"detail"; caption:string; speaker:string;
   responseSpeaker:string; response:string; retry:string; nextLabel:string;
@@ -385,9 +386,19 @@ function SceneCardArt({view,label,detail=false}:{view:ObjectView;label:string;de
   const crop=view.crop;
   return <svg className={detail?'workbench-art selected-scene-detail':'scene-card-art'} viewBox={`${crop.x} ${crop.y} ${crop.width} ${crop.height}`} role="img" aria-label={label}><defs><clipPath id={cropId}><rect x={crop.x} y={crop.y} width={crop.width} height={crop.height}/></clipPath></defs><image href={view.image} width={crop.sourceWidth} height={crop.sourceHeight} clipPath={`url(#${cropId})`}/></svg>;
 }
+function SceneStripArt({view,label,detail=false}:{view:ObjectView;label:string;detail?:boolean}) {
+  const panels=view.panels??[];
+  return <div className={`scene-strip-art ${detail?'scene-strip-detail':''}`} role="img" aria-label={label} data-scene-relation={view.relation} style={{'--panel-count':panels.length} as CSSProperties}>
+    {panels.map((panel,i)=><div className="scene-strip-panel" key={`${i}-${panel.caption}`}>
+      <SceneCardArt view={{kind:'scene-card',image:panel.image,crop:panel.crop}} label={panel.imageAlt}/>
+      <span className="scene-strip-caption">{panel.cue&&<svg className="scene-strip-cue" viewBox="0 0 40 32" aria-hidden="true">{panel.cue==='light'?<><circle cx="20" cy="16" r="7" fill="#efb740"/><path d="M20 2v4m0 20v4M6 16H2m36 0h-4M7 4l4 4m18 16 4 4M7 28l4-4M29 8l4-4" stroke="#d29a24" strokeWidth="2.5" strokeLinecap="round"/></>:<path d="M12 29c-13-8 11-11 0-20M23 30c-13-10 11-13 0-25M33 26c-8-7 7-9 0-16" fill="none" stroke="#66827e" strokeWidth="3" strokeLinecap="round"/>}</svg>}{panel.caption}</span>
+      {i<panels.length-1&&view.relation!=='pair'&&<span className="scene-strip-join" aria-hidden="true">{view.relation==='together'?'同时':'→'}</span>}
+    </div>)}
+  </div>;
+}
 function EraMarker({view}:{view:ObjectView}) {
   if(!view.marker)return view.stationImage?<Image src={view.stationImage} alt="" width={105} height={110} unoptimized/>:null;
-  return <svg className="era-marker" viewBox="0 0 100 100" role="img" aria-label={view.marker==='coin'?'圆形方孔钱币学习符号':'年号的日历学习符号'}>
+  return <svg className="era-marker" viewBox="0 0 100 100" role="img" aria-label={view.marker==='coin'?'圆形方孔钱币学习符号':'时间的日历学习符号'}>
     <rect x="3" y="3" width="94" height="94" rx="22" fill="#f3e8ca"/>
     {view.marker==='coin'?<><path d="M50 13a37 37 0 1 1 0 74 37 37 0 1 1 0-74ZM39 39v22h22V39Z" fill="#c9a756" fillRule="evenodd" stroke="#806735" strokeWidth="3"/><circle cx="50" cy="50" r="31" fill="none" stroke="#e7cf85" strokeWidth="2"/></>:<><rect x="15" y="23" width="70" height="61" rx="7" fill="#fff9e8" stroke="#816f4b" strokeWidth="3"/><path d="M18 38H82V26H18Z" fill="#c4674f"/><path d="M31 16V30M69 16V30" stroke="#596f62" strokeWidth="6" strokeLinecap="round"/><path d="M27 51H73M27 65H73M42 45V77M58 45V77" stroke="#b9ad8f" strokeWidth="2"/></>}
   </svg>;
@@ -399,11 +410,13 @@ export function WorkbenchChoiceArt({ option }: { option: Pick<Option,"label"|"ob
   if(view?.kind==='printing-panel')return <PrintingDiagram connected={view.connected}/>;
   if(view?.kind==='circle-model')return <CircleDiagram sides={view.sides??6} label={option.label} className="circle-option"/>;
   if(view?.kind==='scene-card')return <SceneCardArt view={view} label={option.label}/>;
+  if(view?.kind==='scene-strip')return <SceneStripArt view={view} label={option.label}/>;
+  if(view?.kind==='study-card'&&view.image)return <Image className="scene-card-art" src={view.image} alt={option.label} width={420} height={242} unoptimized/>;
   if(view?.kind==='ruler-pair')return <RulerPair match={Boolean(view.match)}/>;
   if(view?.kind==='ruler')return <div className="tool-illustration ruler-tool"><WoodenRuler/></div>;
   if(view?.kind==='weight')return <div className="tool-illustration"><LearningWeight/></div>;
   if(view?.kind==='prop')return <div className="tool-illustration prop-tool"><PropArt icon={view.icon??''} label={option.label}/></div>;
-  if(view?.kind==='era')return <div className={`era-object ${(view.name?.length??0)>4?'era-name-long':''}`}><EraMarker view={view}/><strong>{view.name}</strong><span>{view.date}</span></div>;
+  if(view?.kind==='era')return <div className={`era-object ${(view.name?.length??0)>4?'era-name-long':''}`}><EraMarker view={view}/><strong>{view.name}</strong><span className="era-date">{view.date?.includes("—")?view.date.split("—").map((part,i,all)=><span className="era-date-part" key={`${i}:${part}`}>{part}{i<all.length-1?"—":""}</span>):view.date}</span></div>;
   return null;
 }
 export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,solved,isLast,speak,listen,onSolved,onNext,onInspect,onNarrationChange}:Props){
@@ -415,7 +428,7 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
   const geometryChoice=kind==='pick'&&options.some(option=>option.objectView?.kind==='circle-model');
   const circleRefine=kind==='circle-refine',historyLab=kind==='history-lab';
   const runLab=(stage:LabStage,complete:boolean)=>{setRefineVoice(stage.audio);if(complete)onSolved();onNarrationChange?.([stage.audio.id]);void speak([stage.audio.id]);};
-  const sceneChoice=kind==='pick'&&options.some(option=>['scene-card','circle-model','polity-panel','printing-panel'].includes(option.objectView?.kind??''));
+  const sceneChoice=kind==='pick'&&options.some(option=>['scene-card','scene-strip','study-card','circle-model','polity-panel','printing-panel'].includes(option.objectView?.kind??''));
   const refineCircle=(sides:number)=>{const stage=step.interaction?.refinements?.find(r=>r.sides===sides);if(!stage)return;setRefineVoice(stage.audio);if(sides===24)onSolved();onNarrationChange?.([stage.audio.id]);void speak([stage.audio.id]);};
   const chooseSpot=(id:string)=>{
     if(!round||solved||sceneResult?.correct)return;
@@ -438,13 +451,16 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
   const episode=step.narrative,trip=presentation.story;
   const lookListen=kind==='look-listen';
   const chosenScene=sceneChoice&&picked?.objectView?.kind==='scene-card'?picked.objectView:null;
+  const chosenStudy=sceneChoice&&picked?.objectView?.kind==='study-card'?picked.objectView:null;
+  const chosenStrip=sceneChoice&&picked?.objectView?.kind==='scene-strip'?picked.objectView:null;
+  const stripChoice=sceneChoice&&options.some(option=>option.objectView?.kind==='scene-strip');
   const sceneImage=chosenScene?.image??(episode?.scene==='detail'?step.image:trip&&episode?.scene==='reunion'?trip.reunionImage:presentation.sceneImage);
   const sceneAlt=chosenScene?.imageAlt??(episode?.scene==='detail'?step.imageAlt:trip&&episode?.scene==='reunion'?trip.reunionAlt:presentation.sceneAlt);
   const bubbleVoices=(circleRefine||historyLab)&&refineVoice?[refineVoice.id]:sceneFind&&round?[sceneResult?(sceneResult.correct?round.audio.right.id:round.audio.wrong.id):round.audio.question.id]:episode&&solved?[step.audio.right.id]:episode&&tried&&!lookListen?[step.audio.wrong.id]:sequence;
   const spokenQuestion=sceneFind&&round?(sceneResult?(sceneResult.correct?round.feedback:round.retry):round.question):lookListen?step.title:episode?(solved?episode.response:tried?episode.retry:step.prompt):step.prompt;
-  return <section style={{"--story-aspect":step.interaction?.sceneAspectRatio??presentation.sceneAspectRatio} as CSSProperties} className={`object-quest ${episode?"trip-episode":""} ${sceneChoice?'scene-choice':''}`} data-scene-framing={presentation.sceneFraming} data-story-scene={episode?.scene} data-step-id={step.id} data-interaction-kind={kind} data-image-label={step.interaction?.imageLabel} data-voice-id={sequence.join(',')} data-round-id={sceneFind?round?.id:undefined} data-question-voice-id={sceneFind?round?.audio.question.id:undefined}>
+  return <section style={{"--story-aspect":step.interaction?.sceneAspectRatio??presentation.sceneAspectRatio} as CSSProperties} className={`object-quest ${episode?"trip-episode":""} ${sceneChoice?'scene-choice':''} ${stripChoice?'scene-strip-choice':''}`} data-choice-art={step.interaction?.choiceArt} data-scene-framing={presentation.sceneFraming} data-story-scene={episode?.scene} data-step-id={step.id} data-interaction-kind={kind} data-image-label={step.interaction?.imageLabel} data-voice-id={sequence.join(',')} data-round-id={sceneFind?round?.id:undefined} data-question-voice-id={sceneFind?round?.audio.question.id:undefined}>
     <div className="workbench-scene-column">
-      {historyLab&&step.interaction?.lab?<HistoryLab config={step.interaction.lab} locked={solved} onStage={runLab}/>:circleRefine?<CircleStudy locked={solved} onRefine={refineCircle}/>:sceneChoice&&picked?.objectView?.kind==='polity-panel'?<div className="workbench-scene"><PolityDiagram index={picked.objectView.windowIndex??0}/></div>:sceneChoice&&picked?.objectView?.kind==='printing-panel'?<div className="workbench-scene"><PrintingDiagram connected={picked.objectView.connected}/></div>:geometryChoice&&picked?.objectView?.kind==='circle-model'?<div className="workbench-scene"><CircleDiagram sides={picked.objectView.sides??6} label={picked.label} className="geometry-selection"/><span className="story-art-label">数学学习图</span></div>:(kind==='timeline'||lookListen)&&step.inspection&&step.inspection.placement!=='supporting'?<div className="quest-artifact-intro">
+      {chosenStrip?<div className="workbench-scene scene-strip-stage"><SceneStripArt view={chosenStrip} label={picked?.label??"故事分镜"} detail/><span className="story-art-label">{chosenStrip.imageLabel}</span></div>:chosenStudy?.image?<div className="workbench-scene"><Image className="workbench-art selected-scene-detail" src={chosenStudy.image} alt={picked?.label??'学习图'} width={600} height={346} unoptimized/><span className="story-art-label">学习示意</span></div>:historyLab&&step.interaction?.lab?<HistoryLab config={step.interaction.lab} locked={solved} onStage={runLab}/>:circleRefine?<CircleStudy locked={solved} onRefine={refineCircle}/>:sceneChoice&&picked?.objectView?.kind==='polity-panel'?<div className="workbench-scene"><PolityDiagram index={picked.objectView.windowIndex??0}/></div>:sceneChoice&&picked?.objectView?.kind==='printing-panel'?<div className="workbench-scene"><PrintingDiagram connected={picked.objectView.connected}/></div>:geometryChoice&&picked?.objectView?.kind==='circle-model'?<div className="workbench-scene"><CircleDiagram sides={picked.objectView.sides??6} label={picked.label} className="geometry-selection"/><span className="story-art-label">数学学习图</span></div>:(kind==='timeline'||lookListen)&&step.inspection&&step.inspection.placement!=='supporting'?<div className="quest-artifact-intro">
         <button className="quest-artifact-picture" data-image-framing={step.inspection.framing} onClick={onInspect} aria-label={step.inspection.label}><Image src={step.inspection.image} alt={step.inspection.title} width={1200} height={700} loading="eager" style={step.inspection.displayHeight?{height:step.inspection.displayHeight}:undefined} unoptimized/><span>{step.inspection.caption}</span></button>
         <h2>{step.inspection.title}</h2>
         {step.inspection.openAlbum&&photoAlbum&&<PhotoAlbumButton album={photoAlbum} onOpen={onInspect}/>}
@@ -456,7 +472,7 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
         {chosenScene&&step.interaction?.selectionFraming==='detail'?<SceneCardArt view={chosenScene} label={picked?.label??sceneAlt} detail/>:step.interaction?.imageCrop?<SceneCardArt view={{kind:'scene-card',image:sceneImage,crop:step.interaction.imageCrop}} label={sceneAlt} detail/>:<Image className="workbench-art" src={sceneImage} alt={sceneAlt} width={1536} height={1024} loading="eager" unoptimized/>}
         {sceneFind&&<div className="scene-find-hotspots" role="group" aria-label={step.interaction?.ariaLabel??"点图里的线索回答问题"}>{step.interaction?.hotspots?.map(spot=>{const state=sceneResult?.id===spot.id?(sceneResult.correct?'right':'retry'):'';return <button key={spot.id} className={`scene-find-target ${state}`} style={{left:`${spot.x*100}%`,top:`${spot.y*100}%`,width:`${spot.width*100}%`,height:`${spot.height*100}%`}} aria-label={`选择${spot.label}`} data-hotspot-id={spot.id} aria-pressed={sceneResult?.id===spot.id} disabled={solved||sceneResult?.correct} onClick={()=>chooseSpot(spot.id)}>{state&&<span><b aria-hidden="true">{state==='right'?'✓':'×'}</b>{state==='right'?'找到了':'再试试'}</span>}</button>;})}</div>}
         </div>
-        {!sceneFind&&<span className="story-art-label">{step.interaction?.imageLabel??"故事插画"}</span>}
+        {!sceneFind&&<span className="story-art-label">{chosenScene?.imageLabel??step.interaction?.imageLabel??"故事插画"}</span>}
         <div className={`bench-toys toys-${kind}`} aria-live="polite">
           {kind==='ruler-pairs'&&<RulerPair match={Boolean(picked?.correct)} cloth/>}
           {kind==='tool-pick'&&<div className="bench-tool-demo"><Cloth marks={solved}/>{picked?.objectView?.kind==='weight'?<div className="bench-weight"><LearningWeight/></div>:<div className={solved?'tool-landed':'tool-waiting'}><WoodenRuler/></div>}</div>}

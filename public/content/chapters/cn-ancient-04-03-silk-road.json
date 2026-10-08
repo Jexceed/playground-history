@@ -9,12 +9,14 @@
     "label": "汉朝",
     "years": "前202—公元220年",
     "learningContext": {
-      "childIntro": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。",
+      "childIntro": "到汉朝看五铢钱、丝路、纸和一盏灯，再听司马迁怎样把过去写下来。",
       "chronology": "前202年西汉建立；汉代范围包含西汉、东汉以及中间政局变化，不能画成连续不变的一段统治。",
-      "covered": "五铢钱管理、张骞使命和见闻、造纸改进。",
-      "scopeBoundary": "恢复生产、文景时期、汉武帝的其他政策与东汉末年属于背景研究，儿童主线只取三个具体问题。",
+      "covered": "五铢钱管理、张骞使命和见闻、造纸改进、长信宫灯功能与史书流传。",
+      "scopeBoundary": "恢复生产、文景时期、汉武帝的其他政策与东汉末年属于背景研究；五个具体问题不代表完整汉史。",
       "sourceIds": [
-        "NMC-QIN-HAN-OVERVIEW"
+        "NMC-QIN-HAN-OVERVIEW",
+        "DPM-CHANGXIN-LAMP",
+        "NLC-SHIJI-EDITIONS"
       ],
       "sources": [
         {
@@ -22,6 +24,18 @@
           "title": "“古代中国”基本陈列：秦汉时期",
           "institution": "中国国家博物馆",
           "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+        },
+        {
+          "id": "DPM-CHANGXIN-LAMP",
+          "title": "长信宫灯展品条目",
+          "institution": "故宫博物院展览资料",
+          "url": "https://ggzl.dpm.org.cn/pages/exhibit_works/details?id=10933"
+        },
+        {
+          "id": "NLC-SHIJI-EDITIONS",
+          "title": "《史记》及三家注的流传",
+          "institution": "国家图书馆/国家古籍保护中心",
+          "url": "https://www.nlc.cn/pcab/zx/xw/20200708_192637.shtml"
         }
       ]
     }
@@ -43,7 +57,8 @@
     "place": "汉代西域往来；后来河西驿站与玉门关",
     "culture": "张骞出使记载与后来丝路联系",
     "care": "小伙伴、驿站人物和回信情境为教学虚构，不是张骞本人行程实录。第一次出使在前138年；玉门关属于其后设立的关防，不能让张骞首次出使途经此关。悬泉置材料用于认识后来的驿站制度，不指定张骞在那里休息。封检不是粮食或马匹总账，更不是张骞日记；不能逐件臆造收发人。驿站按制度接待公务人员、使者等，不等于每个商人均免费入住。图中的木简、马匹和服饰是故事示意，不是具体遗址复原。",
-    "playableSource": "content/focused-quests.json"
+    "playableSource": "content/focused-quests.json",
+    "preferredAssetId": "qin-han-yumen-pass"
   },
   "learningGuide": {
     "id": "cn-ancient-04-03-silk-road",
@@ -379,10 +394,10 @@
         "closingLine": "张骞带回见闻，后来人们继续往来。",
         "fictionNote": "张骞是历史人物；小伙伴、驿站角色及回信情境为教学虚构。玉门关和驿站说明与首次出使分开。",
         "reunionImage": "/content/step-images/silk-post-friends-reunion-v1.jpg",
-        "stationLine": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。",
+        "stationLine": "到汉朝看五铢钱、丝路、纸和一盏灯，再听司马迁怎样把过去写下来。",
         "stationAudio": {
-          "id": "quest-6bd16741428ab81d",
-          "text": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。"
+          "id": "quest-81515921d0740029",
+          "text": "到汉朝看五铢钱、丝路、纸和一盏灯，再听司马迁怎样把过去写下来。"
         },
         "closingAudio": {
           "id": "quest-fe9069d63c339d36",
@@ -463,6 +478,11 @@
     "coverImage": "/content/step-images/qin-han-yumen-pass.jpg",
     "coverImageAlt": "玉门关遗址现状照片",
     "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "汉代玉门关遗址今景",
+      "fit": "cover",
+      "position": "center 75%"
+    },
     "coverAudio": {
       "id": "quest-34e23e6fdae90081",
       "text": "张骞出使西域，带回了远方见闻。小小旅行团想知道：人和消息怎样继续来往？一起找找线索。"
@@ -826,7 +846,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/silk-post-messages-v2.jpg",
-              "imageAlt": "把见闻记下来"
+              "imageAlt": "把见闻记下来",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-af2df925feaee786.svg",
             "imageAlt": "把见闻记下来",
@@ -851,7 +872,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/silk-post-story-v1.jpg",
-              "imageAlt": "把水粮备齐"
+              "imageAlt": "把水粮备齐",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-021680b32538007d.svg",
             "imageAlt": "把水粮备齐",
@@ -1132,7 +1154,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/silk-post-messages-v2.jpg",
-              "imageAlt": "请整理文书的人"
+              "imageAlt": "请整理文书的人",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-6a4df6ced813cc0c.svg",
             "imageAlt": "请整理文书的人",
@@ -1157,7 +1180,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/silk-post-messages-v2.jpg",
-              "imageAlt": "请备食物的人"
+              "imageAlt": "请备食物的人",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-d44a9257a7e0e147.svg",
             "imageAlt": "请备食物的人",
@@ -1547,6 +1571,26 @@
       "type": "museum-permanent-exhibition",
       "authorityLevel": "A",
       "factUse": "秦汉时间线、统一制度、汉代治理、科技文化、对外交往和秦亡汉兴的总体脉络",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "DPM-CHANGXIN-LAMP",
+      "title": "长信宫灯展品条目",
+      "institution": "故宫博物院展览资料",
+      "url": "https://ggzl.dpm.org.cn/pages/exhibit_works/details?id=10933",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "河北博物院藏西汉长信宫灯、满城汉墓出土、袖管导烟；不声称完全无烟。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NLC-SHIJI-EDITIONS",
+      "title": "《史记》及三家注的流传",
+      "institution": "国家图书馆/国家古籍保护中心",
+      "url": "https://www.nlc.cn/pcab/zx/xw/20200708_192637.shtml",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "司马迁、西汉、《史记》纪传体与后世注释刊印；古书不等于亲笔。",
       "imageUse": "reference-only"
     }
   ],

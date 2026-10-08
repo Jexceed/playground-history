@@ -1,0 +1,1496 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.13.0",
+  "id": "cn-ancient-04-07-sima-qian-shiji",
+  "trackId": "china-ancient",
+  "trackLabel": "中国古代史",
+  "period": {
+    "id": "han",
+    "label": "汉朝",
+    "years": "前202—公元220年",
+    "learningContext": {
+      "childIntro": "到汉朝看五铢钱、丝路、纸和一盏灯，再听司马迁怎样把过去写下来。",
+      "chronology": "前202年西汉建立；汉代范围包含西汉、东汉以及中间政局变化，不能画成连续不变的一段统治。",
+      "covered": "五铢钱管理、张骞使命和见闻、造纸改进、长信宫灯功能与史书流传。",
+      "scopeBoundary": "恢复生产、文景时期、汉武帝的其他政策与东汉末年属于背景研究；五个具体问题不代表完整汉史。",
+      "sourceIds": [
+        "NMC-QIN-HAN-OVERVIEW",
+        "DPM-CHANGXIN-LAMP",
+        "NLC-SHIJI-EDITIONS"
+      ],
+      "sources": [
+        {
+          "id": "NMC-QIN-HAN-OVERVIEW",
+          "title": "“古代中国”基本陈列：秦汉时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+        },
+        {
+          "id": "DPM-CHANGXIN-LAMP",
+          "title": "长信宫灯展品条目",
+          "institution": "故宫博物院展览资料",
+          "url": "https://ggzl.dpm.org.cn/pages/exhibit_works/details?id=10933"
+        },
+        {
+          "id": "NLC-SHIJI-EDITIONS",
+          "title": "《史记》及三家注的流传",
+          "institution": "国家图书馆/国家古籍保护中心",
+          "url": "https://www.nlc.cn/pcab/zx/xw/20200708_192637.shtml"
+        }
+      ]
+    }
+  },
+  "order": 50,
+  "title": "司马迁怎样把过去的事留下来？",
+  "coreQuestion": "孔子、秦始皇生活在不同的时代。汉代司马迁把过去的人和事写进《史记》，后来人怎样找到这些故事？",
+  "throughline": "司马迁在西汉编写《史记》，记述过去的人和事。后人注释、抄写和刊印，让历史记录传下来；书里的人不都与作者同时。",
+  "childEntry": {
+    "id": "cn-ancient-04-07-sima-qian-shiji",
+    "childTitle": "司马迁怎样把过去的事留下来？",
+    "prompt": "孔子、秦始皇生活在不同的时代。汉代司马迁把过去的人和事写进《史记》，后来人怎样找到这些故事？",
+    "takeaway": "司马迁在西汉编写《史记》，记述过去的人和事。后人注释、抄写和刊印，让历史记录传下来；书里的人不都与作者同时。",
+    "object": "明刊《史记》· 后世书影",
+    "people": [
+      "司马迁",
+      "《史记》"
+    ],
+    "place": "西汉与后世的书坊、图书馆",
+    "culture": "司马迁与《史记》",
+    "care": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+    "preferredAssetId": "shiji-ming-edition",
+    "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-04-07-sima-qian-shiji",
+    "theme": "材料与时间",
+    "learningGoal": "区分记录者与被记录的人，理解史书怎样保存过去。",
+    "parentQuestion": "孔子与写史记的司马迁是同一时代吗？书怎样传到今天？",
+    "observe": "能分开被记录的人与写书的人，并知道现存刊本可能晚于作者。",
+    "misconception": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+    "evidenceStepIds": [
+      "time",
+      "journey",
+      "change",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "NLC-SHIJI-EDITIONS",
+      "SCIO-SIMA-QIAN-SHIJI",
+      "EDB-ANALECTS-FOUR"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-03-03-hundred-schools",
+        "relation": "比较两章的材料与用途，留意人物、年代和任务不同。"
+      }
+    ],
+    "reviewStatus": "authored-implementation-family-test-pending",
+    "glossaryTerms": [
+      "证据",
+      "文化"
+    ]
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-04-07-sima-qian-shiji",
+    "featured": {
+      "type": "人物与材料",
+      "icon": "📖",
+      "title": "司马迁与《史记》",
+      "childBridge": "孔子、秦始皇生活在不同的时代。汉代司马迁把过去的人和事写进《史记》，后来人怎样找到这些故事？",
+      "evidenceBoundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。"
+    },
+    "companions": [
+      {
+        "type": "地点",
+        "label": "西汉与后世的书坊、图书馆",
+        "note": "地点与时代分别核对。"
+      },
+      {
+        "type": "材料",
+        "label": "明刊《史记》· 后世书影",
+        "note": "实物或书影用于观察，文献用于解释。"
+      }
+    ],
+    "sourceIds": [
+      "NLC-SHIJI-EDITIONS",
+      "SCIO-SIMA-QIAN-SHIJI",
+      "EDB-ANALECTS-FOUR",
+      "MOE-HISTORY-CURRICULUM-2022"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "先找到写书的人所在的时代",
+      "text": "司马迁在西汉编写《史记》。眼前是很久以后刊印的书页，里面还保留后人的注释，不是司马迁亲笔。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "一本史书里住着不同时代的人",
+      "text": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "想查谁，就先找对人物",
+      "text": "桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "书里的人与写书的人分开",
+      "text": "孔子比司马迁早。司马迁研究前人的材料和故事，再编写历史。先后关系需要保留，不能让书里的人都变成同龄伙伴。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "后人继续让记录传下来",
+      "text": "司马迁留下著作，后人注释、抄写、刻印。今天读到的书，可以保存很早的内容，却是后来制作的实物。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "证据",
+      "icon": "🔎",
+      "plain": "能帮助我们判断过去发生过什么的线索。",
+      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "priority": 1
+    },
+    {
+      "term": "文化",
+      "icon": "🎨",
+      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
+      "example": "文化会交流变化，不能排成谁高谁低。",
+      "priority": 2
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "司马迁",
+      "reading": "Sīmǎ Qiān",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-04-04-han-knowledge",
+        "cn-ancient-04-07-sima-qian-shiji"
+      ],
+      "note": "复姓“司马”连读。"
+    },
+    {
+      "text": "论语",
+      "reading": "Lún yǔ",
+      "kind": "title",
+      "chapterIds": [
+        "cn-ancient-03-03-hundred-schools",
+        "cn-ancient-04-07-sima-qian-shiji"
+      ],
+      "note": "本轮新增中国历史任务的校听项；自动匹配不替代人工试听。",
+      "synthesisText": "伦语"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "司马迁怎样把过去的事留下来？",
+      "question": "孔子、秦始皇生活在不同的时代。汉代司马迁把过去的人和事写进《史记》，后来人怎样找到这些故事？"
+    },
+    "cta": "为过去的人找记录",
+    "anchor": "司马迁与《史记》",
+    "boundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+    "evidence": [
+      {
+        "id": "shiji-ming-edition",
+        "title": "明刊《史记》· 后世书影",
+        "localPath": "reference-assets/china-expansion/shiji-ming-edition.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:NCL-01308_01_%E5%8F%B2%E8%A8%98.pdf",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "Public domain",
+        "clearance": "cleared-public-domain",
+        "caption": "明刊《史记》· 后世书影",
+        "boundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/shiji-ming-edition.jpg"
+      }
+    ],
+    "photoAlbum": null,
+    "coverAsset": {
+      "id": "shiji-ming-edition",
+      "title": "明刊《史记》· 后世书影",
+      "localPath": "reference-assets/china-expansion/shiji-ming-edition.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NCL-01308_01_%E5%8F%B2%E8%A8%98.pdf",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public domain",
+      "clearance": "cleared-public-domain",
+      "caption": "明刊《史记》· 后世书影",
+      "boundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/shiji-ming-edition.jpg"
+    },
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "han-shiji-reading-v1",
+      "sceneAlt": "司马迁怎样把过去的事留下来？的现代教学故事插画",
+      "title": "司马迁怎样把过去的事留下来？",
+      "evidenceTitle": "明刊《史记》· 后世书影",
+      "evidenceLine": "真材料的年代和身份可以在大图里查看。",
+      "evidenceNarration": "这是后世刊本中的史记索隐序，序文来自后人的整理与注释，不是司马迁原稿。",
+      "guide": "听清故事，点图或动手找线索。",
+      "alignHint": "",
+      "familyHint": "回看图里的发现，再和家人做一次。",
+      "familyLabel": "和家人再试一次",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "带着发现回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "han-shiji-reading-v1",
+        "reunionAlt": "三位小伙伴回看司马迁怎样把过去的事留下来？的线索，现代教学插画",
+        "reunionAspectRatio": 1.5,
+        "reunionFit": "contain",
+        "coverCaption": "司马迁怎样把过去的事留下来？",
+        "coverNarration": "孔子、秦始皇生活在不同的时代。汉代司马迁把过去的人和事写进《史记》，后来人怎样找到这些故事？",
+        "closingCaption": "我们带回了一个发现",
+        "closingLine": "写下过去，后人接着传。",
+        "closingNarration": "司马迁在西汉编写《史记》，记述过去的人和事。后人注释、抄写和刊印，让历史记录传下来；书里的人不都与作者同时。",
+        "fictionNote": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+        "reunionImage": "/content/step-images/han-shiji-reading-v1.jpg",
+        "stationLine": "到汉朝看五铢钱、丝路、纸和一盏灯，再听司马迁怎样把过去写下来。",
+        "stationAudio": {
+          "id": "quest-81515921d0740029",
+          "text": "到汉朝看五铢钱、丝路、纸和一盏灯，再听司马迁怎样把过去写下来。"
+        },
+        "closingAudio": {
+          "id": "quest-4127edd0bc5129db",
+          "text": "司马迁在西汉编写《史记》，记述过去的人和事。后人注释、抄写和刊印，让历史记录传下来；书里的人不都与作者同时。"
+        }
+      },
+      "sceneImage": "/content/step-images/han-shiji-reading-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-f97a96aaba0e3809",
+        "text": "这是后世刊本中的史记索隐序，序文来自后人的整理与注释，不是司马迁原稿。"
+      },
+      "guideAudio": {
+        "id": "quest-c1f444d9c3635141",
+        "text": "听清故事，点图或动手找线索。"
+      }
+    },
+    "sceneAsset": {
+      "id": "han-shiji-reading-v1",
+      "title": "司马迁怎样把过去的事留下来？的故事插画",
+      "localPath": "reference-assets/china-expansion/han-shiji-reading-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/han-shiji-reading-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "han-shiji-reading-v1",
+        "title": "司马迁怎样把过去的事留下来？的故事插画",
+        "localPath": "reference-assets/china-expansion/han-shiji-reading-v1.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md",
+        "license": "项目自制；按OpenAI使用条款持有输出使用权",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史现场或文物照片。",
+        "boundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/han-shiji-reading-v1.jpg"
+      },
+      {
+        "id": "shiji-choice-scenes-v2",
+        "title": "司马迁怎样把过去的事留下来？的情境选择分镜",
+        "localPath": "reference-assets/choice-art-refinement/shiji-choice-scenes-v2.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+        "license": "项目自制；按OpenAI使用条款持有输出使用权",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+        "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/shiji-choice-scenes-v2.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/shiji-ming-edition.jpg",
+    "coverImageAlt": "明刊《史记》· 后世书影",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "明刊《史记》· 后世书影",
+      "fit": "contain"
+    },
+    "coverAudio": {
+      "id": "quest-9ae0720839b2b25a",
+      "text": "孔子、秦始皇生活在不同的时代。汉代司马迁把过去的人和事写进《史记》，后来人怎样找到这些故事？"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-4127edd0bc5129db",
+      "text": "司马迁在西汉编写《史记》，记述过去的人和事。后人注释、抄写和刊印，让历史记录传下来；书里的人不都与作者同时。"
+    },
+    "finish": {
+      "title": "过去的事，留下来了！",
+      "actions": [
+        "家长说孔子、秦始皇、司马迁，孩子用前后位置表示时代。",
+        "找一本家里的书，区分作者是谁与这一本何时出版。"
+      ],
+      "parent": "孔子与写史记的司马迁是同一时代吗？书怎样传到今天？ 能分开被记录的人与写书的人，并知道现存刊本可能晚于作者。 明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+      "sceneStepIndexes": [
+        2,
+        4
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-899b373a43851fe9",
+          "text": "家长说孔子、秦始皇、司马迁，孩子用前后位置表示时代。"
+        },
+        {
+          "id": "quest-478f116766ec9ee5",
+          "text": "找一本家里的书，区分作者是谁与这一本何时出版。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-4127edd0bc5129db",
+        "text": "司马迁在西汉编写《史记》，记述过去的人和事。后人注释、抄写和刊印，让历史记录传下来；书里的人不都与作者同时。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "先找到写书的人所在的时代",
+        "title": "先找到写书的人所在的时代",
+        "prompt": "司马迁编写史记，在哪一朝？",
+        "rightNote": "在汉朝，司马迁整理过去的人和事。",
+        "wrongNote": "明代是眼前刊本的年代，作者在更早的汉朝。",
+        "sourceIds": [
+          "NLC-SHIJI-EDITIONS",
+          "SCIO-SIMA-QIAN-SHIJI",
+          "EDB-ANALECTS-FOUR"
+        ],
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听清故事，再看看眼前的线索。"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "先找到写书的人所在的时代",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "在汉朝，司马迁整理过去的人和事。",
+          "retry": "明代是眼前刊本的年代，作者在更早的汉朝。",
+          "nextLabel": "一本史书里住着不同时代的人"
+        },
+        "concepts": null,
+        "inspection": {
+          "id": "shiji-ming-edition",
+          "title": "明刊《史记》书影",
+          "localPath": "reference-assets/china-expansion/shiji-ming-edition.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:NCL-01308_01_%E5%8F%B2%E8%A8%98.pdf",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "Public domain",
+          "clearance": "cleared-public-domain",
+          "caption": "西汉著作 · 明刊本卷前书页",
+          "boundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。 明刊《史记》· 后世书影",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/shiji-ming-edition.jpg",
+          "label": "看大图，听材料说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 290,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "《史记》及三家注的流传",
+              "url": "https://www.nlc.cn/pcab/zx/xw/20200708_192637.shtml"
+            },
+            {
+              "title": "Sima Qian and Records of the Grand Historian",
+              "url": "https://english.scio.gov.cn/m/featured/chinakeywords/2024-08/30/content_117397336.htm"
+            },
+            {
+              "title": "《论语四则》选篇分析，1—2页",
+              "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/primary/lang/culture/03_001.pdf"
+            }
+          ],
+          "audio": {
+            "id": "quest-f97a96aaba0e3809",
+            "text": "这是后世刊本中的史记索隐序，序文来自后人的整理与注释，不是司马迁原稿。"
+          }
+        },
+        "story": {
+          "screenNumber": 1,
+          "title": "先找到写书的人所在的时代",
+          "screenText": "司马迁在西汉编写《史记》。眼前是很久以后刊印的书页，里面还保留后人的注释，不是司马迁亲笔。",
+          "displayText": "司马迁在西汉编写《史记》。眼前是很久以后刊印的书页，里面还保留后人的注释，不是司马迁亲笔。",
+          "narration": "司马迁在西汉编写《史记》。眼前是很久以后刊印的书页，里面还保留后人的注释，不是司马迁亲笔。"
+        },
+        "assetId": "han-shiji-reading-v1",
+        "image": "/content/step-images/han-shiji-reading-v1.jpg",
+        "studyImage": "/content/study-scenes/study-dc4ae66f5547dfbe.svg",
+        "studyImageAlt": "先找到写书的人所在的时代",
+        "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
+        "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
+        "imageBoundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+        "audio": {
+          "lead": {
+            "id": "quest-abdc1142acc8e63b",
+            "text": "司马迁在西汉编写史记，眼前是后人刊印的书。司马迁编写史记，在哪一朝？"
+          },
+          "transition": {
+            "id": "quest-19107e897ec33162",
+            "text": "先找到写书的人所在的时代。"
+          },
+          "intro": {
+            "id": "quest-14f85290313c9ce4",
+            "text": "司马迁在西汉编写《史记》。眼前是很久以后刊印的书页，里面还保留后人的注释，不是司马迁亲笔。"
+          },
+          "question": {
+            "id": "quest-9c03e16dcf3c3d3d",
+            "text": "司马迁编写史记，在哪一朝？"
+          },
+          "image": {
+            "id": "quest-d7f84b16cb7d0ea4",
+            "text": "这张是司马迁怎样把过去的事留下来？的故事插画。司马迁在西汉编写《史记》。眼前是很久以后刊印的书页，里面还保留后人的注释，不是司马迁亲笔。"
+          },
+          "right": {
+            "id": "quest-626c4c4f92420763",
+            "text": "在汉朝，司马迁整理过去的人和事。"
+          },
+          "wrong": {
+            "id": "quest-57c6e04c10c326c1",
+            "text": "明代是眼前刊本的年代，作者在更早的汉朝。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-07-sima-qian-shiji-time-1",
+            "label": "汉朝 · 前202—220年",
+            "correct": true,
+            "objectView": {
+              "kind": "era",
+              "name": "汉朝",
+              "date": "前202—220年",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-eced86b12ed6c7cc.svg",
+            "imageAlt": "汉朝，前202—220年",
+            "audio": {
+              "id": "quest-cf04b69e7d1a757d",
+              "text": "汉朝 · 前202—220年"
+            }
+          },
+          {
+            "id": "cn-ancient-04-07-sima-qian-shiji-time-2",
+            "label": "明朝 · 1368—1644年",
+            "correct": false,
+            "objectView": {
+              "kind": "era",
+              "name": "明朝",
+              "date": "1368—1644年",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-784068b19ee08e65.svg",
+            "imageAlt": "明朝，1368—1644年",
+            "audio": {
+              "id": "quest-82f94fc733063f6c",
+              "text": "明朝 · 1368—1644年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "一本史书里住着不同时代的人",
+        "title": "一本史书里住着不同时代的人",
+        "prompt": "先听清三个人的时代",
+        "rightNote": "书可以记过去，作者不必和书里的人同时。",
+        "wrongNote": "人物的时代要分别核对。",
+        "sourceIds": [
+          "NLC-SHIJI-EDITIONS",
+          "SCIO-SIMA-QIAN-SHIJI",
+          "EDB-ANALECTS-FOUR"
+        ],
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听清故事，再看看眼前的线索。",
+          "continueLabel": "为两位人物找对应的图卡"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "一本史书里住着不同时代的人",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "书可以记过去，作者不必和书里的人同时。",
+          "retry": "人物的时代要分别核对。",
+          "nextLabel": "想查谁，就先找对人物"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "一本史书里住着不同时代的人",
+          "screenText": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。",
+          "displayText": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。",
+          "narration": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。"
+        },
+        "assetId": "han-shiji-reading-v1",
+        "image": "/content/step-images/han-shiji-reading-v1.jpg",
+        "studyImage": "/content/study-scenes/study-92310541ea6be192.svg",
+        "studyImageAlt": "一本史书里住着不同时代的人",
+        "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
+        "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
+        "imageBoundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+        "audio": {
+          "lead": {
+            "id": "quest-75ebdedcfb11bf72",
+            "text": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。"
+          },
+          "transition": {
+            "id": "quest-c69086d039ff90f6",
+            "text": "一本史书里住着不同时代的人。"
+          },
+          "intro": {
+            "id": "quest-75ebdedcfb11bf72",
+            "text": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。"
+          },
+          "question": {
+            "id": "quest-22cfc89ee65acb9d",
+            "text": "先听清三个人的时代"
+          },
+          "image": {
+            "id": "quest-1bd1def1b4d2166e",
+            "text": "这张是司马迁怎样把过去的事留下来？的故事插画。孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。"
+          },
+          "right": {
+            "id": "quest-319491990a73cfc1",
+            "text": "书可以记过去，作者不必和书里的人同时。"
+          },
+          "wrong": {
+            "id": "quest-4659ac471765191f",
+            "text": "人物的时代要分别核对。"
+          }
+        },
+        "options": []
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "想查谁，就先找对人物",
+        "title": "想查谁，就先找对人物",
+        "prompt": "哪张卡表示讲学的孔子？",
+        "rightNote": "先分清人物，再去读他的历史记录。",
+        "wrongNote": "君主卡表示秦始皇，孔子卡画着师生。",
+        "sourceIds": [
+          "NLC-SHIJI-EDITIONS",
+          "SCIO-SIMA-QIAN-SHIJI",
+          "EDB-ANALECTS-FOUR"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清故事，再看看眼前的线索。",
+          "selectionFraming": "detail"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "想查谁，就先找对人物",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "先分清人物，再去读他的历史记录。",
+          "retry": "君主卡表示秦始皇，孔子卡画着师生。",
+          "nextLabel": "书里的人与写书的人分开"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "想查谁，就先找对人物",
+          "screenText": "桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。",
+          "displayText": "桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。",
+          "narration": "桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。"
+        },
+        "assetId": "han-shiji-reading-v1",
+        "image": "/content/step-images/han-shiji-reading-v1.jpg",
+        "studyImage": "/content/study-scenes/study-40e30c83fba7bb48.svg",
+        "studyImageAlt": "想查谁，就先找对人物",
+        "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
+        "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
+        "imageBoundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+        "audio": {
+          "lead": {
+            "id": "quest-cef748e4ea8fdac2",
+            "text": "左卡画师生，表示孔子；右卡画君主，表示秦始皇。哪张卡表示讲学的孔子？"
+          },
+          "transition": {
+            "id": "quest-9d79874e9b97760e",
+            "text": "想查谁，就先找对人物。"
+          },
+          "intro": {
+            "id": "quest-6c476015934d2054",
+            "text": "桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。"
+          },
+          "question": {
+            "id": "quest-f98885f05b7add94",
+            "text": "哪张卡表示讲学的孔子？"
+          },
+          "image": {
+            "id": "quest-b70a36dd12ca7108",
+            "text": "这张是司马迁怎样把过去的事留下来？的故事插画。桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。"
+          },
+          "right": {
+            "id": "quest-df7a82d60d98d7fa",
+            "text": "先分清人物，再去读他的历史记录。"
+          },
+          "wrong": {
+            "id": "quest-88d45337817da6f5",
+            "text": "君主卡表示秦始皇，孔子卡画着师生。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-07-sima-qian-shiji-journey-1",
+            "label": "师生学习的孔子卡",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "han-shiji-reading-v1",
+              "crop": {
+                "x": 190,
+                "y": 615,
+                "width": 490,
+                "height": 300,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/han-shiji-reading-v1.jpg",
+              "imageAlt": "师生学习的孔子卡",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-8a515eea6a08a08b.svg",
+            "imageAlt": "师生学习的孔子卡",
+            "audio": {
+              "id": "quest-411bbc5bdb592dfb",
+              "text": "师生学习的孔子卡"
+            }
+          },
+          {
+            "id": "cn-ancient-04-07-sima-qian-shiji-journey-2",
+            "label": "君主与侍从的秦始皇卡",
+            "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "han-shiji-reading-v1",
+              "crop": {
+                "x": 760,
+                "y": 660,
+                "width": 575,
+                "height": 324,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/han-shiji-reading-v1.jpg",
+              "imageAlt": "君主与侍从的秦始皇卡",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-d75b11af2576e9f5.svg",
+            "imageAlt": "君主与侍从的秦始皇卡",
+            "audio": {
+              "id": "quest-98f5deeac7dee9b7",
+              "text": "君主与侍从的秦始皇卡"
+            }
+          }
+        ]
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "书里的人与写书的人分开",
+        "title": "书里的人与写书的人分开",
+        "prompt": "哪一组保留了先后关系？",
+        "rightNote": "孔子在前，司马迁后来把历史写下来。",
+        "wrongNote": "写书不表示作者亲眼见过所有被记的人。",
+        "sourceIds": [
+          "NLC-SHIJI-EDITIONS",
+          "SCIO-SIMA-QIAN-SHIJI",
+          "EDB-ANALECTS-FOUR"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清故事，再看看眼前的线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "书里的人与写书的人分开",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "孔子在前，司马迁后来把历史写下来。",
+          "retry": "写书不表示作者亲眼见过所有被记的人。",
+          "nextLabel": "后人继续让记录传下来"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "书里的人与写书的人分开",
+          "screenText": "孔子比司马迁早。司马迁研究前人的材料和故事，再编写历史。先后关系需要保留，不能让书里的人都变成同龄伙伴。",
+          "displayText": "孔子比司马迁早。司马迁研究前人的材料和故事，再编写历史。先后关系需要保留，不能让书里的人都变成同龄伙伴。",
+          "narration": "孔子比司马迁早。司马迁研究前人的材料和故事，再编写历史。先后关系需要保留，不能让书里的人都变成同龄伙伴。"
+        },
+        "assetId": "han-shiji-reading-v1",
+        "image": "/content/step-images/han-shiji-reading-v1.jpg",
+        "studyImage": "/content/study-scenes/study-4e5d11b90004f074.svg",
+        "studyImageAlt": "书里的人与写书的人分开",
+        "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
+        "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
+        "imageBoundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+        "audio": {
+          "lead": {
+            "id": "quest-6d9f4ed19976668c",
+            "text": "孔子生活在春秋，司马迁在后来的汉代写史。哪一组保留了先后关系？"
+          },
+          "transition": {
+            "id": "quest-693db10691b9f75d",
+            "text": "书里的人与写书的人分开。"
+          },
+          "intro": {
+            "id": "quest-9efd6a4477b28195",
+            "text": "孔子比司马迁早。司马迁研究前人的材料和故事，再编写历史。先后关系需要保留，不能让书里的人都变成同龄伙伴。"
+          },
+          "question": {
+            "id": "quest-a9d30062e9bb1a37",
+            "text": "哪一组保留了先后关系？"
+          },
+          "image": {
+            "id": "quest-b6c97e0da54ed915",
+            "text": "这张是司马迁怎样把过去的事留下来？的故事插画。孔子比司马迁早。司马迁研究前人的材料和故事，再编写历史。先后关系需要保留，不能让书里的人都变成同龄伙伴。"
+          },
+          "right": {
+            "id": "quest-139ddf3ca0eb2520",
+            "text": "孔子在前，司马迁后来把历史写下来。"
+          },
+          "wrong": {
+            "id": "quest-c160049f37860969",
+            "text": "写书不表示作者亲眼见过所有被记的人。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-07-sima-qian-shiji-change-1",
+            "label": "先有孔子，后来司马迁写史",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-strip",
+              "relation": "sequence",
+              "panels": [
+                {
+                  "assetId": "shiji-choice-scenes-v2",
+                  "crop": {
+                    "x": 8,
+                    "y": 8,
+                    "width": 753,
+                    "height": 495,
+                    "sourceWidth": 1536,
+                    "sourceHeight": 1024
+                  },
+                  "caption": "孔子",
+                  "image": "/content/step-images/shiji-choice-scenes-v2.jpg",
+                  "imageAlt": "孔子",
+                  "imageLabel": "故事插画"
+                },
+                {
+                  "assetId": "shiji-choice-scenes-v2",
+                  "crop": {
+                    "x": 777,
+                    "y": 8,
+                    "width": 751,
+                    "height": 495,
+                    "sourceWidth": 1536,
+                    "sourceHeight": 1024
+                  },
+                  "caption": "司马迁",
+                  "image": "/content/step-images/shiji-choice-scenes-v2.jpg",
+                  "imageAlt": "司马迁",
+                  "imageLabel": "故事插画"
+                }
+              ],
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-1559799d92f7d23d.svg",
+            "imageAlt": "春秋孔子，汉代写史",
+            "audio": {
+              "id": "quest-20c7139162545244",
+              "text": "先有孔子，后来司马迁写史"
+            }
+          },
+          {
+            "id": "cn-ancient-04-07-sima-qian-shiji-change-2",
+            "label": "孔子和司马迁同时生活",
+            "correct": false,
+            "objectView": {
+              "kind": "scene-strip",
+              "relation": "together",
+              "panels": [
+                {
+                  "assetId": "shiji-choice-scenes-v2",
+                  "crop": {
+                    "x": 8,
+                    "y": 8,
+                    "width": 753,
+                    "height": 495,
+                    "sourceWidth": 1536,
+                    "sourceHeight": 1024
+                  },
+                  "caption": "孔子",
+                  "image": "/content/step-images/shiji-choice-scenes-v2.jpg",
+                  "imageAlt": "孔子",
+                  "imageLabel": "故事插画"
+                },
+                {
+                  "assetId": "shiji-choice-scenes-v2",
+                  "crop": {
+                    "x": 777,
+                    "y": 8,
+                    "width": 751,
+                    "height": 495,
+                    "sourceWidth": 1536,
+                    "sourceHeight": 1024
+                  },
+                  "caption": "司马迁",
+                  "image": "/content/step-images/shiji-choice-scenes-v2.jpg",
+                  "imageAlt": "司马迁",
+                  "imageLabel": "故事插画"
+                }
+              ],
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-0c27a6a09c03fd51.svg",
+            "imageAlt": "同一时代",
+            "audio": {
+              "id": "quest-5ba5ddc09b2b38c8",
+              "text": "孔子和司马迁同时生活"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "后人继续让记录传下来",
+        "title": "后人继续让记录传下来",
+        "prompt": "眼前明刊本怎样解释？",
+        "rightNote": "内容源于更早的著作，眼前书本是后世刊印。",
+        "wrongNote": "作者时代和这本书的制作年代要分开。",
+        "sourceIds": [
+          "NLC-SHIJI-EDITIONS",
+          "SCIO-SIMA-QIAN-SHIJI",
+          "EDB-ANALECTS-FOUR"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清故事，再看看眼前的线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "后人继续让记录传下来",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "内容源于更早的著作，眼前书本是后世刊印。",
+          "retry": "作者时代和这本书的制作年代要分开。",
+          "nextLabel": "带着发现回家"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "后人继续让记录传下来",
+          "screenText": "司马迁留下著作，后人注释、抄写、刻印。今天读到的书，可以保存很早的内容，却是后来制作的实物。",
+          "displayText": "司马迁留下著作，后人注释、抄写、刻印。今天读到的书，可以保存很早的内容，却是后来制作的实物。",
+          "narration": "司马迁留下著作，后人注释、抄写、刻印。今天读到的书，可以保存很早的内容，却是后来制作的实物。"
+        },
+        "assetId": "han-shiji-reading-v1",
+        "image": "/content/step-images/han-shiji-reading-v1.jpg",
+        "studyImage": "/content/study-scenes/study-e10224339bb714e1.svg",
+        "studyImageAlt": "后人继续让记录传下来",
+        "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
+        "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
+        "imageBoundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+        "audio": {
+          "lead": {
+            "id": "quest-bf3ce099caab37cc",
+            "text": "司马迁先写著作，后人再注释、抄写和刊印。眼前明刊本怎样解释？"
+          },
+          "transition": {
+            "id": "quest-b79bfadbcf876b9d",
+            "text": "后人继续让记录传下来。"
+          },
+          "intro": {
+            "id": "quest-47653cc7ab1173b5",
+            "text": "司马迁留下著作，后人注释、抄写、刻印。今天读到的书，可以保存很早的内容，却是后来制作的实物。"
+          },
+          "question": {
+            "id": "quest-ae4a16b57b3d73c8",
+            "text": "眼前明刊本怎样解释？"
+          },
+          "image": {
+            "id": "quest-d62de568178ada28",
+            "text": "这张是司马迁怎样把过去的事留下来？的故事插画。司马迁留下著作，后人注释、抄写、刻印。今天读到的书，可以保存很早的内容，却是后来制作的实物。"
+          },
+          "right": {
+            "id": "quest-583aa7a75732af3c",
+            "text": "内容源于更早的著作，眼前书本是后世刊印。"
+          },
+          "wrong": {
+            "id": "quest-7bf61748b9d92651",
+            "text": "作者时代和这本书的制作年代要分开。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-07-sima-qian-shiji-takeaway-1",
+            "label": "后人刊印，保存早先著作",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "shiji-choice-scenes-v2",
+              "crop": {
+                "x": 8,
+                "y": 519,
+                "width": 753,
+                "height": 497,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/shiji-choice-scenes-v2.jpg",
+              "imageAlt": "后人刊印，保存早先著作",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-45faec0ae530ecfa.svg",
+            "imageAlt": "西汉著作，后世刊印",
+            "audio": {
+              "id": "quest-40f24aeeabf50c5c",
+              "text": "后人刊印，保存早先著作"
+            }
+          },
+          {
+            "id": "cn-ancient-04-07-sima-qian-shiji-takeaway-2",
+            "label": "这就是司马迁亲手写的原稿",
+            "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "shiji-choice-scenes-v2",
+              "crop": {
+                "x": 777,
+                "y": 519,
+                "width": 751,
+                "height": 497,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/shiji-choice-scenes-v2.jpg",
+              "imageAlt": "这就是司马迁亲手写的原稿",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-51b0fde0f76e9eb1.svg",
+            "imageAlt": "司马迁，亲笔原稿",
+            "audio": {
+              "id": "quest-720b8075912d09e4",
+              "text": "这就是司马迁亲手写的原稿"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "家长说孔子、秦始皇、司马迁，孩子用前后位置表示时代。",
+        "items": []
+      },
+      {
+        "number": 2,
+        "title": "找一本家里的书，区分作者是谁与这一本何时出版。",
+        "items": []
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学",
+  "durationMinutes": 6,
+  "conclusion": [
+    "司马迁在西汉编写《史记》，记述过去的人和事。后人注释、抄写和刊印，让历史记录传下来；书里的人不都与作者同时。"
+  ],
+  "facts": [
+    {
+      "number": 1,
+      "text": "司马迁是西汉时期的史学家。",
+      "sourceIds": [
+        "NLC-SHIJI-EDITIONS"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "《史记》是纪传体通史，记述不同时代的人和事。",
+      "sourceIds": [
+        "NLC-SHIJI-EDITIONS"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "《史记》包含本纪、表、书、世家与列传等部分。",
+      "sourceIds": [
+        "SCIO-SIMA-QIAN-SHIJI"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "后人对《史记》作了不同注释，三家注有重要影响。",
+      "sourceIds": [
+        "NLC-SHIJI-EDITIONS"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "现存《史记》刊本是历代流传过程中的材料，不等同于司马迁亲笔原稿。",
+      "sourceIds": [
+        "NLC-SHIJI-EDITIONS"
+      ]
+    }
+  ],
+  "methodNotes": [],
+  "screens": [
+    {
+      "number": 1,
+      "title": "时间定位：先找到写书的人所在的时代",
+      "screenText": "司马迁在西汉编写《史记》。眼前是很久以后刊印的书页，里面还保留后人的注释，不是司马迁亲笔。",
+      "voices": [
+        {
+          "number": 1,
+          "label": "语音 H01：",
+          "text": "司马迁在西汉编写《史记》。眼前是很久以后刊印的书页，里面还保留后人的注释，不是司马迁亲笔。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-07-sima-qian-shiji-s01-v01-01",
+              "order": 1,
+              "tier": "core",
+              "text": "司马迁在西汉编写《史记》。眼前是很久以后刊印的书页，里面还保留后人的注释，不是司马迁亲笔。",
+              "hanCharacters": 39
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 2,
+      "title": "一本史书里住着不同时代的人",
+      "screenText": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。",
+      "voices": [
+        {
+          "number": 2,
+          "label": "语音 H02：",
+          "text": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-07-sima-qian-shiji-s02-v02-01",
+              "order": 1,
+              "tier": "core",
+              "text": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。",
+              "hanCharacters": 42
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 3,
+      "title": "想查谁，就先找对人物",
+      "screenText": "桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。",
+      "voices": [
+        {
+          "number": 3,
+          "label": "语音 H03：",
+          "text": "桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-07-sima-qian-shiji-s03-v03-01",
+              "order": 1,
+              "tier": "core",
+              "text": "桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。",
+              "hanCharacters": 43
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 4,
+      "title": "书里的人与写书的人分开",
+      "screenText": "孔子比司马迁早。司马迁研究前人的材料和故事，再编写历史。先后关系需要保留，不能让书里的人都变成同龄伙伴。",
+      "voices": [
+        {
+          "number": 4,
+          "label": "语音 H04：",
+          "text": "孔子比司马迁早。司马迁研究前人的材料和故事，再编写历史。先后关系需要保留，不能让书里的人都变成同龄伙伴。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-07-sima-qian-shiji-s04-v04-01",
+              "order": 1,
+              "tier": "core",
+              "text": "孔子比司马迁早。司马迁研究前人的材料和故事，再编写历史。先后关系需要保留，不能让书里的人都变成同龄伙伴。",
+              "hanCharacters": 47
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 5,
+      "title": "后人继续让记录传下来",
+      "screenText": "司马迁留下著作，后人注释、抄写、刻印。今天读到的书，可以保存很早的内容，却是后来制作的实物。",
+      "voices": [
+        {
+          "number": 5,
+          "label": "语音 H05：",
+          "text": "司马迁留下著作，后人注释、抄写、刻印。今天读到的书，可以保存很早的内容，却是后来制作的实物。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-07-sima-qian-shiji-s05-v05-01",
+              "order": 1,
+              "tier": "core",
+              "text": "司马迁留下著作，后人注释、抄写、刻印。今天读到的书，可以保存很早的内容，却是后来制作的实物。",
+              "hanCharacters": 39
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    }
+  ],
+  "interactions": [
+    {
+      "number": 1,
+      "title": "家长说孔子、秦始皇、司马迁，孩子用前后位置表示时代。",
+      "items": []
+    },
+    {
+      "number": 2,
+      "title": "找一本家里的书，区分作者是谁与这一本何时出版。",
+      "items": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "NLC-SHIJI-EDITIONS",
+      "title": "《史记》及三家注的流传",
+      "institution": "国家图书馆/国家古籍保护中心",
+      "url": "https://www.nlc.cn/pcab/zx/xw/20200708_192637.shtml",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "司马迁、西汉、《史记》纪传体与后世注释刊印；古书不等于亲笔。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "SCIO-SIMA-QIAN-SHIJI",
+      "title": "Sima Qian and Records of the Grand Historian",
+      "institution": "国务院新闻办公室",
+      "url": "https://english.scio.gov.cn/m/featured/chinakeywords/2024-08/30/content_117397336.htm",
+      "type": "government-cultural-reference",
+      "authorityLevel": "A",
+      "factUse": "司马迁、《史记》130篇和本纪、表、书、世家、列传体例",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "EDB-ANALECTS-FOUR",
+      "title": "《论语四则》选篇分析，1—2页",
+      "institution": "香港特别行政区政府教育局",
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/primary/lang/culture/03_001.pdf",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "孔子及弟子言行的文本、学而时习之、温习与实践含义、三人不是固定数量。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "MOE-HISTORY-CURRICULUM-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "institution": "中华人民共和国教育部",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "type": "curriculum-standard",
+      "authorityLevel": "A",
+      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-QIN-HAN-OVERVIEW",
+      "title": "“古代中国”基本陈列：秦汉时期",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html",
+      "type": "museum-permanent-exhibition",
+      "authorityLevel": "A",
+      "factUse": "秦汉时间线、统一制度、汉代治理、科技文化、对外交往和秦亡汉兴的总体脉络",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "DPM-CHANGXIN-LAMP",
+      "title": "长信宫灯展品条目",
+      "institution": "故宫博物院展览资料",
+      "url": "https://ggzl.dpm.org.cn/pages/exhibit_works/details?id=10933",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "河北博物院藏西汉长信宫灯、满城汉墓出土、袖管导烟；不声称完全无烟。",
+      "imageUse": "reference-only"
+    }
+  ],
+  "assets": [
+    {
+      "id": "shiji-ming-edition",
+      "title": "明刊《史记》· 后世书影",
+      "localPath": "reference-assets/china-expansion/shiji-ming-edition.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:NCL-01308_01_%E5%8F%B2%E8%A8%98.pdf",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "Public domain",
+      "clearance": "cleared-public-domain",
+      "caption": "明刊《史记》· 后世书影",
+      "boundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "han-shiji-reading-v1",
+      "title": "司马迁怎样把过去的事留下来？的故事插画",
+      "localPath": "reference-assets/china-expansion/han-shiji-reading-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "shiji-choice-scenes-v2",
+      "title": "司马迁怎样把过去的事留下来？的情境选择分镜",
+      "localPath": "reference-assets/choice-art-refinement/shiji-choice-scenes-v2.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+      "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-eced86b12ed6c7cc",
+      "title": "学习示意：汉朝、前202—220年",
+      "localPath": "reference-assets/focused-quests/study-eced86b12ed6c7cc.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "汉朝 → 前202—220年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-784068b19ee08e65",
+      "title": "学习示意：明朝、1368—1644年",
+      "localPath": "reference-assets/focused-quests/study-784068b19ee08e65.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "明朝 → 1368—1644年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-dc4ae66f5547dfbe",
+      "title": "学习示意：先找到写书的人所在的时代",
+      "localPath": "reference-assets/focused-quests/study-dc4ae66f5547dfbe.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "先找到写书的人所在的时代",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-92310541ea6be192",
+      "title": "学习示意：一本史书里住着不同时代的人",
+      "localPath": "reference-assets/focused-quests/study-92310541ea6be192.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "一本史书里住着不同时代的人",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-40e30c83fba7bb48",
+      "title": "学习示意：想查谁，就先找对人物",
+      "localPath": "reference-assets/focused-quests/study-40e30c83fba7bb48.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "想查谁，就先找对人物",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8a515eea6a08a08b",
+      "title": "学习示意：师生学习的孔子卡",
+      "localPath": "reference-assets/focused-quests/study-8a515eea6a08a08b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "师生学习的孔子卡",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d75b11af2576e9f5",
+      "title": "学习示意：君主与侍从的秦始皇卡",
+      "localPath": "reference-assets/focused-quests/study-d75b11af2576e9f5.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "君主与侍从的秦始皇卡",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-4e5d11b90004f074",
+      "title": "学习示意：书里的人与写书的人分开",
+      "localPath": "reference-assets/focused-quests/study-4e5d11b90004f074.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "书里的人与写书的人分开",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1559799d92f7d23d",
+      "title": "学习示意：春秋孔子、汉代写史",
+      "localPath": "reference-assets/focused-quests/study-1559799d92f7d23d.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "春秋孔子 → 汉代写史",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-0c27a6a09c03fd51",
+      "title": "学习示意：同一时代",
+      "localPath": "reference-assets/focused-quests/study-0c27a6a09c03fd51.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "同一时代",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e10224339bb714e1",
+      "title": "学习示意：后人继续让记录传下来",
+      "localPath": "reference-assets/focused-quests/study-e10224339bb714e1.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "后人继续让记录传下来",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-45faec0ae530ecfa",
+      "title": "学习示意：西汉著作、后世刊印",
+      "localPath": "reference-assets/focused-quests/study-45faec0ae530ecfa.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "西汉著作 → 后世刊印",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-51b0fde0f76e9eb1",
+      "title": "学习示意：司马迁、亲笔原稿",
+      "localPath": "reference-assets/focused-quests/study-51b0fde0f76e9eb1.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "司马迁 → 亲笔原稿",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    }
+  ],
+  "thumbnail": "/content/thumbnails/cn-ancient-04-07-sima-qian-shiji.jpg",
+  "status": {
+    "outline": "verified",
+    "research": "in-review",
+    "script": "first-draft",
+    "assets": "cleared",
+    "audio": "not-started",
+    "review": "pending"
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
+}

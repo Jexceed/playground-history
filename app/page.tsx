@@ -9,12 +9,14 @@ import { FinishNavigation } from "./FinishNavigation";
 import { canContinueStep } from "./step-flow";
 import { PhotoCrop } from "./PhotoCrop";
 import { PhotoAlbumButton } from "./PhotoAlbumButton";
-import { focusAlbumPhoto, type FocusedImage, type PhotoAlbum } from "./photo-album";
+import { focusAlbumPhoto, type FocusedImage, type PhotoAlbum, type PhotoCropRect } from "./photo-album";
 import "./photo-album.css";
+import "./home-navigation.css";
 import { playVoiceSequence, stopVoice, pauseVoice, resumeVoice, subscribeVoice, getVoiceSnapshot, getServerVoiceSnapshot } from "./speech";
 import { emptyProgress, parseProgress, listenOptions, PROGRESS_STORAGE_KEY, LEGACY_COMPLETED_KEY, type LocalProgress } from "./quest-progress";
 import { useModal } from "./use-modal";
 import contentManifestJson from "../content/runtime/preview-manifest.json";
+import playRoutes from "../content/play-routes.json";
 
 import progressIndex from "../content/runtime/progress-index.json";
 
@@ -118,6 +120,7 @@ type Gameplay = {
   coverImage: string;
   coverImageAlt: string;
   coverImageKind: string;
+  coverDisplay?: {label:string;fit:"contain"|"cover";position?:string;crop?:PhotoCropRect};
   evidence: Array<{id:string; title:string; image:string; caption:string; boundary:string; sourcePage:string|null}>;
   finish: {title:string; actions:string[]; parent:string; actionAudio:VoiceLine[]; introAudio:VoiceLine; sceneStepIndexes?:number[]};
   status: "playable-core";
@@ -253,6 +256,8 @@ type PanelData = {
   years: string;
   line: string;
   chapters: ManifestChapter[];
+  routeId?: string;
+  welcome?: { text:string; voiceId:string };
 };
 
 function PauseButton() {
@@ -262,6 +267,10 @@ function PauseButton() {
   return <button className="voice-pause" disabled={!available} onClick={() => paused ? resumeVoice() : pauseVoice()} aria-label={paused ? "继续播放声音" : "暂停声音"}>
     <span aria-hidden="true">{paused ? "▶" : "⏸"}</span><span>{paused ? "继续听" : "暂停"}</span>
   </button>;
+}
+
+function PanelAudioTools({voiceId,listen}:{voiceId:string;listen:(id:string)=>void}) {
+  return <div className="panel-audio-tools"><PauseButton/><button className="panel-repeat" onClick={()=>listen(voiceId)} aria-label="重听说明" title="重听说明">🔊</button></div>;
 }
 
 function QuestQuestion({ step, seed, speak, listen, onSolved }: {
@@ -315,6 +324,8 @@ export default function Home() {
   const voice = useSyncExternalStore(subscribeVoice, getVoiceSnapshot, getServerVoiceSnapshot);
   const playing = voice.status === "playing" || voice.status === "loading";
   const [panel, setPanel] = useState<PanelData | null>(null);
+  const [stationPickerOpen, setStationPickerOpen] = useState(false);
+  const [pickerMode,setPickerMode]=useState<'periods'|'topics'>('periods');
   const [questChapter, setQuestChapter] = useState<ManifestChapter | null>(null);
   const [questStarted, setQuestStarted] = useState(false);
   const [questStep, setQuestStep] = useState(0);
@@ -370,20 +381,33 @@ export default function Home() {
   const openImage = (image: FocusedImage) => { setFocusedImage(image); void speakSequence([image.voice.id]); };
   const openPhotoAlbum = (album: PhotoAlbum, index = 0) => openImage(focusAlbumPhoto(album, index));
   const closeImage = () => { haltVoice(); setFocusedImage(null); };
-  const closePanel = () => { haltVoice(); setPanel(null); };
+  const closePanel = () => { haltVoice(); setPanel(null); setStationPickerOpen(false); };
   const imageDialogRef = useModal(Boolean(focusedImage), closeImage);
-  const stationDialogRef = useModal(Boolean(panel), closePanel);
+  const stationDialogRef = useModal(Boolean(panel)||stationPickerOpen, closePanel);
+  const focusStationDialog = () => window.requestAnimationFrame(() => {
+    stationDialogRef.current?.scrollTo({top:0});
+    stationDialogRef.current?.querySelector<HTMLButtonElement>('.panel-close')?.focus({preventScroll:true});
+  });
+  const openStationPicker = (mode:'periods'|'topics'='periods') => {
+    haltVoice(); setPanel(null); setStationPickerOpen(true);
+    setPickerMode(mode);void speakSequence([mode==='topics'?'route-picker-intro':'river-intro']); focusStationDialog();
+  };
+  const openRoute=(route:typeof playRoutes.routes[number])=>{
+    haltVoice();setStationPickerOpen(false);
+    setPanel({kicker:'小小旅行团 · 中国历史专题',iconSrc:route.iconSrc,title:route.title,years:'不同朝代，各有故事',line:route.line,chapters:route.chapterIds.flatMap(id=>chaptersById.has(id)?[chaptersById.get(id)!]:[]),routeId:route.id,welcome:{text:route.intro,voiceId:route.voiceId}});
+    void speakSequence([route.voiceId]);focusStationDialog();
+  };
   const goHome = () => {
-    haltVoice(); setFocusedImage(null); setQuestChapter(null); setPanel(null); setScreen("river");
+    haltVoice(); setFocusedImage(null); setQuestChapter(null); setPanel(null); setStationPickerOpen(false); setScreen("river");
     window.scrollTo({ top: 0 });
   };
   const openOverview = () => {
-    haltVoice(); setFocusedImage(null); setQuestChapter(null); setPanel(null); setScreen("overview");
+    haltVoice(); setFocusedImage(null); setQuestChapter(null); setPanel(null); setStationPickerOpen(false); setScreen("overview");
     setConfirmClear(false); window.scrollTo({ top: 0 });
   };
 
   const openStation = (station: Station, index: number) => {
-    haltVoice();
+    haltVoice(); setStationPickerOpen(false);
     const welcome=(chaptersByPeriod.get(station.periodId)??[]).find(c=>c.gameplay.presentation?.story)?.gameplay.presentation?.story;
     if(welcome)void speakSequence([welcome.stationAudio.id]);
     setPanel({
@@ -394,11 +418,12 @@ export default function Home() {
       line: station.childLine,
       chapters: chaptersByPeriod.get(station.periodId) ?? [],
     });
+    focusStationDialog();
   };
 
   const openQuest = (chapter: ManifestChapter, restart = false) => {
     workbenchNarrationRef.current=null;
-    haltVoice(); setFocusedImage(null); setPanel(null); setQuestChapter(chapter);
+    haltVoice(); setFocusedImage(null); setPanel(null); setStationPickerOpen(false); setQuestChapter(chapter);
     setQuestStarted(false); setQuestStep(0); setQuestSolved(false); setFinishRevealed(false);
     setCompletedExtensionIds(new Set());
     const saved = !restart && progressRef.current.current?.chapterId === chapter.id ? progressRef.current.current.stepId : null;
@@ -437,7 +462,7 @@ export default function Home() {
           : [finishRevealed ? questChapter.gameplay.finishAudio.id : questChapter.gameplay.finish.introAudio.id]
       : null;
     if (screen === "quest" && questVoiceIds) void speakSequence(questVoiceIds, true);
-    else if (screen === "river") void speakSequence(["river-intro"], true);
+    else if (screen === "river") void speakSequence([panel?.chapters[0]?.gameplay.presentation?.story?.stationAudio.id??"river-intro"], true);
   };
 
   const activeQuestStep = questChapter?.gameplay.steps[questStep] ?? null;
@@ -461,6 +486,10 @@ export default function Home() {
           <span aria-hidden="true">🏠</span>
           <div><strong>小小历史旅行团</strong><small>适合4—6岁 · 亲子共学</small></div>
         </button>
+
+        {screen === "river" && resumeChapter && <button className="header-resume" onClick={() => openQuest(resumeChapter)} aria-label={`继续上次任务：${resumeChapter.childEntry.childTitle}`} title={`地图帮你记着呢 · ${resumeChapter.childEntry.childTitle}`}>
+          <span className="header-resume-icon" aria-hidden="true">▶</span><span className="header-resume-copy"><b>继续</b><span>{resumeChapter.childEntry.childTitle}</span></span>
+        </button>}
 
         {screen === "quest" && questChapter && questStarted && questStep < questChapter.gameplay.steps.length && (
           <div className="chapter-nav quest-nav">
@@ -490,7 +519,7 @@ export default function Home() {
 
       {screen === "overview" && <>
         <section className="local-progress-controls" aria-label="本机学习记录">
-          <div><strong>本机学习记录</strong><p>本轮已走完 {progress.completed.filter(id=>chaptersById.has(id)).length} 个任务，本机共保存 {progress.completed.length} 个完成标记。完成标记记录玩法进度，不代表已经理解。{resumeChapter ? `正在探索：${resumeChapter.childEntry.childTitle}` : "可以从任意历史站出发。"}</p></div>
+          <div><strong>本机学习记录</strong><p className="overview-home-context">历史主轴依据：中国义务教育历史课程标准、中国国家博物馆“古代中国”基本陈列。首页旅行图为故事插画。</p><p>本轮已走完 {progress.completed.filter(id=>chaptersById.has(id)).length} 个任务，本机共保存 {progress.completed.length} 个完成标记。完成标记记录玩法进度，不代表已经理解。{resumeChapter ? `正在探索：${resumeChapter.childEntry.childTitle}` : "可以从任意历史站出发。"}</p></div>
           {confirmClear ? <div><p>清空这台浏览器中的完成标记和进行中故事？</p><button onClick={clearProgress}>确认清空</button><button onClick={() => setConfirmClear(false)}>保留记录</button></div> : <button onClick={() => setConfirmClear(true)}>清空本机记录</button>}
           {storageNotice && <p role="status">{storageNotice}</p>}
         </section>
@@ -499,9 +528,6 @@ export default function Home() {
 
       {screen === "river" && (
         <section className="river-screen pop-in">
-          {resumeChapter && <button className="resume-story" onClick={() => openQuest(resumeChapter)}>
-            <Image src={resumeChapter.thumbnail} alt="" width={68} height={68} unoptimized /><span><small>地图帮你记着呢</small><strong>继续 · {resumeChapter.childEntry.childTitle}</strong></span><b aria-hidden="true">▶</b>
-          </button>}
           <div className="river-hero">
             <div className="river-hero-copy">
               <p className="eyebrow">小小历史旅行团 · 集合啦</p>
@@ -514,16 +540,15 @@ export default function Home() {
                 <span><Image unoptimized src="/images/history-clue-ship-v2.webp" alt="" width={440} height={650} /><small>泉州大船</small></span>
               </div>
               <div className="hero-actions">
-                <button className="primary-action" onClick={() => openStation(stations[0], 0)}><span>🧭</span> 拿上地图，出发！</button>
-                <button className="audio-action" onClick={() => listen("river-intro")}>🔊 听出发口令</button>
+                <button className="primary-action" onClick={()=>openStationPicker()} aria-haspopup="dialog"><span>🧭</span> 拿上地图，出发！</button>
+                <button className="audio-action" onClick={() => listen("river-intro")} aria-label="听出发口令"><span aria-hidden="true">🔊</span><span className="audio-action-label">听出发口令</span></button>
               </div>
-              <small className="basis-note">历史主轴依据：中国义务教育历史课程标准、中国国家博物馆“古代中国”基本陈列</small>
             </div>
             <figure className="hero-zine">
               <div className="hero-zine-frame">
                 <Image unoptimized
                   src="/images/history-tour-river-v4.webp"
-                  alt="黄衣男孩、戴圆框眼镜的绿衣男孩和马尾女孩，拿着地图沿时间河出发"
+                  alt="黄衣男孩、戴圆框眼镜的绿衣男孩和马尾女孩，拿着地图沿时间河出发的故事插画"
                   width={971}
                   height={1619}
                   priority
@@ -531,46 +556,32 @@ export default function Home() {
                 />
                 <span className="hero-zine-stamp">沿着河，出发！</span>
               </div>
-              <figcaption><strong>旅行团插画地图</strong><span>洞穴、文物、诗歌和港口在时间河边等你发现；它不是历史现场复原。</span></figcaption>
             </figure>
           </div>
 
-          <div className="river-map">
-            <div className="river-map-heading">
-              <h2>下一站，<span className="keep-together">谁在河边等你？</span></h2>
-              <span className="river-direction">秦汉 ⟶ 明清</span>
-            </div>
-            <ol className="river-path" style={{gridTemplateColumns:`repeat(${stations.length}, minmax(138px, 1fr)) auto`}} aria-label="秦汉至明清时间河十站">
-              {stations.map((station, index) => {
-                const count = chaptersByPeriod.get(station.periodId)?.length ?? 0;
-                return (
-                  <li key={station.id} className="station available">
-                    <button
-                      data-period-id={station.periodId} onClick={() => openStation(station, index)}
-                      aria-label={`第${index + 1}站，${station.title}，看看这一站的${count}个故事`}
-                    >
-                      <span className="station-number">{index + 1}</span>
-                      <span className="station-emoji" aria-hidden="true"><Image unoptimized src={station.iconSrc} alt="" fill sizes="88px" /></span>
-                      <strong>{station.title}</strong>
-                      <small>{station.years}</small>
-                      <em>{station.childLine}</em>
-                      <span className="station-status">▶ {count}个小任务</span>
-                    </button>
-                  </li>
-                );
-              })}
-              <li className="river-end" aria-hidden="true"><span>🏠</span><small>下次再探险</small></li>
-            </ol>
-            <p className="river-hint">👆 点一站，挑一个想试的小任务。</p>
-          </div>
 
 
         </section>
       )}
 
-      {panel && (
+      {(panel || stationPickerOpen) && (
         <div className="station-panel-backdrop" onClick={closePanel}>
-          <section ref={stationDialogRef} className="station-panel pop-in" role="dialog" aria-modal="true" aria-label={panel.title} onClick={(event) => event.stopPropagation()}>
+          <section ref={stationDialogRef} className={`station-panel pop-in ${stationPickerOpen?'station-picker':''}`} role="dialog" aria-modal="true" aria-label={stationPickerOpen?(pickerMode==='topics'?'旅行主题 · 选择故事':'时间地图 · 选择历史站'):panel?.title} data-route-id={panel?.routeId} onClick={(event) => event.stopPropagation()}>
+            {stationPickerOpen ? <>
+              <header className="panel-head picker-head">
+                <div><small>小小旅行团 · 时间地图</small><h2>{pickerMode==='topics'?'这次想探索什么？':'你想先去哪一站？'}</h2><p>{pickerMode==='topics'?'选一个主题，再挑一个故事出发。':'沿着时间河，挑一个想探索的故事。'}</p></div>
+                <PanelAudioTools voiceId={pickerMode==='topics'?'route-picker-intro':'river-intro'} listen={listen}/>
+                <button className="panel-close" onClick={closePanel} aria-label="关闭时间地图">✕</button>
+              </header>
+              <div className="picker-mode" role="group" aria-label="选择出发方式"><button aria-pressed={pickerMode==='periods'} onClick={()=>{setPickerMode('periods');void speakSequence(['river-intro']);}}>按朝代走</button><button aria-pressed={pickerMode==='topics'} onClick={()=>{setPickerMode('topics');void speakSequence(['route-picker-intro']);}}>挑个主题</button></div>
+              {pickerMode==='topics'?<div className="topic-picker-grid">{playRoutes.routes.map(route=><button key={route.id} data-route-id={route.id} onClick={()=>openRoute(route)}><Image src={route.iconSrc} alt="" width={80} height={80} unoptimized/><strong>{route.title}</strong><span>{route.line}</span><small>{route.chapterIds.filter(id=>chaptersById.has(id)).length}个故事 →</small></button>)}</div>:<ol className="station-picker-grid" aria-label="中国古代全部历史站">
+                {stations.map((station,index)=><li key={station.id}><button data-period-id={station.periodId} onClick={()=>openStation(station,index)} aria-label={`去${station.title}，${chaptersByPeriod.get(station.periodId)?.length??0}个故事`}>
+                  <span className="picker-number" aria-hidden="true">{index+1}</span>
+                  <Image src={station.iconSrc} alt="" width={90} height={90} unoptimized/>
+                  <strong>{station.title}</strong><small>{station.years.split(" · ").map((token,i,all)=><span className="year-token" key={token}>{token}{i<all.length-1?' · ':''}</span>)}</small><span className="picker-count">{chaptersByPeriod.get(station.periodId)?.length??0}个故事 <span aria-hidden="true">→</span></span>
+                </button></li>)}
+              </ol>}
+            </> : panel && <>
             <header className="panel-head">
               <span className="panel-emoji" aria-hidden="true"><Image unoptimized src={panel.iconSrc} alt="" fill sizes="96px" /></span>
               <div>
@@ -578,9 +589,10 @@ export default function Home() {
                 <h2>{panel.title}</h2>
                 <p><span className="panel-years">{panel.years.split(" · ").map((token, i, arr) => <span key={token} className="year-token">{token}{i < arr.length - 1 ? " · " : ""}</span>)}</span><span className="panel-line">{panel.line}</span></p>
               </div>
+              <button className="panel-all-stations" onClick={()=>openStationPicker(panel.routeId?'topics':'periods')}>{panel.routeId?'← 换个主题':'← 所有历史站'}</button>
               <button className="panel-close" onClick={closePanel} aria-label="关闭">✕</button>
             </header>
-            {panel.chapters[0]?.gameplay.presentation?.story ? <div className="trip-station-welcome"><p>{panel.chapters[0].gameplay.presentation.story.stationLine}</p></div> : <p className="panel-count">挑一个你想试的小任务。</p>}
+            {panel.welcome?<div className="trip-station-welcome"><p>{panel.welcome.text}</p><PanelAudioTools voiceId={panel.welcome.voiceId} listen={listen}/></div>:panel.chapters[0]?.gameplay.presentation?.story ? <div className="trip-station-welcome"><p>{panel.chapters[0].gameplay.presentation.story.stationLine}</p><PanelAudioTools voiceId={panel.chapters[0].gameplay.presentation.story.stationAudio.id} listen={listen}/></div> : <p className="panel-count">挑一个你想试的小任务。</p>}
             <div className="panel-grid">
               {panel.chapters.map((chapter) => {
                 const completed = completedChapterIds.has(chapter.id);
@@ -591,10 +603,11 @@ export default function Home() {
                     className={`panel-card playable ${completed ? "completed" : ""}`}
                     onClick={() => openQuest(chapter)}
                   >
-                    <Image src={chapter.gameplay.coverImage} alt="" width={600} height={300} unoptimized />
-                    <span className="panel-card-hook">{chapter.gameplay.anchor}</span>
+                    <span className="panel-card-media">
+                      {chapter.gameplay.coverDisplay?.crop?<PhotoCrop src={chapter.gameplay.coverImage} alt={chapter.gameplay.coverImageAlt} crop={chapter.gameplay.coverDisplay.crop}/>:<Image src={chapter.gameplay.coverImage} alt={chapter.gameplay.coverImageAlt} style={{objectFit:chapter.gameplay.coverDisplay?.fit??'contain',objectPosition:chapter.gameplay.coverDisplay?.position}} width={600} height={300} unoptimized />}
+                    </span>
+                    <span className="panel-material-label">{chapter.gameplay.coverDisplay?.label??chapter.gameplay.coverImageKind}</span>
                     <strong>{chapter.childEntry.childTitle}</strong>
-                    <small>{chapter.childEntry.prompt}</small>
                     <span className="panel-card-status">
                       {completed ? "✓ 已完成 · 再玩一次" : `▶ ${chapter.gameplay.cta}`}
                     </span>
@@ -603,6 +616,7 @@ export default function Home() {
               })}
             </div>
             <button className="panel-back" onClick={closePanel}>⬅ 回到时间河</button>
+            </>}
           </section>
         </div>
       )}
@@ -675,7 +689,7 @@ export default function Home() {
       {screen === "quest" && questChapter && questStarted && questStep >= questChapter.gameplay.steps.length && (
         <section className={`quest-finish focus-finish pop-in ${questChapter.gameplay.presentation?"workbench-finish":""}`} data-retell-state={finishRevealed?"answer":"first"} data-voice-id={questChapter.gameplay.finish.introAudio.id}>
           <p className="eyebrow">{questChapter.gameplay.presentation?.story?"小小旅行团 · 带着发现回家":"🌟 你找到这次的小发现啦"}</p><h1>{questChapter.gameplay.finish.title}</h1>
-          {questChapter.gameplay.presentation ? <div className="workbench-finish-picture"><Image src={questChapter.gameplay.presentation.story?.reunionImage??questChapter.gameplay.presentation.sceneImage} alt={questChapter.gameplay.presentation.story?.reunionAlt??questChapter.gameplay.presentation.sceneAlt} width={1536} height={1024} style={questChapter.gameplay.presentation.story?.reunionAspectRatio?{height:'auto',aspectRatio:questChapter.gameplay.presentation.story.reunionAspectRatio,objectFit:questChapter.gameplay.presentation.story.reunionFit,background:questChapter.gameplay.presentation.story.reunionFit==='contain'?'#f4ead3':undefined}:undefined} unoptimized/><p>{questChapter.gameplay.presentation.story?.closingLine}</p></div> : <>
+          {questChapter.gameplay.presentation ? <div className="workbench-finish-picture"><Image src={questChapter.gameplay.presentation.story?.reunionImage??questChapter.gameplay.presentation.sceneImage} alt={questChapter.gameplay.presentation.story?.reunionAlt??questChapter.gameplay.presentation.sceneAlt} width={1536} height={1024} style={questChapter.gameplay.presentation.story?.reunionAspectRatio?{aspectRatio:questChapter.gameplay.presentation.story.reunionAspectRatio,objectFit:questChapter.gameplay.presentation.story.reunionFit,background:questChapter.gameplay.presentation.story.reunionFit==='contain'?'#f4ead3':undefined}:undefined} unoptimized/><p>{questChapter.gameplay.presentation.story?.closingLine}</p></div> : <>
           <p className="finish-instruction">不用背答案，和家人试这两个动作。</p>
           <div className="finish-action-cards">{questChapter.gameplay.finish.actions.map((action,index)=>{const step=questChapter.gameplay.steps[questChapter.gameplay.finish.sceneStepIndexes?.[index]??index+2];const done=completedExtensionIds.has(`finish-${index}`);return <article key={action}><Image src={step.studyImage} alt={step.studyImageAlt} width={900} height={430} unoptimized/><span className="finish-action-number">{index+1}</span><p>{action}</p><button className="listen-button" onClick={()=>listen(questChapter.gameplay.finish.actionAudio[index].id)}>🔊 听这个动作</button><button className={`tried-action ${done?"done":""}`} aria-pressed={done} onClick={()=>setCompletedExtensionIds(current=>{const next=new Set(current);if(done)next.delete(`finish-${index}`);else next.add(`finish-${index}`);return next})}>{done?"✓ 试过啦":"✋ 我试过啦"}</button></article>})}</div>
           </>}
@@ -725,7 +739,7 @@ export default function Home() {
       )}
 
       <footer className="source-footer">
-        <span>秦汉至明清 · 本机亲子试玩</span>
+        <span>春秋至明清 · 本机亲子试玩</span>
         {screen === "overview" ? (
           <span>家长与编辑审核层</span>
         ) : (

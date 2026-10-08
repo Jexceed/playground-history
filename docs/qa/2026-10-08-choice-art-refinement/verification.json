@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-08",
+  "status": "passed",
+  "scope": "20 narrative choice pairs in the newly expanded China tasks",
+  "viewport": {
+    "dpr": 2,
+    "height": 720,
+    "width": 1280
+  },
+  "visibleChapters": 44,
+  "visibleStations": 11,
+  "libraryChapters": 112,
+  "librarySteps": 560,
+  "changedChapters": [
+    "cn-ancient-07-08-song-gunpowder-records",
+    "cn-ancient-03-03-hundred-schools",
+    "cn-ancient-04-08-qin-terracotta",
+    "cn-ancient-06-09-zhaozhou-bridge",
+    "cn-ancient-06-11-du-fu-spring-rain",
+    "cn-ancient-07-10-huang-daopo-cotton",
+    "cn-ancient-07-09-li-qingzhao-rumengling",
+    "cn-ancient-04-06-han-palace-lantern",
+    "cn-ancient-04-07-sima-qian-shiji",
+    "cn-ancient-06-10-jianzhen-eastward",
+    "cn-ancient-08-09-zheng-banqiao-bamboo"
+  ],
+  "changedPairs": 20,
+  "selectedPictureStatesVerified": 40,
+  "walkedSteps": 55,
+  "newIllustrationSheets": 10,
+  "totalAssets": 980,
+  "localVoices": 3496,
+  "checks": {
+    "strictAssets": true,
+    "packAndFullLibraryAudit": true,
+    "testsPassed": 64,
+    "testsFailed": 0,
+    "lint": true,
+    "typecheck": true,
+    "browserPrimaryActionFailures": 0,
+    "gitDiffCheck": true,
+    "consoleErrors": 0,
+    "actualUrl": "http://127.0.0.1:4173/",
+    "localHttpStatus": 200,
+    "parentStripVisible": true,
+    "homeSingleScreen": true,
+    "replayAndPauseControlVerified": true
+  },
+  "preservation": {
+    "questionsStoriesAnswersAndVoiceInputsUnchanged": true,
+    "scopeAndContentVersionUnchanged": true,
+    "oldRegisteredMaterialsUnchanged": true,
+    "voiceManifestsByteIdentical": {
+      "public/audio/voice-lines.json": true,
+      "public/audio/voice/manifest.json": true
+    }
+  },
+  "notVerified": [
+    "Real child comprehension",
+    "User approval of the revised art",
+    "Full human audio listening"
+  ],
+  "sha256": {
+    "content/focused-quests.json": "173c955ceedaf0df7860e8b27a706598ce681d96af34e10628e02c78af91a714",
+    "app/ObjectWorkbench.tsx": "767e1f788afb5bad151d781a7ea55aea291af3b5d210a5785d5a91c8ac9a02f9",
+    "app/scene-interactions.css": "4ad719922f17e2b6f34b10f8d2d0d8ad3da8928af981d55b1cf10e5f1ef8272c",
+    "scripts/lib/focused-gameplay.mjs": "4d478400086eb3ea4b97676e88366348a4357dbc1f69663cc6ebd7d79d8daaf1",
+    "scripts/generate-content-thumbnails.mjs": "93487a9f15e9f7583d4d8642d83b0067ae89497b2493e48b0ae05045a4e31c86",
+    "content/assets/china-expansion-assets.json": "0683c6f4812805ea6350a1b940241d111e9b7929efca7e70523eb14928eafd91"
+  }
+}

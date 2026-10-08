@@ -9,12 +9,14 @@
     "label": "汉朝",
     "years": "前202—公元220年",
     "learningContext": {
-      "childIntro": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。",
+      "childIntro": "到汉朝看五铢钱、丝路、纸和一盏灯，再听司马迁怎样把过去写下来。",
       "chronology": "前202年西汉建立；汉代范围包含西汉、东汉以及中间政局变化，不能画成连续不变的一段统治。",
-      "covered": "五铢钱管理、张骞使命和见闻、造纸改进。",
-      "scopeBoundary": "恢复生产、文景时期、汉武帝的其他政策与东汉末年属于背景研究，儿童主线只取三个具体问题。",
+      "covered": "五铢钱管理、张骞使命和见闻、造纸改进、长信宫灯功能与史书流传。",
+      "scopeBoundary": "恢复生产、文景时期、汉武帝的其他政策与东汉末年属于背景研究；五个具体问题不代表完整汉史。",
       "sourceIds": [
-        "NMC-QIN-HAN-OVERVIEW"
+        "NMC-QIN-HAN-OVERVIEW",
+        "DPM-CHANGXIN-LAMP",
+        "NLC-SHIJI-EDITIONS"
       ],
       "sources": [
         {
@@ -22,6 +24,18 @@
           "title": "“古代中国”基本陈列：秦汉时期",
           "institution": "中国国家博物馆",
           "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+        },
+        {
+          "id": "DPM-CHANGXIN-LAMP",
+          "title": "长信宫灯展品条目",
+          "institution": "故宫博物院展览资料",
+          "url": "https://ggzl.dpm.org.cn/pages/exhibit_works/details?id=10933"
+        },
+        {
+          "id": "NLC-SHIJI-EDITIONS",
+          "title": "《史记》及三家注的流传",
+          "institution": "国家图书馆/国家古籍保护中心",
+          "url": "https://www.nlc.cn/pcab/zx/xw/20200708_192637.shtml"
         }
       ]
     }
@@ -363,10 +377,10 @@
         "closingLine": "朝廷统一管铸钱，工匠按共同规格做。",
         "fictionNote": "小伙伴和工匠是虚构教学角色；年代与铸币政策据国博及《汉书》，工具演示不是历史工序复原。",
         "reunionImage": "/content/step-images/han-market-friends-reunion-v1.jpg",
-        "stationLine": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。",
+        "stationLine": "到汉朝看五铢钱、丝路、纸和一盏灯，再听司马迁怎样把过去写下来。",
         "stationAudio": {
-          "id": "quest-6bd16741428ab81d",
-          "text": "秦朝结束后，汉朝建立。这里看看朝廷怎样管铸钱、人们怎样远行联系，以及纸怎样不断改进。"
+          "id": "quest-81515921d0740029",
+          "text": "到汉朝看五铢钱、丝路、纸和一盏灯，再听司马迁怎样把过去写下来。"
         },
         "closingAudio": {
           "id": "quest-2ba036bf7f730214",
@@ -446,6 +460,10 @@
     "coverImage": "/content/step-images/qin-han-haihun-wuzhu.jpg",
     "coverImageAlt": "海昏侯国遗址出土五铢钱展览照片",
     "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "汉代五铢钱",
+      "fit": "contain"
+    },
     "coverAudio": {
       "id": "quest-1fb9b2eca8513080",
       "text": "汉武帝把铸钱交给朝廷统一管。小小旅行团想知道：钱有的轻、有的重，怎么办？一起去工坊找办法。"
@@ -1178,7 +1196,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/han-mint-workshop-v1.jpg",
-              "imageAlt": "用秤核对轻重"
+              "imageAlt": "用秤核对轻重",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-8954858808aa7971.svg",
             "imageAlt": "用秤核对轻重",
@@ -1203,7 +1222,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/han-market-story-v1.jpg",
-              "imageAlt": "用绳把钱串好"
+              "imageAlt": "用绳把钱串好",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-9f33fe49cdfd74a4.svg",
             "imageAlt": "用绳把钱串好",
@@ -1586,6 +1606,26 @@
       "type": "curriculum-standard",
       "authorityLevel": "A",
       "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "DPM-CHANGXIN-LAMP",
+      "title": "长信宫灯展品条目",
+      "institution": "故宫博物院展览资料",
+      "url": "https://ggzl.dpm.org.cn/pages/exhibit_works/details?id=10933",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "河北博物院藏西汉长信宫灯、满城汉墓出土、袖管导烟；不声称完全无烟。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NLC-SHIJI-EDITIONS",
+      "title": "《史记》及三家注的流传",
+      "institution": "国家图书馆/国家古籍保护中心",
+      "url": "https://www.nlc.cn/pcab/zx/xw/20200708_192637.shtml",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "司马迁、西汉、《史记》纪传体与后世注释刊印；古书不等于亲笔。",
       "imageUse": "reference-only"
     }
   ],

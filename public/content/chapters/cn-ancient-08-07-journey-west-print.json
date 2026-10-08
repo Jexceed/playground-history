@@ -50,7 +50,7 @@
     "place": "明代金陵刊本与虚构书坊",
     "culture": "《西游记》小说与明代刊刻",
     "care": "1592世德堂本为明代小说图像，不是唐代玄奘现场。孙悟空只在书页想象中出现，不列入真实西行队伍。书坊图不声称复原某家1592年作坊；印刷传播不等于当时人人识字或人人拥有书。",
-    "preferredAssetId": "ming-novel-bookshop-v1",
+    "preferredAssetId": "journey-west-shidetang-1592-print",
     "playableSource": "content/focused-quests.json"
   },
   "learningGuide": {
@@ -213,18 +213,18 @@
     ],
     "photoAlbum": null,
     "coverAsset": {
-      "id": "ming-novel-bookshop-v1",
-      "title": "印书与装订故事图",
-      "localPath": "reference-assets/ming-qing/ming-novel-bookshop-v1.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "journey-west-shidetang-1592-print",
+      "title": "1592年世德堂本《西游记》跨页插图",
+      "localPath": "reference-assets/ming-qing/journey-west-1592.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Journey_to_the_West,_Shidetang_Hall_of_Jinling_in_1592.jpg",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史照片。",
-      "boundary": "1592世德堂本为明代小说图像，不是唐代玄奘现场。孙悟空只在书页想象中出现，不列入真实西行队伍。书坊图不声称复原某家1592年作坊；印刷传播不等于当时人人识字或人人拥有书。",
+      "license": "Public Domain Mark 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "1592年金陵世德堂本《西游记》中孙悟空与铁扇公主故事的跨页插图。",
+      "boundary": "1592年明代世德堂小说刊本插图，不是唐代玄奘西行现场或人物照片。孙悟空与铁扇公主属于文学想象。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/ming-novel-bookshop-v1.jpg"
+      "image": "/content/step-images/journey-west-shidetang-1592-print.jpg"
     },
     "presentation": {
       "kind": "object-workbench",
@@ -320,9 +320,13 @@
         "image": "/content/step-images/ming-novel-bookshop-v1.jpg"
       }
     ],
-    "coverImage": "/content/step-images/ming-novel-bookshop-v1.jpg",
-    "coverImageAlt": "印书与装订故事图",
+    "coverImage": "/content/step-images/journey-west-shidetang-1592-print.jpg",
+    "coverImageAlt": "1592年世德堂本《西游记》跨页插图",
     "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "《西游记》1592年刊本",
+      "fit": "contain"
+    },
     "coverAudio": {
       "id": "quest-775a3f2c857b52a1",
       "text": "真古书里画着孙悟空，但孙悟空不是历史上的真人。小伙伴走进书坊故事，看看图文怎样印出来、装成书。"
@@ -812,7 +816,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/ming-novel-bookshop-v1.jpg",
-              "imageAlt": "请整理装订的人接手"
+              "imageAlt": "请整理装订的人接手",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-e79df93bc9fd18d8.svg",
             "imageAlt": "请整理装订的人接手",
@@ -837,7 +842,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/ming-novel-bookshop-v1.jpg",
-              "imageAlt": "请印书的人再印一张"
+              "imageAlt": "请印书的人再印一张",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-c249b45860c70131.svg",
             "imageAlt": "请印书的人再印一张",

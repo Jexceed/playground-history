@@ -9,12 +9,13 @@
     "label": "元朝",
     "years": "1271—1368年",
     "learningContext": {
-      "childIntro": "许多政权并立之后，元朝完成统一。地方事情怎样办理，消息怎样送远？我们去看地方分工和驿站。",
+      "childIntro": "到元朝看地方怎样办事，消息怎样接力，也看看黄道婆把棉纺织手艺带给谁。",
       "chronology": "1271年定国号元，1279年南宋结束、元完成统一，1368年元朝在全国的统治结束；不能压为一次换牌。",
-      "covered": "中央地方分工、官驿规则、运输供给与劳动。",
+      "covered": "中央地方分工、官驿规则与供给劳动、黄道婆与棉纺织技艺传授。",
       "scopeBoundary": "元代族群、社会差异及海上交往在背景稿中；行省与今天省份不完全相同，也不把官驿等同全部商路。",
       "sourceIds": [
-        "NMC-LIAO-SONG-XIA-JIN-YUAN"
+        "NMC-LIAO-SONG-XIA-JIN-YUAN",
+        "ICH-HUANG-DAOPO"
       ],
       "sources": [
         {
@@ -22,6 +23,12 @@
           "title": "“古代中国”基本陈列：辽宋夏金元时期",
           "institution": "中国国家博物馆",
           "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+        },
+        {
+          "id": "ICH-HUANG-DAOPO",
+          "title": "乌泥泾手工棉纺织技艺",
+          "institution": "中国非物质文化遗产网",
+          "url": "https://www.ihchina.cn/project_details/14281/"
         }
       ]
     }
@@ -44,7 +51,7 @@
     "culture": "元代中央地方分工",
     "care": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
     "playableSource": "content/focused-quests.json",
-    "preferredAssetId": "yuan-local-affairs-v1"
+    "preferredAssetId": "yuan-dadu-wall-cutaway"
   },
   "learningGuide": {
     "id": "cn-ancient-07-04-yuan-unification",
@@ -300,18 +307,18 @@
       ]
     },
     "coverAsset": {
-      "id": "yuan-local-affairs-v1",
-      "title": "元代地方事务：现场核对与文书记录教学插画",
-      "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-local-affairs-v1.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "yuan-dadu-wall-cutaway",
+      "title": "元大都城墙遗址断面现状照片",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-dadu-wall-cutaway.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:700多年前所筑城墙断面清晰可见_-_panoramio.jpg",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史照片。",
-      "boundary": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "元代城墙遗址 · 2011年照片",
+      "boundary": "照片显示遗址土墙断面与现代植被，并非元代城市原貌；层状土迹是观察点，不能由照片推断行政制度。摄影mayanming，CC BY-SA 3.0。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/yuan-local-affairs-v1.jpg"
+      "image": "/content/step-images/yuan-dadu-wall-cutaway.jpg"
     },
     "presentation": {
       "kind": "object-workbench",
@@ -343,10 +350,10 @@
         "fictionNote": "1271定国号与1279完成统一分开。元大都城墙照片为遗址现状，不是元代原貌。修桥的查验、记录是虚构教学案例，不证明所有事务都按此逐级办理。行省与路府州县等基层层次不同，中央直接管理的腹里及其他区域另有制度，不能把全国画成同一套分区。元代行省与今天省份边界职能不相同。",
         "reunionFit": "contain",
         "reunionImage": "/content/step-images/yuan-friends-reunion-v1.jpg",
-        "stationLine": "许多政权并立之后，元朝完成统一。地方事情怎样办理，消息怎样送远？我们去看地方分工和驿站。",
+        "stationLine": "到元朝看地方怎样办事，消息怎样接力，也看看黄道婆把棉纺织手艺带给谁。",
         "stationAudio": {
-          "id": "quest-55d5658fefed3bf2",
-          "text": "许多政权并立之后，元朝完成统一。地方事情怎样办理，消息怎样送远？我们去看地方分工和驿站。"
+          "id": "quest-49bc0f3a08374184",
+          "text": "到元朝看地方怎样办事，消息怎样接力，也看看黄道婆把棉纺织手艺带给谁。"
         },
         "closingAudio": {
           "id": "quest-25351dcad6589006",
@@ -407,9 +414,13 @@
         "image": "/content/step-images/yuan-local-affairs-v1.jpg"
       }
     ],
-    "coverImage": "/content/step-images/yuan-local-affairs-v1.jpg",
-    "coverImageAlt": "元代地方事务：现场核对与文书记录教学插画",
+    "coverImage": "/content/step-images/yuan-dadu-wall-cutaway.jpg",
+    "coverImageAlt": "元大都城墙遗址断面现状照片",
     "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "元大都城墙遗址",
+      "fit": "cover"
+    },
     "coverAudio": {
       "id": "quest-c37504e88e77312b",
       "text": "元朝的都城大都在今天北京一带。管理这么多地方，能只靠都城里的人吗？小伙伴去看看地方的分工。"
@@ -900,7 +911,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/yuan-local-affairs-v1.jpg",
-              "imageAlt": "到桥边核对具体位置"
+              "imageAlt": "到桥边核对具体位置",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-bf124f6e7d905e23.svg",
             "imageAlt": "到桥边核对具体位置",
@@ -925,7 +937,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/yuan-local-affairs-v1.jpg",
-              "imageAlt": "在桌边继续整理文书"
+              "imageAlt": "在桌边继续整理文书",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-6e49b95df0fbc5b0.svg",
             "imageAlt": "在桌边继续整理文书",
@@ -1332,6 +1345,16 @@
       "type": "institution-history-reference",
       "authorityLevel": "A",
       "factUse": "公园建立在元大都土城遗址上；遗址现状与元朝都城的关系，不以照片重建古城",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "ICH-HUANG-DAOPO",
+      "title": "乌泥泾手工棉纺织技艺",
+      "institution": "中国非物质文化遗产网",
+      "url": "https://www.ihchina.cn/project_details/14281/",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "宋末元初黄道婆从崖州带回并传授棉纺织技艺，捍弹纺织不同工序及后世传承。",
       "imageUse": "reference-only"
     }
   ],

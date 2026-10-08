@@ -9,12 +9,13 @@
     "label": "宋朝（与辽·西夏·金并立）",
     "years": "916—1279年（宋960年起）",
     "learningContext": {
-      "childIntro": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+      "childIntro": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。",
       "chronology": "916是辽相关起点，宋从960年开始；北宋与南宋分期，辽与金先后更替、西夏存在其间。窗口范围不等于宋始于916年。",
-      "covered": "同年并立、城市劳动、活字、指南针、火药文献与宋词。",
+      "covered": "同年并立、城市劳动、活字、指南针、火药用途与文献、苏轼和李清照的词。",
       "scopeBoundary": "经济重心南移、海外贸易及政权关系在背景稿中；三项技术不能代表宋代生活全部。",
       "sourceIds": [
-        "NMC-LIAO-SONG-XIA-JIN-YUAN"
+        "NMC-LIAO-SONG-XIA-JIN-YUAN",
+        "BJWOMEN-LI-RUMENGLING"
       ],
       "sources": [
         {
@@ -22,6 +23,12 @@
           "title": "“古代中国”基本陈列：辽宋夏金元时期",
           "institution": "中国国家博物馆",
           "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+        },
+        {
+          "id": "BJWOMEN-LI-RUMENGLING",
+          "title": "如梦令：一帘幽梦，千种诗情",
+          "institution": "北京市妇联学习平台",
+          "url": "https://study.bjwomen.gov.cn/thought/knowledge/2022/05/20/3988.shtml"
         }
       ]
     }
@@ -43,7 +50,7 @@
     "place": "北宋活字记载；今天的印刷体验工坊",
     "culture": "沈括《梦溪笔谈》的活字记载",
     "care": "照片为北京印刷博物馆的木活字展示，不是毕昇泥活字原套。代码用三个简单字演示单块替换、反字到正字；不复原材料、加热、配方和完整传统工序。现代体验图不是宋代现场，活字没有立刻替代雕版。",
-    "preferredAssetId": "song-print-work-v1",
+    "preferredAssetId": "wooden-movable-type-museum-display",
     "playableSource": "content/focused-quests.json"
   },
   "learningGuide": {
@@ -219,18 +226,18 @@
     ],
     "photoAlbum": null,
     "coverAsset": {
-      "id": "song-print-work-v1",
-      "title": "毕昇的活字，怎样换一句话？故事插画",
-      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-print-work-v1.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "wooden-movable-type-museum-display",
+      "title": "木活字博物馆展示照片",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/wooden-movable-types.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Beijing_printing_museum.wooden_movable_types.jpg",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史照片。",
-      "boundary": "照片为北京印刷博物馆的木活字展示，不是毕昇泥活字原套。代码用三个简单字演示单块替换、反字到正字；不复原材料、加热、配方和完整传统工序。现代体验图不是宋代现场，活字没有立刻替代雕版。",
+      "license": "CC BY-SA 4.0",
+      "clearance": "cleared-open-license",
+      "caption": "北京印刷博物馆中的木活字展示。",
+      "boundary": "这是现代博物馆陈列的木活字，不是毕昇原物，也不是北宋泥活字。它只用于帮助儿童理解“单字可移动、可重排”的原理；活字印刷并未马上取代雕版印刷。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/song-print-work-v1.jpg"
+      "image": "/content/step-images/wooden-movable-type-museum-display.jpg"
     },
     "presentation": {
       "kind": "object-workbench",
@@ -261,10 +268,10 @@
         "closingLine": "一个个字块，拆开以后还能重排。",
         "fictionNote": "照片为北京印刷博物馆的木活字展示，不是毕昇泥活字原套。代码用三个简单字演示单块替换、反字到正字；不复原材料、加热、配方和完整传统工序。现代体验图不是宋代现场，活字没有立刻替代雕版。",
         "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
-        "stationLine": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+        "stationLine": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。",
         "stationAudio": {
-          "id": "quest-1bc1ed1a12336ca9",
-          "text": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。"
+          "id": "quest-8a55adf0ba4cb9a7",
+          "text": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。"
         },
         "closingAudio": {
           "id": "quest-cb8c9235f46770c1",
@@ -311,9 +318,13 @@
         "image": "/content/step-images/song-friends-reunion-v2.jpg"
       }
     ],
-    "coverImage": "/content/step-images/song-print-work-v1.jpg",
-    "coverImageAlt": "毕昇的活字，怎样换一句话？故事插画",
-    "coverImageKind": "故事插画",
+    "coverImage": "/content/step-images/wooden-movable-type-museum-display.jpg",
+    "coverImageAlt": "木活字博物馆展示照片",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "后世木活字展示",
+      "fit": "contain"
+    },
     "coverAudio": {
       "id": "quest-313328a2d5962b9b",
       "text": "一整页刻在一块版上，和一块一个字有什么不同？跟小伙伴试试拆换、重排，再看看印到纸上的变化。"
@@ -1177,6 +1188,16 @@
       "type": "museum-permanent-exhibition",
       "authorityLevel": "A",
       "factUse": "916—1368年多政权并立到统一、经济重心南移、城市商业、科技文化和宋元海外贸易的总体脉络",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "BJWOMEN-LI-RUMENGLING",
+      "title": "如梦令：一帘幽梦，千种诗情",
+      "institution": "北京市妇联学习平台",
+      "url": "https://study.bjwomen.gov.cn/thought/knowledge/2022/05/20/3988.shtml",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "李清照《如梦令·常记溪亭日暮》的全文及追忆、回舟、入荷丛和惊起水鸟的叙事。",
       "imageUse": "reference-only"
     }
   ],

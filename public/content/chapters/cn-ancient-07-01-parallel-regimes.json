@@ -9,12 +9,13 @@
     "label": "宋朝（与辽·西夏·金并立）",
     "years": "916—1279年（宋960年起）",
     "learningContext": {
-      "childIntro": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+      "childIntro": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。",
       "chronology": "916是辽相关起点，宋从960年开始；北宋与南宋分期，辽与金先后更替、西夏存在其间。窗口范围不等于宋始于916年。",
-      "covered": "同年并立、城市劳动、活字、指南针、火药文献与宋词。",
+      "covered": "同年并立、城市劳动、活字、指南针、火药用途与文献、苏轼和李清照的词。",
       "scopeBoundary": "经济重心南移、海外贸易及政权关系在背景稿中；三项技术不能代表宋代生活全部。",
       "sourceIds": [
-        "NMC-LIAO-SONG-XIA-JIN-YUAN"
+        "NMC-LIAO-SONG-XIA-JIN-YUAN",
+        "BJWOMEN-LI-RUMENGLING"
       ],
       "sources": [
         {
@@ -22,6 +23,12 @@
           "title": "“古代中国”基本陈列：辽宋夏金元时期",
           "institution": "中国国家博物馆",
           "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+        },
+        {
+          "id": "BJWOMEN-LI-RUMENGLING",
+          "title": "如梦令：一帘幽梦，千种诗情",
+          "institution": "北京市妇联学习平台",
+          "url": "https://study.bjwomen.gov.cn/thought/knowledge/2022/05/20/3988.shtml"
         }
       ]
     }
@@ -44,7 +51,7 @@
     "culture": "同年并立与先后变化",
     "care": "年份卡是关系学具，不画疆界或现代国家。三个图标同样大小不代表疆域大小；两个年份不是唯一并立组合，1111年还有其他政权。画卷为北宋艺术材料，不能当作1111年当天记录。",
     "playableSource": "content/focused-quests.json",
-    "preferredAssetId": "song-time-study-v2"
+    "preferredAssetId": "liao-tomb-mural-fragment-photo"
   },
   "learningGuide": {
     "id": "cn-ancient-07-01-parallel-regimes",
@@ -200,22 +207,36 @@
         "boundary": "画卷可帮助观察画家描绘的船只、桥梁、店铺和人群，但它是艺术作品，不是照片、人口普查或某一天的逐项现场记录。 这里展示的是原图局部，不作为完整构图。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/qingming-scroll-rainbow-bridge-detail.jpg"
+      },
+      {
+        "id": "liao-tomb-mural-fragment-photo",
+        "title": "辽墓人物壁画残片照片",
+        "localPath": "reference-assets/liao-song-xia-jin-yuan/liao-tomb-mural-fragment.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Fragment_of_a_Liao_dynasty_tomb_mural.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 3.0",
+        "clearance": "cleared-open-license",
+        "caption": "内蒙古林东北山开龙寺墓地出土的一块辽代人物壁画残片照片。",
+        "boundary": "辽代墓葬人物壁画残片的参观照片，开放许可为CC BY-SA 3.0。用于观察辽代留下的图像，不能仅凭面貌判断人物身份，也不能把一块残片当成完整壁画或各政权的全景。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/liao-tomb-mural-fragment-photo.jpg"
       }
     ],
     "photoAlbum": null,
     "coverAsset": {
-      "id": "song-time-study-v2",
-      "title": "同一年，历史里住着谁？故事插画",
-      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-time-study-v2.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "liao-tomb-mural-fragment-photo",
+      "title": "辽墓人物壁画残片照片",
+      "localPath": "reference-assets/liao-song-xia-jin-yuan/liao-tomb-mural-fragment.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fragment_of_a_Liao_dynasty_tomb_mural.jpg",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史照片。",
-      "boundary": "年份卡是关系学具，不画疆界或现代国家。三个图标同样大小不代表疆域大小；两个年份不是唯一并立组合，1111年还有其他政权。画卷为北宋艺术材料，不能当作1111年当天记录。",
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "内蒙古林东北山开龙寺墓地出土的一块辽代人物壁画残片照片。",
+      "boundary": "辽代墓葬人物壁画残片的参观照片，开放许可为CC BY-SA 3.0。用于观察辽代留下的图像，不能仅凭面貌判断人物身份，也不能把一块残片当成完整壁画或各政权的全景。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/song-time-study-v2.jpg"
+      "image": "/content/step-images/liao-tomb-mural-fragment-photo.jpg"
     },
     "presentation": {
       "kind": "object-workbench",
@@ -246,10 +267,10 @@
         "closingLine": "看清年份，也看见同时存在的历史。",
         "fictionNote": "年份卡是关系学具，不画疆界或现代国家。三个图标同样大小不代表疆域大小；两个年份不是唯一并立组合，1111年还有其他政权。画卷为北宋艺术材料，不能当作1111年当天记录。",
         "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
-        "stationLine": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。",
+        "stationLine": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。",
         "stationAudio": {
-          "id": "quest-1bc1ed1a12336ca9",
-          "text": "宋朝的时候，辽、西夏、金也先后存在。每个故事先听清年份，再看城市、技术和词里的人。"
+          "id": "quest-8a55adf0ba4cb9a7",
+          "text": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。"
         },
         "closingAudio": {
           "id": "quest-0efcde08c4e67f0c",
@@ -296,9 +317,13 @@
         "image": "/content/step-images/song-friends-reunion-v2.jpg"
       }
     ],
-    "coverImage": "/content/step-images/song-time-study-v2.jpg",
-    "coverImageAlt": "同一年，历史里住着谁？故事插画",
-    "coverImageKind": "故事插画",
+    "coverImage": "/content/step-images/liao-tomb-mural-fragment-photo.jpg",
+    "coverImageAlt": "辽墓人物壁画残片照片",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "辽代人物壁画残片",
+      "fit": "contain"
+    },
     "coverAudio": {
       "id": "quest-4e096226532d49e9",
       "text": "北宋的时候，辽和西夏也存在。后来年份变了，同一幅时间图里还有哪些政权？"
@@ -1134,6 +1159,16 @@
       "authorityLevel": "A-structure-only",
       "factUse": "2026年新修订七年级下册的通史脉络、地图与史料方法，以及第21课明清科技文化结构；不替代逐条史实来源",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "BJWOMEN-LI-RUMENGLING",
+      "title": "如梦令：一帘幽梦，千种诗情",
+      "institution": "北京市妇联学习平台",
+      "url": "https://study.bjwomen.gov.cn/thought/knowledge/2022/05/20/3988.shtml",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "李清照《如梦令·常记溪亭日暮》的全文及追忆、回舟、入荷丛和惊起水鸟的叙事。",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1277,7 +1312,7 @@
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "内蒙古林东北山开龙寺墓地出土的一块辽代人物壁画残片照片。",
-      "boundary": "具体出土信息来自Commons文件说明，课程只将其作为辽代墓葬彩绘残片的观察材料。它不是完整壁画、人物肖像照或族群身份鉴定材料；不得仅凭面貌判断人物身份。下载为1920像素等比例图，未作其他修改。",
+      "boundary": "辽代墓葬人物壁画残片的参观照片，开放许可为CC BY-SA 3.0。用于观察辽代留下的图像，不能仅凭面貌判断人物身份，也不能把一块残片当成完整壁画或各政权的全景。",
       "childVisibility": "child-ok"
     },
     {

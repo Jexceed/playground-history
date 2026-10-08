@@ -6,8 +6,9 @@ const write=(p,d)=>fs.writeFileSync(p,JSON.stringify(d,null,2)+'\n');
 const focused=read('content/focused-quests.json');
 const sources=new Set(read('content/sources.json').sources.map(s=>s.id));
 const scope=read('content/preview-scope.json');
-if(focused.chapters.length!==34||new Set(focused.chapters.map(c=>c.id)).size!==34||scope.chapterIds.some(id=>!focused.chapters.some(c=>c.id===id)))throw new Error('Focused scope must match 34 authored chapters');
-const registry={schemaVersion:1,scope:'秦至清逐题自制学习图；由 focused-quests.json 生成',generatedFrom:'content/focused-quests.json',assets:[]};
+const focusedIds=new Set(focused.chapters.map(c=>c.id));
+if(focusedIds.size!==focused.chapters.length||new Set(scope.chapterIds).size!==scope.chapterIds.length||focusedIds.size!==scope.chapterIds.length||scope.chapterIds.some(id=>!focusedIds.has(id)))throw new Error('Focused scope must match authored chapters exactly');
+const registry={schemaVersion:1,scope:'中国历史逐题自制学习图；由 focused-quests.json 生成',generatedFrom:'content/focused-quests.json',assets:[]};
 const seen=new Map();
 fs.mkdirSync('reference-assets/focused-quests',{recursive:true});
 fs.mkdirSync('public/content/study-scenes',{recursive:true});
@@ -60,7 +61,7 @@ for(const dir of ['reference-assets/focused-quests','public/content/study-scenes
  for(const file of fs.readdirSync(dir))if(/^study-[a-f0-9]{16}\.svg$/.test(file)&&!seen.has(file.slice(0,-4)))fs.unlinkSync(`${dir}/${file}`);
 }
 registry.assets=[...seen.values()];write('content/assets/focused-quests-assets.json',registry);
-fs.writeFileSync('reference-assets/focused-quests/ATTRIBUTION.md',`# 秦至清逐题学习图\n\n由本项目自行绘制的SVG几何示意。内容描述来自 content/focused-quests.json；绘图实现为 scripts/lib/study-visuals.mjs，运行 scripts/prepare-focused-quests.mjs 可重建。\n\n作者：小小历史旅行团项目。使用范围：供本项目本机试玩与后续产品开发使用，未另行授予公共开放许可。没有将外部图片描摹或拼入本批图形。\n\n这些图用来表示形状、动作、先后和协作，不是历史现场复原；人物不声称肖像相似，政权图不绘制真实疆界。原始文物照片仍沿用各自正式登记与署名。\n`);
+fs.writeFileSync('reference-assets/focused-quests/ATTRIBUTION.md',`# 中国历史逐题学习图\n\n由本项目自行绘制的SVG几何示意。内容描述来自 content/focused-quests.json；绘图实现为 scripts/lib/study-visuals.mjs，运行 scripts/prepare-focused-quests.mjs 可重建。\n\n作者：小小历史旅行团项目。使用范围：供本项目本机试玩与后续产品开发使用，未另行授予公共开放许可。没有将外部图片描摹或拼入本批图形。\n\n这些图用来表示形状、动作、先后和协作，不是历史现场复原；人物不声称肖像相似，政权图不绘制真实疆界。原始文物照片仍沿用各自正式登记与署名。\n`);
 // These two source indexes are kept in sync with the authored playable mainline.
 const entries=read('content/child-entry-points.json'),paths=read('content/quest-story-paths.json'),textbook=read('content/textbook-connections.json');
 for(const chapter of focused.chapters){
@@ -80,4 +81,4 @@ for(const chapter of focused.chapters){
  bridge.sourceIds=[...new Set([...bridge.sourceIds,...chapter.sourceIds])];
 }
 write('content/child-entry-points.json',entries);write('content/quest-story-paths.json',paths);write('content/textbook-connections.json',textbook);
-console.log(`逐题学习图：${seen.size} 个；34章儿童入口与连续故事同步。`);
+console.log(`逐题学习图：${seen.size} 个；${focused.chapters.length}章儿童入口与连续故事同步。`);

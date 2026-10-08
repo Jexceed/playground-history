@@ -16,7 +16,7 @@ test('the Qin measurement task keeps its real artifact and ruler workbench',()=>
   const manifest=JSON.parse(readFileSync(new URL('../public/content/preview-manifest.json',import.meta.url)));
   const chapters=manifest.tracks.flatMap(t=>t.chapters);
   const enabled=chapters.filter(c=>c.gameplay.presentation);
-  assert.deepEqual(enabled.filter(c=>/^cn-ancient-0[45]-/.test(c.id)).map(c=>c.id).sort(),['cn-ancient-04-01-qin-unification','cn-ancient-04-02-han-governance','cn-ancient-04-03-silk-road','cn-ancient-04-04-han-knowledge','cn-ancient-04-05-qin-great-wall','cn-ancient-05-01-division-migration','cn-ancient-05-02-jiangnan-development','cn-ancient-05-03-ethnic-interaction','cn-ancient-05-04-science-art','cn-ancient-05-05-dunhuang-story']);
+  assert.deepEqual(enabled.filter(c=>/^cn-ancient-0[45]-/.test(c.id)).map(c=>c.id).sort(),['cn-ancient-04-01-qin-unification','cn-ancient-04-02-han-governance','cn-ancient-04-03-silk-road','cn-ancient-04-04-han-knowledge','cn-ancient-04-05-qin-great-wall','cn-ancient-04-06-han-palace-lantern','cn-ancient-04-07-sima-qian-shiji','cn-ancient-04-08-qin-terracotta','cn-ancient-05-01-division-migration','cn-ancient-05-02-jiangnan-development','cn-ancient-05-03-ethnic-interaction','cn-ancient-05-04-science-art','cn-ancient-05-05-dunhuang-story']);
   const game=enabled.find(c=>c.id==='cn-ancient-04-01-qin-unification').gameplay;
   assert.equal(game.coverAsset.id,'qin-han-qin-standard-weight');
   assert.equal(game.evidence[0].id,'qin-han-qin-standard-weight');
@@ -54,7 +54,7 @@ test('the Qin story has departure, discovery and reunion without dropping the ar
   assert.ok(game.coverAudio.text.includes('旅行团'));
   assert.deepEqual(game.finish.introAudio,game.presentation.story.closingAudio);
   assert.equal(game.evidence[0].id,'qin-han-qin-standard-weight');
-  assert.equal(source.chapters.filter(c=>/^cn-ancient-0[45]-/.test(c.id)&&c.presentation?.story).length,10);
+  assert.equal(source.chapters.filter(c=>/^cn-ancient-0[45]-/.test(c.id)&&c.presentation?.story).length,13);
 });
 
 test('the Great Wall task connects wall-joining, finding guards and choosing a lookout plan',()=>{

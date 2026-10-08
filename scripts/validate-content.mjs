@@ -53,6 +53,7 @@ const voicePronunciations = readJson("content/voice-pronunciations.json");
 const voiceInterface = readJson("content/voice-interface-lines.json");
 const sourceRegistry = readJson("content/sources.json");
 const assetRegistryPaths = [
+  "content/assets/china-expansion-assets.json",
   "content/assets/focused-quests-assets.json",
   "content/assets/homepage-ui-assets.json",
   "content/assets/tang-changan-assets.json",
@@ -183,6 +184,16 @@ unique(voiceInterface.lines.map((item) => item.id), "儿童界面语音 ID");
 for (const line of voiceInterface.lines) {
   assert(typeof line.text === "string" && line.text.trim(), `儿童界面语音 ${line.id} 缺少文字`);
 }
+const playRoutes=readJson('content/play-routes.json').routes;
+unique(playRoutes.map(r=>r.id),'主题路线 ID');
+const previewChapterIds=new Set(readJson('content/preview-scope.json').chapterIds);
+for(const route of playRoutes){
+ assert(route.title&&route.intro&&route.chapterIds?.length,`主题${route.id}缺少内容`);
+ unique(route.chapterIds,`主题${route.id}章节 ID`);
+ assert(route.chapterIds.every(id=>id.startsWith('cn-ancient-')&&previewChapterIds.has(id)),`主题${route.id}不能引用范围外章节`);
+ assert(fs.existsSync(path.join(root,'public',route.iconSrc)),`主题${route.id}图标不存在`);
+ assert(voiceInterface.lines.some(line=>line.id===route.voiceId&&line.text===route.intro),`主题${route.id}语音与引导不同步`);
+}
 
 assert(voicePronunciations.audience.includes("编辑"), "配音读音表必须明确用于编辑校听");
 assert(voicePronunciations.status.includes("pending"), "配音读音表在正式定音前必须保持待校听状态");
@@ -250,7 +261,7 @@ for (const periodId of expectedAncientPeriodIds) {
 }
 const mergedPeriodIds = new Set(["qin-han", "sui-tang-five-dynasties", "liao-song-xia-jin-yuan", "ming-qing"]);
 assert(!catalog.periods.some((period) => mergedPeriodIds.has(period.id)), "秦至清重要时期不得继续使用合并站 ID");
-assert(catalog.chapters.length === 43, `中国古代史目录应有 43 章，当前为 ${catalog.chapters.length}`);
+assert(catalog.chapters.length === 52, `中国古代史目录应有 52 章，当前为 ${catalog.chapters.length}`);
 assert(!catalog.periods.some((period) => period.id === "liao-xia-jin"), "辽·西夏·金不应保留独立导航站");
 assert(catalog.chapters.find((chapter) => chapter.id === "cn-ancient-07-01-parallel-regimes")?.periodId === "song", "辽宋夏金并立故事必须收进宋站同一窗口");
 for (const chapterId of ["cn-ancient-04-05-qin-great-wall", "cn-ancient-06-08-zhenguan-governance", "cn-ancient-07-07-song-compass-navigation", "cn-ancient-07-08-song-gunpowder-records"]) {
@@ -263,7 +274,7 @@ assert(catalogs[2].trackId === "china-contemporary", "第三份目录必须属�
 assert(catalogs[2].periods.length === 4, `中国现代史目录应有 4 个阶段，当前为 ${catalogs[2].periods.length}`);
 assert(catalogs[2].chapters.length === 10, `中国现代史目录应有 10 章，当前为 ${catalogs[2].chapters.length}`);
 const expectedCatalogs = [
-  ["china-ancient", 43],
+  ["china-ancient", 52],
   ["china-modern", 14],
   ["china-contemporary", 10],
   ["world-ancient", 10],

@@ -1,0 +1,67 @@
+
+> chronicle-bureau-prototype@0.1.0 build
+> npm run content:pack && WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build
+
+
+> chronicle-bureau-prototype@0.1.0 content:pack
+> node scripts/prepare-focused-quests.mjs && node scripts/validate-content.mjs && node scripts/build-content-pack.mjs && node scripts/generate-content-thumbnails.mjs && node scripts/audit-gameplay-coherence.mjs
+
+逐题学习图：398 个；44章儿童入口与连续故事同步。
+内容校验通过：7 个课程板块，共 112 章。
+其中：中国史 76 章，世界史 30 章，跨学科 6 章。
+已有详稿 112 章，研究标记verified 103 章（不等于逐条终审），最终审核通过 0 章。
+事实卡 2655 条，另列学习方法 74 项；编辑屏幕 702 屏，语音稿 774 段，互动 357 个。
+低龄兴趣入口 112 章，均含实物入口与地点连接。
+儿童口语词典 97 词，112章均已匹配难词解释。
+配音读音表 202 项、年代读法 7 条，112章均有编辑校听入口。
+来源登记 1044 条，素材登记 979 条，其中已清权本地素材 976 条。
+本机研究素材缓存 974/974 个文件；发布包构建不强制携带原始研究缓存。
+内容包生成完成：7 个板块，112 章。
+章节缩略图生成完成：112 张；步骤图片 326 张。
+结构审计：完整库112章/560步；本轮44章/220步，220张选项图、63个阅读步骤、73个图中提问、88条结束动作。真实儿童审核仍待进行。
+
+  vinext build  (Vite 8.0.13)
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+[1/5] analyze client references...
+[2Ktransforming...✓ 132 modules transformed.
+rendering chunks...
+✓ built in 389ms
+[2/5] analyze server references...
+[2Ktransforming...✓ 123 modules transformed.
+rendering chunks...
+✓ built in 90ms
+[3/5] build rsc environment...
+[2Ktransforming...✓ 138 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 256ms
+[4/5] build client environment...
+[2Ktransforming...✓ 131 modules transformed.
+rendering chunks...
+computing gzip size...
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 1.86s
+[5/5] build ssr environment...
+[2Ktransforming...✓ 129 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 182ms
+[0m
+  Route (app)
+  ─ ? /
+
+  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+
+  Build complete. Run `vinext start` to start the production server.
+

@@ -115,6 +115,8 @@ for (const shortId of chapters) {
     if (await page.$('.station-panel')) { await page.click('.panel-close').catch(()=>{}); await page.waitForTimeout(300); }
     if (await page.$('.quest-cover, .object-quest, .quest-finish')) { await page.click('.back-link').catch(()=>{}); await page.waitForTimeout(500); }
     if (await page.$('.station-panel')) { await page.click('.panel-close').catch(()=>{}); await page.waitForTimeout(300); }
+    await page.click('.primary-action');
+    await page.waitForSelector('.station-picker');
     await page.click(`button[data-period-id="${STATION[shortId]}"]`);
     await page.waitForSelector('.station-panel');
     await page.click(`button[data-chapter-id="${id}"]`);

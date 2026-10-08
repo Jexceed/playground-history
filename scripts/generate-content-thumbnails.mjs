@@ -31,7 +31,9 @@ for (const chapter of manifest.tracks.flatMap((track) => track.chapters)) {
     if (/\.svg$/i.test(stepAsset.localPath)) {
       fs.copyFileSync(path.join(root, stepAsset.localPath), path.join(stepOutputRoot, `${stepAsset.id}.svg`));
     } else {
-      execFileSync("sips", ["-Z", "900", "-s", "format", "jpeg", "-s", "formatOptions", "84", path.join(root, stepAsset.localPath), "--out", path.join(stepOutputRoot, `${stepAsset.id}.jpg`)], {
+      const maxEdge=stepAsset.runtimeMaxEdge??900;
+      if(!Number.isInteger(maxEdge)||maxEdge<900||maxEdge>2400)throw new Error(`Invalid runtime image size: ${stepAsset.id}`);
+      execFileSync("sips", ["-Z", String(maxEdge), "-s", "format", "jpeg", "-s", "formatOptions", stepAsset.runtimeMaxEdge?"88":"84", path.join(root, stepAsset.localPath), "--out", path.join(stepOutputRoot, `${stepAsset.id}.jpg`)], {
         stdio: "ignore",
       });
     }

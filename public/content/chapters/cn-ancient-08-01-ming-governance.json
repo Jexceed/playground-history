@@ -51,7 +51,7 @@
     "culture": "明代票拟与实际办理",
     "care": "明初1380年废丞相与后来内阁形成票拟分开，不压成同一年。三扇故事窗表示不同地点的虚构角色分工，不是洪武在北京办公或真实奏章。批红也可能由司礼监代行，不把皇权集中等同于决策必然正确。",
     "playableSource": "content/focused-quests.json",
-    "preferredAssetId": "ming-court-work-v1"
+    "preferredAssetId": "forbidden-city-hall-current-photo"
   },
   "learningGuide": {
     "id": "cn-ancient-08-01-ming-governance",
@@ -212,18 +212,18 @@
     ],
     "photoAlbum": null,
     "coverAsset": {
-      "id": "ming-court-work-v1",
-      "title": "明代意见、决定与办理故事图",
-      "localPath": "reference-assets/ming-qing/ming-court-work-v1.png",
-      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "id": "forbidden-city-hall-current-photo",
+      "title": "故宫太和殿区域现状照片",
+      "localPath": "reference-assets/ming-qing/hall-supreme-harmony-current.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_Forbidden_City.jpg",
       "sourceFile": null,
       "licensePath": null,
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史照片。",
-      "boundary": "明初1380年废丞相与后来内阁形成票拟分开，不压成同一年。三扇故事窗表示不同地点的虚构角色分工，不是洪武在北京办公或真实奏章。批红也可能由司礼监代行，不把皇权集中等同于决策必然正确。",
+      "license": "CC BY 3.0 PL",
+      "clearance": "cleared-open-license",
+      "caption": "今天北京故宫太和殿区域的现状照片。",
+      "boundary": "2009年现状照片，有现代游客。北京宫殿1420年建成与明朝1368年建立不是同一事件；今天太和殿为清康熙重建后的形制，用于举行盛大典礼，不能把此图当洪武办公现场。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/ming-court-work-v1.jpg"
+      "image": "/content/step-images/forbidden-city-hall-current-photo.jpg"
     },
     "presentation": {
       "kind": "object-workbench",
@@ -319,9 +319,13 @@
         "image": "/content/step-images/ming-court-work-v1.jpg"
       }
     ],
-    "coverImage": "/content/step-images/ming-court-work-v1.jpg",
-    "coverImageAlt": "明代意见、决定与办理故事图",
+    "coverImage": "/content/step-images/forbidden-city-hall-current-photo.jpg",
+    "coverImageAlt": "故宫太和殿区域现状照片",
     "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "太和殿今景 · 清代重建",
+      "fit": "cover"
+    },
     "coverAudio": {
       "id": "quest-29af1a0a3b72a802",
       "text": "宫里批好一份文书，河边的水闸就会自己修好吗？小伙伴去找提意见、作决定和实际做事的人。"
@@ -818,7 +822,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/ming-court-work-v1.jpg",
-              "imageAlt": "到河边实际修理的人"
+              "imageAlt": "到河边实际修理的人",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-e20f6421fbcf2e11.svg",
             "imageAlt": "到河边实际修理的人",
@@ -843,7 +848,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/ming-court-work-v1.jpg",
-              "imageAlt": "继续在桌边拟意见的人"
+              "imageAlt": "继续在桌边拟意见的人",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-511ee9526afeae2a.svg",
             "imageAlt": "继续在桌边拟意见的人",

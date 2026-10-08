@@ -29,6 +29,11 @@ const compass=()=>circle(50,50,39,'#d2e8e1')+path('M50 13L62 50L50 87L38 50Z','#
 const grain=()=>path('M50 91V20M50 62L25 48M50 48L74 35M50 77L24 64')+path('M48 31Q25 34 28 14Q49 11 48 31M53 47Q74 53 79 30Q55 22 53 47M44 60Q25 66 18 43Q41 39 44 60M51 76Q69 77 78 54Q56 49 51 76','#ddbb64');
 const map=()=>path('M10 22L35 13L63 24L90 14V79L64 89L35 77L10 89Z','#d3e5d7')+path('M35 13V77M63 24V89')+path('M19 67Q38 24 52 60T83 33');
 const icons={
+ flower:()=>path('M50 88V43M49 68Q22 47 20 64Q22 79 49 78M51 60Q80 38 82 55Q79 72 51 71')+[circle(37,32,13,'#dd9b8c'),circle(61,31,13,'#dd9b8c'),circle(33,49,13,'#dd9b8c'),circle(65,49,13,'#dd9b8c'),circle(49,56,13,'#dd9b8c'),circle(49,41,11,'#e8c971')].join(''),
+ bird:()=>path('M7 54Q27 5 48 46Q71 4 96 24Q75 56 57 62L38 80 40 60Z','#f9f6e9')+path('M53 55Q60 39 74 43L95 46L73 51M41 72L24 88M47 75L36 93'),
+ 'rain-heavy':()=>icons.cloud()+Array.from({length:8},(_,i)=>path(`M${12+i*11} 73l-9 24`)).join(''),
+ 'bamboo-plant':()=>path('M36 89V16M61 92V8M34 40H39M59 31H64M34 65H39M59 62H64')+path('M36 42Q11 17 5 29Q11 44 36 42M60 29Q83 6 96 16Q89 32 60 29M60 59Q87 34 94 49Q87 64 60 59','#729e7c')+path('M20 98L26 83L53 79L80 97Z','#d5c3a6'),
+ 'bamboo-broken':()=>path('M39 90V59L61 29M37 64H42M59 33L65 37')+path('M59 35Q80 11 91 22Q82 40 59 35','#729e7c')+path('M20 98L26 83L53 79L80 97Z','#d5c3a6'),
  ruler:()=>ruler(), equal:()=>group(ruler(3),0,-16)+group(ruler(3),0,24), unequal:()=>group(ruler(3),0,-16)+group(ruler(3),0,35,.66),
  coin:()=>circle(50,50,37,'#c5ad64')+rect(37,37,26,26,'#fffaf0',1),squarecoin:()=>rect(13,13,74,74,'#c5ad64',2)+circle(50,50,14,'#fffaf0'),
  weight:()=>path('M26 82L34 37H66L76 82Z','#859d91')+circle(50,29,11,'#fffaf0'),cup:()=>path('M23 23H77L69 84H31Z','#dcb786')+path('M77 31Q103 27 85 59H73'),

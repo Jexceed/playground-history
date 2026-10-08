@@ -9,12 +9,14 @@
     "label": "唐朝",
     "years": "618—907年",
     "learningContext": {
-      "childIntro": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
+      "childIntro": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。",
       "chronology": "618—907年为唐朝范围；本组故事分属不同时期，贞观、开元通宝始铸、开元年号不可混为一个节点。",
-      "covered": "治理恢复、钱名与年号、城市乐舞、译经、书法与诗。",
+      "covered": "治理恢复、钱名与年号、城市乐舞、译经与东渡传授、书法与诗。",
       "scopeBoundary": "科举、唐前后期变化等在背景稿中；李白诗作和颜真卿文稿不能被拼成唐朝始终繁盛的单一画面。",
       "sourceIds": [
-        "NMC-SUI-TANG-FIVE-DYNASTIES"
+        "NMC-SUI-TANG-FIVE-DYNASTIES",
+        "EDB-DUFU-SPRING-RAIN",
+        "NMC-JIANZHEN-STORY"
       ],
       "sources": [
         {
@@ -22,6 +24,18 @@
           "title": "“古代中国”基本陈列：隋唐五代时期",
           "institution": "中国国家博物馆",
           "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html"
+        },
+        {
+          "id": "EDB-DUFU-SPRING-RAIN",
+          "title": "《春夜喜雨》朗读参考，第1页",
+          "institution": "香港特别行政区政府教育局",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/pth_lt/19_chun_ye_xi_yu.pdf"
+        },
+        {
+          "id": "NMC-JIANZHEN-STORY",
+          "title": "中华史诗美术大展：鉴真东渡",
+          "institution": "中国国家博物馆",
+          "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/"
         }
       ]
     }
@@ -254,10 +268,10 @@
         "closingLine": "轻轻望月，也想起牵挂的地方。",
         "fictionNote": "梁楷画像作于南宋13世纪，是后世艺术形象而非李白生前写真。诗意图是现代小伙伴代入阅读，不指定李白当晚房间、城市或具体家人。采用通行小学文本；不把诗当日记、月光当真霜，不用背诵分数评价感受。",
         "reunionImage": "/content/step-images/tang-poem-reunion-v1.jpg",
-        "stationLine": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。",
+        "stationLine": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。",
         "stationAudio": {
-          "id": "quest-02a554bf66a28d47",
-          "text": "唐初人们慢慢恢复生活，城市里也有远方来客。看看钱、乐舞、译书和诗文，各自留下了什么线索。"
+          "id": "quest-a249391b3ff41a8f",
+          "text": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。"
         },
         "closingAudio": {
           "id": "quest-e890e2afc1d698b8",
@@ -321,6 +335,10 @@
     "coverImage": "/content/step-images/li-bai-strolling-song-painting.jpg",
     "coverImageAlt": "南宋梁楷《李白行吟图》",
     "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "南宋梁楷画李白",
+      "fit": "contain"
+    },
     "coverAudio": {
       "id": "quest-105c8f86fea3deb8",
       "text": "小小旅行团到了唐朝！“举头望明月，低头思故乡。”先安静听一遍，再跟小伙伴感受望月与想家的心情。"
@@ -792,7 +810,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/tang-poem-actions-v1.jpg",
-              "imageAlt": "心里想念的家乡"
+              "imageAlt": "心里想念的家乡",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-7cfe446c5881d83c.svg",
             "imageAlt": "心里想念的家乡",
@@ -817,7 +836,8 @@
                 "sourceHeight": 1024
               },
               "image": "/content/step-images/tang-poem-actions-v1.jpg",
-              "imageAlt": "窗外看见的明月"
+              "imageAlt": "窗外看见的明月",
+              "imageLabel": "故事插画"
             },
             "image": "/content/study-scenes/study-4a52fbb316567374.svg",
             "imageAlt": "窗外看见的明月",
@@ -1217,6 +1237,26 @@
       "type": "museum-permanent-exhibition",
       "authorityLevel": "A",
       "factUse": "581—960年隋朝统一、唐前期发展、安史之乱后变化、五代十国以及经济文化延续的总体脉络",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "EDB-DUFU-SPRING-RAIN",
+      "title": "《春夜喜雨》朗读参考，第1页",
+      "institution": "香港特别行政区政府教育局",
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/pth_lt/19_chun_ye_xi_yu.pdf",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "杜甫诗的原文、细雨润物、夜与晨景及喜悦表达；不据诗推定整年雨情。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-JIANZHEN-STORY",
+      "title": "中华史诗美术大展：鉴真东渡",
+      "institution": "中国国家博物馆",
+      "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "唐代鉴真受邀东渡、典籍与文化传授、同行协作；出海到达与入奈良分开，不用展览新画作现场照片。",
       "imageUse": "reference-only"
     }
   ],

@@ -1,0 +1,1471 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.13.0",
+  "id": "cn-ancient-04-08-qin-terracotta",
+  "trackId": "china-ancient",
+  "trackLabel": "中国古代史",
+  "period": {
+    "id": "qin",
+    "label": "秦朝",
+    "years": "前221—前207年",
+    "learningContext": {
+      "childIntro": "到秦朝看共同的标准、守卫边地的长城，再从兵马俑的细节认识工匠留下的线索。",
+      "chronology": "前221年统一六国，前207年秦朝结束。统一不是各地生活一夜相同。",
+      "covered": "共同标准、边地防守与劳动配合、兵马俑的陪葬用途与文物线索。",
+      "scopeBoundary": "三章分别取共同标准、边地防守与陶俑证据。郡县制、统一文字和秦末变化尚未单独展开，不代表秦史全貌。",
+      "sourceIds": [
+        "NMC-QIN-HAN-OVERVIEW",
+        "UNESCO-QIN-TERRACOTTA"
+      ],
+      "sources": [
+        {
+          "id": "NMC-QIN-HAN-OVERVIEW",
+          "title": "“古代中国”基本陈列：秦汉时期",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+        },
+        {
+          "id": "UNESCO-QIN-TERRACOTTA",
+          "title": "秦始皇陵及兵马俑遗产记录",
+          "institution": "UNESCO世界遗产中心",
+          "url": "https://whc.unesco.org/en/list/441/"
+        }
+      ]
+    }
+  },
+  "order": 44,
+  "title": "兵马俑留下了哪些线索？",
+  "coreQuestion": "秦始皇陵旁有陶做的人和马。小伙伴发现它们的姿势不一样，哪些细节能让我们认识秦代的工匠和军队？",
+  "throughline": "兵马俑是秦始皇陵的陪葬陶塑。姿态、服饰和制作细节留下秦代的线索，今天的人还在研究和保护它们。",
+  "childEntry": {
+    "id": "cn-ancient-04-08-qin-terracotta",
+    "childTitle": "兵马俑留下了哪些线索？",
+    "prompt": "秦始皇陵旁有陶做的人和马。小伙伴发现它们的姿势不一样，哪些细节能让我们认识秦代的工匠和军队？",
+    "takeaway": "兵马俑是秦始皇陵的陪葬陶塑。姿态、服饰和制作细节留下秦代的线索，今天的人还在研究和保护它们。",
+    "object": "秦代跪射俑 · 文物照片",
+    "people": [
+      "秦代工匠",
+      "兵马俑"
+    ],
+    "place": "秦始皇陵与今天的博物馆",
+    "culture": "秦代工匠与兵马俑",
+    "care": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+    "preferredAssetId": "qin-kneeling-archer",
+    "playableSource": "content/focused-quests.json"
+  },
+  "learningGuide": {
+    "id": "cn-ancient-04-08-qin-terracotta",
+    "theme": "材料与时间",
+    "learningGoal": "从陶塑的姿态与服饰理解陪葬用途和历史证据。",
+    "parentQuestion": "这些陶人为什么在帝陵旁？你从哪里看见姿态和服饰的线索？",
+    "observe": "指弯曲的腿和铠甲细节，知道是陶塑而不是真人。",
+    "misconception": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+    "evidenceStepIds": [
+      "time",
+      "journey",
+      "change",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "UNESCO-QIN-TERRACOTTA"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-04-01-qin-unification",
+        "relation": "比较两章的材料与用途，留意人物、年代和任务不同。"
+      }
+    ],
+    "reviewStatus": "authored-implementation-family-test-pending",
+    "glossaryTerms": [
+      "文物",
+      "军队",
+      "陵墓",
+      "陪葬"
+    ]
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-04-08-qin-terracotta",
+    "featured": {
+      "type": "人物与材料",
+      "icon": "📖",
+      "title": "秦代工匠与兵马俑",
+      "childBridge": "秦始皇陵旁有陶做的人和马。小伙伴发现它们的姿势不一样，哪些细节能让我们认识秦代的工匠和军队？",
+      "evidenceBoundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。"
+    },
+    "companions": [
+      {
+        "type": "地点",
+        "label": "秦始皇陵与今天的博物馆",
+        "note": "地点与时代分别核对。"
+      },
+      {
+        "type": "材料",
+        "label": "秦代跪射俑 · 文物照片",
+        "note": "实物或书影用于观察，文献用于解释。"
+      }
+    ],
+    "sourceIds": [
+      "UNESCO-QIN-TERRACOTTA",
+      "MOE-HISTORY-CURRICULUM-2022"
+    ]
+  },
+  "childStory": [
+    {
+      "id": "time",
+      "icon": "🕰️",
+      "label": "陶俑来自秦代",
+      "text": "秦始皇去世后安葬的地方，叫陵墓。陶人陶马作为陪葬放在周围。我们先到秦朝，看看工匠留下的陶塑。"
+    },
+    {
+      "id": "beginning",
+      "icon": "🔎",
+      "label": "先弄清它为什么在这里",
+      "text": "秦始皇陵旁安排了陶人、陶马等陪葬物。这些形象让我们看见古人的想法和工匠的工作，不是真士兵变成的。"
+    },
+    {
+      "id": "journey",
+      "icon": "🧭",
+      "label": "从姿势和服饰找线索",
+      "text": "这件真陶俑弯着一条腿，身上有一片片铠甲。先找弯曲的腿，再找铠甲，看工匠留下的细节。"
+    },
+    {
+      "id": "change",
+      "icon": "✨",
+      "label": "姿态相同，细节仍要看原物",
+      "text": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。"
+    },
+    {
+      "id": "takeaway",
+      "icon": "🗣️",
+      "label": "把陶塑的发现带回家",
+      "text": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "文物",
+      "icon": "🏺",
+      "plain": "从过去保存下来、能帮助认识历史的东西。",
+      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+      "priority": 1
+    },
+    {
+      "term": "军队",
+      "icon": "🛡️",
+      "plain": "由国家或政治力量组织的武装人员。",
+      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
+      "priority": 3
+    },
+    {
+      "term": "陵墓",
+      "icon": "🏛️",
+      "plain": "安葬去世者的地方。",
+      "example": "兵马俑在秦始皇陵的陪葬坑里。",
+      "priority": 2
+    },
+    {
+      "term": "陪葬",
+      "icon": "🏺",
+      "plain": "古人放在陵墓里或周围的物品。",
+      "example": "秦始皇陵周围的陶人陶马，是陪葬遗存。",
+      "priority": 2
+    }
+  ],
+  "pronunciations": [
+    {
+      "text": "跪射",
+      "reading": "guì shè",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-04-08-qin-terracotta"
+      ],
+      "note": "本轮新增中国历史任务的校听项；自动匹配不替代人工试听。"
+    }
+  ],
+  "gameplay": {
+    "mode": "authored-picture-quest-v4",
+    "status": "playable-core",
+    "audioStatus": "local-pre-generated",
+    "hook": {
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "兵马俑留下了哪些线索？",
+      "question": "秦始皇陵旁有陶做的人和马。小伙伴发现它们的姿势不一样，哪些细节能让我们认识秦代的工匠和军队？"
+    },
+    "cta": "看陶俑的姿势和衣服",
+    "anchor": "秦代工匠与兵马俑",
+    "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+    "evidence": [
+      {
+        "id": "qin-kneeling-archer",
+        "title": "秦代跪射俑 · 文物照片",
+        "localPath": "reference-assets/china-expansion/qin-archer-full.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kneeling_archer_of_the_Terracotta_Army.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 4.0",
+        "clearance": "cleared-open-license",
+        "caption": "秦代跪射俑 · 文物照片",
+        "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-kneeling-archer.jpg"
+      }
+    ],
+    "photoAlbum": null,
+    "coverAsset": {
+      "id": "qin-kneeling-archer",
+      "title": "秦代跪射俑 · 文物照片",
+      "localPath": "reference-assets/china-expansion/qin-archer-full.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kneeling_archer_of_the_Terracotta_Army.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 4.0",
+      "clearance": "cleared-open-license",
+      "caption": "秦代跪射俑 · 文物照片",
+      "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/qin-kneeling-archer.jpg"
+    },
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "qin-terracotta-visit-v1",
+      "sceneAlt": "兵马俑留下了哪些线索？的现代教学故事插画",
+      "title": "兵马俑留下了哪些线索？",
+      "evidenceTitle": "秦代跪射俑 · 文物照片",
+      "evidenceLine": "真材料的年代和身份可以在大图里查看。",
+      "evidenceNarration": "这是跪射姿势的秦代陶俑，拍于博物馆。它是陶塑，不是活人，也不是现场战斗的照片。",
+      "guide": "听清故事，点图或动手找线索。",
+      "alignHint": "",
+      "familyHint": "回看图里的发现，再和家人做一次。",
+      "familyLabel": "和家人再试一次",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "带着发现回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "qin-terracotta-visit-v1",
+        "reunionAlt": "三位小伙伴回看兵马俑留下了哪些线索？的线索，现代教学插画",
+        "reunionAspectRatio": 1.5,
+        "reunionFit": "contain",
+        "coverCaption": "兵马俑留下了哪些线索？",
+        "coverNarration": "秦始皇陵旁有陶做的人和马。小伙伴发现它们的姿势不一样，哪些细节能让我们认识秦代的工匠和军队？",
+        "closingCaption": "我们带回了一个发现",
+        "closingLine": "陶塑留下姿态、服饰和工艺。",
+        "closingNarration": "兵马俑是秦始皇陵的陪葬陶塑。姿态、服饰和制作细节留下秦代的线索，今天的人还在研究和保护它们。",
+        "fictionNote": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+        "reunionImage": "/content/step-images/qin-terracotta-visit-v1.jpg",
+        "stationLine": "到秦朝看共同的标准、守卫边地的长城，再从兵马俑的细节认识工匠留下的线索。",
+        "stationAudio": {
+          "id": "quest-7098817005e1308b",
+          "text": "到秦朝看共同的标准、守卫边地的长城，再从兵马俑的细节认识工匠留下的线索。"
+        },
+        "closingAudio": {
+          "id": "quest-27ad39e276fa6ce8",
+          "text": "兵马俑是秦始皇陵的陪葬陶塑。姿态、服饰和制作细节留下秦代的线索，今天的人还在研究和保护它们。"
+        }
+      },
+      "sceneImage": "/content/step-images/qin-terracotta-visit-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-197711f9f6360052",
+        "text": "这是跪射姿势的秦代陶俑，拍于博物馆。它是陶塑，不是活人，也不是现场战斗的照片。"
+      },
+      "guideAudio": {
+        "id": "quest-c1f444d9c3635141",
+        "text": "听清故事，点图或动手找线索。"
+      }
+    },
+    "sceneAsset": {
+      "id": "qin-terracotta-visit-v1",
+      "title": "兵马俑留下了哪些线索？的故事插画",
+      "localPath": "reference-assets/china-expansion/qin-terracotta-visit-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/qin-terracotta-visit-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "qin-terracotta-visit-v1",
+        "title": "兵马俑留下了哪些线索？的故事插画",
+        "localPath": "reference-assets/china-expansion/qin-terracotta-visit-v1.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md",
+        "license": "项目自制；按OpenAI使用条款持有输出使用权",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，不是历史现场或文物照片。",
+        "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-terracotta-visit-v1.jpg"
+      },
+      {
+        "id": "qin-choice-scenes-v2",
+        "title": "兵马俑留下了哪些线索？的情境选择分镜",
+        "localPath": "reference-assets/choice-art-refinement/qin-choice-scenes-v2.png",
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+        "license": "项目自制；按OpenAI使用条款持有输出使用权",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+        "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-choice-scenes-v2.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/qin-kneeling-archer.jpg",
+    "coverImageAlt": "秦代跪射俑 · 文物照片",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "秦代跪射俑 · 文物照片",
+      "fit": "contain",
+      "crop": {
+        "x": 300,
+        "y": 380,
+        "width": 1400,
+        "height": 2420,
+        "sourceWidth": 2000,
+        "sourceHeight": 3000
+      }
+    },
+    "coverAudio": {
+      "id": "quest-9bde48a1cecec30c",
+      "text": "秦始皇陵旁有陶做的人和马。小伙伴发现它们的姿势不一样，哪些细节能让我们认识秦代的工匠和军队？"
+    },
+    "textbookAudio": null,
+    "finishAudio": {
+      "id": "quest-27ad39e276fa6ce8",
+      "text": "兵马俑是秦始皇陵的陪葬陶塑。姿态、服饰和制作细节留下秦代的线索，今天的人还在研究和保护它们。"
+    },
+    "finish": {
+      "title": "陶俑有线索！",
+      "actions": [
+        "指一指陶俑弯曲的腿和铠甲，任选一处说出发现。",
+        "和家人区分真文物照片与旅行故事插画。"
+      ],
+      "parent": "这些陶人为什么在帝陵旁？你从哪里看见姿态和服饰的线索？ 指弯曲的腿和铠甲细节，知道是陶塑而不是真人。 陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+      "sceneStepIndexes": [
+        2,
+        4
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-e3d4d13e6aac945e",
+          "text": "指一指陶俑弯曲的腿和铠甲，任选一处说出发现。"
+        },
+        {
+          "id": "quest-c68a8a8cb4b8abcf",
+          "text": "和家人区分真文物照片与旅行故事插画。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-27ad39e276fa6ce8",
+        "text": "兵马俑是秦始皇陵的陪葬陶塑。姿态、服饰和制作细节留下秦代的线索，今天的人还在研究和保护它们。"
+      }
+    },
+    "estimatedMinutes": 6,
+    "badge": {
+      "icon": "🌟",
+      "label": "小小观察员"
+    },
+    "steps": [
+      {
+        "id": "time",
+        "questionKind": "time-location",
+        "icon": "🕰️",
+        "phase": "陶俑来自秦代",
+        "title": "陶俑来自秦代",
+        "prompt": "兵马俑来自哪一朝？",
+        "rightNote": "来到秦朝，看工匠留下的陶塑。",
+        "wrongNote": "汉朝在秦之后，这些兵马俑来自秦代。",
+        "sourceIds": [
+          "UNESCO-QIN-TERRACOTTA"
+        ],
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听清故事，再看看眼前的线索。"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "陶俑来自秦代",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "来到秦朝，看工匠留下的陶塑。",
+          "retry": "汉朝在秦之后，这些兵马俑来自秦代。",
+          "nextLabel": "先弄清它为什么在这里"
+        },
+        "concepts": null,
+        "inspection": {
+          "id": "qin-kneeling-archer",
+          "title": "秦代跪射俑",
+          "localPath": "reference-assets/china-expansion/qin-archer-full.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Kneeling_archer_of_the_Terracotta_Army.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 4.0",
+          "clearance": "cleared-open-license",
+          "caption": "陶塑文物 · 今天拍摄",
+          "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。 秦代跪射俑 · 文物照片",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/qin-kneeling-archer.jpg",
+          "label": "看大图，听材料说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 290,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "秦始皇陵及兵马俑遗产记录",
+              "url": "https://whc.unesco.org/en/list/441/"
+            }
+          ],
+          "audio": {
+            "id": "quest-197711f9f6360052",
+            "text": "这是跪射姿势的秦代陶俑，拍于博物馆。它是陶塑，不是活人，也不是现场战斗的照片。"
+          }
+        },
+        "story": {
+          "screenNumber": 1,
+          "title": "陶俑来自秦代",
+          "screenText": "秦始皇去世后安葬的地方，叫陵墓。陶人陶马作为陪葬放在周围。我们先到秦朝，看看工匠留下的陶塑。",
+          "displayText": "秦始皇去世后安葬的地方，叫陵墓。陶人陶马作为陪葬放在周围。我们先到秦朝，看看工匠留下的陶塑。",
+          "narration": "秦始皇去世后安葬的地方，叫陵墓。陶人陶马作为陪葬放在周围。我们先到秦朝，看看工匠留下的陶塑。"
+        },
+        "assetId": "qin-terracotta-visit-v1",
+        "image": "/content/step-images/qin-terracotta-visit-v1.jpg",
+        "studyImage": "/content/study-scenes/study-e0e02a10337433f7.svg",
+        "studyImageAlt": "陶俑来自秦代",
+        "imageAlt": "兵马俑留下了哪些线索？的故事插画",
+        "imageCaption": "兵马俑留下了哪些线索？的故事插画",
+        "imageBoundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+        "audio": {
+          "lead": {
+            "id": "quest-4b17b5097b82e2e1",
+            "text": "陵墓是安葬去世者的地方。这些陶人陶马作为陪葬，放在秦始皇陵周围。兵马俑来自哪一朝？"
+          },
+          "transition": {
+            "id": "quest-601097979fd6a7c1",
+            "text": "陶俑来自秦代。"
+          },
+          "intro": {
+            "id": "quest-37817a268c21447b",
+            "text": "秦始皇去世后安葬的地方，叫陵墓。陶人陶马作为陪葬放在周围。我们先到秦朝，看看工匠留下的陶塑。"
+          },
+          "question": {
+            "id": "quest-b6f82af09a86782d",
+            "text": "兵马俑来自哪一朝？"
+          },
+          "image": {
+            "id": "quest-2f5d5f52e0443f96",
+            "text": "这张是兵马俑留下了哪些线索？的故事插画。秦始皇去世后安葬的地方，叫陵墓。陶人陶马作为陪葬放在周围。我们先到秦朝，看看工匠留下的陶塑。"
+          },
+          "right": {
+            "id": "quest-2b830eb16b9c6b22",
+            "text": "来到秦朝，看工匠留下的陶塑。"
+          },
+          "wrong": {
+            "id": "quest-c39e05870f38c118",
+            "text": "汉朝在秦之后，这些兵马俑来自秦代。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-08-qin-terracotta-time-1",
+            "label": "秦朝 · 前221—前207年",
+            "correct": true,
+            "objectView": {
+              "kind": "era",
+              "name": "秦朝",
+              "date": "前221—前207年",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-de3ebe2f93775756.svg",
+            "imageAlt": "秦朝，前221—前207年",
+            "audio": {
+              "id": "quest-8fcebd4b7661a897",
+              "text": "秦朝 · 前221—前207年"
+            }
+          },
+          {
+            "id": "cn-ancient-04-08-qin-terracotta-time-2",
+            "label": "汉朝 · 前202—220年",
+            "correct": false,
+            "objectView": {
+              "kind": "era",
+              "name": "汉朝",
+              "date": "前202—220年",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-eced86b12ed6c7cc.svg",
+            "imageAlt": "汉朝，前202—220年",
+            "audio": {
+              "id": "quest-cf04b69e7d1a757d",
+              "text": "汉朝 · 前202—220年"
+            }
+          }
+        ]
+      },
+      {
+        "id": "beginning",
+        "questionKind": "evidence-observation",
+        "icon": "🔎",
+        "phase": "先弄清它为什么在这里",
+        "title": "先弄清它为什么在这里",
+        "prompt": "眼前这些人马是什么？",
+        "rightNote": "是工匠制作的陶塑，属于帝陵陪葬遗存。",
+        "wrongNote": "真人会活动；这里保存的是工匠做出的陶塑。",
+        "sourceIds": [
+          "UNESCO-QIN-TERRACOTTA"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清故事，再看看眼前的线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "先弄清它为什么在这里",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "是工匠制作的陶塑，属于帝陵陪葬遗存。",
+          "retry": "真人会活动；这里保存的是工匠做出的陶塑。",
+          "nextLabel": "从姿势和服饰找线索"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 2,
+          "title": "先弄清它为什么在这里",
+          "screenText": "秦始皇陵旁安排了陶人、陶马等陪葬物。这些形象让我们看见古人的想法和工匠的工作，不是真士兵变成的。",
+          "displayText": "秦始皇陵旁安排了陶人、陶马等陪葬物。这些形象让我们看见古人的想法和工匠的工作，不是真士兵变成的。",
+          "narration": "秦始皇陵旁安排了陶人、陶马等陪葬物。这些形象让我们看见古人的想法和工匠的工作，不是真士兵变成的。"
+        },
+        "assetId": "qin-terracotta-visit-v1",
+        "image": "/content/step-images/qin-terracotta-visit-v1.jpg",
+        "studyImage": "/content/study-scenes/study-87f6a9e11093f28b.svg",
+        "studyImageAlt": "先弄清它为什么在这里",
+        "imageAlt": "兵马俑留下了哪些线索？的故事插画",
+        "imageCaption": "兵马俑留下了哪些线索？的故事插画",
+        "imageBoundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+        "audio": {
+          "lead": {
+            "id": "quest-f0047138ea914ee4",
+            "text": "这些人马放在帝陵旁，是工匠用陶制作的。眼前这些人马是什么？"
+          },
+          "transition": {
+            "id": "quest-264f4c1b57ab67f9",
+            "text": "先弄清它为什么在这里。"
+          },
+          "intro": {
+            "id": "quest-e7bc4fc3342b1622",
+            "text": "秦始皇陵旁安排了陶人、陶马等陪葬物。这些形象让我们看见古人的想法和工匠的工作，不是真士兵变成的。"
+          },
+          "question": {
+            "id": "quest-88ad93821405b809",
+            "text": "眼前这些人马是什么？"
+          },
+          "image": {
+            "id": "quest-82eaf8f44a8e7bee",
+            "text": "这张是兵马俑留下了哪些线索？的故事插画。秦始皇陵旁安排了陶人、陶马等陪葬物。这些形象让我们看见古人的想法和工匠的工作，不是真士兵变成的。"
+          },
+          "right": {
+            "id": "quest-49ebe96a75eb8b0d",
+            "text": "是工匠制作的陶塑，属于帝陵陪葬遗存。"
+          },
+          "wrong": {
+            "id": "quest-4ba22b3301f32034",
+            "text": "真人会活动；这里保存的是工匠做出的陶塑。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-08-qin-terracotta-beginning-1",
+            "label": "工匠做的陶人陶马",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "qin-choice-scenes-v2",
+              "crop": {
+                "x": 8,
+                "y": 8,
+                "width": 609,
+                "height": 397,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/qin-choice-scenes-v2.jpg",
+              "imageAlt": "工匠做的陶人陶马",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-223e66efd3dc1d0d.svg",
+            "imageAlt": "制作，陶人，陶马",
+            "audio": {
+              "id": "quest-b8ede05ba744b151",
+              "text": "工匠做的陶人陶马"
+            }
+          },
+          {
+            "id": "cn-ancient-04-08-qin-terracotta-beginning-2",
+            "label": "今天站在展厅里的参观者",
+            "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "qin-choice-scenes-v2",
+              "crop": {
+                "x": 633,
+                "y": 8,
+                "width": 613,
+                "height": 397,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/qin-choice-scenes-v2.jpg",
+              "imageAlt": "今天站在展厅里的参观者",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-96bacd6518012d32.svg",
+            "imageAlt": "参观，观察",
+            "audio": {
+              "id": "quest-f1f57fc8bdeb8717",
+              "text": "今天站在展厅里的参观者"
+            }
+          }
+        ]
+      },
+      {
+        "id": "journey",
+        "questionKind": "action-sequence",
+        "icon": "🧭",
+        "phase": "从姿势和服饰找线索",
+        "title": "从姿势和服饰找线索",
+        "prompt": "弯曲的腿在哪里？",
+        "rightNote": "姿势和服饰都能留下历史线索。",
+        "wrongNote": "再看腿的弯曲和身上一片片的铠甲。",
+        "sourceIds": [
+          "UNESCO-QIN-TERRACOTTA"
+        ],
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听清故事，再看看眼前的线索。",
+          "imageLabel": "实物照片",
+          "sceneAspectRatio": 0.6666666666666666,
+          "hotspots": [
+            {
+              "id": "leg",
+              "label": "弯曲的腿",
+              "x": 0.64,
+              "y": 0.61,
+              "width": 0.15,
+              "height": 0.2
+            },
+            {
+              "id": "armor",
+              "label": "上身的铠甲",
+              "x": 0.33,
+              "y": 0.43,
+              "width": 0.26,
+              "height": 0.17
+            }
+          ],
+          "rounds": [
+            {
+              "id": "leg",
+              "targetId": "leg",
+              "question": "弯曲的腿在哪里？",
+              "feedback": "这条腿弯起来，留下跪姿的线索。",
+              "retry": "这里是上身，找找下面弯着的腿。",
+              "nextLabel": "再看看衣服上的细节",
+              "audio": {
+                "question": {
+                  "id": "quest-298bf65667f79523",
+                  "text": "弯曲的腿在哪里？"
+                },
+                "right": {
+                  "id": "quest-1bf7c761847616f0",
+                  "text": "这条腿弯起来，留下跪姿的线索。"
+                },
+                "wrong": {
+                  "id": "quest-b7fe4070ae9f618e",
+                  "text": "这里是上身，找找下面弯着的腿。"
+                }
+              }
+            },
+            {
+              "id": "armor",
+              "targetId": "armor",
+              "question": "哪里是一片片的铠甲？",
+              "feedback": "小片铠甲的排列，也是工匠做出的细节。",
+              "retry": "这里是腿，再看看上身的铠甲。",
+              "nextLabel": "继续找线索",
+              "audio": {
+                "question": {
+                  "id": "quest-b73d663b8c3151a1",
+                  "text": "哪里是一片片的铠甲？"
+                },
+                "right": {
+                  "id": "quest-6da82b6b9ffc3021",
+                  "text": "小片铠甲的排列，也是工匠做出的细节。"
+                },
+                "wrong": {
+                  "id": "quest-a8e1a61e46484048",
+                  "text": "这里是腿，再看看上身的铠甲。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "从姿势和服饰找线索",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "姿势和服饰都能留下历史线索。",
+          "retry": "再看腿的弯曲和身上一片片的铠甲。",
+          "nextLabel": "姿态相同，细节仍要看原物"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 3,
+          "title": "从姿势和服饰找线索",
+          "screenText": "这件真陶俑弯着一条腿，身上有一片片铠甲。先找弯曲的腿，再找铠甲，看工匠留下的细节。",
+          "displayText": "这件真陶俑弯着一条腿，身上有一片片铠甲。先找弯曲的腿，再找铠甲，看工匠留下的细节。",
+          "narration": "这件真陶俑弯着一条腿，身上有一片片铠甲。先找弯曲的腿，再找铠甲，看工匠留下的细节。"
+        },
+        "assetId": "qin-kneeling-archer",
+        "image": "/content/step-images/qin-kneeling-archer.jpg",
+        "studyImage": "/content/study-scenes/study-86686f14fa3d4f30.svg",
+        "studyImageAlt": "从姿势和服饰找线索",
+        "imageAlt": "秦代跪射俑 · 文物照片",
+        "imageCaption": "秦代跪射俑 · 文物照片",
+        "imageBoundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+        "audio": {
+          "lead": {
+            "id": "quest-42a142b32fce6348",
+            "text": "这件真陶俑弯着一条腿，身上有一片片铠甲。先找弯曲的腿，再找铠甲，看工匠留下的细节。"
+          },
+          "transition": {
+            "id": "quest-845e284a9f0eef87",
+            "text": "从姿势和服饰找线索。"
+          },
+          "intro": {
+            "id": "quest-42a142b32fce6348",
+            "text": "这件真陶俑弯着一条腿，身上有一片片铠甲。先找弯曲的腿，再找铠甲，看工匠留下的细节。"
+          },
+          "question": {
+            "id": "quest-298bf65667f79523",
+            "text": "弯曲的腿在哪里？"
+          },
+          "image": {
+            "id": "quest-4072a9ffd7d94da7",
+            "text": "这张是秦代跪射俑 · 文物照片。这件真陶俑弯着一条腿，身上有一片片铠甲。先找弯曲的腿，再找铠甲，看工匠留下的细节。"
+          },
+          "right": {
+            "id": "quest-2866fa645cd6c851",
+            "text": "姿势和服饰都能留下历史线索。"
+          },
+          "wrong": {
+            "id": "quest-d6bcc4acd563104a",
+            "text": "再看腿的弯曲和身上一片片的铠甲。"
+          }
+        },
+        "options": []
+      },
+      {
+        "id": "change",
+        "questionKind": "cause-effect",
+        "icon": "✨",
+        "phase": "姿态相同，细节仍要看原物",
+        "title": "姿态相同，细节仍要看原物",
+        "prompt": "怎样判断铠甲的样子？",
+        "rightNote": "看清实物与资料，再留下观察记录。",
+        "wrongNote": "故事画可以帮助想象，实物细节还要回到真图。",
+        "sourceIds": [
+          "UNESCO-QIN-TERRACOTTA"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清故事，再看看眼前的线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "姿态相同，细节仍要看原物",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "看清实物与资料，再留下观察记录。",
+          "retry": "故事画可以帮助想象，实物细节还要回到真图。",
+          "nextLabel": "把陶塑的发现带回家"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 4,
+          "title": "姿态相同，细节仍要看原物",
+          "screenText": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。",
+          "displayText": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。",
+          "narration": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。"
+        },
+        "assetId": "qin-terracotta-visit-v1",
+        "image": "/content/step-images/qin-terracotta-visit-v1.jpg",
+        "studyImage": "/content/study-scenes/study-000fe8fd894b73aa.svg",
+        "studyImageAlt": "姿态相同，细节仍要看原物",
+        "imageAlt": "兵马俑留下了哪些线索？的故事插画",
+        "imageCaption": "兵马俑留下了哪些线索？的故事插画",
+        "imageBoundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+        "audio": {
+          "lead": {
+            "id": "quest-69ea8000601ed820",
+            "text": "插画帮助想象，铠甲细节还要核对实物。怎样判断铠甲的样子？"
+          },
+          "transition": {
+            "id": "quest-31c781a861d75731",
+            "text": "姿态相同，细节仍要看原物。"
+          },
+          "intro": {
+            "id": "quest-c6c245f29335f360",
+            "text": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。"
+          },
+          "question": {
+            "id": "quest-a6a5317a688f9f56",
+            "text": "怎样判断铠甲的样子？"
+          },
+          "image": {
+            "id": "quest-1b3d0e1aeb24ee56",
+            "text": "这张是兵马俑留下了哪些线索？的故事插画。姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。"
+          },
+          "right": {
+            "id": "quest-62dadd80db27d136",
+            "text": "看清实物与资料，再留下观察记录。"
+          },
+          "wrong": {
+            "id": "quest-293583e49d8f2568",
+            "text": "故事画可以帮助想象，实物细节还要回到真图。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-08-qin-terracotta-change-1",
+            "label": "放大真图，核对细节",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "qin-choice-scenes-v2",
+              "crop": {
+                "x": 8,
+                "y": 421,
+                "width": 609,
+                "height": 395,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/qin-choice-scenes-v2.jpg",
+              "imageAlt": "放大真图，核对细节",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-e109c7b2437e20a2.svg",
+            "imageAlt": "看原物，查资料",
+            "audio": {
+              "id": "quest-3b8f00177dfe01e4",
+              "text": "放大真图，核对细节"
+            }
+          },
+          {
+            "id": "cn-ancient-04-08-qin-terracotta-change-2",
+            "label": "只照故事插画来判断",
+            "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "qin-choice-scenes-v2",
+              "crop": {
+                "x": 633,
+                "y": 421,
+                "width": 613,
+                "height": 395,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/qin-choice-scenes-v2.jpg",
+              "imageAlt": "只照故事插画来判断",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-3e259ca532797abb.svg",
+            "imageAlt": "故事画，猜细节",
+            "audio": {
+              "id": "quest-400be1c1d123d5ab",
+              "text": "只照故事插画来判断"
+            }
+          }
+        ]
+      },
+      {
+        "id": "takeaway",
+        "questionKind": "apply-and-explain",
+        "icon": "🗣️",
+        "phase": "把陶塑的发现带回家",
+        "title": "把陶塑的发现带回家",
+        "prompt": "我们能从陶俑知道什么？",
+        "rightNote": "姿势与服饰留下线索，不能凭脸编姓名。",
+        "wrongNote": "外形不能告诉我们一个真实士兵的姓名。",
+        "sourceIds": [
+          "UNESCO-QIN-TERRACOTTA"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听清故事，再看看眼前的线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "把陶塑的发现带回家",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "姿势与服饰留下线索，不能凭脸编姓名。",
+          "retry": "外形不能告诉我们一个真实士兵的姓名。",
+          "nextLabel": "带着发现回家"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "把陶塑的发现带回家",
+          "screenText": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。",
+          "displayText": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。",
+          "narration": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。"
+        },
+        "assetId": "qin-terracotta-visit-v1",
+        "image": "/content/step-images/qin-terracotta-visit-v1.jpg",
+        "studyImage": "/content/study-scenes/study-5c9a6f97d4c6f123.svg",
+        "studyImageAlt": "把陶塑的发现带回家",
+        "imageAlt": "兵马俑留下了哪些线索？的故事插画",
+        "imageCaption": "兵马俑留下了哪些线索？的故事插画",
+        "imageBoundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+        "audio": {
+          "lead": {
+            "id": "quest-3f1c12af9e24c104",
+            "text": "陶俑留下姿态与服饰，不能凭脸认出姓名。我们能从陶俑知道什么？"
+          },
+          "transition": {
+            "id": "quest-03e78a7066355d16",
+            "text": "把陶塑的发现带回家。"
+          },
+          "intro": {
+            "id": "quest-116d0b96dd24104a",
+            "text": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。"
+          },
+          "question": {
+            "id": "quest-682b23f3402d99e4",
+            "text": "我们能从陶俑知道什么？"
+          },
+          "image": {
+            "id": "quest-a883e36140e3d0de",
+            "text": "这张是兵马俑留下了哪些线索？的故事插画。今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。"
+          },
+          "right": {
+            "id": "quest-20b6dae19099e31c",
+            "text": "姿势与服饰留下线索，不能凭脸编姓名。"
+          },
+          "wrong": {
+            "id": "quest-03d4176d8f4afe0e",
+            "text": "外形不能告诉我们一个真实士兵的姓名。"
+          }
+        },
+        "options": [
+          {
+            "id": "cn-ancient-04-08-qin-terracotta-takeaway-1",
+            "label": "观察姿势、衣服和工艺",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "qin-choice-scenes-v2",
+              "crop": {
+                "x": 8,
+                "y": 832,
+                "width": 609,
+                "height": 414,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/qin-choice-scenes-v2.jpg",
+              "imageAlt": "观察姿势、衣服和工艺",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-ae0ab01e8185b015.svg",
+            "imageAlt": "姿态，工艺",
+            "audio": {
+              "id": "quest-fa6e69595b88652f",
+              "text": "观察姿势、衣服和工艺"
+            }
+          },
+          {
+            "id": "cn-ancient-04-08-qin-terracotta-takeaway-2",
+            "label": "只凭脸猜出士兵的姓名",
+            "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "qin-choice-scenes-v2",
+              "crop": {
+                "x": 633,
+                "y": 832,
+                "width": 613,
+                "height": 414,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/qin-choice-scenes-v2.jpg",
+              "imageAlt": "只凭脸猜出士兵的姓名",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-349b4adb2aa128fb.svg",
+            "imageAlt": "看脸，猜名字",
+            "audio": {
+              "id": "quest-05da27923beea187",
+              "text": "只凭脸猜出士兵的姓名"
+            }
+          }
+        ]
+      }
+    ],
+    "extensionTasks": [
+      {
+        "number": 1,
+        "title": "指一指陶俑弯曲的腿和铠甲，任选一处说出发现。",
+        "items": []
+      },
+      {
+        "number": 2,
+        "title": "和家人区分真文物照片与旅行故事插画。",
+        "items": []
+      }
+    ]
+  },
+  "age": "4—6岁亲子共学",
+  "durationMinutes": 6,
+  "conclusion": [
+    "兵马俑是秦始皇陵的陪葬陶塑。姿态、服饰和制作细节留下秦代的线索，今天的人还在研究和保护它们。"
+  ],
+  "facts": [
+    {
+      "number": 1,
+      "text": "秦始皇陵位于今天陕西西安临潼，是秦始皇的陵墓。",
+      "sourceIds": [
+        "UNESCO-QIN-TERRACOTTA"
+      ]
+    },
+    {
+      "number": 2,
+      "text": "陵墓周围有陪葬坑，出土陶制士兵形象与陶马等遗物。",
+      "sourceIds": [
+        "UNESCO-QIN-TERRACOTTA"
+      ]
+    },
+    {
+      "number": 3,
+      "text": "兵马俑属于秦代陶塑艺术的重要遗存。",
+      "sourceIds": [
+        "UNESCO-QIN-TERRACOTTA"
+      ]
+    },
+    {
+      "number": 4,
+      "text": "陶俑的服饰和姿态等细节为研究当时军队与工艺提供材料。",
+      "sourceIds": [
+        "UNESCO-QIN-TERRACOTTA"
+      ]
+    },
+    {
+      "number": 5,
+      "text": "遗址的研究、发掘和保护由现代文物工作者持续开展。",
+      "sourceIds": [
+        "UNESCO-QIN-TERRACOTTA"
+      ]
+    }
+  ],
+  "methodNotes": [],
+  "screens": [
+    {
+      "number": 1,
+      "title": "时间定位：陶俑来自秦代",
+      "screenText": "这些陶人陶马属于秦始皇陵的陪葬遗存，做出来放在陵墓旁。我们先到秦朝，看看留下来的陶塑。",
+      "voices": [
+        {
+          "number": 1,
+          "label": "语音 H01：",
+          "text": "这些陶人陶马属于秦始皇陵的陪葬遗存，做出来放在陵墓旁。我们先到秦朝，看看留下来的陶塑。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-08-qin-terracotta-s01-v01-01",
+              "order": 1,
+              "tier": "core",
+              "text": "这些陶人陶马属于秦始皇陵的陪葬遗存，做出来放在陵墓旁。我们先到秦朝，看看留下来的陶塑。",
+              "hanCharacters": 39
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 2,
+      "title": "先弄清它为什么在这里",
+      "screenText": "秦始皇陵旁安排了陶人、陶马等陪葬物。这些形象让我们看见古人的想法和工匠的工作，不是真士兵变成的。",
+      "voices": [
+        {
+          "number": 2,
+          "label": "语音 H02：",
+          "text": "秦始皇陵旁安排了陶人、陶马等陪葬物。这些形象让我们看见古人的想法和工匠的工作，不是真士兵变成的。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-08-qin-terracotta-s02-v02-01",
+              "order": 1,
+              "tier": "core",
+              "text": "秦始皇陵旁安排了陶人、陶马等陪葬物。这些形象让我们看见古人的想法和工匠的工作，不是真士兵变成的。",
+              "hanCharacters": 44
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 3,
+      "title": "从姿势和服饰找线索",
+      "screenText": "这件真陶俑弯着一条腿，身上有一片片铠甲。先找弯曲的腿，再找铠甲，看工匠留下的细节。",
+      "voices": [
+        {
+          "number": 3,
+          "label": "语音 H03：",
+          "text": "这件真陶俑弯着一条腿，身上有一片片铠甲。先找弯曲的腿，再找铠甲，看工匠留下的细节。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-08-qin-terracotta-s03-v03-01",
+              "order": 1,
+              "tier": "core",
+              "text": "这件真陶俑弯着一条腿，身上有一片片铠甲。先找弯曲的腿，再找铠甲，看工匠留下的细节。",
+              "hanCharacters": 36
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 4,
+      "title": "姿态相同，细节仍要看原物",
+      "screenText": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。",
+      "voices": [
+        {
+          "number": 4,
+          "label": "语音 H04：",
+          "text": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-08-qin-terracotta-s04-v04-01",
+              "order": 1,
+              "tier": "core",
+              "text": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。",
+              "hanCharacters": 39
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    },
+    {
+      "number": 5,
+      "title": "把陶塑的发现带回家",
+      "screenText": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。",
+      "voices": [
+        {
+          "number": 5,
+          "label": "语音 H05：",
+          "text": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。",
+          "segments": [
+            {
+              "id": "cn-ancient-04-08-qin-terracotta-s05-v05-01",
+              "order": 1,
+              "tier": "core",
+              "text": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。",
+              "hanCharacters": 40
+            }
+          ]
+        }
+      ],
+      "interactions": []
+    }
+  ],
+  "interactions": [
+    {
+      "number": 1,
+      "title": "指一指陶俑弯曲的腿和铠甲，任选一处说出发现。",
+      "items": []
+    },
+    {
+      "number": 2,
+      "title": "和家人区分真文物照片与旅行故事插画。",
+      "items": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "UNESCO-QIN-TERRACOTTA",
+      "title": "秦始皇陵及兵马俑遗产记录",
+      "institution": "UNESCO世界遗产中心",
+      "url": "https://whc.unesco.org/en/list/441/",
+      "type": "museum-or-primary-institution-reference",
+      "authorityLevel": "A-primary-institution",
+      "factUse": "秦始皇陵、陪葬坑、陶人陶马、雕塑与工匠技艺的证据；不用页面的秦朝止年作为全朝代时间范围。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "MOE-HISTORY-CURRICULUM-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "institution": "中华人民共和国教育部",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "type": "curriculum-standard",
+      "authorityLevel": "A",
+      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-QIN-HAN-OVERVIEW",
+      "title": "“古代中国”基本陈列：秦汉时期",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html",
+      "type": "museum-permanent-exhibition",
+      "authorityLevel": "A",
+      "factUse": "秦汉时间线、统一制度、汉代治理、科技文化、对外交往和秦亡汉兴的总体脉络",
+      "imageUse": "reference-only"
+    }
+  ],
+  "assets": [
+    {
+      "id": "qin-kneeling-archer",
+      "title": "秦代跪射俑 · 文物照片",
+      "localPath": "reference-assets/china-expansion/qin-archer-full.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kneeling_archer_of_the_Terracotta_Army.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 4.0",
+      "clearance": "cleared-open-license",
+      "caption": "秦代跪射俑 · 文物照片",
+      "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-terracotta-visit-v1",
+      "title": "兵马俑留下了哪些线索？的故事插画",
+      "localPath": "reference-assets/china-expansion/qin-terracotta-visit-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，不是历史现场或文物照片。",
+      "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-choice-scenes-v2",
+      "title": "兵马俑留下了哪些线索？的情境选择分镜",
+      "localPath": "reference-assets/choice-art-refinement/qin-choice-scenes-v2.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
+      "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-de3ebe2f93775756",
+      "title": "学习示意：秦朝、前221—前207年",
+      "localPath": "reference-assets/focused-quests/study-de3ebe2f93775756.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "秦朝 → 前221—前207年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e0e02a10337433f7",
+      "title": "学习示意：陶俑来自秦代",
+      "localPath": "reference-assets/focused-quests/study-e0e02a10337433f7.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "陶俑来自秦代",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-eced86b12ed6c7cc",
+      "title": "学习示意：汉朝、前202—220年",
+      "localPath": "reference-assets/focused-quests/study-eced86b12ed6c7cc.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "汉朝 → 前202—220年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-87f6a9e11093f28b",
+      "title": "学习示意：先弄清它为什么在这里",
+      "localPath": "reference-assets/focused-quests/study-87f6a9e11093f28b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "先弄清它为什么在这里",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-223e66efd3dc1d0d",
+      "title": "学习示意：制作、陶人、陶马",
+      "localPath": "reference-assets/focused-quests/study-223e66efd3dc1d0d.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "制作 → 陶人 → 陶马",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-96bacd6518012d32",
+      "title": "学习示意：参观、观察",
+      "localPath": "reference-assets/focused-quests/study-96bacd6518012d32.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "参观 → 观察",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-86686f14fa3d4f30",
+      "title": "学习示意：从姿势和服饰找线索",
+      "localPath": "reference-assets/focused-quests/study-86686f14fa3d4f30.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "从姿势和服饰找线索",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-000fe8fd894b73aa",
+      "title": "学习示意：姿态相同，细节仍要看原物",
+      "localPath": "reference-assets/focused-quests/study-000fe8fd894b73aa.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "姿态相同，细节仍要看原物",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e109c7b2437e20a2",
+      "title": "学习示意：看原物、查资料",
+      "localPath": "reference-assets/focused-quests/study-e109c7b2437e20a2.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "看原物 → 查资料",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-3e259ca532797abb",
+      "title": "学习示意：故事画、猜细节",
+      "localPath": "reference-assets/focused-quests/study-3e259ca532797abb.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "故事画 → 猜细节",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5c9a6f97d4c6f123",
+      "title": "学习示意：把陶塑的发现带回家",
+      "localPath": "reference-assets/focused-quests/study-5c9a6f97d4c6f123.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "把陶塑的发现带回家",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-ae0ab01e8185b015",
+      "title": "学习示意：姿态、工艺",
+      "localPath": "reference-assets/focused-quests/study-ae0ab01e8185b015.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "姿态 → 工艺",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-349b4adb2aa128fb",
+      "title": "学习示意：看脸、猜名字",
+      "localPath": "reference-assets/focused-quests/study-349b4adb2aa128fb.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "看脸 → 猜名字",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    }
+  ],
+  "thumbnail": "/content/thumbnails/cn-ancient-04-08-qin-terracotta.jpg",
+  "status": {
+    "outline": "verified",
+    "research": "in-review",
+    "script": "first-draft",
+    "assets": "cleared",
+    "audio": "not-started",
+    "review": "pending"
+  },
+  "contentReadiness": "authored-playtest-family-validation-pending"
+}

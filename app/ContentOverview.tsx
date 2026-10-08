@@ -82,6 +82,7 @@ type ChapterDetail = {
   throughline: string;
   childEntry: ChildEntry;
   learningGuide: LearningGuideData | null;
+  textbookConnection: {featured:{title:string;childBridge:string};companions:Array<{type:string;label:string;note:string}>;sourceIds:string[]} | null;
   childStory: ChildStoryStep[];
   glossary: GlossaryEntry[];
   pronunciations: PronunciationEntry[];
@@ -390,6 +391,14 @@ export function ContentOverview({ onBack }: { onBack: () => void }) {
                     ))}
                   </div>
                 </section>
+                {detail.textbookConnection&&<details className="review-legacy-drafts review-cultural-notes">
+                  <summary>诗文与文化线索</summary>
+                  <h2>{detail.textbookConnection.featured.title}</h2>
+                  <p>{detail.textbookConnection.featured.childBridge}</p>
+                  {detail.textbookConnection.companions.map((item,i)=><div key={`${item.label}-${i}`}><h3>{item.label}</h3><p>{item.note}</p></div>)}
+                  <p>原文、意译与教学情境分别看；文学画面不当作历史现场记录。</p>
+                  {detail.sources.filter(s=>detail.textbookConnection?.sourceIds.includes(s.id)).map(s=><p key={s.id}><a href={s.url} target="_blank" rel="noreferrer">{s.institution}：{s.title} ↗</a></p>)}
+                </details>}
                 <details className="review-legacy-drafts"><summary>编辑长稿与加餐（{detail.screens.length}屏草稿，非当前五步页面）</summary><p>这是背景研究与后续编辑材料；其中语音段落尚未作为这套长稿正式配音，旧互动也不表示已经实现。请与上方当前主线分开审核。</p>
                 <div className="review-screens">
                 {detail.screens.map((screen) => (
@@ -497,8 +506,8 @@ export function ContentOverview({ onBack }: { onBack: () => void }) {
       <header className="overview-hero">
         <div>
           <p className="eyebrow">本轮试玩范围 · 当前为审核稿</p>
-          <h1>秦汉至明清，<br />{contentManifest.totals.chapters}章历史故事</h1>
-          <p>这里是秦至清34个取材于历史的启蒙故事，覆盖部分治理、生活、技术、交往与艺术主题，并非完整通史课程。历史课程标准用于核对题材范围，不把初中的记忆与考试要求搬给学前儿童。其余69章保留源稿，尚不在试玩入口。</p>
+          <h1>春秋至明清，<br />{contentManifest.totals.chapters}章历史故事</h1>
+          <p>这里是春秋至明清的{contentManifest.totals.chapters}个中国历史启蒙故事，覆盖部分治理、生活、技术、交往与艺术主题，并非完整通史课程。历史课程标准用于核对题材范围，不把初中的记忆与考试要求搬给学前儿童。其他内容保留源稿，尚不在试玩入口。</p>
         </div>
         <div className="overview-summary">
           <strong>{contentManifest.totals.chapters}</strong><span>章内容</span>
@@ -512,7 +521,7 @@ export function ContentOverview({ onBack }: { onBack: () => void }) {
         </div>
       </header>
 
-      <details className="review-coverage"><summary>这10站讲了什么，时间怎样衔接？</summary><p>站号帮助选择故事，不表示前一站的所有政权结束后，下一站才开始。每站选取几个具体问题，历史背景与主线取材范围如下。</p><div className="review-period-contexts">{activeTrack.periods.map(period=>period.learningContext&&<article key={period.id}><h2>{period.label}</h2><p><strong>时间与衔接：</strong>{period.learningContext.chronology}</p><p><strong>本轮主线：</strong>{period.learningContext.covered}</p><p><strong>取材范围：</strong>{period.learningContext.scopeBoundary}</p><details><summary>本段依据</summary>{period.learningContext.sources.map(source=><p key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.institution}：{source.title} ↗</a></p>)}</details></article>)}</div></details>
+      <details className="review-coverage"><summary>这{activeTrack.periods.length}站讲了什么，时间怎样衔接？</summary><p>站号帮助选择故事，不表示前一站的所有政权结束后，下一站才开始。每站选取几个具体问题，历史背景与主线取材范围如下。</p><div className="review-period-contexts">{activeTrack.periods.map(period=>period.learningContext&&<article key={period.id}><h2>{period.label}</h2><p><strong>时间与衔接：</strong>{period.learningContext.chronology}</p><p><strong>本轮主线：</strong>{period.learningContext.covered}</p><p><strong>取材范围：</strong>{period.learningContext.scopeBoundary}</p><details><summary>本段依据</summary>{period.learningContext.sources.map(source=><p key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.institution}：{source.title} ↗</a></p>)}</details></article>)}</div></details>
 
       <section className="voice-reading-guide" aria-labelledby="voice-reading-guide-title">
         <div>
