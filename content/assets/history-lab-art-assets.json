@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "scope": "学具模型的教学插画，仅供功能演示",
+  "assets": [
+    {
+      "id": "roof-beast-glazed-v1",
+      "chapterIds": [
+        "cn-ancient-08-06-forbidden-city-roof-beasts"
+      ],
+      "title": "琉璃小兽学具 · 教学新画",
+      "purpose": "teaching-prop",
+      "localPath": "reference-assets/history-lab-art/roof-beast-glazed-v1.png",
+      "runtimePath": "/images/history-labs/roof-beast-glazed-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目组（image_gen辅助绘制）；参考照片作者：秋水平湖",
+      "license": "项目自制教学新画；参考照片按CC BY-SA 3.0署名，衍生图遵循参考许可的适用条件",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "licensePath": "reference-assets/history-lab-art/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "DPM-ROOF-BEASTS-FUNCTIONS",
+        "DPM-YOUNG-ROOF"
+      ],
+      "caption": "琉璃小兽学具 · 教学新画",
+      "boundary": "教学新画，用于功能学习模型；不是文物照片或古代内部结构复原。位置、覆盖与光路由代码学具表达，不以生成画面推断结构。",
+      "notes": "参考素材taihe-hall-ten-roof-beasts-current-photo；原图和实际提示词保留。PNG保留透明背景，运行副本由generate-content-thumbnails.mjs生成。",
+      "referenceAssetIds": [
+        "taihe-hall-ten-roof-beasts-current-photo"
+      ],
+      "renderedBy": "app/HistoryLab.tsx",
+      "promptPath": "docs/qa/2026-10-11-quality-review/art-prompts.json"
+    },
+    {
+      "id": "palace-lamp-study-v1",
+      "chapterIds": [
+        "cn-ancient-04-06-han-palace-lantern"
+      ],
+      "title": "长信宫灯功能学具 · 教学新画",
+      "purpose": "teaching-prop",
+      "localPath": "reference-assets/history-lab-art/palace-lamp-study-v1.png",
+      "runtimePath": "/images/history-labs/palace-lamp-study-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目组（image_gen辅助绘制）；参考照片作者：Windmemories",
+      "license": "项目自制教学新画；参考照片按CC BY-SA 4.0署名，衍生图遵循参考许可的适用条件",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "licensePath": "reference-assets/history-lab-art/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "DPM-CHANGXIN-LAMP",
+        "HEBEI-CHANGXIN-STRUCTURE"
+      ],
+      "caption": "长信宫灯功能学具 · 教学新画",
+      "boundary": "教学新画，用于功能学习模型；不是文物照片或古代内部结构复原。位置、覆盖与光路由代码学具表达，不以生成画面推断结构。",
+      "notes": "参考素材han-changxin-lamp；原图和实际提示词保留。PNG保留透明背景，运行副本由generate-content-thumbnails.mjs生成。",
+      "referenceAssetIds": [
+        "han-changxin-lamp"
+      ],
+      "renderedBy": "app/ChinaHistoryDiagrams.tsx",
+      "promptPath": "docs/qa/2026-10-11-quality-review/art-prompts.json"
+    },
+    {
+      "id": "rammed-earth-section-v1",
+      "chapterIds": [],
+      "title": "夯土接墙学具 · 教学新画",
+      "purpose": "teaching-prop",
+      "localPath": "reference-assets/history-lab-art/rammed-earth-section-v1.png",
+      "runtimePath": "/images/history-labs/rammed-earth-section-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目组（image_gen辅助绘制）",
+      "license": "项目自制教学插画，仅用于本项目学习模型",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "licensePath": "reference-assets/history-lab-art/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "UNESCO-GREAT-WALL",
+        "GUYANG-GOV-QIN-WALL-STRUCTURES"
+      ],
+      "caption": "夯土层理学习图 · 教学新画",
+      "boundary": "新绘夯土材质用于接墙学习模型，不是秦长城照片或具体遗址复原。接墙是简化比对动作，不表示古人搬动预制墙块修筑长城。",
+      "notes": "先查看现有qin-wall-site-story-v2故事图；本次独立生成材质，不将其作为史料。原图保留，运行副本由内容生成脚本输出；精确接缝与移动范围由共享代码控制。 2026-10-11用户指出矩形纹理条像木板，停止儿童页使用；保留原图、提示词与先前QA作为失败版本。",
+      "referenceAssetIds": [],
+      "renderedBy": "app/SlideFitIllustration.tsx",
+      "promptPath": "docs/qa/2026-10-11-game-art-review/art-prompt.txt",
+      "archivedFromChapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "contentStatus": "archived-visual-rejected",
+      "childVisibility": "editor-only"
+    },
+    {
+      "id": "qin-wall-mountain-scene-v2",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "title": "山地城墙连接学具 · 完整场景",
+      "purpose": "teaching-prop",
+      "localPath": "reference-assets/history-lab-art/qin-wall-mountain-scene-v2.png",
+      "runtimePath": "/images/history-labs/qin-wall-mountain-scene-v2.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目组（image_gen辅助绘制）",
+      "license": "项目自制教学插画，仅用于本项目学习模型",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "licensePath": "reference-assets/history-lab-art/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "UNESCO-GREAT-WALL",
+        "GUYANG-GOV-QIN-WALL-STRUCTURES"
+      ],
+      "caption": "山地城墙连接学具 · 完整场景 · 教学新画",
+      "boundary": "现代教学插画，以山地土石城墙解释连接与修补，不是秦代现场或具体遗址复原。不同地区的秦墙材料和形制不同；拼合是学习动作，不表示古人搬动整块墙。",
+      "notes": "完整山地构图保留墙顶、厚度、落地与延伸关系；同一完整图裁出活动墙段，缺口图只在局部显示。替换被用户否定的木板状纹理条，旧图不删除。",
+      "referenceAssetIds": [],
+      "renderedBy": "app/SlideFitIllustration.tsx",
+      "promptPath": "docs/qa/2026-10-11-wall-scene-redraw/scene-prompt.txt"
+    },
+    {
+      "id": "qin-wall-mountain-gap-v2",
+      "chapterIds": [
+        "cn-ancient-04-05-qin-great-wall"
+      ],
+      "title": "山地城墙连接学具 · 缺口底景",
+      "purpose": "teaching-prop",
+      "localPath": "reference-assets/history-lab-art/qin-wall-mountain-gap-v2.png",
+      "runtimePath": "/images/history-labs/qin-wall-mountain-gap-v2.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目组（image_gen辅助绘制）",
+      "license": "项目自制教学插画，仅用于本项目学习模型",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "licensePath": "reference-assets/history-lab-art/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "UNESCO-GREAT-WALL",
+        "GUYANG-GOV-QIN-WALL-STRUCTURES"
+      ],
+      "caption": "山地城墙连接学具 · 缺口底景 · 教学新画",
+      "boundary": "现代教学插画，以山地土石城墙解释连接与修补，不是秦代现场或具体遗址复原。不同地区的秦墙材料和形制不同；拼合是学习动作，不表示古人搬动整块墙。",
+      "notes": "完整山地构图保留墙顶、厚度、落地与延伸关系；同一完整图裁出活动墙段，缺口图只在局部显示。替换被用户否定的木板状纹理条，旧图不删除。",
+      "referenceAssetIds": [
+        "qin-wall-mountain-scene-v2"
+      ],
+      "renderedBy": "app/SlideFitIllustration.tsx",
+      "promptPath": "docs/qa/2026-10-11-wall-scene-redraw/gap-prompt.txt"
+    }
+  ]
+}

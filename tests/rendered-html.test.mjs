@@ -17,7 +17,7 @@ async function render() {
 
 test("renders only the current China local playtest scope", async () => {
  const response=await render(); assert.equal(response.status,200); const html=await response.text();
- assert.match(html,/小小历史旅行团/); assert.match(html,/春秋至明清/);assert.match(html,/家长入口/);
+ assert.match(html,/小小历史旅行团/); assert.match(html,/章材料与说明/);assert.match(html,/家长入口/);
  assert.match(html,/history-tour-river-v4/);assert.match(html,/river-hero/);assert.doesNotMatch(html,/focus-welcome/);
  assert.match(html,/拿上地图，出发/);
  assert.doesNotMatch(html,/下一站，|旅行团插画地图/);

@@ -54,6 +54,8 @@ const voiceInterface = readJson("content/voice-interface-lines.json");
 const sourceRegistry = readJson("content/sources.json");
 const assetRegistryPaths = [
   "content/assets/china-expansion-assets.json",
+  "content/assets/confucius-depth-assets.json",
+  "content/assets/history-lab-art-assets.json",
   "content/assets/focused-quests-assets.json",
   "content/assets/homepage-ui-assets.json",
   "content/assets/tang-changan-assets.json",
@@ -467,7 +469,7 @@ for (const registry of assetRegistries) {
     }
     assert(Array.isArray(asset.factSourceIds), `素材 ${asset.id} 缺少事实来源列表`);
     assert(
-      asset.factSourceIds.length > 0 || asset.contentStatus === "needs-primary-object-record",
+      asset.factSourceIds.length > 0 || asset.contentStatus === "needs-primary-object-record" || (asset.purpose === "brand-identity" && asset.clearance === "cleared-project-created"),
       `素材 ${asset.id} 没有事实来源，也未标记为待补收藏机构记录`,
     );
     for (const sourceId of asset.factSourceIds ?? []) {

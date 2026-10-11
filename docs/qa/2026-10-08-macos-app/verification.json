@@ -1,0 +1,83 @@
+{
+  "status": "built-and-installed-gui-validation-blocked",
+  "started": "2026-10-08",
+  "completedBuild": "2026-10-09",
+  "referenceProject": "../playground (Tauri 2)",
+  "application": "/Applications/小小历史旅行团.app",
+  "bundleIdentifier": "com.jexceed.historytrip",
+  "version": "0.1.0",
+  "architecture": "arm64",
+  "minimumSystemVersion": "14.0",
+  "configuredContentSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "chapters": 44,
+  "stations": 11,
+  "gameVoiceClips": 2044,
+  "packagedAssetFiles": 2713,
+  "copiedAssetHashesVerified": true,
+  "runtime": {
+    "runtime": "Tauri/WebKit client-only",
+    "serverRuntimeIncluded": false,
+    "runtimePackages": [
+      "react",
+      "react-dom",
+      "scheduler"
+    ]
+  },
+  "cleanupArchivedFiles": 13,
+  "checks": {
+    "jsTests": 68,
+    "rustTests": 2,
+    "strictAssets": true,
+    "fullLibraryAudit": "112 chapters / 560 steps",
+    "lint": true,
+    "desktopTypecheck": true,
+    "cargoFmt": true,
+    "appSignatureVerification": true,
+    "zipIntegrity": true,
+    "dmgIntegrity": true,
+    "installedBinaryMatchesRelease": true
+  },
+  "nativeGuiValidation": {
+    "status": "blocked",
+    "reason": "Computer-use tool reports Mac is locked and cannot unlock automatically. Manual unlock requested.",
+    "attempts": 2,
+    "stillRequired": [
+      "Actual app first render",
+      "Sound playback / pause",
+      "Resume after quit and reopen",
+      "Native progress file import / export",
+      "External source link opens in system browser",
+      "Current native content viewport measurement"
+    ]
+  },
+  "signing": {
+    "kind": "ad-hoc local",
+    "appleDeveloperIdentity": false,
+    "notarized": false
+  },
+  "artifacts": [
+    {
+      "path": "/Users/chiang/Documents/Projects/history/release/little-history-trip-0.1.0-macos-arm64.dmg",
+      "bytes": 129520853,
+      "sha256": "32c10db3f5e68e9f8176544dd4fd03aa9d27e1f5371a10262084ec4753090dba"
+    },
+    {
+      "path": "/Users/chiang/Documents/Projects/history/release/little-history-trip-0.1.0-macos-arm64.zip",
+      "bytes": 127223733,
+      "sha256": "257cd2e19e16f961526de210512c65396c8fe63b1c88c8ed20dbb9feb689e0b0"
+    },
+    {
+      "path": "/Users/chiang/Documents/Projects/history/public/images/brand/history-trip-logo.png",
+      "bytes": 1199850,
+      "sha256": "a22ab5bd9e9143bce3c4f0a57972aa2fa4712759461ec8764ca8eef62a325a44"
+    },
+    {
+      "path": "/Users/chiang/Documents/Projects/history/src-tauri/icons/icon.icns",
+      "bytes": 2019679,
+      "sha256": "ed002f8eafb88f9da4566ce02fd3939a1a35146321d93e814ec47ec0ec756b1d"
+    }
+  ]
+}

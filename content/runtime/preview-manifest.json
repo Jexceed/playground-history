@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "contentVersion": "0.68.0",
-  "generatedAt": "2026-10-08",
+  "generatedAt": "2026-10-11",
   "title": "春秋至明清本机试玩",
   "audience": {
     "primary": "4—6岁儿童与家长共学",
@@ -10,7 +10,7 @@
   "totals": {
     "tracks": 1,
     "chapters": 44,
-    "facts": 312,
+    "facts": 313,
     "methodNotes": 1,
     "screens": 260,
     "audioClips": 283,
@@ -21,12 +21,12 @@
     "playableChapters": 44,
     "coreQuestSteps": 220,
     "localVoiceLines": 2044,
-    "glossaryTerms": 48,
-    "pronunciationEntries": 90,
+    "glossaryTerms": 51,
+    "pronunciationEntries": 92,
     "yearReadingRules": 7,
-    "sources": 187,
+    "sources": 182,
     "textbookConnections": 44,
-    "assets": 591
+    "assets": 599
   },
   "voiceReadingGuide": {
     "status": "editorial-baseline-pending-voice-freeze-and-listening-check",
@@ -106,20 +106,34 @@
             "1.2 夏商西周与春秋战国时期"
           ],
           "learningContext": {
-            "childIntro": "先到春秋认识孔子，听一句论语，再跟今天的小伙伴学一学、练一练。",
+            "childIntro": "先到春秋认识孔子，听他教人怎样求学、怎样待人，再跟小伙伴把古话用在今天。",
             "chronology": "本站范围为春秋战国；当前只开放孔子与论语任务，人物生活在春秋。",
-            "covered": "孔子、论语、学与习以及文本流传。",
+            "covered": "孔子的教育与思想贡献、《论语》、己所不欲勿施于人与学而时习之的具体实践。",
             "scopeBoundary": "不把整个诸子百家压成一句话；其他旧稿暂不开放。",
             "sourceIds": [
+              "KZYJ-CONFUCIUS-TEACHING",
               "EDB-ANALECTS-FOUR",
+              "EDB-ANALECTS-RECIPROCITY",
               "MOE-HISTORY-CURRICULUM-2022"
             ],
             "sources": [
+              {
+                "id": "KZYJ-CONFUCIUS-TEACHING",
+                "title": "大哉孔子展：设教、思想与教育",
+                "institution": "孔子研究院",
+                "url": "https://www.kongziyjy.org/nd.jsp?id=363"
+              },
               {
                 "id": "EDB-ANALECTS-FOUR",
                 "title": "《论语四则》选篇分析，1—2页",
                 "institution": "香港特别行政区政府教育局",
                 "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/primary/lang/culture/03_001.pdf"
+              },
+              {
+                "id": "EDB-ANALECTS-RECIPROCITY",
+                "title": "中华经典名句（小学）：己所不欲，勿施于人，1—2页",
+                "institution": "香港特别行政区政府教育局",
+                "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/chinese-culture/Proverb-C5-04_pri.pdf"
               },
               {
                 "id": "MOE-HISTORY-CURRICULUM-2022",
@@ -498,51 +512,55 @@
           "periodId": "spring-autumn-warring-states",
           "periodLabel": "春秋战国",
           "periodYears": "前770—前221年",
-          "title": "孔子说：学了还要常常练习",
-          "coreQuestion": "《论语》里‘学而时习之’怎样把学习和练习连起来？",
-          "throughline": "以孔子、《论语》的一句学习名言和竹简证据进入诸子百家，再比较不同思想怎样回答当时问题。",
+          "title": "孔子教我们怎样学、怎样待人",
+          "coreQuestion": "孔子为什么教人求学，也教人怎样待人？怎样把《论语》的一条道理学懂、再用出来？",
+          "throughline": "孔子开办私学并创立儒家；《论语》把师生教导传给后人。以己所不欲勿施于人的具体实践理解学而时习之。",
           "childEntry": {
             "id": "cn-ancient-03-03-hundred-schools",
-            "childTitle": "跟孔子学会学与习",
-            "prompt": "孔子说，学过还要温习和练习。小伙伴刚学了一个动作，怎样把学到的真正用起来？",
-            "takeaway": "孔子生活在春秋。《论语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。",
-            "object": "明刊《论语注疏》",
+            "childTitle": "孔子教我们怎样学、怎样待人",
+            "prompt": "春秋的孔子办私学，教不同出身的人学知识、学做人。他创立儒家，影响后世。我们能把他的待人道理用在今天吗？",
+            "takeaway": "孔子在春秋教书，创立儒家。《论语》保存他的教导。学懂不把自己不愿受的对待加给别人，再温习、实践，让古话用在今天。",
+            "object": "孔子像与明刊《论语注疏》",
             "people": [
               "孔子",
-              "《论语》"
+              "子贡"
             ],
-            "place": "鲁国曲阜一带与今天的阅读室",
-            "culture": "孔子与《论语》",
-            "care": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
-            "preferredAssetId": "analects-ming-commentary",
+            "place": "春秋鲁国（今山东曲阜一带）与今天的活动室",
+            "culture": "有教无类、己所不欲勿施于人、学而时习之",
+            "care": "孔子像为约1770年的后世作品，不是孔子在世时的写生；书影为明刊《论语注疏》，不是孔子手稿。借笔与轮流讲述是现代教学情境，不是孔子生平记录。不以答对或背诵推定理解；尊重别人也包括听取拒绝、表达自己的需要。",
+            "preferredAssetId": "confucius-portrait-1770",
             "playableSource": "content/focused-quests.json"
           },
           "learningGuide": {
             "id": "cn-ancient-03-03-hundred-schools",
             "theme": "知识与技术",
-            "learningGoal": "认识孔子与《论语》，把学、温习和实践连起来。",
-            "parentQuestion": "这句话是谁留下的？学过之后还能做什么？",
-            "observe": "能指出后世书本保存言行，并用动作演出温习和练习。",
-            "misconception": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+            "learningGoal": "认识孔子办私学、创儒家及其思想传承；理解己所不欲勿施于人，并把学、温习和实践联系起来。",
+            "parentQuestion": "孔子教人什么？你不愿受到的对待，同伴也可能不愿意；想借他正在用的东西，可以怎样做？",
+            "observe": "能指出孔子是春秋的老师与思想家、画像和刊本来自后世；在借笔与轮流讲述中先问或先听，并能尊重暂时拒绝、尝试替代办法。",
+            "misconception": "孔子像为约1770年的后世作品，不是孔子在世时的写生；书影为明刊《论语注疏》，不是孔子手稿。借笔与轮流讲述是现代教学情境，不是孔子生平记录。不以答对或背诵推定理解；尊重别人也包括听取拒绝、表达自己的需要。",
             "evidenceStepIds": [
               "time",
+              "beginning",
               "journey",
               "change",
               "takeaway"
             ],
             "sourceIds": [
-              "EDB-ANALECTS-FOUR"
+              "KZYJ-CONFUCIUS-TEACHING",
+              "EDB-ANALECTS-FOUR",
+              "EDB-ANALECTS-RECIPROCITY"
             ],
             "related": [
               {
-                "chapterId": "cn-ancient-04-04-han-knowledge",
-                "relation": "比较两章的材料与用途，留意人物、年代和任务不同。"
+                "chapterId": "cn-ancient-04-07-sima-qian-shiji",
+                "relation": "比较《论语》保存师生言行与《史记》记录历史人物，分别辨认作者、所写人物和后世刊本的年代。"
               }
             ],
             "reviewStatus": "authored-implementation-family-test-pending",
             "glossaryTerms": [
-              "文化",
-              "文物"
+              "私学",
+              "儒家",
+              "实践"
             ]
           },
           "textbookConnection": {
@@ -551,23 +569,36 @@
               "type": "人物与材料",
               "icon": "📖",
               "title": "孔子与《论语》",
-              "childBridge": "孔子说，学过还要温习和练习。小伙伴刚学了一个动作，怎样把学到的真正用起来？",
-              "evidenceBoundary": "眼前是明代刊本，不是孔子手稿。"
+              "childBridge": "春秋的孔子办私学，教不同出身的人学知识、学做人。他创立儒家，影响后世。我们能把他的待人道理用在今天吗？",
+              "evidenceBoundary": "孔子像为约1770年的后世作品，不是孔子在世时的写生；书影为明刊《论语注疏》，不是孔子手稿。"
             },
             "companions": [
               {
-                "type": "地点",
-                "label": "春秋鲁国与今天的阅读室",
-                "note": "地点与时代分别核对。"
+                "type": "经典原文",
+                "label": "《卫灵公》原文",
+                "note": "子贡问：有一言而可以终身行之者乎？子曰：其恕乎！己所不欲，勿施于人。"
               },
               {
-                "type": "材料",
-                "label": "明刊《论语注疏》",
-                "note": "实物或书影用于观察，文献用于解释。"
+                "type": "现代意译",
+                "label": "《卫灵公》现代意译",
+                "note": "自己不愿受到的对待，不要加给别人；也要听对方的想法，不强迫他答应。"
+              },
+              {
+                "type": "经典原文",
+                "label": "《学而》原文与读音",
+                "note": "子曰：“学而时习之，不亦说乎？”“说”读yuè，通“悦”。"
+              },
+              {
+                "type": "现代意译",
+                "label": "《学而》现代意译与应用",
+                "note": "学后按时温习和实践，不也很快乐吗？借笔和轮流讲述是现代应用，不是孔子亲历。"
               }
             ],
             "sourceIds": [
+              "KZYJ-CONFUCIUS-TEACHING",
               "EDB-ANALECTS-FOUR",
+              "EDB-ANALECTS-RECIPROCITY",
+              "COMMONS-CONFUCIUS-PORTRAIT-1770",
               "MOE-HISTORY-CURRICULUM-2022"
             ]
           },
@@ -575,52 +606,68 @@
             {
               "id": "time",
               "icon": "🕰️",
-              "label": "先去孔子生活的时代",
-              "text": "孔子生活在春秋，重视学习。眼前是很久以后印的《论语注疏》，把孔子和弟子的言行传下来。"
+              "label": "认识春秋的孔子",
+              "text": "孔子生活在春秋，是老师，也是一位思考做人道理的思想家。他办私学，教不同出身的学生。他的教导影响了后来的中国文化。看，后人把他画了下来。"
             },
             {
               "id": "beginning",
               "icon": "🔎",
-              "label": "听一句留下来的古话",
-              "text": "《论语》记着：“学而时习之，不亦说乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。"
+              "label": "先学一句待人的话",
+              "text": "学生子贡问，有没有一句话值得一生去做？孔子说：“己所不欲，勿施于人。”自己不愿受到的对待，也别加给别人。我们从借画笔开始试。"
             },
             {
               "id": "journey",
               "icon": "🧭",
-              "label": "把听过的动作做出来",
-              "text": "这是今天的练习：小伙伴听过拍手的示范，要把动作自己做一次。找到正在亲手练习的地方。"
+              "label": "想借画笔，先问一问",
+              "text": "绿衣男孩正用蓝色画笔画河。黄衣男孩也想用。如果自己画到一半，不想被人拿走画笔，就也想想同伴的感受。该怎样借？"
             },
             {
               "id": "change",
               "icon": "✨",
-              "label": "隔一会儿，再想再试",
-              "text": "小伙伴过了一会儿忘了动作。先回想，听不清就再听示范，再自己试试；不用和别人比快。"
+              "label": "第二天，把学过的再用一次",
+              "text": "孔子说：“学而时习之，不亦说乎？”学过，常温习、实践，也能感到快乐。第二天，女孩还在讲发现，黄衣男孩也想说。他该怎么做？"
             },
             {
               "id": "takeaway",
               "icon": "🗣️",
-              "label": "书里的话来到今天",
-              "text": "孔子和弟子的言行由后人整理、抄写、刊印，传到今天。我们也能读这句话，在生活里练习。"
+              "label": "说了请，也要听听回答",
+              "text": "回到画桌，绿衣男孩说：“我还要用一会儿。”黄衣男孩已经说了“请”，也不能让同伴一定答应。谁都可以说出需要。接下来怎么办？"
             }
           ],
           "glossary": [
             {
-              "term": "文化",
-              "icon": "🎨",
-              "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
-              "example": "文化会交流变化，不能排成谁高谁低。",
-              "priority": 2
+              "term": "私学",
+              "icon": "📖",
+              "plain": "由老师自己开办、招收学生来学习的地方。",
+              "example": "孔子开办私学，教不同出身的人学习。",
+              "priority": 1
             },
             {
-              "term": "文物",
-              "icon": "🏺",
-              "plain": "从过去保存下来、能帮助认识历史的东西。",
-              "example": "文物能告诉我们一些事，也会留下不知道的地方。",
+              "term": "儒家",
+              "icon": "📚",
+              "plain": "孔子开创、后人继续讨论学习和做人道理的一派学问。",
+              "example": "儒家的主张由许多人在不同时代继续讨论，不是一句古话的全部。",
+              "priority": 1
+            },
+            {
+              "term": "实践",
+              "icon": "🤝",
+              "plain": "把学到的办法或道理，放到事情里试着做。",
+              "example": "学会借东西先问，下一次想借时真的先开口问。",
               "priority": 1
             }
           ],
-          "glossaryCount": 2,
+          "glossaryCount": 3,
           "pronunciations": [
+            {
+              "text": "子贡",
+              "reading": "Zǐ gòng",
+              "kind": "person",
+              "chapterIds": [
+                "cn-ancient-03-03-hundred-schools"
+              ],
+              "note": "孔子的学生子贡；本轮待人名句的提问者。"
+            },
             {
               "text": "不亦说乎",
               "reading": "bù yì yuè hū",
@@ -630,6 +677,15 @@
               ],
               "note": "本轮新增中国历史任务的校听项；自动匹配不替代人工试听。",
               "synthesisText": "不亦悦乎"
+            },
+            {
+              "text": "有教无类",
+              "reading": "yǒu jiào wú lèi",
+              "kind": "phrase",
+              "chapterIds": [
+                "cn-ancient-03-03-hundred-schools"
+              ],
+              "note": "教读jiào；进入语音用不因出身拒绝愿学者解释。"
             },
             {
               "text": "曲阜",
@@ -652,7 +708,7 @@
               "synthesisText": "伦语"
             }
           ],
-          "pronunciationCount": 3,
+          "pronunciationCount": 5,
           "gameplay": {
             "mode": "authored-picture-quest-v4",
             "status": "playable-core",
@@ -660,13 +716,27 @@
             "hook": {
               "kind": "具体任务",
               "icon": "🔎",
-              "label": "跟孔子学会学与习",
-              "question": "孔子说，学过还要温习和练习。小伙伴刚学了一个动作，怎样把学到的真正用起来？"
+              "label": "孔子教我们怎样学、怎样待人",
+              "question": "春秋的孔子办私学，教不同出身的人学知识、学做人。他创立儒家，影响后世。我们能把他的待人道理用在今天吗？"
             },
-            "cta": "跟孔子学一次再试一次",
+            "cta": "跟孔子学一句，再试着做",
             "anchor": "孔子与《论语》",
-            "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+            "boundary": "孔子像为约1770年的后世作品，不是孔子在世时的写生；书影为明刊《论语注疏》，不是孔子手稿。借笔与轮流讲述是现代教学情境，不是孔子生平记录。不以答对或背诵推定理解；尊重别人也包括听取拒绝、表达自己的需要。",
             "evidence": [
+              {
+                "id": "confucius-portrait-1770",
+                "title": "孔子像（约1770年）",
+                "localPath": "reference-assets/confucius-depth/confucius-portrait-1770.jpg",
+                "sourcePage": "https://commons.wikimedia.org/wiki/File:Konfuzius-1770.jpg",
+                "sourceFile": null,
+                "licensePath": "reference-assets/confucius-depth/ATTRIBUTION.md",
+                "license": "Public domain; PD-Art / PD-old-100 / PD-1923",
+                "clearance": "cleared-public-domain",
+                "caption": "孔子像 · 后世所绘",
+                "boundary": "约1770年的后世画像，不是孔子在世时的写生或照片；只能说明后人怎样纪念孔子，不能据此确认本人容貌、春秋服饰或课堂现场。",
+                "childVisibility": "child-ok",
+                "image": "/content/step-images/confucius-portrait-1770.jpg"
+              },
               {
                 "id": "analects-ming-commentary",
                 "title": "明刊《论语注疏》",
@@ -677,38 +747,38 @@
                 "license": "CC BY-SA 3.0",
                 "clearance": "cleared-open-license",
                 "caption": "明刊《论语注疏》",
-                "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+                "boundary": "明刊《论语注疏》的后世刊本书影，不是孔子手稿。用于说明言行的整理、注释与传承；本章两句原文另据已登记教育文献，不声称这张书页恰好展示两句原文。照片许可与经典释义分别核对。",
                 "childVisibility": "child-ok",
                 "image": "/content/step-images/analects-ming-commentary.jpg"
               }
             ],
             "photoAlbum": null,
             "coverAsset": {
-              "id": "analects-ming-commentary",
-              "title": "明刊《论语注疏》",
-              "localPath": "reference-assets/china-expansion/analects-ming-commentary.jpg",
-              "sourcePage": "https://commons.wikimedia.org/wiki/File:Commentaries_of_the_Analects_of_Confucius.jpg",
+              "id": "confucius-portrait-1770",
+              "title": "孔子像（约1770年）",
+              "localPath": "reference-assets/confucius-depth/confucius-portrait-1770.jpg",
+              "sourcePage": "https://commons.wikimedia.org/wiki/File:Konfuzius-1770.jpg",
               "sourceFile": null,
-              "licensePath": null,
-              "license": "CC BY-SA 3.0",
-              "clearance": "cleared-open-license",
-              "caption": "明刊《论语注疏》",
-              "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+              "licensePath": "reference-assets/confucius-depth/ATTRIBUTION.md",
+              "license": "Public domain; PD-Art / PD-old-100 / PD-1923",
+              "clearance": "cleared-public-domain",
+              "caption": "孔子像 · 后世所绘",
+              "boundary": "约1770年的后世画像，不是孔子在世时的写生或照片；只能说明后人怎样纪念孔子，不能据此确认本人容貌、春秋服饰或课堂现场。",
               "childVisibility": "child-ok",
-              "image": "/content/step-images/analects-ming-commentary.jpg"
+              "image": "/content/step-images/confucius-portrait-1770.jpg"
             },
             "presentation": {
               "kind": "object-workbench",
-              "sceneAssetId": "confucius-learning-v1",
-              "sceneAlt": "跟孔子学会学与习的现代教学故事插画",
-              "title": "跟孔子学会学与习",
-              "evidenceTitle": "明刊《论语注疏》",
-              "evidenceLine": "真材料的年代和身份可以在大图里查看。",
-              "evidenceNarration": "照片里是明代印的《论语注疏》，能看到经文和解释。它不是孔子亲笔。",
-              "guide": "听清故事，点图或动手找线索。",
+              "sceneAssetId": "confucius-borrowing-v3",
+              "sceneAlt": "三位现代小伙伴在画桌边，黄衣男孩想借绿衣男孩正在用的蓝笔",
+              "title": "孔子教我们怎样学、怎样待人",
+              "evidenceTitle": "孔子像与《论语》后世刊本",
+              "evidenceLine": "人物、画像和书本各有自己的年代。",
+              "evidenceNarration": "这是后人画的孔子，不是他在世时的写生。孔子是春秋的思想家和教育家，开办私学，创立儒家；这些教导影响了后来很多人。",
+              "guide": "先听情境，想想自己和同伴的感受，再选择下一步。",
               "alignHint": "",
-              "familyHint": "回看图里的发现，再和家人做一次。",
-              "familyLabel": "和家人再试一次",
+              "familyHint": "先问、听回答，再决定下一步。",
+              "familyLabel": "和家人把道理试着用出来",
               "familyMode": "actions",
               "nextLabel": "继续找线索",
               "lastLabel": "带着发现回家",
@@ -716,126 +786,130 @@
               "sceneAspectRatio": 1.5,
               "story": {
                 "kind": "travel-story",
-                "reunionAssetId": "confucius-learning-v1",
-                "reunionAlt": "三位小伙伴回看跟孔子学会学与习的线索，现代教学插画",
+                "reunionAssetId": "confucius-listening-v3",
+                "reunionAlt": "女孩分享自己的旅行图，两位男孩听她讲述，现代教学插画",
                 "reunionAspectRatio": 1.5,
                 "reunionFit": "contain",
-                "coverCaption": "跟孔子学会学与习",
-                "coverNarration": "孔子说，学过还要温习和练习。小伙伴刚学了一个动作，怎样把学到的真正用起来？",
-                "closingCaption": "我们带回了一个发现",
-                "closingLine": "学过，还要温习和练习。",
-                "closingNarration": "孔子生活在春秋。《论语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。",
-                "fictionNote": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
-                "reunionImage": "/content/step-images/confucius-learning-v1.jpg",
-                "stationLine": "先到春秋认识孔子，听一句论语，再跟今天的小伙伴学一学、练一练。",
+                "coverCaption": "孔子教我们怎样学、怎样待人",
+                "coverNarration": "两千多年前，孔子在春秋鲁国教书。他办私学，教不同出身的人学知识、学做人。他创立儒家，后人把这些学问传下去，影响了很多代人。今天，来学一句待人的话。",
+                "closingCaption": "古话来到今天",
+                "closingLine": "想到别人的感受，再把道理用出来。",
+                "closingNarration": "孔子在春秋教书，创立儒家。《论语》保存他的教导。学懂不把自己不愿受的对待加给别人，再温习、实践，让古话用在今天。",
+                "fictionNote": "孔子像为约1770年的后世作品，不是孔子在世时的写生；书影为明刊《论语注疏》，不是孔子手稿。借笔与轮流讲述是现代教学情境，不是孔子生平记录。不以答对或背诵推定理解；尊重别人也包括听取拒绝、表达自己的需要。",
+                "reunionImage": "/content/step-images/confucius-listening-v3.jpg",
+                "stationLine": "先到春秋认识孔子，听他教人怎样求学、怎样待人，再跟小伙伴把古话用在今天。",
                 "stationAudio": {
-                  "id": "quest-7e494fa50c3cd1c4",
-                  "text": "先到春秋认识孔子，听一句论语，再跟今天的小伙伴学一学、练一练。",
-                  "synthesisText": "先到春秋认识孔子，听一句伦语，再跟今天的小伙伴学一学、练一练。"
+                  "id": "quest-4c2d2cfcdb97d885",
+                  "text": "先到春秋认识孔子，听他教人怎样求学、怎样待人，再跟小伙伴把古话用在今天。"
                 },
                 "closingAudio": {
-                  "id": "quest-f5c6beae73f36e81",
-                  "text": "孔子生活在春秋。《论语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。",
-                  "synthesisText": "孔子生活在春秋。《伦语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。"
+                  "id": "quest-c804fb91b594c384",
+                  "text": "孔子在春秋教书，创立儒家。《论语》保存他的教导。学懂不把自己不愿受的对待加给别人，再温习、实践，让古话用在今天。",
+                  "synthesisText": "孔子在春秋教书，创立儒家。《伦语》保存他的教导。学懂不把自己不愿受的对待加给别人，再温习、实践，让古话用在今天。"
                 }
               },
-              "sceneImage": "/content/step-images/confucius-learning-v1.jpg",
+              "coverUsesMaterial": true,
+              "sceneImage": "/content/step-images/confucius-borrowing-v3.jpg",
+              "coverMaterial": {
+                "image": "/content/step-images/confucius-portrait-1770.jpg",
+                "title": "孔子像（约1770年）",
+                "label": "孔子像 · 后世所绘"
+              },
               "evidenceAudio": {
-                "id": "quest-dc60544d51f890c5",
-                "text": "照片里是明代印的《论语注疏》，能看到经文和解释。它不是孔子亲笔。",
-                "synthesisText": "照片里是明代印的《伦语注疏》，能看到经文和解释。它不是孔子亲笔。"
+                "id": "quest-73f196d8f2e7bf30",
+                "text": "这是后人画的孔子，不是他在世时的写生。孔子是春秋的思想家和教育家，开办私学，创立儒家；这些教导影响了后来很多人。"
               },
               "guideAudio": {
-                "id": "quest-c1f444d9c3635141",
-                "text": "听清故事，点图或动手找线索。"
+                "id": "quest-eb1d7b6921110603",
+                "text": "先听情境，想想自己和同伴的感受，再选择下一步。"
               }
             },
             "sceneAsset": {
-              "id": "confucius-learning-v1",
-              "title": "跟孔子学会学与习的故事插画",
-              "localPath": "reference-assets/china-expansion/confucius-learning-v1.png",
+              "id": "confucius-borrowing-v3",
+              "title": "借画笔前",
+              "localPath": "reference-assets/confucius-depth/confucius-borrowing-v3.png",
               "sourcePage": "https://openai.com/policies/terms-of-use/",
               "sourceFile": "content/focused-quests.json",
-              "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md",
+              "licensePath": "reference-assets/confucius-depth/ATTRIBUTION.md",
               "license": "项目自制；按OpenAI使用条款持有输出使用权",
               "clearance": "cleared-project-created",
-              "caption": "现代教学故事插画，不是历史现场或文物照片。",
-              "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+              "caption": "今天的小伙伴练习待人方式 · 故事插画",
+              "boundary": "现代教学情境，不是孔子生平、历史课堂复原或文物照片。不同选项呈现供比较的行为；要结合当页问题与回应理解。",
               "childVisibility": "child-ok",
-              "image": "/content/step-images/confucius-learning-v1.jpg"
+              "image": "/content/step-images/confucius-borrowing-v3.jpg"
             },
             "narrativeAssets": [
               {
-                "id": "confucius-learning-v1",
-                "title": "跟孔子学会学与习的故事插画",
-                "localPath": "reference-assets/china-expansion/confucius-learning-v1.png",
+                "id": "confucius-listening-v3",
+                "title": "听同伴讲发现",
+                "localPath": "reference-assets/confucius-depth/confucius-listening-v3.png",
                 "sourcePage": "https://openai.com/policies/terms-of-use/",
                 "sourceFile": "content/focused-quests.json",
-                "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md",
+                "licensePath": "reference-assets/confucius-depth/ATTRIBUTION.md",
                 "license": "项目自制；按OpenAI使用条款持有输出使用权",
                 "clearance": "cleared-project-created",
-                "caption": "现代教学故事插画，不是历史现场或文物照片。",
-                "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+                "caption": "今天的小伙伴练习待人方式 · 故事插画",
+                "boundary": "现代教学情境，不是孔子生平、历史课堂复原或文物照片。不同选项呈现供比较的行为；要结合当页问题与回应理解。",
                 "childVisibility": "child-ok",
-                "image": "/content/step-images/confucius-learning-v1.jpg"
+                "image": "/content/step-images/confucius-listening-v3.jpg"
               },
               {
-                "id": "confucius-choice-scenes-v2",
-                "title": "跟孔子学会学与习的情境选择分镜",
-                "localPath": "reference-assets/choice-art-refinement/confucius-choice-scenes-v2.png",
+                "id": "confucius-reciprocity-choices-v3",
+                "title": "待人方式的六个情境",
+                "localPath": "reference-assets/confucius-depth/confucius-reciprocity-choices-v3.png",
                 "sourcePage": "https://openai.com/policies/terms-of-use/",
-                "sourceFile": null,
-                "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
+                "sourceFile": "content/focused-quests.json",
+                "licensePath": "reference-assets/confucius-depth/ATTRIBUTION.md",
                 "license": "项目自制；按OpenAI使用条款持有输出使用权",
                 "clearance": "cleared-project-created",
-                "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
-                "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+                "caption": "今天的小伙伴练习待人方式 · 故事插画",
+                "boundary": "现代教学情境，不是孔子生平、历史课堂复原或文物照片。不同选项呈现供比较的行为；要结合当页问题与回应理解。",
                 "childVisibility": "child-ok",
-                "image": "/content/step-images/confucius-choice-scenes-v2.jpg"
+                "image": "/content/step-images/confucius-reciprocity-choices-v3.jpg"
               }
             ],
-            "coverImage": "/content/step-images/analects-ming-commentary.jpg",
-            "coverImageAlt": "明刊《论语注疏》",
+            "coverImage": "/content/step-images/confucius-portrait-1770.jpg",
+            "coverImageAlt": "孔子像（约1770年）",
             "coverImageKind": "历史材料",
             "coverDisplay": {
-              "label": "明刊《论语注疏》",
+              "label": "孔子像 · 后世所绘",
               "fit": "contain"
             },
             "coverAudio": {
-              "id": "quest-88713e5710c4fa04",
-              "text": "孔子说，学过还要温习和练习。小伙伴刚学了一个动作，怎样把学到的真正用起来？"
+              "id": "quest-74bdca89f4fa1175",
+              "text": "两千多年前，孔子在春秋鲁国教书。他办私学，教不同出身的人学知识、学做人。他创立儒家，后人把这些学问传下去，影响了很多代人。今天，来学一句待人的话。"
             },
             "textbookAudio": null,
             "finishAudio": {
-              "id": "quest-f5c6beae73f36e81",
-              "text": "孔子生活在春秋。《论语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。",
-              "synthesisText": "孔子生活在春秋。《伦语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。"
+              "id": "quest-c804fb91b594c384",
+              "text": "孔子在春秋教书，创立儒家。《论语》保存他的教导。学懂不把自己不愿受的对待加给别人，再温习、实践，让古话用在今天。",
+              "synthesisText": "孔子在春秋教书，创立儒家。《伦语》保存他的教导。学懂不把自己不愿受的对待加给别人，再温习、实践，让古话用在今天。"
             },
             "finish": {
-              "title": "学过，再试一次！",
+              "title": "学到一句话，也试着做到了",
               "actions": [
-                "请家人示范一个短动作，隔一会儿再一起做。",
-                "指着书影说或听：孔子在春秋，这本书是后人印的。"
+                "和家人各用一支画笔。想借时先问，听完回答，再选择等一等或用另一支。",
+                "轮流讲今天的一件事，先听对方讲完再回应。明天再试，说说有没有更容易做到。"
               ],
-              "parent": "这句话是谁留下的？学过之后还能做什么？ 能指出后世书本保存言行，并用动作演出温习和练习。 眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+              "parent": "孔子是谁？为什么今天还读他的话？想借别人正在用的东西，可以怎么办？观察孩子能否把不愿受到的对待联系到别人，并在对方暂时拒绝时选择等待或替代办法；不以背诵、答对或顺从成人作为理解的证据。",
               "sceneStepIndexes": [
                 2,
-                4
+                3
               ],
               "actionAudio": [
                 {
-                  "id": "quest-486503512c266597",
-                  "text": "请家人示范一个短动作，隔一会儿再一起做。"
+                  "id": "quest-6bef0e789db8fd0d",
+                  "text": "和家人各用一支画笔。想借时先问，听完回答，再选择等一等或用另一支。"
                 },
                 {
-                  "id": "quest-64eb328394df05e2",
-                  "text": "指着书影说或听：孔子在春秋，这本书是后人印的。"
+                  "id": "quest-09cf1aff7d878b09",
+                  "text": "轮流讲今天的一件事，先听对方讲完再回应。明天再试，说说有没有更容易做到。"
                 }
               ],
               "introAudio": {
-                "id": "quest-f5c6beae73f36e81",
-                "text": "孔子生活在春秋。《论语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。",
-                "synthesisText": "孔子生活在春秋。《伦语》留下孔子和弟子的言行；学过还要温习、实践，后来人把这些话传到今天。"
+                "id": "quest-c804fb91b594c384",
+                "text": "孔子在春秋教书，创立儒家。《论语》保存他的教导。学懂不把自己不愿受的对待加给别人，再温习、实践，让古话用在今天。",
+                "synthesisText": "孔子在春秋教书，创立儒家。《伦语》保存他的教导。学懂不把自己不愿受的对待加给别人，再温习、实践，让古话用在今天。"
               }
             },
             "estimatedMinutes": 6,
@@ -848,103 +922,104 @@
                 "id": "time",
                 "questionKind": "time-location",
                 "icon": "🕰️",
-                "phase": "先去孔子生活的时代",
-                "title": "先去孔子生活的时代",
-                "prompt": "孔子生活在哪个时候？",
-                "rightNote": "春秋时期，孔子和学生讨论怎样学习。",
-                "wrongNote": "秦朝在后面，孔子生活在更早的春秋。",
+                "phase": "认识春秋的孔子",
+                "title": "认识春秋的孔子",
+                "prompt": "孔子生活在哪个时代？",
+                "rightNote": "对，春秋时期的孔子开办私学，教学生学知识、学做人。",
+                "wrongNote": "秦朝在后面。孔子在更早的春秋教学生。",
                 "sourceIds": [
+                  "KZYJ-CONFUCIUS-TEACHING",
                   "EDB-ANALECTS-FOUR"
                 ],
                 "interaction": {
                   "kind": "timeline",
-                  "hint": "听清故事，再看看眼前的线索。"
+                  "hint": "听孔子的故事，再选他生活的时代。"
                 },
                 "narrative": {
                   "scene": "detail",
-                  "caption": "先去孔子生活的时代",
+                  "caption": "认识春秋的孔子",
                   "speaker": "小伙伴",
                   "responseSpeaker": "小伙伴",
-                  "response": "春秋时期，孔子和学生讨论怎样学习。",
-                  "retry": "秦朝在后面，孔子生活在更早的春秋。",
-                  "nextLabel": "听一句留下来的古话"
+                  "response": "对，春秋时期的孔子开办私学，教学生学知识、学做人。",
+                  "retry": "秦朝在后面。孔子在更早的春秋教学生。",
+                  "nextLabel": "先学一句待人的话"
                 },
                 "concepts": null,
                 "inspection": {
-                  "id": "analects-ming-commentary",
-                  "title": "明刊《论语注疏》",
-                  "localPath": "reference-assets/china-expansion/analects-ming-commentary.jpg",
-                  "sourcePage": "https://commons.wikimedia.org/wiki/File:Commentaries_of_the_Analects_of_Confucius.jpg",
+                  "id": "confucius-portrait-1770",
+                  "title": "孔子像 · 后世所绘",
+                  "localPath": "reference-assets/confucius-depth/confucius-portrait-1770.jpg",
+                  "sourcePage": "https://commons.wikimedia.org/wiki/File:Konfuzius-1770.jpg",
                   "sourceFile": null,
-                  "licensePath": null,
-                  "license": "CC BY-SA 3.0",
-                  "clearance": "cleared-open-license",
-                  "caption": "人物在春秋 · 书是明代刊本",
-                  "boundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。 明刊《论语注疏》",
+                  "licensePath": "reference-assets/confucius-depth/ATTRIBUTION.md",
+                  "license": "Public domain; PD-Art / PD-old-100 / PD-1923",
+                  "clearance": "cleared-public-domain",
+                  "caption": "人物在春秋 · 画像约1770年",
+                  "boundary": "约1770年的后世画像，不是孔子在世时的写生或照片；只能说明后人怎样纪念孔子，不能据此确认本人容貌、春秋服饰或课堂现场。 孔子像 · 后世所绘",
                   "childVisibility": "child-ok",
-                  "image": "/content/step-images/analects-ming-commentary.jpg",
-                  "label": "看大图，听材料说明",
+                  "image": "/content/step-images/confucius-portrait-1770.jpg",
+                  "label": "看孔子像，听人物介绍",
                   "placement": "main",
                   "framing": "object",
-                  "displayHeight": 290,
+                  "displayHeight": 320,
                   "openAlbum": false,
                   "sourceLinks": [
                     {
-                      "title": "《论语四则》选篇分析，1—2页",
-                      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/primary/lang/culture/03_001.pdf"
+                      "title": "孔子研究院：大哉孔子展",
+                      "url": "https://www.kongziyjy.org/nd.jsp?id=363"
+                    },
+                    {
+                      "title": "画像身份、年代与公有领域说明",
+                      "url": "https://commons.wikimedia.org/wiki/File:Konfuzius-1770.jpg"
                     }
                   ],
                   "audio": {
-                    "id": "quest-dc60544d51f890c5",
-                    "text": "照片里是明代印的《论语注疏》，能看到经文和解释。它不是孔子亲笔。",
-                    "synthesisText": "照片里是明代印的《伦语注疏》，能看到经文和解释。它不是孔子亲笔。"
+                    "id": "quest-73f196d8f2e7bf30",
+                    "text": "这是后人画的孔子，不是他在世时的写生。孔子是春秋的思想家和教育家，开办私学，创立儒家；这些教导影响了后来很多人。"
                   }
                 },
                 "story": {
                   "screenNumber": 1,
-                  "title": "先去孔子生活的时代",
-                  "screenText": "孔子生活在春秋，重视学习。眼前是很久以后印的《论语注疏》，把孔子和弟子的言行传下来。",
-                  "displayText": "孔子生活在春秋，重视学习。眼前是很久以后印的《论语注疏》，把孔子和弟子的言行传下来。",
-                  "narration": "孔子生活在春秋，重视学习。眼前是很久以后印的《论语注疏》，把孔子和弟子的言行传下来。"
+                  "title": "认识春秋的孔子",
+                  "screenText": "孔子生活在春秋，是老师，也是一位思考做人道理的思想家。他办私学，教不同出身的学生。他的教导影响了后来的中国文化。看，后人把他画了下来。",
+                  "displayText": "孔子生活在春秋，是老师，也是一位思考做人道理的思想家。他办私学，教不同出身的学生。他的教导影响了后来的中国文化。看，后人把他画了下来。",
+                  "narration": "孔子生活在春秋，是老师，也是一位思考做人道理的思想家。他办私学，教不同出身的学生。他的教导影响了后来的中国文化。看，后人把他画了下来。"
                 },
-                "assetId": "confucius-learning-v1",
-                "image": "/content/step-images/confucius-learning-v1.jpg",
-                "studyImage": "/content/study-scenes/study-33b23a28382b9ffb.svg",
-                "studyImageAlt": "先去孔子生活的时代",
-                "imageAlt": "跟孔子学会学与习的故事插画",
-                "imageCaption": "跟孔子学会学与习的故事插画",
-                "imageBoundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+                "assetId": "confucius-portrait-1770",
+                "image": "/content/step-images/confucius-portrait-1770.jpg",
+                "studyImage": "/content/study-scenes/study-78698c7b9ba077f9.svg",
+                "studyImageAlt": "认识春秋的孔子",
+                "imageAlt": "孔子像（约1770年）",
+                "imageCaption": "孔子像（约1770年）",
+                "imageBoundary": "约1770年的后世画像，不是孔子在世时的写生或照片；只能说明后人怎样纪念孔子，不能据此确认本人容貌、春秋服饰或课堂现场。",
                 "audio": {
                   "lead": {
-                    "id": "quest-41a9a3946d985ffa",
-                    "text": "孔子生活在春秋，这本论语注疏是明代刊本。孔子生活在哪个时候？",
-                    "synthesisText": "孔子生活在春秋，这本伦语注疏是明代刊本。孔子生活在哪个时候？"
+                    "id": "quest-49ed8333dd43c08b",
+                    "text": "孔子在春秋鲁国教书，主张有教无类：不因出身不同，就把愿学的人拒之门外。他创立儒家，教人求知、关爱他人。画像是后世作品。孔子生活在哪个时代？"
                   },
                   "transition": {
-                    "id": "quest-bf951ae010d1a1ad",
-                    "text": "先去孔子生活的时代。"
+                    "id": "quest-be148d546faecc62",
+                    "text": "认识春秋的孔子。"
                   },
                   "intro": {
-                    "id": "quest-7da6f37f042de8bd",
-                    "text": "孔子生活在春秋，重视学习。眼前是很久以后印的《论语注疏》，把孔子和弟子的言行传下来。",
-                    "synthesisText": "孔子生活在春秋，重视学习。眼前是很久以后印的《伦语注疏》，把孔子和弟子的言行传下来。"
+                    "id": "quest-4ea648abeb7b84e1",
+                    "text": "孔子生活在春秋，是老师，也是一位思考做人道理的思想家。他办私学，教不同出身的学生。他的教导影响了后来的中国文化。看，后人把他画了下来。"
                   },
                   "question": {
-                    "id": "quest-88ff7d29a0c275cd",
-                    "text": "孔子生活在哪个时候？"
+                    "id": "quest-650ec3fd3c185435",
+                    "text": "孔子生活在哪个时代？"
                   },
                   "image": {
-                    "id": "quest-53ec0a6fb6e55f7e",
-                    "text": "这张是跟孔子学会学与习的故事插画。孔子生活在春秋，重视学习。眼前是很久以后印的《论语注疏》，把孔子和弟子的言行传下来。",
-                    "synthesisText": "这张是跟孔子学会学与习的故事插画。孔子生活在春秋，重视学习。眼前是很久以后印的《伦语注疏》，把孔子和弟子的言行传下来。"
+                    "id": "quest-664001f7430701d6",
+                    "text": "这张是孔子像（约1770年）。孔子生活在春秋，是老师，也是一位思考做人道理的思想家。他办私学，教不同出身的学生。他的教导影响了后来的中国文化。看，后人把他画了下来。"
                   },
                   "right": {
-                    "id": "quest-04b164cf09bf69b1",
-                    "text": "春秋时期，孔子和学生讨论怎样学习。"
+                    "id": "quest-8afc460ad29b043f",
+                    "text": "对，春秋时期的孔子开办私学，教学生学知识、学做人。"
                   },
                   "wrong": {
-                    "id": "quest-6812e4855c947911",
-                    "text": "秦朝在后面，孔子生活在更早的春秋。"
+                    "id": "quest-f34911dbb9c67275",
+                    "text": "秦朝在后面。孔子在更早的春秋教学生。"
                   }
                 },
                 "options": [
@@ -988,75 +1063,106 @@
                 "id": "beginning",
                 "questionKind": "evidence-observation",
                 "icon": "🔎",
-                "phase": "听一句留下来的古话",
-                "title": "听一句留下来的古话",
-                "prompt": "学过了，还可以怎样做？",
-                "rightNote": "学与习连起来，才把办法用起来。",
-                "wrongNote": "再听听，“习”还包括温习和实践。",
+                "phase": "先学一句待人的话",
+                "title": "先学一句待人的话",
+                "prompt": "遇到别人，先想想什么？",
+                "rightNote": "先想自己的感受，也听听对方的想法。",
+                "wrongNote": "自己不愿受到的对待，也不要加给别人。",
                 "sourceIds": [
-                  "EDB-ANALECTS-FOUR"
+                  "EDB-ANALECTS-RECIPROCITY"
                 ],
                 "interaction": {
                   "kind": "look-listen",
-                  "hint": "听清故事，再看看眼前的线索。",
-                  "continueLabel": "和小伙伴试一次"
+                  "hint": "听原句，再听它的意思。",
+                  "continueLabel": "到画桌边试一试"
                 },
                 "narrative": {
                   "scene": "detail",
-                  "caption": "听一句留下来的古话",
+                  "caption": "先学一句待人的话",
                   "speaker": "小伙伴",
                   "responseSpeaker": "小伙伴",
-                  "response": "学与习连起来，才把办法用起来。",
-                  "retry": "再听听，“习”还包括温习和实践。",
-                  "nextLabel": "把听过的动作做出来"
+                  "response": "先想自己的感受，也听听对方的想法。",
+                  "retry": "自己不愿受到的对待，也不要加给别人。",
+                  "nextLabel": "想借画笔，先问一问"
                 },
                 "concepts": null,
-                "inspection": null,
+                "inspection": {
+                  "id": "analects-ming-commentary",
+                  "title": "明刊《论语注疏》",
+                  "localPath": "reference-assets/china-expansion/analects-ming-commentary.jpg",
+                  "sourcePage": "https://commons.wikimedia.org/wiki/File:Commentaries_of_the_Analects_of_Confucius.jpg",
+                  "sourceFile": null,
+                  "licensePath": null,
+                  "license": "CC BY-SA 3.0",
+                  "clearance": "cleared-open-license",
+                  "caption": "《论语》的后世刊本 · 不是孔子手稿",
+                  "boundary": "明刊《论语注疏》的后世刊本书影，不是孔子手稿。用于说明言行的整理、注释与传承；本章两句原文另据已登记教育文献，不声称这张书页恰好展示两句原文。照片许可与经典释义分别核对。 明刊《论语注疏》",
+                  "childVisibility": "child-ok",
+                  "image": "/content/step-images/analects-ming-commentary.jpg",
+                  "label": "看书影，听材料说明",
+                  "placement": "main",
+                  "framing": "object",
+                  "displayHeight": 290,
+                  "openAlbum": false,
+                  "sourceLinks": [
+                    {
+                      "title": "经典名句：己所不欲，勿施于人，1—2页",
+                      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/chinese-culture/Proverb-C5-04_pri.pdf"
+                    },
+                    {
+                      "title": "论语四则，1—2页",
+                      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/primary/lang/culture/03_001.pdf"
+                    }
+                  ],
+                  "audio": {
+                    "id": "quest-2556905777e41356",
+                    "text": "论语保存了孔子和学生的言行。这张照片是很久以后印的论语注疏，书页还有解释；不是孔子亲手写的书。",
+                    "synthesisText": "伦语保存了孔子和学生的言行。这张照片是很久以后印的伦语注疏，书页还有解释；不是孔子亲手写的书。"
+                  }
+                },
                 "story": {
                   "screenNumber": 2,
-                  "title": "听一句留下来的古话",
-                  "screenText": "《论语》记着：“学而时习之，不亦说乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。",
-                  "displayText": "《论语》记着：“学而时习之，不亦说乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。",
-                  "narration": "《论语》记着：“学而时习之，不亦说乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。"
+                  "title": "先学一句待人的话",
+                  "screenText": "学生子贡问，有没有一句话值得一生去做？孔子说：“己所不欲，勿施于人。”自己不愿受到的对待，也别加给别人。我们从借画笔开始试。",
+                  "displayText": "学生子贡问，有没有一句话值得一生去做？孔子说：“己所不欲，勿施于人。”自己不愿受到的对待，也别加给别人。我们从借画笔开始试。",
+                  "narration": "学生子贡问，有没有一句话值得一生去做？孔子说：“己所不欲，勿施于人。”自己不愿受到的对待，也别加给别人。我们从借画笔开始试。"
                 },
-                "assetId": "confucius-learning-v1",
-                "image": "/content/step-images/confucius-learning-v1.jpg",
-                "studyImage": "/content/study-scenes/study-d90d782575e39736.svg",
-                "studyImageAlt": "听一句留下来的古话",
-                "imageAlt": "跟孔子学会学与习的故事插画",
-                "imageCaption": "跟孔子学会学与习的故事插画",
-                "imageBoundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+                "assetId": "analects-ming-commentary",
+                "image": "/content/step-images/analects-ming-commentary.jpg",
+                "studyImage": "/content/study-scenes/study-5abf8ba53d050903.svg",
+                "studyImageAlt": "先学一句待人的话",
+                "imageAlt": "明刊《论语注疏》",
+                "imageCaption": "明刊《论语注疏》",
+                "imageBoundary": "明刊《论语注疏》的后世刊本书影，不是孔子手稿。用于说明言行的整理、注释与传承；本章两句原文另据已登记教育文献，不声称这张书页恰好展示两句原文。照片许可与经典释义分别核对。",
                 "audio": {
                   "lead": {
-                    "id": "quest-e17e277f9d9b7e31",
-                    "text": "《论语》记着：“学而时习之，不亦说乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。",
-                    "synthesisText": "《伦语》记着：“学而时习之，不亦悦乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。"
+                    "id": "quest-3990206ce6d0a208",
+                    "text": "学生子贡问，有没有一句话值得一生去做？孔子说：“己所不欲，勿施于人。”自己不愿受到的对待，也别加给别人。我们从借画笔开始试。"
                   },
                   "transition": {
-                    "id": "quest-817b1c6cdf9ee324",
-                    "text": "听一句留下来的古话。"
+                    "id": "quest-7595b9319dc9a650",
+                    "text": "先学一句待人的话。"
                   },
                   "intro": {
-                    "id": "quest-e17e277f9d9b7e31",
-                    "text": "《论语》记着：“学而时习之，不亦说乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。",
-                    "synthesisText": "《伦语》记着：“学而时习之，不亦悦乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。"
+                    "id": "quest-3990206ce6d0a208",
+                    "text": "学生子贡问，有没有一句话值得一生去做？孔子说：“己所不欲，勿施于人。”自己不愿受到的对待，也别加给别人。我们从借画笔开始试。"
                   },
                   "question": {
-                    "id": "quest-8d0e7401e6eeffa3",
-                    "text": "学过了，还可以怎样做？"
+                    "id": "quest-14525470559513ce",
+                    "text": "遇到别人，先想想什么？"
                   },
                   "image": {
-                    "id": "quest-98be290d0087e5c7",
-                    "text": "这张是跟孔子学会学与习的故事插画。《论语》记着：“学而时习之，不亦说乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。",
-                    "synthesisText": "这张是跟孔子学会学与习的故事插画。《伦语》记着：“学而时习之，不亦悦乎？”意思是学了还温习、实践，会有收获。小伙伴想试一试。"
+                    "id": "quest-38d20910aa743a22",
+                    "text": "这张是明刊《论语注疏》。学生子贡问，有没有一句话值得一生去做？孔子说：“己所不欲，勿施于人。”自己不愿受到的对待，也别加给别人。我们从借画笔开始试。",
+                    "synthesisText": "这张是明刊《伦语注疏》。学生子贡问，有没有一句话值得一生去做？孔子说：“己所不欲，勿施于人。”自己不愿受到的对待，也别加给别人。我们从借画笔开始试。"
                   },
                   "right": {
-                    "id": "quest-77294fe6c2823fad",
-                    "text": "学与习连起来，才把办法用起来。"
+                    "id": "quest-cb7b244a952592b5",
+                    "text": "先想自己的感受，也听听对方的想法。"
                   },
                   "wrong": {
-                    "id": "quest-57f3b068c79072d5",
-                    "text": "再听听，“习”还包括温习和实践。"
+                    "id": "quest-86b2a85c95d4a2e7",
+                    "text": "自己不愿受到的对待，也不要加给别人。"
                   }
                 },
                 "options": []
@@ -1065,125 +1171,126 @@
                 "id": "journey",
                 "questionKind": "action-sequence",
                 "icon": "🧭",
-                "phase": "把听过的动作做出来",
-                "title": "把听过的动作做出来",
-                "prompt": "哪里在亲手练习？",
-                "rightNote": "对，小伙伴正把学到的动作做出来。",
-                "wrongNote": "书保存了话；这里要找亲手练习的动作。",
+                "phase": "想借画笔，先问一问",
+                "title": "想借画笔，先问一问",
+                "prompt": "想借正在用的画笔，先怎么做？",
+                "rightNote": "先问，也留给同伴回答的机会。想到自己不愿被拿走东西，也尊重别人。",
+                "wrongNote": "他还在用呢。你画到一半，也不希望别人不问就拿走吧？",
                 "sourceIds": [
-                  "EDB-ANALECTS-FOUR"
+                  "EDB-ANALECTS-RECIPROCITY"
                 ],
                 "interaction": {
                   "kind": "pick",
-                  "hint": "听清故事，再看看眼前的线索。",
-                  "selectionFraming": "detail"
+                  "hint": "看看谁在用，再想想怎样开口。",
+                  "selectionFraming": "detail",
+                  "choiceArt": "illustrated"
                 },
                 "narrative": {
                   "scene": "detail",
-                  "caption": "把听过的动作做出来",
+                  "caption": "想借画笔，先问一问",
                   "speaker": "小伙伴",
                   "responseSpeaker": "小伙伴",
-                  "response": "对，小伙伴正把学到的动作做出来。",
-                  "retry": "书保存了话；这里要找亲手练习的动作。",
-                  "nextLabel": "隔一会儿，再想再试"
+                  "response": "先问，也留给同伴回答的机会。想到自己不愿被拿走东西，也尊重别人。",
+                  "retry": "他还在用呢。你画到一半，也不希望别人不问就拿走吧？",
+                  "nextLabel": "第二天，把学过的再用一次"
                 },
                 "concepts": null,
                 "inspection": null,
                 "story": {
                   "screenNumber": 3,
-                  "title": "把听过的动作做出来",
-                  "screenText": "这是今天的练习：小伙伴听过拍手的示范，要把动作自己做一次。找到正在亲手练习的地方。",
-                  "displayText": "这是今天的练习：小伙伴听过拍手的示范，要把动作自己做一次。找到正在亲手练习的地方。",
-                  "narration": "这是今天的练习：小伙伴听过拍手的示范，要把动作自己做一次。找到正在亲手练习的地方。"
+                  "title": "想借画笔，先问一问",
+                  "screenText": "绿衣男孩正用蓝色画笔画河。黄衣男孩也想用。如果自己画到一半，不想被人拿走画笔，就也想想同伴的感受。该怎样借？",
+                  "displayText": "绿衣男孩正用蓝色画笔画河。黄衣男孩也想用。如果自己画到一半，不想被人拿走画笔，就也想想同伴的感受。该怎样借？",
+                  "narration": "绿衣男孩正用蓝色画笔画河。黄衣男孩也想用。如果自己画到一半，不想被人拿走画笔，就也想想同伴的感受。该怎样借？"
                 },
-                "assetId": "confucius-learning-v1",
-                "image": "/content/step-images/confucius-learning-v1.jpg",
-                "studyImage": "/content/study-scenes/study-63e6edf01f7eb757.svg",
-                "studyImageAlt": "把听过的动作做出来",
-                "imageAlt": "跟孔子学会学与习的故事插画",
-                "imageCaption": "跟孔子学会学与习的故事插画",
-                "imageBoundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+                "assetId": "confucius-borrowing-v3",
+                "image": "/content/step-images/confucius-borrowing-v3.jpg",
+                "studyImage": "/content/study-scenes/study-ace88e8fe132823c.svg",
+                "studyImageAlt": "想借画笔，先问一问",
+                "imageAlt": "借画笔前",
+                "imageCaption": "借画笔前",
+                "imageBoundary": "现代教学情境，不是孔子生平、历史课堂复原或文物照片。不同选项呈现供比较的行为；要结合当页问题与回应理解。",
                 "audio": {
                   "lead": {
-                    "id": "quest-7c9c977fa5bc7f72",
-                    "text": "小伙伴听过拍手示范，现在要自己试一次。哪里在亲手练习？"
+                    "id": "quest-7363b1c487453e23",
+                    "text": "绿衣男孩正用蓝色画笔画河。黄衣男孩也想用。如果自己画到一半，不想被人拿走画笔，就也想想同伴的感受。该怎样借？"
                   },
                   "transition": {
-                    "id": "quest-cfa94f72ed17573b",
-                    "text": "把听过的动作做出来。"
+                    "id": "quest-37e9a4ebf93c760d",
+                    "text": "想借画笔，先问一问。"
                   },
                   "intro": {
-                    "id": "quest-1d7748d0ccb5e949",
-                    "text": "这是今天的练习：小伙伴听过拍手的示范，要把动作自己做一次。找到正在亲手练习的地方。"
+                    "id": "quest-7363b1c487453e23",
+                    "text": "绿衣男孩正用蓝色画笔画河。黄衣男孩也想用。如果自己画到一半，不想被人拿走画笔，就也想想同伴的感受。该怎样借？"
                   },
                   "question": {
-                    "id": "quest-dfce72c786f500c0",
-                    "text": "哪里在亲手练习？"
+                    "id": "quest-fd3cf8cc60859396",
+                    "text": "想借正在用的画笔，先怎么做？"
                   },
                   "image": {
-                    "id": "quest-640e19aeb4c32c44",
-                    "text": "这张是跟孔子学会学与习的故事插画。这是今天的练习：小伙伴听过拍手的示范，要把动作自己做一次。找到正在亲手练习的地方。"
+                    "id": "quest-de574e28ee5a4a5b",
+                    "text": "这张是借画笔前。绿衣男孩正用蓝色画笔画河。黄衣男孩也想用。如果自己画到一半，不想被人拿走画笔，就也想想同伴的感受。该怎样借？"
                   },
                   "right": {
-                    "id": "quest-45c5d81c75cede1f",
-                    "text": "对，小伙伴正把学到的动作做出来。"
+                    "id": "quest-4e2268533b64f5c8",
+                    "text": "先问，也留给同伴回答的机会。想到自己不愿被拿走东西，也尊重别人。"
                   },
                   "wrong": {
-                    "id": "quest-1c0ad111ed6d603a",
-                    "text": "书保存了话；这里要找亲手练习的动作。"
+                    "id": "quest-88cea1554d2887e0",
+                    "text": "他还在用呢。你画到一半，也不希望别人不问就拿走吧？"
                   }
                 },
                 "options": [
                   {
                     "id": "cn-ancient-03-03-hundred-schools-journey-1",
-                    "label": "小伙伴动手练习",
+                    "label": "先问：用完可以借我吗？",
                     "correct": true,
                     "objectView": {
                       "kind": "scene-card",
-                      "assetId": "confucius-learning-v1",
+                      "assetId": "confucius-reciprocity-choices-v3",
                       "crop": {
-                        "x": 0,
-                        "y": 0,
-                        "width": 1536,
-                        "height": 1024,
-                        "sourceWidth": 1536,
-                        "sourceHeight": 1024
+                        "x": 4,
+                        "y": 4,
+                        "width": 610,
+                        "height": 400,
+                        "sourceWidth": 1254,
+                        "sourceHeight": 1254
                       },
-                      "image": "/content/step-images/confucius-learning-v1.jpg",
-                      "imageAlt": "小伙伴动手练习",
+                      "image": "/content/step-images/confucius-reciprocity-choices-v3.jpg",
+                      "imageAlt": "先问：用完可以借我吗？",
                       "imageLabel": "故事插画"
                     },
-                    "image": "/content/study-scenes/study-68c94465b052575e.svg",
-                    "imageAlt": "小伙伴动手练习",
+                    "image": "/content/study-scenes/study-f047d3ef8401e19b.svg",
+                    "imageAlt": "先问：用完可以借我吗？",
                     "audio": {
-                      "id": "quest-f6f310a79eecb925",
-                      "text": "小伙伴动手练习"
+                      "id": "quest-4efecd0be45cb6ee",
+                      "text": "先问：用完可以借我吗？"
                     }
                   },
                   {
                     "id": "cn-ancient-03-03-hundred-schools-journey-2",
-                    "label": "展柜保存书本",
+                    "label": "不问，直接拿来画",
                     "correct": false,
                     "objectView": {
                       "kind": "scene-card",
-                      "assetId": "confucius-learning-v1",
+                      "assetId": "confucius-reciprocity-choices-v3",
                       "crop": {
-                        "x": 1060,
-                        "y": 160,
-                        "width": 420,
-                        "height": 240,
-                        "sourceWidth": 1536,
-                        "sourceHeight": 1024
+                        "x": 640,
+                        "y": 4,
+                        "width": 610,
+                        "height": 400,
+                        "sourceWidth": 1254,
+                        "sourceHeight": 1254
                       },
-                      "image": "/content/step-images/confucius-learning-v1.jpg",
-                      "imageAlt": "展柜保存书本",
+                      "image": "/content/step-images/confucius-reciprocity-choices-v3.jpg",
+                      "imageAlt": "不问，直接拿来画",
                       "imageLabel": "故事插画"
                     },
-                    "image": "/content/study-scenes/study-6f120618e779aa44.svg",
-                    "imageAlt": "展柜保存书本",
+                    "image": "/content/study-scenes/study-fb9ce76388241298.svg",
+                    "imageAlt": "不问，直接拿来画",
                     "audio": {
-                      "id": "quest-c75f3cc249488cdc",
-                      "text": "展柜保存书本"
+                      "id": "quest-776dbc1d65261a6d",
+                      "text": "不问，直接拿来画"
                     }
                   }
                 ]
@@ -1192,126 +1299,130 @@
                 "id": "change",
                 "questionKind": "cause-effect",
                 "icon": "✨",
-                "phase": "隔一会儿，再想再试",
-                "title": "隔一会儿，再想再试",
-                "prompt": "忘了一步，怎样继续学？",
-                "rightNote": "回想、再听、再练，都是学习的办法。",
-                "wrongNote": "只听熟了还不够，再把办法做出来。",
+                "phase": "第二天，把学过的再用一次",
+                "title": "第二天，把学过的再用一次",
+                "prompt": "她还在讲，怎样再用昨天的道理？",
+                "rightNote": "等她讲完再说。昨天学了替人着想，今天又用了一次，这就是在实践。",
+                "wrongNote": "想想自己讲话时，也不愿被打断。给她讲完的时间，再说你的发现。",
                 "sourceIds": [
+                  "EDB-ANALECTS-RECIPROCITY",
                   "EDB-ANALECTS-FOUR"
                 ],
                 "interaction": {
                   "kind": "pick",
-                  "hint": "听清故事，再看看眼前的线索。",
+                  "hint": "回想昨天的道理，换个情境再试。",
                   "selectionFraming": "detail",
                   "choiceArt": "illustrated"
                 },
                 "narrative": {
                   "scene": "detail",
-                  "caption": "隔一会儿，再想再试",
+                  "caption": "第二天，把学过的再用一次",
                   "speaker": "小伙伴",
                   "responseSpeaker": "小伙伴",
-                  "response": "回想、再听、再练，都是学习的办法。",
-                  "retry": "只听熟了还不够，再把办法做出来。",
-                  "nextLabel": "书里的话来到今天"
+                  "response": "等她讲完再说。昨天学了替人着想，今天又用了一次，这就是在实践。",
+                  "retry": "想想自己讲话时，也不愿被打断。给她讲完的时间，再说你的发现。",
+                  "nextLabel": "说了请，也要听听回答"
                 },
                 "concepts": null,
                 "inspection": null,
                 "story": {
                   "screenNumber": 4,
-                  "title": "隔一会儿，再想再试",
-                  "screenText": "小伙伴过了一会儿忘了动作。先回想，听不清就再听示范，再自己试试；不用和别人比快。",
-                  "displayText": "小伙伴过了一会儿忘了动作。先回想，听不清就再听示范，再自己试试；不用和别人比快。",
-                  "narration": "小伙伴过了一会儿忘了动作。先回想，听不清就再听示范，再自己试试；不用和别人比快。"
+                  "title": "第二天，把学过的再用一次",
+                  "screenText": "孔子说：“学而时习之，不亦说乎？”学过，常温习、实践，也能感到快乐。第二天，女孩还在讲发现，黄衣男孩也想说。他该怎么做？",
+                  "displayText": "孔子说：“学而时习之，不亦说乎？”学过，常温习、实践，也能感到快乐。第二天，女孩还在讲发现，黄衣男孩也想说。他该怎么做？",
+                  "narration": "孔子说：“学而时习之，不亦说乎？”学过，常温习、实践，也能感到快乐。第二天，女孩还在讲发现，黄衣男孩也想说。他该怎么做？"
                 },
-                "assetId": "confucius-learning-v1",
-                "image": "/content/step-images/confucius-learning-v1.jpg",
-                "studyImage": "/content/study-scenes/study-3a8688ffe55d6bee.svg",
-                "studyImageAlt": "隔一会儿，再想再试",
-                "imageAlt": "跟孔子学会学与习的故事插画",
-                "imageCaption": "跟孔子学会学与习的故事插画",
-                "imageBoundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+                "assetId": "confucius-listening-v3",
+                "image": "/content/step-images/confucius-listening-v3.jpg",
+                "studyImage": "/content/study-scenes/study-ec4e3d829872a31e.svg",
+                "studyImageAlt": "第二天，把学过的再用一次",
+                "imageAlt": "听同伴讲发现",
+                "imageCaption": "听同伴讲发现",
+                "imageBoundary": "现代教学情境，不是孔子生平、历史课堂复原或文物照片。不同选项呈现供比较的行为；要结合当页问题与回应理解。",
                 "audio": {
                   "lead": {
-                    "id": "quest-c1e34338b5637858",
-                    "text": "小伙伴忘了刚学过的一步，想把它学会。忘了一步，怎样继续学？"
+                    "id": "quest-04f6244d819a4567",
+                    "text": "孔子说：“学而时习之，不亦说乎？”学过，常温习、实践，也能感到快乐。第二天，女孩还在讲发现，黄衣男孩也想说。他该怎么做？",
+                    "synthesisText": "孔子说：“学而时习之，不亦悦乎？”学过，常温习、实践，也能感到快乐。第二天，女孩还在讲发现，黄衣男孩也想说。他该怎么做？"
                   },
                   "transition": {
-                    "id": "quest-27776f29e640c9d4",
-                    "text": "隔一会儿，再想再试。"
+                    "id": "quest-0ed81a624be51552",
+                    "text": "第二天，把学过的再用一次。"
                   },
                   "intro": {
-                    "id": "quest-9acb385b80b3ab18",
-                    "text": "小伙伴过了一会儿忘了动作。先回想，听不清就再听示范，再自己试试；不用和别人比快。"
+                    "id": "quest-04f6244d819a4567",
+                    "text": "孔子说：“学而时习之，不亦说乎？”学过，常温习、实践，也能感到快乐。第二天，女孩还在讲发现，黄衣男孩也想说。他该怎么做？",
+                    "synthesisText": "孔子说：“学而时习之，不亦悦乎？”学过，常温习、实践，也能感到快乐。第二天，女孩还在讲发现，黄衣男孩也想说。他该怎么做？"
                   },
                   "question": {
-                    "id": "quest-b9ba403ffe93ad69",
-                    "text": "忘了一步，怎样继续学？"
+                    "id": "quest-7853b1036bdec49d",
+                    "text": "她还在讲，怎样再用昨天的道理？"
                   },
                   "image": {
-                    "id": "quest-34af62ddab44fd94",
-                    "text": "这张是跟孔子学会学与习的故事插画。小伙伴过了一会儿忘了动作。先回想，听不清就再听示范，再自己试试；不用和别人比快。"
+                    "id": "quest-212ad291a56b71e1",
+                    "text": "这张是听同伴讲发现。孔子说：“学而时习之，不亦说乎？”学过，常温习、实践，也能感到快乐。第二天，女孩还在讲发现，黄衣男孩也想说。他该怎么做？",
+                    "synthesisText": "这张是听同伴讲发现。孔子说：“学而时习之，不亦悦乎？”学过，常温习、实践，也能感到快乐。第二天，女孩还在讲发现，黄衣男孩也想说。他该怎么做？"
                   },
                   "right": {
-                    "id": "quest-d91ffc257a2e3bca",
-                    "text": "回想、再听、再练，都是学习的办法。"
+                    "id": "quest-6c15579cfb5a17a6",
+                    "text": "等她讲完再说。昨天学了替人着想，今天又用了一次，这就是在实践。"
                   },
                   "wrong": {
-                    "id": "quest-b479737cb3a4e52d",
-                    "text": "只听熟了还不够，再把办法做出来。"
+                    "id": "quest-6502eca32f911d22",
+                    "text": "想想自己讲话时，也不愿被打断。给她讲完的时间，再说你的发现。"
                   }
                 },
                 "options": [
                   {
                     "id": "cn-ancient-03-03-hundred-schools-change-1",
-                    "label": "再听一次，然后自己做",
+                    "label": "听她讲完，再说自己的发现",
                     "correct": true,
                     "objectView": {
                       "kind": "scene-card",
-                      "assetId": "confucius-choice-scenes-v2",
+                      "assetId": "confucius-reciprocity-choices-v3",
                       "crop": {
-                        "x": 8,
-                        "y": 8,
-                        "width": 754,
-                        "height": 496,
-                        "sourceWidth": 1536,
-                        "sourceHeight": 1024
+                        "x": 4,
+                        "y": 423,
+                        "width": 610,
+                        "height": 400,
+                        "sourceWidth": 1254,
+                        "sourceHeight": 1254
                       },
-                      "image": "/content/step-images/confucius-choice-scenes-v2.jpg",
-                      "imageAlt": "再听一次，然后自己做",
+                      "image": "/content/step-images/confucius-reciprocity-choices-v3.jpg",
+                      "imageAlt": "听她讲完，再说自己的发现",
                       "imageLabel": "故事插画"
                     },
-                    "image": "/content/study-scenes/study-4c3bd6b6aa87ac94.svg",
-                    "imageAlt": "再听，再练",
+                    "image": "/content/study-scenes/study-8f31303fbcdffe67.svg",
+                    "imageAlt": "听她讲完，再说自己的发现",
                     "audio": {
-                      "id": "quest-c49126d6ba803622",
-                      "text": "再听一次，然后自己做"
+                      "id": "quest-667f5fa7bd9080fa",
+                      "text": "听她讲完，再说自己的发现"
                     }
                   },
                   {
                     "id": "cn-ancient-03-03-hundred-schools-change-2",
-                    "label": "只多听几遍，还没有练",
+                    "label": "她还没说完，就先讲自己的",
                     "correct": false,
                     "objectView": {
                       "kind": "scene-card",
-                      "assetId": "confucius-choice-scenes-v2",
+                      "assetId": "confucius-reciprocity-choices-v3",
                       "crop": {
-                        "x": 778,
-                        "y": 8,
-                        "width": 750,
-                        "height": 496,
-                        "sourceWidth": 1536,
-                        "sourceHeight": 1024
+                        "x": 640,
+                        "y": 423,
+                        "width": 610,
+                        "height": 400,
+                        "sourceWidth": 1254,
+                        "sourceHeight": 1254
                       },
-                      "image": "/content/step-images/confucius-choice-scenes-v2.jpg",
-                      "imageAlt": "只多听几遍，还没有练",
+                      "image": "/content/step-images/confucius-reciprocity-choices-v3.jpg",
+                      "imageAlt": "她还没说完，就先讲自己的",
                       "imageLabel": "故事插画"
                     },
-                    "image": "/content/study-scenes/study-c5b3424c743a8468.svg",
-                    "imageAlt": "听，再听",
+                    "image": "/content/study-scenes/study-4301981e0598cad4.svg",
+                    "imageAlt": "她还没说完，就先讲自己的",
                     "audio": {
-                      "id": "quest-8e89310c4263b524",
-                      "text": "只多听几遍，还没有练"
+                      "id": "quest-73c32d381a971dc2",
+                      "text": "她还没说完，就先讲自己的"
                     }
                   }
                 ]
@@ -1320,127 +1431,126 @@
                 "id": "takeaway",
                 "questionKind": "apply-and-explain",
                 "icon": "🗣️",
-                "phase": "书里的话来到今天",
-                "title": "书里的话来到今天",
-                "prompt": "怎样把这句古话带回家？",
-                "rightNote": "和家人再练一次，让学过的办法用起来。",
-                "wrongNote": "认识书很重要，还可以把学过的办法用起来。",
+                "phase": "说了请，也要听听回答",
+                "title": "说了请，也要听听回答",
+                "prompt": "他还要用，怎样尊重他的回答？",
+                "rightNote": "先用另一支，等一等。他可以说还需要，你也能继续画；说了请，不是让别人必须答应。",
+                "wrongNote": "礼貌不是交换命令。他可以说还需要，你也可以先用另一支笔。",
                 "sourceIds": [
-                  "EDB-ANALECTS-FOUR"
+                  "EDB-ANALECTS-RECIPROCITY"
                 ],
                 "interaction": {
                   "kind": "pick",
-                  "hint": "听清故事，再看看眼前的线索。",
+                  "hint": "听清他的回答，再选下一步。",
                   "selectionFraming": "detail",
                   "choiceArt": "illustrated"
                 },
                 "narrative": {
                   "scene": "detail",
-                  "caption": "书里的话来到今天",
+                  "caption": "说了请，也要听听回答",
                   "speaker": "小伙伴",
                   "responseSpeaker": "小伙伴",
-                  "response": "和家人再练一次，让学过的办法用起来。",
-                  "retry": "认识书很重要，还可以把学过的办法用起来。",
+                  "response": "先用另一支，等一等。他可以说还需要，你也能继续画；说了请，不是让别人必须答应。",
+                  "retry": "礼貌不是交换命令。他可以说还需要，你也可以先用另一支笔。",
                   "nextLabel": "带着发现回家"
                 },
                 "concepts": null,
                 "inspection": null,
                 "story": {
                   "screenNumber": 5,
-                  "title": "书里的话来到今天",
-                  "screenText": "孔子和弟子的言行由后人整理、抄写、刊印，传到今天。我们也能读这句话，在生活里练习。",
-                  "displayText": "孔子和弟子的言行由后人整理、抄写、刊印，传到今天。我们也能读这句话，在生活里练习。",
-                  "narration": "孔子和弟子的言行由后人整理、抄写、刊印，传到今天。我们也能读这句话，在生活里练习。"
+                  "title": "说了请，也要听听回答",
+                  "screenText": "回到画桌，绿衣男孩说：“我还要用一会儿。”黄衣男孩已经说了“请”，也不能让同伴一定答应。谁都可以说出需要。接下来怎么办？",
+                  "displayText": "回到画桌，绿衣男孩说：“我还要用一会儿。”黄衣男孩已经说了“请”，也不能让同伴一定答应。谁都可以说出需要。接下来怎么办？",
+                  "narration": "回到画桌，绿衣男孩说：“我还要用一会儿。”黄衣男孩已经说了“请”，也不能让同伴一定答应。谁都可以说出需要。接下来怎么办？"
                 },
-                "assetId": "confucius-learning-v1",
-                "image": "/content/step-images/confucius-learning-v1.jpg",
-                "studyImage": "/content/study-scenes/study-58cd5089927935fd.svg",
-                "studyImageAlt": "书里的话来到今天",
-                "imageAlt": "跟孔子学会学与习的故事插画",
-                "imageCaption": "跟孔子学会学与习的故事插画",
-                "imageBoundary": "眼前是明代刊本，不是孔子手稿。拍手是现代孩子的生活练习，不是春秋课堂复原；不以背诵或动作快慢评价孩子。",
+                "assetId": "confucius-borrowing-v3",
+                "image": "/content/step-images/confucius-borrowing-v3.jpg",
+                "studyImage": "/content/study-scenes/study-724c30138c42ecd0.svg",
+                "studyImageAlt": "说了请，也要听听回答",
+                "imageAlt": "借画笔前",
+                "imageCaption": "借画笔前",
+                "imageBoundary": "现代教学情境，不是孔子生平、历史课堂复原或文物照片。不同选项呈现供比较的行为；要结合当页问题与回应理解。",
                 "audio": {
                   "lead": {
-                    "id": "quest-4a3da8adb60a176a",
-                    "text": "论语说，学过还要温习和实践。怎样把这句古话带回家？",
-                    "synthesisText": "伦语说，学过还要温习和实践。怎样把这句古话带回家？"
+                    "id": "quest-db71c28b135901ad",
+                    "text": "回到画桌，绿衣男孩说：“我还要用一会儿。”黄衣男孩已经说了“请”，也不能让同伴一定答应。谁都可以说出需要。接下来怎么办？"
                   },
                   "transition": {
-                    "id": "quest-fd9e6b66f0cc4611",
-                    "text": "书里的话来到今天。"
+                    "id": "quest-f9a9cd51879031a5",
+                    "text": "说了请，也要听听回答。"
                   },
                   "intro": {
-                    "id": "quest-2a3c593fa0edd78e",
-                    "text": "孔子和弟子的言行由后人整理、抄写、刊印，传到今天。我们也能读这句话，在生活里练习。"
+                    "id": "quest-db71c28b135901ad",
+                    "text": "回到画桌，绿衣男孩说：“我还要用一会儿。”黄衣男孩已经说了“请”，也不能让同伴一定答应。谁都可以说出需要。接下来怎么办？"
                   },
                   "question": {
-                    "id": "quest-88004195dc9826bf",
-                    "text": "怎样把这句古话带回家？"
+                    "id": "quest-ec74460b1d80a469",
+                    "text": "他还要用，怎样尊重他的回答？"
                   },
                   "image": {
-                    "id": "quest-4967bfd1eb2833f0",
-                    "text": "这张是跟孔子学会学与习的故事插画。孔子和弟子的言行由后人整理、抄写、刊印，传到今天。我们也能读这句话，在生活里练习。"
+                    "id": "quest-9c0aa0dabcf242f8",
+                    "text": "这张是借画笔前。回到画桌，绿衣男孩说：“我还要用一会儿。”黄衣男孩已经说了“请”，也不能让同伴一定答应。谁都可以说出需要。接下来怎么办？"
                   },
                   "right": {
-                    "id": "quest-9e18103f40893873",
-                    "text": "和家人再练一次，让学过的办法用起来。"
+                    "id": "quest-6792c670292df42f",
+                    "text": "先用另一支，等一等。他可以说还需要，你也能继续画；说了请，不是让别人必须答应。"
                   },
                   "wrong": {
-                    "id": "quest-cc315c52baee0b8d",
-                    "text": "认识书很重要，还可以把学过的办法用起来。"
+                    "id": "quest-c8b2c2c6f275e6f1",
+                    "text": "礼貌不是交换命令。他可以说还需要，你也可以先用另一支笔。"
                   }
                 },
                 "options": [
                   {
                     "id": "cn-ancient-03-03-hundred-schools-takeaway-1",
-                    "label": "选一件学过的事，再练一次",
+                    "label": "先用红笔，等他愿意再借",
                     "correct": true,
                     "objectView": {
                       "kind": "scene-card",
-                      "assetId": "confucius-choice-scenes-v2",
+                      "assetId": "confucius-reciprocity-choices-v3",
                       "crop": {
-                        "x": 8,
-                        "y": 520,
-                        "width": 754,
-                        "height": 496,
-                        "sourceWidth": 1536,
-                        "sourceHeight": 1024
+                        "x": 4,
+                        "y": 847,
+                        "width": 610,
+                        "height": 400,
+                        "sourceWidth": 1254,
+                        "sourceHeight": 1254
                       },
-                      "image": "/content/step-images/confucius-choice-scenes-v2.jpg",
-                      "imageAlt": "选一件学过的事，再练一次",
+                      "image": "/content/step-images/confucius-reciprocity-choices-v3.jpg",
+                      "imageAlt": "先用红笔，等他愿意再借",
                       "imageLabel": "故事插画"
                     },
-                    "image": "/content/study-scenes/study-e543c794139fe5c1.svg",
-                    "imageAlt": "学过，再练",
+                    "image": "/content/study-scenes/study-5659ec67a428ba88.svg",
+                    "imageAlt": "先用红笔，等他愿意再借",
                     "audio": {
-                      "id": "quest-04726e14eecdf666",
-                      "text": "选一件学过的事，再练一次"
+                      "id": "quest-153b32c043b468ff",
+                      "text": "先用红笔，等他愿意再借"
                     }
                   },
                   {
                     "id": "cn-ancient-03-03-hundred-schools-takeaway-2",
-                    "label": "只记住这本书长什么样",
+                    "label": "说了请，他就得马上借",
                     "correct": false,
                     "objectView": {
                       "kind": "scene-card",
-                      "assetId": "confucius-choice-scenes-v2",
+                      "assetId": "confucius-reciprocity-choices-v3",
                       "crop": {
-                        "x": 778,
-                        "y": 520,
-                        "width": 750,
-                        "height": 496,
-                        "sourceWidth": 1536,
-                        "sourceHeight": 1024
+                        "x": 640,
+                        "y": 847,
+                        "width": 610,
+                        "height": 400,
+                        "sourceWidth": 1254,
+                        "sourceHeight": 1254
                       },
-                      "image": "/content/step-images/confucius-choice-scenes-v2.jpg",
-                      "imageAlt": "只记住这本书长什么样",
+                      "image": "/content/step-images/confucius-reciprocity-choices-v3.jpg",
+                      "imageAlt": "说了请，他就得马上借",
                       "imageLabel": "故事插画"
                     },
-                    "image": "/content/study-scenes/study-6bfec800c2627554.svg",
-                    "imageAlt": "看外形，书本",
+                    "image": "/content/study-scenes/study-4c2719facae04168.svg",
+                    "imageAlt": "说了请，他就得马上借",
                     "audio": {
-                      "id": "quest-542401f36fc96c4b",
-                      "text": "只记住这本书长什么样"
+                      "id": "quest-04cd4099ad55d582",
+                      "text": "说了请，他就得马上借"
                     }
                   }
                 ]
@@ -1449,23 +1559,23 @@
             "extensionTasks": [
               {
                 "number": 1,
-                "title": "给问题找回答",
+                "title": "借画笔前先问",
                 "items": [
-                  "孩子把“怎样相处、怎样少打仗、怎样治理、怎样顺应规律”等问题连接到多个学派；允许一个问题出现不同答案。"
+                  "观察同伴正在使用的蓝笔，比较先询问与不问就拿；回应说明推己及人，而不是奖励说对礼貌词。"
                 ]
               },
               {
                 "number": 2,
-                "title": "竹简内容侦探",
+                "title": "隔一天换情境",
                 "items": [
-                  "比较郭店思想文本与包山司法文书，只根据展签判断内容类型，不凭外形猜作者。"
+                  "女孩仍在讲发现，比较听完再说与打断；把昨天学的原则重新用于新情境，理解温习与实践。"
                 ]
               },
               {
                 "number": 3,
-                "title": "观点比较桌",
+                "title": "尊重暂时拒绝",
                 "items": [
-                  "每张思想卡只包含“主张—理由—可能影响”三项；完成后语音强调这是一种概括，不是思想家的逐字原话。"
+                  "同伴还需要蓝笔，比较先用红笔与坚持对方立刻给；理解说了“请”仍须听对方回答。亲子继续在生活里观察，不以这一次选择推断习惯已经形成。"
                 ]
               }
             ]
@@ -1479,8 +1589,8 @@
           "interactions": 3,
           "factCount": 8,
           "methodNoteCount": 0,
-          "sourceCount": 11,
-          "assetCount": 20,
+          "sourceCount": 5,
+          "assetCount": 24,
           "thumbnail": "/content/thumbnails/cn-ancient-03-03-hundred-schools.jpg",
           "detailUrl": "/content/chapters/cn-ancient-03-03-hundred-schools.json",
           "reviewStatus": "in-progress",
@@ -2675,7 +2785,7 @@
               "id": "journey",
               "icon": "🧭",
               "label": "帮旧墙补一段",
-              "text": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。"
+              "text": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把带绿边的墙段挪到缺口里，让两端接上。"
             },
             {
               "id": "change",
@@ -3497,9 +3607,9 @@
                 "interaction": {
                   "kind": "slide-fit",
                   "scene": "wall-join",
-                  "hint": "把绿色模型挪进虚线缺口。",
+                  "hint": "把带绿边的墙段挪进虚线缺口。",
                   "copy": "模型接齐两端，真实修墙要逐步筑造。",
-                  "ariaLabel": "移动模型墙段，让两端接上",
+                  "ariaLabel": "移动带绿边的墙段，让两端接上",
                   "placement": "panel"
                 },
                 "narrative": {
@@ -3517,9 +3627,9 @@
                 "story": {
                   "screenNumber": 3,
                   "title": "帮旧墙补一段",
-                  "screenText": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。",
-                  "displayText": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。",
-                  "narration": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。"
+                  "screenText": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把带绿边的墙段挪到缺口里，让两端接上。",
+                  "displayText": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把带绿边的墙段挪到缺口里，让两端接上。",
+                  "narration": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把带绿边的墙段挪到缺口里，让两端接上。"
                 },
                 "assetId": "study-4a50c7703ecc0563",
                 "image": "/content/study-scenes/study-4a50c7703ecc0563.svg",
@@ -3530,16 +3640,16 @@
                 "imageBoundary": "自制学习示意。小伙伴、工匠、守卫和关口场景是虚构教学故事，不是秦代现场、真实人物自述或服饰建筑复原。长城帮助抵御外来的进攻，但并非不可越过，也不会自动防御。接墙是学习模型，不表示真墙可以整段搬起。金山岭照片为后来的明代墙段，不作秦长城原貌；汉代玉门关不用于说明秦墙演变。《神州谣》用于引发观察，不提供秦墙路线；《史记》的起止记载只放家长延伸，不作今天全部长城的地图。相册另展示明代长城的不同角度，以及汉代土墙和玉门关遗址；各图独立标年代，用于跨时期观察，不作为秦长城原貌。",
                 "audio": {
                   "lead": {
-                    "id": "quest-b1b3c4737e04f819",
-                    "text": "模型里少了一段。把绿色墙段挪到虚线缺口里，让两端接上。"
+                    "id": "quest-1e658a3446f7f832",
+                    "text": "秦朝连接、修补旧墙，帮助抵御进攻、守卫边地。学具里少了一段，把带绿边的墙段挪到缺口，让两端接上。"
                   },
                   "transition": {
                     "id": "quest-d350f678cdb211db",
                     "text": "帮旧墙补一段。"
                   },
                   "intro": {
-                    "id": "quest-ef5774a3c9e40ceb",
-                    "text": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。"
+                    "id": "quest-337d0f888241eb00",
+                    "text": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把带绿边的墙段挪到缺口里，让两端接上。"
                   },
                   "question": {
                     "id": "quest-7d65ce75802a48c3",
@@ -3971,7 +4081,7 @@
           "factCount": 7,
           "methodNoteCount": 0,
           "sourceCount": 15,
-          "assetCount": 24,
+          "assetCount": 26,
           "thumbnail": "/content/thumbnails/cn-ancient-04-05-qin-great-wall.jpg",
           "detailUrl": "/content/chapters/cn-ancient-04-05-qin-great-wall.json",
           "reviewStatus": "in-progress",
@@ -5812,8 +5922,8 @@
                 "imageBoundary": "自制学习示意。小伙伴和工匠对话是虚构教学故事。前202年建汉、前118年始铸五铢、前113年中央集中铸币是不同事件。本章聚焦前113年。真钱与钱范照片提供可观察的形态，统一铸币制度由文献支持，不能仅从钱币外形推出。插画与钱形卡片是学习材料，不是上林三官工坊、具体秤具或真实铸造工序复原。核对轻重是帮助理解规格的教学情境，不声称逐枚检查的历史操作流程。成串的钱不代表日常统一计量单位、固定价格或普通家庭财富。",
                 "audio": {
                   "lead": {
-                    "id": "quest-dc0d0ce5e63d3c24",
-                    "text": "这是钱范学习图。把钱形卡片对准虚线，看看圆边和方孔。"
+                    "id": "quest-e34959f5f1790dd2",
+                    "text": "钱范帮助做出规定的钱形。用钱形卡片对准石范学具里的圆边和方孔，比较形状；真铸钱还要用铜料和其他工序。"
                   },
                   "transition": {
                     "id": "quest-5f98f4c0667b934c",
@@ -8615,7 +8725,7 @@
             ],
             "place": "西汉与今天的河北博物院",
             "culture": "汉代工匠与长信宫灯",
-            "care": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+            "care": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。",
             "preferredAssetId": "han-changxin-lamp",
             "playableSource": "content/focused-quests.json"
           },
@@ -8625,7 +8735,7 @@
             "learningGoal": "分别理解灯罩遮光与袖管导烟的作用。",
             "parentQuestion": "想少照亮一边看哪个部件？烟又沿哪里走？",
             "observe": "能分开指出灯罩开口和相连袖管，不把它们当同一功能。",
-            "misconception": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+            "misconception": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。",
             "evidenceStepIds": [
               "time",
               "journey",
@@ -8748,7 +8858,7 @@
             },
             "cta": "看看光和烟的路",
             "anchor": "汉代工匠与长信宫灯",
-            "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+            "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。",
             "evidence": [
               {
                 "id": "han-changxin-lamp",
@@ -8760,7 +8870,7 @@
                 "license": "CC BY-SA 4.0",
                 "clearance": "cleared-open-license",
                 "caption": "西汉长信宫灯 · 文物照片",
-                "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+                "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。",
                 "childVisibility": "child-ok",
                 "image": "/content/step-images/han-changxin-lamp.jpg"
               },
@@ -8790,7 +8900,7 @@
               "license": "CC BY-SA 4.0",
               "clearance": "cleared-open-license",
               "caption": "西汉长信宫灯 · 文物照片",
-              "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+              "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。",
               "childVisibility": "child-ok",
               "image": "/content/step-images/han-changxin-lamp.jpg"
             },
@@ -8822,7 +8932,7 @@
                 "closingCaption": "我们带回了一个发现",
                 "closingLine": "灯罩遮光，袖管导烟。",
                 "closingNarration": "长信宫灯用灯罩改变照光范围，袖管把部分烟尘导入空心灯体。汉代工匠把照明与清洁需要放进了器物设计。",
-                "fictionNote": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+                "fictionNote": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。",
                 "reunionImage": "/content/step-images/han-lamp-observation-v1.jpg",
                 "stationLine": "到汉朝看五铢钱、丝路、纸和一盏灯，再听司马迁怎样把过去写下来。",
                 "stationAudio": {
@@ -8854,7 +8964,7 @@
               "license": "项目自制；按OpenAI使用条款持有输出使用权",
               "clearance": "cleared-project-created",
               "caption": "现代教学故事插画，不是历史现场或文物照片。",
-              "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+              "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。",
               "childVisibility": "child-ok",
               "image": "/content/step-images/han-lamp-observation-v1.jpg"
             },
@@ -8869,7 +8979,7 @@
                 "license": "项目自制；按OpenAI使用条款持有输出使用权",
                 "clearance": "cleared-project-created",
                 "caption": "现代教学故事插画，不是历史现场或文物照片。",
-                "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+                "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。",
                 "childVisibility": "child-ok",
                 "image": "/content/step-images/han-lamp-observation-v1.jpg"
               },
@@ -8883,7 +8993,7 @@
                 "license": "CC BY-SA 4.0",
                 "clearance": "cleared-open-license",
                 "caption": "西汉长信宫灯 · 文物照片",
-                "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+                "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。",
                 "childVisibility": "child-ok",
                 "image": "/content/step-images/han-changxin-lamp.jpg"
               },
@@ -8924,7 +9034,7 @@
                 "指灯罩和袖管，家长分别说用途，孩子选择对应部件。",
                 "用台灯和纸卡观察遮光范围，由成人操作，不使用火。"
               ],
-              "parent": "想少照亮一边看哪个部件？烟又沿哪里走？ 能分开指出灯罩开口和相连袖管，不把它们当同一功能。 宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+              "parent": "想少照亮一边看哪个部件？烟又沿哪里走？ 能分开指出灯罩开口和相连袖管，不把它们当同一功能。 宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。",
               "sceneStepIndexes": [
                 2,
                 4
@@ -8987,7 +9097,7 @@
                   "license": "CC BY-SA 4.0",
                   "clearance": "cleared-open-license",
                   "caption": "西汉灯具 · 河北博物院藏",
-                  "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。 西汉长信宫灯 · 文物照片",
+                  "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。 西汉长信宫灯 · 文物照片",
                   "childVisibility": "child-ok",
                   "image": "/content/step-images/han-changxin-lamp.jpg",
                   "label": "看大图，听材料说明",
@@ -9023,7 +9133,7 @@
                 "studyImageAlt": "看一盏西汉的灯",
                 "imageAlt": "长信宫灯的袖子为什么连着灯？的故事插画",
                 "imageCaption": "长信宫灯的袖子为什么连着灯？的故事插画",
-                "imageBoundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+                "imageBoundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。",
                 "audio": {
                   "lead": {
                     "id": "quest-e80801c05eda6189",
@@ -9279,7 +9389,39 @@
                   "nextLabel": "想少照一边，看哪个部件"
                 },
                 "concepts": null,
-                "inspection": null,
+                "inspection": {
+                  "id": "han-changxin-lamp",
+                  "title": "长信宫灯",
+                  "localPath": "reference-assets/china-expansion/han-lamp-whole.jpg",
+                  "sourcePage": "https://commons.wikimedia.org/wiki/File:20250118_Changxin_Palace_Lamp_01.jpg",
+                  "sourceFile": null,
+                  "licensePath": null,
+                  "license": "CC BY-SA 4.0",
+                  "clearance": "cleared-open-license",
+                  "caption": "西汉灯具 · 河北博物院藏",
+                  "boundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。 西汉长信宫灯 · 文物照片",
+                  "childVisibility": "child-ok",
+                  "image": "/content/step-images/han-changxin-lamp.jpg",
+                  "label": "看大图，听材料说明",
+                  "placement": "supporting",
+                  "framing": "object",
+                  "displayHeight": 290,
+                  "openAlbum": false,
+                  "sourceLinks": [
+                    {
+                      "title": "长信宫灯展品条目",
+                      "url": "https://ggzl.dpm.org.cn/pages/exhibit_works/details?id=10933"
+                    },
+                    {
+                      "title": "长信宫灯展出介绍：灯罩、灯盘与可拆构件",
+                      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202604/t20260420_4595520.html"
+                    }
+                  ],
+                  "audio": {
+                    "id": "quest-2b257b36944af8bb",
+                    "text": "这是长信宫灯实物照片。灯罩、灯盘与相连的宽袖，都有具体用途。"
+                  }
+                },
                 "story": {
                   "screenNumber": 3,
                   "title": "分开看光与烟的路",
@@ -9293,7 +9435,7 @@
                 "studyImageAlt": "分开看光与烟的路",
                 "imageAlt": "长信宫灯的袖子为什么连着灯？的故事插画",
                 "imageCaption": "长信宫灯的袖子为什么连着灯？的故事插画",
-                "imageBoundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+                "imageBoundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。",
                 "audio": {
                   "lead": {
                     "id": "quest-b5b7584610c00ad2",
@@ -9368,7 +9510,7 @@
                 "studyImageAlt": "想少照一边，看哪个部件",
                 "imageAlt": "长信宫灯的袖子为什么连着灯？的故事插画",
                 "imageCaption": "长信宫灯的袖子为什么连着灯？的故事插画",
-                "imageBoundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+                "imageBoundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。",
                 "audio": {
                   "lead": {
                     "id": "quest-41f95db8f11ed5ef",
@@ -9497,7 +9639,7 @@
                 "studyImageAlt": "一个器物照顾不同需要",
                 "imageAlt": "长信宫灯的袖子为什么连着灯？的故事插画",
                 "imageCaption": "长信宫灯的袖子为什么连着灯？的故事插画",
-                "imageBoundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图省略人物造型，不拆文物、不点火，也不复原完整内部构造。",
+                "imageBoundary": "宫女造型不对应可确认姓名的真人；导烟不等于完全无烟。学习图保留宫女持灯造型，用光与线分别说明遮光和导烟；不拆文物、不点火，也不复原完整内部构造。",
                 "audio": {
                   "lead": {
                     "id": "quest-4680e028abaaf6f7",
@@ -9655,7 +9797,7 @@
           "factCount": 5,
           "methodNoteCount": 0,
           "sourceCount": 5,
-          "assetCount": 14,
+          "assetCount": 15,
           "thumbnail": "/content/thumbnails/cn-ancient-04-06-han-palace-lantern.jpg",
           "detailUrl": "/content/chapters/cn-ancient-04-06-han-palace-lantern.json",
           "reviewStatus": "pending",
@@ -9673,7 +9815,7 @@
           "childEntry": {
             "id": "cn-ancient-04-07-sima-qian-shiji",
             "childTitle": "司马迁怎样把过去的事留下来？",
-            "prompt": "孔子、秦始皇生活在不同的时代。汉代司马迁把过去的人和事写进《史记》，后来人怎样找到这些故事？",
+            "prompt": "司马迁把过去许多人的故事写进《史记》。今天，小伙伴做人物书签，怎样找到想了解的故事？",
             "takeaway": "司马迁在西汉编写《史记》，记述过去的人和事。后人注释、抄写和刊印，让历史记录传下来；书里的人不都与作者同时。",
             "object": "明刊《史记》· 后世书影",
             "people": [
@@ -9682,17 +9824,17 @@
             ],
             "place": "西汉与后世的书坊、图书馆",
             "culture": "司马迁与《史记》",
-            "care": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+            "care": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
             "preferredAssetId": "shiji-ming-edition",
             "playableSource": "content/focused-quests.json"
           },
           "learningGuide": {
             "id": "cn-ancient-04-07-sima-qian-shiji",
             "theme": "材料与时间",
-            "learningGoal": "区分记录者与被记录的人，理解史书怎样保存过去。",
+            "learningGoal": "认识《史记》保存不同人物故事的作用，尝试按想了解的人找相关篇章，分清作者、所写人物与后世刊本的年代。",
             "parentQuestion": "孔子与写史记的司马迁是同一时代吗？书怎样传到今天？",
-            "observe": "能分开被记录的人与写书的人，并知道现存刊本可能晚于作者。",
-            "misconception": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+            "observe": "能根据想了解的人选择人物书签，说明司马迁写更早的人不等于亲眼见过他们；不把明刊本当作原稿。",
+            "misconception": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
             "evidenceStepIds": [
               "time",
               "journey",
@@ -9722,8 +9864,8 @@
               "type": "人物与材料",
               "icon": "📖",
               "title": "司马迁与《史记》",
-              "childBridge": "孔子、秦始皇生活在不同的时代。汉代司马迁把过去的人和事写进《史记》，后来人怎样找到这些故事？",
-              "evidenceBoundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。"
+              "childBridge": "司马迁把过去许多人的故事写进《史记》。今天，小伙伴做人物书签，怎样找到想了解的故事？",
+              "evidenceBoundary": "书影是明刊本，不是司马迁手稿。"
             },
             "companions": [
               {
@@ -9755,13 +9897,13 @@
               "id": "beginning",
               "icon": "🔎",
               "label": "一本史书里住着不同时代的人",
-              "text": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。"
+              "text": "这里是今天的历史小剧场，古装讲解员不是司马迁本人。孔子在春秋，秦始皇在秦代，司马迁在更后的汉代；同在一本史书里，不表示同一时代。"
             },
             {
               "id": "journey",
               "icon": "🧭",
-              "label": "想查谁，就先找对人物",
-              "text": "桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。"
+              "label": "给想读的故事找书签",
+              "text": "《史记》记下不同人物的故事。今天，小伙伴用新画的图卡做人物书签，想读孔子讲学，先找哪一张？"
             },
             {
               "id": "change",
@@ -9825,11 +9967,11 @@
               "kind": "具体任务",
               "icon": "🔎",
               "label": "司马迁怎样把过去的事留下来？",
-              "question": "孔子、秦始皇生活在不同的时代。汉代司马迁把过去的人和事写进《史记》，后来人怎样找到这些故事？"
+              "question": "司马迁把过去许多人的故事写进《史记》。今天，小伙伴做人物书签，怎样找到想了解的故事？"
             },
             "cta": "为过去的人找记录",
             "anchor": "司马迁与《史记》",
-            "boundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+            "boundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
             "evidence": [
               {
                 "id": "shiji-ming-edition",
@@ -9864,7 +10006,7 @@
             "presentation": {
               "kind": "object-workbench",
               "sceneAssetId": "han-shiji-reading-v1",
-              "sceneAlt": "司马迁怎样把过去的事留下来？的现代教学故事插画",
+              "sceneAlt": "今天的历史小剧场：古装讲解员与三位现代小伙伴用新画图卡做人物书签",
               "title": "司马迁怎样把过去的事留下来？",
               "evidenceTitle": "明刊《史记》· 后世书影",
               "evidenceLine": "真材料的年代和身份可以在大图里查看。",
@@ -9885,11 +10027,11 @@
                 "reunionAspectRatio": 1.5,
                 "reunionFit": "contain",
                 "coverCaption": "司马迁怎样把过去的事留下来？",
-                "coverNarration": "孔子、秦始皇生活在不同的时代。汉代司马迁把过去的人和事写进《史记》，后来人怎样找到这些故事？",
+                "coverNarration": "汉代的司马迁把过去许多人的故事写进史记。今天的小剧场里，古装讲解员带小伙伴做人物书签。怎样找到想读的故事？",
                 "closingCaption": "我们带回了一个发现",
                 "closingLine": "写下过去，后人接着传。",
                 "closingNarration": "司马迁在西汉编写《史记》，记述过去的人和事。后人注释、抄写和刊印，让历史记录传下来；书里的人不都与作者同时。",
-                "fictionNote": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+                "fictionNote": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
                 "reunionImage": "/content/step-images/han-shiji-reading-v1.jpg",
                 "stationLine": "到汉朝看五铢钱、丝路、纸和一盏灯，再听司马迁怎样把过去写下来。",
                 "stationAudio": {
@@ -9921,7 +10063,7 @@
               "license": "项目自制；按OpenAI使用条款持有输出使用权",
               "clearance": "cleared-project-created",
               "caption": "现代教学故事插画，不是历史现场或文物照片。",
-              "boundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+              "boundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
               "childVisibility": "child-ok",
               "image": "/content/step-images/han-shiji-reading-v1.jpg"
             },
@@ -9936,7 +10078,7 @@
                 "license": "项目自制；按OpenAI使用条款持有输出使用权",
                 "clearance": "cleared-project-created",
                 "caption": "现代教学故事插画，不是历史现场或文物照片。",
-                "boundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+                "boundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
                 "childVisibility": "child-ok",
                 "image": "/content/step-images/han-shiji-reading-v1.jpg"
               },
@@ -9963,8 +10105,8 @@
               "fit": "contain"
             },
             "coverAudio": {
-              "id": "quest-9ae0720839b2b25a",
-              "text": "孔子、秦始皇生活在不同的时代。汉代司马迁把过去的人和事写进《史记》，后来人怎样找到这些故事？"
+              "id": "quest-5fa4a97ea39d3225",
+              "text": "汉代的司马迁把过去许多人的故事写进史记。今天的小剧场里，古装讲解员带小伙伴做人物书签。怎样找到想读的故事？"
             },
             "textbookAudio": null,
             "finishAudio": {
@@ -10081,7 +10223,7 @@
                 "studyImageAlt": "先找到写书的人所在的时代",
                 "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
                 "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
-                "imageBoundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+                "imageBoundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
                 "audio": {
                   "lead": {
                     "id": "quest-abdc1142acc8e63b",
@@ -10175,16 +10317,16 @@
                   "responseSpeaker": "小伙伴",
                   "response": "书可以记过去，作者不必和书里的人同时。",
                   "retry": "人物的时代要分别核对。",
-                  "nextLabel": "想查谁，就先找对人物"
+                  "nextLabel": "给想读的故事找书签"
                 },
                 "concepts": null,
                 "inspection": null,
                 "story": {
                   "screenNumber": 2,
                   "title": "一本史书里住着不同时代的人",
-                  "screenText": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。",
-                  "displayText": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。",
-                  "narration": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。"
+                  "screenText": "这里是今天的历史小剧场，古装讲解员不是司马迁本人。孔子在春秋，秦始皇在秦代，司马迁在更后的汉代；同在一本史书里，不表示同一时代。",
+                  "displayText": "这里是今天的历史小剧场，古装讲解员不是司马迁本人。孔子在春秋，秦始皇在秦代，司马迁在更后的汉代；同在一本史书里，不表示同一时代。",
+                  "narration": "这里是今天的历史小剧场，古装讲解员不是司马迁本人。孔子在春秋，秦始皇在秦代，司马迁在更后的汉代；同在一本史书里，不表示同一时代。"
                 },
                 "assetId": "han-shiji-reading-v1",
                 "image": "/content/step-images/han-shiji-reading-v1.jpg",
@@ -10192,27 +10334,27 @@
                 "studyImageAlt": "一本史书里住着不同时代的人",
                 "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
                 "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
-                "imageBoundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+                "imageBoundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
                 "audio": {
                   "lead": {
-                    "id": "quest-75ebdedcfb11bf72",
-                    "text": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。"
+                    "id": "quest-d6222d091be82899",
+                    "text": "这里是今天的历史小剧场，古装讲解员不是司马迁本人。孔子在春秋，秦始皇在秦代，司马迁在更后的汉代；同在一本史书里，不表示同一时代。"
                   },
                   "transition": {
                     "id": "quest-c69086d039ff90f6",
                     "text": "一本史书里住着不同时代的人。"
                   },
                   "intro": {
-                    "id": "quest-75ebdedcfb11bf72",
-                    "text": "孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。"
+                    "id": "quest-d6222d091be82899",
+                    "text": "这里是今天的历史小剧场，古装讲解员不是司马迁本人。孔子在春秋，秦始皇在秦代，司马迁在更后的汉代；同在一本史书里，不表示同一时代。"
                   },
                   "question": {
                     "id": "quest-22cfc89ee65acb9d",
                     "text": "先听清三个人的时代"
                   },
                   "image": {
-                    "id": "quest-1bd1def1b4d2166e",
-                    "text": "这张是司马迁怎样把过去的事留下来？的故事插画。孔子生活在春秋，秦始皇生活在秦代，司马迁在更后的汉代。《史记》记录他们，不表示他们坐在同一间屋里。"
+                    "id": "quest-fb3ab7b9480d27d9",
+                    "text": "这张是司马迁怎样把过去的事留下来？的故事插画。这里是今天的历史小剧场，古装讲解员不是司马迁本人。孔子在春秋，秦始皇在秦代，司马迁在更后的汉代；同在一本史书里，不表示同一时代。"
                   },
                   "right": {
                     "id": "quest-319491990a73cfc1",
@@ -10229,11 +10371,11 @@
                 "id": "journey",
                 "questionKind": "action-sequence",
                 "icon": "🧭",
-                "phase": "想查谁，就先找对人物",
-                "title": "想查谁，就先找对人物",
-                "prompt": "哪张卡表示讲学的孔子？",
-                "rightNote": "先分清人物，再去读他的历史记录。",
-                "wrongNote": "君主卡表示秦始皇，孔子卡画着师生。",
+                "phase": "给想读的故事找书签",
+                "title": "给想读的故事找书签",
+                "prompt": "想读孔子讲学，选哪张人物书签？",
+                "rightNote": "找到孔子的故事。先说想了解谁，再找相关篇章，史书就更容易读了。",
+                "wrongNote": "这张是秦始皇。我们要找的是孔子讲学的故事。",
                 "sourceIds": [
                   "NLC-SHIJI-EDITIONS",
                   "SCIO-SIMA-QIAN-SHIJI",
@@ -10246,63 +10388,63 @@
                 },
                 "narrative": {
                   "scene": "detail",
-                  "caption": "想查谁，就先找对人物",
+                  "caption": "给想读的故事找书签",
                   "speaker": "小伙伴",
                   "responseSpeaker": "小伙伴",
-                  "response": "先分清人物，再去读他的历史记录。",
-                  "retry": "君主卡表示秦始皇，孔子卡画着师生。",
+                  "response": "找到孔子的故事。先说想了解谁，再找相关篇章，史书就更容易读了。",
+                  "retry": "这张是秦始皇。我们要找的是孔子讲学的故事。",
                   "nextLabel": "书里的人与写书的人分开"
                 },
                 "concepts": null,
                 "inspection": null,
                 "story": {
                   "screenNumber": 3,
-                  "title": "想查谁，就先找对人物",
-                  "screenText": "桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。",
-                  "displayText": "桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。",
-                  "narration": "桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。"
+                  "title": "给想读的故事找书签",
+                  "screenText": "《史记》记下不同人物的故事。今天，小伙伴用新画的图卡做人物书签，想读孔子讲学，先找哪一张？",
+                  "displayText": "《史记》记下不同人物的故事。今天，小伙伴用新画的图卡做人物书签，想读孔子讲学，先找哪一张？",
+                  "narration": "《史记》记下不同人物的故事。今天，小伙伴用新画的图卡做人物书签，想读孔子讲学，先找哪一张？"
                 },
                 "assetId": "han-shiji-reading-v1",
                 "image": "/content/step-images/han-shiji-reading-v1.jpg",
-                "studyImage": "/content/study-scenes/study-40e30c83fba7bb48.svg",
-                "studyImageAlt": "想查谁，就先找对人物",
+                "studyImage": "/content/study-scenes/study-49619e71eaadd85e.svg",
+                "studyImageAlt": "给想读的故事找书签",
                 "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
                 "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
-                "imageBoundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+                "imageBoundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
                 "audio": {
                   "lead": {
-                    "id": "quest-cef748e4ea8fdac2",
-                    "text": "左卡画师生，表示孔子；右卡画君主，表示秦始皇。哪张卡表示讲学的孔子？"
+                    "id": "quest-c830f3b6498c954c",
+                    "text": "《史记》记下不同人物的故事。今天，小伙伴用新画的图卡做人物书签，想读孔子讲学，先找哪一张？"
                   },
                   "transition": {
-                    "id": "quest-9d79874e9b97760e",
-                    "text": "想查谁，就先找对人物。"
+                    "id": "quest-c189e7de8b1d1217",
+                    "text": "给想读的故事找书签。"
                   },
                   "intro": {
-                    "id": "quest-6c476015934d2054",
-                    "text": "桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。"
+                    "id": "quest-c830f3b6498c954c",
+                    "text": "《史记》记下不同人物的故事。今天，小伙伴用新画的图卡做人物书签，想读孔子讲学，先找哪一张？"
                   },
                   "question": {
-                    "id": "quest-f98885f05b7add94",
-                    "text": "哪张卡表示讲学的孔子？"
+                    "id": "quest-8d2f83b45138413d",
+                    "text": "想读孔子讲学，选哪张人物书签？"
                   },
                   "image": {
-                    "id": "quest-b70a36dd12ca7108",
-                    "text": "这张是司马迁怎样把过去的事留下来？的故事插画。桌上的图卡是今天的学具。左边用师生表示孔子，右边用君主与侍从表示秦始皇。先为讲学的孔子找一张。"
+                    "id": "quest-56deb4b8375dceb0",
+                    "text": "这张是司马迁怎样把过去的事留下来？的故事插画。《史记》记下不同人物的故事。今天，小伙伴用新画的图卡做人物书签，想读孔子讲学，先找哪一张？"
                   },
                   "right": {
-                    "id": "quest-df7a82d60d98d7fa",
-                    "text": "先分清人物，再去读他的历史记录。"
+                    "id": "quest-6c1b80afe29f0b3f",
+                    "text": "找到孔子的故事。先说想了解谁，再找相关篇章，史书就更容易读了。"
                   },
                   "wrong": {
-                    "id": "quest-88d45337817da6f5",
-                    "text": "君主卡表示秦始皇，孔子卡画着师生。"
+                    "id": "quest-b783228707a90cac",
+                    "text": "这张是秦始皇。我们要找的是孔子讲学的故事。"
                   }
                 },
                 "options": [
                   {
                     "id": "cn-ancient-04-07-sima-qian-shiji-journey-1",
-                    "label": "师生学习的孔子卡",
+                    "label": "孔子讲学的故事",
                     "correct": true,
                     "objectView": {
                       "kind": "scene-card",
@@ -10316,19 +10458,19 @@
                         "sourceHeight": 1024
                       },
                       "image": "/content/step-images/han-shiji-reading-v1.jpg",
-                      "imageAlt": "师生学习的孔子卡",
+                      "imageAlt": "孔子讲学的故事",
                       "imageLabel": "故事插画"
                     },
-                    "image": "/content/study-scenes/study-8a515eea6a08a08b.svg",
-                    "imageAlt": "师生学习的孔子卡",
+                    "image": "/content/study-scenes/study-53c6f2b7b9766c5d.svg",
+                    "imageAlt": "孔子讲学的故事",
                     "audio": {
-                      "id": "quest-411bbc5bdb592dfb",
-                      "text": "师生学习的孔子卡"
+                      "id": "quest-df23084d03b8ea1c",
+                      "text": "孔子讲学的故事"
                     }
                   },
                   {
                     "id": "cn-ancient-04-07-sima-qian-shiji-journey-2",
-                    "label": "君主与侍从的秦始皇卡",
+                    "label": "秦始皇的故事",
                     "correct": false,
                     "objectView": {
                       "kind": "scene-card",
@@ -10342,14 +10484,14 @@
                         "sourceHeight": 1024
                       },
                       "image": "/content/step-images/han-shiji-reading-v1.jpg",
-                      "imageAlt": "君主与侍从的秦始皇卡",
+                      "imageAlt": "秦始皇的故事",
                       "imageLabel": "故事插画"
                     },
-                    "image": "/content/study-scenes/study-d75b11af2576e9f5.svg",
-                    "imageAlt": "君主与侍从的秦始皇卡",
+                    "image": "/content/study-scenes/study-1dd65695a86da279.svg",
+                    "imageAlt": "秦始皇的故事",
                     "audio": {
-                      "id": "quest-98f5deeac7dee9b7",
-                      "text": "君主与侍从的秦始皇卡"
+                      "id": "quest-9706b9e8fc16d01b",
+                      "text": "秦始皇的故事"
                     }
                   }
                 ]
@@ -10398,7 +10540,7 @@
                 "studyImageAlt": "书里的人与写书的人分开",
                 "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
                 "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
-                "imageBoundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+                "imageBoundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
                 "audio": {
                   "lead": {
                     "id": "quest-6d9f4ed19976668c",
@@ -10572,7 +10714,7 @@
                 "studyImageAlt": "后人继续让记录传下来",
                 "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
                 "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
-                "imageBoundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。史书记载仍需研究核对，不把作者当所有事件的目击者。",
+                "imageBoundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
                 "audio": {
                   "lead": {
                     "id": "quest-bf3ce099caab37cc",
@@ -17425,7 +17567,35 @@
                   "nextLabel": "把桥的两种路分清楚"
                 },
                 "concepts": null,
-                "inspection": null,
+                "inspection": {
+                  "id": "zhaozhou-bridge-now",
+                  "title": "赵州桥今日照片",
+                  "localPath": "reference-assets/china-expansion/zhaozhou-bridge-now.jpg",
+                  "sourcePage": "https://commons.wikimedia.org/wiki/File:Zhaozhou_Bridge.jpg",
+                  "sourceFile": null,
+                  "licensePath": null,
+                  "license": "Public domain",
+                  "clearance": "cleared-public-domain",
+                  "caption": "隋代始建 · 历代修缮",
+                  "boundary": "照片是今天的赵州桥，经过历代维修；教学图只演示过水关系，不计算洪水流量，不说洞越多越牢。 赵州桥 · 今日照片",
+                  "childVisibility": "child-ok",
+                  "image": "/content/step-images/zhaozhou-bridge-now.jpg",
+                  "label": "看大图，听材料说明",
+                  "placement": "supporting",
+                  "framing": "object",
+                  "displayHeight": 290,
+                  "openAlbum": false,
+                  "sourceLinks": [
+                    {
+                      "title": "安济桥石栏板",
+                      "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202111/t20211112_252139.shtml"
+                    }
+                  ],
+                  "audio": {
+                    "id": "quest-82552e54be2ff184",
+                    "text": "这是今天的赵州桥。桥面让人车过河，桥下有一大四小的开口。今天看到的桥经过维修。"
+                  }
+                },
                 "story": {
                   "screenNumber": 4,
                   "title": "水涨高了，再看一看",
@@ -26287,8 +26457,8 @@
                 "imageBoundary": "自制学习示意。897年铁券是唐昭宗颁赐钱镠的凭证，不能把它改成吴越颁发或普通钱币。北方五代先后更替，十国有先后也有并立；960不是各地同时结束的年份。修塘疏水由文献支持，新图为教学情境，不复原某处海塘、不把射潮神话当史实、不把钱镠说成独自完成工程。",
                 "audio": {
                   "lead": {
-                    "id": "quest-5a90467871ee2304",
-                    "text": "这件铁券来自唐末。钱镠后来建立吴越。"
+                    "id": "quest-f7687398864d552d",
+                    "text": "这件铁券来自唐末，钱镠后来才建立吴越。他收到铁券时，应该在哪个时期？"
                   },
                   "transition": {
                     "id": "quest-10c274df1cbf7c6d",
@@ -27230,8 +27400,8 @@
                 "imageBoundary": "自制学习示意。年份卡是关系学具，不画疆界或现代国家。三个图标同样大小不代表疆域大小；两个年份不是唯一并立组合，1111年还有其他政权。画卷为北宋艺术材料，不能当作1111年当天记录。",
                 "audio": {
                   "lead": {
-                    "id": "quest-40b8a0363d771779",
-                    "text": "张择端画的是北宋。那时还有其他政权。"
+                    "id": "quest-4c3f5e2f65d25695",
+                    "text": "张择端画的是北宋，那时还有别的政权。这幅画先带我们来到哪个时期？"
                   },
                   "transition": {
                     "id": "quest-960dc3afcc7b2289",
@@ -27505,8 +27675,8 @@
                 "imageBoundary": "年份卡是关系学具，不画疆界或现代国家。三个图标同样大小不代表疆域大小；两个年份不是唯一并立组合，1111年还有其他政权。画卷为北宋艺术材料，不能当作1111年当天记录。",
                 "audio": {
                   "lead": {
-                    "id": "quest-7101b339ca6c8aac",
-                    "text": "1160年，应该选哪一组？"
+                    "id": "quest-e6350bf1fca50177",
+                    "text": "现在是1160年，北宋已经结束，南方是南宋，北方有金，西北还有西夏。听听名字，哪一组是同一年里的三家？"
                   },
                   "transition": {
                     "id": "quest-a84d91ddff8fa716",
@@ -28116,8 +28286,8 @@
                 "imageBoundary": "自制学习示意。原作局部与现代港口教学插画分开。画中的漕船不能替所有货物编运输路线；图画是画家选择的场景，不代表所有家庭同样富足。新场景不是《清明上河图》的复制。",
                 "audio": {
                   "lead": {
-                    "id": "quest-820b7c513afb1cc3",
-                    "text": "这是北宋张择端的《清明上河图》。"
+                    "id": "quest-019b8b9e75def87e",
+                    "text": "这是北宋张择端的《清明上河图》。画里的城市故事，在哪个时期？"
                   },
                   "transition": {
                     "id": "quest-b825fe6a036abc06",
@@ -29128,8 +29298,8 @@
                 "imageBoundary": "自制学习示意。照片为北京印刷博物馆的木活字展示，不是毕昇泥活字原套。代码用三个简单字演示单块替换、反字到正字；不复原材料、加热、配方和完整传统工序。现代体验图不是宋代现场，活字没有立刻替代雕版。",
                 "audio": {
                   "lead": {
-                    "id": "quest-4a189809b2a599a7",
-                    "text": "毕昇生活在北宋，探索泥活字。照片是后来木活字的展示。"
+                    "id": "quest-d740550ce0f64343",
+                    "text": "毕昇在北宋探索泥活字，照片是后来木活字的展示。要找毕昇的时代，应该选哪一站？"
                   },
                   "transition": {
                     "id": "quest-82c22f21263562fc",
@@ -30933,8 +31103,8 @@
                 "imageBoundary": "自制学习示意。儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
                 "audio": {
                   "lead": {
-                    "id": "quest-b9f82c69795b67ea",
-                    "text": "这本书最初在北宋编成。照片是后来留下的明代刻本。"
+                    "id": "quest-8d828ab8950fcb50",
+                    "text": "《武经总要》最初在北宋编成，照片是后来留下的明代刻本。先找编书的时候，应该选哪一朝？"
                   },
                   "transition": {
                     "id": "quest-d8b60f852ba1995d",
@@ -31996,8 +32166,8 @@
                 "imageBoundary": "自制学习示意。《水调歌头》为苏轼词作，主线标明节选，不把诗意当作现场记录。首步为元代赵孟頫1301年所作苏轼像，画中不是作词当夜。两处窗景为文学想象，不标作密州、齐州的真实建筑或苏氏兄弟肖像；三位儿童是今天的读者。",
                 "audio": {
                   "lead": {
-                    "id": "quest-3a0d12c9da6e3825",
-                    "text": "苏轼生活在北宋。这张画像是后来的元代作品。"
+                    "id": "quest-4c4b0bdca5cafbfd",
+                    "text": "苏轼生活在北宋，这张画像是后来的元代作品。苏轼写词的故事，应该在哪一站？"
                   },
                   "transition": {
                     "id": "quest-69d5883fac4340a7",
@@ -38086,8 +38256,8 @@
                 "imageBoundary": "自制学习示意。1405—1433七次远航；三语碑1409年南京刻制，第三次航行带至锡兰，不把刻制与立碑日期混写。三段文字宗教对象及内容不同，不是逐字翻译。故事图为印度洋港口教学情境，不是特定斯里兰卡城市复原或某次会面记录；不把所有远航活动概括为没有冲突。",
                 "audio": {
                   "lead": {
-                    "id": "quest-951dbc8585bcab5c",
-                    "text": "郑和在明朝率船队远航，这块石碑也跟着出海。"
+                    "id": "quest-1dbc771c6503f368",
+                    "text": "郑和在明朝率船队远航，这块石碑也随船队出海。跟着石碑，先去哪个朝代？"
                   },
                   "transition": {
                     "id": "quest-f743a58cdb4b8575",
@@ -39073,8 +39243,8 @@
                 "imageBoundary": "自制学习示意。书影为1637宋应星自刻本第3册PDF第7页，砖瓦图不当织布图。故事中的织布观察为教学虚构，不是作者某次亲访记录。国图分上中下三卷、十八篇，国博18卷为不同口径，儿童不考卷数。作者整理知识，不是书中所有技术的发明人。",
                 "audio": {
                   "lead": {
-                    "id": "quest-47b14bfb60b57ca9",
-                    "text": "《天工开物》初刊于明朝1637年。"
+                    "id": "quest-12e40a2a9861cfa4",
+                    "text": "《天工开物》初刊于明朝1637年。跟着这本书，先去哪个朝代看工匠的手艺？"
                   },
                   "transition": {
                     "id": "quest-f743a58cdb4b8575",
@@ -39611,8 +39781,8 @@
           "childEntry": {
             "id": "cn-ancient-08-06-forbidden-city-roof-beasts",
             "childTitle": "故宫屋脊的小兽，只是装饰吗？",
-            "prompt": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？",
-            "takeaway": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。",
+            "prompt": "古代工匠把固定屋脊的地方藏进小兽造型里。后来屋顶做法变了，小兽却留下来。今天太和殿的队伍又告诉我们什么？",
+            "takeaway": "一些旧做法用小兽遮住固定处。后来做法变了，小兽仍有装饰和礼制意义。今天太和殿的形制，还经历了清代重建。",
             "object": "故宫太和殿区域现状照片",
             "people": [
               "明清宫殿的工匠",
@@ -39620,17 +39790,17 @@
             ],
             "place": "北京故宫太和殿；明代始建与清代重建",
             "culture": "屋脊构件、装饰与礼制",
-            "care": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
+            "care": "现存太和殿为清代重建后的形制，不当明代原物。骑凤仙人不算十走兽。小工坊用教学新画解释一种旧做法，不能据此推定今天太和殿内部，更不代表所有房屋都有同样构造。",
             "preferredAssetId": "taihe-hall-ten-roof-beasts-current-photo",
             "playableSource": "content/focused-quests.json"
           },
           "learningGuide": {
             "id": "cn-ancient-08-06-forbidden-city-roof-beasts",
             "theme": "艺术和表达",
-            "learningGoal": "构件有用途和装饰意义，建筑今天的形制还经历重建。",
+            "learningGoal": "从旧做法中遮护固定处与后来的装饰、礼制，看见建筑构件意义的延续和变化。",
             "parentQuestion": "小兽除了好看，还曾帮助遮护什么？今天全是最初留下的吗？",
-            "observe": "在模型指出固定处，区分明代始建与清代重建、仙人与走兽。",
-            "misconception": "一种旧构造不代表所有屋顶；现存十兽不能说成明代原物。",
+            "observe": "能在模型揭开与盖回时指出固定处，分清旧做法与今天照片；能说或指认小兽仍有装饰意义。",
+            "misconception": "现存太和殿为清代重建后的形制，不当明代原物。骑凤仙人不算十走兽。小工坊用教学新画解释一种旧做法，不能据此推定今天太和殿内部，更不代表所有房屋都有同样构造。",
             "evidenceStepIds": [
               "time",
               "journey"
@@ -39638,7 +39808,8 @@
             "sourceIds": [
               "DPM-TAIHE-ROOF-BEASTS",
               "DPM-YOUNG-ROOF",
-              "UNESCO-FORBIDDEN-CITY"
+              "UNESCO-FORBIDDEN-CITY",
+              "DPM-ROOF-BEASTS-FUNCTIONS"
             ],
             "related": [
               {
@@ -39659,8 +39830,8 @@
               "type": "地点",
               "icon": "🐉",
               "title": "明清宫殿的工匠与今天的观察者",
-              "childBridge": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？",
-              "evidenceBoundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。"
+              "childBridge": "古代工匠把固定屋脊的地方藏进小兽造型里。后来屋顶做法变了，小兽却留下来。今天太和殿的队伍又告诉我们什么？",
+              "evidenceBoundary": "现存太和殿为清代重建后的形制，不当明代原物。"
             },
             "companions": [
               {
@@ -39683,7 +39854,8 @@
               "DPM-TAIHE-ROOF-BEASTS",
               "UNESCO-FORBIDDEN-CITY",
               "PEP-HISTORY-7B-2026-TRIAL",
-              "DPM-YOUNG-ROOF"
+              "DPM-YOUNG-ROOF",
+              "DPM-ROOF-BEASTS-FUNCTIONS"
             ]
           },
           "childStory": [
@@ -39696,8 +39868,8 @@
             {
               "id": "beginning",
               "icon": "🔎",
-              "label": "小兽像帽子，也装点屋脊",
-              "text": "古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。"
+              "label": "先看小兽的两种意义",
+              "text": "有一种旧做法，用兽形构件遮住固定脊瓦的地方，让屋顶也变得好看。后来建筑技术改变，小兽仍被留下，用来装饰和表达礼制。今天，我们先在小工坊里看一种旧做法。"
             },
             {
               "id": "journey",
@@ -39708,14 +39880,14 @@
             {
               "id": "change",
               "icon": "✨",
-              "label": "给固定处戴上一顶小兽帽",
-              "text": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。"
+              "label": "揭开小兽，看看下面",
+              "text": "小工坊里是一种旧做法的模型。先揭开小兽，看看固定脊瓦的地方；再放回去，比较它遮住了什么。模型不代表今天太和殿的内部构造。"
             },
             {
               "id": "takeaway",
               "icon": "🗣️",
-              "label": "同一座宫殿，也会发生变化",
-              "text": "明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。"
+              "label": "做法变了，小兽为什么还在",
+              "text": "有些旧做法用小兽遮住钉帽。后来屋顶技术改变，小兽仍被留下，用来装饰和表达建筑的礼制。今天看到的太和殿，还经历了清代重建。"
             }
           ],
           "glossary": [
@@ -39771,11 +39943,11 @@
               "kind": "具体任务",
               "icon": "🔎",
               "label": "故宫屋脊的小兽，只是装饰吗？",
-              "question": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？"
+              "question": "古代工匠把固定屋脊的地方藏进小兽造型里。后来屋顶做法变了，小兽却留下来。今天太和殿的队伍又告诉我们什么？"
             },
             "cta": "抬头找找屋脊的小兽",
             "anchor": "明清宫殿的工匠与今天的观察者",
-            "boundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
+            "boundary": "现存太和殿为清代重建后的形制，不当明代原物。骑凤仙人不算十走兽。小工坊用教学新画解释一种旧做法，不能据此推定今天太和殿内部，更不代表所有房屋都有同样构造。",
             "evidence": [
               {
                 "id": "forbidden-city-hall-current-photo",
@@ -39916,11 +40088,11 @@
                 "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
                 "reunionAspectRatio": 1.82,
                 "coverCaption": "故宫屋脊的小兽，只是装饰吗？",
-                "coverNarration": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？",
+                "coverNarration": "古代工匠把固定屋脊的地方藏进小兽造型里。后来屋顶做法变了，小兽却留下来。今天太和殿的队伍又告诉我们什么？",
                 "closingCaption": "带着发现回家",
-                "closingNarration": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。",
-                "closingLine": "小兽有用途，建筑也有自己的历史。",
-                "fictionNote": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
+                "closingNarration": "一些旧做法用小兽遮住固定处。后来做法变了，小兽仍有装饰和礼制意义。今天太和殿的形制，还经历了清代重建。",
+                "closingLine": "小兽让我们看见做法、装饰和礼制的历史。",
+                "fictionNote": "现存太和殿为清代重建后的形制，不当明代原物。骑凤仙人不算十走兽。小工坊用教学新画解释一种旧做法，不能据此推定今天太和殿内部，更不代表所有房屋都有同样构造。",
                 "reunionFit": "contain",
                 "reunionImage": "/content/step-images/ming-friends-reunion-v1.jpg",
                 "stationLine": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
@@ -39929,8 +40101,8 @@
                   "text": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。"
                 },
                 "closingAudio": {
-                  "id": "quest-5dc0981bbf2d2d40",
-                  "text": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。"
+                  "id": "quest-ac4e04c50fd81489",
+                  "text": "一些旧做法用小兽遮住固定处。后来做法变了，小兽仍有装饰和礼制意义。今天太和殿的形制，还经历了清代重建。"
                 }
               },
               "sceneImage": "/content/step-images/ming-roof-learning-v1.jpg",
@@ -39989,19 +40161,19 @@
               }
             },
             "coverAudio": {
-              "id": "quest-650818f53cddca93",
-              "text": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？"
+              "id": "quest-56a2858d7ae7a582",
+              "text": "古代工匠把固定屋脊的地方藏进小兽造型里。后来屋顶做法变了，小兽却留下来。今天太和殿的队伍又告诉我们什么？"
             },
             "textbookAudio": null,
             "finishAudio": {
-              "id": "quest-5dc0981bbf2d2d40",
-              "text": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。"
+              "id": "quest-ac4e04c50fd81489",
+              "text": "一些旧做法用小兽遮住固定处。后来做法变了，小兽仍有装饰和礼制意义。今天太和殿的形制，还经历了清代重建。"
             },
             "finish": {
-              "title": "小兽有用途，建筑也有自己的历史。",
+              "title": "小兽的身上，也有建筑的历史",
               "actions": [
-                "先在真图里指出仙人和走兽，再说出小兽曾有的一种用途。",
-                "把一张纸轻轻盖在桌上的小积木上，演示“遮护”，再说这只是学习模型。"
+                "看屋脊照片，先找到骑凤仙人，再指出后面的一排走兽，看看它们怎样装饰屋顶。",
+                "揭开、盖回学习模型，指出被遮住的地方。照片看不到的内部，不靠猜测当事实。"
               ],
               "parent": "礼制讨论限建筑用途与构件规制，不给人物或人群排高低；不把小兽神话功能当物理事实。",
               "sceneStepIndexes": [
@@ -40010,17 +40182,17 @@
               ],
               "actionAudio": [
                 {
-                  "id": "quest-8ac599cb617d4091",
-                  "text": "先在真图里指出仙人和走兽，再说出小兽曾有的一种用途。"
+                  "id": "quest-40e380da9a6dcddf",
+                  "text": "看屋脊照片，先找到骑凤仙人，再指出后面的一排走兽，看看它们怎样装饰屋顶。"
                 },
                 {
-                  "id": "quest-73b33a30b8016b4e",
-                  "text": "把一张纸轻轻盖在桌上的小积木上，演示“遮护”，再说这只是学习模型。"
+                  "id": "quest-f04c2aa426ff4cae",
+                  "text": "揭开、盖回学习模型，指出被遮住的地方。照片看不到的内部，不靠猜测当事实。"
                 }
               ],
               "introAudio": {
-                "id": "quest-5dc0981bbf2d2d40",
-                "text": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。"
+                "id": "quest-ac4e04c50fd81489",
+                "text": "一些旧做法用小兽遮住固定处。后来做法变了，小兽仍有装饰和礼制意义。今天太和殿的形制，还经历了清代重建。"
               }
             },
             "estimatedMinutes": 6,
@@ -40053,7 +40225,7 @@
                   "responseSpeaker": "小伙伴",
                   "response": "从明代始建，再看到清代重建后的样子。",
                   "retry": "清代重建在后，1420年建成在明朝。",
-                  "nextLabel": "听听小兽为什么上屋顶",
+                  "nextLabel": "先看小兽的两种意义",
                   "kind": "fictional-guide-scene"
                 },
                 "concepts": null,
@@ -40107,11 +40279,11 @@
                 "studyImageAlt": "从真实材料走进明朝",
                 "imageAlt": "从真实材料走进明朝",
                 "imageCaption": "学习示意 · 从真实材料走进明朝",
-                "imageBoundary": "自制学习示意。1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
+                "imageBoundary": "自制学习示意。现存太和殿为清代重建后的形制，不当明代原物。骑凤仙人不算十走兽。小工坊用教学新画解释一种旧做法，不能据此推定今天太和殿内部，更不代表所有房屋都有同样构造。",
                 "audio": {
                   "lead": {
-                    "id": "quest-cbfd2e235bc90c98",
-                    "text": "北京宫殿1420年在明朝建成，今天太和殿则经历清代重建。"
+                    "id": "quest-39197b58e580cd6d",
+                    "text": "北京宫殿1420年在明朝建成，今天太和殿则经历清代重建。先找1420年建宫殿的时候，应该选哪一朝？"
                   },
                   "transition": {
                     "id": "quest-f743a58cdb4b8575",
@@ -40181,14 +40353,15 @@
                 "id": "beginning",
                 "questionKind": "evidence-observation",
                 "icon": "🔎",
-                "phase": "小兽像帽子，也装点屋脊",
-                "title": "小兽像帽子，也装点屋脊",
-                "prompt": "看看固定处，再看看小兽",
-                "rightNote": "实用、装饰和建筑规矩，都留下了历史。",
+                "phase": "先看小兽的两种意义",
+                "title": "先看小兽的两种意义",
+                "prompt": "做法和装饰，怎样连在一起？",
+                "rightNote": "小兽的来历，与建筑的做法和人的审美都有关系。",
                 "wrongNote": "可以再听一遍。",
                 "sourceIds": [
                   "DPM-TAIHE-ROOF-BEASTS",
-                  "DPM-YOUNG-ROOF"
+                  "DPM-YOUNG-ROOF",
+                  "DPM-ROOF-BEASTS-FUNCTIONS"
                 ],
                 "interaction": {
                   "kind": "look-listen",
@@ -40197,54 +40370,54 @@
                 },
                 "narrative": {
                   "scene": "detail",
-                  "caption": "小兽像帽子，也装点屋脊",
+                  "caption": "先看小兽的两种意义",
                   "speaker": "小伙伴",
                   "responseSpeaker": "小伙伴",
-                  "response": "实用、装饰和建筑规矩，都留下了历史。",
+                  "response": "小兽的来历，与建筑的做法和人的审美都有关系。",
                   "retry": "可以再听一遍。",
-                  "nextLabel": "去真照片里找小兽",
+                  "nextLabel": "照片里，谁在队伍前面",
                   "kind": "fictional-guide-scene"
                 },
                 "concepts": null,
                 "inspection": null,
                 "story": {
                   "screenNumber": 2,
-                  "title": "小兽像帽子，也装点屋脊",
-                  "screenText": "古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。",
-                  "displayText": "小兽能装点屋脊，也曾遮护固定处。\n宫殿的安排，还有礼制意义。",
-                  "narration": "古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。"
+                  "title": "先看小兽的两种意义",
+                  "screenText": "有一种旧做法，用兽形构件遮住固定脊瓦的地方，让屋顶也变得好看。后来建筑技术改变，小兽仍被留下，用来装饰和表达礼制。今天，我们先在小工坊里看一种旧做法。",
+                  "displayText": "有一种旧做法，用兽形构件遮住固定脊瓦的地方，让屋顶也变得好看。后来建筑技术改变，小兽仍被留下，用来装饰和表达礼制。今天，我们先在小工坊里看一种旧做法。",
+                  "narration": "有一种旧做法，用兽形构件遮住固定脊瓦的地方，让屋顶也变得好看。后来建筑技术改变，小兽仍被留下，用来装饰和表达礼制。今天，我们先在小工坊里看一种旧做法。"
                 },
                 "assetId": "ming-roof-learning-v1",
                 "image": "/content/step-images/ming-roof-learning-v1.jpg",
-                "studyImage": "/content/study-scenes/study-3ada0d092c03c4af.svg",
-                "studyImageAlt": "小兽像帽子，也装点屋脊",
+                "studyImage": "/content/study-scenes/study-fb9faa185b32b7c1.svg",
+                "studyImageAlt": "先看小兽的两种意义",
                 "imageAlt": "屋脊构件学习模型故事图",
                 "imageCaption": "屋脊构件学习模型故事图",
                 "imageBoundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
                 "audio": {
                   "lead": {
-                    "id": "quest-089b481fc68a03d0",
-                    "text": "看看固定处，再看看小兽"
+                    "id": "quest-5a2e5b0d4d295eb0",
+                    "text": "有一种旧做法，用兽形构件遮住固定脊瓦的地方，让屋顶也变得好看。后来建筑技术改变，小兽仍被留下，用来装饰和表达礼制。今天，我们先在小工坊里看一种旧做法。"
                   },
                   "transition": {
-                    "id": "quest-18fdd2e586270f96",
-                    "text": "小兽像帽子，也装点屋脊。"
+                    "id": "quest-1b619b288680c2e0",
+                    "text": "先看小兽的两种意义。"
                   },
                   "intro": {
-                    "id": "quest-6436f1d2522eb107",
-                    "text": "古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。"
+                    "id": "quest-5a2e5b0d4d295eb0",
+                    "text": "有一种旧做法，用兽形构件遮住固定脊瓦的地方，让屋顶也变得好看。后来建筑技术改变，小兽仍被留下，用来装饰和表达礼制。今天，我们先在小工坊里看一种旧做法。"
                   },
                   "question": {
-                    "id": "quest-089b481fc68a03d0",
-                    "text": "看看固定处，再看看小兽"
+                    "id": "quest-b86fe29bda5401be",
+                    "text": "做法和装饰，怎样连在一起？"
                   },
                   "image": {
-                    "id": "quest-837143a8ad8d348c",
-                    "text": "这张是屋脊构件学习模型故事图。古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。"
+                    "id": "quest-d2cf14de7b982eea",
+                    "text": "这张是屋脊构件学习模型故事图。有一种旧做法，用兽形构件遮住固定脊瓦的地方，让屋顶也变得好看。后来建筑技术改变，小兽仍被留下，用来装饰和表达礼制。今天，我们先在小工坊里看一种旧做法。"
                   },
                   "right": {
-                    "id": "quest-5862616cd3da0312",
-                    "text": "实用、装饰和建筑规矩，都留下了历史。"
+                    "id": "quest-7ac3511413f418e8",
+                    "text": "小兽的来历，与建筑的做法和人的审美都有关系。"
                   },
                   "wrong": {
                     "id": "quest-cf2d9f2d3be46572",
@@ -40351,7 +40524,7 @@
                   "responseSpeaker": "小伙伴",
                   "response": "仙人与走兽，是不同的屋脊装饰。",
                   "retry": "先看队伍最前面，再看后面的一排。",
-                  "nextLabel": "用模型看它怎样盖住固定处",
+                  "nextLabel": "揭开小兽，看看下面",
                   "kind": "fictional-guide-scene"
                 },
                 "concepts": null,
@@ -40442,27 +40615,36 @@
                 "id": "change",
                 "questionKind": "cause-effect",
                 "icon": "✨",
-                "phase": "给固定处戴上一顶小兽帽",
-                "title": "给固定处戴上一顶小兽帽",
-                "prompt": "小兽怎样罩住这个固定处？",
-                "rightNote": "盖住固定处，也给屋脊添上装饰。",
+                "phase": "揭开小兽，看看下面",
+                "title": "揭开小兽，看看下面",
+                "prompt": "小兽下面，藏着什么？",
+                "rightNote": "小兽把固定处遮在里面，也让屋脊变得好看。",
                 "wrongNote": "再看看固定处在哪里。",
                 "sourceIds": [
                   "DPM-YOUNG-ROOF",
-                  "DPM-TAIHE-ROOF-BEASTS"
+                  "DPM-TAIHE-ROOF-BEASTS",
+                  "DPM-ROOF-BEASTS-FUNCTIONS"
                 ],
                 "interaction": {
                   "kind": "history-lab",
-                  "hint": "听听问题，看看图里的线索。",
+                  "hint": "先看里面，再看外面发生了什么变化。",
                   "lab": {
                     "kind": "roof",
                     "stages": [
                       {
-                        "label": "把小兽罩在固定处上",
-                        "narration": "小兽的底座落到屋脊上，像帽子一样罩住固定处，也装饰了屋顶。",
+                        "label": "揭开小兽，看看下面",
+                        "narration": "看见固定脊瓦的钉了。小兽的底座原先把它遮在里面。",
                         "audio": {
-                          "id": "quest-a3cf74a915fa8b40",
-                          "text": "小兽的底座落到屋脊上，像帽子一样罩住固定处，也装饰了屋顶。"
+                          "id": "quest-fd584ac23774ade4",
+                          "text": "看见固定脊瓦的钉了。小兽的底座原先把它遮在里面。"
+                        }
+                      },
+                      {
+                        "label": "盖回去，看看变化",
+                        "narration": "小兽盖回去，钉帽藏起来了，屋脊也变得好看。",
+                        "audio": {
+                          "id": "quest-2e8f2642a013d24e",
+                          "text": "小兽盖回去，钉帽藏起来了，屋脊也变得好看。"
                         }
                       }
                     ]
@@ -40470,54 +40652,90 @@
                 },
                 "narrative": {
                   "scene": "detail",
-                  "caption": "给固定处戴上一顶小兽帽",
+                  "caption": "揭开小兽，看看下面",
                   "speaker": "小伙伴",
                   "responseSpeaker": "小伙伴",
-                  "response": "盖住固定处，也给屋脊添上装饰。",
+                  "response": "小兽把固定处遮在里面，也让屋脊变得好看。",
                   "retry": "再看看固定处在哪里。",
-                  "nextLabel": "把用途和历史连起来",
+                  "nextLabel": "做法变了，小兽为什么还在",
                   "kind": "fictional-guide-scene"
                 },
                 "concepts": null,
-                "inspection": null,
+                "inspection": {
+                  "id": "taihe-hall-ten-roof-beasts-current-photo",
+                  "title": "太和殿屋脊十只脊兽现状照片",
+                  "localPath": "reference-assets/ming-qing/taihe-hall-roof-beasts.jpg",
+                  "sourcePage": "https://commons.wikimedia.org/wiki/File:太和殿的脊獸.JPG",
+                  "sourceFile": null,
+                  "licensePath": null,
+                  "license": "CC BY-SA 3.0",
+                  "clearance": "cleared-open-license",
+                  "caption": "今天太和殿屋脊上的十只脊兽与骑凤仙人。",
+                  "boundary": "2014年现状照片，现存太和殿为清康熙重建形制；十只走兽不含骑凤仙人，也不含后面的大构件。儿童局部观察保留原图入口，不要求逐一认出兽名。 今天太和殿屋脊上的十只脊兽与骑凤仙人。",
+                  "childVisibility": "child-ok",
+                  "image": "/content/step-images/taihe-hall-ten-roof-beasts-current-photo.jpg",
+                  "label": "点开真材料，听听说明",
+                  "placement": "supporting",
+                  "framing": "object",
+                  "displayHeight": 320,
+                  "openAlbum": false,
+                  "sourceLinks": [
+                    {
+                      "title": "故宫博物院：太和殿：建筑、重建与檐角走兽",
+                      "url": "https://www.dpm.org.cn/show/225724.html"
+                    },
+                    {
+                      "title": "故宫博物院青少网站：太和殿屋脊上的神兽",
+                      "url": "https://young.dpm.org.cn/info/646"
+                    },
+                    {
+                      "title": "图像原始文件与许可",
+                      "url": "https://commons.wikimedia.org/wiki/File:太和殿的脊獸.JPG"
+                    }
+                  ],
+                  "audio": {
+                    "id": "quest-a9f862d520ab3606",
+                    "text": "现在看的是真实照片的一部分。点开可以看原图。骑凤仙人在最前，后面是十只走兽；更大的屋脊构件不混在这十只里面。"
+                  }
+                },
                 "story": {
                   "screenNumber": 4,
-                  "title": "给固定处戴上一顶小兽帽",
-                  "screenText": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。",
-                  "displayText": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。",
-                  "narration": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。"
+                  "title": "揭开小兽，看看下面",
+                  "screenText": "小工坊里是一种旧做法的模型。先揭开小兽，看看固定脊瓦的地方；再放回去，比较它遮住了什么。模型不代表今天太和殿的内部构造。",
+                  "displayText": "小工坊里是一种旧做法的模型。先揭开小兽，看看固定脊瓦的地方；再放回去，比较它遮住了什么。模型不代表今天太和殿的内部构造。",
+                  "narration": "小工坊里是一种旧做法的模型。先揭开小兽，看看固定脊瓦的地方；再放回去，比较它遮住了什么。模型不代表今天太和殿的内部构造。"
                 },
                 "assetId": "ming-roof-learning-v1",
                 "image": "/content/step-images/ming-roof-learning-v1.jpg",
-                "studyImage": "/content/study-scenes/study-22bd2eb46bd07596.svg",
-                "studyImageAlt": "给固定处戴上一顶小兽帽",
+                "studyImage": "/content/study-scenes/study-bf1e6784c8e85179.svg",
+                "studyImageAlt": "揭开小兽，看看下面",
                 "imageAlt": "屋脊构件学习模型故事图",
                 "imageCaption": "屋脊构件学习模型故事图",
                 "imageBoundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
                 "audio": {
                   "lead": {
-                    "id": "quest-220be148e500e20f",
-                    "text": "小兽怎样罩住这个固定处？"
+                    "id": "quest-783023c607f46296",
+                    "text": "小工坊里是一种旧做法的模型。先揭开小兽，看看固定脊瓦的地方；再放回去，比较它遮住了什么。模型不代表今天太和殿的内部构造。"
                   },
                   "transition": {
-                    "id": "quest-9d32b19b9597d9df",
-                    "text": "给固定处戴上一顶小兽帽。"
+                    "id": "quest-29201fc2176f2066",
+                    "text": "揭开小兽，看看下面。"
                   },
                   "intro": {
-                    "id": "quest-21544605b41c98c6",
-                    "text": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。"
+                    "id": "quest-783023c607f46296",
+                    "text": "小工坊里是一种旧做法的模型。先揭开小兽，看看固定脊瓦的地方；再放回去，比较它遮住了什么。模型不代表今天太和殿的内部构造。"
                   },
                   "question": {
-                    "id": "quest-220be148e500e20f",
-                    "text": "小兽怎样罩住这个固定处？"
+                    "id": "quest-5e5710973c93caba",
+                    "text": "小兽下面，藏着什么？"
                   },
                   "image": {
-                    "id": "quest-a27d7fd99e005527",
-                    "text": "这张是屋脊构件学习模型故事图。这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。"
+                    "id": "quest-01a5393620d13fbd",
+                    "text": "这张是屋脊构件学习模型故事图。小工坊里是一种旧做法的模型。先揭开小兽，看看固定脊瓦的地方；再放回去，比较它遮住了什么。模型不代表今天太和殿的内部构造。"
                   },
                   "right": {
-                    "id": "quest-17ed417e6e8a8d9e",
-                    "text": "盖住固定处，也给屋脊添上装饰。"
+                    "id": "quest-65de49903b7a949a",
+                    "text": "小兽把固定处遮在里面，也让屋脊变得好看。"
                   },
                   "wrong": {
                     "id": "quest-1d2ab0bef0dc91c4",
@@ -40530,15 +40748,16 @@
                 "id": "takeaway",
                 "questionKind": "apply-and-explain",
                 "icon": "🗣️",
-                "phase": "同一座宫殿，也会发生变化",
-                "title": "同一座宫殿，也会发生变化",
-                "prompt": "看用途，也看它来自哪个时候",
-                "rightNote": "不要把今天看见的，都当成最初的样子。",
+                "phase": "做法变了，小兽为什么还在",
+                "title": "做法变了，小兽为什么还在",
+                "prompt": "做法变了，小兽为什么还在？",
+                "rightNote": "看小兽，也能看见做法、装饰和礼制的历史。",
                 "wrongNote": "可以再听一遍。",
                 "sourceIds": [
                   "DPM-TAIHE-ROOF-BEASTS",
                   "UNESCO-FORBIDDEN-CITY",
-                  "DPM-YOUNG-ROOF"
+                  "DPM-YOUNG-ROOF",
+                  "DPM-ROOF-BEASTS-FUNCTIONS"
                 ],
                 "interaction": {
                   "kind": "look-listen",
@@ -40547,54 +40766,54 @@
                 },
                 "narrative": {
                   "scene": "detail",
-                  "caption": "同一座宫殿，也会发生变化",
+                  "caption": "做法变了，小兽为什么还在",
                   "speaker": "小伙伴",
                   "responseSpeaker": "小伙伴",
-                  "response": "不要把今天看见的，都当成最初的样子。",
+                  "response": "看小兽，也能看见做法、装饰和礼制的历史。",
                   "retry": "可以再听一遍。",
-                  "nextLabel": "带着屋脊的发现回家",
+                  "nextLabel": "带着发现回家",
                   "kind": "fictional-guide-scene"
                 },
                 "concepts": null,
                 "inspection": null,
                 "story": {
                   "screenNumber": 5,
-                  "title": "同一座宫殿，也会发生变化",
-                  "screenText": "明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。",
-                  "displayText": "明代始建，后来又重建。\n今天的样子，不全是最初的样子。",
-                  "narration": "明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。"
+                  "title": "做法变了，小兽为什么还在",
+                  "screenText": "有些旧做法用小兽遮住钉帽。后来屋顶技术改变，小兽仍被留下，用来装饰和表达建筑的礼制。今天看到的太和殿，还经历了清代重建。",
+                  "displayText": "有些旧做法用小兽遮住钉帽。后来屋顶技术改变，小兽仍被留下，用来装饰和表达建筑的礼制。今天看到的太和殿，还经历了清代重建。",
+                  "narration": "有些旧做法用小兽遮住钉帽。后来屋顶技术改变，小兽仍被留下，用来装饰和表达建筑的礼制。今天看到的太和殿，还经历了清代重建。"
                 },
                 "assetId": "ming-roof-learning-v1",
                 "image": "/content/step-images/ming-roof-learning-v1.jpg",
-                "studyImage": "/content/study-scenes/study-0d109dc642ca9165.svg",
-                "studyImageAlt": "同一座宫殿，也会发生变化",
+                "studyImage": "/content/study-scenes/study-8837fd5f0713601b.svg",
+                "studyImageAlt": "做法变了，小兽为什么还在",
                 "imageAlt": "屋脊构件学习模型故事图",
                 "imageCaption": "屋脊构件学习模型故事图",
                 "imageBoundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
                 "audio": {
                   "lead": {
-                    "id": "quest-531dd33863c48b9a",
-                    "text": "看用途，也看它来自哪个时候"
+                    "id": "quest-f8db93c18902758a",
+                    "text": "有些旧做法用小兽遮住钉帽。后来屋顶技术改变，小兽仍被留下，用来装饰和表达建筑的礼制。今天看到的太和殿，还经历了清代重建。"
                   },
                   "transition": {
-                    "id": "quest-cceb975521194cdf",
-                    "text": "同一座宫殿，也会发生变化。"
+                    "id": "quest-bd7f48f95b03655e",
+                    "text": "做法变了，小兽为什么还在。"
                   },
                   "intro": {
-                    "id": "quest-736b123d7abf1e2e",
-                    "text": "明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。"
+                    "id": "quest-f8db93c18902758a",
+                    "text": "有些旧做法用小兽遮住钉帽。后来屋顶技术改变，小兽仍被留下，用来装饰和表达建筑的礼制。今天看到的太和殿，还经历了清代重建。"
                   },
                   "question": {
-                    "id": "quest-531dd33863c48b9a",
-                    "text": "看用途，也看它来自哪个时候"
+                    "id": "quest-c675a6de405e230d",
+                    "text": "做法变了，小兽为什么还在？"
                   },
                   "image": {
-                    "id": "quest-4c045c579acc51b3",
-                    "text": "这张是屋脊构件学习模型故事图。明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。"
+                    "id": "quest-b7e6be9237365856",
+                    "text": "这张是屋脊构件学习模型故事图。有些旧做法用小兽遮住钉帽。后来屋顶技术改变，小兽仍被留下，用来装饰和表达建筑的礼制。今天看到的太和殿，还经历了清代重建。"
                   },
                   "right": {
-                    "id": "quest-23c80d36c012e114",
-                    "text": "不要把今天看见的，都当成最初的样子。"
+                    "id": "quest-0e4a36d18a18e5e8",
+                    "text": "看小兽，也能看见做法、装饰和礼制的历史。"
                   },
                   "wrong": {
                     "id": "quest-cf2d9f2d3be46572",
@@ -40635,10 +40854,10 @@
           "coreAudioSegments": 6,
           "extensionAudioSegments": 0,
           "interactions": 3,
-          "factCount": 6,
+          "factCount": 7,
           "methodNoteCount": 0,
-          "sourceCount": 6,
-          "assetCount": 11,
+          "sourceCount": 7,
+          "assetCount": 12,
           "thumbnail": "/content/thumbnails/cn-ancient-08-06-forbidden-city-roof-beasts.jpg",
           "detailUrl": "/content/chapters/cn-ancient-08-06-forbidden-city-roof-beasts.json",
           "reviewStatus": "pending",
@@ -41062,8 +41281,8 @@
                 "imageBoundary": "自制学习示意。1592世德堂本为明代小说图像，不是唐代玄奘现场。孙悟空只在书页想象中出现，不列入真实西行队伍。书坊图不声称复原某家1592年作坊；印刷传播不等于当时人人识字或人人拥有书。",
                 "audio": {
                   "lead": {
-                    "id": "quest-5e47289defeb1cd7",
-                    "text": "这本《西游记》刊行在明朝1592年。"
+                    "id": "quest-207bd16f33e4da70",
+                    "text": "这本《西游记》刊行在明朝1592年。要看这本书怎样印出来，先去哪个朝代？"
                   },
                   "transition": {
                     "id": "quest-f743a58cdb4b8575",
@@ -43920,8 +44139,8 @@
                 "imageBoundary": "自制学习示意。约1780广州商馆画与1822刊瓦特1782技术说明图不是同年同地。1757后的口岸限制针对西洋海上贸易，不等于所有外国人或全部清代贸易只准广州。十三行不是始终十三家。瓦特改良而非发明第一台蒸汽机；学具省略气门等，不复原瓦特整机；不以单一原因解释后来危机，本章截至近代前夜不表示清朝止于1840。",
                 "audio": {
                   "lead": {
-                    "id": "quest-af7d0064b5a0174d",
-                    "text": "约1780年是清朝，这幅旧画描绘广州的商船和商馆。"
+                    "id": "quest-a123ac3477b47b71",
+                    "text": "约1780年是清朝，这幅旧画描绘广州的商船和商馆。跟着这幅画，来到哪个朝代？"
                   },
                   "transition": {
                     "id": "quest-83ef0a1fe1f6bbeb",
@@ -45204,9 +45423,9 @@
                 "imageBoundary": "郑板桥即郑燮；所用画作不声称就是《竹石》的原题诗画。根部示意是今天的学具，不补造古画细节，也不把遇险硬撑当品德答案。",
                 "audio": {
                   "lead": {
-                    "id": "quest-5a68bf6a76012b03",
-                    "text": "诗里说，竹子迎风仍然坚劲。哪幅更接近诗里的坚劲？",
-                    "synthesisText": "诗里说，竹子迎风仍然坚敬。哪幅更接近诗里的坚敬？"
+                    "id": "quest-e45431735cc7869e",
+                    "text": "“千磨万击还坚劲，任尔东西南北风。”坚劲，是说诗里的竹子迎风还挺立着。哪幅图更接近这句话？",
+                    "synthesisText": "“千磨万击还坚敬，任尔东西南北风。”坚敬，是说诗里的竹子迎风还挺立着。哪幅图更接近这句话？"
                   },
                   "transition": {
                     "id": "quest-a50df3bb685a3519",

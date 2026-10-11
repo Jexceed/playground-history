@@ -54,7 +54,7 @@ export function buildFocusedGameplay({focused,registerVoiceLine,assets,interacti
   return view??null;
  };
  const tripPresentation=trip?{...trip,reunionImage:narrativeAssets[0].image,stationLine:stationContext?.childIntro??trip.stationLine,stationAudio:voice(stationContext?.childIntro??trip.stationNarration),closingAudio:voice(trip.closingNarration)}:null;
- const presentation=focused.presentation?{...focused.presentation,story:tripPresentation,sceneImage:sceneAsset.image,evidenceAudio:voice(focused.presentation.evidenceNarration),guideAudio:voice(focused.presentation.guide)}:null;
+ const presentation=focused.presentation?{...focused.presentation,story:tripPresentation,sceneImage:sceneAsset.image,...(focused.presentation.coverUsesMaterial?{coverMaterial:{image:coverAsset.image,title:coverAsset.title,label:focused.coverDisplay.label}}:{}),evidenceAudio:voice(focused.presentation.evidenceNarration),guideAudio:voice(focused.presentation.guide)}:null;
  const steps=focused.steps.map((s,i)=>{
   const interaction=s.interaction?.kind==='scene-find'?{...s.interaction,rounds:s.interaction.rounds.map(round=>({...round,audio:{question:voice(round.question),right:voice(round.feedback),wrong:voice(round.retry)}}))}:s.interaction?.kind==='circle-refine'?{...s.interaction,refinements:s.interaction.refinements.map(r=>({...r,audio:voice(r.narration)}))}:s.interaction?.kind==='history-lab'?{...s.interaction,lab:{...s.interaction.lab,stages:s.interaction.lab.stages.map(stage=>({...stage,audio:voice(stage.narration)}))}}:s.interaction??null;
   const inspection=s.inspection?findEvidence(s.inspection.assetId):null;

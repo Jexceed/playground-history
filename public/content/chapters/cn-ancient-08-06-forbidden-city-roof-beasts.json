@@ -40,8 +40,8 @@
   "childEntry": {
     "id": "cn-ancient-08-06-forbidden-city-roof-beasts",
     "childTitle": "故宫屋脊的小兽，只是装饰吗？",
-    "prompt": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？",
-    "takeaway": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。",
+    "prompt": "古代工匠把固定屋脊的地方藏进小兽造型里。后来屋顶做法变了，小兽却留下来。今天太和殿的队伍又告诉我们什么？",
+    "takeaway": "一些旧做法用小兽遮住固定处。后来做法变了，小兽仍有装饰和礼制意义。今天太和殿的形制，还经历了清代重建。",
     "object": "故宫太和殿区域现状照片",
     "people": [
       "明清宫殿的工匠",
@@ -49,17 +49,17 @@
     ],
     "place": "北京故宫太和殿；明代始建与清代重建",
     "culture": "屋脊构件、装饰与礼制",
-    "care": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
+    "care": "现存太和殿为清代重建后的形制，不当明代原物。骑凤仙人不算十走兽。小工坊用教学新画解释一种旧做法，不能据此推定今天太和殿内部，更不代表所有房屋都有同样构造。",
     "preferredAssetId": "taihe-hall-ten-roof-beasts-current-photo",
     "playableSource": "content/focused-quests.json"
   },
   "learningGuide": {
     "id": "cn-ancient-08-06-forbidden-city-roof-beasts",
     "theme": "艺术和表达",
-    "learningGoal": "构件有用途和装饰意义，建筑今天的形制还经历重建。",
+    "learningGoal": "从旧做法中遮护固定处与后来的装饰、礼制，看见建筑构件意义的延续和变化。",
     "parentQuestion": "小兽除了好看，还曾帮助遮护什么？今天全是最初留下的吗？",
-    "observe": "在模型指出固定处，区分明代始建与清代重建、仙人与走兽。",
-    "misconception": "一种旧构造不代表所有屋顶；现存十兽不能说成明代原物。",
+    "observe": "能在模型揭开与盖回时指出固定处，分清旧做法与今天照片；能说或指认小兽仍有装饰意义。",
+    "misconception": "现存太和殿为清代重建后的形制，不当明代原物。骑凤仙人不算十走兽。小工坊用教学新画解释一种旧做法，不能据此推定今天太和殿内部，更不代表所有房屋都有同样构造。",
     "evidenceStepIds": [
       "time",
       "journey"
@@ -67,7 +67,8 @@
     "sourceIds": [
       "DPM-TAIHE-ROOF-BEASTS",
       "DPM-YOUNG-ROOF",
-      "UNESCO-FORBIDDEN-CITY"
+      "UNESCO-FORBIDDEN-CITY",
+      "DPM-ROOF-BEASTS-FUNCTIONS"
     ],
     "related": [
       {
@@ -88,8 +89,8 @@
       "type": "地点",
       "icon": "🐉",
       "title": "明清宫殿的工匠与今天的观察者",
-      "childBridge": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？",
-      "evidenceBoundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。"
+      "childBridge": "古代工匠把固定屋脊的地方藏进小兽造型里。后来屋顶做法变了，小兽却留下来。今天太和殿的队伍又告诉我们什么？",
+      "evidenceBoundary": "现存太和殿为清代重建后的形制，不当明代原物。"
     },
     "companions": [
       {
@@ -112,7 +113,8 @@
       "DPM-TAIHE-ROOF-BEASTS",
       "UNESCO-FORBIDDEN-CITY",
       "PEP-HISTORY-7B-2026-TRIAL",
-      "DPM-YOUNG-ROOF"
+      "DPM-YOUNG-ROOF",
+      "DPM-ROOF-BEASTS-FUNCTIONS"
     ]
   },
   "childStory": [
@@ -125,8 +127,8 @@
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "小兽像帽子，也装点屋脊",
-      "text": "古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。"
+      "label": "先看小兽的两种意义",
+      "text": "有一种旧做法，用兽形构件遮住固定脊瓦的地方，让屋顶也变得好看。后来建筑技术改变，小兽仍被留下，用来装饰和表达礼制。今天，我们先在小工坊里看一种旧做法。"
     },
     {
       "id": "journey",
@@ -137,14 +139,14 @@
     {
       "id": "change",
       "icon": "✨",
-      "label": "给固定处戴上一顶小兽帽",
-      "text": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。"
+      "label": "揭开小兽，看看下面",
+      "text": "小工坊里是一种旧做法的模型。先揭开小兽，看看固定脊瓦的地方；再放回去，比较它遮住了什么。模型不代表今天太和殿的内部构造。"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "同一座宫殿，也会发生变化",
-      "text": "明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。"
+      "label": "做法变了，小兽为什么还在",
+      "text": "有些旧做法用小兽遮住钉帽。后来屋顶技术改变，小兽仍被留下，用来装饰和表达建筑的礼制。今天看到的太和殿，还经历了清代重建。"
     }
   ],
   "glossary": [
@@ -198,11 +200,11 @@
       "kind": "具体任务",
       "icon": "🔎",
       "label": "故宫屋脊的小兽，只是装饰吗？",
-      "question": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？"
+      "question": "古代工匠把固定屋脊的地方藏进小兽造型里。后来屋顶做法变了，小兽却留下来。今天太和殿的队伍又告诉我们什么？"
     },
     "cta": "抬头找找屋脊的小兽",
     "anchor": "明清宫殿的工匠与今天的观察者",
-    "boundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
+    "boundary": "现存太和殿为清代重建后的形制，不当明代原物。骑凤仙人不算十走兽。小工坊用教学新画解释一种旧做法，不能据此推定今天太和殿内部，更不代表所有房屋都有同样构造。",
     "evidence": [
       {
         "id": "forbidden-city-hall-current-photo",
@@ -343,11 +345,11 @@
         "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
         "reunionAspectRatio": 1.82,
         "coverCaption": "故宫屋脊的小兽，只是装饰吗？",
-        "coverNarration": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？",
+        "coverNarration": "古代工匠把固定屋脊的地方藏进小兽造型里。后来屋顶做法变了，小兽却留下来。今天太和殿的队伍又告诉我们什么？",
         "closingCaption": "带着发现回家",
-        "closingNarration": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。",
-        "closingLine": "小兽有用途，建筑也有自己的历史。",
-        "fictionNote": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
+        "closingNarration": "一些旧做法用小兽遮住固定处。后来做法变了，小兽仍有装饰和礼制意义。今天太和殿的形制，还经历了清代重建。",
+        "closingLine": "小兽让我们看见做法、装饰和礼制的历史。",
+        "fictionNote": "现存太和殿为清代重建后的形制，不当明代原物。骑凤仙人不算十走兽。小工坊用教学新画解释一种旧做法，不能据此推定今天太和殿内部，更不代表所有房屋都有同样构造。",
         "reunionFit": "contain",
         "reunionImage": "/content/step-images/ming-friends-reunion-v1.jpg",
         "stationLine": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
@@ -356,8 +358,8 @@
           "text": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。"
         },
         "closingAudio": {
-          "id": "quest-5dc0981bbf2d2d40",
-          "text": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。"
+          "id": "quest-ac4e04c50fd81489",
+          "text": "一些旧做法用小兽遮住固定处。后来做法变了，小兽仍有装饰和礼制意义。今天太和殿的形制，还经历了清代重建。"
         }
       },
       "sceneImage": "/content/step-images/ming-roof-learning-v1.jpg",
@@ -416,19 +418,19 @@
       }
     },
     "coverAudio": {
-      "id": "quest-650818f53cddca93",
-      "text": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？"
+      "id": "quest-56a2858d7ae7a582",
+      "text": "古代工匠把固定屋脊的地方藏进小兽造型里。后来屋顶做法变了，小兽却留下来。今天太和殿的队伍又告诉我们什么？"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-5dc0981bbf2d2d40",
-      "text": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。"
+      "id": "quest-ac4e04c50fd81489",
+      "text": "一些旧做法用小兽遮住固定处。后来做法变了，小兽仍有装饰和礼制意义。今天太和殿的形制，还经历了清代重建。"
     },
     "finish": {
-      "title": "小兽有用途，建筑也有自己的历史。",
+      "title": "小兽的身上，也有建筑的历史",
       "actions": [
-        "先在真图里指出仙人和走兽，再说出小兽曾有的一种用途。",
-        "把一张纸轻轻盖在桌上的小积木上，演示“遮护”，再说这只是学习模型。"
+        "看屋脊照片，先找到骑凤仙人，再指出后面的一排走兽，看看它们怎样装饰屋顶。",
+        "揭开、盖回学习模型，指出被遮住的地方。照片看不到的内部，不靠猜测当事实。"
       ],
       "parent": "礼制讨论限建筑用途与构件规制，不给人物或人群排高低；不把小兽神话功能当物理事实。",
       "sceneStepIndexes": [
@@ -437,17 +439,17 @@
       ],
       "actionAudio": [
         {
-          "id": "quest-8ac599cb617d4091",
-          "text": "先在真图里指出仙人和走兽，再说出小兽曾有的一种用途。"
+          "id": "quest-40e380da9a6dcddf",
+          "text": "看屋脊照片，先找到骑凤仙人，再指出后面的一排走兽，看看它们怎样装饰屋顶。"
         },
         {
-          "id": "quest-73b33a30b8016b4e",
-          "text": "把一张纸轻轻盖在桌上的小积木上，演示“遮护”，再说这只是学习模型。"
+          "id": "quest-f04c2aa426ff4cae",
+          "text": "揭开、盖回学习模型，指出被遮住的地方。照片看不到的内部，不靠猜测当事实。"
         }
       ],
       "introAudio": {
-        "id": "quest-5dc0981bbf2d2d40",
-        "text": "宫殿屋脊小兽兼有装饰与历史构件用途，也体现建筑礼制。明代始建的宫殿经历重建，现存太和殿是清代形制。"
+        "id": "quest-ac4e04c50fd81489",
+        "text": "一些旧做法用小兽遮住固定处。后来做法变了，小兽仍有装饰和礼制意义。今天太和殿的形制，还经历了清代重建。"
       }
     },
     "estimatedMinutes": 6,
@@ -480,7 +482,7 @@
           "responseSpeaker": "小伙伴",
           "response": "从明代始建，再看到清代重建后的样子。",
           "retry": "清代重建在后，1420年建成在明朝。",
-          "nextLabel": "听听小兽为什么上屋顶",
+          "nextLabel": "先看小兽的两种意义",
           "kind": "fictional-guide-scene"
         },
         "concepts": null,
@@ -534,11 +536,11 @@
         "studyImageAlt": "从真实材料走进明朝",
         "imageAlt": "从真实材料走进明朝",
         "imageCaption": "学习示意 · 从真实材料走进明朝",
-        "imageBoundary": "自制学习示意。1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
+        "imageBoundary": "自制学习示意。现存太和殿为清代重建后的形制，不当明代原物。骑凤仙人不算十走兽。小工坊用教学新画解释一种旧做法，不能据此推定今天太和殿内部，更不代表所有房屋都有同样构造。",
         "audio": {
           "lead": {
-            "id": "quest-cbfd2e235bc90c98",
-            "text": "北京宫殿1420年在明朝建成，今天太和殿则经历清代重建。"
+            "id": "quest-39197b58e580cd6d",
+            "text": "北京宫殿1420年在明朝建成，今天太和殿则经历清代重建。先找1420年建宫殿的时候，应该选哪一朝？"
           },
           "transition": {
             "id": "quest-f743a58cdb4b8575",
@@ -608,14 +610,15 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "小兽像帽子，也装点屋脊",
-        "title": "小兽像帽子，也装点屋脊",
-        "prompt": "看看固定处，再看看小兽",
-        "rightNote": "实用、装饰和建筑规矩，都留下了历史。",
+        "phase": "先看小兽的两种意义",
+        "title": "先看小兽的两种意义",
+        "prompt": "做法和装饰，怎样连在一起？",
+        "rightNote": "小兽的来历，与建筑的做法和人的审美都有关系。",
         "wrongNote": "可以再听一遍。",
         "sourceIds": [
           "DPM-TAIHE-ROOF-BEASTS",
-          "DPM-YOUNG-ROOF"
+          "DPM-YOUNG-ROOF",
+          "DPM-ROOF-BEASTS-FUNCTIONS"
         ],
         "interaction": {
           "kind": "look-listen",
@@ -624,54 +627,54 @@
         },
         "narrative": {
           "scene": "detail",
-          "caption": "小兽像帽子，也装点屋脊",
+          "caption": "先看小兽的两种意义",
           "speaker": "小伙伴",
           "responseSpeaker": "小伙伴",
-          "response": "实用、装饰和建筑规矩，都留下了历史。",
+          "response": "小兽的来历，与建筑的做法和人的审美都有关系。",
           "retry": "可以再听一遍。",
-          "nextLabel": "去真照片里找小兽",
+          "nextLabel": "照片里，谁在队伍前面",
           "kind": "fictional-guide-scene"
         },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "小兽像帽子，也装点屋脊",
-          "screenText": "古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。",
-          "displayText": "小兽能装点屋脊，也曾遮护固定处。\n宫殿的安排，还有礼制意义。",
-          "narration": "古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。"
+          "title": "先看小兽的两种意义",
+          "screenText": "有一种旧做法，用兽形构件遮住固定脊瓦的地方，让屋顶也变得好看。后来建筑技术改变，小兽仍被留下，用来装饰和表达礼制。今天，我们先在小工坊里看一种旧做法。",
+          "displayText": "有一种旧做法，用兽形构件遮住固定脊瓦的地方，让屋顶也变得好看。后来建筑技术改变，小兽仍被留下，用来装饰和表达礼制。今天，我们先在小工坊里看一种旧做法。",
+          "narration": "有一种旧做法，用兽形构件遮住固定脊瓦的地方，让屋顶也变得好看。后来建筑技术改变，小兽仍被留下，用来装饰和表达礼制。今天，我们先在小工坊里看一种旧做法。"
         },
         "assetId": "ming-roof-learning-v1",
         "image": "/content/step-images/ming-roof-learning-v1.jpg",
-        "studyImage": "/content/study-scenes/study-3ada0d092c03c4af.svg",
-        "studyImageAlt": "小兽像帽子，也装点屋脊",
+        "studyImage": "/content/study-scenes/study-fb9faa185b32b7c1.svg",
+        "studyImageAlt": "先看小兽的两种意义",
         "imageAlt": "屋脊构件学习模型故事图",
         "imageCaption": "屋脊构件学习模型故事图",
         "imageBoundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
         "audio": {
           "lead": {
-            "id": "quest-089b481fc68a03d0",
-            "text": "看看固定处，再看看小兽"
+            "id": "quest-5a2e5b0d4d295eb0",
+            "text": "有一种旧做法，用兽形构件遮住固定脊瓦的地方，让屋顶也变得好看。后来建筑技术改变，小兽仍被留下，用来装饰和表达礼制。今天，我们先在小工坊里看一种旧做法。"
           },
           "transition": {
-            "id": "quest-18fdd2e586270f96",
-            "text": "小兽像帽子，也装点屋脊。"
+            "id": "quest-1b619b288680c2e0",
+            "text": "先看小兽的两种意义。"
           },
           "intro": {
-            "id": "quest-6436f1d2522eb107",
-            "text": "古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。"
+            "id": "quest-5a2e5b0d4d295eb0",
+            "text": "有一种旧做法，用兽形构件遮住固定脊瓦的地方，让屋顶也变得好看。后来建筑技术改变，小兽仍被留下，用来装饰和表达礼制。今天，我们先在小工坊里看一种旧做法。"
           },
           "question": {
-            "id": "quest-089b481fc68a03d0",
-            "text": "看看固定处，再看看小兽"
+            "id": "quest-b86fe29bda5401be",
+            "text": "做法和装饰，怎样连在一起？"
           },
           "image": {
-            "id": "quest-837143a8ad8d348c",
-            "text": "这张是屋脊构件学习模型故事图。古代有一种屋脊做法，用兽形构件遮护固定瓦的地方，又让屋顶好看。太和殿是举行大典的地方，小兽的安排也有礼制意义。今天我们用模型看一看，不爬上真的屋顶。"
+            "id": "quest-d2cf14de7b982eea",
+            "text": "这张是屋脊构件学习模型故事图。有一种旧做法，用兽形构件遮住固定脊瓦的地方，让屋顶也变得好看。后来建筑技术改变，小兽仍被留下，用来装饰和表达礼制。今天，我们先在小工坊里看一种旧做法。"
           },
           "right": {
-            "id": "quest-5862616cd3da0312",
-            "text": "实用、装饰和建筑规矩，都留下了历史。"
+            "id": "quest-7ac3511413f418e8",
+            "text": "小兽的来历，与建筑的做法和人的审美都有关系。"
           },
           "wrong": {
             "id": "quest-cf2d9f2d3be46572",
@@ -778,7 +781,7 @@
           "responseSpeaker": "小伙伴",
           "response": "仙人与走兽，是不同的屋脊装饰。",
           "retry": "先看队伍最前面，再看后面的一排。",
-          "nextLabel": "用模型看它怎样盖住固定处",
+          "nextLabel": "揭开小兽，看看下面",
           "kind": "fictional-guide-scene"
         },
         "concepts": null,
@@ -869,27 +872,36 @@
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "给固定处戴上一顶小兽帽",
-        "title": "给固定处戴上一顶小兽帽",
-        "prompt": "小兽怎样罩住这个固定处？",
-        "rightNote": "盖住固定处，也给屋脊添上装饰。",
+        "phase": "揭开小兽，看看下面",
+        "title": "揭开小兽，看看下面",
+        "prompt": "小兽下面，藏着什么？",
+        "rightNote": "小兽把固定处遮在里面，也让屋脊变得好看。",
         "wrongNote": "再看看固定处在哪里。",
         "sourceIds": [
           "DPM-YOUNG-ROOF",
-          "DPM-TAIHE-ROOF-BEASTS"
+          "DPM-TAIHE-ROOF-BEASTS",
+          "DPM-ROOF-BEASTS-FUNCTIONS"
         ],
         "interaction": {
           "kind": "history-lab",
-          "hint": "听听问题，看看图里的线索。",
+          "hint": "先看里面，再看外面发生了什么变化。",
           "lab": {
             "kind": "roof",
             "stages": [
               {
-                "label": "把小兽罩在固定处上",
-                "narration": "小兽的底座落到屋脊上，像帽子一样罩住固定处，也装饰了屋顶。",
+                "label": "揭开小兽，看看下面",
+                "narration": "看见固定脊瓦的钉了。小兽的底座原先把它遮在里面。",
                 "audio": {
-                  "id": "quest-a3cf74a915fa8b40",
-                  "text": "小兽的底座落到屋脊上，像帽子一样罩住固定处，也装饰了屋顶。"
+                  "id": "quest-fd584ac23774ade4",
+                  "text": "看见固定脊瓦的钉了。小兽的底座原先把它遮在里面。"
+                }
+              },
+              {
+                "label": "盖回去，看看变化",
+                "narration": "小兽盖回去，钉帽藏起来了，屋脊也变得好看。",
+                "audio": {
+                  "id": "quest-2e8f2642a013d24e",
+                  "text": "小兽盖回去，钉帽藏起来了，屋脊也变得好看。"
                 }
               }
             ]
@@ -897,54 +909,90 @@
         },
         "narrative": {
           "scene": "detail",
-          "caption": "给固定处戴上一顶小兽帽",
+          "caption": "揭开小兽，看看下面",
           "speaker": "小伙伴",
           "responseSpeaker": "小伙伴",
-          "response": "盖住固定处，也给屋脊添上装饰。",
+          "response": "小兽把固定处遮在里面，也让屋脊变得好看。",
           "retry": "再看看固定处在哪里。",
-          "nextLabel": "把用途和历史连起来",
+          "nextLabel": "做法变了，小兽为什么还在",
           "kind": "fictional-guide-scene"
         },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "taihe-hall-ten-roof-beasts-current-photo",
+          "title": "太和殿屋脊十只脊兽现状照片",
+          "localPath": "reference-assets/ming-qing/taihe-hall-roof-beasts.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:太和殿的脊獸.JPG",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 3.0",
+          "clearance": "cleared-open-license",
+          "caption": "今天太和殿屋脊上的十只脊兽与骑凤仙人。",
+          "boundary": "2014年现状照片，现存太和殿为清康熙重建形制；十只走兽不含骑凤仙人，也不含后面的大构件。儿童局部观察保留原图入口，不要求逐一认出兽名。 今天太和殿屋脊上的十只脊兽与骑凤仙人。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/taihe-hall-ten-roof-beasts-current-photo.jpg",
+          "label": "点开真材料，听听说明",
+          "placement": "supporting",
+          "framing": "object",
+          "displayHeight": 320,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "故宫博物院：太和殿：建筑、重建与檐角走兽",
+              "url": "https://www.dpm.org.cn/show/225724.html"
+            },
+            {
+              "title": "故宫博物院青少网站：太和殿屋脊上的神兽",
+              "url": "https://young.dpm.org.cn/info/646"
+            },
+            {
+              "title": "图像原始文件与许可",
+              "url": "https://commons.wikimedia.org/wiki/File:太和殿的脊獸.JPG"
+            }
+          ],
+          "audio": {
+            "id": "quest-a9f862d520ab3606",
+            "text": "现在看的是真实照片的一部分。点开可以看原图。骑凤仙人在最前，后面是十只走兽；更大的屋脊构件不混在这十只里面。"
+          }
+        },
         "story": {
           "screenNumber": 4,
-          "title": "给固定处戴上一顶小兽帽",
-          "screenText": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。",
-          "displayText": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。",
-          "narration": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。"
+          "title": "揭开小兽，看看下面",
+          "screenText": "小工坊里是一种旧做法的模型。先揭开小兽，看看固定脊瓦的地方；再放回去，比较它遮住了什么。模型不代表今天太和殿的内部构造。",
+          "displayText": "小工坊里是一种旧做法的模型。先揭开小兽，看看固定脊瓦的地方；再放回去，比较它遮住了什么。模型不代表今天太和殿的内部构造。",
+          "narration": "小工坊里是一种旧做法的模型。先揭开小兽，看看固定脊瓦的地方；再放回去，比较它遮住了什么。模型不代表今天太和殿的内部构造。"
         },
         "assetId": "ming-roof-learning-v1",
         "image": "/content/step-images/ming-roof-learning-v1.jpg",
-        "studyImage": "/content/study-scenes/study-22bd2eb46bd07596.svg",
-        "studyImageAlt": "给固定处戴上一顶小兽帽",
+        "studyImage": "/content/study-scenes/study-bf1e6784c8e85179.svg",
+        "studyImageAlt": "揭开小兽，看看下面",
         "imageAlt": "屋脊构件学习模型故事图",
         "imageCaption": "屋脊构件学习模型故事图",
         "imageBoundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
         "audio": {
           "lead": {
-            "id": "quest-220be148e500e20f",
-            "text": "小兽怎样罩住这个固定处？"
+            "id": "quest-783023c607f46296",
+            "text": "小工坊里是一种旧做法的模型。先揭开小兽，看看固定脊瓦的地方；再放回去，比较它遮住了什么。模型不代表今天太和殿的内部构造。"
           },
           "transition": {
-            "id": "quest-9d32b19b9597d9df",
-            "text": "给固定处戴上一顶小兽帽。"
+            "id": "quest-29201fc2176f2066",
+            "text": "揭开小兽，看看下面。"
           },
           "intro": {
-            "id": "quest-21544605b41c98c6",
-            "text": "这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。"
+            "id": "quest-783023c607f46296",
+            "text": "小工坊里是一种旧做法的模型。先揭开小兽，看看固定脊瓦的地方；再放回去，比较它遮住了什么。模型不代表今天太和殿的内部构造。"
           },
           "question": {
-            "id": "quest-220be148e500e20f",
-            "text": "小兽怎样罩住这个固定处？"
+            "id": "quest-5e5710973c93caba",
+            "text": "小兽下面，藏着什么？"
           },
           "image": {
-            "id": "quest-a27d7fd99e005527",
-            "text": "这张是屋脊构件学习模型故事图。这个剖面模型露出屋脊上的固定处。把小兽罩上去，看看底座怎样落到屋脊上。这只是用来理解一种旧做法，不是所有屋顶内部都这样。"
+            "id": "quest-01a5393620d13fbd",
+            "text": "这张是屋脊构件学习模型故事图。小工坊里是一种旧做法的模型。先揭开小兽，看看固定脊瓦的地方；再放回去，比较它遮住了什么。模型不代表今天太和殿的内部构造。"
           },
           "right": {
-            "id": "quest-17ed417e6e8a8d9e",
-            "text": "盖住固定处，也给屋脊添上装饰。"
+            "id": "quest-65de49903b7a949a",
+            "text": "小兽把固定处遮在里面，也让屋脊变得好看。"
           },
           "wrong": {
             "id": "quest-1d2ab0bef0dc91c4",
@@ -957,15 +1005,16 @@
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "同一座宫殿，也会发生变化",
-        "title": "同一座宫殿，也会发生变化",
-        "prompt": "看用途，也看它来自哪个时候",
-        "rightNote": "不要把今天看见的，都当成最初的样子。",
+        "phase": "做法变了，小兽为什么还在",
+        "title": "做法变了，小兽为什么还在",
+        "prompt": "做法变了，小兽为什么还在？",
+        "rightNote": "看小兽，也能看见做法、装饰和礼制的历史。",
         "wrongNote": "可以再听一遍。",
         "sourceIds": [
           "DPM-TAIHE-ROOF-BEASTS",
           "UNESCO-FORBIDDEN-CITY",
-          "DPM-YOUNG-ROOF"
+          "DPM-YOUNG-ROOF",
+          "DPM-ROOF-BEASTS-FUNCTIONS"
         ],
         "interaction": {
           "kind": "look-listen",
@@ -974,54 +1023,54 @@
         },
         "narrative": {
           "scene": "detail",
-          "caption": "同一座宫殿，也会发生变化",
+          "caption": "做法变了，小兽为什么还在",
           "speaker": "小伙伴",
           "responseSpeaker": "小伙伴",
-          "response": "不要把今天看见的，都当成最初的样子。",
+          "response": "看小兽，也能看见做法、装饰和礼制的历史。",
           "retry": "可以再听一遍。",
-          "nextLabel": "带着屋脊的发现回家",
+          "nextLabel": "带着发现回家",
           "kind": "fictional-guide-scene"
         },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 5,
-          "title": "同一座宫殿，也会发生变化",
-          "screenText": "明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。",
-          "displayText": "明代始建，后来又重建。\n今天的样子，不全是最初的样子。",
-          "narration": "明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。"
+          "title": "做法变了，小兽为什么还在",
+          "screenText": "有些旧做法用小兽遮住钉帽。后来屋顶技术改变，小兽仍被留下，用来装饰和表达建筑的礼制。今天看到的太和殿，还经历了清代重建。",
+          "displayText": "有些旧做法用小兽遮住钉帽。后来屋顶技术改变，小兽仍被留下，用来装饰和表达建筑的礼制。今天看到的太和殿，还经历了清代重建。",
+          "narration": "有些旧做法用小兽遮住钉帽。后来屋顶技术改变，小兽仍被留下，用来装饰和表达建筑的礼制。今天看到的太和殿，还经历了清代重建。"
         },
         "assetId": "ming-roof-learning-v1",
         "image": "/content/step-images/ming-roof-learning-v1.jpg",
-        "studyImage": "/content/study-scenes/study-0d109dc642ca9165.svg",
-        "studyImageAlt": "同一座宫殿，也会发生变化",
+        "studyImage": "/content/study-scenes/study-8837fd5f0713601b.svg",
+        "studyImageAlt": "做法变了，小兽为什么还在",
         "imageAlt": "屋脊构件学习模型故事图",
         "imageCaption": "屋脊构件学习模型故事图",
         "imageBoundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。骑凤仙人不计十兽，后面的大构件也不计。模型只说明一种旧做法的遮护固定处与装饰，不代表每座屋顶同样构造或现代工程指导。",
         "audio": {
           "lead": {
-            "id": "quest-531dd33863c48b9a",
-            "text": "看用途，也看它来自哪个时候"
+            "id": "quest-f8db93c18902758a",
+            "text": "有些旧做法用小兽遮住钉帽。后来屋顶技术改变，小兽仍被留下，用来装饰和表达建筑的礼制。今天看到的太和殿，还经历了清代重建。"
           },
           "transition": {
-            "id": "quest-cceb975521194cdf",
-            "text": "同一座宫殿，也会发生变化。"
+            "id": "quest-bd7f48f95b03655e",
+            "text": "做法变了，小兽为什么还在。"
           },
           "intro": {
-            "id": "quest-736b123d7abf1e2e",
-            "text": "明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。"
+            "id": "quest-f8db93c18902758a",
+            "text": "有些旧做法用小兽遮住钉帽。后来屋顶技术改变，小兽仍被留下，用来装饰和表达建筑的礼制。今天看到的太和殿，还经历了清代重建。"
           },
           "question": {
-            "id": "quest-531dd33863c48b9a",
-            "text": "看用途，也看它来自哪个时候"
+            "id": "quest-c675a6de405e230d",
+            "text": "做法变了，小兽为什么还在？"
           },
           "image": {
-            "id": "quest-4c045c579acc51b3",
-            "text": "这张是屋脊构件学习模型故事图。明代建起的宫殿，后来经历维修与重建。今天太和殿的小兽，让我们观察清代重建后的形制。看建筑，要问它怎样使用，也要问眼前的部分来自哪个时候。"
+            "id": "quest-b7e6be9237365856",
+            "text": "这张是屋脊构件学习模型故事图。有些旧做法用小兽遮住钉帽。后来屋顶技术改变，小兽仍被留下，用来装饰和表达建筑的礼制。今天看到的太和殿，还经历了清代重建。"
           },
           "right": {
-            "id": "quest-23c80d36c012e114",
-            "text": "不要把今天看见的，都当成最初的样子。"
+            "id": "quest-0e4a36d18a18e5e8",
+            "text": "看小兽，也能看见做法、装饰和礼制的历史。"
           },
           "wrong": {
             "id": "quest-cf2d9f2d3be46572",
@@ -1099,6 +1148,13 @@
     },
     {
       "number": 6,
+      "text": "故宫词条说明，早先为加固脊瓦而使用铁钉，并在钉帽上装饰小兽；后来技术改变，小兽仍保留为建筑装饰和等级标志。不能把旧做法套在每座屋顶。",
+      "sourceIds": [
+        "DPM-ROOF-BEASTS-FUNCTIONS"
+      ]
+    },
+    {
+      "number": 7,
       "text": "一张屋顶局部照片能帮助观察队列和位置，不能独自说明整座紫禁城的全部功能和所有建筑等级。",
       "sourceIds": [
         "DPM-TAIHE-ROOF-BEASTS",
@@ -1286,6 +1342,16 @@
       "imageUse": "reference-only"
     },
     {
+      "id": "DPM-ROOF-BEASTS-FUNCTIONS",
+      "title": "走兽：早期固定与后来的装饰、等级意义",
+      "institution": "故宫博物院",
+      "url": "https://www.dpm.org.cn/lemmas/241413.html",
+      "type": "national-museum-architecture-record",
+      "authorityLevel": "A-national-museum",
+      "factUse": "走兽与脊瓦、固定铁钉的早期关系；后来技术变化、不再需要同样固定措施时，走兽仍保留为装饰和建筑等级标志。不能据教学模型推定今天太和殿内部。",
+      "imageUse": "reference-only"
+    },
+    {
       "id": "MOE-HISTORY-CURRICULUM-2022",
       "title": "义务教育历史课程标准（2022年版）",
       "institution": "中华人民共和国教育部",
@@ -1367,15 +1433,15 @@
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-3ada0d092c03c4af",
-      "title": "学习示意：小兽像帽子，也装点屋脊",
-      "localPath": "reference-assets/focused-quests/study-3ada0d092c03c4af.svg",
+      "id": "study-fb9faa185b32b7c1",
+      "title": "学习示意：先看小兽的两种意义",
+      "localPath": "reference-assets/focused-quests/study-fb9faa185b32b7c1.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "小兽像帽子，也装点屋脊",
+      "caption": "先看小兽的两种意义",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
@@ -1393,29 +1459,44 @@
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-22bd2eb46bd07596",
-      "title": "学习示意：给固定处戴上一顶小兽帽",
-      "localPath": "reference-assets/focused-quests/study-22bd2eb46bd07596.svg",
+      "id": "study-bf1e6784c8e85179",
+      "title": "学习示意：揭开小兽，看看下面",
+      "localPath": "reference-assets/focused-quests/study-bf1e6784c8e85179.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "给固定处戴上一顶小兽帽",
+      "caption": "揭开小兽，看看下面",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-0d109dc642ca9165",
-      "title": "学习示意：同一座宫殿，也会发生变化",
-      "localPath": "reference-assets/focused-quests/study-0d109dc642ca9165.svg",
+      "id": "study-8837fd5f0713601b",
+      "title": "学习示意：做法变了，小兽为什么还在",
+      "localPath": "reference-assets/focused-quests/study-8837fd5f0713601b.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "同一座宫殿，也会发生变化",
+      "caption": "做法变了，小兽为什么还在",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "roof-beast-glazed-v1",
+      "title": "琉璃小兽学具 · 教学新画",
+      "localPath": "reference-assets/history-lab-art/roof-beast-glazed-v1.png",
+      "purpose": "teaching-prop",
+      "runtimePath": "/images/history-labs/roof-beast-glazed-v1.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/history-lab-art/ATTRIBUTION.md",
+      "license": "项目自制教学新画；参考照片按CC BY-SA 3.0署名，衍生图遵循参考许可的适用条件",
+      "clearance": "cleared-project-created",
+      "caption": "琉璃小兽学具 · 教学新画",
+      "boundary": "教学新画，用于功能学习模型；不是文物照片或古代内部结构复原。位置、覆盖与光路由代码学具表达，不以生成画面推断结构。",
       "childVisibility": "child-ok"
     },
     {

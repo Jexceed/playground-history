@@ -1,9 +1,16 @@
 export type HistoryLabKind = 'polities'|'printing'|'compass'|'roof'|'engine'|'bridge-water'|'weaving'|'lamp';
-export const LAB_STAGE_COUNTS:Record<HistoryLabKind,number>={polities:1,printing:3,compass:2,roof:1,engine:2,'bridge-water':2,weaving:3,lamp:2};
+export const LAB_STAGE_COUNTS:Record<HistoryLabKind,number>={polities:1,printing:3,compass:2,roof:2,engine:2,'bridge-water':2,weaving:3,lamp:2};
 export const POLITY_WINDOWS=[{year:1111,names:['辽','北宋','西夏']},{year:1160,names:['金','南宋','西夏']}] as const;
 export function labSnapshot(kind:HistoryLabKind,stage:number){
  if(!Object.hasOwn(LAB_STAGE_COUNTS,kind)||!Number.isInteger(stage)||stage<0||stage>LAB_STAGE_COUNTS[kind])throw new RangeError('Invalid history lab stage');
- return {complete:stage===LAB_STAGE_COUNTS[kind],window:POLITY_WINDOWS[stage>0?1:0],blocks:stage===0?['日','日','山']:stage===1?['日','','山']:['日','月','山'],printed:kind==='printing'&&stage===3,boatAngle:stage*90,needleAngle:180,roof:{fixtureX:270,roofY:215,capX:stage?270:435,capY:stage?145:62,capHeight:70},engine:engineLinkage(stage*180)};
+ return {complete:stage===LAB_STAGE_COUNTS[kind],window:POLITY_WINDOWS[stage>0?1:0],blocks:stage===0?['日','日','山']:stage===1?['日','','山']:['日','月','山'],printed:kind==='printing'&&stage===3,boatAngle:stage*90,needleAngle:180,roof:{fixtureX:270,roofY:215,...roofCapPosition(kind==='roof'?stage:0),capHeight:70},engine:engineLinkage(stage*180)};
+}
+
+export function roofCapPosition(phase:number){
+ if(!Number.isFinite(phase)||phase<0||phase>2)throw new RangeError('Invalid roof phase');
+ const amount=phase<=1?phase:2-phase;
+ const smooth=(v:number)=>v*v*(3-2*v);
+ return {capX:270+160*smooth(Math.max(0,(amount-.5)*2)),capY:145-45*smooth(Math.min(1,amount*2))};
 }
 
 // Diagram coordinates are shared by water, bridge openings and observation tests.

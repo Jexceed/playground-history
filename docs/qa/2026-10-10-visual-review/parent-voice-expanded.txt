@@ -1,0 +1,179 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 summary 学习记录与迁移 本机保存 1 个完成标记, Value: off
+					8 text 学习记录与迁移
+					9 text 本机保存
+					10 text 1
+					11 text  个完成标记
+				12 text 家长与编辑查看 · 当前为审核稿
+				13 heading 春秋至明清，44章历史故事, Value: 1
+					14 text 春秋至明清， 44 章历史故事
+				15 container
+					16 text 这里是春秋至明清的 44 个中国历史启蒙故事，覆盖部分治理、生活、技术、交往与艺术主题，并非完整通史课程。历史课程标准用于核对题材范围，不把初中的记忆与考试要求搬给学前儿童。其他内容保留源稿，尚不在试玩入口。
+				17 text 44
+				18 text 章内容
+				19 summary 查看内容制作统计, Value: off
+					20 text 查看内容制作统计
+				21 summary 这11站讲了什么，时间怎样衔接？, Value: off
+					22 text 这
+					23 text 11
+					24 text 站讲了什么，时间怎样衔接？
+				25 container (expanded) Secondary Actions: Collapse
+					26 summary 读音规则与编辑音色小样, Value: on
+						27 text 读音规则与编辑音色小样
+					28 container 名字读准确，年代也要读得懂
+						29 text 试玩声音已生成 · 长讲稿仍待正式定音
+						30 heading 名字读准确，年代也要读得懂, Value: 2
+							31 text 名字读准确，年代也要读得懂
+						32 container
+							33 text 90 项人名、地名和多音字已关联到 44 章；下面 7 条规则统一年代读法。当前五步玩法的本地声音可以直接试听，编辑长讲稿仍需在冻结后逐段校听。
+						34 container
+							35 text 1949年 读作 一九四九年 公元四位年份逐位读，避免读成数量。
+						36 container
+							37 text 2000年 读作 二〇〇〇年 年份中的0读líng；书面校音使用“〇”。
+						38 container
+							39 text 公元前221年 读作 公元前二百二十一年 公元前年份按完整数值读，不省略“公元前”。
+						40 container
+							41 text 约前256年 读作 约公元前二百五十六年 语音补出“公元”，并保留“约”表示年代并非精确日历点。
+						42 container
+							43 text 1931—1945年 读作 一九三一年到一九四五年 连接号读作“到”，起止两端都说清“年”。
+						44 container
+							45 text 1937年7月7日 读作 一九三七年七月七日 年份逐位读，月日按普通日期读。
+						46 container
+							47 text 19世纪 读作 十九世纪 世纪按数量读，不逐位读成“一九世纪”。
+					48 container 同一段文物讲解，两种声音
+						49 container
+							50 text 编辑长讲稿音色小样 · 仍待定音
+							51 heading 同一段文物讲解，两种声音, Value: 2
+								52 text 同一段文物讲解，两种声音
+							53 text 保留唐代长安的文物讲解小样，用于家长比较音色。本轮范围之外的小样已从页面隐藏。
+						54 container A · 温和讲述
+							55 text A
+							56 heading A · 温和讲述, Value: 3
+								57 text A · 温和讲述
+							58 text 语速更慢、音高略低，适合作为时间线和主要历史叙述。
+							59 text 文物解释
+							60 text 从文物看唐代长安
+							61 container Audio Controls
+								62 button Play
+								63 text Elapsed: 0 seconds
+								64 container
+									65 slider (settable, float) Value: 0, Details: 0 seconds
+										66 value indicator 0
+								67 text Duration: 0 seconds
+								68 button Mute
+								69 button AirPlay
+								70 button More…
+							71 summary 查看朗读文字, Value: off
+								72 text 查看朗读文字
+						73 container B · 故事伙伴
+							74 text B
+							75 heading B · 故事伙伴, Value: 3
+								76 text B · 故事伙伴
+							77 text 语气更活泼，但不使用夸张播音腔，适合作为角色引导和互动反馈。
+							78 text 文物解释
+							79 text 从文物看唐代长安
+							80 container Audio Controls
+								81 button Play
+								82 text Elapsed: 0 seconds
+								83 container
+									84 slider (settable, float) Value: 0, Details: 0 seconds
+										85 value indicator 0
+								86 text Duration: 0 seconds
+								87 button Mute
+								88 button AirPlay
+								89 button More…
+							90 summary 查看朗读文字, Value: off
+								91 text 查看朗读文字
+						92 container
+							93 text 当前 44 章可玩页面已经接入 2044 段预生成本地声音，故事、提问与反馈可以在对应步骤暂停和重听。上面的A/B文件保留作音色比较，不影响当前试玩发声。
+				94 text 按主题或关键词查找故事，再打开一章查看学习目标、故事台词和材料出处。 中国古代史
+				95 heading 故事目录, Value: 2
+					96 text 故事目录
+				97 text 搜索本板块
+				98 text field (settable) 搜索本板块, Placeholder: 输入人物、事件或问题
+				99 container 按学习主题找故事
+					100 toggle button 全部主题, Value: on
+					101 toggle button 知识与技术 · 9, Value: off
+					102 toggle button 治理和规则 · 8, Value: off
+					103 toggle button 材料与时间 · 6, Value: off
+					104 toggle button 交通和交往 · 6, Value: off
+					105 toggle button 生活与劳动 · 6, Value: off
+					106 toggle button 艺术和表达 · 9, Value: off
+				107 text 当前显示 44 章。可以按孩子的兴趣，挑一个故事慢慢玩。
+				108 container 中国古代史时期
+					109 text 春秋战国 前770—前221年 秦朝 前221—前207年 汉朝 前202—公元220年 三国两晋南北朝 220—589年 隋朝 581—618年 唐朝 618—907年 五代十国 907—960年（北方五代；部分十国延续至北宋） 宋朝（与辽·西夏·金并立） 916—1279年（宋960年起） 元朝 1271—1368年 明朝 1368—1644年 清朝 1644年入关后—1840年前（本站范围）
+				110 container 跟孔子学会学与习
+					111 text 春秋战国 故事 1  ·  前770—前221年 审核中 编辑题目 ·  孔子说：学了还要常常练习
+					112 heading 跟孔子学会学与习, Value: 3
+						113 text 跟孔子学会学与习
+					114 text 孔子说，学过还要温习和练习。小伙伴刚学了一个动作，怎样把学到的真正用起来？
+					115 text 🔎  明刊《论语注疏》 📍  鲁国曲阜一带与今天的阅读室 🎨  孔子与《论语》
+					116 container
+						117 text 🎨 文化 ： 人们共同创造和传下来的语言、知识、艺术与习惯。
+					118 text 认识孔子与《论语》，把学、温习和实践连起来。
+					119 text 5 步主线 3 项读音校听 8 条背景事实卡
+					120 button 查看本章内容 →
+				121 container 秦统一度量衡
+					122 text 秦朝 故事 2  ·  前221—前207年 审核中 编辑题目 ·  秦朝为什么要用同一把尺
+					123 heading 秦统一度量衡, Value: 3
+						124 text 秦统一度量衡
+					125 text 工坊里的两把尺，怎么一把长、一把短？
+					126 text 🔎  带着诏书的铁权 📍  秦朝各地；教学工坊 🎨  秦代度量衡诏文
+					127 container
+						128 text 📏 度量衡 ： 量长短、量容量、称轻重所用的办法和标准。
+					129 text 共同标准让不同地方量得一致。
+					130 text 5 步主线 3 项读音校听 7 条背景事实卡
+					131 button 查看本章内容 →
+				132 container 长城为什么要修？
+					133 text 秦朝 故事 3  ·  前221—前207年 审核中 编辑题目 ·  秦长城不是从空地里突然长出来的
+					134 heading 长城为什么要修？, Value: 3
+						135 text 长城为什么要修？
+					136 text 长长的城墙能抵御外来进攻。小伙伴还想知道：有了墙，为什么还要有人守？
+					137 text 🔎  金山岭 · 明代长城 📍  秦朝北方边地；后世长城与汉代关口对照 🎨  二年级课文《神州谣》
+					138 container
+						139 text 🕯️ 战争 ： 不同国家或力量使用武力的大规模冲突。
+					140 text 城墙帮助抵御进攻，守卫、关口与消息也要配合。
+					141 text 5 步主线 4 项读音校听 7 条背景事实卡
+					142 button 查看本章内容 →
+				143 container 兵马俑留下了哪些线索？
+					144 text 秦朝 故事 4  ·  前221—前207年 待确认 编辑题目 ·  兵马俑留下了哪些线索？
+					145 heading 兵马俑留下了哪些线索？, Value: 3
+						146 text 兵马俑留下了哪些线索？
+					147 text 秦始皇陵旁有陶做的人和马。小伙伴发现它们的姿势不一样，哪些细节能让我们认识秦代的工匠和军队？
+					148 text 🔎  秦代跪射俑 · 文物照片 📍  秦始皇陵与今天的博物馆 🎨  秦代工匠与兵马俑
+					149 container
+						150 text 🏺 文物 ： 从过去保存下来、能帮助认识历史的东西。
+					151 text 从陶塑的姿态与服饰理解陪葬用途和历史证据。
+					152 text 5 步主线 1 项读音校听 5 条背景事实卡
+					153 button 查看本章内容 →
+				154 container 汉武帝为什么统一铸钱？
+					155 text 汉朝 故事 5  ·  前202—公元220年 审核中 编辑题目 ·  汉朝怎样从恢复走向强盛
+					156 heading 汉武帝为什么统一铸钱？, Value: 3
+						157 text 汉武帝为什么统一铸钱？
+					158 text 钱有的轻、有的重，怎么办？跟着小伙伴，去找汉武帝统一铸钱的办法。
+					159 text 🔎  五铢钱 · 西汉 📍  西汉中央铸钱机构与教学工坊 🎨  《汉书》铸钱记录
+					160 container
+						161 text 🪙 钱范 ： 铸钱时帮助定出钱币形状的模具。
+					162 text 汉武帝把铸钱权交给朝廷，形状与轻重都有规格。
+					163 text 5 步主线 4 项读音校听 8 条背景事实卡
+					164 button 查看本章内容 →
+				165 container 张骞出使，带回了什么？
+					166 text 汉朝 故事 6  ·  前202—公元220年 审核中 编辑题目 ·  张骞之后的丝绸之路
+					167 heading 张骞出使，带回了什么？, Value: 3
+						168 text 张骞出使，带回了什么？
+					169 text 远行不只要带水粮。张骞带回的见闻，怎样让汉朝与西域更了解彼此？
+					170 text 🔎  玉门关 · 后来的汉代关口 📍  汉代西域往来；后来河西驿站与玉门关 🎨  张骞出使记载与后来丝路联系
+					171 container
+						172 text 👣 见闻 ： 亲眼看见、亲耳听到或了解的事情。
+					173 text 张骞的出使使命与带回的见闻不是同一结果。
+					174 text 5 步主线 6 项读音校听 9 条背景事实卡
+					175 button 查看本章内容 →
+				176 container 蔡伦怎样让纸更好用？
+					177 text 汉朝

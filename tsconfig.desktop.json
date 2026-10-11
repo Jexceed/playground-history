@@ -1,0 +1,5 @@
+{
+  "extends":"./tsconfig.app.json",
+  "compilerOptions":{"incremental":false},
+  "include":["app/**/*.ts","app/**/*.tsx","desktop/**/*.ts","desktop/**/*.tsx","vite.desktop.config.ts"]
+}

@@ -1,0 +1,47 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 跟孔子学会学与习
+					9 content list
+						10 button 第1步：先去孔子生活的时代，已完成, Help: 先去孔子生活的时代
+						11 button 第2步：听一句留下来的古话，已完成, Help: 听一句留下来的古话
+						12 button 第3步：把听过的动作做出来，已完成, Help: 把听过的动作做出来
+						13 button 第4步：隔一会儿，再想再试，已完成, Help: 隔一会儿，再想再试
+						14 button 第5步：书里的话来到今天，已完成, Help: 书里的话来到今天
+				15 button 暂停声音
+				16 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				17 text 小小旅行团 · 带着发现回家
+				18 heading 学过，再试一次！, Value: 1
+					19 text 学过，再试一次！
+				20 image 三位小伙伴回看跟孔子学会学与习的线索，现代教学插画
+				21 text 学过，还要温习和练习。
+				22 button 听听这次发现
+				23 container 本章结束后的选择
+					24 button 返回时间河
+					25 button 再玩本章
+				26 summary 和家人再试一次 ＋, Value: off
+					27 text 和家人再试一次
+					28 text ＋
+				29 summary 👪 家长怎么接话？, Value: off
+					30 text 👪 家长怎么接话？
+				31 button 👪 家长入口 · 44章材料与说明
+		32 scroll bar (settable, float) 0
+	33 close button
+	34 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	35 minimize button
+	36 text 小小历史旅行团
+37 menu bar
+	38 小小历史旅行团
+	39 File
+	40 Edit
+	41 View
+	42 Window
+	43 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

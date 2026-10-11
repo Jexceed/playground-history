@@ -2,10 +2,11 @@
 
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import Image from "next/image";
-import { ObjectWorkbench, WorkbenchCover, WorkbenchFamily, stepVoiceIds, type WorkbenchPresentation, type WorkbenchInteraction, type ObjectView, type StoryScene } from "./ObjectWorkbench";
+import { ObjectWorkbench, WorkbenchCover, WorkbenchFamily, SoundIcon, stepVoiceIds, type WorkbenchPresentation, type WorkbenchInteraction, type ObjectView, type StoryScene } from "./ObjectWorkbench";
 import "./workbench.css";
 import { ContentOverview } from "./ContentOverview";
 import { FinishNavigation } from "./FinishNavigation";
+import { QuestNavigation, ReturnToRiverButton } from "./QuestNavigation";
 import { canContinueStep } from "./step-flow";
 import { PhotoCrop } from "./PhotoCrop";
 import { PhotoAlbumButton } from "./PhotoAlbumButton";
@@ -13,12 +14,15 @@ import { focusAlbumPhoto, type FocusedImage, type PhotoAlbum, type PhotoCropRect
 import "./photo-album.css";
 import "./home-navigation.css";
 import { playVoiceSequence, stopVoice, pauseVoice, resumeVoice, subscribeVoice, getVoiceSnapshot, getServerVoiceSnapshot } from "./speech";
-import { emptyProgress, parseProgress, listenOptions, PROGRESS_STORAGE_KEY, LEGACY_COMPLETED_KEY, type LocalProgress } from "./quest-progress";
+import { emptyProgress, parseProgress, mergeProgressImport, completedQuestSteps, recordCompletedStep, nextUnfinishedStep, listenOptions, PROGRESS_STORAGE_KEY, LEGACY_COMPLETED_KEY, type LocalProgress } from "./quest-progress";
 import { useModal } from "./use-modal";
+import {ProgressTransfer} from "./ProgressTransfer";
 import contentManifestJson from "../content/runtime/preview-manifest.json";
 import playRoutes from "../content/play-routes.json";
 
 import progressIndex from "../content/runtime/progress-index.json";
+
+const RESUME_HIDDEN_STORAGE_KEY = "little-history-resume-hidden-v1";
 
 type ChildEntry = {
   childTitle: string;
@@ -270,7 +274,7 @@ function PauseButton() {
 }
 
 function PanelAudioTools({voiceId,listen}:{voiceId:string;listen:(id:string)=>void}) {
-  return <div className="panel-audio-tools"><PauseButton/><button className="panel-repeat" onClick={()=>listen(voiceId)} aria-label="重听说明" title="重听说明">🔊</button></div>;
+  return <div className="panel-audio-tools"><PauseButton/><button className="panel-repeat" onClick={()=>listen(voiceId)} aria-label="重听说明" title="重听说明"><SoundIcon/></button></div>;
 }
 
 function QuestQuestion({ step, seed, speak, listen, onSolved }: {
@@ -330,9 +334,13 @@ export default function Home() {
   const [questStarted, setQuestStarted] = useState(false);
   const [questStep, setQuestStep] = useState(0);
   const [questSolved, setQuestSolved] = useState(false);
+  const [questCompletedStepIds, setQuestCompletedStepIds] = useState<string[]>([]);
+  const activeStepRef = useRef<string | null>(null);
   const workbenchNarrationRef = useRef<{key:string;ids:string[]}|null>(null);
   const [progress, setProgress] = useState<LocalProgress>(emptyProgress);
+  const [resumeHidden, setResumeHidden] = useState(false);
   const progressRef = useRef(progress);
+  const departureButtonRef = useRef<HTMLButtonElement>(null);
   const completedChapterIds = new Set(progress.completed);
   const [completedExtensionIds, setCompletedExtensionIds] = useState<Set<string>>(new Set());
   const [focusedImage, setFocusedImage] = useState<FocusedImage | null>(null);
@@ -348,7 +356,8 @@ export default function Home() {
         const loaded = parseProgress(window.localStorage.getItem(PROGRESS_STORAGE_KEY), window.localStorage.getItem(LEGACY_COMPLETED_KEY), allProgressChapters, contentManifest.contentVersion);
         progressRef.current = loaded;
         setProgress(loaded);
-      } catch { setStorageNotice("浏览器暂时不能保存，仍可以继续试玩。"); }
+        setResumeHidden(window.localStorage.getItem(RESUME_HIDDEN_STORAGE_KEY) === "true");
+      } catch { setStorageNotice("这台设备暂时不能保存，仍可以继续试玩。"); }
     });
     return () => { window.cancelAnimationFrame(frame); stopVoice(); };
   }, []);
@@ -357,19 +366,35 @@ export default function Home() {
     progressRef.current = next;
     setProgress(next);
     try { window.localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(next)); setStorageNotice(""); }
-    catch { setStorageNotice("这次还能继续玩，但浏览器没有保存进度。"); }
+    catch { setStorageNotice("这次还能继续玩，但这台设备没有保存进度。"); }
   };
-  const saveCurrent = (chapter: ManifestChapter, step: number) => saveProgress({
-    ...progressRef.current,
-    current: { chapterId: chapter.id, stepId: chapter.gameplay.steps[step].id, contentVersion: contentManifest.contentVersion },
-  });
+  const setResumeVisibility = (hidden: boolean) => {
+    setResumeHidden(hidden);
+    try {
+      if (hidden) window.localStorage.setItem(RESUME_HIDDEN_STORAGE_KEY, "true");
+      else window.localStorage.removeItem(RESUME_HIDDEN_STORAGE_KEY);
+    } catch { setStorageNotice("这台设备未能保存入口设置，学习记录仍保留。"); }
+  };
+  const dismissResume = () => {
+    setResumeVisibility(true);
+    departureButtonRef.current?.focus({ preventScroll: true });
+  };
+  const saveCurrent = (chapter: ManifestChapter, step: number, completedStepIds = questCompletedStepIds) => {
+    saveProgress({
+      ...progressRef.current,
+      current: { chapterId: chapter.id, stepId: chapter.gameplay.steps[step].id, contentVersion: contentManifest.contentVersion, completedStepIds },
+    });
+    setResumeVisibility(false);
+  };
   const clearProgress = () => {
     try {
       window.localStorage.removeItem(PROGRESS_STORAGE_KEY);
       window.localStorage.removeItem(LEGACY_COMPLETED_KEY);
+      window.localStorage.removeItem(RESUME_HIDDEN_STORAGE_KEY);
+      setResumeHidden(false);
       progressRef.current = emptyProgress(); setProgress(progressRef.current);
       setConfirmClear(false); setStorageNotice("本机记录已清空。");
-    } catch { setStorageNotice("浏览器未能清空记录，请稍后再试。"); }
+    } catch { setStorageNotice("这台设备未能清空记录，请稍后再试。"); }
   };
   const speakSequence = (ids: string[], force = false) => {
     if (!voiceOn && !force) return Promise.resolve("muted");
@@ -385,8 +410,8 @@ export default function Home() {
   const imageDialogRef = useModal(Boolean(focusedImage), closeImage);
   const stationDialogRef = useModal(Boolean(panel)||stationPickerOpen, closePanel);
   const focusStationDialog = () => window.requestAnimationFrame(() => {
-    stationDialogRef.current?.scrollTo({top:0});
-    stationDialogRef.current?.querySelector<HTMLButtonElement>('.panel-close')?.focus({preventScroll:true});
+    stationDialogRef.current?.querySelector<HTMLElement>('.station-panel-body')?.scrollTo({top:0});
+    stationDialogRef.current?.querySelector<HTMLButtonElement>('[data-panel-return]')?.focus({preventScroll:true});
   });
   const openStationPicker = (mode:'periods'|'topics'='periods') => {
     haltVoice(); setPanel(null); setStationPickerOpen(true);
@@ -398,10 +423,12 @@ export default function Home() {
     void speakSequence([route.voiceId]);focusStationDialog();
   };
   const goHome = () => {
+    activeStepRef.current = null;
     haltVoice(); setFocusedImage(null); setQuestChapter(null); setPanel(null); setStationPickerOpen(false); setScreen("river");
     window.scrollTo({ top: 0 });
   };
   const openOverview = () => {
+    activeStepRef.current = null;
     haltVoice(); setFocusedImage(null); setQuestChapter(null); setPanel(null); setStationPickerOpen(false); setScreen("overview");
     setConfirmClear(false); window.scrollTo({ top: 0 });
   };
@@ -422,23 +449,31 @@ export default function Home() {
   };
 
   const openQuest = (chapter: ManifestChapter, restart = false) => {
+    activeStepRef.current = null;
     workbenchNarrationRef.current=null;
     haltVoice(); setFocusedImage(null); setPanel(null); setStationPickerOpen(false); setQuestChapter(chapter);
     setQuestStarted(false); setQuestStep(0); setQuestSolved(false); setFinishRevealed(false);
     setCompletedExtensionIds(new Set());
-    const saved = !restart && progressRef.current.current?.chapterId === chapter.id ? progressRef.current.current.stepId : null;
-    setSavedCoverStep(saved); setScreen("quest"); window.scrollTo({ top: 0 });
-    void speakSequence([chapter.gameplay.coverAudio.id, saved ? "resume-hint" : null].filter((id): id is string => Boolean(id)));
+    const saved = !restart && progressRef.current.current?.chapterId === chapter.id ? progressRef.current.current : null;
+    setQuestCompletedStepIds(completedQuestSteps(saved, chapter.gameplay.steps));
+    setSavedCoverStep(saved?.stepId ?? null); setScreen("quest"); window.scrollTo({ top: 0 });
+    void speakSequence([chapter.gameplay.coverAudio.id]);
   };
-  const startQuest = (resume = true) => {
-    if (!questChapter) return;
+  const moveToQuestStep = (index: number, completedStepIds = questCompletedStepIds) => {
+    const step = questChapter?.gameplay.steps[index];
+    if (!questChapter || !step) return;
+    haltVoice(); setFocusedImage(null);
     workbenchNarrationRef.current=null;
-    const savedIndex = resume && savedCoverStep ? questChapter.gameplay.steps.findIndex((step) => step.id === savedCoverStep) : 0;
-    const index = Math.max(0, savedIndex);
+    activeStepRef.current = `${questChapter.id}:${step.id}`;
     setQuestStarted(true); setQuestStep(index); setQuestSolved(false); setFinishRevealed(false);
-    saveCurrent(questChapter, index); window.scrollTo({ top: 0 });
-    const step = questChapter.gameplay.steps[index];
+    setQuestCompletedStepIds(completedStepIds);
+    saveCurrent(questChapter, index, completedStepIds); window.scrollTo({ top: 0 });
     void speakSequence([...stepVoiceIds(step), ...(!step.audio.lead && index === 0 ? ["choice-help"] : [])]);
+  };
+  const startQuest = () => {
+    if (!questChapter) return;
+    const savedIndex = savedCoverStep ? questChapter.gameplay.steps.findIndex(step => step.id === savedCoverStep) : 0;
+    moveToQuestStep(Math.max(0, savedIndex));
   };
   const completeQuest = (chapterId: string) => saveProgress({
     schemaVersion: 2, completed: [...new Set([...progressRef.current.completed, chapterId])], current: null,
@@ -467,14 +502,24 @@ export default function Home() {
 
   const activeQuestStep = questChapter?.gameplay.steps[questStep] ?? null;
   const isLastQuestStep = Boolean(questChapter && questStep === questChapter.gameplay.steps.length - 1);
+  const markQuestStepSolved = () => {
+    if (!questChapter || !activeQuestStep || activeStepRef.current !== `${questChapter.id}:${activeQuestStep.id}`) return;
+    const completed = recordCompletedStep(questChapter.gameplay.steps, questCompletedStepIds, activeQuestStep.id);
+    setQuestSolved(true); setQuestCompletedStepIds(completed);
+    saveCurrent(questChapter, questStep, completed);
+  };
+  const completedAfterContinue = questChapter && activeQuestStep ? recordCompletedStep(questChapter.gameplay.steps, questCompletedStepIds, activeQuestStep.id) : questCompletedStepIds;
+  const nextStepIndex = questChapter ? nextUnfinishedStep(questChapter.gameplay.steps, completedAfterContinue, questStep) : -1;
+  const nextStepLabel = nextStepIndex === -1 ? "看看这次发现" : nextStepIndex !== questStep + 1 ? `去第${nextStepIndex + 1}步` : undefined;
   const nextQuestStep = () => {
-    if (!questChapter || !canContinueStep(activeQuestStep, questSolved)) return;
+    if (!questChapter || !activeQuestStep || !canContinueStep(activeQuestStep, questSolved)) return;
+    if (nextStepIndex >= 0) { moveToQuestStep(nextStepIndex, completedAfterContinue); return; }
+    haltVoice();
+    activeStepRef.current = null;
     workbenchNarrationRef.current=null;
-    setQuestSolved(false);
-    if (isLastQuestStep) completeQuest(questChapter.id);
-    const ids = isLastQuestStep ? [questChapter.gameplay.finish.introAudio.id] : stepVoiceIds(questChapter.gameplay.steps[questStep+1]);
-    if (!isLastQuestStep) saveCurrent(questChapter,questStep+1);
-    setQuestStep(value=>value+1);window.scrollTo({top:0});void speakSequence(ids);
+    setQuestSolved(false); setQuestCompletedStepIds(completedAfterContinue);
+    completeQuest(questChapter.id);
+    setQuestStep(questChapter.gameplay.steps.length);window.scrollTo({top:0});void speakSequence([questChapter.gameplay.finish.introAudio.id]);
   };
   const taskStepActive = screen === "quest" && questStarted && Boolean(activeQuestStep);
   const resumeChapter = progress.current ? chaptersById.get(progress.current.chapterId) : null;
@@ -482,24 +527,22 @@ export default function Home() {
   return (
     <main className={`history-app ${screen === "river" ? "river-restored" : "focused-preview"} ${questChapter?.gameplay.presentation ? "workbench-active" : ""} ${taskStepActive ? "task-step-active" : ""} ${focusedImage ? "image-focus-active" : ""}`} data-playing-voice-id={voice.id??undefined}>
       <header className="app-header">
-        <button className="brand" onClick={goHome} aria-label="回到小小历史旅行团首页">
-          <span aria-hidden="true">🏠</span>
-          <div><strong>小小历史旅行团</strong><small>适合4—6岁 · 亲子共学</small></div>
-        </button>
-
-        {screen === "river" && resumeChapter && <button className="header-resume" onClick={() => openQuest(resumeChapter)} aria-label={`继续上次任务：${resumeChapter.childEntry.childTitle}`} title={`地图帮你记着呢 · ${resumeChapter.childEntry.childTitle}`}>
-          <span className="header-resume-icon" aria-hidden="true">▶</span><span className="header-resume-copy"><b>继续</b><span>{resumeChapter.childEntry.childTitle}</span></span>
-        </button>}
-
-        {screen === "quest" && questChapter && questStarted && questStep < questChapter.gameplay.steps.length && (
-          <div className="chapter-nav quest-nav">
-            <div className="quest-title-mini"><span>🔎</span><strong>{questChapter.childEntry.childTitle}</strong></div>
-            <div className="chapter-progress" aria-label={`任务进度 ${questStep + 1}/5`}>
-              {questChapter.gameplay.steps.map((item, index) => <i key={item.id} className={index <= questStep ? "done" : ""} />)}
-              <span>第{questStep + 1}步</span>
-            </div>
+        <div className="header-identity">
+          <div className="brand">
+            <Image className="brand-symbol" src="/images/brand/history-trip-logo.png?v=3" alt="" width={40} height={40} unoptimized/>
+            <div><strong>小小历史旅行团</strong><small>适合4—6岁 · 亲子共学</small></div>
           </div>
-        )}
+          {screen !== "river" && <ReturnToRiverButton onClick={goHome} />}
+        </div>
+
+        {screen === "river" && resumeChapter && !resumeHidden && <div className="header-resume">
+          <button className="header-resume-open" onClick={() => openQuest(resumeChapter)} aria-label={`继续上次任务：${resumeChapter.childEntry.childTitle}`} title={`地图帮你记着呢 · ${resumeChapter.childEntry.childTitle}`}>
+            <span className="header-resume-icon" aria-hidden="true">▶</span><span className="header-resume-copy"><b>继续</b><span>{resumeChapter.childEntry.childTitle}</span></span>
+          </button>
+          <button className="header-resume-dismiss" onClick={dismissResume} aria-label="隐藏继续学习入口" title="隐藏入口，保留学习记录"><span aria-hidden="true">×</span></button>
+        </div>}
+
+        {screen === "quest" && questChapter && questStarted && <QuestNavigation title={questChapter.childEntry.childTitle} steps={questChapter.gameplay.steps} activeIndex={questStep} completedStepIds={questCompletedStepIds} onSelect={index=>{if(index!==questStep)moveToQuestStep(index);}} />}
 
         {screen !== "overview" && (
           <div className="voice-controls"><PauseButton /><button
@@ -509,7 +552,7 @@ export default function Home() {
             aria-label={voiceOn ? "声音已开启，点按静音" : "声音已静音，点按开启声音"}
             title={voiceOn ? "静音" : "打开声音"}
           >
-            <span aria-hidden="true">{voiceOn ? "🔊" : "🔇"}</span>
+            <span aria-hidden="true"><SoundIcon muted={!voiceOn}/></span>
             {!voiceOn && <em>已静音</em>}
           </button></div>
         )}
@@ -518,12 +561,16 @@ export default function Home() {
       {voiceNotice && screen !== "overview" && <p className="voice-notice" role="status">{voiceNotice}</p>}
 
       {screen === "overview" && <>
-        <section className="local-progress-controls" aria-label="本机学习记录">
+        <details className="local-progress-controls">
+          <summary><span>学习记录与迁移</span><small>本机保存 {progress.completed.length} 个完成标记</small><span className="disclosure-chevron" aria-hidden="true">⌄</span></summary>
+          <div className="local-progress-body">
           <div><strong>本机学习记录</strong><p className="overview-home-context">历史主轴依据：中国义务教育历史课程标准、中国国家博物馆“古代中国”基本陈列。首页旅行图为故事插画。</p><p>本轮已走完 {progress.completed.filter(id=>chaptersById.has(id)).length} 个任务，本机共保存 {progress.completed.length} 个完成标记。完成标记记录玩法进度，不代表已经理解。{resumeChapter ? `正在探索：${resumeChapter.childEntry.childTitle}` : "可以从任意历史站出发。"}</p></div>
-          {confirmClear ? <div><p>清空这台浏览器中的完成标记和进行中故事？</p><button onClick={clearProgress}>确认清空</button><button onClick={() => setConfirmClear(false)}>保留记录</button></div> : <button onClick={() => setConfirmClear(true)}>清空本机记录</button>}
+          {confirmClear ? <div><p>清空这台设备中的完成标记和进行中故事？</p><button onClick={clearProgress}>确认清空</button><button onClick={() => setConfirmClear(false)}>保留记录</button></div> : <button onClick={() => setConfirmClear(true)}>清空本机记录</button>}
           {storageNotice && <p role="status">{storageNotice}</p>}
-        </section>
-        <ContentOverview onBack={goHome} />
+          <ProgressTransfer progress={progress} contentVersion={contentManifest.contentVersion} onImport={raw=>{saveProgress(mergeProgressImport(raw,progressRef.current,allProgressChapters,contentManifest.contentVersion));setResumeVisibility(false);}}/>
+          </div>
+        </details>
+        <ContentOverview />
       </>}
 
       {screen === "river" && (
@@ -540,8 +587,8 @@ export default function Home() {
                 <span><Image unoptimized src="/images/history-clue-ship-v2.webp" alt="" width={440} height={650} /><small>泉州大船</small></span>
               </div>
               <div className="hero-actions">
-                <button className="primary-action" onClick={()=>openStationPicker()} aria-haspopup="dialog"><span>🧭</span> 拿上地图，出发！</button>
-                <button className="audio-action" onClick={() => listen("river-intro")} aria-label="听出发口令"><span aria-hidden="true">🔊</span><span className="audio-action-label">听出发口令</span></button>
+                <button ref={departureButtonRef} className="primary-action" onClick={()=>openStationPicker()} aria-haspopup="dialog"><span>🧭</span> 拿上地图，出发！</button>
+                <button className="audio-action" onClick={() => listen("river-intro")} aria-label="听出发口令"><SoundIcon/><span className="audio-action-label">听出发口令</span></button>
               </div>
             </div>
             <figure className="hero-zine">
@@ -566,13 +613,14 @@ export default function Home() {
 
       {(panel || stationPickerOpen) && (
         <div className="station-panel-backdrop" onClick={closePanel}>
-          <section ref={stationDialogRef} className={`station-panel pop-in ${stationPickerOpen?'station-picker':''}`} role="dialog" aria-modal="true" aria-label={stationPickerOpen?(pickerMode==='topics'?'旅行主题 · 选择故事':'时间地图 · 选择历史站'):panel?.title} data-route-id={panel?.routeId} onClick={(event) => event.stopPropagation()}>
+          <section ref={stationDialogRef} className={`station-panel pop-in ${stationPickerOpen?'station-picker':''}`} role="dialog" aria-modal="true" aria-label={stationPickerOpen?(pickerMode==='topics'?'旅行主题 · 选择故事':'时间地图 · 选择历史站'):panel?.title} data-route-id={panel?.routeId} data-task-count={panel?.chapters.length} onClick={(event) => event.stopPropagation()}>
             {stationPickerOpen ? <>
-              <header className="panel-head picker-head">
+              <header className="panel-head dialog-header picker-head">
                 <div><small>小小旅行团 · 时间地图</small><h2>{pickerMode==='topics'?'这次想探索什么？':'你想先去哪一站？'}</h2><p>{pickerMode==='topics'?'选一个主题，再挑一个故事出发。':'沿着时间河，挑一个想探索的故事。'}</p></div>
                 <PanelAudioTools voiceId={pickerMode==='topics'?'route-picker-intro':'river-intro'} listen={listen}/>
-                <button className="panel-close" onClick={closePanel} aria-label="关闭时间地图">✕</button>
+                <ReturnToRiverButton className="panel-nav-button" panelReturn onClick={closePanel}/>
               </header>
+              <div className="station-panel-body">
               <div className="picker-mode" role="group" aria-label="选择出发方式"><button aria-pressed={pickerMode==='periods'} onClick={()=>{setPickerMode('periods');void speakSequence(['river-intro']);}}>按朝代走</button><button aria-pressed={pickerMode==='topics'} onClick={()=>{setPickerMode('topics');void speakSequence(['route-picker-intro']);}}>挑个主题</button></div>
               {pickerMode==='topics'?<div className="topic-picker-grid">{playRoutes.routes.map(route=><button key={route.id} data-route-id={route.id} onClick={()=>openRoute(route)}><Image src={route.iconSrc} alt="" width={80} height={80} unoptimized/><strong>{route.title}</strong><span>{route.line}</span><small>{route.chapterIds.filter(id=>chaptersById.has(id)).length}个故事 →</small></button>)}</div>:<ol className="station-picker-grid" aria-label="中国古代全部历史站">
                 {stations.map((station,index)=><li key={station.id}><button data-period-id={station.periodId} onClick={()=>openStation(station,index)} aria-label={`去${station.title}，${chaptersByPeriod.get(station.periodId)?.length??0}个故事`}>
@@ -581,19 +629,23 @@ export default function Home() {
                   <strong>{station.title}</strong><small>{station.years.split(" · ").map((token,i,all)=><span className="year-token" key={token}>{token}{i<all.length-1?' · ':''}</span>)}</small><span className="picker-count">{chaptersByPeriod.get(station.periodId)?.length??0}个故事 <span aria-hidden="true">→</span></span>
                 </button></li>)}
               </ol>}
+              </div>
             </> : panel && <>
-            <header className="panel-head">
+            <header className="panel-head dialog-header">
               <span className="panel-emoji" aria-hidden="true"><Image unoptimized src={panel.iconSrc} alt="" fill sizes="96px" /></span>
               <div>
                 <small>{panel.kicker}</small>
                 <h2>{panel.title}</h2>
                 <p><span className="panel-years">{panel.years.split(" · ").map((token, i, arr) => <span key={token} className="year-token">{token}{i < arr.length - 1 ? " · " : ""}</span>)}</span><span className="panel-line">{panel.line}</span></p>
               </div>
-              <button className="panel-all-stations" onClick={()=>openStationPicker(panel.routeId?'topics':'periods')}>{panel.routeId?'← 换个主题':'← 所有历史站'}</button>
-              <button className="panel-close" onClick={closePanel} aria-label="关闭">✕</button>
+              <nav className="panel-navigation" aria-label="历史站导航">
+                <button className="panel-nav-button" data-panel-return onClick={()=>openStationPicker(panel.routeId?'topics':'periods')}><span aria-hidden="true">←</span>{panel.routeId?'换个主题':'所有历史站'}</button>
+                <ReturnToRiverButton className="panel-nav-button" onClick={closePanel}/>
+              </nav>
             </header>
+            <div className="station-panel-body">
             {panel.welcome?<div className="trip-station-welcome"><p>{panel.welcome.text}</p><PanelAudioTools voiceId={panel.welcome.voiceId} listen={listen}/></div>:panel.chapters[0]?.gameplay.presentation?.story ? <div className="trip-station-welcome"><p>{panel.chapters[0].gameplay.presentation.story.stationLine}</p><PanelAudioTools voiceId={panel.chapters[0].gameplay.presentation.story.stationAudio.id} listen={listen}/></div> : <p className="panel-count">挑一个你想试的小任务。</p>}
-            <div className="panel-grid">
+            <div className="panel-grid" data-chapter-count={panel.chapters.length}>
               {panel.chapters.map((chapter) => {
                 const completed = completedChapterIds.has(chapter.id);
                 return (
@@ -603,19 +655,22 @@ export default function Home() {
                     className={`panel-card playable ${completed ? "completed" : ""}`}
                     onClick={() => openQuest(chapter)}
                   >
-                    <span className="panel-card-media">
+                    <span className="panel-card-visual"><span className="panel-card-media">
                       {chapter.gameplay.coverDisplay?.crop?<PhotoCrop src={chapter.gameplay.coverImage} alt={chapter.gameplay.coverImageAlt} crop={chapter.gameplay.coverDisplay.crop}/>:<Image src={chapter.gameplay.coverImage} alt={chapter.gameplay.coverImageAlt} style={{objectFit:chapter.gameplay.coverDisplay?.fit??'contain',objectPosition:chapter.gameplay.coverDisplay?.position}} width={600} height={300} unoptimized />}
                     </span>
                     <span className="panel-material-label">{chapter.gameplay.coverDisplay?.label??chapter.gameplay.coverImageKind}</span>
+                    </span>
+                    <span className="panel-card-copy">
                     <strong>{chapter.childEntry.childTitle}</strong>
                     <span className="panel-card-status">
                       {completed ? "✓ 已完成 · 再玩一次" : `▶ ${chapter.gameplay.cta}`}
+                    </span>
                     </span>
                   </button>
                 );
               })}
             </div>
-            <button className="panel-back" onClick={closePanel}>⬅ 回到时间河</button>
+            </div>
             </>}
           </section>
         </div>
@@ -623,25 +678,26 @@ export default function Home() {
 
       {screen === "quest" && questChapter && !questStarted && (
         <section className={`quest-cover focus-cover pop-in ${questChapter.gameplay.presentation?.story?"trip-cover":""}`} data-voice-id={questChapter.gameplay.coverAudio.id}>
+          <p className="quest-context-line quest-time-location">{questChapter.periodLabel} · {questChapter.periodYears}</p>
           <div className="trip-cover-artwork">
             {questChapter.gameplay.presentation?.story ? <WorkbenchCover presentation={questChapter.gameplay.presentation}/> : <div className="quest-cover-photo"><Image src={questChapter.gameplay.coverImage} alt={questChapter.gameplay.coverImageAlt} width={900} height={430} loading="eager" unoptimized/><span className="real-badge">{questChapter.gameplay.coverImageKind}</span></div>}
             {questChapter.gameplay.photoAlbum&&<PhotoAlbumButton album={questChapter.gameplay.photoAlbum} onOpen={()=>openPhotoAlbum(questChapter.gameplay.photoAlbum!)}/>}
           </div>
           <div className="quest-cover-copy">
-            <button className="back-link" onClick={goHome}>⬅ 回到时间河</button>
-            <p className="quest-time-location">🕰️ {questChapter.periodLabel} · {questChapter.periodYears}</p>
-            <h1>{questChapter.gameplay.presentation?.title??questChapter.childEntry.childTitle}</h1>
-            <p className="focus-hook">{questChapter.gameplay.hook.question}</p>
+            <div className="quest-cover-story">
+              <h1>{questChapter.gameplay.presentation?.title??questChapter.childEntry.childTitle}</h1>
+              <button className="cover-story-replay" onClick={()=>listen(questChapter.gameplay.coverAudio.id)}><SoundIcon/>{questChapter.gameplay.presentation?.story?"再听出发故事":"听任务"}</button>
+              <p className="focus-hook">{questChapter.gameplay.hook.question}</p>
+            </div>
             {questChapter.gameplay.presentation&&!questChapter.gameplay.presentation.story&&<div className="workbench-cover-strip"><Image src={questChapter.gameplay.presentation.sceneImage} alt={questChapter.gameplay.presentation.sceneAlt} width={600} height={240} unoptimized/><span>到工坊里亲手试试</span></div>}
-            <div className="quest-start-actions"><button className="next-button ready" onClick={()=>startQuest()}>{savedCoverStep?"接着玩":questChapter.gameplay.cta} →</button>{savedCoverStep&&<button className="restart-story" onClick={()=>startQuest(false)}>从头再试</button>}</div>
-            <button className="listen-button" onClick={()=>listen(questChapter.gameplay.coverAudio.id)}>{questChapter.gameplay.presentation?.story?"🔊 再听出发故事":"🔊 听任务"}</button>
+            <div className="quest-start-actions"><button className="next-button ready" onClick={startQuest}><span>出发</span><span aria-hidden="true">→</span></button></div>
           </div>
           <details className="focus-parent-note"><summary>👪 家长陪玩提示与材料说明</summary><p><strong>这次会遇见：</strong>{questChapter.gameplay.anchor}</p><p>{questChapter.gameplay.finish.parent}</p><p>{questChapter.gameplay.boundary}</p>{questChapter.textbookConnection&&<p><strong>可以延伸聊：</strong>{questChapter.textbookConnection.companions.map(c=>c.label).join("、")}</p>}{questChapter.gameplay.evidence.length>0&&<div className="focus-evidence-list">{questChapter.gameplay.evidence.map(e=><figure key={e.id}><Image src={e.image} alt={e.title} width={360} height={220} unoptimized/><figcaption>{e.title}</figcaption><p>{e.boundary}</p></figure>)}</div>}</details>
         </section>
       )}
 
       {screen === "quest" && questChapter?.gameplay.presentation && questStarted && activeQuestStep && (
-        <ObjectWorkbench key={`${questChapter.id}:${activeQuestStep.id}`} step={activeQuestStep} seed={`${questChapter.id}:${activeQuestStep.id}`} presentation={questChapter.gameplay.presentation} photoAlbum={questChapter.gameplay.photoAlbum} periodLabel={questChapter.periodLabel} solved={questSolved} isLast={isLastQuestStep} speak={speakSequence} listen={listenSequence} onSolved={()=>setQuestSolved(true)} onNext={nextQuestStep} onNarrationChange={ids=>{workbenchNarrationRef.current={key:`${questChapter.id}:${activeQuestStep.id}`,ids};}} onInspect={()=>{const evidence=activeQuestStep.inspection,album=questChapter.gameplay.photoAlbum;if(!evidence)return;if(evidence.openAlbum&&album){openPhotoAlbum(album,album.photos.findIndex(photo=>photo.assetId===evidence.id));return;}openImage({title:evidence.title,boundary:evidence.boundary,images:[{src:evidence.image,alt:evidence.title,caption:evidence.caption}],voice:evidence.audio,sourceLinks:evidence.sourceLinks})}}/>
+        <ObjectWorkbench key={`${questChapter.id}:${activeQuestStep.id}`} step={activeQuestStep} seed={`${questChapter.id}:${activeQuestStep.id}`} presentation={questChapter.gameplay.presentation} photoAlbum={questChapter.gameplay.photoAlbum} periodLabel={questChapter.periodLabel} solved={questSolved} isLast={isLastQuestStep} nextLabel={nextStepLabel} speak={speakSequence} listen={listenSequence} onSolved={markQuestStepSolved} onNext={nextQuestStep} onNarrationChange={ids=>{workbenchNarrationRef.current={key:`${questChapter.id}:${activeQuestStep.id}`,ids};}} onInspect={()=>{const evidence=activeQuestStep.inspection,album=questChapter.gameplay.photoAlbum;if(!evidence)return;if(evidence.openAlbum&&album){openPhotoAlbum(album,album.photos.findIndex(photo=>photo.assetId===evidence.id));return;}openImage({title:evidence.title,boundary:evidence.boundary,images:[{src:evidence.image,alt:evidence.title,caption:evidence.caption}],voice:evidence.audio,sourceLinks:evidence.sourceLinks})}}/>
       )}
 
       {screen === "quest" && questChapter && questStarted && activeQuestStep && !questChapter.gameplay.presentation && questStep < questChapter.gameplay.steps.length && (
@@ -664,7 +720,6 @@ export default function Home() {
               <span className="image-listen-hint">🔊 点图放大并听说明</span>
             </button>
             <div className="story-copy quest-story-copy">
-              <button className="back-link" onClick={goHome}>⬅ 回到时间河</button>
               <p className="quest-step-hook">{questChapter.periodLabel} · {activeQuestStep.title}</p>
               <div className="quest-step-heading">
                 <QuestStepBadge key={`heading-${activeQuestStep.id}`} stepId={activeQuestStep.id} labelled />
@@ -673,13 +728,13 @@ export default function Home() {
               <h2>{activeQuestStep.prompt}</h2>
               <div className="quest-read-card"><p>{activeQuestStep.story.displayText}</p></div>
               <button className="listen-button quest-listen" onClick={() => listenSequence([activeQuestStep.audio.transition.id, activeQuestStep.audio.intro.id, activeQuestStep.audio.question.id])}>🔊 重听这一页</button>
-              <QuestQuestion key={`${questChapter.id}-${activeQuestStep.id}`} step={activeQuestStep} seed={`${questChapter.id}:${activeQuestStep.id}`} speak={speakSequence} listen={listenSequence} onSolved={() => setQuestSolved(true)} />
+              <QuestQuestion key={`${questChapter.id}-${activeQuestStep.id}`} step={activeQuestStep} seed={`${questChapter.id}:${activeQuestStep.id}`} speak={speakSequence} listen={listenSequence} onSolved={markQuestStepSolved} />
               {questSolved && (
                 <button
                   className="next-button ready"
                   onClick={nextQuestStep}
                 >
-                  {isLastQuestStep ? "和家人试一试" : "接着看看"} <span>→</span>
+                  {nextStepLabel ?? "接着看看"} <span>→</span>
                 </button>
               )}
             </div>
@@ -693,7 +748,7 @@ export default function Home() {
           <p className="finish-instruction">不用背答案，和家人试这两个动作。</p>
           <div className="finish-action-cards">{questChapter.gameplay.finish.actions.map((action,index)=>{const step=questChapter.gameplay.steps[questChapter.gameplay.finish.sceneStepIndexes?.[index]??index+2];const done=completedExtensionIds.has(`finish-${index}`);return <article key={action}><Image src={step.studyImage} alt={step.studyImageAlt} width={900} height={430} unoptimized/><span className="finish-action-number">{index+1}</span><p>{action}</p><button className="listen-button" onClick={()=>listen(questChapter.gameplay.finish.actionAudio[index].id)}>🔊 听这个动作</button><button className={`tried-action ${done?"done":""}`} aria-pressed={done} onClick={()=>setCompletedExtensionIds(current=>{const next=new Set(current);if(done)next.delete(`finish-${index}`);else next.add(`finish-${index}`);return next})}>{done?"✓ 试过啦":"✋ 我试过啦"}</button></article>})}</div>
           </>}
-          <button className="listen-button quest-finish-listen" onClick={()=>{setFinishRevealed(true);listen(questChapter.gameplay.finishAudio.id)}}>🔊 听听这次发现</button>
+          <button className="listen-button quest-finish-listen" onClick={()=>{setFinishRevealed(true);listen(questChapter.gameplay.finishAudio.id)}}><SoundIcon/>听听这次发现</button>
           <FinishNavigation onHome={goHome} onReplay={()=>openQuest(questChapter,true)}/>
           {finishRevealed&&<p className="final-answer">{questChapter.childEntry.takeaway}</p>}
           {questChapter.gameplay.presentation&&<details className="family-extra"><summary>{questChapter.gameplay.presentation.familyLabel??"和家人再量一量"} <span>＋</span></summary><WorkbenchFamily presentation={questChapter.gameplay.presentation} onRefine={sides=>{const step=questChapter.gameplay.steps.find(s=>s.interaction?.kind==='circle-refine');const stage=step?.interaction?.refinements?.find(r=>r.sides===sides);if(stage)listen(stage.audio.id);else if(step)listen(step.audio.lead?.id??step.audio.intro.id);}}>{questChapter.gameplay.presentation.familyMode==='actions'&&questChapter.gameplay.photoAlbum&&<PhotoAlbumButton album={questChapter.gameplay.photoAlbum} onOpen={()=>openPhotoAlbum(questChapter.gameplay.photoAlbum!)} />}<div className="workbench-family-directions">{questChapter.gameplay.finish.actions.map((action,index)=><p key={action}><button className="workbench-sound" aria-label={`听第${index+1}个动作`} onClick={()=>listen(questChapter.gameplay.finish.actionAudio[index].id)}><span aria-hidden="true">▶</span></button>{action}</p>)}</div></WorkbenchFamily></details>}
@@ -713,7 +768,10 @@ export default function Home() {
             data-album-index={focusedImage.album?.index}
             onClick={(event) => event.stopPropagation()}
           >
-            <button className="image-lightbox-close" type="button" onClick={closeImage} aria-label="关闭大图">✕</button>
+            <header className="image-lightbox-header dialog-header">
+              <div><small>{focusedImage.album?`${focusedImage.album.data.title} · 第${focusedImage.album.index+1}/${focusedImage.album.data.photos.length}张`:'图片说明'}</small><h2>{focusedImage.title}</h2></div>
+              <div className="image-lightbox-navigation"><ReturnToRiverButton onClick={goHome} /><button className="image-lightbox-close" type="button" onClick={closeImage} aria-label="关闭大图">✕</button></div>
+            </header>
             <div className={`image-lightbox-visual ${focusedImage.images.length > 1 ? "multiple" : ""} ${focusedImage.album ? "photo-album-visual" : ""}`}>
               {focusedImage.images.map((item) => (
                 <figure key={item.src}>
@@ -724,13 +782,10 @@ export default function Home() {
               {focusedImage.album&&<div className="photo-album-thumbnails" role="group" aria-label="选择一张照片">{focusedImage.album.data.photos.map((photo,index)=><button key={photo.assetId} onClick={()=>openPhotoAlbum(focusedImage.album!.data,index)} aria-pressed={index===focusedImage.album!.index} aria-label={`看${photo.label}，${photo.period}`}>{photo.crop?<PhotoCrop src={photo.image} alt="" crop={photo.crop}/>:<Image src={photo.image} alt="" style={{objectPosition:photo.thumbnailPosition}} width={120} height={80} unoptimized/>}<span>{photo.label}</span></button>)}</div>}
             </div>
             <div className="image-lightbox-copy">
-              <small>{focusedImage.album?`${focusedImage.album.data.title} · 第${focusedImage.album.index+1}/${focusedImage.album.data.photos.length}张`:'🔎 图片说明'}</small>
               {focusedImage.period&&<span className="photo-album-period">{focusedImage.period}</span>}
-              <h2>{focusedImage.title}</h2>
               <p>{focusedImage.observation??focusedImage.voice.text}</p>
               {focusedImage.album&&<div className="photo-album-pager"><button disabled={focusedImage.album.index===0} onClick={()=>openPhotoAlbum(focusedImage.album!.data,focusedImage.album!.index-1)}>← 前一张</button><button disabled={focusedImage.album.index===focusedImage.album.data.photos.length-1} onClick={()=>openPhotoAlbum(focusedImage.album!.data,focusedImage.album!.index+1)}>后一张 →</button></div>}
-              <button className="listen-button" type="button" onClick={() => listen(focusedImage.voice.id)}>🔊 再听一次图片说明</button>
-              <PauseButton />
+              <div className="image-audio-controls"><button className="listen-button" type="button" onClick={() => listen(focusedImage.voice.id)}><SoundIcon/>再听图片说明</button><PauseButton /></div>
               <details className="image-evidence-boundary"><summary>家长看史料来源与图片说明</summary><p>{focusedImage.boundary}</p>{focusedImage.sourceLinks?.map(source=><p key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></p>)}</details>
 
             </div>
@@ -739,7 +794,6 @@ export default function Home() {
       )}
 
       <footer className="source-footer">
-        <span>春秋至明清 · 本机亲子试玩</span>
         {screen === "overview" ? (
           <span>家长与编辑审核层</span>
         ) : (

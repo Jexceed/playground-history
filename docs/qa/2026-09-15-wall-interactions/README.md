@@ -43,7 +43,7 @@
 
 差异格式检查使用已安装的运行环境Git（系统Git出现Xcode许可提示），结果通过。
 
-日志：[完整检查](checks.log)、[语音更新](voice-update.log)；结构化结果见[verification.json](verification.json)。部分修改前源文件的备份位置见[baseline.txt](baseline.txt)。
+日志：[完整检查](checks.log)、[语音更新](voice-update.log)；结构化结果见[verification.json](verification.json)。部分修改前源文件的备份位置见[baseline.txt](../2026-10-08-macos-app/cleanup.json)。
 
 改进已同步设计方案、实施指南、GW08记录与根AGENTS：互动密度由内容需要决定，不能把“一个拖动环节”理解成不能再有必要提问。没有增加第二套章节状态机，没有改变0.68.0内容版本或清空完成记录。
 

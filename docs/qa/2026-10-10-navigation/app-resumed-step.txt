@@ -1,0 +1,37 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 button 回到小小历史旅行团首页
+				5 text 🔎
+				6 text 跟孔子学会学与习
+				7 container 任务进度 3/5
+					8 text 第 3 步
+				9 button (disabled) 暂停声音
+				10 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				11 image 跟孔子学会学与习的故事插画
+				12 text 故事插画 春秋战国  ·  把听过的动作做出来 小伙伴
+				13 heading 哪里在亲手练习？, Value: 1
+					14 text 哪里在亲手练习？
+				15 button 再听这一幕
+				16 container 哪里在亲手练习？
+					17 toggle button 选择展柜保存书本, Value: off
+					18 button 听展柜保存书本
+					19 toggle button 选择小伙伴动手练习, Value: off
+					20 button 听小伙伴动手练习
+				21 text 听清故事，再看看眼前的线索。
+				22 button 听听怎么玩
+	23 close button
+	24 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	25 minimize button
+	26 text 小小历史旅行团
+27 menu bar
+	28 小小历史旅行团
+	29 File
+	30 Edit
+	31 View
+	32 Window
+	33 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

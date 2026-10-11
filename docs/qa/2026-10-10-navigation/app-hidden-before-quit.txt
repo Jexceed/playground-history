@@ -1,0 +1,33 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 button 回到小小历史旅行团首页
+				5 button (disabled) 暂停声音
+				6 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				7 text 小小历史旅行团 · 集合啦
+				8 heading Value: 1, 沿着时间河
+去历史里探险！
+					9 text 沿着时间河 去历史里探险！
+				10 text 到秦朝量一量布，去长安看唐三彩，再跟着李白抬头望月。每一站，都有 人物、地点和真文物 ，还有一个等你解开的谜。
+				11 container 旅行线索：秦朝、唐三彩、李白的月亮和泉州大船
+					12 text 秦朝小工坊 长安骆驼 李白的月亮 泉州大船
+				13 pop up button 🧭 拿上地图，出发！
+				14 button 听出发口令
+				15 image 黄衣男孩、戴圆框眼镜的绿衣男孩和马尾女孩，拿着地图沿时间河出发的故事插画
+				16 text 沿着河，出发！
+				17 button 👪 家长入口 · 44章材料与说明
+	18 close button
+	19 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	20 minimize button
+	21 text 小小历史旅行团
+22 menu bar
+	23 小小历史旅行团
+	24 File
+	25 Edit
+	26 View
+	27 Window
+	28 Help
+
+The focused UI element is 13 pop up button 🧭 拿上地图，出发！

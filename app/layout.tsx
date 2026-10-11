@@ -18,10 +18,10 @@ export const metadata: Metadata = {
   description: "为 4–6 岁孩子设计的语音历史游戏：去洞穴找火种，和唐三彩骆驼逛长安，跟着人物、地点和真文物解开历史谜题。",
   icons: {
     icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/favicon.ico", sizes: "32x32" },
+      { url: "/images/brand/history-trip-icon-32.png?v=3", type: "image/png" },
+      { url: "/images/brand/history-trip-logo.png?v=3", sizes: "1024x1024", type: "image/png" },
     ],
-    apple: "/favicon-180.png",
+    apple: "/images/brand/history-trip-icon-180.png?v=3",
   },
   openGraph: {
     title: "小小历史旅行团",

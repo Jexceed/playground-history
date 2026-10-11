@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {engineLinkage,labSnapshot,POLITY_WINDOWS,LAB_STAGE_COUNTS} from '../app/history-lab-model.ts';
+import {engineLinkage,labSnapshot,roofCapPosition,POLITY_WINDOWS,LAB_STAGE_COUNTS} from '../app/history-lab-model.ts';
 import {canContinueStep,stepVoiceIds} from '../app/step-flow.ts';
 test('movable type changes only the middle block and completes after printing',()=>{
  const states=[0,1,2,3].map(n=>labSnapshot('printing',n));
@@ -34,12 +34,13 @@ test('steam teaching linkage keeps the rod length while motion changes direction
  for(const s of states){const e=s.engine;assert.ok(Math.abs(Math.hypot(e.crankX-e.pistonX,e.crankY-e.pistonY)-e.rodLength)<1e-8);assert.ok(e.pistonX>211&&e.pistonX<346);}
  assert.deepEqual(states.map(s=>s.complete),[false,false,true]);
 });
-test('roof ornament seats over the fixing position and reaches the roof',()=>{
- const before=labSnapshot('roof',0),after=labSnapshot('roof',1);
- assert.notEqual(before.roof.capX,before.roof.fixtureX);
- assert.equal(after.roof.capX,after.roof.fixtureX);
- assert.equal(after.roof.capY+after.roof.capHeight,after.roof.roofY);
- assert.equal(before.complete,false);assert.equal(after.complete,true);
+test('roof model requires uncovering and replacing the cap, with safe movement above the fixture',()=>{
+ const [before,lifted,after]=[0,1,2].map(stage=>labSnapshot('roof',stage));
+ for(const state of [before,after]){assert.equal(state.roof.capX,state.roof.fixtureX);assert.equal(state.roof.capY+state.roof.capHeight,state.roof.roofY);}
+ assert.notEqual(lifted.roof.capX,lifted.roof.fixtureX);
+ assert.deepEqual([before,lifted,after].map(state=>state.complete),[false,false,true]);
+ for(let phase=0;phase<=2;phase+=.025){const r=roofCapPosition(phase);assert.ok(r.capY<=145);if(r.capX>270.001)assert.equal(r.capY,100);}
+ assert.throws(()=>roofCapPosition(2.1),RangeError);
 });
 
 test('animated engine samples preserve the physical linkage at intermediate angles',()=>{for(let angle=0;angle<=360;angle+=7.5){const e=engineLinkage(angle);assert.ok(Math.abs(Math.hypot(e.crankX-e.pistonX,e.crankY-e.pistonY)-120)<1e-8);assert.ok(e.pistonX>=239.999&&e.pistonX<=320.001);}assert.throws(()=>engineLinkage(Infinity),RangeError);});

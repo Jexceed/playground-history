@@ -1,0 +1,22 @@
+/* Shared App navigation remains visible above the story and activities. */
+.history-app .app-header { position:sticky; top:0; z-index:45; background:var(--cream); }
+.history-app.focused-preview:not(.task-step-active) { overflow-x:clip; }
+.history-app.focused-preview .app-header { height:var(--app-header-height); gap:24px; }
+.header-identity { display:flex; align-items:center; gap:20px; min-width:0; }
+.header-identity .brand { cursor:default; }
+.return-to-river { display:inline-flex; align-items:center; justify-content:center; gap:8px; flex-shrink:0; min-height:var(--control-height); padding:8px 13px; border:1px solid #bccfc1; border-radius:999px; background:#fffdf7; color:var(--green-dark); font-size:14px; font-weight:750; white-space:nowrap; cursor:pointer; }
+.return-to-river svg { width:20px; height:20px; flex-shrink:0; }
+.return-to-river:hover { background:#e6f0e6; border-color:var(--green); }
+.quest-stage-navigation { grid-column:2; display:flex; flex-direction:column; align-items:center; gap:0; min-width:0; }
+.quest-stage-title { display:flex; align-items:center; gap:6px; max-width:330px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:12px; line-height:18px; font-weight:700; color:var(--green-dark); }
+.quest-stage-progress { display:flex; align-items:center; gap:10px; }
+.quest-stage-navigation ol { display:flex; align-items:center; gap:3px; margin:0; padding:0; list-style:none; }
+.quest-stage-navigation button { display:grid; place-items:center; width:32px; height:30px; padding:0; border:0; border-radius:10px; background:transparent; cursor:pointer; }
+.quest-stage-pill { display:block; width:26px; height:7px; border-radius:999px; background:#d8ceb9; transition:background .15s,transform .15s; }
+.quest-stage-navigation button.completed .quest-stage-pill { background:var(--yellow); }
+.quest-stage-navigation button[aria-current="step"] .quest-stage-pill { background:var(--green); }
+.quest-stage-navigation button:hover .quest-stage-pill { transform:scaleY(1.35); }
+.quest-stage-navigation button:focus-visible { outline:2px solid var(--green); outline-offset:1px; }
+.quest-stage-caption { min-width:38px; color:var(--muted); font-size:11px; font-weight:700; white-space:nowrap; }
+.image-lightbox-navigation { display:flex; align-items:center; gap:12px; flex-shrink:0; margin-left:auto; }
+.image-lightbox-navigation .image-lightbox-close { position:static; width:var(--control-height); height:var(--control-height); border:1px solid #bccfc1; font-size:18px; }

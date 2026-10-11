@@ -1,0 +1,61 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 跟孔子学会学与习
+					9 content list
+						10 button 第1步：先去孔子生活的时代，已完成, Help: 先去孔子生活的时代
+						11 button 第2步：听一句留下来的古话，已完成, Help: 听一句留下来的古话
+						12 button 第3步：把听过的动作做出来, Help: 把听过的动作做出来
+						13 button 第4步：隔一会儿，再想再试, Help: 隔一会儿，再想再试
+						14 button 第5步：书里的话来到今天, Help: 书里的话来到今天
+				15 button 继续播放声音
+				16 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				17 text 春秋战国  ·  先去孔子生活的时代
+				18 button 看大图，听材料说明
+				19 heading 明刊《论语注疏》, Value: 2
+					20 text 明刊《论语注疏》
+				21 text 小伙伴
+				22 heading 孔子生活在哪个时候？, Value: 1
+					23 text 孔子生活在哪个时候？
+				24 button 再听这一幕
+				25 container 孔子生活在哪个时候？
+					26 toggle button 选择春秋 · 约前770—前476年, Value: off
+					27 button 听春秋 · 约前770—前476年
+					28 toggle button 选择秦朝 · 前221—前207年, Value: off
+					29 button 听秦朝 · 前221—前207年
+				30 text 听清故事，再看看眼前的线索。
+				31 button 听听怎么玩
+				32 container 明刊《论语注疏》图片说明
+					33 container
+						34 text 图片说明
+						35 heading 明刊《论语注疏》, Value: 2
+							36 text 明刊《论语注疏》
+						37 button 回到时间河
+						38 button 关闭大图
+					39 container
+						40 image 明刊《论语注疏》
+						41 text 人物在春秋 · 书是明代刊本
+					42 text 照片里是明代印的《论语注疏》，能看到经文和解释。它不是孔子亲笔。
+					43 button 再听图片说明
+					44 button 继续播放声音
+					45 summary 家长看史料来源与图片说明, Value: off
+						46 text 家长看史料来源与图片说明
+	47 close button
+	48 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	49 minimize button
+	50 text 小小历史旅行团
+51 menu bar
+	52 小小历史旅行团
+	53 File
+	54 Edit
+	55 View
+	56 Window
+	57 Help
+
+The focused UI element is 15 button 继续播放声音

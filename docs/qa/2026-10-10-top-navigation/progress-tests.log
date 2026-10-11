@@ -1,0 +1,26 @@
+✔ progress files round-trip with compatible resume and hidden completion records (1.51125ms)
+✔ import merges completion flags and never replaces valid progress with an invalid resume (0.341583ms)
+✔ the desktop package includes every visible asset and voice without hidden chapter files or research originals (83.343667ms)
+✔ local asset extraction rejects traversal and excludes external resources (0.122209ms)
+✔ pause and resume retain position and continue the remaining narration queue (1.806ms)
+✔ a new answer or navigation cancels old callbacks and every queued clip (0.335833ms)
+✔ a stale play rejection after a quick pause/resume cannot stop resumed audio (0.436667ms)
+✔ media errors and autoplay blocks end the queue with a recoverable state (0.332083ms)
+✔ a loading clip can remain paused until the user resumes it (0.228167ms)
+✔ local progress restores valid steps and preserves legacy completion badges (0.346666ms)
+✔ all quiz choices are stable and audible while scene questions retain their own structure (2.696167ms)
+✔ a focused UI keeps completed records for chapters currently hidden (0.715667ms)
+✔ jumping straight to the final step never manufactures completed steps after reopening (1.562417ms)
+✔ legacy sequential saves retain their position and earlier completed steps (0.109083ms)
+✔ malformed or foreign completion IDs cannot turn a new jump into a legacy sequential save (0.167375ms)
+✔ all 112 chapters finish only after every required step has actually been recorded (1.078167ms)
+✔ an unfinished reading step remains required even after later questions have been solved (0.0835ms)
+✔ native record transfer merges same-chapter step completions without dropping the chosen position (0.181458ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 154.88225

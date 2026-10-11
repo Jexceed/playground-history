@@ -1093,8 +1093,8 @@
         "type": "地点",
         "icon": "🐉",
         "title": "明清宫殿的工匠与今天的观察者",
-        "childBridge": "抬头看太和殿，小兽沿屋脊排着队。小伙伴先看真照片，再用小模型看看：它们和屋顶的固定处有什么关系？",
-        "evidenceBoundary": "1420年明代奉天殿始建，现太和殿为康熙1695年起重建后的形制（1697竣工）；现存十兽不当明代原物。"
+        "childBridge": "古代工匠把固定屋脊的地方藏进小兽造型里。后来屋顶做法变了，小兽却留下来。今天太和殿的队伍又告诉我们什么？",
+        "evidenceBoundary": "现存太和殿为清代重建后的形制，不当明代原物。"
       },
       "companions": [
         {
@@ -1117,7 +1117,8 @@
         "DPM-TAIHE-ROOF-BEASTS",
         "UNESCO-FORBIDDEN-CITY",
         "PEP-HISTORY-7B-2026-TRIAL",
-        "DPM-YOUNG-ROOF"
+        "DPM-YOUNG-ROOF",
+        "DPM-ROOF-BEASTS-FUNCTIONS"
       ]
     },
     {
@@ -1195,23 +1196,36 @@
         "type": "人物与材料",
         "icon": "📖",
         "title": "孔子与《论语》",
-        "childBridge": "孔子说，学过还要温习和练习。小伙伴刚学了一个动作，怎样把学到的真正用起来？",
-        "evidenceBoundary": "眼前是明代刊本，不是孔子手稿。"
+        "childBridge": "春秋的孔子办私学，教不同出身的人学知识、学做人。他创立儒家，影响后世。我们能把他的待人道理用在今天吗？",
+        "evidenceBoundary": "孔子像为约1770年的后世作品，不是孔子在世时的写生；书影为明刊《论语注疏》，不是孔子手稿。"
       },
       "companions": [
         {
-          "type": "地点",
-          "label": "春秋鲁国与今天的阅读室",
-          "note": "地点与时代分别核对。"
+          "type": "经典原文",
+          "label": "《卫灵公》原文",
+          "note": "子贡问：有一言而可以终身行之者乎？子曰：其恕乎！己所不欲，勿施于人。"
         },
         {
-          "type": "材料",
-          "label": "明刊《论语注疏》",
-          "note": "实物或书影用于观察，文献用于解释。"
+          "type": "现代意译",
+          "label": "《卫灵公》现代意译",
+          "note": "自己不愿受到的对待，不要加给别人；也要听对方的想法，不强迫他答应。"
+        },
+        {
+          "type": "经典原文",
+          "label": "《学而》原文与读音",
+          "note": "子曰：“学而时习之，不亦说乎？”“说”读yuè，通“悦”。"
+        },
+        {
+          "type": "现代意译",
+          "label": "《学而》现代意译与应用",
+          "note": "学后按时温习和实践，不也很快乐吗？借笔和轮流讲述是现代应用，不是孔子亲历。"
         }
       ],
       "sourceIds": [
+        "KZYJ-CONFUCIUS-TEACHING",
         "EDB-ANALECTS-FOUR",
+        "EDB-ANALECTS-RECIPROCITY",
+        "COMMONS-CONFUCIUS-PORTRAIT-1770",
         "MOE-HISTORY-CURRICULUM-2022"
       ]
     },
@@ -1395,8 +1409,8 @@
         "type": "人物与材料",
         "icon": "📖",
         "title": "司马迁与《史记》",
-        "childBridge": "孔子、秦始皇生活在不同的时代。汉代司马迁把过去的人和事写进《史记》，后来人怎样找到这些故事？",
-        "evidenceBoundary": "明刊书影不是司马迁手稿，插画中的人物卡是今天的学习道具，不是古代肖像。"
+        "childBridge": "司马迁把过去许多人的故事写进《史记》。今天，小伙伴做人物书签，怎样找到想了解的故事？",
+        "evidenceBoundary": "书影是明刊本，不是司马迁手稿。"
       },
       "companions": [
         {

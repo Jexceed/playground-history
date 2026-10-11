@@ -1,0 +1,48 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container 长城相册图片说明
+				4 container
+					5 text 长城相册 · 第4/6张
+					6 heading 沙土筑成的长城, Value: 2
+						7 text 沙土筑成的长城
+					8 button 回到时间河
+					9 button 关闭大图
+				10 container
+					11 image 沙土筑成的长城
+					12 text 汉长城遗址 · 2023年照片
+				13 container 选择一张照片
+					14 toggle button 看远看长墙，明代 · 秦之后, Value: off
+					15 toggle button 看墙顶的路，明代 · 秦之后, Value: off
+					16 toggle button 看城楼近看，明代 · 秦之后, Value: off
+					17 toggle button 看汉代土墙，汉代 · 秦之后, Value: on
+					18 toggle button 看玉门关远看，汉代 · 秦之后, Value: off
+					19 toggle button 看玉门关近看，汉代 · 秦之后, Value: off
+				20 text 汉代 · 秦之后
+				21 text 土墙留下一道道层次。找找远处的高台。
+				22 button ← 前一张
+				23 button 后一张 →
+				24 button 再听图片说明
+				25 button 暂停声音
+				26 container (expanded) Secondary Actions: Collapse
+					27 summary 家长看史料来源与图片说明, Value: on
+						28 text 家长看史料来源与图片说明
+					29 text 本例用于观察敦煌地区汉代土筑墙体与分层材料；不把矮土墙都判定为秦墙，也不以照片复原原高。 原文件保留，运行图仅等比例缩小和格式压缩，不重画、不补细节。照片显示拍摄时的遗存与保护设施，不是古代现场；照片许可与遗址身份分别核对。相册独立显示朝代，不把明代或汉代材料改标秦代。
+					30 link 张小刚：敦煌考古成就与展望 ↗, Value: nopss.gov.cn/n1/2023/0828/c219544-40065225.html
+					31 link “长城大省”守护精神根脉生生不息 ↗, Value: gswbj.gov.cn/a/2023/10/11/18852.html
+					32 link 照片作者：N509FZ · 原文件说明 ↗, Value: commons.wikimedia.org/wiki/File:Site_of_Han_Dynasty_Great_Wall_at_Yumenguan_(20230917105206).jpg
+					33 link 照片许可：CC BY-SA 4.0 ↗, Value: creativecommons.org/licenses/by-sa/4.0/
+	34 close button
+	35 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	36 minimize button
+	37 text 小小历史旅行团
+38 menu bar
+	39 小小历史旅行团
+	40 File
+	41 Edit
+	42 View
+	43 Window
+	44 Help
+
+The focused UI element is 27 summary 家长看史料来源与图片说明, Value: on

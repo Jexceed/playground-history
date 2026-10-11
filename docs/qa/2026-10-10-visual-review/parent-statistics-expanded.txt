@@ -1,0 +1,87 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 summary 学习记录与迁移 本机保存 1 个完成标记, Value: off
+					8 text 学习记录与迁移
+					9 text 本机保存
+					10 text 1
+					11 text  个完成标记
+				12 text 家长与编辑查看 · 当前为审核稿
+				13 heading 春秋至明清，44章历史故事, Value: 1
+					14 text 春秋至明清， 44 章历史故事
+				15 container
+					16 text 这里是春秋至明清的 44 个中国历史启蒙故事，覆盖部分治理、生活、技术、交往与艺术主题，并非完整通史课程。历史课程标准用于核对题材范围，不把初中的记忆与考试要求搬给学前儿童。其他内容保留源稿，尚不在试玩入口。
+				17 text 44
+				18 text 章内容
+				19 container (expanded) Secondary Actions: Collapse
+					20 summary 查看内容制作统计, Value: on
+						21 text 查看内容制作统计
+					22 text 312 条事实卡 283 段编辑长稿 290 段待正式配音的长稿分段 220 步核心任务 2044 段可播放声音 90 项读音校听 591 项素材
+				23 summary 这11站讲了什么，时间怎样衔接？, Value: off
+					24 text 这
+					25 text 11
+					26 text 站讲了什么，时间怎样衔接？
+				27 container (collapsed) Secondary Actions: Expand
+					28 summary 读音规则与编辑音色小样, Value: off
+						29 text 读音规则与编辑音色小样
+					30 value indicator 0
+					31 value indicator 0
+				32 text 按主题或关键词查找故事，再打开一章查看学习目标、故事台词和材料出处。 中国古代史
+				33 heading 故事目录, Value: 2
+					34 text 故事目录
+				35 text 搜索本板块
+				36 text field (settable) 搜索本板块, Placeholder: 输入人物、事件或问题
+				37 container 按学习主题找故事
+					38 toggle button 全部主题, Value: on
+					39 toggle button 知识与技术 · 9, Value: off
+					40 toggle button 治理和规则 · 8, Value: off
+					41 toggle button 材料与时间 · 6, Value: off
+					42 toggle button 交通和交往 · 6, Value: off
+					43 toggle button 生活与劳动 · 6, Value: off
+					44 toggle button 艺术和表达 · 9, Value: off
+				45 text 当前显示 44 章。可以按孩子的兴趣，挑一个故事慢慢玩。
+				46 container 中国古代史时期
+					47 text 春秋战国 前770—前221年 秦朝 前221—前207年 汉朝 前202—公元220年 三国两晋南北朝 220—589年 隋朝 581—618年 唐朝 618—907年 五代十国 907—960年（北方五代；部分十国延续至北宋） 宋朝（与辽·西夏·金并立） 916—1279年（宋960年起） 元朝 1271—1368年 明朝 1368—1644年 清朝 1644年入关后—1840年前（本站范围）
+				48 container 跟孔子学会学与习
+					49 text 春秋战国 故事 1  ·  前770—前221年 审核中 编辑题目 ·  孔子说：学了还要常常练习
+					50 heading 跟孔子学会学与习, Value: 3
+						51 text 跟孔子学会学与习
+					52 text 孔子说，学过还要温习和练习。小伙伴刚学了一个动作，怎样把学到的真正用起来？
+					53 text 🔎  明刊《论语注疏》 📍  鲁国曲阜一带与今天的阅读室 🎨  孔子与《论语》
+					54 container
+						55 text 🎨 文化 ： 人们共同创造和传下来的语言、知识、艺术与习惯。
+					56 text 认识孔子与《论语》，把学、温习和实践连起来。
+					57 text 5 步主线 3 项读音校听 8 条背景事实卡
+					58 button 查看本章内容 →
+				59 container 秦统一度量衡
+					60 text 秦朝 故事 2  ·  前221—前207年 审核中 编辑题目 ·  秦朝为什么要用同一把尺
+					61 heading 秦统一度量衡, Value: 3
+						62 text 秦统一度量衡
+					63 text 工坊里的两把尺，怎么一把长、一把短？
+					64 text 🔎  带着诏书的铁权 📍  秦朝各地；教学工坊 🎨  秦代度量衡诏文
+					65 container
+						66 text 📏 度量衡 ： 量长短、量容量、称轻重所用的办法和标准。
+					67 text 共同标准让不同地方量得一致。
+					68 text 5 步主线 3 项读音校听 7 条背景事实卡
+					69 button 查看本章内容 →
+				70 container 长城为什么要修？
+					71 text 秦朝 故事 3  ·  前221—前207年 审核中 编辑题目 ·  秦长城不是从空地里突然长出来的
+					72 heading 长城为什么要修？, Value: 3
+						73 text 长城为什么要修？
+					74 text 长长的城墙能抵御外来进攻。小伙伴还想知道：有了墙，为什么还要有人守？
+					75 text 🔎  金山岭 · 明代长城 📍  秦朝北方边地；后世长城与汉代关口对照 🎨  二年级课文《神州谣》
+					76 container
+						77 text 🕯️ 战争 ： 不同国家或力量使用武力的大规模冲突。
+					78 text 城墙帮助抵御进攻，守卫、关口与消息也要配合。
+					79 text 5 步主线 4 项读音校听 7 条背景事实卡
+					80 button 查看本章内容 →
+				81 container 兵马俑留下了哪些线索？
+					82 text 秦朝 故事 4  ·  前221—前207年 待确认 编辑题目 ·  兵马俑留下了哪些线索？
+					83 heading 兵马俑留下了哪些线索？, Value: 3
+						84 text 兵马俑留下了哪些线索？
+					85 text 秦始皇陵旁有陶做的人和马。小伙伴发现它们的姿势不一样，哪些细节能让我们认识秦代的工匠和军

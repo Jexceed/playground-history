@@ -1,0 +1,68 @@
+
+> chronicle-bureau-prototype@0.1.0 mac:install
+> node scripts/macos.mjs install
+
+        Info Looking up installed tauri packages to check mismatched versions...
+     Running beforeBuildCommand `npm run desktop:build`
+
+> chronicle-bureau-prototype@0.1.0 desktop:build
+> npm run content:pack && npm run desktop:assets && npm run typecheck:desktop && vite build --config vite.desktop.config.ts
+
+
+> chronicle-bureau-prototype@0.1.0 content:pack
+> node scripts/prepare-focused-quests.mjs && node scripts/validate-content.mjs && node scripts/build-content-pack.mjs && node scripts/generate-content-thumbnails.mjs && node scripts/audit-gameplay-coherence.mjs
+
+逐题学习图：398 个；44章儿童入口与连续故事同步。
+内容校验通过：7 个课程板块，共 112 章。
+其中：中国史 76 章，世界史 30 章，跨学科 6 章。
+已有详稿 112 章，研究标记verified 103 章（不等于逐条终审），最终审核通过 0 章。
+事实卡 2655 条，另列学习方法 74 项；编辑屏幕 702 屏，语音稿 774 段，互动 357 个。
+低龄兴趣入口 112 章，均含实物入口与地点连接。
+儿童口语词典 97 词，112章均已匹配难词解释。
+配音读音表 202 项、年代读法 7 条，112章均有编辑校听入口。
+来源登记 1044 条，素材登记 981 条，其中已清权本地素材 978 条。
+本机研究素材缓存 976/976 个文件；发布包构建不强制携带原始研究缓存。
+内容包生成完成：7 个板块，112 章。
+章节缩略图生成完成：112 张；步骤图片 327 张。
+结构审计：完整库112章/560步；本轮44章/220步，220张选项图、63个阅读步骤、73个图中提问、88条结束动作。真实儿童审核仍待进行。
+
+> chronicle-bureau-prototype@0.1.0 desktop:assets
+> node scripts/prepare-desktop-assets.mjs
+
+Desktop assets: 44 chapters, 11 stations, 2044 voice clips, 2713 files.
+
+> chronicle-bureau-prototype@0.1.0 typecheck:desktop
+> tsc --noEmit -p tsconfig.desktop.json
+
+vite v8.0.13 building client environment for production...
+[2Ktransforming...✓ 52 modules transformed.
+rendering chunks...
+computing gzip size...
+desktop-dist/desktop-build.json             0.15 kB │ gzip:   0.13 kB
+desktop-dist/index.html                     0.50 kB │ gzip:   0.35 kB
+desktop-dist/assets/index-DSmJqohL.css    170.13 kB │ gzip:  32.02 kB
+desktop-dist/assets/index-CPgp1wd4.js   1,930.70 kB │ gzip: 428.05 kB
+
+✓ built in 804ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+   Compiling history-trip v0.1.0 (/Users/chiang/Documents/Projects/history/src-tauri)
+    Finished `release` profile [optimized] target(s) in 39.10s
+       Built application at: /Users/chiang/Documents/Projects/history/src-tauri/target/aarch64-apple-darwin/release/history-trip
+    Bundling 小小历史旅行团.app (/Users/chiang/Documents/Projects/history/src-tauri/target/aarch64-apple-darwin/release/bundle/macos/小小历史旅行团.app)
+     Signing with identity "-"
+Signing with identity "-"
+Signing /Users/chiang/Documents/Projects/history/src-tauri/target/aarch64-apple-darwin/release/bundle/macos/小小历史旅行团.app/Contents/MacOS/history-trip
+/Users/chiang/Documents/Projects/history/src-tauri/target/aarch64-apple-darwin/release/bundle/macos/小小历史旅行团.app/Contents/MacOS/history-trip: replacing existing signature
+Signing with identity "-"
+Signing /Users/chiang/Documents/Projects/history/src-tauri/target/aarch64-apple-darwin/release/bundle/macos/小小历史旅行团.app
+/Users/chiang/Documents/Projects/history/src-tauri/target/aarch64-apple-darwin/release/bundle/macos/小小历史旅行团.app: replacing existing signature
+        Warn skipping app notarization, no APPLE_ID & APPLE_PASSWORD & APPLE_TEAM_ID or APPLE_API_KEY & APPLE_API_ISSUER & APPLE_API_KEY_PATH environment variables found
+    Finished 1 bundle at:
+        /Users/chiang/Documents/Projects/history/src-tauri/target/aarch64-apple-darwin/release/bundle/macos/小小历史旅行团.app
+
+Installed: /Applications/小小历史旅行团.app
+App: /Users/chiang/Documents/Projects/history/release/小小历史旅行团.app

@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-09",
+  "status": "logo-v2-built-and-installed-gui-validation-blocked",
+  "logoAssetId": "history-trip-brand-logo-v2",
+  "application": "/Applications/小小历史旅行团.app",
+  "bundleIdentifier": "com.jexceed.historytrip",
+  "version": "0.1.0",
+  "contentVersion": "0.68.0",
+  "chapters": 44,
+  "stations": 11,
+  "gameVoiceClips": 2044,
+  "packagedAssetFiles": 2713,
+  "checks": {
+    "strictAssets": true,
+    "fullLibraryAudit": "112 chapters / 560 steps",
+    "jsTests": 68,
+    "lint": true,
+    "appTypecheck": true,
+    "desktopTypecheck": true,
+    "macBuild": true,
+    "appSignatureVerification": true,
+    "installedIconMatchesGenerated": true,
+    "installedBinaryMatchesRelease": true,
+    "copiedAssetHashesVerified": true,
+    "dmgIntegrity": true,
+    "zipIntegrity": true,
+    "zipIconMatchesGenerated": true
+  },
+  "visualChecks": {
+    "inspectedPixelSizes": [
+      1254,
+      512,
+      128,
+      64,
+      32
+    ],
+    "charactersMatchHomepage": true,
+    "riverAndGreatWallVisible": true,
+    "nativeGuiValidation": "blocked",
+    "reason": "CUA GUI availability check reported Mac locked; no actual v2 Dock/app window verification.",
+    "configuredContentSize": {
+      "width": 1280,
+      "height": 720
+    },
+    "actualContentSize": null
+  },
+  "signing": {
+    "kind": "ad-hoc local",
+    "notarized": false
+  },
+  "backups": [
+    "work/mac-install-backups/previous-app-1791481753716.app"
+  ],
+  "artifacts": [
+    {
+      "path": "release/little-history-trip-0.1.0-macos-arm64.dmg",
+      "bytes": 130605829,
+      "sha256": "8e446d7920be75335b0ce30083393de71f43d12638c342b6d79da80ce783e470"
+    },
+    {
+      "path": "release/little-history-trip-0.1.0-macos-arm64.zip",
+      "bytes": 128668815,
+      "sha256": "583600ace35353aa0bdee7445561ba22e1aa1d0cc31ea057505f9ac71c6ec4d7"
+    },
+    {
+      "path": "public/images/brand/history-trip-logo.png",
+      "bytes": 1664882,
+      "sha256": "a6acfdbdbc23a14bea86be8cfae90d709046dc1b331946fd5d1c807d3046a8b9"
+    },
+    {
+      "path": "src-tauri/icons/icon.icns",
+      "bytes": 2966970,
+      "sha256": "542f708fd4e3e40259f7c3696b5543ebf3d2643610276620e2755151f8e32095"
+    }
+  ]
+}

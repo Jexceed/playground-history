@@ -1,0 +1,48 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 秦统一度量衡
+					9 content list
+						10 button 第1步：从一件真文物找年代, Help: 从一件真文物找年代
+						11 button 第2步：工坊里的两把旧尺, Help: 工坊里的两把旧尺
+						12 button 第3步：桌边还有一个新线索, Help: 桌边还有一个新线索
+						13 button 第4步：把新尺交到你手里, Help: 把新尺交到你手里
+						14 button 第5步：伙伴们也来量一量，已完成, Help: 伙伴们也来量一量
+				15 button 暂停声音
+				16 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				17 image 小伙伴和工匠邀请你在木桌上量一块布，现代故事插画
+				18 text 故事插画
+				19 text 拖动青尺，让它和黄尺的刻度对齐。
+				20 container
+					21 image 黄色三格尺
+					22 slider (settable, float) 移动青尺，让它和黄尺对齐, Value: 18, Details: 刻度还没对齐
+				23 button 向左移动青尺
+				24 text 也可以点箭头挪一挪
+				25 button 向右移动青尺
+				26 button 汉代铜尺 · 秦之后 真实材料 · 点开看一看 看真尺 · 汉代（秦之后）
+				27 text 秦朝  ·  把新尺交到你手里 小伙伴
+				28 heading 帮我挪一挪，让每一格都对齐。, Value: 1
+					29 text 帮我挪一挪，让每一格都对齐。
+				30 button 再听这一幕
+				31 text 把青尺往黄尺的起点挪一挪。 每一格都要对上。
+				32 text 拖动青尺，让两把尺的刻度对齐。
+				33 button 听听怎么玩
+	34 close button
+	35 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	36 minimize button
+	37 text 小小历史旅行团
+38 menu bar
+	39 小小历史旅行团
+	40 File
+	41 Edit
+	42 View
+	43 Window
+	44 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

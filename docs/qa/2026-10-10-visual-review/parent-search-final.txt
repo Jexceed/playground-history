@@ -1,0 +1,84 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 summary 学习记录与迁移 本机保存 1 个完成标记, Value: off
+					8 text 学习记录与迁移
+					9 text 本机保存
+					10 text 1
+					11 text  个完成标记
+				12 text 家长与编辑查看 · 当前为审核稿
+				13 heading 春秋至明清，44章历史故事, Value: 1
+					14 text 春秋至明清， 44 章历史故事
+				15 container
+					16 text 这里是春秋至明清的 44 个中国历史启蒙故事，覆盖部分治理、生活、技术、交往与艺术主题，并非完整通史课程。历史课程标准用于核对题材范围，不把初中的记忆与考试要求搬给学前儿童。其他内容保留源稿，尚不在试玩入口。
+				17 text 44
+				18 text 章内容
+				19 summary 查看内容制作统计, Value: off
+					20 text 查看内容制作统计
+				21 summary 这11站讲了什么，时间怎样衔接？, Value: off
+					22 text 这
+					23 text 11
+					24 text 站讲了什么，时间怎样衔接？
+				25 container (collapsed) Secondary Actions: Expand
+					26 summary 读音规则与编辑音色小样, Value: off
+						27 text 读音规则与编辑音色小样
+					28 value indicator 0
+					29 value indicator 0
+				30 text 按主题或关键词查找故事，再打开一章查看学习目标、故事台词和材料出处。 中国古代史
+				31 heading 故事目录, Value: 2
+					32 text 故事目录
+				33 text 搜索本板块
+				34 text field (settable) 搜索本板块, Value: 孔子, Placeholder: 输入人物、事件或问题
+				35 container 按学习主题找故事
+					36 toggle button 全部主题, Value: on
+					37 toggle button 知识与技术 · 9, Value: off
+					38 toggle button 治理和规则 · 8, Value: off
+					39 toggle button 材料与时间 · 6, Value: off
+					40 toggle button 交通和交往 · 6, Value: off
+					41 toggle button 生活与劳动 · 6, Value: off
+					42 toggle button 艺术和表达 · 9, Value: off
+				43 text 当前显示 2 章。可以按孩子的兴趣，挑一个故事慢慢玩。
+				44 container 中国古代史时期
+					45 text 春秋战国 前770—前221年 秦朝 前221—前207年 汉朝 前202—公元220年 三国两晋南北朝 220—589年 隋朝 581—618年 唐朝 618—907年 五代十国 907—960年（北方五代；部分十国延续至北宋） 宋朝（与辽·西夏·金并立） 916—1279年（宋960年起） 元朝 1271—1368年 明朝 1368—1644年 清朝 1644年入关后—1840年前（本站范围）
+				46 container 跟孔子学会学与习
+					47 text 春秋战国 故事 1  ·  前770—前221年 审核中 编辑题目 ·  孔子说：学了还要常常练习
+					48 heading 跟孔子学会学与习, Value: 3
+						49 text 跟孔子学会学与习
+					50 text 孔子说，学过还要温习和练习。小伙伴刚学了一个动作，怎样把学到的真正用起来？
+					51 text 🔎  明刊《论语注疏》 📍  鲁国曲阜一带与今天的阅读室 🎨  孔子与《论语》
+					52 container
+						53 text 🎨 文化 ： 人们共同创造和传下来的语言、知识、艺术与习惯。
+					54 text 认识孔子与《论语》，把学、温习和实践连起来。
+					55 text 5 步主线 3 项读音校听 8 条背景事实卡
+					56 button 查看本章内容 →
+				57 container 司马迁怎样把过去的事留下来？
+					58 text 汉朝 故事 9  ·  前202—公元220年 待确认 编辑题目 ·  司马迁怎样把过去的事留下来？
+					59 heading 司马迁怎样把过去的事留下来？, Value: 3
+						60 text 司马迁怎样把过去的事留下来？
+					61 text 孔子、秦始皇生活在不同的时代。汉代司马迁把过去的人和事写进《史记》，后来人怎样找到这些故事？
+					62 text 🔎  明刊《史记》· 后世书影 📍  西汉与后世的书坊、图书馆 🎨  司马迁与《史记》
+					63 container
+						64 text 🔎 证据 ： 能帮助我们判断过去发生过什么的线索。
+					65 text 区分记录者与被记录的人，理解史书怎样保存过去。
+					66 text 5 步主线 2 项读音校听 5 条背景事实卡
+					67 button 查看本章内容 →
+				68 text 家长与编辑审核层
+		69 scroll bar (settable, float) 0
+	70 close button
+	71 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	72 minimize button
+	73 text 小小历史旅行团
+74 menu bar
+	75 小小历史旅行团
+	76 File
+	77 Edit
+	78 View
+	79 Window
+	80 Help
+
+The focused UI element is 34 text field (settable) 搜索本板块, Value: 孔子, Placeholder: 输入人物、事件或问题

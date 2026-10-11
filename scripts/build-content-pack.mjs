@@ -763,6 +763,7 @@ function addAsset(chapterId, asset, usage, boundary) {
       id: asset.id,
       title: asset.title ?? asset.objectName,
       localPath: asset.localPath ?? null,
+      ...(asset.purpose === 'teaching-prop' ? {purpose:asset.purpose,runtimePath:asset.runtimePath} : {}),
       sourcePage: asset.sourcePage ?? asset.imageSourcePage ?? null,
       sourceFile: asset.sourceFile ?? null,
       licensePath: asset.licensePath ?? null,

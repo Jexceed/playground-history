@@ -46,3 +46,15 @@ next-env.d.ts
 # PDFs and videos remain on this machine until Git LFS/object storage is chosen.
 /reference-assets/*/*
 !/reference-assets/*/ATTRIBUTION.md
+
+# Local desktop builds and interpreter caches
+/src-tauri/target/
+/src-tauri/gen/
+/desktop-dist/
+/desktop-public/
+/release/
+**/__pycache__/
+*.py[cod]
+
+# Editorial source PDF kept locally; the QA notes retain its public source.
+/docs/qa/2026-10-10-confucius-depth/edb-reciprocity.pdf

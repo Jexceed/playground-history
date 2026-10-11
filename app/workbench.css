@@ -1,8 +1,8 @@
 /* A shared object workbench, enabled by chapter presentation data. */
 .history-app.workbench-active { background:#fcf6e8; }
 .history-app.workbench-active.task-step-active { padding-bottom:0; }
-.history-app.workbench-active .object-quest { width:min(1220px,calc(100% - 48px)); margin:0 auto; height:calc(100svh - 70px); display:grid; grid-template-columns:minmax(0,1.25fr) minmax(340px,.9fr); align-items:center; gap:34px; padding:22px 0; }
-.workbench-scene-column { min-width:0; }
+.history-app.workbench-active .object-quest { width:min(var(--app-content-width),calc(100% - 2 * var(--app-side-gutter))); margin:0 auto; height:calc(100svh - var(--app-header-height)); display:grid; grid-template-columns:var(--layout-columns); grid-template-rows:auto minmax(0,1fr); align-items:start; column-gap:var(--layout-column-gap); row-gap:var(--layout-row-gap); padding:var(--layout-page-top) 0 var(--layout-page-bottom); }
+.workbench-scene-column { min-width:0; display:flex; flex-direction:column; gap:var(--layout-row-gap); }
 .workbench-scene { position:relative; border:4px solid #edcf91; border-radius:28px 10px 28px 10px; overflow:hidden; box-shadow:0 10px 0 #d5b576,0 18px 45px #73552319; background:#dba765; }
 .workbench-art { width:100%; height:auto; display:block; aspect-ratio:1.5; object-fit:cover; }
 .story-art-label { position:absolute; top:10px; right:12px; color:#765e35; background:#fff9e8dc; padding:4px 8px; border-radius:6px; font-size:10px; letter-spacing:.05em; }
@@ -22,15 +22,24 @@
 .real-object-link strong { font-size:18px; line-height:1.5; }
 .real-object-link em { font-size:13px; font-style:normal; color:#758073; margin-top:4px; }
 .real-object-link .object-magnify { margin-left:auto; font-size:34px; color:#748771; }
-.workbench-task { min-width:0; }
+.workbench-task { min-width:0; min-height:var(--quest-stage-min-height); display:flex; flex-direction:column; gap:var(--layout-row-gap); }
+.workbench-footer { display:flex; flex-direction:column; gap:var(--layout-row-gap); margin-top:auto; }
+.workbench-footer .workbench-response { min-height:48px; padding:0; }
+.workbench-footer .workbench-response-spacer { height:48px; }
+.workbench-footer .workbench-help { min-height:57px; }
+.workbench-footer .reading-next { margin-top:0; }
+.workbench-task .trip-speech { min-height:144px; }
+.workbench-task .workbench-story { margin:0; }
+.workbench-task .workbench-choices { gap:var(--layout-row-gap); }
+.workbench-scene-column .real-object-link { width:100%; margin:0; }
 .workbench-kicker { margin:0 0 12px; color:#b27837; font-size:13px; font-weight:700; letter-spacing:.12em; }
 .workbench-question { display:flex; align-items:flex-start; gap:15px; }
 .workbench-question h1 { margin:0; font-family:"PingFang SC","Microsoft YaHei",sans-serif; font-weight:750; font-size:clamp(26px,2.4vw,34px); letter-spacing:-.03em; line-height:1.4; color:#294d43; }
 .workbench-sound,.bench-option-sound { display:grid; place-items:center; flex:0 0 auto; width:44px; height:44px; border-radius:50%; color:#317368; background:#e2efe5; border:1px solid #b9d5c4; cursor:pointer; }
 .workbench-story { color:#687a6b; font-size:17px; line-height:1.85; margin:16px 0 22px; }
 .workbench-choices { display:grid; grid-template-columns:1fr 1fr; gap:15px; }
-.bench-choice { position:relative; min-width:0; }
-.bench-choice-action { display:flex; align-items:center; justify-content:center; flex-direction:column; width:100%; height:184px; gap:17px; padding:22px 16px 16px; text-align:center; color:#38584b; background:#fffdf5; border:2px solid #d8dfc8; box-shadow:0 5px 0 #d3dcc7; border-radius:20px; cursor:pointer; transition:background .2s,border-color .2s,transform .2s; }
+.bench-choice { position:relative; min-width:0; display:flex; flex-direction:column; }
+.bench-choice-action { display:flex; flex:1 0 auto; align-items:center; justify-content:center; flex-direction:column; width:100%; height:184px; gap:17px; padding:22px 16px 16px; text-align:center; color:#38584b; background:#fffdf5; border:2px solid #d8dfc8; box-shadow:0 5px 0 #d3dcc7; border-radius:20px; cursor:pointer; transition:background .2s,border-color .2s,transform .2s; }
 .bench-choice-action:hover:not(:disabled) { border-color:#78a88a; transform:translateY(-2px); }
 .bench-choice-action >span { font-size:19px; font-weight:750; line-height:1.45; }
 .bench-choice-action .ruler-pair { gap:12px; margin:15px 0 0; }
@@ -80,7 +89,7 @@
 .alignment-controls >span { font-size:12px; color:#775832; }
 .ruler-grip { position:absolute; right:5px; top:17%; color:#fff4c3a6; font-size:15px; letter-spacing:-.1em; }
 .alignment-copy { min-height:184px; border:1px dashed #c5d3b7; background:#f5f6e8; border-radius:20px; padding:27px; text-align:center; color:#687f68; }
-.alignment-copy span { font-size:52px; color:#77a089; line-height:1; }
+.alignment-copy >span { font-size:52px; color:#77a089; line-height:1; }
 .alignment-copy p { font-size:19px; line-height:1.8; margin:12px 0 0; }
 .workbench-cover-strip { width:100%; height:150px; position:relative; overflow:hidden; border-radius:18px; border:2px solid #e1c391; }
 .workbench-cover-strip img { width:100%; height:100%; object-fit:cover; object-position:center 19%; }
@@ -143,7 +152,7 @@
  .alignment-controls >span { font-size:10px; }
  .ruler-grip { font-size:10px; }
  .alignment-copy { min-height:110px; padding:14px; }
- .alignment-copy span { font-size:36px; }
+ .alignment-copy >span { font-size:36px; }
  .alignment-copy p { margin:4px 0 0; font-size:16px; }
  .history-app.workbench-active .focus-cover .quest-cover-photo { height:240px; }
  .workbench-cover-strip { height:100px; }
@@ -186,7 +195,7 @@
 .trip-scene-caption { position:absolute; left:12px; top:12px; max-width:62%; padding:7px 12px; background:#fff7e5ed; color:#715634; border-radius:11px 11px 11px 3px; font-size:14px; font-weight:650; }
 .trip-river-scene .workbench-art { object-position:center 80%; }
 .trip-river-scene .bench-toys { top:61%; height:31%; left:10%; right:10%; padding:16px 12px 25px; background:#fff6e2ed; border:2px solid #ead3a0; border-radius:20px 7px 20px 7px; }
-.trip-episode .workbench-question.trip-speech { position:relative; padding:20px 18px; margin-bottom:22px; color:#315946; background:#fffdf4; border:2px solid #e7d7ae; border-radius:24px 24px 24px 5px; box-shadow:0 5px 0 #eadfc629; }
+.trip-episode .workbench-question.trip-speech { position:relative; padding:var(--layout-card-inset); margin:0; color:#315946; background:#fffdf4; border:2px solid #e7d7ae; border-radius:var(--layout-card-radius) var(--layout-card-radius) var(--layout-card-radius) 5px; box-shadow:0 5px 0 #eadfc629; }
 .trip-episode .trip-speech >div { flex:1; min-width:0; }
 .trip-speaker { display:block; color:#b17c39; font-size:14px; font-weight:750; margin:0 0 8px; letter-spacing:.1em; }
 .trip-speech h1 { font-size:29px; line-height:1.45; }
@@ -359,15 +368,17 @@
 }
 
 .workbench-cover-scene .story-art-label { top:8px; right:8px; bottom:auto; left:auto; }
+.workbench-cover-scene.workbench-material-cover { background:#f4eddf; }
+.workbench-cover-scene.workbench-material-cover .workbench-art { width:100%; height:100%; aspect-ratio:1.5; object-fit:contain; object-position:center; }
 @media(min-width:700px) and (max-width:900px){
  .trip-episode .real-object-link { position:static; max-width:none; width:100%; margin:12px 0 0; padding:8px; }
  .trip-episode .real-object-link strong { font-size:14px; max-width:none; }
 }
 
 /* The opening time question starts with an authentic, sourced artifact. */
-.quest-artifact-intro { padding:18px; border:2px solid #dcd3bb; border-radius:24px; background:#fffdf5; color:#355c4c; }
-.quest-artifact-picture { display:block; width:100%; border:0; padding:0; background:none; cursor:zoom-in; text-align:center; }
-.quest-artifact-picture >img { display:block; width:100%; height:clamp(180px,32svh,300px); object-fit:contain; border-radius:15px; background:#e8e7e1; }
+.quest-artifact-intro { display:flex; flex-direction:column; height:var(--quest-stage-min-height); padding:var(--layout-card-inset); border:2px solid #dcd3bb; border-radius:var(--layout-card-radius); background:#fffdf5; color:#355c4c; }
+.quest-artifact-picture { display:flex; flex-direction:column; flex:1; min-height:0; width:100%; border:0; padding:0; background:none; cursor:zoom-in; text-align:center; }
+.quest-artifact-picture >img { display:block; flex:1; min-height:0; width:100%; height:0; object-fit:contain; border-radius:16px; background:#e8e7e1; }
 .quest-artifact-picture >span { display:block; color:#6b7566; font-size:14px; margin-top:9px; }
 .quest-artifact-intro >h2 { margin:13px 0 16px; font-size:25px; line-height:1.4; text-align:center; }
 .measure-concepts { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; text-align:center; }
@@ -460,8 +471,7 @@
 .object-quest[data-scene-framing="story"] .workbench-art { aspect-ratio:var(--story-aspect,2.2); object-position:center top; }
 .object-quest[data-scene-framing="story"] .look-listen-story { display:block; white-space:pre-line; }
 .reading-next { margin-top:18px; }
-.object-quest[data-scene-framing="story"] .look-listen-story { border:0; background:none; padding:0 3px; font-size:23px; line-height:1.7; color:#46664f; margin:2px 0 24px; }
-.object-quest[data-scene-framing="story"][data-interaction-kind="look-listen"] .trip-speech { margin-bottom:16px; }
+.object-quest[data-scene-framing="story"] .look-listen-story { border:0; background:none; padding:0; font-size:23px; line-height:1.7; color:#46664f; margin:0; }
 .story-puzzle { padding:10px 8px 8px; border:2px solid #d6d2b3; border-radius:18px; background:#f8f5e6; }
 .story-puzzle >small { display:block; margin-top:5px; text-align:center; color:#8b8067; font-size:12px; }
 .story-puzzle.puzzle-retry { border-color:#ba5a48; background:#fff0e7; }
@@ -525,8 +535,6 @@
 .era-object.era-name-long strong{font-size:clamp(18px,2vw,26px);line-height:1.2}
 
 /* 朝代选项卡的听选项按钮移到卡片外右下角:窄屏与宽屏下长名称(如“开元通宝始铸”)都会被卡片右上角的悬浮按钮压住。 */
-.bench-choice:has(.era-object) { display:flex; flex-direction:column; }
-.bench-choice:has(.era-object) .bench-choice-action { flex:1 0 auto; width:100%; }
 .bench-choice:has(.era-object) .bench-option-sound { position:static; align-self:flex-end; margin-top:8px; }
 
 /* 尺子叠层步骤的身份标签移到左上，避开底部尺子学习图。 */

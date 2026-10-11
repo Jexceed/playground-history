@@ -1,10 +1,23 @@
-.history-lab{padding:16px;background:#fff9e9;border:2px solid #d2bd8b;border-radius:24px;color:#365e50;box-shadow:0 7px #dfd1a9}
-.history-lab-diagram{display:block;width:100%;max-height:305px;border-radius:15px}
-.history-lab-status{font-size:19px;line-height:1.5;text-align:center;min-height:3em;margin:12px 0}
-.history-lab-action{display:block;margin:0 auto;padding:12px 26px;min-height:52px;font-size:21px;font-weight:750;color:white;background:#457666;border:2px solid #305f50;border-radius:16px;box-shadow:0 4px #315348;cursor:pointer}
+.history-lab{padding:14px;background:#fffcf3;border:2px solid #dcc89f;border-radius:var(--layout-card-radius);color:#365e50;box-shadow:0 6px #d9c6a033,0 14px 36px #785d2210}
+.history-lab-diagram{display:block;width:100%;height:min(365px,calc(var(--quest-stage-min-height) - 184px));min-height:260px;border-radius:16px}
+.history-lab-note{padding:8px 10px 0;color:#85754e;font-size:12px;line-height:1.5}
+.history-lab-note summary{width:max-content;max-width:100%;margin:auto;cursor:pointer;min-height:28px;display:list-item;align-content:center}
+.history-lab-note p{margin:8px 0 0;font-size:12px;line-height:1.6}
+.history-lab-controls{display:flex;flex-direction:column;gap:16px;min-width:0}
+.history-lab-observation{padding:20px 24px;background:#f0f4e7;border:1px solid #d6dfc5;border-radius:22px;color:#3b6757}
+.history-lab-observation>span{font-size:12px;letter-spacing:.08em;color:#8b784c;font-weight:700}
+.history-lab-status{font-size:19px;line-height:1.6;margin:8px 0 0;min-height:3.2em}
+.history-lab-trail{display:flex;justify-content:center;gap:8px;height:7px}
+.history-lab-trail i{width:24px;height:6px;border-radius:999px;background:#dfd9c7}
+.history-lab-trail i.done{background:#bda05c}
+.history-lab-action{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;padding:14px 20px;min-height:58px;font-size:20px;line-height:1.4;font-weight:750;color:#fffdf7;background:#26726b;border:0;border-radius:18px;box-shadow:0 5px #174b47;cursor:pointer}
+.history-lab-action>span{font-size:23px}
 .history-lab-action:disabled{background:#d6e6d7;color:#486858;box-shadow:none;cursor:default}
 .history-lab-action:focus-visible{outline:3px solid #bd8739;outline-offset:4px}
-.history-lab small{display:block;text-align:center;margin-top:14px;color:#807555;font-size:12px}
-.bench-choice .history-lab-diagram{height:130px}
-
-.history-lab[data-lab-kind="engine"] .history-lab-diagram{max-height:275px}
+.history-lab-complete{margin:0;padding:10px;text-align:center;color:#507560;font-size:15px;font-weight:700}
+.bench-choice .history-lab-diagram{height:130px;min-height:0}
+.history-lab[data-lab-motion="running"] .history-lab-diagram{filter:saturate(1.08)}
+.history-lab .water-surface,.history-lab .lamp-light{transition:opacity .45s,fill .45s}
+/* The response is already in the speech card; an empty feedback row must not
+   push the next action below the installed App's content area. */
+.object-quest[data-interaction-kind="history-lab"] .workbench-footer .workbench-response-spacer{display:none}

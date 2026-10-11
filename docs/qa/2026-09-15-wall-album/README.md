@@ -48,6 +48,6 @@
 
 新增6段图片说明，当前3014段声音的源文本、合成文本、清单和本地文件逐项匹配。主线五步的故事、题目和操作保持原样，仅扩展材料入口；其他33章逐题稿逐项比较无变化。内容版本仍为0.68.0。
 
-日志：[完整检查](checks.log)、[增量语音](voice-update.log)、[最后打包](final-pack.log)、[相关测试](targeted-tests.log)。结构化结果见[verification.json](verification.json)。备份位置见[baseline.txt](baseline.txt)。真实儿童理解和人工逐段校听仍待进行；不据自动检查宣布全库内容冻结。
+日志：[完整检查](checks.log)、[增量语音](voice-update.log)、[最后打包](final-pack.log)、[相关测试](targeted-tests.log)。结构化结果见[verification.json](verification.json)。备份位置见[baseline.txt](../2026-10-08-macos-app/cleanup.json)。真实儿童理解和人工逐段校听仍待进行；不据自动检查宣布全库内容冻结。
 
 本轮未提交、推送或部署。交付仅为[本机预览](http://127.0.0.1:4173/)。

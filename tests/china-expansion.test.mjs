@@ -54,7 +54,7 @@ test('narrative choices use concrete picture crops, shared between choices and s
    }
   }
  }
- assert.equal(pairs,20);
+ assert.equal(pairs,21);
  const poem=source.chapters.find(c=>c.id.endsWith('li-qingzhao-rumengling')).steps[3].options;
  const identity=o=>o.objectView.panels.map(p=>JSON.stringify({assetId:p.assetId,crop:p.crop}));
  assert.deepEqual(new Set(identity(poem[0])),new Set(identity(poem[1])),'Reordering reuses exactly the same scene crops');

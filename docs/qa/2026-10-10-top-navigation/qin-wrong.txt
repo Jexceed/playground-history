@@ -1,0 +1,46 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 秦统一度量衡
+					9 content list
+						10 button 第1步：从一件真文物找年代, Help: 从一件真文物找年代
+						11 button 第2步：工坊里的两把旧尺, Help: 工坊里的两把旧尺
+						12 button 第3步：桌边还有一个新线索, Help: 桌边还有一个新线索
+						13 button 第4步：把新尺交到你手里, Help: 把新尺交到你手里
+						14 button 第5步：伙伴们也来量一量, Help: 伙伴们也来量一量
+				15 button 暂停声音
+				16 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				17 image 戴圆框眼镜、留齐刘海的绿衣男孩与黄衣男孩、马尾女孩在工坊分享发现，现代故事插画
+				18 text 故事插画
+				19 image 同一块蓝色布
+				20 image 黄色三格尺
+				21 image 青色三格尺
+				22 text 秦朝  ·  伙伴们也来量一量 小伙伴
+				23 heading 这两把长短不同，换一组再试试。, Value: 1
+					24 text 这两把长短不同，换一组再试试。
+				25 button 再听这句回应
+				26 container 带哪一组尺子给伙伴们用？
+					27 toggle button 选择两把不同刻度的尺, Value: on
+					28 button 听两把不同刻度的尺
+					29 toggle button 选择两把同标准的尺, Value: off
+					30 button 听两把同标准的尺
+				31 button 听听怎么玩
+	32 close button
+	33 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	34 minimize button
+	35 text 小小历史旅行团
+36 menu bar
+	37 小小历史旅行团
+	38 File
+	39 Edit
+	40 View
+	41 Window
+	42 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

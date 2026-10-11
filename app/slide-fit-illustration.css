@@ -1,0 +1,23 @@
+.slide-illustration{padding:14px;background:#fffcf3;border:2px solid #dcc89f;border-radius:var(--layout-card-radius);color:#365e50;box-shadow:0 6px #d9c6a033,0 14px 36px #785d2210}
+.slide-illustration-board{width:100%;min-width:0}
+.workbench-scene-column:has(>.real-object-link) .slide-illustration-board{max-width:calc((var(--quest-stage-min-height) - 184px) * 5 / 3);margin-inline:auto}
+.slide-illustration-board>svg{display:block;width:100%;height:auto;border-radius:16px;overflow:visible}
+.slide-illustration-title{fill:#466955;font-size:24px;font-weight:700}
+.slide-illustration-boundary{margin:10px 0 1px;text-align:center;font-size:12px;line-height:1.5;color:#88774f}
+.slide-illustration-movable{touch-action:none;cursor:grab;outline:none}
+.slide-illustration.dragging .slide-illustration-movable{cursor:grabbing}
+.slide-illustration-movable[aria-disabled="true"]{cursor:default}
+.slide-focus-ring{fill:none;stroke:transparent;stroke-width:4}
+.slide-illustration-movable:focus-visible .slide-focus-ring{stroke:#b97a32;stroke-dasharray:5 4}
+.slide-illustration-controls{display:flex;flex-direction:column;gap:18px;padding:20px 24px;background:#f0f4e7;border:1px solid #d6dfc5;border-radius:22px;color:#3b6757}
+.slide-illustration-controls>p{margin:0;font-size:20px;line-height:1.6}
+.slide-illustration-arrows{display:grid;grid-template-columns:56px minmax(0,1fr) 56px;align-items:center;gap:12px}
+.slide-illustration-arrows>button{height:56px;display:grid;place-items:center;border:1px solid #497d66;border-radius:16px;background:#fffdf2;color:#396c58;box-shadow:0 4px #bccbad;cursor:pointer;font-size:28px;font-weight:700}
+.slide-illustration-arrows>button:disabled{cursor:default;box-shadow:none;opacity:.55}
+.slide-illustration-arrows>button:focus-visible{outline:3px solid #b97a32;outline-offset:4px}
+.slide-illustration-arrows>span{text-align:center;font-size:16px;line-height:1.5}
+.slide-illustration-controls.retry{border-color:#b45a45;background:#fff0e7}
+.slide-illustration-controls.retry .slide-illustration-arrows>span{color:#a24533;font-weight:750}
+.slide-illustration-controls.done{border-color:#8eae7e;background:#edf4e4}
+.workbench-family>.slide-illustration-practice{max-width:720px;margin:auto}
+.slide-illustration-practice>.slide-illustration-controls{margin-top:16px}

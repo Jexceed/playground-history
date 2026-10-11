@@ -12,8 +12,16 @@ fs.mkdirSync(stepOutputRoot, { recursive: true });
 
 let generated = 0;
 const generatedStepAssets = new Set();
+const generatedTeachingProps = new Set();
 for (const chapter of manifest.tracks.flatMap((track) => track.chapters)) {
   const detail = JSON.parse(fs.readFileSync(path.join(root, `public/content/chapters/${chapter.id}.json`), "utf8"));
+  for(const prop of detail.assets.filter(item=>item.purpose==='teaching-prop'&&item.runtimePath)){
+    if(generatedTeachingProps.has(prop.id))continue;
+    if(!/^\/images\/history-labs\/[a-z0-9-]+\.png$/.test(prop.runtimePath)||!prop.localPath.endsWith('.png')||prop.clearance!=='cleared-project-created')throw new Error(`Invalid teaching prop: ${prop.id}`);
+    const destination=path.join(root,'public',prop.runtimePath.slice(1));fs.mkdirSync(path.dirname(destination),{recursive:true});
+    execFileSync('sips',['-Z','1200','-s','format','png',path.join(root,prop.localPath),'--out',destination],{stdio:'ignore'});
+    generatedTeachingProps.add(prop.id);
+  }
   const imageAssets = detail.assets.filter((item) => item.localPath && /\.(?:jpe?g|png|tif)$/i.test(item.localPath));
   const stepImageAssets = detail.assets.filter((item) => item.localPath && /\.(?:jpe?g|png|tif|svg)$/i.test(item.localPath));
   const asset = imageAssets.find((item) => item.id === detail.childEntry?.preferredAssetId) ?? imageAssets[0];

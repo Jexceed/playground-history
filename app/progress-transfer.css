@@ -1,0 +1,6 @@
+.progress-transfer { flex-basis:100%; padding-top:12px; border-top:1px solid #d7ddcd; }
+.progress-transfer p { color:#5f7064; margin:0 0 10px; font-size:15px; }
+.progress-transfer-actions { display:flex; gap:10px; flex-wrap:wrap; }
+.progress-transfer-actions button { border:1px solid #609082; background:#fffdf3; color:#275f53; padding:10px 18px; border-radius:12px; cursor:pointer; font-weight:700; }
+.progress-transfer-actions button:disabled { opacity:.5; cursor:wait; }
+.progress-transfer [role="status"] { margin-top:12px; }

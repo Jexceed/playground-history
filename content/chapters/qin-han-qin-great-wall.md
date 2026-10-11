@@ -126,7 +126,7 @@
 2. **连起旧墙，抵御进攻**：“长城长”，小伙伴望着山边的旧墙。秦朝把更早的墙段连接、修补起来，抵御来自北方的进攻。高墙让来进攻的人更难通过，边地也更容易守卫。 [UNESCO-GREAT-WALL; CAS-ANCIENT-INVENTIONS-CHRONOLOGY; PEP-PRIMARY-CHINESE-G2B-2018]
    - 问题或画面短句：连起旧墙，抵御进攻。
    - 操作：看一看旧墙之间的空隙。
-3. **帮旧墙补一段**：工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。 [UNESCO-GREAT-WALL; GUYANG-GOV-QIN-WALL-STRUCTURES]
+3. **帮旧墙补一段**：工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把带绿边的墙段挪到缺口里，让两端接上。 [UNESCO-GREAT-WALL; GUYANG-GOV-QIN-WALL-STRUCTURES]
    - 问题或画面短句：帮旧墙补一段
    - 可选或操作结果：墙段接进了缺口；缺口还错开着。
    - 操作：把绿色模型挪进虚线缺口。

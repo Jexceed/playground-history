@@ -229,7 +229,7 @@ function statusText(value: string) {
   return "待确认";
 }
 
-export function ContentOverview({ onBack }: { onBack: () => void }) {
+export function ContentOverview() {
   const [trackId, setTrackId] = useState(contentManifest.tracks[0].id);
   const [query, setQuery] = useState("");
   const [theme,setTheme]=useState("");
@@ -293,7 +293,6 @@ export function ContentOverview({ onBack }: { onBack: () => void }) {
       <section className="review-detail pop-in" aria-live="polite">
         <div className="review-detail-topbar">
           <button onClick={closeChapter}>← 返回章节目录</button>
-          <button onClick={onBack}>🗺️ 回到时间河</button>
         </div>
 
         {loading && <div className="review-loading"><span />正在打开这一章……</div>}
@@ -498,19 +497,15 @@ export function ContentOverview({ onBack }: { onBack: () => void }) {
 
   return (
     <section className="content-overview pop-in">
-      <div className="overview-topbar">
-        <button onClick={onBack}>🗺️ 回到时间河</button>
-        <span>家长与编辑查看</span>
-      </div>
-
       <header className="overview-hero">
         <div>
-          <p className="eyebrow">本轮试玩范围 · 当前为审核稿</p>
-          <h1>春秋至明清，<br />{contentManifest.totals.chapters}章历史故事</h1>
+          <p className="eyebrow">家长与编辑查看 · 当前为审核稿</p>
+          <h1>春秋至明清，{contentManifest.totals.chapters}章历史故事</h1>
           <p>这里是春秋至明清的{contentManifest.totals.chapters}个中国历史启蒙故事，覆盖部分治理、生活、技术、交往与艺术主题，并非完整通史课程。历史课程标准用于核对题材范围，不把初中的记忆与考试要求搬给学前儿童。其他内容保留源稿，尚不在试玩入口。</p>
         </div>
         <div className="overview-summary">
           <strong>{contentManifest.totals.chapters}</strong><span>章内容</span>
+          <details className="overview-statistics"><summary>查看内容制作统计</summary><div className="overview-statistics-grid">
           <div><b>{contentManifest.totals.facts}</b><small>条事实卡</small></div>
           <div><b>{contentManifest.totals.audioClips}</b><small>段编辑长稿</small></div>
           <div><b>{contentManifest.totals.audioSegments}</b><small>段待正式配音的长稿分段</small></div>
@@ -518,11 +513,13 @@ export function ContentOverview({ onBack }: { onBack: () => void }) {
           <div><b>{contentManifest.totals.localVoiceLines}</b><small>段可播放声音</small></div>
           <div><b>{contentManifest.totals.pronunciationEntries}</b><small>项读音校听</small></div>
           <div><b>{contentManifest.totals.assets}</b><small>项素材</small></div>
+          </div></details>
         </div>
       </header>
 
       <details className="review-coverage"><summary>这{activeTrack.periods.length}站讲了什么，时间怎样衔接？</summary><p>站号帮助选择故事，不表示前一站的所有政权结束后，下一站才开始。每站选取几个具体问题，历史背景与主线取材范围如下。</p><div className="review-period-contexts">{activeTrack.periods.map(period=>period.learningContext&&<article key={period.id}><h2>{period.label}</h2><p><strong>时间与衔接：</strong>{period.learningContext.chronology}</p><p><strong>本轮主线：</strong>{period.learningContext.covered}</p><p><strong>取材范围：</strong>{period.learningContext.scopeBoundary}</p><details><summary>本段依据</summary>{period.learningContext.sources.map(source=><p key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.institution}：{source.title} ↗</a></p>)}</details></article>)}</div></details>
 
+      <details className="review-voice-details"><summary>读音规则与编辑音色小样</summary>
       <section className="voice-reading-guide" aria-labelledby="voice-reading-guide-title">
         <div>
           <p className="eyebrow">试玩声音已生成 · 长讲稿仍待正式定音</p>
@@ -558,18 +555,20 @@ export function ContentOverview({ onBack }: { onBack: () => void }) {
         <p className="voice-audition-note">当前{contentManifest.totals.chapters}章可玩页面已经接入{contentManifest.totals.localVoiceLines}段预生成本地声音，故事、提问与反馈可以在对应步骤暂停和重听。上面的A/B文件保留作音色比较，不影响当前试玩发声。</p>
       </section>
 
-      <div className="overview-note"><b>怎么查看：</b>先选择一条历史线，再打开一章。儿童页面保持大字和语音；事实、来源与素材许可放在家长展开层。</div>
+      </details>
 
-      <nav className="track-tabs" aria-label="本轮内容板块">
+      <p className="overview-note">按主题或关键词查找故事，再打开一章查看学习目标、故事台词和材料出处。</p>
+
+      {contentManifest.tracks.length>1&&<nav className="track-tabs" aria-label="本轮内容板块">
         {contentManifest.tracks.map((track) => (
           <button key={track.id} className={track.id === trackId ? "active" : ""} onClick={() => selectTrack(track.id)}>
             <span>0{track.order}</span><strong>{track.label}</strong><small>{track.chapters.length}章</small>
           </button>
         ))}
-      </nav>
+      </nav>}
 
       <section className="track-heading">
-        <div><p className="eyebrow">{activeTrack.label}</p><h2>{activeTrack.range}</h2></div>
+        <div><p className="eyebrow">{activeTrack.label}</p><h2>{contentManifest.tracks.length===1?'故事目录':activeTrack.range}</h2></div>
         <label><span>搜索本板块</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="输入人物、事件或问题" /></label>
       </section>
 

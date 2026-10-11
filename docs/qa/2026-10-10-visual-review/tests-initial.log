@@ -1,0 +1,453 @@
+
+> chronicle-bureau-prototype@0.1.0 test
+> npm run build && node --experimental-strip-types --test tests/*.test.mjs
+
+
+> chronicle-bureau-prototype@0.1.0 build
+> npm run content:pack && WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build
+
+
+> chronicle-bureau-prototype@0.1.0 content:pack
+> node scripts/prepare-focused-quests.mjs && node scripts/validate-content.mjs && node scripts/build-content-pack.mjs && node scripts/generate-content-thumbnails.mjs && node scripts/audit-gameplay-coherence.mjs
+
+逐题学习图：398 个；44章儿童入口与连续故事同步。
+内容校验通过：7 个课程板块，共 112 章。
+其中：中国史 76 章，世界史 30 章，跨学科 6 章。
+已有详稿 112 章，研究标记verified 103 章（不等于逐条终审），最终审核通过 0 章。
+事实卡 2655 条，另列学习方法 74 项；编辑屏幕 702 屏，语音稿 774 段，互动 357 个。
+低龄兴趣入口 112 章，均含实物入口与地点连接。
+儿童口语词典 97 词，112章均已匹配难词解释。
+配音读音表 202 项、年代读法 7 条，112章均有编辑校听入口。
+来源登记 1044 条，素材登记 981 条，其中已清权本地素材 978 条。
+本机研究素材缓存 976/976 个文件；发布包构建不强制携带原始研究缓存。
+内容包生成完成：7 个板块，112 章。
+章节缩略图生成完成：112 张；步骤图片 327 张。
+结构审计：完整库112章/560步；本轮44章/220步，220张选项图、63个阅读步骤、73个图中提问、88条结束动作。真实儿童审核仍待进行。
+
+  vinext build  (Vite 8.0.13)
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+[1/5] analyze client references...
+[2Ktransforming...✓ 132 modules transformed.
+rendering chunks...
+✓ built in 588ms
+[2/5] analyze server references...
+[2Ktransforming...✓ 128 modules transformed.
+rendering chunks...
+✓ built in 94ms
+[3/5] build rsc environment...
+[2Ktransforming...✓ 138 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 265ms
+[4/5] build client environment...
+[2Ktransforming...✓ 136 modules transformed.
+rendering chunks...
+computing gzip size...
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.09s
+[5/5] build ssr environment...
+[2Ktransforming...✓ 134 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 206ms
+[0m
+  Route (app)
+  ─ ? /
+
+  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+
+  Build complete. Run `vinext start` to start the production server.
+
+✔ the current expansion opens China tasks and routes reference the same existing progress IDs (17.180167ms)
+✔ small bridge openings carry water only when the water level reaches them (0.272834ms)
+✔ the woven model alternates over and under in both directions (0.169083ms)
+✔ narrative choices use concrete picture crops, shared between choices and selected scenes (16.114916ms)
+✔ progress files round-trip with compatible resume and hidden completion records (2.012833ms)
+✔ import merges completion flags and never replaces valid progress with an invalid resume (0.432208ms)
+✔ the desktop package includes every visible asset and voice without hidden chapter files or research originals (76.087334ms)
+✔ local asset extraction rejects traversal and excludes external resources (0.111334ms)
+✔ movable type changes only the middle block and completes after printing (0.828167ms)
+✔ turning the teaching boat preserves the needle direction (0.131958ms)
+✔ time windows replace the appropriate polities and keep Western Xia in both (0.276208ms)
+✔ history labs introduce the full setup before the first action (0.072459ms)
+✔ steam teaching linkage keeps the rod length while motion changes direction (0.100291ms)
+✔ roof ornament seats over the fixing position and reaches the roof (0.0655ms)
+✔ animated engine samples preserve the physical linkage at intermediate angles (0.117125ms)
+✔ all visible task cards use registered historical materials with explicit identity labels (17.997417ms)
+✔ a raster extension or photo-like title cannot qualify a generated or uncleared image as a historical cover (0.379667ms)
+✔ the departure invitation offers a station choice and matches the generated voice text (3.870583ms)
+✔ circle refinement holds its radius while increasing vertices and reducing the gap (1.061917ms)
+✔ five new chapters keep real evidence, distinctive history and the shared five steps (7.04675ms)
+✔ learning coverage refuses missing, duplicate and self-linked chapters (6.25375ms)
+✔ parent review uses current evidence, curated words and matching choice artwork (24.494833ms)
+✔ decision scenes provide the necessary prior state in the voice children actually hear (1.297708ms)
+✔ station introductions preserve overlaps and separate the Qing preview boundary from its end (36.925625ms)
+✔ parent and child share the distinction between answer cards and operation checkpoints (0.100791ms)
+✔ project worksheet rules remain available but are not counted as historical facts (33.531791ms)
+✔ active material explanations keep production notes out of the parent reading layer (15.588834ms)
+✔ album paging keeps each real photo with its own era, narration and sources (6.500458ms)
+✔ the pack rejects an album with missing era or unregistered photo instead of falling back (0.902708ms)
+✔ a scene cannot describe a project illustration as an artifact photograph (3.988333ms)
+✔ artifact detail keeps the original photo and rejects a crop outside it (2.618709ms)
+✔ pause and resume retain position and continue the remaining narration queue (1.970083ms)
+✔ a new answer or navigation cancels old callbacks and every queued clip (0.491792ms)
+✔ a stale play rejection after a quick pause/resume cannot stop resumed audio (1.336583ms)
+✔ media errors and autoplay blocks end the queue with a recoverable state (0.864667ms)
+✔ a loading clip can remain paused until the user resumes it (0.489166ms)
+✔ local progress restores valid steps and preserves legacy completion badges (0.400916ms)
+✔ all quiz choices are stable and audible while scene questions retain their own structure (3.552458ms)
+✔ a focused UI keeps completed records for chapters currently hidden (0.457542ms)
+✔ jumping straight to the final step never manufactures completed steps after reopening (2.030958ms)
+✔ legacy sequential saves retain their position and earlier completed steps (0.220042ms)
+✔ malformed or foreign completion IDs cannot turn a new jump into a legacy sequential save (0.163583ms)
+✔ all 112 chapters finish only after every required step has actually been recorded (1.180667ms)
+✔ an unfinished reading step remains required even after later questions have been solved (0.0795ms)
+✔ native record transfer merges same-chapter step completions without dropping the chosen position (0.182375ms)
+✖ renders only the current China local playtest scope (75.465083ms)
+✔ keeps the complete source library and emits a separate focused UI bundle (69.516708ms)
+✔ focused steps retain authored prompts, appropriate interaction structures and concrete endings (12.335541ms)
+✔ ships a complete local narration pack (350.410792ms)
+✖ keeps narrated image inspection and step badges available in active tasks (1.008917ms)
+✔ packages every navigation and step badge used by the child pages (5.623333ms)
+✔ keeps existing narration files when synthesis fails (2159.405333ms)
+✔ ships two local voice audition profiles before the full narration run (0.746041ms)
+✔ every reading page narrates its full story and can advance in one click (1.70375ms)
+✔ one-click story continuation does not bypass an unanswered quiz or operation (0.360292ms)
+✔ Sui transport links its purpose, dated evidence, distinct work and labour costs (9.975166ms)
+✔ Kaiyuan uses a real two-sided coin and distinguishes the money name from the later era (4.646333ms)
+✔ Zhenguan connects a later book witness to governance, listening and real work (5.382375ms)
+✔ Tang music uses one museum object and ties observation to cultural contact (14.77575ms)
+✔ Xuanzang has distinct dates, translation roles and a later novel (5.459583ms)
+✔ Yan separates original writing traces from an attributed Qing addition (4.232958ms)
+✔ Li Bai keeps whole-poem listening and a later painting distinct from the poet (4.738916ms)
+✔ four Tang chapters retain the shared story and local material/voice contract (22.079917ms)
+✔ viewport audit accepts visible actions and distinguishes unanswered steps from missing navigation (0.843458ms)
+✔ viewport audit rejects a partially offscreen button even when its top is visible (0.086292ms)
+✔ viewport audit rejects obscured, clipped and non-rendered actions (0.070334ms)
+✔ viewport audit refuses a passing result obtained after automatic scrolling (0.048208ms)
+✔ the measuring phrase gets its chosen tones without changing the noun 度量衡 (2.682416ms)
+✔ pointer displacement maps proportionally to the ruler model (0.353084ms)
+✔ the Qin measurement task keeps its real artifact and ruler workbench (6.923709ms)
+✔ the Qin story has departure, discovery and reunion without dropping the artifact (5.266875ms)
+✔ the Great Wall task connects wall-joining, finding guards and choosing a lookout plan (5.873209ms)
+✔ Han travel and paper chapters connect their own historical evidence and actions (4.380375ms)
+✔ Han minting joins a dated policy, real evidence and distinct tool decisions (3.377041ms)
+ℹ tests 74
+ℹ suites 0
+ℹ pass 72
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2727.091625
+
+✖ failing tests:
+
+test at tests/rendered-html.test.mjs:18:1
+✖ renders only the current China local playtest scope (75.465083ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /春秋至明清/. Input:
+  
+  '<!DOCTYPE html><html lang="zh-CN"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" imageSrcSet="/images/history-tour-river-v4.webp 640w, /images/history-tour-river-v4.webp 750w, /images/history-tour-river-v4.webp 828w, /images/history-tour-river-v4.webp 1080w, /images/history-tour-river-v4.webp 1200w, /images/history-tour-river-v4.webp 1920w" imageSizes="(max-width: 700px) 88vw, 430px" fetchPriority="high"/><link rel="stylesheet" href="/assets/index-D89B56U9.css" data-rsc-css-href="/assets/index-D89B56U9.css" data-precedence="vite-rsc/importer-resources"/><link rel="stylesheet" href="/assets/page-BUWtLQZS.css" data-precedence="vite-rsc/client-reference"/><link rel="modulepreload" href="/assets/layout-segment-context-CWONLKfw.js" crossorigin=""/><link rel="modulepreload" href="/assets/rolldown-runtime-S-ySWqyJ.js" crossorigin=""/><link rel="modulepreload" href="/assets/index-CC3e9MRG.js" crossorigin=""/><link rel="modulepreload" href="/assets/framework-CXnKph_e.js" crossorigin=""/><link rel="modulepreload" href="/assets/page-Cv1evayD.js" crossorigin=""/><title>小小历史旅行团｜沿着时间河去探险</title><meta name="description" content="为 4–6 岁孩子设计的语音历史游戏：去洞穴找火种，和唐三彩骆驼逛长安，跟着人物、地点和真文物解开历史谜题。"/><meta property="og:title" content="小小历史旅行团"/><meta property="og:description" content="沿着时间河，跟着人物、地点和真文物去历史里探险"/><meta property="og:image" content="http://127.0.0.1:4173/images/history-tour-social-v4.png"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="小小历史旅行团"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="小小历史旅行团"/><meta name="twitter:description" content="沿着时间河，跟着人物、地点和真文物去历史里探险"/><meta name="twitter:image" content="http://127.0.0.1:4173/images/history-tour-social-v4.png"/><link rel="icon" href="http://127.0.0.1:4173/images/brand/history-trip-icon-32.png?v=2" type="image/png"/><link rel="icon" href="http://127.0.0.1:4173/images/brand/history-trip-logo.png?v=2" sizes="1024x1024" type="image/png"/><link rel="apple-touch-icon" href="http://127.0.0.1:4173/images/brand/history-trip-icon-180.png?v=2"/><script>self.__VINEXT_RSC_PARAMS__={}</script><script>self.__VINEXT_RSC_NAV__={"pathname":"/","searchParams":[]}</script><link rel="modulepreload" href="/assets/index-CC3e9MRG.js" />\n' +
+    '<link rel="preload" href="/assets/_vinext_fonts/geist-8ac0455e797f/geist-ff2310f5.woff2" as="font" type="font/woff2" crossorigin />\n' +
+    '<link rel="preload" href="/assets/_vinext_fonts/geist-8ac0455e797f/geist-875ccdd4.woff2" as="font" type="font/woff2" crossorigin />\n' +
+    '<link rel="preload" href="/assets/_vinext_fonts/geist-8ac0455e797f/geist-52306abf.woff2" as="font" type="font/woff2" crossorigin />\n' +
+    '<link rel="preload" href="/assets/_vinext_fonts/geist-8ac0455e797f/geist-001175b1.woff2" as="font" type="font/woff2" crossorigin />\n' +
+    '<link rel="preload" href="/assets/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2" as="font" type="font/woff2" crossorigin />\n' +
+    '<link rel="preload" href="/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-f6b33328.woff2" as="font" type="font/woff2" crossorigin />\n' +
+    '<link rel="preload" href="/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-44e03052.woff2" as="font" type="font/woff2" crossorigin />\n' +
+    '<link rel="preload" href="/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-0638449e.woff2" as="font" type="font/woff2" crossorigin />\n' +
+    '<link rel="preload" href="/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-971fb274.woff2" as="font" type="font/woff2" crossorigin />\n' +
+    '<link rel="preload" href="/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-44745446.woff2" as="font" type="font/woff2" crossorigin />\n' +
+    '<link rel="preload" href="/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2" as="font" type="font/woff2" crossorigin />\n' +
+    '<style data-vinext-fonts>/* cyrillic-ext */\n' +
+    '@font-face {\n' +
+    "  font-family: 'Geist';\n" +
+    '  font-style: normal;\n' +
+    '  font-weight: 100 900;\n' +
+    '  font-display: swap;\n' +
+    "  src: url(/assets/_vinext_fonts/geist-8ac0455e797f/geist-ff2310f5.woff2) format('woff2');\n" +
+    '  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n' +
+    '}\n' +
+    '/* cyrillic */\n' +
+    '@font-face {\n' +
+    "  font-family: 'Geist';\n" +
+    '  font-style: normal;\n' +
+    '  font-weight: 100 900;\n' +
+    '  font-display: swap;\n' +
+    "  src: url(/assets/_vinext_fonts/geist-8ac0455e797f/geist-875ccdd4.woff2) format('woff2');\n" +
+    '  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n' +
+    '}\n' +
+    '/* vietnamese */\n' +
+    '@font-face {\n' +
+    "  font-family: 'Geist';\n" +
+    '  font-style: normal;\n' +
+    '  font-weight: 100 900;\n' +
+    '  font-display: swap;\n' +
+    "  src: url(/assets/_vinext_fonts/geist-8ac0455e797f/geist-52306abf.woff2) format('woff2');\n" +
+    '  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n' +
+    '}\n' +
+    '/* latin-ext */\n' +
+    '@font-face {\n' +
+    "  font-family: 'Geist';\n" +
+    '  font-style: normal;\n' +
+    '  font-weight: 100 900;\n' +
+    '  font-display: swap;\n' +
+    "  src: url(/assets/_vinext_fonts/geist-8ac0455e797f/geist-001175b1.woff2) format('woff2');\n" +
+    '  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n' +
+    '}\n' +
+    '/* latin */\n' +
+    '@font-face {\n' +
+    "  font-family: 'Geist';\n" +
+    '  font-style: normal;\n' +
+    '  font-weight: 100 900;\n' +
+    '  font-display: swap;\n' +
+    "  src: url(/assets/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2) format('woff2');\n" +
+    '  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n' +
+    '}\n' +
+    '\n' +
+    ".__font_geist_0tvmz3h { font-family: 'Geist', sans-serif; }\n" +
+    '\n' +
+    ".__variable_geist_0tvmz3h { --font-geist-sans: 'Geist', sans-serif; }\n" +
+    '\n' +
+    '/* cyrillic-ext */\n' +
+    '@font-face {\n' +
+    "  font-family: 'Geist Mono';\n" +
+    '  font-style: normal;\n' +
+    '  font-weight: 100 900;\n' +
+    '  font-display: swap;\n' +
+    "  src: url(/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-f6b33328.woff2) format('woff2');\n" +
+    '  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n' +
+    '}\n' +
+    '/* cyrillic */\n' +
+    '@font-face {\n' +
+    "  font-family: 'Geist Mono';\n" +
+    '  font-style: normal;\n' +
+    '  font-weight: 100 900;\n' +
+    '  font-display: swap;\n' +
+    "  src: url(/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-44e03052.woff2) format('woff2');\n" +
+    '  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n' +
+    '}\n' +
+    '/* symbols2 */\n' +
+    '@font-face {\n' +
+    "  font-family: 'Geist Mono';\n" +
+    '  font-style: normal;\n' +
+    '  font-weight: 100 900;\n' +
+    '  font-display: swap;\n' +
+    "  src: url(/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-0638449e.woff2) format('woff2');\n" +
+    '  unicode-range: U+2000-2001, U+2004-2008, U+200A, U+23B8-23BD, U+2500-259F;\n' +
+    '}\n' +
+    '/* vietnamese */\n' +
+    '@font-face {\n' +
+    "  font-family: 'Geist Mono';\n" +
+    '  font-style: normal;\n' +
+    '  font-weight: 100 900;\n' +
+    '  font-display: swap;\n' +
+    "  src: url(/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-971fb274.woff2) format('woff2');\n" +
+    '  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n' +
+    '}\n' +
+    '/* latin-ext */\n' +
+    '@font-face {\n' +
+    "  font-family: 'Geist Mono';\n" +
+    '  font-style: normal;\n' +
+    '  font-weight: 100 900;\n' +
+    '  font-display: swap;\n' +
+    "  src: url(/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-44745446.woff2) format('woff2');\n" +
+    '  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n' +
+    '}\n' +
+    '/* latin */\n' +
+    '@font-face {\n' +
+    "  font-family: 'Geist Mono';\n" +
+    '  font-style: normal;\n' +
+    '  font-weight: 100 900;\n' +
+    '  font-display: swap;\n' +
+    "  src: url(/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2) format('woff2');\n" +
+    '  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n' +
+    '}\n' +
+    '\n' +
+    ".__font_geist_mono_1diim1n { font-family: 'Geist Mono', sans-serif; }\n" +
+    '\n' +
+    ".__variable_geist_mono_1diim1n { --font-geist-mono: 'Geist Mono', sans-serif; }\n" +
+    '</style>\n' +
+    '</head><body class="__variable_geist_0tvmz3h __variable_geist_mono_1diim1n"><main class="history-app river-restored   "><header class="app-header"><div class="header-identity"><div class="brand"><img src="/images/brand/history-trip-logo.png?v=2" alt="" width="40" height="40" loading="lazy" decoding="async" srcSet="/images/brand/history-trip-logo.png?v=2 40w" class="brand-symbol" data-nimg="1"/><div><strong>小小历史旅行团</strong><small>适合4—6岁 · 亲子共学</small></div></div></div><div class="voice-controls"><button class="voice-pause" disabled="" aria-label="暂停声音"><span aria-hidden="true">⏸</span><span>暂停</span></button><button class="voice-switch  " aria-pressed="true" aria-label="声音已开启，点按静音" title="静音"><span aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"></path><path d="M15 8c3 2 3 6 0 8m3-11c5 4 5 10 0 14"></path></svg></span></button></div></header><section class="river-screen pop-in"><div class="river-hero"><div class="river-hero-copy"><p class="eyebrow">小小历史旅行团 · 集合啦</p><h1>沿着时间河<br/><em>去历史里探险！</em></h1><p class="hero-copy">到秦朝量一量布，去长安看唐三彩，再跟着李白抬头望月。每一站，都有<strong>人物、地点和真文物</strong>，还有一个等你解开的谜。</p><div class="hero-river-teaser" aria-label="旅行线索：秦朝、唐三彩、李白的月亮和泉州大船"><span><img src="/images/history-stations/united.webp" alt="" width="450" height="650" loading="lazy" decoding="async" srcSet="/images/history-stations/united.webp 640w, /images/history-stations/united.webp 750w, /images/history-stations/united.webp 828w" data-nimg="1"/><small>秦朝小工坊</small></span><span><img src="/images/history-clue-camel-v2.webp" alt="" width="400" height="650" loading="lazy" decoding="async" srcSet="/images/history-c'... 5668 more characters
+  
+      at TestContext.<anonymous> (file:///Users/chiang/Documents/Projects/history/tests/rendered-html.test.mjs:20:39)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: `<!DOCTYPE html><html lang="zh-CN"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" imageSrcSet="/images/history-tour-river-v4.webp 640w, /images/history-tour-river-v4.webp 750w, /images/history-tour-river-v4.webp 828w, /images/history-tour-river-v4.webp 1080w, /images/history-tour-river-v4.webp 1200w, /images/history-tour-river-v4.webp 1920w" imageSizes="(max-width: 700px) 88vw, 430px" fetchPriority="high"/><link rel="stylesheet" href="/assets/index-D89B56U9.css" data-rsc-css-href="/assets/index-D89B56U9.css" data-precedence="vite-rsc/importer-resources"/><link rel="stylesheet" href="/assets/page-BUWtLQZS.css" data-precedence="vite-rsc/client-reference"/><link rel="modulepreload" href="/assets/layout-segment-context-CWONLKfw.js" crossorigin=""/><link rel="modulepreload" href="/assets/rolldown-runtime-S-ySWqyJ.js" crossorigin=""/><link rel="modulepreload" href="/assets/index-CC3e9MRG.js" crossorigin=""/><link rel="modulepreload" href="/assets/framework-CXnKph_e.js" crossorigin=""/><link rel="modulepreload" href="/assets/page-Cv1evayD.js" crossorigin=""/><title>小小历史旅行团｜沿着时间河去探险</title><meta name="description" content="为 4–6 岁孩子设计的语音历史游戏：去洞穴找火种，和唐三彩骆驼逛长安，跟着人物、地点和真文物解开历史谜题。"/><meta property="og:title" content="小小历史旅行团"/><meta property="og:description" content="沿着时间河，跟着人物、地点和真文物去历史里探险"/><meta property="og:image" content="http://127.0.0.1:4173/images/history-tour-social-v4.png"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="小小历史旅行团"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="小小历史旅行团"/><meta name="twitter:description" content="沿着时间河，跟着人物、地点和真文物去历史里探险"/><meta name="twitter:image" content="http://127.0.0.1:4173/images/history-tour-social-v4.png"/><link rel="icon" href="http://127.0.0.1:4173/images/brand/history-trip-icon-32.png?v=2" type="image/png"/><link rel="icon" href="http://127.0.0.1:4173/images/brand/history-trip-logo.png?v=2" sizes="1024x1024" type="image/png"/><link rel="apple-touch-icon" href="http://127.0.0.1:4173/images/brand/history-trip-icon-180.png?v=2"/><script>self.__VINEXT_RSC_PARAMS__={}</script><script>self.__VINEXT_RSC_NAV__={"pathname":"/","searchParams":[]}</script><link rel="modulepreload" href="/assets/index-CC3e9MRG.js" />\n<link rel="preload" href="/assets/_vinext_fonts/geist-8ac0455e797f/geist-ff2310f5.woff2" as="font" type="font/woff2" crossorigin />\n<link rel="preload" href="/assets/_vinext_fonts/geist-8ac0455e797f/geist-875ccdd4.woff2" as="font" type="font/woff2" crossorigin />\n<link rel="preload" href="/assets/_vinext_fonts/geist-8ac0455e797f/geist-52306abf.woff2" as="font" type="font/woff2" crossorigin />\n<link rel="preload" href="/assets/_vinext_fonts/geist-8ac0455e797f/geist-001175b1.woff2" as="font" type="font/woff2" crossorigin />\n<link rel="preload" href="/assets/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2" as="font" type="font/woff2" crossorigin />\n<link rel="preload" href="/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-f6b33328.woff2" as="font" type="font/woff2" crossorigin />\n<link rel="preload" href="/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-44e03052.woff2" as="font" type="font/woff2" crossorigin />\n<link rel="preload" href="/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-0638449e.woff2" as="font" type="font/woff2" crossorigin />\n<link rel="preload" href="/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-971fb274.woff2" as="font" type="font/woff2" crossorigin />\n<link rel="preload" href="/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-44745446.woff2" as="font" type="font/woff2" crossorigin />\n<link rel="preload" href="/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2" as="font" type="font/woff2" crossorigin />\n<style data-vinext-fonts>/* cyrillic-ext */\n@font-face {\n  font-family: 'Geist';\n  font-style: normal;\n  font-weight: 100 900;\n  font-display: swap;\n  src: url(/assets/_vinext_fonts/geist-8ac0455e797f/geist-ff2310f5.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Geist';\n  font-style: normal;\n  font-weight: 100 900;\n  font-display: swap;\n  src: url(/assets/_vinext_fonts/geist-8ac0455e797f/geist-875ccdd4.woff2) format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Geist';\n  font-style: normal;\n  font-weight: 100 900;\n  font-display: swap;\n  src: url(/assets/_vinext_fonts/geist-8ac0455e797f/geist-52306abf.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Geist';\n  font-style: normal;\n  font-weight: 100 900;\n  font-display: swap;\n  src: url(/assets/_vinext_fonts/geist-8ac0455e797f/geist-001175b1.woff2) format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Geist';\n  font-style: normal;\n  font-weight: 100 900;\n  font-display: swap;\n  src: url(/assets/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n\n.__font_geist_0tvmz3h { font-family: 'Geist', sans-serif; }\n\n.__variable_geist_0tvmz3h { --font-geist-sans: 'Geist', sans-serif; }\n\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Geist Mono';\n  font-style: normal;\n  font-weight: 100 900;\n  font-display: swap;\n  src: url(/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-f6b33328.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Geist Mono';\n  font-style: normal;\n  font-weight: 100 900;\n  font-display: swap;\n  src: url(/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-44e03052.woff2) format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* symbols2 */\n@font-face {\n  font-family: 'Geist Mono';\n  font-style: normal;\n  font-weight: 100 900;\n  font-display: swap;\n  src: url(/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-0638449e.woff2) format('woff2');\n  unicode-range: U+2000-2001, U+2004-2008, U+200A, U+23B8-23BD, U+2500-259F;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Geist Mono';\n  font-style: normal;\n  font-weight: 100 900;\n  font-display: swap;\n  src: url(/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-971fb274.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Geist Mono';\n  font-style: normal;\n  font-weight: 100 900;\n  font-display: swap;\n  src: url(/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-44745446.woff2) format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Geist Mono';\n  font-style: normal;\n  font-weight: 100 900;\n  font-display: swap;\n  src: url(/assets/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n\n.__font_geist_mono_1diim1n { font-family: 'Geist Mono', sans-serif; }\n\n.__variable_geist_mono_1diim1n { --font-geist-mono: 'Geist Mono', sans-serif; }\n</style>\n</head><body class="__variable_geist_0tvmz3h __variable_geist_mono_1diim1n"><main class="history-app river-restored   "><header class="app-header"><div class="header-identity"><div class="brand"><img src="/images/brand/history-trip-logo.png?v=2" alt="" width="40" height="40" loading="lazy" decoding="async" srcSet="/images/brand/history-trip-logo.png?v=2 40w" class="brand-symbol" data-nimg="1"/><div><strong>小小历史旅行团</strong><small>适合4—6岁 · 亲子共学</small></div></div></div><div class="voice-controls"><button class="voice-pause" disabled="" aria-label="暂停声音"><span aria-hidden="true">⏸</span><span>暂停</span></button><button class="voice-switch  " aria-pressed="true" aria-label="声音已开启，点按静音" title="静音"><span aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"></path><path d="M15 8c3 2 3 6 0 8m3-11c5 4 5 10 0 14"></path></svg></span></button></div></header><section class="river-screen pop-in"><div class="river-hero"><div class="river-hero-copy"><p class="eyebrow">小小历史旅行团 · 集合啦</p><h1>沿着时间河<br/><em>去历史里探险！</em></h1><p class="hero-copy">到秦朝量一量布，去长安看唐三彩，再跟着李白抬头望月。每一站，都有<strong>人物、地点和真文物</strong>，还有一个等你解开的谜。</p><div class="hero-river-teaser" aria-label="旅行线索：秦朝、唐三彩、李白的月亮和泉州大船"><span><img src="/images/history-stations/united.webp" alt="" width="450" height="650" loading="lazy" decoding="async" srcSet="/images/history-stations/united.webp 640w, /images/history-stations/united.webp 750w, /images/history-stations/united.webp 828w" data-nimg="1"/><small>秦朝小工坊</small></span><span><img src="/images/history-clue-camel-v2.webp" alt="" width="400" height="650" loading="lazy" decoding="async" srcSet="/images/history-c`... 5668 more characters,
+    expected: /春秋至明清/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests/rendered-html.test.mjs:101:1
+✖ keeps narrated image inspection and step badges available in active tasks (1.008917ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /\.image-lightbox-backdrop \{[^}]*position: fixed;/s. Input:
+  
+  '@import "tailwindcss";\n' +
+    '\n' +
+    ':root {\n' +
+    '  --cream: #fff8e9;\n' +
+    '  --paper: #f1e1bf;\n' +
+    '  --ink: #20312d;\n' +
+    '  --muted: #67766f;\n' +
+    '  --red: #d84d3a;\n' +
+    '  --red-dark: #9e3025;\n' +
+    '  --green: #26726b;\n' +
+    '  --green-dark: #174b47;\n' +
+    '  --green-light: #dcefeb;\n' +
+    '  --yellow: #efb849;\n' +
+    '  --white: #fffdf8;\n' +
+    '  --line: rgba(32, 49, 45, .16);\n' +
+    '  /* App layout contract: one shell, one split, and a shared spacing scale. */\n' +
+    '  --app-content-width: 1220px;\n' +
+    '  --app-reading-width: 960px;\n' +
+    '  --app-side-gutter: 24px;\n' +
+    '  --app-header-height: 80px;\n' +
+    '  --layout-columns: minmax(0, 7fr) minmax(0, 5fr);\n' +
+    '  --layout-column-gap: 32px;\n' +
+    '  --layout-row-gap: 16px;\n' +
+    '  --layout-page-top: 32px;\n' +
+    '  --layout-page-bottom: 24px;\n' +
+    '  --layout-context-height: 24px;\n' +
+    '  --layout-card-inset: 24px;\n' +
+    '  --layout-card-radius: 24px;\n' +
+    '  --dialog-width: 1080px;\n' +
+    '  --dialog-wide-width: 1180px;\n' +
+    '  --dialog-compact-width: 880px;\n' +
+    '  --dialog-inset: 24px;\n' +
+    '  --dialog-border: #bccbb6;\n' +
+    '  --control-height: 44px;\n' +
+    '  --quest-stage-min-height: min(560px, calc(100svh - var(--app-header-height) - var(--layout-page-top) - var(--layout-context-height) - var(--layout-row-gap) - var(--layout-page-bottom)));\n' +
+    '}\n' +
+    '\n' +
+    '* { box-sizing: border-box; }\n' +
+    'html { background: var(--cream); }\n' +
+    'body { margin: 0; color: var(--ink); background: var(--cream); font-family: var(--font-geist-sans), "PingFang SC", "Microsoft YaHei", sans-serif; }\n' +
+    'button, a { -webkit-tap-highlight-color: transparent; }\n' +
+    'button { font: inherit; }\n' +
+    'button:focus-visible, a:focus-visible { outline: 4px solid var(--yellow); outline-offset: 4px; }\n' +
+    '\n' +
+    '.history-app {\n' +
+    '  position: relative;\n' +
+    '  min-height: 100svh;\n' +
+    '  overflow-x: hidden;\n' +
+    '  padding-bottom: 64px;\n' +
+    '  background:\n' +
+    '    radial-gradient(circle at 8% 14%, rgba(239, 184, 73, .2) 0 3px, transparent 4px),\n' +
+    '    radial-gradient(circle at 92% 70%, rgba(38, 114, 107, .13) 0 4px, transparent 5px),\n' +
+    '    linear-gradient(116deg, transparent 0 61%, rgba(241, 225, 191, .48) 61% 100%),\n' +
+    '    var(--cream);\n' +
+    '  background-size: 48px 48px, 62px 62px, auto, auto;\n' +
+    '}\n' +
+    '\n' +
+    '.app-header {\n' +
+    '  width: min(var(--app-content-width), calc(100% - 2 * var(--app-side-gutter)));\n' +
+    '  height: var(--app-header-height);\n' +
+    '  margin: 0 auto;\n' +
+    '  display: grid;\n' +
+    '  grid-template-columns: 1fr auto 1fr;\n' +
+    '  align-items: center;\n' +
+    '  border-bottom: 1px solid var(--line);\n' +
+    '}\n' +
+    '\n' +
+    '.brand { display: flex; align-items: center; gap: 9px; width: max-content; padding: 0; color: var(--ink); background: transparent; border: 0; text-align: left; cursor: pointer; }\n' +
+    '.brand > span { display: grid; place-items: center; width: 34px; height: 34px; color: white; background: var(--red); border-radius: 50% 50% 10px 50%; font: 800 18px "Songti SC", serif; }\n' +
+    '.brand strong, .brand small { display: block; }\n' +
+    '.brand strong { font-size: 14px; letter-spacing: .05em; }\n' +
+    '.brand small { margin-top: 1px; color: var(--muted); font-size: 10px; }\n' +
+    '\n' +
+    '/* 章节顶部：迷你时间河 + 故事步数，让孩子始终看得见自己在历史里的位置 */\n' +
+    '.chapter-nav { display: flex; flex-direction: column; align-items: center; gap: 6px; }\n' +
+    '.mini-river { display: flex; align-items: center; gap: 9px; }\n' +
+    '.mini-river-track { display: flex; align-items: center; gap: 2px; padding: 6px 9px; background: white; border: 2px solid var(--paper); border-radius: 999px; }\n' +
+    '.mini-river-track i { width: 5px; height: 5px; background: var(--paper); border-radius: 50%; }\n' +
+    '.mini-river-track i.past { background: var(--green); }\n' +
+    '.mini-river-track b { position: relative; display: block; width: 26px; height: 31px; line-height: 1; animation: camel-bob 1.6s ease-in-out infinite; }\n' +
+    '.mini-river-track b img { object-fit: contain; }\n' +
+    '.mini-river small { color: var(--muted); font-size: 10px; font-weight: 900; }\n' +
+    '\n' +
+    '.chapter-progress { display: flex; align-items: center; gap: 7px; }\n' +
+    '.chapter-progress i { width: 26px; height: 7px; background: #d8ceb9; border-radius: 999px; }\n' +
+    '.chapter-progress i.done { background: var(--yellow); }\n' +
+    '.chapter-progress span { margin-left: 5px; color: var(--muted); font-size: 11px; font-weight: 900; }\n' +
+    '\n' +
+    '/* 声音默认开启，开关只是一个安静的角落图标；只有被静音时才显示提醒药丸。 */\n' +
+    '.voice-switch { grid-column: 3; justify-self: end; display: flex; align-items: center; justify-content: center; width: 42px; min-height: 42px; padding: 0; color: var(--green); background: rgba(255, 255, 255, .72); border: 2px solid var(--line); border-radius: 50%; cursor: pointer; font-weight: 800; font-size: 12px; }\n' +
+    '.voice-switch > span { font-size: 17px; line-height: 1; }\n' +
+    '.voice-switch em { font-style: normal; }\n' +
+    '.voice-switch:hover { border-color: var(--green); }\n' +
+    '.voice-switch.playing { color: var(--green-dark); background: var(--green-light); border-color: var(--green); }\n' +
+    '.voice-switch.playing > span { animation: voice-pulse .8s ease-in-out infinite; }\n' +
+    '.voice-switch.muted { width: auto; min-height: 40px; gap: 6px; padding: 0 13px; color: var(--red-dark); background: white; border-color: rgba(216, 77, 58, .5); border-radius: 999px; }\n' +
+    '.voice-notice { position: sticky; z-index: 25; top: 8px; width: min(620px, calc(100% - 32px)); margin: 10px auto -2px; padding: 10px 14px; color: var(--red-dark); background: #fff0bd; border: 2px solid var(--yellow); border-radius: 999px; box-shadow: 0 8px 20px rgba(74, 55, 33, .12); font-size: 11px; font-weight: 900; text-align: center; }\n' +
+    '\n' +
+    '.river-screen, .chapter-cover, .story-step, .chapter-finish, .quest-cover { width: min(1220px, calc(100% - 48px)); margin: 0 auto; }\n' +
+    '.river-screen { padding: 30px 0 72px; }\n' +
+    '.river-hero { display: grid; grid-template-columns: 1.08fr .92fr; gap: 54px; align-items: center; min-height: calc(100svh - 90px); }\n' +
+    '.river-hero-copy { position: relative; z-index: 1; }\n' +
+    '.eyebrow { margin: 0 0 16px; color: var(--red-dark); font-size: 13px; font-weight: 900; letter-spacing: .14em; }\n' +
+    '\n' +
+    '.river-hero h1, .chapter-intro h1, .story-copy h2, .chapter-finish h1, .river-map-heading h2 {\n' +
+    '  margin: 0;\n' +
+    '  font-family: "Songti SC", "STSong", "Noto Serif SC", serif;\n' +
+    '  font-weight: 900;\n' +
+    '  line-height: 1.06;\n' +
+    '  letter-spacing: -.045em;\n' +
+    '}\n' +
+    '.river-hero h1 { max-width: 720px; font-size: clamp(52px, 6.4vw, 88px); }\n' +
+    '.river-hero h1 em { color: var(--green); font-style: normal; }\n' +
+    '.hero-copy { max-width: 670px; margin: 22px 0 18px; color: var(--muted); font-size: 18px; line-height: 1.75; }\n' +
+    '.hero-copy strong { color: var(--red-dark); }\n' +
+    '.hero-actions { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }\n' +
+    '.primary-action, .secondary-action, .next-button, .audio-action, .listen-button { border: 0; cursor: pointer; font-weight: 900; }\n' +
+    '.primary-action { display: flex; align-items: center; gap: 12px; min-height: 68px; padding: 0 26px 0 11px; color: white; background: var(--red); border-radius: 999px; box-shadow: 0 9px 0 var(--red-dark); font-size: 18px; }\n' +
+    '.primary-action span { display: grid; place-items: center; width: 48px; height: 48px; background: white; border-radius: 50%; font-size: 24px; }\n' +
+    '.audio-action, .listen-button { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height: 50px; padding: 0 18px; color: var(--green); background: var(--green-light); border: 2px solid var(--green); border-radius: 999px; font-size: 15px; }\n' +
+    '.listen-button.large { min-height: 56px; padding: 0 24px; font-size: 16px; }\n' +
+    '.basis-note { display: block; max-width: 500px; margin-top: 26px; color: var(--muted); font-size: 11px; line-height: 1.6; }\n' +
+    '\n' +
+    '.hero-object { position: relative; height: min(57vh, 560px); overflow: hidden; background: white; border-radius: 28px 8px 28px 8px; box-shadow: 0 24px 60px rgba(74, 55, 33, .16); }\n' +
+    '.hero-object img, .chapter-photo img, .story-visual img { display: block; width: 100%; height: 100%; object-fit: contain; }\n' +
+    '.real-badge { position: absolute; left: 18px; top: 18px; padding: 9px 13px; color: white; background: var(--green); border-radius: 999px; font-size: 12px; font-weight: 900; letter-spacing: .04em; }\n' +
+    '.camel-bubble { position: absolute; right: 16px; top: 16px; padding: 12px 16px; color: var(--ink); background: white; border: 3px solid var(--ink); border-radius: 18px 18px 4px 18px; box-shadow: 0 10px 22px rgba(74, 55, 33, .18); font-size: 15px; font-weight: 900; line-height: 1.5; animation: camel-bob 2.2s ease-in-out infinite; }\n' +
+    '.object-label { position: absolute; right: 18px; bottom: 18px; padding: 14px 16px; color: white; background: rgba(32, 49, 45, .93); border-radius: 6px 18px 6px 6px; }\n' +
+    '.object-label strong, .object-label span { display: block; }\n' +
+    '.object-label strong { font-size: 11px; }\n' +
+    '.object-label span { margin-top: 4px; font: 900 19px "Songti SC", serif; }\n' +
+    '\n' +
+    '/* 首屏先让孩子看见旅行：一条可辨认的河、四个具体线索，以及真实遗产接上插画旅程。 */\n' +
+    '.hero-river-teaser { position: relative; display: grid; grid-template-columns: repeat(4, 1fr); max-width: 640px; min-height: 130px; margin: 4px 0 22px; padding: 4px 12px; isolation: isolate; }\n' +
+    '.hero-river-teaser::before { content: ""; position: absolute; z-index: -1; left: 1%; right: 1%; top: 49px; height: 44px; background: linear-gradient(90deg, #d6f4ef, #72d1d3 50%, #b9ebf5); border: 3px solid #087e91; border-radius: 65% 35% 58% 42% / 58% 52% 48% 42%; transform: rotate(-1.5deg); }\n' +
+    '.hero-river-teaser span { display: flex; flex-direction: column; align-items: center; gap: 5px; color: var(--green-dark); font-size: 11px; font-weight: 900; text-align: center; }\n' +
+    '.hero-river-teaser span:nth-child(even) { transform: translateY(13px); }\n' +
+    '.hero-river-teaser img { display: block; width: 78px; height: 88px; object-fit: contain; filter: drop-shadow(0 7px 0 rgba(23, 75, 71, .15)); }\n' +
+    '.hero-river-teaser small { padding: 5px 8px; color: var(--ink); background: rgba(255, 248, 233, .96); border: 2px solid rgba(32, 49, 45, .12); border-radius: 999px; font-size: 10px; white-space: nowrap; }\n' +
+    '.hero-zine { justify-self: end; width: min(430px, 100%); margin: 0; transform: rotate(1deg); }\n' +
+    '.hero-zine-frame { position: relative; overflow: hidden; background: #dff7f5; border: 4px solid #143d68; border-radius: 34px 10px 34px 10px; box-shadow: 15px 18px 0 #f6c74e, -9px -8px 0 rgba(90, 203, 207, .42), 0 28px 60px rgba(20, 61, 104, .18); }\n' +
+    '.hero-zine img { display: block; width: 100%; aspect-ratio: 3 / 5; object-fit: cover; }\n' +
+    '.hero-zine-stamp { position: absolute; right: 18px; top: 18px; padding: 11px 15px; color: white; bac'... 106036 more characters
+  
+      at TestContext.<anonymous> (file:///Users/chiang/Documents/Projects/history/tests/rendered-html.test.mjs:113:10)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '@import "tailwindcss";\n\n:root {\n  --cream: #fff8e9;\n  --paper: #f1e1bf;\n  --ink: #20312d;\n  --muted: #67766f;\n  --red: #d84d3a;\n  --red-dark: #9e3025;\n  --green: #26726b;\n  --green-dark: #174b47;\n  --green-light: #dcefeb;\n  --yellow: #efb849;\n  --white: #fffdf8;\n  --line: rgba(32, 49, 45, .16);\n  /* App layout contract: one shell, one split, and a shared spacing scale. */\n  --app-content-width: 1220px;\n  --app-reading-width: 960px;\n  --app-side-gutter: 24px;\n  --app-header-height: 80px;\n  --layout-columns: minmax(0, 7fr) minmax(0, 5fr);\n  --layout-column-gap: 32px;\n  --layout-row-gap: 16px;\n  --layout-page-top: 32px;\n  --layout-page-bottom: 24px;\n  --layout-context-height: 24px;\n  --layout-card-inset: 24px;\n  --layout-card-radius: 24px;\n  --dialog-width: 1080px;\n  --dialog-wide-width: 1180px;\n  --dialog-compact-width: 880px;\n  --dialog-inset: 24px;\n  --dialog-border: #bccbb6;\n  --control-height: 44px;\n  --quest-stage-min-height: min(560px, calc(100svh - var(--app-header-height) - var(--layout-page-top) - var(--layout-context-height) - var(--layout-row-gap) - var(--layout-page-bottom)));\n}\n\n* { box-sizing: border-box; }\nhtml { background: var(--cream); }\nbody { margin: 0; color: var(--ink); background: var(--cream); font-family: var(--font-geist-sans), "PingFang SC", "Microsoft YaHei", sans-serif; }\nbutton, a { -webkit-tap-highlight-color: transparent; }\nbutton { font: inherit; }\nbutton:focus-visible, a:focus-visible { outline: 4px solid var(--yellow); outline-offset: 4px; }\n\n.history-app {\n  position: relative;\n  min-height: 100svh;\n  overflow-x: hidden;\n  padding-bottom: 64px;\n  background:\n    radial-gradient(circle at 8% 14%, rgba(239, 184, 73, .2) 0 3px, transparent 4px),\n    radial-gradient(circle at 92% 70%, rgba(38, 114, 107, .13) 0 4px, transparent 5px),\n    linear-gradient(116deg, transparent 0 61%, rgba(241, 225, 191, .48) 61% 100%),\n    var(--cream);\n  background-size: 48px 48px, 62px 62px, auto, auto;\n}\n\n.app-header {\n  width: min(var(--app-content-width), calc(100% - 2 * var(--app-side-gutter)));\n  height: var(--app-header-height);\n  margin: 0 auto;\n  display: grid;\n  grid-template-columns: 1fr auto 1fr;\n  align-items: center;\n  border-bottom: 1px solid var(--line);\n}\n\n.brand { display: flex; align-items: center; gap: 9px; width: max-content; padding: 0; color: var(--ink); background: transparent; border: 0; text-align: left; cursor: pointer; }\n.brand > span { display: grid; place-items: center; width: 34px; height: 34px; color: white; background: var(--red); border-radius: 50% 50% 10px 50%; font: 800 18px "Songti SC", serif; }\n.brand strong, .brand small { display: block; }\n.brand strong { font-size: 14px; letter-spacing: .05em; }\n.brand small { margin-top: 1px; color: var(--muted); font-size: 10px; }\n\n/* 章节顶部：迷你时间河 + 故事步数，让孩子始终看得见自己在历史里的位置 */\n.chapter-nav { display: flex; flex-direction: column; align-items: center; gap: 6px; }\n.mini-river { display: flex; align-items: center; gap: 9px; }\n.mini-river-track { display: flex; align-items: center; gap: 2px; padding: 6px 9px; background: white; border: 2px solid var(--paper); border-radius: 999px; }\n.mini-river-track i { width: 5px; height: 5px; background: var(--paper); border-radius: 50%; }\n.mini-river-track i.past { background: var(--green); }\n.mini-river-track b { position: relative; display: block; width: 26px; height: 31px; line-height: 1; animation: camel-bob 1.6s ease-in-out infinite; }\n.mini-river-track b img { object-fit: contain; }\n.mini-river small { color: var(--muted); font-size: 10px; font-weight: 900; }\n\n.chapter-progress { display: flex; align-items: center; gap: 7px; }\n.chapter-progress i { width: 26px; height: 7px; background: #d8ceb9; border-radius: 999px; }\n.chapter-progress i.done { background: var(--yellow); }\n.chapter-progress span { margin-left: 5px; color: var(--muted); font-size: 11px; font-weight: 900; }\n\n/* 声音默认开启，开关只是一个安静的角落图标；只有被静音时才显示提醒药丸。 */\n.voice-switch { grid-column: 3; justify-self: end; display: flex; align-items: center; justify-content: center; width: 42px; min-height: 42px; padding: 0; color: var(--green); background: rgba(255, 255, 255, .72); border: 2px solid var(--line); border-radius: 50%; cursor: pointer; font-weight: 800; font-size: 12px; }\n.voice-switch > span { font-size: 17px; line-height: 1; }\n.voice-switch em { font-style: normal; }\n.voice-switch:hover { border-color: var(--green); }\n.voice-switch.playing { color: var(--green-dark); background: var(--green-light); border-color: var(--green); }\n.voice-switch.playing > span { animation: voice-pulse .8s ease-in-out infinite; }\n.voice-switch.muted { width: auto; min-height: 40px; gap: 6px; padding: 0 13px; color: var(--red-dark); background: white; border-color: rgba(216, 77, 58, .5); border-radius: 999px; }\n.voice-notice { position: sticky; z-index: 25; top: 8px; width: min(620px, calc(100% - 32px)); margin: 10px auto -2px; padding: 10px 14px; color: var(--red-dark); background: #fff0bd; border: 2px solid var(--yellow); border-radius: 999px; box-shadow: 0 8px 20px rgba(74, 55, 33, .12); font-size: 11px; font-weight: 900; text-align: center; }\n\n.river-screen, .chapter-cover, .story-step, .chapter-finish, .quest-cover { width: min(1220px, calc(100% - 48px)); margin: 0 auto; }\n.river-screen { padding: 30px 0 72px; }\n.river-hero { display: grid; grid-template-columns: 1.08fr .92fr; gap: 54px; align-items: center; min-height: calc(100svh - 90px); }\n.river-hero-copy { position: relative; z-index: 1; }\n.eyebrow { margin: 0 0 16px; color: var(--red-dark); font-size: 13px; font-weight: 900; letter-spacing: .14em; }\n\n.river-hero h1, .chapter-intro h1, .story-copy h2, .chapter-finish h1, .river-map-heading h2 {\n  margin: 0;\n  font-family: "Songti SC", "STSong", "Noto Serif SC", serif;\n  font-weight: 900;\n  line-height: 1.06;\n  letter-spacing: -.045em;\n}\n.river-hero h1 { max-width: 720px; font-size: clamp(52px, 6.4vw, 88px); }\n.river-hero h1 em { color: var(--green); font-style: normal; }\n.hero-copy { max-width: 670px; margin: 22px 0 18px; color: var(--muted); font-size: 18px; line-height: 1.75; }\n.hero-copy strong { color: var(--red-dark); }\n.hero-actions { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }\n.primary-action, .secondary-action, .next-button, .audio-action, .listen-button { border: 0; cursor: pointer; font-weight: 900; }\n.primary-action { display: flex; align-items: center; gap: 12px; min-height: 68px; padding: 0 26px 0 11px; color: white; background: var(--red); border-radius: 999px; box-shadow: 0 9px 0 var(--red-dark); font-size: 18px; }\n.primary-action span { display: grid; place-items: center; width: 48px; height: 48px; background: white; border-radius: 50%; font-size: 24px; }\n.audio-action, .listen-button { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height: 50px; padding: 0 18px; color: var(--green); background: var(--green-light); border: 2px solid var(--green); border-radius: 999px; font-size: 15px; }\n.listen-button.large { min-height: 56px; padding: 0 24px; font-size: 16px; }\n.basis-note { display: block; max-width: 500px; margin-top: 26px; color: var(--muted); font-size: 11px; line-height: 1.6; }\n\n.hero-object { position: relative; height: min(57vh, 560px); overflow: hidden; background: white; border-radius: 28px 8px 28px 8px; box-shadow: 0 24px 60px rgba(74, 55, 33, .16); }\n.hero-object img, .chapter-photo img, .story-visual img { display: block; width: 100%; height: 100%; object-fit: contain; }\n.real-badge { position: absolute; left: 18px; top: 18px; padding: 9px 13px; color: white; background: var(--green); border-radius: 999px; font-size: 12px; font-weight: 900; letter-spacing: .04em; }\n.camel-bubble { position: absolute; right: 16px; top: 16px; padding: 12px 16px; color: var(--ink); background: white; border: 3px solid var(--ink); border-radius: 18px 18px 4px 18px; box-shadow: 0 10px 22px rgba(74, 55, 33, .18); font-size: 15px; font-weight: 900; line-height: 1.5; animation: camel-bob 2.2s ease-in-out infinite; }\n.object-label { position: absolute; right: 18px; bottom: 18px; padding: 14px 16px; color: white; background: rgba(32, 49, 45, .93); border-radius: 6px 18px 6px 6px; }\n.object-label strong, .object-label span { display: block; }\n.object-label strong { font-size: 11px; }\n.object-label span { margin-top: 4px; font: 900 19px "Songti SC", serif; }\n\n/* 首屏先让孩子看见旅行：一条可辨认的河、四个具体线索，以及真实遗产接上插画旅程。 */\n.hero-river-teaser { position: relative; display: grid; grid-template-columns: repeat(4, 1fr); max-width: 640px; min-height: 130px; margin: 4px 0 22px; padding: 4px 12px; isolation: isolate; }\n.hero-river-teaser::before { content: ""; position: absolute; z-index: -1; left: 1%; right: 1%; top: 49px; height: 44px; background: linear-gradient(90deg, #d6f4ef, #72d1d3 50%, #b9ebf5); border: 3px solid #087e91; border-radius: 65% 35% 58% 42% / 58% 52% 48% 42%; transform: rotate(-1.5deg); }\n.hero-river-teaser span { display: flex; flex-direction: column; align-items: center; gap: 5px; color: var(--green-dark); font-size: 11px; font-weight: 900; text-align: center; }\n.hero-river-teaser span:nth-child(even) { transform: translateY(13px); }\n.hero-river-teaser img { display: block; width: 78px; height: 88px; object-fit: contain; filter: drop-shadow(0 7px 0 rgba(23, 75, 71, .15)); }\n.hero-river-teaser small { padding: 5px 8px; color: var(--ink); background: rgba(255, 248, 233, .96); border: 2px solid rgba(32, 49, 45, .12); border-radius: 999px; font-size: 10px; white-space: nowrap; }\n.hero-zine { justify-self: end; width: min(430px, 100%); margin: 0; transform: rotate(1deg); }\n.hero-zine-frame { position: relative; overflow: hidden; background: #dff7f5; border: 4px solid #143d68; border-radius: 34px 10px 34px 10px; box-shadow: 15px 18px 0 #f6c74e, -9px -8px 0 rgba(90, 203, 207, .42), 0 28px 60px rgba(20, 61, 104, .18); }\n.hero-zine img { display: block; width: 100%; aspect-ratio: 3 / 5; object-fit: cover; }\n.hero-zine-stamp { position: absolute; right: 18px; top: 18px; padding: 11px 15px; color: white; bac'... 106036 more characters,
+    expected: /\.image-lightbox-backdrop \{[^}]*position: fixed;/s,
+    operator: 'match',
+    diff: 'simple'
+  }

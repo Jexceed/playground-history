@@ -1,0 +1,20 @@
+[package]
+name = "history-trip"
+version = "0.1.0"
+description = "小小历史旅行团 macOS application"
+authors = ["Jexceed <yijiang.sei@pku.edu.cn>"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "=2.6.3", features = [] }
+
+[dependencies]
+tauri = { version = "=2.11.5", features = [] }
+tauri-plugin-dialog = "2"
+serde_json = "1"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = true

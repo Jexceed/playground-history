@@ -23,7 +23,7 @@
 
 `npm run check:local`退出0：严格素材校验、打包与全103章/515步结构审计、构建、39项测试、lint及界面类型检查通过。声音清单3057项的显示文本、合成文本及MP3文件完整性核对通过，未重生成声音。HTTP响应200，浏览器实际地址正确，最终停留在第三站五章入口。
 
-日志见 [check.log](check.log)、[pack.log](pack.log)，范围与声音核对见 [verification.json](verification.json)，轮初备份位置见 [baseline.txt](baseline.txt)。人耳逐条校听、真实儿童理解与正式内容冻结仍未完成。
+日志见 [check.log](check.log)、[pack.log](pack.log)，范围与声音核对见 [verification.json](verification.json)，轮初备份位置见 [baseline.txt](../2026-10-08-macos-app/cleanup.json)。人耳逐条校听、真实儿童理解与正式内容冻结仍未完成。
 
 ## 暂停点
 

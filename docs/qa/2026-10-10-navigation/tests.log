@@ -1,0 +1,147 @@
+
+> chronicle-bureau-prototype@0.1.0 test
+> npm run build && node --experimental-strip-types --test tests/*.test.mjs
+
+
+> chronicle-bureau-prototype@0.1.0 build
+> npm run content:pack && WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build
+
+
+> chronicle-bureau-prototype@0.1.0 content:pack
+> node scripts/prepare-focused-quests.mjs && node scripts/validate-content.mjs && node scripts/build-content-pack.mjs && node scripts/generate-content-thumbnails.mjs && node scripts/audit-gameplay-coherence.mjs
+
+逐题学习图：398 个；44章儿童入口与连续故事同步。
+内容校验通过：7 个课程板块，共 112 章。
+其中：中国史 76 章，世界史 30 章，跨学科 6 章。
+已有详稿 112 章，研究标记verified 103 章（不等于逐条终审），最终审核通过 0 章。
+事实卡 2655 条，另列学习方法 74 项；编辑屏幕 702 屏，语音稿 774 段，互动 357 个。
+低龄兴趣入口 112 章，均含实物入口与地点连接。
+儿童口语词典 97 词，112章均已匹配难词解释。
+配音读音表 202 项、年代读法 7 条，112章均有编辑校听入口。
+来源登记 1044 条，素材登记 981 条，其中已清权本地素材 978 条。
+本机研究素材缓存 976/976 个文件；发布包构建不强制携带原始研究缓存。
+内容包生成完成：7 个板块，112 章。
+章节缩略图生成完成：112 张；步骤图片 327 张。
+结构审计：完整库112章/560步；本轮44章/220步，220张选项图、63个阅读步骤、73个图中提问、88条结束动作。真实儿童审核仍待进行。
+
+  vinext build  (Vite 8.0.13)
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+[1/5] analyze client references...
+[2Ktransforming...✓ 132 modules transformed.
+rendering chunks...
+✓ built in 588ms
+[2/5] analyze server references...
+[2Ktransforming...✓ 126 modules transformed.
+rendering chunks...
+✓ built in 99ms
+[3/5] build rsc environment...
+[2Ktransforming...✓ 138 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 311ms
+[4/5] build client environment...
+[2Ktransforming...✓ 134 modules transformed.
+rendering chunks...
+computing gzip size...
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.11s
+[5/5] build ssr environment...
+[2Ktransforming...✓ 132 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 186ms
+[0m
+  Route (app)
+  ─ ? /
+
+  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+
+  Build complete. Run `vinext start` to start the production server.
+
+✔ the current expansion opens China tasks and routes reference the same existing progress IDs (16.3655ms)
+✔ small bridge openings carry water only when the water level reaches them (0.375792ms)
+✔ the woven model alternates over and under in both directions (0.210125ms)
+✔ narrative choices use concrete picture crops, shared between choices and selected scenes (14.321042ms)
+✔ progress files round-trip with compatible resume and hidden completion records (2.911375ms)
+✔ import merges completion flags and never replaces valid progress with an invalid resume (0.39325ms)
+✔ the desktop package includes every visible asset and voice without hidden chapter files or research originals (68.826041ms)
+✔ local asset extraction rejects traversal and excludes external resources (0.128375ms)
+✔ movable type changes only the middle block and completes after printing (0.66575ms)
+✔ turning the teaching boat preserves the needle direction (0.152167ms)
+✔ time windows replace the appropriate polities and keep Western Xia in both (0.465167ms)
+✔ history labs introduce the full setup before the first action (0.119542ms)
+✔ steam teaching linkage keeps the rod length while motion changes direction (0.125834ms)
+✔ roof ornament seats over the fixing position and reaches the roof (0.065334ms)
+✔ animated engine samples preserve the physical linkage at intermediate angles (0.203708ms)
+✔ all visible task cards use registered historical materials with explicit identity labels (16.620916ms)
+✔ a raster extension or photo-like title cannot qualify a generated or uncleared image as a historical cover (0.342417ms)
+✔ the departure invitation offers a station choice and matches the generated voice text (3.614375ms)
+✔ circle refinement holds its radius while increasing vertices and reducing the gap (1.11125ms)
+✔ five new chapters keep real evidence, distinctive history and the shared five steps (5.898458ms)
+✔ learning coverage refuses missing, duplicate and self-linked chapters (2.328417ms)
+✔ parent review uses current evidence, curated words and matching choice artwork (23.456833ms)
+✔ decision scenes provide the necessary prior state in the voice children actually hear (1.322208ms)
+✔ station introductions preserve overlaps and separate the Qing preview boundary from its end (34.600417ms)
+✔ parent and child share the distinction between answer cards and operation checkpoints (0.092625ms)
+✔ project worksheet rules remain available but are not counted as historical facts (33.333125ms)
+✔ active material explanations keep production notes out of the parent reading layer (14.280125ms)
+✔ album paging keeps each real photo with its own era, narration and sources (7.362458ms)
+✔ the pack rejects an album with missing era or unregistered photo instead of falling back (0.696042ms)
+✔ a scene cannot describe a project illustration as an artifact photograph (3.138333ms)
+✔ artifact detail keeps the original photo and rejects a crop outside it (2.812417ms)
+✔ pause and resume retain position and continue the remaining narration queue (2.427792ms)
+✔ a new answer or navigation cancels old callbacks and every queued clip (0.450375ms)
+✔ a stale play rejection after a quick pause/resume cannot stop resumed audio (0.417541ms)
+✔ media errors and autoplay blocks end the queue with a recoverable state (0.441958ms)
+✔ a loading clip can remain paused until the user resumes it (0.703375ms)
+✔ local progress restores valid steps and preserves legacy completion badges (0.285416ms)
+✔ all quiz choices are stable and audible while scene questions retain their own structure (3.686291ms)
+✔ a focused UI keeps completed records for chapters currently hidden (0.44825ms)
+✔ renders only the current China local playtest scope (76.468334ms)
+✔ keeps the complete source library and emits a separate focused UI bundle (64.808166ms)
+✔ focused steps retain authored prompts, appropriate interaction structures and concrete endings (11.520791ms)
+✔ ships a complete local narration pack (333.1305ms)
+✔ keeps narrated image inspection and step badges available in active tasks (0.615458ms)
+✔ packages every navigation and step badge used by the child pages (1.216417ms)
+✔ keeps existing narration files when synthesis fails (2151.725209ms)
+✔ ships two local voice audition profiles before the full narration run (0.588375ms)
+✔ every reading page narrates its full story and can advance in one click (1.672333ms)
+✔ one-click story continuation does not bypass an unanswered quiz or operation (0.278458ms)
+✔ Sui transport links its purpose, dated evidence, distinct work and labour costs (7.90775ms)
+✔ Kaiyuan uses a real two-sided coin and distinguishes the money name from the later era (7.027167ms)
+✔ Zhenguan connects a later book witness to governance, listening and real work (5.423542ms)
+✔ Tang music uses one museum object and ties observation to cultural contact (8.42025ms)
+✔ Xuanzang has distinct dates, translation roles and a later novel (7.018084ms)
+✔ Yan separates original writing traces from an attributed Qing addition (3.817584ms)
+✔ Li Bai keeps whole-poem listening and a later painting distinct from the poet (4.794042ms)
+✔ four Tang chapters retain the shared story and local material/voice contract (19.262542ms)
+✔ viewport audit accepts visible actions and distinguishes unanswered steps from missing navigation (0.594584ms)
+✔ viewport audit rejects a partially offscreen button even when its top is visible (0.0565ms)
+✔ viewport audit rejects obscured, clipped and non-rendered actions (0.057166ms)
+✔ viewport audit refuses a passing result obtained after automatic scrolling (0.040458ms)
+✔ the measuring phrase gets its chosen tones without changing the noun 度量衡 (4.283375ms)
+✔ pointer displacement maps proportionally to the ruler model (0.522709ms)
+✔ the Qin measurement task keeps its real artifact and ruler workbench (6.988292ms)
+✔ the Qin story has departure, discovery and reunion without dropping the artifact (5.856166ms)
+✔ the Great Wall task connects wall-joining, finding guards and choosing a lookout plan (5.889375ms)
+✔ Han travel and paper chapters connect their own historical evidence and actions (4.416ms)
+✔ Han minting joins a dated policy, real evidence and distinct tool decisions (5.414708ms)
+ℹ tests 68
+ℹ suites 0
+ℹ pass 68
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2688.1745

@@ -150,7 +150,7 @@
       "id": "journey",
       "icon": "🧭",
       "label": "帮旧墙补一段",
-      "text": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。"
+      "text": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把带绿边的墙段挪到缺口里，让两端接上。"
     },
     {
       "id": "change",
@@ -970,9 +970,9 @@
         "interaction": {
           "kind": "slide-fit",
           "scene": "wall-join",
-          "hint": "把绿色模型挪进虚线缺口。",
+          "hint": "把带绿边的墙段挪进虚线缺口。",
           "copy": "模型接齐两端，真实修墙要逐步筑造。",
-          "ariaLabel": "移动模型墙段，让两端接上",
+          "ariaLabel": "移动带绿边的墙段，让两端接上",
           "placement": "panel"
         },
         "narrative": {
@@ -990,9 +990,9 @@
         "story": {
           "screenNumber": 3,
           "title": "帮旧墙补一段",
-          "screenText": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。",
-          "displayText": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。",
-          "narration": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。"
+          "screenText": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把带绿边的墙段挪到缺口里，让两端接上。",
+          "displayText": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把带绿边的墙段挪到缺口里，让两端接上。",
+          "narration": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把带绿边的墙段挪到缺口里，让两端接上。"
         },
         "assetId": "study-4a50c7703ecc0563",
         "image": "/content/study-scenes/study-4a50c7703ecc0563.svg",
@@ -1003,16 +1003,16 @@
         "imageBoundary": "自制学习示意。小伙伴、工匠、守卫和关口场景是虚构教学故事，不是秦代现场、真实人物自述或服饰建筑复原。长城帮助抵御外来的进攻，但并非不可越过，也不会自动防御。接墙是学习模型，不表示真墙可以整段搬起。金山岭照片为后来的明代墙段，不作秦长城原貌；汉代玉门关不用于说明秦墙演变。《神州谣》用于引发观察，不提供秦墙路线；《史记》的起止记载只放家长延伸，不作今天全部长城的地图。相册另展示明代长城的不同角度，以及汉代土墙和玉门关遗址；各图独立标年代，用于跨时期观察，不作为秦长城原貌。",
         "audio": {
           "lead": {
-            "id": "quest-b1b3c4737e04f819",
-            "text": "模型里少了一段。把绿色墙段挪到虚线缺口里，让两端接上。"
+            "id": "quest-1e658a3446f7f832",
+            "text": "秦朝连接、修补旧墙，帮助抵御进攻、守卫边地。学具里少了一段，把带绿边的墙段挪到缺口，让两端接上。"
           },
           "transition": {
             "id": "quest-d350f678cdb211db",
             "text": "帮旧墙补一段。"
           },
           "intro": {
-            "id": "quest-ef5774a3c9e40ceb",
-            "text": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把绿色墙段挪到缺口里，让两端接上。"
+            "id": "quest-337d0f888241eb00",
+            "text": "工匠拿来一个接墙模型。中间空着，少了一段。小伙伴请你把带绿边的墙段挪到缺口里，让两端接上。"
           },
           "question": {
             "id": "quest-7d65ce75802a48c3",
@@ -1960,6 +1960,36 @@
       "clearance": "cleared-project-created",
       "caption": "运来材料 → 继续修墙",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-wall-mountain-scene-v2",
+      "title": "山地城墙连接学具 · 完整场景",
+      "localPath": "reference-assets/history-lab-art/qin-wall-mountain-scene-v2.png",
+      "purpose": "teaching-prop",
+      "runtimePath": "/images/history-labs/qin-wall-mountain-scene-v2.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/history-lab-art/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目学习模型",
+      "clearance": "cleared-project-created",
+      "caption": "山地城墙连接学具 · 完整场景 · 教学新画",
+      "boundary": "现代教学插画，以山地土石城墙解释连接与修补，不是秦代现场或具体遗址复原。不同地区的秦墙材料和形制不同；拼合是学习动作，不表示古人搬动整块墙。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-wall-mountain-gap-v2",
+      "title": "山地城墙连接学具 · 缺口底景",
+      "localPath": "reference-assets/history-lab-art/qin-wall-mountain-gap-v2.png",
+      "purpose": "teaching-prop",
+      "runtimePath": "/images/history-labs/qin-wall-mountain-gap-v2.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/history-lab-art/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目学习模型",
+      "clearance": "cleared-project-created",
+      "caption": "山地城墙连接学具 · 缺口底景 · 教学新画",
+      "boundary": "现代教学插画，以山地土石城墙解释连接与修补，不是秦代现场或具体遗址复原。不同地区的秦墙材料和形制不同；拼合是学习动作，不表示古人搬动整块墙。",
       "childVisibility": "child-ok"
     },
     {

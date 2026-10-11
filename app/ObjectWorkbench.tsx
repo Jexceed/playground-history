@@ -8,8 +8,9 @@ import { stepVoiceIds, usesChoiceCards } from "./step-flow";
 import { PhotoAlbumButton } from "./PhotoAlbumButton";
 import type { PhotoAlbum } from "./photo-album";
 import "./scene-interactions.css";
+import {isIllustratedSlide,SlideFitControls,SlideFitIllustration,useSlideFit} from "./SlideFitIllustration";
 import {CircleStudy, CircleDiagram} from "./CircleStudy";
-import {HistoryLab, PolityDiagram, PrintingDiagram, type HistoryLabConfig, type LabStage} from "./HistoryLab";
+import {HistoryLab, HistoryLabControls, useHistoryLab, PolityDiagram, PrintingDiagram, type HistoryLabConfig, type LabStage} from "./HistoryLab";
 export { stepVoiceIds } from "./step-flow";
 
 type Voice = { id: string; text: string };
@@ -34,6 +35,7 @@ export type WorkbenchPresentation = {
   evidenceTitle: string; evidenceLine: string; evidenceAudio: Voice; guideAudio: Voice;
   alignHint: string; familyHint: string; nextLabel: string; lastLabel: string;
   coverProp?: string; familyLabel?: string; practice?: { scene: string } | null;
+  coverMaterial?: { image:string; title:string; label:string };
   sceneFraming?: "story";
   sceneAspectRatio?: number;
   familyMode?: "actions";
@@ -53,14 +55,14 @@ type Evidence = { image: string; title: string; caption: string; boundary: strin
 type Props = {
   step: Step; seed: string; presentation: WorkbenchPresentation;
   photoAlbum?: PhotoAlbum | null;
-  periodLabel: string; solved: boolean; isLast: boolean;
+  periodLabel: string; solved: boolean; isLast: boolean; nextLabel?: string;
   speak: (ids: string[]) => Promise<unknown>; listen: (ids: string[]) => void;
   onSolved: () => void; onNext: () => void; onInspect: () => void;
   onNarrationChange?: (ids:string[]) => void;
 };
 
-export function SoundIcon() {
-  return <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4zM15 8c3 2 3 6 0 8m3-11c5 4 5 10 0 14" /></svg>;
+export function SoundIcon({ muted = false }: { muted?: boolean } = {}) {
+  return <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z" />{muted?<path d="m16 8 6 8m0-8-6 8"/>:<path d="M15 8c3 2 3 6 0 8m3-11c5 4 5 10 0 14"/>}</svg>;
 }
 function ArrowIcon() {
   return <svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" /></svg>;
@@ -98,6 +100,7 @@ function RulerPair({ match, cloth = false }: { match: boolean; cloth?: boolean }
 }
 
 export function WorkbenchCover({ presentation }: { presentation: WorkbenchPresentation }) {
+  if(presentation.coverMaterial){const material=presentation.coverMaterial;return <div className="workbench-cover-scene workbench-scene workbench-material-cover"><Image className="workbench-art" src={material.image} alt={material.title} width={1200} height={1600} loading="eager" unoptimized/><span className="story-art-label">{material.label}</span></div>;}
   return <div style={{"--story-aspect":presentation.sceneAspectRatio} as CSSProperties} className={`workbench-cover-scene workbench-scene ${presentation.sceneFraming==='story'?'story-framed-cover':''}`}><Image className="workbench-art" src={presentation.sceneImage} alt={presentation.sceneAlt} width={1536} height={1024} loading="eager" unoptimized/><span className="story-art-label">故事插画</span>{presentation.sceneFraming!=='story'&&<div className="bench-toys">{presentation.coverProp?<div className="cover-prop"><PropArt icon={presentation.coverProp}/></div>:<RulerPair match={false} cloth/>}</div>}</div>;
 }
 
@@ -262,19 +265,6 @@ const SLIDE_FIT_SCENES: Record<string, {
   pieceRatio?: number;
   target: () => React.ReactNode; movable: () => React.ReactNode;
 }> = {
-  "wall-join": {
-    aligned: "模型两端接上了", misaligned: "模型两端还没接上", done: "模型接好啦！", pieceRatio: 86/366*.9,
-    target: () => <svg className="slide-art" viewBox="0 0 366 70" preserveAspectRatio="none">
-      <path d="M4 26Q50 15 95 22T140 24V66H4Z" fill={earth} stroke={earthDark} strokeWidth="2.5"/>
-      <path d="M226 24Q270 18 306 22T362 26V66H226Z" fill={earth} stroke={earthDark} strokeWidth="2.5"/>
-      <path d="M140 24H226V66H140Z" fill="#e4f0dc" stroke="#63927a" strokeWidth="2" strokeDasharray="5 4"/>
-      <path d="M5 44H139M227 44H361M35 26V44M78 44V65M105 25V44M250 24V44M295 44V65M329 26V44" stroke={earthDark} strokeWidth="1.8" opacity=".55"/>
-    </svg>,
-    movable: () => <svg className="slide-art" viewBox="0 0 86 70" preserveAspectRatio="none">
-      <path d="M0 24Q21 19 43 22T86 24V66H0Z" fill="#a8c9b4" stroke="#5f9478" strokeWidth="3"/>
-      <path d="M1 44H85M27 24V44M58 44V65" stroke="#4e7f68" strokeWidth="2" opacity=".55"/>
-    </svg>,
-  },
   "load-camel": {
     aligned: "粮袋驮好了", misaligned: "粮袋还没驮上", done: "粮袋驮好了！",
     target: () => <svg className="slide-art" viewBox="0 0 366 70" preserveAspectRatio="none">
@@ -304,18 +294,6 @@ const SLIDE_FIT_SCENES: Record<string, {
       <path d="M24 20H72M24 30H72M24 40H66" stroke="#d9c69a" strokeWidth="2.6"/>
     </svg>,
   },
-  "coin-mould": {
-    aligned: "钱形卡片与钱范轮廓对齐", misaligned: "钱形卡片还没有对齐", done: "圆边和方孔对齐啦！", pieceRatio: 70/366*.9,
-    target: () => <svg className="slide-art" viewBox="0 0 366 80" preserveAspectRatio="none">
-      <rect x="4" y="5" width="358" height="70" rx="10" fill="#64776c" stroke="#40564c" strokeWidth="2.5"/>
-      <path d="M9 40H357" stroke="#374f44" strokeWidth="5"/>
-      {[65,183,301].map(x=><g key={x}><circle cx={x} cy="40" r="28" fill="#3f574b" stroke={x===183?'#ffda72':'#92aa94'} strokeWidth="2.4" strokeDasharray={x===183?'5 4':undefined}/><rect x={x-10} y="30" width="20" height="20" fill="#8a9984" stroke="#b4be9e" strokeWidth="1.8"/></g>)}
-    </svg>,
-    movable: () => <svg className="slide-art" viewBox="0 0 70 80" preserveAspectRatio="none">
-      <path d="M35 12a28 28 0 1 1 0 56 28 28 0 1 1 0-56ZM25 30v20h20V30Z" fill="#e4c16c" fillRule="evenodd" stroke="#8b703c" strokeWidth="2.5"/>
-      <path d="M14 34a22 22 0 0 1 18-16" fill="none" stroke="#fff1b4" strokeWidth="2" strokeLinecap="round"/>
-    </svg>,
-  },
   "string-coins": {
     aligned: "钱串上了", misaligned: "钱还没串上", done: "钱串上了！",
     target: () => <svg className="slide-art" viewBox="0 0 366 70" preserveAspectRatio="none">
@@ -335,25 +313,9 @@ function SlideFit({ scene, hint, ariaLabel, onJudge, locked = false, practice = 
   scene: string; hint: string; ariaLabel: string;
   onJudge?: (match:boolean)=>void; locked?:boolean; practice?:boolean;
 }) {
-  const [offset,setOffset]=useState(practice ? 0 : 18), [dragging,setDragging]=useState(false);
-  const offsetRef=useRef(practice ? 0 : 18), drag=useRef<{x:number;offset:number; width:number}|null>(null), track=useRef<HTMLDivElement>(null);
-  const move=(value:number)=>{const next=clampRulerOffset(value);offsetRef.current=next;setOffset(next);return next;};
-  const judge=(value:number, reportWrong=true)=>{
-    if(alignedRuler(value)){move(0);onJudge?.(true);} else if(reportWrong)onJudge?.(false);
-  };
-  const start=(e:PointerEvent<HTMLDivElement>)=>{
-    if(locked&&!practice)return;
-    e.currentTarget.setPointerCapture(e.pointerId);
-    drag.current={x:e.clientX,offset:offsetRef.current,width:track.current?.getBoundingClientRect().width??1};setDragging(true);
-  };
-  const change=(e:PointerEvent<HTMLDivElement>)=>{if(drag.current)move(pointerRulerOffset(drag.current.offset,e.clientX-drag.current.x,drag.current.width));};
-  const end=()=>{if(!drag.current)return;drag.current=null;setDragging(false);judge(offsetRef.current);};
-  const key=(e:KeyboardEvent<HTMLDivElement>)=>{
-    if(locked&&!practice)return;
-    if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();judge(move(offsetRef.current+(e.key==='ArrowLeft'?-3:3)),false);}
-    if(e.key==='Enter'||e.key===' '){e.preventDefault();judge(offsetRef.current);}
-  };
-  const nudge=(direction:number)=>judge(move(offsetRef.current+direction*3),false);
+  const controller=useSlideFit({onJudge,locked,practice});
+  const {offset,dragging,track,start,change,end,cancel,key,nudge}=controller;
+  if(isIllustratedSlide(scene))return <div className="slide-illustration-practice"><SlideFitIllustration scene={scene} ariaLabel={ariaLabel} controller={controller}/><SlideFitControls scene={scene} hint={hint} controller={controller}/></div>;
   const config=SLIDE_FIT_SCENES[scene];
   if(!config)return <p className="alignment-hint">{hint}</p>;
   const pieceRatio=config.pieceRatio??.19;
@@ -363,7 +325,7 @@ function SlideFit({ scene, hint, ariaLabel, onJudge, locked = false, practice = 
       <div className="alignment-origin" aria-hidden="true"/>
       <div className="alignment-target slide-target" aria-hidden="true">{config.target()}</div>
       <div className="alignment-movable slide-movable" role="slider" tabIndex={locked&&!practice?-1:0} aria-label={ariaLabel} aria-valuemin={-24} aria-valuemax={24} aria-valuenow={offset} aria-valuetext={offset===0?config.aligned:config.misaligned} aria-disabled={locked&&!practice}
-        style={{width:`${pieceRatio*100}%`,left:`${config.pieceRatio===undefined?39.5:(1-pieceRatio)*50}%`,transform:`translateX(${offset/pieceRatio}%)`}} onPointerDown={start} onPointerMove={change} onPointerUp={end} onPointerCancel={()=>{drag.current=null;setDragging(false);}} onKeyDown={key}>
+        style={{width:`${pieceRatio*100}%`,left:`${config.pieceRatio===undefined?39.5:(1-pieceRatio)*50}%`,transform:`translateX(${offset/pieceRatio}%)`}} onPointerDown={start} onPointerMove={change} onPointerUp={end} onPointerCancel={cancel} onKeyDown={key}>
         {config.movable()}<span className="ruler-grip" aria-hidden="true">⋮⋮</span>
       </div>
     </div>
@@ -419,7 +381,7 @@ export function WorkbenchChoiceArt({ option }: { option: Pick<Option,"label"|"ob
   if(view?.kind==='era')return <div className={`era-object ${(view.name?.length??0)>4?'era-name-long':''}`}><EraMarker view={view}/><strong>{view.name}</strong><span className="era-date">{view.date?.includes("—")?view.date.split("—").map((part,i,all)=><span className="era-date-part" key={`${i}:${part}`}>{part}{i<all.length-1?"—":""}</span>):view.date}</span></div>;
   return null;
 }
-export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,solved,isLast,speak,listen,onSolved,onNext,onInspect,onNarrationChange}:Props){
+export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,solved,isLast,nextLabel,speak,listen,onSolved,onNext,onInspect,onNarrationChange}:Props){
   const [picked,setPicked]=useState<Option|null>(null), [tried,setTried]=useState(false);
   const [refineVoice,setRefineVoice]=useState<Voice|null>(null);
   const [roundIndex,setRoundIndex]=useState(0), [sceneResult,setSceneResult]=useState<{id:string;correct:boolean}|null>(null);
@@ -428,6 +390,7 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
   const geometryChoice=kind==='pick'&&options.some(option=>option.objectView?.kind==='circle-model');
   const circleRefine=kind==='circle-refine',historyLab=kind==='history-lab';
   const runLab=(stage:LabStage,complete:boolean)=>{setRefineVoice(stage.audio);if(complete)onSolved();onNarrationChange?.([stage.audio.id]);void speak([stage.audio.id]);};
+  const labController=useHistoryLab(step.interaction?.lab,solved,runLab);
   const sceneChoice=kind==='pick'&&options.some(option=>['scene-card','scene-strip','study-card','circle-model','polity-panel','printing-panel'].includes(option.objectView?.kind??''));
   const refineCircle=(sides:number)=>{const stage=step.interaction?.refinements?.find(r=>r.sides===sides);if(!stage)return;setRefineVoice(stage.audio);if(sides===24)onSolved();onNarrationChange?.([stage.audio.id]);void speak([stage.audio.id]);};
   const chooseSpot=(id:string)=>{
@@ -447,6 +410,8 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
     if(option.correct){onSolved();void speak([step.audio.right.id]);}else void speak([step.audio.wrong.id]);
   };
   const judge=(match:boolean)=>{const option=step.options.find(o=>o.correct===match);if(option)choose(option);};
+  const illustratedSlide=kind==='slide-fit'&&isIllustratedSlide(step.interaction?.scene??'');
+  const slideController=useSlideFit({onJudge:judge,locked:solved});
   const sequence=stepVoiceIds(step);
   const episode=step.narrative,trip=presentation.story;
   const lookListen=kind==='look-listen';
@@ -459,8 +424,9 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
   const bubbleVoices=(circleRefine||historyLab)&&refineVoice?[refineVoice.id]:sceneFind&&round?[sceneResult?(sceneResult.correct?round.audio.right.id:round.audio.wrong.id):round.audio.question.id]:episode&&solved?[step.audio.right.id]:episode&&tried&&!lookListen?[step.audio.wrong.id]:sequence;
   const spokenQuestion=sceneFind&&round?(sceneResult?(sceneResult.correct?round.feedback:round.retry):round.question):lookListen?step.title:episode?(solved?episode.response:tried?episode.retry:step.prompt):step.prompt;
   return <section style={{"--story-aspect":step.interaction?.sceneAspectRatio??presentation.sceneAspectRatio} as CSSProperties} className={`object-quest ${episode?"trip-episode":""} ${sceneChoice?'scene-choice':''} ${stripChoice?'scene-strip-choice':''}`} data-choice-art={step.interaction?.choiceArt} data-scene-framing={presentation.sceneFraming} data-story-scene={episode?.scene} data-step-id={step.id} data-interaction-kind={kind} data-image-label={step.interaction?.imageLabel} data-voice-id={sequence.join(',')} data-round-id={sceneFind?round?.id:undefined} data-question-voice-id={sceneFind?round?.audio.question.id:undefined}>
+    <p className="quest-context-line">{periodLabel} · {step.title}</p>
     <div className="workbench-scene-column">
-      {chosenStrip?<div className="workbench-scene scene-strip-stage"><SceneStripArt view={chosenStrip} label={picked?.label??"故事分镜"} detail/><span className="story-art-label">{chosenStrip.imageLabel}</span></div>:chosenStudy?.image?<div className="workbench-scene"><Image className="workbench-art selected-scene-detail" src={chosenStudy.image} alt={picked?.label??'学习图'} width={600} height={346} unoptimized/><span className="story-art-label">学习示意</span></div>:historyLab&&step.interaction?.lab?<HistoryLab config={step.interaction.lab} locked={solved} onStage={runLab}/>:circleRefine?<CircleStudy locked={solved} onRefine={refineCircle}/>:sceneChoice&&picked?.objectView?.kind==='polity-panel'?<div className="workbench-scene"><PolityDiagram index={picked.objectView.windowIndex??0}/></div>:sceneChoice&&picked?.objectView?.kind==='printing-panel'?<div className="workbench-scene"><PrintingDiagram connected={picked.objectView.connected}/></div>:geometryChoice&&picked?.objectView?.kind==='circle-model'?<div className="workbench-scene"><CircleDiagram sides={picked.objectView.sides??6} label={picked.label} className="geometry-selection"/><span className="story-art-label">数学学习图</span></div>:(kind==='timeline'||lookListen)&&step.inspection&&step.inspection.placement!=='supporting'?<div className="quest-artifact-intro">
+      {illustratedSlide?<SlideFitIllustration scene={step.interaction?.scene??''} ariaLabel={step.interaction?.ariaLabel??'移动学习模型'} controller={slideController} modelLabel={step.interaction?.modelLabel}/>:chosenStrip?<div className="workbench-scene scene-strip-stage"><SceneStripArt view={chosenStrip} label={picked?.label??"故事分镜"} detail/><span className="story-art-label">{chosenStrip.imageLabel}</span></div>:chosenStudy?.image?<div className="workbench-scene"><Image className="workbench-art selected-scene-detail" src={chosenStudy.image} alt={picked?.label??'学习图'} width={600} height={346} unoptimized/><span className="story-art-label">学习示意</span></div>:historyLab&&step.interaction?.lab?<HistoryLab config={step.interaction.lab} controller={labController}/>:circleRefine?<CircleStudy locked={solved} onRefine={refineCircle}/>:sceneChoice&&picked?.objectView?.kind==='polity-panel'?<div className="workbench-scene"><PolityDiagram index={picked.objectView.windowIndex??0}/></div>:sceneChoice&&picked?.objectView?.kind==='printing-panel'?<div className="workbench-scene"><PrintingDiagram connected={picked.objectView.connected}/></div>:geometryChoice&&picked?.objectView?.kind==='circle-model'?<div className="workbench-scene"><CircleDiagram sides={picked.objectView.sides??6} label={picked.label} className="geometry-selection"/><span className="story-art-label">数学学习图</span></div>:(kind==='timeline'||lookListen)&&step.inspection&&step.inspection.placement!=='supporting'?<div className="quest-artifact-intro">
         <button className="quest-artifact-picture" data-image-framing={step.inspection.framing} onClick={onInspect} aria-label={step.inspection.label}><Image src={step.inspection.image} alt={step.inspection.title} width={1200} height={700} loading="eager" style={step.inspection.displayHeight?{height:step.inspection.displayHeight}:undefined} unoptimized/><span>{step.inspection.caption}</span></button>
         <h2>{step.inspection.title}</h2>
         {step.inspection.openAlbum&&photoAlbum&&<PhotoAlbumButton album={photoAlbum} onOpen={onInspect}/>}
@@ -485,17 +451,19 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
       {step.inspection&&((kind!=='timeline'&&!lookListen)||step.inspection.placement==='supporting')&&<button className="real-object-link" onClick={onInspect}><Image src={step.inspection.image} alt={step.inspection.title} width={150} height={95} unoptimized/><span><small>真实材料 · 点开看一看</small><strong>{step.inspection.label}</strong></span><span className="object-magnify" aria-hidden="true">⌕</span></button>}
     </div>
     <div className="workbench-task">
-      <p className="workbench-kicker">{periodLabel} · {step.title}</p>
       <div className={`workbench-question ${episode?"trip-speech":""}`} aria-live="polite"><div>{episode&&<span className="trip-speaker">{solved?episode.responseSpeaker:episode.speaker}</span>}<h1>{spokenQuestion}</h1></div><button className="workbench-sound" onClick={()=>{onNarrationChange?.(bubbleVoices);listen(bubbleVoices);}} aria-label={sceneFind?(sceneResult?'再听这句回应':'再听这个问题'):episode?(solved||tried?"再听这句回应":"再听这一幕"):"重听这个问题"}><SoundIcon/></button></div>
       {!episode&&<p className="workbench-story">{step.story.displayText}</p>}
       {lookListen&&episode&&<p className="workbench-story look-listen-story">{step.story.displayText}</p>}
+      {historyLab&&step.interaction?.lab&&<HistoryLabControls config={step.interaction.lab} controller={labController} locked={solved}/>}
       {sceneFind&&<div className="scene-find-progress"><span>找一找 · {roundIndex+1}/{rounds.length}</span><p>{step.interaction?.hint}</p></div>}
       {usesChoiceCards(kind)?<div className="workbench-choices" role="group" aria-label={step.prompt}>{options.map(option=><div key={option.id} className={`bench-choice ${picked?.id===option.id?(option.correct?'right':'try-again'):''}`}>
         <button className="bench-choice-action" data-option-id={option.id} onClick={()=>choose(option)} disabled={solved} aria-label={`选择${option.label}`} aria-pressed={picked?.id===option.id}><WorkbenchChoiceArt option={option}/><span>{option.objectView?.kind==='era'?'就去这一站':option.label}</span>{picked?.id===option.id&&<i><b aria-hidden="true">{option.correct?'✓':'×'}</b>{option.correct?'选对啦':'再试试'}</i>}</button>
         <button className="bench-option-sound" aria-label={`听${option.label}`} onClick={()=>listen([option.audio.id])}><SoundIcon/></button>
-      </div>)}</div>:circleRefine?<p className="circle-study-caption">直边越分越细，慢慢贴近圆周。</p>:lookListen||sceneFind||historyLab?null:kind==='slide-fit'&&step.interaction?.placement==='panel'?<div className={`story-puzzle ${tried&&!solved?"puzzle-retry":solved?"puzzle-done":""}`}><SlideFit scene={step.interaction.scene??''} hint={step.interaction.hint} ariaLabel={step.interaction.ariaLabel??'移动模型'} onJudge={judge} locked={solved}/><small>{tried&&!solved?"× 再试试 · ":solved?"✓ ":""}{step.interaction.modelLabel??"接墙学习模型"}</small></div>:<div className="alignment-copy"><span aria-hidden="true">↔</span><p>{(kind==='slide-fit'?(step.interaction?.copy??step.interaction?.hint??''):'把青尺往黄尺的起点挪一挪。\n每一格都要对上。').split('\n').map((line,i,all)=><span key={i}>{line}{i<all.length-1&&<br/>}</span>)}</p></div>}
+      </div>)}</div>:circleRefine?<p className="circle-study-caption">直边越分越细，慢慢贴近圆周。</p>:illustratedSlide?<SlideFitControls scene={step.interaction?.scene??''} hint={step.interaction?.hint??''} controller={slideController} tried={tried}/>:lookListen||sceneFind||historyLab?null:kind==='slide-fit'&&step.interaction?.placement==='panel'?<div className={`story-puzzle ${tried&&!solved?"puzzle-retry":solved?"puzzle-done":""}`}><SlideFit scene={step.interaction.scene??''} hint={step.interaction.hint} ariaLabel={step.interaction.ariaLabel??'移动模型'} onJudge={judge} locked={solved}/><small>{tried&&!solved?"× 再试试 · ":solved?"✓ ":""}{step.interaction.modelLabel??"接墙学习模型"}</small></div>:<div className="alignment-copy"><span aria-hidden="true">↔</span><p>{(kind==='slide-fit'?(step.interaction?.copy??step.interaction?.hint??''):'把青尺往黄尺的起点挪一挪。\n每一格都要对上。').split('\n').map((line,i,all)=><span key={i}>{line}{i<all.length-1&&<br/>}</span>)}</p></div>}
+      <div className="workbench-footer">
       {!lookListen&&(sceneFind||episode&&(solved||tried||(kind==='slide-fit'&&step.interaction?.placement==='panel'))?<div className="workbench-response-spacer" data-feedback={sceneFind?(sceneResult?.correct?'right':sceneResult?'wrong':'hint'):solved?'right':tried?'wrong':'hint'}/>:<div className={`workbench-response ${solved?'done':tried?'retry':''}`} role="status" data-feedback={solved?'right':tried?'wrong':'hint'}><span aria-hidden="true">{solved?'✓':tried?'×':'☝'}</span><p>{solved?step.rightNote:tried?step.wrongNote:step.interaction?.hint}</p></div>)}
-      {sceneFind?<div className="scene-find-actions">{solved?<button className="workbench-next" onClick={onNext}>{episode?.nextLabel??presentation.nextLabel}<ArrowIcon/></button>:sceneResult?.correct&&<button className="workbench-next" onClick={nextSceneRound}>{round?.nextLabel??'再找一位'}<ArrowIcon/></button>}</div>:lookListen?<button className="workbench-next reading-next" onClick={onNext}>{step.interaction?.continueLabel??episode?.nextLabel??'继续走'}<ArrowIcon/></button>:solved?<button className="workbench-next" onClick={onNext}>{episode?.nextLabel??(isLast?presentation.lastLabel:presentation.nextLabel)}<ArrowIcon/></button>:<button className="workbench-help" onClick={()=>listen(kind==='align-rulers'||kind==='slide-fit'||sceneChoice||circleRefine||historyLab?bubbleVoices:[presentation.guideAudio.id])}><SoundIcon/>听听怎么玩</button>}
+      {sceneFind?<div className="scene-find-actions">{solved?<button className="workbench-next" onClick={onNext}>{nextLabel??episode?.nextLabel??presentation.nextLabel}<ArrowIcon/></button>:sceneResult?.correct&&<button className="workbench-next" onClick={nextSceneRound}>{round?.nextLabel??'再找一位'}<ArrowIcon/></button>}</div>:lookListen?<button className="workbench-next reading-next" onClick={onNext}>{nextLabel??step.interaction?.continueLabel??episode?.nextLabel??'继续走'}<ArrowIcon/></button>:solved?<button className="workbench-next" onClick={onNext}>{nextLabel??episode?.nextLabel??(isLast?presentation.lastLabel:presentation.nextLabel)}<ArrowIcon/></button>:<button className="workbench-help" onClick={()=>listen(kind==='align-rulers'||kind==='slide-fit'||sceneChoice||circleRefine||historyLab?bubbleVoices:[presentation.guideAudio.id])}><SoundIcon/>听听怎么玩</button>}
+      </div>
     </div>
   </section>;
 }
