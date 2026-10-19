@@ -26,6 +26,8 @@
 .workbench-footer { display:flex; flex-direction:column; gap:var(--layout-row-gap); margin-top:auto; }
 .workbench-footer .workbench-response { min-height:48px; padding:0; }
 .workbench-footer .workbench-response-spacer { height:48px; }
+/* Timeline feedback is already in the speech card; reserve room for the audio row and next button. */
+.object-quest[data-interaction-kind="timeline"] .workbench-response-spacer { height:0; }
 .workbench-footer .workbench-help { min-height:57px; }
 .workbench-footer .reading-next { margin-top:0; }
 .workbench-task .trip-speech { min-height:144px; }
@@ -40,15 +42,16 @@
 .workbench-choices { display:grid; grid-template-columns:1fr 1fr; gap:15px; }
 .bench-choice { position:relative; min-width:0; display:flex; flex-direction:column; }
 .bench-choice-action { display:flex; flex:1 0 auto; align-items:center; justify-content:center; flex-direction:column; width:100%; height:184px; gap:17px; padding:22px 16px 16px; text-align:center; color:#38584b; background:#fffdf5; border:2px solid #d8dfc8; box-shadow:0 5px 0 #d3dcc7; border-radius:20px; cursor:pointer; transition:background .2s,border-color .2s,transform .2s; }
-.bench-choice-action:hover:not(:disabled) { border-color:#78a88a; transform:translateY(-2px); }
+.bench-choice-action:hover:not(:disabled) { border-color:var(--selection-edge); transform:translateY(-2px); }
+.bench-choice-action:focus-visible { outline:3px solid var(--selection-edge); outline-offset:4px; }
 .bench-choice-action >span { font-size:19px; font-weight:750; line-height:1.45; }
 .bench-choice-action .ruler-pair { gap:12px; margin:15px 0 0; }
 .bench-choice-action:disabled { cursor:default; opacity:1; }
-.bench-choice-action >i { position:absolute; left:7px; top:-10px; display:flex; align-items:center; gap:5px; padding:3px 9px 3px 5px; color:#fff; background:#34725c; border-radius:10px; font-size:13px; font-style:normal; font-weight:750; z-index:1; }
+.bench-choice-action >i { position:absolute; left:7px; top:-10px; display:flex; align-items:center; gap:5px; padding:3px 9px 3px 5px; color:#fff; background:var(--selection-right); border:2px solid var(--selection-halo); border-radius:10px; font-size:13px; font-style:normal; font-weight:750; z-index:1; }
 .bench-choice-action >i b { font-size:25px; line-height:1; }
-.bench-choice.right .bench-choice-action { border-color:#34725c; background:#e9f4e7; box-shadow:0 5px 0 #7fa38b; }
-.bench-choice.try-again .bench-choice-action { border:3px solid #b94c3c; background:#ffede6; box-shadow:0 5px 0 #dd9685; }
-.bench-choice.try-again .bench-choice-action >i { background:#b94c3c; }
+.bench-choice.right .bench-choice-action { border-color:var(--selection-right); background:var(--selection-right-fill); box-shadow:inset 0 0 0 2px var(--selection-right),0 5px 0 var(--selection-right); }
+.bench-choice.try-again .bench-choice-action { border-color:var(--selection-retry); background:var(--selection-retry-fill); box-shadow:inset 0 0 0 2px var(--selection-retry),0 5px 0 var(--selection-retry); }
+.bench-choice.try-again .bench-choice-action >i { background:var(--selection-retry); }
 .bench-option-sound { position:absolute; right:6px; top:6px; width:36px; height:36px; background:#fffdf6d9; border-color:transparent; }
 .bench-option-sound svg { width:19px; height:19px; }
 .era-object { display:grid; grid-template-columns:65px 1fr; grid-template-rows:auto auto; gap:0 8px; align-items:center; text-align:left; width:100%; }

@@ -13,6 +13,14 @@
   --yellow: #efb849;
   --white: #fffdf8;
   --line: rgba(32, 49, 45, .16);
+  /* Selection edges stay readable against both artwork and pale cards. */
+  --selection-edge: #174f78;
+  --selection-halo: #ffffff;
+  --selection-fill: #e1eef9;
+  --selection-right: #176344;
+  --selection-right-fill: #d9efdf;
+  --selection-retry: #a52e26;
+  --selection-retry-fill: #ffe1d8;
   /* App layout contract: one shell, one split, and a shared spacing scale. */
   --app-content-width: 1220px;
   --app-reading-width: 960px;
@@ -364,11 +372,11 @@ button.panel-card { font: inherit; cursor: pointer; }
 .choice-stack { display: grid; gap: 12px; }
 .choice-stack button { display: flex; align-items: center; gap: 14px; min-height: 78px; padding: 12px 18px; color: var(--ink); background: white; border: 3px solid var(--paper); border-radius: 18px; text-align: left; cursor: pointer; font-size: 17px; font-weight: 900; }
 .choice-emoji { display: grid; place-items: center; flex: 0 0 auto; width: 54px; height: 54px; background: var(--cream); border-radius: 50%; font-size: 29px; }
-.choice-stack button.picked { background: #fff6d8; border-color: var(--yellow); box-shadow: 0 6px 0 var(--yellow); transform: translateY(-2px); }
+.choice-stack button.picked { background: var(--selection-fill); border-color: var(--selection-edge); box-shadow: inset 0 0 0 2px var(--selection-edge), 0 5px 0 var(--selection-edge); transform: translateY(-2px); }
 .choice-stack button.picked .choice-emoji { background: white; }
-.choice-stack button.right { color: var(--green-dark); background: var(--green-light); border-color: var(--green); }
+.choice-stack button.right { color: var(--green-dark); background: var(--selection-right-fill); border-color: var(--selection-right); box-shadow: inset 0 0 0 2px var(--selection-right), 0 5px 0 var(--selection-right); }
 .choice-stack button.right .choice-emoji { background: white; }
-.choice-stack button.wrong { color: var(--red-dark); border-color: var(--red); animation: tiny-shake 240ms ease; }
+.choice-stack button.wrong { color: var(--red-dark); background: var(--selection-retry-fill); border-color: var(--selection-retry); box-shadow: inset 0 0 0 2px var(--selection-retry), 0 5px 0 var(--selection-retry); animation: tiny-shake 240ms ease; }
 .submit-choice { width: 100%; min-height: 64px; margin-top: 12px; color: white; background: var(--red); border: 0; border-radius: 16px; box-shadow: 0 8px 0 var(--red-dark); cursor: pointer; font-size: 18px; font-weight: 900; }
 .submit-choice:not(:disabled) { animation: go-pulse 1.6s ease-in-out infinite; }
 .submit-choice:disabled { opacity: .3; cursor: not-allowed; box-shadow: none; }
@@ -948,8 +956,8 @@ button.panel-card { font: inherit; cursor: pointer; }
 .choice-shape.square { border-radius: 4px; background: #f6cc69; }
 .choice-option-text { display: block; overflow-wrap: anywhere; }
 .listen-card.sounding { outline: 3px solid var(--green); outline-offset: 3px; }
-.listen-card.picked { transform: none; box-shadow: inset 0 0 0 2px var(--yellow); }
-.listen-card.wrong { animation: none; border-color: #b9934d; background: #fff8e8; color: var(--ink); }
+.listen-card.picked { transform: none; }
+.listen-card.wrong { animation: none; }
 .listen-card:disabled { cursor: default; opacity: 1; }
 .submit-choice[aria-disabled="true"] { opacity: .5; box-shadow: none; animation: none; }
 .choice-feedback { margin: 8px 0 0; padding: 9px 12px; color: var(--green-dark); background: var(--green-light); border-radius: 12px; font-size: 14px; font-weight: 800; line-height: 1.4; }
@@ -1159,9 +1167,9 @@ button.panel-card { font: inherit; cursor: pointer; }
 .focused-preview.task-step-active .choice-toolbar button { font-size:14px; min-height:36px; }
 .focused-preview.task-step-active .listen-cards { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin:0; }
 .focused-preview.task-step-active .listen-card { width:100%; min-height:188px; padding:10px; display:flex; flex-direction:column; justify-content:flex-start; gap:5px; text-align:center; background:#fffdf5; color:#274d45; border:2px solid #c9d8be; border-radius:18px; box-shadow:0 4px 0 #d3deca; }
-.focused-preview.task-step-active .listen-card.picked { background:#ecf3df; border-color:#598e63; }
-.focused-preview.task-step-active .listen-card.right { background:#edf4df; border-color:#66956b; }
-.focused-preview.task-step-active .listen-card.wrong { background:#fff5df; border-color:#c9a46b; }
+.focused-preview.task-step-active .listen-card.picked { background:var(--selection-fill); border-color:var(--selection-edge); box-shadow:inset 0 0 0 2px var(--selection-edge),0 5px 0 var(--selection-edge); }
+.focused-preview.task-step-active .listen-card.right { background:var(--selection-right-fill); border-color:var(--selection-right); box-shadow:inset 0 0 0 2px var(--selection-right),0 5px 0 var(--selection-right); }
+.focused-preview.task-step-active .listen-card.wrong { background:var(--selection-retry-fill); border-color:var(--selection-retry); box-shadow:inset 0 0 0 2px var(--selection-retry),0 5px 0 var(--selection-retry); }
 .focused-preview.task-step-active .choice-card-heading { width:100%; gap:6px; font-size:13px; min-height:18px; }
 .focused-preview.task-step-active .choice-picture { width:100%; height:100px; object-fit:contain; }
 .focused-preview.task-step-active .choice-option-text { font-size:19px; line-height:1.4; font-weight:750; margin:auto 0 0; }

@@ -4,14 +4,18 @@
 .scene-find-canvas { position:absolute; inset:0 0 auto; }
 .object-quest .toys-scene-find,.scene-choice .bench-toys { display:none; }
 .scene-find-hotspots { position:absolute; inset:0; pointer-events:none; z-index:2; }
-.scene-find-target { position:absolute; pointer-events:auto; cursor:pointer; padding:0; border:3px dashed #f5d16c; border-radius:15px; background:#fff6ca0a; box-shadow:0 0 0 2px #52644777; }
-.scene-find-target:hover:not(:disabled),.scene-find-target:focus-visible { background:#fff5c22b; outline:3px solid #fff5ca; outline-offset:3px; }
+.scene-find-target { --target-edge:var(--selection-edge); --target-corner:18px; position:absolute; pointer-events:auto; cursor:pointer; padding:0; border:0; border-radius:8px; background:transparent; }
+/* Only the corners are painted; the object and the full hit area stay intact. */
+.scene-find-target::before,.scene-find-target::after { content:""; position:absolute; inset:0; pointer-events:none; border:4px solid var(--selection-halo); border-radius:8px; mask:linear-gradient(#000 0 0) top left/var(--target-corner) var(--target-corner) no-repeat,linear-gradient(#000 0 0) top right/var(--target-corner) var(--target-corner) no-repeat,linear-gradient(#000 0 0) bottom left/var(--target-corner) var(--target-corner) no-repeat,linear-gradient(#000 0 0) bottom right/var(--target-corner) var(--target-corner) no-repeat; }
+.scene-find-target::after { inset:1px; border:2px solid var(--target-edge); border-radius:7px; }
+.scene-find-target:hover:not(:disabled) { --target-corner:22px; }
+.scene-find-target:focus-visible { outline:2px solid var(--selection-edge); outline-offset:3px; }
 .scene-find-target:disabled { cursor:default; opacity:1; }
-.scene-find-target.right { border:4px solid #37795d; background:#b8e5b026; }
-.scene-find-target.retry { border:4px solid #bc3e33; background:#ff9d8226; }
-.scene-find-target >span { position:absolute; right:-5px; bottom:-8px; display:flex; align-items:center; gap:4px; padding:3px 7px; color:white; border-radius:9px; background:#37795d; font-size:13px; font-weight:750; white-space:nowrap; }
-.scene-find-target.retry >span { background:#bc3e33; }
-.scene-find-target b { font-size:22px; line-height:1; }
+.scene-find-target.right { --target-edge:var(--selection-right); --target-corner:22px; }
+.scene-find-target.retry { --target-edge:var(--selection-retry); --target-corner:22px; }
+.scene-find-progress .scene-find-result { display:flex; align-items:center; gap:9px; color:var(--selection-right); font-weight:750; }
+.scene-find-progress .scene-find-result.retry { color:var(--selection-retry); }
+.scene-find-result b { display:grid; place-items:center; width:30px; height:30px; border:2px solid currentColor; border-radius:50%; font-size:24px; line-height:1; }
 .object-quest[data-interaction-kind="scene-find"] .trip-speech h1,.scene-choice .trip-speech h1 { min-height:2lh; }
 .scene-find-progress { margin:8px 0; color:#56715c; }
 .scene-find-progress >span { display:inline-block; padding:6px 12px; background:#e8ecd9; border-radius:20px; font-size:16px; font-weight:750; }

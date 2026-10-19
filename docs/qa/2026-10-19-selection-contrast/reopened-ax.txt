@@ -1,0 +1,43 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 承德山庄里，为什么要会见来客？
+					9 content list
+						10 button 第1步：从承德的园林走进清朝，已完成, Help: 从承德的园林走进清朝
+						11 button 第2步：山水之间，也要商量事情，已完成, Help: 山水之间，也要商量事情
+						12 button 第3步：把意思说清，把事情记下, Help: 把意思说清，把事情记下
+						13 button 第4步：意思还没听懂，先做哪件事, Help: 意思还没听懂，先做哪件事
+						14 button 第5步：园林之外，看见联系, Help: 园林之外，看见联系
+					15 text 第3步
+				16 button 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 清朝  ·  把意思说清，把事情记下
+				19 image 清代承德会见教学故事图
+				20 container 点图里的线索回答问题
+					21 toggle button 选择中间帮助解释的工作, Value: off
+					22 toggle button 选择右侧桌边记录的工作, Value: off
+				23 text 故事插画 小伙伴
+				24 heading 谁正在帮助双方解释意思？, Value: 1
+					25 text 谁正在帮助双方解释意思？
+				26 button 再听这个问题
+				27 text 找一找 ·  1 / 2
+				28 text 听听问题，看看图里的线索。
+	29 close button
+	30 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	31 minimize button
+	32 text 小小历史旅行团
+33 menu bar
+	34 小小历史旅行团
+	35 File
+	36 Edit
+	37 View
+	38 Window
+	39 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

@@ -1,0 +1,19 @@
+{
+  "typecheckPassed": true,
+  "command": "tsc --noEmit -p <isolated-index-snapshot>/tsconfig.app.json",
+  "source": "git index; tracked source, configuration and content JSON exported, only node_modules shared",
+  "sourceBlobs": {
+    "AGENTS.md": "26c8d259191539b1c0398e22fdf4151dd796c7d6",
+    "app/ObjectWorkbench.tsx": "347e4e7e530924a7417ea383a72bec5d9f46a0ae",
+    "app/scene-interactions.css": "e9f19af5af9293defc91960cf17a359d78f5898c",
+    "app/globals.css": "227881184d556dbdd8e693f78e515dda80973d8b",
+    "app/workbench.css": "93afc5e2520d39223e903c4e51afb2f661203160",
+    "content/PROGRESS.md": "15f29a64463905df17b7e319200036229c1b1de3",
+    "docs/DESIGN-IMPROVEMENTS.md": "c1b3130071a810b4b1d6492c46b41598be11eb06",
+    "docs/CHANGELOG.md": "65e57b8c4272f926c1e9ea79e85b131b44a5917a",
+    "docs/TODO.md": "8e4c5bfc463fd5ae65866bd11bbb17e91a21748d",
+    "docs/DESIGN-SPEC.md": "b80f9fdd5b4762bc12b8ef6a430bd863532563ea"
+  },
+  "noUncommittedSourceDependencies": true,
+  "priorWorktreeValidation": "85 tests and actual installed App checks include earlier uncommitted artwork; see README for boundary"
+}
