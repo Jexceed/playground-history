@@ -1,0 +1,45 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 跟王安石迎接新的一年
+					9 content list
+						10 button 第1步：先认识写诗的人，已完成, Help: 先认识写诗的人
+						11 button 第2步：先听完整的《元日》，已完成, Help: 先听完整的《元日》
+						12 button 第3步：门上的新与旧，已完成, Help: 门上的新与旧
+						13 button 第4步：把迎新的经过连起来，已完成, Help: 把迎新的经过连起来
+						14 button 第5步：新年早晨的光，已完成, Help: 新年早晨的光
+					15 text 第5步
+				16 button 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 宋朝  ·  新年早晨的光
+				19 image 朝阳照着屋舍
+				20 text 故事插画 小伙伴
+				21 heading 朝阳照着屋舍，诗里迎来新的一年。, Value: 1
+					22 text 朝阳照着屋舍，诗里迎来新的一年。
+				23 button 再听这句回应
+				24 container 哪幅画有明亮的朝阳？
+					25 toggle button (disabled) 选择朝阳照着屋舍, Value: on
+					26 button 听朝阳照着屋舍
+					27 toggle button (disabled) 选择天亮前的旧门, Value: off
+					28 button 听天亮前的旧门
+				29 button 看看这次发现
+				30 button 👪 家长入口 · 59章材料与说明
+	31 close button
+	32 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	33 minimize button
+	34 text 小小历史旅行团
+35 menu bar
+	36 小小历史旅行团
+	37 File
+	38 Edit
+	39 View
+	40 Window
+	41 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

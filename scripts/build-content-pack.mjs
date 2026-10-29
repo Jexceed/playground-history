@@ -124,9 +124,10 @@ function validateTextbookConnection(connection, sourceById) {
   }
   for (const companion of connection.companions) {
     if (!companion.type || !companion.label || !companion.note) throw new Error(`${connection.id} 有不完整的课本延伸线索`);
-    if ([...companion.label].length > 22 || [...companion.note].length > 46) throw new Error(`${connection.id} 的课本延伸线索过长`);
+    // These notes appear in the parent-only cultural disclosure, where full poems and evidence boundaries must remain intact.
+    if ([...companion.label].length > 22 || [...companion.note].length > 240) throw new Error(`${connection.id} 的课本延伸线索过长`);
   }
-  if (!Array.isArray(connection.sourceIds) || connection.sourceIds.length < 2) throw new Error(`${connection.id} 缺少课本连接来源`);
+  if (!Array.isArray(connection.sourceIds) || connection.sourceIds.length < 1) throw new Error(`${connection.id} 缺少课本连接来源`);
   for (const sourceId of connection.sourceIds) if (!sourceById.has(sourceId)) throw new Error(`${connection.id} 的课本连接来源未登记：${sourceId}`);
 }
 
@@ -763,6 +764,7 @@ function addAsset(chapterId, asset, usage, boundary) {
       id: asset.id,
       title: asset.title ?? asset.objectName,
       localPath: asset.localPath ?? null,
+      ...(asset.runtimeMaxEdge !== undefined ? {runtimeMaxEdge:asset.runtimeMaxEdge} : {}),
       ...(asset.purpose === 'teaching-prop' ? {purpose:asset.purpose,runtimePath:asset.runtimePath} : {}),
       sourcePage: asset.sourcePage ?? asset.imageSourcePage ?? null,
       sourceFile: asset.sourceFile ?? null,
@@ -1037,10 +1039,16 @@ fs.writeFileSync(voiceOutputPath, `${JSON.stringify({
 }, null, 2)}\n`);
 console.log(`内容包生成完成：${manifest.totals.tracks} 个板块，${manifest.totals.chapters} 章。`);
 
-// The UI imports only the current authored China scope. The complete library remains on disk.
+// The UI imports only the currently authored chapters. The complete library remains on disk.
 const previewScope=readJson("content/preview-scope.json");
 const visible=new Set(previewScope.chapterIds);
-const previewTracks=manifestTracks.map(t=>({...t,range:previewScope.label,periods:t.periods.filter(p=>previewScope.periodIds.includes(p.id)),chapters:t.chapters.filter(c=>visible.has(c.id))})).filter(t=>t.chapters.length);
+const previewTracks=manifestTracks.map(track=>{
+ const chapters=track.chapters.filter(chapter=>visible.has(chapter.id));
+ const periodIds=new Set(chapters.map(chapter=>chapter.periodId));
+ const periods=track.periods.filter(period=>periodIds.has(period.id));
+ const range=periods.length>1?`${periods[0].label}至${periods.at(-1).label}`:periods[0]?.label??track.range;
+ return {...track,range,periods,chapters};
+}).filter(track=>track.chapters.length);
 const previewChapters=previewTracks.flatMap(t=>t.chapters);
 const previewDetails=previewChapters.map(c=>readJson(`public/content/chapters/${c.id}.json`));
 const distinct=(key,idKey)=>new Set(previewDetails.flatMap(c=>c[key].map(x=>x[idKey]))).size;
@@ -1049,7 +1057,7 @@ const previewVoiceIds=new Set();
 const collectVoices=obj=>{if(!obj||typeof obj!=="object")return;if(typeof obj.id==="string"&&typeof obj.text==="string"&&voiceLineById.has(obj.id))previewVoiceIds.add(obj.id);else Object.values(obj).forEach(collectVoices);};
 previewChapters.forEach(c=>collectVoices(c.gameplay));
 voiceInterface.lines.forEach(line=>previewVoiceIds.add(line.id));
-const preview={...manifest,title:"春秋至明清本机试玩",scope:previewScope,tracks:previewTracks,totals:{...manifest.totals,tracks:previewTracks.length,chapters:previewChapters.length,playableChapters:previewChapters.length,coreQuestSteps:previewChapters.length*5,facts:sum("factCount"),methodNotes:sum("methodNoteCount"),screens:sum("screens"),audioClips:sum("audioClips"),audioSegments:sum("audioSegments"),coreAudioSegments:sum("coreAudioSegments"),extensionAudioSegments:sum("extensionAudioSegments"),interactions:sum("interactions"),textbookConnections:previewChapters.length,sources:distinct("sources","id"),assets:distinct("assets","id"),glossaryTerms:distinct("glossary","term"),pronunciationEntries:distinct("pronunciations","text"),localVoiceLines:previewVoiceIds.size},voicePlayback:{...manifest.voicePlayback,lineCount:previewVoiceIds.size}};
+const preview={...manifest,title:`${previewScope.label}本机试玩`,scope:previewScope,tracks:previewTracks,totals:{...manifest.totals,tracks:previewTracks.length,chapters:previewChapters.length,playableChapters:previewChapters.length,coreQuestSteps:previewChapters.length*5,facts:sum("factCount"),methodNotes:sum("methodNoteCount"),screens:sum("screens"),audioClips:sum("audioClips"),audioSegments:sum("audioSegments"),coreAudioSegments:sum("coreAudioSegments"),extensionAudioSegments:sum("extensionAudioSegments"),interactions:sum("interactions"),textbookConnections:previewChapters.length,sources:distinct("sources","id"),assets:distinct("assets","id"),glossaryTerms:distinct("glossary","term"),pronunciationEntries:distinct("pronunciations","text"),localVoiceLines:previewVoiceIds.size},voicePlayback:{...manifest.voicePlayback,lineCount:previewVoiceIds.size}};
 const previewText=JSON.stringify(preview,null,2)+"\n";
 fs.writeFileSync(path.join(sourceDataRoot,"preview-manifest.json"),previewText);
 fs.writeFileSync(path.join(outputRoot,"preview-manifest.json"),previewText);

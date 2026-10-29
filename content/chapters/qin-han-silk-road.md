@@ -149,3 +149,25 @@
 王维《送元二使安西》保留家长延伸，唐诗的阳关不改成玉门关，不作为汉代行程证据。[HKEDB-WANGWEI-SONG-YUANER]
 
 新增来源URL与用途见 sources.json 中 NMC-ZHANG-QIAN-MISSIONS、DHA-HEXI-GATES-CHRONOLOGY。重点校听：张骞、悬泉置、封检（fēng jiǎn）、大月氏（dà yuè zhī，氏读zhī）、匈奴。儿童无需识读木牌上的古文字。
+
+## 当前五步试玩（2026-10-25优化）
+
+远行不只要带水粮。张骞带回的见闻，怎样让汉朝与西域更了解彼此？
+
+核心历史关系：张骞首次出使未结成联盟，却带回西域见闻。后来再次出使，副使与来使继续联系；驿站支持往来，许多人逐渐连起了丝绸之路网络。
+
+| 步骤 | 听、看、做 | 依据 |
+| --- | --- | --- |
+| time | 照片是后来汉代的玉门关。张骞首次出使时，这座关还没设立。前138年，汉武帝派他向西去。我们先回到这次出使，听听他带回什么。 孩子：张骞出使西域，是哪个朝代的事？ | [NMC-ZHANG-QIAN-MISSIONS]; [NMC-SILK-ROAD-EXHIBITION]; [UNESCO-CHANGAN-TIANSHAN]; [NEAC-XUANQUAN-POST]; [DHA-HEXI-GATES-CHRONOLOGY] |
+| beginning | 汉武帝派张骞去联合大月氏，对抗匈奴。这次没有结成联盟，他却带回西域道路和物产的见闻。后来他再次出使，副使也前往不同地方，联系逐渐增多。 孩子：张骞带回了什么？ | [NMC-ZHANG-QIAN-MISSIONS]; [NMC-SILK-ROAD-EXHIBITION]; [UNESCO-CHANGAN-TIANSHAN]; [NEAC-XUANQUAN-POST]; [DHA-HEXI-GATES-CHRONOLOGY] |
+| journey | 小伙伴听完张骞的故事，来到后来的汉代驿站。远行人想让家乡知道沿途见闻。吃饱饭很重要，要把见闻留下来，还得做什么？ 孩子：想把沿途见闻留下来，选哪件事？ | [NMC-ZHANG-QIAN-MISSIONS]; [NMC-SILK-ROAD-EXHIBITION]; [UNESCO-CHANGAN-TIANSHAN]; [NEAC-XUANQUAN-POST]; [DHA-HEXI-GATES-CHRONOLOGY] |
+| change | 张骞再次出使时，还派副使前往不同地方。后来使者继续来往，驿站接待按规定通行的人、传递文书。图中是更晚的驿站故事，备食物与整理文书都有人分担。 孩子：谁在准备路上需要的食物？ | [NMC-ZHANG-QIAN-MISSIONS]; [NMC-SILK-ROAD-EXHIBITION]; [UNESCO-CHANGAN-TIANSHAN]; [NEAC-XUANQUAN-POST]; [DHA-HEXI-GATES-CHRONOLOGY] |
+| takeaway | 张骞带回见闻以后，双方的联系还要继续。故事里，后来的一位使者带来回信，远方需要知道答复。谁能先整理文书，让消息接着往回走？ 孩子：回信到了，先请谁处理这份文书？ | [NMC-ZHANG-QIAN-MISSIONS]; [NMC-SILK-ROAD-EXHIBITION]; [UNESCO-CHANGAN-TIANSHAN]; [NEAC-XUANQUAN-POST]; [DHA-HEXI-GATES-CHRONOLOGY] |
+
+亲子动作：请家人当远方的使者，说一句他看见的事，你来认真听。 把见闻转告另一位家人，再带一句回信；指出故事里谁帮着传文书。
+
+家长接话：问孩子：张骞最初为什么出使？没结成联盟，还带回了什么？接受“找盟友”“西域见闻”等短答。第二次出使与后来使者相互往来继续推动联系，不能说第一次任务本来就是旅游或卖丝绸。驿站场景讲张骞之后的往来；不臆定他首次途经玉门关、悬泉置。封检只支持文书线索，接待与粮食制度需结合其他汉简研究。王维《送元二使安西》是唐诗，可亲子读“西出阳关无故人”想想送别；阳关并非玉门关，也不是张骞日记。 第一次出使的使命、带回的见闻，与第二次出使及副使活动分开。驿站学具用于认识后续往来，不能将其木简编成张骞日记。
+
+材料与虚构边界：小伙伴、驿站人物和回信情境为教学虚构，不是张骞本人行程实录。第一次出使在前138年；玉门关属于其后设立的关防，不能让张骞首次出使途经此关。悬泉置材料用于认识后来的驿站制度，不指定张骞在那里休息。封检不是粮食或马匹总账，更不是张骞日记；不能逐件臆造收发人。驿站按制度接待公务人员、使者等，不等于每个商人均免费入住。图中的木简、马匹和服饰是故事示意，不是具体遗址复原。
+
+以focused-quests.json生成实际题目与声音；上版记录和编辑长稿不作为当前玩法。

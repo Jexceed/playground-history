@@ -11,7 +11,8 @@ test('Tang music uses one museum object and ties observation to cultural contact
  assert.match(g.finish.introAudio.text,/不同地方.*来往传播/);
  assert.match(g.boundary,/八人.*五人.*不同|八人.*不混作.*五人/);
  assert.equal(g.steps[2].interaction.imageLabel,'实物照片');
- assert.equal(g.steps[2].interaction.rounds[0].targetId,'musicians');
+ assert.deepEqual(g.steps[2].interaction.rounds.map(round=>round.targetId),['singer','musicians']);
+ assert.match(g.steps[2].audio.intro.text,/站着.*歌者.*坐着.*乐手/);
  assert.match(g.steps[3].options.find(o=>o.correct).label,/举笛/);
  assert.match(g.boundary,/现代学习道具/);
 });

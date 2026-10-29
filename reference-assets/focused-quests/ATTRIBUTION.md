@@ -1,4 +1,4 @@
-# 中国历史逐题学习图
+# 历史逐题学习图
 
 由本项目自行绘制的SVG几何示意。内容描述来自 content/focused-quests.json；绘图实现为 scripts/lib/study-visuals.mjs，运行 scripts/prepare-focused-quests.mjs 可重建。
 

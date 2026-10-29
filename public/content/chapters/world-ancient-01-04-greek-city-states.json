@@ -8,7 +8,51 @@
     "id": "ancient-civilizations",
     "label": "古代文明",
     "years": "早期人类—约5世纪",
-    "learningContext": null
+    "learningContext": {
+      "childIntro": "到古代南亚看怎样存水，再去埃及、希腊和罗马，看看陵墓、神庙和道路各有什么用途。这些故事发生在不同年代和地方。",
+      "chronology": "本站总目录涵盖早期人类至约5世纪。当前四章分别聚焦朵拉维拉约前3000—前1500年的长期城市生活、胡夫金字塔约前26世纪、帕特农神庙前5世纪，以及阿庇亚大道前312年起的长期建设。各地并非按本站排列顺序相互接替。",
+      "covered": "南亚蓄水与引水关系，古埃及王室陵墓用途与建筑劳动，雅典神庙的宗教用途及现代遗址边界，罗马道路的军事与日常联系。",
+      "scopeBoundary": "各章沿用独立年代；印度、希腊原长稿的制度与社会内容不等于全部已做成儿童关卡。世界古代其余隐藏章仍待逐章重做与终审。",
+      "sourceIds": [
+        "UNESCO-DHOLAVIRA-HARAPPAN-CITY",
+        "UNESCO-MEMPHIS-PYRAMIDS",
+        "UNESCO-ATHENS-ACROPOLIS",
+        "YSMA-PARTHENON-STRUCTURE",
+        "UNESCO-VIA-APPIA"
+      ],
+      "sources": [
+        {
+          "id": "UNESCO-DHOLAVIRA-HARAPPAN-CITY",
+          "title": "Dholavira: a Harappan City",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/1645/"
+        },
+        {
+          "id": "UNESCO-MEMPHIS-PYRAMIDS",
+          "title": "Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/86/"
+        },
+        {
+          "id": "UNESCO-ATHENS-ACROPOLIS",
+          "title": "Acropolis, Athens",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/404/"
+        },
+        {
+          "id": "YSMA-PARTHENON-STRUCTURE",
+          "title": "Parthenon",
+          "institution": "Acropolis Restoration Service（希腊文化部卫城修复局）",
+          "url": "https://www.ysma.gr/en/monuments/parthenon/"
+        },
+        {
+          "id": "UNESCO-VIA-APPIA",
+          "title": "Via Appia. Regina Viarum",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/1708/"
+        }
+      ]
+    }
   },
   "order": 4,
   "title": "希腊城邦为什么各不相同",
@@ -16,65 +60,120 @@
   "throughline": "通过城邦地图、公共建筑、雕塑和文献认识希腊城邦制度、社会生活与古典文化，同时说明公民范围的局限。",
   "childEntry": {
     "id": "world-ancient-01-04-greek-city-states",
-    "childTitle": "一块陶片能不能决定投票",
-    "prompt": "雅典和斯巴达都叫城邦，为什么规则与生活很不一样？",
-    "takeaway": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。",
-    "object": "陶片、抽签器与城邦遗址",
+    "childTitle": "雅典人为什么建神庙",
+    "prompt": "两千多年前，希腊雅典人建神庙敬奉雅典娜。跟小伙伴看石柱与神像，分清神庙和住家的用途。",
+    "takeaway": "帕特农神庙是古希腊雅典人献给雅典娜的宗教建筑。看建筑要结合用途；现代遗址照片记录的是后来保存和修复的状态。",
+    "object": "帕特农神庙的现代遗址照片",
     "people": [
-      "有限范围的雅典公民、妇女、外邦人与被奴役者"
+      "雅典人",
+      "帕特农神庙"
     ],
-    "place": "雅典、斯巴达与爱琴海地区",
-    "culture": "神庙、戏剧与体育传统",
-    "care": "说明参与权的排除边界，不把雅典制度直接称作今天的全民民主。"
+    "place": "欧洲 · 希腊雅典",
+    "culture": "古希腊神庙、信仰与建筑",
+    "care": "雅典娜属于古希腊人的神话与信仰，不作为可证实真人介绍。神庙、住家、人物和神像模型均为教学新画，不是精确比例、完整柱数、原雕像颜色或生活场景的考古复原。教学神庙借帕特农的石柱与山墙形象说明用途，不能据图数柱子或辨雕塑故事。现代照片中的脚手架与城市房屋不是古代原貌。原希腊城邦治理与社会范围研究保留。",
+    "playableSource": "content/focused-quests.json",
+    "preferredAssetId": "athens-acropolis-parthenon-2015-photo"
   },
-  "learningGuide": null,
-  "textbookConnection": null,
+  "learningGuide": {
+    "id": "world-ancient-01-04-greek-city-states",
+    "theme": "艺术和表达",
+    "learningGoal": "帕特农神庙表达雅典人的信仰，建筑用途不能只靠外观大小猜。",
+    "parentQuestion": "为什么这座建筑叫神庙？它和住家有什么不同？",
+    "observe": "孩子结合神像或敬奉用途说明神庙，并用吃饭情境指出住家；不用数柱子。",
+    "misconception": "神话人物不是可证明亲历的真人；模型非精确复原，现代照片也非建成现场。",
+    "evidenceStepIds": [
+      "time",
+      "beginning",
+      "journey",
+      "change",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "UNESCO-ATHENS-ACROPOLIS",
+      "YSMA-PARTHENON-STRUCTURE"
+    ],
+    "related": [
+      {
+        "chapterId": "world-ancient-01-02-river-civilizations",
+        "relation": "两章都先问为何建造；金字塔主体是王室陵墓，帕特农是敬奉雅典娜的神庙，不混作同一用途。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "神庙",
+      "遗址"
+    ]
+  },
+  "textbookConnection": {
+    "id": "world-ancient-01-04-greek-city-states",
+    "featured": {
+      "type": "建筑",
+      "icon": "🏛️",
+      "title": "雅典人与帕特农神庙",
+      "childBridge": "两千多年前，希腊雅典人建神庙敬奉雅典娜。跟小伙伴看石柱与神像，分清神庙和住家的用途。",
+      "evidenceBoundary": "雅典娜属于古希腊人的神话与信仰，不作为可证实真人介绍。"
+    },
+    "companions": [
+      {
+        "type": "地点",
+        "label": "希腊雅典卫城",
+        "note": "以独立的古希腊年代定位，不套用中国朝代归属。"
+      },
+      {
+        "type": "文化",
+        "label": "雅典娜",
+        "note": "明确是古希腊人信奉的女神，不介绍为可证亲历的真人。"
+      },
+      {
+        "type": "观察",
+        "label": "神庙与住家",
+        "note": "根据敬奉与日常生活的用途区分，不只按大小或柱子数量猜。"
+      }
+    ],
+    "sourceIds": [
+      "UNESCO-ATHENS-ACROPOLIS",
+      "YSMA-PARTHENON-STRUCTURE"
+    ]
+  },
   "childStory": [
     {
-      "id": "hook",
-      "icon": "🔎",
-      "label": "从一件东西出发",
-      "text": "一块陶片能不能决定投票"
+      "id": "time",
+      "icon": "🕰️",
+      "label": "先到两千多年前的雅典",
+      "text": "帕特农神庙在欧洲的希腊，两千多年前开始修建。雅典人把它献给他们信奉的女神雅典娜。我们先找古希腊，再看看建筑的用途。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "陶片刻下名字",
-      "text": "先看雅典人在陶片上刻下一个名字。"
+      "label": "献给雅典娜的神庙",
+      "text": "雅典人相信雅典娜保护自己的城市，便建造神庙敬奉她。模型左边用神像和石柱表现神庙，右边是一家人吃饭的住家。用途不同，要分开看。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "两座城规则不同",
-      "text": "接着比较雅典和斯巴达不同的生活规则。"
+      "label": "古老建筑和今天的城市",
+      "text": "照片里，山上能看见帕特农神庙的石柱，山下是后来建的城市房屋。古老建筑经过损坏和修复，照片中的样子不等于刚建成时。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "参与有范围",
-      "text": "最后发现雅典参与有范围，不能等同今天人人投票。"
+      "label": "给新来的伙伴介绍神庙",
+      "text": "新来的伙伴想看雅典人敬奉雅典娜的建筑。我们用教学模型讲解：神庙里有神像，外面排列着石柱；住家里，人们围桌吃饭。"
     },
     {
-      "id": "answer-retell",
+      "id": "takeaway",
       "icon": "🗣️",
-      "label": "把故事讲给家人听",
-      "text": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。"
+      "label": "建筑不能只按大小来猜",
+      "text": "另一个伙伴问：哪幅模型表现一家人每天吃饭的地方？我们看里面发生的事情，不把所有带古老样子的房子都叫作神庙。"
     }
   ],
   "glossary": [
     {
-      "term": "公民",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "属于一个国家、依法有权利也有责任的人。",
-      "example": "古代有些地方只让少数人成为公民。",
-      "priority": 1
-    },
-    {
-      "term": "民主",
-      "icon": "🗳️",
-      "plain": "公共事情不只由一个人说了算，人们按规则参与。",
-      "example": "不同年代参与范围不同，不能把古代投票当成今天制度。",
-      "priority": 1
+      "term": "神庙",
+      "icon": "🏛️",
+      "plain": "古人举行敬神等宗教活动的建筑。",
+      "example": "金字塔陵墓群里也有神庙；神庙和安葬的地方用途不同。",
+      "priority": 2
     },
     {
       "term": "遗址",
@@ -82,129 +181,26 @@
       "plain": "过去的人生活或活动后留下的地方。",
       "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
       "priority": 1
-    },
-    {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
-      "priority": 1
-    },
-    {
-      "term": "独立",
-      "icon": "🌱",
-      "plain": "一个国家或人民不再由外来力量控制。",
-      "example": "宣布独立是节点，建立新制度还需要很长过程。",
-      "priority": 1
-    },
-    {
-      "term": "贸易",
-      "icon": "🚚",
-      "plain": "不同人或地方交换、买卖物品和服务。",
-      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
-      "priority": 1
-    },
-    {
-      "term": "统一",
-      "icon": "🧩",
-      "plain": "原来分开的地方进入同一个国家治理。",
-      "example": "统一是过程，不是地图一换颜色，生活就全部相同。",
-      "priority": 1
-    },
-    {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
-      "priority": 1
-    },
-    {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
-      "priority": 1
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "农业",
-      "icon": "🌾",
-      "plain": "种植作物、饲养动物来获得食物和原料。",
-      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
-      "priority": 2
-    },
-    {
-      "term": "文化",
-      "icon": "🎨",
-      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
-      "example": "文化会交流变化，不能排成谁高谁低。",
-      "priority": 2
-    },
-    {
-      "term": "议会",
-      "icon": "🪑",
-      "plain": "一些代表一起讨论、决定公共事情的机构。",
-      "example": "还要问哪些人能选代表，哪些人当时被排除。",
-      "priority": 2
-    },
-    {
-      "term": "宗教",
-      "icon": "🕯️",
-      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
-      "example": "同一种宗教内部也有不同地区、时代和人群。",
-      "priority": 2
-    },
-    {
-      "term": "帝国",
-      "icon": "🗺️",
-      "plain": "由中心统治许多地区和人群的大政权。",
-      "example": "帝国地图会变化，不能把不同时期边界画成一张。",
-      "priority": 3
-    },
-    {
-      "term": "发展",
-      "icon": "🌱",
-      "plain": "事物经过一段时间出现增长或变化。",
-      "example": "发展不只看速度和数量，也要看人的生活与环境。",
-      "priority": 3
-    },
-    {
-      "term": "军队",
-      "icon": "🛡️",
-      "plain": "由国家或政治力量组织的武装人员。",
-      "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
-      "priority": 3
-    },
-    {
-      "term": "联盟",
-      "icon": "🔗",
-      "plain": "不同一方为了共同目标暂时或长期合作。",
-      "example": "联盟成员仍可能有不同想法和利益。",
-      "priority": 3
-    },
-    {
-      "term": "治理",
-      "icon": "🧭",
-      "plain": "一起安排公共事情、解决共同问题。",
-      "example": "修路、管水、定规则和听取意见都可能属于治理。",
-      "priority": 3
     }
   ],
   "pronunciations": [
     {
-      "text": "斯巴达",
-      "reading": "Sībādá",
+      "text": "雅典娜",
+      "reading": "Yǎdiǎnnà",
+      "kind": "person",
+      "chapterIds": [
+        "world-ancient-01-04-greek-city-states"
+      ],
+      "note": "本轮新增可玩主线校听项；自动绑定不等于已人工校听。"
+    },
+    {
+      "text": "帕特农",
+      "reading": "Pàtènóng",
       "kind": "place",
       "chapterIds": [
         "world-ancient-01-04-greek-city-states"
       ],
-      "note": "按中文译名连读。"
+      "note": "本轮新增可玩主线校听项；自动绑定不等于已人工校听。"
     },
     {
       "text": "雅典",
@@ -217,411 +213,835 @@
     }
   ],
   "gameplay": {
-    "mode": "memory-hook-story-quest-v3",
+    "mode": "authored-picture-quest-v4",
     "status": "playable-core",
     "audioStatus": "local-pre-generated",
     "hook": {
-      "kind": "一件东西",
+      "kind": "具体任务",
       "icon": "🔎",
-      "label": "一块陶片能不能决定投票",
-      "question": "雅典和斯巴达都叫城邦，为什么规则与生活很不一样？"
+      "label": "雅典人为什么建神庙",
+      "question": "两千多年前，希腊雅典人建神庙敬奉雅典娜。跟小伙伴看石柱与神像，分清神庙和住家的用途。"
+    },
+    "cta": "带着问题去看看",
+    "anchor": "雅典人与帕特农神庙",
+    "boundary": "雅典娜属于古希腊人的神话与信仰，不作为可证实真人介绍。神庙、住家、人物和神像模型均为教学新画，不是精确比例、完整柱数、原雕像颜色或生活场景的考古复原。教学神庙借帕特农的石柱与山墙形象说明用途，不能据图数柱子或辨雕塑故事。现代照片中的脚手架与城市房屋不是古代原貌。原希腊城邦治理与社会范围研究保留。",
+    "evidence": [
+      {
+        "id": "athens-acropolis-parthenon-2015-photo",
+        "title": "雅典卫城与帕特农神庙2015年实拍",
+        "localPath": "reference-assets/world-ancient-greek-city-states/parthenon-2015.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Acropolis_Parthenon_Athens_Greece.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC0 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "2015年从雅典市区拍摄的卫城和帕特农神庙，可见现代城市、脚手架和遗址保护状态。",
+        "boundary": "现代遗址照片。脚手架、现代城市和建筑损坏、修复的状态不代表公元前5世纪的原貌。帕特农神庙献给雅典娜，不是公民大会会场或现代议会。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/athens-acropolis-parthenon-2015-photo.jpg"
+      }
+    ],
+    "photoAlbum": null,
+    "coverAsset": {
+      "id": "athens-acropolis-parthenon-2015-photo",
+      "title": "雅典卫城与帕特农神庙2015年实拍",
+      "localPath": "reference-assets/world-ancient-greek-city-states/parthenon-2015.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Acropolis_Parthenon_Athens_Greece.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC0 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "2015年从雅典市区拍摄的卫城和帕特农神庙，可见现代城市、脚手架和遗址保护状态。",
+      "boundary": "现代遗址照片。脚手架、现代城市和建筑损坏、修复的状态不代表公元前5世纪的原貌。帕特农神庙献给雅典娜，不是公民大会会场或现代议会。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/athens-acropolis-parthenon-2015-photo.jpg"
+    },
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "athens-temple-story-v1",
+      "sceneAlt": "雅典人为什么建神庙的现代教学情境，非考古复原",
+      "title": "雅典人为什么建神庙",
+      "evidenceTitle": "雅典卫城与神庙 · 2015年照片",
+      "evidenceLine": "真实材料与教学新画分别标注；点开材料可听年代和出处。",
+      "evidenceNarration": "帕特农神庙在古希腊雅典，是献给雅典娜的宗教建筑。这张2015年照片还能看到脚手架和山下的现代房屋，不能把它们都当古代原貌。",
+      "guide": "和小伙伴看材料、听故事，再说说你的发现。",
+      "alignHint": "",
+      "familyHint": "回看材料里的线索，和家人说说。",
+      "familyLabel": "和家人再试一次",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "带着发现回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "athens-temple-story-v1",
+        "reunionAlt": "雅典人为什么建神庙的教学情境",
+        "reunionAspectRatio": 1.5,
+        "reunionFit": "contain",
+        "coverCaption": "雅典人为什么建神庙",
+        "coverNarration": "两千多年前，希腊雅典人建神庙敬奉雅典娜。跟小伙伴看石柱与神像，分清神庙和住家的用途。",
+        "closingCaption": "把发现说给家人听",
+        "closingLine": "雅典人为什么建神庙",
+        "closingNarration": "帕特农神庙是古希腊雅典人献给雅典娜的宗教建筑。看建筑要结合用途；现代遗址照片记录的是后来保存和修复的状态。",
+        "fictionNote": "雅典娜属于古希腊人的神话与信仰，不作为可证实真人介绍。神庙、住家、人物和神像模型均为教学新画，不是精确比例、完整柱数、原雕像颜色或生活场景的考古复原。教学神庙借帕特农的石柱与山墙形象说明用途，不能据图数柱子或辨雕塑故事。现代照片中的脚手架与城市房屋不是古代原貌。原希腊城邦治理与社会范围研究保留。",
+        "reunionImage": "/content/step-images/athens-temple-story-v1.jpg",
+        "stationLine": "到古代南亚看怎样存水，再去埃及、希腊和罗马，看看陵墓、神庙和道路各有什么用途。这些故事发生在不同年代和地方。",
+        "stationAudio": {
+          "id": "quest-1e5e0c2fbcde8a1e",
+          "text": "到古代南亚看怎样存水，再去埃及、希腊和罗马，看看陵墓、神庙和道路各有什么用途。这些故事发生在不同年代和地方。"
+        },
+        "closingAudio": {
+          "id": "quest-82f689ccca2ce1e6",
+          "text": "帕特农神庙是古希腊雅典人献给雅典娜的宗教建筑。看建筑要结合用途；现代遗址照片记录的是后来保存和修复的状态。"
+        }
+      },
+      "sceneImage": "/content/step-images/athens-temple-story-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-92fec9084b57ffff",
+        "text": "帕特农神庙在古希腊雅典，是献给雅典娜的宗教建筑。这张2015年照片还能看到脚手架和山下的现代房屋，不能把它们都当古代原貌。"
+      },
+      "guideAudio": {
+        "id": "quest-3a7a1472918f5e2f",
+        "text": "和小伙伴看材料、听故事，再说说你的发现。"
+      }
+    },
+    "sceneAsset": {
+      "id": "athens-temple-story-v1",
+      "title": "雅典人为什么建神庙教学插画",
+      "localPath": "reference-assets/2026-10-28-world-expansion/athens-temple-story-v1.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/2026-10-28-world-expansion/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "教学新画 · 现代学习情境，非历史照片或精确复原",
+      "boundary": "雅典娜属于古希腊人的神话与信仰，不作为可证实真人介绍。神庙、住家、人物和神像模型均为教学新画，不是精确比例、完整柱数、原雕像颜色或生活场景的考古复原。教学神庙借帕特农的石柱与山墙形象说明用途，不能据图数柱子或辨雕塑故事。现代照片中的脚手架与城市房屋不是古代原貌。原希腊城邦治理与社会范围研究保留。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/athens-temple-story-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "athens-temple-story-v1",
+        "title": "雅典人为什么建神庙教学插画",
+        "localPath": "reference-assets/2026-10-28-world-expansion/athens-temple-story-v1.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/2026-10-28-world-expansion/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "教学新画 · 现代学习情境，非历史照片或精确复原",
+        "boundary": "雅典娜属于古希腊人的神话与信仰，不作为可证实真人介绍。神庙、住家、人物和神像模型均为教学新画，不是精确比例、完整柱数、原雕像颜色或生活场景的考古复原。教学神庙借帕特农的石柱与山墙形象说明用途，不能据图数柱子或辨雕塑故事。现代照片中的脚手架与城市房屋不是古代原貌。原希腊城邦治理与社会范围研究保留。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/athens-temple-story-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/athens-acropolis-parthenon-2015-photo.jpg",
+    "coverImageAlt": "雅典卫城与帕特农神庙2015年实拍",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "雅典卫城与神庙 · 2015年照片",
+      "fit": "contain"
     },
     "coverAudio": {
-      "id": "quest-584931b063db8bf1",
-      "text": "今天从一件东西出发：一块陶片能不能决定投票。我们要去雅典、斯巴达与爱琴海地区，看看陶片、抽签器与城邦遗址怎样把答案一点点带出来。准备好就点开始。"
+      "id": "quest-86768e77e10a6004",
+      "text": "两千多年前，希腊雅典人建神庙敬奉雅典娜。跟小伙伴看石柱与神像，分清神庙和住家的用途。"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-00988afe1cf41e55",
-      "text": "五条线索都找到了，“一块陶片能不能决定投票”的答案是：城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。 你获得了历史证据小侦探勋章。"
+      "id": "quest-82f689ccca2ce1e6",
+      "text": "帕特农神庙是古希腊雅典人献给雅典娜的宗教建筑。看建筑要结合用途；现代遗址照片记录的是后来保存和修复的状态。"
     },
-    "estimatedMinutes": 9,
+    "finish": {
+      "title": "带走自己的发现",
+      "actions": [
+        "指教学图里的神庙与住家，各说一个画面线索：神像、石柱，或一家人吃饭。",
+        "和家人观察家里的一个房间，说说“这里做什么”，再用用途来介绍它；不要只按房间大小猜。"
+      ],
+      "parent": "孩子能把帕特农神庙的敬奉用途与住家日常生活分开即可。信仰内容表述为古人的相信，不要求儿童相信神灵，也不把神庙等同公民大会、议会或陵墓。希腊修复局区分前447—438年主体施工与前432年雕塑完成；儿童层用前5世纪避免混成一次竣工。",
+      "sceneStepIndexes": [
+        2,
+        4
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-ed58114273e70a93",
+          "text": "指教学图里的神庙与住家，各说一个画面线索：神像、石柱，或一家人吃饭。"
+        },
+        {
+          "id": "quest-c9af1aa9a6918e2f",
+          "text": "和家人观察家里的一个房间，说说“这里做什么”，再用用途来介绍它；不要只按房间大小猜。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-82f689ccca2ce1e6",
+        "text": "帕特农神庙是古希腊雅典人献给雅典娜的宗教建筑。看建筑要结合用途；现代遗址照片记录的是后来保存和修复的状态。"
+      }
+    },
+    "estimatedMinutes": 6,
     "badge": {
-      "icon": "🏅",
-      "label": "历史证据小侦探"
+      "icon": "🌟",
+      "label": "小小观察员"
     },
     "steps": [
       {
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "先找到时间",
-        "title": "先把故事放进时间河",
-        "prompt": "从一件东西出发，先找哪个年代？",
-        "rightNote": "时间找对了，故事有了起点。",
-        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "phase": "先到两千多年前的雅典",
+        "title": "先到两千多年前的雅典",
+        "prompt": "神庙最早建于哪个时期？",
+        "rightNote": "先到两千多年前的古希腊。",
+        "wrongNote": "照片虽是今天看到的，神庙却早已建起。",
+        "sourceIds": [
+          "UNESCO-ATHENS-ACROPOLIS",
+          "YSMA-PARTHENON-STRUCTURE"
+        ],
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听故事，再从画面里找线索。"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "先到两千多年前的雅典",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "先到两千多年前的古希腊。",
+          "retry": "照片虽是今天看到的，神庙却早已建起。",
+          "nextLabel": "先听为什么要建"
+        },
+        "concepts": null,
+        "inspection": {
+          "id": "athens-acropolis-parthenon-2015-photo",
+          "title": "雅典卫城与帕特农神庙",
+          "localPath": "reference-assets/world-ancient-greek-city-states/parthenon-2015.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Acropolis_Parthenon_Athens_Greece.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC0 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "前5世纪建筑 · 2015年照片",
+          "boundary": "现代遗址照片。脚手架、现代城市和建筑损坏、修复的状态不代表公元前5世纪的原貌。帕特农神庙献给雅典娜，不是公民大会会场或现代议会。 2015年从雅典市区拍摄的卫城和帕特农神庙，可见现代城市、脚手架和遗址保护状态。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/athens-acropolis-parthenon-2015-photo.jpg",
+          "label": "看真实材料，听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 290,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "UNESCO：雅典卫城",
+              "url": "https://whc.unesco.org/en/list/404/"
+            },
+            {
+              "title": "希腊卫城修复局：帕特农神庙",
+              "url": "https://www.ysma.gr/en/monuments/parthenon/"
+            },
+            {
+              "title": "照片作者Jebulon与CC0许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Acropolis_Parthenon_Athens_Greece.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-92fec9084b57ffff",
+            "text": "帕特农神庙在古希腊雅典，是献给雅典娜的宗教建筑。这张2015年照片还能看到脚手架和山下的现代房屋，不能把它们都当古代原貌。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "先把故事放进时间河",
-          "screenText": "这是古代文明，时间是早期人类—约5世纪。",
-          "narration": "这是古代文明，时间是早期人类—约5世纪。",
-          "displayText": "这是古代文明，时间是早期人类—约5世纪。"
+          "title": "先到两千多年前的雅典",
+          "screenText": "帕特农神庙在欧洲的希腊，两千多年前开始修建。雅典人把它献给他们信奉的女神雅典娜。我们先找古希腊，再看看建筑的用途。",
+          "displayText": "帕特农神庙在欧洲的希腊，两千多年前开始修建。雅典人把它献给他们信奉的女神雅典娜。我们先找古希腊，再看看建筑的用途。",
+          "narration": "帕特农神庙在欧洲的希腊，两千多年前开始修建。雅典人把它献给他们信奉的女神雅典娜。我们先找古希腊，再看看建筑的用途。"
         },
-        "assetId": "athens-kleroterion-2022-photo",
-        "image": "/content/step-images/athens-kleroterion-2022-photo.jpg",
-        "imageAlt": "雅典广场博物馆大理石抽签器2022年实拍",
-        "imageCaption": "2022年拍摄的雅典古代广场博物馆大理石抽签器，可见成排卡槽。",
-        "imageBoundary": "Commons原图5419×3606像素，等比缩至2200×1464像素，未裁切。摄影页没有提供可与发掘数据库I 3967完全核对的馆藏编号，因此正文只称同类抽签器，不把I 3967的精确尺寸、出土位置和十一排插槽直接移给照片对象。抽签器用于公共职务或陪审员抽签，不称现代选举机、投票箱或随机决定所有政策的机器。",
+        "assetId": "athens-temple-story-v1",
+        "image": "/content/step-images/athens-temple-story-v1.jpg",
+        "studyImage": "/content/study-scenes/study-5cf0449836407fd9.svg",
+        "studyImageAlt": "先到两千多年前的雅典",
+        "imageAlt": "雅典人为什么建神庙教学插画",
+        "imageCaption": "雅典人为什么建神庙教学插画",
+        "imageBoundary": "雅典娜属于古希腊人的神话与信仰，不作为可证实真人介绍。神庙、住家、人物和神像模型均为教学新画，不是精确比例、完整柱数、原雕像颜色或生活场景的考古复原。教学神庙借帕特农的石柱与山墙形象说明用途，不能据图数柱子或辨雕塑故事。现代照片中的脚手架与城市房屋不是古代原貌。原希腊城邦治理与社会范围研究保留。",
         "audio": {
+          "lead": {
+            "id": "quest-c8dfb15c0ad1f3c5",
+            "text": "帕特农神庙在欧洲的希腊，两千多年前开始修建。雅典人把它献给他们信奉的女神雅典娜。我们先找古希腊，再看看建筑的用途。神庙最早建于哪个时期？"
+          },
           "transition": {
-            "id": "quest-539cc8e9e5394229",
-            "text": "先给一件东西找到正确年代。"
+            "id": "quest-4b8ef5bdccb976ea",
+            "text": "先到两千多年前的雅典。"
           },
           "intro": {
-            "id": "quest-21581725ac4a1096",
-            "text": "这是古代文明，时间是早期人类—约5世纪。"
-          },
-          "image": {
-            "id": "quest-666ba283afded447",
-            "text": "点开大图啦。这是雅典广场博物馆大理石抽签器2022年实拍。这张图能帮我们找到：这是古代文明，时间是早期人类—约5世纪。"
+            "id": "quest-a5e7881438b3e8bd",
+            "text": "帕特农神庙在欧洲的希腊，两千多年前开始修建。雅典人把它献给他们信奉的女神雅典娜。我们先找古希腊，再看看建筑的用途。"
           },
           "question": {
-            "id": "quest-50c86239196ce113",
-            "text": "从一件东西出发，先找哪个年代？"
+            "id": "quest-048aa85e8daf54e0",
+            "text": "神庙最早建于哪个时期？"
+          },
+          "image": {
+            "id": "quest-5aa4d4580145d908",
+            "text": "这张是雅典人为什么建神庙教学插画。帕特农神庙在欧洲的希腊，两千多年前开始修建。雅典人把它献给他们信奉的女神雅典娜。我们先找古希腊，再看看建筑的用途。"
           },
           "right": {
-            "id": "quest-c2d78010da74a324",
-            "text": "答对啦！时间找对了，故事有了起点。"
+            "id": "quest-eb6f01ac6a5bdbc6",
+            "text": "先到两千多年前的古希腊。"
           },
           "wrong": {
-            "id": "quest-97f81f02dcd7c5eb",
-            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+            "id": "quest-e208ee2fdfd9e785",
+            "text": "照片虽是今天看到的，神庙却早已建起。"
           }
         },
         "options": [
           {
             "id": "world-ancient-01-04-greek-city-states-time-1",
-            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
-            "correct": false,
+            "label": "古希腊",
+            "correct": true,
+            "objectView": {
+              "kind": "era",
+              "name": "古希腊",
+              "date": "前447年起",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-e3e9fbfa2cd31047.svg",
+            "imageAlt": "古希腊",
             "audio": {
-              "id": "quest-d697ebadd2ec4ecb",
-              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+              "id": "quest-9c4501b96ebd528b",
+              "text": "古希腊"
             }
           },
           {
             "id": "world-ancient-01-04-greek-city-states-time-2",
-            "label": "世界古代史 · 古代文明 · 早期人类—约5世纪",
-            "correct": true,
-            "audio": {
-              "id": "quest-41ed781097729712",
-              "text": "世界古代史 · 古代文明 · 早期人类—约5世纪"
-            }
-          },
-          {
-            "id": "world-ancient-01-04-greek-city-states-time-3",
-            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "label": "拍照片的年份",
             "correct": false,
+            "objectView": {
+              "kind": "era",
+              "name": "拍照片的年份",
+              "date": "2015年",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-72f1fa67104a66d6.svg",
+            "imageAlt": "拍照片的年份",
             "audio": {
-              "id": "quest-ec1b28f3cd29e479",
-              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+              "id": "quest-6d9a104e84854b17",
+              "text": "拍照片的年份"
             }
           }
         ]
       },
       {
         "id": "beginning",
-        "questionKind": "evidence-object",
+        "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "第一拍 · 故事起点",
-        "title": "陶片刻下名字",
-        "prompt": "哪一件证物能先打开这个故事？",
-        "rightNote": "先看雅典人在陶片上刻下一个名字。",
-        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "phase": "献给雅典娜的神庙",
+        "title": "献给雅典娜的神庙",
+        "prompt": "神庙和住家有什么不同？",
+        "rightNote": "神庙用于敬奉神灵，家中安排日常生活。",
+        "wrongNote": "再听一听雅典人的信仰与建庙用途。",
+        "sourceIds": [
+          "UNESCO-ATHENS-ACROPOLIS",
+          "YSMA-PARTHENON-STRUCTURE"
+        ],
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听故事，再从画面里找线索。",
+          "continueLabel": "看看真照片中的建筑"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "献给雅典娜的神庙",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "神庙用于敬奉神灵，家中安排日常生活。",
+          "retry": "再听一听雅典人的信仰与建庙用途。",
+          "nextLabel": "看看真照片中的建筑"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "陶片刻下名字",
-          "screenText": "先看雅典人在陶片上刻下一个名字。",
-          "narration": "先看雅典人在陶片上刻下一个名字。",
-          "displayText": "先看雅典人在陶片上刻下一个名字。"
+          "title": "献给雅典娜的神庙",
+          "screenText": "雅典人相信雅典娜保护自己的城市，便建造神庙敬奉她。模型左边用神像和石柱表现神庙，右边是一家人吃饭的住家。用途不同，要分开看。",
+          "displayText": "雅典人相信雅典娜保护自己的城市，便建造神庙敬奉她。模型左边用神像和石柱表现神庙，右边是一家人吃饭的住家。用途不同，要分开看。",
+          "narration": "雅典人相信雅典娜保护自己的城市，便建造神庙敬奉她。模型左边用神像和石柱表现神庙，右边是一家人吃饭的住家。用途不同，要分开看。"
         },
-        "assetId": "athens-themistocles-ostrakon-2005-photo",
-        "image": "/content/step-images/athens-themistocles-ostrakon-2005-photo.jpg",
-        "imageAlt": "雅典广场博物馆陶片放逐票2005年实拍",
-        "imageCaption": "2005年拍摄的陶片放逐票，来源页将其识别为写有地米斯托克利姓名的陶片。",
-        "imageBoundary": "Commons原图800×813像素，未放大、未裁切。来源页将对象定为写有地米斯托克利及其父名的陶片；正式事实只采用雅典广场发掘机构对ostraka用途的说明，不仅依赖摄影者对具体年份和人物经历的长注释。陶片是一次制度程序的物证，不当作日常投票、刑事定罪或驱逐游戏道具。",
+        "assetId": "athens-temple-story-v1",
+        "image": "/content/step-images/athens-temple-story-v1.jpg",
+        "studyImage": "/content/study-scenes/study-e33264984c8a5e4a.svg",
+        "studyImageAlt": "献给雅典娜的神庙",
+        "imageAlt": "雅典人为什么建神庙教学插画",
+        "imageCaption": "雅典人为什么建神庙教学插画",
+        "imageBoundary": "雅典娜属于古希腊人的神话与信仰，不作为可证实真人介绍。神庙、住家、人物和神像模型均为教学新画，不是精确比例、完整柱数、原雕像颜色或生活场景的考古复原。教学神庙借帕特农的石柱与山墙形象说明用途，不能据图数柱子或辨雕塑故事。现代照片中的脚手架与城市房屋不是古代原貌。原希腊城邦治理与社会范围研究保留。",
         "audio": {
+          "lead": {
+            "id": "quest-56e20fa40a2d6a73",
+            "text": "雅典人相信雅典娜保护自己的城市，便建造神庙敬奉她。模型左边用神像和石柱表现神庙，右边是一家人吃饭的住家。用途不同，要分开看。"
+          },
           "transition": {
-            "id": "quest-bc13be496686808e",
-            "text": "时间找到了。先找一件看得见、能核对的证物。"
+            "id": "quest-9f25560248de9933",
+            "text": "献给雅典娜的神庙。"
           },
           "intro": {
-            "id": "quest-bc1cb1b525777b09",
-            "text": "先看雅典人在陶片上刻下一个名字。"
-          },
-          "image": {
-            "id": "quest-11beb0749ee12c39",
-            "text": "点开大图啦。这是雅典广场博物馆陶片放逐票2005年实拍。这张图能帮我们找到：先看雅典人在陶片上刻下一个名字。"
+            "id": "quest-56e20fa40a2d6a73",
+            "text": "雅典人相信雅典娜保护自己的城市，便建造神庙敬奉她。模型左边用神像和石柱表现神庙，右边是一家人吃饭的住家。用途不同，要分开看。"
           },
           "question": {
-            "id": "quest-785d31b501154b8e",
-            "text": "哪一件证物能先打开这个故事？"
+            "id": "quest-725e765b69d3f5eb",
+            "text": "神庙和住家有什么不同？"
+          },
+          "image": {
+            "id": "quest-cded581076d50c93",
+            "text": "这张是雅典人为什么建神庙教学插画。雅典人相信雅典娜保护自己的城市，便建造神庙敬奉她。模型左边用神像和石柱表现神庙，右边是一家人吃饭的住家。用途不同，要分开看。"
           },
           "right": {
-            "id": "quest-9e334cf899a379f3",
-            "text": "答对啦！第一件证物找到了。"
+            "id": "quest-1c6e84c7e7718bc1",
+            "text": "神庙用于敬奉神灵，家中安排日常生活。"
           },
           "wrong": {
-            "id": "quest-83318c217691cf7c",
-            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+            "id": "quest-c5ee47043f672371",
+            "text": "再听一听雅典人的信仰与建庙用途。"
           }
         },
-        "options": [
-          {
-            "id": "world-ancient-01-04-greek-city-states-beginning-1",
-            "label": "陶片、抽签器与城邦遗址，是能核对的证物",
-            "correct": true,
-            "audio": {
-              "id": "quest-568c2d2de5b1e30a",
-              "text": "陶片、抽签器与城邦遗址，是能核对的证物"
-            }
-          },
-          {
-            "id": "world-ancient-01-04-greek-city-states-beginning-2",
-            "label": "一块陶片能不能决定投票、雅，只是故事人物",
-            "correct": false,
-            "audio": {
-              "id": "quest-f2dbaf9a2c97acf0",
-              "text": "一块陶片能不能决定投票、雅，只是故事人物"
-            }
-          },
-          {
-            "id": "world-ancient-01-04-greek-city-states-beginning-3",
-            "label": "雅典、斯巴达与爱琴海地，只是故事地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-1c43736fdc19287d",
-              "text": "雅典、斯巴达与爱琴海地，只是故事地点"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
-        "questionKind": "people-place-action",
+        "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "第二拍 · 故事继续",
-        "title": "两座城规则不同",
-        "prompt": "故事里的人来到这里以后，做了什么？",
-        "rightNote": "接着比较雅典和斯巴达不同的生活规则。",
-        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "phase": "古老建筑和今天的城市",
+        "title": "古老建筑和今天的城市",
+        "prompt": "哪一处是山上的帕特农神庙？",
+        "rightNote": "照片同时记录古老建筑和今天的环境。",
+        "wrongNote": "先找山顶上带石柱的建筑。",
+        "sourceIds": [
+          "UNESCO-ATHENS-ACROPOLIS",
+          "YSMA-PARTHENON-STRUCTURE"
+        ],
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听问题，点图中对应的线索。",
+          "imageLabel": "实物照片",
+          "sceneAspectRatio": 2.3329798515376456,
+          "ariaLabel": "观察材料并选择对应对象",
+          "hotspots": [
+            {
+              "id": "temple",
+              "label": "山上的帕特农神庙",
+              "x": 0.27,
+              "y": 0.31,
+              "width": 0.34,
+              "height": 0.24
+            },
+            {
+              "id": "homes",
+              "label": "山下的现代房屋",
+              "x": 0.72,
+              "y": 0.67,
+              "width": 0.26,
+              "height": 0.31
+            }
+          ],
+          "rounds": [
+            {
+              "id": "temple",
+              "targetId": "temple",
+              "question": "哪一处是山上的帕特农神庙？",
+              "feedback": "这里能看见古老神庙保存下来的石柱。",
+              "retry": "这里是山下房屋，神庙在山上。",
+              "nextLabel": "再找照片里的现代环境",
+              "audio": {
+                "question": {
+                  "id": "quest-b0e871eae07075c6",
+                  "text": "哪一处是山上的帕特农神庙？"
+                },
+                "right": {
+                  "id": "quest-4d977971a39504c0",
+                  "text": "这里能看见古老神庙保存下来的石柱。"
+                },
+                "wrong": {
+                  "id": "quest-8dcdfa884d26e3b9",
+                  "text": "这里是山下房屋，神庙在山上。"
+                }
+              }
+            },
+            {
+              "id": "homes",
+              "targetId": "homes",
+              "question": "哪一处是山下的现代房屋？",
+              "feedback": "这些房屋属于后来的城市环境。",
+              "retry": "这里是古老神庙，再看山下的房屋。",
+              "nextLabel": "回到模型找用途",
+              "audio": {
+                "question": {
+                  "id": "quest-1467aede90d59a0c",
+                  "text": "哪一处是山下的现代房屋？"
+                },
+                "right": {
+                  "id": "quest-9e65297842dfea26",
+                  "text": "这些房屋属于后来的城市环境。"
+                },
+                "wrong": {
+                  "id": "quest-6b154981b5018b7b",
+                  "text": "这里是古老神庙，再看山下的房屋。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "古老建筑和今天的城市",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "照片同时记录古老建筑和今天的环境。",
+          "retry": "先找山顶上带石柱的建筑。",
+          "nextLabel": "回到模型找用途"
+        },
+        "concepts": null,
+        "inspection": {
+          "id": "athens-acropolis-parthenon-2015-photo",
+          "title": "雅典卫城与帕特农神庙",
+          "localPath": "reference-assets/world-ancient-greek-city-states/parthenon-2015.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Acropolis_Parthenon_Athens_Greece.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC0 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "前5世纪建筑 · 2015年照片",
+          "boundary": "现代遗址照片。脚手架、现代城市和建筑损坏、修复的状态不代表公元前5世纪的原貌。帕特农神庙献给雅典娜，不是公民大会会场或现代议会。 2015年从雅典市区拍摄的卫城和帕特农神庙，可见现代城市、脚手架和遗址保护状态。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/athens-acropolis-parthenon-2015-photo.jpg",
+          "label": "看真实材料，听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 290,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "UNESCO：雅典卫城",
+              "url": "https://whc.unesco.org/en/list/404/"
+            },
+            {
+              "title": "希腊卫城修复局：帕特农神庙",
+              "url": "https://www.ysma.gr/en/monuments/parthenon/"
+            },
+            {
+              "title": "照片作者Jebulon与CC0许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Acropolis_Parthenon_Athens_Greece.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-92fec9084b57ffff",
+            "text": "帕特农神庙在古希腊雅典，是献给雅典娜的宗教建筑。这张2015年照片还能看到脚手架和山下的现代房屋，不能把它们都当古代原貌。"
+          }
+        },
         "story": {
           "screenNumber": 3,
-          "title": "两座城规则不同",
-          "screenText": "接着比较雅典和斯巴达不同的生活规则。",
-          "narration": "接着比较雅典和斯巴达不同的生活规则。",
-          "displayText": "接着比较雅典和斯巴达不同的生活规则。"
+          "title": "古老建筑和今天的城市",
+          "screenText": "照片里，山上能看见帕特农神庙的石柱，山下是后来建的城市房屋。古老建筑经过损坏和修复，照片中的样子不等于刚建成时。",
+          "displayText": "照片里，山上能看见帕特农神庙的石柱，山下是后来建的城市房屋。古老建筑经过损坏和修复，照片中的样子不等于刚建成时。",
+          "narration": "照片里，山上能看见帕特农神庙的石柱，山下是后来建的城市房屋。古老建筑经过损坏和修复，照片中的样子不等于刚建成时。"
         },
         "assetId": "athens-acropolis-parthenon-2015-photo",
         "image": "/content/step-images/athens-acropolis-parthenon-2015-photo.jpg",
+        "studyImage": "/content/study-scenes/study-444f05cf62109ad8.svg",
+        "studyImageAlt": "古老建筑和今天的城市",
         "imageAlt": "雅典卫城与帕特农神庙2015年实拍",
-        "imageCaption": "2015年从雅典市区拍摄的卫城和帕特农神庙，可见现代城市、脚手架和遗址保护状态。",
-        "imageBoundary": "Commons原图4397×1885像素，等比缩至2200×943像素，未裁切。必须标为现代遗址照；脚手架、现代建筑、旗帜和现存断裂状态不能搬回前5世纪。帕特农神庙建于前447—前432年，是献给雅典娜的宗教建筑，不标成公民大会会场或现代议会。",
+        "imageCaption": "雅典卫城与帕特农神庙2015年实拍",
+        "imageBoundary": "现代遗址照片。脚手架、现代城市和建筑损坏、修复的状态不代表公元前5世纪的原貌。帕特农神庙献给雅典娜，不是公民大会会场或现代议会。",
         "audio": {
+          "lead": {
+            "id": "quest-61a6c3800fc651f0",
+            "text": "照片里，山上能看见帕特农神庙的石柱，山下是后来建的城市房屋。古老建筑经过损坏和修复，照片中的样子不等于刚建成时。哪一处是山上的帕特农神庙？"
+          },
           "transition": {
-            "id": "quest-d4c11419e03a18fd",
-            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+            "id": "quest-a7c94d3d04fdf68b",
+            "text": "古老建筑和今天的城市。"
           },
           "intro": {
-            "id": "quest-1a67e013317da7cc",
-            "text": "接着比较雅典和斯巴达不同的生活规则。"
-          },
-          "image": {
-            "id": "quest-9f2e8bfca3b2b417",
-            "text": "点开大图啦。这是雅典卫城与帕特农神庙2015年实拍。这张图能帮我们找到：接着比较雅典和斯巴达不同的生活规则。"
+            "id": "quest-1813d3a21648586a",
+            "text": "照片里，山上能看见帕特农神庙的石柱，山下是后来建的城市房屋。古老建筑经过损坏和修复，照片中的样子不等于刚建成时。"
           },
           "question": {
-            "id": "quest-329a69e64424a884",
-            "text": "故事里的人来到这里以后，做了什么？"
+            "id": "quest-b0e871eae07075c6",
+            "text": "哪一处是山上的帕特农神庙？"
+          },
+          "image": {
+            "id": "quest-f5beb527f4d0330f",
+            "text": "这张是雅典卫城与帕特农神庙2015年实拍。照片里，山上能看见帕特农神庙的石柱，山下是后来建的城市房屋。古老建筑经过损坏和修复，照片中的样子不等于刚建成时。"
           },
           "right": {
-            "id": "quest-d7d6754891bc9f0f",
-            "text": "答对啦！人物、地点和行动连起来了。"
+            "id": "quest-f2b4510f0cb8d41d",
+            "text": "照片同时记录古老建筑和今天的环境。"
           },
           "wrong": {
-            "id": "quest-66c837d18451416f",
-            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+            "id": "quest-bbd573d206d92952",
+            "text": "先找山顶上带石柱的建筑。"
           }
         },
-        "options": [
-          {
-            "id": "world-ancient-01-04-greek-city-states-journey-1",
-            "label": "雅典、斯巴达与爱琴海地，只说了地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-5a6be29b3cea8f4b",
-              "text": "雅典、斯巴达与爱琴海地，只说了地点"
-            }
-          },
-          {
-            "id": "world-ancient-01-04-greek-city-states-journey-2",
-            "label": "一块陶片能不能决定投票、陶，只认出人物",
-            "correct": false,
-            "audio": {
-              "id": "quest-74c9a4c9a9e4454c",
-              "text": "一块陶片能不能决定投票、陶，只认出人物"
-            }
-          },
-          {
-            "id": "world-ancient-01-04-greek-city-states-journey-3",
-            "label": "接着比较雅典和斯巴达不同的生活规则。",
-            "correct": true,
-            "audio": {
-              "id": "quest-1a67e013317da7cc",
-              "text": "接着比较雅典和斯巴达不同的生活规则。"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "第三拍 · 看见变化",
-        "title": "参与有范围",
-        "prompt": "前面的行动带来了什么变化？",
-        "rightNote": "最后发现雅典参与有范围，不能等同今天人人投票。",
-        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "phase": "给新来的伙伴介绍神庙",
+        "title": "给新来的伙伴介绍神庙",
+        "prompt": "要介绍神庙，该指哪一个模型？",
+        "rightNote": "神像与石柱的模型帮助说明神庙的用途。",
+        "wrongNote": "这是住家的生活场景，再找敬奉雅典娜的神庙。",
+        "sourceIds": [
+          "UNESCO-ATHENS-ACROPOLIS",
+          "YSMA-PARTHENON-STRUCTURE"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听故事，再从画面里找线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "给新来的伙伴介绍神庙",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "神像与石柱的模型帮助说明神庙的用途。",
+          "retry": "这是住家的生活场景，再找敬奉雅典娜的神庙。",
+          "nextLabel": "换个问题再想想"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "参与有范围",
-          "screenText": "最后发现雅典参与有范围，不能等同今天人人投票。",
-          "narration": "最后发现雅典参与有范围，不能等同今天人人投票。",
-          "displayText": "最后发现雅典参与有范围，不能等同今天人人投票。"
+          "title": "给新来的伙伴介绍神庙",
+          "screenText": "新来的伙伴想看雅典人敬奉雅典娜的建筑。我们用教学模型讲解：神庙里有神像，外面排列着石柱；住家里，人们围桌吃饭。",
+          "displayText": "新来的伙伴想看雅典人敬奉雅典娜的建筑。我们用教学模型讲解：神庙里有神像，外面排列着石柱；住家里，人们围桌吃饭。",
+          "narration": "新来的伙伴想看雅典人敬奉雅典娜的建筑。我们用教学模型讲解：神庙里有神像，外面排列着石柱；住家里，人们围桌吃饭。"
         },
-        "assetId": "athens-pnyx-bema-2019-photo",
-        "image": "/content/step-images/athens-pnyx-bema-2019-photo.jpg",
-        "imageAlt": "普尼克斯山演说台与雅典卫城2019年实拍",
-        "imageCaption": "2019年拍摄的普尼克斯山公民大会遗址，前景右侧为岩石演说台区域，远处可见雅典卫城。",
-        "imageBoundary": "Commons原图6000×4000像素，等比缩至2200×1466像素，未裁切。只用于定位古代公民大会遗址，不能把今日植被、道路、照明和修整后的岩石环境当作前5世纪现场。页面需另用文字说明只有成年男性雅典公民可参加，不能用空遗址照片制造全民参与的错觉。",
+        "assetId": "athens-temple-story-v1",
+        "image": "/content/step-images/athens-temple-story-v1.jpg",
+        "studyImage": "/content/study-scenes/study-cff0e23a58218855.svg",
+        "studyImageAlt": "给新来的伙伴介绍神庙",
+        "imageAlt": "雅典人为什么建神庙教学插画",
+        "imageCaption": "雅典人为什么建神庙教学插画",
+        "imageBoundary": "雅典娜属于古希腊人的神话与信仰，不作为可证实真人介绍。神庙、住家、人物和神像模型均为教学新画，不是精确比例、完整柱数、原雕像颜色或生活场景的考古复原。教学神庙借帕特农的石柱与山墙形象说明用途，不能据图数柱子或辨雕塑故事。现代照片中的脚手架与城市房屋不是古代原貌。原希腊城邦治理与社会范围研究保留。",
         "audio": {
+          "lead": {
+            "id": "quest-8fc98f8ab4593fe0",
+            "text": "新来的伙伴想看雅典人敬奉雅典娜的建筑。我们用教学模型讲解：神庙里有神像，外面排列着石柱；住家里，人们围桌吃饭。要介绍神庙，该指哪一个模型？"
+          },
           "transition": {
-            "id": "quest-ca472709af5bb16a",
-            "text": "行动发生了。再看看它带来了什么变化。"
+            "id": "quest-eba7cd4de2a306ab",
+            "text": "给新来的伙伴介绍神庙。"
           },
           "intro": {
-            "id": "quest-060aa61ebd868580",
-            "text": "最后发现雅典参与有范围，不能等同今天人人投票。"
-          },
-          "image": {
-            "id": "quest-d713fa015e1a2819",
-            "text": "点开大图啦。这是普尼克斯山演说台与雅典卫城2019年实拍。这张图能帮我们找到：最后发现雅典参与有范围，不能等同今天人人投票。"
+            "id": "quest-c94374ac422c933a",
+            "text": "新来的伙伴想看雅典人敬奉雅典娜的建筑。我们用教学模型讲解：神庙里有神像，外面排列着石柱；住家里，人们围桌吃饭。"
           },
           "question": {
-            "id": "quest-2f86a3a6bc009210",
-            "text": "前面的行动带来了什么变化？"
+            "id": "quest-7372deee4522ed34",
+            "text": "要介绍神庙，该指哪一个模型？"
+          },
+          "image": {
+            "id": "quest-bb3c883756c9d710",
+            "text": "这张是雅典人为什么建神庙教学插画。新来的伙伴想看雅典人敬奉雅典娜的建筑。我们用教学模型讲解：神庙里有神像，外面排列着石柱；住家里，人们围桌吃饭。"
           },
           "right": {
-            "id": "quest-53f7633e99fda023",
-            "text": "答对啦！你找到了前因带来的变化。"
+            "id": "quest-8f558abc20db8b0a",
+            "text": "神像与石柱的模型帮助说明神庙的用途。"
           },
           "wrong": {
-            "id": "quest-631e3024b71736c9",
-            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+            "id": "quest-91e0898534be45ac",
+            "text": "这是住家的生活场景，再找敬奉雅典娜的神庙。"
           }
         },
         "options": [
           {
             "id": "world-ancient-01-04-greek-city-states-change-1",
-            "label": "陶片、抽签器与城邦遗址、雅典，还只是故事起点",
-            "correct": false,
+            "label": "神像和石柱的神庙",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "athens-temple-story-v1",
+              "crop": {
+                "x": 0,
+                "y": 250,
+                "width": 750,
+                "height": 700,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/athens-temple-story-v1.jpg",
+              "imageAlt": "神像和石柱的神庙",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-907e46014c41f908.svg",
+            "imageAlt": "神像和石柱的神庙",
             "audio": {
-              "id": "quest-f4a519b6c882824c",
-              "text": "陶片、抽签器与城邦遗址、雅典，还只是故事起点"
+              "id": "quest-e793d90d41076243",
+              "text": "神像和石柱的神庙"
             }
           },
           {
             "id": "world-ancient-01-04-greek-city-states-change-2",
-            "label": "最后发现雅典参与有范围，不能等同今天人人投票。",
-            "correct": true,
-            "audio": {
-              "id": "quest-060aa61ebd868580",
-              "text": "最后发现雅典参与有范围，不能等同今天人人投票。"
-            }
-          },
-          {
-            "id": "world-ancient-01-04-greek-city-states-change-3",
-            "label": "比较雅典和斯巴达不同的生活规则，还只是行动经过",
+            "label": "围桌吃饭的住家",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "athens-temple-story-v1",
+              "crop": {
+                "x": 786,
+                "y": 290,
+                "width": 750,
+                "height": 700,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/athens-temple-story-v1.jpg",
+              "imageAlt": "围桌吃饭的住家",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-fda14b59588d5360.svg",
+            "imageAlt": "围桌吃饭的住家",
             "audio": {
-              "id": "quest-ee34b4d29e21ac5d",
-              "text": "比较雅典和斯巴达不同的生活规则，还只是行动经过"
+              "id": "quest-57f0949bc06ba564",
+              "text": "围桌吃饭的住家"
             }
           }
         ]
       },
       {
         "id": "takeaway",
-        "questionKind": "reason-result",
+        "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "把线索连成答案",
-        "title": "把三条线索连成答案",
-        "prompt": "哪句话同时说清了原因和结果？",
-        "rightNote": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。",
-        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
-        "story": {
-          "screenNumber": 6,
-          "title": "把三条线索连成答案",
-          "screenText": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。",
-          "narration": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。",
-          "displayText": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。"
+        "phase": "建筑不能只按大小来猜",
+        "title": "建筑不能只按大小来猜",
+        "prompt": "哪幅模型表现日常住家生活？",
+        "rightNote": "围桌吃饭是住家生活；神庙另有敬奉用途。",
+        "wrongNote": "这里的神像提示神庙用途，再找一家人吃饭。",
+        "sourceIds": [
+          "UNESCO-ATHENS-ACROPOLIS",
+          "YSMA-PARTHENON-STRUCTURE"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听故事，再从画面里找线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
         },
-        "assetId": "laconian-lead-warrior-met-image",
-        "image": "/content/step-images/laconian-lead-warrior-met-image.jpg",
-        "imageAlt": "前6至前5世纪拉科尼亚铅制武士奉献像",
-        "imageCaption": "前6至前5世纪拉科尼亚铅制小型武士奉献像，高4.9厘米，现藏大都会艺术博物馆。",
-        "imageBoundary": "The Met开放原图3000×4000像素，等比缩至1650×2200像素，未裁切。对象编号24.195.78。它是宗教场所使用的小型奉献物，不是人物写实照片、全套军装标准图或每个斯巴达人的生活记录；必须同时用工艺资料说明拉科尼亚还有陶器、金属器、雕刻和跨地中海交流。",
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "建筑不能只按大小来猜",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "围桌吃饭是住家生活；神庙另有敬奉用途。",
+          "retry": "这里的神像提示神庙用途，再找一家人吃饭。",
+          "nextLabel": "带着发现回家"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "建筑不能只按大小来猜",
+          "screenText": "另一个伙伴问：哪幅模型表现一家人每天吃饭的地方？我们看里面发生的事情，不把所有带古老样子的房子都叫作神庙。",
+          "displayText": "另一个伙伴问：哪幅模型表现一家人每天吃饭的地方？我们看里面发生的事情，不把所有带古老样子的房子都叫作神庙。",
+          "narration": "另一个伙伴问：哪幅模型表现一家人每天吃饭的地方？我们看里面发生的事情，不把所有带古老样子的房子都叫作神庙。"
+        },
+        "assetId": "athens-temple-story-v1",
+        "image": "/content/step-images/athens-temple-story-v1.jpg",
+        "studyImage": "/content/study-scenes/study-d1626a8ee71010fe.svg",
+        "studyImageAlt": "建筑不能只按大小来猜",
+        "imageAlt": "雅典人为什么建神庙教学插画",
+        "imageCaption": "雅典人为什么建神庙教学插画",
+        "imageBoundary": "雅典娜属于古希腊人的神话与信仰，不作为可证实真人介绍。神庙、住家、人物和神像模型均为教学新画，不是精确比例、完整柱数、原雕像颜色或生活场景的考古复原。教学神庙借帕特农的石柱与山墙形象说明用途，不能据图数柱子或辨雕塑故事。现代照片中的脚手架与城市房屋不是古代原貌。原希腊城邦治理与社会范围研究保留。",
         "audio": {
+          "lead": {
+            "id": "quest-db18d13949011b74",
+            "text": "另一个伙伴问：哪幅模型表现一家人每天吃饭的地方？我们看里面发生的事情，不把所有带古老样子的房子都叫作神庙。哪幅模型表现日常住家生活？"
+          },
           "transition": {
-            "id": "quest-a7cb01ad27c42767",
-            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+            "id": "quest-09d025bc6197a581",
+            "text": "建筑不能只按大小来猜。"
           },
           "intro": {
-            "id": "quest-b01e8cbe0e04c85b",
-            "text": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。"
-          },
-          "image": {
-            "id": "quest-5f80d488701c6f35",
-            "text": "点开大图啦。这是前6至前5世纪拉科尼亚铅制武士奉献像。这张图能帮我们找到：城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。"
+            "id": "quest-182e1190fa948e13",
+            "text": "另一个伙伴问：哪幅模型表现一家人每天吃饭的地方？我们看里面发生的事情，不把所有带古老样子的房子都叫作神庙。"
           },
           "question": {
-            "id": "quest-1626b51c966f57f7",
-            "text": "哪句话同时说清了原因和结果？"
+            "id": "quest-40d16c12b6b06913",
+            "text": "哪幅模型表现日常住家生活？"
+          },
+          "image": {
+            "id": "quest-8ddc5de3ea440be7",
+            "text": "这张是雅典人为什么建神庙教学插画。另一个伙伴问：哪幅模型表现一家人每天吃饭的地方？我们看里面发生的事情，不把所有带古老样子的房子都叫作神庙。"
           },
           "right": {
-            "id": "quest-7efb4ef63956e209",
-            "text": "答对啦！原因和结果都说清楚了。"
+            "id": "quest-605e8c5cebf9cf4e",
+            "text": "围桌吃饭是住家生活；神庙另有敬奉用途。"
           },
           "wrong": {
-            "id": "quest-0cee35f61bffd03b",
-            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+            "id": "quest-7744f92e1497df43",
+            "text": "这里的神像提示神庙用途，再找一家人吃饭。"
           }
         },
         "options": [
           {
             "id": "world-ancient-01-04-greek-city-states-takeaway-1",
-            "label": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。",
+            "label": "一家人在院中吃饭",
             "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "athens-temple-story-v1",
+              "crop": {
+                "x": 786,
+                "y": 290,
+                "width": 750,
+                "height": 700,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/athens-temple-story-v1.jpg",
+              "imageAlt": "一家人在院中吃饭",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-ef507a42441a98b2.svg",
+            "imageAlt": "一家人在院中吃饭",
             "audio": {
-              "id": "quest-b01e8cbe0e04c85b",
-              "text": "城邦各有规则；雅典的参与也只属于一部分人，不能等同今天的民主。"
+              "id": "quest-9dc7c117f14a18e4",
+              "text": "一家人在院中吃饭"
             }
           },
           {
             "id": "world-ancient-01-04-greek-city-states-takeaway-2",
-            "label": "看雅典人在陶片上刻下一个名字。、陶片、抽签器与城，只说了原因",
+            "label": "神像与石柱的建筑",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "athens-temple-story-v1",
+              "crop": {
+                "x": 0,
+                "y": 250,
+                "width": 750,
+                "height": 700,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/athens-temple-story-v1.jpg",
+              "imageAlt": "神像与石柱的建筑",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-b6af724a79c99aab.svg",
+            "imageAlt": "神像与石柱的建筑",
             "audio": {
-              "id": "quest-eac21353190219c2",
-              "text": "看雅典人在陶片上刻下一个名字。、陶片、抽签器与城，只说了原因"
-            }
-          },
-          {
-            "id": "world-ancient-01-04-greek-city-states-takeaway-3",
-            "label": "发现雅典参与有范围，不能等同今天人人投票。、一块陶片，只说了结果",
-            "correct": false,
-            "audio": {
-              "id": "quest-e9a3b2ad7698bef9",
-              "text": "发现雅典参与有范围，不能等同今天人人投票。、一块陶片，只说了结果"
+              "id": "quest-2060af9ff952572a",
+              "text": "神像与石柱的建筑"
             }
           }
         ]
@@ -1169,9 +1589,192 @@
       "authorityLevel": "A",
       "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "YSMA-PARTHENON-STRUCTURE",
+      "title": "Parthenon",
+      "institution": "Acropolis Restoration Service（希腊文化部卫城修复局）",
+      "url": "https://www.ysma.gr/en/monuments/parthenon/",
+      "type": "official-heritage-architecture-record",
+      "authorityLevel": "A-primary",
+      "factUse": "献给雅典娜的神庙用途；前447—438年主体施工与前432年雕塑完成分开；石柱、山墙、神像与建筑历次改用",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-DHOLAVIRA-HARAPPAN-CITY",
+      "title": "Dholavira: a Harappan City",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1645/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A-primary",
+      "factUse": "朵拉维拉约前3000—前1500年的长期占居、设防城市、蓄水与排水系统、住宅差异、手工业与远距离交换，以及城市变化与衰落是遗址构型连续改变的过程",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-MEMPHIS-PYRAMIDS",
+      "title": "Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/86/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A-primary",
+      "factUse": "孟菲斯在尼罗河洪泛平原与交通路线的位置、古王国都城和国家组织、从马斯塔巴到金字塔的墓葬发展，以及吉萨金字塔群和相关遗存范围",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-VIA-APPIA",
+      "title": "Via Appia. Regina Viarum",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1708/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A-primary",
+      "factUse": "阿庇亚大道自前312年开始建设、总网络超过800公里，最初服务军事扩张与领土控制，后来也连接城市、聚落、农业和贸易，并包含桥梁、里程碑和驿站等系统",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "study-72f1fa67104a66d6",
+      "title": "学习示意：拍照片的年份",
+      "localPath": "reference-assets/focused-quests/study-72f1fa67104a66d6.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "拍照片的年份",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5cf0449836407fd9",
+      "title": "学习示意：先到两千多年前的雅典",
+      "localPath": "reference-assets/focused-quests/study-5cf0449836407fd9.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "先到两千多年前的雅典",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e3e9fbfa2cd31047",
+      "title": "学习示意：古希腊",
+      "localPath": "reference-assets/focused-quests/study-e3e9fbfa2cd31047.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "古希腊",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e33264984c8a5e4a",
+      "title": "学习示意：献给雅典娜的神庙",
+      "localPath": "reference-assets/focused-quests/study-e33264984c8a5e4a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "献给雅典娜的神庙",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-444f05cf62109ad8",
+      "title": "学习示意：古老建筑和今天的城市",
+      "localPath": "reference-assets/focused-quests/study-444f05cf62109ad8.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "古老建筑和今天的城市",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-cff0e23a58218855",
+      "title": "学习示意：给新来的伙伴介绍神庙",
+      "localPath": "reference-assets/focused-quests/study-cff0e23a58218855.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "给新来的伙伴介绍神庙",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-907e46014c41f908",
+      "title": "学习示意：神像和石柱的神庙",
+      "localPath": "reference-assets/focused-quests/study-907e46014c41f908.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "神像和石柱的神庙",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-fda14b59588d5360",
+      "title": "学习示意：围桌吃饭的住家",
+      "localPath": "reference-assets/focused-quests/study-fda14b59588d5360.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "围桌吃饭的住家",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d1626a8ee71010fe",
+      "title": "学习示意：建筑不能只按大小来猜",
+      "localPath": "reference-assets/focused-quests/study-d1626a8ee71010fe.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "建筑不能只按大小来猜",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-ef507a42441a98b2",
+      "title": "学习示意：一家人在院中吃饭",
+      "localPath": "reference-assets/focused-quests/study-ef507a42441a98b2.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "一家人在院中吃饭",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-b6af724a79c99aab",
+      "title": "学习示意：神像与石柱的建筑",
+      "localPath": "reference-assets/focused-quests/study-b6af724a79c99aab.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "神像与石柱的建筑",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "athens-acropolis-parthenon-2015-photo",
       "title": "雅典卫城与帕特农神庙2015年实拍",
@@ -1182,7 +1785,7 @@
       "license": "CC0 1.0",
       "clearance": "cleared-open-license",
       "caption": "2015年从雅典市区拍摄的卫城和帕特农神庙，可见现代城市、脚手架和遗址保护状态。",
-      "boundary": "Commons原图4397×1885像素，等比缩至2200×943像素，未裁切。必须标为现代遗址照；脚手架、现代建筑、旗帜和现存断裂状态不能搬回前5世纪。帕特农神庙建于前447—前432年，是献给雅典娜的宗教建筑，不标成公民大会会场或现代议会。",
+      "boundary": "现代遗址照片。脚手架、现代城市和建筑损坏、修复的状态不代表公元前5世纪的原貌。帕特农神庙献给雅典娜，不是公民大会会场或现代议会。",
       "childVisibility": "child-ok"
     },
     {
@@ -1236,6 +1839,20 @@
       "caption": "前6至前5世纪拉科尼亚铅制小型武士奉献像，高4.9厘米，现藏大都会艺术博物馆。",
       "boundary": "The Met开放原图3000×4000像素，等比缩至1650×2200像素，未裁切。对象编号24.195.78。它是宗教场所使用的小型奉献物，不是人物写实照片、全套军装标准图或每个斯巴达人的生活记录；必须同时用工艺资料说明拉科尼亚还有陶器、金属器、雕刻和跨地中海交流。",
       "childVisibility": "child-ok"
+    },
+    {
+      "id": "athens-temple-story-v1",
+      "title": "雅典人为什么建神庙教学插画",
+      "localPath": "reference-assets/2026-10-28-world-expansion/athens-temple-story-v1.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/2026-10-28-world-expansion/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "教学新画 · 现代学习情境，非历史照片或精确复原",
+      "boundary": "雅典娜属于古希腊人的神话与信仰，不作为可证实真人介绍。神庙、住家、人物和神像模型均为教学新画，不是精确比例、完整柱数、原雕像颜色或生活场景的考古复原。教学神庙借帕特农的石柱与山墙形象说明用途，不能据图数柱子或辨雕塑故事。现代照片中的脚手架与城市房屋不是古代原貌。原希腊城邦治理与社会范围研究保留。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-ancient-01-04-greek-city-states.jpg",
@@ -1247,5 +1864,5 @@
     "audio": "script-ready",
     "review": "pending"
   },
-  "contentReadiness": "legacy-draft-not-in-preview"
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

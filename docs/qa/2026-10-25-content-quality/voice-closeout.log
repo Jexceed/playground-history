@@ -1,0 +1,27 @@
+
+> chronicle-bureau-prototype@0.1.0 voice:update
+> npm run content:pack && npm run voice:generate
+
+
+> chronicle-bureau-prototype@0.1.0 content:pack
+> node scripts/prepare-focused-quests.mjs && node scripts/validate-content.mjs && node scripts/build-content-pack.mjs && node scripts/generate-content-thumbnails.mjs && node scripts/audit-gameplay-coherence.mjs
+
+逐题学习图：441 个；48章儿童入口与连续故事同步。
+内容校验通过：7 个课程板块，共 114 章。
+其中：中国史 78 章，世界史 30 章，跨学科 6 章。
+已有详稿 114 章，研究标记verified 103 章（不等于逐条终审），最终审核通过 0 章。
+事实卡 2677 条，另列学习方法 94 项；编辑屏幕 712 屏，语音稿 784 段，互动 365 个。
+低龄兴趣入口 114 章，均含实物入口与地点连接。
+儿童口语词典 113 词，114章均已匹配难词解释。
+配音读音表 216 项、年代读法 7 条，114章均有编辑校听入口。
+来源登记 1062 条，素材登记 1052 条，其中已清权本地素材 1049 条。
+本机研究素材缓存 1047/1047 个文件；发布包构建不强制携带原始研究缓存。
+内容包生成完成：7 个板块，114 章。
+章节缩略图生成完成：114 张；步骤图片 342 张。
+结构审计：完整库114章/570步；本轮48章/240步，244张选项图、66个阅读步骤、84个图中提问、96条结束动作。真实儿童审核仍待进行。
+
+> chronicle-bureau-prototype@0.1.0 voice:generate
+> node scripts/generate-voices.mjs
+
+需要生成 4/3675 段语音，并发数 8。
+已生成 4/4 段。

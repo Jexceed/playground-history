@@ -18,6 +18,8 @@ const eslintConfig = defineConfig([
     "src-tauri/gen/**",
     "release/**",
     "work/**",
+    // Nested checkouts have their own lint and generated build outputs.
+    ".claude/worktrees/**",
   ]),
 ]);
 

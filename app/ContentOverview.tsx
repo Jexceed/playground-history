@@ -177,6 +177,7 @@ type ManifestTrack = {
 
 type ContentManifest = {
   contentVersion: string;
+  scope: {label:string};
   totals: {
     tracks: number;
     chapters: number;
@@ -500,8 +501,8 @@ export function ContentOverview() {
       <header className="overview-hero">
         <div>
           <p className="eyebrow">家长与编辑查看 · 当前为审核稿</p>
-          <h1>春秋至明清，{contentManifest.totals.chapters}章历史故事</h1>
-          <p>这里是春秋至明清的{contentManifest.totals.chapters}个中国历史启蒙故事，覆盖部分治理、生活、技术、交往与艺术主题，并非完整通史课程。历史课程标准用于核对题材范围，不把初中的记忆与考试要求搬给学前儿童。其他内容保留源稿，尚不在试玩入口。</p>
+          <h1>{contentManifest.totals.chapters}章历史故事</h1>
+          <p>当前开放{contentManifest.scope.label}，共{contentManifest.totals.chapters}个历史启蒙故事。中国史与世界史分开呈现各自的时间线，覆盖部分生活、诗词、技术、交往与艺术主题，并非完整通史课程。历史课程标准用于核对题材范围，不把初中的记忆与考试要求搬给学前儿童。其他内容保留源稿，尚不在试玩入口。</p>
         </div>
         <div className="overview-summary">
           <strong>{contentManifest.totals.chapters}</strong><span>章内容</span>
@@ -517,7 +518,7 @@ export function ContentOverview() {
         </div>
       </header>
 
-      <details className="review-coverage"><summary>这{activeTrack.periods.length}站讲了什么，时间怎样衔接？</summary><p>站号帮助选择故事，不表示前一站的所有政权结束后，下一站才开始。每站选取几个具体问题，历史背景与主线取材范围如下。</p><div className="review-period-contexts">{activeTrack.periods.map(period=>period.learningContext&&<article key={period.id}><h2>{period.label}</h2><p><strong>时间与衔接：</strong>{period.learningContext.chronology}</p><p><strong>本轮主线：</strong>{period.learningContext.covered}</p><p><strong>取材范围：</strong>{period.learningContext.scopeBoundary}</p><details><summary>本段依据</summary>{period.learningContext.sources.map(source=><p key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.institution}：{source.title} ↗</a></p>)}</details></article>)}</div></details>
+      <details className="review-coverage"><summary>{activeTrack.label}这{activeTrack.periods.length}站讲了什么，时间怎样衔接？</summary><p>每个板块分别排列与编号，站号帮助选择故事，不表示前一站的所有政权结束后，下一站才开始，也不把中国与世界的站号当作同期关系。每站选取几个具体问题，历史背景与主线取材范围如下。</p><div className="review-period-contexts">{activeTrack.periods.map(period=>period.learningContext&&<article key={period.id}><h2>{period.label}</h2><p><strong>时间与衔接：</strong>{period.learningContext.chronology}</p><p><strong>本轮主线：</strong>{period.learningContext.covered}</p><p><strong>取材范围：</strong>{period.learningContext.scopeBoundary}</p><details><summary>本段依据</summary>{period.learningContext.sources.map(source=><p key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.institution}：{source.title} ↗</a></p>)}</details></article>)}</div></details>
 
       <details className="review-voice-details"><summary>读音规则与编辑音色小样</summary>
       <section className="voice-reading-guide" aria-labelledby="voice-reading-guide-title">

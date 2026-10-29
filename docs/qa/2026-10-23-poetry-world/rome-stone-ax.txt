@@ -1,0 +1,45 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 罗马道路把哪里连起来
+					9 content list
+						10 button 第1步：这条路从古罗马走到今天，已完成, Help: 这条路从古罗马走到今天
+						11 button 第2步：先让军队到达要统治的地方，已完成, Help: 先让军队到达要统治的地方
+						12 button 第3步：一块块石头铺成了一段路, Help: 一块块石头铺成了一段路
+						13 button 第4步：让道路继续通向城镇, Help: 让道路继续通向城镇
+						14 button 第5步：把粮食沿着道路送到城镇, Help: 把粮食沿着道路送到城镇
+					15 text 第3步
+				16 button 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 古代文明  ·  一块块石头铺成了一段路
+				19 image 泰拉奇纳阿庇亚大道保存路段2014年实拍
+				20 container 在古罗马道路现代照片中找石块与接缝
+					21 toggle button (disabled) 选择一块铺路石, Value: on
+					22 toggle button (disabled) 选择石头之间的接缝, Value: off
+				23 text 实物照片
+				24 button 阿庇亚大道路面 · 2014年照片 真实材料 · 点开看一看 看真照片，听材料说明
+				25 text 小伙伴
+				26 heading 这一块石头，和旁边的石头一起铺成路。, Value: 1
+					27 text 这一块石头，和旁边的石头一起铺成路。
+				28 button 再听这句回应
+				29 text 找一找 ·  1 / 2 找到了
+				30 button 再看看两块石头之间
+	31 close button
+	32 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	33 minimize button
+	34 text 小小历史旅行团
+35 menu bar
+	36 小小历史旅行团
+	37 File
+	38 Edit
+	39 View
+	40 Window
+	41 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

@@ -1,0 +1,45 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 元代驿站，怎样把消息接下去？
+					9 content list
+						10 button 第1步：从一件真正的通行牌出发, Help: 从一件真正的通行牌出发
+						11 button 第2步：送消息，也要准备下一程, Help: 送消息，也要准备下一程
+						12 button 第3步：柜台与马厩，谁在忙, Help: 柜台与马厩，谁在忙
+						13 button 第4步：凭证核对好，下一程怎样接上，已完成, Help: 凭证核对好，下一程怎样接上
+						14 button 第5步：陆路有站点，水路也有帮手, Help: 陆路有站点，水路也有帮手
+					15 text 第4步
+				16 button 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 元朝  ·  凭证核对好，下一程怎样接上
+				19 image 元代驿站核对凭证、备马与粮草的故事插画
+				20 text 故事插画 小伙伴
+				21 heading 让消息继续，下一步做什么？, Value: 1
+					22 text 让消息继续，下一步做什么？
+				23 button 再听这一幕
+				24 container 让消息继续，下一步做什么？
+					25 toggle button 选择换马，带文书出发, Value: off
+					26 button 听换马，带文书出发
+					27 toggle button 选择继续给槽里的马备草, Value: off
+					28 button 听继续给槽里的马备草
+				29 text 听听问题，看看图里的线索。
+				30 button 听听怎么玩
+	31 close button
+	32 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	33 minimize button
+	34 text 小小历史旅行团
+35 menu bar
+	36 小小历史旅行团
+	37 File
+	38 Edit
+	39 View
+	40 Window
+	41 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

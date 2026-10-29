@@ -11,12 +11,14 @@
     "learningContext": {
       "childIntro": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。",
       "chronology": "618—907年为唐朝范围；本组故事分属不同时期，贞观、开元通宝始铸、开元年号不可混为一个节点。",
-      "covered": "治理恢复、钱名与年号、城市乐舞、译经与东渡传授、书法与诗。",
+      "covered": "治理恢复、钱名与年号、城市乐舞、译经与东渡传授、书法与诗。《春晓》的鸟鸣与惜花、《登鹳雀楼》的登高与远望。",
       "scopeBoundary": "科举、唐前后期变化等在背景稿中；李白诗作和颜真卿文稿不能被拼成唐朝始终繁盛的单一画面。",
       "sourceIds": [
         "NMC-SUI-TANG-FIVE-DYNASTIES",
         "EDB-DUFU-SPRING-RAIN",
-        "NMC-JIANZHEN-STORY"
+        "NMC-JIANZHEN-STORY",
+        "EDB-MENG-CHUNXIAO",
+        "EDB-WANG-GUANQUE"
       ],
       "sources": [
         {
@@ -36,6 +38,18 @@
           "title": "中华史诗美术大展：鉴真东渡",
           "institution": "中国国家博物馆",
           "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/"
+        },
+        {
+          "id": "EDB-MENG-CHUNXIAO",
+          "title": "《春晓》原文、作者介绍与赏析（第1—2页）",
+          "institution": "香港特别行政区政府教育局",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_08.pdf"
+        },
+        {
+          "id": "EDB-WANG-GUANQUE",
+          "title": "《登鹳鹊楼》原文、作者介绍与赏析（第1—2页）",
+          "institution": "香港特别行政区政府教育局",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07.pdf"
         }
       ]
     }
@@ -47,8 +61,8 @@
   "childEntry": {
     "id": "cn-ancient-06-08-zhenguan-governance",
     "childTitle": "贞观之治，怎样慢慢做到？",
-    "prompt": "唐初的生活需要恢复。唐太宗为什么听取魏征的意见？听完以后，又要靠谁去做？",
-    "takeaway": "贞观时期，唐太宗听取魏征等人的意见，重视恢复生产、减轻部分负担。合适的安排和许多人的劳动，让生活慢慢恢复；这是共同作用的过程。",
+    "prompt": "春天该播种，人手却不够。跟小伙伴比较两种安排，看看怎样少误农时。",
+    "takeaway": "贞观时期，唐太宗听取意见，重视减轻部分负担、不误农时。合适安排给种田留出时间，农人还要劳动；生活恢复是许多人共同作用的过程。",
     "object": "《贞观政要》· 明代刻本",
     "people": [
       "唐太宗、魏征",
@@ -56,17 +70,17 @@
     ],
     "place": "唐初各地恢复生产的背景；虚构田间情境",
     "culture": "《贞观政要》后世印本与纳谏",
-    "care": "书影来自明代刊本，内容讲唐代贞观时期，不能把书的印刷年代当事件年代。讨论图是现代艺术表现，不是人物肖像或某次谈话现场。田间人物与情境为教学虚构，不称魏征亲访；不把一次建议或一个人的话写成全国立刻改变。",
+    "care": "书影来自明代刊本，内容讲唐代贞观时期，不能把书的印刷年代当事件年代。讨论图是现代艺术表现，不是人物肖像或某次谈话现场。田间人物与情境为教学虚构，不称魏征亲访；不把一次建议或一个人的话写成全国立刻改变。 留田播种与修非急用亭子的对比是教学设问，不是魏征的某次建议、某年诏令或各地统一执行记录。",
     "preferredAssetId": "zhenguan-zhengyao-ming-preface",
     "playableSource": "content/focused-quests.json"
   },
   "learningGuide": {
     "id": "cn-ancient-06-08-zhenguan-governance",
     "theme": "治理和规则",
-    "learningGoal": "唐初恢复需要听取意见、合适安排与具体劳动。",
-    "parentQuestion": "听到了田里的困难，事情就已经解决了吗？",
-    "observe": "区分听情况与耕作，说明意见要影响安排，还要落实。",
-    "misconception": "不能把贞观之治说成一个人的一句话立刻让所有人富足。",
+    "learningGoal": "理解贞观时期减轻部分负担、不误农时与恢复生产的联系，安排还需落实。",
+    "parentQuestion": "春天要播种，怎样安排才能少耽误田里的活？",
+    "observe": "选择给播种留出人手与时间，并知道仍需实际耕作。",
+    "misconception": "教学安排对比不是魏征某次视察或真实诏令，不等于所有负担都消失。",
     "evidenceStepIds": [
       "time"
     ],
@@ -74,7 +88,8 @@
       "NMC-SUI-TANG-FIVE-DYNASTIES",
       "CCDI-TANG-ADMINISTRATION",
       "NJU-ZHENGUAN-ZHENGYAO",
-      "COMMONS-NJLIB-ZHENGUAN-1476"
+      "COMMONS-NJLIB-ZHENGUAN-1476",
+      "NATIONALREADING-ZHENGUAN-WUNONG"
     ],
     "related": [
       {
@@ -82,11 +97,12 @@
         "relation": "比较唐代纳谏与明代拟意见、作决定：共同看听取意见与实际行动。"
       }
     ],
-    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "reviewStatus": "content-deepened-family-test-pending",
     "glossaryTerms": [
       "纳谏",
       "治理",
-      "生产"
+      "生产",
+      "农时"
     ]
   },
   "textbookConnection": {
@@ -95,7 +111,7 @@
       "type": "历史词语",
       "icon": "🌾",
       "title": "唐太宗、魏征与劳动的百姓",
-      "childBridge": "唐初的生活需要恢复。唐太宗为什么听取魏征的意见？听完以后，又要靠谁去做？",
+      "childBridge": "春天该播种，人手却不够。跟小伙伴比较两种安排，看看怎样少误农时。",
       "evidenceBoundary": "书影来自明代刊本，内容讲唐代贞观时期，不能把书的印刷年代当事件年代。"
     },
     "companions": [
@@ -120,7 +136,8 @@
       "CCDI-TANG-ADMINISTRATION",
       "PEP-HISTORY-7B-2026-TRIAL",
       "NJU-ZHENGUAN-ZHENGYAO",
-      "COMMONS-NJLIB-ZHENGUAN-1476"
+      "COMMONS-NJLIB-ZHENGUAN-1476",
+      "NATIONALREADING-ZHENGUAN-WUNONG"
     ]
   },
   "childStory": [
@@ -133,8 +150,8 @@
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "听意见，为了把国家治理好",
-      "text": "唐初，田地和日常生活需要恢复。唐太宗重视听取意见，魏征敢于指出问题。减少一些负担、给人们时间种田，都与治理有关。小伙伴听懂了：纳谏，是听别人指出问题，再认真考虑。"
+      "label": "减轻负担，也别误了农时",
+      "text": "唐初田地需要恢复。唐太宗听魏征等人的意见，重视减轻一些负担，也重视农时。农时就是适合播种、收获的时候；这时常被叫走，田里的活就会耽误。"
     },
     {
       "id": "journey",
@@ -145,14 +162,14 @@
     {
       "id": "change",
       "icon": "✨",
-      "label": "先把困难弄明白",
-      "text": "小伙伴想知道田里还遇到了什么困难。有人正在交谈和记录，有人已经开始松土。这次先选能帮助了解实际情况的行动，再考虑怎样安排。"
+      "label": "春天该播种，怎样安排",
+      "text": "这是一段教学故事。春天该播种了，人手不够。一个安排让农人留田播种，另一个叫他们去修不急用的亭子。怎样安排，能少耽误眼前的农活？"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "有了安排，还要一起行动",
-      "text": "意见讨论以后，田地仍要靠农人耕作，事情也要有人落实。贞观时期的恢复，是合适安排和许多人劳动共同作用的结果。小伙伴要找出亲手让耕种继续的那一幕。"
+      "label": "安排合适，还要动手耕作",
+      "text": "给播种留出了时间，粮食也不会自己长出来。官员要落实安排，农人还要耕作。贞观时期的恢复，是合适安排与许多人劳动共同作用的过程。"
     }
   ],
   "glossary": [
@@ -176,6 +193,13 @@
       "plain": "把材料和劳动变成食物、工具或其他产品。",
       "example": "生产离不开人、工具、材料和组织。",
       "priority": 3
+    },
+    {
+      "term": "农时",
+      "plain": "适合播种、收获等农活的时候。",
+      "example": "春天该播种，就要给田里的活留出时间。",
+      "icon": "🌱",
+      "priority": 2
     }
   ],
   "pronunciations": [
@@ -234,11 +258,11 @@
       "kind": "具体任务",
       "icon": "🔎",
       "label": "贞观之治，怎样慢慢做到？",
-      "question": "唐初的生活需要恢复。唐太宗为什么听取魏征的意见？听完以后，又要靠谁去做？"
+      "question": "春天该播种，人手却不够。跟小伙伴比较两种安排，看看怎样少误农时。"
     },
     "cta": "去听建议，也看行动",
     "anchor": "唐太宗、魏征与劳动的百姓",
-    "boundary": "书影来自明代刊本，内容讲唐代贞观时期，不能把书的印刷年代当事件年代。讨论图是现代艺术表现，不是人物肖像或某次谈话现场。田间人物与情境为教学虚构，不称魏征亲访；不把一次建议或一个人的话写成全国立刻改变。",
+    "boundary": "书影来自明代刊本，内容讲唐代贞观时期，不能把书的印刷年代当事件年代。讨论图是现代艺术表现，不是人物肖像或某次谈话现场。田间人物与情境为教学虚构，不称魏征亲访；不把一次建议或一个人的话写成全国立刻改变。 留田播种与修非急用亭子的对比是教学设问，不是魏征的某次建议、某年诏令或各地统一执行记录。",
     "evidence": [
       {
         "id": "zhenguan-zhengyao-ming-preface",
@@ -293,11 +317,11 @@
         "reunionAspectRatio": 1.82,
         "reunionAlt": "三位小伙伴和向导回看倾听与耕作两幅图的现代插画",
         "coverCaption": "贞观之治，怎样慢慢做到？",
-        "coverNarration": "小小旅行团走进贞观的故事。唐太宗为什么听魏征的意见？怎样让百姓的生活慢慢恢复？去听建议，也看行动。",
-        "closingCaption": "治理与恢复，需要许多人一起做",
-        "closingNarration": "贞观时期，唐太宗听取魏征等人的意见，重视恢复生产、减轻部分负担。合适的安排和许多人的劳动，让生活慢慢恢复；这是共同作用的过程。",
-        "closingLine": "听意见、想办法，大家一起行动。",
-        "fictionNote": "书影来自明代刊本，内容讲唐代贞观时期，不能把书的印刷年代当事件年代。讨论图是现代艺术表现，不是人物肖像或某次谈话现场。田间人物与情境为教学虚构，不称魏征亲访；不把一次建议或一个人的话写成全国立刻改变。",
+        "coverNarration": "唐初需要恢复生产。唐太宗听魏征等人的意见，也重视减轻负担、不误农时。春天该播种了，小伙伴要帮故事里的农人选个合适安排。",
+        "closingCaption": "给农活留时间，还要一起做。",
+        "closingNarration": "贞观时期，唐太宗听取意见，重视减轻部分负担、不误农时。合适安排给种田留出时间，农人还要劳动；生活恢复是许多人共同作用的过程。",
+        "closingLine": "给农活留时间，还要一起做。",
+        "fictionNote": "书影来自明代刊本，内容讲唐代贞观时期，不能把书的印刷年代当事件年代。讨论图是现代艺术表现，不是人物肖像或某次谈话现场。田间人物与情境为教学虚构，不称魏征亲访；不把一次建议或一个人的话写成全国立刻改变。 留田播种与修非急用亭子的对比是教学设问，不是魏征的某次建议、某年诏令或各地统一执行记录。",
         "reunionImage": "/content/step-images/tang-zhenguan-reunion-v1.jpg",
         "stationLine": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。",
         "stationAudio": {
@@ -305,8 +329,8 @@
           "text": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。"
         },
         "closingAudio": {
-          "id": "quest-26de92a31433eedc",
-          "text": "贞观时期，唐太宗听取魏征等人的意见，重视恢复生产、减轻部分负担。合适的安排和许多人的劳动，让生活慢慢恢复；这是共同作用的过程。"
+          "id": "quest-01bb3fc1aac85125",
+          "text": "贞观时期，唐太宗听取意见，重视减轻部分负担、不误农时。合适安排给种田留出时间，农人还要劳动；生活恢复是许多人共同作用的过程。"
         }
       },
       "sceneImage": "/content/step-images/tang-zhenguan-field-work-v1.jpg",
@@ -349,6 +373,21 @@
         "image": "/content/step-images/tang-zhenguan-reunion-v1.jpg"
       },
       {
+        "id": "zhenguan-farming-choices-v1",
+        "title": "贞观之治，怎样慢慢做到？ · 情境比较新画",
+        "localPath": "reference-assets/history-depth/zhenguan-farming-choices-v1.png",
+        "runtimeMaxEdge": 1600,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/history-depth/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学情境插画，不是历史现场或古人肖像",
+        "boundary": "书影来自明代刊本，内容讲唐代贞观时期，不能把书的印刷年代当事件年代。讨论图是现代艺术表现，不是人物肖像或某次谈话现场。田间人物与情境为教学虚构，不称魏征亲访；不把一次建议或一个人的话写成全国立刻改变。 留田播种与修非急用亭子的对比是教学设问，不是魏征的某次建议、某年诏令或各地统一执行记录。 同组新画只比较教学动作；书中图像与笔记都是现代学习道具，不能作为古代证物。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/zhenguan-farming-choices-v1.jpg"
+      },
+      {
         "id": "tang-zhenguan-field-work-v1",
         "title": "了解农人困难与田间劳动的故事插画",
         "localPath": "reference-assets/sui-tang-five-dynasties/tang-zhenguan-field-work-v1.png",
@@ -371,38 +410,38 @@
       "fit": "contain"
     },
     "coverAudio": {
-      "id": "quest-7364278cd9486cc3",
-      "text": "小小旅行团走进贞观的故事。唐太宗为什么听魏征的意见？怎样让百姓的生活慢慢恢复？去听建议，也看行动。"
+      "id": "quest-7fe86a83b4044739",
+      "text": "唐初需要恢复生产。唐太宗听魏征等人的意见，也重视减轻负担、不误农时。春天该播种了，小伙伴要帮故事里的农人选个合适安排。"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-26de92a31433eedc",
-      "text": "贞观时期，唐太宗听取魏征等人的意见，重视恢复生产、减轻部分负担。合适的安排和许多人的劳动，让生活慢慢恢复；这是共同作用的过程。"
+      "id": "quest-01bb3fc1aac85125",
+      "text": "贞观时期，唐太宗听取意见，重视减轻部分负担、不误农时。合适安排给种田留出时间，农人还要劳动；生活恢复是许多人共同作用的过程。"
     },
     "finish": {
-      "title": "听完建议，还要一起行动！",
+      "title": "给农活留时间，还要一起做。",
       "actions": [
-        "指图找出“说情况”“听和记录”“动手耕作”的人，说说各在做什么。",
-        "请家人问“日子怎样慢慢恢复？”用图说出听意见、合适安排和大家劳动。"
+        "指两种安排：哪一种给春天播种留下了人手和时间？",
+        "家人问：已经安排好，粮食会自己长吗？孩子再指真正耕作的人。"
       ],
-      "parent": "纳谏属于治理，不是要求孩子无条件服从。先接受具体动作回答，再补恢复生产、减轻部分负担和许多人参与。田间场景明确虚构，不当魏征某次访问记录；贞观之治是总体概括，不表示所有地区和家庭没有困难。",
+      "parent": "赋役包括征收和劳役等负担，减轻是有限政策概括，不是所有人都没有负担。现代教学图比较农时安排，不伪造某次诏令、魏征亲访或一条建议改变全国。接受指出播种与耕作的回应。",
       "sceneStepIndexes": [
         2,
         4
       ],
       "actionAudio": [
         {
-          "id": "quest-3219c95e964f7390",
-          "text": "指图找出“说情况”“听和记录”“动手耕作”的人，说说各在做什么。"
+          "id": "quest-ace43c466c948d00",
+          "text": "指两种安排：哪一种给春天播种留下了人手和时间？"
         },
         {
-          "id": "quest-d518cc9bb33919a9",
-          "text": "请家人问“日子怎样慢慢恢复？”用图说出听意见、合适安排和大家劳动。"
+          "id": "quest-1723e578eaa5fc09",
+          "text": "家人问：已经安排好，粮食会自己长吗？孩子再指真正耕作的人。"
         }
       ],
       "introAudio": {
-        "id": "quest-26de92a31433eedc",
-        "text": "贞观时期，唐太宗听取魏征等人的意见，重视恢复生产、减轻部分负担。合适的安排和许多人的劳动，让生活慢慢恢复；这是共同作用的过程。"
+        "id": "quest-01bb3fc1aac85125",
+        "text": "贞观时期，唐太宗听取意见，重视减轻部分负担、不误农时。合适安排给种田留出时间，农人还要劳动；生活恢复是许多人共同作用的过程。"
       }
     },
     "estimatedMinutes": 6,
@@ -438,7 +477,7 @@
           "responseSpeaker": "小伙伴",
           "response": "到了贞观时期，看看怎样让生活恢复。",
           "retry": "隋朝更早，这本书讲的是唐朝的贞观时期。",
-          "nextLabel": "为什么要听不同的意见"
+          "nextLabel": "减轻负担，也别误了农时"
         },
         "concepts": null,
         "inspection": {
@@ -558,15 +597,16 @@
         "id": "beginning",
         "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "听意见，为了把国家治理好",
-        "title": "听意见，为了把国家治理好",
-        "prompt": "为什么要认真听取不同意见？",
+        "phase": "减轻负担，也别误了农时",
+        "title": "减轻负担，也别误了农时",
+        "prompt": "为什么要给种田留下合适的时间？",
         "rightNote": "意见帮助人发现治理中的问题。",
         "wrongNote": "先听清建议，再想它与百姓生活的关系。",
         "sourceIds": [
           "NMC-SUI-TANG-FIVE-DYNASTIES",
           "CCDI-TANG-ADMINISTRATION",
-          "NJU-ZHENGUAN-ZHENGYAO"
+          "NJU-ZHENGUAN-ZHENGYAO",
+          "NATIONALREADING-ZHENGUAN-WUNONG"
         ],
         "interaction": {
           "kind": "look-listen",
@@ -576,21 +616,21 @@
         "narrative": {
           "kind": "fictional-guide-scene",
           "scene": "detail",
-          "caption": "听意见，为了把国家治理好",
+          "caption": "减轻负担，也别误了农时",
           "speaker": "小伙伴",
           "responseSpeaker": "小伙伴",
           "response": "意见帮助人发现治理中的问题。",
           "retry": "先听清建议，再想它与百姓生活的关系。",
-          "nextLabel": "到田边找找，谁在听、谁在做"
+          "nextLabel": "到田边，看看实际的困难"
         },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "听意见，为了把国家治理好",
-          "screenText": "唐初，田地和日常生活需要恢复。唐太宗重视听取意见，魏征敢于指出问题。减少一些负担、给人们时间种田，都与治理有关。小伙伴听懂了：纳谏，是听别人指出问题，再认真考虑。",
-          "displayText": "认真听取意见，想想百姓的困难。\n安排合适，生活才有机会慢慢恢复。",
-          "narration": "唐初，田地和日常生活需要恢复。唐太宗重视听取意见，魏征敢于指出问题。减少一些负担、给人们时间种田，都与治理有关。小伙伴听懂了：纳谏，是听别人指出问题，再认真考虑。"
+          "title": "减轻负担，也别误了农时",
+          "screenText": "唐初田地需要恢复。唐太宗听魏征等人的意见，重视减轻一些负担，也重视农时。农时就是适合播种、收获的时候；这时常被叫走，田里的活就会耽误。",
+          "displayText": "唐初田地需要恢复。唐太宗听魏征等人的意见，重视减轻一些负担，也重视农时。农时就是适合播种、收获的时候；这时常被叫走，田里的活就会耽误。",
+          "narration": "唐初田地需要恢复。唐太宗听魏征等人的意见，重视减轻一些负担，也重视农时。农时就是适合播种、收获的时候；这时常被叫走，田里的活就会耽误。"
         },
         "assetId": "tang-taizong-weizheng-discussion-child-illustration",
         "image": "/content/step-images/tang-taizong-weizheng-discussion-child-illustration.jpg",
@@ -601,24 +641,24 @@
         "imageBoundary": "2026-08-12为低龄玩法自制。人物容貌、服饰、宫殿、奏板和这次谈话都不是肖像、照片或精确历史现场复原；一场谈话也不能代表唐朝全部治理过程。",
         "audio": {
           "lead": {
-            "id": "quest-2a427e9b0aa18ea2",
-            "text": "听魏征的故事，看看意见怎样帮助治理。"
+            "id": "quest-a295938d0456496e",
+            "text": "农时是适合播种、收获的时候。减轻负担，也要给农人留出种田时间。"
           },
           "transition": {
-            "id": "quest-f9d85b12dab38ff3",
-            "text": "听意见，为了把国家治理好。"
+            "id": "quest-f4436126dc9debe3",
+            "text": "减轻负担，也别误了农时。"
           },
           "intro": {
-            "id": "quest-a148a5a6d297ed8c",
-            "text": "唐初，田地和日常生活需要恢复。唐太宗重视听取意见，魏征敢于指出问题。减少一些负担、给人们时间种田，都与治理有关。小伙伴听懂了：纳谏，是听别人指出问题，再认真考虑。"
+            "id": "quest-f0fb141b27558c83",
+            "text": "唐初田地需要恢复。唐太宗听魏征等人的意见，重视减轻一些负担，也重视农时。农时就是适合播种、收获的时候；这时常被叫走，田里的活就会耽误。"
           },
           "question": {
-            "id": "quest-61c234e4eee6edb5",
-            "text": "为什么要认真听取不同意见？"
+            "id": "quest-9c51d76a7fd48a32",
+            "text": "为什么要给种田留下合适的时间？"
           },
           "image": {
-            "id": "quest-cccc5d044cb2d7de",
-            "text": "这张是唐太宗听魏征陈述意见儿童艺术表现。唐初，田地和日常生活需要恢复。唐太宗重视听取意见，魏征敢于指出问题。减少一些负担、给人们时间种田，都与治理有关。小伙伴听懂了：纳谏，是听别人指出问题，再认真考虑。"
+            "id": "quest-e139c98bb583018e",
+            "text": "这张是唐太宗听魏征陈述意见儿童艺术表现。唐初田地需要恢复。唐太宗听魏征等人的意见，重视减轻一些负担，也重视农时。农时就是适合播种、收获的时候；这时常被叫走，田里的活就会耽误。"
           },
           "right": {
             "id": "quest-3090debf5a731b47",
@@ -729,7 +769,7 @@
           "responseSpeaker": "小伙伴",
           "response": "把情况说清，也要有人动手做。",
           "retry": "再看看谁在说话、谁在拿农具。",
-          "nextLabel": "要了解困难，先做哪件事"
+          "nextLabel": "春天该播种，怎样安排"
         },
         "concepts": null,
         "inspection": null,
@@ -783,39 +823,41 @@
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "先把困难弄明白",
-        "title": "先把困难弄明白",
-        "prompt": "想了解田里的困难，先去哪一幕？",
-        "rightNote": "先听农人说清情况，才好考虑怎样安排。",
-        "wrongNote": "耕作很重要，这次先要了解还有什么困难。",
+        "phase": "春天该播种，怎样安排",
+        "title": "春天该播种，怎样安排",
+        "prompt": "怎样安排，能少耽误播种？",
+        "rightNote": "把适合播种的时间留给农活，才能少误农时。",
+        "wrongNote": "亭子不急用，现在叫走农人，会耽误该做的播种。",
         "sourceIds": [
           "NMC-SUI-TANG-FIVE-DYNASTIES",
           "CCDI-TANG-ADMINISTRATION",
-          "NJU-ZHENGUAN-ZHENGYAO"
+          "NJU-ZHENGUAN-ZHENGYAO",
+          "NATIONALREADING-ZHENGUAN-WUNONG"
         ],
         "interaction": {
           "kind": "pick",
           "hint": "听清问题，点图里的线索。",
-          "selectionFraming": "detail"
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
         },
         "narrative": {
           "kind": "fictional-guide-scene",
           "scene": "detail",
-          "caption": "先把困难弄明白",
+          "caption": "春天该播种，怎样安排",
           "speaker": "小伙伴",
           "responseSpeaker": "小伙伴",
-          "response": "先听农人说清情况，才好考虑怎样安排。",
-          "retry": "耕作很重要，这次先要了解还有什么困难。",
-          "nextLabel": "了解以后，还要靠谁去做"
+          "response": "把适合播种的时间留给农活，才能少误农时。",
+          "retry": "亭子不急用，现在叫走农人，会耽误该做的播种。",
+          "nextLabel": "安排合适，还要动手耕作"
         },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "先把困难弄明白",
-          "screenText": "小伙伴想知道田里还遇到了什么困难。有人正在交谈和记录，有人已经开始松土。这次先选能帮助了解实际情况的行动，再考虑怎样安排。",
-          "displayText": "小伙伴想知道田里还遇到了什么困难。有人正在交谈和记录，有人已经开始松土。这次先选能帮助了解实际情况的行动，再考虑怎样安排。",
-          "narration": "小伙伴想知道田里还遇到了什么困难。有人正在交谈和记录，有人已经开始松土。这次先选能帮助了解实际情况的行动，再考虑怎样安排。"
+          "title": "春天该播种，怎样安排",
+          "screenText": "这是一段教学故事。春天该播种了，人手不够。一个安排让农人留田播种，另一个叫他们去修不急用的亭子。怎样安排，能少耽误眼前的农活？",
+          "displayText": "这是一段教学故事。春天该播种了，人手不够。一个安排让农人留田播种，另一个叫他们去修不急用的亭子。怎样安排，能少耽误眼前的农活？",
+          "narration": "这是一段教学故事。春天该播种了，人手不够。一个安排让农人留田播种，另一个叫他们去修不急用的亭子。怎样安排，能少耽误眼前的农活？"
         },
         "assetId": "tang-zhenguan-field-work-v1",
         "image": "/content/step-images/tang-zhenguan-field-work-v1.jpg",
@@ -826,85 +868,85 @@
         "imageBoundary": "田边讲述、记录和耕作的人是虚构角色，用来理解了解困难与实际劳动。图画不声称魏征亲访此村，也不复原某日唐代现场。",
         "audio": {
           "lead": {
-            "id": "quest-55fa34ff2b040723",
-            "text": "先把困难弄明白，选能听到农人情况的那一幕。"
+            "id": "quest-bd2cde36b5609df1",
+            "text": "在这个故事里，春天该播种，人手不够。留田播种，还是去修不急用的亭子？怎样少误农时？"
           },
           "transition": {
-            "id": "quest-ea679f5a66a23fd2",
-            "text": "先把困难弄明白。"
+            "id": "quest-f3bff74af673d853",
+            "text": "春天该播种，怎样安排。"
           },
           "intro": {
-            "id": "quest-d7cf4132c9e0dd82",
-            "text": "小伙伴想知道田里还遇到了什么困难。有人正在交谈和记录，有人已经开始松土。这次先选能帮助了解实际情况的行动，再考虑怎样安排。"
+            "id": "quest-133d18491f2c5cc3",
+            "text": "这是一段教学故事。春天该播种了，人手不够。一个安排让农人留田播种，另一个叫他们去修不急用的亭子。怎样安排，能少耽误眼前的农活？"
           },
           "question": {
-            "id": "quest-53bd4e0679fe6077",
-            "text": "想了解田里的困难，先去哪一幕？"
+            "id": "quest-21772b6db752b1ff",
+            "text": "怎样安排，能少耽误播种？"
           },
           "image": {
-            "id": "quest-9eac87a738292252",
-            "text": "这张是了解农人困难与田间劳动的故事插画。小伙伴想知道田里还遇到了什么困难。有人正在交谈和记录，有人已经开始松土。这次先选能帮助了解实际情况的行动，再考虑怎样安排。"
+            "id": "quest-a408a5e8cf4d3600",
+            "text": "这张是了解农人困难与田间劳动的故事插画。这是一段教学故事。春天该播种了，人手不够。一个安排让农人留田播种，另一个叫他们去修不急用的亭子。怎样安排，能少耽误眼前的农活？"
           },
           "right": {
-            "id": "quest-0f17a002b5986835",
-            "text": "先听农人说清情况，才好考虑怎样安排。"
+            "id": "quest-34a805614d46ee2e",
+            "text": "把适合播种的时间留给农活，才能少误农时。"
           },
           "wrong": {
-            "id": "quest-c3d1ae7138129074",
-            "text": "耕作很重要，这次先要了解还有什么困难。"
+            "id": "quest-b16e6f40588115ab",
+            "text": "亭子不急用，现在叫走农人，会耽误该做的播种。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-06-08-zhenguan-governance-change-1",
-            "label": "听农人说明情况",
+            "label": "先让农人留田播种",
             "correct": true,
             "objectView": {
               "kind": "scene-card",
-              "assetId": "tang-zhenguan-field-work-v1",
+              "assetId": "zhenguan-farming-choices-v1",
               "crop": {
-                "x": 45,
-                "y": 180,
-                "width": 690,
-                "height": 560,
-                "sourceWidth": 1536,
-                "sourceHeight": 1024
+                "x": 8,
+                "y": 8,
+                "width": 1238,
+                "height": 611,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
               },
-              "image": "/content/step-images/tang-zhenguan-field-work-v1.jpg",
-              "imageAlt": "听农人说明情况",
+              "image": "/content/step-images/zhenguan-farming-choices-v1.jpg",
+              "imageAlt": "先让农人留田播种",
               "imageLabel": "故事插画"
             },
-            "image": "/content/study-scenes/study-0e945bb9e78c1340.svg",
-            "imageAlt": "听农人说明情况",
+            "image": "/content/study-scenes/study-1efda1552592c86c.svg",
+            "imageAlt": "先让农人留田播种",
             "audio": {
-              "id": "quest-4d9fbb3c2a17673e",
-              "text": "听农人说明情况"
+              "id": "quest-6bd3d2f3f44681e1",
+              "text": "先让农人留田播种"
             }
           },
           {
             "id": "cn-ancient-06-08-zhenguan-governance-change-2",
-            "label": "在田里动手耕作",
+            "label": "农忙时去修不急用的亭子",
             "correct": false,
             "objectView": {
               "kind": "scene-card",
-              "assetId": "tang-zhenguan-field-work-v1",
+              "assetId": "zhenguan-farming-choices-v1",
               "crop": {
-                "x": 1100,
-                "y": 240,
-                "width": 430,
-                "height": 595,
-                "sourceWidth": 1536,
-                "sourceHeight": 1024
+                "x": 8,
+                "y": 635,
+                "width": 1238,
+                "height": 611,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
               },
-              "image": "/content/step-images/tang-zhenguan-field-work-v1.jpg",
-              "imageAlt": "在田里动手耕作",
+              "image": "/content/step-images/zhenguan-farming-choices-v1.jpg",
+              "imageAlt": "农忙时去修不急用的亭子",
               "imageLabel": "故事插画"
             },
-            "image": "/content/study-scenes/study-15484cc337a29bf0.svg",
-            "imageAlt": "在田里动手耕作",
+            "image": "/content/study-scenes/study-f637389f26dacbcf.svg",
+            "imageAlt": "农忙时去修不急用的亭子",
             "audio": {
-              "id": "quest-51f6d0f8e3232d69",
-              "text": "在田里动手耕作"
+              "id": "quest-c27289297def711c",
+              "text": "农忙时去修不急用的亭子"
             }
           }
         ]
@@ -913,15 +955,16 @@
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "有了安排，还要一起行动",
-        "title": "有了安排，还要一起行动",
-        "prompt": "要让耕种真正继续，找哪幅行动图？",
-        "rightNote": "农人亲手耕作，和合适安排一起帮助生活恢复。",
-        "wrongNote": "讨论帮助想办法，田里的活还要人去做。",
+        "phase": "安排合适，还要动手耕作",
+        "title": "安排合适，还要动手耕作",
+        "prompt": "时间留出来了，谁还要接着做？",
+        "rightNote": "留出农时，还要靠农人动手耕作，安排才落到生活里。",
+        "wrongNote": "意见已经听过、安排也有了，再找田里真正耕作的行动。",
         "sourceIds": [
           "NMC-SUI-TANG-FIVE-DYNASTIES",
           "CCDI-TANG-ADMINISTRATION",
-          "NJU-ZHENGUAN-ZHENGYAO"
+          "NJU-ZHENGUAN-ZHENGYAO",
+          "NATIONALREADING-ZHENGUAN-WUNONG"
         ],
         "interaction": {
           "kind": "pick",
@@ -931,21 +974,21 @@
         "narrative": {
           "kind": "fictional-guide-scene",
           "scene": "detail",
-          "caption": "有了安排，还要一起行动",
+          "caption": "安排合适，还要动手耕作",
           "speaker": "小伙伴",
           "responseSpeaker": "小伙伴",
-          "response": "农人亲手耕作，和合适安排一起帮助生活恢复。",
-          "retry": "讨论帮助想办法，田里的活还要人去做。",
-          "nextLabel": "把倾听与行动的发现带回家"
+          "response": "留出农时，还要靠农人动手耕作，安排才落到生活里。",
+          "retry": "意见已经听过、安排也有了，再找田里真正耕作的行动。",
+          "nextLabel": "带着发现回家"
         },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 5,
-          "title": "有了安排，还要一起行动",
-          "screenText": "意见讨论以后，田地仍要靠农人耕作，事情也要有人落实。贞观时期的恢复，是合适安排和许多人劳动共同作用的结果。小伙伴要找出亲手让耕种继续的那一幕。",
-          "displayText": "意见讨论以后，田地仍要靠农人耕作，事情也要有人落实。贞观时期的恢复，是合适安排和许多人劳动共同作用的结果。小伙伴要找出亲手让耕种继续的那一幕。",
-          "narration": "意见讨论以后，田地仍要靠农人耕作，事情也要有人落实。贞观时期的恢复，是合适安排和许多人劳动共同作用的结果。小伙伴要找出亲手让耕种继续的那一幕。"
+          "title": "安排合适，还要动手耕作",
+          "screenText": "给播种留出了时间，粮食也不会自己长出来。官员要落实安排，农人还要耕作。贞观时期的恢复，是合适安排与许多人劳动共同作用的过程。",
+          "displayText": "给播种留出了时间，粮食也不会自己长出来。官员要落实安排，农人还要耕作。贞观时期的恢复，是合适安排与许多人劳动共同作用的过程。",
+          "narration": "给播种留出了时间，粮食也不会自己长出来。官员要落实安排，农人还要耕作。贞观时期的恢复，是合适安排与许多人劳动共同作用的过程。"
         },
         "assetId": "tang-zhenguan-field-work-v1",
         "image": "/content/step-images/tang-zhenguan-field-work-v1.jpg",
@@ -956,32 +999,32 @@
         "imageBoundary": "田边讲述、记录和耕作的人是虚构角色，用来理解了解困难与实际劳动。图画不声称魏征亲访此村，也不复原某日唐代现场。",
         "audio": {
           "lead": {
-            "id": "quest-c3e3daebb86e61c0",
-            "text": "听完、想过以后，找出让田里真正忙起来的行动。"
+            "id": "quest-91bd1c8ba42fdab0",
+            "text": "播种的时间留出来了，粮食不会自己长。现在找谁接着做？"
           },
           "transition": {
-            "id": "quest-db78448b86d4007a",
-            "text": "有了安排，还要一起行动。"
+            "id": "quest-8bb37ab075cbaf57",
+            "text": "安排合适，还要动手耕作。"
           },
           "intro": {
-            "id": "quest-7e485074c3480822",
-            "text": "意见讨论以后，田地仍要靠农人耕作，事情也要有人落实。贞观时期的恢复，是合适安排和许多人劳动共同作用的结果。小伙伴要找出亲手让耕种继续的那一幕。"
+            "id": "quest-9c95391338f8b609",
+            "text": "给播种留出了时间，粮食也不会自己长出来。官员要落实安排，农人还要耕作。贞观时期的恢复，是合适安排与许多人劳动共同作用的过程。"
           },
           "question": {
-            "id": "quest-7d9ca6d585db0b38",
-            "text": "要让耕种真正继续，找哪幅行动图？"
+            "id": "quest-281369484df66c37",
+            "text": "时间留出来了，谁还要接着做？"
           },
           "image": {
-            "id": "quest-e4f69de037205167",
-            "text": "这张是了解农人困难与田间劳动的故事插画。意见讨论以后，田地仍要靠农人耕作，事情也要有人落实。贞观时期的恢复，是合适安排和许多人劳动共同作用的结果。小伙伴要找出亲手让耕种继续的那一幕。"
+            "id": "quest-d1f1c2b34708fa70",
+            "text": "这张是了解农人困难与田间劳动的故事插画。给播种留出了时间，粮食也不会自己长出来。官员要落实安排，农人还要耕作。贞观时期的恢复，是合适安排与许多人劳动共同作用的过程。"
           },
           "right": {
-            "id": "quest-8a37c4c89d10e001",
-            "text": "农人亲手耕作，和合适安排一起帮助生活恢复。"
+            "id": "quest-399bb8673246b423",
+            "text": "留出农时，还要靠农人动手耕作，安排才落到生活里。"
           },
           "wrong": {
-            "id": "quest-50b2f84a0b77791e",
-            "text": "讨论帮助想办法，田里的活还要人去做。"
+            "id": "quest-f88d0c78873b7203",
+            "text": "意见已经听过、安排也有了，再找田里真正耕作的行动。"
           }
         },
         "options": [
@@ -1121,13 +1164,20 @@
         "MOE-HISTORY-CURRICULUM-2022",
         "NMC-SUI-TANG-FIVE-DYNASTIES"
       ]
+    },
+    {
+      "number": 8,
+      "text": "《贞观政要》卷八《务农》重视不失农时，相关研究把减轻赋役与唐初恢复生产联系起来。",
+      "sourceIds": [
+        "NATIONALREADING-ZHENGUAN-WUNONG"
+      ]
     }
   ],
   "methodNotes": [],
   "screens": [
     {
       "number": 1,
-      "title": "时间线定位：唐初要先恢复生活",
+      "title": "时间定位：时间线定位：唐初要先恢复生活",
       "screenText": "627—649 年是贞观年间；唐初先要让田地、市场和日常生活慢慢恢复。",
       "voices": [
         {
@@ -1327,6 +1377,16 @@
       "imageUse": "reference-only"
     },
     {
+      "id": "NATIONALREADING-ZHENGUAN-WUNONG",
+      "title": "《资治通鉴启示录》书摘：唐初恢复与《贞观政要·务农》",
+      "institution": "中国全民阅读网（张国刚著、中华书局书摘）",
+      "url": "https://www.nationalreading.gov.cn/tshzx/202403/t20240314_837899.html",
+      "type": "scholarly-book-excerpt-on-government-site",
+      "authorityLevel": "A-reference",
+      "factUse": "“从马背到龙座”节引《贞观政要》卷八《务农》，不失农时、减轻赋役与恢复生产；不据概括编造具体农户、奏章或诏令。",
+      "imageUse": "reference-only"
+    },
+    {
       "id": "NJU-ZHENGUAN-ZHENGYAO",
       "title": "贞观政要（南大古籍介绍）",
       "institution": "南京大学",
@@ -1374,6 +1434,26 @@
       "type": "museum-or-primary-institution-reference",
       "authorityLevel": "A-primary-institution",
       "factUse": "唐代鉴真受邀东渡、典籍与文化传授、同行协作；出海到达与入奈良分开，不用展览新画作现场照片。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "EDB-MENG-CHUNXIAO",
+      "title": "《春晓》原文、作者介绍与赏析（第1—2页）",
+      "institution": "香港特别行政区政府教育局",
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_08.pdf",
+      "type": "government-education-classical-poetry-resource",
+      "authorityLevel": "A-government-education",
+      "factUse": "孟浩然为唐代诗人；《春晓》通行全文；从清晨鸟鸣回想昨夜风雨，末句为对落花的发问，不能推定确切落花数或写作当日天气",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "EDB-WANG-GUANQUE",
+      "title": "《登鹳鹊楼》原文、作者介绍与赏析（第1—2页）",
+      "institution": "香港特别行政区政府教育局",
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07.pdf",
+      "type": "government-education-classical-poetry-resource",
+      "authorityLevel": "A-government-education",
+      "factUse": "通行王之涣署名、唐代及四句全文；登楼远望与更上一层；第2页明确入海并非从鹳雀楼直接看见入海口。楼的后世沿革另依当地政府资料，不采用本篇关于毁楼原因的简述",
       "imageUse": "reference-only"
     }
   ],
@@ -1457,6 +1537,45 @@
       "childVisibility": "child-ok"
     },
     {
+      "id": "study-1efda1552592c86c",
+      "title": "学习示意：先让农人留田播种",
+      "localPath": "reference-assets/focused-quests/study-1efda1552592c86c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "先让农人留田播种",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-f637389f26dacbcf",
+      "title": "学习示意：农忙时去修不急用的亭子",
+      "localPath": "reference-assets/focused-quests/study-f637389f26dacbcf.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "农忙时去修不急用的亭子",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-484007da3133b632",
+      "title": "学习示意：许多人配合、慢慢恢复生产",
+      "localPath": "reference-assets/focused-quests/study-484007da3133b632.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "许多人配合 → 慢慢恢复生产",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
       "id": "study-0e945bb9e78c1340",
       "title": "学习示意：听农人说明情况",
       "localPath": "reference-assets/focused-quests/study-0e945bb9e78c1340.svg",
@@ -1483,16 +1602,17 @@
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-484007da3133b632",
-      "title": "学习示意：许多人配合、慢慢恢复生产",
-      "localPath": "reference-assets/focused-quests/study-484007da3133b632.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
+      "id": "zhenguan-farming-choices-v1",
+      "title": "贞观之治，怎样慢慢做到？ · 情境比较新画",
+      "localPath": "reference-assets/history-depth/zhenguan-farming-choices-v1.png",
+      "runtimeMaxEdge": 1600,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/history-depth/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目故事与学习活动",
       "clearance": "cleared-project-created",
-      "caption": "许多人配合 → 慢慢恢复生产",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "caption": "现代教学情境插画，不是历史现场或古人肖像",
+      "boundary": "书影来自明代刊本，内容讲唐代贞观时期，不能把书的印刷年代当事件年代。讨论图是现代艺术表现，不是人物肖像或某次谈话现场。田间人物与情境为教学虚构，不称魏征亲访；不把一次建议或一个人的话写成全国立刻改变。 留田播种与修非急用亭子的对比是教学设问，不是魏征的某次建议、某年诏令或各地统一执行记录。 同组新画只比较教学动作；书中图像与笔记都是现代学习道具，不能作为古代证物。",
       "childVisibility": "child-ok"
     },
     {

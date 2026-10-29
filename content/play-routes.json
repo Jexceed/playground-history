@@ -1,7 +1,33 @@
 {
   "schemaVersion": 1,
-  "scope": "仅中国历史；主题复用章节和完成记录",
+  "scope": "中国古代与世界古代；主题复用章节和完成记录，不把不同地区串成一条朝代线",
   "routes": [
+    {
+      "id": "poetry",
+      "title": "跟着古诗去旅行",
+      "line": "听鸟鸣、看山水，也听宋明诗人的心声",
+      "iconSrc": "/images/history-stations/tang.webp",
+      "voiceId": "route-poetry",
+      "intro": "跟唐朝诗人听鸟鸣、看月亮，再读宋朝的新年、山岭、小池与田园，听明朝的鸡叫、园林秋声和诗中心愿。先听整首诗，再看画面、说发现。",
+      "chapterIds": [
+        "cn-ancient-06-07-li-bai-jingyesi",
+        "cn-ancient-06-11-du-fu-spring-rain",
+        "cn-ancient-06-12-meng-haoran-chunxiao",
+        "cn-ancient-06-13-wang-zhihuan-tower",
+        "cn-ancient-07-06-su-shi-moon",
+        "cn-ancient-07-09-li-qingzhao-rumengling",
+        "cn-ancient-08-09-zheng-banqiao-bamboo",
+        "cn-ancient-07-10-wang-anshi-yuanri",
+        "cn-ancient-07-11-su-shi-xilin",
+        "cn-ancient-07-12-yang-wanli-xiaochi",
+        "cn-ancient-07-13-fan-chengda-tianyuan",
+        "cn-ancient-08-10-tang-yin-rooster",
+        "cn-ancient-08-11-wen-zhengming-garden",
+        "cn-ancient-08-12-yu-qian-lime"
+      ],
+      "kicker": "小小旅行团 · 古诗词专题",
+      "years": "唐诗、宋诗词、明诗与清诗"
+    },
     {
       "id": "classics",
       "title": "人物与经典",
@@ -18,8 +44,19 @@
         "cn-ancient-07-09-li-qingzhao-rumengling",
         "cn-ancient-08-07-journey-west-print",
         "cn-ancient-08-09-zheng-banqiao-bamboo",
-        "cn-ancient-08-08-xu-xiake-notebook"
-      ]
+        "cn-ancient-08-08-xu-xiake-notebook",
+        "cn-ancient-06-12-meng-haoran-chunxiao",
+        "cn-ancient-06-13-wang-zhihuan-tower",
+        "cn-ancient-07-10-wang-anshi-yuanri",
+        "cn-ancient-07-11-su-shi-xilin",
+        "cn-ancient-07-12-yang-wanli-xiaochi",
+        "cn-ancient-07-13-fan-chengda-tianyuan",
+        "cn-ancient-08-10-tang-yin-rooster",
+        "cn-ancient-08-11-wen-zhengming-garden",
+        "cn-ancient-08-12-yu-qian-lime"
+      ],
+      "kicker": "小小旅行团 · 中国历史专题",
+      "years": "不同朝代，各有故事"
     },
     {
       "id": "inventions",
@@ -33,7 +70,9 @@
         "cn-ancient-07-03-song-inventions",
         "cn-ancient-07-07-song-compass-navigation",
         "cn-ancient-07-08-song-gunpowder-records"
-      ]
+      ],
+      "kicker": "小小旅行团 · 中国历史专题",
+      "years": "不同朝代，各有故事"
     },
     {
       "id": "heritage",
@@ -50,7 +89,27 @@
         "cn-ancient-06-09-zhaozhou-bridge",
         "cn-ancient-08-06-forbidden-city-roof-beasts",
         "cn-ancient-08-03-frontiers-unity"
-      ]
+      ],
+      "kicker": "小小旅行团 · 中国历史专题",
+      "years": "不同朝代，各有故事"
+    },
+    {
+      "id": "world",
+      "title": "到世界古代看看",
+      "line": "看蓄水、陵墓、神庙、道路、书籍与石城",
+      "iconSrc": "/images/history-stations/world-ancient.webp",
+      "voiceId": "route-world",
+      "intro": "到南亚看古城怎样留住水，到埃及、希腊和罗马看不同建筑；再去中世纪欧洲看手写书，到非洲南部看石城。每个地方各有年代，跟着材料找线索。",
+      "chapterIds": [
+        "world-ancient-01-02-river-civilizations",
+        "world-ancient-01-05-rome-empire",
+        "world-ancient-01-03-ancient-india",
+        "world-ancient-01-04-greek-city-states",
+        "world-ancient-02-01-medieval-europe",
+        "world-ancient-02-05-africa-americas"
+      ],
+      "kicker": "小小旅行团 · 世界古代专题",
+      "years": "不同地区，各有年代"
     }
   ]
 }

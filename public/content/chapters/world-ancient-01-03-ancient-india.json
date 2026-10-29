@@ -8,7 +8,51 @@
     "id": "ancient-civilizations",
     "label": "古代文明",
     "years": "早期人类—约5世纪",
-    "learningContext": null
+    "learningContext": {
+      "childIntro": "到古代南亚看怎样存水，再去埃及、希腊和罗马，看看陵墓、神庙和道路各有什么用途。这些故事发生在不同年代和地方。",
+      "chronology": "本站总目录涵盖早期人类至约5世纪。当前四章分别聚焦朵拉维拉约前3000—前1500年的长期城市生活、胡夫金字塔约前26世纪、帕特农神庙前5世纪，以及阿庇亚大道前312年起的长期建设。各地并非按本站排列顺序相互接替。",
+      "covered": "南亚蓄水与引水关系，古埃及王室陵墓用途与建筑劳动，雅典神庙的宗教用途及现代遗址边界，罗马道路的军事与日常联系。",
+      "scopeBoundary": "各章沿用独立年代；印度、希腊原长稿的制度与社会内容不等于全部已做成儿童关卡。世界古代其余隐藏章仍待逐章重做与终审。",
+      "sourceIds": [
+        "UNESCO-DHOLAVIRA-HARAPPAN-CITY",
+        "UNESCO-MEMPHIS-PYRAMIDS",
+        "UNESCO-ATHENS-ACROPOLIS",
+        "YSMA-PARTHENON-STRUCTURE",
+        "UNESCO-VIA-APPIA"
+      ],
+      "sources": [
+        {
+          "id": "UNESCO-DHOLAVIRA-HARAPPAN-CITY",
+          "title": "Dholavira: a Harappan City",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/1645/"
+        },
+        {
+          "id": "UNESCO-MEMPHIS-PYRAMIDS",
+          "title": "Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/86/"
+        },
+        {
+          "id": "UNESCO-ATHENS-ACROPOLIS",
+          "title": "Acropolis, Athens",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/404/"
+        },
+        {
+          "id": "YSMA-PARTHENON-STRUCTURE",
+          "title": "Parthenon",
+          "institution": "Acropolis Restoration Service（希腊文化部卫城修复局）",
+          "url": "https://www.ysma.gr/en/monuments/parthenon/"
+        },
+        {
+          "id": "UNESCO-VIA-APPIA",
+          "title": "Via Appia. Regina Viarum",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/1708/"
+        }
+      ]
+    }
   },
   "order": 3,
   "title": "印度河与恒河流域留下了什么",
@@ -16,49 +60,108 @@
   "throughline": "从印度河城市遗址、文献与佛教遗存认识古代印度文明，并区分不同时期和不同证据。",
   "childEntry": {
     "id": "world-ancient-01-03-ancient-india",
-    "childTitle": "一枚还读不懂的印章",
-    "prompt": "城市水池、排水道和神秘印章，能告诉我们什么，又留下什么不知道？",
-    "takeaway": "遗址让我们看见规划与手艺；文字还没读懂，就要诚实保留不知道。",
-    "object": "印度河印章和公共水池",
+    "childTitle": "朵拉维拉怎样留住水",
+    "prompt": "四千多年前，南亚朵拉维拉的居民遇到水源不足。他们怎样把水引来、留下？跟小伙伴去看蓄水遗址。",
+    "takeaway": "朵拉维拉居民用蓄水与引排水设施应对水源不足。水道让水流动，池子留下水；今天的干燥遗址仍能提供结构线索。",
+    "object": "朵拉维拉蓄水遗址",
     "people": [
-      "印度河城市居民和刻印工匠"
+      "朵拉维拉的居民"
     ],
-    "place": "摩亨佐-达罗与朵拉维拉",
-    "culture": "未释读文字和城市遗址",
-    "care": "不给未释读印章编确定故事；看见城市规划，也诚实保留还不知道的部分。"
+    "place": "南亚 · 今天印度西部",
+    "culture": "哈拉帕城市的用水办法",
+    "care": "现代照片记录发掘和保护后的状态，不是古代施工现场。教学模型只说明收集与储存的关系，左右为分别演示的模型，不按遗址测绘复原，也不表示现场只有一条水道、一个池子。洒水壶是今天的演示工具。古代南亚不等于今日印度国界；本章地点恰在今日印度。原印度河、恒河与佛教研究正文保留。",
+    "playableSource": "content/focused-quests.json",
+    "preferredAssetId": "dholavira-water-reservoir-2017-photo"
   },
-  "learningGuide": null,
-  "textbookConnection": null,
+  "learningGuide": {
+    "id": "world-ancient-01-03-ancient-india",
+    "theme": "生活与劳动",
+    "learningGoal": "引水与存水相互配合，帮助朵拉维拉居民应对水源不足。",
+    "parentQuestion": "为什么有了水道，还要有蓄水池？",
+    "observe": "孩子分别指水道与池子，说明流来和留下；可用手势，不必记地名和年份。",
+    "misconception": "今天照片里池子干燥，不表示古代没有蓄过水；模型不是遗址复原。",
+    "evidenceStepIds": [
+      "time",
+      "beginning",
+      "journey",
+      "change",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "UNESCO-DHOLAVIRA-HARAPPAN-CITY"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-06-01-sui-unification-canal",
+        "relation": "都与水有关，朵拉维拉本章看储水，隋运河本章看运输；用途不同。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "遗址",
+      "蓄水"
+    ]
+  },
+  "textbookConnection": {
+    "id": "world-ancient-01-03-ancient-india",
+    "featured": {
+      "type": "遗址",
+      "icon": "💧",
+      "title": "朵拉维拉的居民",
+      "childBridge": "四千多年前，南亚朵拉维拉的居民遇到水源不足。他们怎样把水引来、留下？跟小伙伴去看蓄水遗址。",
+      "evidenceBoundary": "现代照片记录发掘和保护后的状态，不是古代施工现场。"
+    },
+    "companions": [
+      {
+        "type": "地点",
+        "label": "南亚朵拉维拉",
+        "note": "地点在今日印度西部；哈拉帕城市不是今日国家边界图。"
+      },
+      {
+        "type": "生活",
+        "label": "引水与存水",
+        "note": "一个让水流来，一个把水留下，按不同用途理解。"
+      },
+      {
+        "type": "方法",
+        "label": "照片里的干池子",
+        "note": "现代干燥状态不能反推古代从未存水。"
+      }
+    ],
+    "sourceIds": [
+      "UNESCO-DHOLAVIRA-HARAPPAN-CITY"
+    ]
+  },
   "childStory": [
     {
-      "id": "hook",
-      "icon": "🔎",
-      "label": "从一件东西出发",
-      "text": "一枚还读不懂的印章"
+      "id": "time",
+      "icon": "🕰️",
+      "label": "走进古老的南亚城市",
+      "text": "朵拉维拉在今天印度西部，四千多年前就有居民生活。我们看到的蓄水遗址照片拍于2017年。古城的年代和照片的年份要分开。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "印章先不乱猜",
-      "text": "先看印度河印章上的图案，却先不猜文字。"
+      "label": "水来时，把它留下",
+      "text": "这里水源不总是充足。古城居民修建蓄水设施，把水收集、留住。模型左边演示水沿水道流来，右边演示水存在池里；两边不是遗址的精确原样。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "走过城市水道",
-      "text": "接着走过公共水池、街道和排水道。"
+      "label": "真照片留下什么线索",
+      "text": "这是真实遗址照片。向下凹的空间和周围的石砌池壁，是蓄水设施留下的线索。今天池里没有水，我们仍能观察它的形状。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "知道也保留不知道",
-      "text": "最后看见城市规划，印章文字仍未读懂。"
+      "label": "雨水先怎样来到池边",
+      "text": "模型左边，水沿着窄水道向低处流；右边，宽大的池子把水留住。想知道水怎样从远一点的地方流来，先看哪一边？"
     },
     {
-      "id": "answer-retell",
+      "id": "takeaway",
       "icon": "🗣️",
-      "label": "把故事讲给家人听",
-      "text": "遗址让我们看见规划与手艺；文字还没读懂，就要诚实保留不知道。"
+      "label": "少雨时，想起先前的水",
+      "text": "小伙伴问：如果一段时间雨少了，先前收集的水放在哪里？顺着模型想一想：水流来以后，要有地方把它留住，不能只经过就流走。"
     }
   ],
   "glossary": [
@@ -70,509 +173,850 @@
       "priority": 1
     },
     {
-      "term": "交流",
-      "icon": "↔️",
-      "plain": "不同的人把物品、知识或做法带给彼此。",
-      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "term": "蓄水",
+      "icon": "💧",
+      "plain": "把水先留下，供之后使用。",
+      "example": "水道让水流来，蓄水池把水留住。",
       "priority": 1
-    },
-    {
-      "term": "考古",
-      "icon": "🧹",
-      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
-      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
-      "priority": 1
-    },
-    {
-      "term": "平等",
-      "icon": "⚖️",
-      "plain": "不因出身、性别或身份被规定成高低贵贱。",
-      "example": "说人人平等，要看法律和生活中是否真的做到。",
-      "priority": 1
-    },
-    {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
-      "priority": 1
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "社会",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "许多人一起生活、分工并形成关系的整体。",
-      "example": "社会变化要看不同人受到的影响。",
-      "priority": 2
-    },
-    {
-      "term": "王朝",
-      "icon": "👑",
-      "plain": "以皇帝政权延续的一段历史时期。",
-      "example": "唐朝是王朝；唐朝结束不等于所有事情当天停止。",
-      "priority": 2
-    },
-    {
-      "term": "文化",
-      "icon": "🎨",
-      "plain": "人们共同创造和传下来的语言、知识、艺术与习惯。",
-      "example": "文化会交流变化，不能排成谁高谁低。",
-      "priority": 2
-    },
-    {
-      "term": "发展",
-      "icon": "🌱",
-      "plain": "事物经过一段时间出现增长或变化。",
-      "example": "发展不只看速度和数量，也要看人的生活与环境。",
-      "priority": 3
-    },
-    {
-      "term": "建设",
-      "icon": "🏗️",
-      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
-      "example": "建设有成果，也要看成本、困难和谁参与。",
-      "priority": 3
-    },
-    {
-      "term": "统治",
-      "icon": "🏛️",
-      "plain": "掌权者用机构和规则管理人群与地方。",
-      "example": "研究统治还要问谁能参与、谁承担负担。",
-      "priority": 3
     }
   ],
   "pronunciations": [
     {
-      "text": "阿育王",
-      "reading": "Āyù Wáng",
-      "kind": "person",
-      "chapterIds": [
-        "world-ancient-01-03-ancient-india"
-      ],
-      "note": "“阿”在此读ā。"
-    },
-    {
-      "text": "摩亨佐-达罗",
-      "reading": "Móhēngzuǒ-Dáluó",
+      "text": "朵拉维拉",
+      "reading": "Duǒlāwéilā",
       "kind": "place",
       "chapterIds": [
         "world-ancient-01-03-ancient-india"
       ],
-      "note": "按中文译名逐字清楚读出。"
+      "note": "本轮新增可玩主线校听项；自动绑定不等于已人工校听。"
+    },
+    {
+      "text": "蓄水",
+      "reading": "xù shuǐ",
+      "kind": "term",
+      "chapterIds": [
+        "world-ancient-01-03-ancient-india"
+      ],
+      "note": "本轮新增可玩主线校听项；自动绑定不等于已人工校听。"
     }
   ],
   "gameplay": {
-    "mode": "memory-hook-story-quest-v3",
+    "mode": "authored-picture-quest-v4",
     "status": "playable-core",
     "audioStatus": "local-pre-generated",
     "hook": {
-      "kind": "一件东西",
+      "kind": "具体任务",
       "icon": "🔎",
-      "label": "一枚还读不懂的印章",
-      "question": "城市水池、排水道和神秘印章，能告诉我们什么，又留下什么不知道？"
+      "label": "朵拉维拉怎样留住水",
+      "question": "四千多年前，南亚朵拉维拉的居民遇到水源不足。他们怎样把水引来、留下？跟小伙伴去看蓄水遗址。"
+    },
+    "cta": "带着问题去看看",
+    "anchor": "朵拉维拉的居民",
+    "boundary": "现代照片记录发掘和保护后的状态，不是古代施工现场。教学模型只说明收集与储存的关系，左右为分别演示的模型，不按遗址测绘复原，也不表示现场只有一条水道、一个池子。洒水壶是今天的演示工具。古代南亚不等于今日印度国界；本章地点恰在今日印度。原印度河、恒河与佛教研究正文保留。",
+    "evidence": [
+      {
+        "id": "dholavira-water-reservoir-2017-photo",
+        "title": "朵拉维拉蓄水设施2017年实拍",
+        "localPath": "reference-assets/world-ancient-india/dholavira-water-reservoir-2017.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Water_reservoir_at_Dholavira_site.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 4.0",
+        "clearance": "cleared-open-license",
+        "caption": "2017年拍摄的朵拉维拉蓄水设施与遗址墙体。",
+        "boundary": "现代遗址照片，可观察蓄水设施的空间与池壁。照片中的干燥状态、游客、标牌和保护处理不能搬回哈拉帕时代；古代水管理功能另据考古与遗产资料核对。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/dholavira-water-reservoir-2017-photo.jpg"
+      }
+    ],
+    "photoAlbum": null,
+    "coverAsset": {
+      "id": "dholavira-water-reservoir-2017-photo",
+      "title": "朵拉维拉蓄水设施2017年实拍",
+      "localPath": "reference-assets/world-ancient-india/dholavira-water-reservoir-2017.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Water_reservoir_at_Dholavira_site.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 4.0",
+      "clearance": "cleared-open-license",
+      "caption": "2017年拍摄的朵拉维拉蓄水设施与遗址墙体。",
+      "boundary": "现代遗址照片，可观察蓄水设施的空间与池壁。照片中的干燥状态、游客、标牌和保护处理不能搬回哈拉帕时代；古代水管理功能另据考古与遗产资料核对。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/dholavira-water-reservoir-2017-photo.jpg"
+    },
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "dholavira-water-story-v1",
+      "sceneAlt": "朵拉维拉怎样留住水的现代教学情境，非考古复原",
+      "title": "朵拉维拉怎样留住水",
+      "evidenceTitle": "朵拉维拉蓄水设施 · 2017年照片",
+      "evidenceLine": "真实材料与教学新画分别标注；点开材料可听年代和出处。",
+      "evidenceNarration": "朵拉维拉在今天印度西部。古城留下蓄水设施，照片拍于2017年。今天池中干燥，不表示古人从未存过水；照片不能告诉我们每次储水多少。",
+      "guide": "和小伙伴看材料、听故事，再说说你的发现。",
+      "alignHint": "",
+      "familyHint": "回看材料里的线索，和家人说说。",
+      "familyLabel": "和家人再试一次",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "带着发现回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "dholavira-water-story-v1",
+        "reunionAlt": "朵拉维拉怎样留住水的教学情境",
+        "reunionAspectRatio": 1.5,
+        "reunionFit": "contain",
+        "coverCaption": "朵拉维拉怎样留住水",
+        "coverNarration": "四千多年前，南亚朵拉维拉的居民遇到水源不足。他们怎样把水引来、留下？跟小伙伴去看蓄水遗址。",
+        "closingCaption": "把发现说给家人听",
+        "closingLine": "朵拉维拉怎样留住水",
+        "closingNarration": "朵拉维拉居民用蓄水与引排水设施应对水源不足。水道让水流动，池子留下水；今天的干燥遗址仍能提供结构线索。",
+        "fictionNote": "现代照片记录发掘和保护后的状态，不是古代施工现场。教学模型只说明收集与储存的关系，左右为分别演示的模型，不按遗址测绘复原，也不表示现场只有一条水道、一个池子。洒水壶是今天的演示工具。古代南亚不等于今日印度国界；本章地点恰在今日印度。原印度河、恒河与佛教研究正文保留。",
+        "reunionImage": "/content/step-images/dholavira-water-story-v1.jpg",
+        "stationLine": "到古代南亚看怎样存水，再去埃及、希腊和罗马，看看陵墓、神庙和道路各有什么用途。这些故事发生在不同年代和地方。",
+        "stationAudio": {
+          "id": "quest-1e5e0c2fbcde8a1e",
+          "text": "到古代南亚看怎样存水，再去埃及、希腊和罗马，看看陵墓、神庙和道路各有什么用途。这些故事发生在不同年代和地方。"
+        },
+        "closingAudio": {
+          "id": "quest-19ab50f31961a861",
+          "text": "朵拉维拉居民用蓄水与引排水设施应对水源不足。水道让水流动，池子留下水；今天的干燥遗址仍能提供结构线索。"
+        }
+      },
+      "sceneImage": "/content/step-images/dholavira-water-story-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-570d1d3eb6688723",
+        "text": "朵拉维拉在今天印度西部。古城留下蓄水设施，照片拍于2017年。今天池中干燥，不表示古人从未存过水；照片不能告诉我们每次储水多少。"
+      },
+      "guideAudio": {
+        "id": "quest-3a7a1472918f5e2f",
+        "text": "和小伙伴看材料、听故事，再说说你的发现。"
+      }
+    },
+    "sceneAsset": {
+      "id": "dholavira-water-story-v1",
+      "title": "朵拉维拉怎样留住水教学插画",
+      "localPath": "reference-assets/2026-10-28-world-expansion/dholavira-water-story-v1.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/2026-10-28-world-expansion/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "教学新画 · 现代学习情境，非历史照片或精确复原",
+      "boundary": "现代照片记录发掘和保护后的状态，不是古代施工现场。教学模型只说明收集与储存的关系，左右为分别演示的模型，不按遗址测绘复原，也不表示现场只有一条水道、一个池子。洒水壶是今天的演示工具。古代南亚不等于今日印度国界；本章地点恰在今日印度。原印度河、恒河与佛教研究正文保留。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/dholavira-water-story-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "dholavira-water-story-v1",
+        "title": "朵拉维拉怎样留住水教学插画",
+        "localPath": "reference-assets/2026-10-28-world-expansion/dholavira-water-story-v1.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/2026-10-28-world-expansion/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "教学新画 · 现代学习情境，非历史照片或精确复原",
+        "boundary": "现代照片记录发掘和保护后的状态，不是古代施工现场。教学模型只说明收集与储存的关系，左右为分别演示的模型，不按遗址测绘复原，也不表示现场只有一条水道、一个池子。洒水壶是今天的演示工具。古代南亚不等于今日印度国界；本章地点恰在今日印度。原印度河、恒河与佛教研究正文保留。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/dholavira-water-story-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/dholavira-water-reservoir-2017-photo.jpg",
+    "coverImageAlt": "朵拉维拉蓄水设施2017年实拍",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "朵拉维拉蓄水设施 · 2017年照片",
+      "fit": "contain"
     },
     "coverAudio": {
-      "id": "quest-494d63634fbbcd6f",
-      "text": "今天从一件东西出发：一枚还读不懂的印章。我们要去摩亨佐-达罗与朵拉维拉，看看印度河印章和公共水池怎样把答案一点点带出来。准备好就点开始。"
+      "id": "quest-470b075992b60147",
+      "text": "四千多年前，南亚朵拉维拉的居民遇到水源不足。他们怎样把水引来、留下？跟小伙伴去看蓄水遗址。"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-00bd9fb44cee4805",
-      "text": "五条线索都找到了，“一枚还读不懂的印章”的答案是：遗址让我们看见规划与手艺；文字还没读懂，就要诚实保留不知道。 你获得了历史证据小侦探勋章。"
+      "id": "quest-19ab50f31961a861",
+      "text": "朵拉维拉居民用蓄水与引排水设施应对水源不足。水道让水流动，池子留下水；今天的干燥遗址仍能提供结构线索。"
     },
-    "estimatedMinutes": 8,
+    "finish": {
+      "title": "带走自己的发现",
+      "actions": [
+        "用手在教学图上指出水流来的水道，再指存水的池子，说说它们各有什么用。",
+        "请家长把两只空碗分别当作“流来的水”和“存水池”，孩子用手指演示水先流来、再留住；不必实际倒水。"
+      ],
+      "parent": "孩子能把“水从哪里来”和“水留在哪里”分别指出，再解释少雨时为什么要先储水即可。这里的模型是简化的因果示意，不能据此推算容量、坡度、流速或完整古代水系统。",
+      "sceneStepIndexes": [
+        2,
+        4
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-a67d096c551c578c",
+          "text": "用手在教学图上指出水流来的水道，再指存水的池子，说说它们各有什么用。"
+        },
+        {
+          "id": "quest-1af8634781480590",
+          "text": "请家长把两只空碗分别当作“流来的水”和“存水池”，孩子用手指演示水先流来、再留住；不必实际倒水。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-19ab50f31961a861",
+        "text": "朵拉维拉居民用蓄水与引排水设施应对水源不足。水道让水流动，池子留下水；今天的干燥遗址仍能提供结构线索。"
+      }
+    },
+    "estimatedMinutes": 6,
     "badge": {
-      "icon": "🏅",
-      "label": "历史证据小侦探"
+      "icon": "🌟",
+      "label": "小小观察员"
     },
     "steps": [
       {
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "先找到时间",
-        "title": "先把故事放进时间河",
-        "prompt": "从一件东西出发，先找哪个年代？",
-        "rightNote": "时间找对了，故事有了起点。",
-        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "phase": "走进古老的南亚城市",
+        "title": "走进古老的南亚城市",
+        "prompt": "古城居民生活在什么时候？",
+        "rightNote": "这是几千年前的城市，照片拍得晚得多。",
+        "wrongNote": "2017年是照片的年份，再听听古城的年代。",
+        "sourceIds": [
+          "UNESCO-DHOLAVIRA-HARAPPAN-CITY"
+        ],
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听故事，再从画面里找线索。"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "走进古老的南亚城市",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "这是几千年前的城市，照片拍得晚得多。",
+          "retry": "2017年是照片的年份，再听听古城的年代。",
+          "nextLabel": "看看为什么要留住水"
+        },
+        "concepts": null,
+        "inspection": {
+          "id": "dholavira-water-reservoir-2017-photo",
+          "title": "朵拉维拉蓄水设施",
+          "localPath": "reference-assets/world-ancient-india/dholavira-water-reservoir-2017.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Water_reservoir_at_Dholavira_site.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 4.0",
+          "clearance": "cleared-open-license",
+          "caption": "古代遗址 · 2017年照片",
+          "boundary": "现代遗址照片，可观察蓄水设施的空间与池壁。照片中的干燥状态、游客、标牌和保护处理不能搬回哈拉帕时代；古代水管理功能另据考古与遗产资料核对。 2017年拍摄的朵拉维拉蓄水设施与遗址墙体。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/dholavira-water-reservoir-2017-photo.jpg",
+          "label": "看真实材料，听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 290,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "UNESCO：朵拉维拉的水系统",
+              "url": "https://whc.unesco.org/en/list/1645/"
+            },
+            {
+              "title": "照片作者与CC BY-SA 4.0许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Water_reservoir_at_Dholavira_site.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-570d1d3eb6688723",
+            "text": "朵拉维拉在今天印度西部。古城留下蓄水设施，照片拍于2017年。今天池中干燥，不表示古人从未存过水；照片不能告诉我们每次储水多少。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "先把故事放进时间河",
-          "screenText": "这是古代文明，时间是早期人类—约5世纪。",
-          "narration": "这是古代文明，时间是早期人类—约5世纪。",
-          "displayText": "这是古代文明，时间是早期人类—约5世纪。"
+          "title": "走进古老的南亚城市",
+          "screenText": "朵拉维拉在今天印度西部，四千多年前就有居民生活。我们看到的蓄水遗址照片拍于2017年。古城的年代和照片的年份要分开。",
+          "displayText": "朵拉维拉在今天印度西部，四千多年前就有居民生活。我们看到的蓄水遗址照片拍于2017年。古城的年代和照片的年份要分开。",
+          "narration": "朵拉维拉在今天印度西部，四千多年前就有居民生活。我们看到的蓄水遗址照片拍于2017年。古城的年代和照片的年份要分开。"
         },
-        "assetId": "mohenjo-daro-great-bath-2016-photo",
-        "image": "/content/step-images/mohenjo-daro-great-bath-2016-photo.jpg",
-        "imageAlt": "摩亨佐-达罗大型公共水池2016年实拍",
-        "imageCaption": "2016年拍摄的摩亨佐-达罗大型公共水池，可见砖砌池壁、池底和台阶。",
-        "imageBoundary": "Commons原图2560×1440像素，等比缩至2200×1237像素，未裁切。必须标为现代发掘和保护状态照片；前景围护设施不属于古代。照片可说明现存水结构，不能确定古人每次使用目的，不标成游泳池、神庙或王室浴池。",
+        "assetId": "dholavira-water-story-v1",
+        "image": "/content/step-images/dholavira-water-story-v1.jpg",
+        "studyImage": "/content/study-scenes/study-1cd6c8bd0038e878.svg",
+        "studyImageAlt": "走进古老的南亚城市",
+        "imageAlt": "朵拉维拉怎样留住水教学插画",
+        "imageCaption": "朵拉维拉怎样留住水教学插画",
+        "imageBoundary": "现代照片记录发掘和保护后的状态，不是古代施工现场。教学模型只说明收集与储存的关系，左右为分别演示的模型，不按遗址测绘复原，也不表示现场只有一条水道、一个池子。洒水壶是今天的演示工具。古代南亚不等于今日印度国界；本章地点恰在今日印度。原印度河、恒河与佛教研究正文保留。",
         "audio": {
+          "lead": {
+            "id": "quest-4eb6c7dee5dcbe05",
+            "text": "朵拉维拉在今天印度西部，四千多年前就有居民生活。我们看到的蓄水遗址照片拍于2017年。古城的年代和照片的年份要分开。古城居民生活在什么时候？"
+          },
           "transition": {
-            "id": "quest-539cc8e9e5394229",
-            "text": "先给一件东西找到正确年代。"
+            "id": "quest-937238773fda1fd1",
+            "text": "走进古老的南亚城市。"
           },
           "intro": {
-            "id": "quest-21581725ac4a1096",
-            "text": "这是古代文明，时间是早期人类—约5世纪。"
-          },
-          "image": {
-            "id": "quest-5d275b1fab7a6694",
-            "text": "点开大图啦。这是摩亨佐-达罗大型公共水池2016年实拍。这张图能帮我们找到：这是古代文明，时间是早期人类—约5世纪。"
+            "id": "quest-4eefb8dd62c453e7",
+            "text": "朵拉维拉在今天印度西部，四千多年前就有居民生活。我们看到的蓄水遗址照片拍于2017年。古城的年代和照片的年份要分开。"
           },
           "question": {
-            "id": "quest-50c86239196ce113",
-            "text": "从一件东西出发，先找哪个年代？"
+            "id": "quest-8328f4530fae2b1b",
+            "text": "古城居民生活在什么时候？"
+          },
+          "image": {
+            "id": "quest-21fc8efd1164bddf",
+            "text": "这张是朵拉维拉怎样留住水教学插画。朵拉维拉在今天印度西部，四千多年前就有居民生活。我们看到的蓄水遗址照片拍于2017年。古城的年代和照片的年份要分开。"
           },
           "right": {
-            "id": "quest-c2d78010da74a324",
-            "text": "答对啦！时间找对了，故事有了起点。"
+            "id": "quest-1c76bbaacef919f6",
+            "text": "这是几千年前的城市，照片拍得晚得多。"
           },
           "wrong": {
-            "id": "quest-97f81f02dcd7c5eb",
-            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+            "id": "quest-7d33ebe367a3cd1d",
+            "text": "2017年是照片的年份，再听听古城的年代。"
           }
         },
         "options": [
           {
             "id": "world-ancient-01-03-ancient-india-time-1",
-            "label": "世界古代史 · 古代文明 · 早期人类—约5世纪",
+            "label": "几千年前的南亚",
             "correct": true,
+            "objectView": {
+              "kind": "era",
+              "name": "几千年前的南亚",
+              "date": "约前3000—前1500年",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-d26e8b97ea7b676f.svg",
+            "imageAlt": "几千年前的南亚",
             "audio": {
-              "id": "quest-41ed781097729712",
-              "text": "世界古代史 · 古代文明 · 早期人类—约5世纪"
+              "id": "quest-e9d9c2e268e6781d",
+              "text": "几千年前的南亚"
             }
           },
           {
             "id": "world-ancient-01-03-ancient-india-time-2",
-            "label": "中国古代史 · 明朝 · 1368—1644年",
+            "label": "拍照片的年份",
             "correct": false,
+            "objectView": {
+              "kind": "era",
+              "name": "拍照片的年份",
+              "date": "2017年",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-72f1fa67104a66d6.svg",
+            "imageAlt": "拍照片的年份",
             "audio": {
-              "id": "quest-3b05b4d64f9c3530",
-              "text": "中国古代史 · 明朝 · 1368—1644年"
-            }
-          },
-          {
-            "id": "world-ancient-01-03-ancient-india-time-3",
-            "label": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）",
-            "correct": false,
-            "audio": {
-              "id": "quest-0ee11e284f2f5ef2",
-              "text": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）"
+              "id": "quest-6d9a104e84854b17",
+              "text": "拍照片的年份"
             }
           }
         ]
       },
       {
         "id": "beginning",
-        "questionKind": "evidence-object",
+        "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "第一拍 · 故事起点",
-        "title": "印章先不乱猜",
-        "prompt": "哪一件证物能先打开这个故事？",
-        "rightNote": "先看印度河印章上的图案，却先不猜文字。",
-        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "phase": "水来时，把它留下",
+        "title": "水来时，把它留下",
+        "prompt": "水道和蓄水池各做什么？",
+        "rightNote": "引水和存水相互配合，帮助人们安排用水。",
+        "wrongNote": "先听一听引水和存水的不同作用。",
+        "sourceIds": [
+          "UNESCO-DHOLAVIRA-HARAPPAN-CITY"
+        ],
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听故事，再从画面里找线索。",
+          "continueLabel": "到真照片里观察"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "水来时，把它留下",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "引水和存水相互配合，帮助人们安排用水。",
+          "retry": "先听一听引水和存水的不同作用。",
+          "nextLabel": "到真照片里观察"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "印章先不乱猜",
-          "screenText": "先看印度河印章上的图案，却先不猜文字。",
-          "narration": "先看印度河印章上的图案，却先不猜文字。",
-          "displayText": "先看印度河印章上的图案，却先不猜文字。"
+          "title": "水来时，把它留下",
+          "screenText": "这里水源不总是充足。古城居民修建蓄水设施，把水收集、留住。模型左边演示水沿水道流来，右边演示水存在池里；两边不是遗址的精确原样。",
+          "displayText": "这里水源不总是充足。古城居民修建蓄水设施，把水收集、留住。模型左边演示水沿水道流来，右边演示水存在池里；两边不是遗址的精确原样。",
+          "narration": "这里水源不总是充足。古城居民修建蓄水设施，把水收集、留住。模型左边演示水沿水道流来，右边演示水存在池里；两边不是遗址的精确原样。"
         },
-        "assetId": "indus-seal-modern-impression-met-image",
-        "image": "/content/step-images/indus-seal-modern-impression-met-image.jpg",
-        "imageAlt": "成熟哈拉帕时期印章与现代压印",
-        "imageCaption": "约前2600—前1900年的烧滑石印章（左）与为展示凹刻而制作的现代压印（右）。",
-        "imageBoundary": "The Met开放获取图片2003×2001像素，未缩放、未裁切。对象编号49.40.1，烧滑石，约3.8×3.8×1厘米。页面必须区分古代印章与现代压印；馆方标题中的“独角兽”与前方“香炉（？）”保留疑问，不擅自确定宗教含义。印度河文字未被充分释读，禁止加入伪译文。",
+        "assetId": "dholavira-water-story-v1",
+        "image": "/content/step-images/dholavira-water-story-v1.jpg",
+        "studyImage": "/content/study-scenes/study-a84a9ed9b43aa9f5.svg",
+        "studyImageAlt": "水来时，把它留下",
+        "imageAlt": "朵拉维拉怎样留住水教学插画",
+        "imageCaption": "朵拉维拉怎样留住水教学插画",
+        "imageBoundary": "现代照片记录发掘和保护后的状态，不是古代施工现场。教学模型只说明收集与储存的关系，左右为分别演示的模型，不按遗址测绘复原，也不表示现场只有一条水道、一个池子。洒水壶是今天的演示工具。古代南亚不等于今日印度国界；本章地点恰在今日印度。原印度河、恒河与佛教研究正文保留。",
         "audio": {
+          "lead": {
+            "id": "quest-161060169719fb7e",
+            "text": "这里水源不总是充足。古城居民修建蓄水设施，把水收集、留住。模型左边演示水沿水道流来，右边演示水存在池里；两边不是遗址的精确原样。"
+          },
           "transition": {
-            "id": "quest-bc13be496686808e",
-            "text": "时间找到了。先找一件看得见、能核对的证物。"
+            "id": "quest-a429b15732071f75",
+            "text": "水来时，把它留下。"
           },
           "intro": {
-            "id": "quest-3788f0443e25640e",
-            "text": "先看印度河印章上的图案，却先不猜文字。"
-          },
-          "image": {
-            "id": "quest-d313cdecdf95ce92",
-            "text": "点开大图啦。这是成熟哈拉帕时期印章与现代压印。这张图能帮我们找到：先看印度河印章上的图案，却先不猜文字。"
+            "id": "quest-161060169719fb7e",
+            "text": "这里水源不总是充足。古城居民修建蓄水设施，把水收集、留住。模型左边演示水沿水道流来，右边演示水存在池里；两边不是遗址的精确原样。"
           },
           "question": {
-            "id": "quest-785d31b501154b8e",
-            "text": "哪一件证物能先打开这个故事？"
+            "id": "quest-ca2c9a3df9d0be91",
+            "text": "水道和蓄水池各做什么？"
+          },
+          "image": {
+            "id": "quest-dd6e6d480eaf3079",
+            "text": "这张是朵拉维拉怎样留住水教学插画。这里水源不总是充足。古城居民修建蓄水设施，把水收集、留住。模型左边演示水沿水道流来，右边演示水存在池里；两边不是遗址的精确原样。"
           },
           "right": {
-            "id": "quest-9e334cf899a379f3",
-            "text": "答对啦！第一件证物找到了。"
+            "id": "quest-4313e397fc817df3",
+            "text": "引水和存水相互配合，帮助人们安排用水。"
           },
           "wrong": {
-            "id": "quest-83318c217691cf7c",
-            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+            "id": "quest-3e68141685a6517f",
+            "text": "先听一听引水和存水的不同作用。"
           }
         },
-        "options": [
-          {
-            "id": "world-ancient-01-03-ancient-india-beginning-1",
-            "label": "摩亨佐-达罗与朵拉维，只是故事地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-24699a44d4a09ec9",
-              "text": "摩亨佐-达罗与朵拉维，只是故事地点"
-            }
-          },
-          {
-            "id": "world-ancient-01-03-ancient-india-beginning-2",
-            "label": "印度河城市居民和刻印工匠，只是故事人物",
-            "correct": false,
-            "audio": {
-              "id": "quest-0ddba9d65a48c09c",
-              "text": "印度河城市居民和刻印工匠，只是故事人物"
-            }
-          },
-          {
-            "id": "world-ancient-01-03-ancient-india-beginning-3",
-            "label": "印度河印章和公共水池，是能核对的证物",
-            "correct": true,
-            "audio": {
-              "id": "quest-93b9b83fb6023e8f",
-              "text": "印度河印章和公共水池，是能核对的证物"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
-        "questionKind": "people-place-action",
+        "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "第二拍 · 故事继续",
-        "title": "走过城市水道",
-        "prompt": "故事里的人来到这里以后，做了什么？",
-        "rightNote": "接着走过公共水池、街道和排水道。",
-        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "phase": "真照片留下什么线索",
+        "title": "真照片留下什么线索",
+        "prompt": "哪里是向下凹的池内空间？",
+        "rightNote": "池内空间和周围池壁一起组成蓄水设施。",
+        "wrongNote": "看看中间低下去的空间，再找周围池壁。",
+        "sourceIds": [
+          "UNESCO-DHOLAVIRA-HARAPPAN-CITY"
+        ],
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听问题，点图中对应的线索。",
+          "imageLabel": "实物照片",
+          "sceneAspectRatio": 1.5047879616963065,
+          "ariaLabel": "观察材料并选择对应对象",
+          "hotspots": [
+            {
+              "id": "basin",
+              "label": "向下凹的池内空间",
+              "x": 0.26,
+              "y": 0.55,
+              "width": 0.33,
+              "height": 0.22
+            },
+            {
+              "id": "wall",
+              "label": "周围的石砌池壁",
+              "x": 0.63,
+              "y": 0.39,
+              "width": 0.27,
+              "height": 0.19
+            }
+          ],
+          "rounds": [
+            {
+              "id": "basin",
+              "targetId": "basin",
+              "question": "哪里是向下凹的池内空间？",
+              "feedback": "这里能容下水；今天拍到的是干燥状态。",
+              "retry": "这里是池壁，再看看里面低下去的空间。",
+              "nextLabel": "再找找池壁",
+              "audio": {
+                "question": {
+                  "id": "quest-83f620ecf1d5aa8e",
+                  "text": "哪里是向下凹的池内空间？"
+                },
+                "right": {
+                  "id": "quest-4d243a76b16b0449",
+                  "text": "这里能容下水；今天拍到的是干燥状态。"
+                },
+                "wrong": {
+                  "id": "quest-866653d56cee3f81",
+                  "text": "这里是池壁，再看看里面低下去的空间。"
+                }
+              }
+            },
+            {
+              "id": "wall",
+              "targetId": "wall",
+              "question": "哪里是围住池子的石砌池壁？",
+              "feedback": "池壁围住池内空间，是蓄水结构的一部分。",
+              "retry": "这里是池内空间，再找周围的石砌墙。",
+              "nextLabel": "分清引水和存水",
+              "audio": {
+                "question": {
+                  "id": "quest-f6352a3068198752",
+                  "text": "哪里是围住池子的石砌池壁？"
+                },
+                "right": {
+                  "id": "quest-aa4162319d65ada3",
+                  "text": "池壁围住池内空间，是蓄水结构的一部分。"
+                },
+                "wrong": {
+                  "id": "quest-268efda384d48492",
+                  "text": "这里是池内空间，再找周围的石砌墙。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "真照片留下什么线索",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "池内空间和周围池壁一起组成蓄水设施。",
+          "retry": "看看中间低下去的空间，再找周围池壁。",
+          "nextLabel": "分清引水和存水"
+        },
+        "concepts": null,
+        "inspection": {
+          "id": "dholavira-water-reservoir-2017-photo",
+          "title": "朵拉维拉蓄水设施",
+          "localPath": "reference-assets/world-ancient-india/dholavira-water-reservoir-2017.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Water_reservoir_at_Dholavira_site.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 4.0",
+          "clearance": "cleared-open-license",
+          "caption": "古代遗址 · 2017年照片",
+          "boundary": "现代遗址照片，可观察蓄水设施的空间与池壁。照片中的干燥状态、游客、标牌和保护处理不能搬回哈拉帕时代；古代水管理功能另据考古与遗产资料核对。 2017年拍摄的朵拉维拉蓄水设施与遗址墙体。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/dholavira-water-reservoir-2017-photo.jpg",
+          "label": "看真实材料，听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 290,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "UNESCO：朵拉维拉的水系统",
+              "url": "https://whc.unesco.org/en/list/1645/"
+            },
+            {
+              "title": "照片作者与CC BY-SA 4.0许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Water_reservoir_at_Dholavira_site.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-570d1d3eb6688723",
+            "text": "朵拉维拉在今天印度西部。古城留下蓄水设施，照片拍于2017年。今天池中干燥，不表示古人从未存过水；照片不能告诉我们每次储水多少。"
+          }
+        },
         "story": {
           "screenNumber": 3,
-          "title": "走过城市水道",
-          "screenText": "接着走过公共水池、街道和排水道。",
-          "narration": "接着走过公共水池、街道和排水道。",
-          "displayText": "接着走过公共水池、街道和排水道。"
+          "title": "真照片留下什么线索",
+          "screenText": "这是真实遗址照片。向下凹的空间和周围的石砌池壁，是蓄水设施留下的线索。今天池里没有水，我们仍能观察它的形状。",
+          "displayText": "这是真实遗址照片。向下凹的空间和周围的石砌池壁，是蓄水设施留下的线索。今天池里没有水，我们仍能观察它的形状。",
+          "narration": "这是真实遗址照片。向下凹的空间和周围的石砌池壁，是蓄水设施留下的线索。今天池里没有水，我们仍能观察它的形状。"
         },
-        "assetId": "mohenjo-daro-great-bath-2016-photo",
-        "image": "/content/step-images/mohenjo-daro-great-bath-2016-photo.jpg",
-        "imageAlt": "摩亨佐-达罗大型公共水池2016年实拍",
-        "imageCaption": "2016年拍摄的摩亨佐-达罗大型公共水池，可见砖砌池壁、池底和台阶。",
-        "imageBoundary": "Commons原图2560×1440像素，等比缩至2200×1237像素，未裁切。必须标为现代发掘和保护状态照片；前景围护设施不属于古代。照片可说明现存水结构，不能确定古人每次使用目的，不标成游泳池、神庙或王室浴池。",
+        "assetId": "dholavira-water-reservoir-2017-photo",
+        "image": "/content/step-images/dholavira-water-reservoir-2017-photo.jpg",
+        "studyImage": "/content/study-scenes/study-fa861efdf99a05f7.svg",
+        "studyImageAlt": "真照片留下什么线索",
+        "imageAlt": "朵拉维拉蓄水设施2017年实拍",
+        "imageCaption": "朵拉维拉蓄水设施2017年实拍",
+        "imageBoundary": "现代遗址照片，可观察蓄水设施的空间与池壁。照片中的干燥状态、游客、标牌和保护处理不能搬回哈拉帕时代；古代水管理功能另据考古与遗产资料核对。",
         "audio": {
+          "lead": {
+            "id": "quest-7235c877b1397685",
+            "text": "这是真实遗址照片。向下凹的空间和周围的石砌池壁，是蓄水设施留下的线索。今天池里没有水，我们仍能观察它的形状。哪里是向下凹的池内空间？"
+          },
           "transition": {
-            "id": "quest-d4c11419e03a18fd",
-            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+            "id": "quest-346feac4ae4b25c3",
+            "text": "真照片留下什么线索。"
           },
           "intro": {
-            "id": "quest-9b1434dc36e10244",
-            "text": "接着走过公共水池、街道和排水道。"
-          },
-          "image": {
-            "id": "quest-d4331a0bccdae18d",
-            "text": "点开大图啦。这是摩亨佐-达罗大型公共水池2016年实拍。这张图能帮我们找到：接着走过公共水池、街道和排水道。"
+            "id": "quest-af1cce3cd4d9b9e4",
+            "text": "这是真实遗址照片。向下凹的空间和周围的石砌池壁，是蓄水设施留下的线索。今天池里没有水，我们仍能观察它的形状。"
           },
           "question": {
-            "id": "quest-329a69e64424a884",
-            "text": "故事里的人来到这里以后，做了什么？"
+            "id": "quest-83f620ecf1d5aa8e",
+            "text": "哪里是向下凹的池内空间？"
+          },
+          "image": {
+            "id": "quest-79990555fb883775",
+            "text": "这张是朵拉维拉蓄水设施2017年实拍。这是真实遗址照片。向下凹的空间和周围的石砌池壁，是蓄水设施留下的线索。今天池里没有水，我们仍能观察它的形状。"
           },
           "right": {
-            "id": "quest-d7d6754891bc9f0f",
-            "text": "答对啦！人物、地点和行动连起来了。"
+            "id": "quest-97fa5840e9d8c673",
+            "text": "池内空间和周围池壁一起组成蓄水设施。"
           },
           "wrong": {
-            "id": "quest-66c837d18451416f",
-            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+            "id": "quest-e99aecf3ee9c1115",
+            "text": "看看中间低下去的空间，再找周围池壁。"
           }
         },
-        "options": [
-          {
-            "id": "world-ancient-01-03-ancient-india-journey-1",
-            "label": "摩亨佐-达罗与朵拉，只说了地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-73916c52a2672ace",
-              "text": "摩亨佐-达罗与朵拉，只说了地点"
-            }
-          },
-          {
-            "id": "world-ancient-01-03-ancient-india-journey-2",
-            "label": "接着走过公共水池、街道和排水道。",
-            "correct": true,
-            "audio": {
-              "id": "quest-9b1434dc36e10244",
-              "text": "接着走过公共水池、街道和排水道。"
-            }
-          },
-          {
-            "id": "world-ancient-01-03-ancient-india-journey-3",
-            "label": "印度河城市居民和刻印工，只认出人物",
-            "correct": false,
-            "audio": {
-              "id": "quest-eb45081db9942f00",
-              "text": "印度河城市居民和刻印工，只认出人物"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "第三拍 · 看见变化",
-        "title": "知道也保留不知道",
-        "prompt": "前面的行动带来了什么变化？",
-        "rightNote": "最后看见城市规划，印章文字仍未读懂。",
-        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "phase": "雨水先怎样来到池边",
+        "title": "雨水先怎样来到池边",
+        "prompt": "哪一边演示水沿水道流来？",
+        "rightNote": "窄水道把水引来，蓄水池负责把水留住。",
+        "wrongNote": "这里演示存水；再找水正在流过的水道。",
+        "sourceIds": [
+          "UNESCO-DHOLAVIRA-HARAPPAN-CITY"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听故事，再从画面里找线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "雨水先怎样来到池边",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "窄水道把水引来，蓄水池负责把水留住。",
+          "retry": "这里演示存水；再找水正在流过的水道。",
+          "nextLabel": "想想少雨的时候"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "知道也保留不知道",
-          "screenText": "最后看见城市规划，印章文字仍未读懂。",
-          "narration": "最后看见城市规划，印章文字仍未读懂。",
-          "displayText": "最后看见城市规划，印章文字仍未读懂。"
+          "title": "雨水先怎样来到池边",
+          "screenText": "模型左边，水沿着窄水道向低处流；右边，宽大的池子把水留住。想知道水怎样从远一点的地方流来，先看哪一边？",
+          "displayText": "模型左边，水沿着窄水道向低处流；右边，宽大的池子把水留住。想知道水怎样从远一点的地方流来，先看哪一边？",
+          "narration": "模型左边，水沿着窄水道向低处流；右边，宽大的池子把水留住。想知道水怎样从远一点的地方流来，先看哪一边？"
         },
-        "assetId": "dholavira-water-reservoir-2017-photo",
-        "image": "/content/step-images/dholavira-water-reservoir-2017-photo.jpg",
-        "imageAlt": "朵拉维拉蓄水设施2017年实拍",
-        "imageCaption": "2017年拍摄的朵拉维拉蓄水设施与遗址墙体。",
-        "imageBoundary": "Commons原图6016×4000像素，等比缩至2200×1462像素，未裁切。必须标明现代遗址照；照片中的干燥状态、游客、标牌和保护处理不能搬回哈拉帕时代。用联合国教科文组织资料确认蓄水系统，不仅根据摄影者标题推断古代功能。",
+        "assetId": "dholavira-water-story-v1",
+        "image": "/content/step-images/dholavira-water-story-v1.jpg",
+        "studyImage": "/content/study-scenes/study-cffe019453504f42.svg",
+        "studyImageAlt": "雨水先怎样来到池边",
+        "imageAlt": "朵拉维拉怎样留住水教学插画",
+        "imageCaption": "朵拉维拉怎样留住水教学插画",
+        "imageBoundary": "现代照片记录发掘和保护后的状态，不是古代施工现场。教学模型只说明收集与储存的关系，左右为分别演示的模型，不按遗址测绘复原，也不表示现场只有一条水道、一个池子。洒水壶是今天的演示工具。古代南亚不等于今日印度国界；本章地点恰在今日印度。原印度河、恒河与佛教研究正文保留。",
         "audio": {
+          "lead": {
+            "id": "quest-84f008eb0adae08b",
+            "text": "模型左边，水沿着窄水道向低处流；右边，宽大的池子把水留住。想知道水怎样从远一点的地方流来，先看哪一边？哪一边演示水沿水道流来？"
+          },
           "transition": {
-            "id": "quest-ca472709af5bb16a",
-            "text": "行动发生了。再看看它带来了什么变化。"
+            "id": "quest-9301e47b1dd2f8a1",
+            "text": "雨水先怎样来到池边。"
           },
           "intro": {
-            "id": "quest-21f8c5c59d225301",
-            "text": "最后看见城市规划，印章文字仍未读懂。"
-          },
-          "image": {
-            "id": "quest-9dd8a4e487fb7aed",
-            "text": "点开大图啦。这是朵拉维拉蓄水设施2017年实拍。这张图能帮我们找到：最后看见城市规划，印章文字仍未读懂。"
+            "id": "quest-352847a8e78db9e4",
+            "text": "模型左边，水沿着窄水道向低处流；右边，宽大的池子把水留住。想知道水怎样从远一点的地方流来，先看哪一边？"
           },
           "question": {
-            "id": "quest-2f86a3a6bc009210",
-            "text": "前面的行动带来了什么变化？"
+            "id": "quest-ab1c06532cd1b0ca",
+            "text": "哪一边演示水沿水道流来？"
+          },
+          "image": {
+            "id": "quest-2fccf13e484e7b19",
+            "text": "这张是朵拉维拉怎样留住水教学插画。模型左边，水沿着窄水道向低处流；右边，宽大的池子把水留住。想知道水怎样从远一点的地方流来，先看哪一边？"
           },
           "right": {
-            "id": "quest-53f7633e99fda023",
-            "text": "答对啦！你找到了前因带来的变化。"
+            "id": "quest-652fc812f432f851",
+            "text": "窄水道把水引来，蓄水池负责把水留住。"
           },
           "wrong": {
-            "id": "quest-631e3024b71736c9",
-            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+            "id": "quest-ea9b12338db1ec50",
+            "text": "这里演示存水；再找水正在流过的水道。"
           }
         },
         "options": [
           {
             "id": "world-ancient-01-03-ancient-india-change-1",
-            "label": "最后看见城市规划，印章文字仍未读懂。",
+            "label": "水沿窄水道流来",
             "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "dholavira-water-story-v1",
+              "crop": {
+                "x": 0,
+                "y": 350,
+                "width": 700,
+                "height": 585,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/dholavira-water-story-v1.jpg",
+              "imageAlt": "水沿窄水道流来",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-5d702d23b94b197e.svg",
+            "imageAlt": "水沿窄水道流来",
             "audio": {
-              "id": "quest-21f8c5c59d225301",
-              "text": "最后看见城市规划，印章文字仍未读懂。"
+              "id": "quest-b2db4df2a0107227",
+              "text": "水沿窄水道流来"
             }
           },
           {
             "id": "world-ancient-01-03-ancient-india-change-2",
-            "label": "印度河印章和公共水，还只是故事起点",
+            "label": "水留在宽大的池里",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "dholavira-water-story-v1",
+              "crop": {
+                "x": 800,
+                "y": 350,
+                "width": 700,
+                "height": 585,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/dholavira-water-story-v1.jpg",
+              "imageAlt": "水留在宽大的池里",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-d5fdb4bb60495241.svg",
+            "imageAlt": "水留在宽大的池里",
             "audio": {
-              "id": "quest-67a8d815c37f623a",
-              "text": "印度河印章和公共水，还只是故事起点"
-            }
-          },
-          {
-            "id": "world-ancient-01-03-ancient-india-change-3",
-            "label": "走过公共水池、街道和排，还只是行动经过",
-            "correct": false,
-            "audio": {
-              "id": "quest-99f7a38ca3926c12",
-              "text": "走过公共水池、街道和排，还只是行动经过"
+              "id": "quest-5ecefb4942b339ca",
+              "text": "水留在宽大的池里"
             }
           }
         ]
       },
       {
         "id": "takeaway",
-        "questionKind": "reason-result",
+        "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "把线索连成答案",
-        "title": "把三条线索连成答案",
-        "prompt": "哪句话同时说清了原因和结果？",
-        "rightNote": "遗址让我们看见规划与手艺；文字还没读懂，就要诚实保留不知道。",
-        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
-        "story": {
-          "screenNumber": 6,
-          "title": "把三条线索连成答案",
-          "screenText": "遗址让我们看见规划与手艺；文字还没读懂，就要诚实保留不知道。",
-          "narration": "遗址让我们看见规划与手艺；文字还没读懂，就要诚实保留不知道。",
-          "displayText": "遗址让我们看见规划与手艺；文字还没读懂，就要诚实保留不知道。"
+        "phase": "少雨时，想起先前的水",
+        "title": "少雨时，想起先前的水",
+        "prompt": "哪里能留下先前收集的水？",
+        "rightNote": "蓄水池把先前的水留住，雨少时才有水可用。",
+        "wrongNote": "水道帮助水流来，还要找能留下水的池子。",
+        "sourceIds": [
+          "UNESCO-DHOLAVIRA-HARAPPAN-CITY"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听故事，再从画面里找线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
         },
-        "assetId": "mohenjo-daro-great-bath-2016-photo",
-        "image": "/content/step-images/mohenjo-daro-great-bath-2016-photo.jpg",
-        "imageAlt": "摩亨佐-达罗大型公共水池2016年实拍",
-        "imageCaption": "2016年拍摄的摩亨佐-达罗大型公共水池，可见砖砌池壁、池底和台阶。",
-        "imageBoundary": "Commons原图2560×1440像素，等比缩至2200×1237像素，未裁切。必须标为现代发掘和保护状态照片；前景围护设施不属于古代。照片可说明现存水结构，不能确定古人每次使用目的，不标成游泳池、神庙或王室浴池。",
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "少雨时，想起先前的水",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "蓄水池把先前的水留住，雨少时才有水可用。",
+          "retry": "水道帮助水流来，还要找能留下水的池子。",
+          "nextLabel": "带着发现回家"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "少雨时，想起先前的水",
+          "screenText": "小伙伴问：如果一段时间雨少了，先前收集的水放在哪里？顺着模型想一想：水流来以后，要有地方把它留住，不能只经过就流走。",
+          "displayText": "小伙伴问：如果一段时间雨少了，先前收集的水放在哪里？顺着模型想一想：水流来以后，要有地方把它留住，不能只经过就流走。",
+          "narration": "小伙伴问：如果一段时间雨少了，先前收集的水放在哪里？顺着模型想一想：水流来以后，要有地方把它留住，不能只经过就流走。"
+        },
+        "assetId": "dholavira-water-story-v1",
+        "image": "/content/step-images/dholavira-water-story-v1.jpg",
+        "studyImage": "/content/study-scenes/study-efb8c58ee494ac77.svg",
+        "studyImageAlt": "少雨时，想起先前的水",
+        "imageAlt": "朵拉维拉怎样留住水教学插画",
+        "imageCaption": "朵拉维拉怎样留住水教学插画",
+        "imageBoundary": "现代照片记录发掘和保护后的状态，不是古代施工现场。教学模型只说明收集与储存的关系，左右为分别演示的模型，不按遗址测绘复原，也不表示现场只有一条水道、一个池子。洒水壶是今天的演示工具。古代南亚不等于今日印度国界；本章地点恰在今日印度。原印度河、恒河与佛教研究正文保留。",
         "audio": {
+          "lead": {
+            "id": "quest-696f35a1cda5631d",
+            "text": "小伙伴问：如果一段时间雨少了，先前收集的水放在哪里？顺着模型想一想：水流来以后，要有地方把它留住，不能只经过就流走。哪里能留下先前收集的水？"
+          },
           "transition": {
-            "id": "quest-a7cb01ad27c42767",
-            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+            "id": "quest-650c18087c48a96d",
+            "text": "少雨时，想起先前的水。"
           },
           "intro": {
-            "id": "quest-dab1c9bca5a0fd4e",
-            "text": "遗址让我们看见规划与手艺；文字还没读懂，就要诚实保留不知道。"
-          },
-          "image": {
-            "id": "quest-29258132e9f8b44a",
-            "text": "点开大图啦。这是摩亨佐-达罗大型公共水池2016年实拍。这张图能帮我们找到：遗址让我们看见规划与手艺；文字还没读懂，就要诚实保留不知道。"
+            "id": "quest-9e26d5b8b0072335",
+            "text": "小伙伴问：如果一段时间雨少了，先前收集的水放在哪里？顺着模型想一想：水流来以后，要有地方把它留住，不能只经过就流走。"
           },
           "question": {
-            "id": "quest-1626b51c966f57f7",
-            "text": "哪句话同时说清了原因和结果？"
+            "id": "quest-a55310ba89de35b0",
+            "text": "哪里能留下先前收集的水？"
+          },
+          "image": {
+            "id": "quest-253e4da0475ce6f3",
+            "text": "这张是朵拉维拉怎样留住水教学插画。小伙伴问：如果一段时间雨少了，先前收集的水放在哪里？顺着模型想一想：水流来以后，要有地方把它留住，不能只经过就流走。"
           },
           "right": {
-            "id": "quest-7efb4ef63956e209",
-            "text": "答对啦！原因和结果都说清楚了。"
+            "id": "quest-f2b12a9d86a70ab4",
+            "text": "蓄水池把先前的水留住，雨少时才有水可用。"
           },
           "wrong": {
-            "id": "quest-0cee35f61bffd03b",
-            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+            "id": "quest-b1d7d4ee9a1562a3",
+            "text": "水道帮助水流来，还要找能留下水的池子。"
           }
         },
         "options": [
           {
             "id": "world-ancient-01-03-ancient-india-takeaway-1",
-            "label": "看见城市规划，印章文字仍未读懂。、一枚还读不懂的印，只说了结果",
-            "correct": false,
+            "label": "先前存水的池子",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "dholavira-water-story-v1",
+              "crop": {
+                "x": 800,
+                "y": 350,
+                "width": 700,
+                "height": 585,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/dholavira-water-story-v1.jpg",
+              "imageAlt": "先前存水的池子",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-2bed0b096b6b2f09.svg",
+            "imageAlt": "先前存水的池子",
             "audio": {
-              "id": "quest-e33bca605389e28d",
-              "text": "看见城市规划，印章文字仍未读懂。、一枚还读不懂的印，只说了结果"
+              "id": "quest-7f3dac09b2aee2da",
+              "text": "先前存水的池子"
             }
           },
           {
             "id": "world-ancient-01-03-ancient-india-takeaway-2",
-            "label": "看印度河印章上的图案，却先不猜文字。、印度河印，只说了原因",
+            "label": "把水引来的窄水道",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "dholavira-water-story-v1",
+              "crop": {
+                "x": 0,
+                "y": 350,
+                "width": 700,
+                "height": 585,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/dholavira-water-story-v1.jpg",
+              "imageAlt": "把水引来的窄水道",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-8b1197d5414ae062.svg",
+            "imageAlt": "把水引来的窄水道",
             "audio": {
-              "id": "quest-81a07eb9040d15b1",
-              "text": "看印度河印章上的图案，却先不猜文字。、印度河印，只说了原因"
-            }
-          },
-          {
-            "id": "world-ancient-01-03-ancient-india-takeaway-3",
-            "label": "遗址让我们看见规划与手艺；文字还没读懂，就要诚实保留不知道。",
-            "correct": true,
-            "audio": {
-              "id": "quest-dab1c9bca5a0fd4e",
-              "text": "遗址让我们看见规划与手艺；文字还没读懂，就要诚实保留不知道。"
+              "id": "quest-2f2a18ddf3e7a75e",
+              "text": "把水引来的窄水道"
             }
           }
         ]
@@ -1087,9 +1531,192 @@
       "authorityLevel": "A",
       "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-MEMPHIS-PYRAMIDS",
+      "title": "Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/86/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A-primary",
+      "factUse": "孟菲斯在尼罗河洪泛平原与交通路线的位置、古王国都城和国家组织、从马斯塔巴到金字塔的墓葬发展，以及吉萨金字塔群和相关遗存范围",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-ATHENS-ACROPOLIS",
+      "title": "Acropolis, Athens",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/404/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A-primary",
+      "factUse": "雅典卫城从宗教中心到前5世纪大型营建的时间层、帕特农神庙447—432年建造及其献给雅典娜的用途，以及遗址经历破坏、改造和1975年以来持续修复的现状边界",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "YSMA-PARTHENON-STRUCTURE",
+      "title": "Parthenon",
+      "institution": "Acropolis Restoration Service（希腊文化部卫城修复局）",
+      "url": "https://www.ysma.gr/en/monuments/parthenon/",
+      "type": "official-heritage-architecture-record",
+      "authorityLevel": "A-primary",
+      "factUse": "献给雅典娜的神庙用途；前447—438年主体施工与前432年雕塑完成分开；石柱、山墙、神像与建筑历次改用",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-VIA-APPIA",
+      "title": "Via Appia. Regina Viarum",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1708/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A-primary",
+      "factUse": "阿庇亚大道自前312年开始建设、总网络超过800公里，最初服务军事扩张与领土控制，后来也连接城市、聚落、农业和贸易，并包含桥梁、里程碑和驿站等系统",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "study-1cd6c8bd0038e878",
+      "title": "学习示意：走进古老的南亚城市",
+      "localPath": "reference-assets/focused-quests/study-1cd6c8bd0038e878.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "走进古老的南亚城市",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d26e8b97ea7b676f",
+      "title": "学习示意：几千年前的南亚",
+      "localPath": "reference-assets/focused-quests/study-d26e8b97ea7b676f.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "几千年前的南亚",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-72f1fa67104a66d6",
+      "title": "学习示意：拍照片的年份",
+      "localPath": "reference-assets/focused-quests/study-72f1fa67104a66d6.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "拍照片的年份",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a84a9ed9b43aa9f5",
+      "title": "学习示意：水来时，把它留下",
+      "localPath": "reference-assets/focused-quests/study-a84a9ed9b43aa9f5.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "水来时，把它留下",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-fa861efdf99a05f7",
+      "title": "学习示意：真照片留下什么线索",
+      "localPath": "reference-assets/focused-quests/study-fa861efdf99a05f7.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "真照片留下什么线索",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-cffe019453504f42",
+      "title": "学习示意：雨水先怎样来到池边",
+      "localPath": "reference-assets/focused-quests/study-cffe019453504f42.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "雨水先怎样来到池边",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5d702d23b94b197e",
+      "title": "学习示意：水沿窄水道流来",
+      "localPath": "reference-assets/focused-quests/study-5d702d23b94b197e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "水沿窄水道流来",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d5fdb4bb60495241",
+      "title": "学习示意：水留在宽大的池里",
+      "localPath": "reference-assets/focused-quests/study-d5fdb4bb60495241.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "水留在宽大的池里",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-efb8c58ee494ac77",
+      "title": "学习示意：少雨时，想起先前的水",
+      "localPath": "reference-assets/focused-quests/study-efb8c58ee494ac77.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "少雨时，想起先前的水",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-2bed0b096b6b2f09",
+      "title": "学习示意：先前存水的池子",
+      "localPath": "reference-assets/focused-quests/study-2bed0b096b6b2f09.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "先前存水的池子",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8b1197d5414ae062",
+      "title": "学习示意：把水引来的窄水道",
+      "localPath": "reference-assets/focused-quests/study-8b1197d5414ae062.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "把水引来的窄水道",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "mohenjo-daro-great-bath-2016-photo",
       "title": "摩亨佐-达罗大型公共水池2016年实拍",
@@ -1113,7 +1740,7 @@
       "license": "CC BY-SA 4.0",
       "clearance": "cleared-open-license",
       "caption": "2017年拍摄的朵拉维拉蓄水设施与遗址墙体。",
-      "boundary": "Commons原图6016×4000像素，等比缩至2200×1462像素，未裁切。必须标明现代遗址照；照片中的干燥状态、游客、标牌和保护处理不能搬回哈拉帕时代。用联合国教科文组织资料确认蓄水系统，不仅根据摄影者标题推断古代功能。",
+      "boundary": "现代遗址照片，可观察蓄水设施的空间与池壁。照片中的干燥状态、游客、标牌和保护处理不能搬回哈拉帕时代；古代水管理功能另据考古与遗产资料核对。",
       "childVisibility": "child-ok"
     },
     {
@@ -1154,6 +1781,20 @@
       "caption": "2018年拍摄的蓝毗尼阿育王石柱，画面中同时可见现代围栏、参访者和朝圣场所。",
       "boundary": "Commons原图5184×3456像素，等比缩至2200×1466像素，未裁切。石柱约立于前249年，事实使用以UNESCO遗产记录为准。现代围栏、建筑、旗幡、参访者和今日石柱外观不得冒充孔雀王朝立柱现场；照片也无法读出铭文细节。",
       "childVisibility": "child-ok"
+    },
+    {
+      "id": "dholavira-water-story-v1",
+      "title": "朵拉维拉怎样留住水教学插画",
+      "localPath": "reference-assets/2026-10-28-world-expansion/dholavira-water-story-v1.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/2026-10-28-world-expansion/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "教学新画 · 现代学习情境，非历史照片或精确复原",
+      "boundary": "现代照片记录发掘和保护后的状态，不是古代施工现场。教学模型只说明收集与储存的关系，左右为分别演示的模型，不按遗址测绘复原，也不表示现场只有一条水道、一个池子。洒水壶是今天的演示工具。古代南亚不等于今日印度国界；本章地点恰在今日印度。原印度河、恒河与佛教研究正文保留。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-ancient-01-03-ancient-india.jpg",
@@ -1165,5 +1806,5 @@
     "audio": "script-ready",
     "review": "pending"
   },
-  "contentReadiness": "legacy-draft-not-in-preview"
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

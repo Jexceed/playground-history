@@ -1,0 +1,53 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container 时间地图 · 选择历史站
+				4 container
+					5 text 小小旅行团 · 时间地图
+					6 heading 你想先去哪一站？, Value: 2
+						7 text 你想先去哪一站？
+					8 text 沿着时间河，挑一个想探索的故事。
+					9 button (disabled) 暂停声音
+					10 button 重听说明
+					11 button 回到时间河
+				12 container 选择出发方式
+					13 toggle button 选个历史站, Value: on
+					14 toggle button 挑个主题, Value: off
+				15 container 中国古代史
+					16 container
+						17 heading 中国古代史, Value: 3
+							18 text 中国古代史
+						19 text 11 个历史站
+					20 container 中国古代史历史站
+						21 button 去春秋战国，1个故事
+						22 button 去秦朝，3个故事
+						23 button 去汉朝，5个故事
+						24 button 去三国两晋南北朝，5个故事
+						25 button 去隋朝，2个故事
+						26 button 去唐朝，10个故事
+						27 button 去五代十国，1个故事
+						28 button 去宋朝，7个故事
+						29 button 去元朝，3个故事
+						30 button 去明朝，6个故事
+						31 button 去清朝，3个故事
+				32 container 世界古代史
+					33 container
+						34 heading 世界古代史, Value: 3
+							35 text 世界古代史
+						36 text 1 个历史站
+					37 container 世界古代史历史站
+						38 button 去古代文明，2个故事
+	39 close button
+	40 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	41 minimize button
+	42 text 小小历史旅行团
+43 menu bar
+	44 小小历史旅行团
+	45 File
+	46 Edit
+	47 View
+	48 Window
+	49 Help
+
+The focused UI element is 11 button 回到时间河

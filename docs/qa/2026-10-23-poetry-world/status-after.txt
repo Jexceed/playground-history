@@ -1,0 +1,944 @@
+ M AGENTS.md
+ M app/ChinaHistoryDiagrams.tsx
+ M app/ContentOverview.tsx
+ M app/ObjectWorkbench.tsx
+ M app/history-lab-model.ts
+ M app/history-lab.css
+ M app/home-navigation.css
+ M app/page.tsx
+ M content/PROGRESS.md
+ M content/assets/focused-quests-assets.json
+ M content/assets/history-lab-art-assets.json
+ M content/assets/world-ancient-river-civilizations-assets.json
+ M content/assets/world-ancient-rome-assets.json
+ M content/catalog-world-ancient.json
+ M content/catalog.json
+ M content/chapters/han-palace-lantern.md
+ M content/chapters/huang-daopo-cotton.md
+ M content/chapters/jianzhen-eastward.md
+ M content/chapters/ming-xu-xiake-notebook.md
+ M content/chapters/qin-terracotta.md
+ M content/chapters/sima-qian-shiji.md
+ M content/chapters/song-gunpowder-records.md
+ M content/chapters/tang-changan.md
+ M content/chapters/tang-zhenguan-governance.md
+ M content/chapters/world-ancient-river-civilizations.md
+ M content/chapters/world-ancient-rome.md
+ M content/chapters/zhaozhou-bridge.md
+ M content/child-entry-points.json
+ M content/child-language-glossary.json
+ M content/focused-quests.json
+ M content/learning-map.json
+ M content/play-routes.json
+ M content/preview-scope.json
+ M content/quest-story-paths.json
+ M content/runtime/content-manifest.json
+ M content/runtime/preview-manifest.json
+ M content/runtime/progress-index.json
+ M content/sources.json
+ M content/textbook-connections.json
+ M content/voice-interface-lines.json
+ M content/voice-pronunciations.json
+ M docs/BUILD-PLAN.md
+ M docs/CHANGELOG.md
+ M docs/DESIGN-IMPROVEMENTS.md
+ M docs/DESIGN-SPEC.md
+ M docs/TASK-IMPLEMENTATION-GUIDE.md
+ M docs/TODO.md
+ M docs/qa/2026-10-08-china-expansion/structure-audit.json
+ M eslint.config.mjs
+ M public/audio/voice-lines.json
+ M public/audio/voice/manifest.json
+ D public/audio/voice/zh-CN/xiaoxiao/quest-001fc441f863827b.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-016d515e8539ca02.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-02a231739022804a.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-03d4176d8f4afe0e.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-03e78a7066355d16.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-05da27923beea187.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-05e54d8545ac8259.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-08bc964d2336f226.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-09bbc20137dfb07b.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-0abde5b1b9fe9c0d.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-0b4aab5ac146ba3f.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-0bd8c099e3f70622.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-0e95056ae382355d.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-0f17a002b5986835.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-0f621cd2a88e6a18.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-0fa1a87aa40b3bbc.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-116d0b96dd24104a.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-11ae9009077460b1.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-1266ab15a48a34b1.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-12d62afbddf84e35.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-13326a263b97ee93.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-14e0880ebbd61b56.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-14e4565695aa3c56.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-15eb386108180d0a.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-1b3d0e1aeb24ee56.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-1e2e06b5813883a0.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-1ed86fde55aacdb1.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-1f5e957aaf7ddf5e.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-1f92ca9a04cb2bb4.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-20b6dae19099e31c.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-20db93964f7c42a4.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-21353283813eaa6b.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-22cfc89ee65acb9d.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-23a9b4c23c8610a2.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-2664578f5ab1e3a4.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-26de92a31433eedc.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-27ad39e276fa6ce8.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-293583e49d8f2568.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-2a427e9b0aa18ea2.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-2ba310ee5c65ff1f.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-2db2d22e0fc05dcd.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-2db4066a0634bac2.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-2dd38d01fd03232c.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-2e8283645f9b8c28.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-2f6fae32d8adc098.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-2fe9e04444aee183.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-31a586df06130782.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-31c781a861d75731.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-3219c95e964f7390.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-35f5880b116d4473.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-36fa6dcd9c4d27ad.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-37a2b38884e2e9f7.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-3b139f23bde0e933.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-3b8f00177dfe01e4.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-3c117c8c5cedbde5.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-3f1c12af9e24c104.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-400be1c1d123d5ab.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-4127edd0bc5129db.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-41d879c6a997f2ad.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-43e6582afd5ea03e.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-4495cd17a623f727.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-478f116766ec9ee5.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-49129431d503e4ea.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-4a51d4825d2d5d11.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-4be616a2595b7c9d.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-4ec85a11383b1611.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-4ef3d25dfd18cbd1.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-4ef49effcc26cf42.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-4f3676e2508cebad.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-4ffbf1a77bfff092.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-50b2f84a0b77791e.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-51f7a290c90fce92.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-5207b86c1c1a4722.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-537e04f4ffbcac62.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-53bd4e0679fe6077.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-54ba6d5c3c6bba27.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-55fa34ff2b040723.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-56deb4b8375dceb0.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-5777f7074adaa27b.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-57fedbd83c19e51f.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-5885dad457e2774e.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-5be7fb0fd23b1b3c.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-5d371864ef5088b3.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-5d60ed88203dfdc4.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-5d6af6a16212ee1b.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-5e22179eae4294f3.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-5e6e56945875eebb.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-5eabfe45610467d9.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-5fa4a97ea39d3225.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-61c234e4eee6edb5.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-62c18211eef0f7d4.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-62dadd80db27d136.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-682b23f3402d99e4.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-69ea8000601ed820.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-6c10ed9a793bfc29.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-6c1b80afe29f0b3f.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-7083038f22378b6e.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-724e381c1197612b.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-7364278cd9486cc3.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-73c04cd6906dcbe0.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-740e827cfab4d6e8.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-768a405f7c46a08e.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-77ed1424fa4e6734.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-792325e892863dbf.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-7b107f1a78036454.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-7b5491c14ffba00e.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-7d9ca6d585db0b38.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-7e485074c3480822.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-814f888c1f280e3c.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-81c4032d3774950f.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-81da7ef51d5e643c.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-83cdabcfb8e96569.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-85cdb28ef21cd704.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-867e53272184f2a9.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-878217d97c4ad125.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-899b373a43851fe9.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-89be60686814d7e6.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-8a37c4c89d10e001.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-8d2f83b45138413d.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-8d828ab8950fcb50.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-8dba25c64dd1f40f.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-8dbe491db40e7eda.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-8e9105b71db7546d.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-8e9c68905a65aceb.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-9093f1b061f4c20a.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-92ae833a0040f1a0.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-9326f62f6a974163.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-9360713914aab9d3.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-940c6a2b005d3630.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-95a1a73aca101acf.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-95c555334ea41626.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-95d04fdbd4474ef0.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-96830ccf0269c955.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-9706b9e8fc16d01b.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-97238304ed9e1380.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-992e1ac0ea4f21e5.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-994ef27acf470e3d.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-9af77c569238a641.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-9b1fae58b3d253fc.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-9bde48a1cecec30c.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-9cfc58fb66b33009.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-9eac87a738292252.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-9f2d62f1e17d8f38.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-a02b54ff030ebce8.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-a148a5a6d297ed8c.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-a2dc274f5a1c1326.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-a42cdf2dbeefaacc.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-a53c235ad4b12601.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-a6a5317a688f9f56.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-a78ccd89a19dfcb1.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-a883e36140e3d0de.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-a8a451606effa3ac.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-ac16e9c9ff8a9666.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-ae5dc62843d2a265.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-b0ef9dafbc12daf4.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-b12ce834c27e512b.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-b25ddba3f04524ed.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-b60bf9630042a222.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-b783228707a90cac.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-b9dc8297a53a2b77.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-bbb8513c4a3135fc.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-c0942ac8b10085be.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-c0c6226042371cc7.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-c189e7de8b1d1217.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-c3d1ae7138129074.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-c3e3daebb86e61c0.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-c3ef987782218be8.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-c68a8a8cb4b8abcf.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-c69086d039ff90f6.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-c6c245f29335f360.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-c830f3b6498c954c.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-cccc5d044cb2d7de.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-d05ca9386280281e.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-d270bebbe14e2b5e.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-d2921ca0ffa7bf90.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-d2ec78461369a469.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-d3f6f443ca2b5990.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-d518cc9bb33919a9.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-d5cee2026050b4c7.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-d6222d091be82899.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-d68f5b14b09eabba.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-d6e62353ac9a66fc.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-d7cf4132c9e0dd82.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-db78448b86d4007a.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-dedb75c04fe223ed.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-deeb47aebb2ba634.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-df23084d03b8ea1c.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-df4419314470e175.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-e0f982e1854f84ad.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-e3d4d13e6aac945e.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-e4058dd82314aa81.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-e4f69de037205167.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-e715d118d5bce03f.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-e80801c05eda6189.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-e936f06090d19d4f.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-ea0fe2d5165ef4be.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-ea606b87f5f245f9.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-ea679f5a66a23fd2.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-eb19ad2b61b97db5.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-f1c8cb3fdc72d05c.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-f240e86b7da121da.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-f29e20059604cbe0.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-f43e90d1c431526b.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-f9d85b12dab38ff3.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-fa3462c8ec54c109.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-fa51012c4c887841.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-fa6e69595b88652f.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-fabed1681e48a965.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-fb3ab7b9480d27d9.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-fb6d8f785e52c342.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-fd57b23a5f15b57a.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-fdbcbd47a5d1a1bb.mp3
+ D public/audio/voice/zh-CN/xiaoxiao/quest-fe02057bfe6627cf.mp3
+ M public/audio/voice/zh-CN/xiaoxiao/river-intro.mp3
+ M public/audio/voice/zh-CN/xiaoxiao/route-picker-intro.mp3
+ M public/content/chapters/cn-ancient-02-02-oracle-bronze.json
+ M public/content/chapters/cn-ancient-02-03-zhou-order.json
+ M public/content/chapters/cn-ancient-03-02-reforms-unification.json
+ M public/content/chapters/cn-ancient-03-03-hundred-schools.json
+ M public/content/chapters/cn-ancient-04-02-han-governance.json
+ M public/content/chapters/cn-ancient-04-06-han-palace-lantern.json
+ M public/content/chapters/cn-ancient-04-07-sima-qian-shiji.json
+ M public/content/chapters/cn-ancient-04-08-qin-terracotta.json
+ M public/content/chapters/cn-ancient-06-02-tang-governance.json
+ M public/content/chapters/cn-ancient-06-03-tang-changan.json
+ M public/content/chapters/cn-ancient-06-04-tang-cultural-exchange.json
+ M public/content/chapters/cn-ancient-06-06-yan-zhenqing-draft.json
+ M public/content/chapters/cn-ancient-06-07-li-bai-jingyesi.json
+ M public/content/chapters/cn-ancient-06-08-zhenguan-governance.json
+ M public/content/chapters/cn-ancient-06-09-zhaozhou-bridge.json
+ M public/content/chapters/cn-ancient-06-10-jianzhen-eastward.json
+ M public/content/chapters/cn-ancient-06-11-du-fu-spring-rain.json
+ M public/content/chapters/cn-ancient-07-05-yuan-exchange.json
+ M public/content/chapters/cn-ancient-07-06-su-shi-moon.json
+ M public/content/chapters/cn-ancient-07-08-song-gunpowder-records.json
+ M public/content/chapters/cn-ancient-07-09-li-qingzhao-rumengling.json
+ M public/content/chapters/cn-ancient-07-10-huang-daopo-cotton.json
+ M public/content/chapters/cn-ancient-08-03-frontiers-unity.json
+ M public/content/chapters/cn-ancient-08-08-xu-xiake-notebook.json
+ M public/content/chapters/cn-ancient-08-09-zheng-banqiao-bamboo.json
+ M public/content/chapters/cn-contemporary-01-01-founding.json
+ M public/content/chapters/cn-contemporary-01-02-consolidation.json
+ M public/content/chapters/cn-contemporary-01-03-industrialization-transition.json
+ M public/content/chapters/cn-contemporary-02-01-exploration-achievements-setbacks.json
+ M public/content/chapters/cn-contemporary-02-02-science-diplomacy.json
+ M public/content/chapters/cn-contemporary-03-01-reform-begins.json
+ M public/content/chapters/cn-contemporary-03-02-reform-daily-life.json
+ M public/content/chapters/cn-contemporary-03-03-chinese-characteristics-reunification.json
+ M public/content/chapters/cn-contemporary-04-01-new-era-development.json
+ M public/content/chapters/cn-contemporary-04-02-china-and-world-today.json
+ M public/content/chapters/cn-modern-01-01-opium-war.json
+ M public/content/chapters/cn-modern-01-02-deeper-crisis.json
+ M public/content/chapters/cn-modern-01-03-self-strengthening-frontier.json
+ M public/content/chapters/cn-modern-01-04-reform-and-national-crisis.json
+ M public/content/chapters/cn-modern-02-01-revolution-1911.json
+ M public/content/chapters/cn-modern-02-02-early-republic.json
+ M public/content/chapters/cn-modern-03-01-everyday-modernization.json
+ M public/content/chapters/cn-modern-04-01-new-culture-may-fourth.json
+ M public/content/chapters/cn-modern-04-02-cpc-national-revolution.json
+ M public/content/chapters/cn-modern-04-03-new-revolutionary-road.json
+ M public/content/chapters/cn-modern-05-01-from-local-to-national-war.json
+ M public/content/chapters/cn-modern-05-02-whole-nation-resistance.json
+ M public/content/chapters/cn-modern-06-01-peace-talks-and-civil-war.json
+ M public/content/chapters/cn-modern-06-02-victory-1949.json
+ M public/content/chapters/cross-01-hero-biography.json
+ M public/content/chapters/cross-02-money-history.json
+ M public/content/chapters/cross-03-cultural-exchange.json
+ M public/content/chapters/cross-04-transport-history.json
+ M public/content/chapters/cross-05-environment-development.json
+ M public/content/chapters/cross-06-calligraphy-journey.json
+ M public/content/chapters/world-ancient-01-01-human-farming.json
+ M public/content/chapters/world-ancient-01-02-river-civilizations.json
+ M public/content/chapters/world-ancient-01-03-ancient-india.json
+ M public/content/chapters/world-ancient-01-04-greek-city-states.json
+ M public/content/chapters/world-ancient-01-05-rome-empire.json
+ M public/content/chapters/world-ancient-02-01-medieval-europe.json
+ M public/content/chapters/world-ancient-02-02-byzantine.json
+ M public/content/chapters/world-ancient-02-03-islamic-world.json
+ M public/content/chapters/world-ancient-02-04-medieval-japan.json
+ M public/content/chapters/world-ancient-02-05-africa-americas.json
+ M public/content/chapters/world-contemporary-01-01-first-world-war.json
+ M public/content/chapters/world-contemporary-01-02-russian-revolution.json
+ M public/content/chapters/world-contemporary-02-01-interwar-order-socialism.json
+ M public/content/chapters/world-contemporary-02-02-depression-fascism-resistance.json
+ M public/content/chapters/world-contemporary-03-01-second-world-war.json
+ M public/content/chapters/world-contemporary-04-01-cold-war.json
+ M public/content/chapters/world-contemporary-04-02-postwar-development.json
+ M public/content/chapters/world-contemporary-04-03-decolonization.json
+ M public/content/chapters/world-contemporary-05-01-globalization-polarization.json
+ M public/content/chapters/world-contemporary-05-02-peace-development.json
+ M public/content/chapters/world-modern-01-01-workshops-renaissance.json
+ M public/content/chapters/world-modern-02-01-ocean-routes.json
+ M public/content/chapters/world-modern-03-01-english-revolution.json
+ M public/content/chapters/world-modern-03-02-american-french-revolutions.json
+ M public/content/chapters/world-modern-04-01-first-industrial-revolution.json
+ M public/content/chapters/world-modern-04-02-workers-marxism.json
+ M public/content/chapters/world-modern-05-01-colonial-resistance.json
+ M public/content/chapters/world-modern-05-02-capitalist-expansion.json
+ M public/content/chapters/world-modern-06-01-second-industrial-revolution.json
+ M public/content/chapters/world-modern-06-02-science-art.json
+ M public/content/manifest.json
+ M public/content/preview-manifest.json
+ D public/content/step-images/augustus-aureus-met-obverse-image.jpg
+ M public/content/step-images/bamboo-choice-scenes-v2.jpg
+ M public/content/step-images/bridge-choice-scenes-v2.jpg
+ M public/content/step-images/confucius-borrowing-v3.jpg
+ M public/content/step-images/confucius-listening-v3.jpg
+ M public/content/step-images/confucius-reciprocity-choices-v3.jpg
+ M public/content/step-images/cotton-choice-scenes-v2.jpg
+ M public/content/step-images/dunhuang-deer-story-cards-v1.jpg
+ D public/content/step-images/hammurabi-stele-2011-photo.jpg
+ M public/content/step-images/han-changxin-lamp.jpg
+ M public/content/step-images/han-lamp-sleeve-side.jpg
+ D public/content/step-images/han-market-story-v1.jpg
+ M public/content/step-images/han-paper-materials-v3.jpg
+ M public/content/step-images/inventions-choice-scenes-v2.jpg
+ M public/content/step-images/jianzhen-choice-scenes-v2.jpg
+ M public/content/step-images/jin-jiangnan-fields-kiln-v1.jpg
+ M public/content/step-images/jin-migration-neighbours-v1.jpg
+ M public/content/step-images/lotus-choice-scenes-v2.jpg
+ M public/content/step-images/ming-court-work-v1.jpg
+ M public/content/step-images/ming-craft-observation-v1.jpg
+ M public/content/step-images/ming-novel-bookshop-v1.jpg
+ M public/content/step-images/ming-voyage-talk-v1.jpg
+ D public/content/step-images/proto-cuneiform-grain-tablet-met-photo.jpg
+ M public/content/step-images/qian-waterworks-v1.jpg
+ M public/content/step-images/qin-choice-scenes-v2.jpg
+ M public/content/step-images/qin-wall-guard-story-v1.jpg
+ M public/content/step-images/qin-wall-teamwork-story-v1.jpg
+ M public/content/step-images/rain-choice-scenes-v2.jpg
+ D public/content/step-images/roman-forum-panorama-2015-photo.jpg
+ M public/content/step-images/shiji-choice-scenes-v2.jpg
+ M public/content/step-images/silk-post-messages-v2.jpg
+ M public/content/step-images/silk-post-story-v1.jpg
+ M public/content/step-images/song-city-work-v1.jpg
+ M public/content/step-images/sui-canal-workers-v1.jpg
+ M public/content/step-images/tang-draft-learning-v1.jpg
+ M public/content/step-images/tang-music-actions-v2.jpg
+ M public/content/step-images/tang-translation-work-v1.jpg
+ M public/content/step-images/tang-zhenguan-field-work-v1.jpg
+ M public/content/step-images/wei-luoyang-reform-v1.jpg
+ M public/content/step-images/yuan-cotton-sharing-v1.jpg
+ M public/content/step-images/yuan-local-affairs-v1.jpg
+ D public/content/study-scenes/study-09db44511022684a.svg
+ D public/content/study-scenes/study-1dd65695a86da279.svg
+ D public/content/study-scenes/study-349b4adb2aa128fb.svg
+ D public/content/study-scenes/study-3e259ca532797abb.svg
+ D public/content/study-scenes/study-53c6f2b7b9766c5d.svg
+ D public/content/study-scenes/study-744948da0410a6d5.svg
+ D public/content/study-scenes/study-ae0ab01e8185b015.svg
+ D public/content/study-scenes/study-d2f3eb1a59e0a0ab.svg
+ D public/content/study-scenes/study-e109c7b2437e20a2.svg
+ D public/content/study-scenes/study-e1c9cbc88c4b9a1e.svg
+ M public/content/thumbnails/world-ancient-01-05-rome-empire.jpg
+ M reference-assets/focused-quests/ATTRIBUTION.md
+ M reference-assets/history-lab-art/ATTRIBUTION.md
+ M scripts/audit-gameplay-coherence.mjs
+ M scripts/build-content-pack.mjs
+ M scripts/generate-content-thumbnails.mjs
+ M scripts/lib/desktop-assets.mjs
+ M scripts/prepare-focused-quests.mjs
+ M scripts/validate-content.mjs
+ M src-tauri/tauri.conf.json
+ M tests/china-expansion.test.mjs
+ M tests/desktop.test.mjs
+ M tests/learning-content.test.mjs
+ M tests/playability.test.mjs
+ M tests/quest-navigation.test.mjs
+ M tests/rendered-html.test.mjs
+ M tests/sui-onward.test.mjs
+ M tests/tang-four.test.mjs
+ M tests/workbench.test.mjs
+ M "\346\234\254\346\234\272\350\257\225\347\216\251\350\257\264\346\230\216.md"
+?? .qa-tmp/
+?? app/scene-image-model.ts
+?? app/station-groups.ts
+?? content/assets/choice-art-fix-assets.json
+?? content/assets/history-depth-assets.json
+?? content/assets/poetry-world-poetry-assets.json
+?? content/assets/poetry-world-world-assets.json
+?? content/chapters/meng-haoran-chunxiao.md
+?? content/chapters/wang-zhihuan-tower.md
+?? docs/qa/2026-10-16-art-audit/
+?? docs/qa/2026-10-16-bridge-redraw/
+?? docs/qa/2026-10-16-choice-art-fix/
+?? docs/qa/2026-10-19-selection-contrast/assets.log
+?? docs/qa/2026-10-19-selection-contrast/before/
+?? docs/qa/2026-10-19-selection-contrast/cards-before.png
+?? docs/qa/2026-10-19-selection-contrast/content-hashes-before.json
+?? docs/qa/2026-10-19-selection-contrast/content-pack.log
+?? docs/qa/2026-10-19-selection-contrast/contrast.json
+?? docs/qa/2026-10-19-selection-contrast/index-typecheck.log
+?? docs/qa/2026-10-19-selection-contrast/lint-final.log
+?? docs/qa/2026-10-19-selection-contrast/lint.log
+?? docs/qa/2026-10-19-selection-contrast/mac-install-final.log
+?? docs/qa/2026-10-19-selection-contrast/mac-install.log
+?? docs/qa/2026-10-19-selection-contrast/status-after.txt
+?? docs/qa/2026-10-19-selection-contrast/storage-after.json
+?? docs/qa/2026-10-19-selection-contrast/storage-before.json
+?? docs/qa/2026-10-19-selection-contrast/task-only.patch
+?? docs/qa/2026-10-19-selection-contrast/test-final.log
+?? docs/qa/2026-10-19-selection-contrast/test.log
+?? docs/qa/2026-10-19-selection-contrast/typecheck-final.log
+?? docs/qa/2026-10-19-selection-contrast/typecheck.log
+?? docs/qa/2026-10-20-selection-state/app-before-ax.txt
+?? docs/qa/2026-10-20-selection-state/before-reopen-ax.txt
+?? docs/qa/2026-10-20-selection-state/before/
+?? docs/qa/2026-10-20-selection-state/content-hashes-before.json
+?? docs/qa/2026-10-20-selection-state/delivered-ax.txt
+?? docs/qa/2026-10-20-selection-state/intermediate-user-selection.png
+?? docs/qa/2026-10-20-selection-state/postlaunch-default-window.png
+?? docs/qa/2026-10-20-selection-state/restore-beginning.png
+?? docs/qa/2026-10-20-selection-state/restore-time.png
+?? docs/qa/2026-10-20-selection-state/status-after.txt
+?? docs/qa/2026-10-20-selection-state/storage-after.json
+?? docs/qa/2026-10-20-selection-state/storage-before.json
+?? docs/qa/2026-10-20-selection-state/task-only.patch
+?? docs/qa/2026-10-20-selection-state/window-restored.png
+?? docs/qa/2026-10-23-history-depth/
+?? docs/qa/2026-10-23-history-facts-review/
+?? docs/qa/2026-10-23-poetry-world/
+?? public/audio/voice/zh-CN/xiaoxiao/quest-00500edb15e1b374.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-012ee1aadf6e0e26.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-01a7ce49a508c49c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-01bb3fc1aac85125.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-01f80b99b6ecf25d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-01fae04db02b19ec.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-0244e6eb191dc823.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-04822afa38901019.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-052577c6570932fc.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-0566ace576769a97.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-06842243bff86b73.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-068af0e0ea7d6f33.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-072d324155b0b0c4.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-07e3446323629f7f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-087b5726df8642d5.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-0983adf13209a003.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-0b2300c5ee5e80be.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-0b3ae50a018b11cb.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-0c07feba58e27dc6.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-0d25371f605e3485.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-0db4533e182a5e39.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-0e724c192cf5d119.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-0fc2e2f34236b1e5.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-10080c5d4bed392d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-10e041ddd81d6286.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-10e6b0a9e0002c36.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-110ca0f3771c00be.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-1125e9c12fd05716.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-117bf0669f68bb05.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-124b9dd0fdbd9025.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-133d18491f2c5cc3.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-13a354dc695b6b37.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-13d5393c23651763.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-15411dc94e55aab8.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-154b168d2a08afe6.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-1599cae68b5f6e7d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-16c97fc593a5a29b.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-1723e578eaa5fc09.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-176a4cf4789d885b.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-17f3ad9c70643630.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-1848843083f1819f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-18c9d14a36b7ceb7.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-1909c21ce4917db8.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-1915ca20df814398.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-19f32b23f2ab11fa.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-1a880e3c4eebf3ec.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-1bb79060306c0337.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-1e7d5143337c4028.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-1e84a75b280c013f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-1e8ed0b787d347ec.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-1f385262950b1611.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-1f57363dfacfeec9.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-2046b1d69d51907b.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-21772b6db752b1ff.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-2256ac9f5dddf18c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-2257f591f6f842d8.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-22e51abe04a6d497.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-231af3bd1567d4dd.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-231fd28236e47081.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-2397927ee3149f11.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-281369484df66c37.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-2923e1c77b847ea6.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-297621ebda804431.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-29ca0b011d8bc913.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-2b044df24f70388a.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-2b57bc5dc55999f1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-2b9d4c7c3b9ee1bf.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-2c07b782a9ce3d77.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-2d68ef4e9c6f2442.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-2fa4ea48ac6cb807.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3079330cfa3cbe31.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3086243e55f39342.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3122d62e950986a1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3126e57daaea5fc9.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-31d00c81995d55ee.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-340be3fd7949748c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-341fbc6db30a66f3.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3432a6fdd9825f1d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3448dfc626ee0e05.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-34a805614d46ee2e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-34f3d5f113641092.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-35f7185a9959ce67.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-36831048db065c5e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3710a7f067acd6b0.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-374fb85824fbca82.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3759d7173e92a3ce.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-386b728308868a45.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-390d4474e46498da.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3943c2d1512024e1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-399bb8673246b423.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3a138aa56da1ca17.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3a6c30f01b57fe2f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3b51aa0f8383cbf1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3b601c4b7ab312ee.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3c2954f3280ebb7d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3d773e9ecf047a7a.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3e558affa8457ad3.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3eb65776fc113020.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3f9a9601cd5a985d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3fc6ce77bc5c220d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-3ffb661a3d0b3af1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-40e22714b0dfb201.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-41621342980159fb.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-421310c4f1b23068.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-42ae6b8321547ba1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-436f6fb1feaaa513.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-43cfb3b8d53d6bd1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-4496a87d08de9df0.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-46975607e74e5bc0.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-47bc9d44a97f83ac.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-481360a973053944.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-4893809157a8eee6.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-49a8c3b47e3b36fd.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-4a12dee7fa1a5bad.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-4be858acd9be0a77.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-4c4ab4266f810528.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-4dbcff8f8a6bc63d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-4deab4a8ad213770.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-4e1e5f38976b6257.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-4e7ec41e7c1a6cb8.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-4ebe875292d89052.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-4fa1bfb66573a568.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-50563bbcb6695c4c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-50718c3a636658ab.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-51543322b12ecb6c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-5218f899d14aebe1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-52ed71257c7a8eba.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-53ddec242193a214.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-551792dfc308b8d5.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-5688e4c626c3a429.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-56c0794a398d35bf.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-5732a4a7e7d7916c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-577e69016f880ce1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-57f6b0a3dbeef191.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-5970aefc344e6a4b.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-5c0fc91cc910af5b.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-5c56f5dd6cafc88f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-5e28a8655fea362c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-5ebf080ec61b3874.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-5ebfc22db3b17d33.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-5fa2351141ecc80f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-5fa93618601e787b.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-6191423776050be8.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-62bcd522ac051f26.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-63a4a59799a07e31.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-655b277ccffe1926.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-675eddfb9421e647.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-6783f231240b2a81.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-67bdedc0dff0f0fb.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-67e2fc303574e0ce.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-693a2d516626bc5a.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-6a8943aaaa10e7ca.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-6ae88bbd84d0ad1f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-6af40b9396cf77a1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-6bd3d2f3f44681e1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-6d639f45110fad62.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-6fdf8a05c5356a71.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-71ed0cd6841bacf7.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-731f562e653e437b.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-738928f4052283cd.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-740b93e973046a8c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-74fa5fefa6ab8a1c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-75c6b3d0b9f6e5e1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-75d2a1fad5456e1d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-75ebd2aab82aed56.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-76253650841179b0.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-7673c2645fc269a4.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-77373a43c5f90a8f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-78d9b35c620db96d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-79691363713e28f4.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-7a305fe11bd04c0a.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-7b8000b72af4c9d4.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-7c055fc6bfb41646.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-7c2a740dba97b6d8.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-7c9a268d7c1313fa.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-7cfb24a031234c4c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-7dd5d8affb02569f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-7e79800da95c0cc4.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-7fe86a83b4044739.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-80bbf3fcc8318de8.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-81bb2c9e7db67767.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-81bcdf95298fdc5e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-8285755cae30621c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-83771f96f7122398.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-845194f1f1a5c00f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-8546ac6fda62cfc0.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-855995ca9ea4b06b.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-8631d2a24bead90a.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-866e65f746b1af35.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-867c2d3e62cb7dd7.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-87229412465249cb.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-8841c22abf77ef28.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-884dd3f9d057d33d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-884e2a5c70263d82.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-88d05cadebb0a1c7.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-88e281fd26ff4b80.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-89fab937247fb013.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-8af8e5f4f759b60d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-8b067e96d2f4db85.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-8bb37ab075cbaf57.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-8c5111df083e44c1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-8d3c3cd80f8c7870.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-8d7b8207be5577fe.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-8dd03b9c8d1dfc22.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-8e8ecb79360f5172.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-8f2f36057564bafd.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-90f2495ef04763f9.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-91632cb35bc548fd.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-91bd1c8ba42fdab0.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-920cfcb6d9d4dc2a.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-9364e1f76512c4ce.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-94bd0fb340836bd7.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-95112f6cfed95a9f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-952a9cbcbf4d2114.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-9540b92779143074.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-96314a58cdd86631.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-966d03fc2ca5490c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-96925e087d359703.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-973fe9cf874fbf2e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-978891e6147ddc7c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-9877aa726935685e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-99f1c8ce334b9c50.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-9c51d76a7fd48a32.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-9c95391338f8b609.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-9c9b0aafb2ac6362.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-9cdab4127c900aad.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-9d17abf6aee5d76c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-9dbeb15f60983bdb.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-9e11f456bffac3a1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-9e4c84d6eba39675.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-9f170521ca69680c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-9f614e73b15d126f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-a02bc11648710606.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-a0e1564c26f9f6bc.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-a197b40f8dc0cdf3.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-a251d9b8125c82b0.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-a295938d0456496e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-a408a5e8cf4d3600.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-a50f3e773d81e300.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-a58338080cb8cf22.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-a6937e919f420861.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-a6a94969eeb823be.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-a7a020b9991118b2.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-a80c119be277f6fc.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-a9fc5eaa4acf7ba0.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-aa466e9982d9b975.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-aa4bd45415b18606.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-aa7f6dfc30209f2e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-aa911e42104b992e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-aaf613edb79b3795.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-ab55f70b4fc33a35.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-abd439d5469276ad.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-ac9718a1ecbc1417.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-acd835bbcbfb4d6f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-ace43c466c948d00.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-ad26c4d0f6839ce0.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-ad77be3a9f95ad7b.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-ad7dc814bc042e8a.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-adcc373d5e29cf74.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-ae0d3c5b47ba5442.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-ae5064f2bae5b58c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-af370bcf9162d5ff.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-af952899fcda5ed7.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-aff5c121b1a14f98.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b0813742e3bf02e6.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b0e4ba87aec244bb.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b16e6f40588115ab.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b1f8d8067cae24ca.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b28ba1a0c58ecce6.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b2aa0014c26e878a.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b3c40bb034030d5d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b44ec3af44412d2f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b4d0e8f4f9fe1a2c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b4dab0942fb53016.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b734fe97baf0e2a5.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b7de6137d49c243d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b7f38092c489d59c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b8935ebe0591ecc7.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-b958d78d2745ac20.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-ba98124f48b8d807.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-bc62e8b768586037.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-bd2cde36b5609df1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-bd76c5e63bafa513.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-be728cc75efb274a.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-befeafb3512631cc.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-c0265660d548885f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-c047c93bb0ede3c1.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-c11886f24f15692e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-c27289297def711c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-c2c2bc29d40c2c63.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-c326b9b9e5256dcf.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-c4689fc6b7475b19.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-c55058e08f039566.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-c78184b08cf7dc2f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-c96eea49093d2bdb.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-cb6854adc8df760c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-cc924ad767f1923c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-cc9a395b18b20857.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-cd05e695d4106581.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-cd42611e7c464433.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-cd8d17b2d355efa4.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-cda8781e5b28e860.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-cdea071716233cf2.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-ce176cde31fe3d4a.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-cf3f18125fefd775.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d0d6da59d6acd655.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d16687132a2ce8d3.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d1f1c2b34708fa70.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d1f790807a368d73.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d2028e63c6282807.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d348362f85f8e75c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d39e82f203b90ebb.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d432787bf776d28c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d4cb2cd262371360.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d63992aa39718e0c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d6c5ea3c82fbf603.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d799c96ccd96199c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d7c9413821785105.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d800aae797b9687c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d87882856c284bcf.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d96f55f10d988129.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d9c9fbe1ddfb0fc0.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-d9cee7e03ebfc979.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-da13a9bfa01f995e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-da185d3a36de2324.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-dbdbf64b7947ff5d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-dbe59999ca201f75.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-dc7a4b534214f36b.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-ddb84f1d61596c8c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-de7b3b65c32709b3.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-dfdc2a8ce216d632.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e01c26467e7c5514.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e10c5a5668b8a662.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e139c98bb583018e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e15beec580dd91ca.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e1646b1c9372fa38.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e2a975492ffd7a3a.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e36597f8d296ff9a.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e38ef7eac1beceac.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e3fc22cd1c31a33a.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e436283dbc78fdc2.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e5904c2c00e9129e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e60367d28bfc2e2f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e96fab8519947eb0.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e9a571443f5826b2.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-e9ca13c1c133ef6f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-ebe751705afc388c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f00e6197da87604d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f089d9f235427f4c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f0bf7d22399e2b5a.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f0dab4c27cb6b9ff.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f0f852d4a4e2a2db.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f0fb141b27558c83.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f100f42bba07a56d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f105fedfd4570269.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f2484c005224c6f9.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f29b35ecd5b16c4e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f3bff74af673d853.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f4079010eca9c77e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f4304badd017937b.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f4436126dc9debe3.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f4af0e5176e8f474.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f55af3b65130808c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f56e924b1fa8beb2.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f5c55581fa5417a3.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f7752886b78b48ea.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f7e6ee20d1d16157.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f7f5244aec1792ca.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f81b573838038549.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f82e69b64eb16ba0.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f88d0c78873b7203.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f94988243ccac3ca.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-f9d1bf82e3f9f706.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-fa4d3be4f9233679.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-fab9058d18a9fcbc.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-fc26da8fbb734d93.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-fc4b45e171a7411e.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-fc5c689c177e5a6f.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-fccc5272fd5abfd6.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-fcfedf832390c00d.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-fdb724319b21d9aa.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-fe3933e923d0713c.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-fe936d929822d205.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-ff05afbb915dce70.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/quest-ff56dcefb0ba3726.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/route-poetry.mp3
+?? public/audio/voice/zh-CN/xiaoxiao/route-world.mp3
+?? public/content/chapters/cn-ancient-06-12-meng-haoran-chunxiao.json
+?? public/content/chapters/cn-ancient-06-13-wang-zhihuan-tower.json
+?? public/content/step-images/chengde-explain-record-v3.jpg
+?? public/content/step-images/chunxiao-story-v1.jpg
+?? public/content/step-images/dufu-leaves-lantern-v3.jpg
+?? public/content/step-images/egypt-pyramid-choices-v1.jpg
+?? public/content/step-images/egypt-pyramid-museum-v1.jpg
+?? public/content/step-images/guanque-tower-2020.jpg
+?? public/content/step-images/han-weigh-string-v3.jpg
+?? public/content/step-images/libai-home-moon-v3.jpg
+?? public/content/step-images/meng-haoran-rubbing-princeton.jpg
+?? public/content/step-images/qin-painted-archer-detail-2011.jpg
+?? public/content/step-images/rome-road-choices-v1.jpg
+?? public/content/step-images/rome-road-museum-v1.jpg
+?? public/content/step-images/shiji-evidence-choices-v1.jpg
+?? public/content/step-images/sushi-moon-letter-v3.jpg
+?? public/content/step-images/tower-story-v1.jpg
+?? public/content/step-images/xiake-check-choices-v1.jpg
+?? public/content/step-images/yuan-depart-feed-v3.jpg
+?? public/content/step-images/zhenguan-farming-choices-v1.jpg
+?? public/content/study-scenes/study-044036d3d6b0c8f1.svg
+?? public/content/study-scenes/study-0c84bfe060a32eaf.svg
+?? public/content/study-scenes/study-166845f0c3fa32e2.svg
+?? public/content/study-scenes/study-1b3e7fa38a2b9cb1.svg
+?? public/content/study-scenes/study-1c3152f008d0d199.svg
+?? public/content/study-scenes/study-1efda1552592c86c.svg
+?? public/content/study-scenes/study-1f1ff4d41e2f9a3f.svg
+?? public/content/study-scenes/study-243f1a7357aa9b34.svg
+?? public/content/study-scenes/study-2a48de74de876497.svg
+?? public/content/study-scenes/study-3efaab87c70410f0.svg
+?? public/content/study-scenes/study-46532233c916fd17.svg
+?? public/content/study-scenes/study-581ee08b4aeb537a.svg
+?? public/content/study-scenes/study-584ff1e7d613dbc7.svg
+?? public/content/study-scenes/study-5958879917ba64a6.svg
+?? public/content/study-scenes/study-5a2c36fc2dfbb4bf.svg
+?? public/content/study-scenes/study-5a6de244cd644261.svg
+?? public/content/study-scenes/study-5c491411ea1340cf.svg
+?? public/content/study-scenes/study-5e67c9f423fadd62.svg
+?? public/content/study-scenes/study-610da478d97c37da.svg
+?? public/content/study-scenes/study-653c57badce9a2b1.svg
+?? public/content/study-scenes/study-65805043b9fb342a.svg
+?? public/content/study-scenes/study-68c96d2ed77dfb63.svg
+?? public/content/study-scenes/study-6d607165e7f78241.svg
+?? public/content/study-scenes/study-7941cf43f442ec97.svg
+?? public/content/study-scenes/study-795a3f8f79763d08.svg
+?? public/content/study-scenes/study-7fd7ec15732c6ff4.svg
+?? public/content/study-scenes/study-85a7df0b255f7257.svg
+?? public/content/study-scenes/study-878cdaba27d13ab9.svg
+?? public/content/study-scenes/study-8d507b596b2e6c4e.svg
+?? public/content/study-scenes/study-903bcd205cd5e055.svg
+?? public/content/study-scenes/study-96afbd530249faa8.svg
+?? public/content/study-scenes/study-9f72c763baa389ae.svg
+?? public/content/study-scenes/study-a0febdb2e7e6c105.svg
+?? public/content/study-scenes/study-a183b6e487415dcf.svg
+?? public/content/study-scenes/study-a1fb0c6d5134b9d2.svg
+?? public/content/study-scenes/study-a9e44b34dbbdf424.svg
+?? public/content/study-scenes/study-b52d4d7d62a9a1f8.svg
+?? public/content/study-scenes/study-bcda51da0f10a858.svg
+?? public/content/study-scenes/study-c83abc166648d1a1.svg
+?? public/content/study-scenes/study-cf68fdc34add25b4.svg
+?? public/content/study-scenes/study-d005c97b90f8729f.svg
+?? public/content/study-scenes/study-d344dd2ca4461d22.svg
+?? public/content/study-scenes/study-d7a69119b3ec0412.svg
+?? public/content/study-scenes/study-df7a27bc8eb60a67.svg
+?? public/content/study-scenes/study-e6ab22bb24e02bb3.svg
+?? public/content/study-scenes/study-e77339c16ca3cefa.svg
+?? public/content/study-scenes/study-e7cc8cffc331395e.svg
+?? public/content/study-scenes/study-ec061c4632411046.svg
+?? public/content/study-scenes/study-ecdf9e4a3f4d8165.svg
+?? public/content/study-scenes/study-edb38a8635ad8bc5.svg
+?? public/content/study-scenes/study-ee58a6e8561d6725.svg
+?? public/content/study-scenes/study-f637389f26dacbcf.svg
+?? public/content/study-scenes/study-fa53c64ad7cd54b1.svg
+?? public/content/thumbnails/cn-ancient-06-12-meng-haoran-chunxiao.jpg
+?? public/content/thumbnails/cn-ancient-06-13-wang-zhihuan-tower.jpg
+?? public/images/history-labs/zhaozhou-bridge-study-v2.png
+?? reference-assets/choice-art-fix/
+?? reference-assets/history-depth/
+?? reference-assets/poetry-world-poetry/
+?? reference-assets/poetry-world-world/
+?? tests/content-scope.test.mjs
+?? tests/history-depth.test.mjs
+?? tests/poetry-world.test.mjs
+?? tests/scene-image-model.test.mjs
+?? tests/station-groups.test.mjs

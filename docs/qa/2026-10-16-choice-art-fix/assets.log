@@ -1,0 +1,18 @@
+
+> chronicle-bureau-prototype@0.1.0 content:validate:assets
+> node scripts/prepare-focused-quests.mjs && node scripts/validate-content.mjs --require-local-assets
+
+逐题学习图：398 个；44章儿童入口与连续故事同步。
+file:///Users/chiang/Documents/Projects/history/scripts/validate-content.mjs:14
+  if (!condition) throw new Error(message);
+                        ^
+
+Error: 素材登记文件清单与 content/assets 目录不一致，请把新增登记表加入校验器
+    at assert (file:///Users/chiang/Documents/Projects/history/scripts/validate-content.mjs:14:25)
+    at file:///Users/chiang/Documents/Projects/history/scripts/validate-content.mjs:124:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v24.18.0

@@ -1,0 +1,57 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 唐寅的公鸡怎样在诗里叫起来
+					9 content list
+						10 button 第1步：去明朝认识唐寅，已完成, Help: 去明朝认识唐寅
+						11 button 第2步：先听完整的《画鸡》，已完成, Help: 先听完整的《画鸡》
+						12 button 第3步：听诗里的公鸡开口，已完成, Help: 听诗里的公鸡开口
+						13 button 第4步：千门万户里有什么，已完成, Help: 千门万户里有什么
+						14 button 第5步：画和诗一起讲故事，已完成, Help: 画和诗一起讲故事
+					15 text 完成啦
+				16 button (disabled) 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 小小旅行团 · 带着发现回家
+				19 heading 把诗里的发现带回家, Value: 1
+					20 text 把诗里的发现带回家
+				21 container 本章结束后的选择
+					22 button 返回时间河
+					23 button 再玩本章
+				24 image 唐寅的公鸡怎样在诗里叫起来 · 小伙伴读诗
+				25 text 诗里有景物，也有声音和心愿。
+				26 button 听听这次发现
+				27 container (expanded) Secondary Actions: Collapse
+					28 summary 和家人再试一次 ＋, Value: on
+						29 text 和家人再试一次
+						30 text ＋
+					31 image 唐寅的公鸡怎样在诗里叫起来 · 现代读诗情境
+					32 text 故事插画
+					33 container
+						34 button 听第1个动作
+						35 text 画一只喜欢的小动物，再说一句画上听不见的声音。
+					36 container
+						37 button 听第2个动作
+						38 text 再听“一叫千门万户开”，和家人用开门动作回应清晨开始，不数一千扇门。
+				39 summary 👪 家长怎么接话？, Value: off
+					40 text 👪 家长怎么接话？
+				41 button 👪 家长入口 · 59章材料与说明
+		42 scroll bar (settable, float) 0
+	43 close button
+	44 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	45 minimize button
+	46 text 小小历史旅行团
+47 menu bar
+	48 小小历史旅行团
+	49 File
+	50 Edit
+	51 View
+	52 Window
+	53 Help
+
+The focused UI element is 28 summary 和家人再试一次 ＋, Value: on

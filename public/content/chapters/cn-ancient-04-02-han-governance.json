@@ -429,32 +429,19 @@
         "image": "/content/step-images/han-market-friends-reunion-v1.jpg"
       },
       {
-        "id": "han-mint-workshop-v1",
-        "title": "汉朝铸钱工坊与核对工具故事插画",
-        "localPath": "reference-assets/qin-han/han-mint-workshop-v1.png",
-        "sourcePage": null,
-        "sourceFile": "content/focused-quests.json",
-        "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
-        "license": "项目自制，供本项目使用",
+        "id": "han-weigh-string-v3",
+        "title": "汉武帝为什么统一铸钱？ · 情境对照新画",
+        "localPath": "reference-assets/choice-art-fix/han-weigh-string-v3.png",
+        "runtimeMaxEdge": 1600,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/choice-art-fix/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目故事与学习活动",
         "clearance": "cleared-project-created",
-        "caption": "小伙伴与工匠观察钱范和称量工具；现代教学故事插画。",
-        "boundary": "现代小伙伴进入虚构铸钱故事。钱范形状参考真实材料，天平是解释核对轻重的简化学具；不声称这是某座上林三官工坊的原貌或每枚钱必经的场景。",
+        "caption": "现代教学情境插画，不是文物照片或历史现场",
+        "boundary": "现代教学插画，不是历史现场或人物肖像复原。 同组场景用于比较选项所说的动作或对象，不能据生成细节推断古代器物的精确构造。",
         "childVisibility": "child-ok",
-        "image": "/content/step-images/han-mint-workshop-v1.jpg"
-      },
-      {
-        "id": "han-market-story-v1",
-        "title": "汉代集市钱摊故事插画",
-        "localPath": "reference-assets/qin-han/han-market-story-v1.png",
-        "sourcePage": null,
-        "sourceFile": "content/focused-quests.json",
-        "licensePath": "reference-assets/qin-han/ATTRIBUTION.md",
-        "license": "项目自制，供本项目使用",
-        "clearance": "cleared-project-created",
-        "caption": "小伙伴和工匠在钱摊前看成串的铜钱。",
-        "boundary": "现代故事插画，不是汉代现场复原；五铢钱身份与统一铸造以登记史料为准。交互钱串由共用组件绘制，真实文物另在证据入口展示。",
-        "childVisibility": "child-ok",
-        "image": "/content/step-images/han-market-story-v1.jpg"
+        "image": "/content/step-images/han-weigh-string-v3.jpg"
       }
     ],
     "coverImage": "/content/step-images/qin-han-haihun-wuzhu.jpg",
@@ -1082,7 +1069,9 @@
         ],
         "interaction": {
           "kind": "pick",
-          "hint": "选能检查轻重的办法。"
+          "hint": "选能检查轻重的办法。",
+          "choiceArt": "illustrated",
+          "selectionFraming": "detail"
         },
         "narrative": {
           "scene": "reunion",
@@ -1186,16 +1175,16 @@
             "correct": true,
             "objectView": {
               "kind": "scene-card",
-              "assetId": "han-mint-workshop-v1",
+              "assetId": "han-weigh-string-v3",
               "crop": {
-                "x": 1030,
-                "y": 125,
-                "width": 490,
-                "height": 505,
-                "sourceWidth": 1536,
-                "sourceHeight": 1024
+                "x": 6,
+                "y": 2,
+                "width": 1074,
+                "height": 712,
+                "sourceWidth": 1086,
+                "sourceHeight": 1448
               },
-              "image": "/content/step-images/han-mint-workshop-v1.jpg",
+              "image": "/content/step-images/han-weigh-string-v3.jpg",
               "imageAlt": "用秤核对轻重",
               "imageLabel": "故事插画"
             },
@@ -1212,16 +1201,16 @@
             "correct": false,
             "objectView": {
               "kind": "scene-card",
-              "assetId": "han-market-story-v1",
+              "assetId": "han-weigh-string-v3",
               "crop": {
-                "x": 795,
-                "y": 180,
-                "width": 220,
-                "height": 280,
-                "sourceWidth": 1536,
-                "sourceHeight": 1024
+                "x": 4,
+                "y": 732,
+                "width": 1078,
+                "height": 714,
+                "sourceWidth": 1086,
+                "sourceHeight": 1448
               },
-              "image": "/content/step-images/han-market-story-v1.jpg",
+              "image": "/content/step-images/han-weigh-string-v3.jpg",
               "imageAlt": "用绳把钱串好",
               "imageLabel": "故事插画"
             },
@@ -1630,6 +1619,20 @@
     }
   ],
   "assets": [
+    {
+      "id": "han-weigh-string-v3",
+      "title": "汉武帝为什么统一铸钱？ · 情境对照新画",
+      "localPath": "reference-assets/choice-art-fix/han-weigh-string-v3.png",
+      "runtimeMaxEdge": 1600,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/choice-art-fix/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学情境插画，不是文物照片或历史现场",
+      "boundary": "现代教学插画，不是历史现场或人物肖像复原。 同组场景用于比较选项所说的动作或对象，不能据生成细节推断古代器物的精确构造。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "study-afad5389e243ff15",
       "title": "学习示意：西汉五铢钱、前113年集中铸钱",

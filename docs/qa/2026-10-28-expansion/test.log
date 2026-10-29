@@ -1,0 +1,273 @@
+
+> chronicle-bureau-prototype@0.1.0 test
+> npm run build && node --experimental-strip-types --test tests/*.test.mjs
+
+
+> chronicle-bureau-prototype@0.1.0 build
+> npm run content:pack && WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build
+
+
+> chronicle-bureau-prototype@0.1.0 content:pack
+> node scripts/prepare-focused-quests.mjs && node scripts/validate-content.mjs && node scripts/build-content-pack.mjs && node scripts/generate-content-thumbnails.mjs && node scripts/audit-gameplay-coherence.mjs
+
+逐题学习图：555 个；59章儿童入口与连续故事同步。
+内容校验通过：7 个课程板块，共 121 章。
+其中：中国史 85 章，世界史 30 章，跨学科 6 章。
+已有详稿 121 章，研究标记verified 106 章（不等于逐条终审），最终审核通过 0 章。
+事实卡 2716 条，另列学习方法 103 项；编辑屏幕 747 屏，语音稿 819 段，互动 393 个。
+低龄兴趣入口 121 章，均含实物入口与地点连接。
+儿童口语词典 135 词，121章均已匹配难词解释。
+配音读音表 236 项、年代读法 7 条，121章均有编辑校听入口。
+来源登记 1079 条，素材登记 1184 条，其中已清权本地素材 1181 条。
+本机研究素材缓存 1179/1179 个文件；发布包构建不强制携带原始研究缓存。
+内容包生成完成：7 个板块，121 章。
+章节缩略图生成完成：121 张；步骤图片 347 张。
+结构审计：完整库121章/605步；本轮59章/295步，318张选项图、77个阅读步骤、97个图中提问、118条结束动作。真实儿童审核仍待进行。
+
+  vinext build  (Vite 8.0.13)
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+[1/5] analyze client references...
+[2Ktransforming...✓ 132 modules transformed.
+rendering chunks...
+✓ built in 716ms
+[2/5] analyze server references...
+[2Ktransforming...✓ 134 modules transformed.
+rendering chunks...
+✓ built in 101ms
+[3/5] build rsc environment...
+[2Ktransforming...✓ 138 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 291ms
+[4/5] build client environment...
+[2Ktransforming...✓ 142 modules transformed.
+rendering chunks...
+computing gzip size...
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.60s
+[5/5] build ssr environment...
+[2Ktransforming...✓ 140 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 219ms
+[0m
+  Route (app)
+  ─ ? /
+
+  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+
+  Build complete. Run `vinext start` to start the production server.
+
+✔ the current expansion keeps China tasks and routes reference the same existing progress IDs (16.738708ms)
+✔ small bridge openings carry water only when the water level reaches them (0.244ms)
+✔ the woven model alternates over and under in both directions (0.153375ms)
+✖ narrative choices use concrete picture crops, shared between choices and selected scenes (26.559334ms)
+✔ the Wu-Yue endpoint is not collapsed into the end of the northern Five Dynasties (1.370584ms)
+✔ Roman road purposes are compared without claiming early grain transport was impossible (4.328208ms)
+✔ visible and hidden chapters partition the full source library without dropping progress records (31.017125ms)
+✔ theme routes reuse visible chapter IDs and the same spoken introductions (0.330959ms)
+✔ progress files round-trip with compatible resume and hidden completion records (1.940708ms)
+✔ import merges completion flags and never replaces valid progress with an invalid resume (0.519792ms)
+✖ the desktop package includes every visible asset and voice without hidden chapter files or research originals (55.718625ms)
+✔ local asset extraction rejects traversal and excludes external resources (0.12525ms)
+✔ route-only images are packaged without sweeping unrelated research or hidden chapter files (3.319416ms)
+✔ historical evidence and the comparison premise reach the actual playback sequence (51.849625ms)
+✔ the new colour observation uses a cleared photograph and non-overlapping crop-relative targets (11.65775ms)
+✔ the type face and printed sheet mirror the whole line, including glyph orientation (4.811291ms)
+✔ the outer type blocks stay fixed while the middle block is removed and replaced (2.131709ms)
+✔ weaving only refers to a previous row after the second row is present (3.1875ms)
+✔ movable type changes only the middle block and completes after printing (0.630667ms)
+✔ turning the teaching boat preserves the needle direction (0.197542ms)
+✔ time windows replace the appropriate polities and keep Western Xia in both (0.323625ms)
+✔ history labs introduce the full setup before the first action (0.101416ms)
+✔ steam teaching linkage keeps the rod length while motion changes direction (0.113875ms)
+✔ roof model requires uncovering and replacing the cap, with safe movement above the fixture (0.158792ms)
+✔ animated engine samples preserve the physical linkage at intermediate angles (0.5635ms)
+✔ all visible task cards use registered historical materials with explicit identity labels (19.467708ms)
+✔ a raster extension or photo-like title cannot qualify a generated or uncleared image as a historical cover (0.282042ms)
+✔ the departure invitation offers a station choice and matches the generated voice text (4.460792ms)
+✔ circle refinement holds its radius while increasing vertices and reducing the gap (1.016833ms)
+✔ five new chapters keep real evidence, distinctive history and the shared five steps (9.251792ms)
+✔ learning coverage refuses missing, duplicate and self-linked chapters (1.393625ms)
+✔ parent review uses current evidence, curated words and matching choice artwork (31.307167ms)
+✔ decision scenes provide the necessary prior state in the voice children actually hear (1.639375ms)
+✔ station introductions preserve overlaps and separate the Qing preview boundary from its end (48.62475ms)
+✔ parent and child share the distinction between answer cards and operation checkpoints (0.111042ms)
+✖ project worksheet rules remain available but are not counted as historical facts (39.107625ms)
+✖ active material explanations keep production notes out of the parent reading layer (19.782042ms)
+✔ album paging keeps each real photo with its own era, narration and sources (8.235375ms)
+✔ the pack rejects an album with missing era or unregistered photo instead of falling back (0.677ms)
+✔ a scene cannot describe a project illustration as an artifact photograph (3.496375ms)
+✔ artifact detail keeps the original photo and rejects a crop outside it (3.033041ms)
+✔ pause and resume retain position and continue the remaining narration queue (1.93975ms)
+✔ a new answer or navigation cancels old callbacks and every queued clip (0.581958ms)
+✔ a stale play rejection after a quick pause/resume cannot stop resumed audio (0.495667ms)
+✔ media errors and autoplay blocks end the queue with a recoverable state (0.83275ms)
+✔ a loading clip can remain paused until the user resumes it (0.393583ms)
+✔ local progress restores valid steps and preserves legacy completion badges (0.283458ms)
+✔ all quiz choices are stable and audible while scene questions retain their own structure (5.495458ms)
+✔ a focused UI keeps completed records for chapters currently hidden (0.466792ms)
+✔ new chapters speak the task premise and question through the real entry voice sequence (5.244959ms)
+✔ both poems are heard in full before interpreting them and are available to parents (1.225209ms)
+✔ spring poem final question distinguishes actions instead of rejecting flowers in the bird scene (0.121083ms)
+✔ jumping straight to the final step never manufactures completed steps after reopening (1.784666ms)
+✔ legacy sequential saves retain their position and earlier completed steps (0.103833ms)
+✔ malformed or foreign completion IDs cannot turn a new jump into a legacy sequential save (0.084875ms)
+✔ all catalog chapters finish only after every required step has actually been recorded (2.252458ms)
+✔ an unfinished reading step remains required even after later questions have been solved (0.080625ms)
+✔ native record transfer merges same-chapter step completions without dropping the chosen position (0.24025ms)
+✔ renders the current local playtest entry without duplicate station choices (73.439125ms)
+✔ keeps the complete source library and emits a separate focused UI bundle (76.955333ms)
+✔ preserves registered runtime image resolution for evidence and narrative assets (23.120667ms)
+✔ focused steps retain authored prompts, appropriate interaction structures and concrete endings (16.147792ms)
+✖ ships a complete local narration pack (3.818958ms)
+✔ keeps narrated image inspection and step badges available in active tasks (0.696166ms)
+✔ packages every navigation and step badge used by the child pages (1.049416ms)
+✔ keeps existing narration files when synthesis fails (2172.890417ms)
+✔ ships two local voice audition profiles before the full narration run (1.039833ms)
+✔ a tiny moon and letter retain the source scene even if the full image is large (0.42275ms)
+✔ large matching scenes remain detailed; resolution is evaluated for the actual frame (0.074833ms)
+✔ missing or invalid image and viewport sizes never enlarge an unchecked crop (0.083167ms)
+✔ context retains the object and surrounding action without the empty workshop table (0.100458ms)
+✔ context moves only as far as needed for an edge object and never goes outside its source (0.360959ms)
+✔ wall model closes both ends and holds its size throughout the drag range (0.479042ms)
+✔ coin card has the same circular edge and square opening as its target, without clipping (0.134875ms)
+✔ pointer movement and arrow nudges reach the same visual alignment (0.081667ms)
+✔ Song station uses the Song dates while the parallel polity lesson retains its own chronology (0.96625ms)
+✔ every new playable question supplies its premise in the real entry audio (12.148125ms)
+✔ new poem interpretation follows a complete listening step and parents can inspect text and translation (1.747375ms)
+✔ world history has its own group, numbering and chapters, while empty periods stay hidden (0.758667ms)
+✔ a period ID shared across tracks cannot pull Chinese artwork or chapters into a world station (0.114041ms)
+✔ catalog short dates and spoken introductions override old static station copy (0.061541ms)
+✔ making a previously hidden world chapter visible preserves its existing record and resume position (0.488792ms)
+✔ every reading page narrates its full story and can advance in one click (0.763084ms)
+✔ one-click story continuation does not bypass an unanswered quiz or operation (0.289167ms)
+✔ Sui transport links its purpose, dated evidence, distinct work and labour costs (9.791625ms)
+✔ Kaiyuan uses a real two-sided coin and distinguishes the money name from the later era (5.997958ms)
+✔ Zhenguan connects a later book witness to governance, listening and real work (5.95975ms)
+✔ Tang music uses one museum object and ties observation to cultural contact (10.005042ms)
+✔ Xuanzang has distinct dates, translation roles and a later novel (5.846708ms)
+✔ Yan separates original writing traces from an attributed Qing addition (5.3195ms)
+✔ Li Bai keeps whole-poem listening and a later painting distinct from the poet (5.398125ms)
+✔ four Tang chapters retain the shared story and local material/voice contract (19.718416ms)
+✔ viewport audit accepts visible actions and distinguishes unanswered steps from missing navigation (0.740209ms)
+✔ viewport audit rejects a partially offscreen button even when its top is visible (0.084875ms)
+✔ viewport audit rejects obscured, clipped and non-rendered actions (0.073292ms)
+✔ viewport audit refuses a passing result obtained after automatic scrolling (0.04725ms)
+✔ the measuring phrase gets its chosen tones without changing the noun 度量衡 (3.282292ms)
+✔ pointer displacement maps proportionally to the ruler model (0.313333ms)
+✔ the Qin measurement task keeps its real artifact and ruler workbench (7.554583ms)
+✔ the Qin story has departure, discovery and reunion without dropping the artifact (7.732542ms)
+✔ the Great Wall task connects wall-joining, finding guards and choosing a lookout plan (7.029375ms)
+✔ Han travel and paper chapters connect their own historical evidence and actions (5.151292ms)
+✔ Han minting joins a dated policy, real evidence and distinct tool decisions (5.261042ms)
+ℹ tests 103
+ℹ suites 0
+ℹ pass 98
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2486.430333
+
+✖ failing tests:
+
+test at tests/china-expansion.test.mjs:40:1
+✖ narrative choices use concrete picture crops, shared between choices and selected scenes (26.559334ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(['scene-card','scene-strip'].includes(o.objectView.kind))
+  
+      at TestContext.<anonymous> (file:///Users/chiang/Documents/Projects/history/tests/china-expansion.test.mjs:51:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/desktop.test.mjs:24:1
+✖ the desktop package includes every visible asset and voice without hidden chapter files or research originals (55.718625ms)
+  Error: Missing desktop asset /audio/voice/zh-CN/xiaoxiao/quest-001ee6833937902c.mp3
+      at collectDesktopAssets (file:///Users/chiang/Documents/Projects/history/scripts/lib/desktop-assets.mjs:51:117)
+      at TestContext.<anonymous> (file:///Users/chiang/Documents/Projects/history/tests/desktop.test.mjs:26:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+
+test at tests/learning-content.test.mjs:68:1
+✖ project worksheet rules remain available but are not counted as historical facts (39.107625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  103 !== 94
+  
+      at TestContext.<anonymous> (file:///Users/chiang/Documents/Projects/history/tests/learning-content.test.mjs:71:93)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 103,
+    expected: 94,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/learning-content.test.mjs:89:1
+✖ active material explanations keep production notes out of the parent reading layer (19.782042ms)
+  AssertionError [ERR_ASSERTION]: dholavira-water-reservoir-2017-photo
+      at TestContext.<anonymous> (file:///Users/chiang/Documents/Projects/history/tests/learning-content.test.mjs:94:64)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'Commons原图6016×4000像素，等比缩至2200×1462像素，未裁切。必须标明现代遗址照；照片中的干燥状态、游客、标牌和保护处理不能搬回哈拉帕时代。用联合国教科文组织资料确认蓄水系统，不仅根据摄影者标题推断古代功能。',
+    expected: /提示词|像素|docs\/qa\/|reference-assets\//,
+    operator: 'doesNotMatch',
+    diff: 'simple'
+  }
+
+test at tests/rendered-html.test.mjs:88:1
+✖ ships a complete local narration pack (3.818958ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  3675 !== 4084
+  
+      at TestContext.<anonymous> (file:///Users/chiang/Documents/Projects/history/tests/rendered-html.test.mjs:95:10)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 3675,
+    expected: 4084,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

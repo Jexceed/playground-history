@@ -1,0 +1,36 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container 朵拉维拉蓄水设施图片说明
+				4 container
+					5 text 图片说明
+					6 heading 朵拉维拉蓄水设施, Value: 2
+						7 text 朵拉维拉蓄水设施
+					8 button 回到时间河
+					9 button 关闭大图
+				10 container
+					11 image 朵拉维拉蓄水设施
+					12 text 古代遗址 · 2017年照片
+				13 text 朵拉维拉在今天印度西部。古城留下蓄水设施，照片拍于2017年。今天池中干燥，不表示古人从未存过水；照片不能告诉我们每次储水多少。
+				14 button 再听图片说明
+				15 button 暂停声音
+				16 container (expanded) Secondary Actions: Collapse
+					17 summary 家长看史料来源与图片说明, Value: on
+						18 text 家长看史料来源与图片说明
+					19 text 现代遗址照片，可观察蓄水设施的空间与池壁。照片中的干燥状态、游客、标牌和保护处理不能搬回哈拉帕时代；古代水管理功能另据考古与遗产资料核对。 2017年拍摄的朵拉维拉蓄水设施与遗址墙体。
+					20 link UNESCO：朵拉维拉的水系统 ↗, Value: whc.unesco.org/en/list/1645/
+					21 link 照片作者与CC BY-SA 4.0许可 ↗, Value: commons.wikimedia.org/wiki/File:Water_reservoir_at_Dholavira_site.jpg
+	22 close button
+	23 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	24 minimize button
+	25 text 小小历史旅行团
+26 menu bar
+	27 小小历史旅行团
+	28 File
+	29 Edit
+	30 View
+	31 Window
+	32 Help
+
+The focused UI element is 17 summary 家长看史料来源与图片说明, Value: on

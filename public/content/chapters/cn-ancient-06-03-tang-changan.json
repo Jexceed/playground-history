@@ -11,12 +11,14 @@
     "learningContext": {
       "childIntro": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。",
       "chronology": "618—907年为唐朝范围；本组故事分属不同时期，贞观、开元通宝始铸、开元年号不可混为一个节点。",
-      "covered": "治理恢复、钱名与年号、城市乐舞、译经与东渡传授、书法与诗。",
+      "covered": "治理恢复、钱名与年号、城市乐舞、译经与东渡传授、书法与诗。《春晓》的鸟鸣与惜花、《登鹳雀楼》的登高与远望。",
       "scopeBoundary": "科举、唐前后期变化等在背景稿中；李白诗作和颜真卿文稿不能被拼成唐朝始终繁盛的单一画面。",
       "sourceIds": [
         "NMC-SUI-TANG-FIVE-DYNASTIES",
         "EDB-DUFU-SPRING-RAIN",
-        "NMC-JIANZHEN-STORY"
+        "NMC-JIANZHEN-STORY",
+        "EDB-MENG-CHUNXIAO",
+        "EDB-WANG-GUANQUE"
       ],
       "sources": [
         {
@@ -36,6 +38,18 @@
           "title": "中华史诗美术大展：鉴真东渡",
           "institution": "中国国家博物馆",
           "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/"
+        },
+        {
+          "id": "EDB-MENG-CHUNXIAO",
+          "title": "《春晓》原文、作者介绍与赏析（第1—2页）",
+          "institution": "香港特别行政区政府教育局",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_08.pdf"
+        },
+        {
+          "id": "EDB-WANG-GUANQUE",
+          "title": "《登鹳鹊楼》原文、作者介绍与赏析（第1—2页）",
+          "institution": "香港特别行政区政府教育局",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07.pdf"
         }
       ]
     }
@@ -48,7 +62,7 @@
     "id": "cn-ancient-06-03-tang-changan",
     "childTitle": "骆驼背上的唐代乐舞",
     "prompt": "陶俑把乐队放到骆驼背上。长安的来往，怎样带来了不同的乐舞技艺？",
-    "takeaway": "唐代长安有来自不同地方的人，乐舞技艺也随着来往传播。工匠把歌唱和奏乐做进陶俑，留下了艺术形象。",
+    "takeaway": "唐代长安有来自不同地方的人，乐舞技艺随着来往传播。陶俑把歌唱和奏乐做在一起，留下艺术形象；具体交流还要结合其他材料。",
     "object": "载乐骆驼俑 · 唐代",
     "people": [
       "唐代乐舞、工匠",
@@ -63,10 +77,10 @@
   "learningGuide": {
     "id": "cn-ancient-06-03-tang-changan",
     "theme": "艺术和表达",
-    "learningGoal": "唐代乐舞随人群往来传播，陶俑保存艺术形象。",
-    "parentQuestion": "这件俑除了骆驼，还让我们看见什么人的活动？",
-    "observe": "指背上的演奏者并做一个姿势，想到人们也会带着技艺来往。",
-    "misconception": "陶俑不是演出实拍；今天动作不能当作唐代音乐原声。",
+    "learningGoal": "从载乐骆驼俑中分清歌唱与伴奏，联系唐代人群与乐舞技艺的往来。",
+    "parentQuestion": "陶俑中谁在歌唱，谁在奏乐？",
+    "observe": "分别指出站着的歌者与围坐乐手，说明技艺随着人们来往传播。",
+    "misconception": "艺术形象不能复原真实乐队行程或唐代原声。",
     "evidenceStepIds": [
       "time",
       "journey"
@@ -81,7 +95,7 @@
         "relation": "丝路上的来往既有货物与消息，也有人携带的技艺。"
       }
     ],
-    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "reviewStatus": "content-deepened-family-test-pending",
     "glossaryTerms": [
       "交流",
       "文化",
@@ -139,13 +153,13 @@
       "id": "beginning",
       "icon": "🔎",
       "label": "人来来往往，技艺也会相遇",
-      "text": "唐代长安有来自不同地方的人，也有丰富的歌舞表演。乐器和表演技艺随着往来传播。工匠把这份热闹做成陶俑；今天的小伙伴，试着用动作感受吹奏与拨弦的不同。"
+      "text": "唐代长安有来自不同地方的人，乐舞技艺随着来往传播。这件陶俑中，有人站着歌唱，周围的人坐着奏乐。工匠把歌者和伴奏安排在一起，留下丰富的艺术形象。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "从侧面看背上的乐舞",
-      "text": "从侧面看，人物围在骆驼背上的平台，有人做出演奏姿态。骆驼与人物是同一件陶塑的不同部分。要观察奏乐动作，先找能看到人物双手的那一组。"
+      "label": "站着歌唱，围坐伴奏",
+      "text": "馆方说明，中间站着的是歌者，周围坐着的是乐手。侧面照片把他们叠在一起：先找站着的歌者，再找前方拿着乐器的人。"
     },
     {
       "id": "change",
@@ -157,7 +171,7 @@
       "id": "takeaway",
       "icon": "🗣️",
       "label": "从一件陶俑，想到人的来往",
-      "text": "陶俑让我们看见唐代乐舞的艺术形象。更多关于长安人群和技艺的往来，还要看文献和别的材料。小伙伴学的是今天的动作，不把自己的表演当作唐代原声。"
+      "text": "陶俑把歌唱和奏乐安排在一起，留下唐代艺术形象。技艺会随着不同地方的人们来往传播；要知道具体怎样交流，还要读文献，不能给这支陶塑乐队编一条真实行程。"
     }
   ],
   "glossary": [
@@ -195,6 +209,16 @@
         "cross-03-cultural-exchange"
       ],
       "note": "“长”在地名中读cháng。"
+    },
+    {
+      "text": "乐手",
+      "reading": "Yuèshǒu",
+      "kind": "polyphone",
+      "chapterIds": [
+        "cn-ancient-06-03-tang-changan",
+        "cross-03-cultural-exchange"
+      ],
+      "note": "表示演奏音乐的人时，“乐”读yuè。"
     },
     {
       "text": "拨弦",
@@ -372,7 +396,7 @@
         "coverCaption": "骆驼背上的唐代乐舞",
         "coverNarration": "小小旅行团到了唐朝！陶俑把乐队放到骆驼背上。长安的来往，怎样带来了不同的乐舞技艺？",
         "closingCaption": "带着这一章的发现回家",
-        "closingNarration": "唐代长安有来自不同地方的人，乐舞技艺也随着来往传播。工匠把歌唱和奏乐做进陶俑，留下了艺术形象。",
+        "closingNarration": "唐代长安有来自不同地方的人，乐舞技艺随着来往传播。陶俑把歌唱和奏乐做在一起，留下艺术形象；具体交流还要结合其他材料。",
         "closingLine": "人们的来往，也带来乐舞技艺。",
         "fictionNote": "照片为陕博八人载乐俑，不混作国博另一件五人俑。艺术形象不是特定商队的旅行照，也不能复原一首确切唐曲。小伙伴拿的是现代学习道具，只体验不同手势，不作演奏或古器复原教学。",
         "reunionImage": "/content/step-images/tang-music-reunion-v1.jpg",
@@ -382,8 +406,8 @@
           "text": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。"
         },
         "closingAudio": {
-          "id": "quest-fa3462c8ec54c109",
-          "text": "唐代长安有来自不同地方的人，乐舞技艺也随着来往传播。工匠把歌唱和奏乐做进陶俑，留下了艺术形象。"
+          "id": "quest-aaf613edb79b3795",
+          "text": "唐代长安有来自不同地方的人，乐舞技艺随着来往传播。陶俑把歌唱和奏乐做在一起，留下艺术形象；具体交流还要结合其他材料。"
         }
       },
       "sceneImage": "/content/step-images/tang-music-actions-v2.jpg",
@@ -453,14 +477,14 @@
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-fa3462c8ec54c109",
-      "text": "唐代长安有来自不同地方的人，乐舞技艺也随着来往传播。工匠把歌唱和奏乐做进陶俑，留下了艺术形象。"
+      "id": "quest-aaf613edb79b3795",
+      "text": "唐代长安有来自不同地方的人，乐舞技艺随着来往传播。陶俑把歌唱和奏乐做在一起，留下艺术形象；具体交流还要结合其他材料。"
     },
     "finish": {
       "title": "看见乐舞里的来往啦！",
       "actions": [
-        "指给家人看陶俑背上的人物，学一个拿乐器的姿势。",
-        "说说“人到了新的地方，也会带来哪些技艺？”可以用歌唱或演奏动作回答。"
+        "在真照片里分别指站着的歌者、围坐的乐手，说说唱与奏怎样配合。",
+        "选一个今天拿乐器的动作试一试，再说这是现代练习，不是听到了唐代原声。"
       ],
       "parent": "不考人数或乐器名称，不播放现代舞曲冒称原声；现代学习道具不保证复原古器。陶俑可支持艺术形象，跨地区交流另据馆方研究，不能由一件俑编造这支乐队的行程。",
       "sceneStepIndexes": [
@@ -469,17 +493,17 @@
       ],
       "actionAudio": [
         {
-          "id": "quest-994ef27acf470e3d",
-          "text": "指给家人看陶俑背上的人物，学一个拿乐器的姿势。"
+          "id": "quest-acd835bbcbfb4d6f",
+          "text": "在真照片里分别指站着的歌者、围坐的乐手，说说唱与奏怎样配合。"
         },
         {
-          "id": "quest-c0c6226042371cc7",
-          "text": "说说“人到了新的地方，也会带来哪些技艺？”可以用歌唱或演奏动作回答。"
+          "id": "quest-6d639f45110fad62",
+          "text": "选一个今天拿乐器的动作试一试，再说这是现代练习，不是听到了唐代原声。"
         }
       ],
       "introAudio": {
-        "id": "quest-fa3462c8ec54c109",
-        "text": "唐代长安有来自不同地方的人，乐舞技艺也随着来往传播。工匠把歌唱和奏乐做进陶俑，留下了艺术形象。"
+        "id": "quest-aaf613edb79b3795",
+        "text": "唐代长安有来自不同地方的人，乐舞技艺随着来往传播。陶俑把歌唱和奏乐做在一起，留下艺术形象；具体交流还要结合其他材料。"
       }
     },
     "estimatedMinutes": 6,
@@ -513,7 +537,7 @@
           "responseSpeaker": "小伙伴",
           "response": "来到唐朝，去认识乐舞的线索。",
           "retry": "隋朝在前，这件陶俑属于唐代。",
-          "nextLabel": "来往的人，也带来了技艺"
+          "nextLabel": "人来来往往，技艺也会相遇"
         },
         "concepts": null,
         "inspection": {
@@ -660,16 +684,16 @@
           "responseSpeaker": "小伙伴",
           "response": "一起接着看。",
           "retry": "再看看这一幕。",
-          "nextLabel": "回到陶俑上找线索"
+          "nextLabel": "站着歌唱，围坐伴奏"
         },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
           "title": "人来来往往，技艺也会相遇",
-          "screenText": "唐代长安有来自不同地方的人，也有丰富的歌舞表演。乐器和表演技艺随着往来传播。工匠把这份热闹做成陶俑；今天的小伙伴，试着用动作感受吹奏与拨弦的不同。",
-          "displayText": "人们往来，乐舞技艺也会相遇。\n工匠把热闹做进了陶俑。",
-          "narration": "唐代长安有来自不同地方的人，也有丰富的歌舞表演。乐器和表演技艺随着往来传播。工匠把这份热闹做成陶俑；今天的小伙伴，试着用动作感受吹奏与拨弦的不同。"
+          "screenText": "唐代长安有来自不同地方的人，乐舞技艺随着来往传播。这件陶俑中，有人站着歌唱，周围的人坐着奏乐。工匠把歌者和伴奏安排在一起，留下丰富的艺术形象。",
+          "displayText": "唐代长安有来自不同地方的人，乐舞技艺随着来往传播。这件陶俑中，有人站着歌唱，周围的人坐着奏乐。工匠把歌者和伴奏安排在一起，留下丰富的艺术形象。",
+          "narration": "唐代长安有来自不同地方的人，乐舞技艺随着来往传播。这件陶俑中，有人站着歌唱，周围的人坐着奏乐。工匠把歌者和伴奏安排在一起，留下丰富的艺术形象。"
         },
         "assetId": "tang-music-actions-v2",
         "image": "/content/step-images/tang-music-actions-v2.jpg",
@@ -680,24 +704,24 @@
         "imageBoundary": "三位现代小伙伴用学习道具体验吹奏和拨弦。动作图不等于唐代演出、原曲或原乐器，唐代乐舞形象须与真陶俑及记录分开看。",
         "audio": {
           "lead": {
-            "id": "quest-d5cee2026050b4c7",
-            "text": "先听听长安的来往，再看看乐舞的姿势。"
+            "id": "quest-7c055fc6bfb41646",
+            "text": "有人歌唱，有人奏乐。回到陶俑，看看两种角色。"
           },
           "transition": {
             "id": "quest-884b57712e9dbd16",
             "text": "人来来往往，技艺也会相遇。"
           },
           "intro": {
-            "id": "quest-02a231739022804a",
-            "text": "唐代长安有来自不同地方的人，也有丰富的歌舞表演。乐器和表演技艺随着往来传播。工匠把这份热闹做成陶俑；今天的小伙伴，试着用动作感受吹奏与拨弦的不同。"
+            "id": "quest-c96eea49093d2bdb",
+            "text": "唐代长安有来自不同地方的人，乐舞技艺随着来往传播。这件陶俑中，有人站着歌唱，周围的人坐着奏乐。工匠把歌者和伴奏安排在一起，留下丰富的艺术形象。"
           },
           "question": {
             "id": "quest-20d8be4af2165aa0",
             "text": "人物的手和姿势，藏着什么线索？"
           },
           "image": {
-            "id": "quest-d2921ca0ffa7bf90",
-            "text": "这张是小伙伴体验吹奏与拨弦的故事插画。唐代长安有来自不同地方的人，也有丰富的歌舞表演。乐器和表演技艺随着往来传播。工匠把这份热闹做成陶俑；今天的小伙伴，试着用动作感受吹奏与拨弦的不同。"
+            "id": "quest-5fa93618601e787b",
+            "text": "这张是小伙伴体验吹奏与拨弦的故事插画。唐代长安有来自不同地方的人，乐舞技艺随着来往传播。这件陶俑中，有人站着歌唱，周围的人坐着奏乐。工匠把歌者和伴奏安排在一起，留下丰富的艺术形象。"
           },
           "right": {
             "id": "quest-6261c933705a3753",
@@ -714,11 +738,11 @@
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "从侧面看背上的乐舞",
-        "title": "从侧面看背上的乐舞",
-        "prompt": "哪处能看到人物奏乐的姿势？",
-        "rightNote": "一起接着看。",
-        "wrongNote": "再看看这一幕。",
+        "phase": "站着歌唱，围坐伴奏",
+        "title": "站着歌唱，围坐伴奏",
+        "prompt": "站在中间的歌者在哪里？",
+        "rightNote": "歌唱与奏乐的人在同一件陶俑里相互配合。",
+        "wrongNote": "先看背后站得较高的人，再看前方围坐的乐手。",
         "sourceIds": [
           "SHAANXI-SANCAI-CAMEL-509",
           "NMC-BAIXI-STUDY"
@@ -727,45 +751,68 @@
           "kind": "scene-find",
           "hint": "听清问题，看看图里的线索。",
           "imageLabel": "实物照片",
-          "sceneAspectRatio": 1.6,
-          "ariaLabel": "在载乐骆驼俑侧面照片中找乐舞人物",
+          "sceneAspectRatio": 1.3333333333333333,
+          "ariaLabel": "从真实载乐骆驼俑侧面照片找歌者与乐手",
           "hotspots": [
             {
-              "id": "musicians",
-              "label": "骆驼背上的人物",
-              "x": 0.25,
-              "y": 0.115,
-              "width": 0.36,
-              "height": 0.37
+              "id": "singer",
+              "label": "中间站着的歌者",
+              "x": 0.435,
+              "y": 0.075,
+              "width": 0.135,
+              "height": 0.21
             },
             {
-              "id": "camel-head",
-              "label": "骆驼的头颈",
-              "x": 0.625,
-              "y": 0.245,
+              "id": "musicians",
+              "label": "前方坐着拿乐器的乐手",
+              "x": 0.265,
+              "y": 0.205,
               "width": 0.16,
-              "height": 0.4
+              "height": 0.32
             }
           ],
           "rounds": [
             {
-              "id": "find-musicians",
-              "question": "要看奏乐的姿势，点哪一组？",
-              "targetId": "musicians",
-              "feedback": "人物的双手和姿势，留下了乐舞形象。",
-              "retry": "这是骆驼的头颈，再看看背上的人物。",
+              "id": "find-singer",
+              "targetId": "singer",
+              "question": "站在中间的歌者在哪里？",
+              "feedback": "这位站着的歌者，与周围奏乐的人一起组成艺术形象。",
+              "retry": "这里的人坐着奏乐，再找中间站得更高的歌者。",
+              "nextLabel": "再找拿乐器的人",
               "audio": {
                 "question": {
-                  "id": "quest-eb19ad2b61b97db5",
-                  "text": "要看奏乐的姿势，点哪一组？"
+                  "id": "quest-5fa2351141ecc80f",
+                  "text": "站在中间的歌者在哪里？"
                 },
                 "right": {
-                  "id": "quest-740e827cfab4d6e8",
-                  "text": "人物的双手和姿势，留下了乐舞形象。"
+                  "id": "quest-8e8ecb79360f5172",
+                  "text": "这位站着的歌者，与周围奏乐的人一起组成艺术形象。"
                 },
                 "wrong": {
-                  "id": "quest-31a586df06130782",
-                  "text": "这是骆驼的头颈，再看看背上的人物。"
+                  "id": "quest-aff5c121b1a14f98",
+                  "text": "这里的人坐着奏乐，再找中间站得更高的歌者。"
+                }
+              }
+            },
+            {
+              "id": "find-musicians",
+              "targetId": "musicians",
+              "question": "前方坐着拿乐器的人在哪里？",
+              "feedback": "他们用乐器伴奏。歌唱和奏乐在这件陶俑中配合。",
+              "retry": "这位是站着的歌者，再找前方坐着拿乐器的人。",
+              "nextLabel": "用今天的动作再试试",
+              "audio": {
+                "question": {
+                  "id": "quest-8546ac6fda62cfc0",
+                  "text": "前方坐着拿乐器的人在哪里？"
+                },
+                "right": {
+                  "id": "quest-693a2d516626bc5a",
+                  "text": "他们用乐器伴奏。歌唱和奏乐在这件陶俑中配合。"
+                },
+                "wrong": {
+                  "id": "quest-cc9a395b18b20857",
+                  "text": "这位是站着的歌者，再找前方坐着拿乐器的人。"
                 }
               }
             }
@@ -774,12 +821,12 @@
         "narrative": {
           "kind": "fictional-guide-scene",
           "scene": "detail",
-          "caption": "从侧面看背上的乐舞",
+          "caption": "站着歌唱，围坐伴奏",
           "speaker": "小伙伴",
           "responseSpeaker": "小伙伴",
-          "response": "一起接着看。",
-          "retry": "再看看这一幕。",
-          "nextLabel": "小伙伴也来试试动作"
+          "response": "歌唱与奏乐的人在同一件陶俑里相互配合。",
+          "retry": "先看背后站得较高的人，再看前方围坐的乐手。",
+          "nextLabel": "现代小伙伴，学两种拿法"
         },
         "concepts": null,
         "inspection": {
@@ -820,10 +867,10 @@
         },
         "story": {
           "screenNumber": 3,
-          "title": "从侧面看背上的乐舞",
-          "screenText": "从侧面看，人物围在骆驼背上的平台，有人做出演奏姿态。骆驼与人物是同一件陶塑的不同部分。要观察奏乐动作，先找能看到人物双手的那一组。",
-          "displayText": "从侧面看，人物围在骆驼背上的平台，有人做出演奏姿态。骆驼与人物是同一件陶塑的不同部分。要观察奏乐动作，先找能看到人物双手的那一组。",
-          "narration": "从侧面看，人物围在骆驼背上的平台，有人做出演奏姿态。骆驼与人物是同一件陶塑的不同部分。要观察奏乐动作，先找能看到人物双手的那一组。"
+          "title": "站着歌唱，围坐伴奏",
+          "screenText": "馆方说明，中间站着的是歌者，周围坐着的是乐手。侧面照片把他们叠在一起：先找站着的歌者，再找前方拿着乐器的人。",
+          "displayText": "馆方说明，中间站着的是歌者，周围坐着的是乐手。侧面照片把他们叠在一起：先找站着的歌者，再找前方拿着乐器的人。",
+          "narration": "馆方说明，中间站着的是歌者，周围坐着的是乐手。侧面照片把他们叠在一起：先找站着的歌者，再找前方拿着乐器的人。"
         },
         "assetId": "tang-sancai-music-camel-side",
         "image": "/content/step-images/tang-sancai-music-camel-side.jpg",
@@ -834,32 +881,32 @@
         "imageBoundary": "本相册为陕西历史博物馆八人载乐俑；国博另件五人俑是不同作品，不能混用人数。照片提供形态和姿态观察，不提供具体演出行程或古代原声。开放参观摄影，非馆方官方摄影。Sancai musicians on camel, side — Deadkid dk / Wikimedia Commons / CC BY-SA 3.0",
         "audio": {
           "lead": {
-            "id": "quest-43e6582afd5ea03e",
-            "text": "看骆驼背上的人，找找他们的手。"
+            "id": "quest-d39e82f203b90ebb",
+            "text": "先找站着的歌者，再找前方坐着的乐手。"
           },
           "transition": {
-            "id": "quest-09bbc20137dfb07b",
-            "text": "从侧面看背上的乐舞。"
+            "id": "quest-ff05afbb915dce70",
+            "text": "站着歌唱，围坐伴奏。"
           },
           "intro": {
-            "id": "quest-f240e86b7da121da",
-            "text": "从侧面看，人物围在骆驼背上的平台，有人做出演奏姿态。骆驼与人物是同一件陶塑的不同部分。要观察奏乐动作，先找能看到人物双手的那一组。"
+            "id": "quest-d432787bf776d28c",
+            "text": "馆方说明，中间站着的是歌者，周围坐着的是乐手。侧面照片把他们叠在一起：先找站着的歌者，再找前方拿着乐器的人。"
           },
           "question": {
-            "id": "quest-7b5491c14ffba00e",
-            "text": "哪处能看到人物奏乐的姿势？"
+            "id": "quest-5fa2351141ecc80f",
+            "text": "站在中间的歌者在哪里？"
           },
           "image": {
-            "id": "quest-8dba25c64dd1f40f",
-            "text": "这张是三彩载乐骆驼俑（侧面）。从侧面看，人物围在骆驼背上的平台，有人做出演奏姿态。骆驼与人物是同一件陶塑的不同部分。要观察奏乐动作，先找能看到人物双手的那一组。"
+            "id": "quest-2923e1c77b847ea6",
+            "text": "这张是三彩载乐骆驼俑（侧面）。馆方说明，中间站着的是歌者，周围坐着的是乐手。侧面照片把他们叠在一起：先找站着的歌者，再找前方拿着乐器的人。"
           },
           "right": {
-            "id": "quest-6261c933705a3753",
-            "text": "一起接着看。"
+            "id": "quest-2046b1d69d51907b",
+            "text": "歌唱与奏乐的人在同一件陶俑里相互配合。"
           },
           "wrong": {
-            "id": "quest-132fe992f98fa35d",
-            "text": "再看看这一幕。"
+            "id": "quest-4ebe875292d89052",
+            "text": "先看背后站得较高的人，再看前方围坐的乐手。"
           }
         },
         "options": []
@@ -890,7 +937,7 @@
           "responseSpeaker": "小伙伴",
           "response": "横着举笛，和抱琴拨弦是不同的动作。",
           "retry": "这是抱琴拨弦，再看看横着举笛的动作。",
-          "nextLabel": "把乐舞的发现带回家"
+          "nextLabel": "从一件陶俑，想到人的来往"
         },
         "concepts": null,
         "inspection": null,
@@ -1019,16 +1066,16 @@
           "responseSpeaker": "小伙伴",
           "response": "一起接着看。",
           "retry": "再看看这一幕。",
-          "nextLabel": "带着乐舞的发现回家"
+          "nextLabel": "带着发现回家"
         },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 5,
           "title": "从一件陶俑，想到人的来往",
-          "screenText": "陶俑让我们看见唐代乐舞的艺术形象。更多关于长安人群和技艺的往来，还要看文献和别的材料。小伙伴学的是今天的动作，不把自己的表演当作唐代原声。",
-          "displayText": "乐舞随着人们的来往传播。\n陶俑留下了生动的艺术形象。",
-          "narration": "陶俑让我们看见唐代乐舞的艺术形象。更多关于长安人群和技艺的往来，还要看文献和别的材料。小伙伴学的是今天的动作，不把自己的表演当作唐代原声。"
+          "screenText": "陶俑把歌唱和奏乐安排在一起，留下唐代艺术形象。技艺会随着不同地方的人们来往传播；要知道具体怎样交流，还要读文献，不能给这支陶塑乐队编一条真实行程。",
+          "displayText": "陶俑把歌唱和奏乐安排在一起，留下唐代艺术形象。技艺会随着不同地方的人们来往传播；要知道具体怎样交流，还要读文献，不能给这支陶塑乐队编一条真实行程。",
+          "narration": "陶俑把歌唱和奏乐安排在一起，留下唐代艺术形象。技艺会随着不同地方的人们来往传播；要知道具体怎样交流，还要读文献，不能给这支陶塑乐队编一条真实行程。"
         },
         "assetId": "tang-music-reunion-v1",
         "image": "/content/step-images/tang-music-reunion-v1.jpg",
@@ -1039,24 +1086,24 @@
         "imageBoundary": "现代旅行手册回顾乐舞形象和动作，人物是今天的虚构小伙伴。它不保存唐代原声，也不能代替文物上的演奏姿态证据。",
         "audio": {
           "lead": {
-            "id": "quest-fa51012c4c887841",
-            "text": "乐舞随着人们往来传播，我们带着新的问题回家。"
+            "id": "quest-15411dc94e55aab8",
+            "text": "歌唱和奏乐配合，技艺随着来往传播；陶塑不是旅行合照。"
           },
           "transition": {
             "id": "quest-d33da3adbe39d54b",
             "text": "从一件陶俑，想到人的来往。"
           },
           "intro": {
-            "id": "quest-9093f1b061f4c20a",
-            "text": "陶俑让我们看见唐代乐舞的艺术形象。更多关于长安人群和技艺的往来，还要看文献和别的材料。小伙伴学的是今天的动作，不把自己的表演当作唐代原声。"
+            "id": "quest-a58338080cb8cf22",
+            "text": "陶俑把歌唱和奏乐安排在一起，留下唐代艺术形象。技艺会随着不同地方的人们来往传播；要知道具体怎样交流，还要读文献，不能给这支陶塑乐队编一条真实行程。"
           },
           "question": {
             "id": "quest-10da103fe5d9f232",
             "text": "从乐舞形象，还想了解什么？"
           },
           "image": {
-            "id": "quest-54ba6d5c3c6bba27",
-            "text": "这张是小伙伴回看乐舞发现的插画。陶俑让我们看见唐代乐舞的艺术形象。更多关于长安人群和技艺的往来，还要看文献和别的材料。小伙伴学的是今天的动作，不把自己的表演当作唐代原声。"
+            "id": "quest-c78184b08cf7dc2f",
+            "text": "这张是小伙伴回看乐舞发现的插画。陶俑把歌唱和奏乐安排在一起，留下唐代艺术形象。技艺会随着不同地方的人们来往传播；要知道具体怎样交流，还要读文献，不能给这支陶塑乐队编一条真实行程。"
           },
           "right": {
             "id": "quest-6261c933705a3753",
@@ -1584,6 +1631,26 @@
       "type": "museum-or-primary-institution-reference",
       "authorityLevel": "A-primary-institution",
       "factUse": "唐代鉴真受邀东渡、典籍与文化传授、同行协作；出海到达与入奈良分开，不用展览新画作现场照片。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "EDB-MENG-CHUNXIAO",
+      "title": "《春晓》原文、作者介绍与赏析（第1—2页）",
+      "institution": "香港特别行政区政府教育局",
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_08.pdf",
+      "type": "government-education-classical-poetry-resource",
+      "authorityLevel": "A-government-education",
+      "factUse": "孟浩然为唐代诗人；《春晓》通行全文；从清晨鸟鸣回想昨夜风雨，末句为对落花的发问，不能推定确切落花数或写作当日天气",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "EDB-WANG-GUANQUE",
+      "title": "《登鹳鹊楼》原文、作者介绍与赏析（第1—2页）",
+      "institution": "香港特别行政区政府教育局",
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07.pdf",
+      "type": "government-education-classical-poetry-resource",
+      "authorityLevel": "A-government-education",
+      "factUse": "通行王之涣署名、唐代及四句全文；登楼远望与更上一层；第2页明确入海并非从鹳雀楼直接看见入海口。楼的后世沿革另依当地政府资料，不采用本篇关于毁楼原因的简述",
       "imageUse": "reference-only"
     }
   ],

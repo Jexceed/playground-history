@@ -1,0 +1,50 @@
+# 原44章内容复核清单
+
+2026-10-23。记录原44章的内容观察及补充优先级；“保留主线”不是史实终审批准。新增范围不在本表。具体依据和首批方案见[复核报告](README.md)。
+
+| 序号 | 章节 | 本轮判断 | 观察与建议 |
+| ---: | --- | --- | --- |
+| 1 | [孔子教我们怎样学、怎样待人](../../../content/chapters/spring-autumn-warring-states-hundred-schools.md) | 保留主线 | 共同标准与尺子动作对应；保留秦尺材料缺口，不混用汉尺身份。 |
+| 2 | [秦统一度量衡](../../../content/chapters/qin-han-qin-unification.md) | 保留主线 | 防守用途与守卫配合已明确；秦代直接图像材料仍值得另行补找。 |
+| 3 | [长城为什么要修？](../../../content/chapters/qin-han-qin-great-wall.md) | 保留主线 | 建汉、五铢始铸与集中铸币已分开，钱范定形与称量也分开。 |
+| 4 | [兵马俑留下了哪些线索？](../../../content/chapters/qin-terracotta.md) | 首批补强 | 使命、未结盟的结果及后来驿站已分开；后半段应持续回扣见闻与联系。 |
+| 5 | [汉武帝为什么统一铸钱？](../../../content/chapters/qin-han-han-governance.md) | 保留主线 | 先有纸、蔡伦改进、后人继续完善已完整；保留简帛长期并用边界。 |
+| 6 | [张骞出使，带回了什么？](../../../content/chapters/qin-han-silk-road.md) | 保留主线 | 迁徙分批、江南原有人居住、双向学习已说明，不补单一迁徙路线。 |
+| 7 | [蔡伦怎样让纸更好用？](../../../content/chapters/qin-han-knowledge.md) | 保留主线 | 水土与劳动共同作用已说明；不以一件青瓷证明农业产量。 |
+| 8 | [长信宫灯的袖子为什么连着灯？](../../../content/chapters/han-palace-lantern.md) | 次批深化 | 迁都与朝廷语言衣冠改革已有具体历史背景；不按衣服猜民族。 |
+| 9 | [司马迁怎样把过去的事留下来？](../../../content/chapters/sima-qian-shiji.md) | 首批补强 | 刘徽与祖冲之的先后、后世印本及算法散佚边界保持。 |
+| 10 | [新邻居怎样在江南安家？](../../../content/chapters/three-kingdoms-jin-northern-southern-division-migration.md) | 保留主线 | 佛教故事、原壁画与新画卡分开，前后情节完整。 |
+| 11 | [江南的稻田和青瓷](../../../content/chapters/three-kingdoms-jin-northern-southern-jiangnan-development.md) | 保留主线 | 运输目的、维护与劳动负担已有；不将今日河道船只当隋代原貌。 |
+| 12 | [孝文帝迁都后，改变了什么？](../../../content/chapters/three-kingdoms-jin-northern-southern-ethnic-interaction.md) | 保留主线 | 钱名和年号的先后关系具体，始铸年不当每枚钱的铸年。 |
+| 13 | [祖冲之怎样把圆算得更准？](../../../content/chapters/three-kingdoms-jin-northern-southern-science-art.md) | 保留主线 | 首批：让减轻负担、不误农时进入具体选择，强化治理与恢复生产的联系。 |
+| 14 | [跟着九色鹿读懂壁画](../../../content/chapters/dunhuang-wall-stories.md) | 保留主线 | 次批：由现代拿笛动作回到实物里歌唱与伴奏的组合，补独特历史观察。 |
+| 15 | [大运河为什么连接南北？](../../../content/chapters/sui-unification-canal.md) | 保留主线 | 真实学习、译场合作和后世小说已有区分；不只以抄写整齐解释翻译。 |
+| 16 | [赵州桥的小桥洞有什么用？](../../../content/chapters/zhaozhou-bridge.md) | 次批深化 | 原作修改、后世收藏与清代引首分开；不凭墨痕臆测每一笔情绪。 |
+| 17 | [开元通宝，名字里的小谜](../../../content/chapters/tang-governance.md) | 保留主线 | 诗意与后世画像边界清楚，不补未经证实的写诗现场。 |
+| 18 | [贞观之治，怎样慢慢做到？](../../../content/chapters/tang-zhenguan-governance.md) | 首批补强 | 唐末铁券与后来的吴越水利已分开；五代和十国止年不能合并。 |
+| 19 | [骆驼背上的唐代乐舞](../../../content/chapters/tang-changan.md) | 次批深化 | 两组年份表现并立，保留只选部分政权、不是疆域地图的说明。 |
+| 20 | [玄奘带回书以后](../../../content/chapters/tang-cultural-exchange.md) | 保留主线 | 城市水路与劳动接力具体；不从热闹画面推出人人富足。 |
+| 21 | [颜真卿的草稿，为什么留下来？](../../../content/chapters/tang-yan-zhenqing-draft.md) | 保留主线 | 活字重排有独特操作，泥活字与现代木活字、雕版并用的边界已有。 |
+| 22 | [跟李白望月，轻轻想家](../../../content/chapters/tang-li-bai-jingyesi.md) | 保留主线 | 指南针与风、水深、经验共同作用已体现；古船照片不作指南针出土证据。 |
+| 23 | [杜甫为什么把春雨叫好雨？](../../../content/chapters/du-fu-spring-rain.md) | 保留主线 | 次批：把底稿中更早探索、后续用途的时间关系补进儿童讲述。 |
+| 24 | [鉴真向东出发以后做什么？](../../../content/chapters/jianzhen-eastward.md) | 首批补强 | 1076年中秋、苏辙与祝愿已有背景，元代画像身份明确。 |
+| 25 | [跟钱镠看吴越的水与田](../../../content/chapters/tang-decline.md) | 保留主线 | 定国号与统一分开、中央与地方层次有边界；修桥故事保留虚构身份。 |
+| 26 | [同一年，历史里住着谁？](../../../content/chapters/liao-song-xia-jin-yuan-parallel-regimes.md) | 保留主线 | 官驿凭证与私人商旅边界明确，现有接力动作对应主旨。 |
+| 27 | [清明上河图里，谁让城市忙起来？](../../../content/chapters/liao-song-xia-jin-yuan-song-economy-cities.md) | 保留主线 | 废丞相、内阁形成与具体办理分开，保留制度并非同年完成的说明。 |
+| 28 | [毕昇的活字，怎样换一句话？](../../../content/chapters/liao-song-xia-jin-yuan-song-inventions.md) | 保留主线 | 远航交往、补给、语言及三语碑身份已说明；不同文字不当逐字翻译。 |
+| 29 | [宋代海船，怎样在阴天辨方向？](../../../content/chapters/song-compass-navigation.md) | 保留主线 | 整理工匠经验而非发明全部技术已说明；砖瓦书页与织布情境分别标识。 |
+| 30 | [火药用在哪里，古书留下什么？](../../../content/chapters/song-gunpowder-records.md) | 次批深化 | 旧构造用途与后来装饰礼制分开；照片为清代重建形制。 |
+| 31 | [跟苏轼望月，给远方一份祝愿](../../../content/chapters/song-su-shi-moon.md) | 保留主线 | 小说想象与1592年刊本、印页与装订关系明确，保留雕版使用背景。 |
+| 32 | [跟李清照的小船听一段回忆](../../../content/chapters/li-qingzhao-rumengling.md) | 保留主线 | 首批：用江源研究等具体问题支撑观察与旧籍比较，避免只剩通用记笔记。 |
+| 33 | [元朝这么大，地方的事谁来办？](../../../content/chapters/liao-song-xia-jin-yuan-yuan-unification.md) | 保留主线 | 政务与会见用途已说明；不以虚构会谈推定各地一贯和睦。 |
+| 34 | [元代驿站，怎样把消息接下去？](../../../content/chapters/liao-song-xia-jin-yuan-yuan-exchange.md) | 保留主线 | 贸易仍在但受限制、英国动力变化与多原因边界已有，避免单因果概括。 |
+| 35 | [黄道婆把手艺带给了谁？](../../../content/chapters/huang-daopo-cotton.md) | 首批补强 | 人物贡献、经典内容与现代应用已衔接，不恢复拍手等泛化任务。 |
+| 36 | [明朝的事情，怎样从意见变成行动？](../../../content/chapters/ming-qing-ming-governance.md) | 保留主线 | 首批：补彩绘与保护的具体对象；需新增可用近照，现照片不直接承担找颜色。 |
+| 37 | [郑和的船队，怎样与远方交往？](../../../content/chapters/ming-qing-zheng-he.md) | 保留主线 | 次批：将事实卡已有减重作用补入儿童解释，与高水位过水并讲。 |
+| 38 | [宋应星为什么把工匠写进书？](../../../content/chapters/ming-qing-economy-knowledge-culture.md) | 保留主线 | 好雨的及时与润物已对应诗意动作，保留文学想象与天气记录区别。 |
+| 39 | [故宫屋脊的小兽，只是装饰吗？](../../../content/chapters/ming-forbidden-city-roof-beasts.md) | 保留主线 | 首批：明确传播地点与多工序改进，纺纱、织布分开，交错学具不冒充独创。 |
+| 40 | [《西游记》怎样从书页走到读者手里？](../../../content/chapters/ming-journey-west-print.md) | 保留主线 | 回舟、荷丛、惊鸟顺序与词意对应，不补准确作词地或同游者。 |
+| 41 | [跟徐霞客学会看山水、留记录](../../../content/chapters/ming-xu-xiake-notebook.md) | 首批补强 | 次批：在已有出土事实之外补铭文命名；看铭文需先核对新材料取景。 |
+| 42 | [承德山庄里，为什么要会见来客？](../../../content/chapters/ming-qing-frontiers-unity.md) | 保留主线 | 首批：补读史籍、考察、搜集材料，真正回答怎样写前人的历史。 |
+| 43 | [广州有商船，世界又发生了什么？](../../../content/chapters/ming-qing-late-crisis.md) | 保留主线 | 首批：补传授戒律及到日后讲授、建寺的层次，保留金堂后续营建边界。 |
+| 44 | [郑板桥怎样把竹子写进诗里？](../../../content/chapters/zheng-banqiao-bamboo.md) | 保留主线 | 竹石观察与借物表达相连，不把诗意当风力实验或真人写生。 |

@@ -6,7 +6,7 @@ import {stepVoiceIds,usesChoiceCards} from '../app/step-flow.ts';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const map=read('content/learning-map.json'),focused=read('content/focused-quests.json'),sources=new Set(read('content/sources.json').sources.map(s=>s.id)),terms=new Set(read('content/child-language-glossary.json').terms.map(t=>t.term));
 test('learning coverage refuses missing, duplicate and self-linked chapters',()=>{
- assert.equal(validateLearningMap(map,focused,sources,terms),44);
+ assert.equal(validateLearningMap(map,focused,sources,terms),focused.chapters.length);
  for(const mutate of [m=>m.chapters.pop(),m=>m.chapters[1]=m.chapters[0],m=>m.chapters[0].related[0].chapterId=m.chapters[0].id,m=>m.chapters[0].sourceIds=['UNKNOWN'],m=>m.chapters[0].glossaryTerms=['未登记词']]){
   const bad=structuredClone(map);mutate(bad);assert.throws(()=>validateLearningMap(bad,focused,sources,terms));
  }
@@ -68,7 +68,17 @@ test('parent and child share the distinction between answer cards and operation 
 test('project worksheet rules remain available but are not counted as historical facts',()=>{
  const full=read('public/content/manifest.json');let facts=0,methods=0;
  for(const c of full.tracks.flatMap(t=>t.chapters)){const d=read(`public/content/chapters/${c.id}.json`);facts+=d.facts.length;methods+=d.methodNotes.length;}
- assert.equal(full.totals.facts,facts);assert.equal(full.totals.methodNotes,methods);assert.equal(methods,74);
+ assert.equal(full.totals.facts,facts);assert.equal(full.totals.methodNotes,methods);assert.equal(methods,103);
+ for(const [id,phrase] of [
+  ['cn-ancient-07-07-song-compass-navigation','漂浮指南针儿童图'],
+  ['cn-ancient-08-05-late-crisis','本套中国古代史'],
+  ['cn-ancient-08-04-economy-knowledge-culture','古代成就很多'],
+  ['cn-ancient-08-08-xu-xiake-notebook','后世徐霞客画像和现代旅行路线图'],
+ ]){
+  const detail=read(`public/content/chapters/${id}.json`);
+  assert.ok(!detail.facts.some(item=>item.text.includes(phrase)),id);
+  assert.ok(detail.methodNotes.some(item=>item.text.includes(phrase)),id);
+ }
  const money=read('public/content/chapters/cross-02-money-history.json');
  assert.ok(!money.facts.some(f=>f.text.includes('七格')));
  assert.ok(money.methodNotes.some(n=>n.text.includes('七格')&&n.text.includes('成人')));

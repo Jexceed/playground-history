@@ -1,0 +1,43 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 跟孟浩然听春天的早晨
+					9 content list
+						10 button 第1步：时间定位：去唐朝听诗，已完成, Help: 时间定位：去唐朝听诗
+						11 button 第2步：先听完整的《春晓》，已完成, Help: 先听完整的《春晓》
+						12 button 第3步：鸟鸣在耳边，春花在心里，已完成, Help: 鸟鸣在耳边，春花在心里
+						13 button 第4步：诗里回想的是哪一晚, Help: 诗里回想的是哪一晚
+						14 button 第5步：一句问话，藏着牵挂, Help: 一句问话，藏着牵挂
+					15 text 第3步
+				16 button 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 唐朝  ·  鸟鸣在耳边，春花在心里
+				19 image 跟孟浩然听春天的早晨 · 四幅现代读诗情境
+				20 container 在春晓故事图里找鸟和花
+					21 toggle button (disabled) 选择枝头两只小鸟, Value: off
+					22 toggle button (disabled) 选择右下方粉色春花, Value: on
+				23 text 故事插画 小伙伴
+				24 heading 想到风雨，诗人牵挂这些春花。, Value: 1
+					25 text 想到风雨，诗人牵挂这些春花。
+				26 button 再听这句回应
+				27 text 找一找 ·  2 / 2 找到了
+				28 button 诗里回想的是哪一晚
+	29 close button
+	30 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	31 minimize button
+	32 text 小小历史旅行团
+33 menu bar
+	34 小小历史旅行团
+	35 File
+	36 Edit
+	37 View
+	38 Window
+	39 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

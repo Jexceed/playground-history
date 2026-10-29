@@ -1,0 +1,114 @@
+ M AGENTS.md
+ M app/ChinaHistoryDiagrams.tsx
+ M app/ObjectWorkbench.tsx
+ M app/history-lab-model.ts
+ M app/history-lab.css
+ M content/PROGRESS.md
+ M content/assets/history-lab-art-assets.json
+ M content/focused-quests.json
+ M content/runtime/content-manifest.json
+ M content/runtime/preview-manifest.json
+ M docs/CHANGELOG.md
+ M docs/DESIGN-IMPROVEMENTS.md
+ M docs/DESIGN-SPEC.md
+ M docs/TODO.md
+ M eslint.config.mjs
+ M public/content/chapters/cn-ancient-04-02-han-governance.json
+ M public/content/chapters/cn-ancient-06-07-li-bai-jingyesi.json
+ M public/content/chapters/cn-ancient-06-09-zhaozhou-bridge.json
+ M public/content/chapters/cn-ancient-06-11-du-fu-spring-rain.json
+ M public/content/chapters/cn-ancient-07-05-yuan-exchange.json
+ M public/content/chapters/cn-ancient-07-06-su-shi-moon.json
+ M public/content/chapters/cn-ancient-08-03-frontiers-unity.json
+ M public/content/manifest.json
+ M public/content/preview-manifest.json
+ M public/content/step-images/bamboo-choice-scenes-v2.jpg
+ M public/content/step-images/bridge-choice-scenes-v2.jpg
+ M public/content/step-images/confucius-reciprocity-choices-v3.jpg
+ M public/content/step-images/cotton-choice-scenes-v2.jpg
+ M public/content/step-images/dunhuang-deer-story-cards-v1.jpg
+ M public/content/step-images/han-changxin-lamp.jpg
+ M public/content/step-images/han-lamp-sleeve-side.jpg
+ D public/content/step-images/han-market-story-v1.jpg
+ M public/content/step-images/han-paper-materials-v3.jpg
+ M public/content/step-images/han-shiji-reading-v1.jpg
+ M public/content/step-images/inventions-choice-scenes-v2.jpg
+ M public/content/step-images/jianzhen-choice-scenes-v2.jpg
+ M public/content/step-images/jin-jiangnan-fields-kiln-v1.jpg
+ M public/content/step-images/jin-migration-neighbours-v1.jpg
+ M public/content/step-images/lotus-choice-scenes-v2.jpg
+ M public/content/step-images/ming-court-work-v1.jpg
+ M public/content/step-images/ming-craft-observation-v1.jpg
+ M public/content/step-images/ming-novel-bookshop-v1.jpg
+ M public/content/step-images/ming-travel-observation-v1.jpg
+ M public/content/step-images/ming-voyage-talk-v1.jpg
+ M public/content/step-images/qian-waterworks-v1.jpg
+ M public/content/step-images/qin-choice-scenes-v2.jpg
+ M public/content/step-images/qin-wall-guard-story-v1.jpg
+ M public/content/step-images/qin-wall-teamwork-story-v1.jpg
+ M public/content/step-images/rain-choice-scenes-v2.jpg
+ M public/content/step-images/shiji-choice-scenes-v2.jpg
+ M public/content/step-images/silk-post-messages-v2.jpg
+ M public/content/step-images/silk-post-story-v1.jpg
+ M public/content/step-images/song-city-work-v1.jpg
+ M public/content/step-images/sui-canal-workers-v1.jpg
+ M public/content/step-images/tang-draft-learning-v1.jpg
+ M public/content/step-images/tang-music-actions-v2.jpg
+ M public/content/step-images/tang-translation-work-v1.jpg
+ M public/content/step-images/tang-zhenguan-field-work-v1.jpg
+ M public/content/step-images/wei-luoyang-reform-v1.jpg
+ M public/content/step-images/yuan-cotton-sharing-v1.jpg
+ M public/content/step-images/yuan-local-affairs-v1.jpg
+ M reference-assets/history-lab-art/ATTRIBUTION.md
+ M scripts/generate-content-thumbnails.mjs
+ M scripts/validate-content.mjs
+ M tests/china-expansion.test.mjs
+ M tests/workbench.test.mjs
+?? .qa-tmp/
+?? app/scene-image-model.ts
+?? content/assets/choice-art-fix-assets.json
+?? docs/qa/2026-10-16-art-audit/
+?? docs/qa/2026-10-16-bridge-redraw/
+?? docs/qa/2026-10-16-choice-art-fix/
+?? docs/qa/2026-10-19-selection-contrast/assets.log
+?? docs/qa/2026-10-19-selection-contrast/before/
+?? docs/qa/2026-10-19-selection-contrast/cards-before.png
+?? docs/qa/2026-10-19-selection-contrast/content-hashes-before.json
+?? docs/qa/2026-10-19-selection-contrast/content-pack.log
+?? docs/qa/2026-10-19-selection-contrast/contrast.json
+?? docs/qa/2026-10-19-selection-contrast/index-typecheck.log
+?? docs/qa/2026-10-19-selection-contrast/lint-final.log
+?? docs/qa/2026-10-19-selection-contrast/lint.log
+?? docs/qa/2026-10-19-selection-contrast/mac-install-final.log
+?? docs/qa/2026-10-19-selection-contrast/mac-install.log
+?? docs/qa/2026-10-19-selection-contrast/status-after.txt
+?? docs/qa/2026-10-19-selection-contrast/storage-after.json
+?? docs/qa/2026-10-19-selection-contrast/storage-before.json
+?? docs/qa/2026-10-19-selection-contrast/task-only.patch
+?? docs/qa/2026-10-19-selection-contrast/test-final.log
+?? docs/qa/2026-10-19-selection-contrast/test.log
+?? docs/qa/2026-10-19-selection-contrast/typecheck-final.log
+?? docs/qa/2026-10-19-selection-contrast/typecheck.log
+?? docs/qa/2026-10-20-selection-state/app-before-ax.txt
+?? docs/qa/2026-10-20-selection-state/before-reopen-ax.txt
+?? docs/qa/2026-10-20-selection-state/before/
+?? docs/qa/2026-10-20-selection-state/content-hashes-before.json
+?? docs/qa/2026-10-20-selection-state/delivered-ax.txt
+?? docs/qa/2026-10-20-selection-state/intermediate-user-selection.png
+?? docs/qa/2026-10-20-selection-state/postlaunch-default-window.png
+?? docs/qa/2026-10-20-selection-state/restore-beginning.png
+?? docs/qa/2026-10-20-selection-state/restore-time.png
+?? docs/qa/2026-10-20-selection-state/status-after.txt
+?? docs/qa/2026-10-20-selection-state/storage-after.json
+?? docs/qa/2026-10-20-selection-state/storage-before.json
+?? docs/qa/2026-10-20-selection-state/task-only.patch
+?? docs/qa/2026-10-20-selection-state/window-restored.png
+?? public/content/step-images/chengde-explain-record-v3.jpg
+?? public/content/step-images/dufu-leaves-lantern-v3.jpg
+?? public/content/step-images/han-weigh-string-v3.jpg
+?? public/content/step-images/libai-home-moon-v3.jpg
+?? public/content/step-images/sushi-moon-letter-v3.jpg
+?? public/content/step-images/yuan-depart-feed-v3.jpg
+?? public/images/history-labs/zhaozhou-bridge-study-v2.png
+?? reference-assets/choice-art-fix/
+?? tests/scene-image-model.test.mjs

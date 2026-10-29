@@ -5,9 +5,9 @@ import {bridgeWaterSnapshot,weavingCrossings,BRIDGE_OPENINGS} from '../app/histo
 import {parseProgress} from '../app/quest-progress.ts';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 
-test('the current expansion opens China tasks and routes reference the same existing progress IDs',()=>{
+test('the current expansion keeps China tasks and routes reference the same existing progress IDs',()=>{
  const scope=read('content/preview-scope.json'),focused=read('content/focused-quests.json'),routes=read('content/play-routes.json').routes;
- const ids=new Set(scope.chapterIds);assert.equal(ids.size,44);assert.ok([...ids].every(id=>id.startsWith('cn-ancient-')));
+ const ids=new Set(scope.chapterIds);assert.equal(ids.size,scope.chapterIds.length);assert.ok([...ids].filter(id=>id.startsWith('cn-ancient-')).length>=44);
  assert.deepEqual(new Set(focused.chapters.map(c=>c.id)),ids);
  for(const route of routes){assert.equal(new Set(route.chapterIds).size,route.chapterIds.length);assert.ok(route.chapterIds.every(id=>ids.has(id)));assert.ok(fs.existsSync('public'+route.iconSrc));}
  assert.equal(routes.find(r=>r.id==='inventions').chapterIds.length,4);
@@ -46,6 +46,7 @@ test('narrative choices use concrete picture crops, shared between choices and s
    if(s.interaction?.choiceArt!=='illustrated')continue;
    pairs++;const projected=detail.gameplay.steps[i].options;
    assert.equal(new Set(s.options.map(o=>o.objectView.kind)).size,1);
+   if(s.options.every(o=>o.objectView.kind==='scene-card'))assert.equal(s.interaction.selectionFraming,'detail','Selecting a scene must show its authored crop, not the entire multi-panel sheet');
    for(const [j,o] of s.options.entries()){
     assert.ok(['scene-card','scene-strip'].includes(o.objectView.kind));
     const originals=o.objectView.panels??[o.objectView],frames=projected[j].objectView.panels??[projected[j].objectView];
@@ -54,7 +55,7 @@ test('narrative choices use concrete picture crops, shared between choices and s
    }
   }
  }
- assert.equal(pairs,21);
+ assert.ok(pairs>=27,`The 27 existing illustrated choice pairs must remain; found ${pairs}`);
  const poem=source.chapters.find(c=>c.id.endsWith('li-qingzhao-rumengling')).steps[3].options;
  const identity=o=>o.objectView.panels.map(p=>JSON.stringify({assetId:p.assetId,crop:p.crop}));
  assert.deepEqual(new Set(identity(poem[0])),new Set(identity(poem[1])),'Reordering reuses exactly the same scene crops');

@@ -1,0 +1,34 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 继续上次任务：跟孟浩然听春天的早晨, Help: 地图帮你记着呢 · 跟孟浩然听春天的早晨
+				7 button 隐藏继续学习入口, Help: 隐藏入口，保留学习记录
+				8 button (disabled) 暂停声音
+				9 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				10 text 小小历史旅行团 · 集合啦
+				11 heading Value: 1, 沿着时间河
+去历史里探险！
+					12 text 沿着时间河 去历史里探险！
+				13 text 跟诗人听鸟鸣、望远山，到秦朝量一量布，再去世界古代看金字塔和石头路。每一站，都有 人物、地点和真文物 ，还有一个等你解开的谜。
+				14 container 旅行线索：秦朝、唐三彩、李白的月亮和泉州大船
+					15 text 秦朝小工坊 长安骆驼 李白的月亮 泉州大船
+				16 pop up button 🧭 拿上地图，出发！
+				17 button 听出发口令
+				18 image 黄衣男孩、戴圆框眼镜的绿衣男孩和马尾女孩，拿着地图沿时间河出发的故事插画
+				19 text 沿着河，出发！
+				20 button 👪 家长入口 · 48章材料与说明
+	21 close button
+	22 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	23 minimize button
+	24 text 小小历史旅行团
+25 menu bar
+	26 小小历史旅行团
+	27 File
+	28 Edit
+	29 View
+	30 Window
+	31 Help

@@ -1,0 +1,41 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 跟苏轼换个地方看山
+					9 content list
+						10 button 第1步：先认识写诗的人，已完成, Help: 先认识写诗的人
+						11 button 第2步：先听完整的《题西林壁》, Help: 先听完整的《题西林壁》
+						12 button 第3步：从横看，到侧看, Help: 从横看，到侧看
+						13 button 第4步：在山里，视线被挡住了, Help: 在山里，视线被挡住了
+						14 button 第5步：再添一个看山的位置, Help: 再添一个看山的位置
+					15 text 第2步
+				16 button 继续播放声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 宋朝  ·  先听完整的《题西林壁》
+				19 image 跟苏轼换个地方看山 · 四幅读诗想象
+				20 text 故事插画 小伙伴
+				21 heading 先听完整的《题西林壁》, Value: 1
+					22 text 先听完整的《题西林壁》
+				23 button 再听这一幕
+				24 text 横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。
+				25 button 去找诗里的线索
+				26 button 👪 家长入口 · 59章材料与说明
+	27 close button
+	28 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	29 minimize button
+	30 text 小小历史旅行团
+31 menu bar
+	32 小小历史旅行团
+	33 File
+	34 Edit
+	35 View
+	36 Window
+	37 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

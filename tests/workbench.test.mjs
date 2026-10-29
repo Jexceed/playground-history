@@ -113,7 +113,8 @@ test('Han travel and paper chapters connect their own historical evidence and ac
   const all=manifest.tracks.flatMap(t=>t.chapters);
   const silk=all.find(c=>c.id==='cn-ancient-04-03-silk-road').gameplay;
   const paper=all.find(c=>c.id==='cn-ancient-04-04-han-knowledge').gameplay;
-  assert.match(silk.steps[1].audio.intro.text,/联合大月氏.*没结成联盟.*见闻/);
+  assert.match(silk.steps[1].audio.intro.text,/联合大月氏.*没(?:有)?结成联盟.*见闻/);
+  assert.match(silk.steps[1].audio.intro.text,/后来.*再次出使.*副使/);
   assert.match(silk.steps[0].inspection.audio.text,/首次出使之后/);
   assert.ok(!silk.steps.some(s=>s.audio.intro.text.includes('要从这里')));
   assert.equal(silk.steps[3].inspection.id,'qin-han-xuanquan-seal-tag');
@@ -164,7 +165,7 @@ test('Han minting joins a dated policy, real evidence and distinct tool decision
   assert.deepEqual(game.photoAlbum.photos.map(p=>p.assetId),['qin-han-haihun-wuzhu','han-wuzhu-stone-mould']);
   assert.ok(game.photoAlbum.photos.every(p=>p.period.includes('西汉')&&p.sourceLinks.length));
   assert.ok(game.steps[4].options.every(o=>o.objectView.kind==='scene-card'));
-  assert.notEqual(game.steps[4].options[0].objectView.image,game.steps[4].options[1].objectView.image);
+  assert.notDeepEqual(game.steps[4].options[0].objectView.crop,game.steps[4].options[1].objectView.crop);
   assert.match(game.steps[4].options.find(o=>o.correct).label,/核对轻重/);
   assert.match(game.steps[4].wrongNote,/不能检查轻重/);
   assert.match(game.finish.introAudio.text,/朝廷统一管.*共同规格/);

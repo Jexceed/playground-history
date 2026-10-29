@@ -1,0 +1,45 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 赵州桥的小桥洞有什么用？
+					9 content list
+						10 button 第1步：从今天的桥回到隋朝，已完成, Help: 从今天的桥回到隋朝
+						11 button 第2步：人车和河水各走哪里，已完成, Help: 人车和河水各走哪里
+						12 button 第3步：大拱两边还有小拱，已完成, Help: 大拱两边还有小拱
+						13 button 第4步：水涨高了，再看一看，已完成, Help: 水涨高了，再看一看
+						14 button 第5步：把桥的两种路分清楚, Help: 把桥的两种路分清楚
+					15 text 第4步
+				16 button (disabled) 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 隋朝  ·  水涨高了，再看一看
+				19 image 高水位，水也能从两侧小拱流过
+				20 summary 学习模型说明, Value: off
+					21 text 学习模型说明
+				22 button 赵州桥今日照片 真实材料 · 点开看一看 看大图，听材料说明
+				23 text 小伙伴
+				24 heading 水涨到小拱处，小拱也能过水。, Value: 1
+					25 text 水涨到小拱处，小拱也能过水。
+				26 button 再听这句回应
+				27 text 动手看一看 大拱和小拱一起留出水路；桥面仍让人车通行。
+				28 container 已经观察2项，共2项
+				29 text ✓ 这次变化，看清楚了
+				30 button 把桥的两种路分清楚
+	31 close button
+	32 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	33 minimize button
+	34 text 小小历史旅行团
+35 menu bar
+	36 小小历史旅行团
+	37 File
+	38 Edit
+	39 View
+	40 Window
+	41 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

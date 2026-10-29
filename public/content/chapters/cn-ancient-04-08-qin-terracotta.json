@@ -40,8 +40,8 @@
   "childEntry": {
     "id": "cn-ancient-04-08-qin-terracotta",
     "childTitle": "兵马俑留下了哪些线索？",
-    "prompt": "秦始皇陵旁有陶做的人和马。小伙伴发现它们的姿势不一样，哪些细节能让我们认识秦代的工匠和军队？",
-    "takeaway": "兵马俑是秦始皇陵的陪葬陶塑。姿态、服饰和制作细节留下秦代的线索，今天的人还在研究和保护它们。",
+    "prompt": "秦陵旁的陶人原来只有土色吗？铠甲上还留着红色，跟小伙伴找一找彩绘线索。",
+    "takeaway": "兵马俑是秦陵的陪葬陶塑，原来还涂有颜色。姿态、铠甲和彩绘残迹留下不同线索；保护好原物，才能继续研究。",
     "object": "秦代跪射俑 · 文物照片",
     "people": [
       "秦代工匠",
@@ -49,17 +49,17 @@
     ],
     "place": "秦始皇陵与今天的博物馆",
     "culture": "秦代工匠与兵马俑",
-    "care": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+    "care": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。 彩绘近照与原跪射俑照片分别登记，不据两张照片断言是同一件的前后状态；不由残红补出完整配色。今天的灰色表面不能直接代表原貌，颜色脱落也不能简单归结为见空气就氧化。",
     "preferredAssetId": "qin-kneeling-archer",
     "playableSource": "content/focused-quests.json"
   },
   "learningGuide": {
     "id": "cn-ancient-04-08-qin-terracotta",
     "theme": "材料与时间",
-    "learningGoal": "从陶塑的姿态与服饰理解陪葬用途和历史证据。",
-    "parentQuestion": "这些陶人为什么在帝陵旁？你从哪里看见姿态和服饰的线索？",
-    "observe": "指弯曲的腿和铠甲细节，知道是陶塑而不是真人。",
-    "misconception": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+    "learningGoal": "从姿态、服饰和彩绘残迹认识秦代陶塑，并理解保护原物的作用。",
+    "parentQuestion": "今天看着灰色多，能说陶俑从来没涂过颜色吗？",
+    "observe": "指真实近照的残红，说明过去有彩绘；能把实物痕迹与新画想象分开。",
+    "misconception": "不从一块残红猜整身原色；两张照片不强认同一件。",
     "evidenceStepIds": [
       "time",
       "journey",
@@ -67,7 +67,9 @@
       "takeaway"
     ],
     "sourceIds": [
-      "UNESCO-QIN-TERRACOTTA"
+      "UNESCO-QIN-TERRACOTTA",
+      "BMY-QIN-COLOR-PROTECTION",
+      "BMY-PAINTED-KNEELING-ARCHER"
     ],
     "related": [
       {
@@ -75,12 +77,13 @@
         "relation": "比较两章的材料与用途，留意人物、年代和任务不同。"
       }
     ],
-    "reviewStatus": "authored-implementation-family-test-pending",
+    "reviewStatus": "content-quality-reviewed-family-test-pending",
     "glossaryTerms": [
       "文物",
       "军队",
       "陵墓",
-      "陪葬"
+      "陪葬",
+      "彩绘"
     ]
   },
   "textbookConnection": {
@@ -89,7 +92,7 @@
       "type": "人物与材料",
       "icon": "📖",
       "title": "秦代工匠与兵马俑",
-      "childBridge": "秦始皇陵旁有陶做的人和马。小伙伴发现它们的姿势不一样，哪些细节能让我们认识秦代的工匠和军队？",
+      "childBridge": "秦陵旁的陶人原来只有土色吗？铠甲上还留着红色，跟小伙伴找一找彩绘线索。",
       "evidenceBoundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。"
     },
     "companions": [
@@ -106,7 +109,9 @@
     ],
     "sourceIds": [
       "UNESCO-QIN-TERRACOTTA",
-      "MOE-HISTORY-CURRICULUM-2022"
+      "MOE-HISTORY-CURRICULUM-2022",
+      "BMY-QIN-COLOR-PROTECTION",
+      "BMY-PAINTED-KNEELING-ARCHER"
     ]
   },
   "childStory": [
@@ -131,14 +136,14 @@
     {
       "id": "change",
       "icon": "✨",
-      "label": "姿态相同，细节仍要看原物",
-      "text": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。"
+      "label": "灰色旁边，还留下红色",
+      "text": "秦代工匠曾给陶俑涂上颜色。后来许多彩绘脱落了。这张真照片里，系带上还留着红色。先找残红，再看旁边现在主要是灰色的表面。"
     },
     {
       "id": "takeaway",
       "icon": "🗣️",
-      "label": "把陶塑的发现带回家",
-      "text": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。"
+      "label": "颜色的线索，怎样留下来",
+      "text": "留下的彩绘很脆弱，研究人员要小心保护。小伙伴想了解陶俑原来的颜色，应该核对残迹和资料，还是只照新画的故事来猜？"
     }
   ],
   "glossary": [
@@ -169,6 +174,13 @@
       "plain": "古人放在陵墓里或周围的物品。",
       "example": "秦始皇陵周围的陶人陶马，是陪葬遗存。",
       "priority": 2
+    },
+    {
+      "term": "彩绘",
+      "plain": "在器物等表面画上颜色。",
+      "example": "陶俑的红色残迹，是原有彩绘的线索。",
+      "icon": "🎨",
+      "priority": 2
     }
   ],
   "pronunciations": [
@@ -190,11 +202,11 @@
       "kind": "具体任务",
       "icon": "🔎",
       "label": "兵马俑留下了哪些线索？",
-      "question": "秦始皇陵旁有陶做的人和马。小伙伴发现它们的姿势不一样，哪些细节能让我们认识秦代的工匠和军队？"
+      "question": "秦陵旁的陶人原来只有土色吗？铠甲上还留着红色，跟小伙伴找一找彩绘线索。"
     },
-    "cta": "看陶俑的姿势和衣服",
+    "cta": "去找陶俑的彩绘线索",
     "anchor": "秦代工匠与兵马俑",
-    "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+    "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。 彩绘近照与原跪射俑照片分别登记，不据两张照片断言是同一件的前后状态；不由残红补出完整配色。今天的灰色表面不能直接代表原貌，颜色脱落也不能简单归结为见空气就氧化。",
     "evidence": [
       {
         "id": "qin-kneeling-archer",
@@ -209,6 +221,21 @@
         "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/qin-kneeling-archer.jpg"
+      },
+      {
+        "id": "qin-painted-archer-detail-2011",
+        "title": "秦代跪射俑的彩绘残迹近照",
+        "localPath": "reference-assets/history-depth/qin-painted-archer-gary-todd-2011.jpg",
+        "runtimeMaxEdge": 2000,
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Kneeling_Archer_with_Original_Paint_(9896943865).jpg",
+        "sourceFile": null,
+        "licensePath": "reference-assets/history-depth/ATTRIBUTION.md",
+        "license": "CC0 1.0 Universal",
+        "clearance": "cleared-open-license",
+        "caption": "秦代陶俑 · 2011年10月3日参观摄影 · Gary Todd / CC0",
+        "boundary": "参观者在秦始皇陵博物院拍摄的真实局部照片，可观察系带残红与灰色陶表面。不是馆方官方摄影，不据照片重建完整原色或认定出土编号；也不与本章另一张照片强称同一件的前后状态。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/qin-painted-archer-detail-2011.jpg"
       }
     ],
     "photoAlbum": null,
@@ -250,11 +277,11 @@
         "reunionAspectRatio": 1.5,
         "reunionFit": "contain",
         "coverCaption": "兵马俑留下了哪些线索？",
-        "coverNarration": "秦始皇陵旁有陶做的人和马。小伙伴发现它们的姿势不一样，哪些细节能让我们认识秦代的工匠和军队？",
-        "closingCaption": "我们带回了一个发现",
-        "closingLine": "陶塑留下姿态、服饰和工艺。",
-        "closingNarration": "兵马俑是秦始皇陵的陪葬陶塑。姿态、服饰和制作细节留下秦代的线索，今天的人还在研究和保护它们。",
-        "fictionNote": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+        "coverNarration": "秦始皇陵旁的陶人，原来只有土色吗？小伙伴发现铠甲上还留着红色，去找工匠留下的彩绘线索。",
+        "closingCaption": "陶俑原来还有颜色！",
+        "closingLine": "陶俑原来还有颜色！",
+        "closingNarration": "兵马俑是秦陵的陪葬陶塑，原来还涂有颜色。姿态、铠甲和彩绘残迹留下不同线索；保护好原物，才能继续研究。",
+        "fictionNote": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。 彩绘近照与原跪射俑照片分别登记，不据两张照片断言是同一件的前后状态；不由残红补出完整配色。今天的灰色表面不能直接代表原貌，颜色脱落也不能简单归结为见空气就氧化。",
         "reunionImage": "/content/step-images/qin-terracotta-visit-v1.jpg",
         "stationLine": "到秦朝看共同的标准、守卫边地的长城，再从兵马俑的细节认识工匠留下的线索。",
         "stationAudio": {
@@ -262,8 +289,8 @@
           "text": "到秦朝看共同的标准、守卫边地的长城，再从兵马俑的细节认识工匠留下的线索。"
         },
         "closingAudio": {
-          "id": "quest-27ad39e276fa6ce8",
-          "text": "兵马俑是秦始皇陵的陪葬陶塑。姿态、服饰和制作细节留下秦代的线索，今天的人还在研究和保护它们。"
+          "id": "quest-d1f790807a368d73",
+          "text": "兵马俑是秦陵的陪葬陶塑，原来还涂有颜色。姿态、铠甲和彩绘残迹留下不同线索；保护好原物，才能继续研究。"
         }
       },
       "sceneImage": "/content/step-images/qin-terracotta-visit-v1.jpg",
@@ -309,6 +336,7 @@
         "id": "qin-choice-scenes-v2",
         "title": "兵马俑留下了哪些线索？的情境选择分镜",
         "localPath": "reference-assets/choice-art-refinement/qin-choice-scenes-v2.png",
+        "runtimeMaxEdge": 2400,
         "sourcePage": "https://openai.com/policies/terms-of-use/",
         "sourceFile": null,
         "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
@@ -336,38 +364,38 @@
       }
     },
     "coverAudio": {
-      "id": "quest-9bde48a1cecec30c",
-      "text": "秦始皇陵旁有陶做的人和马。小伙伴发现它们的姿势不一样，哪些细节能让我们认识秦代的工匠和军队？"
+      "id": "quest-e1646b1c9372fa38",
+      "text": "秦始皇陵旁的陶人，原来只有土色吗？小伙伴发现铠甲上还留着红色，去找工匠留下的彩绘线索。"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-27ad39e276fa6ce8",
-      "text": "兵马俑是秦始皇陵的陪葬陶塑。姿态、服饰和制作细节留下秦代的线索，今天的人还在研究和保护它们。"
+      "id": "quest-d1f790807a368d73",
+      "text": "兵马俑是秦陵的陪葬陶塑，原来还涂有颜色。姿态、铠甲和彩绘残迹留下不同线索；保护好原物，才能继续研究。"
     },
     "finish": {
-      "title": "陶俑有线索！",
+      "title": "陶俑原来还有颜色！",
       "actions": [
-        "指一指陶俑弯曲的腿和铠甲，任选一处说出发现。",
-        "和家人区分真文物照片与旅行故事插画。"
+        "指近照里留下的红色，再指出旁边的灰色表面。",
+        "请家人问：今天灰色多，能说陶俑从来没涂色吗？用照片说明。"
       ],
-      "parent": "这些陶人为什么在帝陵旁？你从哪里看见姿态和服饰的线索？ 指弯曲的腿和铠甲细节，知道是陶塑而不是真人。 陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+      "parent": "接受指图或短句：残红说明过去有彩绘，今天的外观不等于初成时。不要据残迹猜全身配色；两张照片不强认同一件。彩绘保护与颜料研究由专业人员开展，不鼓励触碰、擦洗或重新涂色。",
       "sceneStepIndexes": [
         2,
         4
       ],
       "actionAudio": [
         {
-          "id": "quest-e3d4d13e6aac945e",
-          "text": "指一指陶俑弯曲的腿和铠甲，任选一处说出发现。"
+          "id": "quest-f94988243ccac3ca",
+          "text": "指近照里留下的红色，再指出旁边的灰色表面。"
         },
         {
-          "id": "quest-c68a8a8cb4b8abcf",
-          "text": "和家人区分真文物照片与旅行故事插画。"
+          "id": "quest-81bcdf95298fdc5e",
+          "text": "请家人问：今天灰色多，能说陶俑从来没涂色吗？用照片说明。"
         }
       ],
       "introAudio": {
-        "id": "quest-27ad39e276fa6ce8",
-        "text": "兵马俑是秦始皇陵的陪葬陶塑。姿态、服饰和制作细节留下秦代的线索，今天的人还在研究和保护它们。"
+        "id": "quest-d1f790807a368d73",
+        "text": "兵马俑是秦陵的陪葬陶塑，原来还涂有颜色。姿态、铠甲和彩绘残迹留下不同线索；保护好原物，才能继续研究。"
       }
     },
     "estimatedMinutes": 6,
@@ -520,7 +548,7 @@
         "title": "先弄清它为什么在这里",
         "prompt": "眼前这些人马是什么？",
         "rightNote": "是工匠制作的陶塑，属于帝陵陪葬遗存。",
-        "wrongNote": "真人会活动；这里保存的是工匠做出的陶塑。",
+        "wrongNote": "这里是今天来参观的人。我们问的是展柜里的陶人陶马，再看另一幅。",
         "sourceIds": [
           "UNESCO-QIN-TERRACOTTA"
         ],
@@ -536,7 +564,7 @@
           "speaker": "小伙伴",
           "responseSpeaker": "小伙伴",
           "response": "是工匠制作的陶塑，属于帝陵陪葬遗存。",
-          "retry": "真人会活动；这里保存的是工匠做出的陶塑。",
+          "retry": "这里是今天来参观的人。我们问的是展柜里的陶人陶马，再看另一幅。",
           "nextLabel": "从姿势和服饰找线索"
         },
         "concepts": null,
@@ -581,8 +609,8 @@
             "text": "是工匠制作的陶塑，属于帝陵陪葬遗存。"
           },
           "wrong": {
-            "id": "quest-4ba22b3301f32034",
-            "text": "真人会活动；这里保存的是工匠做出的陶塑。"
+            "id": "quest-e8227af66c744559",
+            "text": "这里是今天来参观的人。我们问的是展柜里的陶人陶马，再看另一幅。"
           }
         },
         "options": [
@@ -729,7 +757,7 @@
           "responseSpeaker": "小伙伴",
           "response": "姿势和服饰都能留下历史线索。",
           "retry": "再看腿的弯曲和身上一片片的铠甲。",
-          "nextLabel": "姿态相同，细节仍要看原物"
+          "nextLabel": "灰色旁边，还留下红色"
         },
         "concepts": null,
         "inspection": null,
@@ -783,141 +811,196 @@
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "姿态相同，细节仍要看原物",
-        "title": "姿态相同，细节仍要看原物",
-        "prompt": "怎样判断铠甲的样子？",
-        "rightNote": "看清实物与资料，再留下观察记录。",
-        "wrongNote": "故事画可以帮助想象，实物细节还要回到真图。",
+        "phase": "灰色旁边，还留下红色",
+        "title": "灰色旁边，还留下红色",
+        "prompt": "哪条系带上还留着红色？",
+        "rightNote": "残留的颜色，说明陶俑原来有彩绘。",
+        "wrongNote": "再看系带上留下的一片片红色。",
         "sourceIds": [
-          "UNESCO-QIN-TERRACOTTA"
+          "UNESCO-QIN-TERRACOTTA",
+          "BMY-QIN-COLOR-PROTECTION",
+          "BMY-PAINTED-KNEELING-ARCHER"
         ],
         "interaction": {
-          "kind": "pick",
-          "hint": "听清故事，再看看眼前的线索。",
-          "selectionFraming": "detail",
-          "choiceArt": "illustrated"
+          "kind": "scene-find",
+          "hint": "先听故事，再找留下的彩绘线索。",
+          "imageLabel": "实物照片",
+          "sceneAspectRatio": 1.1923076923076923,
+          "imageCrop": {
+            "x": 100,
+            "y": 1300,
+            "width": 3100,
+            "height": 2600,
+            "sourceWidth": 3456,
+            "sourceHeight": 5184
+          },
+          "ariaLabel": "在秦代跪射俑真实近照中找彩绘残迹",
+          "hotspots": [
+            {
+              "id": "paint",
+              "label": "系带上的红色残迹",
+              "x": 0.25,
+              "y": 0.32,
+              "width": 0.19,
+              "height": 0.5
+            },
+            {
+              "id": "clay",
+              "label": "上方现在主要是灰色的甲片",
+              "x": 0.02,
+              "y": 0.01,
+              "width": 0.23,
+              "height": 0.17
+            }
+          ],
+          "rounds": [
+            {
+              "id": "find-paint",
+              "targetId": "paint",
+              "question": "哪条系带上还留着红色？",
+              "feedback": "红色残迹说明：陶俑原来涂过颜色。",
+              "retry": "这片现在主要是灰色，再找有红色的系带。",
+              "nextLabel": "再看看灰色的表面",
+              "audio": {
+                "question": {
+                  "id": "quest-1f57363dfacfeec9",
+                  "text": "哪条系带上还留着红色？"
+                },
+                "right": {
+                  "id": "quest-7cfb24a031234c4c",
+                  "text": "红色残迹说明：陶俑原来涂过颜色。"
+                },
+                "wrong": {
+                  "id": "quest-04822afa38901019",
+                  "text": "这片现在主要是灰色，再找有红色的系带。"
+                }
+              }
+            },
+            {
+              "id": "find-clay",
+              "targetId": "clay",
+              "question": "哪一片现在主要是灰色？",
+              "feedback": "今天看见灰色，不能说它从来没有彩绘。",
+              "retry": "这里还留着红色，再看上方灰色的甲片。",
+              "nextLabel": "把彩绘的发现带走",
+              "audio": {
+                "question": {
+                  "id": "quest-e2a975492ffd7a3a",
+                  "text": "哪一片现在主要是灰色？"
+                },
+                "right": {
+                  "id": "quest-9dbeb15f60983bdb",
+                  "text": "今天看见灰色，不能说它从来没有彩绘。"
+                },
+                "wrong": {
+                  "id": "quest-dbdbf64b7947ff5d",
+                  "text": "这里还留着红色，再看上方灰色的甲片。"
+                }
+              }
+            }
+          ]
         },
         "narrative": {
           "scene": "detail",
-          "caption": "姿态相同，细节仍要看原物",
+          "caption": "灰色旁边，还留下红色",
           "speaker": "小伙伴",
           "responseSpeaker": "小伙伴",
-          "response": "看清实物与资料，再留下观察记录。",
-          "retry": "故事画可以帮助想象，实物细节还要回到真图。",
-          "nextLabel": "把陶塑的发现带回家"
+          "response": "残留的颜色，说明陶俑原来有彩绘。",
+          "retry": "再看系带上留下的一片片红色。",
+          "nextLabel": "颜色的线索，怎样留下来"
         },
         "concepts": null,
-        "inspection": null,
+        "inspection": {
+          "id": "qin-painted-archer-detail-2011",
+          "title": "跪射俑彩绘残迹近照",
+          "localPath": "reference-assets/history-depth/qin-painted-archer-gary-todd-2011.jpg",
+          "runtimeMaxEdge": 2000,
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Kneeling_Archer_with_Original_Paint_(9896943865).jpg",
+          "sourceFile": null,
+          "licensePath": "reference-assets/history-depth/ATTRIBUTION.md",
+          "license": "CC0 1.0 Universal",
+          "clearance": "cleared-open-license",
+          "caption": "秦代陶俑 · Gary Todd 2011年参观摄影",
+          "boundary": "参观者在秦始皇陵博物院拍摄的真实局部照片，可观察系带残红与灰色陶表面。不是馆方官方摄影，不据照片重建完整原色或认定出土编号；也不与本章另一张照片强称同一件的前后状态。 秦代陶俑 · 2011年10月3日参观摄影 · Gary Todd / CC0",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/qin-painted-archer-detail-2011.jpg",
+          "label": "看完整照片与彩绘说明",
+          "placement": "supporting",
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "秦陵博物院：彩绘保护研究",
+              "url": "https://bmy.com.cn/news/news/2060.html"
+            },
+            {
+              "title": "Gary Todd照片与CC0许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Kneeling_Archer_with_Original_Paint_(9896943865).jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-67bdedc0dff0f0fb",
+            "text": "这是秦代跪射俑的真实近照，系带上留着红色。馆方研究说明，陶俑原有彩绘；留下的痕迹需要小心保护。"
+          }
+        },
         "story": {
           "screenNumber": 4,
-          "title": "姿态相同，细节仍要看原物",
-          "screenText": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。",
-          "displayText": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。",
-          "narration": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。"
+          "title": "灰色旁边，还留下红色",
+          "screenText": "秦代工匠曾给陶俑涂上颜色。后来许多彩绘脱落了。这张真照片里，系带上还留着红色。先找残红，再看旁边现在主要是灰色的表面。",
+          "displayText": "秦代工匠曾给陶俑涂上颜色。后来许多彩绘脱落了。这张真照片里，系带上还留着红色。先找残红，再看旁边现在主要是灰色的表面。",
+          "narration": "秦代工匠曾给陶俑涂上颜色。后来许多彩绘脱落了。这张真照片里，系带上还留着红色。先找残红，再看旁边现在主要是灰色的表面。"
         },
-        "assetId": "qin-terracotta-visit-v1",
-        "image": "/content/step-images/qin-terracotta-visit-v1.jpg",
+        "assetId": "qin-painted-archer-detail-2011",
+        "image": "/content/step-images/qin-painted-archer-detail-2011.jpg",
         "studyImage": "/content/study-scenes/study-000fe8fd894b73aa.svg",
         "studyImageAlt": "姿态相同，细节仍要看原物",
-        "imageAlt": "兵马俑留下了哪些线索？的故事插画",
-        "imageCaption": "兵马俑留下了哪些线索？的故事插画",
-        "imageBoundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
+        "imageAlt": "秦代跪射俑的彩绘残迹近照",
+        "imageCaption": "秦代跪射俑的彩绘残迹近照",
+        "imageBoundary": "参观者在秦始皇陵博物院拍摄的真实局部照片，可观察系带残红与灰色陶表面。不是馆方官方摄影，不据照片重建完整原色或认定出土编号；也不与本章另一张照片强称同一件的前后状态。",
         "audio": {
           "lead": {
-            "id": "quest-69ea8000601ed820",
-            "text": "插画帮助想象，铠甲细节还要核对实物。怎样判断铠甲的样子？"
+            "id": "quest-3c2954f3280ebb7d",
+            "text": "这张真照片里，系带上还留着红色；旁边有灰色表面。找找两种线索。"
           },
           "transition": {
-            "id": "quest-31c781a861d75731",
-            "text": "姿态相同，细节仍要看原物。"
+            "id": "quest-f105fedfd4570269",
+            "text": "灰色旁边，还留下红色。"
           },
           "intro": {
-            "id": "quest-c6c245f29335f360",
-            "text": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。"
+            "id": "quest-bc62e8b768586037",
+            "text": "秦代工匠曾给陶俑涂上颜色。后来许多彩绘脱落了。这张真照片里，系带上还留着红色。先找残红，再看旁边现在主要是灰色的表面。"
           },
           "question": {
-            "id": "quest-a6a5317a688f9f56",
-            "text": "怎样判断铠甲的样子？"
+            "id": "quest-1f57363dfacfeec9",
+            "text": "哪条系带上还留着红色？"
           },
           "image": {
-            "id": "quest-1b3d0e1aeb24ee56",
-            "text": "这张是兵马俑留下了哪些线索？的故事插画。姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。"
+            "id": "quest-c326b9b9e5256dcf",
+            "text": "这张是秦代跪射俑的彩绘残迹近照。秦代工匠曾给陶俑涂上颜色。后来许多彩绘脱落了。这张真照片里，系带上还留着红色。先找残红，再看旁边现在主要是灰色的表面。"
           },
           "right": {
-            "id": "quest-62dadd80db27d136",
-            "text": "看清实物与资料，再留下观察记录。"
+            "id": "quest-5970aefc344e6a4b",
+            "text": "残留的颜色，说明陶俑原来有彩绘。"
           },
           "wrong": {
-            "id": "quest-293583e49d8f2568",
-            "text": "故事画可以帮助想象，实物细节还要回到真图。"
+            "id": "quest-94bd0fb340836bd7",
+            "text": "再看系带上留下的一片片红色。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-04-08-qin-terracotta-change-1",
-            "label": "放大真图，核对细节",
-            "correct": true,
-            "objectView": {
-              "kind": "scene-card",
-              "assetId": "qin-choice-scenes-v2",
-              "crop": {
-                "x": 8,
-                "y": 421,
-                "width": 609,
-                "height": 395,
-                "sourceWidth": 1254,
-                "sourceHeight": 1254
-              },
-              "image": "/content/step-images/qin-choice-scenes-v2.jpg",
-              "imageAlt": "放大真图，核对细节",
-              "imageLabel": "故事插画"
-            },
-            "image": "/content/study-scenes/study-e109c7b2437e20a2.svg",
-            "imageAlt": "看原物，查资料",
-            "audio": {
-              "id": "quest-3b8f00177dfe01e4",
-              "text": "放大真图，核对细节"
-            }
-          },
-          {
-            "id": "cn-ancient-04-08-qin-terracotta-change-2",
-            "label": "只照故事插画来判断",
-            "correct": false,
-            "objectView": {
-              "kind": "scene-card",
-              "assetId": "qin-choice-scenes-v2",
-              "crop": {
-                "x": 633,
-                "y": 421,
-                "width": 613,
-                "height": 395,
-                "sourceWidth": 1254,
-                "sourceHeight": 1254
-              },
-              "image": "/content/step-images/qin-choice-scenes-v2.jpg",
-              "imageAlt": "只照故事插画来判断",
-              "imageLabel": "故事插画"
-            },
-            "image": "/content/study-scenes/study-3e259ca532797abb.svg",
-            "imageAlt": "故事画，猜细节",
-            "audio": {
-              "id": "quest-400be1c1d123d5ab",
-              "text": "只照故事插画来判断"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "takeaway",
         "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "把陶塑的发现带回家",
-        "title": "把陶塑的发现带回家",
-        "prompt": "我们能从陶俑知道什么？",
-        "rightNote": "姿势与服饰留下线索，不能凭脸编姓名。",
-        "wrongNote": "外形不能告诉我们一个真实士兵的姓名。",
+        "phase": "颜色的线索，怎样留下来",
+        "title": "颜色的线索，怎样留下来",
+        "prompt": "想研究原来的颜色，接着看什么？",
+        "rightNote": "回到彩绘残迹和研究资料，保护好线索再判断。",
+        "wrongNote": "故事画帮助想象，不能代替陶俑留下的彩绘残迹。",
         "sourceIds": [
-          "UNESCO-QIN-TERRACOTTA"
+          "UNESCO-QIN-TERRACOTTA",
+          "BMY-QIN-COLOR-PROTECTION",
+          "BMY-PAINTED-KNEELING-ARCHER"
         ],
         "interaction": {
           "kind": "pick",
@@ -927,21 +1010,21 @@
         },
         "narrative": {
           "scene": "detail",
-          "caption": "把陶塑的发现带回家",
+          "caption": "颜色的线索，怎样留下来",
           "speaker": "小伙伴",
           "responseSpeaker": "小伙伴",
-          "response": "姿势与服饰留下线索，不能凭脸编姓名。",
-          "retry": "外形不能告诉我们一个真实士兵的姓名。",
+          "response": "回到彩绘残迹和研究资料，保护好线索再判断。",
+          "retry": "故事画帮助想象，不能代替陶俑留下的彩绘残迹。",
           "nextLabel": "带着发现回家"
         },
         "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 5,
-          "title": "把陶塑的发现带回家",
-          "screenText": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。",
-          "displayText": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。",
-          "narration": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。"
+          "title": "颜色的线索，怎样留下来",
+          "screenText": "留下的彩绘很脆弱，研究人员要小心保护。小伙伴想了解陶俑原来的颜色，应该核对残迹和资料，还是只照新画的故事来猜？",
+          "displayText": "留下的彩绘很脆弱，研究人员要小心保护。小伙伴想了解陶俑原来的颜色，应该核对残迹和资料，还是只照新画的故事来猜？",
+          "narration": "留下的彩绘很脆弱，研究人员要小心保护。小伙伴想了解陶俑原来的颜色，应该核对残迹和资料，还是只照新画的故事来猜？"
         },
         "assetId": "qin-terracotta-visit-v1",
         "image": "/content/step-images/qin-terracotta-visit-v1.jpg",
@@ -952,85 +1035,85 @@
         "imageBoundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。",
         "audio": {
           "lead": {
-            "id": "quest-3f1c12af9e24c104",
-            "text": "陶俑留下姿态与服饰，不能凭脸认出姓名。我们能从陶俑知道什么？"
+            "id": "quest-f4af0e5176e8f474",
+            "text": "彩绘残迹很脆弱，需要保护。想研究原来的颜色，核对残迹和资料，还是只照故事画猜？"
           },
           "transition": {
-            "id": "quest-03e78a7066355d16",
-            "text": "把陶塑的发现带回家。"
+            "id": "quest-8c5111df083e44c1",
+            "text": "颜色的线索，怎样留下来。"
           },
           "intro": {
-            "id": "quest-116d0b96dd24104a",
-            "text": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。"
+            "id": "quest-d799c96ccd96199c",
+            "text": "留下的彩绘很脆弱，研究人员要小心保护。小伙伴想了解陶俑原来的颜色，应该核对残迹和资料，还是只照新画的故事来猜？"
           },
           "question": {
-            "id": "quest-682b23f3402d99e4",
-            "text": "我们能从陶俑知道什么？"
+            "id": "quest-74fa5fefa6ab8a1c",
+            "text": "想研究原来的颜色，接着看什么？"
           },
           "image": {
-            "id": "quest-a883e36140e3d0de",
-            "text": "这张是兵马俑留下了哪些线索？的故事插画。今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。"
+            "id": "quest-9f614e73b15d126f",
+            "text": "这张是兵马俑留下了哪些线索？的故事插画。留下的彩绘很脆弱，研究人员要小心保护。小伙伴想了解陶俑原来的颜色，应该核对残迹和资料，还是只照新画的故事来猜？"
           },
           "right": {
-            "id": "quest-20b6dae19099e31c",
-            "text": "姿势与服饰留下线索，不能凭脸编姓名。"
+            "id": "quest-0244e6eb191dc823",
+            "text": "回到彩绘残迹和研究资料，保护好线索再判断。"
           },
           "wrong": {
-            "id": "quest-03d4176d8f4afe0e",
-            "text": "外形不能告诉我们一个真实士兵的姓名。"
+            "id": "quest-a02bc11648710606",
+            "text": "故事画帮助想象，不能代替陶俑留下的彩绘残迹。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-04-08-qin-terracotta-takeaway-1",
-            "label": "观察姿势、衣服和工艺",
+            "label": "核对彩绘残迹和资料",
             "correct": true,
             "objectView": {
               "kind": "scene-card",
               "assetId": "qin-choice-scenes-v2",
               "crop": {
                 "x": 8,
-                "y": 832,
+                "y": 421,
                 "width": 609,
-                "height": 414,
+                "height": 395,
                 "sourceWidth": 1254,
                 "sourceHeight": 1254
               },
               "image": "/content/step-images/qin-choice-scenes-v2.jpg",
-              "imageAlt": "观察姿势、衣服和工艺",
+              "imageAlt": "核对彩绘残迹和资料",
               "imageLabel": "故事插画"
             },
-            "image": "/content/study-scenes/study-ae0ab01e8185b015.svg",
-            "imageAlt": "姿态，工艺",
+            "image": "/content/study-scenes/study-903bcd205cd5e055.svg",
+            "imageAlt": "核对彩绘残迹和资料",
             "audio": {
-              "id": "quest-fa6e69595b88652f",
-              "text": "观察姿势、衣服和工艺"
+              "id": "quest-0fc2e2f34236b1e5",
+              "text": "核对彩绘残迹和资料"
             }
           },
           {
             "id": "cn-ancient-04-08-qin-terracotta-takeaway-2",
-            "label": "只凭脸猜出士兵的姓名",
+            "label": "照故事插画猜颜色",
             "correct": false,
             "objectView": {
               "kind": "scene-card",
               "assetId": "qin-choice-scenes-v2",
               "crop": {
                 "x": 633,
-                "y": 832,
+                "y": 421,
                 "width": 613,
-                "height": 414,
+                "height": 395,
                 "sourceWidth": 1254,
                 "sourceHeight": 1254
               },
               "image": "/content/step-images/qin-choice-scenes-v2.jpg",
-              "imageAlt": "只凭脸猜出士兵的姓名",
+              "imageAlt": "照故事插画猜颜色",
               "imageLabel": "故事插画"
             },
-            "image": "/content/study-scenes/study-349b4adb2aa128fb.svg",
-            "imageAlt": "看脸，猜名字",
+            "image": "/content/study-scenes/study-66dc55904d9e7b92.svg",
+            "imageAlt": "照故事插画猜颜色",
             "audio": {
-              "id": "quest-05da27923beea187",
-              "text": "只凭脸猜出士兵的姓名"
+              "id": "quest-f921c0efe6a9e9e3",
+              "text": "照故事插画猜颜色"
             }
           }
         ]
@@ -1089,6 +1172,27 @@
       "sourceIds": [
         "UNESCO-QIN-TERRACOTTA"
       ]
+    },
+    {
+      "number": 6,
+      "text": "秦兵马俑原有彩绘，研究确认其包含生漆底层与颜料层。",
+      "sourceIds": [
+        "BMY-QIN-COLOR-PROTECTION"
+      ]
+    },
+    {
+      "number": 7,
+      "text": "脆弱彩绘会因环境变化而起翘、脱落；现代保护研究针对这些材料与病害展开。",
+      "sourceIds": [
+        "BMY-QIN-COLOR-PROTECTION"
+      ]
+    },
+    {
+      "number": 8,
+      "text": "馆方对秦彩绘跪射俑的介绍同时记录陶质、铠甲姿态与彩绘遗存。",
+      "sourceIds": [
+        "BMY-PAINTED-KNEELING-ARCHER"
+      ]
     }
   ],
   "methodNotes": [],
@@ -1096,19 +1200,19 @@
     {
       "number": 1,
       "title": "时间定位：陶俑来自秦代",
-      "screenText": "这些陶人陶马属于秦始皇陵的陪葬遗存，做出来放在陵墓旁。我们先到秦朝，看看留下来的陶塑。",
+      "screenText": "秦始皇去世后安葬的地方，叫陵墓。陶人陶马作为陪葬放在周围。我们先到秦朝，看看工匠留下的陶塑。",
       "voices": [
         {
           "number": 1,
           "label": "语音 H01：",
-          "text": "这些陶人陶马属于秦始皇陵的陪葬遗存，做出来放在陵墓旁。我们先到秦朝，看看留下来的陶塑。",
+          "text": "秦始皇去世后安葬的地方，叫陵墓。陶人陶马作为陪葬放在周围。我们先到秦朝，看看工匠留下的陶塑。",
           "segments": [
             {
               "id": "cn-ancient-04-08-qin-terracotta-s01-v01-01",
               "order": 1,
               "tier": "core",
-              "text": "这些陶人陶马属于秦始皇陵的陪葬遗存，做出来放在陵墓旁。我们先到秦朝，看看留下来的陶塑。",
-              "hanCharacters": 39
+              "text": "秦始皇去世后安葬的地方，叫陵墓。陶人陶马作为陪葬放在周围。我们先到秦朝，看看工匠留下的陶塑。",
+              "hanCharacters": 41
             }
           ]
         }
@@ -1161,20 +1265,20 @@
     },
     {
       "number": 4,
-      "title": "姿态相同，细节仍要看原物",
-      "screenText": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。",
+      "title": "灰色旁边，还留下红色",
+      "screenText": "秦代工匠曾给陶俑涂上颜色。后来许多彩绘脱落了。这张真照片里，系带上还留着红色。先找残红，再看旁边现在主要是灰色的表面。",
       "voices": [
         {
           "number": 4,
           "label": "语音 H04：",
-          "text": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。",
+          "text": "秦代工匠曾给陶俑涂上颜色。后来许多彩绘脱落了。这张真照片里，系带上还留着红色。先找残红，再看旁边现在主要是灰色的表面。",
           "segments": [
             {
               "id": "cn-ancient-04-08-qin-terracotta-s04-v04-01",
               "order": 1,
               "tier": "core",
-              "text": "姿态和衣服可以帮助观察，不能凭想象补出士兵的姓名。想知道一个细节，应该回看实物和资料。",
-              "hanCharacters": 39
+              "text": "秦代工匠曾给陶俑涂上颜色。后来许多彩绘脱落了。这张真照片里，系带上还留着红色。先找残红，再看旁边现在主要是灰色的表面。",
+              "hanCharacters": 53
             }
           ]
         }
@@ -1183,20 +1287,20 @@
     },
     {
       "number": 5,
-      "title": "把陶塑的发现带回家",
-      "screenText": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。",
+      "title": "颜色的线索，怎样留下来",
+      "screenText": "留下的彩绘很脆弱，研究人员要小心保护。小伙伴想了解陶俑原来的颜色，应该核对残迹和资料，还是只照新画的故事来猜？",
       "voices": [
         {
           "number": 5,
           "label": "语音 H05：",
-          "text": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。",
+          "text": "留下的彩绘很脆弱，研究人员要小心保护。小伙伴想了解陶俑原来的颜色，应该核对残迹和资料，还是只照新画的故事来猜？",
           "segments": [
             {
               "id": "cn-ancient-04-08-qin-terracotta-s05-v05-01",
               "order": 1,
               "tier": "core",
-              "text": "今天我们看了弯曲的腿和片片铠甲。它们是陶塑留下的线索；保护好原物，后来的人还能继续研究。",
-              "hanCharacters": 40
+              "text": "留下的彩绘很脆弱，研究人员要小心保护。小伙伴想了解陶俑原来的颜色，应该核对残迹和资料，还是只照新画的故事来猜？",
+              "hanCharacters": 50
             }
           ]
         }
@@ -1225,6 +1329,26 @@
       "type": "museum-or-primary-institution-reference",
       "authorityLevel": "A-primary-institution",
       "factUse": "秦始皇陵、陪葬坑、陶人陶马、雕塑与工匠技艺的证据；不用页面的秦朝止年作为全朝代时间范围。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "BMY-QIN-COLOR-PROTECTION",
+      "title": "秦兵马俑彩绘保护技术取得突破",
+      "institution": "秦始皇帝陵博物院",
+      "url": "https://bmy.com.cn/news/news/2060.html",
+      "type": "museum-conservation-research",
+      "authorityLevel": "A",
+      "factUse": "秦俑彩绘的生漆底层与颜料层、对环境变化敏感而起翘脱落及现代保护；不采用转载页面的相对时间、游客数量或宣传称号。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "BMY-PAINTED-KNEELING-ARCHER",
+      "title": "秦彩绘跪射俑",
+      "institution": "秦始皇帝陵博物院",
+      "url": "https://bmy.com.cn/impor_collections/432.html",
+      "type": "museum-object-record",
+      "authorityLevel": "A",
+      "factUse": "秦代陶质跪射俑、铠甲与姿态、彩绘遗存的馆方说明；不由类别条目反推参观照片的出土编号。",
       "imageUse": "reference-only"
     },
     {
@@ -1279,6 +1403,7 @@
       "id": "qin-choice-scenes-v2",
       "title": "兵马俑留下了哪些线索？的情境选择分镜",
       "localPath": "reference-assets/choice-art-refinement/qin-choice-scenes-v2.png",
+      "runtimeMaxEdge": 2400,
       "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
       "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
@@ -1393,32 +1518,6 @@
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-e109c7b2437e20a2",
-      "title": "学习示意：看原物、查资料",
-      "localPath": "reference-assets/focused-quests/study-e109c7b2437e20a2.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "看原物 → 查资料",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
-      "id": "study-3e259ca532797abb",
-      "title": "学习示意：故事画、猜细节",
-      "localPath": "reference-assets/focused-quests/study-3e259ca532797abb.svg",
-      "sourcePage": null,
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
-      "license": "项目自制，供本项目使用",
-      "clearance": "cleared-project-created",
-      "caption": "故事画 → 猜细节",
-      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
-      "childVisibility": "child-ok"
-    },
-    {
       "id": "study-5c9a6f97d4c6f123",
       "title": "学习示意：把陶塑的发现带回家",
       "localPath": "reference-assets/focused-quests/study-5c9a6f97d4c6f123.svg",
@@ -1432,29 +1531,43 @@
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-ae0ab01e8185b015",
-      "title": "学习示意：姿态、工艺",
-      "localPath": "reference-assets/focused-quests/study-ae0ab01e8185b015.svg",
+      "id": "study-903bcd205cd5e055",
+      "title": "学习示意：核对彩绘残迹和资料",
+      "localPath": "reference-assets/focused-quests/study-903bcd205cd5e055.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "姿态 → 工艺",
+      "caption": "核对彩绘残迹和资料",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-349b4adb2aa128fb",
-      "title": "学习示意：看脸、猜名字",
-      "localPath": "reference-assets/focused-quests/study-349b4adb2aa128fb.svg",
+      "id": "study-66dc55904d9e7b92",
+      "title": "学习示意：照故事插画猜颜色",
+      "localPath": "reference-assets/focused-quests/study-66dc55904d9e7b92.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "看脸 → 猜名字",
+      "caption": "照故事插画猜颜色",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "qin-painted-archer-detail-2011",
+      "title": "秦代跪射俑的彩绘残迹近照",
+      "localPath": "reference-assets/history-depth/qin-painted-archer-gary-todd-2011.jpg",
+      "runtimeMaxEdge": 2000,
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Qin_Terracotta_Kneeling_Archer_with_Original_Paint_(9896943865).jpg",
+      "sourceFile": null,
+      "licensePath": "reference-assets/history-depth/ATTRIBUTION.md",
+      "license": "CC0 1.0 Universal",
+      "clearance": "cleared-open-license",
+      "caption": "秦代陶俑 · 2011年10月3日参观摄影 · Gary Todd / CC0",
+      "boundary": "参观者在秦始皇陵博物院拍摄的真实局部照片，可观察系带残红与灰色陶表面。不是馆方官方摄影，不据照片重建完整原色或认定出土编号；也不与本章另一张照片强称同一件的前后状态。",
       "childVisibility": "child-ok"
     }
   ],

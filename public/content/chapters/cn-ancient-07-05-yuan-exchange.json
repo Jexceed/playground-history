@@ -420,18 +420,19 @@
         "image": "/content/step-images/yuan-friends-reunion-v1.jpg"
       },
       {
-        "id": "yuan-relay-work-v1",
-        "title": "元代驿站核对凭证、备马与粮草的故事插画",
-        "localPath": "reference-assets/liao-song-xia-jin-yuan/yuan-relay-work-v1.png",
+        "id": "yuan-depart-feed-v3",
+        "title": "元代驿站，怎样把消息接下去？ · 情境对照新画",
+        "localPath": "reference-assets/choice-art-fix/yuan-depart-feed-v3.png",
+        "runtimeMaxEdge": 1600,
         "sourcePage": "https://openai.com/policies/terms-of-use/",
         "sourceFile": null,
-        "licensePath": null,
-        "license": "项目自制，供本项目使用",
+        "licensePath": "reference-assets/choice-art-fix/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目故事与学习活动",
         "clearance": "cleared-project-created",
-        "caption": "现代教学故事插画，不是历史照片。",
-        "boundary": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。",
+        "caption": "现代教学情境插画，不是文物照片或历史现场",
+        "boundary": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。 同组场景用于比较选项所说的动作或对象，不能据生成细节推断古代器物的精确构造。",
         "childVisibility": "child-ok",
-        "image": "/content/step-images/yuan-relay-work-v1.jpg"
+        "image": "/content/step-images/yuan-depart-feed-v3.jpg"
       }
     ],
     "coverImage": "/content/step-images/yuan-paiza-met-front.jpg",
@@ -862,7 +863,8 @@
         "interaction": {
           "kind": "pick",
           "hint": "听听问题，看看图里的线索。",
-          "selectionFraming": "detail"
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
         },
         "narrative": {
           "scene": "detail",
@@ -927,16 +929,16 @@
             "correct": true,
             "objectView": {
               "kind": "scene-card",
-              "assetId": "yuan-relay-work-v1",
+              "assetId": "yuan-depart-feed-v3",
               "crop": {
-                "x": 1210,
-                "y": 140,
-                "width": 315,
-                "height": 250,
-                "sourceWidth": 1536,
-                "sourceHeight": 1024
+                "x": 4,
+                "y": 2,
+                "width": 1078,
+                "height": 723,
+                "sourceWidth": 1086,
+                "sourceHeight": 1448
               },
-              "image": "/content/step-images/yuan-relay-work-v1.jpg",
+              "image": "/content/step-images/yuan-depart-feed-v3.jpg",
               "imageAlt": "换马，带文书出发",
               "imageLabel": "故事插画"
             },
@@ -953,16 +955,16 @@
             "correct": false,
             "objectView": {
               "kind": "scene-card",
-              "assetId": "yuan-relay-work-v1",
+              "assetId": "yuan-depart-feed-v3",
               "crop": {
-                "x": 735,
-                "y": 160,
-                "width": 460,
-                "height": 350,
-                "sourceWidth": 1536,
-                "sourceHeight": 1024
+                "x": 18,
+                "y": 742,
+                "width": 1049,
+                "height": 704,
+                "sourceWidth": 1086,
+                "sourceHeight": 1448
               },
-              "image": "/content/step-images/yuan-relay-work-v1.jpg",
+              "image": "/content/step-images/yuan-depart-feed-v3.jpg",
               "imageAlt": "继续给槽里的马备草",
               "imageLabel": "故事插画"
             },
@@ -1406,6 +1408,20 @@
     }
   ],
   "assets": [
+    {
+      "id": "yuan-depart-feed-v3",
+      "title": "元代驿站，怎样把消息接下去？ · 情境对照新画",
+      "localPath": "reference-assets/choice-art-fix/yuan-depart-feed-v3.png",
+      "runtimeMaxEdge": 1600,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/choice-art-fix/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学情境插画，不是文物照片或历史现场",
+      "boundary": "Met1993.256为元代13世纪晚期铁嵌银通行牌，与甘肃同类藏品不是同一件；不编造持牌人或旅程。插画圆牌为空白学具，不是真牌复原。驿站以官方事务为主，不是所有人随意取马的旅馆；私人商路与官驿使用范围分开。洛阳桥为宋代始建、后世维修的现状对照，不能当作元代新建。 同组场景用于比较选项所说的动作或对象，不能据生成细节推断古代器物的精确构造。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "study-6fe70b1c401f38ea",
       "title": "学习示意：明朝、14—17世纪",

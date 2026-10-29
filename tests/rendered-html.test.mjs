@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
-import { access, readFile, stat } from "node:fs/promises";
+import { access, readdir, readFile, stat } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import test from "node:test";
 
@@ -15,13 +15,13 @@ async function render() {
   }, { waitUntil() {}, passThroughOnException() {} });
 }
 
-test("renders only the current China local playtest scope", async () => {
+test("renders the current local playtest entry without duplicate station choices", async () => {
  const response=await render(); assert.equal(response.status,200); const html=await response.text();
  assert.match(html,/小小历史旅行团/); assert.match(html,/章材料与说明/);assert.match(html,/家长入口/);
  assert.match(html,/history-tour-river-v4/);assert.match(html,/river-hero/);assert.doesNotMatch(html,/focus-welcome/);
  assert.match(html,/拿上地图，出发/);
  assert.doesNotMatch(html,/下一站，|旅行团插画地图/);
- for(const label of ["世界古代史","远古时期","人民解放战争","跨时代小发现","打开五步故事","speechSynthesis"])assert.ok(!html.includes(label),label);
+ for(const label of ["远古时期","人民解放战争","跨时代小发现","打开五步故事","speechSynthesis"])assert.ok(!html.includes(label),label);
  const imageSources=[...html.matchAll(/<img[^>]*src="([^"]+)"/g)].map(match=>match[1]);
  assert.ok(imageSources.length>=5);
  assert.ok(imageSources.every(src=>src.startsWith("/images/")||src.startsWith("/content/")), "local preview images must not require a remote image optimizer");
@@ -31,10 +31,14 @@ test("renders only the current China local playtest scope", async () => {
 test("keeps the complete source library and emits a separate focused UI bundle",async()=>{
  const read=async p=>JSON.parse(await readFile(new URL(p,root),"utf8"));
  const full=await read("public/content/manifest.json"),preview=await read("public/content/preview-manifest.json"),scope=await read("content/preview-scope.json");
- assert.equal(full.tracks.length,7);assert.equal(full.totals.chapters,112);assert.equal(full.totals.coreQuestSteps,560);
- assert.equal(preview.totals.chapters,44);assert.equal(preview.totals.coreQuestSteps,220);
+ const productMap=await read("content/product-map.json");
+ const catalogs=await Promise.all(productMap.tracks.map(track=>read(track.catalogPath)));
+ const sourceChapterIds=new Set(catalogs.flatMap(catalog=>catalog.chapters.map(chapter=>chapter.id)));
+ assert.equal(full.tracks.length,productMap.tracks.length);assert.equal(full.totals.chapters,sourceChapterIds.size);assert.equal(full.totals.coreQuestSteps,sourceChapterIds.size*5);
+ assert.deepEqual(new Set(full.tracks.flatMap(track=>track.chapters.map(chapter=>chapter.id))),sourceChapterIds);
+ assert.equal(preview.totals.chapters,scope.chapterIds.length);assert.equal(preview.totals.coreQuestSteps,scope.chapterIds.length*5);
  assert.deepEqual(new Set(preview.tracks.flatMap(t=>t.chapters.map(c=>c.id))),new Set(scope.chapterIds));
- assert.equal((await read("content/runtime/progress-index.json")).length,112);
+ assert.deepEqual(new Set((await read("content/runtime/progress-index.json")).map(chapter=>chapter.id)),sourceChapterIds);
  const voiceLines=new Map((await read("public/audio/voice-lines.json")).lines.map(l=>[l.id,l.text]));
  let segmentCount=0;
  for(const c of full.tracks.flatMap(t=>t.chapters)){
@@ -50,6 +54,18 @@ test("keeps the complete source library and emits a separate focused UI bundle",
   }
  }
  assert.equal(segmentCount,full.totals.audioSegments);
+});
+
+test("preserves registered runtime image resolution for evidence and narrative assets",async()=>{
+ const read=async p=>JSON.parse(await readFile(new URL(p,root),'utf8'));
+ const registries=await Promise.all((await readdir(new URL('content/assets/',root))).filter(name=>name.endsWith('.json')).map(name=>read(`content/assets/${name}`)));
+ const sizes=new Map(registries.flatMap(registry=>registry.assets).filter(asset=>asset.runtimeMaxEdge!==undefined).map(asset=>[asset.id,asset.runtimeMaxEdge]));
+ const manifest=await read('public/content/preview-manifest.json');
+ for(const chapter of manifest.tracks.flatMap(track=>track.chapters)){
+  const detail=await read(`public/content/chapters/${chapter.id}.json`);
+  for(const asset of detail.assets.filter(asset=>sizes.has(asset.id)))assert.equal(asset.runtimeMaxEdge,sizes.get(asset.id),asset.id);
+  for(const asset of [detail.gameplay.coverAsset,...detail.gameplay.narrativeAssets??[]].filter(asset=>asset&&sizes.has(asset.id)))assert.equal(asset.runtimeMaxEdge,sizes.get(asset.id),asset.id);
+ }
 });
 
 test("focused steps retain authored prompts, appropriate interaction structures and concrete endings",async()=>{

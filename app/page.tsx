@@ -17,6 +17,7 @@ import { playVoiceSequence, stopVoice, pauseVoice, resumeVoice, subscribeVoice, 
 import { emptyProgress, parseProgress, mergeProgressImport, completedQuestSteps, recordCompletedStep, nextUnfinishedStep, listenOptions, PROGRESS_STORAGE_KEY, LEGACY_COMPLETED_KEY, type LocalProgress } from "./quest-progress";
 import { useModal } from "./use-modal";
 import {ProgressTransfer} from "./ProgressTransfer";
+import {buildStationGroups, type HistoryStation, type StationAppearance} from "./station-groups";
 import contentManifestJson from "../content/runtime/preview-manifest.json";
 import playRoutes from "../content/play-routes.json";
 
@@ -160,7 +161,7 @@ type ManifestChapter = {
 };
 
 type ManifestTrack = {
-  periods:Array<{id:string;years?:string;stationYears?:string}>;
+  periods:Array<{id:string;label:string;years?:string;stationYears?:string;learningContext?:{childIntro?:string}|null}>;
   id: string;
   label: string;
   range: string;
@@ -171,19 +172,11 @@ const contentManifest = contentManifestJson as unknown as {
   contentVersion: string;
   tracks: ManifestTrack[];
   totals: { chapters: number };
+  scope: {label:string};
 };
 
 // 每一站对应内容包里的一段时期；顺序与 content/timeline.json、product-map.json 一致。
-type Station = {
-  id: string;
-  periodId: string;
-  years: string;
-  title: string;
-  childLine: string;
-  iconSrc: string;
-};
-
-const allStations: Station[] = [
+const allStations: StationAppearance[] = [
   { id: "early", periodId: "ancient-origins", years: "约200万年前—约前21世纪", title: "远古时期", childLine: "从一堆火和一只彩陶盆出发", iconSrc: "/images/history-stations/early.webp" },
   { id: "states", periodId: "xia-shang-western-zhou", years: "约前21世纪—前771年", title: "夏商西周", childLine: "看看大鼎和龟甲会说什么", iconSrc: "/images/history-stations/states.webp" },
   { id: "change", periodId: "spring-autumn-warring-states", years: "前770年—前221年", title: "春秋战国", childLine: "跟着竹简和水渠寻找新办法", iconSrc: "/images/history-stations/change.webp" },
@@ -193,7 +186,7 @@ const allStations: Station[] = [
   { id: "sui", periodId: "sui", years: "581年—618年", title: "隋朝", childLine: "跟着粮船走运河，看南北怎样连起来", iconSrc: "/images/history-stations/sui.webp" },
   { id: "tang", periodId: "tang", years: "618年—907年", title: "唐朝", childLine: "从贞观之治走到长安小骆驼和月亮", iconSrc: "/images/history-stations/tang.webp" },
   { id: "five-dynasties", periodId: "five-dynasties-ten-kingdoms", years: "907年—960年", title: "五代十国", childLine: "从钱镠铁券，走到吴越的水与田", iconSrc: "/images/history-stations/five-dynasties.webp" },
-  { id: "song", periodId: "song", years: "916年—1279年 · 宋960年起", title: "宋朝与辽·西夏·金", childLine: "看并立的政权、长卷、技术与月亮", iconSrc: "/images/history-stations/cities.webp" },
+  { id: "song", periodId: "song", years: "960—1279年", title: "宋朝", childLine: "看并立的政权、长卷、技术与月亮", iconSrc: "/images/history-stations/cities.webp" },
   { id: "yuan", periodId: "yuan", years: "1271年—1368年", title: "元朝", childLine: "看地方怎样办事，跟驿马把消息送远", iconSrc: "/images/history-stations/yuan.webp" },
   { id: "ming", periodId: "ming", years: "1368年—1644年", title: "明朝", childLine: "大船、故宫、书坊和游记排成一队", iconSrc: "/images/history-stations/later.webp" },
   { id: "qing", periodId: "qing", years: "1644年—1840年前", title: "清朝", childLine: "到承德会见，再去广州看世界变化", iconSrc: "/images/history-stations/qing.webp" },
@@ -209,8 +202,7 @@ const allStations: Station[] = [
   { id: "newera", periodId: "new-era", years: "2012年至今", title: "新时代", childLine: "高铁穿过青山，卫星飞上天空", iconSrc: "/images/history-stations/newera.webp" },
 ];
 
-const periodLabels=new Map(contentManifest.tracks.flatMap(t=>t.periods.map(p=>[p.id,p] as const)));
-const stations = allStations.filter(station => contentManifest.tracks.some(track=>track.chapters.some(chapter=>chapter.periodId===station.periodId))).map(station=>({...station,years:periodLabels.get(station.periodId)?.stationYears??station.years}));
+const stationGroups = buildStationGroups(contentManifest.tracks, allStations);
 const allProgressChapters = new Map(progressIndex.map(chapter => [chapter.id, chapter]));
 
 const questStepBadgeById: Record<GameStep["id"], { src: string; alt: string; fallback: string }> = {
@@ -242,14 +234,10 @@ function QuestStepBadge({ stepId, labelled = false }: { stepId: GameStep["id"]; 
   );
 }
 
-const chaptersByPeriod = new Map<string, ManifestChapter[]>();
 const chaptersById = new Map<string, ManifestChapter>();
 for (const track of contentManifest.tracks) {
   for (const chapter of track.chapters) {
     chaptersById.set(chapter.id, chapter);
-    const list = chaptersByPeriod.get(chapter.periodId) ?? [];
-    list.push(chapter);
-    chaptersByPeriod.set(chapter.periodId, list);
   }
 }
 
@@ -419,7 +407,7 @@ export default function Home() {
   };
   const openRoute=(route:typeof playRoutes.routes[number])=>{
     haltVoice();setStationPickerOpen(false);
-    setPanel({kicker:'小小旅行团 · 中国历史专题',iconSrc:route.iconSrc,title:route.title,years:'不同朝代，各有故事',line:route.line,chapters:route.chapterIds.flatMap(id=>chaptersById.has(id)?[chaptersById.get(id)!]:[]),routeId:route.id,welcome:{text:route.intro,voiceId:route.voiceId}});
+    setPanel({kicker:route.kicker,iconSrc:route.iconSrc,title:route.title,years:route.years,line:route.line,chapters:route.chapterIds.flatMap(id=>chaptersById.has(id)?[chaptersById.get(id)!]:[]),routeId:route.id,welcome:{text:route.intro,voiceId:route.voiceId}});
     void speakSequence([route.voiceId]);focusStationDialog();
   };
   const goHome = () => {
@@ -433,17 +421,18 @@ export default function Home() {
     setConfirmClear(false); window.scrollTo({ top: 0 });
   };
 
-  const openStation = (station: Station, index: number) => {
+  const openStation = (station: HistoryStation) => {
     haltVoice(); setStationPickerOpen(false);
-    const welcome=(chaptersByPeriod.get(station.periodId)??[]).find(c=>c.gameplay.presentation?.story)?.gameplay.presentation?.story;
+    const chapters=station.chapterIds.map(id=>chaptersById.get(id)!);
+    const welcome=chapters.find(c=>c.gameplay.presentation?.story)?.gameplay.presentation?.story;
     if(welcome)void speakSequence([welcome.stationAudio.id]);
     setPanel({
-      kicker: `第${index + 1}站 · 中华文明时间河`,
+      kicker: `${station.trackLabel} · 第${station.number}站`,
       iconSrc: station.iconSrc,
       title: station.title,
       years: station.years,
-      line: station.childLine,
-      chapters: chaptersByPeriod.get(station.periodId) ?? [],
+      line: station.childLine === welcome?.stationLine ? "" : station.childLine,
+      chapters,
     });
     focusStationDialog();
   };
@@ -564,7 +553,7 @@ export default function Home() {
         <details className="local-progress-controls">
           <summary><span>学习记录与迁移</span><small>本机保存 {progress.completed.length} 个完成标记</small><span className="disclosure-chevron" aria-hidden="true">⌄</span></summary>
           <div className="local-progress-body">
-          <div><strong>本机学习记录</strong><p className="overview-home-context">历史主轴依据：中国义务教育历史课程标准、中国国家博物馆“古代中国”基本陈列。首页旅行图为故事插画。</p><p>本轮已走完 {progress.completed.filter(id=>chaptersById.has(id)).length} 个任务，本机共保存 {progress.completed.length} 个完成标记。完成标记记录玩法进度，不代表已经理解。{resumeChapter ? `正在探索：${resumeChapter.childEntry.childTitle}` : "可以从任意历史站出发。"}</p></div>
+          <div><strong>本机学习记录</strong><p className="overview-home-context">中国历史主轴依据义务教育历史课程标准与中国国家博物馆“古代中国”基本陈列；世界历史按独立时间线选取故事，具体材料见各章出处。首页旅行图为故事插画。</p><p>本轮已走完 {progress.completed.filter(id=>chaptersById.has(id)).length} 个任务，本机共保存 {progress.completed.length} 个完成标记。完成标记记录玩法进度，不代表已经理解。{resumeChapter ? `正在探索：${resumeChapter.childEntry.childTitle}` : "可以从任意历史站出发。"}</p></div>
           {confirmClear ? <div><p>清空这台设备中的完成标记和进行中故事？</p><button onClick={clearProgress}>确认清空</button><button onClick={() => setConfirmClear(false)}>保留记录</button></div> : <button onClick={() => setConfirmClear(true)}>清空本机记录</button>}
           {storageNotice && <p role="status">{storageNotice}</p>}
           <ProgressTransfer progress={progress} contentVersion={contentManifest.contentVersion} onImport={raw=>{saveProgress(mergeProgressImport(raw,progressRef.current,allProgressChapters,contentManifest.contentVersion));setResumeVisibility(false);}}/>
@@ -579,7 +568,7 @@ export default function Home() {
             <div className="river-hero-copy">
               <p className="eyebrow">小小历史旅行团 · 集合啦</p>
               <h1>沿着时间河<br /><em>去历史里探险！</em></h1>
-              <p className="hero-copy">到秦朝量一量布，去长安看唐三彩，再跟着李白抬头望月。每一站，都有<strong>人物、地点和真文物</strong>，还有一个等你解开的谜。</p>
+              <p className="hero-copy">跟诗人听鸟鸣、望远山，到秦朝量一量布，再去世界古代看金字塔和石头路。每一站，都有<strong>人物、地点和真文物</strong>，还有一个等你解开的谜。</p>
               <div className="hero-river-teaser" aria-label="旅行线索：秦朝、唐三彩、李白的月亮和泉州大船">
                 <span><Image unoptimized src="/images/history-stations/united.webp" alt="" width={450} height={650} /><small>秦朝小工坊</small></span>
                 <span><Image unoptimized src="/images/history-clue-camel-v2.webp" alt="" width={400} height={650} /><small>长安骆驼</small></span>
@@ -621,14 +610,17 @@ export default function Home() {
                 <ReturnToRiverButton className="panel-nav-button" panelReturn onClick={closePanel}/>
               </header>
               <div className="station-panel-body">
-              <div className="picker-mode" role="group" aria-label="选择出发方式"><button aria-pressed={pickerMode==='periods'} onClick={()=>{setPickerMode('periods');void speakSequence(['river-intro']);}}>按朝代走</button><button aria-pressed={pickerMode==='topics'} onClick={()=>{setPickerMode('topics');void speakSequence(['route-picker-intro']);}}>挑个主题</button></div>
-              {pickerMode==='topics'?<div className="topic-picker-grid">{playRoutes.routes.map(route=><button key={route.id} data-route-id={route.id} onClick={()=>openRoute(route)}><Image src={route.iconSrc} alt="" width={80} height={80} unoptimized/><strong>{route.title}</strong><span>{route.line}</span><small>{route.chapterIds.filter(id=>chaptersById.has(id)).length}个故事 →</small></button>)}</div>:<ol className="station-picker-grid" aria-label="中国古代全部历史站">
-                {stations.map((station,index)=><li key={station.id}><button data-period-id={station.periodId} onClick={()=>openStation(station,index)} aria-label={`去${station.title}，${chaptersByPeriod.get(station.periodId)?.length??0}个故事`}>
-                  <span className="picker-number" aria-hidden="true">{index+1}</span>
+              <div className="picker-mode" role="group" aria-label="选择出发方式"><button aria-pressed={pickerMode==='periods'} onClick={()=>{setPickerMode('periods');void speakSequence(['river-intro']);}}>选个历史站</button><button aria-pressed={pickerMode==='topics'} onClick={()=>{setPickerMode('topics');void speakSequence(['route-picker-intro']);}}>挑个主题</button></div>
+              {pickerMode==='topics'?<div className="topic-picker-grid">{playRoutes.routes.map(route=><button key={route.id} data-route-id={route.id} onClick={()=>openRoute(route)}><Image src={route.iconSrc} alt="" width={80} height={80} unoptimized/><strong>{route.title}</strong><span>{route.line}</span><small>{route.chapterIds.filter(id=>chaptersById.has(id)).length}个故事 →</small></button>)}</div>:<div className="station-track-groups">{stationGroups.map(group=><section className="station-track-group" key={group.id} data-track-id={group.id} aria-labelledby={`station-track-${group.id}`}>
+                <header><h3 id={`station-track-${group.id}`}>{group.label}</h3><span>{group.stations.length}个历史站</span></header>
+                <ol className="station-picker-grid" aria-label={`${group.label}历史站`}>
+                {group.stations.map(station=><li key={station.id}><button data-period-id={station.periodId} onClick={()=>openStation(station)} aria-label={`去${station.title}，${station.chapterIds.length}个故事`}>
+                  <span className="picker-number" aria-hidden="true">{station.number}</span>
                   <Image src={station.iconSrc} alt="" width={90} height={90} unoptimized/>
-                  <strong>{station.title}</strong><small>{station.years.split(" · ").map((token,i,all)=><span className="year-token" key={token}>{token}{i<all.length-1?' · ':''}</span>)}</small><span className="picker-count">{chaptersByPeriod.get(station.periodId)?.length??0}个故事 <span aria-hidden="true">→</span></span>
+                  <strong>{station.title}</strong><small>{station.years.split(" · ").map((token,i,all)=><span className="year-token" key={token}>{token}{i<all.length-1?' · ':''}</span>)}</small><span className="picker-count">{station.chapterIds.length}个故事 <span aria-hidden="true">→</span></span>
                 </button></li>)}
-              </ol>}
+                </ol>
+              </section>)}</div>}
               </div>
             </> : panel && <>
             <header className="panel-head dialog-header">
@@ -744,12 +736,12 @@ export default function Home() {
       {screen === "quest" && questChapter && questStarted && questStep >= questChapter.gameplay.steps.length && (
         <section className={`quest-finish focus-finish pop-in ${questChapter.gameplay.presentation?"workbench-finish":""}`} data-retell-state={finishRevealed?"answer":"first"} data-voice-id={questChapter.gameplay.finish.introAudio.id}>
           <p className="eyebrow">{questChapter.gameplay.presentation?.story?"小小旅行团 · 带着发现回家":"🌟 你找到这次的小发现啦"}</p><h1>{questChapter.gameplay.finish.title}</h1>
+          <FinishNavigation onHome={goHome} onReplay={()=>openQuest(questChapter,true)}/>
           {questChapter.gameplay.presentation ? <div className="workbench-finish-picture"><Image src={questChapter.gameplay.presentation.story?.reunionImage??questChapter.gameplay.presentation.sceneImage} alt={questChapter.gameplay.presentation.story?.reunionAlt??questChapter.gameplay.presentation.sceneAlt} width={1536} height={1024} style={questChapter.gameplay.presentation.story?.reunionAspectRatio?{aspectRatio:questChapter.gameplay.presentation.story.reunionAspectRatio,objectFit:questChapter.gameplay.presentation.story.reunionFit,background:questChapter.gameplay.presentation.story.reunionFit==='contain'?'#f4ead3':undefined}:undefined} unoptimized/><p>{questChapter.gameplay.presentation.story?.closingLine}</p></div> : <>
           <p className="finish-instruction">不用背答案，和家人试这两个动作。</p>
           <div className="finish-action-cards">{questChapter.gameplay.finish.actions.map((action,index)=>{const step=questChapter.gameplay.steps[questChapter.gameplay.finish.sceneStepIndexes?.[index]??index+2];const done=completedExtensionIds.has(`finish-${index}`);return <article key={action}><Image src={step.studyImage} alt={step.studyImageAlt} width={900} height={430} unoptimized/><span className="finish-action-number">{index+1}</span><p>{action}</p><button className="listen-button" onClick={()=>listen(questChapter.gameplay.finish.actionAudio[index].id)}>🔊 听这个动作</button><button className={`tried-action ${done?"done":""}`} aria-pressed={done} onClick={()=>setCompletedExtensionIds(current=>{const next=new Set(current);if(done)next.delete(`finish-${index}`);else next.add(`finish-${index}`);return next})}>{done?"✓ 试过啦":"✋ 我试过啦"}</button></article>})}</div>
           </>}
           <button className="listen-button quest-finish-listen" onClick={()=>{setFinishRevealed(true);listen(questChapter.gameplay.finishAudio.id)}}><SoundIcon/>听听这次发现</button>
-          <FinishNavigation onHome={goHome} onReplay={()=>openQuest(questChapter,true)}/>
           {finishRevealed&&<p className="final-answer">{questChapter.childEntry.takeaway}</p>}
           {questChapter.gameplay.presentation&&<details className="family-extra"><summary>{questChapter.gameplay.presentation.familyLabel??"和家人再量一量"} <span>＋</span></summary><WorkbenchFamily presentation={questChapter.gameplay.presentation} onRefine={sides=>{const step=questChapter.gameplay.steps.find(s=>s.interaction?.kind==='circle-refine');const stage=step?.interaction?.refinements?.find(r=>r.sides===sides);if(stage)listen(stage.audio.id);else if(step)listen(step.audio.lead?.id??step.audio.intro.id);}}>{questChapter.gameplay.presentation.familyMode==='actions'&&questChapter.gameplay.photoAlbum&&<PhotoAlbumButton album={questChapter.gameplay.photoAlbum} onOpen={()=>openPhotoAlbum(questChapter.gameplay.photoAlbum!)} />}<div className="workbench-family-directions">{questChapter.gameplay.finish.actions.map((action,index)=><p key={action}><button className="workbench-sound" aria-label={`听第${index+1}个动作`} onClick={()=>listen(questChapter.gameplay.finish.actionAudio[index].id)}><span aria-hidden="true">▶</span></button>{action}</p>)}</div></WorkbenchFamily></details>}
           <details className="focus-parent-note"><summary>👪 家长怎么接话？</summary><p>{questChapter.gameplay.finish.parent}</p><p>{questChapter.gameplay.boundary}</p></details>

@@ -1,6 +1,7 @@
 /* A shared object workbench, enabled by chapter presentation data. */
 .history-app.workbench-active { background:#fcf6e8; }
 .history-app.workbench-active.task-step-active { padding-bottom:0; }
+.history-app.workbench-active.task-step-active .object-quest { height:calc(100svh - var(--app-header-height) - var(--app-footer-height)); }
 .history-app.workbench-active .object-quest { width:min(var(--app-content-width),calc(100% - 2 * var(--app-side-gutter))); margin:0 auto; height:calc(100svh - var(--app-header-height)); display:grid; grid-template-columns:var(--layout-columns); grid-template-rows:auto minmax(0,1fr); align-items:start; column-gap:var(--layout-column-gap); row-gap:var(--layout-row-gap); padding:var(--layout-page-top) 0 var(--layout-page-bottom); }
 .workbench-scene-column { min-width:0; display:flex; flex-direction:column; gap:var(--layout-row-gap); }
 .workbench-scene { position:relative; border:4px solid #edcf91; border-radius:28px 10px 28px 10px; overflow:hidden; box-shadow:0 10px 0 #d5b576,0 18px 45px #73552319; background:#dba765; }

@@ -1,0 +1,46 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 手写书怎样传下知识
+					9 content list
+						10 button 第1步：一本六百多年前的书，已完成, Help: 一本六百多年前的书
+						11 button 第2步：每一本都需要人的手，已完成, Help: 每一本都需要人的手
+						12 button 第3步：书里的画，也在讲读书, Help: 书里的画，也在讲读书
+						13 button 第4步：先让另一本也有这些文字, Help: 先让另一本也有这些文字
+						14 button 第5步：书页怎样变成能翻阅的书, Help: 书页怎样变成能翻阅的书
+					15 text 第3步
+				16 button 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 中古世界  ·  书里的画，也在讲读书
+				19 image 14世纪博洛尼亚手稿中的亚里士多德讲课图
+				20 container 观察材料并选择对应对象
+					21 toggle button (disabled) 选择高台前讲书的人, Value: on
+					22 toggle button (disabled) 选择拿书听读的人, Value: off
+				23 text 文物图像
+				24 button 14世纪手稿中的讲课图 真实材料 · 点开看一看 看真实材料，听说明
+				25 text 小伙伴
+				26 heading 高台上的人对着书，是画中的讲解者。, Value: 1
+					27 text 高台上的人对着书，是画中的讲解者。
+				28 button 再听这句回应
+				29 text 找一找 ·  1 / 2 找到了
+				30 button 再找拿着书的听读者
+				31 button 👪 家长入口 · 59章材料与说明
+	32 close button
+	33 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	34 minimize button
+	35 text 小小历史旅行团
+36 menu bar
+	37 小小历史旅行团
+	38 File
+	39 Edit
+	40 View
+	41 Window
+	42 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

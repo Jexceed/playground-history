@@ -1,6 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
 import {collectDesktopAssets,publicPath} from '../scripts/lib/desktop-assets.mjs';
 import {exportProgress,mergeProgressImport} from '../app/quest-progress.ts';
 
@@ -20,9 +22,11 @@ test('import merges completion flags and never replaces valid progress with an i
  assert.deepEqual(existing.completed,[qin]);
 });
 test('the desktop package includes every visible asset and voice without hidden chapter files or research originals',()=>{
- const plan=collectDesktopAssets(process.cwd());assert.equal(plan.chapters,44);assert.equal(plan.stations,11);assert.equal(plan.voiceLines,JSON.parse(fs.readFileSync('content/runtime/preview-manifest.json','utf8')).totals.localVoiceLines);
- const chapterFiles=plan.assets.filter(p=>p.startsWith('/content/chapters/'));assert.equal(chapterFiles.length,44);
- assert.ok(chapterFiles.every(p=>p.startsWith('/content/chapters/cn-ancient-')));
+ const preview=JSON.parse(fs.readFileSync('content/runtime/preview-manifest.json','utf8')),scope=JSON.parse(fs.readFileSync('content/preview-scope.json','utf8'));
+ const plan=collectDesktopAssets(process.cwd());assert.equal(plan.chapters,scope.chapterIds.length);assert.equal(plan.stations,scope.periodIds.length);assert.equal(plan.voiceLines,preview.totals.localVoiceLines);
+ const chapterFiles=plan.assets.filter(p=>p.startsWith('/content/chapters/'));
+ assert.deepEqual(new Set(chapterFiles),new Set(scope.chapterIds.map(id=>`/content/chapters/${id}.json`)));
+ assert.deepEqual(new Set(plan.chapterIds),new Set(scope.chapterIds));
  assert.ok(!plan.assets.some(p=>/reference-assets|node_modules|\.env|source\.png/.test(p)));
  assert.ok(plan.assets.includes('/images/brand/history-trip-logo.png'));
  assert.ok(plan.voiceIds.every(id=>plan.assets.includes(`/audio/voice/zh-CN/xiaoxiao/${id}.mp3`)));
@@ -32,4 +36,24 @@ test('local asset extraction rejects traversal and excludes external resources',
  assert.equal(publicPath('/content/study-scenes/'),null);
  assert.equal(publicPath('https://example.com/images/a.png'),null);assert.equal(publicPath('//example.com/images/a.png'),null);
  assert.throws(()=>publicPath('/images/../outside.json'));assert.equal(publicPath('/images/a.png?version=1'),'/images/a.png');
+});
+
+test('route-only images are packaged without sweeping unrelated research or hidden chapter files',()=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'history-desktop-routes-'));
+ const write=(name,value)=>{const destination=path.join(root,name);fs.mkdirSync(path.dirname(destination),{recursive:true});fs.writeFileSync(destination,typeof value==='string'?value:JSON.stringify(value));};
+ try{
+  fs.mkdirSync(path.join(root,'app'));fs.mkdirSync(path.join(root,'desktop'));
+  write('content/runtime/preview-manifest.json',{contentVersion:'test',tracks:[],totals:{localVoiceLines:0},scope:{periodIds:[]}});
+  write('content/runtime/voice-auditions-manifest.json',{});
+  write('public/audio/voice-lines.json',{lines:[]});
+  write('content/voice-interface-lines.json',{lines:[]});
+  write('content/play-routes.json',{routes:[{iconSrc:'/images/route-only.png'}]});
+  write('public/images/route-only.png','fixture image');
+  write('reference-assets/research-original.png','private research original');
+  write('public/content/chapters/hidden.json',{});
+  write('public/content/step-images/unused.png','unused hidden asset');
+  const plan=collectDesktopAssets(root);
+  assert.deepEqual(plan.assets,['/images/route-only.png']);
+  assert.deepEqual(plan.chapterIds,[]);
+ }finally{fs.rmSync(root,{recursive:true,force:true});}
 });

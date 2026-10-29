@@ -140,6 +140,33 @@
       ],
       "renderedBy": "app/SlideFitIllustration.tsx",
       "promptPath": "docs/qa/2026-10-11-wall-scene-redraw/gap-prompt.txt"
+    },
+    {
+      "id": "zhaozhou-bridge-study-v2",
+      "chapterIds": [
+        "cn-ancient-06-09-zhaozhou-bridge"
+      ],
+      "title": "赵州桥过水学具 · 教学新画",
+      "purpose": "teaching-prop",
+      "localPath": "reference-assets/history-lab-art/zhaozhou-bridge-study-v2.png",
+      "runtimePath": "/images/history-labs/zhaozhou-bridge-study-v2.png",
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "author": "小小历史旅行团项目组（image_gen辅助绘制）",
+      "license": "项目自制教学插画，仅用于本项目学习模型",
+      "licenseUrl": "https://openai.com/policies/terms-of-use/",
+      "licensePath": "reference-assets/history-lab-art/ATTRIBUTION.md",
+      "clearance": "cleared-project-created",
+      "factSourceIds": [
+        "NMC-ZHAOZHOU-BRIDGE"
+      ],
+      "caption": "赵州桥过水学具 · 教学新画",
+      "boundary": "现代教学插画，表现石桥桥面、大拱和两肩小拱的关系；不是古代现场、测绘图或原桥复原。河水变化由代码演示，不计算洪水流量、承载力或安全水位。",
+      "notes": "参考已登记的今日照片核对宽低大拱与敞肩关系，内置image_gen独立生成透明桥身；透明桥孔坐标经原图核对。桥孔、水位、过水提示共用源图坐标；原图、提示词和旧代码画面保留。",
+      "referenceAssetIds": [
+        "zhaozhou-bridge-now"
+      ],
+      "renderedBy": "app/ChinaHistoryDiagrams.tsx",
+      "promptPath": "docs/qa/2026-10-16-bridge-redraw/art-prompt.txt"
     }
   ]
 }

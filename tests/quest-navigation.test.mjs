@@ -33,8 +33,10 @@ test('malformed or foreign completion IDs cannot turn a new jump into a legacy s
   }
 });
 
-test('all 112 chapters finish only after every required step has actually been recorded',()=>{
-  assert.equal(chapters.length,112);
+test('all catalog chapters finish only after every required step has actually been recorded',()=>{
+  const productMap=JSON.parse(readFileSync(new URL('../content/product-map.json',import.meta.url)));
+  const sourceIds=productMap.tracks.flatMap(track=>JSON.parse(readFileSync(new URL(`../${track.catalogPath}`,import.meta.url))).chapters.map(chapter=>chapter.id));
+  assert.deepEqual(new Set(chapters.map(chapter=>chapter.id)),new Set(sourceIds));
   for(const chapter of chapters){
     const steps=chapter.gameplay.steps;
     let completed=[];

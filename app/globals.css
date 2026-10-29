@@ -26,6 +26,7 @@
   --app-reading-width: 960px;
   --app-side-gutter: 24px;
   --app-header-height: 80px;
+  --app-footer-height: 52px;
   --layout-columns: minmax(0, 7fr) minmax(0, 5fr);
   --layout-column-gap: 32px;
   --layout-row-gap: 16px;
@@ -630,7 +631,8 @@ button.panel-card { font: inherit; cursor: pointer; }
 .quest-step .step-stamp .quest-step-badge-fallback { font-size: 18px; }
 .task-step-active { height: 100svh; min-height: 100svh; overflow: hidden; padding-bottom: 0; }
 .task-step-active .app-header { height: var(--app-header-height); }
-.task-step-active .source-footer { display: none; }
+.task-step-active { --quest-stage-min-height: min(560px, calc(100svh - var(--app-header-height) - var(--app-footer-height) - var(--layout-page-top) - var(--layout-context-height) - var(--layout-row-gap) - var(--layout-page-bottom))); }
+.task-step-active .source-footer { display:flex; }
 .task-step-active .voice-notice { position: fixed; z-index: 55; top: 70px; left: 50%; transform: translateX(-50%); margin: 0; }
 .task-step-active .chapter-cover,
 .task-step-active .story-step { height: calc(100svh - 64px); min-height: 0; padding: 14px 0; gap: clamp(20px, 4vw, 54px); align-items: stretch; }

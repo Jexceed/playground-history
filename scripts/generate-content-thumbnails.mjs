@@ -13,6 +13,16 @@ fs.mkdirSync(stepOutputRoot, { recursive: true });
 let generated = 0;
 const generatedStepAssets = new Set();
 const generatedTeachingProps = new Set();
+// Choice crops are also shown as selected scenes. Preserve enough of the source
+// for that use instead of always shrinking the entire sheet to 900px first.
+const choiceAssets = new Set();
+for(const chapter of manifest.tracks.flatMap(track=>track.chapters)){
+  const detail=JSON.parse(fs.readFileSync(path.join(root,`public/content/chapters/${chapter.id}.json`),'utf8'));
+  for(const step of detail.gameplay.steps)for(const option of step.options??[]){
+    const view=option.objectView;
+    for(const panel of view?.kind==='scene-strip'?view.panels:view?.kind==='scene-card'?[view]:[])choiceAssets.add(panel.assetId);
+  }
+}
 for (const chapter of manifest.tracks.flatMap((track) => track.chapters)) {
   const detail = JSON.parse(fs.readFileSync(path.join(root, `public/content/chapters/${chapter.id}.json`), "utf8"));
   for(const prop of detail.assets.filter(item=>item.purpose==='teaching-prop'&&item.runtimePath)){
@@ -39,9 +49,9 @@ for (const chapter of manifest.tracks.flatMap((track) => track.chapters)) {
     if (/\.svg$/i.test(stepAsset.localPath)) {
       fs.copyFileSync(path.join(root, stepAsset.localPath), path.join(stepOutputRoot, `${stepAsset.id}.svg`));
     } else {
-      const maxEdge=stepAsset.runtimeMaxEdge??900;
+      const maxEdge=stepAsset.runtimeMaxEdge??(choiceAssets.has(stepAsset.id)?1600:900);
       if(!Number.isInteger(maxEdge)||maxEdge<900||maxEdge>2400)throw new Error(`Invalid runtime image size: ${stepAsset.id}`);
-      execFileSync("sips", ["-Z", String(maxEdge), "-s", "format", "jpeg", "-s", "formatOptions", stepAsset.runtimeMaxEdge?"88":"84", path.join(root, stepAsset.localPath), "--out", path.join(stepOutputRoot, `${stepAsset.id}.jpg`)], {
+      execFileSync("sips", ["-Z", String(maxEdge), "-s", "format", "jpeg", "-s", "formatOptions", maxEdge>900?"88":"84", path.join(root, stepAsset.localPath), "--out", path.join(stepOutputRoot, `${stepAsset.id}.jpg`)], {
         stdio: "ignore",
       });
     }

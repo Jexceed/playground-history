@@ -24,6 +24,7 @@ export function collectDesktopAssets(root){
   };
   const chapters=preview.tracks.flatMap(t=>t.chapters);
   visitPaths(preview);
+  visitPaths(read(root,'content/play-routes.json'));
   for(const c of chapters){
     visitVoices(c.gameplay);
     visitPaths(read(root,`public/content/chapters/${c.id}.json`));

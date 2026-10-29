@@ -1,0 +1,48 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 朵拉维拉怎样留住水
+					9 content list
+						10 button 第1步：走进古老的南亚城市，已完成, Help: 走进古老的南亚城市
+						11 button 第2步：水来时，把它留下，已完成, Help: 水来时，把它留下
+						12 button 第3步：真照片留下什么线索，已完成, Help: 真照片留下什么线索
+						13 button 第4步：雨水先怎样来到池边，已完成, Help: 雨水先怎样来到池边
+						14 button 第5步：少雨时，想起先前的水，已完成, Help: 少雨时，想起先前的水
+					15 text 完成啦
+				16 button 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 小小旅行团 · 带着发现回家
+				19 heading 带走自己的发现, Value: 1
+					20 text 带走自己的发现
+				21 container 本章结束后的选择
+					22 button 返回时间河
+					23 button 再玩本章
+				24 image 朵拉维拉怎样留住水的教学情境
+				25 text 朵拉维拉怎样留住水
+				26 button 听听这次发现
+				27 summary 和家人再试一次 ＋, Value: off
+					28 text 和家人再试一次
+					29 text ＋
+				30 summary 👪 家长怎么接话？, Value: off
+					31 text 👪 家长怎么接话？
+				32 button 👪 家长入口 · 59章材料与说明
+		33 scroll bar (settable, float) 0
+	34 close button
+	35 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	36 minimize button
+	37 text 小小历史旅行团
+38 menu bar
+	39 小小历史旅行团
+	40 File
+	41 Edit
+	42 View
+	43 Window
+	44 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

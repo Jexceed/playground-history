@@ -7,7 +7,7 @@ const voices=new Map(read('public/audio/voice-lines.json').lines.map(l=>[l.id,l.
 const registered=new Map(fs.readdirSync('content/assets').filter(n=>n.endsWith('.json')).flatMap(n=>read(`content/assets/${n}`).assets.map(a=>[a.id,a])));
 const sources=new Set(read('content/sources.json').sources.map(s=>s.id));
 const originalById=new Map(focused.chapters.map(c=>[c.id,c]));
-assert.equal(chapters.length,manifest.totals.chapters);assert.equal(preview.tracks.flatMap(t=>t.chapters).length,focused.chapters.length);assert.equal(scope.size,focused.chapters.length);assert.ok(scope.size>0);assert.ok([...scope].every(id=>id.startsWith('cn-ancient-')));
+assert.equal(chapters.length,manifest.totals.chapters);assert.equal(preview.tracks.flatMap(t=>t.chapters).length,focused.chapters.length);assert.equal(scope.size,focused.chapters.length);assert.ok(scope.size>0);assert.deepEqual(new Set(preview.tracks.flatMap(t=>t.chapters.map(c=>c.id))),scope);assert.ok([...scope].every(id=>chapters.some(c=>c.id===id)));
 const report=[];
 const checkVoice=v=>{assert.equal(voices.get(v.id),v.text,`Missing or stale voice ${v.id}`);assert.ok([...v.text.matchAll(/\p{Script=Han}/gu)].length<=90,`Long voice ${v.id}`);};
 // A format mismatch must not become an unintended clue to the correct answer.
@@ -72,7 +72,7 @@ for(const chapter of chapters){
   for(const o of step.options){assert.ok(o.imageAlt);assert.ok(fs.existsSync(`public${o.image}`));assert.ok(!/只是故事地点|只是故事人物|只说了原因|只说了结果/.test(o.label));}
  }
  assert.ok(visualIds.size>=4,`${chapter.id}: insufficient advancing scene content`);
- assert.ok(/\d|世纪|北宋|唐代|明代|北魏|战国/.test(game.steps[0].story.narration+game.steps[0].options.map(o=>o.label).join("")), chapter.id);
+ assert.ok(/\d|世纪|北宋|唐代|明代|北魏|战国|[一二三四五六七八九十百千万两]+多?年前/.test(game.steps[0].story.narration+game.steps[0].options.map(o=>o.label).join("")), chapter.id);
  report.push({id:chapter.id,title:authored.title,steps:5,distinctStudyScenes:visualIds.size,optionPictures:game.steps.reduce((n,s)=>n+s.options.length,0),readingSteps:game.steps.filter(s=>s.interaction?.kind==='look-listen').length,sceneQuestions:game.steps.reduce((n,s)=>n+(s.interaction?.kind==='scene-find'?s.interaction.rounds.length:0),0),endingActions:game.finish.actions.length,sourceIds:[...new Set(game.steps.flatMap(s=>s.sourceIds))],result:'structural-pass',humanChildTest:'pending'});
 }
 fs.mkdirSync('docs/qa/2026-10-08-china-expansion',{recursive:true});

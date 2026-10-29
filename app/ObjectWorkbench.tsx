@@ -1,11 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import { useId, useRef, useState, type PointerEvent, type KeyboardEvent, type CSSProperties } from "react";
+import { useEffect, useId, useRef, useState, type PointerEvent, type KeyboardEvent, type CSSProperties } from "react";
 import { listenOptions } from "./quest-progress";
 import { alignedRuler, clampRulerOffset, pointerRulerOffset } from "./workbench-model";
 import { stepVoiceIds, usesChoiceCards } from "./step-flow";
 import { PhotoAlbumButton } from "./PhotoAlbumButton";
+import {sceneContextBox,sceneDetailFraming,type ImageSize} from './scene-image-model';
 import type { PhotoAlbum } from "./photo-album";
 import "./scene-interactions.css";
 import {isIllustratedSlide,SlideFitControls,SlideFitIllustration,useSlideFit} from "./SlideFitIllustration";
@@ -342,11 +343,33 @@ function PickDemo({ picked, context }: { picked: Option | null; context?: string
     </div>
   </div>;
 }
-function SceneCardArt({view,label,detail=false}:{view:ObjectView;label:string;detail?:boolean}) {
+const sceneRasterSizes=new Map<string,ImageSize>();
+function SceneCardArt({view,label,detail=false,qualityAware=false}:{view:ObjectView;label:string;detail?:boolean;qualityAware?:boolean}) {
   const cropId=`scene-crop-${useId().replace(/:/g,'')}`;
+  const svgRef=useRef<SVGSVGElement>(null);
+  const [loaded,setLoaded]=useState<{image:string;size:ImageSize}|null>(null);
+  const [frame,setFrame]=useState<ImageSize>({width:700,height:467});
+  useEffect(()=>{
+    if(!view.image||sceneRasterSizes.has(view.image))return;
+    const src=view.image,img=new window.Image();let active=true;
+    img.onload=()=>{const size={width:img.naturalWidth,height:img.naturalHeight};if(!size.width||!size.height)return;sceneRasterSizes.set(src,size);if(active)setLoaded({image:src,size});};
+    img.src=src;
+    return ()=>{active=false;img.onload=null;};
+  },[view.image]);
+  useEffect(()=>{
+    if(!qualityAware||!svgRef.current)return;
+    const observer=new ResizeObserver(([entry])=>{
+      const {width,height}=entry.contentRect;
+      if(width>0&&height>0)setFrame(previous=>Math.abs(previous.width-width)<.5&&Math.abs(previous.height-height)<.5?previous:{width,height});
+    });
+    observer.observe(svgRef.current);return ()=>observer.disconnect();
+  },[qualityAware]);
   if(!view.image||!view.crop)return null;
   const crop=view.crop;
-  return <svg className={detail?'workbench-art selected-scene-detail':'scene-card-art'} viewBox={`${crop.x} ${crop.y} ${crop.width} ${crop.height}`} role="img" aria-label={label}><defs><clipPath id={cropId}><rect x={crop.x} y={crop.y} width={crop.width} height={crop.height}/></clipPath></defs><image href={view.image} width={crop.sourceWidth} height={crop.sourceHeight} clipPath={`url(#${cropId})`}/></svg>;
+  const pixels=sceneRasterSizes.get(view.image)??(loaded?.image===view.image?loaded.size:undefined);
+  const context=qualityAware&&sceneDetailFraming(crop,pixels,frame)==='context';
+  const box=context?sceneContextBox(crop,frame):crop;
+  return <svg ref={svgRef} className={detail?'workbench-art selected-scene-detail':'scene-card-art'} viewBox={`${box.x} ${box.y} ${box.width} ${box.height}`} role="img" aria-label={context?`${label}，已在原场景中标出所选位置`:label} data-detail-framing={qualityAware?(context?'context':'detail'):undefined}><defs><clipPath id={cropId}><rect x={box.x} y={box.y} width={box.width} height={box.height}/></clipPath></defs><image href={view.image} width={crop.sourceWidth} height={crop.sourceHeight} clipPath={`url(#${cropId})`}/>{context&&<g fill="none" pointerEvents="none"><rect x={crop.x} y={crop.y} width={crop.width} height={crop.height} rx="8" stroke="#fff9dd" strokeWidth="5" vectorEffect="non-scaling-stroke"/><rect x={crop.x} y={crop.y} width={crop.width} height={crop.height} rx="8" stroke="#926b30" strokeWidth="2" strokeDasharray="7 4" vectorEffect="non-scaling-stroke"/></g>}</svg>;
 }
 function SceneStripArt({view,label,detail=false}:{view:ObjectView;label:string;detail?:boolean}) {
   const panels=view.panels??[];
@@ -435,7 +458,7 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
         <p>{episode?.caption}</p><div className="quest-date-stops">{step.options.map(option=><div className={`quest-date-stop ${picked?.id===option.id&&option.correct?'arrived':''}`} key={option.id}>{option.objectView&&<EraMarker view={option.objectView}/>}<strong>{option.objectView?.name}</strong><span>{option.objectView?.date}</span></div>)}</div><span className="quest-date-direction">时间向前走 →</span>
       </div>:<div className="workbench-scene">
         <div className={sceneFind?'scene-find-canvas':undefined}>
-        {chosenScene&&step.interaction?.selectionFraming==='detail'?<SceneCardArt view={chosenScene} label={picked?.label??sceneAlt} detail/>:step.interaction?.imageCrop?<SceneCardArt view={{kind:'scene-card',image:sceneImage,crop:step.interaction.imageCrop}} label={sceneAlt} detail/>:<Image className="workbench-art" src={sceneImage} alt={sceneAlt} width={1536} height={1024} loading="eager" unoptimized/>}
+        {chosenScene&&step.interaction?.selectionFraming==='detail'?<SceneCardArt view={chosenScene} label={picked?.label??sceneAlt} detail qualityAware/>:step.interaction?.imageCrop?<SceneCardArt view={{kind:'scene-card',image:sceneImage,crop:step.interaction.imageCrop}} label={sceneAlt} detail/>:<Image className="workbench-art" src={sceneImage} alt={sceneAlt} width={1536} height={1024} loading="eager" unoptimized/>}
         {sceneFind&&<div className="scene-find-hotspots" role="group" aria-label={step.interaction?.ariaLabel??"点图里的线索回答问题"}>{step.interaction?.hotspots?.map(spot=>{const state=sceneResult?.id===spot.id?(sceneResult.correct?'right':'retry'):'';return <button key={spot.id} className={`scene-find-target ${state}`} style={{left:`${spot.x*100}%`,top:`${spot.y*100}%`,width:`${spot.width*100}%`,height:`${spot.height*100}%`}} aria-label={`选择${spot.label}`} data-hotspot-id={spot.id} aria-pressed={sceneResult?.id===spot.id} disabled={solved||sceneResult?.correct} onClick={()=>chooseSpot(spot.id)}/>;})}</div>}
         </div>
         {!sceneFind&&<span className="story-art-label">{chosenScene?.imageLabel??step.interaction?.imageLabel??"故事插画"}</span>}

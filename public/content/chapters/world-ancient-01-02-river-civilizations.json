@@ -8,7 +8,51 @@
     "id": "ancient-civilizations",
     "label": "古代文明",
     "years": "早期人类—约5世纪",
-    "learningContext": null
+    "learningContext": {
+      "childIntro": "到古代南亚看怎样存水，再去埃及、希腊和罗马，看看陵墓、神庙和道路各有什么用途。这些故事发生在不同年代和地方。",
+      "chronology": "本站总目录涵盖早期人类至约5世纪。当前四章分别聚焦朵拉维拉约前3000—前1500年的长期城市生活、胡夫金字塔约前26世纪、帕特农神庙前5世纪，以及阿庇亚大道前312年起的长期建设。各地并非按本站排列顺序相互接替。",
+      "covered": "南亚蓄水与引水关系，古埃及王室陵墓用途与建筑劳动，雅典神庙的宗教用途及现代遗址边界，罗马道路的军事与日常联系。",
+      "scopeBoundary": "各章沿用独立年代；印度、希腊原长稿的制度与社会内容不等于全部已做成儿童关卡。世界古代其余隐藏章仍待逐章重做与终审。",
+      "sourceIds": [
+        "UNESCO-DHOLAVIRA-HARAPPAN-CITY",
+        "UNESCO-MEMPHIS-PYRAMIDS",
+        "UNESCO-ATHENS-ACROPOLIS",
+        "YSMA-PARTHENON-STRUCTURE",
+        "UNESCO-VIA-APPIA"
+      ],
+      "sources": [
+        {
+          "id": "UNESCO-DHOLAVIRA-HARAPPAN-CITY",
+          "title": "Dholavira: a Harappan City",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/1645/"
+        },
+        {
+          "id": "UNESCO-MEMPHIS-PYRAMIDS",
+          "title": "Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/86/"
+        },
+        {
+          "id": "UNESCO-ATHENS-ACROPOLIS",
+          "title": "Acropolis, Athens",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/404/"
+        },
+        {
+          "id": "YSMA-PARTHENON-STRUCTURE",
+          "title": "Parthenon",
+          "institution": "Acropolis Restoration Service（希腊文化部卫城修复局）",
+          "url": "https://www.ysma.gr/en/monuments/parthenon/"
+        },
+        {
+          "id": "UNESCO-VIA-APPIA",
+          "title": "Via Appia. Regina Viarum",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/1708/"
+        }
+      ]
+    }
   },
   "order": 2,
   "title": "大河边为什么出现早期文明",
@@ -16,577 +60,1009 @@
   "throughline": "从金字塔、象形文字、楔形文字和《汉谟拉比法典》等证据，比较古埃及与两河流域文明。",
   "childEntry": {
     "id": "world-ancient-01-02-river-civilizations",
-    "childTitle": "金字塔旁边为什么需要一条河",
-    "prompt": "河水、泥土、灌溉和城市，怎样一起帮助早期国家出现？",
-    "takeaway": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。",
-    "object": "金字塔遗址、泥板与汉谟拉比石碑",
+    "childTitle": "金字塔为什么要建",
+    "prompt": "四千多年前，古埃及人为国王修建陵墓。高大的金字塔、旁边的建筑和石工的劳动，留下了什么线索？",
+    "takeaway": "胡夫大金字塔是古埃及王室陵墓建筑群的一部分。加工、运送石材和提供食物等许多工作，支持了修建；今天的照片只留下部分线索。",
+    "object": "胡夫大金字塔的现代照片",
     "people": [
-      "农人、工匠、书吏与统治者"
+      "胡夫金字塔",
+      "古埃及工匠"
     ],
-    "place": "尼罗河流域与两河流域",
-    "culture": "象形文字与楔形文字",
-    "care": "不做文明排名；石碑是古代司法判例汇集，不称现代完整法典。"
+    "place": "非洲埃及 · 吉萨",
+    "culture": "古埃及古王国的王室陵墓与劳动",
+    "care": "金字塔是真实王室陵墓建筑，故事里的博物馆、模型、闭合石棺与工匠是教学新画，不是某馆展陈、原物或精确复原。模型的神庙位置、服饰和工具不作考古证明；不展示遗体。吉萨工人聚落研究主要涉及哈夫拉、孟卡拉工程，与胡夫的联系保留可能性；不据此编造胡夫施工人数、待遇或唯一搬石办法。旧两河流域研究完整保留在家长长稿，当前五步只聚焦古埃及金字塔。",
+    "playableSource": "content/focused-quests.json",
+    "preferredAssetId": "great-pyramid-giza-2010-photo"
   },
-  "learningGuide": null,
-  "textbookConnection": null,
+  "learningGuide": {
+    "id": "world-ancient-01-02-river-civilizations",
+    "theme": "建筑和生活",
+    "learningGoal": "金字塔是王室陵墓建筑群，石材加工与许多人的供给劳动支持修建。",
+    "parentQuestion": "金字塔原来为什么要建？除了金字塔和石工，还能想到哪些建筑或工作？",
+    "observe": "可指金字塔与神庙模型，并指石工图；把照片中现代游客与古老建筑分开。",
+    "misconception": "金字塔是真实王室陵墓建筑，故事里的博物馆、模型、闭合石棺与工匠是教学新画，不是某馆展陈、原物或精确复原。模型的神庙位置、服饰和工具不作考古证明；不展示遗体。吉萨工人聚落研究主要涉及哈夫拉、孟卡拉工程，与胡夫的联系保留可能性；不据此编造胡夫施工人数、待遇或唯一搬石办法。旧两河流域研究完整保留在家长长稿，当前五步只聚焦古埃及金字塔。",
+    "evidenceStepIds": [
+      "time",
+      "beginning",
+      "journey",
+      "change",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "UNESCO-MEMPHIS-PYRAMIDS",
+      "MET-EGYPT-OLD-KINGDOM",
+      "HARVARD-GIZA-SCHOOL-FAQ",
+      "AERA-GIZA-PYRAMID-SETTLEMENT"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-04-08-qin-terracotta",
+        "relation": "比较不同地区王室墓葬留下的建筑与陶塑；年代、材料、信仰和组织各有不同，不主张直接传承。"
+      }
+    ],
+    "reviewStatus": "content-quality-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "陵墓",
+      "神庙",
+      "祭祀"
+    ]
+  },
+  "textbookConnection": {
+    "id": "world-ancient-01-02-river-civilizations",
+    "featured": {
+      "type": "世界遗产",
+      "icon": "🏛️",
+      "title": "胡夫金字塔与古埃及工匠",
+      "childBridge": "四千多年前，古埃及人为国王修建陵墓。高大的金字塔、旁边的建筑和石工的劳动，留下了什么线索？",
+      "evidenceBoundary": "金字塔是真实王室陵墓建筑，故事里的博物馆、模型、闭合石棺与工匠是教学新画，不是某馆展陈、原物或精确复原。"
+    },
+    "companions": [
+      {
+        "type": "地方与年代",
+        "label": "埃及吉萨 · 古王国",
+        "note": "胡夫大金字塔约建于公元前26世纪；2010年是所用照片的拍摄年份，两者不同。"
+      },
+      {
+        "type": "历史用途",
+        "label": "王室陵墓建筑群",
+        "note": "金字塔、神庙和堤道组成墓葬建筑群。祭祀是古人敬神、纪念死者的信仰活动。"
+      },
+      {
+        "type": "劳动与证据",
+        "label": "工匠、运输与供给",
+        "note": "工人聚落主要对应哈夫拉、孟卡拉工程；与胡夫的联系仍是可能，不当作已证实。"
+      },
+      {
+        "type": "材料身份",
+        "label": "真照片与教学新画",
+        "note": "照片依CC BY-SA 3.0署名。故事展厅、墙上图、模型和石棺是教学插画。"
+      }
+    ],
+    "sourceIds": [
+      "UNESCO-MEMPHIS-PYRAMIDS",
+      "MET-EGYPT-OLD-KINGDOM",
+      "HARVARD-GIZA-SCHOOL-FAQ",
+      "AERA-GIZA-PYRAMID-SETTLEMENT"
+    ]
+  },
   "childStory": [
     {
-      "id": "hook",
-      "icon": "📍",
-      "label": "从一个地方出发",
-      "text": "金字塔旁边为什么需要一条河"
+      "id": "time",
+      "icon": "🕰️",
+      "label": "先到四千多年前的古埃及",
+      "text": "胡夫大金字塔在非洲的埃及，四千多年前就建起来了。这张照片拍于2010年；拍照片的年份，和建造的年代不一样。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "河水带来泥土",
-      "text": "先看尼罗河涨水给田地带来水和泥土。"
+      "label": "金字塔是王室陵墓的一部分",
+      "text": "古埃及人为国王修建金字塔陵墓。陵墓是安葬去世者的地方。旁边还有神庙，古人在那里敬神、纪念去世的国王，不是一家人每天吃饭住的房子。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "修渠需要分工",
-      "text": "接着看人们修渠分工，城市里出现书吏和工匠。"
+      "label": "真照片里有古老建筑，也有今天的人",
+      "text": "照片里，金字塔的一层层石块还看得见。前面骑马的游客，是2010年拍到的人。我们先找石块，再分清建筑和后来的人。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "城市留下文字",
-      "text": "最后金字塔、泥板和法典留下早期国家的线索。"
+      "label": "许多人的工作，支持一座大建筑",
+      "text": "修建金字塔，需要人们加工和运送石材，也需要人准备工具和食物。玩积木可以帮助想象，真正建造却要许多人长期劳动。"
     },
     {
-      "id": "answer-retell",
+      "id": "takeaway",
       "icon": "🗣️",
-      "label": "把故事讲给家人听",
-      "text": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。"
+      "label": "给参观的人讲清金字塔的用途",
+      "text": "新来的小伙伴想知道：金字塔原来是做什么的？我们指着模型，先讲王室陵墓和旁边的神庙，再说许多人一起建造。"
     }
   ],
   "glossary": [
     {
-      "term": "遗址",
-      "icon": "🏚️",
-      "plain": "过去的人生活或活动后留下的地方。",
-      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
-      "priority": 1
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "文明",
-      "icon": "🏙️",
-      "plain": "许多人长期创造的社会生活与文化成果。",
-      "example": "不同文明各有环境和道路，不做高低排名。",
-      "priority": 2
-    },
-    {
-      "term": "组织",
-      "icon": "🤝",
-      "plain": "许多人为了共同事情分工、联系和行动。",
-      "example": "一个名人背后常有组织、协作者和普通参与者。",
-      "priority": 2
-    },
-    {
-      "term": "发展",
-      "icon": "🌱",
-      "plain": "事物经过一段时间出现增长或变化。",
-      "example": "发展不只看速度和数量，也要看人的生活与环境。",
-      "priority": 3
-    },
-    {
-      "term": "统治",
+      "term": "陵墓",
       "icon": "🏛️",
-      "plain": "掌权者用机构和规则管理人群与地方。",
-      "example": "研究统治还要问谁能参与、谁承担负担。",
-      "priority": 3
-    },
-    {
-      "term": "贸易",
-      "icon": "🚚",
-      "plain": "不同人或地方交换、买卖物品和服务。",
-      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
-      "priority": 1
-    },
-    {
-      "term": "平等",
-      "icon": "⚖️",
-      "plain": "不因出身、性别或身份被规定成高低贵贱。",
-      "example": "说人人平等，要看法律和生活中是否真的做到。",
-      "priority": 1
-    },
-    {
-      "term": "技术",
-      "icon": "⚙️",
-      "plain": "人们解决具体问题时积累的工具和做法。",
-      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "plain": "安葬去世者的地方。",
+      "example": "兵马俑在秦始皇陵的陪葬坑里。",
       "priority": 2
     },
     {
-      "term": "农业",
-      "icon": "🌾",
-      "plain": "种植作物、饲养动物来获得食物和原料。",
-      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "term": "神庙",
+      "icon": "🏛️",
+      "plain": "古人举行敬神等宗教活动的建筑。",
+      "example": "金字塔陵墓群里也有神庙；神庙和安葬的地方用途不同。",
       "priority": 2
     },
     {
-      "term": "社会",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "许多人一起生活、分工并形成关系的整体。",
-      "example": "社会变化要看不同人受到的影响。",
-      "priority": 2
-    },
-    {
-      "term": "王朝",
-      "icon": "👑",
-      "plain": "以皇帝政权延续的一段历史时期。",
-      "example": "唐朝是王朝；唐朝结束不等于所有事情当天停止。",
-      "priority": 2
-    },
-    {
-      "term": "宗教",
-      "icon": "🕯️",
-      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
-      "example": "同一种宗教内部也有不同地区、时代和人群。",
-      "priority": 2
-    },
-    {
-      "term": "王权",
-      "icon": "👑",
-      "plain": "国王或皇帝掌握的统治权力。",
-      "example": "王权强不等于国王一个人能完成所有事情。",
+      "term": "祭祀",
+      "icon": "🏺",
+      "plain": "古人按自己的信仰，表达敬意与纪念的活动。",
+      "example": "认识古埃及祭祀，是了解古人的信仰，不要求今天的孩子跟着做。",
       "priority": 3
     }
   ],
   "pronunciations": [
     {
-      "text": "尼罗河",
-      "reading": "Níluóhé",
+      "text": "胡夫",
+      "reading": "Húfū",
+      "kind": "person",
+      "chapterIds": [
+        "world-ancient-01-02-river-civilizations"
+      ],
+      "note": "按中文译名清楚连读；指古埃及国王，不把照片年份当建造年代。"
+    },
+    {
+      "text": "吉萨",
+      "reading": "Jísà",
       "kind": "place",
       "chapterIds": [
         "world-ancient-01-02-river-civilizations"
       ],
-      "note": "河流名称。"
-    },
-    {
-      "text": "楔形文字",
-      "reading": "Xiēxíng wénzì",
-      "kind": "polyphone",
-      "chapterIds": [
-        "world-ancient-01-02-river-civilizations"
-      ],
-      "note": "“楔”读xiē。"
+      "note": "埃及地名，“萨”读sà；本轮仍待人工校听。"
     }
   ],
   "gameplay": {
-    "mode": "memory-hook-story-quest-v3",
+    "mode": "authored-picture-quest-v4",
     "status": "playable-core",
     "audioStatus": "local-pre-generated",
     "hook": {
-      "kind": "一个地方",
-      "icon": "📍",
-      "label": "金字塔旁边为什么需要一条河",
-      "question": "河水、泥土、灌溉和城市，怎样一起帮助早期国家出现？"
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "金字塔为什么要建",
+      "question": "四千多年前，古埃及人为国王修建陵墓。高大的金字塔、旁边的建筑和石工的劳动，留下了什么线索？"
+    },
+    "cta": "去认识金字塔",
+    "anchor": "胡夫金字塔与古埃及工匠",
+    "boundary": "金字塔是真实王室陵墓建筑，故事里的博物馆、模型、闭合石棺与工匠是教学新画，不是某馆展陈、原物或精确复原。模型的神庙位置、服饰和工具不作考古证明；不展示遗体。吉萨工人聚落研究主要涉及哈夫拉、孟卡拉工程，与胡夫的联系保留可能性；不据此编造胡夫施工人数、待遇或唯一搬石办法。旧两河流域研究完整保留在家长长稿，当前五步只聚焦古埃及金字塔。",
+    "evidence": [
+      {
+        "id": "great-pyramid-giza-2010-photo",
+        "title": "胡夫大金字塔2010年实拍",
+        "localPath": "reference-assets/world-ancient-river-civilizations/great-pyramid-giza-2010.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 3.0",
+        "clearance": "cleared-open-license",
+        "caption": "2010年拍摄的胡夫大金字塔，前景可见遗迹、游客和动物。",
+        "boundary": "胡夫大金字塔的2010年参观照片，摄影Kallerna，依CC BY-SA 3.0署名使用。古代建筑与现代游客年代不同；今天缺少部分外层石材的样子不能当作初建原貌。照片不能证明完整施工方法、劳动者身份或墓葬建筑群布局。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/great-pyramid-giza-2010-photo.jpg"
+      }
+    ],
+    "photoAlbum": null,
+    "coverAsset": {
+      "id": "great-pyramid-giza-2010-photo",
+      "title": "胡夫大金字塔2010年实拍",
+      "localPath": "reference-assets/world-ancient-river-civilizations/great-pyramid-giza-2010.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "2010年拍摄的胡夫大金字塔，前景可见遗迹、游客和动物。",
+      "boundary": "胡夫大金字塔的2010年参观照片，摄影Kallerna，依CC BY-SA 3.0署名使用。古代建筑与现代游客年代不同；今天缺少部分外层石材的样子不能当作初建原貌。照片不能证明完整施工方法、劳动者身份或墓葬建筑群布局。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/great-pyramid-giza-2010-photo.jpg"
+    },
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "egypt-pyramid-museum-v1",
+      "sceneAlt": "三位现代小伙伴在教学博物馆中观察金字塔、附属神庙模型和闭合石棺教具，非真实展陈",
+      "title": "金字塔为什么要建",
+      "evidenceTitle": "胡夫大金字塔 · 2010年照片",
+      "evidenceLine": "真实材料与教学插画各有用途，点开可听年代和说明。",
+      "evidenceNarration": "这张照片拍于2010年，建筑是四千多年前的胡夫大金字塔。可以看见今天保存的一层层石块，前面的游客属于拍照时，不能当作古代建造者。",
+      "guide": "跟小伙伴看材料、听故事，再找出自己的发现。",
+      "alignHint": "",
+      "familyHint": "回看图里的发现，再和家人说一说。",
+      "familyLabel": "和家人再试一次",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "带着发现回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "egypt-pyramid-museum-v1",
+        "reunionAlt": "三位现代小伙伴在教学博物馆中观察金字塔、附属神庙模型和闭合石棺教具，非真实展陈",
+        "reunionAspectRatio": 1.5,
+        "reunionFit": "contain",
+        "coverCaption": "金字塔为什么要建",
+        "coverNarration": "小伙伴到了古埃及展厅。四千多年前，古埃及人为国王修建金字塔陵墓，旁边还有别的建筑。我们先看它为什么要建，再找石块和人们劳动留下的线索。",
+        "closingCaption": "我们带回了一个发现",
+        "closingLine": "金字塔为什么要建",
+        "closingNarration": "胡夫大金字塔是古埃及王室陵墓建筑群的一部分，旁边还有神庙。人们加工、运送石材，也准备工具和食物。照片能帮我们观察今天留下的建筑，却不能告诉我们全部建造经过。",
+        "fictionNote": "金字塔是真实王室陵墓建筑，故事里的博物馆、模型、闭合石棺与工匠是教学新画，不是某馆展陈、原物或精确复原。模型的神庙位置、服饰和工具不作考古证明；不展示遗体。吉萨工人聚落研究主要涉及哈夫拉、孟卡拉工程，与胡夫的联系保留可能性；不据此编造胡夫施工人数、待遇或唯一搬石办法。旧两河流域研究完整保留在家长长稿，当前五步只聚焦古埃及金字塔。",
+        "reunionImage": "/content/step-images/egypt-pyramid-museum-v1.jpg",
+        "stationLine": "到古代南亚看怎样存水，再去埃及、希腊和罗马，看看陵墓、神庙和道路各有什么用途。这些故事发生在不同年代和地方。",
+        "stationAudio": {
+          "id": "quest-1e5e0c2fbcde8a1e",
+          "text": "到古代南亚看怎样存水，再去埃及、希腊和罗马，看看陵墓、神庙和道路各有什么用途。这些故事发生在不同年代和地方。"
+        },
+        "closingAudio": {
+          "id": "quest-fccc5272fd5abfd6",
+          "text": "胡夫大金字塔是古埃及王室陵墓建筑群的一部分，旁边还有神庙。人们加工、运送石材，也准备工具和食物。照片能帮我们观察今天留下的建筑，却不能告诉我们全部建造经过。"
+        }
+      },
+      "sceneImage": "/content/step-images/egypt-pyramid-museum-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-cd8d17b2d355efa4",
+        "text": "这张照片拍于2010年，建筑是四千多年前的胡夫大金字塔。可以看见今天保存的一层层石块，前面的游客属于拍照时，不能当作古代建造者。"
+      },
+      "guideAudio": {
+        "id": "quest-de7b3b65c32709b3",
+        "text": "跟小伙伴看材料、听故事，再找出自己的发现。"
+      }
+    },
+    "sceneAsset": {
+      "id": "egypt-pyramid-museum-v1",
+      "title": "古埃及金字塔用途教学展厅",
+      "localPath": "reference-assets/poetry-world-world/egypt-pyramid-museum-v1.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/poetry-world-world/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学情境插画，不是历史现场或文物照片",
+      "boundary": "现代小伙伴观察金字塔与附属神庙模型、独立闭合石棺教具。虚构教学展厅，不是特定博物馆、原物或完整陵墓群复原；不以神庙位置和石棺形制证明胡夫陵墓细节。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/egypt-pyramid-museum-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "egypt-pyramid-museum-v1",
+        "title": "古埃及金字塔用途教学展厅",
+        "localPath": "reference-assets/poetry-world-world/egypt-pyramid-museum-v1.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/poetry-world-world/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学情境插画，不是历史现场或文物照片",
+        "boundary": "现代小伙伴观察金字塔与附属神庙模型、独立闭合石棺教具。虚构教学展厅，不是特定博物馆、原物或完整陵墓群复原；不以神庙位置和石棺形制证明胡夫陵墓细节。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/egypt-pyramid-museum-v1.jpg"
+      },
+      {
+        "id": "egypt-pyramid-choices-v1",
+        "title": "金字塔用途与建筑劳动四格情境",
+        "localPath": "reference-assets/poetry-world-world/egypt-pyramid-choices-v1.png",
+        "runtimeMaxEdge": 1254,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/poetry-world-world/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学情境插画，不是历史现场或文物照片",
+        "boundary": "现代教学分镜，用于比较王室陵墓与日常居住、石材加工与现代积木。工匠服饰、工具和工作动作不作某位古人或胡夫工程的精确复原，不展示遗体或完整施工方案。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/egypt-pyramid-choices-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/great-pyramid-giza-2010-photo.jpg",
+    "coverImageAlt": "胡夫大金字塔2010年实拍",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "胡夫大金字塔 · 2010年照片",
+      "fit": "contain"
     },
     "coverAudio": {
-      "id": "quest-89be60686814d7e6",
-      "text": "今天从一个地方出发：金字塔旁边为什么需要一条河。我们要去尼罗河流域与两河流域，看看金字塔遗址、泥板与汉谟拉比石碑怎样把答案一点点带出来。准备好就点开始。"
+      "id": "quest-0566ace576769a97",
+      "text": "小伙伴到了古埃及展厅。四千多年前，古埃及人为国王修建金字塔陵墓，旁边还有别的建筑。我们先看它为什么要建，再找石块和人们劳动留下的线索。"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-c0942ac8b10085be",
-      "text": "五条线索都找到了，“金字塔旁边为什么需要一条河”的答案是：河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。 你获得了历史证据小侦探勋章。"
+      "id": "quest-e96fab8519947eb0",
+      "text": "胡夫大金字塔是古埃及王室陵墓建筑群的一部分。加工、运送石材和提供食物等许多工作，支持了修建；今天的照片只留下部分线索。"
     },
-    "estimatedMinutes": 9,
+    "finish": {
+      "title": "金字塔的用途与劳动都有线索",
+      "actions": [
+        "指着故事模型，说说金字塔为什么要建；再指出它旁边还有别的建筑。",
+        "回看真照片，分别指一个古老建筑和拍照时的人，告诉家人二者年代不同。"
+      ],
+      "parent": "金字塔原来做什么？修建它需要哪些人的工作？孩子可指陵墓模型和石工场景，不必背年份或施工人数。故事模型、闭合石棺与人物均为教学新画；照片不能证明完整施工过程。",
+      "sceneStepIndexes": [
+        1,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-aa7f6dfc30209f2e",
+          "text": "指着故事模型，说说金字塔为什么要建；再指出它旁边还有别的建筑。"
+        },
+        {
+          "id": "quest-1e84a75b280c013f",
+          "text": "回看真照片，分别指一个古老建筑和拍照时的人，告诉家人二者年代不同。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-fccc5272fd5abfd6",
+        "text": "胡夫大金字塔是古埃及王室陵墓建筑群的一部分，旁边还有神庙。人们加工、运送石材，也准备工具和食物。照片能帮我们观察今天留下的建筑，却不能告诉我们全部建造经过。"
+      }
+    },
+    "estimatedMinutes": 6,
     "badge": {
-      "icon": "🏅",
-      "label": "历史证据小侦探"
+      "icon": "🌟",
+      "label": "小小观察员"
     },
     "steps": [
       {
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "先找到时间",
-        "title": "先把故事放进时间河",
-        "prompt": "从一个地方出发，先找哪个年代？",
-        "rightNote": "时间找对了，故事有了起点。",
-        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "phase": "先到四千多年前的古埃及",
+        "title": "先到四千多年前的古埃及",
+        "prompt": "金字塔是在什么时候建的？",
+        "rightNote": "四千多年前的古埃及；照片是在后来拍的。",
+        "wrongNote": "2010年是拍照片的时候，金字塔早已建好。",
+        "sourceIds": [
+          "UNESCO-MEMPHIS-PYRAMIDS",
+          "MET-EGYPT-OLD-KINGDOM",
+          "HARVARD-GIZA-SCHOOL-FAQ",
+          "AERA-GIZA-PYRAMID-SETTLEMENT"
+        ],
+        "interaction": {
+          "kind": "timeline",
+          "hint": "先听故事，再看看图里的线索。"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "先到四千多年前的古埃及",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "四千多年前的古埃及；照片是在后来拍的。",
+          "retry": "2010年是拍照片的时候，金字塔早已建好。",
+          "nextLabel": "看看金字塔原来做什么"
+        },
+        "concepts": null,
+        "inspection": {
+          "id": "great-pyramid-giza-2010-photo",
+          "title": "胡夫大金字塔 · 2010年照片",
+          "localPath": "reference-assets/world-ancient-river-civilizations/great-pyramid-giza-2010.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 3.0",
+          "clearance": "cleared-open-license",
+          "caption": "埃及吉萨 · 建于古王国时期，现代拍摄",
+          "boundary": "胡夫大金字塔的2010年参观照片，摄影Kallerna，依CC BY-SA 3.0署名使用。古代建筑与现代游客年代不同；今天缺少部分外层石材的样子不能当作初建原貌。照片不能证明完整施工方法、劳动者身份或墓葬建筑群布局。 2010年拍摄的胡夫大金字塔，前景可见遗迹、游客和动物。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/great-pyramid-giza-2010-photo.jpg",
+          "label": "看真照片，听材料说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 290,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "UNESCO孟菲斯与金字塔遗产记录",
+              "url": "https://whc.unesco.org/en/list/86/"
+            },
+            {
+              "title": "照片作者Kallerna与CC BY-SA 3.0许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-cd8d17b2d355efa4",
+            "text": "这张照片拍于2010年，建筑是四千多年前的胡夫大金字塔。可以看见今天保存的一层层石块，前面的游客属于拍照时，不能当作古代建造者。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "先把故事放进时间河",
-          "screenText": "这是古代文明，时间是早期人类—约5世纪。",
-          "narration": "这是古代文明，时间是早期人类—约5世纪。",
-          "displayText": "这是古代文明，时间是早期人类—约5世纪。"
+          "title": "先到四千多年前的古埃及",
+          "screenText": "胡夫大金字塔在非洲的埃及，四千多年前就建起来了。这张照片拍于2010年；拍照片的年份，和建造的年代不一样。",
+          "displayText": "胡夫大金字塔在非洲的埃及，四千多年前就建起来了。这张照片拍于2010年；拍照片的年份，和建造的年代不一样。",
+          "narration": "胡夫大金字塔在非洲的埃及，四千多年前就建起来了。这张照片拍于2010年；拍照片的年份，和建造的年代不一样。"
         },
-        "assetId": "hammurabi-stele-2011-photo",
-        "image": "/content/step-images/hammurabi-stele-2011-photo.jpg",
-        "imageAlt": "汉谟拉比石碑2011年实拍",
-        "imageCaption": "2011年在卢浮宫拍摄的汉谟拉比石碑，上部浮雕和部分楔形文字清晰可见。",
-        "imageBoundary": "Commons原图2848×3272像素，等比例缩至1915×2200像素，未裁切。石碑事实以卢浮宫记录为准：约公元前1750年、现存282条司法判例，不是现代意义的完整法典。照片是现代展陈且只显示局部，不能冒充巴比伦颁布现场、证明原始展示地点或展示全部文字。",
+        "assetId": "egypt-pyramid-museum-v1",
+        "image": "/content/step-images/egypt-pyramid-museum-v1.jpg",
+        "studyImage": "/content/study-scenes/study-96afbd530249faa8.svg",
+        "studyImageAlt": "先到四千多年前的古埃及",
+        "imageAlt": "古埃及金字塔用途教学展厅",
+        "imageCaption": "古埃及金字塔用途教学展厅",
+        "imageBoundary": "现代小伙伴观察金字塔与附属神庙模型、独立闭合石棺教具。虚构教学展厅，不是特定博物馆、原物或完整陵墓群复原；不以神庙位置和石棺形制证明胡夫陵墓细节。",
         "audio": {
+          "lead": {
+            "id": "quest-6af40b9396cf77a1",
+            "text": "胡夫大金字塔在非洲的埃及，四千多年前就建起来了。这张照片拍于2010年；拍照片的年份，和建造的年代不一样。金字塔是在什么时候建的？"
+          },
           "transition": {
-            "id": "quest-cafb042b318bc60f",
-            "text": "先给一个地方找到正确年代。"
+            "id": "quest-50718c3a636658ab",
+            "text": "先到四千多年前的古埃及。"
           },
           "intro": {
-            "id": "quest-21581725ac4a1096",
-            "text": "这是古代文明，时间是早期人类—约5世纪。"
-          },
-          "image": {
-            "id": "quest-d270bebbe14e2b5e",
-            "text": "点开大图啦。这是汉谟拉比石碑2011年实拍。这张图能帮我们找到：这是古代文明，时间是早期人类—约5世纪。"
+            "id": "quest-9364e1f76512c4ce",
+            "text": "胡夫大金字塔在非洲的埃及，四千多年前就建起来了。这张照片拍于2010年；拍照片的年份，和建造的年代不一样。"
           },
           "question": {
-            "id": "quest-6b36b10ba4b7def9",
-            "text": "从一个地方出发，先找哪个年代？"
+            "id": "quest-740b93e973046a8c",
+            "text": "金字塔是在什么时候建的？"
+          },
+          "image": {
+            "id": "quest-19f32b23f2ab11fa",
+            "text": "这张是古埃及金字塔用途教学展厅。胡夫大金字塔在非洲的埃及，四千多年前就建起来了。这张照片拍于2010年；拍照片的年份，和建造的年代不一样。"
           },
           "right": {
-            "id": "quest-c2d78010da74a324",
-            "text": "答对啦！时间找对了，故事有了起点。"
+            "id": "quest-1909c21ce4917db8",
+            "text": "四千多年前的古埃及；照片是在后来拍的。"
           },
           "wrong": {
-            "id": "quest-97f81f02dcd7c5eb",
-            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+            "id": "quest-d96f55f10d988129",
+            "text": "2010年是拍照片的时候，金字塔早已建好。"
           }
         },
         "options": [
           {
             "id": "world-ancient-01-02-river-civilizations-time-1",
-            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
-            "correct": false,
+            "label": "四千多年前的古埃及",
+            "correct": true,
+            "objectView": {
+              "kind": "era",
+              "name": "古埃及",
+              "date": "约公元前26世纪",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-e764d70cc30eb846.svg",
+            "imageAlt": "古埃及",
             "audio": {
-              "id": "quest-ec1b28f3cd29e479",
-              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+              "id": "quest-7f7b52a3dfdb9cfc",
+              "text": "四千多年前的古埃及"
             }
           },
           {
             "id": "world-ancient-01-02-river-civilizations-time-2",
-            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "label": "拍照片时 · 2010年",
             "correct": false,
+            "objectView": {
+              "kind": "era",
+              "name": "拍照片时",
+              "date": "2010年",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-878cdaba27d13ab9.svg",
+            "imageAlt": "拍照片时 2010年",
             "audio": {
-              "id": "quest-d697ebadd2ec4ecb",
-              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
-            }
-          },
-          {
-            "id": "world-ancient-01-02-river-civilizations-time-3",
-            "label": "世界古代史 · 古代文明 · 早期人类—约5世纪",
-            "correct": true,
-            "audio": {
-              "id": "quest-41ed781097729712",
-              "text": "世界古代史 · 古代文明 · 早期人类—约5世纪"
+              "id": "quest-e10c5a5668b8a662",
+              "text": "拍照片时 · 2010年"
             }
           }
         ]
       },
       {
         "id": "beginning",
-        "questionKind": "evidence-object",
+        "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "第一拍 · 故事起点",
-        "title": "河水带来泥土",
-        "prompt": "哪一件证物能先打开这个故事？",
-        "rightNote": "先看尼罗河涨水给田地带来水和泥土。",
-        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "phase": "金字塔是王室陵墓的一部分",
+        "title": "金字塔是王室陵墓的一部分",
+        "prompt": "金字塔和旁边的建筑有什么用途？",
+        "rightNote": "金字塔陵墓和神庙，一起组成王室墓葬建筑群。",
+        "wrongNote": "再听一听古埃及人为什么修建它。",
+        "sourceIds": [
+          "UNESCO-MEMPHIS-PYRAMIDS",
+          "MET-EGYPT-OLD-KINGDOM",
+          "HARVARD-GIZA-SCHOOL-FAQ",
+          "AERA-GIZA-PYRAMID-SETTLEMENT"
+        ],
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "先听故事，再看看图里的线索。",
+          "continueLabel": "去真照片里找线索"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "金字塔是王室陵墓的一部分",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "金字塔陵墓和神庙，一起组成王室墓葬建筑群。",
+          "retry": "再听一听古埃及人为什么修建它。",
+          "nextLabel": "去真照片里找线索"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "河水带来泥土",
-          "screenText": "先看尼罗河涨水给田地带来水和泥土。",
-          "narration": "先看尼罗河涨水给田地带来水和泥土。",
-          "displayText": "先看尼罗河涨水给田地带来水和泥土。"
+          "title": "金字塔是王室陵墓的一部分",
+          "screenText": "古埃及人为国王修建金字塔陵墓。陵墓是安葬去世者的地方。旁边还有神庙，古人在那里敬神、纪念去世的国王，不是一家人每天吃饭住的房子。",
+          "displayText": "古埃及人为国王修建金字塔陵墓。陵墓是安葬去世者的地方。旁边还有神庙，古人在那里敬神、纪念去世的国王，不是一家人每天吃饭住的房子。",
+          "narration": "古埃及人为国王修建金字塔陵墓。陵墓是安葬去世者的地方。旁边还有神庙，古人在那里敬神、纪念去世的国王，不是一家人每天吃饭住的房子。"
         },
-        "assetId": "hammurabi-stele-2011-photo",
-        "image": "/content/step-images/hammurabi-stele-2011-photo.jpg",
-        "imageAlt": "汉谟拉比石碑2011年实拍",
-        "imageCaption": "2011年在卢浮宫拍摄的汉谟拉比石碑，上部浮雕和部分楔形文字清晰可见。",
-        "imageBoundary": "Commons原图2848×3272像素，等比例缩至1915×2200像素，未裁切。石碑事实以卢浮宫记录为准：约公元前1750年、现存282条司法判例，不是现代意义的完整法典。照片是现代展陈且只显示局部，不能冒充巴比伦颁布现场、证明原始展示地点或展示全部文字。",
+        "assetId": "egypt-pyramid-museum-v1",
+        "image": "/content/step-images/egypt-pyramid-museum-v1.jpg",
+        "studyImage": "/content/study-scenes/study-65805043b9fb342a.svg",
+        "studyImageAlt": "金字塔是王室陵墓的一部分",
+        "imageAlt": "古埃及金字塔用途教学展厅",
+        "imageCaption": "古埃及金字塔用途教学展厅",
+        "imageBoundary": "现代小伙伴观察金字塔与附属神庙模型、独立闭合石棺教具。虚构教学展厅，不是特定博物馆、原物或完整陵墓群复原；不以神庙位置和石棺形制证明胡夫陵墓细节。",
         "audio": {
+          "lead": {
+            "id": "quest-01a7ce49a508c49c",
+            "text": "古埃及人为国王修建金字塔陵墓。陵墓是安葬去世者的地方。旁边还有神庙，古人在那里敬神、纪念去世的国王，不是一家人每天吃饭住的房子。"
+          },
           "transition": {
-            "id": "quest-bc13be496686808e",
-            "text": "时间找到了。先找一件看得见、能核对的证物。"
+            "id": "quest-ebe751705afc388c",
+            "text": "金字塔是王室陵墓的一部分。"
           },
           "intro": {
-            "id": "quest-fe02057bfe6627cf",
-            "text": "先看尼罗河涨水给田地带来水和泥土。"
-          },
-          "image": {
-            "id": "quest-95a1a73aca101acf",
-            "text": "点开大图啦。这是汉谟拉比石碑2011年实拍。这张图能帮我们找到：先看尼罗河涨水给田地带来水和泥土。"
+            "id": "quest-01a7ce49a508c49c",
+            "text": "古埃及人为国王修建金字塔陵墓。陵墓是安葬去世者的地方。旁边还有神庙，古人在那里敬神、纪念去世的国王，不是一家人每天吃饭住的房子。"
           },
           "question": {
-            "id": "quest-785d31b501154b8e",
-            "text": "哪一件证物能先打开这个故事？"
+            "id": "quest-9f170521ca69680c",
+            "text": "金字塔和旁边的建筑有什么用途？"
+          },
+          "image": {
+            "id": "quest-fab9058d18a9fcbc",
+            "text": "这张是古埃及金字塔用途教学展厅。古埃及人为国王修建金字塔陵墓。陵墓是安葬去世者的地方。旁边还有神庙，古人在那里敬神、纪念去世的国王，不是一家人每天吃饭住的房子。"
           },
           "right": {
-            "id": "quest-9e334cf899a379f3",
-            "text": "答对啦！第一件证物找到了。"
+            "id": "quest-1a880e3c4eebf3ec",
+            "text": "金字塔陵墓和神庙，一起组成王室墓葬建筑群。"
           },
           "wrong": {
-            "id": "quest-83318c217691cf7c",
-            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+            "id": "quest-b4dab0942fb53016",
+            "text": "再听一听古埃及人为什么修建它。"
           }
         },
-        "options": [
-          {
-            "id": "world-ancient-01-02-river-civilizations-beginning-1",
-            "label": "尼罗河流域与两河流域、农人、工，只是故事地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-016d515e8539ca02",
-              "text": "尼罗河流域与两河流域、农人、工，只是故事地点"
-            }
-          },
-          {
-            "id": "world-ancient-01-02-river-civilizations-beginning-2",
-            "label": "金字塔遗址、泥板与汉谟拉比石碑，是能核对的证物",
-            "correct": true,
-            "audio": {
-              "id": "quest-4ffbf1a77bfff092",
-              "text": "金字塔遗址、泥板与汉谟拉比石碑，是能核对的证物"
-            }
-          },
-          {
-            "id": "world-ancient-01-02-river-civilizations-beginning-3",
-            "label": "农人、工匠、书吏与统治者、尼罗河流，只是故事人物",
-            "correct": false,
-            "audio": {
-              "id": "quest-9b1fae58b3d253fc",
-              "text": "农人、工匠、书吏与统治者、尼罗河流，只是故事人物"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
-        "questionKind": "people-place-action",
+        "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "第二拍 · 故事继续",
-        "title": "修渠需要分工",
-        "prompt": "故事里的人来到这里以后，做了什么？",
-        "rightNote": "接着看人们修渠分工，城市里出现书吏和工匠。",
-        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "phase": "真照片里有古老建筑，也有今天的人",
+        "title": "真照片里有古老建筑，也有今天的人",
+        "prompt": "哪里能看到金字塔一层层的石块？",
+        "rightNote": "古老建筑和现代游客，要分开观察。",
+        "wrongNote": "先听问题，再看看照片里的石块和游客。",
+        "sourceIds": [
+          "UNESCO-MEMPHIS-PYRAMIDS",
+          "MET-EGYPT-OLD-KINGDOM"
+        ],
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听问题，在真照片中找线索。",
+          "imageLabel": "实物照片",
+          "sceneAspectRatio": 1.6,
+          "ariaLabel": "在金字塔现代照片中找到石块和游客",
+          "hotspots": [
+            {
+              "id": "stone",
+              "label": "金字塔的层层石块",
+              "x": 0.48,
+              "y": 0.39,
+              "width": 0.16,
+              "height": 0.22
+            },
+            {
+              "id": "visitors",
+              "label": "拍照时的游客",
+              "x": 0.44,
+              "y": 0.79,
+              "width": 0.14,
+              "height": 0.13
+            }
+          ],
+          "rounds": [
+            {
+              "id": "stone",
+              "targetId": "stone",
+              "question": "哪里能看到金字塔一层层的石块？",
+              "feedback": "一层层石块，让我们看见建筑的材料。",
+              "retry": "这里是后来参观的游客，再看看建筑。",
+              "nextLabel": "再找找拍照时的人",
+              "audio": {
+                "question": {
+                  "id": "quest-ac9718a1ecbc1417",
+                  "text": "哪里能看到金字塔一层层的石块？"
+                },
+                "right": {
+                  "id": "quest-56c0794a398d35bf",
+                  "text": "一层层石块，让我们看见建筑的材料。"
+                },
+                "wrong": {
+                  "id": "quest-f2484c005224c6f9",
+                  "text": "这里是后来参观的游客，再看看建筑。"
+                }
+              }
+            },
+            {
+              "id": "visitors",
+              "targetId": "visitors",
+              "question": "哪里是2010年拍到的游客？",
+              "feedback": "游客属于拍照时，不能当作古代建造者。",
+              "retry": "这里是古老建筑，游客在照片前方。",
+              "nextLabel": "石块背后还有人的劳动",
+              "audio": {
+                "question": {
+                  "id": "quest-10080c5d4bed392d",
+                  "text": "哪里是2010年拍到的游客？"
+                },
+                "right": {
+                  "id": "quest-ae0d3c5b47ba5442",
+                  "text": "游客属于拍照时，不能当作古代建造者。"
+                },
+                "wrong": {
+                  "id": "quest-e38ef7eac1beceac",
+                  "text": "这里是古老建筑，游客在照片前方。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "真照片里有古老建筑，也有今天的人",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "古老建筑和现代游客，要分开观察。",
+          "retry": "先听问题，再看看照片里的石块和游客。",
+          "nextLabel": "石块背后还有人的劳动"
+        },
+        "concepts": null,
+        "inspection": {
+          "id": "great-pyramid-giza-2010-photo",
+          "title": "胡夫大金字塔 · 2010年照片",
+          "localPath": "reference-assets/world-ancient-river-civilizations/great-pyramid-giza-2010.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 3.0",
+          "clearance": "cleared-open-license",
+          "caption": "埃及吉萨 · 建于古王国时期，现代拍摄",
+          "boundary": "胡夫大金字塔的2010年参观照片，摄影Kallerna，依CC BY-SA 3.0署名使用。古代建筑与现代游客年代不同；今天缺少部分外层石材的样子不能当作初建原貌。照片不能证明完整施工方法、劳动者身份或墓葬建筑群布局。 2010年拍摄的胡夫大金字塔，前景可见遗迹、游客和动物。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/great-pyramid-giza-2010-photo.jpg",
+          "label": "看真照片，听材料说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 290,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "UNESCO孟菲斯与金字塔遗产记录",
+              "url": "https://whc.unesco.org/en/list/86/"
+            },
+            {
+              "title": "照片作者Kallerna与CC BY-SA 3.0许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Great_Pyramid_of_Giza.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-cd8d17b2d355efa4",
+            "text": "这张照片拍于2010年，建筑是四千多年前的胡夫大金字塔。可以看见今天保存的一层层石块，前面的游客属于拍照时，不能当作古代建造者。"
+          }
+        },
         "story": {
           "screenNumber": 3,
-          "title": "修渠需要分工",
-          "screenText": "接着看人们修渠分工，城市里出现书吏和工匠。",
-          "narration": "接着看人们修渠分工，城市里出现书吏和工匠。",
-          "displayText": "接着看人们修渠分工，城市里出现书吏和工匠。"
+          "title": "真照片里有古老建筑，也有今天的人",
+          "screenText": "照片里，金字塔的一层层石块还看得见。前面骑马的游客，是2010年拍到的人。我们先找石块，再分清建筑和后来的人。",
+          "displayText": "照片里，金字塔的一层层石块还看得见。前面骑马的游客，是2010年拍到的人。我们先找石块，再分清建筑和后来的人。",
+          "narration": "照片里，金字塔的一层层石块还看得见。前面骑马的游客，是2010年拍到的人。我们先找石块，再分清建筑和后来的人。"
         },
-        "assetId": "hammurabi-stele-2011-photo",
-        "image": "/content/step-images/hammurabi-stele-2011-photo.jpg",
-        "imageAlt": "汉谟拉比石碑2011年实拍",
-        "imageCaption": "2011年在卢浮宫拍摄的汉谟拉比石碑，上部浮雕和部分楔形文字清晰可见。",
-        "imageBoundary": "Commons原图2848×3272像素，等比例缩至1915×2200像素，未裁切。石碑事实以卢浮宫记录为准：约公元前1750年、现存282条司法判例，不是现代意义的完整法典。照片是现代展陈且只显示局部，不能冒充巴比伦颁布现场、证明原始展示地点或展示全部文字。",
+        "assetId": "great-pyramid-giza-2010-photo",
+        "image": "/content/step-images/great-pyramid-giza-2010-photo.jpg",
+        "studyImage": "/content/study-scenes/study-5a6de244cd644261.svg",
+        "studyImageAlt": "真照片里有古老建筑，也有今天的人",
+        "imageAlt": "胡夫大金字塔2010年实拍",
+        "imageCaption": "胡夫大金字塔2010年实拍",
+        "imageBoundary": "胡夫大金字塔的2010年参观照片，摄影Kallerna，依CC BY-SA 3.0署名使用。古代建筑与现代游客年代不同；今天缺少部分外层石材的样子不能当作初建原貌。照片不能证明完整施工方法、劳动者身份或墓葬建筑群布局。",
         "audio": {
+          "lead": {
+            "id": "quest-90f2495ef04763f9",
+            "text": "照片里，金字塔的一层层石块还看得见。前面骑马的游客，是2010年拍到的人。我们先找石块，再分清建筑和后来的人。"
+          },
           "transition": {
-            "id": "quest-d4c11419e03a18fd",
-            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+            "id": "quest-2b57bc5dc55999f1",
+            "text": "真照片里有古老建筑，也有今天的人。"
           },
           "intro": {
-            "id": "quest-5be7fb0fd23b1b3c",
-            "text": "接着看人们修渠分工，城市里出现书吏和工匠。"
-          },
-          "image": {
-            "id": "quest-2dd38d01fd03232c",
-            "text": "点开大图啦。这是汉谟拉比石碑2011年实拍。这张图能帮我们找到：接着看人们修渠分工，城市里出现书吏和工匠。"
+            "id": "quest-90f2495ef04763f9",
+            "text": "照片里，金字塔的一层层石块还看得见。前面骑马的游客，是2010年拍到的人。我们先找石块，再分清建筑和后来的人。"
           },
           "question": {
-            "id": "quest-329a69e64424a884",
-            "text": "故事里的人来到这里以后，做了什么？"
+            "id": "quest-ac9718a1ecbc1417",
+            "text": "哪里能看到金字塔一层层的石块？"
+          },
+          "image": {
+            "id": "quest-aa466e9982d9b975",
+            "text": "这张是胡夫大金字塔2010年实拍。照片里，金字塔的一层层石块还看得见。前面骑马的游客，是2010年拍到的人。我们先找石块，再分清建筑和后来的人。"
           },
           "right": {
-            "id": "quest-d7d6754891bc9f0f",
-            "text": "答对啦！人物、地点和行动连起来了。"
+            "id": "quest-952a9cbcbf4d2114",
+            "text": "古老建筑和现代游客，要分开观察。"
           },
           "wrong": {
-            "id": "quest-66c837d18451416f",
-            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+            "id": "quest-75ebd2aab82aed56",
+            "text": "先听问题，再看看照片里的石块和游客。"
           }
         },
-        "options": [
-          {
-            "id": "world-ancient-01-02-river-civilizations-journey-1",
-            "label": "接着看人们修渠分工，城市里出现书吏和工匠。",
-            "correct": true,
-            "audio": {
-              "id": "quest-5be7fb0fd23b1b3c",
-              "text": "接着看人们修渠分工，城市里出现书吏和工匠。"
-            }
-          },
-          {
-            "id": "world-ancient-01-02-river-civilizations-journey-2",
-            "label": "尼罗河流域与两河流域、金字塔，只说了地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-95d04fdbd4474ef0",
-              "text": "尼罗河流域与两河流域、金字塔，只说了地点"
-            }
-          },
-          {
-            "id": "world-ancient-01-02-river-civilizations-journey-3",
-            "label": "农人、工匠、书吏与统治者、金字塔，只认出人物",
-            "correct": false,
-            "audio": {
-              "id": "quest-fabed1681e48a965",
-              "text": "农人、工匠、书吏与统治者、金字塔，只认出人物"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "第三拍 · 看见变化",
-        "title": "城市留下文字",
-        "prompt": "前面的行动带来了什么变化？",
-        "rightNote": "最后金字塔、泥板和法典留下早期国家的线索。",
-        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "phase": "许多人的工作，支持一座大建筑",
+        "title": "许多人的工作，支持一座大建筑",
+        "prompt": "哪一幕在处理真正建造用的石材？",
+        "rightNote": "工匠在加工石块。建造还需要运送和供给等工作。",
+        "wrongNote": "玩积木是今天的游戏；再找找加工石材的人。",
+        "sourceIds": [
+          "HARVARD-GIZA-SCHOOL-FAQ",
+          "AERA-GIZA-PYRAMID-SETTLEMENT"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "先听故事，再看看图里的线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "许多人的工作，支持一座大建筑",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "工匠在加工石块。建造还需要运送和供给等工作。",
+          "retry": "玩积木是今天的游戏；再找找加工石材的人。",
+          "nextLabel": "给后来参观的人讲清用途"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "城市留下文字",
-          "screenText": "最后金字塔、泥板和法典留下早期国家的线索。",
-          "narration": "最后金字塔、泥板和法典留下早期国家的线索。",
-          "displayText": "最后金字塔、泥板和法典留下早期国家的线索。"
+          "title": "许多人的工作，支持一座大建筑",
+          "screenText": "修建金字塔，需要人们加工和运送石材，也需要人准备工具和食物。玩积木可以帮助想象，真正建造却要许多人长期劳动。",
+          "displayText": "修建金字塔，需要人们加工和运送石材，也需要人准备工具和食物。玩积木可以帮助想象，真正建造却要许多人长期劳动。",
+          "narration": "修建金字塔，需要人们加工和运送石材，也需要人准备工具和食物。玩积木可以帮助想象，真正建造却要许多人长期劳动。"
         },
-        "assetId": "proto-cuneiform-grain-tablet-met-photo",
-        "image": "/content/step-images/proto-cuneiform-grain-tablet-met-photo.jpg",
-        "imageAlt": "原始楔形文字粮食管理泥板",
-        "imageCaption": "约公元前3100—前2900年的原始楔形文字泥板，很可能记录大麦和二粒小麦的交付与分配。",
-        "imageBoundary": "The Met开放获取原图3000×4000像素，等比例缩至1650×2200像素，未裁切；对象编号1988.433.2，很可能来自乌鲁克。必须保留馆方“most likely”的不确定性：早期文本没有动词，不能逐格编造确定名单、对白或事件。",
+        "assetId": "egypt-pyramid-museum-v1",
+        "image": "/content/step-images/egypt-pyramid-museum-v1.jpg",
+        "studyImage": "/content/study-scenes/study-7941cf43f442ec97.svg",
+        "studyImageAlt": "许多人的工作，支持一座大建筑",
+        "imageAlt": "古埃及金字塔用途教学展厅",
+        "imageCaption": "古埃及金字塔用途教学展厅",
+        "imageBoundary": "现代小伙伴观察金字塔与附属神庙模型、独立闭合石棺教具。虚构教学展厅，不是特定博物馆、原物或完整陵墓群复原；不以神庙位置和石棺形制证明胡夫陵墓细节。",
         "audio": {
+          "lead": {
+            "id": "quest-fe936d929822d205",
+            "text": "修建金字塔，需要人们加工和运送石材，也需要人准备工具和食物。玩积木可以帮助想象，真正建造却要许多人长期劳动。哪一幕在处理真正建造用的石材？"
+          },
           "transition": {
-            "id": "quest-ca472709af5bb16a",
-            "text": "行动发生了。再看看它带来了什么变化。"
+            "id": "quest-2c07b782a9ce3d77",
+            "text": "许多人的工作，支持一座大建筑。"
           },
           "intro": {
-            "id": "quest-b9dc8297a53a2b77",
-            "text": "最后金字塔、泥板和法典留下早期国家的线索。"
-          },
-          "image": {
-            "id": "quest-878217d97c4ad125",
-            "text": "点开大图啦。这是原始楔形文字粮食管理泥板。这张图能帮我们找到：最后金字塔、泥板和法典留下早期国家的线索。"
+            "id": "quest-390d4474e46498da",
+            "text": "修建金字塔，需要人们加工和运送石材，也需要人准备工具和食物。玩积木可以帮助想象，真正建造却要许多人长期劳动。"
           },
           "question": {
-            "id": "quest-2f86a3a6bc009210",
-            "text": "前面的行动带来了什么变化？"
+            "id": "quest-b0e4ba87aec244bb",
+            "text": "哪一幕在处理真正建造用的石材？"
+          },
+          "image": {
+            "id": "quest-83771f96f7122398",
+            "text": "这张是古埃及金字塔用途教学展厅。修建金字塔，需要人们加工和运送石材，也需要人准备工具和食物。玩积木可以帮助想象，真正建造却要许多人长期劳动。"
           },
           "right": {
-            "id": "quest-53f7633e99fda023",
-            "text": "答对啦！你找到了前因带来的变化。"
+            "id": "quest-63a4a59799a07e31",
+            "text": "工匠在加工石块。建造还需要运送和供给等工作。"
           },
           "wrong": {
-            "id": "quest-631e3024b71736c9",
-            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+            "id": "quest-b7f38092c489d59c",
+            "text": "玩积木是今天的游戏；再找找加工石材的人。"
           }
         },
         "options": [
           {
             "id": "world-ancient-01-02-river-civilizations-change-1",
-            "label": "看人们修渠分工，城市里出现书，还只是行动经过",
-            "correct": false,
+            "label": "工匠一起加工石块",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "egypt-pyramid-choices-v1",
+              "crop": {
+                "x": 8,
+                "y": 637,
+                "width": 609,
+                "height": 609,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/egypt-pyramid-choices-v1.jpg",
+              "imageAlt": "工匠一起加工石块",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-1c3152f008d0d199.svg",
+            "imageAlt": "工匠一起加工石块",
             "audio": {
-              "id": "quest-a02b54ff030ebce8",
-              "text": "看人们修渠分工，城市里出现书，还只是行动经过"
+              "id": "quest-087b5726df8642d5",
+              "text": "工匠一起加工石块"
             }
           },
           {
             "id": "world-ancient-01-02-river-civilizations-change-2",
-            "label": "金字塔遗址、泥板与汉谟拉，还只是故事起点",
+            "label": "小伙伴在屋里搭积木",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "egypt-pyramid-choices-v1",
+              "crop": {
+                "x": 637,
+                "y": 637,
+                "width": 609,
+                "height": 609,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/egypt-pyramid-choices-v1.jpg",
+              "imageAlt": "小伙伴在屋里搭积木",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-0c84bfe060a32eaf.svg",
+            "imageAlt": "小伙伴在屋里搭积木",
             "audio": {
-              "id": "quest-08bc964d2336f226",
-              "text": "金字塔遗址、泥板与汉谟拉，还只是故事起点"
-            }
-          },
-          {
-            "id": "world-ancient-01-02-river-civilizations-change-3",
-            "label": "最后金字塔、泥板和法典留下早期国家的线索。",
-            "correct": true,
-            "audio": {
-              "id": "quest-b9dc8297a53a2b77",
-              "text": "最后金字塔、泥板和法典留下早期国家的线索。"
+              "id": "quest-a0e1564c26f9f6bc",
+              "text": "小伙伴在屋里搭积木"
             }
           }
         ]
       },
       {
         "id": "takeaway",
-        "questionKind": "reason-result",
+        "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "把线索连成答案",
-        "title": "把三条线索连成答案",
-        "prompt": "哪句话同时说清了原因和结果？",
-        "rightNote": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。",
-        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
-        "story": {
-          "screenNumber": 6,
-          "title": "把三条线索连成答案",
-          "screenText": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。",
-          "narration": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。",
-          "displayText": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。"
+        "phase": "给参观的人讲清金字塔的用途",
+        "title": "给参观的人讲清金字塔的用途",
+        "prompt": "哪一幕帮助我们讲清金字塔的用途？",
+        "rightNote": "王室陵墓与神庙，是用途线索；还要记得人的劳动。",
+        "wrongNote": "吃饭住人的房子是日常生活场景，金字塔是陵墓。",
+        "sourceIds": [
+          "UNESCO-MEMPHIS-PYRAMIDS",
+          "MET-EGYPT-OLD-KINGDOM",
+          "HARVARD-GIZA-SCHOOL-FAQ",
+          "AERA-GIZA-PYRAMID-SETTLEMENT"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "先听故事，再看看图里的线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
         },
-        "assetId": "great-pyramid-giza-2010-photo",
-        "image": "/content/step-images/great-pyramid-giza-2010-photo.jpg",
-        "imageAlt": "胡夫大金字塔2010年实拍",
-        "imageCaption": "2010年拍摄的胡夫大金字塔，前景可见遗迹、游客和动物。",
-        "imageBoundary": "Commons原图2960×1850像素，等比例缩至2200×1375像素，未裁切。必须标明现代拍摄；前景活动和今天缺少大部分外层石材的外观不能搬回约公元前26世纪，也不能从照片推断施工方法、劳动者身份或完整墓葬建筑群布局。",
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "给参观的人讲清金字塔的用途",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "王室陵墓与神庙，是用途线索；还要记得人的劳动。",
+          "retry": "吃饭住人的房子是日常生活场景，金字塔是陵墓。",
+          "nextLabel": "带着发现回家"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "给参观的人讲清金字塔的用途",
+          "screenText": "新来的小伙伴想知道：金字塔原来是做什么的？我们指着模型，先讲王室陵墓和旁边的神庙，再说许多人一起建造。",
+          "displayText": "新来的小伙伴想知道：金字塔原来是做什么的？我们指着模型，先讲王室陵墓和旁边的神庙，再说许多人一起建造。",
+          "narration": "新来的小伙伴想知道：金字塔原来是做什么的？我们指着模型，先讲王室陵墓和旁边的神庙，再说许多人一起建造。"
+        },
+        "assetId": "egypt-pyramid-museum-v1",
+        "image": "/content/step-images/egypt-pyramid-museum-v1.jpg",
+        "studyImage": "/content/study-scenes/study-cf68fdc34add25b4.svg",
+        "studyImageAlt": "给参观的人讲清金字塔的用途",
+        "imageAlt": "古埃及金字塔用途教学展厅",
+        "imageCaption": "古埃及金字塔用途教学展厅",
+        "imageBoundary": "现代小伙伴观察金字塔与附属神庙模型、独立闭合石棺教具。虚构教学展厅，不是特定博物馆、原物或完整陵墓群复原；不以神庙位置和石棺形制证明胡夫陵墓细节。",
         "audio": {
+          "lead": {
+            "id": "quest-9e4c84d6eba39675",
+            "text": "新来的小伙伴想知道：金字塔原来是做什么的？我们指着模型，先讲王室陵墓和旁边的神庙，再说许多人一起建造。哪一幕帮助我们讲清金字塔的用途？"
+          },
           "transition": {
-            "id": "quest-a7cb01ad27c42767",
-            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+            "id": "quest-35f7185a9959ce67",
+            "text": "给参观的人讲清金字塔的用途。"
           },
           "intro": {
-            "id": "quest-77ed1424fa4e6734",
-            "text": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。"
-          },
-          "image": {
-            "id": "quest-5e22179eae4294f3",
-            "text": "点开大图啦。这是胡夫大金字塔2010年实拍。这张图能帮我们找到：河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。"
+            "id": "quest-481360a973053944",
+            "text": "新来的小伙伴想知道：金字塔原来是做什么的？我们指着模型，先讲王室陵墓和旁边的神庙，再说许多人一起建造。"
           },
           "question": {
-            "id": "quest-1626b51c966f57f7",
-            "text": "哪句话同时说清了原因和结果？"
+            "id": "quest-36831048db065c5e",
+            "text": "哪一幕帮助我们讲清金字塔的用途？"
+          },
+          "image": {
+            "id": "quest-4fa1bfb66573a568",
+            "text": "这张是古埃及金字塔用途教学展厅。新来的小伙伴想知道：金字塔原来是做什么的？我们指着模型，先讲王室陵墓和旁边的神庙，再说许多人一起建造。"
           },
           "right": {
-            "id": "quest-7efb4ef63956e209",
-            "text": "答对啦！原因和结果都说清楚了。"
+            "id": "quest-f29b35ecd5b16c4e",
+            "text": "王室陵墓与神庙，是用途线索；还要记得人的劳动。"
           },
           "wrong": {
-            "id": "quest-0cee35f61bffd03b",
-            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+            "id": "quest-fc4b45e171a7411e",
+            "text": "吃饭住人的房子是日常生活场景，金字塔是陵墓。"
           }
         },
         "options": [
           {
             "id": "world-ancient-01-02-river-civilizations-takeaway-1",
-            "label": "金字塔、泥板和法典留下早期国家的线索。、金字塔旁，只说了结果",
-            "correct": false,
+            "label": "王室陵墓与旁边的神庙",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "egypt-pyramid-choices-v1",
+              "crop": {
+                "x": 8,
+                "y": 8,
+                "width": 609,
+                "height": 609,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/egypt-pyramid-choices-v1.jpg",
+              "imageAlt": "王室陵墓与旁边的神庙",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-610da478d97c37da.svg",
+            "imageAlt": "王室陵墓与旁边的神庙",
             "audio": {
-              "id": "quest-1f5e957aaf7ddf5e",
-              "text": "金字塔、泥板和法典留下早期国家的线索。、金字塔旁，只说了结果"
+              "id": "quest-421310c4f1b23068",
+              "text": "王室陵墓与旁边的神庙"
             }
           },
           {
             "id": "world-ancient-01-02-river-civilizations-takeaway-2",
-            "label": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。",
-            "correct": true,
-            "audio": {
-              "id": "quest-77ed1424fa4e6734",
-              "text": "河流带来水和泥土，人们修渠分工，城市与管理组织才逐渐发展。"
-            }
-          },
-          {
-            "id": "world-ancient-01-02-river-civilizations-takeaway-3",
-            "label": "看尼罗河涨水给田地带来水和泥土。、金字塔遗址，只说了原因",
+            "label": "一家人吃饭居住的房子",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "egypt-pyramid-choices-v1",
+              "crop": {
+                "x": 637,
+                "y": 8,
+                "width": 609,
+                "height": 609,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/egypt-pyramid-choices-v1.jpg",
+              "imageAlt": "一家人吃饭居住的房子",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-1b3e7fa38a2b9cb1.svg",
+            "imageAlt": "一家人吃饭居住的房子",
             "audio": {
-              "id": "quest-2664578f5ab1e3a4",
-              "text": "看尼罗河涨水给田地带来水和泥土。、金字塔遗址，只说了原因"
+              "id": "quest-4a12dee7fa1a5bad",
+              "text": "一家人吃饭居住的房子"
             }
           }
         ]
@@ -772,9 +1248,50 @@
         "MET-PROTO-CUNEIFORM-GRAIN-TABLET",
         "LOUVRE-HAMMURABI-STELE"
       ]
+    },
+    {
+      "number": 21,
+      "text": "吉萨金字塔的修建涉及石材加工、运送与工匠等多类劳动。Harvard Digital Giza的学校资料介绍这些工作，AERA的吉萨聚落研究还记录了工作坊、工具制作、厨房、面包房与供应体系。这里采用多种工作相互支持的关系，不采用人员数量估算或唯一搬运办法。",
+      "sourceIds": [
+        "HARVARD-GIZA-SCHOOL-FAQ",
+        "AERA-GIZA-PYRAMID-SETTLEMENT"
+      ]
+    },
+    {
+      "number": 22,
+      "text": "AERA将Heit el-Ghurab聚落定位为第四王朝的建设供应中心，主要对应孟卡拉、哈夫拉工程，对胡夫的联系使用“可能”。因此不能把这处聚落说成已经确定的胡夫专属工人城。",
+      "sourceIds": [
+        "AERA-GIZA-PYRAMID-SETTLEMENT"
+      ]
     }
   ],
-  "methodNotes": [],
+  "methodNotes": [
+    {
+      "number": 1,
+      "text": "当前五步与长稿范围分开：当前聚焦古埃及；两河流域长稿完整保留，没有改成埃及史，也不因隐藏而宣称终审。",
+      "sourceIds": []
+    },
+    {
+      "number": 2,
+      "text": "展厅、墙上图、神庙模型、闭合石棺和工匠均是教学新画，不能当作第二份真实材料。只通过独立照片入口与图中找线索使用已清权真照片。",
+      "sourceIds": []
+    },
+    {
+      "number": 3,
+      "text": "模型只让孩子理解“金字塔及周边建筑有不同用途”，不按生成图中的间距、神庙形制、工具、衣服或石棺样式讲精确考古；不展示遗体，不以宗教活动作为孩子要模仿的操作。",
+      "sourceIds": []
+    },
+    {
+      "number": 4,
+      "text": "AERA工人聚落材料主要对应哈夫拉和孟卡拉工程，对胡夫使用probably。教学只采用吉萨建造需要加工、运输与供给的关系，不断言照片里的胡夫金字塔由某一具体聚落、人数或身份群体在某一种坡道上建好。",
+      "sourceIds": []
+    },
+    {
+      "number": 5,
+      "text": "当前题干所需的年代、用途、照片身份和任务前提均写进实际入场声音；第二步直接解释陵墓为安葬去世者的地方，并把神庙活动说成古人在那里敬神、纪念去世的国王，不只让孩子听到抽象的“祭祀”一词。不把史料方法、找图轮数或完成行为计作历史事实。",
+      "sourceIds": []
+    }
+  ],
   "screens": [
     {
       "number": 1,
@@ -1117,6 +1634,26 @@
       "imageUse": "reference-only"
     },
     {
+      "id": "HARVARD-GIZA-SCHOOL-FAQ",
+      "title": "Digital Giza: Frequently Asked Questions",
+      "institution": "Harvard University, The Giza Project",
+      "url": "https://giza.fas.harvard.edu/faq/",
+      "type": "university-museum-educational-resource",
+      "authorityLevel": "A-primary-university",
+      "factUse": "采用What is a pyramid、Pyramid Complexes、Who built the pyramids三节：古埃及王室陵墓用途、神庙及堤道组成、石材加工运送与劳动。儿童稿不采用施工人数估算，不把信仰当自然事实，不将任何唯一施工技术写成定论。2026-10-23复核。",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "AERA-GIZA-PYRAMID-SETTLEMENT",
+      "title": "The Lost City of the Pyramids (Heit el-Ghurab)",
+      "institution": "Ancient Egypt Research Associates (AERA)",
+      "url": "https://aeraweb.org/projects/lost-city/",
+      "type": "archaeological-project-record",
+      "authorityLevel": "A-primary-archaeology",
+      "factUse": "采用正文第1—9段：吉萨第四王朝工人、工匠、管理与粮食供给、工具和工作坊的考古研究。遗址主要对应哈夫拉、孟卡拉工程；对胡夫工程使用probably，保留不确定性，不把遗址直接说成已证实的胡夫专属工人城。2026-10-23复核。",
+      "imageUse": "reference-only"
+    },
+    {
       "id": "MOE-HISTORY-CURRICULUM-2022",
       "title": "义务教育历史课程标准（2022年版）",
       "institution": "中华人民共和国教育部",
@@ -1125,9 +1662,220 @@
       "authorityLevel": "A",
       "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-DHOLAVIRA-HARAPPAN-CITY",
+      "title": "Dholavira: a Harappan City",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1645/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A-primary",
+      "factUse": "朵拉维拉约前3000—前1500年的长期占居、设防城市、蓄水与排水系统、住宅差异、手工业与远距离交换，以及城市变化与衰落是遗址构型连续改变的过程",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-ATHENS-ACROPOLIS",
+      "title": "Acropolis, Athens",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/404/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A-primary",
+      "factUse": "雅典卫城从宗教中心到前5世纪大型营建的时间层、帕特农神庙447—432年建造及其献给雅典娜的用途，以及遗址经历破坏、改造和1975年以来持续修复的现状边界",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "YSMA-PARTHENON-STRUCTURE",
+      "title": "Parthenon",
+      "institution": "Acropolis Restoration Service（希腊文化部卫城修复局）",
+      "url": "https://www.ysma.gr/en/monuments/parthenon/",
+      "type": "official-heritage-architecture-record",
+      "authorityLevel": "A-primary",
+      "factUse": "献给雅典娜的神庙用途；前447—438年主体施工与前432年雕塑完成分开；石柱、山墙、神像与建筑历次改用",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-VIA-APPIA",
+      "title": "Via Appia. Regina Viarum",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1708/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A-primary",
+      "factUse": "阿庇亚大道自前312年开始建设、总网络超过800公里，最初服务军事扩张与领土控制，后来也连接城市、聚落、农业和贸易，并包含桥梁、里程碑和驿站等系统",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "study-96afbd530249faa8",
+      "title": "学习示意：先到四千多年前的古埃及",
+      "localPath": "reference-assets/focused-quests/study-96afbd530249faa8.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "先到四千多年前的古埃及",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e764d70cc30eb846",
+      "title": "学习示意：古埃及",
+      "localPath": "reference-assets/focused-quests/study-e764d70cc30eb846.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "古埃及",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-878cdaba27d13ab9",
+      "title": "学习示意：拍照片时 2010年",
+      "localPath": "reference-assets/focused-quests/study-878cdaba27d13ab9.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "拍照片时 2010年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-65805043b9fb342a",
+      "title": "学习示意：金字塔是王室陵墓的一部分",
+      "localPath": "reference-assets/focused-quests/study-65805043b9fb342a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "金字塔是王室陵墓的一部分",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5a6de244cd644261",
+      "title": "学习示意：真照片里有古老建筑，也有今天的人",
+      "localPath": "reference-assets/focused-quests/study-5a6de244cd644261.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "真照片里有古老建筑，也有今天的人",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-7941cf43f442ec97",
+      "title": "学习示意：许多人的工作，支持一座大建筑",
+      "localPath": "reference-assets/focused-quests/study-7941cf43f442ec97.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "许多人的工作，支持一座大建筑",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1c3152f008d0d199",
+      "title": "学习示意：工匠一起加工石块",
+      "localPath": "reference-assets/focused-quests/study-1c3152f008d0d199.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "工匠一起加工石块",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-0c84bfe060a32eaf",
+      "title": "学习示意：小伙伴在屋里搭积木",
+      "localPath": "reference-assets/focused-quests/study-0c84bfe060a32eaf.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "小伙伴在屋里搭积木",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-cf68fdc34add25b4",
+      "title": "学习示意：给参观的人讲清金字塔的用途",
+      "localPath": "reference-assets/focused-quests/study-cf68fdc34add25b4.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "给参观的人讲清金字塔的用途",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-610da478d97c37da",
+      "title": "学习示意：王室陵墓与旁边的神庙",
+      "localPath": "reference-assets/focused-quests/study-610da478d97c37da.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "王室陵墓与旁边的神庙",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1b3e7fa38a2b9cb1",
+      "title": "学习示意：一家人吃饭居住的房子",
+      "localPath": "reference-assets/focused-quests/study-1b3e7fa38a2b9cb1.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "一家人吃饭居住的房子",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "egypt-pyramid-museum-v1",
+      "title": "古埃及金字塔用途教学展厅",
+      "localPath": "reference-assets/poetry-world-world/egypt-pyramid-museum-v1.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/poetry-world-world/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学情境插画，不是历史现场或文物照片",
+      "boundary": "现代小伙伴观察金字塔与附属神庙模型、独立闭合石棺教具。虚构教学展厅，不是特定博物馆、原物或完整陵墓群复原；不以神庙位置和石棺形制证明胡夫陵墓细节。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "egypt-pyramid-choices-v1",
+      "title": "金字塔用途与建筑劳动四格情境",
+      "localPath": "reference-assets/poetry-world-world/egypt-pyramid-choices-v1.png",
+      "runtimeMaxEdge": 1254,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/poetry-world-world/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学情境插画，不是历史现场或文物照片",
+      "boundary": "现代教学分镜，用于比较王室陵墓与日常居住、石材加工与现代积木。工匠服饰、工具和工作动作不作某位古人或胡夫工程的精确复原，不展示遗体或完整施工方案。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "great-pyramid-giza-2010-photo",
       "title": "胡夫大金字塔2010年实拍",
@@ -1138,7 +1886,7 @@
       "license": "CC BY-SA 3.0",
       "clearance": "cleared-open-license",
       "caption": "2010年拍摄的胡夫大金字塔，前景可见遗迹、游客和动物。",
-      "boundary": "Commons原图2960×1850像素，等比例缩至2200×1375像素，未裁切。必须标明现代拍摄；前景活动和今天缺少大部分外层石材的外观不能搬回约公元前26世纪，也不能从照片推断施工方法、劳动者身份或完整墓葬建筑群布局。",
+      "boundary": "胡夫大金字塔的2010年参观照片，摄影Kallerna，依CC BY-SA 3.0署名使用。古代建筑与现代游客年代不同；今天缺少部分外层石材的样子不能当作初建原貌。照片不能证明完整施工方法、劳动者身份或墓葬建筑群布局。",
       "childVisibility": "child-ok"
     },
     {
@@ -1203,5 +1951,5 @@
     "audio": "script-ready",
     "review": "pending"
   },
-  "contentReadiness": "legacy-draft-not-in-preview"
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

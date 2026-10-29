@@ -1,6 +1,8 @@
 .object-quest.trip-episode[data-interaction-kind="scene-find"] .workbench-art { aspect-ratio:auto; height:auto; object-fit:contain; }
 .object-quest.trip-episode[data-interaction-kind="scene-find"] .workbench-scene { max-height:none; aspect-ratio:var(--story-aspect,2.15); overflow:clip; }
-.object-quest.trip-episode[data-interaction-kind="scene-find"] .workbench-scene { width:100%; max-width:calc((100svh - 240px) * var(--story-aspect,2.15)); margin-inline:auto; }
+.object-quest.trip-episode[data-interaction-kind="scene-find"] .workbench-scene { width:100%; max-width:calc((var(--quest-stage-min-height) - 36px) * var(--story-aspect,2.15)); margin-inline:auto; }
+/* Keep the photo label and full material entry inside the same available row. */
+.object-quest.trip-episode[data-interaction-kind="scene-find"] .workbench-scene-column:has(>.real-object-link) .workbench-scene { max-width:calc((var(--quest-stage-min-height) - 156px) * var(--story-aspect,2.15)); }
 .scene-find-canvas { position:absolute; inset:0 0 auto; }
 .object-quest .toys-scene-find,.scene-choice .bench-toys { display:none; }
 .scene-find-hotspots { position:absolute; inset:0; pointer-events:none; z-index:2; }
@@ -35,6 +37,9 @@
 .scene-choice .bench-choice-action { height:auto; min-height:190px; padding:12px 12px 16px; gap:10px; justify-content:flex-start; }
 .object-quest.scene-choice .workbench-response { min-height:36px; padding:6px 0; }
 .object-quest.scene-choice .workbench-response-spacer { height:36px; }
+/* The story question, replay button and specific feedback already explain these choices. */
+.object-quest.trip-episode.scene-choice .workbench-footer .workbench-response,
+.object-quest.trip-episode.scene-choice .workbench-footer .workbench-response-spacer { display:none; }
 .scene-choice .workbench-help,.scene-choice .workbench-next { min-height:57px; }
 .object-quest .selected-scene-detail { width:100%; height:auto; background:#f0e8d2; }
 

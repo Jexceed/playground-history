@@ -1,0 +1,44 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 跟杨万里发现小池的生机
+					9 content list
+						10 button 第1步：先认识写诗的人，已完成, Help: 先认识写诗的人
+						11 button 第2步：先听完整的《小池》，已完成, Help: 先听完整的《小池》
+						12 button 第3步：尖尖角是嫩荷叶，已完成, Help: 尖尖角是嫩荷叶
+						13 button 第4步：蜻蜓停在哪里，已完成, Help: 蜻蜓停在哪里
+						14 button 第5步：泉水也在诗里，已完成, Help: 泉水也在诗里
+					15 text 第5步
+				16 button 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 宋朝  ·  泉水也在诗里
+				19 image 跟杨万里发现小池的生机 · 四幅读诗想象
+				20 container 点图里的线索回答问题
+					21 toggle button (disabled) 选择石间细流, Value: on
+					22 toggle button (disabled) 选择嫩荷叶, Value: off
+				23 text 故事插画 小伙伴
+				24 heading 泉水从石头间流进池里，轻轻细细。, Value: 1
+					25 text 泉水从石头间流进池里，轻轻细细。
+				26 button 再听这句回应
+				27 text 找一找 ·  1 / 1 找到了
+				28 button 看看这次发现
+				29 button 👪 家长入口 · 59章材料与说明
+	30 close button
+	31 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	32 minimize button
+	33 text 小小历史旅行团
+34 menu bar
+	35 小小历史旅行团
+	36 File
+	37 Edit
+	38 View
+	39 Window
+	40 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

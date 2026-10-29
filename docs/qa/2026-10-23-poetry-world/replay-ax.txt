@@ -1,0 +1,35 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 button 暂停声音
+				8 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				9 text 古代文明  ·  早期人类—约5世纪
+				10 image 三位现代小伙伴观察道路连接农田、桥梁与城镇的教学模型，非古罗马具体路段复原
+				11 text 故事插画
+				12 heading 罗马道路把哪里连起来, Value: 1
+					13 text 罗马道路把哪里连起来
+				14 button 再听出发故事
+				15 text 一条石路，为什么既走过军队，又运过粮食？小伙伴沿着模型里的路，从村庄看向城镇。
+				16 button 出发
+				17 summary 👪 家长陪玩提示与材料说明, Value: off
+					18 text 👪 家长陪玩提示与材料说明
+				19 button 👪 家长入口 · 48章材料与说明
+		20 scroll bar (settable, float) 0
+	21 close button
+	22 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	23 minimize button
+	24 text 小小历史旅行团
+25 menu bar
+	26 小小历史旅行团
+	27 File
+	28 Edit
+	29 View
+	30 Window
+	31 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

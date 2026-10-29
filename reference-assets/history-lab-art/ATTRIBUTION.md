@@ -25,3 +25,10 @@
 ## qin-wall-mountain-scene-v2 / qin-wall-mountain-gap-v2
 
 2026-10-11，内置image_gen生成完整山地城墙教学场景，再以同一图编辑中央缺口。两张均为项目自制插画，非历史现场或具体遗址复原。使用原图记录和局部代码裁取，不改真实文物/遗址照片。提示词分别位于 `docs/qa/2026-10-11-wall-scene-redraw/scene-prompt.txt` 与 `gap-prompt.txt`。此前 `rammed-earth-section-v1` 因木板式表现被用户否定，原图与提示词保留，退出当前章节资源关联。
+
+## 赵州桥过水学具 · 2026-10-16
+
+- `zhaozhou-bridge-study-v2.png`：项目自制教学新画，内置 image_gen 生成，透明背景与五个开口保留。
+- 先观察已登记的赵州桥今日照片 `zhaozhou-bridge-now`，事实依据为中国国家博物馆 [安济桥石栏板](https://www.chnmuseum.cn/zp/zpml/kgfjp/202111/t20211112_252139.shtml)；照片未作为本次生成输入。
+- 现代教学模型，不是历史现场、文物照片或精确测绘。水位与提示由代码计算，不模拟水动力或承载力。
+- 实际提示词：`docs/qa/2026-10-16-bridge-redraw/art-prompt.txt`。原始文件保留，运行副本按现有生成器导出；旧图由提交 `478d652` 的代码和本轮 App 改前截图留档。

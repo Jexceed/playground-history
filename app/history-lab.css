@@ -18,6 +18,8 @@
 .bench-choice .history-lab-diagram{height:130px;min-height:0}
 .history-lab[data-lab-motion="running"] .history-lab-diagram{filter:saturate(1.08)}
 .history-lab .water-surface,.history-lab .lamp-light{transition:opacity .45s,fill .45s}
+.bridge-water-level{transition:y .65s ease-in-out,height .65s ease-in-out}
+@media(prefers-reduced-motion:reduce){.bridge-water-level{transition:none}}
 /* The response is already in the speech card; an empty feedback row must not
    push the next action below the installed App's content area. */
 .object-quest[data-interaction-kind="history-lab"] .workbench-footer .workbench-response-spacer{display:none}

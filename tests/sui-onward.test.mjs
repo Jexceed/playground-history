@@ -55,7 +55,8 @@ test('Zhenguan connects a later book witness to governance, listening and real w
   assert.match(game.steps[1].audio.intro.text,/唐初.*恢复.*唐太宗.*魏征.*负担/);
   assert.equal(game.steps[2].interaction.rounds.length,2);
   assert.deepEqual(game.steps[2].interaction.rounds.map(r=>r.targetId),['speaker','farmer']);
-  assert.match(game.steps[3].options.find(o=>o.correct).label,/听农人/);
+  assert.match(game.steps[3].options.find(o=>o.correct).label,/留田播种/);
+  assert.match(game.steps[3].audio.lead.text,/春天.*播种.*人手不够.*不急用.*农时/);
   assert.match(game.steps[4].options.find(o=>o.correct).label,/动手耕作/);
   assert.match(game.finish.introAudio.text,/共同作用/);
   assert.match(game.boundary,/教学虚构.*魏征亲访/);

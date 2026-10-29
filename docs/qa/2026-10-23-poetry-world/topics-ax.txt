@@ -1,0 +1,51 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button (disabled) 暂停声音
+				7 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				8 text 小小历史旅行团 · 集合啦
+				9 heading Value: 1, 沿着时间河
+去历史里探险！
+					10 text 沿着时间河 去历史里探险！
+				11 text 跟诗人听鸟鸣、望远山，到秦朝量一量布，再去世界古代看金字塔和石头路。每一站，都有 人物、地点和真文物 ，还有一个等你解开的谜。
+				12 container 旅行线索：秦朝、唐三彩、李白的月亮和泉州大船
+					13 text 秦朝小工坊 长安骆驼 李白的月亮 泉州大船
+				14 pop up button 🧭 拿上地图，出发！
+				15 button 听出发口令
+				16 image 黄衣男孩、戴圆框眼镜的绿衣男孩和马尾女孩，拿着地图沿时间河出发的故事插画
+				17 text 沿着河，出发！
+				18 container 旅行主题 · 选择故事
+					19 container
+						20 text 小小旅行团 · 时间地图
+						21 heading 这次想探索什么？, Value: 2
+							22 text 这次想探索什么？
+						23 text 选一个主题，再挑一个故事出发。
+						24 button (disabled) 暂停声音
+						25 button 重听说明
+						26 button 回到时间河
+					27 container 选择出发方式
+						28 toggle button 选个历史站, Value: off
+						29 toggle button 挑个主题, Value: on
+					30 button 跟着古诗去旅行 听鸟鸣、看远山，走进诗里的画面 7个故事 →
+					31 button 人物与经典 跟孔子学，跟诗人看 11个故事 →
+					32 button 四大发明 纸、印刷、指南针和火药 4个故事 →
+					33 button 中国古迹 看城墙、陶俑、桥和壁画 7个故事 →
+					34 button 到世界古代看看 埃及金字塔与罗马石头路 2个故事 →
+				35 button 👪 家长入口 · 48章材料与说明
+	36 close button
+	37 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	38 minimize button
+	39 text 小小历史旅行团
+40 menu bar
+	41 小小历史旅行团
+	42 File
+	43 Edit
+	44 View
+	45 Window
+	46 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

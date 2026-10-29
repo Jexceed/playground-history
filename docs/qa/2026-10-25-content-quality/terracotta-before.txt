@@ -1,0 +1,45 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 兵马俑留下了哪些线索？
+					9 content list
+						10 button 第1步：陶俑来自秦代, Help: 陶俑来自秦代
+						11 button 第2步：先弄清它为什么在这里, Help: 先弄清它为什么在这里
+						12 button 第3步：从姿势和服饰找线索, Help: 从姿势和服饰找线索
+						13 button 第4步：灰色旁边，还留下红色, Help: 灰色旁边，还留下红色
+						14 button 第5步：颜色的线索，怎样留下来, Help: 颜色的线索，怎样留下来
+					15 text 第4步
+				16 button 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 秦朝  ·  灰色旁边，还留下红色
+				19 image 秦代跪射俑的彩绘残迹近照
+				20 container 在秦代跪射俑真实近照中找彩绘残迹
+					21 toggle button 选择系带上的红色残迹, Value: off
+					22 toggle button 选择上方现在主要是灰色的甲片, Value: off
+				23 text 实物照片
+				24 button 跪射俑彩绘残迹近照 真实材料 · 点开看一看 看完整照片与彩绘说明
+				25 text 小伙伴
+				26 heading 哪条系带上还留着红色？, Value: 1
+					27 text 哪条系带上还留着红色？
+				28 button 再听这个问题
+				29 text 找一找 ·  1 / 2
+				30 text 先听故事，再找留下的彩绘线索。
+	31 close button
+	32 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	33 minimize button
+	34 text 小小历史旅行团
+35 menu bar
+	36 小小历史旅行团
+	37 File
+	38 Edit
+	39 View
+	40 Window
+	41 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

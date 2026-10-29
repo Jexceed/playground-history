@@ -1,0 +1,35 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 button 暂停声音
+				8 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				9 text 明朝  ·  1368—1644年
+				10 image 文徵明的园林画里能听见什么 · 现代读诗情境
+				11 text 故事插画
+				12 heading 文徵明的园林画里能听见什么, Value: 1
+					13 text 文徵明的园林画里能听见什么
+				14 button 再听出发故事
+				15 text 明朝的文徵明把园林画成册，还配上诗。画里能看见芭蕉，诗里又添了什么声音和感受？跟小伙伴去听听。
+				16 button 出发
+				17 summary 👪 家长陪玩提示与材料说明, Value: off
+					18 text 👪 家长陪玩提示与材料说明
+				19 button 👪 家长入口 · 59章材料与说明
+		20 scroll bar (settable, float) 0
+	21 close button
+	22 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	23 minimize button
+	24 text 小小历史旅行团
+25 menu bar
+	26 小小历史旅行团
+	27 File
+	28 Edit
+	29 View
+	30 Window
+	31 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

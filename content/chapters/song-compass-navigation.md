@@ -16,9 +16,8 @@
 2. 宋代朱彧所述1099—1102年间海船活动的文献记录提到阴晦天气看指南针，属于早期可靠航海记录。[CAS-ANCIENT-NAVIGATION]
 3. 1123 年相关航海记录提到使用指南浮针辨认方向。[CAS-ANCIENT-NAVIGATION]
 4. 指南针不能单独完成航海；星辰、日月、海岸、风向、水深和经验共同组成导航技术链。[CAS-ANCIENT-NAVIGATION]
-5. 漂浮指南针儿童图是现代原理示意，不是宋代原物、文献插图或精确船上现场复原。[CAS-ANCIENT-NAVIGATION]
-6. 海上贸易和人员往来为航海知识的使用、交流和改进提供了场景，但不同航线条件并不相同。[NMC-LIAO-SONG-XIA-JIN-YUAN; CAS-ANCIENT-NAVIGATION]
-7. 造纸、印刷、指南针和火药不是同一时间完成，四条技术线都要分别寻找证据。[CAS-FOUR-GREAT-INVENTIONS; CAS-ANCIENT-INVENTIONS-CHRONOLOGY]
+5. 海上贸易和人员往来为航海知识的使用、交流和改进提供了场景，但不同航线条件并不相同。[NMC-LIAO-SONG-XIA-JIN-YUAN; CAS-ANCIENT-NAVIGATION]
+6. 造纸、印刷、指南针和火药不是同一时间完成，四条技术线都要分别寻找证据。[CAS-FOUR-GREAT-INVENTIONS; CAS-ANCIENT-INVENTIONS-CHRONOLOGY]
 
 ## 儿童页面与语音稿
 
@@ -159,3 +158,7 @@
 亲子动作：用手指当磁针一直指向同一边，让家人把纸船转个方向。 再指图里的看风和测深工作，说说磁针还不能告诉我们什么。
 
 当前实现以focused-quests.json为准；上文保留研究与编辑稿，不直接塞入儿童页。真实儿童理解与人工校听待复核。
+
+## 学习设计与史料阅读方法
+
+1. 漂浮指南针儿童图是现代原理示意，不是宋代原物、文献插图或精确船上现场复原。[CAS-ANCIENT-NAVIGATION]

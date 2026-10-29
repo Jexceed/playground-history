@@ -1,0 +1,41 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 雅典人为什么建神庙
+					9 content list
+						10 button 第1步：先到两千多年前的雅典，已完成, Help: 先到两千多年前的雅典
+						11 button 第2步：献给雅典娜的神庙, Help: 献给雅典娜的神庙
+						12 button 第3步：古老建筑和今天的城市, Help: 古老建筑和今天的城市
+						13 button 第4步：给新来的伙伴介绍神庙, Help: 给新来的伙伴介绍神庙
+						14 button 第5步：建筑不能只按大小来猜, Help: 建筑不能只按大小来猜
+					15 text 第2步
+				16 button 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 古代文明  ·  献给雅典娜的神庙
+				19 image 雅典人为什么建神庙教学插画
+				20 text 故事插画 小伙伴
+				21 heading 献给雅典娜的神庙, Value: 1
+					22 text 献给雅典娜的神庙
+				23 button 再听这一幕
+				24 text 雅典人相信雅典娜保护自己的城市，便建造神庙敬奉她。模型左边用神像和石柱表现神庙，右边是一家人吃饭的住家。用途不同，要分开看。
+				25 button 看看真照片中的建筑
+				26 button 👪 家长入口 · 59章材料与说明
+	27 close button
+	28 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	29 minimize button
+	30 text 小小历史旅行团
+31 menu bar
+	32 小小历史旅行团
+	33 File
+	34 Edit
+	35 View
+	36 Window
+	37 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

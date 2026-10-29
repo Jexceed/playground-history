@@ -1,0 +1,45 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 文徵明的园林画里能听见什么
+					9 content list
+						10 button 第1步：去明朝看文徵明的诗画，已完成, Help: 去明朝看文徵明的诗画
+						11 button 第2步：先听完整的《芭蕉槛》，已完成, Help: 先听完整的《芭蕉槛》
+						12 button 第3步：雨让叶子像洗过一样, Help: 雨让叶子像洗过一样
+						13 button 第4步：看得见的叶子与感觉到的凉, Help: 看得见的叶子与感觉到的凉
+						14 button 第5步：留下芭蕉的绿荫, Help: 留下芭蕉的绿荫
+					15 text 第3步
+				16 button 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 明朝  ·  雨让叶子像洗过一样
+				19 image 文徵明的园林画里能听见什么 · 四幅现代读诗情境
+				20 text 故事插画 小伙伴
+				21 heading 哪幅是在回应“得雨净如沐”？, Value: 1
+					22 text 哪幅是在回应“得雨净如沐”？
+				23 button 再听这一幕
+				24 container 哪幅是在回应“得雨净如沐”？
+					25 toggle button 选择晴天下看芭蕉叶, Value: off
+					26 button 听晴天下看芭蕉叶
+					27 toggle button 选择雨滴落在芭蕉叶上, Value: off
+					28 button 听雨滴落在芭蕉叶上
+				29 button 听听怎么玩
+				30 button 👪 家长入口 · 59章材料与说明
+	31 close button
+	32 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	33 minimize button
+	34 text 小小历史旅行团
+35 menu bar
+	36 小小历史旅行团
+	37 File
+	38 Edit
+	39 View
+	40 Window
+	41 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

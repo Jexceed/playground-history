@@ -1,0 +1,44 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 罗马道路把哪里连起来
+					9 content list
+						10 button 第1步：这条路从古罗马走到今天，已完成, Help: 这条路从古罗马走到今天
+						11 button 第2步：先让军队到达要统治的地方，已完成, Help: 先让军队到达要统治的地方
+						12 button 第3步：一块块石头铺成了一段路，已完成, Help: 一块块石头铺成了一段路
+						13 button 第4步：让道路继续通向城镇，已完成, Help: 让道路继续通向城镇
+						14 button 第5步：把粮食沿着道路送到城镇，已完成, Help: 把粮食沿着道路送到城镇
+					15 text 第5步
+				16 button 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 古代文明  ·  把粮食沿着道路送到城镇
+				19 image 沿着道路把粮食运走
+				20 text 故事插画 小伙伴
+				21 heading 运粮车沿路到达城镇，路把人和物品连起来。, Value: 1
+					22 text 运粮车沿路到达城镇，路把人和物品连起来。
+				23 button 再听这句回应
+				24 container 哪一幕正在把粮食送往城镇？
+					25 toggle button (disabled) 选择把粮食留在仓库里, Value: off
+					26 button 听把粮食留在仓库里
+					27 toggle button (disabled) 选择沿着道路把粮食运走, Value: on
+					28 button 听沿着道路把粮食运走
+				29 button 看看这次发现
+	30 close button
+	31 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	32 minimize button
+	33 text 小小历史旅行团
+34 menu bar
+	35 小小历史旅行团
+	36 File
+	37 Edit
+	38 View
+	39 Window
+	40 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

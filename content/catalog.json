@@ -130,12 +130,14 @@
       "learningContext": {
         "childIntro": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。",
         "chronology": "618—907年为唐朝范围；本组故事分属不同时期，贞观、开元通宝始铸、开元年号不可混为一个节点。",
-        "covered": "治理恢复、钱名与年号、城市乐舞、译经与东渡传授、书法与诗。",
+        "covered": "治理恢复、钱名与年号、城市乐舞、译经与东渡传授、书法与诗。《春晓》的鸟鸣与惜花、《登鹳雀楼》的登高与远望。",
         "scopeBoundary": "科举、唐前后期变化等在背景稿中；李白诗作和颜真卿文稿不能被拼成唐朝始终繁盛的单一画面。",
         "sourceIds": [
           "NMC-SUI-TANG-FIVE-DYNASTIES",
           "EDB-DUFU-SPRING-RAIN",
-          "NMC-JIANZHEN-STORY"
+          "NMC-JIANZHEN-STORY",
+          "EDB-MENG-CHUNXIAO",
+          "EDB-WANG-GUANQUE"
         ]
       }
     },
@@ -162,21 +164,22 @@
     {
       "id": "song",
       "order": 10,
-      "label": "宋朝（与辽·西夏·金并立）",
-      "years": "916—1279年（宋960年起）",
+      "label": "宋朝",
+      "years": "960—1279年",
       "curriculumSections": [
         "1.6 辽宋夏金元时期"
       ],
       "learningContext": {
-        "childIntro": "宋朝与辽、西夏、金先后并立。去看城市、发明，听苏轼和李清照的词；每个故事先听清年代。",
-        "chronology": "916是辽相关起点，宋从960年开始；北宋与南宋分期，辽与金先后更替、西夏存在其间。窗口范围不等于宋始于916年。",
-        "covered": "同年并立、城市劳动、活字、指南针、火药用途与文献、苏轼和李清照的词。",
-        "scopeBoundary": "经济重心南移、海外贸易及政权关系在背景稿中；三项技术不能代表宋代生活全部。",
+        "childIntro": "到宋朝看城市和发明，读王安石、苏轼、杨万里和范成大的诗，听李清照的词；还可以认识与两宋并立的辽、西夏、金。",
+        "chronology": "宋朝从960年开始，北宋（960—1127）与南宋（1127—1279）先后延续。辽、西夏、金是独立政权，与两宋在不同阶段并立；辽始于916年，不把这个年份作为宋朝的起点。",
+        "covered": "同年并立、城市劳动、活字、指南针、火药用途与文献；苏轼和李清照的词，王安石迎新、苏轼看山、杨万里小池与范成大田园诗。",
+        "scopeBoundary": "站名以宋朝组织城市、技术和诗词故事；并立政权一章另讲辽、西夏、金及各自年代，不表示这些政权属于宋朝。经济重心南移、海外贸易等长稿保留，已开放的故事不能代表宋代生活全部。",
         "sourceIds": [
           "NMC-LIAO-SONG-XIA-JIN-YUAN",
           "BJWOMEN-LI-RUMENGLING"
         ]
-      }
+      },
+      "stationYears": "960—1279年"
     },
     {
       "id": "yuan",
@@ -206,9 +209,9 @@
         "1.7 明清时期（至鸦片战争前）"
       ],
       "learningContext": {
-        "childIntro": "明朝建立以后，人们怎样办事、到远方交往，又怎样把手艺和见闻留下来？跟小伙伴到宫殿、港口和书坊看看。",
+        "childIntro": "到明朝的宫殿、港口和书坊，看人们怎样办事、交往和留下见闻；再跟唐寅、文徵明和于谦，听诗怎样写画面、声音和心愿。",
         "chronology": "1368年建立明朝，1420年北京宫殿建成、1421年正式迁都；各个故事不是发生在同一年。",
-        "covered": "政务环节、郑和交往、工艺记录、屋脊构件、小说刊印、旅行观察。",
+        "covered": "政务环节、郑和交往、工艺记录、屋脊构件、小说刊印、旅行观察；唐寅《画鸡》、文徵明《芭蕉槛》图诗、于谦《石灰吟》。",
         "scopeBoundary": "社会经济、边防与明末变化在背景稿中；工艺、旅行和宫廷故事是取样，不能当完整明史。",
         "sourceIds": [
           "NMC-MING-QING",
@@ -1093,7 +1096,7 @@
       "order": 24,
       "title": "钱镠铁券怎样带我们走进五代十国",
       "coreQuestion": "唐朝结束后，五代十国为什么不是一片空白？",
-      "throughline": "从晚唐钱镠铁券进入907—960年的独立时间线，区分北方五代与南方等地多个政权，并观察政局分立中延续的生产、城市、文化与新的统一进程。",
+      "throughline": "从晚唐钱镠铁券进入五代十国的独立时间线：北方五代为907—960年，部分十国延续至北宋。区分政权的先后与并立，并观察分立中延续的生产、城市、文化与新的统一进程。",
       "curriculumRefs": [
         "MOE-HISTORY-CURRICULUM-2022#1.5",
         "PEP-HISTORY-REVISION-2024#七下第一单元",
@@ -2151,6 +2154,335 @@
       "status": {
         "outline": "verified",
         "research": "in-review",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-06-12-meng-haoran-chunxiao",
+      "periodId": "tang",
+      "order": 53,
+      "title": "跟孟浩然听春天的早晨",
+      "coreQuestion": "唐朝诗人孟浩然爱写山水和田园。《春晓》先写早晨的鸟鸣，又想起昨夜的风雨。小伙伴想听听，他还惦记着什么。",
+      "throughline": "孟浩然在《春晓》中，从清晨鸟鸣想到昨夜风雨，再牵挂春花。诗把听见的声音和心里的想象连在一起，没有告诉我们落花的数目。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022",
+        "EDB-MENG-CHUNXIAO"
+      ],
+      "evidencePlan": [
+        "poem",
+        "historical-material",
+        "modern-reading-scene"
+      ],
+      "worldLink": {
+        "topic": "唐诗的观察与表达，不虚构和世界史的同期因果",
+        "status": "not-in-current-scope"
+      },
+      "targets": {
+        "durationMinutes": 6,
+        "screens": 5,
+        "audioClips": 5,
+        "interactions": 4
+      },
+      "detailPath": "content/chapters/meng-haoran-chunxiao.md",
+      "status": {
+        "outline": "verified",
+        "research": "in-review",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-06-13-wang-zhihuan-tower",
+      "periodId": "tang",
+      "order": 54,
+      "title": "跟王之涣更上一层楼",
+      "coreQuestion": "唐朝诗人王之涣在《登鹳雀楼》里写落日、黄河和登楼远望。小伙伴想跟着诗句看一看：再上一层，眼前会有什么变化？",
+      "throughline": "《登鹳雀楼》从落日和黄河写到登楼远望。想看得更远，就再上一层楼；诗把眼前景色和向远处展开的想象连在一起。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022",
+        "EDB-WANG-GUANQUE"
+      ],
+      "evidencePlan": [
+        "poem",
+        "historical-material",
+        "modern-reading-scene"
+      ],
+      "worldLink": {
+        "topic": "唐诗的观察与表达，不虚构和世界史的同期因果",
+        "status": "not-in-current-scope"
+      },
+      "targets": {
+        "durationMinutes": 6,
+        "screens": 5,
+        "audioClips": 5,
+        "interactions": 4
+      },
+      "detailPath": "content/chapters/wang-zhihuan-tower.md",
+      "status": {
+        "outline": "verified",
+        "research": "in-review",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-07-10-wang-anshi-yuanri",
+      "periodId": "song",
+      "order": 55,
+      "title": "跟王安石迎接新的一年",
+      "coreQuestion": "北宋的王安石做过官，也写诗。《元日》写新年早晨，人们换下旧桃符，迎接新的一年。跟小伙伴去看看，门前发生了什么变化。",
+      "throughline": "王安石在《元日》中写新年的声音、春风和朝阳，也写换桃符的习俗。旧桃符换成新桃符，表达了人们送旧迎新的期待。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022",
+        "EDB-WANG-YUANRI"
+      ],
+      "evidencePlan": [
+        "poem",
+        "historical-material",
+        "modern-reading-scene"
+      ],
+      "worldLink": {
+        "topic": "宋代诗歌的观察、生活与表达；不虚构世界史同期因果",
+        "status": "not-in-current-scope"
+      },
+      "targets": {
+        "durationMinutes": 6,
+        "screens": 5,
+        "audioClips": 5,
+        "interactions": 4
+      },
+      "detailPath": "content/chapters/wang-anshi-yuanri.md",
+      "status": {
+        "outline": "verified",
+        "research": "in-review",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-07-11-su-shi-xilin",
+      "periodId": "song",
+      "order": 56,
+      "title": "跟苏轼换个地方看山",
+      "coreQuestion": "北宋的苏轼游览庐山，写下《题西林壁》。从不同地方看，同一座山会显出不同面貌。跟小伙伴走走看看，一眼能看全吗？",
+      "throughline": "苏轼在《题西林壁》中写庐山：换个方向、远近和高低，看到的样子不同。身在山中容易只看到一部分，认识事物也要多看看。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022",
+        "EDB-SU-XILIN",
+        "NPM-ZHAO-SUSHI-PORTRAIT"
+      ],
+      "evidencePlan": [
+        "poem",
+        "historical-material",
+        "modern-reading-scene"
+      ],
+      "worldLink": {
+        "topic": "宋代诗歌的观察、生活与表达；不虚构世界史同期因果",
+        "status": "not-in-current-scope"
+      },
+      "targets": {
+        "durationMinutes": 6,
+        "screens": 5,
+        "audioClips": 5,
+        "interactions": 4
+      },
+      "detailPath": "content/chapters/su-shi-xilin.md",
+      "status": {
+        "outline": "verified",
+        "research": "in-review",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-07-12-yang-wanli-xiaochi",
+      "periodId": "song",
+      "order": 57,
+      "title": "跟杨万里发现小池的生机",
+      "coreQuestion": "南宋诗人杨万里善于观察身边的小景物。他写《小池》，让泉水、树影、嫩荷和蜻蜓来到诗里。小伙伴想看看，“尖尖角”是什么。",
+      "throughline": "杨万里的《小池》写细细的泉水、映在水里的树影，也写刚露尖角的嫩荷叶和停在上面的蜻蜓。细小的景物也能写出自然的生机。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022",
+        "EDB-YANG-XIAOCHI",
+        "NAJ-YANG-CHENGZHAI"
+      ],
+      "evidencePlan": [
+        "poem",
+        "historical-material",
+        "modern-reading-scene"
+      ],
+      "worldLink": {
+        "topic": "宋代诗歌的观察、生活与表达；不虚构世界史同期因果",
+        "status": "not-in-current-scope"
+      },
+      "targets": {
+        "durationMinutes": 6,
+        "screens": 5,
+        "audioClips": 5,
+        "interactions": 4
+      },
+      "detailPath": "content/chapters/yang-wanli-xiaochi.md",
+      "status": {
+        "outline": "verified",
+        "research": "in-review",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-07-13-fan-chengda-tianyuan",
+      "periodId": "song",
+      "order": 58,
+      "title": "跟范成大看看田园里的人",
+      "coreQuestion": "南宋诗人范成大把田园生活写进《四时田园杂兴》。大人在田里、灯下忙着劳动，孩子在桑树旁学种瓜。跟小伙伴听听他们的一天。",
+      "throughline": "范成大这首《四时田园杂兴》写大人白天耘田、夜里绩麻，也写孩子在桑树荫下学种瓜。诗让后来的人看见田园生活中的劳动和孩子的好奇。",
+      "curriculumRefs": [
+        "MOE-HISTORY-CURRICULUM-2022",
+        "WASEDA-FAN-TIANYUAN",
+        "CUHK-FAN-CHENGDA",
+        "PEP-FAN-TIANYUAN-READING"
+      ],
+      "evidencePlan": [
+        "poem",
+        "historical-material",
+        "modern-reading-scene"
+      ],
+      "worldLink": {
+        "topic": "宋代诗歌的观察、生活与表达；不虚构世界史同期因果",
+        "status": "not-in-current-scope"
+      },
+      "targets": {
+        "durationMinutes": 6,
+        "screens": 5,
+        "audioClips": 5,
+        "interactions": 4
+      },
+      "detailPath": "content/chapters/fan-chengda-tianyuan.md",
+      "status": {
+        "outline": "verified",
+        "research": "in-review",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-08-10-tang-yin-rooster",
+      "periodId": "ming",
+      "order": 59,
+      "title": "唐寅的公鸡怎样在诗里叫起来",
+      "coreQuestion": "唐寅怎样把公鸡的外形、动作与报晓声音连成清晨的生活？",
+      "throughline": "唐寅的《画鸡》先写红冠白羽的样子，再写动作与报晓。诗让我们在静静的画面之外，想象声音和人家的清晨。",
+      "curriculumRefs": [
+        "EDB-TANG-YIN-ROOSTER",
+        "DPM-TANG-YIN-BIO",
+        "SMITHSONIAN-TANG-YIN-PORTRAIT"
+      ],
+      "evidencePlan": [
+        "poetry",
+        "painting",
+        "later-portrait"
+      ],
+      "worldLink": {
+        "topic": "不同文化如何用诗画记录观察与感受",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 5,
+        "audioClips": 5,
+        "interactions": 4
+      },
+      "detailPath": "content/chapters/ming-tang-yin-rooster.md",
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-08-11-wen-zhengming-garden",
+      "periodId": "ming",
+      "order": 60,
+      "title": "文徵明的园林画里能听见什么",
+      "coreQuestion": "文徵明怎样用画和诗一起表达芭蕉的样子、雨声与荫凉？",
+      "throughline": "文徵明把园景画成册，又配上诗。画让我们看见芭蕉、屋子和栏杆，诗让我们想到雨后的洁净、秋声和凉意。",
+      "curriculumRefs": [
+        "MET-WEN-GARDEN-1551"
+      ],
+      "evidencePlan": [
+        "poetry",
+        "painting",
+        "original-album"
+      ],
+      "worldLink": {
+        "topic": "不同文化如何用诗画记录观察与感受",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 5,
+        "audioClips": 5,
+        "interactions": 4
+      },
+      "detailPath": "content/chapters/ming-wen-zhengming-garden.md",
+      "status": {
+        "outline": "verified",
+        "research": "verified",
+        "script": "first-draft",
+        "assets": "cleared",
+        "audio": "not-started",
+        "review": "pending"
+      }
+    },
+    {
+      "id": "cn-ancient-08-12-yu-qian-lime",
+      "periodId": "ming",
+      "order": 61,
+      "title": "于谦诗里的清白是什么意思",
+      "coreQuestion": "《石灰吟》怎样借石灰的颜色表达人的品格？",
+      "throughline": "《石灰吟》借石灰说心愿。“白”可以说颜色，“清白”说人时指正直、不做亏心事；理解品格要看做法，不能看衣服或皮肤颜色。",
+      "curriculumRefs": [
+        "EDB-YU-QIAN-LIME",
+        "EDB-YU-QIAN-LIME-VARIANTS",
+        "COMMONS-YU-QIAN-PORTRAIT"
+      ],
+      "evidencePlan": [
+        "poetry",
+        "painting",
+        "later-portrait"
+      ],
+      "worldLink": {
+        "topic": "不同文化如何用诗画记录观察与感受",
+        "status": "planned"
+      },
+      "targets": {
+        "durationMinutes": 8,
+        "screens": 5,
+        "audioClips": 5,
+        "interactions": 4
+      },
+      "detailPath": "content/chapters/ming-yu-qian-lime.md",
+      "status": {
+        "outline": "verified",
+        "research": "verified",
         "script": "first-draft",
         "assets": "cleared",
         "audio": "not-started",

@@ -11,12 +11,14 @@
     "learningContext": {
       "childIntro": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。",
       "chronology": "618—907年为唐朝范围；本组故事分属不同时期，贞观、开元通宝始铸、开元年号不可混为一个节点。",
-      "covered": "治理恢复、钱名与年号、城市乐舞、译经与东渡传授、书法与诗。",
+      "covered": "治理恢复、钱名与年号、城市乐舞、译经与东渡传授、书法与诗。《春晓》的鸟鸣与惜花、《登鹳雀楼》的登高与远望。",
       "scopeBoundary": "科举、唐前后期变化等在背景稿中；李白诗作和颜真卿文稿不能被拼成唐朝始终繁盛的单一画面。",
       "sourceIds": [
         "NMC-SUI-TANG-FIVE-DYNASTIES",
         "EDB-DUFU-SPRING-RAIN",
-        "NMC-JIANZHEN-STORY"
+        "NMC-JIANZHEN-STORY",
+        "EDB-MENG-CHUNXIAO",
+        "EDB-WANG-GUANQUE"
       ],
       "sources": [
         {
@@ -36,6 +38,18 @@
           "title": "中华史诗美术大展：鉴真东渡",
           "institution": "中国国家博物馆",
           "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/"
+        },
+        {
+          "id": "EDB-MENG-CHUNXIAO",
+          "title": "《春晓》原文、作者介绍与赏析（第1—2页）",
+          "institution": "香港特别行政区政府教育局",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_08.pdf"
+        },
+        {
+          "id": "EDB-WANG-GUANQUE",
+          "title": "《登鹳鹊楼》原文、作者介绍与赏析（第1—2页）",
+          "institution": "香港特别行政区政府教育局",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07.pdf"
         }
       ]
     }
@@ -310,6 +324,7 @@
         "id": "rain-choice-scenes-v2",
         "title": "杜甫为什么把春雨叫好雨？的情境选择分镜",
         "localPath": "reference-assets/choice-art-refinement/rain-choice-scenes-v2.png",
+        "runtimeMaxEdge": 2400,
         "sourcePage": "https://openai.com/policies/terms-of-use/",
         "sourceFile": null,
         "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
@@ -319,6 +334,21 @@
         "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
         "childVisibility": "child-ok",
         "image": "/content/step-images/rain-choice-scenes-v2.jpg"
+      },
+      {
+        "id": "dufu-leaves-lantern-v3",
+        "title": "杜甫为什么把春雨叫好雨？ · 情境对照新画",
+        "localPath": "reference-assets/choice-art-fix/dufu-leaves-lantern-v3.png",
+        "runtimeMaxEdge": 1600,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/choice-art-fix/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学情境插画，不是文物照片或历史现场",
+        "boundary": "古籍是后世刊本，不是杜甫手稿；雨夜图是诗意想象，不是写诗当晚的照片。花不会因一场雨瞬间长大，孩子的个人感受不判对错。 同组场景用于比较选项所说的动作或对象，不能据生成细节推断古代器物的精确构造。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/dufu-leaves-lantern-v3.jpg"
       }
     ],
     "coverImage": "/content/step-images/dufu-collection-cover.jpg",
@@ -861,7 +891,8 @@
         "interaction": {
           "kind": "pick",
           "hint": "听清故事，再看看眼前的线索。",
-          "selectionFraming": "detail"
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
         },
         "narrative": {
           "scene": "detail",
@@ -925,16 +956,16 @@
             "correct": true,
             "objectView": {
               "kind": "scene-card",
-              "assetId": "tang-dufu-rain-v1",
+              "assetId": "dufu-leaves-lantern-v3",
               "crop": {
-                "x": 1300,
-                "y": 645,
-                "width": 236,
-                "height": 320,
-                "sourceWidth": 1536,
-                "sourceHeight": 1024
+                "x": 6,
+                "y": 2,
+                "width": 1073,
+                "height": 713,
+                "sourceWidth": 1086,
+                "sourceHeight": 1448
               },
-              "image": "/content/step-images/tang-dufu-rain-v1.jpg",
+              "image": "/content/step-images/dufu-leaves-lantern-v3.jpg",
               "imageAlt": "被雨润湿的花叶",
               "imageLabel": "故事插画"
             },
@@ -951,16 +982,16 @@
             "correct": false,
             "objectView": {
               "kind": "scene-card",
-              "assetId": "tang-dufu-rain-v1",
+              "assetId": "dufu-leaves-lantern-v3",
               "crop": {
-                "x": 1090,
-                "y": 420,
-                "width": 280,
-                "height": 200,
-                "sourceWidth": 1536,
-                "sourceHeight": 1024
+                "x": 4,
+                "y": 730,
+                "width": 1078,
+                "height": 716,
+                "sourceWidth": 1086,
+                "sourceHeight": 1448
               },
-              "image": "/content/step-images/tang-dufu-rain-v1.jpg",
+              "image": "/content/step-images/dufu-leaves-lantern-v3.jpg",
               "imageAlt": "江船上亮着的灯",
               "imageLabel": "故事插画"
             },
@@ -1194,6 +1225,26 @@
       "authorityLevel": "A-primary-institution",
       "factUse": "唐代鉴真受邀东渡、典籍与文化传授、同行协作；出海到达与入奈良分开，不用展览新画作现场照片。",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "EDB-MENG-CHUNXIAO",
+      "title": "《春晓》原文、作者介绍与赏析（第1—2页）",
+      "institution": "香港特别行政区政府教育局",
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_08.pdf",
+      "type": "government-education-classical-poetry-resource",
+      "authorityLevel": "A-government-education",
+      "factUse": "孟浩然为唐代诗人；《春晓》通行全文；从清晨鸟鸣回想昨夜风雨，末句为对落花的发问，不能推定确切落花数或写作当日天气",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "EDB-WANG-GUANQUE",
+      "title": "《登鹳鹊楼》原文、作者介绍与赏析（第1—2页）",
+      "institution": "香港特别行政区政府教育局",
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS1_07.pdf",
+      "type": "government-education-classical-poetry-resource",
+      "authorityLevel": "A-government-education",
+      "factUse": "通行王之涣署名、唐代及四句全文；登楼远望与更上一层；第2页明确入海并非从鹳雀楼直接看见入海口。楼的后世沿革另依当地政府资料，不采用本篇关于毁楼原因的简述",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -1227,6 +1278,7 @@
       "id": "rain-choice-scenes-v2",
       "title": "杜甫为什么把春雨叫好雨？的情境选择分镜",
       "localPath": "reference-assets/choice-art-refinement/rain-choice-scenes-v2.png",
+      "runtimeMaxEdge": 2400,
       "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
       "licensePath": "reference-assets/choice-art-refinement/ATTRIBUTION.md",
@@ -1234,6 +1286,20 @@
       "clearance": "cleared-project-created",
       "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
       "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "dufu-leaves-lantern-v3",
+      "title": "杜甫为什么把春雨叫好雨？ · 情境对照新画",
+      "localPath": "reference-assets/choice-art-fix/dufu-leaves-lantern-v3.png",
+      "runtimeMaxEdge": 1600,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/choice-art-fix/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学情境插画，不是文物照片或历史现场",
+      "boundary": "古籍是后世刊本，不是杜甫手稿；雨夜图是诗意想象，不是写诗当晚的照片。花不会因一场雨瞬间长大，孩子的个人感受不判对错。 同组场景用于比较选项所说的动作或对象，不能据生成细节推断古代器物的精确构造。",
       "childVisibility": "child-ok"
     },
     {

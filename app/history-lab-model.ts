@@ -13,17 +13,19 @@ export function roofCapPosition(phase:number){
  return {capX:270+160*smooth(Math.max(0,(amount-.5)*2)),capY:145-45*smooth(Math.min(1,amount*2))};
 }
 
-// Diagram coordinates are shared by water, bridge openings and observation tests.
+// Coordinates in zhaozhou-bridge-study-v2.png (1642 × 958). The four small
+// apertures were checked against the transparent openings, not the arch rings.
+export const BRIDGE_ART={x:6,y:18,width:528,sourceWidth:1642,sourceHeight:958} as const;
 export const BRIDGE_OPENINGS=[
- {id:'main',x:180,y:139,width:180,height:106},
- {id:'left-outer',x:68,y:155,width:38,height:44},
- {id:'left-inner',x:119,y:137,width:39,height:42},
- {id:'right-inner',x:382,y:137,width:39,height:42},
- {id:'right-outer',x:434,y:155,width:38,height:44},
+ {id:'main',x:411,y:410,width:810,height:270,ripple:[820,560,128],path:'M411 680V628Q571 409 820 410Q1060 411 1221 628V680Z'},
+ {id:'left-outer',x:222,y:484,width:88,height:84,ripple:[266,535,36],path:'M222 566Q223 505 262 486Q291 474 310 519L303 554Q271 568 222 566Z'},
+ {id:'left-inner',x:392,y:438,width:59,height:63,ripple:[413,475,24],path:'M392 500Q397 453 420 441Q441 432 451 448L445 471Z'},
+ {id:'right-inner',x:1183,y:438,width:56,height:62,ripple:[1219,475,24],path:'M1183 448Q1195 431 1213 441Q1234 454 1239 500L1188 470Z'},
+ {id:'right-outer',x:1323,y:484,width:84,height:85,ripple:[1365,535,36],path:'M1323 519Q1339 477 1368 486Q1405 502 1407 568Q1360 569 1330 555Z'},
 ] as const;
 export function bridgeWaterSnapshot(stage:number){
  if(!Number.isInteger(stage)||stage<0||stage>2)throw new RangeError('Invalid bridge water stage');
- const waterY=stage===0?218:166;
+ const waterY=stage===0?635:465;
  return {waterY,flowing:BRIDGE_OPENINGS.filter(o=>waterY<o.y+o.height).map(o=>o.id),showPaths:stage===2};
 }
 export function weavingCrossings(rows:number){

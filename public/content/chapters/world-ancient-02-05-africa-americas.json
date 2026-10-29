@@ -8,7 +8,37 @@
     "id": "medieval-world",
     "label": "中古世界",
     "years": "约5—15世纪",
-    "learningContext": null
+    "learningContext": {
+      "childIntro": "到中世纪欧洲，看看手写书怎样留下知识；再到非洲南部，看看大津巴布韦的石墙与物品。两地各有自己的故事。",
+      "chronology": "本站总目录约5—15世纪。当前欧洲手写书以14世纪后半叶的手稿绘画作观察材料；大津巴布韦主线取约1100—1450年的城市发展。它们部分同时，却不是同一国家、同一制度或彼此必有直接联系。",
+      "covered": "抄写与装订如何帮助保存和阅读文字；绍纳人祖先的石城建造、当地生活与远方物品的证据边界。",
+      "scopeBoundary": "大学、庄园、拜占庭、伊斯兰世界、日本及美洲等原研究仍保留。当前两条可玩主线不代表整个中古世界或原长稿都已完成儿童化。",
+      "sourceIds": [
+        "MET-MEDIEVAL-BOOK-MAKING",
+        "SMB-MIN1233-LECTURE",
+        "UNESCO-GREAT-ZIMBABWE"
+      ],
+      "sources": [
+        {
+          "id": "MET-MEDIEVAL-BOOK-MAKING",
+          "title": "The Art of the Book in the Middle Ages",
+          "institution": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/essays/the-art-of-the-book-in-the-middle-ages"
+        },
+        {
+          "id": "SMB-MIN1233-LECTURE",
+          "title": "Aristoteles hält eine Vorlesung vor Studenten（Min 1233）",
+          "institution": "Staatliche Museen zu Berlin, Kupferstichkabinett",
+          "url": "https://id.smb.museum/object/954320"
+        },
+        {
+          "id": "UNESCO-GREAT-ZIMBABWE",
+          "title": "Great Zimbabwe National Monument",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/364/"
+        }
+      ]
+    }
   },
   "order": 10,
   "title": "中古非洲和美洲有哪些城市与文明",
@@ -16,59 +46,113 @@
   "throughline": "从帕伦克约500—700年繁盛，到9—14世纪斯瓦希里海岸、约1100—1450年大津巴布韦、15—16世纪廷巴克图、1325—1521年特诺奇蒂特兰和15世纪安第斯路网，以城市、手稿、文字、贡赋、道路与结绳认识非洲和美洲的多样道路。",
   "childEntry": {
     "id": "world-ancient-02-05-africa-americas",
-    "childTitle": "石头城、湖上城和山路网",
-    "prompt": "没有走同一条路的城市，为什么都能发展贸易、文字和大型工程？",
-    "takeaway": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。",
-    "object": "大津巴布韦石墙、廷巴克图手稿、结绳与道路遗址",
+    "childTitle": "大津巴布韦的石墙与远方物品",
+    "prompt": "非洲南部的大津巴布韦由绍纳人的祖先建起。石墙见证建筑本领，出土物品提供交流线索。跟小伙伴分开看。",
+    "takeaway": "绍纳人的祖先建起大津巴布韦，石墙留下当地建筑劳动的线索。远方物品说明贸易联系，却不能证明外来人建城，或某位远方商人亲自到过这里。",
+    "object": "大津巴布韦的石墙与圆锥塔",
     "people": [
-      "石匠、商人、抄写员、农人和道路维护者"
+      "绍纳人的祖先",
+      "大津巴布韦"
     ],
-    "place": "东非、廷巴克图、中美洲与安第斯地区",
-    "culture": "手稿、玛雅文字与安第斯结绳",
-    "care": "不做文明排名，也不虚构古代中国与美洲直接接触。"
+    "place": "非洲南部 · 今天的津巴布韦",
+    "culture": "绍纳人祖先的建筑与贸易联系",
+    "care": "石城模型、讲解员、陶片和珠子均为现代教学新画，不是遗址测绘复原、指定文物照片或特定古代贸易场景。真照片可看干砌石建筑；远方物品的发现及来源依赖考古研究，不能由生成陶片的花纹判产地。圆锥塔的用途仍有讨论，不说成已确定的粮仓。原非洲与美洲研究保留；本轮只开放南部非洲石城主线，不将两洲当成一种文明。",
+    "playableSource": "content/focused-quests.json",
+    "preferredAssetId": "great-zimbabwe-conical-tower-2019-cc-by-sa"
   },
-  "learningGuide": null,
-  "textbookConnection": null,
+  "learningGuide": {
+    "id": "world-ancient-02-05-africa-americas",
+    "theme": "交通和交往",
+    "learningGoal": "当地人修建石城，远方物品说明交流；两种证据回答不同问题。",
+    "parentQuestion": "发现远方物品，能不能就说石城由外来人修建？",
+    "observe": "孩子指出石城建筑与物品材料各自的作用，能说当地居民修城，也与外界交换。",
+    "misconception": "不能凭外来物品否认当地人的建造，也不能仅凭物品认定某位商人到过。",
+    "evidenceStepIds": [
+      "time",
+      "beginning",
+      "journey",
+      "change",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "UNESCO-GREAT-ZIMBABWE"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-08-02-zheng-he",
+        "relation": "两章都接触印度洋交流，但大津巴布韦物品可能多次转手，不能据此断言郑和到过石城。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "遗址",
+      "干砌",
+      "贸易"
+    ]
+  },
+  "textbookConnection": {
+    "id": "world-ancient-02-05-africa-americas",
+    "featured": {
+      "type": "遗址",
+      "icon": "🧱",
+      "title": "绍纳人的祖先与大津巴布韦",
+      "childBridge": "非洲南部的大津巴布韦由绍纳人的祖先建起。石墙见证建筑本领，出土物品提供交流线索。跟小伙伴分开看。",
+      "evidenceBoundary": "石城模型、讲解员、陶片和珠子均为现代教学新画，不是遗址测绘复原、指定文物照片或特定古代贸易场景。"
+    },
+    "companions": [
+      {
+        "type": "人物群体",
+        "label": "绍纳人的祖先",
+        "note": "当地人是建造者，不因外来物品而改说外人建城。"
+      },
+      {
+        "type": "工艺",
+        "label": "干砌石墙",
+        "note": "石块叠合而不用灰浆；圆锥塔的具体用途不凭照片猜定。"
+      },
+      {
+        "type": "交往",
+        "label": "远方物品",
+        "note": "贸易可能经过多次转手，不能自动推断某位远方人亲到石城。"
+      }
+    ],
+    "sourceIds": [
+      "UNESCO-GREAT-ZIMBABWE"
+    ]
+  },
   "childStory": [
     {
-      "id": "hook",
-      "icon": "🔎",
-      "label": "从一件东西出发",
-      "text": "石头城、湖上城和山路网"
+      "id": "time",
+      "icon": "🕰️",
+      "label": "来到南部非洲的石城",
+      "text": "大津巴布韦在非洲南部，大约九百年前开始兴盛。绍纳人的祖先在这里修建石城。照片拍于2019年，早先的建筑和后来拍照要分开。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "走进三种城市道路",
-      "text": "先分别走进石头城、湖上城和安第斯山路。"
+      "label": "石墙里面，也有人生活",
+      "text": "绍纳人的祖先把石块一层层叠合，不用灰浆黏住，修起厚厚的石墙。围墙内曾有住屋与院子；石城既是权力中心，也有人的日常生活。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "许多人分工协作",
-      "text": "接着看石匠、商人和道路维护者怎样协作。"
+      "label": "一块块石头组成什么",
+      "text": "照片里，一层层石块连成弯曲的石墙，里面还有上小下大的圆锥塔。我们可以指出它们的形状；圆锥塔究竟做什么，不能只看这张照片就猜定。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "各有自己的办法",
-      "text": "最后不同地区用自己的环境与知识建城通路。"
+      "label": "石城也与远方相连",
+      "text": "考古人在遗址发现了来自远方的瓷器等物品，说明这里参与贸易。教学图里，讲解员用陶片和珠子演示怎样观察；它们不是真实出土件的画像。"
     },
     {
-      "id": "answer-retell",
+      "id": "takeaway",
       "icon": "🗣️",
-      "label": "把故事讲给家人听",
-      "text": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。"
+      "label": "远方物品没有替人建城",
+      "text": "远方来的物品是交流线索，石墙却是当地人的建筑劳动。小伙伴要介绍绍纳人祖先建城的本领，应先指哪一边，再说石块怎样叠起来？"
     }
   ],
   "glossary": [
-    {
-      "term": "贸易",
-      "icon": "🚚",
-      "plain": "不同人或地方交换、买卖物品和服务。",
-      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
-      "priority": 1
-    },
     {
       "term": "遗址",
       "icon": "🏚️",
@@ -77,509 +161,866 @@
       "priority": 1
     },
     {
-      "term": "文明",
-      "icon": "🏙️",
-      "plain": "许多人长期创造的社会生活与文化成果。",
-      "example": "不同文明各有环境和道路，不做高低排名。",
+      "term": "干砌",
+      "icon": "🧱",
+      "plain": "把石块相互叠合，不用灰浆黏在一起。",
+      "example": "大津巴布韦的石墙用干砌方法建造。",
       "priority": 2
     },
     {
-      "term": "发展",
-      "icon": "🌱",
-      "plain": "事物经过一段时间出现增长或变化。",
-      "example": "发展不只看速度和数量，也要看人的生活与环境。",
-      "priority": 3
-    },
-    {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "term": "贸易",
+      "icon": "🚚",
+      "plain": "不同人或地方交换、买卖物品和服务。",
+      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
       "priority": 1
-    },
-    {
-      "term": "国家",
-      "icon": "🗺️",
-      "plain": "许多人住在共同疆域里，按公共规则生活。",
-      "example": "国家不只是地图，还包括人、土地和管理公共事情的机构。",
-      "priority": 2
-    },
-    {
-      "term": "市场",
-      "icon": "🧺",
-      "plain": "人们交换商品和服务的地方或关系。",
-      "example": "市场可以是街市，也可以是不在同一地点的交易网络。",
-      "priority": 2
-    },
-    {
-      "term": "宗教",
-      "icon": "🕯️",
-      "plain": "人们关于信仰、仪式和生活意义的一套传统。",
-      "example": "同一种宗教内部也有不同地区、时代和人群。",
-      "priority": 2
-    },
-    {
-      "term": "组织",
-      "icon": "🤝",
-      "plain": "许多人为了共同事情分工、联系和行动。",
-      "example": "一个名人背后常有组织、协作者和普通参与者。",
-      "priority": 2
-    },
-    {
-      "term": "帝国",
-      "icon": "🗺️",
-      "plain": "由中心统治许多地区和人群的大政权。",
-      "example": "帝国地图会变化，不能把不同时期边界画成一张。",
-      "priority": 3
-    },
-    {
-      "term": "建设",
-      "icon": "🏗️",
-      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
-      "example": "建设有成果，也要看成本、困难和谁参与。",
-      "priority": 3
-    },
-    {
-      "term": "联盟",
-      "icon": "🔗",
-      "plain": "不同一方为了共同目标暂时或长期合作。",
-      "example": "联盟成员仍可能有不同想法和利益。",
-      "priority": 3
-    },
-    {
-      "term": "统治",
-      "icon": "🏛️",
-      "plain": "掌权者用机构和规则管理人群与地方。",
-      "example": "研究统治还要问谁能参与、谁承担负担。",
-      "priority": 3
     }
   ],
   "pronunciations": [
     {
-      "text": "安第斯",
-      "reading": "Āndìsī",
+      "text": "大津巴布韦",
+      "reading": "Dàjīnbābùwéi",
       "kind": "place",
       "chapterIds": [
         "world-ancient-02-05-africa-americas"
       ],
-      "note": "“第”读dì。"
+      "note": "本轮新增可玩主线校听项；自动绑定不等于已人工校听。"
     },
     {
-      "text": "廷巴克图",
-      "reading": "Tíngbākètú",
-      "kind": "place",
+      "text": "干砌",
+      "reading": "gān qì",
+      "kind": "term",
       "chapterIds": [
         "world-ancient-02-05-africa-americas"
       ],
-      "note": "按中文译名连读。"
+      "note": "本轮新增可玩主线校听项；自动绑定不等于已人工校听。"
+    },
+    {
+      "text": "绍纳",
+      "reading": "Shàonà",
+      "kind": "term",
+      "chapterIds": [
+        "world-ancient-02-05-africa-americas"
+      ],
+      "note": "本轮新增可玩主线校听项；自动绑定不等于已人工校听。"
     }
   ],
   "gameplay": {
-    "mode": "memory-hook-story-quest-v3",
+    "mode": "authored-picture-quest-v4",
     "status": "playable-core",
     "audioStatus": "local-pre-generated",
     "hook": {
-      "kind": "一件东西",
+      "kind": "具体任务",
       "icon": "🔎",
-      "label": "石头城、湖上城和山路网",
-      "question": "没有走同一条路的城市，为什么都能发展贸易、文字和大型工程？"
+      "label": "大津巴布韦的石墙与远方物品",
+      "question": "非洲南部的大津巴布韦由绍纳人的祖先建起。石墙见证建筑本领，出土物品提供交流线索。跟小伙伴分开看。"
+    },
+    "cta": "带着问题去看看",
+    "anchor": "绍纳人的祖先与大津巴布韦",
+    "boundary": "石城模型、讲解员、陶片和珠子均为现代教学新画，不是遗址测绘复原、指定文物照片或特定古代贸易场景。真照片可看干砌石建筑；远方物品的发现及来源依赖考古研究，不能由生成陶片的花纹判产地。圆锥塔的用途仍有讨论，不说成已确定的粮仓。原非洲与美洲研究保留；本轮只开放南部非洲石城主线，不将两洲当成一种文明。",
+    "evidence": [
+      {
+        "id": "great-zimbabwe-conical-tower-2019-cc-by-sa",
+        "title": "大津巴布韦大围场圆锥塔2019年实拍",
+        "localPath": "reference-assets/world-ancient-africa-americas/great-zimbabwe-conical-tower-2019.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Conical_Tower_-_Great_Enclosure_V_(33736897638).jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 2.0",
+        "clearance": "cleared-open-license",
+        "caption": "2019年拍摄的大津巴布韦大围场干砌石墙与圆锥塔；建筑群主要在约1100—1450年间发展。",
+        "boundary": "2019年拍摄的现代遗址照片，支持观察现存干砌石建筑的形状。它不是古代施工现场，也不能单独证明圆锥塔的用途或远方物品的贸易来源。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/great-zimbabwe-conical-tower-2019-cc-by-sa.jpg"
+      }
+    ],
+    "photoAlbum": null,
+    "coverAsset": {
+      "id": "great-zimbabwe-conical-tower-2019-cc-by-sa",
+      "title": "大津巴布韦大围场圆锥塔2019年实拍",
+      "localPath": "reference-assets/world-ancient-africa-americas/great-zimbabwe-conical-tower-2019.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Conical_Tower_-_Great_Enclosure_V_(33736897638).jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 2.0",
+      "clearance": "cleared-open-license",
+      "caption": "2019年拍摄的大津巴布韦大围场干砌石墙与圆锥塔；建筑群主要在约1100—1450年间发展。",
+      "boundary": "2019年拍摄的现代遗址照片，支持观察现存干砌石建筑的形状。它不是古代施工现场，也不能单独证明圆锥塔的用途或远方物品的贸易来源。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/great-zimbabwe-conical-tower-2019-cc-by-sa.jpg"
+    },
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "zimbabwe-stone-story-v1",
+      "sceneAlt": "大津巴布韦的石墙与远方物品的现代教学情境，非考古复原",
+      "title": "大津巴布韦的石墙与远方物品",
+      "evidenceTitle": "大津巴布韦石墙与塔 · 2019年照片",
+      "evidenceLine": "真实材料与教学新画分别标注；点开材料可听年代和出处。",
+      "evidenceNarration": "这是南部非洲大津巴布韦遗址的现代照片。绍纳人的祖先修建了这里的建筑。照片能让我们观察石墙和圆锥塔，不能单凭照片确定每座建筑的用途。",
+      "guide": "和小伙伴看材料、听故事，再说说你的发现。",
+      "alignHint": "",
+      "familyHint": "回看材料里的线索，和家人说说。",
+      "familyLabel": "和家人再试一次",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "带着发现回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "zimbabwe-stone-story-v1",
+        "reunionAlt": "大津巴布韦的石墙与远方物品的教学情境",
+        "reunionAspectRatio": 1.5,
+        "reunionFit": "contain",
+        "coverCaption": "大津巴布韦的石墙与远方物品",
+        "coverNarration": "非洲南部的大津巴布韦由绍纳人的祖先建起。石墙见证建筑本领，出土物品提供交流线索。跟小伙伴分开看。",
+        "closingCaption": "把发现说给家人听",
+        "closingLine": "大津巴布韦的石墙与远方物品",
+        "closingNarration": "绍纳人的祖先建起大津巴布韦，石墙留下当地建筑劳动的线索。远方物品说明贸易联系，却不能证明外来人建城，或某位远方商人亲自到过这里。",
+        "fictionNote": "石城模型、讲解员、陶片和珠子均为现代教学新画，不是遗址测绘复原、指定文物照片或特定古代贸易场景。真照片可看干砌石建筑；远方物品的发现及来源依赖考古研究，不能由生成陶片的花纹判产地。圆锥塔的用途仍有讨论，不说成已确定的粮仓。原非洲与美洲研究保留；本轮只开放南部非洲石城主线，不将两洲当成一种文明。",
+        "reunionImage": "/content/step-images/zimbabwe-stone-story-v1.jpg",
+        "stationLine": "到中世纪欧洲，看看手写书怎样留下知识；再到非洲南部，看看大津巴布韦的石墙与物品。两地各有自己的故事。",
+        "stationAudio": {
+          "id": "quest-09f5b4d48c2f94e8",
+          "text": "到中世纪欧洲，看看手写书怎样留下知识；再到非洲南部，看看大津巴布韦的石墙与物品。两地各有自己的故事。"
+        },
+        "closingAudio": {
+          "id": "quest-aad2c1f6fc06f4f8",
+          "text": "绍纳人的祖先建起大津巴布韦，石墙留下当地建筑劳动的线索。远方物品说明贸易联系，却不能证明外来人建城，或某位远方商人亲自到过这里。"
+        }
+      },
+      "sceneImage": "/content/step-images/zimbabwe-stone-story-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-708bfdfae712c07f",
+        "text": "这是南部非洲大津巴布韦遗址的现代照片。绍纳人的祖先修建了这里的建筑。照片能让我们观察石墙和圆锥塔，不能单凭照片确定每座建筑的用途。"
+      },
+      "guideAudio": {
+        "id": "quest-3a7a1472918f5e2f",
+        "text": "和小伙伴看材料、听故事，再说说你的发现。"
+      }
+    },
+    "sceneAsset": {
+      "id": "zimbabwe-stone-story-v1",
+      "title": "大津巴布韦的石墙与远方物品教学插画",
+      "localPath": "reference-assets/2026-10-28-world-expansion/zimbabwe-stone-story-v1.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/2026-10-28-world-expansion/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "教学新画 · 现代学习情境，非历史照片或精确复原",
+      "boundary": "石城模型、讲解员、陶片和珠子均为现代教学新画，不是遗址测绘复原、指定文物照片或特定古代贸易场景。真照片可看干砌石建筑；远方物品的发现及来源依赖考古研究，不能由生成陶片的花纹判产地。圆锥塔的用途仍有讨论，不说成已确定的粮仓。原非洲与美洲研究保留；本轮只开放南部非洲石城主线，不将两洲当成一种文明。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/zimbabwe-stone-story-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "zimbabwe-stone-story-v1",
+        "title": "大津巴布韦的石墙与远方物品教学插画",
+        "localPath": "reference-assets/2026-10-28-world-expansion/zimbabwe-stone-story-v1.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": null,
+        "sourceFile": "content/focused-quests.json",
+        "licensePath": "reference-assets/2026-10-28-world-expansion/ATTRIBUTION.md",
+        "license": "项目自制，供本项目使用",
+        "clearance": "cleared-project-created",
+        "caption": "教学新画 · 现代学习情境，非历史照片或精确复原",
+        "boundary": "石城模型、讲解员、陶片和珠子均为现代教学新画，不是遗址测绘复原、指定文物照片或特定古代贸易场景。真照片可看干砌石建筑；远方物品的发现及来源依赖考古研究，不能由生成陶片的花纹判产地。圆锥塔的用途仍有讨论，不说成已确定的粮仓。原非洲与美洲研究保留；本轮只开放南部非洲石城主线，不将两洲当成一种文明。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/zimbabwe-stone-story-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/great-zimbabwe-conical-tower-2019-cc-by-sa.jpg",
+    "coverImageAlt": "大津巴布韦大围场圆锥塔2019年实拍",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "大津巴布韦石墙与塔 · 2019年照片",
+      "fit": "contain"
     },
     "coverAudio": {
-      "id": "quest-7b9a16c80479c2a5",
-      "text": "今天从一件东西出发：石头城、湖上城和山路网。我们要去东非、廷巴克图、中美洲与安第斯地区，看看大津巴布韦石墙、廷巴克图手稿、结绳与道路遗址怎样把答案一点点带出来。准备好就点开始。"
+      "id": "quest-e0bc4768e9b29294",
+      "text": "非洲南部的大津巴布韦由绍纳人的祖先建起。石墙见证建筑本领，出土物品提供交流线索。跟小伙伴分开看。"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-14ab1accc659a2cc",
-      "text": "五条线索都找到了，“石头城、湖上城和山路网”的答案是：非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。 你获得了历史证据小侦探勋章。"
+      "id": "quest-aad2c1f6fc06f4f8",
+      "text": "绍纳人的祖先建起大津巴布韦，石墙留下当地建筑劳动的线索。远方物品说明贸易联系，却不能证明外来人建城，或某位远方商人亲自到过这里。"
     },
-    "estimatedMinutes": 9,
+    "finish": {
+      "title": "带走自己的发现",
+      "actions": [
+        "在真照片里指石墙的一层石块，再沿墙用手指走一段，说说当地人怎样把许多石块变成建筑。",
+        "请家长拿一件家中从外地买来的东西，孩子说说：物品来自外地，是否就能证明房子也由那个地方的人建造？"
+      ],
+      "parent": "孩子能同时说出当地人建城和物品交流，并理解物品来源不自动等于建造者身份即可。亲子类比仅帮助理解证据边界，不把今天家庭购物当古代贸易过程。图中模拟陶片不可用于判定真实产地，真实外来瓷器结论来自UNESCO记录的考古发现。",
+      "sceneStepIndexes": [
+        2,
+        4
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-d8f8bbdf203ac4b2",
+          "text": "在真照片里指石墙的一层石块，再沿墙用手指走一段，说说当地人怎样把许多石块变成建筑。"
+        },
+        {
+          "id": "quest-82f800373cc09272",
+          "text": "请家长拿一件家中从外地买来的东西，孩子说说：物品来自外地，是否就能证明房子也由那个地方的人建造？"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-aad2c1f6fc06f4f8",
+        "text": "绍纳人的祖先建起大津巴布韦，石墙留下当地建筑劳动的线索。远方物品说明贸易联系，却不能证明外来人建城，或某位远方商人亲自到过这里。"
+      }
+    },
+    "estimatedMinutes": 6,
     "badge": {
-      "icon": "🏅",
-      "label": "历史证据小侦探"
+      "icon": "🌟",
+      "label": "小小观察员"
     },
     "steps": [
       {
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "先找到时间",
-        "title": "先把故事放进时间河",
-        "prompt": "从一件东西出发，先找哪个年代？",
-        "rightNote": "时间找对了，故事有了起点。",
-        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "phase": "来到南部非洲的石城",
+        "title": "来到南部非洲的石城",
+        "prompt": "石城兴盛是在什么时候？",
+        "rightNote": "这是许多世纪以前的石城，2019年是拍照时。",
+        "wrongNote": "2019年是照片年份，石城已存在很久。",
+        "sourceIds": [
+          "UNESCO-GREAT-ZIMBABWE"
+        ],
+        "interaction": {
+          "kind": "timeline",
+          "hint": "听故事，再从画面里找线索。"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "来到南部非洲的石城",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "这是许多世纪以前的石城，2019年是拍照时。",
+          "retry": "2019年是照片年份，石城已存在很久。",
+          "nextLabel": "看看是谁怎样建起它"
+        },
+        "concepts": null,
+        "inspection": {
+          "id": "great-zimbabwe-conical-tower-2019-cc-by-sa",
+          "title": "大津巴布韦的石墙与塔",
+          "localPath": "reference-assets/world-ancient-africa-americas/great-zimbabwe-conical-tower-2019.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Conical_Tower_-_Great_Enclosure_V_(33736897638).jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 2.0",
+          "clearance": "cleared-open-license",
+          "caption": "11—15世纪发展 · 2019年照片",
+          "boundary": "2019年拍摄的现代遗址照片，支持观察现存干砌石建筑的形状。它不是古代施工现场，也不能单独证明圆锥塔的用途或远方物品的贸易来源。 2019年拍摄的大津巴布韦大围场干砌石墙与圆锥塔；建筑群主要在约1100—1450年间发展。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/great-zimbabwe-conical-tower-2019-cc-by-sa.jpg",
+          "label": "看真实材料，听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 290,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "UNESCO：大津巴布韦遗产记录",
+              "url": "https://whc.unesco.org/en/list/364/"
+            },
+            {
+              "title": "Andrew Moore照片与CC BY-SA 2.0许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Conical_Tower_-_Great_Enclosure_V_(33736897638).jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-708bfdfae712c07f",
+            "text": "这是南部非洲大津巴布韦遗址的现代照片。绍纳人的祖先修建了这里的建筑。照片能让我们观察石墙和圆锥塔，不能单凭照片确定每座建筑的用途。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "先把故事放进时间河",
-          "screenText": "这是中古世界，时间是约5—15世纪。",
-          "narration": "这是中古世界，时间是约5—15世纪。",
-          "displayText": "这是中古世界，时间是约5—15世纪。"
+          "title": "来到南部非洲的石城",
+          "screenText": "大津巴布韦在非洲南部，大约九百年前开始兴盛。绍纳人的祖先在这里修建石城。照片拍于2019年，早先的建筑和后来拍照要分开。",
+          "displayText": "大津巴布韦在非洲南部，大约九百年前开始兴盛。绍纳人的祖先在这里修建石城。照片拍于2019年，早先的建筑和后来拍照要分开。",
+          "narration": "大津巴布韦在非洲南部，大约九百年前开始兴盛。绍纳人的祖先在这里修建石城。照片拍于2019年，早先的建筑和后来拍照要分开。"
         },
-        "assetId": "timbuktu-astronomy-manuscript-1733-public-domain",
-        "image": "/content/step-images/timbuktu-astronomy-manuscript-1733-public-domain.jpg",
-        "imageAlt": "1733年廷巴克图天文学手稿页",
-        "imageCaption": "1733年抄写的廷巴克图天文学手稿页，图中讨论重要星体；它显示西非书写与学术传统的长期延续。",
-        "imageBoundary": "保留476×640像素原图，未放大、未裁切。它不是15世纪桑科雷课堂笔记，也不代表廷巴克图全部手稿；页面不供儿童自行解读星象或宗教内容。",
+        "assetId": "zimbabwe-stone-story-v1",
+        "image": "/content/step-images/zimbabwe-stone-story-v1.jpg",
+        "studyImage": "/content/study-scenes/study-4e102dccadb504bb.svg",
+        "studyImageAlt": "来到南部非洲的石城",
+        "imageAlt": "大津巴布韦的石墙与远方物品教学插画",
+        "imageCaption": "大津巴布韦的石墙与远方物品教学插画",
+        "imageBoundary": "石城模型、讲解员、陶片和珠子均为现代教学新画，不是遗址测绘复原、指定文物照片或特定古代贸易场景。真照片可看干砌石建筑；远方物品的发现及来源依赖考古研究，不能由生成陶片的花纹判产地。圆锥塔的用途仍有讨论，不说成已确定的粮仓。原非洲与美洲研究保留；本轮只开放南部非洲石城主线，不将两洲当成一种文明。",
         "audio": {
+          "lead": {
+            "id": "quest-879043c344dc1ee2",
+            "text": "大津巴布韦在非洲南部，大约九百年前开始兴盛。绍纳人的祖先在这里修建石城。照片拍于2019年，早先的建筑和后来拍照要分开。石城兴盛是在什么时候？"
+          },
           "transition": {
-            "id": "quest-539cc8e9e5394229",
-            "text": "先给一件东西找到正确年代。"
+            "id": "quest-fbb547e7d5674ebb",
+            "text": "来到南部非洲的石城。"
           },
           "intro": {
-            "id": "quest-1fb2283ac891f89c",
-            "text": "这是中古世界，时间是约5—15世纪。"
-          },
-          "image": {
-            "id": "quest-5bfc13d817e40fbf",
-            "text": "点开大图啦。这是1733年廷巴克图天文学手稿页。这张图能帮我们找到：这是中古世界，时间是约5—15世纪。"
+            "id": "quest-fcf081944f4a4ed2",
+            "text": "大津巴布韦在非洲南部，大约九百年前开始兴盛。绍纳人的祖先在这里修建石城。照片拍于2019年，早先的建筑和后来拍照要分开。"
           },
           "question": {
-            "id": "quest-50c86239196ce113",
-            "text": "从一件东西出发，先找哪个年代？"
+            "id": "quest-b8fcf27b3b61c7d4",
+            "text": "石城兴盛是在什么时候？"
+          },
+          "image": {
+            "id": "quest-a6b17bdae9d1a822",
+            "text": "这张是大津巴布韦的石墙与远方物品教学插画。大津巴布韦在非洲南部，大约九百年前开始兴盛。绍纳人的祖先在这里修建石城。照片拍于2019年，早先的建筑和后来拍照要分开。"
           },
           "right": {
-            "id": "quest-c2d78010da74a324",
-            "text": "答对啦！时间找对了，故事有了起点。"
+            "id": "quest-8019fc132a2ff8be",
+            "text": "这是许多世纪以前的石城，2019年是拍照时。"
           },
           "wrong": {
-            "id": "quest-97f81f02dcd7c5eb",
-            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+            "id": "quest-d031e90584c699d9",
+            "text": "2019年是照片年份，石城已存在很久。"
           }
         },
         "options": [
           {
             "id": "world-ancient-02-05-africa-americas-time-1",
-            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
-            "correct": false,
+            "label": "约九百年前的南部非洲",
+            "correct": true,
+            "objectView": {
+              "kind": "era",
+              "name": "约九百年前",
+              "date": "约1100—1450年",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-01f4cdc2c2aefb14.svg",
+            "imageAlt": "约九百年前的南部非洲",
             "audio": {
-              "id": "quest-d697ebadd2ec4ecb",
-              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+              "id": "quest-a4266cbc7648cbcc",
+              "text": "约九百年前的南部非洲"
             }
           },
           {
             "id": "world-ancient-02-05-africa-americas-time-2",
-            "label": "世界古代史 · 中古世界 · 约5—15世纪",
-            "correct": true,
-            "audio": {
-              "id": "quest-138b018948e0ad9a",
-              "text": "世界古代史 · 中古世界 · 约5—15世纪"
-            }
-          },
-          {
-            "id": "world-ancient-02-05-africa-americas-time-3",
-            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "label": "拍照片的年份",
             "correct": false,
+            "objectView": {
+              "kind": "era",
+              "name": "拍照片的年份",
+              "date": "2019年",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-72f1fa67104a66d6.svg",
+            "imageAlt": "拍照片的年份",
             "audio": {
-              "id": "quest-ec1b28f3cd29e479",
-              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+              "id": "quest-6d9a104e84854b17",
+              "text": "拍照片的年份"
             }
           }
         ]
       },
       {
         "id": "beginning",
-        "questionKind": "evidence-object",
+        "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "第一拍 · 故事起点",
-        "title": "走进三种城市道路",
-        "prompt": "哪一件证物能先打开这个故事？",
-        "rightNote": "先分别走进石头城、湖上城和安第斯山路。",
-        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "phase": "石墙里面，也有人生活",
+        "title": "石墙里面，也有人生活",
+        "prompt": "石墙和里面的房屋说明什么？",
+        "rightNote": "当地居民的建筑劳动，留下了石墙与生活空间。",
+        "wrongNote": "再听一听墙里面的住屋与院子。",
+        "sourceIds": [
+          "UNESCO-GREAT-ZIMBABWE"
+        ],
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听故事，再从画面里找线索。",
+          "continueLabel": "看真照片里的石头"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "石墙里面，也有人生活",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "当地居民的建筑劳动，留下了石墙与生活空间。",
+          "retry": "再听一听墙里面的住屋与院子。",
+          "nextLabel": "看真照片里的石头"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "走进三种城市道路",
-          "screenText": "先分别走进石头城、湖上城和安第斯山路。",
-          "narration": "先分别走进石头城、湖上城和安第斯山路。",
-          "displayText": "先分别走进石头城、湖上城和安第斯山路。"
+          "title": "石墙里面，也有人生活",
+          "screenText": "绍纳人的祖先把石块一层层叠合，不用灰浆黏住，修起厚厚的石墙。围墙内曾有住屋与院子；石城既是权力中心，也有人的日常生活。",
+          "displayText": "绍纳人的祖先把石块一层层叠合，不用灰浆黏住，修起厚厚的石墙。围墙内曾有住屋与院子；石城既是权力中心，也有人的日常生活。",
+          "narration": "绍纳人的祖先把石块一层层叠合，不用灰浆黏住，修起厚厚的石墙。围墙内曾有住屋与院子；石城既是权力中心，也有人的日常生活。"
         },
-        "assetId": "inca-trail-stone-road-2017-cc0",
-        "image": "/content/step-images/inca-trail-stone-road-2017-cc0.jpg",
-        "imageAlt": "通往马丘比丘的安第斯石路一段2017年实拍",
-        "imageCaption": "2017年拍摄的安第斯石砌道路一段，位于今日通往马丘比丘的步道；它属于跨越多种地形的道路遗产。",
-        "imageBoundary": "原下载图4160×3120像素，等比缩至2200×1650像素，未裁切；拍摄于2017-12-18。这是一段维护中的现代游览路线，不表示三万多千米道路全部铺石、全部由印加人在同一时期新建。",
+        "assetId": "zimbabwe-stone-story-v1",
+        "image": "/content/step-images/zimbabwe-stone-story-v1.jpg",
+        "studyImage": "/content/study-scenes/study-d56fea09e41dfb4b.svg",
+        "studyImageAlt": "石墙里面，也有人生活",
+        "imageAlt": "大津巴布韦的石墙与远方物品教学插画",
+        "imageCaption": "大津巴布韦的石墙与远方物品教学插画",
+        "imageBoundary": "石城模型、讲解员、陶片和珠子均为现代教学新画，不是遗址测绘复原、指定文物照片或特定古代贸易场景。真照片可看干砌石建筑；远方物品的发现及来源依赖考古研究，不能由生成陶片的花纹判产地。圆锥塔的用途仍有讨论，不说成已确定的粮仓。原非洲与美洲研究保留；本轮只开放南部非洲石城主线，不将两洲当成一种文明。",
         "audio": {
+          "lead": {
+            "id": "quest-1347957d62a2675e",
+            "text": "绍纳人的祖先把石块一层层叠合，不用灰浆黏住，修起厚厚的石墙。围墙内曾有住屋与院子；石城既是权力中心，也有人的日常生活。"
+          },
           "transition": {
-            "id": "quest-bc13be496686808e",
-            "text": "时间找到了。先找一件看得见、能核对的证物。"
+            "id": "quest-e40167191e1592ef",
+            "text": "石墙里面，也有人生活。"
           },
           "intro": {
-            "id": "quest-4aa6ff75c742481f",
-            "text": "先分别走进石头城、湖上城和安第斯山路。"
-          },
-          "image": {
-            "id": "quest-aa5f5e0f3144f355",
-            "text": "点开大图啦。这是通往马丘比丘的安第斯石路一段2017年实拍。这张图能帮我们找到：先分别走进石头城、湖上城和安第斯山路。"
+            "id": "quest-1347957d62a2675e",
+            "text": "绍纳人的祖先把石块一层层叠合，不用灰浆黏住，修起厚厚的石墙。围墙内曾有住屋与院子；石城既是权力中心，也有人的日常生活。"
           },
           "question": {
-            "id": "quest-785d31b501154b8e",
-            "text": "哪一件证物能先打开这个故事？"
+            "id": "quest-55cd9c6beacc7aa9",
+            "text": "石墙和里面的房屋说明什么？"
+          },
+          "image": {
+            "id": "quest-eed6c17753b39183",
+            "text": "这张是大津巴布韦的石墙与远方物品教学插画。绍纳人的祖先把石块一层层叠合，不用灰浆黏住，修起厚厚的石墙。围墙内曾有住屋与院子；石城既是权力中心，也有人的日常生活。"
           },
           "right": {
-            "id": "quest-9e334cf899a379f3",
-            "text": "答对啦！第一件证物找到了。"
+            "id": "quest-9e6d2ecd56731115",
+            "text": "当地居民的建筑劳动，留下了石墙与生活空间。"
           },
           "wrong": {
-            "id": "quest-83318c217691cf7c",
-            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+            "id": "quest-355caa43b950aea8",
+            "text": "再听一听墙里面的住屋与院子。"
           }
         },
-        "options": [
-          {
-            "id": "world-ancient-02-05-africa-americas-beginning-1",
-            "label": "大津巴布韦石墙、廷巴克图手稿、结绳与道路遗址，是能核对的证物",
-            "correct": true,
-            "audio": {
-              "id": "quest-d8de4aa60bb28040",
-              "text": "大津巴布韦石墙、廷巴克图手稿、结绳与道路遗址，是能核对的证物"
-            }
-          },
-          {
-            "id": "world-ancient-02-05-africa-americas-beginning-2",
-            "label": "石匠、商人、抄写员、农人和道路维护者、东非、廷巴，只是故事人物",
-            "correct": false,
-            "audio": {
-              "id": "quest-60a90bb90941577c",
-              "text": "石匠、商人、抄写员、农人和道路维护者、东非、廷巴，只是故事人物"
-            }
-          },
-          {
-            "id": "world-ancient-02-05-africa-americas-beginning-3",
-            "label": "东非、廷巴克图、中美洲与安第斯地区、石匠、商，只是故事地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-8094b2633640485a",
-              "text": "东非、廷巴克图、中美洲与安第斯地区、石匠、商，只是故事地点"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
-        "questionKind": "people-place-action",
+        "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "第二拍 · 故事继续",
-        "title": "许多人分工协作",
-        "prompt": "故事里的人来到这里以后，做了什么？",
-        "rightNote": "接着看石匠、商人和道路维护者怎样协作。",
-        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "phase": "一块块石头组成什么",
+        "title": "一块块石头组成什么",
+        "prompt": "哪里是一层层石块连起的石墙？",
+        "rightNote": "墙和塔都能观察；用途还需要更多研究。",
+        "wrongNote": "先找横向延伸的石墙。",
+        "sourceIds": [
+          "UNESCO-GREAT-ZIMBABWE"
+        ],
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听问题，点图中对应的线索。",
+          "imageLabel": "实物照片",
+          "sceneAspectRatio": 2.985074626865672,
+          "ariaLabel": "观察材料并选择对应对象",
+          "hotspots": [
+            {
+              "id": "wall",
+              "label": "一层层叠起的石墙",
+              "x": 0.08,
+              "y": 0.43,
+              "width": 0.25,
+              "height": 0.4
+            },
+            {
+              "id": "tower",
+              "label": "上小下大的圆锥塔",
+              "x": 0.41,
+              "y": 0.06,
+              "width": 0.2,
+              "height": 0.48
+            }
+          ],
+          "rounds": [
+            {
+              "id": "wall",
+              "targetId": "wall",
+              "question": "哪里是一层层石块连起的石墙？",
+              "feedback": "这些石块叠合成墙，可以观察接缝与层次。",
+              "retry": "这是塔，再找横向延伸的石墙。",
+              "nextLabel": "再观察塔的形状",
+              "audio": {
+                "question": {
+                  "id": "quest-e752ed8d38796c23",
+                  "text": "哪里是一层层石块连起的石墙？"
+                },
+                "right": {
+                  "id": "quest-df2e451905c2082a",
+                  "text": "这些石块叠合成墙，可以观察接缝与层次。"
+                },
+                "wrong": {
+                  "id": "quest-105f6b6c3f588806",
+                  "text": "这是塔，再找横向延伸的石墙。"
+                }
+              }
+            },
+            {
+              "id": "tower",
+              "targetId": "tower",
+              "question": "哪里是上小下大的圆锥塔？",
+              "feedback": "找到了圆锥塔；照片没有告诉我们全部用途。",
+              "retry": "这是延伸的石墙，再找高起来的圆锥塔。",
+              "nextLabel": "小物品还能告诉我们什么",
+              "audio": {
+                "question": {
+                  "id": "quest-e66e0e05e04ec6be",
+                  "text": "哪里是上小下大的圆锥塔？"
+                },
+                "right": {
+                  "id": "quest-25b9b4c2a6532459",
+                  "text": "找到了圆锥塔；照片没有告诉我们全部用途。"
+                },
+                "wrong": {
+                  "id": "quest-cfab82f0060be669",
+                  "text": "这是延伸的石墙，再找高起来的圆锥塔。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "一块块石头组成什么",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "墙和塔都能观察；用途还需要更多研究。",
+          "retry": "先找横向延伸的石墙。",
+          "nextLabel": "小物品还能告诉我们什么"
+        },
+        "concepts": null,
+        "inspection": {
+          "id": "great-zimbabwe-conical-tower-2019-cc-by-sa",
+          "title": "大津巴布韦的石墙与塔",
+          "localPath": "reference-assets/world-ancient-africa-americas/great-zimbabwe-conical-tower-2019.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Conical_Tower_-_Great_Enclosure_V_(33736897638).jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 2.0",
+          "clearance": "cleared-open-license",
+          "caption": "11—15世纪发展 · 2019年照片",
+          "boundary": "2019年拍摄的现代遗址照片，支持观察现存干砌石建筑的形状。它不是古代施工现场，也不能单独证明圆锥塔的用途或远方物品的贸易来源。 2019年拍摄的大津巴布韦大围场干砌石墙与圆锥塔；建筑群主要在约1100—1450年间发展。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/great-zimbabwe-conical-tower-2019-cc-by-sa.jpg",
+          "label": "看真实材料，听说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 290,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "UNESCO：大津巴布韦遗产记录",
+              "url": "https://whc.unesco.org/en/list/364/"
+            },
+            {
+              "title": "Andrew Moore照片与CC BY-SA 2.0许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Conical_Tower_-_Great_Enclosure_V_(33736897638).jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-708bfdfae712c07f",
+            "text": "这是南部非洲大津巴布韦遗址的现代照片。绍纳人的祖先修建了这里的建筑。照片能让我们观察石墙和圆锥塔，不能单凭照片确定每座建筑的用途。"
+          }
+        },
         "story": {
           "screenNumber": 3,
-          "title": "许多人分工协作",
-          "screenText": "接着看石匠、商人和道路维护者怎样协作。",
-          "narration": "接着看石匠、商人和道路维护者怎样协作。",
-          "displayText": "接着看石匠、商人和道路维护者怎样协作。"
+          "title": "一块块石头组成什么",
+          "screenText": "照片里，一层层石块连成弯曲的石墙，里面还有上小下大的圆锥塔。我们可以指出它们的形状；圆锥塔究竟做什么，不能只看这张照片就猜定。",
+          "displayText": "照片里，一层层石块连成弯曲的石墙，里面还有上小下大的圆锥塔。我们可以指出它们的形状；圆锥塔究竟做什么，不能只看这张照片就猜定。",
+          "narration": "照片里，一层层石块连成弯曲的石墙，里面还有上小下大的圆锥塔。我们可以指出它们的形状；圆锥塔究竟做什么，不能只看这张照片就猜定。"
         },
-        "assetId": "brooklyn-inca-quipu-36-718-cc-by",
-        "image": "/content/step-images/brooklyn-inca-quipu-36-718-cc-by.jpg",
-        "imageAlt": "布鲁克林博物馆约1400—1532年印加结绳36.718",
-        "imageCaption": "约1400—1532年的棉与骆马科纤维结绳，布鲁克林博物馆编号36.718；结、位置和绳的差异可记录信息。",
-        "imageBoundary": "保留1536×1152像素原图，未裁切。馆方将其列为可能的叙事型结绳，出土于安孔墓葬的说法带‘据传’边界；不把每根绳翻译成未经证实的人名、命令或故事。",
+        "assetId": "great-zimbabwe-conical-tower-2019-cc-by-sa",
+        "image": "/content/step-images/great-zimbabwe-conical-tower-2019-cc-by-sa.jpg",
+        "studyImage": "/content/study-scenes/study-9e4e60e8fe430a6c.svg",
+        "studyImageAlt": "一块块石头组成什么",
+        "imageAlt": "大津巴布韦大围场圆锥塔2019年实拍",
+        "imageCaption": "大津巴布韦大围场圆锥塔2019年实拍",
+        "imageBoundary": "2019年拍摄的现代遗址照片，支持观察现存干砌石建筑的形状。它不是古代施工现场，也不能单独证明圆锥塔的用途或远方物品的贸易来源。",
         "audio": {
+          "lead": {
+            "id": "quest-16c7458072591d1a",
+            "text": "照片里，一层层石块连成弯曲的石墙，里面还有上小下大的圆锥塔。我们可以指出它们的形状；圆锥塔究竟做什么，不能只看这张照片就猜定。哪里是一层层石块连起的石墙？"
+          },
           "transition": {
-            "id": "quest-d4c11419e03a18fd",
-            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+            "id": "quest-16c5687578dd876c",
+            "text": "一块块石头组成什么。"
           },
           "intro": {
-            "id": "quest-cd102b32308ad6da",
-            "text": "接着看石匠、商人和道路维护者怎样协作。"
-          },
-          "image": {
-            "id": "quest-b32a31652f1d4a83",
-            "text": "点开大图啦。这是布鲁克林博物馆约1400—1532年印加结绳36.718。这张图能帮我们找到：接着看石匠、商人和道路维护者怎样协作。"
+            "id": "quest-7935bff1230a9284",
+            "text": "照片里，一层层石块连成弯曲的石墙，里面还有上小下大的圆锥塔。我们可以指出它们的形状；圆锥塔究竟做什么，不能只看这张照片就猜定。"
           },
           "question": {
-            "id": "quest-329a69e64424a884",
-            "text": "故事里的人来到这里以后，做了什么？"
+            "id": "quest-e752ed8d38796c23",
+            "text": "哪里是一层层石块连起的石墙？"
+          },
+          "image": {
+            "id": "quest-62ace5d3aef8ecbb",
+            "text": "这张是大津巴布韦大围场圆锥塔2019年实拍。照片里，一层层石块连成弯曲的石墙，里面还有上小下大的圆锥塔。我们可以指出它们的形状；圆锥塔究竟做什么，不能只看这张照片就猜定。"
           },
           "right": {
-            "id": "quest-d7d6754891bc9f0f",
-            "text": "答对啦！人物、地点和行动连起来了。"
+            "id": "quest-10741d3b12619f72",
+            "text": "墙和塔都能观察；用途还需要更多研究。"
           },
           "wrong": {
-            "id": "quest-66c837d18451416f",
-            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+            "id": "quest-fe96e3f576365cd4",
+            "text": "先找横向延伸的石墙。"
           }
         },
-        "options": [
-          {
-            "id": "world-ancient-02-05-africa-americas-journey-1",
-            "label": "东非、廷巴克图、中美洲与，只说了地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-068de9f34937f036",
-              "text": "东非、廷巴克图、中美洲与，只说了地点"
-            }
-          },
-          {
-            "id": "world-ancient-02-05-africa-americas-journey-2",
-            "label": "石匠、商人、抄写员、农人和道，只认出人物",
-            "correct": false,
-            "audio": {
-              "id": "quest-a397f282d3a88a93",
-              "text": "石匠、商人、抄写员、农人和道，只认出人物"
-            }
-          },
-          {
-            "id": "world-ancient-02-05-africa-americas-journey-3",
-            "label": "接着看石匠、商人和道路维护者怎样协作。",
-            "correct": true,
-            "audio": {
-              "id": "quest-cd102b32308ad6da",
-              "text": "接着看石匠、商人和道路维护者怎样协作。"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "第三拍 · 看见变化",
-        "title": "各有自己的办法",
-        "prompt": "前面的行动带来了什么变化？",
-        "rightNote": "最后不同地区用自己的环境与知识建城通路。",
-        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "phase": "石城也与远方相连",
+        "title": "石城也与远方相连",
+        "prompt": "研究物品交流，先看哪组材料？",
+        "rightNote": "要研究陶瓷等物品，结合出土位置与来源判断。",
+        "wrongNote": "石墙帮助认识建筑；物品交流要看相应材料。",
+        "sourceIds": [
+          "UNESCO-GREAT-ZIMBABWE"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听故事，再从画面里找线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "石城也与远方相连",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "要研究陶瓷等物品，结合出土位置与来源判断。",
+          "retry": "石墙帮助认识建筑；物品交流要看相应材料。",
+          "nextLabel": "回到当地人的建筑"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "各有自己的办法",
-          "screenText": "最后不同地区用自己的环境与知识建城通路。",
-          "narration": "最后不同地区用自己的环境与知识建城通路。",
-          "displayText": "最后不同地区用自己的环境与知识建城通路。"
+          "title": "石城也与远方相连",
+          "screenText": "考古人在遗址发现了来自远方的瓷器等物品，说明这里参与贸易。教学图里，讲解员用陶片和珠子演示怎样观察；它们不是真实出土件的画像。",
+          "displayText": "考古人在遗址发现了来自远方的瓷器等物品，说明这里参与贸易。教学图里，讲解员用陶片和珠子演示怎样观察；它们不是真实出土件的画像。",
+          "narration": "考古人在遗址发现了来自远方的瓷器等物品，说明这里参与贸易。教学图里，讲解员用陶片和珠子演示怎样观察；它们不是真实出土件的画像。"
         },
-        "assetId": "codex-mendoza-folio-2r-c1542-public-domain",
-        "image": "/content/step-images/codex-mendoza-folio-2r-c1542-public-domain.jpg",
-        "imageAlt": "约1542年《门多萨手抄本》特诺奇蒂特兰建城与贡赋图页",
-        "imageCaption": "约1542年《门多萨手抄本》第2页正面，以图像和西班牙语注释整理特诺奇蒂特兰建城传统及早期统治信息。",
-        "imageBoundary": "保留736×1077像素原图，未放大、未裁切。手抄本在1521年西班牙征服以后编成，不是1325年现场图，也不是无立场的摄影记录；儿童页明确区分传统叙事、后世编写和考古证据。",
+        "assetId": "zimbabwe-stone-story-v1",
+        "image": "/content/step-images/zimbabwe-stone-story-v1.jpg",
+        "studyImage": "/content/study-scenes/study-2bbc7858b8cd754e.svg",
+        "studyImageAlt": "石城也与远方相连",
+        "imageAlt": "大津巴布韦的石墙与远方物品教学插画",
+        "imageCaption": "大津巴布韦的石墙与远方物品教学插画",
+        "imageBoundary": "石城模型、讲解员、陶片和珠子均为现代教学新画，不是遗址测绘复原、指定文物照片或特定古代贸易场景。真照片可看干砌石建筑；远方物品的发现及来源依赖考古研究，不能由生成陶片的花纹判产地。圆锥塔的用途仍有讨论，不说成已确定的粮仓。原非洲与美洲研究保留；本轮只开放南部非洲石城主线，不将两洲当成一种文明。",
         "audio": {
+          "lead": {
+            "id": "quest-97259329eff49055",
+            "text": "考古人在遗址发现了来自远方的瓷器等物品，说明这里参与贸易。教学图里，讲解员用陶片和珠子演示怎样观察；它们不是真实出土件的画像。研究物品交流，先看哪组材料？"
+          },
           "transition": {
-            "id": "quest-ca472709af5bb16a",
-            "text": "行动发生了。再看看它带来了什么变化。"
+            "id": "quest-416be14f773c9cbe",
+            "text": "石城也与远方相连。"
           },
           "intro": {
-            "id": "quest-c242a1638767927d",
-            "text": "最后不同地区用自己的环境与知识建城通路。"
-          },
-          "image": {
-            "id": "quest-8c84be3ced340cc1",
-            "text": "点开大图啦。这是约1542年《门多萨手抄本》特诺奇蒂特兰建城与贡赋图页。这张图能帮我们找到：最后不同地区用自己的环境与知识建城通路。"
+            "id": "quest-e1fba8929df857a4",
+            "text": "考古人在遗址发现了来自远方的瓷器等物品，说明这里参与贸易。教学图里，讲解员用陶片和珠子演示怎样观察；它们不是真实出土件的画像。"
           },
           "question": {
-            "id": "quest-2f86a3a6bc009210",
-            "text": "前面的行动带来了什么变化？"
+            "id": "quest-a13145525c72a6fc",
+            "text": "研究物品交流，先看哪组材料？"
+          },
+          "image": {
+            "id": "quest-a20f5bd0abc88f88",
+            "text": "这张是大津巴布韦的石墙与远方物品教学插画。考古人在遗址发现了来自远方的瓷器等物品，说明这里参与贸易。教学图里，讲解员用陶片和珠子演示怎样观察；它们不是真实出土件的画像。"
           },
           "right": {
-            "id": "quest-53f7633e99fda023",
-            "text": "答对啦！你找到了前因带来的变化。"
+            "id": "quest-e46b7804176694a3",
+            "text": "要研究陶瓷等物品，结合出土位置与来源判断。"
           },
           "wrong": {
-            "id": "quest-631e3024b71736c9",
-            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+            "id": "quest-5107a768d0098595",
+            "text": "石墙帮助认识建筑；物品交流要看相应材料。"
           }
         },
         "options": [
           {
             "id": "world-ancient-02-05-africa-americas-change-1",
-            "label": "大津巴布韦石墙、廷巴克，还只是故事起点",
-            "correct": false,
+            "label": "讲解员桌上的物品",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "zimbabwe-stone-story-v1",
+              "crop": {
+                "x": 786,
+                "y": 550,
+                "width": 750,
+                "height": 450,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/zimbabwe-stone-story-v1.jpg",
+              "imageAlt": "讲解员桌上的物品",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-ced9970a65338428.svg",
+            "imageAlt": "讲解员桌上的物品",
             "audio": {
-              "id": "quest-d8d8ad14f4c6ba67",
-              "text": "大津巴布韦石墙、廷巴克，还只是故事起点"
+              "id": "quest-d7053025fa528180",
+              "text": "讲解员桌上的物品"
             }
           },
           {
             "id": "world-ancient-02-05-africa-americas-change-2",
-            "label": "最后不同地区用自己的环境与知识建城通路。",
-            "correct": true,
-            "audio": {
-              "id": "quest-c242a1638767927d",
-              "text": "最后不同地区用自己的环境与知识建城通路。"
-            }
-          },
-          {
-            "id": "world-ancient-02-05-africa-americas-change-3",
-            "label": "看石匠、商人和道路维护者怎，还只是行动经过",
+            "label": "当地居民的石城模型",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "zimbabwe-stone-story-v1",
+              "crop": {
+                "x": 0,
+                "y": 250,
+                "width": 750,
+                "height": 450,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/zimbabwe-stone-story-v1.jpg",
+              "imageAlt": "当地居民的石城模型",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-6c2c287fa0385a30.svg",
+            "imageAlt": "当地居民的石城模型",
             "audio": {
-              "id": "quest-b298d26e3293a602",
-              "text": "看石匠、商人和道路维护者怎，还只是行动经过"
+              "id": "quest-8121786d35326cc3",
+              "text": "当地居民的石城模型"
             }
           }
         ]
       },
       {
         "id": "takeaway",
-        "questionKind": "reason-result",
+        "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "把线索连成答案",
-        "title": "把三条线索连成答案",
-        "prompt": "哪句话同时说清了原因和结果？",
-        "rightNote": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。",
-        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
-        "story": {
-          "screenNumber": 6,
-          "title": "把三条线索连成答案",
-          "screenText": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。",
-          "narration": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。",
-          "displayText": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。"
+        "phase": "远方物品没有替人建城",
+        "title": "远方物品没有替人建城",
+        "prompt": "哪一边帮助介绍当地的建城本领？",
+        "rightNote": "石城模型帮助看建筑；修建者是当地居民。",
+        "wrongNote": "物品可以来自远方，不能据此说城是外来人建的。",
+        "sourceIds": [
+          "UNESCO-GREAT-ZIMBABWE"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "听故事，再从画面里找线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
         },
-        "assetId": "kilwa-kisiwani-arches-2009-cc-by-sa-igo",
-        "image": "/content/step-images/kilwa-kisiwani-arches-2009-cc-by-sa-igo.jpg",
-        "imageAlt": "基尔瓦基斯瓦尼遗址拱券空间2009年实拍",
-        "imageCaption": "2009年拍摄的基尔瓦基斯瓦尼珊瑚石与石灰建筑遗址；城市在13—14世纪成为斯瓦希里海岸重要贸易节点。",
-        "imageBoundary": "Commons原图3008×2000像素，等比缩至2200×1462像素，未裁切；拍摄于2009-03-15。遗址图不还原屋顶、颜色、居民身份或市场货物，也不把斯瓦希里城市写成阿拉伯人的海外殖民地。",
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "远方物品没有替人建城",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "石城模型帮助看建筑；修建者是当地居民。",
+          "retry": "物品可以来自远方，不能据此说城是外来人建的。",
+          "nextLabel": "带着发现回家"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "远方物品没有替人建城",
+          "screenText": "远方来的物品是交流线索，石墙却是当地人的建筑劳动。小伙伴要介绍绍纳人祖先建城的本领，应先指哪一边，再说石块怎样叠起来？",
+          "displayText": "远方来的物品是交流线索，石墙却是当地人的建筑劳动。小伙伴要介绍绍纳人祖先建城的本领，应先指哪一边，再说石块怎样叠起来？",
+          "narration": "远方来的物品是交流线索，石墙却是当地人的建筑劳动。小伙伴要介绍绍纳人祖先建城的本领，应先指哪一边，再说石块怎样叠起来？"
+        },
+        "assetId": "zimbabwe-stone-story-v1",
+        "image": "/content/step-images/zimbabwe-stone-story-v1.jpg",
+        "studyImage": "/content/study-scenes/study-4214729ecebeec9b.svg",
+        "studyImageAlt": "远方物品没有替人建城",
+        "imageAlt": "大津巴布韦的石墙与远方物品教学插画",
+        "imageCaption": "大津巴布韦的石墙与远方物品教学插画",
+        "imageBoundary": "石城模型、讲解员、陶片和珠子均为现代教学新画，不是遗址测绘复原、指定文物照片或特定古代贸易场景。真照片可看干砌石建筑；远方物品的发现及来源依赖考古研究，不能由生成陶片的花纹判产地。圆锥塔的用途仍有讨论，不说成已确定的粮仓。原非洲与美洲研究保留；本轮只开放南部非洲石城主线，不将两洲当成一种文明。",
         "audio": {
+          "lead": {
+            "id": "quest-c7d2add0906c7a1b",
+            "text": "远方来的物品是交流线索，石墙却是当地人的建筑劳动。小伙伴要介绍绍纳人祖先建城的本领，应先指哪一边，再说石块怎样叠起来？哪一边帮助介绍当地的建城本领？"
+          },
           "transition": {
-            "id": "quest-a7cb01ad27c42767",
-            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+            "id": "quest-ab16d51cd49641aa",
+            "text": "远方物品没有替人建城。"
           },
           "intro": {
-            "id": "quest-f3199f32dffbf2f3",
-            "text": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。"
-          },
-          "image": {
-            "id": "quest-a5260f3aaa93f3ec",
-            "text": "点开大图啦。这是基尔瓦基斯瓦尼遗址拱券空间2009年实拍。这张图能帮我们找到：非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。"
+            "id": "quest-62af046fe860bdf3",
+            "text": "远方来的物品是交流线索，石墙却是当地人的建筑劳动。小伙伴要介绍绍纳人祖先建城的本领，应先指哪一边，再说石块怎样叠起来？"
           },
           "question": {
-            "id": "quest-1626b51c966f57f7",
-            "text": "哪句话同时说清了原因和结果？"
+            "id": "quest-edc727ec4c72330e",
+            "text": "哪一边帮助介绍当地的建城本领？"
+          },
+          "image": {
+            "id": "quest-c49c27ee9fe96656",
+            "text": "这张是大津巴布韦的石墙与远方物品教学插画。远方来的物品是交流线索，石墙却是当地人的建筑劳动。小伙伴要介绍绍纳人祖先建城的本领，应先指哪一边，再说石块怎样叠起来？"
           },
           "right": {
-            "id": "quest-7efb4ef63956e209",
-            "text": "答对啦！原因和结果都说清楚了。"
+            "id": "quest-62078a345d91f71a",
+            "text": "石城模型帮助看建筑；修建者是当地居民。"
           },
           "wrong": {
-            "id": "quest-0cee35f61bffd03b",
-            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+            "id": "quest-4681bedc3b448c68",
+            "text": "物品可以来自远方，不能据此说城是外来人建的。"
           }
         },
         "options": [
           {
             "id": "world-ancient-02-05-africa-americas-takeaway-1",
-            "label": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。",
+            "label": "连成院落的石城模型",
             "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "zimbabwe-stone-story-v1",
+              "crop": {
+                "x": 0,
+                "y": 250,
+                "width": 750,
+                "height": 450,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/zimbabwe-stone-story-v1.jpg",
+              "imageAlt": "连成院落的石城模型",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-ec30edb5264a8ce2.svg",
+            "imageAlt": "连成院落的石城模型",
             "audio": {
-              "id": "quest-f3199f32dffbf2f3",
-              "text": "非洲与美洲各地用自己的环境和知识建城通路，不需要同一个起点。"
+              "id": "quest-98ad441dda6fb489",
+              "text": "连成院落的石城模型"
             }
           },
           {
             "id": "world-ancient-02-05-africa-americas-takeaway-2",
-            "label": "分别走进石头城、湖上城和安第斯山路。、大津巴布，只说了原因",
+            "label": "桌上供观察的小物品",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "zimbabwe-stone-story-v1",
+              "crop": {
+                "x": 786,
+                "y": 550,
+                "width": 750,
+                "height": 450,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/zimbabwe-stone-story-v1.jpg",
+              "imageAlt": "桌上供观察的小物品",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-736a111889806811.svg",
+            "imageAlt": "桌上供观察的小物品",
             "audio": {
-              "id": "quest-7ee1701a8a5105fa",
-              "text": "分别走进石头城、湖上城和安第斯山路。、大津巴布，只说了原因"
-            }
-          },
-          {
-            "id": "world-ancient-02-05-africa-americas-takeaway-3",
-            "label": "不同地区用自己的环境与知识建城通路。、石头城、湖上，只说了结果",
-            "correct": false,
-            "audio": {
-              "id": "quest-16333a87a6ac1b91",
-              "text": "不同地区用自己的环境与知识建城通路。、石头城、湖上，只说了结果"
+              "id": "quest-528bf0a0e6dfc31e",
+              "text": "桌上供观察的小物品"
             }
           }
         ]
@@ -1266,9 +1707,172 @@
       "authorityLevel": "A-primary-rights",
       "factUse": "数字化马里手稿的权利说明、已知限制和署名建议",
       "imageUse": "free-use-per-institutional-rights-statement"
+    },
+    {
+      "id": "MET-MEDIEVAL-BOOK-MAKING",
+      "title": "The Art of the Book in the Middle Ages",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-book-in-the-middle-ages",
+      "type": "museum-book-history-overview",
+      "authorityLevel": "A-museum",
+      "factUse": "中世纪书籍需要羊皮纸准备、按本抄写、装饰与装订劳动；手稿的保存、大学读书需求与传承；不把欧洲情况推广为全球没有印刷",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "SMB-MIN1233-LECTURE",
+      "title": "Aristoteles hält eine Vorlesung vor Studenten（Min 1233）",
+      "institution": "Staatliche Museen zu Berlin, Kupferstichkabinett",
+      "url": "https://id.smb.museum/object/954320",
+      "type": "museum-object-record",
+      "authorityLevel": "A-museum",
+      "factUse": "Laurentius de Voltolina，14世纪后半叶，羊皮纸绘画；画作主题为亚里士多德讲课，不是其真实肖像或中世纪课堂实录",
+      "imageUse": "public-domain-object-metadata"
     }
   ],
   "assets": [
+    {
+      "id": "study-72f1fa67104a66d6",
+      "title": "学习示意：拍照片的年份",
+      "localPath": "reference-assets/focused-quests/study-72f1fa67104a66d6.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "拍照片的年份",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-4e102dccadb504bb",
+      "title": "学习示意：来到南部非洲的石城",
+      "localPath": "reference-assets/focused-quests/study-4e102dccadb504bb.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "来到南部非洲的石城",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-01f4cdc2c2aefb14",
+      "title": "学习示意：约九百年前的南部非洲",
+      "localPath": "reference-assets/focused-quests/study-01f4cdc2c2aefb14.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "约九百年前的南部非洲",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d56fea09e41dfb4b",
+      "title": "学习示意：石墙里面，也有人生活",
+      "localPath": "reference-assets/focused-quests/study-d56fea09e41dfb4b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "石墙里面，也有人生活",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-9e4e60e8fe430a6c",
+      "title": "学习示意：一块块石头组成什么",
+      "localPath": "reference-assets/focused-quests/study-9e4e60e8fe430a6c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "一块块石头组成什么",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-2bbc7858b8cd754e",
+      "title": "学习示意：石城也与远方相连",
+      "localPath": "reference-assets/focused-quests/study-2bbc7858b8cd754e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "石城也与远方相连",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-ced9970a65338428",
+      "title": "学习示意：讲解员桌上的物品",
+      "localPath": "reference-assets/focused-quests/study-ced9970a65338428.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "讲解员桌上的物品",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-6c2c287fa0385a30",
+      "title": "学习示意：当地居民的石城模型",
+      "localPath": "reference-assets/focused-quests/study-6c2c287fa0385a30.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "当地居民的石城模型",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-4214729ecebeec9b",
+      "title": "学习示意：远方物品没有替人建城",
+      "localPath": "reference-assets/focused-quests/study-4214729ecebeec9b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "远方物品没有替人建城",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-ec30edb5264a8ce2",
+      "title": "学习示意：连成院落的石城模型",
+      "localPath": "reference-assets/focused-quests/study-ec30edb5264a8ce2.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "连成院落的石城模型",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-736a111889806811",
+      "title": "学习示意：桌上供观察的小物品",
+      "localPath": "reference-assets/focused-quests/study-736a111889806811.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "桌上供观察的小物品",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "great-zimbabwe-conical-tower-2019-cc-by-sa",
       "title": "大津巴布韦大围场圆锥塔2019年实拍",
@@ -1279,7 +1883,7 @@
       "license": "CC BY-SA 2.0",
       "clearance": "cleared-open-license",
       "caption": "2019年拍摄的大津巴布韦大围场干砌石墙与圆锥塔；建筑群主要在约1100—1450年间发展。",
-      "boundary": "Commons原图5472×1835像素，等比缩至2200×737像素，未裁切；拍摄于2019-03-26。照片支持现存干砌石建筑的尺度与形式，不是12世纪施工现场，也不能单独证明建筑的全部用途。",
+      "boundary": "2019年拍摄的现代遗址照片，支持观察现存干砌石建筑的形状。它不是古代施工现场，也不能单独证明圆锥塔的用途或远方物品的贸易来源。",
       "childVisibility": "child-ok"
     },
     {
@@ -1359,6 +1963,20 @@
       "caption": "约1400—1532年的棉与骆马科纤维结绳，布鲁克林博物馆编号36.718；结、位置和绳的差异可记录信息。",
       "boundary": "保留1536×1152像素原图，未裁切。馆方将其列为可能的叙事型结绳，出土于安孔墓葬的说法带‘据传’边界；不把每根绳翻译成未经证实的人名、命令或故事。",
       "childVisibility": "child-ok"
+    },
+    {
+      "id": "zimbabwe-stone-story-v1",
+      "title": "大津巴布韦的石墙与远方物品教学插画",
+      "localPath": "reference-assets/2026-10-28-world-expansion/zimbabwe-stone-story-v1.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/2026-10-28-world-expansion/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "教学新画 · 现代学习情境，非历史照片或精确复原",
+      "boundary": "石城模型、讲解员、陶片和珠子均为现代教学新画，不是遗址测绘复原、指定文物照片或特定古代贸易场景。真照片可看干砌石建筑；远方物品的发现及来源依赖考古研究，不能由生成陶片的花纹判产地。圆锥塔的用途仍有讨论，不说成已确定的粮仓。原非洲与美洲研究保留；本轮只开放南部非洲石城主线，不将两洲当成一种文明。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/world-ancient-02-05-africa-americas.jpg",
@@ -1370,5 +1988,5 @@
     "audio": "script-ready",
     "review": "pending"
   },
-  "contentReadiness": "legacy-draft-not-in-preview"
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

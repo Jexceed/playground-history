@@ -1,0 +1,46 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 雅典人为什么建神庙
+					9 content list
+						10 button 第1步：先到两千多年前的雅典，已完成, Help: 先到两千多年前的雅典
+						11 button 第2步：献给雅典娜的神庙，已完成, Help: 献给雅典娜的神庙
+						12 button 第3步：古老建筑和今天的城市，已完成, Help: 古老建筑和今天的城市
+						13 button 第4步：给新来的伙伴介绍神庙, Help: 给新来的伙伴介绍神庙
+						14 button 第5步：建筑不能只按大小来猜, Help: 建筑不能只按大小来猜
+					15 text 第3步
+				16 button 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 古代文明  ·  古老建筑和今天的城市
+				19 image 雅典卫城与帕特农神庙2015年实拍
+				20 container 观察材料并选择对应对象
+					21 toggle button (disabled) 选择山上的帕特农神庙, Value: off
+					22 toggle button (disabled) 选择山下的现代房屋, Value: on
+				23 text 实物照片
+				24 button 雅典卫城与帕特农神庙 真实材料 · 点开看一看 看真实材料，听说明
+				25 text 小伙伴
+				26 heading 这些房屋属于后来的城市环境。, Value: 1
+					27 text 这些房屋属于后来的城市环境。
+				28 button 再听这句回应
+				29 text 找一找 ·  2 / 2 找到了
+				30 button 回到模型找用途
+				31 button 👪 家长入口 · 59章材料与说明
+	32 close button
+	33 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	34 minimize button
+	35 text 小小历史旅行团
+36 menu bar
+	37 小小历史旅行团
+	38 File
+	39 Edit
+	40 View
+	41 Window
+	42 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

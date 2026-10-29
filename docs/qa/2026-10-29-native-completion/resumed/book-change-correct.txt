@@ -1,0 +1,45 @@
+Window: "小小历史旅行团", App: 小小历史旅行团.
+0 standard window 小小历史旅行团, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: 小小历史旅行团, URL: tauri://localhost
+			3 container
+				4 text 小小历史旅行团
+				5 text 适合4—6岁 · 亲子共学
+				6 button 回到时间河
+				7 container 故事阶段，可自由选择
+					8 text 手写书怎样传下知识
+					9 content list
+						10 button 第1步：一本六百多年前的书，已完成, Help: 一本六百多年前的书
+						11 button 第2步：每一本都需要人的手，已完成, Help: 每一本都需要人的手
+						12 button 第3步：书里的画，也在讲读书，已完成, Help: 书里的画，也在讲读书
+						13 button 第4步：先让另一本也有这些文字，已完成, Help: 先让另一本也有这些文字
+						14 button 第5步：书页怎样变成能翻阅的书, Help: 书页怎样变成能翻阅的书
+					15 text 第4步
+				16 button 暂停声音
+				17 toggle button 声音已开启，点按静音, Help: 静音, Value: on
+				18 text 中古世界  ·  先让另一本也有这些文字
+				19 image 照着原书抄写
+				20 text 故事插画 小伙伴
+				21 heading 照着原书抄写，另一份书页才有这些文字。, Value: 1
+					22 text 照着原书抄写，另一份书页才有这些文字。
+				23 button 再听这句回应
+				24 container 谁正在抄写原书的文字？
+					25 toggle button (disabled) 选择用针线连起书页, Value: off
+					26 button 听用针线连起书页
+					27 toggle button (disabled) 选择照着原书抄写, Value: on
+					28 button 听照着原书抄写
+				29 button 书页还需要什么帮助
+				30 button 👪 家长入口 · 59章材料与说明
+	31 close button
+	32 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	33 minimize button
+	34 text 小小历史旅行团
+35 menu bar
+	36 小小历史旅行团
+	37 File
+	38 Edit
+	39 View
+	40 Window
+	41 Help
+
+The focused UI element is 2 HTML content Description: 小小历史旅行团, URL: tauri://localhost

@@ -40,7 +40,8 @@ test('five new chapters keep real evidence, distinctive history and the shared f
   assert.match(migration.steps[1].audio.intro.text,/同时存在.*短暂统一.*并立/);
   assert.match(migration.steps[1].audio.intro.text,/分批.*当地原有/);
   assert.match(jiangnan.coverAudio.text,/人做哪些事/);
-  assert.match(jiangnan.steps[1].audio.intro.text,/劳动力.*修渠种田.*选料制瓷/);
+  assert.match(jiangnan.steps[1].audio.intro.text,/原有居民.*迁来的人.*劳动/);
+  assert.match(jiangnan.steps[1].audio.intro.text,/水田.*修渠.*瓷土.*泥坯.*施釉.*烧制/);
   assert.match(wei.steps[1].audio.intro.text,/加强统治.*语言|加强统治.*汉语/);
   assert.match(wei.finish.introAudio.text,/长期.*互相影响/);
   assert.equal(math.steps[2].interaction.kind,'circle-refine');

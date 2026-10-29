@@ -1,24 +1,45 @@
-import {BRIDGE_OPENINGS,bridgeWaterSnapshot,weavingCrossings} from './history-lab-model';
+import {BRIDGE_ART,BRIDGE_OPENINGS,bridgeWaterSnapshot,weavingCrossings} from './history-lab-model';
 import {LabPaints,LabBackdrop,useLabPaints} from './LabIllustration';
 
+const BRIDGE_IMAGE='/images/history-labs/zhaozhou-bridge-study-v2.png';
 export function BridgeWaterDiagram({stage}:{stage:number}){
- const s=bridgeWaterSnapshot(stage),p=useLabPaints(),clipId=`${p.id}-openings`;
- return <svg className="history-lab-diagram" viewBox="0 0 540 320" role="img" aria-label={stage===0?'低水位，水从中央大拱下流过':'高水位，水也能从两侧小拱流过'}>
-  <LabPaints id={p.id}/><defs><clipPath id={clipId}>{BRIDGE_OPENINGS.map(o=><path key={o.id} d={`M${o.x} ${o.y+o.height}V${o.y+o.width/2}a${o.width/2} ${o.width/2} 0 0 1 ${o.width} 0V${o.y+o.height}Z`}/>)}</clipPath></defs>
-  <LabBackdrop id={p.id} cool/>
-  <path d="M0 132Q31 114 69 138L130 107 187 135 275 98 365 123 437 99 540 138V263H0Z" fill="#afc9ad" opacity=".35"/>
-  <rect className="water-surface" y={s.waterY} width="540" height={293-s.waterY} fill={p.paint('water')}/>
-  <path d="M40 245V150Q270 44 500 150V245Z" fill={p.paint('stone')} stroke="#948975" strokeWidth="2" filter={p.paint('shadow')}/>
-  <g stroke="#ae9e81" fill="none" strokeWidth="1.3" opacity=".7"><path d="M41 173H499M41 207H179M361 207H499M67 229V245M103 209V239M399 209V241M468 209V242M184 109V133M247 94V134M315 101V133M365 117V143"/></g>
-  {BRIDGE_OPENINGS.map(o=><g key={o.id}><path d={`M${o.x} ${o.y+o.height}V${o.y+o.width/2}a${o.width/2} ${o.width/2} 0 0 1 ${o.width} 0V${o.y+o.height}Z`} fill="#dbe9d9" stroke="#948a78" strokeWidth="3" data-opening-id={o.id}/><path d={`M${o.x-4} ${o.y+o.height-3}V${o.y+o.width/2}a${o.width/2+4} ${o.width/2+4} 0 0 1 ${o.width+8} 0V${o.y+o.height-3}`} fill="none" stroke="#f7ead2" strokeWidth="3"/></g>)}
-  <g clipPath={`url(#${clipId})`}><rect className="water-surface" y={s.waterY} width="540" height={293-s.waterY} fill={p.paint('water')}/>{s.showPaths&&BRIDGE_OPENINGS.map(o=><path key={o.id} d={`M${o.x+8} ${Math.max(s.waterY+9,o.y+o.height-15)}q${(o.width-16)/4} -5 ${(o.width-16)/2} 0t${(o.width-16)/2} 0`} stroke="#e1fff4" strokeWidth="3" fill="none"/>)}</g>
-  <path d="M38 147Q270 35 502 147" fill="none" stroke="#b0a183" strokeWidth="10"/><path d="M38 141Q270 29 502 141" fill="none" stroke="#eee1bf" strokeWidth="5"/>
-  {[65,102,141,181,221,262,302,342,382,422,462].map(x=>{const t=(x-38)/464,y=141-224*t*(1-t);return <g key={x}><path d={`M${x} ${y}v-14`} stroke="#bcad91" strokeWidth="4"/><circle cx={x} cy={y-15} r="3.5" fill="#e9dbba"/></g>;})}
-  <g transform="translate(252 82)"><circle cx="-15" cy="0" r="5" fill="#73543c"/><circle cx="14" cy="0" r="5" fill="#73543c"/><path d="M-22-16H21L16-3H-17Z" fill="#bb8150" stroke="#8e603c" strokeWidth="1.5"/><path d="M-19-14H18" stroke="#efd29b" strokeWidth="2"/></g>
-  <path d="M3 252q24-14 49 0v28H0M488 252q25-14 52-2v28h-52" fill="#a7bc88"/>
-  <g stroke="#d5f0e3" strokeWidth="2" opacity=".8" fill="none"><path d="M99 272q21-5 42 0m57-11q21-5 42 0m79 11q25-5 50 0m33-8q17-5 34 0"/></g>
+ const s=bridgeWaterSnapshot(stage),p=useLabPaints(),scale=BRIDGE_ART.width/BRIDGE_ART.sourceWidth;
+ const waterY=BRIDGE_ART.y+s.waterY*scale,clipId=`${p.id}-bridge-openings`;
+ return <svg className="history-lab-diagram bridge-water-diagram" viewBox="0 0 540 320" role="img" aria-label={stage===0?'低水位，水从中央大拱下流过':'高水位，水也能从两侧小拱流过'}>
+  <LabPaints id={p.id}/>
+  <defs>
+   <linearGradient id={`${p.id}-river`} x2="0" y2="1"><stop stopColor="#a9d8d4"/><stop offset=".55" stopColor="#76b6b2"/><stop offset="1" stopColor="#528f91"/></linearGradient>
+   <linearGradient id={`${p.id}-submerged`} x2="0" y2="1"><stop stopColor="#91cac7" stopOpacity=".12"/><stop offset="1" stopColor="#528f91" stopOpacity=".6"/></linearGradient>
+   <clipPath id={`${p.id}-scene`}><rect width="540" height="320" rx="22"/></clipPath>
+   <clipPath id={clipId}>{BRIDGE_OPENINGS.map(o=><path key={o.id} d={o.path}/>)}</clipPath>
+  </defs>
+  <g clipPath={`url(#${p.id}-scene)`}>
+   <LabBackdrop id={p.id} cool/>
+   <path d="M0 127Q47 98 101 120T218 115Q281 93 337 115T457 108Q505 104 540 116V226H0Z" fill="#cadaca"/>
+   <path d="M0 164Q52 133 105 158T231 152Q318 137 398 153T540 143V239H0Z" fill="#b1cbb9" opacity=".65"/>
+   <g fill="#8aaa91" opacity=".45"><path d="M0 164Q-3 135 20 130Q8 108 28 104Q49 91 57 120Q81 116 75 142Q92 157 70 173Z"/><path d="M465 163Q455 140 474 133Q467 114 488 109Q511 102 518 125Q541 123 540 153V183Z"/></g>
+   <path d="M0 207Q53 191 112 210Q162 216 192 231L101 270H0ZM540 204Q488 190 431 214L374 238 453 271H540Z" fill="#c2c3a1"/>
+   <rect className="bridge-water-level" x="0" y={waterY} width="540" height={320-waterY} fill={p.paint('river')} data-water-y={s.waterY}/>
+   <g stroke="#e2f4e5" strokeWidth="1.5" fill="none" opacity=".55"><path d="M46 266q32-6 63-1m57 16q30-6 59-1m62-18q35-5 71 1m57 14q27-5 54-1M117 303q29-5 58-1m166-7q27-4 50 1"/></g>
+   <g transform={`translate(${BRIDGE_ART.x} ${BRIDGE_ART.y}) scale(${scale})`}>
+    {/* Aperture paths and water thresholds use the same source-image coordinates. */}
+    <g clipPath={`url(#${clipId})`} fill="none" stroke="#edfff4" strokeWidth="7" strokeLinecap="round">
+     {s.showPaths&&BRIDGE_OPENINGS.filter(o=>s.flowing.includes(o.id)).map(o=>{
+      const [cx,y,width]=o.ripple,half=width/2;
+      return <path key={o.id} data-flow-opening={o.id} d={`M${cx-half} ${y}q${half/2} -7 ${half} 0t${half} 0`}/>;
+     })}
+    </g>
+    <image href={BRIDGE_IMAGE} width={BRIDGE_ART.sourceWidth} height={BRIDGE_ART.sourceHeight}/>
+   </g>
+   {/* A light foreground wash shows the submerged masonry without hiding its shape. */}
+   <rect className="bridge-water-level" x="0" y={waterY} width="540" height={320-waterY} fill={p.paint('submerged')} pointerEvents="none"/>
+   <g fill="#9bb08b"><path d="M0 256Q18 239 44 250L73 282Q37 273 0 290Z"/><path d="M540 254Q520 237 495 253L477 285Q512 270 540 291Z"/></g>
+   <g stroke="#6f9277" strokeWidth="1.8" strokeLinecap="round" fill="none"><path d="M18 265l-3-24m4 25 10-21m-9 21-14-13M521 265l6-26m-7 26-10-18m11 19 14-14"/></g>
+   <g fill="#e1d8b6"><ellipse cx="44" cy="273" rx="12" ry="5"/><ellipse cx="504" cy="277" rx="10" ry="4"/></g>
+   <rect x="99" y="287" width="342" height="28" rx="14" fill="#f6faf0" fillOpacity=".9"/>
+   <text x="270" y="306" textAnchor="middle" fill="#4f7568" fontSize="14">桥面通人车，桥洞留水路</text>
+  </g>
   <text x="270" y="31" textAnchor="middle" fill="#315e55" fontSize="19">{stage===0?'水低的时候，先看大拱':'水涨到这里，小拱也能过水'}</text>
-  <text x="270" y="312" textAnchor="middle" fill="#607b68" fontSize="14">桥面通人车，桥洞留水路</text>
  </svg>;
 }
 

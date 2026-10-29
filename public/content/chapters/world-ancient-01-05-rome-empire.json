@@ -8,7 +8,51 @@
     "id": "ancient-civilizations",
     "label": "古代文明",
     "years": "早期人类—约5世纪",
-    "learningContext": null
+    "learningContext": {
+      "childIntro": "到古代南亚看怎样存水，再去埃及、希腊和罗马，看看陵墓、神庙和道路各有什么用途。这些故事发生在不同年代和地方。",
+      "chronology": "本站总目录涵盖早期人类至约5世纪。当前四章分别聚焦朵拉维拉约前3000—前1500年的长期城市生活、胡夫金字塔约前26世纪、帕特农神庙前5世纪，以及阿庇亚大道前312年起的长期建设。各地并非按本站排列顺序相互接替。",
+      "covered": "南亚蓄水与引水关系，古埃及王室陵墓用途与建筑劳动，雅典神庙的宗教用途及现代遗址边界，罗马道路的军事与日常联系。",
+      "scopeBoundary": "各章沿用独立年代；印度、希腊原长稿的制度与社会内容不等于全部已做成儿童关卡。世界古代其余隐藏章仍待逐章重做与终审。",
+      "sourceIds": [
+        "UNESCO-DHOLAVIRA-HARAPPAN-CITY",
+        "UNESCO-MEMPHIS-PYRAMIDS",
+        "UNESCO-ATHENS-ACROPOLIS",
+        "YSMA-PARTHENON-STRUCTURE",
+        "UNESCO-VIA-APPIA"
+      ],
+      "sources": [
+        {
+          "id": "UNESCO-DHOLAVIRA-HARAPPAN-CITY",
+          "title": "Dholavira: a Harappan City",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/1645/"
+        },
+        {
+          "id": "UNESCO-MEMPHIS-PYRAMIDS",
+          "title": "Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/86/"
+        },
+        {
+          "id": "UNESCO-ATHENS-ACROPOLIS",
+          "title": "Acropolis, Athens",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/404/"
+        },
+        {
+          "id": "YSMA-PARTHENON-STRUCTURE",
+          "title": "Parthenon",
+          "institution": "Acropolis Restoration Service（希腊文化部卫城修复局）",
+          "url": "https://www.ysma.gr/en/monuments/parthenon/"
+        },
+        {
+          "id": "UNESCO-VIA-APPIA",
+          "title": "Via Appia. Regina Viarum",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/1708/"
+        }
+      ]
+    }
   },
   "order": 5,
   "title": "罗马怎样从城市变成大帝国",
@@ -16,197 +60,123 @@
   "throughline": "从城市、共和国到元首制与帝国网络，以遗址、道路、金币、军人证书和社会材料认识罗马扩张、统治、公民权变化、奴役代价及长期延续。",
   "childEntry": {
     "id": "world-ancient-01-05-rome-empire",
-    "childTitle": "沿着阿庇亚大道去罗马",
-    "prompt": "道路、城市、法律和军队，怎样把很大的罗马世界连在一起？",
-    "takeaway": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。",
-    "object": "阿庇亚大道、金币与公民权文书",
+    "childTitle": "罗马道路把哪里连起来",
+    "prompt": "一条石路，为什么既走过军队，又运过粮食？小伙伴沿着模型里的路，从村庄看向城镇。",
+    "takeaway": "阿庇亚大道最初有军事战略目的，也逐渐加强城镇、农田与贸易的联系。道路要有人修建和维护，军队、来往的人和物品才能沿路通行。",
+    "object": "阿庇亚大道保存路段",
     "people": [
-      "道路工匠、居民、士兵、官员与被奴役者"
+      "阿庇亚大道",
+      "罗马道路网络"
     ],
-    "place": "罗马城与地中海交通网络",
-    "culture": "拉丁铭文与城市建筑",
-    "care": "不把扩张做成征服积分；传说建城、共和国制度和帝国变化分开。"
+    "place": "欧洲 · 今意大利的罗马与泰拉奇纳",
+    "culture": "古罗马道路的军事用途与日常往来",
+    "care": "阿庇亚大道前312年开始建设，并在此后数百年发展，不能把所有路段、铺面、军装或桥梁都标为前312年。照片是2014年泰拉奇纳保存路段，现代接缝与草不能反推全部古代路况。博物馆模型、道路维修与运粮人物是教学情境，说明移动与连接，不是具体地点、车辆、部队或事件复原；士兵图为罗马时期用路的教学想象，不是前312年施工或行军实景复原；道路也服务扩张与统治，不用征服或人群高低计分。原罗马共和国、帝国、公民权与奴役研究保留在家长长稿。 最初的军事战略目的不排除货物运输；本章不据来源推定运粮只能在后来才出现。",
+    "playableSource": "content/focused-quests.json",
+    "preferredAssetId": "via-appia-terracina-2014-photo"
   },
-  "learningGuide": null,
-  "textbookConnection": null,
+  "learningGuide": {
+    "id": "world-ancient-01-05-rome-empire",
+    "theme": "交通和交流",
+    "learningGoal": "理解道路的重要军事战略目的，以及连接城镇、运输物品等用途。",
+    "parentQuestion": "同一条路，军队和运粮的人分别在做什么？",
+    "observe": "按当前问题区分军事通行与物品运输，不把两类用途划成绝不重叠的年代。",
+    "misconception": "阿庇亚大道前312年开始建设，并在此后数百年发展，不能把所有路段、铺面、军装或桥梁都标为前312年。照片是2014年泰拉奇纳保存路段，现代接缝与草不能反推全部古代路况。博物馆模型、道路维修与运粮人物是教学情境，说明移动与连接，不是具体地点、车辆、部队或事件复原；士兵图为罗马时期用路的教学想象，不是前312年施工或行军实景复原；道路也服务扩张与统治，不用征服或人群高低计分。原罗马共和国、帝国、公民权与奴役研究保留在家长长稿。",
+    "evidenceStepIds": [
+      "time",
+      "beginning",
+      "journey",
+      "change",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "UNESCO-VIA-APPIA"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-06-01-sui-unification-canal",
+        "relation": "比较不同地区和年代的陆路与水路怎样服务统治和运输，不暗示同年发生或一种工程直接启发另一种。"
+      }
+    ],
+    "reviewStatus": "content-quality-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "军队",
+      "统治"
+    ]
+  },
+  "textbookConnection": {
+    "id": "world-ancient-01-05-rome-empire",
+    "featured": {
+      "type": "世界遗产",
+      "icon": "🛤️",
+      "title": "阿庇亚大道与罗马道路网络",
+      "childBridge": "一条石路，为什么既走过军队，又运过粮食？小伙伴沿着模型里的路，从村庄看向城镇。",
+      "evidenceBoundary": "阿庇亚大道前312年开始建设，并在此后数百年发展，不能把所有路段、铺面、军装或桥梁都标为前312年。"
+    },
+    "companions": [
+      {
+        "type": "地方与年代",
+        "label": "意大利 · 古罗马道路",
+        "note": "前312年开始修路，前27年才进入罗马帝国时期；照片展示2014年的保存路段。"
+      },
+      {
+        "type": "历史用途",
+        "label": "军事统治与日常往来",
+        "note": "最初服务军事扩张与统治，后来也连接农业、聚落和贸易；不把征服做成儿童奖励。"
+      },
+      {
+        "type": "教学应用",
+        "label": "修路与运粮",
+        "note": "路坏了先维修，粮备好再运输：这是教学应用，不声称照片记录了某次维修或运输。"
+      },
+      {
+        "type": "材料身份",
+        "label": "保存路段与想象场景",
+        "note": "照片依CC BY-SA 2.0署名；军队、车辆、模型是教学想象，非前312年现场。"
+      }
+    ],
+    "sourceIds": [
+      "UNESCO-VIA-APPIA",
+      "MET-ROMAN-EMPIRE"
+    ]
+  },
   "childStory": [
     {
-      "id": "hook",
-      "icon": "📍",
-      "label": "从一个地方出发",
-      "text": "沿着阿庇亚大道去罗马"
+      "id": "time",
+      "icon": "🕰️",
+      "label": "这条路从古罗马走到今天",
+      "text": "两千多年前，古罗马人开始修阿庇亚大道，后来还不断扩展。这张路面照片拍于2014年，拍摄年份不是道路开始修建的年份。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "沿大道走向罗马",
-      "text": "先沿阿庇亚大道从城外走向罗马。"
+      "label": "军队通行，也是道路的一种用途",
+      "text": "阿庇亚大道最初修建的重要目的，是方便军队移动，帮助罗马向外扩张和统治。道路也能运输粮食、联系城镇。同一条路可以承担不同工作。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "道路和法律连起来",
-      "text": "接着看道路、法律和城市怎样连接地中海各地。"
+      "label": "一块块石头铺成了一段路",
+      "text": "真照片里的这段路，是一块块石头铺成的。先找一块铺路石，再找石头之间的接缝。照片只展示今天保存的一小段路。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "大建筑不是全部",
-      "text": "最后繁荣与不平等同时存在，不能只看宏大建筑。"
+      "label": "让道路继续通向城镇",
+      "text": "模型里有一段路面坏了，车不容易通过。小伙伴想让村庄和城镇继续往来，要先帮助修好路，还是把粮食继续堆在仓里？"
     },
     {
-      "id": "answer-retell",
+      "id": "takeaway",
       "icon": "🗣️",
-      "label": "把故事讲给家人听",
-      "text": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。"
+      "label": "把粮食沿着道路送到城镇",
+      "text": "道路把农田、村庄和城镇连起来。粮食已经准备好，要送到另一座城镇。这次我们看运输用途，跟着粮食找往来的路。"
     }
   ],
   "glossary": [
-    {
-      "term": "法律",
-      "icon": "⚖️",
-      "plain": "由公共权力制定并要求遵守的正式规则。",
-      "example": "古代法律和今天不同，要放回当时社会理解。",
-      "priority": 1
-    },
-    {
-      "term": "公民",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "属于一个国家、依法有权利也有责任的人。",
-      "example": "古代有些地方只让少数人成为公民。",
-      "priority": 1
-    },
-    {
-      "term": "平等",
-      "icon": "⚖️",
-      "plain": "不因出身、性别或身份被规定成高低贵贱。",
-      "example": "说人人平等，要看法律和生活中是否真的做到。",
-      "priority": 1
-    },
-    {
-      "term": "制度",
-      "icon": "📋",
-      "plain": "大家长期照着运行的一整套规则和办法。",
-      "example": "制度不是一句口号，要看谁制定、怎样执行、影响谁。",
-      "priority": 1
-    },
-    {
-      "term": "共和国",
-      "icon": "🏛️",
-      "plain": "国家职位不是由皇位世代传下去的国家形式。",
-      "example": "写下共和国原则，不代表这些原则立刻全部做到。",
-      "priority": 2
-    },
-    {
-      "term": "帝国",
-      "icon": "🗺️",
-      "plain": "由中心统治许多地区和人群的大政权。",
-      "example": "帝国地图会变化，不能把不同时期边界画成一张。",
-      "priority": 3
-    },
     {
       "term": "军队",
       "icon": "🛡️",
       "plain": "由国家或政治力量组织的武装人员。",
       "example": "历史不能只看军队，还要看医护、运输和普通家庭。",
-      "priority": 3
-    },
-    {
-      "term": "交流",
-      "icon": "↔️",
-      "plain": "不同的人把物品、知识或做法带给彼此。",
-      "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
-      "priority": 1
-    },
-    {
-      "term": "贸易",
-      "icon": "🚚",
-      "plain": "不同人或地方交换、买卖物品和服务。",
-      "example": "远方货物常经过许多人接力，不一定一人走完全程。",
-      "priority": 1
-    },
-    {
-      "term": "权利",
-      "icon": "🫶",
-      "plain": "规则承认一个人可以做、可以得到保护的事情。",
-      "example": "写有权利，还要检查妇女、奴隶和穷人是否真的拥有。",
-      "priority": 1
-    },
-    {
-      "term": "文物",
-      "icon": "🏺",
-      "plain": "从过去保存下来、能帮助认识历史的东西。",
-      "example": "文物能告诉我们一些事，也会留下不知道的地方。",
-      "priority": 1
-    },
-    {
-      "term": "遗址",
-      "icon": "🏚️",
-      "plain": "过去的人生活或活动后留下的地方。",
-      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
-      "priority": 1
-    },
-    {
-      "term": "驿站",
-      "icon": "🐎",
-      "plain": "古代按规定接待使者、传递公文并准备交通补给的站点。",
-      "example": "官驿有使用规矩，不能把它当人人可以随便取马的旅馆。",
-      "priority": 1
-    },
-    {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
-      "priority": 1
-    },
-    {
-      "term": "技术",
-      "icon": "⚙️",
-      "plain": "人们解决具体问题时积累的工具和做法。",
-      "example": "技术常由许多人长期改进，不是某天突然出现。",
-      "priority": 2
-    },
-    {
-      "term": "社会",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "许多人一起生活、分工并形成关系的整体。",
-      "example": "社会变化要看不同人受到的影响。",
-      "priority": 2
-    },
-    {
-      "term": "税收",
-      "icon": "🧾",
-      "plain": "公共机构按规则向居民或交易收取的钱和物。",
-      "example": "税收可用于公共事务，也要看负担是否合理。",
-      "priority": 2
-    },
-    {
-      "term": "自由",
-      "icon": "🕊️",
-      "plain": "在不伤害别人并遵守共同规则时作出选择。",
-      "example": "历史文件写下自由，还要看哪些人当时没有得到。",
-      "priority": 2
-    },
-    {
-      "term": "皇帝",
-      "icon": "👑",
-      "plain": "古代君主国家最高统治者的一种称号。",
-      "example": "皇帝会作决定，也依靠官员、军队、工匠和百姓。",
-      "priority": 3
-    },
-    {
-      "term": "建设",
-      "icon": "🏗️",
-      "plain": "把计划变成道路、工厂、学校或新的生活条件。",
-      "example": "建设有成果，也要看成本、困难和谁参与。",
-      "priority": 3
-    },
-    {
-      "term": "联盟",
-      "icon": "🔗",
-      "plain": "不同一方为了共同目标暂时或长期合作。",
-      "example": "联盟成员仍可能有不同想法和利益。",
       "priority": 3
     },
     {
@@ -219,421 +189,901 @@
   ],
   "pronunciations": [
     {
-      "text": "地中海",
-      "reading": "Dìzhōnghǎi",
+      "text": "阿庇亚",
+      "reading": "Ābìyà",
       "kind": "place",
       "chapterIds": [
         "world-ancient-01-05-rome-empire"
       ],
-      "note": "“中”读zhōng。"
+      "note": "道路中文译名；“庇”读bì，不读pì。本轮仍待人工校听。"
     }
   ],
   "gameplay": {
-    "mode": "memory-hook-story-quest-v3",
+    "mode": "authored-picture-quest-v4",
     "status": "playable-core",
     "audioStatus": "local-pre-generated",
     "hook": {
-      "kind": "一个地方",
-      "icon": "📍",
-      "label": "沿着阿庇亚大道去罗马",
-      "question": "道路、城市、法律和军队，怎样把很大的罗马世界连在一起？"
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "罗马道路把哪里连起来",
+      "question": "一条石路，为什么既走过军队，又运过粮食？小伙伴沿着模型里的路，从村庄看向城镇。"
+    },
+    "cta": "沿着石路去发现",
+    "anchor": "阿庇亚大道与罗马道路网络",
+    "boundary": "阿庇亚大道前312年开始建设，并在此后数百年发展，不能把所有路段、铺面、军装或桥梁都标为前312年。照片是2014年泰拉奇纳保存路段，现代接缝与草不能反推全部古代路况。博物馆模型、道路维修与运粮人物是教学情境，说明移动与连接，不是具体地点、车辆、部队或事件复原；士兵图为罗马时期用路的教学想象，不是前312年施工或行军实景复原；道路也服务扩张与统治，不用征服或人群高低计分。原罗马共和国、帝国、公民权与奴役研究保留在家长长稿。 最初的军事战略目的不排除货物运输；本章不据来源推定运粮只能在后来才出现。",
+    "evidence": [
+      {
+        "id": "via-appia-terracina-2014-photo",
+        "title": "泰拉奇纳阿庇亚大道保存路段2014年实拍",
+        "localPath": "reference-assets/world-ancient-rome/via-appia-terracina-2014.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Forum_Aemilianum,_stretch_of_the_Via_Appia,_Tarracina_(Anxur),_Terracina,_Italy_(15224581792).jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 2.0",
+        "clearance": "cleared-open-license",
+        "caption": "2014年拍摄的意大利泰拉奇纳Forum Aemilianum内阿庇亚大道保存路段，可见现存铺路石。",
+        "boundary": "Carole Raddato于2014年6月30日在意大利泰拉奇纳拍摄，依CC BY-SA 2.0署名使用。照片展示阿庇亚大道一段路面的现代保存状态，不是罗马城或古代施工现场；不能代表整条路在各年代的铺面、宽度和保存情况。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/via-appia-terracina-2014-photo.jpg"
+      }
+    ],
+    "photoAlbum": null,
+    "coverAsset": {
+      "id": "via-appia-terracina-2014-photo",
+      "title": "泰拉奇纳阿庇亚大道保存路段2014年实拍",
+      "localPath": "reference-assets/world-ancient-rome/via-appia-terracina-2014.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Forum_Aemilianum,_stretch_of_the_Via_Appia,_Tarracina_(Anxur),_Terracina,_Italy_(15224581792).jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 2.0",
+      "clearance": "cleared-open-license",
+      "caption": "2014年拍摄的意大利泰拉奇纳Forum Aemilianum内阿庇亚大道保存路段，可见现存铺路石。",
+      "boundary": "Carole Raddato于2014年6月30日在意大利泰拉奇纳拍摄，依CC BY-SA 2.0署名使用。照片展示阿庇亚大道一段路面的现代保存状态，不是罗马城或古代施工现场；不能代表整条路在各年代的铺面、宽度和保存情况。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/via-appia-terracina-2014-photo.jpg"
+    },
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "rome-road-museum-v1",
+      "sceneAlt": "三位现代小伙伴观察道路连接农田、桥梁与城镇的教学模型，非古罗马具体路段复原",
+      "title": "罗马道路把哪里连起来",
+      "evidenceTitle": "阿庇亚大道路面 · 2014年照片",
+      "evidenceLine": "真实材料与教学插画各有用途，点开可听年代和说明。",
+      "evidenceNarration": "这是2014年拍摄的意大利泰拉奇纳，一段阿庇亚大道保存的路面。可以观察铺路石和接缝。它不是建路现场，也不能代表整条道路在每个时期的样子。",
+      "guide": "跟小伙伴看材料、听故事，再找出自己的发现。",
+      "alignHint": "",
+      "familyHint": "回看图里的发现，再和家人说一说。",
+      "familyLabel": "和家人再试一次",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "带着发现回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "rome-road-museum-v1",
+        "reunionAlt": "三位现代小伙伴观察道路连接农田、桥梁与城镇的教学模型，非古罗马具体路段复原",
+        "reunionAspectRatio": 1.5,
+        "reunionFit": "contain",
+        "coverCaption": "罗马道路把哪里连起来",
+        "coverNarration": "小伙伴看到一段古罗马石路。阿庇亚大道最初帮助军队移动，服务罗马向外扩张和统治；后来也帮助人们运送粮食、往来城镇。一起看看，一条路怎样连接不同地方。",
+        "closingCaption": "我们带回了一个发现",
+        "closingLine": "罗马道路把哪里连起来",
+        "closingNarration": "阿庇亚大道最初有军事战略目的，也逐渐加强城镇、农田与贸易的联系。道路要有人修建和维护，军队、来往的人和物品才能沿路通行。",
+        "fictionNote": "阿庇亚大道前312年开始建设，并在此后数百年发展，不能把所有路段、铺面、军装或桥梁都标为前312年。照片是2014年泰拉奇纳保存路段，现代接缝与草不能反推全部古代路况。博物馆模型、道路维修与运粮人物是教学情境，说明移动与连接，不是具体地点、车辆、部队或事件复原；士兵图为罗马时期用路的教学想象，不是前312年施工或行军实景复原；道路也服务扩张与统治，不用征服或人群高低计分。原罗马共和国、帝国、公民权与奴役研究保留在家长长稿。 最初的军事战略目的不排除货物运输；本章不据来源推定运粮只能在后来才出现。",
+        "reunionImage": "/content/step-images/rome-road-museum-v1.jpg",
+        "stationLine": "到古代南亚看怎样存水，再去埃及、希腊和罗马，看看陵墓、神庙和道路各有什么用途。这些故事发生在不同年代和地方。",
+        "stationAudio": {
+          "id": "quest-1e5e0c2fbcde8a1e",
+          "text": "到古代南亚看怎样存水，再去埃及、希腊和罗马，看看陵墓、神庙和道路各有什么用途。这些故事发生在不同年代和地方。"
+        },
+        "closingAudio": {
+          "id": "quest-90c9bc8ce72a41e0",
+          "text": "阿庇亚大道最初有军事战略目的，也逐渐加强城镇、农田与贸易的联系。道路要有人修建和维护，军队、来往的人和物品才能沿路通行。"
+        }
+      },
+      "sceneImage": "/content/step-images/rome-road-museum-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-8f2f36057564bafd",
+        "text": "这是2014年拍摄的意大利泰拉奇纳，一段阿庇亚大道保存的路面。可以观察铺路石和接缝。它不是建路现场，也不能代表整条道路在每个时期的样子。"
+      },
+      "guideAudio": {
+        "id": "quest-de7b3b65c32709b3",
+        "text": "跟小伙伴看材料、听故事，再找出自己的发现。"
+      }
+    },
+    "sceneAsset": {
+      "id": "rome-road-museum-v1",
+      "title": "古罗马道路连接教学模型",
+      "localPath": "reference-assets/poetry-world-world/rome-road-museum-v1.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/poetry-world-world/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学情境插画，不是历史现场或文物照片",
+      "boundary": "三位现代儿童观察道路连接农田、桥梁与城镇的虚构模型；不是某一真实路段、城镇、桥梁或前312年开工现场。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/rome-road-museum-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "rome-road-museum-v1",
+        "title": "古罗马道路连接教学模型",
+        "localPath": "reference-assets/poetry-world-world/rome-road-museum-v1.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/poetry-world-world/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学情境插画，不是历史现场或文物照片",
+        "boundary": "三位现代儿童观察道路连接农田、桥梁与城镇的虚构模型；不是某一真实路段、城镇、桥梁或前312年开工现场。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/rome-road-museum-v1.jpg"
+      },
+      {
+        "id": "rome-road-choices-v1",
+        "title": "罗马道路军事移动与日常用途四格情境",
+        "localPath": "reference-assets/poetry-world-world/rome-road-choices-v1.png",
+        "runtimeMaxEdge": 1254,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/poetry-world-world/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+        "clearance": "cleared-project-created",
+        "caption": "现代教学情境插画，不是历史现场或文物照片",
+        "boundary": "军队行进、运粮、维修与储藏是罗马时期用路的教学想象，不是前312年施工或行军实景复原。人物、军装、车辆与建筑不作某时某地的精确考证；维修题是说明连接需要维护的现代教学应用。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/rome-road-choices-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/via-appia-terracina-2014-photo.jpg",
+    "coverImageAlt": "泰拉奇纳阿庇亚大道保存路段2014年实拍",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "阿庇亚大道路面 · 2014年照片",
+      "fit": "contain"
     },
     "coverAudio": {
-      "id": "quest-d3f6f443ca2b5990",
-      "text": "今天从一个地方出发：沿着阿庇亚大道去罗马。我们要去罗马城与地中海交通网络，看看阿庇亚大道、金币与公民权文书怎样把答案一点点带出来。准备好就点开始。"
+      "id": "quest-3fc6ce77bc5c220d",
+      "text": "小伙伴看到一段古罗马石路。阿庇亚大道最初帮助军队移动，服务罗马向外扩张和统治；后来也帮助人们运送粮食、往来城镇。一起看看，一条路怎样连接不同地方。"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-a53c235ad4b12601",
-      "text": "五条线索都找到了，“沿着阿庇亚大道去罗马”的答案是：道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。 你获得了历史证据小侦探勋章。"
+      "id": "quest-90c9bc8ce72a41e0",
+      "text": "阿庇亚大道最初有军事战略目的，也逐渐加强城镇、农田与贸易的联系。道路要有人修建和维护，军队、来往的人和物品才能沿路通行。"
     },
-    "estimatedMinutes": 9,
+    "finish": {
+      "title": "一条路，有不同的用途",
+      "actions": [
+        "用手沿故事模型中的路，从农田指到城门，说说运粮车为什么要走这条路。",
+        "和家人把两本书当作两个地方，用手指画出连接它们的路；说说谁和什么可以沿路往来。"
+      ],
+      "parent": "修路有什么军事目的？人们还用道路做哪些事情？孩子能区分军队移动与运粮，并指一条连接村庄和城镇的路线即可。道路维修题是有明确前提的教学应用，不是照片记录的某次古代修路。 “最初有军事战略目的”不等于早期没有货物运输。第2步按用途辨认军队，第5步辨认运粮；不是把两者划成互不重叠的年代。",
+      "sceneStepIndexes": [
+        1,
+        4
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-2b044df24f70388a",
+          "text": "用手沿故事模型中的路，从农田指到城门，说说运粮车为什么要走这条路。"
+        },
+        {
+          "id": "quest-231fd28236e47081",
+          "text": "和家人把两本书当作两个地方，用手指画出连接它们的路；说说谁和什么可以沿路往来。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-90c9bc8ce72a41e0",
+        "text": "阿庇亚大道最初有军事战略目的，也逐渐加强城镇、农田与贸易的联系。道路要有人修建和维护，军队、来往的人和物品才能沿路通行。"
+      }
+    },
+    "estimatedMinutes": 6,
     "badge": {
-      "icon": "🏅",
-      "label": "历史证据小侦探"
+      "icon": "🌟",
+      "label": "小小观察员"
     },
     "steps": [
       {
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "先找到时间",
-        "title": "先把故事放进时间河",
-        "prompt": "从一个地方出发，先找哪个年代？",
-        "rightNote": "时间找对了，故事有了起点。",
-        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "phase": "这条路从古罗马走到今天",
+        "title": "这条路从古罗马走到今天",
+        "prompt": "阿庇亚大道从什么时候开始修建？",
+        "rightNote": "从古罗马时期开始，后来不断扩展。",
+        "wrongNote": "2014年只是拍这张照片的年份。",
+        "sourceIds": [
+          "UNESCO-VIA-APPIA"
+        ],
+        "interaction": {
+          "kind": "timeline",
+          "hint": "先听故事，再看看图里的线索。"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "这条路从古罗马走到今天",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "从古罗马时期开始，后来不断扩展。",
+          "retry": "2014年只是拍这张照片的年份。",
+          "nextLabel": "军队通行，也是道路的一种用途"
+        },
+        "concepts": null,
+        "inspection": {
+          "id": "via-appia-terracina-2014-photo",
+          "title": "阿庇亚大道路面 · 2014年照片",
+          "localPath": "reference-assets/world-ancient-rome/via-appia-terracina-2014.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Forum_Aemilianum,_stretch_of_the_Via_Appia,_Tarracina_(Anxur),_Terracina,_Italy_(15224581792).jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 2.0",
+          "clearance": "cleared-open-license",
+          "caption": "意大利泰拉奇纳 · 古代道路的现代保存状态",
+          "boundary": "Carole Raddato于2014年6月30日在意大利泰拉奇纳拍摄，依CC BY-SA 2.0署名使用。照片展示阿庇亚大道一段路面的现代保存状态，不是罗马城或古代施工现场；不能代表整条路在各年代的铺面、宽度和保存情况。 2014年拍摄的意大利泰拉奇纳Forum Aemilianum内阿庇亚大道保存路段，可见现存铺路石。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/via-appia-terracina-2014-photo.jpg",
+          "label": "看真照片，听材料说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 290,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "UNESCO阿庇亚道遗产记录",
+              "url": "https://whc.unesco.org/en/list/1708/"
+            },
+            {
+              "title": "Carole Raddato照片及CC BY-SA 2.0许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Forum_Aemilianum,_stretch_of_the_Via_Appia,_Tarracina_(Anxur),_Terracina,_Italy_(15224581792).jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-8f2f36057564bafd",
+            "text": "这是2014年拍摄的意大利泰拉奇纳，一段阿庇亚大道保存的路面。可以观察铺路石和接缝。它不是建路现场，也不能代表整条道路在每个时期的样子。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "先把故事放进时间河",
-          "screenText": "这是古代文明，时间是早期人类—约5世纪。",
-          "narration": "这是古代文明，时间是早期人类—约5世纪。",
-          "displayText": "这是古代文明，时间是早期人类—约5世纪。"
+          "title": "这条路从古罗马走到今天",
+          "screenText": "两千多年前，古罗马人开始修阿庇亚大道，后来还不断扩展。这张路面照片拍于2014年，拍摄年份不是道路开始修建的年份。",
+          "displayText": "两千多年前，古罗马人开始修阿庇亚大道，后来还不断扩展。这张路面照片拍于2014年，拍摄年份不是道路开始修建的年份。",
+          "narration": "两千多年前，古罗马人开始修阿庇亚大道，后来还不断扩展。这张路面照片拍于2014年，拍摄年份不是道路开始修建的年份。"
         },
-        "assetId": "augustus-aureus-met-obverse-image",
-        "image": "/content/step-images/augustus-aureus-met-obverse-image.jpg",
-        "imageAlt": "前20至前19年奥古斯都金币正面",
-        "imageCaption": "前20至前19年的金质奥古斯都金币正面，可见头像、橡叶冠和铭文，现藏大都会艺术博物馆。",
-        "imageBoundary": "The Met开放原图等比缩至2200×1634像素，未裁切。对象编号08.170.118，馆方记录尺寸约1.8×1.9厘米。本地文件只有正面，正文不把对象记录中的背面桂枝、盾牌等说成画面可见；金币是政治传播媒介，不是人物照片。",
+        "assetId": "rome-road-museum-v1",
+        "image": "/content/step-images/rome-road-museum-v1.jpg",
+        "studyImage": "/content/study-scenes/study-b52d4d7d62a9a1f8.svg",
+        "studyImageAlt": "这条路从古罗马走到今天",
+        "imageAlt": "古罗马道路连接教学模型",
+        "imageCaption": "古罗马道路连接教学模型",
+        "imageBoundary": "三位现代儿童观察道路连接农田、桥梁与城镇的虚构模型；不是某一真实路段、城镇、桥梁或前312年开工现场。",
         "audio": {
+          "lead": {
+            "id": "quest-50563bbcb6695c4c",
+            "text": "两千多年前，古罗马人开始修阿庇亚大道，后来还不断扩展。这张路面照片拍于2014年，拍摄年份不是道路开始修建的年份。阿庇亚大道从什么时候开始修建？"
+          },
           "transition": {
-            "id": "quest-cafb042b318bc60f",
-            "text": "先给一个地方找到正确年代。"
+            "id": "quest-99f1c8ce334b9c50",
+            "text": "这条路从古罗马走到今天。"
           },
           "intro": {
-            "id": "quest-21581725ac4a1096",
-            "text": "这是古代文明，时间是早期人类—约5世纪。"
-          },
-          "image": {
-            "id": "quest-b0ef9dafbc12daf4",
-            "text": "点开大图啦。这是前20至前19年奥古斯都金币正面。这张图能帮我们找到：这是古代文明，时间是早期人类—约5世纪。"
+            "id": "quest-af952899fcda5ed7",
+            "text": "两千多年前，古罗马人开始修阿庇亚大道，后来还不断扩展。这张路面照片拍于2014年，拍摄年份不是道路开始修建的年份。"
           },
           "question": {
-            "id": "quest-6b36b10ba4b7def9",
-            "text": "从一个地方出发，先找哪个年代？"
+            "id": "quest-ad77be3a9f95ad7b",
+            "text": "阿庇亚大道从什么时候开始修建？"
+          },
+          "image": {
+            "id": "quest-012ee1aadf6e0e26",
+            "text": "这张是古罗马道路连接教学模型。两千多年前，古罗马人开始修阿庇亚大道，后来还不断扩展。这张路面照片拍于2014年，拍摄年份不是道路开始修建的年份。"
           },
           "right": {
-            "id": "quest-c2d78010da74a324",
-            "text": "答对啦！时间找对了，故事有了起点。"
+            "id": "quest-f55af3b65130808c",
+            "text": "从古罗马时期开始，后来不断扩展。"
           },
           "wrong": {
-            "id": "quest-97f81f02dcd7c5eb",
-            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+            "id": "quest-8d3c3cd80f8c7870",
+            "text": "2014年只是拍这张照片的年份。"
           }
         },
         "options": [
           {
             "id": "world-ancient-01-05-rome-empire-time-1",
-            "label": "中国古代史 · 明朝 · 1368—1644年",
-            "correct": false,
+            "label": "两千多年前的古罗马",
+            "correct": true,
+            "objectView": {
+              "kind": "era",
+              "name": "古罗马",
+              "date": "公元前312年起",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-6fc841343fc20c73.svg",
+            "imageAlt": "古罗马",
             "audio": {
-              "id": "quest-3b05b4d64f9c3530",
-              "text": "中国古代史 · 明朝 · 1368—1644年"
+              "id": "quest-285247e05ec63e4d",
+              "text": "两千多年前的古罗马"
             }
           },
           {
             "id": "world-ancient-01-05-rome-empire-time-2",
-            "label": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）",
+            "label": "拍照片时 · 2014年",
             "correct": false,
+            "objectView": {
+              "kind": "era",
+              "name": "拍照片时",
+              "date": "2014年",
+              "marker": "calendar"
+            },
+            "image": "/content/study-scenes/study-243f1a7357aa9b34.svg",
+            "imageAlt": "拍照片时 2014年",
             "audio": {
-              "id": "quest-0ee11e284f2f5ef2",
-              "text": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）"
-            }
-          },
-          {
-            "id": "world-ancient-01-05-rome-empire-time-3",
-            "label": "世界古代史 · 古代文明 · 早期人类—约5世纪",
-            "correct": true,
-            "audio": {
-              "id": "quest-41ed781097729712",
-              "text": "世界古代史 · 古代文明 · 早期人类—约5世纪"
+              "id": "quest-18c9d14a36b7ceb7",
+              "text": "拍照片时 · 2014年"
             }
           }
         ]
       },
       {
         "id": "beginning",
-        "questionKind": "evidence-object",
+        "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "第一拍 · 故事起点",
-        "title": "沿大道走向罗马",
-        "prompt": "哪一件证物能先打开这个故事？",
-        "rightNote": "先沿阿庇亚大道从城外走向罗马。",
-        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "phase": "军队通行，也是道路的一种用途",
+        "title": "军队通行，也是道路的一种用途",
+        "prompt": "要看道路的军事用途，选哪一幕？",
+        "rightNote": "军队沿路行进，表现的是道路的军事用途。",
+        "wrongNote": "这幅在运输粮食。这次先找沿路行进的军队。",
+        "sourceIds": [
+          "UNESCO-VIA-APPIA"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "先听故事，再看看图里的线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "军队通行，也是道路的一种用途",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "军队沿路行进，表现的是道路的军事用途。",
+          "retry": "这幅在运输粮食。这次先找沿路行进的军队。",
+          "nextLabel": "在真路面上找一找"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "沿大道走向罗马",
-          "screenText": "先沿阿庇亚大道从城外走向罗马。",
-          "narration": "先沿阿庇亚大道从城外走向罗马。",
-          "displayText": "先沿阿庇亚大道从城外走向罗马。"
+          "title": "军队通行，也是道路的一种用途",
+          "screenText": "阿庇亚大道最初修建的重要目的，是方便军队移动，帮助罗马向外扩张和统治。道路也能运输粮食、联系城镇。同一条路可以承担不同工作。",
+          "displayText": "阿庇亚大道最初修建的重要目的，是方便军队移动，帮助罗马向外扩张和统治。道路也能运输粮食、联系城镇。同一条路可以承担不同工作。",
+          "narration": "阿庇亚大道最初修建的重要目的，是方便军队移动，帮助罗马向外扩张和统治。道路也能运输粮食、联系城镇。同一条路可以承担不同工作。"
         },
-        "assetId": "via-appia-terracina-2014-photo",
-        "image": "/content/step-images/via-appia-terracina-2014-photo.jpg",
-        "imageAlt": "泰拉奇纳阿庇亚大道保存路段2014年实拍",
-        "imageCaption": "2014年拍摄的意大利泰拉奇纳Forum Aemilianum内阿庇亚大道保存路段，可见现存铺路石。",
-        "imageBoundary": "Commons原图4829×3203像素，等比缩至2200×1459像素，未裁切。照片拍摄于2014-06-30。地点是泰拉奇纳而非罗马城；画面只代表一段在现代环境中保存的道路，不用它规定整个800多公里系统在所有年代的铺面、宽度或完整程度。",
+        "assetId": "rome-road-museum-v1",
+        "image": "/content/step-images/rome-road-museum-v1.jpg",
+        "studyImage": "/content/study-scenes/study-edb38a8635ad8bc5.svg",
+        "studyImageAlt": "先让军队到达要统治的地方",
+        "imageAlt": "古罗马道路连接教学模型",
+        "imageCaption": "古罗马道路连接教学模型",
+        "imageBoundary": "三位现代儿童观察道路连接农田、桥梁与城镇的虚构模型；不是某一真实路段、城镇、桥梁或前312年开工现场。",
         "audio": {
+          "lead": {
+            "id": "quest-49ca40fb3634e823",
+            "text": "阿庇亚大道最初修建的重要目的，是方便军队移动，帮助罗马向外扩张和统治。道路也能运输粮食、联系城镇。同一条路可以承担不同工作。要看道路的军事用途，选哪一幕？"
+          },
           "transition": {
-            "id": "quest-bc13be496686808e",
-            "text": "时间找到了。先找一件看得见、能核对的证物。"
+            "id": "quest-f92b959a447fea95",
+            "text": "军队通行，也是道路的一种用途。"
           },
           "intro": {
-            "id": "quest-d68f5b14b09eabba",
-            "text": "先沿阿庇亚大道从城外走向罗马。"
-          },
-          "image": {
-            "id": "quest-21353283813eaa6b",
-            "text": "点开大图啦。这是泰拉奇纳阿庇亚大道保存路段2014年实拍。这张图能帮我们找到：先沿阿庇亚大道从城外走向罗马。"
+            "id": "quest-46bfbcc0446792a5",
+            "text": "阿庇亚大道最初修建的重要目的，是方便军队移动，帮助罗马向外扩张和统治。道路也能运输粮食、联系城镇。同一条路可以承担不同工作。"
           },
           "question": {
-            "id": "quest-785d31b501154b8e",
-            "text": "哪一件证物能先打开这个故事？"
+            "id": "quest-cb8776f5793b5c16",
+            "text": "要看道路的军事用途，选哪一幕？"
+          },
+          "image": {
+            "id": "quest-b4905dc24010a7be",
+            "text": "这张是古罗马道路连接教学模型。阿庇亚大道最初修建的重要目的，是方便军队移动，帮助罗马向外扩张和统治。道路也能运输粮食、联系城镇。同一条路可以承担不同工作。"
           },
           "right": {
-            "id": "quest-9e334cf899a379f3",
-            "text": "答对啦！第一件证物找到了。"
+            "id": "quest-173374ebfee32c25",
+            "text": "军队沿路行进，表现的是道路的军事用途。"
           },
           "wrong": {
-            "id": "quest-83318c217691cf7c",
-            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+            "id": "quest-7e64d2129d0cb75e",
+            "text": "这幅在运输粮食。这次先找沿路行进的军队。"
           }
         },
         "options": [
           {
             "id": "world-ancient-01-05-rome-empire-beginning-1",
-            "label": "沿着阿庇亚大道去罗马、罗马城与地，只是故事人物",
-            "correct": false,
+            "label": "沿道路行进的军队",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "rome-road-choices-v1",
+              "crop": {
+                "x": 8,
+                "y": 8,
+                "width": 609,
+                "height": 609,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/rome-road-choices-v1.jpg",
+              "imageAlt": "沿道路行进的军队",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-a0febdb2e7e6c105.svg",
+            "imageAlt": "沿道路行进的军队",
             "audio": {
-              "id": "quest-ea0fe2d5165ef4be",
-              "text": "沿着阿庇亚大道去罗马、罗马城与地，只是故事人物"
+              "id": "quest-3a6c30f01b57fe2f",
+              "text": "沿道路行进的军队"
             }
           },
           {
             "id": "world-ancient-01-05-rome-empire-beginning-2",
-            "label": "阿庇亚大道、金币与公民权文书，是能核对的证物",
-            "correct": true,
-            "audio": {
-              "id": "quest-e715d118d5bce03f",
-              "text": "阿庇亚大道、金币与公民权文书，是能核对的证物"
-            }
-          },
-          {
-            "id": "world-ancient-01-05-rome-empire-beginning-3",
-            "label": "罗马城与地中海交通网络、沿着，只是故事地点",
+            "label": "把粮食送往城镇的人",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "rome-road-choices-v1",
+              "crop": {
+                "x": 637,
+                "y": 8,
+                "width": 609,
+                "height": 609,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/rome-road-choices-v1.jpg",
+              "imageAlt": "把粮食送往城镇的人",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-a1fb0c6d5134b9d2.svg",
+            "imageAlt": "把粮食送往城镇的人",
             "audio": {
-              "id": "quest-5d6af6a16212ee1b",
-              "text": "罗马城与地中海交通网络、沿着，只是故事地点"
+              "id": "quest-e01c26467e7c5514",
+              "text": "把粮食送往城镇的人"
             }
           }
         ]
       },
       {
         "id": "journey",
-        "questionKind": "people-place-action",
+        "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "第二拍 · 故事继续",
-        "title": "道路和法律连起来",
-        "prompt": "故事里的人来到这里以后，做了什么？",
-        "rightNote": "接着看道路、法律和城市怎样连接地中海各地。",
-        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "phase": "一块块石头铺成了一段路",
+        "title": "一块块石头铺成了一段路",
+        "prompt": "哪里是一块完整的铺路石？",
+        "rightNote": "铺路石和接缝，让我们看见这一段路的做法。",
+        "wrongNote": "仔细看完整的石头和石头之间的边界。",
+        "sourceIds": [
+          "UNESCO-VIA-APPIA"
+        ],
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "听问题，在真照片中找线索。",
+          "imageLabel": "实物照片",
+          "sceneAspectRatio": 1.5078821110349554,
+          "ariaLabel": "在古罗马道路现代照片中找石块与接缝",
+          "hotspots": [
+            {
+              "id": "paving",
+              "label": "一块铺路石",
+              "x": 0.2,
+              "y": 0.61,
+              "width": 0.24,
+              "height": 0.11
+            },
+            {
+              "id": "joint",
+              "label": "石头之间的接缝",
+              "x": 0.34,
+              "y": 0.76,
+              "width": 0.07,
+              "height": 0.14
+            }
+          ],
+          "rounds": [
+            {
+              "id": "paving",
+              "targetId": "paving",
+              "question": "哪里是一块完整的铺路石？",
+              "feedback": "这一块石头，和旁边的石头一起铺成路。",
+              "retry": "这里在石头的边界，再找完整的石头。",
+              "nextLabel": "再看看两块石头之间",
+              "audio": {
+                "question": {
+                  "id": "quest-95112f6cfed95a9f",
+                  "text": "哪里是一块完整的铺路石？"
+                },
+                "right": {
+                  "id": "quest-068af0e0ea7d6f33",
+                  "text": "这一块石头，和旁边的石头一起铺成路。"
+                },
+                "wrong": {
+                  "id": "quest-77373a43c5f90a8f",
+                  "text": "这里在石头的边界，再找完整的石头。"
+                }
+              }
+            },
+            {
+              "id": "joint",
+              "targetId": "joint",
+              "question": "哪里是两块石头之间的接缝？",
+              "feedback": "接缝把石块分开；这段路由许多石块铺成。",
+              "retry": "这里在一块石头上，接缝在两块之间。",
+              "nextLabel": "路面也需要人照料",
+              "audio": {
+                "question": {
+                  "id": "quest-a9fc5eaa4acf7ba0",
+                  "text": "哪里是两块石头之间的接缝？"
+                },
+                "right": {
+                  "id": "quest-52ed71257c7a8eba",
+                  "text": "接缝把石块分开；这段路由许多石块铺成。"
+                },
+                "wrong": {
+                  "id": "quest-ad7dc814bc042e8a",
+                  "text": "这里在一块石头上，接缝在两块之间。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "一块块石头铺成了一段路",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "铺路石和接缝，让我们看见这一段路的做法。",
+          "retry": "仔细看完整的石头和石头之间的边界。",
+          "nextLabel": "路面也需要人照料"
+        },
+        "concepts": null,
+        "inspection": {
+          "id": "via-appia-terracina-2014-photo",
+          "title": "阿庇亚大道路面 · 2014年照片",
+          "localPath": "reference-assets/world-ancient-rome/via-appia-terracina-2014.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Forum_Aemilianum,_stretch_of_the_Via_Appia,_Tarracina_(Anxur),_Terracina,_Italy_(15224581792).jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 2.0",
+          "clearance": "cleared-open-license",
+          "caption": "意大利泰拉奇纳 · 古代道路的现代保存状态",
+          "boundary": "Carole Raddato于2014年6月30日在意大利泰拉奇纳拍摄，依CC BY-SA 2.0署名使用。照片展示阿庇亚大道一段路面的现代保存状态，不是罗马城或古代施工现场；不能代表整条路在各年代的铺面、宽度和保存情况。 2014年拍摄的意大利泰拉奇纳Forum Aemilianum内阿庇亚大道保存路段，可见现存铺路石。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/via-appia-terracina-2014-photo.jpg",
+          "label": "看真照片，听材料说明",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 290,
+          "openAlbum": false,
+          "sourceLinks": [
+            {
+              "title": "UNESCO阿庇亚道遗产记录",
+              "url": "https://whc.unesco.org/en/list/1708/"
+            },
+            {
+              "title": "Carole Raddato照片及CC BY-SA 2.0许可",
+              "url": "https://commons.wikimedia.org/wiki/File:Forum_Aemilianum,_stretch_of_the_Via_Appia,_Tarracina_(Anxur),_Terracina,_Italy_(15224581792).jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-8f2f36057564bafd",
+            "text": "这是2014年拍摄的意大利泰拉奇纳，一段阿庇亚大道保存的路面。可以观察铺路石和接缝。它不是建路现场，也不能代表整条道路在每个时期的样子。"
+          }
+        },
         "story": {
           "screenNumber": 3,
-          "title": "道路和法律连起来",
-          "screenText": "接着看道路、法律和城市怎样连接地中海各地。",
-          "narration": "接着看道路、法律和城市怎样连接地中海各地。",
-          "displayText": "接着看道路、法律和城市怎样连接地中海各地。"
+          "title": "一块块石头铺成了一段路",
+          "screenText": "真照片里的这段路，是一块块石头铺成的。先找一块铺路石，再找石头之间的接缝。照片只展示今天保存的一小段路。",
+          "displayText": "真照片里的这段路，是一块块石头铺成的。先找一块铺路石，再找石头之间的接缝。照片只展示今天保存的一小段路。",
+          "narration": "真照片里的这段路，是一块块石头铺成的。先找一块铺路石，再找石头之间的接缝。照片只展示今天保存的一小段路。"
         },
-        "assetId": "roman-forum-panorama-2015-photo",
-        "image": "/content/step-images/roman-forum-panorama-2015-photo.jpg",
-        "imageAlt": "罗马广场2015年全景实拍",
-        "imageCaption": "2015年从帕拉蒂尼山方向拍摄的罗马广场全景，可见共和国、帝国和后世城市多层遗迹的现代保存状态。",
-        "imageBoundary": "Commons原图10172×3082像素，等比缩至2200×666像素，未裁切。照片拍摄于2015-12-01。只用于辨认现代遗址空间和城市时间层，不把后世教堂、修复设施、植被与断壁状态移回共和国时期，也不把空遗址冒充公民大会现场。",
+        "assetId": "via-appia-terracina-2014-photo",
+        "image": "/content/step-images/via-appia-terracina-2014-photo.jpg",
+        "studyImage": "/content/study-scenes/study-795a3f8f79763d08.svg",
+        "studyImageAlt": "一块块石头铺成了一段路",
+        "imageAlt": "泰拉奇纳阿庇亚大道保存路段2014年实拍",
+        "imageCaption": "泰拉奇纳阿庇亚大道保存路段2014年实拍",
+        "imageBoundary": "Carole Raddato于2014年6月30日在意大利泰拉奇纳拍摄，依CC BY-SA 2.0署名使用。照片展示阿庇亚大道一段路面的现代保存状态，不是罗马城或古代施工现场；不能代表整条路在各年代的铺面、宽度和保存情况。",
         "audio": {
+          "lead": {
+            "id": "quest-6fdf8a05c5356a71",
+            "text": "真照片里的这段路，是一块块石头铺成的。先找一块铺路石，再找石头之间的接缝。照片只展示今天保存的一小段路。"
+          },
           "transition": {
-            "id": "quest-d4c11419e03a18fd",
-            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+            "id": "quest-f7e6ee20d1d16157",
+            "text": "一块块石头铺成了一段路。"
           },
           "intro": {
-            "id": "quest-23a9b4c23c8610a2",
-            "text": "接着看道路、法律和城市怎样连接地中海各地。"
-          },
-          "image": {
-            "id": "quest-537e04f4ffbcac62",
-            "text": "点开大图啦。这是罗马广场2015年全景实拍。这张图能帮我们找到：接着看道路、法律和城市怎样连接地中海各地。"
+            "id": "quest-6fdf8a05c5356a71",
+            "text": "真照片里的这段路，是一块块石头铺成的。先找一块铺路石，再找石头之间的接缝。照片只展示今天保存的一小段路。"
           },
           "question": {
-            "id": "quest-329a69e64424a884",
-            "text": "故事里的人来到这里以后，做了什么？"
+            "id": "quest-95112f6cfed95a9f",
+            "text": "哪里是一块完整的铺路石？"
+          },
+          "image": {
+            "id": "quest-ff56dcefb0ba3726",
+            "text": "这张是泰拉奇纳阿庇亚大道保存路段2014年实拍。真照片里的这段路，是一块块石头铺成的。先找一块铺路石，再找石头之间的接缝。照片只展示今天保存的一小段路。"
           },
           "right": {
-            "id": "quest-d7d6754891bc9f0f",
-            "text": "答对啦！人物、地点和行动连起来了。"
+            "id": "quest-2d68ef4e9c6f2442",
+            "text": "铺路石和接缝，让我们看见这一段路的做法。"
           },
           "wrong": {
-            "id": "quest-66c837d18451416f",
-            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+            "id": "quest-a80c119be277f6fc",
+            "text": "仔细看完整的石头和石头之间的边界。"
           }
         },
-        "options": [
-          {
-            "id": "world-ancient-01-05-rome-empire-journey-1",
-            "label": "接着看道路、法律和城市怎样连接地中海各地。",
-            "correct": true,
-            "audio": {
-              "id": "quest-23a9b4c23c8610a2",
-              "text": "接着看道路、法律和城市怎样连接地中海各地。"
-            }
-          },
-          {
-            "id": "world-ancient-01-05-rome-empire-journey-2",
-            "label": "沿着阿庇亚大道去罗马、阿庇亚大道，只认出人物",
-            "correct": false,
-            "audio": {
-              "id": "quest-e4058dd82314aa81",
-              "text": "沿着阿庇亚大道去罗马、阿庇亚大道，只认出人物"
-            }
-          },
-          {
-            "id": "world-ancient-01-05-rome-empire-journey-3",
-            "label": "罗马城与地中海交通网络、阿庇，只说了地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-e0f982e1854f84ad",
-              "text": "罗马城与地中海交通网络、阿庇，只说了地点"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "第三拍 · 看见变化",
-        "title": "大建筑不是全部",
-        "prompt": "前面的行动带来了什么变化？",
-        "rightNote": "最后繁荣与不平等同时存在，不能只看宏大建筑。",
-        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "phase": "让道路继续通向城镇",
+        "title": "让道路继续通向城镇",
+        "prompt": "先做什么，能让人和车继续通过？",
+        "rightNote": "修好路面，才方便人和车继续往来。",
+        "wrongNote": "粮食收好很重要，但它不能修好路面。",
+        "sourceIds": [
+          "UNESCO-VIA-APPIA"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "先听故事，再看看图里的线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "让道路继续通向城镇",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "修好路面，才方便人和车继续往来。",
+          "retry": "粮食收好很重要，但它不能修好路面。",
+          "nextLabel": "道路还能帮助谁"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "大建筑不是全部",
-          "screenText": "最后繁荣与不平等同时存在，不能只看宏大建筑。",
-          "narration": "最后繁荣与不平等同时存在，不能只看宏大建筑。",
-          "displayText": "最后繁荣与不平等同时存在，不能只看宏大建筑。"
+          "title": "让道路继续通向城镇",
+          "screenText": "模型里有一段路面坏了，车不容易通过。小伙伴想让村庄和城镇继续往来，要先帮助修好路，还是把粮食继续堆在仓里？",
+          "displayText": "模型里有一段路面坏了，车不容易通过。小伙伴想让村庄和城镇继续往来，要先帮助修好路，还是把粮食继续堆在仓里？",
+          "narration": "模型里有一段路面坏了，车不容易通过。小伙伴想让村庄和城镇继续往来，要先帮助修好路，还是把粮食继续堆在仓里？"
         },
-        "assetId": "augustus-aureus-met-obverse-image",
-        "image": "/content/step-images/augustus-aureus-met-obverse-image.jpg",
-        "imageAlt": "前20至前19年奥古斯都金币正面",
-        "imageCaption": "前20至前19年的金质奥古斯都金币正面，可见头像、橡叶冠和铭文，现藏大都会艺术博物馆。",
-        "imageBoundary": "The Met开放原图等比缩至2200×1634像素，未裁切。对象编号08.170.118，馆方记录尺寸约1.8×1.9厘米。本地文件只有正面，正文不把对象记录中的背面桂枝、盾牌等说成画面可见；金币是政治传播媒介，不是人物照片。",
+        "assetId": "rome-road-museum-v1",
+        "image": "/content/step-images/rome-road-museum-v1.jpg",
+        "studyImage": "/content/study-scenes/study-5e67c9f423fadd62.svg",
+        "studyImageAlt": "让道路继续通向城镇",
+        "imageAlt": "古罗马道路连接教学模型",
+        "imageCaption": "古罗马道路连接教学模型",
+        "imageBoundary": "三位现代儿童观察道路连接农田、桥梁与城镇的虚构模型；不是某一真实路段、城镇、桥梁或前312年开工现场。",
         "audio": {
+          "lead": {
+            "id": "quest-6783f231240b2a81",
+            "text": "模型里有一段路面坏了，车不容易通过。小伙伴想让村庄和城镇继续往来，要先帮助修好路，还是把粮食继续堆在仓里？先做什么，能让人和车继续通过？"
+          },
           "transition": {
-            "id": "quest-ca472709af5bb16a",
-            "text": "行动发生了。再看看它带来了什么变化。"
+            "id": "quest-f4304badd017937b",
+            "text": "让道路继续通向城镇。"
           },
           "intro": {
-            "id": "quest-8dbe491db40e7eda",
-            "text": "最后繁荣与不平等同时存在，不能只看宏大建筑。"
-          },
-          "image": {
-            "id": "quest-dedb75c04fe223ed",
-            "text": "点开大图啦。这是前20至前19年奥古斯都金币正面。这张图能帮我们找到：最后繁荣与不平等同时存在，不能只看宏大建筑。"
+            "id": "quest-06842243bff86b73",
+            "text": "模型里有一段路面坏了，车不容易通过。小伙伴想让村庄和城镇继续往来，要先帮助修好路，还是把粮食继续堆在仓里？"
           },
           "question": {
-            "id": "quest-2f86a3a6bc009210",
-            "text": "前面的行动带来了什么变化？"
+            "id": "quest-6a8943aaaa10e7ca",
+            "text": "先做什么，能让人和车继续通过？"
+          },
+          "image": {
+            "id": "quest-154b168d2a08afe6",
+            "text": "这张是古罗马道路连接教学模型。模型里有一段路面坏了，车不容易通过。小伙伴想让村庄和城镇继续往来，要先帮助修好路，还是把粮食继续堆在仓里？"
           },
           "right": {
-            "id": "quest-53f7633e99fda023",
-            "text": "答对啦！你找到了前因带来的变化。"
+            "id": "quest-966d03fc2ca5490c",
+            "text": "修好路面，才方便人和车继续往来。"
           },
           "wrong": {
-            "id": "quest-631e3024b71736c9",
-            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+            "id": "quest-31d00c81995d55ee",
+            "text": "粮食收好很重要，但它不能修好路面。"
           }
         },
         "options": [
           {
             "id": "world-ancient-01-05-rome-empire-change-1",
-            "label": "阿庇亚大道、金币与公民权文，还只是故事起点",
-            "correct": false,
+            "label": "工匠把路面修好",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "rome-road-choices-v1",
+              "crop": {
+                "x": 8,
+                "y": 637,
+                "width": 609,
+                "height": 609,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/rome-road-choices-v1.jpg",
+              "imageAlt": "工匠把路面修好",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-46532233c916fd17.svg",
+            "imageAlt": "工匠把路面修好",
             "audio": {
-              "id": "quest-37a2b38884e2e9f7",
-              "text": "阿庇亚大道、金币与公民权文，还只是故事起点"
+              "id": "quest-13d5393c23651763",
+              "text": "工匠把路面修好"
             }
           },
           {
             "id": "world-ancient-01-05-rome-empire-change-2",
-            "label": "看道路、法律和城市怎样连接地中，还只是行动经过",
+            "label": "把粮食继续放进仓库",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "rome-road-choices-v1",
+              "crop": {
+                "x": 637,
+                "y": 637,
+                "width": 609,
+                "height": 609,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/rome-road-choices-v1.jpg",
+              "imageAlt": "把粮食继续放进仓库",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-d344dd2ca4461d22.svg",
+            "imageAlt": "把粮食继续放进仓库",
             "audio": {
-              "id": "quest-13326a263b97ee93",
-              "text": "看道路、法律和城市怎样连接地中，还只是行动经过"
-            }
-          },
-          {
-            "id": "world-ancient-01-05-rome-empire-change-3",
-            "label": "最后繁荣与不平等同时存在，不能只看宏大建筑。",
-            "correct": true,
-            "audio": {
-              "id": "quest-8dbe491db40e7eda",
-              "text": "最后繁荣与不平等同时存在，不能只看宏大建筑。"
+              "id": "quest-f56e924b1fa8beb2",
+              "text": "把粮食继续放进仓库"
             }
           }
         ]
       },
       {
         "id": "takeaway",
-        "questionKind": "reason-result",
+        "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "把线索连成答案",
-        "title": "把三条线索连成答案",
-        "prompt": "哪句话同时说清了原因和结果？",
-        "rightNote": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。",
-        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
-        "story": {
-          "screenNumber": 6,
-          "title": "把三条线索连成答案",
-          "screenText": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。",
-          "narration": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。",
-          "displayText": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。"
+        "phase": "把粮食沿着道路送到城镇",
+        "title": "把粮食沿着道路送到城镇",
+        "prompt": "哪一幕正在把粮食送往城镇？",
+        "rightNote": "运粮车沿路到达城镇，路把人和物品连起来。",
+        "wrongNote": "仓库把粮食收好，送往另一处还需要运输。",
+        "sourceIds": [
+          "UNESCO-VIA-APPIA"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "先听故事，再看看图里的线索。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
         },
-        "assetId": "via-appia-terracina-2014-photo",
-        "image": "/content/step-images/via-appia-terracina-2014-photo.jpg",
-        "imageAlt": "泰拉奇纳阿庇亚大道保存路段2014年实拍",
-        "imageCaption": "2014年拍摄的意大利泰拉奇纳Forum Aemilianum内阿庇亚大道保存路段，可见现存铺路石。",
-        "imageBoundary": "Commons原图4829×3203像素，等比缩至2200×1459像素，未裁切。照片拍摄于2014-06-30。地点是泰拉奇纳而非罗马城；画面只代表一段在现代环境中保存的道路，不用它规定整个800多公里系统在所有年代的铺面、宽度或完整程度。",
+        "narrative": {
+          "kind": "fictional-guide-scene",
+          "scene": "detail",
+          "caption": "把粮食沿着道路送到城镇",
+          "speaker": "小伙伴",
+          "responseSpeaker": "小伙伴",
+          "response": "运粮车沿路到达城镇，路把人和物品连起来。",
+          "retry": "仓库把粮食收好，送往另一处还需要运输。",
+          "nextLabel": "带着发现回家"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "把粮食沿着道路送到城镇",
+          "screenText": "道路把农田、村庄和城镇连起来。粮食已经准备好，要送到另一座城镇。这次我们看运输用途，跟着粮食找往来的路。",
+          "displayText": "道路把农田、村庄和城镇连起来。粮食已经准备好，要送到另一座城镇。这次我们看运输用途，跟着粮食找往来的路。",
+          "narration": "道路把农田、村庄和城镇连起来。粮食已经准备好，要送到另一座城镇。这次我们看运输用途，跟着粮食找往来的路。"
+        },
+        "assetId": "rome-road-museum-v1",
+        "image": "/content/step-images/rome-road-museum-v1.jpg",
+        "studyImage": "/content/study-scenes/study-166845f0c3fa32e2.svg",
+        "studyImageAlt": "把粮食沿着道路送到城镇",
+        "imageAlt": "古罗马道路连接教学模型",
+        "imageCaption": "古罗马道路连接教学模型",
+        "imageBoundary": "三位现代儿童观察道路连接农田、桥梁与城镇的虚构模型；不是某一真实路段、城镇、桥梁或前312年开工现场。",
         "audio": {
+          "lead": {
+            "id": "quest-426de03785027902",
+            "text": "道路把农田、村庄和城镇连起来。粮食已经准备好，要送到另一座城镇。这次我们看运输用途，跟着粮食找往来的路。哪一幕正在把粮食送往城镇？"
+          },
           "transition": {
-            "id": "quest-a7cb01ad27c42767",
-            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+            "id": "quest-a251d9b8125c82b0",
+            "text": "把粮食沿着道路送到城镇。"
           },
           "intro": {
-            "id": "quest-9360713914aab9d3",
-            "text": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。"
-          },
-          "image": {
-            "id": "quest-11ae9009077460b1",
-            "text": "点开大图啦。这是泰拉奇纳阿庇亚大道保存路段2014年实拍。这张图能帮我们找到：道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。"
+            "id": "quest-60d275494d4a83d6",
+            "text": "道路把农田、村庄和城镇连起来。粮食已经准备好，要送到另一座城镇。这次我们看运输用途，跟着粮食找往来的路。"
           },
           "question": {
-            "id": "quest-1626b51c966f57f7",
-            "text": "哪句话同时说清了原因和结果？"
+            "id": "quest-d7c9413821785105",
+            "text": "哪一幕正在把粮食送往城镇？"
+          },
+          "image": {
+            "id": "quest-45cde7b549c24bba",
+            "text": "这张是古罗马道路连接教学模型。道路把农田、村庄和城镇连起来。粮食已经准备好，要送到另一座城镇。这次我们看运输用途，跟着粮食找往来的路。"
           },
           "right": {
-            "id": "quest-7efb4ef63956e209",
-            "text": "答对啦！原因和结果都说清楚了。"
+            "id": "quest-551792dfc308b8d5",
+            "text": "运粮车沿路到达城镇，路把人和物品连起来。"
           },
           "wrong": {
-            "id": "quest-0cee35f61bffd03b",
-            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+            "id": "quest-dfdc2a8ce216d632",
+            "text": "仓库把粮食收好，送往另一处还需要运输。"
           }
         },
         "options": [
           {
             "id": "world-ancient-01-05-rome-empire-takeaway-1",
-            "label": "沿阿庇亚大道从城外走向罗马。、阿庇亚大道、金，只说了原因",
-            "correct": false,
+            "label": "沿着道路把粮食运走",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "rome-road-choices-v1",
+              "crop": {
+                "x": 637,
+                "y": 8,
+                "width": 609,
+                "height": 609,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/rome-road-choices-v1.jpg",
+              "imageAlt": "沿着道路把粮食运走",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-9f72c763baa389ae.svg",
+            "imageAlt": "沿着道路把粮食运走",
             "audio": {
-              "id": "quest-df4419314470e175",
-              "text": "沿阿庇亚大道从城外走向罗马。、阿庇亚大道、金，只说了原因"
+              "id": "quest-a7a020b9991118b2",
+              "text": "沿着道路把粮食运走"
             }
           },
           {
             "id": "world-ancient-01-05-rome-empire-takeaway-2",
-            "label": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。",
-            "correct": true,
-            "audio": {
-              "id": "quest-9360713914aab9d3",
-              "text": "道路和法律连接广阔地区，也服务征服；繁荣与不平等同时存在。"
-            }
-          },
-          {
-            "id": "world-ancient-01-05-rome-empire-takeaway-3",
-            "label": "繁荣与不平等同时存在，不能只看宏大建筑。、沿着阿，只说了结果",
+            "label": "把粮食留在仓库里",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "rome-road-choices-v1",
+              "crop": {
+                "x": 637,
+                "y": 637,
+                "width": 609,
+                "height": 609,
+                "sourceWidth": 1254,
+                "sourceHeight": 1254
+              },
+              "image": "/content/step-images/rome-road-choices-v1.jpg",
+              "imageAlt": "把粮食留在仓库里",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-bcda51da0f10a858.svg",
+            "imageAlt": "把粮食留在仓库里",
             "audio": {
-              "id": "quest-95c555334ea41626",
-              "text": "繁荣与不平等同时存在，不能只看宏大建筑。、沿着阿，只说了结果"
+              "id": "quest-fc5c689c177e5a6f",
+              "text": "把粮食留在仓库里"
             }
           }
         ]
@@ -836,7 +1286,33 @@
       ]
     }
   ],
-  "methodNotes": [],
+  "methodNotes": [
+    {
+      "number": 1,
+      "text": "原长稿保留。当前儿童玩法不代表完整罗马史已讲完，也不把道路说成帝国扩张的唯一原因；不奖励征服、战斗或人群等级。",
+      "sourceIds": []
+    },
+    {
+      "number": 2,
+      "text": "2014年真照片只证明泰拉奇纳一段道路今天保存的铺面；现代草、缝隙和保存状态不能反推所有古代道路的样子。",
+      "sourceIds": []
+    },
+    {
+      "number": 3,
+      "text": "博物馆、道路模型、军队、运粮车、修路与仓储均为教学新画。士兵的板甲形象用于罗马时期用路的教学想象，不是前312年施工或行军实景复原；入场声音没有声称它就是开工当年的军队。",
+      "sourceIds": []
+    },
+    {
+      "number": 4,
+      "text": "第四步清楚说“模型里”路坏了，维修题是有前提的现代教学应用，不冒充文献记载的具体修路事件。第五步问的是粮食已备好后怎样送到另一处，不把储藏这种合理工作贬作历史错误。",
+      "sourceIds": []
+    },
+    {
+      "number": 5,
+      "text": "世界古代史入口保留埃及与罗马各自地点和年代表达；金字塔与阿庇亚大道不是同年发生，也不组成一个文明接替另一个文明的单线顺序。",
+      "sourceIds": []
+    }
+  ],
   "screens": [
     {
       "number": 1,
@@ -1193,9 +1669,246 @@
       "authorityLevel": "A",
       "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-DHOLAVIRA-HARAPPAN-CITY",
+      "title": "Dholavira: a Harappan City",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1645/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A-primary",
+      "factUse": "朵拉维拉约前3000—前1500年的长期占居、设防城市、蓄水与排水系统、住宅差异、手工业与远距离交换，以及城市变化与衰落是遗址构型连续改变的过程",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-MEMPHIS-PYRAMIDS",
+      "title": "Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/86/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A-primary",
+      "factUse": "孟菲斯在尼罗河洪泛平原与交通路线的位置、古王国都城和国家组织、从马斯塔巴到金字塔的墓葬发展，以及吉萨金字塔群和相关遗存范围",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-ATHENS-ACROPOLIS",
+      "title": "Acropolis, Athens",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/404/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A-primary",
+      "factUse": "雅典卫城从宗教中心到前5世纪大型营建的时间层、帕特农神庙447—432年建造及其献给雅典娜的用途，以及遗址经历破坏、改造和1975年以来持续修复的现状边界",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "YSMA-PARTHENON-STRUCTURE",
+      "title": "Parthenon",
+      "institution": "Acropolis Restoration Service（希腊文化部卫城修复局）",
+      "url": "https://www.ysma.gr/en/monuments/parthenon/",
+      "type": "official-heritage-architecture-record",
+      "authorityLevel": "A-primary",
+      "factUse": "献给雅典娜的神庙用途；前447—438年主体施工与前432年雕塑完成分开；石柱、山墙、神像与建筑历次改用",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "study-b52d4d7d62a9a1f8",
+      "title": "学习示意：这条路从古罗马走到今天",
+      "localPath": "reference-assets/focused-quests/study-b52d4d7d62a9a1f8.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "这条路从古罗马走到今天",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-6fc841343fc20c73",
+      "title": "学习示意：古罗马",
+      "localPath": "reference-assets/focused-quests/study-6fc841343fc20c73.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "古罗马",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-243f1a7357aa9b34",
+      "title": "学习示意：拍照片时 2014年",
+      "localPath": "reference-assets/focused-quests/study-243f1a7357aa9b34.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "拍照片时 2014年",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-edb38a8635ad8bc5",
+      "title": "学习示意：先让军队到达要统治的地方",
+      "localPath": "reference-assets/focused-quests/study-edb38a8635ad8bc5.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "先让军队到达要统治的地方",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a0febdb2e7e6c105",
+      "title": "学习示意：沿道路行进的军队",
+      "localPath": "reference-assets/focused-quests/study-a0febdb2e7e6c105.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "沿道路行进的军队",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-a1fb0c6d5134b9d2",
+      "title": "学习示意：把粮食送往城镇的人",
+      "localPath": "reference-assets/focused-quests/study-a1fb0c6d5134b9d2.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "把粮食送往城镇的人",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-795a3f8f79763d08",
+      "title": "学习示意：一块块石头铺成了一段路",
+      "localPath": "reference-assets/focused-quests/study-795a3f8f79763d08.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "一块块石头铺成了一段路",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5e67c9f423fadd62",
+      "title": "学习示意：让道路继续通向城镇",
+      "localPath": "reference-assets/focused-quests/study-5e67c9f423fadd62.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "让道路继续通向城镇",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-46532233c916fd17",
+      "title": "学习示意：工匠把路面修好",
+      "localPath": "reference-assets/focused-quests/study-46532233c916fd17.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "工匠把路面修好",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d344dd2ca4461d22",
+      "title": "学习示意：把粮食继续放进仓库",
+      "localPath": "reference-assets/focused-quests/study-d344dd2ca4461d22.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "把粮食继续放进仓库",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-166845f0c3fa32e2",
+      "title": "学习示意：把粮食沿着道路送到城镇",
+      "localPath": "reference-assets/focused-quests/study-166845f0c3fa32e2.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "把粮食沿着道路送到城镇",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-9f72c763baa389ae",
+      "title": "学习示意：沿着道路把粮食运走",
+      "localPath": "reference-assets/focused-quests/study-9f72c763baa389ae.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "沿着道路把粮食运走",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-bcda51da0f10a858",
+      "title": "学习示意：把粮食留在仓库里",
+      "localPath": "reference-assets/focused-quests/study-bcda51da0f10a858.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "把粮食留在仓库里",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "rome-road-museum-v1",
+      "title": "古罗马道路连接教学模型",
+      "localPath": "reference-assets/poetry-world-world/rome-road-museum-v1.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/poetry-world-world/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学情境插画，不是历史现场或文物照片",
+      "boundary": "三位现代儿童观察道路连接农田、桥梁与城镇的虚构模型；不是某一真实路段、城镇、桥梁或前312年开工现场。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "rome-road-choices-v1",
+      "title": "罗马道路军事移动与日常用途四格情境",
+      "localPath": "reference-assets/poetry-world-world/rome-road-choices-v1.png",
+      "runtimeMaxEdge": 1254,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/poetry-world-world/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+      "clearance": "cleared-project-created",
+      "caption": "现代教学情境插画，不是历史现场或文物照片",
+      "boundary": "军队行进、运粮、维修与储藏是罗马时期用路的教学想象，不是前312年施工或行军实景复原。人物、军装、车辆与建筑不作某时某地的精确考证；维修题是说明连接需要维护的现代教学应用。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "roman-forum-panorama-2015-photo",
       "title": "罗马广场2015年全景实拍",
@@ -1219,7 +1932,7 @@
       "license": "CC BY-SA 2.0",
       "clearance": "cleared-open-license",
       "caption": "2014年拍摄的意大利泰拉奇纳Forum Aemilianum内阿庇亚大道保存路段，可见现存铺路石。",
-      "boundary": "Commons原图4829×3203像素，等比缩至2200×1459像素，未裁切。照片拍摄于2014-06-30。地点是泰拉奇纳而非罗马城；画面只代表一段在现代环境中保存的道路，不用它规定整个800多公里系统在所有年代的铺面、宽度或完整程度。",
+      "boundary": "Carole Raddato于2014年6月30日在意大利泰拉奇纳拍摄，依CC BY-SA 2.0署名使用。照片展示阿庇亚大道一段路面的现代保存状态，不是罗马城或古代施工现场；不能代表整条路在各年代的铺面、宽度和保存情况。",
       "childVisibility": "child-ok"
     },
     {
@@ -1271,5 +1984,5 @@
     "audio": "script-ready",
     "review": "pending"
   },
-  "contentReadiness": "legacy-draft-not-in-preview"
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

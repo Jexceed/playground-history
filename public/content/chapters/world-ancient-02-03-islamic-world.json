@@ -8,7 +8,37 @@
     "id": "medieval-world",
     "label": "中古世界",
     "years": "约5—15世纪",
-    "learningContext": null
+    "learningContext": {
+      "childIntro": "到中世纪欧洲，看看手写书怎样留下知识；再到非洲南部，看看大津巴布韦的石墙与物品。两地各有自己的故事。",
+      "chronology": "本站总目录约5—15世纪。当前欧洲手写书以14世纪后半叶的手稿绘画作观察材料；大津巴布韦主线取约1100—1450年的城市发展。它们部分同时，却不是同一国家、同一制度或彼此必有直接联系。",
+      "covered": "抄写与装订如何帮助保存和阅读文字；绍纳人祖先的石城建造、当地生活与远方物品的证据边界。",
+      "scopeBoundary": "大学、庄园、拜占庭、伊斯兰世界、日本及美洲等原研究仍保留。当前两条可玩主线不代表整个中古世界或原长稿都已完成儿童化。",
+      "sourceIds": [
+        "MET-MEDIEVAL-BOOK-MAKING",
+        "SMB-MIN1233-LECTURE",
+        "UNESCO-GREAT-ZIMBABWE"
+      ],
+      "sources": [
+        {
+          "id": "MET-MEDIEVAL-BOOK-MAKING",
+          "title": "The Art of the Book in the Middle Ages",
+          "institution": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/essays/the-art-of-the-book-in-the-middle-ages"
+        },
+        {
+          "id": "SMB-MIN1233-LECTURE",
+          "title": "Aristoteles hält eine Vorlesung vor Studenten（Min 1233）",
+          "institution": "Staatliche Museen zu Berlin, Kupferstichkabinett",
+          "url": "https://id.smb.museum/object/954320"
+        },
+        {
+          "id": "UNESCO-GREAT-ZIMBABWE",
+          "title": "Great Zimbabwe National Monument",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/364/"
+        }
+      ]
+    }
   },
   "order": 8,
   "title": "阿拉伯帝国怎样连接三洲",
@@ -68,6 +98,13 @@
       "icon": "↔️",
       "plain": "不同的人把物品、知识或做法带给彼此。",
       "example": "交流常经过许多人和很多年，不是一位名人的单人旅行。",
+      "priority": 1
+    },
+    {
+      "term": "手稿",
+      "icon": "📖",
+      "plain": "用手写出来的文字或书。",
+      "example": "中世纪的手写书可能也有画；画不能当课堂照片。",
       "priority": 1
     },
     {
@@ -320,20 +357,20 @@
         "options": [
           {
             "id": "world-ancient-02-03-islamic-world-time-1",
-            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "label": "中国古代史 · 明朝 · 1368—1644年",
             "correct": false,
             "audio": {
-              "id": "quest-ec1b28f3cd29e479",
-              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+              "id": "quest-3b05b4d64f9c3530",
+              "text": "中国古代史 · 明朝 · 1368—1644年"
             }
           },
           {
             "id": "world-ancient-02-03-islamic-world-time-2",
-            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
+            "label": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）",
             "correct": false,
             "audio": {
-              "id": "quest-d697ebadd2ec4ecb",
-              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+              "id": "quest-0ee11e284f2f5ef2",
+              "text": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）"
             }
           },
           {
@@ -397,11 +434,11 @@
         "options": [
           {
             "id": "world-ancient-02-03-islamic-world-beginning-1",
-            "label": "大马士革、巴格达、尼沙普尔与泉，只是故事地点",
+            "label": "翻译者、学者、商人、工匠与多宗教居，只是故事人物",
             "correct": false,
             "audio": {
-              "id": "quest-73f69d4907330e1f",
-              "text": "大马士革、巴格达、尼沙普尔与泉，只是故事地点"
+              "id": "quest-2e08cc10f6cb09a6",
+              "text": "翻译者、学者、商人、工匠与多宗教居，只是故事人物"
             }
           },
           {
@@ -415,11 +452,11 @@
           },
           {
             "id": "world-ancient-02-03-islamic-world-beginning-3",
-            "label": "翻译者、学者、商人、工匠与多宗教居，只是故事人物",
+            "label": "大马士革、巴格达、尼沙普尔与泉，只是故事地点",
             "correct": false,
             "audio": {
-              "id": "quest-2e08cc10f6cb09a6",
-              "text": "翻译者、学者、商人、工匠与多宗教居，只是故事人物"
+              "id": "quest-73f69d4907330e1f",
+              "text": "大马士革、巴格达、尼沙普尔与泉，只是故事地点"
             }
           }
         ]
@@ -483,20 +520,20 @@
           },
           {
             "id": "world-ancient-02-03-islamic-world-journey-2",
-            "label": "大马士革、巴格达、尼沙普尔与，只说了地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-dbcb5547242f2bfe",
-              "text": "大马士革、巴格达、尼沙普尔与，只说了地点"
-            }
-          },
-          {
-            "id": "world-ancient-02-03-islamic-world-journey-3",
             "label": "翻译者、学者、商人、工匠与多宗教，只认出人物",
             "correct": false,
             "audio": {
               "id": "quest-5c854fc4189495f4",
               "text": "翻译者、学者、商人、工匠与多宗教，只认出人物"
+            }
+          },
+          {
+            "id": "world-ancient-02-03-islamic-world-journey-3",
+            "label": "大马士革、巴格达、尼沙普尔与，只说了地点",
+            "correct": false,
+            "audio": {
+              "id": "quest-dbcb5547242f2bfe",
+              "text": "大马士革、巴格达、尼沙普尔与，只说了地点"
             }
           }
         ]
@@ -551,20 +588,20 @@
         "options": [
           {
             "id": "world-ancient-02-03-islamic-world-change-1",
-            "label": "看学者翻译、提问、计算，还只是行动经过",
-            "correct": false,
-            "audio": {
-              "id": "quest-84ecebc7a6c51158",
-              "text": "看学者翻译、提问、计算，还只是行动经过"
-            }
-          },
-          {
-            "id": "world-ancient-02-03-islamic-world-change-2",
             "label": "手稿、城市地图与泉州，还只是故事起点",
             "correct": false,
             "audio": {
               "id": "quest-42e1e4b0d9826e09",
               "text": "手稿、城市地图与泉州，还只是故事起点"
+            }
+          },
+          {
+            "id": "world-ancient-02-03-islamic-world-change-2",
+            "label": "看学者翻译、提问、计算，还只是行动经过",
+            "correct": false,
+            "audio": {
+              "id": "quest-84ecebc7a6c51158",
+              "text": "看学者翻译、提问、计算，还只是行动经过"
             }
           },
           {
@@ -628,11 +665,11 @@
         "options": [
           {
             "id": "world-ancient-02-03-islamic-world-takeaway-1",
-            "label": "知识沿城市和商路传播，也来到泉州。、巴格达的翻译桌有，只说了结果",
+            "label": "坐到巴格达翻译桌边，摆上多种语言的书。、手稿、城，只说了原因",
             "correct": false,
             "audio": {
-              "id": "quest-353f0e519801c8df",
-              "text": "知识沿城市和商路传播，也来到泉州。、巴格达的翻译桌有，只说了结果"
+              "id": "quest-98d21fb873cdbfba",
+              "text": "坐到巴格达翻译桌边，摆上多种语言的书。、手稿、城，只说了原因"
             }
           },
           {
@@ -646,11 +683,11 @@
           },
           {
             "id": "world-ancient-02-03-islamic-world-takeaway-3",
-            "label": "坐到巴格达翻译桌边，摆上多种语言的书。、手稿、城，只说了原因",
+            "label": "知识沿城市和商路传播，也来到泉州。、巴格达的翻译桌有，只说了结果",
             "correct": false,
             "audio": {
-              "id": "quest-98d21fb873cdbfba",
-              "text": "坐到巴格达翻译桌边，摆上多种语言的书。、手稿、城，只说了原因"
+              "id": "quest-353f0e519801c8df",
+              "text": "知识沿城市和商路传播，也来到泉州。、巴格达的翻译桌有，只说了结果"
             }
           }
         ]
@@ -1254,6 +1291,36 @@
       "type": "curriculum-standard",
       "authorityLevel": "A",
       "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "MET-MEDIEVAL-BOOK-MAKING",
+      "title": "The Art of the Book in the Middle Ages",
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/essays/the-art-of-the-book-in-the-middle-ages",
+      "type": "museum-book-history-overview",
+      "authorityLevel": "A-museum",
+      "factUse": "中世纪书籍需要羊皮纸准备、按本抄写、装饰与装订劳动；手稿的保存、大学读书需求与传承；不把欧洲情况推广为全球没有印刷",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "SMB-MIN1233-LECTURE",
+      "title": "Aristoteles hält eine Vorlesung vor Studenten（Min 1233）",
+      "institution": "Staatliche Museen zu Berlin, Kupferstichkabinett",
+      "url": "https://id.smb.museum/object/954320",
+      "type": "museum-object-record",
+      "authorityLevel": "A-museum",
+      "factUse": "Laurentius de Voltolina，14世纪后半叶，羊皮纸绘画；画作主题为亚里士多德讲课，不是其真实肖像或中世纪课堂实录",
+      "imageUse": "public-domain-object-metadata"
+    },
+    {
+      "id": "UNESCO-GREAT-ZIMBABWE",
+      "title": "Great Zimbabwe National Monument",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/364/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A-primary",
+      "factUse": "大津巴布韦约1100—1450年的兴盛、绍纳人祖先建造的干砌石建筑、山丘遗址与大围场，以及玻璃珠、中国瓷器、波斯陶器和基尔瓦钱币所见贸易网络",
       "imageUse": "reference-only"
     }
   ],
