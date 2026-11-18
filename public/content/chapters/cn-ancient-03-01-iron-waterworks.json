@@ -9,15 +9,18 @@
     "label": "春秋战国",
     "years": "前770—前221年",
     "learningContext": {
-      "childIntro": "先到春秋认识孔子，听他教人怎样求学、怎样待人，再跟小伙伴把古话用在今天。",
-      "chronology": "本站范围为春秋战国；当前只开放孔子与论语任务，人物生活在春秋。",
-      "covered": "孔子的教育与思想贡献、《论语》、己所不欲勿施于人与学而时习之的具体实践。",
-      "scopeBoundary": "不把整个诸子百家压成一句话；其他旧稿暂不开放。",
+      "childIntro": "到春秋战国认识教人求学待人的孔子，再去看看战国铁农具和顺着江水分流灌田的都江堰。",
+      "chronology": "前770—前221年为春秋战国范围；孔子生活在春秋，双镰铁范与李冰主持始建都江堰属于战国，不可压成同一年。",
+      "covered": "孔子的教育与《论语》实践；战国铁农具、铸范成批制造，以及都江堰鱼嘴、飞沙堰、宝瓶口的分水防洪与引水原理。",
+      "scopeBoundary": "不把诸子百家或战国社会变化归因于单一人物或单一工具；今天的都江堰包含历代维修与扩展。",
       "sourceIds": [
         "KZYJ-CONFUCIUS-TEACHING",
         "EDB-ANALECTS-FOUR",
         "EDB-ANALECTS-RECIPROCITY",
-        "MOE-HISTORY-CURRICULUM-2022"
+        "MOE-HISTORY-CURRICULUM-2022",
+        "NMC-DOUBLE-SICKLE-IRON-MOULD",
+        "UNESCO-DUJIANGYAN",
+        "SICHUAN-DUJIANGYAN-OVERVIEW"
       ],
       "sources": [
         {
@@ -43,6 +46,24 @@
           "title": "义务教育历史课程标准（2022年版）",
           "institution": "中华人民共和国教育部",
           "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf"
+        },
+        {
+          "id": "NMC-DOUBLE-SICKLE-IRON-MOULD",
+          "title": "双镰铁范",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211026_251842.shtml"
+        },
+        {
+          "id": "UNESCO-DUJIANGYAN",
+          "title": "Mount Qingcheng and the Dujiangyan Irrigation System",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/1001/"
+        },
+        {
+          "id": "SICHUAN-DUJIANGYAN-OVERVIEW",
+          "title": "都江堰：传承千年的治水智慧",
+          "institution": "四川省水利厅",
+          "url": "https://slt.sc.gov.cn/scsslt/c112517/2025/7/16/d72e4374c5fc41848df897bcf9fba5cf.shtml"
         }
       ]
     }
@@ -53,59 +74,123 @@
   "throughline": "从铁农具、牛耕和都江堰等证据观察生产力发展、人口与社会变化。",
   "childEntry": {
     "id": "cn-ancient-03-01-iron-waterworks",
-    "childTitle": "都江堰怎样给水流分路",
-    "prompt": "没有大闸门，人们怎样让岷江的水去田里、把沙石带走？",
-    "takeaway": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。",
-    "object": "铁农具和都江堰水利工程",
+    "childTitle": "铁农具与都江堰：江水怎样听话去浇田？",
+    "prompt": "春秋战国工匠用铁范成批造农具；岷江水急易淹田，李冰不筑死高坝，怎样让江水分流去浇田？",
+    "takeaway": "春秋战国推广铁农具与铸范；战国晚期李冰始建都江堰，用鱼嘴、飞沙堰、宝瓶口顺势分水灌田，经历代维护沿用至今。",
+    "object": "都江堰鱼嘴现状、战国双镰铁范与铁锄",
     "people": [
-      "李冰与许多修建、维护工程的人"
+      "李冰、战国铁器工匠",
+      "历代岁修治水的人们"
     ],
-    "place": "四川成都平原都江堰",
-    "culture": null,
-    "care": "李冰是主持者之一，不把两千多年的修建与维护写成一个人独自完成。"
+    "place": "四川成都平原都江堰与燕国铁范出土地",
+    "culture": "顺势分水治水智慧与铁农具推广",
+    "care": "铁农具在战国中期后更常见，但并非一夜取代所有木石青铜工具，也不是社会变化的唯一原因。都江堰照片是现代遗产地现状，凝聚了历代岁修、改建与扩展，不等同战国原貌。分水学具为关系示意，不按真实河道比例测绘。",
+    "playableSource": "content/focused-quests.json",
+    "preferredAssetId": "saws-dujiangyan-yuzui"
   },
-  "learningGuide": null,
-  "textbookConnection": null,
+  "learningGuide": {
+    "id": "cn-ancient-03-01-iron-waterworks",
+    "theme": "发明、技术与工程",
+    "learningGoal": "战国铁范支持成批铸造铁农具；都江堰通过鱼嘴、飞沙堰、宝瓶口顺势分水防洪并经历代维护延续至今。",
+    "parentQuestion": "都江堰没有筑一道高墙把大江完全堵死，涨水时多余的水往哪里走？",
+    "observe": "在分水学具或图上指出外江排洪、飞沙堰溢洪排沙、宝瓶口控制进水灌田，并说出后人还要定期维护。",
+    "misconception": "铁器没有一夜取代全部旧工具，也不是社会变化的唯一原因；今天的都江堰包含历代岁修与扩建，不是战国原貌定格。",
+    "evidenceStepIds": [
+      "time",
+      "beginning",
+      "journey",
+      "change"
+    ],
+    "sourceIds": [
+      "MOE-HISTORY-CURRICULUM-2022",
+      "NMC-SPRING-AUTUMN-WARRING-STATES",
+      "NMC-DOUBLE-SICKLE-IRON-MOULD",
+      "UNESCO-DUJIANGYAN",
+      "SICHUAN-DUJIANGYAN-OVERVIEW",
+      "NEAC-DUJIANGYAN-MAINTENANCE"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-06-09-zhaozhou-bridge",
+        "relation": "同样面对河水暴涨，都江堰用鱼嘴和飞沙堰分流排洪，赵州桥用大拱加两侧小拱过水减冲。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "技术",
+      "农业",
+      "分水",
+      "遗址"
+    ]
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-03-01-iron-waterworks",
+    "featured": {
+      "type": "世界遗产",
+      "icon": "🌊",
+      "title": "李冰、战国铁器工匠与历代岁修治水的人们",
+      "childBridge": "春秋战国工匠用铁范成批造农具；岷江水急易淹田，李冰不筑死高坝，怎样让江水分流去浇田？",
+      "evidenceBoundary": "铁农具在战国中期后更常见，但并非一夜取代所有木石青铜工具，也不是社会变化的唯一原因。"
+    },
+    "companions": [
+      {
+        "type": "工程",
+        "label": "鱼嘴、飞沙堰与宝瓶口",
+        "note": "不筑拦河死坝，顺着地形与水流分水、排洪排沙、控制进水灌溉成都平原。"
+      },
+      {
+        "type": "实物",
+        "label": "战国燕国双镰铁范与铁锄",
+        "note": "一副铁范可一次浇铸两把铁镰，直接证明战国工匠已能用铸范成批制造铁农具。"
+      },
+      {
+        "type": "传承",
+        "label": "历代岁修与长期维护",
+        "note": "今天仍在使用的都江堰不是战国原貌定格，而是古代设计与历代维修扩展共同作用的结果。"
+      }
+    ],
+    "sourceIds": [
+      "MOE-HISTORY-CURRICULUM-2022",
+      "NMC-SPRING-AUTUMN-WARRING-STATES",
+      "NMC-DOUBLE-SICKLE-IRON-MOULD",
+      "UNESCO-DUJIANGYAN",
+      "SICHUAN-DUJIANGYAN-OVERVIEW",
+      "NEAC-DUJIANGYAN-MAINTENANCE"
+    ]
+  },
   "childStory": [
     {
-      "id": "hook",
-      "icon": "📍",
-      "label": "从一个地方出发",
-      "text": "都江堰怎样给水流分路"
+      "id": "time",
+      "icon": "🕰️",
+      "label": "到春秋战国看新农具与治水工程",
+      "text": "两千多年前的春秋战国时期，铁农具渐渐推广，秦国蜀郡郡守李冰还在约公元前256年主持始建都江堰。眼前照片是历代维修后的今天现状。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "鱼嘴先分水",
-      "text": "先看鱼嘴把岷江水分成外江和内江。"
+      "label": "一副铁模子，能铸出两把弯镰刀",
+      "text": "仔细看这件战国双镰铁范：深色铁模子里有两道弯弯的凹槽，倒入滚烫铁水冷却后，一次就能做出两把铁镰刀，让坚硬的铁农具更快推广开来。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "排沙再控水",
-      "text": "接着看飞沙堰排沙，宝瓶口控制进水。"
+      "label": "鱼嘴飞沙堰与宝瓶口的配合",
+      "text": "岷江水急时容易淹田，水少时农田又缺水。李冰不筑死高坝堵江，而是让鱼嘴分水、飞沙堰排走多余洪水和泥沙、宝瓶口引稳水灌田。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "每年都要照料",
-      "text": "最后发现工程能长久，还要人们每年维护。"
+      "label": "找一找鱼嘴与铁农具模型",
+      "text": "展厅沙盘把山谷来水、江心鱼嘴和右边绿油油的棋盘农田连在一起；旁边小木台上还摆着铁锄和双镰范模型。水利和农具一起帮人们种好庄稼。"
     },
     {
-      "id": "answer-retell",
+      "id": "takeaway",
       "icon": "🗣️",
-      "label": "把故事讲给家人听",
-      "text": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。"
+      "label": "顺水设计与历代用心维护",
+      "text": "都江堰能用两千多年，不光靠最初顺着地形分水的巧设计，还靠后来历代人们年年清理泥沙、修补堤堰。好办法加上长久维护，才能一直造福农田。"
     }
   ],
   "glossary": [
-    {
-      "term": "遗址",
-      "icon": "🏚️",
-      "plain": "过去的人生活或活动后留下的地方。",
-      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
-      "priority": 1
-    },
     {
       "term": "技术",
       "icon": "⚙️",
@@ -114,35 +199,46 @@
       "priority": 2
     },
     {
-      "term": "社会",
-      "icon": "🧑‍🤝‍🧑",
-      "plain": "许多人一起生活、分工并形成关系的整体。",
-      "example": "社会变化要看不同人受到的影响。",
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
       "priority": 2
     },
     {
-      "term": "组织",
-      "icon": "🤝",
-      "plain": "许多人为了共同事情分工、联系和行动。",
-      "example": "一个名人背后常有组织、协作者和普通参与者。",
-      "priority": 2
+      "term": "分水",
+      "icon": "🌊",
+      "plain": "顺着地形把一条大江的水分成两路，一路排走洪水，一路引去浇田。",
+      "example": "都江堰的鱼嘴在江心把岷江分成外江和内江。",
+      "priority": 1
     },
     {
-      "term": "发展",
-      "icon": "🌱",
-      "plain": "事物经过一段时间出现增长或变化。",
-      "example": "发展不只看速度和数量，也要看人的生活与环境。",
-      "priority": 3
-    },
-    {
-      "term": "生产",
-      "icon": "🛠️",
-      "plain": "把材料和劳动变成食物、工具或其他产品。",
-      "example": "生产离不开人、工具、材料和组织。",
-      "priority": 3
+      "term": "遗址",
+      "icon": "🏚️",
+      "plain": "过去的人生活或活动后留下的地方。",
+      "example": "今天看到的遗址经过岁月和保护，不是古代原样。",
+      "priority": 1
     }
   ],
   "pronunciations": [
+    {
+      "text": "李冰",
+      "reading": "Lǐ Bīng",
+      "kind": "person",
+      "chapterIds": [
+        "cn-ancient-03-01-iron-waterworks"
+      ],
+      "note": "战国秦国蜀郡郡守名；自动绑定不等于已人工校听。"
+    },
+    {
+      "text": "宝瓶口",
+      "reading": "Bǎopíngkǒu",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-03-01-iron-waterworks"
+      ],
+      "note": "都江堰引水口名称；自动绑定不等于已人工校听。"
+    },
     {
       "text": "都江堰",
       "reading": "Dūjiāngyàn",
@@ -152,417 +248,944 @@
         "cross-05-environment-development"
       ],
       "note": "“都”在此读dū，不读dōu。"
+    },
+    {
+      "text": "飞沙堰",
+      "reading": "Fēishāyàn",
+      "kind": "place",
+      "chapterIds": [
+        "cn-ancient-03-01-iron-waterworks"
+      ],
+      "note": "“堰”读yàn；自动绑定不等于已人工校听。"
     }
   ],
   "gameplay": {
-    "mode": "memory-hook-story-quest-v3",
+    "mode": "authored-picture-quest-v4",
     "status": "playable-core",
     "audioStatus": "local-pre-generated",
     "hook": {
-      "kind": "一个地方",
-      "icon": "📍",
-      "label": "都江堰怎样给水流分路",
-      "question": "没有大闸门，人们怎样让岷江的水去田里、把沙石带走？"
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "铁农具与都江堰：江水怎样听话去浇田？",
+      "question": "春秋战国工匠用铁范成批造农具；岷江水急易淹田，李冰不筑死高坝，怎样让江水分流去浇田？"
+    },
+    "cta": "去看看分江水的巧办法",
+    "anchor": "李冰、战国铁器工匠与历代岁修治水的人们",
+    "boundary": "铁农具在战国中期后更常见，但并非一夜取代所有木石青铜工具，也不是社会变化的唯一原因。都江堰照片是现代遗产地现状，凝聚了历代岁修、改建与扩展，不等同战国原貌。分水学具为关系示意，不按真实河道比例测绘。",
+    "evidence": [
+      {
+        "id": "saws-dujiangyan-yuzui",
+        "title": "都江堰鱼嘴与金刚堤现状照片",
+        "localPath": "reference-assets/spring-autumn-warring-states/dujiangyan-yuzui.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dujiangyan_irrigation_system,_Sichuan,_China.JPG",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 3.0",
+        "clearance": "cleared-open-license",
+        "caption": "今天的都江堰鱼嘴、金刚堤一带，岷江在这里分为内江和外江。",
+        "boundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/saws-dujiangyan-yuzui.jpg"
+      },
+      {
+        "id": "saws-iron-sickle-mould",
+        "title": "战国双镰铁范实物照片",
+        "localPath": "reference-assets/spring-autumn-warring-states/iron-sickle-mould.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Warring_States_Iron_Mould_for_2_Sickles_(9831323513).jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC0 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "中国国家博物馆展出的战国燕国双镰铁范；范中可见两道镰刀形凹槽和现代示意件。",
+        "boundary": "图片来源页把拍摄对象登记为1953年河北发现的燕国双镰铁范。文物名称、技术解释和年代以中国国家博物馆藏品页核验；浅色镰刀是展陈示意，不当作出土原件。未修改原图。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/saws-iron-sickle-mould.jpg"
+      },
+      {
+        "id": "saws-iron-hoe",
+        "title": "战国铁锄实物照片",
+        "localPath": "reference-assets/spring-autumn-warring-states/iron-hoe.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Warring_States_Iron_Hoe_(9831259805).jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC0 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "中国国家博物馆展出的战国燕国铁锄。",
+        "boundary": "来源页登记为燕国、河北1958年发现；儿童正文只把它作为战国铁农具实物例证，不为器物虚构主人或具体使用场景。未修改原图。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/saws-iron-hoe.jpg"
+      }
+    ],
+    "photoAlbum": {
+      "id": "warring-iron-water-album",
+      "title": "战国铁农具与都江堰真材料相册",
+      "label": "翻看都江堰现状、双镰铁范与铁锄",
+      "photos": [
+        {
+          "assetId": "saws-dujiangyan-yuzui",
+          "title": "都江堰鱼嘴与内外江分水现状",
+          "label": "都江堰鱼嘴现状",
+          "period": "约前256年始建 · 2005年遗产地现状照片",
+          "caption": "岷江在鱼嘴处分为内江与外江；包含历代维修与现代设施",
+          "observation": "看看江心尖尖的分水堤，把迎面流来的江水分成左右两条水道。",
+          "narration": "这张照片拍的是今天的四川都江堰鱼嘴一带。战国晚期李冰主持始建都江堰，后来历代不断维修完善，直到今天还在分水防洪、灌溉农田。",
+          "sourceIds": [
+            "UNESCO-DUJIANGYAN",
+            "SICHUAN-DUJIANGYAN-OVERVIEW",
+            "NEAC-DUJIANGYAN-MAINTENANCE"
+          ],
+          "sourceLinks": [
+            {
+              "title": "UNESCO：青城山与都江堰世界遗产",
+              "url": "https://whc.unesco.org/en/list/1001/"
+            },
+            {
+              "title": "开放许可文件页（CC BY-SA 3.0）",
+              "url": "https://commons.wikimedia.org/wiki/File:Dujiangyan_irrigation_system,_Sichuan,_China.JPG"
+            }
+          ],
+          "image": "/content/step-images/saws-dujiangyan-yuzui.jpg",
+          "boundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。",
+          "audio": {
+            "id": "quest-01acc8dc85c2704b",
+            "text": "这张照片拍的是今天的四川都江堰鱼嘴一带。战国晚期李冰主持始建都江堰，后来历代不断维修完善，直到今天还在分水防洪、灌溉农田。"
+          }
+        },
+        {
+          "assetId": "saws-iron-sickle-mould",
+          "title": "战国燕国双镰铁范实物照片",
+          "label": "战国双镰铁范",
+          "period": "战国时期 · 中国国家博物馆藏",
+          "caption": "铁范中有两道弯镰凹槽，一次可浇铸两把铁镰（浅色件为展陈示意）",
+          "observation": "看看深色铁模子里并排的两道弯弯凹槽，铁水倒进去就能一次铸出两把镰刀。",
+          "narration": "这件战国双镰铁范有两道弯弯的镰刀槽，证明当时工匠已经能用模子成批铸造坚硬的铁农具。旁边浅色镰刀是现代展陈示意件。",
+          "sourceIds": [
+            "NMC-DOUBLE-SICKLE-IRON-MOULD"
+          ],
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：双镰铁范",
+              "url": "https://www.chnmus.net/ch/collection/data/20201105/65224.html"
+            },
+            {
+              "title": "开放许可文件页（CC0 1.0）",
+              "url": "https://commons.wikimedia.org/wiki/File:Warring_States_Iron_Mould_for_2_Sickles_(9831323513).jpg"
+            }
+          ],
+          "image": "/content/step-images/saws-iron-sickle-mould.jpg",
+          "boundary": "图片来源页把拍摄对象登记为1953年河北发现的燕国双镰铁范。文物名称、技术解释和年代以中国国家博物馆藏品页核验；浅色镰刀是展陈示意，不当作出土原件。未修改原图。",
+          "audio": {
+            "id": "quest-e29431add845a796",
+            "text": "这件战国双镰铁范有两道弯弯的镰刀槽，证明当时工匠已经能用模子成批铸造坚硬的铁农具。旁边浅色镰刀是现代展陈示意件。"
+          }
+        },
+        {
+          "assetId": "saws-iron-hoe",
+          "title": "战国铁锄实物照片",
+          "label": "战国铁锄",
+          "period": "战国时期 · 中国国家博物馆藏",
+          "caption": "装上木柄后可用于翻土除草的战国铁农具",
+          "observation": "看看铁锄宽宽的刃部和上方装木柄的插口，比木石工具更坚硬耐磨。",
+          "narration": "这是一件战国铁锄实物。装上木柄后，农民翻土除草更有力气。铁农具在战国中期以后越来越常见。",
+          "sourceIds": [
+            "NMC-SPRING-AUTUMN-WARRING-STATES"
+          ],
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：春秋战国时期陈列",
+              "url": "https://www.chnmus.net/ch/exhibition/ancient_china.html"
+            },
+            {
+              "title": "开放许可文件页（CC0 1.0）",
+              "url": "https://commons.wikimedia.org/wiki/File:Warring_States_Iron_Hoe_(9831259805).jpg"
+            }
+          ],
+          "image": "/content/step-images/saws-iron-hoe.jpg",
+          "boundary": "来源页登记为燕国、河北1958年发现；儿童正文只把它作为战国铁农具实物例证，不为器物虚构主人或具体使用场景。未修改原图。",
+          "audio": {
+            "id": "quest-f45502388a53c192",
+            "text": "这是一件战国铁锄实物。装上木柄后，农民翻土除草更有力气。铁农具在战国中期以后越来越常见。"
+          }
+        }
+      ]
+    },
+    "coverAsset": {
+      "id": "saws-dujiangyan-yuzui",
+      "title": "都江堰鱼嘴与金刚堤现状照片",
+      "localPath": "reference-assets/spring-autumn-warring-states/dujiangyan-yuzui.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dujiangyan_irrigation_system,_Sichuan,_China.JPG",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY-SA 3.0",
+      "clearance": "cleared-open-license",
+      "caption": "今天的都江堰鱼嘴、金刚堤一带，岷江在这里分为内江和外江。",
+      "boundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/saws-dujiangyan-yuzui.jpg"
+    },
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "warring-dujiangyan-scene-v1",
+      "sceneAlt": "讲解员与三位小伙伴在博物馆观察都江堰分水沙盘与铁锄、双镰范模型",
+      "title": "铁农具与都江堰：江水怎样听话去浇田？",
+      "evidenceTitle": "都江堰鱼嘴现状与战国铁范铁锄",
+      "evidenceLine": "真实照片、分水学具与故事插画各司其职。",
+      "evidenceNarration": "相册里既有今天仍在工作的都江堰鱼嘴照片，也有中国国家博物馆展出的战国双镰铁范和铁锄。",
+      "guide": "听听语音提示，操作分水学具或点图找线索。",
+      "alignHint": "",
+      "familyHint": "和家人一起试试水流分路的小游戏。",
+      "familyLabel": "和家人试试分水小游戏",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "带着发现回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "warring-dujiangyan-scene-v1",
+        "reunionAlt": "三位小伙伴与讲解员回看都江堰分水沙盘与战国铁农具线索",
+        "reunionAspectRatio": 1.5,
+        "reunionFit": "contain",
+        "coverCaption": "去春秋战国看铁农具与分江水的巧办法",
+        "coverNarration": "大江涨水容易淹没农田，不筑高墙堵死江水，怎样让急水排走、稳水去浇田？跟小伙伴到春秋战国，看铁农具和都江堰的巧办法！",
+        "closingCaption": "顺水防洪与历代守护",
+        "closingLine": "铁范铸新具，顺水分急流。",
+        "closingNarration": "春秋战国推广铁农具与铸范，李冰主持始建都江堰，用鱼嘴分水、飞沙堰排洪、宝瓶口引水灌田，并经历代维护一直造福今天。",
+        "fictionNote": "博物馆沙盘与分水学具是帮助理解工程关系的教学模型，不按真实河道比例测绘；照片中的都江堰为历代维修后的现代现状。",
+        "reunionImage": "/content/step-images/warring-dujiangyan-scene-v1.jpg",
+        "stationLine": "到春秋战国认识教人求学待人的孔子，再去看看战国铁农具和顺着江水分流灌田的都江堰。",
+        "stationAudio": {
+          "id": "quest-19b220cdd96fbd64",
+          "text": "到春秋战国认识教人求学待人的孔子，再去看看战国铁农具和顺着江水分流灌田的都江堰。"
+        },
+        "closingAudio": {
+          "id": "quest-7be6cdec071df9fe",
+          "text": "春秋战国推广铁农具与铸范，李冰主持始建都江堰，用鱼嘴分水、飞沙堰排洪、宝瓶口引水灌田，并经历代维护一直造福今天。"
+        }
+      },
+      "sceneImage": "/content/step-images/warring-dujiangyan-scene-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-a99581457cdcee02",
+        "text": "相册里既有今天仍在工作的都江堰鱼嘴照片，也有中国国家博物馆展出的战国双镰铁范和铁锄。"
+      },
+      "guideAudio": {
+        "id": "quest-945853eda3f7ce53",
+        "text": "听听语音提示，操作分水学具或点图找线索。"
+      }
+    },
+    "sceneAsset": {
+      "id": "warring-dujiangyan-scene-v1",
+      "title": "博物馆里观察都江堰分水沙盘与铁锄双镰铁范模型 · 教学插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/warring-dujiangyan-scene-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代博物馆沙盘示意：鱼嘴分水引灌农田，旁有铁锄与双镰范模型",
+      "boundary": "现代博物馆教学插画，帮助观察鱼嘴分水、溢洪与引水入田的配合及铁农具铸范关系；不是战国原貌复原，今天的都江堰凝聚了历代维修与扩展。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/warring-dujiangyan-scene-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "warring-dujiangyan-scene-v1",
+        "title": "博物馆里观察都江堰分水沙盘与铁锄双镰铁范模型 · 教学插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/warring-dujiangyan-scene-v2.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
+        "clearance": "cleared-project-created",
+        "caption": "现代博物馆沙盘示意：鱼嘴分水引灌农田，旁有铁锄与双镰范模型",
+        "boundary": "现代博物馆教学插画，帮助观察鱼嘴分水、溢洪与引水入田的配合及铁农具铸范关系；不是战国原貌复原，今天的都江堰凝聚了历代维修与扩展。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/warring-dujiangyan-scene-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/saws-dujiangyan-yuzui.jpg",
+    "coverImageAlt": "都江堰鱼嘴与金刚堤现状照片",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "都江堰鱼嘴分水 · 现代现状",
+      "fit": "cover"
     },
     "coverAudio": {
-      "id": "quest-c65002725e1db485",
-      "text": "今天从一个地方出发：都江堰怎样给水流分路。我们要去四川成都平原都江堰，看看铁农具和都江堰水利工程怎样把答案一点点带出来。准备好就点开始。"
+      "id": "quest-21c2ad2d08997f03",
+      "text": "大江涨水容易淹没农田，不筑高墙堵死江水，怎样让急水排走、稳水去浇田？跟小伙伴到春秋战国，看铁农具和都江堰的巧办法！"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-7381fb4cc8975f15",
-      "text": "五条线索都找到了，“都江堰怎样给水流分路”的答案是：鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。 你获得了历史证据小侦探勋章。"
+      "id": "quest-76d1c6e8124fb343",
+      "text": "春秋战国推广铁农具与铸范；战国晚期李冰始建都江堰，用鱼嘴、飞沙堰、宝瓶口顺势分水灌田，经历代维护沿用至今。"
     },
-    "estimatedMinutes": 7,
+    "finish": {
+      "title": "铁范成批造农具，鱼嘴顺势分江水！",
+      "actions": [
+        "洗澡或洗手时，用手指在水流前轻轻一分，看看一股水怎样绕开手指分成两路。",
+        "指着图给家人讲讲：鱼嘴、飞沙堰、宝瓶口各自帮江水做了什么事？"
+      ],
+      "parent": "引导孩子看到两件事：一是双镰铁范证明战国工匠能成批铸造铁农具；二是都江堰不靠筑死高坝，而是顺势分水并依靠历代岁修延续至今。避免说成铁器单独决定一切或战国原貌一成不变。",
+      "sceneStepIndexes": [
+        2,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-d7044111fb248dd8",
+          "text": "洗澡或洗手时，用手指在水流前轻轻一分，看看一股水怎样绕开手指分成两路。"
+        },
+        {
+          "id": "quest-5e5e342f961f319b",
+          "text": "指着图给家人讲讲：鱼嘴、飞沙堰、宝瓶口各自帮江水做了什么事？"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-7be6cdec071df9fe",
+        "text": "春秋战国推广铁农具与铸范，李冰主持始建都江堰，用鱼嘴分水、飞沙堰排洪、宝瓶口引水灌田，并经历代维护一直造福今天。"
+      }
+    },
+    "estimatedMinutes": 6,
     "badge": {
-      "icon": "🏅",
-      "label": "历史证据小侦探"
+      "icon": "🌟",
+      "label": "小小观察员"
     },
     "steps": [
       {
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "先找到时间",
-        "title": "先把故事放进时间河",
-        "prompt": "从一个地方出发，先找哪个年代？",
-        "rightNote": "时间找对了，故事有了起点。",
-        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "phase": "到春秋战国看新农具与治水工程",
+        "title": "到春秋战国看新农具与治水工程",
+        "prompt": "铁农具推广与李冰始建都江堰在哪一时期？",
+        "rightNote": "在春秋战国时期，农具铸造与水利工程都有了重要发展。",
+        "wrongNote": "清朝离今天很近，双镰铁范与李冰始建都江堰都在春秋战国。",
+        "sourceIds": [
+          "MOE-HISTORY-CURRICULUM-2022",
+          "UNESCO-DUJIANGYAN",
+          "SICHUAN-DUJIANGYAN-OVERVIEW"
+        ],
+        "interaction": {
+          "kind": "timeline",
+          "hint": "看看时间河上秦朝前面的一站。"
+        },
+        "narrative": {
+          "scene": "artifact",
+          "caption": "岷江上的鱼嘴分水堤现状",
+          "speaker": "小航",
+          "responseSpeaker": "小禾",
+          "response": "在春秋战国站！两千多年前始建的都江堰，经过历代维护今天还在用呢。",
+          "retry": "清朝很靠后啦，再看秦朝前面一站春秋战国。",
+          "nextLabel": "先看一副模子怎样铸两把镰刀"
+        },
+        "concepts": [
+          {
+            "term": "铁农具",
+            "meaning": "用坚硬的铁做成的锄头、镰刀等种田工具",
+            "audio": {
+              "id": "quest-3f679ffecfa08e89",
+              "text": "铁农具：用坚硬的铁做成的锄头、镰刀等种田工具。"
+            }
+          },
+          {
+            "term": "都江堰",
+            "meaning": "四川岷江上顺着水势分流防洪又浇田的工程",
+            "audio": {
+              "id": "quest-3a8eccb1ef4e42f7",
+              "text": "都江堰：四川岷江上顺着水势分流防洪又浇田的工程。"
+            }
+          }
+        ],
+        "inspection": {
+          "id": "saws-dujiangyan-yuzui",
+          "title": "都江堰鱼嘴分水现状照片",
+          "localPath": "reference-assets/spring-autumn-warring-states/dujiangyan-yuzui.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Dujiangyan_irrigation_system,_Sichuan,_China.JPG",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 3.0",
+          "clearance": "cleared-open-license",
+          "caption": "战国始建 · 历代维修 · 现代遗产地现状",
+          "boundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。 今天的都江堰鱼嘴、金刚堤一带，岷江在这里分为内江和外江。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/saws-dujiangyan-yuzui.jpg",
+          "label": "翻看相册：都江堰、双镰范与铁锄",
+          "placement": "main",
+          "framing": "landscape",
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "UNESCO：青城山与都江堰",
+              "url": "https://whc.unesco.org/en/list/1001/"
+            },
+            {
+              "title": "开放许可文件页",
+              "url": "https://commons.wikimedia.org/wiki/File:Dujiangyan_irrigation_system,_Sichuan,_China.JPG"
+            }
+          ],
+          "audio": {
+            "id": "quest-2bb50aaf4d366576",
+            "text": "照片里江心尖尖的堤叫鱼嘴，把岷江分成内江和外江。今天看到的工程包含历代岁修与现代维护。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "先把故事放进时间河",
-          "screenText": "这是春秋战国，时间是前770—前221年。",
-          "narration": "这是春秋战国，时间是前770—前221年。",
-          "displayText": "这是春秋战国，时间是前770—前221年。"
+          "title": "到春秋战国看新农具与治水工程",
+          "screenText": "两千多年前的春秋战国时期，铁农具渐渐推广，秦国蜀郡郡守李冰还在约公元前256年主持始建都江堰。眼前照片是历代维修后的今天现状。",
+          "displayText": "两千多年前的春秋战国时期，铁农具渐渐推广，秦国蜀郡郡守李冰还在约公元前256年主持始建都江堰。眼前照片是历代维修后的今天现状。",
+          "narration": "两千多年前的春秋战国时期，铁农具渐渐推广，秦国蜀郡郡守李冰还在约公元前256年主持始建都江堰。眼前照片是历代维修后的今天现状。"
         },
-        "assetId": "saws-iron-hoe",
-        "image": "/content/step-images/saws-iron-hoe.jpg",
-        "imageAlt": "战国铁锄实物照片",
-        "imageCaption": "中国国家博物馆展出的战国燕国铁锄。",
-        "imageBoundary": "来源页登记为燕国、河北1958年发现；儿童正文只把它作为战国铁农具实物例证，不为器物虚构主人或具体使用场景。未修改原图。",
+        "assetId": "study-41fcd112a0781668",
+        "image": "/content/study-scenes/study-41fcd112a0781668.svg",
+        "studyImage": "/content/study-scenes/study-41fcd112a0781668.svg",
+        "studyImageAlt": "都江堰分水，春秋战国农耕",
+        "imageAlt": "都江堰分水，春秋战国农耕",
+        "imageCaption": "学习示意 · 都江堰分水，春秋战国农耕",
+        "imageBoundary": "自制学习示意。铁农具在战国中期后更常见，但并非一夜取代所有木石青铜工具，也不是社会变化的唯一原因。都江堰照片是现代遗产地现状，凝聚了历代岁修、改建与扩展，不等同战国原貌。分水学具为关系示意，不按真实河道比例测绘。",
         "audio": {
+          "lead": {
+            "id": "quest-729be050f5dffc31",
+            "text": "两千多年前的春秋战国，人们推广铁农具，李冰还主持始建都江堰。它们出现在哪一时期？"
+          },
           "transition": {
-            "id": "quest-cafb042b318bc60f",
-            "text": "先给一个地方找到正确年代。"
+            "id": "quest-556f6cc1e0f8e5ee",
+            "text": "到春秋战国看新农具与治水工程。"
           },
           "intro": {
-            "id": "quest-16ace2d60e63a25e",
-            "text": "这是春秋战国，时间是前770—前221年。"
-          },
-          "image": {
-            "id": "quest-7cbed7e1dd03df2e",
-            "text": "点开大图啦。这是战国铁锄实物照片。这张图能帮我们找到：这是春秋战国，时间是前770—前221年。"
+            "id": "quest-f7988e0bd6b43eff",
+            "text": "两千多年前的春秋战国时期，铁农具渐渐推广，秦国蜀郡郡守李冰还在约公元前256年主持始建都江堰。眼前照片是历代维修后的今天现状。"
           },
           "question": {
-            "id": "quest-6b36b10ba4b7def9",
-            "text": "从一个地方出发，先找哪个年代？"
+            "id": "quest-fa2107dd9197fbaa",
+            "text": "铁农具推广与李冰始建都江堰在哪一时期？"
+          },
+          "image": {
+            "id": "quest-378c827bc49111d1",
+            "text": "这是学习示意图：都江堰分水，春秋战国农耕。铁农具推广与李冰始建都江堰在哪一时期？"
           },
           "right": {
-            "id": "quest-c2d78010da74a324",
-            "text": "答对啦！时间找对了，故事有了起点。"
+            "id": "quest-7b04442ed9030458",
+            "text": "在春秋战国站！两千多年前始建的都江堰，经过历代维护今天还在用呢。"
           },
           "wrong": {
-            "id": "quest-97f81f02dcd7c5eb",
-            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+            "id": "quest-37c9dab866a97ab1",
+            "text": "清朝很靠后啦，再看秦朝前面一站春秋战国。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-03-01-iron-waterworks-time-1",
-            "label": "中国古代史 · 春秋战国 · 前770—前221年",
+            "label": "春秋战国 · 前770—前221年",
             "correct": true,
+            "objectView": {
+              "kind": "era",
+              "name": "春秋战国",
+              "date": "前770—前221年",
+              "stationImage": "/images/history-stations/change.webp"
+            },
+            "image": "/content/study-scenes/study-045d37575693edaa.svg",
+            "imageAlt": "春秋战国",
             "audio": {
-              "id": "quest-e3a8eb496edbf0f1",
-              "text": "中国古代史 · 春秋战国 · 前770—前221年"
+              "id": "quest-dc30b68699d34432",
+              "text": "春秋战国 · 前770—前221年"
             }
           },
           {
             "id": "cn-ancient-03-01-iron-waterworks-time-2",
-            "label": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）",
+            "label": "清朝 · 1644—1840年前",
             "correct": false,
+            "objectView": {
+              "kind": "era",
+              "name": "清朝",
+              "date": "1644—1840年前",
+              "stationImage": "/images/history-stations/qing.webp"
+            },
+            "image": "/content/study-scenes/study-692b648b7f5ad10a.svg",
+            "imageAlt": "清朝",
             "audio": {
-              "id": "quest-0ee11e284f2f5ef2",
-              "text": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）"
-            }
-          },
-          {
-            "id": "cn-ancient-03-01-iron-waterworks-time-3",
-            "label": "中国近代史 · 晚清的危机与救亡 · 1840—1911年",
-            "correct": false,
-            "audio": {
-              "id": "quest-a326ed6569d4da14",
-              "text": "中国近代史 · 晚清的危机与救亡 · 1840—1911年"
+              "id": "quest-3fa8255516adaa35",
+              "text": "清朝 · 1644—1840年前"
             }
           }
         ]
       },
       {
         "id": "beginning",
-        "questionKind": "evidence-object",
+        "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "第一拍 · 故事起点",
-        "title": "鱼嘴先分水",
-        "prompt": "哪一件证物能先打开这个故事？",
-        "rightNote": "先看鱼嘴把岷江水分成外江和内江。",
-        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "phase": "一副铁模子，能铸出两把弯镰刀",
+        "title": "一副铁模子，能铸出两把弯镰刀",
+        "prompt": "双镰铁范怎样帮人们更快造出铁农具",
+        "rightNote": "铸范让工匠能成批制作形状相同的坚硬铁镰。",
+        "wrongNote": "再看看模子里的两道弯槽。",
+        "sourceIds": [
+          "NMC-DOUBLE-SICKLE-IRON-MOULD",
+          "NMC-SPRING-AUTUMN-WARRING-STATES"
+        ],
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "点大图可放大观察两道弯槽，听完点继续。",
+          "continueLabel": "去动手试试都江堰分水"
+        },
+        "narrative": {
+          "scene": "artifact",
+          "caption": "战国双镰铁范实物",
+          "speaker": "小朵",
+          "responseSpeaker": "小禾",
+          "response": "有了这样的模子，工匠就能一批一批做出结实的铁镰刀啦！",
+          "retry": "再看看模子。",
+          "nextLabel": "动手试试都江堰怎样分江水"
+        },
+        "concepts": [
+          {
+            "term": "双镰铁范",
+            "meaning": "刻着两道镰刀槽、能一次铸两把铁镰的模子",
+            "audio": {
+              "id": "quest-b18daddb69b6cf5b",
+              "text": "双镰铁范：刻着两道镰刀槽、能一次铸两把铁镰的模子。"
+            }
+          }
+        ],
+        "inspection": {
+          "id": "saws-iron-sickle-mould",
+          "title": "战国燕国双镰铁范",
+          "localPath": "reference-assets/spring-autumn-warring-states/iron-sickle-mould.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Warring_States_Iron_Mould_for_2_Sickles_(9831323513).jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC0 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "中国国家博物馆藏 · 浅色镰刀为现代展陈示意件",
+          "boundary": "图片来源页把拍摄对象登记为1953年河北发现的燕国双镰铁范。文物名称、技术解释和年代以中国国家博物馆藏品页核验；浅色镰刀是展陈示意，不当作出土原件。未修改原图。 中国国家博物馆展出的战国燕国双镰铁范；范中可见两道镰刀形凹槽和现代示意件。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/saws-iron-sickle-mould.jpg",
+          "label": "放大看双镰铁范凹槽",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 255,
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：双镰铁范",
+              "url": "https://www.chnmus.net/ch/collection/data/20201105/65224.html"
+            }
+          ],
+          "audio": {
+            "id": "quest-4345e8872b60291e",
+            "text": "模子里并排有两道弯槽，用来浇铸铁镰刀；旁边浅色镰刀是博物馆为了帮大家看懂放的示意件。"
+          }
+        },
         "story": {
           "screenNumber": 2,
-          "title": "鱼嘴先分水",
-          "screenText": "先看鱼嘴把岷江水分成外江和内江。",
-          "narration": "先看鱼嘴把岷江水分成外江和内江。",
-          "displayText": "先看鱼嘴把岷江水分成外江和内江。"
+          "title": "一副铁模子，能铸出两把弯镰刀",
+          "screenText": "仔细看这件战国双镰铁范：深色铁模子里有两道弯弯的凹槽，倒入滚烫铁水冷却后，一次就能做出两把铁镰刀，让坚硬的铁农具更快推广开来。",
+          "displayText": "仔细看这件战国双镰铁范：深色铁模子里有两道弯弯的凹槽，倒入滚烫铁水冷却后，一次就能做出两把铁镰刀，让坚硬的铁农具更快推广开来。",
+          "narration": "仔细看这件战国双镰铁范：深色铁模子里有两道弯弯的凹槽，倒入滚烫铁水冷却后，一次就能做出两把铁镰刀，让坚硬的铁农具更快推广开来。"
         },
-        "assetId": "saws-dujiangyan-yuzui",
-        "image": "/content/step-images/saws-dujiangyan-yuzui.jpg",
-        "imageAlt": "都江堰鱼嘴与金刚堤现状照片",
-        "imageCaption": "今天的都江堰鱼嘴、金刚堤一带，岷江在这里分为内江和外江。",
-        "imageBoundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。",
+        "assetId": "study-549d6497db1cdd9b",
+        "image": "/content/study-scenes/study-549d6497db1cdd9b.svg",
+        "studyImage": "/content/study-scenes/study-549d6497db1cdd9b.svg",
+        "studyImageAlt": "双镰铁范凹槽，成批铸造铁镰",
+        "imageAlt": "双镰铁范凹槽，成批铸造铁镰",
+        "imageCaption": "学习示意 · 双镰铁范凹槽，成批铸造铁镰",
+        "imageBoundary": "自制学习示意。铁农具在战国中期后更常见，但并非一夜取代所有木石青铜工具，也不是社会变化的唯一原因。都江堰照片是现代遗产地现状，凝聚了历代岁修、改建与扩展，不等同战国原貌。分水学具为关系示意，不按真实河道比例测绘。",
         "audio": {
+          "lead": {
+            "id": "quest-ae44edbc179c4287",
+            "text": "双镰铁范里有两道镰刀形凹槽，铁水倒进去冷却，一次就能造出两把铁镰刀。"
+          },
           "transition": {
-            "id": "quest-bc13be496686808e",
-            "text": "时间找到了。先找一件看得见、能核对的证物。"
+            "id": "quest-e4717796a67a0d40",
+            "text": "一副铁模子，能铸出两把弯镰刀。"
           },
           "intro": {
-            "id": "quest-f35c942b085f849b",
-            "text": "先看鱼嘴把岷江水分成外江和内江。"
-          },
-          "image": {
-            "id": "quest-91cd2b289bc2239b",
-            "text": "点开大图啦。这是都江堰鱼嘴与金刚堤现状照片。这张图能帮我们找到：先看鱼嘴把岷江水分成外江和内江。"
+            "id": "quest-804199a9ca94917b",
+            "text": "仔细看这件战国双镰铁范：深色铁模子里有两道弯弯的凹槽，倒入滚烫铁水冷却后，一次就能做出两把铁镰刀，让坚硬的铁农具更快推广开来。"
           },
           "question": {
-            "id": "quest-785d31b501154b8e",
-            "text": "哪一件证物能先打开这个故事？"
+            "id": "quest-64c0e15f3d21f65e",
+            "text": "双镰铁范怎样帮人们更快造出铁农具"
+          },
+          "image": {
+            "id": "quest-a9ed38f62ced8444",
+            "text": "这是学习示意图：双镰铁范凹槽，成批铸造铁镰。双镰铁范怎样帮人们更快造出铁农具"
           },
           "right": {
-            "id": "quest-9e334cf899a379f3",
-            "text": "答对啦！第一件证物找到了。"
+            "id": "quest-42eaaf90b0fa9b06",
+            "text": "有了这样的模子，工匠就能一批一批做出结实的铁镰刀啦！"
           },
           "wrong": {
-            "id": "quest-83318c217691cf7c",
-            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+            "id": "quest-e84f65d5a061c647",
+            "text": "再看看模子。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-03-01-iron-waterworks-beginning-1",
-            "label": "四川成都平原都江堰、李，只是故事地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-8a6c8b1763a8a779",
-              "text": "四川成都平原都江堰、李，只是故事地点"
-            }
-          },
-          {
-            "id": "cn-ancient-03-01-iron-waterworks-beginning-2",
-            "label": "李冰与许多修建、维护工程的，只是故事人物",
-            "correct": false,
-            "audio": {
-              "id": "quest-2db4e60b3177e81d",
-              "text": "李冰与许多修建、维护工程的，只是故事人物"
-            }
-          },
-          {
-            "id": "cn-ancient-03-01-iron-waterworks-beginning-3",
-            "label": "铁农具和都江堰水利工程，是能核对的证物",
-            "correct": true,
-            "audio": {
-              "id": "quest-08e47d80f4dfc073",
-              "text": "铁农具和都江堰水利工程，是能核对的证物"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
-        "questionKind": "people-place-action",
+        "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "第二拍 · 故事继续",
-        "title": "排沙再控水",
-        "prompt": "故事里的人来到这里以后，做了什么？",
-        "rightNote": "接着看飞沙堰排沙，宝瓶口控制进水。",
-        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "phase": "鱼嘴飞沙堰与宝瓶口的配合",
+        "title": "鱼嘴飞沙堰与宝瓶口的配合",
+        "prompt": "点按钮看看江水怎样分流排洪再去浇田",
+        "rightNote": "三部分顺着水势配合，既防洪水又浇灌成都平原。",
+        "wrongNote": "按步骤观察水流变化。",
+        "sourceIds": [
+          "UNESCO-DUJIANGYAN",
+          "SICHUAN-DUJIANGYAN-OVERVIEW"
+        ],
+        "interaction": {
+          "kind": "history-lab",
+          "hint": "依次点按钮，观察涨水排洪与引水入田。",
+          "lab": {
+            "kind": "water-split",
+            "stages": [
+              {
+                "label": "涨水时看飞沙堰排洪",
+                "narration": "涨水时大股急水走外江，内江多余的水和沙漫过矮矮的飞沙堰排向外江。",
+                "audio": {
+                  "id": "quest-cef5f8c81e3ae1dd",
+                  "text": "涨水时大股急水走外江，内江多余的水和沙漫过矮矮的飞沙堰排向外江。"
+                }
+              },
+              {
+                "label": "引稳水进宝瓶口浇田",
+                "narration": "排走多余急水后，稳稳的江水穿过狭窄的宝瓶口，流进渠道浇灌农田。",
+                "audio": {
+                  "id": "quest-1cbeb0c2d38e2a18",
+                  "text": "排走多余急水后，稳稳的江水穿过狭窄的宝瓶口，流进渠道浇灌农田。"
+                }
+              }
+            ]
+          }
+        },
+        "narrative": {
+          "scene": "workshop",
+          "caption": "都江堰分水学具",
+          "speaker": "小禾",
+          "responseSpeaker": "小航",
+          "response": "急水排去外江，稳水进宝瓶口浇绿农田，不用堵死江水真聪明！",
+          "retry": "接着点按钮观察水流。",
+          "nextLabel": "在展厅沙盘里找分水堤与铁农具"
+        },
+        "concepts": [
+          {
+            "term": "鱼嘴",
+            "meaning": "江心前端尖尖、像鱼嘴一样的分水堤",
+            "audio": {
+              "id": "quest-967a2adc2af39f20",
+              "text": "鱼嘴：江心前端尖尖、像鱼嘴一样的分水堤。"
+            }
+          },
+          {
+            "term": "宝瓶口",
+            "meaning": "在山崖间开凿出的狭窄引水口，控制进田水量",
+            "audio": {
+              "id": "quest-2d9427894602576e",
+              "text": "宝瓶口：在山崖间开凿出的狭窄引水口，控制进田水量。"
+            }
+          }
+        ],
+        "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "排沙再控水",
-          "screenText": "接着看飞沙堰排沙，宝瓶口控制进水。",
-          "narration": "接着看飞沙堰排沙，宝瓶口控制进水。",
-          "displayText": "接着看飞沙堰排沙，宝瓶口控制进水。"
+          "title": "鱼嘴飞沙堰与宝瓶口的配合",
+          "screenText": "岷江水急时容易淹田，水少时农田又缺水。李冰不筑死高坝堵江，而是让鱼嘴分水、飞沙堰排走多余洪水和泥沙、宝瓶口引稳水灌田。",
+          "displayText": "岷江水急时容易淹田，水少时农田又缺水。李冰不筑死高坝堵江，而是让鱼嘴分水、飞沙堰排走多余洪水和泥沙、宝瓶口引稳水灌田。",
+          "narration": "岷江水急时容易淹田，水少时农田又缺水。李冰不筑死高坝堵江，而是让鱼嘴分水、飞沙堰排走多余洪水和泥沙、宝瓶口引稳水灌田。"
         },
-        "assetId": "saws-dujiangyan-yuzui",
-        "image": "/content/step-images/saws-dujiangyan-yuzui.jpg",
-        "imageAlt": "都江堰鱼嘴与金刚堤现状照片",
-        "imageCaption": "今天的都江堰鱼嘴、金刚堤一带，岷江在这里分为内江和外江。",
-        "imageBoundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。",
+        "assetId": "study-619befb0918a871b",
+        "image": "/content/study-scenes/study-619befb0918a871b.svg",
+        "studyImage": "/content/study-scenes/study-619befb0918a871b.svg",
+        "studyImageAlt": "鱼嘴分流与飞沙堰排洪，宝瓶口引水灌田",
+        "imageAlt": "鱼嘴分流与飞沙堰排洪，宝瓶口引水灌田",
+        "imageCaption": "学习示意 · 鱼嘴分流与飞沙堰排洪，宝瓶口引水灌田",
+        "imageBoundary": "自制学习示意。铁农具在战国中期后更常见，但并非一夜取代所有木石青铜工具，也不是社会变化的唯一原因。都江堰照片是现代遗产地现状，凝聚了历代岁修、改建与扩展，不等同战国原貌。分水学具为关系示意，不按真实河道比例测绘。",
         "audio": {
+          "lead": {
+            "id": "quest-01dbd10bbad0cdb7",
+            "text": "岷江先到鱼嘴分成外江与内江。点按钮，看看涨水时飞沙堰怎样排洪，宝瓶口怎样引水进农田。"
+          },
           "transition": {
-            "id": "quest-d4c11419e03a18fd",
-            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+            "id": "quest-bdea8516de70469b",
+            "text": "鱼嘴飞沙堰与宝瓶口的配合。"
           },
           "intro": {
-            "id": "quest-c6dead394a1524e1",
-            "text": "接着看飞沙堰排沙，宝瓶口控制进水。"
-          },
-          "image": {
-            "id": "quest-3fcf46f60daa65db",
-            "text": "点开大图啦。这是都江堰鱼嘴与金刚堤现状照片。这张图能帮我们找到：接着看飞沙堰排沙，宝瓶口控制进水。"
+            "id": "quest-4fc00eeac9d846c5",
+            "text": "岷江水急时容易淹田，水少时农田又缺水。李冰不筑死高坝堵江，而是让鱼嘴分水、飞沙堰排走多余洪水和泥沙、宝瓶口引稳水灌田。"
           },
           "question": {
-            "id": "quest-329a69e64424a884",
-            "text": "故事里的人来到这里以后，做了什么？"
+            "id": "quest-eba13c77257b6b5b",
+            "text": "点按钮看看江水怎样分流排洪再去浇田"
+          },
+          "image": {
+            "id": "quest-5c8be97dc5d6acd4",
+            "text": "这是学习示意图：鱼嘴分流与飞沙堰排洪，宝瓶口引水灌田。点按钮看看江水怎样分流排洪再去浇田"
           },
           "right": {
-            "id": "quest-d7d6754891bc9f0f",
-            "text": "答对啦！人物、地点和行动连起来了。"
+            "id": "quest-ba98295b0ef9b5a8",
+            "text": "急水排去外江，稳水进宝瓶口浇绿农田，不用堵死江水真聪明！"
           },
           "wrong": {
-            "id": "quest-66c837d18451416f",
-            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+            "id": "quest-74476a15b50c0341",
+            "text": "接着点按钮观察水流。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-03-01-iron-waterworks-journey-1",
-            "label": "四川成都平原都江堰，只说了地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-a57a0dde570bb8f1",
-              "text": "四川成都平原都江堰，只说了地点"
-            }
-          },
-          {
-            "id": "cn-ancient-03-01-iron-waterworks-journey-2",
-            "label": "接着看飞沙堰排沙，宝瓶口控制进水。",
-            "correct": true,
-            "audio": {
-              "id": "quest-c6dead394a1524e1",
-              "text": "接着看飞沙堰排沙，宝瓶口控制进水。"
-            }
-          },
-          {
-            "id": "cn-ancient-03-01-iron-waterworks-journey-3",
-            "label": "李冰与许多修建、维护工程，只认出人物",
-            "correct": false,
-            "audio": {
-              "id": "quest-894fa414d7794b2a",
-              "text": "李冰与许多修建、维护工程，只认出人物"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "第三拍 · 看见变化",
-        "title": "每年都要照料",
-        "prompt": "前面的行动带来了什么变化？",
-        "rightNote": "最后发现工程能长久，还要人们每年维护。",
-        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "phase": "找一找鱼嘴与铁农具模型",
+        "title": "找一找鱼嘴与铁农具模型",
+        "prompt": "点一点江心把大江分成两路的鱼嘴模型",
+        "rightNote": "水利工程与铁制农具互相配合，改变了农业生产。",
+        "wrongNote": "再看看江心分水岛与右下角木台上的农具模型。",
+        "sourceIds": [
+          "UNESCO-DUJIANGYAN",
+          "NMC-DOUBLE-SICKLE-IRON-MOULD",
+          "NMC-SPRING-AUTUMN-WARRING-STATES"
+        ],
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "点一点图里对应的位置。",
+          "imageLabel": "故事插画",
+          "sceneAspectRatio": 1.5,
+          "hotspots": [
+            {
+              "id": "yuzui-island",
+              "label": "沙盘江心的鱼嘴分水堤",
+              "x": 0.22,
+              "y": 0.49,
+              "width": 0.27,
+              "height": 0.16
+            },
+            {
+              "id": "iron-tools",
+              "label": "木台上的铁锄与双镰铁范模型",
+              "x": 0.65,
+              "y": 0.7,
+              "width": 0.34,
+              "height": 0.29
+            }
+          ],
+          "rounds": [
+            {
+              "id": "yuzui",
+              "targetId": "yuzui-island",
+              "question": "哪里是沙盘江心把水一分为二的鱼嘴？",
+              "feedback": "找到了！鱼嘴在江心顺着水势把岷江分成外江和内江。",
+              "retry": "那是右下角的农具模型，再找江水中间尖尖的分水岛。",
+              "nextLabel": "再找铁锄与双镰范模型",
+              "audio": {
+                "question": {
+                  "id": "quest-822a6cc2efe09472",
+                  "text": "哪里是沙盘江心把水一分为二的鱼嘴？"
+                },
+                "right": {
+                  "id": "quest-5b480e0d3ebd79d7",
+                  "text": "找到了！鱼嘴在江心顺着水势把岷江分成外江和内江。"
+                },
+                "wrong": {
+                  "id": "quest-2394464d098bab75",
+                  "text": "那是右下角的农具模型，再找江水中间尖尖的分水岛。"
+                }
+              }
+            },
+            {
+              "id": "tools",
+              "targetId": "iron-tools",
+              "question": "哪里摆着铁锄和铸造两把镰刀的模子？",
+              "feedback": "找到了！铁锄翻土、铁范铸镰，帮人们更省力地耕作。",
+              "retry": "那是江心鱼嘴，再看右下角小木台上的工具。",
+              "nextLabel": "听听工程怎样传到今天",
+              "audio": {
+                "question": {
+                  "id": "quest-35664dca4f1228ec",
+                  "text": "哪里摆着铁锄和铸造两把镰刀的模子？"
+                },
+                "right": {
+                  "id": "quest-64f1a19b4e14fb67",
+                  "text": "找到了！铁锄翻土、铁范铸镰，帮人们更省力地耕作。"
+                },
+                "wrong": {
+                  "id": "quest-5400048be3764baa",
+                  "text": "那是江心鱼嘴，再看右下角小木台上的工具。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "都江堰沙盘与铁农具展台",
+          "speaker": "讲解员",
+          "responseSpeaker": "小朵",
+          "response": "分好江水、用好铁农具，田里的庄稼就能长得好啦！",
+          "retry": "看清问题找的是江心分水岛还是右下角铁农具。",
+          "nextLabel": "听听工程为什么能用两千多年"
+        },
+        "concepts": null,
+        "inspection": {
+          "id": "saws-iron-hoe",
+          "title": "战国铁锄实物照片",
+          "localPath": "reference-assets/spring-autumn-warring-states/iron-hoe.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Warring_States_Iron_Hoe_(9831259805).jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC0 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "中国国家博物馆藏 · 战国铁农具",
+          "boundary": "来源页登记为燕国、河北1958年发现；儿童正文只把它作为战国铁农具实物例证，不为器物虚构主人或具体使用场景。未修改原图。 中国国家博物馆展出的战国燕国铁锄。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/saws-iron-hoe.jpg",
+          "label": "看真文物：战国铁锄",
+          "placement": "supporting",
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：春秋战国陈列",
+              "url": "https://www.chnmus.net/ch/exhibition/ancient_china.html"
+            }
+          ],
+          "audio": {
+            "id": "quest-ef71685f341c2725",
+            "text": "这是战国铁锄原件，装上木柄就能用来翻地除草。"
+          }
+        },
         "story": {
           "screenNumber": 4,
-          "title": "每年都要照料",
-          "screenText": "最后发现工程能长久，还要人们每年维护。",
-          "narration": "最后发现工程能长久，还要人们每年维护。",
-          "displayText": "最后发现工程能长久，还要人们每年维护。"
+          "title": "找一找鱼嘴与铁农具模型",
+          "screenText": "展厅沙盘把山谷来水、江心鱼嘴和右边绿油油的棋盘农田连在一起；旁边小木台上还摆着铁锄和双镰范模型。水利和农具一起帮人们种好庄稼。",
+          "displayText": "展厅沙盘把山谷来水、江心鱼嘴和右边绿油油的棋盘农田连在一起；旁边小木台上还摆着铁锄和双镰范模型。水利和农具一起帮人们种好庄稼。",
+          "narration": "展厅沙盘把山谷来水、江心鱼嘴和右边绿油油的棋盘农田连在一起；旁边小木台上还摆着铁锄和双镰范模型。水利和农具一起帮人们种好庄稼。"
         },
-        "assetId": "saws-dujiangyan-yuzui",
-        "image": "/content/step-images/saws-dujiangyan-yuzui.jpg",
-        "imageAlt": "都江堰鱼嘴与金刚堤现状照片",
-        "imageCaption": "今天的都江堰鱼嘴、金刚堤一带，岷江在这里分为内江和外江。",
-        "imageBoundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。",
+        "assetId": "warring-dujiangyan-scene-v1",
+        "image": "/content/step-images/warring-dujiangyan-scene-v1.jpg",
+        "studyImage": "/content/study-scenes/study-d6d1050de0d4ea17.svg",
+        "studyImageAlt": "沙盘鱼嘴分水，铁锄与双镰范",
+        "imageAlt": "博物馆里观察都江堰分水沙盘与铁锄双镰铁范模型 · 教学插画",
+        "imageCaption": "博物馆里观察都江堰分水沙盘与铁锄双镰铁范模型 · 教学插画",
+        "imageBoundary": "现代博物馆教学插画，帮助观察鱼嘴分水、溢洪与引水入田的配合及铁农具铸范关系；不是战国原貌复原，今天的都江堰凝聚了历代维修与扩展。",
         "audio": {
+          "lead": {
+            "id": "quest-afdaa5f7c0145cf1",
+            "text": "沙盘中间有分江水的鱼嘴，右下角木台上有铁锄和双镰范模型。先点江心分水的鱼嘴。"
+          },
           "transition": {
-            "id": "quest-ca472709af5bb16a",
-            "text": "行动发生了。再看看它带来了什么变化。"
+            "id": "quest-5c0b0c1cca677ad9",
+            "text": "找一找鱼嘴与铁农具模型。"
           },
           "intro": {
-            "id": "quest-fc59b5074a90f597",
-            "text": "最后发现工程能长久，还要人们每年维护。"
-          },
-          "image": {
-            "id": "quest-7d8b0daa1302cb54",
-            "text": "点开大图啦。这是都江堰鱼嘴与金刚堤现状照片。这张图能帮我们找到：最后发现工程能长久，还要人们每年维护。"
+            "id": "quest-e1f3ba383dd682d3",
+            "text": "展厅沙盘把山谷来水、江心鱼嘴和右边绿油油的棋盘农田连在一起；旁边小木台上还摆着铁锄和双镰范模型。水利和农具一起帮人们种好庄稼。"
           },
           "question": {
-            "id": "quest-2f86a3a6bc009210",
-            "text": "前面的行动带来了什么变化？"
+            "id": "quest-2ca6b5e74b289a40",
+            "text": "点一点江心把大江分成两路的鱼嘴模型"
+          },
+          "image": {
+            "id": "quest-0dd48bd8813eee5f",
+            "text": "这张是博物馆里观察都江堰分水沙盘与铁锄双镰铁范模型 · 教学插画。展厅沙盘把山谷来水、江心鱼嘴和右边绿油油的棋盘农田连在一起；旁边小木台上还摆着铁锄和双镰范模型。水利和农具一起帮人们种好庄稼。"
           },
           "right": {
-            "id": "quest-53f7633e99fda023",
-            "text": "答对啦！你找到了前因带来的变化。"
+            "id": "quest-fc4f45cdcb5f4a57",
+            "text": "分好江水、用好铁农具，田里的庄稼就能长得好啦！"
           },
           "wrong": {
-            "id": "quest-631e3024b71736c9",
-            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+            "id": "quest-4f79868328951000",
+            "text": "看清问题找的是江心分水岛还是右下角铁农具。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-03-01-iron-waterworks-change-1",
-            "label": "最后发现工程能长久，还要人们每年维护。",
-            "correct": true,
-            "audio": {
-              "id": "quest-fc59b5074a90f597",
-              "text": "最后发现工程能长久，还要人们每年维护。"
-            }
-          },
-          {
-            "id": "cn-ancient-03-01-iron-waterworks-change-2",
-            "label": "铁农具和都江堰水利工，还只是故事起点",
-            "correct": false,
-            "audio": {
-              "id": "quest-dbe515e29559edd3",
-              "text": "铁农具和都江堰水利工，还只是故事起点"
-            }
-          },
-          {
-            "id": "cn-ancient-03-01-iron-waterworks-change-3",
-            "label": "看飞沙堰排沙，宝瓶口控制，还只是行动经过",
-            "correct": false,
-            "audio": {
-              "id": "quest-122c42c969901b34",
-              "text": "看飞沙堰排沙，宝瓶口控制，还只是行动经过"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "takeaway",
-        "questionKind": "reason-result",
+        "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "把线索连成答案",
-        "title": "把三条线索连成答案",
-        "prompt": "哪句话同时说清了原因和结果？",
-        "rightNote": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。",
-        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
-        "story": {
-          "screenNumber": 6,
-          "title": "把三条线索连成答案",
-          "screenText": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。",
-          "narration": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。",
-          "displayText": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。"
+        "phase": "顺水设计与历代用心维护",
+        "title": "顺水设计与历代用心维护",
+        "prompt": "都江堰为什么能沿用两千多年",
+        "rightNote": "巧妙顺水设计与历代持续岁修维护缺一不可。",
+        "wrongNote": "再听听设计与历代维护的关系。",
+        "sourceIds": [
+          "UNESCO-DUJIANGYAN",
+          "NEAC-DUJIANGYAN-MAINTENANCE",
+          "SICHUAN-DUJIANGYAN-OVERVIEW"
+        ],
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听完总结，点继续完成这一章。",
+          "continueLabel": "带着发现回家"
         },
-        "assetId": "saws-dujiangyan-yuzui",
-        "image": "/content/step-images/saws-dujiangyan-yuzui.jpg",
-        "imageAlt": "都江堰鱼嘴与金刚堤现状照片",
-        "imageCaption": "今天的都江堰鱼嘴、金刚堤一带，岷江在这里分为内江和外江。",
-        "imageBoundary": "这是2005年的遗产地现状照片，不是战国时期原貌。页面必须同时说明都江堰经历历代岁修、改进和扩展。未修改原图。",
+        "narrative": {
+          "scene": "reunion",
+          "caption": "带着治水与农具的发现回家",
+          "speaker": "小禾",
+          "responseSpeaker": "小伙伴",
+          "response": "顺着江水想办法，再加上一代代人维护，太了不起了！",
+          "retry": "再听听这一幕。",
+          "nextLabel": "带着发现回家"
+        },
+        "concepts": [
+          {
+            "term": "岁修",
+            "meaning": "每年定期清理河道泥沙、修补堤堰的维护工作",
+            "audio": {
+              "id": "quest-34c3e7bed1837cb7",
+              "text": "岁修：每年定期清理河道泥沙、修补堤堰的维护工作。"
+            }
+          }
+        ],
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "顺水设计与历代用心维护",
+          "screenText": "都江堰能用两千多年，不光靠最初顺着地形分水的巧设计，还靠后来历代人们年年清理泥沙、修补堤堰。好办法加上长久维护，才能一直造福农田。",
+          "displayText": "都江堰能用两千多年，不光靠最初顺着地形分水的巧设计，还靠后来历代人们年年清理泥沙、修补堤堰。好办法加上长久维护，才能一直造福农田。",
+          "narration": "都江堰能用两千多年，不光靠最初顺着地形分水的巧设计，还靠后来历代人们年年清理泥沙、修补堤堰。好办法加上长久维护，才能一直造福农田。"
+        },
+        "assetId": "warring-dujiangyan-scene-v1",
+        "image": "/content/step-images/warring-dujiangyan-scene-v1.jpg",
+        "studyImage": "/content/study-scenes/study-bfbebd7cad7274b4.svg",
+        "studyImageAlt": "顺水设计，历代岁修维护",
+        "imageAlt": "博物馆里观察都江堰分水沙盘与铁锄双镰铁范模型 · 教学插画",
+        "imageCaption": "博物馆里观察都江堰分水沙盘与铁锄双镰铁范模型 · 教学插画",
+        "imageBoundary": "现代博物馆教学插画，帮助观察鱼嘴分水、溢洪与引水入田的配合及铁农具铸范关系；不是战国原貌复原，今天的都江堰凝聚了历代维修与扩展。",
         "audio": {
+          "lead": {
+            "id": "quest-e15490cae3559ab5",
+            "text": "都江堰既靠最初顺着水势分流的好设计，也靠后来一代代人清理泥沙、持续维修，才能沿用两千多年。"
+          },
           "transition": {
-            "id": "quest-a7cb01ad27c42767",
-            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+            "id": "quest-e76c478bc7143ae2",
+            "text": "顺水设计与历代用心维护。"
           },
           "intro": {
-            "id": "quest-eca46bc2c5fed2ac",
-            "text": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。"
-          },
-          "image": {
-            "id": "quest-c165d936a038f82f",
-            "text": "点开大图啦。这是都江堰鱼嘴与金刚堤现状照片。这张图能帮我们找到：鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。"
+            "id": "quest-85043c52b74f1651",
+            "text": "都江堰能用两千多年，不光靠最初顺着地形分水的巧设计，还靠后来历代人们年年清理泥沙、修补堤堰。好办法加上长久维护，才能一直造福农田。"
           },
           "question": {
-            "id": "quest-1626b51c966f57f7",
-            "text": "哪句话同时说清了原因和结果？"
+            "id": "quest-29a19f433c42d129",
+            "text": "都江堰为什么能沿用两千多年"
+          },
+          "image": {
+            "id": "quest-7a093853b7c4bb76",
+            "text": "这张是博物馆里观察都江堰分水沙盘与铁锄双镰铁范模型 · 教学插画。都江堰能用两千多年，不光靠最初顺着地形分水的巧设计，还靠后来历代人们年年清理泥沙、修补堤堰。好办法加上长久维护，才能一直造福农田。"
           },
           "right": {
-            "id": "quest-7efb4ef63956e209",
-            "text": "答对啦！原因和结果都说清楚了。"
+            "id": "quest-ec2e935914e12ef5",
+            "text": "顺着江水想办法，再加上一代代人维护，太了不起了！"
           },
           "wrong": {
-            "id": "quest-0cee35f61bffd03b",
-            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+            "id": "quest-93a51f67f6f985fe",
+            "text": "再听听这一幕。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-03-01-iron-waterworks-takeaway-1",
-            "label": "发现工程能长久，还要人们每年维护。、都江堰怎样，只说了结果",
-            "correct": false,
-            "audio": {
-              "id": "quest-9f423a76eae9aa7f",
-              "text": "发现工程能长久，还要人们每年维护。、都江堰怎样，只说了结果"
-            }
-          },
-          {
-            "id": "cn-ancient-03-01-iron-waterworks-takeaway-2",
-            "label": "看鱼嘴把岷江水分成外江和内江。、铁农具和都，只说了原因",
-            "correct": false,
-            "audio": {
-              "id": "quest-9f5c4c868a196f9c",
-              "text": "看鱼嘴把岷江水分成外江和内江。、铁农具和都，只说了原因"
-            }
-          },
-          {
-            "id": "cn-ancient-03-01-iron-waterworks-takeaway-3",
-            "label": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。",
-            "correct": true,
-            "audio": {
-              "id": "quest-eca46bc2c5fed2ac",
-              "text": "鱼嘴、飞沙堰和宝瓶口一起分水排沙，还要一代代人不停维护。"
-            }
-          }
-        ]
+        "options": []
       }
     ],
     "extensionTasks": [
@@ -920,6 +1543,111 @@
   ],
   "assets": [
     {
+      "id": "warring-dujiangyan-scene-v1",
+      "title": "博物馆里观察都江堰分水沙盘与铁锄双镰铁范模型 · 教学插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/warring-dujiangyan-scene-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代博物馆沙盘示意：鱼嘴分水引灌农田，旁有铁锄与双镰范模型",
+      "boundary": "现代博物馆教学插画，帮助观察鱼嘴分水、溢洪与引水入田的配合及铁农具铸范关系；不是战国原貌复原，今天的都江堰凝聚了历代维修与扩展。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-41fcd112a0781668",
+      "title": "学习示意：都江堰分水、春秋战国农耕",
+      "localPath": "reference-assets/focused-quests/study-41fcd112a0781668.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "都江堰分水 → 春秋战国农耕",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-045d37575693edaa",
+      "title": "学习示意：春秋战国",
+      "localPath": "reference-assets/focused-quests/study-045d37575693edaa.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "春秋战国",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-692b648b7f5ad10a",
+      "title": "学习示意：清朝",
+      "localPath": "reference-assets/focused-quests/study-692b648b7f5ad10a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "清朝",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-549d6497db1cdd9b",
+      "title": "学习示意：双镰铁范凹槽、成批铸造铁镰",
+      "localPath": "reference-assets/focused-quests/study-549d6497db1cdd9b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "双镰铁范凹槽 → 成批铸造铁镰",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-619befb0918a871b",
+      "title": "学习示意：鱼嘴分流与飞沙堰排洪、宝瓶口引水灌田",
+      "localPath": "reference-assets/focused-quests/study-619befb0918a871b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "鱼嘴分流与飞沙堰排洪 → 宝瓶口引水灌田",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d6d1050de0d4ea17",
+      "title": "学习示意：沙盘鱼嘴分水、铁锄与双镰范",
+      "localPath": "reference-assets/focused-quests/study-d6d1050de0d4ea17.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "沙盘鱼嘴分水 → 铁锄与双镰范",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-bfbebd7cad7274b4",
+      "title": "学习示意：顺水设计、历代岁修维护",
+      "localPath": "reference-assets/focused-quests/study-bfbebd7cad7274b4.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "顺水设计 → 历代岁修维护",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
       "id": "saws-iron-sickle-mould",
       "title": "战国双镰铁范实物照片",
       "localPath": "reference-assets/spring-autumn-warring-states/iron-sickle-mould.jpg",
@@ -968,5 +1696,5 @@
     "audio": "not-started",
     "review": "in-progress"
   },
-  "contentReadiness": "legacy-draft-not-in-preview"
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

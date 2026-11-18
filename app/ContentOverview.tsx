@@ -118,7 +118,7 @@ type ChapterDetail = {
 };
 
 type ReviewVoice={id:string;text:string};
-type ReviewStep={id:string;title:string;prompt:string;image:string;imageAlt:string;story:{displayText:string};options:Array<{id:string;label:string;correct:boolean;image:string;objectView?:ObjectView}>;rightNote:string;sourceIds:string[];interaction?:WorkbenchInteraction;narrative?:{scene:string};inspection?:{image:string;title:string;caption:string;placement?:string}|null;audio:{lead?:ReviewVoice;intro:ReviewVoice;transition:ReviewVoice;question:ReviewVoice}};
+type ReviewStep={id:string;title:string;prompt:string;image:string;imageAlt:string;story:{displayText:string};options:Array<{id:string;label:string;correct:boolean;image:string;objectView?:ObjectView}>;rightNote:string;sourceIds:string[];interaction?:WorkbenchInteraction;narrative?:{scene:string};concepts?:Array<{term:string;meaning:string;audio?:ReviewVoice}>|null;inspection?:{image:string;title:string;caption:string;placement?:string}|null;audio:{lead?:ReviewVoice;intro:ReviewVoice;transition:ReviewVoice;question:ReviewVoice}};
 function ReviewStepArt({step,presentation}:{step:ReviewStep;presentation?:{sceneImage:string;sceneAlt:string}|null}){
  const kind=step.interaction?.kind;
  if(kind==='history-lab'&&step.interaction?.lab)return <HistoryLabDiagram kind={step.interaction.lab.kind}/>;
@@ -354,6 +354,7 @@ export function ContentOverview() {
                       <div className="review-step-main"><ReviewStepArt step={item} presentation={detail.gameplay.presentation}/></div>
                       <p><strong>故事背景：</strong>{item.story.displayText}</p>
                       <p className="review-audible-context"><strong>进入这一步会听到：</strong>{audibleText(item)}</p>
+                      {item.concepts&&item.concepts.length>0&&<p className="review-step-concepts"><strong>页面可点听词语：</strong>{item.concepts.map(c=>`${c.term}（${c.meaning}）`).join('；')}</p>}
                       <p><strong>{item.interaction?.kind==='look-listen'?'这一幕':'当前问题'}：</strong>{item.prompt}</p>
                       {usesChoiceCards(item.interaction?.kind)&&item.options.length>0&&<div className="review-picture-options">{item.options.map(o=><figure key={o.id}>{o.objectView?<WorkbenchChoiceArt option={o}/>:<Image src={o.image} alt={o.label} width={180} height={110} unoptimized/>}<figcaption>{o.correct?'✓ ':''}{o.label}</figcaption></figure>)}</div>}
                       {item.interaction?.rounds&&<ol className="review-rounds">{item.interaction.rounds.map(r=><li key={r.id}><strong>{r.question}</strong><p>观察目标：{item.interaction?.hotspots?.find(h=>h.id===r.targetId)?.label}</p><p>回应：{r.feedback}</p></li>)}</ol>}

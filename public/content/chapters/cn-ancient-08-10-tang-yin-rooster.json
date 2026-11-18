@@ -242,7 +242,7 @@
     },
     "presentation": {
       "kind": "object-workbench",
-      "sceneAssetId": "rooster-story-v1",
+      "sceneAssetId": "rooster-main-scene-v1",
       "sceneAlt": "唐寅的公鸡怎样在诗里叫起来 · 现代读诗情境",
       "title": "唐寅的公鸡怎样在诗里叫起来",
       "evidenceTitle": "唐寅像 · 清代后世画像",
@@ -259,7 +259,7 @@
       "sceneAspectRatio": 1.5,
       "story": {
         "kind": "travel-story",
-        "reunionAssetId": "rooster-story-v1",
+        "reunionAssetId": "rooster-main-scene-v1",
         "reunionAlt": "唐寅的公鸡怎样在诗里叫起来 · 小伙伴读诗",
         "reunionAspectRatio": 1.5,
         "reunionFit": "contain",
@@ -269,7 +269,7 @@
         "closingLine": "诗里有景物，也有声音和心愿。",
         "closingNarration": "唐寅的《画鸡》先写红冠白羽的样子，再写动作与报晓。诗让我们在静静的画面之外，想象声音和人家的清晨。",
         "fictionNote": "华嵒的唐寅像作于清代1743年，不是生前写真；画鸡分镜为现代读诗想象，不冒作唐寅画作或其生活记录。“千门万户”是许多人家的文学表达，不是精确数量；不从诗推出公鸡只在清晨鸣叫。",
-        "reunionImage": "/content/step-images/rooster-story-v1.jpg",
+        "reunionImage": "/content/step-images/rooster-main-scene-v1.jpg",
         "stationLine": "到明朝的宫殿、港口和书坊，看人们怎样办事、交往和留下见闻；再跟唐寅、文徵明和于谦，听诗怎样写画面、声音和心愿。",
         "stationAudio": {
           "id": "quest-25288a8df8355cf9",
@@ -280,7 +280,7 @@
           "text": "唐寅的《画鸡》先写红冠白羽的样子，再写动作与报晓。诗让我们在静静的画面之外，想象声音和人家的清晨。"
         }
       },
-      "sceneImage": "/content/step-images/rooster-story-v1.jpg",
+      "sceneImage": "/content/step-images/rooster-main-scene-v1.jpg",
       "evidenceAudio": {
         "id": "quest-bfbb0dd2b5e7ba75",
         "text": "这幅唐寅像是清代画家华嵒在1743年画的，晚于唐寅生活的明代。它帮助认识后人心中的唐寅，不能当作生前照片。"
@@ -291,21 +291,36 @@
       }
     },
     "sceneAsset": {
-      "id": "rooster-story-v1",
-      "title": "唐寅的公鸡怎样在诗里叫起来 · 四幅现代读诗情境",
-      "localPath": "reference-assets/ming-poetry-expansion/rooster-story-v1.png",
+      "id": "rooster-main-scene-v1",
+      "title": "《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/rooster-main-scene-v2.png",
       "runtimeMaxEdge": 1536,
       "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
-      "licensePath": "reference-assets/ming-poetry-expansion/ATTRIBUTION.md",
-      "license": "项目自制教学插画，供本项目使用",
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
       "clearance": "cleared-project-created",
-      "caption": "现代读诗想象，不是历史现场",
-      "boundary": "华嵒的唐寅像作于清代1743年，不是生前写真；画鸡分镜为现代读诗想象，不冒作唐寅画作或其生活记录。“千门万户”是许多人家的文学表达，不是精确数量；不从诗推出公鸡只在清晨鸣叫。",
+      "caption": "现代读诗情境插画，不是唐寅水墨画原件",
+      "boundary": "现代读诗情境插画，表现红冠白羽公鸡清晨报晓与人家开门迎早的场景；唐寅《画鸡》原作请点开真实材料查看。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/rooster-story-v1.jpg"
+      "image": "/content/step-images/rooster-main-scene-v1.jpg"
     },
     "narrativeAssets": [
+      {
+        "id": "rooster-main-scene-v1",
+        "title": "《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/rooster-main-scene-v2.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
+        "clearance": "cleared-project-created",
+        "caption": "现代读诗情境插画，不是唐寅水墨画原件",
+        "boundary": "现代读诗情境插画，表现红冠白羽公鸡清晨报晓与人家开门迎早的场景；唐寅《画鸡》原作请点开真实材料查看。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/rooster-main-scene-v1.jpg"
+      },
       {
         "id": "rooster-story-v1",
         "title": "唐寅的公鸡怎样在诗里叫起来 · 四幅现代读诗情境",
@@ -442,13 +457,13 @@
           "displayText": "唐寅是明朝画家，也写诗。他的《画鸡》把画上的公鸡写得像会走、会叫。我们先看清代人画的唐寅像，再听这首诗。",
           "narration": "唐寅是明朝画家，也写诗。他的《画鸡》把画上的公鸡写得像会走、会叫。我们先看清代人画的唐寅像，再听这首诗。"
         },
-        "assetId": "rooster-story-v1",
-        "image": "/content/step-images/rooster-story-v1.jpg",
+        "assetId": "rooster-main-scene-v1",
+        "image": "/content/step-images/rooster-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-58cf36b981060471.svg",
         "studyImageAlt": "去明朝认识唐寅",
-        "imageAlt": "唐寅的公鸡怎样在诗里叫起来 · 四幅现代读诗情境",
-        "imageCaption": "唐寅的公鸡怎样在诗里叫起来 · 四幅现代读诗情境",
-        "imageBoundary": "华嵒的唐寅像作于清代1743年，不是生前写真；画鸡分镜为现代读诗想象，不冒作唐寅画作或其生活记录。“千门万户”是许多人家的文学表达，不是精确数量；不从诗推出公鸡只在清晨鸣叫。",
+        "imageAlt": "《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画",
+        "imageCaption": "《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，表现红冠白羽公鸡清晨报晓与人家开门迎早的场景；唐寅《画鸡》原作请点开真实材料查看。",
         "audio": {
           "lead": {
             "id": "quest-14c47d869dec3190",
@@ -467,8 +482,8 @@
             "text": "这位作者生活在哪个朝代？"
           },
           "image": {
-            "id": "quest-970b9a5544ea223b",
-            "text": "这张是唐寅的公鸡怎样在诗里叫起来 · 四幅现代读诗情境。唐寅是明朝画家，也写诗。他的《画鸡》把画上的公鸡写得像会走、会叫。我们先看清代人画的唐寅像，再听这首诗。"
+            "id": "quest-05b27f05300e67a4",
+            "text": "这张是《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画。唐寅是明朝画家，也写诗。他的《画鸡》把画上的公鸡写得像会走、会叫。我们先看清代人画的唐寅像，再听这首诗。"
           },
           "right": {
             "id": "quest-50f9602af8698645",
@@ -553,13 +568,13 @@
           "displayText": "头上红冠不用裁，满身雪白走将来。平生不敢轻言语，一叫千门万户开。诗先写公鸡的样子，再写它报晓，让人想起清晨的生活。",
           "narration": "头上红冠不用裁，满身雪白走将来。平生不敢轻言语，一叫千门万户开。诗先写公鸡的样子，再写它报晓，让人想起清晨的生活。"
         },
-        "assetId": "rooster-story-v1",
-        "image": "/content/step-images/rooster-story-v1.jpg",
+        "assetId": "rooster-main-scene-v1",
+        "image": "/content/step-images/rooster-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-0023977f1844f2d2.svg",
         "studyImageAlt": "先听完整的《画鸡》",
-        "imageAlt": "唐寅的公鸡怎样在诗里叫起来 · 四幅现代读诗情境",
-        "imageCaption": "唐寅的公鸡怎样在诗里叫起来 · 四幅现代读诗情境",
-        "imageBoundary": "华嵒的唐寅像作于清代1743年，不是生前写真；画鸡分镜为现代读诗想象，不冒作唐寅画作或其生活记录。“千门万户”是许多人家的文学表达，不是精确数量；不从诗推出公鸡只在清晨鸣叫。",
+        "imageAlt": "《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画",
+        "imageCaption": "《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，表现红冠白羽公鸡清晨报晓与人家开门迎早的场景；唐寅《画鸡》原作请点开真实材料查看。",
         "audio": {
           "lead": {
             "id": "quest-a7bc45c94c6ee758",
@@ -578,8 +593,8 @@
             "text": "诗里的公鸡怎样活起来？"
           },
           "image": {
-            "id": "quest-d536d231e8a77211",
-            "text": "这张是唐寅的公鸡怎样在诗里叫起来 · 四幅现代读诗情境。头上红冠不用裁，满身雪白走将来。平生不敢轻言语，一叫千门万户开。诗先写公鸡的样子，再写它报晓，让人想起清晨的生活。"
+            "id": "quest-c966574db49a8236",
+            "text": "这张是《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画。头上红冠不用裁，满身雪白走将来。平生不敢轻言语，一叫千门万户开。诗先写公鸡的样子，再写它报晓，让人想起清晨的生活。"
           },
           "right": {
             "id": "quest-d588ffe6715741d6",
@@ -630,13 +645,13 @@
           "displayText": "“轻言语”在诗里说的是鸣叫。“一叫”让我们想到公鸡扬起脖子报晓。这两幅读诗图中，它在做不同的事。",
           "narration": "“轻言语”在诗里说的是鸣叫。“一叫”让我们想到公鸡扬起脖子报晓。这两幅读诗图中，它在做不同的事。"
         },
-        "assetId": "rooster-story-v1",
-        "image": "/content/step-images/rooster-story-v1.jpg",
+        "assetId": "rooster-main-scene-v1",
+        "image": "/content/step-images/rooster-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-f252fda2f6cdc369.svg",
         "studyImageAlt": "听诗里的公鸡开口",
-        "imageAlt": "唐寅的公鸡怎样在诗里叫起来 · 四幅现代读诗情境",
-        "imageCaption": "唐寅的公鸡怎样在诗里叫起来 · 四幅现代读诗情境",
-        "imageBoundary": "华嵒的唐寅像作于清代1743年，不是生前写真；画鸡分镜为现代读诗想象，不冒作唐寅画作或其生活记录。“千门万户”是许多人家的文学表达，不是精确数量；不从诗推出公鸡只在清晨鸣叫。",
+        "imageAlt": "《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画",
+        "imageCaption": "《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，表现红冠白羽公鸡清晨报晓与人家开门迎早的场景；唐寅《画鸡》原作请点开真实材料查看。",
         "audio": {
           "lead": {
             "id": "quest-3456af25834979ac",
@@ -655,8 +670,8 @@
             "text": "哪幅是在想象诗中的“一叫”？"
           },
           "image": {
-            "id": "quest-9782670a05da75b4",
-            "text": "这张是唐寅的公鸡怎样在诗里叫起来 · 四幅现代读诗情境。“轻言语”在诗里说的是鸣叫。“一叫”让我们想到公鸡扬起脖子报晓。这两幅读诗图中，它在做不同的事。"
+            "id": "quest-a919c26f1712c94e",
+            "text": "这张是《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画。“轻言语”在诗里说的是鸣叫。“一叫”让我们想到公鸡扬起脖子报晓。这两幅读诗图中，它在做不同的事。"
           },
           "right": {
             "id": "quest-37d222dbddbcbc44",
@@ -760,13 +775,13 @@
           "displayText": "“千门万户”形容许多人家。诗把公鸡的叫声和人们开始一天的生活连在一起，不是在让我们数门。",
           "narration": "“千门万户”形容许多人家。诗把公鸡的叫声和人们开始一天的生活连在一起，不是在让我们数门。"
         },
-        "assetId": "rooster-story-v1",
-        "image": "/content/step-images/rooster-story-v1.jpg",
+        "assetId": "rooster-main-scene-v1",
+        "image": "/content/step-images/rooster-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-a2e54b60652ce636.svg",
         "studyImageAlt": "千门万户里有什么",
-        "imageAlt": "唐寅的公鸡怎样在诗里叫起来 · 四幅现代读诗情境",
-        "imageCaption": "唐寅的公鸡怎样在诗里叫起来 · 四幅现代读诗情境",
-        "imageBoundary": "华嵒的唐寅像作于清代1743年，不是生前写真；画鸡分镜为现代读诗想象，不冒作唐寅画作或其生活记录。“千门万户”是许多人家的文学表达，不是精确数量；不从诗推出公鸡只在清晨鸣叫。",
+        "imageAlt": "《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画",
+        "imageCaption": "《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，表现红冠白羽公鸡清晨报晓与人家开门迎早的场景；唐寅《画鸡》原作请点开真实材料查看。",
         "audio": {
           "lead": {
             "id": "quest-79f5337959bf4dea",
@@ -785,8 +800,8 @@
             "text": "哪幅把鸡叫和人家的清晨连在一起？"
           },
           "image": {
-            "id": "quest-8dae051ae651f3b1",
-            "text": "这张是唐寅的公鸡怎样在诗里叫起来 · 四幅现代读诗情境。“千门万户”形容许多人家。诗把公鸡的叫声和人们开始一天的生活连在一起，不是在让我们数门。"
+            "id": "quest-0f15407a430b3a6f",
+            "text": "这张是《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画。“千门万户”形容许多人家。诗把公鸡的叫声和人们开始一天的生活连在一起，不是在让我们数门。"
           },
           "right": {
             "id": "quest-671b28664b488fc0",
@@ -1268,6 +1283,20 @@
     }
   ],
   "assets": [
+    {
+      "id": "rooster-main-scene-v1",
+      "title": "《画鸡》红冠白鸡破晓啼鸣千门开 · 单景读诗插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/rooster-main-scene-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代读诗情境插画，不是唐寅水墨画原件",
+      "boundary": "现代读诗情境插画，表现红冠白羽公鸡清晨报晓与人家开门迎早的场景；唐寅《画鸡》原作请点开真实材料查看。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "study-58cf36b981060471",
       "title": "学习示意：去明朝认识唐寅",

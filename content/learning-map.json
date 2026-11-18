@@ -1,10 +1,111 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-10-29",
+  "reviewedAt": "2026-11-18",
   "status": "learning-alignment-reviewed-family-validation-pending",
-  "scope": "中国古代53章与世界古代6章，共59章；其他62章保留研究稿，真实儿童理解、人工校听和史实终审仍待。",
+  "scope": "中国古代56章与世界古代6章，共62章；其他59章保留研究稿，真实儿童理解、人工校听和史实终审仍待。",
   "principle": "可以指图、做动作或用自己的话回答。家长记录是否给过提示；完成按钮不等于已经理解。",
   "chapters": [
+    {
+      "id": "cn-ancient-01-02-first-farmers",
+      "theme": "衣食住行与生活",
+      "learningGoal": "南北早期农耕村落顺应不同气候与水土选择作物、工具和房屋，同时保留捕鱼采集。",
+      "parentQuestion": "为什么河姆渡要把木屋地板架高，而半坡却往黄土里挖半截屋子？",
+      "observe": "指出南方多水潮湿需要架高通风防潮，北方较干冷台地适合半地穴挡风保暖，并认出骨耜与彩陶盆。",
+      "misconception": "南稻北粟不是毫无例外的分界线；农耕出现后捕鱼采集并未立刻消失；彩陶纹样不指定唯一含义。",
+      "evidenceStepIds": [
+        "time",
+        "beginning",
+        "change"
+      ],
+      "sourceIds": [
+        "NMC-ANCIENT-PREHISTORY",
+        "NMC-HEMUDU-RICE",
+        "NMC-HEMUDU-BONE-SPADE",
+        "NMC-BANPO-BASIN"
+      ],
+      "related": [
+        {
+          "chapterId": "cn-ancient-03-01-iron-waterworks",
+          "relation": "把远古骨耜翻水田与两千多年前的战国铁农具、水利灌溉对照，认识农具与治水的长期发展。"
+        }
+      ],
+      "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+      "glossaryTerms": [
+        "农业",
+        "遗址",
+        "骨耜",
+        "干栏"
+      ]
+    },
+    {
+      "id": "cn-ancient-02-02-oracle-bronze",
+      "theme": "文字、经典与记录",
+      "learningGoal": "甲骨刻辞与青铜器及铭文保存了可核对的商周文字、铸造技术与礼仪信息。",
+      "parentQuestion": "八百多千克重的后母戊鼎，是普通人家做饭的锅，还是许多人合作铸造的礼器？",
+      "observe": "指出多块陶范合铸与分工配合，并能区分甲骨象形符号线索与后世现代字形。",
+      "misconception": "甲骨文是目前所知中国最早的成熟系统文字材料之一，但不是普通人日记；青铜礼器不是日常普通锅碗。",
+      "evidenceStepIds": [
+        "time",
+        "beginning",
+        "change",
+        "takeaway"
+      ],
+      "sourceIds": [
+        "UNESCO-YIN-XU",
+        "NMC-ORACLE-BRONZE-EXHIBITION",
+        "NMC-ORACLE-OX-BONE",
+        "NMC-BRONZE-ART",
+        "NMC-HOUMUWU-DING"
+      ],
+      "related": [
+        {
+          "chapterId": "cn-ancient-04-04-han-knowledge",
+          "relation": "从商代刻写龟甲兽骨到战国竹简、再到汉代造纸改进，对比书写材料怎样一步步变得轻便。"
+        }
+      ],
+      "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+      "glossaryTerms": [
+        "甲骨文",
+        "青铜器",
+        "陶范",
+        "铭文"
+      ]
+    },
+    {
+      "id": "cn-ancient-03-01-iron-waterworks",
+      "theme": "发明、技术与工程",
+      "learningGoal": "战国铁范支持成批铸造铁农具；都江堰通过鱼嘴、飞沙堰、宝瓶口顺势分水防洪并经历代维护延续至今。",
+      "parentQuestion": "都江堰没有筑一道高墙把大江完全堵死，涨水时多余的水往哪里走？",
+      "observe": "在分水学具或图上指出外江排洪、飞沙堰溢洪排沙、宝瓶口控制进水灌田，并说出后人还要定期维护。",
+      "misconception": "铁器没有一夜取代全部旧工具，也不是社会变化的唯一原因；今天的都江堰包含历代岁修与扩建，不是战国原貌定格。",
+      "evidenceStepIds": [
+        "time",
+        "beginning",
+        "journey",
+        "change"
+      ],
+      "sourceIds": [
+        "MOE-HISTORY-CURRICULUM-2022",
+        "NMC-SPRING-AUTUMN-WARRING-STATES",
+        "NMC-DOUBLE-SICKLE-IRON-MOULD",
+        "UNESCO-DUJIANGYAN",
+        "SICHUAN-DUJIANGYAN-OVERVIEW",
+        "NEAC-DUJIANGYAN-MAINTENANCE"
+      ],
+      "related": [
+        {
+          "chapterId": "cn-ancient-06-09-zhaozhou-bridge",
+          "relation": "同样面对河水暴涨，都江堰用鱼嘴和飞沙堰分流排洪，赵州桥用大拱加两侧小拱过水减冲。"
+        }
+      ],
+      "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+      "glossaryTerms": [
+        "技术",
+        "农业",
+        "分水",
+        "遗址"
+      ]
+    },
     {
       "id": "cn-ancient-04-01-qin-unification",
       "theme": "治理和规则",

@@ -1,9 +1,13 @@
-export type HistoryLabKind = 'polities'|'printing'|'compass'|'roof'|'engine'|'bridge-water'|'weaving'|'lamp';
-export const LAB_STAGE_COUNTS:Record<HistoryLabKind,number>={polities:1,printing:3,compass:2,roof:2,engine:2,'bridge-water':2,weaving:3,lamp:2};
+export type HistoryLabKind = 'polities'|'printing'|'compass'|'roof'|'engine'|'bridge-water'|'weaving'|'lamp'|'water-split';
+export const LAB_STAGE_COUNTS:Record<HistoryLabKind,number>={polities:1,printing:3,compass:2,roof:2,engine:2,'bridge-water':2,weaving:3,lamp:2,'water-split':2};
 export const POLITY_WINDOWS=[{year:1111,names:['辽','北宋','西夏']},{year:1160,names:['金','南宋','西夏']}] as const;
+export function waterSplitSnapshot(stage:number){
+ if(!Number.isInteger(stage)||stage<0||stage>2)throw new RangeError('Invalid water split stage');
+ return {stage,outerFlood:stage>=1,feishayanSpill:stage>=1,baopingkouIrrigating:stage===2};
+}
 export function labSnapshot(kind:HistoryLabKind,stage:number){
  if(!Object.hasOwn(LAB_STAGE_COUNTS,kind)||!Number.isInteger(stage)||stage<0||stage>LAB_STAGE_COUNTS[kind])throw new RangeError('Invalid history lab stage');
- return {complete:stage===LAB_STAGE_COUNTS[kind],window:POLITY_WINDOWS[stage>0?1:0],blocks:stage===0?['日','日','山']:stage===1?['日','','山']:['日','月','山'],printed:kind==='printing'&&stage===3,boatAngle:stage*90,needleAngle:180,roof:{fixtureX:270,roofY:215,...roofCapPosition(kind==='roof'?stage:0),capHeight:70},engine:engineLinkage(stage*180)};
+ return {complete:stage===LAB_STAGE_COUNTS[kind],window:POLITY_WINDOWS[stage>0?1:0],blocks:stage===0?['日','日','山']:stage===1?['日','','山']:['日','月','山'],printed:kind==='printing'&&stage===3,boatAngle:stage*90,needleAngle:180,roof:{fixtureX:270,roofY:215,...roofCapPosition(kind==='roof'?stage:0),capHeight:70},engine:engineLinkage(stage*180),waterSplit:kind==='water-split'?waterSplitSnapshot(stage):null};
 }
 
 export function roofCapPosition(phase:number){

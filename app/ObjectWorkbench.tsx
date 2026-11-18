@@ -11,7 +11,7 @@ import type { PhotoAlbum } from "./photo-album";
 import "./scene-interactions.css";
 import {isIllustratedSlide,SlideFitControls,SlideFitIllustration,useSlideFit} from "./SlideFitIllustration";
 import {CircleStudy, CircleDiagram} from "./CircleStudy";
-import {HistoryLab, HistoryLabControls, useHistoryLab, PolityDiagram, PrintingDiagram, type HistoryLabConfig, type LabStage} from "./HistoryLab";
+import {HistoryLab, HistoryLabControls, useHistoryLab, PolityDiagram, PrintingDiagram, type HistoryLabConfig} from "./HistoryLab";
 export { stepVoiceIds } from "./step-flow";
 
 type Voice = { id: string; text: string };
@@ -20,7 +20,7 @@ type ScenePanel = {image:string;imageAlt:string;crop:SceneCrop;caption:string;cu
 export type ObjectView = { kind: "era" | "ruler-pair" | "ruler" | "weight" | "prop" | "scene-card" | "scene-strip" | "study-card" | "circle-model" | "polity-panel" | "printing-panel"; windowIndex?:number; connected?:boolean; sides?:number; match?: boolean; name?: string; date?: string; stationImage?: string; marker?: "coin" | "calendar"; icon?: string; image?:string; imageAlt?:string; imageLabel?:string; crop?:SceneCrop; panels?:ScenePanel[]; relation?:"sequence"|"together"|"pair" };
 export type SceneFindRound = { id:string; question:string; targetId:string; feedback:string; retry:string; nextLabel?:string; audio:{question:Voice;right:Voice;wrong:Voice} };
 export type SceneHotspot = { id:string; label:string; x:number; y:number; width:number; height:number };
-export type WorkbenchInteraction = { kind: "timeline" | "ruler-pairs" | "tool-pick" | "align-rulers" | "pick" | "slide-fit" | "look-listen" | "scene-find" | "circle-refine" | "history-lab"; lab?:HistoryLabConfig; refinements?:Array<{sides:number;narration:string;audio:Voice}>; hint: string; context?: string; scene?: string; copy?: string; ariaLabel?: string; continueLabel?: string; placement?: "panel"; modelLabel?: string; selectionFraming?: "detail"; choiceArt?:"illustrated"; imageLabel?: "实物照片" | "文物图像" | "故事插画"; imageCrop?:SceneCrop; sceneAspectRatio?:number; hotspots?:SceneHotspot[]; rounds?:SceneFindRound[] };
+export type WorkbenchInteraction = { kind: "timeline" | "ruler-pairs" | "tool-pick" | "align-rulers" | "pick" | "slide-fit" | "look-listen" | "scene-find" | "circle-refine" | "history-lab"; worldTimeStop?: WorldTimeStop; lab?:HistoryLabConfig; refinements?:Array<{sides:number;narration:string;audio:Voice}>; hint: string; context?: string; scene?: string; copy?: string; ariaLabel?: string; continueLabel?: string; placement?: "panel"; modelLabel?: string; selectionFraming?: "detail"; choiceArt?:"illustrated"; imageLabel?: "实物照片" | "文物图像" | "故事插画"; imageCrop?:SceneCrop; sceneAspectRatio?:number; hotspots?:SceneHotspot[]; rounds?:SceneFindRound[] };
 export type StoryScene = {
   scene:"artifact"|"timeline"|"workshop"|"reunion"|"detail"; caption:string; speaker:string;
   responseSpeaker:string; response:string; retry:string; nextLabel:string;
@@ -46,7 +46,7 @@ type Step = {
   id: string; title: string; prompt: string; rightNote: string; wrongNote: string;
   narrative?:StoryScene|null;
   inspection?: (Evidence & {label:string;audio:Voice;placement?:"main"|"supporting";framing?:"landscape"|"panorama"|"object";openAlbum?:boolean;displayHeight?:number}) | null;
-  concepts?:Array<{term:string;meaning:string}>|null;
+  concepts?:Array<{term:string;meaning:string;audio?:Voice}>|null;
   image:string; imageAlt:string;
   story: { displayText: string }; interaction?: WorkbenchInteraction;
   audio: { lead?: Voice|null; transition: Voice; intro: Voice; question: Voice; right: Voice; wrong: Voice };
@@ -389,6 +389,69 @@ function EraMarker({view}:{view:ObjectView}) {
   </svg>;
 }
 
+const CHINA_RIVER_STOPS = [
+  { period: "远古时期", short: "远古", match: ["远古", "河姆渡", "半坡"] },
+  { period: "夏商西周", short: "夏商周", match: ["夏商", "商代", "西周", "殷墟"] },
+  { period: "春秋战国", short: "春秋战国", match: ["春秋", "战国"] },
+  { period: "秦朝", short: "秦", match: ["秦朝", "秦始皇", "秦统一"] },
+  { period: "汉朝", short: "汉", match: ["汉朝", "西汉", "东汉", "汉武帝"] },
+  { period: "三国两晋南北朝", short: "魏晋", match: ["三国", "两晋", "南北朝", "东晋", "北魏"] },
+  { period: "隋朝", short: "隋", match: ["隋朝", "隋代"] },
+  { period: "唐朝", short: "唐", match: ["唐朝", "唐代", "贞观", "开元"] },
+  { period: "五代十国", short: "五代", match: ["五代", "十国", "吴越"] },
+  { period: "宋朝", short: "宋", match: ["宋朝", "北宋", "南宋", "宋代"] },
+  { period: "元朝", short: "元", match: ["元朝", "元代"] },
+  { period: "明朝", short: "明", match: ["明朝", "明代"] },
+  { period: "清朝", short: "清", match: ["清朝", "清代"] },
+] as const;
+
+const WORLD_RIVER_STOPS = ["四千多年前", "两千多年前", "大约九百年前", "六百多年前"] as const;
+type WorldTimeStop = typeof WORLD_RIVER_STOPS[number];
+
+export function TimeRiverRibbon({ periodLabel, options, solved, worldTimeStop }: { periodLabel: string; options: Option[]; solved: boolean; worldTimeStop?: WorldTimeStop }) {
+  const chinaIndex = CHINA_RIVER_STOPS.findIndex(stop => stop.period === periodLabel);
+  if (chinaIndex >= 0) {
+    const candidateIndices = [...new Set(options.map(option => {
+      const text = `${option.objectView?.name ?? ""} ${option.label}`;
+      return CHINA_RIVER_STOPS.findIndex(stop => stop.match.some(token => text.includes(token)));
+    }).filter(index => index >= 0))];
+    const useCandidates = !solved && candidateIndices.length >= 2;
+    return <div className="time-river-ribbon" data-timeline-track="china" role="img" aria-label={`中国古代时间河：从远古顺流走到今天，本站位于${CHINA_RIVER_STOPS[chinaIndex].short}`}>
+      <ol className="time-river-stops">
+        {CHINA_RIVER_STOPS.map((stop, index) => {
+          const state = (solved || !useCandidates) && index === chinaIndex ? "current" : useCandidates && candidateIndices.includes(index) ? "candidate" : index < chinaIndex && solved ? "past" : "idle";
+          return <li key={stop.period} className={`time-river-stop ${state}`} data-stop-state={state}><i aria-hidden="true"/><span>{stop.short}</span></li>;
+        })}
+        <li className="time-river-stop today" data-stop-state="today"><i aria-hidden="true"/><span>今天</span></li>
+      </ol>
+    </div>;
+  }
+  if (worldTimeStop) {
+    return <div className="time-river-ribbon world-ribbon" data-timeline-track="world" role="img" aria-label={`世界历史时间距离：从四千多年前走到今天，这个故事在${worldTimeStop}`}>
+      <ol className="time-river-stops">
+        {WORLD_RIVER_STOPS.map(stop => {
+          const state = stop === worldTimeStop ? (solved ? "current" : "candidate") : "idle";
+          return <li key={stop} className={`time-river-stop ${state}`} data-stop-state={state}><i aria-hidden="true"/><span>{stop}</span></li>;
+        })}
+        <li className="time-river-stop today" data-stop-state="today"><i aria-hidden="true"/><span>今天</span></li>
+      </ol>
+    </div>;
+  }
+  return null;
+}
+
+function ConceptChips({ concepts, listen, compact = false }: { concepts: NonNullable<Step["concepts"]>; listen: (ids: string[]) => void; compact?: boolean }) {
+  return <div className={compact ? "step-concepts-bar" : "measure-concepts"} role="group" aria-label="点一点听词语解释">
+    {concepts.map(concept => concept.audio ? (
+      <button key={concept.term} type="button" className="concept-audio-chip" onClick={() => listen([concept.audio!.id])} aria-label={`听词语解释：${concept.term}，${concept.meaning}`}>
+        <strong>{concept.term}</strong><span>{concept.meaning}</span><small aria-hidden="true"><SoundIcon/></small>
+      </button>
+    ) : (
+      <div key={concept.term} className="concept-static-chip"><strong>{concept.term}</strong><span>{concept.meaning}</span></div>
+    ))}
+  </div>;
+}
+
 export function WorkbenchChoiceArt({ option }: { option: Pick<Option,"label"|"objectView"> }) {
   const view=option.objectView;
   if(view?.kind==='polity-panel')return <PolityDiagram index={view.windowIndex??0}/>;
@@ -412,10 +475,18 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
   const sceneFind=kind==='scene-find',rounds=step.interaction?.rounds??[],round=rounds[roundIndex];
   const geometryChoice=kind==='pick'&&options.some(option=>option.objectView?.kind==='circle-model');
   const circleRefine=kind==='circle-refine',historyLab=kind==='history-lab';
-  const runLab=(stage:LabStage,complete:boolean)=>{setRefineVoice(stage.audio);if(complete)onSolved();onNarrationChange?.([stage.audio.id]);void speak([stage.audio.id]);};
-  const labController=useHistoryLab(step.interaction?.lab,solved,runLab);
+  const playStage=(voice:Voice,complete:boolean)=>{
+    setRefineVoice(voice);
+    if(complete&&!solved)onSolved();
+    onNarrationChange?.([voice.id]);
+    void speak([voice.id]);
+  };
+  const labController=useHistoryLab(step.interaction?.lab,solved,(stage,complete)=>playStage(stage?.audio??step.audio.intro,complete));
   const sceneChoice=kind==='pick'&&options.some(option=>['scene-card','scene-strip','study-card','circle-model','polity-panel','printing-panel'].includes(option.objectView?.kind??''));
-  const refineCircle=(sides:number)=>{const stage=step.interaction?.refinements?.find(r=>r.sides===sides);if(!stage)return;setRefineVoice(stage.audio);if(sides===24)onSolved();onNarrationChange?.([stage.audio.id]);void speak([stage.audio.id]);};
+  const refineCircle=(sides:number)=>{
+    const voice=sides===6?(step.audio.lead??step.audio.intro):step.interaction?.refinements?.find(r=>r.sides===sides)?.audio;
+    if(voice)playStage(voice,sides===24);
+  };
   const chooseSpot=(id:string)=>{
     if(!round||solved||sceneResult?.correct)return;
     const correct=id===round.targetId;setSceneResult({id,correct});
@@ -447,13 +518,16 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
   const bubbleVoices=(circleRefine||historyLab)&&refineVoice?[refineVoice.id]:sceneFind&&round?[sceneResult?(sceneResult.correct?round.audio.right.id:round.audio.wrong.id):round.audio.question.id]:episode&&solved?[step.audio.right.id]:episode&&tried&&!lookListen?[step.audio.wrong.id]:sequence;
   const spokenQuestion=sceneFind&&round?(sceneResult?(sceneResult.correct?round.feedback:round.retry):round.question):lookListen?step.title:episode?(solved?episode.response:tried?episode.retry:step.prompt):step.prompt;
   return <section style={{"--story-aspect":step.interaction?.sceneAspectRatio??presentation.sceneAspectRatio} as CSSProperties} className={`object-quest ${episode?"trip-episode":""} ${sceneChoice?'scene-choice':''} ${stripChoice?'scene-strip-choice':''}`} data-choice-art={step.interaction?.choiceArt} data-scene-framing={presentation.sceneFraming} data-story-scene={episode?.scene} data-step-id={step.id} data-interaction-kind={kind} data-image-label={step.interaction?.imageLabel} data-voice-id={sequence.join(',')} data-round-id={sceneFind?round?.id:undefined} data-question-voice-id={sceneFind?round?.audio.question.id:undefined}>
-    <p className="quest-context-line">{periodLabel} · {step.title}</p>
+    <div className={kind==='timeline'?'quest-context-line timeline-context':'quest-context-line'}>
+      <span>{periodLabel} · {step.title}</span>
+      {kind==='timeline'&&<TimeRiverRibbon periodLabel={periodLabel} options={options} solved={solved} worldTimeStop={step.interaction?.worldTimeStop}/>}
+    </div>
     <div className="workbench-scene-column">
       {illustratedSlide?<SlideFitIllustration scene={step.interaction?.scene??''} ariaLabel={step.interaction?.ariaLabel??'移动学习模型'} controller={slideController} modelLabel={step.interaction?.modelLabel}/>:chosenStrip?<div className="workbench-scene scene-strip-stage"><SceneStripArt view={chosenStrip} label={picked?.label??"故事分镜"} detail/><span className="story-art-label">{chosenStrip.imageLabel}</span></div>:chosenStudy?.image?<div className="workbench-scene"><Image className="workbench-art selected-scene-detail" src={chosenStudy.image} alt={picked?.label??'学习图'} width={600} height={346} unoptimized/><span className="story-art-label">学习示意</span></div>:historyLab&&step.interaction?.lab?<HistoryLab config={step.interaction.lab} controller={labController}/>:circleRefine?<CircleStudy locked={solved} onRefine={refineCircle}/>:sceneChoice&&picked?.objectView?.kind==='polity-panel'?<div className="workbench-scene"><PolityDiagram index={picked.objectView.windowIndex??0}/></div>:sceneChoice&&picked?.objectView?.kind==='printing-panel'?<div className="workbench-scene"><PrintingDiagram connected={picked.objectView.connected}/></div>:geometryChoice&&picked?.objectView?.kind==='circle-model'?<div className="workbench-scene"><CircleDiagram sides={picked.objectView.sides??6} label={picked.label} className="geometry-selection"/><span className="story-art-label">数学学习图</span></div>:(kind==='timeline'||lookListen)&&step.inspection&&step.inspection.placement!=='supporting'?<div className="quest-artifact-intro">
         <button className="quest-artifact-picture" data-image-framing={step.inspection.framing} onClick={onInspect} aria-label={step.inspection.label}><Image src={step.inspection.image} alt={step.inspection.title} width={1200} height={700} loading="eager" style={step.inspection.displayHeight?{height:step.inspection.displayHeight}:undefined} unoptimized/><span>{step.inspection.caption}</span></button>
         <h2>{step.inspection.title}</h2>
         {step.inspection.openAlbum&&photoAlbum&&<PhotoAlbumButton album={photoAlbum} onOpen={onInspect}/>}
-        {step.concepts&&<div className="measure-concepts" aria-label="核心词语">{step.concepts.map(concept=><div key={concept.term}><strong>{concept.term}</strong><span>{concept.meaning}</span></div>)}</div>}
+        {step.concepts&&<ConceptChips concepts={step.concepts} listen={listen}/>}
       </div>:kind==='timeline'?<div className="quest-date-map" aria-label={`时间从前到后：${step.options.map(o=>`${o.objectView?.name??o.label} ${o.objectView?.date??""}`).join("，")}`}>
         <p>{episode?.caption}</p><div className="quest-date-stops">{step.options.map(option=><div className={`quest-date-stop ${picked?.id===option.id&&option.correct?'arrived':''}`} key={option.id}>{option.objectView&&<EraMarker view={option.objectView}/>}<strong>{option.objectView?.name}</strong><span>{option.objectView?.date}</span></div>)}</div><span className="quest-date-direction">时间向前走 →</span>
       </div>:<div className="workbench-scene">
@@ -471,6 +545,7 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
         </div>
       </div>}
       {sceneFind&&<p className="scene-find-label">{step.interaction?.imageLabel??"故事插画"}</p>}
+      {step.concepts&&!((kind==='timeline'||lookListen)&&step.inspection&&step.inspection.placement!=='supporting')&&<ConceptChips concepts={step.concepts} listen={listen} compact/>}
       {step.inspection&&((kind!=='timeline'&&!lookListen)||step.inspection.placement==='supporting')&&<button className="real-object-link" onClick={onInspect}><Image src={step.inspection.image} alt={step.inspection.title} width={150} height={95} unoptimized/><span><small>真实材料 · 点开看一看</small><strong>{step.inspection.label}</strong></span><span className="object-magnify" aria-hidden="true">⌕</span></button>}
     </div>
     <div className="workbench-task">

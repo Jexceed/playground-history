@@ -233,7 +233,7 @@
     },
     "presentation": {
       "kind": "object-workbench",
-      "sceneAssetId": "xiaochi-story-v1",
+      "sceneAssetId": "xiaochi-main-scene-v1",
       "sceneAlt": "跟杨万里发现小池的生机 · 读诗想象",
       "title": "跟杨万里发现小池的生机",
       "evidenceTitle": "《诚斋集》后世抄本书影",
@@ -250,7 +250,7 @@
       "sceneAspectRatio": 1.5,
       "story": {
         "kind": "travel-story",
-        "reunionAssetId": "xiaochi-story-v1",
+        "reunionAssetId": "xiaochi-main-scene-v1",
         "reunionAlt": "小伙伴回看读诗情境",
         "reunionAspectRatio": 1.5,
         "reunionFit": "contain",
@@ -260,7 +260,7 @@
         "closingLine": "杨万里的《小池》写细细的泉水、映在水里的树影，也写刚露尖角的嫩荷叶和停在上面的蜻蜓。细小的景物也能写出自然的生机。",
         "closingNarration": "杨万里的《小池》写细细的泉水、映在水里的树影，也写刚露尖角的嫩荷叶和停在上面的蜻蜓。细小的景物也能写出自然的生机。",
         "fictionNote": "书影为日本江户初期《诚斋集》抄本，不是杨万里手稿。插画是现代读诗想象，不指定诗中小池的实际地点或写作年；尖尖角指尚未展开的嫩荷叶，不是花苞。拟人语气不表示泉眼和树真的有人类心思。",
-        "reunionImage": "/content/step-images/xiaochi-story-v1.jpg",
+        "reunionImage": "/content/step-images/xiaochi-main-scene-v1.jpg",
         "stationLine": "到宋朝看城市和发明，读王安石、苏轼、杨万里和范成大的诗，听李清照的词；还可以认识与两宋并立的辽、西夏、金。",
         "stationAudio": {
           "id": "quest-f6e029ea9ad82553",
@@ -271,7 +271,7 @@
           "text": "杨万里的《小池》写细细的泉水、映在水里的树影，也写刚露尖角的嫩荷叶和停在上面的蜻蜓。细小的景物也能写出自然的生机。"
         }
       },
-      "sceneImage": "/content/step-images/xiaochi-story-v1.jpg",
+      "sceneImage": "/content/step-images/xiaochi-main-scene-v1.jpg",
       "evidenceAudio": {
         "id": "quest-6fe452620027f1e6",
         "text": "杨万里的诗文后来编成《诚斋集》。眼前是后世抄本书影，不是他的手稿；古诗中的小池也不是这幅现代插画的实地照片。"
@@ -282,21 +282,36 @@
       }
     },
     "sceneAsset": {
-      "id": "xiaochi-story-v1",
-      "title": "跟杨万里发现小池的生机 · 四幅读诗想象",
-      "localPath": "reference-assets/song-poetry-expansion/xiaochi-story-v1.png",
+      "id": "xiaochi-main-scene-v1",
+      "title": "《小池》细泉嫩荷与红蜻蜓 · 单景读诗插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/xiaochi-main-scene-v2.png",
       "runtimeMaxEdge": 1536,
       "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
-      "licensePath": "reference-assets/song-poetry-expansion/ATTRIBUTION.md",
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
       "license": "项目自制教学插画，仅用于本项目",
       "clearance": "cleared-project-created",
-      "caption": "现代读诗想象，不是历史现场",
-      "boundary": "书影为日本江户初期《诚斋集》抄本，不是杨万里手稿。插画是现代读诗想象，不指定诗中小池的实际地点或写作年；尖尖角指尚未展开的嫩荷叶，不是花苞。拟人语气不表示泉眼和树真的有人类心思。",
+      "caption": "现代读诗情境插画，尖尖角表现未展开的嫩荷叶",
+      "boundary": "现代读诗情境插画，表现泉水细流、树阴照水与蜻蜓停在未展开嫩荷叶尖上的画面，不指定真实地点。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/xiaochi-story-v1.jpg"
+      "image": "/content/step-images/xiaochi-main-scene-v1.jpg"
     },
     "narrativeAssets": [
+      {
+        "id": "xiaochi-main-scene-v1",
+        "title": "《小池》细泉嫩荷与红蜻蜓 · 单景读诗插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/xiaochi-main-scene-v2.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
+        "clearance": "cleared-project-created",
+        "caption": "现代读诗情境插画，尖尖角表现未展开的嫩荷叶",
+        "boundary": "现代读诗情境插画，表现泉水细流、树阴照水与蜻蜓停在未展开嫩荷叶尖上的画面，不指定真实地点。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/xiaochi-main-scene-v1.jpg"
+      },
       {
         "id": "xiaochi-story-v1",
         "title": "跟杨万里发现小池的生机 · 四幅读诗想象",
@@ -543,13 +558,13 @@
           "displayText": "泉眼无声惜细流，树阴照水爱晴柔。小荷才露尖尖角，早有蜻蜓立上头。",
           "narration": "泉眼无声惜细流，树阴照水爱晴柔。小荷才露尖尖角，早有蜻蜓立上头。"
         },
-        "assetId": "xiaochi-story-v1",
-        "image": "/content/step-images/xiaochi-story-v1.jpg",
+        "assetId": "xiaochi-main-scene-v1",
+        "image": "/content/step-images/xiaochi-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-f71ea8631bf88834.svg",
         "studyImageAlt": "先听完整的《小池》",
-        "imageAlt": "跟杨万里发现小池的生机 · 四幅读诗想象",
-        "imageCaption": "跟杨万里发现小池的生机 · 四幅读诗想象",
-        "imageBoundary": "书影为日本江户初期《诚斋集》抄本，不是杨万里手稿。插画是现代读诗想象，不指定诗中小池的实际地点或写作年；尖尖角指尚未展开的嫩荷叶，不是花苞。拟人语气不表示泉眼和树真的有人类心思。",
+        "imageAlt": "《小池》细泉嫩荷与红蜻蜓 · 单景读诗插画",
+        "imageCaption": "《小池》细泉嫩荷与红蜻蜓 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，表现泉水细流、树阴照水与蜻蜓停在未展开嫩荷叶尖上的画面，不指定真实地点。",
         "audio": {
           "lead": {
             "id": "quest-f870a9cb02a96a12",
@@ -568,8 +583,8 @@
             "text": "听诗，想一想诗中的画面"
           },
           "image": {
-            "id": "quest-2d64e6c95c115766",
-            "text": "这张是跟杨万里发现小池的生机 · 四幅读诗想象。泉眼无声惜细流，树阴照水爱晴柔。小荷才露尖尖角，早有蜻蜓立上头。"
+            "id": "quest-b38400829576ef09",
+            "text": "这张是《小池》细泉嫩荷与红蜻蜓 · 单景读诗插画。泉眼无声惜细流，树阴照水爱晴柔。小荷才露尖尖角，早有蜻蜓立上头。"
           },
           "right": {
             "id": "quest-4f53be21fcda6f1a",
@@ -619,13 +634,13 @@
           "displayText": "“小荷才露尖尖角”。尖尖角是刚露出水面、还卷着的嫩荷叶。旁边圆圆的大叶子已经展开了，和它不一样。",
           "narration": "“小荷才露尖尖角”。尖尖角是刚露出水面、还卷着的嫩荷叶。旁边圆圆的大叶子已经展开了，和它不一样。"
         },
-        "assetId": "xiaochi-story-v1",
-        "image": "/content/step-images/xiaochi-story-v1.jpg",
+        "assetId": "xiaochi-main-scene-v1",
+        "image": "/content/step-images/xiaochi-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-cb962d4e8ac3d6cd.svg",
         "studyImageAlt": "尖尖角是嫩荷叶",
-        "imageAlt": "跟杨万里发现小池的生机 · 四幅读诗想象",
-        "imageCaption": "跟杨万里发现小池的生机 · 四幅读诗想象",
-        "imageBoundary": "书影为日本江户初期《诚斋集》抄本，不是杨万里手稿。插画是现代读诗想象，不指定诗中小池的实际地点或写作年；尖尖角指尚未展开的嫩荷叶，不是花苞。拟人语气不表示泉眼和树真的有人类心思。",
+        "imageAlt": "《小池》细泉嫩荷与红蜻蜓 · 单景读诗插画",
+        "imageCaption": "《小池》细泉嫩荷与红蜻蜓 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，表现泉水细流、树阴照水与蜻蜓停在未展开嫩荷叶尖上的画面，不指定真实地点。",
         "audio": {
           "lead": {
             "id": "quest-4260961d42cd6c17",
@@ -644,8 +659,8 @@
             "text": "哪幅是才露尖角的嫩荷叶？"
           },
           "image": {
-            "id": "quest-ccbcc3218c0b0818",
-            "text": "这张是跟杨万里发现小池的生机 · 四幅读诗想象。“小荷才露尖尖角”。尖尖角是刚露出水面、还卷着的嫩荷叶。旁边圆圆的大叶子已经展开了，和它不一样。"
+            "id": "quest-84b725655598192a",
+            "text": "这张是《小池》细泉嫩荷与红蜻蜓 · 单景读诗插画。“小荷才露尖尖角”。尖尖角是刚露出水面、还卷着的嫩荷叶。旁边圆圆的大叶子已经展开了，和它不一样。"
           },
           "right": {
             "id": "quest-c7c028535e909da4",
@@ -748,13 +763,13 @@
           "displayText": "“早有蜻蜓立上头”。立上头，就是停在嫩荷叶尖上。一幅蜻蜓已经停稳，一幅还在圆叶上方飞。",
           "narration": "“早有蜻蜓立上头”。立上头，就是停在嫩荷叶尖上。一幅蜻蜓已经停稳，一幅还在圆叶上方飞。"
         },
-        "assetId": "xiaochi-story-v1",
-        "image": "/content/step-images/xiaochi-story-v1.jpg",
+        "assetId": "xiaochi-main-scene-v1",
+        "image": "/content/step-images/xiaochi-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-ca1788546f0b0144.svg",
         "studyImageAlt": "蜻蜓停在哪里",
-        "imageAlt": "跟杨万里发现小池的生机 · 四幅读诗想象",
-        "imageCaption": "跟杨万里发现小池的生机 · 四幅读诗想象",
-        "imageBoundary": "书影为日本江户初期《诚斋集》抄本，不是杨万里手稿。插画是现代读诗想象，不指定诗中小池的实际地点或写作年；尖尖角指尚未展开的嫩荷叶，不是花苞。拟人语气不表示泉眼和树真的有人类心思。",
+        "imageAlt": "《小池》细泉嫩荷与红蜻蜓 · 单景读诗插画",
+        "imageCaption": "《小池》细泉嫩荷与红蜻蜓 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，表现泉水细流、树阴照水与蜻蜓停在未展开嫩荷叶尖上的画面，不指定真实地点。",
         "audio": {
           "lead": {
             "id": "quest-3cd06497ee3c6253",
@@ -773,8 +788,8 @@
             "text": "哪幅画出了“立上头”？"
           },
           "image": {
-            "id": "quest-f72203bc699c0c4c",
-            "text": "这张是跟杨万里发现小池的生机 · 四幅读诗想象。“早有蜻蜓立上头”。立上头，就是停在嫩荷叶尖上。一幅蜻蜓已经停稳，一幅还在圆叶上方飞。"
+            "id": "quest-1a57f0d0b3584c71",
+            "text": "这张是《小池》细泉嫩荷与红蜻蜓 · 单景读诗插画。“早有蜻蜓立上头”。立上头，就是停在嫩荷叶尖上。一幅蜻蜓已经停稳，一幅还在圆叶上方飞。"
           },
           "right": {
             "id": "quest-2ee0431d32d000d7",
@@ -1235,6 +1250,20 @@
     }
   ],
   "assets": [
+    {
+      "id": "xiaochi-main-scene-v1",
+      "title": "《小池》细泉嫩荷与红蜻蜓 · 单景读诗插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/xiaochi-main-scene-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代读诗情境插画，尖尖角表现未展开的嫩荷叶",
+      "boundary": "现代读诗情境插画，表现泉水细流、树阴照水与蜻蜓停在未展开嫩荷叶尖上的画面，不指定真实地点。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "study-b2d4656801a0a2a5",
       "title": "学习示意：先认识写诗的人",

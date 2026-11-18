@@ -229,15 +229,17 @@
       "sceneAspectRatio": 2.2,
       "story": {
         "kind": "travel-story",
-        "reunionAssetId": "jin-travel-journal-reunion-v1",
-        "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
+        "reunionAssetId": "jin-math-reform-reunion-v1",
+        "reunionAlt": "三位小伙伴翻看青瓷、城门、圆内多边形与九色鹿总结手账，现代教学插画",
         "coverCaption": "跟着九色鹿读懂壁画",
         "coverNarration": "跟着九色鹿读懂壁画小小旅行团出发！古人把不同时间的故事画在一面墙上。先救人，后有约定，后来又发生什么？",
         "closingCaption": "回看刚刚读懂的历史",
         "closingNarration": "北魏画工把鹿王故事画在洞窟墙上，用连续场景讲救助、约定与失信。今天的学习画帮助读故事，不能冒充原壁画。",
         "closingLine": "跟着连续画面，读懂前后发生的故事。",
         "fictionNote": "这是佛教本生故事与古代艺术，不是真实鹿的新闻或北魏人物传记。第一步为第257窟原壁画局部；新画卡是现代教学绘本，不是现代动画截图。原壁画从两端向中间展开，新画卡为了教学从左到右排列，不把局部当整面墙。",
-        "reunionImage": "/content/step-images/jin-travel-journal-reunion-v1.jpg",
+        "reunionAspectRatio": 1.5,
+        "reunionFit": "contain",
+        "reunionImage": "/content/step-images/jin-math-reform-reunion-v1.jpg",
         "stationLine": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。",
         "stationAudio": {
           "id": "quest-3b178ba3d4febef9",
@@ -274,18 +276,19 @@
     },
     "narrativeAssets": [
       {
-        "id": "jin-travel-journal-reunion-v1",
-        "title": "三位小伙伴回看本段历史的聚会插画",
-        "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-travel-journal-reunion-v1.png",
-        "sourcePage": null,
-        "sourceFile": "content/focused-quests.json",
-        "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
-        "license": "项目自制，供本项目使用",
+        "id": "jin-math-reform-reunion-v1",
+        "title": "小伙伴翻看三国两晋南北朝旅行手账 · 收尾插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/jin-math-reform-reunion-v2.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
         "clearance": "cleared-project-created",
-        "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
-        "boundary": "三位现代小伙伴回看旅行手册的教学插画。册页中的器物、圆形与鹿故事是回顾线索，不是原始文物、数学原稿或北魏壁画本体。",
+        "caption": "现代旅行手账插画，回看青瓷、城门、割圆与壁画故事",
+        "boundary": "现代旅行手账插画，帮助孩子回看江南青瓷、洛阳城门、圆内多边形与壁画九色鹿等线索，不是古代实物原件。",
         "childVisibility": "child-ok",
-        "image": "/content/step-images/jin-travel-journal-reunion-v1.jpg"
+        "image": "/content/step-images/jin-math-reform-reunion-v1.jpg"
       },
       {
         "id": "dunhuang-deer-story-cards-v1",
@@ -377,7 +380,16 @@
           "nextLabel": "古人怎样把故事画出来",
           "kind": "fictional-guide-scene"
         },
-        "concepts": null,
+        "concepts": [
+          {
+            "term": "敦煌壁画",
+            "meaning": "画在甘肃敦煌石窟墙壁上的古代彩色故事画",
+            "audio": {
+              "id": "quest-6a1fbca8fa369be9",
+              "text": "敦煌壁画：画在甘肃敦煌石窟墙壁上的古代彩色故事画。"
+            }
+          }
+        ],
         "inspection": {
           "id": "dunhuang-cave-257-nine-coloured-deer-detail",
           "title": "鹿王壁画局部 · 北魏",
@@ -1199,6 +1211,20 @@
     }
   ],
   "assets": [
+    {
+      "id": "jin-math-reform-reunion-v1",
+      "title": "小伙伴翻看三国两晋南北朝旅行手账 · 收尾插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/jin-math-reform-reunion-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代旅行手账插画，回看青瓷、城门、割圆与壁画故事",
+      "boundary": "现代旅行手账插画，帮助孩子回看江南青瓷、洛阳城门、圆内多边形与壁画九色鹿等线索，不是古代实物原件。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "study-87c3f38235c7b604",
       "title": "学习示意：唐朝 7世纪起",

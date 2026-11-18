@@ -264,7 +264,7 @@
     },
     "presentation": {
       "kind": "object-workbench",
-      "sceneAssetId": "garden-story-v1",
+      "sceneAssetId": "garden-main-scene-v1",
       "sceneAlt": "文徵明的园林画里能听见什么 · 现代读诗情境",
       "title": "文徵明的园林画里能听见什么",
       "evidenceTitle": "《芭蕉槛》画页 · 明1551年",
@@ -281,7 +281,7 @@
       "sceneAspectRatio": 1.5,
       "story": {
         "kind": "travel-story",
-        "reunionAssetId": "garden-story-v1",
+        "reunionAssetId": "garden-main-scene-v1",
         "reunionAlt": "文徵明的园林画里能听见什么 · 小伙伴读诗",
         "reunionAspectRatio": 1.5,
         "reunionFit": "contain",
@@ -291,7 +291,7 @@
         "closingLine": "诗里有景物，也有声音和心愿。",
         "closingNarration": "文徵明把园景画成册，又配上诗。画让我们看见芭蕉、屋子和栏杆，诗让我们想到雨后的洁净、秋声和凉意。",
         "fictionNote": "真实册页为文徵明1551年《拙政园图诗》中的《芭蕉槛》画页和诗页，原文按DP235631转写，简体字不改变用字。“秋声”可引发多种听觉联想，雨打叶子的现代分镜只是一种读诗想象；它不是当时天气、原园布局或真实人物记录。",
-        "reunionImage": "/content/step-images/garden-story-v1.jpg",
+        "reunionImage": "/content/step-images/garden-main-scene-v1.jpg",
         "stationLine": "到明朝的宫殿、港口和书坊，看人们怎样办事、交往和留下见闻；再跟唐寅、文徵明和于谦，听诗怎样写画面、声音和心愿。",
         "stationAudio": {
           "id": "quest-25288a8df8355cf9",
@@ -302,7 +302,7 @@
           "text": "文徵明把园景画成册，又配上诗。画让我们看见芭蕉、屋子和栏杆，诗让我们想到雨后的洁净、秋声和凉意。"
         }
       },
-      "sceneImage": "/content/step-images/garden-story-v1.jpg",
+      "sceneImage": "/content/step-images/garden-main-scene-v1.jpg",
       "evidenceAudio": {
         "id": "quest-234ea81935e77ad0",
         "text": "这是文徵明1551年《拙政园图诗》的一页，画中有芭蕉、屋子和栏杆。它是诗画作品，不是园子的照片；今天的拙政园历经过许多改造。"
@@ -313,21 +313,36 @@
       }
     },
     "sceneAsset": {
-      "id": "garden-story-v1",
-      "title": "文徵明的园林画里能听见什么 · 四幅现代读诗情境",
-      "localPath": "reference-assets/ming-poetry-expansion/garden-story-v1.png",
+      "id": "garden-main-scene-v1",
+      "title": "《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/garden-main-scene-v2.png",
       "runtimeMaxEdge": 1536,
       "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
-      "licensePath": "reference-assets/ming-poetry-expansion/ATTRIBUTION.md",
-      "license": "项目自制教学插画，供本项目使用",
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
       "clearance": "cleared-project-created",
-      "caption": "现代读诗想象，不是历史现场",
-      "boundary": "真实册页为文徵明1551年《拙政园图诗》中的《芭蕉槛》画页和诗页，原文按DP235631转写，简体字不改变用字。“秋声”可引发多种听觉联想，雨打叶子的现代分镜只是一种读诗想象；它不是当时天气、原园布局或真实人物记录。",
+      "caption": "现代读诗情境插画，不是明代拙政园建筑测绘",
+      "boundary": "现代读诗情境插画，表现粉墙、红栏与雨后翠绿芭蕉叶的园林意境，不是明代拙政园原貌复原；文徵明册页真迹请查看真实材料。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/garden-story-v1.jpg"
+      "image": "/content/step-images/garden-main-scene-v1.jpg"
     },
     "narrativeAssets": [
+      {
+        "id": "garden-main-scene-v1",
+        "title": "《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/garden-main-scene-v2.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
+        "clearance": "cleared-project-created",
+        "caption": "现代读诗情境插画，不是明代拙政园建筑测绘",
+        "boundary": "现代读诗情境插画，表现粉墙、红栏与雨后翠绿芭蕉叶的园林意境，不是明代拙政园原貌复原；文徵明册页真迹请查看真实材料。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/garden-main-scene-v1.jpg"
+      },
       {
         "id": "garden-story-v1",
         "title": "文徵明的园林画里能听见什么 · 四幅现代读诗情境",
@@ -456,13 +471,13 @@
           "displayText": "文徵明是明朝诗人、书画家。他在1551年把拙政园景物画成册页，还配上诗。这页画有芭蕉，我们听诗里多了什么。",
           "narration": "文徵明是明朝诗人、书画家。他在1551年把拙政园景物画成册页，还配上诗。这页画有芭蕉，我们听诗里多了什么。"
         },
-        "assetId": "garden-story-v1",
-        "image": "/content/step-images/garden-story-v1.jpg",
+        "assetId": "garden-main-scene-v1",
+        "image": "/content/step-images/garden-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-3ee38fbb79dcc1ad.svg",
         "studyImageAlt": "去明朝看文徵明的诗画",
-        "imageAlt": "文徵明的园林画里能听见什么 · 四幅现代读诗情境",
-        "imageCaption": "文徵明的园林画里能听见什么 · 四幅现代读诗情境",
-        "imageBoundary": "真实册页为文徵明1551年《拙政园图诗》中的《芭蕉槛》画页和诗页，原文按DP235631转写，简体字不改变用字。“秋声”可引发多种听觉联想，雨打叶子的现代分镜只是一种读诗想象；它不是当时天气、原园布局或真实人物记录。",
+        "imageAlt": "《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画",
+        "imageCaption": "《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，表现粉墙、红栏与雨后翠绿芭蕉叶的园林意境，不是明代拙政园原貌复原；文徵明册页真迹请查看真实材料。",
         "audio": {
           "lead": {
             "id": "quest-fe54c74f23d9b28f",
@@ -481,8 +496,9 @@
             "text": "这位作者生活在哪个朝代？"
           },
           "image": {
-            "id": "quest-cb00ef6c2442d4b6",
-            "text": "这张是文徵明的园林画里能听见什么 · 四幅现代读诗情境。文徵明是明朝诗人、书画家。他在1551年把拙政园景物画成册页，还配上诗。这页画有芭蕉，我们听诗里多了什么。"
+            "id": "quest-5946fe1b7fa84569",
+            "text": "这张是《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画。文徵明是明朝诗人、书画家。他在1551年把拙政园景物画成册页，还配上诗。这页画有芭蕉，我们听诗里多了什么。",
+            "synthesisText": "这张是《芭蕉舰》雨后园林芭蕉红槛 · 单景读诗插画。文徵明是明朝诗人、书画家。他在1551年把拙政园景物画成册页，还配上诗。这页画有芭蕉，我们听诗里多了什么。"
           },
           "right": {
             "id": "quest-212ffb9848745655",
@@ -594,13 +610,13 @@
           "displayText": "新蕉十尺强，得雨净如沐。不嫌粉堵高，雅称朱栏曲。秋声入枕凉，晓色分窗绿。莫教轻剪取，留待阴连屋。画中有芭蕉和屋子，诗还写雨后的洁净、凉意与绿荫。",
           "narration": "新蕉十尺强，得雨净如沐。不嫌粉堵高，雅称朱栏曲。秋声入枕凉，晓色分窗绿。莫教轻剪取，留待阴连屋。画中有芭蕉和屋子，诗还写雨后的洁净、凉意与绿荫。"
         },
-        "assetId": "garden-story-v1",
-        "image": "/content/step-images/garden-story-v1.jpg",
+        "assetId": "garden-main-scene-v1",
+        "image": "/content/step-images/garden-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-dace25a1be0344da.svg",
         "studyImageAlt": "先听完整的《芭蕉槛》",
-        "imageAlt": "文徵明的园林画里能听见什么 · 四幅现代读诗情境",
-        "imageCaption": "文徵明的园林画里能听见什么 · 四幅现代读诗情境",
-        "imageBoundary": "真实册页为文徵明1551年《拙政园图诗》中的《芭蕉槛》画页和诗页，原文按DP235631转写，简体字不改变用字。“秋声”可引发多种听觉联想，雨打叶子的现代分镜只是一种读诗想象；它不是当时天气、原园布局或真实人物记录。",
+        "imageAlt": "《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画",
+        "imageCaption": "《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，表现粉墙、红栏与雨后翠绿芭蕉叶的园林意境，不是明代拙政园原貌复原；文徵明册页真迹请查看真实材料。",
         "audio": {
           "lead": {
             "id": "quest-7f11b49ce0dab2f6",
@@ -620,8 +636,9 @@
             "text": "诗和画怎样相互补充？"
           },
           "image": {
-            "id": "quest-c986aeea8626e70f",
-            "text": "这张是文徵明的园林画里能听见什么 · 四幅现代读诗情境。新蕉十尺强，得雨净如沐。不嫌粉堵高，雅称朱栏曲。秋声入枕凉，晓色分窗绿。莫教轻剪取，留待阴连屋。画中有芭蕉和屋子，诗还写雨后的洁净、凉意与绿荫。"
+            "id": "quest-1e3a50c416fb2770",
+            "text": "这张是《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画。新蕉十尺强，得雨净如沐。不嫌粉堵高，雅称朱栏曲。秋声入枕凉，晓色分窗绿。莫教轻剪取，留待阴连屋。画中有芭蕉和屋子，诗还写雨后的洁净、凉意与绿荫。",
+            "synthesisText": "这张是《芭蕉舰》雨后园林芭蕉红槛 · 单景读诗插画。新蕉十尺强，得雨净如沐。不嫌粉堵高，雅称朱栏曲。秋声入枕凉，晓色分窗绿。莫教轻剪取，留待阴连屋。画中有芭蕉和屋子，诗还写雨后的洁净、凉意与绿荫。"
           },
           "right": {
             "id": "quest-cc80d97fade825d7",
@@ -661,7 +678,24 @@
           "retry": "晴天也能看叶子，但这一句先写它得到了雨水。",
           "nextLabel": "看得见的叶子与感觉到的凉"
         },
-        "concepts": null,
+        "concepts": [
+          {
+            "term": "芭蕉",
+            "meaning": "院子里长着宽大绿叶的植物，雨滴打上去沙沙响",
+            "audio": {
+              "id": "quest-2fa3ccdaeaa02926",
+              "text": "芭蕉：院子里长着宽大绿叶的植物，雨滴打上去沙沙响。"
+            }
+          },
+          {
+            "term": "槛",
+            "meaning": "园林走廊或窗边的木栏杆",
+            "audio": {
+              "id": "quest-5881185abde37ac9",
+              "text": "槛：园林走廊或窗边的木栏杆。"
+            }
+          }
+        ],
         "inspection": null,
         "story": {
           "screenNumber": 3,
@@ -670,13 +704,13 @@
           "displayText": "“得雨净如沐”说芭蕉淋过雨，像洗过一样干净。小伙伴用今天画的情境图读诗，雨滴和湿叶子是这一句的线索。",
           "narration": "“得雨净如沐”说芭蕉淋过雨，像洗过一样干净。小伙伴用今天画的情境图读诗，雨滴和湿叶子是这一句的线索。"
         },
-        "assetId": "garden-story-v1",
-        "image": "/content/step-images/garden-story-v1.jpg",
+        "assetId": "garden-main-scene-v1",
+        "image": "/content/step-images/garden-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-303643b5c9d1695c.svg",
         "studyImageAlt": "雨让叶子像洗过一样",
-        "imageAlt": "文徵明的园林画里能听见什么 · 四幅现代读诗情境",
-        "imageCaption": "文徵明的园林画里能听见什么 · 四幅现代读诗情境",
-        "imageBoundary": "真实册页为文徵明1551年《拙政园图诗》中的《芭蕉槛》画页和诗页，原文按DP235631转写，简体字不改变用字。“秋声”可引发多种听觉联想，雨打叶子的现代分镜只是一种读诗想象；它不是当时天气、原园布局或真实人物记录。",
+        "imageAlt": "《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画",
+        "imageCaption": "《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，表现粉墙、红栏与雨后翠绿芭蕉叶的园林意境，不是明代拙政园原貌复原；文徵明册页真迹请查看真实材料。",
         "audio": {
           "lead": {
             "id": "quest-4225b10aae2a35c0",
@@ -695,8 +729,9 @@
             "text": "哪幅是在回应“得雨净如沐”？"
           },
           "image": {
-            "id": "quest-f6ef82cfd73785b8",
-            "text": "这张是文徵明的园林画里能听见什么 · 四幅现代读诗情境。“得雨净如沐”说芭蕉淋过雨，像洗过一样干净。小伙伴用今天画的情境图读诗，雨滴和湿叶子是这一句的线索。"
+            "id": "quest-ad00c9decab6cdcc",
+            "text": "这张是《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画。“得雨净如沐”说芭蕉淋过雨，像洗过一样干净。小伙伴用今天画的情境图读诗，雨滴和湿叶子是这一句的线索。",
+            "synthesisText": "这张是《芭蕉舰》雨后园林芭蕉红槛 · 单景读诗插画。“得雨净如沐”说芭蕉淋过雨，像洗过一样干净。小伙伴用今天画的情境图读诗，雨滴和湿叶子是这一句的线索。"
           },
           "right": {
             "id": "quest-95e52cb371c40607",
@@ -798,13 +833,13 @@
           "displayText": "画页让我们看见芭蕉的形状。“秋声入枕凉”写声音与凉意。这幅读诗图把秋声想象成叶间雨声，还可以有别的联想。",
           "narration": "画页让我们看见芭蕉的形状。“秋声入枕凉”写声音与凉意。这幅读诗图把秋声想象成叶间雨声，还可以有别的联想。"
         },
-        "assetId": "garden-story-v1",
-        "image": "/content/step-images/garden-story-v1.jpg",
+        "assetId": "garden-main-scene-v1",
+        "image": "/content/step-images/garden-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-b9e909160ccd808d.svg",
         "studyImageAlt": "看得见的叶子与感觉到的凉",
-        "imageAlt": "文徵明的园林画里能听见什么 · 四幅现代读诗情境",
-        "imageCaption": "文徵明的园林画里能听见什么 · 四幅现代读诗情境",
-        "imageBoundary": "真实册页为文徵明1551年《拙政园图诗》中的《芭蕉槛》画页和诗页，原文按DP235631转写，简体字不改变用字。“秋声”可引发多种听觉联想，雨打叶子的现代分镜只是一种读诗想象；它不是当时天气、原园布局或真实人物记录。",
+        "imageAlt": "《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画",
+        "imageCaption": "《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，表现粉墙、红栏与雨后翠绿芭蕉叶的园林意境，不是明代拙政园原貌复原；文徵明册页真迹请查看真实材料。",
         "audio": {
           "lead": {
             "id": "quest-080cb2510ed9effb",
@@ -823,8 +858,9 @@
             "text": "哪幅用倾听来回应诗里的“秋声”？"
           },
           "image": {
-            "id": "quest-f7bb7bfa25663815",
-            "text": "这张是文徵明的园林画里能听见什么 · 四幅现代读诗情境。画页让我们看见芭蕉的形状。“秋声入枕凉”写声音与凉意。这幅读诗图把秋声想象成叶间雨声，还可以有别的联想。"
+            "id": "quest-369aa71d22744002",
+            "text": "这张是《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画。画页让我们看见芭蕉的形状。“秋声入枕凉”写声音与凉意。这幅读诗图把秋声想象成叶间雨声，还可以有别的联想。",
+            "synthesisText": "这张是《芭蕉舰》雨后园林芭蕉红槛 · 单景读诗插画。画页让我们看见芭蕉的形状。“秋声入枕凉”写声音与凉意。这幅读诗图把秋声想象成叶间雨声，还可以有别的联想。"
           },
           "right": {
             "id": "quest-18c8234c1ea2b791",
@@ -926,13 +962,13 @@
           "displayText": "“莫教轻剪取，留待阴连屋”，是诗里希望别轻易剪去芭蕉，让绿荫伸到屋边。这里的“阴”指叶子挡出的荫凉。",
           "narration": "“莫教轻剪取，留待阴连屋”，是诗里希望别轻易剪去芭蕉，让绿荫伸到屋边。这里的“阴”指叶子挡出的荫凉。"
         },
-        "assetId": "garden-story-v1",
-        "image": "/content/step-images/garden-story-v1.jpg",
+        "assetId": "garden-main-scene-v1",
+        "image": "/content/step-images/garden-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-ae42a278f42dda22.svg",
         "studyImageAlt": "留下芭蕉的绿荫",
-        "imageAlt": "文徵明的园林画里能听见什么 · 四幅现代读诗情境",
-        "imageCaption": "文徵明的园林画里能听见什么 · 四幅现代读诗情境",
-        "imageBoundary": "真实册页为文徵明1551年《拙政园图诗》中的《芭蕉槛》画页和诗页，原文按DP235631转写，简体字不改变用字。“秋声”可引发多种听觉联想，雨打叶子的现代分镜只是一种读诗想象；它不是当时天气、原园布局或真实人物记录。",
+        "imageAlt": "《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画",
+        "imageCaption": "《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，表现粉墙、红栏与雨后翠绿芭蕉叶的园林意境，不是明代拙政园原貌复原；文徵明册页真迹请查看真实材料。",
         "audio": {
           "lead": {
             "id": "quest-18eb5a8e3253d883",
@@ -951,8 +987,9 @@
             "text": "哪幅回应了诗人想留下的绿荫？"
           },
           "image": {
-            "id": "quest-8955b705e04b8bf4",
-            "text": "这张是文徵明的园林画里能听见什么 · 四幅现代读诗情境。“莫教轻剪取，留待阴连屋”，是诗里希望别轻易剪去芭蕉，让绿荫伸到屋边。这里的“阴”指叶子挡出的荫凉。"
+            "id": "quest-fe115710a928471f",
+            "text": "这张是《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画。“莫教轻剪取，留待阴连屋”，是诗里希望别轻易剪去芭蕉，让绿荫伸到屋边。这里的“阴”指叶子挡出的荫凉。",
+            "synthesisText": "这张是《芭蕉舰》雨后园林芭蕉红槛 · 单景读诗插画。“莫教轻剪取，留待阴连屋”，是诗里希望别轻易剪去芭蕉，让绿荫伸到屋边。这里的“阴”指叶子挡出的荫凉。"
           },
           "right": {
             "id": "quest-ce3bbf65d9e699f7",
@@ -1268,6 +1305,20 @@
     }
   ],
   "assets": [
+    {
+      "id": "garden-main-scene-v1",
+      "title": "《芭蕉槛》雨后园林芭蕉红槛 · 单景读诗插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/garden-main-scene-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代读诗情境插画，不是明代拙政园建筑测绘",
+      "boundary": "现代读诗情境插画，表现粉墙、红栏与雨后翠绿芭蕉叶的园林意境，不是明代拙政园原貌复原；文徵明册页真迹请查看真实材料。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "study-3ae8638e213d04b5",
       "title": "学习示意：宋朝 · 960—1279年",

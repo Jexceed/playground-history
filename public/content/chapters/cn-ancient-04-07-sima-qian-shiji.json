@@ -56,7 +56,7 @@
     ],
     "place": "西汉与后世的书坊、图书馆",
     "culture": "司马迁与《史记》",
-    "care": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。 资料室读书与画想象图是现代学习情境；访问记录属于待核对的材料，不把流传故事自动当作已经证实的事实。",
+    "care": "书影是明刊本，不是司马迁手稿。现代阅览室里由现代讲解员陪伴共学；桌上的竹简复制品与两张人物画片是今天的学习道具，不是古人写真。访问记录属于待核对材料，不把流传故事直接当作已证实的事实。",
     "preferredAssetId": "shiji-ming-edition",
     "playableSource": "content/focused-quests.json"
   },
@@ -131,7 +131,7 @@
       "id": "beginning",
       "icon": "🔎",
       "label": "没见过古人，还能找材料",
-      "text": "司马迁读史籍，也游历许多地方，考察风俗、搜集流传的故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。今天的小伙伴也来学着找材料。"
+      "text": "司马迁是西汉史学家。他读前人留下的竹简史籍，也去孔子家乡等许多地方考察风俗、搜集故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。"
     },
     {
       "id": "journey",
@@ -203,7 +203,7 @@
     },
     "cta": "为过去的人找记录",
     "anchor": "司马迁与《史记》",
-    "boundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。 资料室读书与画想象图是现代学习情境；访问记录属于待核对的材料，不把流传故事自动当作已经证实的事实。",
+    "boundary": "书影是明刊本，不是司马迁手稿。现代阅览室里由现代讲解员陪伴共学；桌上的竹简复制品与两张人物画片是今天的学习道具，不是古人写真。访问记录属于待核对材料，不把流传故事直接当作已证实的事实。",
     "evidence": [
       {
         "id": "shiji-ming-edition",
@@ -237,8 +237,8 @@
     },
     "presentation": {
       "kind": "object-workbench",
-      "sceneAssetId": "han-shiji-reading-v1",
-      "sceneAlt": "今天的历史小剧场：古装讲解员与三位现代小伙伴用新画图卡做人物书签",
+      "sceneAssetId": "sima-qian-study-v2",
+      "sceneAlt": "现代博物馆阅览室：讲解员陪伴三位小伙伴观察竹简复制品、考察记录本与春秋孔子、西汉司马迁两张时代画片",
       "title": "司马迁怎样把过去的事留下来？",
       "evidenceTitle": "明刊《史记》· 后世书影",
       "evidenceLine": "真材料的年代和身份可以在大图里查看。",
@@ -254,8 +254,8 @@
       "sceneAspectRatio": 1.5,
       "story": {
         "kind": "travel-story",
-        "reunionAssetId": "han-shiji-reading-v1",
-        "reunionAlt": "三位小伙伴回看司马迁怎样把过去的事留下来？的线索，现代教学插画",
+        "reunionAssetId": "sima-qian-study-v2",
+        "reunionAlt": "讲解员与三位小伙伴在阅览室回看竹简复制品与人物时代画片，现代教学插画",
         "reunionAspectRatio": 1.5,
         "reunionFit": "contain",
         "coverCaption": "司马迁怎样把过去的事留下来？",
@@ -263,8 +263,8 @@
         "closingCaption": "写历史，要去找材料。",
         "closingLine": "写历史，要去找材料。",
         "closingNarration": "西汉司马迁阅读史籍、游历并搜集材料，把不同时代的人和事写进《史记》。后人继续注释和刊印；写更早的人，不等于亲眼见过他们。",
-        "fictionNote": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。 资料室读书与画想象图是现代学习情境；访问记录属于待核对的材料，不把流传故事自动当作已经证实的事实。",
-        "reunionImage": "/content/step-images/han-shiji-reading-v1.jpg",
+        "fictionNote": "书影是明刊本，不是司马迁手稿。现代阅览室里由现代讲解员陪伴共学；桌上的竹简复制品与两张人物画片是今天的学习道具，不是古人写真。访问记录属于待核对材料，不把流传故事直接当作已证实的事实。",
+        "reunionImage": "/content/step-images/sima-qian-study-v2.jpg",
         "stationLine": "到汉朝看五铢钱、丝路、纸和一盏灯，再听司马迁怎样把过去写下来。",
         "stationAudio": {
           "id": "quest-81515921d0740029",
@@ -275,7 +275,7 @@
           "text": "西汉司马迁阅读史籍、游历并搜集材料，把不同时代的人和事写进《史记》。后人继续注释和刊印；写更早的人，不等于亲眼见过他们。"
         }
       },
-      "sceneImage": "/content/step-images/han-shiji-reading-v1.jpg",
+      "sceneImage": "/content/step-images/sima-qian-study-v2.jpg",
       "evidenceAudio": {
         "id": "quest-f97a96aaba0e3809",
         "text": "这是后世刊本中的史记索隐序，序文来自后人的整理与注释，不是司马迁原稿。"
@@ -286,33 +286,35 @@
       }
     },
     "sceneAsset": {
-      "id": "han-shiji-reading-v1",
-      "title": "司马迁怎样把过去的事留下来？的故事插画",
-      "localPath": "reference-assets/china-expansion/han-shiji-reading-v1.png",
+      "id": "sima-qian-study-v2",
+      "title": "现代阅览室里看竹简模型与人物时代卡 · 教学插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/sima-qian-study-v3.png",
+      "runtimeMaxEdge": 1536,
       "sourcePage": "https://openai.com/policies/terms-of-use/",
-      "sourceFile": "content/focused-quests.json",
-      "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md",
-      "license": "项目自制；按OpenAI使用条款持有输出使用权",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
       "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史现场或文物照片。",
-      "boundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
+      "caption": "现代博物馆阅览室共学插画；桌上竹简与图卡为学习道具",
+      "boundary": "现代博物馆阅览室教学插画，由现代讲解员陪伴孩子认识竹简复制品、考察记录本与春秋孔子、西汉司马迁两张时代图卡；不再混入古装人物同桌，画片也不是古人写真。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/han-shiji-reading-v1.jpg"
+      "image": "/content/step-images/sima-qian-study-v2.jpg"
     },
     "narrativeAssets": [
       {
-        "id": "han-shiji-reading-v1",
-        "title": "司马迁怎样把过去的事留下来？的故事插画",
-        "localPath": "reference-assets/china-expansion/han-shiji-reading-v1.png",
+        "id": "sima-qian-study-v2",
+        "title": "现代阅览室里看竹简模型与人物时代卡 · 教学插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/sima-qian-study-v3.png",
+        "runtimeMaxEdge": 1536,
         "sourcePage": "https://openai.com/policies/terms-of-use/",
-        "sourceFile": "content/focused-quests.json",
-        "licensePath": "reference-assets/china-expansion/ATTRIBUTION.md",
-        "license": "项目自制；按OpenAI使用条款持有输出使用权",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
         "clearance": "cleared-project-created",
-        "caption": "现代教学故事插画，不是历史现场或文物照片。",
-        "boundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
+        "caption": "现代博物馆阅览室共学插画；桌上竹简与图卡为学习道具",
+        "boundary": "现代博物馆阅览室教学插画，由现代讲解员陪伴孩子认识竹简复制品、考察记录本与春秋孔子、西汉司马迁两张时代图卡；不再混入古装人物同桌，画片也不是古人写真。",
         "childVisibility": "child-ok",
-        "image": "/content/step-images/han-shiji-reading-v1.jpg"
+        "image": "/content/step-images/sima-qian-study-v2.jpg"
       },
       {
         "id": "shiji-evidence-choices-v1",
@@ -420,7 +422,24 @@
           "retry": "明代是眼前刊本的年代，作者在更早的汉朝。",
           "nextLabel": "没见过古人，还能找材料"
         },
-        "concepts": null,
+        "concepts": [
+          {
+            "term": "史书",
+            "meaning": "专门把过去真实发生的人和事记下来的书",
+            "audio": {
+              "id": "quest-635f68ddd7b4859a",
+              "text": "史书：专门把过去真实发生的人和事记下来的书。"
+            }
+          },
+          {
+            "term": "刊本",
+            "meaning": "后人刻版印刷流传下来的书本",
+            "audio": {
+              "id": "quest-0919d01cebd4fb38",
+              "text": "刊本：后人刻版印刷流传下来的书本。"
+            }
+          }
+        ],
         "inspection": {
           "id": "shiji-ming-edition",
           "title": "明刊《史记》书影",
@@ -465,13 +484,13 @@
           "displayText": "司马迁在西汉编写《史记》。眼前是很久以后刊印的书页，里面还保留后人的注释，不是司马迁亲笔。",
           "narration": "司马迁在西汉编写《史记》。眼前是很久以后刊印的书页，里面还保留后人的注释，不是司马迁亲笔。"
         },
-        "assetId": "han-shiji-reading-v1",
-        "image": "/content/step-images/han-shiji-reading-v1.jpg",
+        "assetId": "sima-qian-study-v2",
+        "image": "/content/step-images/sima-qian-study-v2.jpg",
         "studyImage": "/content/study-scenes/study-dc4ae66f5547dfbe.svg",
         "studyImageAlt": "先找到写书的人所在的时代",
-        "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
-        "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
-        "imageBoundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
+        "imageAlt": "现代阅览室里看竹简模型与人物时代卡 · 教学插画",
+        "imageCaption": "现代阅览室里看竹简模型与人物时代卡 · 教学插画",
+        "imageBoundary": "现代博物馆阅览室教学插画，由现代讲解员陪伴孩子认识竹简复制品、考察记录本与春秋孔子、西汉司马迁两张时代图卡；不再混入古装人物同桌，画片也不是古人写真。",
         "audio": {
           "lead": {
             "id": "quest-abdc1142acc8e63b",
@@ -490,8 +509,8 @@
             "text": "司马迁编写史记，在哪一朝？"
           },
           "image": {
-            "id": "quest-d7f84b16cb7d0ea4",
-            "text": "这张是司马迁怎样把过去的事留下来？的故事插画。司马迁在西汉编写《史记》。眼前是很久以后刊印的书页，里面还保留后人的注释，不是司马迁亲笔。"
+            "id": "quest-24b91e1b4cff80dc",
+            "text": "这张是现代阅览室里看竹简模型与人物时代卡 · 教学插画。司马迁在西汉编写《史记》。眼前是很久以后刊印的书页，里面还保留后人的注释，不是司马迁亲笔。"
           },
           "right": {
             "id": "quest-626c4c4f92420763",
@@ -568,42 +587,51 @@
           "retry": "人物的时代要分别核对。",
           "nextLabel": "先找已经留下的材料"
         },
-        "concepts": null,
+        "concepts": [
+          {
+            "term": "竹简",
+            "meaning": "纸还不普遍时，古人写字用的细竹片",
+            "audio": {
+              "id": "quest-2fbf579543e765ae",
+              "text": "竹简：纸还不普遍时，古人写字用的细竹片。"
+            }
+          }
+        ],
         "inspection": null,
         "story": {
           "screenNumber": 2,
           "title": "没见过古人，还能找材料",
-          "screenText": "司马迁读史籍，也游历许多地方，考察风俗、搜集流传的故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。今天的小伙伴也来学着找材料。",
-          "displayText": "司马迁读史籍，也游历许多地方，考察风俗、搜集流传的故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。今天的小伙伴也来学着找材料。",
-          "narration": "司马迁读史籍，也游历许多地方，考察风俗、搜集流传的故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。今天的小伙伴也来学着找材料。"
+          "screenText": "司马迁是西汉史学家。他读前人留下的竹简史籍，也去孔子家乡等许多地方考察风俗、搜集故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。",
+          "displayText": "司马迁是西汉史学家。他读前人留下的竹简史籍，也去孔子家乡等许多地方考察风俗、搜集故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。",
+          "narration": "司马迁是西汉史学家。他读前人留下的竹简史籍，也去孔子家乡等许多地方考察风俗、搜集故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。"
         },
-        "assetId": "han-shiji-reading-v1",
-        "image": "/content/step-images/han-shiji-reading-v1.jpg",
+        "assetId": "sima-qian-study-v2",
+        "image": "/content/step-images/sima-qian-study-v2.jpg",
         "studyImage": "/content/study-scenes/study-92310541ea6be192.svg",
         "studyImageAlt": "一本史书里住着不同时代的人",
-        "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
-        "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
-        "imageBoundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
+        "imageAlt": "现代阅览室里看竹简模型与人物时代卡 · 教学插画",
+        "imageCaption": "现代阅览室里看竹简模型与人物时代卡 · 教学插画",
+        "imageBoundary": "现代博物馆阅览室教学插画，由现代讲解员陪伴孩子认识竹简复制品、考察记录本与春秋孔子、西汉司马迁两张时代图卡；不再混入古装人物同桌，画片也不是古人写真。",
         "audio": {
           "lead": {
-            "id": "quest-d9cee7e03ebfc979",
-            "text": "司马迁读史籍、游历和搜集故事，研究比自己更早的人。"
+            "id": "quest-45c9fb8f7f858f94",
+            "text": "司马迁在西汉读竹简旧书，还去孔子家乡等地考察搜集材料，研究比自己更早的人。"
           },
           "transition": {
             "id": "quest-8af8e5f4f759b60d",
             "text": "没见过古人，还能找材料。"
           },
           "intro": {
-            "id": "quest-00500edb15e1b374",
-            "text": "司马迁读史籍，也游历许多地方，考察风俗、搜集流传的故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。今天的小伙伴也来学着找材料。"
+            "id": "quest-bc9a73b60ac9460b",
+            "text": "司马迁是西汉史学家。他读前人留下的竹简史籍，也去孔子家乡等许多地方考察风俗、搜集故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。"
           },
           "question": {
             "id": "quest-4e1e5f38976b6257",
             "text": "写过去的事，要去找哪些材料？"
           },
           "image": {
-            "id": "quest-81bb2c9e7db67767",
-            "text": "这张是司马迁怎样把过去的事留下来？的故事插画。司马迁读史籍，也游历许多地方，考察风俗、搜集流传的故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。今天的小伙伴也来学着找材料。"
+            "id": "quest-401bf9dd795d2a53",
+            "text": "这张是现代阅览室里看竹简模型与人物时代卡 · 教学插画。司马迁是西汉史学家。他读前人留下的竹简史籍，也去孔子家乡等许多地方考察风俗、搜集故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。"
           },
           "right": {
             "id": "quest-319491990a73cfc1",
@@ -655,13 +683,13 @@
           "displayText": "今天的资料室里，有旧书和访问记录，也有小伙伴新画的想象画。想了解过去的事，先找已有材料，再核对它们能说明什么。",
           "narration": "今天的资料室里，有旧书和访问记录，也有小伙伴新画的想象画。想了解过去的事，先找已有材料，再核对它们能说明什么。"
         },
-        "assetId": "han-shiji-reading-v1",
-        "image": "/content/step-images/han-shiji-reading-v1.jpg",
+        "assetId": "sima-qian-study-v2",
+        "image": "/content/step-images/sima-qian-study-v2.jpg",
         "studyImage": "/content/study-scenes/study-49619e71eaadd85e.svg",
         "studyImageAlt": "给想读的故事找书签",
-        "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
-        "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
-        "imageBoundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
+        "imageAlt": "现代阅览室里看竹简模型与人物时代卡 · 教学插画",
+        "imageCaption": "现代阅览室里看竹简模型与人物时代卡 · 教学插画",
+        "imageBoundary": "现代博物馆阅览室教学插画，由现代讲解员陪伴孩子认识竹简复制品、考察记录本与春秋孔子、西汉司马迁两张时代图卡；不再混入古装人物同桌，画片也不是古人写真。",
         "audio": {
           "lead": {
             "id": "quest-d9c9fbe1ddfb0fc0",
@@ -680,8 +708,8 @@
             "text": "想了解过去的事，先找什么？"
           },
           "image": {
-            "id": "quest-845194f1f1a5c00f",
-            "text": "这张是司马迁怎样把过去的事留下来？的故事插画。今天的资料室里，有旧书和访问记录，也有小伙伴新画的想象画。想了解过去的事，先找已有材料，再核对它们能说明什么。"
+            "id": "quest-3637b0e0d4d7d5a1",
+            "text": "这张是现代阅览室里看竹简模型与人物时代卡 · 教学插画。今天的资料室里，有旧书和访问记录，也有小伙伴新画的想象画。想了解过去的事，先找已有材料，再核对它们能说明什么。"
           },
           "right": {
             "id": "quest-973fe9cf874fbf2e",
@@ -785,13 +813,13 @@
           "displayText": "孔子比司马迁早。司马迁研究前人的材料和故事，再编写历史。先后关系需要保留，不能让书里的人都变成同龄伙伴。",
           "narration": "孔子比司马迁早。司马迁研究前人的材料和故事，再编写历史。先后关系需要保留，不能让书里的人都变成同龄伙伴。"
         },
-        "assetId": "han-shiji-reading-v1",
-        "image": "/content/step-images/han-shiji-reading-v1.jpg",
+        "assetId": "sima-qian-study-v2",
+        "image": "/content/step-images/sima-qian-study-v2.jpg",
         "studyImage": "/content/study-scenes/study-4e5d11b90004f074.svg",
         "studyImageAlt": "书里的人与写书的人分开",
-        "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
-        "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
-        "imageBoundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
+        "imageAlt": "现代阅览室里看竹简模型与人物时代卡 · 教学插画",
+        "imageCaption": "现代阅览室里看竹简模型与人物时代卡 · 教学插画",
+        "imageBoundary": "现代博物馆阅览室教学插画，由现代讲解员陪伴孩子认识竹简复制品、考察记录本与春秋孔子、西汉司马迁两张时代图卡；不再混入古装人物同桌，画片也不是古人写真。",
         "audio": {
           "lead": {
             "id": "quest-6d9f4ed19976668c",
@@ -810,8 +838,8 @@
             "text": "哪一组保留了先后关系？"
           },
           "image": {
-            "id": "quest-b6c97e0da54ed915",
-            "text": "这张是司马迁怎样把过去的事留下来？的故事插画。孔子比司马迁早。司马迁研究前人的材料和故事，再编写历史。先后关系需要保留，不能让书里的人都变成同龄伙伴。"
+            "id": "quest-07a875d0af748bf4",
+            "text": "这张是现代阅览室里看竹简模型与人物时代卡 · 教学插画。孔子比司马迁早。司马迁研究前人的材料和故事，再编写历史。先后关系需要保留，不能让书里的人都变成同龄伙伴。"
           },
           "right": {
             "id": "quest-139ddf3ca0eb2520",
@@ -959,13 +987,13 @@
           "displayText": "司马迁留下著作，后人注释、抄写、刻印。今天读到的书，可以保存很早的内容，却是后来制作的实物。",
           "narration": "司马迁留下著作，后人注释、抄写、刻印。今天读到的书，可以保存很早的内容，却是后来制作的实物。"
         },
-        "assetId": "han-shiji-reading-v1",
-        "image": "/content/step-images/han-shiji-reading-v1.jpg",
+        "assetId": "sima-qian-study-v2",
+        "image": "/content/step-images/sima-qian-study-v2.jpg",
         "studyImage": "/content/study-scenes/study-e10224339bb714e1.svg",
         "studyImageAlt": "后人继续让记录传下来",
-        "imageAlt": "司马迁怎样把过去的事留下来？的故事插画",
-        "imageCaption": "司马迁怎样把过去的事留下来？的故事插画",
-        "imageBoundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。",
+        "imageAlt": "现代阅览室里看竹简模型与人物时代卡 · 教学插画",
+        "imageCaption": "现代阅览室里看竹简模型与人物时代卡 · 教学插画",
+        "imageBoundary": "现代博物馆阅览室教学插画，由现代讲解员陪伴孩子认识竹简复制品、考察记录本与春秋孔子、西汉司马迁两张时代图卡；不再混入古装人物同桌，画片也不是古人写真。",
         "audio": {
           "lead": {
             "id": "quest-bf3ce099caab37cc",
@@ -984,8 +1012,8 @@
             "text": "眼前明刊本怎样解释？"
           },
           "image": {
-            "id": "quest-d62de568178ada28",
-            "text": "这张是司马迁怎样把过去的事留下来？的故事插画。司马迁留下著作，后人注释、抄写、刻印。今天读到的书，可以保存很早的内容，却是后来制作的实物。"
+            "id": "quest-ca7d1e8e57c1945d",
+            "text": "这张是现代阅览室里看竹简模型与人物时代卡 · 教学插画。司马迁留下著作，后人注释、抄写、刻印。今天读到的书，可以保存很早的内容，却是后来制作的实物。"
           },
           "right": {
             "id": "quest-583aa7a75732af3c",
@@ -1350,6 +1378,20 @@
       "clearance": "cleared-project-created",
       "caption": "现代教学故事插画，描绘可以比较的动作与情境。",
       "boundary": "这是为选择题绘制的教学分镜，不是历史现场、人物肖像证据或文物照片。不同选项包含供比较的假设，须结合本章提问与反馈理解。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "sima-qian-study-v2",
+      "title": "现代阅览室里看竹简模型与人物时代卡 · 教学插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/sima-qian-study-v3.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代博物馆阅览室共学插画；桌上竹简与图卡为学习道具",
+      "boundary": "现代博物馆阅览室教学插画，由现代讲解员陪伴孩子认识竹简复制品、考察记录本与春秋孔子、西汉司马迁两张时代图卡；不再混入古装人物同桌，画片也不是古人写真。",
       "childVisibility": "child-ok"
     },
     {

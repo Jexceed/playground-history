@@ -248,7 +248,7 @@
     },
     "presentation": {
       "kind": "object-workbench",
-      "sceneAssetId": "yuanri-story-v1",
+      "sceneAssetId": "yuanri-main-scene-v1",
       "sceneAlt": "跟王安石迎接新的一年 · 读诗想象",
       "title": "跟王安石迎接新的一年",
       "evidenceTitle": "王安石 · 后世画像",
@@ -265,7 +265,7 @@
       "sceneAspectRatio": 1.5,
       "story": {
         "kind": "travel-story",
-        "reunionAssetId": "yuanri-story-v1",
+        "reunionAssetId": "yuanri-main-scene-v1",
         "reunionAlt": "小伙伴回看读诗情境",
         "reunionAspectRatio": 1.5,
         "reunionFit": "contain",
@@ -275,7 +275,7 @@
         "closingLine": "王安石在《元日》中写新年的声音、春风和朝阳，也写换桃符的习俗。旧桃符换成新桃符，表达了人们送旧迎新的期待。",
         "closingNarration": "王安石在《元日》中写新年的声音、春风和朝阳，也写换桃符的习俗。旧桃符换成新桃符，表达了人们送旧迎新的期待。",
         "fictionNote": "王安石像是后世纪念画像，不能证明写诗时的样貌。插画为今天读诗的想象，桃符板省略图像和文字，不能当宋代某户门面复原。屠苏按酒名解释，饮酒与爆竹仅介绍诗中的旧俗，不安排儿童模仿。",
-        "reunionImage": "/content/step-images/yuanri-story-v1.jpg",
+        "reunionImage": "/content/step-images/yuanri-main-scene-v1.jpg",
         "stationLine": "到宋朝看城市和发明，读王安石、苏轼、杨万里和范成大的诗，听李清照的词；还可以认识与两宋并立的辽、西夏、金。",
         "stationAudio": {
           "id": "quest-f6e029ea9ad82553",
@@ -286,7 +286,7 @@
           "text": "王安石在《元日》中写新年的声音、春风和朝阳，也写换桃符的习俗。旧桃符换成新桃符，表达了人们送旧迎新的期待。"
         }
       },
-      "sceneImage": "/content/step-images/yuanri-story-v1.jpg",
+      "sceneImage": "/content/step-images/yuanri-main-scene-v1.jpg",
       "evidenceAudio": {
         "id": "quest-85077aa9c2b932f5",
         "text": "这是后人画的王安石像，不能当作他写《元日》时的现场记录。王安石生活在北宋，诗和画像的年代要分开。"
@@ -297,21 +297,36 @@
       }
     },
     "sceneAsset": {
-      "id": "yuanri-story-v1",
-      "title": "跟王安石迎接新的一年 · 四幅读诗想象",
-      "localPath": "reference-assets/song-poetry-expansion/yuanri-story-v1.png",
+      "id": "yuanri-main-scene-v1",
+      "title": "《元日》新年朝阳换桃符 · 单景读诗插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/yuanri-main-scene-v2.png",
       "runtimeMaxEdge": 1536,
       "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
-      "licensePath": "reference-assets/song-poetry-expansion/ATTRIBUTION.md",
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
       "license": "项目自制教学插画，仅用于本项目",
       "clearance": "cleared-project-created",
-      "caption": "现代读诗想象，不是历史现场",
-      "boundary": "王安石像是后世纪念画像，不能证明写诗时的样貌。插画为今天读诗的想象，桃符板省略图像和文字，不能当宋代某户门面复原。屠苏按酒名解释，饮酒与爆竹仅介绍诗中的旧俗，不安排儿童模仿。",
+      "caption": "现代读诗情境插画，桃符木板省略字画",
+      "boundary": "现代读诗想象插画，展示新年朝阳与换挂新桃板的节日气氛；木板省略字画，不冒充宋代门面实物复原，也不安排儿童模仿饮酒或燃放爆竹。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/yuanri-story-v1.jpg"
+      "image": "/content/step-images/yuanri-main-scene-v1.jpg"
     },
     "narrativeAssets": [
+      {
+        "id": "yuanri-main-scene-v1",
+        "title": "《元日》新年朝阳换桃符 · 单景读诗插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/yuanri-main-scene-v2.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
+        "clearance": "cleared-project-created",
+        "caption": "现代读诗情境插画，桃符木板省略字画",
+        "boundary": "现代读诗想象插画，展示新年朝阳与换挂新桃板的节日气氛；木板省略字画，不冒充宋代门面实物复原，也不安排儿童模仿饮酒或燃放爆竹。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/yuanri-main-scene-v1.jpg"
+      },
       {
         "id": "yuanri-story-v1",
         "title": "跟王安石迎接新的一年 · 四幅读诗想象",
@@ -554,13 +569,13 @@
           "displayText": "爆竹声中一岁除，春风送暖入屠苏。千门万户曈曈日，总把新桃换旧符。",
           "narration": "爆竹声中一岁除，春风送暖入屠苏。千门万户曈曈日，总把新桃换旧符。"
         },
-        "assetId": "yuanri-story-v1",
-        "image": "/content/step-images/yuanri-story-v1.jpg",
+        "assetId": "yuanri-main-scene-v1",
+        "image": "/content/step-images/yuanri-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-7dad45ec80e75a41.svg",
         "studyImageAlt": "先听完整的《元日》",
-        "imageAlt": "跟王安石迎接新的一年 · 四幅读诗想象",
-        "imageCaption": "跟王安石迎接新的一年 · 四幅读诗想象",
-        "imageBoundary": "王安石像是后世纪念画像，不能证明写诗时的样貌。插画为今天读诗的想象，桃符板省略图像和文字，不能当宋代某户门面复原。屠苏按酒名解释，饮酒与爆竹仅介绍诗中的旧俗，不安排儿童模仿。",
+        "imageAlt": "《元日》新年朝阳换桃符 · 单景读诗插画",
+        "imageCaption": "《元日》新年朝阳换桃符 · 单景读诗插画",
+        "imageBoundary": "现代读诗想象插画，展示新年朝阳与换挂新桃板的节日气氛；木板省略字画，不冒充宋代门面实物复原，也不安排儿童模仿饮酒或燃放爆竹。",
         "audio": {
           "lead": {
             "id": "quest-2ddb1566af2fd479",
@@ -579,8 +594,8 @@
             "text": "听诗，想一想诗中的画面"
           },
           "image": {
-            "id": "quest-001ee6833937902c",
-            "text": "这张是跟王安石迎接新的一年 · 四幅读诗想象。爆竹声中一岁除，春风送暖入屠苏。千门万户曈曈日，总把新桃换旧符。"
+            "id": "quest-c484d180da243d0c",
+            "text": "这张是《元日》新年朝阳换桃符 · 单景读诗插画。爆竹声中一岁除，春风送暖入屠苏。千门万户曈曈日，总把新桃换旧符。"
           },
           "right": {
             "id": "quest-4f53be21fcda6f1a",
@@ -621,7 +636,24 @@
           "nextLabel": "把迎新的经过连起来",
           "kind": "fictional-guide-scene"
         },
-        "concepts": null,
+        "concepts": [
+          {
+            "term": "桃符",
+            "meaning": "古人过年挂在门旁写吉祥愿望的桃木板",
+            "audio": {
+              "id": "quest-a1e5f840aca28929",
+              "text": "桃符：古人过年挂在门旁写吉祥愿望的桃木板。"
+            }
+          },
+          {
+            "term": "爆竹与屠苏",
+            "meaning": "过年响竹声与迎春饮用的屠苏酒旧俗",
+            "audio": {
+              "id": "quest-e38a2cf450b973a9",
+              "text": "爆竹与屠苏：过年响竹声与迎春饮用的屠苏酒旧俗。"
+            }
+          }
+        ],
         "inspection": null,
         "story": {
           "screenNumber": 3,
@@ -630,13 +662,13 @@
           "displayText": "桃符是古人过年时挂在门旁、寄托愿望的桃木板。诗说“总把新桃换旧符”，就是取下旧的，换上新的。",
           "narration": "桃符是古人过年时挂在门旁、寄托愿望的桃木板。诗说“总把新桃换旧符”，就是取下旧的，换上新的。"
         },
-        "assetId": "yuanri-story-v1",
-        "image": "/content/step-images/yuanri-story-v1.jpg",
+        "assetId": "yuanri-main-scene-v1",
+        "image": "/content/step-images/yuanri-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-8f595c3981cb266b.svg",
         "studyImageAlt": "门上的新与旧",
-        "imageAlt": "跟王安石迎接新的一年 · 四幅读诗想象",
-        "imageCaption": "跟王安石迎接新的一年 · 四幅读诗想象",
-        "imageBoundary": "王安石像是后世纪念画像，不能证明写诗时的样貌。插画为今天读诗的想象，桃符板省略图像和文字，不能当宋代某户门面复原。屠苏按酒名解释，饮酒与爆竹仅介绍诗中的旧俗，不安排儿童模仿。",
+        "imageAlt": "《元日》新年朝阳换桃符 · 单景读诗插画",
+        "imageCaption": "《元日》新年朝阳换桃符 · 单景读诗插画",
+        "imageBoundary": "现代读诗想象插画，展示新年朝阳与换挂新桃板的节日气氛；木板省略字画，不冒充宋代门面实物复原，也不安排儿童模仿饮酒或燃放爆竹。",
         "audio": {
           "lead": {
             "id": "quest-085e884636f2cd16",
@@ -655,8 +687,8 @@
             "text": "哪幅正在换上新桃符？"
           },
           "image": {
-            "id": "quest-c7b9891d5cecedac",
-            "text": "这张是跟王安石迎接新的一年 · 四幅读诗想象。桃符是古人过年时挂在门旁、寄托愿望的桃木板。诗说“总把新桃换旧符”，就是取下旧的，换上新的。"
+            "id": "quest-4b5a043182acd26d",
+            "text": "这张是《元日》新年朝阳换桃符 · 单景读诗插画。桃符是古人过年时挂在门旁、寄托愿望的桃木板。诗说“总把新桃换旧符”，就是取下旧的，换上新的。"
           },
           "right": {
             "id": "quest-1508ac8e556b6320",
@@ -759,13 +791,13 @@
           "displayText": "先有旧桃符，后来换上新的。看图里的同一扇门，小伙伴想把这件事的先后讲清楚。",
           "narration": "先有旧桃符，后来换上新的。看图里的同一扇门，小伙伴想把这件事的先后讲清楚。"
         },
-        "assetId": "yuanri-story-v1",
-        "image": "/content/step-images/yuanri-story-v1.jpg",
+        "assetId": "yuanri-main-scene-v1",
+        "image": "/content/step-images/yuanri-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-2eb341c4b89f5724.svg",
         "studyImageAlt": "把迎新的经过连起来",
-        "imageAlt": "跟王安石迎接新的一年 · 四幅读诗想象",
-        "imageCaption": "跟王安石迎接新的一年 · 四幅读诗想象",
-        "imageBoundary": "王安石像是后世纪念画像，不能证明写诗时的样貌。插画为今天读诗的想象，桃符板省略图像和文字，不能当宋代某户门面复原。屠苏按酒名解释，饮酒与爆竹仅介绍诗中的旧俗，不安排儿童模仿。",
+        "imageAlt": "《元日》新年朝阳换桃符 · 单景读诗插画",
+        "imageCaption": "《元日》新年朝阳换桃符 · 单景读诗插画",
+        "imageBoundary": "现代读诗想象插画，展示新年朝阳与换挂新桃板的节日气氛；木板省略字画，不冒充宋代门面实物复原，也不安排儿童模仿饮酒或燃放爆竹。",
         "audio": {
           "lead": {
             "id": "quest-8ddc3f3b60ddf75c",
@@ -784,8 +816,8 @@
             "text": "哪组顺序是先旧、后新？"
           },
           "image": {
-            "id": "quest-b4208a893f513fa4",
-            "text": "这张是跟王安石迎接新的一年 · 四幅读诗想象。先有旧桃符，后来换上新的。看图里的同一扇门，小伙伴想把这件事的先后讲清楚。"
+            "id": "quest-df01adae36e3222c",
+            "text": "这张是《元日》新年朝阳换桃符 · 单景读诗插画。先有旧桃符，后来换上新的。看图里的同一扇门，小伙伴想把这件事的先后讲清楚。"
           },
           "right": {
             "id": "quest-5c7196d3368e2821",
@@ -932,13 +964,13 @@
           "displayText": "“曈曈”说的是太阳初升、慢慢明亮。王安石把新年写得温暖又有盼头。找找诗里迎接新日子的朝阳。",
           "narration": "“曈曈”说的是太阳初升、慢慢明亮。王安石把新年写得温暖又有盼头。找找诗里迎接新日子的朝阳。"
         },
-        "assetId": "yuanri-story-v1",
-        "image": "/content/step-images/yuanri-story-v1.jpg",
+        "assetId": "yuanri-main-scene-v1",
+        "image": "/content/step-images/yuanri-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-f06b90c0dc1c0710.svg",
         "studyImageAlt": "新年早晨的光",
-        "imageAlt": "跟王安石迎接新的一年 · 四幅读诗想象",
-        "imageCaption": "跟王安石迎接新的一年 · 四幅读诗想象",
-        "imageBoundary": "王安石像是后世纪念画像，不能证明写诗时的样貌。插画为今天读诗的想象，桃符板省略图像和文字，不能当宋代某户门面复原。屠苏按酒名解释，饮酒与爆竹仅介绍诗中的旧俗，不安排儿童模仿。",
+        "imageAlt": "《元日》新年朝阳换桃符 · 单景读诗插画",
+        "imageCaption": "《元日》新年朝阳换桃符 · 单景读诗插画",
+        "imageBoundary": "现代读诗想象插画，展示新年朝阳与换挂新桃板的节日气氛；木板省略字画，不冒充宋代门面实物复原，也不安排儿童模仿饮酒或燃放爆竹。",
         "audio": {
           "lead": {
             "id": "quest-feae194cfbb506c0",
@@ -957,8 +989,8 @@
             "text": "哪幅画有明亮的朝阳？"
           },
           "image": {
-            "id": "quest-0ba10e9a203a3747",
-            "text": "这张是跟王安石迎接新的一年 · 四幅读诗想象。“曈曈”说的是太阳初升、慢慢明亮。王安石把新年写得温暖又有盼头。找找诗里迎接新日子的朝阳。"
+            "id": "quest-21f4b903883fc4c5",
+            "text": "这张是《元日》新年朝阳换桃符 · 单景读诗插画。“曈曈”说的是太阳初升、慢慢明亮。王安石把新年写得温暖又有盼头。找找诗里迎接新日子的朝阳。"
           },
           "right": {
             "id": "quest-582cf57948f70fe1",
@@ -1282,6 +1314,20 @@
     }
   ],
   "assets": [
+    {
+      "id": "yuanri-main-scene-v1",
+      "title": "《元日》新年朝阳换桃符 · 单景读诗插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/yuanri-main-scene-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代读诗情境插画，桃符木板省略字画",
+      "boundary": "现代读诗想象插画，展示新年朝阳与换挂新桃板的节日气氛；木板省略字画，不冒充宋代门面实物复原，也不安排儿童模仿饮酒或燃放爆竹。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "study-b2d4656801a0a2a5",
       "title": "学习示意：先认识写诗的人",

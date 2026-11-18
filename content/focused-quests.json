@@ -1,10 +1,1725 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-11-18",
   "status": "local-playtest-draft",
-  "scope": "中国古代53章与世界古代6章，共59章；其他62章保留研究稿，真实儿童理解、人工校听和史实终审仍待。",
+  "scope": "中国古代56章与世界古代6章，共62章。其余59章保留研究稿，真实儿童理解、人工校听和史实终审仍待。",
   "visualPolicy": "自制故事插画、精确学习图与外部历史材料分别登记；每步按实际素材身份标注，不能把教学图当史料。",
   "chapters": [
+    {
+      "id": "cn-ancient-01-02-first-farmers",
+      "title": "河边的第一批村落：水稻、粟米与两种房子",
+      "cta": "去远古河边村落看看",
+      "hook": "很久以前，人们怎样从四处找食物变成在河边种庄稼、盖房子定居下来？去看看南方河姆渡与北方半坡的不同办法。",
+      "outcome": "远古新石器时代，河姆渡种稻用骨耜住干栏木屋，半坡种粟做彩陶住半地穴屋，还捕鱼采集；环境不同办法不同。",
+      "sourceIds": [
+        "NMC-ANCIENT-PREHISTORY",
+        "NMC-HEMUDU-RICE",
+        "NMC-HEMUDU-BONE-SPADE",
+        "NMC-BANPO-BASIN"
+      ],
+      "anchor": "河姆渡与半坡的早期农耕居民",
+      "boundary": "河姆渡与半坡是南北代表性遗址，不代表史前全部地区，也不把南稻北粟说成毫无例外的分界线。早期农民同时采集、捕鱼和狩猎。半坡彩陶盆纹样有多种研究解释，儿童层只描述可见图案。博物馆沙盘与四格画为现代教学插画。",
+      "coverAssetId": "origins-banpo-bowl",
+      "coverDisplay": {
+        "label": "半坡人面鱼纹彩陶盆",
+        "fit": "contain"
+      },
+      "evidenceAssetIds": [
+        "origins-banpo-bowl",
+        "origins-hemudu-bone-spade"
+      ],
+      "photoSteps": [],
+      "photoAlbum": {
+        "id": "origins-farmers-album",
+        "title": "远古农耕村落真文物相册",
+        "label": "翻看两件远古村落文物",
+        "photos": [
+          {
+            "assetId": "origins-banpo-bowl",
+            "title": "半坡人面鱼纹彩陶盆",
+            "label": "半坡彩陶盆",
+            "period": "新石器时代仰韶文化 · 距今约六千年",
+            "caption": "半坡遗址出土彩陶盆，盆内绘有人面与鱼纹",
+            "observation": "看看盆沿和盆里的黑色线条，能找到圆圆的人脸和游动的鱼纹吗？",
+            "narration": "这只彩陶盆出土于陕西西安半坡遗址，距今约六千年。盆里画着人脸和鱼的图案，说明人们会烧制陶器，也熟悉河里的鱼。图案的具体含义还在研究，我们先看清能直接见到的形状。",
+            "sourceIds": [
+              "NMC-BANPO-BASIN"
+            ],
+            "sourceLinks": [
+              {
+                "title": "中国国家博物馆：人面鱼纹彩陶盆",
+                "url": "https://www.chnmus.net/ch/collection/data/20201105/65156.html"
+              },
+              {
+                "title": "开放许可文件页（CC BY 2.0）",
+                "url": "https://commons.wikimedia.org/wiki/File:Banpo_bowl.jpg"
+              }
+            ]
+          },
+          {
+            "assetId": "origins-hemudu-bone-spade",
+            "title": "河姆渡带藤骨耜",
+            "label": "河姆渡骨耜",
+            "period": "新石器时代河姆渡文化 · 距今约七千年",
+            "caption": "用动物肩胛骨制成，保留藤条绑缚木柄的痕迹",
+            "observation": "看看宽宽的骨头铲面和中间绑木柄的孔与藤条，边缘还有用过的磨损痕迹。",
+            "narration": "这件骨耜出土于浙江余姚河姆渡遗址，距今约七千年。古人用大型动物的肩胛骨做铲面，绑上木柄，用来平整潮湿的水田和挖水沟。",
+            "sourceIds": [
+              "NMC-HEMUDU-BONE-SPADE"
+            ],
+            "sourceLinks": [
+              {
+                "title": "中国国家博物馆：骨耜",
+                "url": "https://www.chnmus.net/ch/collection/data/20201105/65155.html"
+              },
+              {
+                "title": "开放许可文件页（CC BY-SA 4.0）",
+                "url": "https://commons.wikimedia.org/wiki/File:Bone_spade_with_rattans_unearthed_at_Hemudu_Site.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      "entry": {
+        "object": "半坡人面鱼纹彩陶盆与河姆渡骨耜",
+        "place": "黄河流域半坡遗址与长江流域河姆渡遗址",
+        "culture": "远古定居农耕与因地制宜"
+      },
+      "steps": [
+        {
+          "title": "从远古河边的村落出发",
+          "story": "很久以前的远古新石器时代，一些河边的人们学会照料庄稼、烧制陶器，在同一处村落住得更久。眼前是距今约六千年的半坡彩陶盆。",
+          "question": "这些河边第一批农耕村落出现在哪一时期？",
+          "feedback": "在最古老的远古时期，人们开始种庄稼、做陶器。",
+          "wrongFeedback": "唐朝晚得多，彩陶盆与早期农耕村落属于远古时期。",
+          "narration": "很久以前的远古新石器时代，人们开始在河边种庄稼、做陶器、定居下来。这些早期村落出现在哪一时期？",
+          "displayText": "很久以前的远古新石器时代，一些河边的人们学会照料庄稼、烧制陶器，在同一处村落住得更久。眼前是距今约六千年的半坡彩陶盆。",
+          "beat": "远古新石器时代，一些河边村落开始种植庄稼、烧制陶器并定居下来。",
+          "concepts": [
+            {
+              "term": "新石器时代",
+              "meaning": "远古人学会磨石器、做陶器、种庄稼的时期"
+            },
+            {
+              "term": "彩陶盆",
+              "meaning": "用泥土烧成并画上花纹的盆子"
+            }
+          ],
+          "sourceIds": [
+            "NMC-ANCIENT-PREHISTORY",
+            "NMC-BANPO-BASIN"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "village",
+                "label": "远古河边村落"
+              },
+              {
+                "icon": "grain",
+                "label": "种植与陶器"
+              }
+            ]
+          },
+          "options": [
+            {
+              "label": "远古时期 · 六七千年前",
+              "correct": true,
+              "visual": {
+                "kind": "sequence",
+                "items": [
+                  {
+                    "icon": "village",
+                    "label": "远古时期"
+                  }
+                ]
+              },
+              "objectView": {
+                "kind": "era",
+                "name": "远古时期",
+                "date": "约七千—六千年前",
+                "stationImage": "/images/history-stations/early.webp"
+              }
+            },
+            {
+              "label": "唐朝 · 618—907年",
+              "correct": false,
+              "visual": {
+                "kind": "sequence",
+                "items": [
+                  {
+                    "icon": "clock",
+                    "label": "唐朝"
+                  }
+                ]
+              },
+              "objectView": {
+                "kind": "era",
+                "name": "唐朝",
+                "date": "618—907年",
+                "stationImage": "/images/history-stations/tang.webp"
+              }
+            }
+          ],
+          "narrative": {
+            "scene": "artifact",
+            "caption": "从远古河边的村落出发",
+            "speaker": "小航",
+            "responseSpeaker": "小禾",
+            "response": "在时间河最前面的远古时期，河边有了定居村落。",
+            "retry": "看看时间河最开头的一站，这只彩陶盆来自六千多年前。",
+            "nextLabel": "看看南北两种村落沙盘"
+          },
+          "interaction": {
+            "kind": "timeline",
+            "hint": "看看时间河最开头的位置，再选时期。"
+          },
+          "inspection": {
+            "assetId": "origins-banpo-bowl",
+            "title": "半坡人面鱼纹彩陶盆",
+            "caption": "新石器时代 · 距今约六千年 · 馆藏实物照片",
+            "label": "翻看远古村落两件真文物",
+            "openAlbum": true,
+            "framing": "object",
+            "displayHeight": 260,
+            "narration": "这只彩陶盆出土于半坡遗址，盆里画着人脸和鱼纹。点开相册还能一起看河姆渡的骨耜。",
+            "sourceLinks": [
+              {
+                "title": "中国国家博物馆：人面鱼纹彩陶盆",
+                "url": "https://www.chnmus.net/ch/collection/data/20201105/65156.html"
+              },
+              {
+                "title": "开放许可文件页",
+                "url": "https://commons.wikimedia.org/wiki/File:Banpo_bowl.jpg"
+              }
+            ]
+          }
+        },
+        {
+          "title": "沙盘里找南北庄稼与工具",
+          "story": "南方长江边的河姆渡温暖多水，人们种水稻、用骨耜翻水田；北方黄河边的半坡较干冷，人们种粟米（小米）、烧彩陶盆。",
+          "question": "哪一边是种水稻、放着骨耜的南方水田？",
+          "feedback": "南方水田与北方旱地，各有适合的作物与工具。",
+          "wrongFeedback": "再看看哪一边有水田，哪一边有黄土与彩陶盆。",
+          "narration": "左边沙盘多水，有水稻、骨耜和架高木屋；右边较干燥，有粟米、彩陶盆和半地穴屋。先找南方水田。",
+          "displayText": "南方长江边的河姆渡温暖多水，人们种水稻、用骨耜翻水田；北方黄河边的半坡较干冷，人们种粟米（小米）、烧彩陶盆。",
+          "beat": "南方河姆渡多水种稻用骨耜，北方半坡较干种粟做彩陶。",
+          "concepts": [
+            {
+              "term": "骨耜",
+              "meaning": "用大动物扁骨绑木柄做成的翻水田农具"
+            },
+            {
+              "term": "粟",
+              "meaning": "去壳后就是今天煮粥常见的小米"
+            }
+          ],
+          "sourceIds": [
+            "NMC-ANCIENT-PREHISTORY",
+            "NMC-HEMUDU-RICE",
+            "NMC-HEMUDU-BONE-SPADE",
+            "NMC-BANPO-BASIN"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "water",
+                "label": "南方水田种稻"
+              },
+              {
+                "icon": "grain",
+                "label": "北方台地种粟"
+              }
+            ]
+          },
+          "options": [],
+          "narrative": {
+            "scene": "detail",
+            "caption": "南北代表性村落沙盘",
+            "speaker": "小朵",
+            "responseSpeaker": "小禾",
+            "response": "水田稻作与黄土粟作，都是人们顺着当地环境想出的办法。",
+            "retry": "仔细看水面与黄土的差别。",
+            "nextLabel": "比一比两种房子为什么不同"
+          },
+          "interaction": {
+            "kind": "scene-find",
+            "hint": "点一点沙盘左右两边对应的线索。",
+            "imageLabel": "故事插画",
+            "sceneAspectRatio": 1.5,
+            "hotspots": [
+              {
+                "id": "south-rice-spade",
+                "label": "南方水田、干栏木屋与骨耜",
+                "x": 0.04,
+                "y": 0.41,
+                "width": 0.45,
+                "height": 0.51
+              },
+              {
+                "id": "north-millet-pottery",
+                "label": "北方粟穗、半地穴屋与鱼纹彩陶盆",
+                "x": 0.51,
+                "y": 0.41,
+                "width": 0.45,
+                "height": 0.51
+              }
+            ],
+            "rounds": [
+              {
+                "id": "south",
+                "targetId": "south-rice-spade",
+                "question": "哪一边是种水稻、放着骨耜的南方村落？",
+                "feedback": "找到了！河姆渡水多潮湿，人们在水田里种稻。",
+                "retry": "右边是黄土台地，再看左边有水田的一侧。",
+                "nextLabel": "再找北方种粟与彩陶盆"
+              },
+              {
+                "id": "north",
+                "targetId": "north-millet-pottery",
+                "question": "哪一边种着黄澄澄的粟穗、放着鱼纹彩陶盆？",
+                "feedback": "找到了！半坡人在河谷台地种粟，还会烧制彩陶。",
+                "retry": "左边是水田，再看右边金黄色的粟穗和彩陶盆。",
+                "nextLabel": "比一比两种房子"
+              }
+            ]
+          },
+          "inspection": {
+            "assetId": "origins-hemudu-bone-spade",
+            "placement": "supporting",
+            "title": "河姆渡出土带藤骨耜",
+            "caption": "馆藏真文物 · 肩胛骨农具",
+            "label": "看真文物：河姆渡骨耜",
+            "openAlbum": true,
+            "narration": "这件骨耜用大动物肩胛骨做成，还留着绑木柄的藤条，能用来平整水田和挖沟。",
+            "sourceLinks": [
+              {
+                "title": "中国国家博物馆：骨耜",
+                "url": "https://www.chnmus.net/ch/collection/data/20201105/65155.html"
+              }
+            ]
+          },
+          "visualAssetId": "origins-farmers-scene-v1"
+        },
+        {
+          "title": "潮湿多水的地方，怎样盖房子？",
+          "story": "河姆渡雨水多、地面湿软，如果直接睡在湿地上容易受潮；北方半坡冬天较冷，把屋子往下挖半截能挡风保暖。房子不同是为了适应环境。",
+          "question": "在潮湿多水的地方，哪种房子更合适？",
+          "feedback": "用木桩把地板架高，底下通风又不怕积水。",
+          "wrongFeedback": "半地穴屋适合较干燥挡风的台地，湿地更需要把地板架高。",
+          "narration": "河姆渡地面潮湿多水，半坡较干冷。在潮湿多水的地方，盖哪种房子更合适？",
+          "displayText": "河姆渡雨水多、地面湿软，如果直接睡在湿地上容易受潮；北方半坡冬天较冷，把屋子往下挖半截能挡风保暖。房子不同是为了适应环境。",
+          "beat": "潮湿低地架高木地板防潮，较干冷台地建半地穴屋挡风保暖。",
+          "concepts": [
+            {
+              "term": "干栏式建筑",
+              "meaning": "用木桩把地板架高、底下通风防潮的木房子"
+            }
+          ],
+          "sourceIds": [
+            "NMC-ANCIENT-PREHISTORY",
+            "NMC-HEMUDU-RICE"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "house",
+                "label": "干栏木屋防潮"
+              },
+              {
+                "icon": "land",
+                "label": "半地穴屋保暖"
+              }
+            ]
+          },
+          "options": [
+            {
+              "label": "木桩架高地板，通风又防潮",
+              "correct": true,
+              "visual": {
+                "kind": "sequence",
+                "items": [
+                  {
+                    "icon": "house",
+                    "label": "架高木屋"
+                  }
+                ]
+              },
+              "objectView": {
+                "kind": "scene-card",
+                "assetId": "origins-farmers-choices-v1",
+                "crop": {
+                  "x": 6,
+                  "y": 6,
+                  "width": 750,
+                  "height": 500,
+                  "sourceWidth": 1536,
+                  "sourceHeight": 1024
+                }
+              }
+            },
+            {
+              "label": "往干爽黄土里挖半截屋子保暖",
+              "correct": false,
+              "visual": {
+                "kind": "sequence",
+                "items": [
+                  {
+                    "icon": "land",
+                    "label": "半地穴屋"
+                  }
+                ]
+              },
+              "objectView": {
+                "kind": "scene-card",
+                "assetId": "origins-farmers-choices-v1",
+                "crop": {
+                  "x": 780,
+                  "y": 6,
+                  "width": 750,
+                  "height": 500,
+                  "sourceWidth": 1536,
+                  "sourceHeight": 1024
+                }
+              }
+            }
+          ],
+          "narrative": {
+            "scene": "detail",
+            "caption": "因地制宜的两种房子",
+            "speaker": "小禾",
+            "responseSpeaker": "小航",
+            "response": "架高的干栏木屋让湿气从底下散开，住起来干爽多了！",
+            "retry": "挖进土里的半地穴屋适合较干燥的北方，再看看架在水边的木桩屋。",
+            "nextLabel": "看看农民还怎样找食物"
+          },
+          "interaction": {
+            "kind": "pick",
+            "hint": "看看哪座房子把木地板架高离开湿地。",
+            "selectionFraming": "detail",
+            "choiceArt": "illustrated"
+          },
+          "visualAssetId": "origins-farmers-scene-v1"
+        },
+        {
+          "title": "骨耜帮人们在哪种田里干活？",
+          "story": "第一批农民不光种庄稼，平时也去河边捕鱼、林间采果子，让食物更充足。遇到潮湿的水田时，人们会拿起绑着木柄的骨耜翻土整地。",
+          "question": "哪幅画在用骨耜照顾潮湿的水稻田？",
+          "feedback": "骨耜帮人们翻整水田；溪边捕鱼也是当时生活的一部分。",
+          "wrongFeedback": "这张是在溪里用网捕鱼，再找拿骨耜在水田里劳作的画面。",
+          "narration": "早期村落既种庄稼也捕鱼采果子。哪幅画在用骨耜翻整潮湿的水稻田？",
+          "displayText": "第一批农民不光种庄稼，平时也去河边捕鱼、林间采果子，让食物更充足。遇到潮湿的水田时，人们会拿起绑着木柄的骨耜翻土整地。",
+          "beat": "早期村落用骨耜耕种水田，同时也保留捕鱼、采集和狩猎。",
+          "sourceIds": [
+            "NMC-HEMUDU-BONE-SPADE",
+            "NMC-HEMUDU-RICE",
+            "NMC-BANPO-BASIN"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "field",
+                "label": "骨耜翻水田"
+              },
+              {
+                "icon": "water",
+                "label": "溪边捕鱼补充食物"
+              }
+            ]
+          },
+          "options": [
+            {
+              "label": "拿着长柄骨耜，在水稻田里翻土收稻",
+              "correct": true,
+              "visual": {
+                "kind": "sequence",
+                "items": [
+                  {
+                    "icon": "field",
+                    "label": "水田耕稻"
+                  }
+                ]
+              },
+              "objectView": {
+                "kind": "scene-card",
+                "assetId": "origins-farmers-choices-v1",
+                "crop": {
+                  "x": 6,
+                  "y": 518,
+                  "width": 750,
+                  "height": 500,
+                  "sourceWidth": 1536,
+                  "sourceHeight": 1024
+                }
+              }
+            },
+            {
+              "label": "在清澈溪水里拉网捕鱼，岸边放着彩陶盆",
+              "correct": false,
+              "visual": {
+                "kind": "sequence",
+                "items": [
+                  {
+                    "icon": "water",
+                    "label": "溪边捕鱼"
+                  }
+                ]
+              },
+              "objectView": {
+                "kind": "scene-card",
+                "assetId": "origins-farmers-choices-v1",
+                "crop": {
+                  "x": 780,
+                  "y": 518,
+                  "width": 750,
+                  "height": 500,
+                  "sourceWidth": 1536,
+                  "sourceHeight": 1024
+                }
+              }
+            }
+          ],
+          "narrative": {
+            "scene": "detail",
+            "caption": "农耕与捕鱼并存的生活",
+            "speaker": "小航",
+            "responseSpeaker": "小朵",
+            "response": "骨耜在水田里翻土引水；而捕鱼和采集也继续帮村落补充食物。",
+            "retry": "这张是在溪水里捕鱼，再找拿骨铲在水稻田里忙活的人。",
+            "nextLabel": "把南北村落的发现收好"
+          },
+          "interaction": {
+            "kind": "pick",
+            "hint": "找找手握木柄骨铲、站在水田稻穗旁的一幅。",
+            "selectionFraming": "detail",
+            "choiceArt": "illustrated"
+          },
+          "visualAssetId": "origins-farmers-scene-v1"
+        },
+        {
+          "title": "环境不同，生活的巧办法也不同",
+          "story": "稻谷、骨耜、彩陶盆和房屋遗迹放在一起，让我们看见远古人们怎样顺着冷暖干湿想办法。房子和作物没有谁高谁低，都是适应自然的智慧。",
+          "question": "远古村落留下了哪些生活线索",
+          "feedback": "从农具、作物和陶器里，看见因地制宜的早期生活。",
+          "wrongFeedback": "再听听南北村落各自想出的办法。",
+          "narration": "稻谷、骨耜、彩陶盆和不同的房子告诉我们：远古人们顺着当地环境生活，没有高低之分，各有巧妙办法。",
+          "displayText": "稻谷、骨耜、彩陶盆和房屋遗迹放在一起，让我们看见远古人们怎样顺着冷暖干湿想办法。房子和作物没有谁高谁低，都是适应自然的智慧。",
+          "beat": "稻谷、骨耜、彩陶和房址共同证明远古人们顺应不同环境开启定居农耕。",
+          "sourceIds": [
+            "NMC-ANCIENT-PREHISTORY",
+            "NMC-HEMUDU-BONE-SPADE",
+            "NMC-BANPO-BASIN"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "village",
+                "label": "定居村落"
+              },
+              {
+                "icon": "heart",
+                "label": "顺应环境生活"
+              }
+            ]
+          },
+          "options": [],
+          "narrative": {
+            "scene": "reunion",
+            "caption": "带着远古村落的发现回家",
+            "speaker": "小禾",
+            "responseSpeaker": "小伙伴",
+            "response": "远古人们顺应环境盖房种粮，真有办法！",
+            "retry": "再听听这一幕。",
+            "nextLabel": "带着发现回家"
+          },
+          "interaction": {
+            "kind": "look-listen",
+            "hint": "听完总结，点继续完成这一章。",
+            "continueLabel": "带着发现回家"
+          },
+          "visualAssetId": "origins-farmers-scene-v1"
+        }
+      ],
+      "finish": {
+        "title": "环境不同，盖房和种粮的办法也不同！",
+        "actions": [
+          "和家人看看厨房里的大米和小米（粟），摸一摸两种颗粒有什么不同。",
+          "指着图说一说：为什么多雨湿地要把木屋地板架高？"
+        ],
+        "parent": "河姆渡与半坡帮助孩子从最熟悉的米饭、小米粥和房子认识史前定居生活。注意提醒孩子：南稻北粟是代表性传统而非绝对分界线，早期农民仍保留捕鱼采集，彩陶纹样不指定唯一含义。",
+        "sceneStepIndexes": [
+          1,
+          2
+        ]
+      },
+      "presentation": {
+        "kind": "object-workbench",
+        "sceneAssetId": "origins-farmers-scene-v1",
+        "sceneAlt": "三位现代小伙伴在博物馆沙盘前对比南方水田干栏木屋与北方粟地半地穴屋",
+        "title": "河边的第一批村落：水稻、粟米与两种房子",
+        "evidenceTitle": "半坡彩陶盆与河姆渡骨耜",
+        "evidenceLine": "真实出土文物与博物馆教学沙盘分开查看。",
+        "evidenceNarration": "彩陶盆和骨耜是考古出土的真实远古器物，帮助我们认识六七千年前的河边生活。",
+        "guide": "听听语音提示，点沙盘或图卡找线索。",
+        "alignHint": "",
+        "familyHint": "和家人一起找找大米、小米与两种房子的秘密。",
+        "familyLabel": "和家人一起找找家里的粮食",
+        "familyMode": "actions",
+        "nextLabel": "继续找线索",
+        "lastLabel": "带着发现回家",
+        "sceneFraming": "story",
+        "sceneAspectRatio": 1.5,
+        "story": {
+          "kind": "travel-story",
+          "reunionAssetId": "origins-farmers-scene-v1",
+          "reunionAlt": "三位小伙伴在博物馆沙盘前回看远古南北村落的发现",
+          "reunionAspectRatio": 1.5,
+          "reunionFit": "contain",
+          "coverCaption": "去远古河边看第一批种庄稼的村落",
+          "coverNarration": "我们平时吃的米饭和小米粥，最早是从哪里种出来的？跟小伙伴回到远古河边，看看南方河姆渡和北方半坡怎样盖房子、种庄稼！",
+          "closingCaption": "因地制宜的远古生活",
+          "closingLine": "环境不同，盖房和种粮的办法也不同。",
+          "closingNarration": "远古新石器时代，人们学会种植水稻和粟米、制作骨耜与彩陶，并根据冷暖干湿盖出不同的房子，在河边定居下来。",
+          "fictionNote": "博物馆沙盘与四格画是现代教学插画，不是史前村落现场照片；真实出土器物请打开相册查看半坡彩陶盆与河姆渡骨耜。"
+        }
+      }
+    },
+    {
+      "id": "cn-ancient-02-02-oracle-bronze",
+      "title": "甲骨文与青铜大鼎会讲什么线索？",
+      "cta": "去认刻在骨头上的字",
+      "hook": "还没有纸和书的时候，三千多年前的商周古人把字刻在哪里？八百多千克的青铜大鼎又是怎样做出来的？",
+      "outcome": "商代甲骨文是目前所知中国最早的成熟系统文字材料之一；商周青铜礼器用多块陶范合铸，体现高超工艺与协作。",
+      "sourceIds": [
+        "UNESCO-YIN-XU",
+        "NMC-ORACLE-BRONZE-EXHIBITION",
+        "NMC-ORACLE-TURTLE",
+        "NMC-ORACLE-OX-BONE",
+        "NMC-BRONZE-ART",
+        "NMC-HOUMUWU-DING"
+      ],
+      "anchor": "商周刻写甲骨与铸造青铜器的工匠和记录者",
+      "boundary": "殷墟甲骨文是目前所知中国最早的成熟系统文字材料之一，不等同普通人日常日记，也不是每片骨头都有字。后母戊鼎等青铜礼器用于祭祀礼仪，不是普通人家日常做饭的锅碗。展厅对照板与四格图为现代教学插画。",
+      "coverAssetId": "xsz-oracle-ox-scapula",
+      "coverDisplay": {
+        "label": "商代刻辞牛肩胛骨",
+        "fit": "contain"
+      },
+      "evidenceAssetIds": [
+        "xsz-oracle-ox-scapula",
+        "xsz-houmuwu-ding"
+      ],
+      "photoSteps": [],
+      "photoAlbum": {
+        "id": "shang-oracle-bronze-album",
+        "title": "商代甲骨与青铜重器真文物相册",
+        "label": "翻看刻辞牛骨与后母戊鼎",
+        "photos": [
+          {
+            "assetId": "xsz-oracle-ox-scapula",
+            "title": "殷墟出土商代刻辞牛肩胛骨",
+            "label": "刻辞牛肩胛骨",
+            "period": "商代后期 · 距今约三千多年",
+            "caption": "牛肩胛骨表面刻有成排早期汉字（甲骨刻辞）",
+            "observation": "放大看看平整的骨片表面，能看到一行行细细刻上去的成组字迹吗？",
+            "narration": "这是一块三千多年前商代后期的牛肩胛骨，上面刻着成排文字，叫甲骨刻辞。商王室占卜天气、收成等事情时留下这些记录，让我们读到商代真实的信息。",
+            "sourceIds": [
+              "NMC-ORACLE-OX-BONE",
+              "UNESCO-YIN-XU"
+            ],
+            "sourceLinks": [
+              {
+                "title": "中国国家博物馆：大型牛骨刻辞",
+                "url": "https://www.chnmus.net/ch/collection/data/20201105/65193.html"
+              },
+              {
+                "title": "开放许可文件页（CC0 1.0）",
+                "url": "https://commons.wikimedia.org/wiki/File:Ancient_Chinese_Writing_on_Ox_Scapula,_Shang_Dynasty_Oracle_Bone,_Yinxu,_Anyang.jpg"
+              }
+            ]
+          },
+          {
+            "assetId": "xsz-houmuwu-ding",
+            "title": "商代后母戊青铜方鼎",
+            "label": "后母戊鼎",
+            "period": "商代后期 · 重832.84千克",
+            "caption": "中国国家博物馆展出的商代大型青铜礼器原件",
+            "observation": "看看它厚重的长方形器身、两只立耳和四条粗壮的柱足，表面还有精细纹饰。",
+            "narration": "这件大鼎叫后母戊鼎，重八百三十二点八四千克。商代工匠要用许多块泥土做的陶范拼合起来，把熔化的铜锡金属倒进去铸成，需要很多人分工配合。",
+            "sourceIds": [
+              "NMC-HOUMUWU-DING",
+              "NMC-BRONZE-ART"
+            ],
+            "sourceLinks": [
+              {
+                "title": "中国国家博物馆：“后母戊”青铜方鼎",
+                "url": "https://www.chnmus.net/ch/collection/data/20201105/65195.html"
+              },
+              {
+                "title": "开放许可文件页（CC BY-SA 3.0）",
+                "url": "https://commons.wikimedia.org/wiki/File:HouMuWuDingFullView.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      "entry": {
+        "object": "商代刻辞牛肩胛骨与后母戊鼎",
+        "place": "河南安阳殷墟与中国国家博物馆展厅",
+        "culture": "汉字源流（甲骨文）与商周青铜铸造"
+      },
+      "steps": [
+        {
+          "title": "找到刻在骨头上的三千年前文字",
+          "story": "三千多年前的商代后期，还没有纸张。人们在龟甲和兽骨上刻下成组文字，这就是殷墟甲骨文，属于夏商西周这一站。",
+          "question": "殷墟甲骨文与后母戊鼎属于哪一时期？",
+          "feedback": "在夏商西周时期，商代留下了成系统的甲骨文与厚重青铜器。",
+          "wrongFeedback": "宋朝已经有纸和活字印刷，刻辞甲骨属于更早的夏商西周。",
+          "narration": "三千多年前的商代后期还没有纸，人们把成组文字刻在龟甲和兽骨上。它们属于哪一时期？",
+          "displayText": "三千多年前的商代后期，还没有纸张。人们在龟甲和兽骨上刻下成组文字，这就是殷墟甲骨文，属于夏商西周这一站。",
+          "beat": "商代后期留下殷墟甲骨文，是目前所知中国最早的成熟系统文字材料之一。",
+          "concepts": [
+            {
+              "term": "甲骨文",
+              "meaning": "商代刻在龟甲和兽骨上的早期成熟汉字"
+            },
+            {
+              "term": "殷墟",
+              "meaning": "河南安阳发现商代都城与甲骨文的重要遗址"
+            }
+          ],
+          "sourceIds": [
+            "UNESCO-YIN-XU",
+            "NMC-ORACLE-BRONZE-EXHIBITION",
+            "NMC-ORACLE-OX-BONE"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "book",
+                "label": "刻辞甲骨"
+              },
+              {
+                "icon": "timeline",
+                "label": "夏商西周"
+              }
+            ]
+          },
+          "options": [
+            {
+              "label": "夏商西周 · 商代后期",
+              "correct": true,
+              "visual": {
+                "kind": "sequence",
+                "items": [
+                  {
+                    "icon": "book",
+                    "label": "夏商西周"
+                  }
+                ]
+              },
+              "objectView": {
+                "kind": "era",
+                "name": "夏商西周",
+                "date": "约前21世纪—前771年",
+                "stationImage": "/images/history-stations/states.webp"
+              }
+            },
+            {
+              "label": "宋朝 · 960—1279年",
+              "correct": false,
+              "visual": {
+                "kind": "sequence",
+                "items": [
+                  {
+                    "icon": "types",
+                    "label": "宋朝"
+                  }
+                ]
+              },
+              "objectView": {
+                "kind": "era",
+                "name": "宋朝",
+                "date": "960—1279年",
+                "stationImage": "/images/history-stations/cities.webp"
+              }
+            }
+          ],
+          "narrative": {
+            "scene": "artifact",
+            "caption": "三千多年前的刻辞牛骨",
+            "speaker": "小禾",
+            "responseSpeaker": "小朵",
+            "response": "来到夏商西周站啦！骨片上的刻痕真的保存了商代人的文字。",
+            "retry": "宋朝晚得多，看看时间河前面第二站夏商西周。",
+            "nextLabel": "在展厅里找甲骨和青铜方鼎"
+          },
+          "interaction": {
+            "kind": "timeline",
+            "hint": "看看时间河前段的夏商西周站。"
+          },
+          "inspection": {
+            "assetId": "xsz-oracle-ox-scapula",
+            "title": "商代刻辞牛肩胛骨",
+            "caption": "殷墟出土 · 馆藏实物照片",
+            "label": "翻看真文物：甲骨与后母戊鼎",
+            "openAlbum": true,
+            "framing": "object",
+            "displayHeight": 260,
+            "narration": "这块牛肩胛骨上刻着商代文字，记录王室占卜关心的天气、收成等事。点开相册还能看后母戊鼎。",
+            "sourceLinks": [
+              {
+                "title": "中国国家博物馆：大型牛骨刻辞",
+                "url": "https://www.chnmus.net/ch/collection/data/20201105/65193.html"
+              },
+              {
+                "title": "UNESCO：殷墟世界遗产介绍",
+                "url": "https://whc.unesco.org/en/list/1114/"
+              }
+            ]
+          }
+        },
+        {
+          "title": "分清甲骨文字板与青铜方鼎",
+          "story": "左边展板把甲骨模型与太阳、月亮、山、鱼的形状放在一起对照；右边展台放着四条腿的青铜方鼎，旁边还有泥土做的陶范小模型。",
+          "question": "哪一边展示甲骨与象形图画对照板？",
+          "feedback": "甲骨刻辞与青铜器物，从两方面留下商周线索。",
+          "wrongFeedback": "再看看左边木板与右边绿色四足方鼎的区别。",
+          "narration": "左边是甲骨与日、月、山、鱼图画对照板，右边是青铜方鼎与泥土陶范模型。先找甲骨对照板。",
+          "displayText": "左边展板把甲骨模型与太阳、月亮、山、鱼的形状放在一起对照；右边展台放着四条腿的青铜方鼎，旁边还有泥土做的陶范小模型。",
+          "beat": "甲骨记录占卜与王室事务，青铜器与铭文展示商周铸造技术与礼仪。",
+          "concepts": [
+            {
+              "term": "青铜器",
+              "meaning": "把铜和锡等金属熔化铸成的器物"
+            },
+            {
+              "term": "陶范",
+              "meaning": "用泥土做好的铸造外模子"
+            }
+          ],
+          "sourceIds": [
+            "UNESCO-YIN-XU",
+            "NMC-ORACLE-BRONZE-EXHIBITION",
+            "NMC-BRONZE-ART",
+            "NMC-HOUMUWU-DING"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "brush",
+                "label": "甲骨刻辞"
+              },
+              {
+                "icon": "stamp",
+                "label": "青铜方鼎与陶范"
+              }
+            ]
+          },
+          "options": [],
+          "narrative": {
+            "scene": "detail",
+            "caption": "甲骨与青铜展台",
+            "speaker": "讲解员",
+            "responseSpeaker": "小航",
+            "response": "一边认早期汉字，一边看泥模怎样包住大鼎，太清楚了！",
+            "retry": "仔细看左边木展板和右边绿色的四足大鼎。",
+            "nextLabel": "猜一猜早期象形字画的是什么"
+          },
+          "interaction": {
+            "kind": "scene-find",
+            "hint": "点一点图里对应的展台。",
+            "imageLabel": "故事插画",
+            "sceneAspectRatio": 1.5,
+            "hotspots": [
+              {
+                "id": "oracle-board",
+                "label": "甲骨模型与日月山鱼对照板",
+                "x": 0.02,
+                "y": 0.21,
+                "width": 0.3,
+                "height": 0.5
+              },
+              {
+                "id": "bronze-ding-mould",
+                "label": "青铜方鼎与外侧陶范模型",
+                "x": 0.62,
+                "y": 0.13,
+                "width": 0.35,
+                "height": 0.7
+              }
+            ],
+            "rounds": [
+              {
+                "id": "oracle",
+                "targetId": "oracle-board",
+                "question": "哪一边展示甲骨与日月山鱼图画对照板？",
+                "feedback": "找到了！不少早期汉字保留了事物轮廓的线索。",
+                "retry": "右边是青铜方鼎，再看左边立着的木展板。",
+                "nextLabel": "再找青铜方鼎与陶范模型"
+              },
+              {
+                "id": "bronze",
+                "targetId": "bronze-ding-mould",
+                "question": "哪一边放着四足青铜方鼎和泥土陶范模型？",
+                "feedback": "找到了！工匠先做泥土陶范，再浇铸出厚重的青铜鼎。",
+                "retry": "左边是甲骨展板，再看右边四条腿的青铜方鼎。",
+                "nextLabel": "认一认象形符号"
+              }
+            ]
+          },
+          "visualAssetId": "shang-oracle-bronze-scene-v1"
+        },
+        {
+          "title": "圆圈中间一点，像天上的什么？",
+          "story": "甲骨文里有一些字顺着自然景物的样子刻成：圆圈中间加一点表示白天的太阳（日），弯弯的一道弧线表示夜晚的月亮（月）。",
+          "question": "木牌上圆圈加一点的字，对应哪幅图？",
+          "feedback": "圆圆轮廓加一点对应太阳，就是早期的“日”字线索。",
+          "wrongFeedback": "弯弯月牙对应“月”字，再找圆圆发光的太阳。",
+          "narration": "圆圈中间一点表示太阳，弯弯弧线表示月亮。木牌上圆圈加一点的字，对应哪幅图？",
+          "displayText": "甲骨文里有一些字顺着自然景物的样子刻成：圆圈中间加一点表示白天的太阳（日），弯弯的一道弧线表示夜晚的月亮（月）。",
+          "beat": "部分甲骨文保留象形特征，帮助后人辨认日、月等字义。",
+          "sourceIds": [
+            "NMC-ORACLE-BRONZE-EXHIBITION",
+            "NMC-ORACLE-TURTLE"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "dot",
+                "label": "日字像太阳"
+              },
+              {
+                "icon": "crescent",
+                "label": "月字像弯月"
+              }
+            ]
+          },
+          "options": [
+            {
+              "label": "圆圆发光的太阳（早期的“日”字）",
+              "correct": true,
+              "visual": {
+                "kind": "sequence",
+                "items": [
+                  {
+                    "icon": "dot",
+                    "label": "太阳"
+                  }
+                ]
+              },
+              "objectView": {
+                "kind": "scene-card",
+                "assetId": "shang-oracle-choices-v1",
+                "crop": {
+                  "x": 6,
+                  "y": 6,
+                  "width": 750,
+                  "height": 500,
+                  "sourceWidth": 1536,
+                  "sourceHeight": 1024
+                }
+              }
+            },
+            {
+              "label": "夜空弯弯的月亮（早期的“月”字）",
+              "correct": false,
+              "visual": {
+                "kind": "sequence",
+                "items": [
+                  {
+                    "icon": "crescent",
+                    "label": "弯月"
+                  }
+                ]
+              },
+              "objectView": {
+                "kind": "scene-card",
+                "assetId": "shang-oracle-choices-v1",
+                "crop": {
+                  "x": 780,
+                  "y": 6,
+                  "width": 750,
+                  "height": 500,
+                  "sourceWidth": 1536,
+                  "sourceHeight": 1024
+                }
+              }
+            }
+          ],
+          "narrative": {
+            "scene": "detail",
+            "caption": "象形文字里的太阳与月亮",
+            "speaker": "小朵",
+            "responseSpeaker": "小禾",
+            "response": "原来汉字的祖先和太阳、月亮的样子有联系！",
+            "retry": "这张画着弯弯的月牙，再看有圆太阳和圆圈木牌的那张。",
+            "nextLabel": "看看八百多千克的大鼎怎样造"
+          },
+          "interaction": {
+            "kind": "pick",
+            "hint": "看看哪张图的木牌刻着圆圈加一点。",
+            "selectionFraming": "detail",
+            "choiceArt": "illustrated"
+          },
+          "visualAssetId": "shang-oracle-bronze-scene-v1"
+        },
+        {
+          "title": "后母戊鼎怎样铸成与使用",
+          "story": "后母戊鼎重832.84千克，用于王室重要祭祀礼仪，不是普通人家天天端着喝粥的碗。铸造它需要许多工匠分工拼合多块陶范、熔化金属。",
+          "question": "哪幅画符合青铜大鼎的制作与用途？",
+          "feedback": "许多工匠分工合范铸造礼器，体现强大的手工业组织。",
+          "wrongFeedback": "普通人家日常吃饭用朴素陶器，青铜大鼎是需要多人合范铸造的礼器。",
+          "narration": "后母戊鼎重八百多千克，是王室重要礼器，不是日常粥碗。哪幅画符合青铜大鼎的制作与用途？",
+          "displayText": "后母戊鼎重832.84千克，用于王室重要祭祀礼仪，不是普通人家天天端着喝粥的碗。铸造它需要许多工匠分工拼合多块陶范、熔化金属。",
+          "beat": "后母戊鼎重832.84千克，以多块陶范协作铸造，用作重要礼器而非日常锅碗。",
+          "concepts": [
+            {
+              "term": "后母戊鼎",
+              "meaning": "重832.84千克的商代大型青铜礼器"
+            }
+          ],
+          "sourceIds": [
+            "NMC-HOUMUWU-DING",
+            "NMC-BRONZE-ART"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "people",
+                "label": "多人合范铸鼎"
+              },
+              {
+                "icon": "stamp",
+                "label": "重要礼器"
+              }
+            ]
+          },
+          "options": [
+            {
+              "label": "多位工匠分工拼合泥土陶范，铸造厚重礼器",
+              "correct": true,
+              "visual": {
+                "kind": "sequence",
+                "items": [
+                  {
+                    "icon": "people",
+                    "label": "合范铸鼎"
+                  }
+                ]
+              },
+              "objectView": {
+                "kind": "scene-card",
+                "assetId": "shang-oracle-choices-v1",
+                "crop": {
+                  "x": 6,
+                  "y": 518,
+                  "width": 750,
+                  "height": 500,
+                  "sourceWidth": 1536,
+                  "sourceHeight": 1024
+                }
+              }
+            },
+            {
+              "label": "普通人家坐在院里天天端着喝粥的泥陶碗",
+              "correct": false,
+              "visual": {
+                "kind": "sequence",
+                "items": [
+                  {
+                    "icon": "home",
+                    "label": "日常陶碗"
+                  }
+                ]
+              },
+              "objectView": {
+                "kind": "scene-card",
+                "assetId": "shang-oracle-choices-v1",
+                "crop": {
+                  "x": 780,
+                  "y": 518,
+                  "width": 750,
+                  "height": 500,
+                  "sourceWidth": 1536,
+                  "sourceHeight": 1024
+                }
+              }
+            }
+          ],
+          "narrative": {
+            "scene": "detail",
+            "caption": "合范铸鼎与日常陶器",
+            "speaker": "小航",
+            "responseSpeaker": "讲解员",
+            "response": "选对啦！铸造这么重的大鼎，需要大量原料和许多工匠紧密配合。",
+            "retry": "大鼎有八百多千克重，不是端在手里的普通粥碗，再看工匠拼陶范的一幅。",
+            "nextLabel": "听听文字与器物怎样一起作证"
+          },
+          "interaction": {
+            "kind": "pick",
+            "hint": "找找多位工匠围着青铜方鼎拼合陶范的一幅。",
+            "selectionFraming": "detail",
+            "choiceArt": "illustrated"
+          },
+          "inspection": {
+            "assetId": "xsz-houmuwu-ding",
+            "placement": "supporting",
+            "title": "后母戊青铜方鼎原件照片",
+            "caption": "商代后期 · 重832.84千克",
+            "label": "看真文物：后母戊鼎",
+            "openAlbum": true,
+            "narration": "这是中国国家博物馆展出的后母戊鼎原件。器身内壁铸有“后母戊”三字铭文。",
+            "sourceLinks": [
+              {
+                "title": "中国国家博物馆：“后母戊”青铜方鼎",
+                "url": "https://www.chnmus.net/ch/collection/data/20201105/65195.html"
+              }
+            ]
+          },
+          "visualAssetId": "shang-oracle-bronze-scene-v1"
+        },
+        {
+          "title": "刻辞与铭文让历史有据可查",
+          "story": "甲骨刻辞记下商王室关心的天气、农事等活动，商周青铜器也铸有记录人物和事件的铭文。把文字与器物合起来看，才能认识真实的商周。",
+          "question": "甲骨与青铜器怎样帮我们认识商周",
+          "feedback": "文字材料与青铜实物互相印证，留下可靠历史线索。",
+          "wrongFeedback": "再听听文字与器物各自保存的信息。",
+          "narration": "甲骨上的刻辞和青铜器上的铭文，把三千多年前的事情留了下来，让后人能凭真实证据认识商周。",
+          "displayText": "甲骨刻辞记下商王室关心的天气、农事等活动，商周青铜器也铸有记录人物和事件的铭文。把文字与器物合起来看，才能认识真实的商周。",
+          "beat": "甲骨刻辞与青铜铭文互相印证，让商周历史拥有直接可考的文字与实物证据。",
+          "concepts": [
+            {
+              "term": "铭文",
+              "meaning": "铸造或刻在青铜器等器物上的文字"
+            }
+          ],
+          "sourceIds": [
+            "UNESCO-YIN-XU",
+            "NMC-ORACLE-BRONZE-EXHIBITION",
+            "NMC-HOUMUWU-DING"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "book",
+                "label": "甲骨刻辞"
+              },
+              {
+                "icon": "speech",
+                "label": "青铜铭文作证"
+              }
+            ]
+          },
+          "options": [],
+          "narrative": {
+            "scene": "reunion",
+            "caption": "带着汉字与青铜线索回家",
+            "speaker": "小禾",
+            "responseSpeaker": "小伙伴",
+            "response": "原来三千多年前的骨片和大鼎里，藏着汉字和工匠的秘密！",
+            "retry": "再听听这一幕。",
+            "nextLabel": "带着发现回家"
+          },
+          "interaction": {
+            "kind": "look-listen",
+            "hint": "听完总结，点继续完成这一章。",
+            "continueLabel": "带着发现回家"
+          },
+          "visualAssetId": "shang-oracle-bronze-scene-v1"
+        }
+      ],
+      "finish": {
+        "title": "骨片刻下早期汉字，陶范铸出厚重青铜！",
+        "actions": [
+          "和家人在纸上画一个圆圈加一点、一道弯月牙，猜猜今天的“日”和“月”怎样变出来。",
+          "用橡皮泥压一个小印模，体验一下“先有模子、再印出形状”的陶范思路。"
+        ],
+        "parent": "引导孩子理解：甲骨文是目前所知中国最早的成熟系统文字材料之一，但记录的是商王室占卜而非普通人日记；后母戊鼎体现分工与陶范工艺，不是日常炊具。",
+        "sceneStepIndexes": [
+          2,
+          3
+        ]
+      },
+      "presentation": {
+        "kind": "object-workbench",
+        "sceneAssetId": "shang-oracle-bronze-scene-v1",
+        "sceneAlt": "讲解员与三位小伙伴在博物馆观察甲骨象形对照板与青铜方鼎陶范模型",
+        "title": "甲骨文与青铜大鼎会讲什么线索？",
+        "evidenceTitle": "商代刻辞牛骨与后母戊鼎",
+        "evidenceLine": "真实馆藏照片与展厅教学插画分开查看。",
+        "evidenceNarration": "刻辞牛肩胛骨和后母戊鼎都是商代留下的真实文物，分别让我们看到早期成熟汉字与青铜铸造技术。",
+        "guide": "听听语音提示，点展台或图卡找线索。",
+        "alignHint": "",
+        "familyHint": "和家人一起画象形符号、玩泥模压印。",
+        "familyLabel": "和家人试试象形字与泥模",
+        "familyMode": "actions",
+        "nextLabel": "继续找线索",
+        "lastLabel": "带着发现回家",
+        "sceneFraming": "story",
+        "sceneAspectRatio": 1.5,
+        "story": {
+          "kind": "travel-story",
+          "reunionAssetId": "shang-oracle-bronze-scene-v1",
+          "reunionAlt": "三位小伙伴与讲解员回看甲骨文与青铜大鼎的线索",
+          "reunionAspectRatio": 1.5,
+          "reunionFit": "contain",
+          "coverCaption": "去夏商西周看会记事的甲骨与大鼎",
+          "coverNarration": "还没有纸的时候，我们今天写的汉字最早刻在哪里？重达八百多千克的青铜大鼎又是怎样造出来的？跟小伙伴去夏商西周找答案！",
+          "closingCaption": "文字与青铜器的历史证据",
+          "closingLine": "甲骨留字迹，陶范铸重器。",
+          "closingNarration": "商代殷墟甲骨文留下了成系统的早期汉字，商周青铜器和铭文展示了陶范合铸工艺与重要礼仪，让后人能凭真凭实据认识三千多年前的历史。",
+          "fictionNote": "展厅里的图画对照板与小型陶范模型是现代教学道具，不是商代原件；真实商代刻辞牛骨与后母戊鼎请打开相册查看。"
+        }
+      }
+    },
+    {
+      "id": "cn-ancient-03-01-iron-waterworks",
+      "title": "铁农具与都江堰：江水怎样听话去浇田？",
+      "cta": "去看看分江水的巧办法",
+      "hook": "春秋战国工匠用铁范成批造农具；岷江水急易淹田，李冰不筑死高坝，怎样让江水分流去浇田？",
+      "outcome": "春秋战国推广铁农具与铸范；战国晚期李冰始建都江堰，用鱼嘴、飞沙堰、宝瓶口顺势分水灌田，经历代维护沿用至今。",
+      "sourceIds": [
+        "MOE-HISTORY-CURRICULUM-2022",
+        "NMC-SPRING-AUTUMN-WARRING-STATES",
+        "NMC-DOUBLE-SICKLE-IRON-MOULD",
+        "UNESCO-DUJIANGYAN",
+        "SICHUAN-DUJIANGYAN-OVERVIEW",
+        "NEAC-DUJIANGYAN-MAINTENANCE"
+      ],
+      "anchor": "李冰、战国铁器工匠与历代岁修治水的人们",
+      "boundary": "铁农具在战国中期后更常见，但并非一夜取代所有木石青铜工具，也不是社会变化的唯一原因。都江堰照片是现代遗产地现状，凝聚了历代岁修、改建与扩展，不等同战国原貌。分水学具为关系示意，不按真实河道比例测绘。",
+      "coverAssetId": "saws-dujiangyan-yuzui",
+      "coverDisplay": {
+        "label": "都江堰鱼嘴分水 · 现代现状",
+        "fit": "cover"
+      },
+      "evidenceAssetIds": [
+        "saws-dujiangyan-yuzui",
+        "saws-iron-sickle-mould",
+        "saws-iron-hoe"
+      ],
+      "photoSteps": [],
+      "photoAlbum": {
+        "id": "warring-iron-water-album",
+        "title": "战国铁农具与都江堰真材料相册",
+        "label": "翻看都江堰现状、双镰铁范与铁锄",
+        "photos": [
+          {
+            "assetId": "saws-dujiangyan-yuzui",
+            "title": "都江堰鱼嘴与内外江分水现状",
+            "label": "都江堰鱼嘴现状",
+            "period": "约前256年始建 · 2005年遗产地现状照片",
+            "caption": "岷江在鱼嘴处分为内江与外江；包含历代维修与现代设施",
+            "observation": "看看江心尖尖的分水堤，把迎面流来的江水分成左右两条水道。",
+            "narration": "这张照片拍的是今天的四川都江堰鱼嘴一带。战国晚期李冰主持始建都江堰，后来历代不断维修完善，直到今天还在分水防洪、灌溉农田。",
+            "sourceIds": [
+              "UNESCO-DUJIANGYAN",
+              "SICHUAN-DUJIANGYAN-OVERVIEW",
+              "NEAC-DUJIANGYAN-MAINTENANCE"
+            ],
+            "sourceLinks": [
+              {
+                "title": "UNESCO：青城山与都江堰世界遗产",
+                "url": "https://whc.unesco.org/en/list/1001/"
+              },
+              {
+                "title": "开放许可文件页（CC BY-SA 3.0）",
+                "url": "https://commons.wikimedia.org/wiki/File:Dujiangyan_irrigation_system,_Sichuan,_China.JPG"
+              }
+            ]
+          },
+          {
+            "assetId": "saws-iron-sickle-mould",
+            "title": "战国燕国双镰铁范实物照片",
+            "label": "战国双镰铁范",
+            "period": "战国时期 · 中国国家博物馆藏",
+            "caption": "铁范中有两道弯镰凹槽，一次可浇铸两把铁镰（浅色件为展陈示意）",
+            "observation": "看看深色铁模子里并排的两道弯弯凹槽，铁水倒进去就能一次铸出两把镰刀。",
+            "narration": "这件战国双镰铁范有两道弯弯的镰刀槽，证明当时工匠已经能用模子成批铸造坚硬的铁农具。旁边浅色镰刀是现代展陈示意件。",
+            "sourceIds": [
+              "NMC-DOUBLE-SICKLE-IRON-MOULD"
+            ],
+            "sourceLinks": [
+              {
+                "title": "中国国家博物馆：双镰铁范",
+                "url": "https://www.chnmus.net/ch/collection/data/20201105/65224.html"
+              },
+              {
+                "title": "开放许可文件页（CC0 1.0）",
+                "url": "https://commons.wikimedia.org/wiki/File:Warring_States_Iron_Mould_for_2_Sickles_(9831323513).jpg"
+              }
+            ]
+          },
+          {
+            "assetId": "saws-iron-hoe",
+            "title": "战国铁锄实物照片",
+            "label": "战国铁锄",
+            "period": "战国时期 · 中国国家博物馆藏",
+            "caption": "装上木柄后可用于翻土除草的战国铁农具",
+            "observation": "看看铁锄宽宽的刃部和上方装木柄的插口，比木石工具更坚硬耐磨。",
+            "narration": "这是一件战国铁锄实物。装上木柄后，农民翻土除草更有力气。铁农具在战国中期以后越来越常见。",
+            "sourceIds": [
+              "NMC-SPRING-AUTUMN-WARRING-STATES"
+            ],
+            "sourceLinks": [
+              {
+                "title": "中国国家博物馆：春秋战国时期陈列",
+                "url": "https://www.chnmus.net/ch/exhibition/ancient_china.html"
+              },
+              {
+                "title": "开放许可文件页（CC0 1.0）",
+                "url": "https://commons.wikimedia.org/wiki/File:Warring_States_Iron_Hoe_(9831259805).jpg"
+              }
+            ]
+          }
+        ]
+      },
+      "entry": {
+        "object": "都江堰鱼嘴现状、战国双镰铁范与铁锄",
+        "place": "四川成都平原都江堰与燕国铁范出土地",
+        "culture": "顺势分水治水智慧与铁农具推广"
+      },
+      "steps": [
+        {
+          "title": "到春秋战国看新农具与治水工程",
+          "story": "两千多年前的春秋战国时期，铁农具渐渐推广，秦国蜀郡郡守李冰还在约公元前256年主持始建都江堰。眼前照片是历代维修后的今天现状。",
+          "question": "铁农具推广与李冰始建都江堰在哪一时期？",
+          "feedback": "在春秋战国时期，农具铸造与水利工程都有了重要发展。",
+          "wrongFeedback": "清朝离今天很近，双镰铁范与李冰始建都江堰都在春秋战国。",
+          "narration": "两千多年前的春秋战国，人们推广铁农具，李冰还主持始建都江堰。它们出现在哪一时期？",
+          "displayText": "两千多年前的春秋战国时期，铁农具渐渐推广，秦国蜀郡郡守李冰还在约公元前256年主持始建都江堰。眼前照片是历代维修后的今天现状。",
+          "beat": "春秋战国时期铁农具推广，约前256年李冰主持始建都江堰。",
+          "concepts": [
+            {
+              "term": "铁农具",
+              "meaning": "用坚硬的铁做成的锄头、镰刀等种田工具"
+            },
+            {
+              "term": "都江堰",
+              "meaning": "四川岷江上顺着水势分流防洪又浇田的工程"
+            }
+          ],
+          "sourceIds": [
+            "MOE-HISTORY-CURRICULUM-2022",
+            "UNESCO-DUJIANGYAN",
+            "SICHUAN-DUJIANGYAN-OVERVIEW"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "water",
+                "label": "都江堰分水"
+              },
+              {
+                "icon": "field",
+                "label": "春秋战国农耕"
+              }
+            ]
+          },
+          "options": [
+            {
+              "label": "春秋战国 · 前770—前221年",
+              "correct": true,
+              "visual": {
+                "kind": "sequence",
+                "items": [
+                  {
+                    "icon": "water",
+                    "label": "春秋战国"
+                  }
+                ]
+              },
+              "objectView": {
+                "kind": "era",
+                "name": "春秋战国",
+                "date": "前770—前221年",
+                "stationImage": "/images/history-stations/change.webp"
+              }
+            },
+            {
+              "label": "清朝 · 1644—1840年前",
+              "correct": false,
+              "visual": {
+                "kind": "sequence",
+                "items": [
+                  {
+                    "icon": "clock",
+                    "label": "清朝"
+                  }
+                ]
+              },
+              "objectView": {
+                "kind": "era",
+                "name": "清朝",
+                "date": "1644—1840年前",
+                "stationImage": "/images/history-stations/qing.webp"
+              }
+            }
+          ],
+          "narrative": {
+            "scene": "artifact",
+            "caption": "岷江上的鱼嘴分水堤现状",
+            "speaker": "小航",
+            "responseSpeaker": "小禾",
+            "response": "在春秋战国站！两千多年前始建的都江堰，经过历代维护今天还在用呢。",
+            "retry": "清朝很靠后啦，再看秦朝前面一站春秋战国。",
+            "nextLabel": "先看一副模子怎样铸两把镰刀"
+          },
+          "interaction": {
+            "kind": "timeline",
+            "hint": "看看时间河上秦朝前面的一站。"
+          },
+          "inspection": {
+            "assetId": "saws-dujiangyan-yuzui",
+            "title": "都江堰鱼嘴分水现状照片",
+            "caption": "战国始建 · 历代维修 · 现代遗产地现状",
+            "label": "翻看相册：都江堰、双镰范与铁锄",
+            "openAlbum": true,
+            "framing": "landscape",
+            "narration": "照片里江心尖尖的堤叫鱼嘴，把岷江分成内江和外江。今天看到的工程包含历代岁修与现代维护。",
+            "sourceLinks": [
+              {
+                "title": "UNESCO：青城山与都江堰",
+                "url": "https://whc.unesco.org/en/list/1001/"
+              },
+              {
+                "title": "开放许可文件页",
+                "url": "https://commons.wikimedia.org/wiki/File:Dujiangyan_irrigation_system,_Sichuan,_China.JPG"
+              }
+            ]
+          }
+        },
+        {
+          "title": "一副铁模子，能铸出两把弯镰刀",
+          "story": "仔细看这件战国双镰铁范：深色铁模子里有两道弯弯的凹槽，倒入滚烫铁水冷却后，一次就能做出两把铁镰刀，让坚硬的铁农具更快推广开来。",
+          "question": "双镰铁范怎样帮人们更快造出铁农具",
+          "feedback": "铸范让工匠能成批制作形状相同的坚硬铁镰。",
+          "wrongFeedback": "再看看模子里的两道弯槽。",
+          "narration": "双镰铁范里有两道镰刀形凹槽，铁水倒进去冷却，一次就能造出两把铁镰刀。",
+          "displayText": "仔细看这件战国双镰铁范：深色铁模子里有两道弯弯的凹槽，倒入滚烫铁水冷却后，一次就能做出两把铁镰刀，让坚硬的铁农具更快推广开来。",
+          "beat": "双镰铁范证明战国工匠能用铸范成批制作铁农具，与牛耕配合提升耕作能力。",
+          "concepts": [
+            {
+              "term": "双镰铁范",
+              "meaning": "刻着两道镰刀槽、能一次铸两把铁镰的模子"
+            }
+          ],
+          "sourceIds": [
+            "NMC-DOUBLE-SICKLE-IRON-MOULD",
+            "NMC-SPRING-AUTUMN-WARRING-STATES"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "stamp",
+                "label": "双镰铁范凹槽"
+              },
+              {
+                "icon": "grain",
+                "label": "成批铸造铁镰"
+              }
+            ]
+          },
+          "options": [],
+          "narrative": {
+            "scene": "artifact",
+            "caption": "战国双镰铁范实物",
+            "speaker": "小朵",
+            "responseSpeaker": "小禾",
+            "response": "有了这样的模子，工匠就能一批一批做出结实的铁镰刀啦！",
+            "retry": "再看看模子。",
+            "nextLabel": "动手试试都江堰怎样分江水"
+          },
+          "interaction": {
+            "kind": "look-listen",
+            "hint": "点大图可放大观察两道弯槽，听完点继续。",
+            "continueLabel": "去动手试试都江堰分水"
+          },
+          "inspection": {
+            "assetId": "saws-iron-sickle-mould",
+            "title": "战国燕国双镰铁范",
+            "caption": "中国国家博物馆藏 · 浅色镰刀为现代展陈示意件",
+            "label": "放大看双镰铁范凹槽",
+            "openAlbum": true,
+            "framing": "object",
+            "displayHeight": 255,
+            "narration": "模子里并排有两道弯槽，用来浇铸铁镰刀；旁边浅色镰刀是博物馆为了帮大家看懂放的示意件。",
+            "sourceLinks": [
+              {
+                "title": "中国国家博物馆：双镰铁范",
+                "url": "https://www.chnmus.net/ch/collection/data/20201105/65224.html"
+              }
+            ]
+          }
+        },
+        {
+          "title": "鱼嘴飞沙堰与宝瓶口的配合",
+          "story": "岷江水急时容易淹田，水少时农田又缺水。李冰不筑死高坝堵江，而是让鱼嘴分水、飞沙堰排走多余洪水和泥沙、宝瓶口引稳水灌田。",
+          "question": "点按钮看看江水怎样分流排洪再去浇田",
+          "feedback": "三部分顺着水势配合，既防洪水又浇灌成都平原。",
+          "wrongFeedback": "按步骤观察水流变化。",
+          "narration": "岷江先到鱼嘴分成外江与内江。点按钮，看看涨水时飞沙堰怎样排洪，宝瓶口怎样引水进农田。",
+          "displayText": "岷江水急时容易淹田，水少时农田又缺水。李冰不筑死高坝堵江，而是让鱼嘴分水、飞沙堰排走多余洪水和泥沙、宝瓶口引稳水灌田。",
+          "beat": "鱼嘴分水、飞沙堰溢洪排沙、宝瓶口引水相互配合，不筑拦河高坝而化水患为灌溉。",
+          "concepts": [
+            {
+              "term": "鱼嘴",
+              "meaning": "江心前端尖尖、像鱼嘴一样的分水堤"
+            },
+            {
+              "term": "宝瓶口",
+              "meaning": "在山崖间开凿出的狭窄引水口，控制进田水量"
+            }
+          ],
+          "sourceIds": [
+            "UNESCO-DUJIANGYAN",
+            "SICHUAN-DUJIANGYAN-OVERVIEW"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "water",
+                "label": "鱼嘴分流与飞沙堰排洪"
+              },
+              {
+                "icon": "field",
+                "label": "宝瓶口引水灌田"
+              }
+            ]
+          },
+          "options": [],
+          "narrative": {
+            "scene": "workshop",
+            "caption": "都江堰分水学具",
+            "speaker": "小禾",
+            "responseSpeaker": "小航",
+            "response": "急水排去外江，稳水进宝瓶口浇绿农田，不用堵死江水真聪明！",
+            "retry": "接着点按钮观察水流。",
+            "nextLabel": "在展厅沙盘里找分水堤与铁农具"
+          },
+          "interaction": {
+            "kind": "history-lab",
+            "hint": "依次点按钮，观察涨水排洪与引水入田。",
+            "lab": {
+              "kind": "water-split",
+              "stages": [
+                {
+                  "label": "涨水时看飞沙堰排洪",
+                  "narration": "涨水时大股急水走外江，内江多余的水和沙漫过矮矮的飞沙堰排向外江。"
+                },
+                {
+                  "label": "引稳水进宝瓶口浇田",
+                  "narration": "排走多余急水后，稳稳的江水穿过狭窄的宝瓶口，流进渠道浇灌农田。"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "找一找鱼嘴与铁农具模型",
+          "story": "展厅沙盘把山谷来水、江心鱼嘴和右边绿油油的棋盘农田连在一起；旁边小木台上还摆着铁锄和双镰范模型。水利和农具一起帮人们种好庄稼。",
+          "question": "点一点江心把大江分成两路的鱼嘴模型",
+          "feedback": "水利工程与铁制农具互相配合，改变了农业生产。",
+          "wrongFeedback": "再看看江心分水岛与右下角木台上的农具模型。",
+          "narration": "沙盘中间有分江水的鱼嘴，右下角木台上有铁锄和双镰范模型。先点江心分水的鱼嘴。",
+          "displayText": "展厅沙盘把山谷来水、江心鱼嘴和右边绿油油的棋盘农田连在一起；旁边小木台上还摆着铁锄和双镰范模型。水利和农具一起帮人们种好庄稼。",
+          "beat": "水利工程解决引水防洪，铁农具帮助翻土收割，与人力和组织共同促进农业发展。",
+          "sourceIds": [
+            "UNESCO-DUJIANGYAN",
+            "NMC-DOUBLE-SICKLE-IRON-MOULD",
+            "NMC-SPRING-AUTUMN-WARRING-STATES"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "map",
+                "label": "沙盘鱼嘴分水"
+              },
+              {
+                "icon": "field",
+                "label": "铁锄与双镰范"
+              }
+            ]
+          },
+          "options": [],
+          "narrative": {
+            "scene": "detail",
+            "caption": "都江堰沙盘与铁农具展台",
+            "speaker": "讲解员",
+            "responseSpeaker": "小朵",
+            "response": "分好江水、用好铁农具，田里的庄稼就能长得好啦！",
+            "retry": "看清问题找的是江心分水岛还是右下角铁农具。",
+            "nextLabel": "听听工程为什么能用两千多年"
+          },
+          "interaction": {
+            "kind": "scene-find",
+            "hint": "点一点图里对应的位置。",
+            "imageLabel": "故事插画",
+            "sceneAspectRatio": 1.5,
+            "hotspots": [
+              {
+                "id": "yuzui-island",
+                "label": "沙盘江心的鱼嘴分水堤",
+                "x": 0.22,
+                "y": 0.49,
+                "width": 0.27,
+                "height": 0.16
+              },
+              {
+                "id": "iron-tools",
+                "label": "木台上的铁锄与双镰铁范模型",
+                "x": 0.65,
+                "y": 0.7,
+                "width": 0.34,
+                "height": 0.29
+              }
+            ],
+            "rounds": [
+              {
+                "id": "yuzui",
+                "targetId": "yuzui-island",
+                "question": "哪里是沙盘江心把水一分为二的鱼嘴？",
+                "feedback": "找到了！鱼嘴在江心顺着水势把岷江分成外江和内江。",
+                "retry": "那是右下角的农具模型，再找江水中间尖尖的分水岛。",
+                "nextLabel": "再找铁锄与双镰范模型"
+              },
+              {
+                "id": "tools",
+                "targetId": "iron-tools",
+                "question": "哪里摆着铁锄和铸造两把镰刀的模子？",
+                "feedback": "找到了！铁锄翻土、铁范铸镰，帮人们更省力地耕作。",
+                "retry": "那是江心鱼嘴，再看右下角小木台上的工具。",
+                "nextLabel": "听听工程怎样传到今天"
+              }
+            ]
+          },
+          "inspection": {
+            "assetId": "saws-iron-hoe",
+            "placement": "supporting",
+            "title": "战国铁锄实物照片",
+            "caption": "中国国家博物馆藏 · 战国铁农具",
+            "label": "看真文物：战国铁锄",
+            "openAlbum": true,
+            "narration": "这是战国铁锄原件，装上木柄就能用来翻地除草。",
+            "sourceLinks": [
+              {
+                "title": "中国国家博物馆：春秋战国陈列",
+                "url": "https://www.chnmus.net/ch/exhibition/ancient_china.html"
+              }
+            ]
+          },
+          "visualAssetId": "warring-dujiangyan-scene-v1"
+        },
+        {
+          "title": "顺水设计与历代用心维护",
+          "story": "都江堰能用两千多年，不光靠最初顺着地形分水的巧设计，还靠后来历代人们年年清理泥沙、修补堤堰。好办法加上长久维护，才能一直造福农田。",
+          "question": "都江堰为什么能沿用两千多年",
+          "feedback": "巧妙顺水设计与历代持续岁修维护缺一不可。",
+          "wrongFeedback": "再听听设计与历代维护的关系。",
+          "narration": "都江堰既靠最初顺着水势分流的好设计，也靠后来一代代人清理泥沙、持续维修，才能沿用两千多年。",
+          "displayText": "都江堰能用两千多年，不光靠最初顺着地形分水的巧设计，还靠后来历代人们年年清理泥沙、修补堤堰。好办法加上长久维护，才能一直造福农田。",
+          "beat": "顺应地形的分水设计加上历代岁修维护，使都江堰持续发挥防洪灌溉作用。",
+          "concepts": [
+            {
+              "term": "岁修",
+              "meaning": "每年定期清理河道泥沙、修补堤堰的维护工作"
+            }
+          ],
+          "sourceIds": [
+            "UNESCO-DUJIANGYAN",
+            "NEAC-DUJIANGYAN-MAINTENANCE",
+            "SICHUAN-DUJIANGYAN-OVERVIEW"
+          ],
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              {
+                "icon": "water",
+                "label": "顺水设计"
+              },
+              {
+                "icon": "people",
+                "label": "历代岁修维护"
+              }
+            ]
+          },
+          "options": [],
+          "narrative": {
+            "scene": "reunion",
+            "caption": "带着治水与农具的发现回家",
+            "speaker": "小禾",
+            "responseSpeaker": "小伙伴",
+            "response": "顺着江水想办法，再加上一代代人维护，太了不起了！",
+            "retry": "再听听这一幕。",
+            "nextLabel": "带着发现回家"
+          },
+          "interaction": {
+            "kind": "look-listen",
+            "hint": "听完总结，点继续完成这一章。",
+            "continueLabel": "带着发现回家"
+          },
+          "visualAssetId": "warring-dujiangyan-scene-v1"
+        }
+      ],
+      "finish": {
+        "title": "铁范成批造农具，鱼嘴顺势分江水！",
+        "actions": [
+          "洗澡或洗手时，用手指在水流前轻轻一分，看看一股水怎样绕开手指分成两路。",
+          "指着图给家人讲讲：鱼嘴、飞沙堰、宝瓶口各自帮江水做了什么事？"
+        ],
+        "parent": "引导孩子看到两件事：一是双镰铁范证明战国工匠能成批铸造铁农具；二是都江堰不靠筑死高坝，而是顺势分水并依靠历代岁修延续至今。避免说成铁器单独决定一切或战国原貌一成不变。",
+        "sceneStepIndexes": [
+          2,
+          3
+        ]
+      },
+      "presentation": {
+        "kind": "object-workbench",
+        "sceneAssetId": "warring-dujiangyan-scene-v1",
+        "sceneAlt": "讲解员与三位小伙伴在博物馆观察都江堰分水沙盘与铁锄、双镰范模型",
+        "title": "铁农具与都江堰：江水怎样听话去浇田？",
+        "evidenceTitle": "都江堰鱼嘴现状与战国铁范铁锄",
+        "evidenceLine": "真实照片、分水学具与故事插画各司其职。",
+        "evidenceNarration": "相册里既有今天仍在工作的都江堰鱼嘴照片，也有中国国家博物馆展出的战国双镰铁范和铁锄。",
+        "guide": "听听语音提示，操作分水学具或点图找线索。",
+        "alignHint": "",
+        "familyHint": "和家人一起试试水流分路的小游戏。",
+        "familyLabel": "和家人试试分水小游戏",
+        "familyMode": "actions",
+        "nextLabel": "继续找线索",
+        "lastLabel": "带着发现回家",
+        "sceneFraming": "story",
+        "sceneAspectRatio": 1.5,
+        "story": {
+          "kind": "travel-story",
+          "reunionAssetId": "warring-dujiangyan-scene-v1",
+          "reunionAlt": "三位小伙伴与讲解员回看都江堰分水沙盘与战国铁农具线索",
+          "reunionAspectRatio": 1.5,
+          "reunionFit": "contain",
+          "coverCaption": "去春秋战国看铁农具与分江水的巧办法",
+          "coverNarration": "大江涨水容易淹没农田，不筑高墙堵死江水，怎样让急水排走、稳水去浇田？跟小伙伴到春秋战国，看铁农具和都江堰的巧办法！",
+          "closingCaption": "顺水防洪与历代守护",
+          "closingLine": "铁范铸新具，顺水分急流。",
+          "closingNarration": "春秋战国推广铁农具与铸范，李冰主持始建都江堰，用鱼嘴分水、飞沙堰排洪、宝瓶口引水灌田，并经历代维护一直造福今天。",
+          "fictionNote": "博物馆沙盘与分水学具是帮助理解工程关系的教学模型，不按真实河道比例测绘；照片中的都江堰为历代维修后的现代现状。"
+        }
+      }
+    },
     {
       "id": "cn-ancient-04-01-qin-unification",
       "title": "秦统一度量衡",
@@ -662,7 +2377,17 @@
             ],
             "framing": "landscape",
             "openAlbum": true
-          }
+          },
+          "concepts": [
+            {
+              "term": "夯土",
+              "meaning": "把泥土一层层用力砸结实筑成城墙的方法"
+            },
+            {
+              "term": "关口",
+              "meaning": "城墙上留给人们出入并由士兵守卫的大门"
+            }
+          ]
         },
         {
           "title": "连起旧墙，抵御进攻",
@@ -1420,11 +3145,11 @@
           "concepts": [
             {
               "term": "五铢钱",
-              "meaning": "铜铸的钱币"
+              "meaning": "汉朝统一规定形状和重量的圆形方孔铜钱"
             },
             {
-              "term": "五铢",
-              "meaning": "规定的重量"
+              "term": "钱范",
+              "meaning": "用来浇铸铜钱的模子"
             }
           ]
         },
@@ -2056,7 +3781,17 @@
             ],
             "openAlbum": true,
             "framing": "panorama"
-          }
+          },
+          "concepts": [
+            {
+              "term": "西域",
+              "meaning": "汉朝人称呼玉门关以西的新疆和更远地区"
+            },
+            {
+              "term": "丝绸之路",
+              "meaning": "古代把丝绸、物产和消息传向远方的商路"
+            }
+          ]
         },
         {
           "title": "没结成联盟，也带回见闻",
@@ -2648,7 +4383,13 @@
             ],
             "openAlbum": true,
             "framing": "panorama"
-          }
+          },
+          "concepts": [
+            {
+              "term": "纤维",
+              "meaning": "麻头、树皮和破布里细细长长的丝，能抄成纸"
+            }
+          ]
         },
         {
           "title": "写字的材料，还能更好用",
@@ -3545,14 +5286,16 @@
         "sceneAspectRatio": 2.2,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "jin-travel-journal-reunion-v1",
-          "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
+          "reunionAssetId": "jin-math-reform-reunion-v1",
+          "reunionAlt": "三位小伙伴翻看青瓷、城门、圆内多边形与九色鹿总结手账，现代教学插画",
           "coverCaption": "新邻居怎样在江南安家？",
           "coverNarration": "新邻居怎样在江南安家？小小旅行团出发！有人为躲避战乱来到江南。这里原来有人住，新邻居怎样慢慢安顿？",
           "closingCaption": "回看刚刚读懂的历史",
           "closingNarration": "部分居民分批来到江南。他们向当地人学习水土知识，也带来自己的经验，安家需要长期劳动与互助。",
           "closingLine": "新邻居与当地人，带着不同经验一起安家。",
-          "fictionNote": "这是一户虚构家庭的安顿故事，不替具体文物编主人或路线。迁徙不止南迁，也不是所有北方人同一次搬走。牛车是北齐墓葬模型，不是某家南迁时乘过的真车。插画房屋、桥梁、衣着是情境表达，不是晋代建筑或族群外貌复原。"
+          "fictionNote": "这是一户虚构家庭的安顿故事，不替具体文物编主人或路线。迁徙不止南迁，也不是所有北方人同一次搬走。牛车是北齐墓葬模型，不是某家南迁时乘过的真车。插画房屋、桥梁、衣着是情境表达，不是晋代建筑或族群外貌复原。",
+          "reunionAspectRatio": 1.5,
+          "reunionFit": "contain"
         }
       },
       "entry": {
@@ -3683,7 +5426,17 @@
             ],
             "framing": "object",
             "openAlbum": true
-          }
+          },
+          "concepts": [
+            {
+              "term": "江南",
+              "meaning": "长江中下游以南温暖多水、盛产水稻的地方"
+            },
+            {
+              "term": "青瓷",
+              "meaning": "涂上釉烧成淡青色光滑表面的瓷器"
+            }
+          ]
         },
         {
           "title": "有条件，还要有人动手",
@@ -4062,14 +5815,16 @@
         "sceneAspectRatio": 2.2,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "jin-travel-journal-reunion-v1",
-          "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
+          "reunionAssetId": "jin-math-reform-reunion-v1",
+          "reunionAlt": "三位小伙伴翻看青瓷、城门、圆内多边形与九色鹿总结手账，现代教学插画",
           "coverCaption": "江南的稻田和青瓷",
           "coverNarration": "江南的稻田和青瓷小小旅行团出发！水土提供条件。田里长出粮食、作坊烧出青瓷，还需要人做哪些事？",
           "closingCaption": "回看刚刚读懂的历史",
           "closingNarration": "江南的发展靠当地居民和迁来的人共同劳动。修渠帮助种田，青瓷还要选料、成形、施釉和烧制；水土和原料都要经过人的工作。",
           "closingLine": "好水土加上共同劳动，江南慢慢发展。",
-          "fictionNote": "田渠与作坊是教学情境，不复原某年某村。青瓷只能支持器物工艺与造型，不能证明田地产量或家家富足。羊形器用途仍有讨论，鸡首壶馆藏品有墓葬背景；插画器形不是对它们的精确复制。水渠维护与农业发展另据历史文献。"
+          "fictionNote": "田渠与作坊是教学情境，不复原某年某村。青瓷只能支持器物工艺与造型，不能证明田地产量或家家富足。羊形器用途仍有讨论，鸡首壶馆藏品有墓葬背景；插画器形不是对它们的精确复制。水渠维护与农业发展另据历史文献。",
+          "reunionAspectRatio": 1.5,
+          "reunionFit": "contain"
         }
       },
       "photoAlbum": {
@@ -4579,14 +6334,16 @@
         "sceneAspectRatio": 2.2,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "jin-travel-journal-reunion-v1",
-          "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
+          "reunionAssetId": "jin-math-reform-reunion-v1",
+          "reunionAlt": "三位小伙伴翻看青瓷、城门、圆内多边形与九色鹿总结手账，现代教学插画",
           "coverCaption": "孝文帝迁都后，改变了什么？",
           "coverNarration": "孝文帝迁都后，改变了什么？小小旅行团出发！都城从平城迁到洛阳，孝文帝还改变了朝廷的语言、衣冠和制度。小伙伴去看看这些改变。",
           "closingCaption": "回看刚刚读懂的历史",
           "closingNarration": "北魏孝文帝迁都洛阳，并改革朝廷的语言、衣冠等制度。人们在长期来往中互相影响，不是所有人一天变得一样。",
           "closingLine": "迁都、改革与长期来往，让生活发生变化。",
-          "fictionNote": "人物为教学角色，不是孝文帝或具体官员肖像。云冈为平城附近北魏遗存，今日照片不能当作当年新建状态；北朝陶俑用于观察服饰，不把它当改革前后成套对照，更不能从服装判断民族。改革规定与生活变化有对象和过程，不将任何人群评为先进或落后。"
+          "fictionNote": "人物为教学角色，不是孝文帝或具体官员肖像。云冈为平城附近北魏遗存，今日照片不能当作当年新建状态；北朝陶俑用于观察服饰，不把它当改革前后成套对照，更不能从服装判断民族。改革规定与生活变化有对象和过程，不将任何人群评为先进或落后。",
+          "reunionAspectRatio": 1.5,
+          "reunionFit": "contain"
         }
       },
       "entry": {
@@ -5018,14 +6775,16 @@
         "sceneAspectRatio": 2.2,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "jin-travel-journal-reunion-v1",
-          "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
+          "reunionAssetId": "jin-math-reform-reunion-v1",
+          "reunionAlt": "三位小伙伴翻看青瓷、城门、圆内多边形与九色鹿总结手账，现代教学插画",
           "coverCaption": "祖冲之怎样把圆算得更准？",
           "coverNarration": "祖冲之怎样把圆算得更准？小小旅行团出发！直边图形放进同一个圆，分得更细，会发生什么？跟着小伙伴试试古人的思路。",
           "closingCaption": "回看刚刚读懂的历史",
           "closingNarration": "刘徽用直边图形逐步逼近圆，后来祖冲之把圆周率算得更精确。今天的模型只帮助理解思路，不是他们的计算原稿。",
           "closingLine": "前人留下方法，后来人接着算得更准。",
-          "fictionNote": "书影是1936年后世印本，不是刘徽或祖冲之手稿，条码是现代馆藏管理标记。图中人物为今天的教学角色，书房陈设不当作南朝遗物。学具演示内接多边形的直觉，祖冲之具体算法已散佚，不声称按几次按钮就得到他的精度，不要求孩子背小数。"
+          "fictionNote": "书影是1936年后世印本，不是刘徽或祖冲之手稿，条码是现代馆藏管理标记。图中人物为今天的教学角色，书房陈设不当作南朝遗物。学具演示内接多边形的直觉，祖冲之具体算法已散佚，不声称按几次按钮就得到他的精度，不要求孩子背小数。",
+          "reunionAspectRatio": 1.5,
+          "reunionFit": "contain"
         },
         "practice": {
           "scene": "circle-refine"
@@ -5154,7 +6913,13 @@
               }
             ],
             "framing": "object"
-          }
+          },
+          "concepts": [
+            {
+              "term": "敦煌壁画",
+              "meaning": "画在甘肃敦煌石窟墙壁上的古代彩色故事画"
+            }
+          ]
         },
         {
           "title": "把前后发生的事，画给人看",
@@ -5463,14 +7228,16 @@
         "sceneAspectRatio": 2.2,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "jin-travel-journal-reunion-v1",
-          "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
+          "reunionAssetId": "jin-math-reform-reunion-v1",
+          "reunionAlt": "三位小伙伴翻看青瓷、城门、圆内多边形与九色鹿总结手账，现代教学插画",
           "coverCaption": "跟着九色鹿读懂壁画",
           "coverNarration": "跟着九色鹿读懂壁画小小旅行团出发！古人把不同时间的故事画在一面墙上。先救人，后有约定，后来又发生什么？",
           "closingCaption": "回看刚刚读懂的历史",
           "closingNarration": "北魏画工把鹿王故事画在洞窟墙上，用连续场景讲救助、约定与失信。今天的学习画帮助读故事，不能冒充原壁画。",
           "closingLine": "跟着连续画面，读懂前后发生的故事。",
-          "fictionNote": "这是佛教本生故事与古代艺术，不是真实鹿的新闻或北魏人物传记。第一步为第257窟原壁画局部；新画卡是现代教学绘本，不是现代动画截图。原壁画从两端向中间展开，新画卡为了教学从左到右排列，不把局部当整面墙。"
+          "fictionNote": "这是佛教本生故事与古代艺术，不是真实鹿的新闻或北魏人物传记。第一步为第257窟原壁画局部；新画卡是现代教学绘本，不是现代动画截图。原壁画从两端向中间展开，新画卡为了教学从左到右排列，不把局部当整面墙。",
+          "reunionAspectRatio": 1.5,
+          "reunionFit": "contain"
         }
       },
       "entry": {
@@ -5598,7 +7365,13 @@
             ],
             "framing": "landscape",
             "openAlbum": true
-          }
+          },
+          "concepts": [
+            {
+              "term": "大运河",
+              "meaning": "人工挖通并连接天然河流、让粮船南北通行的水道"
+            }
+          ]
         },
         {
           "title": "统一之后，为什么还要通水路",
@@ -7111,7 +8884,17 @@
               }
             ],
             "displayHeight": 350
-          }
+          },
+          "concepts": [
+            {
+              "term": "长安",
+              "meaning": "唐朝热闹的都城，就在今天的陕西西安"
+            },
+            {
+              "term": "三彩",
+              "meaning": "唐代常见黄、绿、白等多种釉色的低温陶器"
+            }
+          ]
         },
         {
           "title": "人来来往往，技艺也会相遇",
@@ -8911,7 +10694,7 @@
           "question": "钱镠收到铁券时，在哪个时期？",
           "feedback": "是唐末。我们再跟他走到后来的吴越。",
           "wrongFeedback": "五代十国在后，铁券先在唐末颁赐。",
-          "narration": "这件铁券来自唐末，钱镠后来才建立吴越。他收到铁券时，应该在哪个时期？",
+          "narration": "897年唐朝还没结束，皇帝赐给钱镠免罪铁牌铁券；钱镠后来才建立吴越。他收到铁券在哪个时期？",
           "displayText": "897年，唐昭宗把这件铁券赐给钱镠。钱镠后来建立吴越，但收到铁券时，唐朝还没有结束。",
           "sourceIds": [
             "NMC-QIANLIU-IRON-CERTIFICATE"
@@ -9006,7 +10789,17 @@
             "framing": "object",
             "displayHeight": 330
           },
-          "beat": "897年，唐昭宗把这件铁券赐给钱镠。"
+          "beat": "897年，唐昭宗把这件铁券赐给钱镠。",
+          "concepts": [
+            {
+              "term": "铁券",
+              "meaning": "皇帝赐给功臣、刻着承诺字句的铁牌"
+            },
+            {
+              "term": "海塘",
+              "meaning": "修在海边挡住大潮水保护农田的堤坝"
+            }
+          ]
         },
         {
           "title": "唐朝结束，地方各有变化",
@@ -9824,7 +11617,13 @@
             ],
             "framing": "object",
             "displayHeight": 320
-          }
+          },
+          "concepts": [
+            {
+              "term": "长卷",
+              "meaning": "横着慢慢展开、把整座城和河岸画下来的长画"
+            }
+          ]
         },
         {
           "title": "河流把货物带到城市",
@@ -10289,7 +12088,13 @@
             ],
             "framing": "object",
             "displayHeight": 320
-          }
+          },
+          "concepts": [
+            {
+              "term": "活字",
+              "meaning": "一个字做一块小印章，印完还能拆开重排的字块"
+            }
+          ]
         },
         {
           "title": "一块一个字，先排成一页",
@@ -10540,15 +12345,16 @@
         "sceneAspectRatio": 1.5,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "song-friends-reunion-v2",
-          "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
-          "reunionAspectRatio": 1.82,
+          "reunionAssetId": "song-tech-reunion-v1",
+          "reunionAlt": "讲解员与三位小伙伴翻看指南针、活字与烟火总结手账，现代教学插画",
+          "reunionAspectRatio": 1.5,
           "coverCaption": "毕昇的活字，怎样换一句话？",
           "coverNarration": "一整页刻在一块版上，和一块一个字有什么不同？跟小伙伴试试拆换、重排，再看看印到纸上的变化。",
           "closingCaption": "带着发现回家",
           "closingNarration": "北宋毕昇探索泥活字，沈括把方法记在《梦溪笔谈》里。分开的字块可以拆换和重排；后人继续改进，雕版也长期使用。",
           "closingLine": "一个个字块，拆开以后还能重排。",
-          "fictionNote": "照片为北京印刷博物馆的木活字展示，不是毕昇泥活字原套。代码用三个简单字演示单块替换、反字到正字；不复原材料、加热、配方和完整传统工序。现代体验图不是宋代现场，活字没有立刻替代雕版。"
+          "fictionNote": "照片为北京印刷博物馆的木活字展示，不是毕昇泥活字原套。代码用三个简单字演示单块替换、反字到正字；不复原材料、加热、配方和完整传统工序。现代体验图不是宋代现场，活字没有立刻替代雕版。",
+          "reunionFit": "contain"
         }
       },
       "coverAssetId": "wooden-movable-type-museum-display",
@@ -10933,15 +12739,16 @@
         "sceneAspectRatio": 1.5,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "song-friends-reunion-v2",
-          "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
-          "reunionAspectRatio": 1.82,
+          "reunionAssetId": "song-tech-reunion-v1",
+          "reunionAlt": "讲解员与三位小伙伴翻看指南针、活字与烟火总结手账，现代教学插画",
+          "reunionAspectRatio": 1.5,
           "coverCaption": "宋代海船，怎样在阴天辨方向？",
           "coverNarration": "天空被云遮住，海上的船员怎样辨方向？看看指南针能告诉什么，再找找船上其他人的工作。",
           "closingCaption": "带着发现回家",
           "closingNarration": "宋代航海文献记载用指南针辨方向。磁针给南北线索，船员还要看风浪、海岸和水深；远航需要工具、经验与合作。",
           "closingLine": "针给方向，航海还要大家观察。",
-          "fictionNote": "泉州古船照片是考古船体与现代展陈，没有展示指南针出土；用针的事实由文献支持。船上插画是教学情境，不复原特定古船。方向模型固定红端指南，省略磁偏角、摇晃和磁干扰，不能作真实航海教程。"
+          "fictionNote": "泉州古船照片是考古船体与现代展陈，没有展示指南针出土；用针的事实由文献支持。船上插画是教学情境，不复原特定古船。方向模型固定红端指南，省略磁偏角、摇晃和磁干扰，不能作真实航海教程。",
+          "reunionFit": "contain"
         }
       },
       "coverAssetId": "song-quanzhou-ship",
@@ -10969,7 +12776,7 @@
         "CAS-IHNS-ANCIENT-ROCKETS"
       ],
       "anchor": "曾公亮等编书者与保存古籍的人们",
-      "boundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+      "boundary": "儿童看的是明刻本封面，不是1044年原纸或配方页。展厅画板与总结手账是现代教学插画，安全展示军事信号与节庆烟火等不同历史用途，不展示配比、混合、点火或武器操作。",
       "steps": [
         {
           "title": "宋代编的书，后来人继续保存",
@@ -11171,7 +12978,7 @@
             "responseSpeaker": "小伙伴",
             "response": "它留下古代军事技术的线索。",
             "retry": "制作纸页属于造纸，火药在这里用于军事技术。",
-            "nextLabel": "旧书和今天的笔记，谁留下什么"
+            "nextLabel": "看看火药的两种历史用途"
           },
           "interaction": {
             "kind": "pick",
@@ -11179,84 +12986,91 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "song-books-museum-v1"
+          "visualAssetId": "song-gunpowder-uses-v1",
+          "concepts": [
+            {
+              "term": "火药",
+              "meaning": "古人长期探索出的能快速燃烧发光的材料"
+            }
+          ]
         },
         {
-          "title": "旧书和今天的笔记，谁留下什么",
-          "story": "小伙伴在今天的图书馆看旧书。旁边的人正在做研究笔记：旧书保留以前的文字，今天的笔记记录现在的理解。两种记录不是同一时代。",
-          "question": "哪本书是从以前保存下来的？",
-          "feedback": "旧书与今天的研究，各有时间。",
-          "wrongFeedback": "再看看展柜与正在书写的地方。",
-          "narration": "哪本书是从以前保存下来的？",
-          "displayText": "小伙伴在今天的图书馆看旧书。旁边的人正在做研究笔记：旧书保留以前的文字，今天的笔记记录现在的理解。两种记录不是同一时代。",
-          "beat": "小伙伴在今天的图书馆看旧书。",
+          "title": "看看火药在古代有哪些不同用途",
+          "story": "展厅画板把两种历史用途放在一起：左边是古书记录与城楼发射信号火箭，右边是夜晚街市远远观赏节庆烟火。我们只认识历史用途，绝不模仿点火。",
+          "question": "哪一边表示古书与军事信号用途？",
+          "feedback": "从军事信号到节庆烟火，同一技术后来有了不同用途。",
+          "wrongFeedback": "分清左边白天的城楼信号与右边夜晚的节庆烟火。",
+          "narration": "左边画板是古书与城楼信号火箭，右边是夜晚街市远看节庆烟火。哪一边表示古书与军事信号用途？",
+          "displayText": "展厅画板把两种历史用途放在一起：左边是古书记录与城楼发射信号火箭，右边是夜晚街市远远观赏节庆烟火。我们只认识历史用途，绝不模仿点火。",
+          "beat": "火药在宋代既见于军事与信号记载，后来也用于节庆烟火观赏。",
           "sourceIds": [
-            "JJ-ZENG-WUJING-HISTORY",
-            "NLC-WUJING-MING-SCAN"
+            "CAS-FOUR-GREAT-INVENTIONS",
+            "CAS-IHNS-ANCIENT-ROCKETS",
+            "JJ-ZENG-WUJING-HISTORY"
           ],
           "visual": {
             "kind": "sequence",
             "items": [
               {
-                "icon": "book",
-                "label": "旧书和今天的笔记，谁留下什么"
+                "icon": "fire",
+                "label": "军事信号与节庆烟火不同用途"
               }
             ]
           },
           "options": [],
           "narrative": {
             "scene": "detail",
-            "caption": "旧书和今天的笔记，谁留下什么",
-            "speaker": "小伙伴",
-            "responseSpeaker": "小伙伴",
-            "response": "旧书与今天的研究，各有时间。",
-            "retry": "再看看展柜与正在书写的地方。",
+            "caption": "军事信号与节庆烟火展板",
+            "speaker": "讲解员",
+            "responseSpeaker": "小禾",
+            "response": "左边记着军事与信号用途，右边是后来远远观赏的节庆烟火。",
+            "retry": "看看左边白天的城楼画卷和右边亮灯的夜空。",
             "nextLabel": "宋代编书，明代又刻印",
             "kind": "fictional-guide-scene"
           },
           "interaction": {
             "kind": "scene-find",
-            "hint": "听听问题，看看图里的线索。",
+            "hint": "点一点展板左右两边对应的画面。",
             "hotspots": [
               {
-                "id": "old",
-                "label": "展柜里的旧书",
-                "x": 0.055,
-                "y": 0.555,
-                "width": 0.325,
-                "height": 0.23
+                "id": "military-signal",
+                "label": "古书画卷与城楼信号火箭",
+                "x": 0.03,
+                "y": 0.09,
+                "width": 0.46,
+                "height": 0.46
               },
               {
-                "id": "note",
-                "label": "今天做研究笔记的地方",
-                "x": 0.62,
-                "y": 0.64,
-                "width": 0.34,
-                "height": 0.15
+                "id": "festival-fireworks",
+                "label": "夜晚街市远望节庆烟火",
+                "x": 0.51,
+                "y": 0.09,
+                "width": 0.46,
+                "height": 0.46
               }
             ],
             "rounds": [
               {
-                "id": "old",
-                "question": "哪本书是从以前保存下来的？",
-                "targetId": "old",
-                "feedback": "展柜里的旧书，保留以前流传的内容。",
-                "retry": "这是今天的笔记，再看看展柜。",
-                "nextLabel": "再找今天的研究记录"
+                "id": "military-signal",
+                "question": "哪一边在讲古书与军事信号用途？",
+                "targetId": "military-signal",
+                "feedback": "左边画卷与城楼火箭，表示军事和信号用途。",
+                "retry": "右边是节庆夜空烟火，再看左边白天的城楼。",
+                "nextLabel": "再找节庆夜空里的烟火"
               },
               {
-                "id": "note",
-                "question": "今天的人正在哪里写研究笔记？",
-                "targetId": "note",
-                "feedback": "这份笔记记下今天的观察与理解。",
-                "retry": "旧书是以前留下的，再找正在写字的手。",
+                "id": "festival-fireworks",
+                "question": "后来用于节庆夜空的烟火在哪边？",
+                "targetId": "festival-fireworks",
+                "feedback": "右边夜空里的烟火是节庆用途，只能远远欣赏。",
+                "retry": "左边是城楼信号，再看右边挂灯笼的夜晚街市。",
                 "nextLabel": "把两个时间点分清楚"
               }
             ],
             "imageLabel": "故事插画",
             "sceneAspectRatio": 1.5
           },
-          "visualAssetId": "song-books-museum-v1"
+          "visualAssetId": "song-gunpowder-uses-v1"
         },
         {
           "title": "宋代编书，明代又刻印",
@@ -11445,7 +13259,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "song-books-museum-v1"
+          "visualAssetId": "song-gunpowder-uses-v1"
         }
       ],
       "finish": {
@@ -11466,8 +13280,8 @@
       "photoSteps": [],
       "presentation": {
         "kind": "object-workbench",
-        "sceneAssetId": "song-books-museum-v1",
-        "sceneAlt": "古书怎样留下火药的历史？的儿童故事插画",
+        "sceneAssetId": "song-gunpowder-uses-v1",
+        "sceneAlt": "博物馆展厅：讲解员与三位小伙伴观看宋代古书与军事信号火箭、夜晚街市节庆烟火两幅历史用途展板",
         "title": "火药用在哪里，古书留下什么？",
         "evidenceTitle": "《武经总要》· 后世刻本封面",
         "evidenceLine": "真实材料与故事插画分别看。",
@@ -11483,21 +13297,22 @@
         "sceneAspectRatio": 1.5,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "song-friends-reunion-v2",
-          "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
-          "reunionAspectRatio": 1.82,
+          "reunionAssetId": "song-tech-reunion-v1",
+          "reunionAlt": "讲解员与三位小伙伴翻看指南针、活字与烟火总结手账，现代教学插画",
+          "reunionAspectRatio": 1.5,
           "coverCaption": "古书怎样留下火药的历史？",
           "coverNarration": "古代人逐渐探索火药，把它用于一些兵器。小伙伴在古书中寻找线索：火药的用途，和指南针、印刷一样吗？",
           "closingCaption": "带着发现回家",
           "closingNarration": "火药知识经过长期探索，北宋军事书留下应用记录，后来还有烟火等用途。编书、发明与后世刻印是不同事情，不能压成同一天。",
           "closingLine": "技术慢慢发展，记录各有年代。",
-          "fictionNote": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。"
+          "fictionNote": "儿童看的是明刻本封面，不是1044年原纸或配方页。展厅画板与总结手账是现代教学插画，安全展示军事信号与节庆烟火等不同历史用途，不展示配比、混合、点火或武器操作。",
+          "reunionFit": "contain"
         }
       },
       "coverAssetId": "wujing-ming-cover",
       "entry": {
         "object": "《武经总要》· 后世刻本封面",
-        "place": "北宋编书、明代刻印；今天的图书馆",
+        "place": "北宋编书、明代刻印；今天的博物馆展厅",
         "culture": "《武经总要》编成与后印"
       },
       "coverDisplay": {
@@ -12526,7 +14341,13 @@
             "framing": "object",
             "displayHeight": 330,
             "openAlbum": true
-          }
+          },
+          "concepts": [
+            {
+              "term": "驿站",
+              "meaning": "古代大路上每隔一段设的换马送信休息站"
+            }
+          ]
         },
         {
           "title": "送消息，也要准备下一程",
@@ -13466,7 +15287,13 @@
             ],
             "framing": "object",
             "displayHeight": 335
-          }
+          },
+          "concepts": [
+            {
+              "term": "船队",
+              "meaning": "许多艘大船分工配合、一起出海远航的队伍"
+            }
+          ]
         },
         {
           "title": "远航不只是把船开出去",
@@ -14342,7 +16169,17 @@
             "framing": "object",
             "displayHeight": 290,
             "openAlbum": true
-          }
+          },
+          "concepts": [
+            {
+              "term": "故宫",
+              "meaning": "北京城中心明清两代皇帝居住和办公的宫殿群"
+            },
+            {
+              "term": "琉璃瓦",
+              "meaning": "表面烧有一层发亮彩色釉的宫殿屋顶瓦片"
+            }
+          ]
         },
         {
           "title": "先看小兽的两种意义",
@@ -16565,7 +18402,17 @@
             ],
             "framing": "object",
             "displayHeight": 320
-          }
+          },
+          "concepts": [
+            {
+              "term": "竹简",
+              "meaning": "纸出现以前，古人削平用来写字的竹片"
+            },
+            {
+              "term": "论语",
+              "meaning": "孔子的学生和后人把他的话整理成的书"
+            }
+          ]
         },
         {
           "title": "先学一句待人的话",
@@ -17075,7 +18922,13 @@
             "framing": "object",
             "displayHeight": 290
           },
-          "visualAssetId": "qin-terracotta-visit-v1"
+          "visualAssetId": "qin-terracotta-visit-v1",
+          "concepts": [
+            {
+              "term": "兵马俑",
+              "meaning": "陪葬在秦始皇陵旁、跟真人差不多高的陶土兵马"
+            }
+          ]
         },
         {
           "title": "先弄清它为什么在这里",
@@ -19635,7 +21488,13 @@
             "framing": "object",
             "displayHeight": 290
           },
-          "visualAssetId": "han-lamp-observation-v1"
+          "visualAssetId": "han-lamp-observation-v1",
+          "concepts": [
+            {
+              "term": "宫灯",
+              "meaning": "古代宫殿或屋里点亮照明的精致灯具"
+            }
+          ]
         },
         {
           "title": "灯盘和袖管各在哪里",
@@ -20071,7 +21930,7 @@
         "NMC-SIMA-QIAN-RESEARCH"
       ],
       "anchor": "司马迁与《史记》",
-      "boundary": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。 资料室读书与画想象图是现代学习情境；访问记录属于待核对的材料，不把流传故事自动当作已经证实的事实。",
+      "boundary": "书影是明刊本，不是司马迁手稿。现代阅览室里由现代讲解员陪伴共学；桌上的竹简复制品与两张人物画片是今天的学习道具，不是古人写真。访问记录属于待核对材料，不把流传故事直接当作已证实的事实。",
       "coverAssetId": "shiji-ming-edition",
       "coverDisplay": {
         "label": "明刊《史记》· 后世书影",
@@ -20194,16 +22053,26 @@
             "framing": "object",
             "displayHeight": 290
           },
-          "visualAssetId": "han-shiji-reading-v1"
+          "visualAssetId": "sima-qian-study-v2",
+          "concepts": [
+            {
+              "term": "史书",
+              "meaning": "专门把过去真实发生的人和事记下来的书"
+            },
+            {
+              "term": "刊本",
+              "meaning": "后人刻版印刷流传下来的书本"
+            }
+          ]
         },
         {
           "title": "没见过古人，还能找材料",
-          "story": "司马迁读史籍，也游历许多地方，考察风俗、搜集流传的故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。今天的小伙伴也来学着找材料。",
+          "story": "司马迁是西汉史学家。他读前人留下的竹简史籍，也去孔子家乡等许多地方考察风俗、搜集故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。",
           "question": "写过去的事，要去找哪些材料？",
           "feedback": "书可以记过去，作者不必和书里的人同时。",
           "wrongFeedback": "人物的时代要分别核对。",
-          "narration": "司马迁读史籍、游历和搜集故事，研究比自己更早的人。",
-          "displayText": "司马迁读史籍，也游历许多地方，考察风俗、搜集流传的故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。今天的小伙伴也来学着找材料。",
+          "narration": "司马迁在西汉读竹简旧书，还去孔子家乡等地考察搜集材料，研究比自己更早的人。",
+          "displayText": "司马迁是西汉史学家。他读前人留下的竹简史籍，也去孔子家乡等许多地方考察风俗、搜集故事。孔子生活在更早的春秋；写进同一本书，不表示作者亲眼见过他。",
           "beat": "司马迁读史籍、游历和搜集故事，研究更早的人。写进同一本书，不表示亲眼见过。",
           "sourceIds": [
             "NLC-SHIJI-EDITIONS",
@@ -20235,7 +22104,13 @@
             "hint": "听清故事，再看看眼前的线索。",
             "continueLabel": "为两位人物找对应的图卡"
           },
-          "visualAssetId": "han-shiji-reading-v1"
+          "visualAssetId": "sima-qian-study-v2",
+          "concepts": [
+            {
+              "term": "竹简",
+              "meaning": "纸还不普遍时，古人写字用的细竹片"
+            }
+          ]
         },
         {
           "title": "先找已经留下的材料",
@@ -20328,7 +22203,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "han-shiji-reading-v1"
+          "visualAssetId": "sima-qian-study-v2"
         },
         {
           "title": "书里的人与写书的人分开",
@@ -20460,7 +22335,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "han-shiji-reading-v1"
+          "visualAssetId": "sima-qian-study-v2"
         },
         {
           "title": "后人继续让记录传下来",
@@ -20560,7 +22435,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "han-shiji-reading-v1"
+          "visualAssetId": "sima-qian-study-v2"
         }
       ],
       "finish": {
@@ -20577,8 +22452,8 @@
       },
       "presentation": {
         "kind": "object-workbench",
-        "sceneAssetId": "han-shiji-reading-v1",
-        "sceneAlt": "今天的历史小剧场：古装讲解员与三位现代小伙伴用新画图卡做人物书签",
+        "sceneAssetId": "sima-qian-study-v2",
+        "sceneAlt": "现代博物馆阅览室：讲解员陪伴三位小伙伴观察竹简复制品、考察记录本与春秋孔子、西汉司马迁两张时代画片",
         "title": "司马迁怎样把过去的事留下来？",
         "evidenceTitle": "明刊《史记》· 后世书影",
         "evidenceLine": "真材料的年代和身份可以在大图里查看。",
@@ -20594,8 +22469,8 @@
         "sceneAspectRatio": 1.5,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "han-shiji-reading-v1",
-          "reunionAlt": "三位小伙伴回看司马迁怎样把过去的事留下来？的线索，现代教学插画",
+          "reunionAssetId": "sima-qian-study-v2",
+          "reunionAlt": "讲解员与三位小伙伴在阅览室回看竹简复制品与人物时代画片，现代教学插画",
           "reunionAspectRatio": 1.5,
           "reunionFit": "contain",
           "coverCaption": "司马迁怎样把过去的事留下来？",
@@ -20603,7 +22478,7 @@
           "closingCaption": "写历史，要去找材料。",
           "closingLine": "写历史，要去找材料。",
           "closingNarration": "西汉司马迁阅读史籍、游历并搜集材料，把不同时代的人和事写进《史记》。后人继续注释和刊印；写更早的人，不等于亲眼见过他们。",
-          "fictionNote": "书影是明刊本，不是司马迁手稿。画片是今天的学习道具，不是古代肖像；与孩子同桌的古装讲解员属于现代小剧场，不是司马迁本人。做人物书签是今天的阅读练习，不冒称古代编书流程。 资料室读书与画想象图是现代学习情境；访问记录属于待核对的材料，不把流传故事自动当作已经证实的事实。"
+          "fictionNote": "书影是明刊本，不是司马迁手稿。现代阅览室里由现代讲解员陪伴共学；桌上的竹简复制品与两张人物画片是今天的学习道具，不是古人写真。访问记录属于待核对材料，不把流传故事直接当作已证实的事实。"
         }
       }
     },
@@ -21753,7 +23628,7 @@
             "kind": "timeline",
             "hint": "先听故事，再看看画里的线索。"
           },
-          "visualAssetId": "chunxiao-story-v1",
+          "visualAssetId": "chunxiao-main-scene-v1",
           "inspection": {
             "assetId": "meng-haoran-rubbing-princeton",
             "title": "孟浩然后世拓像",
@@ -21811,7 +23686,7 @@
             "hint": "先听故事，再看看画里的线索。",
             "continueLabel": "去图里找线索"
           },
-          "visualAssetId": "chunxiao-story-v1"
+          "visualAssetId": "chunxiao-main-scene-v1"
         },
         {
           "title": "鸟鸣在耳边，春花在心里",
@@ -21987,7 +23862,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "chunxiao-story-v1"
+          "visualAssetId": "chunxiao-main-scene-v1"
         },
         {
           "title": "一句问话，藏着牵挂",
@@ -22078,7 +23953,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "chunxiao-story-v1"
+          "visualAssetId": "chunxiao-main-scene-v1"
         }
       ],
       "coverAssetId": "meng-haoran-rubbing-princeton",
@@ -22117,7 +23992,7 @@
       },
       "presentation": {
         "kind": "object-workbench",
-        "sceneAssetId": "chunxiao-story-v1",
+        "sceneAssetId": "chunxiao-main-scene-v1",
         "sceneAlt": "跟孟浩然听春天的早晨 · 现代读诗想象分镜",
         "title": "跟孟浩然听春天的早晨",
         "evidenceTitle": "孟浩然后世拓像",
@@ -22134,7 +24009,7 @@
         "sceneAspectRatio": 1.5,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "chunxiao-story-v1",
+          "reunionAssetId": "chunxiao-main-scene-v1",
           "reunionAlt": "跟孟浩然听春天的早晨 · 小伙伴读诗分镜",
           "reunionAspectRatio": 1.5,
           "reunionFit": "contain",
@@ -22235,7 +24110,7 @@
             "kind": "timeline",
             "hint": "先听故事，再看看画里的线索。"
           },
-          "visualAssetId": "tower-story-v1",
+          "visualAssetId": "tower-main-scene-v1",
           "inspection": {
             "assetId": "guanque-tower-2020",
             "title": "现代重建的鹳雀楼照片",
@@ -22254,7 +24129,17 @@
             ],
             "framing": "object",
             "displayHeight": 290
-          }
+          },
+          "concepts": [
+            {
+              "term": "黄河",
+              "meaning": "流经中国北方、奔向大海的著名大河"
+            },
+            {
+              "term": "鹳雀楼",
+              "meaning": "唐代黄河边一座可以登高远望的三层高楼"
+            }
+          ]
         },
         {
           "title": "先听完整的《登鹳雀楼》",
@@ -22293,7 +24178,7 @@
             "hint": "先听故事，再看看画里的线索。",
             "continueLabel": "去图里找线索"
           },
-          "visualAssetId": "tower-story-v1"
+          "visualAssetId": "tower-main-scene-v1"
         },
         {
           "title": "落日与黄河在画里",
@@ -22469,7 +24354,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "tower-story-v1"
+          "visualAssetId": "tower-main-scene-v1"
         },
         {
           "title": "河面为什么看得更多了",
@@ -22560,7 +24445,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "tower-story-v1"
+          "visualAssetId": "tower-main-scene-v1"
         }
       ],
       "coverAssetId": "guanque-tower-2020",
@@ -22591,7 +24476,7 @@
       },
       "presentation": {
         "kind": "object-workbench",
-        "sceneAssetId": "tower-story-v1",
+        "sceneAssetId": "tower-main-scene-v1",
         "sceneAlt": "跟王之涣更上一层楼 · 现代读诗想象分镜",
         "title": "跟王之涣更上一层楼",
         "evidenceTitle": "现代重建的鹳雀楼照片",
@@ -22608,7 +24493,7 @@
         "sceneAspectRatio": 1.5,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "tower-story-v1",
+          "reunionAssetId": "tower-main-scene-v1",
           "reunionAlt": "跟王之涣更上一层楼 · 小伙伴读诗分镜",
           "reunionAspectRatio": 1.5,
           "reunionFit": "contain",
@@ -22727,6 +24612,7 @@
           },
           "interaction": {
             "kind": "timeline",
+            "worldTimeStop": "四千多年前",
             "hint": "先听故事，再看看图里的线索。"
           },
           "inspection": {
@@ -23219,6 +25105,7 @@
           },
           "interaction": {
             "kind": "timeline",
+            "worldTimeStop": "两千多年前",
             "hint": "先听故事，再看看图里的线索。"
           },
           "inspection": {
@@ -23799,7 +25686,7 @@
             "hint": "先听故事，再看看画里的线索。",
             "continueLabel": "去找诗里的线索"
           },
-          "visualAssetId": "yuanri-story-v1"
+          "visualAssetId": "yuanri-main-scene-v1"
         },
         {
           "title": "门上的新与旧",
@@ -23890,7 +25777,17 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "yuanri-story-v1"
+          "visualAssetId": "yuanri-main-scene-v1",
+          "concepts": [
+            {
+              "term": "桃符",
+              "meaning": "古人过年挂在门旁写吉祥愿望的桃木板"
+            },
+            {
+              "term": "爆竹与屠苏",
+              "meaning": "过年响竹声与迎春饮用的屠苏酒旧俗"
+            }
+          ]
         },
         {
           "title": "把迎新的经过连起来",
@@ -24017,7 +25914,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "yuanri-story-v1"
+          "visualAssetId": "yuanri-main-scene-v1"
         },
         {
           "title": "新年早晨的光",
@@ -24108,7 +26005,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "yuanri-story-v1"
+          "visualAssetId": "yuanri-main-scene-v1"
         }
       ],
       "coverAssetId": "wang-anshi-later-portrait",
@@ -24139,7 +26036,7 @@
       },
       "presentation": {
         "kind": "object-workbench",
-        "sceneAssetId": "yuanri-story-v1",
+        "sceneAssetId": "yuanri-main-scene-v1",
         "sceneAlt": "跟王安石迎接新的一年 · 读诗想象",
         "title": "跟王安石迎接新的一年",
         "evidenceTitle": "王安石 · 后世画像",
@@ -24156,7 +26053,7 @@
         "sceneAspectRatio": 1.5,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "yuanri-story-v1",
+          "reunionAssetId": "yuanri-main-scene-v1",
           "reunionAlt": "小伙伴回看读诗情境",
           "reunionAspectRatio": 1.5,
           "reunionFit": "contain",
@@ -24312,7 +26209,7 @@
             "hint": "先听故事，再看看画里的线索。",
             "continueLabel": "去找诗里的线索"
           },
-          "visualAssetId": "xilin-story-v1"
+          "visualAssetId": "xilin-main-scene-v1"
         },
         {
           "title": "从横看，到侧看",
@@ -24403,7 +26300,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "xilin-story-v1"
+          "visualAssetId": "xilin-main-scene-v1"
         },
         {
           "title": "在山里，视线被挡住了",
@@ -24494,7 +26391,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "xilin-story-v1"
+          "visualAssetId": "xilin-main-scene-v1"
         },
         {
           "title": "再添一个看山的位置",
@@ -24585,7 +26482,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "xilin-story-v1"
+          "visualAssetId": "xilin-main-scene-v1"
         }
       ],
       "coverAssetId": "lushan-mountain-2018-photo",
@@ -24617,7 +26514,7 @@
       },
       "presentation": {
         "kind": "object-workbench",
-        "sceneAssetId": "xilin-story-v1",
+        "sceneAssetId": "xilin-main-scene-v1",
         "sceneAlt": "跟苏轼换个地方看山 · 读诗想象",
         "title": "跟苏轼换个地方看山",
         "evidenceTitle": "苏轼像 · 元代赵孟頫绘",
@@ -24634,7 +26531,7 @@
         "sceneAspectRatio": 1.5,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "xilin-story-v1",
+          "reunionAssetId": "xilin-main-scene-v1",
           "reunionAlt": "小伙伴回看读诗情境",
           "reunionAspectRatio": 1.5,
           "reunionFit": "contain",
@@ -24796,7 +26693,7 @@
             "hint": "先听故事，再看看画里的线索。",
             "continueLabel": "去找诗里的线索"
           },
-          "visualAssetId": "xiaochi-story-v1"
+          "visualAssetId": "xiaochi-main-scene-v1"
         },
         {
           "title": "尖尖角是嫩荷叶",
@@ -24887,7 +26784,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "xiaochi-story-v1"
+          "visualAssetId": "xiaochi-main-scene-v1"
         },
         {
           "title": "蜻蜓停在哪里",
@@ -24978,7 +26875,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "xiaochi-story-v1"
+          "visualAssetId": "xiaochi-main-scene-v1"
         },
         {
           "title": "泉水也在诗里",
@@ -25085,7 +26982,7 @@
       },
       "presentation": {
         "kind": "object-workbench",
-        "sceneAssetId": "xiaochi-story-v1",
+        "sceneAssetId": "xiaochi-main-scene-v1",
         "sceneAlt": "跟杨万里发现小池的生机 · 读诗想象",
         "title": "跟杨万里发现小池的生机",
         "evidenceTitle": "《诚斋集》后世抄本书影",
@@ -25102,7 +26999,7 @@
         "sceneAspectRatio": 1.5,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "xiaochi-story-v1",
+          "reunionAssetId": "xiaochi-main-scene-v1",
           "reunionAlt": "小伙伴回看读诗情境",
           "reunionAspectRatio": 1.5,
           "reunionFit": "contain",
@@ -25262,7 +27159,7 @@
             "hint": "先听故事，再看看画里的线索。",
             "continueLabel": "去找诗里的线索"
           },
-          "visualAssetId": "chengda-story-v2"
+          "visualAssetId": "chengda-main-scene-v1"
         },
         {
           "title": "白天和夜里，各忙什么",
@@ -25389,7 +27286,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "chengda-story-v2"
+          "visualAssetId": "chengda-main-scene-v1"
         },
         {
           "title": "童孙在学种瓜",
@@ -25480,7 +27377,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "chengda-story-v2"
+          "visualAssetId": "chengda-main-scene-v1"
         },
         {
           "title": "把好奇带回今天",
@@ -25571,7 +27468,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "chengda-story-v2"
+          "visualAssetId": "chengda-main-scene-v1"
         }
       ],
       "coverAssetId": "fan-chengda-shihu-page",
@@ -25602,7 +27499,7 @@
       },
       "presentation": {
         "kind": "object-workbench",
-        "sceneAssetId": "chengda-story-v2",
+        "sceneAssetId": "chengda-main-scene-v1",
         "sceneAlt": "跟范成大看看田园里的人 · 读诗想象",
         "title": "跟范成大看看田园里的人",
         "evidenceTitle": "《石湖诗集》· 后世印本",
@@ -25619,7 +27516,7 @@
         "sceneAspectRatio": 1.5,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "chengda-story-v2",
+          "reunionAssetId": "chengda-main-scene-v1",
           "reunionAlt": "小伙伴回看读诗情境",
           "reunionAspectRatio": 1.5,
           "reunionFit": "contain",
@@ -25722,7 +27619,7 @@
             "kind": "timeline",
             "hint": "先听故事，再看看画里的线索。"
           },
-          "visualAssetId": "rooster-story-v1",
+          "visualAssetId": "rooster-main-scene-v1",
           "inspection": {
             "assetId": "tang-yin-portrait-1743",
             "title": "唐寅像 · 清代1743年后世画像",
@@ -25785,7 +27682,7 @@
             "hint": "先听故事，再看看画里的线索。",
             "continueLabel": "去图里找线索"
           },
-          "visualAssetId": "rooster-story-v1"
+          "visualAssetId": "rooster-main-scene-v1"
         },
         {
           "title": "听诗里的公鸡开口",
@@ -25877,7 +27774,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "rooster-story-v1"
+          "visualAssetId": "rooster-main-scene-v1"
         },
         {
           "title": "千门万户里有什么",
@@ -25969,7 +27866,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "rooster-story-v1"
+          "visualAssetId": "rooster-main-scene-v1"
         },
         {
           "title": "画和诗一起讲故事",
@@ -26078,7 +27975,7 @@
       },
       "presentation": {
         "kind": "object-workbench",
-        "sceneAssetId": "rooster-story-v1",
+        "sceneAssetId": "rooster-main-scene-v1",
         "sceneAlt": "唐寅的公鸡怎样在诗里叫起来 · 现代读诗情境",
         "title": "唐寅的公鸡怎样在诗里叫起来",
         "evidenceTitle": "唐寅像 · 清代后世画像",
@@ -26095,7 +27992,7 @@
         "sceneAspectRatio": 1.5,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "rooster-story-v1",
+          "reunionAssetId": "rooster-main-scene-v1",
           "reunionAlt": "唐寅的公鸡怎样在诗里叫起来 · 小伙伴读诗",
           "reunionAspectRatio": 1.5,
           "reunionFit": "contain",
@@ -26194,7 +28091,7 @@
             "kind": "timeline",
             "hint": "先听故事，再看看画里的线索。"
           },
-          "visualAssetId": "garden-story-v1",
+          "visualAssetId": "garden-main-scene-v1",
           "inspection": {
             "assetId": "wen-banana-painting-1551",
             "title": "《芭蕉槛》画页 · 明代1551年",
@@ -26247,7 +28144,7 @@
             "hint": "先听故事，再看看画里的线索。",
             "continueLabel": "去图里找线索"
           },
-          "visualAssetId": "garden-story-v1",
+          "visualAssetId": "garden-main-scene-v1",
           "inspection": {
             "assetId": "wen-banana-poem-1551",
             "title": "《芭蕉槛》诗页原迹",
@@ -26352,7 +28249,17 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "garden-story-v1"
+          "visualAssetId": "garden-main-scene-v1",
+          "concepts": [
+            {
+              "term": "芭蕉",
+              "meaning": "院子里长着宽大绿叶的植物，雨滴打上去沙沙响"
+            },
+            {
+              "term": "槛",
+              "meaning": "园林走廊或窗边的木栏杆"
+            }
+          ]
         },
         {
           "title": "看得见的叶子与感觉到的凉",
@@ -26442,7 +28349,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "garden-story-v1"
+          "visualAssetId": "garden-main-scene-v1"
         },
         {
           "title": "留下芭蕉的绿荫",
@@ -26532,7 +28439,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "garden-story-v1"
+          "visualAssetId": "garden-main-scene-v1"
         }
       ],
       "coverAssetId": "wen-banana-painting-1551",
@@ -26564,7 +28471,7 @@
       },
       "presentation": {
         "kind": "object-workbench",
-        "sceneAssetId": "garden-story-v1",
+        "sceneAssetId": "garden-main-scene-v1",
         "sceneAlt": "文徵明的园林画里能听见什么 · 现代读诗情境",
         "title": "文徵明的园林画里能听见什么",
         "evidenceTitle": "《芭蕉槛》画页 · 明1551年",
@@ -26581,7 +28488,7 @@
         "sceneAspectRatio": 1.5,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "garden-story-v1",
+          "reunionAssetId": "garden-main-scene-v1",
           "reunionAlt": "文徵明的园林画里能听见什么 · 小伙伴读诗",
           "reunionAspectRatio": 1.5,
           "reunionFit": "contain",
@@ -26684,7 +28591,7 @@
             "kind": "timeline",
             "hint": "先听故事，再看看画里的线索。"
           },
-          "visualAssetId": "lime-story-v1",
+          "visualAssetId": "lime-main-scene-v1",
           "inspection": {
             "assetId": "yu-qian-portrait-gu-jianlong",
             "title": "于谦像 · 清代顾见龙绘",
@@ -26747,7 +28654,7 @@
             "hint": "先听故事，再看看画里的线索。",
             "continueLabel": "去图里找线索"
           },
-          "visualAssetId": "lime-story-v1"
+          "visualAssetId": "lime-main-scene-v1"
         },
         {
           "title": "先认清诗里的物",
@@ -26839,7 +28746,17 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "lime-story-v1"
+          "visualAssetId": "lime-main-scene-v1",
+          "concepts": [
+            {
+              "term": "石灰",
+              "meaning": "山石烧制后能把墙壁刷得雪白的材料"
+            },
+            {
+              "term": "清白",
+              "meaning": "既指墙壁雪白，也比喻做人诚实正直"
+            }
+          ]
         },
         {
           "title": "清白还可以说人的做法",
@@ -26931,7 +28848,7 @@
             "selectionFraming": "detail",
             "choiceArt": "illustrated"
           },
-          "visualAssetId": "lime-story-v1"
+          "visualAssetId": "lime-main-scene-v1"
         },
         {
           "title": "把两层意思分开",
@@ -27040,7 +28957,7 @@
       },
       "presentation": {
         "kind": "object-workbench",
-        "sceneAssetId": "lime-story-v1",
+        "sceneAssetId": "lime-main-scene-v1",
         "sceneAlt": "于谦诗里的清白是什么意思 · 现代读诗情境",
         "title": "于谦诗里的清白是什么意思",
         "evidenceTitle": "于谦像 · 清代后世画像",
@@ -27057,7 +28974,7 @@
         "sceneAspectRatio": 1.5,
         "story": {
           "kind": "travel-story",
-          "reunionAssetId": "lime-story-v1",
+          "reunionAssetId": "lime-main-scene-v1",
           "reunionAlt": "于谦诗里的清白是什么意思 · 小伙伴读诗",
           "reunionAspectRatio": 1.5,
           "reunionFit": "contain",
@@ -27170,6 +29087,7 @@
           },
           "interaction": {
             "kind": "timeline",
+            "worldTimeStop": "四千多年前",
             "hint": "听故事，再从画面里找线索。"
           },
           "inspection": {
@@ -27656,6 +29574,7 @@
           },
           "interaction": {
             "kind": "timeline",
+            "worldTimeStop": "两千多年前",
             "hint": "听故事，再从画面里找线索。"
           },
           "inspection": {
@@ -28154,6 +30073,7 @@
           },
           "interaction": {
             "kind": "timeline",
+            "worldTimeStop": "六百多年前",
             "hint": "听故事，再从画面里找线索。"
           },
           "inspection": {
@@ -28650,6 +30570,7 @@
           },
           "interaction": {
             "kind": "timeline",
+            "worldTimeStop": "大约九百年前",
             "hint": "听故事，再从画面里找线索。"
           },
           "inspection": {

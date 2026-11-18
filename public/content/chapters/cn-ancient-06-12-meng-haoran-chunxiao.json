@@ -272,7 +272,7 @@
     },
     "presentation": {
       "kind": "object-workbench",
-      "sceneAssetId": "chunxiao-story-v1",
+      "sceneAssetId": "chunxiao-main-scene-v1",
       "sceneAlt": "跟孟浩然听春天的早晨 · 现代读诗想象分镜",
       "title": "跟孟浩然听春天的早晨",
       "evidenceTitle": "孟浩然后世拓像",
@@ -289,7 +289,7 @@
       "sceneAspectRatio": 1.5,
       "story": {
         "kind": "travel-story",
-        "reunionAssetId": "chunxiao-story-v1",
+        "reunionAssetId": "chunxiao-main-scene-v1",
         "reunionAlt": "跟孟浩然听春天的早晨 · 小伙伴读诗分镜",
         "reunionAspectRatio": 1.5,
         "reunionFit": "contain",
@@ -299,7 +299,7 @@
         "closingLine": "诗句里有景色，也有心里的想法。",
         "closingNarration": "孟浩然在《春晓》中，从清晨鸟鸣想到昨夜风雨，再牵挂春花。诗把听见的声音和心里的想象连在一起，没有告诉我们落花的数目。",
         "fictionNote": "拓像来自1888年刻石，拓印晚于唐代，不是孟浩然生前写真。故事图是今天读诗的想象，不确定作诗年月、地点或落花数量；孩子喜不喜欢雨天不判对错。画中三位小伙伴是现代虚构儿童，不是孟浩然。",
-        "reunionImage": "/content/step-images/chunxiao-story-v1.jpg",
+        "reunionImage": "/content/step-images/chunxiao-main-scene-v1.jpg",
         "stationLine": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。",
         "stationAudio": {
           "id": "quest-a249391b3ff41a8f",
@@ -310,7 +310,7 @@
           "text": "孟浩然在《春晓》中，从清晨鸟鸣想到昨夜风雨，再牵挂春花。诗把听见的声音和心里的想象连在一起，没有告诉我们落花的数目。"
         }
       },
-      "sceneImage": "/content/step-images/chunxiao-story-v1.jpg",
+      "sceneImage": "/content/step-images/chunxiao-main-scene-v1.jpg",
       "evidenceAudio": {
         "id": "quest-80bbf3fcc8318de8",
         "text": "这是后人做的孟浩然像。刻石作于1888年，拓印还要晚一些；孟浩然本人生活在更早的唐朝，不能把拓像当作他的生前照片。"
@@ -321,21 +321,36 @@
       }
     },
     "sceneAsset": {
-      "id": "chunxiao-story-v1",
-      "title": "跟孟浩然听春天的早晨 · 四幅现代读诗情境",
-      "localPath": "reference-assets/poetry-world-poetry/chunxiao-story-v1.png",
+      "id": "chunxiao-main-scene-v1",
+      "title": "《春晓》雨后春晨听鸟看落花 · 单景读诗插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/chunxiao-main-scene-v2.png",
       "runtimeMaxEdge": 1536,
       "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
-      "licensePath": "reference-assets/poetry-world-poetry/ATTRIBUTION.md",
-      "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
       "clearance": "cleared-project-created",
-      "caption": "现代读诗想象，不是历史现场或精确建筑复原",
-      "boundary": "拓像来自1888年刻石，拓印晚于唐代，不是孟浩然生前写真。故事图是今天读诗的想象，不确定作诗年月、地点或落花数量；孩子喜不喜欢雨天不判对错。画中三位小伙伴是现代虚构儿童，不是孟浩然。",
+      "caption": "现代读诗情境插画，不是唐代现场",
+      "boundary": "现代读诗情境插画，帮助感受雨后清晨听鸟鸣与看落花的诗意，不是孟浩然住所复原。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/chunxiao-story-v1.jpg"
+      "image": "/content/step-images/chunxiao-main-scene-v1.jpg"
     },
     "narrativeAssets": [
+      {
+        "id": "chunxiao-main-scene-v1",
+        "title": "《春晓》雨后春晨听鸟看落花 · 单景读诗插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/chunxiao-main-scene-v2.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
+        "clearance": "cleared-project-created",
+        "caption": "现代读诗情境插画，不是唐代现场",
+        "boundary": "现代读诗情境插画，帮助感受雨后清晨听鸟鸣与看落花的诗意，不是孟浩然住所复原。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/chunxiao-main-scene-v1.jpg"
+      },
       {
         "id": "chunxiao-story-v1",
         "title": "跟孟浩然听春天的早晨 · 四幅现代读诗情境",
@@ -476,13 +491,13 @@
           "displayText": "孟浩然是唐朝诗人，爱写山水和田园。这张像是很久以后的拓像。今天听他的《春晓》，认识诗里声音和牵挂。",
           "narration": "孟浩然是唐朝诗人，爱写山水和田园。这张像是很久以后的拓像。今天听他的《春晓》，认识诗里声音和牵挂。"
         },
-        "assetId": "chunxiao-story-v1",
-        "image": "/content/step-images/chunxiao-story-v1.jpg",
+        "assetId": "chunxiao-main-scene-v1",
+        "image": "/content/step-images/chunxiao-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-ecdf9e4a3f4d8165.svg",
         "studyImageAlt": "时间定位：去唐朝听诗",
-        "imageAlt": "跟孟浩然听春天的早晨 · 四幅现代读诗情境",
-        "imageCaption": "跟孟浩然听春天的早晨 · 四幅现代读诗情境",
-        "imageBoundary": "拓像来自1888年刻石，拓印晚于唐代，不是孟浩然生前写真。故事图是今天读诗的想象，不确定作诗年月、地点或落花数量；孩子喜不喜欢雨天不判对错。画中三位小伙伴是现代虚构儿童，不是孟浩然。",
+        "imageAlt": "《春晓》雨后春晨听鸟看落花 · 单景读诗插画",
+        "imageCaption": "《春晓》雨后春晨听鸟看落花 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，帮助感受雨后清晨听鸟鸣与看落花的诗意，不是孟浩然住所复原。",
         "audio": {
           "lead": {
             "id": "quest-1f385262950b1611",
@@ -501,8 +516,8 @@
             "text": "要听这位诗人的作品，先到哪一朝？"
           },
           "image": {
-            "id": "quest-5732a4a7e7d7916c",
-            "text": "这张是跟孟浩然听春天的早晨 · 四幅现代读诗情境。孟浩然是唐朝诗人，爱写山水和田园。这张像是很久以后的拓像。今天听他的《春晓》，认识诗里声音和牵挂。"
+            "id": "quest-1a6740ab1d57b932",
+            "text": "这张是《春晓》雨后春晨听鸟看落花 · 单景读诗插画。孟浩然是唐朝诗人，爱写山水和田园。这张像是很久以后的拓像。今天听他的《春晓》，认识诗里声音和牵挂。"
           },
           "right": {
             "id": "quest-867c2d3e62cb7dd7",
@@ -586,13 +601,13 @@
           "displayText": "春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少？诗里的人早晨听见鸟鸣，想起昨夜风雨，又牵挂春花。",
           "narration": "春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少？诗里的人早晨听见鸟鸣，想起昨夜风雨，又牵挂春花。"
         },
-        "assetId": "chunxiao-story-v1",
-        "image": "/content/step-images/chunxiao-story-v1.jpg",
+        "assetId": "chunxiao-main-scene-v1",
+        "image": "/content/step-images/chunxiao-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-d005c97b90f8729f.svg",
         "studyImageAlt": "先听完整的《春晓》",
-        "imageAlt": "跟孟浩然听春天的早晨 · 四幅现代读诗情境",
-        "imageCaption": "跟孟浩然听春天的早晨 · 四幅现代读诗情境",
-        "imageBoundary": "拓像来自1888年刻石，拓印晚于唐代，不是孟浩然生前写真。故事图是今天读诗的想象，不确定作诗年月、地点或落花数量；孩子喜不喜欢雨天不判对错。画中三位小伙伴是现代虚构儿童，不是孟浩然。",
+        "imageAlt": "《春晓》雨后春晨听鸟看落花 · 单景读诗插画",
+        "imageCaption": "《春晓》雨后春晨听鸟看落花 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，帮助感受雨后清晨听鸟鸣与看落花的诗意，不是孟浩然住所复原。",
         "audio": {
           "lead": {
             "id": "quest-96925e087d359703",
@@ -611,8 +626,8 @@
             "text": "听鸟鸣，也听心里的牵挂"
           },
           "image": {
-            "id": "quest-fe3933e923d0713c",
-            "text": "这张是跟孟浩然听春天的早晨 · 四幅现代读诗情境。春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少？诗里的人早晨听见鸟鸣，想起昨夜风雨，又牵挂春花。"
+            "id": "quest-8038df99496dc899",
+            "text": "这张是《春晓》雨后春晨听鸟看落花 · 单景读诗插画。春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少？诗里的人早晨听见鸟鸣，想起昨夜风雨，又牵挂春花。"
           },
           "right": {
             "id": "quest-0db4533e182a5e39",
@@ -811,13 +826,13 @@
           "displayText": "早晨听见鸟鸣，诗人又想到“夜来风雨声”。“夜来”说的是刚过去的夜里。两幅画中，一幅天亮，一幅正在下夜雨。",
           "narration": "早晨听见鸟鸣，诗人又想到“夜来风雨声”。“夜来”说的是刚过去的夜里。两幅画中，一幅天亮，一幅正在下夜雨。"
         },
-        "assetId": "chunxiao-story-v1",
-        "image": "/content/step-images/chunxiao-story-v1.jpg",
+        "assetId": "chunxiao-main-scene-v1",
+        "image": "/content/step-images/chunxiao-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-c83abc166648d1a1.svg",
         "studyImageAlt": "诗里回想的是哪一晚",
-        "imageAlt": "跟孟浩然听春天的早晨 · 四幅现代读诗情境",
-        "imageCaption": "跟孟浩然听春天的早晨 · 四幅现代读诗情境",
-        "imageBoundary": "拓像来自1888年刻石，拓印晚于唐代，不是孟浩然生前写真。故事图是今天读诗的想象，不确定作诗年月、地点或落花数量；孩子喜不喜欢雨天不判对错。画中三位小伙伴是现代虚构儿童，不是孟浩然。",
+        "imageAlt": "《春晓》雨后春晨听鸟看落花 · 单景读诗插画",
+        "imageCaption": "《春晓》雨后春晨听鸟看落花 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，帮助感受雨后清晨听鸟鸣与看落花的诗意，不是孟浩然住所复原。",
         "audio": {
           "lead": {
             "id": "quest-297621ebda804431",
@@ -836,8 +851,8 @@
             "text": "哪幅是诗人回想的昨夜？"
           },
           "image": {
-            "id": "quest-a197b40f8dc0cdf3",
-            "text": "这张是跟孟浩然听春天的早晨 · 四幅现代读诗情境。早晨听见鸟鸣，诗人又想到“夜来风雨声”。“夜来”说的是刚过去的夜里。两幅画中，一幅天亮，一幅正在下夜雨。"
+            "id": "quest-66c2d27cb141c147",
+            "text": "这张是《春晓》雨后春晨听鸟看落花 · 单景读诗插画。早晨听见鸟鸣，诗人又想到“夜来风雨声”。“夜来”说的是刚过去的夜里。两幅画中，一幅天亮，一幅正在下夜雨。"
           },
           "right": {
             "id": "quest-8841c22abf77ef28",
@@ -940,13 +955,13 @@
           "displayText": "诗人问“花落知多少”，心里惦记着春花，诗中没有给出数目。小伙伴读完诗，也想去看看风雨后的落花。",
           "narration": "诗人问“花落知多少”，心里惦记着春花，诗中没有给出数目。小伙伴读完诗，也想去看看风雨后的落花。"
         },
-        "assetId": "chunxiao-story-v1",
-        "image": "/content/step-images/chunxiao-story-v1.jpg",
+        "assetId": "chunxiao-main-scene-v1",
+        "image": "/content/step-images/chunxiao-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-5958879917ba64a6.svg",
         "studyImageAlt": "一句问话，藏着牵挂",
-        "imageAlt": "跟孟浩然听春天的早晨 · 四幅现代读诗情境",
-        "imageCaption": "跟孟浩然听春天的早晨 · 四幅现代读诗情境",
-        "imageBoundary": "拓像来自1888年刻石，拓印晚于唐代，不是孟浩然生前写真。故事图是今天读诗的想象，不确定作诗年月、地点或落花数量；孩子喜不喜欢雨天不判对错。画中三位小伙伴是现代虚构儿童，不是孟浩然。",
+        "imageAlt": "《春晓》雨后春晨听鸟看落花 · 单景读诗插画",
+        "imageCaption": "《春晓》雨后春晨听鸟看落花 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，帮助感受雨后清晨听鸟鸣与看落花的诗意，不是孟浩然住所复原。",
         "audio": {
           "lead": {
             "id": "quest-fcfedf832390c00d",
@@ -965,8 +980,8 @@
             "text": "哪幅在查看风雨后的落花？"
           },
           "image": {
-            "id": "quest-befeafb3512631cc",
-            "text": "这张是跟孟浩然听春天的早晨 · 四幅现代读诗情境。诗人问“花落知多少”，心里惦记着春花，诗中没有给出数目。小伙伴读完诗，也想去看看风雨后的落花。"
+            "id": "quest-c23416f1d0956ce6",
+            "text": "这张是《春晓》雨后春晨听鸟看落花 · 单景读诗插画。诗人问“花落知多少”，心里惦记着春花，诗中没有给出数目。小伙伴读完诗，也想去看看风雨后的落花。"
           },
           "right": {
             "id": "quest-3a138aa56da1ca17",
@@ -1319,6 +1334,20 @@
     }
   ],
   "assets": [
+    {
+      "id": "chunxiao-main-scene-v1",
+      "title": "《春晓》雨后春晨听鸟看落花 · 单景读诗插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/chunxiao-main-scene-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代读诗情境插画，不是唐代现场",
+      "boundary": "现代读诗情境插画，帮助感受雨后清晨听鸟鸣与看落花的诗意，不是孟浩然住所复原。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "study-ecdf9e4a3f4d8165",
       "title": "学习示意：时间定位：去唐朝听诗",

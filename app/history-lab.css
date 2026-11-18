@@ -14,7 +14,10 @@
 .history-lab-action>span{font-size:23px}
 .history-lab-action:disabled{background:#d6e6d7;color:#486858;box-shadow:none;cursor:default}
 .history-lab-action:focus-visible{outline:3px solid #bd8739;outline-offset:4px}
-.history-lab-complete{margin:0;padding:10px;text-align:center;color:#507560;font-size:15px;font-weight:700}
+.history-lab-compare{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.history-lab-compare button{min-height:38px;padding:6px 13px;border:1.5px solid #c9d6be;border-radius:999px;background:#fffdf6;color:#3d6657;font-size:14px;font-weight:700;cursor:pointer;transition:background .15s,border-color .15s}
+.history-lab-compare button.active{background:#dff0e6;border-color:#2d7869;color:#1f584d;box-shadow:inset 0 0 0 1px #2d7869}
+.history-lab-compare button:hover{border-color:#2d7869}
 .bench-choice .history-lab-diagram{height:130px;min-height:0}
 .history-lab[data-lab-motion="running"] .history-lab-diagram{filter:saturate(1.08)}
 .history-lab .water-surface,.history-lab .lamp-light{transition:opacity .45s,fill .45s}

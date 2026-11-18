@@ -258,7 +258,7 @@
     },
     "presentation": {
       "kind": "object-workbench",
-      "sceneAssetId": "xilin-story-v1",
+      "sceneAssetId": "xilin-main-scene-v1",
       "sceneAlt": "跟苏轼换个地方看山 · 读诗想象",
       "title": "跟苏轼换个地方看山",
       "evidenceTitle": "苏轼像 · 元代赵孟頫绘",
@@ -275,7 +275,7 @@
       "sceneAspectRatio": 1.5,
       "story": {
         "kind": "travel-story",
-        "reunionAssetId": "xilin-story-v1",
+        "reunionAssetId": "xilin-main-scene-v1",
         "reunionAlt": "小伙伴回看读诗情境",
         "reunionAspectRatio": 1.5,
         "reunionFit": "contain",
@@ -285,7 +285,7 @@
         "closingLine": "苏轼在《题西林壁》中写庐山：换个方向、远近和高低，看到的样子不同。身在山中容易只看到一部分，认识事物也要多看看。",
         "closingNarration": "苏轼在《题西林壁》中写庐山：换个方向、远近和高低，看到的样子不同。身在山中容易只看到一部分，认识事物也要多看看。",
         "fictionNote": "1301年赵孟頫所绘苏轼像是元代后世画像。新画是帮助读诗的看山情境，不是庐山实景测绘或苏轼游山路线复原；多看几个位置有助于了解，不保证站在某一处就看全。",
-        "reunionImage": "/content/step-images/xilin-story-v1.jpg",
+        "reunionImage": "/content/step-images/xilin-main-scene-v1.jpg",
         "stationLine": "到宋朝看城市和发明，读王安石、苏轼、杨万里和范成大的诗，听李清照的词；还可以认识与两宋并立的辽、西夏、金。",
         "stationAudio": {
           "id": "quest-f6e029ea9ad82553",
@@ -296,7 +296,7 @@
           "text": "苏轼在《题西林壁》中写庐山：换个方向、远近和高低，看到的样子不同。身在山中容易只看到一部分，认识事物也要多看看。"
         }
       },
-      "sceneImage": "/content/step-images/xilin-story-v1.jpg",
+      "sceneImage": "/content/step-images/xilin-main-scene-v1.jpg",
       "evidenceAudio": {
         "id": "quest-919195636e54bd15",
         "text": "画中是苏轼，画家赵孟頫生活在更晚的元代。画像作于1301年，不是苏轼游庐山时的现场画。"
@@ -307,21 +307,36 @@
       }
     },
     "sceneAsset": {
-      "id": "xilin-story-v1",
-      "title": "跟苏轼换个地方看山 · 四幅读诗想象",
-      "localPath": "reference-assets/song-poetry-expansion/xilin-story-v1.png",
+      "id": "xilin-main-scene-v1",
+      "title": "《题西林壁》多角度远望山岭峰峦 · 单景读诗插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/xilin-main-scene-v2.png",
       "runtimeMaxEdge": 1536,
       "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
-      "licensePath": "reference-assets/song-poetry-expansion/ATTRIBUTION.md",
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
       "license": "项目自制教学插画，仅用于本项目",
       "clearance": "cleared-project-created",
-      "caption": "现代读诗想象，不是历史现场",
-      "boundary": "1301年赵孟頫所绘苏轼像是元代后世画像。新画是帮助读诗的看山情境，不是庐山实景测绘或苏轼游山路线复原；多看几个位置有助于了解，不保证站在某一处就看全。",
+      "caption": "现代读诗看山情境，不是庐山实景测绘",
+      "boundary": "现代读诗情境插画，帮助比较山岭连绵与山峰高耸的不同观察角度，不是庐山地形实测或苏轼游山复原。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/xilin-story-v1.jpg"
+      "image": "/content/step-images/xilin-main-scene-v1.jpg"
     },
     "narrativeAssets": [
+      {
+        "id": "xilin-main-scene-v1",
+        "title": "《题西林壁》多角度远望山岭峰峦 · 单景读诗插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/xilin-main-scene-v2.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
+        "clearance": "cleared-project-created",
+        "caption": "现代读诗看山情境，不是庐山实景测绘",
+        "boundary": "现代读诗情境插画，帮助比较山岭连绵与山峰高耸的不同观察角度，不是庐山地形实测或苏轼游山复原。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/xilin-main-scene-v1.jpg"
+      },
       {
         "id": "xilin-story-v1",
         "title": "跟苏轼换个地方看山 · 四幅读诗想象",
@@ -559,13 +574,13 @@
           "displayText": "横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。",
           "narration": "横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。"
         },
-        "assetId": "xilin-story-v1",
-        "image": "/content/step-images/xilin-story-v1.jpg",
+        "assetId": "xilin-main-scene-v1",
+        "image": "/content/step-images/xilin-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-9db32b864a7e5b02.svg",
         "studyImageAlt": "先听完整的《题西林壁》",
-        "imageAlt": "跟苏轼换个地方看山 · 四幅读诗想象",
-        "imageCaption": "跟苏轼换个地方看山 · 四幅读诗想象",
-        "imageBoundary": "1301年赵孟頫所绘苏轼像是元代后世画像。新画是帮助读诗的看山情境，不是庐山实景测绘或苏轼游山路线复原；多看几个位置有助于了解，不保证站在某一处就看全。",
+        "imageAlt": "《题西林壁》多角度远望山岭峰峦 · 单景读诗插画",
+        "imageCaption": "《题西林壁》多角度远望山岭峰峦 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，帮助比较山岭连绵与山峰高耸的不同观察角度，不是庐山地形实测或苏轼游山复原。",
         "audio": {
           "lead": {
             "id": "quest-3ea15e919c46c552",
@@ -584,8 +599,8 @@
             "text": "听诗，想一想诗中的画面"
           },
           "image": {
-            "id": "quest-471510d1107e031b",
-            "text": "这张是跟苏轼换个地方看山 · 四幅读诗想象。横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。"
+            "id": "quest-0cb439a0678e238a",
+            "text": "这张是《题西林壁》多角度远望山岭峰峦 · 单景读诗插画。横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。"
           },
           "right": {
             "id": "quest-4f53be21fcda6f1a",
@@ -635,13 +650,13 @@
           "displayText": "“横看成岭侧成峰”。一幅山岭横着展开，一幅近处山峰高高耸起。变的是我们观看的位置，山没有突然变形。",
           "narration": "“横看成岭侧成峰”。一幅山岭横着展开，一幅近处山峰高高耸起。变的是我们观看的位置，山没有突然变形。"
         },
-        "assetId": "xilin-story-v1",
-        "image": "/content/step-images/xilin-story-v1.jpg",
+        "assetId": "xilin-main-scene-v1",
+        "image": "/content/step-images/xilin-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-ca2db76d7312efe0.svg",
         "studyImageAlt": "从横看，到侧看",
-        "imageAlt": "跟苏轼换个地方看山 · 四幅读诗想象",
-        "imageCaption": "跟苏轼换个地方看山 · 四幅读诗想象",
-        "imageBoundary": "1301年赵孟頫所绘苏轼像是元代后世画像。新画是帮助读诗的看山情境，不是庐山实景测绘或苏轼游山路线复原；多看几个位置有助于了解，不保证站在某一处就看全。",
+        "imageAlt": "《题西林壁》多角度远望山岭峰峦 · 单景读诗插画",
+        "imageCaption": "《题西林壁》多角度远望山岭峰峦 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，帮助比较山岭连绵与山峰高耸的不同观察角度，不是庐山地形实测或苏轼游山复原。",
         "audio": {
           "lead": {
             "id": "quest-32112aeb47422d35",
@@ -660,8 +675,8 @@
             "text": "哪幅更像横着展开的山岭？"
           },
           "image": {
-            "id": "quest-dcb5b3891c25d305",
-            "text": "这张是跟苏轼换个地方看山 · 四幅读诗想象。“横看成岭侧成峰”。一幅山岭横着展开，一幅近处山峰高高耸起。变的是我们观看的位置，山没有突然变形。"
+            "id": "quest-203aedb7702345ea",
+            "text": "这张是《题西林壁》多角度远望山岭峰峦 · 单景读诗插画。“横看成岭侧成峰”。一幅山岭横着展开，一幅近处山峰高高耸起。变的是我们观看的位置，山没有突然变形。"
           },
           "right": {
             "id": "quest-085ca1b53eae5722",
@@ -764,13 +779,13 @@
           "displayText": "“只缘身在此山中”。小伙伴走进山谷，两旁山坡很近，挡住了远处。眼前能看到一些，却难看见整座山。",
           "narration": "“只缘身在此山中”。小伙伴走进山谷，两旁山坡很近，挡住了远处。眼前能看到一些，却难看见整座山。"
         },
-        "assetId": "xilin-story-v1",
-        "image": "/content/step-images/xilin-story-v1.jpg",
+        "assetId": "xilin-main-scene-v1",
+        "image": "/content/step-images/xilin-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-d2645f19ae81ed76.svg",
         "studyImageAlt": "在山里，视线被挡住了",
-        "imageAlt": "跟苏轼换个地方看山 · 四幅读诗想象",
-        "imageCaption": "跟苏轼换个地方看山 · 四幅读诗想象",
-        "imageBoundary": "1301年赵孟頫所绘苏轼像是元代后世画像。新画是帮助读诗的看山情境，不是庐山实景测绘或苏轼游山路线复原；多看几个位置有助于了解，不保证站在某一处就看全。",
+        "imageAlt": "《题西林壁》多角度远望山岭峰峦 · 单景读诗插画",
+        "imageCaption": "《题西林壁》多角度远望山岭峰峦 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，帮助比较山岭连绵与山峰高耸的不同观察角度，不是庐山地形实测或苏轼游山复原。",
         "audio": {
           "lead": {
             "id": "quest-f3bbf77cba0b6a92",
@@ -789,8 +804,8 @@
             "text": "哪幅最像身在此山中？"
           },
           "image": {
-            "id": "quest-fe36f6d8708c606f",
-            "text": "这张是跟苏轼换个地方看山 · 四幅读诗想象。“只缘身在此山中”。小伙伴走进山谷，两旁山坡很近，挡住了远处。眼前能看到一些，却难看见整座山。"
+            "id": "quest-13634f2c60f0fbe5",
+            "text": "这张是《题西林壁》多角度远望山岭峰峦 · 单景读诗插画。“只缘身在此山中”。小伙伴走进山谷，两旁山坡很近，挡住了远处。眼前能看到一些，却难看见整座山。"
           },
           "right": {
             "id": "quest-f3af0c1b5b79e294",
@@ -893,13 +908,13 @@
           "displayText": "只在山谷里看，看到的不全。小伙伴来到开阔处，把新看到的景色和刚才比较。换位置，能补上原来看不到的部分。",
           "narration": "只在山谷里看，看到的不全。小伙伴来到开阔处，把新看到的景色和刚才比较。换位置，能补上原来看不到的部分。"
         },
-        "assetId": "xilin-story-v1",
-        "image": "/content/step-images/xilin-story-v1.jpg",
+        "assetId": "xilin-main-scene-v1",
+        "image": "/content/step-images/xilin-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-4115c27afc4d063d.svg",
         "studyImageAlt": "再添一个看山的位置",
-        "imageAlt": "跟苏轼换个地方看山 · 四幅读诗想象",
-        "imageCaption": "跟苏轼换个地方看山 · 四幅读诗想象",
-        "imageBoundary": "1301年赵孟頫所绘苏轼像是元代后世画像。新画是帮助读诗的看山情境，不是庐山实景测绘或苏轼游山路线复原；多看几个位置有助于了解，不保证站在某一处就看全。",
+        "imageAlt": "《题西林壁》多角度远望山岭峰峦 · 单景读诗插画",
+        "imageCaption": "《题西林壁》多角度远望山岭峰峦 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，帮助比较山岭连绵与山峰高耸的不同观察角度，不是庐山地形实测或苏轼游山复原。",
         "audio": {
           "lead": {
             "id": "quest-a693f2a829d2f3e5",
@@ -918,8 +933,8 @@
             "text": "哪幅在换到开阔处比较？"
           },
           "image": {
-            "id": "quest-6d60166d1988c0e0",
-            "text": "这张是跟苏轼换个地方看山 · 四幅读诗想象。只在山谷里看，看到的不全。小伙伴来到开阔处，把新看到的景色和刚才比较。换位置，能补上原来看不到的部分。"
+            "id": "quest-18f650260eb99626",
+            "text": "这张是《题西林壁》多角度远望山岭峰峦 · 单景读诗插画。只在山谷里看，看到的不全。小伙伴来到开阔处，把新看到的景色和刚才比较。换位置，能补上原来看不到的部分。"
           },
           "right": {
             "id": "quest-7a4d2ecbeb3ba05d",
@@ -1273,6 +1288,20 @@
     }
   ],
   "assets": [
+    {
+      "id": "xilin-main-scene-v1",
+      "title": "《题西林壁》多角度远望山岭峰峦 · 单景读诗插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/xilin-main-scene-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代读诗看山情境，不是庐山实景测绘",
+      "boundary": "现代读诗情境插画，帮助比较山岭连绵与山峰高耸的不同观察角度，不是庐山地形实测或苏轼游山复原。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "study-b2d4656801a0a2a5",
       "title": "学习示意：先认识写诗的人",

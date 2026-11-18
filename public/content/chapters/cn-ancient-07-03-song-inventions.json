@@ -258,16 +258,17 @@
       "sceneAspectRatio": 1.5,
       "story": {
         "kind": "travel-story",
-        "reunionAssetId": "song-friends-reunion-v2",
-        "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
-        "reunionAspectRatio": 1.82,
+        "reunionAssetId": "song-tech-reunion-v1",
+        "reunionAlt": "讲解员与三位小伙伴翻看指南针、活字与烟火总结手账，现代教学插画",
+        "reunionAspectRatio": 1.5,
         "coverCaption": "毕昇的活字，怎样换一句话？",
         "coverNarration": "一整页刻在一块版上，和一块一个字有什么不同？跟小伙伴试试拆换、重排，再看看印到纸上的变化。",
         "closingCaption": "带着发现回家",
         "closingNarration": "北宋毕昇探索泥活字，沈括把方法记在《梦溪笔谈》里。分开的字块可以拆换和重排；后人继续改进，雕版也长期使用。",
         "closingLine": "一个个字块，拆开以后还能重排。",
         "fictionNote": "照片为北京印刷博物馆的木活字展示，不是毕昇泥活字原套。代码用三个简单字演示单块替换、反字到正字；不复原材料、加热、配方和完整传统工序。现代体验图不是宋代现场，活字没有立刻替代雕版。",
-        "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
+        "reunionFit": "contain",
+        "reunionImage": "/content/step-images/song-tech-reunion-v1.jpg",
         "stationLine": "到宋朝看城市和发明，读王安石、苏轼、杨万里和范成大的诗，听李清照的词；还可以认识与两宋并立的辽、西夏、金。",
         "stationAudio": {
           "id": "quest-f6e029ea9ad82553",
@@ -304,18 +305,19 @@
     },
     "narrativeAssets": [
       {
-        "id": "song-friends-reunion-v2",
-        "title": "宋代历史站小伙伴回看旅行册",
-        "localPath": "reference-assets/liao-song-xia-jin-yuan/song-friends-reunion-v2.png",
+        "id": "song-tech-reunion-v1",
+        "title": "小伙伴翻看宋代航海指南针、活字与烟火手账 · 收尾插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/song-tech-reunion-v2.png",
+        "runtimeMaxEdge": 1536,
         "sourcePage": "https://openai.com/policies/terms-of-use/",
         "sourceFile": null,
-        "licensePath": null,
-        "license": "项目自制，供本项目使用",
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
         "clearance": "cleared-project-created",
-        "caption": "现代教学故事插画，不是历史照片。",
-        "boundary": "三位现代儿童回顾旅行手册；册上船、印刷图样与月亮为整站学习线索，不冒充古代原物或个人亲历。",
+        "caption": "现代总结手账插画，回顾指南针、活字排印与火药用途",
+        "boundary": "现代总结手账插画，帮助孩子回看活字、航海指南方向与火药的不同用途；手账图案为教学示意，不是宋代器物原件。",
         "childVisibility": "child-ok",
-        "image": "/content/step-images/song-friends-reunion-v2.jpg"
+        "image": "/content/step-images/song-tech-reunion-v1.jpg"
       }
     ],
     "coverImage": "/content/step-images/wooden-movable-type-museum-display.jpg",
@@ -393,7 +395,16 @@
           "nextLabel": "看看字块怎样分开",
           "kind": "fictional-guide-scene"
         },
-        "concepts": null,
+        "concepts": [
+          {
+            "term": "活字",
+            "meaning": "一个字做一块小印章，印完还能拆开重排的字块",
+            "audio": {
+              "id": "quest-fc5bb2b9c960b24f",
+              "text": "活字：一个字做一块小印章，印完还能拆开重排的字块。"
+            }
+          }
+        ],
         "inspection": {
           "id": "wooden-movable-type-museum-display",
           "title": "木活字展示 · 后来的材料",
@@ -1202,6 +1213,20 @@
     }
   ],
   "assets": [
+    {
+      "id": "song-tech-reunion-v1",
+      "title": "小伙伴翻看宋代航海指南针、活字与烟火手账 · 收尾插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/song-tech-reunion-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代总结手账插画，回顾指南针、活字排印与火药用途",
+      "boundary": "现代总结手账插画，帮助孩子回看活字、航海指南方向与火药的不同用途；手账图案为教学示意，不是宋代器物原件。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "study-4427adae5d02a231",
       "title": "学习示意：从后来的字块，追到北宋的办法",

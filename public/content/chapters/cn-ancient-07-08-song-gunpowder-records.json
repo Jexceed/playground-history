@@ -47,9 +47,9 @@
       "曾公亮等编书者",
       "保存古籍的人们"
     ],
-    "place": "北宋编书、明代刻印；今天的图书馆",
+    "place": "北宋编书、明代刻印；今天的博物馆展厅",
     "culture": "《武经总要》编成与后印",
-    "care": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+    "care": "儿童看的是明刻本封面，不是1044年原纸或配方页。展厅画板与总结手账是现代教学插画，安全展示军事信号与节庆烟火等不同历史用途，不展示配比、混合、点火或武器操作。",
     "preferredAssetId": "wujing-ming-cover",
     "playableSource": "content/focused-quests.json"
   },
@@ -90,7 +90,7 @@
       "icon": "📘",
       "title": "曾公亮等编书者与保存古籍的人们",
       "childBridge": "古代人逐渐探索火药，把它用于一些兵器。小伙伴在古书中寻找线索：火药的用途，和指南针、印刷一样吗？",
-      "evidenceBoundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。"
+      "evidenceBoundary": "儿童看的是明刻本封面，不是1044年原纸或配方页。"
     },
     "companions": [
       {
@@ -133,8 +133,8 @@
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "旧书和今天的笔记，谁留下什么",
-      "text": "小伙伴在今天的图书馆看旧书。旁边的人正在做研究笔记：旧书保留以前的文字，今天的笔记记录现在的理解。两种记录不是同一时代。"
+      "label": "看看火药在古代有哪些不同用途",
+      "text": "展厅画板把两种历史用途放在一起：左边是古书记录与城楼发射信号火箭，右边是夜晚街市远远观赏节庆烟火。我们只认识历史用途，绝不模仿点火。"
     },
     {
       "id": "change",
@@ -204,7 +204,7 @@
     },
     "cta": "去古书里找时间线索",
     "anchor": "曾公亮等编书者与保存古籍的人们",
-    "boundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+    "boundary": "儿童看的是明刻本封面，不是1044年原纸或配方页。展厅画板与总结手账是现代教学插画，安全展示军事信号与节庆烟火等不同历史用途，不展示配比、混合、点火或武器操作。",
     "evidence": [
       {
         "id": "wujing-ming-cover",
@@ -238,8 +238,8 @@
     },
     "presentation": {
       "kind": "object-workbench",
-      "sceneAssetId": "song-books-museum-v1",
-      "sceneAlt": "古书怎样留下火药的历史？的儿童故事插画",
+      "sceneAssetId": "song-gunpowder-uses-v1",
+      "sceneAlt": "博物馆展厅：讲解员与三位小伙伴观看宋代古书与军事信号火箭、夜晚街市节庆烟火两幅历史用途展板",
       "title": "火药用在哪里，古书留下什么？",
       "evidenceTitle": "《武经总要》· 后世刻本封面",
       "evidenceLine": "真实材料与故事插画分别看。",
@@ -255,16 +255,17 @@
       "sceneAspectRatio": 1.5,
       "story": {
         "kind": "travel-story",
-        "reunionAssetId": "song-friends-reunion-v2",
-        "reunionAlt": "三位现代小伙伴与向导回看本章图画，教学插画",
-        "reunionAspectRatio": 1.82,
+        "reunionAssetId": "song-tech-reunion-v1",
+        "reunionAlt": "讲解员与三位小伙伴翻看指南针、活字与烟火总结手账，现代教学插画",
+        "reunionAspectRatio": 1.5,
         "coverCaption": "古书怎样留下火药的历史？",
         "coverNarration": "古代人逐渐探索火药，把它用于一些兵器。小伙伴在古书中寻找线索：火药的用途，和指南针、印刷一样吗？",
         "closingCaption": "带着发现回家",
         "closingNarration": "火药知识经过长期探索，北宋军事书留下应用记录，后来还有烟火等用途。编书、发明与后世刻印是不同事情，不能压成同一天。",
         "closingLine": "技术慢慢发展，记录各有年代。",
-        "fictionNote": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
-        "reunionImage": "/content/step-images/song-friends-reunion-v2.jpg",
+        "fictionNote": "儿童看的是明刻本封面，不是1044年原纸或配方页。展厅画板与总结手账是现代教学插画，安全展示军事信号与节庆烟火等不同历史用途，不展示配比、混合、点火或武器操作。",
+        "reunionFit": "contain",
+        "reunionImage": "/content/step-images/song-tech-reunion-v1.jpg",
         "stationLine": "到宋朝看城市和发明，读王安石、苏轼、杨万里和范成大的诗，听李清照的词；还可以认识与两宋并立的辽、西夏、金。",
         "stationAudio": {
           "id": "quest-f6e029ea9ad82553",
@@ -275,7 +276,7 @@
           "text": "火药知识经过长期探索，北宋军事书留下应用记录，后来还有烟火等用途。编书、发明与后世刻印是不同事情，不能压成同一天。"
         }
       },
-      "sceneImage": "/content/step-images/song-books-museum-v1.jpg",
+      "sceneImage": "/content/step-images/song-gunpowder-uses-v1.jpg",
       "evidenceAudio": {
         "id": "quest-7701e404934258d3",
         "text": "这张是真正旧书封面的书影。书的内容在北宋编成，这一本却是明代刻印流传的。圆形水印来自现代馆藏扫描，不是宋代印记。"
@@ -286,33 +287,35 @@
       }
     },
     "sceneAsset": {
-      "id": "song-books-museum-v1",
-      "title": "古书怎样留下火药的历史？故事插画",
-      "localPath": "reference-assets/liao-song-xia-jin-yuan/song-books-museum-v1.png",
+      "id": "song-gunpowder-uses-v1",
+      "title": "博物馆展厅认识火药的军事信号与节庆烟火用途 · 教学插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/song-gunpowder-uses-v2.png",
+      "runtimeMaxEdge": 1536,
       "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
-      "licensePath": null,
-      "license": "项目自制，供本项目使用",
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
       "clearance": "cleared-project-created",
-      "caption": "现代教学故事插画，不是历史照片。",
-      "boundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+      "caption": "现代展厅示意：左为古书与军事信号火箭，右为节庆夜空烟火",
+      "boundary": "现代博物馆展板教学插画，安全展示火药在古代军事信号与节庆烟火中的不同历史用途，不是宋代现场照片，也不含任何配比、混合或点火方法。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/song-books-museum-v1.jpg"
+      "image": "/content/step-images/song-gunpowder-uses-v1.jpg"
     },
     "narrativeAssets": [
       {
-        "id": "song-friends-reunion-v2",
-        "title": "宋代历史站小伙伴回看旅行册",
-        "localPath": "reference-assets/liao-song-xia-jin-yuan/song-friends-reunion-v2.png",
+        "id": "song-tech-reunion-v1",
+        "title": "小伙伴翻看宋代航海指南针、活字与烟火手账 · 收尾插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/song-tech-reunion-v2.png",
+        "runtimeMaxEdge": 1536,
         "sourcePage": "https://openai.com/policies/terms-of-use/",
         "sourceFile": null,
-        "licensePath": null,
-        "license": "项目自制，供本项目使用",
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
         "clearance": "cleared-project-created",
-        "caption": "现代教学故事插画，不是历史照片。",
-        "boundary": "三位现代儿童回顾旅行手册；册上船、印刷图样与月亮为整站学习线索，不冒充古代原物或个人亲历。",
+        "caption": "现代总结手账插画，回顾指南针、活字排印与火药用途",
+        "boundary": "现代总结手账插画，帮助孩子回看活字、航海指南方向与火药的不同用途；手账图案为教学示意，不是宋代器物原件。",
         "childVisibility": "child-ok",
-        "image": "/content/step-images/song-friends-reunion-v2.jpg"
+        "image": "/content/step-images/song-tech-reunion-v1.jpg"
       },
       {
         "id": "inventions-choice-scenes-v2",
@@ -457,7 +460,7 @@
         "studyImageAlt": "宋代编的书，后来人继续保存",
         "imageAlt": "宋代编的书，后来人继续保存",
         "imageCaption": "学习示意 · 宋代编的书，后来人继续保存",
-        "imageBoundary": "自制学习示意。儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+        "imageBoundary": "自制学习示意。儿童看的是明刻本封面，不是1044年原纸或配方页。展厅画板与总结手账是现代教学插画，安全展示军事信号与节庆烟火等不同历史用途，不展示配比、混合、点火或武器操作。",
         "audio": {
           "lead": {
             "id": "quest-f82e69b64eb16ba0",
@@ -553,9 +556,18 @@
           "responseSpeaker": "小伙伴",
           "response": "它留下古代军事技术的线索。",
           "retry": "制作纸页属于造纸，火药在这里用于军事技术。",
-          "nextLabel": "旧书和今天的笔记，谁留下什么"
+          "nextLabel": "看看火药的两种历史用途"
         },
-        "concepts": null,
+        "concepts": [
+          {
+            "term": "火药",
+            "meaning": "古人长期探索出的能快速燃烧发光的材料",
+            "audio": {
+              "id": "quest-99c70e6065aa4560",
+              "text": "火药：古人长期探索出的能快速燃烧发光的材料。"
+            }
+          }
+        ],
         "inspection": null,
         "story": {
           "screenNumber": 2,
@@ -564,13 +576,13 @@
           "displayText": "火药知识经过长期探索，后来被用于一些军事技术。北宋《武经总要》把相关知识记进军事书。书里留下记录，不等于编书的人在那一年才发明火药。",
           "narration": "火药知识经过长期探索，后来被用于一些军事技术。北宋《武经总要》把相关知识记进军事书。书里留下记录，不等于编书的人在那一年才发明火药。"
         },
-        "assetId": "song-books-museum-v1",
-        "image": "/content/step-images/song-books-museum-v1.jpg",
+        "assetId": "song-gunpowder-uses-v1",
+        "image": "/content/step-images/song-gunpowder-uses-v1.jpg",
         "studyImage": "/content/study-scenes/study-d08d6686e5b9d9e0.svg",
         "studyImageAlt": "先弄清火药的用途",
-        "imageAlt": "古书怎样留下火药的历史？故事插画",
-        "imageCaption": "古书怎样留下火药的历史？故事插画",
-        "imageBoundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+        "imageAlt": "博物馆展厅认识火药的军事信号与节庆烟火用途 · 教学插画",
+        "imageCaption": "博物馆展厅认识火药的军事信号与节庆烟火用途 · 教学插画",
+        "imageBoundary": "现代博物馆展板教学插画，安全展示火药在古代军事信号与节庆烟火中的不同历史用途，不是宋代现场照片，也不含任何配比、混合或点火方法。",
         "audio": {
           "lead": {
             "id": "quest-f0f852d4a4e2a2db",
@@ -589,8 +601,8 @@
             "text": "这条火药记录涉及哪种用途？"
           },
           "image": {
-            "id": "quest-13a354dc695b6b37",
-            "text": "这张是古书怎样留下火药的历史？故事插画。火药知识经过长期探索，后来被用于一些军事技术。北宋《武经总要》把相关知识记进军事书。书里留下记录，不等于编书的人在那一年才发明火药。"
+            "id": "quest-9b0ebd5d12cd884d",
+            "text": "这张是博物馆展厅认识火药的军事信号与节庆烟火用途 · 教学插画。火药知识经过长期探索，后来被用于一些军事技术。北宋《武经总要》把相关知识记进军事书。书里留下记录，不等于编书的人在那一年才发明火药。"
           },
           "right": {
             "id": "quest-dd62e3d78eee8fa8",
@@ -660,78 +672,79 @@
         "id": "journey",
         "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "旧书和今天的笔记，谁留下什么",
-        "title": "旧书和今天的笔记，谁留下什么",
-        "prompt": "哪本书是从以前保存下来的？",
-        "rightNote": "旧书与今天的研究，各有时间。",
-        "wrongNote": "再看看展柜与正在书写的地方。",
+        "phase": "看看火药在古代有哪些不同用途",
+        "title": "看看火药在古代有哪些不同用途",
+        "prompt": "哪一边表示古书与军事信号用途？",
+        "rightNote": "从军事信号到节庆烟火，同一技术后来有了不同用途。",
+        "wrongNote": "分清左边白天的城楼信号与右边夜晚的节庆烟火。",
         "sourceIds": [
-          "JJ-ZENG-WUJING-HISTORY",
-          "NLC-WUJING-MING-SCAN"
+          "CAS-FOUR-GREAT-INVENTIONS",
+          "CAS-IHNS-ANCIENT-ROCKETS",
+          "JJ-ZENG-WUJING-HISTORY"
         ],
         "interaction": {
           "kind": "scene-find",
-          "hint": "听听问题，看看图里的线索。",
+          "hint": "点一点展板左右两边对应的画面。",
           "hotspots": [
             {
-              "id": "old",
-              "label": "展柜里的旧书",
-              "x": 0.055,
-              "y": 0.555,
-              "width": 0.325,
-              "height": 0.23
+              "id": "military-signal",
+              "label": "古书画卷与城楼信号火箭",
+              "x": 0.03,
+              "y": 0.09,
+              "width": 0.46,
+              "height": 0.46
             },
             {
-              "id": "note",
-              "label": "今天做研究笔记的地方",
-              "x": 0.62,
-              "y": 0.64,
-              "width": 0.34,
-              "height": 0.15
+              "id": "festival-fireworks",
+              "label": "夜晚街市远望节庆烟火",
+              "x": 0.51,
+              "y": 0.09,
+              "width": 0.46,
+              "height": 0.46
             }
           ],
           "rounds": [
             {
-              "id": "old",
-              "question": "哪本书是从以前保存下来的？",
-              "targetId": "old",
-              "feedback": "展柜里的旧书，保留以前流传的内容。",
-              "retry": "这是今天的笔记，再看看展柜。",
-              "nextLabel": "再找今天的研究记录",
+              "id": "military-signal",
+              "question": "哪一边在讲古书与军事信号用途？",
+              "targetId": "military-signal",
+              "feedback": "左边画卷与城楼火箭，表示军事和信号用途。",
+              "retry": "右边是节庆夜空烟火，再看左边白天的城楼。",
+              "nextLabel": "再找节庆夜空里的烟火",
               "audio": {
                 "question": {
-                  "id": "quest-b57ce24bba08416b",
-                  "text": "哪本书是从以前保存下来的？"
+                  "id": "quest-4ed338932ea822fe",
+                  "text": "哪一边在讲古书与军事信号用途？"
                 },
                 "right": {
-                  "id": "quest-f1db95ba85a7fdf9",
-                  "text": "展柜里的旧书，保留以前流传的内容。"
+                  "id": "quest-6335a5fc0949f51c",
+                  "text": "左边画卷与城楼火箭，表示军事和信号用途。"
                 },
                 "wrong": {
-                  "id": "quest-00dcc338c3c22aec",
-                  "text": "这是今天的笔记，再看看展柜。"
+                  "id": "quest-30ea06379b0839c5",
+                  "text": "右边是节庆夜空烟火，再看左边白天的城楼。"
                 }
               }
             },
             {
-              "id": "note",
-              "question": "今天的人正在哪里写研究笔记？",
-              "targetId": "note",
-              "feedback": "这份笔记记下今天的观察与理解。",
-              "retry": "旧书是以前留下的，再找正在写字的手。",
+              "id": "festival-fireworks",
+              "question": "后来用于节庆夜空的烟火在哪边？",
+              "targetId": "festival-fireworks",
+              "feedback": "右边夜空里的烟火是节庆用途，只能远远欣赏。",
+              "retry": "左边是城楼信号，再看右边挂灯笼的夜晚街市。",
               "nextLabel": "把两个时间点分清楚",
               "audio": {
                 "question": {
-                  "id": "quest-8c5bde938a610b9e",
-                  "text": "今天的人正在哪里写研究笔记？"
+                  "id": "quest-61a4f4436a051163",
+                  "text": "后来用于节庆夜空的烟火在哪边？"
                 },
                 "right": {
-                  "id": "quest-078ee61474e85ee6",
-                  "text": "这份笔记记下今天的观察与理解。"
+                  "id": "quest-43800b38df1bb6cd",
+                  "text": "右边夜空里的烟火是节庆用途，只能远远欣赏。"
                 },
                 "wrong": {
-                  "id": "quest-af38275e4c702af2",
-                  "text": "旧书是以前留下的，再找正在写字的手。"
+                  "id": "quest-d2c4b2ade5475d43",
+                  "text": "左边是城楼信号，再看右边挂灯笼的夜晚街市。"
                 }
               }
             }
@@ -741,11 +754,11 @@
         },
         "narrative": {
           "scene": "detail",
-          "caption": "旧书和今天的笔记，谁留下什么",
-          "speaker": "小伙伴",
-          "responseSpeaker": "小伙伴",
-          "response": "旧书与今天的研究，各有时间。",
-          "retry": "再看看展柜与正在书写的地方。",
+          "caption": "军事信号与节庆烟火展板",
+          "speaker": "讲解员",
+          "responseSpeaker": "小禾",
+          "response": "左边记着军事与信号用途，右边是后来远远观赏的节庆烟火。",
+          "retry": "看看左边白天的城楼画卷和右边亮灯的夜空。",
           "nextLabel": "宋代编书，明代又刻印",
           "kind": "fictional-guide-scene"
         },
@@ -753,46 +766,46 @@
         "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "旧书和今天的笔记，谁留下什么",
-          "screenText": "小伙伴在今天的图书馆看旧书。旁边的人正在做研究笔记：旧书保留以前的文字，今天的笔记记录现在的理解。两种记录不是同一时代。",
-          "displayText": "小伙伴在今天的图书馆看旧书。旁边的人正在做研究笔记：旧书保留以前的文字，今天的笔记记录现在的理解。两种记录不是同一时代。",
-          "narration": "小伙伴在今天的图书馆看旧书。旁边的人正在做研究笔记：旧书保留以前的文字，今天的笔记记录现在的理解。两种记录不是同一时代。"
+          "title": "看看火药在古代有哪些不同用途",
+          "screenText": "展厅画板把两种历史用途放在一起：左边是古书记录与城楼发射信号火箭，右边是夜晚街市远远观赏节庆烟火。我们只认识历史用途，绝不模仿点火。",
+          "displayText": "展厅画板把两种历史用途放在一起：左边是古书记录与城楼发射信号火箭，右边是夜晚街市远远观赏节庆烟火。我们只认识历史用途，绝不模仿点火。",
+          "narration": "展厅画板把两种历史用途放在一起：左边是古书记录与城楼发射信号火箭，右边是夜晚街市远远观赏节庆烟火。我们只认识历史用途，绝不模仿点火。"
         },
-        "assetId": "song-books-museum-v1",
-        "image": "/content/step-images/song-books-museum-v1.jpg",
-        "studyImage": "/content/study-scenes/study-575639bf9a6917df.svg",
-        "studyImageAlt": "旧书和今天的笔记，谁留下什么",
-        "imageAlt": "古书怎样留下火药的历史？故事插画",
-        "imageCaption": "古书怎样留下火药的历史？故事插画",
-        "imageBoundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+        "assetId": "song-gunpowder-uses-v1",
+        "image": "/content/step-images/song-gunpowder-uses-v1.jpg",
+        "studyImage": "/content/study-scenes/study-a5e793024b44b075.svg",
+        "studyImageAlt": "军事信号与节庆烟火不同用途",
+        "imageAlt": "博物馆展厅认识火药的军事信号与节庆烟火用途 · 教学插画",
+        "imageCaption": "博物馆展厅认识火药的军事信号与节庆烟火用途 · 教学插画",
+        "imageBoundary": "现代博物馆展板教学插画，安全展示火药在古代军事信号与节庆烟火中的不同历史用途，不是宋代现场照片，也不含任何配比、混合或点火方法。",
         "audio": {
           "lead": {
-            "id": "quest-b57ce24bba08416b",
-            "text": "哪本书是从以前保存下来的？"
+            "id": "quest-f5c61499763568fd",
+            "text": "左边画板是古书与城楼信号火箭，右边是夜晚街市远看节庆烟火。哪一边表示古书与军事信号用途？"
           },
           "transition": {
-            "id": "quest-28607e5dcc3dcdf2",
-            "text": "旧书和今天的笔记，谁留下什么。"
+            "id": "quest-a7dcc2fe2fb34b4c",
+            "text": "看看火药在古代有哪些不同用途。"
           },
           "intro": {
-            "id": "quest-398b21a12b334fbf",
-            "text": "小伙伴在今天的图书馆看旧书。旁边的人正在做研究笔记：旧书保留以前的文字，今天的笔记记录现在的理解。两种记录不是同一时代。"
+            "id": "quest-6878156f1130a7dc",
+            "text": "展厅画板把两种历史用途放在一起：左边是古书记录与城楼发射信号火箭，右边是夜晚街市远远观赏节庆烟火。我们只认识历史用途，绝不模仿点火。"
           },
           "question": {
-            "id": "quest-b57ce24bba08416b",
-            "text": "哪本书是从以前保存下来的？"
+            "id": "quest-8c65a124c6f79a8e",
+            "text": "哪一边表示古书与军事信号用途？"
           },
           "image": {
-            "id": "quest-bd820d90e32ce635",
-            "text": "这张是古书怎样留下火药的历史？故事插画。小伙伴在今天的图书馆看旧书。旁边的人正在做研究笔记：旧书保留以前的文字，今天的笔记记录现在的理解。两种记录不是同一时代。"
+            "id": "quest-7a8e554ec208ee14",
+            "text": "这张是博物馆展厅认识火药的军事信号与节庆烟火用途 · 教学插画。展厅画板把两种历史用途放在一起：左边是古书记录与城楼发射信号火箭，右边是夜晚街市远远观赏节庆烟火。我们只认识历史用途，绝不模仿点火。"
           },
           "right": {
-            "id": "quest-79a05bc34b7d9325",
-            "text": "旧书与今天的研究，各有时间。"
+            "id": "quest-cb1b55cabc8c44f5",
+            "text": "左边记着军事与信号用途，右边是后来远远观赏的节庆烟火。"
           },
           "wrong": {
-            "id": "quest-ab1adde0fe2eb331",
-            "text": "再看看展柜与正在书写的地方。"
+            "id": "quest-43f6871f00d9ade2",
+            "text": "看看左边白天的城楼画卷和右边亮灯的夜空。"
           }
         },
         "options": []
@@ -840,7 +853,7 @@
         "studyImageAlt": "宋代编书，明代又刻印",
         "imageAlt": "宋代编书，明代又刻印",
         "imageCaption": "学习示意 · 宋代编书，明代又刻印",
-        "imageBoundary": "自制学习示意。儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+        "imageBoundary": "自制学习示意。儿童看的是明刻本封面，不是1044年原纸或配方页。展厅画板与总结手账是现代教学插画，安全展示军事信号与节庆烟火等不同历史用途，不展示配比、混合、点火或武器操作。",
         "audio": {
           "lead": {
             "id": "quest-d2028e63c6282807",
@@ -949,13 +962,13 @@
           "displayText": "火药有军事用途，后来也用于烟火等场景；印刷则帮助复制文字。技术发展中会有不同用途。小伙伴想复制一页书，应该找哪一种？",
           "narration": "火药有军事用途，后来也用于烟火等场景；印刷则帮助复制文字。技术发展中会有不同用途。小伙伴想复制一页书，应该找哪一种？"
         },
-        "assetId": "song-books-museum-v1",
-        "image": "/content/step-images/song-books-museum-v1.jpg",
+        "assetId": "song-gunpowder-uses-v1",
+        "image": "/content/step-images/song-gunpowder-uses-v1.jpg",
         "studyImage": "/content/study-scenes/study-4938d61f15cfbff2.svg",
         "studyImageAlt": "把几项发明的用途分清楚",
-        "imageAlt": "古书怎样留下火药的历史？故事插画",
-        "imageCaption": "古书怎样留下火药的历史？故事插画",
-        "imageBoundary": "儿童看的是明刻本封面，不是1044年原纸或配方所在页。新插画是今天的图书馆教学场景，图中书和笔记不冒充真实古籍。学习技术积累、军事用途和文献传承，不展示配比、制作、点火或武器操作。",
+        "imageAlt": "博物馆展厅认识火药的军事信号与节庆烟火用途 · 教学插画",
+        "imageCaption": "博物馆展厅认识火药的军事信号与节庆烟火用途 · 教学插画",
+        "imageBoundary": "现代博物馆展板教学插画，安全展示火药在古代军事信号与节庆烟火中的不同历史用途，不是宋代现场照片，也不含任何配比、混合或点火方法。",
         "audio": {
           "lead": {
             "id": "quest-01fae04db02b19ec",
@@ -974,8 +987,8 @@
             "text": "想复制书页，该找哪项技术？"
           },
           "image": {
-            "id": "quest-89fab937247fb013",
-            "text": "这张是古书怎样留下火药的历史？故事插画。火药有军事用途，后来也用于烟火等场景；印刷则帮助复制文字。技术发展中会有不同用途。小伙伴想复制一页书，应该找哪一种？"
+            "id": "quest-22308a25de0e3d78",
+            "text": "这张是博物馆展厅认识火药的军事信号与节庆烟火用途 · 教学插画。火药有军事用途，后来也用于烟火等场景；印刷则帮助复制文字。技术发展中会有不同用途。小伙伴想复制一页书，应该找哪一种？"
           },
           "right": {
             "id": "quest-f3ab41b51038c89b",
@@ -1397,6 +1410,34 @@
       "childVisibility": "child-ok"
     },
     {
+      "id": "song-gunpowder-uses-v1",
+      "title": "博物馆展厅认识火药的军事信号与节庆烟火用途 · 教学插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/song-gunpowder-uses-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代展厅示意：左为古书与军事信号火箭，右为节庆夜空烟火",
+      "boundary": "现代博物馆展板教学插画，安全展示火药在古代军事信号与节庆烟火中的不同历史用途，不是宋代现场照片，也不含任何配比、混合或点火方法。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "song-tech-reunion-v1",
+      "title": "小伙伴翻看宋代航海指南针、活字与烟火手账 · 收尾插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/song-tech-reunion-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代总结手账插画，回顾指南针、活字排印与火药用途",
+      "boundary": "现代总结手账插画，帮助孩子回看活字、航海指南方向与火药的不同用途；手账图案为教学示意，不是宋代器物原件。",
+      "childVisibility": "child-ok"
+    },
+    {
       "id": "study-5515633ad864a9ac",
       "title": "学习示意：宋代编的书，后来人继续保存",
       "localPath": "reference-assets/focused-quests/study-5515633ad864a9ac.svg",
@@ -1475,15 +1516,15 @@
       "childVisibility": "child-ok"
     },
     {
-      "id": "study-575639bf9a6917df",
-      "title": "学习示意：旧书和今天的笔记，谁留下什么",
-      "localPath": "reference-assets/focused-quests/study-575639bf9a6917df.svg",
+      "id": "study-a5e793024b44b075",
+      "title": "学习示意：军事信号与节庆烟火不同用途",
+      "localPath": "reference-assets/focused-quests/study-a5e793024b44b075.svg",
       "sourcePage": null,
       "sourceFile": "content/focused-quests.json",
       "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
       "license": "项目自制，供本项目使用",
       "clearance": "cleared-project-created",
-      "caption": "旧书和今天的笔记，谁留下什么",
+      "caption": "军事信号与节庆烟火不同用途",
       "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
       "childVisibility": "child-ok"
     },

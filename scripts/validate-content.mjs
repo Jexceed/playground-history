@@ -53,6 +53,7 @@ const voicePronunciations = readJson("content/voice-pronunciations.json");
 const voiceInterface = readJson("content/voice-interface-lines.json");
 const sourceRegistry = readJson("content/sources.json");
 const assetRegistryPaths = [
+  "content/assets/enlightenment-refinement-assets.json",
   "content/assets/song-poetry-expansion-assets.json",
   "content/assets/ming-poetry-expansion-assets.json",
   "content/assets/world-expansion-2026-10-28-assets.json",

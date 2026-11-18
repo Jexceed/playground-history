@@ -67,7 +67,7 @@ export function buildFocusedGameplay({focused,registerVoiceLine,assets,interacti
   const imageNarration=displayEvidence?`这张是${displayEvidence.title}。${s.story}`:`这是学习示意图：${diagramAlt}。${s.question}`;
   return {
    id:ids[i],questionKind:kinds[i],icon:icons[i],phase:s.title,title:s.title,prompt:s.question,rightNote:s.feedback,wrongNote:s.wrongFeedback??s.feedback,
-   sourceIds:s.sourceIds,interaction,narrative:s.narrative??null,concepts:s.concepts??null,
+   sourceIds:s.sourceIds,interaction,narrative:s.narrative??null,concepts:s.concepts?s.concepts.map(c=>({...c,audio:voice(`${c.term}：${c.meaning.replace(/[。！？；，、]+$/u,'')}。`)})):null,
    inspection:inspection?{...inspection,title:s.inspection.title??inspection.title,caption:s.inspection.caption??inspection.caption,boundary:[inspection.boundary??inspection.notes,inspection.caption].filter(Boolean).join(' '),label:s.inspection.label,placement:s.inspection.placement??'main',framing:s.inspection.framing,displayHeight:s.inspection.displayHeight,openAlbum:s.inspection.openAlbum??false,sourceLinks:s.inspection.sourceLinks??[],audio:voice(s.inspection.narration)}:null,
    story:{screenNumber:i+1,title:s.title,screenText:s.story,displayText:s.displayText??s.story,narration:s.story},
    assetId:displayEvidence?.id??visualId(s.visual),image:displayEvidence?.image??url(s.visual),studyImage:url(s.visual),studyImageAlt:diagramAlt,imageAlt,imageCaption:displayEvidence?displayEvidence.title:'学习示意 · '+diagramAlt,imageBoundary,

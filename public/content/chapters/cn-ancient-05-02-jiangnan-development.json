@@ -336,15 +336,17 @@
       "sceneAspectRatio": 2.2,
       "story": {
         "kind": "travel-story",
-        "reunionAssetId": "jin-travel-journal-reunion-v1",
-        "reunionAlt": "黄衣翘发男孩、绿衣圆框眼镜男孩、马尾花夹女孩与向导在今天回看旅行手册，现代插画",
+        "reunionAssetId": "jin-math-reform-reunion-v1",
+        "reunionAlt": "三位小伙伴翻看青瓷、城门、圆内多边形与九色鹿总结手账，现代教学插画",
         "coverCaption": "江南的稻田和青瓷",
         "coverNarration": "江南的稻田和青瓷小小旅行团出发！水土提供条件。田里长出粮食、作坊烧出青瓷，还需要人做哪些事？",
         "closingCaption": "回看刚刚读懂的历史",
         "closingNarration": "江南的发展靠当地居民和迁来的人共同劳动。修渠帮助种田，青瓷还要选料、成形、施釉和烧制；水土和原料都要经过人的工作。",
         "closingLine": "好水土加上共同劳动，江南慢慢发展。",
         "fictionNote": "田渠与作坊是教学情境，不复原某年某村。青瓷只能支持器物工艺与造型，不能证明田地产量或家家富足。羊形器用途仍有讨论，鸡首壶馆藏品有墓葬背景；插画器形不是对它们的精确复制。水渠维护与农业发展另据历史文献。",
-        "reunionImage": "/content/step-images/jin-travel-journal-reunion-v1.jpg",
+        "reunionAspectRatio": 1.5,
+        "reunionFit": "contain",
+        "reunionImage": "/content/step-images/jin-math-reform-reunion-v1.jpg",
         "stationLine": "魏、蜀、吴曾同时存在。后来短暂统一，又有南北并立；小伙伴去看迁徙、改革和继续流传的知识。",
         "stationAudio": {
           "id": "quest-3b178ba3d4febef9",
@@ -381,18 +383,19 @@
     },
     "narrativeAssets": [
       {
-        "id": "jin-travel-journal-reunion-v1",
-        "title": "三位小伙伴回看本段历史的聚会插画",
-        "localPath": "reference-assets/three-kingdoms-jin-northern-southern/jin-travel-journal-reunion-v1.png",
-        "sourcePage": null,
-        "sourceFile": "content/focused-quests.json",
-        "licensePath": "reference-assets/three-kingdoms-jin-northern-southern/ATTRIBUTION.md",
-        "license": "项目自制，供本项目使用",
+        "id": "jin-math-reform-reunion-v1",
+        "title": "小伙伴翻看三国两晋南北朝旅行手账 · 收尾插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/jin-math-reform-reunion-v2.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
         "clearance": "cleared-project-created",
-        "caption": "三位小伙伴回看本段历史的聚会插画；非历史现场复原。",
-        "boundary": "三位现代小伙伴回看旅行手册的教学插画。册页中的器物、圆形与鹿故事是回顾线索，不是原始文物、数学原稿或北魏壁画本体。",
+        "caption": "现代旅行手账插画，回看青瓷、城门、割圆与壁画故事",
+        "boundary": "现代旅行手账插画，帮助孩子回看江南青瓷、洛阳城门、圆内多边形与壁画九色鹿等线索，不是古代实物原件。",
         "childVisibility": "child-ok",
-        "image": "/content/step-images/jin-travel-journal-reunion-v1.jpg"
+        "image": "/content/step-images/jin-math-reform-reunion-v1.jpg"
       },
       {
         "id": "jin-jiangnan-fields-kiln-v1",
@@ -486,7 +489,24 @@
           "nextLabel": "去看看田与窑里的劳动",
           "kind": "fictional-guide-scene"
         },
-        "concepts": null,
+        "concepts": [
+          {
+            "term": "江南",
+            "meaning": "长江中下游以南温暖多水、盛产水稻的地方",
+            "audio": {
+              "id": "quest-c9661b356283ea0e",
+              "text": "江南：长江中下游以南温暖多水、盛产水稻的地方。"
+            }
+          },
+          {
+            "term": "青瓷",
+            "meaning": "涂上釉烧成淡青色光滑表面的瓷器",
+            "audio": {
+              "id": "quest-270ec8bc9ef83367",
+              "text": "青瓷：涂上釉烧成淡青色光滑表面的瓷器。"
+            }
+          }
+        ],
         "inspection": {
           "id": "wu-celadon-sheep-vessel",
           "title": "青瓷羊形器 · 三国吴",
@@ -1424,6 +1444,20 @@
     }
   ],
   "assets": [
+    {
+      "id": "jin-math-reform-reunion-v1",
+      "title": "小伙伴翻看三国两晋南北朝旅行手账 · 收尾插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/jin-math-reform-reunion-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代旅行手账插画，回看青瓷、城门、割圆与壁画故事",
+      "boundary": "现代旅行手账插画，帮助孩子回看江南青瓷、洛阳城门、圆内多边形与壁画九色鹿等线索，不是古代实物原件。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "study-18f57e985bdcbc66",
       "title": "学习示意：三国吴制瓷、制瓷手艺",

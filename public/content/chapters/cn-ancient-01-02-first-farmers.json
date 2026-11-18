@@ -8,7 +8,44 @@
     "id": "ancient-origins",
     "label": "远古时期",
     "years": "约200万年前—约公元前21世纪",
-    "learningContext": null
+    "learningContext": {
+      "childIntro": "从很久以前的远古时期出发，去看看河边第一批种水稻、种粟米的人怎样盖房子、做陶器。",
+      "chronology": "约200万年前至约公元前21世纪；当前开放新石器时代农耕聚落任务，认识距今约七千至六千年前的河姆渡与半坡代表性遗址。",
+      "covered": "原始农耕与定居生活、河姆渡骨耜与干栏式房屋、半坡彩陶盆与半地穴式房屋，以及种植与捕鱼采集并存的早期生活。",
+      "scopeBoundary": "河姆渡与半坡只是南北代表性遗址，不代表史前全部地区；旧石器时代与早期古城源稿保留在背景库中。",
+      "sourceIds": [
+        "NMC-ANCIENT-PREHISTORY",
+        "NMC-HEMUDU-RICE",
+        "NMC-HEMUDU-BONE-SPADE",
+        "NMC-BANPO-BASIN"
+      ],
+      "sources": [
+        {
+          "id": "NMC-ANCIENT-PREHISTORY",
+          "title": "“古代中国”基本陈列：远古时期",
+          "institution": "中国国家博物馆",
+          "url": "https://m.chnmuseum.cn/portals/0/web/zt/gudai/detail1.html"
+        },
+        {
+          "id": "NMC-HEMUDU-RICE",
+          "title": "炭化稻谷",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202008/t20200824_247227.shtml"
+        },
+        {
+          "id": "NMC-HEMUDU-BONE-SPADE",
+          "title": "骨耜",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202008/t20200824_247228.shtml"
+        },
+        {
+          "id": "NMC-BANPO-BASIN",
+          "title": "人面鱼纹彩陶盆",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202008/t20200824_247218.shtml"
+        }
+      ]
+    }
   },
   "order": 2,
   "title": "河边的第一批村落",
@@ -16,53 +53,126 @@
   "throughline": "以河姆渡、半坡等遗址观察南北不同的原始农耕生活、房屋、陶器与食物。",
   "childEntry": {
     "id": "cn-ancient-01-02-first-farmers",
-    "childTitle": "彩陶盆里的第一座村庄",
-    "prompt": "一只画着人脸和鱼的盆，能带我们看见怎样的村庄生活？",
-    "takeaway": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。",
-    "object": "人面鱼纹彩陶盆和骨耜",
+    "childTitle": "河边的第一批村落：水稻、粟米与两种房子",
+    "prompt": "很久以前，人们怎样从四处找食物变成在河边种庄稼、盖房子定居下来？去看看南方河姆渡与北方半坡的不同办法。",
+    "takeaway": "远古新石器时代，河姆渡种稻用骨耜住干栏木屋，半坡种粟做彩陶住半地穴屋，还捕鱼采集；环境不同办法不同。",
+    "object": "半坡人面鱼纹彩陶盆与河姆渡骨耜",
     "people": [
-      "河姆渡与半坡的村民"
+      "河姆渡",
+      "半坡的早期农耕居民"
     ],
-    "place": "浙江河姆渡与陕西半坡遗址",
-    "culture": "彩陶纹样",
-    "care": "不替纹样指定唯一故事，也不把南北村落画成同一种生活。",
-    "preferredAssetId": "origins-banpo-bowl"
+    "place": "黄河流域半坡遗址与长江流域河姆渡遗址",
+    "culture": "远古定居农耕与因地制宜",
+    "care": "河姆渡与半坡是南北代表性遗址，不代表史前全部地区，也不把南稻北粟说成毫无例外的分界线。早期农民同时采集、捕鱼和狩猎。半坡彩陶盆纹样有多种研究解释，儿童层只描述可见图案。博物馆沙盘与四格画为现代教学插画。",
+    "preferredAssetId": "origins-banpo-bowl",
+    "playableSource": "content/focused-quests.json"
   },
-  "learningGuide": null,
-  "textbookConnection": null,
+  "learningGuide": {
+    "id": "cn-ancient-01-02-first-farmers",
+    "theme": "衣食住行与生活",
+    "learningGoal": "南北早期农耕村落顺应不同气候与水土选择作物、工具和房屋，同时保留捕鱼采集。",
+    "parentQuestion": "为什么河姆渡要把木屋地板架高，而半坡却往黄土里挖半截屋子？",
+    "observe": "指出南方多水潮湿需要架高通风防潮，北方较干冷台地适合半地穴挡风保暖，并认出骨耜与彩陶盆。",
+    "misconception": "南稻北粟不是毫无例外的分界线；农耕出现后捕鱼采集并未立刻消失；彩陶纹样不指定唯一含义。",
+    "evidenceStepIds": [
+      "time",
+      "beginning",
+      "change"
+    ],
+    "sourceIds": [
+      "NMC-ANCIENT-PREHISTORY",
+      "NMC-HEMUDU-RICE",
+      "NMC-HEMUDU-BONE-SPADE",
+      "NMC-BANPO-BASIN"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-03-01-iron-waterworks",
+        "relation": "把远古骨耜翻水田与两千多年前的战国铁农具、水利灌溉对照，认识农具与治水的长期发展。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "农业",
+      "遗址",
+      "骨耜",
+      "干栏"
+    ]
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-01-02-first-farmers",
+    "featured": {
+      "type": "日常生活",
+      "icon": "🌾",
+      "title": "河姆渡与半坡的早期农耕居民",
+      "childBridge": "很久以前，人们怎样从四处找食物变成在河边种庄稼、盖房子定居下来？去看看南方河姆渡与北方半坡的不同办法。",
+      "evidenceBoundary": "河姆渡与半坡是南北代表性遗址，不代表史前全部地区，也不把南稻北粟说成毫无例外的分界线。"
+    },
+    "companions": [
+      {
+        "type": "实物",
+        "label": "河姆渡骨耜与炭化稻谷",
+        "note": "动物肩胛骨绑木柄做成翻水田的农具，配合出土稻谷遗存证明南方早期稻作。"
+      },
+      {
+        "type": "实物",
+        "label": "半坡人面鱼纹彩陶盆",
+        "note": "展示制陶技术与熟悉的鱼类；纹样含义存在多种解释，只描述可见图案。"
+      },
+      {
+        "type": "建筑",
+        "label": "干栏式木屋与半地穴式房屋",
+        "note": "架高防潮与半地穴保暖分别适应不同气候水土，没有优劣高低之分。"
+      }
+    ],
+    "sourceIds": [
+      "MOE-HISTORY-CURRICULUM-2022",
+      "NMC-ANCIENT-PREHISTORY",
+      "NMC-HEMUDU-RICE",
+      "NMC-HEMUDU-BONE-SPADE",
+      "NMC-BANPO-BASIN"
+    ]
+  },
   "childStory": [
     {
-      "id": "hook",
-      "icon": "📍",
-      "label": "从一个地方出发",
-      "text": "彩陶盆里的第一座村庄"
+      "id": "time",
+      "icon": "🕰️",
+      "label": "从远古河边的村落出发",
+      "text": "很久以前的远古新石器时代，一些河边的人们学会照料庄稼、烧制陶器，在同一处村落住得更久。眼前是距今约六千年的半坡彩陶盆。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "彩陶盆和稻谷",
-      "text": "先看半坡彩陶盆，再找河姆渡的稻谷和骨耜。"
+      "label": "沙盘里找南北庄稼与工具",
+      "text": "南方长江边的河姆渡温暖多水，人们种水稻、用骨耜翻水田；北方黄河边的半坡较干冷，人们种粟米（小米）、烧彩陶盆。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "村里的一天",
-      "text": "接着看村民怎样种植、做饭，并在村里定居。"
+      "label": "潮湿多水的地方，怎样盖房子？",
+      "text": "河姆渡雨水多、地面湿软，如果直接睡在湿地上容易受潮；北方半坡冬天较冷，把屋子往下挖半截能挡风保暖。房子不同是为了适应环境。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "南北两座村庄",
-      "text": "最后发现南北村庄不同，都在学着安稳生活。"
+      "label": "骨耜帮人们在哪种田里干活？",
+      "text": "第一批农民不光种庄稼，平时也去河边捕鱼、林间采果子，让食物更充足。遇到潮湿的水田时，人们会拿起绑着木柄的骨耜翻土整地。"
     },
     {
-      "id": "answer-retell",
+      "id": "takeaway",
       "icon": "🗣️",
-      "label": "把故事讲给家人听",
-      "text": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。"
+      "label": "环境不同，生活的巧办法也不同",
+      "text": "稻谷、骨耜、彩陶盆和房屋遗迹放在一起，让我们看见远古人们怎样顺着冷暖干湿想办法。房子和作物没有谁高谁低，都是适应自然的智慧。"
     }
   ],
   "glossary": [
+    {
+      "term": "农业",
+      "icon": "🌾",
+      "plain": "种植作物、饲养动物来获得食物和原料。",
+      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
+      "priority": 2
+    },
     {
       "term": "遗址",
       "icon": "🏚️",
@@ -71,32 +181,18 @@
       "priority": 1
     },
     {
-      "term": "考古",
-      "icon": "🧹",
-      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
-      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
+      "term": "骨耜",
+      "icon": "🦴",
+      "plain": "用大动物的扁骨绑上木柄做成的农具，用来翻水田、挖水沟。",
+      "example": "河姆渡人用骨耜平整潮湿的水田。",
       "priority": 1
     },
     {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
+      "term": "干栏",
+      "icon": "🏠",
+      "plain": "用木桩把地板架高的房子，底下留空通风，不怕地面潮湿积水。",
+      "example": "南方多雨潮湿的地方适合住架高的干栏木屋。",
       "priority": 1
-    },
-    {
-      "term": "技术",
-      "icon": "⚙️",
-      "plain": "人们解决具体问题时积累的工具和做法。",
-      "example": "技术常由许多人长期改进，不是某天突然出现。",
-      "priority": 2
-    },
-    {
-      "term": "农业",
-      "icon": "🌾",
-      "plain": "种植作物、饲养动物来获得食物和原料。",
-      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
-      "priority": 2
     }
   ],
   "pronunciations": [
@@ -117,260 +213,759 @@
         "cn-ancient-01-02-first-farmers"
       ],
       "note": "“姆”读mǔ。"
+    },
+    {
+      "text": "骨耜",
+      "reading": "gǔ sì",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-01-02-first-farmers"
+      ],
+      "note": "“耜”读sì，避免误读为sī；自动绑定不等于已人工校听。"
     }
   ],
   "gameplay": {
-    "mode": "memory-hook-story-quest-v3",
+    "mode": "authored-picture-quest-v4",
     "status": "playable-core",
     "audioStatus": "local-pre-generated",
     "hook": {
-      "kind": "一个地方",
-      "icon": "📍",
-      "label": "彩陶盆里的第一座村庄",
-      "question": "一只画着人脸和鱼的盆，能带我们看见怎样的村庄生活？"
+      "kind": "具体任务",
+      "icon": "🔎",
+      "label": "河边的第一批村落：水稻、粟米与两种房子",
+      "question": "很久以前，人们怎样从四处找食物变成在河边种庄稼、盖房子定居下来？去看看南方河姆渡与北方半坡的不同办法。"
+    },
+    "cta": "去远古河边村落看看",
+    "anchor": "河姆渡与半坡的早期农耕居民",
+    "boundary": "河姆渡与半坡是南北代表性遗址，不代表史前全部地区，也不把南稻北粟说成毫无例外的分界线。早期农民同时采集、捕鱼和狩猎。半坡彩陶盆纹样有多种研究解释，儿童层只描述可见图案。博物馆沙盘与四格画为现代教学插画。",
+    "evidence": [
+      {
+        "id": "origins-banpo-bowl",
+        "title": "半坡人面鱼纹彩陶盆",
+        "localPath": "reference-assets/origins/banpo-bowl.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Banpo_bowl.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY 2.0",
+        "clearance": "cleared-open-license",
+        "caption": "半坡遗址出土的人面鱼纹彩陶盆。",
+        "boundary": "纹样含义存在多种解释，只作观察题；照片经过来源页记载的色彩校正。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/origins-banpo-bowl.jpg"
+      },
+      {
+        "id": "origins-hemudu-bone-spade",
+        "title": "河姆渡遗址出土带藤骨耜",
+        "localPath": "reference-assets/origins/hemudu-bone-spade.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bone_spade_with_rattans_unearthed_at_Hemudu_Site.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 4.0",
+        "clearance": "cleared-open-license",
+        "caption": "河姆渡遗址出土的带藤骨耜，可见骨板、木柄和绑缚结构。",
+        "boundary": "事实名称和用途以中国国家博物馆藏品记录核验；未修改原图。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/origins-hemudu-bone-spade.jpg"
+      }
+    ],
+    "photoAlbum": {
+      "id": "origins-farmers-album",
+      "title": "远古农耕村落真文物相册",
+      "label": "翻看两件远古村落文物",
+      "photos": [
+        {
+          "assetId": "origins-banpo-bowl",
+          "title": "半坡人面鱼纹彩陶盆",
+          "label": "半坡彩陶盆",
+          "period": "新石器时代仰韶文化 · 距今约六千年",
+          "caption": "半坡遗址出土彩陶盆，盆内绘有人面与鱼纹",
+          "observation": "看看盆沿和盆里的黑色线条，能找到圆圆的人脸和游动的鱼纹吗？",
+          "narration": "这只彩陶盆出土于陕西西安半坡遗址，距今约六千年。盆里画着人脸和鱼的图案，说明人们会烧制陶器，也熟悉河里的鱼。图案的具体含义还在研究，我们先看清能直接见到的形状。",
+          "sourceIds": [
+            "NMC-BANPO-BASIN"
+          ],
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：人面鱼纹彩陶盆",
+              "url": "https://www.chnmus.net/ch/collection/data/20201105/65156.html"
+            },
+            {
+              "title": "开放许可文件页（CC BY 2.0）",
+              "url": "https://commons.wikimedia.org/wiki/File:Banpo_bowl.jpg"
+            }
+          ],
+          "image": "/content/step-images/origins-banpo-bowl.jpg",
+          "boundary": "纹样含义存在多种解释，只作观察题；照片经过来源页记载的色彩校正。",
+          "audio": {
+            "id": "quest-8492d83e61ad0044",
+            "text": "这只彩陶盆出土于陕西西安半坡遗址，距今约六千年。盆里画着人脸和鱼的图案，说明人们会烧制陶器，也熟悉河里的鱼。图案的具体含义还在研究，我们先看清能直接见到的形状。"
+          }
+        },
+        {
+          "assetId": "origins-hemudu-bone-spade",
+          "title": "河姆渡带藤骨耜",
+          "label": "河姆渡骨耜",
+          "period": "新石器时代河姆渡文化 · 距今约七千年",
+          "caption": "用动物肩胛骨制成，保留藤条绑缚木柄的痕迹",
+          "observation": "看看宽宽的骨头铲面和中间绑木柄的孔与藤条，边缘还有用过的磨损痕迹。",
+          "narration": "这件骨耜出土于浙江余姚河姆渡遗址，距今约七千年。古人用大型动物的肩胛骨做铲面，绑上木柄，用来平整潮湿的水田和挖水沟。",
+          "sourceIds": [
+            "NMC-HEMUDU-BONE-SPADE"
+          ],
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：骨耜",
+              "url": "https://www.chnmus.net/ch/collection/data/20201105/65155.html"
+            },
+            {
+              "title": "开放许可文件页（CC BY-SA 4.0）",
+              "url": "https://commons.wikimedia.org/wiki/File:Bone_spade_with_rattans_unearthed_at_Hemudu_Site.jpg"
+            }
+          ],
+          "image": "/content/step-images/origins-hemudu-bone-spade.jpg",
+          "boundary": "事实名称和用途以中国国家博物馆藏品记录核验；未修改原图。",
+          "audio": {
+            "id": "quest-143e7890a581205a",
+            "text": "这件骨耜出土于浙江余姚河姆渡遗址，距今约七千年。古人用大型动物的肩胛骨做铲面，绑上木柄，用来平整潮湿的水田和挖水沟。"
+          }
+        }
+      ]
+    },
+    "coverAsset": {
+      "id": "origins-banpo-bowl",
+      "title": "半坡人面鱼纹彩陶盆",
+      "localPath": "reference-assets/origins/banpo-bowl.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Banpo_bowl.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC BY 2.0",
+      "clearance": "cleared-open-license",
+      "caption": "半坡遗址出土的人面鱼纹彩陶盆。",
+      "boundary": "纹样含义存在多种解释，只作观察题；照片经过来源页记载的色彩校正。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/origins-banpo-bowl.jpg"
+    },
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "origins-farmers-scene-v1",
+      "sceneAlt": "三位现代小伙伴在博物馆沙盘前对比南方水田干栏木屋与北方粟地半地穴屋",
+      "title": "河边的第一批村落：水稻、粟米与两种房子",
+      "evidenceTitle": "半坡彩陶盆与河姆渡骨耜",
+      "evidenceLine": "真实出土文物与博物馆教学沙盘分开查看。",
+      "evidenceNarration": "彩陶盆和骨耜是考古出土的真实远古器物，帮助我们认识六七千年前的河边生活。",
+      "guide": "听听语音提示，点沙盘或图卡找线索。",
+      "alignHint": "",
+      "familyHint": "和家人一起找找大米、小米与两种房子的秘密。",
+      "familyLabel": "和家人一起找找家里的粮食",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "带着发现回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "origins-farmers-scene-v1",
+        "reunionAlt": "三位小伙伴在博物馆沙盘前回看远古南北村落的发现",
+        "reunionAspectRatio": 1.5,
+        "reunionFit": "contain",
+        "coverCaption": "去远古河边看第一批种庄稼的村落",
+        "coverNarration": "我们平时吃的米饭和小米粥，最早是从哪里种出来的？跟小伙伴回到远古河边，看看南方河姆渡和北方半坡怎样盖房子、种庄稼！",
+        "closingCaption": "因地制宜的远古生活",
+        "closingLine": "环境不同，盖房和种粮的办法也不同。",
+        "closingNarration": "远古新石器时代，人们学会种植水稻和粟米、制作骨耜与彩陶，并根据冷暖干湿盖出不同的房子，在河边定居下来。",
+        "fictionNote": "博物馆沙盘与四格画是现代教学插画，不是史前村落现场照片；真实出土器物请打开相册查看半坡彩陶盆与河姆渡骨耜。",
+        "reunionImage": "/content/step-images/origins-farmers-scene-v1.jpg",
+        "stationLine": "从很久以前的远古时期出发，去看看河边第一批种水稻、种粟米的人怎样盖房子、做陶器。",
+        "stationAudio": {
+          "id": "quest-27e1f75e70ba3988",
+          "text": "从很久以前的远古时期出发，去看看河边第一批种水稻、种粟米的人怎样盖房子、做陶器。"
+        },
+        "closingAudio": {
+          "id": "quest-633fc0b6c33b9f9c",
+          "text": "远古新石器时代，人们学会种植水稻和粟米、制作骨耜与彩陶，并根据冷暖干湿盖出不同的房子，在河边定居下来。"
+        }
+      },
+      "sceneImage": "/content/step-images/origins-farmers-scene-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-64e4651c445183ef",
+        "text": "彩陶盆和骨耜是考古出土的真实远古器物，帮助我们认识六七千年前的河边生活。"
+      },
+      "guideAudio": {
+        "id": "quest-85dc96ec3844c075",
+        "text": "听听语音提示，点沙盘或图卡找线索。"
+      }
+    },
+    "sceneAsset": {
+      "id": "origins-farmers-scene-v1",
+      "title": "博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/origins-farmers-scene-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代博物馆沙盘示意：左看潮湿水田与架高木屋，右看黄土台地与半地穴屋",
+      "boundary": "现代博物馆沙盘教学插画，帮助比较河姆渡与半坡代表的不同居住和种植环境；不是史前聚落精确测绘，也不把南稻北粟说成毫无例外的分界线。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/origins-farmers-scene-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "origins-farmers-scene-v1",
+        "title": "博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/origins-farmers-scene-v2.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
+        "clearance": "cleared-project-created",
+        "caption": "现代博物馆沙盘示意：左看潮湿水田与架高木屋，右看黄土台地与半地穴屋",
+        "boundary": "现代博物馆沙盘教学插画，帮助比较河姆渡与半坡代表的不同居住和种植环境；不是史前聚落精确测绘，也不把南稻北粟说成毫无例外的分界线。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/origins-farmers-scene-v1.jpg"
+      },
+      {
+        "id": "origins-farmers-choices-v1",
+        "title": "远古村落房屋与食物来源比较 · 四格选项插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/origins-farmers-choices-v2.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
+        "clearance": "cleared-project-created",
+        "caption": "教学选项插画：干栏木屋、半地穴屋、骨耜耕稻与溪边捕鱼彩陶",
+        "boundary": "现代教学选项插画，帮助比较潮湿与较干燥环境下的建房方式及农耕与捕鱼并存的生活，不是史前人物写真；彩陶纹样不指定唯一含义。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/origins-farmers-choices-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/origins-banpo-bowl.jpg",
+    "coverImageAlt": "半坡人面鱼纹彩陶盆",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "半坡人面鱼纹彩陶盆",
+      "fit": "contain"
     },
     "coverAudio": {
-      "id": "quest-03eaa1e6ccd423b9",
-      "text": "今天从一个地方出发：彩陶盆里的第一座村庄。我们要去浙江河姆渡与陕西半坡遗址，看看人面鱼纹彩陶盆和骨耜怎样把答案一点点带出来。准备好就点开始。"
+      "id": "quest-b5333ba3b346a1b3",
+      "text": "我们平时吃的米饭和小米粥，最早是从哪里种出来的？跟小伙伴回到远古河边，看看南方河姆渡和北方半坡怎样盖房子、种庄稼！"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-0e56ef657e00b16c",
-      "text": "五条线索都找到了，“彩陶盆里的第一座村庄”的答案是：彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。 你获得了历史证据小侦探勋章。"
+      "id": "quest-dc759da619a05b66",
+      "text": "远古新石器时代，河姆渡种稻用骨耜住干栏木屋，半坡种粟做彩陶住半地穴屋，还捕鱼采集；环境不同办法不同。"
     },
-    "estimatedMinutes": 8,
+    "finish": {
+      "title": "环境不同，盖房和种粮的办法也不同！",
+      "actions": [
+        "和家人看看厨房里的大米和小米（粟），摸一摸两种颗粒有什么不同。",
+        "指着图说一说：为什么多雨湿地要把木屋地板架高？"
+      ],
+      "parent": "河姆渡与半坡帮助孩子从最熟悉的米饭、小米粥和房子认识史前定居生活。注意提醒孩子：南稻北粟是代表性传统而非绝对分界线，早期农民仍保留捕鱼采集，彩陶纹样不指定唯一含义。",
+      "sceneStepIndexes": [
+        1,
+        2
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-a364da6a59a6bb82",
+          "text": "和家人看看厨房里的大米和小米（粟），摸一摸两种颗粒有什么不同。"
+        },
+        {
+          "id": "quest-3d642388affaef68",
+          "text": "指着图说一说：为什么多雨湿地要把木屋地板架高？"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-633fc0b6c33b9f9c",
+        "text": "远古新石器时代，人们学会种植水稻和粟米、制作骨耜与彩陶，并根据冷暖干湿盖出不同的房子，在河边定居下来。"
+      }
+    },
+    "estimatedMinutes": 6,
     "badge": {
-      "icon": "🏅",
-      "label": "历史证据小侦探"
+      "icon": "🌟",
+      "label": "小小观察员"
     },
     "steps": [
       {
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "先找到时间",
-        "title": "先把故事放进时间河",
-        "prompt": "从一个地方出发，先找哪个年代？",
-        "rightNote": "时间找对了，故事有了起点。",
-        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "phase": "从远古河边的村落出发",
+        "title": "从远古河边的村落出发",
+        "prompt": "这些河边第一批农耕村落出现在哪一时期？",
+        "rightNote": "在最古老的远古时期，人们开始种庄稼、做陶器。",
+        "wrongNote": "唐朝晚得多，彩陶盆与早期农耕村落属于远古时期。",
+        "sourceIds": [
+          "NMC-ANCIENT-PREHISTORY",
+          "NMC-BANPO-BASIN"
+        ],
+        "interaction": {
+          "kind": "timeline",
+          "hint": "看看时间河最开头的位置，再选时期。"
+        },
+        "narrative": {
+          "scene": "artifact",
+          "caption": "从远古河边的村落出发",
+          "speaker": "小航",
+          "responseSpeaker": "小禾",
+          "response": "在时间河最前面的远古时期，河边有了定居村落。",
+          "retry": "看看时间河最开头的一站，这只彩陶盆来自六千多年前。",
+          "nextLabel": "看看南北两种村落沙盘"
+        },
+        "concepts": [
+          {
+            "term": "新石器时代",
+            "meaning": "远古人学会磨石器、做陶器、种庄稼的时期",
+            "audio": {
+              "id": "quest-4953d04bc0e96a20",
+              "text": "新石器时代：远古人学会磨石器、做陶器、种庄稼的时期。"
+            }
+          },
+          {
+            "term": "彩陶盆",
+            "meaning": "用泥土烧成并画上花纹的盆子",
+            "audio": {
+              "id": "quest-6af7c966b1ddec93",
+              "text": "彩陶盆：用泥土烧成并画上花纹的盆子。"
+            }
+          }
+        ],
+        "inspection": {
+          "id": "origins-banpo-bowl",
+          "title": "半坡人面鱼纹彩陶盆",
+          "localPath": "reference-assets/origins/banpo-bowl.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Banpo_bowl.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY 2.0",
+          "clearance": "cleared-open-license",
+          "caption": "新石器时代 · 距今约六千年 · 馆藏实物照片",
+          "boundary": "纹样含义存在多种解释，只作观察题；照片经过来源页记载的色彩校正。 半坡遗址出土的人面鱼纹彩陶盆。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/origins-banpo-bowl.jpg",
+          "label": "翻看远古村落两件真文物",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 260,
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：人面鱼纹彩陶盆",
+              "url": "https://www.chnmus.net/ch/collection/data/20201105/65156.html"
+            },
+            {
+              "title": "开放许可文件页",
+              "url": "https://commons.wikimedia.org/wiki/File:Banpo_bowl.jpg"
+            }
+          ],
+          "audio": {
+            "id": "quest-4366422cb775a778",
+            "text": "这只彩陶盆出土于半坡遗址，盆里画着人脸和鱼纹。点开相册还能一起看河姆渡的骨耜。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "先把故事放进时间河",
-          "screenText": "这是远古时期，时间是约200万年前—约公元前21世纪。",
-          "narration": "这是远古时期，时间是约200万年前—约公元前21世纪。",
-          "displayText": "这是远古时期，时间是约200万年前—约公元前21世纪。"
+          "title": "从远古河边的村落出发",
+          "screenText": "很久以前的远古新石器时代，一些河边的人们学会照料庄稼、烧制陶器，在同一处村落住得更久。眼前是距今约六千年的半坡彩陶盆。",
+          "displayText": "很久以前的远古新石器时代，一些河边的人们学会照料庄稼、烧制陶器，在同一处村落住得更久。眼前是距今约六千年的半坡彩陶盆。",
+          "narration": "很久以前的远古新石器时代，一些河边的人们学会照料庄稼、烧制陶器，在同一处村落住得更久。眼前是距今约六千年的半坡彩陶盆。"
         },
-        "assetId": "origins-banpo-bowl",
-        "image": "/content/step-images/origins-banpo-bowl.jpg",
-        "imageAlt": "半坡人面鱼纹彩陶盆",
-        "imageCaption": "半坡遗址出土的人面鱼纹彩陶盆。",
-        "imageBoundary": "纹样含义存在多种解释，只作观察题；照片经过来源页记载的色彩校正。",
+        "assetId": "study-db8cd168f94fcfaa",
+        "image": "/content/study-scenes/study-db8cd168f94fcfaa.svg",
+        "studyImage": "/content/study-scenes/study-db8cd168f94fcfaa.svg",
+        "studyImageAlt": "远古河边村落，种植与陶器",
+        "imageAlt": "远古河边村落，种植与陶器",
+        "imageCaption": "学习示意 · 远古河边村落，种植与陶器",
+        "imageBoundary": "自制学习示意。河姆渡与半坡是南北代表性遗址，不代表史前全部地区，也不把南稻北粟说成毫无例外的分界线。早期农民同时采集、捕鱼和狩猎。半坡彩陶盆纹样有多种研究解释，儿童层只描述可见图案。博物馆沙盘与四格画为现代教学插画。",
         "audio": {
+          "lead": {
+            "id": "quest-34117b6b4c13d7a5",
+            "text": "很久以前的远古新石器时代，人们开始在河边种庄稼、做陶器、定居下来。这些早期村落出现在哪一时期？"
+          },
           "transition": {
-            "id": "quest-cafb042b318bc60f",
-            "text": "先给一个地方找到正确年代。"
+            "id": "quest-3d83b89056b93df7",
+            "text": "从远古河边的村落出发。"
           },
           "intro": {
-            "id": "quest-c0bfe54a85c11f2c",
-            "text": "这是远古时期，时间是约200万年前—约公元前21世纪。"
-          },
-          "image": {
-            "id": "quest-5622bf7bd4c047ff",
-            "text": "点开大图啦。这是半坡人面鱼纹彩陶盆。这张图能帮我们找到：这是远古时期，时间是约200万年前—约公元前21世纪。"
+            "id": "quest-0b6cc4045ff352d5",
+            "text": "很久以前的远古新石器时代，一些河边的人们学会照料庄稼、烧制陶器，在同一处村落住得更久。眼前是距今约六千年的半坡彩陶盆。"
           },
           "question": {
-            "id": "quest-6b36b10ba4b7def9",
-            "text": "从一个地方出发，先找哪个年代？"
+            "id": "quest-83fd4e1bccc4d4b5",
+            "text": "这些河边第一批农耕村落出现在哪一时期？"
+          },
+          "image": {
+            "id": "quest-004740931aed4852",
+            "text": "这是学习示意图：远古河边村落，种植与陶器。这些河边第一批农耕村落出现在哪一时期？"
           },
           "right": {
-            "id": "quest-c2d78010da74a324",
-            "text": "答对啦！时间找对了，故事有了起点。"
+            "id": "quest-d76a27f5b333abc8",
+            "text": "在时间河最前面的远古时期，河边有了定居村落。"
           },
           "wrong": {
-            "id": "quest-97f81f02dcd7c5eb",
-            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+            "id": "quest-3481502391d4e7d3",
+            "text": "看看时间河最开头的一站，这只彩陶盆来自六千多年前。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-01-02-first-farmers-time-1",
-            "label": "世界现代史 · 两次世界大战之间 · 1918—1939年",
-            "correct": false,
+            "label": "远古时期 · 六七千年前",
+            "correct": true,
+            "objectView": {
+              "kind": "era",
+              "name": "远古时期",
+              "date": "约七千—六千年前",
+              "stationImage": "/images/history-stations/early.webp"
+            },
+            "image": "/content/study-scenes/study-d7ae8f02b316434b.svg",
+            "imageAlt": "远古时期",
             "audio": {
-              "id": "quest-d697ebadd2ec4ecb",
-              "text": "世界现代史 · 两次世界大战之间 · 1918—1939年"
+              "id": "quest-bad3b1d7b291d581",
+              "text": "远古时期 · 六七千年前"
             }
           },
           {
             "id": "cn-ancient-01-02-first-farmers-time-2",
-            "label": "中国古代史 · 远古时期 · 约200万年前—约公元前21世纪",
-            "correct": true,
-            "audio": {
-              "id": "quest-94ff591985218457",
-              "text": "中国古代史 · 远古时期 · 约200万年前—约公元前21世纪"
-            }
-          },
-          {
-            "id": "cn-ancient-01-02-first-farmers-time-3",
-            "label": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年",
+            "label": "唐朝 · 618—907年",
             "correct": false,
+            "objectView": {
+              "kind": "era",
+              "name": "唐朝",
+              "date": "618—907年",
+              "stationImage": "/images/history-stations/tang.webp"
+            },
+            "image": "/content/study-scenes/study-1c86960f58aac6a6.svg",
+            "imageAlt": "唐朝",
             "audio": {
-              "id": "quest-ec1b28f3cd29e479",
-              "text": "世界现代史 · 第一次世界大战与俄国十月革命 · 1914—1922年"
+              "id": "quest-3be720cd7bfdc54e",
+              "text": "唐朝 · 618—907年"
             }
           }
         ]
       },
       {
         "id": "beginning",
-        "questionKind": "evidence-object",
+        "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "第一拍 · 故事起点",
-        "title": "彩陶盆和稻谷",
-        "prompt": "哪一件证物能先打开这个故事？",
-        "rightNote": "先看半坡彩陶盆，再找河姆渡的稻谷和骨耜。",
-        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "phase": "沙盘里找南北庄稼与工具",
+        "title": "沙盘里找南北庄稼与工具",
+        "prompt": "哪一边是种水稻、放着骨耜的南方水田？",
+        "rightNote": "南方水田与北方旱地，各有适合的作物与工具。",
+        "wrongNote": "再看看哪一边有水田，哪一边有黄土与彩陶盆。",
+        "sourceIds": [
+          "NMC-ANCIENT-PREHISTORY",
+          "NMC-HEMUDU-RICE",
+          "NMC-HEMUDU-BONE-SPADE",
+          "NMC-BANPO-BASIN"
+        ],
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "点一点沙盘左右两边对应的线索。",
+          "imageLabel": "故事插画",
+          "sceneAspectRatio": 1.5,
+          "hotspots": [
+            {
+              "id": "south-rice-spade",
+              "label": "南方水田、干栏木屋与骨耜",
+              "x": 0.04,
+              "y": 0.41,
+              "width": 0.45,
+              "height": 0.51
+            },
+            {
+              "id": "north-millet-pottery",
+              "label": "北方粟穗、半地穴屋与鱼纹彩陶盆",
+              "x": 0.51,
+              "y": 0.41,
+              "width": 0.45,
+              "height": 0.51
+            }
+          ],
+          "rounds": [
+            {
+              "id": "south",
+              "targetId": "south-rice-spade",
+              "question": "哪一边是种水稻、放着骨耜的南方村落？",
+              "feedback": "找到了！河姆渡水多潮湿，人们在水田里种稻。",
+              "retry": "右边是黄土台地，再看左边有水田的一侧。",
+              "nextLabel": "再找北方种粟与彩陶盆",
+              "audio": {
+                "question": {
+                  "id": "quest-a7eb34e9f3adbc30",
+                  "text": "哪一边是种水稻、放着骨耜的南方村落？"
+                },
+                "right": {
+                  "id": "quest-17a1b2e963a734cb",
+                  "text": "找到了！河姆渡水多潮湿，人们在水田里种稻。"
+                },
+                "wrong": {
+                  "id": "quest-a2d74518f7f13bee",
+                  "text": "右边是黄土台地，再看左边有水田的一侧。"
+                }
+              }
+            },
+            {
+              "id": "north",
+              "targetId": "north-millet-pottery",
+              "question": "哪一边种着黄澄澄的粟穗、放着鱼纹彩陶盆？",
+              "feedback": "找到了！半坡人在河谷台地种粟，还会烧制彩陶。",
+              "retry": "左边是水田，再看右边金黄色的粟穗和彩陶盆。",
+              "nextLabel": "比一比两种房子",
+              "audio": {
+                "question": {
+                  "id": "quest-2442d0d6659268d3",
+                  "text": "哪一边种着黄澄澄的粟穗、放着鱼纹彩陶盆？"
+                },
+                "right": {
+                  "id": "quest-f1542869838faf7d",
+                  "text": "找到了！半坡人在河谷台地种粟，还会烧制彩陶。"
+                },
+                "wrong": {
+                  "id": "quest-34b2734bb801993e",
+                  "text": "左边是水田，再看右边金黄色的粟穗和彩陶盆。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "南北代表性村落沙盘",
+          "speaker": "小朵",
+          "responseSpeaker": "小禾",
+          "response": "水田稻作与黄土粟作，都是人们顺着当地环境想出的办法。",
+          "retry": "仔细看水面与黄土的差别。",
+          "nextLabel": "比一比两种房子为什么不同"
+        },
+        "concepts": [
+          {
+            "term": "骨耜",
+            "meaning": "用大动物扁骨绑木柄做成的翻水田农具",
+            "audio": {
+              "id": "quest-c1a5cc64df67727d",
+              "text": "骨耜：用大动物扁骨绑木柄做成的翻水田农具。"
+            }
+          },
+          {
+            "term": "粟",
+            "meaning": "去壳后就是今天煮粥常见的小米",
+            "audio": {
+              "id": "quest-2b986239685e1a24",
+              "text": "粟：去壳后就是今天煮粥常见的小米。"
+            }
+          }
+        ],
+        "inspection": {
+          "id": "origins-hemudu-bone-spade",
+          "title": "河姆渡出土带藤骨耜",
+          "localPath": "reference-assets/origins/hemudu-bone-spade.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Bone_spade_with_rattans_unearthed_at_Hemudu_Site.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 4.0",
+          "clearance": "cleared-open-license",
+          "caption": "馆藏真文物 · 肩胛骨农具",
+          "boundary": "事实名称和用途以中国国家博物馆藏品记录核验；未修改原图。 河姆渡遗址出土的带藤骨耜，可见骨板、木柄和绑缚结构。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/origins-hemudu-bone-spade.jpg",
+          "label": "看真文物：河姆渡骨耜",
+          "placement": "supporting",
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：骨耜",
+              "url": "https://www.chnmus.net/ch/collection/data/20201105/65155.html"
+            }
+          ],
+          "audio": {
+            "id": "quest-edab16bb06caff9a",
+            "text": "这件骨耜用大动物肩胛骨做成，还留着绑木柄的藤条，能用来平整水田和挖沟。"
+          }
+        },
         "story": {
           "screenNumber": 2,
-          "title": "彩陶盆和稻谷",
-          "screenText": "先看半坡彩陶盆，再找河姆渡的稻谷和骨耜。",
-          "narration": "先看半坡彩陶盆，再找河姆渡的稻谷和骨耜。",
-          "displayText": "先看半坡彩陶盆，再找河姆渡的稻谷和骨耜。"
+          "title": "沙盘里找南北庄稼与工具",
+          "screenText": "南方长江边的河姆渡温暖多水，人们种水稻、用骨耜翻水田；北方黄河边的半坡较干冷，人们种粟米（小米）、烧彩陶盆。",
+          "displayText": "南方长江边的河姆渡温暖多水，人们种水稻、用骨耜翻水田；北方黄河边的半坡较干冷，人们种粟米（小米）、烧彩陶盆。",
+          "narration": "南方长江边的河姆渡温暖多水，人们种水稻、用骨耜翻水田；北方黄河边的半坡较干冷，人们种粟米（小米）、烧彩陶盆。"
         },
-        "assetId": "origins-banpo-bowl",
-        "image": "/content/step-images/origins-banpo-bowl.jpg",
-        "imageAlt": "半坡人面鱼纹彩陶盆",
-        "imageCaption": "半坡遗址出土的人面鱼纹彩陶盆。",
-        "imageBoundary": "纹样含义存在多种解释，只作观察题；照片经过来源页记载的色彩校正。",
+        "assetId": "origins-farmers-scene-v1",
+        "image": "/content/step-images/origins-farmers-scene-v1.jpg",
+        "studyImage": "/content/study-scenes/study-3b2652311bce4e8e.svg",
+        "studyImageAlt": "南方水田种稻，北方台地种粟",
+        "imageAlt": "博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画",
+        "imageCaption": "博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画",
+        "imageBoundary": "现代博物馆沙盘教学插画，帮助比较河姆渡与半坡代表的不同居住和种植环境；不是史前聚落精确测绘，也不把南稻北粟说成毫无例外的分界线。",
         "audio": {
+          "lead": {
+            "id": "quest-6e8746ba93a21cdf",
+            "text": "左边沙盘多水，有水稻、骨耜和架高木屋；右边较干燥，有粟米、彩陶盆和半地穴屋。先找南方水田。"
+          },
           "transition": {
-            "id": "quest-bc13be496686808e",
-            "text": "时间找到了。先找一件看得见、能核对的证物。"
+            "id": "quest-ade8b705dbee2085",
+            "text": "沙盘里找南北庄稼与工具。"
           },
           "intro": {
-            "id": "quest-477ed3a466d832fc",
-            "text": "先看半坡彩陶盆，再找河姆渡的稻谷和骨耜。"
-          },
-          "image": {
-            "id": "quest-f92b626800d22425",
-            "text": "点开大图啦。这是半坡人面鱼纹彩陶盆。这张图能帮我们找到：先看半坡彩陶盆，再找河姆渡的稻谷和骨耜。"
+            "id": "quest-06e82f0a6e860612",
+            "text": "南方长江边的河姆渡温暖多水，人们种水稻、用骨耜翻水田；北方黄河边的半坡较干冷，人们种粟米（小米）、烧彩陶盆。"
           },
           "question": {
-            "id": "quest-785d31b501154b8e",
-            "text": "哪一件证物能先打开这个故事？"
+            "id": "quest-75f4818052bec1ac",
+            "text": "哪一边是种水稻、放着骨耜的南方水田？"
+          },
+          "image": {
+            "id": "quest-585fb13504c9ff40",
+            "text": "这张是博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画。南方长江边的河姆渡温暖多水，人们种水稻、用骨耜翻水田；北方黄河边的半坡较干冷，人们种粟米（小米）、烧彩陶盆。"
           },
           "right": {
-            "id": "quest-9e334cf899a379f3",
-            "text": "答对啦！第一件证物找到了。"
+            "id": "quest-3750ff8e53baa4e3",
+            "text": "水田稻作与黄土粟作，都是人们顺着当地环境想出的办法。"
           },
           "wrong": {
-            "id": "quest-83318c217691cf7c",
-            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+            "id": "quest-016a912ff9ebd68d",
+            "text": "仔细看水面与黄土的差别。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-01-02-first-farmers-beginning-1",
-            "label": "人面鱼纹彩陶盆和骨耜，是能核对的证物",
-            "correct": true,
-            "audio": {
-              "id": "quest-547847b7af324187",
-              "text": "人面鱼纹彩陶盆和骨耜，是能核对的证物"
-            }
-          },
-          {
-            "id": "cn-ancient-01-02-first-farmers-beginning-2",
-            "label": "河姆渡与半坡的村民、浙江，只是故事人物",
-            "correct": false,
-            "audio": {
-              "id": "quest-fbc477d4926fa6b5",
-              "text": "河姆渡与半坡的村民、浙江，只是故事人物"
-            }
-          },
-          {
-            "id": "cn-ancient-01-02-first-farmers-beginning-3",
-            "label": "浙江河姆渡与陕西半坡，只是故事地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-593d2631b946a84e",
-              "text": "浙江河姆渡与陕西半坡，只是故事地点"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
-        "questionKind": "people-place-action",
+        "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "第二拍 · 故事继续",
-        "title": "村里的一天",
-        "prompt": "故事里的人来到这里以后，做了什么？",
-        "rightNote": "接着看村民怎样种植、做饭，并在村里定居。",
-        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "phase": "潮湿多水的地方，怎样盖房子？",
+        "title": "潮湿多水的地方，怎样盖房子？",
+        "prompt": "在潮湿多水的地方，哪种房子更合适？",
+        "rightNote": "用木桩把地板架高，底下通风又不怕积水。",
+        "wrongNote": "半地穴屋适合较干燥挡风的台地，湿地更需要把地板架高。",
+        "sourceIds": [
+          "NMC-ANCIENT-PREHISTORY",
+          "NMC-HEMUDU-RICE"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "看看哪座房子把木地板架高离开湿地。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "因地制宜的两种房子",
+          "speaker": "小禾",
+          "responseSpeaker": "小航",
+          "response": "架高的干栏木屋让湿气从底下散开，住起来干爽多了！",
+          "retry": "挖进土里的半地穴屋适合较干燥的北方，再看看架在水边的木桩屋。",
+          "nextLabel": "看看农民还怎样找食物"
+        },
+        "concepts": [
+          {
+            "term": "干栏式建筑",
+            "meaning": "用木桩把地板架高、底下通风防潮的木房子",
+            "audio": {
+              "id": "quest-f0ac2050995c1981",
+              "text": "干栏式建筑：用木桩把地板架高、底下通风防潮的木房子。"
+            }
+          }
+        ],
+        "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "村里的一天",
-          "screenText": "接着看村民怎样种植、做饭，并在村里定居。",
-          "narration": "接着看村民怎样种植、做饭，并在村里定居。",
-          "displayText": "接着看村民怎样种植、做饭，并在村里定居。"
+          "title": "潮湿多水的地方，怎样盖房子？",
+          "screenText": "河姆渡雨水多、地面湿软，如果直接睡在湿地上容易受潮；北方半坡冬天较冷，把屋子往下挖半截能挡风保暖。房子不同是为了适应环境。",
+          "displayText": "河姆渡雨水多、地面湿软，如果直接睡在湿地上容易受潮；北方半坡冬天较冷，把屋子往下挖半截能挡风保暖。房子不同是为了适应环境。",
+          "narration": "河姆渡雨水多、地面湿软，如果直接睡在湿地上容易受潮；北方半坡冬天较冷，把屋子往下挖半截能挡风保暖。房子不同是为了适应环境。"
         },
-        "assetId": "origins-hemudu-bone-spade",
-        "image": "/content/step-images/origins-hemudu-bone-spade.jpg",
-        "imageAlt": "河姆渡遗址出土带藤骨耜",
-        "imageCaption": "河姆渡遗址出土的带藤骨耜，可见骨板、木柄和绑缚结构。",
-        "imageBoundary": "事实名称和用途以中国国家博物馆藏品记录核验；未修改原图。",
+        "assetId": "origins-farmers-scene-v1",
+        "image": "/content/step-images/origins-farmers-scene-v1.jpg",
+        "studyImage": "/content/study-scenes/study-5de3b23f4cb10935.svg",
+        "studyImageAlt": "干栏木屋防潮，半地穴屋保暖",
+        "imageAlt": "博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画",
+        "imageCaption": "博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画",
+        "imageBoundary": "现代博物馆沙盘教学插画，帮助比较河姆渡与半坡代表的不同居住和种植环境；不是史前聚落精确测绘，也不把南稻北粟说成毫无例外的分界线。",
         "audio": {
+          "lead": {
+            "id": "quest-4590c84f911b63ed",
+            "text": "河姆渡地面潮湿多水，半坡较干冷。在潮湿多水的地方，盖哪种房子更合适？"
+          },
           "transition": {
-            "id": "quest-d4c11419e03a18fd",
-            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+            "id": "quest-020cdb7047d6b61c",
+            "text": "潮湿多水的地方，怎样盖房子？。"
           },
           "intro": {
-            "id": "quest-33483cfaa60cd135",
-            "text": "接着看村民怎样种植、做饭，并在村里定居。"
-          },
-          "image": {
-            "id": "quest-8ec05ed40dd9b366",
-            "text": "点开大图啦。这是河姆渡遗址出土带藤骨耜。这张图能帮我们找到：接着看村民怎样种植、做饭，并在村里定居。"
+            "id": "quest-dc51b39757573bf4",
+            "text": "河姆渡雨水多、地面湿软，如果直接睡在湿地上容易受潮；北方半坡冬天较冷，把屋子往下挖半截能挡风保暖。房子不同是为了适应环境。"
           },
           "question": {
-            "id": "quest-329a69e64424a884",
-            "text": "故事里的人来到这里以后，做了什么？"
+            "id": "quest-fcb635d76592a7c0",
+            "text": "在潮湿多水的地方，哪种房子更合适？"
+          },
+          "image": {
+            "id": "quest-904fc427f8744c75",
+            "text": "这张是博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画。河姆渡雨水多、地面湿软，如果直接睡在湿地上容易受潮；北方半坡冬天较冷，把屋子往下挖半截能挡风保暖。房子不同是为了适应环境。"
           },
           "right": {
-            "id": "quest-d7d6754891bc9f0f",
-            "text": "答对啦！人物、地点和行动连起来了。"
+            "id": "quest-f2bcce0722a624c5",
+            "text": "架高的干栏木屋让湿气从底下散开，住起来干爽多了！"
           },
           "wrong": {
-            "id": "quest-66c837d18451416f",
-            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+            "id": "quest-f6aa77a91e80960a",
+            "text": "挖进土里的半地穴屋适合较干燥的北方，再看看架在水边的木桩屋。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-01-02-first-farmers-journey-1",
-            "label": "浙江河姆渡与陕西半坡遗址，只说了地点",
-            "correct": false,
+            "label": "木桩架高地板，通风又防潮",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "origins-farmers-choices-v1",
+              "crop": {
+                "x": 6,
+                "y": 6,
+                "width": 750,
+                "height": 500,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/origins-farmers-choices-v1.jpg",
+              "imageAlt": "木桩架高地板，通风又防潮",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-177a736963dbb4ed.svg",
+            "imageAlt": "架高木屋",
             "audio": {
-              "id": "quest-517a2c52248a454f",
-              "text": "浙江河姆渡与陕西半坡遗址，只说了地点"
+              "id": "quest-17bacad1a8640976",
+              "text": "木桩架高地板，通风又防潮"
             }
           },
           {
             "id": "cn-ancient-01-02-first-farmers-journey-2",
-            "label": "河姆渡与半坡的村民、人面鱼纹彩，只认出人物",
+            "label": "往干爽黄土里挖半截屋子保暖",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "origins-farmers-choices-v1",
+              "crop": {
+                "x": 780,
+                "y": 6,
+                "width": 750,
+                "height": 500,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/origins-farmers-choices-v1.jpg",
+              "imageAlt": "往干爽黄土里挖半截屋子保暖",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-d85d34138463a621.svg",
+            "imageAlt": "半地穴屋",
             "audio": {
-              "id": "quest-e83ad15762e7debf",
-              "text": "河姆渡与半坡的村民、人面鱼纹彩，只认出人物"
-            }
-          },
-          {
-            "id": "cn-ancient-01-02-first-farmers-journey-3",
-            "label": "接着看村民怎样种植、做饭，并在村里定居。",
-            "correct": true,
-            "audio": {
-              "id": "quest-33483cfaa60cd135",
-              "text": "接着看村民怎样种植、做饭，并在村里定居。"
+              "id": "quest-44be3209f5b4395f",
+              "text": "往干爽黄土里挖半截屋子保暖"
             }
           }
         ]
@@ -379,155 +974,207 @@
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "第三拍 · 看见变化",
-        "title": "南北两座村庄",
-        "prompt": "前面的行动带来了什么变化？",
-        "rightNote": "最后发现南北村庄不同，都在学着安稳生活。",
-        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "phase": "骨耜帮人们在哪种田里干活？",
+        "title": "骨耜帮人们在哪种田里干活？",
+        "prompt": "哪幅画在用骨耜照顾潮湿的水稻田？",
+        "rightNote": "骨耜帮人们翻整水田；溪边捕鱼也是当时生活的一部分。",
+        "wrongNote": "这张是在溪里用网捕鱼，再找拿骨耜在水田里劳作的画面。",
+        "sourceIds": [
+          "NMC-HEMUDU-BONE-SPADE",
+          "NMC-HEMUDU-RICE",
+          "NMC-BANPO-BASIN"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "找找手握木柄骨铲、站在水田稻穗旁的一幅。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "农耕与捕鱼并存的生活",
+          "speaker": "小航",
+          "responseSpeaker": "小朵",
+          "response": "骨耜在水田里翻土引水；而捕鱼和采集也继续帮村落补充食物。",
+          "retry": "这张是在溪水里捕鱼，再找拿骨铲在水稻田里忙活的人。",
+          "nextLabel": "把南北村落的发现收好"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 4,
-          "title": "南北两座村庄",
-          "screenText": "最后发现南北村庄不同，都在学着安稳生活。",
-          "narration": "最后发现南北村庄不同，都在学着安稳生活。",
-          "displayText": "最后发现南北村庄不同，都在学着安稳生活。"
+          "title": "骨耜帮人们在哪种田里干活？",
+          "screenText": "第一批农民不光种庄稼，平时也去河边捕鱼、林间采果子，让食物更充足。遇到潮湿的水田时，人们会拿起绑着木柄的骨耜翻土整地。",
+          "displayText": "第一批农民不光种庄稼，平时也去河边捕鱼、林间采果子，让食物更充足。遇到潮湿的水田时，人们会拿起绑着木柄的骨耜翻土整地。",
+          "narration": "第一批农民不光种庄稼，平时也去河边捕鱼、林间采果子，让食物更充足。遇到潮湿的水田时，人们会拿起绑着木柄的骨耜翻土整地。"
         },
-        "assetId": "origins-hemudu-bone-spade",
-        "image": "/content/step-images/origins-hemudu-bone-spade.jpg",
-        "imageAlt": "河姆渡遗址出土带藤骨耜",
-        "imageCaption": "河姆渡遗址出土的带藤骨耜，可见骨板、木柄和绑缚结构。",
-        "imageBoundary": "事实名称和用途以中国国家博物馆藏品记录核验；未修改原图。",
+        "assetId": "origins-farmers-scene-v1",
+        "image": "/content/step-images/origins-farmers-scene-v1.jpg",
+        "studyImage": "/content/study-scenes/study-6cfa87be389abb7c.svg",
+        "studyImageAlt": "骨耜翻水田，溪边捕鱼补充食物",
+        "imageAlt": "博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画",
+        "imageCaption": "博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画",
+        "imageBoundary": "现代博物馆沙盘教学插画，帮助比较河姆渡与半坡代表的不同居住和种植环境；不是史前聚落精确测绘，也不把南稻北粟说成毫无例外的分界线。",
         "audio": {
+          "lead": {
+            "id": "quest-627cb3108c95c466",
+            "text": "早期村落既种庄稼也捕鱼采果子。哪幅画在用骨耜翻整潮湿的水稻田？"
+          },
           "transition": {
-            "id": "quest-ca472709af5bb16a",
-            "text": "行动发生了。再看看它带来了什么变化。"
+            "id": "quest-a62ecc57d850c515",
+            "text": "骨耜帮人们在哪种田里干活？。"
           },
           "intro": {
-            "id": "quest-04d2626253ac8cd8",
-            "text": "最后发现南北村庄不同，都在学着安稳生活。"
-          },
-          "image": {
-            "id": "quest-c3dd93ef42f29711",
-            "text": "点开大图啦。这是河姆渡遗址出土带藤骨耜。这张图能帮我们找到：最后发现南北村庄不同，都在学着安稳生活。"
+            "id": "quest-2fc1501b82afd4e9",
+            "text": "第一批农民不光种庄稼，平时也去河边捕鱼、林间采果子，让食物更充足。遇到潮湿的水田时，人们会拿起绑着木柄的骨耜翻土整地。"
           },
           "question": {
-            "id": "quest-2f86a3a6bc009210",
-            "text": "前面的行动带来了什么变化？"
+            "id": "quest-1e847555d0a3f974",
+            "text": "哪幅画在用骨耜照顾潮湿的水稻田？"
+          },
+          "image": {
+            "id": "quest-9729854dc38b82b7",
+            "text": "这张是博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画。第一批农民不光种庄稼，平时也去河边捕鱼、林间采果子，让食物更充足。遇到潮湿的水田时，人们会拿起绑着木柄的骨耜翻土整地。"
           },
           "right": {
-            "id": "quest-53f7633e99fda023",
-            "text": "答对啦！你找到了前因带来的变化。"
+            "id": "quest-736736808542d309",
+            "text": "骨耜在水田里翻土引水；而捕鱼和采集也继续帮村落补充食物。"
           },
           "wrong": {
-            "id": "quest-631e3024b71736c9",
-            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+            "id": "quest-38d7a552931fa642",
+            "text": "这张是在溪水里捕鱼，再找拿骨铲在水稻田里忙活的人。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-01-02-first-farmers-change-1",
-            "label": "人面鱼纹彩陶盆和骨耜，还只是故事起点",
-            "correct": false,
+            "label": "拿着长柄骨耜，在水稻田里翻土收稻",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "origins-farmers-choices-v1",
+              "crop": {
+                "x": 6,
+                "y": 518,
+                "width": 750,
+                "height": 500,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/origins-farmers-choices-v1.jpg",
+              "imageAlt": "拿着长柄骨耜，在水稻田里翻土收稻",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-8ebe12b41952bdd1.svg",
+            "imageAlt": "水田耕稻",
             "audio": {
-              "id": "quest-2d9ca6f8ac4ccff6",
-              "text": "人面鱼纹彩陶盆和骨耜，还只是故事起点"
+              "id": "quest-579bca5410022505",
+              "text": "拿着长柄骨耜，在水稻田里翻土收稻"
             }
           },
           {
             "id": "cn-ancient-01-02-first-farmers-change-2",
-            "label": "最后发现南北村庄不同，都在学着安稳生活。",
-            "correct": true,
-            "audio": {
-              "id": "quest-04d2626253ac8cd8",
-              "text": "最后发现南北村庄不同，都在学着安稳生活。"
-            }
-          },
-          {
-            "id": "cn-ancient-01-02-first-farmers-change-3",
-            "label": "看村民怎样种植、做饭，并在，还只是行动经过",
+            "label": "在清澈溪水里拉网捕鱼，岸边放着彩陶盆",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "origins-farmers-choices-v1",
+              "crop": {
+                "x": 780,
+                "y": 518,
+                "width": 750,
+                "height": 500,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/origins-farmers-choices-v1.jpg",
+              "imageAlt": "在清澈溪水里拉网捕鱼，岸边放着彩陶盆",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-eeb0070ed0990a35.svg",
+            "imageAlt": "溪边捕鱼",
             "audio": {
-              "id": "quest-16b6323a1dea24f7",
-              "text": "看村民怎样种植、做饭，并在，还只是行动经过"
+              "id": "quest-2cd58d9132837a20",
+              "text": "在清澈溪水里拉网捕鱼，岸边放着彩陶盆"
             }
           }
         ]
       },
       {
         "id": "takeaway",
-        "questionKind": "reason-result",
+        "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "把线索连成答案",
-        "title": "把三条线索连成答案",
-        "prompt": "哪句话同时说清了原因和结果？",
-        "rightNote": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。",
-        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
-        "story": {
-          "screenNumber": 6,
-          "title": "把三条线索连成答案",
-          "screenText": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。",
-          "narration": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。",
-          "displayText": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。"
+        "phase": "环境不同，生活的巧办法也不同",
+        "title": "环境不同，生活的巧办法也不同",
+        "prompt": "远古村落留下了哪些生活线索",
+        "rightNote": "从农具、作物和陶器里，看见因地制宜的早期生活。",
+        "wrongNote": "再听听南北村落各自想出的办法。",
+        "sourceIds": [
+          "NMC-ANCIENT-PREHISTORY",
+          "NMC-HEMUDU-BONE-SPADE",
+          "NMC-BANPO-BASIN"
+        ],
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听完总结，点继续完成这一章。",
+          "continueLabel": "带着发现回家"
         },
-        "assetId": "origins-banpo-bowl",
-        "image": "/content/step-images/origins-banpo-bowl.jpg",
-        "imageAlt": "半坡人面鱼纹彩陶盆",
-        "imageCaption": "半坡遗址出土的人面鱼纹彩陶盆。",
-        "imageBoundary": "纹样含义存在多种解释，只作观察题；照片经过来源页记载的色彩校正。",
+        "narrative": {
+          "scene": "reunion",
+          "caption": "带着远古村落的发现回家",
+          "speaker": "小禾",
+          "responseSpeaker": "小伙伴",
+          "response": "远古人们顺应环境盖房种粮，真有办法！",
+          "retry": "再听听这一幕。",
+          "nextLabel": "带着发现回家"
+        },
+        "concepts": null,
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "环境不同，生活的巧办法也不同",
+          "screenText": "稻谷、骨耜、彩陶盆和房屋遗迹放在一起，让我们看见远古人们怎样顺着冷暖干湿想办法。房子和作物没有谁高谁低，都是适应自然的智慧。",
+          "displayText": "稻谷、骨耜、彩陶盆和房屋遗迹放在一起，让我们看见远古人们怎样顺着冷暖干湿想办法。房子和作物没有谁高谁低，都是适应自然的智慧。",
+          "narration": "稻谷、骨耜、彩陶盆和房屋遗迹放在一起，让我们看见远古人们怎样顺着冷暖干湿想办法。房子和作物没有谁高谁低，都是适应自然的智慧。"
+        },
+        "assetId": "origins-farmers-scene-v1",
+        "image": "/content/step-images/origins-farmers-scene-v1.jpg",
+        "studyImage": "/content/study-scenes/study-9837c1345c6dc5f9.svg",
+        "studyImageAlt": "定居村落，顺应环境生活",
+        "imageAlt": "博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画",
+        "imageCaption": "博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画",
+        "imageBoundary": "现代博物馆沙盘教学插画，帮助比较河姆渡与半坡代表的不同居住和种植环境；不是史前聚落精确测绘，也不把南稻北粟说成毫无例外的分界线。",
         "audio": {
+          "lead": {
+            "id": "quest-5e4f8aa9a925cb4d",
+            "text": "稻谷、骨耜、彩陶盆和不同的房子告诉我们：远古人们顺着当地环境生活，没有高低之分，各有巧妙办法。"
+          },
           "transition": {
-            "id": "quest-a7cb01ad27c42767",
-            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+            "id": "quest-3d1b8ae245ee2564",
+            "text": "环境不同，生活的巧办法也不同。"
           },
           "intro": {
-            "id": "quest-00af4fb64a341114",
-            "text": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。"
-          },
-          "image": {
-            "id": "quest-2cbae74a5e3b2b3e",
-            "text": "点开大图啦。这是半坡人面鱼纹彩陶盆。这张图能帮我们找到：彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。"
+            "id": "quest-98fc1648497ac68a",
+            "text": "稻谷、骨耜、彩陶盆和房屋遗迹放在一起，让我们看见远古人们怎样顺着冷暖干湿想办法。房子和作物没有谁高谁低，都是适应自然的智慧。"
           },
           "question": {
-            "id": "quest-1626b51c966f57f7",
-            "text": "哪句话同时说清了原因和结果？"
+            "id": "quest-926cf276fb372f27",
+            "text": "远古村落留下了哪些生活线索"
+          },
+          "image": {
+            "id": "quest-5ab6309694f6fc66",
+            "text": "这张是博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画。稻谷、骨耜、彩陶盆和房屋遗迹放在一起，让我们看见远古人们怎样顺着冷暖干湿想办法。房子和作物没有谁高谁低，都是适应自然的智慧。"
           },
           "right": {
-            "id": "quest-7efb4ef63956e209",
-            "text": "答对啦！原因和结果都说清楚了。"
+            "id": "quest-01cc163eee20fd90",
+            "text": "远古人们顺应环境盖房种粮，真有办法！"
           },
           "wrong": {
-            "id": "quest-0cee35f61bffd03b",
-            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+            "id": "quest-93a51f67f6f985fe",
+            "text": "再听听这一幕。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-01-02-first-farmers-takeaway-1",
-            "label": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。",
-            "correct": true,
-            "audio": {
-              "id": "quest-00af4fb64a341114",
-              "text": "彩陶和农具让我们看见：人们种粮、存食物，也一起住在村子里。"
-            }
-          },
-          {
-            "id": "cn-ancient-01-02-first-farmers-takeaway-2",
-            "label": "看半坡彩陶盆，再找河姆渡的稻谷和骨耜。、人面，只说了原因",
-            "correct": false,
-            "audio": {
-              "id": "quest-5357cad23d61bbbd",
-              "text": "看半坡彩陶盆，再找河姆渡的稻谷和骨耜。、人面，只说了原因"
-            }
-          },
-          {
-            "id": "cn-ancient-01-02-first-farmers-takeaway-3",
-            "label": "发现南北村庄不同，都在学着安稳生活。、彩陶盆里的，只说了结果",
-            "correct": false,
-            "audio": {
-              "id": "quest-35327440418ae4be",
-              "text": "发现南北村庄不同，都在学着安稳生活。、彩陶盆里的，只说了结果"
-            }
-          }
-        ]
+        "options": []
       }
     ],
     "extensionTasks": [
@@ -794,6 +1441,16 @@
       "authorityLevel": "A",
       "factUse": "半坡彩陶盆形制、出土地、定居农业及渔猎生活；纹样含义保留多种解释",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "MOE-HISTORY-CURRICULUM-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "institution": "中华人民共和国教育部",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "type": "curriculum-standard",
+      "authorityLevel": "A",
+      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
@@ -822,6 +1479,177 @@
       "caption": "半坡遗址出土的人面鱼纹彩陶盆。",
       "boundary": "纹样含义存在多种解释，只作观察题；照片经过来源页记载的色彩校正。",
       "childVisibility": "child-ok"
+    },
+    {
+      "id": "origins-farmers-scene-v1",
+      "title": "博物馆沙盘对比南方水田干栏屋与北方粟地半地穴屋 · 教学插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/origins-farmers-scene-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代博物馆沙盘示意：左看潮湿水田与架高木屋，右看黄土台地与半地穴屋",
+      "boundary": "现代博物馆沙盘教学插画，帮助比较河姆渡与半坡代表的不同居住和种植环境；不是史前聚落精确测绘，也不把南稻北粟说成毫无例外的分界线。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "origins-farmers-choices-v1",
+      "title": "远古村落房屋与食物来源比较 · 四格选项插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/origins-farmers-choices-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "教学选项插画：干栏木屋、半地穴屋、骨耜耕稻与溪边捕鱼彩陶",
+      "boundary": "现代教学选项插画，帮助比较潮湿与较干燥环境下的建房方式及农耕与捕鱼并存的生活，不是史前人物写真；彩陶纹样不指定唯一含义。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-db8cd168f94fcfaa",
+      "title": "学习示意：远古河边村落、种植与陶器",
+      "localPath": "reference-assets/focused-quests/study-db8cd168f94fcfaa.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "远古河边村落 → 种植与陶器",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d7ae8f02b316434b",
+      "title": "学习示意：远古时期",
+      "localPath": "reference-assets/focused-quests/study-d7ae8f02b316434b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "远古时期",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-1c86960f58aac6a6",
+      "title": "学习示意：唐朝",
+      "localPath": "reference-assets/focused-quests/study-1c86960f58aac6a6.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "唐朝",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-3b2652311bce4e8e",
+      "title": "学习示意：南方水田种稻、北方台地种粟",
+      "localPath": "reference-assets/focused-quests/study-3b2652311bce4e8e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "南方水田种稻 → 北方台地种粟",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-5de3b23f4cb10935",
+      "title": "学习示意：干栏木屋防潮、半地穴屋保暖",
+      "localPath": "reference-assets/focused-quests/study-5de3b23f4cb10935.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "干栏木屋防潮 → 半地穴屋保暖",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-177a736963dbb4ed",
+      "title": "学习示意：架高木屋",
+      "localPath": "reference-assets/focused-quests/study-177a736963dbb4ed.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "架高木屋",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-d85d34138463a621",
+      "title": "学习示意：半地穴屋",
+      "localPath": "reference-assets/focused-quests/study-d85d34138463a621.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "半地穴屋",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-6cfa87be389abb7c",
+      "title": "学习示意：骨耜翻水田、溪边捕鱼补充食物",
+      "localPath": "reference-assets/focused-quests/study-6cfa87be389abb7c.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "骨耜翻水田 → 溪边捕鱼补充食物",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8ebe12b41952bdd1",
+      "title": "学习示意：水田耕稻",
+      "localPath": "reference-assets/focused-quests/study-8ebe12b41952bdd1.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "水田耕稻",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-eeb0070ed0990a35",
+      "title": "学习示意：溪边捕鱼",
+      "localPath": "reference-assets/focused-quests/study-eeb0070ed0990a35.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "溪边捕鱼",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-9837c1345c6dc5f9",
+      "title": "学习示意：定居村落、顺应环境生活",
+      "localPath": "reference-assets/focused-quests/study-9837c1345c6dc5f9.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "定居村落 → 顺应环境生活",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
     }
   ],
   "thumbnail": "/content/thumbnails/cn-ancient-01-02-first-farmers.jpg",
@@ -833,5 +1661,5 @@
     "audio": "not-started",
     "review": "in-progress"
   },
-  "contentReadiness": "legacy-draft-not-in-preview"
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

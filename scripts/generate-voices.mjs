@@ -3,6 +3,8 @@ import { join, resolve } from "node:path";
 import { spawn } from "node:child_process";
 
 const args = parseArgs(process.argv.slice(2));
+const attempts = Number(args.attempts ?? 6);
+if (!Number.isSafeInteger(attempts) || attempts < 1) throw new Error("--attempts must be a positive integer");
 const source = JSON.parse(readFileSync("public/audio/voice-lines.json", "utf8"));
 const python = resolve(args.python ?? "../playground/local-tts/.venv/bin/python");
 const outputDir = join("public", "audio", "voice", "zh-CN", "xiaoxiao");
@@ -39,7 +41,7 @@ try {
   for (let index = 0; index < jobs.length; index += concurrency) {
     const batch = jobs.slice(index, index + concurrency);
     const results = await Promise.allSettled(batch.map(async ({ line, stagedPath, outputPath }) => {
-      await generateWithRetry(python, source, line, stagedPath, 3);
+      await generateWithRetry(python, source, line, stagedPath, attempts);
       if (!hasAudio(stagedPath)) throw new Error(`voice generator produced an empty file for ${line.id}`);
       stagedFiles.push({ stagedPath, outputPath });
       completed += 1;
@@ -110,7 +112,7 @@ async function generateWithRetry(command, profile, line, stagedPath, attempts) {
       return;
     } catch (error) {
       lastError = error;
-      if (attempt < attempts) await new Promise((resolvePromise) => setTimeout(resolvePromise, attempt * 700));
+      if (attempt < attempts) await new Promise((resolvePromise) => setTimeout(resolvePromise, attempt * 1800));
     }
   }
   throw new Error(`语音 ${line.id} 连续生成失败：${lastError?.message ?? lastError}`);

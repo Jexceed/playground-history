@@ -47,7 +47,7 @@ for(const chapter of chapters){
   if(step.options.length)assert.equal(new Set(step.options.map(optionMedium)).size,1,`${chapter.id}/${step.id}: mixed choice media; use a consistent presentation and keep evidence photos in inspection`);
   const asset=registered.get(step.assetId);assert.ok(asset?.clearance?.startsWith('cleared-'));assert.notEqual(asset.childVisibility,'editor-only');
   assert.ok(fs.existsSync(`public${step.image}`),`Missing main image ${step.image}`);
-  Object.values(step.audio).forEach(checkVoice);step.options.forEach(o=>checkVoice(o.audio));
+  Object.values(step.audio).forEach(checkVoice);step.options.forEach(o=>checkVoice(o.audio));step.concepts?.forEach(c=>checkVoice(c.audio));
   if(step.interaction?.kind==='history-lab'){for(const s of step.interaction.lab.stages){checkVoice(s.audio);assert.equal(s.audio.text,s.narration);}}
   if(step.interaction?.kind==='circle-refine'){assert.deepEqual(step.interaction.refinements.map(r=>r.sides),[12,24]);for(const r of step.interaction.refinements){checkVoice(r.audio);assert.equal(r.audio.text,r.narration);}}
   if(sceneFind){

@@ -8,7 +8,51 @@
     "id": "xia-shang-western-zhou",
     "label": "夏商西周",
     "years": "约公元前21世纪—前771年",
-    "learningContext": null
+    "learningContext": {
+      "childIntro": "到夏商西周看刻在龟甲兽骨上的早期文字，再看工匠怎样合起陶范铸出厚重的青铜大鼎。",
+      "chronology": "约公元前21世纪至前771年；当前开放甲骨文与青铜器任务，重点观察商代后期殷墟文字与商周青铜铸造。",
+      "covered": "殷墟甲骨文的系统文字特征与刻辞内容、商周青铜礼器的陶范铸造与后母戊鼎代表的组织协作。",
+      "scopeBoundary": "甲骨文是目前所知中国最早的成熟系统文字材料之一，不等同普通人日记；青铜礼器不是人人日常使用的普通锅碗。",
+      "sourceIds": [
+        "UNESCO-YIN-XU",
+        "NMC-ORACLE-BRONZE-EXHIBITION",
+        "NMC-ORACLE-OX-BONE",
+        "NMC-BRONZE-ART",
+        "NMC-HOUMUWU-DING"
+      ],
+      "sources": [
+        {
+          "id": "UNESCO-YIN-XU",
+          "title": "Yin Xu",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/1114/"
+        },
+        {
+          "id": "NMC-ORACLE-BRONZE-EXHIBITION",
+          "title": "中国国家博物馆馆藏文物研究——甲骨文、金文集粹",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/zl/zlhg/201812/t20181220_32409.shtml"
+        },
+        {
+          "id": "NMC-ORACLE-OX-BONE",
+          "title": "大型牛骨刻辞",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/zp/zpml/201812/t20181218_26026.shtml"
+        },
+        {
+          "id": "NMC-BRONZE-ART",
+          "title": "中国古代青铜器艺术",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/zl/zlhg/201812/t20181220_32171.shtml"
+        },
+        {
+          "id": "NMC-HOUMUWU-DING",
+          "title": "“后母戊”青铜方鼎",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202008/t20200824_247255.shtml"
+        }
+      ]
+    }
   },
   "order": 5,
   "title": "甲骨文和青铜器会说话",
@@ -16,78 +60,142 @@
   "throughline": "通过甲骨文、青铜铭文和典型器物认识文字、铸造技术、祭祀活动与历史记录。",
   "childEntry": {
     "id": "cn-ancient-02-02-oracle-bronze",
-    "childTitle": "龟甲上的小问号",
-    "prompt": "古人把问题刻在甲骨上，大铜鼎又留下了什么？",
-    "takeaway": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。",
-    "object": "甲骨刻辞和后母戊鼎",
+    "childTitle": "甲骨文与青铜大鼎会讲什么线索？",
+    "prompt": "还没有纸和书的时候，三千多年前的商周古人把字刻在哪里？八百多千克的青铜大鼎又是怎样做出来的？",
+    "takeaway": "商代甲骨文是目前所知中国最早的成熟系统文字材料之一；商周青铜礼器用多块陶范合铸，体现高超工艺与协作。",
+    "object": "商代刻辞牛肩胛骨与后母戊鼎",
     "people": [
-      "刻字者和铸铜工匠"
+      "商周刻写甲骨",
+      "铸造青铜器的工匠和记录者"
     ],
-    "place": "河南安阳殷墟",
-    "culture": "甲骨文字",
-    "care": "甲骨和兽骨先以文字、纹路与工艺进入，不放大骨骼外形制造惊吓。"
+    "place": "河南安阳殷墟与中国国家博物馆展厅",
+    "culture": "汉字源流（甲骨文）与商周青铜铸造",
+    "care": "殷墟甲骨文是目前所知中国最早的成熟系统文字材料之一，不等同普通人日常日记，也不是每片骨头都有字。后母戊鼎等青铜礼器用于祭祀礼仪，不是普通人家日常做饭的锅碗。展厅对照板与四格图为现代教学插画。",
+    "playableSource": "content/focused-quests.json",
+    "preferredAssetId": "xsz-oracle-ox-scapula"
   },
-  "learningGuide": null,
-  "textbookConnection": null,
+  "learningGuide": {
+    "id": "cn-ancient-02-02-oracle-bronze",
+    "theme": "文字、经典与记录",
+    "learningGoal": "甲骨刻辞与青铜器及铭文保存了可核对的商周文字、铸造技术与礼仪信息。",
+    "parentQuestion": "八百多千克重的后母戊鼎，是普通人家做饭的锅，还是许多人合作铸造的礼器？",
+    "observe": "指出多块陶范合铸与分工配合，并能区分甲骨象形符号线索与后世现代字形。",
+    "misconception": "甲骨文是目前所知中国最早的成熟系统文字材料之一，但不是普通人日记；青铜礼器不是日常普通锅碗。",
+    "evidenceStepIds": [
+      "time",
+      "beginning",
+      "change",
+      "takeaway"
+    ],
+    "sourceIds": [
+      "UNESCO-YIN-XU",
+      "NMC-ORACLE-BRONZE-EXHIBITION",
+      "NMC-ORACLE-OX-BONE",
+      "NMC-BRONZE-ART",
+      "NMC-HOUMUWU-DING"
+    ],
+    "related": [
+      {
+        "chapterId": "cn-ancient-04-04-han-knowledge",
+        "relation": "从商代刻写龟甲兽骨到战国竹简、再到汉代造纸改进，对比书写材料怎样一步步变得轻便。"
+      }
+    ],
+    "reviewStatus": "learning-alignment-reviewed-family-test-pending",
+    "glossaryTerms": [
+      "甲骨文",
+      "青铜器",
+      "陶范",
+      "铭文"
+    ]
+  },
+  "textbookConnection": {
+    "id": "cn-ancient-02-02-oracle-bronze",
+    "featured": {
+      "type": "识字课本",
+      "icon": "🐢",
+      "title": "商周刻写甲骨与铸造青铜器的工匠和记录者",
+      "childBridge": "还没有纸和书的时候，三千多年前的商周古人把字刻在哪里？八百多千克的青铜大鼎又是怎样做出来的？",
+      "evidenceBoundary": "殷墟甲骨文是目前所知中国最早的成熟系统文字材料之一，不等同普通人日常日记，也不是每片骨头都有字。"
+    },
+    "companions": [
+      {
+        "type": "实物",
+        "label": "殷墟刻辞牛肩胛骨",
+        "note": "记录商王室占卜与天气、农事等活动，让商代历史有直接文字证据可查。"
+      },
+      {
+        "type": "实物",
+        "label": "后母戊青铜方鼎",
+        "note": "重832.84千克，使用多块陶范分铸合铸，体现强大的手工业分工与组织。"
+      },
+      {
+        "type": "概念",
+        "label": "礼器与日常陶器的区别",
+        "note": "厚重青铜大鼎用于祭祀宴飨等重要礼仪，不是普通人家日常煮饭喝粥的锅碗。"
+      }
+    ],
+    "sourceIds": [
+      "MOE-HISTORY-CURRICULUM-2022",
+      "UNESCO-YIN-XU",
+      "NMC-ORACLE-BRONZE-EXHIBITION",
+      "NMC-ORACLE-OX-BONE",
+      "NMC-BRONZE-ART",
+      "NMC-HOUMUWU-DING",
+      "NMC-ORACLE-TURTLE"
+    ]
+  },
   "childStory": [
     {
-      "id": "hook",
-      "icon": "🔎",
-      "label": "从一件东西出发",
-      "text": "龟甲上的小问号"
+      "id": "time",
+      "icon": "🕰️",
+      "label": "找到刻在骨头上的三千年前文字",
+      "text": "三千多年前的商代后期，还没有纸张。人们在龟甲和兽骨上刻下成组文字，这就是殷墟甲骨文，属于夏商西周这一站。"
     },
     {
       "id": "beginning",
       "icon": "🔎",
-      "label": "龟甲上的问题",
-      "text": "先看龟甲上刻下的问题，再找烧灼后的裂纹。"
+      "label": "分清甲骨文字板与青铜方鼎",
+      "text": "左边展板把甲骨模型与太阳、月亮、山、鱼的形状放在一起对照；右边展台放着四条腿的青铜方鼎，旁边还有泥土做的陶范小模型。"
     },
     {
       "id": "journey",
       "icon": "🧭",
-      "label": "把结果也写下",
-      "text": "接着看刻字者怎样把结果也留在甲骨上。"
+      "label": "圆圈中间一点，像天上的什么？",
+      "text": "甲骨文里有一些字顺着自然景物的样子刻成：圆圈中间加一点表示白天的太阳（日），弯弯的一道弧线表示夜晚的月亮（月）。"
     },
     {
       "id": "change",
       "icon": "✨",
-      "label": "文字让商代清楚",
-      "text": "最后和青铜鼎铭文相对照，让商代故事更清楚。"
+      "label": "后母戊鼎怎样铸成与使用",
+      "text": "后母戊鼎重832.84千克，用于王室重要祭祀礼仪，不是普通人家天天端着喝粥的碗。铸造它需要许多工匠分工拼合多块陶范、熔化金属。"
     },
     {
-      "id": "answer-retell",
+      "id": "takeaway",
       "icon": "🗣️",
-      "label": "把故事讲给家人听",
-      "text": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。"
+      "label": "刻辞与铭文让历史有据可查",
+      "text": "甲骨刻辞记下商王室关心的天气、农事等活动，商周青铜器也铸有记录人物和事件的铭文。把文字与器物合起来看，才能认识真实的商周。"
     }
   ],
   "glossary": [
     {
-      "term": "考古",
-      "icon": "🧹",
-      "plain": "按位置和土层记录地下遗存，再慢慢研究。",
-      "example": "考古不是挖宝，东西在哪里、旁边有什么都要记。",
+      "term": "甲骨文",
+      "icon": "🐢",
+      "plain": "商代人刻在龟甲和兽骨上的成熟文字，记下占卜和王室关心的事。",
+      "example": "甲骨上能看到日、月、水等跟事物形状有关的字。",
       "priority": 1
     },
     {
-      "term": "战争",
-      "icon": "🕯️",
-      "plain": "不同国家或力量使用武力的大规模冲突。",
-      "example": "学习战争要看责任与伤害，不把伤亡和武器做成得分。",
+      "term": "青铜器",
+      "icon": "🏺",
+      "plain": "把铜和锡等金属熔化后铸成的器物，商周大鼎常用于重要礼仪。",
+      "example": "后母戊鼎是很重的商代青铜礼器，不是普通人家做饭的锅。",
       "priority": 1
     },
     {
-      "term": "证据",
-      "icon": "🔎",
-      "plain": "能帮助我们判断过去发生过什么的线索。",
-      "example": "刻字甲骨是证据，但一块甲骨不能回答所有问题。",
-      "priority": 1
-    },
-    {
-      "term": "技术",
-      "icon": "⚙️",
-      "plain": "人们解决具体问题时积累的工具和做法。",
-      "example": "技术常由许多人长期改进，不是某天突然出现。",
+      "term": "陶范",
+      "icon": "🧱",
+      "plain": "用泥土做好的模子，把熔化的金属倒进去，冷却后就变成器物。",
+      "example": "复杂的大鼎需要多块陶范拼合起来铸造。",
       "priority": 2
     },
     {
@@ -96,27 +204,6 @@
       "example": "灯上的长信铭文，帮助我们了解器物身份。",
       "icon": "🔎",
       "priority": 2
-    },
-    {
-      "term": "农业",
-      "icon": "🌾",
-      "plain": "种植作物、饲养动物来获得食物和原料。",
-      "example": "农业在许多地方分别出现，不是一群人教会全世界。",
-      "priority": 2
-    },
-    {
-      "term": "组织",
-      "icon": "🤝",
-      "plain": "许多人为了共同事情分工、联系和行动。",
-      "example": "一个名人背后常有组织、协作者和普通参与者。",
-      "priority": 2
-    },
-    {
-      "term": "祭祀",
-      "icon": "🏺",
-      "plain": "古人按自己的信仰，表达敬意与纪念的活动。",
-      "example": "认识古埃及祭祀，是了解古人的信仰，不要求今天的孩子跟着做。",
-      "priority": 3
     }
   ],
   "pronunciations": [
@@ -129,260 +216,727 @@
         "cn-ancient-02-02-oracle-bronze"
       ],
       "note": "“殷”在此读yīn，“墟”读xū。"
+    },
+    {
+      "text": "后母戊鼎",
+      "reading": "Hòumǔwù Dǐng",
+      "kind": "term",
+      "chapterIds": [
+        "cn-ancient-02-02-oracle-bronze"
+      ],
+      "note": "“戊”读wù；自动绑定不等于已人工校听。"
     }
   ],
   "gameplay": {
-    "mode": "memory-hook-story-quest-v3",
+    "mode": "authored-picture-quest-v4",
     "status": "playable-core",
     "audioStatus": "local-pre-generated",
     "hook": {
-      "kind": "一件东西",
+      "kind": "具体任务",
       "icon": "🔎",
-      "label": "龟甲上的小问号",
-      "question": "古人把问题刻在甲骨上，大铜鼎又留下了什么？"
+      "label": "甲骨文与青铜大鼎会讲什么线索？",
+      "question": "还没有纸和书的时候，三千多年前的商周古人把字刻在哪里？八百多千克的青铜大鼎又是怎样做出来的？"
+    },
+    "cta": "去认刻在骨头上的字",
+    "anchor": "商周刻写甲骨与铸造青铜器的工匠和记录者",
+    "boundary": "殷墟甲骨文是目前所知中国最早的成熟系统文字材料之一，不等同普通人日常日记，也不是每片骨头都有字。后母戊鼎等青铜礼器用于祭祀礼仪，不是普通人家日常做饭的锅碗。展厅对照板与四格图为现代教学插画。",
+    "evidence": [
+      {
+        "id": "xsz-oracle-ox-scapula",
+        "title": "商代刻辞牛肩胛骨",
+        "localPath": "reference-assets/xia-shang-zhou/oracle-bone.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ancient_Chinese_Writing_on_Ox_Scapula,_Shang_Dynasty_Oracle_Bone,_Yinxu,_Anyang.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC0 1.0",
+        "clearance": "cleared-open-license",
+        "caption": "中国文字博物馆展出的殷墟商代刻辞牛肩胛骨。",
+        "boundary": "页面只引导观察骨片和刻辞；若特定钻凿、灼痕在照片中不清楚，应允许孩子选择‘本图无法确认’。未修改原图。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/xsz-oracle-ox-scapula.jpg"
+      },
+      {
+        "id": "xsz-houmuwu-ding",
+        "title": "后母戊鼎实物照片",
+        "localPath": "reference-assets/xia-shang-zhou/houmuwu-ding.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:HouMuWuDingFullView.jpg",
+        "sourceFile": null,
+        "licensePath": null,
+        "license": "CC BY-SA 3.0",
+        "clearance": "cleared-open-license",
+        "caption": "中国国家博物馆展出的后母戊鼎原件。",
+        "boundary": "重量和工艺以中国国家博物馆记录为准；不用来源页曾出现的 875 千克旧数据。未修改原图。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/xsz-houmuwu-ding.jpg"
+      }
+    ],
+    "photoAlbum": {
+      "id": "shang-oracle-bronze-album",
+      "title": "商代甲骨与青铜重器真文物相册",
+      "label": "翻看刻辞牛骨与后母戊鼎",
+      "photos": [
+        {
+          "assetId": "xsz-oracle-ox-scapula",
+          "title": "殷墟出土商代刻辞牛肩胛骨",
+          "label": "刻辞牛肩胛骨",
+          "period": "商代后期 · 距今约三千多年",
+          "caption": "牛肩胛骨表面刻有成排早期汉字（甲骨刻辞）",
+          "observation": "放大看看平整的骨片表面，能看到一行行细细刻上去的成组字迹吗？",
+          "narration": "这是一块三千多年前商代后期的牛肩胛骨，上面刻着成排文字，叫甲骨刻辞。商王室占卜天气、收成等事情时留下这些记录，让我们读到商代真实的信息。",
+          "sourceIds": [
+            "NMC-ORACLE-OX-BONE",
+            "UNESCO-YIN-XU"
+          ],
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：大型牛骨刻辞",
+              "url": "https://www.chnmus.net/ch/collection/data/20201105/65193.html"
+            },
+            {
+              "title": "开放许可文件页（CC0 1.0）",
+              "url": "https://commons.wikimedia.org/wiki/File:Ancient_Chinese_Writing_on_Ox_Scapula,_Shang_Dynasty_Oracle_Bone,_Yinxu,_Anyang.jpg"
+            }
+          ],
+          "image": "/content/step-images/xsz-oracle-ox-scapula.jpg",
+          "boundary": "页面只引导观察骨片和刻辞；若特定钻凿、灼痕在照片中不清楚，应允许孩子选择‘本图无法确认’。未修改原图。",
+          "audio": {
+            "id": "quest-901a29b072f55c37",
+            "text": "这是一块三千多年前商代后期的牛肩胛骨，上面刻着成排文字，叫甲骨刻辞。商王室占卜天气、收成等事情时留下这些记录，让我们读到商代真实的信息。"
+          }
+        },
+        {
+          "assetId": "xsz-houmuwu-ding",
+          "title": "商代后母戊青铜方鼎",
+          "label": "后母戊鼎",
+          "period": "商代后期 · 重832.84千克",
+          "caption": "中国国家博物馆展出的商代大型青铜礼器原件",
+          "observation": "看看它厚重的长方形器身、两只立耳和四条粗壮的柱足，表面还有精细纹饰。",
+          "narration": "这件大鼎叫后母戊鼎，重八百三十二点八四千克。商代工匠要用许多块泥土做的陶范拼合起来，把熔化的铜锡金属倒进去铸成，需要很多人分工配合。",
+          "sourceIds": [
+            "NMC-HOUMUWU-DING",
+            "NMC-BRONZE-ART"
+          ],
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：“后母戊”青铜方鼎",
+              "url": "https://www.chnmus.net/ch/collection/data/20201105/65195.html"
+            },
+            {
+              "title": "开放许可文件页（CC BY-SA 3.0）",
+              "url": "https://commons.wikimedia.org/wiki/File:HouMuWuDingFullView.jpg"
+            }
+          ],
+          "image": "/content/step-images/xsz-houmuwu-ding.jpg",
+          "boundary": "重量和工艺以中国国家博物馆记录为准；不用来源页曾出现的 875 千克旧数据。未修改原图。",
+          "audio": {
+            "id": "quest-9738a8a99c51b3fb",
+            "text": "这件大鼎叫后母戊鼎，重八百三十二点八四千克。商代工匠要用许多块泥土做的陶范拼合起来，把熔化的铜锡金属倒进去铸成，需要很多人分工配合。"
+          }
+        }
+      ]
+    },
+    "coverAsset": {
+      "id": "xsz-oracle-ox-scapula",
+      "title": "商代刻辞牛肩胛骨",
+      "localPath": "reference-assets/xia-shang-zhou/oracle-bone.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ancient_Chinese_Writing_on_Ox_Scapula,_Shang_Dynasty_Oracle_Bone,_Yinxu,_Anyang.jpg",
+      "sourceFile": null,
+      "licensePath": null,
+      "license": "CC0 1.0",
+      "clearance": "cleared-open-license",
+      "caption": "中国文字博物馆展出的殷墟商代刻辞牛肩胛骨。",
+      "boundary": "页面只引导观察骨片和刻辞；若特定钻凿、灼痕在照片中不清楚，应允许孩子选择‘本图无法确认’。未修改原图。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/xsz-oracle-ox-scapula.jpg"
+    },
+    "presentation": {
+      "kind": "object-workbench",
+      "sceneAssetId": "shang-oracle-bronze-scene-v1",
+      "sceneAlt": "讲解员与三位小伙伴在博物馆观察甲骨象形对照板与青铜方鼎陶范模型",
+      "title": "甲骨文与青铜大鼎会讲什么线索？",
+      "evidenceTitle": "商代刻辞牛骨与后母戊鼎",
+      "evidenceLine": "真实馆藏照片与展厅教学插画分开查看。",
+      "evidenceNarration": "刻辞牛肩胛骨和后母戊鼎都是商代留下的真实文物，分别让我们看到早期成熟汉字与青铜铸造技术。",
+      "guide": "听听语音提示，点展台或图卡找线索。",
+      "alignHint": "",
+      "familyHint": "和家人一起画象形符号、玩泥模压印。",
+      "familyLabel": "和家人试试象形字与泥模",
+      "familyMode": "actions",
+      "nextLabel": "继续找线索",
+      "lastLabel": "带着发现回家",
+      "sceneFraming": "story",
+      "sceneAspectRatio": 1.5,
+      "story": {
+        "kind": "travel-story",
+        "reunionAssetId": "shang-oracle-bronze-scene-v1",
+        "reunionAlt": "三位小伙伴与讲解员回看甲骨文与青铜大鼎的线索",
+        "reunionAspectRatio": 1.5,
+        "reunionFit": "contain",
+        "coverCaption": "去夏商西周看会记事的甲骨与大鼎",
+        "coverNarration": "还没有纸的时候，我们今天写的汉字最早刻在哪里？重达八百多千克的青铜大鼎又是怎样造出来的？跟小伙伴去夏商西周找答案！",
+        "closingCaption": "文字与青铜器的历史证据",
+        "closingLine": "甲骨留字迹，陶范铸重器。",
+        "closingNarration": "商代殷墟甲骨文留下了成系统的早期汉字，商周青铜器和铭文展示了陶范合铸工艺与重要礼仪，让后人能凭真凭实据认识三千多年前的历史。",
+        "fictionNote": "展厅里的图画对照板与小型陶范模型是现代教学道具，不是商代原件；真实商代刻辞牛骨与后母戊鼎请打开相册查看。",
+        "reunionImage": "/content/step-images/shang-oracle-bronze-scene-v1.jpg",
+        "stationLine": "到夏商西周看刻在龟甲兽骨上的早期文字，再看工匠怎样合起陶范铸出厚重的青铜大鼎。",
+        "stationAudio": {
+          "id": "quest-42e5b9042ee33688",
+          "text": "到夏商西周看刻在龟甲兽骨上的早期文字，再看工匠怎样合起陶范铸出厚重的青铜大鼎。"
+        },
+        "closingAudio": {
+          "id": "quest-9b6b7cd412e85bac",
+          "text": "商代殷墟甲骨文留下了成系统的早期汉字，商周青铜器和铭文展示了陶范合铸工艺与重要礼仪，让后人能凭真凭实据认识三千多年前的历史。"
+        }
+      },
+      "sceneImage": "/content/step-images/shang-oracle-bronze-scene-v1.jpg",
+      "evidenceAudio": {
+        "id": "quest-ba2a300c0d2cbd7a",
+        "text": "刻辞牛肩胛骨和后母戊鼎都是商代留下的真实文物，分别让我们看到早期成熟汉字与青铜铸造技术。"
+      },
+      "guideAudio": {
+        "id": "quest-a6f20aa7d159618f",
+        "text": "听听语音提示，点展台或图卡找线索。"
+      }
+    },
+    "sceneAsset": {
+      "id": "shang-oracle-bronze-scene-v1",
+      "title": "甲骨象形图示与青铜方鼎陶范 · 教学插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/shang-oracle-bronze-scene-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代博物馆共学插画：左看甲骨与图画对照板，右看方鼎与陶范模型",
+      "boundary": "现代博物馆教学插画，展示甲骨象形符号示意与青铜鼎陶范合铸示意，不是殷墟出土原件照片；真实刻辞牛骨与后母戊鼎请查看真实材料。",
+      "childVisibility": "child-ok",
+      "image": "/content/step-images/shang-oracle-bronze-scene-v1.jpg"
+    },
+    "narrativeAssets": [
+      {
+        "id": "shang-oracle-bronze-scene-v1",
+        "title": "甲骨象形图示与青铜方鼎陶范 · 教学插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/shang-oracle-bronze-scene-v2.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
+        "clearance": "cleared-project-created",
+        "caption": "现代博物馆共学插画：左看甲骨与图画对照板，右看方鼎与陶范模型",
+        "boundary": "现代博物馆教学插画，展示甲骨象形符号示意与青铜鼎陶范合铸示意，不是殷墟出土原件照片；真实刻辞牛骨与后母戊鼎请查看真实材料。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/shang-oracle-bronze-scene-v1.jpg"
+      },
+      {
+        "id": "shang-oracle-choices-v1",
+        "title": "甲骨象形线索与青铜礼器铸造用途比较 · 四格选项插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/shang-oracle-choices-v2.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
+        "clearance": "cleared-project-created",
+        "caption": "教学选项插画：日与月象形木牌、工匠拼合陶范铸鼎与普通人家陶碗吃饭",
+        "boundary": "现代教学选项插画，帮助感受早期象形文字与所画事物的联系，并区分需要多块陶范协作铸造的青铜礼器与日常普通陶器，不是商代作坊实景复原。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/shang-oracle-choices-v1.jpg"
+      }
+    ],
+    "coverImage": "/content/step-images/xsz-oracle-ox-scapula.jpg",
+    "coverImageAlt": "商代刻辞牛肩胛骨",
+    "coverImageKind": "历史材料",
+    "coverDisplay": {
+      "label": "商代刻辞牛肩胛骨",
+      "fit": "contain"
     },
     "coverAudio": {
-      "id": "quest-cdb774ef157d183c",
-      "text": "今天从一件东西出发：龟甲上的小问号。我们要去河南安阳殷墟，看看甲骨刻辞和后母戊鼎怎样把答案一点点带出来。准备好就点开始。"
+      "id": "quest-c642a7ca1f942472",
+      "text": "还没有纸的时候，我们今天写的汉字最早刻在哪里？重达八百多千克的青铜大鼎又是怎样造出来的？跟小伙伴去夏商西周找答案！"
     },
     "textbookAudio": null,
     "finishAudio": {
-      "id": "quest-78bb3ed1784639ca",
-      "text": "五条线索都找到了，“龟甲上的小问号”的答案是：甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。 你获得了历史证据小侦探勋章。"
+      "id": "quest-2a63da55c906267c",
+      "text": "商代甲骨文是目前所知中国最早的成熟系统文字材料之一；商周青铜礼器用多块陶范合铸，体现高超工艺与协作。"
     },
-    "estimatedMinutes": 7,
+    "finish": {
+      "title": "骨片刻下早期汉字，陶范铸出厚重青铜！",
+      "actions": [
+        "和家人在纸上画一个圆圈加一点、一道弯月牙，猜猜今天的“日”和“月”怎样变出来。",
+        "用橡皮泥压一个小印模，体验一下“先有模子、再印出形状”的陶范思路。"
+      ],
+      "parent": "引导孩子理解：甲骨文是目前所知中国最早的成熟系统文字材料之一，但记录的是商王室占卜而非普通人日记；后母戊鼎体现分工与陶范工艺，不是日常炊具。",
+      "sceneStepIndexes": [
+        2,
+        3
+      ],
+      "actionAudio": [
+        {
+          "id": "quest-428a87637c714aa7",
+          "text": "和家人在纸上画一个圆圈加一点、一道弯月牙，猜猜今天的“日”和“月”怎样变出来。"
+        },
+        {
+          "id": "quest-4d161bcce29a76b8",
+          "text": "用橡皮泥压一个小印模，体验一下“先有模子、再印出形状”的陶范思路。"
+        }
+      ],
+      "introAudio": {
+        "id": "quest-9b6b7cd412e85bac",
+        "text": "商代殷墟甲骨文留下了成系统的早期汉字，商周青铜器和铭文展示了陶范合铸工艺与重要礼仪，让后人能凭真凭实据认识三千多年前的历史。"
+      }
+    },
+    "estimatedMinutes": 6,
     "badge": {
-      "icon": "🏅",
-      "label": "历史证据小侦探"
+      "icon": "🌟",
+      "label": "小小观察员"
     },
     "steps": [
       {
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "先找到时间",
-        "title": "先把故事放进时间河",
-        "prompt": "从一件东西出发，先找哪个年代？",
-        "rightNote": "时间找对了，故事有了起点。",
-        "wrongNote": "先看看时间线，再找一找这章所在的年代。",
+        "phase": "找到刻在骨头上的三千年前文字",
+        "title": "找到刻在骨头上的三千年前文字",
+        "prompt": "殷墟甲骨文与后母戊鼎属于哪一时期？",
+        "rightNote": "在夏商西周时期，商代留下了成系统的甲骨文与厚重青铜器。",
+        "wrongNote": "宋朝已经有纸和活字印刷，刻辞甲骨属于更早的夏商西周。",
+        "sourceIds": [
+          "UNESCO-YIN-XU",
+          "NMC-ORACLE-BRONZE-EXHIBITION",
+          "NMC-ORACLE-OX-BONE"
+        ],
+        "interaction": {
+          "kind": "timeline",
+          "hint": "看看时间河前段的夏商西周站。"
+        },
+        "narrative": {
+          "scene": "artifact",
+          "caption": "三千多年前的刻辞牛骨",
+          "speaker": "小禾",
+          "responseSpeaker": "小朵",
+          "response": "来到夏商西周站啦！骨片上的刻痕真的保存了商代人的文字。",
+          "retry": "宋朝晚得多，看看时间河前面第二站夏商西周。",
+          "nextLabel": "在展厅里找甲骨和青铜方鼎"
+        },
+        "concepts": [
+          {
+            "term": "甲骨文",
+            "meaning": "商代刻在龟甲和兽骨上的早期成熟汉字",
+            "audio": {
+              "id": "quest-cf13e0ec6848a258",
+              "text": "甲骨文：商代刻在龟甲和兽骨上的早期成熟汉字。"
+            }
+          },
+          {
+            "term": "殷墟",
+            "meaning": "河南安阳发现商代都城与甲骨文的重要遗址",
+            "audio": {
+              "id": "quest-97b99171bcbe9735",
+              "text": "殷墟：河南安阳发现商代都城与甲骨文的重要遗址。"
+            }
+          }
+        ],
+        "inspection": {
+          "id": "xsz-oracle-ox-scapula",
+          "title": "商代刻辞牛肩胛骨",
+          "localPath": "reference-assets/xia-shang-zhou/oracle-bone.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:Ancient_Chinese_Writing_on_Ox_Scapula,_Shang_Dynasty_Oracle_Bone,_Yinxu,_Anyang.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC0 1.0",
+          "clearance": "cleared-open-license",
+          "caption": "殷墟出土 · 馆藏实物照片",
+          "boundary": "页面只引导观察骨片和刻辞；若特定钻凿、灼痕在照片中不清楚，应允许孩子选择‘本图无法确认’。未修改原图。 中国文字博物馆展出的殷墟商代刻辞牛肩胛骨。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/xsz-oracle-ox-scapula.jpg",
+          "label": "翻看真文物：甲骨与后母戊鼎",
+          "placement": "main",
+          "framing": "object",
+          "displayHeight": 260,
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：大型牛骨刻辞",
+              "url": "https://www.chnmus.net/ch/collection/data/20201105/65193.html"
+            },
+            {
+              "title": "UNESCO：殷墟世界遗产介绍",
+              "url": "https://whc.unesco.org/en/list/1114/"
+            }
+          ],
+          "audio": {
+            "id": "quest-cf17e8fffb9c6d5d",
+            "text": "这块牛肩胛骨上刻着商代文字，记录王室占卜关心的天气、收成等事。点开相册还能看后母戊鼎。"
+          }
+        },
         "story": {
           "screenNumber": 1,
-          "title": "先把故事放进时间河",
-          "screenText": "这是夏商西周，时间是约公元前21世纪—前771年。",
-          "narration": "这是夏商西周，时间是约公元前21世纪—前771年。",
-          "displayText": "这是夏商西周，时间是约公元前21世纪—前771年。"
+          "title": "找到刻在骨头上的三千年前文字",
+          "screenText": "三千多年前的商代后期，还没有纸张。人们在龟甲和兽骨上刻下成组文字，这就是殷墟甲骨文，属于夏商西周这一站。",
+          "displayText": "三千多年前的商代后期，还没有纸张。人们在龟甲和兽骨上刻下成组文字，这就是殷墟甲骨文，属于夏商西周这一站。",
+          "narration": "三千多年前的商代后期，还没有纸张。人们在龟甲和兽骨上刻下成组文字，这就是殷墟甲骨文，属于夏商西周这一站。"
         },
-        "assetId": "xsz-houmuwu-ding",
-        "image": "/content/step-images/xsz-houmuwu-ding.jpg",
-        "imageAlt": "后母戊鼎实物照片",
-        "imageCaption": "中国国家博物馆展出的后母戊鼎原件。",
-        "imageBoundary": "重量和工艺以中国国家博物馆记录为准；不用来源页曾出现的 875 千克旧数据。未修改原图。",
+        "assetId": "study-8e5a22405dfff31b",
+        "image": "/content/study-scenes/study-8e5a22405dfff31b.svg",
+        "studyImage": "/content/study-scenes/study-8e5a22405dfff31b.svg",
+        "studyImageAlt": "刻辞甲骨，夏商西周",
+        "imageAlt": "刻辞甲骨，夏商西周",
+        "imageCaption": "学习示意 · 刻辞甲骨，夏商西周",
+        "imageBoundary": "自制学习示意。殷墟甲骨文是目前所知中国最早的成熟系统文字材料之一，不等同普通人日常日记，也不是每片骨头都有字。后母戊鼎等青铜礼器用于祭祀礼仪，不是普通人家日常做饭的锅碗。展厅对照板与四格图为现代教学插画。",
         "audio": {
+          "lead": {
+            "id": "quest-8f252df87eaedd08",
+            "text": "三千多年前的商代后期还没有纸，人们把成组文字刻在龟甲和兽骨上。它们属于哪一时期？"
+          },
           "transition": {
-            "id": "quest-539cc8e9e5394229",
-            "text": "先给一件东西找到正确年代。"
+            "id": "quest-dd79ea1bd597eece",
+            "text": "找到刻在骨头上的三千年前文字。"
           },
           "intro": {
-            "id": "quest-eb0a73fab01bc2e7",
-            "text": "这是夏商西周，时间是约公元前21世纪—前771年。"
-          },
-          "image": {
-            "id": "quest-e032a5c15b064580",
-            "text": "点开大图啦。这是后母戊鼎实物照片。这张图能帮我们找到：这是夏商西周，时间是约公元前21世纪—前771年。"
+            "id": "quest-3fe075fc5e9df38e",
+            "text": "三千多年前的商代后期，还没有纸张。人们在龟甲和兽骨上刻下成组文字，这就是殷墟甲骨文，属于夏商西周这一站。"
           },
           "question": {
-            "id": "quest-50c86239196ce113",
-            "text": "从一件东西出发，先找哪个年代？"
+            "id": "quest-b6789d9fc6e57bde",
+            "text": "殷墟甲骨文与后母戊鼎属于哪一时期？"
+          },
+          "image": {
+            "id": "quest-06571722aab826a5",
+            "text": "这是学习示意图：刻辞甲骨，夏商西周。殷墟甲骨文与后母戊鼎属于哪一时期？"
           },
           "right": {
-            "id": "quest-c2d78010da74a324",
-            "text": "答对啦！时间找对了，故事有了起点。"
+            "id": "quest-cf7b349b4eb8149e",
+            "text": "来到夏商西周站啦！骨片上的刻痕真的保存了商代人的文字。"
           },
           "wrong": {
-            "id": "quest-97f81f02dcd7c5eb",
-            "text": "还差一点。先看看时间线，再找一找这章所在的年代。"
+            "id": "quest-572dc9d69773bccf",
+            "text": "宋朝晚得多，看看时间河前面第二站夏商西周。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-02-02-oracle-bronze-time-1",
-            "label": "中国近代史 · 晚清的危机与救亡 · 1840—1911年",
-            "correct": false,
+            "label": "夏商西周 · 商代后期",
+            "correct": true,
+            "objectView": {
+              "kind": "era",
+              "name": "夏商西周",
+              "date": "约前21世纪—前771年",
+              "stationImage": "/images/history-stations/states.webp"
+            },
+            "image": "/content/study-scenes/study-e00aa0ec6ef3cbd8.svg",
+            "imageAlt": "夏商西周",
             "audio": {
-              "id": "quest-a326ed6569d4da14",
-              "text": "中国近代史 · 晚清的危机与救亡 · 1840—1911年"
+              "id": "quest-f730d940dcd4f9aa",
+              "text": "夏商西周 · 商代后期"
             }
           },
           {
             "id": "cn-ancient-02-02-oracle-bronze-time-2",
-            "label": "中国古代史 · 夏商西周 · 约公元前21世纪—前771年",
-            "correct": true,
-            "audio": {
-              "id": "quest-887c975d5fc6d910",
-              "text": "中国古代史 · 夏商西周 · 约公元前21世纪—前771年"
-            }
-          },
-          {
-            "id": "cn-ancient-02-02-oracle-bronze-time-3",
-            "label": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）",
+            "label": "宋朝 · 960—1279年",
             "correct": false,
+            "objectView": {
+              "kind": "era",
+              "name": "宋朝",
+              "date": "960—1279年",
+              "stationImage": "/images/history-stations/cities.webp"
+            },
+            "image": "/content/study-scenes/study-28d575ed81ee6607.svg",
+            "imageAlt": "宋朝",
             "audio": {
-              "id": "quest-0ee11e284f2f5ef2",
-              "text": "中国古代史 · 清朝 · 1644年入关后—1840年前（本站范围）"
+              "id": "quest-b560027883fcd3d7",
+              "text": "宋朝 · 960—1279年"
             }
           }
         ]
       },
       {
         "id": "beginning",
-        "questionKind": "evidence-object",
+        "questionKind": "evidence-observation",
         "icon": "🔎",
-        "phase": "第一拍 · 故事起点",
-        "title": "龟甲上的问题",
-        "prompt": "哪一件证物能先打开这个故事？",
-        "rightNote": "先看龟甲上刻下的问题，再找烧灼后的裂纹。",
-        "wrongNote": "这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。",
+        "phase": "分清甲骨文字板与青铜方鼎",
+        "title": "分清甲骨文字板与青铜方鼎",
+        "prompt": "哪一边展示甲骨与象形图画对照板？",
+        "rightNote": "甲骨刻辞与青铜器物，从两方面留下商周线索。",
+        "wrongNote": "再看看左边木板与右边绿色四足方鼎的区别。",
+        "sourceIds": [
+          "UNESCO-YIN-XU",
+          "NMC-ORACLE-BRONZE-EXHIBITION",
+          "NMC-BRONZE-ART",
+          "NMC-HOUMUWU-DING"
+        ],
+        "interaction": {
+          "kind": "scene-find",
+          "hint": "点一点图里对应的展台。",
+          "imageLabel": "故事插画",
+          "sceneAspectRatio": 1.5,
+          "hotspots": [
+            {
+              "id": "oracle-board",
+              "label": "甲骨模型与日月山鱼对照板",
+              "x": 0.02,
+              "y": 0.21,
+              "width": 0.3,
+              "height": 0.5
+            },
+            {
+              "id": "bronze-ding-mould",
+              "label": "青铜方鼎与外侧陶范模型",
+              "x": 0.62,
+              "y": 0.13,
+              "width": 0.35,
+              "height": 0.7
+            }
+          ],
+          "rounds": [
+            {
+              "id": "oracle",
+              "targetId": "oracle-board",
+              "question": "哪一边展示甲骨与日月山鱼图画对照板？",
+              "feedback": "找到了！不少早期汉字保留了事物轮廓的线索。",
+              "retry": "右边是青铜方鼎，再看左边立着的木展板。",
+              "nextLabel": "再找青铜方鼎与陶范模型",
+              "audio": {
+                "question": {
+                  "id": "quest-3201f2af9902ef1f",
+                  "text": "哪一边展示甲骨与日月山鱼图画对照板？"
+                },
+                "right": {
+                  "id": "quest-28bc11d9a54f3e4d",
+                  "text": "找到了！不少早期汉字保留了事物轮廓的线索。"
+                },
+                "wrong": {
+                  "id": "quest-580a41c1f375f368",
+                  "text": "右边是青铜方鼎，再看左边立着的木展板。"
+                }
+              }
+            },
+            {
+              "id": "bronze",
+              "targetId": "bronze-ding-mould",
+              "question": "哪一边放着四足青铜方鼎和泥土陶范模型？",
+              "feedback": "找到了！工匠先做泥土陶范，再浇铸出厚重的青铜鼎。",
+              "retry": "左边是甲骨展板，再看右边四条腿的青铜方鼎。",
+              "nextLabel": "认一认象形符号",
+              "audio": {
+                "question": {
+                  "id": "quest-2239522a375e7b60",
+                  "text": "哪一边放着四足青铜方鼎和泥土陶范模型？"
+                },
+                "right": {
+                  "id": "quest-2732eaaa27b62e1a",
+                  "text": "找到了！工匠先做泥土陶范，再浇铸出厚重的青铜鼎。"
+                },
+                "wrong": {
+                  "id": "quest-05cd5020e507cb65",
+                  "text": "左边是甲骨展板，再看右边四条腿的青铜方鼎。"
+                }
+              }
+            }
+          ]
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "甲骨与青铜展台",
+          "speaker": "讲解员",
+          "responseSpeaker": "小航",
+          "response": "一边认早期汉字，一边看泥模怎样包住大鼎，太清楚了！",
+          "retry": "仔细看左边木展板和右边绿色的四足大鼎。",
+          "nextLabel": "猜一猜早期象形字画的是什么"
+        },
+        "concepts": [
+          {
+            "term": "青铜器",
+            "meaning": "把铜和锡等金属熔化铸成的器物",
+            "audio": {
+              "id": "quest-327c271bbe3d7207",
+              "text": "青铜器：把铜和锡等金属熔化铸成的器物。"
+            }
+          },
+          {
+            "term": "陶范",
+            "meaning": "用泥土做好的铸造外模子",
+            "audio": {
+              "id": "quest-e0c68fc0a96850bb",
+              "text": "陶范：用泥土做好的铸造外模子。"
+            }
+          }
+        ],
+        "inspection": null,
         "story": {
           "screenNumber": 2,
-          "title": "龟甲上的问题",
-          "screenText": "先看龟甲上刻下的问题，再找烧灼后的裂纹。",
-          "narration": "先看龟甲上刻下的问题，再找烧灼后的裂纹。",
-          "displayText": "先看龟甲上刻下的问题，再找烧灼后的裂纹。"
+          "title": "分清甲骨文字板与青铜方鼎",
+          "screenText": "左边展板把甲骨模型与太阳、月亮、山、鱼的形状放在一起对照；右边展台放着四条腿的青铜方鼎，旁边还有泥土做的陶范小模型。",
+          "displayText": "左边展板把甲骨模型与太阳、月亮、山、鱼的形状放在一起对照；右边展台放着四条腿的青铜方鼎，旁边还有泥土做的陶范小模型。",
+          "narration": "左边展板把甲骨模型与太阳、月亮、山、鱼的形状放在一起对照；右边展台放着四条腿的青铜方鼎，旁边还有泥土做的陶范小模型。"
         },
-        "assetId": "xsz-oracle-ox-scapula",
-        "image": "/content/step-images/xsz-oracle-ox-scapula.jpg",
-        "imageAlt": "商代刻辞牛肩胛骨",
-        "imageCaption": "中国文字博物馆展出的殷墟商代刻辞牛肩胛骨。",
-        "imageBoundary": "页面只引导观察骨片和刻辞；若特定钻凿、灼痕在照片中不清楚，应允许孩子选择‘本图无法确认’。未修改原图。",
+        "assetId": "shang-oracle-bronze-scene-v1",
+        "image": "/content/step-images/shang-oracle-bronze-scene-v1.jpg",
+        "studyImage": "/content/study-scenes/study-429a87aa4405544e.svg",
+        "studyImageAlt": "甲骨刻辞，青铜方鼎与陶范",
+        "imageAlt": "甲骨象形图示与青铜方鼎陶范 · 教学插画",
+        "imageCaption": "甲骨象形图示与青铜方鼎陶范 · 教学插画",
+        "imageBoundary": "现代博物馆教学插画，展示甲骨象形符号示意与青铜鼎陶范合铸示意，不是殷墟出土原件照片；真实刻辞牛骨与后母戊鼎请查看真实材料。",
         "audio": {
+          "lead": {
+            "id": "quest-04ced1979ae14c38",
+            "text": "左边是甲骨与日、月、山、鱼图画对照板，右边是青铜方鼎与泥土陶范模型。先找甲骨对照板。"
+          },
           "transition": {
-            "id": "quest-bc13be496686808e",
-            "text": "时间找到了。先找一件看得见、能核对的证物。"
+            "id": "quest-163eef7046c04229",
+            "text": "分清甲骨文字板与青铜方鼎。"
           },
           "intro": {
-            "id": "quest-08063ffb3b0be2c9",
-            "text": "先看龟甲上刻下的问题，再找烧灼后的裂纹。"
-          },
-          "image": {
-            "id": "quest-a06ca638c4bfd6bf",
-            "text": "点开大图啦。这是商代刻辞牛肩胛骨。这张图能帮我们找到：先看龟甲上刻下的问题，再找烧灼后的裂纹。"
+            "id": "quest-362d562c362d93e9",
+            "text": "左边展板把甲骨模型与太阳、月亮、山、鱼的形状放在一起对照；右边展台放着四条腿的青铜方鼎，旁边还有泥土做的陶范小模型。"
           },
           "question": {
-            "id": "quest-785d31b501154b8e",
-            "text": "哪一件证物能先打开这个故事？"
+            "id": "quest-6addef265ed9924d",
+            "text": "哪一边展示甲骨与象形图画对照板？"
+          },
+          "image": {
+            "id": "quest-680dff1d2eba2aec",
+            "text": "这张是甲骨象形图示与青铜方鼎陶范 · 教学插画。左边展板把甲骨模型与太阳、月亮、山、鱼的形状放在一起对照；右边展台放着四条腿的青铜方鼎，旁边还有泥土做的陶范小模型。"
           },
           "right": {
-            "id": "quest-9e334cf899a379f3",
-            "text": "答对啦！第一件证物找到了。"
+            "id": "quest-7ce50c8d05088ef6",
+            "text": "一边认早期汉字，一边看泥模怎样包住大鼎，太清楚了！"
           },
           "wrong": {
-            "id": "quest-83318c217691cf7c",
-            "text": "还差一点。这张卡说到了人物、地点或文化，再找一件能看、能摸或能核对的证物。"
+            "id": "quest-bb58736ae6afedcc",
+            "text": "仔细看左边木展板和右边绿色的四足大鼎。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-02-02-oracle-bronze-beginning-1",
-            "label": "甲骨刻辞和后母戊鼎，是能核对的证物",
-            "correct": true,
-            "audio": {
-              "id": "quest-b980907ea7b92fef",
-              "text": "甲骨刻辞和后母戊鼎，是能核对的证物"
-            }
-          },
-          {
-            "id": "cn-ancient-02-02-oracle-bronze-beginning-2",
-            "label": "河南安阳殷墟、刻字，只是故事地点",
-            "correct": false,
-            "audio": {
-              "id": "quest-f7b7eaf096396eb9",
-              "text": "河南安阳殷墟、刻字，只是故事地点"
-            }
-          },
-          {
-            "id": "cn-ancient-02-02-oracle-bronze-beginning-3",
-            "label": "刻字者和铸铜工匠、河南，只是故事人物",
-            "correct": false,
-            "audio": {
-              "id": "quest-b5fbf0054490bf8c",
-              "text": "刻字者和铸铜工匠、河南，只是故事人物"
-            }
-          }
-        ]
+        "options": []
       },
       {
         "id": "journey",
-        "questionKind": "people-place-action",
+        "questionKind": "action-sequence",
         "icon": "🧭",
-        "phase": "第二拍 · 故事继续",
-        "title": "把结果也写下",
-        "prompt": "故事里的人来到这里以后，做了什么？",
-        "rightNote": "接着看刻字者怎样把结果也留在甲骨上。",
-        "wrongNote": "这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。",
+        "phase": "圆圈中间一点，像天上的什么？",
+        "title": "圆圈中间一点，像天上的什么？",
+        "prompt": "木牌上圆圈加一点的字，对应哪幅图？",
+        "rightNote": "圆圆轮廓加一点对应太阳，就是早期的“日”字线索。",
+        "wrongNote": "弯弯月牙对应“月”字，再找圆圆发光的太阳。",
+        "sourceIds": [
+          "NMC-ORACLE-BRONZE-EXHIBITION",
+          "NMC-ORACLE-TURTLE"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "看看哪张图的木牌刻着圆圈加一点。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "象形文字里的太阳与月亮",
+          "speaker": "小朵",
+          "responseSpeaker": "小禾",
+          "response": "原来汉字的祖先和太阳、月亮的样子有联系！",
+          "retry": "这张画着弯弯的月牙，再看有圆太阳和圆圈木牌的那张。",
+          "nextLabel": "看看八百多千克的大鼎怎样造"
+        },
+        "concepts": null,
+        "inspection": null,
         "story": {
           "screenNumber": 3,
-          "title": "把结果也写下",
-          "screenText": "接着看刻字者怎样把结果也留在甲骨上。",
-          "narration": "接着看刻字者怎样把结果也留在甲骨上。",
-          "displayText": "接着看刻字者怎样把结果也留在甲骨上。"
+          "title": "圆圈中间一点，像天上的什么？",
+          "screenText": "甲骨文里有一些字顺着自然景物的样子刻成：圆圈中间加一点表示白天的太阳（日），弯弯的一道弧线表示夜晚的月亮（月）。",
+          "displayText": "甲骨文里有一些字顺着自然景物的样子刻成：圆圈中间加一点表示白天的太阳（日），弯弯的一道弧线表示夜晚的月亮（月）。",
+          "narration": "甲骨文里有一些字顺着自然景物的样子刻成：圆圈中间加一点表示白天的太阳（日），弯弯的一道弧线表示夜晚的月亮（月）。"
         },
-        "assetId": "xsz-oracle-bone-pit",
-        "image": "/content/step-images/xsz-oracle-bone-pit.jpg",
-        "imageAlt": "殷墟 YH127 甲骨窖穴展示",
-        "imageCaption": "殷墟 YH127 甲骨窖穴的现场展示。",
-        "imageBoundary": "照片经过来源页记载的裁切；不把窖穴内每一块骨片都描述成有文字。",
+        "assetId": "shang-oracle-bronze-scene-v1",
+        "image": "/content/step-images/shang-oracle-bronze-scene-v1.jpg",
+        "studyImage": "/content/study-scenes/study-3e4204256663671b.svg",
+        "studyImageAlt": "日字像太阳，月字像弯月",
+        "imageAlt": "甲骨象形图示与青铜方鼎陶范 · 教学插画",
+        "imageCaption": "甲骨象形图示与青铜方鼎陶范 · 教学插画",
+        "imageBoundary": "现代博物馆教学插画，展示甲骨象形符号示意与青铜鼎陶范合铸示意，不是殷墟出土原件照片；真实刻辞牛骨与后母戊鼎请查看真实材料。",
         "audio": {
+          "lead": {
+            "id": "quest-d68734a10e00b540",
+            "text": "圆圈中间一点表示太阳，弯弯弧线表示月亮。木牌上圆圈加一点的字，对应哪幅图？"
+          },
           "transition": {
-            "id": "quest-d4c11419e03a18fd",
-            "text": "证物找到了。现在跟着人物来到故事地点，看他们做了什么。"
+            "id": "quest-48c8356a281a98d0",
+            "text": "圆圈中间一点，像天上的什么？。"
           },
           "intro": {
-            "id": "quest-d18ebde81ce14272",
-            "text": "接着看刻字者怎样把结果也留在甲骨上。"
-          },
-          "image": {
-            "id": "quest-3134344470404787",
-            "text": "点开大图啦。这是殷墟 YH127 甲骨窖穴展示。这张图能帮我们找到：接着看刻字者怎样把结果也留在甲骨上。"
+            "id": "quest-b1cf3292ed5bd017",
+            "text": "甲骨文里有一些字顺着自然景物的样子刻成：圆圈中间加一点表示白天的太阳（日），弯弯的一道弧线表示夜晚的月亮（月）。"
           },
           "question": {
-            "id": "quest-329a69e64424a884",
-            "text": "故事里的人来到这里以后，做了什么？"
+            "id": "quest-c4fa9ed857ce601a",
+            "text": "木牌上圆圈加一点的字，对应哪幅图？"
+          },
+          "image": {
+            "id": "quest-a66074f0f89dcaab",
+            "text": "这张是甲骨象形图示与青铜方鼎陶范 · 教学插画。甲骨文里有一些字顺着自然景物的样子刻成：圆圈中间加一点表示白天的太阳（日），弯弯的一道弧线表示夜晚的月亮（月）。"
           },
           "right": {
-            "id": "quest-d7d6754891bc9f0f",
-            "text": "答对啦！人物、地点和行动连起来了。"
+            "id": "quest-22df16c77fbcd9fb",
+            "text": "原来汉字的祖先和太阳、月亮的样子有联系！"
           },
           "wrong": {
-            "id": "quest-66c837d18451416f",
-            "text": "还差一点。这张卡只说到了人物、地点或证物，再找那一步真正发生的行动。"
+            "id": "quest-2c4c83f57646b9a7",
+            "text": "这张画着弯弯的月牙，再看有圆太阳和圆圈木牌的那张。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-02-02-oracle-bronze-journey-1",
-            "label": "刻字者和铸铜工匠、甲骨刻辞，只认出人物",
-            "correct": false,
+            "label": "圆圆发光的太阳（早期的“日”字）",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "shang-oracle-choices-v1",
+              "crop": {
+                "x": 6,
+                "y": 6,
+                "width": 750,
+                "height": 500,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/shang-oracle-choices-v1.jpg",
+              "imageAlt": "圆圆发光的太阳（早期的“日”字）",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-3e8d015b7ea95479.svg",
+            "imageAlt": "太阳",
             "audio": {
-              "id": "quest-35613725c5d037b8",
-              "text": "刻字者和铸铜工匠、甲骨刻辞，只认出人物"
+              "id": "quest-8097ef12b409f15a",
+              "text": "圆圆发光的太阳（早期的“日”字）"
             }
           },
           {
             "id": "cn-ancient-02-02-oracle-bronze-journey-2",
-            "label": "河南安阳殷墟、甲骨刻辞，只说了地点",
+            "label": "夜空弯弯的月亮（早期的“月”字）",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "shang-oracle-choices-v1",
+              "crop": {
+                "x": 780,
+                "y": 6,
+                "width": 750,
+                "height": 500,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/shang-oracle-choices-v1.jpg",
+              "imageAlt": "夜空弯弯的月亮（早期的“月”字）",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-bd9f082a18a2823a.svg",
+            "imageAlt": "弯月",
             "audio": {
-              "id": "quest-3518eec834b7f938",
-              "text": "河南安阳殷墟、甲骨刻辞，只说了地点"
-            }
-          },
-          {
-            "id": "cn-ancient-02-02-oracle-bronze-journey-3",
-            "label": "接着看刻字者怎样把结果也留在甲骨上。",
-            "correct": true,
-            "audio": {
-              "id": "quest-d18ebde81ce14272",
-              "text": "接着看刻字者怎样把结果也留在甲骨上。"
+              "id": "quest-977abd1df42053b1",
+              "text": "夜空弯弯的月亮（早期的“月”字）"
             }
           }
         ]
@@ -391,155 +945,250 @@
         "id": "change",
         "questionKind": "cause-effect",
         "icon": "✨",
-        "phase": "第三拍 · 看见变化",
-        "title": "文字让商代清楚",
-        "prompt": "前面的行动带来了什么变化？",
-        "rightNote": "最后和青铜鼎铭文相对照，让商代故事更清楚。",
-        "wrongNote": "这张卡还停在证物、地点或行动，再找由前面行动带来的变化。",
+        "phase": "后母戊鼎怎样铸成与使用",
+        "title": "后母戊鼎怎样铸成与使用",
+        "prompt": "哪幅画符合青铜大鼎的制作与用途？",
+        "rightNote": "许多工匠分工合范铸造礼器，体现强大的手工业组织。",
+        "wrongNote": "普通人家日常吃饭用朴素陶器，青铜大鼎是需要多人合范铸造的礼器。",
+        "sourceIds": [
+          "NMC-HOUMUWU-DING",
+          "NMC-BRONZE-ART"
+        ],
+        "interaction": {
+          "kind": "pick",
+          "hint": "找找多位工匠围着青铜方鼎拼合陶范的一幅。",
+          "selectionFraming": "detail",
+          "choiceArt": "illustrated"
+        },
+        "narrative": {
+          "scene": "detail",
+          "caption": "合范铸鼎与日常陶器",
+          "speaker": "小航",
+          "responseSpeaker": "讲解员",
+          "response": "选对啦！铸造这么重的大鼎，需要大量原料和许多工匠紧密配合。",
+          "retry": "大鼎有八百多千克重，不是端在手里的普通粥碗，再看工匠拼陶范的一幅。",
+          "nextLabel": "听听文字与器物怎样一起作证"
+        },
+        "concepts": [
+          {
+            "term": "后母戊鼎",
+            "meaning": "重832.84千克的商代大型青铜礼器",
+            "audio": {
+              "id": "quest-b70135512e564224",
+              "text": "后母戊鼎：重832.84千克的商代大型青铜礼器。"
+            }
+          }
+        ],
+        "inspection": {
+          "id": "xsz-houmuwu-ding",
+          "title": "后母戊青铜方鼎原件照片",
+          "localPath": "reference-assets/xia-shang-zhou/houmuwu-ding.jpg",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:HouMuWuDingFullView.jpg",
+          "sourceFile": null,
+          "licensePath": null,
+          "license": "CC BY-SA 3.0",
+          "clearance": "cleared-open-license",
+          "caption": "商代后期 · 重832.84千克",
+          "boundary": "重量和工艺以中国国家博物馆记录为准；不用来源页曾出现的 875 千克旧数据。未修改原图。 中国国家博物馆展出的后母戊鼎原件。",
+          "childVisibility": "child-ok",
+          "image": "/content/step-images/xsz-houmuwu-ding.jpg",
+          "label": "看真文物：后母戊鼎",
+          "placement": "supporting",
+          "openAlbum": true,
+          "sourceLinks": [
+            {
+              "title": "中国国家博物馆：“后母戊”青铜方鼎",
+              "url": "https://www.chnmus.net/ch/collection/data/20201105/65195.html"
+            }
+          ],
+          "audio": {
+            "id": "quest-f96d109c7431caf6",
+            "text": "这是中国国家博物馆展出的后母戊鼎原件。器身内壁铸有“后母戊”三字铭文。"
+          }
+        },
         "story": {
           "screenNumber": 4,
-          "title": "文字让商代清楚",
-          "screenText": "最后和青铜鼎铭文相对照，让商代故事更清楚。",
-          "narration": "最后和青铜鼎铭文相对照，让商代故事更清楚。",
-          "displayText": "最后和青铜鼎铭文相对照，让商代故事更清楚。"
+          "title": "后母戊鼎怎样铸成与使用",
+          "screenText": "后母戊鼎重832.84千克，用于王室重要祭祀礼仪，不是普通人家天天端着喝粥的碗。铸造它需要许多工匠分工拼合多块陶范、熔化金属。",
+          "displayText": "后母戊鼎重832.84千克，用于王室重要祭祀礼仪，不是普通人家天天端着喝粥的碗。铸造它需要许多工匠分工拼合多块陶范、熔化金属。",
+          "narration": "后母戊鼎重832.84千克，用于王室重要祭祀礼仪，不是普通人家天天端着喝粥的碗。铸造它需要许多工匠分工拼合多块陶范、熔化金属。"
         },
-        "assetId": "xsz-houmuwu-ding",
-        "image": "/content/step-images/xsz-houmuwu-ding.jpg",
-        "imageAlt": "后母戊鼎实物照片",
-        "imageCaption": "中国国家博物馆展出的后母戊鼎原件。",
-        "imageBoundary": "重量和工艺以中国国家博物馆记录为准；不用来源页曾出现的 875 千克旧数据。未修改原图。",
+        "assetId": "shang-oracle-bronze-scene-v1",
+        "image": "/content/step-images/shang-oracle-bronze-scene-v1.jpg",
+        "studyImage": "/content/study-scenes/study-f262e7a42bb7c968.svg",
+        "studyImageAlt": "多人合范铸鼎，重要礼器",
+        "imageAlt": "甲骨象形图示与青铜方鼎陶范 · 教学插画",
+        "imageCaption": "甲骨象形图示与青铜方鼎陶范 · 教学插画",
+        "imageBoundary": "现代博物馆教学插画，展示甲骨象形符号示意与青铜鼎陶范合铸示意，不是殷墟出土原件照片；真实刻辞牛骨与后母戊鼎请查看真实材料。",
         "audio": {
+          "lead": {
+            "id": "quest-2c4d87eeec83022c",
+            "text": "后母戊鼎重八百多千克，是王室重要礼器，不是日常粥碗。哪幅画符合青铜大鼎的制作与用途？"
+          },
           "transition": {
-            "id": "quest-ca472709af5bb16a",
-            "text": "行动发生了。再看看它带来了什么变化。"
+            "id": "quest-695b06035e4b461b",
+            "text": "后母戊鼎怎样铸成与使用。"
           },
           "intro": {
-            "id": "quest-222d3d318e5b8c70",
-            "text": "最后和青铜鼎铭文相对照，让商代故事更清楚。"
-          },
-          "image": {
-            "id": "quest-506c01cb5c359b43",
-            "text": "点开大图啦。这是后母戊鼎实物照片。这张图能帮我们找到：最后和青铜鼎铭文相对照，让商代故事更清楚。"
+            "id": "quest-427fb8b811fed542",
+            "text": "后母戊鼎重832.84千克，用于王室重要祭祀礼仪，不是普通人家天天端着喝粥的碗。铸造它需要许多工匠分工拼合多块陶范、熔化金属。"
           },
           "question": {
-            "id": "quest-2f86a3a6bc009210",
-            "text": "前面的行动带来了什么变化？"
+            "id": "quest-9d9848bf62cc280d",
+            "text": "哪幅画符合青铜大鼎的制作与用途？"
+          },
+          "image": {
+            "id": "quest-6fde8483cfa97959",
+            "text": "这张是甲骨象形图示与青铜方鼎陶范 · 教学插画。后母戊鼎重832.84千克，用于王室重要祭祀礼仪，不是普通人家天天端着喝粥的碗。铸造它需要许多工匠分工拼合多块陶范、熔化金属。"
           },
           "right": {
-            "id": "quest-53f7633e99fda023",
-            "text": "答对啦！你找到了前因带来的变化。"
+            "id": "quest-ef978b268a0f27e6",
+            "text": "选对啦！铸造这么重的大鼎，需要大量原料和许多工匠紧密配合。"
           },
           "wrong": {
-            "id": "quest-631e3024b71736c9",
-            "text": "还差一点。这张卡还停在证物、地点或行动，再找由前面行动带来的变化。"
+            "id": "quest-f96e3250e1b04a27",
+            "text": "大鼎有八百多千克重，不是端在手里的普通粥碗，再看工匠拼陶范的一幅。"
           }
         },
         "options": [
           {
             "id": "cn-ancient-02-02-oracle-bronze-change-1",
-            "label": "看刻字者怎样把结果也留在甲骨，还只是行动经过",
-            "correct": false,
+            "label": "多位工匠分工拼合泥土陶范，铸造厚重礼器",
+            "correct": true,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "shang-oracle-choices-v1",
+              "crop": {
+                "x": 6,
+                "y": 518,
+                "width": 750,
+                "height": 500,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/shang-oracle-choices-v1.jpg",
+              "imageAlt": "多位工匠分工拼合泥土陶范，铸造厚重礼器",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-49797d24fe3519ad.svg",
+            "imageAlt": "合范铸鼎",
             "audio": {
-              "id": "quest-5f2582a1a8d6dc22",
-              "text": "看刻字者怎样把结果也留在甲骨，还只是行动经过"
+              "id": "quest-0013b18134700efe",
+              "text": "多位工匠分工拼合泥土陶范，铸造厚重礼器"
             }
           },
           {
             "id": "cn-ancient-02-02-oracle-bronze-change-2",
-            "label": "最后和青铜鼎铭文相对照，让商代故事更清楚。",
-            "correct": true,
-            "audio": {
-              "id": "quest-222d3d318e5b8c70",
-              "text": "最后和青铜鼎铭文相对照，让商代故事更清楚。"
-            }
-          },
-          {
-            "id": "cn-ancient-02-02-oracle-bronze-change-3",
-            "label": "甲骨刻辞和后母戊鼎、河南，还只是故事起点",
+            "label": "普通人家坐在院里天天端着喝粥的泥陶碗",
             "correct": false,
+            "objectView": {
+              "kind": "scene-card",
+              "assetId": "shang-oracle-choices-v1",
+              "crop": {
+                "x": 780,
+                "y": 518,
+                "width": 750,
+                "height": 500,
+                "sourceWidth": 1536,
+                "sourceHeight": 1024
+              },
+              "image": "/content/step-images/shang-oracle-choices-v1.jpg",
+              "imageAlt": "普通人家坐在院里天天端着喝粥的泥陶碗",
+              "imageLabel": "故事插画"
+            },
+            "image": "/content/study-scenes/study-fe8929b431819fd4.svg",
+            "imageAlt": "日常陶碗",
             "audio": {
-              "id": "quest-98c8e86a6efc7769",
-              "text": "甲骨刻辞和后母戊鼎、河南，还只是故事起点"
+              "id": "quest-76d6495050ded475",
+              "text": "普通人家坐在院里天天端着喝粥的泥陶碗"
             }
           }
         ]
       },
       {
         "id": "takeaway",
-        "questionKind": "reason-result",
+        "questionKind": "apply-and-explain",
         "icon": "🗣️",
-        "phase": "把线索连成答案",
-        "title": "把三条线索连成答案",
-        "prompt": "哪句话同时说清了原因和结果？",
-        "rightNote": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。",
-        "wrongNote": "这句话只说了原因或结果的一边，再找把两边连起来的完整回答。",
-        "story": {
-          "screenNumber": 7,
-          "title": "把三条线索连成答案",
-          "screenText": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。",
-          "narration": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。",
-          "displayText": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。"
+        "phase": "刻辞与铭文让历史有据可查",
+        "title": "刻辞与铭文让历史有据可查",
+        "prompt": "甲骨与青铜器怎样帮我们认识商周",
+        "rightNote": "文字材料与青铜实物互相印证，留下可靠历史线索。",
+        "wrongNote": "再听听文字与器物各自保存的信息。",
+        "sourceIds": [
+          "UNESCO-YIN-XU",
+          "NMC-ORACLE-BRONZE-EXHIBITION",
+          "NMC-HOUMUWU-DING"
+        ],
+        "interaction": {
+          "kind": "look-listen",
+          "hint": "听完总结，点继续完成这一章。",
+          "continueLabel": "带着发现回家"
         },
-        "assetId": "xsz-oracle-ox-scapula",
-        "image": "/content/step-images/xsz-oracle-ox-scapula.jpg",
-        "imageAlt": "商代刻辞牛肩胛骨",
-        "imageCaption": "中国文字博物馆展出的殷墟商代刻辞牛肩胛骨。",
-        "imageBoundary": "页面只引导观察骨片和刻辞；若特定钻凿、灼痕在照片中不清楚，应允许孩子选择‘本图无法确认’。未修改原图。",
+        "narrative": {
+          "scene": "reunion",
+          "caption": "带着汉字与青铜线索回家",
+          "speaker": "小禾",
+          "responseSpeaker": "小伙伴",
+          "response": "原来三千多年前的骨片和大鼎里，藏着汉字和工匠的秘密！",
+          "retry": "再听听这一幕。",
+          "nextLabel": "带着发现回家"
+        },
+        "concepts": [
+          {
+            "term": "铭文",
+            "meaning": "铸造或刻在青铜器等器物上的文字",
+            "audio": {
+              "id": "quest-d21824d9fb70bf36",
+              "text": "铭文：铸造或刻在青铜器等器物上的文字。"
+            }
+          }
+        ],
+        "inspection": null,
+        "story": {
+          "screenNumber": 5,
+          "title": "刻辞与铭文让历史有据可查",
+          "screenText": "甲骨刻辞记下商王室关心的天气、农事等活动，商周青铜器也铸有记录人物和事件的铭文。把文字与器物合起来看，才能认识真实的商周。",
+          "displayText": "甲骨刻辞记下商王室关心的天气、农事等活动，商周青铜器也铸有记录人物和事件的铭文。把文字与器物合起来看，才能认识真实的商周。",
+          "narration": "甲骨刻辞记下商王室关心的天气、农事等活动，商周青铜器也铸有记录人物和事件的铭文。把文字与器物合起来看，才能认识真实的商周。"
+        },
+        "assetId": "shang-oracle-bronze-scene-v1",
+        "image": "/content/step-images/shang-oracle-bronze-scene-v1.jpg",
+        "studyImage": "/content/study-scenes/study-c05527d0a0aff9fa.svg",
+        "studyImageAlt": "甲骨刻辞，青铜铭文作证",
+        "imageAlt": "甲骨象形图示与青铜方鼎陶范 · 教学插画",
+        "imageCaption": "甲骨象形图示与青铜方鼎陶范 · 教学插画",
+        "imageBoundary": "现代博物馆教学插画，展示甲骨象形符号示意与青铜鼎陶范合铸示意，不是殷墟出土原件照片；真实刻辞牛骨与后母戊鼎请查看真实材料。",
         "audio": {
+          "lead": {
+            "id": "quest-a01d3a6ee89c89cb",
+            "text": "甲骨上的刻辞和青铜器上的铭文，把三千多年前的事情留了下来，让后人能凭真实证据认识商周。"
+          },
           "transition": {
-            "id": "quest-a7cb01ad27c42767",
-            "text": "把证物、行动和变化连起来，说清为什么和后来怎样。"
+            "id": "quest-846085d4e3ede367",
+            "text": "刻辞与铭文让历史有据可查。"
           },
           "intro": {
-            "id": "quest-3545725829822e52",
-            "text": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。"
-          },
-          "image": {
-            "id": "quest-6c1143d52dc2a8e7",
-            "text": "点开大图啦。这是商代刻辞牛肩胛骨。这张图能帮我们找到：甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。"
+            "id": "quest-476187407887daab",
+            "text": "甲骨刻辞记下商王室关心的天气、农事等活动，商周青铜器也铸有记录人物和事件的铭文。把文字与器物合起来看，才能认识真实的商周。"
           },
           "question": {
-            "id": "quest-1626b51c966f57f7",
-            "text": "哪句话同时说清了原因和结果？"
+            "id": "quest-487e4c29dc600cae",
+            "text": "甲骨与青铜器怎样帮我们认识商周"
+          },
+          "image": {
+            "id": "quest-34b2f1467fe8f33a",
+            "text": "这张是甲骨象形图示与青铜方鼎陶范 · 教学插画。甲骨刻辞记下商王室关心的天气、农事等活动，商周青铜器也铸有记录人物和事件的铭文。把文字与器物合起来看，才能认识真实的商周。"
           },
           "right": {
-            "id": "quest-7efb4ef63956e209",
-            "text": "答对啦！原因和结果都说清楚了。"
+            "id": "quest-a6920507a20e814b",
+            "text": "原来三千多年前的骨片和大鼎里，藏着汉字和工匠的秘密！"
           },
           "wrong": {
-            "id": "quest-0cee35f61bffd03b",
-            "text": "还差一点。这句话只说了原因或结果的一边，再找把两边连起来的完整回答。"
+            "id": "quest-93a51f67f6f985fe",
+            "text": "再听听这一幕。"
           }
         },
-        "options": [
-          {
-            "id": "cn-ancient-02-02-oracle-bronze-takeaway-1",
-            "label": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。",
-            "correct": true,
-            "audio": {
-              "id": "quest-3545725829822e52",
-              "text": "甲骨留下文字记录，铜鼎留下工艺、礼仪和权力怎样运行的线索。"
-            }
-          },
-          {
-            "id": "cn-ancient-02-02-oracle-bronze-takeaway-2",
-            "label": "和青铜鼎铭文相对照，让商代故事更清楚。、龟甲上的，只说了结果",
-            "correct": false,
-            "audio": {
-              "id": "quest-be7480d83be75bf9",
-              "text": "和青铜鼎铭文相对照，让商代故事更清楚。、龟甲上的，只说了结果"
-            }
-          },
-          {
-            "id": "cn-ancient-02-02-oracle-bronze-takeaway-3",
-            "label": "看龟甲上刻下的问题，再找烧灼后的裂纹。、甲骨，只说了原因",
-            "correct": false,
-            "audio": {
-              "id": "quest-cc23af6121f20113",
-              "text": "看龟甲上刻下的问题，再找烧灼后的裂纹。、甲骨，只说了原因"
-            }
-          }
-        ]
+        "options": []
       }
     ],
     "extensionTasks": [
@@ -876,9 +1525,190 @@
       "authorityLevel": "A",
       "factUse": "后母戊鼎名称、重量、铸造用料、陶范和分铸合铸工艺",
       "imageUse": "reference-only"
+    },
+    {
+      "id": "MOE-HISTORY-CURRICULUM-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "institution": "中华人民共和国教育部",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "type": "curriculum-standard",
+      "authorityLevel": "A",
+      "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
     }
   ],
   "assets": [
+    {
+      "id": "shang-oracle-bronze-scene-v1",
+      "title": "甲骨象形图示与青铜方鼎陶范 · 教学插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/shang-oracle-bronze-scene-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代博物馆共学插画：左看甲骨与图画对照板，右看方鼎与陶范模型",
+      "boundary": "现代博物馆教学插画，展示甲骨象形符号示意与青铜鼎陶范合铸示意，不是殷墟出土原件照片；真实刻辞牛骨与后母戊鼎请查看真实材料。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "shang-oracle-choices-v1",
+      "title": "甲骨象形线索与青铜礼器铸造用途比较 · 四格选项插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/shang-oracle-choices-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "教学选项插画：日与月象形木牌、工匠拼合陶范铸鼎与普通人家陶碗吃饭",
+      "boundary": "现代教学选项插画，帮助感受早期象形文字与所画事物的联系，并区分需要多块陶范协作铸造的青铜礼器与日常普通陶器，不是商代作坊实景复原。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-8e5a22405dfff31b",
+      "title": "学习示意：刻辞甲骨、夏商西周",
+      "localPath": "reference-assets/focused-quests/study-8e5a22405dfff31b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "刻辞甲骨 → 夏商西周",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-e00aa0ec6ef3cbd8",
+      "title": "学习示意：夏商西周",
+      "localPath": "reference-assets/focused-quests/study-e00aa0ec6ef3cbd8.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "夏商西周",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-28d575ed81ee6607",
+      "title": "学习示意：宋朝",
+      "localPath": "reference-assets/focused-quests/study-28d575ed81ee6607.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "宋朝",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-429a87aa4405544e",
+      "title": "学习示意：甲骨刻辞、青铜方鼎与陶范",
+      "localPath": "reference-assets/focused-quests/study-429a87aa4405544e.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "甲骨刻辞 → 青铜方鼎与陶范",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-3e4204256663671b",
+      "title": "学习示意：日字像太阳、月字像弯月",
+      "localPath": "reference-assets/focused-quests/study-3e4204256663671b.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "日字像太阳 → 月字像弯月",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-3e8d015b7ea95479",
+      "title": "学习示意：太阳",
+      "localPath": "reference-assets/focused-quests/study-3e8d015b7ea95479.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "太阳",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-bd9f082a18a2823a",
+      "title": "学习示意：弯月",
+      "localPath": "reference-assets/focused-quests/study-bd9f082a18a2823a.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "弯月",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-f262e7a42bb7c968",
+      "title": "学习示意：多人合范铸鼎、重要礼器",
+      "localPath": "reference-assets/focused-quests/study-f262e7a42bb7c968.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "多人合范铸鼎 → 重要礼器",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-49797d24fe3519ad",
+      "title": "学习示意：合范铸鼎",
+      "localPath": "reference-assets/focused-quests/study-49797d24fe3519ad.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "合范铸鼎",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-fe8929b431819fd4",
+      "title": "学习示意：日常陶碗",
+      "localPath": "reference-assets/focused-quests/study-fe8929b431819fd4.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "日常陶碗",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
+    {
+      "id": "study-c05527d0a0aff9fa",
+      "title": "学习示意：甲骨刻辞、青铜铭文作证",
+      "localPath": "reference-assets/focused-quests/study-c05527d0a0aff9fa.svg",
+      "sourcePage": null,
+      "sourceFile": "content/focused-quests.json",
+      "licensePath": "reference-assets/focused-quests/ATTRIBUTION.md",
+      "license": "项目自制，供本项目使用",
+      "clearance": "cleared-project-created",
+      "caption": "甲骨刻辞 → 青铜铭文作证",
+      "boundary": "自制学习示意，用于比较关系、动作或顺序；不是历史现场、古代原稿或精确疆界图。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "xsz-oracle-ox-scapula",
       "title": "商代刻辞牛肩胛骨",
@@ -928,5 +1758,5 @@
     "audio": "not-started",
     "review": "in-progress"
   },
-  "contentReadiness": "legacy-draft-not-in-preview"
+  "contentReadiness": "authored-playtest-family-validation-pending"
 }

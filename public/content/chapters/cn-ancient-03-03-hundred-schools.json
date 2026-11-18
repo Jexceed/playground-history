@@ -9,15 +9,18 @@
     "label": "春秋战国",
     "years": "前770—前221年",
     "learningContext": {
-      "childIntro": "先到春秋认识孔子，听他教人怎样求学、怎样待人，再跟小伙伴把古话用在今天。",
-      "chronology": "本站范围为春秋战国；当前只开放孔子与论语任务，人物生活在春秋。",
-      "covered": "孔子的教育与思想贡献、《论语》、己所不欲勿施于人与学而时习之的具体实践。",
-      "scopeBoundary": "不把整个诸子百家压成一句话；其他旧稿暂不开放。",
+      "childIntro": "到春秋战国认识教人求学待人的孔子，再去看看战国铁农具和顺着江水分流灌田的都江堰。",
+      "chronology": "前770—前221年为春秋战国范围；孔子生活在春秋，双镰铁范与李冰主持始建都江堰属于战国，不可压成同一年。",
+      "covered": "孔子的教育与《论语》实践；战国铁农具、铸范成批制造，以及都江堰鱼嘴、飞沙堰、宝瓶口的分水防洪与引水原理。",
+      "scopeBoundary": "不把诸子百家或战国社会变化归因于单一人物或单一工具；今天的都江堰包含历代维修与扩展。",
       "sourceIds": [
         "KZYJ-CONFUCIUS-TEACHING",
         "EDB-ANALECTS-FOUR",
         "EDB-ANALECTS-RECIPROCITY",
-        "MOE-HISTORY-CURRICULUM-2022"
+        "MOE-HISTORY-CURRICULUM-2022",
+        "NMC-DOUBLE-SICKLE-IRON-MOULD",
+        "UNESCO-DUJIANGYAN",
+        "SICHUAN-DUJIANGYAN-OVERVIEW"
       ],
       "sources": [
         {
@@ -43,6 +46,24 @@
           "title": "义务教育历史课程标准（2022年版）",
           "institution": "中华人民共和国教育部",
           "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf"
+        },
+        {
+          "id": "NMC-DOUBLE-SICKLE-IRON-MOULD",
+          "title": "双镰铁范",
+          "institution": "中国国家博物馆",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211026_251842.shtml"
+        },
+        {
+          "id": "UNESCO-DUJIANGYAN",
+          "title": "Mount Qingcheng and the Dujiangyan Irrigation System",
+          "institution": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/1001/"
+        },
+        {
+          "id": "SICHUAN-DUJIANGYAN-OVERVIEW",
+          "title": "都江堰：传承千年的治水智慧",
+          "institution": "四川省水利厅",
+          "url": "https://slt.sc.gov.cn/scsslt/c112517/2025/7/16/d72e4374c5fc41848df897bcf9fba5cf.shtml"
         }
       ]
     }
@@ -331,10 +352,10 @@
         "closingNarration": "孔子在春秋教书，创立儒家。《论语》保存他的教导。学懂不把自己不愿受的对待加给别人，再温习、实践，让古话用在今天。",
         "fictionNote": "孔子像为约1770年的后世作品，不是孔子在世时的写生；书影为明刊《论语注疏》，不是孔子手稿。借笔与轮流讲述是现代教学情境，不是孔子生平记录。不以答对或背诵推定理解；尊重别人也包括听取拒绝、表达自己的需要。",
         "reunionImage": "/content/step-images/confucius-listening-v3.jpg",
-        "stationLine": "先到春秋认识孔子，听他教人怎样求学、怎样待人，再跟小伙伴把古话用在今天。",
+        "stationLine": "到春秋战国认识教人求学待人的孔子，再去看看战国铁农具和顺着江水分流灌田的都江堰。",
         "stationAudio": {
-          "id": "quest-4c2d2cfcdb97d885",
-          "text": "先到春秋认识孔子，听他教人怎样求学、怎样待人，再跟小伙伴把古话用在今天。"
+          "id": "quest-19b220cdd96fbd64",
+          "text": "到春秋战国认识教人求学待人的孔子，再去看看战国铁农具和顺着江水分流灌田的都江堰。"
         },
         "closingAudio": {
           "id": "quest-c804fb91b594c384",
@@ -481,7 +502,25 @@
           "retry": "秦朝在后面。孔子在更早的春秋教学生。",
           "nextLabel": "先学一句待人的话"
         },
-        "concepts": null,
+        "concepts": [
+          {
+            "term": "竹简",
+            "meaning": "纸出现以前，古人削平用来写字的竹片",
+            "audio": {
+              "id": "quest-287446d574d30034",
+              "text": "竹简：纸出现以前，古人削平用来写字的竹片。"
+            }
+          },
+          {
+            "term": "论语",
+            "meaning": "孔子的学生和后人把他的话整理成的书",
+            "audio": {
+              "id": "quest-e1f82bddca524dc0",
+              "text": "论语：孔子的学生和后人把他的话整理成的书。",
+              "synthesisText": "伦语：孔子的学生和后人把他的话整理成的书。"
+            }
+          }
+        ],
         "inspection": {
           "id": "confucius-portrait-1770",
           "title": "孔子像 · 后世所绘",
@@ -1412,6 +1451,36 @@
       "type": "curriculum-standard",
       "authorityLevel": "A",
       "factUse": "课程内容结构、学习要求、教学方法与中国古代史七个内容阶段",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "NMC-DOUBLE-SICKLE-IRON-MOULD",
+      "title": "双镰铁范",
+      "institution": "中国国家博物馆",
+      "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211026_251842.shtml",
+      "type": "museum-object-record",
+      "authorityLevel": "A",
+      "factUse": "战国双镰铁范的结构、生铁浇铸技术和战国中期以后铁器使用范围",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "UNESCO-DUJIANGYAN",
+      "title": "Mount Qingcheng and the Dujiangyan Irrigation System",
+      "institution": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1001/",
+      "type": "world-heritage-record",
+      "authorityLevel": "A",
+      "factUse": "都江堰约始建于公元前256年、无坝引水的基本原理、主要工程组成与持续使用",
+      "imageUse": "reference-only"
+    },
+    {
+      "id": "SICHUAN-DUJIANGYAN-OVERVIEW",
+      "title": "都江堰：传承千年的治水智慧",
+      "institution": "四川省水利厅",
+      "url": "https://slt.sc.gov.cn/scsslt/c112517/2025/7/16/d72e4374c5fc41848df897bcf9fba5cf.shtml",
+      "type": "government-water-heritage-record",
+      "authorityLevel": "A",
+      "factUse": "李冰主持、始建年代以及鱼嘴、飞沙堰、宝瓶口三部分的作用",
       "imageUse": "reference-only"
     }
   ],

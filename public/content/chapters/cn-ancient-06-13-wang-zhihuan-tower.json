@@ -287,7 +287,7 @@
     },
     "presentation": {
       "kind": "object-workbench",
-      "sceneAssetId": "tower-story-v1",
+      "sceneAssetId": "tower-main-scene-v1",
       "sceneAlt": "跟王之涣更上一层楼 · 现代读诗想象分镜",
       "title": "跟王之涣更上一层楼",
       "evidenceTitle": "现代重建的鹳雀楼照片",
@@ -304,7 +304,7 @@
       "sceneAspectRatio": 1.5,
       "story": {
         "kind": "travel-story",
-        "reunionAssetId": "tower-story-v1",
+        "reunionAssetId": "tower-main-scene-v1",
         "reunionAlt": "跟王之涣更上一层楼 · 小伙伴读诗分镜",
         "reunionAspectRatio": 1.5,
         "reunionFit": "contain",
@@ -314,7 +314,7 @@
         "closingLine": "诗句里有景色，也有心里的想法。",
         "closingNarration": "《登鹳雀楼》从落日和黄河写到登楼远望。想看得更远，就再上一层楼；诗把眼前景色和向远处展开的想象连在一起。",
         "fictionNote": "采用通行王之涣署名与简体文本；不指定确切写作年。照片是2002年重建的楼，2020年拍摄，不是唐代原楼。插画为现代读诗情境，非楼体复原、真实地理全景或精确视距模型；“入海”是远景联想，不能从楼上直接看见入海口。画中三位儿童和成人讲解员均为现代教学角色，不是王之涣。",
-        "reunionImage": "/content/step-images/tower-story-v1.jpg",
+        "reunionImage": "/content/step-images/tower-main-scene-v1.jpg",
         "stationLine": "到唐朝认识长安的工匠、远行与译书的人，还有写字、写诗的朋友。每个故事先听清自己的年代。",
         "stationAudio": {
           "id": "quest-a249391b3ff41a8f",
@@ -325,7 +325,7 @@
           "text": "《登鹳雀楼》从落日和黄河写到登楼远望。想看得更远，就再上一层楼；诗把眼前景色和向远处展开的想象连在一起。"
         }
       },
-      "sceneImage": "/content/step-images/tower-story-v1.jpg",
+      "sceneImage": "/content/step-images/tower-main-scene-v1.jpg",
       "evidenceAudio": {
         "id": "quest-e3fc22cd1c31a33a",
         "text": "照片拍的是今天的鹳雀楼：这座楼重建后在2002年开放。诗人王之涣生活在唐朝，远比照片里的楼更早。照片帮助认识今天的地方，诗句的意思还要听原诗。"
@@ -336,21 +336,36 @@
       }
     },
     "sceneAsset": {
-      "id": "tower-story-v1",
-      "title": "跟王之涣更上一层楼 · 四幅现代读诗情境",
-      "localPath": "reference-assets/poetry-world-poetry/tower-story-v1.png",
+      "id": "tower-main-scene-v1",
+      "title": "《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/tower-main-scene-v2.png",
       "runtimeMaxEdge": 1536,
       "sourcePage": "https://openai.com/policies/terms-of-use/",
       "sourceFile": null,
-      "licensePath": "reference-assets/poetry-world-poetry/ATTRIBUTION.md",
-      "license": "项目自制教学插画，仅用于本项目故事与学习活动",
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
       "clearance": "cleared-project-created",
-      "caption": "现代读诗想象，不是历史现场或精确建筑复原",
-      "boundary": "采用通行王之涣署名与简体文本；不指定确切写作年。照片是2002年重建的楼，2020年拍摄，不是唐代原楼。插画为现代读诗情境，非楼体复原、真实地理全景或精确视距模型；“入海”是远景联想，不能从楼上直接看见入海口。画中三位儿童和成人讲解员均为现代教学角色，不是王之涣。",
+      "caption": "现代读诗情境插画，不是唐代鹳雀楼原貌",
+      "boundary": "现代读诗情境插画，帮助理解登高望远，不是唐代原楼测绘或王之涣生前现场。",
       "childVisibility": "child-ok",
-      "image": "/content/step-images/tower-story-v1.jpg"
+      "image": "/content/step-images/tower-main-scene-v1.jpg"
     },
     "narrativeAssets": [
+      {
+        "id": "tower-main-scene-v1",
+        "title": "《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画",
+        "localPath": "reference-assets/2026-11-18-enlightenment/tower-main-scene-v2.png",
+        "runtimeMaxEdge": 1536,
+        "sourcePage": "https://openai.com/policies/terms-of-use/",
+        "sourceFile": null,
+        "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+        "license": "项目自制教学插画，仅用于本项目",
+        "clearance": "cleared-project-created",
+        "caption": "现代读诗情境插画，不是唐代鹳雀楼原貌",
+        "boundary": "现代读诗情境插画，帮助理解登高望远，不是唐代原楼测绘或王之涣生前现场。",
+        "childVisibility": "child-ok",
+        "image": "/content/step-images/tower-main-scene-v1.jpg"
+      },
       {
         "id": "tower-story-v1",
         "title": "跟王之涣更上一层楼 · 四幅现代读诗情境",
@@ -441,7 +456,24 @@
           "retry": "宋朝在后，这位诗人生活在唐朝。",
           "nextLabel": "先听完整的《登鹳雀楼》"
         },
-        "concepts": null,
+        "concepts": [
+          {
+            "term": "黄河",
+            "meaning": "流经中国北方、奔向大海的著名大河",
+            "audio": {
+              "id": "quest-d3d6604f5dd34974",
+              "text": "黄河：流经中国北方、奔向大海的著名大河。"
+            }
+          },
+          {
+            "term": "鹳雀楼",
+            "meaning": "唐代黄河边一座可以登高远望的三层高楼",
+            "audio": {
+              "id": "quest-b45c14585dc544b3",
+              "text": "鹳雀楼：唐代黄河边一座可以登高远望的三层高楼。"
+            }
+          }
+        ],
         "inspection": {
           "id": "guanque-tower-2020",
           "title": "现代重建的鹳雀楼照片",
@@ -482,13 +514,13 @@
           "displayText": "王之涣是唐朝诗人，《登鹳雀楼》写登楼远望。照片里的楼是现代重建的。先到唐朝，再听诗里的落日、黄河和登楼望远。",
           "narration": "王之涣是唐朝诗人，《登鹳雀楼》写登楼远望。照片里的楼是现代重建的。先到唐朝，再听诗里的落日、黄河和登楼望远。"
         },
-        "assetId": "tower-story-v1",
-        "image": "/content/step-images/tower-story-v1.jpg",
+        "assetId": "tower-main-scene-v1",
+        "image": "/content/step-images/tower-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-ecdf9e4a3f4d8165.svg",
         "studyImageAlt": "时间定位：去唐朝听诗",
-        "imageAlt": "跟王之涣更上一层楼 · 四幅现代读诗情境",
-        "imageCaption": "跟王之涣更上一层楼 · 四幅现代读诗情境",
-        "imageBoundary": "采用通行王之涣署名与简体文本；不指定确切写作年。照片是2002年重建的楼，2020年拍摄，不是唐代原楼。插画为现代读诗情境，非楼体复原、真实地理全景或精确视距模型；“入海”是远景联想，不能从楼上直接看见入海口。画中三位儿童和成人讲解员均为现代教学角色，不是王之涣。",
+        "imageAlt": "《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画",
+        "imageCaption": "《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，帮助理解登高望远，不是唐代原楼测绘或王之涣生前现场。",
         "audio": {
           "lead": {
             "id": "quest-340be3fd7949748c",
@@ -507,8 +539,8 @@
             "text": "要听这位诗人的作品，先到哪一朝？"
           },
           "image": {
-            "id": "quest-2257f591f6f842d8",
-            "text": "这张是跟王之涣更上一层楼 · 四幅现代读诗情境。王之涣是唐朝诗人，《登鹳雀楼》写登楼远望。照片里的楼是现代重建的。先到唐朝，再听诗里的落日、黄河和登楼望远。"
+            "id": "quest-8b25c92ed6bc085b",
+            "text": "这张是《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画。王之涣是唐朝诗人，《登鹳雀楼》写登楼远望。照片里的楼是现代重建的。先到唐朝，再听诗里的落日、黄河和登楼望远。"
           },
           "right": {
             "id": "quest-867c2d3e62cb7dd7",
@@ -592,13 +624,13 @@
           "displayText": "白日依山尽，黄河入海流。欲穷千里目，更上一层楼。黄河流向大海，诗把目光带到看不见的远方；站在楼上，不能直接看见入海口。",
           "narration": "白日依山尽，黄河入海流。欲穷千里目，更上一层楼。黄河流向大海，诗把目光带到看不见的远方；站在楼上，不能直接看见入海口。"
         },
-        "assetId": "tower-story-v1",
-        "image": "/content/step-images/tower-story-v1.jpg",
+        "assetId": "tower-main-scene-v1",
+        "image": "/content/step-images/tower-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-581ee08b4aeb537a.svg",
         "studyImageAlt": "先听完整的《登鹳雀楼》",
-        "imageAlt": "跟王之涣更上一层楼 · 四幅现代读诗情境",
-        "imageCaption": "跟王之涣更上一层楼 · 四幅现代读诗情境",
-        "imageBoundary": "采用通行王之涣署名与简体文本；不指定确切写作年。照片是2002年重建的楼，2020年拍摄，不是唐代原楼。插画为现代读诗情境，非楼体复原、真实地理全景或精确视距模型；“入海”是远景联想，不能从楼上直接看见入海口。画中三位儿童和成人讲解员均为现代教学角色，不是王之涣。",
+        "imageAlt": "《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画",
+        "imageCaption": "《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，帮助理解登高望远，不是唐代原楼测绘或王之涣生前现场。",
         "audio": {
           "lead": {
             "id": "quest-b79f934a52557c3e",
@@ -617,8 +649,8 @@
             "text": "听落日、黄河与登楼远望"
           },
           "image": {
-            "id": "quest-c3814ee42029661a",
-            "text": "这张是跟王之涣更上一层楼 · 四幅现代读诗情境。白日依山尽，黄河入海流。欲穷千里目，更上一层楼。黄河流向大海，诗把目光带到看不见的远方；站在楼上，不能直接看见入海口。"
+            "id": "quest-1ce61910e261a37d",
+            "text": "这张是《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画。白日依山尽，黄河入海流。欲穷千里目，更上一层楼。黄河流向大海，诗把目光带到看不见的远方；站在楼上，不能直接看见入海口。"
           },
           "right": {
             "id": "quest-4496a87d08de9df0",
@@ -817,13 +849,13 @@
           "displayText": "“欲穷千里目，更上一层楼”，说想看得更远，就再上一层。小伙伴在低处有些河面被树挡住，准备跟成人沿楼梯上楼。",
           "narration": "“欲穷千里目，更上一层楼”，说想看得更远，就再上一层。小伙伴在低处有些河面被树挡住，准备跟成人沿楼梯上楼。"
         },
-        "assetId": "tower-story-v1",
-        "image": "/content/step-images/tower-story-v1.jpg",
+        "assetId": "tower-main-scene-v1",
+        "image": "/content/step-images/tower-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-68c96d2ed77dfb63.svg",
         "studyImageAlt": "想看得远，还能怎样做",
-        "imageAlt": "跟王之涣更上一层楼 · 四幅现代读诗情境",
-        "imageCaption": "跟王之涣更上一层楼 · 四幅现代读诗情境",
-        "imageBoundary": "采用通行王之涣署名与简体文本；不指定确切写作年。照片是2002年重建的楼，2020年拍摄，不是唐代原楼。插画为现代读诗情境，非楼体复原、真实地理全景或精确视距模型；“入海”是远景联想，不能从楼上直接看见入海口。画中三位儿童和成人讲解员均为现代教学角色，不是王之涣。",
+        "imageAlt": "《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画",
+        "imageCaption": "《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，帮助理解登高望远，不是唐代原楼测绘或王之涣生前现场。",
         "audio": {
           "lead": {
             "id": "quest-78d9b35c620db96d",
@@ -842,8 +874,8 @@
             "text": "哪幅画出更上一层的行动？"
           },
           "image": {
-            "id": "quest-3759d7173e92a3ce",
-            "text": "这张是跟王之涣更上一层楼 · 四幅现代读诗情境。“欲穷千里目，更上一层楼”，说想看得更远，就再上一层。小伙伴在低处有些河面被树挡住，准备跟成人沿楼梯上楼。"
+            "id": "quest-6278d88b0f3631ba",
+            "text": "这张是《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画。“欲穷千里目，更上一层楼”，说想看得更远，就再上一层。小伙伴在低处有些河面被树挡住，准备跟成人沿楼梯上楼。"
           },
           "right": {
             "id": "quest-d16687132a2ce8d3",
@@ -946,13 +978,13 @@
           "displayText": "同一处景色，在低处被近处树梢和屋顶挡住一些。到了上层，更多河面露出来。诗里的登楼愿望，现在可以用两幅图比较。",
           "narration": "同一处景色，在低处被近处树梢和屋顶挡住一些。到了上层，更多河面露出来。诗里的登楼愿望，现在可以用两幅图比较。"
         },
-        "assetId": "tower-story-v1",
-        "image": "/content/step-images/tower-story-v1.jpg",
+        "assetId": "tower-main-scene-v1",
+        "image": "/content/step-images/tower-main-scene-v1.jpg",
         "studyImage": "/content/study-scenes/study-5c491411ea1340cf.svg",
         "studyImageAlt": "河面为什么看得更多了",
-        "imageAlt": "跟王之涣更上一层楼 · 四幅现代读诗情境",
-        "imageCaption": "跟王之涣更上一层楼 · 四幅现代读诗情境",
-        "imageBoundary": "采用通行王之涣署名与简体文本；不指定确切写作年。照片是2002年重建的楼，2020年拍摄，不是唐代原楼。插画为现代读诗情境，非楼体复原、真实地理全景或精确视距模型；“入海”是远景联想，不能从楼上直接看见入海口。画中三位儿童和成人讲解员均为现代教学角色，不是王之涣。",
+        "imageAlt": "《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画",
+        "imageCaption": "《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画",
+        "imageBoundary": "现代读诗情境插画，帮助理解登高望远，不是唐代原楼测绘或王之涣生前现场。",
         "audio": {
           "lead": {
             "id": "quest-b1f8d8067cae24ca",
@@ -971,8 +1003,8 @@
             "text": "哪幅看见了更多河面？"
           },
           "image": {
-            "id": "quest-9e11f456bffac3a1",
-            "text": "这张是跟王之涣更上一层楼 · 四幅现代读诗情境。同一处景色，在低处被近处树梢和屋顶挡住一些。到了上层，更多河面露出来。诗里的登楼愿望，现在可以用两幅图比较。"
+            "id": "quest-5f6942cb25754785",
+            "text": "这张是《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画。同一处景色，在低处被近处树梢和屋顶挡住一些。到了上层，更多河面露出来。诗里的登楼愿望，现在可以用两幅图比较。"
           },
           "right": {
             "id": "quest-10e6b0a9e0002c36",
@@ -1325,6 +1357,20 @@
     }
   ],
   "assets": [
+    {
+      "id": "tower-main-scene-v1",
+      "title": "《登鹳雀楼》登高远望山河夕阳 · 单景读诗插画",
+      "localPath": "reference-assets/2026-11-18-enlightenment/tower-main-scene-v2.png",
+      "runtimeMaxEdge": 1536,
+      "sourcePage": "https://openai.com/policies/terms-of-use/",
+      "sourceFile": null,
+      "licensePath": "reference-assets/2026-11-18-enlightenment/ATTRIBUTION.md",
+      "license": "项目自制教学插画，仅用于本项目",
+      "clearance": "cleared-project-created",
+      "caption": "现代读诗情境插画，不是唐代鹳雀楼原貌",
+      "boundary": "现代读诗情境插画，帮助理解登高望远，不是唐代原楼测绘或王之涣生前现场。",
+      "childVisibility": "child-ok"
+    },
     {
       "id": "study-ecdf9e4a3f4d8165",
       "title": "学习示意：时间定位：去唐朝听诗",

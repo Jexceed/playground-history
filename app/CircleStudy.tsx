@@ -18,14 +18,17 @@ export function CircleStudy({locked,onRefine,practice=false}:{locked:boolean;onR
     if(locked||stage===CIRCLE_STAGES.length-1)return;
     const next=stage+1;setStage(next);onRefine(CIRCLE_STAGES[next]);
   };
+  const selectStage=(next:number)=>{
+    if(!locked&&!practice)return;
+    setStage(next);onRefine(CIRCLE_STAGES[next]);
+  };
   return <div className="circle-study" data-current-sides={sides}>
     <div className="circle-study-pair">
       <figure><CircleDiagram sides={6} label="原来六条直边，与圆之间留有空隙"/><figcaption>原来 · 6条边</figcaption></figure>
       <figure><CircleDiagram sides={sides} label={`现在${sides}条直边，仍在同样大小的圆里`}/><figcaption>现在 · {sides}条边</figcaption></figure>
     </div>
     <p role="status">{sides===6?'看看直边与圆边之间的空隙。':sides===12?'边变多，空隙变小。再试一次。':'空隙更小了，仍然是直边图形。'}</p>
-    <button className="circle-refine-button" onClick={refine} disabled={locked||sides===24}>把边分细一点</button>
-    {practice&&stage>0&&<button className="circle-reset-button" onClick={()=>{setStage(0);onRefine(6);}}>再看六条边</button>}
+    {locked||practice?<div className="circle-compare-pills" role="group" aria-label="切换边数再比一比">{CIRCLE_STAGES.map((count,index)=><button key={count} type="button" className={stage===index?'active':''} onClick={()=>selectStage(index)}>{count}条边</button>)}</div>:<button className="circle-refine-button" onClick={refine} disabled={locked||sides===24}>把边分细一点</button>}
     <small>同一个圆的学习示意 · 不复原古人完整计算</small>
   </div>;
 }
