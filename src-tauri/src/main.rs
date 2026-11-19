@@ -138,4 +138,14 @@ mod tests {
             &tauri::Url::parse("file:///etc/passwd").unwrap()
         ));
     }
+    #[test]
+    fn main_window_starts_maximized_without_fullscreen() {
+        let config: tauri::utils::config::Config =
+            serde_json::from_str(include_str!("../tauri.conf.json")).unwrap();
+        let window = &config.app.windows[0];
+        assert!(window.maximized);
+        assert!(!window.fullscreen);
+        assert!(!window.center);
+        assert!(window.resizable);
+    }
 }

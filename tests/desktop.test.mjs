@@ -37,6 +37,15 @@ test('local asset extraction rejects traversal and excludes external resources',
  assert.equal(publicPath('https://example.com/images/a.png'),null);assert.equal(publicPath('//example.com/images/a.png'),null);
  assert.throws(()=>publicPath('/images/../outside.json'));assert.equal(publicPath('/images/a.png?version=1'),'/images/a.png');
 });
+test('the main desktop window starts maximized without fullscreen or post-zoom recentering',()=>{
+ const config=JSON.parse(fs.readFileSync('src-tauri/tauri.conf.json','utf8'));
+ const main=config.app?.windows?.find(w=>w.label==='main');
+ assert.ok(main);
+ assert.equal(main.maximized,true);
+ assert.equal(main.fullscreen,false);
+ assert.notEqual(main.center,true);
+ assert.equal(main.resizable,true);
+});
 
 test('route-only images are packaged without sweeping unrelated research or hidden chapter files',()=>{
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'history-desktop-routes-'));

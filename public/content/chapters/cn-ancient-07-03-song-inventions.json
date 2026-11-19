@@ -395,16 +395,7 @@
           "nextLabel": "看看字块怎样分开",
           "kind": "fictional-guide-scene"
         },
-        "concepts": [
-          {
-            "term": "活字",
-            "meaning": "一个字做一块小印章，印完还能拆开重排的字块",
-            "audio": {
-              "id": "quest-fc5bb2b9c960b24f",
-              "text": "活字：一个字做一块小印章，印完还能拆开重排的字块。"
-            }
-          }
-        ],
+        "concepts": null,
         "inspection": {
           "id": "wooden-movable-type-museum-display",
           "title": "木活字展示 · 后来的材料",
@@ -529,7 +520,7 @@
         "icon": "🔎",
         "phase": "一块一个字，先排成一页",
         "title": "一块一个字，先排成一页",
-        "prompt": "分开的小字块，可以重新安排",
+        "prompt": "分开的小字块，和整块雕版有什么不同？",
         "rightNote": "接下来只换中间一块，两旁的留下。",
         "wrongNote": "可以再听一遍。",
         "sourceIds": [
@@ -538,7 +529,7 @@
         ],
         "interaction": {
           "kind": "look-listen",
-          "hint": "听听问题，看看图里的线索。",
+          "hint": "听完活字的特点，点继续亲手换字印一页。",
           "continueLabel": "动手换中间的字"
         },
         "narrative": {
@@ -581,8 +572,8 @@
             "text": "雕版把一页刻在整块版上；活字把字做成分开的小块。小伙伴来到今天的体验工坊，看到字块排成一页，用完还可以拆开，再排别的内容。"
           },
           "question": {
-            "id": "quest-503d5cc16ce03051",
-            "text": "分开的小字块，可以重新安排"
+            "id": "quest-63c7c31c7e0cec16",
+            "text": "分开的小字块，和整块雕版有什么不同？"
           },
           "image": {
             "id": "quest-01afd625b50a7af6",
@@ -605,7 +596,7 @@
         "icon": "🧭",
         "phase": "这次只换中间一块",
         "title": "这次只换中间一块",
-        "prompt": "只换中间一块，试着印一页",
+        "prompt": "只换中间一块字，印出来会怎样？",
         "rightNote": "换了中间字，两旁仍在原处，印出来了。",
         "wrongNote": "再看看中间的空位。",
         "sourceIds": [
@@ -614,7 +605,7 @@
         ],
         "interaction": {
           "kind": "history-lab",
-          "hint": "听听问题，看看图里的线索。",
+          "hint": "按步骤取出旧字块、换入新字块再印到纸上。",
           "lab": {
             "kind": "printing",
             "stages": [
@@ -685,12 +676,12 @@
             "text": "我们用日、月、山三个简单字作学具。中间要换成月字，两旁不动。取出旧块，放入新块，最后看看纸上的印迹。"
           },
           "question": {
-            "id": "quest-e2ffd35d320fbef1",
-            "text": "只换中间一块，试着印一页"
+            "id": "quest-05f50ce7dd7a95c2",
+            "text": "只换中间一块字，印出来会怎样？"
           },
           "image": {
-            "id": "quest-02b129001eeb2197",
-            "text": "这是学习示意图：这次只换中间一块。只换中间一块，试着印一页"
+            "id": "quest-313ec5040b1ea93d",
+            "text": "这是学习示意图：这次只换中间一块。只换中间一块字，印出来会怎样？"
           },
           "right": {
             "id": "quest-befe36336e593420",
@@ -815,7 +806,7 @@
         "icon": "🗣️",
         "phase": "方法被记下，又被继续改进",
         "title": "方法被记下，又被继续改进",
-        "prompt": "前人留下办法，后人接着探索",
+        "prompt": "毕昇的活字办法是怎样传下来的？",
         "rightNote": "看真材料，也记得它们各自的时代。",
         "wrongNote": "可以再听一遍。",
         "sourceIds": [
@@ -824,7 +815,7 @@
         ],
         "interaction": {
           "kind": "look-listen",
-          "hint": "听听问题，看看图里的线索。",
+          "hint": "听完总结，点继续完成本章。",
           "continueLabel": "带着活字的发现回家"
         },
         "narrative": {
@@ -867,8 +858,8 @@
             "text": "毕昇的原套泥活字没有保存到今天。我们通过沈括的记载认识他的办法，也能看后来人的活字。印刷有不同方法，工匠会根据需要选择，雕版也一直被使用。"
           },
           "question": {
-            "id": "quest-8e27944c5931855d",
-            "text": "前人留下办法，后人接着探索"
+            "id": "quest-0665e3489c31c8c1",
+            "text": "毕昇的活字办法是怎样传下来的？"
           },
           "image": {
             "id": "quest-15b54e3ef0593600",

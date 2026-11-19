@@ -37,6 +37,7 @@ test('five new chapters keep real evidence, distinctive history and the shared f
     }
   }
   const [migration,jiangnan,wei,math,deer]=chapters.map(c=>c.gameplay);
+  assert.match(migration.steps[0].audio.lead.text,/北齐.*南北朝|南北朝.*北齐/);
   assert.match(migration.steps[1].audio.intro.text,/同时存在.*短暂统一.*并立/);
   assert.match(migration.steps[1].audio.intro.text,/分批.*当地原有/);
   assert.match(jiangnan.coverAudio.text,/人做哪些事/);
@@ -47,6 +48,7 @@ test('five new chapters keep real evidence, distinctive history and the shared f
   assert.equal(math.steps[2].interaction.kind,'circle-refine');
   assert.deepEqual(math.steps[2].interaction.refinements.map(s=>s.sides),[12,24]);
   assert.match(math.steps[0].inspection.caption,/1936/);
+  assert.match(math.steps[0].audio.lead.text,/南朝/);
   assert.match(math.steps[0].inspection.boundary,/不是.*手稿/);
   assert.equal(math.presentation.practice.scene,'circle-refine');
   assert.ok(math.steps[3].options.every(o=>o.objectView.kind==='circle-model'));

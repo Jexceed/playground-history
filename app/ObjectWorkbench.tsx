@@ -46,7 +46,7 @@ type Step = {
   id: string; title: string; prompt: string; rightNote: string; wrongNote: string;
   narrative?:StoryScene|null;
   inspection?: (Evidence & {label:string;audio:Voice;placement?:"main"|"supporting";framing?:"landscape"|"panorama"|"object";openAlbum?:boolean;displayHeight?:number}) | null;
-  concepts?:Array<{term:string;meaning:string;audio?:Voice}>|null;
+  concepts?:Array<{term:string;meaning:string}>|null;
   image:string; imageAlt:string;
   story: { displayText: string }; interaction?: WorkbenchInteraction;
   audio: { lead?: Voice|null; transition: Voice; intro: Voice; question: Voice; right: Voice; wrong: Voice };
@@ -440,18 +440,6 @@ export function TimeRiverRibbon({ periodLabel, options, solved, worldTimeStop }:
   return null;
 }
 
-function ConceptChips({ concepts, listen, compact = false }: { concepts: NonNullable<Step["concepts"]>; listen: (ids: string[]) => void; compact?: boolean }) {
-  return <div className={compact ? "step-concepts-bar" : "measure-concepts"} role="group" aria-label="点一点听词语解释">
-    {concepts.map(concept => concept.audio ? (
-      <button key={concept.term} type="button" className="concept-audio-chip" onClick={() => listen([concept.audio!.id])} aria-label={`听词语解释：${concept.term}，${concept.meaning}`}>
-        <strong>{concept.term}</strong><span>{concept.meaning}</span><small aria-hidden="true"><SoundIcon/></small>
-      </button>
-    ) : (
-      <div key={concept.term} className="concept-static-chip"><strong>{concept.term}</strong><span>{concept.meaning}</span></div>
-    ))}
-  </div>;
-}
-
 export function WorkbenchChoiceArt({ option }: { option: Pick<Option,"label"|"objectView"> }) {
   const view=option.objectView;
   if(view?.kind==='polity-panel')return <PolityDiagram index={view.windowIndex??0}/>;
@@ -527,7 +515,7 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
         <button className="quest-artifact-picture" data-image-framing={step.inspection.framing} onClick={onInspect} aria-label={step.inspection.label}><Image src={step.inspection.image} alt={step.inspection.title} width={1200} height={700} loading="eager" style={step.inspection.displayHeight?{height:step.inspection.displayHeight}:undefined} unoptimized/><span>{step.inspection.caption}</span></button>
         <h2>{step.inspection.title}</h2>
         {step.inspection.openAlbum&&photoAlbum&&<PhotoAlbumButton album={photoAlbum} onOpen={onInspect}/>}
-        {step.concepts&&<ConceptChips concepts={step.concepts} listen={listen}/>}
+        {step.concepts&&<div className="measure-concepts" aria-label="核心词语">{step.concepts.map(concept=><div key={concept.term}><strong>{concept.term}</strong><span>{concept.meaning}</span></div>)}</div>}
       </div>:kind==='timeline'?<div className="quest-date-map" aria-label={`时间从前到后：${step.options.map(o=>`${o.objectView?.name??o.label} ${o.objectView?.date??""}`).join("，")}`}>
         <p>{episode?.caption}</p><div className="quest-date-stops">{step.options.map(option=><div className={`quest-date-stop ${picked?.id===option.id&&option.correct?'arrived':''}`} key={option.id}>{option.objectView&&<EraMarker view={option.objectView}/>}<strong>{option.objectView?.name}</strong><span>{option.objectView?.date}</span></div>)}</div><span className="quest-date-direction">时间向前走 →</span>
       </div>:<div className="workbench-scene">
@@ -545,7 +533,6 @@ export function ObjectWorkbench({step,seed,presentation,photoAlbum,periodLabel,s
         </div>
       </div>}
       {sceneFind&&<p className="scene-find-label">{step.interaction?.imageLabel??"故事插画"}</p>}
-      {step.concepts&&!((kind==='timeline'||lookListen)&&step.inspection&&step.inspection.placement!=='supporting')&&<ConceptChips concepts={step.concepts} listen={listen} compact/>}
       {step.inspection&&((kind!=='timeline'&&!lookListen)||step.inspection.placement==='supporting')&&<button className="real-object-link" onClick={onInspect}><Image src={step.inspection.image} alt={step.inspection.title} width={150} height={95} unoptimized/><span><small>真实材料 · 点开看一看</small><strong>{step.inspection.label}</strong></span><span className="object-magnify" aria-hidden="true">⌕</span></button>}
     </div>
     <div className="workbench-task">

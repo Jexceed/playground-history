@@ -33,7 +33,7 @@ for(const chapter of focused.chapters){
   if(step.interaction?.imageLabel&&!['实物照片','文物图像','故事插画'].includes(step.interaction.imageLabel))throw new Error(`${chapter.id}/${i}: unknown scene image label`);
   for(const option of step.options)if(option.objectView?.kind==='circle-model'&&(![6,12,24].includes(option.objectView.sides)||option.visual.kind!=='circle-study'||option.visual.sides!==option.objectView.sides))throw new Error(`${chapter.id}/${i}: inconsistent circle drawing`);
   if(step.concepts!==undefined){
-   if(!Array.isArray(step.concepts)||step.concepts.length<1||step.concepts.length>3||step.concepts.some(c=>typeof c?.term!=='string'||typeof c?.meaning!=='string'||!c.term.trim()||!c.meaning.trim()||[...c.term].length>10||[...c.meaning].length>28))throw new Error(`${chapter.id}/${i}: invalid step concepts`);
+   if(!Array.isArray(step.concepts)||step.concepts.length<1||step.concepts.length>3||step.concepts.some(c=>typeof c?.term!=='string'||typeof c?.meaning!=='string'||!c.term.trim()||!c.meaning.trim()||[...c.term].length>6||[...c.meaning].length>10))throw new Error(`${chapter.id}/${i}: invalid step concepts`);
   }
   if(step.interaction?.sceneAspectRatio!==undefined&&(!Number.isFinite(step.interaction.sceneAspectRatio)||step.interaction.sceneAspectRatio<.5||step.interaction.sceneAspectRatio>4))throw new Error(`${chapter.id}/${i}: invalid scene aspect ratio`);
   if(step.interaction?.imageCrop){

@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-19",
+  "scope": {
+    "modifiedCodeFiles": [
+      "src-tauri/tauri.conf.json",
+      "src-tauri/src/main.rs",
+      "tests/desktop.test.mjs"
+    ],
+    "windowConfig": {
+      "label": "main",
+      "width": 1280,
+      "height": 720,
+      "minWidth": 1100,
+      "minHeight": 700,
+      "maximized": true,
+      "fullscreen": false,
+      "center": false,
+      "resizable": true
+    }
+  },
+  "checks": {
+    "contentValidateAssets": "passed (121 chapters, 1232 assets, 1227/1227 local cache files)",
+    "nodeTests": "108/108 passed (includes content:pack + vinext build)",
+    "rustTests": "3/3 passed (aarch64-apple-darwin)",
+    "eslint": "passed",
+    "typecheckApp": "passed"
+  },
+  "macosBundle": {
+    "bundleIdentifier": "com.jexceed.historytrip",
+    "binarySha256": "e9539d27792f7ea44604837d207c50b94e5dacb0948f00f56ce6540bd6e9c30a",
+    "copiesVerified": [
+      "src-tauri/target/aarch64-apple-darwin/release/bundle/macos/小小历史旅行团.app/Contents/MacOS/history-trip",
+      "release/小小历史旅行团.app/Contents/MacOS/history-trip",
+      "/Applications/小小历史旅行团.app/Contents/MacOS/history-trip"
+    ],
+    "codesignStrictVerify": "passed",
+    "devPortsListening": {
+      "4173": false,
+      "1420": false
+    },
+    "offlineBundle": {
+      "chapters": 62,
+      "voiceLines": 2984,
+      "assetCount": 3950
+    }
+  },
+  "nativeWindowVerification": {
+    "display": {
+      "frameLogical": {
+        "x": 0,
+        "y": 0,
+        "width": 1512,
+        "height": 982
+      },
+      "visibleFrameCocoa": {
+        "x": 0,
+        "y": 78,
+        "width": 1512,
+        "height": 871
+      },
+      "backingScaleFactor": 2.0
+    },
+    "launchedWindowCoreGraphics": {
+      "x": 0,
+      "y": 33,
+      "width": 1512,
+      "height": 871,
+      "estimatedContentAreaLogical": {
+        "width": 1512,
+        "height": 840
+      },
+      "windowLayer": 0,
+      "isFullscreen": false,
+      "matchesVisibleFrame": true
+    },
+    "relaunchViaCommandScript": "passed (1512x871 at (0, 33), layer 0)",
+    "progressPersistence": {
+      "completedCount": 31,
+      "byteIdentical": true,
+      "resumePositionPreserved": true
+    },
+    "tccBlocksInShell": {
+      "screenCaptureAccess": false,
+      "accessibilityTrusted": false
+    }
+  }
+}

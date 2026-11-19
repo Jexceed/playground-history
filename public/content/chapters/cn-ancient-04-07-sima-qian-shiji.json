@@ -82,11 +82,13 @@
     "related": [
       {
         "chapterId": "cn-ancient-03-03-hundred-schools",
-        "relation": "比较两章的材料与用途，留意人物、年代和任务不同。"
+        "relation": "孔子生活在春秋，西汉司马迁阅读旧籍并实地考察才把他写进《史记》，分清被记录的人与写史的人。"
       }
     ],
     "reviewStatus": "content-quality-reviewed-family-test-pending",
     "glossaryTerms": [
+      "竹简",
+      "刊本",
       "证据",
       "文化"
     ]
@@ -153,6 +155,20 @@
     }
   ],
   "glossary": [
+    {
+      "term": "竹简",
+      "icon": "🎋",
+      "plain": "纸还没有普及时，古人把竹子削平编连起来写字的材料。",
+      "example": "写同样多的字，一册竹简比纸重得多。",
+      "priority": 1
+    },
+    {
+      "term": "刊本",
+      "icon": "📚",
+      "plain": "把字刻在版上或排成版，印在纸上做成的书本。",
+      "example": "明刊本《史记》保存了西汉司马迁的著作，但不是司马迁亲笔手稿。",
+      "priority": 1
+    },
     {
       "term": "证据",
       "icon": "🔎",
@@ -260,7 +276,7 @@
         "reunionFit": "contain",
         "coverCaption": "司马迁怎样把过去的事留下来？",
         "coverNarration": "司马迁没见过比自己早的孔子，怎样知道过去的事？小伙伴去找旧书和记录，看看写历史需要哪些材料。",
-        "closingCaption": "写历史，要去找材料。",
+        "closingCaption": "带着写史的发现回家",
         "closingLine": "写历史，要去找材料。",
         "closingNarration": "西汉司马迁阅读史籍、游历并搜集材料，把不同时代的人和事写进《史记》。后人继续注释和刊印；写更早的人，不等于亲眼见过他们。",
         "fictionNote": "书影是明刊本，不是司马迁手稿。现代阅览室里由现代讲解员陪伴共学；桌上的竹简复制品与两张人物画片是今天的学习道具，不是古人写真。访问记录属于待核对材料，不把流传故事直接当作已证实的事实。",
@@ -364,7 +380,7 @@
       "text": "西汉司马迁阅读史籍、游历并搜集材料，把不同时代的人和事写进《史记》。后人继续注释和刊印；写更早的人，不等于亲眼见过他们。"
     },
     "finish": {
-      "title": "写历史，要去找材料。",
+      "title": "写历史，要去找真材料！",
       "actions": [
         "家长问：司马迁没见过孔子，可以先找什么？孩子指旧书和记录的图。",
         "找一本家里的书，分清所写的人、作者和这一本的出版时间。"
@@ -401,7 +417,7 @@
         "icon": "🕰️",
         "phase": "先找到写书的人所在的时代",
         "title": "先找到写书的人所在的时代",
-        "prompt": "司马迁编写史记，在哪一朝？",
+        "prompt": "司马迁编写《史记》，在哪一朝？",
         "rightNote": "在汉朝，司马迁整理过去的人和事。",
         "wrongNote": "明代是眼前刊本的年代，作者在更早的汉朝。",
         "sourceIds": [
@@ -411,7 +427,7 @@
         ],
         "interaction": {
           "kind": "timeline",
-          "hint": "听清故事，再看看眼前的线索。"
+          "hint": "分清写书的朝代与后来印书的朝代。"
         },
         "narrative": {
           "scene": "detail",
@@ -422,24 +438,7 @@
           "retry": "明代是眼前刊本的年代，作者在更早的汉朝。",
           "nextLabel": "没见过古人，还能找材料"
         },
-        "concepts": [
-          {
-            "term": "史书",
-            "meaning": "专门把过去真实发生的人和事记下来的书",
-            "audio": {
-              "id": "quest-635f68ddd7b4859a",
-              "text": "史书：专门把过去真实发生的人和事记下来的书。"
-            }
-          },
-          {
-            "term": "刊本",
-            "meaning": "后人刻版印刷流传下来的书本",
-            "audio": {
-              "id": "quest-0919d01cebd4fb38",
-              "text": "刊本：后人刻版印刷流传下来的书本。"
-            }
-          }
-        ],
+        "concepts": null,
         "inspection": {
           "id": "shiji-ming-edition",
           "title": "明刊《史记》书影",
@@ -493,8 +492,8 @@
         "imageBoundary": "现代博物馆阅览室教学插画，由现代讲解员陪伴孩子认识竹简复制品、考察记录本与春秋孔子、西汉司马迁两张时代图卡；不再混入古装人物同桌，画片也不是古人写真。",
         "audio": {
           "lead": {
-            "id": "quest-abdc1142acc8e63b",
-            "text": "司马迁在西汉编写史记，眼前是后人刊印的书。司马迁编写史记，在哪一朝？"
+            "id": "quest-e806a6afd6335075",
+            "text": "司马迁在西汉编写《史记》，眼前是后人刊印的书。司马迁编写《史记》，在哪一朝？"
           },
           "transition": {
             "id": "quest-19107e897ec33162",
@@ -505,8 +504,8 @@
             "text": "司马迁在西汉编写《史记》。眼前是很久以后刊印的书页，里面还保留后人的注释，不是司马迁亲笔。"
           },
           "question": {
-            "id": "quest-9c03e16dcf3c3d3d",
-            "text": "司马迁编写史记，在哪一朝？"
+            "id": "quest-18119b0c852269da",
+            "text": "司马迁编写《史记》，在哪一朝？"
           },
           "image": {
             "id": "quest-24b91e1b4cff80dc",
@@ -575,7 +574,7 @@
         ],
         "interaction": {
           "kind": "look-listen",
-          "hint": "听清故事，再看看眼前的线索。",
+          "hint": "听完司马迁怎样找材料，点继续。",
           "continueLabel": "为两位人物找对应的图卡"
         },
         "narrative": {
@@ -587,16 +586,7 @@
           "retry": "人物的时代要分别核对。",
           "nextLabel": "先找已经留下的材料"
         },
-        "concepts": [
-          {
-            "term": "竹简",
-            "meaning": "纸还不普遍时，古人写字用的细竹片",
-            "audio": {
-              "id": "quest-2fbf579543e765ae",
-              "text": "竹简：纸还不普遍时，古人写字用的细竹片。"
-            }
-          }
-        ],
+        "concepts": null,
         "inspection": null,
         "story": {
           "screenNumber": 2,
@@ -661,7 +651,7 @@
         ],
         "interaction": {
           "kind": "pick",
-          "hint": "听清故事，再看看眼前的线索。",
+          "hint": "比一比旧书记录与新画想象的区别。",
           "selectionFraming": "detail",
           "choiceArt": "illustrated"
         },
@@ -791,7 +781,7 @@
         ],
         "interaction": {
           "kind": "pick",
-          "hint": "听清故事，再看看眼前的线索。",
+          "hint": "看看谁生活在春秋，谁在汉代写史。",
           "selectionFraming": "detail",
           "choiceArt": "illustrated"
         },
@@ -965,7 +955,7 @@
         ],
         "interaction": {
           "kind": "pick",
-          "hint": "听清故事，再看看眼前的线索。",
+          "hint": "分清早先写成的著作与后人刊印的书本。",
           "selectionFraming": "detail",
           "choiceArt": "illustrated"
         },

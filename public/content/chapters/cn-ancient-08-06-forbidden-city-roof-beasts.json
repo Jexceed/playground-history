@@ -121,7 +121,7 @@
     {
       "id": "time",
       "icon": "🕰️",
-      "label": "从真实材料走进明朝",
+      "label": "从宫殿屋脊走进明朝",
       "text": "北京宫殿在明朝1420年建成，后来多次维修重建。照片里的太和殿，是清代重建后的形制。我们先回到明朝建宫殿的时候，再看今天留下的小兽。"
     },
     {
@@ -462,8 +462,8 @@
         "id": "time",
         "questionKind": "time-location",
         "icon": "🕰️",
-        "phase": "从真实材料走进明朝",
-        "title": "从真实材料走进明朝",
+        "phase": "从宫殿屋脊走进明朝",
+        "title": "从宫殿屋脊走进明朝",
         "prompt": "北京宫殿1420年建成，在哪一朝？",
         "rightNote": "从明代始建，再看到清代重建后的样子。",
         "wrongNote": "清代重建在后，1420年建成在明朝。",
@@ -477,7 +477,7 @@
         },
         "narrative": {
           "scene": "workshop",
-          "caption": "从真实材料走进明朝",
+          "caption": "从宫殿屋脊走进明朝",
           "speaker": "小伙伴",
           "responseSpeaker": "小伙伴",
           "response": "从明代始建，再看到清代重建后的样子。",
@@ -485,24 +485,7 @@
           "nextLabel": "先看小兽的两种意义",
           "kind": "fictional-guide-scene"
         },
-        "concepts": [
-          {
-            "term": "故宫",
-            "meaning": "北京城中心明清两代皇帝居住和办公的宫殿群",
-            "audio": {
-              "id": "quest-0e60a4832871b5ff",
-              "text": "故宫：北京城中心明清两代皇帝居住和办公的宫殿群。"
-            }
-          },
-          {
-            "term": "琉璃瓦",
-            "meaning": "表面烧有一层发亮彩色釉的宫殿屋顶瓦片",
-            "audio": {
-              "id": "quest-b6e8411cc17a177b",
-              "text": "琉璃瓦：表面烧有一层发亮彩色釉的宫殿屋顶瓦片。"
-            }
-          }
-        ],
+        "concepts": null,
         "inspection": {
           "id": "forbidden-city-hall-current-photo",
           "title": "故宫太和殿区域现状照片",
@@ -542,7 +525,7 @@
         },
         "story": {
           "screenNumber": 1,
-          "title": "从真实材料走进明朝",
+          "title": "从宫殿屋脊走进明朝",
           "screenText": "北京宫殿在明朝1420年建成，后来多次维修重建。照片里的太和殿，是清代重建后的形制。我们先回到明朝建宫殿的时候，再看今天留下的小兽。",
           "displayText": "北京宫殿在明朝1420年建成，后来多次维修重建。照片里的太和殿，是清代重建后的形制。我们先回到明朝建宫殿的时候，再看今天留下的小兽。",
           "narration": "北京宫殿在明朝1420年建成，后来多次维修重建。照片里的太和殿，是清代重建后的形制。我们先回到明朝建宫殿的时候，再看今天留下的小兽。"
@@ -560,8 +543,8 @@
             "text": "北京宫殿1420年在明朝建成，今天太和殿则经历清代重建。先找1420年建宫殿的时候，应该选哪一朝？"
           },
           "transition": {
-            "id": "quest-f743a58cdb4b8575",
-            "text": "从真实材料走进明朝。"
+            "id": "quest-ef1f722556613f11",
+            "text": "从宫殿屋脊走进明朝。"
           },
           "intro": {
             "id": "quest-ae60376cdd7332f0",
@@ -639,7 +622,7 @@
         ],
         "interaction": {
           "kind": "look-listen",
-          "hint": "听听问题，看看图里的线索。",
+          "hint": "听完屋脊小兽的来历，点继续看真实照片。",
           "continueLabel": "去真照片里找小兽"
         },
         "narrative": {
@@ -706,7 +689,7 @@
         "icon": "🧭",
         "phase": "照片里，谁在队伍前面",
         "title": "照片里，谁在队伍前面",
-        "prompt": "先找骑在凤凰上的仙人雕像",
+        "prompt": "哪里是骑在凤凰上的仙人雕像？",
         "rightNote": "仙人与走兽，是不同的屋脊装饰。",
         "wrongNote": "先看队伍最前面，再看后面的一排。",
         "sourceIds": [
@@ -737,15 +720,15 @@
           "rounds": [
             {
               "id": "rider",
-              "question": "先找骑在凤凰上的仙人雕像",
+              "question": "哪里是骑在凤凰上的仙人雕像？",
               "targetId": "rider",
               "feedback": "前面的仙人雕像，不算在十只走兽里。",
               "retry": "这一排是走兽，再看队伍最前端。",
               "nextLabel": "再找仙人后面的一排走兽",
               "audio": {
                 "question": {
-                  "id": "quest-adec83edc5b27762",
-                  "text": "先找骑在凤凰上的仙人雕像"
+                  "id": "quest-3829736a8a55f8b8",
+                  "text": "哪里是骑在凤凰上的仙人雕像？"
                 },
                 "right": {
                   "id": "quest-b90f736bf5cc3fce",
@@ -759,15 +742,15 @@
             },
             {
               "id": "beasts",
-              "question": "再找仙人后面的一排走兽",
+              "question": "哪里是仙人后面的一排走兽？",
               "targetId": "beasts",
               "feedback": "这是走兽队伍，我们不必背下每个名字。",
               "retry": "仙人在前面，走兽排在它的后方。",
               "nextLabel": "用模型看看构件的用途",
               "audio": {
                 "question": {
-                  "id": "quest-1bbd0feab00aa08d",
-                  "text": "再找仙人后面的一排走兽"
+                  "id": "quest-1482d34d336fe5df",
+                  "text": "哪里是仙人后面的一排走兽？"
                 },
                 "right": {
                   "id": "quest-9a4fed35e1d39efe",
@@ -811,7 +794,7 @@
           "licensePath": null,
           "license": "CC BY-SA 3.0",
           "clearance": "cleared-open-license",
-          "caption": "今天太和殿屋脊上的十只脊兽与骑凤仙人。",
+          "caption": "太和殿屋脊 · 骑凤仙人与十只走兽现状",
           "boundary": "2014年现状照片，现存太和殿为清康熙重建形制；十只走兽不含骑凤仙人，也不含后面的大构件。儿童局部观察保留原图入口，不要求逐一认出兽名。 今天太和殿屋脊上的十只脊兽与骑凤仙人。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/taihe-hall-ten-roof-beasts-current-photo.jpg",
@@ -855,8 +838,8 @@
         "imageBoundary": "2014年现状照片，现存太和殿为清康熙重建形制；十只走兽不含骑凤仙人，也不含后面的大构件。儿童局部观察保留原图入口，不要求逐一认出兽名。",
         "audio": {
           "lead": {
-            "id": "quest-adec83edc5b27762",
-            "text": "先找骑在凤凰上的仙人雕像"
+            "id": "quest-a21a2a88009522ed",
+            "text": "先找骑在凤凰上的仙人雕像。"
           },
           "transition": {
             "id": "quest-70c12880529c124a",
@@ -867,8 +850,8 @@
             "text": "照片最前面是骑凤仙人，后面才是十只走兽。仙人雕像不算走兽。先找队伍前面的仙人，再找跟在后面的一排小兽。"
           },
           "question": {
-            "id": "quest-adec83edc5b27762",
-            "text": "先找骑在凤凰上的仙人雕像"
+            "id": "quest-3829736a8a55f8b8",
+            "text": "哪里是骑在凤凰上的仙人雕像？"
           },
           "image": {
             "id": "quest-576e5493f48037aa",
@@ -944,7 +927,7 @@
           "licensePath": null,
           "license": "CC BY-SA 3.0",
           "clearance": "cleared-open-license",
-          "caption": "今天太和殿屋脊上的十只脊兽与骑凤仙人。",
+          "caption": "太和殿屋脊 · 骑凤仙人与十只走兽现状",
           "boundary": "2014年现状照片，现存太和殿为清康熙重建形制；十只走兽不含骑凤仙人，也不含后面的大构件。儿童局部观察保留原图入口，不要求逐一认出兽名。 今天太和殿屋脊上的十只脊兽与骑凤仙人。",
           "childVisibility": "child-ok",
           "image": "/content/step-images/taihe-hall-ten-roof-beasts-current-photo.jpg",
@@ -1035,7 +1018,7 @@
         ],
         "interaction": {
           "kind": "look-listen",
-          "hint": "听听问题，看看图里的线索。",
+          "hint": "听完总结，点继续完成本章。",
           "continueLabel": "带着屋脊的发现回家"
         },
         "narrative": {

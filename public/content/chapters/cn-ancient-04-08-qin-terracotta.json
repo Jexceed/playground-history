@@ -49,7 +49,7 @@
     ],
     "place": "秦始皇陵与今天的博物馆",
     "culture": "秦代工匠与兵马俑",
-    "care": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。 彩绘近照与原跪射俑照片分别登记，不据两张照片断言是同一件的前后状态；不由残红补出完整配色。今天的灰色表面不能直接代表原貌，颜色脱落也不能简单归结为见空气就氧化。",
+    "care": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。彩绘近照与原跪射俑照片分别登记，不据两张照片断言是同一件的前后状态；不由残红补出完整配色。今天的灰色表面不能直接代表原貌，颜色脱落也不能简单归结为见空气就氧化。",
     "preferredAssetId": "qin-kneeling-archer",
     "playableSource": "content/focused-quests.json"
   },
@@ -74,7 +74,7 @@
     "related": [
       {
         "chapterId": "cn-ancient-04-01-qin-unification",
-        "relation": "比较两章的材料与用途，留意人物、年代和任务不同。"
+        "relation": "同属秦代实物证据：铁权诏文记录统一度量衡制度，兵马俑与彩绘残迹展示帝陵陪葬与制陶彩绘工艺。"
       }
     ],
     "reviewStatus": "content-quality-reviewed-family-test-pending",
@@ -206,7 +206,7 @@
     },
     "cta": "去找陶俑的彩绘线索",
     "anchor": "秦代工匠与兵马俑",
-    "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。 彩绘近照与原跪射俑照片分别登记，不据两张照片断言是同一件的前后状态；不由残红补出完整配色。今天的灰色表面不能直接代表原貌，颜色脱落也不能简单归结为见空气就氧化。",
+    "boundary": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。彩绘近照与原跪射俑照片分别登记，不据两张照片断言是同一件的前后状态；不由残红补出完整配色。今天的灰色表面不能直接代表原貌，颜色脱落也不能简单归结为见空气就氧化。",
     "evidence": [
       {
         "id": "qin-kneeling-archer",
@@ -278,8 +278,8 @@
         "reunionFit": "contain",
         "coverCaption": "兵马俑留下了哪些线索？",
         "coverNarration": "秦始皇陵旁的陶人，原来只有土色吗？小伙伴发现铠甲上还留着红色，去找工匠留下的彩绘线索。",
-        "closingCaption": "陶俑原来还有颜色！",
-        "closingLine": "陶俑原来还有颜色！",
+        "closingCaption": "带着彩绘陶俑的发现回家",
+        "closingLine": "姿态、铠甲和残红，都是工匠留下的线索。",
         "closingNarration": "兵马俑是秦陵的陪葬陶塑，原来还涂有颜色。姿态、铠甲和彩绘残迹留下不同线索；保护好原物，才能继续研究。",
         "fictionNote": "陶俑不是活人变成的，也不能从一张照片认出真实士兵姓名。故事图是博物馆学习情境；不模拟作战、文物拆装或发掘。 彩绘近照与原跪射俑照片分别登记，不据两张照片断言是同一件的前后状态；不由残红补出完整配色。今天的灰色表面不能直接代表原貌，颜色脱落也不能简单归结为见空气就氧化。",
         "reunionImage": "/content/step-images/qin-terracotta-visit-v1.jpg",
@@ -418,7 +418,7 @@
         ],
         "interaction": {
           "kind": "timeline",
-          "hint": "听清故事，再看看眼前的线索。"
+          "hint": "听听秦始皇陵的线索，选出朝代。"
         },
         "narrative": {
           "scene": "detail",
@@ -429,16 +429,7 @@
           "retry": "汉朝在秦之后，这些兵马俑来自秦代。",
           "nextLabel": "先弄清它为什么在这里"
         },
-        "concepts": [
-          {
-            "term": "兵马俑",
-            "meaning": "陪葬在秦始皇陵旁、跟真人差不多高的陶土兵马",
-            "audio": {
-              "id": "quest-1b0d6f397f0d3cf4",
-              "text": "兵马俑：陪葬在秦始皇陵旁、跟真人差不多高的陶土兵马。"
-            }
-          }
-        ],
+        "concepts": null,
         "inspection": {
           "id": "qin-kneeling-archer",
           "title": "秦代跪射俑",
@@ -563,7 +554,7 @@
         ],
         "interaction": {
           "kind": "pick",
-          "hint": "听清故事，再看看眼前的线索。",
+          "hint": "分清展柜里的秦代陶塑和今天参观的人。",
           "selectionFraming": "detail",
           "choiceArt": "illustrated"
         },
@@ -691,7 +682,7 @@
         ],
         "interaction": {
           "kind": "scene-find",
-          "hint": "听清故事，再看看眼前的线索。",
+          "hint": "在真陶俑照片上点出对应的部位。",
           "imageLabel": "实物照片",
           "sceneAspectRatio": 0.6666666666666666,
           "hotspots": [
@@ -1013,7 +1004,7 @@
         ],
         "interaction": {
           "kind": "pick",
-          "hint": "听清故事，再看看眼前的线索。",
+          "hint": "想想研究原来的颜色要靠什么证据。",
           "selectionFraming": "detail",
           "choiceArt": "illustrated"
         },

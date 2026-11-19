@@ -409,16 +409,7 @@
           "nextLabel": "听听画里的城市",
           "kind": "fictional-guide-scene"
         },
-        "concepts": [
-          {
-            "term": "长卷",
-            "meaning": "横着慢慢展开、把整座城和河岸画下来的长画",
-            "audio": {
-              "id": "quest-07c7094bc0683003",
-              "text": "长卷：横着慢慢展开、把整座城和河岸画下来的长画。"
-            }
-          }
-        ],
+        "concepts": null,
         "inspection": {
           "id": "qingming-scroll-rainbow-bridge-detail",
           "title": "张择端《清明上河图》虹桥局部",
@@ -539,7 +530,7 @@
         "icon": "🔎",
         "phase": "河流把货物带到城市",
         "title": "河流把货物带到城市",
-        "prompt": "先看看桥下，再看看桥上",
+        "prompt": "汴河的船与虹桥上的人各在忙什么？",
         "rightNote": "找找画里不同的路和工作。",
         "wrongNote": "可以再听一遍。",
         "sourceIds": [
@@ -548,7 +539,7 @@
         ],
         "interaction": {
           "kind": "look-listen",
-          "hint": "听听问题，看看图里的线索。",
+          "hint": "看完真画里的桥上桥下，点继续找一找。",
           "continueLabel": "在真画里找一找"
         },
         "narrative": {
@@ -623,8 +614,8 @@
             "text": "画中的汴河是运输的水路。桥下船工忙着过桥，桥上行人和商贩往来。有人运货、有人搬运、有人买卖，城市生活靠不同工作接在一起。"
           },
           "question": {
-            "id": "quest-c0e1dc221385450c",
-            "text": "先看看桥下，再看看桥上"
+            "id": "quest-b8cb0122d6121456",
+            "text": "汴河的船与虹桥上的人各在忙什么？"
           },
           "image": {
             "id": "quest-3885b42fdb7a0035",
@@ -647,7 +638,7 @@
         "icon": "🧭",
         "phase": "从真画里找水路和桥",
         "title": "从真画里找水路和桥",
-        "prompt": "找到在河里运输的船",
+        "prompt": "哪里是在河里运货的船？",
         "rightNote": "桥上桥下，各有通行的办法。",
         "wrongNote": "再看看河面和桥面。",
         "sourceIds": [
@@ -677,15 +668,15 @@
           "rounds": [
             {
               "id": "boat",
-              "question": "找到在河里运输的船",
+              "question": "哪里是在河里运货的船？",
               "targetId": "boat",
               "feedback": "船把货物沿水路带来。",
               "retry": "这里是桥面，再看看河里的船。",
               "nextLabel": "再找行人过河的路",
               "audio": {
                 "question": {
-                  "id": "quest-2169d9de5af04833",
-                  "text": "找到在河里运输的船"
+                  "id": "quest-325074a0dccaa354",
+                  "text": "哪里是在河里运货的船？"
                 },
                 "right": {
                   "id": "quest-0f4e9e925cb13e77",
@@ -763,8 +754,8 @@
             "text": "跟小伙伴看看这幅真画：河船走水路，行人可以从桥上过去。先找船，再找过河的桥。"
           },
           "question": {
-            "id": "quest-2169d9de5af04833",
-            "text": "找到在河里运输的船"
+            "id": "quest-325074a0dccaa354",
+            "text": "哪里是在河里运货的船？"
           },
           "image": {
             "id": "quest-624b2251b7c163e9",
@@ -916,7 +907,7 @@
         "icon": "🗣️",
         "phase": "热闹里，也看见不同生活",
         "title": "热闹里，也看见不同生活",
-        "prompt": "把人的工作也看进画里",
+        "prompt": "热闹的街市背后，离不开哪些人的劳动？",
         "rightNote": "城市的日常，是许多劳动接起来的。",
         "wrongNote": "可以再听一遍。",
         "sourceIds": [
@@ -925,7 +916,7 @@
         ],
         "interaction": {
           "kind": "look-listen",
-          "hint": "听听问题，看看图里的线索。",
+          "hint": "听完总结，点继续完成本章。",
           "continueLabel": "带着城市的发现回家"
         },
         "narrative": {
@@ -1000,8 +991,8 @@
             "text": "长卷让我们看见许多人的工作。画家只画了他选择的场景，不能说明所有人过得一样。看见热闹，也别忘了撑船、搬运和做东西的人。"
           },
           "question": {
-            "id": "quest-767eb33b69eedae2",
-            "text": "把人的工作也看进画里"
+            "id": "quest-3fd1beded0cb9c85",
+            "text": "热闹的街市背后，离不开哪些人的劳动？"
           },
           "image": {
             "id": "quest-6a17a0a995f021c2",

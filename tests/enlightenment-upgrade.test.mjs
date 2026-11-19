@@ -151,6 +151,15 @@ test("enlightenment upgrade awakens 3 Pre-Qin origin chapters, adds starter rout
 
   assert.equal(scope.chapterIds.length, 62);
   assert.equal(scope.periodIds.length, 15);
+  const shortNotes = scope.chapterIds.flatMap(id =>
+    focused.get(id).steps.flatMap((step, index) =>
+      step.concepts?.length ? [[id, index, step.concepts.map(note => note.term)]] : []
+    )
+  );
+  assert.deepEqual(shortNotes, [
+    ["cn-ancient-04-01-qin-unification", 0, ["度", "量", "衡"]],
+    ["cn-ancient-04-02-han-governance", 0, ["五铢钱", "五铢"]],
+  ]);
   for (const id of [
     "cn-ancient-01-02-first-farmers",
     "cn-ancient-02-02-oracle-bronze",
@@ -160,12 +169,11 @@ test("enlightenment upgrade awakens 3 Pre-Qin origin chapters, adds starter rout
     const detail = read(`public/content/chapters/${id}.json`);
     assert.equal(detail.gameplay.steps.length, 5);
     assert.ok(detail.gameplay.photoAlbum.photos.length >= 2);
+    assert.ok(detail.glossary.length >= 3, `${id} should keep parent-layer glossary terms`);
     for (const [i, step] of detail.gameplay.steps.entries()) {
       const heard = stepVoiceIds(step).map((vid) => voices.get(vid)).join(" ");
       assert.ok(heard.length > 8, `${id}/${i} entry voice must be non-empty`);
-      for (const concept of step.concepts ?? []) {
-        assert.ok(concept.audio?.id && voices.has(concept.audio.id), `${id}/${i} concept audio missing`);
-      }
+      assert.equal(step.concepts, null, `${id}/${i} should not crowd the child artifact/scene column with dictionary chips`);
     }
   }
 
